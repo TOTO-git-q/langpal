@@ -1,101 +1,150 @@
-# 糖糖绝密外语私教（LangPal）
+# LangPal
 
-和糖糖一起备考外语的桌面 app：托福、雅思、四级、六级、高考英语、日语 N1 六门备考课，阅读、听力、口语、复习，JINE 聊天，糖糖的 Live2D 小窗。
+LangPal 是一个面向个人使用的语言学习应用，将 AI 对话、阅读、听力、口语和间隔复习放在同一个界面中。项目以 Windows 桌面端为主，也可以通过本机浏览器使用。
 
-## 下载
+界面参考《NEEDY GIRL OVERDOSE》中的 JINE，默认角色为糖糖，并提供 Live2D 陪伴窗口。本项目是爱好者二次创作，与原作方无关。
 
-到 [Releases](../../releases) 下载两个分卷 `.7z.001` 和 `.7z.002`，放在同一个文件夹，用 [7-Zip](https://www.7-zip.org/) 解压 `.001`，打开里面的 `LangPal.exe`。
+## 主要功能
 
-- 只支持 Windows 64 位。解压后约 6.5 GB。
-- 第一次打开要在「设置 → 模型与账号」填一个模型的 API 密钥（推荐 DeepSeek，也能用 Claude、ChatGPT 或任何 OpenAI 兼容接口）。
-- 朗读的声音已经自带（英语 Kokoro、日语 VOICEVOX）；口语课第一次用时会提示下载语音识别模型（约 1.6 GB）。
-- 所有数据只存在你自己的电脑上。
+- **AI 对话**：选择目标语言和角色，支持多角色聊天、长期记忆、单词释义与句子解析。
+- **阅读练习**：阅读文章、论文、教材或导入的 PDF，并生成相关练习。
+- **听力练习**：支持语音合成、盲听、答题、逐句精听和听写。
+- **口语练习**：对接独立的 speaking-coach 服务，查看课程、对话记录和学习报告。
+- **课程与复习**：提供备考课程，将生词、句型和阅读、听力错题加入间隔复习队列。
+- **课程管家**：通过对话调整课程、资料来源和练习设置，修改前可预览，并支持撤销。
+- **角色自定义**：配置人设、世界书和事件规则；Live2D 小窗支持对话、朗读及部分应用操作。
 
-## 致谢与说明
+快捷键：`Ctrl+1` 至 `Ctrl+5` 切换聊天、学习、复习、课程管家和设置；`Ctrl+K` 返回聊天输入框。
 
-- 日语语音：VOICEVOX:ナースロボ＿タイプＴ（[VOICEVOX](https://voicevox.hiroshiba.jp/) 引擎，按各声线的使用规定使用）。
-- 英语语音：[Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M)（Apache-2.0）。
-- Live2D 显示用 Live2D Cubism SDK。
-- 糖糖、JINE 的形象和界面取自《NEEDY GIRL OVERDOSE》（WSS playground），本项目是爱好者二次创作，与原作方无关。
+## 安装与运行
 
----
+本仓库提供 LangPal 的源码，按以下步骤配置并运行。
 
-# LangPal（界面叫 JINE）
+### 环境准备
 
-一个只说目标语言的聊天对象，加上围着它长出来的学习工具。单人自用，跑在本机。
+- Windows，以及可在终端中调用的 Python。
+- 如需运行桌面窗口，还需安装 Node.js 和 npm。
+- 至少配置一个可用的模型服务或账号，才能使用 AI 功能。
 
-外观取自《NEEDY GIRL OVERDOSE》里的聊天软件 JINE。
+后端依赖见 [backend/requirements.txt](backend/requirements.txt)。前端使用原生 HTML、CSS 和 JavaScript，无需构建。
 
-## 里面有什么
+### 从源码启动
 
-- **聊天**：一条主聊天。一个主人设（默认是糖糖），可以拨语言、开趣味模式（随机语言）；副人设按时机进场、会插话。她有长期记忆、会回忆以前聊过的事、会主动开口。点词出释义，点句出解析。
-- **她的小窗**：糖糖在一扇独立的小窗里陪着你，切到别的页面她还在。小窗底下能直接跟她说话（像直播间发弹幕），她知道你正开着哪一页，回答冒在头顶，可以念出来；你让她做，她能替你切页面、开听力、开复习、改设置。
-- **学习**：今天做什么 → 阅读（新闻、论文、教材、自己的 PDF；读完出题）→ 听力（本机合成，两个女声；盲听、答题、逐句精听和听写）→ 口语（嵌入的口语课程序；有字幕，能导出 SRT）。
-- **复习**：生词、句型、阅读和听力的错题在同一个队列里按间隔复习。
-- **课程管家**：用对话改设置——课程、世界书、来源、题型、排版。改动先预览再生效，能撤销。
-- **世界书和事件规则**：酒馆式的世界书，能导入酒馆的文件；事件规则让她在合适的时候做合适的事。糖糖自带一本照原作写的书和一组规则（`authoring/lore/`）。
+克隆仓库：
 
-快捷键：Ctrl+1…5 切分区（聊天、学习、复习、课程管家、设置），Ctrl+K 回到聊天输入框。
-
-## 怎么跑
-
-日常用装好的 `LangPal.exe`（开始菜单或任务栏）。它启动时自己拉起后端，退出时关掉。
-
-开发时：
-
-```bash
-run.bat
+```powershell
+git clone https://github.com/TOTO-git-q/langpal.git
+cd langpal
 ```
 
-然后浏览器开 <http://127.0.0.1:8787>。桌面壳：`start-desktop.bat`。
+启动后端：
 
-后端只接受本机访问。要从局域网别的设备开，把那个地址写进环境变量 LANGPAL_ALLOWED_HOSTS（逗号分隔），再设一个至少 16 位的 LANGPAL_ACCESS_TOKEN；那台设备先打开 http://<地址>:<端口>/unlock?code=<访问码> 一次。
+```powershell
+.\run.bat
+```
 
-改完后端代码要重启服务（没有热重载）；按进程号关，别按名字关。
+脚本会创建 `.venv`、安装后端依赖，并在 <http://127.0.0.1:8787> 启动服务。首次运行需要联网下载依赖。
 
-## 目录
+需要桌面窗口时，在项目根目录的另一个终端运行：
 
-| 位置 | 内容 |
-|---|---|
-| `backend/app/` | FastAPI 后端。`routers/` 是接口，`services/` 是逻辑，`providers/` 是各家模型 |
-| `backend/db/schema.sql` | 表结构；启动时自动迁移 |
-| `frontend/` | 纯静态前端，没有打包器。`js/` 一页一个文件，`css/` 一页一张表，设计变量在 `css/windose.css` |
-| `desktop/` | Electron 壳。改了 `main.js` / `preload.js` 要拷到 `%LOCALAPPDATA%\Programs\LangPal\resources\app\` |
-| `data/` | 用户数据：`langpal.db`、上传的图、头像、备份。不进 git |
-| `tests/` | `test_*.py` 是后端测试；`*.mjs` 是界面测试；`tests/ui/` 是带假数据的界面预览 |
-| `authoring/` | 生成预制课程的脚本 |
+```powershell
+.\start-desktop.bat
+```
 
-## 文档
+脚本会安装 Electron 依赖并启动窗口。桌面端会复用已运行的后端；如果后端未启动，则尝试使用项目的 `.venv` 启动它。关闭窗口只会停止由该窗口启动的后端。
 
-设计和接口约定在 `docs/`，每份都写了为什么这么做：
+### 配置模型
 
-- [主聊天](docs/MAIN-CHAT.md)：谁说话、说哪门语言、她怎么说话、界面
-- [世界书与事件规则](docs/LORE-AND-HOOKS.md)
-- [学习模块](docs/LEARNING.md)：复习调度、今天、难度、各模块的流程和依据的研究
-- [模型与账号](docs/model-capabilities.md)：四个引擎、会话与指针
-- [阅读与听力](READING-AND-LISTENING.md)、[听力](LISTENING.md)
-- 课程：`docs/COURSE-*.md`、`docs/CURRICULUM-SOURCES.md`
-- `docs/history/`：早期的接口记录。词卡、图片、密钥掩码那几部分仍然成立；聊天接口以 MAIN-CHAT.md 为准。
+打开 **设置 → 模型与账号**，选择连接方式：
 
-## 测试
+| 连接方式 | 所需配置 |
+| --- | --- |
+| DeepSeek | API 密钥 |
+| 自定义 OpenAI 兼容接口 | 服务地址、API 密钥及可用模型 |
+| Claude | 本机 Claude Code 登录 |
+| ChatGPT | 应用内账号授权 |
 
-```bash
+具体可用模型和功能取决于连接的服务及账号权限；使用费用由对应服务商收取。接口配置详见 [模型与账号](docs/model-capabilities.md)。
+
+### 可选组件
+
+- **英语等语言的语音合成**：Kokoro。需准备运行环境和模型文件，并设置 `LANGPAL_LISTENING_TTS_PYTHON` 与 `LANGPAL_LISTENING_TTS_ASSETS`。
+- **日语语音合成**：VOICEVOX。开发环境通过 `LANGPAL_VOICEVOX_ENGINE` 指定引擎 `run.exe` 的绝对路径。
+- **口语服务**：需单独准备 speaking-coach，在 `desktop/langpal.config.json` 的 `coachRoot` 中填写目录。语音识别模型由对应服务管理。
+- **英语、德语分词模型**：按需在项目虚拟环境中安装：
+
+```powershell
+.venv\Scripts\python -m spacy download en_core_web_sm
+.venv\Scripts\python -m spacy download de_core_news_sm
+```
+
+语音配置与使用方式见 [听力说明](LISTENING.md)。桌面配置见 [桌面端说明](desktop/README.md)。
+
+## 数据与隐私
+
+聊天记录、学习记录、上传文件和头像保存在本机的 `backend/data/` 中，数据库为 `langpal.db`。备份或迁移前，请先退出应用并停止后端，再复制该目录。
+
+**本地保存不代表完全离线。** 使用在线模型或外部语音服务时，处理请求所需的对话、文本或其他内容会发送至所选服务商。请根据资料的敏感程度选择服务，不要上传无权分享的内容。
+
+后端从 `backend/.env` 读取环境配置；该文件和用户数据目录不应提交到 Git。Windows 上的 ChatGPT 授权使用 DPAPI 加密保存于 `%LOCALAPPDATA%\LangPal\`。
+
+服务默认只监听本机，适用于个人使用。不要直接将默认配置暴露到公网。
+
+## 项目结构
+
+| 目录 | 内容 |
+| --- | --- |
+| `backend/app/` | FastAPI 后端：接口、业务逻辑及模型连接 |
+| `backend/db/schema.sql` | SQLite 表结构 |
+| `backend/data/` | 运行时生成的用户数据，不纳入版本控制 |
+| `frontend/` | 静态前端与资源 |
+| `desktop/` | Electron 窗口、后端进程管理及启动配置 |
+| `authoring/` | 课程内容生成脚本 |
+| `tests/` | 后端测试、浏览器测试及界面预览 |
+| `docs/` | 功能设计和接口说明 |
+
+## 开发与测试
+
+修改后端代码后需要重启服务，默认启动脚本不启用热重载。
+
+后端测试：
+
+```powershell
 .venv\Scripts\python -m unittest discover -s tests -p "test_*.py"
 ```
 
-```bash
+界面测试：
+
+```powershell
 powershell -File tests\ui\run-ui-tests.ps1
 ```
 
-看界面（假数据，不需要后端）：
+界面测试脚本的默认 Playwright 和 Chromium 路径与开发者本机有关。在其他电脑运行前，需通过 `LANGPAL_PLAYWRIGHT_MODULE` 和 `LANGPAL_CHROME_PATH` 指定本机对应路径。
 
-```bash
+使用模拟数据预览界面，无需启动后端：
+
+```powershell
 node tests/ui/preview.mjs
 ```
 
-截图在 `tests/ui/shots/`。
+## 相关文档
 
-## 密钥和账号
+- [主聊天](docs/MAIN-CHAT.md)
+- [世界书与事件规则](docs/LORE-AND-HOOKS.md)
+- [学习模块与复习调度](docs/LEARNING.md)
+- [课程管家](docs/COURSE-CONCIERGE.md)
+- [模型与账号](docs/model-capabilities.md)
+- [阅读与听力](READING-AND-LISTENING.md)
+- [听力配置](LISTENING.md)
+- [桌面端](desktop/README.md)
 
-- `.env`：DeepSeek 的 key、本机语音合成的路径。不进 git。
-- Claude 用本机 Claude Code 的登录；ChatGPT 在 设置 › 模型与账号 里登录，授权加密存在 `%LOCALAPPDATA%\LangPal\`。
+`docs/history/` 保留了早期接口记录，阅读时请与当前实现和对应模块文档核对。
+
+## 致谢与素材说明
+
+- 日语语音：[VOICEVOX](https://voicevox.hiroshiba.jp/)，默认声线标注为 **VOICEVOX:ナースロボ＿タイプＴ**。使用或分发时请遵守引擎及声线各自的使用规定。
+- 英语语音：[Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M)，采用 Apache-2.0 许可证。
+- Live2D 显示使用 Live2D Cubism SDK。
+- 糖糖角色与 JINE 界面元素来自《NEEDY GIRL OVERDOSE》（WSS playground），相关权利属于原权利方。
+
+第三方代码、模型、角色和美术素材各有其许可或使用条款；本仓库的公开不代表这些内容可不受限制地使用或再分发。
