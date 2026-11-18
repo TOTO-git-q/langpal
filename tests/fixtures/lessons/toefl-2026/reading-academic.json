@@ -1,0 +1,649 @@
+{
+  "id": "reading-academic",
+  "title": "Read an Academic Passage：200 词短文和五道题",
+  "goal": "五分钟读完一篇约 200 词的学术短文并答对五题里的四题：细节回原文核对，词义和推断靠上下文，看得出一句话在全文里起什么作用。",
+  "skill": "reading",
+  "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+  "points": [
+    {
+      "id": "locate",
+      "label": "事实和细节：回到原文那一句核对"
+    },
+    {
+      "id": "infer",
+      "label": "词义和推断：靠上下文，不靠背过的意思"
+    },
+    {
+      "id": "structure",
+      "label": "关系和目的：看出一句话、一段话在全文里起什么作用"
+    }
+  ],
+  "sources": [
+    {
+      "id": "spec",
+      "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+      "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+      "used": "题量、难度范围、文本始终可见"
+    },
+    {
+      "id": "overview",
+      "title": "ETS：Updated TOEFL iBT Test Overview",
+      "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+      "used": "题目说明、五种问题、考查的九项能力、官方样题"
+    },
+    {
+      "id": "lessonplan",
+      "title": "ETS：TOEFL iBT Reading Lesson Plans（教师用教案）",
+      "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-reading.pdf",
+      "used": "第 1 课：三项基本功（找主旨、查细节、按上下文猜词义）和各自的练法"
+    }
+  ],
+  "cards": [
+    {
+      "id": "facts",
+      "type": "facts",
+      "title": "这道题是什么",
+      "rows": [
+        {
+          "k": "在哪",
+          "v": "阅读部分三类题之一，5–15 题，也就是一到三篇。阅读共 50 题、约 30 分钟。",
+          "src": "spec 第 1、3 页"
+        },
+        {
+          "k": "读什么",
+          "v": "中学高年级到大学水平的说明文，约 200 词。题材来自历史、艺术与音乐、商业与经济、生命科学、自然科学、社会科学。不需要背景知识。",
+          "src": "overview 第 7 页"
+        },
+        {
+          "k": "问什么",
+          "v": "每篇五道单选题。可能问：事实信息、词在上下文里的意思、推断、观点之间的关系、全文或某一部分的目的。答题时文章一直在屏幕上。",
+          "src": "overview 第 7 页；spec 第 8 页"
+        },
+        {
+          "k": "官方说它考什么",
+          "v": "抓住主旨和基本语境；理解重要细节；读懂学术写作里的各种语法结构和复杂句；推断没有明说的意思；理解较广的学术词汇和比喻、习语；理解句子之间、段落之间的关系；看出全文或某一部分的修辞结构。",
+          "src": "overview 第 7 页"
+        },
+        {
+          "k": "难度",
+          "v": "官方标的范围是 B1 到 C2。",
+          "src": "spec 第 3 页"
+        },
+        {
+          "k": "官方教案点名的三项基本功",
+          "v": "找主旨；查找具体信息；按上下文猜词义。",
+          "src": "lessonplan 第 7 页"
+        }
+      ]
+    },
+    {
+      "id": "kinds",
+      "type": "table",
+      "title": "五种问题",
+      "intro": "官方说五道题可能问下面五样。题干的写法基本固定，看题干就知道是哪一种。",
+      "cols": [
+        "问什么",
+        "题干常见的样子",
+        "怎么做",
+        "错项长什么样"
+      ],
+      "rows": [
+        [
+          "事实信息",
+          "According to the passage, ...? / Why did ...? / What does the passage say about ...?",
+          "用题干里的名词回原文定位，读那一句和它的前一句。答案是原文的改写，不是原句。",
+          "原文有这些词，但说的是另一件事；把两处信息拼错。"
+        ],
+        [
+          "词义",
+          "The word “...” in the passage is closest in meaning to",
+          "先不看选项，在原句里自己换一个词；再把选项代回去读。",
+          "这个词在别处的常见意思，放在这句里不通。"
+        ],
+        [
+          "推断",
+          "What can be inferred about ...? / What does the author imply about ...?",
+          "找到相关的一两句，只往前推一步。",
+          "推得太远；原文根本没提。"
+        ],
+        [
+          "观点之间的关系",
+          "How does X differ from Y? / What is the relationship between ...?",
+          "找对比、因果、让步的信号词：but、in contrast、because、however、rather than。",
+          "把两边说反；把时间先后说成因果。"
+        ],
+        [
+          "目的",
+          "Why does the author mention ...? / What is the main purpose of paragraph 3?",
+          "看这个例子或这一段前面的那句话：它是在给哪句话作证。",
+          "只复述例子的内容，没有回答「为什么提它」。"
+        ]
+      ],
+      "src": "五样内容出自 overview 第 7 页；题干句式参照同页的官方样题和 lessonplan 第 4 页。"
+    },
+    {
+      "id": "structure",
+      "type": "table",
+      "title": "200 词短文常见的五种写法",
+      "intro": "篇幅这么短，一篇通常只用一种写法。读第一段就能认出来，认出来之后就知道后面该出现什么。",
+      "cols": [
+        "写法",
+        "第一段的信号",
+        "后面会出现什么",
+        "常考"
+      ],
+      "rows": [
+        [
+          "旧看法，新发现",
+          "people assumed / for a long time / it was once believed",
+          "In fact / however 后面是正确的解释",
+          "两种看法的区别；作者认同哪个"
+        ],
+        [
+          "现象，然后解释",
+          "一个问题或一个 why",
+          "原因一步一步展开",
+          "因果的每一环；提到某个例子的目的"
+        ],
+        [
+          "问题，然后解决",
+          "face a problem / the situation changed",
+          "The solution / In response",
+          "问题是怎么造成的；谁解决的"
+        ],
+        [
+          "一个总说，几个分说",
+          "three advantages / several reasons",
+          "The first / The second / The third",
+          "某个分点的细节；全文的目的"
+        ],
+        [
+          "双方你来我往",
+          "A 做了什么",
+          "B 的对策，A 再变",
+          "最后一段的作用；arms race 这类总结性的说法"
+        ]
+      ]
+    },
+    {
+      "id": "steps",
+      "type": "steps",
+      "title": "一篇怎么做",
+      "steps": [
+        {
+          "t": "一　读标题和第一段（30 秒）",
+          "d": "认出是哪一种写法，知道全文讲的是哪一件事。"
+        },
+        {
+          "t": "二　每一段只读第一句（20 秒）",
+          "d": "在脑子里给每段贴一个标签：这段讲原因，这段讲例外。答题时知道去哪一段找。"
+        },
+        {
+          "t": "三　按顺序做题，每题回原文",
+          "d": "不凭印象选。找到那一句，读它和它前后各一句，先自己答，再看选项。"
+        },
+        {
+          "t": "四　词义题把选项代回去读",
+          "d": "四个选项逐个放进原句，读通顺的那一个。"
+        },
+        {
+          "t": "五　最后用排除法收尾",
+          "d": "剩两个拿不准时，问：哪一个在原文里找得到出处？"
+        }
+      ],
+      "note": "本课的限时练习按一篇五题六分钟计。这是练习节奏，不是官方给的时间。"
+    },
+    {
+      "id": "signals",
+      "type": "table",
+      "title": "信号词",
+      "intro": "关系题和目的题的答案，几乎都挂在这些词上。",
+      "cols": [
+        "关系",
+        "信号词",
+        "它告诉你"
+      ],
+      "rows": [
+        [
+          "转折、纠正",
+          "but, however, in fact, yet, instead",
+          "后面才是作者要说的；前面常常是被否定的看法。"
+        ],
+        [
+          "对比",
+          "whereas, while, in contrast, unlike, rather than, different",
+          "两样东西的区别就在这一句。"
+        ],
+        [
+          "原因、结果",
+          "because, since, so, therefore, as a result, led to, which meant that",
+          "谁是因、谁是果，别弄反。"
+        ],
+        [
+          "举例",
+          "for example, such as, one suggestion is",
+          "这是在给前一句作证。"
+        ],
+        [
+          "让步",
+          "although, even though, at first ... however",
+          "先承认一点，重点在后半句。"
+        ],
+        [
+          "总结",
+          "in other words, this suggests that, a pattern that ... describe as",
+          "把前面的内容换个说法再说一遍，常被拿来出目的题。"
+        ],
+        [
+          "不确定",
+          "may, might, seem to, some historians argue, are still debating",
+          "作者没有下结论。选项里说得太肯定的要小心。"
+        ]
+      ]
+    },
+    {
+      "id": "vocab",
+      "type": "text",
+      "title": "词义题：把选项代回去",
+      "body": [
+        {
+          "p": "词义题考的是这个词在这一句里的意思。很多词你认识，但它的常见意思放在这里不通。做法分三步：遮住这个词，读整句；自己填一个词进去；再看哪个选项和你填的最接近。"
+        },
+        {
+          "box": "The yellow and orange pigments, which are more stable, then become visible."
+        },
+        {
+          "p": "前一句说没有水，chlorophyll 很快分解。这一句说黄色和橙色的色素 more stable，于是露了出来。和「很快分解」相对，所以 stable 在这里是「不容易分解、留得久」。"
+        },
+        {
+          "compare": {
+            "thin": "stable = 马厩；稳定的（比如价格稳定）",
+            "full": "stable ≈ lasting, not easily broken down",
+            "why": "背过的意思帮不上忙。上下文里和它相对的是 breaks down quickly。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "traps",
+      "type": "table",
+      "title": "错项的五种样子",
+      "cols": [
+        "样子",
+        "为什么会选它",
+        "怎么识破"
+      ],
+      "rows": [
+        [
+          "用了原文的词，说的是别的事",
+          "看着眼熟",
+          "把选项的主语和动词分别回原文核对。"
+        ],
+        [
+          "说反了",
+          "只记得提到过，没记住方向",
+          "回到那一句看是 more 还是 less、before 还是 after。"
+        ],
+        [
+          "原文没说",
+          "符合常识",
+          "找不到出处就不选。"
+        ],
+        [
+          "说得太满",
+          "意思大致对",
+          "原文是 may、some、usually，选项是 always、all、must，不选。"
+        ],
+        [
+          "范围不对",
+          "是对的，但只是一个细节",
+          "问全文或一段的目的时，答案要盖得住整段。"
+        ]
+      ]
+    },
+    {
+      "id": "worked",
+      "type": "check",
+      "title": "带着做一篇",
+      "points": [
+        "locate",
+        "infer",
+        "structure"
+      ],
+      "intro": "这一篇是「旧看法，新发现」的写法。五道题正好是五种问法各一道。先自己选，再看说明。",
+      "groups": [
+        {
+          "label": "Read an academic passage.",
+          "look": "passage",
+          "text": "Why Leaves Change Color\n\nIn autumn, the leaves of many trees turn from green to yellow, orange, and red. For a long time, people assumed that cold weather created these colors. In fact, the yellow and orange pigments are present in the leaf all summer; they are simply hidden by chlorophyll, the green substance that plants use to make food from sunlight.\n\nAs the days grow shorter, a tree prepares for winter by cutting off the supply of water to its leaves. Without water, chlorophyll breaks down quickly, and the green color fades. The yellow and orange pigments, which are more stable, then become visible.\n\nRed is different. Red pigments are not waiting inside the leaf; they are produced in autumn from sugar that becomes trapped there. Because sunny days help leaves make sugar and cool nights keep it from flowing out, a dry, bright autumn usually brings the most brilliant reds. Scientists are still debating why trees spend energy on a color they will soon throw away. One suggestion is that red pigments act as a kind of sunscreen, protecting the leaf while the tree recovers the last of its nutrients.",
+          "items": [
+            {
+              "stem": "According to the passage, why are yellow pigments not seen in summer?",
+              "options": [
+                "They have not yet been produced.",
+                "They are covered by chlorophyll.",
+                "They need cold weather to form.",
+                "They are destroyed by sunlight."
+              ],
+              "answer": 1,
+              "why": "事实信息。第一段：present in the leaf all summer; they are simply hidden by chlorophyll。A 和 C 正是被 In fact 否定的旧看法。",
+              "point": "locate"
+            },
+            {
+              "stem": "The word “stable” in the passage is closest in meaning to",
+              "options": [
+                "colorful",
+                "heavy",
+                "lasting",
+                "useful"
+              ],
+              "answer": 2,
+              "why": "词义。和前一句的 breaks down quickly 相对：不容易分解，留得久。",
+              "point": "infer"
+            },
+            {
+              "stem": "How do red pigments differ from yellow pigments?",
+              "options": [
+                "They break down more quickly.",
+                "They are hidden by chlorophyll.",
+                "They do not depend on sugar.",
+                "They are made in autumn."
+              ],
+              "answer": 3,
+              "why": "关系。Red is different 之后：not waiting inside the leaf; they are produced in autumn。B 说的是黄色素；C 说反了，红色素正是由糖变来的。",
+              "point": "structure"
+            },
+            {
+              "stem": "What can be inferred about an autumn with many cloudy days?",
+              "options": [
+                "Red colors will probably be less bright.",
+                "Leaves will fall earlier than usual.",
+                "Yellow colors will not appear.",
+                "Trees will produce more sugar."
+              ],
+              "answer": 0,
+              "why": "推断，只推一步。原文：sunny days help leaves make sugar，红色素来自糖，a dry, bright autumn 的红色最鲜艳。阴天多，糖少，红色就淡。B、C 原文没说，D 说反了。",
+              "point": "infer"
+            },
+            {
+              "stem": "Why does the author mention sunscreen?",
+              "options": [
+                "To explain how chlorophyll makes food",
+                "To show that cold damages leaves",
+                "To describe a possible function of red pigments",
+                "To compare trees with people"
+              ],
+              "answer": 2,
+              "why": "目的。前一句说科学家还在争论树为什么花力气造红色素，One suggestion is ... 是给这个问题的一个可能答案。",
+              "point": "structure"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "check-passage",
+      "type": "check",
+      "title": "练习　自己做一篇",
+      "points": [
+        "locate",
+        "infer",
+        "structure"
+      ],
+      "intro": "不计时。先读第一段，判断它是哪一种写法，再做题。",
+      "groups": [
+        {
+          "label": "Read an academic passage.",
+          "look": "passage",
+          "text": "One Time for Everyone\n\nBefore the late nineteenth century, every town kept its own time. Clocks were set so that noon was the moment when the sun stood highest in the sky, which meant that a town a few kilometers to the east was always a few minutes ahead. As long as people traveled by horse, these small differences caused no trouble.\n\nRailways changed the situation. A train moving quickly from city to city passed through dozens of local times in a single day, and printed timetables became almost impossible to read. In some stations, several clocks hung side by side, each showing the time used by a different railway company. Missed connections were common, and on single tracks, confusion about time occasionally led to collisions.\n\nThe solution came from the railway companies themselves rather than from governments. In 1883, railways in North America agreed to divide the continent into a small number of zones, each with one shared time. Many citizens objected at first, complaining that the railways were replacing the time of the sun with a time of their own. Within a few years, however, most cities had adopted the new system, and in 1884 an international conference extended the idea to the whole world.",
+          "items": [
+            {
+              "stem": "According to the passage, how did towns set their clocks before the late nineteenth century?",
+              "options": [
+                "By the time printed in railway timetables",
+                "By the position of the sun",
+                "By the clocks of the nearest large city",
+                "By an agreement among governments"
+              ],
+              "answer": 1,
+              "why": "事实信息。第一段：noon was the moment when the sun stood highest in the sky。",
+              "point": "locate"
+            },
+            {
+              "stem": "What can be inferred about travel by horse?",
+              "options": [
+                "It was too slow for differences in local time to matter.",
+                "It was more dangerous than travel by train.",
+                "It required travelers to carry several clocks.",
+                "It followed printed timetables."
+              ],
+              "answer": 0,
+              "why": "推断。As long as people traveled by horse, these small differences caused no trouble；下一段说火车 moving quickly 才出了问题。差别在速度。",
+              "point": "infer"
+            },
+            {
+              "stem": "Why does the author mention the clocks that hung side by side in some stations?",
+              "options": [
+                "To show that railway companies were wealthy",
+                "To explain how timetables were printed",
+                "To illustrate how confusing local times had become",
+                "To describe the first time zones"
+              ],
+              "answer": 2,
+              "why": "目的。前一句说时刻表几乎没法读，这个例子是在给它作证。",
+              "point": "structure"
+            },
+            {
+              "stem": "The word “objected” in the passage is closest in meaning to",
+              "options": [
+                "agreed",
+                "protested",
+                "traveled",
+                "waited"
+              ],
+              "answer": 1,
+              "why": "词义。后面紧跟 complaining that ...，再后面是 however, most cities had adopted：先反对，后来接受。",
+              "point": "infer"
+            },
+            {
+              "stem": "What does the passage say about the origin of time zones?",
+              "options": [
+                "They were introduced by railway companies, not by governments.",
+                "They were required by an international conference in 1883.",
+                "They were first used by towns east of the railways.",
+                "They were created to help people who traveled by horse."
+              ],
+              "answer": 0,
+              "why": "关系。The solution came from the railway companies themselves rather than from governments。B 把 1883 和 1884 两件事拼在了一起。",
+              "point": "structure"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "限时练习",
+      "minutes": 6,
+      "pass": 0.8,
+      "points": [
+        "locate",
+        "infer",
+        "structure"
+      ],
+      "intro": "一篇五题，六分钟。交卷后看每题的说明。隔一天换一篇再做；两篇都答对四题以上，这一课才算学会。",
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "label": "Read an academic passage.",
+              "look": "passage",
+              "text": "Hunting by Sound\n\nBats that hunt insects at night face an obvious problem: they must find small, fast prey in complete darkness. They solve it with echolocation. A bat sends out a rapid series of very high sounds, most of them above the range of human hearing, and then listens for the echoes that return from objects around it.\n\nThe echoes carry a surprising amount of information. The time an echo takes to come back tells the bat how far away an object is. A change in the pitch of the echo reveals whether the object is moving toward the bat or away from it. Even the texture of a surface can be judged, because a smooth leaf and a furry moth reflect sound differently.\n\nSome insects have developed defenses. Certain moths have simple ears tuned to the sounds bats make; when they hear an approaching bat, they dive suddenly toward the ground. A few species go further and produce clicking sounds of their own, which seem to interfere with the bat's ability to judge distance. In response, some bats have shifted to sounds that these moths cannot hear, a pattern that biologists describe as an arms race between hunter and prey.",
+              "items": [
+                {
+                  "stem": "According to the passage, what tells a bat how far away an object is?",
+                  "options": [
+                    "The pitch of the echo",
+                    "The loudness of the echo",
+                    "The time the echo takes to return",
+                    "The texture of the object"
+                  ],
+                  "answer": 2,
+                  "why": "事实信息。第二段：The time an echo takes to come back tells the bat how far away an object is。pitch 说的是物体朝哪边动。",
+                  "point": "locate"
+                },
+                {
+                  "stem": "The word “reveals” in the passage is closest in meaning to",
+                  "options": [
+                    "shows",
+                    "prevents",
+                    "repeats",
+                    "doubts"
+                  ],
+                  "answer": 0,
+                  "why": "词义。句子结构和上一句的 tells 平行：音高的变化让蝙蝠知道物体的动向。",
+                  "point": "infer"
+                },
+                {
+                  "stem": "What can be inferred about the sounds that bats use for hunting?",
+                  "options": [
+                    "They are produced only when insects are near.",
+                    "People cannot hear most of them.",
+                    "They travel farther than other sounds.",
+                    "Moths cannot detect any of them."
+                  ],
+                  "answer": 1,
+                  "why": "推断。第一段：most of them above the range of human hearing。D 说得太满：有些飞蛾有专门听这种声音的耳朵。",
+                  "point": "infer"
+                },
+                {
+                  "stem": "Why does the author mention a smooth leaf and a furry moth?",
+                  "options": [
+                    "To name two things that bats eat",
+                    "To explain why bats avoid trees",
+                    "To compare the speed of different echoes",
+                    "To show that echoes carry information about surfaces"
+                  ],
+                  "answer": 3,
+                  "why": "目的。because 前面那句：Even the texture of a surface can be judged。这两样东西是给它举的例子。",
+                  "point": "structure"
+                },
+                {
+                  "stem": "What is the main purpose of the third paragraph?",
+                  "options": [
+                    "To describe how insects and bats have each responded to the other",
+                    "To explain why moths are easier to catch than other insects",
+                    "To show that echolocation no longer works",
+                    "To compare the hearing of moths and humans"
+                  ],
+                  "answer": 0,
+                  "why": "目的。段首 Some insects have developed defenses，段尾 In response, some bats have shifted ...，最后用 arms race 总结。C 说得太满。",
+                  "point": "structure"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "label": "Read an academic passage.",
+              "look": "passage",
+              "text": "Cities and Rivers\n\nThe earliest large cities almost all grew up beside rivers, and the reason was not only the need for drinking water. A river offered three advantages that were difficult to obtain in any other way.\n\nThe first was food. Rivers that flooded each year left behind a layer of fresh soil, so farmers could harvest far more grain than their families needed. This surplus fed people who did not farm at all, such as builders, priests, and officials. The second advantage was transport. Before modern roads, moving heavy goods over land was slow and costly, whereas a single boat could carry the load of many animals. Cities on rivers therefore became natural centers of trade.\n\nThe third advantage is often overlooked: rivers encouraged organization. Floods had to be predicted, and canals had to be dug and repaired, tasks too large for one family or even one village. Communities that shared a river needed leaders who could plan the work and settle arguments over water. Some historians argue that the first governments, and perhaps the first written records, arose from exactly these demands. The same river that fed a city, in other words, also taught its people to cooperate.",
+              "items": [
+                {
+                  "stem": "What is the main purpose of the passage?",
+                  "options": [
+                    "To describe how ancient farmers controlled floods",
+                    "To explain several reasons why early cities developed beside rivers",
+                    "To compare river transport with modern roads",
+                    "To argue that the first governments were unfair"
+                  ],
+                  "answer": 1,
+                  "why": "目的。第一段：three advantages，后面 The first、The second、The third 逐条展开。A、C 只是其中的细节。",
+                  "point": "structure"
+                },
+                {
+                  "stem": "According to the passage, what made it possible for some people not to farm?",
+                  "options": [
+                    "Rivers provided drinking water.",
+                    "Boats carried goods cheaply.",
+                    "Farmers produced more grain than they needed.",
+                    "Leaders settled arguments over water."
+                  ],
+                  "answer": 2,
+                  "why": "事实信息。第二段：harvest far more grain than their families needed. This surplus fed people who did not farm at all。",
+                  "point": "locate"
+                },
+                {
+                  "stem": "The word “surplus” in the passage is closest in meaning to",
+                  "options": [
+                    "extra amount",
+                    "fresh soil",
+                    "yearly flood",
+                    "heavy load"
+                  ],
+                  "answer": 0,
+                  "why": "词义。This surplus 指回前一句的 far more grain than their families needed：多出来的那部分。",
+                  "point": "infer"
+                },
+                {
+                  "stem": "Why does the author compare a boat with animals?",
+                  "options": [
+                    "To show that boats were difficult to build",
+                    "To explain why river transport was cheaper than transport over land",
+                    "To suggest that animals were rarely used for farming",
+                    "To describe how goods were sold in cities"
+                  ],
+                  "answer": 1,
+                  "why": "关系。whereas 前面说陆路 slow and costly，后面说一条船顶得上许多牲口。对比的是成本。",
+                  "point": "structure"
+                },
+                {
+                  "stem": "What does the author imply about the first written records?",
+                  "options": [
+                    "They were kept by farmers rather than officials.",
+                    "They were used mainly for trade between cities.",
+                    "They certainly appeared before the first governments.",
+                    "They may have developed from the need to manage shared work on rivers."
+                  ],
+                  "answer": 3,
+                  "why": "推断。Some historians argue that the first governments, and perhaps the first written records, arose from exactly these demands；these demands 指预报洪水、修渠、调解用水纠纷。C 说得太满，原文是 perhaps。",
+                  "point": "infer"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "more": {
+        "kind": "academic",
+        "topics": [
+          "候鸟为什么排成人字形飞",
+          "古罗马的水道怎么送水",
+          "海水为什么是咸的",
+          "章鱼怎么变色",
+          "复利是怎么回事",
+          "人为什么会打哈欠",
+          "活字印刷和雕版印刷的区别",
+          "沙丘是怎么移动的",
+          "蚂蚁怎么找到回巢的路",
+          "同一件商品为什么对不同的人卖不同的价",
+          "古埃及人怎么测量土地",
+          "鲸鱼怎么交流",
+          "城市为什么比郊外热",
+          "从众实验说明了什么",
+          "陶器怎么帮考古学家断定年代",
+          "冰为什么浮在水上",
+          "集市和早期的货币",
+          "萤火虫为什么发光",
+          "记忆是怎么被改写的",
+          "梯田为什么能保住水土"
+        ]
+      }
+    }
+  ]
+}

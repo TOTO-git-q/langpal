@@ -1,0 +1,429 @@
+{
+ "id": "listening-news-main",
+ "title": "新闻主旨题",
+ "goal": "识别新闻导语的核心事件并判断主旨范围。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "event",
+   "label": "听出导语中的核心事件"
+  },
+  {
+   "id": "scope",
+   "label": "排除范围不符的新闻主旨"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "听力课程材料的依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "type",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "新闻主旨题问报道的主要内容或目的。mainly about 问主要内容，main purpose 问报道要告诉听众的主要事项。"
+    },
+    {
+     "box": "What is the news report mainly about? / What is the main purpose of the report?"
+    },
+    {
+     "p": "导语里的主体和主要动作是事件的核心。后文补充背景和结果。主旨要覆盖这个核心事件。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　识别问法",
+     "d": "mainly about 和 main purpose 指向整条报道。细节问法则询问具体事实。"
+    },
+    {
+     "t": "2　听取导语",
+     "d": "记录主体和主要动作。The library opened a garden 表示图书馆开放花园。"
+    },
+    {
+     "t": "3　核对后文",
+     "d": "判断后文如何补充事件。例如后文介绍开放时间和使用者，支持花园开放这一概括。"
+    },
+    {
+     "t": "4　比较范围",
+     "d": "只讲背景或只讲一个结果的选项范围太窄，可以排除。范围比报道宽的选项也要排除。"
+    }
+   ]
+  },
+  {
+   "id": "lead",
+   "type": "table",
+   "title": "导语与范围",
+   "cols": [
+    "情况",
+    "判断",
+    "例"
+   ],
+   "rows": [
+    [
+     "主体与动作",
+     "主体加动作，概括出事件。",
+     "A town opened a food market → The opening of a town market"
+    ],
+    [
+     "背景",
+     "背景解释事件的来历。",
+     "The hall was built in 1960. / The town reopened it today."
+    ],
+    [
+     "结果",
+     "结果说明事件的一项影响。",
+     "The new market has attracted more shoppers."
+    ],
+    [
+     "后文核对",
+     "后文细节应支持核心事件。",
+     "The market offers stalls and opens each weekend."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The town opened a new food market on Saturday. The old market closed two years ago. The new site has room for local producers, and shoppers can reach it by bus. The site includes a covered area for visitors. It will open each weekend, and the town has published its hours at the entrance. Local producers helped plan the market.\nWhat is the report mainly about?\n1. Changes in food production across the country\n2. The closure of the old town market\n3. The opening of a new town market\n4. The bus service used by market shoppers"
+    },
+    {
+     "p": "导语 opened a new food market 给出主要事件；后文介绍摊位与交通，支持第三项。旧市场关闭是背景，公交是一个细节。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "报道核心",
+    "范围不符的选项"
+   ],
+   "rows": [
+    [
+     "范围过宽",
+     "A town opens a food market.",
+     "Food markets throughout the country"
+    ],
+    [
+     "范围过宽",
+     "A school starts a garden club.",
+     "All school activities in the region"
+    ],
+    [
+     "只述背景",
+     "A town reopens an old hall.",
+     "The year the hall was built"
+    ],
+    [
+     "只述背景",
+     "A station adds a lift after complaints.",
+     "The complaints received by the station"
+    ],
+    [
+     "只述一个结果",
+     "A library opens a garden; visits rise.",
+     "The rise in library visits"
+    ],
+    [
+     "只述一个结果",
+     "A museum changes its hours; queues shorten.",
+     "The shorter queues at the museum"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "event",
+    "scope"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A village has opened a new bridge over the river. The previous bridge closed last year after an inspection."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is the report mainly about?",
+       "options": [
+        "The inspection last year",
+        "A new bridge over the river",
+        "All river crossings in the region",
+        "The closure of the old bridge"
+       ],
+       "answer": 1,
+       "why": "导语 has opened a new bridge over the river 是主要事件，第二项符合；旧桥的检查和关闭是背景。",
+       "point": "event"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A college has started an evening language course. Classes will meet in the library, which opened last spring."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is the main purpose of the report?",
+       "options": [
+        "To describe the library's opening",
+        "To explain all college courses",
+        "To announce an evening course",
+        "To describe classes in the library"
+       ],
+       "answer": 2,
+       "why": "依据是 has started an evening language course。报道的目的是宣布新开的晚间课程，第三项符合。",
+       "point": "event"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A local theater has added a Sunday performance. It has sold more tickets since the change."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is the report mainly about?",
+       "options": [
+        "The increase in ticket sales",
+        "The theater's earlier performances",
+        "All entertainment in the area",
+        "An additional theater performance"
+       ],
+       "answer": 3,
+       "why": "added a Sunday performance 是主要事件，第四项符合；第一项的售票增加只是一个结果。",
+       "point": "scope"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The city museum has reopened its garden. The museum building was completed forty years ago."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is the main purpose of the report?",
+       "options": [
+        "To report the garden's reopening",
+        "To date the museum building",
+        "To review every city garden",
+        "To describe museum construction"
+       ],
+       "answer": 0,
+       "why": "has reopened its garden 是这次报道的事件，第一项符合；建筑年代是背景。",
+       "point": "scope"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "event",
+    "scope"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The town of Elmford has opened a new cycling route between its railway station and the riverside park. The route follows a quiet street for most of its length and includes signs at each crossing. The town council approved the project last year after residents asked for a safer way to reach the park. Workers completed the signs and road markings last week. The route opened on Saturday, when families joined a short ride from the station. The council says the route is intended for both regular journeys and visits to the park. A map is available at the station and at the town information office. Local shop owners hope that more visitors will stop in the town center on their way to the river. The council will collect comments on the route during the next three months. It has not yet announced a decision on any further cycling routes in the town."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is the report mainly about?",
+       "options": [
+        "A new cycling route in Elmford",
+        "The council's approval last year",
+        "Cycling routes across the country",
+        "Local shops' hopes for more visitors"
+       ],
+       "answer": 0,
+       "why": "导语 has opened a new cycling route 是核心事件，后文介绍路线和开通情况，第一项符合。",
+       "point": "event"
+      },
+      {
+       "stem": "Which detail is background to the main event?",
+       "options": [
+        "The route opened on Saturday.",
+        "Families joined a ride from the station.",
+        "Residents requested a safer route last year.",
+        "The council is collecting comments on the route."
+       ],
+       "answer": 2,
+       "why": "依据是 after residents asked for a safer way to reach the park。这是修路线之前的情况，属于背景，第三项符合。",
+       "point": "scope"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "event",
+    "scope"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The Harbor Arts Center has introduced free lunchtime concerts in its main hall. The first performance took place on Wednesday, with a small group of local musicians playing for office workers and nearby residents. The center began planning the series last autumn after several businesses asked for more cultural events in the area. Concerts will now be held every Wednesday for the next two months. Each performance lasts about thirty minutes, and visitors do not need to book seats. The hall will open fifteen minutes before the music begins. The center's director said the short performances allow people to attend during a lunch break. Some visitors stayed afterward to look at an exhibition in another room. The director hopes the concerts will help more people discover the center. Staff will count attendance throughout the series before deciding whether to continue it later in the year. The center's evening classes will continue on their usual schedule."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is the report mainly about?",
+         "options": [
+          "A new series of lunchtime concerts",
+          "Businesses asking for cultural events",
+          "An exhibition visited after concerts",
+          "Changes to the center's evening classes"
+         ],
+         "answer": 0,
+         "why": "导语 has introduced free lunchtime concerts 是主要事件，后文都在说这组音乐会的安排，第一项符合。",
+         "point": "event"
+        },
+        {
+         "stem": "What is the main purpose of the report?",
+         "options": [
+          "To explain why evening classes ended",
+          "To announce concerts at the arts center",
+          "To compare every concert in the city",
+          "To report on a visit to an exhibition"
+         ],
+         "answer": 1,
+         "why": "导语说艺术中心推出午间音乐会，后文补充时间和入场安排。报道的目的是告知这组音乐会，第二项符合。",
+         "point": "event"
+        },
+        {
+         "stem": "Which possible headline states only one result of the concerts?",
+         "options": [
+          "Arts Center Introduces Lunchtime Music",
+          "Local Musicians Perform at New Series",
+          "Some Concert Visitors View Exhibition",
+          "Center Offers Free Wednesday Concerts"
+         ],
+         "answer": 2,
+         "why": "依据是 Some visitors stayed afterward to look at an exhibition。这只是音乐会带来的一个结果，第三项符合。",
+         "point": "scope"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The Eastfield town council has extended the opening hours of its recycling center. Starting this week, the center will remain open until seven in the evening on Tuesdays and Thursdays. It previously closed at five every weekday. The council made the change after residents said they could not always visit before leaving work. The center will keep its existing weekend hours, and the types of material it accepts will not change. Staff have placed notices at the entrance and published the revised schedule on the council's website. The center manager said the first evening attracted several families who had not used the service before. The council plans to check visitor numbers after three months and decide whether the later hours should continue. It is also collecting residents' comments through a form available at the center. No decision has been made about opening a second recycling site elsewhere in the town."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is the report mainly about?",
+         "options": [
+          "A proposal for a second recycling site",
+          "Families using the center for the first time",
+          "A national review of recycling services",
+          "Longer hours at a town recycling center"
+         ],
+         "answer": 3,
+         "why": "导语 has extended the opening hours 是报道核心，后文说明从何时开始和为什么改，第四项符合。",
+         "point": "event"
+        },
+        {
+         "stem": "Which headline is too broad for the report?",
+         "options": [
+          "Eastfield Center Extends Opening Hours",
+          "Every Recycling Center Changes Its Schedule",
+          "Later Closing at Eastfield Recycling Center",
+          "Town Responds to Requests for Later Hours"
+         ],
+         "answer": 1,
+         "why": "报道只讲 Eastfield 一处回收中心。第二项的 Every Recycling Center 把范围扩大了。",
+         "point": "scope"
+        },
+        {
+         "stem": "Which headline gives only the background to the main event?",
+         "options": [
+          "Eastfield Center Adds Evening Hours",
+          "Council Revises Recycling Center Schedule",
+          "Residents Report Difficulty Visiting Center",
+          "Town Center Extends Its Opening Hours"
+         ],
+         "answer": 2,
+         "why": "依据是 after residents said they could not always visit before leaving work。这是改时间之前的情况，只是背景，第三项符合。",
+         "point": "scope"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

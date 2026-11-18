@@ -1,0 +1,246 @@
+{
+ "id": "writing-mock",
+ "title": "模拟测试",
+ "goal": "能在本课规定的时间内完成一套连词成句题。",
+ "skill": "writing",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 写作",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "sentence",
+   "label": "完成连词成句"
+  },
+  {
+   "id": "timing",
+   "label": "在限定时间内完成"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、计分上限、测什么能力"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明、限时、官方样题和 4 分样例的评语、新旧分数对照表"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Writing Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-writing.pdf",
+   "used": "第 1 课答案页（限时、字数统计、无拼写检查），第 3 课（样题与样例）"
+  }
+ ],
+ "cards": [
+  {
+   "id": "instructions",
+   "type": "text",
+   "title": "说明",
+   "body": [
+    {
+     "p": "官方规格列出写作部分共 12 题，预计 23 分钟：Build a Sentence 10 题、Write an Email 1 题、Write for an Academic Discussion 1 题。邮件限时 7 分钟，学术讨论限时 10 分钟。"
+    },
+    {
+     "p": "本课只考连词成句，限时 6 分钟。邮件和学术讨论的限时写作，在各自的练习里完成。本课成绩不代表这两项写作的分数。"
+    },
+    {
+     "p": "每题先读前一句，再把词块排成一句完整的回应。已给的句首、句尾和标点不动，有一个词块用不上。"
+    },
+    {
+     "box": "Context: Is the delivery complete?\nGiven beginning: I am\nBlocks: not / sure / whether / it is / does\nGiven ending: complete.\nSentence: I am not sure whether it is complete."
+    },
+    {
+     "p": "例句中 whether 后面用陈述语序 it is，does 是多余的词块。排好后再核对主谓一致、动词形式、固定搭配和时间，如有 yesterday 就用过去时。"
+    }
+   ],
+   "src": "spec 第 6 页；overview 第 14–15 页；lessonplan 第 7 页",
+   "note": "6 分钟是本课程定的时间。spec 表格只给出写作部分的总时长，没有单列连词成句的时间。"
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "sentence",
+    "timing"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "Can we use the electronic scoreboard for this afternoon's match?",
+         "lead": "Do you know",
+         "chunks": [
+          "whether",
+          "the scoreboard",
+          "has been",
+          "repaired"
+         ],
+         "tail": "?",
+         "extra": [
+          "does"
+         ],
+         "why": "whether 引导间接问句，用陈述语序：the scoreboard has been repaired。这里用不上 does。",
+         "point": "sentence"
+        },
+        {
+         "stem": "Who designed the signs near the new entrance?",
+         "lead": "The designer",
+         "chunks": [
+          "who created",
+          "the campus logo",
+          "also designed",
+          "the new"
+         ],
+         "tail": "signs.",
+         "extra": [
+          "which"
+         ],
+         "why": "who created the campus logo 修饰 designer，also designed 是主句谓语。指人用 who，不用 which。",
+         "point": "sentence"
+        },
+        {
+         "stem": "Does the revised shuttle route take more time?",
+         "lead": "It is",
+         "chunks": [
+          "much",
+          "longer",
+          "than",
+          "the old"
+         ],
+         "tail": "one.",
+         "extra": [
+          "more"
+         ],
+         "why": "much 修饰比较级 longer，than 引出 the old one。longer 已是比较级，不再加 more。",
+         "point": "sentence"
+        },
+        {
+         "stem": "Where is the stapler that was on this table?",
+         "lead": "I",
+         "chunks": [
+          "have",
+          "put",
+          "it",
+          "back"
+         ],
+         "tail": "in the supply cupboard.",
+         "extra": [
+          "putting"
+         ],
+         "why": "have put 是现在完成时。代词 it 放在 put 和 back 之间。have 后面不接 putting。",
+         "point": "sentence"
+        },
+        {
+         "stem": "Why did the walkers reach a closed path?",
+         "lead": "Nobody",
+         "chunks": [
+          "told",
+          "us",
+          "that",
+          "the path was"
+         ],
+         "tail": "closed.",
+         "extra": [
+          "did"
+         ],
+         "why": "told 后面接人 us 和 that 从句。从句是 the path was closed，用不上 did。",
+         "point": "sentence"
+        },
+        {
+         "stem": "Are the safety shoes suitable for an entire workday?",
+         "lead": "They are",
+         "chunks": [
+          "not",
+          "comfortable",
+          "enough",
+          "for"
+         ],
+         "tail": "long shifts.",
+         "extra": [
+          "too"
+         ],
+         "why": "not comfortable enough for long shifts 表示不够舒适。enough 放在形容词后面，too 不能放在这里。",
+         "point": "sentence"
+        },
+        {
+         "stem": "The deadline for choosing a research topic is tomorrow.",
+         "lead": "I still need",
+         "chunks": [
+          "to decide",
+          "which topic",
+          "I",
+          "will"
+         ],
+         "tail": "choose.",
+         "extra": [
+          "do"
+         ],
+         "why": "need to decide 后面接 which topic I will choose。间接问句用陈述语序。will 已是助动词，不再加 do。",
+         "point": "sentence"
+        },
+        {
+         "stem": "Would a daytime ferry ticket cost as much as a night ticket?",
+         "lead": "A daytime ticket",
+         "chunks": [
+          "is",
+          "not",
+          "as expensive",
+          "as"
+         ],
+         "tail": "a night ticket.",
+         "extra": [
+          "than"
+         ],
+         "why": "not as expensive as 表示更便宜。as … as 是固定结构，不能换成 than。",
+         "point": "sentence"
+        },
+        {
+         "stem": "Did the equipment custodian give the climbing ropes back?",
+         "lead": "She",
+         "chunks": [
+          "has",
+          "already returned",
+          "the",
+          "ropes"
+         ],
+         "tail": ".",
+         "extra": [
+          "returning"
+         ],
+         "why": "has already returned the ropes 是现在完成时，already 在 has 和过去分词之间。has 后面不接 returning。",
+         "point": "timing"
+        },
+        {
+         "stem": "Can the volunteers enter the greenhouse before the guide arrives?",
+         "lead": "They must",
+         "chunks": [
+          "wait",
+          "until",
+          "the guide",
+          "opens"
+         ],
+         "tail": "the gate.",
+         "extra": [
+          "opening"
+         ],
+         "why": "must 后面接原形 wait。until 后面是完整的从句 the guide opens the gate，opening 不能作谓语。",
+         "point": "timing"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

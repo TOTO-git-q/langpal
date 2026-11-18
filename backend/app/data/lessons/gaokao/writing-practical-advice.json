@@ -1,0 +1,56 @@
+{
+ "id": "writing-practical-advice", "title": "建议信", "goal": "能针对具体困难提出建议并说明理由。", "skill": "写作", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "match", "label": "选择针对具体困难的建议"}, {"id": "reason", "label": "为建议补入对应的理由"}],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "建议信的结构、表达和知识点"}],
+ "cards": [
+  {"id": "structure", "type": "table", "title": "结构", "cols": ["部分", "作用", "例句"], "rows": [
+   ["回应困难", "指出对方遇到的具体问题。", "I understand that you have trouble finding time to read."],
+   ["提出建议", "提出可执行的行动。", "You could read for fifteen minutes after lunch."],
+   ["说明理由", "解释行动与困难的联系。", "This period is available even on busy days."],
+   ["预期帮助", "说明行动可能产生的帮助。", "A regular reading time may help you finish more books."]
+  ]},
+  {"id": "expressions", "type": "table", "title": "常用表达", "cols": ["句式", "例句", "用法"], "rows": [
+   ["could", "You could make a weekly plan.", "could 后接动词原形。"],
+   ["suggest doing", "I suggest keeping a reading log.", "suggest 后接动名词。"],
+   ["it would help to", "It would help to label each folder.", "to 后接动词原形。"],
+   ["说明理由", "This makes the notes easier to find.", "说明建议如何回应困难。"],
+   ["预期帮助", "This may help you remember the dates.", "may 表示可能的帮助。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "假定李华的同学常忘记作业截止日期，需要给他提出一条建议并说明理由。\n• Suggest a concrete action.\n• Explain how it helps.\nDraft: You could write each deadline in a calendar. Checking it every evening will help you see which task is due next."},
+   {"p": "建议是在日历上记下截止日期。理由是每晚查看日历，可以看到下一项要交的任务。两句都针对忘记截止日期这一困难。"}
+  ]},
+  {"id": "errors", "type": "table", "title": "常见错误", "cols": ["问题", "片段", "修改"], "rows": [
+   ["建议空泛", "You should do better.", "You could write each deadline in a calendar."],
+   ["指责读者", "You are careless and never plan.", "You could review your calendar each evening."],
+   ["建议偏离困难", "Buy a new notebook for drawing.", "Keep a list of deadlines in your notebook."],
+   ["理由不对应", "A calendar comes in many colors.", "A calendar shows which task is due next."]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["match", "reason"], "groups": [
+   {"text": "假定同学在准备演讲时经常忘记要点。", "items": [{"stem": "Which suggestion addresses the difficulty?", "options": ["You could write key words on a small card.", "You could try harder to remember everything.", "You could look at the audience more often.", "You could write the date of the speech down."], "answer": 0, "why": "困难是演讲时忘记要点。第一项把关键词写在卡片上，演讲时看卡片就能想起要点。", "point": "match"}]},
+   {"text": "假定同学寻找课堂笔记时需要花很长时间，建议是给文件夹标注科目。", "items": [{"stem": "Which reason supports the suggestion?", "options": ["Finding the notes takes a long time.", "The labels make each subject easier to find.", "The subjects are taught by several teachers.", "The folders are available in different colors."], "answer": 1, "why": "困难是找笔记慢。第二项说明标签让各科笔记更好找，把建议和困难联系起来。第一项只重复了困难。", "point": "reason"}]},
+   {"text": "假定同学不熟悉图书馆借书规则。", "items": [{"stem": "Which suggestion addresses the difficulty?", "options": ["You could borrow more books from the library each week.", "You should have learned the rules already.", "You could ask a librarian about borrowing rules.", "You could return your library books on time."], "answer": 2, "why": "困难是不熟悉借书规则。第三项请对方向图书管理员询问规则，直接解决这一困难。第二项是指责，不是建议。", "point": "match"}]},
+   {"text": "假定同学常忘记带参加远足的物品，建议出发前核对清单。", "items": [{"stem": "Which reason fits the suggestion?", "options": ["Items are often forgotten before a hike.", "A list can be written on colored paper.", "The items may be kept in different rooms.", "A list shows which items are still missing."], "answer": 3, "why": "困难是忘带物品。第四项说明清单能显示还缺哪些物品，出发前核对就不会遗漏。", "point": "reason"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["match", "reason"], "groups": [{"items": [
+   {"stem": "Suggest a practical way to remember meeting dates.", "lead": "You", "chunks": ["could", "write", "the dates", "in a"], "tail": "calendar.", "extra": ["writing"], "why": "could 后接 write，记录日期对应记忆困难。", "point": "match"},
+   {"stem": "Explain how a labeled folder helps locate notes.", "lead": "The label", "chunks": ["makes", "the notes", "easier", "to"], "tail": "find.", "extra": ["finding"], "why": "makes the notes easier to find 说明标注对寻找笔记的帮助。", "point": "reason"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["match", "reason"], "sets": [{"id": "set-a", "groups": [
+   {"text": "假定同学准备考试时找不到复习资料。", "items": [
+    {"stem": "Which suggestion directly addresses the difficulty?", "options": ["You could sort your notes by subject.", "You could study harder for the exam.", "You could mark the exam date in a calendar.", "You could borrow more revision books."], "answer": 0, "why": "困难是找不到复习资料。第一项按科目整理笔记，需要时就能找到对应资料。", "point": "match"},
+    {"stem": "Why would sorting the notes by subject help?", "options": ["The exam covers many different subjects.", "The relevant notes become easier to locate.", "Sorted notes look neater and take up less space.", "Some revision materials cannot be found."], "answer": 1, "why": "困难是找不到资料。第二项说明整理后各科笔记更容易找到，与困难对应。第三项只说整齐、省地方，与困难无关。", "point": "reason"}
+   ]},
+   {"text": "假定同学在英语社团讨论时听不清发言者，社团允许调换座位。", "items": [
+    {"stem": "Which suggestion addresses this difficulty?", "options": ["You could speak louder yourself when it is your turn.", "You could write a summary after each discussion.", "You could sit closer to the speaker in discussions.", "You could move to a seat at the back of the room."], "answer": 2, "why": "困难是听不清发言者，社团允许换座位。第三项建议坐近一些，正好针对听不清。第一项是让自己大声说，弄错了说话的人。", "point": "match"},
+    {"stem": "Which reason supports sitting nearer to the speaker?", "options": ["The speaker may then talk more loudly.", "Seats near the speaker are more comfortable.", "The discussion may cover several topics.", "The speaker's words may be easier to hear."], "answer": 3, "why": "困难是听不清。第四项说明坐近后更容易听清发言，理由与困难对应。第一项把变化放在了发言者身上。", "point": "reason"}
+   ]},
+   {"items": [
+    {"stem": "Suggest a way to remember library due dates.", "lead": "You", "chunks": ["could", "write", "the due dates", "in your"], "tail": "calendar.", "extra": ["writing"], "why": "could 后接 write，在日历上记录日期回应遗忘的问题。", "point": "match"},
+    {"stem": "Explain how a calendar helps with due dates.", "lead": "A calendar", "chunks": ["helps", "you", "see", "which books are"], "tail": "due.", "extra": ["seeing"], "why": "helps you see 说明日历如何提示到期的书。", "point": "reason"},
+    {"stem": "Suggest a way to organize subject notes.", "lead": "I suggest", "chunks": ["keeping", "each subject's", "notes", "in a separate"], "tail": "folder.", "extra": ["keep"], "why": "suggest 后接 keeping，分类存放对应整理笔记的需求。", "point": "match"},
+    {"stem": "Explain how notes in separate folders help a student.", "lead": "This", "chunks": ["makes", "the notes", "easier", "to"], "tail": "find.", "extra": ["finding"], "why": "makes the notes easier to find 表达分类后的预期帮助。", "point": "reason"}
+   ]}
+  ]}]} 
+ ]
+}

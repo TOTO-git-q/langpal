@@ -1,0 +1,52 @@
+{
+ "id": "reading-seven-question-answer", "title": "问答关系的衔接", "goal": "根据问句所需的信息选择符合上下文的回答。", "skill": "阅读", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "question", "label": "确定问句所要求的信息类别"}, {"id": "answer", "label": "选择直接回应问句且符合后文的句子"}],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）课表", "url": "docs/syllabi/gaokao.md", "used": "教学内容与课程题型"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "问句规定了回答要给哪一类信息、关于哪个对象。候选句要回答这个问题，还要和后文的解释或例子相符。"}, {"box": "Why is the window open? The room needs fresh air."}, {"p": "Why 问原因，回答说明开窗是为了换气。只重复 window、不说原因的句子不算回答。"}]},
+  {"id": "types", "type": "table", "title": "问句的信息", "cols": ["类别", "问句", "回答"], "rows": [
+   ["原因", "Why did the team leave early?", "It wanted to avoid the traffic."],
+   ["原因", "Why was the notice moved?", "More people could see it by the entrance."],
+   ["方法", "How can the seeds be kept dry?", "Store them in a sealed jar."],
+   ["方法", "How did the class find the answer?", "It compared the two records."],
+   ["对象", "Who collects the library books?", "The class monitor collects them."],
+   ["对象", "Which tool measures the board?", "A ruler measures its length."],
+   ["反问后的解释", "Who wants a torn map?", "A whole map is easier to follow."],
+   ["反问后的解释", "Would a loose lid protect the paint?", "A tight lid keeps air out of the tin."]
+  ]},
+  {"id": "conditions", "type": "table", "title": "对象与条件", "cols": ["问句", "相符回答", "依据"], "rows": [
+   ["Why did Mina leave?", "She had a music lesson.", "She 指 Mina，说的是她离开的原因。"],
+   ["How can wet shoes be dried?", "Leave them in a ventilated place.", "说的是湿鞋怎样弄干。"],
+   ["Who takes notes during the meeting?", "The secretary records the discussion.", "secretary 就是做会议记录的人。"],
+   ["What should be done if it rains?", "Move the display indoors.", "说的是下雨时怎么办。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "How can the club keep its tools easy to find? ____ Each label names the tools inside the box.\n1. Store them in labeled boxes.\n2. The club bought the tools last year.\n3. Keep all the tools in one large box.\n4. The boxes are difficult to carry."},
+   {"p": "How 问方法。第一项说把工具放进贴了标签的盒子，后句的 Each label 接着说明标签上写什么。第三项也是方法，但没有标签，后句的 Each label 接不上。"}
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一　信息类别", "points": ["question"], "groups": [
+   {"look": "passage", "text": "Why did the choir move its practice indoors? ____ The singers could then rehearse without getting wet.", "items": [{"stem": "Which sentence best fills the gap?", "options": ["The choir sang indoors last month.", "The outdoor space had a stage.", "Rain was expected that afternoon.", "The choir had practised outdoors all summer."], "answer": 2, "why": "后句 without getting wet 说明原因和下雨有关。第三项说当天下午预计有雨，回答了 Why。", "point": "question"}]},
+   {"look": "passage", "text": "Who will receive the returned keys? ____ She will place them in the office drawer.", "items": [{"stem": "Which sentence best fills the gap?", "options": ["The keys belong in a drawer.", "The office closes after lunch.", "The keys were returned yesterday.", "The receptionist will collect them."], "answer": 3, "why": "Who 问由谁收钥匙，后句的 She 要指前面出现的一个人。第四项的 receptionist 回答了 Who，She 就指她。", "point": "question"}]}
+  ]},
+  {"id": "check-two", "type": "check", "title": "练习二　回答", "points": ["answer"], "groups": [
+   {"look": "passage", "text": "How can a visitor borrow a guidebook? ____ The desk assistant will record the visitor's name.", "items": [{"stem": "Which sentence best fills the gap?", "options": ["Ask for one at the information desk.", "The guidebook describes the garden.", "The visitor returned a book last week.", "A desk stands beside the entrance."], "answer": 0, "why": "How 问借书的方法。第一项说到服务台借，后句的 The desk assistant 接着说明登记手续。", "point": "answer"}]},
+   {"look": "passage", "text": "Would a painting be easy to see in a dark room? ____ A lamp can make its details visible.", "items": [{"stem": "Which sentence best fills the gap?", "options": ["Its details are easy to see without a lamp.", "Light is needed to see it clearly.", "The dark room has a painted door.", "The lamp was easy to move outside."], "answer": 1, "why": "反问的意思是暗室里看不清画。第二项说需要光，后句的 A lamp 接着说明灯的作用。", "point": "answer"}]}
+  ]},
+  {"id": "check-three", "type": "check", "title": "练习三　综合", "points": ["question", "answer"], "groups": [
+   {"look": "passage", "text": "Which container should hold the dry beans? ____ Its lid will keep moisture out.", "items": [{"stem": "Which sentence best fills the gap?", "options": ["The beans were bought this morning.", "The lid is beside the kitchen sink.", "A jar with a tight lid is suitable.", "Moisture appeared on the open shelf."], "answer": 2, "why": "Which container 问用哪个容器。第三项说带紧盖的罐子，后句的 Its lid 指这个罐子的盖。", "point": "question"}]},
+   {"look": "passage", "text": "What should the team do if the trail is closed? ____ That alternative follows the river instead.", "items": [{"stem": "Which sentence best fills the gap?", "options": ["The trail opened in the morning.", "The team walked beside the river before.", "The river is close to the trail.", "Take the signed riverside route."], "answer": 3, "why": "后句的 That alternative 指一条备用路线。第四项说改走有标志的河边路线，回答了步道封闭时怎么办。", "point": "answer"}]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["question", "answer"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A school group was preparing a display of local photographs. Why did the group choose the entrance hall? ____ Students passing through it could see the pictures. The group also wanted each photograph to be identified.\n\nHow could the pupils explain where each picture was taken? ____ The labels could include the location and date. Who would check the descriptions? ____ She had helped collect the photographs and knew their locations.", "items": [
+    {"stem": "Which sentence best fills the first gap?", "options": ["The hall was closed after school.", "The photographs were taken outdoors.", "The hall was used by many students.", "The group wanted the photos identified."], "answer": 2, "why": "后句 Students passing through it could see the pictures 说明看重的是经过的学生多。第三项说出这个原因，回答了 Why。", "point": "question"},
+    {"stem": "Which sentence best fills the second gap?", "options": ["They could attach a label to each one.", "They had collected the pictures earlier.", "The hall had an entrance at each end.", "The photographs were stored in a box."], "answer": 0, "why": "How 问怎样说明拍摄地点。第一项说给每张照片贴标签，后句的 The labels 接着说明标签上写什么。", "point": "answer"},
+    {"stem": "Which sentence best fills the third gap?", "options": ["The pupils would check them.", "The photographs showed several streets.", "The descriptions would be checked later.", "Their teacher Ms. Chen would do so."], "answer": 3, "why": "后句 She had helped collect the photographs 要指前面出现的一个人。第四项的 Ms. Chen 回答了 Who，She 就指她。", "point": "question"}
+   ]},
+   {"look": "passage", "text": "A group planned a visit to a wetland reserve. The guide discussed the trip with the group before they left. What should visitors do if the ground is muddy? ____ This will help keep the paths in good condition.\n\nWould it be useful to speak loudly near resting birds? ____ Quiet voices allow visitors to observe without disturbing them. Who should report a damaged sign? ____ The guide can then tell the reserve staff where it is.", "items": [
+    {"stem": "Which sentence best fills the first gap?", "options": ["The paths are closed when it rains.", "Stay on the marked paths even then.", "The ground was dry on the last visit.", "Clean muddy boots after the visit."], "answer": 1, "why": "问的是地面泥泞时该怎么做。第二项说泥泞时也走标记路线，后句 keep the paths in good condition 说明这样做的作用。", "point": "answer"},
+    {"stem": "Which sentence best fills the second gap?", "options": ["Birds can rest in many places.", "Visitors may see signs near the path.", "Loud voices could disturb the birds.", "The guide spoke before the group left."], "answer": 2, "why": "反问的意思是不该大声说话。第三项说出原因，后句的 without disturbing them 与 disturb the birds 对应。", "point": "answer"},
+    {"stem": "Which sentence best fills the third gap?", "options": ["Visitors who notice it should tell the guide.", "The guide described the paths before the visit.", "The reserve staff should report it themselves.", "Staff repaired another sign during the winter."], "answer": 0, "why": "后句 The guide can then tell the reserve staff 说明先要有人告诉向导。第一项说由发现的访客告诉向导，回答了 Who。", "point": "question"}
+   ]}
+  ]}]}
+ ]
+}

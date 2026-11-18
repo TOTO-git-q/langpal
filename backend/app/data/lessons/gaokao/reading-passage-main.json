@@ -1,0 +1,402 @@
+{
+ "id": "reading-passage-main",
+ "title": "文章与段落主旨题",
+ "goal": "根据主题句和共同信息概括段落或全文中心。",
+ "skill": "阅读",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "center",
+   "label": "根据主题句或共同信息概括中心"
+  },
+  {
+   "id": "scope",
+   "label": "核对概括的层级、范围与重点"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语（新课标卷）：课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "文章与段落主旨题的教学内容和知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "主旨题要求概括段落或全文的中心。段落中心要覆盖这一段的主要内容。全文中心要把各段联系起来，范围更大。"
+    },
+    {
+     "p": "例：一段先讲收集雨水，再讲覆盖土壤，中心是节水的方法。只写其中一种方法，就漏掉了另一种。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定概括范围",
+     "d": "看题干问的是某一段还是全文。What is paragraph 2 mainly about? 只问第二段。"
+    },
+    {
+     "t": "2　寻找中心信息",
+     "d": "先看段首和段尾有没有主题句。没有主题句时，归纳反复出现的对象和各句的共同信息。"
+    },
+    {
+     "t": "3　核对重点",
+     "d": "注意 but、however 后面的内容。材料先说成本高，再说可以重复使用，中心是后者。"
+    },
+    {
+     "t": "4　比较概括范围",
+     "d": "选出既覆盖所问范围、又抓住重点的选项。只写一个例子，范围太窄。写到原文没讨论的对象，范围太大。"
+    }
+   ]
+  },
+  {
+   "id": "topics",
+   "type": "table",
+   "title": "主题句的位置",
+   "cols": [
+    "情况",
+    "片段",
+    "中心"
+   ],
+   "rows": [
+    [
+     "段首",
+     "The garden saves water. Rain is collected, and soil is covered to reduce evaporation.",
+     "花园采用节水措施。"
+    ],
+    [
+     "段尾",
+     "The club gathers rainwater and covers its soil. These measures help the garden save water.",
+     "花园采用节水措施。"
+    ],
+    [
+     "隐含中心",
+     "The club gathers rainwater. It also covers the soil to reduce evaporation.",
+     "两项行动共同指向节水。"
+    ],
+    [
+     "转折重点",
+     "The box costs more at first, but it can be reused for years.",
+     "盒子可长期重复使用。"
+    ]
+   ]
+  },
+  {
+   "id": "scope",
+   "type": "table",
+   "title": "段落与全文中心",
+   "cols": [
+    "范围",
+    "内容",
+    "概括"
+   ],
+   "rows": [
+    [
+     "段落",
+     "One paragraph describes how rain is collected.",
+     "雨水的收集方法。"
+    ],
+    [
+     "全文",
+     "The article covers collection and use of rainwater.",
+     "雨水的收集和使用。"
+    ],
+    [
+     "例子",
+     "A paragraph mentions a barrel as one collection method.",
+     "水桶是收集雨水的例子。"
+    ],
+    [
+     "转折",
+     "The plan is costly, but its reuse reduces waste.",
+     "重点是重复使用减少废弃物。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A school garden uses several methods to save water. A barrel collects rain from the roof. The gardeners also cover the soil to slow evaporation. They water early in the day so that less water is lost in the heat."
+    },
+    {
+     "box": "What is the paragraph mainly about?\n1. The cost of a new school roof\n2. Methods used to save water in a garden\n3. The construction of a single rain barrel\n4. Different gardens in several schools"
+    },
+    {
+     "p": "首句 uses several methods to save water 是主题句。后面三句分别讲收集雨水、覆盖土壤和浇水时间。第二项覆盖了这三种方法。第三项只写了水桶这一个例子。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "范围过窄",
+     "只写收集雨水的水桶。",
+     "还有覆盖土壤、早上浇水两种方法。"
+    ],
+    [
+     "范围过大",
+     "写所有学校的花园。",
+     "材料只讲一所学校。"
+    ],
+    [
+     "遗漏转折",
+     "只写盒子的初始价格。",
+     "but 后的 reused 才是重点。"
+    ],
+    [
+     "层级错误",
+     "用一段的细节概括全文。",
+     "全文中心要找各段共同的信息。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "center",
+    "scope"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "The club made the room easier to use. Members moved a table away from the door and placed labels on the cupboards.",
+     "items": [
+      {
+       "stem": "What is the paragraph mainly about?",
+       "options": [
+        "Changes that made the room easier to use",
+        "The cost of replacing the room's cupboards",
+        "A plan to move the club to another building",
+        "The history of the table beside the door"
+       ],
+       "answer": 0,
+       "why": "依据：首句 The club made the room easier to use 是主题句。后一句的挪桌子、贴标签都是具体做法。",
+       "point": "center"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The team packed spare batteries, checked its lights, and carried a map. These preparations made its evening walk easier to manage.",
+     "items": [
+      {
+       "stem": "What is the paragraph mainly about?",
+       "options": [
+        "Why the team changed its walking route",
+        "How the team prepared for an evening walk",
+        "Where the team bought its spare batteries",
+        "How the team designed a new map"
+       ],
+       "answer": 1,
+       "why": "依据：末句 These preparations made its evening walk easier to manage 是主题句，概括了带电池、查灯和带地图。",
+       "point": "center"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The repair café lent tools to visitors. Volunteers also showed visitors how to mend clothes and small appliances.",
+     "items": [
+      {
+       "stem": "What is the paragraph mainly about?",
+       "options": [
+        "The repair of a single appliance",
+        "The clothes worn by volunteers",
+        "Services offered at a repair café",
+        "The history of every repair tool"
+       ],
+       "answer": 2,
+       "why": "依据：lent tools to visitors 和 showed visitors how to mend clothes and small appliances，都是 repair café 提供的服务。",
+       "point": "center"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The containers cost more initially, but they could be reused many times. The organisers therefore produced less waste at later events.",
+     "items": [
+      {
+       "stem": "What is the paragraph mainly about?",
+       "options": [
+        "Why the containers cost more at first",
+        "Why organisers chose cheaper containers",
+        "Why the containers were thrown away",
+        "How reusable containers cut later waste"
+       ],
+       "answer": 3,
+       "why": "依据：but 后的 they could be reused many times，加上后句 less waste。重点是重复使用减少了废弃物。第一项只写了 but 前的成本。",
+       "point": "scope"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "center",
+    "scope"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A school planned a display of student photographs. First, the students selected pictures showing everyday activities in their neighbourhood. They wrote a short description for each picture and asked the people shown for permission to display it.\n\nThe students then arranged the photographs in the school hall. They grouped pictures of the same place together and placed the descriptions beside them. After visitors viewed the display, the students collected comments for a later exhibition.",
+     "items": [
+      {
+       "stem": "What is the first paragraph mainly about?",
+       "options": [
+        "How visitors commented on the display",
+        "How the students prepared the photographs",
+        "Where the students stored the comments",
+        "How the students arranged the hall"
+       ],
+       "answer": 1,
+       "why": "依据：第一段的 selected、wrote 和 asked ... for permission，都是准备照片的步骤。",
+       "point": "center"
+      },
+      {
+       "stem": "What is the passage mainly about?",
+       "options": [
+        "Collecting comments for a later exhibition",
+        "Writing descriptions for each photograph",
+        "Preparing and arranging a student display",
+        "Choosing pictures of neighbourhood life"
+       ],
+       "answer": 2,
+       "why": "依据：第一段讲准备照片，第二段讲布置展览。全文中心要覆盖两段，第三项两者都有。",
+       "point": "scope"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "center",
+    "scope"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A village wanted to make an old footpath easier to use. The path connected a bus stop with a sports field, but plants had grown across parts of it. After rain, several low places also became muddy. Residents who walked to the field often used the road instead. The village council invited a group of residents to suggest improvements that could be made without changing the route.\n\nThe group began by walking the path and marking the difficult sections on a map. Members noted where plants narrowed the way and where water collected. They also asked regular walkers which places caused the most difficulty. The answers helped the group decide which sections needed attention first. A short section near the bus stop was mentioned most often, followed by a bend near the field.\n\nVolunteers then cleared plants from the edges of the path. With the council's permission, they added a firm surface to the lowest section. They kept the existing trees and left enough space around their roots. The volunteers also placed a small sign at each end showing where the path led. The council supplied the signs, and a local carpenter helped put them in place.\n\nSeveral weeks later, group members returned after a rainy day. The treated section was easier to cross, although a different bend was still muddy. The group recorded this problem and gave its notes to the council. It also asked walkers for further comments. The council planned to consider the remaining bend after examining the new observations and the cost of additional work.",
+       "items": [
+        {
+         "stem": "What is the passage mainly about?",
+         "options": [
+          "A village's work to improve an existing footpath",
+          "A survey of walkers about the muddiest places",
+          "The council's plan for a new route to the field",
+          "A carpenter's help in putting signs along the path"
+         ],
+         "answer": 0,
+         "why": "依据：全文依次讲步道的问题、调查、整修和事后检查。中心是改善现有的步道，路线没有改。",
+         "point": "scope"
+        },
+        {
+         "stem": "What is the second paragraph mainly about?",
+         "options": [
+          "How the council supplied signs for the footpath",
+          "How the group identified and ranked path problems",
+          "How volunteers cleared plants from the path edges",
+          "Why residents walked on the road instead"
+         ],
+         "answer": 1,
+         "why": "依据：第二段的 marking the difficult sections、asked regular walkers、decide which sections needed attention first，都是在找出问题、排出先后。",
+         "point": "center"
+        },
+        {
+         "stem": "What is the main point of the final paragraph?",
+         "options": [
+          "The group's conclusion that no further work was needed",
+          "The council's final decision to repair the bend",
+          "The group's check on progress and remaining problems",
+          "The firm surface the volunteers added to the path"
+         ],
+         "answer": 2,
+         "why": "依据：returned after a rainy day 是回访检查，a different bend was still muddy 和 recorded this problem 是发现并记录遗留问题。",
+         "point": "center"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A school wanted to reduce the amount of food left after lunch. Its kitchen team could see that some dishes were often unfinished, but it did not know whether the portions were too large or whether students preferred other choices. Rather than remove any dish immediately, the team decided to gather information for several weeks. Teachers explained the project to students and invited them to comment.\n\nThe team first recorded what remained at the end of each lunch. It kept separate notes for each dish and measured the amount left in serving containers as well as the food returned on plates. The kitchen also provided a box where students could leave suggestions. Some students asked for smaller portions, while others suggested serving the sauce separately.\n\nThe team then made two changes. Students could request a smaller initial portion and return for more if they were still hungry. The kitchen also placed sauce in a separate container for one of the dishes. At first the new arrangement required more time from staff, because they needed to explain the choices. However, the team found that it could offer the same food while allowing students to choose amounts that suited them.\n\nAfter another period of observation, the team compared its new notes with the earlier records. Less food was returned on plates for the dish served with separate sauce. The team did not assume that every change had the same effect; it planned to continue recording results before deciding what to do with the other dishes. The suggestion box remained available for further comments.",
+       "items": [
+        {
+         "stem": "What is the passage mainly about?",
+         "options": [
+          "A plan to remove the dishes students often leave unfinished",
+          "How serving sauce separately changed one dish",
+          "Students' suggestions about portion sizes",
+          "A school's efforts to understand and reduce lunch waste"
+         ],
+         "answer": 3,
+         "why": "依据：全文依次讲调查剩饭、调整供餐和继续观察。中心是弄清原因并减少午餐浪费。",
+         "point": "scope"
+        },
+        {
+         "stem": "What is the second paragraph mainly about?",
+         "options": [
+          "How the team collected information on waste",
+          "Changes the team made to portions and sauce",
+          "Results of comparing new and earlier records",
+          "Plans for replacing every dish in the kitchen"
+         ],
+         "answer": 0,
+         "why": "依据：第二段的 recorded what remained、kept separate notes 和 a box where students could leave suggestions，都是在收集信息。",
+         "point": "center"
+        },
+        {
+         "stem": "What is the main point of the third paragraph?",
+         "options": [
+          "Extra staff time made the new arrangement unworkable.",
+          "Students gained more choice over portions and sauce.",
+          "Students were required to choose a large portion first.",
+          "The team removed sauce and every other lunch option."
+         ],
+         "answer": 1,
+         "why": "依据：smaller initial portion 和 sauce in a separate container 两项改变，段末又说 allowing students to choose amounts that suited them。改变让学生自己选择用量。",
+         "point": "scope"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

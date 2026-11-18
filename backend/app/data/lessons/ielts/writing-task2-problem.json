@@ -1,0 +1,71 @@
+{
+  "id": "writing-task2-problem",
+  "title": "问题与解决题　Task 2 · 练习",
+  "goal": "分析问题的原因，说明与原因对应的可行措施及其作用。",
+  "skill": "写作",
+  "exam": "雅思 IELTS Academic",
+  "points": [
+    {"id": "solution", "label": "建立问题与可行措施的对应"},
+    {"id": "develop", "label": "解释措施产生效果的过程"},
+    {"id": "accuracy", "label": "准确表达因果与生效条件"}
+  ],
+  "sources": [
+    {"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "问题与解决题的练习尺寸与知识点"},
+    {"id": "writing", "title": "IELTS Academic: Writing test format", "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing", "used": "写作任务的形式"},
+    {"id": "rubric", "title": "IELTS Writing Band Descriptors", "url": "https://ielts.org/cdn/ielts-guides/ielts-writing-band-descriptors.pdf", "used": "写作评分标准"}
+  ],
+  "cards": [
+    {
+      "id": "rubric", "type": "rubric", "title": "评分标准",
+      "levels": [
+        {"score": 5, "name": "Band 8-9", "summary": "充分回应任务，论点清楚且展开充分，语言运用自如。", "signs": ["充分解释原因与措施，并以相关细节支持", "组织连贯，衔接自然", "词汇灵活准确，句式多样，错误极少"]},
+        {"score": 4, "name": "Band 7", "summary": "回应任务，主要观点清楚并有展开。", "signs": ["原因与措施有相关支持，个别地方可更充分", "结构清楚，衔接基本得当", "词汇和句式有变化，错误较少"]},
+        {"score": 3, "name": "Band 6", "summary": "回应任务的主要部分，但部分论证不够充分。", "signs": ["原因与措施可辨，部分观点支持不足", "整体推进清楚，衔接有时机械", "词汇和句式有一定范围，错误反复出现"]},
+        {"score": 2, "name": "Band 5", "summary": "部分回应任务，论证或措施不够清楚。", "signs": ["观点展开有限，可能有重复或不相关内容", "组织有一定顺序，但衔接不稳定", "词汇和句式范围有限，错误有时妨碍理解"]},
+        {"score": 1, "name": "Band 4 及以下", "summary": "对任务的回应和论证十分有限，语言困难明显。", "signs": ["相关观点不清或缺少支持", "内容组织和衔接有限", "词汇及句式范围很窄，错误频繁并影响理解"]},
+        {"score": 0, "name": "未作答", "summary": "未作答。", "signs": []}
+      ],
+      "takeaways": [{"t": "四项标准", "d": "按任务回应、连贯与衔接、词汇、语法范围与准确性四项等权评价。"}]
+    },
+    {
+      "id": "marking", "type": "marking", "title": "批改单",
+      "format": [
+        {"t": "题目的要求", "d": "逐条判断是否答到，并引用原文。"},
+        {"t": "分数档", "d": "对照评分标准给出 0–5 分和理由。"},
+        {"t": "必改的地方", "d": "列出最多五处影响理解或准确性的错误及改法。"},
+        {"t": "升一档", "d": "改写一处内容，说明怎样补充细节或表达得更准确。"}
+      ],
+      "rules": "评分依据任务回应、连贯与衔接、词汇、语法范围与准确性；四项等权。",
+      "example": {
+        "about": "以下示例说明措施缺少作用过程时的判定。",
+        "coverage": [{"bullet": "Give reasons for your answer and include relevant examples from your own knowledge or experience.", "verdict": "做了但太薄", "quote": "Shops should sell less food.", "note": "提出了措施，但没有解释它如何减少家庭浪费。"}],
+        "score": 2, "reason": "相关观点有提及，但展开有限。", "fixes": [],
+        "upgrade": {"from": "Shops should sell less food.", "to": "Shops could offer smaller packs, allowing households to buy quantities they can use before the food spoils.", "why": "说明了措施如何对应家庭购买过量的问题。"},
+        "next": ""
+      }
+    },
+    {
+      "id": "timed", "type": "write", "title": "限时写作", "minutes": 40, "min_words": 250,
+      "points": ["solution", "develop", "accuracy"],
+      "tasks": [
+        {
+          "id": "set-a", "purpose": "分析社区食物浪费的原因和措施",
+          "setting": "In some towns, households throw away large amounts of food that could still have been eaten. This increases the amount of waste that local authorities must collect and makes it harder for families to use their food budgets efficiently.",
+          "lead": "What are the causes of this problem? What measures could be taken to address this problem?",
+          "bullets": ["Give reasons for your answer and include relevant examples from your own knowledge or experience."],
+          "must": ["分析家庭食物浪费的原因，并说明与原因对应的可行措施及其作用。"],
+          "model": "Food that is bought but never eaten represents a loss to households and adds to the waste that towns have to manage. Much of this waste arises from purchasing more than people need and from uncertainty about storage. Retailers and local authorities can help families address both causes.\n\nOne reason for overbuying is that large packs or promotions appear cheaper than smaller quantities. A household may purchase more fresh produce than it can use simply to obtain a discount, only to discard part of it later. Busy people may also shop without checking what is already in their cupboards. As a result, they buy duplicate ingredients or make plans for meals that they do not have time to prepare.\n\nRetailers could reduce the incentive to buy excessive amounts by offering smaller packs at a comparable price per unit. Customers would then be able to choose an appropriate quantity without paying a substantial premium. In addition, shops could provide simple shopping lists near fresh food displays, encouraging customers to plan meals and check supplies before their next visit. These measures would be most useful if families could still buy larger quantities when they genuinely needed them.\n\nA second difficulty is that some people do not know how to keep food safely or how to use it before it deteriorates. Councils could distribute clear guidance on storage and suitable ways to use leftovers, for example through libraries and community centres. Practical demonstrations would be more useful than a general instruction to waste less, because residents could apply the advice to the food they routinely buy.\n\nIn conclusion, excess purchasing and uncertainty about storage can both contribute to household food waste. Smaller purchase options and accessible practical advice would tackle these causes directly, although their success depends on households choosing to use them."
+        },
+        {
+          "id": "set-b", "purpose": "分析儿童步行上学减少的原因和措施",
+          "setting": "In some urban neighbourhoods, fewer children walk to primary school than in the past, even when their homes are relatively close. More families use cars for these short journeys, contributing to congestion around school entrances.",
+          "lead": "What are the causes of this problem? What measures could be taken to address this problem?",
+          "bullets": ["Give reasons for your answer and include relevant examples from your own knowledge or experience."],
+          "must": ["分析儿童较少步行上学的原因，并说明与原因对应的可行措施及其作用。"],
+          "model": "Short journeys to primary school are increasingly made by car in some neighbourhoods. Parents may regard walking as unsafe or impractical within their daily routines. Safer routes and organised groups could make walking a realistic choice for more families.\n\nTraffic itself can discourage parents from allowing children to walk. A route may involve crossing a busy road, and parked cars near the entrance can make it difficult for a small child to see approaching vehicles. Parents who must continue directly to work may also find it difficult to accompany a child on foot, particularly if the school route takes them away from their workplace. These concerns can reinforce one another: as more families drive, the area around the school can become still more congested.\n\nLocal authorities could respond to the first concern by improving crossings and restricting parking immediately outside school gates at arrival and departure times. A supervised crossing and a clear pavement would give children a safer place to approach the entrance. Such restrictions would need to be enforced and paired with a suitable drop-off point farther away; otherwise drivers might simply stop in another dangerous location.\n\nSchools could also coordinate walking groups in which adults take turns accompanying children along an agreed route. This would allow parents who cannot walk with their children every morning to share the responsibility with other families. For example, a group could collect pupils at a local park and walk the final part of the journey together. The scheme would depend on sufficient volunteers and clear arrangements for supervision.\n\nIn conclusion, traffic risks and parents' schedules can make short car journeys seem necessary. Better crossings and shared supervision would address those barriers, making it easier for families to choose walking where the distance permits it."
+        }
+      ],
+      "more": {"kind": "task2-problem", "topics": ["家庭食物浪费", "儿童步行上学", "社区垃圾分类", "城市交通拥堵", "公共图书馆使用", "居民用水浪费", "社区公共空间", "学校缺勤", "租赁住房维护", "公交服务不足", "社区噪声", "家庭能源消耗", "公共设施损坏"]}
+    }
+  ]
+}

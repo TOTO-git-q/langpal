@@ -1,0 +1,393 @@
+{
+ "id": "usage-cloze-logic",
+ "title": "逻辑关系选词题",
+ "goal": "依据句间逻辑关系确定候选词的意义方向。",
+ "skill": "语言运用",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "relation",
+   "label": "判断空格两侧的逻辑关系"
+  },
+  {
+   "id": "direction",
+   "label": "按逻辑关系确定候选词的意义方向"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语课程课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "教学内容与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "type",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "句间关系决定空格词义的方向。有连接词时，先看连接词。没有连接词时，看前后的事件和结果。"
+    },
+    {
+     "box": "The first route was blocked. The second route was open."
+    },
+    {
+     "p": "两句之间没有连接词，但 blocked 和 open 意思相反，构成对比。两种状态说的是两条不同的路线。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定事件",
+     "d": "分别概括空格前后的事件。核对人物、时间和对象。"
+    },
+    {
+     "t": "2　判断关系",
+     "d": "根据连接词和事件判断空格两侧的关系。没有连接词时，比较前后的行动、情绪或结果。"
+    },
+    {
+     "t": "3　确定方向",
+     "d": "判断空格要填怎样的状态或行动。遇到因果关系，先分清哪个是原因、哪个是结果。"
+    },
+    {
+     "t": "4　代入核对",
+     "d": "把候选词代入完整语境。核对句间关系和人物行动是否一致。"
+    }
+   ]
+  },
+  {
+   "id": "contrast",
+   "type": "table",
+   "title": "转折与让步",
+   "intro": "错误对应一栏的句子与这一行的关系不符。",
+   "cols": [
+    "关系",
+    "正确对应",
+    "错误对应"
+   ],
+   "rows": [
+    [
+     "转折",
+     "The room was dark, but the hall was bright.",
+     "The room was dark, but the hall was dark."
+    ],
+    [
+     "转折",
+     "Mia expected rain. Instead, the day stayed dry.",
+     "Mia expected rain. Instead, it rained all day."
+    ],
+    [
+     "让步",
+     "Although the task was hard, he finished it.",
+     "Although the task was hard, he found it easy."
+    ],
+    [
+     "让步",
+     "Though tired, she continued working.",
+     "Though tired, she stopped because she was tired."
+    ]
+   ]
+  },
+  {
+   "id": "logic",
+   "type": "table",
+   "title": "因果与并列",
+   "intro": "错误对应一栏的句子与这一行的关系不符。",
+   "cols": [
+    "关系",
+    "正确对应",
+    "错误对应"
+   ],
+   "rows": [
+    [
+     "因果",
+     "It rained, so the path became muddy.",
+     "The path became muddy, so the rain began."
+    ],
+    [
+     "因果",
+     "Because the key was lost, she called for help.",
+     "Because she called for help, the key was lost."
+    ],
+    [
+     "递进",
+     "He offered advice and even stayed to help.",
+     "He offered advice and even refused to speak."
+    ],
+    [
+     "递进",
+     "She brought bread and also made soup.",
+     "She brought bread and also took the bread away."
+    ],
+    [
+     "并列",
+     "Ana washed the cups and Leo dried them.",
+     "Ana washed the cups and Leo left them wet."
+    ],
+    [
+     "并列",
+     "The group collected paper and sorted it.",
+     "The group collected paper and scattered it again."
+    ]
+   ]
+  },
+  {
+   "id": "example",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The children expected the afternoon walk to be canceled because of rain. By noon the clouds had cleared, and their teacher announced that the walk would go ahead. The children had been disappointed in the morning, but they were ___ at the news.\n1. pleased  2. worried  3. disappointed  4. uncertain"
+    },
+    {
+     "p": "孩子们早上以为散步会取消，感到失望。后来得知散步照常进行。but 引出相反的情绪，所以选第一项 pleased。"
+    }
+   ]
+  },
+  {
+   "id": "distractors",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "错误理解",
+    "依据"
+   ],
+   "rows": [
+    [
+     "情绪方向",
+     "The children remained disappointed at the good news.",
+     "but 引出失望之后的积极情绪。"
+    ],
+    [
+     "因果倒置",
+     "The walk caused the morning rain.",
+     "雨是可能取消活动的原因。"
+    ],
+    [
+     "局部词重合",
+     "The walk was canceled when the clouds cleared.",
+     "announced that the walk would go ahead 说明活动照常。"
+    ],
+    [
+     "遗漏递进",
+     "She offered advice but refused to help.",
+     "even stayed to help 表示进一步提供帮助。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "relation",
+    "direction"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The gate was locked, so the group used another entrance. What relation does 'so' express?",
+       "options": [
+        "Contrast between entrances",
+        "Result of the locked gate",
+        "Addition of another lock",
+        "Concession about the group"
+       ],
+       "answer": 1,
+       "why": "门锁着，所以小组改走另一个入口。so 引出的是锁门的结果。",
+       "point": "relation"
+      },
+      {
+       "stem": "Although the suitcase was heavy, Lian carried it upstairs. Lian carried it despite its ___.",
+       "options": [
+        "color",
+        "handle",
+        "weight",
+        "contents"
+       ],
+       "answer": 2,
+       "why": "Although 引出让步，heavy 与 weight 对应。",
+       "point": "relation"
+      },
+      {
+       "stem": "The morning was cold. By noon the air felt warm. The temperature had ___.",
+       "options": [
+        "dropped",
+        "stayed",
+        "disappeared",
+        "risen"
+       ],
+       "answer": 3,
+       "why": "早上 cold，中午 warm，说明温度升高了。",
+       "point": "direction"
+      },
+      {
+       "stem": "The volunteers collected coats and also repaired the buttons. They provided ___ kinds of help.",
+       "options": [
+        "two",
+        "one",
+        "three",
+        "the same"
+       ],
+       "answer": 0,
+       "why": "collected 和 repaired 由 also 连接，表示两种帮助。",
+       "point": "direction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "relation",
+    "direction"
+   ],
+   "groups": [
+    {
+     "text": "The school planned a game outdoors, but the field was too wet after rain. The organizers moved the game into the hall. Although the hall was smaller, the teams found enough room to play. Afterward, they dried the equipment and returned it to storage.",
+     "items": [
+      {
+       "stem": "Why was the game moved?",
+       "options": [
+        "The hall had become too wet.",
+        "The field was wet after rain.",
+        "The equipment was in storage.",
+        "The teams wanted a smaller field."
+       ],
+       "answer": 1,
+       "why": "field was too wet after rain 是更换地点的原因。",
+       "point": "relation"
+      },
+      {
+       "stem": "Although the hall was smaller, it had ___ room for the game.",
+       "options": [
+        "less than enough",
+        "little",
+        "enough",
+        "unusable"
+       ],
+       "answer": 2,
+       "why": "Although 引出让步，主句 the teams found enough room to play 说明空间够用。",
+       "point": "direction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "relation",
+    "direction"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "The student council wanted to make a display of photographs taken around the town. Priya offered to print the pictures at the school office, and her friend Marcus agreed to arrange them on a large board. They had planned to finish on Thursday so that the display could be placed in the entrance hall on Friday morning. On Thursday, however, the printer stopped after producing only a few photographs. Priya checked the paper tray and found plenty of paper, but the machine reported that it had run out of ink.\n\nPriya was concerned because the office had no spare ink. Marcus suggested asking the art teacher whether the photographs could be printed in the art room. Although that room was being used for a class, the teacher offered to print the pictures after the class ended. The students had to wait until late afternoon, yet they were glad to have a workable plan. While waiting, they wrote short descriptions of the places in the photographs. They also cut pieces of paper for the labels.\n\nWhen the pictures were ready, Marcus placed them on the board and Priya added the descriptions. The work took longer than expected, but they completed it before going home. The next morning, they carried the board to the entrance hall. Several students stopped to look at the photographs and read the labels. One recognized a bridge near her home; another pointed out a building she had visited with her family. The display remained in the hall for the rest of the week. Priya and Marcus agreed to check the printer supplies earlier before their next project.",
+       "items": [
+        {
+         "stem": "Why did the office printer stop?",
+         "options": [
+          "It had no ink left.",
+          "It had no paper left.",
+          "The art class had begun.",
+          "The labels were incomplete."
+         ],
+         "answer": 0,
+         "why": "机器报告 ran out of ink，缺墨是打印停止的原因。",
+         "point": "relation"
+        },
+        {
+         "stem": "Although the art room was occupied, the teacher ___ to print later.",
+         "options": [
+          "refused",
+          "offered",
+          "forgot",
+          "declined"
+         ],
+         "answer": 1,
+         "why": "Although 引出让步，后文 offered to print 表示老师仍愿意帮助。",
+         "point": "direction"
+        },
+        {
+         "stem": "The students wrote descriptions and also cut labels. The actions show ___.",
+         "options": [
+          "a cause and its opposite",
+          "a plan and its cancellation",
+          "one task plus another",
+          "a complaint and its denial"
+         ],
+         "answer": 2,
+         "why": "also 连接写说明和裁标签两项行动。",
+         "point": "relation"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "At the start of summer, Sam decided to learn how to swim across the local pool. He could already float and move a short distance, but he became tired before reaching the other side. His instructor suggested practicing breathing as well as arm movements. Sam first wanted to swim the entire length every time. After several attempts, he saw that this left him too tired to pay attention to his breathing.\n\nThe instructor showed him a shorter exercise. Sam swam to a marker, rested, and then returned. He practiced turning his head for a breath without lifting it too high. At first he swallowed water on several attempts. He felt frustrated, but the instructor pointed out that his movements were becoming more regular. Sam continued the exercise on each visit. He also watched a demonstration from the side of the pool and asked questions about timing.\n\nAfter two weeks, Sam noticed that he could reach the marker without stopping. He was not yet ready to cross the pool, so he moved the marker gradually farther away. Some days the exercise felt harder than on others, but his notes showed that his distance was increasing overall. Near the end of the summer, he swam the full length at a steady pace. He rested at the far end and waved to his instructor. The crossing had taken patience, and the shorter exercises had given him time to practice each movement. Sam wrote the date in his notebook and added a new goal: to keep the same steady pace when returning across the pool.",
+       "items": [
+        {
+         "stem": "Sam stopped attempting the full length each time because it made him too ___.",
+         "options": [
+          "regular",
+          "patient",
+          "confident",
+          "tired"
+         ],
+         "answer": 3,
+         "why": "this left him too tired 直接给出改变练习方式的原因。",
+         "point": "relation"
+        },
+        {
+         "stem": "Sam felt frustrated, but his movements were becoming more ___.",
+         "options": [
+          "uneven",
+          "regular",
+          "hurried",
+          "uncertain"
+         ],
+         "answer": 1,
+         "why": "but 前面是 Sam 的沮丧，后面是相反的进展：动作 becoming more regular。",
+         "point": "direction"
+        },
+        {
+         "stem": "The marker moved farther away as Sam's distance ___.",
+         "options": [
+          "fell",
+          "varied",
+          "increased",
+          "stayed fixed"
+         ],
+         "answer": 2,
+         "why": "his distance was increasing overall 说明距离在增加，所以标记越移越远。第二项只对应 Some days the exercise felt harder，与标记后移无关。",
+         "point": "direction"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

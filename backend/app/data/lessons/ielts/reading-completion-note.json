@@ -1,0 +1,68 @@
+{
+ "id": "reading-completion-note",
+ "title": "阅读笔记填空",
+ "goal": "按笔记层级和并列关系提取信息。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "hierarchy", "label": "识别笔记中的上下位层级"},
+  {"id": "parallel", "label": "依据并列关系提取对应信息"}
+ ],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "阅读笔记填空的教学内容"}],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "笔记用标题和缩进组织信息。标题表示概念或主题，缩进项目列出下位内容。"},
+   {"p": "笔记项目常省略主语或谓语。省略的关系可以从原文和同级项目中补出。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　阅读标题", "d": "确定笔记的主题和下位类别。Causes of delay 下的项目应表示延误原因。"},
+   {"t": "2　比较项目", "d": "观察缩进和并列项目。Tools 下的 brushes 和 rollers 均指工具。"},
+   {"t": "3　定位原文", "d": "寻找与标题及项目关系相符的句子。核对原因、例子和定义的归属。"},
+   {"t": "4　核对答案", "d": "按题面要求提取原词，或从词库中选词。填好后核对词数，并检查所填内容与同级项目是否属于同一类。"}
+  ]},
+  {"id": "hierarchy", "type": "table", "title": "笔记的层级", "cols": ["标题", "下位项目", "原文关系"], "rows": [
+   ["Material", "clay; sand", "两项均为材料"],
+   ["Tools", "brushes; rollers", "两项均为工具"],
+   ["Causes of delay", "rain; a broken wheel", "两项均为延误原因"],
+   ["Definition", "a channel carrying water", "短语解释 channel"]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [
+   {"box": "The exhibition was postponed because a window leaked and the floor needed repair. The paintings remained in storage.\n\nReasons for postponement:\n  • a leaking window\n  • repairs to the _____\nComplete with ONE WORD from the passage."},
+   {"p": "依据是 the floor needed repair。两个缩进项目是延期的原因，填 floor；paintings 是存放的对象。"}
+  ]},
+  {"id": "distractors", "type": "table", "title": "干扰项", "cols": ["情况", "例", "核对"], "rows": [
+   ["上位类别", "tools / brushes", "tools 是类别，brushes 是实例"],
+   ["相邻对象", "paintings / floor", "维修对象是 floor"],
+   ["关系省略", "Causes: rain", "rain 是原因而非结果"],
+   ["并列不符", "brushes / storage", "storage 不是工具"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["hierarchy", "parallel"], "groups": [
+   {"text": "A kiln is a chamber used to fire pottery. The potter places bowls inside it.", "items": [{"stem": "Complete the definition with ONE WORD from the passage: Kiln: a chamber for firing _____.", "accept": ["pottery"], "why": "a chamber used to fire pottery 给出 kiln 的定义。", "point": "hierarchy"}]},
+   {"text": "The inspection was delayed by snow and by a fallen tree. The bridge remained open.", "items": [{"stem": "Complete with ONE WORD from the passage: Causes of delay: snow; a fallen _____.", "accept": ["tree"], "why": "snow and a fallen tree 是并列的延误原因。", "point": "parallel"}]},
+   {"text": "For packing, the conservator used paper and cotton. The boxes were labelled later.", "items": [{"stem": "Choose ONE WORD from the word bank: Packing materials: paper; _____.", "options": ["boxes", "labels", "paper", "cotton"], "answer": 3, "why": "依据是 used paper and cotton。与 paper 并列的包装材料是 cotton。boxes 是后来贴标签的对象。", "point": "parallel"}]},
+   {"text": "A weir is a barrier across a river. It can alter the level of water upstream.", "items": [{"stem": "Choose ONE WORD from the word bank: Weir: a _____ across a river.", "options": ["level", "water", "barrier", "river"], "answer": 2, "why": "依据是 A weir is a barrier across a river。定义中的上位类别是 barrier。", "point": "hierarchy"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["hierarchy", "parallel"], "groups": [{
+   "text": "A workshop postponed its delivery because the bridge was closed and a vehicle needed a new tyre. The goods remained in the warehouse. Staff notified the customers before arranging another journey.\n\nDelivery postponement\n  Causes:\n    • bridge closure\n    • replacement of a (1)\n  Goods kept in the (2)",
+   "items": [
+    {"stem": "Complete (1) with ONE WORD from the passage.", "accept": ["tyre"], "why": "a vehicle needed a new tyre 是与桥梁关闭并列的原因。", "point": "parallel"},
+    {"stem": "Complete (2) with ONE WORD from the passage.", "accept": ["warehouse"], "why": "The goods remained in the warehouse 指出货物存放处。", "point": "hierarchy"}
+   ]
+  }]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["hierarchy", "parallel"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A seed library lends packets of seed to gardeners who agree to return seed from suitable plants after harvest. Unlike a conventional library, it does not expect the same physical objects to come back. Its collection consists of named varieties that can be grown and recorded locally. The library keeps a catalogue so that each packet can be traced to the information supplied by its donor.\n\nBefore accepting a packet, volunteers check that it has a label identifying the plant and the year of collection. They then inspect the contents for obvious damage. Packets without a collection year are held separately until the donor provides it. The volunteers store accepted packets in a dry cupboard and record their location in the catalogue. The catalogue also notes any growing information supplied with the seed, but the volunteers do not treat that information as a guarantee of the next harvest.\n\nGardeners borrowing seed receive a short sheet explaining how to return material. The sheet asks them to collect from healthy plants and to keep different varieties apart. It also asks them to dry the seed before packing it. The library does not require every borrower to return a packet, since some crops may fail. At the end of the season, volunteers count the packets received and compare the total with their catalogue. The count helps them plan storage for the following year; it does not measure the number of plants grown in the community. The system depends on accurate labels as well as careful handling.\n\nSeed library\n  Definition: a collection lending packets of (1)\n  Required label details:\n    • plant name\n    • collection (2)\n  Before return: dry the (3)",
+    "items": [
+     {"stem": "Complete (1) with ONE WORD from the passage.", "accept": ["seed"], "why": "A seed library lends packets of seed 给出定义。", "point": "hierarchy"},
+     {"stem": "Complete (2) with ONE WORD from the passage.", "accept": ["year"], "why": "依据是 a label identifying the plant and the year of collection。plant name 已列出，并列的另一项是 year。", "point": "parallel"},
+     {"stem": "Complete (3) with ONE WORD from the passage.", "accept": ["seed"], "why": "dry the seed before packing it 说明归还前的处理。", "point": "hierarchy"}
+    ]},
+   {"look": "passage", "text": "A local theatre decided to document how it prepared costumes for reuse. At the end of each production, staff separated garments that could be stored from those needing attention. They made a list of each item's condition before deciding whether cleaning or repair was needed. The list also included the name of the production, but this was recorded as background information rather than as a measure of condition.\n\nSeveral problems could delay the return of a garment to storage. A missing button had to be replaced, and a torn seam needed stitching. Staff also checked whether a garment had a readable label. When a label was missing, they identified the item from the production records and attached a new one. These tasks had different purposes: repair made the garment usable, while labelling made it easier to find. The theatre kept spare buttons and labels in separate drawers so that each could be located without searching through costume boxes.\n\nOnce a garment was ready, staff placed it on a suitable hanger or folded it in a box. They entered the storage location in a register. The register was updated whenever an item moved to another room. Staff reviewed the list before a later production borrowed any garment, because a record of its previous use did not by itself establish its current condition. This system gave the theatre a way to maintain its collection across productions. It also provided a record that could be checked when a garment could not immediately be found.\n\nCostume records\n  Reasons for repair:\n    • a missing (1)\n    • a torn (2)\n  Finding garments:\n    • attach a readable (3)",
+    "items": [
+     {"stem": "Choose ONE WORD from the word bank for (1).", "options": ["box", "button", "drawer", "hanger", "label", "seam"], "answer": 1, "why": "依据是 A missing button had to be replaced。这是第一条修理原因，填 button。", "point": "parallel"},
+     {"stem": "Choose ONE WORD from the word bank for (2).", "options": ["box", "button", "drawer", "hanger", "label", "seam"], "answer": 5, "why": "依据是 a torn seam needed stitching。它与缺纽扣并列，填 seam。", "point": "parallel"},
+     {"stem": "Choose ONE WORD from the word bank for (3).", "options": ["box", "button", "drawer", "hanger", "label", "seam"], "answer": 4, "why": "依据是 attached a new one 和 labelling made it easier to find。查找靠的是 label。", "point": "hierarchy"}
+    ]}
+  ]}]}
+ ]
+}

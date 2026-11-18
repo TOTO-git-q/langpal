@@ -1,0 +1,59 @@
+{
+  "id": "listening-part3",
+  "title": "教育讨论　Part 3 · 练习",
+  "goal": "在教育讨论中辨认细节、态度和组合信息。",
+  "skill": "听力",
+  "exam": "雅思 IELTS Academic",
+  "points": [
+    {"id":"detail","label":"按题干限制核对细节"},
+    {"id":"stance","label":"辨认说话人的同意与保留"},
+    {"id":"evidence","label":"逐项核对多项信息的依据"}
+  ],
+  "sources": [
+    {"id":"syllabus","title":"雅思 IELTS Academic：课表","url":"docs/syllabi/ielts.md","used":"练习尺寸与知识点"},
+    {"id":"listening","title":"IELTS Academic: Listening test format","url":"https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening","used":"听力任务的形式"}
+  ],
+  "cards": [{
+    "id":"timed","type":"quiz","title":"小测","minutes":6,"pass":0.75,
+    "points":["detail","stance","evidence"],
+    "sets":[
+      {"id":"set-a","groups":[{"audio":{"intro":"","lines":[
+        {"who":"A","text":"I've brought the outline for my project on the campus gardens. I originally planned to compare all four gardens, but after walking around them I realised that two are closed for repairs. So I will concentrate on the remaining pair instead."},
+        {"who":"B","text":"That sounds manageable. What exactly will you compare? Remember that a project needs a question you can answer with the time and equipment available, rather than a general description of everything you see."},
+        {"who":"A","text":"I'd like to compare the number of different insects visiting the flower beds. I thought of counting birds too, but that would require a separate observation schedule, and I only have three weeks for fieldwork."},
+        {"who":"B","text":"Fine. Your outline suggests taking photographs at midday. Why choose that time? The gardens are open throughout the day, so you should explain why a narrower period helps your comparison."},
+        {"who":"A","text":"It's mainly because both gardens receive direct sunlight then. If I visited one in shade and one in sun, that difference might affect what I see. I can also make all my visits between twelve and one."},
+        {"who":"B","text":"Consistency is useful, though it won't tell you what happens at other hours. You should acknowledge that limitation when you present your findings. What do you think about asking volunteers to identify the insects from your photographs?"},
+        {"who":"A","text":"I agree that volunteers could help with the volume of images. However, I'm concerned that inexperienced people might confuse similar species. I'd only use their classifications if someone with relevant training checked them afterwards."},
+        {"who":"B","text":"That's a reasonable condition. Before you start, obtain permission from the garden manager and test the camera in both locations. You mentioned buying a new lens, but try the department's equipment first. And you don't need to interview visitors or collect any plants for this question."},
+        {"who":"A","text":"I'll contact the manager this afternoon and arrange the camera test for Friday. Then I can revise the timetable if the images are not clear enough. I'll also include the limitation about the time of day in my report."},
+        {"who":"B","text":"Good. Bring a short record of the trial next week, including the weather and where you stood. That will help us decide whether the method is practical before the observations begin."}
+      ]},"items":[
+        {"stem":"1. Why will the student study only two gardens?","options":["The other two are closed for repairs.","The manager has refused permission for the others.","The other two have no flower beds.","The camera cannot be used in the others."],"answer":0,"why":"学生说明另外两个花园正在维修，暂时关闭。","point":"detail"},
+        {"stem":"2. What will the student compare?","options":["The number of visitors in each garden.","The number of insect types visiting flower beds.","The growth of plants at different hours.","The number of bird species nesting in trees."],"answer":1,"why":"学生决定比较花坛访客中昆虫种类的数量。","point":"detail"},
+        {"stem":"3. Why did the student choose midday?","options":["The manager is available only then.","Volunteers can attend only at midday.","Both gardens receive direct sunlight at that time.","Visitors are excluded from both gardens then."],"answer":2,"why":"学生说两个花园中午都能得到直射阳光。","point":"detail"},
+        {"stem":"4. What is the student's attitude to volunteer identification?","options":["She rejects any volunteer involvement.","She accepts all volunteer classifications without checking.","She prefers volunteers to take the photographs instead.","She accepts their help provided a trained person checks it."],"answer":3,"why":"学生认为志愿者可以帮忙，但分类结果须由受过相关训练的人核对。","point":"stance"},
+        {"stem":"5. Which TWO actions does the tutor recommend before observations begin? A obtain permission; B test the camera; C buy a new lens; D interview visitors; E collect plants.","options":["A and B","A and C","B and D","D and E"],"answer":0,"why":"导师要求先取得管理者许可并测试相机；其余三项均非建议。","point":"evidence"}
+      ]}]},
+      {"id":"set-b","groups":[{"audio":{"intro":"","lines":[
+        {"who":"A","text":"I've been thinking about our presentation on the town's old water mill. We could begin with its construction, but I think the audience would understand its purpose more quickly if we started with the grain arriving at the mill."},
+        {"who":"B","text":"I agree. The construction details can come later, once we've explained what the mill actually did. Did you find a suitable source for the date when the machinery was replaced? The museum leaflet was rather vague about that."},
+        {"who":"A","text":"Yes. The local archive has a dated maintenance record. It distinguishes the replacement of the machinery from repairs to the roof, which happened several years earlier. I checked the catalogue number so we can identify the document on our final slide."},
+        {"who":"B","text":"Excellent. I was considering a visit to photograph the building, although the exterior has changed. We should make it clear which parts of the site are original rather than suggesting that the whole building looks as it did."},
+        {"who":"A","text":"Exactly. The west wall remains, but the extension beside it was added later. The archive drawing is useful because it shows the former entrance. I would put the drawing next to our photograph and label the date of each."},
+        {"who":"B","text":"What about using a short recording of the machinery? It could make the process easier to follow, but the available recording comes from a different mill. I wouldn't want listeners to assume it was made at this site."},
+        {"who":"A","text":"I can see why the sound might help, but I don't think we should use it unless we identify its source very clearly. Even then, we must explain that it illustrates a similar mechanism, not this particular machine."},
+        {"who":"B","text":"Agreed. Before the presentation, let's ask the archive for permission to reproduce the drawing and practise explaining the sequence without reading from our notes. We don't need to make a model, and there isn't time to survey visitors or translate the full maintenance record."},
+        {"who":"A","text":"I'll write to the archive about the drawing today. Could you prepare a simple outline for our rehearsal? We can check whether the explanation fits the time limit and whether each of us gets a chance to speak."},
+        {"who":"B","text":"Yes. I'll also bring the source list to the rehearsal so that we can check the dates against our slides. If anything is uncertain, we should say so instead of making the evidence sound more precise than it is."}
+      ]},"items":[
+        {"stem":"1. What do the students decide to introduce first?","options":["The later extension to the building.","The arrival of grain at the mill.","The replacement of the roof.","The construction date of the mill."],"answer":1,"why":"两人同意先从谷物运抵磨坊讲起，以说明磨坊的用途。","point":"detail"},
+        {"stem":"2. Where did the student find the machinery replacement date?","options":["On a visitor survey.","In the museum leaflet.","In a dated archive maintenance record.","On the modern extension."],"answer":2,"why":"学生从地方档案馆的一份有日期的维护记录中找到信息。","point":"detail"},
+        {"stem":"3. What does the archive drawing show?","options":["The former entrance.","The students' rehearsal plan.","The date of the modern photograph.","The machinery at a different mill."],"answer":0,"why":"学生指出档案图画出了原来的入口。","point":"detail"},
+        {"stem":"4. What does the student say about the machinery recording?","options":["It definitely comes from this mill.","It should replace the photograph.","It cannot illustrate any machinery.","Its different source must be made clear if used."],"answer":3,"why":"学生认为若使用录音，必须说清它来自另一座磨坊。","point":"stance"},
+        {"stem":"5. Which TWO preparations do the students agree to make? A build a model; B ask permission for the drawing; C survey visitors; D rehearse without reading notes; E translate the complete record.","options":["A and C","B and D","C and E","D and E"],"answer":1,"why":"两人决定申请使用图画的许可，并练习不照着笔记讲解。","point":"evidence"}
+      ]}]}
+    ],
+    "more":{"kind":"part3","topics":["校园花园调查","地方建筑研究","图书馆空间","水资源项目","博物馆展览","社区交通调查","城市树木","历史档案","学习空间","废物分类","河流观察","公共地图"]}
+  }]
+}

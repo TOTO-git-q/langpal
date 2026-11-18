@@ -1,0 +1,51 @@
+{
+ "id": "listening-long-announcement", "title": "通知独白的结构", "goal": "按通知结构定位安排，听出要求与例外。", "skill": "听力", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "structure", "label": "按通知结构找到事项与安排"}, {"id": "requirement", "label": "听出适用对象、要求和例外"}],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "通知独白的教学要求"}],
+ "cards": [
+  {"id": "structure", "type": "table", "title": "结构", "cols": ["部分", "内容", "例"], "rows": [
+   ["对象", "确定通知适用的人", "Attention, workshop participants."],
+   ["事项", "确定活动或变更", "The workshop has moved indoors."],
+   ["时间地点", "核对最终安排", "Meet at the hall at ten."],
+   ["行动要求", "确定参与者须做的事", "Please bring your ticket."],
+   ["例外", "确定要求不适用的人", "Children under six need no ticket."]
+  ], "note": "变更通知里有原安排和新安排，以新安排为准。每条要求和例外都要对应到适用的人。"},
+  {"id": "expressions", "type": "table", "title": "常用表达", "cols": ["表达", "作用", "例"], "rows": [
+   ["be required to", "说明必须完成的行动", "Visitors are required to sign in."],
+   ["by", "说明最晚期限", "Please register by Friday."],
+   ["except", "指出例外对象", "Everyone except guides needs a ticket."],
+   ["in advance", "说明行动须提前完成", "Please book a place in advance."]
+  ], "note": "by Friday 表示最晚在周五完成。通知另给了具体时刻的，以这个时刻为准。"},
+  {"id": "worked", "type": "text", "title": "例题", "body": [{"box": "Attention, museum visitors. The tour now starts at eleven in the west hall. Everyone except children under six is required to collect a ticket at the desk."}, {"box": "Who needs to collect a ticket?\n1. Every visitor, including young children.\n2. All visitors except children under six.\n3. Only children visiting the west hall.\n4. Only guides working at the desk."}, {"p": "Everyone except children under six 说明适用的人：六岁以下儿童除外。is required to collect a ticket 是要求。第二项保留了这个例外。"}]},
+  {"id": "errors", "type": "table", "title": "常见错误", "cols": ["类型", "例", "辨析"], "rows": [
+   ["原地点当最终地点", "The tour starts in the east hall.", "地点改为 west hall，以新地点为准。"],
+   ["期限与活动时间混淆", "Register at eleven.", "十一点是参观开始的时间，不是报名期限。"],
+   ["忽略例外", "Children under six need a ticket.", "except 把六岁以下儿童排除在外。"],
+   ["对象替换", "Only the guides collect tickets.", "领票的是参观者，六岁以下儿童除外。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["structure", "requirement"], "groups": [
+   {"audio": {"intro": "Listen to an announcement.", "lines": [{"who": "A", "text": "Attention, concert visitors. Because of the rain, the concert has moved from the garden to the hall. It will still start at three. Visitors are required to show their tickets at the hall entrance. Children under five may enter without a ticket."}]}, "items": [
+    {"stem": "Where will the concert take place?", "options": ["In the garden as planned.", "In the hall because of rain.", "At the garden entrance.", "At the hall entrance."], "answer": 1, "why": "依据是 has moved from the garden to the hall。因为下雨，音乐会改在礼堂举行，即第二项。", "point": "structure"},
+    {"stem": "Who may enter without a ticket?", "options": ["All visitors to the garden.", "All visitors to the hall.", "Children who are under five.", "Children who arrive after three."], "answer": 2, "why": "依据是 Children under five may enter without a ticket。五岁以下儿童是验票的例外，即第三项。", "point": "requirement"}
+   ]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["structure", "requirement"], "groups": [
+   {"audio": {"intro": "Listen to an announcement.", "lines": [{"who": "A", "text": "Welcome, visitors to the farm. The guided walk begins at the red gate at ten thirty. Please book a place in advance at the visitor desk. Everyone except staff is required to wear a visitor badge. The badge can be returned to the desk after the walk. The farm shop opens at noon."}]}, "items": [
+    {"stem": "Where does the guided walk begin?", "options": ["At the red gate at ten thirty.", "At the farm shop at noon.", "At the visitor desk after booking.", "At the desk where staff give badges."], "answer": 0, "why": "依据是 The guided walk begins at the red gate at ten thirty。导览十点半从红门出发，即第一项。", "point": "structure"},
+    {"stem": "What must visitors do before the walk?", "options": ["Return their badges to the desk.", "Visit the farm shop at noon.", "Bring a badge from the farm shop.", "Reserve a place ahead of time."], "answer": 3, "why": "依据是 book a place in advance at the visitor desk。in advance 改写为 ahead of time，即第四项。", "point": "requirement"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["structure", "requirement"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to an announcement.", "lines": [{"who": "A", "text": "Attention, participants in Saturday's outdoor drawing day. The event was going to take place beside the river, but the ground there is too wet after the rain. We will now meet in the covered market hall. The start time remains ten o'clock, and the event will finish at two. Please enter through the north door, as the south door will be used by market staff. Everyone is required to bring a pencil and a notebook. Paper will be provided for drawing, but participants should bring their own lunch. If you have already registered, your place is still reserved. Anyone who has not registered should do so by Friday at the community desk. Children under twelve must come with an adult. The adult does not need to register separately unless they also wish to draw. We look forward to seeing your work."}]}, "items": [
+    {"stem": "Where will drawing day be held?", "options": ["Beside the river as planned.", "At the community registration desk.", "Inside the covered market hall.", "At the market's south entrance."], "answer": 2, "why": "依据是 We will now meet in the covered market hall。河边地太湿，活动改在有顶的市场大厅，即第三项。", "point": "structure"},
+    {"stem": "What must every participant bring?", "options": ["Lunch and paper for the drawing.", "A notebook and a pencil.", "A pencil and a registration form.", "Paper and a separate adult ticket."], "answer": 1, "why": "依据是 Everyone is required to bring a pencil and a notebook。纸由活动提供，需自带的是铅笔和本子，即第二项。", "point": "requirement"},
+    {"stem": "Which adult must register separately?", "options": ["An adult who wishes to draw too.", "An adult accompanying any child.", "An adult entering the north door.", "An adult bringing a child's lunch."], "answer": 0, "why": "依据是 The adult does not need to register separately unless they also wish to draw。陪同的成人自己也画画时才要单独报名，即第一项。", "point": "requirement"}
+   ]},
+   {"audio": {"intro": "Listen to an announcement.", "lines": [{"who": "A", "text": "Welcome to the hillside water mill. Today's guided visit begins at the visitor center at half past eleven. We'll walk from there to the mill building, where a guide will explain how the machinery was used. The walk takes about ten minutes. All visitors except children under eight are required to collect a visitor badge at the center. Please keep the badge visible during the visit and return it before leaving. Anyone wishing to join the afternoon workshop should book a place in advance at the same desk. The workshop begins at two and places are limited. The café beside the mill opens at noon, but food and drinks cannot be taken into the machinery room. Photography is allowed in the courtyard. Inside the mill, please ask the guide before taking photographs. Thank you for helping us keep the building accessible to everyone."}]}, "items": [
+    {"stem": "Where will the guided visit start?", "options": ["At the café beside the mill.", "Inside the machinery room.", "At the visitor center.", "In the courtyard by the mill."], "answer": 2, "why": "依据是 Today's guided visit begins at the visitor center at half past eleven。参观从游客中心开始，再步行到磨坊，即第三项。", "point": "structure"},
+    {"stem": "Who is exempt from collecting a visitor badge?", "options": ["All visitors attending the workshop.", "Children who are under eight.", "Children going to the café at noon.", "Visitors who stay in the courtyard."], "answer": 1, "why": "依据是 All visitors except children under eight are required to collect a visitor badge。八岁以下儿童不用领胸牌，即第二项。", "point": "requirement"},
+    {"stem": "What should a visitor do to join the afternoon workshop?", "options": ["Ask the guide at the mill at two o'clock.", "Return a badge before the walk.", "Book a table at the café when it opens.", "Reserve a place before the workshop."], "answer": 3, "why": "依据是 Anyone wishing to join the afternoon workshop should book a place in advance。in advance 改写为 before the workshop，即第四项。", "point": "structure"}
+   ]}
+  ]}]} 
+ ]
+}

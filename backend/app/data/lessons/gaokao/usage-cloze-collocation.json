@@ -1,0 +1,575 @@
+{
+ "id": "usage-cloze-collocation",
+ "title": "动词搭配与短语",
+ "goal": "结合语境理解短语并选择动词搭配。",
+ "skill": "语言运用",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "phrase",
+   "label": "理解动词短语的整体含义"
+  },
+  {
+   "id": "collocation",
+   "label": "选择符合上下文及宾语的搭配"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语课程课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "教学内容与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "动词和后面的词大多有固定的组合。短语的整体意思要结合宾语和情境来判断。"
+    },
+    {
+     "box": "She got over the fence. / She got over her fear of water."
+    },
+    {
+     "p": "第一句的 get over 是越过栅栏，第二句是克服恐惧。宾语不同，同一个短语的意思也不同。"
+    }
+   ]
+  },
+  {
+   "id": "effort",
+   "type": "table",
+   "title": "词汇表：付出努力",
+   "cols": [
+    "搭配",
+    "意义",
+    "例"
+   ],
+   "rows": [
+    [
+     "make an effort",
+     "付出努力",
+     "She made an effort to listen carefully."
+    ],
+    [
+     "try one's best",
+     "尽全力",
+     "He tried his best to finish the race."
+    ],
+    [
+     "work hard",
+     "努力工作",
+     "They worked hard on the display."
+    ],
+    [
+     "spare no effort",
+     "不遗余力",
+     "She spared no effort to prepare the room."
+    ],
+    [
+     "do one's best",
+     "尽最大努力",
+     "I did my best to explain the route."
+    ],
+    [
+     "put effort into",
+     "为……付出努力",
+     "They put effort into the design."
+    ],
+    [
+     "work on",
+     "致力于",
+     "She worked on her pronunciation."
+    ],
+    [
+     "keep trying",
+     "继续尝试",
+     "He kept trying after the first attempt failed."
+    ],
+    [
+     "take pains to",
+     "费心做",
+     "She took pains to check every name."
+    ],
+    [
+     "make progress",
+     "取得进步",
+     "He made progress through practice."
+    ]
+   ]
+  },
+  {
+   "id": "decision",
+   "type": "table",
+   "title": "词汇表：作出决定",
+   "cols": [
+    "搭配",
+    "意义",
+    "例"
+   ],
+   "rows": [
+    [
+     "make up one's mind",
+     "下定决心",
+     "She made up her mind to join the club."
+    ],
+    [
+     "make a decision",
+     "作出决定",
+     "They made a decision after talking."
+    ],
+    [
+     "reach a decision",
+     "作出决定",
+     "The group reached a decision together."
+    ],
+    [
+     "make a choice",
+     "作出选择",
+     "He made a choice between two routes."
+    ],
+    [
+     "decide on",
+     "决定选用",
+     "They decided on the blue cover."
+    ],
+    [
+     "choose between",
+     "在两者之间选择",
+     "She chose between tea and water."
+    ],
+    [
+     "come to a decision",
+     "作出决定",
+     "The committee came to a decision."
+    ],
+    [
+     "settle on",
+     "最终选定",
+     "They settled on Saturday for the visit."
+    ],
+    [
+     "weigh the options",
+     "权衡选项",
+     "He weighed the options before choosing."
+    ],
+    [
+     "change one's mind",
+     "改变主意",
+     "She changed her mind and stayed home."
+    ]
+   ]
+  },
+  {
+   "id": "help",
+   "type": "table",
+   "title": "词汇表：提供帮助",
+   "cols": [
+    "搭配",
+    "意义",
+    "例"
+   ],
+   "rows": [
+    [
+     "lend a hand",
+     "帮忙",
+     "He lent a hand with the boxes."
+    ],
+    [
+     "give someone a hand",
+     "帮助某人",
+     "She gave me a hand with the chairs."
+    ],
+    [
+     "offer help",
+     "主动提供帮助",
+     "He offered help when the bag tore."
+    ],
+    [
+     "provide support",
+     "提供支持",
+     "The teacher provided support throughout the project."
+    ],
+    [
+     "help out",
+     "帮忙",
+     "They helped out at the event."
+    ],
+    [
+     "give advice",
+     "提出建议",
+     "She gave advice on using the tool."
+    ],
+    [
+     "share the work",
+     "分担工作",
+     "We shared the work of cleaning."
+    ],
+    [
+     "look after",
+     "照料",
+     "He looked after the plants while she was away."
+    ],
+    [
+     "care for",
+     "照顾",
+     "They cared for the injured bird."
+    ],
+    [
+     "stand by",
+     "支持",
+     "Her friends stood by her during the difficult period."
+    ]
+   ]
+  },
+  {
+   "id": "obstacle",
+   "type": "table",
+   "title": "词汇表：克服困难",
+   "cols": [
+    "搭配",
+    "意义",
+    "例"
+   ],
+   "rows": [
+    [
+     "get over",
+     "克服",
+     "He got over his fear of speaking."
+    ],
+    [
+     "overcome a difficulty",
+     "克服困难",
+     "They overcame a difficulty with the design."
+    ],
+    [
+     "solve a problem",
+     "解决问题",
+     "She solved the problem by changing the route."
+    ],
+    [
+     "deal with",
+     "处理",
+     "He dealt with the broken shelf first."
+    ],
+    [
+     "work through",
+     "逐步解决",
+     "They worked through the problem together."
+    ],
+    [
+     "cope with",
+     "应对",
+     "She coped with the delay calmly."
+    ],
+    [
+     "find a way around",
+     "找到变通方法",
+     "They found a way around the blocked road."
+    ],
+    [
+     "face a challenge",
+     "面对挑战",
+     "The team faced a challenge when the lights failed."
+    ],
+    [
+     "recover from",
+     "从……中恢复",
+     "He recovered from the illness."
+    ],
+    [
+     "carry on",
+     "继续",
+     "She carried on after a short rest."
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "phrase",
+    "collocation"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "After considering both clubs, Nina decided firmly to join the music club. She made up her ___.",
+       "options": [
+        "hand",
+        "mind",
+        "effort",
+        "problem"
+       ],
+       "answer": 1,
+       "why": "make up one's mind 表示下定决心。",
+       "point": "collocation"
+      },
+      {
+       "stem": "Omar helped carry the boxes. He lent a hand. What did he do?",
+       "options": [
+        "He asked others to carry the boxes.",
+        "He carried the boxes all alone.",
+        "He gave someone practical help.",
+        "He lent the boxes to a friend."
+       ],
+       "answer": 2,
+       "why": "helped carry the boxes 说明 lent a hand 是帮忙，即第三项。第四项只照字面理解了 lent。",
+       "point": "phrase"
+      },
+      {
+       "stem": "She practiced speaking until she no longer feared it. She got over her ___.",
+       "options": [
+        "choice",
+        "hand",
+        "route",
+        "fear"
+       ],
+       "answer": 3,
+       "why": "get over her fear 表示克服恐惧。",
+       "point": "collocation"
+      },
+      {
+       "stem": "The team made an effort to finish the display. What did the team do?",
+       "options": [
+        "It worked to complete the display.",
+        "It decided to cancel the display.",
+        "It gave the display to another team.",
+        "It chose between two displays."
+       ],
+       "answer": 0,
+       "why": "made an effort 表示为完成展览付出努力。",
+       "point": "phrase"
+      },
+      {
+       "stem": "The group considered two dates and finally chose Saturday. It settled ___ Saturday.",
+       "options": [
+        "with",
+        "on",
+        "over",
+        "from"
+       ],
+       "answer": 1,
+       "why": "settle on 表示最终选定。",
+       "point": "collocation"
+      },
+      {
+       "stem": "Ari looked after the plants while his sister was away. What did he do?",
+       "options": [
+        "He chose new plants for her.",
+        "He looked for a route to her house.",
+        "He cared for the plants for her.",
+        "He stopped her from buying plants."
+       ],
+       "answer": 2,
+       "why": "looked after 指照料植物。",
+       "point": "phrase"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "phrase",
+    "collocation"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The team discussed the options and reached a ___.",
+       "options": [
+        "hand",
+        "fear",
+        "fence",
+        "decision"
+       ],
+       "answer": 3,
+       "why": "reach a decision 表示作出决定。",
+       "point": "collocation"
+      },
+      {
+       "stem": "Lin carried on after resting. What did she do after the rest?",
+       "options": [
+        "She continued the work.",
+        "She handed the work to a friend.",
+        "She decided to stop the work.",
+        "She rested before the work."
+       ],
+       "answer": 0,
+       "why": "carried on 指继续。",
+       "point": "phrase"
+      },
+      {
+       "stem": "The group put a lot of ___ into preparing the concert.",
+       "options": [
+        "decisions",
+        "effort",
+        "fences",
+        "hands"
+       ],
+       "answer": 1,
+       "why": "put effort into 表示为某事付出努力。",
+       "point": "collocation"
+      },
+      {
+       "stem": "Ava weighed the options before choosing. What did she do?",
+       "options": [
+        "She checked how heavy each item was.",
+        "She avoided making any choice.",
+        "She considered the alternatives.",
+        "She chose without thinking it over."
+       ],
+       "answer": 2,
+       "why": "before choosing 说明 weighed the options 是选择前比较各个选项，即第三项。第一项只照字面理解了 weigh。",
+       "point": "phrase"
+      },
+      {
+       "stem": "The teacher gave useful ___ on correcting the drawing.",
+       "options": [
+        "fear",
+        "effort",
+        "decision",
+        "advice"
+       ],
+       "answer": 3,
+       "why": "give advice 表示提出建议。",
+       "point": "collocation"
+      },
+      {
+       "stem": "After the delay, the team found a way around the blocked path. What did it find?",
+       "options": [
+        "An alternative route",
+        "A reason to block the path",
+        "A plan to close the route",
+        "A way to delay the team"
+       ],
+       "answer": 0,
+       "why": "a way around the blocked path 指绕过阻断处的办法。",
+       "point": "phrase"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "phrase",
+    "collocation"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "fill": "Our group wanted to prepare a performance. We decided to ma{ke} an effort; everyone would t{ry} their best and wo{rk} hard. We would sp{are} no effort, even when practice felt difficult. After discussing the music, we ma{de} up our minds and began. We planned to re{ach} a decision about the order together. We ma{de} a choice after listening to both songs. When I needed help, a friend le{nt} a hand. We ga{ve} a hand with moving chairs and g{ot} over our nerves before performing.",
+       "tags": [
+        "collocation",
+        "collocation",
+        "phrase",
+        "phrase",
+        "phrase",
+        "collocation",
+        "collocation",
+        "phrase",
+        "collocation",
+        "phrase"
+       ]
+      },
+      {
+       "items": [
+        {
+         "stem": "After considering both routes, Jana made up her mind to take the shorter one. What did she do?",
+         "options": [
+          "She decided on a route.",
+          "She asked for a route.",
+          "She blocked the short route.",
+          "She left before choosing."
+         ],
+         "answer": 0,
+         "why": "made up her mind 表示她决定采用较短的路线。",
+         "point": "phrase"
+        },
+        {
+         "stem": "The students made an ___ to finish the display before the visitors arrived.",
+         "options": [
+          "advice",
+          "effort",
+          "mind",
+          "hand"
+         ],
+         "answer": 1,
+         "why": "make an effort 表示付出努力。",
+         "point": "collocation"
+        },
+        {
+         "stem": "Bo helped move the table. He lent a hand. What does this mean?",
+         "options": [
+          "He chose a new table.",
+          "He lent his table to someone.",
+          "He gave practical help.",
+          "He stopped moving the table."
+         ],
+         "answer": 2,
+         "why": "helped move the table 说明 lent a hand 是帮忙，即第三项。第二项只照字面理解了 lent。",
+         "point": "phrase"
+        },
+        {
+         "stem": "After practice, Ella no longer feared speaking in class. She got over her ___.",
+         "options": [
+          "choice",
+          "hand",
+          "work",
+          "fear"
+         ],
+         "answer": 3,
+         "why": "get over her fear 表示克服恐惧。",
+         "point": "collocation"
+        },
+        {
+         "stem": "The group discussed the problem step by step and worked through it. What did the group do?",
+         "options": [
+          "It gradually dealt with the problem.",
+          "It avoided discussing the problem.",
+          "It chose a problem for another group.",
+          "It caused the problem during discussion."
+         ],
+         "answer": 0,
+         "why": "worked through 指逐步处理问题。",
+         "point": "phrase"
+        },
+        {
+         "stem": "After comparing two designs, the students decided ___ the simpler one.",
+         "options": [
+          "over",
+          "on",
+          "from",
+          "with"
+         ],
+         "answer": 1,
+         "why": "decide on 表示决定选用某物。",
+         "point": "collocation"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

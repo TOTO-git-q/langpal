@@ -1,0 +1,46 @@
+{
+  "id": "writing-task2-advantages",
+  "title": "利弊题　Task 2 · 练习",
+  "goal": "分析变化的利弊，并依据一致的尺度作出总体判断。",
+  "skill": "写作",
+  "exam": "雅思 IELTS Academic",
+  "points": [
+    {"id": "task", "label": "准确回应利弊题的指令"},
+    {"id": "develop", "label": "用解释与例证支持利弊分析"},
+    {"id": "evaluate", "label": "依据同一尺度进行总体权衡"}
+  ],
+  "sources": [
+    {"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "利弊题的练习尺寸与知识点"},
+    {"id": "writing", "title": "IELTS Academic: Writing test format", "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing", "used": "写作任务的形式"},
+    {"id": "rubric", "title": "IELTS Writing Band Descriptors", "url": "https://ielts.org/cdn/ielts-guides/ielts-writing-band-descriptors.pdf", "used": "写作评分标准"}
+  ],
+  "cards": [
+    {"id": "rubric", "type": "rubric", "title": "评分标准", "levels": [
+      {"score": 5, "name": "Band 8-9", "summary": "充分回应任务，论点清楚且展开充分，语言运用自如。", "signs": ["充分分析利弊并支持总体判断", "组织连贯，衔接自然", "词汇灵活准确，句式多样，错误极少"]},
+      {"score": 4, "name": "Band 7", "summary": "回应任务，主要观点清楚并有展开。", "signs": ["利弊和判断有相关支持，个别地方可更充分", "结构清楚，衔接基本得当", "词汇和句式有变化，错误较少"]},
+      {"score": 3, "name": "Band 6", "summary": "回应任务的主要部分，但部分论证不够充分。", "signs": ["总体判断可辨，部分观点支持不足", "整体推进清楚，衔接有时机械", "词汇和句式有一定范围，错误反复出现"]},
+      {"score": 2, "name": "Band 5", "summary": "部分回应任务，判断或论证不够清楚。", "signs": ["观点展开有限，可能有重复或不相关内容", "组织有一定顺序，但衔接不稳定", "词汇和句式范围有限，错误有时妨碍理解"]},
+      {"score": 1, "name": "Band 4 及以下", "summary": "对任务的回应和论证十分有限，语言困难明显。", "signs": ["相关观点不清或缺少支持", "内容组织和衔接有限", "词汇及句式范围很窄，错误频繁并影响理解"]},
+      {"score": 0, "name": "未作答", "summary": "未作答。", "signs": []}
+    ], "takeaways": [{"t": "四项标准", "d": "按任务回应、连贯与衔接、词汇、语法范围与准确性四项等权评价。"}]},
+    {"id": "marking", "type": "marking", "title": "批改单", "format": [
+      {"t": "题目的要求", "d": "逐条判断是否答到，并引用原文。"},
+      {"t": "分数档", "d": "对照评分标准给出 0–5 分和理由。"},
+      {"t": "必改的地方", "d": "列出最多五处影响理解或准确性的错误及改法。"},
+      {"t": "升一档", "d": "改写一处内容，说明怎样补充细节或表达得更准确。"}
+    ], "rules": "评分依据任务回应、连贯与衔接、词汇、语法范围与准确性；四项等权。", "example": {
+      "about": "以下示例说明利弊判断缺少解释时的判定。",
+      "coverage": [{"bullet": "Give reasons for your answer and include relevant examples from your own knowledge or experience.", "verdict": "做了但太薄", "quote": "Online booking is convenient.", "note": "提出了优点，但没有说明受益对象或作用。"}],
+      "score": 2, "reason": "相关观点有提及，但展开有限。", "fixes": [],
+      "upgrade": {"from": "Online booking is convenient.", "to": "Online booking lets a resident choose an appointment after work without making a separate visit to the office.", "why": "补充了受益对象和具体作用。"}, "next": ""
+    }},
+    {"id": "timed", "type": "write", "title": "限时写作", "minutes": 40, "min_words": 250, "points": ["task", "develop", "evaluate"], "tasks": [
+      {"id": "set-a", "purpose": "权衡公共服务网上预约的利弊", "setting": "Some local authorities have introduced online appointment systems for services that residents previously booked in person. Residents can choose an available time from home, but must use the system to arrange most routine visits to an office.", "lead": "Do the advantages of this change outweigh the disadvantages?", "bullets": ["Give reasons for your answer and include relevant examples from your own knowledge or experience."], "must": ["分析网上预约公共服务的利弊，并以统一的比较依据支持总体判断。"],
+        "model": "Online appointment systems can reduce the effort involved in arranging a visit to a local office, but requiring residents to use them may exclude some of the people those offices serve. Judged by access to public services, I believe the disadvantages of a compulsory system outweigh its convenience.\n\nThe principal benefit is that many residents can select a time without making a separate journey or waiting for an office to open. A person who works during the day, for example, could book an appointment in the evening and receive confirmation immediately. Staff may also be able to plan their workload more effectively if appointments are recorded in one system. Shorter queues and more predictable visits can make services easier to use for a substantial group of residents.\n\nHowever, the same requirement creates a serious barrier for people without reliable internet access, a suitable device or confidence using the system. An older resident who needs help with a form might have to find someone else to book the visit before reaching the office. Even a person who normally uses the internet could encounter problems if a website is inaccessible or a connection fails. For these residents, the convenience offered to others comes at the cost of an additional obstacle to a necessary service.\n\nThe two effects are not equal in their consequences. Saving time is valuable, but being unable to arrange a necessary appointment can prevent a resident from receiving help altogether. Authorities could retain the benefits of online booking while offering telephone and in-person alternatives, together with assistance for people who want to learn to use the website.\n\nIn conclusion, online booking can make routine visits more convenient, but requiring it restricts access for some residents. The loss of access is more serious than the time saved, so a choice of booking methods is preferable."
+      },
+      {"id": "set-b", "purpose": "权衡员工每周部分时间在家工作的利弊", "setting": "Some employers now allow office staff to work from home for part of each week instead of travelling to the workplace every day. Staff members still attend the office on other days and use online tools to communicate when working remotely.", "lead": "Do the advantages of this change outweigh the disadvantages?", "bullets": ["Give reasons for your answer and include relevant examples from your own knowledge or experience."], "must": ["分析每周部分时间在家工作的利弊，并以统一的比较依据支持总体判断。"],
+        "model": "Allowing office employees to work from home on some days changes both their daily routines and the way colleagues cooperate. Although remote days can make communication less immediate, I believe the benefits for employees' ability to work effectively outweigh the disadvantages when office time is planned carefully.\n\nA major advantage is that staff can use time previously spent travelling for rest or for tasks requiring concentration. Someone facing a long commute, for example, may begin the day less tired and have more flexibility to manage a family commitment. A quiet period at home may also suit work that involves reading or writing, provided the employee has an appropriate workspace. Since staff still attend the office, they can reserve in-person time for activities that benefit most from it.\n\nThe main drawback is that colleagues cannot always obtain quick help from one another on remote days. A new employee may hesitate to interrupt someone with a message, even when a short question would prevent a mistake. Discussions can also become fragmented if people are unsure which channel to use. These problems can slow work and make newcomers feel less connected to their team.\n\nNevertheless, the communication costs can be reduced without giving up the flexibility of the arrangement. A team can agree on shared office days for training and complex discussions, while setting aside a regular online period for questions at other times. Managers should also check whether individual staff have suitable conditions at home rather than assuming that every worker benefits equally. With these arrangements, employees can gain uninterrupted time while retaining access to colleagues.\n\nIn conclusion, partial home working can introduce delays in communication, but its benefits for concentration and manageable routines are greater when teams organise contact deliberately and account for individual circumstances."
+      }
+    ], "more": {"kind": "task2-advantages", "topics": ["公共服务网上预约", "每周部分时间在家工作", "社区共享工具", "学校电子教材", "城市自行车租赁", "弹性工作时间", "社区运动设施收费", "大学短期课程", "图书馆自助借还", "公共交通电子票", "家庭送餐服务", "学校统一午餐", "社区回收站"]}}
+  ]
+}

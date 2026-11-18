@@ -1,0 +1,369 @@
+{
+ "id": "speaking-mock",
+ "title": "模拟测试",
+ "goal": "听后还原句子，并综合判断面试问题的功能和回答的适切性。",
+ "skill": "speaking",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 口语",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "repeat",
+   "label": "听后还原完整的句子"
+  },
+  {
+   "id": "interview",
+   "label": "判断问题的功能并选出合适的回答"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "口语题型、题量、时间、话语功能和每题满分"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "口语任务说明、每题作答时间和面试评分标准"
+  }
+ ],
+ "cards": [
+  {
+   "id": "instructions",
+   "type": "text",
+   "title": "说明",
+   "body": [
+    {
+     "p": "正式口语部分包括 Listen and Repeat 7 题与 Take an Interview 4 题，共 11 题，预计用时 8 分钟。两类题每题满分均为 5 分。"
+    },
+    {
+     "p": "跟读要求原样复述听到的句子，每句的作答时限为 8–12 秒，随句子而定。面试在情境介绍后回答同一话题下的问题，每题作答 45 秒。"
+    },
+    {
+     "p": "本课小测是开口前的客观题练习，题量和正式考试不同。开口说的部分，跟读到口语页的「跟读」练，面试到口语页的「对话」练。"
+    },
+    {
+     "p": "还原句子要保留原来的词、顺序、时态和单复数。The forms are beside the printer. 不能说成 The form is behind the printer，两句的单复数和位置都不同。"
+    },
+    {
+     "p": "面试题先判断问题要的是描述、解释、观点、建议、预测还是叙述，再看回答的内容。Why did the group move? 问的是原因，We moved because the old room was too small. 给出了原因。"
+    }
+   ],
+   "src": "spec 第 6、17 页；overview 第 17、19 页"
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 8,
+   "pass": 0.75,
+   "points": [
+    "repeat",
+    "interview"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The help desk is opposite the main staircase."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Rebuild the sentence that was heard.",
+         "lead": "The help desk",
+         "chunks": [
+          "is",
+          "opposite",
+          "the main",
+          "staircase"
+         ],
+         "tail": ".",
+         "extra": [
+          "beside"
+         ],
+         "why": "录音是 is opposite the main staircase，beside 把位置改成了旁边。",
+         "point": "repeat"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Please return the borrowed headphones to the media counter."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Rebuild the sentence that was heard.",
+         "lead": "Please",
+         "chunks": [
+          "return",
+          "the borrowed headphones",
+          "to",
+          "the media counter"
+         ],
+         "tail": ".",
+         "extra": [
+          "from"
+         ],
+         "why": "return … to 表示归还到柜台，from 会改变方向。",
+         "point": "repeat"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The workshop opens at nine and closes before the evening lecture."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Rebuild the sentence that was heard.",
+         "lead": "The workshop",
+         "chunks": [
+          "opens at nine",
+          "and",
+          "closes before",
+          "the evening lecture"
+         ],
+         "tail": ".",
+         "extra": [
+          "after"
+         ],
+         "why": "录音有两个并列动作 opens 和 closes。before 表示讲座开始前关门，after 意思相反。",
+         "point": "repeat"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "If the weather changes, the outdoor activities will move into the sports hall."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Rebuild the sentence that was heard.",
+         "lead": "If the weather changes,",
+         "chunks": [
+          "the outdoor activities",
+          "will move",
+          "into",
+          "the sports hall"
+         ],
+         "tail": ".",
+         "extra": [
+          "out of"
+         ],
+         "why": "If 引出条件，will move into 表示移进体育馆，out of 方向相反。",
+         "point": "repeat"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Students who have completed the safety briefing can borrow equipment without a supervisor."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Rebuild the sentence that was heard.",
+         "lead": "Students",
+         "chunks": [
+          "who have completed",
+          "the safety briefing",
+          "can borrow",
+          "equipment",
+          "without a supervisor"
+         ],
+         "tail": ".",
+         "extra": [
+          "with a supervisor"
+         ],
+         "why": "who have completed 修饰 Students。录音是 without a supervisor，with 意思相反。",
+         "point": "repeat"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The detailed instructions for assembling the temporary display are available from the events coordinator."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Rebuild the sentence that was heard.",
+         "lead": "The detailed instructions",
+         "chunks": [
+          "for assembling",
+          "the temporary display",
+          "are available",
+          "from",
+          "the events coordinator"
+         ],
+         "tail": ".",
+         "extra": [
+          "is available"
+         ],
+         "why": "主语的中心词 instructions 是复数，所以用 are available。for assembling … 修饰 instructions。",
+         "point": "repeat"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The student newspaper is considering an audio edition. What problems might it encounter during the first term?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which function does the question primarily request?",
+         "options": [
+          "Recommending a final decision to cancel the edition",
+          "Narrating problems that have already occurred",
+          "Predicting difficulties the new edition may face",
+          "Describing the audio edition the newspaper is planning"
+         ],
+         "answer": 2,
+         "why": "might … encounter during the first term 问的是将来可能遇到的困难，所以是预测。considering 说明方案还在考虑中。",
+         "point": "interview"
+        }
+       ]
+      },
+      {
+       "text": "Question: Why did the volunteer group switch from individual sign-ups to team sign-ups? Notes: individual volunteers often did not know anyone; teams gave new volunteers familiar partners; the form also changed color.",
+       "items": [
+        {
+         "stem": "Which opening answers the question using the relevant reason?",
+         "options": [
+          "The new form was printed in a new color.",
+          "Newcomers could work with people they already knew.",
+          "Individual volunteers often knew many people in the group.",
+          "The team form was introduced after the individual form."
+         ],
+         "answer": 1,
+         "why": "Why 问原因。teams gave new volunteers familiar partners 是原因，第二项是它的改写。表格换颜色与原因无关。",
+         "point": "interview"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The oral presentation group wants to help members who speak too quickly. What should the group do during practice?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which response offers a relevant suggestion?",
+         "options": [
+          "It could ask members to pause between complete ideas.",
+          "Its members might speak faster when they feel nervous.",
+          "It met last term to prepare several short presentations.",
+          "Some members speak too quickly in presentations."
+         ],
+         "answer": 0,
+         "why": "What should … do 问的是建议。第一项用 could 提出了具体做法。第二项是预测，不是建议。",
+         "point": "interview"
+        }
+       ]
+      },
+      {
+       "text": "Question: What was learned from organizing the neighborhood clean-up? Response: We organized a clean-up. The clean-up was a neighborhood activity. It was an activity that we organized.",
+       "items": [
+        {
+         "stem": "What is the main problem supported by the transcript?",
+         "options": [
+          "It gives a specific lesson that is unrelated to the neighborhood.",
+          "It describes the clean-up in too much specific detail.",
+          "It supports a lesson with too many different examples.",
+          "It repeats the activity without explaining any learning."
+         ],
+         "answer": 3,
+         "why": "三句都在重复 organized、clean-up 和 activity，没有回答 What was learned。",
+         "point": "interview"
+        }
+       ]
+      },
+      {
+       "text": "Question: Describe a time when a group plan failed and explain the response. Notes: the planned room became unavailable; the group found another room; it informed participants of the new location.",
+       "items": [
+        {
+         "stem": "Which answer preserves the event and the response?",
+         "options": [
+          "We found another room, so the first one became unavailable.",
+          "Our room became unavailable, so we moved and told participants.",
+          "The room stayed available, but we canceled without notifying anyone.",
+          "We told participants to use the old room after moving to the new one."
+         ],
+         "answer": 1,
+         "why": "became unavailable 是问题，found another room 和 informed participants 是应对。第一项把因果说反了。",
+         "point": "interview"
+        }
+       ]
+      },
+      {
+       "text": "Question: Would a student-run equipment library be useful? Notes: occasional users could borrow rather than buy; maintenance would still cost money; students would manage the loans.",
+       "items": [
+        {
+         "stem": "Which answer gives a supported position while retaining the limitation?",
+         "options": [
+          "It would be free to maintain because students would manage loans.",
+          "It would force occasional users to buy all the equipment.",
+          "It could reduce purchases, though maintenance would still need funding.",
+          "It could eliminate all costs for every user and for the student managers."
+         ],
+         "answer": 2,
+         "why": "borrow rather than buy 支持减少购买。maintenance would still cost money 是限制，第三项把它保留了下来。",
+         "point": "interview"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

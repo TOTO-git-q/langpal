@@ -1,0 +1,275 @@
+{
+ "id": "reading-ctw-context",
+ "title": "实义词：上下文",
+ "goal": "利用话题、复现及逻辑关系确定实义词，再用已给字母和词长核对。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "topic",
+   "label": "利用话题和复现的词补出实义词"
+  },
+  {
+   "id": "logic",
+   "label": "利用对比、因果、举例关系补出实义词"
+  }
+ ],
+ "sources": [],
+ "cards": [
+  {
+   "id": "intro",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "上下文能缩小缺词的意思范围。话题和复现的词说明讲的是什么东西。对比、因果、定义和举例说明词与词之间的关系。意思确定后，再核对已给字母、词长和词性。"
+    },
+    {
+     "box": "The outer surface is rough, but the inner surface is smo___."
+    },
+    {
+     "p": "but 引出对比，这里填 rough 的反义词 smooth，放在 is 后面作形容词。smooth 共 6 个字母，已给 smo，补 oth。只看话题还可能想到别的材料性质，要靠 but 的对比来确定。"
+    }
+   ]
+  },
+  {
+   "id": "clues",
+   "type": "table",
+   "title": "上下文线索",
+   "cols": [
+    "线索",
+    "依据",
+    "例句"
+   ],
+   "rows": [
+    [
+     "话题词",
+     "同一话题里的相关事物，说明缺词大致是哪类意思。",
+     "The orchestra tuned its instruments before the concert."
+    ],
+    [
+     "同义复现",
+     "后文用原词或同义词再说同一个东西。",
+     "The entrance was blocked. Nothing could pass through the opening."
+    ],
+    [
+     "对比",
+     "but、however、unlike 引出相反或不同的性质。",
+     "The first surface is rough, but the second is smooth. Unlike the heavy lid, this cover is light."
+    ],
+    [
+     "因果",
+     "because、so、as a result 连接原因与结果。",
+     "The cloth was wet because it had absorbed water. The pipe cracked, so water escaped. As a result, the floor became wet."
+    ],
+    [
+     "定义和举例",
+     "that is 后面是解释，such as 后面是同类的例子。",
+     "The material is opaque; that is, light cannot pass through it. Metals such as copper and iron conduct electricity."
+    ]
+   ]
+  },
+  {
+   "id": "constraints",
+   "type": "table",
+   "title": "字母与词长",
+   "cols": [
+    "信息",
+    "作用",
+    "例"
+   ],
+   "rows": [
+    [
+     "已给字母",
+     "排除意思接近但开头不同的词。",
+     "rough 的反义词有 smooth 和 even，smo___ 只能是 smooth。"
+    ],
+    [
+     "总长度",
+     "已给字母数加缺失字母数，就是全词的长度。",
+     "smooth：3 个已给字母 + 3 个缺失字母。"
+    ],
+    [
+     "句法位置",
+     "在意思合适的词里，选词性对的那个。",
+     "The surface is smooth. The wheel moves smoothly."
+    ],
+    [
+     "整段关系",
+     "只看相邻的词定不下来时，回到前后句找依据。",
+     "The sample reflects light; it does not absorb it."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A curator places two bowls on a balance. Both bowls have the same volume, but one is made of a denser material. That bowl is hea____ than the other."
+    },
+    {
+     "p": "bowls、balance 和 denser material 说明话题是重量。体积相同时，密度大的那只更重，所以填 heavier。后面的 than 也要求比较级。"
+    },
+    {
+     "p": "heavier 共 7 个字母，已给 hea，补 vier。heavy 长度不对，也不能和 than 连用。"
+    }
+   ]
+  },
+  {
+   "id": "check-topic",
+   "type": "check",
+   "title": "练习一　话题与复现",
+   "points": [
+    "topic"
+   ],
+   "groups": [
+    {
+     "label": "Fill in the missing letters.",
+     "fill": "A music student is comparing wind instruments. Each instr{ument} produces sound when air inside it vibrates. The student uses a thin wooden reed; the re{ed} moves as air passes it. A microphone records the so{und}, and the recording is played again. The student compares a high note with a low no{te}. Each note has a particular pitch, and this pi{tch} can be measured. The air vibrates in a tube. A longer tu{be} produces a different pattern of vibr{ation}. The written comparison describes this pat{tern} in detail.",
+     "tags": [
+      "topic",
+      "topic",
+      "topic",
+      "topic",
+      "topic",
+      "topic",
+      "topic",
+      "topic"
+     ],
+     "notes": [
+      "instrument：首句的 wind instruments 是原词，Each 后面用单数。",
+      "reed：前面 a thin wooden reed 已点明对象。",
+      "sound：前句 produces sound 提供复现词。",
+      "note：与 high note 并列，重复 note。",
+      "pitch：this 回指前面 a particular pitch。",
+      "tube：前句 in a tube 给出同一部件。",
+      "vibration：前面的 vibrates 与 vibration 属同一词族。",
+      "pattern：this 回指刚提到的 pattern。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-logic",
+   "type": "check",
+   "title": "练习二　逻辑关系",
+   "points": [
+    "logic"
+   ],
+   "groups": [
+    {
+     "label": "Fill in the missing letters.",
+     "fill": "A class compares fabrics under a lamp. One sample is opa{que}; that is, no light passes through it. Another is trans{parent}, so objects behind it remain visible. The first cloth feels ro{ugh}, but the second feels smooth. Unlike the thick cloth, a th{in} sheet bends with little force. The class then adds water. One sample becomes w{et} because it absorbs the liquid. It grows hea{vier} as a result. After drying, it becomes lig{hter} again. Materials such as cotton and wool are fib{ers} used to make cloth.",
+     "tags": [
+      "logic",
+      "logic",
+      "logic",
+      "logic",
+      "logic",
+      "logic",
+      "logic",
+      "logic"
+     ],
+     "notes": [
+      "opaque：that is 后的 no light passes through it 定义 opaque。",
+      "transparent：objects behind it remain visible 说明材料透明。",
+      "rough：but 后的 smooth 与 rough 相对。",
+      "thin：Unlike 引出与 thick 相反的性质。",
+      "wet：because 后说它吸收了液体，所以变湿。",
+      "heavier：吸水后重量增加。grows 后面用比较级，表示和之前相比。",
+      "lighter：干了以后水分减少，重量减轻，与 heavier 相对。",
+      "fibers：cotton 和 wool 是纤维的例子，主语是复数，用 fibers。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-mixed",
+   "type": "check",
+   "title": "练习三　综合线索",
+   "points": [
+    "topic",
+    "logic"
+   ],
+   "groups": [
+    {
+     "label": "Fill in the missing letters.",
+     "fill": "A storage room contains drawers of different sizes. Each dra{wer} holds a set of tools. The tools are sorted into groups; each gr{oup} contains similar items. Wide drawers hold large tools, but nar{row} ones hold small parts. A label gives the name of each to{ol}. Some labels are difficult to read because the ink has become fa{int}. Fresh labels use dark ink and are therefore cl{ear}. The old labels are removed and repl{aced} with new ones. The replacement labels preserve the same na{mes} for the tools.",
+     "tags": [
+      "topic",
+      "topic",
+      "logic",
+      "topic",
+      "logic",
+      "logic",
+      "logic",
+      "topic"
+     ],
+     "notes": [
+      "drawer：前句的 drawers 是原词，Each 后面用单数。",
+      "group：前面 sorted into groups 提供复现词。",
+      "narrow：but 引出与 Wide 相反的宽度。",
+      "tool：前面的 tools 是原词，each 后面用单数。",
+      "faint：墨迹变淡是难读的原因。faint 与后句的 dark ink 相对。",
+      "clear：墨色深，所以清楚，与前句的 difficult to read 相对。",
+      "replaced：replace … with new ones 表示换成新的，后句的 replacement 是同一词族。",
+      "names：与 a label gives the name of each tool 对应，复数 names。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 4,
+   "pass": 0.8,
+   "points": [
+    "logic",
+    "topic"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Fill in the missing letters.",
+       "fill": "A display compares materials that transmit light with materials that block it. One panel is trans{parent}, so objects behind it remain visible. Another is opa{que}; that is, no light passes through it. A lamp sends li{ght} toward each panel. The la{mp} stays in the same position throughout the test. The class records the posi{tion} on a diagram. Unlike a rough sample, a smo{oth} panel has an even surface. Students inspect this sur{face} closely. They also compare a thick panel with a th{in} one and a rigid panel with a flex{ible} one. The flexible panel can be{nd}.",
+       "tags": [
+        "logic",
+        "logic",
+        "topic",
+        "topic",
+        "topic",
+        "logic",
+        "topic",
+        "logic",
+        "logic",
+        "logic"
+       ]
+      },
+      {
+       "label": "Fill in the missing letters.",
+       "fill": "A catalog team is removing duplicate entries from a collection list. Two entries describe the same obj{ect}, a wooden box. Because the object appears twice, one entry is redu{ndant}, that is, unnecessary. The team keeps one en{try} and removes the other. It then checks the collection li{st} for similar problems. Unlike the original list, the revised version is sho{rter}. Each surviving entry has a unique num{ber}. No two entries share a number. This makes each object easier to iden{tify}. A separate rec{ord} preserves changes in a digital file, so no information is lo{st}. The team stores this fi{le}.",
+       "tags": [
+        "topic",
+        "logic",
+        "topic",
+        "topic",
+        "logic",
+        "topic",
+        "logic",
+        "topic",
+        "logic",
+        "topic"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,906 @@
+{
+ "version": 3,
+ "id": "ielts",
+ "title": "雅思 IELTS Academic",
+ "language": "en",
+ "sections": [
+  {
+   "id": "listening",
+   "title": "听力",
+   "venue": "listening",
+   "lessons": [
+    "listening-part1",
+    "listening-part2",
+    "listening-part3",
+    "listening-part4",
+    "listening-overview",
+    "listening-p1-method",
+    "listening-p1-form",
+    "listening-p1-numbers",
+    "listening-p1-spelling",
+    "listening-p1-correction",
+    "listening-p1-booking",
+    "listening-p1-services",
+    "listening-p2-method",
+    "listening-p2-map",
+    "listening-p2-directions",
+    "listening-p2-matching",
+    "listening-p2-short",
+    "listening-p2-announcement",
+    "listening-p3-method",
+    "listening-p3-choice",
+    "listening-p3-multiple",
+    "listening-p3-stance",
+    "listening-p3-paraphrase",
+    "listening-p3-education",
+    "listening-p4-method",
+    "listening-p4-note",
+    "listening-p4-table",
+    "listening-p4-sentence",
+    "listening-p4-flow",
+    "listening-p4-diagram",
+    "listening-p4-signals",
+    "listening-p4-environment",
+    "listening-mock"
+   ],
+   "parts": [
+    {
+     "title": "概览",
+     "lessons": [
+      "listening-overview"
+     ]
+    },
+    {
+     "title": "日常对话　Part 1",
+     "lessons": [
+      "listening-p1-method",
+      "listening-p1-form",
+      "listening-p1-numbers",
+      "listening-p1-spelling",
+      "listening-p1-correction",
+      "listening-p1-booking",
+      "listening-p1-services"
+     ],
+     "practice": {
+      "lesson": "listening-part1",
+      "title": "1 段 6 空 · 6 分钟",
+      "brief": [
+       "先读栏目，确定每个空所需的信息类别。",
+       "将栏目与当前话轮对应。",
+       "以更正后的确认信息为准。",
+       "检查拼写、单复数、单位与词数。"
+      ],
+      "points": {
+       "predict": "listening-p1-form",
+       "confirm": "listening-p1-correction",
+       "spelling": "listening-p1-spelling"
+      }
+     }
+    },
+    {
+     "title": "日常独白　Part 2",
+     "lessons": [
+      "listening-p2-method",
+      "listening-p2-map",
+      "listening-p2-directions",
+      "listening-p2-matching",
+      "listening-p2-short",
+      "listening-p2-announcement"
+     ],
+     "practice": {
+      "lesson": "listening-part2",
+      "title": "1 段 6 题 · 6 分钟",
+      "brief": [
+       "先确定介绍对象、地图入口和固定地标。",
+       "沿路线跟随地点变化。",
+       "将每个项目与完整的适用条件对应。",
+       "简答只保留问题所需的信息。"
+      ],
+      "points": {
+       "route": "listening-p2-map",
+       "match": "listening-p2-matching",
+       "extract": "listening-p2-short"
+      }
+     }
+    },
+    {
+     "title": "教育讨论　Part 3",
+     "lessons": [
+      "listening-p3-method",
+      "listening-p3-choice",
+      "listening-p3-multiple",
+      "listening-p3-stance",
+      "listening-p3-paraphrase",
+      "listening-p3-education"
+     ],
+     "practice": {
+      "lesson": "listening-part3",
+      "title": "1 段 5 题 · 6 分钟",
+      "brief": [
+       "先区分讨论对象和各选项的条件。",
+       "将每个观点归给对应说话人。",
+       "根据让步与转折辨认最终态度。",
+       "为组合中的每项信息分别寻找依据。"
+      ],
+      "points": {
+       "detail": "listening-p3-choice",
+       "stance": "listening-p3-stance",
+       "evidence": "listening-p3-multiple"
+      }
+     }
+    },
+    {
+     "title": "学术独白　Part 4",
+     "lessons": [
+      "listening-p4-method",
+      "listening-p4-note",
+      "listening-p4-table",
+      "listening-p4-sentence",
+      "listening-p4-flow",
+      "listening-p4-diagram",
+      "listening-p4-signals",
+      "listening-p4-environment"
+     ],
+     "practice": {
+      "lesson": "listening-part4",
+      "title": "1 段 6 空 · 6 分钟",
+      "brief": [
+       "先读标题与结构，判断空格的信息层级。",
+       "根据信号表达跟随定义、例子与结论。",
+       "将听到的内容与句子、行列或图示位置对应。",
+       "核对原词、词形和题面的字数限制。"
+      ],
+      "points": {
+       "outline": "listening-p4-method",
+       "signal": "listening-p4-signals",
+       "exact": "listening-p4-sentence"
+      }
+     }
+    },
+    {
+     "title": "模拟测试",
+     "lessons": [
+      "listening-mock"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "reading",
+   "title": "阅读",
+   "venue": "reading",
+   "lessons": [
+    "reading-tfng",
+    "reading-ynng",
+    "reading-headings",
+    "reading-information",
+    "reading-features",
+    "reading-endings",
+    "reading-sentence",
+    "reading-completion",
+    "reading-diagram",
+    "reading-choice",
+    "reading-short-answer",
+    "reading-overview",
+    "reading-tfng-method",
+    "reading-tfng-quantity",
+    "reading-tfng-paraphrase",
+    "reading-ynng-method",
+    "reading-ynng-attribution",
+    "reading-ynng-argument",
+    "reading-headings-method",
+    "reading-headings-exposition",
+    "reading-headings-ecology",
+    "reading-information-method",
+    "reading-information-history",
+    "reading-features-method",
+    "reading-features-reference",
+    "reading-features-psychology",
+    "reading-endings-method",
+    "reading-endings-clauses",
+    "reading-sentence-method",
+    "reading-sentence-grammar",
+    "reading-completion-summary",
+    "reading-completion-note",
+    "reading-completion-table",
+    "reading-completion-flow",
+    "reading-diagram-method",
+    "reading-diagram-technology",
+    "reading-choice-detail",
+    "reading-choice-main",
+    "reading-choice-multiple",
+    "reading-short-method",
+    "reading-mock"
+   ],
+   "parts": [
+    {
+     "title": "概览",
+     "lessons": [
+      "reading-overview"
+     ]
+    },
+    {
+     "title": "事实判断　Identifying information",
+     "lessons": [
+      "reading-tfng-method",
+      "reading-tfng-quantity",
+      "reading-tfng-paraphrase"
+     ],
+     "practice": {
+      "lesson": "reading-tfng",
+      "title": "1 篇 6 题 · 12 分钟",
+      "brief": [
+       "将陈述拆成对象、行为与限定条件。",
+       "定位对应原文并读完相邻句。",
+       "明确相反才判为FALSE，缺少依据判为NOT GIVEN。",
+       "不依据背景知识补足原文。"
+      ],
+      "points": {
+       "locate": "reading-tfng-method",
+       "scope": "reading-tfng-quantity",
+       "judge": "reading-tfng-method"
+      }
+     }
+    },
+    {
+     "title": "观点判断　Identifying writer’s views/claims",
+     "lessons": [
+      "reading-ynng-method",
+      "reading-ynng-attribution",
+      "reading-ynng-argument"
+     ],
+     "practice": {
+      "lesson": "reading-ynng",
+      "title": "1 篇 6 题 · 12 分钟",
+      "brief": [
+       "先确认观点的提出者。",
+       "寻找作者自己的评价或主张。",
+       "区分作者反对与作者未表态。",
+       "核对让步之后的主要判断。"
+      ],
+      "points": {
+       "source": "reading-ynng-attribution",
+       "judge": "reading-ynng-method"
+      }
+     }
+    },
+    {
+     "title": "标题配对　Matching headings",
+     "lessons": [
+      "reading-headings-method",
+      "reading-headings-exposition",
+      "reading-headings-ecology"
+     ],
+     "practice": {
+      "lesson": "reading-headings",
+      "title": "1 篇 5 题 · 12 分钟",
+      "brief": [
+       "先概括段落的主题和论述重点。",
+       "比较标题是否覆盖整段。",
+       "排除只对应例子或范围过大的标题。",
+       "按题面规定核对已用标题。"
+      ],
+      "points": {
+       "mainidea": "reading-headings-method",
+       "hierarchy": "reading-headings-exposition"
+      }
+     }
+    },
+    {
+     "title": "信息配对　Matching information",
+     "lessons": [
+      "reading-information-method",
+      "reading-information-history"
+     ],
+     "practice": {
+      "lesson": "reading-information",
+      "title": "1 篇 5 题 · 12 分钟",
+      "brief": [
+       "确定题干需要例子、原因还是比较。",
+       "用具体对象定位候选段落。",
+       "核对完整句组是否提供所需信息。",
+       "不以段落主旨代替细节证据。"
+      ],
+      "points": {
+       "function": "reading-information-method",
+       "locate": "reading-information-method"
+      }
+     }
+    },
+    {
+     "title": "特征配对　Matching features",
+     "lessons": [
+      "reading-features-method",
+      "reading-features-reference",
+      "reading-features-psychology"
+     ],
+     "practice": {
+      "lesson": "reading-features",
+      "title": "1 篇 5 题 · 12 分钟",
+      "brief": [
+       "标出人物、年代或类别的名称。",
+       "查找同一对象的后续提及。",
+       "核对代词所指对象。",
+       "按原文关系分配结论和特征。"
+      ],
+      "points": {
+       "attribute": "reading-features-method",
+       "antecedent": "reading-features-reference"
+      }
+     }
+    },
+    {
+     "title": "句尾配对　Matching sentence endings",
+     "lessons": [
+      "reading-endings-method",
+      "reading-endings-clauses"
+     ],
+     "practice": {
+      "lesson": "reading-endings",
+      "title": "1 篇 5 题 · 12 分钟",
+      "brief": [
+       "根据句首定位原文。",
+       "先核对完整命题，再核对语法连接。",
+       "确认主干与修饰对象。",
+       "排除语法成立但关系不符的句尾。"
+      ],
+      "points": {
+       "complete": "reading-endings-method",
+       "modifier": "reading-endings-clauses"
+      }
+     }
+    },
+    {
+     "title": "句子填空　Sentence completion",
+     "lessons": [
+      "reading-sentence-method",
+      "reading-sentence-grammar"
+     ],
+     "practice": {
+      "lesson": "reading-sentence",
+      "title": "1 篇 6 题 · 12 分钟",
+      "brief": [
+       "先由空格前后判断词性。",
+       "匹配题干与原文的同义表达。",
+       "保留完整含义所需的修饰词。",
+       "回填核对词形、重复成分与字数。"
+      ],
+      "points": {
+       "locate": "reading-sentence-method",
+       "pos": "reading-sentence-grammar",
+       "extract": "reading-sentence-method"
+      }
+     }
+    },
+    {
+     "title": "摘要、笔记、表格与流程填空　Summary/note/table/flow chart completion",
+     "lessons": [
+      "reading-completion-summary",
+      "reading-completion-note",
+      "reading-completion-table",
+      "reading-completion-flow"
+     ],
+     "practice": {
+      "lesson": "reading-completion",
+      "title": "1 篇 6 题 · 12 分钟",
+      "brief": [
+       "确定填空材料对应的原文范围。",
+       "根据标题、并列项或行列判断空格功能。",
+       "原词形式提取原文，词库形式核对词义和词性。",
+       "回读检查语义、次序和题面限制。"
+      ],
+      "points": {
+       "scope": "reading-completion-summary",
+       "align": "reading-completion-table",
+       "sequence": "reading-completion-flow"
+      }
+     }
+    },
+    {
+     "title": "图解标注　Diagram label completion",
+     "lessons": [
+      "reading-diagram-method",
+      "reading-diagram-technology"
+     ],
+     "practice": {
+      "lesson": "reading-diagram",
+      "title": "1 篇 6 题 · 12 分钟",
+      "brief": [
+       "先确定图示的整体和方向。",
+       "将原文的空间词对应到箭头位置。",
+       "区分部件名称、功能和产物。",
+       "按词数限制提取准确名称。"
+      ],
+      "points": {
+       "spatial": "reading-diagram-method",
+       "label": "reading-diagram-method"
+      }
+     }
+    },
+    {
+     "title": "选择题　Multiple choice",
+     "lessons": [
+      "reading-choice-detail",
+      "reading-choice-main",
+      "reading-choice-multiple"
+     ],
+     "practice": {
+      "lesson": "reading-choice",
+      "title": "1 篇 5 题 · 12 分钟",
+      "brief": [
+       "确定所问的是细节还是全文意思。",
+       "细节题定位原句，主旨题核对全文范围。",
+       "逐项排除改变对象或逻辑关系的选项。",
+       "组合题的两项都须有原文依据。"
+      ],
+      "points": {
+       "detail": "reading-choice-detail",
+       "purpose": "reading-choice-main",
+       "verify": "reading-choice-multiple"
+      }
+     }
+    },
+    {
+     "title": "简答题　Short-answer questions",
+     "lessons": [
+      "reading-short-method"
+     ],
+     "practice": {
+      "lesson": "reading-short-answer",
+      "title": "1 篇 6 题 · 12 分钟",
+      "brief": [
+       "用疑问词确定答案类别。",
+       "定位具体对象及其相关事实。",
+       "只提取所需信息并保留必要修饰。",
+       "检查答案数量、拼写与词数。"
+      ],
+      "points": {
+       "focus": "reading-short-method",
+       "extract": "reading-short-method"
+      }
+     }
+    },
+    {
+     "title": "模拟测试",
+     "lessons": [
+      "reading-mock"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "writing",
+   "title": "写作",
+   "venue": "chat",
+   "lessons": [
+    "writing-task1-line",
+    "writing-task1-bar",
+    "writing-task1-pie",
+    "writing-task1-table",
+    "writing-task1-process",
+    "writing-task1-map",
+    "writing-task1-mixed",
+    "writing-task2-opinion",
+    "writing-task2-discussion",
+    "writing-task2-advantages",
+    "writing-task2-problem",
+    "writing-task2-two-part",
+    "writing-overview",
+    "writing-line-method",
+    "writing-line-trends",
+    "writing-line-report",
+    "writing-bar-method",
+    "writing-bar-comparison",
+    "writing-pie-method",
+    "writing-pie-proportion",
+    "writing-table-method",
+    "writing-table-agreement",
+    "writing-process-method",
+    "writing-process-passive",
+    "writing-map-method",
+    "writing-map-spatial",
+    "writing-mixed-method",
+    "writing-mixed-units",
+    "writing-opinion-method",
+    "writing-opinion-position",
+    "writing-opinion-support",
+    "writing-opinion-cohesion",
+    "writing-discussion-method",
+    "writing-discussion-concession",
+    "writing-advantages-method",
+    "writing-advantages-weight",
+    "writing-problem-method",
+    "writing-problem-cause",
+    "writing-problem-environment",
+    "writing-two-part-method",
+    "writing-two-part-education",
+    "writing-mock"
+   ],
+   "parts": [
+    {
+     "title": "概览",
+     "lessons": [
+      "writing-overview"
+     ]
+    },
+    {
+     "title": "折线图　Task 1",
+     "lessons": [
+      "writing-line-method",
+      "writing-line-trends",
+      "writing-line-report"
+     ],
+     "practice": {
+      "lesson": "writing-task1-line",
+      "title": "1 篇不少于150词 · 20 分钟",
+      "brief": [
+       "先核对时间、单位和各条序列。",
+       "概述总体变化及最明显的差异。",
+       "按趋势分组，用起终点、峰谷或交叉处的数据支持。",
+       "核对时态、升降幅度与介词。"
+      ],
+      "points": {
+       "overview": "writing-line-method",
+       "structure": "writing-line-report",
+       "accuracy": "writing-line-trends"
+      },
+      "venue": "chat"
+     }
+    },
+    {
+     "title": "柱状图　Task 1",
+     "lessons": [
+      "writing-bar-method",
+      "writing-bar-comparison"
+     ],
+     "practice": {
+      "lesson": "writing-task1-bar",
+      "title": "1 篇不少于150词 · 20 分钟",
+      "brief": [
+       "区分类别比较与时间变化。",
+       "按排名、相近数值或共同变化分组。",
+       "用代表数据说明主要差异。",
+       "核对比较对象、单位和倍数关系。"
+      ],
+      "points": {
+       "select": "writing-bar-method",
+       "structure": "writing-line-report",
+       "accuracy": "writing-bar-comparison"
+      },
+      "venue": "chat"
+     }
+    },
+    {
+     "title": "饼图　Task 1",
+     "lessons": [
+      "writing-pie-method",
+      "writing-pie-proportion"
+     ],
+     "practice": {
+      "lesson": "writing-task1-pie",
+      "title": "1 篇不少于150词 · 20 分钟",
+      "brief": [
+       "先确认每张图的总体和时间。",
+       "概述最大份额及主要构成变化。",
+       "选择相关类别比较，避免逐项罗列。",
+       "区分占比变化、百分点与绝对数量。"
+      ],
+      "points": {
+       "overview": "writing-pie-method",
+       "structure": "writing-line-report",
+       "accuracy": "writing-pie-proportion"
+      },
+      "venue": "chat"
+     }
+    },
+    {
+     "title": "表格　Task 1",
+     "lessons": [
+      "writing-table-method",
+      "writing-table-agreement"
+     ],
+     "practice": {
+      "lesson": "writing-task1-table",
+      "title": "1 篇不少于150词 · 20 分钟",
+      "brief": [
+       "读清行列标题和各项单位。",
+       "按列内排名及共同特征筛选信息。",
+       "概述主要差异，再给代表数据。",
+       "核对数量主语、谓语和单位。"
+      ],
+      "points": {
+       "select": "writing-table-method",
+       "structure": "writing-line-report",
+       "accuracy": "writing-table-agreement"
+      },
+      "venue": "chat"
+     }
+    },
+    {
+     "title": "流程图　Task 1",
+     "lessons": [
+      "writing-process-method",
+      "writing-process-passive"
+     ],
+     "practice": {
+      "lesson": "writing-task1-process",
+      "title": "1 篇不少于150词 · 20 分钟",
+      "brief": [
+       "先确定流程的范围和主要阶段。",
+       "概述从起点到终点或循环的整体过程。",
+       "按图示顺序交代动作与产物。",
+       "根据动作主体选择语态并核对条件。"
+      ],
+      "points": {
+       "overview": "writing-process-method",
+       "sequence": "writing-process-method",
+       "accuracy": "writing-process-passive"
+      },
+      "venue": "chat"
+     }
+    },
+    {
+     "title": "地图　Task 1",
+     "lessons": [
+      "writing-map-method",
+      "writing-map-spatial"
+     ],
+     "practice": {
+      "lesson": "writing-task1-map",
+      "title": "1 篇不少于150词 · 20 分钟",
+      "brief": [
+       "先核对时点、方向与范围。",
+       "概述主要用地或功能变化。",
+       "按区域说明新增、替换、拆除与保留。",
+       "用准确位置表达区分原有与规划设施。"
+      ],
+      "points": {
+       "change": "writing-map-method",
+       "organise": "writing-map-method",
+       "accuracy": "writing-map-spatial"
+      },
+      "venue": "chat"
+     }
+    },
+    {
+     "title": "混合图　Task 1",
+     "lessons": [
+      "writing-mixed-method",
+      "writing-mixed-units"
+     ],
+     "practice": {
+      "lesson": "writing-task1-mixed",
+      "title": "1 篇不少于150词 · 20 分钟",
+      "brief": [
+       "分别概括两图的主要特征。",
+       "查找共同对象、时间或指标。",
+       "只比较口径一致的数据。",
+       "核对单位与指代，不从相关性推出原因。"
+      ],
+      "points": {
+       "coverage": "writing-mixed-method",
+       "link": "writing-mixed-method",
+       "accuracy": "writing-mixed-units"
+      },
+      "venue": "chat"
+     }
+    },
+    {
+     "title": "观点题　Task 2",
+     "lessons": [
+      "writing-opinion-method",
+      "writing-opinion-position",
+      "writing-opinion-support",
+      "writing-opinion-cohesion"
+     ],
+     "practice": {
+      "lesson": "writing-task2-opinion",
+      "title": "1 篇不少于250词 · 40 分钟",
+      "brief": [
+       "确定论题的主体和限定范围。",
+       "选择明确立场并保持一致。",
+       "每个主体段用解释和例证展开一个论点。",
+       "核对句间逻辑及结论与立场的一致性。"
+      ],
+      "points": {
+       "position": "writing-opinion-position",
+       "develop": "writing-opinion-support",
+       "cohesion": "writing-opinion-cohesion"
+      },
+      "venue": "chat"
+     }
+    },
+    {
+     "title": "双方讨论题　Task 2",
+     "lessons": [
+      "writing-discussion-method",
+      "writing-discussion-concession"
+     ],
+     "practice": {
+      "lesson": "writing-task2-discussion",
+      "title": "1 篇不少于250词 · 40 分钟",
+      "brief": [
+       "分别确定两种观点及其理由。",
+       "给双方观点各自的相关解释。",
+       "表达个人判断并说明依据。",
+       "让步后明确保留或反驳的范围。"
+      ],
+      "points": {
+       "coverage": "writing-discussion-method",
+       "develop": "writing-opinion-support",
+       "response": "writing-discussion-concession"
+      },
+      "venue": "chat"
+     }
+    },
+    {
+     "title": "利弊题　Task 2",
+     "lessons": [
+      "writing-advantages-method",
+      "writing-advantages-weight"
+     ],
+     "practice": {
+      "lesson": "writing-task2-advantages",
+      "title": "1 篇不少于250词 · 40 分钟",
+      "brief": [
+       "确认指令要求列举还是权衡。",
+       "为相关利弊说明对象、条件与结果。",
+       "需要权衡时使用统一比较尺度。",
+       "使总体评价与正文论据一致。"
+      ],
+      "points": {
+       "task": "writing-advantages-method",
+       "develop": "writing-opinion-support",
+       "evaluate": "writing-advantages-weight"
+      },
+      "venue": "chat"
+     }
+    },
+    {
+     "title": "问题与解决题　Task 2",
+     "lessons": [
+      "writing-problem-method",
+      "writing-problem-cause",
+      "writing-problem-environment"
+     ],
+     "practice": {
+      "lesson": "writing-task2-problem",
+      "title": "1 篇不少于250词 · 40 分钟",
+      "brief": [
+       "确定要求分析的是原因还是问题后果。",
+       "让每项措施对应一个具体问题。",
+       "说明实施主体、行动和作用过程。",
+       "用条件表达限定措施的效果。"
+      ],
+      "points": {
+       "solution": "writing-problem-method",
+       "develop": "writing-opinion-support",
+       "accuracy": "writing-problem-cause"
+      },
+      "venue": "chat"
+     }
+    },
+    {
+     "title": "双问题　Task 2",
+     "lessons": [
+      "writing-two-part-method",
+      "writing-two-part-education"
+     ],
+     "practice": {
+      "lesson": "writing-task2-two-part",
+      "title": "1 篇不少于250词 · 40 分钟",
+      "brief": [
+       "分别标明两个问题要求的回答类型。",
+       "为两项回答各安排相关论点。",
+       "每项论点都有解释或例证。",
+       "核对题目对象、关键词和结论的一致性。"
+      ],
+      "points": {
+       "coverage": "writing-two-part-method",
+       "develop": "writing-opinion-support",
+       "precision": "writing-two-part-education"
+      },
+      "venue": "chat"
+     }
+    },
+    {
+     "title": "模拟测试",
+     "lessons": [
+      "writing-mock"
+     ]
+    }
+   ]
+  }
+ ],
+ "titles": {
+  "listening-overview": "听力部分概览",
+  "listening-p1-method": "日常对话的信息定位",
+  "listening-p1-form": "表单填空",
+  "listening-p1-numbers": "数字与日期的听辨",
+  "listening-p1-spelling": "姓名与地址的拼写",
+  "listening-p1-correction": "信息更正与最终确认",
+  "listening-p1-booking": "预约与服务咨询对话",
+  "listening-p1-services": "住宿与租赁词汇",
+  "listening-p2-method": "日常独白的信息顺序",
+  "listening-p2-map": "地图与平面图标注",
+  "listening-p2-directions": "方位与路线表达",
+  "listening-p2-matching": "项目与特征配对",
+  "listening-p2-short": "听力简答题",
+  "listening-p2-announcement": "公共服务说明",
+  "listening-p3-method": "教育讨论的议题推进",
+  "listening-p3-choice": "听力单项选择",
+  "listening-p3-multiple": "听力多项信息筛选",
+  "listening-p3-stance": "讨论中的同意与保留",
+  "listening-p3-paraphrase": "口头表达的同义改写",
+  "listening-p3-education": "课程与研究词汇",
+  "listening-p4-method": "学术独白的层次",
+  "listening-p4-note": "笔记填空",
+  "listening-p4-table": "表格填空",
+  "listening-p4-sentence": "听力句子填空",
+  "listening-p4-flow": "听力流程填空",
+  "listening-p4-diagram": "听力图解标注",
+  "listening-p4-signals": "学术独白的信号表达",
+  "listening-p4-environment": "生态研究词汇",
+  "listening-mock": "听力模拟测试",
+  "reading-overview": "阅读部分概览",
+  "reading-tfng-method": "事实判断的证据",
+  "reading-tfng-quantity": "数量与范围限定",
+  "reading-tfng-paraphrase": "书面语的同义改写",
+  "reading-ynng-method": "作者观点判断",
+  "reading-ynng-attribution": "引述与评价表达",
+  "reading-ynng-argument": "论说文的论证结构",
+  "reading-headings-method": "段落标题配对",
+  "reading-headings-exposition": "说明文的段落组织",
+  "reading-headings-ecology": "生态与适应词汇",
+  "reading-information-method": "段落信息配对",
+  "reading-information-history": "历史与考古词汇",
+  "reading-features-method": "人物与特征配对",
+  "reading-features-reference": "指代与替代",
+  "reading-features-psychology": "心理研究词汇",
+  "reading-endings-method": "句尾配对",
+  "reading-endings-clauses": "长句的主干与修饰",
+  "reading-sentence-method": "阅读句子填空",
+  "reading-sentence-grammar": "填空的词性与词形",
+  "reading-completion-summary": "摘要填空",
+  "reading-completion-note": "阅读笔记填空",
+  "reading-completion-table": "阅读表格填空",
+  "reading-completion-flow": "阅读流程填空",
+  "reading-diagram-method": "阅读图解标注",
+  "reading-diagram-technology": "材料与装置词汇",
+  "reading-choice-detail": "阅读细节选择",
+  "reading-choice-main": "主旨与写作目的选择",
+  "reading-choice-multiple": "阅读多项信息筛选",
+  "reading-short-method": "阅读简答题",
+  "reading-mock": "阅读模拟测试",
+  "writing-overview": "写作部分概览",
+  "writing-line-method": "折线图的主要特征",
+  "writing-line-trends": "趋势表达与时间参照",
+  "writing-line-report": "图表说明文的结构",
+  "writing-bar-method": "柱状图的比较对象",
+  "writing-bar-comparison": "比较结构与倍数",
+  "writing-pie-method": "饼图的构成比较",
+  "writing-pie-proportion": "比例与百分比表达",
+  "writing-table-method": "表格的数据筛选",
+  "writing-table-agreement": "数量主语与一致关系",
+  "writing-process-method": "流程图的阶段组织",
+  "writing-process-passive": "过程描述的语态",
+  "writing-map-method": "地图的变化分类",
+  "writing-map-spatial": "位置与改建表达",
+  "writing-mixed-method": "混合图的关联比较",
+  "writing-mixed-units": "数据单位与指代",
+  "writing-opinion-method": "观点题的论题限定",
+  "writing-opinion-position": "立场与程度表达",
+  "writing-opinion-support": "主体段的论据展开",
+  "writing-opinion-cohesion": "议论段的衔接",
+  "writing-discussion-method": "双方观点的讨论",
+  "writing-discussion-concession": "让步与反驳",
+  "writing-advantages-method": "利弊题的任务区分",
+  "writing-advantages-weight": "利弊权衡的表达",
+  "writing-problem-method": "问题与对策的对应",
+  "writing-problem-cause": "因果与条件结构",
+  "writing-problem-environment": "环境与公共措施词汇",
+  "writing-two-part-method": "双问题的分别回应",
+  "writing-two-part-education": "教育与技术应用词汇",
+  "writing-mock": "写作模拟测试"
+ }
+}

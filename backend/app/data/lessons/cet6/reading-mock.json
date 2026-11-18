@@ -1,0 +1,486 @@
+{
+ "id": "reading-mock",
+ "title": "阅读模拟测试",
+ "goal": "运用词汇、段落定位和证据核对完成阅读任务。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "banked",
+   "label": "依据词性与语境完成选词填空"
+  },
+  {
+   "id": "matching",
+   "label": "依据同义信息完成段落匹配"
+  },
+  {
+   "id": "careful",
+   "label": "依据文章证据完成仔细阅读"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c1",
+   "title": "全国大学英语四、六级考试：考试内容和题型",
+   "url": "https://cet.neea.edu.cn/html1/folder/16113/1586-1.htm",
+   "used": "阅读题量与时间"
+  },
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "阅读材料形式与长度"
+  }
+ ],
+ "cards": [
+  {
+   "id": "description",
+   "type": "text",
+   "title": "说明",
+   "body": [
+    {
+     "p": "阅读部分包括词汇理解、长篇阅读和仔细阅读，各 10 题，共 40 分钟。词汇理解使用词库，长篇阅读将陈述对应到段落，仔细阅读依据文章作答。"
+    },
+    {
+     "p": "词汇理解材料为 250—300 词；长篇阅读材料约 1200 词；仔细阅读材料为两篇，每篇 400—450 词。"
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 40,
+   "pass": 0.7,
+   "points": [
+    "banked",
+    "matching",
+    "careful"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "Word bank: access, accurate, adjust, benefit, collect, compare, despite, distribute, equipment, flexible, frequent, limited, measure, prevent, reliable\n\nA local history group wanted to make old maps available to more people. The original maps were fragile, and handling them too often could cause damage. The group therefore decided to make digital copies. Residents with different experience shared the work. Before beginning, its members had to (1) ______ the condition of each map and record any existing tears. They also needed suitable (2) ______, including a camera and a support that would hold a map flat without pressing on it.\n\nThe first images were not always (3) ______: a fold or an uneven light could hide a detail. Such problems reduced the accuracy of the copies. Volunteers learned to (4) ______ the position of the lights and to check each image against the original. This process took time, but it helped the group produce a more (5) ______ record. Its reliability mattered to researchers using it. A second volunteer reviewed each image so that errors could be found before publication.\n\nThe group then created a catalog. Users could search by place and approximate date, although information about the date of some maps remained (6) ______ because no year appeared on them. When a date was uncertain, the catalog gave a range and explained the evidence. This allowed readers to (7) ______ different maps without assuming that every date was exact.\n\nDigital images increased public (8) ______ to the collection, including for readers who could not visit the archive. They did not, however, eliminate the need to care for the originals. Staff still stored the maps in protective folders and monitored their condition. The project showed that digital copies can (9) ______ both researchers and collection staff, while careful storage remains necessary to (10) ______ further damage.",
+       "items": [
+        {
+         "stem": "Blank 1",
+         "accept": [
+          "measure"
+         ],
+         "why": "空格在 had to 之后，宾语是 the condition of each map，需要动词原形。measure 表示查明地图的状况，与后面的 record any existing tears 前后相接。",
+         "point": "banked"
+        },
+        {
+         "stem": "Blank 2",
+         "accept": [
+          "equipment"
+         ],
+         "why": "camera and a support 是所需设备。",
+         "point": "banked"
+        },
+        {
+         "stem": "Blank 3",
+         "accept": [
+          "accurate",
+          "reliable"
+         ],
+         "why": "空格后说 a fold or an uneven light could hide a detail，下一句又说 reduced the accuracy of the copies。accuracy 复现了 accurate，图像并非始终准确。",
+         "point": "banked"
+        },
+        {
+         "stem": "Blank 4",
+         "accept": [
+          "adjust"
+         ],
+         "why": "adjust the position of the lights 表示调整灯的位置。",
+         "point": "banked"
+        },
+        {
+         "stem": "Blank 5",
+         "accept": [
+          "reliable",
+          "accurate"
+         ],
+         "why": "下一句 Its reliability mattered to researchers 复现了 reliable。检查和复核图像使记录更可靠；accurate 已用于第 3 空。",
+         "point": "banked"
+        },
+        {
+         "stem": "Blank 6",
+         "accept": [
+          "limited"
+         ],
+         "why": "部分地图没有标明年份，可获得的日期信息受到限制。",
+         "point": "banked"
+        },
+        {
+         "stem": "Blank 7",
+         "accept": [
+          "compare"
+         ],
+         "why": "compare different maps 指比较不同地图。",
+         "point": "banked"
+        },
+        {
+         "stem": "Blank 8",
+         "accept": [
+          "access"
+         ],
+         "why": "public access to the collection 表示公众获取馆藏的机会。",
+         "point": "banked"
+        },
+        {
+         "stem": "Blank 9",
+         "accept": [
+          "benefit"
+         ],
+         "why": "benefit both researchers and collection staff 表示使双方受益。",
+         "point": "banked"
+        },
+        {
+         "stem": "Blank 10",
+         "accept": [
+          "prevent"
+         ],
+         "why": "protective folders 和 monitored their condition 说明保护措施旨在防止进一步损坏。",
+         "point": "banked"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "[A] Many towns have buildings that were constructed for a purpose they no longer serve. A former post office may stand empty after postal work moves elsewhere, while an old workshop may be too small for modern machinery. Keeping such buildings in use raises practical questions about maintenance, access and cost. A building's past can give it value to a community, but a new use must also fit the space available. Different groups often have different ideas about which features should be retained and who should pay for the work. Empty premises may also impose expenses before any decision about their future is made. Owners must keep them secure and deal with damage that worsens over time. The choices involve the cost of leaving a building unused as well as the cost of adapting it for a new purpose.\n\n[B] One town considered turning an unused post office into a shared studio for artists. The building was close to public transport and had rooms of several sizes. Local artists welcomed the possibility of renting workspaces near one another. They also wanted a common room for meetings and exhibitions. Before promising that the building could serve these purposes, the town commissioned an inspection of the roof, electrical wiring and access to the upper floor. The inspection was intended to identify necessary work, not to select the artists who would eventually use the rooms. Some of the artists had previously worked at home and hoped that sharing a building would make it easier to exchange advice. Others needed a space large enough to store materials. Their different requirements meant that the proposal had to account for more than the number of rooms.\n\n[C] The inspection found that the roof required repairs before the interior could be occupied. It also found that the upper floor had no lift. Installing one would require a change to the entrance hall, so designers were asked to examine several positions. Their task was to provide access while retaining as much of the existing hall as possible. The report estimated the cost of the repairs separately from the cost of the lift. This distinction allowed the council to compare a basic repair budget with the cost of making both floors accessible.\n\n[D] A group of residents argued that the entrance hall should remain unchanged because it preserved evidence of the building's former use. They proposed locating shared activities on the ground floor instead. Other residents supported the lift, saying that an upstairs room could not serve the whole community if some people could not reach it. Both groups wanted the building to reopen, but they differed on how to balance access and the retention of the hall. The council invited both groups to examine the designers' alternatives before a final choice was made.\n\n[E] The artists prepared a proposal for renting the rooms. They suggested monthly payments based on room size, with a lower charge for spaces that had little natural light. The payments would contribute to heating, cleaning and routine maintenance. The proposal did not assume that rent alone would cover major roof repairs. It separated regular operating costs from the larger one-time expense identified by the inspection. The artists asked the council for a clear agreement on who would arrange repairs if equipment failed after the building opened.\n\n[F] The council also asked whether the building could accommodate evening classes. A survey of residents found interest in classes on drawing and photography, but the survey was distributed at a weekend arts event. People who did not attend that event had little opportunity to respond. The results showed interest among respondents, not the level of demand across the entire town. Council staff proposed placing the same questions in the library and at community centers before deciding how many classes to schedule. They also wanted to ask about preferred times. A class in the evening might suit people with daytime jobs, whereas others might find a daytime session easier to attend. The council could not infer those preferences from the event survey because it had not asked respondents about their working hours or other commitments.\n\n[G] A local college offered to lend equipment for a trial photography course. The offer depended on a secure storage room and an agreement about responsibility for damaged items. College staff could advise on the course, but they did not offer to cover the building's heating bill. The artists welcomed the loan because it would reduce the equipment they needed to buy at the start. They planned to review the arrangement after the trial rather than assume that the same equipment would always be available. A written record of items lent and returned would help both the college and the artists check the equipment. Such a record would also make it easier to distinguish ordinary maintenance from damage requiring a separate decision.\n\n[H] Meanwhile, shopkeepers on the same street raised a different concern. They supported bringing an empty building back into use, but worried that deliveries for classes and exhibitions might block the narrow loading area. They asked for a delivery schedule that would avoid the busiest morning period. The artists agreed to test an afternoon collection arrangement with suppliers. Whether that schedule would work depended partly on the suppliers, so the groups planned to review the results after several events rather than fix the arrangement permanently at the outset.\n\n[I] The council examined several possible sources of money. A small local grant could support public events, but its conditions did not allow it to pay for roof repairs. A separate building fund could contribute to those repairs, subject to approval of a detailed plan. Neither source was intended to replace the artists' monthly contribution to routine running costs. Council officers therefore prepared separate estimates for construction, public activities and ongoing operations, making the limits of each funding source visible in the budget.\n\n[J] To assess the trial, the council planned to record the number of people attending events and the hours for which the rooms were used. Officers also intended to collect comments from people who chose not to attend. Attendance figures alone would not explain why someone stayed away or whether the schedule suited people with different working hours. The council planned to publish a short report after the first season, identifying both what had been observed and which questions remained unanswered. Comments could be collected without requiring respondents to give their names. Officers would compare them with the attendance records, while recognizing that a small number of comments could not represent every resident. The report would inform later decisions about scheduling and room use.\n\n[K] The post office project remained a proposal while the council reviewed costs and designs. Its supporters emphasized that a useful building requires more than an attractive opening event: someone must clean the rooms, arrange repairs and manage bookings over time. The groups involved had not agreed on every detail, but their discussions had made the choices more specific. The final decision would depend on access, funding and a workable management arrangement, as well as the community's interest in the activities proposed for the building.",
+       "items": [
+        {
+         "stem": "Which paragraph describes a survey whose respondents were recruited at an arts event?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D",
+          "Paragraph E",
+          "Paragraph F",
+          "Paragraph G",
+          "Paragraph H",
+          "Paragraph I",
+          "Paragraph J",
+          "Paragraph K"
+         ],
+         "answer": 5,
+         "why": "第六段的 survey was distributed at a weekend arts event 限定了调查来源。",
+         "point": "matching"
+        },
+        {
+         "stem": "Which paragraph describes artists proposing different rents according to room features?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D",
+          "Paragraph E",
+          "Paragraph F",
+          "Paragraph G",
+          "Paragraph H",
+          "Paragraph I",
+          "Paragraph J",
+          "Paragraph K"
+         ],
+         "answer": 4,
+         "why": "第五段的 payments based on room size 和 lower charge for ... little natural light 给出收费依据。",
+         "point": "matching"
+        },
+        {
+         "stem": "Which paragraph reports a disagreement over access and preservation of an entrance hall?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D",
+          "Paragraph E",
+          "Paragraph F",
+          "Paragraph G",
+          "Paragraph H",
+          "Paragraph I",
+          "Paragraph J",
+          "Paragraph K"
+         ],
+         "answer": 3,
+         "why": "第四段对比 remain unchanged 与 supported the lift 两种意见。",
+         "point": "matching"
+        },
+        {
+         "stem": "Which paragraph explains that a grant for events cannot fund a particular building repair?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D",
+          "Paragraph E",
+          "Paragraph F",
+          "Paragraph G",
+          "Paragraph H",
+          "Paragraph I",
+          "Paragraph J",
+          "Paragraph K"
+         ],
+         "answer": 8,
+         "why": "第九段的 grant could support public events 和 did not allow it to pay for roof repairs 给出限制。",
+         "point": "matching"
+        },
+        {
+         "stem": "Which paragraph describes an offer of loaned equipment that depends on secure storage?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D",
+          "Paragraph E",
+          "Paragraph F",
+          "Paragraph G",
+          "Paragraph H",
+          "Paragraph I",
+          "Paragraph J",
+          "Paragraph K"
+         ],
+         "answer": 6,
+         "why": "第七段的 lend equipment 和 depended on a secure storage room 对应陈述。",
+         "point": "matching"
+        },
+        {
+         "stem": "Which paragraph describes plans to seek the views of people who choose not to attend trial events?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D",
+          "Paragraph E",
+          "Paragraph F",
+          "Paragraph G",
+          "Paragraph H",
+          "Paragraph I",
+          "Paragraph J",
+          "Paragraph K"
+         ],
+         "answer": 9,
+         "why": "第十段为评估试运行，计划 collect comments from people who chose not to attend。第六段把问卷放到图书馆，是为了扩大调查范围，与试运行的活动无关。",
+         "point": "matching"
+        },
+        {
+         "stem": "Which paragraph reports a proposed change to delivery times to address shopkeepers' concern?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D",
+          "Paragraph E",
+          "Paragraph F",
+          "Paragraph G",
+          "Paragraph H",
+          "Paragraph I",
+          "Paragraph J",
+          "Paragraph K"
+         ],
+         "answer": 7,
+         "why": "第八段的 avoid the busiest morning period 和 afternoon collection 对应送货时间的调整。",
+         "point": "matching"
+        },
+        {
+         "stem": "Which paragraph says an inspection separated roof costs from the cost of a lift?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D",
+          "Paragraph E",
+          "Paragraph F",
+          "Paragraph G",
+          "Paragraph H",
+          "Paragraph I",
+          "Paragraph J",
+          "Paragraph K"
+         ],
+         "answer": 2,
+         "why": "第三段的 estimated the cost of the repairs separately from the cost of the lift 给出分项估算。",
+         "point": "matching"
+        },
+        {
+         "stem": "Which paragraph describes the features that made an old post office attractive as a studio?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D",
+          "Paragraph E",
+          "Paragraph F",
+          "Paragraph G",
+          "Paragraph H",
+          "Paragraph I",
+          "Paragraph J",
+          "Paragraph K"
+         ],
+         "answer": 1,
+         "why": "第二段的 close to public transport 和 rooms of several sizes 说明场地特点。",
+         "point": "matching"
+        },
+        {
+         "stem": "Which paragraph describes the artists distinguishing continuing operating expenses from a major initial repair?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D",
+          "Paragraph E",
+          "Paragraph F",
+          "Paragraph G",
+          "Paragraph H",
+          "Paragraph I",
+          "Paragraph J",
+          "Paragraph K"
+         ],
+         "answer": 4,
+         "why": "第五段是艺术家的租用方案，其中 separated regular operating costs from the larger one-time expense，区分了日常费用和一次性维修。第九段的分项预算由市政官员编制。",
+         "point": "matching"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A small natural history museum wanted to learn whether visitors understood the route through its galleries. The rooms were arranged around a central hall, and visitors could enter either the geology or the wildlife gallery first. Staff had noticed that some people returned to the hall without seeing the final room, but they did not know whether this reflected confusion, limited time or deliberate choice. The museum had recently updated several displays, and staff wanted visitors to be able to find them without needing to ask for directions. At the same time, the museum did not want to prevent people from moving between rooms in the order they preferred. Its investigation began with the information already available to visitors.\n\nThe museum first placed an observer in the hall for several afternoons. The observer recorded which doors visitors used but did not record names or conversations. The notes showed that some visitors entered the same gallery twice. They did not reveal why, and they covered only people who visited during the observed afternoons. An apparently repeated route could have been intentional: a visitor might return to look again at a favorite object.\n\nNext, the museum tested a revised map with a small group of volunteers. The new map used distinct shapes as well as colors to identify rooms. Participants were asked to locate a particular display and describe any difficulty they encountered. Most reached it, but several misunderstood a symbol marking stairs. The museum changed that symbol before considering wider use. The test concerned the map's clarity, not whether the volunteers liked the exhibits.\n\nStaff then placed the revised map near the entrance and compared its use with the earlier map. They also counted visits to the final room. The comparison was complicated by a temporary exhibition that opened during the second period and may have attracted visitors who would not otherwise have come. Staff therefore avoided attributing every difference in room visits to the map. They planned to repeat the comparison after the temporary exhibition closed. They also kept copies of both maps and notes on when each had been displayed. This record would make it easier to identify changes between the periods, including changes other than the map itself.\n\nThe museum did not treat the work as a search for a single ideal route. Visitors have different interests and amounts of time, and returning to a room can be a reasonable choice. Its immediate aim was to make the available routes easier to understand. The observations, map test and later counts each supplied a different kind of evidence. Together they helped staff improve a specific sign while identifying questions that required further observation.",
+       "items": [
+        {
+         "stem": "What question prompted the museum's investigation?",
+         "options": [
+          "Whether visitors could understand the gallery routes",
+          "Whether the updated displays had attracted more visitors",
+          "Whether visitors should be required to follow one fixed order",
+          "Whether every visitor preferred wildlife to geology"
+         ],
+         "answer": 0,
+         "why": "依据是首句 wanted to learn whether visitors understood the route through its galleries。第一项用 understand the gallery routes 改写了这一问题。第三项与原文相反：博物馆不想限制参观顺序。",
+         "point": "careful"
+        },
+        {
+         "stem": "What could the initial observation establish?",
+         "options": [
+          "Why each visitor returned to a gallery",
+          "Which doors visitors used during observed afternoons",
+          "What visitors said to each other about the galleries",
+          "How all of the museum's visitors moved between rooms"
+         ],
+         "answer": 1,
+         "why": "依据是 recorded which doors visitors used 和 covered only people who visited during the observed afternoons。第二项同时保留了记录内容和时间范围。第四项把范围扩大到所有参观者。",
+         "point": "careful"
+        },
+        {
+         "stem": "Why was the stair symbol changed?",
+         "options": [
+          "The new map used shapes in place of colors to identify rooms.",
+          "Visitors in the hall could not find the final room.",
+          "Several volunteers in the map test misread the symbol.",
+          "The volunteers disliked the exhibits near the stairs."
+         ],
+         "answer": 2,
+         "why": "依据是 several misunderstood a symbol marking stairs，随后 The museum changed that symbol。第三项用 misread 改写 misunderstood。",
+         "point": "careful"
+        },
+        {
+         "stem": "What complicated the comparison of the two maps?",
+         "options": [
+          "The volunteers were not asked to locate a display.",
+          "The observer recorded visitors' names and conversations.",
+          "The final room was counted only during the first period.",
+          "A temporary exhibition opened during the later period."
+         ],
+         "answer": 3,
+         "why": "依据是 The comparison was complicated by a temporary exhibition that opened during the second period。临时展览可能带来额外的参观者，第四项改写了这一原因。",
+         "point": "careful"
+        },
+        {
+         "stem": "What is the main purpose of the passage?",
+         "options": [
+          "To describe how varied evidence informed a route improvement",
+          "To argue that all visitors should follow the same route",
+          "To prove that every repeated gallery visit signals confusion",
+          "To explain how a temporary exhibition changed visitors' routes"
+         ],
+         "answer": 0,
+         "why": "末段说 observations, map test and later counts each supplied a different kind of evidence，这些证据帮助改进了指示标志。第一项概括了全文。第四项只取了一个干扰因素，原文没有据此下结论。",
+         "point": "careful"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A farming cooperative wanted to reduce the amount of produce lost between harvest and sale. Members grew vegetables at different distances from a shared packing building. Some brought their crops there immediately; others waited until they had enough to fill a vehicle. The cooperative considered buying a second vehicle, but first it examined where delays occurred and whether an additional vehicle would address them.\n\nFor several weeks, growers recorded when crops were harvested, collected and delivered. They also noted whether produce was kept in shade while waiting. The growers used a common recording sheet so that the times could be compared. They did not assume that a long journey was the only possible reason for a late delivery. The sheet recorded the stages separately, allowing members to see where waiting happened on each route. The records showed that some delays occurred before collection, while others occurred after produce reached the packing building. The latter delays were caused by limited space for sorting rather than by a shortage of vehicles. The cooperative therefore separated transport delays from delays in packing.\n\nA second vehicle might shorten collection times for growers on distant routes. However, it would not by itself create more sorting space. The cooperative also considered rearranging tables in the packing building and scheduling deliveries at different times. Members wanted to know whether these changes could reduce waiting before investing in another vehicle. They recognized that different farms faced different journeys and that a schedule suitable for one route might not suit another. For example, a later delivery could reduce congestion at the building but require a grower to keep harvested vegetables on the farm for longer. The cooperative needed to assess both stages together.\n\nDuring a short trial, two groups delivered at separate times. Staff recorded waiting periods and the amount of produce rejected because of visible damage. Waiting at the building fell during the trial, but the weather and types of vegetables differed from earlier weeks. Those differences made it difficult to attribute any change in damaged produce solely to scheduling. The cooperative decided to continue recording conditions over a longer period.\n\nThe trial did not settle the vehicle question. Instead, it showed the value of identifying which part of a process creates a delay. A purchase could be useful if collection remained a problem after scheduling was improved. The members also needed to consider the cost of operating a vehicle and the effect of different delivery times on growers' working days. Their decision would require evidence about both the benefits and the demands of each option.",
+       "items": [
+        {
+         "stem": "Why did the cooperative examine delays before buying a vehicle?",
+         "options": [
+          "To show that every grower lived near the packing building",
+          "To identify whether transport was the source of the problem",
+          "To find out how much a second vehicle would cost to run",
+          "To prove that long journeys were the cause of every late delivery"
+         ],
+         "answer": 1,
+         "why": "依据是 examined where delays occurred and whether an additional vehicle would address them。第二项说的就是查明运输是不是问题所在。第四项与原文相反：成员们 did not assume that a long journey was the only possible reason。",
+         "point": "careful"
+        },
+        {
+         "stem": "What caused some delays after delivery to the packing building?",
+         "options": [
+          "A shortage of vehicles for collecting the produce",
+          "Long journeys from farms that are far from the building",
+          "Insufficient space for sorting the delivered produce",
+          "Produce kept out of the shade while it waited"
+         ],
+         "answer": 2,
+         "why": "依据是 The latter delays were caused by limited space for sorting rather than by a shortage of vehicles。第三项改写了 limited space for sorting；第一项正是原文排除的原因。",
+         "point": "careful"
+        },
+        {
+         "stem": "What did the members expect a second vehicle might do?",
+         "options": [
+          "Create additional sorting space inside the packing building",
+          "Make every route suitable for the same schedule",
+          "Reduce the amount of produce rejected for damage",
+          "Reduce the time taken to collect crops from distant farms"
+         ],
+         "answer": 3,
+         "why": "依据是 A second vehicle might shorten collection times for growers on distant routes。第四项是这句的改写。第一项与原文相反：it would not by itself create more sorting space。",
+         "point": "careful"
+        },
+        {
+         "stem": "Why was the change in damaged produce difficult to interpret?",
+         "options": [
+          "Weather and crop types differed from earlier weeks.",
+          "No one recorded waiting times during the trial.",
+          "Both groups delivered at precisely the same time.",
+          "The cooperative had already bought a second vehicle."
+         ],
+         "answer": 0,
+         "why": "依据是 the weather and types of vegetables differed from earlier weeks。条件不同，损坏的变化就不能只归因于送货时间，即第一项。",
+         "point": "careful"
+        },
+        {
+         "stem": "Which conclusion best reflects the final paragraph?",
+         "options": [
+          "A second vehicle must always be purchased before schedules are tested.",
+          "The decision requires comparing costs and effects of the options.",
+          "A purchase is unnecessary now that scheduling has solved collection.",
+          "The trial proved that vehicle capacity caused all of the delays."
+         ],
+         "answer": 1,
+         "why": "末段说成员们 needed to consider the cost of operating a vehicle and the effect of different delivery times，决定需要 evidence about both the benefits and the demands of each option，即第二项。第三项与原文不符：原文说收车问题若仍存在，买车可能有用。",
+         "point": "careful"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

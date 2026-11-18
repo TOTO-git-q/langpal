@@ -1,0 +1,239 @@
+{
+  "version": 2,
+  "id": "example-expression",
+  "title": "表达教案完整示例",
+  "language": "ja",
+  "sources": [
+    {
+      "title": "日本基金：以 Can-do 制作任务型课堂",
+      "url": "https://www.jpf.go.jp/e/project/japanese/teach/tsushin/news/202309.html",
+      "id": "jf-can-do"
+    }
+  ],
+  "units": [
+    {
+      "id": "explain-a-concern",
+      "title": "说清楚自己为什么介意，并提出请求",
+      "can_do": "面对反复临时变动，说明具体影响，提出能执行的请求；根据关系选择语气，并回应对方的限制。",
+      "prerequisites": [],
+      "situations": [
+        {
+          "id": "changing-plans",
+          "context": "朋友再次临时改见面时间。",
+          "purpose": "说明自己的安排受到什么影响，并商量提前通知。",
+          "complication": "朋友还不能确定新的时间。"
+        },
+        {
+          "id": "shared-equipment",
+          "context": "共同使用的仪器预约被临时占用。",
+          "purpose": "说明实验安排受影响，请对方先确认再改预约。",
+          "complication": "对方也有截止任务，需要协商替代办法。"
+        }
+      ],
+      "knowledge": [
+        {
+          "id": "state-the-impact",
+          "kind": "grammar",
+          "label": "把反复发生的事和具体影响连起来",
+          "form": "何度も〜と、〜づらい／〜にくい",
+          "use_when": "需要让对方理解具体困难，而不只说讨厌或生气时。",
+          "examples": [
+            {
+              "text": "何度も時間が変わると、予定が立てづらいんだ。",
+              "meaning": "时间反复变化，就很难安排计划。",
+              "note": "解释实际影响；关系亲近时用「んだ」。"
+            },
+            {
+              "text": "直前に予約が変わると、実験を進めにくくなります。",
+              "meaning": "预约临时变动会让实验难以推进。",
+              "note": "使用礼貌体说明工作影响。"
+            }
+          ],
+          "contrasts": [
+            {
+              "alternative": "嫌です。",
+              "distinction": "能表达不喜欢，但没有交代影响；若目的是协商，还需要补充困难。"
+            }
+          ],
+          "checks": [
+            "表达的影响与实际变动有合理关系",
+            "能用等义说法说明困难，不要求出现固定句型"
+          ]
+        },
+        {
+          "id": "make-a-request",
+          "kind": "pragmatics",
+          "label": "提出明确又留有协商余地的请求",
+          "form": "〜てもらえると助かる／難しそうなら、〜",
+          "use_when": "希望对方改变做法，同时承认对方有实际限制时。",
+          "examples": [
+            {
+              "text": "難しそうなら、早めに教えてもらえると助かる。",
+              "meaning": "如果可能不行，早点告诉我会很有帮助。",
+              "note": "请求的是提前通知，没有要求对方保证一定赴约。"
+            },
+            {
+              "text": "変更する前に、一度確認してもらえると助かります。",
+              "meaning": "变更前能先确认一下就好了。",
+              "note": "明确可执行动作，并用礼貌体处理工作关系。"
+            }
+          ],
+          "contrasts": [
+            {
+              "alternative": "絶対に変えないで。",
+              "distinction": "要求完全不变，与请求提前通知的协商目标不同；要看情境决定是否合适。"
+            }
+          ],
+          "checks": [
+            "请求包含对方能执行的动作",
+            "语气与关系、问题严重程度相符"
+          ]
+        }
+      ],
+      "practice": {
+        "entry": "用户聊到改约、排期或约定不稳定时接住具体困扰；没有关联时不硬引入。",
+        "input": "用当前人物关系给出两种短回应：只说不满，以及补充影响和请求，让用户理解差别。",
+        "noticing": "必要时问一句哪种说法让对方知道下一步怎么办，聚焦信息与语气而非要求术语分析。",
+        "supported": "先让用户说自己的意思；卡住时只给关键词或半句，仍困难才给完整示范，并标记帮助等级。",
+        "independent": "撤去例句，让用户针对朋友新的限制提出自己的请求；角色真实回应并继续协商。",
+        "transfer": "换成仪器预约，检查用户能否重新说明实验受影响的原因，并调整成工作关系的语气。",
+        "retrieval": "隔开其他有效交流后，再聊一次临时排期问题；不先展示旧句，观察是否能提取相关表达。"
+      },
+      "modalities": {
+        "typed": {
+          "task": "写一条给朋友或同事的消息，解释影响并提出请求。",
+          "focus": [
+            "信息完整",
+            "原因和请求的关系",
+            "称呼与句末语气"
+          ]
+        },
+        "spoken": {
+          "task": "听对方说明变动后口头回应，再处理一个追问。",
+          "focus": [
+            "能组织原因和请求",
+            "听懂限制并接话",
+            "没有原音时不评发音或流利度"
+          ]
+        }
+      },
+      "assessment": {
+        "criteria": [
+          {
+            "id": "impact",
+            "dimension": "meaning",
+            "knowledge_ids": [
+              "state-the-impact"
+            ],
+            "required": true,
+            "not_yet": "没有说出影响，或影响与当前情境相矛盾。",
+            "supported": "在关键词或示范帮助下说出了影响。",
+            "independent": "不依赖示范，准确说明这次变动造成的具体困难。",
+            "flexible": "换场景仍能说明不同影响，并在对方澄清后修正说明。",
+            "requires_audio": false
+          },
+          {
+            "id": "request",
+            "dimension": "appropriacy",
+            "knowledge_ids": [
+              "make-a-request"
+            ],
+            "required": true,
+            "not_yet": "请求动作不明确，或把可协商事项说成对方无法保证的要求。",
+            "supported": "借助句框说出合适的具体请求。",
+            "independent": "独立提出对方能执行、符合关系的请求。",
+            "flexible": "根据对方限制调整请求，仍保留自己的需要。",
+            "requires_audio": false
+          }
+        ],
+        "probes": [
+          {
+            "id": "friend",
+            "context": "朋友无法确定到达时间。",
+            "prompt": "向朋友说明你怎么安排，并商量怎样提前通知。",
+            "expected": "说明具体困难，提出可执行请求，并回应对方的不确定性。",
+            "knowledge_ids": [
+              "state-the-impact",
+              "make-a-request"
+            ],
+            "modalities": [
+              "typed",
+              "spoken"
+            ]
+          },
+          {
+            "id": "lab",
+            "context": "同事想临时占用已预约的仪器。",
+            "prompt": "说明对实验安排的影响，再一起提出可接受的变更办法。",
+            "expected": "能更换影响内容、调整关系语气，并协商具体动作。",
+            "knowledge_ids": [
+              "state-the-impact",
+              "make-a-request"
+            ],
+            "modalities": [
+              "typed",
+              "spoken"
+            ]
+          }
+        ],
+        "pitfalls": [
+          "完整复述老师刚给的消息只能算练习，不能算独立掌握。",
+          "没有出现固定句型但语义和语气达标的等义表达同样有效。",
+          "只凭口语转写不能判断发音是否清晰。"
+        ]
+      },
+      "source_refs": [
+        {
+          "source": "jf-can-do",
+          "locator": "Marugoto Can-do：按具体交际对象、场景和目标改写学习任务；本单元场景和例句为原创改编。",
+          "use": "framework"
+        }
+      ],
+      "extensions": {}
+    }
+  ],
+  "design": {
+    "purpose": "以真实表达任务练习原因、请求和协商。",
+    "entry_requirements": [
+      "能表达简单感受和要求。"
+    ],
+    "outcomes": [
+      "说明一件事对自己的影响。",
+      "根据关系提出清楚、可执行的请求。"
+    ],
+    "coverage_note": "这是 schema 的教学示例，不等同某一级考试的完整考纲。"
+  },
+  "teaching_policy": {
+    "max_new_points": 1,
+    "max_review_points": 1,
+    "support_ladder": [
+      "none",
+      "prompt",
+      "keywords",
+      "frame",
+      "model"
+    ],
+    "correction": [
+      "recast",
+      "clarification",
+      "explicit_on_request"
+    ],
+    "pause_when": [
+      "用户情绪求助、拒绝练习或正在处理紧急事情",
+      "当下话题无法自然承载这个目标"
+    ],
+    "mastery": {
+      "independent_successes": 2,
+      "distinct_contexts": 2,
+      "retention_successes": 2,
+      "min_opportunity_gap": 3,
+      "review_gaps": [
+        3,
+        8,
+        20
+      ],
+      "passing_level": 2
+    }
+  },
+  "extensions": {}
+}

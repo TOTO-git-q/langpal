@@ -1,0 +1,405 @@
+{
+ "id": "writing-continuation-clues",
+ "title": "人物目标与伏笔",
+ "goal": "从人物目标、困难和原文细节中选择支持后续事件的线索。",
+ "skill": "写作",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "goal",
+   "label": "确定人物目标及尚未解决的困难"
+  },
+  {
+   "id": "clue",
+   "label": "选择能够支持后续事件的原文线索"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语（新课标卷）：课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "人物目标、伏笔及课程题目规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "人物目标是人物想完成的事。挡在目标前面、还没有解决的困难，常常引出后文的行动。"
+    },
+    {
+     "p": "原文里反复出现的物品、人物的愿望和承诺，常常是后文的线索。线索要与人物的目标或困难有关。"
+    },
+    {
+     "box": "Amir wanted to fix the clock. He kept the tiny screw in a tin, but he could not find a screwdriver small enough."
+    },
+    {
+     "p": "目标是修钟，困难是没有够小的螺丝刀。罐子里的螺丝是修理的线索。续写还要交代螺丝刀从哪里来。"
+    }
+   ]
+  },
+  {
+   "id": "objects",
+   "type": "table",
+   "title": "物品与愿望",
+   "cols": [
+    "类型",
+    "原文",
+    "后续情节"
+   ],
+   "rows": [
+    [
+     "物品",
+     "Tess checked the worn map again. Later she unfolded the map beside the path.",
+     "她用地图辨认道路。"
+    ],
+    [
+     "物品",
+     "A loose button fell from Ben's coat. He picked up the button and put it in his pocket.",
+     "他把纽扣缝回外套上。"
+    ],
+    [
+     "愿望",
+     "Nina hoped to show her paintings, but the school hall was closed.",
+     "找到别的地方展出，实现展画的愿望。"
+    ],
+    [
+     "愿望",
+     "Owen wanted to learn the tune, yet he could play only its first line.",
+     "练会后面的旋律，实现学曲子的目标。"
+    ]
+   ]
+  },
+  {
+   "id": "promises",
+   "type": "table",
+   "title": "承诺与困难",
+   "cols": [
+    "类型",
+    "原文",
+    "后续情节"
+   ],
+   "rows": [
+    [
+     "承诺",
+     "Leah promised to return the borrowed book before noon.",
+     "中午前把书还回去。"
+    ],
+    [
+     "承诺",
+     "Sam promised his sister he would mend her bag.",
+     "把妹妹的包修好。"
+    ],
+    [
+     "困难",
+     "The path was flooded, so Ada could not reach the cabin.",
+     "找一条安全的路去小屋。"
+    ],
+    [
+     "困难",
+     "The label had come off the parcel, and Kai did not know its owner.",
+     "设法查出包裹的主人。"
+    ]
+   ]
+  },
+  {
+   "id": "distinction",
+   "type": "table",
+   "title": "线索与背景",
+   "cols": [
+    "情况",
+    "原文",
+    "判断"
+   ],
+   "rows": [
+    [
+     "与目标相关",
+     "Mina needed to repair a basket; spare reeds lay nearby.",
+     "备用的芦苇与修篮子有关，是线索。"
+    ],
+    [
+     "普通背景",
+     "Mina needed to repair a basket; clouds crossed the sky.",
+     "云与修篮子无关，是普通背景。"
+    ],
+    [
+     "已有帮助",
+     "A neighbor had offered to lend Mina her tools.",
+     "邻居答应借工具，修理时可以用上。"
+    ],
+    [
+     "无依据的关键人物",
+     "Mina was alone and had mentioned no helper.",
+     "原文没有帮手，续写不能突然让人来修。"
+    ]
+   ]
+  },
+  {
+   "id": "example",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Faye wanted to send a sketch to her grandmother. Her envelope tore. She remembered the spare envelope in her desk.\nWhich detail best supports a continuation in which Faye mails the sketch?\n1. The spare envelope in her desk.\n2. The tear in the envelope alone.\n3. A stranger who offers to draw.\n4. The grandmother's sketchbook."
+    },
+    {
+     "p": "Faye 的目标是寄出素描，困难是信封破了。第一项的备用信封可以换掉破信封，寄送就有了依据。"
+    }
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "goal",
+    "clue"
+   ],
+   "groups": [
+    {
+     "text": "Milo wanted to finish his model boat, but its sail had torn. A piece of spare cloth lay on his desk.",
+     "items": [
+      {
+       "stem": "What prevents Milo from finishing the boat?",
+       "options": [
+        "The sail needs to be repaired.",
+        "Milo has no cloth for the sail.",
+        "The spare cloth has torn.",
+        "Milo wants a new boat instead."
+       ],
+       "answer": 0,
+       "why": "依据是 its sail had torn。帆破了，要先修好才能完成模型，即第一项。第三项把破的东西换成了备用布。",
+       "point": "goal"
+      },
+      {
+       "stem": "Which detail supports a repair?",
+       "options": [
+        "The sail on the boat had torn.",
+        "Milo had some spare cloth at hand.",
+        "The cloth had been cut into a sail.",
+        "The sail had already been repaired."
+       ],
+       "answer": 1,
+       "why": "依据是 A piece of spare cloth lay on his desk。备用布可以用来补帆，即第二项。第一项是困难本身，不是修理的线索。",
+       "point": "clue"
+      }
+     ]
+    },
+    {
+     "text": "Iris promised to bring her friend a recipe. She copied it onto a card and placed it in her bag.",
+     "items": [
+      {
+       "stem": "Which action follows the promise?",
+       "options": [
+        "Iris asks her friend for a recipe card.",
+        "Iris copies the recipe onto another card.",
+        "Iris gives her friend the copied recipe.",
+        "Iris removes the recipe from her friend's bag."
+       ],
+       "answer": 2,
+       "why": "依据是 promised to bring her friend a recipe。把抄好的食谱交给朋友，就兑现了承诺，即第三项。第二项重复了已经做过的抄写。",
+       "point": "goal"
+      },
+      {
+       "stem": "Which detail can support that action?",
+       "options": [
+        "The friend has already copied the card.",
+        "The recipe has been removed from the bag.",
+        "The friend has the bag with the card.",
+        "The copied card is inside Iris's bag."
+       ],
+       "answer": 3,
+       "why": "依据是 placed it in her bag。食谱卡在 Iris 自己的包里，她可以带去交给朋友，即第四项。",
+       "point": "clue"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "goal",
+    "clue"
+   ],
+   "groups": [
+    {
+     "text": "Ravi hoped to share a song with his grandfather, but he could not remember its last line. His grandfather had written the words in a notebook, which Ravi had borrowed the previous week.",
+     "items": [
+      {
+       "stem": "What difficulty remains?",
+       "options": [
+        "Ravi cannot remember the final line.",
+        "Ravi cannot find his grandfather's song.",
+        "The grandfather refuses to share a notebook.",
+        "Ravi cannot remember the first line."
+       ],
+       "answer": 0,
+       "why": "依据是 could not remember its last line。Ravi 想不起的是最后一句，即第一项。第四项把最后一句换成了第一句。",
+       "point": "goal"
+      },
+      {
+       "stem": "Which detail supports finding the missing words?",
+       "options": [
+        "Ravi hopes to share the song.",
+        "Ravi has the notebook with the words.",
+        "The grandfather has forgotten the notebook.",
+        "The notebook contains only the first line."
+       ],
+       "answer": 1,
+       "why": "依据是 had written the words in a notebook 和 Ravi had borrowed。歌词在本子里，本子在 Ravi 手上，即第二项。第一项是目标，不是找到歌词的线索。",
+       "point": "clue"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "goal",
+    "clue"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "Clara promised her neighbor to return a borrowed basket. A handle had come loose, but her neighbor had shown her how to tie it with cord. Clara found some cord in her drawer.",
+       "items": [
+        {
+         "stem": "Which action responds to Clara's promise?",
+         "options": [
+          "She borrows a second basket from her neighbor.",
+          "She asks her neighbor to return the cord.",
+          "She returns the borrowed basket to her neighbor.",
+          "She ties the handle and keeps the basket at home."
+         ],
+         "answer": 2,
+         "why": "依据是 promised her neighbor to return a borrowed basket。兑现承诺就是把篮子还给邻居，即第三项。第四项修好了把手，却没有还篮子。",
+         "point": "goal"
+        },
+        {
+         "stem": "Which detail supports fixing the handle?",
+         "options": [
+          "The neighbor had tied the handle with cord.",
+          "The handle had come loose from the basket.",
+          "Clara had forgotten the neighbor's instructions.",
+          "Clara had cord and had learned how to use it."
+         ],
+         "answer": 3,
+         "why": "依据是 had shown her how to tie it with cord 和 Clara found some cord。方法学过，绳子也有了，即第四项。第一项把系绳子的人换成了邻居。",
+         "point": "clue"
+        },
+        {
+         "stem": "Complete the sentence about Clara's goal.",
+         "lead": "Clara",
+         "chunks": [
+          "wanted",
+          "to return",
+          "the borrowed basket",
+          "to her neighbor"
+         ],
+         "extra": [
+          "returning"
+         ],
+         "tail": ".",
+         "why": "原文的 promised to return 说明目标是还篮子。wanted to return 写的是同一个目标。",
+         "point": "goal"
+        },
+        {
+         "stem": "Complete the sentence about the useful material.",
+         "lead": "Clara",
+         "chunks": [
+          "found",
+          "some cord",
+          "in",
+          "her drawer"
+         ],
+         "extra": [
+          "finding"
+         ],
+         "tail": ".",
+         "why": "found some cord in her drawer 写出了固定把手要用的材料。",
+         "point": "clue"
+        }
+       ]
+      },
+      {
+       "text": "Noah wished to plant beans with his sister, but their small garden had no space left. His sister had saved an empty pot on the balcony. Noah checked the pot twice while they discussed the garden.",
+       "items": [
+        {
+         "stem": "What is the main difficulty?",
+         "options": [
+          "The garden has no room for the beans.",
+          "The balcony pot is filled with beans.",
+          "The sister has no pot to spare.",
+          "Noah does not want to plant beans."
+         ],
+         "answer": 0,
+         "why": "依据是 their small garden had no space left。花园里已经没有地方种豆子，即第一项。",
+         "point": "goal"
+        },
+        {
+         "stem": "Which detail supports a possible solution?",
+         "options": [
+          "The garden has a little space left.",
+          "An empty pot remains on the balcony.",
+          "The beans are growing in the garden.",
+          "The pot is already full of plants."
+         ],
+         "answer": 1,
+         "why": "依据是 saved an empty pot on the balcony。阳台上的空盆可以在花园以外种豆子，即第二项。",
+         "point": "clue"
+        },
+        {
+         "stem": "Complete the sentence about the problem.",
+         "lead": "Their garden",
+         "chunks": [
+          "had",
+          "no room",
+          "for",
+          "the beans"
+         ],
+         "extra": [
+          "having"
+         ],
+         "tail": ".",
+         "why": "had no room for the beans 写出了花园没有地方的困难。",
+         "point": "goal"
+        },
+        {
+         "stem": "Complete the sentence about the repeated object.",
+         "lead": "Noah",
+         "chunks": [
+          "checked",
+          "the empty pot",
+          "on",
+          "the balcony"
+         ],
+         "extra": [
+          "checking"
+         ],
+         "tail": ".",
+         "why": "原文 Noah checked the pot twice，空盆反复出现，是后文种豆子的线索。",
+         "point": "clue"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

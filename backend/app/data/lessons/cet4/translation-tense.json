@@ -1,0 +1,64 @@
+{
+ "id": "translation-tense",
+ "title": "时间线索与英文谓语",
+ "goal": "能根据时间线索选择时态，并使用与主语一致的谓语。",
+ "skill": "翻译",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "time", "label": "根据原文时间线索判断时态"},
+  {"id": "predicate", "label": "选择与时间及主语一致的谓语"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译教学所依据的大纲"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "英文谓语的形式由时间词和事件的时间关系决定。过去的事件、现在的状态、持续到现在的情况和将来的计划，各用不同的时态。"},
+   {"box": "原文：这间阅览室于二〇一八年开放，如今每天接待访客。\nThe reading room opened in 2018. It now receives visitors every day."},
+   {"p": "开放是过去的事件，用 opened；接待是现在的日常情况，用 receives。"}
+  ]},
+  {"id": "past-present", "type": "table", "title": "过去事件与现状", "cols": ["时间关系", "原文", "译文"], "rows": [
+   ["过去始建", "这座小桥建于一九九八年，连接两处村落。", "The small bridge was built in 1998 and connects two villages."],
+   ["过去始建", "这个公园始建于二〇〇五年，后来逐步扩建。", "The park was first built in 2005 and was later expanded in stages."],
+   ["现在的状态", "这座旧仓库如今是一间社区活动中心。", "The old warehouse is now a community center."],
+   ["现在的惯例", "这家工坊如今每周举办一次织布演示。", "The workshop now holds a weaving demonstration every week."]
+  ]},
+  {"id": "continuity-future", "type": "table", "title": "延续与将来", "cols": ["时间关系", "原文", "译文"], "rows": [
+   ["过去延续至今", "这个村庄已经保存传统制纸技艺多年。", "The village has preserved traditional papermaking skills for many years."],
+   ["过去延续至今", "志愿者从二〇二〇年起一直照料这片花园。", "Volunteers have cared for the garden since 2020."],
+   ["未来计划", "明年学校将为学生开设新的绘画课程。", "The school will offer a new painting course for students next year."],
+   ["未来计划", "下个月志愿者将整理这些旧报纸。", "Volunteers will sort these old newspapers next month."]
+  ]},
+  {"id": "form", "type": "table", "title": "谓语形式", "cols": ["情况", "形式", "例句"], "rows": [
+   ["过去事件", "动词过去式或 was 加过去分词", "The bridge was built in 1998."],
+   ["现在惯例", "主语是第三人称单数时，动词加 -s","The workshop holds demonstrations."],
+   ["持续至今", "单数主语用 has，复数用 have", "The village has preserved the skill. / Volunteers have cared for the garden."],
+   ["将来", "will 后用动词原形", "The school will offer a course."],
+   ["中文的了", "按时间关系选时态，不一律用过去时","The village has preserved the skill for years. / The park opened in 2005."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "原文：这家工坊从二〇一〇年起一直保存这些工具。\n1. The workshop preserved these tools in 2010.\n2. The workshop has preserved these tools since 2010.\n3. The workshop will preserve these tools from 2010.\n4. The workshop preserves these tools before 2010."},
+   {"p": "从二〇一〇年起一直说明动作持续至今。第二项用 has preserved，并保留起始时间。"}
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["time", "predicate"], "groups": [{"items": [
+   {"stem": "原文：这个展馆建于二〇〇二年，后来进行了修缮。Which event is situated in the past?", "options": ["The hall's construction in 2002", "The hall's renovation before 2002", "The hall's ongoing construction", "The hall's renovation planned for later"], "answer": 0, "why": "建于二〇〇二年是已经完成的过去事件，对应第一项。第二项把修缮放在建成之前，原文是后来才修缮。", "point": "time"},
+   {"stem": "原文：这个展馆现在每周举办一次展览。Which predicate expresses the present routine?", "options": ["held an exhibition every week", "holds an exhibition every week", "hold an exhibition every week", "will hold an exhibition every week"], "answer": 1, "why": "原文的现在每周说明这是现在的惯例，用一般现在时。展馆是单数主语，谓语用 holds。", "point": "predicate"},
+   {"stem": "原文：这些志愿者从去年起一直整理地方照片。Which time relation is stated?", "options": ["A sorting job finished before last year", "A plan to start sorting next year", "An activity from last year until now", "An activity that started and ended last year"], "answer": 2, "why": "原文用从去年起一直，说明整理从去年开始，到现在还在进行，即第三项。第四项说已经结束，与一直不符。", "point": "time"},
+   {"stem": "原文：学校下个月将开放新的阅览室。Which predicate fits the plan?", "options": ["opened a new reading room last month", "will be opened a new reading room next month", "will opens a new reading room next month", "will open a new reading room next month"], "answer": 3, "why": "下个月将开放是未来计划，will 后面用动词原形 open。第三项在 will 后面用了 opens。", "point": "predicate"}
+  ]}]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["time", "predicate"], "groups": [{"text": "原文：镇上的工坊于二〇一二年开业。如今工坊制作竹篮，工匠从开业起一直保存制作记录。明年工坊将开设新的展示区。", "items": [
+   {"stem": "Which time relation applies to the opening?", "options": ["A completed event in 2012", "A present weekly routine", "A continuing record since 2012", "A planned opening next year"], "answer": 0, "why": "开业发生在二〇一二年，是过去事件。", "point": "time"},
+   {"stem": "Which predicate fits the continuing preservation of records?", "options": ["preserve records since opening", "have preserved records since opening", "preserved records since opening", "had preserved records before opening"], "answer": 1, "why": "原文用从开业起一直，说明保存记录持续到现在，要用现在完成时 have preserved。第三项用一般过去时，表达不出持续到现在。", "point": "predicate"},
+   {"stem": "Which expression fits the planned display area?", "options": ["opened a new display area last year", "opens a new display area every year", "will open a new display area next year", "will opens a new display area next year"], "answer": 2, "why": "明年将开设是未来计划，用 will 加动词原形 open。第四项在 will 后面用了 opens。", "point": "predicate"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["time", "predicate"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "原文：这座展厅于二〇一五年建成，现已开放。Which information refers to a completed past event?", "options": ["Completion of the hall in 2015", "The hall's present opening status", "Its opening before 2015", "Construction continuing after 2015"], "answer": 0, "why": "二〇一五年建成是已经完成的过去事件，即第一项。现已开放说的是现在的状态。", "point": "time"},
+   {"stem": "原文：该中心如今每月组织一次植物观察活动。Which predicate fits the present routine?", "options": ["organize a plant observation activity every month", "organizes a plant observation activity every month", "organized a plant observation activity every month", "will organize a plant observation activity every month"], "answer": 1, "why": "原文的如今每月说明这是现在的惯例，用一般现在时。中心是单数主语，谓语用 organizes。", "point": "predicate"},
+   {"stem": "原文：这座图书馆从二〇一九年起一直收藏地方报纸。Which time relation is stated?", "options": ["A collection that ended in 2019", "A collection limited to the year 2019", "A collection continuing since 2019", "A collection finished before 2019"], "answer": 2, "why": "原文用从二〇一九年起一直，说明收藏从二〇一九年开始，持续到现在，即第三项。", "point": "time"},
+   {"stem": "原文：这些学生下周将参观当地的手工艺展。Which predicate fits the plan?", "options": ["visited the local craft exhibition last week", "visit the local craft exhibition every week", "will be visited the local craft exhibition next week", "will visit the local craft exhibition next week"], "answer": 3, "why": "下周将参观是未来计划，用 will 加动词原形 visit。第三项误用了被动形式。", "point": "predicate"},
+   {"stem": "原文：这个中心从二〇一六年起一直保存地方照片。Arrange the given translation.", "lead": "The center", "chunks": ["has preserved", "local photographs", "since", "2016"], "tail": ".", "extra": ["will preserve"], "why": "持续至今用 has preserved；since 引出起始年份。", "point": "predicate"},
+   {"stem": "原文：志愿者明年将整理这些旧报纸。Arrange the given translation.", "lead": "The volunteers", "chunks": ["will sort", "these old", "newspapers", "next year"], "tail": ".", "extra": ["sorted"], "why": "明年的计划用 will sort；next year 表示将来时间。", "point": "time"},
+   {"stem": "原文：这个工坊如今每天制作竹篮。The workshop ___ bamboo baskets every day. Complete the predicate using the present form of make.", "accept": ["makes"], "why": "现在的惯例用一般现在时，单数 workshop 对应 makes。", "point": "predicate"},
+   {"stem": "原文：这座桥建于一九九九年。The bridge was built in 1999. Copy the complete time phrase beginning with in.", "accept": ["in 1999"], "why": "in 1999 是原文建造时间的对应表达。", "point": "time"}
+  ]}]}]}
+ ]
+}

@@ -1,0 +1,193 @@
+{
+  "id": "reading-short-answer",
+  "title": "简答题　Short-answer questions · 练习",
+  "goal": "从文章中提取简短而完整的答案。",
+  "skill": "阅读",
+  "exam": "雅思 IELTS Academic",
+  "points": [
+    {
+      "id": "focus",
+      "label": "确定问题要求的信息范围"
+    },
+    {
+      "id": "extract",
+      "label": "提取简短而完整的原词答案"
+    }
+  ],
+  "sources": [
+    {
+      "id": "i2",
+      "title": "IELTS Academic: Reading test format",
+      "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+      "used": "阅读材料与题型"
+    },
+    {
+      "id": "syllabus",
+      "title": "雅思 IELTS Academic：课表",
+      "url": "docs/syllabi/ielts.md",
+      "used": "练习尺寸与知识点"
+    }
+  ],
+  "cards": [
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "小测",
+      "minutes": 12,
+      "pass": 0.75,
+      "points": [
+        "focus",
+        "extract"
+      ],
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "label": "",
+              "look": "passage",
+              "text": "Passage 1: Recording Street Trees\n\nP1\nA district council asked a small research unit to describe the street trees along one residential road. The request was deliberately narrow: the council wanted a record of the trees that stood between the pavement and the roadway, not an assessment of whether the road needed more planting. The unit agreed to work only on that road, and only on trees whose trunks could be reached from the pavement without entering private gardens. Before any tree was described, the team walked the road and marked each position on a printed map. Positions were numbered so that later notes could be matched to a place without relying on memory. The team did not decide in advance how many trees it expected to find. It treated the walk as a way of fixing locations, and it recorded the date of that first walk at the top of the map. The road was chosen because it contained a variety of species and because its trees were managed by a single department, which made the records easier to interpret.\n\nP2\nAt each marked position, two members of the team worked together. One held a flexible tape around the trunk at a fixed height above the ground; the other read the measurement and wrote it down. The same height was used for every tree so that the figures could be compared. A separate sheet was used for each tree, and the sheet carried the position number rather than the name of the species. Species were identified later, in the office, with the help of reference material. Where the identity of a tree remained uncertain, the team wrote a note instead of a name. They did not remove leaves or branches for closer inspection. Photographs were taken of the bark and of the whole tree, and each photograph was given the same number as the sheet. Trees that had been recently cut back were recorded as they were found, with a note describing the cut. This procedure meant that a measurement and a description were kept apart, so that a note about pruning could not be mistaken for a measurement of the trunk.\n\nP3\nOnce the sheets were complete, the team entered the figures into a simple table. Each row held one tree, and the columns held the position number, the trunk measurement and the species where it was known. The table was checked against the original sheets by a member of the team who had not taken the measurements. This check was not intended to test the accuracy of the tape; it was intended to catch figures that had been copied incorrectly. Where a figure on the table did not match the sheet, the sheet was treated as the record and the table was corrected. The team also kept a short list of the trees whose species remained uncertain. This list was passed to the council with the table, so that the gaps in the record were visible rather than hidden. The unit did not fill those gaps by guessing from photographs alone.\n\nP4\nThe report described the trees on one road on the dates of the survey. It did not claim that the road was typical of the district, and it gave no figures for other roads. The team noted that a trunk measurement taken in one season would not describe how a tree would grow, and it recommended repeating the survey after several years if the council wished to compare change. It also warned that a table of measurements should not be used to decide which trees were healthy, because health would require observations that the survey had not made. The council used the table to plan inspections of the trees it managed. That planning was separate from the survey: an inspection would consider branches, roots and the space around each tree, none of which the team had measured. The report closed by recommending that the numbered map, the sheets and the table be stored together, so that a later reader could trace any figure back to a marked position on the road.",
+              "items": [
+                {
+                  "stem": "1. What did the council want a record of? Answer using NO MORE THAN TWO WORDS from the passage.",
+                  "accept": [
+                    "street trees",
+                    "trees"
+                  ],
+                  "why": "第一段开头说市议会要求记录一条住宅道路旁的街道树木。",
+                  "point": "focus"
+                },
+                {
+                  "stem": "2. Where were the tree positions marked? Answer using NO MORE THAN TWO WORDS from the passage.",
+                  "accept": [
+                    "printed map",
+                    "map"
+                  ],
+                  "why": "第一段说团队把每个位置标在一张打印的地图上。",
+                  "point": "extract"
+                },
+                {
+                  "stem": "3. What was held around the trunk? Answer using NO MORE THAN TWO WORDS from the passage.",
+                  "accept": [
+                    "flexible tape",
+                    "tape"
+                  ],
+                  "why": "第二段说一人用软尺绕树干一周。",
+                  "point": "extract"
+                },
+                {
+                  "stem": "4. What was used for each tree separately? Answer using NO MORE THAN TWO WORDS from the passage.",
+                  "accept": [
+                    "separate sheet",
+                    "sheet"
+                  ],
+                  "why": "第二段说每棵树用一张单独的表格。",
+                  "point": "focus"
+                },
+                {
+                  "stem": "5. Who checked the table against the sheets? Answer using NO MORE THAN TWO WORDS from the passage.",
+                  "accept": [
+                    "a member",
+                    "member"
+                  ],
+                  "why": "第三段说由一位未参与测量的成员核对表格与原始表格。",
+                  "point": "extract"
+                },
+                {
+                  "stem": "6. What would an inspection consider besides branches and roots? Answer using NO MORE THAN TWO WORDS from the passage.",
+                  "accept": [
+                    "space",
+                    "the space"
+                  ],
+                  "why": "第四段说检查会考虑树枝、树根以及每棵树周围的空间。",
+                  "point": "extract"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "label": "",
+              "look": "passage",
+              "text": "Passage 1: Mapping Study Corners\n\nP1\nA university library carried out a small study of how students used a set of individual study places on one floor of its building. The floor contained desks arranged along windows, desks facing internal walls, and a few enclosed carrels. The study did not try to decide which kind of place was best for learning. Its question was narrower: which places were occupied, and for how long, during three fixed periods of a teaching week? The team chose this floor because every place on it could be identified from a single floor plan and because entry to the floor was controlled by one gate. Before observations began, the plan was checked against the furniture so that each place carried a number. The numbers were printed on small cards fixed to the desk surfaces. The researchers did not assume that a place was used simply because a chair had been moved; they recorded occupancy only when a person was present. They also noted the route by which an observer could walk past the places without disturbing anyone. These preparations allowed the team to return to the same position on each visit.\n\nP2\nDuring each period, an observer walked the recorded route at twenty-minute intervals and marked on a copy of the plan which places were occupied. A tick showed a place in use; a small circle showed a place that was reserved by a bag or coat but empty. The two marks were kept apart so that a reservation would not be counted as attendance. When an observer could not see a place because a screen blocked the view, the place was marked as unseen and left out of the count. The team did not use cameras or turnstiles. Each visit was made with a clipboard and a printed plan, and the equipment was removed at the end. A separate notebook recorded any change to the furniture, such as a broken lamp or a missing chair, so that a later visit would not be compared with an altered room. The team kept every marked plan and its notebook entry together.\n\nP3\nIn the analysis, the occupied places were grouped by position rather than by the identity of the person using them. Places along the windows were occupied more often in the morning periods, while the enclosed carrels were occupied more often in the afternoon. The desks facing internal walls showed little change across the three periods. The report presented these patterns as descriptions of the selected week only. It did not claim that one group of students preferred one kind of place, because no information about the students themselves was collected. Nor did the study measure noise, temperature or light. A place that was occupied for a long interval might have been comfortable or simply convenient; the records could not separate these possibilities. One limitation was noted in particular: because the floor had only one gate, the team could not tell whether a person who left and returned during an interval had used the same place twice.\n\nP4\nThe researchers concluded that a floor plan with numbered places was more useful than a general description of the room for this kind of comparison. A numbered plan made each observation checkable, and the separate notebook entry explained any change between visits. The report recommended that the plan and the summary table be stored together so that a later reader could trace a table entry back to a marked place. It also warned against extending the findings to other floors, other weeks or other institutions. When a departmental group later discussed adding screens between some desks, the report was used only to show where places had been occupied; the group was told that a decision about screens would also need information about ventilation and fire safety. The study therefore illustrates a modest use of a simple record: it can answer a narrow question about occupancy when the place, the time and the exclusions are all visible, and it should not be asked to answer questions it was never designed to address.",
+              "items": [
+                {
+                  "stem": "1. What controlled entry to the floor studied? Answer using NO MORE THAN TWO WORDS from the passage.",
+                  "accept": [
+                    "one gate",
+                    "gate"
+                  ],
+                  "why": "材料第一段说该楼层由一个门禁（one gate）控制进入，因此研究能确定人员范围。",
+                  "point": "focus"
+                },
+                {
+                  "stem": "2. What was fixed to the desk surfaces? Answer using NO MORE THAN TWO WORDS from the passage.",
+                  "accept": [
+                    "small cards",
+                    "cards"
+                  ],
+                  "why": "材料说编号印在小卡片上并固定在桌面，原文为 small cards fixed to the desk surfaces。",
+                  "point": "extract"
+                },
+                {
+                  "stem": "3. What did a small circle show? Answer using NO MORE THAN TWO WORDS from the passage.",
+                  "accept": [
+                    "reservation",
+                    "a reservation"
+                  ],
+                  "why": "材料说小圆圈表示被包或外套占座但无人的位置，即 reservation。",
+                  "point": "extract"
+                },
+                {
+                  "stem": "4. What was recorded in a separate notebook? Answer using NO MORE THAN TWO WORDS from the passage.",
+                  "accept": [
+                    "change",
+                    "any change"
+                  ],
+                  "why": "材料说单独笔记记录家具的任何变化（any change to the furniture）。",
+                  "point": "focus"
+                },
+                {
+                  "stem": "5. What could the team not tell about a returning person? Answer using NO MORE THAN TWO WORDS from the passage.",
+                  "accept": [
+                    "same place"
+                  ],
+                  "why": "材料指出因只有一个门禁，无法判断离开又返回的人是否用了同一个位置（same place）。",
+                  "point": "extract"
+                },
+                {
+                  "stem": "6. What did a departmental group discuss adding? Answer using NO MORE THAN TWO WORDS from the passage.",
+                  "accept": [
+                    "screens"
+                  ],
+                  "why": "材料末段说某院系小组讨论在部分书桌之间加装隔屏（screens）。",
+                  "point": "focus"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "more": {
+        "kind": "short-answer",
+        "topics": [
+          "城市绿地",
+          "公共交通",
+          "图书馆服务",
+          "历史建筑",
+          "水资源",
+          "城市树木",
+          "社区设施",
+          "档案保存",
+          "生态观察",
+          "能源使用",
+          "学习空间",
+          "交通规划"
+        ]
+      }
+    }
+  ]
+}

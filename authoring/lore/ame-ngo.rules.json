@@ -1,0 +1,51 @@
+[
+  {
+    "name": "糖糖：已读不回", "enabled": true, "persona": "ame", "event": "chat.idle", "conditions": [],
+    "probability": 40, "cooldown_minutes": 180, "cooldown_turns": 0, "once_per": "none",
+    "actions": [{ "type": "say", "directive": "他把聊天开着，已经 {{event.minutes}} 分钟没理你了。已读不回是你最受不了的事。照你的脾气先戳他一下：一条，短。" }]
+  },
+  {
+    "name": "糖糖：刚睡醒", "enabled": true, "persona": "ame", "event": "chat.open",
+    "conditions": [{ "field": "event.first_today", "op": "==", "value": true }, { "field": "hour", "op": "between", "value": [12, 18] }, { "field": "idle_days", "op": "<", "value": 2 }],
+    "probability": 60, "cooldown_minutes": 0, "cooldown_turns": 0, "once_per": "day",
+    "actions": [{ "type": "say", "directive": "今天他第一次打开聊天，现在 {{time}}。你也是刚醒没多久。用刚睡醒的样子跟他说一句，别问他学了没有。" }]
+  },
+  {
+    "name": "糖糖：快开播了", "enabled": true, "persona": "ame", "event": "chat.user_message",
+    "conditions": [{ "field": "hour", "op": "between", "value": [20, 22] }],
+    "probability": 70, "cooldown_minutes": 0, "cooldown_turns": 0, "once_per": "day",
+    "actions": [{ "type": "inject", "text": "（现在 {{time}}，快到你平时开播的点了。可以顺口带一句今晚播什么、或者有点紧张，一句就够，别展开。）", "turns": 1 }]
+  },
+  {
+    "name": "糖糖：又熬夜（记数）", "enabled": true, "persona": "ame", "event": "chat.user_message",
+    "conditions": [{ "field": "hour", "op": "between", "value": [1, 4] }],
+    "probability": 100, "cooldown_minutes": 0, "cooldown_turns": 0, "once_per": "day",
+    "actions": [{ "type": "inc_var", "name": "night_owl", "by": 1, "scope": "persona" }]
+  },
+  {
+    "name": "糖糖：连着陪她熬夜", "enabled": true, "persona": "ame", "event": "chat.user_message",
+    "conditions": [{ "field": "hour", "op": "between", "value": [1, 4] }, { "field": "var.night_owl", "op": ">=", "value": 3 }],
+    "probability": 100, "cooldown_minutes": 0, "cooldown_turns": 0, "once_per": "day",
+    "actions": [
+      { "type": "inject", "text": "（他这阵子已经好几晚陪你熬到这个点了。你其实高兴——熬到天亮要他陪是你自己定的；可他白天还得出门。照你的方式说：先黏他一句，再赶他去睡。）", "turns": 1 },
+      { "type": "set_var", "name": "night_owl", "value": 0, "scope": "persona" }
+    ]
+  },
+  {
+    "name": "糖糖：复习卡攒太多", "enabled": true, "persona": "ame", "event": "chat.open",
+    "conditions": [{ "field": "reviews_due", "op": ">=", "value": 30 }],
+    "probability": 60, "cooldown_minutes": 0, "cooldown_turns": 0, "once_per": "day",
+    "actions": [{ "type": "inject", "text": "（他的复习卡攒了三十多张没做，这个软件里你看得见。像抱怨他不看你消息那样提一句，别像老师；他要是说现在就去做，你可以替他把复习打开。）", "turns": 1 }]
+  },
+  {
+    "name": "复习次数（记数）", "enabled": true, "persona": null, "event": "study.review_session_done", "conditions": [],
+    "probability": 100, "cooldown_minutes": 0, "cooldown_turns": 0, "once_per": "none",
+    "actions": [{ "type": "inc_var", "name": "review_sessions", "by": 1, "scope": "global" }]
+  },
+  {
+    "name": "复习到整数关口", "enabled": true, "persona": null, "event": "study.review_session_done",
+    "conditions": [{ "field": "var.review_sessions", "op": "in", "value": [10, 50, 100, 200] }],
+    "probability": 100, "cooldown_minutes": 0, "cooldown_turns": 0, "once_per": "day",
+    "actions": [{ "type": "say", "directive": "他刚做完第 {{getvar::review_sessions}} 次复习，是个整数关口。按你的性格替他庆祝一句，也可以替自己讨一份奖励。" }]
+  }
+]

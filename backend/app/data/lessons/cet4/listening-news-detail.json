@@ -1,0 +1,439 @@
+{
+ "id": "listening-news-detail",
+ "title": "新闻事实细节题",
+ "goal": "定位具体事实并核对人物、地点、时间和数量。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "locate",
+   "label": "听出题干所问的具体事实"
+  },
+  {
+   "id": "match",
+   "label": "将事实对应到正确的人物和阶段"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "听力课程材料的依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "type",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "事实细节题询问报道中的具体信息。题干可以询问人物行为、地点、时间或数量。"
+    },
+    {
+     "box": "Who designed the sign? / Where was the sign placed? / When was it installed? / How many signs were installed?"
+    },
+    {
+     "p": "一条报道常有几个人物、几个阶段。答案的行动和对象都要与题干一致。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　识别信息类别",
+     "d": "who 问人物，where 问地点，when 问时间，how many 问数量。The guide opened the door 回答的是行动者。"
+    },
+    {
+     "t": "2　记录行动关系",
+     "d": "将动作与执行者、对象相连。The guide opened the door 中，guide 是执行者。"
+    },
+    {
+     "t": "3　区分事件阶段",
+     "d": "核对时间或数量属于哪个动作。The doors arrived Monday and opened Tuesday 中，开放时间是 Tuesday。"
+    },
+    {
+     "t": "4　核对选项",
+     "d": "正确选项常改写原文的说法。重复了原词、但换了做事的人或事件的选项，与原文不符。"
+    }
+   ]
+  },
+  {
+   "id": "details",
+   "type": "table",
+   "title": "细节类别",
+   "cols": [
+    "类别",
+    "原文",
+    "对应信息"
+   ],
+   "rows": [
+    [
+     "人物行为",
+     "Staff arranged the chairs; volunteers opened the doors.",
+     "volunteers：开门的人"
+    ],
+    [
+     "人物行为",
+     "The manager ordered the maps; a printer produced them.",
+     "printer：制作地图的人"
+    ],
+    [
+     "地点",
+     "The talk moved to the hall; the display stayed in the library.",
+     "hall：讲座地点"
+    ],
+    [
+     "地点",
+     "The market is beside the station; the office is opposite the park.",
+     "station：市场旁的地点"
+    ],
+    [
+     "时间",
+     "Tickets arrived Monday; sales began Tuesday.",
+     "Tuesday：开始售票的时间"
+    ],
+    [
+     "时间",
+     "Work started in May and ended in June.",
+     "June：工程结束的月份"
+    ],
+    [
+     "数量",
+     "Six guides led groups of ten.",
+     "six：向导人数；ten：每组人数"
+    ],
+    [
+     "数量",
+     "Four teams planted eight trees.",
+     "four：队数；eight：树的数量"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The town received eight benches on Monday. Volunteers installed six of them in the park on Tuesday; the other two were placed beside the library. The benches were supplied by a local workshop. The town paid for them after residents requested more places to sit. Staff checked each location before the volunteers began installation. The remaining benches were installed on Wednesday.\nHow many benches did volunteers install in the park?\n1. Two benches\n2. Six benches\n3. Eight benches\n4. Ten benches"
+    },
+    {
+     "p": "installed six of them in the park 对应第二项。eight 是收到的总数，two 是图书馆旁的数量。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "原文",
+    "错误对应"
+   ],
+   "rows": [
+    [
+     "相邻事实移用",
+     "Benches arrived Monday; installation began Tuesday.",
+     "Monday 是安装开始时间。"
+    ],
+    [
+     "人物替换",
+     "Staff ordered maps; a printer produced them.",
+     "工作人员制作地图。"
+    ],
+    [
+     "地点替换",
+     "The meeting is in the hall; the display is in the library.",
+     "会议在图书馆举行。"
+    ],
+    [
+     "数量移用",
+     "Six guides led groups of ten.",
+     "每组有 6 人。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "locate",
+    "match"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The choir director chose the songs, while students designed the concert posters."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Who designed the posters?",
+       "options": [
+        "The choir director",
+        "The student designers",
+        "The director and the students",
+        "The choir's singers"
+       ],
+       "answer": 1,
+       "why": "依据是 students designed the concert posters。海报由学生设计，第二项符合。",
+       "point": "locate"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The science talk will take place in the museum hall. The display remains in the library."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Where will the talk take place?",
+       "options": [
+        "In the museum hall",
+        "In the library display room",
+        "In the museum's library",
+        "At the library entrance"
+       ],
+       "answer": 0,
+       "why": "依据是 The science talk will take place in the museum hall。第一项符合；图书馆是展览所在地。",
+       "point": "locate"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Workers delivered the seats on Monday and installed them on Wednesday."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "When were the seats installed?",
+       "options": [
+        "Before the seats arrived",
+        "On the day of delivery",
+        "Two days after delivery",
+        "On Monday and Wednesday"
+       ],
+       "answer": 2,
+       "why": "依据是 delivered the seats on Monday and installed them on Wednesday。周一送达，周三安装，相隔两天，第三项符合。",
+       "point": "match"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Four teams planted eight trees in the garden during the morning."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "How many trees were planted?",
+       "options": [
+        "Four trees",
+        "Eight trees per team",
+        "Four trees per team",
+        "Eight trees in total"
+       ],
+       "answer": 3,
+       "why": "依据是 Four teams planted eight trees。四个队一共种了八棵树，第四项符合；four 是队数。",
+       "point": "match"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "locate",
+    "match"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A student group has opened a small exhibition on local farming in the town hall. The group collected photographs from twelve families and selected twenty images for the display. A local artist designed the posters, while the students wrote the notes beside each photograph. The exhibition opened on Monday and will remain in the hall until Friday. It will then move to the public library for the following week. The students began gathering material in January, and they completed the selection in March. Visitors can read accounts of changes in farming alongside the photographs. The group leader said the project began as a class assignment but grew when families offered more pictures. Entry is free at both locations. The students will also give a short talk at the library next Wednesday. Staff at the library have arranged seating for the talk, and a printed guide will be available at the entrance."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Who wrote the notes beside the photographs?",
+       "options": [
+        "The local artist",
+        "The students in the group",
+        "The families in the photographs",
+        "The library's staff"
+       ],
+       "answer": 1,
+       "why": "依据是 the students wrote the notes beside each photograph。第二项符合；本地艺术家设计的是海报。",
+       "point": "match"
+      },
+      {
+       "stem": "Where will the exhibition move after Friday?",
+       "options": [
+        "To the town hall",
+        "To a classroom at school",
+        "To the public library",
+        "Back to the families"
+       ],
+       "answer": 2,
+       "why": "依据是 It will then move to the public library for the following week。第三项符合。",
+       "point": "locate"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "locate",
+    "match"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "A public garden has installed new benches along its walking path. Garden staff chose the locations, while a group of volunteers assembled the benches. The town workshop delivered ten benches on Monday, and eight were installed beside the path on Tuesday. The remaining two were placed near the garden entrance on Wednesday. The garden manager said the seats were requested by visitors who wanted places to rest during longer walks. The town paid for the materials, and the volunteers contributed their time. Staff have also put up a map showing the path and its entrances. The map is beside the visitor center, where printed copies are available. The garden is open daily, although the visitor center closes on Mondays. Later this month, the manager plans to ask visitors whether the new seating meets their needs. The garden has not announced any further changes to the walking path. Visitors can leave comments at the center throughout the week."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Who assembled the new benches?",
+         "options": [
+          "The garden manager",
+          "The town workshop",
+          "A group of volunteers",
+          "Visitors to the garden"
+         ],
+         "answer": 2,
+         "why": "依据是 a group of volunteers assembled the benches。第三项符合；工作人员选的是位置。",
+         "point": "match"
+        },
+        {
+         "stem": "Where were the remaining two benches placed?",
+         "options": [
+          "Near the garden entrance",
+          "Beside the walking path",
+          "Inside the visitor center",
+          "At the town workshop"
+         ],
+         "answer": 0,
+         "why": "依据是 The remaining two were placed near the garden entrance。第一项符合。",
+         "point": "locate"
+        },
+        {
+         "stem": "How many benches were installed beside the path?",
+         "options": [
+          "Two benches",
+          "Ten benches",
+          "All ten benches",
+          "Eight benches"
+         ],
+         "answer": 3,
+         "why": "依据是 eight were installed beside the path。第四项符合；ten 是送来的总数。",
+         "point": "match"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "A neighborhood bakery has begun delivering bread to a community food center each Thursday. The bakery makes the bread early in the morning, and volunteers collect it at nine. The food center then distributes the bread with other groceries in the afternoon. The arrangement began this month after center staff contacted several local businesses. The bakery owner said the weekly delivery uses ingredients purchased for the project. The center already receives fresh vegetables from a nearby farm on Tuesdays, and staff store them until the next distribution. Last week, the bakery sent thirty loaves, while the farm supplied twenty boxes of vegetables. The food center is based in the old post office building near the railway station. Its manager said the new arrangement would run for three months before both organizations review it. Residents interested in helping can speak to staff at the community center during its normal opening hours."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "When do volunteers collect the bread?",
+         "options": [
+          "On Tuesdays with the vegetables",
+          "At nine in the morning",
+          "Before the bread is baked",
+          "In the afternoon"
+         ],
+         "answer": 1,
+         "why": "依据是 volunteers collect it at nine。面包清早烤好，志愿者九点来取，第二项符合。",
+         "point": "locate"
+        },
+        {
+         "stem": "Where is the food center based?",
+         "options": [
+          "At the bakery's shop",
+          "At the nearby farm",
+          "In the old post office",
+          "Inside the railway station"
+         ],
+         "answer": 2,
+         "why": "依据是 based in the old post office building near the railway station。第三项符合；火车站只是附近的地标。",
+         "point": "locate"
+        },
+        {
+         "stem": "How many loaves did the bakery send last week?",
+         "options": [
+          "Thirty loaves",
+          "Twenty loaves",
+          "Nine loaves",
+          "Three loaves"
+         ],
+         "answer": 0,
+         "why": "依据是 the bakery sent thirty loaves。第一项符合；twenty 是蔬菜的箱数。",
+         "point": "match"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

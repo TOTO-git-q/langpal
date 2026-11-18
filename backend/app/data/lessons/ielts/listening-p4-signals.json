@@ -1,0 +1,58 @@
+{
+ "id": "listening-p4-signals", "title": "学术独白的信号表达", "goal": "识别学术独白中的逻辑信号及后续信息的作用。", "skill": "听力", "exam": "雅思 IELTS Academic", "mastery": "once",
+ "points": [{"id": "signal", "label": "听出信号表达所属的逻辑类别"}, {"id": "function", "label": "判断后续信息在独白中的作用"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "学术独白信号表达与听力课教学规格"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "信号表达说明前后两部分信息的逻辑关系。判断一条信息的作用，先听出信号表达，再联系前后的内容。"}, {"p": "For example 后面是前一句所说类别中的一个实例。therefore 后面是根据前文的依据得出的结论。"}]},
+  {"id": "definition-example", "type": "table", "title": "定义与举例", "cols": ["类别", "表达", "例句"], "rows": [
+   ["定义", "is defined as", "A habitat is defined as the place where an organism lives."],
+   ["定义", "refers to", "Migration refers to movement between regions."],
+   ["定义", "means", "In this study, abundance means the number of individuals observed."],
+   ["定义", "is the term for", "Erosion is the term for the wearing away of material."],
+   ["举例", "for example", "Some birds migrate; for example, swallows travel seasonally."],
+   ["举例", "for instance", "Several materials absorb water; for instance, paper absorbs it."],
+   ["举例", "such as", "Some insects, such as bees, visit flowers."],
+   ["举例", "one example is", "Some metals can be recycled; one example is aluminium."]
+  ]},
+  {"id": "contrast-cause", "type": "table", "title": "对比与因果", "cols": ["类别", "表达", "例句"], "rows": [
+   ["对比", "however", "The first sample was dry; however, the second was damp."],
+   ["对比", "in contrast", "The upper layer is coarse; in contrast, the lower layer is fine."],
+   ["对比", "whereas", "Sand drains quickly, whereas clay retains water longer."],
+   ["对比", "on the other hand", "The first method is quick. On the other hand, the second is more detailed."],
+   ["因果", "because", "The soil dried because the temperature rose."],
+   ["因果", "as a result", "The temperature rose; as a result, the soil dried."],
+   ["因果", "leads to", "Increased heat leads to faster evaporation."],
+   ["因果", "is due to", "The change is due to increased heat."]
+  ]},
+  {"id": "correction-conclusion", "type": "table", "title": "修正与结论", "cols": ["类别", "表达", "例句"], "rows": [
+   ["修正", "rather", "The sample was not clay but rather fine sand."],
+   ["修正", "more precisely", "The change occurred in spring, more precisely in April."],
+   ["修正", "I should say", "The count was fifteen; I should say fifty."],
+   ["修正", "to be precise", "The distance was about a kilometre, or 900 metres to be precise."],
+   ["结论", "therefore", "Both samples were dry; therefore, neither contained visible moisture."],
+   ["结论", "in conclusion", "In conclusion, the observations support the proposed explanation."],
+   ["结论", "to sum up", "To sum up, the two methods measure different features."],
+   ["结论", "overall", "Overall, the results suggest a decline in the count."]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["signal"], "groups": [
+   {"audio": {"lines": [{"who": "A", "text": "A habitat refers to the place where an organism lives."}]}, "items": [{"stem": "What relationship does 'refers to' introduce here?", "options": ["A definition", "An example", "A contrast", "A correction"], "answer": 0, "why": "refers to 后面解释 habitat 的意思，属于定义，即第一项。", "point": "signal"}]},
+   {"audio": {"lines": [{"who": "A", "text": "Some metals can be recycled. For instance, aluminium can be recycled."}]}, "items": [{"stem": "What relationship does 'for instance' introduce here?", "options": ["A definition", "An example", "A conclusion", "A contrast"], "answer": 1, "why": "for instance 后的 aluminium 是可回收金属的例子。", "point": "signal"}]},
+   {"audio": {"lines": [{"who": "A", "text": "The first sample was dry. However, the second was damp."}]}, "items": [{"stem": "What relationship does 'however' introduce here?", "options": ["A cause", "A definition", "A contrast", "An example"], "answer": 2, "why": "however 连接干燥与潮湿两种不同状态，表示对比。", "point": "signal"}]},
+   {"audio": {"lines": [{"who": "A", "text": "The count was fifteen; I should say fifty."}]}, "items": [{"stem": "What relationship does 'I should say' introduce here?", "options": ["A cause", "A conclusion", "An example", "A correction"], "answer": 3, "why": "I should say 后的 fifty 修正先前的 fifteen。", "point": "signal"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["function"], "groups": [
+   {"audio": {"lines": [{"who": "A", "text": "Some insects visit flowers. For example, bees collect nectar there."}]}, "items": [{"stem": "What role does the statement about bees play?", "options": ["It defines what a flower-visiting insect is.", "It gives an instance of flower-visiting insects.", "It corrects the earlier claim about insects.", "It draws a conclusion about all flower visitors."], "answer": 1, "why": "for example 后面的 bees 是访花昆虫中的一个实例，即第二项。", "point": "function"}]},
+   {"audio": {"lines": [{"who": "A", "text": "Both samples were dry. Therefore, neither contained visible moisture."}]}, "items": [{"stem": "What role does the statement after 'therefore' play?", "options": ["It offers an example of a dry sample.", "It corrects the description of the samples.", "It draws a conclusion from the observation.", "It explains why the samples became dry."], "answer": 2, "why": "Both samples were dry 是观察，therefore 后面是由此得出的结论，即第三项。", "point": "function"}]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["signal", "function"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"lines": [{"who": "A", "text": "In this study, density means the number of plants per unit area."}]}, "items": [{"stem": "What relationship does 'means' introduce here?", "options": ["A definition", "A contrast", "A correction", "An example"], "answer": 0, "why": "means 后说明本研究中 density 的含义。", "point": "signal"}]},
+   {"audio": {"lines": [{"who": "A", "text": "The first soil was coarse. In contrast, the second was fine."}]}, "items": [{"stem": "What relationship does 'in contrast' introduce here?", "options": ["A conclusion", "A difference", "A cause", "A definition"], "answer": 1, "why": "in contrast 前后是两种不同的土壤质地，表示两者的差别，即第二项。", "point": "signal"}]},
+   {"audio": {"lines": [{"who": "A", "text": "The container warmed; as a result, the ice melted."}]}, "items": [{"stem": "What relationship does 'as a result' introduce here?", "options": ["A correction", "An example", "An effect", "A definition"], "answer": 2, "why": "as a result 后面的 the ice melted 是容器升温带来的结果，即第三项。", "point": "signal"}]},
+   {"audio": {"lines": [{"who": "A", "text": "The meeting took place in May, more precisely on the fifth of May."}]}, "items": [{"stem": "What relationship does 'more precisely' introduce here?", "options": ["A contrast", "A cause", "An example", "A correction"], "answer": 3, "why": "more precisely 把 in May 说得更准确：on the fifth of May。这属于修正，即第四项。", "point": "signal"}]},
+   {"text": "Several materials absorb water. For example, paper absorbs it.", "items": [{"stem": "What role does the statement about paper play?", "options": ["It illustrates a general statement.", "It defines the term material.", "It corrects a previous observation.", "It concludes the statement about materials."], "answer": 0, "why": "for example 后面的 paper 是吸水材料的一个实例，用来说明前一句的概括，即第一项。", "point": "function"}]},
+   {"text": "The two readings were identical. Therefore, their difference was zero.", "items": [{"stem": "What role does the statement after 'therefore' play?", "options": ["It gives an example of a reading.", "It draws a conclusion from the readings.", "It replaces one reading with another.", "It explains why the two readings were identical."], "answer": 1, "why": "The two readings were identical 是依据，therefore 后面得出差值为零的结论，即第二项。", "point": "function"}]},
+   {"text": "The upper layer is coarse, whereas the lower layer is fine.", "items": [{"stem": "What role does the statement about the lower layer play?", "options": ["It explains the cause of both layers.", "It gives an example of an upper layer.", "It contrasts with the coarse upper layer.", "It revises the description of the upper layer."], "answer": 2, "why": "whereas 把下层的 fine 和上层的 coarse 相对比，即第三项。", "point": "function"}]},
+   {"text": "The sample was clay—or rather, it was fine sand.", "items": [{"stem": "What role does 'fine sand' play?", "options": ["It gives an example of clay.", "It states that clay and sand are both present.", "It concludes that both descriptions are equivalent.", "It replaces the earlier description."], "answer": 3, "why": "or rather 后面的 fine sand 取代了前面的 clay，属于修正，即第四项。", "point": "function"}]}
+  ]}]}
+ ]
+}

@@ -1,0 +1,218 @@
+{
+  "id": "reading-careful",
+  "title": "仔细阅读 · 练习",
+  "goal": "依据全文与局部信息，准确判断主旨、细节和有限推断。",
+  "skill": "reading",
+  "exam": "大学英语四级（CET-4）",
+  "points": [
+    {
+      "id": "detail",
+      "label": "准确定位并核对事实"
+    },
+    {
+      "id": "main",
+      "label": "概括全文核心判断"
+    },
+    {
+      "id": "inference",
+      "label": "依据原文作有限推断"
+    }
+  ],
+  "sources": [
+    {
+      "id": "c1",
+      "title": "CET笔试",
+      "url": "https://cet.neea.edu.cn/html1/folder/16113/1586-1.htm",
+      "used": "考试题型、题量与时间。"
+    },
+    {
+      "id": "c2",
+      "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+      "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+      "used": "材料长度、作答形式与总体评分描述；练习材料为原创。"
+    },
+    {
+      "id": "c3",
+      "title": "分数解释",
+      "url": "https://cet.neea.edu.cn/html1/folder/19081/5124-1.htm",
+      "used": "报道分与卷面权重的区别。"
+    }
+  ],
+  "cards": [
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "小测",
+      "minutes": 9,
+      "points": [
+        "detail",
+        "main",
+        "inference"
+      ],
+      "pass": 0.8,
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "label": "Read the passage and choose the best answer.",
+              "look": "passage",
+              "text": "Many people judge a public service by how quickly it completes a transaction. A short queue is certainly welcome. Yet speed alone may provide a misleading picture of whether a service is working well. A visitor can leave a counter in two minutes and still have no idea what to do next.\n\nConsider a college office that helps students apply for financial support. In an imagined trial, staff replaced individual explanations with a printed checklist. Average appointment times fell, and the office initially regarded the change as a success. However, students whose family circumstances did not fit the standard examples began returning with the same unanswered questions. Each visit was shorter, but some students needed several visits to finish one application.\n\nThe difficulty was not that written guidance was useless. Most applicants found the checklist convenient, and staff no longer had to repeat basic information. The problem was treating the average length of a visit as a complete measure of quality. It counted each appointment separately, while students cared about completing the whole process. A system could therefore look efficient precisely because it passed unresolved work back to its users.\n\nA better assessment would combine several kinds of evidence. The office could count how many applications were completed without a second visit, ask students whether the instructions were clear, and keep track of cases requiring individual advice. None of these measures would be perfect. A complicated case might take longer even when the service was excellent, and a satisfied visitor might still have misunderstood a rule.\n\nThe purpose of measurement should be to help staff investigate such differences, not to make every encounter identical. Fast service and thoughtful service need not be enemies. Written guidance can handle routine questions while staff spend more time on unusual situations. What matters is whether the arrangement helps people reach their actual goal, rather than merely moving them away from the counter.",
+              "items": [
+                {
+                  "stem": "What is the author's main argument?",
+                  "options": [
+                    "Short appointments always produce better public services.",
+                    "Written instructions should replace personal advice.",
+                    "Service quality should be judged by outcomes as well as speed.",
+                    "Visitors should be responsible for solving unusual problems."
+                  ],
+                  "answer": 2,
+                  "why": "首尾均指出速度不能完整反映服务效果，应看使用者是否完成实际目标；作者没有否定书面指引。",
+                  "point": "main"
+                },
+                {
+                  "stem": "Why did some students return to the office?",
+                  "options": [
+                    "Their circumstances were not covered by the standard examples.",
+                    "They wanted the office to shorten its checklist.",
+                    "They had completed their applications too quickly.",
+                    "They preferred to discuss rules unrelated to financial support."
+                  ],
+                  "answer": 0,
+                  "why": "第二段说明家庭情况不符合标准示例的学生仍有问题未解决，因此再次来访。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "What does 'passed unresolved work back to its users' mean in the passage?",
+                  "options": [
+                    "Asked students to help staff write new checklists.",
+                    "Required staff to explain every rule several times.",
+                    "Allowed visitors to choose their appointment times.",
+                    "Left users to deal with difficulties the service had not resolved."
+                  ],
+                  "answer": 3,
+                  "why": "前文的短预约未解决个别情况，学生需反复来访；此处指把未解决的问题留给使用者承担。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "What can be inferred about a long appointment?",
+                  "options": [
+                    "It proves that written guidance is poorly designed.",
+                    "It may be appropriate for a complicated case.",
+                    "It shows that the visitor has understood every rule.",
+                    "It should be divided into several shorter visits."
+                  ],
+                  "answer": 1,
+                  "why": "第四段说复杂个案即使得到优质服务也可能耗时较长，所以不能只按时长判定低效。",
+                  "point": "inference"
+                },
+                {
+                  "stem": "Why does the author discuss the imagined college trial?",
+                  "options": [
+                    "To show why speed can give an incomplete picture of improvement.",
+                    "To report a confirmed nationwide fall in service quality.",
+                    "To prove that students dislike receiving written information.",
+                    "To recommend using one identical procedure for every applicant."
+                  ],
+                  "answer": 0,
+                  "why": "该例展示单次时长下降却仍需重复来访的矛盾；它是设想案例，并非全国调查结果。",
+                  "point": "inference"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "label": "Read the passage and choose the best answer.",
+              "look": "passage",
+              "text": "A neighborhood noticeboard may seem like an old-fashioned way to share information. Digital groups can distribute a message instantly, while a sheet of paper must be carried to a particular place. Nevertheless, choosing between the two is not simply a matter of choosing the faster technology. Different channels reach different people and encourage different kinds of attention.\n\nImagine a residents' association announcing a weekend repair workshop. In its online group, the message quickly moves below photographs, questions about deliveries, and discussions of parking. Members who check frequently see it, but those who open the group less often may miss it. A poster beside the entrance remains visible for a week. People cannot reply to it immediately, yet they may notice it repeatedly while passing through the building.\n\nThe two channels also have different limits. A poster cannot easily explain a change made an hour before the workshop. An online message can be updated at once, but only people with access to the group will receive it. Neither channel, by itself, guarantees that everyone has the information they need. Repeating identical messages everywhere is not always the answer either, since too many notices can make important information harder to distinguish.\n\nThe association might instead give each channel a clear role. The poster could carry the event's purpose, date, location, and a telephone number for questions. The online group could provide reminders and report changes. At the workshop, organizers could ask attendees where they first heard about it. They would then have some evidence about which routes were useful, rather than assuming that the newest method reached everyone.\n\nSuch an approach treats communication as a practical design problem. It asks who needs to know something, where those people are likely to look, and how urgently the information may change. Paper is not automatically more inclusive, nor is a digital message automatically more effective. Good communication depends on matching a channel to a specific need and checking whether the intended audience was actually reached.",
+              "items": [
+                {
+                  "stem": "What is the main idea of the passage?",
+                  "options": [
+                    "Paper notices should replace neighborhood digital groups.",
+                    "Communication channels should be chosen to suit people and purposes.",
+                    "Digital messages guarantee that all residents receive information.",
+                    "Every event should be advertised through as many channels as possible."
+                  ],
+                  "answer": 1,
+                  "why": "全文比较两种渠道的用途和限制，主张按对象与信息需求选择，并核对是否真正触达。",
+                  "point": "main"
+                },
+                {
+                  "stem": "Why might some online group members miss the workshop message?",
+                  "options": [
+                    "The group does not allow messages about repairs.",
+                    "The message can only be opened at the building entrance.",
+                    "They have already seen the same information on a poster.",
+                    "New messages may push it below other content before they check."
+                  ],
+                  "answer": 3,
+                  "why": "第二段说明消息会被照片、快递与停车讨论挤到下方；不常查看的人可能错过。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "What limitation of a poster does the author identify?",
+                  "options": [
+                    "It cannot remain visible for more than a day.",
+                    "It requires residents to join an online group.",
+                    "It cannot easily communicate a last-minute change.",
+                    "It prevents readers from asking questions by telephone."
+                  ],
+                  "answer": 2,
+                  "why": "第三段指出活动前一小时的变更不易通过纸质海报传达；海报仍可提供联系电话。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "What is the author's attitude toward using both channels?",
+                  "options": [
+                    "Supportive when each channel has a clear role.",
+                    "Opposed because all repeated information is harmful.",
+                    "Certain that it will reach every resident.",
+                    "Interested only if no telephone number is provided."
+                  ],
+                  "answer": 0,
+                  "why": "第四段分别安排海报和线上群的职责，支持有分工的配合；并未保证覆盖所有居民。",
+                  "point": "inference"
+                },
+                {
+                  "stem": "What can be inferred from the suggestion to question attendees?",
+                  "options": [
+                    "The association already knows which method works best.",
+                    "Feedback can help assess assumptions about how people receive notices.",
+                    "Only online group members should attend the workshop.",
+                    "Organizers should stop posting printed notices immediately."
+                  ],
+                  "answer": 1,
+                  "why": "询问参与者信息来源能提供渠道实际作用的证据，避免凭技术新旧作判断。",
+                  "point": "inference"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "more": {
+        "kind": "careful",
+        "topics": [
+          "公共服务的效率与效果",
+          "信息传播渠道的选择",
+          "团队如何利用反馈",
+          "校园空间的使用",
+          "维修与替换的选择",
+          "学习计划的调整",
+          "数字记录与纸质记录",
+          "公共设施的维护",
+          "志愿服务的持续性",
+          "日常决策中的默认选项",
+          "活动评价的指标",
+          "社区合作的条件"
+        ]
+      }
+    }
+  ]
+}

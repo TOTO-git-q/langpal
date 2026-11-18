@@ -1,0 +1,366 @@
+{
+ "id": "reading-careful-purpose",
+ "title": "写作目的与例证题",
+ "goal": "判断全文写作目的，并确定例子与论点的关系。",
+ "skill": "阅读",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "purpose",
+   "label": "判断全文的写作目的"
+  },
+  {
+   "id": "function",
+   "label": "确定例子与所支持论点的关系"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "阅读理解的教学依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "写作目的题常问 What is the purpose of the passage。例证题常问 Why does the author mention 某个例子。前者问全文的作用，后者问一个例子支持哪个论点。"
+    },
+    {
+     "box": "Small changes can make a room easier to use. For example, a lower shelf lets children reach books.\nWhy does the author mention a lower shelf? To illustrate a useful small change."
+    },
+    {
+     "p": "低书架是一个具体措施，用来说明前一句的 small changes。正确选项要说出例子所支持的论点。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　判断题目范围",
+     "d": "全文目的题先看开头、结尾和各段的中心句。例证题先在原文找到题目所说的例子。"
+    },
+    {
+     "t": "2　确定论述关系",
+     "d": "读例子前后的概括句。判断这段材料是在介绍对象、解释过程、支持观点，还是反驳某种说法。"
+    },
+    {
+     "t": "3　核对选项作用",
+     "d": "比较选项的动词与例子在文中的实际作用。只复述例子内容的选项不选，正确选项要联系例子所证明的观点。"
+    }
+   ]
+  },
+  {
+   "id": "functions",
+   "type": "table",
+   "title": "论述功能",
+   "cols": [
+    "功能",
+    "例句",
+    "作用"
+   ],
+   "rows": [
+    [
+     "介绍",
+     "A repair cafe is a place where volunteers help people mend objects.",
+     "引入 repair cafe 这一对象。"
+    ],
+    [
+     "解释",
+     "A fan moves air across wet cloth; the moving air helps the cloth dry.",
+     "说明空气流动如何帮助干燥。"
+    ],
+    [
+     "支持",
+     "Shared tools save space. One street keeps a single ladder for several homes.",
+     "用共用梯子支持节省空间的观点。"
+    ],
+    [
+     "反驳",
+     "Some say a small garden cannot supply food. One small garden supplies vegetables to a nearby kitchen.",
+     "用一个实例反驳 cannot 这种绝对的说法。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A clear label can prevent mistakes. At one workshop, red labels identify tools that need repair, so workers do not lend them out.\nWhy does the author mention red labels?\n1. To show how labeling can prevent an error\n2. To describe how a workshop repairs its tools\n3. To explain why workers often lend out tools\n4. To show that only red labels prevent mistakes"
+    },
+    {
+     "p": "依据：首句 A clear label can prevent mistakes 是论点。红色标签让工人不再借出待修的工具，是支持这一论点的实例，即第一项。第四项把 A clear label 扩大成了 only red labels。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "复述事实",
+     "红色标签用来标出待修的工具。",
+     "只复述了例子，没有联系防止错误的论点。"
+    ],
+    [
+     "扩大范围",
+     "只有红色标签才能防止错误。",
+     "原文说的是 A clear label，没有说只有红色。"
+    ],
+    [
+     "功能颠倒",
+     "把支持标签的例子说成反驳标签。",
+     "看例子与论点的方向是否一致。"
+    ],
+    [
+     "局部代替全文",
+     "用一种工具的情况概括全文。",
+     "全文目的要覆盖各段的内容。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "purpose",
+    "function"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A seed library lets people borrow seeds, grow plants, and return seeds from a later harvest. It gives a community a way to share planting materials.",
+     "items": [
+      {
+       "stem": "What is the main purpose of the passage?",
+       "options": [
+        "To introduce a way for a community to share seeds",
+        "To argue that borrowed seeds cannot be returned",
+        "To explain how to grow plants for a later harvest",
+        "To argue that every community needs a seed library"
+       ],
+       "answer": 0,
+       "why": "依据：首句说明种子图书馆怎样运作，第二句说它 gives a community a way to share planting materials。全文在介绍一种共享种子的方式，即第一项。",
+       "point": "purpose"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Some say that a meeting must be long to be useful. A ten-minute meeting helped one team divide its tasks clearly, showing that length alone does not determine value.",
+     "items": [
+      {
+       "stem": "Why does the author mention the ten-minute meeting?",
+       "options": [
+        "To show how one team divided its tasks clearly",
+        "To challenge a common claim about meeting length",
+        "To prove that short meetings are always more useful",
+        "To support the view that useful meetings must be long"
+       ],
+       "answer": 1,
+       "why": "依据：首句 Some say that a meeting must be long to be useful 是别人的说法，末句 length alone does not determine value 是作者的结论。十分钟会议是反驳这一说法的实例，即第二项。",
+       "point": "function"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "A draft enters through the gap beneath the door. A strip placed across the gap reduces the flow of air into the room.",
+     "items": [
+      {
+       "stem": "What is the main purpose of the passage?",
+       "options": [
+        "To explain how air enters under a door",
+        "To argue that a strip stops all air",
+        "To explain how a strip limits a draft",
+        "To describe how to fit a door strip"
+       ],
+       "answer": 2,
+       "why": "依据：首句说明门缝进风，第二句说挡条 reduces the flow of air into the room。全文解释挡条怎样减少进风，即第三项。第一项只说了前一半。",
+       "point": "purpose"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Small libraries can reach readers outside their buildings. One library sends a collection of books to a village hall each month.",
+     "items": [
+      {
+       "stem": "Why does the author mention the village hall?",
+       "options": [
+        "To describe how a village hall became a library",
+        "To explain why readers visit the library every month",
+        "To argue against sending books outside a library",
+        "To illustrate service beyond a library building"
+       ],
+       "answer": 3,
+       "why": "依据：首句 Small libraries can reach readers outside their buildings 是论点。每月给村庄大厅送书是这一论点的实例，即第四项。",
+       "point": "function"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "purpose",
+    "function"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A shared calendar can prevent scheduling conflicts in a small group. At a dance studio, teachers enter their planned classes in one calendar before reserving a room. They can see whether another class has already claimed the space. The calendar needs regular updates, since an old entry may cause its own confusion.",
+     "items": [
+      {
+       "stem": "Why does the author mention the dance studio?",
+       "options": [
+        "To illustrate how a shared calendar prevents conflicts",
+        "To show that old calendar entries may cause confusion",
+        "To explain how dance teachers plan their classes",
+        "To suggest that teachers should avoid shared calendars"
+       ],
+       "answer": 0,
+       "why": "依据：首句 A shared calendar can prevent scheduling conflicts 是论点。舞蹈工作室的教师订房间前先查日历，是这一论点的实例，即第一项。",
+       "point": "function"
+      },
+      {
+       "stem": "What is the main purpose of the passage?",
+       "options": [
+        "To describe how a dance studio books rooms for classes",
+        "To explain shared scheduling and a condition for it",
+        "To argue that calendar entries never become out of date",
+        "To warn that shared calendars create confusion"
+       ],
+       "answer": 1,
+       "why": "依据：前三句说明共同日历怎样避免冲突，末句指出它需要 regular updates。全文讲共同日历的用途和使用条件，即第二项。",
+       "point": "purpose"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "purpose",
+    "function"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A public notice is useful only when the people concerned can find and understand it. A town that announces a change in a building's opening hours, for example, should consider where visitors look for information. A message placed inside a locked entrance may be accurate, but it reaches people only after they have encountered the problem.\n\nOne local center moved its notice from an inside wall to a board beside the entrance. It also replaced a long paragraph with the dates and hours in a short list. The change did not alter the schedule itself. It made the schedule easier to see before visitors reached the door. Staff members continued to answer questions for people who needed more detail.\n\nClear notices still require maintenance. When the opening hours changed again, the center removed the old notice before adding the new one. Two conflicting notices could have left visitors uncertain about which schedule applied. The center also checked that its online page showed the same hours as the board. These steps show that clear communication depends on both the wording and the placement of information, as well as keeping it current.",
+       "items": [
+        {
+         "stem": "What is the main purpose of the passage?",
+         "options": [
+          "To report a change in one center's opening hours",
+          "To explain practices that make notices useful",
+          "To show that online pages work better than boards",
+          "To argue that online pages are unnecessary"
+         ],
+         "answer": 1,
+         "why": "依据：全文讲通知的位置、简短的写法和及时更新，末句说 clear communication depends on both the wording and the placement of information。全文说明怎样让通知有用，即第二项。",
+         "point": "purpose"
+        },
+        {
+         "stem": "Why does the author mention a message inside a locked entrance?",
+         "options": [
+          "To show that a notice inside gave the wrong hours",
+          "To show how a center shortened its schedule",
+          "To show how a notice can reach people too late",
+          "To prove that accurate notices need no placement"
+         ],
+         "answer": 2,
+         "why": "依据：原文说这类通知 reaches people only after they have encountered the problem。这是通知位置不当、访客看到太晚的例子，即第三项。第一项与原文的 may be accurate 相反。",
+         "point": "function"
+        },
+        {
+         "stem": "Why does the author mention removing the old notice?",
+         "options": [
+          "To show how conflicting notices can be avoided",
+          "To explain why the center closed its online page",
+          "To show how the center shortened its written notice",
+          "To explain why staff kept answering visitors' questions"
+         ],
+         "answer": 0,
+         "why": "依据：原文说 Two conflicting notices could have left visitors uncertain。先撤下旧通知，是为了避免新旧时间冲突，支持通知要及时更新的观点，即第一项。",
+         "point": "function"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "Many people assume that repairing an object is always more difficult than replacing it. The difficulty depends on the object and on the tools and instructions available. A loose handle, for instance, may need only a screwdriver, while a damaged electrical device may need a qualified repairer. Treating both jobs as identical hides this difference.\n\nA neighborhood repair event can help residents decide what to do. At one event, volunteers inspected a chair with a loose joint and showed its owner how to tighten it. They also advised another visitor to seek professional help for a damaged electrical appliance. In each case, the advice followed the condition of the object rather than a rule that every object must be repaired in the same way.\n\nSuch events need space, basic tools, and people who know their limits. They are not a substitute for every specialist service. Their value is that they give residents a place to ask questions and consider possible repairs. A useful decision may be to fix a simple fault, consult a specialist, or replace an object that cannot reasonably be repaired.",
+       "items": [
+        {
+         "stem": "What is the main purpose of the passage?",
+         "options": [
+          "To claim that every object should be repaired in the same way",
+          "To describe how volunteers fixed a loose chair joint",
+          "To explain why residents should never replace objects",
+          "To discuss repair decisions and the role of local advice"
+         ],
+         "answer": 3,
+         "why": "依据：首段说修理难度因物品而异，第二、三段说明社区修理活动怎样帮居民作决定。全文讨论修理决定和社区建议的作用，即第四项。",
+         "point": "purpose"
+        },
+        {
+         "stem": "Why does the author mention the loose handle and electrical device?",
+         "options": [
+          "To prove that both require identical tools",
+          "To illustrate that repair difficulty varies",
+          "To show that electrical devices are easy to fix",
+          "To argue against consulting qualified repairers"
+         ],
+         "answer": 1,
+         "why": "依据：前一句说 The difficulty depends on the object。把手只需要螺丝刀，损坏的电器要找专业人员，两例说明修理难度因物品而异，即第二项。",
+         "point": "function"
+        },
+        {
+         "stem": "Why does the author mention the chair and the appliance at the event?",
+         "options": [
+          "To show that advice followed each object's condition",
+          "To show that volunteers repaired every appliance",
+          "To show that volunteers repaired both objects themselves",
+          "To argue that the event replaced specialist services"
+         ],
+         "answer": 0,
+         "why": "依据：志愿者教椅子的主人自己紧固，又建议电器的主人找专业人员。原文说 the advice followed the condition of the object，即第一项。",
+         "point": "function"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

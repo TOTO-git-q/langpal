@@ -1,0 +1,63 @@
+{
+ "id": "reading-banked-endings",
+ "title": "派生词缀与词性",
+ "goal": "结合词缀和句法位置区分同根派生词。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "suffix", "label": "依据词缀辨认候选词的词性"},
+  {"id": "family", "label": "结合句法区分同根派生词"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读任务及材料范围"}],
+ "cards": [
+  {"id": "intro", "type": "text", "title": "概述", "body": [
+   {"p": "后缀通常表示词性，如 -tion 构成名词。否定前缀改变词义，如 im-、ir-。判断词性还要看空位在句中的位置。"},
+   {"p": "同根词词性不同，所在的位置也不同。decide 是动词，作谓语；decision 是名词，用在 made a 之后：They made a decision."}
+  ]},
+  {"id": "nouns", "type": "table", "title": "名词后缀", "cols": ["同根词", "词性与意义", "例句"], "rows": [
+   ["decide / decision", "动词：决定；名词：决定", "They reached a decision."],
+   ["develop / development", "动词：发展；名词：发展", "Development takes time."],
+   ["active / activity", "形容词：活跃的；名词：活动", "The activity ended early."],
+   ["aware / awareness", "形容词：意识到的；名词：意识", "The campaign raised awareness."],
+   ["collect / collection", "动词：收集；名词：收藏品", "The collection includes maps."],
+   ["inform / information", "动词：告知；名词：信息", "The guide provides information."],
+   ["preserve / preservation", "动词：保存；名词：保存", "Preservation requires care."]
+  ]},
+  {"id": "adjectives", "type": "table", "title": "形容词后缀", "cols": ["同根词", "词性与意义", "例句"], "rows": [
+   ["effect / effective", "名词：效果；形容词：有效的", "The filter is effective."],
+   ["danger / dangerous", "名词：危险；形容词：危险的", "The road is dangerous."],
+   ["culture / cultural", "名词：文化；形容词：文化的", "The museum holds cultural events."],
+   ["rely / reliable", "动词：依赖；形容词：可靠的", "The source is reliable."]
+  ]},
+  {"id": "adverbs", "type": "table", "title": "副词与否定前缀", "cols": ["同根词", "词性与意义", "例句"], "rows": [
+   ["careful / carefully", "形容词：仔细的；副词：仔细地", "She checked carefully."],
+   ["rapid / rapidly", "形容词：迅速的；副词：迅速地", "The river rose rapidly."],
+   ["possible / impossible", "形容词：可能的／不可能的", "The task is impossible without tools."],
+   ["regular / irregular", "形容词：规则的／不规则的", "The intervals are irregular."]
+  ], "note": "-ly 结尾的词多是副词。friendly、likely 是形容词：a friendly neighbour，a likely result。"},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["suffix"], "groups": [{"items": [
+   {"stem": "Which word is a noun?", "options": ["develop", "development", "developing", "developed"], "answer": 1, "why": "development 的后缀 -ment 构成名词，即第二项。", "point": "suffix"},
+   {"stem": "Which word means 'not regular'?", "options": ["regularity", "regularly", "irregular", "regulate"], "answer": 2, "why": "ir- 表示否定；irregular 意为不规则的，即第三项。", "point": "suffix"}
+  ]}]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["family"], "groups": [{"items": [
+   {"stem": "Which word completes 'The committee made a final ___'?", "options": ["decision", "decide", "decisive", "decisively"], "answer": 0, "why": "a final 后需要名词 decision，即第一项。", "point": "family"},
+   {"stem": "Which word completes 'The team worked ___ on the design'?", "options": ["care", "careful", "carefulness", "carefully"], "answer": 3, "why": "修饰动词 worked 用副词 carefully，即第四项。", "point": "family"}
+  ]}]},
+  {"id": "check-three", "type": "check", "title": "练习三", "points": ["suffix", "family"], "groups": [{"items": [
+   {"stem": "Which word is an adjective despite ending in -ly?", "options": ["rapidly", "carefully", "friendly", "closely"], "answer": 2, "why": "friendly 是形容词，例如 a friendly neighbour，即第三项。", "point": "suffix"},
+   {"stem": "Which word completes 'The warning increased public ___ of the problem'?", "options": ["aware", "awareness", "unaware", "awaken"], "answer": 1, "why": "public 修饰名词 awareness，即第二项。", "point": "family"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["suffix", "family"], "sets": [{"id": "set-a", "groups": [
+   {"fill": "A local archive preserves maps. The colle{ction} contains infor{mation} about devel{opment} of cult{ural} heritage. Preser{vation} requires car{eful} storage; acti{vity} raises awar{eness} of dang{erous} conditions. Deci{sions} reflect the condition of the materials. Staff examine old maps and record damage to the paper. They then choose suitable covers and shelves. Visitors use copies in the reading room, while the original maps remain in storage. Staff review their records regularly so that changes in the documents can be detected over time.", "tags": ["suffix", "family", "suffix", "suffix", "suffix", "family", "suffix", "family", "family", "family"]},
+   {"items": [
+    {"stem": "Which word is a noun formed from 'active'?", "options": ["activate", "activity", "actively", "inactive"], "answer": 1, "why": "activity 是名词，表示活动，即第二项。", "point": "suffix"},
+    {"stem": "Which word expresses the negative of 'possible'?", "options": ["possibility", "possibly", "impossible", "impossibly"], "answer": 2, "why": "impossible 由否定前缀 im- 加 possible 构成，意为不可能的，即第三项。第四项 impossibly 是副词。", "point": "suffix"},
+    {"stem": "Which word is an adjective?", "options": ["culturally", "culture", "cultivate", "cultural"], "answer": 3, "why": "cultural 是形容词，表示文化的，即第四项。", "point": "suffix"},
+    {"stem": "Which word completes 'The engineers chose a ___ source of power'?", "options": ["reliable", "rely", "reliance", "reliably"], "answer": 0, "why": "source 前需要形容词 reliable，即第一项。", "point": "family"},
+    {"stem": "Which word completes 'The instructions explain the ___ of the device'?", "options": ["effective", "effectual", "effectively", "effectiveness"], "answer": 3, "why": "the 后可用名词 effectiveness，表示设备的有效性，即第四项。", "point": "family"},
+    {"stem": "Which word completes 'The population grew ___ during the period'?", "options": ["rapid", "rapidity", "rapidly", "rapidness"], "answer": 2, "why": "副词 rapidly 修饰 grew，即第三项。", "point": "family"}
+   ]}
+  ]}]}
+ ]
+}

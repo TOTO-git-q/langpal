@@ -1,0 +1,91 @@
+{
+ "id": "reading-banked-change",
+ "title": "变化与数量词汇",
+ "goal": "辨认变化方向、程度及数量与比例表达。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "meaning", "label": "辨认变化方向与程度"},
+  {"id": "quantity", "label": "区分数量、比例与范围表达"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读任务及材料范围"}],
+ "cards": [
+  {"id": "intro", "type": "text", "title": "概述", "body": [
+   {"p": "变化词表明数量的方向、速度或幅度。例如 rise 表示上升，decline 表示下降。"},
+   {"p": "数量是实际多少，比例是部分占总体的份额。例如 20 students 是人数，20% of students 是比例。"},
+   {"p": "gradual 表示逐渐发生，abrupt 表示突然发生。例如 a gradual rise 与 an abrupt rise 的变化速度不同。"}
+  ]},
+  {"id": "direction", "type": "table", "title": "词汇表：增长与下降", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["increase", "v.", "增加", "Costs increased in June."],
+   ["rise", "v.", "上升", "The level rose slowly."],
+   ["grow", "v.", "增长", "The population grew."],
+   ["expand", "v.", "扩大", "The service expanded."],
+   ["gain", "n.", "增加量", "The gain was small."],
+   ["decrease", "v.", "减少", "The number decreased."],
+   ["decline", "n.", "下降", "The decline continued."],
+   ["fall", "v.", "下降", "The price fell."],
+   ["drop", "n.", "下降", "There was a drop in demand."],
+   ["reduce", "v.", "减少", "The team reduced waste."]
+  ]},
+  {"id": "degree", "type": "table", "title": "词汇表：程度与速度", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["gradual", "adj.", "逐渐的", "A gradual rise followed."],
+   ["rapid", "adj.", "迅速的", "The change was rapid."],
+   ["abrupt", "adj.", "突然的", "There was an abrupt fall."],
+   ["steady", "adj.", "平稳持续的", "The service saw steady growth."],
+   ["slight", "adj.", "轻微的", "A slight increase occurred."],
+   ["substantial", "adj.", "大量的；显著的", "The project achieved substantial savings."],
+   ["dramatic", "adj.", "急剧的；显著的", "The chart shows a dramatic rise."],
+   ["gradually", "adv.", "逐渐地", "The water level fell gradually."],
+   ["rapidly", "adv.", "迅速地", "The town grew rapidly."],
+   ["approximately", "adv.", "大约", "Approximately fifty people attended."]
+  ]},
+  {"id": "quantity", "type": "table", "title": "词汇表：比例与范围", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["amount", "n.", "数量", "The amount of water fell."],
+   ["number", "n.", "数目", "The number of visitors rose."],
+   ["proportion", "n.", "比例", "The proportion of users increased."],
+   ["percentage", "n.", "百分比", "The percentage was twenty."],
+   ["fraction", "n.", "一部分；分数", "Only a fraction remained."],
+   ["majority", "n.", "多数", "The majority supported the plan."],
+   ["minority", "n.", "少数", "A minority preferred the old route."],
+   ["range", "n.", "范围", "The range is from ten to twenty."],
+   ["total", "n.", "总数", "The total was fifty."],
+   ["average", "n.", "平均数", "The average was eight."]
+  ]},
+  {"id": "stability", "type": "table", "title": "词汇表：稳定与波动", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["stable", "adj.", "稳定的", "The number remained stable."],
+   ["constant", "adj.", "恒定的", "The temperature stayed constant."],
+   ["unchanged", "adj.", "未改变的", "The total was unchanged."],
+   ["stabilize", "v.", "趋于稳定", "Prices stabilized later."],
+   ["fluctuate", "v.", "波动", "Daily demand fluctuates."],
+   ["fluctuation", "n.", "波动", "The graph shows a fluctuation."],
+   ["vary", "v.", "变化；不同", "Costs vary by location."],
+   ["variation", "n.", "变化；差异", "There is variation between sites."],
+   ["peak", "n.", "峰值", "The peak occurred in July."],
+   ["level off", "v. phr.", "趋于平稳", "The rise levelled off."]
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["meaning"], "groups": [{"items": [
+   {"stem": "A count rises slowly over five years. Which phrase describes it?", "options": ["A gradual increase", "An abrupt fall", "A stable count", "A rapid decline"], "answer": 0, "why": "rises slowly 表示逐渐上升，即 gradual increase。", "point": "meaning"},
+   {"stem": "A price drops suddenly. Which phrase describes it?", "options": ["A steady rise", "An abrupt fall", "A gradual gain", "A constant price"], "answer": 1, "why": "drops suddenly 表示突然下降，即 abrupt fall。", "point": "meaning"}
+  ]}]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["quantity"], "groups": [{"items": [
+   {"stem": "A report states that 30 of 100 households use a service. Which expression gives a proportion?", "options": ["30 households", "100 households", "30% of households", "A total of 100"], "answer": 2, "why": "30% 表示使用服务的家庭占总体的比例。", "point": "quantity"},
+   {"stem": "Daily counts go from 12 to 18. Which expression gives the range?", "options": ["A peak of 18", "An average of 15", "A total of 30", "From 12 to 18"], "answer": 3, "why": "from 12 to 18 表示数值范围。", "point": "quantity"}
+  ]}]},
+  {"id": "check-three", "type": "check", "title": "练习三", "points": ["meaning", "quantity"], "groups": [{"look": "passage", "text": "A centre counted visitors over four months. The monthly totals were 100, 120, 140 and 140. In the final month, 70 visitors used the reading room. The rest used other services.", "items": [
+   {"stem": "How did the total change between the third and fourth months?", "options": ["It remained unchanged.", "It fell gradually.", "It rose abruptly.", "It fluctuated daily."], "answer": 0, "why": "第三和第四个月均为 140，数量保持不变。", "point": "meaning"},
+   {"stem": "What proportion used the reading room in the final month?", "options": ["One quarter", "One half", "Three quarters", "Seventy percent"], "answer": 1, "why": "最后一个月共 140 人，70 人使用阅览室，占一半，即第二项。第四项把 70 当成了 100 人中的份额。", "point": "quantity"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["meaning", "quantity"], "sets": [{"id": "set-a", "groups": [
+   {"fill": "Residents tracked daily water use. Their rec{ords} showed a gra{dual} decline i{n} the amo{unt} used. T{he} number o{f} households rema{ined} stable, wh{ile} the ave{rage} amount fe{ll} over several months. The residents compared figures from the same months in different years. They also noted changes in the number of people living in each home. The group used the figures to discuss possible reasons for the decline, while recognizing that the records alone could not establish a cause. They planned to continue recording water use.", "tags": ["quantity", "meaning", "quantity", "quantity", "quantity", "quantity", "meaning", "meaning", "quantity", "meaning"]},
+   {"items": [
+    {"stem": "A value moves up and down repeatedly. Which verb describes it?", "options": ["Fluctuate", "Stabilize", "Decline", "Expand"], "answer": 0, "why": "反复上下变化是 fluctuate。", "point": "meaning"},
+    {"stem": "After a sudden rise, a figure stops changing. What has it done?", "options": ["Fallen gradually", "Levelled off", "Risen rapidly", "Declined abruptly"], "answer": 1, "why": "上升后停止变化是 levelled off。", "point": "meaning"},
+    {"stem": "A total goes from 200 to 180 in one day. Which description fits?", "options": ["A gradual increase", "An unchanged total", "An abrupt decrease", "A steady gain"], "answer": 2, "why": "总数在一天内下降，对应 abrupt decrease。", "point": "meaning"},
+    {"stem": "Which expression gives the actual count rather than a proportion?", "options": ["A third of users", "Twenty percent of users", "A majority of users", "Twenty users"], "answer": 3, "why": "twenty users 给出实际人数。", "point": "quantity"},
+    {"stem": "A group has 40 members, and 10 attend a meeting. What fraction attends?", "options": ["One quarter", "One half", "Three quarters", "One tenth"], "answer": 0, "why": "40 人中有 10 人出席，占四分之一，即第一项。", "point": "quantity"},
+    {"stem": "Measurements extend from 5 to 9 units. Which phrase reports their range?", "options": ["An average of 5", "From 5 to 9 units", "A total of 9", "A peak of 9 units"], "answer": 1, "why": "from 5 to 9 units 给出数值范围。", "point": "quantity"}
+   ]}
+  ]}]}
+ ]
+}

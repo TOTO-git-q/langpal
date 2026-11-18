@@ -1,0 +1,407 @@
+{
+ "id": "writing-agreement",
+ "title": "主语与谓语的一致",
+ "goal": "找出决定谓语形式的主语；选择与主语一致的谓语。",
+ "skill": "写作",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "subject",
+   "label": "找出决定谓语形式的主语"
+  },
+  {
+   "id": "verb",
+   "label": "选择与主语一致的谓语"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语四级（CET-4）：课表",
+   "url": "docs/syllabi/cet4.md",
+   "used": "主语与谓语的一致的教学范围、知识点及写作小测规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "谓语的形式看主语中心词的单复数，不看离动词最近的名词。介词短语里的复数名词不影响谓语。"
+    },
+    {
+     "box": "The folder with the revised schedules belongs to the coordinator of the student exchange."
+    },
+    {
+     "p": "folder 是单数，with the revised schedules 是修饰语，所以用 belongs。一般现在时中，主语是第三人称单数，实义动词加 -s。be 用 is，have 用 has。"
+    }
+   ]
+  },
+  {
+   "id": "subjects",
+   "type": "table",
+   "title": "主语的类别",
+   "cols": [
+    "类别",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "单数可数名词",
+     "第三人称单数作主语，用单数谓语。",
+     "The volunteer checks every application before the office begins assigning rooms for the summer program."
+    ],
+    [
+     "复数可数名词",
+     "复数主语用复数谓语，实义动词用原形。",
+     "The volunteers check every application before the office begins assigning rooms for the summer program."
+    ],
+    [
+     "不可数名词",
+     "information、advice、equipment 等作主语，谓语用单数。",
+     "The equipment in the recording rooms requires regular inspection before students begin their practical work."
+    ],
+    [
+     "动名词短语",
+     "动名词短语表示一项活动，谓语用单数。",
+     "Keeping records of group expenses helps members understand how their shared money is used."
+    ],
+    [
+     "动名词与宾语",
+     "动名词后的复数宾语不影响谓语，谓语仍用单数。",
+     "Comparing several possible routes takes time when a class is planning a field visit."
+    ]
+   ]
+  },
+  {
+   "id": "intervening",
+   "type": "table",
+   "title": "修饰语与主语中心词",
+   "cols": [
+    "情况",
+    "例句",
+    "判断依据"
+   ],
+   "rows": [
+    [
+     "of 后为复数",
+     "The quality of the student reports depends on clear evidence and careful explanation of results.",
+     "quality 决定 depends，reports 是介词宾语。"
+    ],
+    [
+     "of 后为单数",
+     "The pages of the handbook contain useful descriptions of the services available on campus.",
+     "pages 决定 contain，handbook 不决定谓语。"
+    ],
+    [
+     "with 后为复数",
+     "The assistant with the printed forms waits beside the office entrance during registration.",
+     "assistant 决定 waits，不受 forms 影响。"
+    ],
+    [
+     "不可数名词被修饰",
+     "The advice from several experienced students is useful for newcomers planning their first term.",
+     "advice 不可数，用 is；students 是介词宾语。"
+    ]
+   ]
+  },
+  {
+   "id": "quantifiers",
+   "type": "table",
+   "title": "each 与 number",
+   "cols": [
+    "结构",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "each + 单数名词",
+     "each 指每一个，谓语用单数。",
+     "Each applicant receives a confirmation message after the department checks the submitted registration form."
+    ],
+    [
+     "each of + 复数名词",
+     "主语是 each，谓语用单数。",
+     "Each of the participants has a separate locker for storing materials during the workshop."
+    ],
+    [
+     "a number of + 复数名词",
+     "表示若干人或物，谓语用复数。",
+     "A number of students have questions about the arrangement of the practical assessment sessions."
+    ],
+    [
+     "the number of + 复数名词",
+     "主语是 number，表示数量，谓语用单数。",
+     "The number of students has increased since the department introduced the new evening course."
+    ],
+    [
+     "each 位于复数主语之后",
+     "主语是 students，each 放在后面，谓语用复数。",
+     "The students each have a printed schedule showing the times of their individual appointments."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The student newspaper is reviewing its submission system. Several editors check articles, while one coordinator keeps the master list. Draft: The list of available editors are on the shared drive. The writer wants to describe the location of the list, rather than the location of the editors."
+    },
+    {
+     "p": "主语是 The list of available editors，中心词 list 是单数，所以用 is。of available editors 说明名单的内容。"
+    },
+    {
+     "box": "The list of available editors is on the shared drive for contributors to consult."
+    },
+    {
+     "p": "主语是 The available editors 时才用 are。作者要说的是名单的位置，所以改的是谓语，不是主语。"
+    }
+   ]
+  },
+  {
+   "id": "check-short",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "subject",
+    "verb"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Which word controls agreement in 'The box of donated pens is near the office door'?",
+       "options": [
+        "box",
+        "pens",
+        "office",
+        "door"
+       ],
+       "answer": 0,
+       "why": "The box of donated pens 的中心词是 box，pens 是 of 的宾语。",
+       "point": "subject"
+      },
+      {
+       "stem": "Choose the correct present-simple pair: The guide ___ the route; the visitors ___ the guide.",
+       "options": [
+        "explain / follows",
+        "explains / follow",
+        "explains / follows",
+        "explain / follow"
+       ],
+       "answer": 1,
+       "why": "guide 单数对应 explains，visitors 复数对应 follow。",
+       "point": "verb"
+      },
+      {
+       "stem": "Which subject requires singular agreement when describing one activity?",
+       "options": [
+        "The workshop assistants",
+        "The students with notebooks",
+        "Preparing the weekly notices",
+        "Several notices on the board"
+       ],
+       "answer": 2,
+       "why": "Preparing the weekly notices 是动名词短语，表示一项活动，用单数。notices 只是它的宾语。",
+       "point": "subject"
+      },
+      {
+       "stem": "Use the present-simple form of 'have': Each of the practice rooms ___ a visible emergency notice beside its door.",
+       "accept": [
+        "has"
+       ],
+       "why": "主语是 each，用 has。of 后的复数 rooms 不影响谓语。",
+       "point": "verb"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-context",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "subject",
+    "verb"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A campus lending desk is recording requests for musical scores. Several students ask about the same collection. The number of requests is recorded at the end of each afternoon. Advice from the music teachers is kept beside the request forms. Checking the forms helps staff find missing details before lending begins.",
+     "items": [
+      {
+       "stem": "Why does 'Checking the forms helps staff' use 'helps'?",
+       "options": [
+        "The noun staff comes right after helps and is counted as a singular group.",
+        "The subject of helps is the lending desk named in the first sentence.",
+        "The plural noun forms is an object, and objects are counted as singular.",
+        "Checking the forms names one whole activity, so it is a singular subject."
+       ],
+       "answer": 3,
+       "why": "Checking the forms 是动名词短语，表示一项活动，所以用 helps，即第四项。forms 只是 Checking 的宾语。",
+       "point": "subject"
+      },
+      {
+       "stem": "Describe the role of the teachers' advice.",
+       "lead": "The advice",
+       "chunks": [
+        "from the music teachers",
+        "is",
+        "useful",
+        "for"
+       ],
+       "tail": "the lending staff.",
+       "extra": [
+        "are"
+       ],
+       "why": "advice 不可数，from the music teachers 不影响 is。",
+       "point": "verb"
+      },
+      {
+       "stem": "Use the present-simple form of 'be': A number of requests ___ incomplete when they first reach the lending desk.",
+       "accept": [
+        "are"
+       ],
+       "why": "A number of requests 表示若干申请，按复数用 are。",
+       "point": "verb"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "subject",
+    "verb"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A campus telescope club maintains an equipment register. The register lists cases, lenses, and stands separately. Members update the record after each observation session. The collection of lenses is kept in a locked drawer. Each of the storage cases has a label, and the equipment receives a monthly inspection.",
+       "items": [
+        {
+         "stem": "In 'The collection of lenses is kept in a locked drawer', which word determines agreement with 'is'?",
+         "options": [
+          "collection",
+          "lenses",
+          "drawer",
+          "equipment"
+         ],
+         "answer": 0,
+         "why": "The collection of lenses 的中心词是 collection，lenses 是 of 的宾语。",
+         "point": "subject"
+        },
+        {
+         "stem": "Choose the present-simple pair: The equipment ___ inspection; the storage cases ___ labels.",
+         "options": [
+          "require / has",
+          "requires / have",
+          "requires / has",
+          "require / have"
+         ],
+         "answer": 1,
+         "why": "equipment 不可数，用 requires。cases 是复数，用 have。",
+         "point": "verb"
+        },
+        {
+         "stem": "State the condition of each labeled case.",
+         "lead": "Each of",
+         "chunks": [
+          "the storage cases",
+          "is",
+          "ready",
+          "for"
+         ],
+         "tail": "inspection.",
+         "extra": [
+          "are"
+         ],
+         "why": "Each of the storage cases 的主语是 each，单数，用 is。",
+         "point": "verb"
+        },
+        {
+         "stem": "Copy the one word that determines the main verb's agreement: 'Updating the records takes several minutes after each session.'",
+         "accept": [
+          "Updating"
+         ],
+         "why": "Updating the records 是动名词短语，整项活动作主语，所以用 takes。records 是 Updating 的宾语。",
+         "point": "subject"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A student mentoring scheme records attendance at weekly meetings. A number of mentors are available for new participants. The number of participants changes during the term. Keeping records of the meetings helps the organizer plan future sessions. The organizer with the attendance sheets checks the final figures after each meeting.",
+       "items": [
+        {
+         "stem": "Which expression makes 'changes' singular in 'The number of participants changes during the term'?",
+         "options": [
+          "The plural participants following the preposition",
+          "The time expression during the term",
+          "The singular number modified by the of-phrase",
+          "The plural mentors from the preceding sentence"
+         ],
+         "answer": 2,
+         "why": "the number of 表示数量，中心词 number 决定 changes。",
+         "point": "subject"
+        },
+        {
+         "stem": "Choose the present-simple pair: A number of mentors ___ available; keeping meeting records ___ useful.",
+         "options": [
+          "is / are",
+          "is / is",
+          "are / are",
+          "are / is"
+         ],
+         "answer": 3,
+         "why": "a number of mentors 表示若干导师，用 are。keeping meeting records 是一项活动，用 is。",
+         "point": "verb"
+        },
+        {
+         "stem": "State what the organizer checks.",
+         "lead": "The organizer with the attendance sheets",
+         "chunks": [
+          "checks",
+          "the accuracy",
+          "of",
+          "the final figures"
+         ],
+         "tail": ".",
+         "extra": [
+          "check"
+         ],
+         "why": "主语中心词 organizer 是单数，用 checks。with 后的 sheets 不影响谓语。",
+         "point": "verb"
+        },
+        {
+         "stem": "Copy the subject's head noun: 'The schedules for the mentoring meetings include the names of all available mentors.'",
+         "accept": [
+          "schedules"
+         ],
+         "why": "schedules 是主语中心词，for the mentoring meetings 是修饰语。schedules 是复数，所以用 include。",
+         "point": "subject"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

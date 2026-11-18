@@ -1,0 +1,959 @@
+{
+ "id": "writing-build-sentence",
+ "title": "Build a Sentence：把打乱的词块排成一句回应",
+ "goal": "每题半分钟之内，把四到六个词块排成一句语法对、接得上前一句的话。",
+ "skill": "writing",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 写作",
+ "points": [
+  {
+   "id": "skeleton",
+   "label": "先找谓语动词，定下主语、谓语、宾语的骨架"
+  },
+  {
+   "id": "clause",
+   "label": "从句紧跟它修饰的词；间接问句用陈述语序"
+  },
+  {
+   "id": "order",
+   "label": "副词、enough / too、比较结构和形容词的固定位置"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、计分上限、测什么能力"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明和官方样题的样子"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Writing Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-writing.pdf",
+   "used": "题目说明；考场上是把词拖进空里"
+  }
+ ],
+ "cards": [
+  {
+   "id": "facts",
+   "type": "facts",
+   "title": "这道题是什么",
+   "rows": [
+    {
+     "k": "在哪",
+     "v": "写作部分的第一类题。写作部分共 12 题、约 23 分钟：Build a Sentence 10 题，Write an Email 1 题，Write for an Academic Discussion 1 题。",
+     "src": "spec 第 5 页"
+    },
+    {
+     "k": "题目给什么",
+     "v": "两句话，是两个人的一问一答。第一句是完整的；第二句的词和短语被打乱了，有的词已经放在句子里不用动。",
+     "src": "overview 第 13 页"
+    },
+    {
+     "k": "要你做什么",
+     "v": "把词和短语拖到空里，排成一句语法正确、而且接得上第一句的话。排出来的可以是陈述句，也可以是问句。",
+     "src": "overview 第 13 页；lessonplan 第 4 页"
+    },
+    {
+     "k": "怎么计分",
+     "v": "每题 1 分，全对才得分。写作部分原始分满分 20：这 10 题占 10 分，邮件 5 分，学术讨论 5 分。这类题占写作的一半。",
+     "src": "spec 第 14 页"
+    },
+    {
+     "k": "官方说它测什么",
+     "v": "对句子结构的掌握。",
+     "src": "overview 第 13 页"
+    }
+   ],
+   "note": "官方样题里，给出的词块比空多一个：有一块是用不上的。本课的题也这样出。写作部分没有给这类题单独限时；邮件 7 分钟、讨论 10 分钟之外剩下约 6 分钟，本课按 10 题 6 分钟练。（后一句是按官方的总时间算的，不是官方给的分配。）"
+  },
+  {
+   "id": "look",
+   "type": "text",
+   "title": "一道题长什么样",
+   "body": [
+    {
+     "p": "屏幕上先是一句完整的话，下面是一句有空的话，再下面是一排词块。本课里点词块就排进句子，点句子里的词块可以拿回去。"
+    },
+    {
+     "box": "Did you finish the lab report?\nI ______ ______ ______ ______ ______ .\nlunch　/　it　/　hand　/　in　/　handed　/　right after"
+    },
+    {
+     "p": "五个空，六个词块：有一块多余。答案是 I handed it in right after lunch.，多出来的是 hand（问的是 Did you，回答要用过去式）。"
+    },
+    {
+     "list": [
+      "已经放在句子里的词（这里是 I 和句号）不用动，它们是最可靠的线索：句首是什么词、句末是句号还是问号。",
+      "一个词块可能是一个词，也可能是连在一起的两三个词；连在一起的不会拆开考你。",
+      "排完整句读一遍：语法对，还要接得上第一句。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "一题怎么做",
+   "intro": "一题半分钟。顺序固定下来，就不用每题从头想。",
+   "steps": [
+    {
+     "t": "一　读第一句，看句末（3 秒）",
+     "d": "第一句是问句，回应多半是陈述句；第一句是陈述，回应可能是问句。看第二句末尾是句号还是问号，再看句首已经给出的词：是 Do / Is / Can，就是问句的语序。"
+    },
+    {
+     "t": "二　找谓语动词（5 秒）",
+     "d": "在词块里找动词。有两个形式相近的（was / were，leave / left，help / helps），其中一个是多余的：用第一句的时态和主语的单复数排除。"
+    },
+    {
+     "t": "三　把粘在一起的先粘上（10 秒）",
+     "d": "冠词和名词、介词和它后面的名词、to 和动词原形、助动词和实义动词，这些是固定连着的。先两两粘好，要排的东西就从六块变成三四块。"
+    },
+    {
+     "t": "四　排骨架，再放从句和修饰语（8 秒）",
+     "d": "主语 + 谓语 + 宾语先定。有 who / that / which 的从句，紧跟在它说的那个名词后面。时间和地点一般放句末，地点在前、时间在后。"
+    },
+    {
+     "t": "五　读一遍，看多出来的那一块（4 秒）",
+     "d": "排完应该正好剩一块。把它往句子里任何位置放一下，都不通，才对。要是剩的那块放得进去，说明前面有一处排错了。"
+    }
+   ],
+   "note": "每步后面的秒数是本课定的练习节奏，不是官方的。"
+  },
+  {
+   "id": "glue",
+   "type": "table",
+   "title": "先粘起来的六种搭配",
+   "intro": "看到左边的词，马上去找右边的词，粘成一块再排。",
+   "cols": [
+    "看到",
+    "后面紧跟",
+    "例子"
+   ],
+   "rows": [
+    [
+     "a / an / the / my / this",
+     "（形容词 +）名词",
+     "the front desk；a small waterproof bag"
+    ],
+    [
+     "介词 on / at / in / for / with / until",
+     "名词或代词",
+     "on the desk；with me；until nine"
+    ],
+    [
+     "to",
+     "动词原形",
+     "need to fill out；too loud to enjoy"
+    ],
+    [
+     "have / has / had",
+     "过去分词（中间可以夹 already、just、never）",
+     "have already sent；had been changed"
+    ],
+    [
+     "am / is / are / was / were",
+     "动词 -ing，或者形容词",
+     "are planning；was sitting；is much shorter"
+    ],
+    [
+     "can / could / would / should / will / don't / didn't",
+     "动词原形",
+     "can help；would love to；didn't see"
+    ]
+   ],
+   "note": "短语动词（hand in、fill out、break down）的宾语是代词时，代词夹在中间：hand it in，不是 hand in it。"
+  },
+  {
+   "id": "clauses",
+   "type": "table",
+   "title": "从句放哪、里面怎么排",
+   "intro": "十道题里一般有三四道带从句。认出引导词，就知道后面是「主语 + 动词」的顺序。",
+   "cols": [
+    "引导词",
+    "放在哪",
+    "里面的语序",
+    "例子"
+   ],
+   "rows": [
+    [
+     "who / that / which",
+     "紧跟在它修饰的名词后面",
+     "（主语 +）动词",
+     "The woman who works at the front desk can help you."
+    ],
+    [
+     "that（said / think / told me 后面）",
+     "动词后面",
+     "主语 + 动词",
+     "Nobody told me that it had been changed."
+    ],
+    [
+     "whether / if",
+     "know / not sure / depends on 后面",
+     "主语 + 动词，不倒装",
+     "I'm not sure whether it opens on weekends."
+    ],
+    [
+     "what / which / where / when / how",
+     "know / remember / decided 后面",
+     "疑问词 + 主语 + 动词，不加 do / does / did",
+     "Do you know which floor your class is on?"
+    ],
+    [
+     "if / until / because / but",
+     "两个分句中间",
+     "两边各是一个完整的句子",
+     "I didn't see it until I got home."
+    ]
+   ],
+   "note": "最常见的错：间接问句里又倒装了一次。Do you know where is the library? 是错的，要说 where the library is。"
+  },
+  {
+   "id": "positions",
+   "type": "table",
+   "title": "位置固定的词",
+   "intro": "这些词在句子里只有一个位置。排错一个，整题不得分。",
+   "cols": [
+    "词",
+    "位置",
+    "对的",
+    "错的"
+   ],
+   "rows": [
+    [
+     "always / usually / often / never / hardly ever",
+     "实义动词前面，be 动词后面",
+     "I hardly ever go there.",
+     "I go hardly ever there."
+    ],
+    [
+     "already / just",
+     "have 和过去分词中间",
+     "I have already sent her two emails.",
+     "I have sent already her two emails."
+    ],
+    [
+     "enough",
+     "形容词、副词后面",
+     "It isn't big enough.",
+     "It isn't enough big."
+    ],
+    [
+     "too",
+     "形容词、副词前面",
+     "The music was too loud.",
+     "The music was loud too.（意思变了）"
+    ],
+    [
+     "much / a lot",
+     "比较级前面",
+     "It is much shorter.",
+     "It is more shorter."
+    ],
+    [
+     "地点和时间",
+     "句末，先地点后时间",
+     "I hardly ever go there during the week.",
+     "I hardly ever go during the week there."
+    ],
+    [
+     "几个形容词",
+     "大小 → 新旧 → 颜色 → 材质或用途 → 名词",
+     "a small waterproof bag",
+     "a waterproof small bag"
+    ],
+    [
+     "间接宾语（人）",
+     "直接宾语（物）前面",
+     "sent her two emails",
+     "sent two emails her"
+    ]
+   ]
+  },
+  {
+   "id": "extra",
+   "type": "table",
+   "title": "多出来的那一块长什么样",
+   "intro": "多余的词块不是随便放的，它专门等你犯某一种错。",
+   "cols": [
+    "样子",
+    "例子",
+    "怎么排除"
+   ],
+   "rows": [
+    [
+     "同一个动词的另一种形式",
+     "left 和 leave；helped 和 helps；have 和 has",
+     "看第一句的时态，看主语是单数还是复数。"
+    ],
+    [
+     "多一个助动词",
+     "间接问句旁边放一个 do / does / did",
+     "外面已经有 Do you know 了，里面就是陈述语序，不要助动词。"
+    ],
+    [
+     "意思相近、位置不同的词",
+     "enough 和 too；ever 和 never；yet 和 already",
+     "记位置：enough 在后，too 在前；yet 用在否定和疑问里。"
+    ],
+    [
+     "另一个引导词",
+     "who 和 which；what 和 that；as 和 than",
+     "指人用 who；前面没有名词用 what；as…as 和比较级 + than 不混用。"
+    ]
+   ]
+  },
+  {
+   "id": "check-skeleton",
+   "type": "check",
+   "title": "练习 1　先找谓语",
+   "points": [
+    "skeleton"
+   ],
+   "groups": [
+    {
+     "label": "Make an appropriate sentence.",
+     "items": [
+      {
+       "stem": "Did you finish the lab report?",
+       "lead": "I",
+       "chunks": [
+        "handed",
+        "it",
+        "in",
+        "right after",
+        "lunch"
+       ],
+       "tail": ".",
+       "extra": [
+        "hand"
+       ],
+       "why": "谓语是 handed in，宾语是代词 it 时必须夹在中间：handed it in。时间 right after lunch 放最后。多出来的 hand 时态不对：问的是 Did you。",
+       "point": "skeleton"
+      },
+      {
+       "stem": "Why were you late for the seminar?",
+       "lead": "My",
+       "chunks": [
+        "bus",
+        "broke down",
+        "on the way",
+        "to campus"
+       ],
+       "tail": ".",
+       "extra": [
+        "was"
+       ],
+       "why": "主语 My bus，谓语 broke down（不及物，不用被动），后面是地点 on the way to campus。was 用不上：was broke down 不成立。",
+       "point": "skeleton"
+      },
+      {
+       "stem": "What do you think of the new library?",
+       "lead": "It",
+       "chunks": [
+        "has",
+        "a lot more",
+        "quiet places",
+        "to study",
+        "than the old one"
+       ],
+       "tail": ".",
+       "extra": [
+        "have"
+       ],
+       "why": "主语 It 是单数，谓语用 has。宾语的顺序：数量 a lot more + 名词 quiet places + 不定式 to study，比较的对象 than the old one 放最后。",
+       "point": "skeleton"
+      },
+      {
+       "stem": "Are you coming to the review session tonight?",
+       "lead": "I",
+       "chunks": [
+        "would",
+        "love to,",
+        "but I",
+        "have to",
+        "work until nine"
+       ],
+       "tail": ".",
+       "extra": [
+        "had"
+       ],
+       "why": "两个分句用 but 连起来：I would love to, but I have to work…。情态动词 would 后面接原形 love；have to 后面接原形 work。",
+       "point": "skeleton"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-clause",
+   "type": "check",
+   "title": "练习 2　带从句的",
+   "points": [
+    "clause"
+   ],
+   "groups": [
+    {
+     "label": "Make an appropriate sentence.",
+     "items": [
+      {
+       "stem": "Who should I ask about the scholarship?",
+       "lead": "The",
+       "chunks": [
+        "woman",
+        "who works",
+        "at the front desk",
+        "can help",
+        "you"
+       ],
+       "tail": ".",
+       "extra": [
+        "which"
+       ],
+       "why": "主语是 The woman，后面紧跟修饰她的从句 who works at the front desk，然后才是谓语 can help you。指人用 who，不用 which。",
+       "point": "clause"
+      },
+      {
+       "stem": "Is the cafeteria open on Sundays?",
+       "lead": "I'm",
+       "chunks": [
+        "not sure",
+        "whether",
+        "it",
+        "opens",
+        "on weekends"
+       ],
+       "tail": ".",
+       "extra": [
+        "does"
+       ],
+       "why": "whether 引导的从句是陈述语序：whether it opens，不倒装，也不加 does。",
+       "point": "clause"
+      },
+      {
+       "stem": "How was the guest lecture?",
+       "lead": "It",
+       "chunks": [
+        "was",
+        "not",
+        "what",
+        "I",
+        "had expected"
+       ],
+       "tail": ".",
+       "extra": [
+        "that"
+       ],
+       "why": "what I had expected 是一个整体，作表语：「我原来预想的那样」。what 自己就带着「……的东西」的意思，这里不能换成 that。",
+       "point": "clause"
+      },
+      {
+       "stem": "I can't find the chemistry building.",
+       "lead": "Do",
+       "chunks": [
+        "you know",
+        "which floor",
+        "your class",
+        "is",
+        "on"
+       ],
+       "tail": "?",
+       "extra": [
+        "does"
+       ],
+       "why": "Do you know 后面的问句变成陈述语序：which floor your class is on。外面已经有 Do 了，里面不能再用 does。",
+       "point": "clause"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-order",
+   "type": "check",
+   "title": "练习 3　位置固定的词",
+   "points": [
+    "order"
+   ],
+   "groups": [
+    {
+     "label": "Make an appropriate sentence.",
+     "items": [
+      {
+       "stem": "How often do you go to the gym?",
+       "lead": "I",
+       "chunks": [
+        "hardly",
+        "ever",
+        "go",
+        "there",
+        "during the week"
+       ],
+       "tail": ".",
+       "extra": [
+        "never"
+       ],
+       "why": "频度副词放在实义动词前面：hardly ever go。hardly 已经是否定，不能再和 never 连用。地点 there 在时间 during the week 前面。",
+       "point": "order"
+      },
+      {
+       "stem": "Did you like the apartment?",
+       "lead": "It",
+       "chunks": [
+        "isn't",
+        "big",
+        "enough",
+        "for",
+        "three people"
+       ],
+       "tail": ".",
+       "extra": [
+        "too"
+       ],
+       "why": "enough 放在形容词后面：big enough。too 要放在形容词前面，而且意思相反，这里用不上。",
+       "point": "order"
+      },
+      {
+       "stem": "What did you buy for the trip?",
+       "lead": "I",
+       "chunks": [
+        "bought",
+        "a",
+        "small",
+        "waterproof",
+        "bag"
+       ],
+       "tail": "for my camera.",
+       "extra": [
+        "buying"
+       ],
+       "why": "名词前面几个形容词的顺序：冠词 a + 大小 small + 材质或功能 waterproof + 名词 bag。",
+       "point": "order"
+      },
+      {
+       "stem": "Have you talked to your advisor yet?",
+       "lead": "I have",
+       "chunks": [
+        "already",
+        "sent",
+        "her",
+        "two emails",
+        "this week"
+       ],
+       "tail": ".",
+       "extra": [
+        "yet"
+       ],
+       "why": "already 放在 have 和过去分词之间。sent 后面先人后物：sent her two emails。yet 用在否定句和疑问句里，这里用不上。",
+       "point": "order"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "限时练习",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "skeleton",
+    "clause",
+    "order"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Make an appropriate sentence.",
+       "items": [
+        {
+         "stem": "Where did you put my charger?",
+         "lead": "I",
+         "chunks": [
+          "left",
+          "it",
+          "on the desk",
+          "next to",
+          "your laptop"
+         ],
+         "tail": ".",
+         "extra": [
+          "leave"
+         ],
+         "why": "主语 I + 谓语 left + 宾语 it，后面是地点：on the desk，再用 next to your laptop 说得更具体。leave 时态不对。",
+         "point": "skeleton"
+        },
+        {
+         "stem": "Do you know the professor's office hours?",
+         "lead": "I",
+         "chunks": [
+          "think",
+          "she said",
+          "that",
+          "they are",
+          "on Tuesdays"
+         ],
+         "tail": ".",
+         "extra": [
+          "what"
+         ],
+         "why": "I think 后面是一个句子 she said…，said 后面又是一个 that 从句。两层从句都是陈述语序。",
+         "point": "clause"
+        },
+        {
+         "stem": "Is the reading for tomorrow long?",
+         "lead": "It",
+         "chunks": [
+          "is",
+          "much",
+          "shorter",
+          "than",
+          "last week's chapter"
+         ],
+         "tail": ".",
+         "extra": [
+          "more"
+         ],
+         "why": "比较级 shorter 自己就是「更短」，前面用 much 加强，不能再加 more。than 后面是比较的对象。",
+         "point": "order"
+        },
+        {
+         "stem": "What happened to your presentation?",
+         "lead": "The",
+         "chunks": [
+          "projector",
+          "stopped",
+          "working",
+          "halfway through",
+          "my talk"
+         ],
+         "tail": ".",
+         "extra": [
+          "was"
+         ],
+         "why": "主语 The projector，谓语 stopped working（stop doing：不再做了）。halfway through my talk 是时间，放最后。",
+         "point": "skeleton"
+        },
+        {
+         "stem": "Which elective are you taking?",
+         "lead": "I",
+         "chunks": [
+          "haven't",
+          "decided",
+          "which one",
+          "I",
+          "want"
+         ],
+         "tail": "yet.",
+         "extra": [
+          "do"
+         ],
+         "why": "decided 后面的 which one I want 是间接问句，陈述语序：which one + 主语 + 动词，不加 do。",
+         "point": "clause"
+        },
+        {
+         "stem": "Have you met the new lab assistant?",
+         "lead": "Is",
+         "chunks": [
+          "she",
+          "the one",
+          "who",
+          "helped",
+          "you"
+         ],
+         "tail": "yesterday?",
+         "extra": [
+          "helps"
+         ],
+         "why": "问句：Is + 主语 she + 表语 the one。who helped you yesterday 修饰 the one。yesterday 决定了用过去式 helped。",
+         "point": "clause"
+        },
+        {
+         "stem": "Can I borrow your notes from Monday?",
+         "lead": "I'm",
+         "chunks": [
+          "afraid",
+          "I",
+          "don't",
+          "have them",
+          "with me"
+         ],
+         "tail": ".",
+         "extra": [
+          "not"
+         ],
+         "why": "I'm afraid 后面直接接一个完整的句子：I don't have them with me。否定已经在 don't 里了，not 是多出来的。",
+         "point": "order"
+        },
+        {
+         "stem": "How do I sign up for the workshop?",
+         "lead": "You",
+         "chunks": [
+          "need",
+          "to",
+          "fill out",
+          "a form",
+          "online"
+         ],
+         "tail": ".",
+         "extra": [
+          "filling"
+         ],
+         "why": "need to + 动词原形：need to fill out。宾语 a form 在动词后面，online 说方式，放最后。",
+         "point": "skeleton"
+        },
+        {
+         "stem": "Was the exam difficult?",
+         "lead": "It",
+         "chunks": [
+          "was",
+          "not nearly",
+          "as hard",
+          "as",
+          "I thought"
+         ],
+         "tail": ".",
+         "extra": [
+          "than"
+         ],
+         "why": "as … as 结构：not nearly as hard as I thought，「远没有我想的那么难」。than 只和比较级（harder）连用。",
+         "point": "order"
+        },
+        {
+         "stem": "Why didn't you answer my message?",
+         "lead": "I",
+         "chunks": [
+          "didn't",
+          "see it",
+          "until",
+          "I",
+          "got home"
+         ],
+         "tail": ".",
+         "extra": [
+          "seeing"
+         ],
+         "why": "not … until：直到……才。until 后面是一个完整的分句 I got home。didn't 后面用原形 see。",
+         "point": "clause"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "set-b",
+     "groups": [
+      {
+       "label": "Make an appropriate sentence.",
+       "items": [
+        {
+         "stem": "Who is giving the opening speech?",
+         "lead": "The",
+         "chunks": [
+          "dean",
+          "asked",
+          "one of",
+          "the graduates",
+          "to do it"
+         ],
+         "tail": ".",
+         "extra": [
+          "asking"
+         ],
+         "why": "ask someone to do something：asked + 人（one of the graduates）+ to do it。",
+         "point": "skeleton"
+        },
+        {
+         "stem": "Is this seat taken?",
+         "lead": "The",
+         "chunks": [
+          "person",
+          "who",
+          "was sitting",
+          "here",
+          "just left"
+         ],
+         "tail": ".",
+         "extra": [
+          "which"
+         ],
+         "why": "主语 The person 后面紧跟 who was sitting here，从句结束后才是谓语 just left。指人用 who。",
+         "point": "clause"
+        },
+        {
+         "stem": "Do you ever eat at the dining hall?",
+         "lead": "I",
+         "chunks": [
+          "almost",
+          "never",
+          "have",
+          "time for",
+          "breakfast there"
+         ],
+         "tail": ".",
+         "extra": [
+          "ever"
+         ],
+         "why": "almost never 放在实义动词 have 前面。almost 后面要接 never，接 ever 不成立。",
+         "point": "order"
+        },
+        {
+         "stem": "What are you doing this weekend?",
+         "lead": "My",
+         "chunks": [
+          "roommate and I",
+          "are planning",
+          "to visit",
+          "the art",
+          "museum"
+         ],
+         "tail": ".",
+         "extra": [
+          "is"
+         ],
+         "why": "主语 My roommate and I 是两个人，谓语用 are。plan to do：are planning to visit。",
+         "point": "skeleton"
+        },
+        {
+         "stem": "The printer isn't working again.",
+         "lead": "Do",
+         "chunks": [
+          "you remember",
+          "what",
+          "the technician",
+          "told us",
+          "to do"
+         ],
+         "tail": "?",
+         "extra": [
+          "did"
+         ],
+         "why": "Do you remember 后面的 what 从句用陈述语序：what the technician told us to do，里面不能再加 did。",
+         "point": "clause"
+        },
+        {
+         "stem": "How was your first week of classes?",
+         "lead": "It",
+         "chunks": [
+          "was",
+          "a lot",
+          "busier",
+          "than",
+          "I had expected"
+         ],
+         "tail": ".",
+         "extra": [
+          "more"
+         ],
+         "why": "busier 已经是比较级，用 a lot 加强；more busier 是重复。than 后面是比较的对象。",
+         "point": "order"
+        },
+        {
+         "stem": "Are you going to the career fair?",
+         "lead": "It",
+         "chunks": [
+          "depends on",
+          "whether",
+          "my shift",
+          "ends",
+          "early enough"
+         ],
+         "tail": ".",
+         "extra": [
+          "end"
+         ],
+         "why": "depends on 后面接 whether 从句：whether + 主语 my shift + 动词 ends（单数）。enough 放在副词 early 后面。",
+         "point": "clause"
+        },
+        {
+         "stem": "Could you help me move on Saturday?",
+         "lead": "I",
+         "chunks": [
+          "would",
+          "if",
+          "I",
+          "didn't have",
+          "to work"
+         ],
+         "tail": "that day.",
+         "extra": [
+          "don't"
+         ],
+         "why": "和事实相反的条件：I would (help) if I didn't have to work。主句用 would，if 从句用过去式。",
+         "point": "skeleton"
+        },
+        {
+         "stem": "Did you enjoy the concert?",
+         "lead": "The",
+         "chunks": [
+          "music",
+          "was",
+          "too loud",
+          "for me",
+          "to enjoy"
+         ],
+         "tail": ".",
+         "extra": [
+          "enough"
+         ],
+         "why": "too + 形容词 + for 人 + to do：太……以至于某人没法……。enough 要放在形容词后面，而且意思相反。",
+         "point": "order"
+        },
+        {
+         "stem": "I heard the deadline was moved.",
+         "lead": "Nobody",
+         "chunks": [
+          "told",
+          "me",
+          "that",
+          "it",
+          "had been changed"
+         ],
+         "tail": ".",
+         "extra": [
+          "was"
+         ],
+         "why": "told + 人 + that 从句。从句里主语 it + 过去完成的被动 had been changed：在「没人告诉我」之前就改了。",
+         "point": "clause"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "more": {
+    "kind": "sentence",
+    "topics": [
+     "图书馆借书和自习",
+     "选课、注册和退课",
+     "宿舍生活和室友",
+     "食堂和吃饭",
+     "小组作业分工",
+     "考试和复习",
+     "找教授答疑",
+     "校园兼职",
+     "社团活动和报名",
+     "体育馆和锻炼",
+     "看病和请假",
+     "租房和搬家",
+     "实习和找工作",
+     "周末出行",
+     "网购和退货",
+     "修电脑和打印",
+     "借笔记和讨论课",
+     "音乐会和展览",
+     "天气和通勤",
+     "毕业典礼和假期安排"
+    ]
+   }
+  }
+ ]
+}

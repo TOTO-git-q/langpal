@@ -1,0 +1,416 @@
+{
+ "id": "writing-picture",
+ "title": "图画提示与现象概括",
+ "goal": "选择忠实于画面的描述；由画面概括相关社会现象。",
+ "skill": "写作",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "describe",
+   "label": "选择忠实于画面的描述"
+  },
+  {
+   "id": "generalize",
+   "label": "由画面概括相关社会现象"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语四级（CET-4）：课表",
+   "url": "docs/syllabi/cet4.md",
+   "used": "图画提示与现象概括的教学范围、知识点及写作小测规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "图画的文字说明给出人物、物品和动作。描述句只写看得见的信息。概括句说明这些信息反映的现象。推测出来的动机不能当作画面事实。"
+    },
+    {
+     "box": "A passenger places a suitcase on an empty seat while another passenger stands beside it."
+    },
+    {
+     "p": "places 和 stands 是动作，由此可以概括出占用公共座位的现象。故意羞辱他人是画面没有给出的动机，不写进描述。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　描述主体与动作",
+     "d": "写清谁在做什么、对什么做。A passenger places a suitcase on a seat 不能缩成只列出 suitcase 的物品清单。"
+    },
+    {
+     "t": "2　概括共同问题",
+     "d": "从动作之间的关系概括问题。有人站着，行李却占着座位，可以概括为公共空间的使用问题。一幅画只说明这一个场景，不说明所有乘客。"
+    },
+    {
+     "t": "3　确定评论对象",
+     "d": "评论针对画面中的行为或安排。A discussion of keeping seats available 回应了占座问题。行李的品牌与这一问题无关。"
+    }
+   ]
+  },
+  {
+   "id": "links",
+   "type": "table",
+   "title": "画面与评论对象",
+   "cols": [
+    "步骤",
+    "画面材料",
+    "对应表达",
+    "说明"
+   ],
+   "rows": [
+    [
+     "描述画面",
+     "At a refill point, one student leaves a bottle under a running tap while talking to a friend.",
+     "A student talks to a friend while water continues running into the unattended bottle.",
+     "只写看到的动作，不写学生故意浪费。"
+    ],
+    [
+     "描述画面",
+     "At a stairway, two people hold a banner across the entrance while others wait below.",
+     "Two people hold a banner across a stairway entrance while several others wait below.",
+     "保留持横幅者与等待者。"
+    ],
+    [
+     "概括问题",
+     "The bottle is full, but the tap is still running beside the distracted student.",
+     "The scene draws attention to water waste caused by failing to monitor a running tap.",
+     "概括为没有看管水龙头造成的浪费。"
+    ],
+    [
+     "概括问题",
+     "The banner blocks the stairway entrance, leaving the people below unable to pass.",
+     "The scene shows how an activity can interfere with access to a shared passage.",
+     "只谈这次活动，不说所有宣传活动有害。"
+    ],
+    [
+     "确定评论对象",
+     "The overflowing bottle remains under the tap while the conversation continues beside it.",
+     "The essay can discuss attending to resource use during ordinary activities in shared facilities.",
+     "评论资源使用行为。"
+    ],
+    [
+     "确定评论对象",
+     "The people below wait for the banner holders to clear the stairway entrance.",
+     "The essay can discuss keeping shared routes accessible when organizing activities in public spaces.",
+     "评论通行与活动安排。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Picture description: A person at a self-service checkout has placed a basket across the neighboring machine. Another shopper stands in front of that machine holding a small purchase. The first person is scanning items at a different machine. No caption gives either shopper's thoughts or explains why the basket was placed there."
+    },
+    {
+     "p": "画面上看得到的关系：篮子占着相邻的机器，另一名顾客在等。描述要写出两名顾客。概括可以落在共享设备能否使用上。"
+    },
+    {
+     "box": "Which statement is supported?\n1. A shopper places a basket across another checkout while a second shopper waits there.\n2. A shopper blocks another checkout to punish a customer who arrived late.\n3. Both shoppers are using the same machine to scan their purchases together.\n4. A basket has been removed from the neighboring machine so another shopper can begin."
+    },
+    {
+     "p": "第一项写出了动作和对象。第二项加了画面没有给出的动机。"
+    },
+    {
+     "box": "The scene suggests that personal use of space can restrict other people's access to shared equipment."
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "原因"
+   ],
+   "rows": [
+    [
+     "虚构动机",
+     "The shopper blocks the machine because the waiting customer previously refused to help.",
+     "画面没有显示先前的冲突。"
+    ],
+    [
+     "遗漏主体",
+     "A basket and a machine are visible in the checkout area of the shop.",
+     "漏掉了等待的顾客和占用关系。"
+    ],
+    [
+     "动作倒置",
+     "The waiting shopper removes the basket and begins scanning the items at that machine.",
+     "把站立等待写成操作机器。"
+    ],
+    [
+     "过度概括",
+     "Every shopper prefers preventing others from using machines rather than sharing the checkout area.",
+     "一幅画面说明不了 every。"
+    ]
+   ]
+  },
+  {
+   "id": "check-short",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "describe",
+    "generalize"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Picture: A visitor photographs a notice while another reads it. Which description preserves both actions?",
+       "options": [
+        "One visitor takes a photograph while another visitor reads the same notice.",
+        "Both visitors photograph the notice before either of them begins reading it.",
+        "One visitor reads the notice while the other visitor removes it from display.",
+        "Both visitors read the notice because neither has a device for taking photographs."
+       ],
+       "answer": 0,
+       "why": "photographs 和 reads 是两个人各自的动作。第一项把两个动作都保留了下来。",
+       "point": "describe"
+      },
+      {
+       "stem": "Picture: A cyclist leaves a bicycle across a ramp; a wheelchair user waits below. Which comment fits?",
+       "options": [
+        "The scene proves that wheelchair users never use alternative routes through public spaces.",
+        "The scene raises the issue of keeping access routes clear for people using wheelchairs.",
+        "The scene shows that cyclists need ramps more than people who use wheelchairs.",
+        "The scene shows that cyclists leave bicycles across every public ramp they use."
+       ],
+       "answer": 1,
+       "why": "依据是 across a ramp 和 waits below：自行车挡住坡道，轮椅使用者过不去。第二项由此概括出保持通道畅通的问题。",
+       "point": "generalize"
+      },
+      {
+       "stem": "Picture: A diner returns an unopened snack while a worker points to a collection box. Which description fits?",
+       "options": [
+        "The worker opens the snack while the diner points to a nearby collection box.",
+        "The diner leaves the snack on the floor while the worker moves the box.",
+        "The diner hands back an unopened snack as the worker indicates a collection box.",
+        "The worker refuses the snack while the diner closes the nearby collection box."
+       ],
+       "answer": 2,
+       "why": "returns 是 diner 的动作，points 是 worker 的动作。第三项用 hands back 和 indicates 改写，人物和对象都没变。",
+       "point": "describe"
+      },
+      {
+       "stem": "Picture: Everyone at a meeting looks at a phone while a speaker points to a proposal. Which comment is supported?",
+       "options": [
+        "The speaker's proposal has already been accepted by everyone attending the meeting.",
+        "The phones prove that the speaker's proposal contains no information worth discussing.",
+        "The participants have all been instructed by the speaker to check their messages.",
+        "The scene highlights competing attention between personal devices and a shared discussion."
+       ],
+       "answer": 3,
+       "why": "参会者看手机，发言人指着提案，两边的注意力不在一处。第四项概括的正是这一点。",
+       "point": "generalize"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-scene",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "generalize",
+    "describe"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "Picture description: At a public drinking fountain, a person washes muddy shoes directly over the drinking outlet. Two people holding cups wait nearby. A sign identifies the fountain as drinking water. The picture gives no information about the person's intentions or about any other washing facilities in the area.",
+     "items": [
+      {
+       "stem": "Which comment stays within the visual evidence?",
+       "options": [
+        "Using a drinking outlet for dirty shoes can interfere with its intended shared use.",
+        "People holding cups have requested that shoes be washed before they collect water.",
+        "The person washing shoes intends to stop all nearby residents from drinking the water.",
+        "The scene proves that there are no other washing facilities anywhere in the area."
+       ],
+       "answer": 0,
+       "why": "标牌写明 drinking water，有人却在出水口上 washes muddy shoes。两种用途冲突，即第一项。",
+       "point": "generalize"
+      },
+      {
+       "stem": "Complete a description retaining the action and its object.",
+       "lead": "The person is",
+       "chunks": [
+        "washing",
+        "muddy shoes",
+        "over",
+        "the drinking outlet"
+       ],
+       "tail": ".",
+       "extra": [
+        "filling cups"
+       ],
+       "why": "washing muddy shoes 写出了这个人的动作。拿着杯子的是旁边等候的两个人。",
+       "point": "describe"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "describe",
+    "generalize"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "Picture description: At a community exhibition, a visitor holds a tablet high above a display label. The tablet blocks the view of two children standing behind the visitor. The visitor is taking a photograph of the display. The picture provides no information about the visitor's intentions or the children's feelings.",
+       "items": [
+        {
+         "stem": "Which sentence accurately describes the scene?",
+         "options": [
+          "A visitor's raised tablet obstructs two children's view of an exhibition label.",
+          "Two children raise a tablet while a visitor reads the exhibition label behind them.",
+          "A visitor lowers a tablet so two children can photograph the exhibition label.",
+          "Two children photograph a display while a visitor stands behind them holding a label."
+         ],
+         "answer": 0,
+         "why": "依据是 The tablet blocks the view of two children standing behind the visitor。第一项用 obstructs 改写了这一遮挡关系。",
+         "point": "describe"
+        },
+        {
+         "stem": "Which issue is most directly supported?",
+         "options": [
+          "Exhibitions should ban photography because children cannot see the labels.",
+          "Photography in shared displays requires attention to other visitors' ability to see.",
+          "The visitor deliberately prevents children from learning because the display is unsuitable.",
+          "Every use of a tablet makes it impossible for anyone to enjoy an exhibition."
+         ],
+         "answer": 1,
+         "why": "依据是 blocks the view。拍照挡住了别人的视线，由此概括出拍照时要顾及他人观看，即第二项。第三项加了画面没有给出的动机。",
+         "point": "generalize"
+        },
+        {
+         "stem": "Complete the description of the visible obstruction.",
+         "lead": "The raised tablet",
+         "chunks": [
+          "blocks",
+          "the children's view",
+          "of",
+          "the exhibition label"
+         ],
+         "tail": ".",
+         "extra": [
+          "improves"
+         ],
+         "why": "blocks 对应画面里的遮挡。improves 意思相反。",
+         "point": "describe"
+        },
+        {
+         "stem": "Complete a relevant comment about the behavior.",
+         "lead": "Taking photographs should",
+         "chunks": [
+          "leave",
+          "other visitors",
+          "able",
+          "to see the display"
+         ],
+         "tail": ".",
+         "extra": [
+          "unable"
+         ],
+         "why": "able to see 回应孩子们看不到展品的问题。unable 意思相反。",
+         "point": "generalize"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "Picture description: In a shared kitchen, one resident leaves food scraps inside a sink. Another resident holds a saucepan beside the sink, waiting to wash it. A clear sign asks users to put food scraps in a nearby container. The illustration does not show who originally installed the sink or made the sign.",
+       "items": [
+        {
+         "stem": "Which description retains the relevant people and actions?",
+         "options": [
+          "One resident places food scraps in the container while another washes a saucepan.",
+          "The waiting resident installs a sink while another resident removes the nearby sign.",
+          "One resident leaves scraps in the sink while another waits with a saucepan.",
+          "Both residents wash saucepans while placing food scraps in the container together."
+         ],
+         "answer": 2,
+         "why": "leaves food scraps 和 waiting to wash 是两个住户各自的动作。第三项把两个动作都保留了下来。",
+         "point": "describe"
+        },
+        {
+         "stem": "Which comment follows from the picture?",
+         "options": [
+          "The container is unavailable, so residents must put food scraps into the shared sink.",
+          "The resident who made the sign should clear the scraps out of the sink.",
+          "The waiting resident deliberately caused the obstruction to avoid washing the saucepan.",
+          "Following shared disposal arrangements helps keep facilities usable for the next person."
+         ],
+         "answer": 3,
+         "why": "标牌要求把剩菜放进 nearby container。有人没照做，下一个人就用不了水槽，即第四项。",
+         "point": "generalize"
+        },
+        {
+         "stem": "Complete a faithful description of the waiting resident.",
+         "lead": "The other resident",
+         "chunks": [
+          "is waiting",
+          "to wash",
+          "a saucepan",
+          "in"
+         ],
+         "tail": "the sink.",
+         "extra": [
+          "a sign"
+         ],
+         "why": "住户手里拿的是 a saucepan。a sign 是背景里的标牌，不是要洗的东西。",
+         "point": "describe"
+        },
+        {
+         "stem": "Complete the comment targeting the depicted issue.",
+         "lead": "The scene highlights",
+         "chunks": [
+          "the need",
+          "to keep",
+          "shared facilities",
+          "ready for others"
+         ],
+         "tail": ".",
+         "extra": [
+          "unavailable to others"
+         ],
+         "why": "ready for others 回应等候者要用水槽的需求。unavailable to others 意思相反。",
+         "point": "generalize"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,519 @@
+{
+ "id": "listening-conversation-detail",
+ "title": "长对话细节题",
+ "goal": "听出问题所指人物的具体信息；识别细节的同义表达。",
+ "skill": "听力",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "locate",
+   "label": "听出问题所指人物的具体信息"
+  },
+  {
+   "id": "paraphrase",
+   "label": "识别细节的同义表达"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "依据课程课表选择长对话语言训练范围；材料与题目为原创。"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "细节题问对话里明确说出的事实。人物、动作、时间、地点和条件要成组记下。选项沿用了原文的名词，还要核对人物和动作是否对得上。"
+    },
+    {
+     "box": "What has Priya already completed?\nWhere will the group meet?\nUnder what condition will the collection be delayed?"
+    },
+    {
+     "p": "has completed 问已经做完的事，will meet 问还没发生的安排。正确选项常换了说法。常见的干扰项把计划写成已完成，或把别人的任务安到所问的人身上。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　锁定人物与动作",
+     "d": "先听清题干问的是谁、做什么。Who will pack the boxes? 问的是谁打包，不是谁运箱子。"
+    },
+    {
+     "t": "2　记下时间与地点",
+     "d": "把日期、时刻和地点记在对应的动作旁边。Packed Friday, collected Monday：周五打包，周一取件。"
+    },
+    {
+     "t": "3　记下状态与条件",
+     "d": "听到 already、not yet、only if 要记下。Only if the form is signed 表示必须先签字，正确选项会保留这个条件。"
+    },
+    {
+     "t": "4　核对同义表达",
+     "d": "把原话和选项逐项对应。hasn't picked it up 可以改写为 collection is still pending，不能改成尚未购买。"
+    }
+   ]
+  },
+  {
+   "id": "pairs",
+   "type": "table",
+   "title": "细节的同义对应",
+   "cols": [
+    "对象",
+    "原文",
+    "同义表达",
+    "说明"
+   ],
+   "rows": [
+    [
+     "执行者",
+     "Asha designs the poster; Hugo prints it.",
+     "Hugo handles the printing.",
+     "印刷的是 Hugo，设计的是 Asha。"
+    ],
+    [
+     "执行者",
+     "Milo gives the key to Ruth for delivery.",
+     "Ruth will deliver the key.",
+     "去送钥匙的是 Ruth，Milo 只把钥匙交给她。"
+    ],
+    [
+     "完成状态",
+     "The parcel is ordered but hasn't arrived.",
+     "Delivery is still pending.",
+     "已经下单，还没送到。"
+    ],
+    [
+     "完成状态",
+     "I checked the list and will send it later.",
+     "The list has been reviewed.",
+     "已经核对，还没发送。"
+    ],
+    [
+     "条件",
+     "We can use the room only after six.",
+     "The room is unavailable before six.",
+     "六点以后才能用。"
+    ],
+    [
+     "条件",
+     "Bring the trolley if the boxes are heavy.",
+     "Heavy boxes would require the trolley.",
+     "箱子重才用推车。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A: I reserved the workshop for Friday, but the technician asked us to move to Monday. The briefing will still be in Room 12. Leila has checked the equipment, and I'll send the revised invitation after the technician confirms the time.\nB: I'll tell the helpers to wait for that message."
+    },
+    {
+     "box": "What has Leila done?\n1. Sent the revised invitation.\n2. Checked the workshop equipment.\n3. Confirmed the technician's time.\n4. Moved the briefing out of Room 12."
+    },
+    {
+     "p": "依据是 Leila has checked the equipment，对应第二项。发送邀请是说话人 A 之后要做的事，确认时间的是技术人员。改的是日期，地点仍是 Room 12。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "人物替换",
+     "Leila sent the invitation.",
+     "检查设备的是 Leila，发邀请的是说话人 A。"
+    ],
+    [
+     "旧安排替换新安排",
+     "The workshop remains on Friday.",
+     "move to Monday 已把日期改为周一。"
+    ],
+    [
+     "计划写成完成",
+     "The revised invitation has gone out.",
+     "I'll send … after 表示确认之后才发，现在还没发。"
+    ],
+    [
+     "条件删除",
+     "The invitation will go out regardless of confirmation.",
+     "邀请要等技术人员确认时间后才发。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "locate",
+    "paraphrase"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I'm organizing the neighborhood lantern display. Eva will hang the lanterns, while I check the cables. The frames are already in the hall, but they haven't been assembled."
+       },
+       {
+        "who": "B",
+        "text": "I'll bring the assembly instructions. Eva can begin hanging them once the frames are ready, rather than working around unfinished supports."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Who will check the cables?",
+       "options": [
+        "Eva, while she assembles all the frames.",
+        "The helper bringing the assembly instructions.",
+        "The organizer who is speaking to the helper.",
+        "Eva, after she delivers frames to the hall."
+       ],
+       "answer": 2,
+       "why": "依据是 Eva will hang the lanterns, while I check the cables。检查电缆的是说话的组织者，Eva 负责挂灯笼。",
+       "point": "locate"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The chess tables have been moved from the entrance to the covered terrace. The players will still register at the entrance, where the name list will be kept."
+       },
+       {
+        "who": "B",
+        "text": "I'll update the signs. People should register before going to the terrace, so the move doesn't mean the registration desk is moving too."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Where will registration take place?",
+       "options": [
+        "At the original entrance desk.",
+        "Beside the tables on the terrace.",
+        "Under the new terrace signs.",
+        "Where the chess tables used to be stored."
+       ],
+       "answer": 0,
+       "why": "依据是 The players will still register at the entrance。搬到 terrace 的只是桌子，登记仍在入口。",
+       "point": "locate"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I've booked the van for the costume collection, but the driver hasn't confirmed yet. The costumes themselves are packed and labeled by production."
+       },
+       {
+        "who": "B",
+        "text": "Then we should tell the wardrobe team that packing is complete, while transport still needs confirmation. There's no reason to unpack everything while we wait for the driver's reply."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which statement matches the preparation status?",
+       "options": [
+        "The driver is confirmed, but costumes remain unpacked.",
+        "The wardrobe team must unpack everything before booking.",
+        "The costumes have been collected by the confirmed driver.",
+        "The costumes are ready, but transport awaits confirmation."
+       ],
+       "answer": 3,
+       "why": "依据是 packed and labeled 和 the driver hasn't confirmed yet。服装已经备好，运输还要等司机确认，即第四项。",
+       "point": "paraphrase"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The resident can collect the repaired fan after four, provided the replacement cover arrives this afternoon. The motor has already been tested."
+       },
+       {
+        "who": "B",
+        "text": "I'll explain that the collection time is conditional. The successful motor test doesn't mean the whole fan is ready if the cover hasn't arrived, and we shouldn't promise an earlier collection."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which paraphrase preserves the collection condition?",
+       "options": [
+        "Collection before four depends on another motor test.",
+        "Collection after four depends on the cover arriving.",
+        "Collection after four is guaranteed by the motor test.",
+        "Collection is complete because the cover arrived earlier."
+       ],
+       "answer": 1,
+       "why": "依据是 after four, provided the replacement cover arrives。四点以后能否领取，取决于外壳是否到货，即第二项。",
+       "point": "paraphrase"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "locate",
+    "paraphrase"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Let's confirm the arrangements for the balcony plant exchange. Sam has printed the labels, and I booked the courtyard. The weather forecast has changed, so we'll use the covered passage beside it instead."
+       },
+       {
+        "who": "B",
+        "text": "I'll tell everyone. Are we keeping the two o'clock start?"
+       },
+       {
+        "who": "A",
+        "text": "Yes. Helpers can enter at one thirty, but exchanges begin at two. Please ask donors to label each pot before bringing it; Sam's spare labels are for any labels that get damaged on the journey."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which task has Sam completed?",
+       "options": [
+        "Booking the covered passage.",
+        "Preparing printed labels.",
+        "Notifying all the donors.",
+        "Labeling every donated pot."
+       ],
+       "answer": 1,
+       "why": "依据是 Sam has printed the labels。Sam 做完的是打印标签，给花盆贴标签的是捐赠者。",
+       "point": "locate"
+      },
+      {
+       "stem": "Which statement describes the revised venue?",
+       "options": [
+        "The exchange remains in the booked courtyard.",
+        "The exchange moves indoors and starts at one thirty.",
+        "The exchange moves to a covered spot by the courtyard.",
+        "The exchange begins in the courtyard before moving."
+       ],
+       "answer": 2,
+       "why": "依据是 we'll use the covered passage beside it，it 指 courtyard。地点换成院子旁边有顶的通道，即第三项。",
+       "point": "paraphrase"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "locate",
+    "paraphrase"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Amir, let's check the arrangements for the neighborhood kite-making session. I spoke to the hall manager this morning. The main hall is needed for another event, so our booking has been moved to the upstairs studio. The entrance on the courtyard side will be open."
+         },
+         {
+          "who": "B",
+          "text": "Thanks, Beth. I was about to send directions based on the old booking. I'll change the message before it goes out. Are we still starting at ten on Saturday, or has the room change affected the time as well?"
+         },
+         {
+          "who": "A",
+          "text": "The participants should still arrive at ten. We can enter at nine to arrange the tables. The manager originally offered half past eight, but the cleaner needs the studio until nine. There's no point asking the volunteers to arrive earlier."
+         },
+         {
+          "who": "B",
+          "text": "Understood. I've already bought the paper and string, but I haven't collected the wooden sticks. The supplier can leave them at the counter tomorrow. I can collect them on my way home, provided the parcel fits on my bicycle."
+         },
+         {
+          "who": "A",
+          "text": "If it doesn't, call me and I'll bring the car. I'll also take responsibility for the safety scissors. Noor is bringing glue, so we don't need to buy any. She'll arrive at nine fifteen because she's coming from another appointment."
+         },
+         {
+          "who": "B",
+          "text": "That should be fine. What about people who registered after the first notice? I have six new names. I can send them the revised directions, but I don't have information about whether any of them need step-free access."
+         },
+         {
+          "who": "A",
+          "text": "I've contacted them about that already. Two asked about the lift, and the manager has confirmed it will be available. Please include the courtyard entrance in every message, not just the messages to those two participants."
+         },
+         {
+          "who": "B",
+          "text": "I'll do that tonight. I'll tell the volunteers about the nine o'clock access time separately, so participants don't confuse preparation time with the start of the session."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Where will participants enter the building?",
+         "options": [
+          "Through the main entrance named in the old booking.",
+          "Through the side door next to the lift.",
+          "Through the volunteers' entrance used at nine.",
+          "Through the entrance facing the courtyard."
+         ],
+         "answer": 3,
+         "why": "依据是 The entrance on the courtyard side will be open。Beth 还要求每条消息都写上 courtyard entrance，即第四项。",
+         "point": "locate"
+        },
+        {
+         "stem": "When can volunteers begin setting up the studio?",
+         "options": [
+          "At eight thirty, as originally offered.",
+          "At nine, after the cleaner has finished.",
+          "At nine fifteen, when Noor arrives.",
+          "At ten, when participants arrive."
+         ],
+         "answer": 1,
+         "why": "依据是 We can enter at nine 和 the cleaner needs the studio until nine。清洁工九点前要用工作室，志愿者九点进场布置，即第二项。",
+         "point": "locate"
+        },
+        {
+         "stem": "What accurately describes Amir's materials preparation?",
+         "options": [
+          "He has purchased paper and string but still needs the sticks.",
+          "He has collected the sticks but still needs paper and string.",
+          "He will buy the glue once Noor arrives with the scissors.",
+          "He will bring every material only if Beth supplies a car."
+         ],
+         "answer": 0,
+         "why": "依据是 I've already bought the paper and string, but I haven't collected the wooden sticks。纸和线已经买好，木棍还没取，即第一项。",
+         "point": "paraphrase"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Elise, I'm reviewing the plan for our apartment building's communal pantry. The new cabinet has arrived, and the caretaker fixed it to the wall yesterday. We can begin accepting unopened dry goods, but we haven't yet displayed the guidelines for residents."
+         },
+         {
+          "who": "B",
+          "text": "I can print those, Martin. The version we discussed said that donations could be left at reception. Is that still the arrangement? I don't want to print directions that send people to a place where staff aren't expecting them."
+         },
+         {
+          "who": "A",
+          "text": "That's changed. Reception doesn't have enough storage space, so residents should place donations directly in the cabinet between six and eight in the evening. A volunteer will be there during those hours to check the packaging and dates."
+         },
+         {
+          "who": "B",
+          "text": "All right. I'll put that in the guidelines. We also discussed using a sign-up sheet for volunteers. I've created the sheet, but only Tuesday and Thursday have names beside them. The remaining evenings still need someone to supervise the cabinet."
+         },
+         {
+          "who": "A",
+          "text": "Salma has offered to cover Monday, though she hasn't written her name down. I'll add it after confirming with her tonight. Please don't list every evening as staffed yet. We can open on the days that are covered and expand later."
+         },
+         {
+          "who": "B",
+          "text": "Agreed. How should we handle residents who want to take food? The original suggestion was to ask them to register at reception, but several people felt that would make the arrangement unnecessarily complicated."
+         },
+         {
+          "who": "A",
+          "text": "We decided against registration. Residents can take what they can use while the cabinet is staffed. They don't have to bring a donation first. The volunteer's job is to keep the stock orderly, not to compare what each person gives and takes."
+         },
+         {
+          "who": "B",
+          "text": "I'll make those points clear. I'll send the final wording to you tomorrow morning before printing, and you can check that the times match the confirmed volunteer schedule."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What has already been completed when the conversation begins?",
+         "options": [
+          "Elise has printed and displayed the final guidelines.",
+          "Salma has confirmed every Monday on the sign-up sheet.",
+          "The caretaker has secured the cabinet in position.",
+          "Martin has staffed all the remaining weekday evenings."
+         ],
+         "answer": 2,
+         "why": "依据是 the caretaker fixed it to the wall yesterday。柜子已经固定在墙上，即第三项。",
+         "point": "locate"
+        },
+        {
+         "stem": "What is the current donation arrangement?",
+         "options": [
+          "Residents bring goods straight to the cabinet during staffed hours.",
+          "Reception keeps donations until volunteers collect them later.",
+          "Residents leave goods at the cabinet at any time of day.",
+          "Volunteers accept donations only from registered residents."
+         ],
+         "answer": 0,
+         "why": "依据是 place donations directly in the cabinet between six and eight，这段时间有志愿者值班。第一项说的就是在值班时间直接放进柜子。",
+         "point": "paraphrase"
+        },
+        {
+         "stem": "Which statement preserves the rule about receiving food?",
+         "options": [
+          "Residents must register before taking anything from the cabinet.",
+          "Residents may take food only after contributing the same amount.",
+          "Residents may collect food even when no volunteer is present.",
+          "Residents may take usable food without donating beforehand."
+         ],
+         "answer": 3,
+         "why": "依据是 Residents can take what they can use 和 They don't have to bring a donation first。不必先捐就能拿，即第四项。",
+         "point": "paraphrase"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

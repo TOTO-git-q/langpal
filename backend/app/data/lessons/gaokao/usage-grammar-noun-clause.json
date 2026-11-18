@@ -1,0 +1,407 @@
+{
+ "id": "usage-grammar-noun-clause",
+ "title": "名词性从句引导词",
+ "goal": "能根据从句的成分、意义和句法位置选择名词性从句引导词。",
+ "skill": "语言运用",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "component",
+   "label": "判断名词性从句内部是否缺少成分"
+  },
+  {
+   "id": "connector",
+   "label": "按意义与句法限制填出引导词"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语课程课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "教学内容与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "名词性从句在句中作主语、宾语或表语。引导词都起连接作用。有的引导词还在从句中作成分，如 what。有的还带有疑问意义，如 whether。"
+    },
+    {
+     "box": "That the room is ready is clear. / What the room needs is a table."
+    },
+    {
+     "p": "第一句的 that 只起连接作用，从句内部成分完整。第二句的 what 在从句中作 needs 的宾语，表示所需要的东西。"
+    }
+   ]
+  },
+  {
+   "id": "positions",
+   "type": "table",
+   "title": "从句的位置",
+   "cols": [
+    "位置",
+    "结构",
+    "例句"
+   ],
+   "rows": [
+    [
+     "主语从句",
+     "从句整体作句子主语",
+     "What she chose is on the desk."
+    ],
+    [
+     "主语从句",
+     "whether 引导放在句首的主语从句",
+     "Whether the room is free remains uncertain."
+    ],
+    [
+     "宾语从句",
+     "从句整体作动词宾语",
+     "She knows that the room is free."
+    ],
+    [
+     "宾语从句",
+     "介词后用 whether 引导从句",
+     "They discussed the question of whether the room was free."
+    ],
+    [
+     "表语从句",
+     "从句位于系动词后",
+     "The question is whether the room is free."
+    ],
+    [
+     "表语从句",
+     "疑问副词表示时间、地点、方式或原因",
+     "The question is where the group will meet."
+    ]
+   ],
+   "note": "名词性从句使用陈述语序，如 where the group will meet。"
+  },
+  {
+   "id": "that-what",
+   "type": "table",
+   "title": "辨析：that 与 what",
+   "cols": [
+    "情况",
+    "that 从句",
+    "what 从句"
+   ],
+   "rows": [
+    [
+     "主语从句",
+     "That the door is open is clear.",
+     "What opened the door is unknown."
+    ],
+    [
+     "宾语从句",
+     "She knows that the door is open.",
+     "She knows what opened the door."
+    ],
+    [
+     "从句缺宾语",
+     "She said that the guide brought a map.",
+     "She described what the guide brought."
+    ],
+    [
+     "表语从句",
+     "The fact is that the map is old.",
+     "The question is what the map shows."
+    ]
+   ],
+   "note": "that 只起连接作用，不在从句中作成分。what 在从句中作主语或宾语，意思是「所……的事物」。"
+  },
+  {
+   "id": "whether-if",
+   "type": "table",
+   "title": "辨析：whether 与 if",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "动词后的宾语从句",
+     "表示是否，一般 whether 和 if 都可用",
+     "She asked whether the room was free. / She asked if the room was free."
+    ],
+    [
+     "句首主语从句",
+     "用 whether",
+     "Whether it will rain is uncertain."
+    ],
+    [
+     "表语从句",
+     "用 whether",
+     "The question is whether it will rain."
+    ],
+    [
+     "介词后的从句",
+     "用 whether",
+     "They discussed the question of whether it would rain."
+    ],
+    [
+     "后面紧跟 or not",
+     "用 whether",
+     "She asked whether or not it would rain."
+    ]
+   ],
+   "note": "if 还可引导条件状语从句，表示条件，如 If it rains, we will stay inside。"
+  },
+  {
+   "id": "adverbs",
+   "type": "table",
+   "title": "疑问副词",
+   "cols": [
+    "意义",
+    "引导词",
+    "例句"
+   ],
+   "rows": [
+    [
+     "地点",
+     "where 作地点状语",
+     "She asked where the group would meet."
+    ],
+    [
+     "时间",
+     "when 作时间状语",
+     "She asked when the group would meet."
+    ],
+    [
+     "方式",
+     "how 作方式状语",
+     "She explained how the group would travel."
+    ],
+    [
+     "原因",
+     "why 作原因状语",
+     "She explained why the group would travel by train."
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "component"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "___ the guide brought was a map. Choose what or that.",
+       "accept": [
+        "What"
+       ],
+       "why": "brought 缺宾语，what 表示带来的东西。",
+       "point": "component"
+      },
+      {
+       "stem": "___ the guide brought a map was clear. Choose what or that.",
+       "accept": [
+        "That"
+       ],
+       "why": "从句的主语、谓语和宾语完整，that 只起连接作用。",
+       "point": "component"
+      },
+      {
+       "stem": "The guide explained ___ the map showed. Choose what or that.",
+       "accept": [
+        "what"
+       ],
+       "why": "showed 缺宾语，what 指地图显示的内容。",
+       "point": "component"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "connector"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The question is ___ the museum is open. Choose whether or if.",
+       "accept": [
+        "whether"
+       ],
+       "why": "表语从句表示是否，用 whether。",
+       "point": "connector"
+      },
+      {
+       "stem": "The guide asked ___ the museum was open. Choose whether or if.",
+       "accept": [
+        "whether",
+        "if"
+       ],
+       "why": "动词后的宾语从句表示是否，可用 whether 或 if。",
+       "point": "connector"
+      },
+      {
+       "stem": "The guide asked ___ the group would meet. The answer was 'at the gate'. Fill in one word.",
+       "accept": [
+        "where"
+       ],
+       "why": "at the gate 是地点，where 引导地点疑问从句。",
+       "point": "connector"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-three",
+   "type": "check",
+   "title": "练习三",
+   "points": [
+    "component",
+    "connector"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The guide said ___ the bridge was open. Choose what or that.",
+       "accept": [
+        "that"
+       ],
+       "why": "从句主语与谓语完整，that 引导陈述内容。",
+       "point": "component"
+      },
+      {
+       "stem": "They discussed the question of ___ the bridge was open. Choose whether or if.",
+       "accept": [
+        "whether"
+       ],
+       "why": "介词 of 后的疑问从句用 whether。",
+       "point": "connector"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "component",
+    "connector"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "A school club is planning a small book exchange. The members want to make sure that everyone understands the arrangements. At their first meeting, the leader explained [1] the exchange would take place in the hall. She then asked the group to decide what information should go on a notice. One member asked [2] the event would begin. The leader answered that the doors would open at ten. Another member wanted to know [3] students could bring more than one book. The leader said they could, provided each book was in good condition. The group also discussed the question of [4] visitors from other schools should be invited. They agreed to ask the principal before making that decision. A student offered to write the notice. [5] she needed was a list of the agreed details. The leader gave her the list after the meeting. The group will check the finished notice before it is displayed. Members also plan to prepare a table for books and another for visitors to write their names. After the exchange, the group will count the remaining books. It will then ask the library whether it can use them for a future event. The members will return any books that their owners wish to keep.",
+       "items": [
+        {
+         "stem": "The leader explained ___ the exchange would take place in the hall. Choose what or that.",
+         "accept": [
+          "that"
+         ],
+         "why": "从句主语与谓语完整，that 引导陈述内容。",
+         "point": "component"
+        },
+        {
+         "stem": "One member asked ___ the event would begin. The answer was 'at ten'. Fill in one word.",
+         "accept": [
+          "when"
+         ],
+         "why": "at ten 表示时间，用 when 引导疑问从句。",
+         "point": "connector"
+        },
+        {
+         "stem": "Another member wanted to know ___ students could bring more than one book. Choose whether or if.",
+         "accept": [
+          "whether",
+          "if"
+         ],
+         "why": "动词后的宾语从句表示是否，可用 whether 或 if。",
+         "point": "connector"
+        },
+        {
+         "stem": "The group discussed the question of ___ visitors should be invited. Choose whether or if.",
+         "accept": [
+          "whether"
+         ],
+         "why": "介词 of 后的疑问从句用 whether。",
+         "point": "connector"
+        },
+        {
+         "stem": "___ the student needed was a list of the agreed details. Choose what or that.",
+         "accept": [
+          "What"
+         ],
+         "why": "needed 缺宾语，what 表示需要的东西。",
+         "point": "component"
+        }
+       ]
+      },
+      {
+       "text": "A community group wants to improve a small courtyard. At a meeting, the members first examined a plan of the space. One member explained [1] the eastern wall received sunlight in the morning. Another asked [2] the group could place seats. The answer was along the eastern wall, leaving the center clear. The question of [3] the group had enough money for new seats remained open. The members decided to ask local businesses about spare materials. A volunteer then described [4] she had found in a storage room: several clean wooden boards. The boards could be used for a simple bench after they were checked. The leader said that a carpenter should examine them first. The next question was [5] the carpenter would be available on Saturday. The group would set a date only after receiving an answer. Members also talked about how to keep the courtyard clear while the work was in progress. They planned to put tools away at the end of each day and leave the entrance open. The leader wrote down the decisions in a notebook. At the next meeting, she would report the carpenter's reply and the results of the request for materials. The group would then decide which work could begin first.",
+       "items": [
+        {
+         "stem": "One member explained ___ the eastern wall received sunlight in the morning. Choose what or that.",
+         "accept": [
+          "that"
+         ],
+         "why": "从句主语和谓语完整，that 引导陈述内容。",
+         "point": "component"
+        },
+        {
+         "stem": "Another member asked ___ the group could place seats. The answer was 'along the eastern wall'. Fill in one word.",
+         "accept": [
+          "where"
+         ],
+         "why": "along the eastern wall 表示地点，用 where。",
+         "point": "connector"
+        },
+        {
+         "stem": "The question of ___ the group had enough money remained open. Choose whether or if.",
+         "accept": [
+          "whether"
+         ],
+         "why": "介词 of 后的疑问从句用 whether。",
+         "point": "connector"
+        },
+        {
+         "stem": "A volunteer described ___ she had found in a storage room. Choose what or that.",
+         "accept": [
+          "what"
+         ],
+         "why": "had found 缺宾语，what 表示找到的东西。",
+         "point": "component"
+        },
+        {
+         "stem": "The next question was ___ the carpenter would be available on Saturday. Choose whether or if.",
+         "accept": [
+          "whether"
+         ],
+         "why": "表语从句表示是否，用 whether。",
+         "point": "connector"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

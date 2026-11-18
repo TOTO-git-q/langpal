@@ -1,0 +1,68 @@
+{
+ "id": "reading-completion-table",
+ "title": "阅读表格填空",
+ "goal": "按行列和限定条件提取表格信息。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "axes", "label": "确定表格的对象与比较维度"},
+  {"id": "align", "label": "提取符合行列条件的信息"}
+ ],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "阅读表格填空的教学内容"}],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "表格按行列组织信息。行可列出研究方法或历史时期，列可标明比较维度。"},
+   {"p": "每个空格对应一行的对象和一列的属性。对象、数据和条件在原文中常分散在相邻的几句里。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定行列", "d": "阅读行名与列名。Interview 是方法，Purpose 是比较维度。"},
+   {"t": "2　查找原文", "d": "先定位这一行的对象，再找这一列要的属性。答案跨句时，核对代词指的是哪个对象。"},
+   {"t": "3　检查条件", "d": "保留限制信息，例如 only in winter 表示仅限冬季。数字栏同时核对单位。"},
+   {"t": "4　提取答案", "d": "按题面词数要求提取原词。单位已写在表格中时，填入数字即可。"}
+  ]},
+  {"id": "axes", "type": "table", "title": "表格的行列", "cols": ["行对象", "列属性", "对应内容"], "rows": [
+   ["Interview", "Purpose", "collect descriptions"],
+   ["Survey", "Purpose", "compare responses"],
+   ["Early period", "Material", "clay"],
+   ["Later period", "Material", "glass"]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [
+   {"box": "In the first trial, the water was heated for 20 minutes. In the second, it was heated for 30 minutes, but only after filtering.\n\nTrial | Heating time (minutes)\nFirst | 20\nSecond | _____\nComplete with ONE NUMBER from the passage."},
+   {"p": "依据是 In the second, it was heated for 30 minutes。第二行填 30；minutes 已在列标题中。过滤是第二次试验的前提。"}
+  ]},
+  {"id": "distractors", "type": "table", "title": "干扰项", "cols": ["情况", "例", "核对"], "rows": [
+   ["相邻行移位", "first: 20; second: 30", "second 行对应 30"],
+   ["单位重复", "time (minutes): 30", "只填数字 30"],
+   ["条件遗漏", "only after filtering", "加热前须过滤"],
+   ["维度混淆", "purpose / material", "分别对应目的和材料"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["axes", "align"], "groups": [
+   {"text": "The first survey used paper forms. The second survey used an online form.\nMethod | Form\nFirst survey | paper\nSecond survey | _____", "items": [{"stem": "Complete the table with ONE WORD from the passage.", "accept": ["online"], "why": "The second survey used an online form 确定第二行的形式。", "point": "axes"}]},
+   {"text": "The early workshop used stone tools; the later workshop used iron tools.\nPeriod | Tool material\nEarly | stone\nLater | _____", "items": [{"stem": "Complete the table with ONE WORD from the passage.", "accept": ["iron"], "why": "the later workshop used iron tools 确定时期与材料的对应。", "point": "axes"}]},
+   {"text": "The first sample weighed 8 grams; the second weighed 12 grams.\nSample | Weight (grams)\nSecond | _____", "items": [{"stem": "Complete the table with ONE NUMBER from the passage.", "accept": ["12"], "why": "the second weighed 12 grams，单位已列在表头。", "point": "align"}]},
+   {"text": "The coating was applied after the wood had dried. The metal was painted immediately.\nObject | Condition before coating\nWood | _____", "items": [{"stem": "Complete the table with ONE WORD from the passage.", "accept": ["dried"], "why": "after the wood had dried 指出涂层施加前的木材状态。", "point": "align"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["axes", "align"], "groups": [{
+   "text": "A researcher compared two ways of recording visitors' responses. Interviews allowed visitors to explain their reasons in detail. A questionnaire collected responses from a larger group. Each interview lasted 15 minutes, whereas the questionnaire took 5 minutes to complete.\n\nMethod | Benefit | Time (minutes)\nInterview | detailed reasons | (1)\nQuestionnaire | larger group | (2)",
+   "items": [
+    {"stem": "Complete (1) with ONE NUMBER from the passage.", "accept": ["15"], "why": "Each interview lasted 15 minutes 给出访谈用时。", "point": "align"},
+    {"stem": "Complete (2) with ONE NUMBER from the passage.", "accept": ["5", "five"], "why": "the questionnaire took 5 minutes 确定问卷行的数值。", "point": "axes"}
+   ]
+  }]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["axes", "align"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A research team wished to learn how visitors used a small public garden. The team compared two methods: observation and interviews. Each supplied a different kind of information. The observers could count activities as they happened, while interviews allowed visitors to explain their reasons for choosing particular areas. The researchers planned the work so that neither method would be treated as a complete account of every visitor's experience.\n\nDuring observation sessions, a researcher sat near the entrance and recorded the number of people using each path. The researcher did not record names. Each session lasted 20 minutes and was repeated at different times of day. Rain was noted in the record because it could affect the number of visitors. The team used the counts to compare the paths, but the figures did not reveal why an individual chose one route over another.\n\nInterviews were held beside the exit. The researcher asked participants about their choice of route and wrote down their explanations. Each interview lasted 10 minutes, and participation was voluntary. The team did not assume that the people who agreed to speak represented every visitor. After collecting the records, researchers grouped similar explanations and compared them with the observations. For example, a frequently used path might also be described as convenient, but the two records alone could not establish that convenience was the cause of every journey along it. Keeping the methods separate helped the team state what each set of evidence could support. Both methods were useful when their different limits were recognised.\n\nMethod | Information | Duration (minutes)\nObservation | path use counts | (1)\nInterview | visitors' (2) | (3)",
+    "items": [
+     {"stem": "Complete (1) with ONE NUMBER from the passage.", "accept": ["20"], "why": "依据是 Each session lasted 20 minutes。单位已在表头，只填 20。", "point": "axes"},
+     {"stem": "Complete (2) with ONE WORD from the passage.", "accept": ["explanations"], "why": "依据是 asked participants about their choice of route and wrote down their explanations，填 explanations。", "point": "align"},
+     {"stem": "Complete (3) with ONE NUMBER from the passage.", "accept": ["10"], "why": "Each interview lasted 10 minutes 确定访谈时长。", "point": "axes"}
+    ]},
+   {"look": "passage", "text": "A museum catalogue describes changes in the containers made by one workshop over several periods. The entries are based on objects that survive in the collection, rather than a complete record of everything the workshop produced. Curators therefore compare features of the surviving examples without assuming that each example represents every object made at that time. The catalogue separates material, decoration and use so that a change in one feature is not mistaken for a change in another.\n\nIn the early period, the surviving containers were made of clay. Their surfaces were plain, and several had narrow openings. The catalogue records the narrow openings as a feature of these examples, but it does not say what was kept inside them. In the middle period, glass became the material used in the surviving examples. Some were decorated with lines around the neck, while others had no decoration. The workshop's records for this period do not explain why the two finishes differed.\n\nThe later examples were also glass, but several carried a coloured band rather than lines around the neck. A note in the catalogue says that the band was applied only after the container had cooled. The curators distinguish this procedure from the shaping of the container itself. They also record the condition of the surviving objects, including damage that occurred after manufacture. That later damage is not treated as evidence of how the containers were originally made. By keeping these categories separate, the catalogue allows readers to compare the evidence without adding unsupported explanations.\n\nPeriod | Material | Feature\nEarly | (1) | plain surface\nMiddle | glass | some had (2) around the neck\nLater | glass | band applied once container had (3)",
+    "items": [
+     {"stem": "Complete (1) with ONE WORD from the passage.", "accept": ["clay"], "why": "依据是 In the early period, the surviving containers were made of clay，填 clay。", "point": "axes"},
+     {"stem": "Complete (2) with ONE WORD from the passage.", "accept": ["lines"], "why": "依据是中期一段的 Some were decorated with lines around the neck，填 lines。", "point": "align"},
+     {"stem": "Complete (3) with ONE WORD from the passage. The table entry means the band was applied after the container had _____.", "accept": ["cooled"], "why": "after the container had cooled 表示冷却后再加色带。", "point": "align"}
+    ]}
+  ]}]}
+ ]
+}

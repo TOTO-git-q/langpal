@@ -1,0 +1,54 @@
+{
+ "id": "writing-problem-cause", "title": "因果与条件结构", "goal": "能准确连接原因与结果，并用条件限定措施效果。", "skill": "写作", "exam": "雅思 IELTS Academic", "mastery": "once",
+ "points": [{"id": "causal", "label": "准确连接原因与结果"}, {"id": "conditional", "label": "用条件结构限定措施效果"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "因果与条件结构的内容和教学规格"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "因果句连接原因和结果。条件句说明结果在什么前提下出现。措施的效果要看条件时，用 if 从句表达。"}, {"box": "Because the drain is blocked, water collects on the path. If the drain is cleared, water may flow away."}, {"p": "堵塞是积水的原因。清理排水沟是水流走的条件。may 表示这只是可能的结果。"}]},
+  {"id": "because", "type": "table", "title": "原因从句", "cols": ["形式", "关系", "例句"], "rows": [
+   ["because + 从句", "堵塞导致积水", "Water collects because the drain is blocked."],
+   ["because + 从句", "班次少导致等候", "Passengers wait longer because buses run infrequently."],
+   ["because + 从句", "标识过时导致迷路", "Visitors lose their way because the signs are outdated."],
+   ["because + 从句", "收集不及时导致满溢", "Bins overflow because collection is delayed."]
+  ]},
+  {"id": "phrases", "type": "table", "title": "原因短语与结果", "cols": ["形式", "关系", "例句"], "rows": [
+   ["due to + 名词", "堵塞导致积水", "Water collects due to a blocked drain."],
+   ["due to + 名词", "班次少导致等候", "Passengers wait longer due to infrequent buses."],
+   ["due to + 名词", "旧标识导致迷路", "Visitors lose their way due to outdated signs."],
+   ["due to + 名词", "清运延迟导致满溢", "Bins overflow due to delayed collection."],
+   ["lead to + 结果", "堵塞导致积水", "A blocked drain can lead to standing water."],
+   ["lead to + 结果", "班次少导致等候", "Infrequent buses can lead to longer waits."],
+   ["lead to + 结果", "旧标识导致迷路", "Outdated signs can lead to confusion."],
+   ["lead to + 结果", "清运延迟导致满溢", "Delayed collection can lead to overflowing bins."]
+  ]},
+  {"id": "conditions", "type": "table", "title": "条件与可能结果", "cols": ["条件", "可能结果", "例句"], "rows": [
+   ["排水沟得到清理", "水可能流走", "If the drain is cleared, water may flow away."],
+   ["增加班次", "等候可能缩短", "If buses run more often, waits may become shorter."],
+   ["标识得到更新", "访客可能更容易找到服务台", "If signs are updated, visitors may find the desk more easily."],
+   ["增加收集频率", "满溢可能减少", "If bins are emptied more often, overflowing may become less frequent."]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["causal", "conditional"], "groups": [{"items": [
+   {"stem": "A blocked drain causes water to collect. Which sentence preserves the direction?", "options": ["Water collects because the drain is blocked.", "The drain blocks because water collects.", "Water collects although the drain is blocked.", "The drain collects because the water is blocked."], "answer": 0, "why": "because 从句给出原因 the drain is blocked，主句给出积水结果。", "point": "causal"},
+   {"stem": "Infrequent buses cause long waits. Which sentence uses due to correctly?", "options": ["Passengers wait because of buses run infrequently.", "Passengers wait longer due to infrequent buses.", "Passengers wait due to buses are infrequent.", "Infrequent buses are due to passengers wait longer."], "answer": 1, "why": "due to 后接名词短语 infrequent buses，主句说明结果。", "point": "causal"},
+   {"stem": "Clearing a drain may allow water to flow away. Which sentence states the condition and a possible result?", "options": ["If water flows away, the drain may be cleared.", "If the drain is cleared, water will certainly flow away.", "If the drain is cleared, water may flow away.", "If the drain is blocked, water may flow away."], "answer": 2, "why": "if 从句写清理这一条件，may 表达可能的结果。", "point": "conditional"},
+   {"stem": "More frequent collection may reduce overflowing. Which sentence avoids claiming a guaranteed result?", "options": ["If collection is delayed, bins may overflow less often.", "If bins overflow, collection certainly increases.", "If collection increases, all overflow is impossible.", "If collection increases, overflow may become less frequent."], "answer": 3, "why": "may 表达可能性，条件是提高清运频率。", "point": "conditional"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["causal", "conditional"], "groups": [{"items": [
+   {"stem": "Outdated signs cause confusion. Which sentence places the result after lead to?", "options": ["Confusion can lead to the signs being outdated.", "Outdated signs can lead to visitor confusion.", "Outdated signs can result from confusion.", "Confusion can lead visitors to outdated signs."], "answer": 1, "why": "lead to 后的 visitor confusion 是结果，outdated signs 是原因，即第二项。", "point": "causal"},
+   {"stem": "Updated signs may help visitors find the desk. Which conditional sentence retains that uncertainty?", "options": ["If signs are updated, visitors will always find the desk.", "If visitors find the desk, the signs may be updated.", "If signs are updated, visitors may find the desk more easily.", "If signs remain outdated, visitors may find the desk more easily."], "answer": 2, "why": "if 引出更新标识的条件，may 保留效果的不确定性。", "point": "conditional"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["causal", "conditional"], "sets": [{"id": "set-a", "groups": [
+   {"text": "A path becomes wet after rain because a drain is blocked. The local authority is considering clearing the drain. If the opening is clear, water may flow away rather than collect on the path. Other drainage problems could still require attention after the blockage is removed.", "items": [
+    {"stem": "Which sentence correctly states the cause of water collecting?", "options": ["Water collects because the drain is blocked.", "The drain is blocked because water collects.", "Water flows away because the drain is blocked.", "Water collects because the drain has been cleared."], "answer": 0, "why": "题面说明排水沟堵塞导致水积在路面。", "point": "causal"},
+    {"stem": "Which sentence gives the stated condition and possible result?", "options": ["If water collects, the drain may be cleared.", "If the drain is cleared, water may flow away.", "If the drain is cleared, every drainage problem ends.", "If it rains, water may flow away."], "answer": 1, "why": "清理堵塞是条件，may flow away 表达可能结果。", "point": "conditional"},
+    {"stem": "Complete the cause sentence using due to.", "lead": "Water collects", "chunks": ["on the path", "due to", "the blocked", "drain"], "tail": ".", "extra": ["because"], "why": "due to 后接名词短语 the blocked drain。", "point": "causal"},
+    {"stem": "Complete the conditional statement.", "lead": "If the drain", "chunks": ["is cleared,", "water may", "flow", "away"], "tail": ".", "extra": ["flowing"], "why": "if 从句说明条件，may flow away 表示可能结果。", "point": "conditional"}
+   ]},
+   {"text": "A library has received complaints that visitors cannot find its service desk. Its signs still point towards an old entrance, which can cause confusion. The management is considering updating the signs. If the new directions are clear, visitors may find the desk more easily, although other changes to the building may also be needed.", "items": [
+    {"stem": "Which sentence states the causal direction?", "options": ["Confusion causes the signs to point towards an old entrance.", "Visitor complaints can lead to outdated directions.", "Outdated directions can lead to confusion among visitors.", "Updated signs can lead to confusion among visitors."], "answer": 2, "why": "旧方向信息是原因，confusion 是 lead to 后面的结果。", "point": "causal"},
+    {"stem": "Which sentence retains the condition and uncertainty?", "options": ["If visitors find the desk, the signs may be updated.", "If signs are clear, every building issue is solved.", "If signs still point to the old entrance, visitors may find the desk.", "If directions are clear, visitors may find the desk more easily."], "answer": 3, "why": "清晰指示是条件，may 保留更易找到服务台的可能性。", "point": "conditional"},
+    {"stem": "Complete a sentence using lead to.", "lead": "Outdated signs", "chunks": ["can lead", "to confusion", "among", "visitors"], "tail": ".", "extra": ["leading"], "why": "lead to 后接结果 confusion，原因是 outdated signs。", "point": "causal"},
+    {"stem": "Complete the conditional statement.", "lead": "If the directions", "chunks": ["are clear,", "visitors may find", "the service desk", "more easily"], "tail": ".", "extra": ["finding"], "why": "if 从句限定条件，may find 表达可能效果。", "point": "conditional"}
+   ]}
+  ]}]} 
+ ]
+}

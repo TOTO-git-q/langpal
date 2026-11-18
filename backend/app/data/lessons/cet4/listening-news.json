@@ -1,0 +1,256 @@
+{
+  "id": "listening-news",
+  "title": "短篇新闻 · 练习",
+  "goal": "听一遍新闻，准确判断核心事件、事实细节与因果关系。",
+  "skill": "listening",
+  "exam": "大学英语四级（CET-4）",
+  "points": [
+    {
+      "id": "gist",
+      "label": "概括新闻的核心事件"
+    },
+    {
+      "id": "detail",
+      "label": "准确对应新闻事实"
+    },
+    {
+      "id": "cause",
+      "label": "区分新闻原因与结果"
+    }
+  ],
+  "sources": [
+    {
+      "id": "c1",
+      "title": "CET笔试",
+      "url": "https://cet.neea.edu.cn/html1/folder/16113/1586-1.htm",
+      "used": "考试题型、题量与时间。"
+    },
+    {
+      "id": "c2",
+      "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+      "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+      "used": "材料长度、作答形式与总体评分描述；练习材料为原创。"
+    },
+    {
+      "id": "c3",
+      "title": "分数解释",
+      "url": "https://cet.neea.edu.cn/html1/folder/19081/5124-1.htm",
+      "used": "报道分与卷面权重的区别。"
+    }
+  ],
+  "cards": [
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "小测",
+      "minutes": 4,
+      "points": [
+        "gist",
+        "detail",
+        "cause"
+      ],
+      "pass": 0.75,
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "audio": {
+                "intro": "",
+                "lines": [
+                  {
+                    "who": "A",
+                    "text": "A small town library has opened a lending service for household tools after residents asked for help with occasional repair jobs. The collection includes basic equipment such as hammers and hand drills, but no electrical tools. Library staff said the decision followed a survey showing that many people bought tools they used only once. Adults with a library card can borrow up to two items for seven days without paying a fee. Before taking an item home, borrowers must attend a short safety demonstration at the desk. The tools were donated by a local repair group and checked by trained volunteers. Books will continue to occupy their usual shelves, while the new collection is stored in a separate room near the entrance. Staff will review borrowing records after three months before deciding whether to expand it. They stressed that the service provides equipment, not home visits or professional repairs for residents."
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "stem": "What is the report mainly about?",
+                  "options": [
+                    "A library replacing books with repair equipment.",
+                    "A library starting a service for borrowing tools.",
+                    "A repair group charging for visits to homes.",
+                    "A town opening a shop for electrical tools."
+                  ],
+                  "answer": 1,
+                  "why": "导语说明图书馆新增工具借用服务；原有图书仍保留，并非用工具替代图书。",
+                  "point": "gist"
+                },
+                {
+                  "stem": "What must borrowers do before taking a tool home?",
+                  "options": [
+                    "Donate an item to the collection.",
+                    "Pay for a seven-day membership.",
+                    "Visit a volunteer at home.",
+                    "Attend a brief safety demonstration."
+                  ],
+                  "answer": 3,
+                  "why": "原文要求借用前参加安全演示；七天是借期，不是收费会员期限。",
+                  "point": "detail"
+                }
+              ]
+            },
+            {
+              "audio": {
+                "intro": "",
+                "lines": [
+                  {
+                    "who": "A",
+                    "text": "A riverside park has moved its weekly outdoor market to a nearby school yard while workers repair the main footbridge. An inspection found loose boards on the bridge, which normally provides the shortest route from the bus stop to the market. The bridge was closed before the market opened, and no injuries were reported. Organizers rejected a proposal to cancel the market because several farmers had already prepared fresh produce. Instead, the school offered its yard free of charge for two Saturdays. Signs at the bus stop now direct visitors along a different street, adding about five minutes to the walk. Delivery vehicles must arrive before eight in the morning so that the yard can remain free of traffic during trading hours. Repairs are expected to finish within ten days, but the market will return only after a final safety check. The park itself remains open through its other two entrances."
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "stem": "Why was the footbridge closed?",
+                  "options": [
+                    "Some of its boards were loose.",
+                    "Farmers needed space to park vehicles.",
+                    "A visitor had been injured there.",
+                    "The school required a new entrance."
+                  ],
+                  "answer": 0,
+                  "why": "检查发现桥板松动，因此封桥；报道明确说没有人员受伤。",
+                  "point": "cause"
+                },
+                {
+                  "stem": "Why did organizers decide to keep the market running?",
+                  "options": [
+                    "The park had lost both its other entrances.",
+                    "Bus services had stopped for two Saturdays.",
+                    "Farmers had already prepared fresh produce.",
+                    "Repairs had already passed the final check."
+                  ],
+                  "answer": 2,
+                  "why": "农户已备好新鲜农产品，是没有取消集市的直接原因；最终检查尚未完成。",
+                  "point": "cause"
+                },
+                {
+                  "stem": "What must happen before the market returns to the park?",
+                  "options": [
+                    "The school must begin charging a fee.",
+                    "The bridge must pass a final safety check.",
+                    "Delivery vehicles must stop using the yard.",
+                    "The bus stop must move to a new street."
+                  ],
+                  "answer": 1,
+                  "why": "回迁条件是通过最终安全检查；十天只是预计工期，不等于已经可以回迁。",
+                  "point": "detail"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "audio": {
+                "intro": "",
+                "lines": [
+                  {
+                    "who": "A",
+                    "text": "A community swimming pool has introduced quiet sessions for visitors who find its usual busy atmosphere uncomfortable. During the sessions, background music is turned off and staff limit the number of people entering the water. The pool manager said the idea came from written comments rather than a fall in general attendance. Several visitors had explained that they enjoyed swimming but avoided the building when music and crowds made conversation difficult. The new sessions take place on Tuesday and Thursday mornings, using hours that previously had few customers. Admission prices remain unchanged, and visitors can book by telephone as well as online. The manager emphasized that the sessions are open to anyone who prefers a quieter setting, not just people of a particular age. Lifeguards remain on duty throughout. Staff will collect comments for six weeks before deciding whether to add an evening session for residents who work during the day."
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "stem": "What has the swimming pool introduced?",
+                  "options": [
+                    "Discounted lessons for older residents.",
+                    "Evening sessions without lifeguards.",
+                    "Swimming sessions with less noise and fewer visitors.",
+                    "A requirement to book all visits online."
+                  ],
+                  "answer": 2,
+                  "why": "新安排同时关闭背景音乐并限制人数；没有限定老年人参加，也未减少救生员。",
+                  "point": "gist"
+                },
+                {
+                  "stem": "What led the manager to introduce the sessions?",
+                  "options": [
+                    "Visitors' written comments about the atmosphere.",
+                    "A sudden fall in attendance at all times.",
+                    "A request to reduce the price of admission.",
+                    "Workers' inability to attend evening sessions."
+                  ],
+                  "answer": 0,
+                  "why": "经理明确说想法来自书面意见，而非整体客流下降；晚间场次尚在考虑中。",
+                  "point": "cause"
+                }
+              ]
+            },
+            {
+              "audio": {
+                "intro": "",
+                "lines": [
+                  {
+                    "who": "A",
+                    "text": "A small railway museum has changed the way it displays its oldest tickets after finding that visitors struggled to read them behind glass. Rather than move the fragile originals into brighter light, staff have placed enlarged copies beside the display cases. Visitors can turn the copies over to examine both sides, while the originals stay protected. The museum's education officer said that the copies also show details which are difficult to notice on the small tickets, including printed conditions about luggage. Volunteers made the copies from photographs already held in the museum's collection, so no new handling of the old tickets was necessary. A separate recording describes the printing process, but visitors do not need to listen to it to understand the display. The museum plans to ask school groups which version they find easier to use. Staff said the project is intended to improve access, not to replace the collection with digital screens."
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "stem": "What is the main purpose of the change?",
+                  "options": [
+                    "To sell old tickets to visiting schools.",
+                    "To replace every display with a digital screen.",
+                    "To teach volunteers how to handle originals.",
+                    "To make details on old tickets easier to examine."
+                  ],
+                  "answer": 3,
+                  "why": "改动针对看不清票面细节的问题；结尾明确排除用屏幕替代馆藏的目的。",
+                  "point": "gist"
+                },
+                {
+                  "stem": "How did volunteers make the enlarged copies?",
+                  "options": [
+                    "They removed the original tickets from their cases.",
+                    "They used photographs already in the collection.",
+                    "They copied information from the sound recording.",
+                    "They asked school groups to draw the tickets."
+                  ],
+                  "answer": 1,
+                  "why": "复制件使用馆内已有照片制作，没有重新拿取原票；录音讲的是印刷过程。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "Why were the original tickets not placed in brighter light?",
+                  "options": [
+                    "Their printed conditions had already been removed.",
+                    "The museum intended to sell their display cases.",
+                    "They were fragile and needed protection.",
+                    "Visitors preferred to use digital screens."
+                  ],
+                  "answer": 2,
+                  "why": "原票脆弱，需要继续保护；放大复制件解决可读性问题，无须改变原票的保存条件。",
+                  "point": "cause"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "more": {
+        "kind": "news",
+        "topics": [
+          "公交站维修、社区图书交换",
+          "公园步道维护、文化馆开放",
+          "游泳馆服务、社区花园",
+          "校园节水、博物馆展览",
+          "公共自行车、旧物回收",
+          "社区运动场、阅读活动",
+          "便民市场、车站导向标志",
+          "公共厕所维修、社区义工",
+          "校园食堂、郊区步行路线",
+          "图书车服务、社区种植",
+          "城市绿地、公共饮水设施",
+          "文化活动场地、公共座椅维修"
+        ]
+      }
+    }
+  ]
+}

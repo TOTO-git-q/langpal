@@ -1,0 +1,63 @@
+{
+ "id": "reading-overview",
+ "title": "阅读部分概览",
+ "goal": "区分阅读两节的作答形式、题量和计分，并识别课程训练设置。",
+ "skill": "阅读",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "format", "label": "区分阅读理解与七选五的作答形式"},
+  {"id": "scoring", "label": "说出题量分值并区分训练时间"}
+ ],
+ "sources": [
+  {"id": "g4", "title": "2024英语新课标适应性测试，第3页（G4）", "url": "https://www.neea.edu.cn/res/Home/2401/24010501.jpg", "used": "阅读理解题量、计分和作答形式"},
+  {"id": "g5", "title": "2024英语新课标适应性测试，第8页（G5）", "url": "https://www.neea.edu.cn/res/Home/2401/24010506.jpg", "used": "七选五题量、计分和作答形式"},
+  {"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "课程练习和模拟测试设置"}
+ ],
+ "cards": [
+  {
+   "id": "facts", "type": "facts", "title": "概述",
+   "rows": [
+    {"k": "阅读理解", "v": "2024 年官方适应性测试的阅读第一节有 15 题，每题 2.5 分，共 37.5 分。", "src": "g4 适应性测试第 3 页"},
+    {"k": "七选五", "v": "阅读第二节有 5 题，每题 2.5 分，共 12.5 分。", "src": "g5 适应性测试第 8 页"},
+    {"k": "阅读总分", "v": "两节合计 20 题，共 50 分。", "src": "g4 适应性测试第 3 页；g5 适应性测试第 8 页"}
+   ]
+  },
+  {
+   "id": "types", "type": "table", "title": "题型",
+   "cols": ["题型", "材料与任务", "作答形式"],
+   "rows": [
+    ["阅读理解", "读短文，回答文后的问题。", "每题从 4 个选项中选 1 项。"],
+    ["七选五", "文章中有 5 处空缺，选句子填回原处。", "从 7 个选项中选 5 项，余 2 项不用。"]
+   ],
+   "src": "g4 适应性测试第 3 页；g5 适应性测试第 8 页"
+  },
+  {
+   "id": "training", "type": "table", "title": "课程训练设置",
+   "cols": ["训练", "课程设置", "说明"],
+   "rows": [
+    ["阅读理解练习", "1 篇短文，4 题，8 分钟。", "阅读理解的篇数尚未从官方资料中确认。"],
+    ["阅读模拟测试", "阅读理解 4 篇 15 题，七选五 5 题。", "4 篇是本课程的组卷方式。"],
+    ["模拟测试时间", "两类题合计限时 39 分钟。", "各节的官方时长尚未确认。"],
+    ["概览课小测", "限时 4 分钟。", "只用于课程训练。"]
+   ],
+   "note": "以上为本课程的建议，不是官方规定。"
+  },
+  {
+   "id": "timed", "type": "quiz", "title": "小测", "minutes": 4, "pass": 0.8,
+   "points": ["format", "scoring"],
+   "sets": [{"id": "set-a", "groups": [
+    {"look": "passage", "text": "In the 2024 official sample, the first reading section contains 15 questions. Each question asks the reader to choose one answer from four options. The second section has five gaps in a text and seven sentence options. Two options are left unused. Each reading question is worth 2.5 points, giving the two sections a total of 50 points.", "items": [
+     {"stem": "How is an answer selected in the first reading section?", "options": ["Choose one option from a set of four.", "Choose five sentences from a set of seven.", "Choose two sentences from a set of four.", "Choose one option from a set of seven."], "answer": 0, "why": "依据 choose one answer from four options：阅读理解每题四选一，即第一项。", "point": "format"},
+     {"stem": "What happens to the sentence options in the second section?", "options": ["All seven sentences fill gaps in the text.", "Five sentences are used and two remain unused.", "Four sentences are used and one remains unused.", "Two sentences are used and five remain unused."], "answer": 1, "why": "依据 five gaps 和 Two options are left unused：七个句子用五个，两个不用，即第二项。", "point": "format"},
+     {"stem": "How many questions are in the first reading section?", "options": ["Five questions worth 2.5 points each", "Seven questions worth 2.5 points each", "Fifteen questions worth 2.5 points each", "Twenty questions worth 2.5 points each"], "answer": 2, "why": "依据 the first reading section contains 15 questions，第一节有 15 题。", "point": "scoring"},
+     {"stem": "How many points can be earned across both reading sections?", "options": ["A total of 12.5 points", "A total of 20 points", "A total of 37.5 points", "A total of 50 points"], "answer": 3, "why": "依据 giving the two sections a total of 50 points，两节共 50 分。", "point": "scoring"}
+    ]},
+    {"look": "passage", "text": "The course practice for reading comprehension uses one passage and four questions with an eight-minute limit. The course mock uses four comprehension passages with 15 questions, followed by five sentence-selection questions. Its limit is 39 minutes for both sections. These are course settings, not official section time limits. The official number of comprehension passages has not been confirmed here.", "items": [
+     {"stem": "What is the status of the 39-minute limit?", "options": ["It is an official limit for comprehension alone.", "It is a course limit for both reading sections.", "It is an official limit for sentence selection alone.", "It is a course limit for one practice passage."], "answer": 1, "why": "依据 Its limit is 39 minutes for both sections 和 These are course settings：39 分钟是课程给两节合计的时间，即第二项。", "point": "scoring"},
+     {"stem": "What does the course mock include?", "options": ["One comprehension passage and five sentence-selection questions", "Four comprehension passages and four sentence-selection questions", "One comprehension passage and 15 sentence-selection questions", "Four comprehension passages and five sentence-selection questions"], "answer": 3, "why": "依据 four comprehension passages 和 five sentence-selection questions：模拟测试有四篇阅读理解和五道选句题，即第四项。", "point": "format"}
+    ]}
+   ]}]
+  }
+ ]
+}

@@ -1,0 +1,381 @@
+{
+ "id": "usage-cloze-context",
+ "title": "上下文复现题",
+ "goal": "利用指向同一对象的词语复现确定语境义。",
+ "skill": "语言运用",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "echo",
+   "label": "寻找与空格对应的词汇复现"
+  },
+  {
+   "id": "context",
+   "label": "结合前后文确定空格的语义范围"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语课程课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "教学内容与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "type",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "复现指同一个人、物或事件在文中再次出现。再次出现时可以用原词，也可以换成近义词、反义词或表示类别的词。"
+    },
+    {
+     "box": "The basket was empty. Later, fruit filled the basket."
+    },
+    {
+     "p": "两个 basket 指同一个篮子。empty 和 filled 说明篮子前后的状态相反。判断词义前，先确认两处说的是同一个对象。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定对象",
+     "d": "找出空格所在句说的是哪个人或物。看代词和名词是不是指同一个对象。"
+    },
+    {
+     "t": "2　寻找复现",
+     "d": "在相邻的句子里找原词和意思相关的词。相邻句子里找不到，再往后文找。"
+    },
+    {
+     "t": "3　判断关系",
+     "d": "判断两处是相同、近义、相反还是类别关系。再根据事件确定空格要填什么意思。"
+    },
+    {
+     "t": "4　代入核对",
+     "d": "把符合语法和搭配的候选词代入空格。选出所指对象和状态都与前后文一致的词。"
+    }
+   ]
+  },
+  {
+   "id": "repetition",
+   "type": "table",
+   "title": "原词与近义复现",
+   "cols": [
+    "类型",
+    "线索",
+    "对应表达"
+   ],
+   "rows": [
+    [
+     "原词",
+     "The lantern went out.",
+     "They lit the lantern again."
+    ],
+    [
+     "原词",
+     "She saved a seat for her friend.",
+     "The seat remained free until he arrived."
+    ],
+    [
+     "近义",
+     "The parcel was small.",
+     "The tiny package fitted in her pocket."
+    ],
+    [
+     "近义",
+     "He repaired the fence.",
+     "The fixed fence kept the animals inside."
+    ]
+   ]
+  },
+  {
+   "id": "relations",
+   "type": "table",
+   "title": "反义与类别复现",
+   "cols": [
+    "类型",
+    "线索",
+    "对应表达"
+   ],
+   "rows": [
+    [
+     "反义",
+     "The room was dark.",
+     "Opening the curtains made it bright."
+    ],
+    [
+     "反义",
+     "The path was narrow at first.",
+     "Farther on, it became wide."
+    ],
+    [
+     "类别",
+     "She planted carrots.",
+     "The vegetables grew well."
+    ],
+    [
+     "类别",
+     "A robin landed nearby.",
+     "The bird sang from a branch."
+    ]
+   ]
+  },
+  {
+   "id": "example",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Mina packed a small parcel for her cousin. It contained a folded scarf and a card. She wrote the address clearly and carried the package to the post office. The clerk weighed the ___ before accepting it.\n1. parcel  2. address  3. scarf  4. card"
+    },
+    {
+     "p": "parcel 和后文的 package 指同一个包裹。称重后交寄的正是这个包裹，所以选第一项。"
+    }
+   ]
+  },
+  {
+   "id": "distractors",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "依据"
+   ],
+   "rows": [
+    [
+     "对象混淆",
+     "weighed the address",
+     "地址写在包裹上，称重对象是包裹。"
+    ],
+    [
+     "局部搭配",
+     "weighed the scarf",
+     "scarf 可以被称重，但文中交寄的是整个包裹。"
+    ],
+    [
+     "状态反向",
+     "The dark room became darker after the curtains opened.",
+     "bright 表明房间变亮。"
+    ],
+    [
+     "类别混淆",
+     "The branch sang.",
+     "bird 指 robin，歌唱的是鸟。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "echo",
+    "context"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The lamp had no oil. After Mira filled the lamp, it gave light again. Which word repeats the object?",
+       "options": [
+        "oil",
+        "lamp",
+        "light",
+        "filled"
+       ],
+       "answer": 1,
+       "why": "lamp 在前后两句重复，指同一盏灯。",
+       "point": "echo"
+      },
+      {
+       "stem": "A kitten hid under the chair. The young cat came out when it heard a familiar voice. The kitten was the young ___.",
+       "options": [
+        "chair",
+        "voice",
+        "cat",
+        "owner"
+       ],
+       "answer": 2,
+       "why": "kitten 与 young cat 指同一只小猫。",
+       "point": "echo"
+      },
+      {
+       "stem": "The box was heavy before Tia removed the stones. With the stones gone, it was much ___.",
+       "options": [
+        "heavier",
+        "fuller",
+        "harder",
+        "lighter"
+       ],
+       "answer": 3,
+       "why": "移走石头前箱子 heavy，移走后变轻。lighter 与前文的 heavy 相反。",
+       "point": "context"
+      },
+      {
+       "stem": "The gardener picked beans and peas. She carried the ___ into the kitchen.",
+       "options": [
+        "vegetables",
+        "baskets",
+        "flowers",
+        "leaves"
+       ],
+       "answer": 0,
+       "why": "beans 和 peas 都属于 vegetables，指采摘的东西。",
+       "point": "context"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "echo",
+    "context"
+   ],
+   "groups": [
+    {
+     "text": "Eli found a torn map in an old drawer. He wanted to use it on a walk, so he put clear tape along the tear. The repaired map showed a route beside a lake. On the walk, Eli followed that route until he reached the water. He then folded the map and placed it safely in his bag.",
+     "items": [
+      {
+       "stem": "Which phrase refers to the torn map after Eli worked on it?",
+       "options": [
+        "The old drawer",
+        "The repaired map",
+        "The clear tape",
+        "The nearby lake"
+       ],
+       "answer": 1,
+       "why": "torn map 和 repaired map 指同一张地图。",
+       "point": "echo"
+      },
+      {
+       "stem": "Eli followed the route until he reached the ___.",
+       "options": [
+        "drawer",
+        "tape",
+        "lake",
+        "tear"
+       ],
+       "answer": 2,
+       "why": "route beside a lake 和 reached the water 对应，water 指湖水。",
+       "point": "context"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "echo",
+    "context"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A group of students decided to turn an unused corner of their school yard into a place for plants. Their teacher gave them permission to use a long wooden container that had been stored behind the gym. When they brought it into the yard, they found a crack across one side. Soil would escape through the opening, so the group needed to repair the container before planting anything.\n\nFirst, the students cleaned the wood and allowed it to dry. Then they asked the school caretaker for advice. She gave them a narrow piece of wood to cover the crack and showed them how to attach it securely. The students checked the repair by pouring a little dry soil into the container. None came through the side. They added more soil and planted lettuce seeds in one half and bean seeds in the other. A student wrote the names on small labels so that the two crops could be identified.\n\nFor the first week, the soil looked unchanged. The students continued watering it without digging up the seeds to check them. Then small green shoots appeared in the section marked lettuce. Several days later, the beans appeared too. By the end of the month, both kinds of plants had leaves above the soil. The teacher asked the group to explain their work to another class. The students described how the broken side had been repaired before the seeds were planted. They also showed the younger class the labels and explained that the vegetables had appeared at different times. The container was no longer unused; it had become a shared place for observing plants.",
+       "items": [
+        {
+         "stem": "Which expression refers to the crack in the container?",
+         "options": [
+          "The opening in its side",
+          "The label beside the seeds",
+          "The long piece behind the gym",
+          "The soil above the plants"
+         ],
+         "answer": 0,
+         "why": "a crack across one side 与 soil would escape through the opening 指同一道裂缝。",
+         "point": "echo"
+        },
+        {
+         "stem": "The students repaired the container to keep the soil ___.",
+         "options": [
+          "unused",
+          "inside",
+          "dry",
+          "separate"
+         ],
+         "answer": 1,
+         "why": "修补前 Soil would escape through the opening，修补后 None came through the side，说明泥土留在了箱子里。",
+         "point": "context"
+        },
+        {
+         "stem": "What does 'the vegetables' refer to in the final paragraph?",
+         "options": [
+          "The labels and the container",
+          "The wood and the dry soil",
+          "The lettuce and the beans",
+          "The caretaker and the students"
+         ],
+         "answer": 2,
+         "why": "lettuce 和 beans 是前文种植的两种蔬菜。",
+         "point": "echo"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "Noah's grandfather gave him a pocket watch that had stopped working years earlier. Noah liked the plain design and wanted to learn whether it could run again. He took it to a repair shop on a quiet street. The watchmaker examined the outside and explained that she would need to open the case before describing the problem. Noah left the watch with her and returned the following week.\n\nThe watchmaker had found dust inside the mechanism. She cleaned the parts and replaced a spring that was no longer working properly. She then wound the watch and listened as it began to tick. The small timepiece kept running while Noah stood at the counter. The watchmaker advised him to keep it dry and bring it back if its timekeeping changed. She also returned the old spring in a paper envelope, explaining why it had needed replacement.\n\nAt home, Noah showed his grandfather the watch. His grandfather held it close enough to hear the ticking and smiled. He recalled carrying it to work when he was younger, before it had stopped. Noah placed the envelope beside the watch and wrote the date of the repair on it. For the next several mornings, he compared the watch with the clock in the kitchen. The two showed the same time. He did not wear the watch every day, but he kept it in a drawer away from water. When his grandfather visited, Noah brought it out so they could listen to the quiet ticking together.",
+       "items": [
+        {
+         "stem": "Which phrase refers to the pocket watch at the shop?",
+         "options": [
+          "The paper envelope",
+          "The broken spring",
+          "The clock in the kitchen",
+          "The small timepiece"
+         ],
+         "answer": 3,
+         "why": "The small timepiece kept running while Noah stood at the counter 说的是修好后走起来的 pocket watch。",
+         "point": "echo"
+        },
+        {
+         "stem": "The old spring was ___ with a working one.",
+         "options": [
+          "cleaned",
+          "replaced",
+          "wound",
+          "stored"
+         ],
+         "answer": 1,
+         "why": "replaced a spring 和 returned the old spring 说明旧发条被更换。",
+         "point": "context"
+        },
+        {
+         "stem": "The watch changed from stopped to ___.",
+         "options": [
+          "dusty",
+          "broken",
+          "running",
+          "open"
+         ],
+         "answer": 2,
+         "why": "修理前 stopped working，修理后 kept running，前后状态相反。",
+         "point": "context"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

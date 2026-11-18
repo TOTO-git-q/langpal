@@ -1,0 +1,648 @@
+{
+ "id": "listening-response-traps",
+ "title": "干扰项的类型",
+ "goal": "识别五类应答干扰项，并按话语功能、信息类别、人物和时间逐项排除。",
+ "skill": "listening",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 听力",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "classify",
+   "label": "判断干扰项的类型"
+  },
+  {
+   "id": "eliminate",
+   "label": "按功能逐项排除"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、录音长度、只放一遍"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "各题型的说明、考查的能力、官方样题"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Listening Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-listening.pdf",
+   "used": "第 1 课：四类题的说明和小测答案；第 2、4 课：应答配对、重音和语调"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "应答题的干扰项常沿用录音里的词或相近的声音，却没有回应对方。重复了原词的选项不一定错。词相同而意思或用意不同的，才是干扰项。"
+    },
+    {
+     "box": "Could you change this note into coins? → I noted the change yesterday."
+    },
+    {
+     "p": "例句是请对方把纸币换成硬币，回应却把 note 当成记录的意思。它重复了 note 和 change，没有说能不能换。下面按主要错因分类，一个选项也可能错在几处。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定话语功能",
+     "d": "先判断对方要的是信息还是行动。Could you change this note? 是请对方兑换。When can I change it? 才是问时间。"
+    },
+    {
+     "t": "2　核对整句意义",
+     "d": "选项里有相同的词或相近的声音时，放回整句里看意思。在兑换的请求里，note 指纸币，不是记录。"
+    },
+    {
+     "t": "3　核对信息类别",
+     "d": "排除答非所问和只答字面的选项。Do you know where the desk is? 要的是位置，I know 没有给出位置。"
+    },
+    {
+     "t": "4　核对时间与人物",
+     "d": "最后核对时间和做事的人。When will you return it? 问对方将来什么时候还，She returned hers yesterday 说的是别人过去的事。"
+    }
+   ]
+  },
+  {
+   "id": "types-one",
+   "type": "table",
+   "title": "干扰项的五种类型",
+   "cols": [
+    "类型",
+    "录音与干扰项",
+    "原因"
+   ],
+   "rows": [
+    [
+     "重复听到的词",
+     "Could you change this note? → I noted the change.",
+     "note 在请求里指纸币，回应当成了记录。"
+    ],
+    [
+     "近音词",
+     "Where can I buy a sheet of paper? → The sheep are outside.",
+     "sheet 和 sheep 发音相近，指的不是同一样东西。"
+    ],
+    [
+     "答非所问",
+     "Where is the rehearsal? → It starts at six.",
+     "问地点，答的是开始时间。"
+    ],
+    [
+     "只答字面",
+     "Do you know where the desk is? → I know.",
+     "只说知道，没有说出地点。"
+    ],
+    [
+     "时态或人称不符",
+     "When will you return it? → She returned hers yesterday.",
+     "问对方将来的事，答的是别人过去的事。"
+    ]
+   ]
+  },
+  {
+   "id": "types-two",
+   "type": "table",
+   "title": "辨析",
+   "cols": [
+    "类型",
+    "录音与干扰项",
+    "合适回应"
+   ],
+   "rows": [
+    [
+     "重复听到的词",
+     "Can you book a court? → The book has a hard cover.",
+     "Sure, I can reserve one for tomorrow."
+    ],
+    [
+     "近音词",
+     "What is the daily rate? → It usually rains at night.",
+     "Twenty dollars per day."
+    ],
+    [
+     "答非所问",
+     "Who checks the permits? → Before noon.",
+     "The safety officer does."
+    ],
+    [
+     "只答字面",
+     "Could you tell me the fee? → Yes, I could.",
+     "It costs eight dollars."
+    ],
+    [
+     "时态或人称不符",
+     "Have you sent the invoice? → My colleague sends hers weekly.",
+     "Yes, I emailed it this morning."
+    ]
+   ],
+   "note": "近音词靠听到的声音和句意判断，不看拼写。rate 和 rain 这样的词，放回所谈的事里就能分开。"
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Could you tell me where to weigh this bag?"
+    },
+    {
+     "box": "Choose the best response.\n1. Yes, I can tell you.\n2. I waited here yesterday.\n3. There's a scale by the service desk.\n4. The bag weighs eight kilos."
+    },
+    {
+     "p": "第一项只说能告诉，没有给出地点，属于只答字面。第二项把 weigh 听成了发音相近的 wait，说的是过去等候的事。"
+    },
+    {
+     "p": "第四项给出重量，不是称重的地点，属于答非所问。第三项的 scale 是秤，by the service desk 说明秤在服务台旁边，回答了 where to weigh。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "核对内容",
+    "例",
+    "排除依据"
+   ],
+   "rows": [
+    [
+     "话语功能",
+     "Can you book it? → The book is new.",
+     "有 book，但未回应预订请求。"
+    ],
+    [
+     "语境中的声音",
+     "weigh → wait",
+     "weigh 是称重，wait 是等候，意思不同。"
+    ],
+    [
+     "信息类别",
+     "where to weigh → eight kilos",
+     "重量不是称重地点。"
+    ],
+    [
+     "实际信息",
+     "Could you tell me where? → I can.",
+     "只说能告诉，没有给出地点。"
+    ],
+    [
+     "人物与时间",
+     "Have you sent it? → She sends hers weekly.",
+     "别人的习惯，回答不了这次做了没有。"
+    ]
+   ]
+  },
+  {
+   "id": "check-classify",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "classify"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Where can I hire a drill?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why is 'Five dollars an hour' unsuitable?",
+       "options": [
+        "It gives a price instead of a location.",
+        "It gives a location instead of a price.",
+        "It answers for a different person.",
+        "It changes a future booking into a past one."
+       ],
+       "answer": 0,
+       "why": "Where can I hire 问在哪里租，Five dollars an hour 答的是租金，属于答非所问，即第一项。",
+       "point": "classify"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Could you tell me the opening time?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why is 'Yes, I can' insufficient?",
+       "options": [
+        "It describes the opening time of the wrong building.",
+        "It gives the time the place opened in the past.",
+        "It confuses time with a similar sound.",
+        "It confirms ability without giving the time."
+       ],
+       "answer": 3,
+       "why": "Could you tell me the opening time 要的是时间，Yes, I can 只说能告诉，属于只答字面，即第四项。",
+       "point": "classify"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Can you file these receipts?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why is 'A nail file is in my bag' unsuitable?",
+       "options": [
+        "It answers with the wrong filing date.",
+        "It takes file in a different sense from the request.",
+        "It reports that the receipts were already filed last week.",
+        "It gives the location where filing is required."
+       ],
+       "answer": 1,
+       "why": "file these receipts 的 file 是归档，A nail file is in my bag 的 file 是指甲锉。词相同，意思变了，即第二项。",
+       "point": "classify"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Will you deliver the baskets tomorrow?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why is 'I delivered them last week' insufficient?",
+       "options": [
+        "It gives a delivery price instead of a delivery day.",
+        "It confuses baskets with a similar sound.",
+        "It describes a past delivery, not tomorrow's.",
+        "It gives a location instead of a delivery method."
+       ],
+       "answer": 2,
+       "why": "Will … tomorrow 问明天送不送，I delivered them last week 说的是过去，没有回答明天的事，即第三项。",
+       "point": "classify"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-eliminate",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "eliminate"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Do you know where the spare sails are stored?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "I know where they're stored.",
+        "The sails cost a great deal.",
+        "They're in the boathouse loft.",
+        "We sailed there last summer."
+       ],
+       "answer": 2,
+       "why": "where … stored 问放在哪里，第三项答在船库的阁楼上。第一项只说知道，没有说出地点。",
+       "point": "eliminate"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Who is going to check the fire extinguisher?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "The safety inspector is.",
+        "It was checked last month.",
+        "The check takes ten minutes.",
+        "The extinguisher is near the exit."
+       ],
+       "answer": 0,
+       "why": "Who 问由谁检查，第一项答安全检查员。其余三项分别答了过去的时间、时长和位置。",
+       "point": "eliminate"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "What is the fare for the night tram?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "The fair closes at night.",
+        "Yes, I'll pay the fare for you.",
+        "The night service runs hourly.",
+        "A single ride costs three dollars."
+       ],
+       "answer": 3,
+       "why": "fare 问车费，第四项给出价钱。第一项的 fair 与 fare 同音，意思是集市。",
+       "point": "eliminate"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Could you reserve a booth for our craft fair?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "The booth is made of wood.",
+        "Sure, I'll contact the organizer today.",
+        "I reserved a booth for another group last year.",
+        "Thanks, I'd love to visit your booth."
+       ],
+       "answer": 1,
+       "why": "Could you reserve 是请对方订摊位，第二项答应今天就联系主办方。第三项说的是去年给别人订的。",
+       "point": "eliminate"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 5,
+   "pass": 0.75,
+   "points": [
+    "classify",
+    "eliminate"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Could you give me a hand lifting this bench?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why is 'I have two hands' unsuitable?",
+         "options": [
+          "It takes a request for help as a remark about hands.",
+          "It changes a lifting request into a past action.",
+          "It gives the place where the bench should be moved.",
+          "It answers for another person instead of the speaker."
+         ],
+         "answer": 0,
+         "why": "give me a hand lifting 是请对方帮忙抬，I have two hands 只按 hand 的字面意思回应，即第一项。",
+         "point": "classify"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Where can I get a permit for the pier?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why is 'My peers are in the next room' unsuitable?",
+         "options": [
+          "It gives a time instead of a location.",
+          "It answers a question about permit prices.",
+          "It connects pier with the similar sound peer.",
+          "It describes a future visit instead of a current one."
+         ],
+         "answer": 2,
+         "why": "permit for the pier 指码头的许可证。My peers are in the next room 把 pier 听成了同音的 peer，即第三项。",
+         "point": "classify"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Have you reserved the dance studio for tonight?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why is 'My sister reserves hers every Monday' unsuitable?",
+         "options": [
+          "It gives tonight’s location instead of the booking time.",
+          "It describes someone else's routine, not this booking.",
+          "It confuses the word studio with a similar sound.",
+          "It confirms ability without stating a reservation price."
+         ],
+         "answer": 1,
+         "why": "Have you reserved … tonight 问这次订了没有，My sister reserves hers every Monday 说的是别人的习惯，即第二项。",
+         "point": "classify"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Could you address these envelopes?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why is 'My address has changed' unsuitable?",
+         "options": [
+          "It refuses the request to write on the envelopes.",
+          "It describes an earlier delivery of the envelopes.",
+          "It gives a deadline instead of the number of envelopes.",
+          "It treats address as a place, not the requested action."
+         ],
+         "answer": 3,
+         "why": "address these envelopes 是请对方在信封上写地址。My address has changed 把 address 当成住址，即第四项。",
+         "point": "classify"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "When should I bring the antique vase for inspection?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "Yes, please bring it with you.",
+          "The inspector is in the back room.",
+          "Any time after two tomorrow.",
+          "The inspection costs twenty dollars."
+         ],
+         "answer": 2,
+         "why": "When should I bring 问什么时候送来，第三项答明天两点以后。第二项答的是地点。",
+         "point": "eliminate"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Can you tell me how to release this clamp?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "Press the lever beside the handle.",
+          "Yes, I know how it works.",
+          "The clamp was released yesterday.",
+          "The handle is made of plastic."
+         ],
+         "answer": 0,
+         "why": "how to release 问怎么松开，第一项给出操作：按把手旁边的杆。第二项只说知道，没有说方法。",
+         "point": "eliminate"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Where does the courier collect outgoing mail?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "The male assistant arrives early.",
+          "The collection takes place daily.",
+          "The courier collected it yesterday.",
+          "By the loading entrance at the back."
+         ],
+         "answer": 3,
+         "why": "Where 问在哪里取件，第四项答在后面的装货入口。第一项的 male 与 mail 同音，意思不同。",
+         "point": "eliminate"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Could you check the balance on this gift card?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "I try to balance work and rest.",
+          "Sure, I'll scan it at the counter.",
+          "The card was a gift last year.",
+          "I checked a different card earlier."
+         ],
+         "answer": 1,
+         "why": "check the balance 是请对方查卡里的余额，第二项答应去柜台扫卡查询。第一项的 balance 是平衡的意思。",
+         "point": "eliminate"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

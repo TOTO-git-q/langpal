@@ -1,0 +1,69 @@
+{
+ "id": "reading-seven-opening",
+ "title": "段首主题句与小标题",
+ "goal": "根据段内信息选择主题句和小标题。",
+ "skill": "阅读",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "generalize", "label": "选择覆盖段内具体内容的主题句"},
+  {"id": "parallel", "label": "核对小标题与其他段落的形式及层级"}
+ ],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "教学内容与课程练习规格"}],
+ "cards": [
+  {"id": "type", "type": "text", "title": "题型", "body": [
+   {"p": "段首主题句概括本段的中心。段内的例子从不同方面展开这个中心，主题句要能覆盖这些例子。"},
+   {"p": "小标题还要与其他段落的小标题形式相同、层级相同。祈使句标题通常概括一项建议。"},
+   {"box": "Check the weather. Look at the forecast and prepare for possible rain."},
+   {"p": "Check the weather 是祈使句，forecast 和 rain 展开这一建议。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　概括段内信息", "d": "找出各句共同讨论的对象。Forecast 和 rain 都与天气有关。"},
+   {"t": "2　比较概括范围", "d": "检查候选句能否覆盖段内的主要例子。只提 rain 的句子漏掉了查看天气预报。"},
+   {"t": "3　核对标题形式", "d": "看其他小标题的语法形式和层级。其他标题都是祈使句时，所选标题也应是同一层级的祈使句。"}
+  ]},
+  {"id": "advice", "type": "table", "title": "建议类段首句", "cols": ["主题句", "段内例子", "概括关系"], "rows": [
+   ["Prepare for changing weather.", "Check the forecast. Pack a raincoat.", "查看预报和准备雨具"],
+   ["Keep a record of expenses.", "Note the price of each ticket. Add the cost of meals.", "记录交通与餐食费用"],
+   ["Protect borrowed books.", "Keep them away from drinks. Carry them in a dry bag.", "避免液体和潮湿损坏"]
+  ]},
+  {"id": "explanation", "type": "table", "title": "说明类段首句", "cols": ["主题句", "段内例子", "概括关系"], "rows": [
+   ["A timetable can serve several purposes.", "It shows departure times. It also identifies the stops.", "概括时刻和站点信息"],
+   ["Labels help organize a collection.", "A label gives an object's name. It can also record its date.", "概括名称与日期记录"],
+   ["A meeting record supports later work.", "It identifies decisions. It also lists tasks assigned to members.", "概括决定和任务记录"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "Choose a suitable container.\nUse a clean box for the items.\n\n____\nWrite the date on a card. Add a short description of the contents.\n\nStore the box carefully.\nKeep it away from water and direct sunlight.\n\n1. Record information about the contents.\n2. Write the date on the card.\n3. The box is stored carefully.\n4. Choose another clean container."},
+   {"p": "本段写日期和内容说明。第一项覆盖这两件事，又和其他标题一样是祈使句。第二项只写了日期。"}
+  ]},
+  {"id": "distractors", "type": "table", "title": "干扰项", "cols": ["类型", "例", "原因"], "rows": [
+   ["范围过窄", "例题第二项只提日期。", "本段还写了内容说明。"],
+   ["形式不一致", "例题第三项是陈述句。", "其他标题都是祈使句。"],
+   ["层级不一致", "把 Write the date 当作概括标题。", "这是段内的一个具体动作，不是概括。"],
+   ["重点不符", "例题第四项又讲选容器。", "选容器是上一段的内容。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["generalize", "parallel"], "groups": [
+   {"look": "passage", "text": "____ Put the tickets in one envelope. Keep the travel schedule beside them.", "items": [{"stem": "Which sentence best opens the paragraph?", "options": ["Keep the travel documents together.", "Put the tickets in an envelope.", "Leave the schedule in another bag.", "Use the envelope for meal receipts."], "answer": 0, "why": "tickets 和 travel schedule 都是行程资料，第一项覆盖两者。第二项只写车票，是段内的一个动作。", "point": "generalize"}]},
+   {"look": "passage", "text": "____ The notice gives the starting time. It also names the meeting place.", "items": [{"stem": "Which sentence best opens the paragraph?", "options": ["The notice lists the meeting place only.", "The notice provides practical meeting details.", "The notice states only when the meeting will start.", "The meeting place has no written notice."], "answer": 1, "why": "starting time 和 meeting place 都是会议的具体信息，第二项概括两者。第三项只写开始时间。", "point": "generalize"}]},
+   {"look": "passage", "text": "Choose a place.\nFind a quiet room for the interview.\n\n____\nPrepare questions about the visitor's work.\n\nCheck the equipment.\nMake sure the recorder works.", "items": [{"stem": "Which heading best fits the gap?", "options": ["A visitor prepared the room.", "The recorder was checked.", "Plan the interview questions.", "Choose a question about recorders."], "answer": 2, "why": "段内只有一句 Prepare questions about the visitor's work。第三项概括这一句，和相邻标题一样是祈使句。", "point": "parallel"}]},
+   {"look": "passage", "text": "Set a date.\nAgree on a day for the exchange.\n\n____\nSort the magazines by subject and label each pile.\n\nInvite participants.\nTell classmates when and where to come.", "items": [{"stem": "Which heading best fits the gap?", "options": ["The date of the exchange.", "Invite classmates to the room.", "Label one pile of magazines.", "Organize the magazines for exchange."], "answer": 3, "why": "sort 和 label 都是整理杂志，第四项概括两者，又和其他标题一样是祈使句。第三项只写贴标签一步。", "point": "parallel"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["generalize", "parallel"], "groups": [
+   {"look": "passage", "text": "Preparing an exhibition\n\nSelect the objects.\nChoose items that show different stages of the project.\n\n____\nGive each object a name. Add a sentence describing its use.\n\n____\nPlace fragile objects behind a clear screen. Keep the entrance free of boxes so visitors can move safely.", "items": [
+    {"stem": "Which heading best fills the first gap?", "options": ["Describe the objects on display.", "Choose a single project stage.", "Move the screen to the entrance.", "Write the name of one object."], "answer": 0, "why": "name 和 describing its use 都是对展品的说明。第一项概括两者，又和 Select the objects 一样是祈使句。", "point": "parallel"},
+    {"stem": "Which heading best fills the second gap?", "options": ["Place fragile objects behind a clear screen.", "Select the smallest object first.", "Arrange the display with safety in mind.", "Place every box behind the clear screen at the entrance."], "answer": 2, "why": "本段写保护易碎物品、保持入口畅通，都是为了安全，第三项覆盖两者。第一项只写了前一件事。", "point": "generalize"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["generalize", "parallel"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "Building a class archive\n\n____\nAsk former members for photographs. Request copies of programs from past events as well. These records show different parts of the class's history.\n\nSort the material.\nPut photographs and programs into separate folders. Arrange the items in each folder by date. This makes a particular event easier to find.\n\n____\nWrite down who supplied each item. Record the date it was received. Keep this information with the item so that the class can trace its source.\n\n____\nUse folders that protect the material from dust. Store them in a dry cupboard. Check the cupboard regularly for signs of dampness.", "items": [
+    {"stem": "Which heading best fills the first gap?", "options": ["Sort the programs by date.", "Collect records of past activities.", "Store photographs in a cupboard.", "Ask former members for their photographs."], "answer": 1, "why": "photographs 和 programs 都是以往活动的记录，第二项概括了收集这项工作。第四项只写照片。", "point": "generalize"},
+    {"stem": "Which heading best fills the second gap?", "options": ["Keep a cupboard free of dust.", "Arrange the programs by date.", "Request another copy of a photograph.", "Record the source of each item."], "answer": 3, "why": "who supplied each item 和 date it was received 都是物品的来源信息。第四项概括两者，又和 Sort the material 一样是祈使句。", "point": "parallel"},
+    {"stem": "Which heading best fills the third gap?", "options": ["Protect the stored material.", "Collect additional programs.", "Write a date on each folder.", "Select one cupboard to clean."], "answer": 0, "why": "防尘的文件夹、干燥的柜子、检查潮气，都是为了保护材料。第一项概括这些做法，也是祈使句。", "point": "parallel"}
+   ]},
+   {"look": "passage", "text": "A neighborhood noticeboard has several uses. ____ Residents can read announcements of meetings and find the dates of shared activities. The board makes this information available in one place.\n\n____ A missing-glove notice may describe the item and say where it was last seen. A contact detail allows the finder to reach its owner. The notice can be removed once the glove is returned.\n\nThe board also needs regular attention. ____ Someone must remove outdated announcements. Space must then be made for new notices, while current information remains visible. A clear arrangement helps readers find what they need.", "items": [
+    {"stem": "Which sentence best fills the first gap?", "options": ["It shows only the dates of past meetings.", "It offers space for information about events.", "It tells residents where lost items were last seen.", "It must be kept free of outdated notices."], "answer": 1, "why": "后文的 meetings 和 shared activities 都是活动信息，第二项概括这两类通知。第三项是第二段的内容。", "point": "generalize"},
+    {"stem": "Which sentence best fills the second gap?", "options": ["It records the dates of shared activities.", "It keeps every old announcement in place.", "It can help reunite people with lost items.", "It lists the contact details of every resident."], "answer": 2, "why": "本段用寻找手套的通知作例：写明物品、留下联系方式、归还后撤下。第三项概括了寻物这一用途。", "point": "generalize"},
+    {"stem": "Which sentence best fills the third gap?", "options": ["A lost glove should stay on the board.", "Every current notice must be removed.", "New notices should be placed over old ones.", "Its contents should be kept up to date."], "answer": 3, "why": "后文写撤下过期通知、为新通知留出位置，都是让内容保持最新，即第四项。第二项与 current information remains visible 相反。", "point": "generalize"}
+   ]}
+  ]}]}]
+}

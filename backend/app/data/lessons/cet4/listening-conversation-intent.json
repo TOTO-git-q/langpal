@@ -1,0 +1,571 @@
+{
+ "id": "listening-conversation-intent",
+ "title": "话语意图与态度题",
+ "goal": "结合上下轮话语判断回应意图与态度。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "intent",
+   "label": "根据上下轮对话判断回应意图"
+  },
+  {
+   "id": "attitude",
+   "label": "从明确措辞判断赞同或保留态度"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "长对话材料的教学依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "type",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "话语意图题要求判断回应在前一轮话语中的作用。态度题要求依据明确措辞判断说话人是否赞同，或是否保留意见。"
+    },
+    {
+     "box": "A: Shall we move the meeting outside?\nB: I'd rather stay indoors; the forecast says rain."
+    },
+    {
+     "p": "I'd rather stay indoors 表示想留在室内，也就是不同意到室外开会。判断看两轮话之间的关系，不只凭语调。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定前一轮内容",
+     "d": "找出提议、请求或观点的对象。Shall we print the notices? 提议印制通知。"
+    },
+    {
+     "t": "2　理解回应",
+     "d": "看回应里的选择、理由或条件。I'd rather email them 表示更想发邮件，不印通知。"
+    },
+    {
+     "t": "3　核对态度",
+     "d": "找出表示赞同或保留的词，再对照选项。That could work, but we need permission 是有条件的认可。"
+    }
+   ]
+  },
+  {
+   "id": "responses",
+   "type": "table",
+   "title": "回应意图",
+   "cols": [
+    "类型",
+    "表达",
+    "例"
+   ],
+   "rows": [
+    [
+     "接受",
+     "Sounds good",
+     "A: Let's use the hall. B: Sounds good; I'll book it."
+    ],
+    [
+     "接受",
+     "That works for me",
+     "A: Meet at noon? B: That works for me."
+    ],
+    [
+     "接受",
+     "I'm happy to",
+     "A: Can you check the map? B: I'm happy to."
+    ],
+    [
+     "拒绝",
+     "I'd rather",
+     "A: Walk there? B: I'd rather take the bus."
+    ],
+    [
+     "拒绝",
+     "Not really",
+     "A: Do you want more posters? B: Not really; we have enough."
+    ],
+    [
+     "拒绝",
+     "I'm afraid I can't",
+     "A: Can you stay late? B: I'm afraid I can't; I have a class."
+    ]
+   ]
+  },
+  {
+   "id": "attitudes",
+   "type": "table",
+   "title": "赞同与保留",
+   "cols": [
+    "类型",
+    "表达",
+    "例"
+   ],
+   "rows": [
+    [
+     "赞同",
+     "I agree",
+     "A: The entrance needs a sign. B: I agree; visitors keep missing it."
+    ],
+    [
+     "赞同",
+     "That's a good idea",
+     "A: Let's label the boxes. B: That's a good idea."
+    ],
+    [
+     "赞同",
+     "Exactly",
+     "A: The labels should be larger. B: Exactly; the current ones are hard to read."
+    ],
+    [
+     "保留",
+     "That might work, but",
+     "A: Use the courtyard? B: That might work, but we need a cover."
+    ],
+    [
+     "保留",
+     "I'm not sure",
+     "A: Is one table enough? B: I'm not sure; more guests may come."
+    ],
+    [
+     "保留",
+     "It depends",
+     "A: Can we use the room? B: It depends on whether it's free."
+    ]
+   ],
+   "note": "同一个表达在不同对话里作用可能不同。要同时看它回应的是哪一句。"
+  },
+  {
+   "id": "example",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A: We could put the display near the door.\nB: That might work, but the entrance gets crowded. Could we try the back wall instead?\nA: Yes, there's more space there.\nB: Is the wall wide enough for both boards?\nA: I measured it this morning. Both boards will fit.\nB: Then visitors can read them without blocking the entrance.\nA: I'll ask the staff about using that wall.\nB: I'll bring the boards once they agree."
+    },
+    {
+     "box": "What does B mean about the proposed location?\n1. The entrance is already suitable.\n2. The entrance may cause a problem.\n3. The back wall is too crowded.\n4. The back wall needs another door."
+    },
+    {
+     "p": "That might work 后面用 but 引出 the entrance gets crowded。这是对放在门口的保留意见，即第二项。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "只取前半",
+     "That might work, but … → complete agreement",
+     "核对 but 后的限制。"
+    ],
+    [
+     "对象错置",
+     "I'd rather use the hall → prefers the courtyard",
+     "核对倾向对应的地点。"
+    ],
+    [
+     "理由当意图",
+     "The entrance gets crowded → wants more visitors",
+     "区分提出顾虑与期望。"
+    ],
+    [
+     "条件当决定",
+     "It depends on the room → the room is booked",
+     "核对条件是否已经满足。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "intent",
+    "attitude"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Let's send the invitations by email."
+       },
+       {
+        "who": "B",
+        "text": "Sounds good. I can prepare the list."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is the second speaker's response to the proposal?",
+       "options": [
+        "The second speaker agrees to send them by email.",
+        "The second speaker prefers to print the invitations.",
+        "The second speaker wants A to prepare the list.",
+        "B doubts that a list is needed."
+       ],
+       "answer": 0,
+       "why": "Sounds good 表示接受发送邮件的提议，即第一项。",
+       "point": "intent"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Shall we leave the chairs outside overnight?"
+       },
+       {
+        "who": "B",
+        "text": "I'd rather bring them in. It might rain."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What does the second speaker prefer?",
+       "options": [
+        "Leaving the chairs outside overnight",
+        "Waiting to see whether it rains",
+        "Bringing the chairs inside tonight",
+        "Bringing the chairs in after the rain"
+       ],
+       "answer": 2,
+       "why": "依据是 I'd rather bring them in. It might rain。怕夜里下雨，所以想现在把椅子搬进来，即第三项。",
+       "point": "intent"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "One person could carry both boxes."
+       },
+       {
+        "who": "B",
+        "text": "I'm not sure. They're rather heavy."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is the second speaker's attitude toward the suggestion?",
+       "options": [
+        "The second speaker agrees that one person can carry both.",
+        "B doubts that one person can manage both.",
+        "The second speaker is sure the boxes are too heavy to move.",
+        "The second speaker offers to carry both of the boxes alone."
+       ],
+       "answer": 1,
+       "why": "依据是 I'm not sure 和 They're rather heavy，对一个人搬两箱有疑虑，即第二项。第三项把 rather heavy 说成了搬不动。",
+       "point": "attitude"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The workshop needs a longer break."
+       },
+       {
+        "who": "B",
+        "text": "Exactly. People need time to ask questions."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "How does the second speaker respond to the first speaker's view?",
+       "options": [
+        "B questions whether a longer break is needed.",
+        "The second speaker thinks people ask too many questions.",
+        "The second speaker wants fewer questions after the break.",
+        "The second speaker agrees that the break should be longer."
+       ],
+       "answer": 3,
+       "why": "依据是 Exactly 和后面的理由 People need time to ask questions，说话人赞同延长休息，即第四项。",
+       "point": "attitude"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "intent",
+    "attitude"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "We need somewhere to hold the craft fair."
+       },
+       {
+        "who": "B",
+        "text": "How about the garden?"
+       },
+       {
+        "who": "A",
+        "text": "It might work, but we'll need shelter if it rains."
+       },
+       {
+        "who": "B",
+        "text": "The hall has a roof and enough tables."
+       },
+       {
+        "who": "A",
+        "text": "I'd rather use the hall, then."
+       },
+       {
+        "who": "B",
+        "text": "Sounds good. I'll ask when it's available."
+       },
+       {
+        "who": "A",
+        "text": "Please check Saturday afternoon."
+       },
+       {
+        "who": "B",
+        "text": "I'll call the manager today."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What does the first speaker mean about the garden?",
+       "options": [
+        "It has enough tables for the fair.",
+        "It is unsuitable even in dry weather.",
+        "It would need shelter in case of rain.",
+        "It has already been booked for Saturday."
+       ],
+       "answer": 2,
+       "why": "依据是 It might work, but we'll need shelter if it rains。花园可以考虑，但下雨时要有遮挡，即第三项。",
+       "point": "attitude"
+      },
+      {
+       "stem": "What does the first speaker prefer after hearing about the hall?",
+       "options": [
+        "Using the hall for the craft fair",
+        "Moving the tables into the garden",
+        "Asking for a roof over the garden",
+        "Calling the manager on Saturday"
+       ],
+       "answer": 0,
+       "why": "依据是 I'd rather use the hall, then，说话人想在大厅办，即第一项。",
+       "point": "intent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 8,
+   "pass": 0.75,
+   "points": [
+    "intent",
+    "attitude"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Mina, the local history group needs to decide how to display the photographs from the old railway station. The pictures are different sizes, and some are too delicate to pin directly onto a board."
+         },
+         {
+          "who": "B",
+          "text": "Then let's scan them first and put copies on the board. That way the originals can stay in their protective covers, and visitors will still be able to see the details."
+         },
+         {
+          "who": "A",
+          "text": "Sounds good. I can scan them on Friday, and I already have the owner's permission. We should also decide how much information to put beside each picture."
+         },
+         {
+          "who": "B",
+          "text": "We could write a long paragraph about every train in the collection. I've found some notes in the archive, although there are gaps in the dates."
+         },
+         {
+          "who": "A",
+          "text": "I'd rather keep the labels short. People can read the longer notes in a folder beside the display, and that will leave more room for the images."
+         },
+         {
+          "who": "B",
+          "text": "That makes sense. What about putting the board in the station waiting room? It's where most visitors enter, so they would see it immediately."
+         },
+         {
+          "who": "A",
+          "text": "That might work, but the afternoon sun reaches that wall. Even copies could fade there. Could we use the wall near the ticket desk instead?"
+         },
+         {
+          "who": "B",
+          "text": "Yes, that wall is shaded. I'll measure it tomorrow and ask the staff whether we can put the board there. Then we can decide how large the copies should be. If there's enough space, we can leave a clear gap between the images and their labels."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "How does the first speaker respond to scanning the photographs?",
+         "options": [
+          "The first speaker agrees to make copies of the photographs.",
+          "The first speaker prefers to pin the originals to the board.",
+          "The first speaker asks B to obtain the owner's permission.",
+          "The first speaker wants to keep the copies in protective covers."
+         ],
+         "answer": 0,
+         "why": "依据是 Sounds good 和 I can scan them on Friday，说话人接受扫描照片的提议，即第一项。",
+         "point": "intent"
+        },
+        {
+         "stem": "What does the first speaker prefer for the labels?",
+         "options": [
+          "Including all archive notes beside each image",
+          "Leaving the dates out of the archive folder",
+          "Writing a short description beside each image",
+          "Displaying the folder instead of the photographs"
+         ],
+         "answer": 2,
+         "why": "I'd rather keep the labels short 表示说话人希望标签简短，即第三项。",
+         "point": "intent"
+        },
+        {
+         "stem": "What is the first speaker's attitude toward the waiting room wall?",
+         "options": [
+          "A believes its shade protects the display.",
+          "A considers sunlight a possible difficulty.",
+          "The first speaker is certain visitors cannot see the board there.",
+          "The first speaker thinks the wall is too small for the copies."
+         ],
+         "answer": 1,
+         "why": "That might work, but the afternoon sun reaches that wall 表示说话人对阳光有顾虑，即第二项。",
+         "point": "attitude"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Leo, we're planning the community cooking demonstration. The chef has agreed to prepare a vegetable soup, and we need to arrange the room before the visitors arrive."
+         },
+         {
+          "who": "B",
+          "text": "We could put the cooking table in the middle, with the audience all around it. That would give everyone a chance to stand close to the chef."
+         },
+         {
+          "who": "A",
+          "text": "I'm not sure that would work. The power cable has to reach the table, and people might trip over it if they walk all the way around."
+         },
+         {
+          "who": "B",
+          "text": "You're right. The table could go against the side wall instead. We can put the chairs in a half circle, so everyone faces the cooking area."
+         },
+         {
+          "who": "A",
+          "text": "That's a good idea. There's a socket on that wall, and the cable would stay behind the table. What should we do with the recipe sheets?"
+         },
+         {
+          "who": "B",
+          "text": "Let's give each visitor a sheet at the door. They can read the ingredients while they're waiting, and then take the instructions home afterwards."
+         },
+         {
+          "who": "A",
+          "text": "I'd rather hand them out after the demonstration. The chef wants people to watch the chopping and cooking first, instead of reading during the explanation."
+         },
+         {
+          "who": "B",
+          "text": "All right. I'll leave the sheets on the desk until the chef finishes. I'll also put a large copy of the ingredient list beside the entrance for anyone who arrives early. The desk is close to the door, so we can collect the sheets easily when the demonstration ends. I'll check that the writing on the large list is clear."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What does the first speaker mean about the table in the middle?",
+         "options": [
+          "The chairs would block the side wall.",
+          "The recipe sheets would be hard to read.",
+          "The audience could not see the cooking.",
+          "The cable could create a safety problem."
+         ],
+         "answer": 3,
+         "why": "依据是 I'm not sure that would work 和 people might trip over it。桌子放中间，电线可能绊倒人，即第四项。",
+         "point": "attitude"
+        },
+        {
+         "stem": "How does the first speaker respond to the side-wall arrangement?",
+         "options": [
+          "A proposes moving the socket first.",
+          "A approves the new position of the table.",
+          "The first speaker prefers a circle around the table.",
+          "A questions whether the chairs will fit."
+         ],
+         "answer": 1,
+         "why": "依据是 That's a good idea，后面又说那面墙上有插座，说话人赞同把桌子靠侧墙放，即第二项。",
+         "point": "attitude"
+        },
+        {
+         "stem": "What does the first speaker want to do with the recipe sheets?",
+         "options": [
+          "Give them out to visitors after the demonstration",
+          "Place one beside each chair before visitors arrive",
+          "Ask the chef to read them during the demonstration",
+          "Leave all of them beside the entrance for early visitors"
+         ],
+         "answer": 0,
+         "why": "I'd rather hand them out after the demonstration 说话人想在演示结束后再发食谱，即第一项。",
+         "point": "intent"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

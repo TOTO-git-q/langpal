@@ -1,0 +1,869 @@
+{
+ "id": "listening-response",
+ "title": "Listen and Choose a Response：听一句，选怎么接",
+ "goal": "一句话只听一遍，八题里答对六题以上：听出对方是在问、在请求、在提议还是在抱怨，否定疑问和客气的绕弯说法不上当。",
+ "skill": "listening",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 听力",
+ "points": [
+  {
+   "id": "function",
+   "label": "听出这句话是在做什么：问信息、请求、提议、道谢、抱怨"
+  },
+  {
+   "id": "implied",
+   "label": "否定疑问、反问、绕弯的请求：听懂真正的意思"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、录音长度、只放一遍"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "各题型的说明、考查的能力、官方样题"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Listening Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-listening.pdf",
+   "used": "第 1 课：四类题的说明和小测答案；第 2、4 课：应答配对、重音和语调"
+  }
+ ],
+ "cards": [
+  {
+   "id": "facts",
+   "type": "facts",
+   "title": "这道题是什么",
+   "rows": [
+    {
+     "k": "在哪",
+     "v": "听力部分四类题之一，15–19 题，是听力里题数最多的一类。",
+     "src": "spec 第 4 页"
+    },
+    {
+     "k": "题目长什么样",
+     "v": "你听到一句问话或陈述，它是一小段对话的前半句。这句话只能听，屏幕上不显示。然后你读四个书面的回应，选最合适的一个。",
+     "src": "overview 第 8–9 页"
+    },
+    {
+     "k": "话题",
+     "v": "和校园生活有关的简短对话。",
+     "src": "overview 第 8 页"
+    },
+    {
+     "k": "官方说它考什么",
+     "v": "常用词和套语；简单的语法结构，包括各种问句的构成；短对话里什么样的回应在社交上是得体的；辨音，以及用语调和重音表达的意思；推断言外之意、说话人的身份或场合。",
+     "src": "overview 第 8 页"
+    },
+    {
+     "k": "难度",
+     "v": "官方标的范围是 A1 到 B2。",
+     "src": "spec 第 4 页"
+    },
+    {
+     "k": "整个听力部分",
+     "v": "47 题，约 29 分钟，分两段自适应。每段录音只放一遍。说话人有北美、英国、澳大利亚三种口音。",
+     "src": "spec 第 1、4、11 页；overview 第 8 页；lessonplan 第 7 页"
+    }
+   ],
+   "note": "官方说明里特别提到：选对回应既要听懂字面意思，也要听懂言外之意。"
+  },
+  {
+   "id": "pairs",
+   "type": "table",
+   "title": "前半句是什么，后半句就该是什么",
+   "intro": "对话是一对一对的：问配答，请求配答应或推辞，提议配接受或谢绝。先判断听到的那句话在做什么，四个选项里只有一个是配得上的。",
+   "cols": [
+    "听到的是",
+    "常见的说法",
+    "配得上的回应",
+    "配不上的"
+   ],
+   "rows": [
+    [
+     "问信息",
+     "Where / When / How long / What did you think of ...?",
+     "直接给那一种信息：地点、时间、时长、看法",
+     "给了另一种信息：问 when 答地点"
+    ],
+    [
+     "绕弯问信息",
+     "Do you know when ...? / Can you tell me where ...?",
+     "同上，给信息",
+     "只回答字面：Yes, I do."
+    ],
+    [
+     "请求",
+     "Could you ...? / Would you mind ...? / I was wondering if you could ...",
+     "答应或推辞：Sure. / Not at all. / I'm afraid I can't.",
+     "把它当成问能力或问过去的事"
+    ],
+    [
+     "提议、建议",
+     "Why don't we ...? / How about ...? / Do you want me to ...?",
+     "接受或谢绝：Sounds good. / That would be great. / I'd rather not.",
+     "用 Because 讲原因"
+    ],
+    [
+     "讲一个麻烦",
+     "I can't get this printer to work.",
+     "出主意或表示同情",
+     "重复对方句子里的词"
+    ],
+    [
+     "道谢、道歉、祝贺",
+     "Thanks for ... / Sorry I'm late. / Congratulations!",
+     "套语：No problem. / Don't worry about it. / Thanks!",
+     "答错了套语：对道歉说 You're welcome."
+    ],
+    [
+     "求证",
+     "..., aren't you? / ..., right? / Didn't you say ...?",
+     "确认或纠正，常带一句补充",
+     "把它当成第一次听说的新问题"
+    ]
+   ],
+   "src": "「应答成对」的讲法来自 lessonplan 第 2 课；表里的例句是本课原创。"
+  },
+  {
+   "id": "implied",
+   "type": "text",
+   "title": "三种容易听反的句子",
+   "body": [
+    {
+     "p": "下面三种句子字面和真正的意思不一样，是这类题最常设的坑。"
+    },
+    {
+     "list": [
+      "否定疑问：Didn't you say it was due Friday? 说话人以为是周五，在求证。回应要么确认，要么纠正，不能当成普通的 yes/no 问题乱答。",
+      "Would you mind ...? 问的是「你介意吗」。同意对方做，要说 Not at all；说 Yes 反而是介意。",
+      "Why don't we / Why don't you ...? 是建议，不是问原因。用 Because 开头的选项基本是错的。"
+     ]
+    },
+    {
+     "compare": {
+      "thin": "Why don't we grab lunch before the seminar? — Because the seminar is at noon.",
+      "full": "Why don't we grab lunch before the seminar? — Sure, I'm starving.",
+      "why": "对方在提议一起吃午饭，要回应的是去不去。"
+     }
+    },
+    {
+     "compare": {
+      "thin": "Do you know when the library closes? — Yes, I do.",
+      "full": "Do you know when the library closes? — At ten, I think.",
+      "why": "对方要的是时间。只答 Yes 等于没回答。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ear",
+   "type": "text",
+   "title": "只听一遍，抓什么",
+   "body": [
+    {
+     "p": "一句话两三秒就过去了。不用每个词都听清，按顺序抓三样："
+    },
+    {
+     "list": [
+      "开头一两个词：Where、When、How long、Could you、Why don't、Didn't。它们决定这句话是哪一种。",
+      "重读的词：英语里重读的是带信息的词。I can't get this PRINTER to WORK，抓住 printer 和 work 就够了。",
+      "句尾的语调：往上扬多半是在问或求证，往下落多半是陈述或特殊疑问句。陈述句用升调说出来（You're coming?）就是在问。"
+     ]
+    },
+    {
+     "p": "录音放完再看选项会来不及。录音开始前先把四个选项扫一眼，心里有个数：它们是在给时间、给地点，还是在答应一件事。"
+    }
+   ],
+   "src": "重音和语调表达意思，见 lessonplan 第 4 课。"
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "错项的四种样子",
+   "cols": [
+    "样子",
+    "例子",
+    "怎么识破"
+   ],
+   "rows": [
+    [
+     "重复听到的词",
+     "听到 How long have you been waiting for the bus? 选项：It's a long bus.",
+     "同一个词出现在选项里不是加分项。先问它配不配得上。"
+    ],
+    [
+     "答了另一个问题",
+     "问 Where can I pick up my ID? 选项：Tomorrow morning.",
+     "回到开头的疑问词。"
+    ],
+    [
+     "只答字面",
+     "Do you know when ...? 选项：Yes, I do.",
+     "绕弯的问句要的是后半句的信息。"
+    ],
+    [
+     "套语对错了场合",
+     "Sorry I'm late. 选项：You're welcome.",
+     "You're welcome 只配 Thanks。"
+    ]
+   ]
+  },
+  {
+   "id": "check",
+   "type": "check",
+   "title": "练习　八句",
+   "points": [
+    "function",
+    "implied"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Do you know when the library closes tonight?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "At ten, I think.",
+        "Yes, I do.",
+        "It's next to the gym.",
+        "I borrowed two books."
+       ],
+       "answer": 0,
+       "why": "绕弯问时间。B 只答了字面，C 答的是地点。",
+       "point": "function"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Why don't we grab lunch before the seminar?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "Because the seminar is at noon.",
+        "I didn't grab it.",
+        "Sure, I'm starving.",
+        "It was delicious."
+       ],
+       "answer": 2,
+       "why": "Why don't we 是提议。回应的是去不去。",
+       "point": "function"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Would you mind if I opened the window?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "I opened it this morning.",
+        "Not at all. Go ahead.",
+        "The window is on the left.",
+        "No, I didn't mind it yesterday."
+       ],
+       "answer": 1,
+       "why": "问的是「你介意吗」。不介意说 Not at all。",
+       "point": "implied"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Didn't you say the assignment was due Friday?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "No, I'll say it on Friday.",
+        "It takes about two hours.",
+        "Yes, Friday is my favorite day.",
+        "I did, but the professor just extended it."
+       ],
+       "answer": 3,
+       "why": "否定疑问是在求证。D 先确认（I did），再补上新的情况。",
+       "point": "implied"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I can't get this printer to work."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "Have you checked whether it's out of paper?",
+        "Yes, you can.",
+        "I work at the print shop.",
+        "It works for a large company."
+       ],
+       "answer": 0,
+       "why": "对方讲了一个麻烦，配得上的是出主意。C、D 只是重复了 work。",
+       "point": "function"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Thanks for lending me your notes."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "Yes, I lent them.",
+        "I'll take notes tomorrow.",
+        "No problem. Anytime.",
+        "They're in my notebook."
+       ],
+       "answer": 2,
+       "why": "道谢配套语。",
+       "point": "function"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "",
+      "lines": [
+       {
+        "who": "A",
+        "text": "You're coming to the study session, aren't you?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "Yes, it came yesterday.",
+        "I wish I could, but I have to work.",
+        "The session is about chemistry.",
+        "No, I aren't."
+       ],
+       "answer": 1,
+       "why": "反意疑问是在求证。I wish I could 是客气地说去不了。",
+       "point": "implied"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "",
+      "lines": [
+       {
+        "who": "A",
+        "text": "How long have you been waiting for the bus?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "It's a long bus.",
+        "Until five o'clock.",
+        "By bus, usually.",
+        "About twenty minutes."
+       ],
+       "answer": 3,
+       "why": "How long 加完成时，问到现在为止的时长。B 说的是将来的时间点。",
+       "point": "function"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "限时练习",
+   "minutes": 4,
+   "pass": 0.75,
+   "points": [
+    "function",
+    "implied"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Where can I pick up my student ID?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "Tomorrow morning.",
+          "At the registration office on the second floor.",
+          "It costs five dollars.",
+          "Yes, you can pick it."
+         ],
+         "answer": 1,
+         "why": "Where 问地点。",
+         "point": "function"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Could you keep an eye on my laptop for a minute?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "Sure. Take your time.",
+          "I have an eye exam today.",
+          "No, it's a new laptop.",
+          "A minute ago."
+         ],
+         "answer": 0,
+         "why": "keep an eye on 是「帮忙看着」。这是请求，配答应。",
+         "point": "function"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Isn't this the room for the chemistry review?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "I reviewed chemistry last night.",
+          "No, I don't have a room.",
+          "It was supposed to be, but it's been moved to Room 204.",
+          "The review was very helpful."
+         ],
+         "answer": 2,
+         "why": "否定疑问在求证。C 先确认原来是，再纠正。",
+         "point": "implied"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I heard you got the scholarship. Congratulations!"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "Yes, I heard it too.",
+          "You're welcome.",
+          "I'll apply next year.",
+          "Thanks! I still can't believe it."
+         ],
+         "answer": 3,
+         "why": "祝贺配道谢。You're welcome 只配 Thanks。",
+         "point": "function"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "How about meeting at the café instead of the library?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "That works for me.",
+          "I met her at the library.",
+          "The café opens at seven.",
+          "About two cups of coffee."
+         ],
+         "answer": 0,
+         "why": "How about 是提议。That works for me 是同意。",
+         "point": "function"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "You wouldn't happen to have a spare charger, would you?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "No, it happened yesterday.",
+          "I do, actually. It's in my bag.",
+          "Yes, I wouldn't.",
+          "It charges very fast."
+         ],
+         "answer": 1,
+         "why": "这是很客气的借东西的说法。回应要说有没有。",
+         "point": "implied"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "What did you think of the guest lecture?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "I think it starts at three.",
+          "I'm thinking about going.",
+          "Honestly, it was hard to follow.",
+          "The guest is from Canada."
+         ],
+         "answer": 2,
+         "why": "What did you think of 问看法，而且是过去的事。",
+         "point": "function"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The cafeteria's closed again? You've got to be kidding."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "No, I'm not a kid.",
+          "It closes the kitchen.",
+          "Yes, I'm joking with you.",
+          "I know. That's the third time this week."
+         ],
+         "answer": 3,
+         "why": "You've got to be kidding 是表示不满和难以相信，不是真的问对方在不在开玩笑。",
+         "point": "implied"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "set-b",
+     "groups": [
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "When is the deadline for adding a course?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "In the main office.",
+          "Three courses.",
+          "The end of next week, I believe.",
+          "Yes, I added it."
+         ],
+         "answer": 2,
+         "why": "When 问时间。",
+         "point": "function"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Do you want me to save you a seat?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "That would be great. Thanks.",
+          "I saved the file already.",
+          "The seats are blue.",
+          "Yes, I want you."
+         ],
+         "answer": 0,
+         "why": "Do you want me to 是主动提出帮忙，配接受或谢绝。",
+         "point": "function"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Haven't you finished the lab report yet?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "Yes, I have a lab.",
+          "Almost. I just need to add the graphs.",
+          "No, the lab is finished at noon.",
+          "It reports to the department."
+         ],
+         "answer": 1,
+         "why": "否定疑问带一点意外：还没写完吗？B 说明进度。",
+         "point": "implied"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Sorry I'm late. The bus broke down."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "You're welcome.",
+          "I'm sorry too late.",
+          "The bus is over there.",
+          "Don't worry about it. We just started."
+         ],
+         "answer": 3,
+         "why": "道歉配 Don't worry about it。",
+         "point": "function"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Why don't you ask the professor for an extension?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "I might do that. Thanks for the idea.",
+          "Because the extension cord is too short.",
+          "She asked me yesterday.",
+          "The professor's office is upstairs."
+         ],
+         "answer": 0,
+         "why": "Why don't you 是给建议。B 用 Because 当原因答，还换了 extension 的意思。",
+         "point": "function"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "This is the line for the financial aid office, right?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "Turn right at the corner.",
+          "The office gave me aid.",
+          "I think so. I'm waiting for it too.",
+          "Yes, I'm fine."
+         ],
+         "answer": 2,
+         "why": "句尾的 right 是在求证，不是方向。",
+         "point": "implied"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "How did your presentation go?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "By train.",
+          "Better than I expected.",
+          "It goes to the third floor.",
+          "I'm going tomorrow."
+         ],
+         "answer": 1,
+         "why": "How did ... go 问结果怎么样。",
+         "point": "function"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I was wondering if you could look over my essay."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "Yes, I was wondering too.",
+          "I'm looking for my essay.",
+          "It's over there.",
+          "Of course. When do you need it back?"
+         ],
+         "answer": 3,
+         "why": "I was wondering if you could 是客气的请求。look over 是「看一遍」。",
+         "point": "implied"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "more": {
+    "kind": "response",
+    "topics": [
+     "图书馆和自习",
+     "选课和注册",
+     "宿舍生活",
+     "小组作业",
+     "食堂和咖啡店",
+     "体育馆和社团",
+     "考试周",
+     "打工和实习",
+     "校车和出行",
+     "实验课",
+     "借东西和还东西",
+     "讲座和活动"
+    ]
+   }
+  }
+ ]
+}

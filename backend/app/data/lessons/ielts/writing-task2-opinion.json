@@ -1,0 +1,73 @@
+{
+  "id": "writing-task2-opinion",
+  "title": "观点题　Task 2 · 练习",
+  "goal": "围绕限定范围的观点保持明确立场，并以解释和例证展开论点。",
+  "skill": "写作",
+  "exam": "雅思 IELTS Academic",
+  "points": [
+    {"id": "position", "label": "保持回应完整命题的明确立场"},
+    {"id": "develop", "label": "以解释和例证展开论点"},
+    {"id": "cohesion", "label": "保持段内逻辑与指代连贯"}
+  ],
+  "sources": [
+    {"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "观点题的练习尺寸与知识点"},
+    {"id": "writing", "title": "IELTS Academic: Writing test format", "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing", "used": "写作任务的形式"},
+    {"id": "rubric", "title": "IELTS Writing Band Descriptors", "url": "https://ielts.org/cdn/ielts-guides/ielts-writing-band-descriptors.pdf", "used": "写作评分标准"}
+  ],
+  "cards": [
+    {
+      "id": "rubric", "type": "rubric", "title": "评分标准",
+      "levels": [
+        {"score": 5, "name": "Band 8-9", "summary": "充分回应任务，立场清楚，论证和语言运用自如。", "signs": ["充分展开并支持立场", "组织连贯，衔接自然", "词汇灵活准确，句式多样，错误极少"]},
+        {"score": 4, "name": "Band 7", "summary": "回应任务并保持清楚立场，主要观点有展开。", "signs": ["主要观点有相关支持，个别地方可更充分", "结构清楚，衔接基本得当", "词汇和句式有变化，错误较少"]},
+        {"score": 3, "name": "Band 6", "summary": "回应任务的主要部分，但部分论证或结论不够充分。", "signs": ["立场可辨，部分观点支持不足或结论不够清楚", "整体推进清楚，衔接有时机械", "词汇和句式有一定范围，错误反复出现"]},
+        {"score": 2, "name": "Band 5", "summary": "部分回应任务，立场或论证不够清楚。", "signs": ["观点展开有限，可能有重复或不相关内容", "组织有一定顺序，但衔接不稳定", "词汇和句式范围有限，错误有时妨碍理解"]},
+        {"score": 1, "name": "Band 4 及以下", "summary": "对任务的回应和论证十分有限，语言困难明显。", "signs": ["立场不清或缺少相关支持", "内容组织和衔接有限", "词汇及句式范围很窄，错误频繁并影响理解"]},
+        {"score": 0, "name": "未作答", "summary": "未作答。", "signs": []}
+      ],
+      "takeaways": [{"t": "四项标准", "d": "按任务回应、连贯与衔接、词汇、语法范围与准确性四项等权评价。"}]
+    },
+    {
+      "id": "marking", "type": "marking", "title": "批改单",
+      "format": [
+        {"t": "题目的要求", "d": "逐条判断是否答到，并引用原文。"},
+        {"t": "分数档", "d": "对照评分标准给出 0–5 分和理由。"},
+        {"t": "必改的地方", "d": "列出最多五处影响理解或准确性的错误及改法。"},
+        {"t": "升一档", "d": "改写一处内容，说明怎样补充细节或表达得更准确。"}
+      ],
+      "rules": "评分依据任务回应、连贯与衔接、词汇、语法范围与准确性；四项等权。",
+      "example": {
+        "about": "以下示例说明只给出立场而没有展开时的判定。",
+        "coverage": [{"bullet": "Give reasons for your answer and include relevant examples from your own knowledge or experience.", "verdict": "做了但太薄", "quote": "Evening opening is useful.", "note": "给出了判断，但没有解释或例证。"}],
+        "score": 2,
+        "reason": "立场可辨，但论证展开有限。",
+        "fixes": [],
+        "upgrade": {"from": "Evening opening is useful.", "to": "Evening opening gives people who work during the day time to borrow books after work.", "why": "补充了受益对象和具体作用。"},
+        "next": ""
+      }
+    },
+    {
+      "id": "timed", "type": "write", "title": "限时写作", "minutes": 40, "min_words": 250,
+      "points": ["position", "develop", "cohesion"],
+      "tasks": [
+        {
+          "id": "set-a", "purpose": "就公共图书馆的开放时间表达立场",
+          "setting": "In many towns, public libraries are used by people who work or study during the day. Some people believe that local councils should keep these libraries open on weekday evenings, even if doing so means reducing the hours available on weekday mornings.",
+          "lead": "To what extent do you agree or disagree?",
+          "bullets": ["Give reasons for your answer and include relevant examples from your own knowledge or experience."],
+          "must": ["明确回应延长工作日晚间开放时间并缩短上午开放时间的主张，以解释和相关例证支持立场。"],
+          "model": "Public libraries serve people with very different daily routines. The proposal to exchange some morning opening hours for evening access would help those who are occupied during the day, but it could also exclude other users. I agree that libraries should open on some weekday evenings, provided that councils retain a reliable morning service.\n\nEvening access would make a valuable public resource available to people who cannot easily visit during working hours. A parent employed full time, for example, might otherwise have only a brief opportunity at the weekend to borrow books or use a computer with a child. An evening session would give that family another choice and could also benefit students who need a quiet place after school. Since library buildings already exist, changing the timetable may allow councils to reach these groups without building additional facilities.\n\nNevertheless, taking too many hours from the morning would simply transfer the inconvenience to another group. Retired residents, carers with young children and people whose work begins later may depend on a predictable morning visit. For a person who uses library computers to complete forms, a closure could mean postponing an important task. Councils should therefore examine local patterns of use and keep at least some mornings open. Staff could also seek feedback after a trial period rather than assuming that the same timetable suits every neighbourhood.\n\nIn conclusion, I support shifting part of the schedule towards weekday evenings because it can widen access for workers and students. The change should be limited and reviewed, however, so that people who rely on morning opening do not lose a service they already use."
+        },
+        {
+          "id": "set-b", "purpose": "就中学的交通教育表达立场",
+          "setting": "Some people argue that all secondary schools should require students to travel to school by public transport at least once a week. They believe that this requirement would teach young people to use local transport independently and encourage them to make fewer journeys by car.",
+          "lead": "To what extent do you agree or disagree?",
+          "bullets": ["Give reasons for your answer and include relevant examples from your own knowledge or experience."],
+          "must": ["明确回应所有中学生每周至少一次乘公共交通上学的要求，以解释和相关例证支持立场。"],
+          "model": "Learning to use public transport can give young people greater independence and may reduce reliance on cars. Nevertheless, I disagree with requiring every secondary school pupil to use it once a week. The proposal overlooks differences in local services and in pupils' circumstances, although schools can still teach the same skills in less rigid ways.\n\nThe most obvious difficulty is that public transport is not equally available to all families. A pupil in a town may have several bus routes within walking distance, whereas one in a rural area may have no suitable service at the time lessons begin. Even when a route exists, an indirect journey with several changes may add considerably to the school day. Requiring the same weekly journey from both pupils would therefore impose unequal burdens rather than offer equal opportunities.\n\nThere are also individual needs that a general rule cannot accommodate. Some pupils have disabilities or caring responsibilities that make a particular journey difficult. Families may also find regular fares expensive. Instead of enforcing a weekly trip, schools could include practical lessons on reading timetables, planning accessible routes and buying tickets. Where a suitable service exists, a supervised class visit could let pupils practise these skills without requiring every family to reorganise its routine.\n\nSuch teaching would not guarantee a permanent reduction in car use, since that depends partly on the quality and price of transport. It could, however, give pupils the knowledge to choose a bus or train when one is practical. In conclusion, transport education is worthwhile, but a universal weekly travel requirement is too inflexible. Schools should teach route planning and provide opportunities to practise while taking local and individual circumstances into account."
+        }
+      ],
+      "more": {"kind": "task2-opinion", "topics": ["公共交通票价", "中学体育", "图书馆开放时间", "社区绿地", "员工远程工作", "大学课程选择", "家庭垃圾分类", "城市自行车道", "博物馆开放", "学校午餐", "公共设施维护", "职业培训", "节约家庭用水"]}
+    }
+  ]
+}

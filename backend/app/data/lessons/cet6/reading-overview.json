@@ -1,0 +1,44 @@
+{
+ "id": "reading-overview",
+ "title": "阅读部分概览",
+ "goal": "区分阅读任务、材料和卷面比例。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "format", "label": "区分三类阅读任务及其材料"},
+  {"id": "timing", "label": "说出阅读总时间与各类分值比例"}
+ ],
+ "sources": [
+  {"id": "c1", "title": "CET笔试", "url": "https://cet.neea.edu.cn/html1/folder/16113/1586-1.htm", "used": "阅读题量、时间及卷面比例"},
+  {"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读材料与任务"},
+  {"id": "c3", "title": "分数解释", "url": "https://cet.neea.edu.cn/html1/folder/19081/5124-1.htm", "used": "阅读报道分"}
+ ],
+ "cards": [
+  {"id": "facts", "type": "facts", "title": "概述", "rows": [
+   {"k": "阅读时间", "v": "40 分钟，三类题共用", "src": "C1 CET笔试"},
+   {"k": "题量", "v": "三类题各 10 题，共 30 题", "src": "C1 CET笔试"},
+   {"k": "卷面比例", "v": "词汇理解 5%，长篇阅读 10%，仔细阅读 20%", "src": "C1 CET笔试"},
+   {"k": "阅读报道分", "v": "阅读报道分满分为 249 分", "src": "C3 分数解释"}
+  ]},
+  {"id": "types", "type": "table", "title": "题型", "cols": ["类型", "材料", "任务"], "rows": [
+   ["选词填空（词汇理解）", "250—300 词短文，10 个空，15 个候选词", "根据上下文选词填空"],
+   ["段落匹配（长篇阅读）", "约 1200 词的长文", "将陈述与相关段落匹配"],
+   ["仔细阅读", "2 篇文章，每篇 400—450 词", "阅读文章并回答单选题"]
+  ]},
+  {"id": "scores", "type": "text", "title": "卷面比例与报道分", "body": [
+   {"p": "卷面比例表示各类题在全卷中所占的比例。阅读三类题合计占全卷 35%。"},
+   {"p": "阅读报道分满分为 249 分。报道分由原始分经常模转换得出。卷面比例只表示各类题的比重，不能换算成每题的固定分数。"}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 4, "pass": 0.8, "points": ["format", "timing"], "sets": [
+   {"id": "set-a", "groups": [{"items": [
+    {"stem": "Which reading task uses a bank of 15 words?", "options": ["Banked cloze", "Paragraph matching", "Close reading", "Both banked cloze and matching"], "answer": 0, "why": "词汇理解材料设 10 个空，并提供 15 个候选词，即第一项。", "point": "format"},
+    {"stem": "What does paragraph matching require?", "options": ["Completing gaps from a bank of words", "Matching statements to paragraphs", "Answering choice questions on two passages", "Matching each paragraph to a heading"], "answer": 1, "why": "长篇阅读要求把陈述与相关段落匹配，即第二项。第四项把匹配的对象换成了段落标题。", "point": "format"},
+    {"stem": "Which description fits close reading?", "options": ["One passage of 250–300 words", "One passage of about 1,200 words", "Two passages of 400–450 words each", "Two passages of 250–300 words each"], "answer": 2, "why": "仔细阅读包含两篇文章，每篇 400—450 词，即第三项。", "point": "format"},
+    {"stem": "How much time is shared by the reading tasks?", "options": ["20 minutes", "30 minutes", "35 minutes", "40 minutes"], "answer": 3, "why": "阅读三类题共用 40 分钟，即第四项。", "point": "timing"},
+    {"stem": "What is the paper weight of paragraph matching?", "options": ["5%", "10%", "20%", "35%"], "answer": 1, "why": "长篇阅读占全卷 10%，即第二项。", "point": "timing"},
+    {"stem": "Which statement describes reading scores?", "options": ["Close reading is 10% of the paper.", "Banked cloze is 20% of the paper.", "The reported reading maximum is 249.", "Each item has a fixed reported score."], "answer": 2, "why": "阅读报道分满分为 249 分，即第三项。卷面比例不能直接换成单题固定报道分。", "point": "timing"}
+   ]}]}]
+  }
+ ]
+}

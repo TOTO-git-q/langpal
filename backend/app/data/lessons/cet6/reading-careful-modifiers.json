@@ -1,0 +1,62 @@
+{
+ "id": "reading-careful-modifiers",
+ "title": "长句的修饰与并列",
+ "goal": "确定后置修饰语的归属，识别并列成分及共同修饰语。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "attach", "label": "确定修饰语所依附的成分"},
+  {"id": "parallel", "label": "识别并列成分及其共同修饰语"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读理解能力的课程安排"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "后置修饰语放在被修饰的词后面，用来限定对象或补充信息。并列结构连接功能相同的成分。修饰语可能只修饰其中一项，也可能同时修饰几项。"},
+   {"box": "The books on the table and the maps in the cabinet belong to the archive."},
+   {"p": "on the table 修饰 books，in the cabinet 修饰 maps。books 与 maps 并列，共同作 belong to 的主语。"}
+  ]},
+  {"id": "attachments", "type": "table", "title": "后置修饰语", "cols": ["类型", "例句", "修饰对象"], "rows": [
+   ["定语从句", "The map that shows the old route is on the desk.", "that 从句修饰 map"],
+   ["定语从句", "The volunteers who signed up received a schedule.", "who 从句修饰 volunteers"],
+   ["分词短语", "The letters stored in the archive are available as copies.", "stored 短语修饰 letters"],
+   ["分词短语", "The guide leading the tour is a volunteer.", "leading 短语修饰 guide"],
+   ["介词短语", "The books on the upper shelf belong to the school.", "on 短语修饰 books"],
+   ["介词短语", "The notice beside the entrance describes the schedule.", "beside 短语修饰 notice"]
+  ]},
+  {"id": "parallel-types", "type": "table", "title": "并列成分", "cols": ["类型", "例句", "并列范围"], "rows": [
+   ["并列名词", "The museum displays maps and photographs, both from the town archive.", "maps 与 photographs 共用来源短语"],
+   ["并列名词", "Both the chairs and tables in the hall are new.", "chairs 与 tables 共用 are new"],
+   ["并列谓语", "Volunteers collect and inspect the returned tools.", "collect 与 inspect 共用主语及宾语"],
+   ["并列谓语", "The guide opened the room and explained its history.", "opened 与 explained 共用主语"],
+   ["并列分句", "The hall opened in May, and the garden opened in June.", "两个分句各有主语和谓语"],
+   ["并列分句", "The group prepared the list, and the office printed it.", "两个分句分别说明准备与打印"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "The guide collected maps and photographs, both from the archive.\nWhich items came from the archive?\n1. The guide and the archive\n2. The maps and the photographs\n3. The maps but not the photographs\n4. The guide but not the photographs"},
+   {"p": "maps 和 photographs 并列，both from the archive 同时修饰这两项。答案是第二项。"}
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["attach"], "groups": [
+   {"look": "passage", "text": "The letters stored in the archive describe the old route.", "items": [{"stem": "What is stored in the archive?", "options": ["The old route itself", "Letters describing the old route", "A description of the archive", "The route leading to the archive"], "answer": 1, "why": "stored in the archive 紧跟 letters，修饰 letters。存放的是描述旧路线的信件，即第二项。", "point": "attach"}]},
+   {"look": "passage", "text": "The guide who leads the tour prepared the schedule.", "items": [{"stem": "Who leads the tour?", "options": ["The people on the guide's tour", "A guide other than the schedule's author", "The guide who prepared the schedule", "A person chosen by the guide"], "answer": 2, "why": "who leads the tour 紧跟 guide，修饰 guide。带队的向导也是 prepared the schedule 的主语，即第三项。", "point": "attach"}]}
+  ]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["parallel"], "groups": [
+   {"look": "passage", "text": "Both the chairs and tables in the hall are new.", "items": [{"stem": "Which items are described as new?", "options": ["The hall with its chairs", "Only the tables", "Only the chairs", "The chairs and tables"], "answer": 3, "why": "both 标明 chairs 和 tables 共同对应 are new。", "point": "parallel"}]},
+   {"look": "passage", "text": "The office received and checked the forms.", "items": [{"stem": "What did the office do with the forms?", "options": ["It received and checked them.", "It received but did not check them.", "It checked but did not receive them.", "It returned them without checking them."], "answer": 0, "why": "received 和 checked 并列，共用 the forms 作宾语。", "point": "parallel"}]}
+  ]},
+  {"id": "check-three", "type": "check", "title": "练习三", "points": ["attach", "parallel"], "groups": [
+   {"look": "passage", "text": "The report on the trial lists costs, and the notice beside the door gives the schedule.", "items": [
+    {"stem": "What is beside the door?", "options": ["The trial", "The notice", "The report", "The schedule"], "answer": 1, "why": "beside the door 修饰 notice。", "point": "attach"},
+    {"stem": "What do the two clauses state?", "options": ["The report gives the schedule and the notice lists costs.", "The report and the notice both list only costs.", "The report lists costs and the notice gives the schedule.", "The notice lists costs and gives the trial report."], "answer": 2, "why": "and 连接两个分句；各自的主语和谓语分别是 report lists 与 notice gives。", "point": "parallel"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["attach", "parallel"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "The student who prepared the map borrowed a book from the archive.", "items": [{"stem": "Who prepared the map?", "options": ["The student who borrowed the book", "The archive that lent the book", "A student who lent a book to the archive", "Someone who borrowed the student's map"], "answer": 0, "why": "who prepared the map 紧跟 student，修饰 student。这个学生也是 borrowed 的主语，即第一项。第三项把借书的方向说反了。", "point": "attach"}]},
+   {"look": "passage", "text": "The office collected the forms and checked their dates.", "items": [{"stem": "What did the office do?", "options": ["It checked the dates but did not collect forms.", "It collected forms and checked their dates.", "It collected dates and checked the forms.", "It collected forms but did not check dates."], "answer": 1, "why": "collected 和 checked 是 office 的并列谓语。", "point": "parallel"}]},
+   {"look": "passage", "text": "The photographs displayed in the hall show the former station.", "items": [{"stem": "What is displayed in the hall?", "options": ["The former station", "Pictures of the hall", "Photos of the station", "The hall of the old station"], "answer": 2, "why": "displayed in the hall 紧跟 photographs，修饰 photographs。展出的是旧车站的照片，即第三项。", "point": "attach"}]},
+   {"look": "passage", "text": "The hall opened in April, and the garden opened in May.", "items": [{"stem": "Which statement matches the two clauses?", "options": ["Both the hall and garden opened in April.", "Both the hall and garden opened in May.", "The garden opened before the hall.", "The hall opened before the garden."], "answer": 3, "why": "并列分句分别给出四月和五月，因此大厅先开放。", "point": "parallel"}]},
+   {"look": "passage", "text": "The notes beside the map describe the walking route.", "items": [{"stem": "What is beside the map?", "options": ["The walking route itself", "The notes describing the route", "A map showing the walking route", "The route marked on the map"], "answer": 1, "why": "beside the map 紧跟 notes，修饰 notes。地图旁边是描述路线的说明，即第二项。", "point": "attach"}]},
+   {"look": "passage", "text": "The archive keeps letters and photographs, both donated by residents.", "items": [{"stem": "What did residents donate?", "options": ["Both the letters and the photographs", "The letters but not the photographs", "The photographs but not the letters", "The archive and the letters it keeps"], "answer": 0, "why": "both donated by residents 共同限定并列的 letters 和 photographs。", "point": "parallel"}]}
+  ]}]}
+ ]
+}

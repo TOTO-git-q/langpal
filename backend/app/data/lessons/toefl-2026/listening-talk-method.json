@@ -1,0 +1,472 @@
+{
+ "id": "listening-talk-method",
+ "title": "题型与短讲结构",
+ "goal": "按短讲结构预判信息的位置；根据题干判断问法。",
+ "skill": "listening",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 听力",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "structure",
+   "label": "按短讲结构预判信息的位置"
+  },
+  {
+   "id": "qtype",
+   "label": "根据题干判断问法"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、录音长度、只放一遍"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "各题型的说明、考查的能力、官方样题"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Listening Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-listening.pdf",
+   "used": "第 1 课：四类题的说明和小测答案；第 2、4 课：应答配对、重音和语调"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "学术短讲任务要求听一段约 100–250 词的讲述，再回答 4 道题。材料解释一个学术概念或现象，作答不要求专业背景知识。录音只播放 1 遍。"
+    },
+    {
+     "p": "本课讲四类问法：主旨、细节、组织结构和推断。What is the talk mainly about? 要求概括全文。Why does the speaker mention a cup? 问的是例子的作用，只复述杯子的特征不够。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定概念",
+     "d": "开头常先描述一个日常现象，概念在后面出现。A wet towel feels cool. This is evaporative cooling. 第二句才给出概念名。"
+    },
+    {
+     "t": "2　记录关系",
+     "d": "按定义、解释、对比、结论记笔记，有的短讲只有其中几项。Unlike a wet towel, a dry one loses no water. 是对比，不是第二个原因。"
+    },
+    {
+     "t": "3　匹配问法",
+     "d": "先看题干要哪一类证据，再比较选项。mainly about 要整体，according to 要明说的信息，imply 要有依据的一步推断。"
+    }
+   ]
+  },
+  {
+   "id": "structure",
+   "type": "table",
+   "title": "短讲结构",
+   "cols": [
+    "位置",
+    "内容",
+    "例句"
+   ],
+   "rows": [
+    [
+     "引入",
+     "具体情境，多半不是主旨",
+     "A wet towel can feel cool."
+    ],
+    [
+     "概念",
+     "术语和它的含义，连同限定词一起记",
+     "Evaporative cooling is cooling caused by evaporation."
+    ],
+    [
+     "解释",
+     "机制或原因，记清谁导致谁",
+     "Water needs energy to evaporate, taking heat from its surroundings."
+    ],
+    [
+     "转折或对比",
+     "与前面情况的差别，两方都记",
+     "In humid air, however, evaporation is slower."
+    ],
+    [
+     "结论",
+     "概念的应用或限制，范围照原话",
+     "So evaporation can cool a surface, but humidity affects the rate."
+    ]
+   ]
+  },
+  {
+   "id": "questions",
+   "type": "table",
+   "title": "四类问法",
+   "cols": [
+    "类型",
+    "题干",
+    "证据"
+   ],
+   "rows": [
+    [
+     "主旨",
+     "What is the talk mainly about?",
+     "概念和全文的展开，不只是开场的事例"
+    ],
+    [
+     "细节",
+     "According to the speaker, what slows evaporation?",
+     "明确说出的原因或条件"
+    ],
+    [
+     "组织结构：例子",
+     "Why does the speaker mention a wet towel?",
+     "例子与概念的关系"
+    ],
+    [
+     "组织结构：对比",
+     "Why does the speaker discuss dry air?",
+     "前后两种条件的区别"
+    ],
+    [
+     "推断",
+     "What can be inferred about cooling in humid air?",
+     "由已述限制推出的直接结果"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A metal spoon and a wooden spoon can be in the same room all morning, yet the metal one feels colder. The useful concept here is thermal conductivity: how readily heat moves through a material. Metal carries heat away from a warm hand faster than wood does. However, a colder feeling doesn't necessarily mean a lower temperature. Both spoons can be at the same room temperature. So touch reflects heat transfer as well as temperature."
+    },
+    {
+     "box": "Why does the speaker mention the two spoons?\n1. To introduce a difference in heat transfer\n2. To establish that metal has a lower room temperature\n3. To show that wood carries heat from a hand faster\n4. To recommend touch as a temperature measurement"
+    },
+    {
+     "p": "题干问 mention 的目的，是组织结构题。两把勺子摸起来冷暖不同，由此引出 thermal conductivity。第一项说的就是这层关系。"
+    },
+    {
+     "p": "笔记：触感不同 → 导热性的定义 → 热从手上传走 → 摸着冷，温度未必低 → 结论。第二项把讲者否定的说法当成了事实。第三项把金属和木头的导热快慢说反了。第四项与讲者的限制相反。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "引入代替主旨",
+     "The talk explains the use of spoons.",
+     "勺子只用来引出导热性"
+    ],
+    [
+     "定义代替功能",
+     "Metal transfers heat rapidly.",
+     "内容正确，但没有回答提到例子的目的"
+    ],
+    [
+     "反转转折",
+     "A colder feeling proves a lower temperature.",
+     "原文是 doesn't necessarily，两者没有必然关系"
+    ],
+    [
+     "扩大结论",
+     "Touch always measures temperature accurately.",
+     "结论讲的是传热对触感的影响，没有说触感准确"
+    ]
+   ]
+  },
+  {
+   "id": "check-short",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "structure",
+    "qtype"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A sponge can hold water in its tiny spaces. That leads to today's concept, porosity, the proportion of a material occupied by empty space. Rocks can also contain such spaces."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which part introduces the scientific concept?",
+       "options": [
+        "The opening example of a water-holding sponge",
+        "The explanation of empty space in a material",
+        "The extension of the discussion to rocks",
+        "The description of water occupying a sponge"
+       ],
+       "answer": 1,
+       "why": "That leads to today's concept, porosity 之后给出定义 the proportion of a material occupied by empty space，第二项指的就是这条定义。第一项的海绵只是引入。",
+       "point": "structure"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Some seeds remain inactive until conditions support growth. This resting state is called dormancy. Cold exposure can help end dormancy in certain species, but it doesn't have that effect on every seed."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which question asks for a stated detail?",
+       "options": [
+        "Why does the speaker introduce dormancy with seeds?",
+        "What general topic does the talk explain?",
+        "What might happen without the required cold period?",
+        "What can end dormancy in certain seeds?"
+       ],
+       "answer": 3,
+       "why": "Cold exposure can help end dormancy in certain species 是明说的事实，第四项问的就是它。另外三项分别问作用、主旨和推断。",
+       "point": "qtype"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "An old photograph may lose color even inside a building. Light can alter the chemicals in a photograph. However, keeping it dark won't repair damage that has already occurred. It can only slow further change."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What information follows the contrast?",
+       "options": [
+        "A limit on the benefit of dark storage",
+        "An explanation of how light changes chemicals",
+        "A comparison of photographs inside different buildings",
+        "A claim that dark storage restores lost color"
+       ],
+       "answer": 0,
+       "why": "However 之后的 keeping it dark won't repair damage that has already occurred 限定了避光保存的作用，即第一项。第四项与这句相反。",
+       "point": "structure"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A potter presses a pattern into soft clay. After firing, the mark remains. Such marks can help researchers compare objects from different workshops, although a shared pattern alone doesn't prove a shared maker."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which question asks about organization?",
+       "options": [
+        "What happens to the mark during firing?",
+        "What might a shared pattern fail to establish?",
+        "Why does the speaker describe a potter's mark?",
+        "What is the main subject of the whole explanation?"
+       ],
+       "answer": 2,
+       "why": "Why does the speaker describe 问的是陶工做标记这个例子的作用，属于组织结构。其余三项分别问细节、推断和主旨。",
+       "point": "qtype"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-talk",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "structure",
+    "qtype"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Think of a bicycle wheel that keeps turning after a push. This illustrates inertia, the tendency of an object to resist a change in its motion. A moving object doesn't need a continuing push to remain in motion if no net force acts on it. On an actual bicycle, though, friction and air resistance slow the wheel. That doesn't contradict inertia. Those forces change the motion. So the wheel's slowing is evidence of outside forces, rather than evidence that motion naturally runs out."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Where does the speaker explain why a real wheel slows?",
+       "options": [
+        "In the opening description of the push",
+        "In the definition of inertia",
+        "In the contrast about friction and air resistance",
+        "In the description of motion without a net force"
+       ],
+       "answer": 2,
+       "why": "On an actual bicycle, though 引出实际情况，friction and air resistance slow the wheel 给出了减速的原因，即第三项。",
+       "point": "structure"
+      },
+      {
+       "stem": "Which question requires an inference?",
+       "options": [
+        "What does the term inertia mean in this talk?",
+        "What would likely happen if resistance were reduced?",
+        "Which two forces slow the wheel of a real bicycle?",
+        "Why does the speaker begin the talk with a bicycle wheel?"
+       ],
+       "answer": 1,
+       "why": "录音说了 friction and air resistance slow the wheel，没有说阻力减小会怎样。回答第二项要由这句推一步，所以是推断题。",
+       "point": "qtype"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "structure",
+    "qtype"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to an academic talk.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "A bakery can record how many loaves it sells each day, but those numbers don't explain why shoppers choose one loaf over another. Today we're distinguishing quantitative data from qualitative data. Quantitative data describe amounts, such as the number of loaves sold. Qualitative data describe qualities or experiences, such as a shopper's explanation that a crust feels too hard. Suppose the bakery sells fewer dark loaves this month. The sales record reveals a change. Interviews might suggest that customers dislike the stronger flavor. However, the interview comments don't establish how common that opinion is among all customers. Perhaps only the most dissatisfied shoppers agreed to speak. Similarly, the sales total alone doesn't identify flavor as the cause of the decline. A price change or a different display could also matter. The useful approach is to connect the two kinds of evidence while respecting what each can show. Counts establish the size of a pattern; descriptions can suggest explanations worth checking. Neither kind automatically replaces the other. A fuller account depends on asking which question each kind of data can actually answer."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Where does the speaker explain a weakness of the interviews?",
+         "options": [
+          "After contrasting comments with evidence about all customers",
+          "During the initial description of daily loaf counts",
+          "Before the speaker names the two kinds of data being compared",
+          "While defining quantitative data as descriptions of amounts"
+         ],
+         "answer": 0,
+         "why": "依据是 However, the interview comments don't establish how common that opinion is among all customers。访谈的不足在这句对比里说出，即第一项。",
+         "point": "structure"
+        },
+        {
+         "stem": "Which question asks about the role of an example?",
+         "options": [
+          "How many types of data are distinguished?",
+          "Why does the speaker discuss shoppers' comments about crust?",
+          "What change does the sales record reveal?",
+          "What might happen if only dissatisfied shoppers respond?"
+         ],
+         "answer": 1,
+         "why": "shoppers' comments 指 a crust feels too hard 这个例子。Why does the speaker discuss 问的是它的作用，即第二项。",
+         "point": "qtype"
+        },
+        {
+         "stem": "Which outline best matches the talk?",
+         "options": [
+          "Bakery example, sales trend, a demonstrated flavor cause, advice on interviews",
+          "Two data types, customer interviews, their advantages, replacement of sales counts",
+          "Sales decline, possible causes, a confirmed price effect, advice on displays",
+          "Bakery example, two data types, their limits, their combined value"
+         ],
+         "answer": 3,
+         "why": "Today we're distinguishing quantitative data from qualitative data 给出概念，However 引出限制，connect the two kinds of evidence 给出结论。第四项与这个顺序对应。",
+         "point": "structure"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to an academic talk.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Picture a theater rehearsal with the same scene played twice. In one version, a door closes just as a character starts speaking. In the other, the door closes after the line ends. The words haven't changed, but the audience's attention may shift. This is a simple way to introduce timing in performance: the placement of actions and speech in relation to one another. A sound can interrupt a line, emphasize its ending, or create a pause before a reply. Directors often test these alternatives during rehearsal. However, a long pause doesn't always communicate the same feeling. In a tense exchange it may suggest hesitation; in a comic scene it may allow an audience to anticipate a joke. The surrounding action matters. It would therefore be misleading to assign every pause a fixed meaning. Timing is a relationship between events, not merely a count of silent seconds. When comparing two performances, the useful question is what an action occurs before or after, and how that relationship shapes the scene. That comparison explains a difference that the script's words alone may not capture."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which question asks for the main idea?",
+         "options": [
+          "When does the door close in the first version?",
+          "Why does the speaker mention a comic scene near the end?",
+          "What does the talk explain about performance timing?",
+          "What might a longer pause suggest in a tense scene?"
+         ],
+         "answer": 2,
+         "why": "第三项要求概括整段讲的 timing，是主旨题。其他三项分别问细节、例子的作用和推断。",
+         "point": "qtype"
+        },
+        {
+         "stem": "What does the contrast about pauses add?",
+         "options": [
+          "A way to infer emotion from pause length alone",
+          "A limit on interpreting an action without its context",
+          "A reason to place the same pause in different scenes",
+          "A comparison of two versions of the same scene"
+         ],
+         "answer": 1,
+         "why": "依据是 However, a long pause doesn't always communicate the same feeling。停顿的意思要看情境，第二项用 without its context 概括了这一点。",
+         "point": "structure"
+        },
+        {
+         "stem": "Which question asks for implied information?",
+         "options": [
+          "What could change if the door closed at another moment?",
+          "What two versions of the scene are described at the start?",
+          "Why does the speaker mention a comic scene?",
+          "How does the speaker define timing in a performance?"
+         ],
+         "answer": 0,
+         "why": "录音说 the audience's attention may shift。第一项要把这层关系用到假设的情况上，所以是推断。其余三项问的是明说的内容或例子的作用。",
+         "point": "qtype"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

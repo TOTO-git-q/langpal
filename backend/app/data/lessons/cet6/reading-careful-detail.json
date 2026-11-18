@@ -1,0 +1,69 @@
+{
+ "id": "reading-careful-detail",
+ "title": "事实细节题",
+ "goal": "定位明确事实，核对对象、时间和程度等限定条件。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "locate", "label": "定位题目所问的明确事实"},
+  {"id": "verify", "label": "核对选项中的对象和限定条件"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读理解能力的课程安排"}],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "事实细节题考原文明确写出的信息。题干可能问原因、对象、时间或条件。"},
+   {"box": "According to the passage, why did the team change its schedule?\nWhat does the passage say about the afternoon session?\nWhich of the following was NOT included?"},
+   {"p": "否定问法要选出与原文不符的一项。核对时，把选项的对象、动作和范围逐一对照原文。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定所问事实", "d": "找出题干的对象、动作和限定词。题干问 afternoon session，先把它和上午场分开。"},
+   {"t": "2　定位相关句", "d": "在原文找对象的名称或同义表达，读完这一句和前后两句。代词所指的对象常在前一句。"},
+   {"t": "3　核对限定", "d": "逐项比较选项的对象、时间、数量和否定范围。否定题要确认其余三项都符合原文。"}
+  ]},
+  {"id": "facts", "type": "table", "title": "细节的三种情况", "cols": ["情况", "原文", "明确事实"], "rows": [
+   ["直接细节", "The hall opened in May.", "大厅在五月开放"],
+   ["直接细节", "Rain delayed the outdoor class.", "雨使室外课延期"],
+   ["跨句指代", "The committee chose a hall. It had a ramp.", "所选大厅有坡道"],
+   ["跨句指代", "Mina brought two maps. She lent them to Ali.", "Ali 借用了两张地图"],
+   ["否定排除", "The box held pens and paper, but no rulers.", "盒中没有尺子"],
+   ["否定排除", "The tour includes the garden, not the roof.", "行程不含屋顶"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "The gallery offered morning tours in June. In July it added an afternoon tour, but the morning tour remained available. Only the afternoon tour included the sculpture room."},
+   {"box": "According to the passage, which tour included the sculpture room?\n1. The morning tour in June\n2. The afternoon tour in July\n3. Every tour offered in July\n4. The morning tour in July"},
+   {"p": "末句的 Only the afternoon tour 指定下午场。前一句说下午场是七月新增的，所以第二项符合原文。"},
+   {"p": "第三项忽略了 Only 的范围。七月仍有上午场，但上午场不含雕塑室。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "例", "排除依据"], "rows": [
+   ["相邻句错配", "把六月上午场当作七月下午场", "区分场次与时间"],
+   ["对象错配", "把雕塑室归入上午场", "核对 only 所限定的场次"],
+   ["否定范围错误", "把不含屋顶理解为没有花园", "not 限定屋顶"],
+   ["程度扩大", "把一些访客写成所有访客", "some 的范围小于 all"]
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["locate", "verify"], "groups": [
+   {"look": "passage", "text": "The outdoor meeting moved to the hall because rain was expected. The exhibition remained under a shelter.", "items": [{"stem": "Why did the meeting move?", "options": ["The exhibition needed the hall.", "Rain was expected that day.", "The shelter had been removed.", "The meeting ended before the rain."], "answer": 1, "why": "because rain was expected 直接说明会议迁移的原因。", "point": "locate"}]},
+   {"look": "passage", "text": "A group borrowed a projector. It was returned to the office on Tuesday.", "items": [{"stem": "What was returned on Tuesday?", "options": ["A projector the office borrowed", "The group's own projector", "The projector the group borrowed", "A new projector bought on Tuesday"], "answer": 2, "why": "It 回指前句的 a projector，即小组借来的投影仪，第三项正确。第一项把借出和借入的一方弄反了。", "point": "locate"}]},
+   {"look": "passage", "text": "The fee covers paper and pencils, but it does not cover paint. Brushes are supplied separately.", "items": [{"stem": "Which item is NOT covered by the fee?", "options": ["Paper used in the class", "Pencils used in the class", "The paper and pencils together", "Paint used in the class"], "answer": 3, "why": "does not cover paint 明确排除颜料。", "point": "verify"}]},
+   {"look": "passage", "text": "Some visitors attended the Friday talk. All registered volunteers attended the Saturday meeting.", "items": [{"stem": "What does the passage say about the Friday talk?", "options": ["Some visitors attended the talk.", "Every visitor attended the talk.", "All volunteers attended the talk.", "No visitors attended the talk."], "answer": 0, "why": "Some visitors attended the Friday talk 限定了人数范围；all 修饰的是周六会议的志愿者。", "point": "verify"}]}
+  ]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["locate", "verify"], "groups": [
+   {"look": "passage", "text": "A neighborhood center ordered new folding chairs in March. It stored them in a side room until the floor in the main hall was repaired in April. The old chairs remained in the meeting room. Only the new chairs were used for the first event in the repaired hall.", "items": [
+    {"stem": "Where were the new chairs stored before the hall was repaired?", "options": ["In the main hall", "In a side room", "In the meeting room", "At the first event"], "answer": 1, "why": "It stored them in a side room 中 them 指前句的新折叠椅。", "point": "locate"},
+    {"stem": "Which chairs were used for the first event in the repaired hall?", "options": ["Both the old and the new chairs", "The old chairs from the meeting room", "Only the newly ordered chairs", "The new chairs and some old ones"], "answer": 2, "why": "Only the new chairs were used 明确限定首次活动使用的新椅子。", "point": "verify"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["locate", "verify"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A town's community kitchen offers residents a place to prepare food for local events. Last winter, the building's heating system needed repairs, so the kitchen closed for several weeks. During that period, a nearby school allowed the town to use its kitchen on Saturday mornings. The school kitchen was unavailable on weekdays because classes were held there.\n\nWhen the community kitchen reopened in March, the town introduced a booking system. Groups could request a time online or leave a message at the town office. Staff confirmed each booking after checking that the kitchen was free. The system covered the kitchen itself, but it did not include the adjoining dining room, which had a separate schedule.\n\nIn April, staff reviewed the first month of bookings. Most groups had used the online form, while a smaller number had left messages at the office. Staff kept both methods because some residents preferred to speak with someone. They also posted a printed schedule beside the kitchen door. This showed confirmed bookings for the current week, but it did not show requests that were still awaiting confirmation.", "items": [
+    {"stem": "Why did the community kitchen close last winter?", "options": ["Its heating system needed repair.", "The school needed it for weekday classes.", "Its dining room had no schedule.", "The online booking form was unavailable."], "answer": 0, "why": "heating system needed repairs, so the kitchen closed 直接说明关闭原因。", "point": "locate"},
+    {"stem": "What did the town's new booking system cover?", "options": ["Both the kitchen and the dining room", "The dining room and its separate schedule", "The kitchen only, not the room next to it", "The school kitchen on Saturday mornings"], "answer": 2, "why": "原文说 covered the kitchen itself, but it did not include the adjoining dining room。第三项把 adjoining dining room 改写为 the room next to it。", "point": "verify"},
+    {"stem": "Which requests appeared on the printed schedule?", "options": ["All requests awaiting confirmation", "Confirmed bookings for the current week", "Every request made during the winter closure", "Only requests left at the town office"], "answer": 1, "why": "This 回指 printed schedule，后句指出其显示本周已确认的预订。", "point": "locate"}
+   ]},
+   {"look": "passage", "text": "A university department maintains a collection of recordings made by former students. For many years, visitors listened to them on equipment in a small room. The equipment was still working, but the room could accommodate only a few people at once. The department therefore decided to make copies of selected recordings available at a second listening station.\n\nBefore moving any material, staff checked the condition of the original recordings. Copies were prepared in a different room, and the originals remained in secure storage. The new station opened in the department's reading area in September. Visitors could listen there without reserving a time, although anyone wishing to examine an original recording still needed an appointment.\n\nIn October, staff asked users about the new arrangement. Some appreciated being able to listen without booking ahead. Others wanted written descriptions of the recordings before choosing one. The department began preparing descriptions for the second station. It kept the small room open as well, since its equipment was needed for recordings that had not yet been copied. The department planned to review the descriptions after users had had time to try them.", "items": [
+    {"stem": "Why did the department add a second listening station?", "options": ["The original equipment had stopped working.", "The reading area had closed in September.", "Staff needed space to check the originals.", "The existing room held only a few listeners."], "answer": 3, "why": "the room could accommodate only a few people at once 是增设播放位置的原因。", "point": "locate"},
+    {"stem": "What could visitors do without an appointment?", "options": ["Remove original recordings from storage", "Hear copied recordings at the new station", "Examine any original in secure storage", "Listen to originals in the reading area"], "answer": 1, "why": "原文说 Visitors could listen there without reserving a time，there 指阅览区的新播放位置，那里放的是复制件，即第二项。原件仍要预约。", "point": "verify"},
+    {"stem": "Which recordings still required the equipment in the small room?", "options": ["Recordings that had not yet been copied", "Only recordings described in writing", "Every copy played at the second station", "Recordings chosen for the second station"], "answer": 0, "why": "its equipment was needed for recordings that had not yet been copied 明确限定录音范围。", "point": "verify"}
+   ]}
+  ]}]}
+ ]
+}

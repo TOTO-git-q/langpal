@@ -1,0 +1,57 @@
+{
+ "id": "writing-practical-notice", "title": "活动通知", "goal": "能组织活动通知并说明参加及提交要求。", "skill": "写作", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "format", "label": "按通知结构组织必要信息"}, {"id": "requirement", "label": "明确表达参加条件与提交要求"}],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "活动通知的内容与知识点"}],
+ "cards": [
+  {"id": "structure", "type": "table", "title": "结构", "cols": ["位置", "内容", "例"], "rows": [
+   ["顶部", "标题说明活动", "Notice: Student Photo Exhibition"],
+   ["正文开头", "说明对象、目的和活动", "All students are invited to share photos of school life."],
+   ["正文中部", "写明时间地点", "The exhibition will be held in the library on May 20."],
+   ["正文末尾", "写明参加和提交要求", "Email one photo to the art club by May 10."],
+   ["末尾署名", "写明发布方", "The Art Club"]
+  ]},
+  {"id": "expressions", "type": "table", "title": "常用表达", "cols": ["用途", "表达", "例句"], "rows": [
+   ["目的", "to + 动词原形", "To record school life, the club is collecting photos."],
+   ["时间地点", "be held + 时间地点", "The exhibition will be held in the library on May 20."],
+   ["条件", "be open to + 对象", "The activity is open to all students."],
+   ["提交", "send + 作品 + to + 接收方 + by + 期限", "Send one photo to the club by May 10."]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [
+   {"p": "假定学校艺术社征集校园生活照片，写通知说明展览和提交要求。"},
+   {"box": "Announce the exhibition.\nGive the submission requirements.\n\nNotice: Student Photo Exhibition\nTo record school life, the Art Club is collecting photographs from all students. Selected photos will be displayed in the school library on May 20. Each student may submit one original photo showing an activity on campus. Please email the photo to the Art Club by May 10 and include your name and class in the message. The club will contact the selected students before the exhibition. Students whose photos are selected will also receive details about the display arrangements.\nThe Art Club"},
+   {"p": "标题说明活动，正文写明目的、对象和展览安排。具体要求有三条：每人一张原创照片，用邮件提交，5 月 10 日截止。末尾写发布方。"}
+  ]},
+  {"id": "errors", "type": "table", "title": "常见错误", "cols": ["问题", "不足", "修改"], "rows": [
+   ["格式混淆", "Dear Ben, … Best, Li Hua", "Notice: Student Photo Exhibition … The Art Club"],
+   ["对象不明", "Volunteers are needed.", "Students aged 16 or above may apply."],
+   ["截止时间不明", "Send the photo soon.", "Email the photo by May 10."],
+   ["提交方式不明", "Submit one photo by May 10.", "Email one photo to the Art Club by May 10."]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["format", "requirement"], "groups": [
+   {"text": "假定学校招募图书馆志愿者，面向本校学生，申请表周五前发给图书馆。", "items": [
+    {"stem": "Which opening fits the notice?", "options": ["Notice: Library Volunteers", "Dear Library Staff,", "Best wishes, a library volunteer applicant", "Dear classmates, I hope to see you there."], "answer": 0, "why": "通知顶部写标题，说明事项。第一项指出招募图书馆志愿者，适合作开头；第四项是书信的写法。", "point": "format"},
+    {"stem": "Which sentence gives the submission requirement?", "options": ["The library received forms from students last Friday.", "Email the application form to the library by Friday.", "The library will display student books on Friday.", "Students can collect books from the library on Friday."], "answer": 1, "why": "第二项写明申请表、接收方和截止时间。", "point": "requirement"}
+   ]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["format", "requirement"], "groups": [{"items": [
+   {"stem": "State where an exhibition will be held.", "lead": "The exhibition", "chunks": ["will be", "held", "in", "the school"], "tail": "library.", "extra": ["holding"], "why": "will be held in the school library 说明活动地点。", "point": "format"},
+   {"stem": "Set a deadline for submitting a photo.", "lead": "Please", "chunks": ["email", "one photo", "to the club", "by"], "tail": "Friday.", "extra": ["emailing"], "why": "email one photo to the club by Friday 写明方式、对象和期限。", "point": "requirement"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["format", "requirement"], "sets": [{"id": "set-a", "groups": [
+   {"text": "假定艺术社征集校园照片，将在周六于大厅展出，照片须在周三前通过邮件发给艺术社。", "items": [
+    {"stem": "Which sentence gives the event's time and place?", "options": ["The photos will be displayed in the hall on Saturday.", "The photos were sent to the club by email on Wednesday.", "The club received a photograph from a student on Saturday.", "The club asked students to choose their favorite photo."], "answer": 0, "why": "照片周六在大厅展出。第一项写明了这一地点和时间。", "point": "format"},
+    {"stem": "Which sentence states the required submission?", "options": ["Bring the photos to the hall on Saturday afternoon.", "Email the photos to the Art Club by Wednesday.", "Collect the photos from the Art Club after Wednesday.", "Display the photos in the hall before the club meets."], "answer": 1, "why": "照片须在周三前用邮件发给艺术社。第二项写明了方式、接收方和期限。", "point": "requirement"}
+   ]},
+   {"text": "假定学生会为周日的校园导览招募志愿者，只有本校学生可报名，报名表周四前交给学生会。", "items": [
+    {"stem": "Which ending identifies the notice's issuer?", "options": ["Dear Student Council, I would like to apply.", "Yours, a volunteer", "The Student Council", "Dear visitors, thank you for attending the tour."], "answer": 2, "why": "学生会是发布方，通知末尾署名 The Student Council。", "point": "format"},
+    {"stem": "Which sentence gives the eligibility condition?", "options": ["The tour welcomes visitors on Sunday.", "The council will meet student visitors on Thursday.", "The tour guides will receive their forms on Sunday.", "Only students at this school may apply as volunteers."], "answer": 3, "why": "情境规定只有本校学生可报名。第四项写明了这一条件。", "point": "requirement"}
+   ]},
+   {"items": [
+    {"stem": "Give the location of a student exhibition.", "lead": "The exhibition", "chunks": ["will be", "held", "in", "the school"], "tail": "hall.", "extra": ["holding"], "why": "will be held in the school hall 写明活动地点。", "point": "format"},
+    {"stem": "State the deadline for submitting a form.", "lead": "Please", "chunks": ["send", "the form", "to the council", "by"], "tail": "Thursday.", "extra": ["sending"], "why": "send the form to the council by Thursday 写明提交对象及期限。", "point": "requirement"},
+    {"stem": "State the purpose of collecting photos.", "lead": "To", "chunks": ["record", "school life,", "the club", "is collecting"], "tail": "photos.", "extra": ["recording"], "why": "To record school life 说明征集目的。", "point": "format"},
+    {"stem": "State who may participate in the activity.", "lead": "The activity", "chunks": ["is", "open", "to", "all"], "tail": "students.", "extra": ["opens"], "why": "is open to all students 说明参加对象。", "point": "requirement"}
+   ]}
+  ]}]}
+ ]
+}

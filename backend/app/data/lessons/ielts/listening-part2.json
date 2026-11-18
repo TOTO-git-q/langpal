@@ -1,0 +1,307 @@
+{
+  "id": "listening-part2",
+  "title": "日常独白　Part 2 · 练习",
+  "goal": "听场馆或活动介绍，按路线标注地点并为项目匹配特征。",
+  "skill": "听力",
+  "exam": "雅思 IELTS Academic",
+  "points": [
+    {
+      "id": "route",
+      "label": "沿录音路线定位地点"
+    },
+    {
+      "id": "match",
+      "label": "按完整条件匹配项目"
+    },
+    {
+      "id": "extract",
+      "label": "提取符合问题的简短答案"
+    }
+  ],
+  "sources": [
+    {
+      "id": "syllabus",
+      "title": "雅思 IELTS Academic：课表",
+      "url": "docs/syllabi/ielts.md",
+      "used": "练习尺寸与知识点"
+    },
+    {
+      "id": "listening",
+      "title": "IELTS Academic: Listening test format",
+      "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening",
+      "used": "听力任务的形式"
+    }
+  ],
+  "cards": [
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "小测",
+      "minutes": 6,
+      "pass": 0.75,
+      "points": [
+        "route",
+        "match",
+        "extract"
+      ],
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "audio": {
+                "intro": "You will hear a guide talking to visitors at a community farm.",
+                "lines": [
+                  {
+                    "who": "A",
+                    "text": "Good morning, everyone, and welcome to Brookside Community Farm. I'll start with the plan you've been given, which has north at the top. We're standing at the main gate on the south side, facing into the farm. Just to the west of the gate, on your left as you come in, is the farm shop, where you can buy eggs and vegetables grown here. Now follow the main path north to the first junction. On the western side is the old barn, which we use for indoor events, and on the eastern side you'll find the goat pen. The goats are very friendly, but please only feed them with the food sold at the shop. Keep going north to the second junction. To the east is the pond, and directly opposite it, on the western side, is the café, which has tables outside in good weather. Straight ahead, beyond the second junction, is the orchard. The vegetable garden is behind the orchard, so it isn't on your plan, and the toilets are inside the barn, next to the workshop where we keep the tools. The picnic area is in the car park outside the main gate."
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "stem": "Look at the plan. Choose the correct place for each numbered site.\nBrookside Community Farm\nN ↑   W ← + → E   S ↓\nJ2 ↑ [Orchard]\n[2 ___] ← J2 → [Pond]\nJ1 ↑ J2\n[Barn] ← J1 → [1 ___]\nMAIN GATE (south side) ↑ J1\n[3 ___] ← MAIN GATE\nKey: J1 / J2 = junctions; [ ] = places. Not to scale.\n1. Site 1",
+                  "options": [
+                    "Café",
+                    "Vegetable garden",
+                    "Goat pen",
+                    "Toilets",
+                    "Picnic area",
+                    "Shop",
+                    "Workshop"
+                  ],
+                  "answer": 2,
+                  "why": "依据是 On the western side is the old barn … and on the eastern side you'll find the goat pen，第一个路口东边的空位 1 是羊圈。",
+                  "point": "route"
+                },
+                {
+                  "stem": "2. Site 2",
+                  "options": [
+                    "Café",
+                    "Vegetable garden",
+                    "Goat pen",
+                    "Toilets",
+                    "Picnic area",
+                    "Shop",
+                    "Workshop"
+                  ],
+                  "answer": 0,
+                  "why": "依据是 To the east is the pond, and directly opposite it, on the western side, is the café。",
+                  "point": "route"
+                },
+                {
+                  "stem": "3. Site 3",
+                  "options": [
+                    "Café",
+                    "Vegetable garden",
+                    "Goat pen",
+                    "Toilets",
+                    "Picnic area",
+                    "Shop",
+                    "Workshop"
+                  ],
+                  "answer": 5,
+                  "why": "依据是 Just to the west of the gate, on your left as you come in, is the farm shop。厕所在谷仓里，不在空位上。",
+                  "point": "route"
+                }
+              ]
+            },
+            {
+              "audio": {
+                "intro": "Now listen to the second part of the talk.",
+                "lines": [
+                  {
+                    "who": "A",
+                    "text": "Now, a few words about today's activities. First, bread-making. This takes place outside, at the clay oven next to the orchard, so do dress for the weather. Places are limited to twelve people per session, so you'll need to book at the shop before you go along. You can't just turn up. There's a charge of three pounds, which covers the ingredients. Next, pond dipping. Children can use our nets to look at the insects and other small creatures living in the pond. There's a small charge for the nets, and it isn't only for little ones; older children enjoy it too. But because the edge of the water can be slippery, every child taking part must have an adult with them the whole time. Finally, the tractor ride, which goes round the edge of the fields. You don't need to book; just wait outside the barn. It costs two pounds per person, and children over five may ride without an adult. However, the field paths become dangerous in wet weather, so if it rains, the ride won't run at all."
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "stem": "Which feature applies to each activity? Choose from the list. You may use any feature more than once.\n4. Bread-making",
+                  "options": [
+                    "must be booked in advance",
+                    "is free of charge",
+                    "takes place indoors",
+                    "requires an adult to stay with each child",
+                    "is cancelled if it rains",
+                    "is only for children under eight"
+                  ],
+                  "answer": 0,
+                  "why": "依据是 you'll need to book at the shop before you go along. You can't just turn up。做面包在室外，也要收费三英镑。",
+                  "point": "match"
+                },
+                {
+                  "stem": "5. Pond dipping",
+                  "options": [
+                    "must be booked in advance",
+                    "is free of charge",
+                    "takes place indoors",
+                    "requires an adult to stay with each child",
+                    "is cancelled if it rains",
+                    "is only for children under eight"
+                  ],
+                  "answer": 3,
+                  "why": "依据是 every child taking part must have an adult with them the whole time；网要收费，也不只限小孩。",
+                  "point": "match"
+                },
+                {
+                  "stem": "6. Tractor ride",
+                  "options": [
+                    "must be booked in advance",
+                    "is free of charge",
+                    "takes place indoors",
+                    "requires an adult to stay with each child",
+                    "is cancelled if it rains",
+                    "is only for children under eight"
+                  ],
+                  "answer": 4,
+                  "why": "依据是 if it rains, the ride won't run at all；不用预约，五岁以上的孩子可以独自乘坐。",
+                  "point": "match"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "audio": {
+                "intro": "You will hear the manager of a leisure centre talking to new members.",
+                "lines": [
+                  {
+                    "who": "A",
+                    "text": "Hello and welcome to Riverside Leisure Centre. You should each have a plan of the ground floor, with north at the top. We're at the main entrance, which is on the east side of the building, and from here a corridor runs straight ahead to the west. Walk along it to the first junction. On your left, that's the south side, is reception, where you'll collect your membership cards. Opposite reception, on the north side, are the changing rooms. Please use those before going to any activity. Now continue west to the second junction. On the north side is the gym, which opens at seven every morning. On the south side is the climbing wall, so it's opposite the gym rather than next to reception. At the far end of the corridor is the sports hall. The swimming pool and the dance studio are both upstairs, so they aren't on this plan; the lift is just behind reception. The café is upstairs too. If you get lost, the staff at reception will be happy to help you."
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "stem": "Look at the plan. Choose the correct place for each numbered site.\nRiverside Leisure Centre (ground floor)\nN ↑   W ← + → E   S ↓\n[Sports hall] ← J2 ← J1 ← EAST ENTRANCE (east side)\nJ1: [1 ___] to the north, [Reception] to the south\nJ2: [2 ___] to the north, [3 ___] to the south\nKey: J1 / J2 = junctions; [ ] = places. Not to scale.\n1. Site 1",
+                  "options": [
+                    "Swimming pool",
+                    "Changing rooms",
+                    "Dance studio",
+                    "Gym",
+                    "Lift",
+                    "Climbing wall",
+                    "Café"
+                  ],
+                  "answer": 1,
+                  "why": "依据是 Opposite reception, on the north side, are the changing rooms，第一个路口北边的空位 1 是更衣室。",
+                  "point": "route"
+                },
+                {
+                  "stem": "2. Site 2",
+                  "options": [
+                    "Swimming pool",
+                    "Changing rooms",
+                    "Dance studio",
+                    "Gym",
+                    "Lift",
+                    "Climbing wall",
+                    "Café"
+                  ],
+                  "answer": 3,
+                  "why": "依据是 continue west to the second junction. On the north side is the gym。",
+                  "point": "route"
+                },
+                {
+                  "stem": "3. Site 3",
+                  "options": [
+                    "Swimming pool",
+                    "Changing rooms",
+                    "Dance studio",
+                    "Gym",
+                    "Lift",
+                    "Climbing wall",
+                    "Café"
+                  ],
+                  "answer": 5,
+                  "why": "依据是 On the south side is the climbing wall, so it's opposite the gym。游泳池和舞蹈室在楼上，不在平面图上。",
+                  "point": "route"
+                }
+              ]
+            },
+            {
+              "audio": {
+                "intro": "Now listen to the second part of the talk.",
+                "lines": [
+                  {
+                    "who": "A",
+                    "text": "Let me tell you about three of our most popular sessions. Aqua fitness takes place in the pool on weekday evenings. Before your first class, you'll need to fill in a short health form at reception, and you can't take part until it's been checked. Bookings for aqua fitness are made online, and the price is the same for members and non-members. Junior climbing is for children aged eight to fourteen, and it runs on Saturday and Sunday mornings only, never during the week. Please book at reception. Helmets and shoes can be hired, but that costs an extra two pounds, so it isn't included in the price. Finally, yoga. There's no need to book for yoga; just arrive ten minutes before the start. I should say that this class isn't really suitable for complete beginners, who should start with our introductory course on Tuesdays. Please bring your own mat, and again, everyone pays the same price. All three sessions are very popular, so do arrive in good time."
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "stem": "Which feature applies to each activity? Choose from the list. You may use any feature more than once.\n4. Aqua fitness",
+                  "options": [
+                    "is suitable for complete beginners",
+                    "needs no booking",
+                    "includes equipment hire in the price",
+                    "is held only at weekends",
+                    "requires a health form before the first session",
+                    "costs less for members"
+                  ],
+                  "answer": 4,
+                  "why": "依据是 Before your first class, you'll need to fill in a short health form；会员与非会员价格相同。",
+                  "point": "match"
+                },
+                {
+                  "stem": "5. Junior climbing",
+                  "options": [
+                    "is suitable for complete beginners",
+                    "needs no booking",
+                    "includes equipment hire in the price",
+                    "is held only at weekends",
+                    "requires a health form before the first session",
+                    "costs less for members"
+                  ],
+                  "answer": 3,
+                  "why": "依据是 it runs on Saturday and Sunday mornings only；装备要另付两英镑，不包含在价格里。",
+                  "point": "match"
+                },
+                {
+                  "stem": "6. Yoga",
+                  "options": [
+                    "is suitable for complete beginners",
+                    "needs no booking",
+                    "includes equipment hire in the price",
+                    "is held only at weekends",
+                    "requires a health form before the first session",
+                    "costs less for members"
+                  ],
+                  "answer": 1,
+                  "why": "依据是 There's no need to book for yoga；这门课不适合完全的初学者。",
+                  "point": "match"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "more": {
+        "kind": "part2",
+        "topics": [
+          "社区农场",
+          "体育中心",
+          "城市公园",
+          "博物馆开放日",
+          "自然保护区游客中心",
+          "图书馆新馆",
+          "社区艺术节",
+          "大学开放日",
+          "植物园",
+          "海滨步道",
+          "历史宅邸",
+          "周末市集"
+        ],
+        "also": [
+          "part2-short"
+        ]
+      }
+    }
+  ]
+}

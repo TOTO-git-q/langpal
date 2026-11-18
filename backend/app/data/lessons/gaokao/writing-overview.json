@@ -1,0 +1,35 @@
+{
+ "id": "writing-overview", "title": "写作部分概览", "goal": "能区分两类写作任务及课程反馈项目。", "skill": "写作", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "format", "label": "说出两类写作的材料与作答要求"}, {"id": "criteria", "label": "区分已确认分值与课程反馈项目"}],
+ "sources": [
+  {"id": "g1", "title": "2024年高考综合改革适应性测试：英语科新课标试卷、专家解读及问卷调查", "url": "https://www.neea.edu.cn/html1/report/2401/499-1.htm", "used": "续写原文长度上限"},
+  {"id": "g8", "title": "2024英语新课标适应性测试 — p.11", "url": "https://www.neea.edu.cn/res/Home/2401/24010509.jpg", "used": "两节写作的分值和作答要求"},
+  {"id": "g9", "title": "2024英语新课标适应性测试 — p.12", "url": "https://www.neea.edu.cn/res/Home/2401/24010510.jpg", "used": "续写段首句"},
+  {"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "课程训练与反馈设置"}
+ ],
+ "cards": [
+  {"id": "overview", "type": "facts", "title": "概述", "rows": [
+   {"k": "应用文", "v": "2024 年适应性测试的写作第一节。依据中文情境和内容提示，写约 80 词的英文应用文，满分 15 分。", "src": "g8 适应性测试第 11 页"},
+   {"k": "读后续写", "v": "写作第二节依据英文故事和两个给定段首句，续写两段，共约 150 词。满分 25 分。", "src": "g8、g9 适应性测试第 11–12 页"},
+   {"k": "续写材料", "v": "官方解读说明续写原文不超过 350 词。", "src": "g1 官方解读"}
+  ]},
+  {"id": "types", "type": "table", "title": "题型", "cols": ["任务", "材料", "作答"], "rows": [
+   ["应用文", "中文情境和内容提示", "写约 80 词英文应用文，满分 15 分。"],
+   ["读后续写", "英文故事和两个段首句", "续写两段约 150 词，满分 25 分。"]
+  ]},
+  {"id": "feedback", "type": "table", "title": "课程反馈", "cols": ["项目", "课程中的用途", "例"], "rows": [
+   ["内容", "检查是否回应任务要求", "通知中说明活动地点。"],
+   ["相关性", "检查细节与目的的联系", "申请信中用相关经历支持申请。"],
+   ["连贯", "检查续写与原文的衔接", "续写保留原文的人物关系。"],
+   ["语言", "检查表达是否清楚", "句子包含明确的主语和谓语。"]
+  ], "note": "以上为本课程的建议，不是官方规定。官方评分维度的名称和分档描述尚未确认。课内只做客观题。完整写作在练习中完成，由模型给出反馈。"},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 4, "pass": 0.8, "points": ["format", "criteria"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "Which task uses a Chinese situation and content prompts?", "options": ["The practical writing task", "The story continuation task", "The two-paragraph continuation", "The passage before continuation"], "answer": 0, "why": "应用文依据中文情境和内容提示写作，第一项符合。", "point": "format"},
+   {"stem": "What is supplied for the continuation task?", "options": ["An English story and one closing sentence", "An English story and two paragraph openings", "A Chinese situation and two paragraph openings", "A Chinese situation and one closing sentence"], "answer": 1, "why": "续写材料包括英文故事和两个段首句，第二项符合。", "point": "format"},
+   {"stem": "Which pair gives the sample tasks' maximum scores?", "options": ["Practical writing 25; continuation 15", "Practical writing 15; continuation 15", "Practical writing 15; continuation 25", "Practical writing 25; continuation 25"], "answer": 2, "why": "适应性测试中应用文满分 15 分，续写满分 25 分，即第三项。", "point": "criteria"},
+   {"stem": "Which statement describes the course feedback?", "options": ["It establishes official score bands.", "It confirms official scoring dimensions.", "It replaces both complete writing tasks.", "It checks whether content addresses the task."], "answer": 3, "why": "课程反馈的「内容」一项检查是否回应任务要求，即第四项。官方分档和评分维度都未确认。", "point": "criteria"},
+   {"stem": "Which response matches the continuation task?", "options": ["About 150 words in two paragraphs", "About 80 words in two paragraphs", "About 150 words in one paragraph", "About 80 words in one paragraph"], "answer": 0, "why": "续写要求两段共约 150 词，第一项符合。", "point": "format"},
+   {"stem": "Which activity provides feedback on a complete response in this course?", "options": ["The objective questions in a lesson", "The complete writing practice", "The supplied paragraph openings", "The Chinese situation and prompts"], "answer": 1, "why": "完整写作在练习中完成并获得模型反馈，第二项符合。", "point": "criteria"}
+  ]}]}]}
+ ]
+}

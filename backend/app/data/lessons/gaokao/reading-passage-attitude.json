@@ -1,0 +1,405 @@
+{
+ "id": "reading-passage-attitude",
+ "title": "作者观点与态度题",
+ "goal": "区分观点归属，并根据评价和理由判断态度。",
+ "skill": "阅读",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "owner",
+   "label": "区分作者观点与被引用的观点"
+  },
+  {
+   "id": "attitude",
+   "label": "根据措辞与论据确定态度程度"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语（新课标卷）：课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "作者观点与态度题的教学内容和知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "态度题要求判断作者对对象的评价。观点归属题要求区分作者的判断与受访者或研究者的意见。"
+    },
+    {
+     "p": "例：A resident called the plan costly, but the author finds it useful. costly 是居民的评价，useful 是作者的评价。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定评价对象",
+     "d": "找出题干问的是对哪个人或哪件事的态度。What is the author's view of the plan? 问的对象是 plan。"
+    },
+    {
+     "t": "2　区分观点归属",
+     "d": "看 said、according to 和引号，确定评价出自谁。A resident called the plan costly 中，评价出自居民。"
+    },
+    {
+     "t": "3　查找评价与理由",
+     "d": "找出 useful、concerned 等评价词和它们的理由。although、but 前后判断不同时，作者的立场在转折之后。"
+    },
+    {
+     "t": "4　核对态度程度",
+     "d": "判断是有保留的支持、怀疑，还是完全反对。useful but costly 表示承认价值，同时指出成本。"
+    }
+   ]
+  },
+  {
+   "id": "terms",
+   "type": "table",
+   "title": "态度词",
+   "cols": [
+    "态度词",
+    "含义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "objective",
+     "只陈述事实，没有褒贬",
+     "The meeting starts at ten and ends at noon."
+    ],
+    [
+     "supportive",
+     "支持或认可",
+     "The plan is useful and should continue."
+    ],
+    [
+     "critical",
+     "批评或指出不足",
+     "The plan overlooks the needs of its users."
+    ],
+    [
+     "doubtful",
+     "怀疑，认为证据不够",
+     "The evidence is too limited to establish the claim."
+    ]
+   ]
+  },
+  {
+   "id": "ownership",
+   "type": "table",
+   "title": "观点归属与程度",
+   "cols": [
+    "线索",
+    "原文",
+    "判断"
+   ],
+   "rows": [
+    [
+     "转述",
+     "A resident called the plan costly. The author finds it useful.",
+     "costly 属于居民，useful 属于作者。"
+    ],
+    [
+     "研究者",
+     "The researcher calls the result promising; the writer asks for more evidence.",
+     "promising 属于研究者；作者要求更多证据。"
+    ],
+    [
+     "让步与转折",
+     "Although the tool is costly, it saves time and is worth using.",
+     "承认成本后仍支持使用。"
+    ],
+    [
+     "局部批评",
+     "The route needs clearer signs, but the service should continue.",
+     "批评标识，支持保留服务。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A resident called the new bus timetable confusing. The author agrees that its signs need improvement, but considers the additional service valuable and recommends keeping it."
+    },
+    {
+     "box": "What is the author's attitude to the additional service?\n1. Opposed to the service because its signs are confusing\n2. Supportive while recognizing a problem with signs\n3. Doubtful that the extra service is worth keeping\n4. Neutral about both the signs and the service"
+    },
+    {
+     "p": "依据：valuable and recommends keeping it 表示支持增设的服务。signs need improvement 是对标识的保留意见。第二项两点都对上。"
+    },
+    {
+     "p": "confusing 是居民的评价。第一项把它当成作者反对服务的理由。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "观点归属错误",
+     "把居民说的 costly 当作作者的判断。",
+     "看 called 的主语是谁。"
+    ],
+    [
+     "局部扩大",
+     "标识不清，就说作者反对整个服务。",
+     "作者 recommends keeping it，主张保留服务。"
+    ],
+    [
+     "遗漏转折",
+     "只看 although 后的成本，判断作者反对。",
+     "主句的 worth using 表示支持。"
+    ],
+    [
+     "态度过强",
+     "作者说证据不够，选项说完全无效。",
+     "核对评价词的程度。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "owner",
+    "attitude"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A resident called the plan expensive. The author considers the plan useful because it provides a safe crossing.",
+     "items": [
+      {
+       "stem": "Whose view is that the plan is expensive?",
+       "options": [
+        "The view of the resident",
+        "The view of the author",
+        "A view the two of them share",
+        "The view of crossing users"
+       ],
+       "answer": 0,
+       "why": "依据：A resident called the plan expensive。说 expensive 的是居民，作者的评价是 useful。",
+       "point": "owner"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Although the new timetable needs clearer signs, the author calls the additional bus service valuable and recommends keeping it.",
+     "items": [
+      {
+       "stem": "How does the author view the service?",
+       "options": [
+        "Opposed to the service because of its signs",
+        "Supportive with a concern about signs",
+        "Doubtful that the service should be kept",
+        "Supportive with no concerns at all"
+       ],
+       "answer": 1,
+       "why": "依据：valuable and recommends keeping it 表示支持，needs clearer signs 是保留意见。第二项两点都有。",
+       "point": "attitude"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "A researcher called the early results promising. The author says the small number of observations makes a firm conclusion premature.",
+     "items": [
+      {
+       "stem": "What is the author's position on a firm conclusion?",
+       "options": [
+        "It is backed by a large number of observations.",
+        "It is justified because the results are promising.",
+        "It would be too early given so few observations.",
+        "It is wrong, so the research should be stopped."
+       ],
+       "answer": 2,
+       "why": "依据：the small number of observations makes a firm conclusion premature。观察太少，作者认为现在下定论太早。promising 是研究者的评价。",
+       "point": "owner"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The writer says the route's signs are unclear, but praises the route itself and urges the town to retain it.",
+     "items": [
+      {
+       "stem": "What does the writer criticize?",
+       "options": [
+        "The existence of the route itself",
+        "The decision to retain the route",
+        "The town's decision to add signs",
+        "The clarity of the route's signs"
+       ],
+       "answer": 3,
+       "why": "依据：signs are unclear，批评的是标识。对路线本身，作者 praises 并主张保留。",
+       "point": "attitude"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "owner",
+    "attitude"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A school is considering an online form for booking its practice rooms. One teacher says the form would make available times easier to see. A student, however, worries that people without regular internet access could be excluded. The author supports the form as a useful addition but argues that an office booking option should remain. The author also notes that the form will need regular updates to stay accurate.",
+     "items": [
+      {
+       "stem": "Who raises the concern about internet access?",
+       "options": [
+        "The teacher proposing clearer times",
+        "The student worried about exclusion",
+        "The author describing regular updates",
+        "The office providing practice rooms"
+       ],
+       "answer": 1,
+       "why": "依据：A student, however, worries that people without regular internet access could be excluded。提出担忧的是学生。",
+       "point": "owner"
+      },
+      {
+       "stem": "How does the author view the form?",
+       "options": [
+        "As a replacement for all office booking",
+        "As an unhelpful system that must be abandoned",
+        "As useful if another booking option remains",
+        "As a system requiring no further updates"
+       ],
+       "answer": 2,
+       "why": "依据：supports the form as a useful addition but argues that an office booking option should remain。作者支持，但要求保留办公室预约，即第三项。",
+       "point": "attitude"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "owner",
+    "attitude"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A town is testing an online system for reserving places in its evening classes. The system shows available classes and allows residents to request a place from home. It also sends a message when a request has been recorded. The town says staff will continue to confirm the final list, since a recorded request does not always mean that a place is available.\n\nA class organiser welcomes the system. She says that seeing requests together may help staff identify classes that need a larger room. A resident takes a different view: he worries that people without reliable internet access will find the process harder. He suggests keeping the telephone line open as well. Both comments deserve attention, because the convenience of a new system matters alongside access to it.\n\nIn my view, the online system is a worthwhile addition, provided that the telephone option remains. It may save some residents a journey to the office, but it should not become the only route to a place. The town should also make clear that the first message confirms a request rather than a final booking. Otherwise, a resident could believe a place had been secured when staff had not yet checked the list.\n\nThe test period is a useful opportunity to collect feedback. Staff could record how many requests arrive by each route and ask users where they encountered difficulties. If the messages or the telephone arrangements need revision, those changes should be made before the system becomes permanent. Supporting the trial does not require treating every part of its first version as complete.",
+       "items": [
+        {
+         "stem": "Who worries about residents without reliable internet access?",
+         "options": [
+          "A resident discussing the booking process",
+          "The organiser assigning larger classrooms",
+          "The author collecting feedback on messages",
+          "The staff confirming the final class list"
+         ],
+         "answer": 0,
+         "why": "依据：A resident takes a different view: he worries that people without reliable internet access will find the process harder。担忧来自居民。",
+         "point": "owner"
+        },
+        {
+         "stem": "How does the author view the online system?",
+         "options": [
+          "As a complete replacement for the telephone",
+          "As useful if the telephone option is retained",
+          "As a service that should be abandoned immediately",
+          "As a system that already requires no further testing"
+         ],
+         "answer": 1,
+         "why": "依据：a worthwhile addition, provided that the telephone option remains。作者支持，但以保留电话为条件，即第二项。",
+         "point": "attitude"
+        },
+        {
+         "stem": "Which view belongs to the class organiser?",
+         "options": [
+          "Every recorded request should automatically become a booking.",
+          "The telephone line should be the only way to request a place.",
+          "Seeing requests together may show which classes need more room.",
+          "The first version of the system should be made permanent at once."
+         ],
+         "answer": 2,
+         "why": "依据：She says that seeing requests together may help staff identify classes that need a larger room。这是组织者的意见，即第三项。",
+         "point": "owner"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A local arts centre has begun displaying labels beside the objects in its exhibition. Each label identifies the maker and gives a short description of the materials. The centre also offers a printed guide with longer accounts of how the objects were made. Visitors can use either source, or compare them, as they move through the rooms.\n\nOne visitor, Arun, appreciates the short labels because he can read them while standing beside each object. Another visitor, Bea, finds the print difficult to read and prefers the larger type in the guide. The centre's director says that the labels were intended as an introduction rather than a replacement for longer explanations. These comments describe different experiences of the same display.\n\nThe labels are a useful starting point, but their present print size limits their value. Making the type larger would help the labels serve more visitors without removing the detailed guide. The centre should also test the revised labels in the exhibition rooms, where lighting and the distance between a reader and a label may affect whether the words are legible. Simply printing a larger label in an office would not establish that it works in the display.\n\nThe guide remains valuable for visitors who want more detail. The question is not whether the centre must choose labels or a guide, but how the two can work together. The current labels deserve revision rather than removal. After a trial, the centre could invite comments again and use them to decide whether the text size and placement are suitable.",
+       "items": [
+        {
+         "stem": "Who prefers the larger type in the printed guide?",
+         "options": [
+          "Arun, who appreciates the short labels",
+          "The director, who describes their purpose",
+          "The author, who proposes testing revisions",
+          "Bea, who finds the label print difficult"
+         ],
+         "answer": 3,
+         "why": "依据：Bea finds the print difficult to read and prefers the larger type in the guide。这是 Bea 的偏好。",
+         "point": "owner"
+        },
+        {
+         "stem": "What is the author's attitude to the current labels?",
+         "options": [
+          "They are useful, but their print needs to be larger.",
+          "They are entirely successful and need no further trial.",
+          "They have no value and should be removed immediately.",
+          "They must replace the longer printed guide completely."
+         ],
+         "answer": 0,
+         "why": "依据：The labels are a useful starting point, but their present print size limits their value。作者肯定标签的作用，同时批评字号。",
+         "point": "attitude"
+        },
+        {
+         "stem": "What does the director say about the labels?",
+         "options": [
+          "They are a substitute for every longer account.",
+          "They are meant to give visitors a first look at the objects.",
+          "They can only be read properly in the centre's office.",
+          "They are more detailed than the printed guide itself."
+         ],
+         "answer": 1,
+         "why": "依据：the labels were intended as an introduction rather than a replacement for longer explanations。负责人说标签只作介绍，即第二项。",
+         "point": "owner"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

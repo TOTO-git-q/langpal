@@ -1,0 +1,128 @@
+{
+  "$defs": {
+    "CriterionResult": {
+      "additionalProperties": false,
+      "properties": {
+        "criterion_id": {
+          "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+          "title": "Criterion Id",
+          "type": "string"
+        },
+        "level": {
+          "anyOf": [
+            {
+              "maximum": 3,
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Level"
+        },
+        "quote": {
+          "default": "",
+          "maxLength": 900,
+          "title": "Quote",
+          "type": "string"
+        },
+        "reason": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Reason",
+          "type": "string"
+        }
+      },
+      "required": [
+        "criterion_id",
+        "level",
+        "reason"
+      ],
+      "title": "CriterionResult",
+      "type": "object"
+    },
+    "PointResult": {
+      "additionalProperties": false,
+      "properties": {
+        "unit_id": {
+          "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+          "title": "Unit Id",
+          "type": "string"
+        },
+        "knowledge_id": {
+          "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+          "title": "Knowledge Id",
+          "type": "string"
+        },
+        "context_id": {
+          "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+          "title": "Context Id",
+          "type": "string"
+        },
+        "support": {
+          "enum": [
+            "none",
+            "prompt",
+            "keywords",
+            "frame",
+            "model"
+          ],
+          "title": "Support",
+          "type": "string"
+        },
+        "independent": {
+          "title": "Independent",
+          "type": "boolean"
+        },
+        "criteria": {
+          "items": {
+            "$ref": "#/$defs/CriterionResult"
+          },
+          "maxItems": 8,
+          "minItems": 1,
+          "title": "Criteria",
+          "type": "array"
+        }
+      },
+      "required": [
+        "unit_id",
+        "knowledge_id",
+        "context_id",
+        "support",
+        "independent",
+        "criteria"
+      ],
+      "title": "PointResult",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "assessable": {
+      "title": "Assessable",
+      "type": "boolean"
+    },
+    "reason": {
+      "maxLength": 1800,
+      "minLength": 1,
+      "title": "Reason",
+      "type": "string"
+    },
+    "points": {
+      "items": {
+        "$ref": "#/$defs/PointResult"
+      },
+      "maxItems": 3,
+      "title": "Points",
+      "type": "array"
+    }
+  },
+  "required": [
+    "assessable",
+    "reason"
+  ],
+  "title": "Evaluation",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

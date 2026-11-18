@@ -1,0 +1,840 @@
+{
+  "$defs": {
+    "Assessment": {
+      "additionalProperties": false,
+      "properties": {
+        "criteria": {
+          "items": {
+            "$ref": "#/$defs/Criterion"
+          },
+          "maxItems": 8,
+          "minItems": 2,
+          "title": "Criteria",
+          "type": "array"
+        },
+        "probes": {
+          "items": {
+            "$ref": "#/$defs/Probe"
+          },
+          "maxItems": 5,
+          "minItems": 2,
+          "title": "Probes",
+          "type": "array"
+        },
+        "pitfalls": {
+          "items": {
+            "maxLength": 1800,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 5,
+          "minItems": 1,
+          "title": "Pitfalls",
+          "type": "array"
+        }
+      },
+      "required": [
+        "criteria",
+        "probes",
+        "pitfalls"
+      ],
+      "title": "Assessment",
+      "type": "object"
+    },
+    "CanonicalSource": {
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "maxLength": 160,
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "url": {
+          "maxLength": 600,
+          "pattern": "^https?://[^\\s]+$",
+          "title": "Url",
+          "type": "string"
+        },
+        "id": {
+          "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+          "title": "Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "url",
+        "id"
+      ],
+      "title": "CanonicalSource",
+      "type": "object"
+    },
+    "Contrast": {
+      "additionalProperties": false,
+      "properties": {
+        "alternative": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Alternative",
+          "type": "string"
+        },
+        "distinction": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Distinction",
+          "type": "string"
+        }
+      },
+      "required": [
+        "alternative",
+        "distinction"
+      ],
+      "title": "Contrast",
+      "type": "object"
+    },
+    "Criterion": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "dimension": {
+          "enum": [
+            "task",
+            "meaning",
+            "target_use",
+            "appropriacy",
+            "coherence",
+            "interaction",
+            "intelligibility"
+          ],
+          "title": "Dimension",
+          "type": "string"
+        },
+        "knowledge_ids": {
+          "items": {
+            "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+            "type": "string"
+          },
+          "maxItems": 8,
+          "minItems": 1,
+          "title": "Knowledge Ids",
+          "type": "array"
+        },
+        "required": {
+          "default": true,
+          "title": "Required",
+          "type": "boolean"
+        },
+        "not_yet": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Not Yet",
+          "type": "string"
+        },
+        "supported": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Supported",
+          "type": "string"
+        },
+        "independent": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Independent",
+          "type": "string"
+        },
+        "flexible": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Flexible",
+          "type": "string"
+        },
+        "requires_audio": {
+          "default": false,
+          "title": "Requires Audio",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "dimension",
+        "knowledge_ids",
+        "not_yet",
+        "supported",
+        "independent",
+        "flexible"
+      ],
+      "title": "Criterion",
+      "type": "object"
+    },
+    "Design": {
+      "additionalProperties": false,
+      "properties": {
+        "purpose": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Purpose",
+          "type": "string"
+        },
+        "entry_requirements": {
+          "items": {
+            "maxLength": 1800,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 12,
+          "minItems": 1,
+          "title": "Entry Requirements",
+          "type": "array"
+        },
+        "outcomes": {
+          "items": {
+            "maxLength": 1800,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 12,
+          "minItems": 2,
+          "title": "Outcomes",
+          "type": "array"
+        },
+        "coverage_note": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Coverage Note",
+          "type": "string"
+        }
+      },
+      "required": [
+        "purpose",
+        "entry_requirements",
+        "outcomes",
+        "coverage_note"
+      ],
+      "title": "Design",
+      "type": "object"
+    },
+    "Example": {
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "meaning": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Meaning",
+          "type": "string"
+        },
+        "note": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Note",
+          "type": "string"
+        }
+      },
+      "required": [
+        "text",
+        "meaning",
+        "note"
+      ],
+      "title": "Example",
+      "type": "object"
+    },
+    "JsonValue": {},
+    "Knowledge": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "vocabulary",
+            "grammar",
+            "discourse",
+            "pragmatics",
+            "strategy",
+            "pronunciation",
+            "exam_skill"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "label": {
+          "maxLength": 160,
+          "minLength": 1,
+          "title": "Label",
+          "type": "string"
+        },
+        "form": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Form",
+          "type": "string"
+        },
+        "use_when": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Use When",
+          "type": "string"
+        },
+        "examples": {
+          "items": {
+            "$ref": "#/$defs/Example"
+          },
+          "maxItems": 5,
+          "minItems": 2,
+          "title": "Examples",
+          "type": "array"
+        },
+        "contrasts": {
+          "items": {
+            "$ref": "#/$defs/Contrast"
+          },
+          "maxItems": 4,
+          "minItems": 1,
+          "title": "Contrasts",
+          "type": "array"
+        },
+        "checks": {
+          "items": {
+            "maxLength": 1800,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 5,
+          "minItems": 1,
+          "title": "Checks",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "label",
+        "form",
+        "use_when",
+        "examples",
+        "contrasts",
+        "checks"
+      ],
+      "title": "Knowledge",
+      "type": "object"
+    },
+    "LessonUnit": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "title": {
+          "maxLength": 160,
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "can_do": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Can Do",
+          "type": "string"
+        },
+        "prerequisites": {
+          "items": {
+            "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+            "type": "string"
+          },
+          "maxItems": 12,
+          "title": "Prerequisites",
+          "type": "array"
+        },
+        "situations": {
+          "items": {
+            "$ref": "#/$defs/Situation"
+          },
+          "maxItems": 4,
+          "minItems": 2,
+          "title": "Situations",
+          "type": "array"
+        },
+        "knowledge": {
+          "items": {
+            "$ref": "#/$defs/Knowledge"
+          },
+          "maxItems": 6,
+          "minItems": 2,
+          "title": "Knowledge",
+          "type": "array"
+        },
+        "practice": {
+          "$ref": "#/$defs/Practice"
+        },
+        "modalities": {
+          "$ref": "#/$defs/Modalities"
+        },
+        "assessment": {
+          "$ref": "#/$defs/Assessment"
+        },
+        "source_refs": {
+          "items": {
+            "$ref": "#/$defs/SourceRef"
+          },
+          "maxItems": 8,
+          "minItems": 1,
+          "title": "Source Refs",
+          "type": "array"
+        },
+        "extensions": {
+          "additionalProperties": {
+            "$ref": "#/$defs/JsonValue"
+          },
+          "title": "Extensions",
+          "type": "object"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "can_do",
+        "situations",
+        "knowledge",
+        "practice",
+        "modalities",
+        "assessment",
+        "source_refs"
+      ],
+      "title": "LessonUnit",
+      "type": "object"
+    },
+    "MasteryPolicy": {
+      "additionalProperties": false,
+      "properties": {
+        "independent_successes": {
+          "default": 2,
+          "maximum": 8,
+          "minimum": 2,
+          "title": "Independent Successes",
+          "type": "integer"
+        },
+        "distinct_contexts": {
+          "default": 2,
+          "maximum": 6,
+          "minimum": 2,
+          "title": "Distinct Contexts",
+          "type": "integer"
+        },
+        "retention_successes": {
+          "default": 2,
+          "maximum": 6,
+          "minimum": 1,
+          "title": "Retention Successes",
+          "type": "integer"
+        },
+        "min_opportunity_gap": {
+          "default": 3,
+          "maximum": 30,
+          "minimum": 2,
+          "title": "Min Opportunity Gap",
+          "type": "integer"
+        },
+        "review_gaps": {
+          "items": {
+            "type": "integer"
+          },
+          "maxItems": 8,
+          "minItems": 2,
+          "title": "Review Gaps",
+          "type": "array"
+        },
+        "passing_level": {
+          "default": 2,
+          "maximum": 3,
+          "minimum": 2,
+          "title": "Passing Level",
+          "type": "integer"
+        }
+      },
+      "title": "MasteryPolicy",
+      "type": "object"
+    },
+    "Modalities": {
+      "additionalProperties": false,
+      "properties": {
+        "typed": {
+          "$ref": "#/$defs/ModalityTask"
+        },
+        "spoken": {
+          "$ref": "#/$defs/ModalityTask"
+        }
+      },
+      "required": [
+        "typed",
+        "spoken"
+      ],
+      "title": "Modalities",
+      "type": "object"
+    },
+    "ModalityTask": {
+      "additionalProperties": false,
+      "properties": {
+        "task": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Task",
+          "type": "string"
+        },
+        "focus": {
+          "items": {
+            "maxLength": 1800,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 5,
+          "minItems": 1,
+          "title": "Focus",
+          "type": "array"
+        }
+      },
+      "required": [
+        "task",
+        "focus"
+      ],
+      "title": "ModalityTask",
+      "type": "object"
+    },
+    "Practice": {
+      "additionalProperties": false,
+      "properties": {
+        "entry": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Entry",
+          "type": "string"
+        },
+        "input": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Input",
+          "type": "string"
+        },
+        "noticing": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Noticing",
+          "type": "string"
+        },
+        "supported": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Supported",
+          "type": "string"
+        },
+        "independent": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Independent",
+          "type": "string"
+        },
+        "transfer": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Transfer",
+          "type": "string"
+        },
+        "retrieval": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Retrieval",
+          "type": "string"
+        }
+      },
+      "required": [
+        "entry",
+        "input",
+        "noticing",
+        "supported",
+        "independent",
+        "transfer",
+        "retrieval"
+      ],
+      "title": "Practice",
+      "type": "object"
+    },
+    "Probe": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "context": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Context",
+          "type": "string"
+        },
+        "prompt": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Prompt",
+          "type": "string"
+        },
+        "expected": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Expected",
+          "type": "string"
+        },
+        "knowledge_ids": {
+          "items": {
+            "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+            "type": "string"
+          },
+          "maxItems": 8,
+          "minItems": 1,
+          "title": "Knowledge Ids",
+          "type": "array"
+        },
+        "modalities": {
+          "items": {
+            "enum": [
+              "typed",
+              "spoken"
+            ],
+            "type": "string"
+          },
+          "maxItems": 2,
+          "minItems": 1,
+          "title": "Modalities",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "context",
+        "prompt",
+        "expected",
+        "knowledge_ids",
+        "modalities"
+      ],
+      "title": "Probe",
+      "type": "object"
+    },
+    "Situation": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "context": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Context",
+          "type": "string"
+        },
+        "purpose": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Purpose",
+          "type": "string"
+        },
+        "complication": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Complication",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "context",
+        "purpose",
+        "complication"
+      ],
+      "title": "Situation",
+      "type": "object"
+    },
+    "SourceRef": {
+      "additionalProperties": false,
+      "properties": {
+        "source": {
+          "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+          "title": "Source",
+          "type": "string"
+        },
+        "locator": {
+          "maxLength": 1800,
+          "minLength": 1,
+          "title": "Locator",
+          "type": "string"
+        },
+        "use": {
+          "enum": [
+            "framework",
+            "sequence",
+            "language",
+            "task",
+            "assessment"
+          ],
+          "title": "Use",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source",
+        "locator",
+        "use"
+      ],
+      "title": "SourceRef",
+      "type": "object"
+    },
+    "TeachingPolicy": {
+      "additionalProperties": false,
+      "properties": {
+        "max_new_points": {
+          "default": 1,
+          "maximum": 2,
+          "minimum": 1,
+          "title": "Max New Points",
+          "type": "integer"
+        },
+        "max_review_points": {
+          "default": 1,
+          "maximum": 3,
+          "minimum": 1,
+          "title": "Max Review Points",
+          "type": "integer"
+        },
+        "support_ladder": {
+          "items": {
+            "enum": [
+              "none",
+              "prompt",
+              "keywords",
+              "frame",
+              "model"
+            ],
+            "type": "string"
+          },
+          "maxItems": 5,
+          "minItems": 5,
+          "title": "Support Ladder",
+          "type": "array"
+        },
+        "correction": {
+          "items": {
+            "enum": [
+              "recast",
+              "clarification",
+              "contrast",
+              "explicit_on_request"
+            ],
+            "type": "string"
+          },
+          "maxItems": 4,
+          "minItems": 1,
+          "title": "Correction",
+          "type": "array"
+        },
+        "pause_when": {
+          "items": {
+            "maxLength": 1800,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 8,
+          "minItems": 1,
+          "title": "Pause When",
+          "type": "array"
+        },
+        "mastery": {
+          "$ref": "#/$defs/MasteryPolicy"
+        }
+      },
+      "title": "TeachingPolicy",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": 2,
+      "default": 2,
+      "title": "Version",
+      "type": "integer"
+    },
+    "id": {
+      "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+      "title": "Id",
+      "type": "string"
+    },
+    "title": {
+      "maxLength": 160,
+      "minLength": 1,
+      "title": "Title",
+      "type": "string"
+    },
+    "language": {
+      "title": "Language",
+      "type": "string"
+    },
+    "sources": {
+      "items": {
+        "$ref": "#/$defs/CanonicalSource"
+      },
+      "maxItems": 20,
+      "minItems": 1,
+      "title": "Sources",
+      "type": "array"
+    },
+    "units": {
+      "items": {
+        "$ref": "#/$defs/LessonUnit"
+      },
+      "maxItems": 120,
+      "minItems": 1,
+      "title": "Units",
+      "type": "array"
+    },
+    "design": {
+      "$ref": "#/$defs/Design"
+    },
+    "teaching_policy": {
+      "$ref": "#/$defs/TeachingPolicy"
+    },
+    "extensions": {
+      "additionalProperties": {
+        "$ref": "#/$defs/JsonValue"
+      },
+      "title": "Extensions",
+      "type": "object"
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "language",
+    "sources",
+    "units",
+    "design",
+    "teaching_policy"
+  ],
+  "title": "CourseV2",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

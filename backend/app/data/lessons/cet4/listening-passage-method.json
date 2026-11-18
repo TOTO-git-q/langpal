@@ -1,0 +1,100 @@
+{
+ "id": "listening-passage-method",
+ "title": "篇章的信息组织",
+ "goal": "识别篇章的信息层次，并将选项对应到录音依据。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "structure", "label": "识别篇章的主要信息层次"},
+  {"id": "evidence", "label": "将选项对应到录音依据"}
+ ],
+ "sources": [
+  {"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "听力篇章的材料规格"}
+ ],
+ "cards": [
+  {
+   "id": "what", "type": "text", "title": "题型",
+   "body": [
+    {"p": "篇章围绕一个对象组织信息。开头常引入话题，中间说明过程或列出依据，结尾可能归纳主要观点。"},
+    {"p": "背景交代话题的前提。支撑细节用来解释观点或举例。题目可能问任何一个层次，作答时先看题干问的是哪一层。"},
+    {"p": "题目顺序不一定与录音顺序相同。每个选项都要在录音里找到对应的内容。"}
+   ]
+  },
+  {
+   "id": "steps", "type": "steps", "title": "解题步骤",
+   "steps": [
+    {"t": "1　确定对象", "d": "听开头反复出现的对象和讲者要说明的问题。A library changed its lending system. 的对象是借阅制度的变化。"},
+    {"t": "2　区分层次", "d": "把背景、主要观点和支撑细节分开记。An old system required paper forms. 这句交代变化前的背景。"},
+    {"t": "3　核对依据", "d": "把题干中的对象和关系与录音逐一对应。Users now request books online. 这句支持线上申请，不支持线上取书。"},
+    {"t": "4　检查范围", "d": "把结尾和中间的信息合起来，看概括是否覆盖主要内容。单个例子只支持它所对应的细节。"}
+   ]
+  },
+  {
+   "id": "layers", "type": "table", "title": "信息层次",
+   "cols": ["层次", "作用", "例句"],
+   "rows": [
+    ["话题", "确定讲述对象", "A town has changed how it uses an old station."],
+    ["背景", "交代变化前的情况", "Trains stopped using the station years ago."],
+    ["支撑细节", "说明具体措施", "Volunteers turned one room into a reading space."],
+    ["结尾", "归纳主要观点", "The station now serves local people in a new way."]
+   ],
+   "note": "各层次的位置不固定。结尾有时补充细节，要结合上下文判断。"
+  },
+  {
+   "id": "worked", "type": "text", "title": "例题",
+   "body": [
+    {"box": "A school wanted to reduce the amount of paper used for notices. Previously, every family received a printed sheet each week. The school introduced an online notice board, while keeping printed copies available at the office. Teachers update the board whenever plans change. The new arrangement provides timely information and still serves families who need paper copies."},
+    {"box": "What is the main point of the talk?\n1. Teachers have stopped changing school plans.\n2. The school stopped printing notices for families.\n3. A new notice system combines online and paper access.\n4. Families prefer paper notices to all online information."},
+    {"p": "开头提出通知用纸问题，结尾归纳新安排。online notice board 和 printed copies available 对应第三项。"},
+    {"box": "A neighborhood garden was once an unused paved lot. Residents removed some paving and placed large containers there. They chose containers because the ground underneath was unsuitable for planting. Today the garden provides a place for neighbors to grow vegetables and meet."},
+    {"box": "Why did residents choose containers?\n1. The lot already had suitable planting soil.\n2. The ground below was unsuitable for planting.\n3. The garden needed more paved space for meetings.\n4. The paving could not be removed from the lot."},
+    {"p": "because the ground underneath was unsuitable for planting 给出原因，对应第二项。结尾的 meet 是场地的用途，不是选择容器的原因。"}
+   ]
+  },
+  {
+   "id": "traps", "type": "table", "title": "干扰项",
+   "cols": ["类型", "例", "核对方法"],
+   "rows": [
+    ["背景替代观点", "Printed sheets were used before the change.", "区分旧情况和新安排"],
+    ["局部替代整体", "Teachers update the online board.", "核对概括是否包括纸质渠道"],
+    ["改变关系", "Residents chose containers to create meeting space.", "核对选择容器的直接原因"],
+    ["扩大范围", "All families use the online board.", "核对录音中的使用范围"]
+   ]
+  },
+  {
+   "id": "check-short", "type": "check", "title": "练习一", "points": ["structure", "evidence"],
+   "groups": [
+    {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "The local museum once stored its maps in a closed room. It has now made copies for a public display. Visitors can study the copies while the originals remain protected."}]}, "items": [{"stem": "What role does the first sentence play?", "options": ["It describes the museum's earlier arrangement.", "It states the visitors' preference for the copies.", "It explains how the copies were produced.", "It gives the result of displaying originals."], "answer": 0, "why": "once stored its maps 交代了过去的安排，对应第一项。", "point": "structure"}]},
+    {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "A workshop moved its tools closer to the worktables. Workers now spend less time walking to collect them. The manager still checks the tools at the end of each day."}]}, "items": [{"stem": "What was the result of moving the tools?", "options": ["Workers check tools more often during the day.", "Workers walk less to obtain their tools.", "The manager moves worktables every morning.", "The manager collects all tools for workers."], "answer": 1, "why": "spend less time walking to collect them 说明领取工具所需的走动减少，对应第二项。", "point": "evidence"}]},
+    {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "A college reused rainwater from a roof to water its plants. For example, water collected above the library supplies the plants beside its entrance. The project reduces the need for tap water in the garden."}]}, "items": [{"stem": "What is the role of the library example?", "options": ["It explains why the college stopped using tap water.", "It challenges the use of roof water for plants.", "It illustrates how the collected rainwater is used.", "It states the project's main result for the garden."], "answer": 2, "why": "For example 引出的图书馆实例说明收集的雨水怎样用来浇灌植物，对应第三项。项目的总体效果在末句 reduces the need for tap water。", "point": "structure"}]},
+    {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "The pottery class was moved from Tuesday to Thursday because the usual room needed repairs. The same teacher will lead it, and the materials will still be provided."}]}, "items": [{"stem": "Why was the pottery class moved?", "options": ["A different teacher would lead it.", "The materials were unavailable on Thursday.", "The usual room was booked for another class.", "The regular room needed to be repaired."], "answer": 3, "why": "because the usual room needed repairs 说明调课的原因，对应第四项。", "point": "evidence"}]}
+   ]
+  },
+  {
+   "id": "check-passage", "type": "check", "title": "练习二", "points": ["structure", "evidence"],
+   "groups": [
+    {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "A community center used to lend sports equipment only during weekday afternoons. Many residents worked at those times, so the center tried opening the equipment desk on Saturday mornings. Staff kept records of what was borrowed and asked residents when they could return it. The Saturday service proved useful for families who could not visit during the week. The center kept the weekday hours as well, giving residents more than one opportunity to borrow equipment."}]}, "items": [
+     {"stem": "What does the opening describe?", "options": ["The center's previous lending schedule", "The center's new Saturday lending hours", "The staff's records of Saturday returns", "The residents' weekday working hours"], "answer": 0, "why": "used to lend ... only during weekday afternoons 交代原来的开放时间，对应第一项。", "point": "structure"},
+     {"stem": "Why did the center try Saturday opening?", "options": ["Staff wanted to shorten the weekday schedule.", "Equipment was returned only on Saturdays.", "Many residents worked during weekday hours.", "Families could visit the center only on weekdays."], "answer": 2, "why": "Many residents worked at those times 是增设周六服务的原因，对应第三项。", "point": "evidence"},
+     {"stem": "What is the main point of the talk?", "options": ["Staff replaced the old equipment records.", "The center expanded access to equipment.", "Families returned equipment later than expected.", "The center ended its weekday lending hours."], "answer": 1, "why": "giving residents more than one opportunity 概括增加周六服务后的效果，对应第二项。", "point": "structure"}
+    ]}
+   ]
+  },
+  {
+   "id": "timed", "type": "quiz", "title": "小测", "minutes": 8, "pass": 0.75, "points": ["structure", "evidence"],
+   "sets": [{"id": "set-a", "groups": [
+    {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "A small town has found a new use for a building beside its railway. The building was once a waiting room, but passengers stopped using it after a new station opened nearby. For several years it stood empty. A local group then suggested turning it into a place where people could repair household items. The group did not want to replace the station or sell the building. Its aim was to give residents access to tools and shared knowledge. Volunteers cleaned the rooms and arranged worktables. They also collected hand tools from residents who no longer needed them. At the first sessions, visitors brought lamps, chairs, and other small objects. Volunteers showed them how to examine a problem before deciding what could be repaired. Some objects needed parts that were not available, so visitors took them home to consider their choices. Others could be repaired during the session. The group keeps a record of the tools it lends, while visitors remain responsible for their own belongings. The building is open on two afternoons each month, and people may bring an item or simply watch a demonstration. The group welcomes new visitors. The project gives the former waiting room a practical community use while helping residents share repair skills. It also leaves the building in public use instead of allowing it to remain empty."}]}, "items": [
+     {"stem": "What is the role of the information about the new station?", "options": ["It explains why the old room ceased to be used by passengers.", "It explains why the group decided not to sell the building.", "It identifies the source of the donated hand tools.", "It reports the result of the first repair sessions."], "answer": 0, "why": "passengers stopped using it after a new station opened 交代旧候车室闲置的背景，对应第一项。", "point": "structure"},
+     {"stem": "What did the local group want to provide?", "options": ["A place for passengers to wait for trains", "A building for selling household belongings", "Access to tools and shared repair knowledge", "Replacement parts for broken household items"], "answer": 2, "why": "give residents access to tools and shared knowledge 对应第三项。", "point": "evidence"},
+     {"stem": "What is the main point of the talk?", "options": ["A local group replaced the old railway station with worktables.", "Volunteers collected unused tools from residents.", "Visitors learned that all household objects are repairable.", "An empty waiting room became a place to share repair skills."], "answer": 3, "why": "结尾的 practical community use 和 share repair skills 概括了旧候车室的新用途，对应第四项。", "point": "structure"}
+    ]},
+    {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "A university has changed the way it displays plants on its campus. In the past, labels beside the plants gave only their names. Students in a design class noticed that visitors often wanted to know more, but printed labels could hold only a little information. The class worked with the campus gardeners to develop a set of signs with codes. A visitor can scan a code to read a short description of the plant on a phone. The descriptions explain features that can be observed on campus, such as leaf shape and flowering season. They also describe the gardeners' reasons for selecting particular plants for particular places. The signs still show the plant names in print, so visitors can identify them without using a phone. Gardeners check the online descriptions before they are published. When a plant is moved, the gardeners can update its location in the description instead of replacing a long printed panel. The project began in one courtyard and was later extended to the paths around the library. Students also invited visitors to report labels that were difficult to read. Their comments led the class to make the printed names larger. The project combines concise printed information with descriptions that can be updated as the campus changes. It gives interested visitors more detail while keeping a basic name visible to everyone passing the plants."}]}, "items": [
+     {"stem": "Why did the class add codes to the signs?", "options": ["Gardeners wanted to remove plant names from the signs.", "Printed labels had limited room for further information.", "Visitors found the printed names difficult to read.", "Visitors preferred reading about plants on phones."], "answer": 1, "why": "printed labels could hold only a little information 说明增加代码的原因，对应第二项。", "point": "evidence"},
+     {"stem": "What was the function of visitor comments?", "options": ["They led gardeners to shorten the plant descriptions.", "They caused the class to remove all printed names.", "They helped the class improve the readability of names.", "They led the class to extend the signs to the library."], "answer": 2, "why": "Their comments led the class to make the printed names larger 说明反馈促成名称放大，对应第三项。", "point": "evidence"},
+     {"stem": "What does the last sentence contribute to the talk?", "options": ["It summarizes how visitors can obtain different levels of detail.", "It explains why gardeners stopped checking descriptions.", "It describes the extension of the project to the library.", "It describes how gardeners check descriptions before publication."], "answer": 0, "why": "more detail 与 basic name 概括了两种信息层次，对应第一项。", "point": "structure"}
+    ]}
+   ]}]
+  }
+ ]
+}

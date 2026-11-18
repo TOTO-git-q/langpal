@@ -1,0 +1,52 @@
+{
+ "id": "translation-multiples", "title": "倍数与增幅", "goal": "能区分倍数、增加量和百分比增幅。", "skill": "翻译", "exam": "大学英语六级（CET-6）", "mastery": "once",
+ "points": [{"id": "base", "label": "确定比较基数与最终数量"}, {"id": "express", "label": "选择明确表达倍数或增幅的结构"}],
+ "sources": [{"id": "c2", "title": "大学英语六级考试大纲", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译课程内容依据"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "比较倍数，先找出原来的数量和最终数量。是原来的两倍，指最终数量等于基数乘以二。增加百分之二十，指增加的部分是基数的百分之二十。"},
+   {"box": "原文：产量从十件增至二十件，达到原来的两倍。\n译文：Output rose from ten items to twenty, twice the original amount."},
+   {"p": "increase to 后接最终数量，increase by 后接增加量或增幅。译文可写明起点和终点，以免倍数比较产生歧义。"}
+  ]},
+  {"id": "multiple", "type": "table", "title": "最终数量的倍数", "cols": ["数值关系", "原文", "译文"], "rows": [
+   ["10 到 20：两倍", "人数从十人增至二十人，达到原来的两倍。", "Attendance rose from ten to twenty, twice the original number."],
+   ["4 到 12：三倍", "产量从四件增至十二件，达到原来的三倍。", "Output rose from four to twelve items, three times the original amount."],
+   ["5 到 20：四倍", "面积从五公顷增至二十公顷，达到原来的四倍。", "The area grew from five to twenty hectares, four times its original size."],
+   ["比较结构", "新馆的面积是旧馆面积的两倍。", "The new hall is twice as large as the old hall."]
+  ]},
+  {"id": "increase", "type": "table", "title": "增加量与终值", "cols": ["数值关系", "原文", "译文"], "rows": [
+   ["增加一倍：10 到 20", "人数原为十人，增加一倍后达到二十人。", "Attendance rose from ten to twenty, an increase of ten."],
+   ["增加两倍：4 到 12", "产量原为四件，增加两倍后达到十二件。", "Output rose from four to twelve items, an increase of eight."],
+   ["增加三倍：5 到 20", "面积原为五公顷，增加三倍后达到二十公顷。", "The area grew from five to twenty hectares, an increase of fifteen."],
+   ["增加到与增加了", "座位从三十个增加到四十个，增加了十个。", "The number of seats increased by ten, from thirty to forty."]
+  ]},
+  {"id": "percentage", "type": "table", "title": "百分比增幅", "cols": ["数值关系", "原文", "译文"], "rows": [
+   ["100 到 120：增加 20%", "人数从一百人增加到一百二十人，增长百分之二十。", "Attendance increased from 100 to 120, a rise of 20 percent."],
+   ["200 到 300：增加 50%", "产量从二百件增加到三百件，增长百分之五十。", "Output increased from 200 to 300 items, a rise of 50 percent."],
+   ["40 到 80：增加 100%", "座位从四十个增加到八十个，增长百分之一百。", "Seats increased from 40 to 80, a rise of 100 percent."],
+   ["增幅与终值", "数量增加了百分之二十，达到原来的百分之一百二十。", "The quantity increased by 20 percent to 120 percent of its original level."]
+  ]},
+  {"id": "practice-a", "type": "check", "title": "练习一", "points": ["base", "express"], "groups": [{"items": [
+   {"stem": "原文：人数从十人增至三十人，是原来的三倍。选择译句。", "options": ["Attendance rose from ten to thirty, three times the original number.", "Attendance rose from ten to thirty, twice the original number.", "Attendance rose from ten to thirty, an increase of thirty.", "Attendance rose from ten to twenty, three times the original number."], "answer": 0, "why": "原文起点是十，终点是三十，三十是十的三倍。第一项保留了起点、终点和倍数。", "point": "base"},
+   {"stem": "原文：座位从二十个增加了十个，达到三十个。选择译句。", "options": ["The number of seats increased by thirty from twenty.", "The number of seats increased by ten to thirty.", "The number of seats increased by twenty to thirty.", "The number of seats increased by ten to twenty."], "answer": 1, "why": "原文增加了十个，最终是三十个。第二项用 by ten 表示增加量，用 to thirty 表示最终数量。", "point": "express"}
+  ]}]},
+  {"id": "practice-b", "type": "check", "title": "练习二", "points": ["base", "express"], "groups": [{"items": [
+   {"stem": "原文：数量由一百增至一百二十，增加百分之二十。补全 The quantity increased by ____. 用数字和单词 percent。", "accept": ["20 percent", "20 per cent", "twenty percent", "twenty per cent"], "why": "增加量为二十，原数为一百，增幅是 20 percent。", "point": "base"},
+   {"stem": "原文：数量由五件增至十件。补全 The number increased to ____. 用数字和单词 items。", "accept": ["10 items", "ten items"], "why": "to 后面是最终数量 10 items。", "point": "express"}
+  ]}]},
+  {"id": "practice-c", "type": "check", "title": "练习三", "points": ["base", "express"], "groups": [{"items": [
+   {"stem": "原文：面积由四公顷增加两倍，达到十二公顷。选择译句。", "options": ["The area rose from four to eight hectares.", "The area rose from four to twelve hectares.", "The area rose from four to six hectares.", "The area rose from four to sixteen hectares."], "answer": 1, "why": "原文说最终达到十二公顷。从四公顷增加两倍，增加的是八公顷，第二项与此一致。第一项把增加两倍当成了是原来的两倍。", "point": "base"},
+   {"stem": "原文：产量从一百件增加了五十件。补全 Output increased by ____. 用数字和单词 items。", "accept": ["50 items", "fifty items"], "why": "by 后接增加量 50 items。", "point": "express"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["base", "express"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "原文：人数由二十人增至四十人，是原来的两倍。选择译句。", "options": ["Attendance rose from twenty to sixty, twice the original number.", "Attendance rose from twenty to forty, an increase of forty.", "Attendance rose from twenty to forty, twice the original number.", "Attendance rose from twenty to forty, three times the original number."], "answer": 2, "why": "原文从二十人增至四十人，四十是二十的两倍。第三项保留了数值和倍数。", "point": "base"},
+   {"stem": "原文：产量由十件增加两倍，达到三十件。选择译句。", "options": ["Output rose from ten to twenty items, an increase of ten.", "Output rose from ten to thirty items, an increase of twenty.", "Output rose from ten to forty items, an increase of thirty.", "Output rose from ten to thirty items, an increase of thirty."], "answer": 1, "why": "原文最终达到三十件。从十件增加两倍，增加的是二十件，第二项与此一致。第四项把最终数量当成了增加量。", "point": "base"},
+   {"stem": "原文：座位从八十个增加到一百个。选择译句。", "options": ["The number of seats increased by one hundred from eighty.", "The number of seats increased by eighty to one hundred.", "The number of seats increased to one hundred and eighty.", "The number of seats increased from eighty to one hundred."], "answer": 3, "why": "原文原有八十个，最终一百个。第四项用 from 引出原有数量，用 to 引出最终数量。", "point": "express"},
+   {"stem": "原文：数量从二百增至三百，增长百分之五十。选择译句。", "options": ["The quantity rose from 200 to 300, an increase of 50 percent.", "The quantity rose from 200 to 300, an increase of 100 percent.", "The quantity rose from 200 to 300, an increase of 150 percent.", "The quantity rose from 200 to 250, an increase of 50 percent."], "answer": 0, "why": "原文从二百增至三百，增加的一百是原数二百的百分之五十。第一项的数值和增幅都对。", "point": "express"},
+   {"stem": "原文：产量从五件增加一倍，达到十件。补全 The output increased to ____. 用数字和单词 items。", "accept": ["10 items", "ten items"], "why": "增加一倍后是原数量的两倍，即 10 items。", "point": "base"},
+   {"stem": "原文：面积从六公顷增加两倍，达到十八公顷。补全 The area increased to ____. 用数字和单词 hectares。", "accept": ["18 hectares", "eighteen hectares"], "why": "增加两倍后是原数量的三倍，即 18 hectares。", "point": "base"},
+   {"stem": "原文：产量由五十件增加了十件。补全 Output increased by ____. 用数字和单词 items。", "accept": ["10 items", "ten items"], "why": "by 后接增加量 10 items。", "point": "express"},
+   {"stem": "原文：人数从一百人增加到一百二十人，增长百分之二十。补全 Attendance increased by ____. 用数字和单词 percent。", "accept": ["20 percent", "20 per cent", "twenty percent", "twenty per cent"], "why": "by 后接增幅 20 percent。", "point": "express"}
+  ]}]}]}
+ ]
+}

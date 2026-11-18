@@ -1,0 +1,393 @@
+{
+ "id": "reading-matching-method",
+ "title": "段落匹配的信息对应",
+ "goal": "拆分陈述并依据完整信息确定对应段落。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "decompose",
+   "label": "拆出陈述必须对应的信息"
+  },
+  {
+   "id": "match",
+   "label": "根据完整证据确定对应段落"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "阅读课程内容与材料形式"
+  }
+ ],
+ "cards": [
+  {
+   "id": "type",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "段落匹配要求为每条陈述找出表达相同信息的段落。陈述会改写原文的措辞。对象、行为和限定条件要和原文一致。"
+    },
+    {
+     "box": "Statement: Volunteers repair bicycles for residents who cannot afford professional repairs.\nPassage: [A] A local group fixes bicycles free of charge for people unable to pay a repair shop."
+    },
+    {
+     "p": "对象是付不起维修费的居民，行为是修自行车，条件是免费。原文的 local group 还要有上下文说明是志愿者，才算完全对应。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　拆分陈述",
+     "d": "找出行为的执行者、动作和对象，并标出时间或范围。The museum lends tools to schools in winter 的限定条件是 in winter。"
+    },
+    {
+     "t": "2　查找线索",
+     "d": "用具体对象或较少出现的表达寻找候选段落。tools 和 schools 比全文重复的 museum 更有区分度。"
+    },
+    {
+     "t": "3　核对关系",
+     "d": "读完整候选段，对照执行者、动作、对象和条件。学校借出工具与博物馆借出工具的方向不同。"
+    },
+    {
+     "t": "4　记录依据",
+     "d": "每条陈述单独找原文依据。同一段可以对应几条陈述，也可能有段落没有陈述对应。"
+    }
+   ]
+  },
+  {
+   "id": "parts",
+   "type": "table",
+   "title": "陈述的信息成分",
+   "cols": [
+    "成分",
+    "例",
+    "核对内容"
+   ],
+   "rows": [
+    [
+     "执行者",
+     "The library lends equipment.",
+     "图书馆是出借者"
+    ],
+    [
+     "动作与对象",
+     "Residents borrow cameras.",
+     "居民借入的是相机"
+    ],
+    [
+     "时间",
+     "The service operates on Saturdays.",
+     "服务时间限定在周六"
+    ],
+    [
+     "适用群体",
+     "New members receive training.",
+     "培训对象限定为新成员"
+    ],
+    [
+     "原因",
+     "The room closed because of repairs.",
+     "维修是关闭的原因"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "[A] The town archive lends photographs to schools. It also offers teachers a workshop on using historical images.\n[B] Local schools have donated recordings to the archive. The archive stores these recordings in a separate room.\n[C] The archive has shortened its opening hours during building repairs."
+    },
+    {
+     "box": "1. Educators can receive instruction on using old pictures.\n2. Schools supply audio material to a local collection.\n3. Schools can borrow historical images."
+    },
+    {
+     "p": "第一条的 educators、instruction 和 old pictures 分别对应 teachers、workshop 和 historical images，依据在第一段。第三条也对应第一段。"
+    },
+    {
+     "p": "第二条的 schools、supply 和 audio material 对应第二段的 schools、donated 和 recordings。陈述的顺序和段落顺序不一致。第三段没有陈述对应。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "核对内容"
+   ],
+   "rows": [
+    [
+     "对象错配",
+     "teachers 的 workshop 改为 students 的 workshop",
+     "核对培训对象"
+    ],
+    [
+     "方向颠倒",
+     "schools donate recordings 改为 archive donates recordings",
+     "核对动作执行者"
+    ],
+    [
+     "条件遗漏",
+     "during repairs 改为 throughout the year",
+     "核对时间范围"
+    ],
+    [
+     "局部相同",
+     "看到 schools 就认定对应",
+     "核对整条陈述的关系"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "decompose",
+    "match"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "[A] The gallery lends framed prints to hospitals. [B] Hospitals lend medical equipment to clinics.",
+     "items": [
+      {
+       "stem": "Which paragraph says hospitals receive pictures on loan?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Both paragraphs",
+        "Neither paragraph"
+       ],
+       "answer": 0,
+       "why": "第一段说 The gallery lends framed prints to hospitals，医院借入的是画。第二段里医院是借出方，借出的是医疗设备。",
+       "point": "match"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "[A] New volunteers attend safety training. [B] Experienced volunteers lead safety training.",
+     "items": [
+      {
+       "stem": "Which paragraph describes the people who teach the safety course?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Both paragraphs",
+        "Neither paragraph"
+       ],
+       "answer": 1,
+       "why": "第二段说 Experienced volunteers lead safety training，lead 对应 teach。第一段的新志愿者是参加培训的人。",
+       "point": "decompose"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "[A] The pool closes for cleaning on Fridays. [B] The pool closes for repairs on Mondays.",
+     "items": [
+      {
+       "stem": "Which paragraph gives the day when maintenance repairs close the pool?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Both paragraphs",
+        "Neither paragraph"
+       ],
+       "answer": 1,
+       "why": "第二段说 closes for repairs on Mondays，原因和时间都对应。第一段关闭的原因是清洁，不是维修。",
+       "point": "decompose"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "[A] Farmers deliver produce to the market. [B] The market delivers unsold produce to a shelter.",
+     "items": [
+      {
+       "stem": "Which paragraph describes food sent from a market to a shelter?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Both paragraphs",
+        "Neither paragraph"
+       ],
+       "answer": 1,
+       "why": "第二段说 The market delivers unsold produce to a shelter，方向是市场送往收容所。第一段是农民送往市场，方向不同。",
+       "point": "match"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "decompose",
+    "match"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "[A] A community garden provides seeds to residents each spring. It also holds free classes for first-time gardeners.\n\n[B] Residents contribute compost to the garden in autumn. The collection point is next to the tool shed.\n\n[C] The garden sells flowers to a nearby cafe. The proceeds pay for water.\n\n[D] A school uses the garden for lessons on insects.",
+     "items": [
+      {
+       "stem": "Which paragraph describes instruction for people who are new to gardening?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Paragraph C",
+        "Paragraph D"
+       ],
+       "answer": 0,
+       "why": "第一段说 free classes for first-time gardeners，classes 对应 instruction，first-time gardeners 对应 new to gardening。",
+       "point": "decompose"
+      },
+      {
+       "stem": "Which paragraph describes a contribution that residents make in a particular season?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Paragraph C",
+        "Paragraph D"
+       ],
+       "answer": 1,
+       "why": "第二段说 Residents contribute compost to the garden in autumn，给出了居民、捐的东西和季节。",
+       "point": "match"
+      },
+      {
+       "stem": "Which paragraph describes a seasonal supply of planting materials to local people?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Paragraph C",
+        "Paragraph D"
+       ],
+       "answer": 0,
+       "why": "第一段说 provides seeds to residents each spring，seeds 对应 planting materials，each spring 对应 seasonal。",
+       "point": "match"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 8,
+   "pass": 0.8,
+   "points": [
+    "decompose",
+    "match"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "[A] A town has converted an empty railway building into a workshop for repairing household objects. Volunteer technicians examine lamps, clocks and small appliances brought by residents. Before any work begins, the owner and technician discuss whether a repair is practical. The workshop supplies basic tools, but owners must obtain any replacement parts that are needed. Volunteers also explain how to maintain repaired objects. This advice helps owners understand the work rather than simply collect an appliance at the end of a session.\n\n[B] The town library operates a separate equipment lending service. Members may borrow drills and other tools for short periods after showing a library card. During the first month of membership, borrowers must attend a safety demonstration. The demonstration covers the use and return of equipment; it does not include instruction in repairing electrical appliances. Staff inspect each item when it is returned and remove damaged tools until they can be repaired. The library records the condition of each tool so that the next borrower receives usable equipment.\n\n[C] A neighborhood association organizes collections of unwanted furniture twice a year. Residents leave suitable tables and chairs at a designated point, where volunteers sort them by condition. Usable pieces go to a housing charity, while damaged items are sent to a different facility. The association asks donors to describe any missing parts in advance. This information allows the volunteers to decide which objects can be passed on without delaying the collection for everyone else.\n\n[D] A local college has begun recording the history of the railway building. Students interview former workers and compare their accounts with photographs held by families in the town. The finished recordings will be stored in the college archive, where researchers can request access. The project concerns the building's past uses and does not form part of the repair workshop. Students plan to present a selection of their findings at the library after the interviews have been transcribed.",
+       "items": [
+        {
+         "stem": "Which paragraph describes a requirement for people who have recently joined a lending service?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D"
+         ],
+         "answer": 1,
+         "why": "第二段说 During the first month of membership, borrowers must attend a safety demonstration，对象和要求都对应。",
+         "point": "decompose"
+        },
+        {
+         "stem": "Which paragraph describes a charity receiving furniture selected by volunteers?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D"
+         ],
+         "answer": 2,
+         "why": "第三段说 volunteers sort them，又说 Usable pieces go to a housing charity，筛选和去向都对应。",
+         "point": "match"
+        },
+        {
+         "stem": "Which paragraph says owners must acquire components for a repair themselves?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D"
+         ],
+         "answer": 0,
+         "why": "第一段说 owners must obtain any replacement parts，obtain 对应 acquire，replacement parts 对应 components。",
+         "point": "decompose"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "[A] A regional bus operator has revised its printed maps after passengers reported difficulty reading them. The new version uses larger place names and separates routes that previously appeared as a single line. The operator tested the design with a small group of passengers before printing it. Copies are now available at stations, while the earlier map remains accessible in the local transport archive. The operator has not changed the routes themselves as part of this project.\n\n[B] A university team studies travel to a weekly market. Researchers count bicycles at several entrances and ask a sample of visitors where they began their journey. They do not collect names. Their aim is to compare travel patterns on market days with those on other days, rather than to measure the market's total sales. When the counts are complete, the team will share a summary with the town council and make the counting method available to other researchers.\n\n[C] A group of shopkeepers has proposed a sheltered bicycle parking area near the market. They argue that a covered site would protect customers' bicycles from rain and keep the main entrance clear. The proposal requires permission from the owner of the land. Some shopkeepers prefer improving the existing uncovered stands instead, because those stands are already on public land. The group will compare the costs of both options before deciding which proposal to submit.\n\n[D] The council is trialing an evening bus service for workers whose shifts end after the last regular departure. The trial runs only on weekdays and uses an existing bus stop outside the station. Drivers record passenger numbers on each trip, and the council will review those figures when the trial ends. Weekend services retain their previous schedule. The trial is funded from a transport budget set aside for temporary changes, rather than from the market research project.",
+       "items": [
+        {
+         "stem": "Which paragraph describes a plan whose construction depends on a landowner's approval?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D"
+         ],
+         "answer": 2,
+         "why": "第三段说 The proposal requires permission from the owner of the land，方案是建有顶棚的自行车停放区。",
+         "point": "decompose"
+        },
+        {
+         "stem": "Which paragraph describes a temporary weekday service aimed at people finishing work late?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D"
+         ],
+         "answer": 3,
+         "why": "第四段说 evening bus service for workers whose shifts end after the last regular departure，又说 The trial runs only on weekdays，对象和时间都对应。",
+         "point": "match"
+        },
+        {
+         "stem": "Which paragraph describes research comparing journeys on market days with those on other days?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D"
+         ],
+         "answer": 1,
+         "why": "第二段说 compare travel patterns on market days with those on other days，travel patterns 对应 journeys。",
+         "point": "match"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

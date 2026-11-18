@@ -1,0 +1,58 @@
+{
+ "id": "writing-practical-speech", "title": "发言稿", "goal": "能面向听众组织主题、理由与倡议。", "skill": "写作", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "audience", "label": "选择适合现场听众的开场表达"}, {"id": "structure", "label": "按主题与理由组织发言并形成倡议"}],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "发言稿的内容与知识点"}],
+ "cards": [
+  {"id": "structure", "type": "table", "title": "结构", "cols": ["部分", "内容", "例句"], "rows": [
+   ["开场", "称呼现场听众", "Good morning, teachers and students."],
+   ["主题", "说明发言话题", "Today I would like to talk about reducing waste."],
+   ["理由或经历", "用具体事实支持主题", "Reusable bottles reduce the number of disposable cups we use."],
+   ["倡议", "提出与理由对应的行动", "Let us bring reusable bottles to school."],
+   ["结束", "感谢听众", "Thank you for listening."]
+  ]},
+  {"id": "expressions", "type": "table", "title": "常用表达", "cols": ["用途", "表达", "例句"], "rows": [
+   ["问候", "Good morning + 听众", "Good morning, teachers and students."],
+   ["介绍主题", "I would like to talk about", "I would like to talk about cultural exchange."],
+   ["引出理由", "because + 原因", "We can learn from visitors because they bring different experiences."],
+   ["倡议", "Let us + 动词原形", "Let us share stories with our visitors."],
+   ["致谢", "Thank you for listening", "Thank you for listening."]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [
+   {"p": "假定李华在学校环保活动上发言，说明减少一次性杯子的理由并提出行动倡议。"},
+   {"box": "Introduce the topic and reason.\nCall for a related action.\n\nGood morning, teachers and students. Today I would like to talk about reducing waste at school. Every day, students buy drinks in disposable cups. A reusable bottle can be filled again, so it reduces the number of cups thrown away. It can also be carried between classes and used throughout the school day. Small changes in our daily routines can reduce the waste we produce together. Let us bring reusable bottles to school and encourage our classmates to do the same. Thank you for listening."},
+   {"p": "开场直接称呼在场的教师和学生。理由部分说明水瓶可以反复装水，因而减少扔掉的杯子。结尾倡议带水瓶上学，与这条理由对应。"}
+  ]},
+  {"id": "errors", "type": "table", "title": "常见错误", "cols": ["问题", "不足", "修改"], "rows": [
+   ["对象不符", "Dear Editor, I am writing to report an event.", "Good morning, teachers and students."],
+   ["主题不明", "Today is an important day.", "Today I would like to talk about cultural exchange."],
+   ["缺少理由", "Cultural exchange is useful.", "Sharing stories helps visitors learn about school life."],
+   ["倡议不对应", "Let us buy more cups.（理由是减少废弃杯子）", "Let us bring reusable bottles to school."]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["audience", "structure"], "groups": [
+   {"text": "假定李华在学校文化交流活动上向教师和学生发言，主张与来访学生交流故事。", "items": [
+    {"stem": "Which opening addresses the audience?", "options": ["Good morning, teachers and students.", "Good morning, Mr. Wang and other teachers.", "Dear Editor, I am writing about our exchange event.", "Dear Ben, thank you for telling me about the visitors."], "answer": 0, "why": "情境是向教师和学生发言。第一项同时问候在场的教师和学生；第二项漏掉了学生。", "point": "audience"},
+    {"stem": "Which reason supports sharing stories?", "options": ["Visitors can learn our school rules from a booklet.", "Students can learn about the visitors' own experiences.", "Students can practise English by reading stories alone.", "Teachers can tell visitors about the school timetable."], "answer": 1, "why": "情境主张与来访学生交流故事。第二项说明交流能让学生了解来访者的经历，支持这一主张；第三项是一个人读故事，没有交流。", "point": "structure"}
+   ]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["audience", "structure"], "groups": [{"items": [
+   {"stem": "Greet the teachers and students present.", "lead": "Good", "chunks": ["morning,", "teachers", "and students", "of our"], "tail": "school.", "extra": ["teacher"], "why": "Good morning, teachers and students of our school 问候现场听众。", "point": "audience"},
+   {"stem": "Call for students to bring reusable bottles.", "lead": "Let", "chunks": ["us", "bring", "reusable", "bottles to"], "tail": "school.", "extra": ["bringing"], "why": "Let us bring 提出与减少一次性杯子对应的行动。", "point": "structure"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["audience", "structure"], "sets": [{"id": "set-a", "groups": [
+   {"text": "假定李华在校园环保活动上向师生发言，说明自带水瓶能减少废弃杯子。", "items": [
+    {"stem": "Which opening addresses the listeners at the event?", "options": ["Good morning, teachers and students.", "Good morning, teachers of our school.", "Dear Editor, I am writing about our campus green event.", "Dear Ben, I am writing to tell you about reducing waste."], "answer": 0, "why": "情境是向师生发言。第一项同时问候在场的教师和学生；第二项漏掉了学生。", "point": "audience"},
+    {"stem": "Which call to action follows the stated reason?", "options": ["Let us collect more disposable cups for each class.", "Let us bring reusable bottles to school each day.", "Let us display the cups used at yesterday's event.", "Let us count the drinks sold at the school event."], "answer": 1, "why": "自带水瓶对应减少废弃杯子的理由。", "point": "structure"}
+   ]},
+   {"text": "假定李华在交流活动上向来访学生发言，分享故事可以帮助双方了解彼此的学校生活。", "items": [
+    {"stem": "Which opening addresses the visiting students?", "options": ["Dear Editor, I am writing about the exchange event.", "Good afternoon, teachers of our school.", "Good afternoon, visiting students and school friends.", "Good afternoon, parents and teachers from our school."], "answer": 2, "why": "情境是向来访学生发言。第三项问候来访学生和本校同学；第二项只问候了本校教师。", "point": "audience"},
+    {"stem": "Which action develops the stated exchange goal?", "options": ["Let us listen to the visitors' stories without telling ours.", "Let us keep our stories until the visitors have gone home.", "Let us read stories about schools in other countries.", "Let us share stories about our school lives with visitors."], "answer": 3, "why": "情境说分享故事能帮助双方了解彼此的学校生活。第四项提出与来访学生互相分享；第一项只听不讲，不是双方交流。", "point": "structure"}
+   ]},
+   {"items": [
+    {"stem": "Greet the teachers and students present.", "lead": "Good", "chunks": ["morning,", "teachers", "and students", "of our"], "tail": "school.", "extra": ["teacher"], "why": "Good morning, teachers and students of our school 面向现场听众。", "point": "audience"},
+    {"stem": "Introduce the topic of cultural exchange.", "lead": "Today", "chunks": ["I would like", "to talk", "about", "cultural"], "tail": "exchange.", "extra": ["talking"], "why": "I would like to talk about 引出发言主题。", "point": "structure"},
+    {"stem": "Greet the visitors and students present.", "lead": "Good", "chunks": ["afternoon,", "visitors", "and students", "from our"], "tail": "school.", "extra": ["visitor"], "why": "Good afternoon, visitors and students from our school 称呼来访者与学生。", "point": "audience"},
+    {"stem": "Call on listeners to share their stories.", "lead": "Let", "chunks": ["us", "share", "our", "school"], "tail": "stories.", "extra": ["sharing"], "why": "Let us share our school stories 提出交流行动。", "point": "structure"}
+   ]}
+  ]}]}
+ ]
+}

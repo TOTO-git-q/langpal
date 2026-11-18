@@ -1,0 +1,803 @@
+{
+ "id": "listening-p1-services",
+ "title": "住宿与租赁词汇",
+ "goal": "辨认住宿与租赁词汇，并按语境区分费用、服务项目与维修责任。",
+ "skill": "听力",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "vocab",
+   "label": "辨认住宿与租赁的常用词"
+  },
+  {
+   "id": "use",
+   "label": "按语境区分费用与服务项目"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "雅思 IELTS Academic：课表",
+   "url": "docs/syllabi/ielts.md",
+   "used": "听力课的内容、知识点与教学规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "住宿咨询的词汇分四类：物品、费用、维修责任和入住手续。rent 是租金。deposit 是预先交的一笔钱，按协议处理。租房的押金和预订的订金用途可能不同，要看对话里的说明。"
+    },
+    {
+     "box": "The monthly rent is £620. A separate deposit is held until the room is returned. Electricity is charged separately."
+    },
+    {
+     "p": "furnished 是配有家具，不是所有服务都免费。inclusive 要听清包含哪几项。维修由谁负责，看对话里怎么分工，不凭 landlord 或 tenant 的身份判断。"
+    },
+    {
+     "box": "The flat is furnished, but heating isn't included in the rent."
+    }
+   ]
+  },
+  {
+   "id": "facilities",
+   "type": "table",
+   "title": "词汇表：房间设施",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "搭配",
+    "例句"
+   ],
+   "rows": [
+    [
+     "accommodation",
+     "n. 不可数",
+     "住处；住宿",
+     "temporary accommodation",
+     "The agency offers temporary accommodation near the station."
+    ],
+    [
+     "furnished",
+     "adj.",
+     "配有家具的",
+     "a furnished flat",
+     "The furnished flat has a bed and a desk."
+    ],
+    [
+     "appliance",
+     "n.",
+     "家用电器",
+     "kitchen appliances",
+     "The kitchen appliances include a cooker and a fridge."
+    ],
+    [
+     "heating",
+     "n. 不可数",
+     "供暖；供暖系统",
+     "central heating",
+     "The rent includes central heating."
+    ],
+    [
+     "insulation",
+     "n. 不可数",
+     "隔热或隔音材料；隔热或隔音",
+     "roof insulation",
+     "The roof insulation helps reduce heat loss."
+    ],
+    [
+     "balcony",
+     "n.",
+     "阳台",
+     "a private balcony",
+     "The bedroom opens onto a private balcony."
+    ],
+    [
+     "cupboard",
+     "n.",
+     "橱柜；储物柜",
+     "a kitchen cupboard",
+     "The plates are in the kitchen cupboard."
+    ],
+    [
+     "socket",
+     "n.",
+     "插座",
+     "an electrical socket",
+     "There is an electrical socket beside the desk."
+    ],
+    [
+     "communal",
+     "adj.",
+     "共用的",
+     "a communal kitchen",
+     "The residents share a communal kitchen."
+    ],
+    [
+     "furniture",
+     "n. 不可数",
+     "家具",
+     "bedroom furniture",
+     "The bedroom furniture belongs to the landlord."
+    ]
+   ],
+   "note": "furnished 是配有家具，communal 是共用，两个词都与费用无关。The room is furnished; the kitchen is communal. 说的是两件事。"
+  },
+  {
+   "id": "fees",
+   "type": "table",
+   "title": "词汇表：租期费用",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "搭配",
+    "例句"
+   ],
+   "rows": [
+    [
+     "tenancy",
+     "n.",
+     "租住关系；租期",
+     "a six-month tenancy",
+     "The six-month tenancy starts in October."
+    ],
+    [
+     "lease",
+     "n.",
+     "租约",
+     "sign a lease",
+     "The applicant will read the lease before signing it."
+    ],
+    [
+     "rent",
+     "n.",
+     "租金",
+     "monthly rent",
+     "The monthly rent is payable on the first day of each month."
+    ],
+    [
+     "deposit",
+     "n.",
+     "押金；订金",
+     "a refundable deposit",
+     "A separate refundable deposit is required under this agreement."
+    ],
+    [
+     "advance",
+     "n.",
+     "提前；预先",
+     "pay in advance",
+     "The first month's rent is paid in advance."
+    ],
+    [
+     "instalment",
+     "n.",
+     "分期付款中的一期款项",
+     "monthly instalments",
+     "The fee can be paid in monthly instalments."
+    ],
+    [
+     "inclusive",
+     "adj.",
+     "包含所列费用的",
+     "inclusive of heating",
+     "The quoted rent is inclusive of heating."
+    ],
+    [
+     "utilities",
+     "n. 复数",
+     "水、电等公用服务",
+     "utility bills / utilities",
+     "The tenant pays for utilities separately."
+    ],
+    [
+     "surcharge",
+     "n.",
+     "附加费",
+     "an additional surcharge",
+     "An additional surcharge applies to the optional storage space."
+    ],
+    [
+     "refundable",
+     "adj.",
+     "可退还的",
+     "a refundable payment",
+     "The payment is refundable if the stated conditions are met."
+    ]
+   ],
+   "note": "inclusive 包含的范围看 of 后面，inclusive of heating 只含供暖。refundable 也可能带条件：refundable if cancelled by Friday，周六取消就不退。"
+  },
+  {
+   "id": "repairs",
+   "type": "table",
+   "title": "词汇表：维修责任",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "搭配",
+    "例句"
+   ],
+   "rows": [
+    [
+     "landlord",
+     "n.",
+     "房东；出租方",
+     "contact the landlord",
+     "The tenant contacted the landlord about a broken handle."
+    ],
+    [
+     "tenant",
+     "n.",
+     "租户",
+     "a new tenant",
+     "The new tenant reported the fault on arrival."
+    ],
+    [
+     "maintenance",
+     "n. 不可数",
+     "维护；保养",
+     "routine maintenance",
+     "Routine maintenance includes checking the heating system."
+    ],
+    [
+     "repair",
+     "n.",
+     "维修",
+     "an urgent repair",
+     "The leaking pipe needs an urgent repair."
+    ],
+    [
+     "fault",
+     "n.",
+     "故障；缺陷",
+     "an electrical fault",
+     "The electrician found an electrical fault in the cooker."
+    ],
+    [
+     "leak",
+     "n.",
+     "渗漏；漏水处",
+     "a water leak",
+     "A water leak has left the cupboard damp."
+    ],
+    [
+     "damage",
+     "n. 不可数",
+     "损坏",
+     "accidental damage",
+     "The report describes accidental damage to the shelf."
+    ],
+    [
+     "responsibility",
+     "n.",
+     "责任",
+     "responsibility for repairs",
+     "The agreement states who has responsibility for repairs."
+    ],
+    [
+     "inspection",
+     "n.",
+     "检查",
+     "a routine inspection",
+     "A routine inspection is arranged for Tuesday."
+    ],
+    [
+     "contractor",
+     "n.",
+     "承包服务者；承包商",
+     "a maintenance contractor",
+     "A maintenance contractor will replace the faulty tap."
+    ]
+   ],
+   "note": "maintenance 是日常维护，repair 是修复故障，inspection 只是检查。The inspection found a leak; a repair is still needed. 说明查出了问题，还没有修。"
+  },
+  {
+   "id": "arrival",
+   "type": "table",
+   "title": "词汇表：入住手续",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "搭配",
+    "例句"
+   ],
+   "rows": [
+    [
+     "viewing",
+     "n.",
+     "看房",
+     "arrange a viewing",
+     "The agent arranged a viewing before accepting applications."
+    ],
+    [
+     "application",
+     "n.",
+     "申请",
+     "a rental application",
+     "The rental application includes contact details."
+    ],
+    [
+     "reference",
+     "n.",
+     "推荐信；证明材料",
+     "provide a reference",
+     "The applicant provided a reference from a previous landlord."
+    ],
+    [
+     "guarantor",
+     "n.",
+     "担保人",
+     "act as a guarantor",
+     "A relative agreed to act as a guarantor for the tenant."
+    ],
+    [
+     "agreement",
+     "n.",
+     "协议",
+     "a tenancy agreement",
+     "The tenancy agreement records the rent and the start date."
+    ],
+    [
+     "inventory",
+     "n.",
+     "物品及状况清单",
+     "check the inventory",
+     "The tenant checked the inventory against the furniture in the flat."
+    ],
+    [
+     "signature",
+     "n.",
+     "签名",
+     "provide a signature",
+     "The agreement requires a signature from each named tenant."
+    ],
+    [
+     "identification",
+     "n. 不可数",
+     "身份证明",
+     "proof of identification",
+     "The agent asked for proof of identification."
+    ],
+    [
+     "receipt",
+     "n.",
+     "收据",
+     "a payment receipt",
+     "The receipt confirms that the deposit was paid."
+    ],
+    [
+     "occupancy",
+     "n. 不可数",
+     "居住；入住使用",
+     "single occupancy",
+     "The room is offered for single occupancy."
+    ]
+   ],
+   "note": "application 是提出申请，还没有获批。receipt 证明已付款，inventory 记录家具的状况：The receipt records payment; the inventory records the furniture's condition."
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A: Does the £640 cover everything for the flat?\nB: That's the monthly rent, inclusive of heating. Electricity is paid separately. A £400 deposit is also required and is held separately from the rent.\nA: Is the flat furnished?\nB: Yes. Check the inventory when moving in. It lists the furniture and its condition.\nA: Who should be contacted about a fault?\nB: Report it to the landlord, who will arrange a contractor."
+    },
+    {
+     "p": "£640 是每月租金，£400 是单独保管的押金。inclusive of heating 说明供暖已含，electricity is paid separately 说明电费另付。"
+    },
+    {
+     "p": "inventory 用来核对物品和状况，receipt 只证明付款。本段中房东负责安排维修，维修由 contractor 来做。"
+    },
+    {
+     "box": "Which statement matches the charges?\n1. Heating and electricity are both included in £640.\n2. The £400 is the regular monthly rent.\n3. Heating is included, but electricity is separate.\n4. The deposit replaces the electricity payment."
+    },
+    {
+     "p": "第三项分清了包含和另付的费用。第一项把电费也算进了租金。"
+    }
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "vocab"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "A resident shares a kitchen with other occupants. Which adjective describes that kitchen?",
+       "options": [
+        "refundable",
+        "communal",
+        "private",
+        "inclusive"
+       ],
+       "answer": 1,
+       "why": "shares a kitchen 是共用，对应 communal，即第二项。private 是一人独用。",
+       "point": "vocab"
+      },
+      {
+       "stem": "An applicant reads the document setting out the rental period and conditions before signing. Which noun names that document?",
+       "options": [
+        "inventory",
+        "receipt",
+        "lease",
+        "reference"
+       ],
+       "answer": 2,
+       "why": "document setting out the rental period and conditions 对应 lease，即第三项。inventory 只记录物品和状况。",
+       "point": "vocab"
+      },
+      {
+       "stem": "The agent arranges a visit so an applicant can see the room before applying. What is that visit?",
+       "options": [
+        "An inspection",
+        "An application",
+        "A tenancy",
+        "A viewing"
+       ],
+       "answer": 3,
+       "why": "see the room before applying 是看房，对应 viewing，即第四项。inspection 是检查房屋的问题。",
+       "point": "vocab"
+      },
+      {
+       "stem": "Water escapes from a pipe beneath the sink. Which word names the problem itself?",
+       "options": [
+        "leak",
+        "inspection",
+        "repair",
+        "maintenance"
+       ],
+       "answer": 0,
+       "why": "Water escapes from a pipe 是漏水，对应 leak，即第一项。repair 是修复漏水的行动。",
+       "point": "vocab"
+      },
+      {
+       "stem": "The contract asks for a person who will cover unpaid rent if the tenant cannot pay. Which role is required?",
+       "options": [
+        "contractor",
+        "guarantor",
+        "landlord",
+        "tenant"
+       ],
+       "answer": 1,
+       "why": "cover unpaid rent if the tenant cannot pay 对应担保人 guarantor，即第二项。",
+       "point": "vocab"
+      },
+      {
+       "stem": "A payer receives a document confirming that the deposit has been paid. What is the document?",
+       "options": [
+        "inventory",
+        "lease",
+        "receipt",
+        "application"
+       ],
+       "answer": 2,
+       "why": "confirming that the deposit has been paid 对应 receipt，即第三项。inventory 记录的是物品。",
+       "point": "vocab"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "use"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I'm interested in the attic flat. Is the quoted amount the rent or the deposit?"
+       },
+       {
+        "who": "B",
+        "text": "The rent is five hundred pounds a month. The deposit is three hundred and is held separately. Water is included in the rent, but electricity is billed separately."
+       },
+       {
+        "who": "A",
+        "text": "So the three hundred doesn't pay for the first month?"
+       },
+       {
+        "who": "B",
+        "text": "That's right. The first month's rent is still due."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is the £300 payment?",
+       "options": [
+        "A separate deposit",
+        "The first month's rent",
+        "An electricity bill",
+        "A water surcharge"
+       ],
+       "answer": 0,
+       "why": "The deposit is three hundred and is held separately 说明 £300 是押金，即第一项。它不抵首月租金。",
+       "point": "use"
+      },
+      {
+       "stem": "Which service is included in the rent?",
+       "options": [
+        "Electricity only",
+        "Water and electricity",
+        "Neither water nor electricity",
+        "Water, not electricity"
+       ],
+       "answer": 3,
+       "why": "Water is included 和 electricity is billed separately 说明租金只含水费，即第四项。",
+       "point": "use"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I'm checking the terms for the garden studio. Is routine maintenance my responsibility?"
+       },
+       {
+        "who": "B",
+        "text": "For this studio, the landlord arranges maintenance and pays the contractor. The tenant must report faults promptly. Accidental damage is dealt with under a separate clause."
+       },
+       {
+        "who": "A",
+        "text": "Does an inspection mean that a fault has been repaired?"
+       },
+       {
+        "who": "B",
+        "text": "No. The inspection identifies problems. Any repair is arranged after that."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is the tenant asked to do?",
+       "options": [
+        "Pay the routine maintenance contractor",
+        "Report faults as soon as they occur",
+        "Replace every damaged appliance",
+        "Perform the routine inspection"
+       ],
+       "answer": 1,
+       "why": "The tenant must report faults promptly 对应报告职责；安排和付款归房东。",
+       "point": "use"
+      },
+      {
+       "stem": "What does the inspection establish?",
+       "options": [
+        "That repairs are complete",
+        "That accidental damage is free",
+        "Which problems need attention",
+        "Which contractor has been paid"
+       ],
+       "answer": 2,
+       "why": "The inspection identifies problems 说明检查只找出问题，即第三项。维修在检查之后安排。",
+       "point": "use"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "vocab",
+    "use"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "A flat comes with a bed, chairs and a wardrobe. Which adjective describes this provision?",
+         "options": [
+          "furnished",
+          "communal",
+          "inclusive",
+          "refundable"
+         ],
+         "answer": 0,
+         "why": "comes with a bed, chairs and a wardrobe 是配有家具，对应 furnished，即第一项。",
+         "point": "vocab"
+        },
+        {
+         "stem": "Which document lists the furniture and records its condition at the start of a tenancy?",
+         "options": [
+          "application",
+          "reference",
+          "receipt",
+          "inventory"
+         ],
+         "answer": 3,
+         "why": "lists the furniture and records its condition 对应 inventory，即第四项。receipt 只证明付款。",
+         "point": "vocab"
+        },
+        {
+         "stem": "Which term names the regular charge for occupying a rented home, rather than a separately held security payment?",
+         "options": [
+          "deposit",
+          "rent",
+          "surcharge",
+          "instalment"
+         ],
+         "answer": 1,
+         "why": "regular charge for occupying a rented home 对应 rent；separately held security payment 对应 deposit。",
+         "point": "vocab"
+        },
+        {
+         "stem": "The bill groups water, gas and electricity together. Which term covers these services?",
+         "options": [
+          "appliances",
+          "bills",
+          "utilities",
+          "instalments"
+         ],
+         "answer": 2,
+         "why": "water, gas and electricity 是公用服务，对应 utilities，即第三项。",
+         "point": "vocab"
+        },
+        {
+         "stem": "Which term describes routine work to keep a property in good condition, rather than a single check of its condition?",
+         "options": [
+          "maintenance",
+          "inspection",
+          "repair",
+          "inventory"
+         ],
+         "answer": 0,
+         "why": "routine work to keep ... in good condition 对应 maintenance；a single check 对应 inspection。",
+         "point": "vocab"
+        },
+        {
+         "stem": "Who promises to cover unpaid rent if the tenant cannot pay, under the stated arrangement?",
+         "options": [
+          "contractor",
+          "tenant",
+          "guarantor",
+          "landlord"
+         ],
+         "answer": 2,
+         "why": "promises to cover unpaid rent if the tenant cannot pay 对应 guarantor，即第三项。",
+         "point": "vocab"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Hello, I'm enquiring about the room above the bicycle workshop. Is the advertised six hundred pounds the full monthly rent?"
+         },
+         {
+          "who": "B",
+          "text": "Yes, it's inclusive of heating and water. Electricity isn't included and is charged separately. There's also a refundable deposit of four hundred pounds, held separately from the rent."
+         },
+         {
+          "who": "A",
+          "text": "Does paying that deposit cover my first month?"
+         },
+         {
+          "who": "B",
+          "text": "No, the first month's rent is payable in advance as well. The deposit is dealt with under the return conditions in the agreement."
+         },
+         {
+          "who": "A",
+          "text": "Thanks. I'll read those conditions before submitting the application."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which statement correctly separates the two payments?",
+         "options": [
+          "The deposit replaces the first month's rent.",
+          "The deposit does not cover the first month.",
+          "The rent is held until the deposit is returned.",
+          "The deposit is the monthly heating charge."
+         ],
+         "answer": 1,
+         "why": "first month's rent is payable in advance as well 表明租金与押金分别支付。",
+         "point": "use"
+        },
+        {
+         "stem": "Which service will require a separate payment?",
+         "options": [
+          "Heating and electricity, not water",
+          "Water and heating, but not electricity",
+          "Water and electricity, but not heating",
+          "Electricity, but not heating or water"
+         ],
+         "answer": 3,
+         "why": "inclusive of heating and water 说明供暖和水费已含。Electricity isn't included 说明只有电费另付，即第四项。",
+         "point": "use"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'm considering the flat beside the repair depot. What happens if an appliance develops a fault during the tenancy?"
+         },
+         {
+          "who": "B",
+          "text": "For this flat, report it to the landlord. The landlord arranges a contractor and pays for routine repairs. Damage caused by the tenant is considered separately under the agreement."
+         },
+         {
+          "who": "A",
+          "text": "Is there a document showing the condition of the appliances when I arrive?"
+         },
+         {
+          "who": "B",
+          "text": "Yes, the inventory records them and their condition. Check it before signing. The payment receipt only confirms that money has been received."
+         },
+         {
+          "who": "A",
+          "text": "Understood. I'll compare the inventory with the appliances in the flat."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is the stated procedure for routine repairs?",
+         "options": [
+          "The tenant appoints and pays the contractor.",
+          "The contractor signs the tenant's inventory first.",
+          "The landlord organises and pays for the work.",
+          "The landlord treats every fault as tenant damage."
+         ],
+         "answer": 2,
+         "why": "The landlord arranges a contractor and pays for routine repairs 说明由房东安排并付费，即第三项。",
+         "point": "use"
+        },
+        {
+         "stem": "Which document should be used to check the appliances' initial condition?",
+         "options": [
+          "The inventory listing their condition",
+          "The receipt confirming the first payment",
+          "The separate damage clause",
+          "The contractor's routine repair payment"
+         ],
+         "answer": 0,
+         "why": "the inventory records them and their condition 说明用 inventory 核对初始状况，即第一项。receipt 只证明付款。",
+         "point": "use"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

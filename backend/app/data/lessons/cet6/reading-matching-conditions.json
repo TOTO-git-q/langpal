@@ -1,0 +1,405 @@
+{
+ "id": "reading-matching-conditions",
+ "title": "段落匹配的限定信息",
+ "goal": "识别限定条件并排除只符合部分信息的段落。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "condition",
+   "label": "提取陈述中的限制条件"
+  },
+  {
+   "id": "exclude",
+   "label": "排除仅部分符合陈述的段落"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "阅读课程内容与材料形式"
+  }
+ ],
+ "cards": [
+  {
+   "id": "type",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "同一主题下，不同段落常讲相似的措施。陈述里的时间、群体、因果方向和比较对象，决定它对应哪一段。"
+    },
+    {
+     "box": "Statement: New members can borrow tools on weekends.\n[A] New members can borrow tools on weekdays.\n[B] New members can borrow tools on weekends."
+    },
+    {
+     "p": "两段都说新成员借工具，只有第二段符合 weekends。所有条件都符合，才算找到依据。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　标出对象",
+     "d": "确定动作涉及的人或事物。Children receive meals 中的对象是 children。"
+    },
+    {
+     "t": "2　标出限定",
+     "d": "区分时间、群体、原因和比较对象。during winter 将 meals 的提供时间限制在冬季。"
+    },
+    {
+     "t": "3　对照候选段",
+     "d": "逐项核对动作和限定信息。只提到 meals 的段落，还要符合 children 和 during winter。"
+    },
+    {
+     "t": "4　核对方向",
+     "d": "因果和比较有固定方向。Rain delayed repairs 中的原因是 rain，受影响的事件是 repairs。"
+    }
+   ]
+  },
+  {
+   "id": "limits",
+   "type": "table",
+   "title": "四类限定信息",
+   "cols": [
+    "类型",
+    "陈述",
+    "核对内容"
+   ],
+   "rows": [
+    [
+     "时间",
+     "The office opens late on Fridays.",
+     "周五晚些时候开放"
+    ],
+    [
+     "时间",
+     "Repairs start after winter.",
+     "维修始于冬季之后"
+    ],
+    [
+     "群体",
+     "New members receive training.",
+     "培训对象是新成员"
+    ],
+    [
+     "群体",
+     "Residents over 60 receive discounts.",
+     "优惠面向超过 60 岁的居民"
+    ],
+    [
+     "因果",
+     "Rain delayed the repairs.",
+     "雨使维修延期"
+    ],
+    [
+     "因果",
+     "Repairs delayed the opening.",
+     "维修使开放延期"
+    ],
+    [
+     "比较",
+     "The north route is shorter than the south route.",
+     "北线比南线短"
+    ],
+    [
+     "比较",
+     "The summer fee exceeds the winter fee.",
+     "夏季费用高于冬季"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "[A] The museum admits school groups free on Tuesdays. Adult groups pay the regular fee.\n[B] The museum admits adult groups free on Tuesdays. School groups pay the regular fee.\n[C] The museum admits school groups free on Saturdays. Adult groups pay the regular fee.\n\nStatement: School parties pay nothing for admission on Tuesday."
+    },
+    {
+     "p": "school parties 对应 school groups，pay nothing 对应 free，Tuesday 对应 Tuesdays。第一段同时满足三个条件。"
+    },
+    {
+     "p": "第二段星期相同，群体不同。第三段群体相同，时间不同。museum 和 free 各段都有，不能单独用来定位。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除依据"
+   ],
+   "rows": [
+    [
+     "时间错配",
+     "Tuesday 改为 Saturday",
+     "核对原文开放日期"
+    ],
+    [
+     "群体错配",
+     "school groups 改为 adult groups",
+     "核对免费入场的群体"
+    ],
+    [
+     "因果倒置",
+     "repairs delayed rain",
+     "核对延期的事件与原因"
+    ],
+    [
+     "比较倒置",
+     "north route is longer",
+     "核对两条路线的长短"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "condition",
+    "exclude"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "[A] The service is free in July. [B] The service is free in August.",
+     "items": [
+      {
+       "stem": "Which paragraph gives free service in August?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Both paragraphs",
+        "Neither paragraph"
+       ],
+       "answer": 1,
+       "why": "第二段说 The service is free in August，月份和免费都对应。第一段免费的月份是七月。",
+       "point": "condition"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "[A] New drivers receive advice. [B] Experienced drivers receive advice.",
+     "items": [
+      {
+       "stem": "Which paragraph describes advice for experienced drivers?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Both paragraphs",
+        "Neither paragraph"
+       ],
+       "answer": 1,
+       "why": "第二段说 Experienced drivers receive advice。第一段得到建议的是新司机。",
+       "point": "condition"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "[A] Rain delayed the deliveries. [B] Deliveries delayed the repairs.",
+     "items": [
+      {
+       "stem": "Which paragraph says deliveries were delayed by rain?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Both paragraphs",
+        "Neither paragraph"
+       ],
+       "answer": 0,
+       "why": "第一段说 Rain delayed the deliveries，雨是原因，送货被耽误。第二段里 deliveries 是原因，方向不同。",
+       "point": "exclude"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "[A] The red route is shorter than the blue route. [B] The blue route is shorter than the red route.",
+     "items": [
+      {
+       "stem": "Which paragraph says the blue route is the longer one?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Both paragraphs",
+        "Neither paragraph"
+       ],
+       "answer": 0,
+       "why": "第一段说 The red route is shorter than the blue route，所以蓝线较长。第二段的比较方向相反。",
+       "point": "exclude"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "condition",
+    "exclude"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "[A] The college lends cameras to first-year students in June. In July it lends them to final-year students.\n\n[B] A local club lends cameras to final-year students in June. The club provides instruction in July.\n\n[C] A shop rents cameras to first-year students in June. Its rental fee includes insurance.\n\n[D] The college lends audio recorders to first-year students in June.",
+     "items": [
+      {
+       "stem": "Which paragraph describes the college lending cameras to first-year students in June?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Paragraph C",
+        "Paragraph D"
+       ],
+       "answer": 0,
+       "why": "第一段说 The college lends cameras to first-year students in June，机构、物品、群体和时间都对应。",
+       "point": "condition"
+      },
+      {
+       "stem": "Which paragraph describes a club lending cameras to final-year students?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Paragraph C",
+        "Paragraph D"
+       ],
+       "answer": 1,
+       "why": "第二段说 A local club lends cameras to final-year students。其他段出借的机构或学生群体不同。",
+       "point": "exclude"
+      },
+      {
+       "stem": "Which paragraph describes a college loan of sound-recording equipment?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Paragraph C",
+        "Paragraph D"
+       ],
+       "answer": 3,
+       "why": "第四段说 The college lends audio recorders，audio recorders 对应 sound-recording equipment。",
+       "point": "exclude"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 8,
+   "pass": 0.8,
+   "points": [
+    "condition",
+    "exclude"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "[A] A city operates a shared workshop in a former warehouse. In spring, residents who have recently joined can attend introductory woodwork sessions at no charge. Those sessions introduce basic tools and safety practices. Experienced members may also use the workshop in spring, but their advanced sessions have a fee. Staff record attendance separately for each course so that they can plan the amount of timber required. The workshop supplies the tools used in both kinds of session. Members return each tool to its assigned place afterward.\n\n[B] A second workshop operates in a nearby school building. During the summer it offers free metalwork sessions to new members, while returning members pay for advanced metalwork. In spring the same building hosts a paid course on woodworking. The school lends the rooms to the workshop outside teaching hours. Organizers publish the course schedule before each season and ask participants to reserve places, because the number of workstations limits attendance.\n\n[C] The city also maintains a store of shared tools. Last winter a shortage of repair parts delayed the return of several drills to that store. The tools had been inspected after use, and staff had identified worn components that needed replacement. Once the parts arrived, the repairs were completed. The delay affected the availability of drills, but it did not prevent the woodworking classes from taking place, since the classes used a separate supply of equipment.\n\n[D] Staff compared two storage rooms before moving the tool store. The room beside the warehouse was larger than the room at the school, but it had fewer shelves. The school room was therefore chosen because it could hold more separate containers without additional shelving. Both rooms were accessible to staff during the day. The comparison concerned storage capacity and did not determine where the practical courses would be held.",
+       "items": [
+        {
+         "stem": "Which paragraph describes free spring instruction for recently joined residents?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D"
+         ],
+         "answer": 0,
+         "why": "第一段说 In spring, residents who have recently joined can attend introductory woodwork sessions at no charge，时间、群体和费用都对应。第二段的免费课程在夏季。",
+         "point": "condition"
+        },
+        {
+         "stem": "Which paragraph says a lack of components postponed the return of tools?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D"
+         ],
+         "answer": 2,
+         "why": "第三段说 a shortage of repair parts delayed the return of several drills，shortage of repair parts 对应 a lack of components。",
+         "point": "exclude"
+        },
+        {
+         "stem": "Which paragraph compares the capacity and size of two rooms used for storage?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D"
+         ],
+         "answer": 3,
+         "why": "第四段比较两个储藏室：warehouse 旁的房间更大，school 的房间能放更多容器。",
+         "point": "condition"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "[A] A coastal town runs two ferry routes. A recent review found that the island route carries more passengers in summer than the harbor route does in the same season. In winter the relationship reverses: the harbor route carries more passengers. The review compared passenger counts rather than ticket revenue. It did not recommend a change to either timetable, although the operator will continue collecting counts during the coming year.\n\n[B] The town offers reduced ferry fares to students who live on the island during the school term. Students living on the mainland pay the ordinary fare. Applicants show proof of residence when they request a travel card, and the card expires at the end of the term. The fare reduction applies to the island route; the harbor route has a separate pricing scheme. The town reviews the number of cards issued after each term.\n\n[C] A pier used by the harbor route was closed for maintenance in April. The closure caused buses serving the pier to use a temporary stop farther inland. The buses continued to meet the ferry timetable at that stop, and notices described the altered route. When maintenance ended in May, the buses returned to their earlier stop. The closure did not affect the island pier or its regular bus connection.\n\n[D] An association of ferry workers proposed a new shelter at the island pier. The workers argued that passengers needed protection from rain while waiting. The association submitted its proposal after gathering comments during winter. The town agreed to examine the cost before deciding whether to build the shelter. A separate proposal for signs at the harbor pier had already been approved and was not part of the shelter discussion. The two proposals would serve different locations, and the council intends to consider their costs separately. Each group will receive a response when the estimates are complete.",
+       "items": [
+        {
+         "stem": "Which paragraph describes a term-time fare reduction restricted to students living on an island?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D"
+         ],
+         "answer": 1,
+         "why": "第二段说 reduced ferry fares to students who live on the island during the school term，群体和时间都对应。",
+         "point": "condition"
+        },
+        {
+         "stem": "Which paragraph says maintenance at a pier led buses to change their stopping place?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D"
+         ],
+         "answer": 2,
+         "why": "第三段说 The closure caused buses serving the pier to use a temporary stop。原因是码头维修，结果是公交换了停靠点。",
+         "point": "exclude"
+        },
+        {
+         "stem": "Which paragraph reports a proposal to shelter waiting passengers from rain?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D"
+         ],
+         "answer": 3,
+         "why": "第四段说 The workers argued that passengers needed protection from rain，方案是在岛上码头建候船棚。",
+         "point": "exclude"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

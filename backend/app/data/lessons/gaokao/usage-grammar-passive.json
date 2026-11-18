@@ -1,0 +1,393 @@
+{
+ "id": "usage-grammar-passive",
+ "title": "谓语动词的语态",
+ "goal": "能根据主语与动作的关系及时间选择谓语的语态和形式。",
+ "skill": "语言运用",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "voice",
+   "label": "依据施受关系判断主被动"
+  },
+  {
+   "id": "form",
+   "label": "按时态补全被动谓语结构"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语课程课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "教学内容与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "主动语态的主语是动作的执行者。被动语态的主语是动作的承受者，谓语由 be 加过去分词构成。be 的形式随时态和主语变化。"
+    },
+    {
+     "box": "The workers painted the wall. / The wall was painted by the workers."
+    },
+    {
+     "p": "两句中 workers 执行 paint，wall 承受这一动作。by 短语引出执行者。执行者不重要或不知道时，by 短语可以省略。"
+    }
+   ]
+  },
+  {
+   "id": "forms",
+   "type": "table",
+   "title": "被动谓语的形式",
+   "cols": [
+    "时间",
+    "结构",
+    "例句"
+   ],
+   "rows": [
+    [
+     "一般现在",
+     "am、is、are 加过去分词",
+     "The room is cleaned every day."
+    ],
+    [
+     "一般过去",
+     "was、were 加过去分词",
+     "The room was cleaned yesterday."
+    ],
+    [
+     "一般将来",
+     "will be 加过去分词",
+     "The room will be cleaned tomorrow."
+    ],
+    [
+     "现在进行",
+     "am、is、are being 加过去分词",
+     "The room is being cleaned now."
+    ],
+    [
+     "过去进行",
+     "was、were being 加过去分词",
+     "The room was being cleaned at noon."
+    ],
+    [
+     "现在完成",
+     "has、have been 加过去分词",
+     "The room has been cleaned."
+    ],
+    [
+     "过去完成",
+     "had been 加过去分词",
+     "The room had been cleaned before noon."
+    ]
+   ]
+  },
+  {
+   "id": "voice",
+   "type": "table",
+   "title": "施事与受事",
+   "cols": [
+    "情况",
+    "判断",
+    "例句"
+   ],
+   "rows": [
+    [
+     "主语执行动作",
+     "使用主动谓语",
+     "The editor checked the report."
+    ],
+    [
+     "主语承受动作",
+     "使用被动谓语",
+     "The report was checked by the editor."
+    ],
+    [
+     "执行者未说明",
+     "主语承受动作，仍用被动谓语",
+     "The report was checked yesterday."
+    ],
+    [
+     "不及物动词",
+     "不带宾语的动词不用被动，如 arrive",
+     "The guests arrived at noon."
+    ]
+   ]
+  },
+  {
+   "id": "state",
+   "type": "table",
+   "title": "辨析：动作与状态",
+   "cols": [
+    "对象",
+    "被动动作",
+    "形容词状态"
+   ],
+   "rows": [
+    [
+     "门",
+     "The door was closed by the guard at six.",
+     "The door was closed all night."
+    ],
+    [
+     "窗",
+     "The window was broken by a falling branch.",
+     "The window was broken and needed repair."
+    ],
+    [
+     "道路",
+     "The road was blocked by workers during repairs.",
+     "The road was blocked and no cars could pass."
+    ],
+    [
+     "商店",
+     "The shop was opened by its owner at nine.",
+     "The shop was open until six."
+    ],
+    [
+     "椅子",
+     "The chair was damaged during delivery.",
+     "The chair was damaged and unsafe to use."
+    ],
+    [
+     "画作",
+     "The painting was finished by the artist in May.",
+     "The painting was finished and ready to display."
+    ],
+    [
+     "票",
+     "The tickets were sold by the theater yesterday.",
+     "The theater was sold out and had no seats left."
+    ],
+    [
+     "杯子",
+     "The cup was filled by the server.",
+     "The cup was full of tea."
+    ]
+   ],
+   "note": "句中有 by 短语或具体时刻，表示动作。句中有 all night 这类持续时间或状态描述，表示状态。同一个形式要看上下文确定。"
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "voice"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Every morning, the cook (prepare) the soup for the guests.",
+       "accept": [
+        "prepares"
+       ],
+       "why": "主语 cook 执行准备动作，习惯动作用主动形式 prepares。",
+       "point": "voice"
+      },
+      {
+       "stem": "Every morning, the soup (prepare) by the cook for the guests.",
+       "accept": [
+        "is prepared"
+       ],
+       "why": "主语 soup 承受 prepare 的动作，一般现在时用 is prepared。",
+       "point": "voice"
+      },
+      {
+       "stem": "Yesterday, the guests (arrive) at noon.",
+       "accept": [
+        "arrived"
+       ],
+       "why": "arrive 是不及物动词，不用被动。过去的动作用 arrived。",
+       "point": "voice"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "form"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The tables (clean) by the staff yesterday.",
+       "accept": [
+        "were cleaned"
+       ],
+       "why": "复数主语加过去时间，用 were cleaned。",
+       "point": "form"
+      },
+      {
+       "stem": "The tables (clean) by the staff right now. The work is in progress.",
+       "accept": [
+        "are being cleaned"
+       ],
+       "why": "动作现在正在进行，复数主语用 are being cleaned。",
+       "point": "form"
+      },
+      {
+       "stem": "The tables (clean) by the staff already, so they are ready now. Use the present perfect.",
+       "accept": [
+        "have been cleaned"
+       ],
+       "why": "完成动作与现在的结果有关，用 have been cleaned。",
+       "point": "form"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-three",
+   "type": "check",
+   "title": "练习三",
+   "points": [
+    "voice",
+    "form"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The staff (open) the hall tomorrow. Use will.",
+       "accept": [
+        "will open"
+       ],
+       "why": "staff 执行开门动作，will 后用动词原形。",
+       "point": "voice"
+      },
+      {
+       "stem": "The hall (open) by the staff before the guests arrived yesterday. Use the past perfect.",
+       "accept": [
+        "had been opened"
+       ],
+       "why": "开门发生在客人到达之前，hall 承受动作，用 had been opened。",
+       "point": "form"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "voice",
+    "form"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "A town center runs a small equipment library for its residents. People can borrow items that they need only occasionally. Every Monday, the volunteers [1] the returned equipment for damage. Each item [2] by a volunteer before it is placed back on a shelf. Last week, a broken lamp arrived in a blue box. The lamp [3] by an electrician on Tuesday, and it was ready to borrow again the following day. The volunteers keep written records of repairs and explain any special instructions to borrowers. Today, several shelves [4] by the volunteers at this moment. The work is still in progress, so one section of the room is temporarily closed. Other shelves remain accessible. The volunteers ask each borrower to return items on time so that the next person can use them. The center has recently received a collection of garden tools from a local club. The tools [5] by the volunteers already, and they are ready for borrowers now. Next month, the center will hold a meeting to discuss what other equipment residents need. Suggestions can be left in a box beside the entrance. The staff review the suggestions before each meeting and bring a list for discussion.",
+       "items": [
+        {
+         "stem": "Every Monday, the volunteers (check) the returned equipment for damage.",
+         "accept": [
+          "check"
+         ],
+         "why": "volunteers 执行检查，习惯动作用主动形式 check。",
+         "point": "voice"
+        },
+        {
+         "stem": "Each item (examine) by a volunteer before it is placed back on a shelf.",
+         "accept": [
+          "is examined"
+         ],
+         "why": "item 承受检查，单数主语、一般现在时，用 is examined。",
+         "point": "voice"
+        },
+        {
+         "stem": "The lamp (repair) by an electrician last Tuesday.",
+         "accept": [
+          "was repaired"
+         ],
+         "why": "lamp 承受修理，last Tuesday 指过去，用 was repaired。",
+         "point": "form"
+        },
+        {
+         "stem": "Several shelves (move) by the volunteers right now. The work is in progress.",
+         "accept": [
+          "are being moved"
+         ],
+         "why": "复数主语承受现在正在进行的动作，用 are being moved。",
+         "point": "form"
+        },
+        {
+         "stem": "The tools (label) by the volunteers already, so they are ready now. Use the present perfect.",
+         "accept": [
+          "have been labeled",
+          "have been labelled"
+         ],
+         "why": "already 和 ready now 说明动作已完成、结果在现在，复数主语用 have been labeled。labeled 和 labelled 两种拼法都对。",
+         "point": "form"
+        }
+       ]
+      },
+      {
+       "text": "A school plans a display of handmade models in its main hall. The models show buildings designed by different student teams. Every year, the art teacher [1] the display with help from the teams. The finished models [2] on tables in the hall by the students each spring. Last year, the display included a model of a bridge. The model [3] by the team before the display opened, so visitors could see how the pieces fitted together. The team placed a short description beside it. One student explained the choice of materials to visitors during the afternoon. This year, the teams are working on a model of a market. At noon yesterday, the walls [4] by two students. Their work was still in progress when the teacher entered the room. The model now has a roof and several small doors. Next Friday, it [5] by the team in the hall. The team will then add its description and check that visitors can see the model from both sides. After the display ends, the students will return the materials that can be used again. The teacher keeps photographs of each year's work in a folder for future classes.",
+       "items": [
+        {
+         "stem": "Every year, the art teacher (organize) the display with help from the teams.",
+         "accept": [
+          "organizes",
+          "organises"
+         ],
+         "why": "teacher 执行组织动作，用主动形式。organizes 和 organises 两种拼法都对。",
+         "point": "voice"
+        },
+        {
+         "stem": "The finished models (place) on tables by the students each spring.",
+         "accept": [
+          "are placed"
+         ],
+         "why": "models 承受放置动作，复数主语用 are placed。",
+         "point": "voice"
+        },
+        {
+         "stem": "The model (complete) by the team before the display opened last year. Use the past perfect.",
+         "accept": [
+          "had been completed"
+         ],
+         "why": "模型做好发生在展览开放之前，model 承受动作，用 had been completed。",
+         "point": "form"
+        },
+        {
+         "stem": "At noon yesterday, the walls (paint) by two students. The work was in progress.",
+         "accept": [
+          "were being painted"
+         ],
+         "why": "过去某时正在进行的被动动作用 were being painted。",
+         "point": "form"
+        },
+        {
+         "stem": "Next Friday, the model (display) by the team in the hall. Use will.",
+         "accept": [
+          "will be displayed"
+         ],
+         "why": "model 承受展示，时间是将来，用 will be 加过去分词。",
+         "point": "form"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

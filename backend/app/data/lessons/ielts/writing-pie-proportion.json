@@ -1,0 +1,45 @@
+{
+ "id": "writing-pie-proportion", "title": "比例与百分比表达", "goal": "用分数和约数表述占比，区分百分比与百分点变化。", "skill": "写作", "exam": "雅思 IELTS Academic", "mastery": "once",
+ "points": [{"id": "proportion", "label": "用分数和约数表述占比"}, {"id": "percentage", "label": "区分百分比与百分点变化"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "比例与百分比表达"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "占比可以写成百分数，也可以写成分数。数值接近某个分数时，用约数表达。百分点是两个百分数的差。相对增幅以原来的百分数为基数。"}, {"box": "A share rose from 20% to 30%.\nIt rose by 10 percentage points, or by 50% relative to its original value."}, {"p": "两种算法的基数不同。从 20% 到 30%，上升 10 个百分点。相对增幅是 10 除以 20，即 50%。"}]},
+  {"id": "shares", "type": "table", "title": "占比表达", "cols": ["结构", "例句"], "rows": [
+   ["account for", "Heating accounts for 40% of energy use."], ["make up", "Lighting makes up 30% of energy use."], ["represent", "Cooking represents 20% of energy use."], ["constitute", "Other uses constitute 10% of energy use."]
+  ]},
+  {"id": "fractions", "type": "table", "title": "分数", "cols": ["比例", "例句"], "rows": [
+   ["25%", "A quarter of the budget went on equipment."], ["50%", "Half of the budget went on staff."], ["75%", "Three quarters of the budget went on staff and equipment."], ["约 33%", "About one third of the budget went on premises."]
+  ]},
+  {"id": "approximation", "type": "table", "title": "约数", "cols": ["数值", "例句"], "rows": [
+   ["约 49%", "Approximately half of the total was spent on staff."], ["略高于 25%", "Just over a quarter of the total went on equipment."], ["略低于 50%", "Just under half of the total went on premises."], ["接近 75%", "Nearly three quarters of the total went on services."]
+  ]},
+  {"id": "points", "type": "table", "title": "百分点与增幅", "cols": ["起点与终点", "百分点", "相对增幅"], "rows": [
+   ["20% 至 30%", "上升 10 个百分点", "相对原值增长 50%"], ["10% 至 15%", "上升 5 个百分点", "相对原值增长 50%"], ["40% 至 50%", "上升 10 个百分点", "相对原值增长 25%"], ["60% 至 30%", "下降 30 个百分点", "相对原值下降 50%"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [{"box": "In a library's annual budget, equipment accounted for 25% in 2020 and 30% in 2024. Staff accounted for 50% in 2020."}, {"p": "25% 等于 a quarter，50% 等于 half。account for 后面直接接份额，如 accounted for 25%。"}, {"p": "设备份额增加 5 个百分点。相对原来的 25%，增幅是 5 除以 25，即 20%。"}, {"box": "Equipment accounted for a quarter of the budget in 2020. Its share increased by 5 percentage points, or 20% relative to the 2020 share. Staff represented half of the budget in 2020, twice the share for equipment in that year. Together, those two categories made up three quarters of the budget. The equipment share reached 30% in 2024, exceeding its earlier share by five percentage points."}]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["proportion", "percentage"], "groups": [{"items": [
+   {"stem": "Equipment represents 25% of a budget. Which phrase is exact?", "options": ["a quarter of the budget", "a half of the budget", "three quarters of the budget", "two thirds of the budget"], "answer": 0, "why": "25% 等于四分之一。", "point": "proportion"},
+   {"stem": "A share rises from 20% to 30%. What is the change in percentage points?", "options": ["a rise of 5 percentage points", "a rise of 10 percentage points", "a rise of 20 percentage points", "a rise of 50 percentage points"], "answer": 1, "why": "30 减 20 为 10 个百分点。", "point": "percentage"},
+   {"stem": "A share rises from 20% to 30%. What is the relative increase?", "options": ["a 10% increase", "a 20% increase", "a 50% increase", "a 30% increase"], "answer": 2, "why": "增量 10 除以原值 20 等于 50%。", "point": "percentage"},
+   {"stem": "The share is 26%. Which approximation fits?", "options": ["just under a quarter", "exactly one half", "nearly three quarters", "just over a quarter"], "answer": 3, "why": "26% 略高于 25%，即 just over a quarter。", "point": "proportion"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["proportion", "percentage"], "groups": [{"items": [
+   {"stem": "Staff represent exactly 50% of expenditure. Complete the sentence.", "lead": "Staff", "chunks": ["account", "for", "half of", "expenditure"], "tail": ".", "extra": ["to"], "why": "50% 等于 half，account for 后接份额。", "point": "proportion"},
+   {"stem": "A share increases from 40% to 50%. Give the change in percentage points.", "lead": "The share", "chunks": ["increased", "by", "10", "percentage points"], "tail": "overall.", "extra": ["percentages"], "why": "50 减 40 为 10，复数单位为 percentage points。", "point": "percentage"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["proportion", "percentage"], "sets": [{"id": "set-a", "groups": [
+   {"text": "A school's budget shares were books 25%, equipment 20%, staff 50% and other costs 5% in 2020. In 2024, equipment represented 30% of the budget.", "items": [
+    {"stem": "Which fraction describes the book share in 2020?", "options": ["one half of the budget", "one quarter of the budget", "three quarters of the budget", "one fifth of the budget"], "answer": 1, "why": "Books 占 25%，等于四分之一。", "point": "proportion"},
+    {"stem": "Which sentence expresses the 2020 staff share?", "options": ["Staff accounted to half the budget.", "Staff accounted for a quarter of the budget.", "Staff accounted for half the budget.", "Staff accounted to a fifth of the budget."], "answer": 2, "why": "Staff 占 50%，account for 后接份额，第三项正确。", "point": "proportion"},
+    {"stem": "What was the change in the equipment share in percentage points?", "options": ["It increased by 5 percentage points.", "It increased by 20 percentage points.", "It increased by 30 percentage points.", "It increased by 10 percentage points."], "answer": 3, "why": "设备份额从 20% 升至 30%，相差 10 个百分点。", "point": "percentage"},
+    {"stem": "What was the relative increase in the equipment share?", "options": ["It increased by 50% relative to 2020.", "It increased by 10% relative to 2020.", "It increased by 20% relative to 2020.", "It increased by 30% relative to 2020."], "answer": 0, "why": "10 除以原值 20 等于 50%。", "point": "percentage"}
+   ]},
+   {"text": "In a town's transport budget, the share for rail was 25% in 2018 and 30% in 2022. In 2022 the share for buses was 49% and that for walking was 21%.", "items": [
+    {"stem": "Describe the 2018 rail share as a fraction.", "lead": "Rail", "chunks": ["accounted", "for", "a quarter of", "the budget"], "tail": ".", "extra": ["to"], "why": "25% 等于 a quarter，accounted for 后接份额。", "point": "proportion"},
+    {"stem": "Approximate the 2022 bus share.", "lead": "Buses", "chunks": ["represented", "approximately", "half of", "the budget"], "tail": ".", "extra": ["quarters"], "why": "49% 接近 50%，approximately half 表示约一半。", "point": "proportion"},
+    {"stem": "State the rail share's change in percentage points.", "lead": "The rail share", "chunks": ["rose", "by", "5", "percentage points"], "tail": "over the period.", "extra": ["percentages"], "why": "30% 减 25% 为 5 个百分点。", "point": "percentage"},
+    {"stem": "State the rail share's relative increase.", "lead": "The rail share", "chunks": ["rose by 20%", "relative to", "its 2018", "value"], "tail": ".", "extra": ["points"], "why": "增量 5 除以原值 25 等于 20%。", "point": "percentage"}
+   ]}
+  ]}]} 
+ ]
+}

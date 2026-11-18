@@ -1,0 +1,523 @@
+{
+ "id": "listening-announcement-numbers",
+ "title": "数字、时间与地点",
+ "goal": "听辨通知中的数字、日期、时间与地点，并区分变更信息和保留信息。",
+ "skill": "listening",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 听力",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "number",
+   "label": "听辨数字和日期"
+  },
+  {
+   "id": "change",
+   "label": "区分变更前后的时间、地点"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、录音长度、只放一遍"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "各题型的说明、考查的能力、官方样题"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Listening Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-listening.pdf",
+   "used": "第 1 课：四类题的说明和小测答案；第 2、4 课：应答配对、重音和语调"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "通知中的数字要和它所指的对象一起记。thirteen people 和 thirty dollars 声音相近，一个是人数，一个是费用。只记数字不记名词，容易把两个信息混在一起。"
+    },
+    {
+     "p": "-teen 和 -ty 的区别在末尾的音和重音。重音会随句子变化，只听哪个音节响并不可靠。还要听末尾有没有 n，再根据语境核对这是哪一类数量。"
+    },
+    {
+     "box": "There are thirteen places, and the fee is thirty dollars.\nThe meeting is now at four, not at three."
+    },
+    {
+     "p": "第二句的 now 和 not 说明安排有变。新时间 four 在前，旧时间 three 在后。最后听到的数字不一定是新安排。"
+    }
+   ]
+  },
+  {
+   "id": "numbers",
+   "type": "table",
+   "title": "易混数字",
+   "cols": [
+    "对照",
+    "听辨内容",
+    "例句"
+   ],
+   "rows": [
+    [
+     "thirteen / thirty",
+     "听末尾有没有 n；人数和费用分开记。",
+     "Thirteen students paid thirty dollars each."
+    ],
+    [
+     "fourteen / forty",
+     "fourteen 末尾有 n，forty 没有。再看它修饰哪个名词。",
+     "Fourteen boxes contain forty folders altogether."
+    ],
+    [
+     "fifteen / fifty",
+     "开头相同，听到词尾再判断。",
+     "Fifteen seats are reserved out of fifty."
+    ],
+    [
+     "sixteen / sixty",
+     "听完整个数字，再连到它修饰的名词。",
+     "Sixteen guests ordered sixty sandwiches."
+    ],
+    [
+     "seventeen / seventy",
+     "开头相同，区别在 -teen 和 -ty。",
+     "Seventeen teams share seventy practice balls."
+    ],
+    [
+     "eighteen / eighty",
+     "比较两个数量时，两组对象都要记下。",
+     "Eighteen entries were chosen from eighty submissions."
+    ],
+    [
+     "nineteen / ninety",
+     "按录音记，不按哪个数更合理来猜。",
+     "Nineteen tickets remain from a total of ninety."
+    ]
+   ]
+  },
+  {
+   "id": "time-place",
+   "type": "table",
+   "title": "时间、日期与地点",
+   "cols": [
+    "表达",
+    "含义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "half past / quarter past",
+     "过三十分、过十五分。past 后面是当前的钟点。",
+     "Half past two is two thirty; a quarter past two is two fifteen."
+    ],
+    [
+     "quarter to / ten to",
+     "表示距下一个整点还差多久。",
+     "A quarter to four is three forty-five; ten to four is three fifty."
+    ],
+    [
+     "a.m. / p.m. / noon",
+     "分清上午、下午和正午，不只记钟点。",
+     "The desk opens at nine a.m. and closes at noon."
+    ],
+    [
+     "日期的两种顺序",
+     "月份在前或日期在前都指同一天，要听清序数词。",
+     "June the third and the third of June refer to the same date."
+    ],
+    [
+     "序数词",
+     "first、second、third 表示次序，不是总数。",
+     "The third group enters after the second group leaves."
+    ],
+    [
+     "房间号",
+     "可逐位读，也可分组读；零常读作 oh。房间号不说明楼层。",
+     "Room two oh four is Room 204."
+    ],
+    [
+     "楼层",
+     "按录音说的楼层和位置记，不自己换算各国的楼层叫法。",
+     "Use the first floor above the ground floor."
+    ]
+   ]
+  },
+  {
+   "id": "changes",
+   "type": "table",
+   "title": "变更与保留",
+   "cols": [
+    "信号",
+    "含义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "from … to …",
+     "from 引旧安排，to 引新安排。",
+     "The briefing has moved from Tuesday to Thursday."
+    ],
+    [
+     "now / instead of",
+     "now 后面是现在的安排，instead of 后面是被替换的旧安排。",
+     "It now starts at eleven instead of ten."
+    ],
+    [
+     "not … but …",
+     "not 否定旧信息，but 引出正确的安排。",
+     "Meet at the north gate, not the south gate."
+    ],
+    [
+     "仍然不变",
+     "still / remains / unchanged 后面是没有变的信息。",
+     "The room has changed, but the time remains two."
+    ],
+    [
+     "提早或推迟",
+     "earlier / later 要和原来的时间一起算，不能弄反。",
+     "The start is half an hour later, at three thirty."
+    ],
+    [
+     "同场不同动作",
+     "几个时间各对应一个动作，都有效，不是变更。",
+     "Registration opens at one; the talk begins at two."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Hello, baking club members. Saturday's bread demonstration will now start at a quarter past eleven, rather than half past ten. The kitchen is unchanged. There are fifteen workstations, but thirty people can attend because each station is shared. Please arrive ten minutes before the new starting time so everyone can put on an apron."
+    },
+    {
+     "box": "When will the demonstration start?\n1. 10:30\n2. 11:05\n3. 11:15\n4. 11:30"
+    },
+    {
+     "p": "now start at a quarter past eleven 是新的开始时间，即 11:15，第三项。rather than half past ten 是被取代的旧时间 10:30。"
+    },
+    {
+     "p": "第二项是提前十分钟到场的时间，第四项把 quarter past 当成了 half past。fifteen workstations 和 thirty people 是操作台数和人数，不是时刻。"
+    }
+   ]
+  },
+  {
+   "id": "check-number",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "number"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to an announcement on campus.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "For the campus weaving session, we've prepared fifty yarn packs for fifteen participants. Each participant will receive several colors. Please take only the packs assigned to your place; the remaining packs will be used for demonstrations."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "How many participants are expected?",
+       "options": [
+        "15 participants",
+        "50 participants",
+        "5 participants",
+        "55 participants"
+       ],
+       "answer": 0,
+       "why": "依据是 fifty yarn packs for fifteen participants。fifteen 修饰 participants，是人数，即第一项；fifty 修饰的是 yarn packs。",
+       "point": "number"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to an announcement on campus.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A note for the campus stamp club: the display opens on the twenty-first of September. The sorting session is on September twelfth, and contributions must arrive before then. The display will stay open through September thirtieth."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "When does the display open?",
+       "options": [
+        "September 12",
+        "September 30",
+        "September 21",
+        "September 20"
+       ],
+       "answer": 2,
+       "why": "依据是 the display opens on the twenty-first of September。展览 9 月 21 日开幕，即第三项；twelfth 是整理日，thirtieth 是结束日。",
+       "point": "number"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-time",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "number"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to an announcement on campus.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "For the paper-making demonstration, please arrive at a quarter to two. The demonstration begins at two, and the question session starts at half past two. We need the earlier arrival time to distribute aprons."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "When should participants arrive?",
+       "options": [
+        "2:15 p.m.",
+        "1:45 p.m.",
+        "2:00 p.m.",
+        "2:30 p.m."
+       ],
+       "answer": 1,
+       "why": "依据是 please arrive at a quarter to two。a quarter to two 是 1:45，即第二项；两点演示开始，两点半开始提问。",
+       "point": "number"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to an announcement on campus.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The map conservation briefing is in Room two oh eight. Please use the signs to find the room; the room number does not indicate the floor. Room two eighty is the storage room, and Room eight is the staff office."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which room hosts the briefing?",
+       "options": [
+        "Room 280",
+        "Room 8",
+        "Room 2080",
+        "Room 208"
+       ],
+       "answer": 3,
+       "why": "依据是 The map conservation briefing is in Room two oh eight。two oh eight 就是 208，即第四项；two eighty 是储藏室 280。",
+       "point": "number"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-change",
+   "type": "check",
+   "title": "练习三",
+   "points": [
+    "change"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to an announcement on campus.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Attention, student ushers. Tomorrow's theater tour will begin at eleven, not at the previously announced ten thirty. Meet beside the ticket office as planned. The half-hour shift gives the visiting group more time to arrive."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is the new starting time?",
+       "options": [
+        "10:30 a.m.",
+        "11:30 a.m.",
+        "11:00 a.m.",
+        "10:00 a.m."
+       ],
+       "answer": 2,
+       "why": "依据是 begin at eleven, not at the previously announced ten thirty。新时间是 11:00，即第三项；不要再把半小时加到新时间上。",
+       "point": "change"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to an announcement on campus.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The bookbinding demonstration has moved from the ground-floor gallery to the second-floor studio. The sign-in desk remains in the ground-floor lobby. After signing in, please go upstairs to the studio, where the instructor will be waiting."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Where will the demonstration take place?",
+       "options": [
+        "In the second-floor studio",
+        "In the ground-floor gallery",
+        "In the ground-floor lobby",
+        "In the second-floor lobby"
+       ],
+       "answer": 0,
+       "why": "依据是 moved from the ground-floor gallery to the second-floor studio。演示改在二楼工作室，即第一项；一楼大厅只用来签到。",
+       "point": "change"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "number",
+    "change"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to an announcement on campus.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Hello, students signed up for the candle-making demonstration. The fee is thirteen dollars, which covers all materials. We have thirty sets of materials available. The session has moved from Tuesday the fourteenth to Thursday the sixteenth because the instructor is traveling. The starting time hasn't changed. Please keep your payment receipt and bring it on the new date so we can check everyone in."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "How much does participation cost?",
+         "options": [
+          "$30 per person",
+          "$13 per person",
+          "$14 per person",
+          "$16 per person"
+         ],
+         "answer": 1,
+         "why": "依据是 The fee is thirteen dollars。费用是 13 美元，即第二项；thirty 是材料份数，fourteenth 和 sixteenth 是日期。",
+         "point": "number"
+        },
+        {
+         "stem": "When will the session now take place?",
+         "options": [
+          "Tuesday the fourteenth",
+          "Thursday the fourteenth",
+          "Tuesday the sixteenth",
+          "Thursday the sixteenth"
+         ],
+         "answer": 3,
+         "why": "依据是 moved from Tuesday the fourteenth to Thursday the sixteenth。to 后面是新日期，即第四项。",
+         "point": "change"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to an announcement on campus.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "A message for students attending the handwriting clinic at the archive. We have thirty places, and thirteen are still available. The clinic will now use Room two thirty instead of Room two thirteen. Both rooms are along the same corridor, so please check the number on the door when you arrive. The instructor will meet the group inside the new room."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "How many places are still available?",
+         "options": [
+          "13 places",
+          "30 places",
+          "213 places",
+          "230 places"
+         ],
+         "answer": 0,
+         "why": "依据是 thirteen are still available。还剩 13 个名额，即第一项；thirty 是总名额。",
+         "point": "number"
+        },
+        {
+         "stem": "Which room should participants use?",
+         "options": [
+          "Room 213",
+          "Room 13",
+          "Room 230",
+          "Room 30"
+         ],
+         "answer": 2,
+         "why": "依据是 now use Room two thirty instead of Room two thirteen。新房间是 230，即第三项；213 是被替换的旧房间。",
+         "point": "change"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to an announcement on campus.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Hello, model railway club members. Please arrive at a quarter to four for today's demonstration. The demonstration itself begins at four, and visitors will enter at a quarter past four. We've moved the demonstration from the ground-floor gallery to the second-floor loft because the display needs more space. The visitor information desk remains in the ground-floor lobby. Please go directly to the loft."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "When should club members arrive?",
+         "options": [
+          "4:15 p.m.",
+          "3:45 p.m.",
+          "4:00 p.m.",
+          "3:15 p.m."
+         ],
+         "answer": 1,
+         "why": "依据是 Please arrive at a quarter to four。a quarter to four 是 3:45，即第二项；四点演示开始，四点一刻访客入场。",
+         "point": "number"
+        },
+        {
+         "stem": "Where will the demonstration take place now?",
+         "options": [
+          "In the ground-floor gallery",
+          "In the ground-floor lobby",
+          "In the second-floor gallery",
+          "In the second-floor loft"
+         ],
+         "answer": 3,
+         "why": "依据是 We've moved the demonstration … to the second-floor loft。新地点是二楼阁楼，即第四项；一楼展厅是旧地点。",
+         "point": "change"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,612 @@
+{
+ "id": "listening-conversation-intent",
+ "title": "说话人意图题",
+ "goal": "结合前一句、语气和后续回应解释语境义，判断说话目的。",
+ "skill": "listening",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 听力",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "context",
+   "label": "结合上一句判断一句话的意思"
+  },
+  {
+   "id": "intent",
+   "label": "判断说话人这样说的目的"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、录音长度、只放一遍"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "各题型的说明、考查的能力、官方样题"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Listening Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-listening.pdf",
+   "used": "第 1 课：四类题的说明和小测答案；第 2、4 课：应答配对、重音和语调"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "意图题考一句话在交谈中起什么作用。问 What does … mean when … says 时，要说出它在语境里的意思。问 Why does … say 时，要说出目的，如拒绝、提醒或请求。"
+    },
+    {
+     "box": "What does the visitor mean by “That would be a first”?\nWhy does the assistant say “The gate closes at six”?"
+    },
+    {
+     "p": "一句话单看看不出作用时，要看它回应的上一句。Could we stay longer 之后说 The gate closes at six，是提醒时间有限。对方问的若是开放时间，同一句只是告知事实。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　找出回应对象",
+     "d": "先判断前一句是提问、建议还是请求。Shall we carry both boxes 问的是怎么搬，后一句也是在回应搬运，与箱子的价钱无关。"
+    },
+    {
+     "t": "2　用语境改写",
+     "d": "把没说出来的立场或请求补全。My hands are full 回应搬箱的建议时，意思是拿不了更多东西了。"
+    },
+    {
+     "t": "3　核对交谈作用",
+     "d": "判断说话人想让对方做什么。There’s a trolley beside the door 是在提供办法，不是拒绝搬运。"
+    },
+    {
+     "t": "4　用后续回应验证",
+     "d": "后一句的接受、改期或道歉，可以印证前一句的作用。I’ll fetch it then 说明对方接受了用推车的建议。"
+    }
+   ]
+  },
+  {
+   "id": "context",
+   "type": "table",
+   "title": "字面义与语境义",
+   "cols": [
+    "类型",
+    "依据",
+    "例句"
+   ],
+   "rows": [
+    [
+     "间接拒绝",
+     "用已有的安排说明去不了",
+     "A: Join us at noon? B: I’m covering the desk then."
+    ],
+    [
+     "间接请求",
+     "说出困难，请对方帮忙",
+     "A: Ready to start? B: I can’t reach the top shelf."
+    ],
+    [
+     "委婉反对",
+     "先认可，再指出关键的问题",
+     "It looks attractive, but it won’t hold the weight."
+    ],
+    [
+     "提醒",
+     "用事实提示行动受限",
+     "A: Let’s take a longer walk. B: The gate closes at six."
+    ],
+    [
+     "保留意见",
+     "要先查一查，还没有同意",
+     "A: Shall we order it? B: I’d like to check the price first."
+    ],
+    [
+     "确认理解",
+     "复述一遍，请对方核实",
+     "So the deposit is included, right?"
+    ]
+   ],
+   "note": "同一句话的作用随上一句变化。I’m covering the desk 回答 Where will you be 时是告知安排，回应邀请时才是拒绝。"
+  },
+  {
+   "id": "tone",
+   "type": "table",
+   "title": "语气与后续回应",
+   "cols": [
+    "类型",
+    "依据",
+    "例句"
+   ],
+   "rows": [
+    [
+     "重复疑问",
+     "可能是意外，也可能是求证，要看后一句",
+     "Tomorrow? I thought we had another week."
+    ],
+    [
+     "限制词",
+     "only 常强调数量不够",
+     "Only one chair? We’re expecting three guests."
+    ],
+    [
+     "让步转折",
+     "but 后常是实际立场",
+     "It’s well made, but it’s too heavy for this shelf."
+    ],
+    [
+     "缓和表达",
+     "I’m afraid 常引出不利消息",
+     "I’m afraid that rate doesn’t include delivery."
+    ],
+    [
+     "后续接受",
+     "对方照着做，说明前一句是建议",
+     "A: There’s a trolley outside. B: I’ll fetch it."
+    ]
+   ],
+   "note": "语气只能作辅助依据。Tomorrow? Yes, that works 和 Tomorrow? That’s too soon 都用升调，态度却相反。"
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Mira: Let's use the attic for our dance practice.\nLeon: The ceiling's rather low.\nMira: Right, the jumps would be a problem. What about the empty shop downstairs?\nLeon: That would give us enough room."
+    },
+    {
+     "box": "Why does Leon mention the ceiling?\n1. To explain why the attic is unsuitable\n2. To recommend lowering the ceiling\n3. To compare the rent of two rooms\n4. To ask Mira to practice downstairs alone"
+    },
+    {
+     "p": "Mira 提议在阁楼练舞，Leon 指出天花板低。Mira 接着说 the jumps would be a problem，证实这是反对这个场地的理由，第一项正确。"
+    },
+    {
+     "p": "第二项把指出问题说成了改造建议。第三项借用了两个场地，却加上了租金。第四项把换场地说成让 Mira 一个人练。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "错误",
+    "例"
+   ],
+   "rows": [
+    [
+     "只答字面",
+     "忽略了前一句的提议",
+     "The ceiling is low → He is describing a building feature."
+    ],
+    [
+     "目的相反",
+     "把指出困难当成支持方案",
+     "It’s too heavy → She recommends carrying it."
+    ],
+    [
+     "范围扩大",
+     "把暂缓决定说成永远拒绝",
+     "Let me check the price → He will never buy it."
+    ],
+    [
+     "对象改变",
+     "把场地的限制说成对人的评价",
+     "The jumps would be a problem → Mira cannot dance."
+    ],
+    [
+     "新增目的",
+     "对话提到了房间，没有提租金",
+     "The empty shop → They want lower rent."
+    ]
+   ]
+  },
+  {
+   "id": "check-meaning",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "context",
+    "intent"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Shall we put the banner above that doorway?"
+       },
+       {
+        "who": "B",
+        "text": "People would have to bend under it."
+       },
+       {
+        "who": "A",
+        "text": "Right, let's use the wall instead."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why does the second speaker mention people bending?",
+       "options": [
+        "To suggest hanging the banner lower instead",
+        "To support using the doorway for the banner",
+        "To explain a problem with the doorway position",
+        "To suggest making the doorway wider for people"
+       ],
+       "answer": 2,
+       "why": "依据是 People would have to bend under it。挂在门口会妨碍人通过，即第三项；对方随后改用墙面，也印证了这一点。",
+       "point": "intent"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Can we postpone feeding the fish until tomorrow?"
+       },
+       {
+        "who": "B",
+        "text": "They haven't eaten today."
+       },
+       {
+        "who": "A",
+        "text": "All right, I'll do it now."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What does the reply about the fish mean?",
+       "options": [
+        "They should be fed today.",
+        "They were fed earlier today.",
+        "Their food should be changed tomorrow.",
+        "Their feeding time has already been postponed."
+       ],
+       "answer": 0,
+       "why": "依据是 They haven't eaten today 和 I'll do it now。鱼今天还没吃，今天就得喂，即第一项。",
+       "point": "context"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "This rug is discounted. Should we buy it?"
+       },
+       {
+        "who": "B",
+        "text": "The discount doesn't make our hallway any wider."
+       },
+       {
+        "who": "A",
+        "text": "True. We'll measure the smaller one."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What does the comment about the hallway mean?",
+       "options": [
+        "The price is still too high for them.",
+        "The hallway needs to be extended first.",
+        "The discount applies only to smaller rugs.",
+        "The rug is still too large for the space."
+       ],
+       "answer": 3,
+       "why": "依据是 The discount doesn't make our hallway any wider。打折解决不了尺寸问题，地毯对走廊来说还是太大，即第四项。",
+       "point": "context"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Let's leave the tent here and walk to the waterfall."
+       },
+       {
+        "who": "B",
+        "text": "The forecast mentions strong winds."
+       },
+       {
+        "who": "A",
+        "text": "Then we'd better secure it first."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why is the forecast mentioned?",
+       "options": [
+        "To suggest canceling the walk entirely",
+        "To remind the group to fasten the tent",
+        "To explain why the waterfall is closed",
+        "To recommend moving the tent to the waterfall"
+       ],
+       "answer": 1,
+       "why": "依据是 The forecast mentions strong winds 和 Then we'd better secure it first。说起风是提醒先固定帐篷，即第二项。",
+       "point": "intent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-dialogue",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "context",
+    "intent"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Rae, could we use your van for the neighborhood cleanup?"
+       },
+       {
+        "who": "B",
+        "text": "It's having its brakes checked this morning."
+       },
+       {
+        "who": "A",
+        "text": "Oh, we need to move the bags before lunch."
+       },
+       {
+        "who": "B",
+        "text": "There's a handcart in the shed. The collection point is only around the corner."
+       },
+       {
+        "who": "A",
+        "text": "That should work. Let's get the cart."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What does Rae mean by mentioning the brake check?",
+       "options": [
+        "The bags cannot be moved today.",
+        "The van cannot be used that morning.",
+        "The van should take the bags to a repair shop.",
+        "The cleanup should begin after lunch."
+       ],
+       "answer": 1,
+       "why": "依据是 It's having its brakes checked this morning。这句回应借车的请求，意思是上午车用不了，即第二项。",
+       "point": "context"
+      },
+      {
+       "stem": "Why does Rae mention the short distance?",
+       "options": [
+        "To suggest waiting until the van is ready",
+        "To explain why the cleanup was delayed",
+        "To make using the handcart seem practical",
+        "To change the location of the collection point"
+       ],
+       "answer": 2,
+       "why": "依据是 There's a handcart in the shed. The collection point is only around the corner。距离近，用手推车就可行，即第三项。",
+       "point": "intent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "context",
+    "intent"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Nora, shall we send every volunteer a printed map for the river cleanup?"
+         },
+         {
+          "who": "B",
+          "text": "That would use our whole printing budget."
+         },
+         {
+          "who": "A",
+          "text": "We could send an online map instead."
+         },
+         {
+          "who": "B",
+          "text": "Some volunteers won't have phones with them. What about one printed map per team?"
+         },
+         {
+          "who": "A",
+          "text": "That leaves money for the safety notices, too."
+         },
+         {
+          "who": "B",
+          "text": "Exactly. I'll print a map for each team and email a copy to everyone."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What does Nora mean by mentioning the printing budget?",
+         "options": [
+          "Printing a map for everyone would use up the budget.",
+          "The volunteers have already spent the entire budget.",
+          "Online maps would be more expensive than printed ones.",
+          "The cleanup has received enough money for extra maps."
+         ],
+         "answer": 0,
+         "why": "依据是 That would use our whole printing budget。给每人印地图会用光预算，即第一项；预算现在并没有花掉。",
+         "point": "context"
+        },
+        {
+         "stem": "Why does Nora mention volunteers without phones?",
+         "options": [
+          "To ask every volunteer to bring a phone along",
+          "To explain why notices should be emailed",
+          "To recommend dropping the online map altogether",
+          "To show a problem with sending only online maps"
+         ],
+         "answer": 3,
+         "why": "依据是 Some volunteers won't have phones with them。只发电子地图不够用，即第四项；所以每组留一份纸质地图。",
+         "point": "intent"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Eli, could we host the supper on your balcony?"
+         },
+         {
+          "who": "B",
+          "text": "It seats four, and we've invited eight."
+         },
+         {
+          "who": "A",
+          "text": "We could split into two groups."
+         },
+         {
+          "who": "B",
+          "text": "I'd rather we all sat together. My kitchen table extends."
+         },
+         {
+          "who": "A",
+          "text": "Would it be a squeeze in the kitchen?"
+         },
+         {
+          "who": "B",
+          "text": "Once I move the small cabinet, there'll be room. Let's use the kitchen."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What does Eli mean by comparing the two numbers?",
+         "options": [
+          "Some invited guests have already canceled.",
+          "The balcony is too small for everyone at once.",
+          "The supper should be held twice on the balcony.",
+          "Four more people should be invited."
+         ],
+         "answer": 1,
+         "why": "依据是 It seats four, and we've invited eight。阳台坐不下所有客人，即第二项。",
+         "point": "context"
+        },
+        {
+         "stem": "Why does Eli mention moving the cabinet?",
+         "options": [
+          "To ask the guests to bring more furniture",
+          "To explain why the balcony needs clearing",
+          "To answer the concern about kitchen space",
+          "To suggest eating before the table is extended"
+         ],
+         "answer": 2,
+         "why": "依据是 Would it be a squeeze in the kitchen? 和 Once I move the small cabinet, there'll be room。Eli 在回应厨房是否太挤的顾虑，即第三项。",
+         "point": "intent"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Jo, can we put both sculptures on the display stand?"
+         },
+         {
+          "who": "B",
+          "text": "I wouldn't test its limits with those. They're heavier than they look."
+         },
+         {
+          "who": "A",
+          "text": "Then we need another stand. I can order one for next week."
+         },
+         {
+          "who": "B",
+          "text": "The exhibition opens tomorrow."
+         },
+         {
+          "who": "A",
+          "text": "Right. Could we borrow a sturdy table for now?"
+         },
+         {
+          "who": "B",
+          "text": "That's a better idea. I'll ask the caretaker."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What does Jo mean by “I wouldn’t test its limits”?",
+         "options": [
+          "The stand may not safely support both sculptures.",
+          "Both sculptures should be tested for damage.",
+          "The display should show the stand’s strength.",
+          "The sculptures should be placed closer together."
+         ],
+         "answer": 0,
+         "why": "依据是 They're heavier than they look。Jo 担心支架撑不住两座雕塑，即第一项。",
+         "point": "context"
+        },
+        {
+         "stem": "Why does Jo mention the exhibition’s opening?",
+         "options": [
+          "To explain why the sculptures were made",
+          "To ask for the exhibition to be postponed",
+          "To recommend ordering a stand after the exhibition",
+          "To point out that next week would be too late"
+         ],
+         "answer": 3,
+         "why": "依据是 I can order one for next week 之后的 The exhibition opens tomorrow。新支架下周才到，来不及用，即第四项。",
+         "point": "intent"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

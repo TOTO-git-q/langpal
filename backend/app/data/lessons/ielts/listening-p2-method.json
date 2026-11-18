@@ -1,0 +1,479 @@
+{
+ "id": "listening-p2-method",
+ "title": "日常独白的信息顺序",
+ "goal": "跟随独白的主题切换；将细节归入正确的介绍对象。",
+ "skill": "听力",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "track",
+   "label": "跟随独白的主题切换"
+  },
+  {
+   "id": "scope",
+   "label": "将细节归入正确的介绍对象"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "雅思 IELTS Academic：课表",
+   "url": "docs/syllabi/ielts.md",
+   "used": "听力：日常独白 Part 2；本课内容、知识点及教学尺寸"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "日常独白按介绍对象逐个往下讲。设施名称说明当前讲的是哪个对象，活动说明用途，规则补充使用条件。一段话里有几个地点时，每个条件只属于它所说的那个地点。"
+    },
+    {
+     "box": "The rehearsal room is open daily. Turning to the costume store, access is by appointment."
+    },
+    {
+     "p": "Turning to 表示换了对象。daily 属于 rehearsal room，by appointment 属于 costume store。两者都讲开放，但对象不同。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定题目对象",
+     "d": "把题干里的对象和所问的内容分开。What can visitors do in the studio? 一句中，studio 是对象，问的是在那里能做的事。"
+    },
+    {
+     "t": "2　跟随主题切换",
+     "d": "听到新的名词或切换表达，就换到新的主题。Now for the workshops 表示开始介绍活动，前面的设施说明到此结束。"
+    },
+    {
+     "t": "3　保留补充限制",
+     "d": "but、only、provided that 后面的条件属于当前的对象。The studio is free, but materials cost extra 一句中，免费的只是场地。"
+    },
+    {
+     "t": "4　核对细节归属",
+     "d": "用对象、动作、条件三样核对整条信息。The gallery opens daily; the archive opens on request 一句中，每天开放的只有 gallery。"
+    }
+   ]
+  },
+  {
+   "id": "topics",
+   "type": "table",
+   "title": "主题切换",
+   "cols": [
+    "表达",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "As for …",
+     "换到新的对象，后面的话说的是这个对象。",
+     "As for the roof terrace, it closes at dusk."
+    ],
+    [
+     "Now for …",
+     "从设施转到活动，后面紧跟活动的名称。",
+     "Now for the weekend demonstrations: they take place in the yard."
+    ],
+    [
+     "Turning to …",
+     "开始另一个主题，不是更正前面的话。",
+     "Turning to access, the side door is for staff."
+    ],
+    [
+     "Before leaving …",
+     "结束一个对象之前，再补充它的一条信息。",
+     "Before leaving the topic of the hall, food is not permitted there."
+    ],
+    [
+     "One further point about …",
+     "补充所说的那个对象，不适用于其他设施。",
+     "One further point about the balcony: bags must stay downstairs."
+    ]
+   ]
+  },
+  {
+   "id": "scope",
+   "type": "table",
+   "title": "对象与限制",
+   "cols": [
+    "情况",
+    "规则",
+    "例句"
+   ],
+   "rows": [
+    [
+     "相邻设施",
+     "相邻的设施各有用途，分开记录。",
+     "The cabin stores tools; the shelter is for lunch."
+    ],
+    [
+     "相同活动",
+     "同一种活动，不同场次可以面向不同的人。",
+     "Morning tours welcome families; evening tours are for adults."
+    ],
+    [
+     "补充费用",
+     "免费项目与另付项目分别记录。",
+     "Entry is free, but printing carries a charge."
+    ],
+    [
+     "代词回指",
+     "it 指一个对象；these sessions 指前面说的那些活动。",
+     "The room holds talks. These sessions require booking."
+    ],
+    [
+     "局部例外",
+     "unless 只给这一项安排加上例外。",
+     "The courtyard stays open unless an event is being set up."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The observatory's display room contains models that visitors can examine without booking. Moving on to the telescope sessions, these are led by a guide and must be reserved. Finally, a rule for the display room: models must remain on their stands."
+    },
+    {
+     "box": "Which activity requires a reservation?\n1. Examining the display models\n2. Joining a guided telescope session\n3. Keeping models on their stands\n4. Entering the display room"
+    },
+    {
+     "p": "第二项对应 telescope sessions 和 must be reserved。Moving on to 引出活动。Finally 之后回到 display room，说的是一条规则，不是要预约的活动。"
+    },
+    {
+     "p": "第一项和第四项说的是展示室，展示室不用预约。第三项是一条规则，不是活动。without booking 和 must be reserved 说的是两个对象。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "原文",
+    "排除依据"
+   ],
+   "rows": [
+    [
+     "设施移用",
+     "The lounge has seats; the office has lockers.",
+     "选项把 lockers 归给 lounge；lockers 在 office。"
+    ],
+    [
+     "活动移用",
+     "The tour is free; the workshop has a fee.",
+     "选项说 workshop 免费；免费的是 tour。"
+    ],
+    [
+     "范围扩大",
+     "Only the upper deck closes early.",
+     "选项说全馆提前关闭；only 只限 upper deck。"
+    ],
+    [
+     "忽略回指",
+     "Returning to the workshop, aprons are required.",
+     "选项把 aprons 归给前一个主题；Returning to 指回 workshop。"
+    ]
+   ]
+  },
+  {
+   "id": "check-short",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "track",
+    "scope"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The weaving room has looms for demonstrations. Now for the dyeing sessions: these use the outdoor benches, and places must be reserved."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What does the speaker introduce after describing the looms?",
+       "options": [
+        "The location of weaving demonstrations",
+        "The booking of loom demonstrations",
+        "The arrangements for dyeing activities",
+        "The storage of outdoor benches"
+       ],
+       "answer": 2,
+       "why": "依据是 Now for the dyeing sessions。后面讲的是染色活动的安排，即第三项。",
+       "point": "track"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The riverside shelter is available for picnics. The neighbouring boathouse stores equipment and is locked when staff are absent."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which statement applies to the shelter?",
+       "options": [
+        "It provides a place for outdoor meals.",
+        "It holds equipment when staff leave.",
+        "It closes whenever staff are absent.",
+        "It is the neighbouring storage building."
+       ],
+       "answer": 0,
+       "why": "依据是 The riverside shelter is available for picnics，即第一项。存放设备和上锁说的都是 boathouse。",
+       "point": "scope"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The puppet display opens at ten. Turning to today's performances, the first begins at eleven. Each performance lasts half an hour."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which topic follows the opening time of the display?",
+       "options": [
+        "The display's closing arrangements",
+        "The length of display visits",
+        "The first performance, held at ten o'clock",
+        "The schedule of puppet performances"
+       ],
+       "answer": 3,
+       "why": "依据是 Turning to today's performances, the first begins at eleven。后面讲的是演出安排，即第四项。ten 是展览开放的时间。",
+       "point": "track"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The bicycle inspection is free. Replacement parts have to be paid for, but use of the cleaning stand is included."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What must visitors pay for?",
+       "options": [
+        "Use of the cleaning stand",
+        "Parts fitted as replacements",
+        "The bicycle inspection itself",
+        "Inspection with stand access"
+       ],
+       "answer": 1,
+       "why": "依据是 Replacement parts have to be paid for，即第二项。检查和清洁架都不收费。",
+       "point": "scope"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-talk",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "track",
+    "scope"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Welcome to the print studio. I'll begin with the facilities. The press room contains the printing equipment, while the drying room holds finished sheets. Visitors may watch in both rooms, but only staff operate the presses. Moving on to activities, the Saturday design session takes place at the long table in reception. No previous drawing experience is needed. It costs five pounds, which includes paper. Finally, the house rules: drinks are allowed in reception, but they must not be carried into either working room. A final point about the design session: places must be booked, even when only one person is attending."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is introduced immediately after the facilities?",
+       "options": [
+        "Rules about drinks in working rooms",
+        "Storage arrangements for finished sheets",
+        "The activity held on Saturdays",
+        "Staff access to the printing equipment"
+       ],
+       "answer": 2,
+       "why": "依据是 Moving on to activities, the Saturday design session。设施之后讲的是周六的活动，即第三项。",
+       "point": "track"
+      },
+      {
+       "stem": "Where may visitors have a drink?",
+       "options": [
+        "In the reception area",
+        "In either working room",
+        "Beside the printing presses",
+        "Among the drying sheets"
+       ],
+       "answer": 0,
+       "why": "依据是 drinks are allowed in reception，即第一项。两个工作间都不能带饮料。",
+       "point": "scope"
+      },
+      {
+       "stem": "What does the final booking requirement concern?",
+       "options": [
+        "Visits to the drying room",
+        "Watching the printing presses",
+        "Access to the reception area",
+        "Attendance at the design session"
+       ],
+       "answer": 3,
+       "why": "依据是 A final point about the design session: places must be booked。要预约的是设计活动，即第四项。",
+       "point": "scope"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "track",
+    "scope"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the introduction.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Welcome to the Harbour Sound Centre. I'm going to explain the rooms, the activities and the rules for using them. First, the listening lounge contains recordings of local boats and workshops. Visitors can use the headphones there without making a booking. The recording booth beside it is different: it is available only when a technician is present, and a time must be reserved at reception. That restriction doesn't apply to the lounge. Turning to activities, our sound walk begins in the courtyard each Saturday morning. A volunteer leads the group along the harbour, stopping to compare sounds from different working areas. Participation costs nothing, although anyone borrowing a recorder pays a small hire charge. Those bringing their own equipment don't pay that charge. Now for the rules inside the building. Bags must be left in the lockers before entering the recording booth, because floor space is limited. Bags may remain with visitors in the lounge. Finally, one more point about the sound walk: the meeting place is still the courtyard if it rains. The guide decides there whether the walk can continue, so participants shouldn't wait in the lounge instead."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which topic follows the explanation of the recording booth?",
+         "options": [
+          "How the Saturday sound walk is organised",
+          "Where the indoor lockers are positioned",
+          "When the listening lounge may be used",
+          "Why bags cannot enter the recording booth"
+         ],
+         "answer": 0,
+         "why": "依据是 Turning to activities, our sound walk begins in the courtyard。录音间之后讲的是周六的声音漫步，即第一项。",
+         "point": "track"
+        },
+        {
+         "stem": "Which visitor needs to reserve a time?",
+         "options": [
+          "Someone using headphones in the lounge",
+          "Someone joining the free harbour walk",
+          "Someone listening with their own recorder",
+          "Someone using the booth with a technician"
+         ],
+         "answer": 3,
+         "why": "依据是 it is available only when a technician is present, and a time must be reserved。这句说的是 recording booth，即第四项。",
+         "point": "scope"
+        },
+        {
+         "stem": "What is the subject of the speaker's final additional point?",
+         "options": [
+          "Locker use inside the recording booth",
+          "The sound walk's meeting arrangements",
+          "Headphone access in the listening lounge",
+          "Recorder charges for walk participants"
+         ],
+         "answer": 1,
+         "why": "依据是 Finally, one more point about the sound walk: the meeting place is still the courtyard。最后一点讲的是集合安排，即第二项。",
+         "point": "track"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the introduction.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Good morning. Here's an introduction to the neighbourhood repair afternoon at Alder Hall. I'll start with the facilities. The main hall contains work tables for inspecting household objects. Next door, the quiet room is for visitors who want to wait while a repair is being assessed. It has chairs and magazines, but no work takes place there. Now to the activities. At the textile table, volunteers demonstrate simple stitching on sample cloth. Visitors may watch without booking. The electrical table works differently. Every appliance must be registered in advance so the team can check whether suitable expertise will be available. Registration doesn't guarantee that a repair is possible. Moving on to the rules, each visitor may bring one object for assessment. Loose batteries must be removed before an appliance reaches the electrical table. That requirement concerns appliances, not the cloth used for stitching demonstrations. Before I finish, a further detail about the quiet room: refreshments are available there, and cups must stay in that room. Drinking at the work tables isn't allowed. The textile volunteers will return to their demonstrations after the lunch break, while the electrical team will continue with its booked appointments throughout the afternoon."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What follows the description of the waiting space?",
+         "options": [
+          "A restriction on cups near work tables",
+          "A rule about the number of objects",
+          "An explanation of the repair activities",
+          "An account of booked afternoon appointments"
+         ],
+         "answer": 2,
+         "why": "依据是 Now to the activities。等候室之后讲的是两张工作台的活动，即第三项。",
+         "point": "track"
+        },
+        {
+         "stem": "Which condition applies to the electrical table?",
+         "options": [
+          "Advance registration is required for each appliance.",
+          "Every registered appliance will be repaired.",
+          "Visitors may bring several objects for assessment.",
+          "Loose batteries should remain in each appliance."
+         ],
+         "answer": 0,
+         "why": "依据是 Every appliance must be registered in advance，即第一项。Registration doesn't guarantee that a repair is possible，所以第二项不对。",
+         "point": "scope"
+        },
+        {
+         "stem": "Where are refreshments available?",
+         "options": [
+          "At the textile demonstration table",
+          "In the room used by waiting visitors",
+          "At the booked electrical appointments",
+          "Throughout the main assessment hall"
+         ],
+         "answer": 1,
+         "why": "依据是 a further detail about the quiet room: refreshments are available there。quiet room 是等候的人用的房间，即第二项。",
+         "point": "scope"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

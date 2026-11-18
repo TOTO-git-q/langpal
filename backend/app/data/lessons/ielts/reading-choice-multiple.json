@@ -1,0 +1,68 @@
+{
+ "id": "reading-choice-multiple",
+ "title": "阅读多项信息筛选",
+ "goal": "逐项寻找依据并核对双项组合。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "support", "label": "为每个入选陈述定位独立依据"},
+  {"id": "verify", "label": "核对组合中的全部陈述"}
+ ],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "阅读多项信息筛选的教学内容"}],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "双项信息筛选要求选出两项有原文依据的陈述。本课把选择写成四个双项组合，从中选一组。"},
+   {"p": "每项陈述都要在原文中找到自己的依据。同组另一项正确，或按常识说得通，都不能代替这项依据。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定范围", "d": "标出题干所问的对象，以及要找的是特征还是原因。Compare the two methods 把比较对象限定为两种方法。"},
+   {"t": "2　逐项定位", "d": "为每项寻找对应句。The bag was sealed 支持 sealed，但不支持 open。"},
+   {"t": "3　判断证据", "d": "分别标记支持、相反或缺乏依据。原文未提 bag 的颜色时，颜色陈述缺少依据。"},
+   {"t": "4　核对组合", "d": "组合内的两项都要有各自的依据。一项正确、一项缺乏依据的组合不能选。"}
+  ]},
+  {"id": "evidence", "type": "table", "title": "陈述的证据", "cols": ["原文", "陈述", "判断"], "rows": [
+   ["The bag was sealed.", "It was closed.", "支持"],
+   ["The bag was sealed.", "It was open.", "相反"],
+   ["The bag was sealed.", "It was blue.", "缺乏依据"],
+   ["The bag was sealed and labelled.", "It was closed and marked.", "两项均有依据"]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [
+   {"box": "The boat carried tools and rope. Its sail remained in storage; no food was on board.\nWhich TWO items were carried?\n1. tools　2. rope　3. sail　4. food　5. fuel\n1. 1 and 2\n2. 1 and 4\n3. 2 and 5\n4. 3 and 4"},
+   {"p": "carried tools and rope 分别支持 tools 和 rope，即第一项。sail 留在仓库里；food 原文明确说没有带。"}
+  ]},
+  {"id": "distractors", "type": "table", "title": "干扰项", "cols": ["情况", "例", "核对"], "rows": [
+   ["一对一错", "tools and food", "分别核对两项"],
+   ["缺乏依据", "fuel", "原文未说明携带燃料"],
+   ["相反关系", "food carried", "no food was on board"],
+   ["只被提及", "sail in storage", "仓库中的帆不在船上"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["support", "verify"], "groups": [
+   {"text": "The box contained maps and letters. The photographs remained on a shelf.", "items": [{"stem": "Which TWO were in the box? 1 maps; 2 letters; 3 photographs; 4 shelves; 5 labels.", "options": ["1 and 2", "1 and 3", "2 and 4", "3 and 5"], "answer": 0, "why": "contained maps and letters 分别支持 1 和 2。", "point": "support"}]},
+   {"text": "The roof was repaired because tiles were loose and rain had entered. The walls were inspected but not repaired.", "items": [{"stem": "Which TWO reasons were given for repair? 1 loose tiles; 2 new walls; 3 rain entering; 4 a wall inspection; 5 new tiles.", "options": ["1 and 2", "1 and 3", "2 and 4", "3 and 5"], "answer": 1, "why": "依据是 because tiles were loose and rain had entered，两项原因即 1 和 3。", "point": "support"}]},
+   {"text": "The gardener sowed beans and peas in the bed. Lettuce was grown in pots.", "items": [{"stem": "Which TWO crops were sown in the bed? 1 lettuce; 2 beans; 3 herbs; 4 peas; 5 flowers.", "options": ["1 and 2", "1 and 4", "2 and 4", "3 and 5"], "answer": 2, "why": "sowed beans and peas in the bed 支持 2 和 4。", "point": "verify"}]},
+   {"text": "The team measured width and height. It noted colour but did not measure weight.", "items": [{"stem": "Which TWO properties were measured? 1 colour; 2 weight; 3 width; 4 height; 5 age.", "options": ["1 and 3", "1 and 4", "2 and 5", "3 and 4"], "answer": 3, "why": "依据是 measured width and height，即 3 和 4。colour 只被记下，没有测量。", "point": "verify"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["support", "verify"], "groups": [{
+   "text": "A theatre replaced a damaged curtain and repaired a loose hinge. Staff cleaned the seats but did not replace them. A new lamp was discussed, but no decision was recorded. The work took place before the next performance.",
+   "items": [
+    {"stem": "Which TWO changes were made? 1 curtain replacement; 2 seat replacement; 3 hinge repair; 4 lamp installation; 5 new seats.", "options": ["1 and 2", "1 and 3", "2 and 4", "3 and 5"], "answer": 1, "why": "replaced a damaged curtain 和 repaired a loose hinge 分别支持 1 和 3。", "point": "support"},
+    {"stem": "Which TWO statements about the work are supported? 1 seats were cleaned; 2 seats were replaced; 3 a lamp was installed; 4 work preceded a performance; 5 the curtain was retained.", "options": ["1 and 2", "2 and 3", "1 and 4", "4 and 5"], "answer": 2, "why": "cleaned the seats 和 work took place before the next performance 分别支持 1 和 4。", "point": "verify"}
+   ]
+  }]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["support", "verify"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A community workshop documented a trial of two ways to repair wooden chairs. The first method used a clamp to hold a loose joint while glue dried. The second replaced a damaged joint with a new wooden piece. Staff selected chairs after checking whether their seats and frames were stable enough to handle. The trial was intended to describe the work involved, not to establish which repair would last longest.\n\nFor the first method, the worker removed old glue before applying a fresh layer. A clamp then held the joint in position. The chair remained unused until the glue had dried. For the second method, the worker cut a replacement piece to match the damaged part and fixed it to the frame. The original seat was retained. Staff recorded how long each repair took and which tools were used. They did not calculate the cost of the materials or ask visitors to judge the chairs.\n\nAfter the repairs, staff checked whether each chair stood level on the floor. They also photographed the repaired joints for the workshop's records. A photograph showed the outside of a joint, but it did not establish how strongly the joint would hold over time. The chairs were returned to use only after the level check. The workshop planned a later inspection, although the trial report did not specify a date. Keeping a written record allowed future workers to identify the method used on each chair and compare its later condition with the initial description. The records also kept preparation, repair and checking as separate stages.",
+    "items": [
+     {"stem": "Which TWO actions belonged to the first method? 1 removing old glue; 2 replacing the seat; 3 applying fresh glue; 4 cutting a new joint; 5 photographing visitors.", "options": ["1 and 3", "1 and 4", "2 and 3", "2 and 4"], "answer": 0, "why": "removed old glue 和 applying a fresh layer 分别支持 1 和 3。", "point": "support"},
+     {"stem": "Which TWO details did staff record during repair? 1 repair time; 2 material cost; 3 visitor opinions; 4 tools used; 5 future inspection date.", "options": ["1 and 2", "1 and 4", "2 and 3", "3 and 5"], "answer": 1, "why": "recorded how long each repair took and which tools were used 支持 1 和 4。", "point": "verify"},
+     {"stem": "Which TWO actions followed the repairs? 1 removing old glue; 2 cutting replacement wood; 3 checking whether chairs stood level; 4 photographing joints; 5 calculating material costs.", "options": ["1 and 3", "2 and 4", "3 and 4", "4 and 5"], "answer": 2, "why": "依据是第三段 After the repairs 后面的 checked whether each chair stood level 和 photographed the repaired joints，即 3 和 4。", "point": "support"}
+    ]},
+   {"look": "passage", "text": "A research group compared two ways of recording the movement of sand across a beach. One used marked poles placed in the sand, while the other used photographs taken from a fixed position. The researchers selected a short stretch of beach for the comparison. Their aim was to understand what each record could show, rather than to calculate movement along the entire coast.\n\nAt the pole site, staff measured the height of exposed pole above the sand. A change in that height could indicate a change in the sand surface at the pole. The measurement described a particular point and did not directly describe every place between poles. The photographic method covered a wider area. Researchers took images from the same position so that visible features could be compared. They included fixed markers in the view, but did not use the images to measure the depth of sand below the surface.\n\nWeather conditions were recorded for both methods. Strong wind sometimes made it difficult to place equipment safely, so work was postponed on those days. After each visit, the group entered the pole measurements in a table and stored the photographs with the date of the visit. The team checked the records for missing dates before comparing them. It did not claim that a photograph alone could explain what caused a change. The two methods offered different kinds of evidence, and the weather notes provided context for interpreting that evidence. The report recommended retaining the original records alongside any later summary so that calculations and observations could be checked.",
+    "items": [
+     {"stem": "Which TWO features belonged to the photographic method? 1 measuring sand depth; 2 taking images from one position; 3 including fixed markers; 4 measuring exposed pole height; 5 covering the entire coast.", "options": ["1 and 2", "1 and 4", "3 and 5", "2 and 3"], "answer": 3, "why": "images from the same position 和 included fixed markers 分别支持 2 和 3。", "point": "support"},
+     {"stem": "Which TWO records did the team retain? 1 pole measurements; 2 visitor opinions; 3 dated photographs; 4 underground depth images; 5 complete coastal measurements.", "options": ["1 and 3", "1 and 4", "3 and 5", "4 and 5"], "answer": 0, "why": "依据是 entered the pole measurements in a table and stored the photographs with the date of the visit，支持 1 和 3。", "point": "verify"},
+     {"stem": "Which TWO statements are supported? 1 strong wind sometimes delayed work; 2 photographs alone established causes; 3 missing dates were checked; 4 poles measured the whole coast; 5 depth was measured from images.", "options": ["1 and 2", "1 and 3", "2 and 5", "3 and 4"], "answer": 1, "why": "依据是 work was postponed on those days 和 checked the records for missing dates，支持 1 和 3。", "point": "verify"}
+    ]}
+  ]}]}
+ ]
+}

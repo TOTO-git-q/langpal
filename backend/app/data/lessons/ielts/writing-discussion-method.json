@@ -1,0 +1,66 @@
+{
+ "id": "writing-discussion-method",
+ "title": "双方观点的讨论",
+ "goal": "能解释双方观点并区分个人判断。",
+ "skill": "写作",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "balance", "label": "为双方观点选择相关解释"},
+  {"id": "opinion", "label": "将个人判断与双方讨论区分"}
+ ],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "双方讨论题的内容与教学规格"}],
+ "cards": [
+  {"id": "type", "type": "text", "title": "题型", "body": [
+   {"p": "双方讨论题要求讨论两种观点，并给出个人意见。每种观点都要写出理由和适用的情况。个人判断要用明确的措辞写成作者自己的观点。"},
+   {"box": "Some people favour keeping public swimming pools open throughout the year, while others prefer seasonal opening. Discuss both views and give your own opinion."},
+   {"p": "全年开放可满足冬季的使用需求。季节性开放可减少淡季支出。讨论两方之后，作者说明哪种安排更适合当地。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　划分要求", "d": "在题目中分别标出两种观点和个人意见。讨论双方和给出判断是两项任务。"},
+   {"t": "2　选择理由", "d": "为每方选择相关理由。例如冬季游泳需求支持全年开放。"},
+   {"t": "3　解释情境", "d": "说明理由适用的情况。例如淡季使用人数少时，季节性开放可节省开支。"},
+   {"t": "4　核对立场", "d": "用 In my view 这类明确的措辞写出作者的选择。结论与引言的判断保持一致。"}
+  ]},
+  {"id": "reasons", "type": "table", "title": "观点与理由", "cols": ["观点", "理由", "适用情境"], "rows": [
+   ["Year-round pools", "冬季仍可使用", "冬季需求持续"],
+   ["Seasonal pools", "减少淡季开支", "淡季使用人数少"],
+   ["Printed timetables", "无需设备即可查看", "乘客无法上网"],
+   ["Digital timetables", "更改后易于更新", "服务时间经常变化"]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [
+   {"box": "Some residents believe that a town should provide printed bus timetables at every stop. Others prefer digital timetables that can be updated whenever services change. Both groups want passengers to find accurate information. Discuss both views and give your own opinion.\n\nOutline: Printed timetables serve passengers without internet access. Digital versions can reflect service changes promptly. Both forms should be retained because access and accuracy matter."},
+   {"p": "提纲分别解释纸质和数字时刻表的用途。Both forms should be retained 是作者的判断，同时考虑了能否上网和信息是否及时。"}
+  ]},
+  {"id": "errors", "type": "table", "title": "干扰项", "cols": ["提纲", "问题", "修改方向"], "rows": [
+   ["Discuss only printed timetables.", "缺少数字方案", "解释数字信息的更新作用"],
+   ["Some residents prefer print; therefore I prefer print.", "把他人观点当作作者理由", "另写作者判断和依据"],
+   ["Introduction: retain both. Conclusion: use digital only.", "首尾立场改变", "结论保持两种形式并存"],
+   ["Describe bus stops without discussing information.", "未解释两种方案", "分别说明两种时刻表的用途"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["balance", "opinion"], "groups": [{"items": [
+   {"stem": "Some residents favour printed bus timetables. Which reason explains their value when internet access is unavailable?", "options": ["Passengers can consult them without a connection.", "Operators can update them instantly from a distance.", "Passengers can receive live alerts on a phone.", "Passengers can check them for the latest service changes."], "answer": 0, "why": "纸质时刻表不需要网络，适合无法上网的乘客，即第一项。", "point": "balance"},
+   {"stem": "Some residents prefer digital timetables because services change. Which sentence gives the writer's own judgement?", "options": ["Some residents favour timetables printed at stops.", "In my view, both formats should remain available.", "Others favour digital information after service changes.", "Residents disagree about the format of information."], "answer": 1, "why": "In my view 明确标出作者判断，其他句子转述背景或他人观点。", "point": "opinion"},
+   {"stem": "A town has few pool users in winter. Which reason supports seasonal opening?", "options": ["It provides winter access to frequent users.", "It keeps the pool open for the few winter users.", "It reduces the cost of opening in a quiet season.", "It increases winter demand for swimming lessons."], "answer": 2, "why": "冬季使用人数少时，季节性开放可减少淡季开支。", "point": "balance"},
+   {"stem": "An introduction supports both printed and digital timetables. Which conclusion preserves that position?", "options": ["Only printed timetables should be supplied.", "Digital information should replace all print.", "Printed information should remain only at the busiest stops.", "Both printed and digital information should remain."], "answer": 3, "why": "第四项保留两种形式，与引言立场一致。", "point": "opinion"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["balance", "opinion"], "groups": [{"text": "Some people believe that public swimming pools should remain open all year because residents need a place to exercise in winter. Others argue for seasonal opening, especially where few people swim in the colder months and heating costs are high. Discuss both views and give your own opinion.", "items": [
+   {"stem": "Which pair explains both positions?", "options": ["Winter access helps residents; seasonal closure reduces heating costs.", "Winter closure helps residents; seasonal opening raises heating costs.", "Year-round opening reduces heating costs; closure provides winter access.", "Both positions require winter opening regardless of demand."], "answer": 0, "why": "题面给出两方的理由：冬季需要锻炼场所；冷季游泳的人少，取暖费用高。第一项分别对应这两点。", "point": "balance"},
+   {"stem": "Which sentence identifies a personal judgement rather than reporting a group's view?", "options": ["Some people want pools open throughout the year.", "Others favour seasonal opening in colder months.", "I favour seasonal opening where winter demand is low.", "Residents disagree about when pools should open."], "answer": 2, "why": "I favour 表明这是作者的判断，where winter demand is low 是判断的条件，即第三项。", "point": "opinion"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["balance", "opinion"], "sets": [{"id": "set-a", "groups": [
+   {"text": "Some people think a town should keep a staffed ticket office at its railway station, since passengers may need help with complicated journeys. Others prefer ticket machines, which can operate outside office hours. Discuss both views and give your own opinion, with reasons for the position taken.", "items": [
+    {"stem": "Which explanation supports the staffed office?", "options": ["Staff can assist with complicated journeys.", "Machines can operate outside office hours.", "Machines can explain every complicated route.", "Staff can sell tickets outside office hours."], "answer": 0, "why": "passengers may need help with complicated journeys 支持有工作人员的售票处。", "point": "balance"},
+    {"stem": "Which sentence clearly states a personal judgement?", "options": ["Some passengers value advice from ticket staff.", "I favour retaining staff alongside ticket machines.", "Other passengers prefer machines for late purchases.", "Both views concern railway ticket purchases."], "answer": 1, "why": "I favour 明确表示这是作者的主张：保留工作人员，同时保留售票机。", "point": "opinion"},
+    {"stem": "Complete the explanation of the machine option.", "lead": "Ticket machines", "chunks": ["can sell", "tickets", "outside", "office hours"], "tail": ".", "extra": ["selling"], "why": "机器在办公时间以外售票，解释了支持机器的理由。", "point": "balance"},
+    {"stem": "The introduction supports both staff and machines. Complete a consistent conclusion.", "lead": "The station", "chunks": ["should retain", "staff", "alongside", "ticket machines"], "tail": ".", "extra": ["retaining"], "why": "保留工作人员和机器与引言判断一致。", "point": "opinion"}
+   ]},
+   {"text": "Some people argue that a community hall should offer a fixed programme of weekly activities. Others believe that local groups should be able to book the hall for different events as needs arise. A fixed programme offers regularity, whereas flexible booking allows varied uses. Discuss both views and give your own opinion.", "items": [
+    {"stem": "Which reason supports flexible booking?", "options": ["A fixed timetable guarantees the same weekly activity.", "Regular activities make a fixed programme predictable.", "Groups can arrange varied events when needs arise.", "Groups must follow the same programme every week."], "answer": 2, "why": "题面说明 flexible booking allows varied uses，支持按需安排活动。", "point": "balance"},
+    {"stem": "Which conclusion matches an introduction favouring a fixed programme?", "options": ["Flexible booking should become the main arrangement.", "Only flexible bookings should determine the hall's timetable.", "Fixed and flexible use deserve exactly equal weight.", "A regular programme should remain the main arrangement."], "answer": 3, "why": "引言支持固定安排，第四项的结论仍以固定安排为主，前后一致。", "point": "opinion"},
+    {"stem": "Complete a reason for a fixed programme.", "lead": "A fixed programme", "chunks": ["gives residents", "a regular", "schedule", "of activities"], "tail": ".", "extra": ["giving"], "why": "固定节目提供规律的活动安排，与题面中的 regularity 对应。", "point": "balance"},
+    {"stem": "Complete the writer's explicit judgement in favour of flexibility.", "lead": "I believe", "chunks": ["flexible booking", "should remain", "available", "to local groups"], "tail": ".", "extra": ["remaining"], "why": "I believe 标出作者判断，后面的主句表达支持灵活预约。", "point": "opinion"}
+   ]}
+  ]}]} 
+ ]
+}

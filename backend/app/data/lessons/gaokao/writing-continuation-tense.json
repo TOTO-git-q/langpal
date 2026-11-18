@@ -1,0 +1,51 @@
+{
+ "id": "writing-continuation-tense", "title": "叙事人称与时态", "goal": "能保持叙事指称一致，并按事件时间选择时态。", "skill": "写作", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "person", "label": "保持叙事人称与人物指称一致"}, {"id": "tense", "label": "按事件先后选择一致的叙事时态"}],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "叙事人称与时态的教学内容与知识点"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "叙述者是故事中的人物，用第一人称 I；叙述者在故事之外，用第三人称。事件用一般过去时推进。当时的背景用过去进行时，更早发生的事用过去完成时。"}, {"box": "I opened the gate. My sister was waiting outside; she had arrived before me."}, {"p": "I 是叙述者，she 指姐姐。opened 推进事件，was waiting 表示当时的背景，had arrived 回指更早的到达。"}]},
+  {"id": "persons", "type": "table", "title": "叙事人称", "cols": ["情况", "不一致", "修改"], "rows": [
+   ["第一人称：叙述者拿包", "I found my bag. She carried it home.", "I found my bag. I carried it home."],
+   ["第一人称：姐姐拿包", "I found my bag. I carried it home, and my sister carried it instead.", "I found my bag. My sister carried it home."],
+   ["第三人称：Mia 开门", "Mia found the key. I opened the door.", "Mia found the key. She opened the door."],
+   ["第三人称：两人同行", "Lena and Ben found the map. She followed it together.", "Lena and Ben found the map. They followed it together."],
+   ["第三人称：区分人物", "Mia gave Lena the book. She thanked Mia.", "Mia gave Lena the book. Lena thanked Mia."]
+  ]},
+  {"id": "times", "type": "table", "title": "过去叙事的时态", "cols": ["用途", "形式", "例句"], "rows": [
+   ["依次发生的事件", "一般过去时", "He found the key and opened the gate."],
+   ["过去某时的背景", "was 或 were + doing", "Rain was falling when she reached the station."],
+   ["过去之前已发生", "had + 过去分词", "She found the note that Ben had left earlier."],
+   ["引语中的当前事实", "按说话时的时间选择", "He said, ‘The gate is open now.’"],
+   ["过去的习惯", "一般过去时", "Every morning, she checked the gate before school."]
+  ]},
+  {"id": "comparison", "type": "table", "title": "时序与指称辨析", "cols": ["语境", "不一致", "修改"], "rows": [
+   ["我拿钥匙", "I saw the key and she picked it up.", "I saw the key and picked it up."], ["Mia 关窗", "Mia entered the room and I closed her window.", "Mia entered the room and closed her window."],
+   ["两人一起出发", "Ben and Ava packed; he left together.", "Ben and Ava packed; they left together."], ["Lena 感谢 Mia", "Mia helped Lena, and she thanked Mia.", "Mia helped Lena, and Lena thanked Mia."],
+   ["过去的连续动作", "He opened the door and walks outside.", "He opened the door and walked outside."]
+  ]},
+  {"id": "time-comparison", "type": "table", "title": "时间关系辨析", "cols": ["语境", "不一致", "修改"], "rows": [
+   ["到站时正在下雨", "It rains when she reached the station.", "It was raining when she reached the station."],
+   ["先锁门，后离开", "He left after he has locked the door.", "He left after he had locked the door."], ["发现已放好的钥匙", "She found the key that he has left.", "She found the key that he had left."],
+   ["过去说话时门开着", "He said, ‘The door was open now.’", "He said, ‘The door is open now.’"], ["过去每天查邮件", "Each morning she checks the mail before school.", "Each morning she checked the mail before school."]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [{"box": "Mira reached the field at noon. Before that, her brother put their bag under a tree.\nWhich sentence preserves the sequence?\n1. Her brother had put the bag under a tree before Mira arrived.\n2. Her brother puts the bag under a tree after Mira arrived.\n3. Mira had put the bag under a tree after her brother arrived.\n4. Mira was putting the bag under a tree before her brother arrived."}, {"p": "哥哥放包在 Mira 到达之前。第一项用 had put 表示更早的事件，放包的人也没有变。"}]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["person", "tense"], "groups": [{"items": [
+   {"stem": "The narrator says: ‘I found the map. I followed it to the bridge.’ Who followed the map?", "options": ["The narrator followed it to the bridge.", "The narrator found it at the bridge.", "A second character followed it to the bridge.", "The narrator left it at the bridge."], "answer": 0, "why": "两句的主语都是 I，指的都是叙述者。第一项说叙述者跟着地图走到桥边。第二项把 found 和 bridge 拼在了一起。", "point": "person"},
+   {"stem": "A letter was placed on the table before Mia entered. Which sentence preserves that order?", "options": ["Mia entered before the letter is placed there.", "Mia saw the letter that had been placed there.", "Mia placed the letter after she entered there.", "Mia enters while the letter was placed there."], "answer": 1, "why": "放信在 Mia 进门之前。第二项用 had been placed 表示更早的动作，先后顺序不变。", "point": "tense"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["person", "tense"], "groups": [{"items": [
+   {"stem": "The first-person narrator found and opened a box.", "lead": "I", "chunks": ["found", "the box", "and", "opened"], "tail": "it.", "extra": ["opening"], "why": "I 表示叙述者，两个过去式动作按顺序发生。", "point": "person"},
+   {"stem": "The wind was blowing when the child arrived.", "lead": "The", "chunks": ["wind", "was", "blowing", "when"], "tail": "she arrived.", "extra": ["blew"], "why": "was blowing 表示到达时正在持续的背景。", "point": "tense"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["person", "tense"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "The narrator says: ‘I left the bag with Ella. She carried it upstairs.’ Who carried the bag?", "options": ["Ella carried the bag upstairs.", "I carried the bag upstairs.", "Ella left the bag upstairs.", "Both carried the bag upstairs."], "answer": 0, "why": "She 指 Ella，Ella 把包搬上楼。", "point": "person"},
+   {"stem": "In a third-person story, Ben and Aria enter a room together. Which continuation preserves that reference?", "options": ["I looked around the room together.", "They looked around the room together.", "She looked around the room together.", "He looked around the room together."], "answer": 1, "why": "They 指 Ben 和 Aria 两人，与共同进入一致。", "point": "person"},
+   {"stem": "The rain was already falling when the walkers reached the bridge. Which sentence presents that background?", "options": ["It rained only after the walkers reached the bridge.", "It had rained after the walkers reach the bridge.", "It was raining when the walkers reached the bridge.", "It will rain after the walkers reached the bridge."], "answer": 2, "why": "到桥时雨已经在下。第三项用 was raining 表示当时持续的背景。第一项把下雨放到了到桥之后。", "point": "tense"},
+   {"stem": "A key was hidden before Nora searched the drawer. Which sentence preserves the sequence?", "options": ["Nora hid the key in the drawer after she searched it.", "Nora searches the drawer before the key was hidden there.", "Nora will search the drawer after the key was hidden there.", "Nora searched the drawer where the key had been hidden."], "answer": 3, "why": "had been hidden 表示搜索之前钥匙已被藏好。", "point": "tense"},
+   {"stem": "In a first-person account, the narrator finds a note and reads it.", "lead": "I", "chunks": ["found", "the note", "and", "read"], "tail": "it.", "extra": ["reading"], "why": "I 保持第一人称，found 和 read 表示连续动作。", "point": "person"},
+   {"stem": "In a third-person account, Mia takes the key and opens the gate.", "lead": "Mia", "chunks": ["took", "the key", "and", "opened"], "tail": "the gate.", "extra": ["opening"], "why": "Mia 是两个并列动作的共同执行者。", "point": "person"},
+   {"stem": "A lamp was shining when the visitor arrived.", "lead": "The", "chunks": ["lamp", "was", "shining", "when"], "tail": "he arrived.", "extra": ["shone"], "why": "was shining 表示到达时持续的背景。", "point": "tense"},
+   {"stem": "Leo packed a bag before leaving home.", "lead": "Leo", "chunks": ["left", "after", "he had", "packed"], "tail": "the bag.", "extra": ["packing"], "why": "had packed 回指离开之前完成的打包动作。", "point": "tense"}
+  ]}]}]}
+ ]
+}

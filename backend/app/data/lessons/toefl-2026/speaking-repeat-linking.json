@@ -1,0 +1,613 @@
+{
+ "id": "speaking-repeat-linking",
+ "title": "连读",
+ "goal": "判断相邻两词之间的连读方式；把连读的语流还原成单词。",
+ "skill": "speaking",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 口语",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "link",
+   "label": "判断相邻两词之间的连读方式"
+  },
+  {
+   "id": "hear",
+   "label": "把连读的语流还原成单词"
+  }
+ ],
+ "sources": [],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "连读是相邻两个词之间的音连在一起。单词的拼写、顺序和语法作用都不变。判断连读方式，看前词的最后一个音和后词的第一个音，不看字母。两个词之间没有停顿，仍然是两个词。"
+    },
+    {
+     "box": "turn‿off / see‿it / that‿book"
+    },
+    {
+     "p": "‿ 标出本课讲的词间连接。连读的实际发音随口音、语速和重读而变。书面题判断可能的连接方式。录音题只要求还原说出的词，不要求听出是否有闪音或失去爆破。"
+    }
+   ]
+  },
+  {
+   "id": "consonants",
+   "type": "table",
+   "title": "辅音之间的连接",
+   "cols": [
+    "类别",
+    "词组",
+    "说明",
+    "例句"
+   ],
+   "rows": [
+    [
+     "辅音加元音",
+     "turn‿off",
+     "/n/ 直接连到后面的元音上，中间不加元音。",
+     "Turn off the desk lamp."
+    ],
+    [
+     "辅音加元音",
+     "pick‿up",
+     "/k/ 直接连到后面的元音上，仍是两个词。",
+     "Pick up the loose page."
+    ],
+    [
+     "辅音加元音",
+     "leave‿early",
+     "末尾的 e 不发音，/v/ 连到后面的元音上。",
+     "The guests may leave early."
+    ],
+    [
+     "辅音加元音",
+     "an‿orange",
+     "/n/ 连到 orange 上，但 n 仍属于 an。",
+     "An orange folder contains the forms."
+    ],
+    [
+     "相同辅音",
+     "stop‿pressing",
+     "两个 /p/ 可共享一次较长的闭塞，不多出音节。",
+     "Stop pressing the reset button."
+    ],
+    [
+     "相同辅音",
+     "black‿coat",
+     "两个 /k/ 可共享闭塞，仍是两个词。",
+     "The black coat is on the hook."
+    ],
+    [
+     "相同辅音",
+     "big‿gate",
+     "两个 /g/ 可共享闭塞，只爆破一次。",
+     "The big gate opens inward."
+    ],
+    [
+     "相近辅音",
+     "hot‿day",
+     "/t/、/d/ 发音部位相同，可连续过渡。",
+     "The plants need shade on a hot day."
+    ]
+   ]
+  },
+  {
+   "id": "glides-stops",
+   "type": "table",
+   "title": "元音过渡与失去爆破",
+   "cols": [
+    "类别",
+    "词组",
+    "说明",
+    "例句"
+   ],
+   "rows": [
+    [
+     "/j/ 过渡",
+     "see‿it",
+     "/iː/ 后面接元音，中间会带出一个轻的 /j/。",
+     "The scale is small, but I can see it."
+    ],
+    [
+     "/j/ 过渡",
+     "day‿after",
+     "/eɪ/ 后面接元音，中间会带出一个轻的 /j/。",
+     "The results arrived the day after the trial."
+    ],
+    [
+     "/w/ 过渡",
+     "go‿out",
+     "/oʊ/ 后面接元音，中间会带出一个轻的 /w/。",
+     "The crew will go out at dawn."
+    ],
+    [
+     "/w/ 过渡",
+     "two‿apples",
+     "/uː/ 后面接元音，中间会带出一个轻的 /w/。",
+     "The basket contains two apples."
+    ],
+    [
+     "/t/ 失去爆破",
+     "that‿book",
+     "/t/ 在 /b/ 前可只做出闭塞，不明显爆破。",
+     "That book contains the updated diagram."
+    ],
+    [
+     "/d/ 失去爆破",
+     "good‿plan",
+     "/d/ 在 /p/ 前可不明显爆破，词仍是 good。",
+     "The team agreed on a good plan."
+    ],
+    [
+     "/d/ 失去爆破",
+     "red‿bag",
+     "/d/ 在 /b/ 前可不明显爆破，仍属于 red。",
+     "The tools are in the red bag."
+    ],
+    [
+     "/t/ 失去爆破",
+     "quiet‿corner",
+     "/t/ 在 /k/ 前可不明显爆破，不加额外元音。",
+     "The reader found a quiet corner."
+    ]
+   ]
+  },
+  {
+   "id": "flap",
+   "type": "table",
+   "title": "美音的闪音",
+   "cols": [
+    "词组",
+    "条件",
+    "发音",
+    "例句"
+   ],
+   "rows": [
+    [
+     "get‿it",
+     "/t/ 前为重读元音，后接非重读元音。",
+     "/t/ 可发成舌尖轻碰一下的 [ɾ]。",
+     "The instructions are clear; I get it."
+    ],
+    [
+     "put‿it",
+     "/t/ 在连续语流的两个元音之间。",
+     "it 不重读时常发成 [ɾ]，重读 it 时可能不发。",
+     "Put it beside the register."
+    ],
+    [
+     "write‿it",
+     "/t/ 后接非重读 it。",
+     "听起来接近短促的 d，但词仍是 write，不是 ride。",
+     "Write it on the blank line."
+    ],
+    [
+     "cut‿it",
+     "/t/ 后接非重读 it。",
+     "听起来像 d，拼写仍是 cut。",
+     "Cut it along the dotted edge."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Please put it in an empty drawer."
+    },
+    {
+     "p": "put it 的 /t/ 可能发成闪音。in an 和 an empty 都是 /n/ 接元音。这些连读都不改变原来的词。"
+    },
+    {
+     "box": "Please / put it / in / an empty drawer .\nExtra chunk: a empty drawer"
+    },
+    {
+     "p": "an 的 /n/ 连到 empty 上，但仍属于冠词 an。还原为 Please put it in an empty drawer。多余词块 a empty drawer 与录音不符，元音前也应该用 an。"
+    }
+   ]
+  },
+  {
+   "id": "check-link",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "link"
+   ],
+   "groups": [
+    {
+     "text": "Target boundary: leave early. The last sound of leave is /v/.",
+     "items": [
+      {
+       "stem": "Which connection fits this boundary?",
+       "options": [
+        "A /j/-like transition between vowels",
+        "A shared closure between identical stops",
+        "A consonant joining the next vowel",
+        "An unreleased /t/ before a stop"
+       ],
+       "answer": 2,
+       "why": "leave 的末音 /v/ 是辅音，early 首音为元音，属于辅音加元音。",
+       "point": "link"
+      }
+     ]
+    },
+    {
+     "text": "Target boundary: two apples. The final vowel of two is /uː/.",
+     "items": [
+      {
+       "stem": "Which transition may occur here?",
+       "options": [
+        "A /w/-like transition",
+        "A /j/-like transition",
+        "A shared /p/ closure",
+        "A flap replacing /t/"
+       ],
+       "answer": 0,
+       "why": "two 的 /uː/ 后面接 apples 的元音，中间可有 /w/ 样过渡，即第一项。",
+       "point": "link"
+      }
+     ]
+    },
+    {
+     "text": "Target boundary: black coat. Both boundary sounds are /k/.",
+     "items": [
+      {
+       "stem": "Which account preserves both words?",
+       "options": [
+        "Add a new vowel between the two stops.",
+        "Add a /j/-like glide between the two words.",
+        "Treat the two words as one written noun.",
+        "Let the adjacent stops share a closure."
+       ],
+       "answer": 3,
+       "why": "black coat 的两个 /k/ 可共享闭塞，两个词都保留，即第四项。",
+       "point": "link"
+      }
+     ]
+    },
+    {
+     "text": "Target boundary: write it. The vowel in it is unstressed.",
+     "items": [
+      {
+       "stem": "Which American English realization is possible?",
+       "options": [
+        "An added /w/ after write",
+        "A flap realization of /t/",
+        "An unreleased final /t/",
+        "A /j/-like glide before it"
+       ],
+       "answer": 1,
+       "why": "write it 中 /t/ 位于重读元音与非重读元音之间，可实现为闪音 [ɾ]。",
+       "point": "link"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-hear",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "hear"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Please pick up the empty basket after lunch."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Rebuild the sentence heard.",
+       "chunks": [
+        "Please",
+        "pick up",
+        "the empty basket",
+        "after lunch"
+       ],
+       "extra": [
+        "pick out"
+       ],
+       "tail": ".",
+       "why": "原句 pick up 的辅音接元音，词组仍是 pick up；pick out 改变原词。",
+       "point": "hear"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The crew will go out through the narrow door."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Restore the recorded words.",
+       "chunks": [
+        "The crew",
+        "will go out",
+        "through",
+        "the narrow door"
+       ],
+       "extra": [
+        "go on"
+       ],
+       "tail": ".",
+       "why": "原句 go out 在元音之间可有过渡音，不能把 out 改为 on。",
+       "point": "hear"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A red bag contains the spare straps."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Put the heard chunks in their original order.",
+       "chunks": [
+        "A red bag",
+        "contains",
+        "the spare",
+        "straps"
+       ],
+       "extra": [
+        "A red badge"
+       ],
+       "tail": ".",
+       "why": "red bag 的 /d/ 可能不明显爆破，仍须保留 bag 而不是 badge。",
+       "point": "hear"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Please write it beside the total on the form."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Reconstruct the sentence from the recording.",
+       "chunks": [
+        "Please write it",
+        "beside",
+        "the total",
+        "on the form"
+       ],
+       "extra": [
+        "ride it"
+       ],
+       "tail": ".",
+       "why": "原词为 write it，即使 /t/ 出现闪音，也不能改写为 ride it。",
+       "point": "hear"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "link",
+    "hear"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "Target boundary: an orange. The boundary sounds are /n/ and a vowel.",
+       "items": [
+        {
+         "stem": "Which description fits the connection?",
+         "options": [
+          "A consonant connects directly to a following vowel.",
+          "Two identical consonants share one closure.",
+          "A /w/ transition occurs between two vowels.",
+          "A final /t/ becomes a flap before an unstressed vowel."
+         ],
+         "answer": 0,
+         "why": "an orange 的 /n/ 直接接后词元音，词间连接不改变冠词 an。",
+         "point": "link"
+        }
+       ]
+      },
+      {
+       "text": "Compare see it with go out. Both pairs meet at vowel sounds.",
+       "items": [
+        {
+         "stem": "Which pair of possible transitions matches that order?",
+         "options": [
+          "/w/ after see; /j/ after go",
+          "/j/ after see; /w/ after go",
+          "/j/ after see; /j/ after go",
+          "/w/ after see; /w/ after go"
+         ],
+         "answer": 1,
+         "why": "see 的 /iː/ 后可有 /j/ 样过渡，go 的 /oʊ/ 后可有 /w/ 样过渡。",
+         "point": "link"
+        }
+       ]
+      },
+      {
+       "text": "Compare big gate with good plan. The boundaries are /g g/ and /d p/.",
+       "items": [
+        {
+         "stem": "Which account matches the two boundaries?",
+         "options": [
+          "Both boundaries may share a single closure.",
+          "The first may share a closure; the second may have a flap.",
+          "The first may share a closure; the second may have an unreleased /d/.",
+          "The first may have an unreleased /d/; the second may share two /g/ sounds."
+         ],
+         "answer": 2,
+         "why": "big gate 的 /g g/ 可共享闭塞；good plan 的 /d/ 在 /p/ 前可失去明显爆破。",
+         "point": "link"
+        }
+       ]
+      },
+      {
+       "text": "Target boundary: cut it. The first vowel is stressed and the vowel in it is unstressed.",
+       "items": [
+        {
+         "stem": "Which account fits a possible American English realization?",
+         "options": [
+          "The boundary must gain a separate vowel.",
+          "The /t/ must become a flap, and the words become cud it.",
+          "The boundary must contain two /t/ closures.",
+          "The /t/ may be a flap while the words stay cut it."
+         ],
+         "answer": 3,
+         "why": "cut it 的 /t/ 可实现为 [ɾ]，但原词和拼写不变。",
+         "point": "link"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The volunteer will turn off the desk fan."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Rebuild the sentence heard.",
+         "chunks": [
+          "The volunteer",
+          "will turn off",
+          "the desk",
+          "fan"
+         ],
+         "extra": [
+          "turn on"
+         ],
+         "tail": ".",
+         "why": "原句 turn off 中 /n/ 接元音；off 不能被相关词 on 替换。",
+         "point": "hear"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The students will see it after the screening."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Restore the recorded words.",
+         "chunks": [
+          "The students",
+          "will see it",
+          "after",
+          "the screening"
+         ],
+         "extra": [
+          "see them"
+         ],
+         "tail": ".",
+         "why": "原句 see it 可有 /j/ 样过渡，但宾语仍为 it，不是 them。",
+         "point": "hear"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "That book belongs on the reference shelf."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Put the heard chunks in their original order.",
+         "chunks": [
+          "That book",
+          "belongs",
+          "on",
+          "the reference shelf"
+         ],
+         "extra": [
+          "That box"
+         ],
+         "tail": ".",
+         "why": "原句 That book 中 /t/ 在 /b/ 前可不明显爆破，名词仍为 book。",
+         "point": "hear"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The assistant will put it under the display stand."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Reconstruct the sentence from the recording.",
+         "chunks": [
+          "The assistant",
+          "will put it",
+          "under",
+          "the display stand"
+         ],
+         "extra": [
+          "put them"
+         ],
+         "tail": ".",
+         "why": "原句 put it 中的连接不改变代词 it；多余词块把宾语换为 them。",
+         "point": "hear"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

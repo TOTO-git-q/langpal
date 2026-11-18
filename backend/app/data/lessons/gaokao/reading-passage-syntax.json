@@ -1,0 +1,67 @@
+{
+ "id": "reading-passage-syntax",
+ "title": "长句的主干与修饰",
+ "goal": "确定长句的主语与主要谓语，并识别从句和短语的修饰对象。",
+ "skill": "阅读",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "core", "label": "找出长句的主语与主要谓语"},
+  {"id": "modifier", "label": "确定从句与短语修饰的对象"}
+ ],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "长句主干与修饰关系"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "长句的主干通常由主语和主要谓语构成。先确定句子说的是谁或什么，再找主要动作或状态。"},
+   {"p": "从句、分词短语和同位语可以补充名词信息。插入成分可以说明来源或态度。确定主干后，再核对它们各自对应的对象。"}
+  ]},
+  {"id": "core", "type": "table", "title": "主语与谓语", "cols": ["类型", "例句", "分析"], "rows": [
+   ["并列谓语", "The volunteers at the river station collected water samples before sunrise and recorded the results in a notebook that remained at the station for the next team.", "主语是 volunteers；collected 和 recorded 并列。"],
+   ["定语从句", "The clock that stood in the hall stopped during the storm and remained silent.", "主语是 clock；stopped 和 remained 是主要谓语。"],
+   ["插入成分", "The new timetable, according to the coordinator of the evening classes, gives students more time to move between rooms without delaying the start of the next lesson.", "主语是 timetable；gives 是主要谓语。"],
+   ["同位语", "Maya, the person responsible for the school collection of old photographs, prepared a list of the pictures that required protective covers before the public exhibition opened.", "主语是 Maya；prepared 是主要谓语。"]
+  ]},
+  {"id": "modifiers", "type": "table", "title": "修饰对象", "cols": ["类型", "例句", "分析"], "rows": [
+   ["定语从句", "The shelves that the assistants assembled on Monday hold the boxes of letters, while the tables near the door remain available for visitors to examine copies.", "that 从句修饰 shelves；remain 的主语是 tables。"],
+   ["分词短语", "The boxes stored beneath the counter contain spare labels for the folders, and the labels printed in blue identify material that must stay in the reading room.", "stored beneath the counter 修饰 boxes。"],
+   ["同位语", "The final speaker, a scientist who studies the movement of clouds, answered questions from the audience after the short film and stayed to speak with the students.", "a scientist 补充说明 speaker 的身份。"],
+   ["插入成分", "The catalogue, as the librarian explained, lists the collections by subject.", "插入成分说明 lists 的信息来源。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "The guide who led the morning group, a volunteer with experience in local history, described the old bridge and answered questions about its restoration before the visitors continued to the square."},
+   {"box": "What is the main action of the guide?\n1. The guide restored the bridge and built the square.\n2. The guide described the bridge and answered questions.\n3. The guide joined the visitors after they reached the square.\n4. The guide led the morning group and studied local history."},
+   {"p": "主语是 The guide，主要谓语是 described 和 answered。第二项概括这两个并列动作。"},
+   {"p": "who led the morning group 修饰 guide。a volunteer with experience in local history 说明 guide 的身份。这两部分都不是主要谓语，所以第四项不对。before 引出的是访客继续前行的时间。"}
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["core", "modifier"], "groups": [
+   {"look": "passage", "text": "The team that found the damaged sign cleaned its surface and replaced its frame before the market opened.", "items": [{"stem": "What did the team do to the sign?", "options": ["It cleaned the sign and replaced its frame.", "It opened the market and damaged the sign.", "It found a frame and closed the market.", "It found the sign and replaced its surface."], "answer": 0, "why": "主语 The team 的并列谓语是 cleaned 和 replaced，即第一项。that found the damaged sign 是修饰 team 的从句。", "point": "core"}]},
+   {"look": "passage", "text": "The guide, according to the manager, checked the route and informed the visitors before the tour began.", "items": [{"stem": "Whose actions form the main statement?", "options": ["The manager's route changes", "The guide's checks and message", "The visitors' tour arrangements", "The manager's checks of the route"], "answer": 1, "why": "The guide 是主语，checked 和 informed 是主要谓语，即第二项。according to the manager 是插入成分，只说明信息来源。", "point": "core"}]},
+   {"look": "passage", "text": "The folders placed on the upper shelf contain maps, while the boxes beside the desk contain photographs.", "items": [{"stem": "What is described as being on the upper shelf?", "options": ["The photographs beside the desk", "The maps beside the boxes", "The folders containing maps", "The desk holding the photographs"], "answer": 2, "why": "placed on the upper shelf 修饰 folders。", "point": "modifier"}]},
+   {"look": "passage", "text": "Ella, the editor of the school newspaper, invited the artist who designed the cover to answer questions.", "items": [{"stem": "Who is the editor of the newspaper?", "options": ["The artist who designed the cover", "The reader who asked the questions", "The guest invited by the newspaper", "The person named Ella in the sentence"], "answer": 3, "why": "the editor of the school newspaper 是 Ella 的同位语，即第四项。who designed the cover 修饰的是 artist。", "point": "modifier"}]}
+  ]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["core", "modifier"], "groups": [
+   {"look": "passage", "text": "The coach who had organized the trip carried the equipment to the hall and gave each player a numbered card. The cards, which were printed the previous day, showed where each player should wait.", "items": [
+    {"stem": "What two actions did the coach take?", "options": ["Carrying equipment and giving out cards", "Printing cards and organizing the hall", "Numbering players and closing the hall", "Waiting with players and printing cards"], "answer": 0, "why": "coach 是主语，carried 和 gave 是并列的主要谓语。", "point": "core"},
+    {"stem": "What had been printed the previous day?", "options": ["The players' equipment", "The numbered cards", "The coach's trip", "The hall's equipment"], "answer": 1, "why": "which were printed the previous day 修饰 cards。", "point": "modifier"}
+   ]}
+  ]},
+  {"id": "check-three", "type": "check", "title": "练习三", "points": ["core", "modifier"], "groups": [
+   {"look": "passage", "text": "The caretaker, a former gardener at the school, found the missing key in a drawer and returned it to the office. The drawer was inside a cabinet that had recently been moved from the hall.", "items": [
+    {"stem": "What did the caretaker do with the key?", "options": ["Moved it from the hall to the cabinet", "Found it and took it back to the office", "Placed it in the drawer and moved the cabinet", "Gave it to the gardener in the hall"], "answer": 1, "why": "caretaker 后面的主要谓语是 found 和 returned。", "point": "core"},
+    {"stem": "What had recently been moved from the hall?", "options": ["The office receiving the key", "The missing key", "The cabinet with the drawer", "The former school gardener"], "answer": 2, "why": "that had recently been moved from the hall 修饰紧挨在前面的 cabinet，即第三项。", "point": "modifier"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["core", "modifier"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "The town archive recently organized a collection of handwritten recipes that had been stored in a family cupboard for many years. The papers came from several households, and some were written on the backs of letters or pieces of packaging. The archive wanted to make the collection easier to examine without allowing frequent handling of the originals.\n\nThe team that received the papers placed each recipe in a protective cover and recorded any date or name written on it before making a digital copy. The covers, which had been prepared by volunteers the previous week, helped the team keep the papers in their original order. Staff also wrote brief descriptions of the handwriting and the condition of each page. They avoided filling gaps in the text when a word could no longer be read.\n\nNina, a member of the archive staff who had worked with similar collections, checked the descriptions and marked the pages that needed further attention from a specialist. She then compared the digital copies with the originals to make sure that the edges of each page could be seen. The specialist planned to examine the marked pages at a later date.\n\nThe digital collection, according to the archive's manager, will allow visitors to inspect the recipes on a screen while the original papers remain in their protective covers. Visitors will also be able to search the descriptions by name or date. The archive plans to add information supplied by families when that information can be linked to a particular page. For now, the records distinguish the words found on a page from explanations added by staff.", "items": [
+    {"stem": "What did the team receiving the papers do?", "options": ["It covered the recipes and recorded names or dates.", "It made digital copies and filled gaps in the text.", "It removed the covers and sent the papers to families.", "It checked descriptions and marked pages for a specialist."], "answer": 0, "why": "主语 The team 的谓语是 placed 和 recorded：给每份食谱加保护套，记下上面的日期或姓名，即第一项。第四项是 Nina 做的事。", "point": "core"},
+    {"stem": "What had the volunteers prepared the previous week?", "options": ["The handwritten family recipes", "The protective covers for the papers", "The specialist's notes on the pages", "The digital copies of the letters"], "answer": 1, "why": "which had been prepared by volunteers 修饰 The covers。", "point": "modifier"},
+    {"stem": "What were Nina's two actions before comparing the copies?", "options": ["She wrote the recipes and prepared covers.", "She examined the marked pages as a specialist.", "She checked descriptions and marked some pages.", "She restored the pages and corrected the dates."], "answer": 2, "why": "Nina 是主语，checked 和 marked 是并列谓语，即第三项。检查标记页是 specialist 以后要做的事。", "point": "core"}
+   ]},
+   {"look": "passage", "text": "A community kitchen has begun collecting information about the equipment it lends to local groups. Some groups borrow large cooking pots for shared meals, while others need trays or containers for carrying food. The kitchen keeps an inventory so that each group can find out which items are available before planning an event.\n\nThe coordinator who manages the inventory checks each returned item and enters its condition in a shared record before placing it on the appropriate shelf. The shelves marked with green labels hold equipment that is ready to borrow; a separate shelf holds items awaiting inspection. When an item needs cleaning or repair, the coordinator adds a note to the record and tells the volunteers responsible for that work.\n\nOwen, a volunteer with experience in maintaining kitchen equipment, examines the items identified for repair and reports which parts need to be replaced. He does not order the parts himself. Instead, the coordinator checks whether the kitchen has the parts already and contacts a supplier when necessary. This arrangement lets the volunteers focus on the inspection while one person keeps the purchase information together.\n\nThe shared record, as the coordinator explained at the last meeting, also shows when each item is expected back and helps groups plan around existing bookings. It does not include the names of people who attend the groups' events. The kitchen plans to review the system after several months and ask borrowers whether the availability information is clear. If an item is returned late, staff update its expected date so that the next group can adjust its plan.", "items": [
+    {"stem": "Which shelf holds equipment ready for borrowing?", "options": ["The shelf awaiting inspection", "The shelf for items needing cleaning", "The shelf holding replacement parts", "The shelf bearing green labels"], "answer": 3, "why": "marked with green labels 修饰 The shelves。贴绿色标签的架子放可借的设备，即第四项。", "point": "modifier"},
+    {"stem": "What does Owen do with items needing repair?", "options": ["He examines them and reports needed parts.", "He orders replacements and updates every booking.", "He labels the shelves and returns each item.", "He inspects pots and enters their condition."], "answer": 0, "why": "Owen 的主要谓语是 examines 和 reports：检查待修物品，报告要换哪些零件，即第一项。第二项与 He does not order the parts himself 相反。", "point": "core"},
+    {"stem": "Who is described as experienced in maintaining equipment?", "options": ["The coordinator who manages the inventory", "Owen, the volunteer examining repair items", "A supplier contacted by the coordinator", "The borrower planning a shared meal"], "answer": 1, "why": "a volunteer with experience in maintaining kitchen equipment 是 Owen 的同位语。", "point": "modifier"}
+   ]}
+  ]}]}
+ ]
+}

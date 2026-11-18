@@ -1,0 +1,436 @@
+{
+ "id": "reading-matching-paraphrase",
+ "title": "段落匹配的同义改写",
+ "goal": "识别同义改写并核对主体与关系。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "equivalence",
+   "label": "识别不同表达中的同一信息"
+  },
+  {
+   "id": "verify",
+   "label": "核对改写前后的主体与关系"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "阅读课程内容与材料形式"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "同义改写用不同的词语或句式表达同一信息。词语和句式改变后，施事、对象、逻辑关系和程度仍与原文一致。"
+    },
+    {
+     "box": "The council provided books to schools.\nSchools received books from the council."
+    },
+    {
+     "p": "provided 换成 received 后，主语从 The council 变为 Schools。两句都表示议会提供图书、学校接收图书。"
+    }
+   ]
+  },
+  {
+   "id": "words",
+   "type": "table",
+   "title": "词语和词性变化",
+   "cols": [
+    "方式",
+    "原文",
+    "改写"
+   ],
+   "rows": [
+    [
+     "同义词替换",
+     "The team repaired the bridge.",
+     "The team fixed the bridge."
+    ],
+    [
+     "同义词替换",
+     "The shop reduced its prices.",
+     "The shop lowered its prices."
+    ],
+    [
+     "动词变名词",
+     "The town expanded the library.",
+     "The town carried out an expansion of the library."
+    ],
+    [
+     "形容词变名词",
+     "The two reports are different.",
+     "There is a difference between the two reports."
+    ]
+   ]
+  },
+  {
+   "id": "structure",
+   "type": "table",
+   "title": "句式和范围变化",
+   "cols": [
+    "方式",
+    "原文",
+    "改写"
+   ],
+   "rows": [
+    [
+     "主动变被动",
+     "Volunteers planted the trees.",
+     "The trees were planted by volunteers."
+    ],
+    [
+     "主动变被动",
+     "The committee rejected the proposal.",
+     "The proposal was rejected by the committee."
+    ],
+    [
+     "具体概括",
+     "The meal included apples and pears.",
+     "The meal included fruit."
+    ],
+    [
+     "具体概括",
+     "The drawer contained pens and pencils.",
+     "The drawer contained writing instruments."
+    ],
+    [
+     "否定与反义词",
+     "The box was not empty.",
+     "The box contained something."
+    ],
+    [
+     "否定与反义词",
+     "The door was not open.",
+     "The door was closed."
+    ]
+   ]
+  },
+  {
+   "id": "connections",
+   "type": "table",
+   "title": "句间关系与核对",
+   "cols": [
+    "情况",
+    "原文",
+    "对应表达"
+   ],
+   "rows": [
+    [
+     "两句合并",
+     "Rain fell. The match was canceled because of it.",
+     "Rain caused the match to be canceled."
+    ],
+    [
+     "两句合并",
+     "The shelf was high. A ladder was needed to reach it.",
+     "A ladder was needed because the shelf was high."
+    ],
+    [
+     "施事核对",
+     "The museum lent a painting to the school.",
+     "The school borrowed a painting from the museum."
+    ],
+    [
+     "程度核对",
+     "Some visitors used the stairs.",
+     "A number of visitors used the stairs."
+    ],
+    [
+     "概括范围",
+     "The drawer contained pens and pencils.",
+     "The drawer contained writing instruments."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A charity lent musical instruments to local schools. It also repaired damaged instruments at no charge.\n\n1. Local schools lent instruments to the charity for free repairs.\n2. Local schools borrowed instruments from a charity that repaired damaged ones free of charge.\n3. The charity sold repaired instruments to local schools.\n4. All local schools repaired instruments for the charity."
+    },
+    {
+     "p": "第二项的 borrowed from 对应 lent to，free of charge 对应 at no charge。出借和维修的仍是慈善机构，借入乐器的仍是学校。"
+    },
+    {
+     "p": "第一项沿用 charity、schools 和 instruments，却把出借方向颠倒。第三项把出借改为出售，第四项改变了维修者。"
+    }
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "equivalence"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "The gardener watered the young trees.",
+     "items": [
+      {
+       "stem": "Which statement preserves the same action?",
+       "options": [
+        "The young trees were planted by the gardener.",
+        "The young trees were watered by the gardener.",
+        "The gardener had the young trees watered by others.",
+        "The older trees were watered by the gardener."
+       ],
+       "answer": 1,
+       "why": "原文是 The gardener watered the young trees。第二项改成被动句，浇水的人和被浇的树都没有变。",
+       "point": "equivalence"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The library's collection included maps and atlases.",
+     "items": [
+      {
+       "stem": "Which statement is supported?",
+       "options": [
+        "The collection included atlases but no maps.",
+        "The library's maps and atlases were given away.",
+        "The collection consisted only of maps and atlases.",
+        "The collection included geographical materials."
+       ],
+       "answer": 3,
+       "why": "原文是 included maps and atlases。第四项把 maps and atlases 概括为 geographical materials。第三项加了 only，原文的 included 没有这层意思。",
+       "point": "equivalence"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "verify"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "Some residents opposed the proposal, while others supported it.",
+     "items": [
+      {
+       "stem": "Which statement preserves the extent of opposition?",
+       "options": [
+        "A number of residents objected to the proposal.",
+        "Every resident in the area objected to the proposal.",
+        "No residents had an opinion on the proposal.",
+        "Most of the residents were in favor of the proposal."
+       ],
+       "answer": 0,
+       "why": "原文是 Some residents opposed the proposal。第一项用 A number of 改写 Some，范围没有扩大。原文只说 others supported it，没有说支持的人占多数。",
+       "point": "verify"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The storm damaged the roof. Repairs closed the hall for a week.",
+     "items": [
+      {
+       "stem": "Which statement preserves the cause of the closure?",
+       "options": [
+        "The hall closed because the storm lasted a week.",
+        "The roof was damaged by repairs to the hall.",
+        "The hall was closed for a week while repairs were made.",
+        "The storm closed the hall for a week before repairs began."
+       ],
+       "answer": 2,
+       "why": "依据是 Repairs closed the hall for a week。第三项说明大厅关闭是因为维修，时长一周。第四项把关闭的原因换成了暴风雨。",
+       "point": "verify"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-three",
+   "type": "check",
+   "title": "练习三",
+   "points": [
+    "equivalence",
+    "verify"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "The train was not late; it arrived at the scheduled time.",
+     "items": [
+      {
+       "stem": "Which statement restates the arrival?",
+       "options": [
+        "The train arrived before its scheduled time.",
+        "The train arrived exactly when it was due.",
+        "The train departed after its scheduled time.",
+        "The train arrived late at the station."
+       ],
+       "answer": 1,
+       "why": "not late 和 arrived at the scheduled time 都说明火车准时到达。第二项用 exactly when it was due 改写了这一点。",
+       "point": "equivalence"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The school sent the museum photographs for an exhibition.",
+     "items": [
+      {
+       "stem": "Which statement preserves who supplied the photographs?",
+       "options": [
+        "The museum sent the school photographs for an exhibition.",
+        "The school received photographs from the museum.",
+        "The school displayed the museum's photographs.",
+        "The museum received photographs from the school."
+       ],
+       "answer": 3,
+       "why": "school sent 对应 museum received，供应方仍是学校。",
+       "point": "verify"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "equivalence",
+    "verify"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "The committee approved the plan after examining its cost.",
+       "items": [
+        {
+         "stem": "Which statement preserves the sequence?",
+         "options": [
+          "The plan was approved after its cost had been examined.",
+          "The plan's cost was examined by the committee after it had approved the plan.",
+          "The committee rejected the plan because of its cost.",
+          "The plan was approved without a cost examination."
+         ],
+         "answer": 0,
+         "why": "after examining its cost 对应 after its cost had been examined。",
+         "point": "equivalence"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "The local collection contains violins and cellos.",
+       "items": [
+        {
+         "stem": "Which statement follows from the passage?",
+         "options": [
+          "The collection contains only violins.",
+          "The collection contains musical instruments.",
+          "The collection contains no string instruments.",
+          "The collection contains cellos but no violins."
+         ],
+         "answer": 1,
+         "why": "violins and cellos 都属于 musical instruments。",
+         "point": "equivalence"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "The path was blocked. Walkers therefore used a different route.",
+       "items": [
+        {
+         "stem": "Which statement combines the same information?",
+         "options": [
+          "Walkers blocked the path to make a different route.",
+          "Walkers used the blocked path despite the closure.",
+          "Walkers took another route because the path was blocked.",
+          "The path was blocked because walkers used a different route."
+         ],
+         "answer": 2,
+         "why": "therefore 说明道路阻塞是原因，改走别的路是结果。第三项用 because 合并两句，因果方向不变。第四项把因果颠倒了。",
+         "point": "equivalence"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "The company supplied protective gloves to its laboratory workers.",
+       "items": [
+        {
+         "stem": "Which statement preserves the direction of supply?",
+         "options": [
+          "The workers supplied protective gloves to the company.",
+          "The laboratory supplied protective gloves to the workers.",
+          "The company received gloves from its laboratory workers.",
+          "The workers received protective gloves from the company."
+         ],
+         "answer": 3,
+         "why": "原文是 The company supplied protective gloves to its laboratory workers。第四项把 company supplied 改成 workers received，提供方和接收方都没有变。",
+         "point": "verify"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A few students attended the optional workshop after class.",
+       "items": [
+        {
+         "stem": "Which statement preserves the number described?",
+         "options": [
+          "Every student in the class attended the optional workshop.",
+          "A small number of students attended the workshop.",
+          "No students attended the optional workshop.",
+          "Most of the students attended the optional workshop."
+         ],
+         "answer": 1,
+         "why": "原文是 A few students attended。第二项用 A small number of 改写 A few，两者都指少数学生。",
+         "point": "verify"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "The old hall was not open during the repairs; its doors were closed.",
+       "items": [
+        {
+         "stem": "Which statement preserves the hall's condition?",
+         "options": [
+          "The hall was closed while repairs were under way.",
+          "The hall remained open while repairs were under way.",
+          "The hall was closed only after the repairs were finished.",
+          "The repairs ended when the hall's doors opened."
+         ],
+         "answer": 0,
+         "why": "原文是 was not open during the repairs 和 its doors were closed。第一项用 closed while repairs were under way 改写，时间仍是维修期间。",
+         "point": "verify"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

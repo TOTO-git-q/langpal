@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>あめ</title>
+<link rel="preload" href="assets/font/PixelMplus12-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/windose.css">
+<link rel="stylesheet" href="css/stage.css">
+<link rel="stylesheet" href="css/stage-chat.css">
+</head>
+<body class="stage-window">
+<div id="win-resize-topstrip"></div>
+<div class="sw">
+  <header class="sw-bar">
+    <img class="sw-icon" id="sw-icon" src="assets/avatars/ame-head.png" alt="">
+    <span class="sw-name" id="sw-name"></span>
+    <span class="sw-live" aria-hidden="true"><i></i><i></i><i></i></span>
+    <div class="sw-btns">
+      <button class="win-btn win-min" id="sw-min" title="最小化" aria-label="最小化">_</button>
+      <button class="win-btn win-close" id="sw-close" title="关闭" aria-label="关闭">×</button>
+    </div>
+  </header>
+  <main class="sw-view" id="sw-view">
+    <div class="sw-sky" aria-hidden="true"></div>
+    <div class="sw-floor" aria-hidden="true"></div>
+  </main>
+  <form class="sw-chat" id="sw-chat" autocomplete="off">
+    <button type="button" class="sw-voice" aria-label="声音" aria-pressed="true">♪</button>
+    <input type="text" maxlength="500" placeholder="コメント" aria-label="コメント" enterkeyhint="send">
+    <button type="submit" class="sw-send" aria-label="送信">▶</button>
+  </form>
+</div>
+<script src="js/stage-window.js"></script>
+<script src="js/stage-chat.js"></script>
+</body>
+</html>

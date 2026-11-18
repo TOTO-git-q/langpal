@@ -1,0 +1,376 @@
+{
+ "id": "reading-careful-inference",
+ "title": "仔细阅读推断题",
+ "goal": "依据原文中的关系作推断，并限制结论的范围。",
+ "skill": "阅读",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "basis",
+   "label": "寻找支撑推断的原文依据"
+  },
+  {
+   "id": "limit",
+   "label": "排除超出原文范围的结论"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "阅读理解的教学依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "推断题常用 inferred、implied 或 suggested 提问。答案有原文信息支持，但原文不一定直接写出这句话。"
+    },
+    {
+     "box": "The first bus left full. Several people were still waiting.\nWhat can be inferred? Some people did not board the first bus."
+    },
+    {
+     "p": "第一辆车满员开走后还有人在等，可见这些人没坐上第一辆车。原文没有说他们为什么还在等。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定推断对象",
+     "d": "找到题干问的人、事物或条件。读写到它的句子和前后句。"
+    },
+    {
+     "t": "2　建立原文依据",
+     "d": "看句子之间是对比、因果还是条件关系。只用原文已有的信息，往前推一步。"
+    },
+    {
+     "t": "3　核对结论范围",
+     "d": "对照结论和依据中的数量、时间和条件。要另加假设才能成立的选项不选。"
+    }
+   ]
+  },
+  {
+   "id": "basis",
+   "type": "table",
+   "title": "推断依据",
+   "cols": [
+    "关系",
+    "原文",
+    "推断"
+   ],
+   "rows": [
+    [
+     "对比",
+     "The first hall seats 80 people; the second seats 120.",
+     "The second hall has more seats."
+    ],
+    [
+     "对比",
+     "Mina finished the walk in 30 minutes; Jun took 40 minutes.",
+     "Jun took longer than Mina."
+    ],
+    [
+     "因果",
+     "Rain closed the field, so the match moved indoors.",
+     "The match would otherwise have been held outside."
+    ],
+    [
+     "因果",
+     "The train was delayed, so Ana missed the meeting.",
+     "The delay prevented Ana from attending."
+    ],
+    [
+     "条件",
+     "Only members may borrow the tools. Leo borrowed a tool.",
+     "Leo is a member."
+    ],
+    [
+     "条件",
+     "The door opens only with a card. Sara opened it.",
+     "Sara used a card."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Only registered visitors could enter the archive. Lin entered the archive on Tuesday.\nWhat can be inferred about Lin?\n1. Lin registered as a visitor.\n2. Lin worked in the archive.\n3. Lin visited every Tuesday.\n4. Lin registered other visitors."
+    },
+    {
+     "p": "只有注册访客能进入，Lin 进入了，所以 Lin 是注册访客，即第一项。第三项的 every Tuesday 是原文没有的频率。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "程度过强",
+     "some visitors 写成 every visitor。",
+     "数量范围以原文为准。"
+    ],
+    [
+     "增加时间",
+     "例题的 every Tuesday。",
+     "原文只说 on Tuesday，没有说频率。"
+    ],
+    [
+     "增加身份",
+     "例题的 worked in the archive。",
+     "原文只说进入条件，没有说职业。"
+    ],
+    [
+     "颠倒关系",
+     "rain closed the field 推成比赛导致下雨。",
+     "先分清哪个是原因、哪个是结果。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "basis",
+    "limit"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "The morning train took 40 minutes. The evening train took 55 minutes on the same route.",
+     "items": [
+      {
+       "stem": "What can be inferred about the two trains?",
+       "options": [
+        "The morning train took less time on the route.",
+        "The evening train carried more people on the route.",
+        "The morning train stopped at more stations on the route.",
+        "The evening train traveled on a different route."
+       ],
+       "answer": 0,
+       "why": "40 minutes 少于 55 minutes，所以上午车程较短。",
+       "point": "basis"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "A leak made the classroom floor wet, so the lesson was moved to another room.",
+     "items": [
+      {
+       "stem": "What can be inferred about the lesson?",
+       "options": [
+        "It was canceled because of the leak.",
+        "It was moved because of a wet floor.",
+        "It made the classroom floor wet.",
+        "It took place before the leak appeared."
+       ],
+       "answer": 1,
+       "why": "漏水使地板湿，so 引出换教室的结果。",
+       "point": "basis"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Only staff could use the storage room. Mei put the boxes inside it.",
+     "items": [
+      {
+       "stem": "What can be inferred about Mei?",
+       "options": [
+        "She stored every box in the building.",
+        "She cleaned the storage room daily.",
+        "She was a member of the staff.",
+        "She supervised all other staff members."
+       ],
+       "answer": 2,
+       "why": "只有工作人员能使用储藏室，Mei 把箱子放了进去，所以她是工作人员。",
+       "point": "limit"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Some of the guests arrived before noon. The rest arrived later in the day.",
+     "items": [
+      {
+       "stem": "What can be inferred about the guests?",
+       "options": [
+        "Every guest arrived before noon.",
+        "No guest arrived later in the day.",
+        "All guests arrived at the same time.",
+        "At least one guest arrived before noon."
+       ],
+       "answer": 3,
+       "why": "Some of the guests arrived before noon 支持至少一位客人中午前到达。",
+       "point": "limit"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "basis",
+    "limit"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A community cinema sold tickets online and at its entrance. For the Friday show, the online tickets sold out in the morning. A few entrance tickets were still available that afternoon. The cinema kept those tickets for people who could not use the online service.",
+     "items": [
+      {
+       "stem": "What can be inferred about Friday tickets in the afternoon?",
+       "options": [
+        "Some tickets could still be bought at the entrance.",
+        "All tickets remained available through the website.",
+        "Every entrance ticket had been sold in the morning.",
+        "The cinema had stopped selling tickets for the show."
+       ],
+       "answer": 0,
+       "why": "下午入口处仍有少量票，因此现场仍可以买到票。",
+       "point": "basis"
+      },
+      {
+       "stem": "What can be inferred about the online tickets?",
+       "options": [
+        "They were reserved for entrance customers.",
+        "They were unavailable online by afternoon.",
+        "They were cheaper than the entrance tickets.",
+        "They were sold only after the Friday show."
+       ],
+       "answer": 1,
+       "why": "线上票上午售完，所以下午已无法在线购买。",
+       "point": "limit"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "basis",
+    "limit"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A neighborhood wanted a place where residents could borrow tools for small household jobs. Volunteers opened a tool library in a room beside the community hall. They listed each tool on a card and asked borrowers to return it within a week. The volunteers also checked tools after they were returned, since a damaged tool needed attention before another person could use it.\n\nDuring the first month, the library lent out more hand tools than power tools. A volunteer suggested that some residents might be unfamiliar with the power tools, so the group arranged a short demonstration. Attendance was limited to registered members because the room was small. Omar attended the demonstration and later borrowed a drill. The group recorded how many members attended but did not ask whether they owned tools at home.\n\nAfter several months, a broken shelf reduced the storage space. The volunteers moved some equipment to a locked cupboard and repaired the shelf the following week. They planned to review the borrowing records at the end of the year. The records could show which tools had been borrowed, but they could not show every reason why a resident chose a particular tool.",
+       "items": [
+        {
+         "stem": "What can be inferred about the tools lent in the first month?",
+         "options": [
+          "At least one hand tool was borrowed that month.",
+          "Power tools were lent more often than hand tools.",
+          "Every available hand tool was lent to a member.",
+          "No member borrowed a power tool that month."
+         ],
+         "answer": 0,
+         "why": "借出的手动工具多于电动工具，因此至少借出过一件手动工具。",
+         "point": "basis"
+        },
+        {
+         "stem": "What can be inferred about Omar?",
+         "options": [
+          "He repaired the shelf in the library.",
+          "He was a registered library member.",
+          "He owned power tools at home.",
+          "He organized the first demonstration."
+         ],
+         "answer": 1,
+         "why": "示范活动仅限注册会员参加，而 Omar 参加了活动。",
+         "point": "limit"
+        },
+        {
+         "stem": "What can be inferred about the broken shelf?",
+         "options": [
+          "It increased the library's storage space.",
+          "It was repaired before any tools were moved.",
+          "It caused some tools to be stored elsewhere.",
+          "It prevented every tool from being borrowed."
+         ],
+         "answer": 2,
+         "why": "架子损坏减少储物空间，志愿者因而将部分工具移到柜中。",
+         "point": "basis"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A small publishing group offered two ways to order a local history book. Readers could collect a copy from its office or request delivery by post. The office was open on weekdays, while postal orders were accepted throughout the week. Each order was recorded before a copy was set aside.\n\nOn Monday, the group received more postal orders than collection orders. It had enough copies to fill every order received that day, but it set aside only those already requested. On Tuesday, a printing delay meant that no additional copies arrived. The group therefore asked later customers to leave their contact details and promised to notify them when more books were available.\n\nThe office also displayed several photographs used in the book. Visitors could view the photographs without ordering a copy. A teacher who came to see the display ordered a book as well. The group kept a record of orders but did not record how many visitors viewed the display without buying anything. It planned to use the order records to decide how many copies to request in the next printing, while recognizing that future demand might differ.",
+       "items": [
+        {
+          "stem": "What can be inferred about Monday's orders?",
+         "options": [
+          "Collection orders exceeded postal orders that day.",
+          "Some Monday orders could not be filled that day.",
+           "Those orders did not exceed the copies available.",
+          "All visitors who saw the display placed an order."
+         ],
+         "answer": 2,
+          "why": "当日书的数量足以满足全部订单，因此订单数量未超过现有书的数量。",
+         "point": "basis"
+        },
+        {
+         "stem": "What can be inferred about visitors to the display?",
+         "options": [
+          "At least one visitor also ordered a book.",
+          "Every visitor ordered a copy of the book.",
+          "No visitor ordered a book after viewing.",
+          "The group knew how many visitors came."
+         ],
+         "answer": 0,
+         "why": "教师看展览并订购了书，因此至少有一位参观者订购。",
+         "point": "limit"
+        },
+        {
+         "stem": "What can be inferred about later customers on Tuesday?",
+         "options": [
+          "They all collected copies from the office.",
+          "They could not leave any contact details.",
+          "They received copies from the delayed printing.",
+          "They could be contacted when more books arrived."
+         ],
+         "answer": 3,
+         "why": "later customers 留下了联系方式，出版小组承诺书到时通知他们。",
+         "point": "limit"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

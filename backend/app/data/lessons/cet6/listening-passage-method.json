@@ -1,0 +1,477 @@
+{
+ "id": "listening-passage-method",
+ "title": "听力篇章的信息层次",
+ "goal": "识别独白的信息层次；将问题对象对应到相关信息。",
+ "skill": "听力",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "structure",
+   "label": "识别独白的信息层次"
+  },
+  {
+   "id": "match",
+   "label": "将问题对象对应到相关信息"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语六级（CET-6）：课表",
+   "url": "docs/syllabi/cet6.md",
+   "used": "听力篇章的教学内容、知识点与练习规格"
+  },
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "依据课表和研究文件确定听力材料范围；不陈述考试事实"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "独白一般分三层。主题说明整段讲什么，分述给出过程或要点，结论根据前文作出判断。同一个名词可以出现在不同层次，判断层次要看句子的作用，不看词是否重复。"
+    },
+    {
+     "box": "The issue is how parcels are tracked. Each parcel receives a code. Clear records matter more than extra labels."
+    },
+    {
+     "p": "第一句提出主题，第二句说明具体做法，第三句作出判断。问做法时，答案在编码这一句。问整体判断时，答案在最后一句。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定信息范围",
+     "d": "先判断题目问整段还是局部。What is the overall organization? 问整段的展开方式。What does the example illustrate? 问一个例子的作用。"
+    },
+    {
+     "t": "2　标记展开关系",
+     "d": "时间词连接前后阶段，列举词引出并列的方面。First we tested the route; later we changed it 表示先后。Another concern is cost 引出另一个方面。"
+    },
+    {
+     "t": "3　对应对象与层次",
+     "d": "题干的对象和动作要一起对应到原文。问 return records，就找归还记录。同一段里的 purchase records 是购买记录，不是答案。"
+    },
+    {
+     "t": "4　核对概括范围",
+     "d": "概括要保留各部分之间的关系。原文先讲问题、后讲措施，选项就不能写成并列的两个问题。末句有时只是局部补充，不一定是结论。"
+    }
+   ]
+  },
+  {
+   "id": "levels",
+   "type": "table",
+   "title": "主题与分述",
+   "cols": [
+    "层次",
+    "判断依据",
+    "例句"
+   ],
+   "rows": [
+    [
+     "主题",
+     "全段共同讨论的对象。开头的背景句往往不是主题。",
+     "The building is old. Our concern is how its rooms are allocated."
+    ],
+    [
+     "分述：过程",
+     "按阶段推进，各阶段同属一个主题。",
+     "Initially rooms were assigned informally; later a booking system was introduced."
+    ],
+    [
+     "分述：方面",
+     "并列说明几个方面，彼此没有先后。",
+     "One concern is access. Another is noise."
+    ],
+    [
+     "结论",
+     "归纳前文的关系。要看内容，不能只看位置。",
+     "These arrangements show why access and quiet must be considered together."
+    ],
+    [
+     "局部例子",
+     "解释其中一个方面，不是整段的判断。",
+     "For example, a rehearsal room needs a different booking period."
+    ]
+   ]
+  },
+  {
+   "id": "organization",
+   "type": "table",
+   "title": "展开方式与问题对象",
+   "cols": [
+    "方式",
+    "对应内容",
+    "例"
+   ],
+   "rows": [
+    [
+     "时间顺序",
+     "按事件的先后回忆。later 表示时间，不表示原因。",
+     "A trial began in May. Later, evening sessions were added."
+    ],
+    [
+     "要点列举",
+     "按并列的方面回忆。second 是第二点，不一定是第二阶段。",
+     "First, consider cost. Second, consider reliability."
+    ],
+    [
+     "问题对象",
+     "对象和动作一起核对，不只对名词。",
+     "How were tools returned? → Staff checked each item."
+    ],
+    [
+     "信息层次",
+     "区分局部做法与整体评价。",
+     "Numbered shelves are one measure; reliable access is the wider aim."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A village newsletter changed its delivery system over the summer. At first, volunteers carried bundles to every street. They then asked each household to choose paper or email. After the choices were recorded, the team printed only the copies requested. The result was a clearer division between paper delivery and electronic distribution, rather than a complete replacement of paper."
+    },
+    {
+     "box": "Which outline best represents the account?\n1. Two unrelated delivery problems followed by a printing schedule\n2. An original arrangement, successive changes, and their outcome\n3. An email service, its closure, and a return to paper\n4. A printing result followed by competing household opinions"
+    },
+    {
+     "p": "At first、then、After 和 The result 标出原来的做法、几次调整和结果，第二项保留了这层关系。如果问 household choices，答案在记录选择的那一步，不在最后关于纸质版的结论。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "局部代替整体",
+     "Recording preferences is the whole purpose of the account.",
+     "记录选择只是调整中的一步。"
+    ],
+    [
+     "顺序改成并列",
+     "Paper and email are two unrelated projects.",
+     "两种渠道属于同一次配送调整。"
+    ],
+    [
+     "结果改成起点",
+     "Reduced printing led to the household survey.",
+     "原文先征询选择，再调整印量。"
+    ],
+    [
+     "扩大结论",
+     "Electronic distribution replaced all paper copies.",
+     "rather than 说明纸质版仍然保留。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "structure",
+    "match"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A pottery cooperative reviews its shared workspace in two respects. Storage is the first concern: unfinished objects need identifiable shelves. Ventilation is the second: certain tasks need a suitable working area. These are simultaneous requirements, not stages in making a pot. Both affect how members use the room."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "How is the description organized?",
+       "options": [
+        "By successive stages of making one object",
+        "By two requirements for a shared workspace",
+        "By a comparison of finished and unfinished pots",
+        "By the history of the cooperative's membership"
+       ],
+       "answer": 1,
+       "why": "依据是 two respects 和 simultaneous requirements：两项要求同时存在，即第二项。第一项说的制作阶段，原文用 not stages in making a pot 否定了。",
+       "point": "structure"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A local walking group tested a new route in spring. It first measured the walking time, then checked places where members could rest. The final report said the route was manageable with planned breaks. The report's map showed the rest points, while a separate note recorded the timing trial."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which part addresses a question about the overall judgment of the route?",
+       "options": [
+        "The map locating individual rest points",
+        "The note recording the initial timing trial",
+        "The description of the first measurement",
+        "The final report's judgment of the route"
+       ],
+       "answer": 3,
+       "why": "依据是 The final report said the route was manageable with planned breaks，这是对路线的整体判断，即第四项。地图和计时记录只是细节。",
+       "point": "match"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A textile repair group began by replacing loose buttons. Later it accepted torn seams, and eventually it offered advice on caring for repaired clothes. The speaker describes this expansion to explain how a narrow service developed. The account does not compare the popularity of different fabrics or the price of individual repairs."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which outline follows the speaker's organization?",
+       "options": [
+        "A limited service followed by successive additions",
+        "Several fabrics compared by their repair costs",
+        "Care advice followed by the end of seam repairs",
+        "Button repairs, then seam repairs, then a narrower service"
+       ],
+       "answer": 0,
+       "why": "began、Later、eventually 依次增加服务项目，即第一项。第四项说服务变窄，与扩展的方向相反。",
+       "point": "structure"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A rooftop garden report considers watering and access separately. The watering section describes how containers are checked after dry weather. The access section explains which stairway stays open during deliveries. Its conclusion says that both routines need named volunteers, so that neither task is left to an unspecified member."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which part provides evidence about reaching the garden during deliveries?",
+       "options": [
+        "The conclusion about assigning named volunteers",
+        "The section about checking dry containers",
+        "The explanation of the open stairway",
+        "The comparison of the two routine tasks"
+       ],
+       "answer": 2,
+       "why": "依据是 The access section explains which stairway stays open during deliveries，即第三项。浇水部分不涉及出入。",
+       "point": "match"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "structure",
+    "match"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A language club has reorganized its collection of recordings. Initially, files were arranged by the date they arrived. Members looking for a particular topic had to open many files. The club then added topic descriptions, keeping the arrival dates in a separate field. Finally, it introduced a review of the descriptions when members reported a misleading entry. The speaker uses this history to distinguish storing recordings from making them easy to locate. The final review is one part of that process, not the entire purpose of the collection."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which outline best represents the passage?",
+       "options": [
+        "A comparison of languages followed by recording advice",
+        "A description of members followed by their arrival dates",
+        "An initial system, later adjustments, and a general distinction",
+        "A misleading entry followed by the removal of topic descriptions"
+       ],
+       "answer": 2,
+       "why": "Initially、then、Finally 交代原来的系统和后来的调整，最后区分 storing 和 making them easy to locate，即第三项。",
+       "point": "structure"
+      },
+      {
+       "stem": "Which information answers a question about the original filing principle?",
+       "options": [
+        "The use of arrival dates to arrange files",
+        "The revision of misleading topic descriptions",
+        "The separation of storage from easy searching",
+        "The addition of topics to previously dated files"
+       ],
+       "answer": 0,
+       "why": "依据是 Initially, files were arranged by the date they arrived，即第一项。第四项的主题说明是后来加上的。",
+       "point": "match"
+      },
+      {
+       "stem": "What role does the final distinction play?",
+       "options": [
+        "It introduces another recording topic.",
+        "It names the final review as the collection's purpose.",
+        "It repeats the review procedure alone.",
+        "It interprets the changes at a broader level."
+       ],
+       "answer": 3,
+       "why": "distinguish storing recordings from making them easy to locate 把具体调整上升为一般的区分，即第四项。第二项与 not the entire purpose 相反。",
+       "point": "structure"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "structure",
+    "match"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the passage.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'm going to describe how a neighborhood tool collection became a lending service. The important change was not the number of tools but the way responsibility for them was organized. At first, residents left unwanted equipment in a shared shed. Anyone could borrow it, and a notebook near the door recorded names. This arrangement seemed convenient, but entries often omitted the return date. When a drill disappeared for several weeks, nobody knew whether it was still being used or had been returned to a different shelf. The group first tried buying more equipment. That made the shelves fuller without making the records clearer. Next, volunteers gave every tool a number and placed a matching card beside it. A borrower took the card to a volunteer, who recorded an agreed return date. Later, the group introduced a brief inspection when each item came back. This wasn't intended to blame borrowers for every scratch. It allowed the next person to know whether the tool was ready for use. After several months, the volunteers reviewed the missing-item reports. They found that the clearer handover process had reduced uncertainty, even though the collection itself had barely grown. The notebook remains in the shed as a record of the project's beginning, but it is no longer the main lending record. The experience suggests that a shared resource depends on clear responsibilities at each transfer. Extra equipment can be useful, but it cannot replace an arrangement that shows who has an item and when it is expected back."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which outline best captures the organization of the passage?",
+         "options": [
+          "An informal system, later revisions, and a point about responsibility",
+          "A shortage of tools, more purchases, and a larger collection as the result",
+          "A final lending rule followed by reasons to abandon inspections",
+          "A drill's disappearance, a search for it, and the borrower who returned it"
+         ],
+         "answer": 0,
+         "why": "At first、Next、Later 交代借用制度的演变，结尾 clear responsibilities at each transfer 给出总体判断，即第一项。",
+         "point": "structure"
+        },
+        {
+         "stem": "Which section supplies the evidence for a question about checking readiness for the next borrower?",
+         "options": [
+          "The account of the original name notebook",
+          "The description of the extra equipment purchase",
+          "The explanation of inspections at return",
+          "The report about a drill's long absence"
+         ],
+         "answer": 2,
+         "why": "依据是 introduced a brief inspection when each item came back。归还时检查，下一位借用者就知道工具能否使用，即第三项。",
+         "point": "match"
+        },
+        {
+         "stem": "How does the final observation relate to the earlier events?",
+         "options": [
+          "It makes the original notebook the preferred lending record again.",
+          "It generalizes what the changes reveal about shared resources.",
+          "It treats the missing drill as the collection's only concern.",
+          "It proposes more purchases as a substitute for clear records."
+         ],
+         "answer": 1,
+         "why": "依据是 a shared resource depends on clear responsibilities。结尾把前面的变化概括为共用资源的一般要求，即第二项。",
+         "point": "structure"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the passage.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Today I'm discussing how a small audio archive makes recorded interviews usable. Storing a sound file is only the beginning. A recording becomes easier to find and interpret when information about its contents, its context, and its permitted uses accompanies it. Consider content first. The archive adds short summaries and keywords rather than expecting visitors to listen to every file. An interview about factory work might mention both a particular machine and the experience of changing shifts. Recording both topics makes different searches possible. Context is a separate concern. A date, a location, and a description of the interviewer's role help explain the circumstances in which an account was produced. These details do not prove that every remembered event is accurate. They allow a listener to judge what kind of account is being heard. Permission is the third concern. Some contributors allow public listening but not publication of extracts. Others approve extracts only after checking them. A clear permission note prevents an easily found recording from being treated as freely reusable. These categories are maintained together, although they answer different questions. A keyword identifies a topic; it doesn't establish permission. A permission note describes an allowed use; it doesn't explain when an event occurred. The archive therefore checks all three categories whenever it adds a recording. Its aim isn't merely to accumulate more files. It is to preserve the information that makes each file discoverable, understandable, and usable within the contributor's agreed limits."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "How does the speaker organize the main explanation?",
+         "options": [
+          "By tracing how one recording moved from storage to publication",
+          "By comparing the accuracy of three contributors' memories",
+          "By ranking interviews according to their recording dates",
+          "By examining distinct information needs around a recording"
+         ],
+         "answer": 3,
+         "why": "content、Context、Permission 是一份录音需要的三类信息，即第四项。第一项把并列的三个方面当成了先后过程。",
+         "point": "structure"
+        },
+        {
+         "stem": "Which part should be recalled to answer a question about publishing an extract?",
+         "options": [
+          "The discussion of restrictions agreed with contributors",
+          "The example of keywords for changing factory shifts",
+          "The explanation of an interviewer's role in an account",
+          "The distinction between stored files and searchable topics"
+         ],
+         "answer": 0,
+         "why": "依据是 Some contributors allow public listening but not publication of extracts。能否发布片段，看的是与提供者约定的许可，即第一项。",
+         "point": "match"
+        },
+        {
+         "stem": "Which part provides the relevant information about the circumstances of an interview?",
+         "options": [
+          "The description of checking extracts before publication",
+          "The explanation of dates, locations, and interviewer roles",
+          "The example of using machine names as search keywords",
+          "The conclusion that the archive aims at more than adding files"
+         ],
+         "answer": 1,
+         "why": "依据是 A date, a location, and a description of the interviewer's role。这些信息说明访谈的背景，即第二项。",
+         "point": "match"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

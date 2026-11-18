@@ -1,0 +1,514 @@
+{
+ "id": "speaking-repeat-chunks",
+ "title": "意群与停顿",
+ "goal": "把一句话切分成意群；判断停顿的位置是否合适。",
+ "skill": "speaking",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 口语",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "divide",
+   "label": "把一句话切分成意群"
+  },
+  {
+   "id": "pause",
+   "label": "判断停顿的位置是否合适"
+  }
+ ],
+ "sources": [],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "意群是意思和语法上联系紧密的一组词。本课用斜线 / 标出意群的边界。边界处可以停顿，但不是每处都要停。短句可以连贯说完，长主语和补充说明后面更常需要停顿。"
+    },
+    {
+     "box": "The new members of the orchestra / will attend an extra rehearsal / before the public concert."
+    },
+    {
+     "p": "切分时先保住短语内部的关系，再定边界。the public concert 的冠词、修饰语和名词属于同一短语。不能为了让各段词数相近而在 the 后停顿。"
+    }
+   ]
+  },
+  {
+   "id": "boundaries",
+   "type": "table",
+   "title": "意群边界",
+   "cols": [
+    "位置",
+    "规则",
+    "例句"
+   ],
+   "rows": [
+    [
+     "主语与谓语之间",
+     "长主语后可以停顿，短主语后不停。",
+     "The students assigned to the morning shift / will prepare the display."
+    ],
+    [
+     "介词短语前",
+     "较长的时间、地点短语可以单独成群，介词归在短语里。",
+     "The labels will remain visible / under the protective glass."
+    ],
+    [
+     "状语从句前",
+     "主句和原因、时间、条件从句之间可以分开，连接词归从句。",
+     "The trial will continue / unless the equipment becomes unstable."
+    ],
+    [
+     "并列成分前",
+     "并列的动词或分句之间可以分开，and 归后一个意群。",
+     "The technician will inspect the casing / and replace the damaged seal."
+    ],
+    [
+     "插入语两侧",
+     "补充说明单独成群，删去后主句仍然完整。",
+     "The revised schedule, / according to the coordinator, / will arrive tomorrow."
+    ],
+    [
+     "定语从句前",
+     "较长的定语从句前可以停顿。从句修饰的仍是前面的名词。",
+     "The team thanked the volunteer / who had translated the handwritten notes."
+    ]
+   ]
+  },
+  {
+   "id": "inside",
+   "type": "table",
+   "title": "意群内部",
+   "cols": [
+    "情况",
+    "说明",
+    "例句"
+   ],
+   "rows": [
+    [
+     "冠词与名词",
+     "a、the 和后面的名词连着说，不留在前一个意群末尾。",
+     "A detailed map of the district / hangs beside the entrance."
+    ],
+    [
+     "介词与宾语",
+     "in、of 等介词和后面的宾语连着说，介词后不停。",
+     "The colored markers are kept / in a separate wooden drawer."
+    ],
+    [
+     "助动词与主要动词",
+     "has 和后面的过去分词之间不停。",
+     "The team responsible for the survey / has completed the initial count."
+    ],
+    [
+     "形容词与名词",
+     "修饰同一名词的几个词和名词连着说。",
+     "The organizers requested several additional folding tables / for the outdoor session."
+    ],
+    [
+     "动词与短宾语",
+     "短的动词加宾语连着说，不逐词分开。",
+     "Please keep the receipt / until the replacement arrives."
+    ],
+    [
+     "插入语与主句",
+     "插入语说完后回到主句，插入语不并入谓语。",
+     "The spare battery, / despite its larger size, / fits inside the case."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The dancers from the evening class, despite the narrow stage, completed the final sequence without a break.\nThe dancers from the evening class / despite the narrow stage / completed the final sequence / without a break."
+    },
+    {
+     "p": "The dancers from the evening class 是完整的主语。despite the narrow stage 是插入的补充说明，两侧都可以停顿。completed the final sequence 是动词加宾语，连着说。"
+    },
+    {
+     "box": "Proposed boundary: The dancers from / the evening class …"
+    },
+    {
+     "p": "这里 from 和宾语 the evening class 被分开了。边界移到 class 后，主语才完整。边界的位置看结构，不看词数是否相等。"
+    }
+   ]
+  },
+  {
+   "id": "check-divide",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "divide"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The team responsible for lighting will inspect the cables before rehearsal."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which phrase is the complete subject?",
+       "options": [
+        "The team responsible for lighting",
+        "The team responsible",
+        "The cables before rehearsal",
+        "Responsible for lighting will inspect"
+       ],
+       "answer": 0,
+       "why": "The team responsible for lighting 整体是主语，谓语从 will inspect 开始。第四项把 responsible for lighting 划进了谓语。",
+       "point": "divide"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The beekeeper checked the hive and recorded the weight of the frame."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Where can the two coordinated actions be separated?",
+       "options": [
+        "Between the and hive",
+        "Between of and the frame",
+        "Before and recorded",
+        "Between the and weight"
+       ],
+       "answer": 2,
+       "why": "checked the hive 和 recorded the weight of the frame 是两个并列动作，边界在 and recorded 前。",
+       "point": "divide"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The river survey was delayed because the measuring pole was damaged."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which phrase begins the reason clause?",
+       "options": [
+        "The river survey",
+        "Because the measuring pole",
+        "Was delayed because",
+        "The measuring pole was damaged"
+       ],
+       "answer": 1,
+       "why": "because the measuring pole was damaged 是原因从句，从句从 because 开始。第四项漏了 because。",
+       "point": "divide"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The course assistant, according to the notice, will collect the folders."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which words form the inserted comment?",
+       "options": [
+        "The course assistant",
+        "Will collect the folders",
+        "The notice will collect",
+        "According to the notice"
+       ],
+       "answer": 3,
+       "why": "according to the notice 是补充信息。删去后，The course assistant will collect the folders 仍然完整。",
+       "point": "divide"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-pause",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "pause"
+   ],
+   "groups": [
+    {
+     "text": "The repair kit is stored under / the workbench.",
+     "items": [
+      {
+       "stem": "Which boundary breaks a prepositional phrase?",
+       "options": [
+        "After kit",
+        "After stored",
+        "After under",
+        "After workbench"
+       ],
+       "answer": 2,
+       "why": "under the workbench 中，under 不能与宾语分开。",
+       "point": "pause"
+      }
+     ]
+    },
+    {
+     "text": "Several bright / lanterns marked the route.",
+     "items": [
+      {
+       "stem": "Which boundary separates a modifier from its noun?",
+       "options": [
+        "After lanterns",
+        "After route",
+        "After marked",
+        "After bright"
+       ],
+       "answer": 3,
+       "why": "bright 修饰 lanterns，bright 后的停顿拆开了名词短语。",
+       "point": "pause"
+      }
+     ]
+    },
+    {
+     "text": "The evening guards have / checked every window.",
+     "items": [
+      {
+       "stem": "Which boundary interrupts the verb phrase?",
+       "options": [
+        "After have",
+        "After guards",
+        "After the",
+        "After evening guards"
+       ],
+       "answer": 0,
+       "why": "have checked 是现在完成时的谓语。have 后停顿，拆开了助动词和主要动词。",
+       "point": "pause"
+      }
+     ]
+    },
+    {
+     "text": "The new guide, according to the editor / will include larger maps.",
+     "items": [
+      {
+       "stem": "Where is the missing opening boundary for the inserted comment?",
+       "options": [
+        "After according",
+        "Before according",
+        "Before the editor",
+        "Before larger"
+       ],
+       "answer": 1,
+       "why": "according to the editor 是插入语，前后各要一个边界。editor 后已有边界，缺的是 according 前那个。",
+       "point": "pause"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "divide",
+    "pause"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The divers waiting beside the boat will check their oxygen tanks."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which phrase belongs together as the complete subject?",
+         "options": [
+          "The divers waiting",
+          "The divers waiting beside the boat",
+          "The divers waiting beside the boat will",
+          "Their oxygen tanks"
+         ],
+         "answer": 1,
+         "why": "The divers waiting beside the boat 是带修饰语的主语，谓语从 will check 开始。第三项把 will 也算进了主语。",
+         "point": "divide"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The textile samples will remain sealed until the humidity is stable."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which words begin the time clause?",
+         "options": [
+          "The textile samples",
+          "Will remain sealed",
+          "The humidity is",
+          "Until the humidity"
+         ],
+         "answer": 3,
+         "why": "until the humidity is stable 是时间从句，从句从 until 开始。",
+         "point": "divide"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The librarian counted the donated journals and placed them in labeled boxes."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which division separates the two coordinated actions?",
+         "options": [
+          "Before and placed",
+          "After donated",
+          "Before the donated journals",
+          "Before journals"
+         ],
+         "answer": 0,
+         "why": "counted the donated journals 和 placed them in labeled boxes 是两个并列动作，边界在 and placed 前。",
+         "point": "divide"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The sculpture base, despite its uneven surface, supports the clay model."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which sequence is an inserted comment rather than the main subject or predicate?",
+         "options": [
+          "The sculpture base",
+          "Supports the clay model",
+          "Despite its uneven surface",
+          "The base supports the clay model"
+         ],
+         "answer": 2,
+         "why": "despite its uneven surface 是插入说明。删去后，The sculpture base supports the clay model 仍是完整的句子。",
+         "point": "divide"
+        }
+       ]
+      },
+      {
+       "text": "The wildlife camera recorded movement near / the feeding platform.",
+       "items": [
+        {
+         "stem": "Which change preserves the location phrase as one unit?",
+         "options": [
+          "Move the slash to before near.",
+          "Move the slash to after the.",
+          "Move the slash to after feeding.",
+          "Keep the slash immediately after near."
+         ],
+         "answer": 0,
+         "why": "near the feeding platform 是介词短语。边界移到 near 前，这个短语才完整。",
+         "point": "pause"
+        }
+       ]
+      },
+      {
+       "text": "The ceramics judge has / selected the final entries.",
+       "items": [
+        {
+         "stem": "Which explanation identifies the problem?",
+         "options": [
+          "The subject should include the final entries.",
+          "The adjective final should be separated from entries.",
+          "The auxiliary has has been split from selected.",
+          "The verb selected should be separated from its short object."
+         ],
+         "answer": 2,
+         "why": "has selected 是完整的谓语，斜线拆开了助动词和分词。",
+         "point": "pause"
+        }
+       ]
+      },
+      {
+       "text": "The tunnel inspectors, after a brief discussion / approved the safety plan.",
+       "items": [
+        {
+         "stem": "Where should an opening boundary be added to isolate the comment?",
+         "options": [
+          "Between brief and discussion",
+          "Between discussion and approved",
+          "Between safety and plan",
+          "Between inspectors and after"
+         ],
+         "answer": 3,
+         "why": "after a brief discussion 是插入说明，前后各要一个边界。discussion 后已有边界，缺的是 inspectors 后那个。",
+         "point": "pause"
+        }
+       ]
+      },
+      {
+       "text": "The debate coach requested a / detailed written summary.",
+       "items": [
+        {
+         "stem": "Which proposal keeps the noun phrase intact?",
+         "options": [
+          "Pause after detailed instead.",
+          "Keep a detailed written summary together.",
+          "Pause after written instead.",
+          "Keep requested a together as the final unit."
+         ],
+         "answer": 1,
+         "why": "a detailed written summary 是完整的名词短语，a、detailed、written 都和 summary 连着说。",
+         "point": "pause"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

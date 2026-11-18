@@ -1,0 +1,446 @@
+{
+ "id": "writing-relative",
+ "title": "限定信息的从句表达",
+ "goal": "把定语从句接在对应名词之后；选择符合从句成分的关系词。",
+ "skill": "写作",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "attach",
+   "label": "把定语从句接在对应名词之后"
+  },
+  {
+   "id": "form",
+   "label": "选择符合从句成分的关系词"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语六级（CET-6）：课表",
+   "url": "docs/syllabi/cet6.md",
+   "used": "写作部分本课的内容范围、知识点与练习规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "定语从句接在名词之后，补充这个名词的信息。合并两句时，先找出两句共有的对象，再看它在第二句里作主语、宾语还是所属成分。关系词已经代替了这个对象，从句里不再保留 it、them 这类代词。"
+    },
+    {
+     "box": "The assistant found a note. The note explained the delay. → The assistant found a note that explained the delay."
+    },
+    {
+     "p": "例句中 that 作从句主语，后面不再加 it。限定从句用来确定所指的是哪一个。补充从句只增加信息，用逗号隔开，不用 that 引导。"
+    }
+   ]
+  },
+  {
+   "id": "roles",
+   "type": "table",
+   "title": "关系词与成分",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "主语：人",
+     "用 who 作从句主语，限定从句也可用 that。",
+     "A volunteer greeted us. The volunteer knew the route. → A volunteer who knew the route greeted us."
+    ],
+    [
+     "主语：物",
+     "用 which 作从句主语，限定从句也可用 that。后面不再加 it。",
+     "A device sounded. It detected smoke. → A device that detected smoke sounded."
+    ],
+    [
+     "宾语：物",
+     "关系词代替宾语，从句里不再写 it。",
+     "The file was incomplete. We received it yesterday. → The file that we received yesterday was incomplete."
+    ],
+    [
+     "宾语：人",
+     "用 whom 或 who 作宾语，限定从句也可用 that。",
+     "The adviser helped us. The director recommended her. → The adviser whom the director recommended helped us."
+    ],
+    [
+     "所属：人",
+     "whose 后面接名词。who’s 是 who is 的缩写，不能代替 whose。",
+     "A guest returned. Her bag was missing. → A guest whose bag was missing returned."
+    ],
+    [
+     "所属：物",
+     "物的所属关系也用 whose。",
+     "The box was removed. Its lid was broken. → The box whose lid was broken was removed."
+    ]
+   ]
+  },
+  {
+   "id": "attachment",
+   "type": "table",
+   "title": "从句的修饰对象",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "紧接名词",
+     "从句放在它所描述的名词之后。",
+     "The clerk thanked the courier who had found the parcel."
+    ],
+    [
+     "主语限定",
+     "从句修饰主语时，主句谓语放在从句之后。",
+     "The shelf that holds the maps needs repair."
+    ],
+    [
+     "对象改变",
+     "从句换到另一个名词之后，描述的对象随之改变。",
+     "The clerk who found the parcel thanked the courier."
+    ],
+    [
+     "宾语省略",
+     "关系词作宾语时可以省略，作主语时不能省略。",
+     "The form we checked is complete. The form that arrived is complete."
+    ]
+   ]
+  },
+  {
+   "id": "commas",
+   "type": "table",
+   "title": "限定与补充说明",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "限定对象",
+     "从同类对象中选出一部分，不加逗号。",
+     "The folders that contain invoices are locked."
+    ],
+    [
+     "补充说明",
+     "对象已经确定，逗号之间补充信息。",
+     "The accounts folder, which contains invoices, is locked."
+    ],
+    [
+     "补充关系词",
+     "补充从句用 which 或 who，不用 that。",
+     "Mira, who manages the desk, keeps the key."
+    ],
+    [
+     "意义差别",
+     "有无逗号决定所指范围。前句只指有罩的推车，后句指全部推车。",
+     "The carts that have covers stay outside. The carts, which have covers, stay outside."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "An exhibition manager is comparing two cabinets. One cabinet has a damaged lock; the other has a working lock. The damaged cabinet must be repaired before it can hold valuable objects. A sentence that identifies the cabinet should include the lock condition as limiting information. The condition belongs to the cabinet, not to the manager or to the objects. An extra object pronoun is unnecessary because the relative construction already links the lock to the cabinet."
+    },
+    {
+     "box": "Which sentence identifies the correct cabinet?\n1. The manager whose lock is damaged must repair the cabinet.\n2. The cabinet whose lock is damaged requires repair.\n3. The cabinet which its lock is damaged requires repair.\n4. The objects whose lock is damaged belong in the cabinet."
+    },
+    {
+     "p": "第二项用 whose lock 表示柜子的锁，从句紧接 cabinet。第三项在 which 后面又写 its，所属关系重复。"
+    }
+   ]
+  },
+  {
+   "id": "practice-1",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "attach",
+    "form"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The technician inspected two displays beside a cabinet. The first display had a loose panel; the second had a faulty switch. Which relative clause identifies the first display?",
+       "options": [
+        "The technician inspected the display that had a loose panel.",
+        "The technician inspected the display that had a faulty switch.",
+        "The technician inspected the cabinet that had a loose panel.",
+        "The technician inspected the cabinet that had a faulty switch."
+       ],
+       "answer": 0,
+       "why": "依据：The first display had a loose panel。第一项把 that had a loose panel 接在 display 之后，指的是第一个展台。第三项把面板松动归给了 cabinet。",
+       "point": "attach"
+      },
+      {
+       "stem": "The writer reviewed an article. The editor sent the article. Which combination avoids a repeated object?",
+       "options": [
+        "The writer reviewed the article that the editor sent it.",
+        "The writer reviewed the article that the editor sent.",
+        "The writer reviewed the article which the editor sent it.",
+        "The writer reviewed the article whose the editor sent."
+       ],
+       "answer": 1,
+       "why": "that 已经作 sent 的宾语，句末不再加 it。第二项没有重复的宾语。",
+       "point": "form"
+      },
+      {
+       "stem": "A resident lost a permit. The resident contacted the office. Which relative phrase expresses possession?",
+       "options": [
+        "who permit was lost",
+        "which permit was lost",
+        "whose permit was lost",
+        "who’s permit was lost"
+       ],
+       "answer": 2,
+       "why": "whose permit 表示居民的许可证。第四项的 who’s 是 who is 或 who has 的缩写，不表示所属。",
+       "point": "form"
+      },
+      {
+       "stem": "Only chairs with damaged legs need inspection. Which sentence restricts inspection to those chairs?",
+       "options": [
+        "The chairs that have damaged legs are exempt from inspection.",
+        "All the chairs, including those with undamaged legs, need inspection.",
+        "The chairs that have undamaged legs need inspection.",
+        "The chairs that have damaged legs need inspection."
+       ],
+       "answer": 3,
+       "why": "依据：Only chairs with damaged legs need inspection。第四项用限定从句 that have damaged legs 选出损坏的椅子，检查范围与原句一致。第一项把要求说反了。",
+       "point": "attach"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-2",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "attach",
+    "form"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Attach the information about faded lettering to the notice.",
+       "lead": "The notice",
+       "chunks": [
+        "that has",
+        "faded lettering needs",
+        "a clearer",
+        "replacement"
+       ],
+       "tail": ".",
+       "extra": [
+        "the clerk who"
+       ],
+       "why": "从句 that has faded lettering 紧跟 notice，字迹褪色的是通知。",
+       "point": "attach"
+      },
+      {
+       "stem": "Identify the folders selected by the auditor without shifting the selection to another object.",
+       "lead": "The folders",
+       "chunks": [
+        "that the auditor",
+        "selected contain",
+        "copies of",
+        "the original invoices"
+       ],
+       "tail": ".",
+       "extra": [
+        "that selected the auditor"
+       ],
+       "why": "that 作 selected 的宾语，挑选文件夹的是 auditor。多余词块 that selected the auditor 把动作的发出者弄反了。",
+       "point": "attach"
+      },
+      {
+       "stem": "Combine two statements about a parcel and its missing label.",
+       "lead": "The parcel",
+       "chunks": [
+        "whose label",
+        "is missing",
+        "requires",
+        "identification"
+       ],
+       "tail": ".",
+       "extra": [
+        "which label"
+       ],
+       "why": "whose label 表示包裹的标签。which 后面直接接 label 不能表示所属。",
+       "point": "form"
+      },
+      {
+       "stem": "Describe an already identified logbook with supplementary information.",
+       "lead": "The main logbook,",
+       "chunks": [
+        "which records",
+        "daily inspections,",
+        "is kept",
+        "at the entrance"
+       ],
+       "tail": ".",
+       "extra": [
+        "that records"
+       ],
+       "why": "logbook 已经确定，补充从句用 which。从句以逗号结束，后面接主句谓语 is kept。",
+       "point": "form"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "attach",
+    "form"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "A caretaker inspected a trolley. The trolley blocked the narrow passage. Which sentence puts the relative clause after the object it describes?",
+         "options": [
+          "The caretaker inspected the trolley that blocked the narrow passage while the visitors waited near the entrance to the main hall.",
+          "The caretaker who blocked the narrow passage inspected the trolley while the visitors waited near the entrance to the main hall.",
+          "The caretaker inspected the narrow passage that blocked the trolley while the visitors waited near the entrance to the main hall.",
+          "The caretaker inspected the trolley while the visitors who blocked the narrow passage waited near the entrance to the main hall."
+         ],
+         "answer": 0,
+         "why": "依据：The trolley blocked the narrow passage。第一项把 that blocked 接在 trolley 之后，挡路的是推车。第三项把主宾弄反，成了通道挡住推车。",
+         "point": "attach"
+        },
+        {
+         "stem": "Which version combines “The committee selected a proposal” and “Its budget was fully explained” using a possessive relative?",
+         "options": [
+          "The committee selected the proposal which its budget was fully explained in the supporting documents submitted before the final meeting of the review group.",
+          "The committee selected the proposal whose budget was fully explained in the supporting documents submitted before the final meeting of the review group.",
+          "The committee selected the proposal who’s budget was fully explained in the supporting documents submitted before the final meeting of the review group.",
+          "The committee selected the proposal that its budget was fully explained in the supporting documents submitted before the final meeting of the review group."
+         ],
+         "answer": 1,
+         "why": "原句 Its budget 指方案的预算，合并后写作 whose budget。第一项在 which 后面又写 its，所属关系重复。",
+         "point": "form"
+        },
+        {
+         "stem": "Only records containing personal addresses must be locked away. Which sentence preserves that restriction?",
+         "options": [
+          "The records, which contain personal addresses, must be locked away before the archive opens its reading area to visitors from outside the organization.",
+          "The records that contain no personal addresses must be locked away before the archive opens its reading area to visitors from outside the organization.",
+          "The records that contain personal addresses must be locked away before the archive opens its reading area to visitors from outside the organization.",
+          "The records that contain personal addresses may remain unlocked when the archive opens its reading area to visitors from outside the organization."
+         ],
+         "answer": 2,
+         "why": "依据：Only records containing personal addresses。第三项不加逗号，只选出含住址的记录。第一项加了逗号，意思变成所有记录都含住址。",
+         "point": "attach"
+        },
+        {
+         "stem": "Which sentence omits the redundant object while preserving the editor as the sender of the revised instructions?",
+         "options": [
+          "The instructions that the editor sent them include a separate explanation of the checks required before the new version can be approved.",
+          "The instructions which the editor sent them include a separate explanation of the checks required before the new version can be approved.",
+          "The instructions whose the editor sent include a separate explanation of the checks required before the new version can be approved.",
+          "The instructions that the editor sent include a separate explanation of the checks required before the new version can be approved."
+         ],
+         "answer": 3,
+         "why": "that 作 sent 的宾语，后面不再加 them。第四项没有重复的宾语，发出说明的仍是 editor。",
+         "point": "form"
+        }
+       ]
+      },
+      {
+       "items": [
+        {
+         "stem": "Identify the adapter by the device it supports, keeping the relative clause next to adapter.",
+         "lead": "The adapter",
+         "chunks": [
+          "that powers",
+          "the recording device requires",
+          "a separate",
+          "socket"
+         ],
+         "tail": "beside the table where the demonstration will take place later today.",
+         "extra": [
+          "that the device powers"
+         ],
+         "why": "that powers 紧跟 adapter，供电的是适配器。多余词块 that the device powers 把两者的关系反了过来。",
+         "point": "attach"
+        },
+        {
+         "stem": "Restrict the instruction to notices carrying an old address.",
+         "lead": "The notices",
+         "chunks": [
+          "that display",
+          "the old address",
+          "need",
+          "immediate replacement"
+         ],
+         "tail": "before the office begins accepting visitors at its new location across town.",
+         "extra": [
+          "which,"
+         ],
+         "why": "that display 紧跟 notices，不加逗号，只指印有旧地址的通知。",
+         "point": "attach"
+        },
+        {
+         "stem": "Describe a completed application whose contact details are missing.",
+         "lead": "The application",
+         "chunks": [
+          "whose contact details",
+          "are missing",
+          "cannot be",
+          "processed"
+         ],
+         "tail": "until the office has a reliable way to reach the person who submitted it.",
+         "extra": [
+          "which contact details"
+         ],
+         "why": "whose contact details 表示申请表上的联系方式。which 不能这样表示所属。",
+         "point": "form"
+        },
+        {
+         "stem": "Add supplementary information about the already identified central register.",
+         "lead": "The central register,",
+         "chunks": [
+          "which lists",
+          "all current loans,",
+          "provides",
+          "a record"
+         ],
+         "tail": "of the equipment that must be returned before the end of the month.",
+         "extra": [
+          "that lists"
+         ],
+         "why": "register 已经确定，补充从句用 which。从句以逗号结束，后面接主句谓语 provides。",
+         "point": "form"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

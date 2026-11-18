@@ -1,0 +1,56 @@
+{
+ "id": "writing-practical-thanks", "title": "感谢信", "goal": "能说明受到的具体帮助及其影响。", "skill": "写作", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "specific", "label": "明确指出受到的具体帮助"}, {"id": "effect", "label": "用恰当句子说明帮助产生的影响"}],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "感谢信的结构、表达和知识点"}],
+ "cards": [
+  {"id": "structure", "type": "table", "title": "结构", "cols": ["部分", "内容", "例句"], "rows": [
+   ["感谢事项", "明确感谢对方的帮助。", "Thank you for helping with our exhibition."],
+   ["具体帮助", "说明对方做了什么。", "You showed us how to arrange the photographs."],
+   ["产生的影响", "写出帮助带来的变化。", "Your advice helped us arrange them by date."],
+   ["再次致谢", "在结尾重申感谢。", "I am grateful for your generous help."]
+  ]},
+  {"id": "expressions", "type": "table", "title": "常用表达", "cols": ["表达", "用法", "例句"], "rows": [
+   ["appreciate + 名词", "后接感谢的事物。", "I appreciate your careful advice."],
+   ["appreciate + doing", "后接动名词说明帮助。", "I appreciate your sharing the notes."],
+   ["be grateful for", "for 后接名词或动名词。", "I am grateful for your help with the event."],
+   ["thanks to", "引出产生结果的原因。", "Thanks to your map, we found the venue."],
+   ["help + 宾语 + 动词原形", "说明帮助产生的结果。", "Your notes helped me prepare the report."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "假定李华感谢同学帮助整理展览照片，需要说明帮助及其效果。\n• Describe the help.\n• Explain its effect.\nLetter 1: Dear Sam, Thank you for helping with the photo display. You sorted the photographs by date. Your work helped visitors follow the history of our club. I appreciate your help. Best, Li Hua\nLetter 2: Dear Sam, Thank you for helping with the photo display. You sorted the photographs by date. I am grateful for your time and your help. Thank you again. Best, Li Hua"},
+   {"p": "两封信都说明对方按日期整理照片。第一封还写出效果：观众因此能了解社团的历史。第二封只重复感谢，没有写出帮助的效果。"}
+  ]},
+  {"id": "errors", "type": "table", "title": "常见错误", "cols": ["问题", "片段", "修改"], "rows": [
+   ["感谢事项空泛", "Thank you for everything.", "Thank you for checking my report."],
+   ["缺少具体帮助", "You were very helpful.", "You corrected the dates in my report."],
+   ["缺少效果", "I appreciate your careful notes.", "Your notes helped me prepare the report."],
+   ["效果与帮助无关", "Your map was blue.", "Your map helped us find the venue."]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["specific", "effect"], "groups": [
+   {"text": "假定同学帮助李华修改英文演讲中的发音。", "items": [{"stem": "Which sentence identifies the help?", "options": ["Thank you for correcting my pronunciation.", "Thank you for helping me with my speech.", "Thank you for writing my English speech for me.", "Thank you for attending my English speech."], "answer": 0, "why": "情境是同学帮助修改演讲中的发音。第一项写出了这一具体帮助；第二项只说帮了忙，没有说明帮了什么。", "point": "specific"}]},
+   {"text": "假定教师给李华一张地图，帮助他找到展览场地。", "items": [{"stem": "Which sentence states the effect of the map?", "options": ["Thank you for giving me a map of the exhibition area.", "Thanks to your map, I found the exhibition venue.", "Your map showed the way to the exhibition venue.", "I will take your map to the next exhibition."], "answer": 1, "why": "情境是地图帮助李华找到了展览场地。第二项用 Thanks to 写出这一效果；第三项只描述了地图，没有写出效果。", "point": "effect"}]},
+   {"text": "假定同学帮助李华检查报告中的日期。", "items": [{"stem": "Which sentence specifies the help received?", "options": ["I appreciate your help with my report.", "I appreciate your typing all the dates into my report.", "I appreciate your checking the report's dates.", "I appreciate the date of the report."], "answer": 2, "why": "情境是同学帮助检查报告中的日期。第三项写出了这一具体帮助；第一项只说帮了报告的忙。", "point": "specific"}]},
+   {"text": "假定朋友借给李华一本词典，使他查到了生词。", "items": [{"stem": "Which sentence explains the effect?", "options": ["Thank you for lending me your dictionary.", "I will return your dictionary to you after the lesson.", "I looked up the new words in my textbook.", "Your dictionary helped me look up the new words."], "answer": 3, "why": "情境是借来的词典让李华查到了生词。第四项用 helped me look up 写出这一效果；第一项只写了帮助本身。", "point": "effect"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["specific", "effect"], "groups": [{"items": [
+   {"stem": "Thank a classmate for sharing notes.", "lead": "I am", "chunks": ["grateful", "for", "your", "sharing the"], "tail": "notes.", "extra": ["share"], "why": "grateful for 后接名词或动名词，sharing the notes 指出具体帮助。", "point": "specific"},
+   {"stem": "Explain that the notes helped with a report.", "lead": "Your notes", "chunks": ["helped", "me", "prepare", "the"], "tail": "report.", "extra": ["preparing"], "why": "helped me prepare 说明笔记带来的帮助。", "point": "effect"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["specific", "effect"], "sets": [{"id": "set-a", "groups": [
+   {"text": "假定李华感谢教师提供书目，书目帮助他找到关于园林的资料。", "items": [
+    {"stem": "Which sentence specifies the teacher's help?", "options": ["I appreciate your providing the reading list.", "I appreciate your help with my study.", "I appreciate your finding the garden books for me.", "I appreciate your interest in the garden."], "answer": 0, "why": "情境是教师提供了书目。第一项写出了这一具体帮助；第三项把找资料说成了教师做的事。", "point": "specific"},
+    {"stem": "Which sentence states the effect of that help?", "options": ["Thank you for giving me the reading list.", "Your list helped me find material on gardens.", "Your list helped me choose a garden to visit.", "The reading list includes several long titles."], "answer": 1, "why": "情境是书目帮助李华找到了园林资料。第二项写出这一效果；第三项把效果写成了选择要参观的园林。", "point": "effect"}
+   ]},
+   {"text": "假定李华感谢同学修理展览用的台灯，台灯照亮了作品标签。", "items": [
+    {"stem": "Which sentence identifies the specific help?", "options": ["I am grateful for your help with the exhibition.", "I am grateful for the labels on the works.", "I am grateful for your repairing the desk lamp.", "I am grateful for your buying a new desk lamp."], "answer": 2, "why": "情境是同学修好了展览用的台灯。第三项写出了这一具体帮助；第四项把修理写成了买新台灯。", "point": "specific"},
+    {"stem": "Which sentence describes the effect of the repair?", "options": ["Thank you for repairing the lamp for the exhibition.", "The lamp was broken before the exhibition.", "The repaired lamp lit the paintings in the room.", "The repaired lamp lit the labels on the works."], "answer": 3, "why": "情境是修好的台灯照亮了作品标签。第四项写出这一效果；第三项把照亮的对象换成了画作。", "point": "effect"}
+   ]},
+   {"items": [
+    {"stem": "Thank a friend for lending a useful map.", "lead": "I appreciate", "chunks": ["your", "lending", "me", "the"], "tail": "map.", "extra": ["lend"], "why": "appreciate 后用动名词 lending，明确感谢借地图的帮助。", "point": "specific"},
+    {"stem": "Explain that the map helped the writer find the station.", "lead": "Thanks", "chunks": ["to", "your map,", "I found", "the bus"], "tail": "station.", "extra": ["finding"], "why": "Thanks to your map 引出原因，I found the bus station 说明结果。", "point": "effect"},
+    {"stem": "Thank a teacher for checking a project plan.", "lead": "I am", "chunks": ["grateful", "for", "your checking", "my project"], "tail": "plan.", "extra": ["check"], "why": "grateful for 后接动名词短语，写明检查计划的帮助。", "point": "specific"},
+    {"stem": "Explain that the teacher's comments improved the plan.", "lead": "Your comments", "chunks": ["helped", "me", "improve", "the"], "tail": "plan.", "extra": ["improving"], "why": "helped me improve 表明意见帮助改进了计划。", "point": "effect"}
+   ]}
+  ]}]} 
+ ]
+}

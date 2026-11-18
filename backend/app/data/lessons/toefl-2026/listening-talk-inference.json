@@ -1,0 +1,482 @@
+{
+ "id": "listening-talk-inference",
+ "title": "推断题与讲者态度",
+ "goal": "为推断找到短讲中的依据；判断讲者的态度。",
+ "skill": "listening",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 听力",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "basis",
+   "label": "为推断找到短讲中的依据"
+  },
+  {
+   "id": "attitude",
+   "label": "判断讲者的态度"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、录音长度、只放一遍"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "各题型的说明、考查的能力、官方样题"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Listening Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-listening.pdf",
+   "used": "第 1 课：四类题的说明和小测答案；第 2、4 课：应答配对、重音和语调"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "推断题要求根据讲者说过的话得出一个直接的结论。题干常含 imply、suggest、can be inferred。态度题问讲者对某个对象的评价。讲者引述的别人的看法，不是讲者自己的立场。"
+    },
+    {
+     "p": "只推一步：The device worked indoors, but outdoor trials haven't begun. 由这句只能推出室外效果尚未验证。尚未验证和已经证明无效是两种情况，推不出室外一定失败。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　寻找转折与对比",
+     "d": "转折和对比的前后两部分都要记下，条件也要记下。The new method is faster, but it misses faint signals. 这句同时说了速度上的优点和检测上的不足。"
+    },
+    {
+     "t": "2　确定评价对象",
+     "d": "把评价词和它评价的对象对应起来。A promising result, though the sample is small. 肯定的是初步结果，有保留的是样本太小。"
+    },
+    {
+     "t": "3　限制推断距离",
+     "d": "选不需要补充新事实就能成立的一项。室内成功只说明在室内有效，室外仍需测试。promising 是有希望，不是 certain。"
+    }
+   ]
+  },
+  {
+   "id": "basis",
+   "type": "table",
+   "title": "推断依据",
+   "cols": [
+    "依据",
+    "可推出的结论",
+    "例句"
+   ],
+   "rows": [
+    [
+     "对比条件",
+     "结果随条件变化，只在所说的条件下成立",
+     "The coating lasted indoors but wore off in rain."
+    ],
+    [
+     "转折限制",
+     "整体是肯定，同时指出不足",
+     "The tool is useful, but its range is limited."
+    ],
+    [
+     "未完成验证",
+     "初步成功，结论还要等后续验证",
+     "The first test worked; long-term testing is still needed."
+    ],
+    [
+     "否定绝对说法",
+     "只否定必然关系：大样本不一定更好，也不一定更差",
+     "A larger sample isn't necessarily a better sample."
+    ],
+    [
+     "评价性形容词",
+     "结果有希望，但尚未确定",
+     "The early results are encouraging."
+    ],
+    [
+     "来源与立场",
+     "引述的观点属于别人，讲者的立场在 I find 一句",
+     "Some call it conclusive, but I find that premature."
+    ]
+   ]
+  },
+  {
+   "id": "attitudes",
+   "type": "table",
+   "title": "讲者态度",
+   "cols": [
+    "表达",
+    "态度",
+    "例句"
+   ],
+   "rows": [
+    [
+     "promising / encouraging",
+     "有保留的肯定",
+     "The approach is promising, though evidence is preliminary."
+    ],
+    [
+     "useful / valuable",
+     "肯定特定用途",
+     "The archive is valuable for studying local names."
+    ],
+    [
+     "not yet convincing",
+     "认为证据尚不足",
+     "The explanation is not yet convincing without a comparison group."
+    ],
+    [
+     "surprising / unexpected",
+     "结果不符合原先预期",
+     "The result was surprising because both groups behaved similarly."
+    ],
+    [
+     "problematic / misleading",
+     "指出解释中的问题",
+     "Treating every absence as a failure would be misleading."
+    ],
+    [
+     "cautious / uncertain",
+     "暂不作强结论",
+     "I'm cautious about extending this result to other settings."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A new recording method picked up quiet bird calls in a sheltered garden. That's encouraging. But all the recordings were made on calm mornings. The method still needs testing near traffic and in windy conditions. I wouldn't call it reliable in every setting yet."
+    },
+    {
+     "box": "What is the speaker's attitude toward the method?\n1. Certain that it works equally well everywhere\n2. Uninterested because the garden was sheltered\n3. Negative because it failed on windy mornings\n4. Hopeful but unwilling to generalize the result"
+    },
+    {
+     "p": "That's encouraging 肯定了已有的结果。all the recordings were made on calm mornings 说明证据只来自平静的早晨。第四项既有希望，也有谨慎，与这两句对应。"
+    },
+    {
+     "p": "第一项说处处有效，与 I wouldn't call it reliable in every setting yet 相反。第二项与 encouraging 不符。第三项把 still needs testing 说成了已经失败。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "未验证改成失败",
+     "The method failed near traffic.",
+     "原文只说尚未测试，没有说失败"
+    ],
+    [
+     "局部成功改成普遍成功",
+     "It is reliable in every setting.",
+     "已知结果只来自庭院和平静的早晨"
+    ],
+    [
+     "保留改成否定",
+     "The result has no value.",
+     "encouraging 是积极评价"
+    ],
+    [
+     "他人观点改成讲者立场",
+     "The speaker calls the result conclusive.",
+     "Some call it … 引的是别人的观点，讲者的看法在后面"
+    ]
+   ]
+  },
+  {
+   "id": "check-short",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "basis",
+    "attitude"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The translation preserves the story's events, but several jokes depend on sounds that don't exist in the second language. A reader can follow the plot without encountering the same humor."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What can be inferred about the translation?",
+       "options": [
+        "The plot was altered to preserve the sound-based jokes.",
+        "The jokes retain their effect because the sequence of events remains.",
+        "Understanding the plot doesn't ensure the original comic effect.",
+        "The plot becomes harder to follow because the jokes use different sounds."
+       ],
+       "answer": 2,
+       "why": "依据是 A reader can follow the plot without encountering the same humor。看懂情节，未必能感受到原文的幽默，第三项说的就是这一点。",
+       "point": "basis"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "This route model is a useful starting point. It estimates travel under normal conditions, but it hasn't been checked during a major disruption. Calling it a complete guide would be premature."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "How does the speaker view the model?",
+       "options": [
+        "Helpful within limits that still need investigation",
+        "Too limited to help even under normal travel conditions",
+        "Reliable during disruptions because ordinary routes are represented",
+        "Disappointing after poor results during disruptions"
+       ],
+       "answer": 0,
+       "why": "useful starting point 是认可，hasn't been checked 和 premature 是保留。第一项同时包含这两层意思。",
+       "point": "attitude"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The pigment stayed bright in a closed drawer. The exposed sample faded. Both were kept at the same temperature, so temperature alone cannot explain the difference."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which conclusion is supported?",
+       "options": [
+        "The closed sample was kept at a lower temperature.",
+        "The drawer's temperature explains why the pigment stayed bright.",
+        "The exposed sample began with a weaker pigment than the stored sample.",
+        "Some factor beyond temperature is needed to explain the result."
+       ],
+       "answer": 3,
+       "why": "依据是 temperature alone cannot explain the difference。两件样品温度相同而结果不同，所以还需要温度以外的因素，即第四项。",
+       "point": "basis"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A researcher calls the new ranking definitive. I find that claim unconvincing: the ranking changes greatly when a single measure is removed. The underlying observations may still be useful."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is the speaker skeptical about?",
+       "options": [
+        "The possibility of using any observations",
+        "The claim that the ranking is definitive",
+        "The statement that a measure was removed",
+        "The idea that a single measure affects the ranking"
+       ],
+       "answer": 1,
+       "why": "I find that claim unconvincing 中的 claim，指前一句 calls the new ranking definitive。讲者怀疑的是排名是否定论，即第二项。",
+       "point": "attitude"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-talk",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "basis",
+    "attitude"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A theater has tested movable wall panels in an empty auditorium. Listeners in several seats reported clearer speech after the panels were adjusted. That's a promising observation, but an audience absorbs sound, and the room wasn't occupied during the test. The result therefore doesn't establish how the panels will perform during a full production. Another trial with people in the seats would address that gap. The original test is useful for choosing adjustments to examine further; it isn't a substitute for checking the room under actual performance conditions."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What can be inferred about a trial with an audience?",
+       "options": [
+        "It would repeat the conditions of the first trial.",
+        "It would establish that the original listeners misjudged speech clarity.",
+        "It would test a condition missing from the original trial.",
+        "It would measure panel movement instead of the clarity of speech."
+       ],
+       "answer": 2,
+       "why": "依据是 an audience absorbs sound 和 the room wasn't occupied during the test。第一次试验缺少观众这个条件，第三项说的是补上这一条件。",
+       "point": "basis"
+      },
+      {
+       "stem": "How does the speaker regard the first test?",
+       "options": [
+        "As sufficient evidence for choosing settings during an occupied performance",
+        "As a reason to avoid adjusting panels when the room is occupied",
+        "As evidence about seat positions rather than the panels' effect",
+        "As a useful first result that still needs a test with an audience"
+       ],
+       "answer": 3,
+       "why": "useful for choosing adjustments to examine further 与 isn't a substitute … actual performance conditions 同时支持第四项。",
+       "point": "attitude"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "basis",
+    "attitude"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to an academic talk.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "A research team wants to learn whether evening lighting changes the behavior of insects near a pond. They place one lamp beside a trap and leave a second trap unlit. More insects appear in the lit trap. At first glance, that seems to support an effect of the light. But there's a complication: the lit trap is beside dense reeds, while the unlit one is on bare ground. The vegetation could affect how many insects are nearby before either trap starts operating. I'd call the observation interesting, but not a clean test of lighting alone. Repeating the comparison with the lamp moved between locations would help separate the two possibilities. The team also used the same kind of trap at both places, which is a useful control. That choice removes one possible difference, though it doesn't remove the location problem. The result is worth investigating further. It would be premature either to declare that light caused the entire difference or to claim that light has no effect. The current design leaves more than one explanation open."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What can be inferred about the insects counted near the lamp?",
+         "options": [
+          "Their number could partly reflect the nearby vegetation.",
+          "Their number isolates lighting because both traps were of the same kind.",
+          "Their number shows the reeds weakened the lamp's effect.",
+          "Their number would remain higher if the lamp moved to the bare ground."
+         ],
+         "answer": 0,
+         "why": "依据是 The vegetation could affect how many insects are nearby。灯旁的数量可能有一部分来自芦苇的影响，第一项用 could 和 partly 保留了这层不确定。",
+         "point": "basis"
+        },
+        {
+         "stem": "How does the speaker view the current evidence?",
+         "options": [
+          "As proof that vegetation is the main cause",
+          "As weakened mainly by a difference between the two kinds of traps",
+          "As an interesting finding with unresolved explanations",
+          "As a successful control of location through the use of identical traps"
+         ],
+         "answer": 2,
+         "why": "interesting, but not a clean test of lighting alone 与 leaves more than one explanation open 共同支持第三项。",
+         "point": "attitude"
+        },
+        {
+         "stem": "What would moving the lamp between locations help determine?",
+         "options": [
+          "Whether the two traps catch insects equally well",
+          "Whether the difference follows the light or the location",
+          "Whether dense reeds develop differently under evening illumination",
+          "Whether the same insects move between the traps during the evening"
+         ],
+         "answer": 1,
+         "why": "依据是 would help separate the two possibilities。两种可能是灯光和地点，第二项说的就是区分这两者。",
+         "point": "basis"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to an academic talk.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "A historian is examining household spending through a set of old shop ledgers. These books list purchases and payments made by customers who bought on credit. They're unusually detailed, and that's valuable. The entries reveal what certain households obtained and when they paid for it. However, cash purchases weren't entered in these particular books. A household absent from the ledgers may simply have paid immediately. It would be misleading to treat that absence as evidence that the household bought nothing. There's another limit: these records come from one shop. A customer might have bought food there but clothing elsewhere. The historian can compare the ledgers with other surviving records, although not every transaction will be recoverable. I'm enthusiastic about what the books can reveal, but cautious about treating them as a complete picture of local consumption. Their detail makes them useful; it doesn't make them comprehensive. The strongest interpretation identifies both the activities the record includes and those its recording system would normally leave out. An apparent gap may reflect the bookkeeping method rather than a gap in people's everyday lives."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is the speaker's attitude toward the ledgers?",
+         "options": [
+          "Doubtful that credit purchases can reveal household consumption",
+          "Confident that their detail makes up for missing cash sales",
+          "Primarily interested in proving that cash purchases were uncommon",
+          "Positive about their detail but cautious about their coverage"
+         ],
+         "answer": 3,
+         "why": "依据是 enthusiastic about what the books can reveal, but cautious … a complete picture。前半是肯定，后半是对覆盖范围的保留，与第四项对应。",
+         "point": "attitude"
+        },
+        {
+         "stem": "What can be inferred about an unlisted household?",
+         "options": [
+          "It probably obtained no goods from this particular shop.",
+          "It may have made purchases that the books did not record.",
+          "Its purchases are likely listed under another shop's clothing sales.",
+          "It likely delayed payments longer than the recorded households did."
+         ],
+         "answer": 1,
+         "why": "依据是 cash purchases weren't entered 和 may simply have paid immediately。没有列出的家庭可能用现金买过东西，即第二项。",
+         "point": "basis"
+        },
+        {
+         "stem": "How does the speaker judge a complete reconstruction from these books alone?",
+         "options": [
+          "It would claim more coverage than the records justify.",
+          "It would be reliable because the entries are detailed.",
+          "It would be preferable to comparing other surviving records.",
+          "It would understate the detail of each entry."
+         ],
+         "answer": 0,
+         "why": "依据是 Their detail makes them useful; it doesn't make them comprehensive。只用这些账簿重建全部消费，说的范围超出了记录本身，即第一项。",
+         "point": "attitude"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

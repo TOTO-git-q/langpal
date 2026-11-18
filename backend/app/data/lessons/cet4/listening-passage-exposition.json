@@ -1,0 +1,64 @@
+{
+ "id": "listening-passage-exposition",
+ "title": "说明篇章的定义与例子",
+ "goal": "识别概念的定义与解释，判断例子所说明的观点。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "definition", "label": "识别概念的定义与解释"},
+  {"id": "example", "label": "判断例子所说明的观点"}
+ ],
+ "sources": [
+  {"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "听力篇章教学依据"}
+ ],
+ "cards": [
+  {"id": "structure", "type": "table", "title": "结构", "cols": ["层次", "功能", "例句"], "rows": [
+   ["概念", "引出说明对象", "Today I'll discuss a backup copy."],
+   ["解释", "界定概念并改述", "A backup is an extra copy kept for use if the original is lost."],
+   ["实例", "用具体情况说明观点", "For example, a student saves a copy on another device."],
+   ["结论", "概括说明的主要关系", "A separate copy can help when the original cannot be used."]
+  ], "note": "例子里的设备只是一个具体情境。定义适用的范围，看解释那一句。"},
+  {"id": "expressions", "type": "table", "title": "常用表达", "cols": ["功能", "表达", "例句"], "rows": [
+   ["定义", "refers to", "A backup refers to an extra copy of information."],
+   ["改述", "in other words", "In other words, the copy is kept separately for later use."],
+   ["举例", "for instance", "For instance, a student saves a copy on another device."],
+   ["结论", "the main point is", "The main point is that an extra copy can protect access to information."]
+  ], "note": "改述保留定义里的关键条件。例子只用来说明观点，不能当作定义。"},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A daily routine is a series of actions regularly performed in a similar order. In other words, it is an established pattern, not a single activity. For example, a student may prepare breakfast and then pack a bag each morning. Another person may follow a different sequence. The particular actions vary, but the idea of a routine concerns their regular arrangement."},
+   {"box": "Why does the speaker mention preparing breakfast and packing a bag?\n1. To define every possible morning activity\n2. To illustrate a regularly repeated sequence\n3. To argue that routines cannot differ\n4. To show that a routine is a single activity"},
+   {"p": "For example 引出具体的早晨活动，说明前面的 regularly performed in a similar order，即第二项。不同人的具体动作可以不同。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "常见错误", "cols": ["类型", "例", "核对"], "rows": [
+   ["例子代替定义", "把 routine 定义为早餐和收拾包。", "定义要包含规律重复和固定顺序两点。"],
+   ["遗漏条件", "把一次活动当成 routine。", "定义里有 regularly，一次活动不算。"],
+   ["扩大范围", "把一个人的顺序当成所有人的顺序。", "原文说 another person may follow a different sequence。"],
+   ["混淆功能", "把 for example 后的实例当成结论。", "实例说明的是它前面的观点。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["definition", "example"], "groups": [
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "A reminder is a message that helps someone remember an intended action. In other words, it brings a planned task back to attention."}]}, "items": [{"stem": "What is a reminder?", "options": ["A message that recalls a planned action", "A message that sets up a new planned task", "A record of a task already completed", "A task that needs someone's attention"], "answer": 0, "why": "helps someone remember an intended action 给出定义，即第一项。", "point": "definition"}]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "A reusable container can be used again rather than thrown away after one use. For example, a person might refill the same water bottle."}]}, "items": [{"stem": "What does the bottle illustrate?", "options": ["A container that can only hold water", "A container used only for one meal", "A container that is used more than once", "A container made for throwing away"], "answer": 2, "why": "refill the same water bottle 是 can be used again 的例子，即第三项。", "point": "example"}]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "A shortcut is a route that reaches a place more directly than another route. It does not always take less time if the path is crowded."}]}, "items": [{"stem": "What defines a shortcut in the passage?", "options": ["A route that always avoids crowds", "A route that is more direct than another", "A route that is longer but less crowded", "A route that always takes less time"], "answer": 1, "why": "reaches a place more directly than another route 是定义，即第二项。", "point": "definition"}]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "An object can have more than one use. For instance, a wide shelf can hold books and also display photographs."}]}, "items": [{"stem": "Why does the speaker mention the shelf?", "options": ["To show that a shelf should hold only books", "To explain why photographs need a wide shelf", "To show that books cannot share a shelf", "To illustrate an object with several uses"], "answer": 3, "why": "书架放书和展示照片两个用途说明 more than one use，即第四项。", "point": "example"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["definition", "example"], "groups": [
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "A shared calendar is a calendar that more than one person can view and update. In other words, it gives a group a common place to record arrangements. It does not mean that every person must attend every event. A household, for example, might add the time when a repair worker is expected. One resident can enter the appointment, and another can see it before making a different plan. A calendar may also include activities that concern only one member of the group. The value of sharing is that other members can see relevant information when they need it. The information is useful only if the entries are clear and kept current. If an appointment changes, the group needs to update the entry. Otherwise, someone may rely on the old time. A shared calendar can be kept on paper in a common room or maintained using an electronic service. A paper version can be displayed beside a door. The choice of medium does not change the basic idea of shared access. Different groups may decide who is allowed to make changes. For example, a club may allow a small team to edit its calendar while allowing all members to view it. The main point is that a common record can coordinate plans, provided the people using it understand and maintain the information."}]}, "items": [
+    {"stem": "What is a shared calendar in this passage?", "options": ["A record that every member must edit", "A calendar accessible to more than one person", "A list of events attended by everyone", "A record that must be kept on paper"], "answer": 1, "why": "more than one person can view and update 是定义。第二项是这句话的改述。", "point": "definition"},
+    {"stem": "Why is the repair appointment mentioned?", "options": ["To explain why all residents must meet the worker", "To show that calendars cannot contain private activities", "To prove that electronic records cannot be changed", "To illustrate how a shared entry helps coordinate plans"], "answer": 3, "why": "一人记录、另一人查看的例子说明共同记录有助于安排，即第四项。", "point": "example"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 8, "pass": 0.75, "points": ["definition", "example"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "Today we will consider how a regular break can fit into a long period of sitting. A break is an interruption in an ongoing activity. In other words, the activity pauses for a period before it resumes. The word itself does not specify the length of the pause or what happens during it. For instance, someone working at a desk may stand up and walk to another room before returning to the desk. That short walk illustrates a change in activity during a break. Another person might choose to stretch or simply stand. These examples are alternatives, not a required sequence. A break can also serve a practical purpose unrelated to movement. A person may pause to collect a needed document and then continue working. In both cases, the ongoing task is interrupted and later resumed. A break is different from finishing the task for the day: after a break, the person returns to the activity. People may arrange such pauses in different ways, depending on the activity and circumstances. A reminder can help someone remember a planned pause, but the reminder itself is not the break. The main point is that a break temporarily interrupts an activity; the actions during that interruption may vary. The examples of walking and collecting a document show two possibilities without defining a single correct activity for every person."}]}, "items": [
+    {"stem": "How does the speaker define a break?", "options": ["A task finished at the end of the day", "A temporary interruption of an activity", "A reminder recorded before working", "A sequence of movements performed daily"], "answer": 1, "why": "an interruption in an ongoing activity 和 resumes 说明暂时中断，即第二项。", "point": "definition"},
+    {"stem": "Why does the speaker describe walking to another room?", "options": ["To show one possible activity during a pause", "To argue that a break must include a walk", "To prove that all desk work ends after walking", "To explain why a reminder is the same as a break"], "answer": 0, "why": "walk to another room 是暂停期间改变活动的一个实例，即第一项。", "point": "example"},
+    {"stem": "What does the example of collecting a document illustrate?", "options": ["Every pause must involve a document.", "A document always ends the day's work.", "A break can have a practical purpose.", "Walking is required before every task."], "answer": 2, "why": "pause to collect a needed document 说明休息也可有实际目的，即第三项。", "point": "example"}
+   ]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "A file format is a way of organizing information in a file so that a suitable program can interpret it. In other words, it describes how the contents are arranged rather than naming the device on which the file is stored. A photograph and a written document may use different formats because their information is organized differently. For example, an image file can store a picture that a photo program displays. A text file can store words that an editor displays. These are examples of different kinds of content; they do not mean that every image file has the same format. A program must understand a format before it can interpret the information correctly. Changing the name of a file does not necessarily change the arrangement of its contents. If a person merely renames a picture with a different ending, a program may still be unable to open it as the newly named type. A separate conversion process can sometimes produce a file in another format, but the result depends on the formats and programs involved. The original file may also contain information that the new format handles differently. A useful distinction is therefore the difference between a file's name and the organization of its contents. The main point is that a format concerns that organization. The picture and text examples show why a program's ability to interpret the arrangement matters."}]}, "items": [
+    {"stem": "What does a file format describe?", "options": ["The device on which the file is stored", "The name and ending given to the file", "The program that converts the file", "How information in a file is organized"], "answer": 3, "why": "a way of organizing information in a file 给出定义，即第四项。", "point": "definition"},
+    {"stem": "Why does the speaker compare a picture file and a text file?", "options": ["To show that all images use the same format", "To illustrate different kinds of stored content", "To prove that every editor displays photographs", "To explain why devices determine file names"], "answer": 1, "why": "These are examples of different kinds of content 说明比较作用，即第二项。", "point": "example"},
+    {"stem": "Which statement restates the explanation of a format?", "options": ["It concerns how the contents are arranged.", "It names the device that stores the file.", "It guarantees any program can interpret the file.", "It is simply the ending chosen for a file name."], "answer": 0, "why": "it describes how the contents are arranged 是对定义的改述，即第一项。", "point": "definition"}
+   ]}
+  ]}]}
+ ]
+}

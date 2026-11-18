@@ -1,0 +1,53 @@
+{
+ "id": "reading-banked-pos",
+ "title": "空位的词性判断",
+ "goal": "根据句子功能和完整结构判断空位所需的词性。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "position", "label": "确定空位在句中的语法功能"},
+  {"id": "pos", "label": "根据完整结构判断所需词性"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读任务及材料范围"}],
+ "cards": [
+  {"id": "intro", "type": "text", "title": "概述", "body": [
+   {"p": "空位在句中承担主语、宾语、表语、定语或状语等功能。判断词性时，先找句子主干，再检查修饰语。"},
+   {"p": "主语、宾语等功能也可由短语或从句承担。选词填空每空只填一个词，本课只讲单个词的词性。"}
+  ]},
+  {"id": "core", "type": "table", "title": "主语、宾语与表语", "cols": ["功能", "结构与词性", "例句"], "rows": [
+   ["主语", "句首名词作动作的主体", "Patience improves communication. / Experience changes expectations."],
+   ["宾语", "及物动词后可接名词", "The team reviewed evidence. / The guide described routes."],
+   ["介词宾语", "介词后可接名词", "They discussed the effect on employment. / The plan relies on cooperation."],
+   ["表语", "系动词后可用形容词描述主语", "The room became quiet. / The explanation seems plausible."],
+   ["谓语", "主语后用限定动词陈述动作", "The river flows east. / The device measures pressure."]
+  ]},
+  {"id": "modifiers", "type": "table", "title": "定语与状语", "cols": ["功能", "结构与词性", "例句"], "rows": [
+   ["定语", "形容词置于名词前", "a flexible schedule / a reliable source"],
+   ["定语与中心词", "冠词后可先有形容词，再接名词", "a detailed report / an early decision"],
+   ["状语", "副词可修饰动词", "The train moved slowly. / The speaker responded calmly."],
+   ["程度状语", "副词可修饰形容词", "a highly effective filter / a surprisingly complex design"],
+   ["句子状语", "副词可修饰整句", "Fortunately, the package arrived. / Apparently, the office was closed."]
+  ], "note": "判断空位时须辨认整个名词短语。例如 a detailed report 中，detailed 修饰名词 report。"},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["position"], "groups": [{"items": [
+   {"stem": "In 'The committee examined the proposal', what function does 'the proposal' have?", "options": ["Subject", "Object", "Subject complement", "Adverbial"], "answer": 1, "why": "the proposal 是 examined 的宾语，即第二项。", "point": "position"},
+   {"stem": "In 'The surface became rough', what function does 'rough' have?", "options": ["Subject", "Object", "Attributive", "Subject complement"], "answer": 3, "why": "rough 位于系动词 became 后，描述主语，即第四项。", "point": "position"}
+  ]}]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["pos"], "groups": [{"items": [
+   {"stem": "Which word completes 'The editor gave a useful ___ of the chapter'?", "options": ["describe", "descriptive", "description", "descriptively"], "answer": 2, "why": "a useful 修饰名词 description，即第三项。", "point": "pos"},
+   {"stem": "Which word completes 'The road became ___ after the rain'?", "options": ["slippery", "slip", "slipperiness", "slipping"], "answer": 0, "why": "became 后用形容词 slippery 描述 road，即第一项。", "point": "pos"}
+  ]}]},
+  {"id": "check-three", "type": "check", "title": "练习三", "points": ["position", "pos"], "groups": [{"items": [
+   {"stem": "In 'The technician checked the instrument carefully', what does 'carefully' modify?", "options": ["The technician", "The instrument", "The checking action", "The whole sentence"], "answer": 2, "why": "carefully 修饰动词 checked，说明检查的方式，即第三项。", "point": "position"},
+   {"stem": "Which word completes 'The figures changed ___ over the year'?", "options": ["gradual", "gradually", "gradualness", "gradualism"], "answer": 1, "why": "副词 gradually 修饰动词 changed，即第二项。", "point": "pos"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["position", "pos"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "In 'Cooperation reduced the delay', what function does 'Cooperation' have?", "options": ["Subject", "Object", "Subject complement", "Adverbial"], "answer": 0, "why": "Cooperation 是谓语 reduced 的主语，即第一项。", "point": "position"},
+   {"stem": "In 'The workshop needs skilled workers', what function does 'skilled' have?", "options": ["A subject naming an action", "A complement describing the workshop", "An adverbial modifying needs", "An attributive modifying workers"], "answer": 3, "why": "skilled 修饰名词 workers，在名词前作定语，即第四项。", "point": "position"},
+   {"stem": "In 'The old engine runs smoothly', what function does 'smoothly' have?", "options": ["A subject naming the engine", "An adverbial modifying runs", "A complement after runs", "An attributive modifying engine"], "answer": 1, "why": "smoothly 描述 runs 的方式，作状语，即第二项。", "point": "position"},
+   {"stem": "Which word completes 'The report provides a detailed ___ of the project'?", "options": ["evaluate", "evaluative", "evaluation", "evaluated"], "answer": 2, "why": "a detailed 后需要名词 evaluation，即第三项。", "point": "pos"},
+   {"stem": "Which word completes 'The sample remained ___ during transport'?", "options": ["stable", "stability", "stabilize", "stably"], "answer": 0, "why": "系动词 remained 后用形容词 stable 描述 sample，即第一项。", "point": "pos"},
+   {"stem": "Which word completes 'The audience listened ___ to the explanation'?", "options": ["attention", "attentive", "attentiveness", "attentively"], "answer": 3, "why": "副词 attentively 修饰 listened，即第四项。", "point": "pos"}
+  ]}]}]}
+ ]
+}

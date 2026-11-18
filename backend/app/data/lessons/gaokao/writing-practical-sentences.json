@@ -1,0 +1,56 @@
+{
+ "id": "writing-practical-sentences", "title": "书面句子的完整性", "goal": "能识别句子片段并正确连接完整分句。", "skill": "写作", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "complete", "label": "识别缺少主语或谓语的句子片段"}, {"id": "connect", "label": "正确连接两个完整分句"}],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "书面句子的完整性及连接方式"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "完整的陈述句有主语和限定谓语。两个完整分句要用连词或句号连接。只用逗号连接两个完整分句，叫作逗号拼接。"}, {"box": "The guide arrived.\nThe guide at the gate.\nThe guide arrived, the tour began."}, {"p": "第一句有主语和谓语，是完整句。第二句缺少谓语。第三句是逗号拼接。"}]},
+  {"id": "fragments", "type": "table", "title": "主语与谓语", "cols": ["情况", "片段", "完整句"], "rows": [
+   ["缺谓语", "The workshop on Friday.", "The workshop begins on Friday."],
+   ["缺谓语", "The posters in the hall.", "The posters are in the hall."],
+   ["缺主语", "Will arrive at noon.", "The speaker will arrive at noon."],
+   ["缺主语", "Needs a larger table.", "The team needs a larger table."]
+  ]},
+  {"id": "coordination", "type": "table", "title": "并列连接与句号", "cols": ["关系", "逗号拼接", "修改"], "rows": [
+   ["并列", "The film ended, the discussion began.", "The film ended, and the discussion began."],
+   ["转折", "I wanted to attend, I was away.", "I wanted to attend, but I was away."],
+   ["分句分开", "The gate opened, visitors entered.", "The gate opened. Visitors entered."],
+   ["分句分开", "The rain stopped, we left.", "The rain stopped. We left."]
+  ]},
+  {"id": "subordination", "type": "table", "title": "从属连接", "cols": ["关系", "逗号拼接", "修改"], "rows": [
+   ["原因", "The hall was closed, we met outside.", "Because the hall was closed, we met outside."],
+   ["时间", "The bell rang, the guests entered.", "When the bell rang, the guests entered."],
+   ["条件", "The rain stops, we will leave.", "If the rain stops, we will leave."],
+   ["让步", "The room was small, it was bright.", "Although the room was small, it was bright."]
+  ]},
+  {"id": "attachment", "type": "table", "title": "从句与主句", "cols": ["情况", "片段或错误", "修改"], "rows": [
+   ["原因从句缺主句", "Because the bus was late.", "Because the bus was late, we walked."],
+   ["时间从句缺主句", "When the class ends.", "When the class ends, the room closes."],
+   ["主语对应", "The students is ready.", "The students are ready."],
+   ["主语对应", "The teacher have a map.", "The teacher has a map."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "Which revision connects the clauses correctly?\nOriginal: The library was closed, we used another room.\n1. The library was closed, we used another room.\n2. The library was closed, so we used another room.\n3. Because the library was closed.\n4. The library closed and another room."},
+   {"p": "第二项用 so 连接原因与结果。第三项只有原因从句，缺少主句。"}
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["complete", "connect"], "groups": [{"items": [
+   {"stem": "Which sentence has a subject and a finite verb?", "options": ["The guests arrived at noon.", "The guests at the entrance.", "The guests waiting at the entrance.", "Arrived at the entrance at noon."], "answer": 0, "why": "The guests 是主语，arrived 是限定谓语。", "point": "complete"},
+   {"stem": "Which sentence correctly joins the two clauses?", "options": ["The gate opened, the visitors entered the hall.", "The gate opened, and visitors entered.", "When the gate opened, visitors.", "Because the gate opened yesterday."], "answer": 1, "why": "and 连接 The gate opened 和 visitors entered 两个完整分句。", "point": "connect"},
+   {"stem": "Which sentence is missing a finite verb?", "options": ["The teacher checked the list.", "The teacher has the list.", "The teacher with the list.", "The teacher will check the list."], "answer": 2, "why": "The teacher with the list 没有限定谓语。", "point": "complete"},
+   {"stem": "Which revision gives a complete sentence?", "options": ["Because the bus arrived late.", "The bus arrived, we walked.", "When the bus arrived at noon.", "Because the bus was late, we walked."], "answer": 3, "why": "Because 引导原因从句，we walked 是完整主句。", "point": "connect"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["complete", "connect"], "groups": [{"items": [
+   {"stem": "Complete the statement about the visitors.", "lead": "The visitors", "chunks": ["are", "waiting", "at", "the main"], "tail": "entrance.", "extra": ["waited"], "why": "are waiting 是谓语，说明主语 visitors 的动作。", "point": "complete"},
+   {"stem": "Join the clauses to explain why the class moved.", "lead": "Because", "chunks": ["the room", "was closed,", "the class", "met outside"], "tail": ".", "extra": ["although"], "why": "Because 引导原因从句，the class met outside 是主句。", "point": "connect"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["complete", "connect"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "Which sentence has a subject and a finite verb?", "options": ["The volunteers prepared the hall.", "The volunteers in the hall.", "The volunteers preparing the hall.", "Prepared the hall before the event."], "answer": 0, "why": "The volunteers 是主语，prepared 是限定谓语。", "point": "complete"},
+   {"stem": "Which revision correctly joins the clauses?", "options": ["The rain stopped, the match began.", "The rain stopped, and the match began.", "When the rain stopped, the match.", "Because the rain stopped at noon."], "answer": 1, "why": "and 连接两个完整分句，表示先后发生的事件。", "point": "connect"},
+   {"stem": "Which fragment lacks a finite verb?", "options": ["The artist signed the poster.", "The artist will sign the poster.", "The artist beside the poster.", "The artist has signed the poster."], "answer": 2, "why": "The artist beside the poster 只有名词短语，缺少限定谓语。", "point": "complete"},
+   {"stem": "Which sentence contains a complete main clause?", "options": ["Because the office was closed.", "When the office closed for lunch.", "The office, which was closed for lunch on Friday.", "Because the office was closed, we returned."], "answer": 3, "why": "we returned 是完整主句，Because 引导原因从句。", "point": "connect"},
+   {"stem": "Complete the sentence about the concert.", "lead": "The concert", "chunks": ["will", "begin", "at", "seven this"], "tail": "evening.", "extra": ["beginning"], "why": "will begin 是谓语，说明音乐会开始的时间。", "point": "complete"},
+   {"stem": "Join the clauses to explain why the class waited.", "lead": "Because", "chunks": ["the teacher", "was delayed,", "the class", "waited outside"], "tail": ".", "extra": ["although"], "why": "Because 引导原因从句，the class waited outside 是主句。", "point": "connect"},
+   {"stem": "Complete the statement about the timetable.", "lead": "The timetable", "chunks": ["is", "posted", "on", "the notice"], "tail": "board.", "extra": ["posting"], "why": "is posted 构成谓语，说明时刻表被张贴的位置。", "point": "complete"},
+   {"stem": "Join the clauses to show contrast.", "lead": "The hall", "chunks": ["was small,", "but", "it", "was bright"], "tail": ".", "extra": ["because"], "why": "but 连接两个完整分句，表示小和明亮之间的转折。", "point": "connect"}
+  ]}]}]}
+ ]
+}

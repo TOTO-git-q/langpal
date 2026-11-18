@@ -1,0 +1,587 @@
+{
+ "id": "reading-passage-earth",
+ "title": "常考学科：地球与环境",
+ "goal": "认识本学科的常用词；读懂本学科的短文并答题。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "vocab",
+   "label": "认识本学科的常用词"
+  },
+  {
+   "id": "read",
+   "label": "读懂本学科的短文并答题"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、计分、自适应"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明和官方样题（挖空规则是对照样题和答案看出来的）"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Reading Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-reading.pdf",
+   "used": "第 1 课：三类题的说明和需要的三项基本功"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "地球与环境类短文常讲地质与板块、天气与气候、海洋和天体运动。讲过程的短文，要分清物质本身的变化和物质的移动。讲比较的短文，要注意空间范围和时间尺度。"
+    },
+    {
+     "box": "Weathering breaks rock down; erosion carries material away. A cold day describes weather, while a long-term pattern describes climate."
+    },
+    {
+     "p": "第一句对比分解和搬运，第二句对比短时的状态和长期的模式。词汇表里的过程名词常有对应的动词，如 evaporation 和 evaporate，两种形式说的是同一个过程。"
+    }
+   ]
+  },
+  {
+   "id": "geology",
+   "type": "table",
+   "title": "词汇表：地质与板块",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "crust",
+     "n.",
+     "地壳",
+     "The crust forms Earth’s outermost solid layer."
+    ],
+    [
+     "plate",
+     "n.",
+     "板块",
+     "A tectonic plate moves slowly relative to neighboring plates."
+    ],
+    [
+     "mantle",
+     "n.",
+     "地幔",
+     "The mantle lies beneath the crust."
+    ],
+    [
+     "boundary",
+     "n.",
+     "边界",
+     "Earthquakes occur along many plate boundaries."
+    ],
+    [
+     "fault",
+     "n.",
+     "断层",
+     "Movement along a fault can produce an earthquake."
+    ],
+    [
+     "earthquake",
+     "n.",
+     "地震",
+     "The earthquake caused the ground to shake."
+    ],
+    [
+     "erosion",
+     "n.",
+     "侵蚀；搬运",
+     "Erosion carried loose material downhill."
+    ],
+    [
+     "weathering",
+     "n.",
+     "风化",
+     "Weathering weakened the exposed rock."
+    ],
+    [
+     "sediment",
+     "n.",
+     "沉积物",
+     "Fine sediment settled on the bottom."
+    ],
+    [
+     "mineral",
+     "n.",
+     "矿物",
+     "A rock may contain several minerals."
+    ],
+    [
+     "rock",
+     "n.",
+     "岩石",
+     "The rock broke into smaller pieces."
+    ],
+    [
+     "crack",
+     "n.",
+     "裂缝",
+     "Water entered a narrow crack."
+    ],
+    [
+     "freeze",
+     "v.",
+     "冻结",
+     "Water can expand as it freezes."
+    ],
+    [
+     "fragment",
+     "n.",
+     "碎片",
+     "A fragment separated from the larger rock."
+    ]
+   ]
+  },
+  {
+   "id": "environment",
+   "type": "table",
+   "title": "词汇表：天气与海洋",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "weather",
+     "n.",
+     "天气",
+     "The weather changed during the afternoon."
+    ],
+    [
+     "climate",
+     "n.",
+     "气候",
+     "Climate describes patterns over long periods."
+    ],
+    [
+     "atmosphere",
+     "n.",
+     "大气层",
+     "Water vapor enters the atmosphere."
+    ],
+    [
+     "humidity",
+     "n.",
+     "湿度",
+     "Humidity concerns the moisture in the air."
+    ],
+    [
+     "precipitation",
+     "n.",
+     "降水",
+     "Rain and snow are forms of precipitation."
+    ],
+    [
+     "evaporation",
+     "n.",
+     "蒸发",
+     "Evaporation changes liquid water into vapor."
+    ],
+    [
+     "condense",
+     "v.",
+     "凝结",
+     "Water vapor can condense into liquid droplets."
+    ],
+    [
+     "vapor",
+     "n.",
+     "蒸气",
+     "Water vapor is water in its gaseous state."
+    ],
+    [
+     "pressure",
+     "n.",
+     "压力",
+     "Differences in air pressure help drive winds."
+    ],
+    [
+     "temperature",
+     "n.",
+     "温度",
+     "The instrument records water temperature."
+    ],
+    [
+     "forecast",
+     "n.",
+     "预报",
+     "The forecast describes expected weather conditions."
+    ],
+    [
+     "current",
+     "n.",
+     "水流；洋流",
+     "A current transports water through the ocean."
+    ],
+    [
+     "salinity",
+     "n.",
+     "盐度",
+     "Salinity describes the amount of dissolved salts in water."
+    ],
+    [
+     "density",
+     "n.",
+     "密度",
+     "Density compares mass with volume."
+    ]
+   ]
+  },
+  {
+   "id": "astronomy",
+   "type": "table",
+   "title": "词汇表：天文",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "orbit",
+     "n.",
+     "轨道",
+     "The Moon follows an orbit around Earth."
+    ],
+    [
+     "rotation",
+     "n.",
+     "自转；转动",
+     "Earth’s rotation changes which side faces the Sun."
+    ],
+    [
+     "axis",
+     "n.",
+     "轴",
+     "Earth turns around its axis."
+    ],
+    [
+     "hemisphere",
+     "n.",
+     "半球",
+     "The equator separates the northern and southern hemispheres."
+    ],
+    [
+     "solar",
+     "adj.",
+     "太阳的",
+     "Solar energy reaches Earth as radiation."
+    ],
+    [
+     "lunar",
+     "adj.",
+     "月球的",
+     "A lunar observation records features of the Moon."
+    ],
+    [
+     "eclipse",
+     "n.",
+     "食；天体遮掩现象",
+     "A lunar eclipse occurs when the Moon enters Earth’s shadow."
+    ],
+    [
+     "satellite",
+     "n.",
+     "卫星",
+     "The Moon is Earth’s natural satellite."
+    ],
+    [
+     "planet",
+     "n.",
+     "行星",
+     "A planet follows an orbit around a star."
+    ],
+    [
+     "star",
+     "n.",
+     "恒星",
+     "The Sun is the star closest to Earth."
+    ],
+    [
+     "gravity",
+     "n.",
+     "引力",
+     "Gravity influences the motion of orbiting bodies."
+    ],
+    [
+     "reflect",
+     "v.",
+     "反射",
+     "The Moon reflects sunlight."
+    ],
+    [
+     "illuminate",
+     "v.",
+     "照亮",
+     "Sunlight illuminates part of the lunar surface."
+    ],
+    [
+     "phase",
+     "n.",
+     "月相；阶段",
+     "The visible lunar phase changes during the Moon’s orbit."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Motion at a Fault\n\nEarth’s outer solid region is divided into moving plates. Near some plate boundaries, rocks can resist motion for a time even while the surrounding region continues to deform. When movement suddenly occurs along a fault, stored energy is released and the ground shakes. This is one way an earthquake can occur.\n\nA fault is therefore more than a visible line on a surface. It is a fracture along which rock has moved. The amount and direction of movement matter when interpreting it. A small crack in a loose stone is not, by itself, evidence of the same large-scale process."
+    },
+    {
+     "p": "第一段按 resist motion → movement suddenly occurs → energy is released 的顺序展开：先是运动受阻，再是能量释放。can occur 说明这是地震的一种成因，不能改成所有地震都这样产生。"
+    },
+    {
+     "p": "第二段给 fault 下定义，并把它和 a small crack in a loose stone 区分开。两者看起来相似，尺度和成因却不同。"
+    },
+    {
+     "box": "Why does the passage distinguish a fault from a small crack in a loose stone?\n1. To show that all cracks release equal amounts of energy\n2. To prevent similar-looking features from being treated as equivalent\n3. To explain how stored energy is released along a crack\n4. To show that a fault is only a visible line on a surface"
+    },
+    {
+     "p": "依据是 not, by itself, evidence of the same large-scale process。外表相似，不能就此认定是同一种地质过程，即第二项。第四项与 more than a visible line on a surface 相反。"
+    }
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "read",
+    "vocab"
+   ],
+   "groups": [
+    {
+     "label": "Fill in the missing letters.",
+     "fill": "Weathering breaks rock into smaller pieces without carrying them away. This pro{cess} can oc{cur} when wa{ter} enters cra{cks} and fre{ezes}, forcing t{he} surrounding ro{ck} apart a{nd} gradually prod{ucing} loose frag{ments}. The change from liquid water to ice can increase the space occupied by the water. Repeated freezing can therefore help widen existing openings. Once pieces have separated, moving water or wind may carry them elsewhere. That later movement is erosion, which differs from the initial breaking of the rock.",
+     "tags": [
+      "read",
+      "read",
+      "read",
+      "vocab",
+      "vocab",
+      "read",
+      "vocab",
+      "read",
+      "read",
+      "vocab"
+     ],
+     "notes": [
+      "process：This process 指前句的风化过程。",
+      "occur：can 后接动词原形，说明过程发生的条件。",
+      "water：后文 liquid water to ice 说明进入裂缝的是水。",
+      "cracks：后文的 existing openings 指的就是裂缝，用复数。",
+      "freezes：主语是 water，与 enters 并列；后文的 freezing 是同一个词。",
+      "the：the surrounding rock 指裂缝周围的岩石。",
+      "rock：首句 Weathering breaks rock 说明被分开的是岩石。",
+      "and：连接 forcing 与 producing 两个分词结构。",
+      "producing：与 forcing 并列，说明逐渐产生碎片。",
+      "fragments：后文的 pieces 与它同义。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "vocab",
+    "read"
+   ],
+   "groups": [
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "Surface Ocean Currents\n\nA surface current is a flow of ocean water that continues in a particular direction for some distance. Winds can transfer energy to the water and help set it in motion. The water does not necessarily follow a straight path across an entire ocean, because coastlines and other influences affect its route.\n\nEarth’s rotation also influences the direction of moving water. Together with winds and the shape of ocean basins, this helps produce large patterns of circulation. These patterns transport water and the heat it contains from one region toward another.\n\nA current carrying relatively warm water can affect conditions near a coast. However, the temperature of one coastal location also depends on other factors. A description of an ocean current therefore identifies one influence on local conditions rather than a complete explanation of every weather event.",
+     "items": [
+      {
+       "stem": "The word “current” refers to",
+       "options": [
+        "a body of water moving in one direction",
+        "a wind that sets surface water in motion",
+        "the heat that moving water carries",
+        "a coastline that shapes the water’s route"
+       ],
+       "answer": 0,
+       "why": "依据是 a flow of ocean water that continues in a particular direction，current 指朝一定方向流动的海水，即第一项。",
+       "point": "vocab"
+      },
+      {
+       "stem": "What can winds supply to surface water?",
+       "options": [
+        "A straight path across the ocean",
+        "A fixed coastal temperature",
+        "Energy that helps the water move",
+        "An unchanging route through every basin"
+       ],
+       "answer": 2,
+       "why": "依据是 Winds can transfer energy to the water and help set it in motion，即第三项。",
+       "point": "read"
+      },
+      {
+       "stem": "What does “rotation” refer to?",
+       "options": [
+        "Earth’s path around another planet",
+        "The circling of water around ocean basins",
+        "The movement of water toward another region",
+        "Earth’s turning around its own axis"
+       ],
+       "answer": 3,
+       "why": "Earth’s rotation 指地球绕自身的轴转动，即第四项。第一项说的是绕行的轨道。",
+       "point": "vocab"
+      },
+      {
+       "stem": "Why may a current fail to cross an ocean in a straight line?",
+       "options": [
+        "Earth’s rotation keeps the water from moving at all.",
+        "Coastlines and other influences affect its path.",
+        "The heat it carries slows the water down.",
+        "Winds supply energy only near the coast."
+       ],
+       "answer": 1,
+       "why": "依据是 because coastlines and other influences affect its route，即第二项。",
+       "point": "read"
+      },
+      {
+       "stem": "What limitation does the final paragraph place on an explanation based on currents?",
+       "options": [
+        "Currents are only one influence on local conditions.",
+        "Currents have no effect on any coastal region.",
+        "Currents determine every individual weather event.",
+        "Currents transport water but cannot transport heat."
+       ],
+       "answer": 0,
+       "why": "依据是 one influence on local conditions rather than a complete explanation，即第一项。",
+       "point": "read"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 8,
+   "pass": 0.75,
+   "points": [
+    "vocab",
+    "read"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Fill in the missing letters.",
+       "fill": "Evaporation changes liquid water into water vapor. During evapo{ration}, liquid wa{ter} becomes va{por} within t{he} atmosphere, wh{ile} dissolved sa{lts} remain beh{ind} and incr{ease} the sali{nity} of t{he} remaining water. Salinity refers to the concentration of dissolved salts, not the total size of the water body. If fresh water later enters, it can dilute that concentration. The amount of salt may stay the same even while the amount of water changes, so concentration and total quantity must be distinguished.",
+       "tags": [
+        "vocab",
+        "read",
+        "vocab",
+        "read",
+        "read",
+        "read",
+        "read",
+        "read",
+        "vocab",
+        "read"
+       ]
+      },
+      {
+       "label": "Read the passage.",
+       "look": "passage",
+       "text": "The Changing Appearance of the Moon\n\nThe Moon does not produce the light by which it is normally seen from Earth. It reflects light from the Sun. At most times, sunlight illuminates approximately half of the Moon’s surface, but an observer on Earth does not always see that entire illuminated half. The visible proportion depends on the relative positions of the Sun, Earth, and Moon.\n\nAs the Moon travels along its orbit around Earth, those positions change. Sometimes only a narrow part of the illuminated surface is visible from Earth. At other times, much more of it faces the observer. These changing appearances are called lunar phases. They do not require the Moon itself to change shape.\n\nOrdinary lunar phases should be distinguished from a lunar eclipse. During such an eclipse, the Moon passes into Earth’s shadow. The shadow temporarily reduces the sunlight reaching the lunar surface. In the usual sequence of phases, by contrast, the changing appearance results mainly from the observer’s view of the sunlit portion. Confusing these two processes would assign the regular changes in visible shape to a shadow that is not normally responsible for them.",
+       "items": [
+        {
+         "stem": "The word “reflects” is closest in meaning to",
+         "options": [
+          "creates from within",
+          "sends back from a surface",
+          "blocks from every direction",
+          "stores below the surface"
+         ],
+         "answer": 1,
+         "why": "依据是 does not produce the light 与 reflects light from the Sun 的对比。光来自太阳，由月球表面送回，即第二项。",
+         "point": "vocab"
+        },
+        {
+         "stem": "What does “orbit” mean here?",
+         "options": [
+          "A layer of the lunar surface",
+          "Earth’s shadow on the Moon",
+          "A temporary change in shape",
+          "A path followed around Earth"
+         ],
+         "answer": 3,
+         "why": "依据是 travels along its orbit around Earth，orbit 是绕地球运行的路径，即第四项。",
+         "point": "vocab"
+        },
+        {
+         "stem": "Why does the visible illuminated portion change?",
+         "options": [
+          "The Sun illuminates a different share of the Moon each night.",
+          "The Moon repeatedly changes its physical shape.",
+          "The relative viewing positions change as the Moon moves.",
+          "Earth’s shadow permanently covers half of the Moon."
+         ],
+         "answer": 2,
+         "why": "依据是 The visible proportion depends on the relative positions 和 As the Moon travels along its orbit around Earth, those positions change，即第三项。",
+         "point": "read"
+        },
+        {
+         "stem": "How does a lunar eclipse differ from an ordinary phase change?",
+         "options": [
+          "An eclipse involves the Moon entering Earth’s shadow.",
+          "An eclipse makes the Moon a source of light.",
+          "An eclipse requires the Moon to leave its orbit entirely.",
+          "An eclipse depends on how much sunlit area faces Earth."
+         ],
+         "answer": 0,
+         "why": "依据是 During such an eclipse, the Moon passes into Earth’s shadow，即第一项。第四项说的是普通月相。",
+         "point": "read"
+        },
+        {
+         "stem": "Which statement about lunar phases is supported?",
+         "options": [
+          "They occur because the Moon loses part of its surface.",
+          "They reflect changes in the view of the illuminated portion.",
+          "They always result from the Moon passing into Earth’s shadow.",
+          "They prevent sunlight from reaching any part of the Moon."
+         ],
+         "answer": 1,
+         "why": "依据是 the changing appearance results mainly from the observer’s view of the sunlit portion，即第二项。第三项把月相和月食混在了一起。",
+         "point": "read"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,345 @@
+{
+ "id": "usage-mock",
+ "title": "语言运用模拟测试",
+ "goal": "能依据上下文完成完形选词，并依据句法与语义完成语法填空。",
+ "skill": "语言运用",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "cloze",
+   "label": "依据上下文完成完形选词"
+  },
+  {
+   "id": "grammar",
+   "label": "依据句法与语义完成语法填空"
+  }
+ ],
+ "sources": [
+  {
+   "id": "g6",
+   "title": "G6 2024英语新课标适应性测试 — p.9",
+   "url": "https://www.neea.edu.cn/res/Home/2401/24010507.jpg",
+   "used": "语言运用第一节的题量、选项与分值"
+  },
+  {
+   "id": "g7",
+   "title": "G7 2024英语新课标适应性测试 — p.10",
+   "url": "https://www.neea.edu.cn/res/Home/2401/24010508.jpg",
+   "used": "语言运用第二节的题量、填写要求与分值"
+  },
+  {
+   "id": "syllabus",
+   "title": "高考英语课程课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "材料长度及课程训练设置"
+  }
+ ],
+ "cards": [
+  {
+   "id": "description",
+   "type": "text",
+   "title": "说明",
+   "body": [
+    {
+     "p": "2024 年新课标适应性测试语言运用第一节为 15 道四选一，共 15 分；第二节为 10 道填空，共 15 分。无提示词的空填写 1 词。"
+    },
+    {
+     "p": "本测试按 2024 年适应性测试的结构出题，限时 20 分钟，掌握线 0.7。以上时间和掌握线为本课程的建议，不是官方规定。2025—2026 年各地试卷是否都用这一结构，尚未确认。"
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 20,
+   "pass": 0.7,
+   "points": [
+    "cloze",
+    "grammar"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "A town museum planned a display about its old railway. It lent photographs to a community hall, while a school sent drawings and maps. Visitors would receive tickets at the entrance. Jun, a volunteer, was asked to arrange the [1] from the museum. Each picture needed a small card beneath it, and the museum had prepared the [2] in advance. The cards gave the names of the stations, the places shown and the [3] when the pictures were taken.\n\nJun carried the cards in a wooden [4] and put it beside a desk. The frames were heavy, and one photograph had a torn corner. As the volunteers lifted the frames, the box tipped over. Some cards landed on the desk, but several were [5]. Jun decided to [6] for them before putting any picture on display. He found some in an open [7] under the desk. A second volunteer looked inside a cloth bag, while another checked a shelf.\n\nThe missing cards had fallen onto a piece of [8] in the drawer. Water had marked the paper earlier, but the writing on the cards was still [9]. Jun placed them on a dry cloth. While they were [10], the volunteers sorted the frames and checked the photographs against the museum list. Next, they [11] the pictures into two groups: stations and trains. They used a camera to [12] the display for their records. A teacher wanted to take a copy to the school and bring it back later. She asked to [13] it, and Jun agreed.\n\nAfter the event, the photographs were [14] to the museum. Jun wrote the condition and location of each item in a [15]. His notes would help the volunteers plan another display.",
+       "items": [
+        {
+         "stem": "Choose the word for [1].",
+         "options": [
+          "photographs",
+          "drawings",
+          "tickets",
+          "maps"
+         ],
+         "answer": 0,
+         "why": "博物馆借出的是 photographs；drawings 和 maps 来自学校。",
+         "point": "cloze"
+        },
+        {
+         "stem": "Choose the word for [2].",
+         "options": [
+          "frames",
+          "labels",
+          "shelves",
+          "boxes"
+         ],
+         "answer": 1,
+         "why": "每张照片下需要一张卡片，labels 对应这些说明卡。",
+         "point": "cloze"
+        },
+        {
+         "stem": "Choose the word for [3].",
+         "options": [
+          "places",
+          "names",
+          "dates",
+          "titles"
+         ],
+         "answer": 2,
+         "why": "when the pictures were taken 指照片拍摄的日期。",
+         "point": "cloze"
+        },
+        {
+         "stem": "Choose the word for [4].",
+         "options": [
+          "drawer",
+          "shelf",
+          "bag",
+          "box"
+         ],
+         "answer": 3,
+         "why": "后文 the box tipped over 表明卡片装在盒子里。",
+         "point": "cloze"
+        },
+        {
+         "stem": "Choose the word for [5].",
+         "options": [
+          "missing",
+          "torn",
+          "heavy",
+          "wet"
+         ],
+         "answer": 0,
+         "why": "后文 The missing cards had fallen onto 直接说明有几张卡片不见了，用 missing。",
+         "point": "cloze"
+        },
+        {
+         "stem": "Choose the word for [6].",
+         "options": [
+          "sort",
+          "search",
+          "display",
+          "copy"
+         ],
+         "answer": 1,
+         "why": "后文找到卡片，search for 表示寻找。",
+         "point": "cloze"
+        },
+        {
+         "stem": "Choose the word for [7].",
+         "options": [
+          "box",
+          "bag",
+          "drawer",
+          "shelf"
+         ],
+         "answer": 2,
+         "why": "后文 in the drawer 指出卡片落在抽屉里。",
+         "point": "cloze"
+        },
+        {
+         "stem": "Choose the word for [8].",
+         "options": [
+          "cloth",
+          "wood",
+          "card",
+          "paper"
+         ],
+         "answer": 3,
+         "why": "后文 the paper 与抽屉里的纸对应。",
+         "point": "cloze"
+        },
+        {
+         "stem": "Choose the word for [9].",
+         "options": [
+          "readable",
+          "missing",
+          "damaged",
+          "torn"
+         ],
+         "answer": 0,
+         "why": "Water had marked the paper earlier 说的是水渍，but 引出相反的情况：字仍然能读，用 readable。第三项 damaged 与 but 前后的转折不符。",
+         "point": "cloze"
+        },
+        {
+         "stem": "Choose the word for [10].",
+         "options": [
+          "falling",
+          "drying",
+          "tearing",
+          "lifting"
+         ],
+         "answer": 1,
+         "why": "Jun 把卡片放在干布上，卡片在那里晾干。",
+         "point": "cloze"
+        },
+        {
+         "stem": "Choose the word for [11].",
+         "options": [
+          "carried",
+          "copied",
+          "sorted",
+          "checked"
+         ],
+         "answer": 2,
+         "why": "into two groups 表示将照片分成两组，用 sorted。",
+         "point": "cloze"
+        },
+        {
+         "stem": "Choose the word for [12].",
+         "options": [
+          "copy",
+          "check",
+          "sort",
+          "photograph"
+         ],
+         "answer": 3,
+         "why": "used a camera 表明用相机拍摄展览。",
+         "point": "cloze"
+        },
+        {
+         "stem": "Choose the word for [13].",
+         "options": [
+          "borrow",
+          "return",
+          "display",
+          "check"
+         ],
+         "answer": 0,
+         "why": "教师要求取得一份供学校使用的副本，borrow 表示借用。",
+         "point": "cloze"
+        },
+        {
+         "stem": "Choose the word for [14].",
+         "options": [
+          "lent",
+          "returned",
+          "sold",
+          "displayed"
+         ],
+         "answer": 1,
+         "why": "开头 It lent photographs to a community hall 说明照片是博物馆借出的，活动结束后归还，用 returned。第一项 lent 把借出的一方弄反了。",
+         "point": "cloze"
+        },
+        {
+         "stem": "Choose the word for [15].",
+         "options": [
+          "camera",
+          "map",
+          "notebook",
+          "drawer"
+         ],
+         "answer": 2,
+         "why": "后一句 His notes 说明 Jun 写下的是笔记，记在 notebook 里。第二项 map 只对应 location，不能记录物品的状态。",
+         "point": "cloze"
+        }
+       ]
+      },
+      {
+       "text": "A group of students started a project to study the sounds around their school. At the first meeting, they [1] (decide) to record sounds in several places at the same time of day. Each student received a notebook in [2] to describe what could be heard. The group first visited the playground, [3] children were playing a game. They listened for a few minutes and wrote down the sounds they noticed. Later, they went to a quieter room and compared their [4] (note). One student pointed out that a sound could be familiar but still difficult [5] (describe) accurately. The group then made a list of words that might help. Their teacher encouraged them to listen [6] (careful) before choosing a word. At the next meeting, the students played their recordings and discussed [7] they had learned. They found it useful to include the place and time beside each recording. The class also prepared an [8] (exhibit) in the school library. Visitors could read the descriptions and listen to selected recordings. By the end of the project, the students had become more aware [9] the variety of sounds in familiar places. They were interested [10] collecting similar sounds the following term.",
+       "items": [
+        {
+         "stem": "[1] At the first meeting, they (decide) to record sounds.",
+         "accept": [
+          "decided"
+         ],
+         "why": "会议发生在过去，谓语用一般过去时 decided。",
+         "point": "grammar"
+        },
+        {
+         "stem": "[2] Each student received a notebook in _____ to describe what could be heard.",
+         "accept": [
+          "which",
+          "order"
+         ],
+         "why": "介词 in 后用关系代词 which，指 notebook。填 order 构成 in order to，表示目的，也正确。",
+         "point": "grammar"
+        },
+        {
+         "stem": "[3] The group visited the playground, _____ children were playing a game.",
+         "accept": [
+          "where",
+          "while",
+          "when"
+         ],
+         "why": "where 表示地点；while 和 when 也可表示动作同时发生。",
+         "point": "grammar"
+        },
+        {
+         "stem": "[4] They compared their (note).",
+         "accept": [
+          "notes"
+         ],
+         "why": "上下文指多条记录，note 用复数 notes。",
+         "point": "grammar"
+        },
+        {
+         "stem": "[5] A sound could be difficult (describe) accurately.",
+         "accept": [
+          "to describe"
+         ],
+         "why": "difficult 后用不定式 to describe。",
+         "point": "grammar"
+        },
+        {
+         "stem": "[6] Their teacher encouraged them to listen (careful).",
+         "accept": [
+          "carefully"
+         ],
+         "why": "副词 carefully 修饰 listen。",
+         "point": "grammar"
+        },
+        {
+         "stem": "[7] The students discussed _____ they had learned. The word is the object of learned.",
+         "accept": [
+          "what"
+         ],
+         "why": "what 引导宾语从句，并在从句中作 learned 的宾语。",
+         "point": "grammar"
+        },
+        {
+         "stem": "[8] The class prepared an (exhibit) in the library.",
+         "accept": [
+          "exhibition",
+          "exhibit"
+         ],
+         "why": "exhibition 和 exhibit 都可以作名词，表示展览或展品。",
+         "point": "grammar"
+        },
+        {
+         "stem": "[9] The students became more aware _____ the variety of sounds.",
+         "accept": [
+          "of"
+         ],
+         "why": "be aware of 表示意识到。",
+         "point": "grammar"
+        },
+        {
+         "stem": "[10] They were interested _____ collecting similar sounds the following term.",
+         "accept": [
+          "in"
+         ],
+         "why": "be interested in 表示对某事感兴趣。",
+         "point": "grammar"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

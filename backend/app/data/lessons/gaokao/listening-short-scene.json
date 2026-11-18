@@ -1,0 +1,65 @@
+{
+ "id": "listening-short-scene",
+ "title": "场景与人物关系题",
+ "goal": "结合场景词、双方行为与职责判断地点和人物关系。",
+ "skill": "听力",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "place", "label": "依据行为与场景词判断地点"},
+  {"id": "relation", "label": "依据双方职责与称呼判断关系"}
+ ],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "场景与人物关系的教学内容及课程小测规格"}],
+ "cards": [
+  {"id": "type", "type": "text", "title": "题型", "body": [
+   {"p": "地点题看两人在做什么、用了哪些场所用语。关系题看双方各做什么事、怎样称呼对方。"},
+   {"box": "A: May I return these books?\nB: Yes. I can also renew the one you still need."},
+   {"p": "return books 和 renew 都与借书有关，地点是图书馆。办理续借的是馆员，另一方是借书的人。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　区分问题", "d": "地点题问在哪里，关系题问两人是什么身份。Where 问地点，How are the speakers related 问关系。"},
+   {"t": "2　收集线索", "d": "至少找到两处词句再判断。return books 和 renew 都指向借书。"},
+   {"t": "3　核对双方职责", "d": "分清谁请求服务、谁提供服务。说 make an appointment 的是预约者，说 check the schedule 的是接待人员。"},
+   {"t": "4　排除相近关系", "d": "选项中的关系要有称呼或职责作依据。一方交作业、另一方收下，是师生关系。"}
+  ]},
+  {"id": "scene", "type": "table", "title": "场景与身份线索", "cols": ["活动", "对话", "地点与身份"], "rows": [
+   ["预约", "A: I'd like an appointment with the dentist. B: The dentist has an opening on Tuesday.", "牙科诊所；预约者与接待人员。"],
+   ["结账", "A: Could I have the bill for our meal? B: Certainly. You can pay at the counter.", "餐馆；用餐者与服务人员。"],
+   ["借阅", "A: Can I borrow these books? B: Yes, your library card is all I need.", "图书馆；借书者与馆员。"],
+   ["交作业", "A: Professor, may I hand in my essay now? B: Yes, put it on my desk before class.", "课堂或教师办公室；学生与教师。"]
+  ]},
+  {"id": "roles", "type": "table", "title": "相近关系辨析", "cols": ["线索", "关系", "判断依据"], "rows": [
+   ["book a table / I'll reserve it", "顾客与餐馆工作人员", "一方订位，另一方办理。"],
+   ["our shift / I'll cover your shift", "同事", "两人在同一处工作，互相代班。"],
+   ["Professor / hand in my essay", "学生与教师", "称呼是 Professor，一方交作业。"],
+   ["my essay / shall we study together", "一起学习的人", "两人一起学习，没有一方在教，不是师生。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A: Could I book a table for Saturday evening?\nB: Certainly. How many people will be dining?\nA: Four, please."},
+   {"box": "How are the speakers most likely related?\n1. Two restaurant customers.\n2. A diner and a restaurant worker.\n3. Two restaurant workers.\n4. Two friends planning a dinner."},
+   {"p": "一方要 book a table，另一方问几位用餐，是在办理预订。双方是顾客和餐馆工作人员，即第二项。"}
+  ]},
+  {"id": "distractors", "type": "table", "title": "干扰项", "cols": ["类型", "例", "排除方法"], "rows": [
+   ["只看物品", "book → bookshop", "borrow 和 library card 都指向图书馆。"],
+   ["混淆双方", "book a table / reserve it → two diners", "说 reserve it 的一方在办理预订，是工作人员。"],
+   ["推断过度", "study together → teacher and student", "两人一起学习，没有一方在教。"],
+   ["混淆地点", "bill for our meal → library", "meal 和 bill 都指向餐馆。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["place", "relation"], "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "I'd like to borrow these two novels. My library card is in my bag, and I'll return them before the end of the month."}, {"who": "B", "text": "Thank you. I'll check them out for you now."}]}, "items": [{"stem": "Where are the speakers most likely?", "options": ["At a bookshop checkout", "At a desk in the library", "At a friend's bookshelf", "At a classroom reading corner"], "answer": 1, "why": "borrow these two novels 和 library card 都指向图书馆，另一方说 I'll check them out，是在办理借书，即第二项。", "point": "place"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Professor Li, I finished my assignment on local rivers. May I leave it on your desk before the geography lesson starts?"}, {"who": "B", "text": "Yes, and I'll return your previous assignment after class."}]}, "items": [{"stem": "How are the speakers most likely related?", "options": ["Two geography students", "Two geography teachers", "Friends visiting a river", "A student and a teacher"], "answer": 3, "why": "称呼是 Professor Li，一方交作业，另一方课后发还上次的作业。两人是学生和老师，即第四项。", "point": "relation"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["place", "relation"], "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Could I see the menu again? I'd like some soup before the main course, and my friend is ready to order as well."}, {"who": "B", "text": "Of course. I'll bring your soup first."}]}, "items": [{"stem": "Where are the speakers most likely?", "options": ["At a restaurant table", "In a kitchen making soup", "At a friend's dinner party", "At a cooking course"], "answer": 0, "why": "menu、order 和 I'll bring your soup 都指向餐馆，一方点菜，另一方上菜，即第一项。", "point": "place"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Can you cover my shift at the reception desk on Friday? I covered yours last week, and I need to attend a course this time."}, {"who": "B", "text": "Yes, I'll take your shift on Friday."}]}, "items": [{"stem": "How are the speakers most likely related?", "options": ["A receptionist and a guest", "A course trainer and a trainee", "Two colleagues at reception", "Two people attending a course"], "answer": 2, "why": "cover my shift 和 I covered yours 说明两人在接待处互相代班，是同事，即第三项。", "point": "relation"}]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["place", "relation"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Can I renew this book for another week? I'm still reading it for my project, and my library card is right here."}, {"who": "B", "text": "Certainly. I'll update the due date for you now."}]}, "items": [{"stem": "Where are the speakers most likely?", "options": ["At a desk in the library", "In a school study room", "At a bookshop checkout", "At a project meeting"], "answer": 0, "why": "renew this book 和 library card 都指向图书馆，另一方在更改还书日期，即第一项。", "point": "place"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "I'd like an appointment with Dr Bell to have my teeth checked. Is there a time available on Thursday afternoon?"}, {"who": "B", "text": "Yes, the dentist can see you at two. I'll put your name in the schedule."}]}, "items": [{"stem": "How are the speakers most likely related?", "options": ["A patient and Dr Bell", "A patient and a receptionist", "Two patients at a dentist's", "Two receptionists at a clinic"], "answer": 1, "why": "一方预约检查牙齿，另一方把名字记进日程。这一方说 the dentist can see you，所以不是牙医，是接待人员，即第二项。", "point": "relation"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Could we have the bill for our meal, please? My friend and I need to leave soon to catch the bus."}, {"who": "B", "text": "Certainly. I'll bring the bill, and you can pay at your table."}]}, "items": [{"stem": "Where are the speakers most likely?", "options": ["At a bus ticket office", "At a shop's payment counter", "At a restaurant table", "At a bus stop after a meal"], "answer": 2, "why": "bill for our meal 和 pay at your table 都指向餐馆，即第三项。bus 是两人饭后要赶的车。", "point": "place"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Ms Ross, may I submit my science report after the lesson? I need to attach the final chart before I give it to you."}, {"who": "B", "text": "Yes, Sam. I'll collect the reports from the class after lunch."}]}, "items": [{"stem": "How are the speakers most likely related?", "options": ["Two students in a science class", "Two teachers collecting reports", "Friends preparing the same chart", "A student and a teacher"], "answer": 3, "why": "Sam 称对方 Ms Ross，要交科学报告；Ms Ross 午饭后向全班收报告。两人是学生和老师，即第四项。", "point": "relation"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Would you check whether we have a free room for tonight? A guest wants to stay for two nights near the station."}, {"who": "B", "text": "I'll look at our hotel bookings. We have one room available tonight."}]}, "items": [{"stem": "Where are the speakers most likely working?", "options": ["At a hotel reception", "At a train ticket office", "At a travel agency desk", "In a guest's room upstairs"], "answer": 0, "why": "A guest wants to stay 和 our hotel bookings 说明两人在酒店接待处工作，即第一项。station 只说明酒店的位置。", "point": "place"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Could you cover my shift at the ticket desk on Monday? I need to attend a training course, and I can take your shift on Friday."}, {"who": "B", "text": "That works. I'll take Monday's shift."}]}, "items": [{"stem": "How are the speakers most likely related?", "options": ["A customer and a ticket seller", "Two colleagues sharing shifts", "A teacher and a course student", "Two customers buying tickets"], "answer": 1, "why": "两人互换售票台的 shift，是一起工作的同事，即第二项。", "point": "relation"}]}
+  ]}]} 
+ ]
+}

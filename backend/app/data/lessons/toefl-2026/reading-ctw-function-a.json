@@ -1,0 +1,471 @@
+{
+ "id": "reading-ctw-function-a",
+ "title": "功能词（上）：冠词、介词、代词",
+ "goal": "能根据前后的语法关系补全 the、of、in、their 等功能词。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "article",
+   "label": "冠词和限定词：a、an、the、this、these"
+  },
+  {
+   "id": "preposition",
+   "label": "介词：由前面的动词、形容词或后面的时间地点决定"
+  },
+  {
+   "id": "pronoun",
+   "label": "代词：确定所指对象及其单复数"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、计分、自适应"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明和官方样题（挖空规则是对照样题和答案看出来的）"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Reading Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-reading.pdf",
+   "used": "第 1 课：三类题的说明和需要的三项基本功"
+  }
+ ],
+ "cards": [
+  {
+   "id": "why",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "补全单词每段 10 个空，每隔一个词挖一个。所以 the、of、in、their 这类功能词一定会出现。本课程九段样题的 90 个空中，功能词占 48 个。"
+    },
+    {
+     "p": "功能词很短，只给出一两个字母，同一个开头有好几个候选词。判断靠语法：后面是不是名词，前面的动词搭配哪个介词，所指的是单数还是复数。"
+    },
+    {
+     "p": "本课讲三类：冠词和限定词、介词、代词。连词、助动词、that 与 than 见下一课。"
+    }
+   ]
+  },
+  {
+   "id": "starts",
+   "type": "table",
+   "title": "已给字母与候选词",
+   "intro": "已给字母和所缺字母数相同的功能词只有几个。",
+   "cols": [
+    "已给字母",
+    "所缺字母数",
+    "候选词"
+   ],
+   "rows": [
+    [
+     "t",
+     "1",
+     "to"
+    ],
+    [
+     "t",
+     "2",
+     "the"
+    ],
+    [
+     "th",
+     "2",
+     "that　this　they　them　then　than"
+    ],
+    [
+     "th",
+     "3",
+     "their　these　those　there"
+    ],
+    [
+     "a",
+     "1",
+     "an　at　as"
+    ],
+    [
+     "i",
+     "1",
+     "in　it　is　if"
+    ],
+    [
+     "i",
+     "2",
+     "its"
+    ],
+    [
+     "o",
+     "1",
+     "of　on　or"
+    ],
+    [
+     "f",
+     "2",
+     "for"
+    ],
+    [
+     "fr",
+     "2",
+     "from"
+    ],
+    [
+     "wi",
+     "2",
+     "with"
+    ],
+    [
+     "b",
+     "1",
+     "by　be"
+    ],
+    [
+     "in",
+     "2",
+     "into"
+    ],
+    [
+     "ea",
+     "2",
+     "each"
+    ],
+    [
+     "ot",
+     "3",
+     "other"
+    ],
+    [
+     "wh",
+     "3",
+     "which　while　where"
+    ]
+   ]
+  },
+  {
+   "id": "articles",
+   "type": "table",
+   "title": "冠词和限定词",
+   "cols": [
+    "情况",
+    "用词",
+    "例句"
+   ],
+   "rows": [
+    [
+     "后面是单数名词，第一次提到",
+     "a / an",
+     "An island forms when a volcano rises above the sea."
+    ],
+    [
+     "后面的名词前面提过，或者世上只有一个",
+     "the",
+     "The island grows as more lava cools.　the sun"
+    ],
+    [
+     "名词后面有 of 短语",
+     "the",
+     "the surface of the earth　the number of species"
+    ],
+    [
+     "最高级、first、same、only 前面",
+     "the",
+     "the largest　the first　the same"
+    ],
+    [
+     "后面是复数名词，指刚说的那几样",
+     "these / those",
+     "These changes happen slowly."
+    ],
+    [
+     "后面是单数名词，指刚说的那件事",
+     "this / that",
+     "This process takes years."
+    ]
+   ],
+   "note": "单数可数名词前必须有限定词。遇到「空 + 单数名词」，候选为 a、an、the、this、its、their。"
+  },
+  {
+   "id": "prepositions",
+   "type": "table",
+   "title": "介词",
+   "intro": "介词多由它前面或后面的词决定。",
+   "cols": [
+    "决定它的词",
+    "常见搭配",
+    "例句"
+   ],
+   "rows": [
+    [
+     "前面的动词",
+     "depend on　result in　lead to　consist of　differ from　belong to　deal with",
+     "Plants depend on sunlight."
+    ],
+    [
+     "前面的形容词",
+     "similar to　different from　rich in　responsible for　capable of",
+     "soil rich in minerals"
+    ],
+    [
+     "前面的名词",
+     "the cause of　an increase in　a reason for　the effect on　access to",
+     "an increase in temperature"
+    ],
+    [
+     "后面的时间",
+     "in 1850　in the nineteenth century　at night　during the war　for centuries　by 1900",
+     "in the past"
+    ],
+    [
+     "后面的地点",
+     "in the ocean　on the surface　at the edge　from A to B　into the soil",
+     "on the surface"
+    ],
+    [
+     "被动句里做事的人",
+     "by",
+     "built by the Romans"
+    ],
+    [
+     "工具和方式",
+     "with　by",
+     "cut with stone tools　travel by sea"
+    ]
+   ]
+  },
+  {
+   "id": "pronouns",
+   "type": "table",
+   "title": "代词",
+   "cols": [
+    "代词",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "it / its",
+     "指前面一个单数的东西",
+     "The tree loses its leaves, and it stops growing."
+    ],
+    [
+     "they / them / their",
+     "指前面的复数，或者一群人",
+     "Birds build their nests where predators cannot reach them."
+    ],
+    [
+     "this / that",
+     "指刚说的整件事",
+     "This explains why the lake is salty."
+    ],
+    [
+     "which",
+     "逗号或介词后面，补充说明前面的名词",
+     "a gas which traps heat　the way in which bees communicate"
+    ],
+    [
+     "each / other / both",
+     "后面跟名词；或者 each of、one … the other",
+     "each layer　the other side"
+    ]
+   ],
+   "note": "先找到所指的名词，看它是单数还是复数。所指是 The tree 时，用 its，不用 their。"
+  },
+  {
+   "id": "th",
+   "type": "text",
+   "title": "th- 开头的词",
+   "body": [
+    {
+     "p": "th- 开头的空数量最多。先看所缺字母数，再看后面的成分。"
+    },
+    {
+     "list": [
+      "缺两个，后面是完整的句子（有主语有动词）：that。Scientists found th__ the ice was melting.",
+      "缺两个，后面直接是动词：they。Th__ live in groups.",
+      "缺两个，在动词或介词后面：them。Farmers stored the seeds and planted th__ in spring.",
+      "缺两个，后面是单数名词：this 或 that。th__ method",
+      "缺两个，前面是比较级：than。larger th__ the moon",
+      "缺三个，后面是名词，意思是「它们的」：their。th___ wings",
+      "缺三个，后面是复数名词，意思是「这些」：these 或 those。th___ rocks",
+      "缺三个，后面是 is、are、was、were：there。Th___ are two reasons."
+     ]
+    },
+    {
+     "p": "this 与 that、these 与 those 有时都能成立。指上文刚提到的内容时，用 this、these。"
+    }
+   ]
+  },
+  {
+   "id": "check-articles",
+   "type": "check",
+   "title": "练习一　冠词和限定词",
+   "points": [
+    "article"
+   ],
+   "groups": [
+    {
+     "label": "Fill in the missing letters.",
+     "fill": "Coral reefs are built by tiny animals. When a coral animal dies, t{he} hard shell around its body remains, and a{n} entirely new layer grows on top of it. Over thousands of years, th{ese} layers form a{n} enormous structure. Th{is} process is slow, but t{he} result is impressive: t{he} largest reef in t{he} world can be seen from space.",
+     "tags": [
+      "article",
+      "article",
+      "article",
+      "article",
+      "article",
+      "article",
+      "article",
+      "article"
+     ],
+     "notes": [
+      "the：后面有 around its body 限定，说的就是那一个壳。",
+      "an：后面的 entirely 是元音开头。",
+      "these：后面是复数 layers，指刚说的那些层。",
+      "an：enormous 是元音开头；structure 是单数，第一次提到。",
+      "this：后面是单数 process，指刚说的整件事。",
+      "the：result 指的是这个过程的结果，只有一个。",
+      "the：最高级 largest 前面。",
+      "the：in the world。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-prepositions",
+   "type": "check",
+   "title": "练习二　介词",
+   "points": [
+    "preposition"
+   ],
+   "groups": [
+    {
+     "label": "Fill in the missing letters.",
+     "fill": "The Nile flows fr{om} the highlands o{f} East Africa t{o} the Mediterranean Sea. For thousands o{f} years, farmers depended o{n} its yearly floods. The water spread over the fields i{n} late summer and left behind a layer of rich soil. Crops were planted i{n} the autumn and harvested b{y} hand i{n} the spring. Grain was then carried b{y} boat to the cities.",
+     "tags": [
+      "preposition",
+      "preposition",
+      "preposition",
+      "preposition",
+      "preposition",
+      "preposition",
+      "preposition",
+      "preposition",
+      "preposition",
+      "preposition"
+     ],
+     "notes": [
+      "from：from A to B。",
+      "of：the highlands of East Africa。",
+      "to：from A to B。",
+      "of：thousands of years。",
+      "on：depend on。",
+      "in：in late summer。",
+      "in：in the autumn。",
+      "by：by hand，方式。",
+      "in：in the spring。",
+      "by：by boat，方式。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-pronouns",
+   "type": "check",
+   "title": "练习三　代词",
+   "points": [
+    "pronoun",
+    "article"
+   ],
+   "groups": [
+    {
+     "label": "Fill in the missing letters.",
+     "fill": "Ants live in large groups, and ea{ch} ant has a job. Some workers leave the nest to find food, and when th{ey} find it, th{ey} carry i{t} back to th{eir} nest. On the way, th{ey} leave a chemical trail behind th{em}. Ot{her} ants follow th{is} trail, wh{ich} becomes stronger as more ants use i{t}.",
+     "tags": [
+      "pronoun",
+      "pronoun",
+      "pronoun",
+      "pronoun",
+      "pronoun",
+      "pronoun",
+      "pronoun",
+      "pronoun",
+      "article",
+      "pronoun",
+      "pronoun"
+     ],
+     "notes": [
+      "each：后面是单数 ant。",
+      "they：指 workers，后面直接是动词 find。",
+      "they：同上。",
+      "it：指 food，单数。",
+      "their：后面是名词 nest，指 workers 的。",
+      "they：指 workers。",
+      "them：在介词 behind 后面。",
+      "other：Other ants，别的蚂蚁。",
+      "this：后面是单数 trail，指刚说的那条。",
+      "which：逗号后面，补充说明 trail。",
+      "it：指 trail。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 4,
+   "pass": 0.8,
+   "points": [
+    "article",
+    "preposition",
+    "pronoun"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Fill in the missing letters.",
+       "fill": "Glaciers are huge masses o{f} ice that move slowly over t{he} land. Th{ey} form i{n} cold regions where snow does not melt during summer. Over many years, t{he} weight o{f} new snow turns t{he} lower layers into ice. As a glacier moves, i{t} carries rocks wi{th} it and cuts deep valleys in the ground. Th{ese} valleys remain long after the ice has gone.",
+       "tags": [
+        "preposition",
+        "article",
+        "pronoun",
+        "preposition",
+        "article",
+        "preposition",
+        "article",
+        "pronoun",
+        "preposition",
+        "article"
+       ]
+      },
+      {
+       "label": "Fill in the missing letters.",
+       "fill": "Bees and flowers depend o{n} each other. A bee visits a flower to collect food f{or} its hive. While i{t} feeds, grains o{f} pollen stick t{o} its body. T{he} bee then carries th{em} to a{n} open flower o{f} the same kind. Without th{is} help, many plants could not produce seeds.",
+       "tags": [
+        "preposition",
+        "preposition",
+        "pronoun",
+        "preposition",
+        "preposition",
+        "article",
+        "pronoun",
+        "article",
+        "preposition",
+        "article"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

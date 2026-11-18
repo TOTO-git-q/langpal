@@ -1,0 +1,30 @@
+# langpal 后端真实依赖（2026-08-27 从本机 venv 固化；部署小主机用同一份）
+fastapi>=0.141
+uvicorn[standard]>=0.52
+python-multipart>=0.0.9   # 头像上传（FastAPI 的 UploadFile 硬依赖）
+claude-agent-sdk>=0.2.144
+httpx>=0.28
+sudachipy>=0.6.11
+sudachidict_core>=20260101
+spacy>=3.8,<3.9
+lingua-language-detector>=2.2
+
+# WP-M（嵌入式回忆 RAG）
+fastembed>=0.8.0        # ONNX embedding，不拉 torch；模型见 services/recall.py 顶部注释
+numpy>=1.26             # cosine 暴力检索用（onnxruntime 的传递依赖，这里显式声明版本下限）
+
+# spacy 语言模型（en/de）另装：python -m spacy download en_core_web_sm de_core_news_sm
+# 或 pip 直装官方 release wheel（部署脚本用后者，可锁版本）
+
+jsonschema>=4.23,<5      # 口语课出题结构、ChatGPT JSON 结果校验；authoring/ 课程脚本也用
+
+# ChatGPT 账号登录（SIWC）：官方 openai SDK 调 Responses；PyJWT 校验 ID token；pywin32 用 DPAPI 保存授权
+openai>=2.54,<3
+PyJWT[crypto]>=2.10,<3
+pywin32>=310; sys_platform == "win32"
+
+# 课程管家的 DeepSeek 通道（DSH harness，只给课程管家用）；SDK 和运行时版本必须对齐
+deepseek-harness-sdk==0.2.1rc2
+deepseek-harness-runtime-bin==0.2.1rc2
+
+mcp>=2.3,<3              # backend/reader_mcp.py 可选本机 stdio 工具

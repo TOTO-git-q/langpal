@@ -1,0 +1,366 @@
+{
+ "id": "usage-grammar-gerund",
+ "title": "非谓语动词的动名词",
+ "goal": "能根据句法位置和搭配使用动名词并正确拼写。",
+ "skill": "语言运用",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "position",
+   "label": "识别必须使用动名词的句法位置"
+  },
+  {
+   "id": "form",
+   "label": "按动词或介词搭配填出动名词"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语课程课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "教学内容与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "动名词是动词的 ing 形式，表示动作或活动。它在句中作主语或宾语，后面可以带自己的宾语。"
+    },
+    {
+     "box": "Reading maps requires practice. / She enjoys reading maps."
+    },
+    {
+     "p": "第一句中 Reading maps 是主语；第二句中 reading maps 是 enjoy 的宾语。两句中的 maps 都是 reading 的宾语。"
+    }
+   ]
+  },
+  {
+   "id": "positions",
+   "type": "table",
+   "title": "动名词的位置",
+   "cols": [
+    "位置",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "主语",
+     "动名词短语可作主语，谓语通常用单数",
+     "Growing herbs takes patience."
+    ],
+    [
+     "介词宾语",
+     "介词后面的动词用动名词",
+     "She is interested in growing herbs."
+    ],
+    [
+     "动词宾语",
+     "enjoy 后用动名词",
+     "She enjoys growing herbs."
+    ],
+    [
+     "动词宾语",
+     "avoid 后用动名词",
+     "She avoids growing herbs in deep shade."
+    ],
+    [
+     "动词宾语",
+     "finish 后用动名词",
+     "She finished planting the herbs."
+    ]
+   ]
+  },
+  {
+   "id": "to",
+   "type": "table",
+   "title": "辨析：to 的作用",
+   "cols": [
+    "结构",
+    "to 的作用",
+    "例句"
+   ],
+   "rows": [
+    [
+     "look forward to",
+     "to 是介词，后接名词或动名词",
+     "We look forward to visiting the garden."
+    ],
+    [
+     "be used to",
+     "to 是介词，后接名词或动名词",
+     "She is used to working outdoors."
+    ],
+    [
+     "decide to",
+     "to 是不定式标记，后接动词原形",
+     "We decided to visit the garden."
+    ],
+    [
+     "plan to",
+     "to 是不定式标记，后接动词原形",
+     "She plans to work outdoors."
+    ]
+   ]
+  },
+  {
+   "id": "spelling",
+   "type": "table",
+   "title": "动名词的拼写",
+   "cols": [
+    "情况",
+    "变化",
+    "例句"
+   ],
+   "rows": [
+    [
+     "一般动词",
+     "直接加 ing",
+     "read → reading"
+    ],
+    [
+     "以不发音的 e 结尾",
+     "去 e 再加 ing",
+     "make → making"
+    ],
+    [
+     "重读闭音节末尾为单辅音字母",
+     "双写末尾辅音字母再加 ing",
+     "run → running"
+    ],
+    [
+     "以 ie 结尾",
+     "ie 变 y 再加 ing",
+     "lie → lying"
+    ],
+    [
+     "以 w 结尾",
+     "直接加 ing",
+     "grow → growing"
+    ]
+   ],
+   "note": "以 w、x 或 y 结尾的动词不双写末尾字母，如 fixing。"
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "position"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "(Read) aloud helps the group hear each line. Begin with a gerund.",
+       "accept": [
+        "Reading"
+       ],
+       "why": "Reading aloud 是句子的主语。",
+       "point": "position"
+      },
+      {
+       "stem": "The group enjoys (read) stories aloud.",
+       "accept": [
+        "reading"
+       ],
+       "why": "enjoy 后用动名词作宾语。",
+       "point": "position"
+      },
+      {
+       "stem": "The group talked about (read) the story again.",
+       "accept": [
+        "reading"
+       ],
+       "why": "介词 about 后用动名词。",
+       "point": "position"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "form"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The group finished (make) the paper models.",
+       "accept": [
+        "making"
+       ],
+       "why": "finish 后用动名词；make 去 e 再加 ing。",
+       "point": "form"
+      },
+      {
+       "stem": "The group avoided (stop) in the narrow passage.",
+       "accept": [
+        "stopping"
+       ],
+       "why": "avoid 后用动名词；stop 双写 p 再加 ing。",
+       "point": "form"
+      },
+      {
+       "stem": "They look forward to (meet) the visiting artist.",
+       "accept": [
+        "meeting"
+       ],
+       "why": "look forward to 中的 to 是介词，后用 meeting。",
+       "point": "form"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-three",
+   "type": "check",
+   "title": "练习三",
+   "points": [
+    "position",
+    "form"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "(Swim) in a pool requires care. Begin with a gerund.",
+       "accept": [
+        "Swimming"
+       ],
+       "why": "动名词短语作主语；swim 双写 m 再加 ing。",
+       "point": "position"
+      },
+      {
+       "stem": "She is used to (write) a list before shopping.",
+       "accept": [
+        "writing"
+       ],
+       "why": "be used to 中的 to 是介词；write 去 e 再加 ing。",
+       "point": "form"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "position",
+    "form"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "A local club meets to make paper models. Its members bring sheets of paper, rulers, and pencils to each session. [1] the paper carefully helps them make accurate folds. The leader explains one stage at a time and leaves an example on the table. Many members enjoy [2] different shapes from the same basic fold. They compare the results and discuss the changes they made. The leader avoids [3] instructions too quickly because some members are new to the method. When a model is finished, its maker can place it on a shelf near the door. The club is interested in [4] a small display at the end of the month. Each member may choose one model for it. The group looks forward to [5] family members at the display. Visitors will be able to see the models and learn about the materials used. The club will leave a few pieces of spare paper on a separate table for visitors who want to try folding. Members will be available to explain the first steps. After the display, they will return the models to their makers and put the remaining paper in a cupboard for the next session.",
+       "items": [
+        {
+         "stem": "(Measure) the paper carefully helps the members make accurate folds. Begin with a gerund.",
+         "accept": [
+          "Measuring"
+         ],
+         "why": "动名词短语作主语；measure 去 e 再加 ing。",
+         "point": "position"
+        },
+        {
+         "stem": "Many members enjoy (create) different shapes from the same basic fold.",
+         "accept": [
+          "creating"
+         ],
+         "why": "enjoy 后接动名词，create 去 e 再加 ing。",
+         "point": "form"
+        },
+        {
+         "stem": "The leader avoids (give) instructions too quickly.",
+         "accept": [
+          "giving"
+         ],
+         "why": "avoid 后接动名词，give 去 e 再加 ing。",
+         "point": "form"
+        },
+        {
+         "stem": "The club is interested in (hold) a small display at the end of the month.",
+         "accept": [
+          "holding"
+         ],
+         "why": "介词 in 后接动名词 holding。",
+         "point": "position"
+        },
+        {
+         "stem": "The group looks forward to (welcome) family members at the display.",
+         "accept": [
+          "welcoming"
+         ],
+         "why": "look forward to 中的 to 是介词，welcome 去 e 再加 ing。",
+         "point": "form"
+        }
+       ]
+      },
+      {
+       "text": "A walking group explores paths near a lake. The members meet on Sunday mornings and choose a route together. [1] a route before departure allows them to check its length. The group avoids [2] on narrow roads where there is little space for people on foot. Instead, the members use marked paths whenever possible. They carry water and a paper map in case a phone is unavailable. At one meeting, the leader showed the group how to read the marks on the map. Some members were interested in [3] more about the symbols. The leader explained that different lines can represent different kinds of paths. At the end of each walk, the group finishes [4] notes about the route. These notes include the distance and the places where the group stopped. The members can consult them when they plan another walk. They look forward to [5] a path through the woods next month. Before that walk, the leader will check whether the path is open. The group will meet at the usual place and travel to the starting point together. New members can ask about the distance before deciding whether to join.",
+       "items": [
+        {
+         "stem": "(Choose) a route before departure allows the group to check its length. Begin with a gerund.",
+         "accept": [
+          "Choosing"
+         ],
+         "why": "动名词短语作主语；choose 去 e 再加 ing。",
+         "point": "position"
+        },
+        {
+         "stem": "The group avoids (walk) on narrow roads with little space for people on foot.",
+         "accept": [
+          "walking"
+         ],
+         "why": "avoid 后用动名词 walking。",
+         "point": "form"
+        },
+        {
+         "stem": "Some members were interested in (learn) more about the symbols.",
+         "accept": [
+          "learning"
+         ],
+         "why": "介词 in 后接动名词 learning。",
+         "point": "position"
+        },
+        {
+         "stem": "The group finishes (write) notes about the route at the end of each walk.",
+         "accept": [
+          "writing"
+         ],
+         "why": "finish 后接动名词，write 去 e 再加 ing。",
+         "point": "form"
+        },
+        {
+         "stem": "The members look forward to (visit) a path through the woods next month.",
+         "accept": [
+          "visiting"
+         ],
+         "why": "look forward to 中的 to 是介词，后接 visiting。",
+         "point": "form"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

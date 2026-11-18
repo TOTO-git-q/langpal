@@ -1,0 +1,492 @@
+{
+ "id": "reading-daily-messages",
+ "title": "短信和聊天记录",
+ "goal": "根据多轮回应确定指代，并理解省略、缩写和口语表达。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "reference",
+   "label": "确定每条消息回应的对象和指代"
+  },
+  {
+   "id": "informal",
+   "label": "理解省略、缩写和口语表达"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、计分、自适应"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明和官方样题（挖空规则是对照样题和答案看出来的）"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Reading Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-reading.pdf",
+   "used": "第 1 课：三类题的说明和需要的三项基本功"
+  }
+ ],
+ "cards": [
+  {
+   "id": "structure",
+   "type": "table",
+   "title": "结构",
+   "cols": [
+    "情况",
+    "判断依据",
+    "例"
+   ],
+   "rows": [
+    [
+     "多人交替发言",
+     "先确认发言者，再找所回应的问题。",
+     "Ari: Who has the key? Bo: I do."
+    ],
+    [
+     "插入另一话题",
+     "回应可能指向较早的问题。",
+     "Ari: Who has the key? Cy: The gate is shut. Bo: I have it."
+    ],
+    [
+     "代词指代",
+     "按名词的单复数及动作确定对象。",
+     "The labels are ready. Please attach them."
+    ],
+    [
+     "安排修订",
+     "区分提议、接受和取消。",
+     "Ari: Tuesday? Bo: No, Wednesday. Ari: Agreed."
+    ],
+    [
+     "回应范围",
+     "回应可能只接受其中一部分请求。",
+     "Ari: Can you bring cups and plates? Bo: Cups, yes; no plates."
+    ]
+   ]
+  },
+  {
+   "id": "abbreviations-one",
+   "type": "table",
+   "title": "常用表达：缩写一",
+   "cols": [
+    "表达",
+    "含义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "BTW = by the way",
+     "引入补充事项。",
+     "BTW, the latch is loose."
+    ],
+    [
+     "ASAP = as soon as possible",
+     "尽快，不给出具体时刻。",
+     "Send the corrected label ASAP."
+    ],
+    [
+     "FYI = for your information",
+     "告知一件事，供对方参考。",
+     "FYI, the side gate is open."
+    ],
+    [
+     "np = no problem",
+     "接受请求或回应感谢。",
+     "Ari: Could you lock up? Bo: np."
+    ],
+    [
+     "thx = thanks",
+     "表示感谢。",
+     "thx for checking the list."
+    ],
+    [
+     "lmk = let me know",
+     "要求告知情况。",
+     "lmk when the package arrives."
+    ]
+   ]
+  },
+  {
+   "id": "abbreviations-two",
+   "type": "table",
+   "title": "常用表达：缩写二",
+   "cols": [
+    "表达",
+    "含义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "brb = be right back",
+     "暂时离开，即将回来。",
+     "brb, checking the cupboard."
+    ],
+    [
+     "omw = on my way",
+     "正在前往某地。",
+     "omw to the north entrance."
+    ],
+    [
+     "ETA = estimated time of arrival",
+     "预计到达时间。",
+     "ETA 6:20, if traffic stays clear."
+    ],
+    [
+     "IDK = I do not know",
+     "表示不知道。",
+     "IDK which drawer has the tape."
+    ],
+    [
+     "TBH = to be honest",
+     "引入坦率评价。",
+     "TBH, the label is hard to read."
+    ],
+    [
+     "IMO = in my opinion",
+     "表示个人看法。",
+     "IMO, the shorter version is clearer."
+    ]
+   ]
+  },
+  {
+   "id": "informal",
+   "type": "table",
+   "title": "常用表达：省略与语气",
+   "cols": [
+    "形式",
+    "含义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "省略主语和助动词",
+     "按上下文补出主语和助动词。",
+     "Running late. = I am running late."
+    ],
+    [
+     "疑问句省略",
+     "按上下文补出 do you 等成分。",
+     "Need the red folder? = Do you need the red folder?"
+    ],
+    [
+     "works for me",
+     "接受某项安排。",
+     "Ari: Meet at six? Bo: Works for me."
+    ],
+    [
+     "give me a hand",
+     "请人帮忙，不是请人递东西。",
+     "Can someone give me a hand carrying this?"
+    ],
+    [
+     "up in the air",
+     "表示安排尚未确定。",
+     "The date is still up in the air."
+    ],
+    [
+     "语气与理由",
+     "看评价的话和后面的理由。",
+     "That is a relief. I thought the file was lost."
+    ],
+    [
+     "礼貌拒绝",
+     "先道谢，再用 but 引出拒绝。",
+     "Thanks for asking, but I cannot join today."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Suri: Can someone bring the folding stand?\nNoel: Where are we meeting?\nTao: At the loading door.\nSuri: The stand is in the cupboard.\nNoel: Found it. I can carry it.\nTao: thx. That gives me a hand with setup."
+    },
+    {
+     "box": "What does Noel offer to carry?\n1. The cupboard\n2. The folding stand\n3. The loading door\n4. The setup instructions"
+    },
+    {
+     "p": "Found it 省略了主语 I，回应的是 Suri 最先提到的支架。carry it 的 it 指 folding stand，即第二项。"
+    },
+    {
+     "p": "中间插入了见面地点的问答：At the loading door 回应 Where are we meeting。这组问答不影响后面 it 的指代。thx 表示感谢，give me a hand 在这里指帮忙布置。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "就近误指",
+     "it refers to the loading door.",
+     "能搬的是支架，不是离 it 最近的名词。"
+    ],
+    [
+     "混淆说话人",
+     "Tao offers to carry the stand.",
+     "提出搬运的是 Noel。"
+    ],
+    [
+     "字面理解",
+     "give me a hand means pass me an object.",
+     "后面的 setup 说明是帮忙布置。"
+    ],
+    [
+     "扩大回应",
+     "Noel agrees to complete all setup work.",
+     "Noel 只说了 I can carry it。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "reference",
+    "informal"
+   ],
+   "groups": [
+    {
+     "label": "Read the messages.",
+     "look": "messages",
+     "text": "Lena: Are the name cards ready?\nOwen: Still cutting them.\nLena: Fine, I will arrange the chairs.",
+     "items": [
+      {
+       "stem": "What does “them” refer to?",
+       "options": [
+        "The chairs that Lena is going to arrange",
+        "The scissors Owen is using to cut",
+        "The name cards that Owen is cutting",
+        "The cards Lena has already set out"
+       ],
+       "answer": 2,
+       "why": "依据是 Are the name cards ready?，them 回指复数的 name cards，即第三项。椅子在 them 之后才提到。",
+       "point": "reference"
+      }
+     ]
+    },
+    {
+     "label": "Read the messages.",
+     "look": "messages",
+     "text": "Kit: Need the charger?\nJo: Yes, mine is at home.\nKit: np, I will leave it beside the monitor.",
+     "items": [
+      {
+       "stem": "What does “np” communicate?",
+       "options": [
+        "Kit agrees to help with the request.",
+        "Kit cannot find the missing charger.",
+        "Kit asks Jo to return home first.",
+        "Kit refuses to leave the charger."
+       ],
+       "answer": 0,
+       "why": "Jo 对 Need the charger? 回答 Yes。np 即 no problem，表示 Kit 答应把充电器留下，即第一项。",
+       "point": "informal"
+      }
+     ]
+    },
+    {
+     "label": "Read the messages.",
+     "look": "messages",
+     "text": "Nia: Who can water the balcony herbs?\nOmar: Are the scissors there?\nPia: I can do the watering after work.\nNia: Thanks, Pia.",
+     "items": [
+      {
+       "stem": "Which message does Pia respond to?",
+       "options": [
+        "Omar's question about the scissors",
+        "Nia's final message thanking Pia",
+        "Omar's question about the balcony herbs",
+        "Nia's request about the balcony herbs"
+       ],
+       "answer": 3,
+       "why": "依据是 I can do the watering after work，watering 对应 Nia 的 water the balcony herbs，即第四项。第三项把提问的人换成了 Omar。",
+       "point": "reference"
+      }
+     ]
+    },
+    {
+     "label": "Read the messages.",
+     "look": "messages",
+     "text": "Ren: Is the extra rehearsal confirmed?\nTess: Still up in the air. Waiting for the room booking.",
+     "items": [
+      {
+       "stem": "What does Tess mean about the rehearsal?",
+       "options": [
+        "It has moved to another room.",
+        "Its plans are not yet settled.",
+        "Its room booking is confirmed.",
+        "It has definitely been canceled."
+       ],
+       "answer": 1,
+       "why": "依据是 Still up in the air 和 Waiting for the room booking。up in the air 表示还没有定，即第二项。第四项把未定说成了取消。",
+       "point": "informal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "reference",
+    "informal"
+   ],
+   "groups": [
+    {
+     "label": "Read the messages.",
+     "look": "messages",
+     "text": "Eda: Who has the puzzle box?\nFinn: I left it with Jules.\nGus: Do we also need a timer?\nJules: Got the box. One piece is missing, though.\nEda: I found that piece under the mat. I will bring it.\nGus: That is a relief. We can finish the puzzle now.",
+     "items": [
+      {
+       "stem": "What will Eda bring?",
+       "options": [
+        "The puzzle box Finn left with Jules",
+        "The timer requested by Gus",
+        "The piece found under the mat",
+        "The mat the piece was found under"
+       ],
+       "answer": 2,
+       "why": "依据是 I found that piece under the mat. I will bring it。it 指这块拼图，即第三项。",
+       "point": "reference"
+      },
+      {
+       "stem": "How does Gus feel in the final message?",
+       "options": [
+        "Relieved that the puzzle can be completed",
+        "Annoyed that the box was lent to Jules",
+        "Uncertain about who owns the missing mat",
+        "Disappointed that the timer has disappeared"
+       ],
+       "answer": 0,
+       "why": "依据是 That is a relief 和后面的理由 We can finish the puzzle now。第一项写出了宽慰和原因。",
+       "point": "informal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "reference",
+    "informal"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Read the messages.",
+       "look": "messages",
+       "text": "Anya: Does anyone have the portable speaker for the poetry recording?\nBo: I have it, but the battery is empty.\nCleo: What about the curtain for the background?\nAnya: That is already hanging in the small room.\nBo: I will charge the speaker and bring it after lunch.\nCleo: lmk when it is ready. I will test the sound then.\nAnya: Works for me. FYI, the microphone is already connected.",
+       "items": [
+        {
+         "stem": "What is already hanging in the small room?",
+         "options": [
+          "The portable speaker",
+          "The recording microphone",
+          "The background curtain",
+          "The empty speaker battery"
+         ],
+         "answer": 2,
+         "why": "依据是 What about the curtain for the background?。Anya 紧接着回答 That is already hanging，That 指幕布，即第三项。",
+         "point": "reference"
+        },
+        {
+         "stem": "What does Cleo want Bo to do?",
+         "options": [
+          "Notify Cleo when the speaker is ready",
+          "Move the curtain before recording",
+          "Test the sound after lunch",
+          "Reconnect the microphone after charging"
+         ],
+         "answer": 0,
+         "why": "lmk 即 let me know，when it is ready 指音箱充好电的时候，即第一项。第三项是 Cleo 自己要做的事。",
+         "point": "informal"
+        },
+        {
+         "stem": "What arrangement does Anya accept with “Works for me”?",
+         "options": [
+          "Bringing the speaker to the room before lunch",
+          "Hanging the curtain in the small room",
+          "Canceling the sound test that afternoon",
+          "Testing the sound once the speaker is ready"
+         ],
+         "answer": 3,
+         "why": "Works for me 回应的是前一条 I will test the sound then，then 指音箱准备好的时候，即第四项。",
+         "point": "informal"
+        }
+       ]
+      },
+      {
+       "label": "Read the messages.",
+       "look": "messages",
+       "text": "Dev: Who can collect the banner for the neighborhood debate?\nEli: I can. Is it at the sign maker's shop?\nFran: Do we need the wooden poles too?\nDev: Yes, those are in my shed. The banner is still at the shop.\nEli: omw there now. ETA 2:15.\nFran: I can fetch the poles while Eli gets the banner.\nDev: thx. lmk once both are in the hall.\nEli: BTW, the shop closes at three, so the timing works.",
+       "items": [
+        {
+         "stem": "What does Dev mean by “those”?",
+         "options": [
+          "The banner still at the sign shop",
+          "The poles needed for the banner",
+          "The tools kept in Dev's shed",
+          "The signs made at the shop"
+         ],
+         "answer": 1,
+         "why": "依据是 Do we need the wooden poles too?，those 回指复数的 wooden poles，即第二项。",
+         "point": "reference"
+        },
+        {
+         "stem": "Where is Eli heading when sending “omw there now”?",
+         "options": [
+          "To Dev's shed for the poles",
+          "To the hall where the debate is",
+          "To the sign maker's shop",
+          "To the hall to meet Dev"
+         ],
+         "answer": 2,
+         "why": "Dev 说 The banner is still at the shop，Eli 随后回 omw there now，there 指这家店，即第三项。去棚屋拿杆子的是 Fran。",
+         "point": "reference"
+        },
+        {
+         "stem": "What does “ETA 2:15” communicate?",
+         "options": [
+          "The shop will close at that time.",
+          "The debate will begin at that time.",
+          "The poles must leave the shed then.",
+          "Eli expects to arrive at that time."
+         ],
+         "answer": 3,
+         "why": "ETA 即 estimated time of arrival，紧跟在 omw there now 之后，表示 Eli 预计 2:15 到店，即第四项。关门时间是 three。",
+         "point": "informal"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

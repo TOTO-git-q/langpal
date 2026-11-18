@@ -1,0 +1,593 @@
+{
+ "id": "listening-conversation-detail",
+ "title": "细节题",
+ "goal": "听出原因、条件和时间地点，并核对选项中的同义改写。",
+ "skill": "listening",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 听力",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "detail",
+   "label": "听出题目所问的细节"
+  },
+  {
+   "id": "paraphrase",
+   "label": "识别原话的同义改写"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、录音长度、只放一遍"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "各题型的说明、考查的能力、官方样题"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Listening Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-listening.pdf",
+   "used": "第 1 课：四类题的说明和小测答案；第 2、4 课：应答配对、重音和语调"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "细节题考对话中明确说出的原因、条件、时间或地点。题干里的 why、when、where 和 what must 规定了要找哪一类信息。对话别处的真实细节，回答不了这一问。"
+    },
+    {
+     "box": "Why does the customer reject the first option?\nUnder what condition can the visitor enter?\nWhen will the order be ready?\nWhere should the package be collected?"
+    },
+    {
+     "p": "选项通常改写原话。It won’t fit in my bag 可改写为 It is too large to carry in the bag。两句说的都是尺寸，不是重量。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定信息类别",
+     "d": "题干问原因时，找动作和理由的对应。Why reject the box 对应 It’s too wide，与送货日期无关。"
+    },
+    {
+     "t": "2　区分有效信息",
+     "d": "否定、转折和更正会改变前面的安排。Not at the front desk; use the side entrance 指定的是侧门，前台不是最终地点。"
+    },
+    {
+     "t": "3　核对改写关系",
+     "d": "比较人物、动作、对象和条件是否一致。Only members may enter 与 Entry is restricted to members 同义，都只允许会员进入。"
+    }
+   ]
+  },
+  {
+   "id": "details",
+   "type": "table",
+   "title": "细节与限定",
+   "cols": [
+    "类型",
+    "依据",
+    "例句"
+   ],
+   "rows": [
+    [
+     "原因",
+     "because 后的理由须对应所问动作",
+     "I’m changing shoes because these pinch."
+    ],
+    [
+     "条件",
+     "only if 限定许可成立的前提",
+     "We can deliver only if someone is home."
+    ],
+    [
+     "时间点",
+     "by 是最迟时间，不是开始时间",
+     "Bring the costume back by noon."
+    ],
+    [
+     "时间段",
+     "until 表示状态持续的终点",
+     "The desk is staffed until six."
+    ],
+    [
+     "地点",
+     "区分咨询、领取和使用地点",
+     "Ask upstairs; collect the parcel downstairs."
+    ],
+    [
+     "更正",
+     "以后说的更正替换原安排",
+     "Not Tuesday. The repair will be ready Wednesday."
+    ]
+   ],
+   "note": "理由不一定含 because。These pinch. I need another pair 中，前一句直接解释换鞋原因。"
+  },
+  {
+   "id": "paraphrases",
+   "type": "table",
+   "title": "同义改写",
+   "cols": [
+    "方式",
+    "原文",
+    "正确选项"
+   ],
+   "rows": [
+    [
+     "否定换反义",
+     "We don’t charge for delivery.",
+     "Delivery is free."
+    ],
+    [
+     "动词换名词",
+     "Someone must approve the design.",
+     "Approval is required."
+    ],
+    [
+     "具体换概括",
+     "I’m working when the shop is open.",
+     "The opening hours conflict with the customer’s work."
+    ],
+    [
+     "主动换被动",
+     "The technician will check the cable.",
+     "The cable will be inspected."
+    ],
+    [
+     "条件换表达",
+     "Show the pass before entering.",
+     "Entry requires a pass."
+    ],
+    [
+     "数量保留范围",
+     "At most two visitors may enter.",
+     "No more than two visitors are allowed."
+    ]
+   ],
+   "note": "改写不能扩大范围。Delivery is free 只说送货免费，不能改成 All services are free。"
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Customer: Could the tailor shorten these trousers by Friday?\nAssistant: The tailor's away on Thursday. Friday afternoon is possible, but only if they're left here before noon today.\nCustomer: I can leave them now. Should I collect them at this counter?\nAssistant: At the fitting room upstairs. This counter only handles new orders."
+    },
+    {
+     "box": "What is required for the trousers to be ready on Friday?\n1. Collecting them before noon\n2. Leaving them today before midday\n3. Waiting for the tailor on Thursday\n4. Placing a new order upstairs"
+    },
+    {
+     "p": "题干问要求，依据是 only if they’re left here before noon today。第二项把 before noon 改写成 before midday，并保留了今天送来这个条件。"
+    },
+    {
+     "p": "第一项把送来的时间当成了取件时间。第三项用的是裁缝不在的日期。第四项把 new orders 和 upstairs 拼在了一起。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "错误",
+    "例"
+   ],
+   "rows": [
+    [
+     "被否定的地点",
+     "选了 not 后面的地点，忽略了更正",
+     "Not at this counter; collect it upstairs."
+    ],
+    [
+     "相邻的时间",
+     "把店员不在的日子当成取件日",
+     "Away Thursday; ready Friday."
+    ],
+    [
+     "条件遗漏",
+     "把有条件的许可说成无条件",
+     "Only if left today → Ready regardless of arrival."
+    ],
+    [
+     "关系颠倒",
+     "把顾客送来说成店员送货",
+     "Leave them here → We will deliver them."
+    ],
+    [
+     "范围扩大",
+     "把一处的规定说成所有地方的规定",
+     "This counter handles new orders → All counters do."
+    ]
+   ]
+  },
+  {
+   "id": "check-details",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "detail",
+    "paraphrase"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Can I pick up the repaired umbrella today?"
+       },
+       {
+        "who": "B",
+        "text": "The handle's fixed, but the glue needs to dry overnight. Tomorrow morning is fine."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why is the umbrella not ready for collection?",
+       "options": [
+        "The handle still needs replacing.",
+        "The customer came after opening hours.",
+        "The adhesive needs more drying time.",
+        "The repair cannot begin until tomorrow."
+       ],
+       "answer": 2,
+       "why": "依据是 the glue needs to dry overnight。第三项的 adhesive 改写了 glue；把手已经修好。",
+       "point": "detail"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Can we bring our own chess set?"
+       },
+       {
+        "who": "B",
+        "text": "Yes. The tables are free to use as long as each player orders a drink."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is required to use the tables without a fee?",
+       "options": [
+        "Each participant must buy a beverage.",
+        "Each participant must bring a chess set.",
+        "The group must pay for a table.",
+        "The group must order one shared drink."
+       ],
+       "answer": 0,
+       "why": "依据是 as long as each player orders a drink。每人都要点一杯饮料，即第一项；第四项说全组一杯，范围变小了。",
+       "point": "paraphrase"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Does the repair desk close at five?"
+       },
+       {
+        "who": "B",
+        "text": "It stays open until six today, but the last repair is accepted at five."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "When must a customer arrive to leave an item for repair?",
+       "options": [
+        "Before the desk closes at six",
+        "At five, when the desk closes today",
+        "After the last repair has been accepted",
+        "No later than five o'clock today"
+       ],
+       "answer": 3,
+       "why": "依据是 the last repair is accepted at five。送修最晚五点，即第四项；六点是关门时间。",
+       "point": "detail"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The outdoor stall won't operate in this wind."
+       },
+       {
+        "who": "B",
+        "text": "So the honey tasting is canceled?"
+       },
+       {
+        "who": "A",
+        "text": "No, it's moving inside the farmhouse."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What has happened to the tasting?",
+       "options": [
+        "It has been postponed until the wind stops.",
+        "It will be held indoors instead of outside.",
+        "It will remain at the outdoor stall.",
+        "It will be held both inside and outside."
+       ],
+       "answer": 1,
+       "why": "依据是 it's moving inside the farmhouse。品尝活动改在室内，即第二项；没有取消，也没有延期。",
+       "point": "paraphrase"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-dialogue",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "detail",
+    "paraphrase"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I'd like to collect my repaired watch."
+       },
+       {
+        "who": "B",
+        "text": "It's ready, but collections are at the service window behind this shop."
+       },
+       {
+        "who": "A",
+        "text": "Do I need the paper receipt? I only have the message on my phone."
+       },
+       {
+        "who": "B",
+        "text": "The message has the collection number, so that's enough. Show it at the window."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Where should the customer collect the watch?",
+       "options": [
+        "At the main sales counter",
+        "At the entrance to the shop",
+        "At a window behind the shop",
+        "At a service window inside this shop"
+       ],
+       "answer": 2,
+       "why": "依据是 collections are at the service window behind this shop。取件在店后面的窗口，即第三项。",
+       "point": "detail"
+      },
+      {
+       "stem": "What does the assistant say about the phone message?",
+       "options": [
+        "It provides sufficient proof for collection.",
+        "It must be exchanged for a paper receipt.",
+        "It will arrive after the watch is collected.",
+        "It lacks the number needed for collection."
+       ],
+       "answer": 0,
+       "why": "依据是 The message has the collection number, so that's enough。凭手机消息就能取件，即第一项。",
+       "point": "paraphrase"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "detail",
+    "paraphrase"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'd like to hire a cargo bike for tomorrow."
+         },
+         {
+          "who": "B",
+          "text": "The small one is available, and so is the large one."
+         },
+         {
+          "who": "A",
+          "text": "I'll carry a wide display board. It won't fit in the small carrier."
+         },
+         {
+          "who": "B",
+          "text": "Then the large bike would work. It costs more, but the lock is included."
+         },
+         {
+          "who": "A",
+          "text": "Fine. Can I return it at the station?"
+         },
+         {
+          "who": "B",
+          "text": "No, all our bikes come back to this workshop. The station only rents regular bikes."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why does the customer choose the larger bike?",
+         "options": [
+          "The smaller bike is already rented.",
+          "The board is too wide for the small one.",
+          "The larger bike is cheaper to hire.",
+          "The smaller bike does not include a lock."
+         ],
+         "answer": 1,
+         "why": "依据是 I'll carry a wide display board. It won't fit in the small carrier。展示板太宽，小车放不下，即第二项；两种车都有。",
+         "point": "detail"
+        },
+        {
+         "stem": "What does the employee say about returning the bike?",
+         "options": [
+          "It can be returned wherever regular bikes are rented.",
+          "It must be returned to the station tomorrow.",
+          "It must go back to the place where this business operates.",
+          "It can be left at either the station or the workshop."
+         ],
+         "answer": 2,
+         "why": "依据是 all our bikes come back to this workshop。车必须还到这家店，即第三项；车站只租普通自行车。",
+         "point": "paraphrase"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'd like to join the evening bread-making session."
+         },
+         {
+          "who": "B",
+          "text": "There's space, but it starts at six, not seven as the old leaflet says."
+         },
+         {
+          "who": "A",
+          "text": "That's fine. Do I need to bring ingredients?"
+         },
+         {
+          "who": "B",
+          "text": "No, they're included. Bring a container for the loaf. Aprons are available here."
+         },
+         {
+          "who": "A",
+          "text": "Great. I'll bring a box. I don't have an apron."
+         },
+         {
+          "who": "B",
+          "text": "That's all right. The session fee covers borrowing one."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "When does the session begin?",
+         "options": [
+          "At six in the evening",
+          "At seven in the evening",
+          "An hour after seven",
+          "At the time on the old leaflet"
+         ],
+         "answer": 0,
+         "why": "依据是 it starts at six, not seven as the old leaflet says。开始时间是六点，即第一项；七点是旧传单上的时间。",
+         "point": "detail"
+        },
+        {
+         "stem": "What is included in the session fee?",
+         "options": [
+          "A container for taking bread home",
+          "A new apron for each participant to keep",
+          "A separate box of ingredients to take away",
+          "Temporary use of an apron during the session"
+         ],
+         "answer": 3,
+         "why": "依据是 The session fee covers borrowing one。one 指 apron，费用包含借用一条围裙，即第四项；围裙用完要还。",
+         "point": "paraphrase"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'm coming to the community radio interview tomorrow. Should I use the main entrance?"
+         },
+         {
+          "who": "B",
+          "text": "The main entrance will be closed for a delivery. Use the courtyard door instead."
+         },
+         {
+          "who": "A",
+          "text": "Is that the door beside the bicycle racks?"
+         },
+         {
+          "who": "B",
+          "text": "Yes. Press the bell, and the producer will let you in. Please arrive fifteen minutes before the interview so we can check the microphone."
+         },
+         {
+          "who": "A",
+          "text": "I'll be there early, then."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which entrance should the guest use?",
+         "options": [
+          "The main entrance used for deliveries",
+          "The courtyard door by the bicycle racks",
+          "The main entrance after the delivery ends",
+          "Any door where the bell can be pressed"
+         ],
+         "answer": 1,
+         "why": "依据是 Use the courtyard door instead 和 Is that the door beside the bicycle racks? Yes。要走自行车架旁的院门，即第二项；主入口关闭。",
+         "point": "detail"
+        },
+        {
+         "stem": "Why should the guest arrive early?",
+         "options": [
+          "To help unload the delivery",
+          "To move bicycles away from the door",
+          "To allow time for an equipment check",
+          "To interview the producer beforehand"
+         ],
+         "answer": 2,
+         "why": "依据是 so we can check the microphone。第三项把检查麦克风概括为 equipment check。",
+         "point": "paraphrase"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

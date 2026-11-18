@@ -1,0 +1,64 @@
+{
+ "id": "writing-bar-method",
+ "title": "柱状图的比较对象",
+ "goal": "按共同特征组织比较对象，选择代表主要差异的数据。",
+ "skill": "写作",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [{"id": "group", "label": "按共同特征组织比较对象"}, {"id": "select", "label": "选择能代表主要差异的数据"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "柱状图的分组与数据选择"}],
+ "cards": [
+  {"id": "type", "type": "text", "title": "题型", "body": [
+   {"p": "单组柱图只有一组数值，比较各类别的高低。分组柱图的每个类别里有两组或多组柱。图例说明各组代表什么，坐标轴给出类别、指标和单位。"},
+   {"p": "同一年份里各类别的差异是静态比较。图中给出不同年份时，才能写随时间的变化。"},
+   {"box": "A: 20 visitors; B: 30 visitors in 2020.\nB had 10 more visitors than A.\nA: 20 visitors in 2020; 30 visitors in 2022.\nVisits to A rose by 10."}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定对象", "d": "读取类别、图例和单位。两组柱可表示不同地点，也可表示不同年份。"},
+   {"t": "2　比较类别", "d": "在同一组内比较各类别的高低。例如 A、B 分别为 20 和 30 时，B 较高。"},
+   {"t": "3　比较组别", "d": "在同一类别内比较两组，并计算差距。20 与 30 相差 10。"},
+   {"t": "4　选择数据", "d": "把特点相同的类别放在一起写。用最大值、最小值或接近的差距支持概述。逐项列出数字不能代替主要特征。"}
+  ]},
+  {"id": "grouping", "type": "table", "title": "分组依据", "cols": ["依据", "数据", "描述"], "rows": [
+   ["同类对象", "A 20、B 30；C 50、D 60", "A and B had lower figures than C and D."],
+   ["最高与最低", "A 20、B 30、C 50、D 60", "D had the highest figure, whereas A had the lowest."],
+   ["接近的差距", "A 两组 20、30；B 两组 40、50", "The gap between the groups was 10 in both A and B."],
+   ["同类时间变化", "A 20 至 30；B 40 至 50", "Both A and B rose by 10 over the period."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "The grouped bar chart compares the number of bicycles hired at four stations in two separate years. The bars show annual totals in hundreds of bicycles. Summarise the main features and make relevant comparisons, using the figures shown for both years.\n\nBicycles hired (hundreds)\n       2020           2022\nOak    ██ 20          ███ 30\nElm    ███ 30         ████ 40\nPine   ██████ 60      ██████ 60\nAsh    █████ 50       █████ 50\nEach block = 10 hundreds; labels give exact values."},
+   {"p": "Oak 和 Elm 都上升 10 百辆，Pine 和 Ash 不变，可以按变化分成两组。每组用各站的首末值支持。Pine 的 60 百辆是两年中的最高值。"},
+   {"box": "Oak and Elm both recorded increases of 1,000 hires, whereas the totals for Pine and Ash were unchanged. Pine had the highest total in each year, at 6,000. Oak rose from 2,000 to 3,000 hires, while Elm increased from 3,000 to 4,000. Pine remained at 6,000 and Ash at 5,000. In the final year, Elm's total was 1,000 higher than Oak's and 1,000 lower than Ash's."}
+  ]},
+  {"id": "errors", "type": "table", "title": "干扰项", "cols": ["情况", "例句", "原因"], "rows": [
+   ["静态差异", "Pine rose from 50 to 60 in 2022.", "50 和 60 是 2022 年两个站的数值，不是变化。"],
+   ["颠倒对象", "Ash was the highest in both years.", "两年最高值均为 Pine 的 60。"],
+   ["差距", "Oak rose twice as much as Elm.", "两站均增加 10 百辆。"],
+   ["单位", "Pine had 60 hires each year.", "单位是百辆，60 表示 6,000 辆。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["group", "select"], "groups": [{"items": [
+   {"stem": "A and B rose by 5; C and D were unchanged. Which grouping reflects the changes?", "options": ["A with B; C with D", "A with C; B with D", "A with D; B with C", "A with B and C; D alone"], "answer": 0, "why": "前两个类别都上升 5，后两个都不变，第一项按变化分组。", "point": "group"},
+   {"stem": "In one year A has 10, B 20 and C 30 visits. Which comparison is valid?", "options": ["A rose from 10 to 20 visits.", "C had 20 more visits than A.", "B fell from 30 to 20 visits.", "C rose from 20 to 30 visits."], "answer": 1, "why": "同一年里第三个类别是 30，第一个是 10，相差 20，即第二项。数据只有一年，不能写成上升或下降。", "point": "group"},
+   {"stem": "The values are A 12, B 25, C 24 and D 8. Which pair shows the extremes?", "options": ["A 12 and B 25", "C 24 and D 8", "B 25 and D 8", "B 25 and C 24"], "answer": 2, "why": "25 是最高值，8 是最低值，第三项给出两者。", "point": "select"},
+   {"stem": "Group X and Y have values 10 and 18 for A, and 20 and 28 for B. Which comparison is supported?", "options": ["The gap is 10 for both categories.", "The gap is 18 for both categories.", "The gap is 28 for both categories.", "The gap is 8 for both categories."], "answer": 3, "why": "18 减 10 和 28 减 20 均为 8，第四项正确。", "point": "select"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["group", "select"], "groups": [{"text": "Annual sales (hundreds)\n        2021       2023\nRed     ██ 20      ███ 30\nBlue    ███ 30     ████ 40\nGreen   █████ 50   █████ 50\nGold    ████ 40    ████ 40\nEach block = 10 hundreds; labels give exact values.", "items": [
+   {"stem": "Which pair had unchanged sales?", "options": ["Red and Blue", "Green and Gold", "Red and Green", "Blue and Gold"], "answer": 1, "why": "Green 两年均为 50，Gold 均为 40，第二项正确。", "point": "group"},
+   {"stem": "Which values show the highest and lowest sales in 2021?", "options": ["5,000 and 2,000", "4,000 and 3,000", "3,000 and 2,000", "5,000 and 4,000"], "answer": 0, "why": "2021 年最高为 Green 的 50 百，最低为 Red 的 20 百。", "point": "select"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["group", "select"], "sets": [{"id": "set-a", "groups": [
+   {"text": "Seats sold (hundreds)\n        2019       2022\nHall A  ██ 20      ███ 30\nHall B  ███ 30     ████ 40\nHall C  █████ 50   █████ 50\nHall D  ████ 40    ████ 40\nEach block = 10 hundreds; labels give exact values.", "items": [
+    {"stem": "Which grouping reflects the shared changes?", "options": ["A and C rose; B and D stayed level.", "A and B rose; C and D stayed level.", "A and D rose; B and C stayed level.", "C and D rose; A and B stayed level."], "answer": 1, "why": "前两座场馆各增加 10 百，后两座不变，即第二项。", "point": "group"},
+    {"stem": "Which figures support the highest and lowest totals in 2019?", "options": ["C: 5,000; D: 4,000", "B: 3,000; A: 2,000", "C: 5,000; A: 2,000", "D: 4,000; A: 2,000"], "answer": 2, "why": "2019 年第三座场馆为 50 百，最高；第一座为 20 百，最低。即第三项。", "point": "select"},
+    {"stem": "Which statement compares categories in 2022?", "options": ["B rose from 30 to 40 that year.", "C exceeded A by 20 seats.", "A exceeded B by 1,000 seats.", "C exceeded A by 2,000 seats."], "answer": 3, "why": "2022 年第三座场馆为 50 百，第一座为 30 百，相差 20 百，即 2,000 个座位。第二项把 20 百写成了 20。", "point": "group"},
+    {"stem": "Which values support the equal increases at A and B?", "options": ["A: 2,000 to 3,000; B: 3,000 to 4,000", "A: 2,000 to 3,000; C: 5,000 to 5,000", "B: 3,000 to 4,000; D: 4,000 to 4,000", "C: 5,000 to 5,000; D: 4,000 to 4,000"], "answer": 0, "why": "第一座场馆从 20 百升到 30 百，第二座从 30 百升到 40 百，增量都是 10 百，即第一项。", "point": "select"}
+   ]},
+   {"text": "Meals served (hundreds)\n         2020       2024\nNorth    ██ 20      ███ 30\nSouth    ███ 30     ████ 40\nEast     █████ 50   █████ 50\nWest     ████ 40    ████ 40\nEach block = 10 hundreds; labels give exact values.", "items": [
+    {"stem": "Describe the two locations with unchanged totals.", "lead": "Totals", "chunks": ["at East and West remained", "unchanged", "over", "the period"], "tail": ".", "extra": ["increased"], "why": "East 和 West 的首末值均相同，remained unchanged 表示不变。", "point": "group"},
+    {"stem": "State the 2024 gap between East and North.", "lead": "East", "chunks": ["served", "2,000 more meals", "than North", "in"], "tail": "2024.", "extra": ["fewer"], "why": "2024 年 East 为 50 百，North 为 30 百，差 2,000。", "point": "select"},
+    {"stem": "Compare the changes at North and South.", "lead": "Both", "chunks": ["North and South increased", "by 1,000 meals", "over", "the period"], "tail": ".", "extra": ["decreased"], "why": "两处均增加 10 百份，适合归为一组。", "point": "group"},
+    {"stem": "Give the highest 2020 total and its location.", "lead": "East", "chunks": ["had", "the highest total", "at 5,000 meals", "in"], "tail": "2020.", "extra": ["lowest"], "why": "2020 年 East 的 50 百份为最高值。", "point": "select"}
+   ]}
+  ]}]} 
+ ]
+}

@@ -1,0 +1,476 @@
+{
+ "id": "listening-passage-detail",
+ "title": "听力篇章细节题",
+ "goal": "提取问题所问的行为与条件；区分先后事件及其结果。",
+ "skill": "听力",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "detail",
+   "label": "提取问题所问的行为与条件"
+  },
+  {
+   "id": "sequence",
+   "label": "区分先后事件及其结果"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语六级（CET-6）：课表",
+   "url": "docs/syllabi/cet6.md",
+   "used": "听力篇章细节题的内容、知识点与练习规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "细节题问独白中明确说出的信息：人物的行为、事件的顺序、条件。选项常用同义表达。判断时核对三样：谁做的，对什么做的，有什么限制。"
+    },
+    {
+     "box": "The gardener watered the seedlings only after checking the soil.\nWhat did the gardener do before watering? → Checked the soil."
+    },
+    {
+     "p": "after checking 表明检查在浇水之前。题目问的是先发生的行为。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定问题对象",
+     "d": "区分题干所问的人物、行为和条件。Who prepared the list? 问编制名单的人，不问名单的用途。"
+    },
+    {
+     "t": "2　还原动作关系",
+     "d": "将动作与主体、对象一起记下。The editor sent the list to the printer 中，发送者是编辑。"
+    },
+    {
+     "t": "3　排列先后",
+     "d": "根据 before、after 和 later 排列事件。After testing the door, staff replaced the lock 表示先测试再更换。"
+    },
+    {
+     "t": "4　核对条件和结果",
+     "d": "核对 only if、unless 引出的条件。原计划和实际做法要分开。The team planned to paint but repaired the wall 中，实际做的是修墙。"
+    }
+   ]
+  },
+  {
+   "id": "paraphrases",
+   "type": "table",
+   "title": "细节的同义改写",
+   "cols": [
+    "类型",
+    "原文",
+    "改写"
+   ],
+   "rows": [
+    [
+     "人物行为",
+     "A technician examined the pump.",
+     "A technician inspected the pump."
+    ],
+    [
+     "人物行为",
+     "Volunteers handed out the forms.",
+     "Volunteers distributed the forms."
+    ],
+    [
+     "事件顺序",
+     "The team tested the gate before painting it.",
+     "Testing preceded the painting of the gate."
+    ],
+    [
+     "事件顺序",
+     "After recording the totals, staff sent the report.",
+     "The report was sent once the totals had been recorded."
+    ],
+    [
+     "条件限制",
+     "Members may borrow a camera if they reserve it.",
+     "A reservation is required to borrow a camera."
+    ],
+    [
+     "条件限制",
+     "The room opens only when a supervisor is present.",
+     "A supervisor must be present for the room to open."
+    ]
+   ]
+  },
+  {
+   "id": "sequence",
+   "type": "table",
+   "title": "顺序与结果",
+   "cols": [
+    "关系",
+    "判断",
+    "例"
+   ],
+   "rows": [
+    [
+     "先后",
+     "before 后是较晚的事件。",
+     "They checked the list before printing it."
+    ],
+    [
+     "回溯",
+     "after 后的事件先发生。",
+     "After the test, they adjusted the machine."
+    ],
+    [
+     "计划与行动",
+     "but 后说明实际做法。",
+     "They planned a poster but sent an email."
+    ],
+    [
+     "行为与结果",
+     "分号前是措施，分号后是观察到的结果。",
+     "Staff added labels; visitors found the shelves faster."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The staff planned to replace a damaged noticeboard. After a carpenter inspected it, they kept the frame and changed only the surface. A volunteer then attached a list of room numbers. Visitors could consult the list once the surface had dried."
+    },
+    {
+     "box": "What did the staff do after the inspection?\n1. They replaced the entire noticeboard.\n2. They kept the frame and renewed the surface.\n3. They attached the list before changing the surface.\n4. They let visitors use the surface while it was wet."
+    },
+    {
+     "p": "After a carpenter inspected it 后的 kept the frame and changed only the surface 是实际行动，对应第二项。第一项更换整个告示板是原先的计划。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "顺序颠倒",
+     "The list was attached before the surface was changed.",
+     "原文先更换表面，再附名单。"
+    ],
+    [
+     "主体替换",
+     "The volunteer inspected the board.",
+     "检查者是木工。"
+    ],
+    [
+     "部分正确",
+     "Staff kept the frame and the old surface.",
+     "保留框架，更换表面。"
+    ],
+    [
+     "计划误作结果",
+     "Staff replaced the whole board.",
+     "更换整块板是原计划。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "detail",
+    "sequence"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A librarian prepared a list of damaged books. A volunteer carried the books to a workroom, where a binder examined them. The binder made a note of the repairs each book needed. The librarian kept the list, while the volunteer returned the books to the shelves after the work was finished."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Who examined the books?",
+       "options": [
+        "The librarian preparing the list",
+        "The binder working in the workroom",
+        "The volunteer carrying the books there",
+        "The librarian receiving the books"
+       ],
+       "answer": 1,
+       "why": "a binder examined them 指明检查者是装订工。",
+       "point": "detail"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Before the garden group planted herbs, members removed stones from the soil. They placed the stones beside the path, where they could be collected later. Once the ground was clear, they put the herbs in rows. They watered the new plants later that afternoon."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What happened before the herbs were planted?",
+       "options": [
+        "The plants were watered that afternoon.",
+        "The stones were collected from the path.",
+        "The soil was watered by the members.",
+        "The group cleared stones from the soil."
+       ],
+       "answer": 3,
+       "why": "Before … planted herbs, members removed stones 表明清石先于种植。",
+       "point": "sequence"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The community kitchen lends its large pans to local groups only if a member signs for them. Smaller utensils can be used in the kitchen without a signature. The kitchen keeps the signed record by the door, so staff can check which pans are away and when they are returned."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is required to borrow a large pan?",
+       "options": [
+        "A member's signature for the large pan",
+        "A signature for each small utensil",
+        "A plan to use it only inside the kitchen",
+        "Staff approval at the kitchen door"
+       ],
+       "answer": 0,
+       "why": "only if a member signs for them 限定了借用大锅的条件，即第一项。第二项把签字的要求移到了小器具上。",
+       "point": "detail"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The repair team planned to replace a window. After measuring it, they decided to repair the frame instead. The original glass remained in place. They strengthened the frame and checked that the window opened properly. The team then recorded the work so that the building manager knew what had been done."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What did the team actually do?",
+       "options": [
+        "It replaced the complete window.",
+        "It removed the original glass from the frame.",
+        "It repaired the frame of the window.",
+        "It measured a replacement window."
+       ],
+       "answer": 2,
+       "why": "decided to repair the frame instead 表明实际修复框架；整窗更换是原计划。",
+       "point": "sequence"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "detail",
+    "sequence"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A rowing club intended to store its boats beside the water. After a winter storm, the members found that the site was often flooded. They measured a higher area and built a rack there instead. The boats were moved after the rack was finished. Members may use a boat if they record its return time in the club's book."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why did members choose a different storage site?",
+       "options": [
+        "A winter storm had damaged the boats.",
+        "The original site was regularly flooded.",
+        "The higher area already had a rack.",
+        "The boats were returned after a storm."
+       ],
+       "answer": 1,
+       "why": "the site was often flooded 说明原定地点积水，成员因此另选地点。",
+       "point": "detail"
+      },
+      {
+       "stem": "What did the members do immediately before moving the boats?",
+       "options": [
+        "They measured the flooded area again.",
+        "They recorded every boat's return time.",
+        "They chose the site beside the water.",
+        "They completed the rack at the higher site."
+       ],
+       "answer": 3,
+       "why": "The boats were moved after the rack was finished 表明先完成架子再搬船。",
+       "point": "sequence"
+      },
+      {
+       "stem": "What condition applies to using a boat?",
+       "options": [
+        "Recording when the boat will be returned",
+        "Measuring the height of the storage area",
+        "Building another rack beside the water",
+        "Writing down the time the boat is taken out"
+       ],
+       "answer": 0,
+       "why": "if they record its return time 说明用船时要记下归还时间，即第一项。第四项记的是取船时间，与原文不符。",
+       "point": "detail"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "detail",
+    "sequence"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the passage.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Today I'll describe how a small theatre changed its costume storage. The theatre once kept costumes in boxes behind the stage. The boxes were labelled by production, which made it easy to return a costume after a particular show. However, staff looking for a coat of a certain size had to open several boxes. The wardrobe manager initially proposed buying new cupboards. Before ordering anything, she asked two assistants to examine the existing collection. They found that the old cupboards in a nearby room had enough space, but the shelves needed adjustment. A carpenter moved the shelves, and the assistants then hung coats by size. They folded smaller items in boxes and attached a description to each box. The manager had also wanted to put shoes on the lowest shelf. After checking the room, she decided to keep them in a separate cabinet because the lowest shelf was needed for heavy boxes. Finally, the assistants made a list linking each costume to its previous production. The list remains useful when staff need the history of an item, even though the costumes are now arranged by type and size. Staff can borrow a costume for a rehearsal if they record its destination and the date it is due back. The revised arrangement did not require new cupboards. It used the existing room differently and gave staff two ways to find information: by inspecting the organized collection or by consulting the production list."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What did the assistants do before the shelves were moved?",
+         "options": [
+          "They examined the existing costume collection.",
+          "They hung the coats according to their size.",
+          "They attached descriptions to the boxes.",
+          "They recorded the destination of each coat."
+         ],
+         "answer": 0,
+         "why": "asked two assistants to examine the existing collection 在 A carpenter moved the shelves 之前。",
+         "point": "sequence"
+        },
+        {
+         "stem": "Where were the shoes ultimately kept?",
+         "options": [
+          "On the adjusted shelves beside the coats",
+          "Inside the boxes labelled by production",
+          "In a separate cabinet in the storage room",
+          "On the lowest shelf with the heavy boxes"
+         ],
+         "answer": 2,
+         "why": "decided to keep them in a separate cabinet 说明鞋子最后放在独立柜内。",
+         "point": "detail"
+        },
+        {
+         "stem": "What must staff record when borrowing a costume?",
+         "options": [
+          "Its production history and its original box",
+          "Its destination and expected return date",
+          "Its size and the box it was taken from",
+          "Its destination and the price of new cupboards"
+         ],
+         "answer": 1,
+         "why": "record its destination and the date it is due back 给出借用时需记录的信息。",
+         "point": "detail"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the passage.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'm going to explain how a local radio group prepared a series of interviews with craftspeople. At first, the producer wanted to record every interview in the same studio. A trial recording with a potter changed that plan. The studio was quiet, but the potter had difficulty explaining the tools without having them nearby. The producer therefore arranged to record the remaining interviews in the craftspeople's own workspaces. Before each visit, a researcher spoke with the guest by phone and prepared a short list of topics. The researcher did not write a complete script for the guest. At the workshop, a sound technician checked the room for background noise while the interviewer reviewed the topic list. If a machine was too loud, the technician asked for it to be switched off during the conversation. After each recording, an editor listened to the material and selected extracts for the programme. The producer had planned to publish the full recordings immediately, but several guests wanted to check references to other people first. The group sent those guests the relevant extracts and waited for their comments before publication. One interview included a description of a tool that listeners might not know. Rather than interrupt the guest during the recording, the interviewer added a brief explanation afterward. The finished series combined the guests' accounts with these short clarifications. The group kept the original trial recording as a reference, although it used the workshop recordings in the series itself."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What did the researcher do before visiting each guest?",
+         "options": [
+          "Checked the workshop for machine noise",
+          "Selected extracts for the finished programme",
+          "Prepared a complete script for the guest",
+          "Discussed topics with the guest by phone"
+         ],
+         "answer": 3,
+         "why": "a researcher spoke with the guest by phone and prepared a short list 表明研究员先电话讨论话题。",
+         "point": "detail"
+        },
+        {
+         "stem": "What happened after several guests requested checks?",
+         "options": [
+          "The guests were sent complete scripts to check.",
+          "The group sent relevant extracts to the guests.",
+          "The interviewer stopped explaining unfamiliar tools.",
+          "The producer published all recordings immediately."
+         ],
+         "answer": 1,
+         "why": "The group sent those guests the relevant extracts and waited for their comments 说明要求核查之后的行动。",
+         "point": "sequence"
+        },
+        {
+         "stem": "What did the interviewer do about the unfamiliar tool?",
+         "options": [
+          "Added an explanation after the recording",
+          "Asked the potter to bring it to the studio",
+          "Switched it off during the conversation",
+          "Removed its description from the programme"
+         ],
+         "answer": 0,
+         "why": "the interviewer added a brief explanation afterward 说明补充解释发生在录音之后。",
+         "point": "sequence"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

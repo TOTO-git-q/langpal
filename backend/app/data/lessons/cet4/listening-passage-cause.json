@@ -1,0 +1,68 @@
+{
+ "id": "listening-passage-cause",
+ "title": "篇章原因与结果题",
+ "goal": "确定明确的因果联系，区分行动目的与实际结果。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "cause", "label": "确定篇章中明确表达的因果联系"},
+  {"id": "effect", "label": "区分行动目的与实际结果"}
+ ],
+ "sources": [
+  {"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "听力篇章教学依据"}
+ ],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "原因题问某件事为什么发生。结果题问某个原因或行动带来了什么后果。答题的依据是录音中明确说出的因果联系。"},
+   {"box": "Why did the library change its hours?\nWhat happened as a result of the change?"},
+   {"p": "目的是行动想要达到的情况，结果是实际发生的情况。两者常常不同，要分开核对。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定所问事件", "d": "先找出题干问的是哪个行动或变化。再确认这件事由谁做、发生在哪个阶段。"},
+   {"t": "2　辨认联系", "d": "听表示因果的词。because 后面是原因，therefore 后面是结果。"},
+   {"t": "3　核对实际结果", "d": "把行动的目的和后文说出的结果对照。两件事只有先后、没有说明原因时，不算因果。"}
+  ]},
+  {"id": "relations", "type": "table", "title": "因果关系", "cols": ["表达", "方向", "例句"], "rows": [
+   ["because", "后接原因", "The hall closed because a pipe broke."],
+   ["therefore", "后接结果", "A pipe broke. Therefore, the hall closed."],
+   ["result in", "后接结果", "A broken pipe resulted in the hall's closure."],
+   ["顺序表达", "只表示先后", "The hall closed. Later, the garden opened."]
+  ], "note": "later 只表示时间先后。两件事有没有因果，要看录音里有没有说明原因的话。"},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A community hall planned an outdoor concert. Because the forecast warned of strong winds, the organizers moved the concert indoors. They hoped the move would protect the instruments. The indoor room was smaller, so fewer visitors could attend. The instruments remained dry, and the concert began on time. Later, the organizers thanked the volunteers who had arranged the chairs."},
+   {"box": "What was the actual result of moving the concert indoors?\n1. More visitors attended the concert.\n2. The instruments were exposed to wind.\n3. The smaller room limited attendance.\n4. The concert began later than planned."},
+   {"p": "The indoor room was smaller, so fewer visitors could attend 表明第三项是实际结果。保护乐器是安排室内演出的目的。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "例", "核对"], "rows": [
+   ["先后当因果", "The garden opened later. 误作闭馆的原因。", "寻找明确的原因表达。"],
+   ["目的当结果", "They hoped to protect instruments. 误作已实现的结果。", "核对 hoped 与实际发生的情况。"],
+   ["颠倒因果", "The concert moved indoors because attendance fell.", "核对原因与结果的方向。"],
+   ["结果当原因", "The small room caused the weather forecast.", "分别确定事件和原因。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["cause", "effect"], "groups": [
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "Because the footpath was flooded, the walking group used the road. Later, its members stopped for lunch."}]}, "items": [{"stem": "Why did the group use the road?", "options": ["The lunch stop had closed.", "Water covered the footpath.", "The road was flooded earlier.", "The group wanted a later lunch."], "answer": 1, "why": "Because the footpath was flooded 给出原因，即第二项。", "point": "cause"}]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "A printer ran out of paper. Therefore, the office postponed printing the notices. It ordered more paper later."}]}, "items": [{"stem": "What resulted from the lack of paper?", "options": ["The office canceled the paper order.", "The office distributed the notices early.", "The office postponed the printing.", "The office ran out of notices earlier."], "answer": 2, "why": "Therefore 后的 postponed printing 是缺纸的结果，即第三项。", "point": "cause"}]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "The museum added signs to shorten the queue. Visitors found the entrance more easily, but the queue remained just as long."}]}, "items": [{"stem": "What actually happened after the signs were added?", "options": ["Visitors found the entrance more easily.", "The queue became noticeably shorter.", "Visitors waited even longer than before.", "Visitors stopped using the entrance."], "answer": 0, "why": "found the entrance more easily 是实际结果，即第一项。缩短队伍只是目的，队伍并没有变短。", "point": "effect"}]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "The club changed its meeting day to attract more members. Attendance stayed the same, but the new day allowed the room to be cleaned beforehand."}]}, "items": [{"stem": "What was an actual consequence of the new meeting day?", "options": ["More members attended the meeting.", "The club needed a larger meeting room.", "Members cleaned the room after the meeting.", "The room could be cleaned before the meeting."], "answer": 3, "why": "the new day allowed the room to be cleaned beforehand 表示实际结果，即第四项。", "point": "effect"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["cause", "effect"], "groups": [
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "A neighborhood repair cafe had trouble finding space for bicycles. Because the entrance was narrow, a bicycle blocked the door whenever someone brought one inside. The organizers moved repairs into the yard. They hoped the new location would allow more bicycles to be repaired at once. Instead, rain stopped work on two afternoons. The change did, however, leave the entrance clear. Later, the cafe acquired a small tent for the repair area."}]}, "items": [
+    {"stem": "Why did the organizers move bicycle repairs?", "options": ["Rain had already damaged the yard.", "The narrow entrance was being blocked.", "The tent needed a place inside the cafe.", "The cafe had stopped repairing bicycles."], "answer": 1, "why": "Because the entrance was narrow 和 blocked the door 说明移动维修地点的原因，即第二项。", "point": "cause"},
+    {"stem": "What happened after repairs moved to the yard?", "options": ["The door became narrower than before.", "More bicycles were repaired on every afternoon.", "Rain interrupted work on two afternoons.", "The cafe immediately acquired a larger room."], "answer": 2, "why": "rain stopped work on two afternoons 是实际结果，即第三项。", "point": "effect"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 8, "pass": 0.75, "points": ["cause", "effect"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "A town library wanted to make its collection of local maps easier to use. The maps were kept in a drawer behind the main desk, and staff members had to fetch each one for visitors. Because several maps were fragile, the library decided to make digital copies before changing the display. The staff photographed the maps and checked that street names could be read on a screen. They then placed a computer near the history shelves. The purpose was to reduce the time visitors spent waiting for a staff member. During the first month, however, the computer attracted so much interest that visitors often had to wait for one another. The staff therefore introduced a booking sheet. As a result, visitors could reserve a time before arriving, although the computer was still shared. The original maps stayed in their drawer because the library wanted to protect them from frequent handling. A month later, the library held a talk about the history of the town's streets. The talk was planned separately from the computer project. Staff noticed that some visitors to the talk also used the map collection, but they did not count how many. The project made copies more accessible while giving the originals some protection. It did not remove every wait, but the booking sheet made the order of use clearer."}]}, "items": [
+    {"stem": "Why did the library make digital copies before changing the display?", "options": ["Some original maps were easily damaged.", "The history shelves were being moved.", "Visitors had booked a talk about streets.", "The computer had already been reserved."], "answer": 0, "why": "Because several maps were fragile 指出制作数字副本的原因，即第一项。", "point": "cause"},
+    {"stem": "What was the purpose of placing a computer near the shelves?", "options": ["To encourage staff to move the original maps.", "To reduce visitors' waiting for staff assistance.", "To prevent visitors from reserving a time.", "To replace the planned talk about local streets."], "answer": 1, "why": "The purpose was to reduce the time visitors spent waiting for a staff member，即第二项。", "point": "effect"},
+    {"stem": "What was a result of introducing the booking sheet?", "options": ["The originals were placed on the shelves.", "All waiting for the computer disappeared.", "Visitors could reserve a time in advance.", "The library stopped offering the street talk."], "answer": 2, "why": "As a result, visitors could reserve a time before arriving，即第三项。", "point": "cause"}
+   ]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "A college gardening group grew herbs in boxes outside a classroom. At first, members watered the boxes whenever they remembered. During a dry week, some boxes were watered twice in one day while others received none. Because the group wanted a more regular routine, its members created a shared watering schedule. Each person wrote an initial on the schedule after watering. They expected this system to save water by preventing repeated watering. In the first month, the amount of water used remained about the same. The schedule did, however, make it easier to see which boxes had been watered. One afternoon the group noticed that a box near the wall was still dry. The watering can had a short handle, and the box was difficult to reach from the path. The group moved the box closer to the path. As a result, members could water it without stepping onto the planted area. Later, a teacher offered the group seeds for another box. The offer followed a classroom discussion about herbs and was not presented as a result of the schedule. By the end of the term, the group had a clearer record of its work. Members continued to check the boxes themselves rather than assuming that a written schedule could replace observation. The schedule recorded actions, while the plants still needed attention."}]}, "items": [
+    {"stem": "Why did the group create a watering schedule?", "options": ["A teacher had offered additional seeds.", "The group wanted watering to be more regular.", "The wall had been moved closer to the path.", "The amount of water used had already fallen."], "answer": 1, "why": "Because the group wanted a more regular routine 说明原因，即第二项。", "point": "cause"},
+    {"stem": "What happened to water use in the first month?", "options": ["It fell because each person watered once.", "It increased because the teacher supplied seeds.", "It stopped while the schedule was prepared.", "It stayed roughly at its previous level."], "answer": 3, "why": "the amount of water used remained about the same 表示实际结果，即第四项。", "point": "effect"},
+    {"stem": "What was the effect of moving the box?", "options": ["Members could reach it from the path.", "Members no longer needed a watering can.", "The teacher offered seeds for the first time.", "The written schedule became unnecessary."], "answer": 0, "why": "As a result 后说明成员可从小路给箱子浇水，即第一项。", "point": "effect"}
+   ]}
+  ]}]} 
+ ]
+}

@@ -1,0 +1,221 @@
+/* jine.css — 主聊天（docs/MAIN-CHAT.md 第三节）。照原作 JINE：白底顶栏、粉紫云朵底的消息区、
+   九宫格贴图气泡（她浅蓝在左、你绿色在右，带小尾巴）、日期胶囊、灰紫系统胶囊、药丸输入框 + 图片/贴图按钮。
+   外壳用像素字体；气泡里的字用正文字体（要点词、注音）。 */
+
+#page-talk.active { display: flex; overflow: hidden; }
+.jm { --jm-ink: #4d23cf; --jm-shadow: #8c5fb8; --jm-sky: #e29de4; --jm-col: 860px;
+  flex: 1; min-width: 0; display: flex; flex-direction: column; background: var(--paper); }
+
+/* ============ 顶栏 ============ */
+.jm-top { position: relative; z-index: 3; flex: none; display: flex; align-items: center; gap: var(--gap-3);
+  min-height: 60px; padding: 8px var(--gap-4); background: var(--paper); box-shadow: 0 2px 0 #f0d1f1; }
+.jm-top-name { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.jm-top-line { display: flex; align-items: center; gap: var(--gap-2); min-width: 0; }
+.jm-top h1 { margin: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--ink); font: 400 20px/26px var(--font-pixel); }
+.jm-status { display: flex; align-items: center; gap: 6px; color: var(--muted); font-size: var(--fs-ui); line-height: 16px; white-space: nowrap; }
+.jm-status::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: #34d08a; }
+.jm-status[data-typing="true"] { color: var(--jm-ink); }
+.jm-status[data-typing="true"]::before { background: var(--jm-ink); animation: jmBlink 1s steps(2, end) infinite; }
+.jm-status:empty { display: none; }
+@keyframes jmBlink { 50% { opacity: .2; } }
+
+/* 在场的副人设：名字后面一排小头像，点了 = 下一条对她说 */
+.jm-guests { display: flex; align-items: center; gap: 4px; }
+.jm-guest { min-height: 0; padding: 0; border: 2px solid transparent; border-radius: 50%; background: none; line-height: 0; }
+.jm-guest:hover { border-color: #f0d1f1; }
+.jm-guest[aria-pressed="true"] { border-color: var(--jm-ink); }
+
+.jm-top-tools { flex: none; display: flex; align-items: center; gap: var(--gap-2); }
+/* 语言拨片：分段开关，当前语言实心；趣味模式开着时变虚线 */
+.jm-dial { display: flex; align-items: stretch; border: var(--bw) solid var(--jm-ink); background: var(--paper); }
+.jm-dial-opt, .jm-dial-add { min-height: 26px; padding: 0 10px; border: 0; border-right: 1px solid #d9c8f4; background: none; color: var(--jm-ink); font-size: var(--fs-ui); white-space: nowrap; }
+.jm-dial-add { border-right: 0; padding: 0 8px; font-size: 14px; }
+.jm-dial-opt:hover, .jm-dial-add:hover { background: var(--panel); }
+.jm-dial-opt[aria-checked="true"] { background: var(--jm-ink); color: var(--on-dark); }
+.jm-dial.fun { border-style: dashed; }
+.jm-dial.fun .jm-dial-opt[aria-checked="true"] { background: repeating-linear-gradient(135deg, var(--jm-ink) 0 4px, #7651e0 4px 8px); }
+/* 骰子：像素画的骰子面，开着时实心 */
+.jm-dice { position: relative; width: 30px; min-height: 30px; padding: 0; border: var(--bw) solid var(--jm-ink); background: var(--paper); }
+.jm-dice::before { content: ''; position: absolute; inset: 5px; background:
+  radial-gradient(circle, var(--jm-ink) 2px, transparent 2.5px) 0 0 / 50% 50%,
+  radial-gradient(circle, var(--jm-ink) 2px, transparent 2.5px) 25% 25% / 100% 100% no-repeat; }
+.jm-dice[aria-pressed="true"] { background: var(--jm-ink); }
+.jm-dice[aria-pressed="true"]::before { background:
+  radial-gradient(circle, #fff 2px, transparent 2.5px) 0 0 / 50% 50%,
+  radial-gradient(circle, #fff 2px, transparent 2.5px) 25% 25% / 100% 100% no-repeat; }
+.jine-course-tag { flex: 0 1 auto; max-width: 180px; min-height: 26px; padding: 0 var(--gap-2); border: var(--bw) solid var(--jm-ink); background: var(--paper);
+  color: var(--jm-ink); font-size: var(--fs-s); font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.jine-course-tag:hover { background: var(--panel); }
+.jine-course-tag[data-active="true"] { background: var(--sel); border-color: var(--sel); color: var(--on-dark); }
+.jm-archive-btn { display: flex; align-items: center; gap: 4px; min-height: 30px; padding: 0 6px; border: 0; background: none; color: var(--jm-ink); font-size: var(--fs-s); }
+.jm-archive-btn img { width: 20px; height: 24px; image-rendering: pixelated; }
+.jm-archive-btn:hover, .jm-archive-btn[aria-expanded="true"] { background: var(--panel); }
+
+/* 头像：圆形；没有图时语言色底 + 首字母 */
+.jm-ava { flex: none; display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; overflow: hidden;
+  border-radius: 50%; background: #f0d1f1; color: var(--on-dark); font: 700 15px/1 var(--font-pixel); }
+.jm-ava img { width: 100%; height: 100%; object-fit: cover; image-rendering: pixelated; }
+.jm-ava.lg { width: 40px; height: 40px; }
+.jm-ava.xl { width: 72px; height: 72px; font-size: 28px; }
+.jm-ava.sm { width: 26px; height: 26px; font-size: 12px; }
+.jm-ava.xs { width: 18px; height: 18px; font-size: 12px; }
+.jm-ava.lang-ja { background: var(--avatar-ja); }
+.jm-ava.lang-en { background: var(--avatar-en); }
+.jm-ava.lang-de { background: var(--avatar-de); }
+
+/* ============ 消息区：原作的粉紫云朵底 ============ */
+.jm-skywrap { position: relative; flex: 1; min-height: 0; }
+.jm-sky { position: absolute; inset: 0; overflow-y: auto; overscroll-behavior: contain;
+  background: var(--jm-sky) url('../assets/jine/JINEBG.png') center top / 532px 776px repeat; image-rendering: pixelated; }
+.jm-sky.drag-over { outline: 3px dashed var(--on-dark); outline-offset: -8px; }
+.jine-msgs { display: flex; flex-direction: column; gap: 4px; width: min(100%, var(--jm-col)); margin: 0 auto; padding: 14px 18px 28px; image-rendering: auto; }
+.jine-empty { margin: 18vh auto 0; display: flex; flex-direction: column; align-items: center; gap: 8px; color: var(--on-dark); text-shadow: 0 1px 0 var(--jm-shadow); font-size: 16px; }
+
+.jm-date { align-self: center; flex: none; margin: 12px 0 6px; min-width: 118px; padding: 0 8px; border: solid transparent; border-width: 0 8px;
+  border-image: url('../assets/jine/JINE_date.png') 0 8 fill stretch; color: var(--muted); font-size: var(--fs-ui); line-height: 18px; text-align: center; image-rendering: pixelated; }
+.jm-sys { align-self: center; flex: none; max-width: 84%; margin: 6px 0; padding: 2px 12px; border-radius: 12px; background: #6e647d8c;
+  color: var(--on-dark); font-size: var(--fs-ui); line-height: 20px; text-align: center; white-space: pre-wrap; overflow-wrap: anywhere; }
+.jm-sys.error { background: #b0563acc; }
+
+.jm-row { display: flex; align-items: flex-end; gap: 8px; flex: none; max-width: 100%; }
+.jm-row.first { margin-top: 10px; }
+.jm-row.me { justify-content: flex-end; }
+.jm-row > .jm-ava { align-self: flex-start; }
+.jm-row:not(.first) > .jm-ava { visibility: hidden; height: 0; }
+.jm-stack { display: flex; flex-direction: column; gap: 2px; min-width: 0; max-width: 60%; }
+.jm-name { padding-left: 2px; color: var(--on-dark); text-shadow: 0 1px 0 var(--jm-shadow); font-size: 13px; line-height: 18px; }
+.jm-row:not(.first) .jm-name { display: none; }
+.jm-line { display: flex; align-items: flex-end; gap: 6px; min-width: 0; }
+.jm-row.me .jm-line { flex-direction: row-reverse; }
+
+/* 气泡：原作的九宫格贴图（4px 一格，放大两倍）+ 小尾巴；字用正文字体 */
+.jm .bubble { position: relative; min-width: 0; max-width: 100%; min-height: 40px; padding: 2px 6px; border: 8px solid transparent;
+  border-image: url('../assets/jine/ame-balloon.png') 4 fill stretch; image-rendering: pixelated;
+  color: #2b2442; font: 16px/1.6 var(--font-text); white-space: pre-wrap; overflow-wrap: anywhere; user-select: text; }
+.jm .bubble:lang(ja) { font-family: var(--font-text-ja); }
+.jm .jm-row.me .bubble { border-image-source: url('../assets/jine/pi-balloon.png'); }
+.jm-tail { position: absolute; top: -8px; left: -16px; width: 8px; height: 24px; pointer-events: none; image-rendering: pixelated; }
+.jm-row.me .jm-tail { left: auto; right: -16px; transform: scaleX(-1); }
+.jm-row:not(.first) .jm-tail { display: none; }
+.jm .bubble .tok-container { image-rendering: auto; }
+.jm .bubble.streaming .tok-container::after { content: ''; display: inline-block; width: 7px; height: 14px; margin-left: 2px; background: var(--jm-ink); vertical-align: -2px; animation: jmBlink 1s steps(2, end) infinite; }
+.jm .bubble.jump-highlight, .jm-stamp.jump-highlight { animation: jumpflash 1.2s ease; }
+@keyframes jumpflash { 0%, 100% { filter: none; } 30% { filter: drop-shadow(0 0 4px #fff) drop-shadow(0 0 6px var(--pink)); } }
+.jm .bubble.guard-flag::after { content: '!'; position: absolute; top: -12px; right: -12px; width: 16px; height: 16px; border-radius: 50%;
+  background: var(--rust); color: var(--on-dark); font: 700 12px/16px var(--font-pixel); text-align: center; }
+/* 正在输入：她那边一个小气泡，三个像素点 */
+.jm-typing .bubble { min-width: 56px; }
+.jm-typing .tok-container { display: flex; align-items: center; justify-content: center; gap: 4px; height: 24px; }
+.jm-typing i { width: 6px; height: 6px; background: var(--jm-ink); animation: typingBounce 1.1s infinite ease-in-out; }
+.jm-typing i:nth-child(2) { animation-delay: .15s; }
+.jm-typing i:nth-child(3) { animation-delay: .3s; }
+@keyframes typingBounce { 0%, 60%, 100% { transform: translateY(0); opacity: .45; } 30% { transform: translateY(-3px); opacity: 1; } }
+
+/* 气泡旁的小字：已读、时间；她那边悬停时在上面出两个小工具 */
+.jm-meta { flex: none; display: flex; flex-direction: column; color: var(--on-dark); text-shadow: 0 1px 0 var(--jm-shadow); font-size: var(--fs-s); line-height: 14px; white-space: nowrap; }
+.jm-row.me .jm-meta { align-items: flex-end; }
+.jm-read[hidden] { display: none; }
+.jm-tools { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; margin-bottom: 4px; visibility: hidden; text-shadow: none; }
+.jm-row:is(:hover, :focus-within) .jm-tools { visibility: visible; }
+.jm-tools .tool-btn { min-height: 20px; padding: 0 5px; border-width: 1px; font-size: var(--fs-s); }
+.jm-tools .tool-btn.saved { background: var(--sel); border-color: var(--sel); color: var(--on-dark); }
+
+.tok.clickable { cursor: pointer; }
+.tok.clickable:hover { text-decoration: underline dotted; text-underline-offset: 3px; }
+.tok.collected { background: var(--mark); }
+.tok.active { outline: var(--bw) solid var(--sel); }
+
+/* 贴图不带气泡；图片是圆角小卡 */
+.jm-stamp { display: block; width: 96px; height: 96px; object-fit: contain; image-rendering: pixelated; filter: drop-shadow(0 2px 0 #8c5fb866); }
+.jm-stamp-missing { color: var(--on-dark); text-shadow: 0 1px 0 var(--jm-shadow); }
+.jm-photo { display: block; min-height: 0; padding: 0; border: 0; border-radius: 14px; overflow: hidden; background: none; line-height: 0; cursor: zoom-in; }
+.jm-photo img { display: block; max-width: min(260px, 100%); max-height: 240px; object-fit: cover; image-rendering: auto; }
+.jm-latest { position: absolute; z-index: 2; bottom: 12px; right: 16px; display: block; width: 30px; min-height: 0; padding: 0; border: 0; background: none; line-height: 0; }
+.jm-latest img { width: 30px; height: 30px; image-rendering: pixelated; }
+
+/* 旧对话：右上角弹出的列表；看的时候顶上一条胶囊，输入框收起来 */
+.jm-archives { position: absolute; z-index: 4; top: 8px; right: 12px; width: min(320px, calc(100% - 24px)); max-height: 70%; overflow-y: auto;
+  padding: 6px; border: var(--bw) solid var(--jm-ink); background: var(--paper); box-shadow: var(--shadow-sm); image-rendering: auto; }
+.jm-archives h2 { margin: 2px 6px 6px; color: var(--jm-ink); font-size: var(--fs-ui); }
+.jm-archive-row { display: flex; align-items: center; gap: 8px; width: 100%; min-height: 44px; padding: 6px; border: 0; background: none; text-align: left; }
+.jm-archive-row:hover, .jm-archive-row[aria-current="true"] { background: #f6f0fa; }
+.jm-archive-text { display: flex; flex-direction: column; min-width: 0; }
+.jm-archive-text strong { overflow: hidden; color: var(--ink); text-overflow: ellipsis; white-space: nowrap; font-size: 13px; }
+.jm-archive-text small { color: var(--muted); font-size: var(--fs-s); }
+.jm-archives-empty { margin: 8px; color: var(--muted); }
+/* 标题右边是「开新对话」；每一行右端一个小 ×，鼠标移上去才显眼 */
+.jm-archives-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.jm-archives-head .jm-archive-btn { min-height: 26px; padding: 0 10px; border: var(--bw) solid var(--jm-ink); border-radius: 0; background: var(--jm-ink); color: var(--on-dark); font: 700 var(--fs-s)/1 var(--font-pixel); }
+.jm-archive-item { display: flex; align-items: center; gap: 2px; }
+.jm-archive-item .jm-archive-row { flex: 1; min-width: 0; }
+.jm-archive-item > .jm-archive-btn { flex: none; width: 26px; min-height: 26px; padding: 0; border: 0; background: none; color: var(--muted); font-size: 15px; line-height: 1; opacity: .45; }
+.jm-archive-item:hover > .jm-archive-btn, .jm-archive-item > .jm-archive-btn:focus-visible { opacity: 1; color: #b0553f; }
+.jm-archive-bar { flex: none; display: flex; align-items: center; justify-content: center; gap: var(--gap-3); padding: 6px; background: #6e647d; color: var(--on-dark); font-size: var(--fs-ui); }
+.jm-archive-bar button { min-height: 24px; border-radius: 12px; border: 0; padding: 0 12px; background: var(--paper); color: var(--jm-ink); }
+
+/* ============ 输入区：图片、贴图、药丸输入框、发送 ============ */
+.jine-composer { flex: none; display: flex; align-items: flex-end; gap: 6px; padding: 8px var(--gap-3) 10px; background: var(--paper); box-shadow: 0 -2px 0 #f0d1f1; }
+.jm-tool { flex: none; display: grid; place-items: center; width: 36px; min-height: 36px; padding: 0; border: 0; background: none; }
+.jm-tool img { max-width: 28px; max-height: 28px; image-rendering: pixelated; }
+.jm-tool:hover, .jm-tool[aria-pressed="true"] { background: #f6f0fa; border-radius: 50%; }
+.jm-to { flex: none; display: flex; align-items: center; gap: 4px; align-self: center; height: 26px; padding: 0 8px 0 4px; border-radius: 13px;
+  background: #f0d1f1; color: var(--jm-ink); font-size: var(--fs-ui); cursor: pointer; }
+.jm-to[hidden] { display: none; }
+.jine-composer textarea { flex: 1; min-width: 0; height: 36px; min-height: 36px; max-height: 120px; padding: 8px 14px; resize: none; border: var(--bw) solid transparent;
+  border-radius: 18px; background: #f6f0fa; font: 15px/20px var(--font-text); }
+.jine-composer textarea:focus { background: var(--paper); border-color: var(--jm-ink); outline: none; }
+.jine-composer .send-btn { flex: none; min-width: 64px; min-height: 36px; padding: 0 16px; border: 0; border-radius: 18px; background: var(--jm-ink); color: var(--on-dark); font-size: 13px; }
+.jine-composer .send-btn:disabled { background: #b8a5ef; }
+.jm-stickers { flex: none; height: 200px; overflow-y: auto; display: grid; grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); grid-auto-rows: max-content;
+  justify-items: center; gap: 4px; padding: 8px 12px; background: var(--paper); border-top: 1px solid #f0d1f1; }
+.jm-stickers[hidden] { display: none; }
+.jm-sticker { display: grid; place-items: center; width: 64px; height: 64px; min-height: 0; padding: 6px; border: 0; border-radius: 12px; background: none; }
+.jm-sticker:hover { background: #f6f0fa; }
+.jm-sticker img { width: 52px; height: 52px; object-fit: contain; image-rendering: pixelated; }
+
+/* 图片：待发送预览、大图 */
+.jine-attach-preview { flex: none; position: relative; align-self: flex-start; display: flex; margin: 8px 0 0 92px; padding: 4px; border-radius: 12px; background: #f6f0fa; }
+#jine-attach-thumb { display: block; width: 64px; height: 64px; object-fit: cover; border-radius: 10px; image-rendering: auto; }
+.jine-attach-preview .attach-remove { position: absolute; top: -8px; right: -8px; width: 22px; min-height: 0; height: 22px; padding: 0; border: 0; border-radius: 50%;
+  background: var(--jm-ink); color: var(--on-dark); font-size: 14px; line-height: 1; }
+.jine-lightbox { padding: 0; border: 3px solid var(--tbink); background: var(--paper); cursor: zoom-out; }
+#jine-lightbox-img { display: block; max-width: calc(100vw - 48px); max-height: calc(100dvh - 48px); object-fit: contain; image-rendering: auto; }
+
+/* 图标栏「聊天」上的待发提示 */
+.nav-btn { position: relative; }
+.nav-dot { position: absolute; top: 4px; right: 12px; width: 10px; height: 10px; border: var(--bw) solid var(--on-dark); border-radius: 50%; background: #df3155; }
+
+@media (max-width: 1000px) {
+  .jm-top { gap: var(--gap-2); padding-inline: var(--gap-3); }
+  .jm-top h1 { font-size: 17px; }
+  .jm-archive-btn span { display: none; }
+}
+@media (max-width: 720px) {
+  .jm-top { flex-wrap: wrap; row-gap: 6px; }
+  .jm-top-tools { width: 100%; justify-content: flex-end; }
+  .jine-msgs { padding: 10px 10px 24px; }
+  .jm-stack { max-width: 78%; }
+  .jm-archive-btn span { display: none; }
+  .jm-dial-opt { padding: 0 6px; }
+  .jine-attach-preview { margin-left: 12px; }
+}
+@media (hover: none) { .jm-tools { visibility: visible; } }
+
+/* 顶栏「⋯」：课程、旧对话、添加语言、人设卡 */
+.jm-more { position: relative; }
+.jm-more-btn { min-width: 32px; min-height: 30px; border: var(--bw) solid var(--tbink); background: var(--paper); color: var(--tbink); font: 700 16px/1 var(--font-pixel); cursor: pointer; }
+.jm-more-btn[aria-expanded="true"] { background: var(--sel); color: var(--on-dark); }
+.jm-menu { position: absolute; right: 0; top: calc(100% + 6px); z-index: 40; display: flex; flex-direction: column; min-width: 168px; padding: 4px; }
+.jm-menu > button { display: flex; align-items: center; gap: 6px; justify-content: flex-start; min-height: 32px; padding: 0 10px; border: 0; background: none; color: var(--tbink); font: 700 var(--fs-ui)/1.3 var(--font-pixel); text-align: left; cursor: pointer; white-space: nowrap; }
+.jm-menu > button:hover, .jm-menu > button:focus-visible { background: var(--panel); }
+.jm-menu > button img { width: 16px; height: 16px; }
+.jm-menu .jine-course-tag { border: 0; background: none; color: var(--tbink); }
+/* 骰子并进拨片，做最后一格 */
+.jm-dial .jm-dice { border: 0; border-left: var(--bw) solid var(--tbink); }
+.jm-dial .jm-dice[aria-pressed="true"] { background-color: var(--sel); }
+/* 发送失败的那条：原位一个重发符号 */
+.jm-retry { min-width: 24px; min-height: 22px; padding: 0 4px; border: 1px solid var(--rust); background: var(--paper); color: var(--rust); font-weight: 700; cursor: pointer; }
+.jm-row.me.failed .bubble { opacity: .7; }
+.bubble:focus-visible { outline: var(--bw) solid var(--pink-d); outline-offset: 2px; }
+.jm-archive-item .jm-archive-row { justify-content: flex-start; }
+

@@ -1,0 +1,317 @@
+{
+ "id": "writing-overview",
+ "title": "写作部分概览：题型、题量、时间",
+ "goal": "能区分写作部分的三类任务，并说明邮件和学术讨论的评分依据。",
+ "skill": "writing",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 写作",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "format",
+   "label": "说出三类题的任务、题量和计分"
+  },
+  {
+   "id": "criteria",
+   "label": "说出邮件和学术讨论的评分要点"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、计分上限、测什么能力"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明、限时、官方样题和 4 分样例的评语、新旧分数对照表"
+  },
+  {
+   "id": "rubric",
+   "title": "ETS：Writing Scoring Guide — Write an Email",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/writing-rubrics.pdf",
+   "used": "0–5 分每一档的描述（本课是中文转述，原文以官方为准）"
+  }
+ ],
+ "cards": [
+  {
+   "id": "facts",
+   "type": "facts",
+   "title": "概述",
+   "rows": [
+    {
+     "k": "题型与题量",
+     "v": "写作部分共 12 题：连词成句 10 题、邮件 1 题、学术讨论 1 题。",
+     "src": "spec 第 5 页"
+    },
+    {
+     "k": "时间",
+     "v": "写作部分约 23 分钟；邮件限时 7 分钟，学术讨论限时 10 分钟。",
+     "src": "spec 第 5 页；overview 第 14–15 页"
+    },
+    {
+     "k": "连词成句计分",
+     "v": "每题最高 1 分，考查句子结构及回应是否符合语境。",
+     "src": "spec 第 14 页；overview 第 13 页"
+    },
+    {
+     "k": "邮件与讨论计分",
+     "v": "邮件和学术讨论分别按 0–5 分评分；写作部分原始分满分 20。",
+     "src": "spec 第 1、14 页；rubric 第 1–2 页"
+    },
+    {
+     "k": "评分依据",
+     "v": "邮件看交际目的、展开、语言和社交规范。讨论看内容是否相关、论证展开和语言表达。",
+     "src": "rubric 第 1–2 页"
+    }
+   ]
+  },
+  {
+   "id": "types",
+   "type": "table",
+   "title": "题型",
+   "cols": [
+    "题型",
+    "任务",
+    "表达示例"
+   ],
+   "rows": [
+    [
+     "Build a Sentence",
+     "根据前一句排列词块，组成语法和语境均合适的回应。",
+     "Which tool is missing? — The small wrench is missing."
+    ],
+    [
+     "Write an Email",
+     "根据给定情境、收件人和要求写邮件。",
+     "Could the damaged parcel be replaced?"
+    ],
+    [
+     "Write for an Academic Discussion",
+     "回应教授的问题，结合讨论表达并支持立场。",
+     "Sharing equipment reduces the cost of starting a new hobby."
+    ]
+   ]
+  },
+  {
+   "id": "email-criteria",
+   "type": "table",
+   "title": "邮件评分要点",
+   "cols": [
+    "情况",
+    "要求",
+    "例句"
+   ],
+   "rows": [
+    [
+     "交际目的",
+     "完成题目的每条要求，只提到话题不算完成。",
+     "Could the delivery team collect the damaged parcel?"
+    ],
+    [
+     "具体展开",
+     "细节要支持目的，不加无关的信息。",
+     "The lid is cracked, so the contents cannot be stored safely."
+    ],
+    [
+     "社交规范",
+     "称呼、请求和信息顺序要合乎收件人的身份。",
+     "Dear Ms. Cole, could a replacement be arranged?"
+    ],
+    [
+     "句式与词汇",
+     "句式和用词的变化是为了表达准确。生僻词本身不加分。",
+     "Although the box was intact, the lid inside was cracked."
+    ],
+    [
+     "准确性",
+     "看错误有多少，以及是否影响理解。",
+     "The parcel arrived yesterday.（过去事件用 arrived。）"
+    ],
+    [
+     "分数档",
+     "5 分：充分有效。4 分：大体有效。3 分：部分有效。",
+     "Please send another one.（未说明更换对象，信息不足。）"
+    ],
+    [
+     "低分档",
+     "2 分：展开有限或难以理解。1 分：几乎没有连贯的表达。0 分：没有有效作答。",
+     "Broken lid. Send.（片段未构成清楚的说明和请求。）"
+    ]
+   ],
+   "src": "rubric 第 1 页",
+   "note": "每个例句只说明一项特征，分数按整封邮件定。空白、完全离题、非英语或完全照抄题目，都是 0 分。"
+  },
+  {
+   "id": "discussion-criteria",
+   "type": "table",
+   "title": "学术讨论评分要点",
+   "cols": [
+    "情况",
+    "要求",
+    "例句"
+   ],
+   "rows": [
+    [
+     "相关性",
+     "立场和理由要回答教授的问题。",
+     "A shared tool room would help residents who rarely need a drill."
+    ],
+    [
+     "解释",
+     "说明理由怎样支持立场，不只重复观点。",
+     "Residents could borrow a drill instead of buying one for a single repair."
+    ],
+    [
+     "例子与细节",
+     "例子让理由具体，并且和讨论的话题一致。",
+     "Several households could use the same ladder on different days."
+    ],
+    [
+     "语言表达",
+     "句式有变化，用词准确。复杂句也要清楚。",
+     "Although borrowing requires planning, it avoids unnecessary purchases."
+    ],
+    [
+     "高分档",
+     "5 分：展开充分，表达清楚。4 分：展开足够，容易理解。",
+     "A booking calendar would prevent two residents from requesting the ladder at once."
+    ],
+    [
+     "中低分档",
+     "3 分：展开有欠缺。2 分：意思难以理解。1 分：几乎没有连贯的观点。",
+     "Tools are useful. Sharing is useful.（未解释共享的好处。）"
+    ],
+    [
+     "无有效作答",
+     "0 分包括空白、完全离题、非英语或完全照抄题目。",
+     "只抄题干 Should residents share tools?，不算自己的回答。"
+    ]
+   ],
+   "src": "rubric 第 2 页",
+   "note": "每个例句只说明一个评分方面。整篇回答的分数要综合相关性、展开和语言来定。"
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 4,
+   "pass": 0.8,
+   "points": [
+    "format",
+    "criteria"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "Writing contains ten sentence-building items, one email task, and one academic discussion task. Each sentence item has a maximum of one raw point; each longer response has a maximum of five. The section takes about twenty-three minutes, with seven minutes for the email and ten for the discussion.",
+       "items": [
+        {
+         "stem": "Which pair of tasks has the same maximum raw score?",
+         "options": [
+          "The email task and the discussion task",
+          "The sentence block and the email",
+          "The sentence block and the discussion",
+          "The entire section and the sentence block"
+         ],
+         "answer": 0,
+         "why": "依据是 each longer response has a maximum of five：邮件和讨论满分都是 5 分，即第一项。连词成句每题只有 1 分。",
+         "point": "format"
+        },
+        {
+         "stem": "Which description correctly matches a task with its time limit?",
+         "options": [
+          "The email is allotted ten minutes.",
+          "The discussion is allotted seven minutes.",
+          "The email is allotted seven minutes.",
+          "The discussion takes twenty-three minutes."
+         ],
+         "answer": 2,
+         "why": "依据是 seven minutes for the email，邮件限时 7 分钟，即第三项。23 分钟是整个写作部分的时间。",
+         "point": "format"
+        }
+       ]
+      },
+      {
+       "look": "email",
+       "text": "Task: Describe a missing part in a bicycle repair kit and ask the supplier to send it.\n\nDear Ms. Lane,\nThe kit arrived with the tire levers and patches, but the pump listed on the receipt was missing. Could the missing part be sent separately? The patches are the correct size.\nRegards,\nJia",
+       "items": [
+        {
+         "stem": "Which feature most directly fulfills the request required by the task?",
+         "options": [
+          "Mentioning that the patches fit",
+          "Asking for a separate shipment",
+          "Listing what arrived",
+          "Identifying the receipt's contents"
+         ],
+         "answer": 1,
+         "why": "Could the missing part be sent separately? 是补寄的请求，即第二项。其余几项只说明收到了什么、缺了什么。",
+         "point": "criteria"
+        }
+       ]
+      },
+      {
+       "look": "email",
+       "text": "Task: Explain a problem with a rented telescope and request assistance.\n\nDear Support Team,\nThe telescope stand will not lock, so the instrument tilts whenever I release it. I have put it back in its case. The case has a comfortable handle, and its green lining matches my notebook.\nRegards,\nMing",
+       "items": [
+        {
+         "stem": "Which limitation concerns the email's communicative purpose?",
+         "options": [
+          "The stand problem has no supporting detail.",
+          "The storage information contradicts the damage.",
+          "The description uses no complete sentences.",
+          "The message does not ask for assistance."
+         ],
+         "answer": 3,
+         "why": "The telescope stand will not lock 说明了问题，但全文没有请求协助，即第四项。盒子外观的细节代替不了这个请求。",
+         "point": "criteria"
+        }
+       ]
+      },
+      {
+       "look": "post",
+       "text": "Professor: Should public gardens label plants with both scientific and common names?\nLena: Common names are easier to remember.\nOmar: Scientific names identify plants more precisely.\nResponse: Both names should appear. A visitor can remember the familiar name and use the scientific name to find the same plant in a reference book, even if that book uses a different common name.",
+       "items": [
+        {
+         "stem": "Which feature provides relevant development in the response?",
+         "options": [
+          "Explaining how the two names serve different needs",
+          "Replacing the familiar name with only a scientific one",
+          "Repeating that familiar names are easier to remember",
+          "Listing examples of books about public gardens"
+         ],
+         "answer": 0,
+         "why": "A visitor can remember the familiar name and use the scientific name… 说明了两种名称各有什么用，即第一项。回答没有主张只用学名。",
+         "point": "criteria"
+        }
+       ]
+      },
+      {
+       "look": "post",
+       "text": "Professor: Should a local theater offer printed programs or display programs on a screen?\nNora: Screens avoid printing costs.\nEli: Printed programs are easier to keep.\nResponse: Printed programs are the better choice because people can take them home. Taking them home is helpful. Keeping a printed program is a good thing.",
+       "items": [
+        {
+         "stem": "Which limitation is most evident in this contribution?",
+         "options": [
+          "The position favors screens over printed copies.",
+          "The supporting sentences repeat the same benefit.",
+          "The response discusses costs instead of programs.",
+          "The response gives details that oppose its position."
+         ],
+         "answer": 1,
+         "why": "people can take them home 之后的两句，重复的都是能带回家这一点，没有说明用途，也没有例子，即第二项。",
+         "point": "criteria"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

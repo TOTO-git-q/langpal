@@ -1,0 +1,412 @@
+{
+ "id": "writing-tense",
+ "title": "叙述与评论的时态",
+ "goal": "根据语境确定事件时间；保持段落中的时态一致。",
+ "skill": "写作",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "time",
+   "label": "根据语境确定事件时间"
+  },
+  {
+   "id": "tense",
+   "label": "保持段落中的时态一致"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语四级（CET-4）：课表",
+   "url": "docs/syllabi/cet4.md",
+   "used": "叙述与评论的时态的教学范围、知识点及写作小测规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "时态表示事件和现在的关系。一般现在时写观点和习惯，一般过去时写已经结束的经历。现在完成时连接过去和现在，一般将来时写还没发生的行动。"
+    },
+    {
+     "box": "The group met yesterday. Its members now believe that clearer roles improve cooperation during joint projects."
+    },
+    {
+     "p": "met 是昨天的经历，believe 和 improve 是当前的观点和一般判断，这里换时态有依据。叙述同一件事时，时态不能随意改变。"
+    }
+   ]
+  },
+  {
+   "id": "uses",
+   "type": "table",
+   "title": "时态与时间关系",
+   "cols": [
+    "时态",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "一般现在",
+     "写当前的观点或一般规律。有明确过去时间的经历不用它。",
+     "Clear instructions help new volunteers understand their responsibilities before they begin a shared task."
+    ],
+    [
+     "一般过去",
+     "写在已结束的过去时间里发生的事。",
+     "Last Saturday, the volunteers organized donated clothes and arranged them on the community center's shelves."
+    ],
+    [
+     "现在完成",
+     "have/has + 过去分词，写持续到现在的状态或现在的结果。",
+     "The student society has expanded its collection of recorded interviews since the project began."
+    ],
+    [
+     "一般将来",
+     "will + 原形表示预期或承诺。具体计划也可用 be going to 等表达。",
+     "The organizers will publish the revised program after they confirm the availability of every speaker."
+    ]
+   ]
+  },
+  {
+   "id": "examples",
+   "type": "table",
+   "title": "经历、变化与计划",
+   "cols": [
+    "关系",
+    "第二组例句",
+    "说明"
+   ],
+   "rows": [
+    [
+     "一般现在：观点",
+     "Regular feedback gives student writers a clearer understanding of how readers interpret their arguments.",
+     "这是对一般情况的判断，不是某一次反馈。"
+    ],
+    [
+     "一般过去：经历",
+     "During last year's placement, Lina prepared weekly summaries and discussed them with her supervisor.",
+     "prepared 和 discussed 都是已结束的经历。"
+    ],
+    [
+     "现在完成：延续",
+     "The room has been available to student groups since the building reopened three months ago.",
+     "since 后面的从句用过去时，主句用现在完成时。"
+    ],
+    [
+     "一般将来：计划",
+     "The student editors are going to interview local residents for the next issue of their magazine.",
+     "be going to 表示计划，事情还没做。"
+    ],
+    [
+     "未来安排的其他表达",
+     "The workshop opens tomorrow, and the organizers are meeting the equipment supplier this afternoon.",
+     "按时间表发生的事用一般现在时，已经约好的事用现在进行时。"
+    ]
+   ]
+  },
+  {
+   "id": "consistency",
+   "type": "table",
+   "title": "时间状语与时态一致",
+   "cols": [
+    "线索",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "yesterday / last year",
+     "表示已结束的过去时间，用一般过去时。",
+     "The team completed the survey last year and presented its findings at the final meeting."
+    ],
+    [
+     "since + 起点",
+     "从起点持续到现在，用现在完成时。",
+     "The archive has belonged to the college since the owner donated it five years ago."
+    ],
+    [
+     "so far / up to now",
+     "统计到现在为止完成了多少，用现在完成时。",
+     "So far, the volunteers have checked thirty records and corrected the dates on six entries."
+    ],
+    [
+     "同一过去事件",
+     "同一件事的连续动作都用过去时。",
+     "The speaker entered the room, checked the microphone, and greeted the students waiting near the stage."
+    ],
+    [
+     "过去经历转当前评论",
+     "经历用过去时，现在的评论用现在时。",
+     "The event ended early yesterday, but its organizers now believe that the shorter format works well."
+    ],
+    [
+     "已结束时间与完成时",
+     "yesterday 这类已结束的时间不和现在完成时连用。",
+     "The group sent the invitation yesterday; it has received several replies since then."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A student describes a completed survey. Draft: Last month, our group interviewed commuters at the bus stop. We record their preferred departure times and compared the results. Now we believe that a later final bus would help some passengers. The recording and comparison both happened during last month's survey."
+    },
+    {
+     "p": "record 和 interviewed、compared 是同一次已结束的调查，应改为 recorded。Now we believe 是现在的看法，保留现在时。"
+    },
+    {
+     "box": "Last month, our group interviewed commuters at the bus stop. We recorded their preferred departure times and compared the results."
+    },
+    {
+     "p": "时态一致，指同一时间的事用同一时态，不是全文只用一种时态。调查是上个月的事，评论是现在的看法，所以时态不同。"
+    }
+   ]
+  },
+  {
+   "id": "check-short",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "time",
+    "tense"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Which interpretation fits 'The club has owned the projector since 2022 and still uses it'?",
+       "options": [
+        "Ownership began in 2022 and continues at the present time.",
+        "Ownership ended in 2022 before the club began using it.",
+        "Ownership will begin after the club stops using the projector.",
+        "Ownership occurs only during a single completed event in 2022."
+       ],
+       "answer": 0,
+       "why": "since 2022 和 still uses 说明拥有关系从 2022 年持续到现在，即第一项。",
+       "point": "time"
+      },
+      {
+       "stem": "A report recounts a visit completed yesterday. Choose the consistent pair: The students ___ the gallery and ___ the curator.",
+       "options": [
+        "enter / questioned",
+        "entered / questioned",
+        "have entered / question",
+        "will enter / questioned"
+       ],
+       "answer": 1,
+       "why": "参观在 yesterday 已经结束，两个连续动作都用过去式，即第二项。",
+       "point": "tense"
+      },
+      {
+       "stem": "Which time relationship is expressed by 'The team will review the applications next week'?",
+       "options": [
+        "A completed review with a fixed past date",
+        "A habit repeated up to the current moment",
+        "A review expected to occur after the present",
+        "A state continuing from the past to now"
+       ],
+       "answer": 2,
+       "why": "will review 和 next week 指将来的事，即第三项。",
+       "point": "time"
+      },
+      {
+       "stem": "Use the past-simple form of 'visit': During the field trip last Friday, the class ___ a local workshop.",
+       "accept": [
+        "visited"
+       ],
+       "why": "last Friday 是已结束的过去时间，用一般过去时 visited。",
+       "point": "tense"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-paragraph",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "tense",
+    "time"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A volunteer group began maintaining a neighborhood noticeboard in April. It still maintains the board now. Last week, members removed expired announcements and added a new map. The coordinator is describing both the continuing responsibility and that completed update, then announcing a promise to replace the damaged cover next month.",
+     "items": [
+      {
+       "stem": "Which pair preserves the completed update?",
+       "options": [
+        "Members remove expired announcements and added the new map last week.",
+        "Members have removed expired announcements and add the new map last week.",
+        "Members removed expired announcements and will add the new map last week.",
+        "Members removed expired announcements and added the new map last week."
+       ],
+       "answer": 3,
+       "why": "Last week 的清理和添加都已完成，removed 和 added 都用过去式，即第四项。",
+       "point": "tense"
+      },
+      {
+       "stem": "State the coordinator's promise with 'will'.",
+       "lead": "The group",
+       "chunks": [
+        "will",
+        "replace",
+        "the cover",
+        "of"
+       ],
+       "tail": "the noticeboard next month.",
+       "extra": [
+        "replaced"
+       ],
+       "why": "will 后面接原形 replace。next month 指将来，不用 replaced。",
+       "point": "tense"
+      },
+      {
+       "stem": "Treat the group as a single unit and use the present perfect of 'be': The group ___ responsible for the noticeboard since April.",
+       "accept": [
+        "has been"
+       ],
+       "why": "since April 加上现在仍然负责，用现在完成时。group 作单数，用 has been。",
+       "point": "time"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "time",
+    "tense"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A student team completed a local history interview project last winter. It interviewed shopkeepers, recorded their accounts, and prepared a display. The project ended in February. The team now considers careful listening essential to reliable reporting. Its members are explaining both the completed experience and the opinion they still hold today.",
+       "items": [
+        {
+         "stem": "Which time relationship distinguishes the interviews from the current opinion?",
+         "options": [
+          "The interviews occurred in a finished period; the opinion is held at present.",
+          "The interviews are a future plan; the opinion ended before the project began.",
+          "Both the interviews and the opinion are scheduled to begin next winter.",
+          "Both the interviews and the opinion ended before the display was prepared."
+         ],
+         "answer": 0,
+         "why": "completed ... last winter 是过去的经历，now considers 是现在的观点，即第一项。",
+         "point": "time"
+        },
+        {
+         "stem": "Which revision keeps the display preparation in the same past period?",
+         "options": [
+          "The team records the accounts and prepared the display last winter.",
+          "The team recorded the accounts and prepared the display last winter.",
+          "The team has recorded the accounts and prepares the display last winter.",
+          "The team will record the accounts and prepared the display last winter."
+         ],
+         "answer": 1,
+         "why": "last winter 是已结束的时间，recorded 和 prepared 都用过去式，即第二项。",
+         "point": "tense"
+        },
+        {
+         "stem": "Describe the completed recording work.",
+         "lead": "Last winter, the team",
+         "chunks": [
+          "recorded",
+          "the memories",
+          "of",
+          "local shopkeepers"
+         ],
+         "tail": ".",
+         "extra": [
+          "records"
+         ],
+         "why": "recorded 与 Last winter 一致。records 是现在时，没有换时态的依据。",
+         "point": "tense"
+        },
+        {
+         "stem": "Treat the team as a single unit and use the present simple of 'believe': The team now ___ that careful listening improves the quality of an interview.",
+         "accept": [
+          "believes"
+         ],
+         "why": "now 表示现在的观点，用一般现在时。team 作单数，用 believes。",
+         "point": "time"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A campus seed exchange started in March and remains active today. It has belonged to the gardening society since its opening. Last Friday, volunteers counted the remaining packets and updated the labels. The society has promised that it will introduce a new storage box next month. The promised box is not yet in use.",
+       "items": [
+        {
+         "stem": "Which interpretation fits the ownership statement?",
+         "options": [
+          "The society owned the exchange only during a period that has already ended.",
+          "The society plans to become the owner after the new box is introduced.",
+          "The society's ownership began at the opening and continues to the present.",
+          "The society lost ownership when volunteers updated the labels last Friday."
+         ],
+         "answer": 2,
+         "why": "has belonged ... since its opening 和 remains active today 说明交换站从开办起一直属于协会，即第三项。",
+         "point": "time"
+        },
+        {
+         "stem": "Which pair accurately reports last Friday's work?",
+         "options": [
+          "Volunteers count the packets and updated the labels last Friday.",
+          "Volunteers have counted the packets and update the labels last Friday.",
+          "Volunteers will count the packets and updated the labels last Friday.",
+          "Volunteers counted the packets and updated the labels last Friday."
+         ],
+         "answer": 3,
+         "why": "Last Friday 是已结束的时间，counted 和 updated 都用过去式，即第四项。",
+         "point": "tense"
+        },
+        {
+         "stem": "State the society's promise about the box.",
+         "lead": "Next month, the society",
+         "chunks": [
+          "will",
+          "introduce",
+          "a new box",
+          "for"
+         ],
+         "tail": "seed storage.",
+         "extra": [
+          "introduced"
+         ],
+         "why": "will introduce 表示还没兑现的承诺。introduced 表示已经发生。",
+         "point": "tense"
+        },
+        {
+         "stem": "Use the present perfect of 'belong' for ownership continuing now: The exchange ___ to the gardening society since March.",
+         "accept": [
+          "has belonged"
+         ],
+         "why": "since March 表示一直持续到现在。belong 是状态动词，用 has belonged。",
+         "point": "time"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

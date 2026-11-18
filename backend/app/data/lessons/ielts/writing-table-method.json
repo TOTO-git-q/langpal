@@ -1,0 +1,52 @@
+{
+ "id": "writing-table-method", "title": "表格的数据筛选", "goal": "辨认表格的指标和比较范围，筛选代表数据。", "skill": "写作", "exam": "雅思 IELTS Academic", "mastery": "once",
+ "points": [{"id": "dimension", "label": "辨认各列指标及其比较范围"}, {"id": "select", "label": "筛选能支持概述的代表数据"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "表格的指标识别与数据筛选"}],
+ "cards": [
+  {"id": "type", "type": "text", "title": "题型", "body": [{"p": "表格的行标题和列标题给出对象、指标、时间和单位。同一列里，比较不同对象的同一指标。跨列看，找同一对象在几项指标上的共同特点。"}, {"box": "Site | Visitors in 2020 | Area in 2020 (hectares)\nOak | 900 | 4\nElm | 600 | 6"}, {"p": "Oak 的访客多于 Elm，Elm 的面积较大。访客人数与面积的单位不同，不能直接比较大小。"}]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　读取标题", "d": "先看每行是什么对象，每列是什么指标、时间和单位。上表的行是地点，两列分别是人数和公顷数。"},
+   {"t": "2　比较列内数值", "d": "在同一列里找最大值、最小值和相近的数值。例如访客列中 900 高于 600。"},
+   {"t": "3　寻找共同特征", "d": "看一个对象在各列的排名。某地点两项指标都最高时，两列的数据一起引用。"},
+   {"t": "4　选择代表数据", "d": "用极值、相近数值或异常项目支持概述。不按表格顺序逐行逐列抄写数字。"}
+  ]},
+  {"id": "selection", "type": "table", "title": "数据筛选", "cols": ["特征", "数据", "例句"], "rows": [
+   ["最大和最小", "人数 900、600、300", "The figures ranged from 300 to 900 visitors."],
+   ["相近数值", "人数 600、620", "The two sites recorded similar totals of 600 and 620 visitors."],
+   ["共同特征", "Oak 两列均最高", "Oak ranked first on both measures."],
+   ["异常项目", "三处面积 4、4、10 公顷", "The third site was substantially larger, at 10 hectares."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "The table compares four town gardens using figures for visitor numbers, planted area and the number of benches in 2022. All values refer to the same year. Summarise the most noticeable features and make relevant comparisons, selecting figures that illustrate differences between the gardens.\n\nGarden | Visitors (people) | Area (hectares) | Benches (number)\nOak    | 900               | 6               | 30\nElm    | 600               | 4               | 20\nPine   | 620               | 4               | 18\nAsh    | 300               | 10              | 10"},
+   {"p": "Oak 的访客和座椅最多，Ash 的面积最大。Elm 和 Pine 的访客数接近，面积相同。用这几组数据支持概述，比逐行列出所有数字更清楚。"},
+   {"box": "Oak led in visitor numbers and benches, whereas Ash had the largest area. Oak recorded 900 visitors and 30 benches; Ash covered 10 hectares. Elm and Pine had similar visitor totals of 600 and 620. Both gardens covered 4 hectares. Their numbers of benches were also close, at 20 and 18 respectively. Ash had the fewest visitors, at 300, and the fewest benches, at 10."}
+  ]},
+  {"id": "errors", "type": "table", "title": "干扰项", "cols": ["情况", "例句", "依据"], "rows": [
+   ["指标混淆", "Oak's area of 900 hectares was highest.", "900 是访客人数，面积为 6 公顷。"], ["排名颠倒", "Ash had the most visitors.", "Ash 为 300 人，Oak 为 900 人。"], ["以偏概全", "Oak led on every measure.", "Ash 的面积为 10 公顷，高于 Oak。"], ["数值接近", "Elm and Pine differed by 600 visitors.", "两者分别为 600 和 620 人，差 20 人。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["dimension", "select"], "groups": [{"items": [
+   {"stem": "A table lists visitors and area in hectares. Which figures can be directly ranked as visitor totals?", "options": ["900 visitors and 600 visitors", "900 visitors and 6 hectares", "600 visitors and 4 hectares", "4 hectares and 6 hectares"], "answer": 0, "why": "第一项的两个数都是访客人数，可以直接排序。第四项也能比较，但比的是面积。", "point": "dimension"},
+   {"stem": "Visitor totals are 900, 600, 620 and 300. Which pair is closest?", "options": ["900 and 600", "600 and 620", "620 and 300", "900 and 300"], "answer": 1, "why": "600 与 620 相差 20，差距最小。", "point": "select"},
+   {"stem": "Areas are 6, 4, 4 and 10 hectares. Which value is the maximum?", "options": ["4 hectares at the second site", "4 hectares at the third site", "10 hectares at the fourth site", "6 hectares at the first site"], "answer": 2, "why": "10 公顷是四个面积中最大值。", "point": "select"},
+   {"stem": "A 2022 table gives 900 visitors and 6 hectares for Oak. Which sentence preserves both measures?", "options": ["Oak had 6 visitors and covered 900 hectares.", "Oak had 900 visitors and covered 6 square metres.", "Oak had 900 visitors in 2020 and covered 6 hectares.", "Oak had 900 visitors and covered 6 hectares."], "answer": 3, "why": "900 是人数，6 是面积，单位是公顷，即第四项。第二项把公顷写成了平方米。", "point": "dimension"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["dimension", "select"], "groups": [{"text": "Centre | Visitors in 2023 (people) | Rooms in 2023 (number) | Area in 2023 (hectares)\nNorth | 800 | 20 | 4\nSouth | 500 | 12 | 3\nEast | 520 | 11 | 3\nWest | 200 | 5 | 9", "items": [
+   {"stem": "Which centre led in both visitors and rooms?", "options": ["North, with 800 visitors and 20 rooms", "South, with 500 visitors and 12 rooms", "East, with 520 visitors and 11 rooms", "West, with 200 visitors and 5 rooms"], "answer": 0, "why": "North 的 800 人与 20 间均为各列最高。", "point": "select"},
+   {"stem": "Which statement accurately compares area?", "options": ["East covered 3 hectares, the most.", "West covered 9 hectares, the most.", "North covered 800 hectares, the most.", "West covered 200 hectares, the least."], "answer": 1, "why": "Area 列中 West 为 9 公顷，是四个中心里最大的，即第二项。第三项的 800 是访客人数，不是面积。", "point": "dimension"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["dimension", "select"], "sets": [{"id": "set-a", "groups": [
+   {"text": "Library | Loans in 2022 (books) | Staff in 2022 (people) | Area in 2022 (square metres)\nOak | 900 | 30 | 600\nElm | 600 | 20 | 400\nPine | 620 | 18 | 400\nAsh | 300 | 10 | 1,000", "items": [
+    {"stem": "Which numbers compare the number of staff at Elm and Pine?", "options": ["600 and 620 books", "20 and 18 people", "400 and 400 square metres", "900 and 300 books"], "answer": 1, "why": "Staff 列中 Elm 为 20 人，Pine 为 18 人。", "point": "dimension"},
+    {"stem": "Which pair of loan totals is closest?", "options": ["Oak 900 and Elm 600", "Pine 620 and Ash 300", "Elm 600 and Pine 620", "Oak 900 and Ash 300"], "answer": 2, "why": "600 与 620 相差 20，本列差距最小。", "point": "select"},
+    {"stem": "Which statement preserves the area unit?", "options": ["Ash covered 300 square metres.", "Oak covered 900 square metres.", "Pine covered 620 square metres.", "Ash covered 1,000 square metres."], "answer": 3, "why": "Area 列中 Ash 为 1,000 平方米。", "point": "dimension"},
+    {"stem": "Which figures show Oak's leading position in loans and staff?", "options": ["900 books and 30 staff", "600 books and 20 staff", "620 books and 18 staff", "300 books and 10 staff"], "answer": 0, "why": "Oak 的 900 本与 30 人分别为两列最高值。", "point": "select"}
+   ]},
+   {"text": "Pool | Visits in 2021 (people) | Staff in 2021 (people) | Area in 2021 (square metres)\nNorth | 800 | 25 | 500\nSouth | 500 | 15 | 300\nEast | 520 | 14 | 300\nWest | 200 | 8 | 900", "items": [
+    {"stem": "State North's visitor total with its unit.", "lead": "North", "chunks": ["recorded", "800 visits", "in", "the year"], "tail": ".", "extra": ["hectares"], "why": "Visits 列中 North 为 800 人次。", "point": "dimension"},
+    {"stem": "Describe the closest visitor totals.", "lead": "South and East", "chunks": ["had", "similar totals", "of 500 and 520", "visits respectively"], "tail": ".", "extra": ["areas"], "why": "South 与 East 的访客数只差 20。", "point": "select"},
+    {"stem": "State the largest area with its unit.", "lead": "West", "chunks": ["covered", "900 square metres", "in", "2021"], "tail": ".", "extra": ["visits"], "why": "West 的面积为 900 平方米，是面积列最大值。", "point": "dimension"},
+    {"stem": "Describe the site leading in visitors and staff.", "lead": "North", "chunks": ["ranked first", "for both", "visits", "and staff"], "tail": ".", "extra": ["area"], "why": "North 的访客数 800 和员工数 25 均为各列最高。", "point": "select"}
+   ]}
+  ]}]} 
+ ]
+}

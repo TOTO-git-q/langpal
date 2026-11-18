@@ -1,0 +1,330 @@
+{
+ "id": "reading-banked-method",
+ "title": "选词填空的约束核对",
+ "goal": "根据句法和语境核对选词填空的候选词。",
+ "skill": "阅读",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "procedure",
+   "label": "按空位结构缩小候选范围"
+  },
+  {
+   "id": "verify",
+   "label": "同时核对词形和上下文意义"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "词汇理解教学依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "task",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "词库中的词按原有形式代入空位。候选词既要符合句子结构，也要符合上下文意义。"
+    },
+    {
+     "box": "The path was closed, so visitors chose another _____.\nroute / narrow / repaired"
+    },
+    {
+     "p": "another 后需要单数名词，route 表示另一条路线。narrow 是形容词，repaired 是过去分词，都不能填在这里。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定话题",
+     "d": "读首句和未挖空的内容，确定文章讨论的对象。A garden needs water 表明话题涉及花园的用水。"
+    },
+    {
+     "t": "2　标记词性",
+     "d": "按词形给词库中的词标上可能的词性。water 可作名词，也可作动词，要看空位再定。"
+    },
+    {
+     "t": "3　检查结构",
+     "d": "看空位前后的限定词、动词和介词。The small _____ 这个空位需要名词，可填 tank。"
+    },
+    {
+     "t": "4　核对意义",
+     "d": "把候选词代入句子，再看相邻的句子。A tank stores rainwater 中，stores 与储水的上下文相符。"
+    },
+    {
+     "t": "5　回读全文",
+     "d": "检查代入后的语法和句间关系。词库中的词不改形，所选的形式要与空位一致，例如单数主语后用 stores。"
+    }
+   ]
+  },
+  {
+   "id": "structure",
+   "type": "table",
+   "title": "空位结构",
+   "cols": [
+    "线索",
+    "候选词",
+    "例"
+   ],
+   "rows": [
+    [
+     "限定词后",
+     "名词",
+     "A useful tool saves time."
+    ],
+    [
+     "情态动词后",
+     "动词原形",
+     "A cover can protect the soil."
+    ],
+    [
+     "名词前",
+     "形容词",
+     "The narrow path was closed."
+    ],
+    [
+     "修饰动词",
+     "副词",
+     "The water flows slowly."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The town repaired an old bridge. It is now safe for people to cross, but heavy trucks must use another _____.\nroute / safe / crossed / repair"
+    },
+    {
+     "p": "another 后需要单数名词。route 符合结构，也与卡车改走其他路线的意思一致。repair 也可作名词，但句子要的是另一条路线，不是另一次维修。"
+    }
+   ]
+  },
+  {
+   "id": "distractors",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "依据"
+   ],
+   "rows": [
+    [
+     "语法正确，意义不符",
+     "another repair",
+     "句子要求另一条路线。"
+    ],
+    [
+     "意义相关，词形不符",
+     "trucks must crossed",
+     "must 后接动词原形。"
+    ],
+    [
+     "词性不符",
+     "another safe",
+     "another 后需要名词。"
+    ],
+    [
+     "忽略上下句",
+     "The bridge is now dangerous.",
+     "前句说明桥已修好并安全。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "procedure",
+    "verify"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The visitors need a _____ to find the entrance.",
+       "options": [
+        "map",
+        "key",
+        "narrow",
+        "quickly"
+       ],
+       "answer": 0,
+       "why": "冠词 a 后需要名词；map 表示寻找入口所需的地图。",
+       "point": "procedure"
+      },
+      {
+       "stem": "The garden is dry. Workers will _____ it this evening.",
+       "options": [
+        "watered",
+        "water",
+        "rain",
+        "watering"
+       ],
+       "answer": 1,
+       "why": "will 后接动词原形；water 表示给干燥的花园浇水。",
+       "point": "procedure"
+      },
+      {
+       "stem": "The path is too steep for bicycles, so riders use the _____ road instead.",
+       "options": [
+        "steeply",
+        "height",
+        "flat",
+        "climbing"
+       ],
+       "answer": 2,
+       "why": "road 前需要形容词；flat 与前句的陡坡形成对照。",
+       "point": "verify"
+      },
+      {
+       "stem": "The box was fragile, so the worker carried it _____.",
+       "options": [
+        "care",
+        "careful",
+        "careless",
+        "carefully"
+       ],
+       "answer": 3,
+       "why": "空位修饰 carried；carefully 与箱子易碎的语境一致。",
+       "point": "verify"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "procedure",
+    "verify"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A school has a small pond. In summer, the water level falls. The students collect rainwater in a tank and use it to fill the pond. A cover keeps leaves out of the tank.",
+     "items": [
+      {
+       "stem": "The students use a tank to _____ rainwater.",
+       "options": [
+        "covered",
+        "collect",
+        "collection",
+        "collecting"
+       ],
+       "answer": 1,
+       "why": "to 后接动词原形；原文的 collect rainwater 说明用途。",
+       "point": "procedure"
+      },
+      {
+       "stem": "The cover prevents _____ from entering the tank.",
+       "options": [
+        "ponds",
+        "students",
+        "leaves",
+        "levels"
+       ],
+       "answer": 2,
+       "why": "依据是 A cover keeps leaves out of the tank，故选 leaves。",
+       "point": "verify"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "procedure",
+    "verify"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "Word bank: collect, collection, dry, lower, repair, repaired, route, shade, water\n\nA community garden has a problem during hot weather. Its plants need water, but the small tank is often empty before the end of the week. Volunteers decide to (1) _____ rain from the roof of a nearby shed. They place a clean container under the pipe and check it after each shower. The water level in the container is (2) _____ during weeks with little rain. On such days, the volunteers carry water from a tap instead. They also put a cloth above young plants to provide (3) _____. This keeps direct sunlight off the leaves for part of the afternoon. The group records how often the tank is filled and how much water the garden uses. These records guide future planning.",
+       "items": [
+        {
+         "stem": "Blank 1",
+         "accept": [
+          "collect"
+         ],
+         "why": "decide to 后接动词原形；collect rain 与收集雨水的语境一致。",
+         "point": "procedure"
+        },
+        {
+         "stem": "Blank 2",
+         "accept": [
+          "lower"
+         ],
+         "why": "little rain 说明雨水少时容器的水位较低，lower 符合句意。",
+         "point": "verify"
+        },
+        {
+         "stem": "Blank 3",
+         "accept": [
+          "shade"
+         ],
+         "why": "后句说布挡住阳光，shade 表示遮阴。",
+         "point": "verify"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "Word bank: closed, closure, delay, entrance, open, opened, repairs, route, safely\n\nA library is changing the way visitors enter its building. Workers are fixing the front steps, so the usual entrance is temporarily (1) _____. Signs direct visitors around the building to a side door. The side door is (2) _____ throughout normal library hours, and a staff member is available to explain the change. People who use wheelchairs can follow a level path to that door. The library has also moved a returns box beside it. This allows readers to return books without going around to the front steps. The work on the steps will take several days. When the (3) _____ are finished, staff will remove the signs and restore the usual entrance. Notices inside the library explain the temporary arrangement.",
+       "items": [
+        {
+         "stem": "Blank 1",
+         "accept": [
+          "closed"
+         ],
+         "why": "前句说明台阶正在维修；closed 表示通常入口暂时关闭。",
+         "point": "verify"
+        },
+        {
+         "stem": "Blank 2",
+         "accept": [
+          "open"
+         ],
+         "why": "系动词 is 后接形容词；open 与访客使用侧门的语境一致。",
+         "point": "procedure"
+        },
+        {
+         "stem": "Blank 3",
+         "accept": [
+          "repairs"
+         ],
+         "why": "the 后需要名词，are 对应复数 repairs；前文说明台阶正在维修。",
+         "point": "procedure"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

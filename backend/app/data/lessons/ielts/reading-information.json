@@ -1,0 +1,227 @@
+{
+  "id": "reading-information",
+  "title": "信息配对　Matching information · 练习",
+  "goal": "找出含有题目所述信息的段落。",
+  "skill": "阅读",
+  "exam": "雅思 IELTS Academic",
+  "points": [
+    {
+      "id": "function",
+      "label": "辨认所需信息的功能"
+    },
+    {
+      "id": "locate",
+      "label": "定位含完整证据的段落"
+    }
+  ],
+  "sources": [
+    {
+      "id": "i2",
+      "title": "IELTS Academic: Reading test format",
+      "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+      "used": "阅读材料与题型"
+    },
+    {
+      "id": "syllabus",
+      "title": "雅思 IELTS Academic：课表",
+      "url": "docs/syllabi/ielts.md",
+      "used": "练习尺寸与知识点"
+    }
+  ],
+  "cards": [
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "小测",
+      "minutes": 12,
+      "pass": 0.75,
+      "points": [
+        "function",
+        "locate"
+      ],
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "label": "The passage has six paragraphs, A–F. Which paragraph contains the following information? You may use any letter more than once.",
+              "look": "passage",
+              "text": "Lights on the Coast\n\n[A] For as long as ships have sailed close to land, coastlines have been among the most dangerous parts of any voyage. Rocks, sandbanks and headlands that are easy to avoid in daylight become serious hazards at night or in poor weather. Lighthouses were built to mark such dangers and to guide vessels safely into harbours. Some stood on headlands, while others were built on isolated rocks far from the shore, where construction itself was extremely difficult. A light on the shore told a navigator two things at once: that land was near, and roughly where the danger lay. In the busiest waters, a chain of lights along the coast allowed ships to pass from one to the next through the night.\n\n[B] The earliest lights were simply fires. Wood or coal was burned in an iron basket at the top of a tower or on a high point of land. Such fires had obvious weaknesses. They consumed great quantities of fuel, they were difficult to keep burning in wind and rain, and the light they gave was scattered in every direction, including upwards and inland, where it was of no use to sailors. All the fuel had to be carried up to the fire by hand. Enclosed oil lamps placed behind glass, which came into use later, were far more dependable than open fires in bad weather, although a single flame on its own still gave only a weak light at a distance.\n\n[C] The most important improvement came in the 1820s with a new kind of lens designed by the French engineer Augustin Fresnel. Instead of one thick piece of glass, his lens was made of rings of glass prisms arranged around a central lens. Each ring bent the light from the lamp so that, instead of spreading out, it travelled in a narrow, concentrated beam towards the horizon. Because it used far less glass than a solid lens of the same size, it was lighter and absorbed less of the light passing through it. A lamp fitted with such a lens could be seen many kilometres further out to sea.\n\n[D] A light is only useful if sailors know which light they are looking at. For this reason, each lighthouse was given its own pattern, known as its character. One light might show a single flash every five seconds, while another nearby might give two flashes every fifteen seconds or show a steady light with a red section visible from one direction. These patterns were printed in lists and on charts, so a navigator who timed the flashes with a watch could identify the lighthouse and work out the ship's position. Some lights also used colour to warn ships that they were approaching from a dangerous direction.\n\n[E] For more than a century, every major lighthouse needed people living beside it. The keepers trimmed the wicks, refilled the oil, cleaned soot from the glass and, in many towers, wound the clockwork that turned the lens through the night. They recorded weather and passing ships in a logbook. During the twentieth century, electric lamps, automatic switches and remote monitoring gradually removed the need for these tasks to be done on site. Once a light could be checked and controlled from a distant office, resident keepers were withdrawn, and by the end of the century the last of them in Britain had left their posts.\n\n[F] Today most ships carry satellite navigation systems that can show their position at any moment, and some people have asked whether lighthouses are still required. The authorities responsible for them have kept many lights in service, arguing that electronic equipment can fail and that a visible light provides an independent check that does not depend on power supplies on board. At some stations the old lens has been removed and replaced by a smaller modern light, which needs far less maintenance. Lights that are no longer needed for navigation have sometimes been sold, and a number have become museums, holiday homes or places from which to observe seabirds and marine mammals.",
+              "items": [
+                {
+                  "stem": "an example of a pattern by which a particular light can be recognised",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F"
+                  ],
+                  "answer": 3,
+                  "why": "[D] 段举例说一座灯每五秒闪一次、附近另一座每十五秒闪两次，用来辨认灯塔。",
+                  "point": "function"
+                },
+                {
+                  "stem": "a reason why lights continue to operate even though ships use satellite navigation",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F"
+                  ],
+                  "answer": 5,
+                  "why": "[F] 段说电子设备可能失灵，灯光是不依赖船上电源的独立核对手段。",
+                  "point": "function"
+                },
+                {
+                  "stem": "a comparison of how well two early sources of light coped with bad weather",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F"
+                  ],
+                  "answer": 1,
+                  "why": "[B] 段比较明火与后来的封闭油灯，说油灯在恶劣天气中比明火可靠得多。",
+                  "point": "function"
+                },
+                {
+                  "stem": "a reference to a mechanism that had to be wound by hand",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F"
+                  ],
+                  "answer": 4,
+                  "why": "[E] 段说守灯人要上紧转动透镜的发条装置（wound the clockwork）。",
+                  "point": "locate"
+                },
+                {
+                  "stem": "an explanation of how a lens allowed a light to be seen further away",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F"
+                  ],
+                  "answer": 2,
+                  "why": "[C] 段说明棱镜环把光弯成集中的光束，因此能在更远的海上看见；[D] 段也谈灯光，但讲的是辨认而不是射程。",
+                  "point": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "label": "The passage has six paragraphs, A–F. Which paragraph contains the following information? You may use any letter more than once.",
+              "look": "passage",
+              "text": "Water Roads: The Canals of Britain\n\n[A] Before the second half of the eighteenth century, moving heavy goods overland in Britain was slow and expensive. Roads were often deeply rutted, and in winter many became almost impassable. Coal, stone and pottery were carried by packhorses or in carts that could hold only modest loads. Rivers could carry boats, but their courses did not always lead to the places where goods were produced or needed, and shallow stretches could stop traffic in dry weather. On water that was deep and still, the situation was very different. A single horse walking along a bank could pull a boat carrying many times the weight it could move on a road, which meant that a canal could reduce the cost of transporting bulky materials dramatically.\n\n[B] Building a canal was a major engineering undertaking. Wherever possible, engineers followed the natural contours of the land, so that the water would stay level for long distances, even if this made the route longer. Where hills could not be avoided, they used other solutions: tunnels through high ground, aqueducts to carry the canal across valleys, and embankments and cuttings to smooth out smaller changes in height. Surveyors walked the proposed route in advance, measuring heights and deciding where locks, tunnels and bridges would be needed. The bed of the channel was lined with clay, which was pressed down firmly to stop water leaking away. The digging was done by large gangs of labourers using picks, shovels and wheelbarrows, and some projects took many years to complete.\n\n[C] The most common way of changing level was the lock. A lock is a chamber with watertight gates at each end. To raise a boat, the boat enters the chamber, the lower gates are closed behind it, and small openings called paddles are opened in the upper gates. Water flows into the chamber until its level matches the higher stretch of canal; the upper gates can then be opened and the boat continues on its way. To lower a boat, the process is simply reversed, with water let out through the lower gates. Where the ground rises steeply, several chambers may follow one another closely in a flight of locks, allowing a canal to climb a hill in a short distance.\n\n[D] Locks, however, bring a problem of their own. Every time a boat passes through, a chamber full of water flows down from the higher level towards the lower one, and the highest section of a canal therefore loses water constantly. To replace it, canal companies built reservoirs on high ground and channels known as feeders to bring water from streams. In dry summers these supplies could run low, and boats were sometimes forced to wait or to carry lighter loads until the water level recovered.\n\n[E] The success of the canals lasted less than a century. From the 1830s onwards, railways offered faster and more reliable transport, and many canals lost much of their trade. Some canal companies tried to compete by lowering their charges, but this rarely restored their earlier profits. Others were bought by railway companies, which had little interest in keeping them busy. As traffic fell, maintenance was reduced, and a number of canals became choked with weeds and silt. In some towns, disused sections were drained and filled in so that the land could be used for roads or buildings.\n\n[F] In the second half of the twentieth century, attitudes began to change. Groups of volunteers, giving up their weekends without pay, cleared rubbish, repaired locks and dug out channels that had been abandoned for decades. Several canals that had been closed were eventually reopened. Today the network is used mainly for leisure: people hire boats for holidays, walk and cycle along towpaths, and fish from the banks. Old warehouses beside the water have been turned into homes, offices and museums. The water and its banks also provide habitats for wildlife, although keeping the channels open still requires regular dredging and repair.",
+              "items": [
+                {
+                  "stem": "a description of how a boat is raised to a higher level",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F"
+                  ],
+                  "answer": 2,
+                  "why": "[C] 段逐步说明船进闸室、关下闸门、开上闸门的闸孔，水位升到上游高度。",
+                  "point": "locate"
+                },
+                {
+                  "stem": "an explanation of why the highest part of a canal keeps losing water",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F"
+                  ],
+                  "answer": 3,
+                  "why": "[D] 段解释每过一次船，一整室水就从高处流向低处；[C] 段也讲船闸，但没有说明失水的原因。",
+                  "point": "function"
+                },
+                {
+                  "stem": "a reference to people who worked on canals without being paid",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F"
+                  ],
+                  "answer": 5,
+                  "why": "[F] 段说志愿者利用周末无偿清理、修复运河。",
+                  "point": "locate"
+                },
+                {
+                  "stem": "a comparison between the weight a horse could move on land and on water",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F"
+                  ],
+                  "answer": 0,
+                  "why": "[A] 段说一匹马在岸上拉船，所拉重量是它在路上能运的许多倍。",
+                  "point": "function"
+                },
+                {
+                  "stem": "a reason why some canals were filled in",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F"
+                  ],
+                  "answer": 4,
+                  "why": "[E] 段说一些城镇把废弃河段排干填平，以便土地用于修路或建房。",
+                  "point": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "more": {
+        "kind": "information",
+        "topics": [
+          "灯塔",
+          "运河",
+          "古代供水",
+          "城市公园的历史",
+          "邮政服务",
+          "博物馆藏品",
+          "风车与水车",
+          "海岸防护",
+          "铁路站台",
+          "传统市场",
+          "森林管理",
+          "天气记录"
+        ]
+      }
+    }
+  ]
+}

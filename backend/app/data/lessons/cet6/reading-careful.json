@@ -1,0 +1,212 @@
+{
+  "id": "reading-careful",
+  "title": "仔细阅读 · 练习",
+  "goal": "先确认文章讨论的对象与中心判断。",
+  "skill": "reading",
+  "exam": "大学英语六级（CET-6）",
+  "points": [
+    {
+      "id": "main",
+      "label": "概括文章中心思想"
+    },
+    {
+      "id": "detail",
+      "label": "依据原文核对具体事实"
+    },
+    {
+      "id": "infer",
+      "label": "依据证据作有限推断"
+    }
+  ],
+  "sources": [
+    {
+      "id": "c1",
+      "title": "CET笔试",
+      "url": "https://cet.neea.edu.cn/html1/folder/16113/1586-1.htm",
+      "used": "题型与考试时间。"
+    },
+    {
+      "id": "c2",
+      "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+      "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+      "used": "材料长度、任务形式与总体评分标准。"
+    }
+  ],
+  "cards": [
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "小测",
+      "minutes": 9,
+      "points": [
+        "main",
+        "detail",
+        "infer"
+      ],
+      "more": {
+        "kind": "reading-careful",
+        "topics": [
+          "公共空间的使用",
+          "档案的选择与保存",
+          "观察记录的方法",
+          "团队知识交流",
+          "资源借用制度",
+          "展览的信息组织",
+          "校园服务评估",
+          "城市步行环境",
+          "学习反馈",
+          "日常维修",
+          "技术说明的可读性",
+          "社区参与"
+        ]
+      },
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "label": "Read the passage carefully and choose the best answer to each question.",
+              "look": "passage",
+              "text": "Public organizations increasingly make historical documents available as digital images. This can remove an important obstacle: a person no longer has to travel to an archive to examine a letter or photograph. Yet the ease of opening an image can create a misleading impression that the past has become equally accessible to everyone. Access depends on more than the existence of a file.\n\nA first difficulty concerns description. An archive may contain thousands of photographs labeled only with a place and a date. A person searching for a particular occupation will not necessarily find images of that work, even when they are present. The search system retrieves words attached to an image, rather than all the meanings a viewer might discover in it. Better descriptions therefore require interpretation, and interpretation takes time.\n\nThe choice of what to digitize also matters. Documents that are easy to scan may be processed before fragile objects that need special handling. Collections with clear ownership information may be published before those whose permissions remain uncertain. These are understandable practical decisions, but their combined effect can shape the historical picture available online. A large digital collection need not be a representative sample of everything an institution holds.\n\nConsider a hypothetical town archive with complete records from a large factory and only scattered letters from small workshops. If the factory records are published first, an online search may suggest that factory work dominated every part of local life. That conclusion would exceed the evidence. The apparent imbalance might reflect preservation and processing choices as much as the actual distribution of employment. Explaining these choices would help readers interpret what they find.\n\nOne response is to invite users to add descriptions. Someone familiar with a neighborhood may recognize a building that an archivist cannot identify. Such contributions can enrich a collection, but they require review. A confident memory is still a claim, and uncertain identifications should remain visibly uncertain rather than quietly becoming official descriptions.\n\nDigital access is therefore best understood as an ongoing editorial responsibility. Institutions need to explain omissions, distinguish confirmed descriptions from suggestions, and make correction possible. This does not diminish the achievement of opening collections to distant readers. It clarifies what that achievement involves. The valuable archive is not merely the one with the greatest number of downloadable images, but the one that helps readers understand both the evidence before them and the boundaries of what it can establish. The process of publication should make those boundaries easier, rather than harder, to see.",
+              "items": [
+                {
+                  "stem": "What is the main argument of the passage?",
+                  "options": [
+                    "Digital access requires careful description and explanation of limitations.",
+                    "Publishing more images removes the need for archivists.",
+                    "Historical photographs should remain available only in person.",
+                    "User memories should replace written archival records."
+                  ],
+                  "answer": 0,
+                  "why": "全文围绕描述、选择和不确定性的说明展开，结尾强调帮助读者理解证据边界，而非只增加图片。",
+                  "point": "main"
+                },
+                {
+                  "stem": "Why might fragile documents be digitized later?",
+                  "options": [
+                    "Their subjects are less historically important.",
+                    "Their owners always refuse publication.",
+                    "They need special handling.",
+                    "They contain no searchable information."
+                  ],
+                  "answer": 2,
+                  "why": "第三段说脆弱资料需特殊处理；未说其历史价值较低或必然没有检索信息。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "What can be inferred from the hypothetical factory example?",
+                  "options": [
+                    "Factory workers preserved every workshop letter.",
+                    "The factory employed all the town’s residents.",
+                    "A complete online collection is impossible.",
+                    "An online imbalance may reflect selection rather than historical prevalence."
+                  ],
+                  "answer": 3,
+                  "why": "工厂资料优先发布可能造成表面失衡，不能据此推断工厂劳动在全镇生活中占据同样比例。",
+                  "point": "infer"
+                },
+                {
+                  "stem": "The word “enrich” in the passage is closest in meaning to",
+                  "options": [
+                    "restrict access to",
+                    "add useful information to",
+                    "establish ownership of",
+                    "make exact copies of"
+                  ],
+                  "answer": 1,
+                  "why": "邻里知情者辨认建筑能为馆藏增加信息，因此 enrich 指充实内容，不是确认所有权。",
+                  "point": "infer"
+                },
+                {
+                  "stem": "How does the author regard digital publication?",
+                  "options": [
+                    "As an achievement that needs continuing editorial care",
+                    "As an unnecessary replacement for personal memory",
+                    "As reliable only when no user contributes",
+                    "As a task completed when all available images are uploaded"
+                  ],
+                  "answer": 0,
+                  "why": "结尾肯定向远方读者开放资料的价值，同时要求持续说明遗漏和修正信息；上传并非工作的终点。",
+                  "point": "infer"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "label": "Read the passage carefully and choose the best answer to each question.",
+              "look": "passage",
+              "text": "A shared workshop promises an attractive alternative to buying equipment that will be used only occasionally. Members gain access to tools, space and practical knowledge, while the costs are spread across a group. It is easy to describe this arrangement as a simple exchange: people pay a fee and receive the right to use a machine. In practice, its success depends on responsibilities that are less visible than the tools themselves.\n\nThe first is maintenance. A machine may appear ready for use even when a small component is wearing out. If each member assumes that someone else will notice the problem, the warning can be ignored until the machine stops working. A clear reporting procedure helps, but only if someone has the time and authority to act on the reports. A notebook full of complaints does not repair anything by itself.\n\nThe second responsibility concerns knowledge. Experienced members often explain unfamiliar procedures to newcomers. This informal teaching makes a workshop welcoming, but it can also concentrate unpaid work on a few people. If those people leave, the group may discover that its instructions exist mainly in personal memory. Written guidance cannot replace supervised practice, yet it can preserve basic explanations and reduce repeated demands on experienced users.\n\nA third issue is allocation. Suppose a hypothetical workshop allows unlimited reservations with no requirement to cancel unused bookings. A member planning a complicated project might reserve several possible evenings, attend one, and leave the others empty. The booking calendar would indicate high demand while other members struggled to find a place. Limiting advance reservations would not create another machine, but it could make existing capacity easier to share.\n\nThese problems do not establish that shared ownership is inefficient. Individually owned equipment also requires maintenance, training and time. The difference is that a group must make the distribution of those duties explicit. Otherwise, the advertised saving in purchase costs can be achieved partly by shifting hidden costs onto whoever is most willing to help.\n\nA well-run workshop therefore needs more than enthusiastic recruitment. Members should know who checks equipment, how teaching time is supported and what happens to unused reservations. These arrangements can be modest and revisable; a small group need not copy the administration of a large institution. However, treating organization as unnecessary bureaucracy mistakes the source of the workshop's value. Sharing works when people can rely on one another, and that reliance needs a structure that survives the absence of any single generous member. The machines are the visible resource, but dependable cooperation is what makes them genuinely available.",
+              "items": [
+                {
+                  "stem": "Which statement best expresses the central argument?",
+                  "options": [
+                    "Shared workshops should avoid membership fees.",
+                    "Sharing equipment works best when responsibilities are clearly organized.",
+                    "Buying tools individually always costs less.",
+                    "A workshop’s success depends mainly on the number of machines."
+                  ],
+                  "answer": 1,
+                  "why": "文章逐项讨论维护、知识和分配职责，主张明确组织责任才能实现共享。",
+                  "point": "main"
+                },
+                {
+                  "stem": "What limitation of a reporting notebook does the author identify?",
+                  "options": [
+                    "It makes mechanical problems harder to notice.",
+                    "It prevents newcomers from asking questions.",
+                    "It has no effect unless someone acts on the reports.",
+                    "It can be used only by experienced members."
+                  ],
+                  "answer": 2,
+                  "why": "第二段指出还需有时间和权限的人处理报告，记录问题本身不等于维修。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "What can be inferred about a workshop that depends entirely on informal teaching?",
+                  "options": [
+                    "It may lose essential knowledge when experienced members leave.",
+                    "It will need no written guidance.",
+                    "It must have more machines than members.",
+                    "It can guarantee that every beginner learns independently."
+                  ],
+                  "answer": 0,
+                  "why": "第三段说经验者离开后才可能发现说明都在个人记忆中，故关键知识可能随人员流失。",
+                  "point": "infer"
+                },
+                {
+                  "stem": "The word “allocation” in the passage refers to",
+                  "options": [
+                    "equipment repair",
+                    "member recruitment",
+                    "the storage of written instructions",
+                    "the distribution of opportunities to use resources"
+                  ],
+                  "answer": 3,
+                  "why": "该段讨论预约、空置及成员能否找到时段，allocation 指使用资源机会的分配。",
+                  "point": "infer"
+                },
+                {
+                  "stem": "What is the author’s attitude toward workshop rules?",
+                  "options": [
+                    "All workshops should copy large institutions.",
+                    "Simple, adjustable rules can support reliable cooperation.",
+                    "Rules should be removed once members become enthusiastic.",
+                    "Rules matter only when machines are individually owned."
+                  ],
+                  "answer": 1,
+                  "why": "结尾主张制度可以简朴且可调整，但可靠合作仍需结构支持，既不照搬大机构也不取消规则。",
+                  "point": "infer"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pass": 0.8
+    }
+  ]
+}

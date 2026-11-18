@@ -1,0 +1,576 @@
+{
+ "version": 3,
+ "id": "gaokao",
+ "title": "高考英语（新课标卷）",
+ "language": "en",
+ "sections": [
+  {
+   "id": "listening",
+   "title": "听力",
+   "venue": "listening",
+   "lessons": [
+    "listening-short",
+    "listening-long",
+    "listening-overview",
+    "listening-short-method",
+    "listening-short-detail",
+    "listening-short-scene",
+    "listening-short-action",
+    "listening-short-intent",
+    "listening-short-numbers",
+    "listening-short-correction",
+    "listening-short-contractions",
+    "listening-short-campus",
+    "listening-short-travel",
+    "listening-long-method",
+    "listening-long-main",
+    "listening-long-detail",
+    "listening-long-reason",
+    "listening-long-attitude",
+    "listening-long-interview",
+    "listening-long-announcement",
+    "listening-long-narrative",
+    "listening-long-signals",
+    "listening-mock"
+   ],
+   "parts": [
+    {
+     "title": "概览",
+     "lessons": [
+      "listening-overview"
+     ]
+    },
+    {
+     "title": "短对话　听力第一节",
+     "lessons": [
+      "listening-short-method",
+      "listening-short-detail",
+      "listening-short-scene",
+      "listening-short-action",
+      "listening-short-intent",
+      "listening-short-numbers",
+      "listening-short-correction",
+      "listening-short-contractions",
+      "listening-short-campus",
+      "listening-short-travel"
+     ],
+     "practice": {
+      "lesson": "listening-short",
+      "title": "5 段 5 题 · 4 分钟",
+      "brief": [
+       "先按题干确定所问的人物、时间或行动。",
+       "听到转折和修正时核对最终信息。",
+       "将选项与完整意思对应，不只匹配相同词。",
+       "推断须由对话中的身份、行为或理由支持。"
+      ],
+      "points": {
+       "detail": "listening-short-detail",
+       "inference": "listening-short-scene",
+       "intention": "listening-short-action"
+      }
+     }
+    },
+    {
+     "title": "较长对话或独白　听力第二节",
+     "lessons": [
+      "listening-long-method",
+      "listening-long-main",
+      "listening-long-detail",
+      "listening-long-reason",
+      "listening-long-attitude",
+      "listening-long-interview",
+      "listening-long-announcement",
+      "listening-long-narrative",
+      "listening-long-signals"
+     ],
+     "practice": {
+      "lesson": "listening-long",
+      "title": "2 段 6 题 · 6 分钟",
+      "brief": [
+       "先按题干区分主旨、原因与细节。",
+       "按人物、事项和时间对应听到的信息。",
+       "利用转折与因果表达区分旧安排和新决定。",
+       "再次听取时核对尚未确定的信息。"
+      ],
+      "points": {
+       "main": "listening-long-main",
+       "detail": "listening-long-detail",
+       "cause": "listening-long-reason"
+      }
+     }
+    },
+    {
+     "title": "模拟测试",
+     "lessons": [
+      "listening-mock"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "reading",
+   "title": "阅读",
+   "venue": "reading",
+   "lessons": [
+    "reading-passage",
+    "reading-seven",
+    "reading-overview",
+    "reading-passage-method",
+    "reading-passage-fact",
+    "reading-passage-inference",
+    "reading-passage-vocab",
+    "reading-passage-sentence-meaning",
+    "reading-passage-reference",
+    "reading-passage-main",
+    "reading-passage-title",
+    "reading-passage-purpose",
+    "reading-passage-attitude",
+    "reading-passage-practical",
+    "reading-passage-narrative",
+    "reading-passage-expository",
+    "reading-passage-argument",
+    "reading-passage-syntax",
+    "reading-passage-qualifiers",
+    "reading-passage-environment",
+    "reading-passage-science",
+    "reading-passage-culture",
+    "reading-seven-method",
+    "reading-seven-opening",
+    "reading-seven-middle",
+    "reading-seven-ending",
+    "reading-seven-reference",
+    "reading-seven-logic",
+    "reading-seven-parallel",
+    "reading-seven-question-answer",
+    "reading-mock"
+   ],
+   "parts": [
+    {
+     "title": "概览",
+     "lessons": [
+      "reading-overview"
+     ]
+    },
+    {
+     "title": "阅读理解　阅读第一节",
+     "lessons": [
+      "reading-passage-method",
+      "reading-passage-fact",
+      "reading-passage-inference",
+      "reading-passage-vocab",
+      "reading-passage-sentence-meaning",
+      "reading-passage-reference",
+      "reading-passage-main",
+      "reading-passage-title",
+      "reading-passage-purpose",
+      "reading-passage-attitude",
+      "reading-passage-practical",
+      "reading-passage-narrative",
+      "reading-passage-expository",
+      "reading-passage-argument",
+      "reading-passage-syntax",
+      "reading-passage-qualifiers",
+      "reading-passage-environment",
+      "reading-passage-science",
+      "reading-passage-culture"
+     ],
+     "practice": {
+      "lesson": "reading-passage",
+      "title": "1 篇 4 题 · 8 分钟",
+      "brief": [
+       "按题干中的人名、事物和限定词定位。",
+       "将选项代回对应句及相邻句，核对同义改写。",
+       "推断只采用原文支持的结论。",
+       "概括主旨时核对全文的范围与重点。"
+      ],
+      "points": {
+       "detail": "reading-passage-fact",
+       "inference": "reading-passage-inference",
+       "main": "reading-passage-main"
+      }
+     }
+    },
+    {
+     "title": "七选五　阅读第二节",
+     "lessons": [
+      "reading-seven-method",
+      "reading-seven-opening",
+      "reading-seven-middle",
+      "reading-seven-ending",
+      "reading-seven-reference",
+      "reading-seven-logic",
+      "reading-seven-parallel",
+      "reading-seven-question-answer"
+     ],
+     "practice": {
+      "lesson": "reading-seven",
+      "title": "1 篇 5 空 · 7 分钟",
+      "brief": [
+       "先确定文章主题与各段的中心。",
+       "按空格位置判断主题句、过渡句或结句的作用。",
+       "核对代词指向、词汇复现和逻辑关系。",
+       "代入后同时检查空前与空后，避免重复选用。"
+      ],
+      "points": {
+       "role": "reading-seven-method",
+       "reference": "reading-seven-reference",
+       "logic": "reading-seven-logic"
+      }
+     }
+    },
+    {
+     "title": "模拟测试",
+     "lessons": [
+      "reading-mock"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "usage",
+   "title": "语言运用",
+   "venue": "reading",
+   "lessons": [
+    "usage-cloze",
+    "usage-grammar",
+    "usage-overview",
+    "usage-cloze-method",
+    "usage-cloze-narrative",
+    "usage-cloze-context",
+    "usage-cloze-logic",
+    "usage-cloze-verbs",
+    "usage-cloze-nouns",
+    "usage-cloze-emotions",
+    "usage-cloze-collocation",
+    "usage-cloze-theme",
+    "usage-grammar-method",
+    "usage-grammar-tense",
+    "usage-grammar-perfect",
+    "usage-grammar-passive",
+    "usage-grammar-agreement",
+    "usage-grammar-infinitive",
+    "usage-grammar-gerund",
+    "usage-grammar-participle",
+    "usage-grammar-relative",
+    "usage-grammar-noun-clause",
+    "usage-grammar-conjunction",
+    "usage-grammar-articles",
+    "usage-grammar-prepositions",
+    "usage-grammar-derivation",
+    "usage-grammar-noun-number",
+    "usage-grammar-pronouns",
+    "usage-grammar-comparison",
+    "usage-mock"
+   ],
+   "parts": [
+    {
+     "title": "概览",
+     "lessons": [
+      "usage-overview"
+     ]
+    },
+    {
+     "title": "完形填空　语言运用第一节",
+     "lessons": [
+      "usage-cloze-method",
+      "usage-cloze-narrative",
+      "usage-cloze-context",
+      "usage-cloze-logic",
+      "usage-cloze-verbs",
+      "usage-cloze-nouns",
+      "usage-cloze-emotions",
+      "usage-cloze-collocation",
+      "usage-cloze-theme"
+     ],
+     "practice": {
+      "lesson": "usage-cloze",
+      "title": "1 篇 15 空 · 12 分钟",
+      "brief": [
+       "通读首尾和未挖空部分，确定人物与事件。",
+       "先用句内搭配限定词义，再回查上下文。",
+       "依据复现、转折和因果比较候选词。",
+       "填入后核对人物行为、情感变化和结局。"
+      ],
+      "points": {
+       "context": "usage-cloze-context",
+       "logic": "usage-cloze-logic",
+       "collocation": "usage-cloze-collocation"
+      }
+     }
+    },
+    {
+     "title": "语法填空　语言运用第二节",
+     "lessons": [
+      "usage-grammar-method",
+      "usage-grammar-tense",
+      "usage-grammar-perfect",
+      "usage-grammar-passive",
+      "usage-grammar-agreement",
+      "usage-grammar-infinitive",
+      "usage-grammar-gerund",
+      "usage-grammar-participle",
+      "usage-grammar-relative",
+      "usage-grammar-noun-clause",
+      "usage-grammar-conjunction",
+      "usage-grammar-articles",
+      "usage-grammar-prepositions",
+      "usage-grammar-derivation",
+      "usage-grammar-noun-number",
+      "usage-grammar-pronouns",
+      "usage-grammar-comparison"
+     ],
+     "practice": {
+      "lesson": "usage-grammar",
+      "title": "1 篇 10 空 · 8 分钟",
+      "brief": [
+       "先找句子主干，确定空格的句法作用。",
+       "给出动词时先区分谓语和非谓语。",
+       "给出其他词时核对词性、数和比较结构。",
+       "无提示词按缺少的成分与句间关系填词。",
+       "回读全文，检查时态、主谓一致与拼写。"
+      ],
+      "points": {
+       "verb": "usage-grammar-method",
+       "form": "usage-grammar-derivation",
+       "function": "usage-grammar-method"
+      }
+     }
+    },
+    {
+     "title": "模拟测试",
+     "lessons": [
+      "usage-mock"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "writing",
+   "title": "写作",
+   "venue": "chat",
+   "lessons": [
+    "writing-practical",
+    "writing-continuation",
+    "writing-overview",
+    "writing-practical-method",
+    "writing-practical-register",
+    "writing-practical-details",
+    "writing-practical-sentences",
+    "writing-practical-invitation",
+    "writing-practical-advice",
+    "writing-practical-thanks",
+    "writing-practical-apology",
+    "writing-practical-inquiry",
+    "writing-practical-request",
+    "writing-practical-application",
+    "writing-practical-recommendation",
+    "writing-practical-complaint",
+    "writing-practical-notice",
+    "writing-practical-speech",
+    "writing-practical-report",
+    "writing-continuation-method",
+    "writing-continuation-clues",
+    "writing-continuation-plot",
+    "writing-continuation-bridge",
+    "writing-continuation-action",
+    "writing-continuation-emotion",
+    "writing-continuation-dialogue",
+    "writing-continuation-ending",
+    "writing-continuation-tense",
+    "writing-continuation-cohesion",
+    "writing-mock"
+   ],
+   "parts": [
+    {
+     "title": "概览",
+     "lessons": [
+      "writing-overview"
+     ]
+    },
+    {
+     "title": "应用文写作　写作第一节",
+     "lessons": [
+      "writing-practical-method",
+      "writing-practical-register",
+      "writing-practical-details",
+      "writing-practical-sentences",
+      "writing-practical-invitation",
+      "writing-practical-advice",
+      "writing-practical-thanks",
+      "writing-practical-apology",
+      "writing-practical-inquiry",
+      "writing-practical-request",
+      "writing-practical-application",
+      "writing-practical-recommendation",
+      "writing-practical-complaint",
+      "writing-practical-notice",
+      "writing-practical-speech",
+      "writing-practical-report"
+     ],
+     "practice": {
+      "lesson": "writing-practical",
+      "title": "1 篇约 80 词 · 12 分钟",
+      "brief": [
+       "确定作者身份、读者和写作目的。",
+       "逐条对应内容要点，补充相关的具体信息。",
+       "按文体安排开头、正文与结尾。",
+       "核对称呼和请求的语域，并检查句子是否完整。"
+      ],
+      "points": {
+       "coverage": "writing-practical-details",
+       "register": "writing-practical-register",
+       "accuracy": "writing-practical-sentences"
+      },
+      "venue": "chat"
+     }
+    },
+    {
+     "title": "读后续写　写作第二节",
+     "lessons": [
+      "writing-continuation-method",
+      "writing-continuation-clues",
+      "writing-continuation-plot",
+      "writing-continuation-bridge",
+      "writing-continuation-action",
+      "writing-continuation-emotion",
+      "writing-continuation-dialogue",
+      "writing-continuation-ending",
+      "writing-continuation-tense",
+      "writing-continuation-cohesion"
+     ],
+     "practice": {
+      "lesson": "writing-continuation",
+      "title": "两段约 150 词 · 25 分钟",
+      "brief": [
+       "确定原文人物、冲突、时间与已有线索。",
+       "让第一段的发展能够接上第二段给定首句。",
+       "用具体动作、情感或对话呈现事件的变化。",
+       "结尾回应原文冲突与人物变化。",
+       "核对叙事人称、时态与指代是否一致。"
+      ],
+      "points": {
+       "plot": "writing-continuation-plot",
+       "detail": "writing-continuation-action",
+       "accuracy": "writing-continuation-tense"
+      },
+      "venue": "chat"
+     }
+    },
+    {
+     "title": "模拟测试",
+     "lessons": [
+      "writing-mock"
+     ]
+    }
+   ]
+  }
+ ],
+ "titles": {
+  "listening-overview": "听力部分概览",
+  "listening-short-method": "短对话的解题步骤",
+  "listening-short-detail": "短对话细节题",
+  "listening-short-scene": "场景与人物关系题",
+  "listening-short-action": "下一步行动题",
+  "listening-short-intent": "间接表达与说话意图",
+  "listening-short-numbers": "时间与数量表达",
+  "listening-short-correction": "否定与信息修正",
+  "listening-short-contractions": "缩约形式与省略",
+  "listening-short-campus": "校园活动词汇",
+  "listening-short-travel": "出行与服务词汇",
+  "listening-long-method": "较长材料的解题步骤",
+  "listening-long-main": "主旨与谈话目的题",
+  "listening-long-detail": "人物与事件细节题",
+  "listening-long-reason": "原因与条件题",
+  "listening-long-attitude": "态度与观点题",
+  "listening-long-interview": "访谈对话的结构",
+  "listening-long-announcement": "通知独白的结构",
+  "listening-long-narrative": "经历独白的结构",
+  "listening-long-signals": "口头衔接表达",
+  "listening-mock": "听力模拟测试",
+  "reading-overview": "阅读部分概览",
+  "reading-passage-method": "阅读理解的解题步骤",
+  "reading-passage-fact": "事实细节题",
+  "reading-passage-inference": "推理判断题",
+  "reading-passage-vocab": "语境词义题",
+  "reading-passage-sentence-meaning": "句意理解题",
+  "reading-passage-reference": "指代关系题",
+  "reading-passage-main": "文章与段落主旨题",
+  "reading-passage-title": "最佳标题题",
+  "reading-passage-purpose": "写作与例证目的题",
+  "reading-passage-attitude": "作者观点与态度题",
+  "reading-passage-practical": "广告与活动说明",
+  "reading-passage-narrative": "记叙文的事件结构",
+  "reading-passage-expository": "说明文的解释结构",
+  "reading-passage-argument": "议论文的论证结构",
+  "reading-passage-syntax": "长句的主干与修饰",
+  "reading-passage-qualifiers": "范围与程度表达",
+  "reading-passage-environment": "生态与环境词汇",
+  "reading-passage-science": "科技与研究词汇",
+  "reading-passage-culture": "文化与社会生活词汇",
+  "reading-seven-method": "句子还原的解题步骤",
+  "reading-seven-opening": "段首主题句与小标题",
+  "reading-seven-middle": "段中解释与过渡句",
+  "reading-seven-ending": "段尾结句与承接句",
+  "reading-seven-reference": "指代与词汇复现",
+  "reading-seven-logic": "句间逻辑关系",
+  "reading-seven-parallel": "并列句式的衔接",
+  "reading-seven-question-answer": "问答关系的衔接",
+  "reading-mock": "阅读模拟测试",
+  "usage-overview": "语言运用部分概览",
+  "usage-cloze-method": "完形填空的解题步骤",
+  "usage-cloze-narrative": "完形记叙文的事件关系",
+  "usage-cloze-context": "上下文复现题",
+  "usage-cloze-logic": "逻辑关系选词题",
+  "usage-cloze-verbs": "动作动词辨析",
+  "usage-cloze-nouns": "人物与事件名词辨析",
+  "usage-cloze-emotions": "情感与评价词汇",
+  "usage-cloze-collocation": "动词搭配与短语",
+  "usage-cloze-theme": "结尾评价与主题选词",
+  "usage-grammar-method": "语法填空的句法判断",
+  "usage-grammar-tense": "谓语动词的基本时态",
+  "usage-grammar-perfect": "谓语动词的完成时",
+  "usage-grammar-passive": "谓语动词的语态",
+  "usage-grammar-agreement": "主谓一致",
+  "usage-grammar-infinitive": "非谓语动词的不定式",
+  "usage-grammar-gerund": "非谓语动词的动名词",
+  "usage-grammar-participle": "非谓语动词的分词",
+  "usage-grammar-relative": "定语从句引导词",
+  "usage-grammar-noun-clause": "名词性从句引导词",
+  "usage-grammar-conjunction": "状语从句与并列连词",
+  "usage-grammar-articles": "冠词",
+  "usage-grammar-prepositions": "介词",
+  "usage-grammar-derivation": "词性转换",
+  "usage-grammar-noun-number": "名词单复数与所有格",
+  "usage-grammar-pronouns": "代词",
+  "usage-grammar-comparison": "形容词副词比较级",
+  "usage-mock": "语言运用模拟测试",
+  "writing-overview": "写作部分概览",
+  "writing-practical-method": "应用文任务分析",
+  "writing-practical-register": "应用文的语域",
+  "writing-practical-details": "内容要点的具体展开",
+  "writing-practical-sentences": "书面句子的完整性",
+  "writing-practical-invitation": "邀请信",
+  "writing-practical-advice": "建议信",
+  "writing-practical-thanks": "感谢信",
+  "writing-practical-apology": "道歉信",
+  "writing-practical-inquiry": "咨询信",
+  "writing-practical-request": "求助信",
+  "writing-practical-application": "申请信",
+  "writing-practical-recommendation": "推荐信",
+  "writing-practical-complaint": "投诉信",
+  "writing-practical-notice": "活动通知",
+  "writing-practical-speech": "发言稿",
+  "writing-practical-report": "活动报道",
+  "writing-continuation-method": "续写任务的限制条件",
+  "writing-continuation-clues": "人物目标与伏笔",
+  "writing-continuation-plot": "情节推进",
+  "writing-continuation-bridge": "两段之间的衔接",
+  "writing-continuation-action": "动作描写",
+  "writing-continuation-emotion": "情感描写",
+  "writing-continuation-dialogue": "对话描写",
+  "writing-continuation-ending": "故事结尾",
+  "writing-continuation-tense": "叙事人称与时态",
+  "writing-continuation-cohesion": "叙事中的句间衔接",
+  "writing-mock": "写作模拟测试"
+ }
+}

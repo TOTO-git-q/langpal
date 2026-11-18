@@ -1,0 +1,75 @@
+{
+ "id": "listening-lecture-detail",
+ "title": "讲座事实与数据题",
+ "goal": "听出概念与研究条件的具体内容；将研究结果对应到正确对象。",
+ "skill": "听力",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "detail", "label": "听出概念与研究条件的具体内容"},
+  {"id": "data", "label": "将研究结果对应到正确对象"}
+ ],
+ "sources": [
+  {"id": "syllabus", "title": "大学英语六级（CET-6）：课表", "url": "docs/syllabi/cet6.md", "used": "讲座的教学内容、知识点与练习规格"}
+ ],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "事实与数据题问讲述中的具体信息：概念的含义、研究的条件，或某一组的结果。正确选项保留原文的对象和限定条件。"},
+   {"box": "A trial compared paper maps with digital maps. Among the 20 people using paper maps, 15 found the entrance. Among the 20 using digital maps, 12 found it."},
+   {"p": "15 对应使用纸质地图的人，12 对应使用电子地图的人。两组人数相同，结果要分别记在各组名下。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定问题对象", "d": "先看题干问的是概念、条件还是结果。题干中的 paper maps 指向使用纸质地图的一组。"},
+   {"t": "2　核对具体信息", "d": "把对象和紧跟它的描述或数字连在一起记。15 found the entrance 是纸质地图组的结果。"},
+   {"t": "3　保留限定条件", "d": "核对组别、时间和测量范围。found the entrance 只表示找到入口，不能改成完成全部路线。"},
+   {"t": "4　比较同义表达", "d": "正确选项常换一种说法，关系不变。located the entrance 对应 found the entrance。"}
+  ]},
+  {"id": "definitions", "type": "table", "title": "定义与研究条件", "cols": ["类型", "原文", "对应信息"], "rows": [
+   ["定义", "A habitat is the place where an organism lives.", "habitat 指生物生活的地方。"],
+   ["定义", "A sample is a smaller group selected from a population.", "sample 是总体中选出的一部分。"],
+   ["条件", "Both groups used the same set of photographs.", "两组使用相同的照片。"],
+   ["条件", "Only the morning group received a reminder.", "只有上午组收到提醒。"]
+  ], "note": "定义要连同限定语一起记。研究条件要和对应的组别一起记。"},
+  {"id": "results", "type": "table", "title": "对象与结果", "cols": ["类型", "原文", "对应信息"], "rows": [
+   ["组别", "Eight of the trained volunteers completed the task.", "8 名受训志愿者完成任务。"],
+   ["组别", "Six of the untrained volunteers completed the task.", "6 名未受训志愿者完成任务。"],
+   ["时间", "The tank held 30 liters before the test.", "测试前水箱有 30 升水。"],
+   ["时间", "The tank held 25 liters after the test.", "测试后水箱有 25 升水。"]
+  ], "note": "数字要连同对象、单位和时间一起记。同一个动词可能用在不同组别上。"},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A team tested two ways of storing seeds. Both groups used the same kind of seed. After one month, 18 seeds in the cool room and 11 in the warm room had sprouted."},
+   {"box": "What was observed in the cool room after one month?\n1. Eleven seeds had sprouted.\n2. Eighteen seeds had begun to grow.\n3. Eighteen kinds of seed were stored.\n4. Eleven seeds remained in storage."},
+   {"p": "18 seeds in the cool room 对应第二项的 Eighteen seeds。had begun to grow 是 had sprouted 的同义表达。11 属于暖房组。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "例", "依据"], "rows": [
+   ["对象替换", "Eleven seeds sprouted in the cool room.", "11 对应暖房组。"],
+   ["概念混淆", "Eighteen kinds of seed were stored.", "18 是发芽的种子数量。"],
+   ["时间改变", "Eighteen seeds sprouted before storage.", "结果是在储存一个月后记录。"],
+   ["状态改变", "Eleven seeds remained in storage.", "11 指暖房中发芽的种子。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["detail", "data"], "groups": [
+   {"audio": {"intro": "Listen to the lecture.", "lines": [{"who": "A", "text": "A wetland is an area where water covers or saturates the soil for at least part of the year. Some wetlands are dry at other times."}]}, "items": [{"stem": "What does the speaker say about a wetland?", "options": ["Its soil is wet during at least part of the year.", "Its soil remains underwater throughout the year.", "Its water disappears during every dry season.", "Its surface is dry throughout the wet season."], "answer": 0, "why": "water covers or saturates the soil for at least part of the year 说明土壤在一年中至少有一段时间湿润，即第一项。", "point": "detail"}]},
+   {"audio": {"intro": "Listen to the lecture.", "lines": [{"who": "A", "text": "In a classroom study, both groups read the same article. One group took notes by hand, while the other typed notes on a keyboard."}]}, "items": [{"stem": "What did the two groups have in common?", "options": ["They wrote their notes using a keyboard.", "They read an identical article before comparison.", "They received handwritten notes from the teacher.", "They read different articles on the same subject."], "answer": 1, "why": "both groups read the same article 表明两组阅读同一篇文章，即第二项。", "point": "detail"}]},
+   {"audio": {"intro": "Listen to the lecture.", "lines": [{"who": "A", "text": "In a trial of two signs, 14 visitors noticed the blue sign and 9 noticed the green sign. Each visitor saw only one sign."}]}, "items": [{"stem": "What was the result for the blue sign?", "options": ["Nine visitors noticed it during the trial.", "Fourteen visitors saw it alongside a green sign.", "Fourteen of the visitors noticed that sign.", "Twenty-three visitors noticed it in total."], "answer": 2, "why": "14 visitors noticed the blue sign 对应第三项。9 属于绿色标志。", "point": "data"}]},
+   {"audio": {"intro": "Listen to the lecture.", "lines": [{"who": "A", "text": "A reservoir contained 80 million liters in spring. By autumn it contained 65 million liters, after a period with little rain."}]}, "items": [{"stem": "How much water did the reservoir contain in autumn?", "options": ["Eighty million liters after the dry period.", "Fifteen million liters before the dry period.", "Sixty-five million liters before the dry period.", "Sixty-five million liters after the dry period."], "answer": 3, "why": "By autumn it contained 65 million liters 指秋季水量为 6500 万升，即第四项。", "point": "data"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["detail", "data"], "groups": [
+   {"audio": {"intro": "Listen to the lecture.", "lines": [{"who": "A", "text": "Researchers compared two ways of displaying departure times at a fictional bus station. Both displays gave identical departure times. The first used a list arranged by destination; the second used a list arranged by departure time. Each participant saw just one display. Of 30 participants using the destination list, 21 found the requested departure within a minute. Of 30 using the time list, 24 did so. The result describes speed on this particular task, not whether either display was preferred."}]}, "items": [
+    {"stem": "What information did both displays provide?", "options": ["The same scheduled departure times", "The same order of destinations", "The same participant preferences", "The same time taken by each visitor"], "answer": 0, "why": "Both displays gave identical departure times 表明两种显示提供相同的发车时间，即第一项。", "point": "detail"},
+    {"stem": "How many users of the time list found the departure within a minute?", "options": ["Thirty, the total using both displays", "Twenty-one, the number using the time list", "Twenty-four, the number using the time list", "Thirty, the number using the destination list"], "answer": 2, "why": "Of 30 using the time list, 24 did so 指出时间列表组有 24 人在一分钟内找到信息，即第三项。", "point": "data"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 8, "pass": 0.75, "points": ["detail", "data"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to the lecture.", "lines": [{"who": "A", "text": "Today I will describe a fictional study of how people find items in a shared tool room. The room stores hand tools for members of a community workshop. When several tools look similar, a clear arrangement may help a member find the right one. The researchers wanted to compare two arrangements of labels, rather than compare the tools themselves. For this study, a search was defined as complete when a participant touched the requested tool. Picking it up or using it was not part of that definition. The distinction matters because a person may find an item but still need time to check whether it is suitable for a job. The team prepared two identical sets of tools. In one room, labels were placed directly beside the tools. In another, the same labels were printed on a single chart near the entrance. Both rooms contained the same number and kinds of tools, and the requested tools were placed in corresponding positions. Each participant used only one room. Thirty participants were assigned to each arrangement, and each was given the same list of tools to find. In the room with labels beside the tools, 24 participants completed the search within two minutes. In the room with the chart at the entrance, 18 completed it within the same period. These figures count participants, not individual tools. The difference does not establish whether everyone preferred labels beside the tools. The study measured completion within a time limit, not preference. Nor did it test whether the labels would remain useful after the tools had been moved. The researchers also observed that some participants paused at the entrance chart before walking to a shelf. Others went directly to a shelf and then returned to the chart. Those observations may help the team design a later comparison, but they are not separate measurements of success. In a future study, the team could test larger rooms or allow participants to become familiar with the layout. For now, the result concerns two arrangements in rooms with identical tool sets and a fixed search task. It illustrates the importance of keeping the definition, conditions, and result attached to the particular group being described."}]}, "items": [
+    {"stem": "When was a search counted as complete?", "options": ["When a participant picked up the requested tool", "When a participant touched the requested tool", "When a participant used the requested tool", "When a participant checked every label on a chart"], "answer": 1, "why": "a search was defined as complete when a participant touched the requested tool 对应第二项。", "point": "detail"},
+    {"stem": "What was kept the same in the two rooms?", "options": ["The position of every printed label", "The location of the chart in each room", "The kinds and numbers of tools available", "The amount of time spent reading the entrance chart"], "answer": 2, "why": "Both rooms contained the same number and kinds of tools 对应第三项。", "point": "detail"},
+    {"stem": "What was the result for the room with labels beside the tools?", "options": ["Twenty-four participants finished within two minutes.", "Eighteen participants preferred the labels beside tools.", "Twenty-four tools were moved during the search.", "Eighteen participants finished within two minutes."], "answer": 0, "why": "labels beside the tools 与 24 participants completed the search within two minutes 对应第一项。", "point": "data"}
+   ]},
+   {"audio": {"intro": "Listen to the lecture.", "lines": [{"who": "A", "text": "Let's consider a fictional investigation of water use in two teaching gardens. The gardens grow the same kinds of vegetables in plots of equal size. Their managers wanted to compare two watering schedules over four weeks. They were not trying to compare different vegetables or different plot sizes. In this investigation, a watering event meant one occasion on which water was applied to a plot. The word event did not refer to the number of plants watered or to the number of minutes spent in the garden. One garden received water every morning. The other received the same weekly quantity of water in two larger applications. A meter recorded the amount supplied to each plot. At the end of each week, the team also measured how much water remained in the soil at a fixed depth. The measurements were taken at the same time of day in both gardens. After four weeks, the morning schedule had used 400 liters in total. The two-application schedule had also used 400 liters. Equal total use was part of the planned comparison, not a finding that the two schedules always use equal amounts. The team then compared the final soil measurements. In the morning garden, the meter showed 18 units of soil moisture at the chosen depth. In the other garden, it showed 14 units at that depth. The units came from the same instrument and should not be confused with liters supplied. The team did not measure crop yield, so the difference in soil moisture cannot establish which schedule produced more vegetables. Weather and soil conditions in these two gardens may also limit how far the observation can be applied. A later study could repeat the comparison in other seasons and measure plant growth as well as soil moisture. For this comparison, the important distinction is between the amount of water supplied and the moisture reading taken in the soil. Both groups received the same total supply, while their final readings differed. Any account of the result needs to identify the schedule, the measurement, and the point at which it was taken."}]}, "items": [
+    {"stem": "What did the team measure at a fixed depth?", "options": ["The number of vegetables harvested each week", "The time spent applying water each morning", "The number of watering events in each garden", "The moisture remaining in the soil each week"], "answer": 3, "why": "measured how much water remained in the soil at a fixed depth 对应第四项。", "point": "detail"},
+    {"stem": "What was the final soil-moisture reading in the morning garden?", "options": ["Fourteen units at the chosen depth", "Eighteen units at the chosen depth", "Four hundred liters at the chosen depth", "Eighteen liters supplied at the chosen depth"], "answer": 1, "why": "In the morning garden, the meter showed 18 units of soil moisture 对应第二项。", "point": "data"},
+    {"stem": "How much water did the two-application schedule use over four weeks?", "options": ["Fourteen liters, the amount left in the soil", "Two hundred liters, half the morning schedule's total", "Four hundred liters, as the morning schedule did", "Eight hundred liters, twice the morning schedule's total"], "answer": 2, "why": "The two-application schedule had also used 400 liters 表明两种安排的总供水量相同，即第三项。", "point": "data"}
+   ]}
+  ]}]} 
+ ]
+}

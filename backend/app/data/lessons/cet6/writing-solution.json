@@ -1,0 +1,436 @@
+{
+ "id": "writing-solution",
+ "title": "问题解决型短文",
+ "goal": "识别需要处理的具体原因；选出与原因对应的解决措施。",
+ "skill": "写作",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "cause",
+   "label": "识别需要处理的具体原因"
+  },
+  {
+   "id": "match",
+   "label": "选出与原因对应的解决措施"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语六级（CET-6）：课表",
+   "url": "docs/syllabi/cet6.md",
+   "used": "写作部分：问题解决型短文；内容范围、知识点与客观题规格。"
+  }
+ ],
+ "cards": [
+  {
+   "id": "structure",
+   "type": "table",
+   "title": "结构",
+   "cols": [
+    "部分",
+    "写法",
+    "例"
+   ],
+   "rows": [
+    [
+     "问题表现",
+     "写出具体的困难，与原因分开写。",
+     "Students arrive to collect a recorder that another group has already reserved."
+    ],
+    [
+     "具体原因",
+     "指出问题出在哪个环节，不用笼统的评价。",
+     "The booking page lists rooms but does not show reservations for individual recorders."
+    ],
+    [
+     "对应措施",
+     "写明谁来做、做什么、针对什么。",
+     "The booking team should give each recorder a separate availability record."
+    ],
+    [
+     "预期效果",
+     "写出措施改变了哪个环节，不承诺解决全部问题。",
+     "Students could check a recorder's status before making an unnecessary collection visit."
+    ],
+    [
+     "执行条件",
+     "写出措施生效需要的信息或资源。",
+     "Canceled reservations must be removed so that the record remains accurate."
+    ],
+    [
+     "效果核查",
+     "用与问题直接对应的指标检验效果。",
+     "Compare unsuccessful collection visits before and after the availability record is introduced."
+    ]
+   ]
+  },
+  {
+   "id": "expressions",
+   "type": "table",
+   "title": "常用表达",
+   "cols": [
+    "功能",
+    "表达与例句",
+    "说明"
+   ],
+   "rows": [
+    [
+     "区分表现与原因",
+     "The repeated visits result from unclear requirements for each type of request.",
+     "原因要能解释为什么反复到访，不只重述现象。"
+    ],
+    [
+     "对应措施",
+     "To address this information gap, the desk should provide a separate checklist for each request.",
+     "上文要先写出是什么信息缺口。"
+    ],
+    [
+     "说明机制",
+     "This would allow residents to identify the papers relevant to their own request.",
+     "would 表示预期的效果，不写成已经发生的事。"
+    ],
+    [
+     "限制作用",
+     "The checklist would reduce avoidable omissions, although unusual cases may still require advice.",
+     "用 although 承认仍有例外，不夸大效果。"
+    ],
+    [
+     "执行条件",
+     "The proposal depends on keeping the checklist consistent with the current requirements.",
+     "写明措施依赖的条件：清单要随要求更新。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "In this hypothetical campus case, students often arrive at a media room to find that the equipment they need is unavailable. The room has enough recorders, but its booking page shows only room reservations. It does not identify which recorder has already been assigned to a project.\n\nThe difficulty therefore comes from incomplete equipment information rather than from a shortage of rooms. Adding another room would leave students uncertain about the same recorders. The booking team should list each recorder separately and link equipment reservations to the relevant project. Students could then check availability before traveling to collect an item.\n\nThe change would also give staff a clear record when two groups request the same device. However, the information must be updated when a reservation is canceled; an inaccurate list would reproduce the original uncertainty.\n\nA small trial could compare the number of unsuccessful collection visits before and after the change. Fewer such visits would be evidence that the proposal addresses the stated problem, without proving that every booking difficulty has disappeared."
+    },
+    {
+     "p": "校园案例的链条：页面不显示设备是否已被预订，学生无法判断能否取到设备。措施是为每台设备建立状态记录，效果是减少无效到访。增建房间不改变设备信息，处理不了这个原因。"
+    },
+    {
+     "box": "In this hypothetical public-service case, residents repeatedly bring incomplete documents to a community information desk. They have read a general list of required documents, but different requests need different supporting papers. The list does not connect each type of request with its specific requirements.\n\nThe problem is not simply that residents fail to prepare. They lack a reliable way to determine which papers apply to their own request. The service should provide separate checklists for the main request types, with a clear example of each required document. The same checklists should be available on paper and online so that access does not depend on a particular device.\n\nStaff could also ask residents to identify their request before joining the main queue. This would direct them to the appropriate checklist while leaving detailed decisions to the responsible officer.\n\nThe expected result is fewer avoidable return visits caused by missing papers. Staff should review recurring omissions and revise unclear checklist entries, rather than assume that publishing a new list has permanently solved every difficulty."
+    },
+    {
+     "p": "公共服务案例的原因是材料要求没有按业务类型分开，而不是居民准备不足。按业务分开的清单让居民找到自己要带的材料。清单同时有纸质版和线上版，没有某种设备的居民也能看到。"
+    },
+    {
+     "p": "判断措施是否对应原因，看它改变了哪个环节。如果清单已经清楚、问题在于人手不够，再公布一次清单没有作用，需要的是增加服务能力。同一种措施不能用于所有问题。"
+    }
+   ]
+  },
+  {
+   "id": "errors",
+   "type": "table",
+   "title": "常见错误",
+   "cols": [
+    "类型",
+    "例",
+    "原因"
+   ],
+   "rows": [
+    [
+     "重述问题",
+     "The desk should reduce the number of incomplete applications.",
+     "只有目标，没有说明处理哪个原因。"
+    ],
+    [
+     "错配原因",
+     "Buy more recorders because their booking status is hidden.",
+     "增加设备不会显示预订状态。"
+    ],
+    [
+     "笼统归责",
+     "Residents should become more responsible about documents.",
+     "原因是清单不分业务，这句没有处理它。"
+    ],
+    [
+     "效果过强",
+     "A checklist will eliminate every future service delay.",
+     "清单只能减少漏带材料，不能消除所有延误。"
+    ],
+    [
+     "措施缺条件",
+     "Publish availability once and never update cancellations.",
+     "取消的预订不删除，记录就会出错，学生又无法判断。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "cause",
+    "match"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A ceramics studio has enough drying racks, but projects lose their places because the shelf labels fade when cleaned. Users can no longer identify the allocated space.",
+     "items": [
+      {
+       "stem": "Which cause should a solution target?",
+       "options": [
+        "A shortage of all drying racks in the ceramics studio.",
+        "Shelf labels that become unreadable after cleaning.",
+        "Cleaning that damages the drying racks themselves.",
+        "Users who forget which projects belong to them."
+       ],
+       "answer": 1,
+       "why": "依据：the shelf labels fade when cleaned. Users can no longer identify the allocated space。标签洗后看不清，分配给谁的位置也就认不出来。第一项与 has enough drying racks 相反。",
+       "point": "cause"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "A volunteer transport desk assigns the same trip to two drivers because updates are entered into separate notebooks that are not compared before assignment.",
+     "items": [
+      {
+       "stem": "Which action directly addresses the cause?",
+       "options": [
+        "Ask both drivers to write longer descriptions of their completed trips.",
+        "Increase the number of notebooks available to every driver.",
+        "Compare all updates in one shared record before assigning a trip.",
+        "Assign every trip to two drivers so that one can act as a backup."
+       ],
+       "answer": 2,
+       "why": "依据：updates are entered into separate notebooks that are not compared before assignment。第三项在分派前对照同一份记录，改变的正是出错的环节。",
+       "point": "match"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Customers abandon a refill station because the price label states a cost per kilogram while the container scale displays grams, leaving them unsure of the total.",
+     "items": [
+      {
+       "stem": "Which factor explains the hesitation?",
+       "options": [
+        "The label and scale use different units, so the total is unclear.",
+        "The price per kilogram is higher than customers expected to pay.",
+        "The label gives the total cost of a container but not the price per kilogram.",
+        "Customers do not know how much each container weighs when empty."
+       ],
+       "answer": 0,
+       "why": "依据：the price label states a cost per kilogram while the container scale displays grams, leaving them unsure of the total。价签和秤的单位不同，顾客算不出总价。",
+       "point": "cause"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "A community game club welcomes new members, but only existing members can open the page that lists the venue and meeting time.",
+     "items": [
+      {
+       "stem": "Which measure directly removes the stated barrier?",
+       "options": [
+        "Ask existing members to read the restricted page more frequently.",
+        "Move all meetings to a larger venue with the same restricted page.",
+        "Publish more detailed rules on the page available only to members.",
+        "Make the venue and time visible on a page accessible to newcomers."
+       ],
+       "answer": 3,
+       "why": "依据：only existing members can open the page that lists the venue and meeting time。新成员看不到地点和时间。第四项把这些信息放到新成员能打开的页面上，直接去掉了障碍。",
+       "point": "match"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "cause",
+    "match"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A public learning center finds that callers repeatedly contact the wrong department. Its recorded menu lists office names, but the callers know their problem rather than the office responsible for it. Staff then transfer calls, sometimes more than once. Adding another telephone would increase capacity without clarifying responsibility. A menu organized around common requests could direct callers more accurately, provided that each request remains linked to the team that currently handles it.",
+     "items": [
+      {
+       "stem": "What produces the repeated transfers?",
+       "options": [
+        "Staff transfer calls because the center has too few telephones.",
+        "Callers cannot match their problems to the listed office names.",
+        "The recorded menu already groups every option by common request.",
+        "Each request is linked to a team that no longer handles that request."
+       ],
+       "answer": 1,
+       "why": "依据：callers know their problem rather than the office responsible for it。来电者只知道自己的问题，对不上菜单里的部门名称，于是被反复转接。第一项与 Adding another telephone would increase capacity without clarifying responsibility 不符。",
+       "point": "cause"
+      },
+      {
+       "stem": "State a measure that targets the information problem.",
+       "lead": "The center should",
+       "chunks": [
+        "organize its menu",
+        "around common requests",
+        "so that callers",
+        "can identify"
+       ],
+       "tail": "the relevant service without first knowing the official name of the department responsible for their problem.",
+       "extra": [
+        "organizing its menu"
+       ],
+       "why": "around common requests 改变了菜单的分类方式，so that callers can identify 说明这样做的作用。should 后面接动词原形，多余词块 organizing its menu 不能用。",
+       "point": "match"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "cause",
+    "match"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "In a hypothetical college print room, students frequently submit the same large job twice. A request disappears from the submission screen without any message confirming that it has entered the queue. Students therefore cannot distinguish a successful submission from a failed one. The second submission is an attempt to obtain confirmation, and it creates duplicate work.\n\nThe direct response is to display a receipt number and a visible queue status after submission. The system should also show the same number when a student checks an existing request. This would make a successful submission recognizable without requiring a new one.\n\nAdding printers might shorten the queue, but it would not remove the uncertainty that prompts repeated submissions. Staff should first test whether confirmation messages reduce duplicate requests and verify that the displayed status matches the actual queue.\n\nThe proposal targets an information gap rather than a general lack of student responsibility. Its expected effect is fewer duplicate jobs, not a guarantee that every printing delay will end.",
+       "items": [
+        {
+         "stem": "What directly prompts duplicate print submissions?",
+         "options": [
+          "The absence of a visible sign that the first request succeeded.",
+          "The inability of every printer to process large documents.",
+          "The availability of a receipt number for checking an existing request.",
+          "The student's knowledge that the first job was already printed."
+         ],
+         "answer": 0,
+         "why": "依据：Students therefore cannot distinguish a successful submission from a failed one。看不到提交成功的信号，学生才会再交一次。",
+         "point": "cause"
+        },
+        {
+         "stem": "Which proposal most directly addresses that cause?",
+         "options": [
+          "Increase printer capacity without changing the submission screen.",
+          "Confirm each submission with a reference number and visible status.",
+          "Ask students to submit large jobs through two separate screens.",
+          "Remind students in general terms to submit each print job only once."
+         ],
+         "answer": 1,
+         "why": "依据：display a receipt number and a visible queue status after submission。学生能确认提交已经成功，就不必为确认而重交。第一项只增加打印能力，提交后仍看不到确认。",
+         "point": "match"
+        },
+        {
+         "stem": "Express the link between uncertainty and duplication.",
+         "lead": "Repeated submissions occur",
+         "chunks": [
+          "because students",
+          "cannot distinguish",
+          "a successful request",
+          "from a failed one"
+         ],
+         "tail": "when the original submission disappears from the screen without a visible confirmation of its queue status.",
+         "extra": [
+          "distinguishing"
+         ],
+         "why": "because 引出原因。distinguish ... from ... 是固定结构，多余词块 distinguishing 不能作谓语。",
+         "point": "cause"
+        },
+        {
+         "stem": "State the intended effect of a confirmation receipt.",
+         "lead": "A visible receipt number",
+         "chunks": [
+          "would allow students",
+          "to check the status",
+          "of an existing request",
+          "without submitting"
+         ],
+         "tail": "the same print job again merely to discover whether the first attempt had entered the queue.",
+         "extra": [
+          "submitted"
+         ],
+         "why": "would allow students to check 说明收据号的作用。without 后面接动名词 submitting，多余词块 submitted 不符合这个结构。",
+         "point": "match"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "In a hypothetical town service, residents use an online calendar to reserve appointments for collecting bulky waste. Some arrive at the collection point on days that are unavailable for their street. The calendar displays every available day before asking for an address, and the street restriction appears only in a separate information page.\n\nThe key problem is the order in which eligibility information is presented. A resident can select a real appointment without realizing that it serves a different area. The service should request the address first and display only dates that apply to that street. A final confirmation should repeat the address and chosen date.\n\nA larger collection site would not correct the mismatch between streets and dates. More general publicity would also leave residents to connect two separate information sources themselves.\n\nThe revised process should reduce bookings that do not match a resident's address. Staff can examine incorrect bookings during a trial to identify any remaining problems. The expected improvement depends on the street information being accurate and kept up to date.",
+       "items": [
+        {
+         "stem": "Which feature creates the street-and-date mismatch?",
+         "options": [
+          "The collection point lacks enough space for residents from every street.",
+          "The calendar offers dates that do not exist in the service.",
+          "Area restrictions are separated from the initial date-selection step.",
+          "Residents receive an address confirmation before viewing any dates."
+         ],
+         "answer": 2,
+         "why": "依据：The calendar displays every available day before asking for an address, and the street restriction appears only in a separate information page。街道限制没有出现在选日期这一步，居民才会选错日期。",
+         "point": "cause"
+        },
+        {
+         "stem": "Which action addresses the identified cause most directly?",
+         "options": [
+          "Build a larger site while leaving the selection sequence unchanged.",
+          "Promote all collection days without linking them to residents' addresses.",
+          "Add another page listing every street separately from the calendar.",
+          "Use the resident's address to filter dates before a booking is made."
+         ],
+         "answer": 3,
+         "why": "依据：request the address first and display only dates that apply to that street。先用地址筛选日期，居民只能在适用的日期中选择。",
+         "point": "match"
+        },
+        {
+         "stem": "Identify the information problem in the current process.",
+         "lead": "The booking process",
+         "chunks": [
+          "separates the choice",
+          "of an appointment date",
+          "from the restriction",
+          "that applies to"
+         ],
+         "tail": "the resident's street, allowing an apparently available appointment to be selected for the wrong area.",
+         "extra": [
+          "applying to"
+         ],
+         "why": "separates ... from ... 说明日期和街道限制被分开呈现。that applies to 修饰 restriction，后面接 the resident's street。",
+         "point": "cause"
+        },
+        {
+         "stem": "Express the proposed selection sequence.",
+         "lead": "The service should",
+         "chunks": [
+          "request an address",
+          "before displaying",
+          "the collection dates",
+          "available for that street"
+         ],
+         "tail": "so that residents choose among appointments that match their eligibility rather than all dates in the town.",
+         "extra": [
+          "displayed"
+         ],
+         "why": "before displaying 表示先要地址、再显示日期。available for that street 修饰 dates，只显示这条街可用的日期。",
+         "point": "match"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

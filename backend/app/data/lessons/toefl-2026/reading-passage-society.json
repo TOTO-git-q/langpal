@@ -1,0 +1,587 @@
+{
+ "id": "reading-passage-society",
+ "title": "常考学科：历史、社会、心理",
+ "goal": "认识本学科的常用词；读懂本学科的短文并答题。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "vocab",
+   "label": "认识本学科的常用词"
+  },
+  {
+   "id": "read",
+   "label": "读懂本学科的短文并答题"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、计分、自适应"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明和官方样题（挖空规则是对照样题和答案看出来的）"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Reading Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-reading.pdf",
+   "used": "第 1 课：三类题的说明和需要的三项基本功"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "历史与社会类短文常见的话题有考古与古代文明、贸易与经济、城市、心理学实验和艺术史。阅读时分清三组概念：证据与解释，交换方式与商品，实验条件与观察结果。"
+    },
+    {
+     "box": "An artifact’s location provides context for interpretation. In an experiment, a change in instructions is a variable, while the observed performance is a result."
+    },
+    {
+     "p": "物件的位置有助于解释它的用途，但单凭位置证明不了使用者的意图。实验中改变的条件是变量，观察到的表现是结果，两者要分开。三张词汇表分别对应物质证据、社会活动和心理研究。"
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "type": "table",
+   "title": "词汇表：考古与艺术史",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "archaeology",
+     "n.",
+     "考古学",
+     "Archaeology studies the material evidence of past societies."
+    ],
+    [
+     "artifact",
+     "n.",
+     "人工制品；文物",
+     "The artifact was made and used by people."
+    ],
+    [
+     "excavation",
+     "n.",
+     "发掘",
+     "The excavation exposed part of a buried wall."
+    ],
+    [
+     "settlement",
+     "n.",
+     "聚落",
+     "The settlement contained homes and work areas."
+    ],
+    [
+     "civilization",
+     "n.",
+     "文明",
+     "The objects provide evidence of an ancient civilization."
+    ],
+    [
+     "evidence",
+     "n.",
+     "证据",
+     "The location of the tool provides evidence of its use."
+    ],
+    [
+     "context",
+     "n.",
+     "背景；环境关系",
+     "An object’s context includes the materials found around it."
+    ],
+    [
+     "chronology",
+     "n.",
+     "年代顺序",
+     "The chronology places the events in order."
+    ],
+    [
+     "inscription",
+     "n.",
+     "铭文；刻写文字",
+     "The inscription names the person who commissioned the monument."
+    ],
+    [
+     "pottery",
+     "n.",
+     "陶器",
+     "Pieces of pottery remained near the hearth."
+    ],
+    [
+     "monument",
+     "n.",
+     "纪念性建筑；遗迹",
+     "The monument occupied a prominent public space."
+    ],
+    [
+     "pigment",
+     "n.",
+     "颜料",
+     "The artist mixed pigment with a binding material."
+    ],
+    [
+     "portrait",
+     "n.",
+     "肖像",
+     "The portrait represents an individual person."
+    ],
+    [
+     "perspective",
+     "n.",
+     "透视法；视角",
+     "Perspective can create an impression of depth on a flat surface."
+    ]
+   ]
+  },
+  {
+   "id": "society",
+   "type": "table",
+   "title": "词汇表：贸易与城市",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "trade",
+     "n.",
+     "贸易",
+     "Trade links producers with distant buyers."
+    ],
+    [
+     "exchange",
+     "n.",
+     "交换",
+     "The exchange involved goods rather than money."
+    ],
+    [
+     "merchant",
+     "n.",
+     "商人",
+     "A merchant purchased goods for resale."
+    ],
+    [
+     "currency",
+     "n.",
+     "货币",
+     "A shared currency can simplify payments."
+    ],
+    [
+     "commodity",
+     "n.",
+     "商品",
+     "Wool was a commodity traded between regions."
+    ],
+    [
+     "economy",
+     "n.",
+     "经济",
+     "Transport is one part of the local economy."
+    ],
+    [
+     "urban",
+     "adj.",
+     "城市的",
+     "Urban services connect many households."
+    ],
+    [
+     "infrastructure",
+     "n.",
+     "基础设施",
+     "Roads and water pipes form part of a city’s infrastructure."
+    ],
+    [
+     "district",
+     "n.",
+     "地区；城区",
+     "The district contains homes and workshops."
+    ],
+    [
+     "migration",
+     "n.",
+     "迁移；移民活动",
+     "Migration can change the population of a town."
+    ],
+    [
+     "labor",
+     "n.",
+     "劳动；劳动力",
+     "The project required skilled labor."
+    ],
+    [
+     "production",
+     "n.",
+     "生产",
+     "Production took place in small workshops."
+    ],
+    [
+     "consumption",
+     "n.",
+     "消费",
+     "Consumption describes the use of goods and services."
+    ],
+    [
+     "network",
+     "n.",
+     "网络",
+     "The road network connects several districts."
+    ]
+   ]
+  },
+  {
+   "id": "psychology",
+   "type": "table",
+   "title": "词汇表：心理学实验",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "experiment",
+     "n.",
+     "实验",
+     "The experiment compared performance under two conditions."
+    ],
+    [
+     "participant",
+     "n.",
+     "参与者",
+     "Each participant completed the same task."
+    ],
+    [
+     "variable",
+     "n.",
+     "变量",
+     "The length of the cue was the variable being changed."
+    ],
+    [
+     "control",
+     "n.",
+     "对照；控制",
+     "The control condition used a neutral message."
+    ],
+    [
+     "random",
+     "adj.",
+     "随机的",
+     "Random assignment used a chance procedure."
+    ],
+    [
+     "stimulus",
+     "n.",
+     "刺激；刺激材料",
+     "A visual stimulus appeared on the screen."
+    ],
+    [
+     "response",
+     "n.",
+     "反应",
+     "The response was recorded after the signal."
+    ],
+    [
+     "attention",
+     "n.",
+     "注意",
+     "The task directed attention toward one part of the image."
+    ],
+    [
+     "perception",
+     "n.",
+     "知觉",
+     "Perception involves interpreting sensory information."
+    ],
+    [
+     "memory",
+     "n.",
+     "记忆",
+     "The task measured memory for a short list."
+    ],
+    [
+     "bias",
+     "n.",
+     "偏差；偏见",
+     "A biased sample can distort an interpretation."
+    ],
+    [
+     "hypothesis",
+     "n.",
+     "假设",
+     "The hypothesis predicted a difference between the groups."
+    ],
+    [
+     "interpretation",
+     "n.",
+     "解释",
+     "The interpretation must remain consistent with the evidence."
+    ],
+    [
+     "comparison",
+     "n.",
+     "比较",
+     "The comparison used tasks of equal length."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Depth in a Flat Image\n\nA painting has a flat surface, but its arrangement of shapes can suggest depth. One method is to show distant objects as smaller than similar nearby objects. Overlap provides another cue: an object that partly hides another is generally perceived as being in front of it.\n\nThese effects concern representation rather than the physical thickness of the painted surface. A portrait can therefore suggest a person standing in a room even though the pigment occupies a thin layer. Studying such choices helps explain how an artist guides perception. It does not establish that every viewer notices the same details or interprets the image in exactly the same way."
+    },
+    {
+     "p": "第一段先总述 arrangement of shapes can suggest depth，再分出大小和遮挡两种线索。两种线索讲的是平面怎样显出深度，画面本身并没有变厚。"
+    },
+    {
+     "p": "第二段用 portrait 把方法落到具体作品上。最后一句用 does not establish 说明，研究构图推不出每个观看者的反应。"
+    },
+    {
+     "box": "Which statement is supported by the passage?\n1. All viewers interpret every painting identically.\n2. Paintings create depth only by using thick pigment.\n3. Overlap prevents observers from perceiving distance.\n4. The arrangement of forms can suggest depth on a flat surface."
+    },
+    {
+     "p": "第四项是 its arrangement of shapes can suggest depth 的改写。第一项与最后一句矛盾。"
+    }
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "vocab",
+    "read"
+   ],
+   "groups": [
+    {
+     "label": "Fill in the missing letters.",
+     "fill": "Coins are one form of currency used in exchange. The merc{hant} exchanges go{ods} for curr{ency} and la{ter} uses t{he} money t{o} purchase prod{ucts} from ano{ther} seller, wh{ich} supports tr{ade} between distant communities. Without money, both sides of a direct exchange must agree on the goods each will receive. A commonly accepted means of payment separates selling one product from obtaining another. It does not guarantee that every product will be available or that every buyer will accept the same price.",
+     "tags": [
+      "vocab",
+      "read",
+      "vocab",
+      "read",
+      "read",
+      "read",
+      "read",
+      "read",
+      "read",
+      "vocab"
+     ],
+     "notes": [
+      "merchant：买卖商品的人是商人，词汇表里有这个词。",
+      "goods：exchanges 后接可交换的商品，后文 product 复现。",
+      "currency：首句 Coins are one form of currency 已出现这个词。",
+      "later：表示收到货币后再购买，后接 uses。",
+      "the：the money 指前面交换商品得到的钱。",
+      "to：use the money to purchase 表示用钱购买。",
+      "products：purchase 后接购买对象，与后文 product 对应。",
+      "another：后接单数 seller，表示另一位卖方。",
+      "which：逗号后的从句评论前述交易，后接谓语 supports。",
+      "trade：买卖把相隔很远的社区联系起来，supports trade 即促进贸易。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "vocab",
+    "read"
+   ],
+   "groups": [
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "Objects and Their Locations\n\nAn excavation records where objects are found as well as what they look like. A grinding stone near a hearth may suggest food preparation in that area. The same kind of stone placed within a wall may instead have been reused as building material. The object’s shape alone does not distinguish those situations.\n\nLocation is therefore part of an artifact’s context. Archaeologists also examine nearby materials, the surrounding deposits, and signs that the object was moved after its original use. These observations help them compare possible interpretations.\n\nA careful record preserves information that may be lost when an object is lifted out of the ground. A photograph and a measured plan can show its position relative to other finds. They do not automatically prove one interpretation, but they allow later researchers to examine the evidence behind it.",
+     "items": [
+      {
+       "stem": "The word “context” refers here to an object’s",
+       "options": [
+        "shape and outward appearance",
+        "original use before it was moved",
+        "location and surrounding materials",
+        "condition after it is lifted from the ground"
+       ],
+       "answer": 2,
+       "why": "原文说 Location is therefore part of an artifact’s context，后面又列出 nearby materials 和 the surrounding deposits。context 指物件所处的位置和周围环境，即第三项。",
+       "point": "vocab"
+      },
+      {
+       "stem": "Why might similar grinding stones have different interpretations?",
+       "options": [
+        "Their shapes show which use each one had.",
+        "Where they lie can suggest different uses.",
+        "Stones near a hearth were reused in walls.",
+        "Only stones in walls were used for food."
+       ],
+       "answer": 1,
+       "why": "near a hearth 说明可能用于加工食物，within a wall 说明可能被当作建筑材料。位置不同，解释也不同，即第二项。",
+       "point": "read"
+      },
+      {
+       "stem": "What does “artifact” mean in this passage?",
+       "options": [
+        "An object that people made or used",
+        "A layer of soil surrounding a find",
+        "A record made during an excavation",
+        "A natural stone found near a hearth"
+       ],
+       "answer": 0,
+       "why": "文中 artifact 指 grinding stone 这类人加工或使用过的物件，即第一项。",
+       "point": "vocab"
+      },
+      {
+       "stem": "What can a photograph and measured plan preserve?",
+       "options": [
+        "Proof that one interpretation is correct",
+        "The use each object had before it was moved",
+        "The intentions of every ancient worker",
+        "The position of a find among other finds"
+       ],
+       "answer": 3,
+       "why": "原文说 A photograph and a measured plan can show its position relative to other finds，即第四项。",
+       "point": "read"
+      },
+      {
+       "stem": "What limitation applies to the record?",
+       "options": [
+        "It makes later study of the evidence impossible.",
+        "It aids later study but does not prove an interpretation.",
+        "It establishes that every object remained in its original place.",
+        "It replaces the need for evidence about nearby materials."
+       ],
+       "answer": 1,
+       "why": "原文说 They do not automatically prove one interpretation, but they allow later researchers to examine the evidence，即第二项。",
+       "point": "read"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 8,
+   "pass": 0.75,
+   "points": [
+    "vocab",
+    "read"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Fill in the missing letters.",
+       "fill": "Urban infrastructure provides shared services within a city. A net{work} of ro{ads} links dist{ricts} and all{ows} workers t{o} transport go{ods}, while sepa{rate} systems ca{rry} water t{o} homes a{nd} workplaces. These water systems supply households with water for daily use. Roads and pipes perform different functions, but both connect locations that depend on shared services. Maintaining the connections requires labor and planning. The existence of a network does not mean that every district receives an identical level of service.",
+       "tags": [
+        "vocab",
+        "read",
+        "vocab",
+        "read",
+        "read",
+        "read",
+        "read",
+        "read",
+        "read",
+        "read"
+       ]
+      },
+      {
+       "label": "Read the passage.",
+       "look": "passage",
+       "text": "Testing a Visual Cue\n\nConsider an experiment designed to examine whether a visual cue affects attention during a search task. Participants look at a screen containing several shapes and try to locate a particular triangle. The displayed pattern is the stimulus, and the time taken to identify the target is the measured response. Every participant sees patterns of the same general difficulty.\n\nParticipants receive a random assignment to one of two groups, meaning that a chance procedure determines the group rather than their previous performance. Before each display, one group sees a cue indicating the region where the triangle will appear. The control group sees a neutral message that gives no location information. The groups otherwise follow the same procedure.\n\nSuppose the group receiving the location cue identifies the target more quickly. That result would support the hypothesis that the cue can help direct attention in this task. It would not demonstrate that the participants have better memory in general or that every kind of cue improves performance. Those broader interpretations require different evidence. The experiment concerns a particular manipulation, a particular response, and the conditions under which they are compared.",
+       "items": [
+        {
+         "stem": "What is the “stimulus” in this experiment?",
+         "options": [
+          "The displayed arrangement of shapes",
+          "The time recorded after the search",
+          "The explanation given after the experiment",
+          "The participant’s previous performance"
+         ],
+         "answer": 0,
+         "why": "The displayed pattern is the stimulus 直接说明了本实验的刺激是什么，即第一项。",
+         "point": "vocab"
+        },
+        {
+         "stem": "The word “random” describes assignment based on",
+         "options": [
+          "earlier success in the search task",
+          "the difficulty of each displayed pattern",
+          "the participants’ own choice of group",
+          "a procedure that depends on chance"
+         ],
+         "answer": 3,
+         "why": "a chance procedure determines the group rather than their previous performance 解释了 random，即第四项。",
+         "point": "vocab"
+        },
+        {
+         "stem": "How does the control group differ from the other group?",
+         "options": [
+          "It searches for a target of a different shape.",
+          "It gets no hint about where the target will be.",
+          "It views patterns designed to be much more difficult.",
+          "It chooses its own assignment before the task."
+         ],
+         "answer": 1,
+         "why": "The control group sees a neutral message that gives no location information，即第二项。",
+         "point": "read"
+        },
+        {
+         "stem": "What would the hypothetical faster performance support?",
+         "options": [
+          "The cue gives participants better memory in general.",
+          "The neutral message causes the control group to search slowly.",
+          "The location cue may help attention in this search task.",
+          "Every visual message makes all participants faster."
+         ],
+         "answer": 2,
+         "why": "原文说 That result would support the hypothesis that the cue can help direct attention in this task，即第三项。第一项推到了记忆，原文说这需要别的证据。",
+         "point": "read"
+        },
+        {
+         "stem": "Why are the remaining procedures kept the same?",
+         "options": [
+          "To make the cue difference the focus of the comparison",
+          "To ensure that every participant has identical abilities",
+          "To give the control group location information",
+          "To show that memory differs between the groups"
+         ],
+         "answer": 0,
+         "why": "The groups otherwise follow the same procedure 说明两组只差在有没有位置提示，比较就集中在提示上，即第一项。",
+         "point": "read"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

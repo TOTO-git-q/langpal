@@ -1,0 +1,461 @@
+{
+ "id": "listening-p2-map",
+ "title": "地图与平面图标注",
+ "goal": "依据入口和地标确定起点；沿路线定位待标地点。",
+ "skill": "听力",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "anchor",
+   "label": "依据入口和地标确定起点"
+  },
+  {
+   "id": "route",
+   "label": "沿路线定位待标地点"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "雅思 IELTS Academic：课表",
+   "url": "docs/syllabi/ielts.md",
+   "used": "听力：日常独白 Part 2；本课内容、知识点及教学尺寸"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "地图标注题要求把听到的名称对应到图上编号的位置。入口是起点，方向标记说明图上的东南西北。图上已标出的地名用来定位，编号的位置要靠路线确认。"
+    },
+    {
+     "box": "Start at the south entrance, facing north. Pass the fountain, then turn right at the next junction."
+    },
+    {
+     "p": "面朝北时右转是向东。pass the fountain 只是经过喷泉。答案所在的位置要同时符合转弯后的路线和终点。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定入口和朝向",
+     "d": "先找到入口和图上已标出的地标。Start at the south entrance, facing north 同时给出了起点和朝向，两样都要记下。"
+    },
+    {
+     "t": "2　按段更新位置",
+     "d": "经过和转弯分开处理，每次转弯后重新确定朝向。Pass the café and take the next left 是先走过咖啡馆，再进入下一条左边的路。"
+    },
+    {
+     "t": "3　核对终点关系",
+     "d": "用固定地标核对路线的终点。Opposite the stairs 是隔着通道与楼梯相对，不是紧挨着楼梯。"
+    },
+    {
+     "t": "4　提取标签",
+     "d": "用名称表作答时，选出这个位置的名称。原词题照录音写名称；题面要求 ONE WORD 时，the kiosk 写 kiosk，不加冠词。"
+    }
+   ]
+  },
+  {
+   "id": "anchors",
+   "type": "table",
+   "title": "入口与固定地标",
+   "cols": [
+    "依据",
+    "规则",
+    "例句"
+   ],
+   "rows": [
+    [
+     "入口",
+     "起点以录音所说的入口为准，不一定在图的下方。",
+     "Begin at the east gate, facing west."
+    ],
+    [
+     "方向",
+     "north 在图上固定，left 随行进方向改变。",
+     "Facing south, turn left towards the east."
+    ],
+    [
+     "固定地标",
+     "图上已标的名称用来核对位置。",
+     "Stop beside the fountain before taking the path."
+    ],
+    [
+     "相对位置",
+     "opposite 是隔着通道相对，不是紧挨着。",
+     "The desk is opposite the stairs."
+    ],
+    [
+     "空位编号",
+     "编号只标位置，录音不一定按编号的顺序介绍。",
+     "The first stop is the building beside the north gate."
+    ]
+   ]
+  },
+  {
+   "id": "routes",
+   "type": "table",
+   "title": "路线与标签",
+   "cols": [
+    "表达",
+    "含义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "go past",
+     "走过地标，继续向前。",
+     "Go past the café to the next junction."
+    ],
+    [
+     "turn at",
+     "到所说的路口才转弯。",
+     "Turn right at the second junction."
+    ],
+    [
+     "at the end",
+     "沿当前的路走到尽头。",
+     "The shelter is at the end of this path."
+    ],
+    [
+     "on the left",
+     "左右以当前的朝向为准。",
+     "Walking north, the orchard is on the left."
+    ],
+    [
+     "名称表",
+     "先确定位置，再从名称表中选出对应的名称。",
+     "Site 2: orchard / shelter / café → orchard"
+    ],
+    [
+     "原词名称",
+     "按词数限制写录音里的名称，不换成近义词。",
+     "It is called the rose garden. → rose garden"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Garden Courtyard\nN ↑   W ← + → E   S ↓\nJ2 ↑ [Wall]\n[Herb bed] ← J2 → [1 ___]\nJ1 ↑ J2\n[Sundial] ← J1 → [Bench]\n[Entrance arch] ↑ J1\nSOUTH ENTRANCE ↑ [Entrance arch]\nKey: arrows = path links in the compass direction shown; J1 / J2 = junctions; [ ] = sites.\nSchematic; not to scale."
+    },
+    {
+     "box": "From the entrance arch, walk north past the sundial. At the second junction turn east. The building at the end of that path is the potting shed. The herb bed is on the opposite branch."
+    },
+    {
+     "box": "Write NO MORE THAN TWO WORDS from the recording.\nSite 1: ___"
+    },
+    {
+     "p": "起点是南面的 Entrance arch。经过 Sundial，到第二个路口向东，就是空位 1。西边的 Herb bed 用来对照。答案是 potting shed；sundial 只是经过的地点。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除依据"
+   ],
+   "rows": [
+    [
+     "地标当终点",
+     "Pass the kiosk to reach the shelter. → kiosk",
+     "pass 后面是经过的地点，reach 后面才是终点。"
+    ],
+    [
+     "朝向未更新",
+     "Facing west, turn left. → north",
+     "面朝西时左转是向南。"
+    ],
+    [
+     "路口与建筑混同",
+     "Turn at the second junction. → second building",
+     "junction 数的是路口，building 数的是建筑。"
+    ],
+    [
+     "超出词数",
+     "Write ONE WORD. → the kiosk",
+     "ONE WORD 只写 kiosk，冠词不算在答案里。"
+    ]
+   ]
+  },
+  {
+   "id": "check-short",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "anchor",
+    "route"
+   ],
+   "groups": [
+    {
+     "text": "Lodge grounds\nN ↑\nWEST GATE → [1 ___] ── [Café] ── EAST GATE\nKey: ── = path; → = entry direction. Not to scale.",
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Begin at the west gate, facing east. The building immediately inside that gate is the lodge. Don't start at the east gate beside the café."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Name site 1. Write ONE WORD from the recording.",
+       "accept": [
+        "lodge"
+       ],
+       "why": "依据是 The building immediately inside that gate is the lodge。西门内的空位 1 是 lodge。",
+       "point": "anchor"
+      }
+     ]
+    },
+    {
+     "text": "Visitor yard\nN ↑\n[Shop]\n│\n[1 ___]\n↑\nSOUTH ENTRANCE\nKey: │ = path; ↑ = entry direction. Not to scale.",
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "At the south entrance, the first building is the ticket office. The shop stands beyond it to the north."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Label site 1.",
+       "options": [
+        "Shop",
+        "Ticket office",
+        "Entrance",
+        "Café"
+       ],
+       "answer": 1,
+       "why": "依据是 At the south entrance, the first building is the ticket office。入口进来的第一栋是空位 1，即第二项；Shop 在它的北边。",
+       "point": "anchor"
+      }
+     ]
+    },
+    {
+     "text": "Bird garden\nN ↑   W ← + → E\n[1 ___] ← Junction → [Bench]\n[Pool] ↑ Junction\nLOWER GATE ↑ [Pool]\nKey: arrows = path links in the direction shown. Not to scale.",
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Walk north from the lower gate, passing the pool. At the junction turn west. The aviary is at the end of that branch."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Name site 1. Write ONE WORD from the recording.",
+       "accept": [
+        "aviary"
+       ],
+       "why": "依据是 At the junction turn west. The aviary is at the end of that branch。经过水池，到路口向西，尽头是 aviary。",
+       "point": "route"
+      }
+     ]
+    },
+    {
+     "text": "Learning wing\nN ↑\n[1 ___] ── [Lift] ── [Store] ← EAST ENTRANCE\nKey: ── = corridor; ← = entry direction. Not to scale.",
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "From the east entrance, walk west past the lift. Continue to the end of the corridor. That's the seminar room, not the room beside the entrance."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Name site 1. Write NO MORE THAN TWO WORDS from the recording.",
+       "accept": [
+        "seminar room"
+       ],
+       "why": "依据是 Continue to the end of the corridor. That's the seminar room。lift 只是经过的地点。",
+       "point": "route"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-talk",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "anchor",
+    "route"
+   ],
+   "groups": [
+    {
+     "text": "Makers' Fair\nN ↑   W ← + → E   S ↓\nJ2 ↑ [North fence]\n[2 ___] ← J2 → [3 ___]\nJ1 ↑ J2\n[Food tent] ← J1 → [Washroom]\n[1 ___] ↑ J1\nSOUTH ENTRANCE ↑ [1 ___]\nKey: arrows = path links in the compass direction shown; J1 / J2 = junctions; [ ] = sites.\nSchematic; not to scale.",
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "This plan shows the fair's demonstration area. Start at the southern entrance and face the north fence. The desk just inside the entrance is registration, where exhibitors collect their badges. Walk north from that desk to the first junction. The food tent is on the western branch, and the washroom is on the eastern branch. Neither is the demonstration tent. Continue north to the second junction and turn west. The tent at the end is the demonstration tent. Across the main path from it, on the eastern branch, is the information tent. That tent deals with enquiries; registration remains by the southern entrance."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Name site 1. Write ONE WORD from the recording.",
+       "accept": [
+        "registration"
+       ],
+       "why": "依据是 The desk just inside the entrance is registration。南入口内的空位 1 是 registration。",
+       "point": "anchor"
+      },
+      {
+       "stem": "Name site 2. Write NO MORE THAN TWO WORDS from the recording.",
+       "accept": [
+        "demonstration tent"
+       ],
+       "why": "依据是 Continue north to the second junction and turn west. The tent at the end is the demonstration tent。",
+       "point": "route"
+      },
+      {
+       "stem": "Name site 3. Write NO MORE THAN TWO WORDS from the recording.",
+       "accept": [
+        "information tent"
+       ],
+       "why": "依据是 Across the main path from it, on the eastern branch, is the information tent。空位 3 在第二个路口的东边。",
+       "point": "route"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "anchor",
+    "route"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "Willow Park\nN ↑   W ← + → E   S ↓\nJ2 ↑ [North lawn]\n[2 ___] ← J2 → [3 ___]\nJ1 ↑ J2\n[Fountain] ← J1 → [Café]\n[1 ___] ↑ J1\nSOUTH ENTRANCE ↑ [1 ___]\nKey: arrows = path links in the compass direction shown; J1 / J2 = junctions; [ ] = sites.\nSchematic; not to scale.",
+       "audio": {
+        "intro": "Listen to the introduction.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Welcome to Willow Park. This map shows the walking paths, with north at the top. We're starting at the south entrance, facing into the park. The small building immediately inside this entrance is the information booth. That's our starting point, rather than the café further along the main path. Staff in the booth can answer questions about the paths shown here. Walk north from the booth until the first junction. The fountain stands at the end of the branch to the west, while the café is at the end of the branch to the east. Keep going straight ahead; neither branch leads to our next stop. At the second junction, turn left, which is west as we're still facing north. The area at the end of this branch is the orchard. Return to the second junction and continue along the branch on the opposite side of the main path. At its eastern end stands the shelter. It's opposite the orchard, not opposite the fountain. The north lawn lies straight ahead beyond the second junction. It isn't necessary to cross that lawn to reach the shelter, because the eastern branch provides the direct route."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Label site 1.",
+         "options": [
+          "Orchard",
+          "Café",
+          "Information booth",
+          "Fountain",
+          "North lawn",
+          "Shelter"
+         ],
+         "answer": 2,
+         "why": "依据是 The small building immediately inside this entrance is the information booth。南入口内的空位 1 是 Information booth。",
+         "point": "anchor"
+        },
+        {
+         "stem": "Label site 2.",
+         "options": [
+          "Orchard",
+          "Café",
+          "Information booth",
+          "Fountain",
+          "North lawn",
+          "Shelter"
+         ],
+         "answer": 0,
+         "why": "依据是 At the second junction, turn left, which is west … The area at the end of this branch is the orchard。空位 2 是 Orchard；Fountain 在第一个路口的西边。",
+         "point": "route"
+        },
+        {
+         "stem": "Label site 3.",
+         "options": [
+          "Orchard",
+          "Café",
+          "Information booth",
+          "Fountain",
+          "North lawn",
+          "Shelter"
+         ],
+         "answer": 5,
+         "why": "依据是 At its eastern end stands the shelter。空位 3 在第二个路口的东边，是 Shelter；Café 在第一个路口的东边。",
+         "point": "route"
+        }
+       ]
+      },
+      {
+       "text": "Making Things Exhibition\nN ↑   W ← + → E   S ↓\nJ2 ↑ [Glass case]\n[2 ___] ← J2 → [3 ___]\nJ1 ↑ J2\n[Ticket desk] ← J1 → [Stairs]\n[1 ___] ↑ J1\nSOUTH ENTRANCE ↑ [1 ___]\nKey: arrows = path links in the compass direction shown; J1 / J2 = junctions; [ ] = sites.\nSchematic; not to scale.",
+       "audio": {
+        "intro": "Listen to the introduction.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "This is the plan of our Making Things Exhibition. North is at the top, and the public entrance is on the south side. Start there and face north along the central corridor. The room immediately inside the entrance is the cloakroom. Coats can be left there before the visit begins. The ticket desk is further north, at the end of the western branch off the first junction. Directly opposite that desk, on the eastern branch, are the stairs. Those are useful landmarks, but neither is our next destination. Continue north along the central corridor, past the first junction, until the second junction. Take the branch on the left and follow it to the room at the western end. That's the model gallery, where the display continues. After visiting it, return to the second junction. The room at the end of the eastern branch is the reading room. It's directly opposite the model gallery across the corridor, rather than beside the stairs. Straight ahead, beyond this second junction, is the glass case marked on the plan. The case is a landmark at the northern end; it isn't the reading room. All the rooms I've mentioned connect to the paths shown on this plan."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Name site 1. Write ONE WORD from the recording.",
+         "accept": [
+          "cloakroom"
+         ],
+         "why": "依据是 The room immediately inside the entrance is the cloakroom。南入口内的空位 1 是 cloakroom。",
+         "point": "anchor"
+        },
+        {
+         "stem": "Name site 2. Write NO MORE THAN TWO WORDS from the recording.",
+         "accept": [
+          "model gallery"
+         ],
+         "why": "依据是 until the second junction. Take the branch on the left … That's the model gallery。第一个路口西边的是 ticket desk，不是答案。",
+         "point": "route"
+        },
+        {
+         "stem": "Name site 3. Write NO MORE THAN TWO WORDS from the recording.",
+         "accept": [
+          "reading room"
+         ],
+         "why": "依据是 The room at the end of the eastern branch is the reading room。它在第二个路口的东边，与 model gallery 相对。",
+         "point": "route"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

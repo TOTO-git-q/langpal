@@ -1,0 +1,133 @@
+{
+ "id": "listening-conversation-method",
+ "title": "长对话的信息对应",
+ "goal": "辨认对话的问题与方案，并将意见和决定对应到说话人。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "structure", "label": "识别对话中问题与方案的位置"},
+  {"id": "speaker", "label": "将信息对应到正确的说话人"}
+ ],
+ "sources": [
+  {"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "长对话教学依据"}
+ ],
+ "cards": [
+  {
+   "id": "what", "type": "text", "title": "题型",
+   "body": [
+    {"p": "对话的信息一般分为话题、问题、方案和决定。顺序不一定固定，方案也可能不止一个。"},
+    {"p": "听的时候，把每个人的经历、意见和决定分开记。提议是否被采用，要听对方怎么回应。"},
+    {"box": "Lena: The display is too large for the hall.\nOmar: Could we move it to the studio?\nLena: Yes, I'll reserve the studio."},
+    {"p": "场地太小是 Lena 提出的问题。换到工作室是 Omar 的提议。Lena 接受了，并决定去预约。"}
+   ]
+  },
+  {
+   "id": "steps", "type": "steps", "title": "解题步骤",
+   "steps": [
+    {"t": "1　确定话题", "d": "开头常引入双方讨论的事项。We need a room for the display 表明话题是展览场地。"},
+    {"t": "2　区分问题与方案", "d": "问题是眼下的困难，方案是可能的办法。The hall is too small 是问题，try the studio 是方案。"},
+    {"t": "3　对应说话人", "d": "每个行动和意见都对应到说出它的人。Omar 建议使用工作室，Lena 决定预约。"},
+    {"t": "4　确认最终决定", "d": "听对方的回应，看方案是否被接受。Lena 说 I'll reserve the studio，说明工作室方案已被采用。"}
+   ]
+  },
+  {
+   "id": "structure", "type": "table", "title": "对话结构",
+   "cols": ["信息", "作用", "例句"],
+   "rows": [
+    ["话题", "引入讨论事项", "We need a room for the display."],
+    ["问题", "说明当前困难", "The hall is too small."],
+    ["方案", "提出可考虑的办法", "Could we use the studio?"],
+    ["回应", "说明对方案的意见", "That space would work."],
+    ["决定", "确定采用的行动", "I'll reserve the studio."]
+   ],
+   "note": "回应和决定可能在同一轮里。方案提出后，要听完回应才能确定安排。"
+  },
+  {
+   "id": "speaker", "type": "table", "title": "信息归属",
+   "cols": ["信息", "辨认方法", "例句"],
+   "rows": [
+    ["经历", "对应经历的叙述者", "I borrowed the panels last year."],
+    ["意见", "对应作出评价的人", "I think the panels are too heavy."],
+    ["提议", "对应提出办法的人", "We could use lighter boards."],
+    ["决定", "对应承诺行动的人", "I'll collect the boards tomorrow."]
+   ],
+   "note": "人称随说话人改变。I 指当前发言者，you 指当前发言的对象。"
+  },
+  {
+   "id": "worked", "type": "text", "title": "例题",
+   "body": [
+    {"box": "Maya: We need a place to store the costumes until Friday. The office is full of boxes, and the hall will be painted tomorrow.\nChen: The art room has an empty cupboard. We could ask to use it.\nMaya: That sounds suitable. I'll speak to the art teacher this afternoon.\nChen: I'll bring the costumes once the cupboard is ready."},
+    {"box": "What does Maya agree to do?\n1. Move the office boxes to the hall\n2. Ask the art teacher about storage\n3. Bring the costumes to the art room\n4. Paint the hall before Friday"},
+    {"p": "依据是 I'll speak to the art teacher，Maya 要去找美术老师，第二项把 speak to 改写为 ask。第三项搬服装的是 Chen。"}
+   ]
+  },
+  {
+   "id": "traps", "type": "table", "title": "干扰项",
+   "cols": ["类型", "核对方法", "例"],
+   "rows": [
+    ["提议误作决定", "听方案后的回应", "We could use the hall. / It's being painted."],
+    ["说话人错置", "核对行动的承诺者", "Chen: I'll bring the costumes."],
+    ["问题误作方案", "区分困难和处理办法", "The office is full. / Use the cupboard."],
+    ["时间错置", "将时间对应到事件", "The hall will be painted tomorrow."]
+   ]
+  },
+  {
+   "id": "practice-one", "type": "check", "title": "练习一", "points": ["structure", "speaker"],
+   "groups": [
+    {"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "The posters won't fit on the narrow board."}, {"who": "B", "text": "We could put them on the wall, but first we need permission."}]}, "items": [{"stem": "What is the stated problem?", "options": ["The posters are too wide for the board.", "The wall has no space for the posters.", "The board needs permission for its use.", "The posters are already on the wall."], "answer": 0, "why": "won't fit on the narrow board 说明海报放不进窄展板，第一项对应这一问题。", "point": "structure"}]},
+    {"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "I checked the delivery list this morning, Nina."}, {"who": "B", "text": "Thanks, Sam. I'll contact the driver this afternoon."}]}, "items": [{"stem": "What will Nina do?", "options": ["Check the delivery list this afternoon.", "Speak to the driver later today.", "Ask Sam to contact the driver.", "Complete the list with the driver."], "answer": 1, "why": "Nina 说 I'll contact the driver this afternoon，第二项对应她的行动。", "point": "speaker"}]},
+    {"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "Could we meet in the cafe?"}, {"who": "B", "text": "It's closed on Mondays. The garden is open, though."}, {"who": "A", "text": "All right, let's use the garden."}]}, "items": [{"stem": "Which place do the speakers finally choose?", "options": ["The cafe before it closes", "The cafe on another Monday", "The garden instead of the cafe", "The garden after the cafe opens"], "answer": 2, "why": "let's use the garden 是最终决定，第三项对应花园。咖啡馆周一关闭。", "point": "structure"}]},
+    {"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "Ravi, I tried the earlier train yesterday. It was crowded."}, {"who": "B", "text": "Then I'll try the later one today, Mei."}]}, "items": [{"stem": "Who traveled on the earlier train?", "options": ["Ravi, on a trip today", "Ravi, on a trip yesterday", "Mei, on a trip today", "Mei, on a trip yesterday"], "answer": 3, "why": "Mei 对 Ravi 说 I tried the earlier train yesterday，第四项对应说话人和时间。", "point": "speaker"}]}
+   ]
+  },
+  {
+   "id": "practice-two", "type": "check", "title": "练习二", "points": ["structure", "speaker"],
+   "groups": [
+    {"audio": {"intro": "Listen to a conversation.", "lines": [
+     {"who": "A", "text": "The workshop needs a larger table for the clay, but the folding table is in use."},
+     {"who": "B", "text": "We could borrow the table from the music room. I used it for a meeting last month."},
+     {"who": "A", "text": "The music class needs it tomorrow. Could we join two small tables instead?"},
+     {"who": "B", "text": "Yes. I'll bring the small tables over this evening."},
+     {"who": "A", "text": "Thanks. I'll cover them before the workshop begins."}
+    ]}, "items": [
+     {"stem": "What solution do the speakers accept?", "options": ["Borrow the folding table from the workshop.", "Use the music room table for the clay.", "Place two smaller tables together.", "Move the music class to another room."], "answer": 2, "why": "依据是 join two small tables 得到了 Yes 的回应，接受的方案是把两张小桌拼起来，即第三项。", "point": "structure"},
+     {"stem": "What does the first speaker agree to do?", "options": ["Bring the small tables over tonight.", "Put covers on the selected tables.", "Return the music room table tomorrow.", "Use the folding table for a meeting."], "answer": 1, "why": "第一位说话人说 I'll cover them，即给桌子盖上罩布，第二项。第一项搬小桌的是另一位说话人。", "point": "speaker"}
+    ]}
+   ]
+  },
+  {
+   "id": "timed", "type": "quiz", "title": "小测", "minutes": 8, "pass": 0.75, "points": ["structure", "speaker"],
+   "sets": [{"id": "set-a", "groups": [
+    {"audio": {"intro": "Listen to a conversation.", "lines": [
+     {"who": "A", "text": "Hi, Alex. We need to decide where to prepare the community garden's seed packets. The volunteers are coming on Saturday, and I hoped to use the room beside the garden. Have you seen it this week?"},
+     {"who": "B", "text": "I have. The roof is being repaired, so the room is closed until next Tuesday. The tools are still inside, but the packets don't need any of those. Could we work in the school kitchen instead?"},
+     {"who": "A", "text": "The kitchen would be convenient, but it is reserved for a cooking class on Saturday. I asked about it yesterday. The class finishes late, and I don't want volunteers waiting outside."},
+     {"who": "B", "text": "Then the library meeting room might work. It has enough tables, and we can take the seeds there in boxes. I helped with a book sale in that room last month."},
+     {"who": "A", "text": "That's a useful suggestion. I'll call the library today and reserve the meeting room. If we start at ten, we should finish before lunch and return the empty boxes to the garden."},
+     {"who": "B", "text": "Fine. I'll tell the volunteers about the new location after you confirm the booking. They already know the date, so the message only needs the address and starting time."},
+     {"who": "A", "text": "I'll send you the address as soon as the librarian confirms it. Could you also remind everyone to bring a pen for labeling the packets?"},
+     {"who": "B", "text": "Of course. I'll put that in the same message. We can leave the garden tools where they are until the roof work is finished."}
+    ]}, "items": [
+     {"stem": "Why is the room beside the garden unavailable?", "options": ["A cooking class has reserved the room.", "It is closed while its roof is repaired.", "A book sale is being held in it.", "The garden tools take up all its space."], "answer": 1, "why": "依据是 The roof is being repaired, so the room is closed，即第二项。第一项被烹饪课预订的是学校厨房。", "point": "structure"},
+     {"stem": "Which place do the speakers plan to use?", "options": ["The room beside the community garden", "The school kitchen after the class", "The library room used for meetings", "The garden room after the roof repair"], "answer": 2, "why": "第一位说话人说 I'll call the library today and reserve the meeting room，第三项是采用的方案。", "point": "structure"},
+     {"stem": "What does Alex offer to do after the booking is confirmed?", "options": ["Inform the volunteers of the location", "Reserve the library meeting room", "Send the address to the librarian", "Move the tools out of the garden room"], "answer": 0, "why": "Alex 说 I'll tell the volunteers about the new location，即第一项。第二项预订会议室的是另一位说话人。", "point": "speaker"}
+    ]},
+    {"audio": {"intro": "Listen to a conversation.", "lines": [
+     {"who": "A", "text": "Hello, Priya. I'm organizing the neighborhood film evening, and we need a screen. I thought we could borrow the large one from the youth center, but I haven't asked them yet."},
+     {"who": "B", "text": "I spoke to the center yesterday, Leo. Their large screen is being used for a class that evening. They offered a smaller one, and I wrote down its dimensions so we could check them."},
+     {"who": "A", "text": "The smaller screen might be difficult to see from the back of the hall. Last year we moved the chairs closer, but some people then had trouble reaching the doors."},
+     {"who": "B", "text": "We could hold two shorter showings with fewer chairs at each one. The screen would be visible without blocking the doors, although we'd need someone to welcome both groups."},
+     {"who": "A", "text": "That would mean keeping the hall open much later. What about using the plain wall at the front? I tested the projector on it during our meeting, and the picture was clear."},
+     {"who": "B", "text": "Using the wall sounds better. I'll return the dimensions to the center and explain that we won't need their screen. Could you check that the projector is still available?"},
+     {"who": "A", "text": "Yes, I'll confirm the projector booking this afternoon. Then I'll let the neighbors know that the film starts at seven, as we originally planned."},
+     {"who": "B", "text": "Good. I'll arrange the chairs so the doors remain clear. We can set them out together before the neighbors arrive, and the welcoming table can stay near the entrance as it did last year."}
+    ]}, "items": [
+     {"stem": "What does Priya propose before Leo mentions the wall?", "options": ["Borrowing the center's large screen", "Moving the chairs closer to the screen", "Testing the projector at a meeting", "Running two showings with fewer chairs"], "answer": 3, "why": "Priya 说 We could hold two shorter showings with fewer chairs，第四项是她提出的方案。第一项借大屏幕是 Leo 最初的想法。", "point": "speaker"},
+     {"stem": "What will Leo check that afternoon?", "options": ["Whether the hall can stay open later", "Whether the projector is still free", "Whether the center has a smaller screen", "Whether the film can start at seven"], "answer": 1, "why": "Leo 说 I'll confirm the projector booking this afternoon，要核实的是投影仪，即第二项。", "point": "speaker"},
+     {"stem": "What is the final solution for showing the film?", "options": ["Show the film on the front wall.", "Borrow the center's larger screen.", "Move the chairs to the back wall.", "Present the film in two showings."], "answer": 0, "why": "依据是 Priya 的 Using the wall sounds better，之后双方安排投影仪和座位，即第一项。", "point": "structure"}
+    ]}
+   ]}]
+  }
+ ]
+}

@@ -1,0 +1,402 @@
+{
+ "id": "reading-passage-reference",
+ "title": "指代关系题",
+ "goal": "回查指代对象并代入上下文验证。",
+ "skill": "阅读",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "antecedent",
+   "label": "找到代词或指示词指向的信息"
+  },
+  {
+   "id": "verify",
+   "label": "代入指代内容验证句意"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语（新课标卷）：课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "指代关系题的教学内容和知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "指代关系题要求找出代词或指示词所指的人、事物或前述事件。题干通常指定词语及其所在句段。"
+    },
+    {
+     "p": "例如 The lamp was broken. It needed repair 中 it 指 lamp。指代对象需要与上下文的意思相符。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　找到目标词",
+     "d": "读题干指定的词和它所在的句子。例如 It needed repair 中要查的是 it。"
+    },
+    {
+     "t": "2　回查先行信息",
+     "d": "在前句及更早的信息中寻找候选内容。前句的 lamp 是单数事物，可作为候选对象。"
+    },
+    {
+     "t": "3　核对数和语义",
+     "d": "检查单复数和动作是否相符。they 指复数对象。needed repair 要求所指的东西能被修理。"
+    },
+    {
+     "t": "4　代入上下文",
+     "d": "用候选内容替换目标词并读回句子。The lamp needed repair 与前句的 broken 相符。"
+    }
+   ]
+  },
+  {
+   "id": "pronouns",
+   "type": "table",
+   "title": "名词性指代",
+   "cols": [
+    "形式",
+    "原文",
+    "指代对象"
+   ],
+   "rows": [
+    [
+     "it",
+     "The lamp was broken. It needed repair.",
+     "the lamp"
+    ],
+    [
+     "they",
+     "The chairs were wet. They had been left outside.",
+     "the chairs"
+    ],
+    [
+     "one",
+     "The red cup cracked, so Mina chose a blue one.",
+     "a blue cup，即同类中的另一个"
+    ],
+    [
+     "those",
+     "The chairs in the hall were older than those in the office.",
+     "the chairs in the office"
+    ]
+   ]
+  },
+  {
+   "id": "events",
+   "type": "table",
+   "title": "事件与信息指代",
+   "cols": [
+    "形式",
+    "原文",
+    "指代内容"
+   ],
+   "rows": [
+    [
+     "this",
+     "The team moved indoors. This kept its equipment dry.",
+     "团队移到室内这一行动"
+    ],
+    [
+     "that",
+     "The meeting was cancelled. That surprised the speakers.",
+     "会议取消这一情况"
+    ],
+    [
+     "this",
+     "The gate was locked. This delayed the delivery.",
+     "门锁着这一情况"
+    ],
+    [
+     "that",
+     "The class changed the date. That allowed Lee to attend.",
+     "班级更改日期这一行动"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The volunteers moved the paintings to a dry room. The windows in the old room had begun to leak. This protected the paintings while the windows were repaired."
+    },
+    {
+     "box": "What does 'This' refer to?\n1. The windows beginning to leak\n2. Moving the paintings to a dry room\n3. Repairing the windows in the old room\n4. Leaving the paintings near the windows"
+    },
+    {
+     "p": "This protected the paintings 中，This 应是保护了画作的行动。代入 moved the paintings to a dry room，句子说得通，即第二项。第一项的漏水离 This 最近，但漏水不能保护画作。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "核对方法"
+   ],
+   "rows": [
+    [
+     "就近误判",
+     "把漏水当作保护画作的行动。",
+     "检查代入后的因果关系。"
+    ],
+    [
+     "数不一致",
+     "将 they 指向单数 lamp。",
+     "核对指代词与候选名词的数。"
+    ],
+    [
+     "同类误判",
+     "将 a blue one 理解为红杯。",
+     "核对颜色及 one 的限定。"
+    ],
+    [
+     "时间误判",
+     "把 while 后面同时进行的修窗户当作 This。",
+     "核对动作发生的时间。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "antecedent",
+    "verify"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "The teacher placed the map beside the window. It showed the route to the station.",
+     "items": [
+      {
+       "stem": "What does 'It' refer to?",
+       "options": [
+        "The map beside the window",
+        "The teacher at the window",
+        "The window beside the map",
+        "The station on the route"
+       ],
+       "answer": 0,
+       "why": "showed the route 说明 it 指能显示路线的 map。",
+       "point": "antecedent"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The books were delivered to the school. The teacher put them on a shelf, where they were available to the class.",
+     "items": [
+      {
+       "stem": "What does 'they' refer to?",
+       "options": [
+        "The teacher and the class",
+        "The books on the shelf",
+        "The shelf and the school",
+        "The students in the class"
+       ],
+       "answer": 1,
+       "why": "them 和 they 都指前句的 books。代入后是书放在架上供全班使用，即第二项。",
+       "point": "verify"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The group changed the meeting date. That allowed the speaker to attend.",
+     "items": [
+      {
+       "stem": "What does 'That' refer to?",
+       "options": [
+        "The speaker giving a meeting",
+        "The group attending a talk",
+        "The change of meeting date",
+        "The speaker's plan to attend"
+       ],
+       "answer": 2,
+       "why": "That 指前一句的改期。代入后是改期让讲者能够出席，即第三项。第四项是改期带来的结果，不是 That 所指。",
+       "point": "antecedent"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The small box was full, so Jo put the remaining cards into a larger one. Both boxes were then placed on the shelf.",
+     "items": [
+      {
+       "stem": "What does 'a larger one' refer to?",
+       "options": [
+        "A larger shelf for both boxes",
+        "A larger card in the small box",
+        "A larger group of remaining cards",
+        "A larger box for the remaining cards"
+       ],
+       "answer": 3,
+       "why": "a larger one 指同类的另一个盒子。后句的 Both boxes 也说明一共有两个盒子，即第四项。",
+       "point": "verify"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "antecedent",
+    "verify"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A school collected old bicycles for a repair project. Volunteers checked the brakes and set aside the bicycles that needed new parts. They wrote a list of the required parts and gave it to the caretaker. The caretaker ordered the parts from a local shop. This allowed the volunteers to finish the repairs the following week. The school later offered the repaired bicycles to families who had requested them.",
+     "items": [
+      {
+       "stem": "What does 'They' refer to?",
+       "options": [
+        "The bicycles needing new parts",
+        "The volunteers checking bicycles",
+        "The parts from the local shop",
+        "The families requesting bicycles"
+       ],
+       "answer": 1,
+       "why": "They 前一句的主语是 Volunteers。代入后是志愿者写配件清单，即第二项。",
+       "point": "antecedent"
+      },
+      {
+       "stem": "What does 'This' refer to?",
+       "options": [
+        "The school collecting bicycles",
+        "The families requesting bicycles",
+        "The caretaker ordering the parts",
+        "The volunteers writing a list"
+       ],
+       "answer": 2,
+       "why": "This 前一句是 The caretaker ordered the parts。代入后是订了配件，志愿者才能完成维修，即第三项。",
+       "point": "verify"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "antecedent",
+    "verify"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A neighbourhood choir rehearsed every Thursday in a community centre. The singers usually arranged chairs in a circle before the rehearsal. One week, the centre's main room was being painted, so the choir moved to a smaller room at the back of the building. The singers carried their music folders there, and a volunteer brought a box of pencils for marking the pages.\n\nThe smaller room had fewer chairs than the choir needed. The caretaker found some folding chairs in a cupboard and carried them into the room. They were placed in two rows because a full circle would have blocked the doorway. The singers could still see their conductor, who stood near the window. After the rehearsal, the folding chairs were returned to the cupboard.\n\nThe choir also discovered that the room's clock had stopped. One singer checked its battery and found that it needed replacing. She told the caretaker, who made a note to bring a new battery the next day. Meanwhile, the conductor used a watch to keep track of the rehearsal time. The choir finished at its usual hour and left the room ready for another group.\n\nThe main room reopened the following week. Before moving back, the choir asked whether it could leave its folders in the smaller room's cupboard. The caretaker agreed, provided that the folders were placed in a closed box. This meant the choir no longer had to carry them through the building each week. The pencils remained in a separate box, which the conductor brought to each rehearsal.",
+       "items": [
+        {
+         "stem": "What does 'They' in the second paragraph refer to?",
+         "options": [
+          "The folding chairs from the cupboard",
+          "The singers carrying their music folders",
+          "The pencils used to mark the choir's pages",
+          "The two rooms in the community centre"
+         ],
+         "answer": 0,
+         "why": "前句 carried them into the room 中的 them 是 folding chairs。排成两排的也是这些椅子，即第一项。",
+         "point": "antecedent"
+        },
+        {
+         "stem": "What does 'it' in 'it needed replacing' refer to?",
+         "options": [
+          "The clock in the smaller room",
+          "The battery inside the clock",
+          "The watch used by the conductor",
+          "The note made by the caretaker"
+         ],
+         "answer": 1,
+         "why": "依据是 checked its battery and found that it needed replacing。需要更换的是电池，即第二项。its 才指钟。",
+         "point": "verify"
+        },
+        {
+         "stem": "What does 'This' in the last paragraph refer to?",
+         "options": [
+          "Painting the centre's main room",
+          "Keeping the pencils in a separate box",
+          "Leaving the folders in a closed box",
+          "Moving the chairs into the smaller room"
+         ],
+         "answer": 2,
+         "why": "This 前面是 folders were placed in a closed box。代入后是文件夹留在柜子里，所以不用每周搬，即第三项。",
+         "point": "verify"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A group of students made a guide to trees in their school grounds. They began by walking around the grounds with a teacher and listing trees that could be reached from the main path. The teacher reminded them to leave space around the roots and avoid removing leaves. The students took photographs instead and wrote down where each tree stood.\n\nBack in the classroom, they compared the photographs with pictures in several reference books. One photograph showed a tree whose leaves had a distinctive shape. The students found a matching picture in a book, but the book's description of the tree's bark did not match their notes. They returned to the grounds and looked more closely. This showed that they had photographed leaves from one tree while recording bark from another nearby. They corrected their notes before continuing.\n\nThe group decided to prepare a card for each tree. One student wrote short descriptions, while another drew a small map of the grounds. The cards for trees beside the main path included a blue symbol. Those for trees farther away used a green symbol. The map used the same colors so that readers could locate each tree without walking across the roots.\n\nBefore printing, the students asked another class to use a draft. Several readers could find the trees but could not read the small labels on the map. The group enlarged the labels and left the descriptions unchanged. It then printed copies for the school library. The teacher kept the draft and the readers' comments so that future students could see why the map had been revised.",
+       "items": [
+        {
+         "stem": "What does 'This' in the second paragraph refer to?",
+         "options": [
+          "Comparing the map with the draft cards",
+          "Taking a photograph of the main path",
+          "Removing leaves from the school trees",
+          "Returning to the grounds for a closer look"
+         ],
+         "answer": 3,
+         "why": "This 前一句是 They returned to the grounds and looked more closely。仔细查看后才发现叶子和树皮来自两棵树，即第四项。",
+         "point": "verify"
+        },
+        {
+         "stem": "What does 'Those' in the third paragraph refer to?",
+         "options": [
+          "The cards for trees farther from the main path",
+          "The photographs of leaves in the reference books",
+          "The students who drew a map of the grounds",
+          "The green symbols printed in the reference books"
+         ],
+         "answer": 0,
+         "why": "The cards for trees beside the main path 和 Those for trees farther away 前后对比，Those 指卡片，即第一项。",
+         "point": "antecedent"
+        },
+        {
+         "stem": "What does 'It' in the final paragraph refer to?",
+         "options": [
+          "The other class testing the draft",
+          "The group preparing the tree guide",
+          "The teacher keeping the comments",
+          "The library receiving the books"
+         ],
+         "answer": 1,
+         "why": "It 前一句的主语是 The group。代入后是小组打印副本，即第二项。",
+         "point": "antecedent"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

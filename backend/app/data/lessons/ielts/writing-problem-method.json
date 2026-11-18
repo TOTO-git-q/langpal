@@ -1,0 +1,51 @@
+{
+ "id": "writing-problem-method", "title": "问题与对策的对应", "goal": "能识别问题或原因，并将具体对策与其对应。", "skill": "写作", "exam": "雅思 IELTS Academic", "mastery": "once",
+ "points": [{"id": "diagnose", "label": "识别题目要求分析的问题或原因"}, {"id": "solution", "label": "将具体措施与问题建立对应"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "问题与对策题的内容和教学规格"}],
+ "cards": [
+  {"id": "type", "type": "text", "title": "题型", "body": [{"p": "问题与对策题要求先分析题目指定的原因或问题，再提出措施。原因说明现象怎样产生。问题说明现象带来什么困难。"}, {"box": "Why are local buses frequently delayed, and what measures could reduce these delays?"}, {"p": "第一问要求分析延误的原因，第二问要求提出减少延误的措施。每条措施都要针对前面分析的原因。"}]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　辨认要求", "d": "分清题目问的是原因、问题还是措施。例如 causes 要求解释现象产生的原因。"},
+   {"t": "2　确定困难", "d": "写明具体原因或问题。例如道路拥堵可导致公交延误。"},
+   {"t": "3　选择措施", "d": "写明由谁来做、做什么。做事的一方要有权实施这项措施。例如地方政府设置公交专用道。"},
+   {"t": "4　解释作用", "d": "说明措施怎样作用于原因。例如专用道让公交车避开部分拥堵。"}
+  ]},
+  {"id": "mapping", "type": "table", "title": "问题与措施", "cols": ["原因或问题", "行动主体与措施", "预期作用"], "rows": [
+   ["拥堵导致公交延误", "地方政府设置公交专用道", "公交车避开部分拥堵"],
+   ["垃圾箱满溢", "市政部门增加收集频次", "减少垃圾堆积时间"],
+   ["图书馆信息牌不清", "馆方更新指示牌", "访客更易找到服务台"],
+   ["部分居民缺乏网络预约渠道", "服务部门保留电话预约", "无法联网的居民仍可预约"]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [{"box": "In a town centre, buses often arrive late because they share congested roads with private cars. Delays make it difficult for passengers to plan their journeys and reduce confidence in the service. What causes these delays, and what could the local authority do to address them? Give reasons for your suggestions.\n\nOutline: Congestion slows buses. The local authority could introduce a bus lane on a congested route, allowing buses to pass queues of private cars."}, {"p": "提纲先写原因：道路拥堵使公交车变慢。再写措施：地方政府设置公交专用道。专用道让公交车越过私家车队列，正好针对这个原因。"}]},
+  {"id": "errors", "type": "table", "title": "干扰项", "cols": ["提纲", "问题", "修改方向"], "rows": [
+   ["Ask passengers to wish for faster buses.", "只有愿望，没有行动", "提出可执行的交通措施"],
+   ["Ask passengers to repaint road markings.", "乘客无权实施道路管理", "由地方政府安排道路措施"],
+   ["Increase library opening hours to reduce road congestion.", "措施未作用于原因", "选择改变道路使用的措施"],
+   ["Describe delays but omit their causes.", "原因问句未回应", "解释拥堵如何造成延误"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["diagnose", "solution"], "groups": [{"items": [
+   {"stem": "Why are buses delayed, and what can the council do? What does the first question request?", "options": ["An explanation of the causes of bus delays.", "A list of measures the council could take.", "An account of how delays affect passengers.", "A statement that buses are often delayed."], "answer": 0, "why": "Why are buses delayed 问的是延误的原因，即第一项。第二项是第二问 what can the council do 的要求。", "point": "diagnose"},
+   {"stem": "Road congestion delays buses. Which measure can the local authority use to address this cause?", "options": ["Ask passengers to set off earlier each day.", "Create a bus lane on the congested road.", "Ask passengers to repaint the road markings.", "Show the expected delays at each bus stop."], "answer": 1, "why": "原因是道路拥堵。第二项由地方政府设置专用道，让公交车不再受拥堵阻碍。", "point": "solution"},
+   {"stem": "Rubbish bins overflow because collection is infrequent. Which statement identifies the cause?", "options": ["The bins overflow between two collections.", "Collection happens more often than the bins fill.", "Collection happens too infrequently for the waste produced.", "Overflowing bins make the streets less pleasant."], "answer": 2, "why": "because collection is infrequent 说明原因是收集次数少，即第三项。第一项只重复了满溢这个问题本身。", "point": "diagnose"},
+   {"stem": "Visitors cannot find a library desk because the signs are unclear. Which proposal addresses that cause?", "options": ["The library should add more staff at the desk.", "The library should keep the current signs.", "Visitors should replace the unclear signs themselves.", "The library should replace the unclear signs."], "answer": 3, "why": "原因是指示牌不清。第四项由馆方更换指示牌，直接针对这一原因。第三项做事的是访客，访客无权更换馆方的标识。", "point": "solution"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["diagnose", "solution"], "groups": [{"text": "A neighbourhood has overflowing public bins. Collection takes place only once a week, although the bins often fill sooner. Residents report litter around the bins before the next collection. What causes the problem, and what could the local authority do to improve the situation? Give reasons for your answer.", "items": [
+   {"stem": "Which cause is stated?", "options": ["Collection is less frequent than the bins require.", "The bins are emptied before they become full.", "Residents drop too much litter around the bins.", "The bins are too small for the number of residents."], "answer": 0, "why": "Collection takes place only once a week, although the bins often fill sooner 说明收集次数跟不上，即第一项。第三项的 litter 是满溢的后果，不是原因。", "point": "diagnose"},
+   {"stem": "Which measure addresses the stated cause?", "options": ["Ask residents to report the litter to the council.", "Arrange more frequent emptying of the public bins.", "Clear the litter around the bins once a week.", "Remove some of the public bins from the area."], "answer": 1, "why": "原因是每周只收一次。第二项增加清运次数，直接针对这一原因。第三项只清理散落的垃圾，收集次数没有变。", "point": "solution"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["diagnose", "solution"], "sets": [{"id": "set-a", "groups": [
+   {"text": "A town's buses are frequently late because they must wait in queues of private cars on the main road. Passengers find it difficult to predict when they will arrive at work. What causes these delays, and what measures could the local authority take to reduce them? Give reasons for your suggestions.", "items": [
+    {"stem": "Which factor is presented as the cause of delays?", "options": ["Buses wait in queues of private cars on the main road.", "Passengers cannot predict when they will arrive at work.", "Too few buses run on the main road at busy times.", "Private cars wait in queues created by bus-only lanes."], "answer": 0, "why": "because they must wait in queues of private cars on the main road 说明延误的原因，即第一项。第二项是延误造成的后果。", "point": "diagnose"},
+    {"stem": "Which proposal connects an authorised actor with a relevant measure?", "options": ["Passengers could set off earlier to allow for the queues.", "The authority could reserve a lane for buses on the road.", "Passengers could ask car drivers to let the buses pass.", "The authority could publish the expected delays online."], "answer": 1, "why": "原因是公交车在私家车队列中等待。第二项由地方政府设置公交专用道，做事的一方有权实施，措施也针对原因。第四项主体对，但公布延误并不能减少延误。", "point": "solution"},
+    {"stem": "Complete a statement of the cause.", "lead": "The buses", "chunks": ["are delayed", "by queues", "of private cars", "on the road"], "tail": ".", "extra": ["delaying"], "why": "私家车排队使公交车受阻，是材料中的原因。", "point": "diagnose"},
+    {"stem": "Complete a proposal that addresses congestion.", "lead": "The authority", "chunks": ["could reserve", "a lane", "for buses", "on the road"], "tail": ".", "extra": ["reserving"], "why": "设置公交专用道可作用于道路拥堵造成的延误。", "point": "solution"}
+   ]},
+   {"text": "Visitors to a public library often cannot find the service desk. The signs point towards an old entrance and have not been updated since the desk moved. Visitors therefore spend time searching for assistance. What is causing this difficulty, and what could the library management do to solve it? Give reasons for your answer.", "items": [
+    {"stem": "What causes visitors' difficulty?", "options": ["The service desk has moved to the old entrance.", "Visitors spend too long searching for assistance.", "The signs still direct visitors towards the old entrance.", "Management has already replaced every outdated sign."], "answer": 2, "why": "The signs point towards an old entrance and have not been updated since the desk moved 说明原因在指示牌，即第三项。第一项弄反了：指示牌指向旧入口，服务台已经搬走。", "point": "diagnose"},
+    {"stem": "Which action addresses the stated cause?", "options": ["Visitors could ask staff where the desk has moved to.", "Management should leave the signs as they are now.", "Visitors should correct the outdated signs themselves.", "Management should update the signs to show the desk."], "answer": 3, "why": "原因是指示牌没有随服务台更新。第四项由馆方更新指示牌，直接针对这一原因。第三项做事的是访客，访客无权改馆方的标识。", "point": "solution"},
+    {"stem": "Complete a statement of the cause.", "lead": "The signs", "chunks": ["still point", "towards", "the library's", "old entrance"], "tail": ".", "extra": ["pointing"], "why": "指示牌仍指向旧入口，导致访客难以找到服务台。", "point": "diagnose"},
+    {"stem": "Complete a relevant proposal.", "lead": "The library management", "chunks": ["could update", "the signs", "to show", "the desk's location"], "tail": ".", "extra": ["updating"], "why": "馆方可以更新标识，让访客找到服务台。", "point": "solution"}
+   ]}
+  ]}]} 
+ ]
+}

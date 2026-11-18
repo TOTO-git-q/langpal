@@ -1,0 +1,419 @@
+{
+ "id": "listening-news-method",
+ "title": "新闻信息与选项核对",
+ "goal": "识别新闻的基本信息并依据报道核对选项。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "frame",
+   "label": "识别新闻事件的基本信息框架"
+  },
+  {
+   "id": "verify",
+   "label": "按报道事实核对选项"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "听力课程材料的依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "type",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "新闻报道围绕一个事件展开。主体、地点和时间是事件的基本信息。后面的句子补充其他行动或变化。"
+    },
+    {
+     "box": "The town library opened a reading room on Monday. Local volunteers prepared the furniture."
+    },
+    {
+     "p": "这里的事件是图书馆开放阅览室。开放的主体是图书馆，准备家具的是志愿者。选项的行动和主体都要与原文一致。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　预读选项",
+     "d": "比较选项中的主体、动作和时间。选项里出现原词，只说明话题相关，事实关系还要核对。"
+    },
+    {
+     "t": "2　听取导语",
+     "d": "记录导语中的事件及主体。例如 library opened a reading room 表示开放阅览室的主体是图书馆。"
+    },
+    {
+     "t": "3　核对后续事实",
+     "d": "将地点、时间和行动对应到所属事件。区分已发生的行动与计划中的行动。"
+    },
+    {
+     "t": "4　比较选项",
+     "d": "选择各个关系都有报道依据的选项。原词相同、但主体或时间不同的选项可以排除。"
+    }
+   ]
+  },
+  {
+   "id": "frame",
+   "type": "table",
+   "title": "信息框架",
+   "cols": [
+    "信息",
+    "辨认依据",
+    "例"
+   ],
+   "rows": [
+    [
+     "事件",
+     "主体加主要动作，确定是哪件事。",
+     "The museum reopened its garden."
+    ],
+    [
+     "人物",
+     "核对动作的执行者。",
+     "Volunteers planted flowers; staff opened the gate."
+    ],
+    [
+     "地点",
+     "地点要对应到具体行动。",
+     "The exhibition moved to the east hall."
+    ],
+    [
+     "时间",
+     "区分已经发生和未来安排。",
+     "The work began on Tuesday and will end on Friday."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The town library opened a reading room on Monday. Local volunteers prepared the furniture on Sunday. Staff plan to add a display next week. The new room is on the first floor, beside the main entrance. The library reopened its entrance last month after repairs. The reading room contains tables for visitors and will be available during regular opening hours.\nWhat happened on Monday?\n1. Volunteers prepared the furniture.\n2. The library opened a reading room.\n3. Staff added a new display.\n4. The library closed its reading room."
+    },
+    {
+     "p": "opened a reading room on Monday 对应第二项。家具是在周日准备的；展览仍是下周的计划。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "原文与选项",
+    "核对依据"
+   ],
+   "rows": [
+    [
+     "主体替换",
+     "Volunteers prepared furniture → Staff prepared furniture",
+     "准备家具的是志愿者。"
+    ],
+    [
+     "时间错置",
+     "prepared on Sunday → prepared on Monday",
+     "Monday 对应阅览室开放。"
+    ],
+    [
+     "计划当作事实",
+     "plan to add a display → added a display",
+     "plan to 表示计划。"
+    ],
+    [
+     "动作相反",
+     "opened a reading room → closed a reading room",
+     "opened 表示开放。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "frame",
+    "verify"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+       "text": "The art center opened a new studio on Tuesday. Volunteers painted its walls on Monday. The center's staff arranged the furniture, its artists designed posters, and visitors attended the opening."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Who painted the walls?",
+       "options": [
+        "The center's visitors",
+        "The local volunteers",
+        "The studio's artists",
+        "The center's staff"
+       ],
+       "answer": 1,
+       "why": "依据是 Volunteers painted its walls on Monday。刷墙的是志愿者，第二项符合。",
+       "point": "frame"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The ferry resumed service on Friday. Workers inspected the dock on Thursday."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "When did the ferry resume service?",
+       "options": [
+        "On Thursday, with the inspection",
+        "Before the dock was inspected",
+        "On Friday, after the inspection",
+        "On Thursday and Friday"
+       ],
+       "answer": 2,
+       "why": "依据是 The ferry resumed service on Friday。码头检查在周四，渡轮周五恢复，第三项符合。",
+       "point": "frame"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A school moved its concert to the town hall. The rehearsal remained in the school gym."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Where will the concert take place?",
+       "options": [
+        "In the gym",
+        "In the school hall",
+        "At the school, as before",
+        "In the town hall"
+       ],
+       "answer": 3,
+       "why": "依据是 moved its concert to the town hall。第四项符合；体育馆是排练的地点。",
+       "point": "verify"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The park has repaired its bridge. It plans to replace the signs next month."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What has already been completed?",
+       "options": [
+        "Repairing the bridge",
+        "Replacing the signs",
+        "Replacing the bridge",
+        "Repairing the signs"
+       ],
+       "answer": 0,
+       "why": "依据是 The park has repaired its bridge。桥已经修好，第一项符合；更换标牌还是计划。",
+       "point": "verify"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "frame",
+    "verify"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A town museum opened a new entrance on Wednesday after months of work. The entrance is on the south side of the building, beside the public garden. Museum staff designed the signs, while a local workshop made the wooden doors. The old entrance on the east side remains open for groups. The museum says the change gives visitors a shorter route from the nearby bus stop. The garden itself was opened last year and has already become a popular place for local families. Next month, staff plan to place a map near the new entrance. They also intend to hold a meeting with local residents about access to the museum. The meeting will take place in the museum hall, not in the garden. No date for a second entrance project has been announced. The museum will publish further information about the meeting on its notice board once arrangements are complete."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Who made the new doors?",
+       "options": [
+        "Museum staff",
+        "A local workshop",
+        "Museum staff and a workshop",
+        "The workshop that made signs"
+       ],
+       "answer": 1,
+       "why": "依据是 a local workshop made the wooden doors。第二项符合；博物馆员工设计的是标牌。",
+       "point": "frame"
+      },
+      {
+       "stem": "What is planned for next month?",
+       "options": [
+        "Opening the garden",
+        "Designing the signs",
+        "Installing a new map",
+        "Building another entrance"
+       ],
+       "answer": 2,
+       "why": "依据是 Next month, staff plan to place a map near the new entrance。第三项符合。",
+       "point": "verify"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "frame",
+    "verify"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The Greenvale community center reopened its swimming pool on Monday after repairs to its heating system. The pool had been closed for three weeks, but the gym remained open throughout that period. Engineers finished work on the heating system on Friday, and center staff checked the water over the weekend. The town council paid for the repairs, while a local company supplied the equipment. The center has returned to its usual opening hours, although swimming lessons will not resume until next Wednesday. Families may use the pool before then during normal public swimming sessions. The center manager said the staff appreciated local residents' patience during the closure. The council is also considering improvements to the changing rooms, but it has not yet approved any work. Residents can find the current pool timetable at the reception desk. The manager expects the timetable to remain unchanged through the end of the month."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What reopened on Monday?",
+         "options": [
+          "The center's gym",
+          "The center's swimming pool",
+          "The town's changing rooms",
+          "The center's swimming lessons"
+         ],
+         "answer": 1,
+         "why": "依据是 reopened its swimming pool on Monday。第二项符合；健身房一直开放，游泳课下周三才恢复。",
+         "point": "frame"
+        },
+        {
+         "stem": "Who supplied the repair equipment?",
+         "options": [
+          "The council",
+          "The center staff",
+          "The heating engineers",
+          "A company in the area"
+         ],
+         "answer": 3,
+         "why": "依据是 a local company supplied the equipment。本地公司提供设备，第四项符合；council 出的是维修费用。",
+         "point": "frame"
+        },
+        {
+         "stem": "Which action is still under consideration?",
+         "options": [
+          "Improving the changing rooms",
+          "Checking the pool water",
+          "Finishing the heating repairs",
+          "Returning to normal hours"
+         ],
+         "answer": 0,
+         "why": "依据是 is also considering improvements to the changing rooms, but it has not yet approved any work。第一项符合。",
+         "point": "verify"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "A city bus route began serving the West Market on Saturday after a change to its usual journey. Route 12 now stops outside the market entrance before continuing to the railway station. Previously, passengers had to walk from the stop at the public library. The transport office announced the change last month after receiving requests from market visitors. Drivers tested the revised route on Thursday, and workers put up the new stop sign on Friday. The number of buses remains the same, and the first bus still leaves the station at six in the morning. Market shopkeepers have welcomed the stop, saying it will make shopping easier for older residents. The transport office plans to review passenger numbers at the end of the season. It has not decided whether any other routes will be changed. A printed route map is available at the station and at the market information desk."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Where does Route 12 now stop before reaching the station?",
+         "options": [
+          "At the market information desk",
+          "At the market entrance",
+          "At the public library stop",
+          "Beside the railway station"
+         ],
+         "answer": 1,
+         "why": "依据是 Route 12 now stops outside the market entrance before continuing to the railway station。第二项符合；图书馆站是以前下车的地方。",
+         "point": "frame"
+        },
+        {
+         "stem": "When did workers put up the stop sign?",
+         "options": [
+          "When drivers tested it",
+          "On the first day of service",
+          "On Friday that week",
+          "When the change was announced"
+         ],
+         "answer": 2,
+         "why": "依据是 workers put up the new stop sign on Friday。第三项符合；周四是司机试跑新线路的时间。",
+         "point": "verify"
+        },
+        {
+         "stem": "What has the transport office planned to review?",
+         "options": [
+          "The requests made last month",
+          "The drivers' test on Thursday",
+          "The first departure at six",
+          "The number of passengers"
+         ],
+         "answer": 3,
+         "why": "依据是 plans to review passenger numbers at the end of the season。第四项符合。",
+         "point": "verify"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

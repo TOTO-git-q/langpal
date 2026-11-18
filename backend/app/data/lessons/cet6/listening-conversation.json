@@ -1,0 +1,272 @@
+{
+  "id": "listening-conversation",
+  "title": "长对话 · 练习",
+  "goal": "先比较选项中的对象与动作。",
+  "skill": "listening",
+  "exam": "大学英语六级（CET-6）",
+  "points": [
+    {
+      "id": "gist",
+      "label": "概括对话的中心事项"
+    },
+    {
+      "id": "detail",
+      "label": "提取并对应人物细节"
+    },
+    {
+      "id": "inference",
+      "label": "依据对话判断后续行动"
+    }
+  ],
+  "sources": [
+    {
+      "id": "c1",
+      "title": "CET笔试",
+      "url": "https://cet.neea.edu.cn/html1/folder/16113/1586-1.htm",
+      "used": "题型与考试时间。"
+    },
+    {
+      "id": "c2",
+      "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+      "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+      "used": "材料长度、任务形式与总体评分标准。"
+    }
+  ],
+  "cards": [
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "小测",
+      "minutes": 4,
+      "points": [
+        "gist",
+        "detail",
+        "inference"
+      ],
+      "more": {
+        "kind": "listening-conversation",
+        "topics": [
+          "图书馆资料整理",
+          "校园活动安排",
+          "社区工具借用",
+          "工作培训",
+          "公共展览",
+          "志愿服务",
+          "城市步行路线",
+          "小组研究",
+          "档案保存",
+          "家庭物品修理",
+          "社区花园",
+          "交通服务"
+        ]
+      },
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "audio": {
+                "intro": "Listen to the conversation.",
+                "lines": [
+                  {
+                    "who": "A",
+                    "text": "Professor Hale, could we discuss my thesis plan? I've spent six weeks reading about community gardens and city life, but the subject still seems too broad for one undergraduate project."
+                  },
+                  {
+                    "who": "B",
+                    "text": "Certainly. You don't need to cover every effect of gardening. Have you found a particular question that interests you, or a place where suitable evidence is already available?"
+                  },
+                  {
+                    "who": "A",
+                    "text": "Residents near the river converted an empty lot into a vegetable garden. I want to investigate how they organized the work, using the meeting records that the neighborhood association has published."
+                  },
+                  {
+                    "who": "B",
+                    "text": "That sounds manageable. The department's deadline for changing a thesis topic was last month, but narrowing an existing topic doesn't require a new application. Keep your current title and explain the focus in your introduction."
+                  },
+                  {
+                    "who": "A",
+                    "text": "That's a relief. I had also considered interviewing residents about whether the garden helped them make friends. Would that give the project a stronger personal element?"
+                  },
+                  {
+                    "who": "B",
+                    "text": "Perhaps, but interviews would require an ethics review before recruitment. The timetable is uncertain, so I wouldn't build your project around approval arriving quickly. Published meeting records are enough for your proposed question."
+                  },
+                  {
+                    "who": "A",
+                    "text": "Then I'll work with those records. Some early meetings aren't documented, though. Does that mean I should abandon the idea and choose a different garden with a complete archive?"
+                  },
+                  {
+                    "who": "B",
+                    "text": "No. State that limitation clearly. You can describe the decisions recorded without claiming to reconstruct every conversation. The important thing is to match your conclusions to the evidence you actually have."
+                  },
+                  {
+                    "who": "A",
+                    "text": "I see. I'll revise the plan tonight and email it tomorrow morning. Could you check whether the new question is sufficiently narrow before I begin collecting the records?"
+                  },
+                  {
+                    "who": "B",
+                    "text": "Yes, send it to me. I'll comment on the scope first. Once we've agreed on that, you can organize the documents by date and note where the gaps occur."
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "stem": "What are the speakers mainly discussing?",
+                  "options": [
+                    "How to narrow a thesis project",
+                    "How to recruit garden volunteers",
+                    "Why a neighborhood archive closed",
+                    "Why a department changed its deadline"
+                  ],
+                  "answer": 0,
+                  "why": "学生认为选题过宽，导师帮助限定研究范围；招募居民只在讨论访谈审批时涉及。",
+                  "point": "gist"
+                },
+                {
+                  "stem": "What material does the student plan to use?",
+                  "options": [
+                    "Unpublished personal letters",
+                    "New interviews with residents",
+                    "Published meeting records",
+                    "A complete record of every conversation"
+                  ],
+                  "answer": 2,
+                  "why": "学生明确说使用协会公布的会议记录；访谈是考虑后放弃的办法。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "Why does the professor advise against relying on interviews?",
+                  "options": [
+                    "The garden has no permanent residents.",
+                    "Ethics approval may not arrive in time.",
+                    "The department forbids interviews in all theses.",
+                    "The association has refused permission."
+                  ],
+                  "answer": 1,
+                  "why": "导师指出访谈前需伦理审查且时间不确定，并未说所有论文都禁止访谈。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "What will the student most likely do next?",
+                  "options": [
+                    "Submit a new topic application",
+                    "Recruit residents for interviews",
+                    "Collect records from another garden",
+                    "Send a revised plan for feedback"
+                  ],
+                  "answer": 3,
+                  "why": "学生承诺次日发送修改后的计划，导师答应先看范围；整理文件在双方确认范围之后。",
+                  "point": "inference"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "audio": {
+                "intro": "Listen to the conversation.",
+                "lines": [
+                  {
+                    "who": "A",
+                    "text": "Maria, I've received an offer for the summer internship at the town museum. I'm pleased, but the dates create a problem. Could I ask what you would do in my position?"
+                  },
+                  {
+                    "who": "B",
+                    "text": "Of course. Is it the placement helping with the photography collection? You said that would connect quite well with the course you're taking on local history this term."
+                  },
+                  {
+                    "who": "A",
+                    "text": "That's the one. It begins on June eighth and ends in the middle of August. My cousin's wedding is in early July, and I'd need three working days off to travel home."
+                  },
+                  {
+                    "who": "B",
+                    "text": "Have you mentioned that to the coordinator? A family commitment doesn't necessarily mean you must reject the offer. The museum may be able to adjust your schedule if you explain early."
+                  },
+                  {
+                    "who": "A",
+                    "text": "I haven't asked yet. There were six applicants for two places. I'm afraid they'll decide I'm unreliable and offer my place to someone who can attend every day without interruption."
+                  },
+                  {
+                    "who": "B",
+                    "text": "I understand the concern, but waiting won't remove the conflict. Ask before accepting, while both sides can still discuss the arrangement. Don't assume that my experience at another organization proves what this museum will allow."
+                  },
+                  {
+                    "who": "A",
+                    "text": "My family would prefer me to stay for the whole week. Perhaps I could offer to prepare the catalog descriptions from home while I'm there. That would avoid missing so much work."
+                  },
+                  {
+                    "who": "B",
+                    "text": "Only if the museum agrees. Some collection records might be available only on site. I'd first ask about the three days you really need, rather than promise work you may not be able to do remotely."
+                  },
+                  {
+                    "who": "A",
+                    "text": "You're right. I'll phone the coordinator tomorrow morning and explain the dates. Tonight I'll tell my family that I may come only for the wedding, rather than for the entire week."
+                  },
+                  {
+                    "who": "B",
+                    "text": "That sounds sensible. You'll have clearer choices once you know the museum's answer. Then you can decide whether the placement and the shorter visit can both fit into your summer."
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "stem": "What problem is the applicant trying to resolve?",
+                  "options": [
+                    "Choosing between two museum departments",
+                    "Combining an internship with a family event",
+                    "Finding a cheaper journey home",
+                    "Completing a history course remotely"
+                  ],
+                  "answer": 1,
+                  "why": "讨论围绕实习期间参加婚礼的时间冲突展开；课程只是实习背景。",
+                  "point": "gist"
+                },
+                {
+                  "stem": "When is the internship scheduled to begin?",
+                  "options": [
+                    "In early July",
+                    "In the middle of August",
+                    "After the wedding",
+                    "On June eighth"
+                  ],
+                  "answer": 3,
+                  "why": "六月八日是开始日期，八月中旬是结束时间，七月初是婚礼。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "Why has the applicant delayed contacting the museum?",
+                  "options": [
+                    "The applicant fears losing the place.",
+                    "The coordinator has already rejected leave.",
+                    "The family has not fixed a wedding date.",
+                    "The collection records are missing."
+                  ],
+                  "answer": 0,
+                  "why": "申请者担心被认为不可靠而失去名额；协调员尚未收到请假请求。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "What will the applicant probably do tomorrow morning?",
+                  "options": [
+                    "Reject the offer immediately",
+                    "Begin cataloging from home",
+                    "Discuss the required absence with the coordinator",
+                    "Ask Maria to negotiate with the museum"
+                  ],
+                  "answer": 2,
+                  "why": "结尾明确约定次日致电协调员说明日期；远程工作只是未获确认的提议。",
+                  "point": "inference"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pass": 0.75
+    }
+  ]
+}

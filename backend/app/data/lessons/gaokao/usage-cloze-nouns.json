@@ -1,0 +1,455 @@
+{
+ "id": "usage-cloze-nouns",
+ "title": "人物与事件名词辨析",
+ "goal": "根据事件所指辨析同类名词。",
+ "skill": "语言运用",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "referent",
+   "label": "确定空格名词所指的事件或事物"
+  },
+  {
+   "id": "meaning",
+   "label": "区分同类名词的语境意义"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语课程课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "教学内容与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "名词可以概括前文的目标、行动或结果。判断所指时，先核对事件，再比较名词的意义。"
+    },
+    {
+     "box": "Their goal was to prepare a meal. Her task was to wash the vegetables."
+    },
+    {
+     "p": "goal 指希望达到的目标，task 指承担的具体任务。两者都与准备饭菜有关，所指不同。"
+    }
+   ]
+  },
+  {
+   "id": "goals",
+   "type": "table",
+   "title": "词汇表：目标任务",
+   "cols": [
+    "名词",
+    "词义",
+    "例"
+   ],
+   "rows": [
+    [
+     "goal / task",
+     "目标 / 任务",
+     "Their goal was a clean room. Her task was to sweep the floor."
+    ],
+    [
+     "aim / duty",
+     "目的 / 职责",
+     "The aim was to save water. His duty was to close the tap."
+    ],
+    [
+     "plan / step",
+     "计划 / 步骤",
+     "The plan covered three steps. The first step was to measure the table."
+    ],
+    [
+     "purpose / responsibility",
+     "目的 / 责任",
+     "The purpose was to share books. Her responsibility was to label them."
+    ]
+   ]
+  },
+  {
+   "id": "difficulty",
+   "type": "table",
+   "title": "词汇表：困难机会",
+   "cols": [
+    "名词",
+    "词义",
+    "例"
+   ],
+   "rows": [
+    [
+     "chance / choice",
+     "机会 / 选择",
+     "The visit was a chance to learn. The choice was between two routes."
+    ],
+    [
+     "problem / solution",
+     "问题 / 解决办法",
+     "The leak was a problem. A new pipe was the solution."
+    ],
+    [
+     "difficulty / opportunity",
+     "困难 / 机会",
+     "The distance was a difficulty. The visit was an opportunity to meet the guide."
+    ],
+    [
+     "obstacle / option",
+     "障碍 / 可选项",
+     "The fallen tree was an obstacle. The side path was an option."
+    ]
+   ]
+  },
+  {
+   "id": "help",
+   "type": "table",
+   "title": "词汇表：帮助支持",
+   "cols": [
+    "名词",
+    "词义",
+    "例"
+   ],
+   "rows": [
+    [
+     "favor / support",
+     "帮忙 / 支持",
+     "She did him a favor by carrying the box. Her support continued throughout his course."
+    ],
+    [
+     "help / advice",
+     "帮助 / 建议",
+     "His help made the work easier. His advice was to begin early."
+    ],
+    [
+     "assistance / guidance",
+     "协助 / 指导",
+     "With her assistance, he moved the shelf. Her guidance showed him how to use the tools."
+    ],
+    [
+     "encouragement / cooperation",
+     "鼓励 / 合作",
+     "Her encouragement gave him confidence. Their cooperation made the project possible."
+    ]
+   ]
+  },
+  {
+   "id": "result",
+   "type": "table",
+   "title": "词汇表：结果评价",
+   "cols": [
+    "名词",
+    "词义",
+    "例"
+   ],
+   "rows": [
+    [
+     "result / reward",
+     "结果 / 回报",
+     "The result was a dry floor. The reward for his work was a book."
+    ],
+    [
+     "outcome / prize",
+     "结果 / 奖品",
+     "The outcome was a repaired chair. The prize was a notebook."
+    ],
+    [
+     "success / progress",
+     "成功 / 进步",
+     "Finishing the bridge was a success. Each repair showed progress."
+    ],
+    [
+     "failure / achievement",
+     "失败 / 成就",
+     "The first attempt was a failure. The completed bridge was an achievement."
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "referent",
+    "meaning"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The class wanted to raise funds. This overall ___ guided the project.",
+       "options": [
+        "task",
+        "goal",
+        "step",
+        "duty"
+       ],
+       "answer": 1,
+       "why": "wanted to raise funds 指整个项目希望达到的目标。",
+       "point": "referent"
+      },
+      {
+       "stem": "Mia could choose the morning or afternoon shift. Her ___ was between two times.",
+       "options": [
+        "opportunity",
+        "chance",
+        "choice",
+        "problem"
+       ],
+       "answer": 2,
+       "why": "between two times 表示在两个时间之间作出的选择。",
+       "point": "meaning"
+      },
+      {
+       "stem": "The neighbor carried the parcel upstairs for Ken as a single helpful act. Ken thanked her for the ___.",
+       "options": [
+        "support",
+        "advice",
+        "reward",
+        "favor"
+       ],
+       "answer": 3,
+       "why": "carried the parcel 是一次具体的帮忙，即 favor。",
+       "point": "referent"
+      },
+      {
+       "stem": "As a gift for winning, Lea received a notebook. The notebook was her ___.",
+       "options": [
+        "reward",
+        "achievement",
+        "result",
+        "success"
+       ],
+       "answer": 0,
+       "why": "gift for winning 指获胜得到的回报。",
+       "point": "meaning"
+      },
+      {
+       "stem": "The group needed to clean the room. Amir's assigned job was to sweep. Sweeping was his ___.",
+       "options": [
+        "goal",
+        "task",
+        "outcome",
+        "chance"
+       ],
+       "answer": 1,
+       "why": "assigned job 指分派给 Amir 的具体任务。",
+       "point": "referent"
+      },
+      {
+       "stem": "The visit gave Ana an opportunity to meet the author. It was a ___ to learn from her.",
+       "options": [
+        "choice",
+        "duty",
+        "chance",
+        "task"
+       ],
+       "answer": 2,
+       "why": "opportunity 对应 chance，表示学习的机会。",
+       "point": "meaning"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "referent",
+    "meaning"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Water entered through the roof. The ___ was the leak in the roof.",
+       "options": [
+        "solution",
+        "result",
+        "step",
+        "problem"
+       ],
+       "answer": 3,
+       "why": "Water entered through the roof 说明屋顶漏水，漏水是需要解决的问题。",
+       "point": "referent"
+      },
+      {
+       "stem": "The floor became dry after the leak was repaired. A dry floor was the ___ of the repair.",
+       "options": [
+        "result",
+        "reward",
+        "solution",
+        "problem"
+       ],
+       "answer": 0,
+       "why": "修理之后地板变干，是修理的结果。",
+       "point": "referent"
+      },
+      {
+       "stem": "The coach kept helping Nia throughout her training. She valued his continuing ___.",
+       "options": [
+        "favor",
+        "support",
+        "reward",
+        "task"
+       ],
+       "answer": 1,
+       "why": "kept helping throughout her training 指持续的支持。",
+       "point": "meaning"
+      },
+      {
+       "stem": "The first attempt did not work, but the second did. The first was a ___.",
+       "options": [
+        "success",
+        "reward",
+        "failure",
+        "solution"
+       ],
+       "answer": 2,
+       "why": "did not work 说明第一次尝试失败。",
+       "point": "meaning"
+      },
+      {
+       "stem": "Jin told Omar to start early. This suggestion was her ___.",
+       "options": [
+        "task",
+        "favor",
+        "duty",
+        "advice"
+       ],
+       "answer": 3,
+       "why": "told Omar to start early 是一条建议。",
+       "point": "referent"
+      },
+      {
+       "stem": "The fallen branch blocked the path. It was an ___ on the route.",
+       "options": [
+        "obstacle",
+        "opportunity",
+        "achievement",
+        "option"
+       ],
+       "answer": 0,
+       "why": "blocked the path 说明树枝是障碍。",
+       "point": "meaning"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "referent",
+    "meaning"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "fill": "Our class organized a book exchange. Our go{al} was to share books, and my ta{sk} was to label the shelves. The pl{an} listed each step. We had a cho{ice} between two rooms, and the library offered a cha{nce} to meet more readers. A volunteer gave us he{lp} with the shelves. Her continuing sup{port} kept the project going. She also did us a fa{vor} by carrying a box. The res{ult} was a busy exchange; our rew{ard} was seeing the books find new readers.",
+       "tags": [
+        "referent",
+        "meaning",
+        "referent",
+        "meaning",
+        "meaning",
+        "referent",
+        "meaning",
+        "meaning",
+        "referent",
+        "referent"
+       ]
+      },
+      {
+       "items": [
+        {
+         "stem": "The team's overall aim was to build a bench. Its ___ was to build a bench.",
+         "options": [
+          "goal",
+          "task",
+          "step",
+          "duty"
+         ],
+         "answer": 0,
+         "why": "overall aim 指整体目标，即 goal。",
+         "point": "meaning"
+        },
+        {
+         "stem": "Nora had to decide whether to use paint or paper. This ___ was between two materials.",
+         "options": [
+          "chance",
+          "choice",
+          "plan",
+          "opportunity"
+         ],
+         "answer": 1,
+         "why": "decide whether 表示在两种材料之间作出选择。",
+         "point": "meaning"
+        },
+        {
+         "stem": "A neighbor carried one parcel upstairs for Eli. Eli thanked her for that particular ___.",
+         "options": [
+          "support",
+          "reward",
+          "favor",
+          "guidance"
+         ],
+         "answer": 2,
+         "why": "carried one parcel 是具体的一次帮忙。",
+         "point": "referent"
+        },
+        {
+         "stem": "After the leak was repaired, the floor stayed dry. The dry floor was the ___ of the repair.",
+         "options": [
+          "step",
+          "solution",
+          "reward",
+          "result"
+         ],
+         "answer": 3,
+         "why": "修理后地板保持干燥，是这一行动的结果。",
+         "point": "referent"
+        },
+        {
+         "stem": "The visit made it possible for Zoe to learn from the baker. It gave her a ___ to learn.",
+         "options": [
+          "chance",
+          "choice",
+          "task",
+          "duty"
+         ],
+         "answer": 0,
+         "why": "made it possible 指提供了学习机会。",
+         "point": "meaning"
+        },
+        {
+         "stem": "The winner received a book for her work. The book was her ___.",
+         "options": [
+          "achievement",
+          "reward",
+          "success",
+          "result"
+         ],
+         "answer": 1,
+         "why": "received a book for her work 指得到的回报。",
+         "point": "referent"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

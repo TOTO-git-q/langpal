@@ -1,0 +1,400 @@
+{
+ "id": "reading-daily-inference",
+ "title": "推断题",
+ "goal": "为日常文字的推断找到依据，并排除超出原文范围的结论。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "basis",
+   "label": "为推断找到文中的依据"
+  },
+  {
+   "id": "onestep",
+   "label": "排除过度推断的选项"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、计分、自适应"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明和官方样题（挖空规则是对照样题和答案看出来的）"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Reading Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-reading.pdf",
+   "used": "第 1 课：三类题的说明和需要的三项基本功"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "推断题问的是原文没有直接写明的信息。依据是措辞、职责、条件或前后的回应。题干常含 most likely、can be inferred、suggests。所问的对象有四类：身份、读者、后续行动、态度。"
+    },
+    {
+     "box": "Who most likely wrote this message?\nWho is the notice most likely intended for?\nWhat will the recipient probably do next?\nWhat does the writer imply about the proposal?"
+    },
+    {
+     "p": "推断只推到依据直接支持的一步。I assign the delivery routes 说明写信人负责安排配送。由此推出其拥有整家公司，就是过度推断。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定推断对象",
+     "d": "先区分所问的是身份、对象、行动还是态度。Who most likely wrote this message? 问写信人，不问收信人。"
+    },
+    {
+     "t": "2　找出直接依据",
+     "d": "找出表示职责、条件、承诺和评价的词，限定也要一并保留。I can repair the hinge, but not today 说明能修，但不在当天。"
+    },
+    {
+     "t": "3　形成最小结论",
+     "d": "结论只推一步。Please choose a time so I can assign a guide 说明下一步是选时段，导游此时还没有分配。"
+    },
+    {
+     "t": "4　排除过度推断",
+     "d": "检查选项是否多出原文没有的动机、频率或必然结果。A few entries may need checking 推不出 Every entry is incorrect。"
+    }
+   ]
+  },
+  {
+   "id": "basis",
+   "type": "table",
+   "title": "推断依据",
+   "cols": [
+    "对象",
+    "原文",
+    "支持的推断"
+   ],
+   "rows": [
+    [
+     "写信人身份",
+     "I inspect each instrument before lending it.",
+     "The writer helps manage instrument loans."
+    ],
+    [
+     "通知对象",
+     "Return the borrowed headset to the counter.",
+     "The notice addresses headset borrowers."
+    ],
+    [
+     "后续行动",
+     "The replacement cannot be sent without an address.",
+     "The recipient needs to provide an address first."
+    ],
+    [
+     "暗含态度",
+     "The draft is clearer, though the labels still need work.",
+     "The writer sees improvement but wants revisions."
+    ],
+    [
+     "条件范围",
+     "If the room is free, we may rehearse there.",
+     "Use of the room remains uncertain."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Subject: Key record\nThe spare key was returned, but its tag is blank. Before I can put it back in the correct cabinet slot, please tell me which room it opens. The original borrower's name is still on the envelope."
+    },
+    {
+     "box": "What can be inferred about the writer?\n1. The writer has lost every key to the building.\n2. The writer borrowed the key for a private event.\n3. The writer is replacing the building's locks.\n4. The writer is responsible for organizing stored keys."
+    },
+    {
+     "p": "依据是 put it back in the correct cabinet slot。写信人要按房间把钥匙放回柜中原位，说明其负责管理钥匙，即第四项。"
+    },
+    {
+     "p": "blank 指标签上没有写字，钥匙并没有丢。私人活动和更换门锁，原文都没有提到。信封上写的是原借用人的名字，不说明写信人借过钥匙。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "原文与错误结论",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "过度推断",
+     "I organize the keys. → I own the building.",
+     "管理职责不能证明所有权。"
+    ],
+    [
+     "与原文相反",
+     "The key was returned. → The key is missing.",
+     "returned 明确表示钥匙已归还。"
+    ],
+    [
+     "原文未提及",
+     "The tag is blank. → The borrower was careless.",
+     "原文只说标签空白，没有说原因。"
+    ],
+    [
+     "程度过强",
+     "One tag is blank. → All tags are unreadable.",
+     "不能把一个扩大到全部。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "basis",
+    "onestep"
+   ],
+   "groups": [
+    {
+     "label": "Read the notice.",
+     "look": "notice",
+     "text": "Please send the final meal count by noon. I need it before assigning serving trays to the dining tables.",
+     "items": [
+      {
+       "stem": "Who most likely wrote the message?",
+       "options": [
+        "A person organizing the meal service",
+        "A guest choosing a dining table",
+        "A person sending in the final meal count",
+        "A diner asking for an extra serving tray"
+       ],
+       "answer": 0,
+       "why": "依据是 assigning serving trays to the dining tables，分配餐盘是安排餐饮服务的工作，即第一项。第三项是收信人要做的事。",
+       "point": "basis"
+      }
+     ]
+    },
+    {
+     "label": "Read the notice.",
+     "look": "notice",
+     "text": "Please leave the practice instrument in its case after each lesson. The next learner uses the same instrument.",
+     "items": [
+      {
+       "stem": "Who is most likely addressed?",
+       "options": [
+        "Teachers who own the practice instrument",
+        "Students who share a practice instrument",
+        "Learners who bring instruments from home",
+        "Staff who repair instruments after lessons"
+       ],
+       "answer": 1,
+       "why": "依据是 after each lesson 和 The next learner uses the same instrument。上课的学生轮流用同一件乐器，即第二项。",
+       "point": "basis"
+      }
+     ]
+    },
+    {
+     "label": "Read the notice.",
+     "look": "notice",
+     "text": "The first trial of the new sign was useful, but several visitors still missed the entrance. We should test a larger version.",
+     "items": [
+      {
+       "stem": "Which conclusion is supported?",
+       "options": [
+        "The sign solved the problem for every visitor.",
+        "The first trial was of no use at all.",
+        "A larger sign is guaranteed to work.",
+        "The present sign may need further changes."
+       ],
+       "answer": 3,
+       "why": "依据是 several visitors still missed the entrance 和 test a larger version。现有的标志还要再改，即第四项。第三项把 test 说成了保证有效。",
+       "point": "onestep"
+      }
+     ]
+    },
+    {
+     "label": "Read the notice.",
+     "look": "notice",
+     "text": "The sample handle fits the drawer. I will wait for the buyer's color choice before ordering the rest.",
+     "items": [
+      {
+       "stem": "What is most likely to happen next?",
+       "options": [
+        "The sample handle will be sent back.",
+        "The rest of the handles will arrive at once.",
+        "The buyer will choose a handle color.",
+        "The writer will choose a handle color."
+       ],
+       "answer": 2,
+       "why": "依据是 wait for the buyer's color choice before ordering the rest。下一步是买方选颜色，即第三项。第四项把选颜色的人换成了写信人。",
+       "point": "onestep"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "basis",
+    "onestep"
+   ],
+   "groups": [
+    {
+     "label": "Read the email.",
+     "look": "email",
+     "text": "Subject: Exhibition case\nThe replacement glass has arrived. I can fit it once the case is empty. Please remove the objects tomorrow morning and let me know when the case is ready. I will not move the objects myself because their placement is recorded by another team. The fitting will be checked before any objects are returned.",
+     "items": [
+      {
+       "stem": "What is most likely the writer's role?",
+       "options": [
+        "Selecting objects for the exhibition",
+        "Installing the replacement glass",
+        "Recording the positions of all objects",
+        "Removing the objects from the case"
+       ],
+       "answer": 1,
+       "why": "依据是 I can fit it，it 指 replacement glass，写信人负责安装玻璃，即第二项。第四项是收信人要做的事。",
+       "point": "basis"
+      },
+      {
+       "stem": "What can be inferred about the work?",
+       "options": [
+        "The objects have already been returned.",
+        "The writer will move every object alone.",
+        "The glass will be fitted after the objects are removed.",
+        "The objects will be returned before the fitting is checked."
+       ],
+       "answer": 2,
+       "why": "依据是 I can fit it once the case is empty。先清空展柜再装玻璃，即第三项。第四项颠倒了检查和放回的顺序。",
+       "point": "onestep"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "basis",
+    "onestep"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Read the email.",
+       "look": "email",
+       "text": "Subject: Morning crossing rota\n\nHello team,\nI have checked the availability forms and filled every crossing post except the one outside Oak School on Tuesday morning. Please reply only if that slot is possible. I will send the final assignments once the gap is filled. The new reflective jackets are ready, so no one needs to bring an old jacket. It is encouraging that most of the schedule is settled; this last gap should be manageable.\n\nThanks,\nMina",
+       "items": [
+        {
+         "stem": "What is most likely Mina's role?",
+         "options": [
+          "Designing new reflective jackets",
+          "Teaching classes at Oak School",
+          "Coordinating crossing volunteers",
+          "Staffing the Tuesday crossing post"
+         ],
+         "answer": 2,
+         "why": "依据是 checked the availability forms 和 send the final assignments。核对空闲时间、分派岗位，是统筹志愿者的工作，即第三项。",
+         "point": "basis"
+        },
+        {
+         "stem": "Who is most likely expected to reply?",
+         "options": [
+          "A team member free to cover the Tuesday morning slot",
+          "A team member who cannot cover the Tuesday slot",
+          "A team member who still needs a reflective jacket",
+          "A team member who wants the final assignments early"
+         ],
+         "answer": 0,
+         "why": "依据是 Please reply only if that slot is possible，that slot 指 Tuesday morning 的空缺。能顶这个岗位的成员才回复，即第一项。",
+         "point": "basis"
+        },
+        {
+         "stem": "What does Mina's final sentence suggest?",
+         "options": [
+          "All future schedules will be easy to complete.",
+          "The Tuesday post is no longer necessary.",
+          "The remaining assignment has already been accepted.",
+          "Mina is reasonably hopeful about resolving the gap."
+         ],
+         "answer": 3,
+         "why": "依据是 encouraging 和 should be manageable。Mina 认为空缺能补上，但没有说一定成功，即第四项。",
+         "point": "onestep"
+        }
+       ]
+      },
+      {
+       "label": "Read the email.",
+       "look": "email",
+       "text": "Subject: Binding sample\n\nDear Ellis,\nI have sewn the sample sections and attached them to the cover, but the book does not yet lie flat enough for comfortable use. I would rather adjust the binding now than deliver a finished volume that is awkward to open. Please confirm whether the slightly wider cover shown in the attached sketch is acceptable. Once I hear back, I can complete the adjustment. The pages themselves will remain unchanged.\n\nRegards,\nRuth",
+       "items": [
+        {
+         "stem": "What can be inferred about Ruth's work?",
+         "options": [
+          "Ruth is writing the text of the book.",
+          "Ruth is making the book's physical binding.",
+          "Ruth is printing the pages of the book.",
+          "Ruth is approving the cover for Ellis."
+         ],
+         "answer": 1,
+         "why": "依据是 sewn the sample sections and attached them to the cover。缝书页、上封面是装订工作，即第二项。",
+         "point": "basis"
+        },
+        {
+         "stem": "What is most likely needed before Ruth completes the adjustment?",
+         "options": [
+          "Ellis must rewrite all of the pages.",
+          "The book must be delivered unchanged.",
+          "Ellis must respond to the proposed cover change.",
+          "Ruth must redraw the attached sketch."
+         ],
+         "answer": 2,
+         "why": "依据是 Please confirm whether the slightly wider cover…is acceptable 和 Once I hear back。调整前要等 Ellis 对加宽封面的回复，即第三项。",
+         "point": "onestep"
+        },
+        {
+         "stem": "What does the email suggest about Ruth's attitude?",
+         "options": [
+          "Ruth considers ease of use worth an additional adjustment.",
+          "Ruth believes the present binding needs no further work.",
+          "Ruth expects every future book to need a wider cover.",
+          "Ruth thinks Ellis caused the problem with the binding."
+         ],
+         "answer": 0,
+         "why": "依据是 rather adjust the binding now than deliver…awkward to open。Ruth 宁可多调整一次，也要书用起来方便，即第一项。",
+         "point": "onestep"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

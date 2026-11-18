@@ -1,0 +1,110 @@
+{
+ "id": "listening-conversation-campus",
+ "title": "校园事务对话词汇",
+ "goal": "理解校园事务词汇及对话中的手续和解决办法。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [{"id": "vocab", "label": "理解校园事务中的常用词"}, {"id": "listen", "label": "听懂校园对话的要求和处理办法"}],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "长对话材料的教学依据"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "校园事务对话涉及课程作业、图书馆服务和住宿安排。听手续时分清三件事：谁提出要求，要做什么，结果如何。"}, {"box": "A: Can I renew this book?\nB: Yes. Please show me your library card."}, {"p": "renew 表示续借。show me your library card 是工作人员提出的手续要求。"}]},
+  {"id": "course", "type": "table", "title": "词汇表：课程作业", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["assignment", "n.", "作业", "The assignment is due on Monday."],
+   ["deadline", "n.", "截止日期", "The deadline is next Friday."],
+   ["submit", "v.", "提交", "Submit the report online."],
+   ["course", "n.", "课程", "The course meets twice a week."],
+   ["lecture", "n.", "讲课", "The lecture starts at nine."],
+   ["seminar", "n.", "研讨课", "The seminar has twelve students."],
+   ["instructor", "n.", "任课教师", "Ask the instructor about the topic."],
+   ["grade", "n.", "成绩", "The grade appears on the form."],
+   ["feedback", "n.", "反馈", "The instructor gave written feedback."],
+   ["draft", "n.", "草稿", "Bring a draft to the meeting."],
+   ["topic", "n.", "主题", "Choose a topic for the report."],
+   ["register", "v.", "注册", "Register for the course online."],
+   ["credit", "n.", "学分", "The course carries three credits."],
+   ["schedule", "n.", "日程表", "The schedule shows the class times."]
+  ]},
+  {"id": "library", "type": "table", "title": "词汇表：图书馆服务", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["borrow", "v.", "借用", "Students can borrow books here."],
+   ["renew", "v.", "续借", "Renew the book before Friday."],
+   ["return", "v.", "归还", "Return the book at the desk."],
+   ["loan", "n.", "借期", "The loan lasts two weeks."],
+   ["reserve", "v.", "预约", "Reserve a study room online."],
+   ["catalog", "n.", "目录", "Search the catalog for the title."],
+   ["shelf", "n.", "书架", "The dictionary is on that shelf."],
+   ["copy", "n.", "册", "A copy is available today."],
+   ["due", "adj.", "到期的", "The book is due tomorrow."],
+   ["overdue", "adj.", "逾期的", "The book is overdue by a day."],
+   ["fine", "n.", "罚款", "Pay the fine at the desk."],
+   ["librarian", "n.", "图书馆员", "The librarian found the title."],
+   ["card", "n.", "证件卡", "Show your library card."],
+   ["available", "adj.", "可用的", "The room is available at noon."]
+  ]},
+  {"id": "housing", "type": "table", "title": "词汇表：住宿事务", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["deposit", "n.", "押金", "Pay the deposit before moving in."],
+   ["residence", "n.", "住所", "The residence is near campus."],
+   ["roommate", "n.", "室友", "Her roommate has the key."],
+   ["rent", "n.", "租金", "The rent is due monthly."],
+   ["lease", "n.", "租约", "Read the lease before signing."],
+   ["vacancy", "n.", "空房", "There is a vacancy upstairs."],
+   ["application", "n.", "申请", "Complete the housing application."],
+   ["form", "n.", "表格", "Fill in the form at the office."],
+   ["key", "n.", "钥匙", "Collect the key at the desk."],
+   ["repair", "n.", "维修", "The tap needs a repair."],
+   ["maintenance", "n.", "维护", "Report the problem to maintenance."],
+   ["inspection", "n.", "检查", "The room inspection is on Friday."],
+   ["move", "v.", "搬家", "Students move in on Saturday."],
+   ["receipt", "n.", "收据", "Keep the deposit receipt."]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [
+   {"box": "Student: I'd like to renew this book. It's due tomorrow, but I need it for my assignment.\nLibrarian: Let me check your card. Another reader has reserved the book, so I can't renew it.\nStudent: Is another copy available?\nLibrarian: Yes. Return this one, and I'll lend you the copy on the shelf.\nStudent: Thank you. I'll return this book now."},
+   {"box": "How can the student continue to use the book?\n1. Keep the reserved copy past its due date.\n2. Borrow another copy after returning this one.\n3. Renew the reserved copy using another card.\n4. Ask the other reader to return the book."},
+   {"p": "Another reader has reserved the book 说明原书不能续借。lend you the copy on the shelf 是借另一册的办法，即第二项。"}
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["vocab"], "groups": [
+   {"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "When is the assignment due?"}, {"who": "B", "text": "The deadline is Monday."}]}, "items": [{"stem": "What does deadline mean here?", "options": ["The subject of the assignment", "The final time for submitting work", "The day the assignment is given out", "The marks given for the assignment"], "answer": 1, "why": "问句问作业何时 due，答句用 deadline 回答。deadline 指提交的截止时间，即第二项。", "point": "vocab"}]},
+   {"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "Can I renew this book?"}, {"who": "B", "text": "Yes, you can keep it another week."}]}, "items": [{"stem": "What does renew mean here?", "options": ["Borrow a different book for a week", "Return the book within a week", "Keep the book for a longer period", "Reserve the book for next week"], "answer": 2, "why": "依据是 keep it another week：书可以再留一周，renew 就是续借、延长借期，即第三项。", "point": "vocab"}]},
+   {"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "When do I pay the deposit?"}, {"who": "B", "text": "Before you move into the room."}]}, "items": [{"stem": "What is the deposit in this conversation?", "options": ["A payment made before moving in", "A payment made after moving out", "The date for moving into the room", "The room the student moves into"], "answer": 0, "why": "依据是 pay the deposit 和 Before you move into the room。deposit 是入住前交的押金，即第一项。", "point": "vocab"}]},
+   {"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "Where can I find the librarian's comments?"}, {"who": "B", "text": "The feedback is on the form."}]}, "items": [{"stem": "What does feedback refer to?", "options": ["The form the comments are written on", "The place where the form is found", "The librarian who wrote on the form", "The comments the librarian wrote"], "answer": 3, "why": "问句说 the librarian's comments，答句用 feedback 指同一内容，即第四项。第一项是写意见的表格，不是意见本身。", "point": "vocab"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["listen"], "groups": [{"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "I'd like to reserve a study room for my group."}, {"who": "B", "text": "What day do you need it?"}, {"who": "A", "text": "Thursday afternoon, if possible."}, {"who": "B", "text": "The large room is occupied, but the small room is free."}, {"who": "A", "text": "The small one is fine. How do I reserve it?"}, {"who": "B", "text": "Please fill in this form and show your library card."}, {"who": "A", "text": "I'll do that now."}, {"who": "B", "text": "Then I'll confirm the booking for Thursday."}]}, "items": [
+   {"stem": "Which room will the student request?", "options": ["The large room on Thursday", "The small room on Thursday", "The large room on Friday", "The small room on Friday"], "answer": 1, "why": "依据是 The small room is free 和 The small one is fine，学生要的是周四的小房间，即第二项。", "point": "listen"},
+   {"stem": "What must the student do to reserve the room?", "options": ["Choose a day and ask for the large room", "Bring the whole group to the desk", "Fill in a form and show a library card", "Confirm the booking on Thursday afternoon"], "answer": 2, "why": "依据是 Please fill in this form and show your library card，这是预约手续，即第三项。第四项的确认预订由馆员来做。", "point": "listen"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 8, "pass": 0.75, "points": ["vocab", "listen"], "sets": [{"id": "set-a", "groups": [
+   {"items": [{"stem": "The instructor asked for a draft before the final report. What is a draft?", "options": ["An early version of the report", "The final version of the report", "The instructor's comments on the report", "The final grade given for the report"], "answer": 0, "why": "题干说 a draft before the final report。draft 是定稿之前的草稿，即第一项。", "point": "vocab"}]},
+   {"items": [{"stem": "A student must renew a library book. What does renew mean?", "options": ["Borrow the book for the first time", "Extend the loan of the book", "Find the book in the catalog", "Return the book to the shelf"], "answer": 1, "why": "renew 指续借，也就是延长借期，即第二项。", "point": "vocab"}]},
+   {"items": [{"stem": "A book is overdue. What does this mean?", "options": ["The book can be borrowed now.", "The book is due back next week.", "The book is past its due date.", "The book is reserved for a reader."], "answer": 2, "why": "overdue 指超过了归还期限，即第三项。", "point": "vocab"}]},
+   {"items": [{"stem": "The housing office requires a deposit. What is it?", "options": ["The rent paid each month for the room", "The form completed to apply for a room", "The receipt given after paying rent", "Money held as security for the room"], "answer": 3, "why": "deposit 在住宿事务中指押金，是为房间交的保证金，即第四项。第一项是每月的租金 rent。", "point": "vocab"}]},
+   {"items": [{"stem": "A student wants to register for a course. What does the student want to do?", "options": ["Enroll as a student in the course", "Drop the course before it begins", "Check the course schedule online", "Submit the course assignment"], "answer": 0, "why": "register for a course 指注册、选上这门课，即第一项。", "point": "vocab"}]},
+   {"items": [{"stem": "A room has a vacancy. What does this indicate?", "options": ["The room needs an inspection.", "No one has taken the place yet.", "The rent has already been paid.", "The room's key has been returned."], "answer": 1, "why": "vacancy 在住宿事务中指空房或空位，还没有人住，即第二项。", "point": "vocab"}]},
+   {"audio": {"intro": "Listen to a conversation.", "lines": [
+    {"who": "A", "text": "This dictionary is due tomorrow. I need it for my assignment. Can I renew it?"},
+    {"who": "B", "text": "Let me check. Another student has reserved this copy, so it needs to come back tomorrow. I can look for another copy in the catalog."},
+    {"who": "A", "text": "I need a dictionary until next Friday, when I submit my assignment. I can return this copy now."},
+    {"who": "B", "text": "There's another one on the shelf. Please return the first copy at this desk, and then I'll lend you the other one for two weeks."},
+    {"who": "A", "text": "Thank you. Here's my library card and the book."},
+    {"who": "B", "text": "I'll take those. The other copy will be ready in a moment."},
+    {"who": "A", "text": "That's enough time for my assignment."},
+    {"who": "B", "text": "Yes. The new due date will appear on your receipt."}
+   ]}, "items": [
+    {"stem": "Why can't the student renew the first copy?", "options": ["The student needs it until next Friday.", "The book is already overdue.", "Another student has reserved it.", "Only one copy is left on the shelf."], "answer": 2, "why": "依据是 Another student has reserved this copy。原书已有别人预约，所以不能续借，即第三项。", "point": "listen"},
+    {"stem": "What solution does the librarian offer?", "options": ["Renewing the first copy until next Friday", "Holding the shelf copy until tomorrow", "Keeping both copies for two weeks", "Swapping the first copy for the shelf copy"], "answer": 3, "why": "依据是 return the first copy 和 I'll lend you the other one。先还原书，再借书架上的另一册，即第四项。", "point": "listen"}
+   ]},
+   {"audio": {"intro": "Listen to a conversation.", "lines": [
+    {"who": "A", "text": "Good morning. I'm moving into a campus residence next Saturday, and I'd like to know when I can collect my key."},
+    {"who": "B", "text": "First, please complete the housing form and pay the deposit. Bring the receipt to this office, and we can give you the key."},
+    {"who": "A", "text": "I completed the form yesterday. Can I pay the deposit at this desk?"},
+    {"who": "B", "text": "Payments are made at the cashier's office next door. It's open until four today. Keep the receipt after you pay."},
+    {"who": "A", "text": "I'll go there now and bring the receipt back before four."},
+    {"who": "B", "text": "That works. The key will be available here once we have seen the receipt."},
+    {"who": "A", "text": "Is the room inspection on Saturday too?"},
+    {"who": "B", "text": "Yes, the inspection is scheduled for Saturday morning."}
+   ]}, "items": [
+    {"stem": "What has the student already completed?", "options": ["The housing application form", "The payment of the deposit", "The collection of the room key", "The inspection of the residence"], "answer": 0, "why": "依据是 I completed the form yesterday，表格昨天已经填好，即第一项。", "point": "listen"},
+    {"stem": "What must the student bring to the housing office to collect the key?", "options": ["The schedule for the inspection", "The receipt for the deposit", "The key from the cashier", "The completed housing form"], "answer": 1, "why": "依据是 Bring the receipt to this office, and we can give you the key，交来押金收据才能领钥匙，即第二项。", "point": "listen"}
+   ]}
+  ]}]}
+ ]
+}

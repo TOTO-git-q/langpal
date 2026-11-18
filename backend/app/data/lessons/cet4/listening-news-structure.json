@@ -1,0 +1,423 @@
+{
+ "id": "listening-news-structure",
+ "title": "新闻报道的层次",
+ "goal": "区分新闻中的事件、背景和被引述意见。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "layer",
+   "label": "区分报道中的事件与背景"
+  },
+  {
+   "id": "source",
+   "label": "辨认被引述意见的来源"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "听力课程材料的依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "structure",
+   "type": "table",
+   "title": "结构",
+   "cols": [
+    "层次",
+    "作用",
+    "例"
+   ],
+   "rows": [
+    [
+     "导语",
+     "交代最新事件及主体。",
+     "The town opened a new bus stop."
+    ],
+    [
+     "补充事实",
+     "交代事件的地点、时间等。",
+     "The stop is beside the library."
+    ],
+    [
+     "背景",
+     "说明事件之前的情况。",
+     "The route began ten years ago."
+    ],
+    [
+     "引述",
+     "标明某人的陈述或意见。",
+     "The manager said the stop would help visitors."
+    ]
+   ]
+  },
+  {
+   "id": "expressions",
+   "type": "table",
+   "title": "常用表达",
+   "cols": [
+    "表达",
+    "作用",
+    "例"
+   ],
+   "rows": [
+    [
+     "opened this week",
+     "指出近期事件。",
+     "The town opened the shelter this week."
+    ],
+    [
+     "previously",
+     "引出此前情况。",
+     "Previously, buses stopped by the park."
+    ],
+    [
+     "according to",
+     "指出信息来源。",
+     "According to the council, repairs are complete."
+    ],
+    [
+     "said that",
+     "标明陈述者。",
+     "The director said that the hall was ready."
+    ],
+    [
+     "hopes that",
+     "标明某人的预期。",
+     "The manager hopes that more people will visit."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The town opened a bus shelter on Monday. It stands beside the library. The route began ten years ago. The transport manager said the shelter would help passengers in wet weather. The shelter has a roof and seats for waiting passengers. Workers installed it last week after residents requested a covered place. The council paid for the work and has placed the timetable inside the shelter. The route itself remains unchanged.\nWho said the shelter would help passengers?\n1. The library director\n2. The transport manager\n3. The bus passengers\n4. The town council"
+    },
+    {
+     "p": "The transport manager said 标明第二项为陈述者。route began ten years ago 是背景，opened a bus shelter 是最新事件。"
+    },
+    {
+     "box": "The public pool reopened on Friday. Its heating system was repaired this month. The pool was built fifteen years ago. A swimming teacher said the reopening would help local classes. Engineers completed the work on Thursday. The town paid for the repairs and checked the water before visitors returned. Regular public sessions have resumed, while classes will begin again next week. A current timetable is available at reception."
+    },
+    {
+     "p": "reopened 是最新事件，repaired 是补充事实，built fifteen years ago 是背景。swimming teacher 是被引述意见的来源。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "常见错误",
+   "cols": [
+    "类型",
+    "原文",
+    "辨析"
+   ],
+   "rows": [
+    [
+     "事件与背景",
+     "The pool reopened; it was built fifteen years ago.",
+     "reopened 是最新事件。"
+    ],
+    [
+     "引述来源",
+     "The teacher said the reopening would help classes.",
+     "意见属于 teacher。"
+    ],
+    [
+     "陈述与引述",
+     "The shelter opened. The manager said it would help.",
+     "第二句标明意见来源。"
+    ],
+    [
+     "预期与事实",
+     "The manager hopes more people will visit.",
+     "hopes 引出预期。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "layer",
+    "source"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The town opened a shelter today. The bus route began ten years ago."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is the latest event?",
+       "options": [
+        "The route began ten years ago.",
+        "The town opened a shelter.",
+        "The route closed ten years ago.",
+        "The town removed the shelter."
+       ],
+       "answer": 1,
+       "why": "opened a shelter today 是最新事件。",
+       "point": "layer"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The pool reopened on Friday. It was built fifteen years ago."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which detail is background?",
+       "options": [
+        "The pool reopened on Friday.",
+        "The pool closed on Friday.",
+        "The pool was built fifteen years ago.",
+        "The pool reopened fifteen years ago."
+       ],
+       "answer": 2,
+       "why": "built fifteen years ago 说明过去的背景。",
+       "point": "layer"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The library opened a garden. The director said it would help local readers."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Who said the garden would help readers?",
+       "options": [
+        "The local readers",
+        "The garden visitors",
+        "The library staff",
+        "The library director"
+       ],
+       "answer": 3,
+       "why": "The director said 标明意见来源。",
+       "point": "source"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The council changed the bus route. A shopkeeper said the change would bring more customers."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Who expects more customers?",
+       "options": [
+        "A local shopkeeper",
+        "The town council",
+        "The bus passengers",
+        "The route planners"
+       ],
+       "answer": 0,
+       "why": "A shopkeeper said 标明预期的来源。",
+       "point": "source"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "layer",
+    "source"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The town of Millbrook reopened its public fountain on Saturday after repairs to its water system. Workers replaced a damaged pipe and cleaned the stone basin during the three-week closure. The fountain stands in the central square beside the library. It was built more than fifty years ago, when the square was first laid out. A town engineer said the new pipe would make maintenance easier. The library director welcomed the reopening and said visitors often used the square before coming into the library. The town paid for the repairs, while local volunteers planted flowers around the fountain. A small notice near the basin describes the history of the square. The town council plans to check the fountain again at the end of the summer. It has not announced any further work in the square. Visitors can find the opening hours of the library on a separate notice beside its main entrance."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which event took place on Saturday?",
+       "options": [
+        "The square was first laid out.",
+        "The fountain reopened to the public.",
+        "The pipe was first damaged.",
+        "The library was built beside the square."
+       ],
+       "answer": 1,
+       "why": "reopened its public fountain on Saturday 是最新事件。",
+       "point": "layer"
+      },
+      {
+       "stem": "Who said the new pipe would make maintenance easier?",
+       "options": [
+        "The library director",
+        "A local volunteer",
+        "A town engineer",
+        "A visitor to the square"
+       ],
+       "answer": 2,
+       "why": "A town engineer said 指出意见来源。",
+       "point": "source"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "layer",
+    "source"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The Westbrook council opened a new bus shelter outside the community clinic on Tuesday. The shelter has seats and a roof, and it stands beside the existing bus stop. Previously, passengers waited at the stop without a covered area. The clinic opened at the site eight years ago, and bus service to the area began the following year. A transport officer said the shelter would give passengers protection from rain while they waited. The clinic manager said the new seats would be useful for visitors with long journeys. The council paid for construction, and a local firm installed the shelter last week. A timetable is displayed inside it, showing the same bus times as before. The council plans to ask passengers for comments during the next month. It has not announced a decision about shelters at other stops. Printed copies of the timetable remain available at the clinic reception desk during its usual opening hours."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is the latest event in the report?",
+         "options": [
+          "A bus shelter opened outside the clinic.",
+          "The clinic opened eight years ago.",
+          "Bus service began at the clinic.",
+          "The council removed the bus timetable."
+         ],
+         "answer": 0,
+         "why": "opened a new bus shelter ... on Tuesday 是报道的最新事件。",
+         "point": "layer"
+        },
+        {
+         "stem": "Which detail provides background to the new shelter?",
+         "options": [
+          "A local firm installed it last week.",
+          "The council plans to ask for comments.",
+          "Bus service began after the clinic opened.",
+          "A timetable is displayed inside it."
+         ],
+         "answer": 2,
+         "why": "bus service ... began the following year 说明新候车亭出现之前的情况。",
+         "point": "layer"
+        },
+        {
+         "stem": "Who said the seats would help visitors with long journeys?",
+         "options": [
+          "The transport officer",
+          "The clinic manager",
+          "The local firm",
+          "The waiting passengers"
+         ],
+         "answer": 1,
+         "why": "The clinic manager said 标明被引述意见的来源。",
+         "point": "source"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The Riverdale public pool reopened on Friday following repairs to its heating system. The pool closed for two weeks while engineers replaced a damaged part. Its changing rooms and entrance remained open to staff during the work, but visitors used a nearby school pool instead. The public pool was built twelve years ago and had received routine maintenance each summer. The town paid for the recent repairs, and engineers tested the heating system on Thursday. The pool manager said the water had reached its normal temperature before reopening. A swimming teacher said the return to the public pool would make it easier to organize weekend classes. The town has restored the usual timetable, including public sessions in the evenings. Staff will check the heating system again at the end of the month. No additional closure has been scheduled, and visitors can obtain the current timetable at the pool reception desk."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which event is the focus of the latest report?",
+         "options": [
+          "The pool was built twelve years ago.",
+          "Visitors moved to the school pool.",
+          "The heating part was damaged years ago.",
+          "The public pool reopened after repairs."
+         ],
+         "answer": 3,
+         "why": "reopened on Friday following repairs 表示最新事件。",
+         "point": "layer"
+        },
+        {
+         "stem": "Who said the water had reached its normal temperature?",
+         "options": [
+          "The swimming teacher",
+          "The pool manager",
+          "The pool's visitors",
+          "The town's engineers"
+         ],
+         "answer": 1,
+         "why": "The pool manager said 指出陈述者。",
+         "point": "source"
+        },
+        {
+         "stem": "Who expected the reopening to help weekend classes?",
+         "options": [
+          "The pool receptionist",
+          "The town's engineers",
+          "A swimming teacher",
+          "The pool manager"
+         ],
+         "answer": 2,
+         "why": "A swimming teacher said 标明这项预期来自游泳教师。",
+         "point": "source"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

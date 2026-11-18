@@ -1,0 +1,281 @@
+{
+ "id": "reading-overview",
+ "title": "阅读部分概览：题型、题量、时间",
+ "goal": "识别阅读题型、阶段安排和计分方式，并按题型分配时间。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "format",
+   "label": "说出三类题的任务、题量和材料长度"
+  },
+  {
+   "id": "timing",
+   "label": "按题型分配作答时间"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、计分、自适应"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明和官方样题（挖空规则是对照样题和答案看出来的）"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Reading Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-reading.pdf",
+   "used": "第 1 课：三类题的说明和需要的三项基本功"
+  }
+ ],
+ "cards": [
+  {
+   "id": "facts",
+   "type": "facts",
+   "title": "概述",
+   "rows": [
+    {
+     "k": "题量",
+     "v": "阅读共 50 题，其中有不计分的题。补全单词 30 题，日常文字和学术短文各 5–15 题。",
+     "src": "spec 第 2–4 页"
+    },
+    {
+     "k": "时间",
+     "v": "第一阶段约 18–21 分钟，第二阶段约 9 分钟，合计约 27–30 分钟。官方概览文件写的是约 30 分钟。",
+     "src": "spec 第 2–4 页；overview 第 4 页"
+    },
+    {
+     "k": "阶段",
+     "v": "阅读分两个阶段。第二阶段的难度由第一阶段的表现决定。",
+     "src": "spec 第 3 页；overview 第 3 页"
+    },
+    {
+     "k": "单题计分",
+     "v": "计分题每题最多 1 分，由机器评分。计分题少于题目总数。",
+     "src": "spec 第 3、10 页"
+    },
+    {
+     "k": "报告分数",
+     "v": "阅读单项和总分都用 1–6 分，以 0.5 分为一档。总分是四个单项的平均分，取到整分或半分。",
+     "src": "overview 第 21 页"
+    }
+   ]
+  },
+  {
+   "id": "types",
+   "type": "table",
+   "title": "题型",
+   "cols": [
+    "题型",
+    "任务和材料",
+    "题量"
+   ],
+   "rows": [
+    [
+     "Complete the Words",
+     "约 70–100 词的学术段落，按已给的字母补全单词。",
+     "每段 10 空，共 30 空"
+    ],
+    [
+     "Read in Daily Life",
+     "约 15–150 词的通知、邮件、短信等，考目的、细节和隐含信息。",
+     "每篇 2–3 题，共 5–15 题"
+    ],
+    [
+     "Read an Academic Passage",
+     "约 200 词的说明文，考事实、词义、推断、关系和目的。",
+     "每篇 5 题，共 5–15 题"
+    ]
+   ],
+   "src": "spec 第 4 页；overview 第 5–7 页"
+  },
+  {
+   "id": "bands",
+   "type": "table",
+   "title": "分数段",
+   "cols": [
+    "CEFR 等级",
+    "阅读分数段",
+    "能力示例"
+   ],
+   "rows": [
+    [
+     "A1",
+     "1–1.5",
+     "理解常见词和简单短语，如 Room closed。"
+    ],
+    [
+     "A2",
+     "2–2.5",
+     "读懂简单日常文字，如 The office opens at noon。"
+    ],
+    [
+     "B1",
+     "3–3.5",
+     "借助连接词理解关系，如 The road was wet, so traffic slowed。"
+    ],
+    [
+     "B2",
+     "4–4.5",
+     "理解较复杂论述，如 Although costs fell, demand remained weak。"
+    ],
+    [
+     "C1",
+     "5–5.5",
+     "理解隐含意义，如 The proposal leaves several questions unresolved。"
+    ],
+    [
+     "C2",
+     "6",
+     "理解细微差别，如 The evidence is suggestive rather than conclusive。"
+    ]
+   ],
+   "src": "overview 第 21 页；spec 第 9 页",
+   "note": "例句为本课程自编，只用来说明各等级的阅读能力。"
+  },
+  {
+   "id": "timing",
+   "type": "table",
+   "title": "时间分配",
+   "cols": [
+    "题型或环节",
+    "本课程建议",
+    "示例"
+   ],
+   "rows": [
+    [
+     "补全单词",
+     "每段约 2 分钟。先补有把握的空，再回读。",
+     "Fill in the missing letters.：10 空约 2 分钟。"
+    ],
+    [
+     "日常文字",
+     "每题约 45 秒。先读题干，再核对条件。",
+     "Read a notice.：2 题约 90 秒。"
+    ],
+    [
+     "学术短文",
+     "每篇约 6 分钟，包括读文和核对依据。",
+     "Read an academic passage.：5 题约 6 分钟。"
+    ],
+    [
+     "阶段内检查",
+     "两个阶段分别计时。按本阶段剩下的时间检查没做完的题。",
+     "The second module lasts about nine minutes.：按这 9 分钟安排检查。"
+    ]
+   ],
+   "note": "以上为本课程的建议，不是官方规定。各题型的题数每套试卷不同，时间要按实际题数调整。"
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 4,
+   "pass": 0.8,
+   "points": [
+    "format",
+    "timing"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Read the text.",
+       "look": "passage",
+       "text": "The reading section contains 50 items, including some that do not count toward the score. Complete the Words uses academic paragraphs of about 70–100 words, with 10 incomplete words in each. Read in Daily Life uses texts of about 15–150 words, followed by two or three questions. Academic passages are about 200 words long and have five questions.",
+       "items": [
+        {
+         "stem": "Which task requires the completion of partially printed words?",
+         "options": [
+          "The task using short academic paragraphs",
+          "The task using everyday correspondence",
+          "The task using two or three questions per text",
+          "The task using academic multiple-choice passages"
+         ],
+         "answer": 0,
+         "why": "依据是 Complete the Words uses academic paragraphs of about 70–100 words, with 10 incomplete words in each，即第一项。第四项的学术短文是选择题。",
+         "point": "format"
+        },
+        {
+         "stem": "Which description matches Read in Daily Life?",
+         "options": [
+          "About 200 words followed by five questions",
+          "About 70–100 words with ten incomplete words",
+          "About 15–150 words followed by two or three questions",
+          "About 15–150 words with ten incomplete words"
+         ],
+         "answer": 2,
+         "why": "依据是 texts of about 15–150 words, followed by two or three questions，即第三项。第四项把日常文字的长度和补全单词的任务拼在了一起。",
+         "point": "format"
+        },
+        {
+         "stem": "What does the total of 50 reading items include?",
+         "options": [
+          "Only items that contribute to the reported score",
+          "Scored items along with some unscored items",
+          "Only the questions following academic passages",
+          "Fifty scored items plus unscored extras"
+         ],
+         "answer": 1,
+         "why": "依据是 including some that do not count toward the score。50 题里既有计分题，也有不计分的题，即第二项。",
+         "point": "format"
+        }
+       ]
+      },
+      {
+       "label": "Read the text.",
+       "look": "passage",
+       "text": "Reading has two stages. Performance in the first stage determines the difficulty of the second. Reading scores are reported from 1 to 6 in half-point steps. For practice, this course recommends about two minutes for a Complete the Words paragraph, about 45 seconds per daily-life question, and about six minutes for an academic passage with five questions. These allocations are course recommendations, not official task limits.",
+       "items": [
+        {
+         "stem": "What determines the difficulty of the second reading stage?",
+         "options": [
+          "The length of the academic passage chosen by the student",
+          "The time spent on the first reading stage",
+          "The score reported for the reading section",
+          "The level of performance in the first reading stage"
+         ],
+         "answer": 3,
+         "why": "依据是 Performance in the first stage determines the difficulty of the second，即第四项。",
+         "point": "format"
+        },
+        {
+         "stem": "Under the course recommendation, how much time is allocated to a daily-life text with two questions?",
+         "options": [
+          "About one and a half minutes",
+          "About two and a half minutes",
+          "About four and a half minutes",
+          "About six and a half minutes"
+         ],
+         "answer": 0,
+         "why": "依据是 about 45 seconds per daily-life question。两题共约 90 秒，即一分半，第一项；这是本课程的建议，不是官方限时。",
+         "point": "timing"
+        },
+        {
+         "stem": "Which allocation follows the course recommendation?",
+         "options": [
+          "Six minutes for each ten-gap paragraph",
+          "Forty-five seconds for an entire academic passage",
+          "Two minutes for one Complete the Words paragraph",
+          "Two minutes for each individual daily-life question"
+         ],
+         "answer": 2,
+         "why": "依据是 about two minutes for a Complete the Words paragraph，即第三项。2 分钟是一整段的时间，不是一个空。",
+         "point": "timing"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

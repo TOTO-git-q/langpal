@@ -1,0 +1,53 @@
+{
+ "id": "translation-noun-phrases",
+ "title": "中文定语与英语名词短语",
+ "goal": "能识别中心名词，并按修饰关系组织英语名词短语。",
+ "skill": "翻译",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "head", "label": "找出名词短语的中心词"},
+  {"id": "modifier", "label": "按修饰关系组织英文名词短语"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译教学范围"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "名词短语的中心词表示所说的人或事物，其他成分说明它的材料、用途、所属或地点。汉语修饰语常放在名词前；英语介词短语常放在中心词后。"},
+   {"box": "村里的木桥：the wooden bridge in the village。中心词是 bridge，wooden 表示材料，in the village 表示地点。"}
+  ]},
+  {"id": "material-use", "type": "table", "title": "材料与用途", "cols": ["关系", "用法", "例句"], "rows": [
+   ["材料", "形容词放在中心名词前。", "一张木制桌子：a wooden table"],
+   ["材料", "名词可放在中心名词前表示材料。", "一座石桥：a stone bridge"],
+   ["用途", "名词修饰语可表示用途。", "一间音乐教室：a music classroom"],
+   ["用途", "for 短语可说明用途。", "一间供访客休息的房间：a room for visitors to rest in"]
+  ]},
+  {"id": "owner-place", "type": "table", "title": "所属与地点", "cols": ["关系", "用法", "例句"], "rows": [
+   ["所属", "of 短语放在中心词后。", "学校的历史：the history of the school"],
+   ["所属", "人名所有格放在中心词前。", "玛丽的画作：Mary's painting"],
+   ["地点", "in 短语放在中心词后。", "村里的古桥：the old bridge in the village"],
+   ["地点", "near 短语说明附近的位置。", "车站附近的公园：the park near the station"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "村里的一座古老石桥：an old stone bridge in the village"},
+   {"p": "bridge 是中心词。old 和 stone 放在 bridge 前，in the village 放在 bridge 后。地点短语修饰桥，而不是石头。"}
+  ]},
+  {"id": "check-head", "type": "check", "title": "练习一", "points": ["head"], "groups": [{"items": [
+   {"stem": "村里一座古老的石桥。Which word names the structure?", "options": ["village", "bridge", "stone", "old"], "answer": 1, "why": "bridge 表示所说的建筑，是名词短语的中心词。", "point": "head"},
+   {"stem": "学校的一间宽敞音乐教室。Which word names the room?", "options": ["school", "music", "spacious", "classroom"], "answer": 3, "why": "classroom 表示所说的房间，是中心词。", "point": "head"}
+  ]}]},
+  {"id": "check-modifier", "type": "check", "title": "练习二", "points": ["modifier"], "groups": [{"items": [
+   {"stem": "车站附近的一座古老公园。", "options": ["an old park near the station", "an old station near the park", "a station in the old park", "a park near the old station"], "answer": 0, "why": "古老修饰的是公园，车站附近表示公园的位置。第一项以 park 为中心词，old 在前，near the station 在后；第四项把 old 移到了 station 前。", "point": "modifier"},
+   {"stem": "村里的一张木制桌子。", "lead": "a", "chunks": ["wooden", "table", "in", "the village"], "tail": ".", "extra": ["stone"], "why": "wooden 修饰 table，in the village 放在中心词后。", "point": "modifier"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["head", "modifier"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "河边的一座古老石桥。Which word names the structure?", "options": ["riverside", "stone", "bridge", "old"], "answer": 2, "why": "bridge 是短语所指的建筑，其他成分修饰它。", "point": "head"},
+   {"stem": "大学的一间宽敞音乐教室。Which word names the room?", "options": ["university", "music", "spacious", "classroom"], "answer": 3, "why": "classroom 是所说的房间，即中心词。", "point": "head"},
+   {"stem": "公园里的一张木制长椅。", "options": ["a wooden bench in the park", "a wooden bench near the park", "a stone bench in the park", "the park with a wooden bench"], "answer": 0, "why": "原文是公园里的木制长椅，bench 是中心词。wooden 表示材料，in the park 表示地点，即第一项；第二项把里写成了附近。", "point": "modifier"},
+   {"stem": "学校的一间音乐教室。", "options": ["a classroom near the music school", "a music classroom in the school", "a school with a music classroom", "a music classroom near the school"], "answer": 1, "why": "原文的中心词是教室，music 放在 classroom 前，in the school 表示教室所在的学校，即第二项。第四项把学校的写成了学校附近。", "point": "modifier"},
+   {"stem": "村里的一座古老石桥。", "lead": "an", "chunks": ["old", "stone", "bridge", "in the village"], "tail": ".", "extra": ["wooden"], "why": "old 和 stone 修饰 bridge，地点短语位于中心词后。", "point": "modifier"},
+   {"stem": "车站附近的一座小公园。", "lead": "a", "chunks": ["small", "park", "near", "the station"], "tail": ".", "extra": ["school"], "why": "small 修饰 park，near the station 表示位置。", "point": "modifier"},
+   {"stem": "村里的一座石桥。Complete the head noun: a stone ___ in the village.", "accept": ["bridge"], "why": "bridge 表示所说的桥，是中心词。", "point": "head"},
+   {"stem": "学校的一间音乐教室。Complete the head noun: a music ___ in the school.", "accept": ["classroom"], "why": "classroom 表示所说的教室，是中心词。", "point": "head"}
+  ]}]}]}
+ ]
+}

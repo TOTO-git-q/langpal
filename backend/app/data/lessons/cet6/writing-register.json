@@ -1,0 +1,436 @@
+{
+ "id": "writing-register",
+ "title": "书面表达的准确程度",
+ "goal": "选择符合短文语域的表达；保留原意中的范围和判断程度。",
+ "skill": "写作",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "formal",
+   "label": "选择符合短文语域的表达"
+  },
+  {
+   "id": "degree",
+   "label": "保留原意中的范围和判断程度"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语六级（CET-6）：课表",
+   "url": "docs/syllabi/cet6.md",
+   "used": "写作部分本课的内容范围、知识点与练习规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "书面论述要写明对象，评价要具体，判断的程度要恰当。正式论述通常用完整形式，不用口语缩写。缩写本身并不是语法错误。改写时保留原句的否定、可能性和适用范围。"
+    },
+    {
+     "box": "The plan can’t cover every case. → The plan cannot cover every case."
+    },
+    {
+     "p": "含混的判断要靠写出依据来改，不靠换成华丽的词。The guide is good. 如果依据是步骤清楚，就写成 The guide explains each step clearly. 没有依据时，不自行补上效果优异之类的评价。"
+    }
+   ]
+  },
+  {
+   "id": "neutral",
+   "type": "table",
+   "title": "中性评价",
+   "cols": [
+    "情况",
+    "写法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "缩写与具体性",
+     "保留否定，再说明评价依据。",
+     "Context: The map omits the back entrance. Informal: It isn’t good. Precise: The map does not show the back entrance."
+    ],
+    [
+     "笼统赞美",
+     "写出看得到的特点，不加强程度。",
+     "Context: Labels name each control. Vague: The panel is great. Precise: The panel identifies each control clearly."
+    ],
+    [
+     "含混名词",
+     "用已给出的对象替换 stuff 等泛称。",
+     "Context: Missing cost figures. Vague: The report lacks some stuff. Precise: The report lacks the cost figures."
+    ],
+    [
+     "情绪评价",
+     "用材料中的事实代替带情绪的判断。",
+     "Context: No explanation of rejected requests. Informal: The reply is useless. Precise: The reply does not explain why the requests were rejected."
+    ]
+   ]
+  },
+  {
+   "id": "scope",
+   "type": "table",
+   "title": "范围限定",
+   "cols": [
+    "情况",
+    "写法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "some",
+     "部分不能改成全部或大多数。",
+     "Original: Some users need guidance. Revision: Guidance is necessary for certain users."
+    ],
+    [
+     "in this trial",
+     "单次试用不能推出所有场景。",
+     "Original: The method worked in this trial. Revision: The trial showed a successful use of the method."
+    ],
+    [
+     "under these conditions",
+     "改写后仍保留条件。",
+     "Original: The coating lasts under dry conditions. Revision: In a dry environment, the coating remains durable."
+    ],
+    [
+     "not all",
+     "not all 是有一部分不，不是全部不。",
+     "Original: Not all requests were approved. Revision: At least some requests were not approved."
+    ]
+   ]
+  },
+  {
+   "id": "strength",
+   "type": "table",
+   "title": "语气强弱",
+   "cols": [
+    "情况",
+    "写法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "may",
+     "可能性不能改为必然结果。",
+     "Original: The reminder may reduce delays. Revision: The reminder could help reduce delays."
+    ],
+    [
+     "tends to",
+     "tends to 表示多数情况如此，不写成总是如此。",
+     "Original: The layout tends to slow entry. Revision: Entry is generally slower with this layout."
+    ],
+    [
+     "should",
+     "should 表示建议，不写成已经发生的事。",
+     "Original: The office should review the rule. Revision: A review of the rule is advisable."
+    ],
+    [
+     "must",
+     "明确要求不能弱化为可选建议。",
+     "Original: Staff must record each loan. Revision: Recording each loan is required of staff."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A draft describes a trial sign as “really good” and says it “will solve everyone’s problems.” The recorded observation is narrower: several first-time visitors used the sign to locate the reception desk without asking for help. A precise revision should name that function, retain the limited group, and avoid turning an observation into a universal prediction. “The sign helped several first-time visitors locate reception independently” expresses the recorded benefit. It does not claim that the sign removes every difficulty for every visitor."
+    },
+    {
+     "box": "Which change preserves the evidence?\n1. Replace several with all to make the evaluation clearer.\n2. Describe every visitor’s future experience as certain.\n3. Replace the observed benefit with a general expression of approval.\n4. Name independent wayfinding and retain several first-time visitors."
+    },
+    {
+     "p": "第四项保留了观察对象、具体作用和范围。several 限定人数，helped 说的是已经观察到的作用，改写时都要保留。正式表达不需要扩大结论。"
+    }
+   ]
+  },
+  {
+   "id": "practice-1",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "formal",
+    "degree"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Observation: The index lists topics but omits page numbers. Which revision makes “The index is bad” precise?",
+       "options": [
+        "The index does not provide page numbers for the listed topics.",
+        "The index is a remarkably bad resource for every possible topic.",
+        "The index is not good and is probably bad for everyone.",
+        "The index provides no topics or page numbers of any kind."
+       ],
+       "answer": 0,
+       "why": "omits page numbers 指出了具体的不足，第一项照此改写。第四项连已列出的 topics 也否定了。",
+       "point": "formal"
+      },
+      {
+       "stem": "Original: Some participants may prefer a written explanation. Which revision preserves both limits?",
+       "options": [
+        "A written explanation is preferable for every participant.",
+        "A written explanation could be preferable for certain participants.",
+        "Every participant must prefer receiving a written explanation.",
+        "No participant is likely to prefer a written explanation."
+       ],
+       "answer": 1,
+       "why": "Some 对应 certain，may 对应 could。第二项两处限定都保留了。",
+       "point": "degree"
+      },
+      {
+       "stem": "The note identifies the required documents. Which revision of “This stuff is useful” names the observed function?",
+       "options": [
+        "The documents are good because they are useful stuff.",
+        "The note establishes that every submitted document is sufficient.",
+        "The note specifies which documents are required.",
+        "The note proves that no further documents could ever be needed."
+       ],
+       "answer": 2,
+       "why": "identifies the required documents 对应第三项的 specifies which documents are required。",
+       "point": "formal"
+      },
+      {
+       "stem": "Original: Not all of the suggested changes were adopted. Which restatement is equivalent?",
+       "options": [
+        "None of the suggested changes were adopted.",
+        "All of the suggested changes were adopted.",
+        "Exactly half of the suggested changes were adopted.",
+        "At least some suggested changes were not adopted."
+       ],
+       "answer": 3,
+       "why": "Not all 只说明至少有一部分没有采用，即第四项。第一项把它改成了全部没有采用。",
+       "point": "degree"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-2",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "formal",
+    "degree"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Replace a vague negative evaluation with the observed omission of an explanation.",
+       "lead": "The reply",
+       "chunks": [
+        "does not",
+        "provide an explanation",
+        "of",
+        "the revised procedure"
+       ],
+       "tail": ".",
+       "extra": [
+        "doesn’t"
+       ],
+       "why": "正式论述用完整形式 does not，不用 doesn’t。provide an explanation of 指出缺少的是说明。",
+       "point": "formal"
+      },
+      {
+       "stem": "Name the function that makes an illustrated guide useful.",
+       "lead": "The guide",
+       "chunks": [
+        "provides a clear",
+        "description of",
+        "each stage",
+        "in the process"
+       ],
+       "tail": ".",
+       "extra": [
+        "great stuff about"
+       ],
+       "why": "provides a clear description of each stage 写出了指南的具体作用，比 great stuff 具体。",
+       "point": "formal"
+      },
+      {
+       "stem": "Keep a possibility limited to a subset of users.",
+       "lead": "The alternative",
+       "chunks": [
+        "may suit",
+        "some users",
+        "who need",
+        "a flexible schedule"
+       ],
+       "tail": ".",
+       "extra": [
+        "will suit all"
+       ],
+       "why": "may 限定可能性，some users 限定范围。",
+       "point": "degree"
+      },
+      {
+       "stem": "Retain an obligation without turning it into optional advice.",
+       "lead": "The procedure",
+       "chunks": [
+        "requires",
+        "staff to record",
+        "the reason",
+        "for each change"
+       ],
+       "tail": ".",
+       "extra": [
+        "suggests"
+       ],
+       "why": "requires staff to record 表示明确的要求。换成 suggests 就成了建议，强度变弱。",
+       "point": "degree"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "formal",
+    "degree"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "The evidence says a notice names the collection point but omits the collection date. Which formal revision makes “The notice isn’t good” specific?",
+         "options": [
+          "The notice identifies the collection point but does not state the collection date.",
+          "The notice is an extremely poor document that gives no useful collection information.",
+          "The notice identifies every collection detail needed by everyone who plans to attend.",
+          "The notice is not good because the collection information is just not good enough."
+         ],
+         "answer": 0,
+         "why": "names the collection point 和 omits the collection date 两点，第一项都保留了。第二项改成了没有任何有用信息。",
+         "point": "formal"
+        },
+        {
+         "stem": "Original: The new schedule may reduce waiting for some afternoon visitors. Which revision preserves both uncertainty and the limited group?",
+         "options": [
+          "All afternoon visitors will face a shorter wait under the new schedule.",
+          "Certain afternoon visitors could face a shorter wait under the new schedule.",
+          "Certain morning visitors must face no wait under the new schedule.",
+          "No afternoon visitor can face a shorter wait under the new schedule."
+         ],
+         "answer": 1,
+         "why": "may 对应 could，some afternoon visitors 对应 certain afternoon visitors，即第二项。",
+         "point": "degree"
+        },
+        {
+         "stem": "The draft calls a comparison “great.” The stated reason is that it separates initial cost from continuing cost. Which revision is precise without adding an outcome?",
+         "options": [
+          "The comparison is extraordinarily great because its discussion of costs is very good.",
+          "The comparison proves that initial expenses are always lower than continuing costs over time.",
+          "The comparison distinguishes the initial expense from the costs that continue over time.",
+          "The comparison guarantees that choosing the lowest initial expense eliminates every continuing cost."
+         ],
+         "answer": 2,
+         "why": "separates initial cost from continuing cost 对应第三项的 distinguishes。第二项加上了哪类成本更低的结论，原句没有这个意思。",
+         "point": "formal"
+        },
+        {
+         "stem": "Original: Staff must obtain approval before changing the shared record. Which revision preserves the obligation and its timing?",
+         "options": [
+          "Approval is advisable after staff make a change to the shared record.",
+          "Approval may be obtained whenever staff find it convenient to change the record.",
+          "Approval is optional if staff have already made a change to the record.",
+          "Approval is required before staff make a change to the shared record."
+         ],
+         "answer": 3,
+         "why": "must 对应 is required，before 保留了时间要求，即第四项。第一项把要求改成了建议，时间也改到了之后。",
+         "point": "degree"
+        }
+       ]
+      },
+      {
+       "items": [
+        {
+         "stem": "Express the observed limitation in complete formal wording rather than a contraction or vague criticism.",
+         "lead": "The report",
+         "chunks": [
+          "does not explain",
+          "the basis for",
+          "the difference between",
+          "the two estimates"
+         ],
+         "tail": "that were presented to the committee during its review of the proposal.",
+         "extra": [
+          "doesn’t explain"
+         ],
+         "why": "does not 是完整形式。the basis for the difference 写明了缺少的内容。",
+         "point": "formal"
+        },
+        {
+         "stem": "Specify what a list contributes rather than describing it with a general word of praise.",
+         "lead": "The list",
+         "chunks": [
+          "identifies",
+          "the documents",
+          "required for",
+          "a complete application"
+         ],
+         "tail": "to the program that accepts proposals from local organizations each spring.",
+         "extra": [
+          "is great about"
+         ],
+         "why": "identifies the documents 写出清单的具体作用，不用 is great about 这样笼统的赞美。",
+         "point": "formal"
+        },
+        {
+         "stem": "Preserve the original possibility for a restricted group without converting it into a prediction about everyone.",
+         "lead": "The revised arrangement",
+         "chunks": [
+          "may benefit",
+          "participants who",
+          "need access",
+          "outside regular hours"
+         ],
+         "tail": "because their other commitments prevent them from attending during the usual period.",
+         "extra": [
+          "will benefit everyone who"
+         ],
+         "why": "may 保留了可能性，participants who need access 限定了人群。will benefit everyone who 会把它变成对所有人的必然结果。",
+         "point": "degree"
+        },
+        {
+         "stem": "Keep the observed finding limited to the trial described in the body of the report.",
+         "lead": "The improvement",
+         "chunks": [
+          "was observed in",
+          "the trial described",
+          "in the",
+          "report"
+         ],
+         "tail": "and has not yet been demonstrated under the other conditions now being considered.",
+         "extra": [
+          "is guaranteed everywhere"
+         ],
+         "why": "was observed in the trial 把发现限定在这次试验中，不写成 is guaranteed everywhere。",
+         "point": "degree"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

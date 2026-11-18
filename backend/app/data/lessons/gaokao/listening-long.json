@@ -1,0 +1,47 @@
+{
+  "id": "listening-long", "title": "较长对话或独白　听力第二节 · 练习", "goal": "听懂较长对话和独白的主旨、细节与原因。", "skill": "listening", "exam": "高考英语（新课标卷）",
+  "points": [{"id": "main", "label": "概括谈话或独白的主要内容"}, {"id": "detail", "label": "对应人物与关键细节"}, {"id": "cause", "label": "根据原因和限制解释决定"}],
+  "sources": [{"id": "sample", "title": "2024 年高考综合改革适应性测试 英语（新课标卷）试卷（教育部教育考试院）", "url": "https://www.neea.edu.cn/html1/report/2401/499-1.htm", "used": "听力第二节题型"}],
+  "cards": [{"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.7, "points": ["main", "detail", "cause"],
+    "sets": [
+      {"id": "set-a", "groups": [
+        {"audio": {"intro": "Listen to the recording.", "lines": [
+          {"who": "A", "text": "Hi, Nina. Have you decided what our class should do for the community day? We need to give the teacher a plan by Friday."},
+          {"who": "B", "text": "I've been thinking about the riverside path. There's a lot of litter there after weekends, and younger children use the path to get to the park."},
+          {"who": "A", "text": "Cleaning it sounds useful. I originally wanted to plant trees, but the council says we need special permission to dig there."},
+          {"who": "B", "text": "Then let's collect litter instead. My uncle can lend us gloves and bags, so we won't need to buy those. We should still ask the council where to leave the full bags."},
+          {"who": "A", "text": "I'll make that call tomorrow. Can you write a notice for our classmates? We should meet at the school gate at nine and walk down together."},
+          {"who": "B", "text": "Sure. I'll also ask everyone to wear strong shoes. If it rains heavily, we can move the work to the following Saturday."}
+        ]}, "items": [
+          {"stem": "What are the speakers mainly planning?", "options": ["A class visit to a park.", "A community clean-up.", "A tree-planting lesson."], "answer": 1, "why": "两人商量组织同学清理河边步道上的垃圾。", "point": "main"},
+          {"stem": "What will the first speaker do?", "options": ["Contact the council.", "Write a notice.", "Lend out gloves."], "answer": 0, "why": "第一人说明天打电话给议会，通知由另一人写。", "point": "detail"},
+          {"stem": "Why do they decide against planting trees?", "options": ["They cannot find a place to meet.", "The tools cost too much.", "Digging requires permission."], "answer": 2, "why": "议会说在那里挖土需要特别许可。", "point": "cause"}
+        ]},
+        {"audio": {"intro": "Listen to the recording.", "lines": [{"who": "A", "text": "Good morning, visitors. Welcome to the town museum's Saturday workshop. Today we'll learn how people made paper by hand. First, please leave your coats on the hooks near the entrance. The tables in the main hall are already set up with bowls, screens and pieces of old paper. At ten, our guide will show you each step, and after that you can make a sheet of your own. We had planned to dry the sheets outdoors, but the forecast says rain is likely, so we will use the warm room upstairs instead. Your paper will need several hours to dry. You may collect it from the front desk tomorrow afternoon, or leave your address and we can post it to you. Children should work with an adult, because the bowls of water can be difficult to carry. If you have any questions, please ask a member of staff wearing a blue badge."}]}, "items": [
+          {"stem": "What is the announcement mainly about?", "options": ["A paper-making workshop.", "A painting competition.", "A tour of the town."], "answer": 0, "why": "通知介绍博物馆手工造纸活动的安排。", "point": "main"},
+          {"stem": "Where will the paper dry?", "options": ["Outside the museum.", "At the front desk.", "In a room upstairs."], "answer": 2, "why": "由于可能下雨，纸张改在楼上的暖室晾干。", "point": "detail"},
+          {"stem": "Why should children work with an adult?", "options": ["The room upstairs is closed.", "The bowls of water may be hard to carry.", "They must write a postal address."], "answer": 1, "why": "通知说明装水的盆可能难以搬动。", "point": "cause"}
+        ]}
+      ]},
+      {"id": "set-b", "groups": [
+        {"audio": {"intro": "Listen to the recording.", "lines": [
+          {"who": "A", "text": "Hello, Maya. Have you thought about our school exhibition? The history teacher wants us to display something made by students."},
+          {"who": "B", "text": "Yes. I first thought of old maps, but we don't have permission to borrow the originals. What about making models of buildings in our town?"},
+          {"who": "A", "text": "That would work. We can use cardboard from the art room. I could make the old railway station, and you could build the library."},
+          {"who": "B", "text": "I'd like to make the library, but I need to measure it first. Can you take photographs of the station this afternoon?"},
+          {"who": "A", "text": "Certainly. I'll also ask the art teacher for paint. We should finish the models by Thursday so that we have Friday to arrange them."},
+          {"who": "B", "text": "I'll write a short description for each model after we finish. Visitors can read about how the buildings were used in the past."}
+        ]}, "items": [
+          {"stem": "What are the speakers planning?", "options": ["A visit to an art room.", "An exhibition of building models.", "A lesson on drawing maps."], "answer": 1, "why": "两人计划制作本地建筑模型供学校展览。", "point": "main"},
+          {"stem": "What will the first speaker photograph?", "options": ["The railway station.", "The library.", "The art room."], "answer": 0, "why": "第一人答应给火车站拍照，另一人负责图书馆模型。", "point": "detail"},
+          {"stem": "Why do the speakers not display old maps?", "options": ["They have no cardboard.", "The teacher dislikes maps.", "They cannot borrow the originals."], "answer": 2, "why": "他们没有获准借用原始地图。", "point": "cause"}
+        ]},
+        {"audio": {"intro": "Listen to the recording.", "lines": [{"who": "A", "text": "Hello, everyone. Here is some information about Saturday's community garden visit. We will meet at the school gate at nine and take the bus together. Please bring a bottle of water and wear shoes suitable for walking on wet ground. At the garden, a volunteer will show us how rainwater is collected for the plants. After that, we will help prepare a small bed for vegetables. We had hoped to pick fruit as well, but the fruit is not ready yet. Instead, the gardeners will show us the seeds they have saved from last year. Lunch will be in the covered area beside the garden, so please bring your own food. We expect to return to school at two. If you cannot attend, tell your class teacher by Thursday so that another student can use your place. Thank you, and I hope you enjoy the visit."}]}, "items": [
+          {"stem": "What is the announcement mainly about?", "options": ["A visit to a community garden.", "A school cooking contest.", "A bus driver's training day."], "answer": 0, "why": "通知说明周六参观社区花园的集合、活动和返回安排。", "point": "main"},
+          {"stem": "Where will the group have lunch?", "options": ["At the school gate.", "On the bus.", "In a covered area beside the garden."], "answer": 2, "why": "通知说午饭在花园旁有遮盖的地方吃。", "point": "detail"},
+          {"stem": "Why will the group not pick fruit?", "options": ["The garden is closed.", "The fruit is not ready.", "There is no bus to the garden."], "answer": 1, "why": "水果还没有成熟，所以改为看保存的种子。", "point": "cause"}
+        ]}
+      ]}
+    ], "more": {"kind": "listening-long", "topics": ["社区清洁", "博物馆活动", "校园展览", "花园参观", "图书分享", "校内演出", "自然观察", "志愿服务", "地方历史", "公共交通", "手工课程", "体育活动"]}
+  }]
+}

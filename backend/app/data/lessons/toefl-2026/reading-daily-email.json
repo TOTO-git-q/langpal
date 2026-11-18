@@ -1,0 +1,418 @@
+{
+ "id": "reading-daily-email",
+ "title": "邮件",
+ "goal": "根据邮件的目的句和请求句，确定写信目的及收信人需要完成的动作。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "purpose",
+   "label": "判断邮件的写作目的"
+  },
+  {
+   "id": "request",
+   "label": "找出写信人的请求和对方需要做的事"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、计分、自适应"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明和官方样题（挖空规则是对照样题和答案看出来的）"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Reading Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-reading.pdf",
+   "used": "第 1 课：三类题的说明和需要的三项基本功"
+  }
+ ],
+ "cards": [
+  {
+   "id": "structure",
+   "type": "table",
+   "title": "结构",
+   "cols": [
+    "位置",
+    "作用",
+    "例"
+   ],
+   "rows": [
+    [
+     "主题行",
+     "说明邮件讲哪件事；具体请求要到正文里找。",
+     "Subject: Translation review"
+    ],
+    [
+     "称呼",
+     "看出收信人是谁、双方是什么关系。",
+     "Dear Ms. Lane,"
+    ],
+    [
+     "目的句",
+     "确定写信是通知、请求还是确认。",
+     "I am writing to request a review of the translation."
+    ],
+    [
+     "细节",
+     "说明请求涉及什么、为什么。",
+     "The captions will appear beside the exhibits."
+    ],
+    [
+     "请求",
+     "找出要做的事、提交方式和期限。",
+     "Please return the corrected file by Thursday."
+    ],
+    [
+     "结尾",
+     "看出写信人是谁；道谢不是新的请求。",
+     "Thank you for your assistance. Regards, Inez"
+    ]
+   ]
+  },
+  {
+   "id": "expressions",
+   "type": "table",
+   "title": "常用表达",
+   "cols": [
+    "功能",
+    "表达",
+    "例句"
+   ],
+   "rows": [
+    [
+     "通知",
+     "I am writing to inform…",
+     "I am writing to inform the team that the venue has changed."
+    ],
+    [
+     "请求",
+     "Could you please…",
+     "Could you please confirm the revised address?"
+    ],
+    [
+     "确认",
+     "This is to confirm…",
+     "This is to confirm receipt of the signed agreement."
+    ],
+    [
+     "跟进",
+     "I am following up on…",
+     "I am following up on the unanswered request for permission."
+    ],
+    [
+     "正式请求",
+     "I would appreciate it if…",
+     "I would appreciate it if the final list could be sent today."
+    ],
+    [
+     "非正式请求",
+     "Can you… / Let me know…",
+     "Can you check the spelling? Let me know by Friday."
+    ],
+    [
+     "语域",
+     "Dear… / Hi…",
+     "Dear Dr. Vale, I am writing to request permission. / Hi Jo, can you check this?"
+    ],
+    [
+     "条件请求",
+     "If… / Otherwise…",
+     "If the name is incorrect, reply with a correction. Otherwise, no reply is needed."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Subject: Narrator credit\n\nDear Ms. Reed,\nWe are preparing the credits for the audio guide. The attached draft lists the narrator as “L. Reed.” Please confirm the form of the name to be printed by Thursday. No further recording is needed; this message concerns the written credit only.\n\nRegards,\nOmar\nAudio Guide Editor"
+    },
+    {
+     "box": "What does Omar ask Ms. Reed to do?\n1. Record a new introduction\n2. Confirm how her name should appear\n3. Print the complete audio script\n4. Choose another person to narrate"
+    },
+    {
+     "p": "主题行 Narrator credit 说明事项是署名。请求句是 Please confirm the form of the name to be printed by Thursday。第二项改写了这个动作：确认名字的写法。"
+    },
+    {
+     "p": "No further recording is needed 说明不需要重新录音，第一项可以排除。Dear Ms. Reed 和 Regards 是正式邮件的称呼和结尾，不带新的请求。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "把背景当目的",
+     "The email requests a new audio guide.",
+     "preparing the credits 是背景，不是写信目的。"
+    ],
+    [
+     "把通知当请求",
+     "The recipient must prepare all credits.",
+     "制作署名的是写信人，收信人只需确认名字。"
+    ],
+    [
+     "忽略否定",
+     "The narrator should record again.",
+     "No further recording is needed 说明不用重录。"
+    ],
+    [
+     "扩大动作",
+     "The recipient must approve the entire script.",
+     "confirm the form of the name 只涉及姓名。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "purpose",
+    "request"
+   ],
+   "groups": [
+    {
+     "label": "Read the email.",
+     "look": "email",
+     "text": "Subject: Recipe permission\nDear Editor, I would like permission to reproduce the soup recipe in our neighborhood booklet. The booklet will be distributed without charge. Regards, Mara",
+     "items": [
+      {
+       "stem": "Why does Mara write?",
+       "options": [
+        "To correct a recipe already printed",
+        "To request approval to reuse a recipe",
+        "To order copies of a neighborhood booklet",
+        "To complain about the price of a booklet"
+       ],
+       "answer": 1,
+       "why": "依据是 I would like permission to reproduce the soup recipe，approval to reuse 改写 permission to reproduce。",
+       "point": "purpose"
+      }
+     ]
+    },
+    {
+     "label": "Read the email.",
+     "look": "email",
+     "text": "Subject: Sculpture insurance\nDear Mr. Cole, The insurer needs the height of the sculpture. Please send the measurement in centimeters; the photographs already supplied are sufficient. Regards, Ada",
+     "items": [
+      {
+       "stem": "What should Mr. Cole provide?",
+       "options": [
+        "A new photograph of the sculpture",
+        "The price of the insurance policy",
+        "The height in the requested unit",
+        "The sculpture's height in inches"
+       ],
+       "answer": 2,
+       "why": "依据是 Please send the measurement in centimeters，第三项的 requested unit 指厘米。照片已经够用，第一项不需要。",
+       "point": "request"
+      }
+     ]
+    },
+    {
+     "label": "Read the email.",
+     "look": "email",
+     "text": "Subject: Radio interview\nHi Sol, This is to confirm that the interview file arrived and plays correctly. No replacement file is needed. Thanks, Ben",
+     "items": [
+      {
+       "stem": "What is Ben's purpose?",
+       "options": [
+        "To acknowledge successful receipt of a file",
+        "To arrange a replacement interview session",
+        "To request a different recording format",
+        "To report that a file does not play"
+       ],
+       "answer": 0,
+       "why": "依据是 confirm that the interview file arrived and plays correctly，第一项的 acknowledge successful receipt 改写了这句。",
+       "point": "purpose"
+      }
+     ]
+    },
+    {
+     "label": "Read the email.",
+     "look": "email",
+     "text": "Subject: Menu proof\nHi Liv, The ingredients are correct. Can you check only the dish names and send any spelling corrections by noon? Thanks, Em",
+     "items": [
+      {
+       "stem": "What is Liv asked to check?",
+       "options": [
+        "The accuracy of the ingredients",
+        "Both the dish names and ingredients",
+        "The order of the dishes on the menu",
+        "The spelling of the dish names"
+       ],
+       "answer": 3,
+       "why": "依据是 check only the dish names 和 spelling corrections，第四项是要校对的内容。第二项把已经确认无误的 ingredients 也算了进来。",
+       "point": "request"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "purpose",
+    "request"
+   ],
+   "groups": [
+    {
+     "label": "Read the email.",
+     "look": "email",
+     "text": "Subject: Returned parcel claim\n\nDear Claims Team,\nI am following up on my claim for a parcel returned with a damaged case. The reference number is 418. Photographs were included with the original claim. Please advise whether an inspection is needed before I dispose of the case. I will keep it until I receive instructions.\n\nRegards,\nRosa",
+     "items": [
+      {
+       "stem": "Why does Rosa send this email?",
+       "options": [
+        "To order a stronger replacement case",
+        "To follow up on a damage claim",
+        "To confirm that an inspection is complete",
+        "To withdraw an earlier parcel complaint"
+       ],
+       "answer": 1,
+       "why": "依据是 I am following up on my claim for a parcel returned with a damaged case，第二项是这句的改写。",
+       "point": "purpose"
+      },
+      {
+       "stem": "What information does Rosa request?",
+       "options": [
+        "Whether reference 418 has been recorded",
+        "When new photographs must be taken",
+        "Whether the case must be inspected",
+        "Where the damaged case should be sent"
+       ],
+       "answer": 2,
+       "why": "依据是 Please advise whether an inspection is needed，第三项改写了这一句。照片已随原来的索赔提交，第二项不对。",
+       "point": "request"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "purpose",
+    "request"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Read the email.",
+       "look": "email",
+       "text": "Subject: Captions for the local history exhibition\n\nDear Dr. Ames,\nWe would appreciate a review of the attached captions before they are mounted beside the photographs. Please check the dates and place names, and return any corrections in the attachment by Monday. The image order has already been approved, so it does not need review. If all details are accurate, a brief confirmation by email will be sufficient. Printing begins on Tuesday; no visit to the exhibition room is necessary.\n\nRegards,\nCora\nExhibition Coordinator",
+       "items": [
+        {
+         "stem": "Why has Cora written to Dr. Ames?",
+         "options": [
+          "To seek a factual check of exhibition captions",
+          "To arrange a visit to the exhibition room",
+          "To request approval of the photograph order",
+          "To announce the date when printing begins"
+         ],
+         "answer": 0,
+         "why": "依据是 a review of the attached captions 和 check the dates and place names。日期和地名是事实信息，第一项概括了这件事。第三项的图片顺序已经批准过。",
+         "point": "purpose"
+        },
+        {
+         "stem": "How should Dr. Ames respond if errors are found?",
+         "options": [
+          "By visiting the exhibition room on Tuesday",
+          "By sending a brief confirmation email",
+          "By reviewing the order of the images",
+          "By returning corrections in the attached file"
+         ],
+         "answer": 3,
+         "why": "依据是 return any corrections in the attachment by Monday，第四项说的就是在附件里改好后发回。第二项是全部正确时的做法。",
+         "point": "request"
+        },
+        {
+         "stem": "What should Dr. Ames do if the details are all correct?",
+         "options": [
+          "Approve a new order for the photographs",
+          "Send a short email confirming accuracy",
+          "Attend the printing session on Tuesday",
+          "Rewrite the captions in another document"
+         ],
+         "answer": 1,
+         "why": "依据是 If all details are accurate, a brief confirmation by email will be sufficient，第二项是这句的改写。",
+         "point": "request"
+        }
+       ]
+      },
+      {
+       "label": "Read the email.",
+       "look": "email",
+       "text": "Subject: Missing token in the game set\n\nHi Pat,\nI checked the cooperative game set after last night's session. One wooden token is missing. Could you look in the small side pocket of the bag used to carry the set? If it turns up, please leave it with the game set on the lounge shelf. If it is not there, let me know so I can request a replacement. The cards and instruction sheet are all accounted for. There is no need to search for those.\n\nThanks,\nNico",
+       "items": [
+        {
+         "stem": "What is Nico's main purpose in writing?",
+         "options": [
+          "To report that some of the game cards are missing",
+          "To request payment for an entire new game set",
+          "To ask for help finding a missing game piece",
+          "To explain the rules printed on the game cards"
+         ],
+         "answer": 2,
+         "why": "依据是 One wooden token is missing 和 Could you look in the small side pocket，第三项概括了这两句：请对方帮忙找缺失的配件。",
+         "point": "purpose"
+        },
+        {
+         "stem": "Which issue prompted Nico's request?",
+         "options": [
+          "A single wooden piece was not returned with the set.",
+          "Several cards were damaged during the game session.",
+          "The instructions were left in the bag's side pocket.",
+          "The whole game set was removed from the lounge."
+         ],
+         "answer": 0,
+         "why": "依据是 One wooden token is missing，第一项改写了这一句。第四项把一个配件扩大成了整套游戏。",
+         "point": "purpose"
+        },
+        {
+         "stem": "What should Pat do if the token is found?",
+         "options": [
+          "Send it directly to the game supplier",
+          "Place it with the set on the lounge shelf",
+          "Put it back inside the bag's main pocket",
+          "Keep it until the next game session"
+         ],
+         "answer": 1,
+         "why": "依据是 leave it with the game set on the lounge shelf，第二项改写了放置的位置。",
+         "point": "request"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

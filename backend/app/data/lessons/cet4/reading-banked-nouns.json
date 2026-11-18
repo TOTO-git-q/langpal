@@ -1,0 +1,378 @@
+{
+ "id": "reading-banked-nouns",
+ "title": "名词空位与数量限制",
+ "goal": "识别名词空位并根据限定词和语境选择名词形式。",
+ "skill": "阅读",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "slot",
+   "label": "识别需要名词的句法位置"
+  },
+  {
+   "id": "number",
+   "label": "按限定词和语境选择名词形式"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "词汇理解教学依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "intro",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "名词在句中作主语或宾语。空位前是限定词、形容词或介词时，空位通常要填名词。"
+    },
+    {
+     "p": "名词的形式还要和数量相符。a、an 后用单数可数名词，如 an idea；much 后用不可数名词，如 much information。"
+    }
+   ]
+  },
+  {
+   "id": "positions",
+   "type": "table",
+   "title": "名词的位置",
+   "cols": [
+    "位置",
+    "例一",
+    "例二"
+   ],
+   "rows": [
+    [
+     "限定词后",
+     "The plan changed.",
+     "An idea emerged."
+    ],
+    [
+     "形容词后",
+     "A useful tool saves time.",
+     "Fresh bread smells good."
+    ],
+    [
+     "动词宾语",
+     "The guide opened the gate.",
+     "The artist painted a wall."
+    ],
+    [
+     "介词宾语",
+     "The key is under the book.",
+     "They talked about a project."
+    ]
+   ]
+  },
+  {
+   "id": "quantity",
+   "type": "table",
+   "title": "数量和可数性",
+   "cols": [
+    "线索",
+    "形式",
+    "例"
+   ],
+   "rows": [
+    [
+     "a、an、each",
+     "单数可数名词",
+     "Each student has a notebook."
+    ],
+    [
+     "many、several",
+     "复数可数名词",
+     "Several students took notes."
+    ],
+    [
+     "much",
+     "不可数名词",
+     "The guide gave much information."
+    ],
+    [
+     "two、three 等",
+     "复数可数名词",
+     "Two chairs stood by the door."
+    ],
+    [
+     "some",
+     "复数或不可数名词",
+     "Some books contain useful information."
+    ]
+   ]
+  },
+  {
+   "id": "forms",
+   "type": "table",
+   "title": "名词和动词同形",
+   "cols": [
+    "词",
+    "名词",
+    "动词"
+   ],
+   "rows": [
+    [
+     "plan",
+     "The plan needs work.",
+     "They plan a meeting."
+    ],
+    [
+     "change",
+     "The change helped residents.",
+     "Seasons change gradually."
+    ],
+    [
+     "visit",
+     "The visit lasted an hour.",
+     "Guests visit the museum."
+    ],
+    [
+     "water",
+     "The water is clean.",
+     "Workers water the plants."
+    ]
+   ],
+   "note": "同形词的词性看它在句中的位置：在 the 后是名词，在主语后作谓语是动词。"
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The librarian gave each visitor a useful _____.\n1. guide\n2. guides\n3. helpful\n4. guiding"
+    },
+    {
+     "p": "a useful 后要用单数可数名词。第一项 guide 意为指南，符合句意。第二项 guides 是复数，不能跟在 a 后面。"
+    }
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "slot",
+    "number"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The _____ was discussed at the meeting.",
+       "options": [
+        "plan",
+        "planned",
+        "plans",
+        "busy"
+       ],
+       "answer": 0,
+       "why": "The 后的空位作主语，要填名词。谓语是单数 was，所以用 plan，不用复数 plans。",
+       "point": "slot"
+      },
+      {
+       "stem": "The worker placed a heavy _____ beside the door.",
+       "options": [
+        "carry",
+        "box",
+        "heavy",
+        "carefully"
+       ],
+       "answer": 1,
+       "why": "a heavy 后需要单数名词，box 符合句意。",
+       "point": "slot"
+      },
+      {
+       "stem": "Each guest received one _____.",
+       "options": [
+        "tickets",
+        "information",
+        "ticket",
+        "advice"
+       ],
+       "answer": 2,
+       "why": "one 后接单数可数名词 ticket。",
+       "point": "number"
+      },
+      {
+       "stem": "The guide gave visitors much _____ about the park.",
+       "options": [
+        "maps",
+        "routes",
+        "notices",
+        "information"
+       ],
+       "answer": 3,
+       "why": "much 修饰不可数名词 information。",
+       "point": "number"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "slot",
+    "number"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A neighborhood group planned a clean-up. Several volunteers brought bags, and each person received a pair of gloves. After the work, they discussed another plan for the street.",
+     "items": [
+      {
+       "stem": "After the work, the volunteers discussed a new _____.",
+       "options": [
+        "clean",
+        "plan",
+        "planned",
+        "planning"
+       ],
+       "answer": 1,
+       "why": "discussed 的宾语前有 a new，故选单数名词 plan。",
+       "point": "slot"
+      },
+      {
+       "stem": "Several _____ brought bags to the clean-up.",
+       "options": [
+        "person",
+        "glove",
+        "volunteers",
+        "work"
+       ],
+       "answer": 2,
+       "why": "原文是 Several volunteers brought bags。several 后接复数可数名词，即 volunteers。",
+       "point": "number"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "slot",
+    "number"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "The _____ was useful during the tour of the building.",
+         "options": [
+          "guide",
+          "guided",
+          "useful",
+          "guides"
+         ],
+         "answer": 0,
+         "why": "The 后的空位作主语，要填名词。谓语是单数 was，所以用 guide，不用复数 guides。",
+         "point": "slot"
+        },
+        {
+         "stem": "The artist chose a bright _____ for the wall.",
+         "options": [
+          "painted",
+          "color",
+          "bright",
+          "colorful"
+         ],
+         "answer": 1,
+         "why": "a bright 后需要名词；color 作 chose 的宾语。",
+         "point": "slot"
+        },
+        {
+         "stem": "The visitors walked through the _____.",
+         "options": [
+          "opened",
+          "walking",
+          "gate",
+          "wide"
+         ],
+         "answer": 2,
+         "why": "介词 through 后的 the 引出名词短语，空位要填名词 gate。",
+         "point": "slot"
+        },
+        {
+         "stem": "The gardener repaired the _____ before the rain.",
+         "options": [
+          "repairing",
+          "wooden",
+          "repaired",
+          "fence"
+         ],
+         "answer": 3,
+         "why": "repaired 后的 the 引出宾语；fence 是名词。",
+         "point": "slot"
+        },
+        {
+         "stem": "Each student received a _____.",
+         "options": [
+          "notebook",
+          "notebooks",
+          "notes",
+          "information"
+         ],
+         "answer": 0,
+         "why": "a 后接单数可数名词 notebook。",
+         "point": "number"
+        },
+        {
+         "stem": "The report included several _____.",
+         "options": [
+          "example",
+          "examples",
+          "information",
+          "advice"
+         ],
+         "answer": 1,
+         "why": "several 后接复数可数名词 examples。",
+         "point": "number"
+        },
+        {
+         "stem": "There was much _____ about the project in the report.",
+         "options": [
+          "details",
+          "reports",
+          "information",
+          "plans"
+         ],
+         "answer": 2,
+         "why": "much 修饰不可数名词 information。",
+         "point": "number"
+        },
+        {
+         "stem": "Two _____ were placed near the table.",
+         "options": [
+          "chair",
+          "furniture",
+          "seat",
+          "chairs"
+         ],
+         "answer": 3,
+         "why": "two 后接复数可数名词 chairs。",
+         "point": "number"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

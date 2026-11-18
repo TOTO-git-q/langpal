@@ -1,0 +1,587 @@
+{
+ "id": "reading-passage-life",
+ "title": "常考学科：生命科学",
+ "goal": "认识本学科的常用词；读懂本学科的短文并答题。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "vocab",
+   "label": "认识本学科的常用词"
+  },
+  {
+   "id": "read",
+   "label": "读懂本学科的短文并答题"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、计分、自适应"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明和官方样题（挖空规则是对照样题和答案看出来的）"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Reading Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-reading.pdf",
+   "used": "第 1 课：三类题的说明和需要的三项基本功"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "生命科学类短文常见的话题有生物与环境、可遗传特征的变化、动物行为、植物结构和人体功能。阅读时分清三组概念：结构与功能，个体与种群，观察结果与解释。"
+    },
+    {
+     "box": "A thicker covering may reduce water loss. If an inherited trait improves reproductive success, it can become more common over generations."
+    },
+    {
+     "p": "第一句讲结构与功能的关系。第二句讲可遗传特征怎样在多代之间变得常见。进化发生在种群的多代之间，不是个体因为需要而主动改变。三张词汇表分别对应生态系统、适应与行为、植物与人体。"
+    }
+   ]
+  },
+  {
+   "id": "ecology",
+   "type": "table",
+   "title": "词汇表：生态系统",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "ecosystem",
+     "n.",
+     "生态系统",
+     "A pond ecosystem includes organisms and their surroundings."
+    ],
+    [
+     "habitat",
+     "n.",
+     "栖息地",
+     "The wetland provides a habitat for many birds."
+    ],
+    [
+     "population",
+     "n.",
+     "种群",
+     "The population includes all members of this species in the area."
+    ],
+    [
+     "species",
+     "n.",
+     "物种",
+     "Several species occupy the same pond."
+    ],
+    [
+     "organism",
+     "n.",
+     "生物体",
+     "Each organism obtains resources from its surroundings."
+    ],
+    [
+     "community",
+     "n.",
+     "群落",
+     "The community contains plants, animals, and microorganisms."
+    ],
+    [
+     "nutrient",
+     "n.",
+     "营养物质",
+     "Decomposition returns nutrients to the soil."
+    ],
+    [
+     "decompose",
+     "v.",
+     "分解",
+     "Fungi decompose fallen branches."
+    ],
+    [
+     "predator",
+     "n.",
+     "捕食者",
+     "A predator feeds on other animals."
+    ],
+    [
+     "prey",
+     "n.",
+     "猎物",
+     "The owl located its prey in the grass."
+    ],
+    [
+     "competition",
+     "n.",
+     "竞争",
+     "Competition increases when food is limited."
+    ],
+    [
+     "burrow",
+     "n.",
+     "洞穴；地道",
+     "Water can enter the soil through a burrow."
+    ],
+    [
+     "layer",
+     "n.",
+     "层",
+     "Organic material accumulated in the upper layer."
+    ],
+    [
+     "mix",
+     "v.",
+     "混合",
+     "Earthworms mix material from different soil layers."
+    ]
+   ]
+  },
+  {
+   "id": "adaptation",
+   "type": "table",
+   "title": "词汇表：适应与行为",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "adaptation",
+     "n.",
+     "适应性特征；适应",
+     "A waterproof covering is an adaptation to wet conditions."
+    ],
+    [
+     "evolution",
+     "n.",
+     "进化",
+     "Evolution involves changes in inherited traits across generations."
+    ],
+    [
+     "inherit",
+     "v.",
+     "遗传获得",
+     "Offspring inherit genetic material from their parents."
+    ],
+    [
+     "trait",
+     "n.",
+     "特征",
+     "The study compared an inherited trait among individuals."
+    ],
+    [
+     "variation",
+     "n.",
+     "变异；差异",
+     "Variation in shell thickness occurs within the population."
+    ],
+    [
+     "selection",
+     "n.",
+     "选择",
+     "Natural selection depends on differences in reproductive success."
+    ],
+    [
+     "survival",
+     "n.",
+     "存活",
+     "Access to food affects survival."
+    ],
+    [
+     "reproduce",
+     "v.",
+     "繁殖",
+     "The organisms reproduce under suitable conditions."
+    ],
+    [
+     "offspring",
+     "n.",
+     "后代",
+     "The offspring developed in a sheltered location."
+    ],
+    [
+     "behavior",
+     "n.",
+     "行为",
+     "Feeding behavior changed when food became scarce."
+    ],
+    [
+     "signal",
+     "n.",
+     "信号",
+     "The animal’s posture served as a signal."
+    ],
+    [
+     "territory",
+     "n.",
+     "领地",
+     "The bird defended its territory."
+    ],
+    [
+     "nocturnal",
+     "adj.",
+     "夜间活动的",
+     "A nocturnal animal is active mainly at night."
+    ],
+    [
+     "response",
+     "n.",
+     "反应",
+     "The movement was a response to a sudden sound."
+    ]
+   ]
+  },
+  {
+   "id": "structures",
+   "type": "table",
+   "title": "词汇表：植物与人体",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "root",
+     "n.",
+     "根",
+     "The root anchors the plant in the soil."
+    ],
+    [
+     "absorb",
+     "v.",
+     "吸收",
+     "Roots absorb water from the soil."
+    ],
+    [
+     "hair",
+     "n.",
+     "毛；毛状结构",
+     "A root hair increases the area available for absorption."
+    ],
+    [
+     "extend",
+     "v.",
+     "延伸",
+     "Fine roots extend into spaces in the soil."
+    ],
+    [
+     "surface",
+     "n.",
+     "表面",
+     "Water moves across the root’s surface."
+    ],
+    [
+     "structure",
+     "n.",
+     "结构",
+     "The structure of a leaf supports its functions."
+    ],
+    [
+     "tissue",
+     "n.",
+     "组织",
+     "Muscle tissue can generate force."
+    ],
+    [
+     "cell",
+     "n.",
+     "细胞",
+     "A tissue consists of cells and associated material."
+    ],
+    [
+     "organ",
+     "n.",
+     "器官",
+     "The heart is an organ that pumps blood."
+    ],
+    [
+     "muscle",
+     "n.",
+     "肌肉",
+     "A muscle pulls on a bone through a tendon."
+    ],
+    [
+     "fiber",
+     "n.",
+     "纤维",
+     "A muscle fiber is an elongated cell."
+    ],
+    [
+     "contract",
+     "v.",
+     "收缩",
+     "Muscle fibers contract when activated."
+    ],
+    [
+     "tendon",
+     "n.",
+     "肌腱",
+     "A tendon connects a muscle to a bone."
+    ],
+    [
+     "joint",
+     "n.",
+     "关节",
+     "Movement occurs where bones meet at a joint."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Decomposition on a Woodland Floor\n\nFallen branches contain material that was once part of living trees. Fungi and other organisms break down this material, releasing nutrients that can become available to plants again. This process connects dead material with the growth of living organisms.\n\nDecomposition does not proceed at the same rate in every location. Moisture and temperature influence the activity of decomposers. A dry branch may remain recognizable for a long time, while a similar branch under more favorable conditions breaks down sooner. The difference concerns the conditions surrounding the material, not a deliberate choice made by the branch."
+    },
+    {
+     "p": "第一段的关键是 break down this material 和 releasing nutrients：分解把枯枝中的养分重新交给植物。decomposers 指进行分解的生物。"
+    },
+    {
+     "p": "第二段用 does not proceed at the same rate 引出条件的差异，A dry branch 是具体例子。一处的分解速度推不到所有环境。"
+    },
+    {
+     "box": "Why does the author compare two similar branches?\n1. To show that branches choose their surroundings\n2. To explain how all fungi obtain sunlight\n3. To illustrate the influence of environmental conditions\n4. To prove that dead material contains no nutrients"
+    },
+    {
+     "p": "第三项对应 Moisture and temperature influence the activity of decomposers。两根树枝的对比说明环境条件影响分解速度。"
+    }
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "vocab",
+    "read"
+   ],
+   "groups": [
+    {
+     "label": "Fill in the missing letters.",
+     "fill": "Roots supply plants with water and dissolved nutrients. They abs{orb} water fr{om} soil thr{ough} tiny ha{irs} that ext{end} from th{eir} surface, a{nd} these struc{tures} increase t{he} area avai{lable} for uptake. A root hair is a narrow extension of a surface cell. Its shape brings the plant into contact with more of the surrounding soil. The water absorbed by roots can then move into other parts of the plant, where it supports essential processes.",
+     "tags": [
+      "vocab",
+      "read",
+      "read",
+      "vocab",
+      "vocab",
+      "read",
+      "read",
+      "vocab",
+      "read",
+      "read"
+     ],
+     "notes": [
+      "absorb：根从土壤中吸收水，后文 water absorbed 复现。",
+      "from：from soil 表示水的来源。",
+      "through：through tiny hairs 表示经过根毛。",
+      "hairs：后文 A root hair 点明了这个结构；tiny 后接复数名词。",
+      "extend：that 引导定语从句，说明根毛从表面伸出。",
+      "their：后接 surface，指根的表面，这里需要物主限定词。",
+      "and：连接根毛的描述与其作用。",
+      "structures：these 后接复数，概括前面的根毛结构。",
+      "the：the area ... for uptake 指用于吸收的特定面积。",
+      "available：available for uptake 表示可用于吸收。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "vocab",
+    "read"
+   ],
+   "groups": [
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "Territorial Signals\n\nAn animal can defend a territory without attacking every intruder. A bird’s song may announce that an area is already occupied. Another bird that hears the signal can alter its behavior before the two animals come into direct contact. Signaling can therefore reduce the need for a physical encounter.\n\nA signal does not guarantee the same response from every receiver. A rival may withdraw, remain nearby, or approach the resident. The outcome depends on the situation and on the animals involved. Observing a signal alone is not enough to establish its effect.\n\nTo study the relationship, a researcher can record both the signal and the behavior that follows. The relevant evidence includes the receiver’s movement and the timing of that movement. A change that occurs before the signal cannot be a response to that particular signal.",
+     "items": [
+      {
+       "stem": "The word “territory” refers to an",
+       "options": [
+        "intruder that enters the area",
+        "area that an animal defends",
+        "animal’s announcing song",
+        "encounter between two rivals"
+       ],
+       "answer": 1,
+       "why": "defend a territory 和 an area is already occupied 说明 territory 是动物守护的区域，即第二项。",
+       "point": "vocab"
+      },
+      {
+       "stem": "What can signaling reduce?",
+       "options": [
+        "The need to announce that an area is occupied",
+        "The variety of responses among receivers",
+        "The need for direct physical confrontation",
+        "The number of intruders that leave the area"
+       ],
+       "answer": 2,
+       "why": "原文说 Signaling can therefore reduce the need for a physical encounter，即第三项。",
+       "point": "read"
+      },
+      {
+       "stem": "What does “response” mean in this context?",
+       "options": [
+        "A behavior that follows a signal",
+        "A song announcing that an area is taken",
+        "A rival that hears the song",
+        "A signal sent toward a rival"
+       ],
+       "answer": 0,
+       "why": "原文说 A rival may withdraw, remain nearby, or approach the resident，这些都是听到信号之后的行为，即第一项。",
+       "point": "vocab"
+      },
+      {
+       "stem": "Why should the researcher record both signal and subsequent behavior?",
+       "options": [
+        "To prove every receiver withdraws",
+        "To show that observing a signal alone is enough",
+        "To replace observation with background knowledge",
+        "To examine whether behavior follows the signal"
+       ],
+       "answer": 3,
+       "why": "原文要求 record both the signal and the behavior that follows，用来看行为是否发生在信号之后，即第四项。",
+       "point": "read"
+      },
+      {
+       "stem": "Which observation cannot be a response to the signal under study?",
+       "options": [
+        "An approach immediately after the signal",
+        "A departure before the signal occurs",
+        "A withdrawal following the signal",
+        "A pause after the receiver hears the signal"
+       ],
+       "answer": 1,
+       "why": "原文说 A change that occurs before the signal cannot be a response，信号之前的离开不算反应，即第二项。",
+       "point": "read"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 8,
+   "pass": 0.75,
+   "points": [
+    "vocab",
+    "read"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Fill in the missing letters.",
+       "fill": "Earthworms alter soil as they move through it. Their bur{rows} allow a{ir} to en{ter} spaces be{low} the sur{face}, while th{eir} movement mi{xes} material fr{om} different lay{ers} within t{he} soil. This mixing redistributes organic matter rather than creating it. The air in the passages contains oxygen that roots and many soil organisms use. The effects depend on the soil and the organisms present; the same pattern of activity need not occur in every ecosystem.",
+       "tags": [
+        "vocab",
+        "read",
+        "read",
+        "read",
+        "vocab",
+        "read",
+        "vocab",
+        "read",
+        "vocab",
+        "read"
+       ]
+      },
+      {
+       "label": "Read the passage.",
+       "look": "passage",
+       "text": "How Muscles Move a Joint\n\nMany movements of the human body depend on muscles attached to bones. A muscle contains elongated cells called fibers. When these fibers contract, they generate a pulling force. Tendons transmit that force to the bones to which the muscle is attached. At a movable joint, the resulting pull can change the angle between bones.\n\nA muscle can pull through its tendon, but it does not actively push the bone back by lengthening. Opposing movements therefore commonly involve different muscles. Around the elbow, for example, one group of muscles can bend the joint, while another can straighten it. The groups have different mechanical roles even though they act on the same joint.\n\nThis arrangement connects structure with function. Fibers generate force, tendons transmit it, and joints permit movement between bones. Describing all three simply as parts that move would hide those differences. The movement of an arm is better understood by following the force from the tissue that produces it to the structures that convey it and the place where the bones can change their relative positions.",
+       "items": [
+        {
+         "stem": "In this passage, “fibers” are",
+         "options": [
+          "small movable joints",
+          "elongated muscle cells",
+          "thin protective bones",
+          "narrow external tendons"
+         ],
+         "answer": 1,
+         "why": "A muscle contains elongated cells called fibers 直接说明纤维是细长的肌肉细胞，即第二项。",
+         "point": "vocab"
+        },
+        {
+         "stem": "What is the role of a tendon?",
+         "options": [
+          "To produce the pulling force inside the muscle",
+          "To push the bone back by lengthening itself",
+          "To form the joint where two bones meet",
+          "To carry a muscle’s pulling force to a bone"
+         ],
+         "answer": 3,
+         "why": "原文说 Tendons transmit that force to the bones，即第四项。产生拉力的是 fibers。",
+         "point": "read"
+        },
+        {
+         "stem": "The word “contract” is closest in meaning to",
+         "options": [
+          "shorten with tension",
+          "lengthen and push",
+          "transmit force to bone",
+          "change a joint’s angle"
+         ],
+         "answer": 0,
+         "why": "When these fibers contract, they generate a pulling force 说明收缩时纤维变短并产生拉力，即第一项。第二项是原文说肌肉做不到的动作。",
+         "point": "vocab"
+        },
+        {
+         "stem": "Why does the passage discuss different muscle groups around the elbow?",
+         "options": [
+          "To prove that tendons actively push bones",
+          "To show that one muscle both bends and straightens it",
+          "To explain how opposing joint movements can occur",
+          "To argue that every joint has an identical structure"
+         ],
+         "answer": 2,
+         "why": "one group of muscles can bend the joint, while another can straighten it 说明相反的动作由不同肌群完成，即第三项。",
+         "point": "read"
+        },
+        {
+         "stem": "Which statement best preserves the distinctions in the final paragraph?",
+         "options": [
+          "Joints generate force, and fibers carry it to tendons.",
+          "Fibers make force, tendons pass it on, joints allow motion.",
+          "Tendons generate force, and joints then store it inside fibers.",
+          "Bones generate force, and fibers prevent the joints from moving."
+         ],
+         "answer": 1,
+         "why": "原文说 Fibers generate force, tendons transmit it, and joints permit movement，三者分别产生、传递和允许运动，即第二项。",
+         "point": "read"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

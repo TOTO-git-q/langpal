@@ -1,0 +1,552 @@
+{
+  "id": "reading-banked",
+  "title": "选词填空（词汇理解） · 练习",
+  "goal": "先读主题并判断候选词的词性。",
+  "skill": "reading",
+  "exam": "大学英语六级（CET-6）",
+  "points": [
+    {
+      "id": "pos",
+      "label": "依据结构选择合适词性"
+    },
+    {
+      "id": "collocation",
+      "label": "依据搭配筛选候选词"
+    },
+    {
+      "id": "meaning",
+      "label": "依据上下文确定词义"
+    }
+  ],
+  "sources": [
+    {
+      "id": "c1",
+      "title": "CET笔试",
+      "url": "https://cet.neea.edu.cn/html1/folder/16113/1586-1.htm",
+      "used": "题型与考试时间。"
+    },
+    {
+      "id": "c2",
+      "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+      "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+      "used": "材料长度、任务形式与总体评分标准。"
+    }
+  ],
+  "cards": [
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "小测",
+      "minutes": 7,
+      "points": [
+        "pos",
+        "collocation",
+        "meaning"
+      ],
+      "more": {
+        "kind": "reading-banked",
+        "topics": [
+          "社区花园的协作",
+          "修理说明的编写",
+          "公共阅读空间",
+          "志愿者培训",
+          "资料分类",
+          "校园二手交换",
+          "共享工具维护",
+          "步行路线设计",
+          "团队任务分配",
+          "展览标牌",
+          "日常时间管理",
+          "社区意见收集"
+        ]
+      },
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "label": "Read the passage and choose one word for each blank. Use each word no more than once.",
+              "look": "passage",
+              "text": "A community garden can produce more than vegetables, but its success depends on arrangements that are often overlooked. Before planting begins, members need to decide how shared tasks will be (1) ______. If everyone assumes that another person will water the seedlings, even a carefully designed garden can fail. Clear responsibilities make cooperation less dependent on chance.\n\nBefore any planting can begin, access to water is another (2) ______ concern. A site may receive plenty of sunlight yet have no convenient tap. Carrying heavy containers from a distant building can quickly discourage volunteers. Planning must therefore take local conditions into (3) ______, rather than treating every empty space as equally suitable for cultivation.\n\nRules about harvesting also require discussion. Some groups divide the ground into separate plots, while others (4) ______ their harvest and distribute it among members. Neither arrangement automatically guarantees fairness. What matters is that participants understand the rules before investing their time and can raise concerns when the rules no longer fit their needs.\n\nA written record provides useful (5) ______ when experienced organizers leave. It should explain routine tasks and identify the person responsible for equipment. Such information is particularly valuable to newcomers, who may otherwise remain (6) ______ to contribute because they do not know where to begin.\n\nThe garden should also remain open to (7) ______. A schedule that works during a holiday may become unsuitable once classes resume. Members can meet every two weeks, returning (8) ______ to compare the plan with actual participation and make adjustments. In this way, a small difficulty can be addressed before it develops into a lasting (9) ______. The aim is not to remove every disagreement, but to establish a (10) ______ basis for sharing both the effort and the harvest.",
+              "items": [
+                {
+                  "stem": "Blank (1)",
+                  "options": [
+                    "hesitant",
+                    "allocation",
+                    "account",
+                    "workable",
+                    "regularly",
+                    "pool",
+                    "continuity",
+                    "conflict",
+                    "allocated",
+                    "pressing",
+                    "revision",
+                    "rarely",
+                    "identical",
+                    "conceal",
+                    "accidental"
+                  ],
+                  "answer": 8,
+                  "why": "will be 后需过去分词构成被动结构，allocated 表示分配任务；allocation 是名词。",
+                  "point": "pos"
+                },
+                {
+                  "stem": "Blank (2)",
+                  "options": [
+                    "hesitant",
+                    "allocation",
+                    "account",
+                    "workable",
+                    "regularly",
+                    "pool",
+                    "continuity",
+                    "conflict",
+                    "allocated",
+                    "pressing",
+                    "revision",
+                    "rarely",
+                    "identical",
+                    "conceal",
+                    "accidental"
+                  ],
+                  "answer": 9,
+                  "why": "种植开始前必须解决供水，因此 pressing concern 表示紧迫问题；identical 表示相同，不能表达这种急需解决的关系。",
+                  "point": "meaning"
+                },
+                {
+                  "stem": "Blank (3)",
+                  "options": [
+                    "hesitant",
+                    "allocation",
+                    "account",
+                    "workable",
+                    "regularly",
+                    "pool",
+                    "continuity",
+                    "conflict",
+                    "allocated",
+                    "pressing",
+                    "revision",
+                    "rarely",
+                    "identical",
+                    "conceal",
+                    "accidental"
+                  ],
+                  "answer": 2,
+                  "why": "take ... into account 是固定搭配，表示把当地条件纳入考虑。",
+                  "point": "collocation"
+                },
+                {
+                  "stem": "Blank (4)",
+                  "options": [
+                    "hesitant",
+                    "allocation",
+                    "account",
+                    "workable",
+                    "regularly",
+                    "pool",
+                    "continuity",
+                    "conflict",
+                    "allocated",
+                    "pressing",
+                    "revision",
+                    "rarely",
+                    "identical",
+                    "conceal",
+                    "accidental"
+                  ],
+                  "answer": 5,
+                  "why": "pool their harvest 表示集中收成统一分配，与分开种植相对；conceal 表示隐瞒，不符合共同分配。",
+                  "point": "collocation"
+                },
+                {
+                  "stem": "Blank (5)",
+                  "options": [
+                    "hesitant",
+                    "allocation",
+                    "account",
+                    "workable",
+                    "regularly",
+                    "pool",
+                    "continuity",
+                    "conflict",
+                    "allocated",
+                    "pressing",
+                    "revision",
+                    "rarely",
+                    "identical",
+                    "conceal",
+                    "accidental"
+                  ],
+                  "answer": 6,
+                  "why": "组织者离开后，书面记录让工作得以延续，continuity 符合；conflict 指冲突。",
+                  "point": "meaning"
+                },
+                {
+                  "stem": "Blank (6)",
+                  "options": [
+                    "hesitant",
+                    "allocation",
+                    "account",
+                    "workable",
+                    "regularly",
+                    "pool",
+                    "continuity",
+                    "conflict",
+                    "allocated",
+                    "pressing",
+                    "revision",
+                    "rarely",
+                    "identical",
+                    "conceal",
+                    "accidental"
+                  ],
+                  "answer": 0,
+                  "why": "新人不知道从何开始，因而可能犹豫参与，hesitant 与 to contribute 搭配；accidental 不能描述这种顾虑。",
+                  "point": "meaning"
+                },
+                {
+                  "stem": "Blank (7)",
+                  "options": [
+                    "hesitant",
+                    "allocation",
+                    "account",
+                    "workable",
+                    "regularly",
+                    "pool",
+                    "continuity",
+                    "conflict",
+                    "allocated",
+                    "pressing",
+                    "revision",
+                    "rarely",
+                    "identical",
+                    "conceal",
+                    "accidental"
+                  ],
+                  "answer": 10,
+                  "why": "open to revision 表示可以修订，下句举日程改变为例；allocation 不能概括对计划的修改。",
+                  "point": "collocation"
+                },
+                {
+                  "stem": "Blank (8)",
+                  "options": [
+                    "hesitant",
+                    "allocation",
+                    "account",
+                    "workable",
+                    "regularly",
+                    "pool",
+                    "continuity",
+                    "conflict",
+                    "allocated",
+                    "pressing",
+                    "revision",
+                    "rarely",
+                    "identical",
+                    "conceal",
+                    "accidental"
+                  ],
+                  "answer": 4,
+                  "why": "every two weeks 明确规定定期会面，regularly 与此一致；rarely 表示很少，与指定周期不符。",
+                  "point": "pos"
+                },
+                {
+                  "stem": "Blank (9)",
+                  "options": [
+                    "hesitant",
+                    "allocation",
+                    "account",
+                    "workable",
+                    "regularly",
+                    "pool",
+                    "continuity",
+                    "conflict",
+                    "allocated",
+                    "pressing",
+                    "revision",
+                    "rarely",
+                    "identical",
+                    "conceal",
+                    "accidental"
+                  ],
+                  "answer": 7,
+                  "why": "小问题若长期不处理可能发展为 conflict，与前文 concerns 和后文 disagreement 呼应。",
+                  "point": "meaning"
+                },
+                {
+                  "stem": "Blank (10)",
+                  "options": [
+                    "hesitant",
+                    "allocation",
+                    "account",
+                    "workable",
+                    "regularly",
+                    "pool",
+                    "continuity",
+                    "conflict",
+                    "allocated",
+                    "pressing",
+                    "revision",
+                    "rarely",
+                    "identical",
+                    "conceal",
+                    "accidental"
+                  ],
+                  "answer": 3,
+                  "why": "workable basis 表示可实行的合作基础；identical 强调相同，却无比较对象。",
+                  "point": "collocation"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "label": "Read the passage and choose one word for each blank. Use each word no more than once.",
+              "look": "passage",
+              "text": "Instructions for repairing household objects often assume more knowledge than their readers possess. A writer may describe a step as simple while leaving out the action that makes it possible. For a beginner, the missing detail can become an (1) ______ to completing the task. The challenge is to explain a procedure without either overwhelming the reader or taking essential knowledge for granted.\n\nOne useful approach is to (2) ______ a person attempting the task for the first time. Instead of immediately correcting every mistake, the writer can note where the reader pauses or asks a question. These moments reveal a (3) ______ between what the instructions say and what the reader needs to know.\n\nPictures should be selected with the same care. An attractive photograph of the finished object may provide little (4) ______ about how to reach that result. A closer view showing the position of a small component can be more useful, especially when words alone might leave its orientation (5) ______.\n\nThe order of information matters as well. A warning that appears after the relevant action cannot serve its purpose. Essential precautions should come (6) ______ the step to which they apply. Optional background information, by contrast, can be placed separately so that it does not (7) ______ the sequence of actions.\n\nFinally, the instructions should be tested after they have been revised. Familiarity can make a writer (8) ______ omissions that are obvious to someone else. A fresh reader offers an independent perspective and may uncover a problem that the earlier revision did not (9) ______. Good instructions are therefore the product of repeated attention to actual use, not merely of (10) ______ in the writer's own expertise.",
+              "items": [
+                {
+                  "stem": "Blank (1)",
+                  "options": [
+                    "observe",
+                    "confidence",
+                    "after",
+                    "guidance",
+                    "ambiguous",
+                    "overlook",
+                    "resolve",
+                    "interrupt",
+                    "gap",
+                    "obstacle",
+                    "before",
+                    "preserve",
+                    "confident",
+                    "uniform",
+                    "observation"
+                  ],
+                  "answer": 9,
+                  "why": "an obstacle to completing the task 表示完成任务的障碍；gap 通常与 between 或 in 搭配，不能替换此处的 obstacle。",
+                  "point": "meaning"
+                },
+                {
+                  "stem": "Blank (2)",
+                  "options": [
+                    "observe",
+                    "confidence",
+                    "after",
+                    "guidance",
+                    "ambiguous",
+                    "overlook",
+                    "resolve",
+                    "interrupt",
+                    "gap",
+                    "obstacle",
+                    "before",
+                    "preserve",
+                    "confident",
+                    "uniform",
+                    "observation"
+                  ],
+                  "answer": 0,
+                  "why": "to 后接动词原形，observe 表示观察首次操作的人；observation 是名词。",
+                  "point": "pos"
+                },
+                {
+                  "stem": "Blank (3)",
+                  "options": [
+                    "observe",
+                    "confidence",
+                    "after",
+                    "guidance",
+                    "ambiguous",
+                    "overlook",
+                    "resolve",
+                    "interrupt",
+                    "gap",
+                    "obstacle",
+                    "before",
+                    "preserve",
+                    "confident",
+                    "uniform",
+                    "observation"
+                  ],
+                  "answer": 8,
+                  "why": "a gap between ... and ... 表示说明与实际需求之间的差距；obstacle 不能形成同样的对应关系。",
+                  "point": "collocation"
+                },
+                {
+                  "stem": "Blank (4)",
+                  "options": [
+                    "observe",
+                    "confidence",
+                    "after",
+                    "guidance",
+                    "ambiguous",
+                    "overlook",
+                    "resolve",
+                    "interrupt",
+                    "gap",
+                    "obstacle",
+                    "before",
+                    "preserve",
+                    "confident",
+                    "uniform",
+                    "observation"
+                  ],
+                  "answer": 3,
+                  "why": "照片若只呈现成品，就未必提供如何操作的 guidance；confidence 表示信心，不能代替步骤指导。",
+                  "point": "meaning"
+                },
+                {
+                  "stem": "Blank (5)",
+                  "options": [
+                    "observe",
+                    "confidence",
+                    "after",
+                    "guidance",
+                    "ambiguous",
+                    "overlook",
+                    "resolve",
+                    "interrupt",
+                    "gap",
+                    "obstacle",
+                    "before",
+                    "preserve",
+                    "confident",
+                    "uniform",
+                    "observation"
+                  ],
+                  "answer": 4,
+                  "why": "细节图能消除方向不明的问题，ambiguous 表示含混；uniform 表示一致，不符合图片补充信息的作用。",
+                  "point": "meaning"
+                },
+                {
+                  "stem": "Blank (6)",
+                  "options": [
+                    "observe",
+                    "confidence",
+                    "after",
+                    "guidance",
+                    "ambiguous",
+                    "overlook",
+                    "resolve",
+                    "interrupt",
+                    "gap",
+                    "obstacle",
+                    "before",
+                    "preserve",
+                    "confident",
+                    "uniform",
+                    "observation"
+                  ],
+                  "answer": 10,
+                  "why": "前句指出警告晚于行动便失去作用，因此应放在步骤 before；after 与此相反。",
+                  "point": "pos"
+                },
+                {
+                  "stem": "Blank (7)",
+                  "options": [
+                    "observe",
+                    "confidence",
+                    "after",
+                    "guidance",
+                    "ambiguous",
+                    "overlook",
+                    "resolve",
+                    "interrupt",
+                    "gap",
+                    "obstacle",
+                    "before",
+                    "preserve",
+                    "confident",
+                    "uniform",
+                    "observation"
+                  ],
+                  "answer": 7,
+                  "why": "interrupt the sequence 表示打断步骤，背景材料单列可避免打断；preserve 表示保持，与否定后的目的相反。",
+                  "point": "collocation"
+                },
+                {
+                  "stem": "Blank (8)",
+                  "options": [
+                    "observe",
+                    "confidence",
+                    "after",
+                    "guidance",
+                    "ambiguous",
+                    "overlook",
+                    "resolve",
+                    "interrupt",
+                    "gap",
+                    "obstacle",
+                    "before",
+                    "preserve",
+                    "confident",
+                    "uniform",
+                    "observation"
+                  ],
+                  "answer": 5,
+                  "why": "熟悉任务可能使作者 overlook omissions，即忽略遗漏；observe 表示注意到，与后文新读者发现问题的对照不符。",
+                  "point": "collocation"
+                },
+                {
+                  "stem": "Blank (9)",
+                  "options": [
+                    "observe",
+                    "confidence",
+                    "after",
+                    "guidance",
+                    "ambiguous",
+                    "overlook",
+                    "resolve",
+                    "interrupt",
+                    "gap",
+                    "obstacle",
+                    "before",
+                    "preserve",
+                    "confident",
+                    "uniform",
+                    "observation"
+                  ],
+                  "answer": 6,
+                  "why": "resolve a problem 是解决问题；preserve 表示保留，不能表达修订应达到的效果。",
+                  "point": "collocation"
+                },
+                {
+                  "stem": "Blank (10)",
+                  "options": [
+                    "observe",
+                    "confidence",
+                    "after",
+                    "guidance",
+                    "ambiguous",
+                    "overlook",
+                    "resolve",
+                    "interrupt",
+                    "gap",
+                    "obstacle",
+                    "before",
+                    "preserve",
+                    "confident",
+                    "uniform",
+                    "observation"
+                  ],
+                  "answer": 1,
+                  "why": "of 后需要名词，confidence in 表示对自身技能的信心；confident 是形容词。",
+                  "point": "pos"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pass": 0.7
+    }
+  ]
+}

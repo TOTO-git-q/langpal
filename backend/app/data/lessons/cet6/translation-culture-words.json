@@ -1,0 +1,53 @@
+{
+ "id": "translation-culture-words", "title": "文化负载词的释义", "goal": "提取文化词的核心含义，选择清楚的英文释义。", "skill": "翻译", "exam": "大学英语六级（CET-6）", "mastery": "once",
+ "points": [{"id": "sense", "label": "提取文化词的核心含义"}, {"id": "strategy", "label": "选择兼顾准确与可理解性的释义"}],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译课程内容依据"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "文化词常用三种译法：意译、音译加释义、名称加类别说明。释义保留原文给出的用途或含义。原文没有的评价，译文不加。"}, {"box": "原文：端午节期间，有些地方举行龙舟竞赛。\n译文：During the Dragon Boat Festival, some communities hold dragon boat races."}, {"p": "Dragon Boat Festival 是节日名称，dragon boat races 是活动。some communities 保留活动的范围。"}]},
+  {"id": "customs", "type": "table", "title": "节俗", "cols": ["词语", "译法", "例句"], "rows": [
+   ["春节：意译", "the Spring Festival", "The Spring Festival marks the beginning of the lunar new year."],
+   ["中秋节：意译", "the Mid-Autumn Festival", "Families may gather during the Mid-Autumn Festival."],
+   ["端午节：意译", "the Dragon Boat Festival", "Some communities hold races during the Dragon Boat Festival."],
+   ["元宵节：类别说明", "the Lantern Festival", "Lanterns are displayed during the Lantern Festival."]
+  ]},
+  {"id": "crafts", "type": "table", "title": "传统技艺", "cols": ["词语", "译法", "例句"], "rows": [
+   ["剪纸：意译", "paper-cutting", "Paper-cutting uses cut paper to make decorative designs."],
+   ["刺绣：类别说明", "embroidery", "Embroidery decorates fabric with stitches."],
+   ["书法：类别说明", "calligraphy", "Chinese calligraphy often uses a brush to write characters."],
+   ["篆刻：意译", "seal carving", "Seal carving produces designs on seals."]
+  ]},
+  {"id": "concepts", "type": "table", "title": "观念称谓", "cols": ["词语", "译法", "例句"], "rows": [
+   ["孝：音译加释义", "xiao, or filial respect", "Xiao, or filial respect, includes respect for parents."],
+   ["礼：音译加释义", "li, or ritual propriety", "Li, or ritual propriety, concerns appropriate conduct."],
+   ["家风：意译", "family traditions and values", "Family traditions and values can be passed between generations."],
+   ["师徒：类别说明", "a master and an apprentice", "A master teaches skills to an apprentice."]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [{"box": "原文：师徒关系中，师傅向徒弟传授技艺。\n译文：In a master-apprentice relationship, a master teaches skills to an apprentice."}, {"p": "master-apprentice relationship 说明两人的关系。teaches skills 保留传授技艺的方向。译文未加入原文没有的评价。"}]},
+  {"id": "practice-a", "type": "check", "title": "练习一", "points": ["sense", "strategy"], "groups": [{"items": [
+   {"stem": "原文：剪纸用剪出的纸制作装饰图案。选择译句。", "options": ["Paper-cutting uses cut paper to make decorative designs.", "Paper-cutting uses scissors to cut paper into pieces.", "Paper-cutting is the finest decorative art in China.", "Paper-cutting uses cut fabric to make decorative designs."], "answer": 0, "why": "原文的两个要点是剪出的纸和装饰图案，第一项用 cut paper 和 decorative designs 都译出了。第三项加了原文没有的评价。", "point": "sense"},
+   {"stem": "原文：孝包括尊重父母。选择带释义的译句。", "options": ["Xiao includes respect for parents.", "Xiao, or filial respect, includes respect for parents.", "Filial respect includes obeying parents in everything.", "Li, or filial respect, includes respect for parents."], "answer": 1, "why": "孝的拼音是 xiao，释义是 filial respect；尊重父母译为 respect for parents，即第二项。第一项只有拼音，没有释义。", "point": "strategy"},
+   {"stem": "原文：刺绣用针线装饰织物。选择译句。", "options": ["Embroidery decorates fabric with printed colors.", "Embroidery weaves thread into fabric.", "Embroidery decorates fabric with stitches.", "Embroidery is a needle and a thread for fabric."], "answer": 2, "why": "原文说用针线装饰织物。第三项的 fabric 对应织物，stitches 对应针线缝出的针脚。第四项逐字译了针线，没有译出装饰这个动作。", "point": "sense"},
+   {"stem": "原文：家风可以代代相传。选择译句。", "options": ["Family wind can be passed between generations.", "Family property can be passed between generations.", "Family traditions and values must be kept unchanged by every generation.", "Family traditions and values can be passed between generations."], "answer": 3, "why": "家风指一个家庭的传统和价值观，代代相传译为 passed between generations，即第四项。第一项把风字逐字译成 wind。", "point": "strategy"},
+   {"stem": "原文：书法是用毛笔书写文字的艺术。选择译句。", "options": ["Calligraphy is the art of writing characters with a brush.", "Calligraphy is the art of drawing pictures with a brush.", "Calligraphy is the art of writing characters with a pen.", "Calligraphy is the most beautiful way of writing characters."], "answer": 0, "why": "原文是用毛笔书写文字，第一项的 writing characters with a brush 保留了书写对象和工具。第四项加了原文没有的评价。", "point": "sense"},
+   {"stem": "原文：有些地方在端午节举行龙舟竞赛。选择译句。", "options": ["Every community holds dragon boat races during the Dragon Boat Festival.", "Some communities hold dragon boat races during the Dragon Boat Festival.", "Some communities hold dragon boat races during the Lantern Festival.", "Some places race dragons during the Dragon Boat Festival."], "answer": 1, "why": "有些地方对应 some communities，龙舟竞赛对应 dragon boat races，即第二项。第一项把范围扩大到所有地方。", "point": "strategy"}
+  ]}]},
+  {"id": "practice-b", "type": "check", "title": "练习二", "points": ["sense", "strategy"], "groups": [{"items": [
+   {"stem": "原文：师傅向徒弟传授技艺。选择译句。", "options": ["An apprentice teaches skills to a master.", "A master learns skills from an apprentice.", "A master teaches skills to an apprentice.", "A teacher teaches skills to a student in a school."], "answer": 2, "why": "师傅是传授技艺的人，译为 master；徒弟是学艺的人，译为 apprentice，即第三项。第四项换成了学校里的师生。", "point": "sense"},
+   {"stem": "原文：礼关乎得体的行为。选择带释义的译句。", "options": ["Li concerns appropriate conduct.", "Li, or a gift, concerns appropriate conduct.", "Xiao, or ritual propriety, concerns appropriate conduct.", "Li, or ritual propriety, concerns appropriate conduct."], "answer": 3, "why": "礼的拼音是 li，释义是 ritual propriety；得体的行为译为 appropriate conduct，即第四项。第二项把礼理解成礼物，词义错了。", "point": "strategy"},
+   {"stem": "原文：篆刻在印章上制作图案。选择译句。", "options": ["Seal carving produces designs on seals.", "Seal carving produces designs on fabric.", "Seal carving stamps designs onto paper.", "Seal carving produces designs on stone walls."], "answer": 0, "why": "原文是在印章上制作图案，第一项的 designs on seals 对应印章上的图案。第三项说的是用印章盖印，不是篆刻本身。", "point": "sense"},
+   {"stem": "原文：元宵节期间展示灯笼。选择译句。", "options": ["Lanterns are shown during the Spring Festival.", "Lanterns are displayed during the Lantern Festival.", "Lanterns are displayed during Yuanxiao, a kind of sweet dumpling.", "Lanterns are displayed during the Mid-Autumn Festival."], "answer": 1, "why": "元宵节的通行译名是 the Lantern Festival，即第二项。第三项把节日名称当成了食物元宵。", "point": "strategy"},
+   {"stem": "原文：春节标志着农历新年开始。选择译句。", "options": ["The Spring Festival marks the end of the lunar new year.", "The Lantern Festival marks the start of the lunar new year.", "The Spring Festival marks the start of the lunar new year.", "The Spring Festival marks the start of spring."], "answer": 2, "why": "农历新年译为 the lunar new year，开始译为 start，即第三项。第四项按字面把春节理解成春天的开始。", "point": "sense"},
+   {"stem": "原文：一些家庭在中秋节团聚。选择译句。", "options": ["All families gather during the Mid-Autumn Festival.", "Some families gather during the Lantern Festival.", "Some families must gather during the Mid-Autumn Festival.", "Some families gather during the Mid-Autumn Festival."], "answer": 3, "why": "一些家庭对应 some families，中秋节对应 the Mid-Autumn Festival，即第四项。第三项加了 must，变成了规定。", "point": "strategy"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["sense", "strategy"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "原文：一些人用针线在衣服上绣花。选择译句。", "options": ["Some people use stitches to make flowers on clothing.", "Some people use paint to make flowers on clothing.", "Everyone uses stitches to make flowers on clothing.", "Some people use stitches to repair holes in clothing."], "answer": 0, "why": "原文是一些人用针线在衣服上绣花。第一项的 stitches、flowers、clothing 和 some people 都与原文对应。第四项把绣花改成了缝补。", "point": "sense"},
+   {"stem": "原文：师傅向徒弟传授篆刻技艺。选择译句。", "options": ["An apprentice teaches a master the art of seal carving.", "A master teaches an apprentice the art of seal carving.", "A master learns the art of seal carving from an apprentice.", "A master teaches an apprentice the art of paper-cutting."], "answer": 1, "why": "师傅是 master，徒弟是 apprentice，传授的方向由 teaches 表达；篆刻是 seal carving，即第二项。第四项把技艺换成了剪纸。", "point": "sense"},
+   {"stem": "原文：尊重父母是孝的含义之一。选择带释义的译句。", "options": ["Respect for parents is one meaning of xiao.", "Respect for parents is one meaning of xiao, or ritual propriety.", "Respect for parents is one meaning of xiao, or filial respect.", "Respect for parents is the only meaning of xiao, or filial respect."], "answer": 2, "why": "孝译为 xiao 加释义 filial respect，含义之一译为 one meaning，即第三项。第四项把之一改成了 the only。", "point": "strategy"},
+   {"stem": "原文：元宵节时，一些社区展示灯笼。选择译句。", "options": ["All communities display lanterns during the Lantern Festival.", "Some communities display lanterns during the Spring Festival.", "Some communities display lanterns during the Mid-Autumn Festival.", "Some communities display lanterns during the Lantern Festival."], "answer": 3, "why": "一些社区对应 some communities，元宵节对应 the Lantern Festival，即第四项。第一项把范围扩大到所有社区。", "point": "strategy"},
+   {"stem": "原文：篆刻在印章上制作图案。补全 Seal ____ produces designs on seals. 使用本课中篆刻译名的第二个词。", "accept": ["carving"], "why": "seal carving 指在印章上制作图案的技艺。", "point": "sense"},
+   {"stem": "原文：书法用毛笔书写文字。补全 Calligraphy uses a ____ to write characters. 使用本课中毛笔的单数译词。", "accept": ["brush"], "why": "brush 指书写文字的毛笔。", "point": "sense"},
+   {"stem": "原文：师傅向徒弟传授技艺。补全 A master teaches skills to an ____. 使用本课中徒弟的单数译词。", "accept": ["apprentice"], "why": "apprentice 说明接受技艺传授的人。", "point": "strategy"},
+   {"stem": "原文：春节标志着农历新年的开始。补全 The Spring Festival marks the beginning of the ____ new year. 使用本课中表示农历的形容词。", "accept": ["lunar"], "why": "lunar new year 指农历新年。", "point": "strategy"}
+  ]}]}]}
+ ]
+}

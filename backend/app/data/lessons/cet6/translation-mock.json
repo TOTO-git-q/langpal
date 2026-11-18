@@ -1,0 +1,178 @@
+{
+ "id": "translation-mock",
+ "title": "翻译模拟测试",
+ "goal": "核对译句的原意和句子结构。",
+ "skill": "翻译",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "meaning",
+   "label": "选择完整保留原文信息的译句"
+  },
+  {
+   "id": "structure",
+   "label": "排列主次清楚且结构正确的译句"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c1",
+   "title": "大学英语四、六级考试内容和试卷结构",
+   "url": "https://cet.neea.edu.cn/html1/folder/16113/1586-1.htm",
+   "used": "翻译任务及时间"
+  },
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "翻译原文长度"
+  }
+ ],
+ "cards": [
+  {
+   "id": "description",
+   "type": "text",
+   "title": "说明",
+   "body": [
+    {
+     "p": "六级翻译要求将一段 180—200 个汉字的中文译为英文，考试时间为 30 分钟。完整译文由汉译英练习中的模型整体批改。"
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "meaning",
+    "structure"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "Choose the translation that preserves the meaning: 这条道路连接村庄和车站，但并不经过港口。",
+         "options": [
+          "The road links the village and the station but does not pass through the port.",
+          "The road links the village and the port but does not pass through the station.",
+          "The road links the station and the port but does not pass through the village.",
+          "The road links the village to the station by passing through the port."
+         ],
+         "answer": 0,
+         "why": "原文说道路连接村庄和车站，不经过港口。第一项两点都保留了。",
+         "point": "meaning"
+        },
+        {
+         "stem": "Choose the translation that preserves the meaning: 部分居民参加了培训，培训由社区中心提供。",
+         "options": [
+          "All residents attended training arranged by the community center.",
+          "Some residents attended training provided by the community center.",
+          "Some residents provided training that the community center attended.",
+          "The community center trained every resident who requested a course."
+         ],
+         "answer": 1,
+         "why": "原文是部分居民参加培训，培训由社区中心提供。第二项保留了 some 这个范围和提供者。第一项把部分改成了全部。",
+         "point": "meaning"
+        },
+        {
+         "stem": "Choose the translation that preserves the meaning: 这座桥于十年前建成，至今仍连接河流两岸。",
+         "options": [
+          "The bridge will be completed in ten years and will connect both banks.",
+          "The bridge connected both banks only during its first ten years.",
+          "The bridge was completed ten years ago and still links both banks.",
+          "The bridge was started ten years ago and still does not link the banks."
+         ],
+         "answer": 2,
+         "why": "原文有两点：十年前建成，至今仍连接两岸。第三项用 was completed ten years ago 和 still links 保留了这两点。",
+         "point": "meaning"
+        },
+        {
+         "stem": "Choose the translation that preserves the meaning: 研究人员先测试设备，再向其他站点推广。",
+         "options": [
+          "Researchers introduced the equipment at other sites before testing it.",
+          "Researchers tested equipment that other sites had already introduced.",
+          "Researchers tested the equipment only after other sites had adopted it.",
+          "Researchers tested the equipment before introducing it at other sites."
+         ],
+         "answer": 3,
+         "why": "原文的顺序是先测试、再推广。第四项用 tested ... before introducing 保留了这个顺序。",
+         "point": "meaning"
+        },
+        {
+         "stem": "Arrange the translation: 图书馆提供适合儿童的书籍。",
+         "lead": "The library",
+         "chunks": [
+          "provides",
+          "books",
+          "that",
+          "are suitable for children"
+         ],
+         "tail": ".",
+         "extra": [
+          "provide"
+         ],
+         "why": "provides 是谓语，that 从句修饰 books。",
+         "point": "structure"
+        },
+        {
+         "stem": "Arrange the translation: 工作人员使用设备监测水位。",
+         "lead": "The staff",
+         "chunks": [
+          "use",
+          "equipment",
+          "to monitor water",
+          "levels"
+         ],
+         "tail": ".",
+         "extra": [
+          "using"
+         ],
+         "why": "use 是谓语，to monitor 表示使用设备的目的。",
+         "point": "structure"
+        },
+        {
+         "stem": "Arrange the translation: 这个项目帮助居民减少家庭废物。",
+         "lead": "The project",
+         "chunks": [
+          "helps",
+          "residents",
+          "reduce",
+          "household waste"
+         ],
+         "tail": ".",
+         "extra": [
+          "helping"
+         ],
+         "why": "helps residents reduce 构成帮助某人做某事的结构。",
+         "point": "structure"
+        },
+        {
+         "stem": "Arrange the translation: 研究人员公布了去年收集的数据。",
+         "lead": "The researchers published",
+         "chunks": [
+          "the",
+          "data",
+          "that were",
+          "collected last year"
+         ],
+         "tail": ".",
+         "extra": [
+          "collect"
+         ],
+         "why": "published 是谓语。that 从句修饰 data，说明数据是去年收集的。",
+         "point": "structure"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

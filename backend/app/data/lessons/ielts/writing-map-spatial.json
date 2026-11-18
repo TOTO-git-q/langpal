@@ -1,0 +1,43 @@
+{
+ "id": "writing-map-spatial", "title": "位置与改建表达", "goal": "能描述设施的相对位置、替换和延伸。", "skill": "写作", "exam": "雅思 IELTS Academic", "mastery": "once",
+ "points": [{"id": "location", "label": "准确表述设施的相对位置"}, {"id": "conversion", "label": "表达设施替换与空间延伸"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "写作地图语言课的内容与教学规格"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "位置表达以方向或地标为参照。描述改建时，主语和动词要分清哪个是原有设施，哪个是新设施。"}, {"box": "The café is west of the road.\nThe warehouse was converted into a gallery."}, {"p": "west of 以道路为参照。converted into 表示原来的仓库改作画廊。已发生的变化用过去时，规划中的变化用将来时。"}]},
+  {"id": "direction", "type": "table", "title": "方位与相邻", "cols": ["关系", "表达", "例句"], "rows": [
+   ["北方", "north of", "The hall is north of the garden."], ["南方", "to the south of", "The pond is to the south of the hall."], ["东方", "east of", "The gate is east of the pond."], ["西方", "to the west of", "The café is to the west of the road."],
+   ["相邻", "next to", "The café is next to the library."], ["相邻", "beside", "The pond is beside the path."], ["相邻", "adjacent to", "The hall is adjacent to the garden."], ["接壤", "adjoin", "The garden adjoins the hall."]
+  ]},
+  {"id": "extent", "type": "table", "title": "相对位置与范围", "cols": ["关系", "表达", "例句"], "rows": [
+   ["隔路相对", "opposite", "The shop is opposite the hall across the road."], ["隔路相对", "across the road from", "The shop is across the road from the hall."], ["隔路相对", "on the opposite side of", "The shop is on the opposite side of the road from the hall."], ["隔路相对", "face across", "The shop and hall face each other across the road."],
+   ["占据区域", "occupy", "The garden occupies the eastern area."], ["占据部分", "cover", "The pond covers the northern part of the site."], ["位于一端", "at the southern end of", "The gate is at the southern end of the site."], ["沿边界", "along the western edge of", "Trees stand along the western edge of the site."]
+  ]},
+  {"id": "conversion", "type": "table", "title": "改建与延伸", "cols": ["关系", "结构", "例句"], "rows": [
+   ["原建筑改作新用途", "be converted into", "The mill was converted into a museum."], ["旧设施被新设施取代", "be replaced by", "The shed was replaced by a store."], ["新设施取代旧设施", "replace", "A store replaced the shed."], ["道路朝某方向延伸", "be extended eastwards", "The road will be extended eastwards."]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["location"], "groups": [{"items": [
+   {"stem": "A hall is north of a pond. Which sentence preserves the relationship?", "options": ["The pond is south of the hall.", "The pond is north of the hall.", "The hall is south of the pond.", "The hall is east of the pond."], "answer": 0, "why": "hall 在 pond 北方，pond 因而在 hall 南方。", "point": "location"},
+   {"stem": "A café is directly beside a library. Which phrase describes the café?", "options": ["Opposite the library across a road.", "Adjacent to the library building.", "At the northern end of the road.", "Across the road from the library."], "answer": 1, "why": "beside 表示相邻，adjacent to 表达同一关系。", "point": "location"},
+   {"stem": "A shop faces a hall with a road between them. Which description matches?", "options": ["The shop is next to the hall.", "The shop is behind the hall.", "The shop is opposite the hall across the road.", "The shop is inside the hall beside the road."], "answer": 2, "why": "道路位于 shop 和 hall 中间，两者隔路相对。", "point": "location"},
+   {"stem": "A pond covers the northern part of a site. Which statement matches?", "options": ["The pond is south of the entire site.", "The pond runs along the western edge.", "The pond lies beyond the northern boundary.", "The pond occupies the site's northern part."], "answer": 3, "why": "原句中 covers the northern part 指占据场地北部。", "point": "location"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["conversion"], "groups": [{"items": [
+   {"stem": "A mill became a museum in 2010. Which sentence gives the change?", "options": ["The mill was converted into a museum.", "The museum was converted into a mill.", "The mill will replace the museum in 2010.", "The museum will be converted into a mill."], "answer": 0, "why": "mill 是原建筑，museum 是改建后的用途；2010 年的变化用过去时。", "point": "conversion"},
+   {"stem": "A plan extends a path westwards. Which statement matches the plan?", "options": ["The path was extended eastwards.", "The path will be extended westwards.", "The path was replaced by a western gate.", "The path will be converted into a gate."], "answer": 1, "why": "规划中的延伸朝西，第二项使用将来时。", "point": "conversion"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["location", "conversion"], "sets": [{"id": "set-a", "groups": [
+   {"text": "The maps show a former mill site in 1990 and 2020. The mill building remained and became a museum. Compare the buildings and open spaces on either side of the road. Summarise the principal changes and describe the position of the retained features, using the north arrow and the road as reference points.\n\nN ↑       1990                   2020\nWest    mill | road | hall     museum | road | hall       East\n        pond | road | shed     pond   | road | shop", "items": [
+    {"stem": "Which sentence describes the hall and road in 2020?", "options": ["The hall is east of the road.", "The hall is west of the road.", "The road is east of the hall.", "The hall is across the road from the shop."], "answer": 0, "why": "2020 年地图中 hall 在道路右侧，北向朝上，因此在东侧。", "point": "location"},
+    {"stem": "Which sentence describes the change at the mill site?", "options": ["The museum was converted into a mill.", "The mill was converted into a museum.", "The mill was replaced by a shop.", "The mill was converted into a shed."], "answer": 1, "why": "材料写明 The mill building remained and became a museum，2020 年地图的同一位置是 museum。第二项写对了改建方向。", "point": "conversion"},
+    {"stem": "Complete the description of the eastern change.", "lead": "The shed", "chunks": ["was", "replaced by", "a shop in", "2020"], "tail": ".", "extra": ["by a mill"], "why": "2020 年 shed 的位置是 shop。mill 在道路另一侧。", "point": "conversion"},
+    {"stem": "Complete the sentence about the pond's position.", "lead": "The pond", "chunks": ["is", "west", "of", "the road"], "tail": ".", "extra": ["east"], "why": "pond 在道路西侧，west of 表示相对方位。", "point": "location"}
+   ]},
+   {"text": "The maps show an existing campus and a plan for its future layout. Compare the buildings on each side of the road and the route of the path. Summarise the proposed changes and locate the features that are shown in the same place on both maps.\n\nN ↑        Now                       Plan\nWest     lawn | road | hall      garden | road | hall       East\n         path →                  path ─────→ eastwards", "items": [
+    {"stem": "Which proposed feature will be west of the road?", "options": ["The existing hall building.", "The existing lawn area.", "The proposed garden area.", "The proposed hall building."], "answer": 2, "why": "规划图中道路西侧是 garden。lawn 现在也在西侧，但规划中被 garden 取代，所以第二项不对。", "point": "location"},
+    {"stem": "What change to the path is shown?", "options": ["It was extended westwards.", "It will be replaced by a hall.", "It was converted into a garden.", "It will be extended eastwards."], "answer": 3, "why": "规划图中 path 的箭头朝东延长，第四项使用将来时。", "point": "conversion"},
+    {"stem": "Complete the sentence about the proposed western change.", "lead": "The lawn", "chunks": ["will be", "replaced by", "a garden under", "the plan"], "tail": ".", "extra": ["by a hall"], "why": "规划图中 lawn 原址为 garden。", "point": "conversion"},
+    {"stem": "Complete the sentence describing the hall's location.", "lead": "The hall", "chunks": ["is", "east", "of", "the road"], "tail": ".", "extra": ["west"], "why": "hall 在道路东侧，east of 确定相对位置。", "point": "location"}
+   ]}
+  ]}]}
+ ]
+}

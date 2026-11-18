@@ -1,0 +1,39 @@
+{
+  "id": "writing-task1-table",
+  "title": "表格　Task 1 · 练习",
+  "goal": "筛选表格的主要特征，并准确比较数据。",
+  "skill": "写作",
+  "exam": "雅思 IELTS Academic",
+  "points": [
+    {"id": "select", "label": "筛选多指标表中的主要特征"},
+    {"id": "structure", "label": "区分总体概述与数据支持"},
+    {"id": "accuracy", "label": "保持数量主语与谓语一致"}
+  ],
+  "sources": [
+    {"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "练习尺寸与知识点"},
+    {"id": "writing", "title": "IELTS Academic: Writing test format", "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing", "used": "写作任务的形式"},
+    {"id": "rubric", "title": "IELTS Writing Band Descriptors", "url": "https://ielts.org/cdn/ielts-guides/ielts-writing-band-descriptors.pdf", "used": "写作评分标准"}
+  ],
+  "cards": [
+    {"id": "rubric", "type": "rubric", "title": "评分标准", "levels": [
+      {"score": 5, "name": "Band 8-9", "summary": "充分完成任务，概述清楚，语言运用自如。", "signs": ["准确概括并充分呈现主要特征", "组织连贯，衔接自然", "词汇准确灵活，句式多样，错误极少"]},
+      {"score": 4, "name": "Band 7", "summary": "完成任务，概述清楚，主要特征有恰当支持。", "signs": ["选择并呈现主要特征，细节可更充分", "结构清楚，衔接基本得当", "词汇与句式有变化，错误较少"]},
+      {"score": 3, "name": "Band 6", "summary": "涵盖主要特征并尝试概述，但部分细节可能遗漏或不准确。", "signs": ["概述可辨，部分细节不充分或有误", "整体推进清楚，衔接有时机械", "词汇和句式有一定范围，错误反复出现"]},
+      {"score": 2, "name": "Band 5", "summary": "部分完成任务，概述或主要特征不够清楚。", "signs": ["选择的细节有限，可能遗漏重要特征", "组织有一定顺序，但衔接不稳定", "词汇和句式范围有限，错误有时妨碍理解"]},
+      {"score": 1, "name": "Band 4 及以下", "summary": "任务完成十分有限，语言困难明显。", "signs": ["主要特征或概述缺失", "组织和衔接有限", "词汇及句式范围很窄，错误频繁并影响理解"]},
+      {"score": 0, "name": "未作答", "summary": "未作答。", "signs": []}
+    ], "takeaways": [{"t": "四项标准", "d": "按任务完成情况、连贯与衔接、词汇、语法范围与准确性四项等权评价。"}]},
+    {"id": "marking", "type": "marking", "title": "批改单", "format": [
+      {"t": "题目的要求", "d": "逐条判断是否答到，并引用原文。"},
+      {"t": "分数档", "d": "对照评分标准给出 0–5 分和理由。"},
+      {"t": "必改的地方", "d": "列出最多五处影响理解或准确性的错误及改法。"},
+      {"t": "升一档", "d": "改写一处内容，说明怎样补充细节或表达得更准确。"}
+    ], "rules": "评分依据任务完成情况、连贯与衔接、词汇、语法范围与准确性；四项等权。", "example": {
+      "about": "以下示例说明概述不完整时的判定。", "coverage": [{"bullet": "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.", "verdict": "做了但太薄", "quote": "The figures differ.", "note": "提到了差异，但没有概括主要特征。"}], "score": 2, "reason": "描述涉及差异，但没有说明主要特征。", "fixes": [], "upgrade": {"from": "The figures differ.", "to": "The East library had the most users and loans, while the West library had the fewest.", "why": "概括了两项指标的最高值和最低值。"}, "next": ""
+    }},
+    {"id": "timed", "type": "write", "title": "限时写作", "minutes": 20, "min_words": 150, "points": ["select", "structure", "accuracy"], "tasks": [
+      {"id": "set-a", "purpose": "比较四个社区图书馆的使用情况", "setting": "The table gives information about four community libraries in one town in 2022. It shows the number of registered users, the number of books lent and the average number of hours that each library opened per week. The figures are for the same calendar year.\n\nTable: community library use in 2022\nLibrary   Users (2022)   Loans (2022)   Hours/week (2022)\nNorth             1200           8400                  40\nSouth              900           7200                  35\nEast              1500           9000                  45\nWest               600           4800                  30", "lead": "Write at least 150 words.", "bullets": ["Summarise the information by selecting and reporting the main features, and make comparisons where relevant."], "must": ["概括四馆的主要特征，并选择数据比较使用情况。"], "model": "The table compares four community libraries in a town in 2022 in terms of registered users, annual book loans and average weekly opening hours.\n\nOverall, East was the largest of the four libraries by both users and loans, and it was also open for the longest period each week. West had the lowest figure on all three measures. The libraries ranked in the same order across the three indicators.\n\nEast had 1,500 registered users, 300 more than North, which had 1,200. South followed with 900, while West had 600 users, less than half the East figure. The number of loans was also highest at East, at 9,000, although North was close behind with 8,400. South recorded 7,200 loans, and West recorded 4,800, just over half the number at East.\n\nThe opening hours showed a smaller absolute spread. East opened for an average of 45 hours per week, compared with 40 at North. South opened for 35 hours, five more than West. Thus the difference between the longest and shortest weekly opening times was 15 hours."},
+      {"id": "set-b", "purpose": "比较四个社区运动中心的使用情况", "setting": "The table presents information about four community sports centres during 2023. It compares their numbers of registered members and weekly classes, together with their average opening hours per week. All four centres are in the same town and the membership figures relate to the end of the year.\n\nTable: community sports centres in 2023\nCentre   Members (2023)   Classes/week (2023)   Hours/week (2023)\nHill                800                    20                  50\nPark               1200                    30                  60\nRiver              1000                    25                  55\nVale                600                    15                  45", "lead": "Write at least 150 words.", "bullets": ["Summarise the information by selecting and reporting the main features, and make comparisons where relevant."], "must": ["概括四个中心的主要特征，并选择数据比较使用情况。"], "model": "The table provides data on membership, weekly classes and average weekly opening hours at four community sports centres in 2023. The centres were all located in the same town.\n\nOverall, Park had the most members and classes and opened for the longest time. Vale had the lowest figure for each indicator. River and Hill occupied the middle positions, with River ahead of Hill on all three measures.\n\nAt the end of the year, Park had 1,200 registered members, twice the 600 recorded at Vale. River had 1,000 members, placing it 200 below Park and 200 above Hill, whose membership stood at 800. The number of weekly classes followed the same order: Park offered 30 and River 25, compared with 20 at Hill and 15 at Vale.\n\nPark was open for an average of 60 hours a week, while Vale opened for 45 hours. The two other centres fell between these figures, at 55 hours for River and 50 for Hill. Consequently, the gap between neighbouring centres was five hours in each case, and the total range was 15 hours."}
+    ], "more": {"kind": "task1-table", "topics": ["公共交通", "图书馆借阅", "社区用水", "家庭能源", "学校出行", "城市绿地", "博物馆参观", "家庭支出", "废物处理", "运动设施", "课程报名", "公园访客"]}}
+  ]
+}

@@ -1,0 +1,423 @@
+{
+ "id": "reading-ctw-rule",
+ "title": "挖空规则与解题步骤",
+ "goal": "根据已给字母、词长和句法判断候选词，并按步骤完成补全单词。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "rule",
+   "label": "根据挖空规则判断每个空缺几个字母、是哪类词"
+  },
+  {
+   "id": "procedure",
+   "label": "按步骤在限时内完成一段"
+  }
+ ],
+ "sources": [
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明和官方样题（挖空规则是对照样题和答案看出来的）"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "Complete the Words 要求补出单词缺掉的后半部分。段落约 70–100 词，首句完整，之后隔一个词挖一个，共 10 空。已给的是单词的前一半。字母数为奇数的词，已给部分比缺失部分少 1 个字母。"
+    },
+    {
+     "box": "The material is flexible. It c__ bend wi__ pressure."
+    },
+    {
+     "p": "例中 can 已给 c，缺 an；with 已给 wi，缺 th。只输入缺失的字母，不重复输入整个单词。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　读首句确定话题",
+     "d": "首句给出段落的话题，能缩小实义词的范围。The material is flexible 讲材料的性质，后文的 bend 与它相关。"
+    },
+    {
+     "t": "2　检查空格前后",
+     "d": "先看空格前后各一个词，再确定词长和句法位置。It c__ bend 中，后面是动词原形 bend，所以填 can。"
+    },
+    {
+     "t": "3　先补功能词",
+     "d": "先填语法关系明确的短空，再填实义词。with pressure 中 with 引出条件，wi__ 补 th。"
+    },
+    {
+     "t": "4　回读全段",
+     "d": "把完整的单词放回句中，核对句意、时态和拼写。can bend 不能写成 can bends。"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "type": "table",
+   "title": "规则",
+   "cols": [
+    "情况",
+    "规则",
+    "例"
+   ],
+   "rows": [
+    [
+     "偶数字母词",
+     "给出前一半，缺失部分与已给部分等长。",
+     "with → wi__；缺 th"
+    ],
+    [
+     "奇数字母词",
+     "已给部分少 1 个字母。",
+     "their → th___；缺 eir"
+    ],
+    [
+     "短词",
+     "开头和长度相同，也可能是不同的词。",
+     "th__：that / than / then"
+    ],
+    [
+     "单字母词",
+     "不挖 a、I，挖空位置顺延。",
+     "a sample：a 保留完整"
+    ],
+    [
+     "作答内容",
+     "只补缺失的字母，复数和时态的词尾也要补。",
+     "forms → fo___；缺 rms"
+    ],
+    [
+     "拼写形式",
+     "候选词要同时符合已给字母和总长度。",
+     "study → st___；studies → stu____"
+    ]
+   ]
+  },
+  {
+   "id": "word-types",
+   "type": "table",
+   "title": "功能词与实义词",
+   "cols": [
+    "类型",
+    "作用",
+    "例"
+   ],
+   "rows": [
+    [
+     "功能词",
+     "表示语法关系，看相邻的词判断。",
+     "a strip of paper：of 表示关系"
+    ],
+    [
+     "实义词",
+     "表示事物、动作和性质，看话题判断。",
+     "Paper absorbs water.：absorbs 表示动作"
+    ],
+    [
+     "样题统计",
+     "按原样题标签统计：90 空中功能词 48 空。",
+     "with、and、of 被标为 function"
+    ],
+    [
+     "样题统计",
+     "同一统计中实义词 42 空。",
+     "mixed、surfaces 被标为 content"
+    ]
+   ],
+   "note": "统计的是 reading-complete-words 课里「完整的一段」和 4 套小测，共 9 段，词类沿用样题的标签。这是样题里的比例，考试没有规定词类比例。"
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A loom holds threads in place while cloth is woven. A weaver passes one thread across the others. The cloth is made fr__ two sets of threads, and its edges must remain straight."
+    },
+    {
+     "p": "首句的 loom、threads、cloth 说明话题是织布。fr__ 前面是 made，后面是 two sets of threads，全词 4 个字母。"
+    },
+    {
+     "p": "made from 表示用什么材料制成，from 是介词，只填 om。回读 The cloth is made from two sets of threads，结构和话题都成立。"
+    }
+   ]
+  },
+  {
+   "id": "errors",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "重复已给字母",
+     "fr__ 中输入 from",
+     "已给 fr，只输入 om。"
+    ],
+    [
+     "词长不符",
+     "wi__ 中拟填 within",
+     "within 有 6 个字母，这里只有 4 个字母的位置。"
+    ],
+    [
+     "形式不符",
+     "It can bends.",
+     "can 后用原形 bend。"
+    ],
+    [
+     "关系不符",
+     "longer that the first strip",
+     "比较级 longer 后用 than。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "rule",
+    "procedure"
+   ],
+   "groups": [
+    {
+     "label": "Read the text.",
+     "look": "passage",
+     "text": "A metal spring can return to its original shape.",
+     "items": [
+      {
+       "stem": "In c__ return, which letters complete the auxiliary?",
+       "options": [
+        "an",
+        "at",
+        "ar",
+        "as"
+       ],
+       "answer": 0,
+       "why": "依据 can return，情态动词 can 后接原形 return；已给 c，只补 an。",
+       "point": "rule"
+      }
+     ]
+    },
+    {
+     "label": "Read the text.",
+     "look": "passage",
+     "text": "The lid keeps dust away from the instrument.",
+     "items": [
+      {
+       "stem": "In fr__ the instrument, what must be entered?",
+       "options": [
+        "from",
+        "om",
+        "rom",
+        "for"
+       ],
+       "answer": 1,
+       "why": "依据是 from the instrument。from 已给 fr，只输入缺失的 om。",
+       "point": "rule"
+      }
+     ]
+    },
+    {
+     "label": "Read the text.",
+     "look": "passage",
+     "text": "A compass contains a needle that responds to a magnetic field.",
+     "items": [
+      {
+       "stem": "Which action should come first when completing this paragraph?",
+       "options": [
+        "Look at the words on each side of a gap",
+        "Complete the short function words in the gaps",
+        "Read the intact sentence to identify the topic",
+        "Reread the whole passage to check every form"
+       ],
+       "answer": 2,
+       "why": "依据是解题步骤第 1 步：先读完整的首句，确定话题，这里是指南针和磁场。第一项是第 2 步，不是第一步。",
+       "point": "procedure"
+      }
+     ]
+    },
+    {
+     "label": "Read the text.",
+     "look": "passage",
+     "text": "The maker has fitted a new string to the instrument.",
+     "items": [
+      {
+       "stem": "After filling the gaps, which action checks the whole response?",
+       "options": [
+        "Reread the first sentence to confirm the topic",
+        "Check only the word just before each gap",
+        "Count the letters in each missing part again",
+        "Read the completed passage and check its forms"
+       ],
+       "answer": 3,
+       "why": "依据是解题步骤第 4 步：补完后回读全段，核对句意、时态和拼写，如 has fitted 的完成时。第二项只看空格前一个词，查不出整句的问题。",
+       "point": "procedure"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "rule",
+    "procedure"
+   ],
+   "groups": [
+    {
+     "label": "Read the text.",
+     "look": "passage",
+     "text": "A paper clip bends when enough force is applied. In a demonstration, a teacher compares two clips made from different metals. One clip is easy to bend, but the other requires more force. The teacher changes only the metal and keeps the size of each clip the same.",
+     "items": [
+      {
+       "stem": "In ma__ from different metals, which completion gives the required verb form?",
+       "options": [
+        "ny",
+        "in",
+        "de",
+        "te"
+       ],
+       "answer": 2,
+       "why": "依据是 clips made from different metals，made 是过去分词，修饰 clips。ma 后补 de。",
+       "point": "rule"
+      },
+      {
+       "stem": "In the phrase fr__ different metals, which nearby word helps identify the missing preposition?",
+       "options": [
+        "made",
+        "teacher",
+        "size",
+        "force"
+       ],
+       "answer": 0,
+       "why": "依据 made from different metals，介词由前面的 made 决定，made from 是固定搭配。",
+       "point": "procedure"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "rule",
+    "procedure"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Read the text.",
+       "look": "passage",
+       "text": "A sundial indicates time by the position of a shadow. As the sun appears to move across the sky, the shadow changes direction. A marked scale allows the position to be read. The instrument works only when sunlight reaches it, so it cannot give a reading on every cloudy day. Its accuracy also depends on how it is positioned. In this exercise, the phrase \"the position o_ a shadow\" contains an incomplete word.",
+       "items": [
+        {
+         "stem": "Which letters complete o_ in the quoted phrase?",
+         "options": [
+          "n",
+          "r",
+          "f",
+          "ff"
+         ],
+         "answer": 2,
+         "why": "依据 the position o_ a shadow，position of a shadow 中 of 表示所属关系；已给 o，缺 f。",
+         "point": "rule"
+        },
+        {
+         "stem": "What kind of word is missing in the quoted phrase?",
+         "options": [
+          "A noun naming the instrument",
+          "A verb describing its movement",
+          "An adjective describing the shadow",
+          "A preposition linking two nouns"
+         ],
+         "answer": 3,
+         "why": "依据是 the position o_ a shadow，of 连接 position 和 shadow 两个名词，是介词。",
+         "point": "rule"
+        },
+        {
+         "stem": "Before attempting the incomplete word, which topic should be identified from the first sentence?",
+         "options": [
+          "Measuring time with a shadow",
+          "Weather that blocks the sunlight",
+          "Placing an instrument correctly",
+          "The sun's apparent path in the sky"
+         ],
+         "answer": 0,
+         "why": "依据是首句 A sundial indicates time by the position of a shadow，话题是用影子计时。第四项出自第二句，是细节，不是首句给出的话题。",
+         "point": "procedure"
+        }
+       ]
+      },
+      {
+       "label": "Read the text.",
+       "look": "passage",
+       "text": "Blotting paper takes up spilled ink through spaces between its fibers. When an edge touches a drop, liquid moves into these small spaces. The movement can spread the ink beyond the point where the paper first touched it. A classroom demonstration compares a dry sheet with a sheet already wet with water. Both sheets are placed beside equal drops of ink. In the sentence \"The paper abso___ the ink,\" the blank represents three missing letters.",
+       "items": [
+        {
+         "stem": "Which completion fits abso___ in the quoted sentence?",
+         "options": [
+          "rbed",
+          "rbs",
+          "rber",
+          "rbing"
+         ],
+         "answer": 1,
+         "why": "依据是单数主语 The paper，动词用 absorbs。abso 后补 rbs，正好 3 个字母。",
+         "point": "rule"
+        },
+        {
+         "stem": "Which word type is needed in The paper abso___ the ink?",
+         "options": [
+          "A preposition introducing a location",
+          "A pronoun referring to the paper",
+          "A verb expressing what the paper does",
+          "A conjunction connecting two clauses"
+         ],
+         "answer": 2,
+         "why": "依据 The paper abso___ the ink，主语与宾语之间缺谓语动词，absorbs 表示纸吸收墨水的动作。",
+         "point": "rule"
+        },
+        {
+         "stem": "After entering rbs, what is the final step in the taught procedure?",
+         "options": [
+          "Reread the paragraph to check meaning and spelling",
+          "Return to the first sentence to identify the topic",
+          "Enter the complete word again beside the missing letters",
+          "Assume the remaining gaps require the same word type"
+         ],
+         "answer": 0,
+         "why": "依据是解题步骤第 4 步：补成 The paper absorbs the ink 后，回读全段，核对句意和拼写。第二项是读首句定话题，属于第 1 步。",
+         "point": "procedure"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

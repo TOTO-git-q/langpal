@@ -1,0 +1,439 @@
+{
+ "id": "writing-boundaries",
+ "title": "完整句与句间标点",
+ "goal": "识别缺少主句或谓语的句子；正确连接两个独立分句。",
+ "skill": "写作",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "complete",
+   "label": "识别缺少主句或谓语的句子"
+  },
+  {
+   "id": "join",
+   "label": "正确连接两个独立分句"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语六级（CET-6）：课表",
+   "url": "docs/syllabi/cet6.md",
+   "used": "写作部分本课的内容范围、知识点与练习规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "完整的句子要有主语和限定谓语。整句由 because、although 等从属连词引导时，只是从句。Having a plan 是非谓语短语，Because the plan changed 是从句，二者都不能单独成句。"
+    },
+    {
+     "box": "Having a plan helps the team. Because the plan changed, the team revised its schedule."
+    },
+    {
+     "p": "两个完整的独立分句不能只用逗号连接。改法有三种。用句号分成两句。用逗号加 and、but、so 等并列连词。用从属连词把其中一句变成原因、条件或让步从句。"
+    }
+   ]
+  },
+  {
+   "id": "subordinate",
+   "type": "table",
+   "title": "从句片段",
+   "cols": [
+    "情况",
+    "规则",
+    "例句"
+   ],
+   "rows": [
+    [
+     "原因片段",
+     "补上主句，或去掉 because 单独成句。",
+     "Fragment: Because the cable was loose. Revision: Because the cable was loose, the connection failed."
+    ],
+    [
+     "让步片段",
+     "although 后面即使有主谓，也是从句，要补上主句。",
+     "Fragment: Although the room was small. Revision: Although the room was small, it held the display."
+    ],
+    [
+     "条件片段",
+     "if 从句说明条件，主句说明这个条件下的结果。",
+     "Fragment: If the seal breaks. Revision: If the seal breaks, the contents may spill."
+    ],
+    [
+     "删除连接词",
+     "去掉连接词能成句，原因关系也随之消失。",
+     "Because the label faded. → The label faded."
+    ]
+   ]
+  },
+  {
+   "id": "nonfinite",
+   "type": "table",
+   "title": "非谓语片段",
+   "cols": [
+    "情况",
+    "规则",
+    "例句"
+   ],
+   "rows": [
+    [
+     "现在分词",
+     "主语后只有 doing，要补 be 构成谓语。",
+     "Fragment: The assistants sorting the cards. Revision: The assistants were sorting the cards."
+    ],
+    [
+     "不定式",
+     "to do 不能单独作谓语，改成 will do 等限定形式。",
+     "Fragment: The manager to review the figures. Revision: The manager will review the figures."
+    ],
+    [
+     "过去分词",
+     "表示被动时，done 前面要加 be。",
+     "Fragment: The dates recorded on the form. Revision: The dates were recorded on the form."
+    ],
+    [
+     "名词化动作",
+     "动名词可以作主语，句子另有谓语。",
+     "Checking the total takes time."
+    ]
+   ]
+  },
+  {
+   "id": "joins",
+   "type": "table",
+   "title": "独立分句的连接",
+   "cols": [
+    "情况",
+    "规则",
+    "例句"
+   ],
+   "rows": [
+    [
+     "句号",
+     "分成两句，后一句首字母大写。",
+     "Error: The gate closed, the crowd waited. Revision: The gate closed. The crowd waited."
+    ],
+    [
+     "并列连词",
+     "逗号加 and、but、so，按两句的关系选连词。",
+     "Error: The draft is short, it covers the essentials. Revision: The draft is short, but it covers the essentials."
+    ],
+    [
+     "从属连词",
+     "两句有因果关系时，把表示原因的一句改成 because 从句。",
+     "Error: The file was locked, the editor requested access. Revision: Because the file was locked, the editor requested access."
+    ],
+    [
+     "分号",
+     "紧密相关的独立分句可用分号连接。",
+     "The notice was revised; the old version was removed."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Because the entrance was being repaired. Visitors used the side door. The attendants guiding them along a marked path. The route was longer, it kept visitors away from the work area."
+    },
+    {
+     "box": "Because the entrance was being repaired, visitors used the side door. The attendants were guiding them along a marked path. The route was longer, but it kept visitors away from the work area."
+    },
+    {
+     "p": "第一处原来只有 because 从句，与下一句合并后，visitors used 是主句。第二处补上 were，were guiding 构成谓语。第三处加 but，表示路线虽长，却能让游客远离施工区。"
+    },
+    {
+     "p": "改正时不必把所有句子合成长句。入口施工和改走侧门有因果关系，所以合并。其他信息分句写，关系更清楚。"
+    }
+   ]
+  },
+  {
+   "id": "practice-1",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "complete",
+    "join"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Which version is a complete sentence rather than a dependent fragment?",
+       "options": [
+        "Although the ink had dried, the pages still needed to be checked.",
+        "Although the ink had dried before the pages were checked.",
+        "Because the ink had dried before the pages were checked.",
+        "If the ink had dried before the pages were checked."
+       ],
+       "answer": 0,
+       "why": "第一项在 Although 从句后有主句 the pages still needed，是完整的句子。其余三项都只有从句。",
+       "point": "complete"
+      },
+      {
+       "stem": "Which revision gives the subject a finite verb?",
+       "options": [
+        "The assistants preparing the display beside the entrance.",
+        "The assistants were preparing the display beside the entrance.",
+        "The assistants to prepare the display beside the entrance.",
+        "The assistants having prepared the display beside the entrance."
+       ],
+       "answer": 1,
+       "why": "were preparing 里的 were 是限定动词，即第二项。其余三项只有非谓语形式。",
+       "point": "complete"
+      },
+      {
+       "stem": "Which sentence correctly joins the contrast between a clear label and a faded date?",
+       "options": [
+        "The label is clear, the date has faded.",
+        "The label is clear but, the date has faded.",
+        "The label is clear, but the date has faded.",
+        "Although the label is clear, but the date has faded."
+       ],
+       "answer": 2,
+       "why": "逗号加 but 连接两个独立分句，即第三项。第四项 although 和 but 重复使用。",
+       "point": "join"
+      },
+      {
+       "stem": "Which revision makes the blocked path the cause of the changed route?",
+       "options": [
+        "The path was blocked, the courier changed the route.",
+        "The path was blocked because the courier changed the route.",
+        "Because the path was blocked. The courier changed the route.",
+        "Because the path was blocked, the courier changed the route."
+       ],
+       "answer": 3,
+       "why": "because 后面是原因，主句是结果，即第四项。第二项把因果说反了。",
+       "point": "join"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-2",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "complete",
+    "join"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Complete a sentence in which checking the display is the subject.",
+       "lead": "Checking the display",
+       "chunks": [
+        "requires",
+        "attention to",
+        "the position",
+        "of each label"
+       ],
+       "tail": ".",
+       "extra": [
+        "requiring"
+       ],
+       "why": "Checking the display 作主语，requires 为限定谓语。",
+       "point": "complete"
+      },
+      {
+       "stem": "Supply a main clause after the reason clause.",
+       "lead": "Because the passage was narrow,",
+       "chunks": [
+        "the attendants",
+        "directed visitors",
+        "toward",
+        "the wider entrance"
+       ],
+       "tail": ".",
+       "extra": [
+        "directing visitors"
+       ],
+       "why": "the attendants directed 构成主句。directing 不是限定谓语。",
+       "point": "complete"
+      },
+      {
+       "stem": "Join the two independent clauses with a contrast.",
+       "lead": "The shelves were full,",
+       "chunks": [
+        "but the staff",
+        "found room",
+        "for",
+        "the new arrivals"
+       ],
+       "tail": ".",
+       "extra": [
+        "although the staff"
+       ],
+       "why": "but 连接两个独立分句，表示转折。although 会把后一句变成从句，不符合题目要求。",
+       "point": "join"
+      },
+      {
+       "stem": "Make the delay a result of the missing signature.",
+       "lead": "The signature was missing,",
+       "chunks": [
+        "so the clerk",
+        "returned",
+        "the form",
+        "to its author"
+       ],
+       "tail": ".",
+       "extra": [
+        "because the clerk"
+       ],
+       "why": "so 引出结果。用 because 会把因果说反。",
+       "point": "join"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "complete",
+    "join"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "Which version is a complete sentence with a main clause rather than a fragment?",
+         "options": [
+          "Although the revised instructions included a diagram, several unfamiliar terms still required an explanation before the equipment could be used confidently.",
+          "Although the revised instructions included a diagram explaining several unfamiliar terms that had previously prevented the equipment from being used confidently.",
+          "Because the revised instructions included a diagram explaining several unfamiliar terms that had previously prevented the equipment from being used confidently.",
+          "If the revised instructions included a diagram explaining several unfamiliar terms that had previously prevented the equipment from being used confidently."
+         ],
+         "answer": 0,
+         "why": "第一项在 Although 从句之后有主句 several unfamiliar terms still required。其余三项整句都是从句。",
+         "point": "complete"
+        },
+        {
+         "stem": "Which revision supplies the finite predicate missing from “The volunteers checking the names against the original register”?",
+         "options": [
+          "The volunteers checking the names against the original register before allowing the participants to enter the reserved area of the hall.",
+          "The volunteers were checking the names against the original register before allowing the participants to enter the reserved area of the hall.",
+          "The volunteers to check the names against the original register before allowing the participants to enter the reserved area of the hall.",
+          "The volunteers having checked the names against the original register before allowing the participants to enter the reserved area of the hall."
+         ],
+         "answer": 1,
+         "why": "were checking 是限定谓语，即第二项。checking、to check、having checked 都不能单独作谓语。",
+         "point": "complete"
+        },
+        {
+         "stem": "Which revision preserves both independent statements and removes the comma splice?",
+         "options": [
+          "The booking list was updated, the receptionist printed a new copy for the attendants who were preparing the entrance for the evening event.",
+          "The booking list was updated the receptionist printed a new copy for the attendants who were preparing the entrance for the evening event.",
+          "The booking list was updated. The receptionist printed a new copy for the attendants who were preparing the entrance for the evening event.",
+          "The booking list was updated, printing a new copy by the receptionist for the attendants who were preparing the entrance for the evening event."
+         ],
+         "answer": 2,
+         "why": "第三项用句号分开 was updated 和 printed 两个完整分句。第四项把 printed 改成 printing，receptionist 不再是做事的人。",
+         "point": "join"
+        },
+        {
+         "stem": "The damaged hinge caused the staff to close the cabinet. Which version preserves this cause and forms a complete sentence?",
+         "options": [
+          "The hinge was damaged because the staff closed the cabinet and transferred the contents to a secure container in the adjoining room.",
+          "Because the hinge was damaged. The staff closed the cabinet and transferred the contents to a secure container in the adjoining room.",
+          "The hinge was damaged, the staff closed the cabinet and transferred the contents to a secure container in the adjoining room.",
+          "Because the hinge was damaged, the staff closed the cabinet and transferred the contents to a secure container in the adjoining room."
+         ],
+         "answer": 3,
+         "why": "hinge was damaged 是原因，staff closed 是结果。第四项用 because 从句加主句，是完整的句子。",
+         "point": "join"
+        }
+       ]
+      },
+      {
+       "items": [
+        {
+         "stem": "Complete the main clause after the dependent clause about a missing reference code.",
+         "lead": "Because the reference code was missing,",
+         "chunks": [
+          "the archivist",
+          "could not identify",
+          "the source",
+          "of the document"
+         ],
+         "tail": "that had been placed among the recently received papers.",
+         "extra": [
+          "unable to identify"
+         ],
+         "why": "the archivist could not identify 是主句。unable to identify 没有限定动词。",
+         "point": "complete"
+        },
+        {
+         "stem": "Give the gerund subject a finite predicate in a statement about comparing records.",
+         "lead": "Comparing the separate records",
+         "chunks": [
+          "reveals",
+          "differences between",
+          "the original entry",
+          "and its later revision"
+         ],
+         "tail": "that would otherwise be difficult to detect during a brief inspection.",
+         "extra": [
+          "revealing"
+         ],
+         "why": "Comparing the separate records 作主语，reveals 作谓语。revealing 不能作谓语。",
+         "point": "complete"
+        },
+        {
+         "stem": "Join the statements with the stated contrast between availability and insufficient detail.",
+         "lead": "The guide was available online,",
+         "chunks": [
+          "but its account",
+          "of the procedure",
+          "did not include",
+          "the final verification step"
+         ],
+         "tail": "that staff needed to complete before accepting a request.",
+         "extra": [
+          "although its account"
+         ],
+         "why": "but 接独立分句，与前句构成转折：指南能在网上找到，内容却不全。",
+         "point": "join"
+        },
+        {
+         "stem": "Express the result of an unreadable address through a coordinating conjunction.",
+         "lead": "The address was unreadable,",
+         "chunks": [
+          "so the carrier",
+          "asked the sender",
+          "to confirm",
+          "the destination"
+         ],
+         "tail": "before attempting delivery to a building on the wrong street.",
+         "extra": [
+          "because the carrier"
+         ],
+         "why": "so 引出结果，asked the sender to confirm 是结果的内容。用 because 会把因果说反。",
+         "point": "join"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

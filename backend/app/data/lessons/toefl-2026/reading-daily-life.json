@@ -1,0 +1,767 @@
+{
+ "id": "reading-daily-life",
+ "title": "Read in Daily Life：通知、邮件、短信里的信息",
+ "goal": "一分半钟读完一段日常文字并答对后面的两三道题：看得出它是干什么的，条件和例外不漏，口语和省略写法看得懂。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "points": [
+  {
+   "id": "purpose",
+   "label": "看出这段文字是谁写给谁、要干什么"
+  },
+  {
+   "id": "detail",
+   "label": "时间、价格、条件和例外查得准"
+  },
+  {
+   "id": "informal",
+   "label": "口语说法、省略写法看得懂，能往下推一步"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、文本始终可见"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明、文本种类、考查的六项能力、官方样题"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Reading Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-reading.pdf",
+   "used": "第 1 课：题目说明和三项基本功"
+  }
+ ],
+ "cards": [
+  {
+   "id": "facts",
+   "type": "facts",
+   "title": "这道题是什么",
+   "rows": [
+    {
+     "k": "在哪",
+     "v": "阅读部分三类题之一，5–15 题。阅读共 50 题、约 30 分钟。",
+     "src": "spec 第 1、3 页"
+    },
+    {
+     "k": "读什么",
+     "v": "日常生活里的短文字，不是学术文章：广告、新闻、表格、发票、收据、海报、标志、通知、菜单、社交媒体帖子、网页、时间表、邮件、一串短信。",
+     "src": "overview 第 6 页"
+    },
+    {
+     "k": "多长",
+     "v": "大约 15 到 150 词。后面跟两道或三道单选题，文字长就三道。答题时文字一直在屏幕上。",
+     "src": "overview 第 6 页；spec 第 8 页"
+    },
+    {
+     "k": "官方说它考六样",
+     "v": "① 看懂常见的非连续文本（表格、时间表这一类）；② 看出一段文字的主要目的；③ 看懂口语化的说法和常见习语；④ 根据文字作推断；⑤ 看懂省略写法；⑥ 略读和查读。",
+     "src": "overview 第 6 页"
+    },
+    {
+     "k": "难度",
+     "v": "官方标的范围是 A1 到 C1。字面不难，丢分多在看漏条件。",
+     "src": "spec 第 3 页"
+    },
+    {
+     "k": "怎么计分",
+     "v": "每题 1 分，机器判分。",
+     "src": "spec 第 9 页"
+    }
+   ]
+  },
+  {
+   "id": "kinds",
+   "type": "table",
+   "title": "四种问法",
+   "intro": "官方列的六样能力，落到题目上是下面四种问法。先认出是哪一种，再去文里找。",
+   "cols": [
+    "问法",
+    "题干常见的样子",
+    "去哪找",
+    "错项长什么样"
+   ],
+   "rows": [
+    [
+     "目的和来源",
+     "What is the main purpose of the notice? / Why was the email sent? / What type of business issued the notice?",
+     "标题、主题行、第一句、署名。问「什么机构」时找行业词（account、statement 指向银行）。",
+     "把文中一个细节当成目的；说成相反的事（延期说成取消）。"
+    ],
+    [
+     "查细节",
+     "When ...? / How much ...? / What should ... do?",
+     "数字、星期、only、until、except、over 这些限定词旁边。",
+     "数字对但条件不对；用了文里的词但说的是另一件事。"
+    ],
+    [
+     "口语和省略写法",
+     "What does ... mean when he says “...”? / 文中出现 appt.、waived、RSVP 这类写法",
+     "那句话的前后各一句：对方怎么接的，就是它的意思。",
+     "按字面解释（I'll pass 解释成通过考试）。"
+    ],
+    [
+     "推断和下一步",
+     "What will ... probably do? / What can be inferred about ...?",
+     "把两处信息合起来：一个条件加一个事实。",
+     "文里没说、要靠想象才成立的事。"
+    ]
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "一段怎么做",
+   "steps": [
+    {
+     "t": "一　看题目上方那行字",
+     "d": "Read a notice / an email / a text message chain。它直接告诉你体裁，体裁决定信息放在哪。"
+    },
+    {
+     "t": "二　用五秒看版式",
+     "d": "标题、粗体、数字、署名。不逐字读。"
+    },
+    {
+     "t": "三　读题干，不读选项",
+     "d": "记住它问的是时间、价格、原因还是下一步。"
+    },
+    {
+     "t": "四　回文里找到那一处，前后各读一句",
+     "d": "条件和例外常常在紧挨着的下一句：only、except、until、at least、over。"
+    },
+    {
+     "t": "五　先自己答，再看选项",
+     "d": "心里有了答案再去对。四个选项里和文字用词最像的那个，常常是错的。"
+    }
+   ],
+   "note": "本课的限时练习按三段文字八道题六分钟计。这是练习节奏，不是官方给的时间。"
+  },
+  {
+   "id": "formats",
+   "type": "table",
+   "title": "不同体裁，信息在不同的地方",
+   "cols": [
+    "体裁",
+    "关键信息在哪",
+    "最容易漏的"
+   ],
+   "rows": [
+    [
+     "通知、标志",
+     "标题和第一句说什么事；后面是时间和你该怎么办。",
+     "最后一句的条件：at least 24 hours in advance。"
+    ],
+    [
+     "广告",
+     "卖什么、多少钱、优惠怎么拿。",
+     "优惠的门槛：over $10、with student ID、this week only。"
+    ],
+    [
+     "邮件",
+     "主题行和第一句说来意；最后一句常常是要你做的事。",
+     "不回复的后果：Otherwise, I'll assume you're in."
+    ],
+    [
+     "一串短信",
+     "最后两条是最终的决定。",
+     "谁说的哪一句；中途改过的时间和地点。"
+    ],
+    [
+     "时间表、菜单、收据、发票、表格",
+     "行和列对着看。",
+     "行首的限定：Weekdays、per person、same-day；没写到的时间就是没有。"
+    ],
+    [
+     "社交媒体帖子、网页",
+     "第一句是事情，后面是怎么参加。",
+     "Can't make it? 这类问句后面的备选办法。"
+    ]
+   ]
+  },
+  {
+   "id": "telegraphic",
+   "type": "table",
+   "title": "省略写法",
+   "intro": "通知、收据和时间表为了省地方，会去掉冠词、be 动词，再用缩写。官方把看懂这种写法单列为一项能力。",
+   "cols": [
+    "写法",
+    "完整的意思"
+   ],
+   "rows": [
+    [
+     "Closed Mon. / Open Tue–Sat",
+     "周一不开门 / 周二到周六营业"
+    ],
+    [
+     "Fri by appt. only",
+     "周五只接待预约的人（appt. = appointment）"
+    ],
+    [
+     "Walk-ins welcome",
+     "不用预约，直接来就行"
+    ],
+    [
+     "Members only / Ages 12+",
+     "只对会员开放 / 12 岁及以上"
+    ],
+    [
+     "RSVP by Fri",
+     "周五之前回复来不来"
+    ],
+    [
+     "Exact change only",
+     "只收刚好的零钱，不找零"
+    ],
+    [
+     "Rush fee: waived",
+     "加急费免了（waive = 免除）"
+    ],
+    [
+     "Incl. tax / Qty / Est. delivery",
+     "含税 / 数量 / 预计送达时间"
+    ],
+    [
+     "No refunds / No service on holidays",
+     "不退款 / 节假日停运"
+    ],
+    [
+     "TBA / N/A",
+     "待通知 / 不适用"
+    ]
+   ]
+  },
+  {
+   "id": "informal",
+   "type": "table",
+   "title": "短信里的口语",
+   "intro": "这些说法按字面解释会错。看对方下一句怎么接，就知道它的意思。",
+   "cols": [
+    "说法",
+    "意思"
+   ],
+   "rows": [
+    [
+     "Are we still on for 4?",
+     "四点的约还算数吗？"
+    ],
+    [
+     "Running late.",
+     "我要晚到一会儿。"
+    ],
+    [
+     "Can we push it to 5?",
+     "能改到五点吗？"
+    ],
+    [
+     "5 works. / Sounds good.",
+     "五点可以。/ 行。"
+    ],
+    [
+     "I can't make it.",
+     "我去不了。"
+    ],
+    [
+     "I'll pass.",
+     "我就不去了，不参加了。"
+    ],
+    [
+     "Count me in.",
+     "算我一个。"
+    ],
+    [
+     "My treat. / It's on me.",
+     "我请客。"
+    ],
+    [
+     "Heads-up: ...",
+     "提前告诉你一声：……"
+    ],
+    [
+     "I'm swamped.",
+     "我忙不过来。"
+    ],
+    [
+     "Can I take a rain check?",
+     "这次不行，下次再约可以吗？"
+    ],
+    [
+     "The library's packed.",
+     "图书馆里全是人。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "check",
+   "title": "带着做一段",
+   "points": [
+    "purpose",
+    "detail",
+    "informal"
+   ],
+   "groups": [
+    {
+     "label": "Read a notice.",
+     "look": "notice",
+     "text": "Riverside Community Pool\nSummer hours begin June 1.\nMon–Fri: 6 AM–8 PM · Sat–Sun: 8 AM–6 PM\n\nLap lanes are reserved for adult swimmers until 9 AM on weekdays. Children under 12 must be accompanied by an adult at all times.\n\nSeason passes are available at the front desk. Residents receive 20% off with proof of address.",
+     "items": [
+      {
+       "stem": "What is the main purpose of the notice?",
+       "options": [
+        "To announce new opening hours and rules",
+        "To advertise swimming lessons for children",
+        "To report that the pool is closing for repairs",
+        "To invite residents to a swimming competition"
+       ],
+       "answer": 0,
+       "why": "标题下第一行是 Summer hours begin June 1，后面全是时间和规定。B、D 文中没有；C 说反了，是开放不是关闭。",
+       "point": "purpose"
+      },
+      {
+       "stem": "On a Tuesday, when can a parent and a ten-year-old child first swim in the lap lanes?",
+       "options": [
+        "At 6 AM",
+        "At 8 AM",
+        "At 9 AM",
+        "At 8 PM"
+       ],
+       "answer": 2,
+       "why": "要合两句：周二是 weekday，lap lanes 在 weekdays 的 9 AM 之前只给成年人。6 AM 是开门时间，不是泳道对孩子开放的时间。",
+       "point": "detail"
+      },
+      {
+       "stem": "What must a resident do to pay less for a season pass?",
+       "options": [
+        "Buy the pass before June 1",
+        "Show a document with a home address",
+        "Come to the pool on a weekday",
+        "Bring a child under 12"
+       ],
+       "answer": 1,
+       "why": "Residents receive 20% off with proof of address。proof of address 就是能证明住址的文件。其余三项文中没有这样的条件。",
+       "point": "informal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "错项的四种样子",
+   "cols": [
+    "样子",
+    "例子（接上一张卡的游泳池通知）",
+    "怎么识破"
+   ],
+   "rows": [
+    [
+     "原词陷阱",
+     "At 6 AM：文中确实有 6 AM",
+     "这个数字回答的是别的问题（开门时间）。"
+    ],
+    [
+     "漏看条件",
+     "把 20% off 当成所有人都有",
+     "回到那一句，把 with、only、until、except 后面的部分读完。"
+    ],
+    [
+     "说反了",
+     "The pool is closing",
+     "核对动词：begin 和 close 方向相反。"
+    ],
+    [
+     "文中没说",
+     "Swimming lessons for children",
+     "找不到出处就不选，哪怕听起来合理。"
+    ]
+   ]
+  },
+  {
+   "id": "check-mixed",
+   "type": "check",
+   "title": "练习　三种体裁各一段",
+   "points": [
+    "purpose",
+    "detail",
+    "informal"
+   ],
+   "groups": [
+    {
+     "label": "Read a text message chain.",
+     "look": "messages",
+     "text": "Dana: Hey, are we still on for the study group at 4?\nLeo: Running late, sorry! Lab went over. Can we push it to 5?\nDana: 5 works. Library's packed though. Want to try the café in the student center?\nLeo: Sounds good. My treat, since I kept you waiting.",
+     "items": [
+      {
+       "stem": "What does Leo mean when he says “My treat”?",
+       "options": [
+        "He will pay for what Dana orders.",
+        "He enjoys the study group.",
+        "He will bring snacks from home.",
+        "He wants Dana to choose the place."
+       ],
+       "answer": 0,
+       "why": "后半句 since I kept you waiting 说明这是为迟到表示歉意：他请客。",
+       "point": "informal"
+      },
+      {
+       "stem": "Where will Dana and Leo study?",
+       "options": [
+        "In the library",
+        "In the lab",
+        "In a café in the student center",
+        "In Dana's room"
+       ],
+       "answer": 2,
+       "why": "Dana 说图书馆全是人（packed），提议去 café，Leo 回 Sounds good。图书馆是被否掉的地方。",
+       "point": "detail"
+      }
+     ]
+    },
+    {
+     "label": "Read an advertisement.",
+     "look": "notice",
+     "text": "CAMPUS BIKE REPAIR — Student Union, Lower Level\nFlat tire fix $8 · Brake adjustment $12 · Full tune-up $35\nWalk-ins welcome Mon–Thu. Fri by appt. only.\nShow student ID for 10% off any service over $10.",
+     "items": [
+      {
+       "stem": "A student shows an ID and pays for a flat tire fix. How much does the student pay?",
+       "options": [
+        "$7.20",
+        "$8",
+        "$10",
+        "$12"
+       ],
+       "answer": 1,
+       "why": "九折只给 over $10 的服务。补胎 8 美元，不到门槛，原价。$7.20 是漏看条件算出来的。",
+       "point": "detail"
+      },
+      {
+       "stem": "What should a customer do before bringing a bike on a Friday?",
+       "options": [
+        "Arrange a time in advance",
+        "Bring a student ID",
+        "Come before noon",
+        "Pay online"
+       ],
+       "answer": 0,
+       "why": "Fri by appt. only：周五只接待预约的。appt. 是 appointment。",
+       "point": "informal"
+      }
+     ]
+    },
+    {
+     "label": "Read an email.",
+     "look": "email",
+     "text": "Subject: Your library hold\n\nHi Sam,\n\nThe book you requested, Introduction to Marine Biology, is now waiting for you at the Main Library front desk. We'll keep it there through Friday, May 9. After that it goes to the next person on the list.\n\nIf you no longer need it, just reply to this email so we can pass it along sooner.\n\nThanks,\nCirculation Desk",
+     "items": [
+      {
+       "stem": "Why was the email sent?",
+       "options": [
+        "To tell Sam that a book he asked for is ready",
+        "To remind Sam that a book is overdue",
+        "To recommend a new book to Sam",
+        "To ask Sam to return a book"
+       ],
+       "answer": 0,
+       "why": "主题行 Your library hold，第一句说书已经在前台等他。hold 是预约保留。",
+       "point": "purpose"
+      },
+      {
+       "stem": "What will happen if Sam does nothing by May 9?",
+       "options": [
+        "He will have to pay a fine.",
+        "The book will be mailed to him.",
+        "The library will keep the book another week.",
+        "Another reader will get the book."
+       ],
+       "answer": 3,
+       "why": "After that it goes to the next person on the list。罚款、邮寄、再留一周，文中都没有。",
+       "point": "informal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "限时练习",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "purpose",
+    "detail",
+    "informal"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Read a notice.",
+       "look": "notice",
+       "text": "NOTICE TO RESIDENTS — Hartwell Hall\n\nThe elevator in the east wing will be out of service Thursday, Oct. 12, from 9 AM to 3 PM for its yearly safety inspection. Please use the west wing elevator or the stairs during this time. If you need help moving heavy items that day, contact the front desk at least 24 hours in advance.",
+       "items": [
+        {
+         "stem": "What is the main purpose of the notice?",
+         "options": [
+          "To tell residents that an elevator will be unavailable for part of a day",
+          "To announce that an elevator is being replaced",
+          "To ask residents to stop moving heavy items",
+          "To introduce a new front desk service"
+         ],
+         "answer": 0,
+         "why": "out of service ... from 9 AM to 3 PM：停用几个小时做年检。B 夸大成了更换。",
+         "point": "purpose"
+        },
+        {
+         "stem": "What should a resident who needs help moving a large box on Oct. 12 do?",
+         "options": [
+          "Wait until 9 AM that day",
+          "Use the east wing elevator",
+          "Contact the front desk by Oct. 11",
+          "Call the safety inspector"
+         ],
+         "answer": 2,
+         "why": "at least 24 hours in advance：至少提前一天，也就是 11 号之前。",
+         "point": "detail"
+        }
+       ]
+      },
+      {
+       "label": "Read a text message chain.",
+       "look": "messages",
+       "text": "Maya: Heads-up: Prof. Chen moved tomorrow's quiz to next Monday.\nJon: Seriously? I was up till 2 studying for it.\nMaya: At least you're ahead now. Still coming to the review session tonight?\nJon: I'll pass. I need to catch up on sleep. Can you send me your notes from Tuesday?\nMaya: Sure, I'll email them after dinner.",
+       "items": [
+        {
+         "stem": "What does Jon mean when he says “I'll pass”?",
+         "options": [
+          "He expects to do well on the quiz.",
+          "He will not go to the review session.",
+          "He will give his notes to Maya.",
+          "He will walk past Maya's room."
+         ],
+         "answer": 1,
+         "why": "Maya 问 Still coming to the review session tonight?，他答 I'll pass，接着说要补觉：不去了。A 是按字面理解 pass。",
+         "point": "informal"
+        },
+        {
+         "stem": "When is the quiz now scheduled?",
+         "options": [
+          "Tonight",
+          "Tomorrow",
+          "On Tuesday",
+          "Next Monday"
+         ],
+         "answer": 3,
+         "why": "moved tomorrow's quiz to next Monday。Tuesday 是笔记的日期。",
+         "point": "detail"
+        },
+        {
+         "stem": "What will Maya probably do this evening?",
+         "options": [
+          "Take the quiz",
+          "Send Jon her notes",
+          "Study with Jon",
+          "Meet Professor Chen"
+         ],
+         "answer": 1,
+         "why": "最后一条：I'll email them after dinner。",
+         "point": "informal"
+        }
+       ]
+      },
+      {
+       "label": "Read a schedule.",
+       "look": "notice",
+       "text": "Green Line Shuttle — Fall Schedule\nCampus Center → Downtown Station\n\nWeekdays: every 15 min, 7:00 AM–7:00 PM; every 30 min, 7:00 PM–11:00 PM\nWeekends: every 30 min, 9:00 AM–9:00 PM\n\nFree with student ID. Others: $2 per ride, exact change only.\nNo service on university holidays.",
+       "items": [
+        {
+         "stem": "A student wants to take the shuttle at 10:00 PM on a Saturday. What does the schedule show?",
+         "options": [
+          "The shuttle runs every 15 minutes then.",
+          "The shuttle runs every 30 minutes then.",
+          "There is no shuttle at that time.",
+          "The student must pay $2."
+         ],
+         "answer": 2,
+         "why": "周六看 Weekends 那一行：到 9:00 PM 为止。晚上十点有车的是 Weekdays。",
+         "point": "detail"
+        },
+        {
+         "stem": "What should a visitor without a student ID bring?",
+         "options": [
+          "A credit card",
+          "Exactly two dollars in cash",
+          "A printed schedule",
+          "A holiday pass"
+         ],
+         "answer": 1,
+         "why": "Others: $2 per ride, exact change only：只收刚好的零钱。",
+         "point": "informal"
+        },
+        {
+         "stem": "Where would this text most likely be found?",
+         "options": [
+          "On a restaurant menu",
+          "On a store receipt",
+          "At a campus bus stop",
+          "In a course catalog"
+         ],
+         "answer": 2,
+         "why": "路线、发车间隔、票价：这是张贴在站点的时刻表。",
+         "point": "purpose"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "set-b",
+     "groups": [
+      {
+       "label": "Read an email.",
+       "look": "email",
+       "text": "Subject: Change to Saturday's hiking trip\n\nHi everyone,\n\nBecause of the storm warning, we're moving the hike from Saturday to Sunday. Same meeting spot (north parking lot), same time (8:30 AM). The trail will probably be muddy, so wear boots, not sneakers. If Sunday doesn't work for you, let me know by Friday noon and I'll refund your $10 deposit. Otherwise, I'll assume you're in.\n\nSee you there,\nPriya — Outdoor Club",
+       "items": [
+        {
+         "stem": "Why did Priya write the email?",
+         "options": [
+          "To cancel a trip",
+          "To announce a new date for a trip",
+          "To collect deposits from members",
+          "To describe a new trail"
+         ],
+         "answer": 1,
+         "why": "we're moving the hike from Saturday to Sunday：改期，不是取消。",
+         "point": "purpose"
+        },
+        {
+         "stem": "What will happen if a member does not reply to the email?",
+         "options": [
+          "The member's deposit will be returned.",
+          "The member will be removed from the club.",
+          "Priya will expect the member on Sunday.",
+          "Priya will call the member."
+         ],
+         "answer": 2,
+         "why": "Otherwise, I'll assume you're in：不回复就当你来。退押金的前提是周五中午前告诉她。",
+         "point": "detail"
+        },
+        {
+         "stem": "Why does Priya tell members to wear boots?",
+         "options": [
+          "The trail is longer than usual.",
+          "The club requires them.",
+          "The weather will be cold.",
+          "The ground will be wet after the storm."
+         ],
+         "answer": 3,
+         "why": "The trail will probably be muddy 接在 storm warning 后面：暴雨之后路上是泥。",
+         "point": "informal"
+        }
+       ]
+      },
+      {
+       "label": "Read a social media post.",
+       "look": "post",
+       "text": "Campus Bookstore @campusbooks\n\nTextbook buyback starts Monday! Bring your used books to the tent outside the main entrance, 10–4 daily through Friday. Best prices for books in good condition — no missing pages, please. Can't make it? Drop them in the bin by the registers and we'll email you an offer.",
+       "items": [
+        {
+         "stem": "What does “Can't make it?” mean in the post?",
+         "options": [
+          "You are unable to come during those hours.",
+          "You are unable to repair your books.",
+          "You cannot afford new books.",
+          "You cannot find the tent."
+         ],
+         "answer": 0,
+         "why": "后一句给的是不到场的办法：把书放进收银台旁的箱子。所以它问的是「来不了吗？」。",
+         "point": "informal"
+        },
+        {
+         "stem": "According to the post, which books get the best prices?",
+         "options": [
+          "Books bought this semester",
+          "Books brought on Monday",
+          "Books with a receipt",
+          "Books with all their pages"
+         ],
+         "answer": 3,
+         "why": "Best prices for books in good condition — no missing pages。",
+         "point": "detail"
+        }
+       ]
+      },
+      {
+       "label": "Read a receipt.",
+       "look": "notice",
+       "text": "PRINT & COPY CENTER — Order #4471\nCustomer: T. Alvarez        Pickup: Wed after 2 PM\n\nColor posters (24×36) × 2 ........ $30.00\nRush fee (same-day) ........ waived\nStudent discount (10%) ........ –$3.00\nTotal paid ........ $27.00\n\nOrders not picked up within 7 days will be recycled. No refunds on custom printing.",
+       "items": [
+        {
+         "stem": "How much did the customer pay for the rush service?",
+         "options": [
+          "Nothing",
+          "$3.00",
+          "$27.00",
+          "$30.00"
+         ],
+         "answer": 0,
+         "why": "Rush fee ... waived：免了。$3.00 是学生折扣，方向是减。",
+         "point": "informal"
+        },
+        {
+         "stem": "What can be inferred about the customer?",
+         "options": [
+          "The customer works at the center.",
+          "The customer ordered online.",
+          "The customer is a student.",
+          "The customer will pick up the order on Tuesday."
+         ],
+         "answer": 2,
+         "why": "有 Student discount 这一行。取件时间是周三下午两点以后，不是周二。",
+         "point": "informal"
+        },
+        {
+         "stem": "What will happen to the posters if they are not collected within a week?",
+         "options": [
+          "They will be mailed to the customer.",
+          "They will be recycled.",
+          "The customer will get a refund.",
+          "They will be kept for 30 days."
+         ],
+         "answer": 1,
+         "why": "Orders not picked up within 7 days will be recycled。下一句还说定制印刷不退款。",
+         "point": "detail"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "more": {
+    "kind": "daily",
+    "topics": [
+     "宿舍报修通知、同学约饭的短信、书店促销广告",
+     "牙医预约确认邮件、健身房课程表、校园失物招领帖",
+     "快递取件通知、室友分摊房租的短信、咖啡店收据",
+     "讲座改期邮件、公交线路调整公告、社团招新帖",
+     "图书馆逾期提醒邮件、朋友借车的短信、超市优惠广告",
+     "停车场收费告示、导师约见邮件、二手自行车出售帖",
+     "游泳馆闭馆通知、小组作业分工的短信、打印店价目表",
+     "租房广告、航班改签邮件、校园跑步活动报名帖",
+     "实验室安全须知、同事换班的短信、洗衣房使用说明",
+     "电影节排片表、房东通知邮件、志愿者招募帖",
+     "食堂营业时间调整、朋友推荐餐馆的短信、健身卡续费收据",
+     "考试周自习室安排、订阅到期提醒邮件、跳蚤市场帖子"
+    ]
+   }
+  }
+ ]
+}

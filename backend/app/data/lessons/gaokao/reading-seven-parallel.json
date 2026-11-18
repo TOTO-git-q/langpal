@@ -1,0 +1,50 @@
+{
+ "id": "reading-seven-parallel", "title": "并列句式的衔接", "goal": "利用句式和信息层级判断并列句之间的衔接。", "skill": "阅读", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "parallel", "label": "利用并列形式识别同层级信息"}, {"id": "topic", "label": "核对并列句的话题与信息层级"}],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）课表", "url": "docs/syllabi/gaokao.md", "used": "教学内容与课程题型"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "并列句讲同一话题下同一层级的信息，语法形式通常一致。只看句式不够，话题和层级也要和上下文相符。"}, {"box": "Label each box. Place it on the correct shelf."}, {"p": "两句都是祈使句，分别提出整理物品的建议。"}]},
+  {"id": "forms", "type": "table", "title": "并列形式", "cols": ["形式", "相邻句", "联系"], "rows": [
+   ["祈使句", "Check the address. Seal the envelope.", "两项寄信步骤。"],
+   ["祈使句", "Choose a topic. Gather the materials.", "两项准备工作。"],
+   ["动名词", "Walking improves balance. Swimming exercises the whole body.", "两种活动的作用。"],
+   ["动名词", "Sorting saves space. Labeling saves time.", "两种整理方法的作用。"],
+   ["名词短语", "The first item is a map. The second is a compass.", "第二句省略 item。"],
+   ["动词短语", "One team measured the wall; the other, the floor.", "第二分句省略 measured。"]
+  ]},
+  {"id": "level", "type": "table", "title": "话题与层级", "cols": ["关系", "相邻句", "判断"], "rows": [
+   ["并列建议", "Use a pencil. Keep a ruler nearby.", "同为绘图建议。"],
+   ["并列原因", "The route is short. It is also well lit.", "同为选择路线的理由。"],
+   ["观点与例子", "The room has useful equipment. For example, it has a printer.", "设备与打印机为总分关系。"],
+   ["相同句式", "Pack the clothes. Plant a tree.", "句式相同，话题不同。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "To prepare a display, first choose the objects. ____ Finally, place the labels beside them.\n1. Arrange the objects on a table.\n2. Explain that objects are useful.\n3. Plant the flowers beside the path.\n4. A label is one kind of sign."},
+   {"p": "第一项与前后句都是布置展览的步骤，也都用祈使句。第三项同为祈使句，但话题不同。"}
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一　句式", "points": ["parallel"], "groups": [
+   {"look": "passage", "text": "To store the photographs, sort them by date. ____ Finally, write the year on each box.", "items": [{"stem": "Which sentence best fills the gap?", "options": ["Put each group in a separate box.", "Photographs can record family events.", "Sorting by date takes a long time.", "Put the photographs in a frame."], "answer": 0, "why": "第一项的 Put 与 sort、write 一样是祈使句，都是存放照片的步骤；separate box 又引出后句的 each box。第四项也是祈使句，但装进相框不是存放步骤。", "point": "parallel"}]},
+   {"look": "passage", "text": "One group washed the brushes; ____. Both groups cleaned their equipment before leaving.", "items": [{"stem": "Which phrase best fills the gap?", "options": ["the brushes remained wet", "the paint had already dried", "the other, the paint trays", "the equipment was quite clean"], "answer": 2, "why": "第三项 the other, the paint trays 省略了 washed，与前一分句并列，后句的 Both groups 指这两组。", "point": "parallel"}]}
+  ]},
+  {"id": "check-two", "type": "check", "title": "练习二　层级", "points": ["topic"], "groups": [
+   {"look": "passage", "text": "The club chose the hall because it is spacious. ____ Both features help when many members attend.", "items": [{"stem": "Which sentence best fills the gap?", "options": ["For example, it seats fifty people.", "It is also close to the station.", "The club chose a smaller room instead.", "Many members attend each week."], "answer": 1, "why": "离车站近与空间宽敞都是选这个礼堂的理由，后句的 Both features 指这两项。第一项只是宽敞的例子，不是第二项特点。", "point": "topic"}]},
+   {"look": "passage", "text": "Collect leaves from different trees. ____ Compare their shapes after both sets have dried.", "items": [{"stem": "Which sentence best fills the gap?", "options": ["Leaves dry faster in a warm room.", "Collect rainwater in a clean jar.", "Press each leaf flat between two heavy books.", "Collect seeds from different trees."], "answer": 3, "why": "采集种子与采集树叶是并列的两项收集工作，后句的 both sets 指这两组。第二项句式相同，但雨水没有形状可比。", "point": "topic"}]}
+  ]},
+  {"id": "check-three", "type": "check", "title": "练习三　综合", "points": ["parallel", "topic"], "groups": [
+   {"look": "passage", "text": "The first group listed the birds; ____. The notes from both groups were added to the survey.", "items": [{"stem": "Which phrase best fills the gap?", "options": ["the other, the insects", "the birds flew away", "the survey ended last week", "the notes described one group"], "answer": 0, "why": "第一项省略了 listed，与第一组记录鸟类的工作并列，后句的 both groups 指这两组。", "point": "parallel"}]},
+   {"look": "passage", "text": "Plan a route before the walk. ____ Both steps help the group stay together.", "items": [{"stem": "Which sentence best fills the gap?", "options": ["Walks can be enjoyable for a group.", "A route may pass through a park.", "Agree on a meeting point as well.", "Check the weather forecast too."], "answer": 2, "why": "约定集合点与规划路线是同层级的两项准备，都能让队伍不走散，即第三项。第四项也是准备，但与 stay together 无关。", "point": "topic"}]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["parallel", "topic"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A neighborhood group planned a book exchange. To make the event easy to use, the members divided the preparation into separate tasks. First, collect books in good condition. ____ Then put each category on a different table. Clear labels will help visitors find books quickly.\n\nThe first team arranged the tables; ____. The two teams finished their work before the doors opened. The group selected the hall because it was close to a bus stop. ____ Both features made it practical for the exchange.", "items": [
+    {"stem": "Which sentence best fills the first gap?", "options": ["Poor books are not accepted.", "Sort the books into categories.", "Arrange the tables near the doors.", "Clear labels help visitors find books."], "answer": 1, "why": "第二项的 Sort 与 collect、put 一样是祈使句，categories 又引出后句的 each category。第三项也是祈使句，但后句的 each category 在前文找不到对应。", "point": "parallel"},
+    {"stem": "Which phrase best fills the second gap?", "options": ["the doors opened at ten", "the tables stood near the doors", "the group selected the hall", "the second, the book labels"], "answer": 3, "why": "第四项省略了 arranged，与第一组的工作并列，后句的 The two teams 指这两组。", "point": "parallel"},
+    {"stem": "Which sentence best fills the third gap?", "options": ["It also had room for several tables.", "For example, one table held novels.", "The bus stop was closed that morning.", "Visitors could find books quickly."], "answer": 0, "why": "空间够大与离车站近都是选这个礼堂的理由，后句的 Both features 指这两项，即第一项。", "point": "topic"}
+   ]},
+   {"look": "passage", "text": "A class prepared a guide for visitors to a small orchard. The pupils first observed the trees and recorded their findings. One group counted the apple trees; ____. The groups combined their counts in a single table.\n\nThe guide suggested ways to protect the orchard. Stay on marked paths. ____ Both actions reduce damage to the plants. The pupils also described two reasons for visiting: the orchard had a range of trees, and ____. These features gave visitors opportunities to learn and observe.", "items": [
+    {"stem": "Which phrase best fills the first gap?", "options": ["the trees stood near a path", "the pupils recorded their findings", "another, the pear and plum trees", "the guide explained the counts"], "answer": 2, "why": "第三项省略了 counted，与前一分句的计数并列，后句的 The groups combined their counts 指两组的计数。", "point": "parallel"},
+    {"stem": "Which sentence best fills the second gap?", "options": ["Marked paths lead through the orchard.", "Leave the fruit on the trees.", "Count the apple trees on the way.", "Learn the names of the trees."], "answer": 1, "why": "Leave 与 Stay 都是保护果园的建议，后句的 Both actions 指这两项，即第二项。第三项也是祈使句，但与保护果园无关。", "point": "topic"},
+    {"stem": "Which phrase best fills the third gap?", "options": ["the pupils counted the trees", "visitors should stay on marked paths", "the guide had a table of counts", "its paths had signs about the trees"], "answer": 3, "why": "树的种类多、路边有讲解树木的牌子，都是参观的理由，后句的 These features 指这两项，即第四项。第二项是建议，不是理由。", "point": "topic"}
+   ]}
+  ]}]}
+ ]
+}

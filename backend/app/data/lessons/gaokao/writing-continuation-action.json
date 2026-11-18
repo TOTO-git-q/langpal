@@ -1,0 +1,82 @@
+{
+ "id": "writing-continuation-action",
+ "title": "动作描写",
+ "goal": "能选择体现意图的动作，并按事件顺序组织动作。",
+ "skill": "写作",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "specific", "label": "选择能体现人物意图的具体动作"},
+  {"id": "sequence", "label": "按事件顺序组织连续动作"}
+ ],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "动作描写的教学内容与知识点"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "动作描写用具体的动词写出人物想做什么。所写的动作要与当前事件有关。几个动作连写时，按发生的先后排列。与目标无关的动作会分散叙事的重点。"},
+   {"box": "Mia searched for the key. She lifted the cushion and felt along the seam."},
+   {"p": "lifted 和 felt 写出了寻找钥匙的过程：先掀起坐垫，再沿接缝摸。动作的顺序取决于寻找的过程，与动词的多少无关。"}
+  ]},
+  {"id": "hands", "type": "table", "title": "手部动作", "cols": ["动词", "含义", "例句"], "rows": [
+   ["grasp", "抓紧", "She grasped the rail before stepping down."],
+   ["grip", "紧握", "He gripped the handle as the cart moved."],
+   ["lift", "提起", "She lifted the lid to inspect the box."],
+   ["fold", "折叠", "He folded the map and put it away."],
+   ["press", "按压", "She pressed the switch to turn on the lamp."],
+   ["reach", "伸手", "He reached for the book on the shelf."],
+   ["shake", "摇动", "She shook the bottle to mix the paint."],
+   ["release", "松开", "He released the string after tying the parcel."]
+  ]},
+  {"id": "steps", "type": "table", "title": "步态动作", "cols": ["动词", "含义", "例句"], "rows": [
+   ["walk", "走", "He walked toward the gate to meet his sister."],
+   ["hurry", "匆忙走", "She hurried to the desk before it closed."],
+   ["stride", "大步走", "He strode across the yard to open the gate."],
+   ["stumble", "绊了一下","She stumbled over a root and caught the rail."],
+   ["pace", "踱步", "He paced beside the door while waiting for news."],
+   ["creep", "蹑手蹑脚走", "She crept past the sleeping dog to retrieve her bag."],
+   ["march", "行进", "The children marched behind their teacher to the hall."],
+   ["wander", "漫步", "He wandered along the path looking for the sign."]
+  ]},
+  {"id": "eyes", "type": "table", "title": "目光动作", "cols": ["动词", "含义", "例句"], "rows": [
+   ["glance", "瞥视", "She glanced at the clock to check the time."],
+   ["stare", "凝视", "He stared at the torn page in surprise."],
+   ["peer", "仔细看", "She peered through the window to see the garden."],
+   ["scan", "扫视", "He scanned the shelf for the missing file."],
+   ["observe", "观察", "She observed the bird from the doorway."],
+   ["watch", "注视", "He watched the road for the arriving bus."],
+   ["notice", "注意到", "She noticed a mark on the envelope."],
+   ["inspect", "检查", "He inspected the wheel for damage."]
+  ]},
+  {"id": "posture", "type": "table", "title": "身体姿态", "cols": ["动词", "含义", "例句"], "rows": [
+   ["bend", "弯腰", "She bent to pick up the coin."],
+   ["kneel", "跪下", "He knelt beside the plant to loosen the soil."],
+   ["lean", "倾身", "She leaned closer to read the label."],
+   ["crouch", "蹲下", "He crouched behind the wall to shelter from the wind."],
+   ["straighten", "直起身", "She straightened after placing the pot on the floor."],
+   ["turn", "转身", "He turned toward the voice at the door."],
+   ["sit", "坐下", "She sat beside the child to read with him."],
+   ["stand", "站立", "He stood by the table to welcome the guests."]
+  ]},
+  {"id": "comparison", "type": "text", "title": "动作与意图", "body": [
+   {"p": "具体动作写出人物怎样实现目标。连写的几个动作要前后相连。与目标无关的动作不写。"},
+   {"box": "She searched the sofa. → She lifted the cushion and felt along the seam.\nHe checked the time. → He glanced at the clock beside the door.\nShe stopped the cart. → She gripped the handle and pulled the cart back.\nHe searched the list. → He scanned the list for his sister's name.\nShe examined the label. → She leaned closer and read the label.\nHe checked the wheel. → He turned the wheel and inspected its edge.\nShe retrieved the coin. → She bent down and picked up the coin.\nHe put the map away. → He folded the map and slipped it into his bag."}
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["specific", "sequence"], "groups": [{"items": [
+   {"stem": "Nora wants to find a name on a crowded list. Which action makes her purpose clear?", "options": ["She glanced at the first name.", "She scanned the list for the name.", "She pressed the list against the wall.", "She carried the list toward the desk."], "answer": 1, "why": "名单上的名字很多，要找到一个名字需要逐行查看。scanned the list for the name 写出了动作和目的，即第二项。第一项只看了第一个名字。", "point": "specific"},
+   {"stem": "A child needs a fallen pencil. Which action describes reaching it?", "options": ["He bent down and picked up the pencil.", "He picked up the pencil and bent down.", "He bent down and pointed at the pencil.", "He stared at the pencil and walked away."], "answer": 0, "why": "铅笔掉在地上，先弯腰才能捡起。第一项的顺序与取回铅笔的过程一致；第二项把两个动作的顺序颠倒了。", "point": "sequence"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["sequence"], "groups": [{"items": [
+   {"stem": "A gardener opens a gate before entering.", "lead": "She", "chunks": ["lifted", "the latch", "and", "opened"], "tail": "the gate.", "extra": ["opening"], "why": "先抬起门闩，再打开门；and 连接两个过去式谓语。", "point": "sequence"},
+   {"stem": "A student checks a box before putting a letter inside.", "lead": "He", "chunks": ["opened", "the box", "and", "placed"], "tail": "the letter inside.", "extra": ["placing"], "why": "先打开盒子，再放入信；两个谓语保持过去式。", "point": "sequence"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["specific", "sequence"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "Eva needs to check a small label in dim light. Which action serves that purpose?", "options": ["She leaned closer to read the label.", "She glanced at the label and turned away.", "She leaned back against the shelf.", "She held the label away from the lamp."], "answer": 0, "why": "光线暗、标签小，要看清就得靠近。leaned closer to read 写出了动作和目的，即第一项。", "point": "specific"},
+   {"stem": "Leo wants to find damage on a wheel. Which action shows his purpose?", "options": ["He lifted the wheel onto the cart.", "He inspected the wheel for cracks.", "He glanced at the wheel and walked on.", "He released the wheel beside the cart."], "answer": 1, "why": "要找损坏就得仔细查看。inspected the wheel for cracks 写出了检查和检查的目的，即第二项。第三项只是瞥了车轮，随即走开。", "point": "specific"},
+   {"stem": "Maya needs to read the time before leaving. Which action shows this?", "options": ["She turned the clock toward the wall.", "She carried the clock to the desk.", "She glanced at the clock by the door.", "She walked past the clock to the door."], "answer": 2, "why": "看时间只需瞥一下钟面。glanced at the clock 写的正是这个动作，即第三项。", "point": "specific"},
+   {"stem": "A cyclist wants to prevent a cart from rolling away. Which action fits?", "options": ["She watched the cart cross the yard.", "She walked beside the moving cart.", "She released the handle of the cart.", "She gripped the handle of the cart."], "answer": 3, "why": "要让推车不滑走，需要抓牢车把。gripped the handle 写出了这个动作，即第四项。第三项的 released 是松开车把。", "point": "specific"},
+   {"stem": "A visitor first locates a key, then takes it from a shelf.", "lead": "She", "chunks": ["spotted", "the key", "and", "lifted it"], "tail": "from the shelf.", "extra": ["lifting"], "why": "先发现钥匙，再从架上取走；and 连接两个过去式谓语。", "point": "sequence"},
+   {"stem": "A child unfolds a map before studying it.", "lead": "He", "chunks": ["unfolded", "the map", "and", "studied"], "tail": "the route.", "extra": ["studying"], "why": "先展开地图，再研究路线，动作顺序符合情境。", "point": "sequence"},
+   {"stem": "A baker checks the oven before putting bread inside.", "lead": "She", "chunks": ["opened", "the oven", "and", "put"], "tail": "the bread inside.", "extra": ["putting"], "why": "先打开烤箱，再放入面包；put 与 opened 并列。", "point": "sequence"},
+   {"stem": "A student collects a note before leaving the room.", "lead": "He", "chunks": ["picked up", "the note", "and", "left"], "tail": "the room.", "extra": ["leaving"], "why": "先拿起便条，再离开房间；left 与 picked up 并列。", "point": "sequence"}
+  ]}]}]}
+ ]
+}

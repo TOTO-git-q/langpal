@@ -1,0 +1,74 @@
+{
+ "id": "reading-tfng-paraphrase",
+ "title": "书面语的同义改写",
+ "goal": "识别保留原意的同义改写，并核对对象和限定条件。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "equivalent", "label": "识别保留原意的同义改写"},
+  {"id": "precision", "label": "核对改写中的对象与限定条件"}
+ ],
+ "sources": [
+  {"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "书面语的同义改写：内容与知识点"}
+ ],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "同义改写用不同形式表达同一命题。比较时应核对动作的执行者、承受者、时间和条件。"},
+   {"p": "用词相近，句意不一定相同。A cools B 与 B cools A 用词一样，作用方向相反。"}
+  ]},
+  {"id": "substitution", "type": "table", "title": "同义词与词性转换", "cols": ["方式", "原句", "改写"], "rows": [
+   ["同义词", "The library permits local residents to borrow maps.", "The library allows local residents to borrow maps."],
+   ["同义词", "The cover protects the instrument from dust.", "The cover shields the instrument from dust."],
+   ["同义词", "The committee chose a site near the station.", "The committee selected a site near the station."],
+   ["词性转换", "The lake gradually became deeper.", "The lake increased gradually in depth."],
+   ["词性转换", "The team examined the samples carefully.", "The team made a careful examination of the samples."],
+   ["词性转换", "The bridge was widened in 2010.", "The widening of the bridge took place in 2010."]
+  ]},
+  {"id": "grammar", "type": "table", "title": "句式与意义", "cols": ["方式", "原句", "改写"], "rows": [
+   ["主动与被动", "The curator labelled each drawing.", "Each drawing was labelled by the curator."],
+   ["主动与被动", "The researchers measured the depth of the pool.", "The depth of the pool was measured by the researchers."],
+   ["主动与被动", "The council restored the northern gate.", "The northern gate was restored by the council."],
+   ["否定与反义", "The container was not empty.", "The container held something."],
+   ["否定与反义", "The path was not open.", "The path was closed."],
+   ["否定与反义", "The two samples were not identical.", "The two samples differed."]
+  ]},
+  {"id": "general", "type": "table", "title": "具体与概括", "cols": ["原句", "可支持的概括", "说明"], "rows": [
+   ["The basket held apples and pears.", "The basket held fruit.", "apples 和 pears 都是水果，可概括为 fruit。"],
+   ["The workshop uses hammers and saws.", "The workshop uses tools.", "hammers 和 saws 都是工具，可概括为 tools。"],
+   ["The pond contains reeds and lilies.", "The pond contains plants.", "reeds 和 lilies 都是植物，可概括为 plants。"],
+   ["The roof channels rain into a tank.", "Rain is directed into a tank by the roof.", "主动改为被动，动作、对象和方向不变。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "The shelter reduced heat loss from young plants during cold nights. It did not affect the amount of daylight they received."},
+   {"box": "Which statement preserves the meaning?\n1. Young plants lost less heat at night because of the shelter.\n2. Young plants lost more daylight because of the shelter.\n3. The plants reduced heat loss from the shelter at night.\n4. The shelter prevented all heat loss from young plants."},
+   {"p": "第一项把 reduced heat loss 改写为 lost less heat，并保留夜间条件。第三项交换了作用对象，第四项将减少扩大为完全阻止。"}
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一　改写", "points": ["equivalent", "precision"], "groups": [
+   {"look": "passage", "text": "The museum allowed volunteers to examine the old maps, while visitors could see reproductions in a separate room.", "items": [{"stem": "Which statement has the same meaning?", "options": ["The museum let volunteers inspect the old maps.", "The museum let visitors inspect the old maps.", "The museum let volunteers view copies in a separate room.", "The museum let visitors and volunteers inspect the maps."], "answer": 0, "why": "allowed volunteers to examine 对应 let volunteers inspect，对象是旧地图。第二项把志愿者换成了参观者。", "point": "equivalent"}]},
+   {"look": "passage", "text": "The technician replaced the filter after the inspection, but the pipe remained in place throughout the procedure.", "items": [{"stem": "Which statement preserves the order?", "options": ["The filter was inspected after it was replaced.", "The filter was replaced following the inspection.", "The pipe was replaced before the inspection.", "The pipe was inspected after it was removed."], "answer": 1, "why": "after the inspection 对应 following the inspection，替换对象是 filter。", "point": "precision"}]},
+   {"look": "passage", "text": "The new coating was not transparent, although it allowed the surface beneath it to retain its original colour.", "items": [{"stem": "Which statement follows from the passage?", "options": ["The coating changed the colour underneath.", "The surface underneath became transparent.", "The coating could not be seen through clearly.", "The surface underneath lost its colour."], "answer": 2, "why": "not transparent 即不透明，第三项 could not be seen through clearly 是它的改写。", "point": "equivalent"}]},
+   {"look": "passage", "text": "The archive bought letters and diaries from a local family; it borrowed a photograph from a different household.", "items": [{"stem": "Which statement is supported?", "options": ["The archive borrowed documents from one family.", "The archive purchased a photograph from a household.", "The archive sold diaries to a local family.", "The archive purchased documents from one family."], "answer": 3, "why": "letters and diaries 属于 documents，bought 对应 purchased。", "point": "precision"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二　语境", "points": ["equivalent", "precision"], "groups": [
+   {"look": "passage", "text": "A small theatre recently revised its storage arrangements. Previously, costumes and painted scenery were kept together in a room beside the stage. The room became damp during winter, so staff moved the costumes to a dry upper floor. The scenery was too large for that space and remained beside the stage. Staff then installed a fan in the original room to improve its ventilation. The fan runs only when the room is occupied, and its purpose is to reduce moisture rather than to change the temperature.", "items": [
+    {"stem": "Which statement restates the reason for moving the costumes?", "options": ["The upper floor had become damp in winter.", "The scenery was too small for the stage room.", "Moisture developed in the former storage room.", "The fan raised the temperature near the stage."], "answer": 2, "why": "became damp 对应 moisture developed，原因指原来的储藏室。", "point": "equivalent"},
+    {"stem": "Which statement preserves the conditions of fan use?", "options": ["The fan operates whenever the scenery is moved.", "The fan operates only while someone is in the room.", "The fan operates throughout the winter months.", "The fan operates whenever the upper floor is damp."], "answer": 1, "why": "only when the room is occupied 限定风扇仅在室内有人时运行。", "point": "precision"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["equivalent", "precision"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "During a trial of a footbridge, engineers placed sensors on its supporting beams. The sensors recorded small movements when groups of pedestrians crossed the bridge. The engineers then compared these records with measurements taken when the bridge was empty. They found that the movements were greater during crossings, although they remained within the range expected by the design team. The sensors did not measure the speed of individual pedestrians. After the trial, the engineers left the sensors in place for further observation.", "items": [
+    {"stem": "Which sentence restates the first observation?", "options": ["Small beam movements were recorded with the bridge empty.", "Small beam movements were recorded during crossings.", "Large beam movements were recorded during crossings.", "The sensors recorded pedestrian speeds during crossings."], "answer": 1, "why": "recorded small movements when groups of pedestrians crossed 改写为被动句，时间仍是行人过桥时。第一项把时间换成了桥上无人时。", "point": "equivalent"},
+    {"stem": "What did the engineers compare?", "options": ["Pedestrian speeds before and after the trial", "Beam movements before and after the trial", "Movements of empty and occupied bridges in different towns", "Measurements with and without pedestrians on the bridge"], "answer": 3, "why": "crossed the bridge 与 bridge was empty 分别对应有行人和无行人时的测量。", "point": "precision"},
+    {"stem": "Which statement preserves the finding?", "options": ["Crossings produced movements beyond the expected range.", "The empty bridge moved more than during crossings.", "The greater movements still fell within expectations.", "The sensors showed that pedestrians moved more slowly."], "answer": 2, "why": "greater during crossings 和 remained within the range expected 共同构成结论。", "point": "precision"},
+    {"stem": "Which sentence describes what happened after the trial?", "options": ["The sensors stayed on the bridge for continued monitoring.", "The engineers removed the sensors for further testing.", "The sensors were left on the bridge only until the trial ended.", "The engineers left the sensors in place to measure pedestrian speed."], "answer": 0, "why": "left the sensors in place 对应 stayed on the bridge，further observation 对应 continued monitoring。", "point": "equivalent"}
+   ]},
+   {"look": "passage", "text": "A community garden collects rain from the roof of its equipment shed. A channel directs the water into a covered tank beside the shed. Gardeners use this supply for young plants during dry periods. They continue to use tap water for cleaning tools because the collected rain is not filtered. The tank was installed by a group of volunteers in spring. Before installation, the group checked that the ground could support its weight when full. The volunteers also marked the water level on the outside so that gardeners could estimate the remaining supply.", "items": [
+    {"stem": "Which sentence restates the route taken by rain?", "options": ["The tank sends water through a channel onto the roof.", "A channel carries rain from the shed roof to the tank.", "A channel carries tap water from the shed to the tank.", "A channel carries water from the tank to the young plants."], "answer": 1, "why": "rain from the roof of its equipment shed 是起点，directs the water into a covered tank 是终点，第二项保留了这条路线。", "point": "equivalent"},
+    {"stem": "What is the collected rain used for?", "options": ["Cleaning the tools after gardening", "Watering all plants throughout the year", "Replacing tap water for every garden task", "Watering young plants in dry periods"], "answer": 3, "why": "use this supply for young plants during dry periods 指干旱时期给幼苗用水。", "point": "precision"},
+    {"stem": "Which sentence has the same meaning as the installation sentence?", "options": ["The tank was installed for the volunteers in spring.", "The volunteers installed the shed before spring.", "A group of volunteers installed the tank in spring.", "A group of gardeners installed a filter in spring."], "answer": 2, "why": "被动句 was installed by a group of volunteers 改为主动句，时间和对象保持不变。", "point": "equivalent"},
+    {"stem": "What did the group check before installation?", "options": ["Whether the ground could hold the tank when full", "Whether the tank could support the weight of the shed roof", "Whether the collected rain needed filtering", "Whether the water level was visible outside"], "answer": 0, "why": "依据是 the ground could support its weight when full，即地面能否承受装满水的水箱。", "point": "precision"}
+   ]}
+  ]}]}
+ ]
+}

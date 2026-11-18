@@ -1,0 +1,413 @@
+{
+ "id": "writing-continuation-method",
+ "title": "续写任务的限制条件",
+ "goal": "依据原文和段首句判断续写情节是否符合已知条件。",
+ "skill": "写作",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "constraint",
+   "label": "提取续写必须保留的原文事实"
+  },
+  {
+   "id": "consistency",
+   "label": "判断候选情节是否符合给定条件"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语（新课标卷）：课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "续写任务的限制条件与课程题目规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "task",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "续写要接着原文往下写。人物关系、事件进行到哪一步、叙述视角，都不能改变。两个段首句还规定了每段从哪里写起。"
+    },
+    {
+     "box": "I waited beside my older sister at the closed gate. She held the key, but the lock would not turn.\nParagraph 1: My sister tried the key once more.\nParagraph 2: At last, the gate opened."
+    },
+    {
+     "p": "叙述者和姐姐站在关着的门旁，钥匙在姐姐手里。第一段从姐姐再试一次开锁写起，第二段从门打开写起。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定人物关系",
+     "d": "先记下人物之间的关系和各人手里的物品。I waited beside my older sister 说明叙述者和姐姐在一起。"
+    },
+    {
+     "t": "2　核对事件状态",
+     "d": "分清哪些事已经发生、哪些还没有解决。The lock would not turn 说明锁还没打开。"
+    },
+    {
+     "t": "3　检查段首条件",
+     "d": "两个段首句分别规定两段的起点。My sister tried the key once more 要求第一段接着写姐姐再试钥匙。"
+    },
+    {
+     "t": "4　比较情节提要",
+     "d": "看候选情节有没有改变叙述视角和已知事实。后文可以写寻找锁打不开的原因，但要与两段的起点接上。"
+    }
+   ]
+  },
+  {
+   "id": "constraints",
+   "type": "table",
+   "title": "续写的限制条件",
+   "cols": [
+    "条件",
+    "原文",
+    "续写依据"
+   ],
+   "rows": [
+    [
+     "人物关系",
+     "I waited beside my sister.",
+     "同行的人是叙述者的姐妹。"
+    ],
+    [
+     "物品归属",
+     "She held the key.",
+     "开始时钥匙在姐姐手中。"
+    ],
+    [
+     "事件状态",
+     "The lock would not turn.",
+     "锁还没打开，后文可以交代原因。"
+    ],
+    [
+     "叙述视角",
+     "I watched her hand.",
+     "用第一人称叙述，只写叙述者看到和知道的事。"
+    ],
+    [
+     "段首动作",
+     "My sister tried the key once more.",
+     "第一段从姐姐再次尝试开始。"
+    ],
+    [
+     "第二段起点",
+     "At last, the gate opened.",
+     "第一段要为门打开做好铺垫。"
+    ]
+   ]
+  },
+  {
+   "id": "example",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Nora borrowed her uncle's ladder to retrieve a ball from the shed roof. The ladder was too short.\nParagraph 1: Nora called her uncle for advice.\nParagraph 2: With his help, she reached the ball.\n\nWhich outline fits both openings?\n1. Nora asks her uncle for a taller ladder; he brings one and helps her use it.\n2. Nora finds the ball on the ground; her uncle keeps the ladder in the shed.\n3. Nora gives her uncle a ball; he asks her to repair the shed roof.\n4. Nora reaches the ball alone; her uncle later borrows her ladder."
+    },
+    {
+     "p": "原文的困难是梯子太短。第一段首句要求 Nora 向叔叔求助，第二段首句要求她在叔叔帮助下拿到球。第一项保留了这个困难，又用叔叔送来更长的梯子把两段接上。"
+    }
+   ]
+  },
+  {
+   "id": "distractors",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "判断依据"
+   ],
+   "rows": [
+    [
+     "改变状态",
+     "The gate was already open.",
+     "原文写明门关着。"
+    ],
+    [
+     "改变关系",
+     "Her uncle was a stranger.",
+     "原文写明人物是叔侄关系。"
+    ],
+    [
+     "忽略段首",
+     "Nora never called her uncle.",
+     "第一段首句写明她打电话求助。"
+    ],
+    [
+     "另起故事",
+     "Nora repaired the shed for her uncle.",
+     "丢开了取球的目标和梯子太短的困难。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "constraint",
+    "consistency"
+   ],
+   "groups": [
+    {
+     "text": "I lent my cousin a map. We were still outside the museum when rain began.",
+     "items": [
+      {
+       "stem": "Which fact must the continuation retain at this point?",
+       "options": [
+        "My cousin had the map outside the museum.",
+        "My cousin had left the map inside the museum.",
+        "I had borrowed the map from my cousin.",
+        "I had entered the museum before the rain."
+       ],
+       "answer": 0,
+       "why": "依据是 I lent my cousin a map 和 We were still outside the museum。地图在表亲手里，两人还在馆外，即第一项。",
+       "point": "constraint"
+      }
+     ]
+    },
+    {
+     "text": "Maya promised her brother to return his camera. She had left it in the library.\nParagraph 1: Maya went back to the library.",
+     "items": [
+      {
+       "stem": "Which outline follows the given facts?",
+       "options": [
+        "Maya lends her camera to her brother at home.",
+        "Maya returns to the library to look for his camera.",
+        "Maya finds her brother's camera before leaving home.",
+        "Maya returns to the library to borrow a camera."
+       ],
+       "answer": 1,
+       "why": "依据是 She had left it in the library 和段首句的 went back to the library。Maya 回图书馆找那台相机，即第二项。第四项把找回相机改成了借相机。",
+       "point": "consistency"
+      }
+     ]
+    },
+    {
+     "text": "I watched my neighbor carry a basket to the river. She had not crossed the bridge.\nParagraph 1: She stepped onto the bridge.",
+     "items": [
+      {
+       "stem": "Which outline keeps the narrator's viewpoint?",
+       "options": [
+        "The neighbor secretly plans a route the narrator cannot know.",
+        "The neighbor tells the reader what she was thinking.",
+        "I see my neighbor test the bridge before crossing.",
+        "The neighbor narrates her own journey as I."
+       ],
+       "answer": 2,
+       "why": "依据是 I watched my neighbor。故事用第一人称，叙述者只能写自己看到的事。第三项写我看见邻居先试了试桥，保持了这个视角。",
+       "point": "constraint"
+      }
+     ]
+    },
+    {
+     "text": "Eli and his grandfather planted seeds, but the soil had dried.\nParagraph 1: His grandfather brought a watering can.\nParagraph 2: Together they watered the seeds.",
+     "items": [
+      {
+       "stem": "Which outline connects the two openings?",
+       "options": [
+        "His grandfather waters the seeds while Eli just watches.",
+        "Eli and his grandfather decide to leave the soil dry.",
+        "Eli plants seeds alone after the watering is complete.",
+        "Eli fills the can, and both of them water the dry soil."
+       ],
+       "answer": 3,
+       "why": "第一段祖父带来了水壶，第二段两人一起浇水。第四项写 Eli 把水壶装满、两人一起浇，两处就接上了。第一项只有祖父一人浇水。",
+       "point": "consistency"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "constraint",
+    "consistency"
+   ],
+   "groups": [
+    {
+     "text": "I was helping my aunt prepare a picnic. The wind blew our list under a bench before we packed the food. My aunt reached for it, but it was caught beneath a box.\nParagraph 1: I moved the box carefully.\nParagraph 2: With the list in hand, we packed the food.",
+     "items": [
+      {
+       "stem": "What remains unresolved before the first opening?",
+       "options": [
+        "The aunt has lost the food under the bench.",
+        "The list is still caught beneath the box.",
+        "The narrator has already packed the food.",
+        "The wind has blown the box under the bench."
+       ],
+       "answer": 1,
+       "why": "依据是 it was caught beneath a box，it 指清单。挪开箱子之前，清单一直被压着，即第二项。",
+       "point": "constraint"
+      },
+      {
+       "stem": "Which outline fits the openings?",
+       "options": [
+        "I move the box; my aunt retrieves the list for packing.",
+        "I pack the food alone; my aunt throws the list away.",
+        "My aunt moves the bench; I write a new list at home.",
+        "I find the food under the box; my aunt leaves the picnic."
+       ],
+       "answer": 0,
+       "why": "第一段从我挪开箱子写起，第二段开始时清单已在手里。第一项写姑妈取回清单，两处就接上了。",
+       "point": "consistency"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "constraint",
+    "consistency"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "I helped my brother repair a kite for our cousin. One wooden stick had snapped, and the kite could not fly. My brother had thread, but we needed another stick.\nParagraph 1: I went to the shed to look for one.\nParagraph 2: Our cousin held the repaired kite in the wind.",
+       "items": [
+        {
+         "stem": "Which fact is fixed before the first opening?",
+         "options": [
+          "The cousin has already repaired the kite alone.",
+          "The narrator has found a replacement stick.",
+          "A broken stick prevents the kite from flying.",
+          "The brother has no thread for the repair."
+         ],
+         "answer": 2,
+         "why": "依据是 One wooden stick had snapped, and the kite could not fly。木条断了，风筝飞不起来，即第三项。",
+         "point": "constraint"
+        },
+        {
+         "stem": "Which outline best connects the openings?",
+         "options": [
+          "I give away the thread and buy our cousin a new kite.",
+          "My brother takes the kite apart after our cousin flies it.",
+          "Our cousin breaks the stick after the kite is repaired.",
+          "I find a stick and my brother uses thread to attach it."
+         ],
+         "answer": 3,
+         "why": "第一段我去找木条，第二段风筝已经修好。第四项写找到木条，再用原文已有的 thread 绑上，两段就接上了。",
+         "point": "consistency"
+        },
+        {
+         "stem": "Complete the account of the first search.",
+         "lead": "I",
+         "chunks": [
+          "found",
+          "a stick",
+          "in",
+          "the shed"
+         ],
+         "extra": [
+          "finding"
+         ],
+         "tail": ".",
+         "why": "I 是叙述者，found 用过去时；in the shed 是找到木条的地点。",
+         "point": "constraint"
+        },
+        {
+         "stem": "Complete a sentence about the repair.",
+         "lead": "My brother",
+         "chunks": [
+          "tied",
+          "the new stick",
+          "to",
+          "the kite"
+         ],
+         "extra": [
+          "tying"
+         ],
+         "tail": ".",
+         "why": "把新木条绑到风筝上，接着前面找木条的情节。",
+         "point": "consistency"
+        }
+       ]
+      },
+      {
+       "text": "Lena and her father prepared a display of old family photographs. Lena had misplaced the photograph of her grandmother's garden. Her father remembered seeing it in a blue folder, which was still closed on the shelf.\nParagraph 1: Lena took the folder down.\nParagraph 2: The garden photograph was finally on the display board.",
+       "items": [
+        {
+         "stem": "Which detail must the first paragraph respect?",
+         "options": [
+          "The folder is on the shelf and has not been opened.",
+          "The photograph is already fixed to the display board.",
+          "The father has already opened the blue folder.",
+          "The grandmother has misplaced Lena's garden display."
+         ],
+         "answer": 0,
+         "why": "依据是 which was still closed on the shelf。文件夹还在架子上，也没有打开，即第一项。",
+         "point": "constraint"
+        },
+        {
+         "stem": "Which outline leads naturally to the second opening?",
+         "options": [
+          "Lena opens the folder but finds only empty pages.",
+          "Lena opens the folder and finds the missing photograph.",
+          "Her father removes the photograph from the finished board.",
+          "Her grandmother takes the empty folder to the garden."
+         ],
+         "answer": 1,
+         "why": "父亲记得照片在蓝色文件夹里。第二项打开文件夹找到照片，第二段照片才能上展示板。第一项打开了文件夹，却没有找到照片。",
+         "point": "consistency"
+        },
+        {
+         "stem": "Complete a sentence about the search.",
+         "lead": "Lena",
+         "chunks": [
+          "opened",
+          "the folder",
+          "on",
+          "the table"
+         ],
+         "extra": [
+          "opening"
+         ],
+         "tail": ".",
+         "why": "Lena 已把文件夹从架上取下，接着打开它；opened 用过去时。",
+         "point": "constraint"
+        },
+        {
+         "stem": "Complete a sentence about the display.",
+         "lead": "Her father",
+         "chunks": [
+          "placed",
+          "the photograph",
+          "on",
+          "the board"
+         ],
+         "extra": [
+          "placing"
+         ],
+         "tail": ".",
+         "why": "placed the photograph on the board 与第二段照片已在展示板上的状态一致。",
+         "point": "consistency"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

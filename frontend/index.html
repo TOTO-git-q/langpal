@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JINE — LangPal</title>
+<link rel="preload" href="assets/font/PixelMplus12-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/font/PixelMplus12-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/windose.css">
+<link rel="stylesheet" href="css/apps.css">
+<link rel="stylesheet" href="css/jine.css">
+<link rel="stylesheet" href="css/lesson.css">
+<link rel="stylesheet" href="css/reading.css">
+<link rel="stylesheet" href="css/listening.css">
+<link rel="stylesheet" href="css/review.css">
+<link rel="stylesheet" href="css/learning.css">
+<link rel="stylesheet" href="css/workspace-agent.css">
+<link rel="stylesheet" href="css/settings.css">
+<link rel="stylesheet" href="css/settings-reading.css">
+<link rel="stylesheet" href="css/settings-lore.css">
+<link rel="stylesheet" href="css/language-drawer.css">
+</head>
+<body>
+
+<!-- 桌面壳顶边缩放热区：标题栏整条是 drag 区，会盖掉无边框窗口顶部的原生缩放边，
+     这条 6px 的 no-drag 透明条把它让出来；浏览器里不可见无副作用 -->
+<div id="win-resize-topstrip"></div>
+
+<div id="app-shell">
+  <header id="app-titlebar">
+    <div id="app-brand"><img id="app-icon" src="assets/icons/jine.png" alt=""><span id="app-title">JINE</span></div>
+    <nav class="app-section-nav" id="app-study-nav" aria-label="学习" hidden>
+      <button class="nav-btn" data-tab="today"><img src="assets/icons/lesson.png" alt=""><span>今天</span></button>
+<button class="nav-btn" data-tab="course"><img src="assets/icons/notebook.png" alt=""><span>课程</span></button>
+<button class="nav-btn" data-tab="reading"><img src="assets/icons/reading.svg" alt=""><span>阅读</span></button>
+      <button class="nav-btn" data-tab="listening"><img src="assets/icons/listening.svg" alt=""><span>听力</span></button>
+      <button class="nav-btn" data-tab="coach"><img src="assets/icons/lesson.png" alt=""><span>口语</span></button>
+    </nav>
+    <nav class="app-section-nav" id="app-revise-nav" aria-label="复习" hidden>
+      <button class="nav-btn" data-tab="drill"><img src="assets/icons/review.png" alt=""><span>复习</span></button>
+<button class="nav-btn" data-tab="review"><img src="assets/icons/review.png" alt=""><span>错题本</span></button>
+      <button class="nav-btn" data-tab="notebook"><img src="assets/icons/notebook.png" alt=""><span>单词本</span></button>
+    </nav>
+    <div id="app-winbtns">
+      <button class="win-btn win-min" id="app-btn-min" title="最小化">_</button>
+      <button class="win-btn win-max" id="app-btn-max" title="最大化">□</button>
+      <button class="win-btn win-close" id="app-btn-close" title="关闭">×</button>
+    </div>
+  </header>
+
+  <div id="app-main">
+    <aside id="app-sidebar">
+      <nav id="app-navrow" aria-label="应用页面">
+        <button class="nav-btn active" data-tab="talk" aria-current="page"><img src="assets/icons/jine.png" alt=""><span>聊天</span></button>
+        <button class="nav-btn" data-tab="study"><img src="assets/icons/lesson.png" alt=""><span>学习</span></button>
+        <button class="nav-btn" data-tab="revise"><img src="assets/icons/review.png" alt=""><span>复习</span></button>
+        <button class="nav-btn" data-tab="workspace-agent"><img src="assets/icons/agent.svg" alt=""><span>课程管家</span></button>
+        <button class="nav-btn" data-tab="settings"><img src="assets/icons/settings.png" alt=""><span>设置</span></button>
+      </nav>
+      <div id="app-navstatus">
+        <span id="nav-health-dot"></span>
+        <span id="nav-usage-chip" hidden></span>
+      </div>
+    </aside>
+
+    <main id="app-page">
+      <div class="page-panel active" id="page-talk"></div>
+      <div class="page-panel" id="page-today"></div>
+<div class="page-panel" id="page-course"></div>
+<div class="page-panel" id="page-drill"></div>
+<div class="page-panel" id="page-reading"></div>
+      <div class="page-panel" id="page-listening"></div>
+      <div class="page-panel" id="page-coach"></div>
+      <div class="page-panel" id="page-review"></div>
+      <div class="page-panel" id="page-notebook"></div>
+      <div class="page-panel" id="page-workspace-agent"></div>
+      <div class="page-panel" id="page-settings"></div>
+    </main>
+  </div>
+</div>
+
+<div id="word-popover" class="pixel-box hidden"></div>
+<div id="sentence-panel" class="pixel-box hidden"></div>
+<div id="toast" class="hidden"></div>
+
+<script src="js/util.js"></script>
+<script src="js/api.js"></script>
+<script src="js/glosses.js"></script>
+<script src="js/state.js"></script>
+<script src="js/languages.js"></script>
+<script src="js/language-picker.js"></script>
+<script src="js/language-drawer.js"></script>
+<script src="js/reader-style.js"></script>
+<script src="js/furigana.js"></script>
+<script src="js/tokens.js"></script>
+<script src="js/sse.js"></script>
+<script src="js/wordcard.js"></script>
+<script src="js/sentence-panel.js"></script>
+<script src="js/stage.js"></script>
+<script src="js/scene.js"></script>
+<script src="js/actions.js"></script>
+<script src="js/lesson.js"></script>
+<script src="js/lesson-cards.js"></script>
+<script src="js/jine.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

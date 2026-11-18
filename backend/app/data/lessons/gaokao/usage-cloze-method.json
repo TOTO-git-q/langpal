@@ -1,0 +1,355 @@
+{
+ "id": "usage-cloze-method",
+ "title": "完形填空的解题步骤",
+ "goal": "根据完整句梳理事件，并用上下文核对候选词。",
+ "skill": "语言运用",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "outline",
+   "label": "利用完整句确定文章的基本事件"
+  },
+  {
+   "id": "verify",
+   "label": "代入候选词核对局部与全文意义"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语课程课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "教学内容与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "type",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "完形填空根据短文选词。首句、没有空的句子和结尾交代了人物和事件。选出的词还要和动作、对象、结果对得上。"
+    },
+    {
+     "box": "Nora wanted to repair the clock. After several attempts, it worked again."
+    },
+    {
+     "p": "wanted to repair 是目标，worked again 是结果。中间的几次尝试都是在修钟。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　梳理事件",
+     "d": "先读首句、未挖空句和结尾。确定人物、目标和结果。"
+    },
+    {
+     "t": "2　检查句内关系",
+     "d": "看空格所在句的主语、宾语和搭配。候选词要和动作、对象搭配得上。"
+    },
+    {
+     "t": "3　联系前后文",
+     "d": "看相邻句之间的原因和结果。相邻句不够时，再往前或往后找较远的事件。"
+    },
+    {
+     "t": "4　代入核对",
+     "d": "将候选词代入句子。检查动作和结果是否与全文一致。"
+    }
+   ]
+  },
+  {
+   "id": "clues",
+   "type": "table",
+   "title": "线索顺序",
+   "cols": [
+    "范围",
+    "作用",
+    "例"
+   ],
+   "rows": [
+    [
+     "首句与结尾",
+     "确定人物、目标和结果",
+     "Nora wanted to repair the clock. / It worked again."
+    ],
+    [
+     "句内搭配",
+     "检查动作与对象",
+     "She tightened a loose screw."
+    ],
+    [
+     "相邻句",
+     "检查原因和结果",
+     "The screw was loose. She tightened it."
+    ],
+    [
+     "跨段信息",
+     "用后文核对先前判断",
+     "The clock stopped. … By evening it worked again."
+    ]
+   ]
+  },
+  {
+   "id": "example",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Maya wanted the seedlings to survive the hot weekend. She asked a neighbor to water them while she was away. On Monday the leaves were still green. Maya thanked the neighbor for the ___.\n1. help  2. delay  3. problem  4. journey"
+    },
+    {
+     "p": "asked a neighbor to water 和 leaves were still green 说明邻居浇水帮了忙。Maya 感谢的就是这份帮助，选第一项。"
+    },
+    {
+     "box": "Ari prepared a speech for the school meeting. He first spoke too softly for the back row to hear. After practicing with a friend, he spoke more clearly at the meeting. The practice had improved his ___.\n1. seat  2. voice  3. audience  4. meeting"
+    },
+    {
+     "p": "too softly 和 spoke more clearly 说的都是声音。练习改进的是 Ari 的声音，选第二项。"
+    }
+   ]
+  },
+  {
+   "id": "distractors",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "核对依据"
+   ],
+   "rows": [
+    [
+     "对象错误",
+     "thank the seedlings",
+     "Maya 感谢的是浇水的邻居。"
+    ],
+    [
+     "动作相反",
+     "loosen the loose screw",
+     "松动的螺丝要拧紧。"
+    ],
+    [
+     "结果不符",
+     "practice made the speech quieter",
+     "后文说声音更清楚了。"
+    ],
+    [
+     "相邻信息",
+     "improve the audience",
+     "练习改进的是声音，audience 只是听讲话的人。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "outline",
+    "verify"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Leo lost his key, so his sister opened the door with hers. Leo thanked her for her ___.",
+       "options": [
+        "key",
+        "help",
+        "door",
+        "loss"
+       ],
+       "answer": 1,
+       "why": "opened the door 说明姐姐提供了帮助。",
+       "point": "verify"
+      },
+      {
+       "stem": "The path was blocked by a fallen branch. The walkers moved it aside and continued. Their immediate problem was the ___.",
+       "options": [
+        "walkers",
+        "path",
+        "branch",
+        "walk"
+       ],
+       "answer": 2,
+       "why": "fallen branch 挡住了路，移开它后行人继续前进。",
+       "point": "outline"
+      },
+      {
+       "stem": "The soup was too hot to serve. After a few minutes it was cool enough. They had waited for it to ___.",
+       "options": [
+        "heat",
+        "boil",
+        "spill",
+        "cool"
+       ],
+       "answer": 3,
+       "why": "too hot 与 cool enough 表示汤降温了。",
+       "point": "verify"
+      },
+      {
+       "stem": "The class wanted to share books. They built a shelf and put spare books on it. What was the class trying to do?",
+       "options": [
+        "Share books with others",
+        "Repair a damaged shelf",
+        "Keep spare books for themselves",
+        "Replace their class books"
+       ],
+       "answer": 0,
+       "why": "首句 wanted to share books 给出班级的目标。",
+       "point": "outline"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "outline",
+    "verify"
+   ],
+   "groups": [
+    {
+     "text": "Iris planned to paint a sign for the garden gate. She found that the old board had a rough surface, so she borrowed sandpaper from her uncle. After smoothing the board, she painted the name of the garden on it. The finished sign was easy to read from the path. Her uncle helped her attach it to the gate.",
+     "items": [
+      {
+       "stem": "What was Iris's purpose?",
+       "options": [
+        "To replace the garden gate",
+        "To paint a sign for the gate",
+        "To find a new garden path",
+        "To borrow sandpaper from her uncle"
+       ],
+       "answer": 1,
+       "why": "首句 planned to paint a sign 给出目标。第四项借砂纸只是为了磨平木板。",
+       "point": "outline"
+      },
+      {
+       "stem": "She used sandpaper to make the board ___.",
+       "options": [
+        "rougher",
+        "darker",
+        "smoother",
+        "longer"
+       ],
+       "answer": 2,
+       "why": "rough surface 与 smoothing the board 说明砂纸使木板更平滑。",
+       "point": "verify"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "outline",
+    "verify"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "On Saturday morning, Elena set out to deliver a box of books to the community center. The center was opening a small reading room, and the books had been donated by families on her street. Elena had promised to bring the box before the volunteers arranged the shelves. She put it on the back of her bicycle and started along the river path.\n\nHalfway there, she noticed that one wheel was making an unfamiliar sound. She stopped beside a bench and discovered that a string had wound itself around the wheel. The box was heavy, and she did not want to leave the bicycle unattended while looking for help. She tried to pull the string free, but it was caught too tightly. A woman walking nearby offered her a pair of small scissors from her bag. Elena carefully cut the string and turned the wheel again. This time it moved without the noise.\n\nElena thanked the woman and rode on more slowly, checking that the box stayed in place. At the center, the volunteers had just finished putting labels on the shelves. They carried the box inside together and sorted the books by subject. Elena told them why she had arrived later than expected. One volunteer placed a small repair kit beside the door for future deliveries. By the afternoon, the reading room was ready, with the donated books on the shelves and space for visitors to sit. Elena was pleased that the wheel problem had not prevented the books from reaching their destination.",
+       "items": [
+        {
+         "stem": "What was Elena's original purpose?",
+         "options": [
+          "To bring donated books to the center",
+          "To buy scissors for the reading room",
+          "To label shelves along the river path",
+          "To repair a bicycle for a volunteer"
+         ],
+         "answer": 0,
+         "why": "首句 set out to deliver a box of books 确定了她的目标。",
+         "point": "outline"
+        },
+        {
+         "stem": "Elena cut the string because it was ___ around the wheel.",
+         "options": [
+          "loose",
+          "caught",
+          "free",
+          "carried"
+         ],
+         "answer": 1,
+         "why": "string had wound itself around the wheel 且 caught too tightly，说明线缠住了车轮。",
+         "point": "verify"
+        },
+        {
+         "stem": "What shows that the delivery succeeded?",
+         "options": [
+          "The woman found scissors in her bag.",
+          "The bicycle stopped beside a bench.",
+          "The books were placed on the shelves.",
+          "The repair kit was placed by the door."
+         ],
+         "answer": 2,
+         "why": "结尾 books on the shelves 表明书送达并摆上书架。",
+         "point": "outline"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "When the school cooking club planned a meal for visiting families, Ben offered to make bread. He had watched his grandfather do it many times, but he had never prepared a large batch alone. The meal was scheduled for Friday evening, so Ben decided to try the recipe at home on Wednesday. His first attempt produced a loaf with a hard outside and a heavy middle. He wrote down the steps he had followed and took the loaf to the club the next day.\n\nThe club teacher asked Ben to compare his notes with the recipe. He noticed that he had used cold water and had put the dough in the oven immediately after mixing it. The recipe called for warm water and time for the dough to rise. Ben had been in a hurry, so he had missed both details. The teacher did not change the recipe for him. Instead, she asked him to prepare a smaller loaf and observe what happened during the waiting period.\n\nBen measured the ingredients again and placed the covered dough in a warm corner. While waiting, he helped another club member set the tables. Later he saw that the dough had increased in size. The second loaf was lighter, and the teacher agreed that he could use the same method for the meal. On Friday, Ben began early enough to allow for the waiting time. The families ate the bread with their meal, and Ben kept his notes for the next club event.",
+       "items": [
+        {
+         "stem": "What did Ben want to prepare for the families?",
+         "options": [
+          "A table for the meeting",
+          "A set of cooking notes",
+          "A recipe for cold water",
+          "Bread for the club meal"
+         ],
+         "answer": 3,
+         "why": "首句 offered to make bread 说明 Ben 的任务。",
+         "point": "outline"
+        },
+        {
+         "stem": "Ben missed two steps because he was in a ___.",
+         "options": [
+          "club",
+          "hurry",
+          "corner",
+          "meal"
+         ],
+         "answer": 1,
+         "why": "had been in a hurry, so he had missed both details 给出直接原因。",
+         "point": "verify"
+        },
+        {
+         "stem": "The second loaf was lighter after Ben allowed the dough to ___.",
+         "options": [
+          "cool",
+          "harden",
+          "rise",
+          "dry"
+         ],
+         "answer": 2,
+         "why": "time for the dough to rise 和 dough had increased in size 对应发酵膨胀。",
+         "point": "verify"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

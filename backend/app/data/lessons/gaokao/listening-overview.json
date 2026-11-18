@@ -1,0 +1,59 @@
+{
+ "id": "listening-overview",
+ "title": "听力部分概览",
+ "goal": "区分听力两节的材料、播放方式与计分，识别课程训练设置。",
+ "skill": "听力",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "format", "label": "说出两节的材料数量与播放次数"},
+  {"id": "scoring", "label": "区分考试题量计分与课程训练设置"}
+ ],
+ "sources": [
+  {"id": "g2", "title": "2024英语新课标适应性测试第1页", "url": "https://www.neea.edu.cn/res/Home/2401/24010498.jpg", "used": "听力第一节的材料、题量、播放次数与分值"},
+  {"id": "g3", "title": "2024英语新课标适应性测试第2页", "url": "https://www.neea.edu.cn/res/Home/2401/24010500.jpg", "used": "听力第二节的材料、题量、播放次数与选项"},
+  {"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "课程练习、小测形式和时间"}
+ ],
+ "cards": [
+  {
+   "id": "overview", "type": "facts", "title": "概述",
+   "rows": [
+    {"k": "第一节", "v": "5 段短对话，5 题；每段播放 1 遍。", "src": "g2 适应性测试第 1 页"},
+    {"k": "第二节", "v": "5 段较长对话或独白，15 题；每段播放 2 遍。", "src": "g3 适应性测试第 2 页"},
+    {"k": "计分", "v": "每题 1.5 分，听力共 30 分。", "src": "g2 适应性测试第 1 页"},
+    {"k": "适用范围", "v": "以上依据 2024 年官方适应性测试。是否适用于 2025—2026 年的各套全国卷，尚未确认。", "src": "g2 适应性测试第 1 页；g3 适应性测试第 2 页"}
+   ]
+  },
+  {
+   "id": "types", "type": "table", "title": "题型",
+   "cols": ["部分", "材料与题目", "播放"],
+   "rows": [
+    ["第一节", "5 段短对话，每段 1 题。", "每段 1 遍。"],
+    ["第二节", "5 段较长对话或独白，共 15 题。", "每段 2 遍。"]
+   ]
+  },
+  {
+   "id": "training", "type": "table", "title": "课程训练设置",
+   "cols": ["项目", "形式", "课程时间"],
+   "rows": [
+    ["短对话练习", "5 段对话，共 5 题，三选一。", "4 分钟"],
+    ["较长材料练习", "2 段材料，共 6 题，三选一。", "6 分钟"],
+    ["本课小测", "单选题采用四选一。", "4 分钟"],
+    ["听力模拟测试", "短对话和较长材料均采用四选一。", "19 分钟"]
+   ],
+   "note": "以上为本课程的建议，不是官方规定。官方样卷的听力题是三选一。各部分的官方时长尚未确认。"
+  },
+  {
+   "id": "timed", "type": "quiz", "title": "小测", "minutes": 4, "pass": 0.8,
+   "points": ["format", "scoring"],
+   "sets": [{"id": "set-a", "groups": [
+    {"items": [{"stem": "How many short conversations are in the sample's first listening section?", "options": ["Five short conversations", "Five longer recordings", "Fifteen short conversations", "Fifteen longer recordings"], "answer": 0, "why": "第一节为 5 段短对话，第一项符合材料数量和类型。", "point": "format"}]},
+    {"items": [{"stem": "How are the longer recordings played in the sample?", "options": ["Each short conversation is played once.", "Each longer recording is played twice.", "Each longer recording is played once.", "Each short conversation is played twice."], "answer": 1, "why": "第二节的较长材料每段播放 2 遍，第二项符合播放方式。", "point": "format"}]},
+    {"items": [{"stem": "Which description fits the sample's second listening section?", "options": ["Five short conversations and five questions", "Fifteen short conversations and five questions", "Five longer recordings and fifteen questions", "Fifteen longer recordings and five questions"], "answer": 2, "why": "第二节为 5 段较长材料，共 15 题。第三项的材料数和题数都与此一致。", "point": "format"}]},
+    {"items": [{"stem": "What is the score for each listening question in the sample?", "options": ["Half a point per question", "One point per question", "Two points per question", "One and a half points per question"], "answer": 3, "why": "样卷听力每题 1.5 分，第四项与分值一致。", "point": "scoring"}]},
+    {"items": [{"stem": "How does the sample differ from the course quiz?", "options": ["The sample has three choices; the quiz has four.", "The sample has four choices; the quiz has three.", "Both use three choices for each question.", "Both use four choices for each question."], "answer": 0, "why": "样卷听力单选为三选一，课内小测为四选一，第一项对应两者。", "point": "scoring"}]},
+    {"items": [{"stem": "Which statement describes the listening time?", "options": ["The sample fixes four minutes for short conversations.", "The four-minute short practice is a course setting.", "The sample fixes nineteen minutes for all listening.", "The nineteen-minute course mock is an official section time."], "answer": 1, "why": "课程训练设置表列出短对话练习 4 分钟，并注明是本课程的建议。第二项说的就是这一点。", "point": "scoring"}]}
+   ]}]
+  }
+ ]
+}

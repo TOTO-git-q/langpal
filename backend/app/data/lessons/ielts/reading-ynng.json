@@ -1,0 +1,183 @@
+{
+  "id": "reading-ynng",
+  "title": "观点判断　Identifying writer’s views/claims · 练习",
+  "goal": "依据作者自己的表态判断观点陈述。",
+  "skill": "阅读",
+  "exam": "雅思 IELTS Academic",
+  "points": [
+    {
+      "id": "source",
+      "label": "识别引述观点的来源"
+    },
+    {
+      "id": "judge",
+      "label": "判断陈述与作者观点的关系"
+    }
+  ],
+  "sources": [
+    {
+      "id": "i2",
+      "title": "IELTS Academic: Reading test format",
+      "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+      "used": "阅读材料与题型"
+    },
+    {
+      "id": "syllabus",
+      "title": "雅思 IELTS Academic：课表",
+      "url": "docs/syllabi/ielts.md",
+      "used": "练习尺寸与知识点"
+    }
+  ],
+  "cards": [
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "小测",
+      "minutes": 12,
+      "pass": 0.75,
+      "points": [
+        "source",
+        "judge"
+      ],
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "label": "",
+              "look": "passage",
+              "text": "Should Museum Visitors Be Allowed to Touch?\n\nFor most of the twentieth century, the rule in museum galleries was simple: look, but do not touch. Glass cases, rope barriers and printed notices all communicated the same message. In recent decades, however, many museums have introduced handling sessions in which visitors may pick up selected objects under supervision. Some commentators regard this as a welcome change in attitude; others see it as a risk that institutions responsible for irreplaceable material should not accept. In my view, both positions contain something true, but neither should be adopted without qualification.\n\nThe case for handling is usually made by education staff. They argue that touch provides information that sight alone cannot: the weight of a tool, the texture of a woven cloth or the balance of a pot in the hand. A visitor who lifts an iron cooking pot, they say, understands the labour of preparing a meal in a way that no label can convey. I find this argument persuasive, at least for objects whose use depended on the human body. It is difficult to appreciate a heavy tool from behind glass, and a short period of handling can make a description in a guidebook far easier to understand.\n\nConservators, whose task is to preserve collections, raise a different concern. Human skin carries oils and salts, and repeated contact can mark metal, stain textiles and weaken painted surfaces. Accidental drops are a further risk. Some conservators have argued that every touch shortens an object's life, however careful the visitor may be. This claim is sometimes dismissed as excessive caution, but I think it deserves to be taken seriously. Damage caused by handling is gradual, and it may not become visible until long after the decision to allow contact has been forgotten.\n\nThe solution adopted by many museums is a separate handling collection. This consists of objects that are not unique: duplicates of items already well represented in the main collection, replicas made for the purpose, or items whose historical value lies in their type rather than in their individual history. I regard this as the most sensible arrangement currently available. It allows visitors to experience weight and texture while ensuring that the objects most important to research are not exposed to repeated contact. It is sometimes objected that a replica cannot give the experience of touching something genuinely old. That is true, but the objection overlooks the fact that many duplicates in handling collections are themselves genuine.\n\nThere remains the question of who should benefit. Handling sessions are often arranged for school groups, and adult visitors may never be offered the opportunity. Museum managers sometimes explain that children gain more from physical activity than adults do. I am not convinced by this reasoning. Adults also learn through their hands, and a retired engineer or a practising weaver may notice features of an object that a curator would miss. Limiting handling to children therefore reduces the range of knowledge that the sessions could produce.\n\nIt should also be recognised that handling is not the only way to bring visitors closer to objects. Detailed photographs, models that can be taken apart and recordings of specialists demonstrating a technique may answer some of the questions that touch would answer. These methods do not replace physical contact, but they can extend something of its value to objects that could never safely be handled. A museum that offers only one of these approaches is, in my opinion, making less of its collection than it could.\n\nFinally, the success of handling depends on supervision. A session led by a trained member of staff can teach visitors how to hold an object correctly, and this knowledge may make them more careful elsewhere in the museum. Without such guidance, handling is little more than permission to pick things up. The question is therefore not simply whether visitors should touch, but under what conditions, with which objects and with what help. Answered in that way, it becomes a question that museums can resolve rather than an argument between two fixed positions.",
+              "items": [
+                {
+                  "stem": "Touch can give visitors information about some objects that looking cannot. Enter YES, NO or NOT GIVEN.",
+                  "accept": [
+                    "YES"
+                  ],
+                  "why": "这是教育人员的观点，作者随后说 I find this argument persuasive，表示接受。",
+                  "point": "source"
+                },
+                {
+                  "stem": "Conservators' worries about damage from handling are an example of excessive caution. Enter YES, NO or NOT GIVEN.",
+                  "accept": [
+                    "NO"
+                  ],
+                  "why": "“过度谨慎”是别人对保管员的评价；作者说 I think it deserves to be taken seriously，与陈述相反。",
+                  "point": "source"
+                },
+                {
+                  "stem": "A separate handling collection is the best arrangement museums have at present. Enter YES, NO or NOT GIVEN.",
+                  "accept": [
+                    "YES"
+                  ],
+                  "why": "作者说 I regard this as the most sensible arrangement currently available。",
+                  "point": "judge"
+                },
+                {
+                  "stem": "Visitors usually prefer handling replicas to handling genuine objects. Enter YES, NO or NOT GIVEN.",
+                  "accept": [
+                    "NOT GIVEN"
+                  ],
+                  "why": "作者只说复制品给不了触摸真正古物的体验，没有谈参观者更喜欢哪一种。",
+                  "point": "judge"
+                },
+                {
+                  "stem": "It is reasonable to offer handling sessions mainly to children. Enter YES, NO or NOT GIVEN.",
+                  "accept": [
+                    "NO"
+                  ],
+                  "why": "这是博物馆管理者的理由，作者说 I am not convinced by this reasoning，并认为只给儿童会缩小所得的知识。",
+                  "point": "source"
+                },
+                {
+                  "stem": "Most museums now train staff specifically to lead handling sessions. Enter YES, NO or NOT GIVEN.",
+                  "accept": [
+                    "NOT GIVEN"
+                  ],
+                  "why": "作者只说触摸的效果取决于有人指导，没有说大多数博物馆是否已经培训员工。",
+                  "point": "judge"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "label": "",
+              "look": "passage",
+              "text": "Mowing Less: The Case for Wilder Roadside Verges\n\nAcross much of Britain, the narrow strips of grass beside roads are cut several times each summer. The practice is so familiar that it is rarely questioned. In recent years, though, a number of local councils have reduced mowing on some verges, allowing grasses and wild flowers to grow taller and to set seed. Supporters describe these verges as corridors for wildlife; critics describe them as untidy. I believe that the change is generally justified, but its advocates sometimes claim more for it than the evidence allows.\n\nThe ecological argument begins with the loss of flower-rich grassland in the countryside. Much meadow land has been converted to other uses over the past century, and road verges now include some of the remaining places where meadow plants can grow. Ecologists point out that many of these plants need to flower and set seed before they are cut, which frequent summer mowing prevents. This seems to me a strong reason to change the timing of cutting. A verge mown once in late summer, with the cuttings removed, gives plants the chance to complete their yearly cycle. Verges have the further advantage of being spread across the whole country, often in farmed areas where few other patches of rough grassland survive.\n\nRemoving the cuttings matters more than is often appreciated. When cut grass is left to rot where it falls, it returns nutrients to the soil. Fertile soil favours a small number of vigorous grasses, which then crowd out less competitive flowering plants. Some councils have reduced mowing without collecting the cuttings, perhaps because collection requires additional equipment. In my view, such schemes are unlikely to produce the variety of plants their supporters expect, and they risk giving the whole approach an undeserved reputation for failure.\n\nThe most common objection from residents concerns appearance. Long grass, they say, looks neglected, and a neglected appearance may encourage people to drop litter. I do not think this objection should be dismissed as a mere matter of taste. A verge is part of a shared public space, and people are entitled to expect that it is cared for. However, the problem can be addressed without returning to frequent mowing. A narrow strip cut along the edge of the road, together with a small sign explaining the purpose of the longer grass, shows that the verge is managed deliberately rather than forgotten.\n\nSafety is a more serious concern. On bends and at junctions, tall vegetation can block a driver's view of oncoming traffic. Here the case for reduced mowing has clear limits. Road safety officers have suggested that verges close to junctions should be cut regularly throughout the summer. I would accept this as a sensible rule, provided that it is applied to the specific places where visibility is affected rather than used as a reason to mow every verge in a district.\n\nAdvocates sometimes claim that wilder verges will reverse the decline of insect populations. This, I think, is an overstatement. Verges can provide food and shelter, and they may help insects to move between larger habitats. But they are narrow, exposed to traffic and often polluted, and they cannot replace the large areas of habitat that have been lost. An insect that depends on one particular plant will benefit only where that plant is actually present, and many verges contain none of the species concerned. Presenting them as the solution to a national problem invites disappointment when the results prove more modest.\n\nThe strongest practical argument for the change may be economic as well as ecological. Mowing less often can reduce the cost of fuel and labour, although collecting cuttings adds expense of its own. Councils should record both the savings and the additional costs, along with simple surveys of the plants that appear. Such records would allow the policy to be judged on its results rather than on the enthusiasm of its supporters or the irritation of its critics.",
+              "items": [
+                {
+                  "stem": "The timing of verge cutting should change so that meadow plants can set seed. Enter YES, NO or NOT GIVEN.",
+                  "accept": [
+                    "YES"
+                  ],
+                  "why": "生态学者指出频繁割草使植物来不及结籽，作者说 This seems to me a strong reason to change the timing of cutting。",
+                  "point": "source"
+                },
+                {
+                  "stem": "Cutting verges less often without removing the cuttings is likely to increase the variety of plants. Enter YES, NO or NOT GIVEN.",
+                  "accept": [
+                    "NO"
+                  ],
+                  "why": "作者说不清走割下的草的做法 are unlikely to produce the variety of plants their supporters expect。",
+                  "point": "judge"
+                },
+                {
+                  "stem": "Residents' complaints about the appearance of verges are simply a matter of taste. Enter YES, NO or NOT GIVEN.",
+                  "accept": [
+                    "NO"
+                  ],
+                  "why": "外观意见来自居民，作者说 I do not think this objection should be dismissed as a mere matter of taste。",
+                  "point": "source"
+                },
+                {
+                  "stem": "Signs explaining the longer grass reduce the amount of litter on verges. Enter YES, NO or NOT GIVEN.",
+                  "accept": [
+                    "NOT GIVEN"
+                  ],
+                  "why": "作者只说标牌表明草地是有意管理的，没有说标牌能否减少垃圾。",
+                  "point": "judge"
+                },
+                {
+                  "stem": "Verges at junctions where drivers need a clear view should be mown regularly. Enter YES, NO or NOT GIVEN.",
+                  "accept": [
+                    "YES"
+                  ],
+                  "why": "这是道路安全人员的建议，作者说 I would accept this as a sensible rule，条件是只用于影响视线的地点。",
+                  "point": "source"
+                },
+                {
+                  "stem": "Wilder verges are capable of reversing the national decline in insects. Enter YES, NO or NOT GIVEN.",
+                  "accept": [
+                    "NO"
+                  ],
+                  "why": "这是支持者的说法，作者认为 This, I think, is an overstatement，路边草地不能替代失去的大片栖息地。",
+                  "point": "judge"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "more": {
+        "kind": "ynng",
+        "topics": [
+          "博物馆展品",
+          "道路绿化",
+          "公共图书馆",
+          "城市交通",
+          "历史建筑保护",
+          "学校作息",
+          "社区花园",
+          "档案开放",
+          "自然保护区",
+          "城市照明",
+          "公共广场",
+          "旅游与古迹"
+        ]
+      }
+    }
+  ]
+}

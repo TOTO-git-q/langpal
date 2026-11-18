@@ -1,0 +1,188 @@
+{
+  "id": "reading-tfng",
+  "title": "事实判断　Identifying information · 练习",
+  "goal": "依据文章证据判断事实陈述。",
+  "skill": "阅读",
+  "exam": "雅思 IELTS Academic",
+  "points": [
+    {
+      "id": "locate",
+      "label": "定位陈述的原文依据"
+    },
+    {
+      "id": "scope",
+      "label": "核对数量与范围限定"
+    },
+    {
+      "id": "judge",
+      "label": "区分相反与信息不足"
+    }
+  ],
+  "sources": [
+    {
+      "id": "i2",
+      "title": "IELTS Academic: Reading test format",
+      "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+      "used": "阅读材料与题型"
+    },
+    {
+      "id": "syllabus",
+      "title": "雅思 IELTS Academic：课表",
+      "url": "docs/syllabi/ielts.md",
+      "used": "练习尺寸与知识点"
+    }
+  ],
+  "cards": [
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "小测",
+      "minutes": 12,
+      "pass": 0.75,
+      "points": [
+        "locate",
+        "scope",
+        "judge"
+      ],
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "label": "",
+              "look": "passage",
+              "text": "Passage 1: Measuring the Cooling Effect of Urban Trees\n\nP1\nA municipal research unit carried out a summer survey of surface temperature in a district where several streets were lined with mature trees. The unit's purpose was limited: to record how surface temperature differed between a tree-lined street and a nearby street with few trees, on selected afternoons in one season. The district was chosen because it contained both types of street within a short distance, so equipment could be carried between them on foot. The survey did not attempt to calculate the effect of trees on household energy use, nor did it estimate changes in air quality. Those questions were considered interesting but beyond the scope of the work. Before observations began, the team prepared a plan of each street showing road surface, pavement, building frontages and the positions of tree trunks. The plan recorded where instruments could be placed without blocking pedestrians. The unit stated that its results would describe the selected streets and afternoons, and would not represent the whole city.\n\nP2\nOn each visit, the team placed small temperature sensors at three fixed points along the tree-lined street and at three corresponding points on the comparison street. The sensors were mounted at a standard height above the pavement and were left in place for a fixed period before readings were taken. Readings were recorded at the same times of day on both streets. When heavy rain fell during an interval, that interval was excluded from the comparison and the reason was noted. The unit did not leave instruments in place overnight, and no permanent monitoring stations were installed. A notebook recorded any temporary obstruction, such as a parked delivery vehicle, that might alter the conditions at a measurement point. This record allowed the team to distinguish a genuine difference between streets from a disturbance at one point. Photographs of each position were kept alongside the written readings, but the photographs were treated as supporting records rather than as measurements.\n\nP3\nAt the end of the survey, the team combined the readings from the retained intervals. On the afternoons observed, surface temperature at the tree-lined points was generally lower than at the comparison points. The size of the difference varied from one visit to another, and the report presented the readings visit by visit rather than reducing them to a single figure. The team noted that the shade of the tree canopy moved during the afternoon and that a point shaded early in an interval was sometimes exposed by the end. This movement was described as a feature of the observations, not as a fault in the method. The number of pedestrians passing each point was not counted, and the report made no claim about how pleasant either street was to walk along. Visitors' opinions were outside the survey entirely.\n\nP4\nThe unit concluded that fixed measurement points, recorded times and clear exclusions could support a careful comparison between two selected streets. It also warned that the results should not be extended to other seasons, to other districts, or to questions about health or comfort. The report contained no assessment of the cost of planting or maintaining trees. It recommended that the marked plans and the visit-by-visit table be stored together, so that a later reader could check how each figure related to a particular point. A residents' group later used the plans when discussing where new benches might be placed, but that discussion was separate from the survey and would require information the survey did not collect. The study shows how a modest record can answer a narrow question while leaving wider questions open.",
+              "items": [
+                {
+                  "stem": "The survey compared surface temperature on a tree-lined street and on a nearby street with few trees. Enter TRUE, FALSE or NOT GIVEN.",
+                  "accept": [
+                    "TRUE"
+                  ],
+                  "why": "第一段明确说调查目的是记录有树街道与少树街道之间的地表温度差异。",
+                  "point": "locate"
+                },
+                {
+                  "stem": "The survey estimated how trees affected household energy use. Enter TRUE, FALSE or NOT GIVEN.",
+                  "accept": [
+                    "FALSE"
+                  ],
+                  "why": "第一段明确说调查没有计算树木对家庭能源使用的影响。",
+                  "point": "judge"
+                },
+                {
+                  "stem": "Sensors were placed at every point along both streets. Enter TRUE, FALSE or NOT GIVEN.",
+                  "accept": [
+                    "FALSE"
+                  ],
+                  "why": "第二段说在两条街各设三个固定点，并非每个点都放置。",
+                  "point": "scope"
+                },
+                {
+                  "stem": "Instruments were left in place overnight between visits. Enter TRUE, FALSE or NOT GIVEN.",
+                  "accept": [
+                    "FALSE"
+                  ],
+                  "why": "第二段明确说该单位没有把仪器整夜留在原地。",
+                  "point": "judge"
+                },
+                {
+                  "stem": "The report presented the temperature readings visit by visit. Enter TRUE, FALSE or NOT GIVEN.",
+                  "accept": [
+                    "TRUE"
+                  ],
+                  "why": "第三段说报告逐次呈现读数，而非归为单一数字。",
+                  "point": "locate"
+                },
+                {
+                  "stem": "The number of pedestrians was counted at each measurement point. Enter TRUE, FALSE or NOT GIVEN.",
+                  "accept": [
+                    "FALSE"
+                  ],
+                  "why": "第三段明确说没有统计经过各点的行人数量。",
+                  "point": "scope"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "label": "",
+              "look": "passage",
+              "text": "Passage 1: Recording Insects on a Heathland Edge\n\nP1\nA small survey examined insects along the edge of a heathland where open ground met a strip of scattered birch. The aim was limited: to record which groups of insects were present at selected positions during fine weather in one summer. The survey did not attempt to estimate the total number of insects in the heathland, nor did it compare this site with any other. Two transects were marked, each about forty metres long, running from the open heath into the birch strip. Eleven recording points were placed at regular intervals along each transect. The positions were chosen before the first visit and were not moved later, even where the vegetation made access awkward. A plan showed each point and the route between them. The organisers noted that the transects crossed ground used by walkers, and they chose early morning visits to reduce disturbance. No permission was sought to close any path, and no path was closed.\n\nP2\nRecording took place on eight mornings between June and August. Each visit began at the first point of one transect and ended at the last point of the other. Observers spent a fixed period at each point, watching a marked square of ground and the air immediately above it. Insects seen within that square were noted by group; individual species were not identified. Where an insect could not be assigned to a group with confidence, it was recorded as unidentified and kept separate from the group totals. The team did not collect specimens. A hand net was carried for occasional close inspection, but every insect caught was released at the point of capture. Wind speed was noted at the start of each visit. If the wind rose above the level set in the written instructions, recording stopped for that morning and the remaining points were left blank rather than estimated.\n\nP3\nOf the eight planned mornings, six produced complete records for both transects. On one morning, recording stopped after the fifth point of the first transect because of wind. On another, a sustained shower ended the visit before the second transect was reached. Both incomplete mornings were kept in the notebook with the reason stated. The summary table, however, used only the six complete mornings; the incomplete records were not averaged into the totals. This decision was made before the data were examined, so that a short record could not raise or lower a group's apparent frequency. The observers also agreed that a group seen at a point would be counted once for that point on that morning, even if several individuals were visible. This rule kept the records comparable between points, though it means the table does not show how many individuals were present.\n\nP4\nBeetles and true bugs were recorded at more points than any other group. Ants were frequent on the open heath but became less frequent within the birch strip. The reverse pattern was not found for any group: no group was recorded at more points inside the strip than on the open ground. Hoverflies appeared at a few points on both transects, mostly near flowering plants, but the survey did not test whether the flowers attracted them. The report states plainly that the records describe presence at marked points on selected mornings. It makes no claim that a group is absent from the heathland as a whole, since a group not seen at a point may simply have gone unobserved there. Nor does the report claim that the edge supports more insects than the interior; that question would require a different design. A local conservation group asked whether the birch strip should be extended. The report offered no recommendation on that matter, noting only that the survey was not designed to predict the effects of planting.\n\nP5\nThe organisers later published the point plan alongside the summary table, so that a reader could see where each record was made. They also kept the original notebooks, including the two incomplete mornings, and noted that these could be consulted by anyone wishing to check a particular entry. The survey is best read as a careful description of a small area on a few mornings. Its value lies in the visibility of its limits: fixed points, stated rules for counting, and a clear separation between what was observed and what was not.",
+              "items": [
+                {
+                  "stem": "The survey set out to estimate the total number of insects in the heathland. Enter TRUE, FALSE or NOT GIVEN.",
+                  "accept": [
+                    "FALSE"
+                  ],
+                  "why": "第一段明确说调查“没有试图估计石南荒地的昆虫总数”。",
+                  "point": "judge"
+                },
+                {
+                  "stem": "The recording points were moved when the vegetation made access difficult. Enter TRUE, FALSE or NOT GIVEN.",
+                  "accept": [
+                    "FALSE"
+                  ],
+                  "why": "第一段说各点位置事先选定，后来即使通行不便也没有移动。",
+                  "point": "judge"
+                },
+                {
+                  "stem": "Recording was completed on all eight planned mornings. Enter TRUE, FALSE or NOT GIVEN.",
+                  "accept": [
+                    "FALSE"
+                  ],
+                  "why": "第三段说八次中只有六次产生两条样线的完整记录，另两次因风或阵雨中断。",
+                  "point": "scope"
+                },
+                {
+                  "stem": "Insects that could not be identified to a group were added to the nearest group total. Enter TRUE, FALSE or NOT GIVEN.",
+                  "accept": [
+                    "FALSE"
+                  ],
+                  "why": "第二段说无法确定类群的昆虫记为“未识别”，并与各类群总数分开保存。",
+                  "point": "judge"
+                },
+                {
+                  "stem": "The summary table used only the six complete mornings. Enter TRUE, FALSE or NOT GIVEN.",
+                  "accept": [
+                    "TRUE"
+                  ],
+                  "why": "第三段明确说汇总表只采用六个完整的早晨，未把不完整记录平均进去。",
+                  "point": "locate"
+                },
+                {
+                  "stem": "The report recommends extending the birch strip. Enter TRUE, FALSE or NOT GIVEN.",
+                  "accept": [
+                    "FALSE"
+                  ],
+                  "why": "第四段说报告未就此事提出建议，并指出调查并非为预测种植效果而设计。",
+                  "point": "judge"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "more": {
+        "kind": "tfng",
+        "topics": [
+          "城市绿地",
+          "公共交通",
+          "图书馆服务",
+          "历史建筑",
+          "水资源",
+          "城市树木",
+          "社区设施",
+          "档案保存",
+          "生态观察",
+          "能源使用",
+          "学习空间",
+          "交通规划"
+        ]
+      }
+    }
+  ]
+}

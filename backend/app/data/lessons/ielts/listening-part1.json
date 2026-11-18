@@ -1,0 +1,41 @@
+{
+ "id":"listening-part1","title":"日常对话　Part 1 · 练习","goal":"从日常咨询对话中记录准确的表单信息。","skill":"听力","exam":"雅思 IELTS Academic",
+ "points":[{"id":"predict","label":"按栏目预测答案类别"},{"id":"confirm","label":"区分原安排与最终确认"},{"id":"spelling","label":"准确记录姓名与地址拼写"}],
+ "sources":[{"id":"syllabus","title":"雅思 IELTS Academic：课表","url":"docs/syllabi/ielts.md","used":"练习尺寸与知识点"},{"id":"listening","title":"IELTS Academic: Listening test format","url":"https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening","used":"听力任务的形式"}],
+ "cards":[{"id":"timed","type":"quiz","title":"小测","minutes":6,"pass":0.75,"points":["predict","confirm","spelling"],"sets":[
+  {"id":"set-a","groups":[{"audio":{"intro":"","lines":[
+   {"who":"A","text":"Good morning. I would like to register for one of the weekend pottery courses advertised at the community centre. Could you tell me a little about the arrangements before I give you my details?"},
+   {"who":"B","text":"Of course. We have a beginner group on Saturdays and another on Sundays. Both meet in the same studio, and all the basic equipment is included in the course fee."},
+   {"who":"A","text":"The Saturday group would suit me. I first thought I could start on the twelfth, but I have an appointment that morning. Is there still a place for the nineteenth?"},
+   {"who":"B","text":"Yes, there is one place left on the nineteenth. I'll put that date down. May I take your surname, please?"},
+   {"who":"A","text":"It is Merrin, spelled M E double R I N. My sister has a different spelling, so I always make sure people have the right one."},
+   {"who":"B","text":"Thank you. And which street do you live on? We send the joining information by post as well as by email, because it includes a map of the building."},
+   {"who":"A","text":"I live on Willow Street. There is also a Willow Road across town, so please make sure you write Street. My house number is fourteen."},
+   {"who":"B","text":"I've got that. The course costs eighty pounds in total, including materials. We ask for a deposit of twenty pounds when you book; the rest is due on the first day."},
+   {"who":"A","text":"That is fine. Is there anything I should bring? I have an apron at home, but I do not own any tools. I would prefer not to buy equipment until I know whether I enjoy the course."},
+   {"who":"B","text":"An apron is useful, and please bring a towel as well. We provide the tools. Your class starts at ten, and reception opens half an hour earlier. I'll send your confirmation today."}]},"items":[
+   {"stem":"Pottery course form. Write ONE WORD AND/OR A NUMBER. 1. Day of class: ____.","accept":["Saturday"],"why":"报名者选择周六班。","point":"predict"},
+   {"stem":"Pottery course form. Write ONE WORD AND/OR A NUMBER. 2. Starting date: the ____.","accept":["19th","19","nineteenth"],"why":"十二日不能参加，最后确认十九日。","point":"confirm"},
+   {"stem":"Pottery course form. Write ONE WORD AND/OR A NUMBER. 3. Surname: ____.","accept":["Merrin"],"why":"姓氏按字母拼作 Merrin。","point":"spelling"},
+   {"stem":"Pottery course form. Write ONE WORD AND/OR A NUMBER. 4. Address: 14 ____ Street.","accept":["Willow"],"why":"地址是 Willow Street。","point":"spelling"},
+   {"stem":"Pottery course form. Write ONE WORD AND/OR A NUMBER. 5. Deposit: £____.","accept":["20","twenty"],"why":"总费用是八十英镑，订金是二十英镑。","point":"confirm"},
+   {"stem":"Pottery course form. Write ONE WORD AND/OR A NUMBER. 6. Bring an apron and a ____.","accept":["towel"],"why":"工作人员要求另带毛巾。","point":"predict"}]}]},
+  {"id":"set-b","groups":[{"audio":{"intro":"","lines":[
+   {"who":"A","text":"Hello. I am looking for somewhere to store a bicycle near the railway station. I travel to work by train, and leaving the bicycle outside all day is not very convenient."},
+   {"who":"B","text":"We have a secure cycle store beside the station. Members receive a key card, so they can enter whenever the trains are running. Would you like me to register you?"},
+   {"who":"A","text":"Yes, please. I could begin on Monday, although I shall be away then. Actually, could the membership start on Tuesday instead? I would rather not pay for a day I cannot use."},
+   {"who":"B","text":"Certainly. I'll record Tuesday as your starting day. First I need your surname for the membership card and the receipt. Could you spell it for me?"},
+   {"who":"A","text":"It's Halden, H A L D E N. My first name is Sam. Do you need my home address as well, or is an email address enough?"},
+   {"who":"B","text":"We need your home address for our records, even if you choose to receive the receipt by email. You can change the address later if you move."},
+   {"who":"A","text":"The street is Beech Avenue, with double E in Beech. My building is number nine. I would like the receipt by email, please, if that is possible."},
+   {"who":"B","text":"Yes, that's fine. The monthly charge is twelve pounds, and there is a separate refundable card deposit of five pounds. You get the deposit back when you return the card."},
+   {"who":"A","text":"That sounds reasonable. I sometimes have a bag attached to the bicycle. Can I leave it there overnight, or does everything have to be removed at the end of the day?"},
+   {"who":"B","text":"Please take the bag with you. You may leave a helmet on the bicycle, though. I'll send the receipt now, and you can collect your card from the station office."}]},"items":[
+   {"stem":"Cycle store form. Write ONE WORD AND/OR A NUMBER. 1. The store is beside the ____.","accept":["station"],"why":"存车处位于车站旁。","point":"predict"},
+   {"stem":"Cycle store form. Write ONE WORD AND/OR A NUMBER. 2. Starting day: ____.","accept":["Tuesday"],"why":"最初提到周一，最后改为周二。","point":"confirm"},
+   {"stem":"Cycle store form. Write ONE WORD AND/OR A NUMBER. 3. Surname: ____.","accept":["Halden"],"why":"姓氏按字母拼作 Halden。","point":"spelling"},
+   {"stem":"Cycle store form. Write ONE WORD AND/OR A NUMBER. 4. Address: 9 ____ Avenue.","accept":["Beech"],"why":"街名 Beech 中有两个 e。","point":"spelling"},
+   {"stem":"Cycle store form. Write ONE WORD AND/OR A NUMBER. 5. Card deposit: £____.","accept":["5","five"],"why":"五英镑是卡的押金，十二英镑是月费。","point":"confirm"},
+   {"stem":"Cycle store form. Write ONE WORD AND/OR A NUMBER. 6. A ____ may be left on the bicycle.","accept":["helmet"],"why":"头盔可以留下，包需要带走。","point":"predict"}]}]}
+ ],"more":{"kind":"part1","topics":["陶艺课程报名","自行车寄存","游泳课程预约","短期住宿咨询","社区花园登记","乐器租借","会议室预订","图书馆会员","健身课程报名","车辆租赁","语言课程咨询","社区活动报名"]}}]
+}

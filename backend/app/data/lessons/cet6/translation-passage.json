@@ -1,0 +1,234 @@
+{
+  "id": "translation-passage",
+  "title": "汉译英 · 练习",
+  "goal": "先确定每句的主体、动作与限制信息。",
+  "skill": "writing",
+  "exam": "大学英语六级（CET-6）",
+  "points": [
+    {
+      "id": "meaning",
+      "label": "完整准确地传达原文信息"
+    },
+    {
+      "id": "structure",
+      "label": "按意义层次组织英文分句"
+    },
+    {
+      "id": "wording",
+      "label": "按语境选择准确的词语搭配"
+    }
+  ],
+  "sources": [
+    {
+      "id": "c1",
+      "title": "CET笔试",
+      "url": "https://cet.neea.edu.cn/html1/folder/16113/1586-1.htm",
+      "used": "题型与考试时间。"
+    },
+    {
+      "id": "c2",
+      "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+      "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+      "used": "材料长度、任务形式与总体评分标准。"
+    }
+  ],
+  "cards": [
+    {
+      "id": "rubric",
+      "type": "rubric",
+      "title": "翻译评分六档对照",
+      "src": "c2",
+      "levels": [
+        {
+          "score": 5,
+          "name": "13—15 分",
+          "summary": "准确传达原文意思，译文流畅，基本没有语言错误。",
+          "signs": [
+            "信息完整，限定范围和逻辑关系准确。",
+            "句子结构清楚，词语搭配自然。"
+          ]
+        },
+        {
+          "score": 4,
+          "name": "10—12 分",
+          "summary": "基本准确传达原文意思，译文通顺，只有个别语言错误。",
+          "signs": [
+            "主要信息准确，句间关系清楚。",
+            "少量错误不妨碍理解。"
+          ]
+        },
+        {
+          "score": 3,
+          "name": "7—9 分",
+          "summary": "勉强传达原文意思，连贯性较差，语言错误较多，包含一些严重错误。",
+          "signs": [
+            "部分信息含混或遗漏。",
+            "结构和用词错误影响连贯。"
+          ]
+        },
+        {
+          "score": 2,
+          "name": "4—6 分",
+          "summary": "只传达部分原文意思，句子组织不清，存在多处严重语言错误。",
+          "signs": [
+            "多个关键信息未译出或被改变。",
+            "多个句子难以理解。"
+          ]
+        },
+        {
+          "score": 1,
+          "name": "1—3 分",
+          "summary": "只传达零散信息，语言错误严重且频繁，难以读成完整意思。",
+          "signs": [
+            "仅有个别词语对应原文。",
+            "难以辨认完整句意。"
+          ]
+        },
+        {
+          "score": 0,
+          "name": "0 分",
+          "summary": "没有可评定的相关英文译文。",
+          "signs": [
+            "空白、只抄中文或内容与原文无关。"
+          ]
+        }
+      ],
+      "takeaways": [
+        {
+          "t": "意义对应",
+          "d": "先核对原文信息、限定范围和逻辑关系，再检查句子与搭配。"
+        },
+        {
+          "t": "分句依据",
+          "d": "可以按英文表达需要拆句或合句，不以句数相同代替信息完整。"
+        }
+      ]
+    },
+    {
+      "id": "marking",
+      "type": "marking",
+      "title": "批改单：每次都按这个格式给",
+      "format": [
+        {
+          "t": "一、题目的要求",
+          "d": "逐条核对完成情况，并引用作答原句。"
+        },
+        {
+          "t": "二、分数档",
+          "d": "按整体表现选择最接近的档位，并说明依据。"
+        },
+        {
+          "t": "三、必改的地方",
+          "d": "最多列五处实际语言错误，给出原句、改句和规则。"
+        },
+        {
+          "t": "四、升一档",
+          "d": "选一至两句补足细节或改准表达；满档作答不另改写。"
+        }
+      ],
+      "rules": "按整体评分描述判断，不将三项课程能力换算为官方分项分数。0—5 为依次对应六个评分档的课程记录值，不是六级报道分。只依据作答给出评语，不评价写作者。",
+      "example": {
+        "about": "剪纸段落：保留限定范围并改正主谓一致。",
+        "coverage": [
+          {
+            "bullet": "Translate the complete meaning of the passage.",
+            "verdict": "做了但太薄",
+            "quote": "Every artist folds the paper before cutting.",
+            "note": "原文限定为部分艺人，不能改为全部。"
+          },
+          {
+            "bullet": "Organize the English sentences clearly.",
+            "verdict": "做到了",
+            "quote": "People put paper cuttings on windows during festivals.",
+            "note": "主体、动作和时间关系清楚。"
+          },
+          {
+            "bullet": "Use accurate words and natural collocations.",
+            "verdict": "做了但太薄",
+            "quote": "Paper cuttings expresses wishes for a good life.",
+            "note": "复数主语与谓语形式不一致。"
+          }
+        ],
+        "score": 3,
+        "reason": "部分原意被扩大，语言错误影响准确性。",
+        "fixes": [
+          {
+            "from": "Paper cuttings expresses wishes",
+            "to": "Paper cuttings express wishes",
+            "rule": "复数主语用动词原形。"
+          }
+        ],
+        "upgrade": {
+          "from": "Every artist folds the paper before cutting.",
+          "to": "Some artists fold the paper before cutting along the outlines.",
+          "why": "恢复原文的部分范围，并补回沿轮廓剪制的动作。"
+        },
+        "next": ""
+      }
+    },
+    {
+      "id": "timed",
+      "type": "write",
+      "title": "限时写作",
+      "minutes": 30,
+      "points": [
+        "meaning",
+        "structure",
+        "wording"
+      ],
+      "more": {
+        "kind": "translation-passage",
+        "topics": [
+          "传统园林的空间安排",
+          "剪纸的制作与传承",
+          "茶叶的加工与饮用",
+          "竹编的材料与工序",
+          "书法练习与工具",
+          "传统节日的家庭活动",
+          "公共图书馆的服务",
+          "社区公共空间",
+          "老建筑的维护",
+          "乡村道路与运输",
+          "手工技艺的教学",
+          "城市公园的日常维护"
+        ]
+      },
+      "tasks": [
+        {
+          "id": "set-a",
+          "purpose": "翻译剪纸的制作、用途与传承。",
+          "setting": "剪纸是中国民间的一种传统艺术，常用纸张和剪刀把日常生活中的事物转化为装饰图案。制作时，有的艺人先将纸折叠，再沿着轮廓剪出花鸟或人物，使展开后的图案呈现对称之美。节日期间，人们常把剪纸贴在窗户或门上，表达对美好生活的祝愿。不同地区的作品在题材和风格上各有特点，并不使用完全相同的图案。学习这门技艺不仅需要掌握工具的使用，还要理解图案与当地习俗之间的联系。通过示范和亲手练习，年轻人能够逐渐体会其中的设计方法，并在传统基础上创作新作品。",
+          "lead": "Translate the following passage into English in 30 minutes.",
+          "bullets": [
+            "Translate the complete meaning of the passage.",
+            "Organize the English sentences clearly.",
+            "Use accurate words and natural collocations."
+          ],
+          "must": [
+            "保留剪纸的材料、折叠剪制、节日用途、地区差异及传承方式；不把部分艺人的做法扩大为所有作品的规则。",
+            "按制作、使用、差异和学习的意义层次组织分句，允许合理拆句或合句，不要求中英句数相同。",
+            "准确表达剪纸、轮廓、对称、祝愿和技艺等含义，词语搭配自然，不加原文没有的评价。"
+          ],
+          "model": "Paper cutting is a traditional Chinese folk art that commonly uses paper and scissors to turn objects from everyday life into decorative patterns. Some artists first fold the paper and then cut along outlines to create flowers, birds or human figures, so that the unfolded design displays the beauty of symmetry. During festivals, people often attach paper cuttings to windows or doors to express their wishes for a good life. Works from different regions have distinctive subjects and styles rather than using exactly the same patterns. Learning this craft requires not only skill in using the tools but also an understanding of the connection between the designs and local customs. Through demonstrations and practical experience, young people can gradually understand its design methods and create new works based on tradition."
+        },
+        {
+          "id": "set-b",
+          "purpose": "翻译传统园林的空间组织与观赏方式。",
+          "setting": "中国传统园林重视建筑与自然景物的配合，常在有限的空间里安排水面、山石和植物。游人沿着曲折的小路前行，眼前景象随之变化，因此不必立即看清整个园子。墙上的窗洞有时像画框，把远处的竹子或石头纳入眼前的画面。亭子既供人停留休息，也能成为从另一处观赏的景物，具有使用和构景的双重作用。园林中的植物随季节改变颜色和形态，使同一条路线在不同时间呈现不同的感受。理解这些安排，有助于游人在欣赏景色时注意各部分之间的联系，而不只是逐一观看孤立的建筑。",
+          "lead": "Translate the following passage into English in 30 minutes.",
+          "bullets": [
+            "Translate the complete meaning of the passage.",
+            "Organize the English sentences clearly.",
+            "Use accurate words and natural collocations."
+          ],
+          "must": [
+            "完整保留有限空间中的配置、移动视角、框景、亭子的双重作用、季节变化及整体观赏的联系。",
+            "区分景物安排、游人观察和植物变化的主体，按因果与并列关系合理分句，不照搬中文逗号。",
+            "准确表达曲折小路、窗洞、亭子、构景和孤立建筑，保持同一对象的称谓一致。"
+          ],
+          "model": "Traditional Chinese gardens emphasize the combination of architecture and natural scenery, often arranging water, rocks and plants within a limited space. As visitors follow winding paths, the views before them change, so they do not need to see the entire garden immediately. Openings in walls sometimes act like picture frames, bringing distant bamboo or rocks into the scene before the viewer. Pavilions provide places to pause and rest while also forming part of the view from elsewhere, serving both practical and compositional purposes. The plants in a garden change color and form with the seasons, giving visitors different impressions of the same route at different times. Understanding these arrangements helps visitors notice the relationships among the various elements as they enjoy the scenery, rather than simply viewing isolated buildings one by one."
+        }
+      ]
+    }
+  ]
+}

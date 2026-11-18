@@ -1,0 +1,326 @@
+{
+ "id": "reading-sentence-method",
+ "title": "阅读句子填空",
+ "goal": "匹配题干与原文，提取能完整填入句子的原词。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "locate",
+   "label": "匹配题干与原文的对应信息"
+  },
+  {
+   "id": "extract",
+   "label": "提取能完整填入句子的原词"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "雅思 IELTS Academic：课表",
+   "url": "docs/syllabi/ielts.md",
+   "used": "课程范围与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "阅读句子填空要求从原文取出词语，补全题目中的句子。答案不超过题面规定的词数，词形与原文相同。"
+    },
+    {
+     "box": "The cover reduced evaporation.\nThe cover reduced _____. ONE WORD ONLY.\nAnswer: evaporation"
+    },
+    {
+     "p": "空格需要 reduced 的宾语，evaporation 取自原文并使句意完整。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　判断所需成分",
+     "d": "根据空格前后的结构确定所需名词、动词或修饰语。a _____ cover 需要能修饰 cover 的词。"
+    },
+    {
+     "t": "2　定位对应信息",
+     "d": "用题干中的对象和关系在原文中找到对应的句子。题干的 slowed water loss 对应原文的 reduced evaporation。"
+    },
+    {
+     "t": "3　提取原词",
+     "d": "从原文取出能使句意完整的最短词语。a mesh cover 中的 mesh 说明 cover 的材料，不能省去。"
+    },
+    {
+     "t": "4　回填核对",
+     "d": "把答案填回题干，读一遍完整的句子。核对词形、句意和词数限制。题干已有的词不再重复填写。"
+    }
+   ]
+  },
+  {
+   "id": "relations",
+   "type": "table",
+   "title": "定义、比较与因果",
+   "cols": [
+    "关系",
+    "原文",
+    "题干对应"
+   ],
+   "rows": [
+    [
+     "定义",
+     "A gauge is an instrument for measuring pressure.",
+     "A gauge measures pressure."
+    ],
+    [
+     "比较",
+     "The wooden lid was heavier than the cloth cover.",
+     "The cloth cover was lighter than the wooden lid."
+    ],
+    [
+     "原因",
+     "Leaves blocked the channel, delaying the flow.",
+     "The flow was delayed by leaves."
+    ],
+    [
+     "结果",
+     "The cover reduced evaporation from the tank.",
+     "The cover reduced evaporation."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A fine mesh cover kept leaves out of the channel. It allowed rainwater to pass into the tank.\n\nThe cover was made of _____. ONE WORD ONLY."
+    },
+    {
+     "p": "原文 fine mesh cover 中，mesh 是材料，答案是 mesh。fine 只说明网孔细密，填入后看不出材料。"
+    }
+   ]
+  },
+  {
+   "id": "errors",
+   "type": "table",
+   "title": "常见错误",
+   "cols": [
+    "错误",
+    "原文与题干",
+    "正确做法"
+   ],
+   "rows": [
+    [
+     "漏修饰词",
+     "a clay lid；a _____ lid",
+     "填 clay，它说明盖子的材料。"
+    ],
+    [
+     "改变词形",
+     "the valves closed；the _____ closed",
+     "照原文写复数 valves。"
+    ],
+    [
+     "重复已给成分",
+     "a wooden handle；a _____ handle",
+     "填 wooden，不重复 handle。"
+    ],
+    [
+     "替换为同义词",
+     "a stone wall；a _____ wall",
+     "填原词 stone，不换成 rock。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "locate",
+    "extract"
+   ],
+   "groups": [
+    {
+     "text": "A pressure gauge measured the force inside the pipe.",
+     "items": [
+      {
+       "stem": "The gauge measured the _____ inside the pipe. ONE WORD ONLY.",
+       "accept": [
+        "force"
+       ],
+       "why": "measured the force 给出测量对象。",
+       "point": "locate"
+      }
+     ]
+    },
+    {
+     "text": "The wooden lid was heavier than the cloth cover.",
+     "items": [
+      {
+       "stem": "The cloth cover was lighter than the _____ lid. ONE WORD ONLY.",
+       "accept": [
+        "wooden"
+       ],
+       "why": "题干把 heavier than 改成 lighter than，两个比较对象对调。空格修饰 lid，原文是 wooden lid。",
+       "point": "locate"
+      }
+     ]
+    },
+    {
+     "text": "Fine sand blocked the narrow inlet and slowed the flow.",
+     "items": [
+      {
+       "stem": "The flow slowed because _____ blocked the inlet. ONE WORD ONLY.",
+       "accept": [
+        "sand"
+       ],
+       "why": "sand blocked the narrow inlet 给出原因。",
+       "point": "extract"
+      }
+     ]
+    },
+    {
+     "text": "The valves closed when the water level rose.",
+     "items": [
+      {
+       "stem": "The _____ closed when the water level rose. ONE WORD ONLY.",
+       "accept": [
+        "valves"
+       ],
+       "why": "原文主语是复数 valves，答案照写复数。",
+       "point": "extract"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "locate",
+    "extract"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A workshop collected rainwater in a tank. A metal screen stopped leaves entering the channel. A wooden cover reduced evaporation from the tank. The workers checked both the screen and the cover after heavy rain. They recorded each inspection in a notebook kept beside the workshop door.",
+     "items": [
+      {
+       "stem": "The screen stopped _____ entering the channel. ONE WORD ONLY.",
+       "accept": [
+        "leaves"
+       ],
+       "why": "stopped leaves entering the channel 给出被阻挡的物体。",
+       "point": "locate"
+      },
+      {
+       "stem": "The _____ cover reduced evaporation. ONE WORD ONLY.",
+       "accept": [
+        "wooden"
+       ],
+       "why": "A wooden cover reduced evaporation 指出盖子的材料。",
+       "point": "extract"
+      },
+      {
+       "stem": "Workers recorded inspections in a _____. ONE WORD ONLY.",
+       "accept": [
+        "notebook"
+       ],
+       "why": "recorded each inspection in a notebook 指出记录位置。",
+       "point": "extract"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "locate",
+    "extract"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A small research garden studied how water moved through several kinds of soil. The team filled identical containers with separate soil samples. Each container had an opening at the bottom and was placed above a collecting vessel. Before adding water, the researchers weighed the dry samples. They then poured the same volume of water onto each surface and observed how quickly liquid appeared below. The aim was to compare the samples under the same procedure, not to describe every soil in the region.\n\nOne container held coarse sand. Water passed through it quickly and collected in a glass vessel. A second container held fine clay, through which the water moved more slowly. The difference was visible during the observation period, although the team did not assume that particle size was the only factor affecting movement. The soil samples had been prepared separately, and their earlier moisture histories were recorded in the laboratory notebook.\n\nThe researchers used a balance to weigh each vessel after collection. This measurement helped them compare the amount of water that had passed through each sample. They also noted that some water remained in the soil. A lid was placed on each collecting vessel to reduce evaporation before weighing. The lid was removed only when a vessel was placed on the balance. The procedure reduced one possible source of variation, while the written record allowed the measurements to be checked later. The team retained all the weighing records for later comparison. Additional samples would be needed before applying the results to other conditions.",
+       "items": [
+        {
+         "stem": "The soil samples were weighed before the researchers added _____. ONE WORD ONLY.",
+         "accept": [
+          "water"
+         ],
+         "why": "Before adding water, the researchers weighed the dry samples 给出先后顺序。",
+         "point": "locate"
+        },
+        {
+         "stem": "Water passing through the sand collected in a _____ vessel. ONE WORD ONLY.",
+         "accept": [
+          "glass"
+         ],
+         "why": "collected in a glass vessel 指出收集容器的材料。",
+         "point": "extract"
+        },
+        {
+         "stem": "The researchers used a _____ to weigh the collecting vessels. ONE WORD ONLY.",
+         "accept": [
+          "balance"
+         ],
+         "why": "used a balance to weigh each vessel 给出称量工具。",
+         "point": "extract"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A town library organised a collection of handwritten notes about a disused footpath. Some notes described the route, while others recorded repairs. The documents had been gathered over many years and were stored in several different folders. Before making a catalogue, staff recorded the condition and location of every sheet. They also noted whether a date appeared on the sheet itself. A date written on a folder could reflect the date of collection rather than the date of a document.\n\nThe earliest dated note described a wooden bridge across a stream. A later account referred to a stone crossing at the same point. Neither document identified the exact year in which the replacement occurred. Staff therefore listed the change between the two dated accounts rather than assigning it to a single year. A sketch stored with the later account showed the stream and crossing, but carried no date of its own.\n\nTo help visitors compare the documents, a volunteer made a digital copy of each sheet. The copies could be enlarged on a screen, making small handwriting easier to read without repeated handling of the originals. The original sheets remained in protective folders. A short index connected each copy to its catalogue entry. Staff retained the earlier folder labels in the record as well, because they provided information about how the collection had been assembled. The library planned to add new entries if further documents became available, but the index did not claim that the collection described every repair made to the path.",
+       "items": [
+        {
+         "stem": "The earliest dated note described a _____ bridge. ONE WORD ONLY.",
+         "accept": [
+          "wooden"
+         ],
+         "why": "a wooden bridge across a stream 指出桥的材料。",
+         "point": "locate"
+        },
+        {
+         "stem": "The later account referred to a _____ crossing. ONE WORD ONLY.",
+         "accept": [
+          "stone"
+         ],
+         "why": "a stone crossing at the same point 给出后来的过河设施。",
+         "point": "locate"
+        },
+        {
+         "stem": "The copies could be enlarged on a _____. ONE WORD ONLY.",
+         "accept": [
+          "screen"
+         ],
+         "why": "The copies could be enlarged on a screen 说明在哪里放大查看。",
+         "point": "extract"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

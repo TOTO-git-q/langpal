@@ -1,0 +1,69 @@
+{
+ "id": "reading-choice-main",
+ "title": "主旨与写作目的选择",
+ "goal": "概括文章核心论述并判断写作目的。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "mainidea", "label": "概括全文的核心论述"},
+  {"id": "purpose", "label": "判断作者组织材料的目的"}
+ ],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "主旨与写作目的选择的教学内容"}],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "主旨题询问全文的核心论述。作者立场题询问作者对论题的主要判断。"},
+   {"p": "写作目的题询问作者组织材料所要完成的任务，例如解释现象、比较方案或反驳观点。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　判断问法", "d": "Main idea 指核心论述，author's view 指作者立场。Purpose 指文章的写作目的。"},
+   {"t": "2　概括段落", "d": "找出各段中心句，概括每段的作用。例子用于支持论述，不能代替全文中心。"},
+   {"t": "3　合并中心", "d": "比较段落之间的联系，概括覆盖全文的范围。对比两个方案时，中心应包括两者。"},
+   {"t": "4　核对选项", "d": "检查对象、范围及目的动词。Explain a pattern 与 recommend a policy 的任务不同。"}
+  ]},
+  {"id": "questions", "type": "table", "title": "主旨与目的", "cols": ["问法", "题干", "依据"], "rows": [
+   ["全文主题", "What is the main idea?", "合并各段核心论述"],
+   ["作者立场", "What is the writer's view?", "寻找作者明确判断"],
+   ["解释现象", "Why does this pattern occur?", "现象及其解释"],
+   ["比较方案", "What is the writer's purpose?", "并列方案及比较维度"],
+   ["反驳观点", "What is the writer's purpose?", "被质疑的主张与反证"]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [
+   {"box": "Some people assume a quieter street always has fewer vehicles. Yet a smooth road surface can reduce the noise made by each passing vehicle. A count is needed to establish the number of vehicles.\nWhat is the writer's main purpose?\n1. To question an assumption about traffic and noise\n2. To propose closing every quiet street to vehicles\n3. To explain why vehicle counts create road noise\n4. To show how a smooth surface reduces vehicle noise"},
+   {"p": "原文先提出噪声与车辆数的假设，再说明路面也影响噪声。第一项概括了质疑这一假设的目的。第四项只说了路面这个例子。"}
+  ]},
+  {"id": "distractors", "type": "table", "title": "干扰项", "cols": ["情况", "例", "核对"], "rows": [
+   ["范围过大", "all urban transport", "原文只讨论街道噪声"],
+   ["例子代替主旨", "one smooth surface", "路面是支持例子"],
+   ["目的错误", "close quiet streets", "原文在检验假设"],
+   ["立场倒置", "noise proves traffic volume", "作者要求另行计数"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["mainidea", "purpose"], "groups": [
+   {"text": "A wet pavement can look dark because water alters how light leaves its surface. The colour change need not mean that the paving material itself has changed.", "items": [{"stem": "What is the main idea?", "options": ["Wet paving turns dark because its material changes.", "Wet paving may look dark with its material unchanged.", "Water makes paving material permanently darker.", "Dry paving looks darker because of how light leaves it."], "answer": 1, "why": "原文用光解释湿路面变暗，并说 need not mean that the paving material itself has changed，即第二项。", "point": "mainidea"}]},
+   {"text": "Hand-written records are slow to search but can contain detailed notes. Digital records are easier to search, although conversion requires checking.", "items": [{"stem": "What is the writer's purpose?", "options": ["To claim all handwritten notes are inaccurate", "To argue that digital records should replace paper", "To compare the strengths and limits of two formats", "To show that checking is unnecessary for conversion"], "answer": 2, "why": "原文分别说明手写记录和数字记录的长处与不足，目的是比较两者，即第三项。", "point": "purpose"}]},
+   {"text": "Some claim that every garden needs the same amount of water. Soil and exposure differ, so a single watering schedule may not fit all gardens.", "items": [{"stem": "What is the writer's view?", "options": ["A common watering schedule suits every garden.", "Gardens with the same soil need the same watering.", "Soil differences can be ignored when watering.", "Watering schedules should reflect local conditions."], "answer": 3, "why": "依据是 Soil and exposure differ, so a single watering schedule may not fit all gardens。作者认为浇水安排应随土壤和朝向调整，即第四项。", "point": "mainidea"}]},
+   {"text": "A bell can sound different from nearby and far away. Distance affects which parts of the sound are easiest to hear.", "items": [{"stem": "What is the writer's purpose?", "options": ["To explain why a sound varies with distance", "To argue that a bell sounds the same at any distance", "To compare the sounds of several different bells", "To show that distant listeners hear every part of a sound"], "answer": 0, "why": "原文先说钟声远近听起来不同，再用 Distance affects which parts of the sound are easiest to hear 解释原因，即第一项。", "point": "purpose"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["mainidea", "purpose"], "groups": [{
+   "text": "A town considered keeping a collection of plans in drawers or hanging them vertically. Drawers protect flat sheets from bending but take floor space. Hanging saves some floor space, although suitable supports are needed. The choice depends on both the space available and the condition of the plans.",
+   "items": [
+    {"stem": "What is the main idea?", "options": ["Drawers are best because they stop sheets bending.", "Available space is irrelevant to storing plans.", "Storage choices depend on space and condition.", "Hanging plans removes the need for supports."], "answer": 2, "why": "依据是末句 The choice depends on both the space available and the condition of the plans，即第三项。", "point": "mainidea"},
+    {"stem": "What is the writer's main purpose?", "options": ["To compare two ways of keeping the plans", "To explain how hanging saves floor space", "To argue that drawers always damage sheets", "To recommend hanging every damaged plan"], "answer": 0, "why": "文章对照抽屉与悬挂两种存放方式的长处和条件，即第一项。第二项只是其中一种方式的长处。", "point": "purpose"}
+   ]
+  }]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["mainidea", "purpose"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "Two methods of recording the use of a public square can produce different kinds of evidence. A count at the entrance shows how many people pass a particular point. A survey can ask visitors what they came to do. Each method answers a different question, so choosing between them depends on the information required. A count alone cannot reveal a visitor's purpose, while a survey of volunteers does not automatically establish the number of people using the square.\n\nAn entrance count can be repeated at different times. It can show when movement through that entrance is busier or quieter. However, a person who enters more than once may be counted more than once. If the square has several entrances, a count at one of them also leaves the others unmeasured. These features matter when a count is used to describe activity across the whole site. The count is still useful when the question concerns movement at the observed entrance.\n\nA survey can collect reasons for a visit and descriptions of activities. Its results depend on who is asked and who agrees to respond. A researcher may combine a survey with counts, but should keep the two sets of findings distinct. The count provides information about movement; the survey provides reported purposes. Neither replaces the other. A well-framed study begins by deciding whether it needs numbers, reasons or both, then selects a method whose evidence can support that aim. Combining methods can be useful when the limits of each remain visible in the final report.",
+    "items": [
+     {"stem": "What is the main idea of the passage?", "options": ["Surveys should replace every count at a public square.", "Different methods answer different questions about square use.", "Entrance counts always establish each visitor's purpose.", "A count at one entrance measures activity across the square."], "answer": 1, "why": "全文比较入口计数和调查各自能回答的问题，以及各自的限制，即第二项。", "point": "mainidea"},
+     {"stem": "What is the writer's main purpose?", "options": ["To explain why all surveys count every visitor", "To argue that entrance counts are useless", "To compare two approaches to studying square use", "To show when the square's entrances are busiest"], "answer": 2, "why": "文章逐段说明计数与调查的用途和局限，目的是比较两种方法，即第三项。", "point": "purpose"},
+     {"stem": "Which view does the writer support?", "options": ["A single entrance count describes every entrance equally.", "A survey can replace the need to define a question.", "A method's limitations disappear when methods are combined.", "A study should match its methods to its questions."], "answer": 3, "why": "依据是 A well-framed study begins by deciding whether it needs numbers, reasons or both。作者主张先确定所需信息，再选方法，即第四项。", "point": "mainidea"}
+    ]},
+   {"look": "passage", "text": "A tree that loses its leaves is sometimes described as inactive for the rest of the year. This description overlooks changes that continue even when the branches appear bare. The absence of leaves changes what can be seen from outside, but it does not by itself show that all activity within the tree has stopped. A visible feature is not a complete account of the whole organism.\n\nBuds on a bare branch contain structures that may later develop into new growth. Their presence can be observed before leaves unfold. Roots also remain part of the living tree, although their activity varies with conditions such as temperature and water availability. A person looking only at the branches may not see what is happening below ground. The fact that a process is hidden makes it difficult to observe; it does not establish that the process is absent.\n\nThe distinction matters when observations are used as evidence. A photograph of a bare branch can support a statement about the absence of visible leaves at that moment. It cannot alone establish the rate of activity in the roots or predict the timing of later growth. To answer those questions, observations must address the particular structure and period being studied. The bare branch is a useful piece of evidence, but it has a limited scope. Treating it as evidence of complete inactivity extends the observation beyond what it can show. A careful description separates visible features from claims about processes that have not been measured.",
+    "items": [
+     {"stem": "What is the main idea of the passage?", "options": ["A bare branch alone cannot establish complete inactivity.", "All roots grow at an identical rate throughout the year.", "A photograph can determine the exact date of leaf growth.", "Buds prove that new leaves are already growing on bare trees."], "answer": 0, "why": "文章以芽和根为例，说明光秃的枝条证明不了整棵树完全不活动，即第一项。", "point": "mainidea"},
+     {"stem": "What is the writer's main purpose?", "options": ["To describe the structures found inside tree buds", "To argue that photographs are useless as evidence", "To explain how roots respond to temperature and water", "To challenge an assumption based on bare branches"], "answer": 3, "why": "首段提出 described as inactive 这一说法，随后指出它 overlooks changes。全文在质疑这个假设，即第四项。", "point": "purpose"},
+     {"stem": "Which view does the writer express about a photograph?", "options": ["It reveals all root activity at precisely the same moment.", "It supports claims about visible features at that time.", "It measures how fast buds later develop.", "It predicts the exact timing of new leaf growth."], "answer": 1, "why": "依据是 A photograph of a bare branch can support a statement about the absence of visible leaves at that moment，即第二项。", "point": "mainidea"}
+    ]}
+  ]}]}
+ ]
+}

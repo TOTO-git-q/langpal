@@ -1,0 +1,443 @@
+{
+ "id": "listening-talk-organization",
+ "title": "组织结构题",
+ "goal": "找到例子所说明的观点；判断某个例子或某句话的功能。",
+ "skill": "listening",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 听力",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "claim",
+   "label": "找到例子所说明的观点"
+  },
+  {
+   "id": "function",
+   "label": "判断某个例子或某句话的功能"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、录音长度、只放一遍"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "各题型的说明、考查的能力、官方样题"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Listening Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-listening.pdf",
+   "used": "第 1 课：四类题的说明和小测答案；第 2、4 课：应答配对、重音和语调"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "组织结构题问一个例子或一句话在讲述中的作用。Why does the speaker mention an umbrella? 问的是雨伞在这里引入、说明、对比还是反驳了哪个观点，不是雨伞有什么特征。"
+    },
+    {
+     "box": "Why does the speaker mention …?\nWhat point does the example illustrate?\nHow does the comparison help explain the topic?"
+    },
+    {
+     "p": "作用由上下文决定。同一个雨伞的例子，可以用来引出防水材料，也可以用来反驳完全不透水的说法。只看物品名称定不了答案。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　找出例子前后的观点",
+     "d": "把例子和前一句的概括、后一句的解释连起来。A small test may miss rare defects. Imagine checking only one umbrella. 这里的例子说明检查的范围太小。"
+    },
+    {
+     "t": "2　判断逻辑关系",
+     "d": "分清三种关系：举例支持一个观点，对比两种情况，反驳前面的说法。Unlike cloth, this coating repels water. 是对比，不一定是反驳。"
+    },
+    {
+     "t": "3　选择作用加内容",
+     "d": "正确选项说出作用，也说出这个作用服务的观点。To illustrate a limit of testing 回答了 mention 的问法，To describe an umbrella 只复述了例子。"
+    }
+   ]
+  },
+  {
+   "id": "functions",
+   "type": "table",
+   "title": "例子的功能",
+   "cols": [
+    "功能",
+    "说明",
+    "例句"
+   ],
+   "rows": [
+    [
+     "引入",
+     "先给情境，后命名概念",
+     "A bent straw in water introduces refraction."
+    ],
+    [
+     "举例",
+     "用具体情况支持一个一般的观点",
+     "A ruler can expand slightly when warmed, illustrating thermal expansion."
+    ],
+    [
+     "对比",
+     "两种情况放在一起，突出差别",
+     "Unlike a smooth wall, an uneven surface scatters reflected sound."
+    ],
+    [
+     "反驳",
+     "用证据说明前面的断言不成立",
+     "The claim says all metals are magnetic, yet this copper piece isn't attracted."
+    ],
+    [
+     "说明条件",
+     "同一现象随条件改变",
+     "The powder dissolves faster when the water is stirred."
+    ],
+    [
+     "限定结论",
+     "例子缩小前面结论的适用范围",
+     "This fabric sheds droplets, but water enters through the seam."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A large survey can still give a misleading picture if its participants come from a narrow group. Imagine asking only members of a running club how often adults exercise. Even a long list of answers would describe people who already choose to run. The problem isn't simply the number of responses. It's how the respondents were selected."
+    },
+    {
+     "box": "Why does the speaker mention a running club?\n1. To recommend a larger club survey\n2. To illustrate a problem with selecting respondents\n3. To compare running with other forms of exercise\n4. To establish how often all adults exercise"
+    },
+    {
+     "p": "例子前的观点是：participants come from a narrow group 时，调查可能失真。第二项的 selecting respondents 概括了后文的 how the respondents were selected。例子的作用是举例说明。"
+    },
+    {
+     "p": "第一项忽略了 The problem isn't simply the number of responses。第三项把例子里的跑步当成了比较的话题。第四项把例子所质疑的概括当成了讲者的结论。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "复述例子",
+     "To describe adults who choose to run",
+     "只复述例子，没说出取样问题"
+    ],
+    [
+     "反转作用",
+     "To prove that large surveys are always reliable",
+     "例子说明大样本也可能不可靠"
+    ],
+    [
+     "改换观点",
+     "To show running is better than other exercise",
+     "原文没有比较各种运动"
+    ],
+    [
+     "混淆条件",
+     "To show that every small survey is misleading",
+     "原文批评的是受访者的来源，不是人数"
+    ]
+   ]
+  },
+  {
+   "id": "check-short",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "function",
+    "claim"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A familiar smell may be noticed when someone enters a room and then become less noticeable. This introduces sensory adaptation, a reduced response to a continuing stimulus. The smell need not have disappeared."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why does the speaker describe entering a room?",
+       "options": [
+        "To introduce adaptation through an everyday experience",
+        "To attribute the weaker smell to a change in the room",
+        "To compare the effects of different odors on adaptation",
+        "To establish how quickly a smell leaves an enclosed space"
+       ],
+       "answer": 0,
+       "why": "依据是 This introduces sensory adaptation，开场的经历用来引出概念，即第一项。第二项把感觉减弱说成房间起了变化，与 The smell need not have disappeared 不符。",
+       "point": "function"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "An extra support can make a structure less dependent on one part. For example, a shelf with two independent brackets may remain partly supported if one bracket fails. The example concerns backup support, not the shelf's appearance."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What point does the shelf example illustrate?",
+       "options": [
+        "The appearance of a shelf reveals its remaining strength.",
+        "Two brackets prevent either support from failing.",
+        "A second support can serve as a backup if one bracket fails.",
+        "Independent supports share a load in equal amounts."
+       ],
+       "answer": 2,
+       "why": "观点是 An extra support can make a structure less dependent on one part，第三项用 backup 概括了它。第二项说托架不会坏，原文只说 may remain partly supported。",
+       "point": "claim"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "It's tempting to judge a lamp's efficiency by its brightness alone. But two lamps can produce similar light while using different amounts of electricity. The comparison shows why output must be considered together with energy input."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is the function of the comparison?",
+       "options": [
+        "To link similar brightness with similar energy consumption",
+        "To question a judgment based only on brightness",
+        "To explain why electricity consumption determines brightness alone",
+        "To recommend comparing energy input without considering light output"
+       ],
+       "answer": 1,
+       "why": "two lamps can produce similar light while using different amounts of electricity 质疑只看亮度判断效率的做法，即第二项。",
+       "point": "function"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A printed map stays the same until a new edition is produced. A digital map can be revised without printing it again. Both can contain errors. The difference here is the way revisions are distributed."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which point is supported by the two map examples?",
+       "options": [
+        "Changing a digital map also verifies the accuracy of its content.",
+        "A new printed edition reaches users as quickly as a digital revision.",
+        "The medium of a map determines which places need correction.",
+        "Corrections to the two maps reach users through different processes."
+       ],
+       "answer": 3,
+       "why": "依据是 The difference here is the way revisions are distributed。第四项用 corrections 和 processes 改写了这句。",
+       "point": "claim"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-talk",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "claim",
+    "function"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A restoration can preserve a damaged artwork while also making later study more difficult. Suppose a repair covers an old break so completely that no one can identify where the original surface ends. The object may look more complete, but evidence about its history has become less accessible. That's why a restorer may document each repair and use materials that can later be removed where practical. A visible record doesn't mean the repair has failed. It allows another specialist to distinguish the original work from the intervention."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What does the example of a covered break illustrate?",
+       "options": [
+        "A visible repair necessarily damages an artwork's historical value.",
+        "A complete-looking repair can obscure historical evidence.",
+        "A repaired surface gives better access to the object's earlier history.",
+        "Removable materials make a record of the repair unnecessary."
+       ],
+       "answer": 1,
+       "why": "The object may look more complete, but evidence about its history has become less accessible 说明外观更完整，历史证据却被遮住了，即第二项。",
+       "point": "claim"
+      },
+      {
+       "stem": "Why does the speaker discuss documentation?",
+       "options": [
+        "To establish that an invisible repair has preserved the original surface",
+        "To compare the visual quality of two different repair materials",
+        "To explain why removing a repair is preferable to recording it",
+        "To present a way to keep each repair distinguishable from the original"
+       ],
+       "answer": 3,
+       "why": "依据是 It allows another specialist to distinguish the original work from the intervention。记录让修复处可以辨认，即第四项。",
+       "point": "function"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "function",
+    "claim"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to an academic talk.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Two bags of apples can have the same average weight per apple and still feel quite different to a shopper. One bag may contain apples of nearly equal size, while the other mixes very small and very large ones. This example introduces variability, the degree to which individual values differ. An average summarizes a central value; it doesn't describe every feature of a collection. Consider a classroom with two sets of practice scores. In one set, the scores are close together. In the other, they are spread widely, even though the averages match. The second example shows that the same distinction applies beyond physical objects. However, greater variation doesn't by itself mean that the measurements are wrong. Imagine measuring the heights of adults and children together. A wide spread may accurately reflect a mixed group. The purpose of examining variability is to understand the pattern, not automatically to reject it. Reporting an average together with information about spread gives a fuller description. The apple bags and the classroom scores both demonstrate why a single central number can hide meaningful differences among the individual observations."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why does the speaker begin with two bags of apples?",
+         "options": [
+          "To recommend choosing bags with more uniform fruit sizes",
+          "To explain a procedure for calculating the average weight",
+          "To show that shoppers judge weight more accurately than size",
+          "To introduce variability through an everyday comparison"
+         ],
+         "answer": 3,
+         "why": "依据是 This example introduces variability。开场的例子用来引出概念，即第四项。",
+         "point": "function"
+        },
+        {
+         "stem": "What point do the classroom scores illustrate?",
+         "options": [
+          "A shared average can conceal differences in how values are spread.",
+          "Scores illustrate the errors that create differences in fruit weights.",
+          "The spread of scores determines which set has the higher average.",
+          "A matching average allows the spread of one set to predict the other."
+         ],
+         "answer": 0,
+         "why": "依据是 they are spread widely, even though the averages match。平均值相同，分布可以不同，即第一项。",
+         "point": "claim"
+        },
+        {
+         "stem": "Why are adults' and children's heights mentioned?",
+         "options": [
+          "To identify age mixing as a source of inaccurate measurement",
+          "To recommend replacing a group's average with individual heights",
+          "To challenge the idea that variation necessarily signals error",
+          "To show that a wider spread indicates a larger number of people"
+         ],
+         "answer": 2,
+         "why": "讲者先说 greater variation doesn't by itself mean that the measurements are wrong，再用混合人群的身高举例。第三项概括了这个反驳的作用。",
+         "point": "function"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to an academic talk.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Imagine studying an old trading settlement through its pottery. A pot made from clay found far away may suggest contact with another region. But that suggestion isn't the same as a complete account of the journey. The pot could have passed through several communities before reaching the settlement. This example introduces the difference between evidence of a connection and evidence of a direct route. Researchers therefore compare different kinds of objects and their locations. If several materials from the same distant area appear together, the pattern may strengthen the case for regular contact. A single object, in contrast, might reflect an unusual event. Even repeated finds require caution. A layer of broken pottery may have been moved when a later building was constructed. The movement of that layer would change where the evidence was discovered without changing where the pots were originally used. That case illustrates why the context of a find matters alongside its material. Objects can reveal connections, but the interpretation depends on how they arrived, where they were used, and whether their original positions were preserved."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What point does the pot's possible passage through several communities support?",
+         "options": [
+          "A distant clay source establishes a regular direct trading link.",
+          "A distant origin does not establish a direct route.",
+          "Later construction accounts for the pot's arrival from another region.",
+          "A single traveled object indicates contact more reliably than repeated finds."
+         ],
+         "answer": 1,
+         "why": "依据是 The pot could have passed through several communities。陶罐来自远方，也可能经过几次转手才到这里，第二项概括了这一点。",
+         "point": "claim"
+        },
+        {
+         "stem": "Why does the speaker contrast a single object with several materials?",
+         "options": [
+          "To show why a repeated pattern can provide stronger support for contact",
+          "To show that shared origins establish a shared date of manufacture",
+          "To distinguish regularly traded goods from objects made at the settlement",
+          "To argue that matching materials outweigh evidence about their locations"
+         ],
+         "answer": 0,
+         "why": "the pattern may strengthen the case for regular contact 与 a single object … might reflect an unusual event 对比了证据的强弱，第一项保留了 can 的分寸。",
+         "point": "function"
+        },
+        {
+         "stem": "What does the moved pottery layer illustrate?",
+         "options": [
+          "Later construction establishes the date when the pottery was first used.",
+          "A shared discovery layer proves that objects were used together.",
+          "The place of discovery may differ from the original context of use.",
+          "Repeated pottery finds establish their original positions despite later building."
+         ],
+         "answer": 2,
+         "why": "依据是 change where the evidence was discovered without changing where the pots were originally used。发现的地点和原来使用的地点可以不同，即第三项。",
+         "point": "claim"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

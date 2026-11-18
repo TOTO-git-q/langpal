@@ -1,0 +1,247 @@
+{
+  "id": "reading-endings",
+  "title": "句尾配对　Matching sentence endings · 练习",
+  "goal": "为句首选出与原文意思一致、语法正确的句尾。",
+  "skill": "阅读",
+  "exam": "雅思 IELTS Academic",
+  "points": [
+    {
+      "id": "complete",
+      "label": "选择语义与句法均成立的句尾"
+    },
+    {
+      "id": "modifier",
+      "label": "辨认修饰语的对应对象"
+    }
+  ],
+  "sources": [
+    {
+      "id": "i2",
+      "title": "IELTS Academic: Reading test format",
+      "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+      "used": "阅读材料与题型"
+    },
+    {
+      "id": "syllabus",
+      "title": "雅思 IELTS Academic：课表",
+      "url": "docs/syllabi/ielts.md",
+      "used": "练习尺寸与知识点"
+    }
+  ],
+  "cards": [
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "小测",
+      "minutes": 12,
+      "pass": 0.75,
+      "points": [
+        "complete",
+        "modifier"
+      ],
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "label": "Complete each sentence with the correct ending from the list. Use each ending once only; three endings are not needed.",
+              "look": "passage",
+              "text": "Roofs That Grow\n\nIn most towns, roofs are among the largest surfaces exposed to the weather, yet they are rarely designed to do more than keep rain out. A green roof is one covered with a layer of growing plants. The idea is not new: roofs covered with turf have been used on houses in parts of northern Europe for centuries. Modern green roofs, however, are built in layers that allow plants to grow on top of a building without damaging the structure underneath. In some cities, green roofs are now encouraged on new buildings, particularly in areas where the drains are already under pressure.\n\nThe lowest layer is a waterproof membrane, which protects the roof itself, just as it would on an ordinary flat roof. Above this lies a root barrier. Plant roots search for water and can force their way into small cracks, so the barrier is needed to stop them from reaching and piercing the membrane. Next comes a drainage layer, often made of plastic sheets shaped with small cups or channels, which holds a little water for the plants and lets the rest flow away towards the roof's outlets. On top of the drainage layer is a filter fabric. Its job is to stop fine particles of soil from being washed downwards, where they would gradually block the drainage layer. Finally there is the growing medium, usually a mixture lighter than ordinary garden soil, in which the plants are set.\n\nGreen roofs are generally divided into two kinds. Extensive green roofs have a thin growing layer, often less than fifteen centimetres deep, planted with low, hardy species such as sedums that can survive long periods without rain. Once the plants are established, these roofs need little maintenance beyond an occasional inspection and the removal of unwanted seedlings. They add relatively little weight and can often be placed on existing buildings. Intensive green roofs, by contrast, have much deeper soil and can support lawns, shrubs and even small trees. They are often designed to be used like gardens, but they need regular watering and care, and their weight means that the building beneath must be considerably stronger. On either kind of roof, the plants have to be chosen to suit the depth of soil available.\n\nOne of the main reasons for building green roofs is the way they handle rain. During a storm, an ordinary roof sends water straight into the drains, and in towns where most surfaces are hard, the drains can be overwhelmed. A green roof holds part of the rain in its growing medium and plants, and releases the rest more slowly. This reduces the amount of water reaching the drains at the height of a storm. There is, however, a limit. Once the growing medium is saturated, further rain runs off much as it would from any other roof, so the benefit is greatest during moderate storms rather than during long periods of heavy rain.\n\nGreen roofs also affect temperature. The plants and growing medium insulate the building beneath, reducing the loss of heat in winter. The effect is greatest on buildings with large flat roofs and little insulation of their own. In summer, water evaporating from the leaves helps to keep the roof surface cooler than bare materials, which absorb the sun's heat. Across a whole district, a large number of green roofs might help to reduce the extra warmth that builds up in cities, but a single roof on its own makes very little difference to the temperature of the surrounding streets.\n\nGreen roofs can also provide habitats for insects and birds, though these are small, exposed and often separated from other green spaces. Some are sown with a mixture of local wild flowers to attract bees and butterflies. Against these benefits must be set the costs. A green roof is more expensive to install than a conventional one, and an existing building must be assessed by an engineer before any extra weight is added. As with many such measures, the advantages depend less on the idea itself than on careful design for a particular building.",
+              "items": [
+                {
+                  "stem": "The root barrier, which lies directly above the membrane,",
+                  "options": [
+                    "may shed further rain much as an ordinary roof does.",
+                    "lets excess water flow away from the plants.",
+                    "keeps fine particles out of the layer beneath it.",
+                    "absorbs all the rain that falls during a storm.",
+                    "require a much stronger supporting structure.",
+                    "prevents roots from reaching the waterproof membrane.",
+                    "can noticeably cool a whole district on its own.",
+                    "need little care once their plants are established."
+                  ],
+                  "answer": 5,
+                  "why": "依据是 the barrier is needed to stop them from reaching and piercing the membrane。“让多余的水流走”说的是排水层。",
+                  "point": "modifier"
+                },
+                {
+                  "stem": "The filter fabric placed on top of the drainage layer",
+                  "options": [
+                    "may shed further rain much as an ordinary roof does.",
+                    "lets excess water flow away from the plants.",
+                    "keeps fine particles out of the layer beneath it.",
+                    "absorbs all the rain that falls during a storm.",
+                    "require a much stronger supporting structure.",
+                    "prevents roots from reaching the waterproof membrane.",
+                    "can noticeably cool a whole district on its own.",
+                    "need little care once their plants are established."
+                  ],
+                  "answer": 2,
+                  "why": "依据是 stop fine particles of soil from being washed downwards, where they would gradually block the drainage layer；beneath it 指过滤布下面的排水层。",
+                  "point": "modifier"
+                },
+                {
+                  "stem": "Extensive green roofs with a thin growing layer",
+                  "options": [
+                    "may shed further rain much as an ordinary roof does.",
+                    "lets excess water flow away from the plants.",
+                    "keeps fine particles out of the layer beneath it.",
+                    "absorbs all the rain that falls during a storm.",
+                    "require a much stronger supporting structure.",
+                    "prevents roots from reaching the waterproof membrane.",
+                    "can noticeably cool a whole district on its own.",
+                    "need little care once their plants are established."
+                  ],
+                  "answer": 7,
+                  "why": "依据是 Once the plants are established, these roofs need little maintenance。需要更坚固结构的是深土层的屋顶。",
+                  "point": "complete"
+                },
+                {
+                  "stem": "Intensive green roofs that support shrubs and trees",
+                  "options": [
+                    "may shed further rain much as an ordinary roof does.",
+                    "lets excess water flow away from the plants.",
+                    "keeps fine particles out of the layer beneath it.",
+                    "absorbs all the rain that falls during a storm.",
+                    "require a much stronger supporting structure.",
+                    "prevents roots from reaching the waterproof membrane.",
+                    "can noticeably cool a whole district on its own.",
+                    "need little care once their plants are established."
+                  ],
+                  "answer": 4,
+                  "why": "依据是 their weight means that the building beneath must be considerably stronger。",
+                  "point": "complete"
+                },
+                {
+                  "stem": "A green roof whose growing medium is already saturated",
+                  "options": [
+                    "may shed further rain much as an ordinary roof does.",
+                    "lets excess water flow away from the plants.",
+                    "keeps fine particles out of the layer beneath it.",
+                    "absorbs all the rain that falls during a storm.",
+                    "require a much stronger supporting structure.",
+                    "prevents roots from reaching the waterproof membrane.",
+                    "can noticeably cool a whole district on its own.",
+                    "need little care once their plants are established."
+                  ],
+                  "answer": 0,
+                  "why": "依据是 Once the growing medium is saturated, further rain runs off much as it would from any other roof。“吸收暴雨的全部雨水”与原文相反。",
+                  "point": "modifier"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "label": "Complete each sentence with the correct ending from the list. Use each ending once only; three endings are not needed.",
+              "look": "passage",
+              "text": "Mills Driven by the Sea\n\nFor centuries, most mills that ground grain into flour were driven either by the wind or by water flowing down a river. Along some coasts, however, millers found a third source of power: the tide. Tide mills were built on estuaries and sheltered inlets, where the sea rises and falls twice a day. Their builders needed no fuel and no wind, only a suitable site and the regular movement of the water. Records of such mills in Europe go back to the Middle Ages, and in some regions they remained in use until the early twentieth century.\n\nThe basic arrangement was simple. A dam was built across a creek or along the edge of an estuary, enclosing an area that became the mill pond. Gates in the dam were hinged so that they opened inwards. As the tide rose, the pressure of the incoming sea pushed the gates open, and water flowed into the pond. When the tide turned and the water outside began to fall, the pressure from the full pond pushed the gates shut again, so that the water was trapped without anyone having to close them. The size of the pond mattered: the larger the area enclosed, the longer the mill could work on each tide.\n\nThe miller could not begin work as soon as the pond was full. A waterwheel turns only when water falls from a higher level to a lower one, so a miller who wanted to start the wheel had to wait until the tide outside had dropped well below the level of the pond. He then opened a sluice and let the stored water run through a channel beneath the wheel and back out to sea. Inside the building, the turning wheel drove a set of gears that turned the millstones, just as in a mill on a river. The mill could work for several hours in this way, until the difference between the two levels became too small to turn the wheel. Then it stopped until the next tide had filled the pond again.\n\nThis pattern gave the miller an unusual working life. High tide arrives roughly fifty minutes later each day, so the hours in which the mill could run moved steadily round the clock. A miller might work in the afternoon one week and in the middle of the night a week or two later. Unlike most workers, he could not fix his day by the sun; he had to follow the moon, which controls the tides. Many millers lived in houses attached to the mill, so that they could begin at whatever hour the water allowed.\n\nTide mills had one clear advantage over mills on rivers. In a dry summer, the flow of a river could become too weak to drive a wheel, and river mills sometimes stood idle for weeks. The tide, by contrast, never failed, so tide mills were not stopped by drought. They had drawbacks of their own, however. Each tide carried silt into the pond, and this gradually reduced the volume of water that could be stored. The pond therefore had to be dug out from time to time, which was heavy and expensive work. Storms could also damage the dam, and a mill built in an exposed position might need frequent repair.\n\nFrom the nineteenth century onwards, tide mills gradually went out of use. Steam engines allowed large mills to work at any hour and in any location, and grain could be ground more cheaply in big industrial mills near ports and railways. Most tide mills were abandoned or converted to other uses, and others decayed when the harbours around them silted up or were developed for new purposes. A small number have been restored, and some now grind flour again for visitors. They are also of interest to engineers studying tidal power, since they show how the regular movement of the sea was put to work long before the generation of electricity.",
+              "items": [
+                {
+                  "stem": "The gates in the dam, which were hinged to open inwards,",
+                  "options": [
+                    "were not stopped by dry summers.",
+                    "closed by themselves when the tide began to fall.",
+                    "produced more power than any river mill.",
+                    "had to be removed from the pond from time to time.",
+                    "were opened by the miller at high tide.",
+                    "changed from one day to the next.",
+                    "could keep working throughout the day and night.",
+                    "had to wait until the level outside had fallen far enough."
+                  ],
+                  "answer": 1,
+                  "why": "依据是 the pressure from the full pond pushed the gates shut again … without anyone having to close them。“由磨坊主在高潮时打开”与原文不符。",
+                  "point": "modifier"
+                },
+                {
+                  "stem": "A miller who wanted to start the wheel",
+                  "options": [
+                    "were not stopped by dry summers.",
+                    "closed by themselves when the tide began to fall.",
+                    "produced more power than any river mill.",
+                    "had to be removed from the pond from time to time.",
+                    "were opened by the miller at high tide.",
+                    "changed from one day to the next.",
+                    "could keep working throughout the day and night.",
+                    "had to wait until the level outside had fallen far enough."
+                  ],
+                  "answer": 7,
+                  "why": "依据是 had to wait until the tide outside had dropped well below the level of the pond。",
+                  "point": "modifier"
+                },
+                {
+                  "stem": "Because high tide arrives later each day, the hours when the mill could run",
+                  "options": [
+                    "were not stopped by dry summers.",
+                    "closed by themselves when the tide began to fall.",
+                    "produced more power than any river mill.",
+                    "had to be removed from the pond from time to time.",
+                    "were opened by the miller at high tide.",
+                    "changed from one day to the next.",
+                    "could keep working throughout the day and night.",
+                    "had to wait until the level outside had fallen far enough."
+                  ],
+                  "answer": 5,
+                  "why": "依据是 the hours in which the mill could run moved steadily round the clock。“昼夜不停地运转”与每潮只能工作数小时相矛盾。",
+                  "point": "complete"
+                },
+                {
+                  "stem": "Unlike mills on rivers, tide mills",
+                  "options": [
+                    "were not stopped by dry summers.",
+                    "closed by themselves when the tide began to fall.",
+                    "produced more power than any river mill.",
+                    "had to be removed from the pond from time to time.",
+                    "were opened by the miller at high tide.",
+                    "changed from one day to the next.",
+                    "could keep working throughout the day and night.",
+                    "had to wait until the level outside had fallen far enough."
+                  ],
+                  "answer": 0,
+                  "why": "依据是 The tide, by contrast, never failed, so tide mills were not stopped by drought。文中没有说潮汐磨坊的动力比所有河流磨坊都大。",
+                  "point": "complete"
+                },
+                {
+                  "stem": "Silt carried into the pond by each tide",
+                  "options": [
+                    "were not stopped by dry summers.",
+                    "closed by themselves when the tide began to fall.",
+                    "produced more power than any river mill.",
+                    "had to be removed from the pond from time to time.",
+                    "were opened by the miller at high tide.",
+                    "changed from one day to the next.",
+                    "could keep working throughout the day and night.",
+                    "had to wait until the level outside had fallen far enough."
+                  ],
+                  "answer": 3,
+                  "why": "依据是 The pond therefore had to be dug out from time to time。",
+                  "point": "complete"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "more": {
+        "kind": "endings",
+        "topics": [
+          "绿色屋顶",
+          "潮汐磨坊",
+          "冰窖",
+          "城市雨水花园",
+          "古罗马道路",
+          "防洪堤",
+          "风力抽水",
+          "古代灌溉",
+          "石灰窑",
+          "运河船闸",
+          "盐田",
+          "传统茅草屋顶"
+        ]
+      }
+    }
+  ]
+}

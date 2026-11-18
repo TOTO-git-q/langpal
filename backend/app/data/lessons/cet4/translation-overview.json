@@ -1,0 +1,195 @@
+{
+ "id": "translation-overview",
+ "title": "翻译部分概览",
+ "goal": "了解翻译任务及总体评分标准",
+ "skill": "翻译",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "format",
+   "label": "说出翻译任务及材料长度和时间"
+  },
+  {
+   "id": "criteria",
+   "label": "区分两档译文的总体表现"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c1",
+   "title": "CET笔试",
+   "url": "https://cet.neea.edu.cn/html1/folder/16113/1586-1.htm",
+   "used": "任务数量、时间和卷面权重"
+  },
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "原文长度和翻译评分标准"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "facts",
+   "title": "概述",
+   "rows": [
+    {
+     "k": "任务",
+     "v": "将 1 段中文译成英语",
+     "src": "c1 CET笔试"
+    },
+    {
+     "k": "原文长度",
+     "v": "140–160 汉字",
+     "src": "c2 大纲 第 3 节"
+    },
+    {
+     "k": "时间",
+     "v": "30 分钟",
+     "src": "c1 CET笔试"
+    },
+    {
+     "k": "卷面权重",
+     "v": "15%",
+     "src": "c1 CET笔试"
+    }
+   ]
+  },
+  {
+   "id": "format",
+   "type": "table",
+   "title": "题型",
+   "cols": [
+    "任务",
+    "原文",
+    "作答"
+   ],
+   "rows": [
+    [
+     "汉译英",
+     "1 段中文",
+     "用英语表达原文意思"
+    ]
+   ]
+  },
+  {
+   "id": "criteria",
+   "type": "table",
+   "title": "总体评分",
+   "cols": [
+    "分档",
+    "意思与连贯",
+    "语言表现"
+   ],
+   "rows": [
+    [
+     "13–15 分",
+     "准确表达原意，行文流畅",
+     "用词贴切，基本没有语言错误，只有个别小错"
+    ],
+    [
+     "7–9 分",
+     "勉强表达原意",
+     "用词欠准确，语言错误相当多，有些是严重错误"
+    ]
+   ],
+   "note": "评分看译文的总体表现。意思、连贯、结构和用词不单独计分。"
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 4,
+   "pass": 0.8,
+   "points": [
+    "format",
+    "criteria"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "What is the translation task?",
+         "options": [
+          "Translate one Chinese passage into English.",
+          "Translate one English passage into Chinese.",
+          "Summarize two Chinese passages in English.",
+          "Revise two English passages in Chinese."
+         ],
+         "answer": 0,
+         "why": "任务是将一段中文译成英语，对应第一项。",
+         "point": "format"
+        },
+        {
+         "stem": "How long is the Chinese source passage?",
+         "options": [
+          "120–140 Chinese characters",
+          "140–160 Chinese characters",
+          "140–160 English words",
+          "160–180 Chinese characters"
+         ],
+         "answer": 1,
+         "why": "原文长度为 140–160 汉字，对应第二项。",
+         "point": "format"
+        },
+        {
+         "stem": "How much time is allotted to translation?",
+         "options": [
+          "15 minutes",
+          "25 minutes",
+          "30 minutes",
+          "40 minutes"
+         ],
+         "answer": 2,
+         "why": "翻译部分的时间是 30 分钟，对应第三项。",
+         "point": "format"
+        },
+        {
+         "stem": "Which description fits the 13–15 band?",
+         "options": [
+          "The meaning is barely conveyed, with many language errors.",
+          "The meaning is accurately conveyed, with many serious errors.",
+          "The meaning is barely conveyed, but the wording is apt.",
+          "The meaning is accurately conveyed in fluent, apt English."
+         ],
+         "answer": 3,
+         "why": "13–15 分档准确表达原意，用词贴切，行文流畅，对应第四项。第二项意思准确，但错误多，不符合这一档。",
+         "point": "criteria"
+        },
+        {
+         "stem": "Which description fits the 7–9 band?",
+         "options": [
+          "The meaning is barely conveyed, with many errors, some serious.",
+          "The meaning is accurately conveyed, with only a few minor errors.",
+          "The meaning is barely conveyed, but the wording is apt and fluent.",
+          "The meaning is accurate, but there are many errors."
+         ],
+         "answer": 0,
+         "why": "7–9 分档勉强表达原意，语言错误相当多，有些是严重错误，对应第一项。",
+         "point": "criteria"
+        },
+        {
+         "stem": "How are meaning, coherence, structure and wording assessed?",
+         "options": [
+          "Each of the four dimensions receives the same fixed share of marks.",
+          "They contribute to an overall assessment of the translation.",
+          "Only the number of wording errors determines the result.",
+          "Meaning and wording are scored separately, then added up."
+         ],
+         "answer": 1,
+         "why": "翻译按总体表现评分，四个方面不单独计分，对应第二项。",
+         "point": "criteria"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,386 @@
+{
+ "id": "writing-boundaries",
+ "title": "句子边界与标点",
+ "goal": "识别残句和独立句之间的错误连接；选择语法完整且标点正确的句子。",
+ "skill": "写作",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "identify",
+   "label": "识别残句和独立句之间的错误连接"
+  },
+  {
+   "id": "repair",
+   "label": "选择语法完整且标点正确的句子"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语四级（CET-4）：课表",
+   "url": "docs/syllabi/cet4.md",
+   "used": "写作部分本课的内容范围、知识点及教学材料规格"
+  },
+  {
+   "id": "c2",
+   "title": "C2 全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "依据所给研究文件中的写作语言与连贯性要求安排教学，不陈述考试事实"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "完整的陈述句要有主语和谓语，谓语要能表示时态。because、although 等从属连词引出的分句，即使有主语和谓语，在作文中也不能单独成句。"
+    },
+    {
+     "box": "The opening ceremony started after the organizers checked all the lights in the hall."
+    },
+    {
+     "p": "The opening ceremony started 是主句，after 引出的从句依附于主句。检查句子边界时，成分、连接词和标点都要核对，只数动词不够。"
+    }
+   ]
+  },
+  {
+   "id": "fragments",
+   "type": "table",
+   "title": "从句残句与逗号误连",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "从句独立成句",
+     "because 从句要和主句连成一句，中间用逗号。",
+     "Because the floor was wet. The players waited outside. → Because the floor was wet, the players waited outside the gym until noon."
+    ],
+    [
+     "从句独立成句",
+     "although 从句也要和主句连成一句。",
+     "Although the screen was small. Everyone could read it. → Although the screen was small, everyone could read the instructions from their seats."
+    ],
+    [
+     "逗号误连",
+     "把逗号改成句号，分成两句，后句首字母大写。",
+     "The hall was full, the audience waited outside. → The hall was full. The audience waited outside until the next session began."
+    ],
+    [
+     "逗号误连",
+     "两句是因果关系时，在逗号后加 so。",
+     "The notice was unclear, several visitors asked for help. → The notice was unclear, so several visitors asked the receptionist for further information."
+    ]
+   ]
+  },
+  {
+   "id": "missing",
+   "type": "table",
+   "title": "主语与谓语缺失",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "缺主语",
+     "陈述句要写出主语，说明谁做了这件事。",
+     "Arrived before the doors opened and waited near the entrance. → The assistants arrived before the doors opened and waited near the main entrance."
+    ],
+    [
+     "缺主语",
+     "被动句也要写出主语，说明被放置的是什么。",
+     "Was placed beside the entrance to guide visitors. → A large map was placed beside the entrance to guide visitors around the building."
+    ],
+    [
+     "缺谓语",
+     "地点短语不能作谓语，前面要补出 be，时态与上下文一致。",
+     "The spare chairs near the window during the meeting. → The spare chairs were near the window during the meeting on Tuesday afternoon."
+    ],
+    [
+     "缺谓语",
+     "-ing 形式前要补助动词，或改成限定动词。",
+     "The staff preparing the room for the afternoon exhibition. → The staff were preparing the room for the afternoon exhibition when the guests arrived."
+    ]
+   ]
+  },
+  {
+   "id": "repairs",
+   "type": "table",
+   "title": "边界修复与标点",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "句号",
+     "拆成独立句后，后句首字母大写。",
+     "The gate was locked. The delivery driver called the office for another entrance."
+    ],
+    [
+     "并列连词",
+     "and、but、so 连接两个完整分句，连词前加逗号。",
+     "The desk was small, but it held all the materials for the workshop."
+    ],
+    [
+     "从属连词",
+     "从句在前时，后面加逗号；主句前不再加 so 或 but。",
+     "Because the boxes were heavy, the volunteers carried them together into the storeroom."
+    ],
+    [
+     "英文标点",
+     "用英文句号 . 和英文逗号 ,，标点后空一格。",
+     "The doors opened, and the visitors entered the gallery in a single line."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Draft: The new timetable on the wall. Several students checked it, they found the correct classroom."
+    },
+    {
+     "p": "首句只有名词短语和地点短语，缺少谓语。第二句逗号两边都能单独成句，要改用句号，或者加连词。"
+    },
+    {
+     "box": "The new timetable was on the wall. Several students checked it and found the correct classroom."
+    },
+    {
+     "p": "第二句两个动作的主语都是 Several students，可用 and 连接两个谓语。保留 they 时，写成 Several students checked it, and they found the correct classroom。"
+    }
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "identify",
+    "repair"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "What is missing from this intended statement? The club members beside the registration desk after lunch.",
+       "options": [
+        "A subject for the whole statement",
+        "A finite verb for the statement",
+        "An object after the registration desk",
+        "A conjunction before the club members"
+       ],
+       "answer": 1,
+       "why": "The club members 已是主语，beside the registration desk 是地点短语，缺少谓语。",
+       "point": "identify"
+      },
+      {
+       "stem": "What is the main boundary error? The doors opened, the visitors entered the exhibition hall together.",
+       "options": [
+        "The first clause lacks a subject before opened.",
+        "The second clause lacks a verb after visitors.",
+        "A dependent clause stands alone as a sentence.",
+        "A comma alone joins independent clauses."
+       ],
+       "answer": 3,
+       "why": "The doors opened 和 the visitors entered 都能单独成句，只用逗号不能连接，即第四项。",
+       "point": "identify"
+      },
+      {
+       "stem": "Which revision makes a complete sentence? Because the ticket printer had stopped working.",
+       "options": [
+        "Because the ticket printer had stopped working, staff wrote passes by hand.",
+        "Because the ticket printer had stopped working. Staff wrote passes by hand.",
+        "Because the ticket printer had stopped working, so staff wrote passes by hand.",
+        "Because the ticket printer had stopped working, writing passes by hand."
+       ],
+       "answer": 0,
+       "why": "第一项由原因从句加完整主句构成。第三项错在 Because 和 so 重复连接。",
+       "point": "repair"
+      },
+      {
+       "stem": "Which revision supplies the missing subject? Was stored in a locked cabinet after the lesson.",
+       "options": [
+        "Stored in a locked cabinet after the lesson.",
+        "The cabinet after the lesson was stored.",
+        "The equipment was stored in a locked cabinet after the lesson.",
+        "Was the equipment in a locked cabinet after the lesson."
+       ],
+       "answer": 2,
+       "why": "原句缺主语，第三项补出被存放的 The equipment。第四项是疑问语序，却用了句号。",
+       "point": "repair"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "repair"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A student theater group could not find its entrance tickets on the afternoon of a performance. The staff printed a new batch before the doors opened. A spare printer was in the office, so the group did not need to borrow equipment from another department.",
+     "items": [
+      {
+       "stem": "Join the two facts as a cause and result.",
+       "lead": "Because",
+       "chunks": [
+        "the tickets were",
+        "missing,",
+        "the staff",
+        "printed"
+       ],
+       "tail": "a new batch before the performance.",
+       "extra": [
+        "so"
+       ],
+       "why": "Because 从句后接主句，不能再加 so。",
+       "point": "repair"
+      },
+      {
+       "stem": "Write the missing past-tense form of be: The spare printer ___ in the office yesterday.",
+       "accept": [
+        "was"
+       ],
+       "why": "The spare printer 是单数，yesterday 表示过去，填 was。",
+       "point": "repair"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "identify",
+    "repair"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "What is wrong with the sentence boundary? Although the design was ready for review.",
+         "options": [
+          "A dependent clause has been left without a main clause.",
+          "Two independent clauses have been joined by a comma.",
+          "The complete main clause has no final punctuation.",
+          "The clause contains two unnecessary subject pronouns."
+         ],
+         "answer": 0,
+         "why": "Although 引出从句，句中没有主句，即第一项。",
+         "point": "identify"
+        },
+        {
+         "stem": "What is the problem in The archive opened, several researchers entered the reading room?",
+         "options": [
+          "The first clause has no finite verb.",
+          "A comma alone connects two independent clauses.",
+          "The second clause has no stated subject.",
+          "A subordinate conjunction has been used twice."
+         ],
+         "answer": 1,
+         "why": "The archive opened 和 several researchers entered 各有主语和谓语，只用逗号不能连接。",
+         "point": "identify"
+        },
+        {
+         "stem": "Which repair supplies a finite verb without changing the stated location? Draft: The notice beside the main staircase.",
+         "options": [
+          "Beside the main staircase, the notice.",
+          "The notice standing beside the main staircase.",
+          "The notice is beside the main staircase.",
+          "The notice beside the main staircase and."
+         ],
+         "answer": 2,
+         "why": "第三项加 is 作谓语，句子完整，地点不变。第二项的 standing 单独不能作谓语。",
+         "point": "repair"
+        },
+        {
+         "stem": "Which version correctly uses a full stop between independent sentences?",
+         "options": [
+          "The cabinet was locked. the caretaker brought a key.",
+          "The cabinet was locked, The caretaker brought a key.",
+          "The cabinet was locked。 The caretaker brought a key.",
+          "The cabinet was locked. The caretaker brought a key."
+         ],
+         "answer": 3,
+         "why": "第四项用英文句号，后句首字母大写。第一项后句首字母没有大写。",
+         "point": "repair"
+        },
+        {
+         "stem": "Form a complete sentence from the dependent clause and its main clause.",
+         "lead": "Although",
+         "chunks": [
+          "the task was",
+          "difficult,",
+          "the team",
+          "completed"
+         ],
+         "tail": "the repairs before the deadline.",
+         "extra": [
+          "but"
+         ],
+         "why": "although 从句后加逗号，再接主句 the team completed。主句前不能再加 but。",
+         "point": "repair"
+        },
+        {
+         "stem": "Complete the repair of a statement that lacks a finite verb.",
+         "lead": "The boxes",
+         "chunks": [
+          "were",
+          "placed beside",
+          "the main",
+          "entrance"
+         ],
+         "tail": "before the visitors arrived.",
+         "extra": [
+          "placing"
+         ],
+         "why": "were placed 构成完整被动谓语，不能用 placing 代替。",
+         "point": "repair"
+        },
+        {
+         "stem": "Choose the error label: subject / verb / connector. In the intended statement Was repaired before the morning inspection, the missing element is the ___.",
+         "accept": [
+          "subject"
+         ],
+         "why": "Was repaired 已有谓语，被修理的对象没有出现，缺主语。",
+         "point": "identify"
+        },
+        {
+         "stem": "Choose the error label: subject / verb / connector. In the intended statement The assistants sorting the files after lunch, the missing finite element is the ___.",
+         "accept": [
+          "verb"
+         ],
+         "why": "The assistants 是主语。sorting 前缺助动词，不能单独作谓语。",
+         "point": "identify"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

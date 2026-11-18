@@ -1,0 +1,91 @@
+{
+ "id": "reading-banked-research",
+ "title": "研究过程词汇",
+ "goal": "区分研究词汇的意义并按研究环节选择用词。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "meaning", "label": "区分研究过程词汇的含义"},
+  {"id": "use", "label": "按研究环节选择适当词语"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读任务及材料范围"}],
+ "cards": [
+  {"id": "intro", "type": "text", "title": "概述", "body": [
+   {"p": "研究过程包括提出问题、选择方法、记录数据和解释结果。各环节的词语表示不同的对象或动作。"},
+   {"p": "evidence 是支持某个判断的证据，proof 是足以确立这个判断的证明。evidence may support a claim; proof establishes it."},
+   {"p": "sample 是研究对象中的样本；population 是研究所关注的总体。例如 a sample of students 来自 the student population。"}
+  ]},
+  {"id": "questions", "type": "table", "title": "词汇表：问题与假设", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["research", "n.", "研究", "The research concerns sleep."],
+   ["question", "n.", "问题", "The question concerns timing."],
+   ["hypothesis", "n.", "假设", "The hypothesis can be tested."],
+   ["assumption", "n.", "假定", "The assumption needs examination."],
+   ["predict", "v.", "预测", "They predict a change."],
+   ["prediction", "n.", "预测", "The prediction proved accurate."],
+   ["investigate", "v.", "调查；研究", "They investigate the cause."],
+   ["explore", "v.", "探讨", "The paper explores alternatives."],
+   ["objective", "n.", "目标", "The objective is to compare results."],
+   ["theory", "n.", "理论", "The theory explains the pattern."]
+  ]},
+  {"id": "methods", "type": "table", "title": "词汇表：方法与样本", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["method", "n.", "方法", "The method uses interviews."],
+   ["approach", "n.", "方法；途径", "The approach combines two methods."],
+   ["experiment", "n.", "实验", "The experiment lasted a week."],
+   ["survey", "n.", "调查", "The survey included residents."],
+   ["sample", "n.", "样本", "The sample included fifty plants."],
+   ["population", "n.", "总体", "The population included all residents."],
+   ["participant", "n.", "参与者", "Each participant completed a form."],
+   ["procedure", "n.", "程序", "The procedure has three stages."],
+   ["measure", "v.", "测量", "They measure the temperature."],
+   ["compare", "v.", "比较", "They compare the two groups."]
+  ]},
+  {"id": "data", "type": "table", "title": "词汇表：观察与数据", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["observe", "v.", "观察", "They observe the plants daily."],
+   ["observation", "n.", "观察结果", "Each observation is recorded."],
+   ["record", "v.", "记录", "They record the readings."],
+   ["data", "n.", "数据", "The data show a pattern."],
+   ["reading", "n.", "读数", "The reading was recorded."],
+   ["collect", "v.", "收集", "They collect water samples."],
+   ["analyze", "v.", "分析", "They analyze the results."],
+   ["analysis", "n.", "分析", "The analysis took two days."],
+   ["variable", "n.", "变量", "Temperature is one variable."],
+   ["pattern", "n.", "模式；规律", "A pattern emerged in the data."]
+  ]},
+  {"id": "conclusions", "type": "table", "title": "词汇表：证据与结论", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["evidence", "n.", "证据", "The records provide evidence."],
+   ["proof", "n.", "证明", "The argument requires proof."],
+   ["finding", "n.", "发现；研究结果", "The finding needs further study."],
+   ["result", "n.", "结果", "The result supports the hypothesis."],
+   ["conclusion", "n.", "结论", "The conclusion reflects the data."],
+   ["indicate", "v.", "表明", "The readings indicate a rise."],
+   ["support", "v.", "支持", "The findings support the claim."],
+   ["confirm", "v.", "证实", "Further tests confirmed the result."],
+   ["interpret", "v.", "解释", "They interpret the evidence."],
+   ["limitation", "n.", "局限", "The report notes a limitation."]
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["meaning"], "groups": [{"items": [
+   {"stem": "Which term refers to the whole group a study concerns?", "options": ["Sample", "Population", "Observation", "Prediction"], "answer": 1, "why": "population 指研究关注的总体；sample 是其中的样本。", "point": "meaning"},
+   {"stem": "Which term refers to material that supports a claim?", "options": ["Procedure", "Variable", "Evidence", "Objective"], "answer": 2, "why": "evidence 指支持判断的证据。", "point": "meaning"}
+  ]}]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["use"], "groups": [{"look": "passage", "text": "A team wanted to learn whether shade affected seedling growth. It placed similar seedlings in two areas, one shaded and one sunny. Each week the team measured their height and recorded the readings. The team then compared the measurements from the two areas.", "items": [
+   {"stem": "What did the team record each week?", "options": ["The amount of shade in each area", "The comparison of the two areas", "The growth of the shaded seedlings only", "The heights measured in both areas"], "answer": 3, "why": "Each week the team measured their height and recorded the readings 说明每周记录的是两处幼苗的高度，即第四项。第二项的比较是最后一步，不是每周记录的内容。", "point": "use"},
+   {"stem": "What did the team compare?", "options": ["Measurements from the two areas", "Light levels in the two areas", "Heights from the first and last weeks", "Seedlings of different kinds"], "answer": 0, "why": "compared the measurements from the two areas 说明比较对象是两处的测量值，即第一项。", "point": "use"}
+  ]}]},
+  {"id": "check-three", "type": "check", "title": "练习三", "points": ["meaning", "use"], "groups": [{"look": "passage", "text": "A transport researcher asked residents how they travelled to work. The survey covered a sample from several neighbourhoods. The answers provided evidence about travel choices, but the researcher noted that the sample did not include every resident.", "items": [
+   {"stem": "What was the sample?", "options": ["Every resident in the town", "Residents included in the survey", "Every possible travel choice", "Questions used in the survey"], "answer": 1, "why": "a sample from several neighbourhoods 指参与调查的部分居民。", "point": "meaning"},
+   {"stem": "What provided evidence about travel choices?", "options": ["The researcher's note on the sample", "The neighbourhoods chosen for the survey", "The answers residents gave about travel", "The question about travel to work"], "answer": 2, "why": "The answers provided evidence about travel choices 说明提供证据的是居民的回答，即第三项。", "point": "use"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["meaning", "use"], "sets": [{"id": "set-a", "groups": [
+   {"fill": "Scientists studied a pond. They tes{ted} a hypot{hesis} about wa{ter} quality a{nd} collected a sam{ple} from t{he} site. T{he} researchers reco{rded} each obser{vation} and anal{yzed} the data before reaching a conclusion. They visited at the same time on several days and used the same equipment for each reading. Their notes described the conditions during each visit, including recent rain. The team compared the readings and discussed what the results could support. The report also described limits of the sample and suggested further visits.", "tags": ["use", "meaning", "use", "use", "meaning", "use", "use", "use", "meaning", "use"]},
+   {"items": [
+    {"stem": "Which term describes a proposed explanation that can be tested?", "options": ["A hypothesis", "A reading", "A procedure", "A finding"], "answer": 0, "why": "hypothesis 是可检验的假设。", "point": "meaning"},
+    {"stem": "Which term means a result noted during an investigation?", "options": ["A prediction", "An observation", "An objective", "An assumption"], "answer": 1, "why": "observation 是观察结果。", "point": "meaning"},
+    {"stem": "Which term identifies the part of a population selected for study?", "options": ["The analysis", "The conclusion", "The sample", "The theory"], "answer": 2, "why": "sample 是从总体中选出的样本。", "point": "meaning"},
+    {"stem": "The team wrote down instrument values each morning. What did it record?", "options": ["Its assumptions", "Its objectives", "Its participants", "Its readings"], "answer": 3, "why": "仪器数值是 readings，record readings 表示记录读数。", "point": "use"},
+    {"stem": "The team examined two sets of results for similarities and differences. What did it do?", "options": ["Compared the results", "Predicted the results", "Recorded the results", "Defined the objective"], "answer": 0, "why": "寻找两组结果的异同是 compare the results。", "point": "use"},
+    {"stem": "A report explains that the sample came from one area only. What does this describe?", "options": ["A prediction", "A limitation", "A reading", "A procedure"], "answer": 1, "why": "样本只来自一处是研究的 limitation。", "point": "use"}
+   ]}
+  ]}]}
+ ]
+}

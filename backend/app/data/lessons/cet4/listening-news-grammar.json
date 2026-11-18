@@ -1,0 +1,518 @@
+{
+ "id": "listening-news-grammar",
+ "title": "新闻中的被动与引述",
+ "goal": "区分被动句中的行动者和受事者，并识别信息来源。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "agent",
+   "label": "区分被动句中的行动者和承受者"
+  },
+  {
+   "id": "report",
+   "label": "识别引述句的信息来源"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "听力课程材料的依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "被动句把动作的承受者放在主语位置。by 后面是行动者。没有 by 短语，行动者往往没有说出来。"
+    },
+    {
+     "box": "Workers repaired the bridge. / The bridge was repaired by workers."
+    },
+    {
+     "p": "引述句用 said 等词说明消息来自谁。说话的人是消息来源，做事的人在 said 后面的句子里。"
+    }
+   ]
+  },
+  {
+   "id": "passive",
+   "type": "table",
+   "title": "主动与被动",
+   "cols": [
+    "情况",
+    "主动句",
+    "被动句"
+   ],
+   "rows": [
+    [
+     "现在：清洁",
+     "Staff clean the hall daily.",
+     "The hall is cleaned daily by staff."
+    ],
+    [
+     "现在：递送",
+     "Volunteers deliver the meals.",
+     "The meals are delivered by volunteers."
+    ],
+    [
+     "现在：检查",
+     "Engineers inspect the bridge.",
+     "The bridge is inspected by engineers."
+    ],
+    [
+     "现在：管理",
+     "The council manages the park.",
+     "The park is managed by the council."
+    ],
+    [
+     "过去：维修",
+     "Workers repaired the road.",
+     "The road was repaired by workers."
+    ],
+    [
+     "过去：制作",
+     "A workshop made the doors.",
+     "The doors were made by a workshop."
+    ],
+    [
+     "过去：安装",
+     "Staff installed the signs.",
+     "The signs were installed by staff."
+    ],
+    [
+     "过去：开放",
+     "The council opened the hall.",
+     "The hall was opened by the council."
+    ]
+   ]
+  },
+  {
+   "id": "reporting",
+   "type": "table",
+   "title": "引述与来源",
+   "cols": [
+    "情况",
+    "表达",
+    "辨析"
+   ],
+   "rows": [
+    [
+     "明确来源",
+     "Officials said workers repaired the road.",
+     "officials 是消息来源；workers 执行维修。"
+    ],
+    [
+     "报道被动",
+     "It was reported that workers repaired the road.",
+     "没有说消息来源；workers 执行维修。"
+    ],
+    [
+     "被动动作",
+     "Officials said the road was repaired by workers.",
+     "road 是受事者；workers 是行动者。"
+    ],
+    [
+     "被动来源",
+     "The repair was reported by officials.",
+     "officials 是报道者；没有说谁维修。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The town reported that the bridge was inspected by engineers on Monday. The inspection followed a report of damage to the surface. The bridge had remained open while engineers examined the structure. They completed their inspection in the afternoon and gave their findings to the town. Staff will post an update beside the crossing.\nWho inspected the bridge?\n1. Town reporters\n2. The engineers\n3. Bridge passengers\n4. The town's visitors"
+    },
+    {
+     "p": "was inspected by engineers 说明检查由工程师完成，第二项正确。town 只是报道这件事的来源。"
+    }
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "agent",
+    "report"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The road was repaired by workers after the storm."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Who repaired the road?",
+       "options": [
+        "Someone the report doesn't name",
+        "Workers, after the storm",
+        "The news reporter",
+        "The drivers using the road"
+       ],
+       "answer": 1,
+       "why": "依据是 was repaired by workers。by 后面的 workers 是维修者，第二项符合。",
+       "point": "agent"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The meals are delivered by volunteers to the center each morning."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is delivered by volunteers?",
+       "options": [
+        "The center",
+        "Meals for the volunteers",
+        "The prepared meals",
+        "Supplies from the center"
+       ],
+       "answer": 2,
+       "why": "依据是 The meals are delivered by volunteers to the center。餐食是被送的东西，第三项符合。",
+       "point": "agent"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The manager said the technicians had checked the heating system."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Who reported the check?",
+       "options": [
+        "The heating technicians",
+        "Technicians and the manager",
+        "A source that is not named",
+        "The manager in the report"
+       ],
+       "answer": 3,
+       "why": "依据是 The manager said。经理是消息来源，第四项符合；technicians 是做检查的人。",
+       "point": "report"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The change was reported by the council. The new timetable begins on Monday."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Who reported the change?",
+       "options": [
+        "The council named in the news",
+        "A source the news does not name",
+        "The timetable office",
+        "Passengers using the timetable"
+       ],
+       "answer": 0,
+       "why": "依据是 The change was reported by the council。by 后面的 council 是报道者，第一项符合。",
+       "point": "report"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "agent",
+    "report"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The town hall reopened on Monday after work on its entrance. The entrance was repaired by a local building team, and new signs were designed by students at the nearby college. The council paid for the repairs and announced the reopening on Friday. The hall manager said the entrance had been checked before visitors returned. The building team completed the work last Wednesday, and council staff inspected the doors on Thursday. The hall was built forty years ago and is used for meetings, classes and local performances. A college teacher said the sign project gave students an opportunity to work with a public building. The hall's usual programme will continue this month, including an evening talk on the history of the town. Visitors can find a schedule at the entrance or ask staff at the reception desk. The council has not announced any further work on the hall this year."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Who designed the new signs?",
+       "options": [
+        "The building team",
+        "College students",
+        "Council staff",
+        "The hall manager"
+       ],
+       "answer": 1,
+       "why": "依据是 new signs were designed by students at the nearby college。第二项符合；施工队修的是入口。",
+       "point": "agent"
+      },
+      {
+       "stem": "Who said the entrance had been checked before visitors returned?",
+       "options": [
+        "The college teacher",
+        "The council staff",
+        "The hall manager",
+        "The building team"
+       ],
+       "answer": 2,
+       "why": "依据是 The hall manager said the entrance had been checked。第三项符合。",
+       "point": "report"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "agent",
+    "report"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The bridge was inspected by engineers on Tuesday after the storm."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Who inspected the bridge?",
+         "options": [
+          "Someone the news does not name",
+          "Drivers who crossed the bridge",
+          "Engineers, on Tuesday",
+          "The news reporter"
+         ],
+         "answer": 2,
+         "why": "依据是 was inspected by engineers on Tuesday。第三项符合。",
+         "point": "agent"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The council reported that workers repaired the path on Monday."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Who repaired the path?",
+         "options": [
+          "The workers on the path",
+          "The council that reported it",
+          "Someone the council did not name",
+          "Path users on Monday"
+         ],
+         "answer": 0,
+         "why": "依据是 workers repaired the path。第一项符合；council 只是消息来源。",
+         "point": "agent"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "New signs are made by the workshop for the town museum."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What does the workshop make?",
+         "options": [
+          "The museum",
+          "The workshop building",
+          "Signs for the workshop",
+          "New museum signs"
+         ],
+         "answer": 3,
+         "why": "依据是 New signs are made by the workshop for the town museum。工坊做的是给博物馆的标牌，第四项符合。",
+         "point": "agent"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The museum garden was opened by volunteers on Saturday."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What did the volunteers open?",
+         "options": [
+          "The whole museum",
+          "The museum garden",
+          "A garden for volunteers",
+          "The museum, on Saturday"
+         ],
+         "answer": 1,
+         "why": "依据是 The museum garden was opened by volunteers。被打开的是博物馆的花园，第二项符合。",
+         "point": "agent"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Officials said the bridge had been inspected by engineers."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Who reported the inspection?",
+         "options": [
+          "The bridge engineers",
+          "A source that is not named",
+          "Officials quoted in the news",
+          "Engineers and officials together"
+         ],
+         "answer": 2,
+         "why": "依据是 Officials said。官员是消息来源，第三项符合；engineers 是做检查的人。",
+         "point": "report"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The opening was reported by the library director after staff prepared the room."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Who reported the opening?",
+         "options": [
+          "The library director",
+          "The library staff",
+          "A source that is not named",
+          "The director and staff together"
+         ],
+         "answer": 0,
+         "why": "依据是 The opening was reported by the library director。第一项符合；staff 是布置房间的人。",
+         "point": "report"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The manager said the signs were installed by a local team."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Who reported the installation?",
+         "options": [
+          "A source that is not named",
+          "The installation team",
+          "The team and the manager",
+          "The manager who spoke"
+         ],
+         "answer": 3,
+         "why": "依据是 The manager said。消息来自经理，第四项符合；local team 是安装的人。",
+         "point": "report"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "It was reported that volunteers painted the hall, but the report did not name its source."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is known about the source of the report?",
+         "options": [
+          "The volunteers issued it.",
+          "Its source was not named.",
+          "The hall manager issued it.",
+          "Its source asked not to be named."
+         ],
+         "answer": 1,
+         "why": "依据是 the report did not name its source。报道没有说明来源，第二项符合。",
+         "point": "report"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "id": "reading-careful-detail",
+ "title": "仔细阅读事实细节题",
+ "goal": "定位明确陈述，并核对细节及限制条件。",
+ "skill": "阅读",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "locate", "label": "定位题干所问事实的依据句"},
+  {"id": "verify", "label": "按原文核对细节与限制条件"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读教学依据"}],
+ "cards": [
+  {"id": "type", "type": "text", "title": "题型", "body": [
+   {"p": "事实细节题考查文章明确陈述的人物、行为、原因和条件。题干常用 according to、who、what、why 或 under what condition。"},
+   {"p": "正确选项常换用原文的词语或句式，人物、行为和限制条件仍与原文一致。"},
+   {"box": "According to the passage, who checked the books?\nWhy did the store change its hours?\nUnder what condition can visitors borrow a guide?"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定所问信息", "d": "先看题干问的是人物、行为、原因还是条件。Who checked the books 问的是谁做了检查。"},
+   {"t": "2　定位相关内容", "d": "用 books 和 checked 找到相关句。原文也可能用 examined 这样的同义表达。"},
+   {"t": "3　核对完整关系", "d": "读相关句和它的前后句，确定谁做了什么、对谁做。only、some 和条件从句会限定范围，与选项逐一对照。"},
+   {"t": "4　比较选项", "d": "选与完整事实一致的改写。相邻的句子可能用到相同的词，但回答的是另一个问题。"}
+  ]},
+  {"id": "evidence", "type": "table", "title": "问法与依据", "cols": ["所问信息", "题干", "原文依据"], "rows": [
+   ["人物", "Who sorted the books?", "Volunteers sorted the books; teachers checked the list."],
+   ["行为", "What did the baker do with the bread?", "The baker donated the bread and sold the cakes."],
+   ["原因", "Why did the club move indoors?", "The club moved indoors because rain was expected."],
+   ["条件", "When may members extend a loan?", "Members may extend a loan if no one else has requested the item."]
+  ], "note": "依据句要同时对上题干的对象和动作。相邻的分句常说的是另一个人或另一个动作。"},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "At a village market, a group of growers shared a stall on Fridays. A volunteer arranged the produce, while the growers set the prices. The stall accepted orders for baskets only before Thursday evening.\n\nWho decided how much the produce cost?\n1. The volunteer arranging the stall\n2. The growers sharing the stall\n3. The customers ordering baskets\n4. The market staff working on Fridays"},
+   {"p": "题干的 decided how much the produce cost 对应原文的 set the prices。growers set the prices 说明定价的是种植者，即第二项。第一项的 volunteer 只负责摆放农产品。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "例", "排除方法"], "rows": [
+   ["邻句移用", "用摆放农产品回答定价问题", "先看题干问的是哪个动作"],
+   ["主体颠倒", "说 volunteer set the prices", "看 set 的主语是谁"],
+   ["遗漏限定", "说 baskets 可随时预订", "原文写明 only before Thursday evening"],
+   ["只对一半", "说 growers shared a stall and arranged produce", "两个动作分别看主语"]
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["locate", "verify"], "groups": [
+   {"text": "The coach prepared the route, and the players checked the equipment before the trip.", "items": [{"stem": "Who checked the equipment?", "options": ["The coach who prepared the route", "The players going on the trip", "The coach and all of the players", "The players who prepared the route"], "answer": 1, "why": "players checked the equipment 说明检查装备的是队员。", "point": "locate"}]},
+   {"text": "The cafe donated unsold rolls to a shelter and sold its remaining cakes at a lower price.", "items": [{"stem": "What did the cafe donate?", "options": ["The cakes left after the sale", "The rolls sold at a lower price", "The cakes prepared for the shelter", "The rolls that remained unsold"], "answer": 3, "why": "donated unsold rolls 表明捐赠的是未售出的面包卷。", "point": "verify"}]},
+   {"text": "The reading group met outdoors in June, but moved inside in July because the garden was being repaired.", "items": [{"stem": "Why did the group move inside?", "options": ["The garden needed work in July.", "The group first met there in June.", "The garden had been repaired in June.", "The group planned outdoor work in July."], "answer": 0, "why": "because the garden was being repaired 说明小组因花园维修而转到室内。", "point": "locate"}]},
+   {"text": "Visitors may use the small study room on weekdays if they reserve it in advance; the larger room is open without a reservation.", "items": [{"stem": "When may visitors use the small room?", "options": ["On weekdays without any reservation", "At any time after using the larger room", "On weekdays with an advance booking", "Only after reserving the larger room"], "answer": 2, "why": "on weekdays if they reserve it in advance 同时限定日期和预约条件。", "point": "verify"}]}
+  ]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["locate", "verify"], "groups": [{"look": "passage", "text": "A neighborhood choir rehearses in a hall on Tuesdays. Its director chose that day because the hall is used by a dance class on Mondays. Singers bring their own music folders, while the pianist keeps a spare set at the hall. New singers may attend a rehearsal without joining, provided that they contact the director beforehand.", "items": [
+   {"stem": "Why does the choir rehearse on Tuesdays?", "options": ["The singers keep their folders at the hall.", "The hall is occupied by dancers on Mondays.", "The pianist is a member of the dance class.", "The director meets new singers on Mondays."], "answer": 1, "why": "because the hall is used by a dance class on Mondays 说明周一场地已被使用。", "point": "locate"},
+   {"stem": "What must new singers do to attend without joining?", "options": ["Leave a spare folder at the hall", "Join the dance class on Monday", "Bring the pianist a music folder", "Get in touch with the director first"], "answer": 3, "why": "provided that they contact the director beforehand 表明须事先联系指挥。", "point": "verify"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["locate", "verify"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A small town decided to turn an unused railway building into a place for local crafts. The building had stood empty for several years, although its roof had recently been repaired. The town council paid for improved lighting, while a group of volunteers cleaned the rooms and painted the walls. Local makers then brought in tables and shelves for their work.\n\nThe building opens to visitors on two afternoons each week. On the first afternoon, makers demonstrate how they work with fabric or wood. On the second, visitors can examine finished objects and speak with the people who made them. The makers choose which objects to display; the volunteers look after the entrance and answer questions about the building.\n\nThe rooms are also available for small workshops. A group may reserve a room without charge if its workshop is open to local residents. Private groups pay a fee that contributes to heating and cleaning. Organizers hope the shared space will help makers meet one another as well as give residents a chance to see work produced in the town.", "items": [
+    {"stem": "What did the volunteers do before the building opened?", "options": ["They paid for the improved lighting.", "They made the tables and shelves.", "They cleaned and painted the rooms.", "They selected objects for each maker."], "answer": 2, "why": "volunteers cleaned the rooms and painted the walls 说明志愿者清洁并粉刷房间。", "point": "locate"},
+    {"stem": "What happens on the second open afternoon?", "options": ["Visitors watch the roof being repaired.", "Visitors see finished work and meet its makers.", "Makers clean the entrance and answer questions.", "Makers demonstrate only their work with fabric."], "answer": 1, "why": "visitors can examine finished objects and speak with the people who made them 说明参观者可看成品并与制作者交谈。", "point": "verify"},
+    {"stem": "When can a group use a workshop room free of charge?", "options": ["When its event is open to local residents", "When it supplies all the building's heating", "When its members repair the building's roof", "When it holds a private event for its members"], "answer": 0, "why": "without charge if its workshop is open to local residents 指出免费使用的条件。", "point": "verify"}
+   ]},
+   {"look": "passage", "text": "A university archive received a collection of letters from a retired teacher's family. The letters described ordinary classroom activities over several decades. Before the collection became available to readers, archive staff checked each document for damage. They placed fragile pages in protective covers, but left the letters in the order in which the family had arranged them.\n\nA student team prepared a short guide to the collection. Instead of copying every letter, the team listed the dates and described the subjects discussed in each group of documents. This guide helps readers decide which letters may be useful for a particular project. The archive also made digital images of a selection of pages, so that some material could be examined away from campus.\n\nReaders who wish to consult the original letters must request a place in the reading room before visiting. They may take notes there, but they may photograph a page only with the staff's permission. These rules protect the documents while allowing people to study them. The archive plans to add descriptions to the guide as staff learn more about the collection.", "items": [
+    {"stem": "Who examined the letters for damage?", "options": ["The family who arranged the collection", "The readers in the reading room", "The student team preparing the guide", "The staff working at the archive"], "answer": 3, "why": "archive staff checked each document for damage 指出检查者是档案馆工作人员。", "point": "locate"},
+    {"stem": "What did the student team include in its guide?", "options": ["Dates and descriptions of the document groups", "Copies of every letter in the collection", "A list of readers using the reading room", "Instructions for repairing fragile pages"], "answer": 0, "why": "listed the dates and described the subjects 说明指南包含日期和各组文书的主题。", "point": "verify"},
+    {"stem": "Under what condition may readers photograph a page?", "options": ["If they joined the student team", "If staff members grant permission", "If the family rearranges the letters", "If they have copied every document"], "answer": 1, "why": "may photograph a page only with the staff's permission 限定拍摄须获工作人员许可。", "point": "verify"}
+   ]}
+  ]}]} 
+ ]
+}

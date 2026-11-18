@@ -1,0 +1,45 @@
+{
+ "id": "writing-table-agreement", "title": "数量主语与一致关系", "goal": "确定数量表达的中心词，选择与主语一致的谓语。", "skill": "写作", "exam": "雅思 IELTS Academic", "mastery": "once",
+ "points": [{"id": "head", "label": "确定数量表达中的主语中心词"}, {"id": "agreement", "label": "选择与主语一致的谓语形式"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "数量主语与一致关系"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "数量主语的谓语用单数还是复数，看主语的中心词和它指什么。the number of 后接复数名词，整个短语指一个数，谓语用单数。"}, {"box": "The number of visitors was 200.\nA number of visitors were students."}, {"p": "a number of 指若干个，后接可数名词复数，谓语用复数。比例和百分比后面的名词，有的指复数对象，有的指不可数的量，谓语随所指而变。"}]},
+  {"id": "number", "type": "table", "title": "数量与单数谓语", "cols": ["主语", "例句"], "rows": [
+   ["the number of visitors", "The number of visitors was 200 in 2020."], ["the number of rooms", "The number of rooms is 12 at Oak."], ["the number of books", "The number of books has increased to 500."], ["中心词", "In the number of visitors, number is the head noun."]
+  ]},
+  {"id": "several", "type": "table", "title": "若干对象", "cols": ["主语", "例句"], "rows": [
+   ["a number of visitors", "A number of visitors were students."], ["a number of rooms", "A number of rooms are available."], ["a number of books", "A number of books have been replaced."], ["复数对象", "A number of sites have similar totals."]
+  ]},
+  {"id": "proportions", "type": "table", "title": "比例主语", "cols": ["所指", "例句"], "rows": [
+   ["复数对象", "A large proportion of visitors were students."], ["一个比例", "The proportion of visitors who were students was 40%."], ["不可数的量", "A large proportion of the water was used for cooking."], ["一个比例", "The proportion of rooms in use is 60%."]
+  ]},
+  {"id": "percent", "type": "table", "title": "百分比主语", "cols": ["所指", "例句"], "rows": [
+   ["复数对象", "Forty per cent of visitors were students."], ["复数对象", "Twenty per cent of rooms are occupied."], ["不可数的量", "Half of the water was used for cooking."], ["不可数的量", "Thirty per cent of the budget is spent on staff."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [{"box": "In 2020 a museum recorded 200 visitors. Forty per cent were students. Its budget was £10,000, of which 30% was spent on staff. The number of visitors was 200. Forty per cent of visitors were students. Thirty per cent of the budget was spent on staff. The proportion of visitors who were students was 40%. A number of visitors were students, while the remainder were not students."}, {"p": "The number of visitors 的中心词是单数 number，谓语用 was。Forty per cent of visitors 指复数访客，谓语用 were。Thirty per cent of the budget 指预算里的一部分钱，是一个量，谓语用 was。"}, {"p": "the proportion of visitors who were students 指一个比例，谓语用 was。a proportion of visitors 指一部分访客，谓语用复数。"}]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["head", "agreement"], "groups": [{"items": [
+   {"stem": "Which word is the head noun in 'the number of visitors'?", "options": ["number", "visitors", "the", "of"], "answer": 0, "why": "the number of visitors 指一个数量，中心词是 number。", "point": "head"},
+   {"stem": "Which sentence reports a visitor count with matching agreement?", "options": ["The number of visitors were 200.", "The number of visitors was 200.", "A number of visitors was 200.", "The number of visitor were 200."], "answer": 1, "why": "the number of visitors 指一个数量，谓语用 was。", "point": "agreement"},
+   {"stem": "Which sentence describes a group of visitors?", "options": ["A number of visitors was students.", "The number of visitors were students.", "A number of visitors were students.", "The number of visitor was students."], "answer": 2, "why": "a number of visitors 指若干访客，谓语用 were。", "point": "head"},
+   {"stem": "Which sentence agrees with an amount of water?", "options": ["Thirty per cent of the water were used.", "Thirty per cent of the water have used.", "Thirty per cent of the waters were used.", "Thirty per cent of the water was used."], "answer": 3, "why": "water 是不可数名词，这里指水量，谓语用 was，即第四项。", "point": "agreement"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["head", "agreement"], "groups": [{"items": [
+   {"stem": "A centre recorded 150 visitors. Complete the sentence.", "lead": "The", "chunks": ["number of visitors", "was", "150", "in 2020"], "tail": ".", "extra": ["were"], "why": "number 是中心词，指一个数量，谓语用 was。", "point": "head"},
+   {"stem": "Forty per cent of the visitors were students. Complete the sentence.", "lead": "Forty per cent", "chunks": ["of the visitors were", "students", "in", "2020"], "tail": ".", "extra": ["was"], "why": "百分比指复数 visitors，谓语用 were。", "point": "agreement"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["head", "agreement"], "sets": [{"id": "set-a", "groups": [
+   {"text": "In 2020 a museum had 200 visitors. Forty per cent of the visitors were students. The museum spent 30% of its £10,000 budget on staff.", "items": [
+    {"stem": "Which word is the head noun in 'the number of visitors'?", "options": ["visitors", "number", "the", "of"], "answer": 1, "why": "the number of visitors 表示一个数量，中心词是 number。", "point": "head"},
+    {"stem": "Which sentence gives the visitor count with correct agreement?", "options": ["The number of visitors were 200.", "A number of visitors were 200.", "The number of visitors was 200.", "The number of visitor were 200."], "answer": 2, "why": "中心词 number 是单数，200 是一个人数，谓语用 was，即第三项。", "point": "agreement"},
+    {"stem": "Which sentence describes the student visitors correctly?", "options": ["Forty per cent of visitors was students.", "Forty per cent of visitor was students.", "Forty per cent of visitors is students.", "Forty per cent of visitors were students."], "answer": 3, "why": "百分比指复数 visitors，谓语用 were。", "point": "agreement"},
+    {"stem": "Which subject refers to the single percentage for students?", "options": ["The proportion of visitors who were students", "A number of visitors who were students", "Forty per cent of visitors who were students", "The visitors who were students"], "answer": 0, "why": "the proportion of visitors who were students 指一个比例，中心词是 proportion。", "point": "head"}
+   ]},
+   {"text": "In 2022 a pool recorded 300 visits. Fifty per cent of visitors were adults. The pool used 1,000 litres of water, and 20% of the water was used for cleaning.", "items": [
+    {"stem": "State the visitor count.", "lead": "The", "chunks": ["number of visits was", "300", "in", "2022"], "tail": ".", "extra": ["were"], "why": "number 是单数中心词，谓语用 was。", "point": "head"},
+    {"stem": "State the share of adult visitors.", "lead": "Fifty per cent", "chunks": ["of visitors were", "adults", "in", "2022"], "tail": ".", "extra": ["was"], "why": "百分比指复数 visitors，谓语用 were。", "point": "agreement"},
+    {"stem": "State the proportion of visitors who were adults.", "lead": "The proportion", "chunks": ["of visitors", "who were adults", "was", "50%"], "tail": ".", "extra": ["were"], "why": "主句中心词 proportion 指一个比例，谓语用 was。", "point": "head"},
+    {"stem": "State the water share used for cleaning.", "lead": "Twenty per cent", "chunks": ["of the water", "was used", "for", "cleaning"], "tail": ".", "extra": ["were used"], "why": "百分比指不可数名词 water 所表示的量，谓语用 was。", "point": "agreement"}
+   ]}
+  ]}]} 
+ ]
+}

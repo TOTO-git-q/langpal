@@ -1,0 +1,77 @@
+{
+ "id": "reading-matching-paraphrase",
+ "title": "段落陈述的同义改写",
+ "goal": "识别同义改写并核对主体和关系。",
+ "skill": "阅读",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "equivalence", "label": "识别陈述与原文的同义关系"},
+  {"id": "relation", "label": "核对改写前后的主体和关系"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读教学依据"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "同义改写用不同的词或句式表达原文的意思。核对时先找出变化的词语，再确认主体、对象和逻辑关系没有改变。"},
+   {"box": "The staff postponed the meeting.\nThe meeting was delayed by the staff."},
+   {"p": "postponed 对应 delayed。主动句改成被动句后，推迟会议的仍是 staff。"}
+  ]},
+  {"id": "forms-one", "type": "table", "title": "词语与句式改写", "cols": ["方式", "原文", "改写"], "rows": [
+   ["同义词", "The group purchased a map.", "The group bought a map."],
+   ["同义词", "The shop closed at noon.", "The shop shut at noon."],
+   ["词性转换", "The committee approved the plan.", "The committee gave its approval to the plan."],
+   ["词性转换", "The bridge was damaged.", "The bridge suffered damage."],
+   ["主被动", "A volunteer painted the door.", "The door was painted by a volunteer."],
+   ["主被动", "Residents collected the paper.", "The paper was collected by residents."]
+  ]},
+  {"id": "forms-two", "type": "table", "title": "概括与反义表达", "cols": ["方式", "原文", "改写"], "rows": [
+   ["具体概括", "The box contained apples and pears.", "The box contained fruit."],
+   ["具体概括", "The shelter stored coats and shirts.", "The shelter stored clothing."],
+   ["否定与反义", "The room was not open.", "The room was closed."],
+   ["否定与反义", "The shelf was not empty.", "The shelf contained something."]
+  ]},
+  {"id": "relations", "type": "table", "title": "关系核对", "cols": ["关系", "原文", "核对"], "rows": [
+   ["行动主体", "Mina thanked Leo.", "Mina 是感谢的人，Leo 是被感谢的人。"],
+   ["动作对象", "The team repaired the roof.", "修理对象是 roof。"],
+   ["原因", "Rain delayed the trip.", "rain 是推迟行程的原因。"],
+   ["结果", "Rain delayed the trip.", "行程推迟是雨导致的结果。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "The market gave unsold bread to the shelter. The shelter collected the bread before closing.\n\n1. The shelter supplied bread to the market.\n2. The market donated remaining bread to the shelter.\n3. The market collected bread from the shelter.\n4. The shelter sold bread before closing."},
+   {"p": "gave 对应 donated，unsold 对应 remaining。第二项保留 market 是给予者、shelter 是接收者的关系。"},
+   {"p": "第一项沿用 market、shelter 和 bread，却颠倒了给予方向。"}
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["equivalence", "relation"], "groups": [
+   {"look": "passage", "text": "The coach postponed the match because the field was flooded.", "items": [{"stem": "Which statement preserves the cause?", "options": ["Flooding caused the match to be delayed.", "The delayed match caused the field to flood.", "The match was postponed, and then the field flooded.", "The match continued despite the flooded field."], "answer": 0, "why": "because the field was flooded 表明场地积水导致比赛推迟。", "point": "relation"}]},
+   {"look": "passage", "text": "A volunteer delivered the boxes to the theatre.", "items": [{"stem": "Which statement has the same meaning?", "options": ["The theatre delivered boxes to a volunteer.", "The boxes were delivered to the theatre by a volunteer.", "The volunteer received boxes from the theatre.", "The theatre asked a volunteer to make the boxes."], "answer": 1, "why": "被动句保留 volunteer 是递送者、theatre 是目的地。", "point": "equivalence"}]},
+   {"look": "passage", "text": "The shelf was not empty after the books were moved.", "items": [{"stem": "What does the sentence establish?", "options": ["All the books stayed on the shelf.", "The shelf was empty before the move.", "Something remained on the shelf.", "Nothing remained after the move."], "answer": 2, "why": "not empty 表示架上仍有东西，并未说明具体物品。", "point": "equivalence"}]},
+   {"look": "passage", "text": "The school lent a camera to the club, which returned it on Monday.", "items": [{"stem": "Which statement preserves the direction of the loan?", "options": ["The club lent a camera to the school on Monday.", "The school returned the club's camera on Monday.", "The club sold a camera to the school.", "The club borrowed a camera from the school."], "answer": 3, "why": "The school lent a camera to the club 表明学校是出借方。第四项从俱乐部一方说 borrowed from the school，方向不变。", "point": "relation"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["equivalence", "relation"], "groups": [
+   {"look": "passage", "text": "The museum received a collection of bowls and plates from a local family. Staff displayed the objects in one room. Because the room had little natural light, they added lamps beside the display. The family visited after the work was finished.", "items": [
+    {"stem": "Which statement is supported?", "options": ["The family purchased lamps from the museum.", "A family supplied the museum with household objects.", "The museum gave bowls and plates to a family.", "Staff removed the display because it was too bright."], "answer": 1, "why": "received ... bowls and plates from a local family 表明家庭向博物馆提供物品。", "point": "equivalence"},
+    {"stem": "Why were lamps added?", "options": ["The family planned to visit the display.", "Staff wanted to remove natural light.", "The display room had limited daylight.", "Visitors had taken lamps from the room."], "answer": 2, "why": "Because the room had little natural light 表明光线不足是加灯的原因。", "point": "relation"}
+   ]}
+  ]},
+  {"id": "practice-three", "type": "check", "title": "练习三", "points": ["equivalence", "relation"], "groups": [
+   {"look": "passage", "text": "The town postponed its outdoor market because strong winds were expected. Vendors moved their tables into a hall. A local club lent the vendors extra lamps for the hall.", "items": [
+    {"stem": "Which statement preserves the cause of the delay?", "options": ["The market was delayed because of forecast winds.", "The market was delayed because the vendors moved indoors.", "The club's lamps were needed because winds were expected.", "The winds began after the market was postponed."], "answer": 0, "why": "because strong winds were expected 说明推迟的原因是预报有大风，第一项用 forecast winds 改写。第二项把搬进室内这个结果当成了原因。", "point": "relation"},
+    {"stem": "Which statement paraphrases the loan?", "options": ["The vendors lent extra lamps to a local club.", "A local club provided lamps for vendors to borrow.", "The town lent the vendors a hall and extra lamps.", "A local club moved the vendors' tables into a hall."], "answer": 1, "why": "A local club lent the vendors extra lamps 对应俱乐部提供灯给商贩借用。第一项颠倒了出借方向。", "point": "equivalence"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["equivalence", "relation"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A. A local theatre wanted to preserve records of its past performances. It invited residents to lend photographs and programmes for a temporary exhibition. One resident brought a box of tickets from several productions. Staff recorded the dates printed on them before returning the tickets to their owner. The exhibition used copies, so the original items remained with their owners. The dates helped staff place the tickets in the order of the productions they documented.\n\nB. The theatre's storage room had a leak after a period of heavy rain. Water damaged several empty folders, although the records themselves had already been moved to a dry room. Staff replaced the folders and reported the leak to the building manager. The manager arranged repairs to the roof before the room was used again. Staff checked the room after the repair and found the floor dry.\n\nC. A volunteer named Isabel prepared a guide to the exhibition. She described how the theatre had changed its seating over time. Her guide included a drawing of the old seating plan and a photograph of the current room. Visitors could borrow the guide at the entrance and leave it there when they departed.\n\nD. After the exhibition, staff asked visitors which materials had been most useful. Many selected the seating guide, while some preferred the photographs. Staff summarized the comments in a report for the theatre committee. The report did not recommend selling the original records, which still belonged to the people who had lent them.", "items": [
+    {"stem": "Which statement paraphrases the use of the borrowed tickets?", "options": ["The tickets were copied and returned to their owner.", "The tickets were sold by the owner at the theatre.", "The tickets were stored permanently in the exhibition.", "The tickets were damaged before their dates were recorded."], "answer": 0, "why": "returning the tickets to their owner 和 exhibition used copies 说明复制后归还。", "point": "equivalence"},
+    {"stem": "Which statement preserves the cause of the damaged folders?", "options": ["Moving the records damaged the empty folders.", "Water from a roof leak damaged the empty folders.", "Heavy rain damaged the records in the folders.", "The roof repairs caused water to reach the floor."], "answer": 1, "why": "had a leak 和 Water damaged several empty folders 表明漏水使空文件夹受损。第三项说受损的是记录，但记录已经移到干燥的房间。", "point": "relation"},
+    {"stem": "Which statement expresses what Isabel prepared?", "options": ["A report recommending the sale of old records", "A box containing tickets from several productions", "A visitor guide describing changes to seating", "A plan to replace the theatre's current seats"], "answer": 2, "why": "prepared a guide 和 described how ... seating 对应参观指南及其内容。", "point": "equivalence"},
+    {"stem": "Who summarized the visitors' comments?", "options": ["The residents who lent the original tickets", "The visitors who borrowed the seating guide", "The manager who arranged repairs to the roof", "The theatre staff who reviewed the feedback"], "answer": 3, "why": "Staff summarized the comments 指出整理意见的主体。", "point": "relation"}
+   ]},
+   {"look": "passage", "text": "A. The managers of a community pool noticed that visitors often asked when swimming classes were available. They prepared a paper schedule showing class times and placed it beside the entrance. A staff member also explained the schedule to visitors who requested help. The list showed times for classes but did not include individual swimmers' names. Visitors could read it while waiting to enter the building.\n\nB. During repairs to the pool building, the managers closed one changing room. Workers painted its walls and replaced a damaged bench. The other changing room stayed open, so visitors could still use the pool. Once the paint had dried, staff reopened the repaired room and moved the cleaning equipment away. The managers checked that the new bench was in place before reopening.\n\nC. A local cycling club requested permission to hold a meeting at the pool. The managers approved the request and offered the club a small room above the entrance. Club members brought their own chairs because the room did not contain enough seats. They returned the room key to staff after the meeting ended. The chairs were taken away by the members who had brought them.\n\nD. At the end of the season, the pool sent a survey to members. Respondents praised the clear class schedule but asked for more information about building repairs. The managers published an explanation of planned work on a noticeboard. They decided to review the information again before the next season began.", "items": [
+    {"stem": "Which statement is equivalent to the description of the schedule?", "options": ["It listed the names of individual swimmers.", "It showed when swimming classes would take place.", "It explained how workers repaired the pool building.", "It recorded the cycling club's meeting attendance."], "answer": 1, "why": "showing class times 对应列出游泳课举行的时间。", "point": "equivalence"},
+    {"stem": "Which statement preserves the relation between the managers and the club?", "options": ["The club lent the managers a small room.", "The managers borrowed chairs from the club.", "The club allowed staff to use its pool.", "The managers let the club meet in a room."], "answer": 3, "why": "The managers approved the request and offered the club a small room 表明管理方把房间提供给俱乐部。第四项保留了这个方向。", "point": "relation"},
+    {"stem": "Which statement paraphrases the changing-room repairs?", "options": ["Workers repaired a bench and closed the whole pool.", "Staff removed the walls and painted the bench.", "Workers replaced a bench and painted the walls.", "Visitors reopened the room before the paint dried."], "answer": 2, "why": "painted its walls and replaced a damaged bench 对应粉刷墙壁和更换长椅。", "point": "equivalence"},
+    {"stem": "What prompted the managers to publish more repair information?", "options": ["Members requested more details about the work.", "The cycling club needed extra chairs for its room.", "Workers wanted to change the class schedule.", "Visitors wanted their names included in the survey."], "answer": 0, "why": "Respondents ... asked for more information about building repairs 表明信息需求来自会员反馈。", "point": "relation"}
+   ]}
+  ]}]}
+ ]
+}

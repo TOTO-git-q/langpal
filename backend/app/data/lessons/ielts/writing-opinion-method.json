@@ -1,0 +1,56 @@
+{
+ "id": "writing-opinion-method", "title": "观点题的论题限定", "goal": "能识别观点题的主体与范围，并检查提纲是否回应完整命题。", "skill": "写作", "exam": "雅思 IELTS Academic", "mastery": "once",
+ "points": [{"id": "scope", "label": "确定论题的主体与限定范围"}, {"id": "coverage", "label": "判断提纲是否回应完整命题"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "写作观点题课的内容与教学规格"}],
+ "cards": [
+  {"id": "type", "type": "text", "title": "题型", "body": [{"p": "观点题提出一个命题，要求表明同意或反对。有的指令要求说明同意程度，例如 To what extent do you agree or disagree?"}, {"box": "All town libraries should open on Sundays. Do you agree or disagree?"}, {"p": "主体是 town libraries，行为是 open，范围是 all 和 on Sundays。提纲要评价整个命题，而不是只讨论图书馆的作用。"}]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　识别指令", "d": "先看题目问的是同意或反对，还是同意的程度。立场按指令的问法写。"},
+   {"t": "2　划分命题", "d": "找出主体、行为和范围。例如 all town libraries 指全部城镇图书馆。"},
+   {"t": "3　检查评价对象", "d": "提纲评价的应是题目提出的行为。命题是周日开馆，提纲就评价周日开馆，而不是读者的需求。"},
+   {"t": "4　检查完整回应", "d": "逐一检查范围词和条件是否都有回应。只以几家图书馆为例时，也要说明 all 是否成立。"}
+  ]},
+  {"id": "scope", "type": "table", "title": "主体、行为与范围", "cols": ["命题", "主体与行为", "范围"], "rows": [
+   ["All town libraries should open on Sundays.", "town libraries；open", "all；on Sundays"], ["Secondary schools should provide free lunches to every pupil.", "secondary schools；provide lunches", "free；every pupil"], ["Employers should allow staff to work from home twice a week.", "employers；allow home working", "staff；twice a week"], ["Cities should replace private cars in their centres with buses.", "cities；replace cars with buses", "private cars；city centres"]
+  ]},
+  {"id": "outlines", "type": "table", "title": "命题与提纲", "cols": ["命题", "提纲", "判断"], "rows": [
+   ["All town libraries should open on Sundays.", "Describe the history of town libraries.", "只讨论相关话题"],
+   ["Every school should provide free lunches.", "Evaluate the quality of pupils' home meals.", "转移评价对象"],
+   ["All museums should admit children free.", "Assess free entry at one museum only.", "只讨论部分范围"],
+   ["Employers should allow home working twice a week.", "Assess twice-weekly home working for staff.", "回应主体、行为和频次"],
+   ["Cities should replace central private cars with buses.", "Assess bus replacement of cars across city centres.", "回应对象、行为和地点"],
+   ["Councils should plant trees on every residential street.", "Assess a universal planting rule and limits on space.", "回应普遍要求及条件"]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [
+   {"box": "Some people believe that every town library should open on Sundays, so that residents who work during the week can use its services. Others think opening decisions should depend on local demand and costs. To what extent do you agree or disagree with the first view?\n\nOutline: Oppose a universal requirement; explain why demand and staffing differ between towns; conclude that Sunday opening should depend on local conditions."},
+   {"p": "提纲回应了 every town library 这一普遍要求。反对的理由是各镇的需求和人员不同。提纲评价的是周日开馆，而不只是介绍图书馆的服务。"}
+  ]},
+  {"id": "distractors", "type": "table", "title": "干扰项", "cols": ["提纲", "问题", "命题"], "rows": [
+   ["Describe library services.", "只讨论相关话题", "All libraries should open on Sundays."], ["Evaluate whether residents enjoy reading.", "转移评价对象", "All libraries should open on Sundays."], ["Discuss Sunday opening at one library only.", "未回应全部范围", "All libraries should open on Sundays."], ["Evaluate a requirement for every school to provide free lunches.", "回应主体、行为和范围", "Every school should provide free lunches."]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["scope", "coverage"], "groups": [{"items": [
+   {"stem": "All secondary schools should provide free lunches to every pupil. What is the proposed action?", "options": ["Schools provide lunches without charge.", "Pupils provide lunch for school staff.", "Schools sell lunches to every pupil at cost.", "Schools provide staff with lunches free of charge."], "answer": 0, "why": "命题的行为是 provide free lunches to every pupil。第一项用 without charge 改写 free。", "point": "scope"},
+   {"stem": "Employers should allow staff to work from home twice a week. Which outline directly evaluates the proposal?", "options": ["Describe how office buildings and working arrangements have changed over time.", "Assess whether twice-weekly home working should be allowed.", "Assess whether staff should work from home every day.", "Explain how often employers work at home."], "answer": 1, "why": "命题是 allow staff to work from home twice a week。第二项评价的正是每周两次居家工作，主体、行为和频次都相符。", "point": "coverage"},
+   {"stem": "Cities should replace private cars in their centres with buses. Which phrase limits the location?", "options": ["Buses in place of private cars.", "Private cars throughout each city.", "Private cars in city centres.", "All cars, private and public."], "answer": 2, "why": "in their centres 把地点限定在城市中心，即第三项。第二项把地点扩大到了整个城市。", "point": "scope"},
+   {"stem": "All museums should admit children free of charge. Which outline addresses the entire claim?", "options": ["Describe the history of children's museums.", "Compare children's and adults' favourite museums.", "Evaluate free entry at one museum only.", "Assess free entry for children at all museums."], "answer": 3, "why": "第四项保留所有博物馆、儿童及免费进入三个限定。", "point": "coverage"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["scope", "coverage"], "groups": [{"text": "Some people argue that all local councils should plant trees along every residential street, even where space is limited. Others favour deciding street by street according to the available space. Do you agree or disagree with the proposal that planting should be required everywhere? Give reasons for your view.", "items": [
+   {"stem": "What scope does the proposal specify?", "options": ["Every street, including non-residential roads.", "Every residential street under local councils.", "Only residential streets with enough space.", "Residential streets in only some council areas."], "answer": 1, "why": "all local councils 和 every residential street 限定了范围，即第二项。第三项是另一种观点的做法，不是这一提议。", "point": "scope"},
+   {"stem": "Which outline addresses the full proposal?", "options": ["Describe the benefits of trees on residential streets.", "Assess street-by-street decisions about space only.", "Assess a universal planting rule and limited space.", "Discuss planting only on streets with plenty of space."], "answer": 2, "why": "提议是 every residential street, even where space is limited。第三项既评价普遍种植的要求，也回应空间有限的情况。", "point": "coverage"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["scope", "coverage"], "sets": [{"id": "set-a", "groups": [
+   {"text": "Some people think all secondary schools should provide a free lunch to every pupil each school day. They argue that meals should be available regardless of family income, while others favour a more limited scheme. To what extent do you agree or disagree with the universal proposal? Give reasons for your view.", "items": [
+    {"stem": "Which statement identifies the proposal's scope?", "options": ["Every pupil at all secondary schools, each school day.", "Only pupils from low-income families, on school days.", "Every pupil at all secondary schools, on selected days.", "Some pupils at all secondary schools, each school day."], "answer": 0, "why": "命题写明 all secondary schools、every pupil 和 each school day，三处限定都在第一项中。", "point": "scope"},
+    {"stem": "Which outline responds to the complete proposal?", "options": ["Describe the meals pupils eat at school each day.", "Assess free daily lunches for all secondary pupils.", "Assess free lunches for low-income pupils only.", "Evaluate whether family income affects pupils' diets."], "answer": 1, "why": "题目问的是 the universal proposal。第二项评价所有中学生每天免费午餐，第三项只评价了较有限的方案。", "point": "coverage"},
+    {"stem": "Complete a statement identifying the proposed action.", "lead": "The proposal", "chunks": ["requires schools", "to provide", "free lunches", "to every pupil"], "tail": ".", "extra": ["free transport"], "why": "题目提出学校向每名学生提供免费午餐。", "point": "scope"},
+    {"stem": "Complete a description of an outline that addresses the scope.", "lead": "The outline", "chunks": ["evaluates", "free daily lunches", "for all", "secondary pupils"], "tail": ".", "extra": ["only teachers"], "why": "有效提纲评价免费每日午餐及所有中学生这一范围。", "point": "coverage"}
+   ]},
+   {"text": "A city is considering how to reduce congestion. Some people believe that private cars should be replaced by buses throughout the city centre, rather than on selected streets alone. Others favour allowing cars on some central roads. Do you agree or disagree with the proposed city-centre restriction? Give reasons for your answer.", "items": [
+    {"stem": "What is the proposed replacement and its location?", "options": ["Buses replace private cars on selected streets.", "Buses replace private cars throughout the city.", "Buses replace private cars in the city centre.", "Cars replace buses throughout the city centre."], "answer": 2, "why": "原文是 private cars should be replaced by buses throughout the city centre，即第三项。第二项把地点扩大到了整个城市。", "point": "scope"},
+    {"stem": "Which outline evaluates the full proposal?", "options": ["Describe how congestion affects the city centre.", "Assess allowing cars on some central roads.", "Discuss replacing cars on selected streets alone.", "Assess replacing private cars across the centre."], "answer": 3, "why": "提议是在整个市中心用公交取代私家车。第四项直接评价这一提议，第三项只讨论了部分街道。", "point": "coverage"},
+    {"stem": "Complete a statement of the proposal's location.", "lead": "The proposed replacement", "chunks": ["applies", "throughout", "the city", "centre"], "tail": ".", "extra": ["rural roads"], "why": "throughout the city centre 表示整个市中心。", "point": "scope"},
+    {"stem": "Complete a description of a relevant outline.", "lead": "The outline", "chunks": ["assesses", "replacing private cars", "with buses", "throughout the centre"], "tail": ".", "extra": ["in rural areas"], "why": "该提纲评价以公交取代私家车，并保留整个中心区的范围。", "point": "coverage"}
+   ]}
+  ]}]}
+ ]
+}

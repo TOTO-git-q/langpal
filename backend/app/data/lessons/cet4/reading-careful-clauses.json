@@ -1,0 +1,484 @@
+{
+ "id": "reading-careful-clauses",
+ "title": "阅读中的名词性从句",
+ "goal": "判断名词性从句的作用，并提取主句和从句表达的意思。",
+ "skill": "阅读",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "role",
+   "label": "判断名词性从句在句中的作用"
+  },
+  {
+   "id": "proposition",
+   "label": "提取主句与从句表达的完整意思"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "阅读理解的教学依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "名词性从句可以作主语、宾语或表语。that 引出陈述的内容，whether 表示是否，what、how 等疑问词表示所问的东西或方式。"
+    },
+    {
+     "box": "The teacher knows that the room is open.\nthat the room is open 是 knows 的宾语从句。"
+    },
+    {
+     "p": "理解这类句子时，先看主句里是谁在知道、认为或询问，再看从句给出的内容。knows、thinks、asks 表达的关系不同。"
+    }
+   ]
+  },
+  {
+   "id": "subjects",
+   "type": "table",
+   "title": "主语从句与形式主语",
+   "cols": [
+    "类型",
+    "例句",
+    "作用"
+   ],
+   "rows": [
+    [
+     "that 主语从句",
+     "That the room needs repair is clear to the staff, who have seen the damaged floor and the broken window there.",
+     "That the room needs repair 是主语，is clear 作判断。"
+    ],
+    [
+     "whether 主语从句",
+     "Whether the road will reopen remains uncertain, so the drivers are checking the notices before they leave the village this morning.",
+     "Whether the road will reopen 是主语，表示道路是否重开。"
+    ],
+    [
+     "疑问词主语从句",
+     "What the children need is a quiet place to read, and the school plans to make one available after the summer break.",
+     "What the children need 是主语，指孩子需要的东西。"
+    ],
+    [
+     "疑问词主语从句",
+     "How the team will use the room depends on its size, which the manager will measure before making any further plans.",
+     "How the team will use the room 是主语，表示使用方式。"
+    ],
+    [
+     "形式主语 it",
+     "It is important that every visitor signs the book, because the staff use the record to prepare for the next event.",
+     "it 是形式主语，真正的主语是 that 从句。"
+    ],
+    [
+     "形式主语 it",
+     "It remains unclear whether the bus will stop here, and the passengers are waiting for a notice from the local office.",
+     "it 是形式主语，真正的主语是 whether 从句。"
+    ]
+   ]
+  },
+  {
+   "id": "objects",
+   "type": "table",
+   "title": "宾语从句与表语从句",
+   "cols": [
+    "类型",
+    "例句",
+    "作用"
+   ],
+   "rows": [
+    [
+     "that 宾语从句",
+     "The guide believes that the path is safe, but the visitors should still wear suitable shoes during their walk through the park.",
+     "that 从句作 believes 的宾语，是导游相信的内容。"
+    ],
+    [
+     "whether 宾语从句",
+     "The manager asked whether the room was free, and the staff checked the calendar before they gave her an answer that morning.",
+     "whether 从句作 asked 的宾语，表示询问是否有空房。"
+    ],
+    [
+     "疑问词宾语从句",
+     "The teacher explained how the students could use the dictionary, and the class then practiced looking up unfamiliar words in pairs.",
+     "how 从句作 explained 的宾语，表示使用方式。"
+    ],
+    [
+     "疑问词宾语从句",
+     "The visitors learned where the bus would stop, so they waited near the main entrance until the driver arrived that afternoon.",
+     "where 从句作 learned 的宾语，表示停车地点。"
+    ],
+    [
+     "that 表语从句",
+     "The good news is that the library will reopen, and the staff are arranging the books before readers return next week.",
+     "that 从句作表语，说明好消息的内容。"
+    ],
+    [
+     "whether 表语从句",
+     "The question is whether the team can finish today, because the room must be ready for another group tomorrow morning.",
+     "whether 从句作表语，说明问题是能否在今天完成。"
+    ],
+    [
+     "疑问词表语从句",
+     "The issue is how the school will share the space, since several classes need the same room on different days each week.",
+     "how 从句作表语，说明问题是怎样分配空间。"
+    ],
+    [
+     "疑问词表语从句",
+     "The difficulty is where the group can store its equipment, because the small room is already full of chairs and tables.",
+     "where 从句作表语，说明困难是设备放在哪里。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The editor thinks that the report needs a clearer title.\nWhat does the editor think?\n1. The title needs to be clearer.\n2. The editor needs a new report.\n3. The report needs a new editor.\n4. The title is already clearer."
+    },
+    {
+     "p": "thinks 的主语是 editor，that 从句是编辑所想的内容：报告需要更清楚的标题。第一项说的就是这一点。"
+    }
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "role",
+    "proposition"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "The guide knows that the bridge is closed.",
+     "items": [
+      {
+       "stem": "What does the guide know?",
+       "options": [
+        "The bridge is closed.",
+        "The guide closed the bridge.",
+        "The bridge will soon reopen.",
+        "The guide wants the bridge closed."
+       ],
+       "answer": 0,
+       "why": "that 从句是 knows 的宾语，内容是桥已关闭。",
+       "point": "proposition"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Whether the road is open remains uncertain.",
+     "items": [
+      {
+       "stem": "What is the role of the whether clause?",
+       "options": [
+        "It modifies the road.",
+        "It is the subject.",
+        "It is the object of remains.",
+        "It is the complement of remains."
+       ],
+       "answer": 1,
+       "why": "whether 从句位于 remains 之前，作主语。",
+       "point": "role"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The question is how the team will travel.",
+     "items": [
+      {
+       "stem": "What is the question about?",
+       "options": [
+        "The team's past journey",
+        "The team's reason for travelling",
+        "The team's means of travel",
+        "Whether the team will travel"
+       ],
+       "answer": 2,
+       "why": "how 从句是表语，说明问题涉及出行方式。",
+       "point": "proposition"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "It is clear that the shop has closed.",
+     "items": [
+      {
+       "stem": "What is the role of it?",
+       "options": [
+        "It names the shop.",
+        "It names the closure.",
+        "It refers to an earlier sentence.",
+        "It is a formal subject."
+       ],
+       "answer": 3,
+       "why": "it 是形式主语，that 从句给出被判断的事实。",
+       "point": "role"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "role",
+    "proposition"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "The chairperson believes that the hall is large enough. The remaining question is whether the hall is available on Friday.",
+     "items": [
+      {
+       "stem": "What does the chairperson believe?",
+       "options": [
+        "The hall is available on Friday.",
+        "The hall has sufficient space.",
+        "The meeting will end on Friday.",
+        "The hall is too small for them."
+       ],
+       "answer": 1,
+       "why": "believes 后的 that 从句表示大厅足够大。",
+       "point": "proposition"
+      },
+      {
+       "stem": "What is the role of the whether clause?",
+       "options": [
+        "It is the subject of is.",
+        "It modifies the remaining question.",
+        "It is the object of believes.",
+        "It is the complement after is."
+       ],
+       "answer": 3,
+       "why": "whether 从句位于系动词 is 后，作表语。",
+       "point": "role"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-three",
+   "type": "check",
+   "title": "练习三",
+   "points": [
+    "role",
+    "proposition"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "What the group needs is a larger table.",
+     "items": [
+      {
+       "stem": "What is the role of the what clause?",
+       "options": [
+        "It is the subject.",
+        "It is the complement after is.",
+        "It modifies the table.",
+        "It is the object of needs."
+       ],
+       "answer": 0,
+       "why": "What the group needs 作主语，is 后的短语作表语。",
+       "point": "role"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The worker asked where the boxes should go.",
+     "items": [
+      {
+       "stem": "What did the worker ask about?",
+       "options": [
+        "The person who should move the boxes",
+        "The time when the boxes should go",
+        "The destination of the boxes",
+        "Whether the boxes should be moved"
+       ],
+       "answer": 2,
+       "why": "where 从句说明工人询问箱子应放在哪里。",
+       "point": "proposition"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "role",
+    "proposition"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "The cook believes that the soup needs more salt, while the guests are still waiting at the table for their meal.",
+       "items": [
+        {
+         "stem": "What does the cook believe?",
+         "options": [
+          "The guests want saltier soup.",
+          "The soup needs additional salt.",
+          "The meal has already been served.",
+          "The soup is ready to be served."
+         ],
+         "answer": 1,
+         "why": "believes 后的 that 从句说明汤需要更多盐。",
+         "point": "proposition"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "Whether the shop will open on Sunday remains uncertain, so the customers have been advised to check the notice before visiting.",
+       "items": [
+        {
+         "stem": "What is the role of the whether clause?",
+         "options": [
+          "It is the subject of remains.",
+          "It is the object of visiting.",
+          "It modifies the customers.",
+          "It is the complement of remains."
+         ],
+         "answer": 0,
+         "why": "Whether 从句作 remains 的主语，表示周日是否开店。",
+         "point": "role"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "The teacher asked where the children had left the books, and the children pointed to a shelf near the classroom door.",
+       "items": [
+        {
+         "stem": "What did the teacher ask about?",
+         "options": [
+          "The children who had taken the books",
+          "The time when the books were left",
+          "The place where the books were left",
+          "Whether the children had read the books"
+         ],
+         "answer": 2,
+         "why": "where 从句说明老师询问书的存放地点。",
+         "point": "proposition"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "The problem is that the room has no windows, although it has enough space for the whole group to meet there.",
+       "items": [
+        {
+         "stem": "What is the role of the that clause?",
+         "options": [
+          "It modifies the word problem.",
+          "It is the subject of has.",
+          "It is the object of meet.",
+          "It is the complement after is."
+         ],
+         "answer": 3,
+         "why": "that 从句位于 is 后，作表语，说明问题内容。",
+         "point": "role"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "It is surprising that the bus arrived early, since the road was busy and the passengers expected a much longer journey.",
+       "items": [
+        {
+         "stem": "What is surprising?",
+         "options": [
+          "That the road was always empty",
+          "That the bus arrived ahead of time",
+          "That the passengers expected a long trip",
+          "That the journey was expected to be short"
+         ],
+         "answer": 1,
+         "why": "it 是形式主语；that 从句说明令人惊讶的事是车早到。",
+         "point": "proposition"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "What the visitors want is a map of the garden, which the staff can provide at the desk beside the entrance.",
+       "items": [
+        {
+         "stem": "What is the role of the what clause?",
+         "options": [
+          "It is the subject of is.",
+          "It modifies the garden.",
+          "It is the object of provide.",
+          "It is the complement after is."
+         ],
+         "answer": 0,
+         "why": "What the visitors want 是主语，is 后给出所需之物。",
+         "point": "role"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "The manager asked whether the chairs had arrived, but the workers had not yet checked the delivery at the back door.",
+       "items": [
+        {
+         "stem": "What did the manager ask?",
+         "options": [
+          "Where the chairs had been delivered",
+          "When the chairs were going to arrive",
+          "Whether the chairs were already there",
+          "Whether the workers had checked the delivery"
+         ],
+         "answer": 2,
+         "why": "asked 的宾语从句以 whether 引导，询问椅子是否到达。",
+         "point": "proposition"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "The question is how the team can share the work, and the members will discuss that question at their next meeting.",
+       "items": [
+        {
+         "stem": "What is the role of the how clause?",
+         "options": [
+          "It describes the next meeting.",
+          "It is the subject of discuss.",
+          "It modifies the team members.",
+          "It is the complement after is."
+         ],
+         "answer": 3,
+         "why": "how 从句位于系动词 is 后，作表语，说明问题的内容。",
+         "point": "role"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

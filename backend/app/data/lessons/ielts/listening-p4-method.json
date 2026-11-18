@@ -1,0 +1,102 @@
+{
+ "id": "listening-p4-method",
+ "title": "学术独白的层次",
+ "goal": "区分学术独白的主题、解释、证据与结论，并对应提纲层次。",
+ "skill": "听力",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "hierarchy", "label": "区分主题、解释与例子"},
+  {"id": "outline", "label": "将独白内容对应到提纲层次"}
+ ],
+ "sources": [
+  {"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "学术独白的层次与听力课教学规格"}
+ ],
+ "cards": [
+  {
+   "id": "type", "type": "text", "title": "题型",
+   "body": [
+    {"p": "学术独白可以分成概念、解释、证据和结论四层。主题下面有多项内容，一个例子只说明其中一项。"},
+    {"box": "Topic: ways of studying movement\nExample: tracking the path of a tagged animal"},
+    {"p": "tracking 是研究运动的一种方法。提纲的标题应写 ways of studying movement，不写 tracking。"}
+   ]
+  },
+  {
+   "id": "steps", "type": "steps", "title": "解题步骤",
+   "steps": [
+    {"t": "1　确定主题", "d": "找出反复讨论的对象和问题。主题通常是概括性的名词，例子是具体的事物。"},
+    {"t": "2　区分层次", "d": "判断每句话是定义、解释还是证据。例子放在它所说明的概念下面。"},
+    {"t": "3　对应提纲", "d": "把各段内容对应到提纲的标题和缩进项目。标题要覆盖这一段的主要内容。"},
+    {"t": "4　核对结论", "d": "区分研究开始时的预测和观察之后的判断。结论里的范围限定要保留，如 in this comparison。"}
+   ]
+  },
+  {
+   "id": "levels", "type": "table", "title": "独白的层次",
+   "cols": ["层次", "作用", "例"],
+   "rows": [
+    ["概念", "界定讨论对象", "A survey records information from participants."],
+    ["解释", "说明概念或关系", "Questions can be grouped by topic."],
+    ["证据", "提供观察或例子", "In one survey, visitors reported their journeys."],
+    ["结论", "依据证据作判断", "The survey identified a frequent journey pattern."]
+   ]
+  },
+  {
+   "id": "worked", "type": "text", "title": "例题",
+   "body": [
+    {"box": "A researcher predicted that shade would slow the drying of paper. She compared sheets placed in shade and in direct sunlight. The shaded sheets remained damp for longer. In this small comparison, shade was associated with slower drying.\n\nWhich statement is the conclusion?\n1. Paper was compared in two locations.\n2. Shade was associated with slower drying in this comparison.\n3. The researcher predicted slower drying in shade.\n4. The shaded sheets remained damp for longer."},
+    {"p": "第二项是观察之后的判断，并保留了 in this comparison 这一范围，是结论。第三项是观察前的预测，第四项是观察到的结果。"}
+   ]
+  },
+  {
+   "id": "distractors", "type": "table", "title": "干扰项",
+   "cols": ["情况", "例", "排除方法"],
+   "rows": [
+    ["例子代替主题", "用 a tagged animal 代替 tracking methods", "看选项能否覆盖整段内容"],
+    ["预测代替结论", "用 predicted 的内容代替 found 的内容", "区分观察前的预测和观察后的判断"],
+    ["证据代替解释", "用 a survey result 代替 survey purpose", "看这句话在独白中的作用"],
+    ["扩大结论", "用 all samples 代替 these samples", "核对结论的范围限定"]
+   ]
+  },
+  {
+   "id": "practice-one", "type": "check", "title": "练习一", "points": ["hierarchy", "outline"],
+   "groups": [
+    {"audio": {"lines": [{"who": "A", "text": "A sample is a smaller group selected for study. For example, a researcher may select several leaves from one tree."}]}, "items": [{"stem": "What is the example?", "options": ["The definition of a sample", "Several leaves selected from one tree", "The entire tree under study", "The single tree that every sample comes from"], "answer": 1, "why": "For example 后面的 several leaves from one tree 是例子，即第二项。前一句是样本的定义。", "point": "hierarchy"}]},
+    {"audio": {"lines": [{"who": "A", "text": "The team expected the covered container to cool slowly. Measurements showed that it cooled more slowly than the uncovered container in this trial."}]}, "items": [{"stem": "Which statement gives the observation?", "options": ["The uncovered container cooled more slowly in the trial.", "The team expected the covered container to cool slowly.", "The team measured only one container.", "The covered container cooled more slowly in the trial."], "answer": 3, "why": "Measurements showed 后面是观察到的结果：盖着的容器降温更慢，即第四项。第二项是 expected 引出的预测，不是观察。", "point": "hierarchy"}]},
+    {"audio": {"lines": [{"who": "A", "text": "The project used two sources of evidence: photographs of the site and written descriptions from local archives."}]}, "items": [{"stem": "Which outline best groups the information?", "options": ["Evidence: photographs and written descriptions", "Conclusion: photographs and written descriptions", "Site photographs: archives and conclusions", "Local archives: sites and project predictions"], "answer": 0, "why": "two sources of evidence 把 photographs 和 written descriptions 都归为证据，即第一项。", "point": "outline"}]},
+    {"audio": {"lines": [{"who": "A", "text": "The lecturer first defines a model, then explains how a model can simplify a complex system."}]}, "items": [{"stem": "Which outline follows the lecture?", "options": ["Definition of a model, followed by an example", "Definition of a system, followed by its use", "Definition of a model, followed by its use", "A model's use, followed by its definition"], "answer": 2, "why": "first defines a model 先给定义，then explains how a model can simplify a complex system 再讲用途，即第三项。第四项把顺序颠倒了。", "point": "outline"}]}
+   ]
+  },
+  {
+   "id": "practice-two", "type": "check", "title": "练习二", "points": ["hierarchy", "outline"],
+   "groups": [{
+    "audio": {"lines": [{"who": "A", "text": "Today we will consider how researchers compare the properties of different papers. One property is absorbency, the amount of liquid that paper takes up. A comparison needs sheets of the same size and a measured amount of liquid. If those starting conditions differ, the result is harder to interpret. A team might predict that a thicker sheet will absorb more liquid. To investigate, the team can place equal amounts of water on several sheets and measure the water remaining. Suppose the thicker sheet takes up more water in this comparison. That result is evidence about the sheets tested. The team can then state that thickness was associated with greater uptake in that small comparison. It would need further comparisons before making a wider claim. Other properties can also be studied. For example, strength can be compared by recording the load a sheet supports. Absorbency and strength are different properties, so an observation about one does not by itself establish the other. A useful report identifies the property, explains the comparison and distinguishes the initial prediction from the result. The report can also describe which conditions were kept the same. This allows readers to understand the scope of the evidence and the conclusion drawn from it. A clear title can name the comparison as a whole, while separate headings identify the property, the method and the observations. The example of load belongs beneath strength."}]},
+    "items": [
+     {"stem": "What is the lecture mainly about?", "options": ["Ways to measure how much liquid paper absorbs", "Ways researchers compare the properties of paper", "The link between sheet thickness and water uptake", "Ways to test the strength of a paper sheet"], "answer": 1, "why": "开头的 how researchers compare the properties of different papers 是主题，即第二项。吸水性和强度是主题下面的两个例子。", "point": "hierarchy"},
+     {"stem": "Which statement is an initial prediction?", "options": ["Equal amounts of water are placed on sheets.", "The team records the water remaining.", "A thicker sheet will absorb more liquid.", "Thickness was associated with greater uptake."], "answer": 2, "why": "might predict 后面是 a thicker sheet will absorb more liquid，这是开始时的预测，即第三项。第四项是比较之后的判断。", "point": "hierarchy"},
+     {"stem": "Where does the load a sheet supports belong in an outline?", "options": ["Under a method for comparing strength", "Under a definition of absorbency", "Under a conclusion about all paper", "Under a prediction about water uptake"], "answer": 0, "why": "strength can be compared by recording the load 说明记录负荷是比较强度的方法，即第一项。", "point": "outline"}
+    ]
+   }]
+  },
+  {
+   "id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["hierarchy", "outline"],
+   "sets": [{"id": "set-a", "groups": [
+    {
+     "audio": {"lines": [{"who": "A", "text": "Today we will consider ways of studying how sound travels through materials. Sound can pass through solids, liquids and gases, but a comparison requires a clear method. One approach is to send a sound through a material and record when it reaches a receiver. The time measured depends on the distance as well as the material, so comparisons should take distance into account. Imagine a small classroom investigation using two lengths of the same metal. The investigator might predict that a signal will take longer to cross the longer piece. After measuring both, the investigator finds a longer travel time for the longer piece. This observation supports the prediction for the pieces tested. It does not establish the speed of sound in every metal. A second approach uses the same distance with different materials. Here the material changes while distance is held constant. A receiver can record the arrival of each signal, allowing the recorded times to be compared. These two approaches ask different questions: the first varies distance within one material; the second varies material over a fixed distance. In a report, the observation should be separated from the initial prediction. The conclusion should also identify the conditions of the comparison, so that a result for particular samples is not treated as a claim about every possible sample. The two methods can appear under separate headings in the report."}]},
+     "items": [
+      {"stem": "What is the broad topic of the lecture?", "options": ["Timing sound across two lengths of metal", "The speed of sound in every type of metal", "Methods for studying sound in materials", "The prediction of longer travel times"], "answer": 2, "why": "开头的 ways of studying how sound travels through materials 是主题，即第三项。后面的两种比较方法都在这个主题之下。第一项只是其中一个例子。", "point": "hierarchy"},
+      {"stem": "Which statement is the investigator's prediction?", "options": ["The longer piece is expected to take more time.", "The receiver records both arrival times.", "The material is varied over a fixed distance.", "The longer piece took more time in the measurement."], "answer": 0, "why": "might predict 后面是预测：信号穿过较长的金属需要更久，即第一项。第四项是测量之后的结果。", "point": "hierarchy"},
+      {"stem": "Where should the fixed-distance comparison appear in an outline?", "options": ["As a method that varies the distance", "As the conclusion about every metal", "As evidence for the longer travel time", "As a method that varies the material"], "answer": 3, "why": "依据是 the material changes while distance is held constant。距离固定、材料改变，所以归入改变材料的方法，即第四项。第一项是另一种方法。", "point": "outline"}
+     ]
+    },
+    {
+     "audio": {"lines": [{"who": "A", "text": "A collection of objects can be studied by grouping its items according to shared features. Classification means placing items into groups using stated criteria. The criteria depend on the question being asked. A collection of ceramic fragments, for instance, could be grouped by colour or by the shape of an edge. These are examples of possible criteria, not separate definitions of classification. Suppose a researcher wants to compare edge shapes. Before sorting the fragments, she predicts that rounded edges will be the most frequent in this collection. She then records the edge type for each fragment and counts the groups. In her count, straight edges occur more often than rounded ones. The observation therefore differs from her initial prediction. Her conclusion is that straight edges were the most frequent among the fragments she examined. The conclusion describes this collection; another collection might have a different pattern. The record of each fragment provides evidence for the count, while the classification criteria explain how the groups were formed. A report can put the definition first, followed by the chosen criteria, the count and the conclusion. This order makes the relationship between method and result clear. If the report mentioned only a rounded edge as its title, it would omit the wider subject of classification and comparison. The title should cover the procedure as well as its findings."}]},
+     "items": [
+      {"stem": "What is the function of colour in the lecture?", "options": ["It is the final conclusion of the count.", "It is the only permitted classification rule.", "It is the researcher's predicted result.", "It is an example of a grouping criterion."], "answer": 3, "why": "依据是 could be grouped by colour or by the shape of an edge 和 These are examples of possible criteria。colour 是分类标准的一个例子，即第四项。", "point": "hierarchy"},
+      {"stem": "Which conclusion follows the count?", "options": ["Rounded edges occur most often in every collection.", "Straight edges are most frequent in the examined fragments.", "Straight edges are most frequent in every ceramic collection.", "Rounded edges are the most frequent in this collection."], "answer": 1, "why": "依据是 straight edges were the most frequent among the fragments she examined，即第二项。第三项把结论扩大到所有收藏，原文说另一批收藏可能不同。", "point": "outline"},
+      {"stem": "Which outline follows the report order suggested?", "options": ["Definition, prediction, count, criteria", "Result, definition, count, prediction", "Definition, criteria, count, conclusion", "Conclusion, count, criteria, definition"], "answer": 2, "why": "依据是 put the definition first, followed by the chosen criteria, the count and the conclusion。顺序是定义、标准、计数、结论，即第三项。", "point": "outline"}
+     ]
+    }
+   ]}]
+  }
+ ]
+}

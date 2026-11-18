@@ -1,0 +1,476 @@
+{
+ "id": "listening-passage-inference",
+ "title": "听力篇章推断题",
+ "goal": "利用已知信息得出有限推断；排除扩大范围或加强程度的结论。",
+ "skill": "听力",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "basis",
+   "label": "利用已知信息得出有限推断"
+  },
+  {
+   "id": "limit",
+   "label": "排除扩大范围或加强程度的结论"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语六级（CET-6）：课表",
+   "url": "docs/syllabi/cet6.md",
+   "used": "听力篇章推断题的内容、知识点与练习规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "推断题根据已知信息推出一步结论。依据常来自三类信息：否定、比较、条件。结论要保留原文的对象、范围和程度。"
+    },
+    {
+     "box": "The workshop accepts bookings only from members. Lina has booked a place.\nWhat can be inferred? → Lina is a member."
+    },
+    {
+     "p": "只有会员能订位。Lina 订了位，所以 Lina 是会员。原文没有说所有会员都订了位。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定已知信息",
+     "d": "记下题干问的对象和有关的陈述。No visitor entered the hall before noon 只说中午以前的情况。"
+    },
+    {
+     "t": "2　辨认关系",
+     "d": "分清这句话是否定、比较还是条件。The new path is shorter than the old one 是比较，可推出旧路较长。"
+    },
+    {
+     "t": "3　推导一步结论",
+     "d": "把这个关系用到题干问的对象上。Only members can borrow tools; Ana borrowed one 表明 Ana 是会员。"
+    },
+    {
+     "t": "4　核对范围和程度",
+     "d": "原文有 some、usually、may，结论里也要保留。Some boxes were repaired 只能推出至少有一部分箱子修好了。"
+    }
+   ]
+  },
+  {
+   "id": "known",
+   "type": "table",
+   "title": "已知信息与推断",
+   "cols": [
+    "类型",
+    "已知信息",
+    "支持的推断"
+   ],
+   "rows": [
+    [
+     "否定",
+     "No guests arrived before noon. Mei arrived before noon.",
+     "Mei was not a guest."
+    ],
+    [
+     "否定",
+     "The north gate was closed all day. Lee entered the park that day.",
+     "Lee used an entrance other than the north gate."
+    ],
+    [
+     "比较",
+     "The walk takes less time than the bus ride.",
+     "The bus ride takes longer than the walk."
+    ],
+    [
+     "比较",
+     "The blue shelf holds more boxes than the green shelf.",
+     "The green shelf holds fewer boxes than the blue shelf."
+    ],
+    [
+     "条件",
+     "Only registered members may vote. Omar voted.",
+     "Omar was registered."
+    ],
+    [
+     "条件",
+     "A ticket is needed to enter. Ava entered.",
+     "Ava had a ticket."
+    ]
+   ]
+  },
+  {
+   "id": "limits",
+   "type": "table",
+   "title": "范围与程度",
+   "cols": [
+    "表达",
+    "可支持的结论",
+    "例"
+   ],
+   "rows": [
+    [
+     "some",
+     "至少有一部分。",
+     "Some stalls opened. → At least one stall opened."
+    ],
+    [
+     "usually",
+     "大多数情况，可以有例外。",
+     "The bus usually stops here. → It stops here on most trips."
+    ],
+    [
+     "may",
+     "有可能，还没有确定。",
+     "The rain may delay work. → A delay is possible."
+    ],
+    [
+     "only if",
+     "only if 后面的内容是必要条件。",
+     "Entry is allowed only if a ticket is shown. → Entry requires a ticket."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A craft fair was open to the public in the afternoon. Only registered sellers could enter before noon. Nora entered at ten to set up her stall. Some sellers arrived later because they shared transport."
+    },
+    {
+     "box": "What can be inferred about Nora?\n1. She shared transport with every seller.\n2. She was a registered seller.\n3. She arrived after the fair opened to the public.\n4. She was the only seller there before noon."
+    },
+    {
+     "p": "Only registered sellers could enter before noon 与 Nora entered at ten 表明 Nora 是已登记的摊主，即第二项。第一项把 Some sellers 拼车扩大成了所有摊主。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "扩大范围",
+     "Every seller shared transport.",
+     "some 只涉及部分摊主。"
+    ],
+    [
+     "加强程度",
+     "Rain will certainly delay the work.",
+     "may 只表明延误可能发生。"
+    ],
+    [
+     "颠倒比较",
+     "The shorter path takes more time.",
+     "原文说较短的路用时更少，选项把方向说反了。"
+    ],
+    [
+     "倒置条件",
+     "Every registered seller arrived before noon.",
+     "原文只说登记才能提前入场，没有说登记的摊主都提前到。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "basis",
+    "limit"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Only trained volunteers operate the food scale at the market. Rosa operated it on Saturday, while another volunteer arranged the bags. The market used the same scale throughout the morning, and staff checked it carefully before the first customers arrived."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What can be inferred about Rosa?",
+       "options": [
+        "She arranged all the bags at the market.",
+        "She operated the scale before it was checked.",
+        "She was trained to operate the food scale.",
+        "She checked the scale without another volunteer."
+       ],
+       "answer": 2,
+       "why": "Only trained volunteers operate the food scale 和 Rosa operated it 表明 Rosa 受过培训。",
+       "point": "basis"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Some books in the display were borrowed from local residents. The others came from the library's own collection. Staff wrote the owner's name on a card beside each book and planned to return the borrowed books after the display closed."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which conclusion is supported?",
+       "options": [
+        "Every displayed book came from a resident.",
+        "At least one displayed book came from a resident.",
+        "No library book appeared in the display.",
+        "Every resident lent a book for the display."
+       ],
+       "answer": 1,
+       "why": "Some books … were borrowed from local residents 至少包含一本借来的书。",
+       "point": "limit"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The east entrance was closed throughout the morning. Priya entered the building before noon to inspect the new display. Another entrance remained open for staff, while visitors were admitted later in the day through the east entrance after it reopened."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What follows about Priya's entry?",
+       "options": [
+        "She entered through a different entrance.",
+        "She entered after the east entrance reopened.",
+        "She opened the east entrance to visitors.",
+        "She inspected the display after visitors entered."
+       ],
+       "answer": 0,
+       "why": "east entrance was closed throughout the morning 与 entered … before noon 表明她从其他入口进入。",
+       "point": "basis"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The repair team may finish the gate on Friday. It usually works in the mornings, although this week it has also worked in the afternoon. The gate remains closed until the team finishes the repairs and checks the lock for safety."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which statement preserves the speaker's degree of certainty?",
+       "options": [
+        "The gate will certainly be ready on Friday.",
+        "The team will never work in the afternoon.",
+        "The lock has already passed its final check.",
+        "The repairs to the gate could end on Friday."
+       ],
+       "answer": 3,
+       "why": "may finish 表示周五完工是可能的，第四项保留这一程度。",
+       "point": "limit"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "basis",
+    "limit"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A community workshop has two routes from the station. The riverside route takes less time than the route through the park. Only registered members can use the workshop's equipment, and Sam used a sewing machine there last week. The room usually closes at six, although it stayed open later for a meeting on Tuesday. Some members attended that meeting; others left at the usual closing time."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What can be inferred about Sam?",
+       "options": [
+        "Sam registered as a workshop member.",
+        "Sam attended the Tuesday meeting.",
+        "Sam took the route through the park.",
+        "Sam left the room before six on Tuesday."
+       ],
+       "answer": 0,
+       "why": "Only registered members can use … equipment 与 Sam used a sewing machine 表明 Sam 已登记。",
+       "point": "basis"
+      },
+      {
+       "stem": "What is supported about the two routes?",
+       "options": [
+        "The park route is always closed at six.",
+        "The riverside route passes through the park.",
+        "The park route takes longer than the riverside route.",
+        "The two routes take the same amount of time."
+       ],
+       "answer": 2,
+       "why": "riverside route takes less time than the route through the park 支持第三项的反向比较。",
+       "point": "basis"
+      },
+      {
+       "stem": "What can be concluded about Tuesday's meeting?",
+       "options": [
+        "Every member stayed later for the meeting.",
+        "At least one member attended the meeting.",
+        "All members left before the meeting began.",
+        "No member used the workshop that week."
+       ],
+       "answer": 1,
+       "why": "Some members attended that meeting 支持至少一名会员参加。",
+       "point": "limit"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "basis",
+    "limit"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the passage.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Today I'm describing how a neighborhood photography group shares its equipment. The group owns cameras and lights, but it does not keep them in a public building. Instead, members collect the items from a locked room in the community center. Only members who have completed a short equipment session may borrow the lights. The session covers packing and returning the lights as well as setting them up. Last month, Elena borrowed a light for a portrait project. Another member, Theo, borrowed a camera for an exhibition but did not take a light. The group records each loan in a shared book. Some members return equipment on the same day, while others arrange a later return. The book shows the agreed date, so volunteers can tell when an item is expected back. The center usually closes at eight in the evening, but it stayed open until nine for a public event last Friday. The extra hour applied to the whole building, not just the equipment room. The group also compared two ways of carrying its lights. Its padded case is heavier than the fabric bag, although the bag is easier to fold and store. Members are free to choose either container after completing the session. The group may buy another light next year if the current one is frequently unavailable. For now, it plans to examine the loan book before making a purchase. The record helps distinguish occasional overlap from a regular shortage."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What can be inferred about Elena?",
+         "options": [
+          "She completed the equipment session.",
+          "She borrowed a camera for an exhibition.",
+          "She returned the light on the same day.",
+          "She led the session on packing lights."
+         ],
+         "answer": 0,
+         "why": "Only members who have completed a short equipment session may borrow the lights 与 Elena borrowed a light 表明她完成过培训。",
+         "point": "basis"
+        },
+        {
+         "stem": "Which comparison is supported?",
+         "options": [
+          "The fabric bag weighs more than the padded case.",
+          "The padded case is easier to fold than the bag.",
+          "The case and bag weigh exactly the same amount.",
+          "The fabric bag weighs less than the padded case."
+         ],
+         "answer": 3,
+         "why": "padded case is heavier than the fabric bag 表明布袋较轻。",
+         "point": "basis"
+        },
+        {
+         "stem": "What does the speaker imply about a new light?",
+         "options": [
+          "The group has already bought the light.",
+          "The purchase is possible but not yet decided.",
+          "The purchase is certain before the loan book is checked.",
+          "The group will buy a light whatever the loan book shows."
+         ],
+         "answer": 1,
+         "why": "may buy another light 和 plans to examine the loan book 表明购买尚未决定。",
+         "point": "limit"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the passage.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'd like to discuss how a community print studio handles requests for posters. The studio has a display room and a separate room containing a printing press. The press room was closed throughout Monday for equipment checks. On that day, a volunteer named David printed a poster for a visitor using a press in another room. The display room remained open to visitors during the checks. To request a poster, a visitor must complete an order form. On Tuesday, Amina requested and received a poster from the studio. Staff keep these forms with a record of the requested designs, so they can readily verify what was supplied. Some designs can be displayed publicly, but others are restricted to private use. Permission to display a design does not automatically include permission to print additional copies. Staff check the conditions for each design before approving a request. The studio also compared two methods of locating a design. A search by the artist's name took less time than browsing the printed list of all designs. However, the printed list gave the volunteer a useful overview of the collection. The staff usually review order records at the end of each week. An urgent request may be reviewed earlier, depending on who is available. The studio plans to record how often early reviews are needed before changing the schedule. Its aim is to make ordering straightforward while continuing to respect the conditions agreed with artists."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What can be inferred about David's work on Monday?",
+         "options": [
+          "He printed the poster outside the closed press room.",
+          "He reopened the press room for every visitor.",
+          "He performed the equipment checks after printing.",
+          "He closed the display room during the checks."
+         ],
+         "answer": 0,
+         "why": "press room was closed throughout Monday 与 printed … using a press in another room 说明海报在别处印制。",
+         "point": "basis"
+        },
+        {
+         "stem": "What follows about Amina's request?",
+         "options": [
+          "She received every design in the studio.",
+          "She completed a form to request the poster.",
+          "She obtained permission to print all designs.",
+          "She visited the press room on Monday."
+         ],
+         "answer": 1,
+         "why": "a visitor must complete an order form 与 Amina requested and received a poster 支持她完成订购表。",
+         "point": "basis"
+        },
+        {
+         "stem": "Which conclusion about public display is supported?",
+         "options": [
+          "Every design can be displayed publicly.",
+          "No design is available for private use.",
+          "At least one design can be displayed publicly.",
+          "All designs permit printing additional copies."
+         ],
+         "answer": 2,
+         "why": "Some designs can be displayed publicly 支持至少一个设计可公开展示，不能扩大到全部。",
+         "point": "limit"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

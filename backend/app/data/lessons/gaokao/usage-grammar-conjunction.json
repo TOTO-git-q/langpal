@@ -1,0 +1,404 @@
+{
+ "id": "usage-grammar-conjunction",
+ "title": "状语从句与并列连词",
+ "goal": "能根据分句间的关系选择状语从句引导词和并列连词。",
+ "skill": "语言运用",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "relation",
+   "label": "判断分句之间的时间或逻辑关系"
+  },
+  {
+   "id": "connector",
+   "label": "选择连接分句所需的连词"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语课程课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "教学内容与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "连词连接两个分句，同时表示它们之间的关系：时间、原因、条件、让步或并列。选连词先看两个分句意思上是什么关系，再看连接的是从句还是并列分句。"
+    },
+    {
+     "box": "When the rain stopped, the players returned. / The rain stopped, and the players returned."
+    },
+    {
+     "p": "第一句的 when 引导时间状语从句；第二句的 and 连接两个并列分句。"
+    }
+   ]
+  },
+  {
+   "id": "subordinate",
+   "type": "table",
+   "title": "状语从句",
+   "cols": [
+    "关系",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "时间",
+     "when 表示某事发生时",
+     "When the bell rang, the class left."
+    ],
+    [
+     "时间",
+     "while 表示一段时间内两个动作同时进行",
+     "While Mina cooked, Leo set the table."
+    ],
+    [
+     "原因",
+     "since 引出已知或明显的原因",
+     "Since the road was closed, we walked."
+    ],
+    [
+     "条件",
+     "unless 表示如果不",
+     "Unless it rains, we will cycle."
+    ],
+    [
+     "让步",
+     "although 引出的情况与主句的结果相反",
+     "Although the box was heavy, she lifted it."
+    ],
+    [
+     "对比",
+     "while 也可连接两种不同情况",
+     "The north is dry, while the south is wet."
+    ]
+   ]
+  },
+  {
+   "id": "coordinate",
+   "type": "table",
+   "title": "并列关系",
+   "cols": [
+    "关系",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "添加",
+     "and 连接并列的动作或事实",
+     "The bell rang, and the students left."
+    ],
+    [
+     "转折",
+     "but 连接意义相反的分句",
+     "The box was heavy, but she lifted it."
+    ],
+    [
+     "选择",
+     "or 连接可供选择的情况",
+     "We can walk, or we can take the bus."
+    ],
+    [
+     "否则",
+     "祈使句后用 or 表示否则",
+     "Leave now, or you will miss the train."
+    ],
+    [
+     "不叠用连词",
+     "although 从句后直接接主句，不加 but",
+     "Although it rained, the game continued."
+    ],
+    [
+     "不叠用连词",
+     "原因从句后直接接主句，不加 so",
+     "Since the road was closed, we walked."
+    ]
+   ]
+  },
+  {
+   "id": "contrast",
+   "type": "table",
+   "title": "辨析",
+   "cols": [
+    "关系",
+    "句子",
+    "区别"
+   ],
+   "rows": [
+    [
+     "时间与原因",
+     "When the light changed, we crossed. / Since the light had changed, we crossed.",
+     "when 表示时间；since 表示原因"
+    ],
+    [
+     "条件与让步",
+     "Unless it rains, we will play. / Although it is raining, we will play.",
+     "unless 表示条件；although 表示让步"
+    ],
+    [
+     "同时与转折",
+     "While I read, she wrote. / I read, but she wrote.",
+     "while 表示同时；but 表示转折"
+    ],
+    [
+     "添加与选择",
+     "I packed tea and she packed cups. / I can pack tea, or she can pack it.",
+     "and 补充一件事；or 提出另一种选择"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "relation"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Use the conjunction meaning 'at the time that': _____ the bell rang, the visitors entered.",
+       "accept": [
+        "when",
+        "When",
+        "as"
+       ],
+       "why": "时间关系由 when 表示。",
+       "point": "relation"
+      },
+      {
+       "stem": "Use the conjunction meaning 'because': _____ the path was closed, the walkers returned.",
+       "accept": [
+        "since",
+        "Since",
+        "because",
+        "as"
+       ],
+       "why": "since 引出道路关闭这一原因。",
+       "point": "relation"
+      },
+      {
+       "stem": "Use the conjunction meaning 'if not': _____ the gate is open, the delivery cannot enter.",
+       "accept": [
+        "unless",
+        "Unless"
+       ],
+       "why": "unless 表示如果大门不开。",
+       "point": "relation"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "connector"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Use a conjunction of contrast: The bag was small, _____ it held all the tools.",
+       "accept": [
+        "but",
+        "yet"
+       ],
+       "why": "体积小与装下全部工具形成转折，用 but，也可用 yet。",
+       "point": "connector"
+      },
+      {
+       "stem": "Use the conjunction meaning 'despite the fact that': _____ the bag was small, it held all the tools.",
+       "accept": [
+        "although",
+        "Although",
+        "though",
+        "even though"
+       ],
+       "why": "although 引导让步从句，主句前不再加 but。",
+       "point": "connector"
+      },
+      {
+       "stem": "Use a conjunction of addition: Nia opened the box, _____ Jo removed the paper.",
+       "accept": [
+        "and",
+        "while"
+       ],
+       "why": "两个动作并列，用 and 连接。",
+       "point": "connector"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-three",
+   "type": "check",
+   "title": "练习三",
+   "points": [
+    "relation",
+    "connector"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Use the conjunction meaning 'during the time that': _____ Ben painted, Ada cleaned the brushes.",
+       "accept": [
+        "while",
+        "While",
+        "as"
+       ],
+       "why": "两个动作同时进行，while 引出其中一个动作。",
+       "point": "relation"
+      },
+      {
+       "stem": "Use a conjunction of choice: We can call today, _____ we can write tomorrow.",
+       "accept": [
+        "or"
+       ],
+       "why": "两个方案供选择，用 or 连接。",
+       "point": "connector"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "relation",
+    "connector"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "A group planned an outdoor exhibition of drawings. Each drawing showed a place in the neighborhood, and the artists had written short descriptions to accompany their work. The group hoped to hang the pictures along the garden paths. [1] the forecast warned of rain, the group reserved a hall as well. On the morning of the exhibition, clouds gathered. [2] the first drops fell, the volunteers moved the drawings indoors. One volunteer carried the frames, [3] another arranged the tables at the same time. The hall was smaller than the garden, [4] it had enough space for every drawing. The volunteers placed the descriptions beside the pictures and left room for visitors to walk between the tables. A member of the group put a sign at the garden gate to explain the change of location. Visitors could enter through the front door, [5] they could use the side entrance. Both entrances led to the same display. By the end of the afternoon, many visitors had added comments to a shared notebook. The artists planned to read these comments together at their next meeting.",
+       "items": [
+        {
+         "stem": "[1] Use the conjunction meaning 'because': _____ the forecast warned of rain, the group reserved a hall as well.",
+         "accept": [
+          "since",
+          "Since",
+          "because",
+          "as"
+         ],
+         "why": "预报有雨是预留大厅的原因，since 引出原因。",
+         "point": "relation"
+        },
+        {
+         "stem": "[2] Use the conjunction meaning 'at the time that': _____ the first drops fell, the volunteers moved the drawings indoors.",
+         "accept": [
+          "when",
+          "When",
+          "as"
+         ],
+         "why": "when 表示雨滴落下时发生的动作。",
+         "point": "relation"
+        },
+        {
+         "stem": "[3] Use a conjunction of addition: One volunteer carried the frames, _____ another arranged the tables at the same time.",
+         "accept": [
+          "and",
+          "while"
+         ],
+         "why": "and 连接两个并列动作。句中有 at the same time，填 while 表示同时进行，也正确。",
+         "point": "connector"
+        },
+        {
+         "stem": "[4] Use a conjunction of contrast: The hall was smaller than the garden, _____ it had enough space for every drawing.",
+         "accept": [
+          "but",
+          "yet"
+         ],
+         "why": "大厅较小与空间足够形成转折，用 but，也可用 yet。",
+         "point": "connector"
+        },
+        {
+         "stem": "[5] Use a conjunction of choice: Visitors could enter through the front door, _____ they could use the side entrance.",
+         "accept": [
+          "or"
+         ],
+         "why": "or 连接两种入口选择。",
+         "point": "connector"
+        }
+       ]
+      },
+      {
+       "text": "A school group maintains a small vegetable garden. Its members grow several kinds of vegetables in separate beds and keep a record of the changes they observe. [1] the weather is very cold, the group meets there every Wednesday. If it is very cold, the meeting moves indoors. During indoor meetings, members read their notes and plan work for the following visit. One afternoon, [2] some members were watering the plants, others measured their height. [3] the tomato plants were still short, they already had flowers. The group recorded the measurements, [4] the teacher took photographs. The notes and photographs were placed in a folder. Each page had the date and the name of the plant. This made it possible to find an earlier record without searching through the whole folder. [5] the group returned the following week, the members compared the plants with the photographs. They noticed new leaves on several plants and added the observation to their records. At the end of the term, the group intended to use the folder to prepare a display for the school library.",
+       "items": [
+        {
+         "stem": "[1] Use the conjunction meaning 'if not': _____ the weather is very cold, the group meets there every Wednesday.",
+         "accept": [
+          "unless",
+          "Unless"
+         ],
+         "why": "unless 表示天气不太冷这一条件。",
+         "point": "relation"
+        },
+        {
+         "stem": "[2] Use the conjunction meaning 'during the time that': _____ some members were watering the plants, others measured their height.",
+         "accept": [
+          "while",
+          "While",
+          "as"
+         ],
+         "why": "while 表示两个动作同时进行。",
+         "point": "relation"
+        },
+        {
+         "stem": "[3] Use the conjunction meaning 'despite the fact that': _____ the tomato plants were still short, they already had flowers.",
+         "accept": [
+          "although",
+          "Although",
+          "though",
+          "even though"
+         ],
+         "why": "although 引导让步从句，主句前不加 but。",
+         "point": "connector"
+        },
+        {
+         "stem": "[4] Use a conjunction of addition: The group recorded the measurements, _____ the teacher took photographs.",
+         "accept": [
+          "and",
+          "while"
+         ],
+         "why": "and 连接记录和拍照两个并列动作。",
+         "point": "connector"
+        },
+        {
+         "stem": "[5] Use the conjunction meaning 'at the time that': _____ the group returned the following week, the members compared the plants with the photographs.",
+         "accept": [
+          "when",
+          "When",
+          "as"
+         ],
+         "why": "when 引出回到菜园的时间。",
+         "point": "relation"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

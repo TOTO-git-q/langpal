@@ -1,0 +1,37 @@
+{
+ "id": "translation-method",
+ "title": "段落翻译的意义对应",
+ "goal": "能提取原文信息并核对译文的意义。",
+ "skill": "翻译",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [{"id":"units","label":"提取原文必须保留的信息单位"},{"id":"meaning","label":"识别漏译、误译与无依据的增译"}],
+ "sources": [{"id":"c2","title":"大学英语六级考试大纲","url":"https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf","used":"翻译课程内容依据"}],
+ "cards": [
+  {"id":"type","type":"text","title":"题型","body":[{"p":"段落翻译要逐项核对四类信息：人物或事物、动作状态、修饰限制、逻辑关系。词序可以按英语结构调整。信息之间的关系不能改变。"},{"box":"原文：村里的工匠每年春天修复这座石桥。\n译文：Craftspeople in the village repair the stone bridge every spring."}]},
+  {"id":"steps","type":"steps","title":"解题步骤","steps":[{"t":"1　确定对象与动作","d":"找出动作的执行者、承受者和状态的主体。用谓语表达动作或状态。"},{"t":"2　标出修饰限制","d":"核对时间、地点、数量和范围。将限制信息放入适合英语结构的位置。"},{"t":"3　确定信息关系","d":"依据原文识别原因、结果或并列关系。译文保留原文明确表达的关系。"},{"t":"4　逐项核对译文","d":"比较原文与译文的信息单位。检查遗漏、关系变化和没有依据的增加。"}]},
+  {"id":"units","type":"table","title":"信息单位","cols":["信息","原文","译文"],"rows":[["对象与动作","研究人员记录了池塘里的水位变化。","Researchers recorded changes in the pond's water level."],["时间限制","这家小型博物馆在周末向公众开放。","The small museum opens to the public on weekends."],["范围限制","这项计划只支持当地的青年画家。","The program supports only local young painters."],["因果关系","由于河水上涨，渡船暂停了服务。","The ferry suspended service because the river rose."]] },
+  {"id":"example","type":"text","title":"例题","body":[{"p":"原文：由于道路结冰，村里的校车周一停运。译文需要保留原因、校车和周一停运的信息。"},{"box":"1. The village school bus stopped running on Monday because the road was icy.\n2. The village school bus stopped running on Monday.\n3. The village school bus made the road icy on Monday.\n4. All village buses stopped running on Monday because the road was icy."},{"p":"第一项保留原因、对象和时间。第二项遗漏原因，第三项改变因果关系，第四项扩大了车辆范围。"}]},
+  {"id":"errors","type":"table","title":"干扰项","cols":["情况","原文","译文对照"],"rows":[["漏译限制","图书馆只在下午开放阅览室。","The library opens the reading room in the afternoon. 缺少 only。"],["误译关系","雨停后，园丁开始浇灌幼苗。","The gardener stopped watering seedlings after the rain. 开始译成了停止。"],["无依据增译","志愿者整理了旧照片和信件。","Volunteers sorted old photographs and letters for a museum. for a museum 是原文没有的用途。"],["词序调整","去年秋天，学生们在校园种了树。","Students planted trees on campus last fall. 时间移到句末，信息不变。"]]},
+  {"id":"practice-a","type":"check","title":"练习一","points":["units","meaning"],"groups":[{"items":[
+   {"stem":"原文：这座工坊每年秋季举办木工展览。选择完整的译句。","options":["The workshop holds a woodworking exhibition every autumn.","The workshop holds a woodworking exhibition every spring.","The workshop held a woodworking exhibition last autumn.","The workshop holds an exhibition for local woodworkers."],"answer":0,"why":"原文限定每年秋季，第一项保留频率、时间和展览内容。","point":"units"},
+   {"stem":"原文：为了保护树木，居民改变了道路的路线。选择完整的译句。","options":["Residents protected the road by changing the trees.","Residents changed the route of the road to protect the trees.","Residents planted trees along the route of the road.","Residents changed the road after protecting the trees."],"answer":1,"why":"改变路线的目的是保护树木，第二项保留这一目的。","point":"units"},
+   {"stem":"原文：只有附近的农户参加了这次市场。选择完整的译句。","options":["Nearby farmers organized the market for all residents.","All farmers visited the market near their homes.","Only nearby farmers took part in the market.","Nearby farmers took part in every local market."],"answer":2,"why":"原文限定参加者为附近农户，第三项保留 only。","point":"meaning"},
+   {"stem":"原文：大雨过后，工作人员检查了桥梁。选择完整的译句。","options":["Staff repaired the bridge after heavy rain.","Staff checked the bridge before heavy rain.","Staff checked every bridge after heavy rain.","Staff inspected the bridge after heavy rain."],"answer":3,"why":"原文是大雨后检查桥梁，第四项保留动作与时间关系。","point":"meaning"}
+  ]}]},
+  {"id":"practice-b","type":"check","title":"练习二","points":["units","meaning"],"groups":[{"items":[
+   {"stem":"原文：由于水位下降，船只暂时不能通过这条河道。选择完整的译句。","options":["Boats are temporarily unable to pass through the channel because the water level has fallen.","Boats are temporarily unable to pass through the channel because the water level has risen.","Boats are permanently unable to pass through the channel because the water level has fallen.","Boats are temporarily unable to pass through the channel because the banks have collapsed."],"answer":0,"why":"原文的原因是水位下降，限制是暂时不能通过。第一项两点都保留。","point":"units"},
+   {"stem":"原文：这位教师在课后向学生展示了古老的地图。选择完整的译句。","options":["The teacher showed students modern maps after class.","The teacher showed students old maps after class.","The students showed the teacher old maps after class.","The teacher sold students old maps after class."],"answer":1,"why":"教师在课后展示古老地图，第二项保留对象和动作。","point":"meaning"}
+  ]}]},
+  {"id":"timed","type":"quiz","title":"小测","minutes":6,"pass":0.8,"points":["units","meaning"],"sets":[{"id":"set-a","groups":[{"items":[
+   {"stem":"原文：这个社区每月为老人提供免费的午餐。选择完整的译句。","options":["The community provides free lunches for children every month.","The community provides free lunches for older people every week.","The community provides free lunches for older people every month.","The community sells inexpensive lunches to older people every month."],"answer":2,"why":"原文限定对象、费用和频率，第三项完整保留。","point":"units"},
+   {"stem":"原文：为了节约用水，学校修复了漏水的管道。选择完整的译句。","options":["The school replaced the leaking pipes to save water.","The school repaired the leaking pipes after saving water.","The school repaired the leaking pipes to measure water use.","The school repaired the leaking pipes to save water."],"answer":3,"why":"原文的动作是修复漏水管道，目的是节约用水，第四项两点都保留。第一项把修复译成了更换。","point":"units"},
+   {"stem":"原文：只有村里的年轻人参加了这次培训。选择完整的译句。","options":["Only young people from the village attended the training.","Young people from every village attended the training.","Only young people from the village organized the training.","Young people from the village attended every training session."],"answer":0,"why":"only 限定参加者，第一项保留原文范围。","point":"meaning"},
+   {"stem":"原文：由于大雾，渡轮推迟了早上的航班。选择完整的译句。","options":["The ferry canceled its morning sailing because of fog.","The ferry delayed its morning sailing because of fog.","The ferry delayed its evening sailing because of fog.","The ferry delayed its morning sailing before the fog."],"answer":1,"why":"原文说明大雾导致早班渡轮推迟，第二项保持这一关系。","point":"meaning"},
+   {"stem":"原文：志愿者每周为村里的孩子整理图书。排列译句。","lead":"Volunteers","chunks":["sort","books","for the children","in the village every week"],"tail":".","extra":["every year"],"why":"sort books 表达整理图书，后续词块保留对象和频率。","point":"units"},
+   {"stem":"原文：由于天气寒冷，工人们关闭了温室的窗户。排列译句。","lead":"The workers","chunks":["closed","the greenhouse windows","because","the weather was cold"],"tail":".","extra":["although"],"why":"because 引出关窗的原因，the greenhouse windows 是关闭的对象。","point":"units"},
+   {"stem":"原文：博物馆只在周日展示这些古老的工具。排列译句。","lead":"The museum","chunks":["displays","these","old tools","only on Sundays"],"tail":".","extra":["on Mondays"],"why":"only on Sundays 保留只在周日的时间限制。","point":"meaning"},
+   {"stem":"原文：农民在收获后将谷物送到附近的市场。排列译句。","lead":"Farmers","chunks":["take","the grain","to the nearby","market after the harvest"],"tail":".","extra":["before the harvest"],"why":"after the harvest 保留收获后的时间关系。","point":"meaning"}
+  ]}]}]}
+ ]
+}

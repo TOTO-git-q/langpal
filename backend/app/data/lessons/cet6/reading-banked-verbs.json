@@ -1,0 +1,57 @@
+{
+ "id": "reading-banked-verbs",
+ "title": "动词形式的结构限制",
+ "goal": "判断动词的句法功能并选择符合结构的已有形式。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "function", "label": "判断空位是否需要谓语动词"},
+  {"id": "form", "label": "选择符合结构的既有动词形式"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读任务及材料范围"}],
+ "cards": [
+  {"id": "intro", "type": "text", "title": "概述", "body": [
+   {"p": "谓语说明主语的动作或状态。动名词、不定式和分词不作谓语，在句中作主语、宾语、定语、状语等。"},
+   {"p": "先看空位前面是主语、助动词还是介词，再从词库中选词形。词库中的词按原样代入，不改词形。"}
+  ]},
+  {"id": "finite", "type": "table", "title": "谓语与助动词", "cols": ["结构", "形式", "例句"], "rows": [
+   ["情态动词", "can 后接原形", "The panel can reduce noise."],
+   ["情态动词", "may 后接原形", "The seal may prevent leaks."],
+   ["情态动词", "must 后接原形", "The lid must fit tightly."],
+   ["完成结构", "have 后接过去分词", "The teams have finished the tests."],
+   ["完成结构", "has 后接过去分词", "The guide has explained the route."],
+   ["完成结构", "had 后接过去分词", "The rain had stopped before noon."]
+  ]},
+  {"id": "nonfinite", "type": "table", "title": "非谓语与被动", "cols": ["结构", "形式", "例句"], "rows": [
+   ["介词后", "动名词作介词宾语", "They discussed the plan before leaving."],
+   ["介词后", "动名词作介词宾语", "She improved the design by testing it."],
+   ["介词后", "动名词作介词宾语", "The team focused on measuring heat."],
+   ["不定式", "to 后接原形，表示目的", "They paused to compare the readings."],
+   ["分词", "现在分词可修饰名词", "The pipe carrying water is underground."],
+   ["被动结构", "be 后接过去分词", "The samples were labelled."],
+   ["被动结构", "be 后接过去分词", "The bridge is inspected annually."],
+   ["被动结构", "be 后接过去分词", "The entries were checked twice."]
+  ], "note": "动名词和现在分词都以 -ing 结尾，要看它在句中的功能来区分。"},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["function"], "groups": [{"items": [
+   {"stem": "In 'The visitors observed the birds', what is the finite verb?", "options": ["visitors", "observed", "birds", "observed the birds"], "answer": 1, "why": "observed 是主语 visitors 的限定动词，即第二项。第四项还带上了宾语 the birds。", "point": "function"},
+   {"stem": "In 'The machine stopped after producing ten parts', what is the function of 'producing'?", "options": ["Finite verb of the main clause", "Subject of the main clause", "Object of the verb stopped", "Part of the object of after"], "answer": 3, "why": "producing 引出动名词短语，作介词 after 的宾语，即第四项。", "point": "function"}
+  ]}]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["form"], "groups": [{"items": [
+   {"stem": "Which word completes 'The cover can ___ the document'?", "options": ["protected", "protecting", "protect", "protection"], "answer": 2, "why": "can 后接动词原形 protect，即第三项。", "point": "form"},
+   {"stem": "Which word completes 'The researchers have ___ the data'?", "options": ["analyzed", "analyzing", "analyze", "analysis"], "answer": 0, "why": "have 后接过去分词 analyzed，即第一项。", "point": "form"}
+  ]}]},
+  {"id": "check-three", "type": "check", "title": "练习三", "points": ["function", "form"], "groups": [{"items": [
+   {"stem": "In 'The box containing the tools was heavy', which word is the main-clause finite verb?", "options": ["containing", "tools", "heavy", "was"], "answer": 3, "why": "主句谓语是 was；containing 引出修饰 box 的分词短语。", "point": "function"},
+   {"stem": "Which word completes 'The files were ___ before delivery'?", "options": ["check", "checked", "checking", "checks"], "answer": 1, "why": "were 与过去分词 checked 构成被动结构，即第二项。", "point": "form"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["function", "form"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "In 'The label identifies the source of the sample', what is the finite verb?", "options": ["identifies", "label", "source", "sample"], "answer": 0, "why": "identifies 是主语 label 的谓语，即第一项。", "point": "function"},
+   {"stem": "In 'The students paused to review their notes', what is the function of 'to review'?", "options": ["The finite verb of the sentence", "The subject of paused", "An infinitive expressing purpose", "The object of the preposition to"], "answer": 2, "why": "to review 表示停下来的目的，主句谓语是 paused。", "point": "function"},
+   {"stem": "In 'The path leading to the lake is narrow', which word is the main-clause finite verb?", "options": ["leading", "lake", "narrow", "is"], "answer": 3, "why": "is 是主句谓语；leading 引出修饰 path 的分词短语。", "point": "function"},
+   {"stem": "Which word completes 'The team may ___ another method'?", "options": ["tried", "try", "trying", "trial"], "answer": 1, "why": "may 后接动词原形 try，即第二项。", "point": "form"},
+   {"stem": "Which word completes 'She recorded the result after ___ the sample'?", "options": ["weigh", "weighed", "weighing", "weight"], "answer": 2, "why": "介词 after 后用动名词 weighing，即第三项。", "point": "form"},
+   {"stem": "Which word completes 'The reports have been ___ by the editor'?", "options": ["reviewed", "review", "reviewing", "reviews"], "answer": 0, "why": "have been 后用过去分词 reviewed 构成完成时的被动结构。", "point": "form"}
+  ]}]}]}
+ ]
+}

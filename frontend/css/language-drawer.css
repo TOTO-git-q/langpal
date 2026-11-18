@@ -1,0 +1,42 @@
+/* language-drawer.css — 语言抽屉（阅读页、设置里「添加学习语言」）：已有语言 + 搜索添加 + 自定义语言。 */
+
+.language-drawer {
+  inset: 0 0 0 auto; margin: 0; width: min(420px, 100vw); max-width: 100vw;
+  height: 100dvh; max-height: 100dvh; padding: 0; overflow: hidden;
+  border-width: 0 0 0 3px;
+}
+.language-drawer[open] { display: flex; flex-direction: column; }
+.language-drawer > header {
+  flex: none; display: flex; align-items: center; justify-content: space-between; gap: var(--gap-2);
+  padding: var(--gap-2) var(--gap-3); background: linear-gradient(90deg, var(--title), var(--title-2)); border-bottom: var(--bw) solid var(--tbink);
+}
+.language-drawer h2 { font-size: var(--fs-h); color: var(--tbink); }
+.language-drawer > header button { min-height: 22px; width: 24px; padding: 0; background: var(--pink); color: var(--on-dark); }
+.language-drawer h3 { margin-bottom: var(--gap-2); font-size: var(--fs-ui); color: var(--tbink); }
+.language-drawer-known { flex: none; max-height: 25dvh; overflow: auto; padding: var(--gap-3); border-bottom: 1px solid var(--line-soft); }
+.language-drawer-known > div { display: flex; flex-wrap: wrap; gap: 6px; }
+.language-drawer-add { flex: 1; min-height: 0; display: flex; flex-direction: column; padding: var(--gap-3); overflow: auto; }
+.language-drawer footer { flex: none; padding: var(--gap-2) var(--gap-3); border-top: var(--bw) solid var(--tbink); background: var(--gamepink); }
+.language-drawer footer:has(> div:empty) { display: none; }
+.language-drawer footer div { display: flex; flex-wrap: wrap; gap: 6px; }
+
+/* 搜索 + 结果列表（language-picker.js） */
+.jine-language-search { display: block; margin-bottom: var(--gap-2); }
+.jine-language-search input { width: 100%; }
+.jine-dialog-note { margin-bottom: var(--gap-2); font-size: var(--fs-ui); color: var(--rust); overflow-wrap: anywhere; }
+.jine-dialog-note:empty { display: none; }
+.jine-language-results { flex: 1; min-height: 100px; overflow: auto; list-style: none; border-top: var(--bw) solid var(--tbink); }
+.jine-language-results li > button {
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto; justify-content: stretch; gap: var(--gap-2);
+  width: 100%; min-height: 36px; padding: 0 var(--gap-2); border: 0; border-bottom: 1px solid var(--line-soft);
+  background: transparent; color: var(--ink); font-weight: 400; text-align: start;
+}
+.jine-language-results li > button:hover { background: var(--panel); }
+.jine-language-results strong { overflow-wrap: anywhere; }
+.jine-language-results button span { font-size: var(--fs-s); color: var(--muted); overflow-wrap: anywhere; }
+.jine-language-results button .jine-language-action { color: var(--tbink); font-weight: 700; }
+.jine-language-results li:not(:has(button)) { padding: var(--gap-3) var(--gap-2); color: var(--muted); }
+.jine-language-custom { flex: none; padding-top: var(--gap-3); font-size: var(--fs-ui); }
+.jine-language-custom form { display: grid; gap: var(--gap-2); padding-top: var(--gap-2); }
+.jine-language-custom label { display: grid; gap: var(--gap-1); font-weight: 700; color: var(--tbink); }
+.jine-language-custom .jine-primary { justify-self: start; }

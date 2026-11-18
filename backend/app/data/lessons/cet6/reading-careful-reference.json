@@ -1,0 +1,68 @@
+{
+ "id": "reading-careful-reference",
+ "title": "段内指代与逻辑",
+ "goal": "确定指代的对象或命题，利用衔接信息理解句间关系。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "referent", "label": "确定指代词对应的对象或命题"},
+  {"id": "relation", "label": "利用衔接信息理解句间关系"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读理解能力的课程安排"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "段内衔接把相邻的信息联系起来。代词回指前面的名词。this 或 such 可以概括前文说的一件事。省略的成分可以从前文补出。"},
+   {"box": "The center extended its hours. This gave residents more time to visit."},
+   {"p": "This 指延长开放时间这一事实。确定指代后，还要结合转折、让步或递进关系理解前后句。"}
+  ]},
+  {"id": "reference-types", "type": "table", "title": "指代与省略", "cols": ["类型", "例句", "对应内容"], "rows": [
+   ["代词回指", "Mina borrowed a map. She returned it on Monday.", "She 指 Mina；it 指地图"],
+   ["代词回指", "The letters were copied. They remained in storage.", "They 指原件信件"],
+   ["指示词概括", "The hours were extended. This made visits easier.", "This 指延长开放时间"],
+   ["指示词概括", "The roof leaked. Such damage required repair.", "Such damage 指屋顶漏水造成的损坏"],
+   ["省略复现", "The first room has a ramp; the second does not.", "does not 省略 have a ramp"],
+   ["省略复现", "Lina chose a map, and Omar a photograph.", "Omar 后省略 chose"]
+  ]},
+  {"id": "relations", "type": "table", "title": "句间逻辑", "cols": ["关系", "例句", "信息关系"], "rows": [
+   ["转折", "The map is old. However, it is still accurate.", "旧与仍准确形成转折"],
+   ["转折", "The hall is small, but it holds the whole group.", "小与容纳全组形成转折"],
+   ["让步", "Although the trial was brief, it provided useful data.", "试行短仍提供有用数据"],
+   ["让步", "The route is longer; nevertheless, it is safer.", "路线较长仍较安全"],
+   ["递进", "The center lends tools. It also teaches repairs.", "在借工具之外增加教学"],
+   ["递进", "The office printed the list. In addition, it sent copies.", "打印之外增加发送副本"]
+  ]},
+  {"id": "demonstratives", "type": "table", "title": "指示词的对象", "cols": ["词语", "例句", "对应内容"], "rows": [
+   ["this", "The bus stopped running. This delayed the group.", "公交停运这一事实"],
+   ["those", "The new maps are clearer than those from last year.", "去年的地图"],
+   ["such", "The road was flooded. Such conditions delayed travel.", "道路被水淹的状况"],
+   ["this", "The office added a desk. This reduced waiting time.", "增设服务台这一措施"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "The office extended its opening hours on Fridays. This allowed more residents to visit after work. However, the Saturday schedule remained unchanged.\nWhat does 'This' refer to?\n1. The unchanged Saturday schedule\n2. The extension of Friday hours\n3. The residents' working hours\n4. The office's Saturday visitors"},
+   {"p": "This 回指前句的措施：周五延长开放时间。第二句是这一措施的结果。however 引出对比：周六的安排没有变。答案是第二项。"}
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["referent"], "groups": [
+   {"look": "passage", "text": "A team collected the maps. It copied them before returning them.", "items": [{"stem": "What does 'them' refer to?", "options": ["The team that collected the maps", "The maps collected by the team", "The copies the team made", "The places the maps went back to"], "answer": 1, "why": "them 回指前句被收集的 maps。团队复印的是地图，归还的也是地图，即第二项。", "point": "referent"}]},
+   {"look": "passage", "text": "The new lists are shorter than those from last month.", "items": [{"stem": "What does 'those' refer to?", "options": ["The months on the lists", "The items on last month's lists", "The lists from last month", "The new lists from this month"], "answer": 2, "why": "those 代替复数名词 lists，并由 from last month 限定。", "point": "referent"}]}
+  ]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["relation"], "groups": [
+   {"look": "passage", "text": "The museum provides maps. It also offers short guided tours.", "items": [{"stem": "How are the two sentences related?", "options": ["The tours replace the maps the museum provides.", "The tours are the reason the museum provides maps.", "The tours contrast with the maps in purpose.", "The tours are offered in addition to the maps."], "answer": 3, "why": "also 表示在提供地图之外，博物馆还提供导览，即第四项。", "point": "relation"}]},
+   {"look": "passage", "text": "Although the room is small, it holds the entire group.", "items": [{"stem": "What relation does 'although' express?", "options": ["The whole group fits despite the room's size.", "The group fits because the room is very large.", "The room is small because the group is large.", "The group is small, so the room holds it."], "answer": 0, "why": "although 引出让步：房间虽小，仍能容纳全组。", "point": "relation"}]}
+  ]},
+  {"id": "check-three", "type": "check", "title": "练习三", "points": ["referent", "relation"], "groups": [
+   {"look": "passage", "text": "The road flooded after heavy rain. Such conditions delayed deliveries. However, the office remained open.", "items": [
+    {"stem": "What does 'such conditions' refer to?", "options": ["The office staying open as usual", "The flooded road after heavy rain", "The delays to the office's deliveries", "The rain that fell on the office"], "answer": 1, "why": "Such conditions 概括前句的状况：大雨后道路被淹，即第二项。", "point": "referent"},
+    {"stem": "What does 'however' introduce?", "options": ["A further result of the flooded road", "A description of another flooded road", "A contrasting fact about the office", "A restatement of the delivery delay"], "answer": 2, "why": "however 引出与送货延误形成对照的事实：办公室仍然开放。", "point": "relation"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["referent", "relation"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "The library extended its evening hours. This allowed more students to visit after class.", "items": [{"stem": "What does 'This' refer to?", "options": ["The longer evening hours at the library", "The students' visits after their classes", "The library's usual daytime opening hours", "The time when students' classes end"], "answer": 0, "why": "This 回指前句的措施：图书馆延长夜间开放时间，即第一项。第二项是这一措施的结果。", "point": "referent"}]},
+   {"look": "passage", "text": "The old catalog lists donors. The new catalog lists donors and also includes subjects.", "items": [{"stem": "What does 'also' indicate?", "options": ["Subjects replace donors in the new catalog.", "Subject entries add to the donor listings.", "The old catalog lists only subject entries.", "Donor entries are absent from both catalogs."], "answer": 1, "why": "also 表示新目录除列捐赠者外，还增加主题。", "point": "relation"}]},
+   {"look": "passage", "text": "The new tools are stored separately from those used last year.", "items": [{"stem": "What does 'those' refer to?", "options": ["The rooms used last year", "The new tools in storage", "The tools used last year", "The storage used last year"], "answer": 2, "why": "those 代替 tools，used last year 限定其所指。", "point": "referent"}]},
+   {"look": "passage", "text": "The hall is small. Nevertheless, it accommodated the entire meeting.", "items": [{"stem": "How does the second sentence relate to the first?", "options": ["It says the hall was too small for the meeting.", "It adds a further detail about the hall's small size.", "It names the meeting as the cause of the hall's size.", "It states a result despite the hall's small size."], "answer": 3, "why": "Nevertheless 表示让步：大厅虽小，仍容纳了整个会议，即第四项。", "point": "relation"}]},
+   {"look": "passage", "text": "The path was covered by snow. Such conditions delayed the delivery.", "items": [{"stem": "What does 'such conditions' refer to?", "options": ["The delivery's usual schedule", "The snow covering the path", "The delay to the delivery", "The path the delivery usually took"], "answer": 1, "why": "Such conditions 概括前句的状况：道路被雪覆盖，即第二项。", "point": "referent"}]},
+   {"look": "passage", "text": "The first guide brought a map, while the second brought a schedule.", "items": [{"stem": "What relationship does 'while' express here?", "options": ["A contrast between what the guides brought", "A cause of the first guide's missing map", "A result of changing the tour schedule", "An addition to what only the first guide brought"], "answer": 0, "why": "while 连接两个分句，对比两位导游分别带来的东西。", "point": "relation"}]}
+  ]}]}
+ ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "langpal-desktop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "LangPal desktop shell (Electron) - launches the Python backend and loads the web frontend as a standalone app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^44.0.0"
+  },
+  "dependencies": {
+    "rcedit": "^5.0.2"
+  }
+}

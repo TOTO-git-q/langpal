@@ -1,0 +1,737 @@
+{
+ "id": "listening-conversation-idioms",
+ "title": "对话中的口语表达",
+ "goal": "能结合上下文理解口语表达及回应意图。",
+ "skill": "听力",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "vocab",
+   "label": "识别口语表达的语境义"
+  },
+  {
+   "id": "intent",
+   "label": "依据口语表达判断回应意图"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "课程内容依据的考试大纲"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "口语表达的意思要结合上下文判断。委婉的回应可以是同意、拒绝，也可以是保留意见。"
+    },
+    {
+     "box": "A: Can we meet today?\nB: I'm afraid I can't. I'm away until tomorrow."
+    },
+    {
+     "p": "I'm afraid 在这里引出拒绝，意思不是害怕。拒绝的原因是今天不在。"
+    }
+   ]
+  },
+  {
+   "id": "agreement",
+   "type": "table",
+   "title": "同意与反对",
+   "cols": [
+    "表达",
+    "词性",
+    "中文义",
+    "两轮语境"
+   ],
+   "rows": [
+    [
+     "I'm all for it",
+     "惯用语",
+     "完全赞成",
+     "A: Shall we share the notes? B: I'm all for it."
+    ],
+    [
+     "That works for me",
+     "惯用语",
+     "我同意这个安排",
+     "A: Meet at noon? B: That works for me."
+    ],
+    [
+     "I couldn't agree more",
+     "惯用语",
+     "完全同意",
+     "A: The route is too long. B: I couldn't agree more."
+    ],
+    [
+     "You have a point",
+     "惯用语",
+     "所说的有道理",
+     "A: A smaller room costs less. B: You have a point."
+    ],
+    [
+     "I'm with you on that",
+     "惯用语",
+     "在这一点上同意",
+     "A: The instructions need examples. B: I'm with you on that."
+    ],
+    [
+     "I'm not so sure",
+     "惯用语",
+     "对此有保留",
+     "A: The repair will be quick. B: I'm not so sure."
+    ],
+    [
+     "I see it differently",
+     "惯用语",
+     "看法不同",
+     "A: The sign is clear. B: I see it differently."
+    ],
+    [
+     "I'd rather not",
+     "惯用语",
+     "宁愿不这样做",
+     "A: Shall we postpone? B: I'd rather not."
+    ],
+    [
+     "I'm afraid I disagree",
+     "惯用语",
+     "委婉表示不同意",
+     "A: The plan is complete. B: I'm afraid I disagree."
+    ],
+    [
+     "That makes sense",
+     "惯用语",
+     "这个说法有道理",
+     "A: Let's label each box. B: That makes sense."
+    ]
+   ],
+   "note": "You have a point 只承认对方说的这一点有道理。是否接受整个方案，看后面的话。"
+  },
+  {
+   "id": "difficulty",
+   "type": "table",
+   "title": "困难与变化",
+   "cols": [
+    "表达",
+    "词性",
+    "中文义",
+    "两轮语境"
+   ],
+   "rows": [
+    [
+     "run into trouble",
+     "动词短语",
+     "遇到困难",
+     "A: How did the repair go? B: We ran into trouble with a loose wire."
+    ],
+    [
+     "hit a snag",
+     "动词短语",
+     "遇到障碍",
+     "A: Is the order ready? B: We hit a snag with the address."
+    ],
+    [
+     "be short of",
+     "形容词短语",
+     "缺少",
+     "A: Can we print more? B: We're short of paper."
+    ],
+    [
+     "run out of",
+     "动词短语",
+     "用完",
+     "A: Is there any glue? B: We've run out of it."
+    ],
+    [
+     "fall behind",
+     "动词短语",
+     "落后于进度",
+     "A: Is the draft on schedule? B: We've fallen behind."
+    ],
+    [
+     "catch up",
+     "动词短语",
+     "赶上进度",
+     "A: Can we finish the draft? B: We can catch up tomorrow."
+    ],
+    [
+     "turn out",
+     "动词短语",
+     "结果是",
+     "A: How was the trip? B: It turned out well."
+    ],
+    [
+     "work out",
+     "动词短语",
+     "顺利解决",
+     "A: Did the exchange succeed? B: Yes, it worked out."
+    ],
+    [
+     "come up",
+     "动词短语",
+     "发生",
+     "A: Why did you leave early? B: Something came up at home."
+    ],
+    [
+     "be up in the air",
+     "形容词短语",
+     "尚未确定",
+     "A: Is the venue fixed? B: It's still up in the air."
+    ]
+   ],
+   "note": "be short of 表示不足；run out of 表示已经用完。"
+  },
+  {
+   "id": "arrangements",
+   "type": "table",
+   "title": "安排与期限",
+   "cols": [
+    "表达",
+    "词性",
+    "中文义",
+    "两轮语境"
+   ],
+   "rows": [
+    [
+     "put off",
+     "动词短语",
+     "推迟",
+     "A: Can we meet today? B: Let's put it off until Friday."
+    ],
+    [
+     "bring forward",
+     "动词短语",
+     "提前",
+     "A: Can we meet sooner? B: Let's bring the meeting forward."
+    ],
+    [
+     "set aside",
+     "动词短语",
+     "留出",
+     "A: When can we review it? B: I'll set aside an hour."
+    ],
+    [
+     "pencil in",
+     "动词短语",
+     "暂定",
+     "A: Is Tuesday possible? B: I'll pencil it in."
+    ],
+    [
+     "put on hold",
+     "动词短语",
+     "暂缓",
+     "A: Are we ordering now? B: Let's put the order on hold."
+    ],
+    [
+     "ahead of schedule",
+     "介词短语",
+     "提前于计划",
+     "A: Is the model ready? B: Yes, we're ahead of schedule."
+    ],
+    [
+     "behind schedule",
+     "介词短语",
+     "晚于计划",
+     "A: Is the model ready? B: No, we're behind schedule."
+    ],
+    [
+     "at short notice",
+     "介词短语",
+     "临时通知",
+     "A: Can you attend tomorrow? B: Yes, even at short notice."
+    ],
+    [
+     "in the meantime",
+     "副词短语",
+     "在此期间",
+     "A: The parts arrive Friday. B: In the meantime, I'll check the plans."
+    ],
+    [
+     "by the end of",
+     "介词短语",
+     "最迟到……结束时",
+     "A: When is the summary due? B: By the end of Monday."
+    ]
+   ],
+   "note": "pencil in 是暂定，之后还要确认。"
+  },
+  {
+   "id": "decisions",
+   "type": "table",
+   "title": "建议与决定",
+   "cols": [
+    "表达",
+    "词性",
+    "中文义",
+    "两轮语境"
+   ],
+   "rows": [
+    [
+     "Why don't we",
+     "惯用语",
+     "建议一起做某事",
+     "A: The path is closed. B: Why don't we take the other path?"
+    ],
+    [
+     "How about",
+     "惯用语",
+     "提议",
+     "A: We need a venue. B: How about the hall?"
+    ],
+    [
+     "It might be worth",
+     "惯用语",
+     "建议考虑",
+     "A: The screen is dim. B: It might be worth checking the settings."
+    ],
+    [
+     "I'd go with",
+     "惯用语",
+     "倾向选择",
+     "A: Which design is clearer? B: I'd go with the simpler one."
+    ],
+    [
+     "Let's stick with",
+     "惯用语",
+     "建议继续采用",
+     "A: Should we change the date? B: Let's stick with Friday."
+    ],
+    [
+     "leave it to",
+     "动词短语",
+     "交由某人处理",
+     "A: Who will contact the driver? B: Leave it to me."
+    ],
+    [
+     "make up one's mind",
+     "动词短语",
+     "作出决定",
+     "A: Have you chosen a room? B: I haven't made up my mind."
+    ],
+    [
+     "give it some thought",
+     "惯用语",
+     "考虑一下",
+     "A: Will you join the panel? B: I'll give it some thought."
+    ],
+    [
+     "rule out",
+     "动词短语",
+     "排除",
+     "A: Is the small van suitable? B: The narrow door rules it out."
+    ],
+    [
+     "go ahead with",
+     "动词短语",
+     "继续实施",
+     "A: Are we using the new sign? B: Yes, let's go ahead with it."
+    ]
+   ],
+   "note": "give it some thought 是答应考虑，还没有决定接不接受。"
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "vocab",
+    "intent"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Mia says, 'We're short of labels, but there are a few left.' What does she mean?",
+       "options": [
+        "The labels have all been used.",
+        "The labels are not sufficient.",
+        "The labels have been ordered.",
+        "The labels are enough for now."
+       ],
+       "answer": 1,
+       "why": "a few left 表明标签仍有剩余，short of 表示数量不足。",
+       "point": "vocab"
+      },
+      {
+       "stem": "Lee asks whether to change the route. Sam replies, 'Let's stick with the old route.' What does Sam suggest?",
+       "options": [
+        "Continuing with the existing route",
+        "Testing a shorter replacement route",
+        "Postponing the choice of a route",
+        "Asking Lee to design a new route"
+       ],
+       "answer": 0,
+       "why": "stick with the old route 表示继续采用原路线。",
+       "point": "intent"
+      },
+      {
+       "stem": "Ava says, 'The venue is still up in the air.' What is the status of the venue?",
+       "options": [
+        "It has been reserved for later.",
+        "It has been moved to another site.",
+        "It has not yet been decided.",
+        "It has not been discussed yet."
+       ],
+       "answer": 2,
+       "why": "up in the air 表示地点尚未确定。",
+       "point": "vocab"
+      },
+      {
+       "stem": "Nora asks Ben to join a panel. Ben replies, 'I'll give it some thought.' What does Ben intend?",
+       "options": [
+        "To decline the panel invitation",
+        "To accept the panel invitation",
+        "To suggest another panel member",
+        "To consider the panel invitation"
+       ],
+       "answer": 3,
+       "why": "give it some thought 表示考虑邀请，尚未作出决定。",
+       "point": "intent"
+      },
+      {
+       "stem": "The editor says, 'The draft is ahead of schedule.' What is its status?",
+       "options": [
+        "It is further along than planned.",
+        "It is later than originally planned.",
+        "It is on hold until the planned date.",
+        "It is scheduled to begin tomorrow."
+       ],
+       "answer": 0,
+       "why": "ahead of schedule 表示进度快于计划。",
+       "point": "vocab"
+      },
+      {
+       "stem": "Ari asks about changing the venue. Mo says, 'I'm not so sure the other room is suitable.' What does Mo express?",
+       "options": [
+        "A firm decision to book the room",
+        "A reservation about the other room",
+        "Agreement to change the venue",
+        "Certainty that the room is unsuitable"
+       ],
+       "answer": 1,
+       "why": "I'm not so sure 表示对另一房间是否合适有保留。",
+       "point": "intent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "vocab",
+    "intent"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The order is nearly ready, but the address seems incomplete. Shall we send it now?"
+       },
+       {
+        "who": "B",
+        "text": "Let's put it on hold until we confirm the address. I'll contact the customer this afternoon."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What does the second speaker suggest?",
+       "options": [
+        "Sending the order to the address now",
+        "Holding the order until the address is checked",
+        "Asking the customer to collect the order",
+        "Changing the address without contacting the customer"
+       ],
+       "answer": 1,
+       "why": "put it on hold until we confirm the address 表示核实地址前暂缓发送。",
+       "point": "intent"
+      },
+      {
+       "stem": "What does 'put it on hold' mean here?",
+       "options": [
+        "Send the order this afternoon",
+        "Send the order to the customer",
+        "Temporarily delay the order",
+        "Prepare a replacement order"
+       ],
+       "answer": 2,
+       "why": "put it on hold 表示暂缓处理订单。",
+       "point": "vocab"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The volunteer group needs a place for the workshop. The library has a room, but it is smaller than the community hall. Which would you choose?"
+       },
+       {
+        "who": "B",
+        "text": "I'd go with the library room. It's available this weekend, and we only have a small group. Let's ask the librarian to reserve it."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What does the second speaker recommend?",
+       "options": [
+        "Waiting for the community hall",
+        "Choosing the library room",
+        "Increasing the size of the group",
+        "Moving the workshop to another weekend"
+       ],
+       "answer": 1,
+       "why": "I'd go with the library room 表示建议选择图书馆的房间。",
+       "point": "intent"
+      },
+      {
+       "stem": "Why does the second speaker consider the room suitable?",
+       "options": [
+        "It is available and the group is small.",
+        "It is larger than the community hall.",
+        "It has already been reserved for the group.",
+        "It is available only on weekdays."
+       ],
+       "answer": 0,
+       "why": "available this weekend 和 only have a small group 是选择该房间的依据。",
+       "point": "vocab"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Are the labels ready for the museum display? We hoped to finish them before the cases arrive on Friday."
+       },
+       {
+        "who": "B",
+        "text": "We're behind schedule because the translations arrived late. We can catch up tomorrow if the printer works. The cases are still due on Friday."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What does 'behind schedule' indicate?",
+       "options": [
+        "The labels are complete ahead of the cases.",
+        "The translations are due after the cases.",
+        "The cases have arrived earlier than planned.",
+        "The labels are progressing later than planned."
+       ],
+       "answer": 3,
+       "why": "behind schedule 表示标签制作进度落后。",
+       "point": "vocab"
+      },
+      {
+       "stem": "What does the second speaker expect may happen tomorrow?",
+       "options": [
+        "The group may stop translating the labels.",
+        "The cases may be sent back to the printer.",
+        "The group may recover the lost time.",
+        "The translations may arrive tomorrow."
+       ],
+       "answer": 2,
+       "why": "We can catch up tomorrow 表示明天可能赶上进度。",
+       "point": "intent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "vocab",
+    "intent"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "Ella says, 'The revised design makes sense.' What does Ella mean?",
+         "options": [
+          "She has a reservation about the design.",
+          "She finds the design reasonable.",
+          "She plans to revise the design.",
+          "She considers the design unfinished."
+         ],
+         "answer": 1,
+         "why": "makes sense 表示认为修改后的设计有道理。",
+         "point": "vocab"
+        },
+        {
+         "stem": "Owen says, 'We ran out of paint after finishing the door.' What happened?",
+         "options": [
+          "The paint was used up.",
+          "The paint was set aside.",
+          "The paint was ordered again.",
+          "The paint was used on the floor."
+         ],
+         "answer": 0,
+         "why": "ran out of paint 表示漆已经用完。",
+         "point": "vocab"
+        },
+        {
+         "stem": "Lia asks about meeting on Thursday. Max says, 'I'll pencil it in and confirm tomorrow.' What does Max intend?",
+         "options": [
+          "To cancel the Thursday meeting",
+          "To confirm the meeting immediately",
+          "To move the meeting to tomorrow",
+          "To reserve Thursday provisionally"
+         ],
+         "answer": 3,
+         "why": "pencil it in 加上 confirm tomorrow 表示暂定周四。",
+         "point": "intent"
+        },
+        {
+         "stem": "Rae says, 'The delivery is behind schedule.' What does she mean?",
+         "options": [
+          "The delivery was sent ahead of time.",
+          "The delivery is later than planned.",
+          "The delivery is scheduled for today.",
+          "The delivery has been put on hold."
+         ],
+         "answer": 1,
+         "why": "behind schedule 表示交付晚于计划。",
+         "point": "vocab"
+        },
+        {
+         "stem": "Kim asks whether to choose the larger sign. Jo says, 'I'd go with the smaller one.' What does Jo recommend?",
+         "options": [
+          "Keeping both signs in the design",
+          "Asking for a new sign design",
+          "Choosing the smaller sign",
+          "Delaying the choice of sign"
+         ],
+         "answer": 2,
+         "why": "I'd go with the smaller one 表示倾向选择较小的标牌。",
+         "point": "intent"
+        },
+        {
+         "stem": "The technician says, 'We hit a snag with the cable.' What does this mean?",
+         "options": [
+          "The cable caused a difficulty.",
+          "The cable repair is complete.",
+          "The cable was replaced on time.",
+          "The cable has been set aside."
+         ],
+         "answer": 0,
+         "why": "hit a snag 表示遇到障碍，问题出在电缆上。",
+         "point": "vocab"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The exhibition room is available on Friday. Do you think we should use it, or wait for the larger hall?"
+         },
+         {
+          "who": "B",
+          "text": "I'm all for using the room. We can arrange the displays there without waiting for the hall. I'll contact the caretaker today, and we can confirm the layout tomorrow."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "How does the second speaker respond to using the room?",
+         "options": [
+          "By asking to wait for the larger hall",
+          "By reserving judgment about the room",
+          "By proposing a different exhibition date",
+          "By strongly supporting the room option"
+         ],
+         "answer": 3,
+         "why": "I'm all for using the room 表示赞成使用该房间。",
+         "point": "intent"
+        },
+        {
+         "stem": "What does the second speaker plan to do today?",
+         "options": [
+          "Confirm the layout with the caretaker",
+          "Contact the person responsible for the room",
+          "Move the displays into the larger hall",
+          "Wait for the hall to become available"
+         ],
+         "answer": 1,
+         "why": "I'll contact the caretaker today 表示今天联系房间管理员。",
+         "point": "vocab"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "We're supposed to submit the outline tomorrow, but the figures still need checking. Can we finish tonight?"
+         },
+         {
+          "who": "B",
+          "text": "I'm not so sure. The figures came in late, so we're behind schedule. It might be worth asking for an extra day while we check them."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What does the second speaker mean by 'behind schedule'?",
+         "options": [
+          "The figures have arrived earlier than expected.",
+          "The outline has already been submitted.",
+          "The work is progressing more slowly than planned.",
+          "The extra day has already been approved."
+         ],
+         "answer": 2,
+         "why": "figures came in late 和 behind schedule 表明进度落后。",
+         "point": "vocab"
+        },
+        {
+         "stem": "What does the second speaker suggest?",
+         "options": [
+          "Requesting more time to check the figures",
+          "Submitting the figures without an outline",
+          "Changing the figures to fit the outline",
+          "Finishing the checks without requesting time"
+         ],
+         "answer": 0,
+         "why": "It might be worth asking for an extra day 是建议申请额外时间。",
+         "point": "intent"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

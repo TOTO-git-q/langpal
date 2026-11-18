@@ -1,0 +1,402 @@
+{
+ "id": "reading-passage-purpose",
+ "title": "写作与例证目的题",
+ "goal": "区分全文写作目的与例子在相邻论述中的作用。",
+ "skill": "阅读",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "purpose",
+   "label": "根据对象与内容判断写作目的"
+  },
+  {
+   "id": "function",
+   "label": "判断例子对相邻观点的作用"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语（新课标卷）：课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "写作与例证目的题的教学内容和知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "写作目的题询问作者写整篇文章要达到的目的。例证目的题询问某个例子对相邻内容的作用。"
+    },
+    {
+     "p": "例如一篇文章介绍借用工具的规则，全文目的是告知。文中一个借用的实例，作用是说明规则怎样执行。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定题干范围",
+     "d": "先看题干问的是全文目的，还是某个例子的作用。Why does the author mention the ladder? 问的是 ladder 这个例子。"
+    },
+    {
+     "t": "2　查找对象与判断",
+     "d": "全文题看各段讲的对象和主要内容。例子题读例子前后的判断句。梯子的例子前面是一句判断：工具共享可以节省空间。"
+    },
+    {
+     "t": "3　确定作用",
+     "d": "判断文字是告知安排、解释过程还是说服读者接受观点。例子可以引入问题、支持判断或对比不同情况。"
+    },
+    {
+     "t": "4　比较选项",
+     "d": "正确选项说出写作意图或例子的作用。只复述例子内容的选项不对。"
+    }
+   ]
+  },
+  {
+   "id": "purposes",
+   "type": "table",
+   "title": "全文写作目的",
+   "cols": [
+    "目的",
+    "材料内容",
+    "目的表达"
+   ],
+   "rows": [
+    [
+     "告知",
+     "The centre lists opening hours and borrowing rules.",
+     "To inform readers about borrowing arrangements"
+    ],
+    [
+     "解释",
+     "The article describes how a book is repaired.",
+     "To explain the steps in repairing a book"
+    ],
+    [
+     "说服",
+     "The writer gives reasons to share seldom-used tools.",
+     "To persuade readers to consider sharing tools"
+    ],
+    [
+     "区分范围",
+     "A repair example appears within an article on sharing tools.",
+     "全文目的是讲共享，修理只是其中的例子。"
+    ]
+   ]
+  },
+  {
+   "id": "examples",
+   "type": "table",
+   "title": "例子的作用",
+   "cols": [
+    "作用",
+    "片段",
+    "相邻关系"
+   ],
+   "rows": [
+    [
+     "引入",
+     "A long queue delayed visitors. How can waiting time be reduced?",
+     "排队实例引出等待时间问题。"
+    ],
+    [
+     "论证",
+     "Shared tools save space. A single ladder can serve several homes.",
+     "梯子的实例支持节省空间。"
+    ],
+    [
+     "对比",
+     "One group borrowed a ladder; another bought its own.",
+     "两个实例对比借用和购买。"
+    ],
+    [
+     "解释",
+     "Records need clear dates. For example, a repair note includes its date.",
+     "维修记录的实例说明怎样写清日期。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Shared tools can save storage space. For example, neighbours may borrow one ladder instead of keeping a separate ladder in every home. A shared shelf also gives each borrower a known place to return it."
+    },
+    {
+     "box": "Why does the author mention the ladder?\n1. To describe what a shared shelf is used for\n2. To illustrate how sharing can save space\n3. To show that every home keeps its own ladder\n4. To argue that every home needs a ladder"
+    },
+    {
+     "p": "前句提出 Shared tools can save storage space。共用梯子是这一判断的实例，第二项说出了例子的作用。第三项把 instead of keeping a separate ladder 的意思说反了。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "核对方法"
+   ],
+   "rows": [
+    [
+     "重复内容",
+     "To describe one ladder",
+     "核对例子支持的判断。"
+    ],
+    [
+     "改变目的",
+     "将说明过程改成劝说购买。",
+     "核对作者的主要内容。"
+    ],
+    [
+     "范围扩大",
+     "所有家庭都必须购买梯子。",
+     "核对原文的建议范围。"
+    ],
+    [
+     "关系倒置",
+     "把共享说成占用更多空间。",
+     "核对例子前的判断。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "purpose",
+    "function"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "The community pool opens at nine. Visitors must bring a towel, and children under twelve must be accompanied by an adult.",
+     "items": [
+      {
+       "stem": "Why was this passage written?",
+       "options": [
+        "To inform visitors about pool arrangements",
+        "To explain why the pool requires towels",
+        "To argue that the pool should open at nine",
+        "To persuade parents to accompany children"
+       ],
+       "answer": 0,
+       "why": "opens at nine 和 must bring a towel 交代开放时间和要求，目的是告知安排，即第一项。原文没有给出理由，也没有劝说。",
+       "point": "purpose"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "A paper label can help identify a box. For example, a label marked 'winter coats' shows what is inside without opening it.",
+     "items": [
+      {
+       "stem": "Why does the author mention the label marked 'winter coats'?",
+       "options": [
+        "To list the winter coats kept in the box",
+        "To illustrate how a label identifies contents",
+        "To explain why boxes should not be opened",
+        "To argue that every box needs a paper label"
+       ],
+       "answer": 1,
+       "why": "首句说标签有助于识别箱子，后句用冬衣标签说明这一作用，即第二项。",
+       "point": "function"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The town should add benches near the station. A place to sit would help people waiting for a delayed bus and give older residents a rest.",
+     "items": [
+      {
+       "stem": "What is the author's purpose?",
+       "options": [
+        "To explain why the bus was delayed",
+        "To announce new benches at the station",
+        "To argue for seating near the station",
+        "To describe where older people rest"
+       ],
+       "answer": 2,
+       "why": "should add benches 和后面的两条理由说明作者主张增设座椅，即第三项。第二项把 should add 当成了已经建好。",
+       "point": "purpose"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "A crowded entrance made it hard for visitors to find the notice board. Could moving the board reduce the crowding? The centre decided to test that idea.",
+     "items": [
+      {
+       "stem": "Why does the author describe the crowded entrance?",
+       "options": [
+        "To list the notices on the board",
+        "To prove the board had already been moved",
+        "To report the result of moving the board",
+        "To raise the problem the test addresses"
+       ],
+       "answer": 3,
+       "why": "crowded entrance 引出后面的 Could moving the board reduce the crowding? 和 decided to test that idea，即第四项。原文只说要试，还没有结果。",
+       "point": "function"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "purpose",
+    "function"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A school began lending musical instruments to students. The arrangement gives students a chance to try an instrument before buying one. For example, a student who borrowed a flute for a month discovered that she wanted to continue playing it. Another student tried a drum but later chose a different instrument. The school asks borrowers to return each instrument on time so that another student can use it.",
+     "items": [
+      {
+       "stem": "Why does the author mention the student who borrowed a flute?",
+       "options": [
+        "To show that borrowed flutes are returned on time",
+        "To illustrate trying an instrument before buying",
+        "To argue that every student should choose a flute",
+        "To report that the student bought a flute"
+       ],
+       "answer": 1,
+       "why": "例子前的判断是 a chance to try an instrument before buying one。借长笛的学生正是先试用，即第二项。",
+       "point": "function"
+      },
+      {
+       "stem": "What is the main purpose of the passage?",
+       "options": [
+        "To advertise instruments that students can buy",
+        "To tell the story of one student learning the flute",
+        "To describe a school's instrument-lending arrangement",
+        "To persuade borrowers to return each instrument on time"
+       ],
+       "answer": 2,
+       "why": "文章依次讲 lending instruments、试用的例子和归还要求，目的是介绍学校的借用安排，即第三项。长笛只是其中一个例子。",
+       "point": "purpose"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "purpose",
+    "function"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A town is considering changes to the waiting area beside its sports field. At present, players can use the field, but the nearest public drinking water is inside a building that is not always open. Families watching a game may therefore need to bring all their water with them. The town should provide a drinking fountain near the field, with a plan for maintaining it.\n\nA fountain could make water available during events when the building is closed. At a recent weekend match, for example, several families asked a volunteer where they could fill their bottles. The volunteer directed them to a shop beyond the field. The example shows a gap in the current arrangements; it does not mean every visitor arrived without water.\n\nLocation matters as well as availability. A fountain placed beside the main path would be easier to find than one hidden behind the equipment store. It would also need enough space around it for people waiting to fill bottles. The town could ask field users about suitable positions before choosing a site.\n\nInstalling a fountain would bring costs. The town would need to arrange regular cleaning and repairs, and it should make those costs public before deciding. However, the need for maintenance is a reason to plan carefully, not a reason to ignore the lack of water near the field. A clear maintenance schedule would help residents assess the proposal. The town could review how the fountain is used after it opens and use that information when planning future facilities.",
+       "items": [
+        {
+         "stem": "What is the author's main purpose?",
+         "options": [
+          "To argue for a maintained drinking fountain near the field",
+          "To report problems at a recent weekend match",
+          "To explain the costs of cleaning and repairing a fountain",
+          "To announce that the town has installed a drinking fountain"
+         ],
+         "answer": 0,
+         "why": "首段的 The town should provide a drinking fountain near the field, with a plan for maintaining it 是全文主张，后文讲理由、选址和维护，即第一项。周末比赛只是其中的例子。",
+         "point": "purpose"
+        },
+        {
+         "stem": "Why does the author describe the weekend match?",
+         "options": [
+          "To show where a new fountain should be placed",
+          "To illustrate difficulty finding drinking water",
+          "To recommend the shop beyond the field to visitors",
+          "To prove every family forgot to bring water"
+         ],
+         "answer": 1,
+         "why": "依据是 several families asked a volunteer where they could fill their bottles。这说明现场找水不便，支持前句的判断，即第二项。第四项与 it does not mean every visitor arrived without water 相反。",
+         "point": "function"
+        },
+        {
+         "stem": "Why does the author compare a position by the path with one behind the store?",
+         "options": [
+          "To explain how much space waiting people need",
+          "To report that fountains already stand at both locations",
+          "To show how location affects finding the fountain",
+          "To argue that the equipment store should be moved"
+         ],
+         "answer": 2,
+         "why": "依据是 easier to find than one hidden behind the equipment store。两个位置一比，说明位置影响找到饮水器的难易，即第三项。",
+         "point": "function"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A community delivery group takes donated household items to people who have requested them. Several volunteers may handle each package between collection and delivery. The group uses a simple numbering system to keep the items and their destinations matched. The system does not replace the address on a package; it gives volunteers another way to check the record.\n\nWhen an item is accepted, a volunteer writes a number on a label and adds the same number to a list. The list also records the item's description and destination. For instance, a box of cups might receive number 14, and the entry numbered 14 would describe the cups and name their destination. A second volunteer can then compare the label with the list before loading the box.\n\nThe group keeps the list in one folder and updates it when an item is delivered. A mark beside the number shows that the delivery has been completed. Without such a mark, the group might return to the same address with an item that had already arrived. Volunteers also keep a note of any change agreed with the recipient, so that the list reflects the current arrangement.\n\nNumbers alone cannot prevent every mistake. A label can fall off, or a description can be entered incorrectly. The group therefore asks a second volunteer to check each entry against the item before it leaves. If the label and list do not agree, the volunteers check the original request before continuing. These steps show how a simple record and a second check work together to support the deliveries.",
+       "items": [
+        {
+         "stem": "What is the main purpose of the passage?",
+         "options": [
+          "To encourage readers to donate items to the group",
+          "To argue that numbers should replace package addresses",
+          "To describe the mistakes volunteers make with labels",
+          "To explain how a group tracks and checks deliveries"
+         ],
+         "answer": 3,
+         "why": "文章依次讲编号、记录、完成标记和二次核对，目的是解释怎样跟踪和核对送货，即第四项。第二项与 The system does not replace the address on a package 相反。",
+         "point": "purpose"
+        },
+        {
+         "stem": "Why does the author describe the box of cups?",
+         "options": [
+          "To show how a label number matches a list entry",
+          "To explain how a completed delivery is marked",
+          "To argue that numbers can replace addresses on boxes",
+          "To list the household items the group collects"
+         ],
+         "answer": 0,
+         "why": "number 14 既写在箱子的标签上，也写在记录里。这个实例说明编号怎样把两者对上，即第一项。",
+         "point": "function"
+        },
+        {
+         "stem": "Why does the author mention labels falling off?",
+         "options": [
+          "To show that addresses have no role in delivery",
+          "To explain why numbering needs an additional check",
+          "To claim that every recorded description is wrong",
+          "To show that volunteers no longer use numbered lists"
+         ],
+         "answer": 1,
+         "why": "A label can fall off 跟在 Numbers alone cannot prevent every mistake 后面，接着讲请第二位志愿者核对。这说明编号还需要额外核对，即第二项。",
+         "point": "function"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

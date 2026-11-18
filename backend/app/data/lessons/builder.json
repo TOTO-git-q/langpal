@@ -1,0 +1,139 @@
+{
+  "blueprint": "你在给一门语言考试的备考课排课表。只返回 JSON。\n规矩：\n1. 课分三层：sections（id 只能是 writing、reading、listening）→ parts（一种题型一个 part）→ lessons（一课只讲一件事）。口语、听写、看图这类在这里做不成的题型不排，放进 skipped 并写一句原因；要看照片、图片、地图才能答的题（比如照片描述题）都算看图。只排这门考试真有的部分：考试里没有写作就不排 writing，没有听力就不排 listening。同一种题型只排一次，不要换个名字放进两个 section。writing 下是要写出文字的题（包括翻译），reading 下是看文字做选择或填空的题，listening 下是听录音做选择的题。\n2. 只按 material（用户给的官方资料）里写了的排；material 是空的或者没提到的事实，可以凭你知道的写，但要把这一条原样抄进那个 part 的 brief.unverified，一条都不能漏。\n3. part：id 用 section id 加题型的小写英文，中间用连字符，比如 reading-careful；title 是题型的名称；minutes 是限时做一套练习的分钟数；写作题的 min_words 是最少要写多少词（中文、日文按字数），别的题型不写这个键。brief.item 是题型在试卷上的名字；brief.what 用一句中文说清这道题让考生干什么；brief.facts 是 {label, value} 的清单：题量、时间、分值、材料长度、放几遍，官方有的才写；brief.stimulus 说材料是什么体裁、多长；brief.questions 列出这种题型的几种问法；写作题的 brief.criteria 列出官方评分看的几项；brief.practice 写一套练习有多大，比如「一套 = 一篇文章五道题」。\n4. 每个 part 排 2–5 课，整门课最多 30 课。第一课讲这种题怎么做（题型、解题步骤、干扰项），后面每课讲做这种题要用的一项本事（比如定位、同义改写、推断、一类语法或词汇）。课的 id 以 section id 加连字符开头，小写英文，整门课不重复；title 用名词短语，像教材的目录，比如「事实细节题：定位与同义改写」「定语从句」，不用问句，不用「怎么」「什么」；goal 一句话写学完能做到什么；points 2–3 个，id 用小写英文，label 用动词开头写成能做到的事，比如「用题干中的词定位到原文对应的句子」。\n5. part.practice 是这种题的不限量练习：brief 3–4 条，每条一句做这种题的要点，按做题的顺序排；points 2–3 个 {id, label, lesson}，是练习题要标的知识点，lesson 写这个 part 里讲它的那一课的 id。\n6. 中文一律写成平实的书面语：不用「你」，不用感叹号，不用比喻，不写鼓励的话和套话，不用「陷阱」「警惕」「技巧」「秘诀」「轻松」。课程的 title 只写课名，比如「托业听力与阅读」，不加「课表」「排课」。\n",
+  "lesson": "你在给一门备考课写其中一课。读的人是要考这门考试的中国学生。只返回 JSON {cards}，格式照最后给的 Schema。\n给你的东西：exam 是考试；part 是这一课所属的题型，brief 是这种题的事实；lesson 是这一课的标题、目标和知识点；others 是同一题型的其他课，它们讲的这一课不讲；practice 是这种题的出题规格和一套样题，练习和小测的题照它的形式出（材料的体裁、选项个数、录音的写法），材料可以短一些；example 是另一门课里写好的一课，只用来看卡片怎么排、写多细，内容和句子一句都不能照搬。\n规矩：\n1. 讲题型的课：题型（text）→ 解题步骤（steps）→ 要点（table，1–2 张）→ 例题（text）→ 干扰项（table）→ 练习一、练习二（check）→ 小测（quiz）。讲一组语言知识的课：概述（text）→ 要点、辨析或词汇表（table，2–4 张）→ 例题（text）→ 练习一至练习三（check）→ 小测（quiz）。写作题的课用常见错误（table）代替干扰项，练习和小测只出客观题（选出更恰当的句子、判断错在哪、填空），不让人写作文。一课 7–10 张卡，只用 text、steps、table、check、quiz 五种卡。\n2. 卡片的 title 用这些词之一（可以加冒号和限定）：概述、题型、规则、解题步骤、结构、常用表达、词汇表、辨析、例题、干扰项、常见错误、练习一到练习四、小测；讲一个知识点的卡直接用知识点的名称，名词短语，14 个字以内，不用问句。表头用名词（类型、例、排除方法、原文、正确选项、原因），不用「怎么办」「为什么」。\n3. 文字：讲解用中文；例句、材料、题目用考试的语言，夹在中文里的外语词不加引号。陈述句，书面语；不用「你」，不用语气词、感叹号、反问和比喻；不写鼓励的话，不用「其实」「记住」「小技巧」「秘诀」「轻松」「坑」「陷阱」「接下来」（说之后的行动时写「下一步」「随后」）「综上」；不写过渡句和总结句。一句话说一件事，超过 40 个字就拆开。「不等于」「不表示」「不能据此」这类限制，一张卡最多一句。text 卡一段不超过 120 个字；steps 3–5 步，t 写「1　动词短语」，d 两三句；表 4–8 行，格子不超过 40 个字；每条规则配一个例子。换行写成真的换行。\n4. 例题：text 卡里先用 box 写出材料和题目，选项用 1. 2. 3. 4. 编号；再用一段讲解，指选项说「第一项」到「第四项」。\n5. 练习和小测的题：材料自己写，不抄真题，不写真实在世的人物和时事，一课里各段材料的话题互不相同。四选一的四个选项长度相近、语法形式一致，只有一个对；正确选项是材料的同义改写，不照抄原句；每个干扰项都用到材料里的内容，各用一种错法（取自相邻的句子、沿用原文的词但改变了关系、原文未提及、程度过强、与原文相反、只对了一半）。正确选项是最长的那个、或者是最短的那个，各不超过四成；正确答案的位置要分散，小测里第一到第四项都要有，任何一个位置不超过四成。一组题共用一份选项时（选词填空、段落匹配），每题的 options 写成完全相同的一份。why 用中文一两句：先说依据（引材料原文），再说正确选项对在哪，最多点出最像的那个干扰项；指选项说「第一项」，不用字母。point 写这道题考的知识点 id。\n6. 听力的材料写成 audio：{intro, lines: [{who, text}]}，who 只有 A、B 两种；text 只写说出口的话，不写「Host:」这类说话人标签；题干不用 the man、the woman，也不用 A、B 指人。\n7. check 和 quiz 不写 intro。练习一：4 道单句或短材料的题；练习二：一段材料 2–3 题；check 的 points 只列实际练到的知识点。小测是最后一张：id 写 timed，title 写 小测，sets 里只有一套，id 写 set-a，不写 more；2 段材料共 6 题，只考这一课讲的东西；points 写这一课的全部知识点，每个知识点至少 2 题；minutes 写 6。\n8. 考试本身的数字（题量、时间、分值）只用 part.brief.facts 里的；brief.unverified 里的事不写成官方规定。\n",
+  "rubric": "你在给一门备考课的写作练习写评分标准。批改时模型照这份标准给 0–5 分。只返回 JSON，格式照最后给的 Schema。\n规矩：\n1. levels 六档，score 依次是 5、4、3、2、1、0。name 是这一档的叫法；summary 一句话说这一档的答卷是什么样；signs 三到四条，写阅卷人在答卷里能看到的具体现象，内容、组织、语言各至少一条。\n2. part.brief.criteria 列了官方评分看的几项时，照这几项分。part.brief.facts 里有满分时，summary 末尾写上这一档大约相当于这门考试的多少分；没有满分就不写分数。\n3. takeaways 两到三条 {t, d}：从这份标准读出的、直接决定怎么写的结论。t 是一句短的结论，d 用一两句说明。\n4. task 是这种题的一道样题，signs 可以拿它举例。example 是另一门考试的评分标准，只用来看写多细，内容换成这门考试这种题的。\n5. 中文写成平实的书面语：不用「你」，不用感叹号，不用比喻，不写鼓励的话。\n",
+  "kind": "你在给一种题型写出题规格。以后模型每次都照这份规格出一道（套）新的练习题，所以要写到照着就能出对。只返回 JSON：{\"spec\", \"checks\", \"topics\"}。\n规矩：\n1. spec 用中文写，第一句是「出一道（套）……」，然后一个字段一行，写清每个字段怎么填（字段见最后）。考生看到的题目本身用这门考试的语言，写法、句式和真题一致；只有 purpose、must、why 用中文。长度、题数只能用 lesson.brief 里的数字。\n2. example.spec 和 example.checks 是托福同一种形状的规格，照它的写法和细致程度写，内容换成这门考试的。\n3. checks 只能用最后列出的键；数字写成 [最少, 最多]，按 lesson.brief 定，长度两头各留两成余量（中文、日文的材料数字符，别的数词）。lesson.brief.checks 给了的话，checks 原样照抄它，spec 里的题数、段数和它一致；spec 里的长度写 lesson.brief.stimulus 里那个（考试的真实长度），checks 的长度范围比它宽是留给误差的，不要写进 spec。lesson.brief.practice 写了一套有多大的，照它。checks 里有 keep 的（一套是互不相干的小题）：spec 里的题数写 items 的上限，并写明「检查时会淘汰答案不唯一的，最后留 keep 道」。\n4. topics 是 20 个互不相同的话题，每个一句中文，要具体到能直接出题（「大学图书馆延长开放时间引起的争论」可以，「教育」不行），都在这门考试会考的范围里。一套里有几段材料，每一条就写几个话题，用顿号隔开。\n这种形状的字段和 checks 的键：",
+  "fields": {
+    "essay": "字段：purpose（一句中文：这道题练什么）；setting（考生读到的题目背景或材料，用考试的语言；翻译题把要翻译的原文放在这里）；lead（题目的指令句，照真题的固定说法）；bullets（题目要求考生做到的几件事，两到四条，每条一句，用考试的语言，以动词开头；批改时要逐条判断做到了没有，所以不能空着：真题没有单列要求时，把指令里含着的要求拆开写，比如 State your view on the issue. / Support it with reasons and at least one example. / Write 150–200 words.）；must（和 bullets 一一对应，中文，写这一条最少要写出什么才算做到）。checks 的键：bullets（几条）、must（和 bullets 相同）、setting（长度）。",
+    "reading": "字段：groups 是几段材料，每段有 label（一句指令，如 Read the passage.）、look（固定写 passage）、text（材料；一套是互不相干的单句小题时，整套只有一个题组，text 写空字符串，所有的题都放在这一个题组的 items 里，题干自己就是完整的材料）、items（这一段的题）。checks 的键：groups（几段）、text（每段的长度）、items（每段几题）、total（一套共几题）、options（每题几个选项）、answer（要考生自己填的题写 blank，这时每道题给 accept 不给 options；选择题不写这个键）、shuffle（选项顺序有意义时写 false，比如「对 / 错 / 没提到」；别的不写）、bank（一组题共用同一组选项时写 true，比如选词填空的词库、段落匹配的段落字母、固定的「对 / 错 / 没提到」：这时题组里给 bank，每道题不给 options；options 写 bank 里有几项）。",
+    "listening": "字段：groups 是几段录音，每段有 intro（播放前念的一句，如 Listen to a conversation.）、lines（[{who, text}]，who 是 A 或 B；一个人说就全是 A）、items（这一段的题）。checks 的键：groups（几段）、lines（每段几句）、alternate（两个人轮流说时写 true）、text（每段各句加起来的长度）、items（每段几题）、total（一套共几题）、options（每题几个选项）、answer（要考生自己填的题写 blank，这时每道题给 accept 不给 options；选择题不写这个键）、shuffle（每题的选项是同一组、顺序有意义时写 false；别的不写）、bank（一组题共用同一组选项时写 true，比如选词填空的词库、段落匹配的段落字母、固定的「对 / 错 / 没提到」：这时题组里给 bank，每道题不给 options；options 写 bank 里有几项）。"
+  },
+  "checks": {
+    "essay": [
+      "bullets",
+      "must",
+      "setting"
+    ],
+    "reading": [
+      "groups",
+      "text",
+      "items",
+      "total",
+      "options",
+      "shuffle",
+      "answer",
+      "bank",
+      "keep"
+    ],
+    "listening": [
+      "groups",
+      "lines",
+      "alternate",
+      "text",
+      "items",
+      "total",
+      "options",
+      "shuffle",
+      "answer",
+      "bank",
+      "keep"
+    ]
+  },
+  "kinds": {
+    "essay": "email",
+    "reading": "academic",
+    "listening": "conversation"
+  },
+  "pass": {
+    "writing": 0.8,
+    "reading": 0.8,
+    "listening": 0.75
+  },
+  "examples": {
+    "items": {
+      "groups": [
+        {
+          "label": "Choose the best answer.",
+          "look": "passage",
+          "text": "",
+          "items": [
+            {
+              "stem": "The committee decided to ( ) the meeting until next week because several members were ill.",
+              "options": [
+                "postpone",
+                "advance",
+                "attend",
+                "summarize"
+              ],
+              "answer": 0,
+              "why": "until next week 说明是往后推；advance 是提前，方向相反。",
+              "point": ""
+            },
+            {
+              "stem": "Her explanation was so ( ) that even the first-year students understood it at once.",
+              "options": [
+                "obscure",
+                "lucid",
+                "lengthy",
+                "reluctant"
+              ],
+              "answer": 1,
+              "why": "后半句说一年级学生一下就懂了，所以是「清楚」；obscure 是难懂，意思相反。",
+              "point": ""
+            },
+            {
+              "stem": "The new policy will ( ) effect at the beginning of next month.",
+              "options": [
+                "make",
+                "bring",
+                "take",
+                "put"
+              ],
+              "answer": 2,
+              "why": "take effect 是固定搭配：生效。",
+              "point": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "lessons": {
+    "en": {
+      "writing": [
+        "cet4",
+        "writing-support"
+      ],
+      "reading": [
+        "cet4",
+        "reading-careful-main"
+      ],
+      "listening": [
+        "cet4",
+        "listening-conversation-main"
+      ]
+    },
+    "ja": {
+      "reading": [
+        "n1",
+        "reading-short-main"
+      ],
+      "listening": [
+        "n1",
+        "listening-point-reason"
+      ]
+    }
+  },
+  "rubric_example": [
+    "cet6",
+    "writing-essay"
+  ],
+  "titles": {
+    "holder": "{part} · 练习",
+    "waiting": "{minutes} 分钟",
+    "essay": "1 篇 · {minutes} 分钟",
+    "reading": "{groups} 篇 {items} 题 · {minutes} 分钟",
+    "listening": "{groups} 段 {items} 题 · {minutes} 分钟",
+    "shipped": "这门课已经有了：《{title}》，在「学习 › 课程」里选它就行"
+  }
+}

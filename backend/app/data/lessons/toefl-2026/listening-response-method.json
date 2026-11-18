@@ -1,0 +1,614 @@
+{
+ "id": "listening-response-method",
+ "title": "题型与解题步骤",
+ "goal": "判断简短话语的功能，并按功能、预想回应、排除的顺序选择回应。",
+ "skill": "listening",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 听力",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "function",
+   "label": "判断听到的话的功能"
+  },
+  {
+   "id": "procedure",
+   "label": "按步骤选出回应"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、录音长度、只放一遍"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "各题型的说明、考查的能力、官方样题"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Listening Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-listening.pdf",
+   "used": "第 1 课：四类题的说明和小测答案；第 2、4 课：应答配对、重音和语调"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "听句子选回应：听一句问句或陈述句，从 4 个书面回应中选出最合适的一项。听到的句子不显示在屏幕上。选择的依据是这句话的用意。"
+    },
+    {
+     "box": "Where is the repair desk? → At the end of this corridor.\nCould you carry this crate? → Sure, I can take it upstairs."
+    },
+    {
+     "p": "Where 问地点，回应要给出地点。Could you 加动作是请求，回应要表明做不做，或者说明条件。两句都是问句，功能却不同。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　判断话语功能",
+     "d": "从疑问词、动作和语气判断说话的目的。Where is the repair desk? 是问信息，Could you carry this crate? 是请人帮忙。"
+    },
+    {
+     "t": "2　预想回应内容",
+     "d": "先想好回应该给出什么信息或态度，不必想具体措辞。听到 Where，预想一个地点。听到 Could you carry，预想搬还是不搬。"
+    },
+    {
+     "t": "3　逐项核对关系",
+     "d": "逐项看选项是否回应了这个目的，人物和时间是否一致。I carried it yesterday 说的是过去，没有答复现在的请求。"
+    }
+   ]
+  },
+  {
+   "id": "functions",
+   "type": "table",
+   "title": "话语功能",
+   "cols": [
+    "类型",
+    "回应",
+    "例"
+   ],
+   "rows": [
+    [
+     "提问：信息",
+     "给出所问的信息，只重复名词不算回答。",
+     "Who repairs these clocks? → The technician downstairs."
+    ],
+    [
+     "提问：确认",
+     "确认或说明情况，可以不说 yes 或 no。",
+     "Is the scanner available? → Someone's using it just now."
+    ],
+    [
+     "请求或提议",
+     "表明做不做这件事。",
+     "Shall we test the microphone? → Yes, let's try it now."
+    ],
+    [
+     "陈述：困难",
+     "针对这个困难提供帮助或建议。",
+     "The zip on my bag is stuck. → Let me take a look."
+    ],
+    [
+     "陈述：消息",
+     "对消息的结果作出反应，如祝贺或遗憾。",
+     "Our design was selected. → That's wonderful news."
+    ],
+    [
+     "寒暄或感叹",
+     "回应问候或情绪。",
+     "It's good to see you again. → It's been a long time."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Would you mind moving your bicycle away from this doorway?"
+    },
+    {
+     "box": "Choose the best response.\n1. I moved into this building last year.\n2. Of course. I'll put it beside the fence.\n3. The doorway is wider than it looks.\n4. No thanks, I can move it myself."
+    },
+    {
+     "p": "步骤 1：Would you mind moving 是请求，要对方把自行车挪开。doorway 说明车挡在门口，不是在问门在哪里。"
+    },
+    {
+     "p": "步骤 2：回应应表明挪不挪车。第二项先答 Of course，再说把车放到栅栏边，答应了请求。"
+    },
+    {
+     "p": "步骤 3：第一项把 moving 理解成搬家。第三项只描述门口。第四项把请求当成对方要帮忙，答话的人弄错了。三项都没有处理挡在门口的自行车。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "词义改变",
+     "move the bicycle → move into a building",
+     "核对动词的宾语和整句含义。"
+    ],
+    [
+     "只给相关信息",
+     "move the bicycle → I ride it to work.",
+     "核对是否回应当前要求。"
+    ],
+    [
+     "时间不符",
+     "Could you move it? → I moved it yesterday.",
+     "过去做过，不是答应现在去做。"
+    ],
+    [
+     "功能不符",
+     "Where is it? → It opens at nine.",
+     "问地点，要答地点，不答时间。"
+    ],
+    [
+     "照搬字面",
+     "Shall we test it? → It is a test.",
+     "先听出这是提议，不看是否重复了 test。"
+    ]
+   ]
+  },
+  {
+   "id": "check-function",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "function"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Which drawer holds the spare batteries?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "They're in the lowest one.",
+        "The spare batteries are new.",
+        "Yes, I'll get some for you.",
+        "No, I don't need any batteries."
+       ],
+       "answer": 0,
+       "why": "Which drawer 问哪个抽屉，第一项指出是最下面那个。第三项用 Yes 回答 which 的问题，接不上。",
+       "point": "function"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Could you turn down the radio while I make this call?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "The call lasted ten minutes.",
+        "The radio was a birthday gift.",
+        "Sure, I'll lower the volume.",
+        "Thanks, but I can turn it down myself."
+       ],
+       "answer": 2,
+       "why": "Could you turn down 是请对方把音量调小，第三项答应了，lower the volume 对应 turn down。",
+       "point": "function"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The handle on my suitcase has come loose."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "The handle was expensive.",
+        "Let me tighten it for you.",
+        "I came here last month.",
+        "Thanks, I'll tighten it myself later."
+       ],
+       "answer": 1,
+       "why": "has come loose 说的是把手松了，第二项提出帮对方拧紧。第四项像在谢绝帮助，说话人弄反了。",
+       "point": "function"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "It's nice to finally meet the person behind these cartoons."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "The cartoons are in this folder.",
+        "You're welcome; I'll show you more.",
+        "Yes, I met him last year.",
+        "I'm glad we could meet at last."
+       ],
+       "answer": 3,
+       "why": "nice to finally meet 是初次见面的客套话，第四项用 meet at last 回应。",
+       "point": "function"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-procedure",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "procedure"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "When will the repaired watch be ready?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "At the watch repair counter.",
+        "It needed a new spring.",
+        "By Thursday afternoon.",
+        "The repair costs fifteen dollars."
+       ],
+       "answer": 2,
+       "why": "When 和 be ready 问什么时候修好，第三项给出时间。其余三项分别答了地点、原因和费用。",
+       "point": "procedure"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Shall we sort the donated coats by size?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "Yes, let's make separate piles.",
+        "The largest coat is wool.",
+        "No thanks, I can sort them alone.",
+        "I wore a smaller size then."
+       ],
+       "answer": 0,
+       "why": "Shall we 是提议一起按尺码分类，第一项同意，并说分成几堆。",
+       "point": "procedure"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I'm sorry I left your umbrella on the train."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "The train was quite crowded.",
+        "You're welcome; it was no trouble.",
+        "I'm sorry; I'll buy you a new one tomorrow.",
+        "That's all right; these things happen."
+       ],
+       "answer": 3,
+       "why": "I'm sorry 是道歉，第四项用 That's all right 接受道歉。第三项是回答的人在道歉，说话人弄反了。",
+       "point": "procedure"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Thanks for showing me how to use the sewing machine."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "The machine uses strong thread.",
+        "You're welcome; I'm glad it helped.",
+        "I showed the machine yesterday.",
+        "That's all right; it wasn't your fault."
+       ],
+       "answer": 1,
+       "why": "Thanks for showing 是道谢，第二项用 You're welcome 回应。第四项是回应道歉的话。",
+       "point": "procedure"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 5,
+   "pass": 0.75,
+   "points": [
+    "function",
+    "procedure"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Where should I leave this parcel for collection?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "The collection begins at four.",
+          "The parcel weighs two kilos.",
+          "Beside the dispatch counter.",
+          "I collected a parcel yesterday."
+         ],
+         "answer": 2,
+         "why": "Where should I leave 问放在哪里，第三项给出地点：发货柜台旁边。第一项答的是时间。",
+         "point": "function"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Would you check whether this ladder is steady?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "Sure, I'll hold it and check.",
+          "The ladder has six steps.",
+          "The check was completed yesterday.",
+          "Thanks, but I can check it myself."
+         ],
+         "answer": 0,
+         "why": "Would you check 是请对方检查梯子，第一项答应扶住梯子检查。第三项说的是过去。",
+         "point": "function"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The map on this walking trail is torn."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "Don't worry; I know you didn't mean to tear it.",
+          "The map was printed last year.",
+          "I tore some paper this morning.",
+          "There's another map at the next junction."
+         ],
+         "answer": 3,
+         "why": "is torn 说明这张地图没法用，第四项告诉对方下一个路口还有一张。第一项把这句话当成了道歉。",
+         "point": "function"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'm delighted that we finally found a rehearsal space."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "I'm sorry; I'm sure we'll find one soon.",
+          "So am I; now we can practice together.",
+          "The space has two entrances.",
+          "You're welcome; it took me all week."
+         ],
+         "answer": 1,
+         "why": "I'm delighted 表达高兴，第二项用 So am I 回应同样的心情。第一项把好消息听成了坏消息。",
+         "point": "function"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "How many plates do we need for the pottery display?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "About twelve should be enough.",
+          "The display lasts two weeks.",
+          "The plates go on the upper shelf.",
+          "We need them by Friday."
+         ],
+         "answer": 0,
+         "why": "How many plates 问数量，第一项答大约 12 个。其余三项分别答了时长、位置和期限。",
+         "point": "procedure"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Why don’t we compare the two fabric samples in daylight?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "No thanks, I can compare them myself.",
+          "Yes, we compared them yesterday.",
+          "Good idea; let's take them outside.",
+          "The darker sample costs more."
+         ],
+         "answer": 2,
+         "why": "Why don’t we 是提议在日光下比较，第三项同意，并说把样品拿到外面。",
+         "point": "procedure"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Have the replacement wheels arrived yet?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "The wheels fit the smaller cart.",
+          "They're still on their way.",
+          "Sure, I'll order them for you.",
+          "Thanks, I'll fit them tomorrow."
+         ],
+         "answer": 1,
+         "why": "arrived yet 问到了没有，第二项说还在路上，即还没到。第三项把问题当成了请求。",
+         "point": "procedure"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I appreciate your help setting up the chess boards."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "The boards are made of wood.",
+          "Don't worry; it wasn't your fault.",
+          "Yes, I set them up yesterday.",
+          "Happy to help with the setup."
+         ],
+         "answer": 3,
+         "why": "I appreciate your help 是道谢，第四项用 Happy to help 回应。第二项是回应道歉的话。",
+         "point": "procedure"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

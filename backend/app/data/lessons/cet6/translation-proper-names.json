@@ -1,0 +1,49 @@
+{
+ "id": "translation-proper-names", "title": "专名与名称解释", "goal": "区分专名与普通描述，选择清楚表达实体身份的译名。", "skill": "翻译", "exam": "大学英语六级（CET-6）", "mastery": "once",
+ "points": [{"id": "name", "label": "区分专名与普通描述词"}, {"id": "explain", "label": "选择保持实体身份的名称表达"}],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译课程内容依据"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "专名指特定的地点、建筑或物品。有通行译名的，用通行译名。名称本身看不出类别的，在名称后补上类别词。"}, {"box": "原文：长江流经中国的多个地区。\n译文：The Yangtze River flows through several regions of China."}, {"p": "Yangtze 是专名，River 表明类别。实体是什么，要看它本身，不能只看名称的字面意思。"}]},
+  {"id": "places", "type": "table", "title": "地名", "cols": ["处理", "原文", "译文"], "rows": [
+   ["通行译名", "长江流经中国的多个地区。", "The Yangtze River flows through several regions of China."],
+   ["通行译名", "西湖位于浙江省杭州市。", "West Lake is in Hangzhou, Zhejiang Province."],
+   ["拼音加类别", "洞庭湖是中国的淡水湖。", "Dongting Lake is a freshwater lake in China."],
+   ["类别与名称", "泰山位于山东省。", "Mount Tai is in Shandong Province."]
+  ]},
+  {"id": "buildings", "type": "table", "title": "历史建筑", "cols": ["处理", "原文", "译文"], "rows": [
+   ["通行译名", "故宫位于北京的中心。", "The Palace Museum is in central Beijing."],
+   ["通行译名", "长城的一些地段对游客开放。", "Some sections of the Great Wall are open to visitors."],
+   ["名称加类别", "应县木塔是一座木结构塔。", "The Yingxian Wooden Pagoda is a wooden tower."],
+   ["字面义与身份", "天坛是一处古代祭祀建筑群。", "The Temple of Heaven is an ancient complex used for sacrificial ceremonies."]
+  ]},
+  {"id": "objects", "type": "table", "title": "传统物件", "cols": ["处理", "原文", "译文"], "rows": [
+   ["通行译名", "算盘是一种计算工具。", "The abacus is a calculating device."],
+   ["通行译名", "二胡是一种两弦乐器。", "The erhu is a two-stringed musical instrument."],
+   ["名称加解释", "剪纸是一种用纸制作的装饰艺术。", "Paper-cutting is a decorative art that uses paper."],
+   ["类别说明", "香囊是装有香料的小袋。", "A scented sachet is a small bag containing fragrant materials."]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [{"box": "原文：洞庭湖位于湖南省，是一个淡水湖。\n译文：Dongting Lake is a freshwater lake in Hunan Province."}, {"p": "Dongting Lake 保留地名，freshwater lake 表示水体类别。Lake 是名称的一部分，freshwater 修饰普通名词 lake。"}]},
+  {"id": "practice-a", "type": "check", "title": "练习一", "points": ["name", "explain"], "groups": [{"items": [
+   {"stem": "原文：泰山位于山东省。选择译句。", "options": ["Mount Tai is in Shandong Province.", "Tai Lake is in Shandong Province.", "Mount Tai is in Shandong City.", "Mount Tai is east of Shandong Province."], "answer": 0, "why": "泰山是山，山东是省。第一项用 Mount Tai 和 Shandong Province，名称和类别都对。第三项把省写成了 City。", "point": "name"},
+   {"stem": "原文：二胡是一种两弦乐器。选择译句。", "options": ["The erhu is a three-stringed musical instrument.", "The erhu is a two-stringed musical instrument.", "The erhu is a four-stringed musical instrument.", "The erhu is a five-stringed musical instrument."], "answer": 1, "why": "erhu 指二胡，two-stringed 说明其弦数。", "point": "explain"}
+  ]}]},
+  {"id": "practice-b", "type": "check", "title": "练习二", "points": ["name", "explain"], "groups": [{"items": [
+   {"stem": "原文：西湖位于杭州。排列译句。", "chunks": ["West Lake is", "in", "the city of", "Hangzhou"], "extra": ["Mount"], "tail": ".", "why": "West Lake 是湖名，in the city of Hangzhou 表明地点。", "point": "name"},
+   {"stem": "原文：算盘是一种计算工具。排列译句。", "chunks": ["The abacus is", "a", "calculating", "device"], "extra": ["were"], "tail": ".", "why": "abacus 指算盘，calculating device 表示其用途。", "point": "explain"}
+  ]}]},
+  {"id": "practice-c", "type": "check", "title": "练习三", "points": ["name", "explain"], "groups": [{"items": [
+   {"stem": "原文：西湖位于浙江省杭州市。选择译句。", "options": ["Dongting Lake is in Hangzhou, Zhejiang Province.", "West Lake is in Zhejiang, near Hangzhou.", "West Lake is in Hangzhou, Zhejiang Province.", "The Western Lake is in Hangzhou, Zhejiang Province."], "answer": 2, "why": "West Lake 是西湖的通行译名。第三项用 Hangzhou, Zhejiang Province 对应浙江省杭州市。第四项没有用通行译名。", "point": "name"},
+   {"stem": "原文：算盘是一种计算工具。选择译句。", "options": ["The abacus is a device used for measurement.", "The abacus is a device used for counting money.", "The abacus is a method used for calculation.", "The abacus is a device used for calculation."], "answer": 3, "why": "原文说算盘是计算工具。第四项用 device 表示工具，used for calculation 表示用途。第三项把工具写成了 method。", "point": "explain"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["name", "explain"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "原文：长江流经中国的多个地区。选择译句。", "options": ["The Yangtze River flows through several regions of China.", "The Yangtze River flows through all the regions of China.", "The Yellow River flows through several regions of China.", "The Yangtze River flows through only one region of China."], "answer": 0, "why": "Yangtze River 是长江的通行译名，several regions 对应多个地区，即第一项。第二项把多个地区写成了全部地区。", "point": "name"},
+   {"stem": "原文：故宫位于北京的中心。选择译句。", "options": ["The Temple of Heaven is in central Beijing.", "The Palace Museum is in central Beijing.", "The Palace Museum is outside central Beijing.", "The Great Wall is in central Beijing."], "answer": 1, "why": "The Palace Museum 是故宫的通行译名。", "point": "name"},
+   {"stem": "原文：剪纸是一种用纸制作的装饰艺术。选择译句。", "options": ["Paper-cutting is a decorative tool made of paper.", "Paper-cutting is an art of making decorative paper.", "Paper-cutting is a decorative art that uses paper.", "Paper-cutting is a practical craft that uses paper."], "answer": 2, "why": "原文说剪纸是用纸制作的装饰艺术。第三项用 decorative art 表示装饰艺术，that uses paper 保留材料。第一项把艺术写成了工具。", "point": "explain"},
+   {"stem": "原文：应县木塔是一座木结构塔。选择译句。", "options": ["The Yingxian Wooden Pagoda is a stone tower.", "The Yingxian Wooden Pagoda is a wooden hall.", "The Yingxian Wooden Pagoda is a stone temple.", "The Yingxian Wooden Pagoda is a wooden tower."], "answer": 3, "why": "Yingxian Wooden Pagoda 是名称，wooden tower 说明建筑类别。", "point": "explain"},
+   {"stem": "原文：洞庭湖位于湖南省。排列译句。", "chunks": ["Dongting Lake is", "in", "Hunan", "Province"], "extra": ["Mount"], "tail": ".", "why": "Dongting Lake 是湖名，Hunan Province 是省名。", "point": "name"},
+   {"stem": "原文：长城的一些地段对游客开放。排列译句。", "chunks": ["Some sections of the Great Wall", "are", "open", "to visitors"], "extra": ["Lake"], "tail": ".", "why": "the Great Wall 对应长城，some sections 限定开放范围。", "point": "name"},
+   {"stem": "原文：香囊是装有香料的小袋。排列译句。", "chunks": ["A scented sachet is", "a", "small bag", "containing fragrant materials"], "extra": ["a tower"], "tail": ".", "why": "small bag 说明类别，containing fragrant materials 说明内容物。", "point": "explain"},
+   {"stem": "原文：天坛是一处古代祭祀建筑群。排列译句。", "chunks": ["The Temple of Heaven is", "an", "ancient complex", "used for ceremonies"], "extra": ["a lake"], "tail": ".", "why": "Temple of Heaven 保留名称，complex used for ceremonies 说明实体性质。", "point": "explain"}
+  ]}]}]}
+ ]
+}

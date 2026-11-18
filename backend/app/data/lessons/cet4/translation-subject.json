@@ -1,0 +1,386 @@
+{
+ "id": "translation-subject",
+ "title": "中文话题与英文主语",
+ "goal": "能确定中文句子的陈述主体，并为英文句子补出合适的主语。",
+ "skill": "翻译",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "subject",
+   "label": "确定原文实际陈述的主体"
+  },
+  {
+   "id": "restore",
+   "label": "为英文句子补出合理主语"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "翻译教学所依据的大纲"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "中文句首常先交代地点、时间或话题。英语句子通常需要明确的主语。主语是做这个动作的人或事物。"
+    },
+    {
+     "box": "原文：在小镇的广场上，居民展示手工编织的篮子。\n译文：In the town square, residents display handwoven baskets."
+    },
+    {
+     "p": "广场是地点，居民才是展示者。地点短语可以放在句首，但不作主语。"
+    }
+   ]
+  },
+  {
+   "id": "place-time",
+   "type": "table",
+   "title": "地点与时间",
+   "cols": [
+    "情况",
+    "原文",
+    "译文与说明"
+   ],
+   "rows": [
+    [
+     "地点开头",
+     "在社区的花园里，老人种植了许多花草。",
+     "In the community garden, older residents planted many flowers and plants. 老人是种植者。"
+    ],
+    [
+     "地点开头",
+     "在村里的小路旁，孩子们捡起了落叶。",
+     "By the village path, children picked up fallen leaves. 孩子是捡拾者。"
+    ],
+    [
+     "时间开头",
+     "每到春天，当地农户便开始播种蔬菜。",
+     "Every spring, local farmers begin planting vegetables. 农户是播种者。"
+    ],
+    [
+     "时间开头",
+     "去年秋天，志愿者整理了学校的旧书。",
+     "Last autumn, volunteers sorted the school's old books. 志愿者是整理者。"
+    ]
+   ]
+  },
+  {
+   "id": "implied",
+   "type": "table",
+   "title": "隐含的主体",
+   "cols": [
+    "情况",
+    "原文",
+    "译文与说明"
+   ],
+   "rows": [
+    [
+     "无主句",
+     "在这个地区，通常用竹子制作轻便的篮子。",
+     "In this area, people usually make light baskets from bamboo. people 指一般的制作者。"
+    ],
+    [
+     "无主句",
+     "参观展览之前，需要提前预约入场时间。",
+     "It is necessary to book an entry time before visiting the exhibition. it 是形式主语。"
+    ],
+    [
+     "连续省略",
+     "工匠挑选木材，然后将木材切成薄片。",
+     "The craftsperson selects the wood and then cuts it into thin pieces. 两个动作的主体相同。"
+    ],
+    [
+     "连续省略",
+     "研究人员记录水温，随后整理测量结果。",
+     "Researchers record the water temperature. They then organize the results. they 指研究人员。"
+    ]
+   ]
+  },
+  {
+   "id": "choice",
+   "type": "table",
+   "title": "主语的选择",
+   "cols": [
+    "表达",
+    "作用",
+    "例句"
+   ],
+   "rows": [
+    [
+     "名词主语",
+     "明确动作的执行者",
+     "Farmers grow vegetables."
+    ],
+    [
+     "一般主体",
+     "原文未指明具体执行者",
+     "People make baskets from bamboo."
+    ],
+    [
+     "形式主语",
+     "将不定式内容放在句末",
+     "It is necessary to book a time."
+    ],
+    [
+     "代词主语",
+     "承接明确的复数主体",
+     "The researchers recorded the data. They checked it."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "原文：在展厅的入口处，志愿者向访客介绍展品。\n1. At the entrance, volunteers introduce the exhibits to visitors.\n2. At the entrance, visitors introduce the exhibits to volunteers.\n3. At the entrance, the exhibits are introduced to visitors.\n4. The entrance introduces the exhibits to visitors."
+    },
+    {
+     "p": "介绍者是志愿者，接受介绍的是访客。第一项保留了这两个角色，入口处只是地点。第四项把地点 entrance 当成了主语。"
+    }
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "subject",
+    "restore"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "原文：在河边的步道上，居民每天清扫落叶。Who performs the action?",
+       "options": [
+        "The residents there",
+        "The fallen leaves",
+        "The riverside path",
+        "The river itself"
+       ],
+       "answer": 0,
+       "why": "居民是清扫者，对应第一项。",
+       "point": "subject"
+      },
+      {
+       "stem": "原文：每到冬天，工匠们修理旧木制工具。Which subject performs the repairs?",
+       "options": [
+        "The winter",
+        "The craftspeople",
+        "The wooden tools",
+        "The repair work"
+       ],
+       "answer": 1,
+       "why": "工匠是修理者，对应第二项。",
+       "point": "subject"
+      },
+      {
+       "stem": "原文：参观之前，有必要先了解展览开放时间。Which sentence uses a formal subject for the stated need?",
+       "options": [
+        "Visitors are necessary to know the opening hours before visiting.",
+        "It is necessary to know the opening hours after visiting.",
+        "It is necessary to know the opening hours before visiting.",
+        "It is necessary to visit the exhibition before knowing its hours."
+       ],
+       "answer": 2,
+       "why": "原文说参观之前要先了解开放时间，没有指明具体的人。第三项用形式主语 it，先后顺序也与原文一致。",
+       "point": "restore"
+      },
+      {
+       "stem": "原文：工作人员检查机器，然后记录检查结果。Which continuation retains the same subject? The staff inspect the machine. ___",
+       "options": [
+        "It then records the results.",
+        "They then inspect the results.",
+        "They then record the machine.",
+        "They then record the results."
+       ],
+       "answer": 3,
+       "why": "记录结果的仍是工作人员，they 承接 the staff。第一项的 it 会被理解为机器。",
+       "point": "restore"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "subject",
+    "restore"
+   ],
+   "groups": [
+    {
+     "text": "原文：在镇上的资料室里，管理员收集地方照片。她们为每张照片填写日期，然后将照片按年代排列。参观之前，需要预约时间。",
+     "items": [
+      {
+       "stem": "Who collects the photographs?",
+       "options": [
+        "The room managers",
+        "The local photographs",
+        "The visiting groups",
+        "The recorded dates"
+       ],
+       "answer": 0,
+       "why": "管理员收集照片，对应第一项。",
+       "point": "subject"
+      },
+      {
+       "stem": "Which continuation restores the subject of the second action? The managers write a date for each photograph. ___",
+       "options": [
+        "They then arrange the dates by year.",
+        "They then arrange the photographs by year.",
+        "It then arranges the photographs by year.",
+        "They then arrange the photographs by place."
+       ],
+       "answer": 1,
+       "why": "排列照片的仍是管理员，照片按年代排列。第二项用 they 指代 the managers，用 by year 对应按年代。",
+       "point": "restore"
+      },
+      {
+       "stem": "Which sentence expresses the need to book without naming a particular person?",
+       "options": [
+        "Visitors are necessary to book a time before visiting.",
+        "It is necessary to book a time after visiting.",
+        "It is necessary to book a time before visiting.",
+        "The managers need to book a time before visiting."
+       ],
+       "answer": 2,
+       "why": "原文只说参观之前需要预约，没有说由谁预约。第三项用形式主语 it 表达这一需要；第四项把预约的人说成了管理员。",
+       "point": "restore"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "subject",
+    "restore"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "原文：在山脚下的农场，农户种植了许多果树。Which phrase identifies the growers?",
+         "options": [
+          "The farmers there",
+          "The fruit trees",
+          "The foot of the mountain",
+          "The farm itself"
+         ],
+         "answer": 0,
+         "why": "种植者是农户，对应第一项。",
+         "point": "subject"
+        },
+        {
+         "stem": "原文：每年夏季，孩子们在操场练习传统舞蹈。Which subject performs the action?",
+         "options": [
+          "The playground",
+          "The children",
+          "The summer",
+          "The traditional dance"
+         ],
+         "answer": 1,
+         "why": "练习舞蹈的是孩子，对应第二项。",
+         "point": "subject"
+        },
+        {
+         "stem": "原文：制作陶器之前，需要准备好干净的水。Which sentence preserves the stated need?",
+         "options": [
+          "People are necessary to prepare clean water before making pottery.",
+          "It is necessary to prepare clean water after making pottery.",
+          "It is necessary to prepare clean water before making pottery.",
+          "It is necessary to clean the water before making pottery."
+         ],
+         "answer": 2,
+         "why": "原文说制作陶器之前要备好干净的水，没有指明由谁准备。第三项用形式主语 it，先后顺序与原文一致。",
+         "point": "restore"
+        },
+        {
+         "stem": "原文：志愿者收集资料，随后将资料送到学校。Which continuation retains the same agent? The volunteers collect the materials. ___",
+         "options": [
+          "It then sends the materials to the school.",
+          "They then collect the materials at the school.",
+          "The school then sends the materials to them.",
+          "They then send the materials to the school."
+         ],
+         "answer": 3,
+         "why": "收集和送资料的都是志愿者，they 承接 the volunteers。第三项把送资料的人换成了学校。",
+         "point": "restore"
+        },
+        {
+         "stem": "原文：在展馆内，讲解员向来宾介绍地方工艺。Arrange the given translation.",
+         "lead": "In the exhibition hall,",
+         "chunks": [
+          "the guides",
+          "introduce local",
+          "crafts to",
+          "visitors"
+         ],
+         "tail": ".",
+         "extra": [
+          "visitor"
+         ],
+         "why": "讲解员是介绍者，local crafts 是介绍的对象。",
+         "point": "subject"
+        },
+        {
+         "stem": "原文：工人搬运纸箱，然后将纸箱放在门旁。The workers carry the boxes. Arrange the given continuation.",
+         "lead": "They",
+         "chunks": [
+          "then place",
+          "the boxes beside",
+          "the",
+          "door"
+         ],
+         "tail": ".",
+         "extra": [
+          "the workers"
+         ],
+         "why": "they 承接工人，the boxes 是放置的对象。",
+         "point": "restore"
+        },
+        {
+         "stem": "原文：老师解释步骤，然后回答学生提出的问题。The teacher explains the steps. ___ then answers the students' questions. Complete the subject with the pronoun she.",
+         "accept": [
+          "she"
+         ],
+         "why": "第二个动作仍由老师完成，用给定代词 she 承接。",
+         "point": "restore"
+        },
+        {
+         "stem": "原文：每到秋天，村民们就收集成熟的果实。In autumn, the villagers collect ripe fruit. Copy the complete noun phrase naming the collectors.",
+         "accept": [
+          "the villagers"
+         ],
+         "why": "收集者是村民，对应给定译文中的 the villagers。",
+         "point": "subject"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

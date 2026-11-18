@@ -1,0 +1,54 @@
+{
+ "id": "translation-negation", "title": "否定范围与可能性", "goal": "能保留否定范围并区分可能、能力和义务。", "skill": "翻译", "exam": "大学英语四级（CET-4）", "mastery": "once",
+ "points": [{"id": "negative", "label": "准确保留原文的否定范围"}, {"id": "modality", "label": "区分可能性与义务等情态含义"}],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译教学所依据的大纲"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "否定词和限制词决定陈述的范围。情态动词表示可能性、能力或义务，译文须保持这些区别。"}, {"box": "原文：并非所有展室都在周一开放。\n译文：Not all exhibition rooms are open on Mondays."}, {"p": "not all 表示有的展室不开放。no exhibition rooms 则是一间展室都不开放。"}]},
+  {"id": "scope", "type": "table", "title": "否定的范围", "cols": ["情况", "原文", "译文与说明"], "rows": [
+   ["部分否定", "并非所有展室都在周一对外开放。", "Not all exhibition rooms are open on Mondays. 部分展室不开放。"],
+   ["部分否定", "部分居民没有参加这次社区活动。", "Not all residents joined the community event. 部分居民未参加。"],
+   ["不再", "这座旧桥如今不再供车辆通行。", "The old bridge is no longer open to vehicles. no longer 表示以前可以，现在不再可以。"],
+   ["不再", "工匠如今不再使用这种旧工具。", "Craftspeople no longer use this old tool. no longer 表示使用已停止。"],
+   ["尚未", "展室的修缮工作尚未全部完成。", "The repair work on the exhibition room has not yet been fully completed. not yet 表示目前尚未完成。"],
+   ["尚未", "工作人员尚未公布展览的开放日期。", "Staff have not yet announced the opening date of the exhibition. not yet 表示目前尚未公布。"],
+   ["只能", "访客只能从南门进入这座展馆。", "Visitors can enter the gallery only through the south gate. only 限定入口。"],
+   ["只能", "这间展室只能在周末对外开放。", "This room is open to the public only on weekends. only 限定时间。"]
+  ]},
+  {"id": "modals", "type": "table", "title": "情态含义", "cols": ["含义", "原文", "译文与说明"], "rows": [
+   ["可能", "这项活动可能吸引附近的居民。", "The event may attract nearby residents. may 表示可能。"],
+   ["可能", "新的路线可能缩短参观所需时间。", "The new route may shorten the time needed for a visit. may 表示可能。"],
+   ["能力", "这些工具能够帮助工匠加工木材。", "These tools can help craftspeople work with wood. can 表示能力。"],
+   ["能力", "新的电梯能够运送较重的物品。", "The new lift can carry heavier objects. can 表示能力。"],
+   ["义务", "工作人员应当检查展室的照明。", "Staff should check the lighting in the room. should 表示应当。"],
+   ["义务", "参观者应当遵守展馆的开放规则。", "Visitors should follow the gallery's visiting rules. should 表示应当。"]
+  ]},
+  {"id": "contrast", "type": "table", "title": "辨析", "cols": ["原意", "对应表达", "不同含义"], "rows": [
+   ["部分人未参加", "Not all residents joined.", "No residents joined. 没有人参加。"],
+   ["不再使用", "They no longer use the tool.", "They have not yet used the tool. 尚未使用。"],
+   ["只在周末开放", "It opens only on weekends.", "It opens every day. 每天开放。"],
+   ["可能吸引访客", "The event may attract visitors.", "The event will attract visitors. 表示将会吸引。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [{"box": "原文：部分居民没有参加这次活动。\n1. All residents joined the event.\n2. Not all residents joined the event.\n3. No residents joined the event.\n4. All residents will join the event."}, {"p": "原文说的是部分居民没有参加，不是所有人都没参加。第二项用 not all 译出了部分否定。"}]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["negative", "modality"], "groups": [{"items": [
+   {"stem": "原文：部分展室在周一不对外开放。Which translation preserves the scope?", "options": ["Not all rooms are open on Mondays.", "No rooms are open on Mondays.", "All rooms are open on Mondays.", "All rooms are open only on Mondays."], "answer": 0, "why": "not all 表示部分展室不开放。", "point": "negative"},
+   {"stem": "原文：这项活动可能吸引附近的居民。Which translation expresses possibility?", "options": ["The event should attract nearby residents.", "The event may attract nearby residents.", "The event will attract nearby residents.", "The event cannot attract nearby residents."], "answer": 1, "why": "may 表示可能。", "point": "modality"},
+   {"stem": "原文：工匠如今不再使用这种旧工具。Which translation preserves the change?", "options": ["Craftspeople have not yet used this old tool.", "Craftspeople still use this old tool.", "Craftspeople no longer use this old tool.", "Craftspeople will use this old tool again."], "answer": 2, "why": "no longer 表示不再使用。", "point": "negative"},
+   {"stem": "原文：工作人员应当检查展室的照明。Which translation expresses the stated obligation?", "options": ["Staff may check the room's lighting.", "Staff can check the room's lighting.", "Staff will check the room's lighting.", "Staff should check the room's lighting."], "answer": 3, "why": "should 表示应当。", "point": "modality"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["negative", "modality"], "groups": [{"text": "原文：展室的修缮尚未完成。访客只能从南门进入展馆。新的路线可能缩短参观时间。工作人员应当检查照明。", "items": [
+   {"stem": "Which sentence expresses the unfinished work?", "options": ["The work has not yet been completed.", "The work has already been completed.", "The work no longer needs completion.", "The work will certainly be completed today."], "answer": 0, "why": "not yet 表示目前尚未完成。", "point": "negative"},
+   {"stem": "Which sentence preserves the possible effect of the route?", "options": ["The route should shorten the visit.", "The route may shorten the visit.", "The route will certainly shorten the visit.", "The route has already shortened the visit."], "answer": 1, "why": "may 表示可能缩短。", "point": "modality"},
+   {"stem": "Which sentence retains the restriction on entry?", "options": ["Visitors can enter only through the north gate.", "Visitors can enter through any gate.", "Visitors can enter only through the south gate.", "Visitors can enter the south gate only on weekends."], "answer": 2, "why": "only through the south gate 限定入口。", "point": "negative"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["negative", "modality"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "原文：部分居民没有参加这次集市。Which translation preserves the scope?", "options": ["Not all residents attended the market.", "No residents attended the market.", "All residents attended the market.", "All residents attended only the market."], "answer": 0, "why": "not all 表示部分居民未参加。", "point": "negative"},
+   {"stem": "原文：新的地图可能帮助游客找到入口。Which translation expresses possibility?", "options": ["The new map should help visitors find the entrance.", "The new map may help visitors find the entrance.", "The new map will certainly help visitors find the entrance.", "The new map has already helped visitors find the entrance."], "answer": 1, "why": "may 表示可能。", "point": "modality"},
+   {"stem": "原文：这座旧桥如今不再供车辆通行。Which translation retains the change?", "options": ["The old bridge has not yet opened to vehicles.", "The old bridge is still open to vehicles.", "The old bridge is no longer open to vehicles.", "The old bridge will reopen to vehicles."], "answer": 2, "why": "no longer 表示不再开放。", "point": "negative"},
+   {"stem": "原文：参观者应当遵守展馆的开放规则。Which translation expresses the stated obligation?", "options": ["Visitors may follow the gallery's visiting rules.", "Visitors can follow the gallery's visiting rules.", "Visitors will follow the gallery's visiting rules.", "Visitors should follow the gallery's visiting rules."], "answer": 3, "why": "should 表示应当。", "point": "modality"},
+   {"stem": "原文：工作人员尚未公布展览的开放日期。Arrange the given translation.", "lead": "Staff", "chunks": ["have not yet", "announced", "the opening", "date"], "tail": ".", "extra": ["already"], "why": "have not yet announced 表示尚未公布。", "point": "negative"},
+   {"stem": "原文：这些工具能够帮助工匠加工木材。Arrange the given translation.", "lead": "These tools", "chunks": ["can help", "craftspeople", "work with", "wood"], "tail": ".", "extra": ["should"], "why": "can help 表示工具能够提供帮助。", "point": "modality"},
+   {"stem": "原文：访客只能从南门进入展馆。Visitors can enter the gallery ___ the south gate. Complete with only through.", "accept": ["only through"], "why": "only through 限定入口为南门。", "point": "negative"},
+   {"stem": "原文：工作人员应当检查展室的照明。Staff ___ the room's lighting. Complete with should and check.", "accept": ["should check"], "why": "should check 表示应当检查。", "point": "modality"}
+  ]}]}]}
+ ]
+}

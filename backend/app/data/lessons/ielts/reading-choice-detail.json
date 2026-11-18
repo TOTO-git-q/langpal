@@ -1,0 +1,70 @@
+{
+ "id": "reading-choice-detail",
+ "title": "阅读细节选择",
+ "goal": "定位具体关系并排除改变原文关系的选项。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "locate", "label": "定位题干所问的具体关系"},
+  {"id": "eliminate", "label": "排除改变原文关系的选项"}
+ ],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "阅读细节选择的教学内容"}],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "细节选择题询问原文中的具体信息。题干可要求原因、条件或结果。"},
+   {"p": "正确选项保留原文的对象和关系。限定条件有时写在相邻的句子里，定位后要连同相邻句一起读。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　判断问法", "d": "Why 询问原因，under what conditions 询问条件，what happened 询问结果。标出题干中的对象。"},
+   {"t": "2　定位句组", "d": "用对象及具体动作查找原文。阅读相邻句，确认条件和指代。"},
+   {"t": "3　核对关系", "d": "比较各选项中的对象、因果方向和条件。Because of rain 表示雨是原因。"},
+   {"t": "4　确定选项", "d": "选择完整保留原文关系的选项。只包含部分条件的选项遗漏了必要信息。"}
+  ]},
+  {"id": "relations", "type": "table", "title": "题干中的关系", "cols": ["问法", "题干", "核对"], "rows": [
+   ["原因", "Why was the gate closed?", "寻找关闭的原因"],
+   ["条件", "When may the gate open?", "寻找开放的必要条件"],
+   ["结果", "What followed the closure?", "寻找关闭后的结果"],
+   ["对象", "Which gate was repaired?", "区分各门对应的动作"]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [
+   {"box": "The eastern path was closed because a tree had fallen. The western path remained open for visitors.\nWhy was the eastern path closed?\n1. A fallen tree blocked it.\n2. Visitors preferred the western path.\n3. The eastern path was kept open.\n4. A tree was planted beside it."},
+   {"p": "依据是 eastern path was closed because a tree had fallen。第一项保留了关闭的对象和原因。第二项沿用了 western path 和 visitors，但原文没有说游客的偏好。"}
+  ]},
+  {"id": "distractors", "type": "table", "title": "干扰项", "cols": ["情况", "原文", "错误关系"], "rows": [
+   ["对象替换", "east path closed; west open", "west path closed"],
+   ["对象替换", "reed bed filters; pond stores", "pond filters water"],
+   ["因果倒置", "rain caused flooding", "flooding caused rain"],
+   ["因果倒置", "heat caused expansion", "expansion caused heating"],
+   ["条件遗漏", "only adults with tickets enter", "all adults enter"],
+   ["条件遗漏", "dry samples with labels accepted", "all labelled samples accepted"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["locate", "eliminate"], "groups": [
+   {"text": "The western roof was repaired because it leaked. The eastern roof remained dry.", "items": [{"stem": "Why was the western roof repaired?", "options": ["Water was getting in through it.", "It stayed entirely dry.", "The eastern roof leaked.", "The eastern roof was repaired."], "answer": 0, "why": "依据是 western roof was repaired because it leaked。第一项把 leaked 改写为 water was getting in。", "point": "locate"}]},
+   {"text": "The library opens its map room only when a staff member is present and the room has been booked.", "items": [{"stem": "When can the map room open?", "options": ["When staff are present, with no booking", "When a booking has been made, without staff", "When staff are present and it is booked", "At any time the library itself is open"], "answer": 2, "why": "依据是 only when a staff member is present and the room has been booked。两项条件同时满足，即第三项。", "point": "eliminate"}]},
+   {"text": "The frost damaged the early flowers. Later flowers appeared after the cold period.", "items": [{"stem": "What was a result of the frost?", "options": ["The cold ended before the early flowers appeared.", "The early flowers were harmed by the cold.", "The later flowers were damaged by the frost.", "The later flowers appeared during the cold."], "answer": 1, "why": "依据是 The frost damaged the early flowers。第二项把 damaged 改写为 harmed，对象仍是早开的花。第三项把对象换成了 later flowers。", "point": "locate"}]},
+   {"text": "The team tested dry clay samples bearing a number. Damp samples and unnumbered samples were set aside.", "items": [{"stem": "Which samples did the team test?", "options": ["Any clay samples carrying a number", "All dry samples, numbered or not", "Damp samples carrying a number", "Dry clay samples carrying a number"], "answer": 3, "why": "依据是 dry clay samples bearing a number。样本须同时干燥、带编号，即第四项。", "point": "eliminate"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["locate", "eliminate"], "groups": [{
+   "text": "A museum moved its textiles away from a window because sunlight was fading them. The photographs remained in the same room, but were put in boxes. Staff permitted access to the textile store only when an appointment had been made and a conservator was present.",
+   "items": [
+    {"stem": "Why were the textiles moved?", "options": ["Boxes were needed for the photographs.", "Sunlight was damaging their colour.", "A conservator needed an appointment.", "The photographs had faded in storage."], "answer": 1, "why": "依据是 because sunlight was fading them。第二项把 fading 改写为 damaging their colour。", "point": "locate"},
+    {"stem": "What was required for access to the textile store?", "options": ["A box and an appointment", "A conservator without an appointment", "An appointment and a conservator", "An appointment without a conservator"], "answer": 2, "why": "依据是 only when an appointment had been made and a conservator was present。两项条件都要满足，即第三项。", "point": "eliminate"}
+   ]
+  }]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["locate", "eliminate"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A town museum was preparing a collection of large maps for a new reading room. The maps had been stored flat in drawers, but staff wanted to make selected sheets easier to consult. They began with a condition survey. Each map was checked for tears and loose pieces before any decision was made about moving it. The survey recorded the location of damage as well as the catalogue number, so that a later inspection could be compared with the first.\n\nThe team chose to photograph the strongest sheets first because these could be handled safely. Fragile sheets stayed in their drawers until a conservator had examined them. Staff photographed each selected map on a table beside a window, using a screen to reduce direct sunlight. A ruler was included in each image. If the image omitted an edge, it was retaken; a complete image was then linked to the catalogue record. The team did not use the photographs to estimate the age of a map.\n\nWhen the images were ready, visitors could view them on a screen in the reading room. Access to an original sheet was allowed only if a visitor had made an appointment and a staff member was available to supervise handling. These conditions applied even to maps that had been photographed. The museum kept a record of original sheets requested, but the record did not count how often visitors viewed the digital images. The two uses were therefore not compared directly. The survey and the handling record served different purposes: one described condition, while the other documented access to original material.",
+    "items": [
+     {"stem": "Why did the team photograph the strongest sheets first?", "options": ["They could be moved without undue risk.", "They needed a conservator's examination first.", "They had already been requested by visitors.", "Their photographs could help to date the maps."], "answer": 0, "why": "依据是 because these could be handled safely。第一项把 handled safely 改写为 moved without undue risk。", "point": "locate"},
+     {"stem": "What happened when an image left out a map edge?", "options": ["The sheet was kept in its drawer for a conservator.", "A fresh photograph of the sheet was made.", "The missing edge was estimated with the ruler.", "The image was linked to the catalogue record."], "answer": 1, "why": "依据是 If the image omitted an edge, it was retaken。第二项把 retaken 改写为 a fresh photograph was made。第四项是重拍之后才做的事。", "point": "locate"},
+     {"stem": "Which conditions allowed access to an original?", "options": ["A digital image of the map and a condition survey", "A conservator's survey without an appointment", "An appointment and a supervising staff member", "An appointment without staff supervision"], "answer": 2, "why": "依据是 only if a visitor had made an appointment and a staff member was available to supervise handling。两个条件都要满足，即第三项。", "point": "eliminate"}
+    ]},
+   {"look": "passage", "text": "A team studying a shallow pond compared records from two observation points. One point overlooked an area of reeds, while the other faced open water. The researchers wanted to record the number of birds visible from each point, rather than estimate the whole population using the pond. They chose positions that could be reached without crossing the reed bed. Each observer used the same form to record the time, the location and the number seen.\n\nObservations were cancelled on days of heavy rain because visibility from both points was poor. Light rain alone did not cancel a session. At each session, one observer watched the reeds and another watched the open water. The observers exchanged positions halfway through, so differences in counting would not always be associated with the same place. They wrote down only birds they could see; calls from birds hidden in the reeds were noted separately and excluded from the visual count.\n\nAfter the sessions, the team compared the two sets of counts. On several mornings more birds were visible over open water than near the reeds. The team did not conclude that more birds were present in the open area overall, because vegetation could conceal birds in the reed bed. Instead, the comparison described visibility from the chosen points. The researchers kept notes about the weather with the counts, enabling later readers to see the conditions under which the records had been made. They also retained the separate notes on calls, but did not add them to the visual totals.\n\nThe study demonstrates why a count depends on both the object being observed and the method used to observe it.",
+    "items": [
+     {"stem": "Why were sessions cancelled in heavy rain?", "options": ["Observers could not exchange their positions.", "Calls of hidden birds were hard to hear.", "The points could only be reached across the reeds.", "Neither point gave observers a clear view."], "answer": 3, "why": "依据是 because visibility from both points was poor。第四项把 visibility was poor 改写为 Neither point gave a clear view。", "point": "locate"},
+     {"stem": "Why did observers exchange positions?", "options": ["To count calls from birds hidden in reeds", "To separate individual counting from location", "To move both observers to the open water", "To continue recording during heavy rain"], "answer": 1, "why": "依据是 so differences in counting would not always be associated with the same place。交换位置后，个人计数的差异不再固定在一个地点，即第二项。", "point": "eliminate"},
+     {"stem": "Which records were included in the visual count?", "options": ["All birds present, including concealed ones", "Visible birds and separately noted calls", "Birds that the observers could actually see", "Calls from birds hidden among the reeds"], "answer": 2, "why": "依据是 They wrote down only birds they could see。视觉计数只记看得见的鸟，即第三项。第二项的叫声另行记录，没有计入。", "point": "eliminate"}
+    ]}
+  ]}]}
+ ]
+}

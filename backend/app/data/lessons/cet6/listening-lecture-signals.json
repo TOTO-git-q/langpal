@@ -1,0 +1,83 @@
+{
+ "id": "listening-lecture-signals",
+ "title": "讲述中的逻辑信号",
+ "goal": "辨认口头信号表达的逻辑关系；判断信号后信息的论述功能。",
+ "skill": "听力",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "signal", "label": "辨认口头信号表达的逻辑关系"},
+  {"id": "predict", "label": "判断信号后信息的论述功能"}
+ ],
+ "sources": [{"id": "syllabus", "title": "大学英语六级（CET-6）：课表", "url": "docs/syllabi/cet6.md", "used": "讲座的教学内容、知识点与练习规格"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "口头信号表示前后信息之间的关系。定义信号引出概念的含义，举例信号引出具体情况。"},
+   {"box": "A queue is an ordered line. For example, customers may wait in the order in which they arrive."},
+   {"p": "For example 引出顾客排队的具体情况。判断例子的作用，要联系前面的 ordered line。"}
+  ]},
+  {"id": "introduction", "type": "table", "title": "引入与定义", "cols": ["类型", "表达", "例句"], "rows": [
+   ["引入", "Today we'll consider …", "Today we'll consider how a map represents distance."],
+   ["引入", "Our subject is …", "Our subject is the arrangement of a small collection."],
+   ["引入", "Let's turn to …", "Let's turn to the question of maintenance."],
+   ["引入", "I'd like to discuss …", "I'd like to discuss the use of shared equipment."],
+   ["定义", "… means …", "A sample means a selected part of a population."],
+   ["定义", "… refers to …", "A route refers to a way between places."],
+   ["定义", "By … I mean …", "By capacity I mean the amount a container can hold."],
+   ["定义", "… is defined as …", "A cycle is defined as one complete sequence of changes."]
+  ], "note": "引入信号说明要讨论什么，定义信号说明术语的含义。定义里的限定条件要一起记下。"},
+  {"id": "example-contrast", "type": "table", "title": "举例与对比", "cols": ["类型", "表达", "例句"], "rows": [
+   ["举例", "For example, …", "Some materials bend easily. For example, a thin sheet of paper can be folded."],
+   ["举例", "For instance, …", "Visitors need information. For instance, a sign can identify an entrance."],
+   ["举例", "Consider …", "A display may group related objects. Consider a shelf of containers used for carrying water."],
+   ["举例", "One example is …", "A service may be temporary. One example is a weekly repair desk."],
+   ["对比", "However, …", "The first route is short. However, it has several steps."],
+   ["对比", "In contrast, …", "The first container is open. In contrast, the second has a lid."],
+   ["对比", "Unlike …, …", "Unlike the printed list, the digital list can be updated immediately."],
+   ["对比", "Whereas …, …", "Whereas the first group used a map, the second followed signs."]
+  ], "note": "例子要联系它说明的观点。对比要听清双方和差别在哪里。"},
+  {"id": "cause-summary", "type": "table", "title": "因果与归纳", "cols": ["类型", "表达", "例句"], "rows": [
+   ["因果", "Because …", "Because the path was closed, visitors used the side entrance."],
+   ["因果", "As a result, …", "The path was closed. As a result, visitors used the side entrance."],
+   ["因果", "This led to …", "The path closed. This led to a change in the visitors' route."],
+   ["因果", "That's why …", "The path was closed. That's why visitors used the side entrance."],
+   ["归纳", "To sum up, …", "To sum up, both the route and its signs affect access."],
+   ["归纳", "In short, …", "In short, the arrangement determines what can be compared."],
+   ["归纳", "The main point is …", "The main point is that a trial has defined conditions."],
+   ["归纳", "Overall, …", "Overall, the observations support a limited conclusion."]
+  ], "note": "Because 引出原因，as a result 引出结果。归纳句概括的是前文说过的内容。"},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A shared display can help visitors compare objects. For example, two maps of the same route can be placed side by side. However, the maps may show different years, so their dates should also be checked."},
+   {"box": "What does the phrase before the two maps introduce?\n1. A definition of the route on each map\n2. A specific case of arranging objects for comparison\n3. A conclusion that both maps have the same date\n4. A reason to avoid placing maps beside one another"},
+   {"p": "For example 引出 two maps ... side by side，这是前句比较方式的具体实例，即第二项。"}
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["signal", "predict"], "groups": [
+   {"look": "passage", "text": "The first room has natural light. In contrast, the second relies on lamps.", "items": [{"stem": "What relationship does the signal mark?", "options": ["A difference between two sources of light", "A definition of a lamp used in both rooms", "A result caused by a change in room size", "A summary of the first room's natural light"], "answer": 0, "why": "In contrast 连接 natural light 与 lamps，表示光源的差异，即第一项。", "point": "signal"}]},
+   {"look": "passage", "text": "A station can provide several kinds of information. For example, a screen can show departure times.", "items": [{"stem": "What follows the signal phrase?", "options": ["A definition of a station's departure time", "An example of information a station offers", "A contrast between two kinds of screen", "A summary of the kinds of station information"], "answer": 1, "why": "For example 引出显示发车时间的具体情况，即第二项。", "point": "predict"}]},
+   {"look": "passage", "text": "Because one entrance was closed, visitors used a side door.", "items": [{"stem": "What does the opening signal introduce?", "options": ["A summary of both entrances", "An example of a visitor's route", "The reason for using the side door", "A contrast between two open entrances"], "answer": 2, "why": "Because one entrance was closed 给出使用侧门的原因，即第三项。", "point": "signal"}]},
+   {"look": "passage", "text": "Both labels give the same date. Overall, their wording differs but their date information agrees.", "items": [{"stem": "What does the final signal introduce?", "options": ["A new example with a different date", "The cause of the labels' wording", "A definition of the word date", "A summary of the label comparison"], "answer": 3, "why": "Overall 引出关于措辞与日期的概括，即第四项。", "point": "predict"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["signal", "predict"], "groups": [
+   {"audio": {"intro": "Listen to the lecture.", "lines": [{"who": "A", "text": "Today we'll consider how objects can be organized in a collection. By a thematic group I mean objects placed together because they share a subject. For instance, cups and bottles may be grouped as containers. In contrast, a chronological display orders objects by date. Overall, the choice of arrangement changes which relationship is easiest to see."}]}, "items": [
+    {"stem": "What does the speaker introduce after 'By a thematic group I mean'?", "options": ["A definition based on a shared subject", "A contrast between cups and bottles", "A result of changing the date of an object", "A conclusion about all chronological displays"], "answer": 0, "why": "objects placed together because they share a subject 是 thematic group 的定义，即第一项。", "point": "predict"},
+    {"stem": "What relation connects the two display arrangements?", "options": ["A cause followed by its result", "A difference in organizing principles", "An example of a thematic group of containers", "A summary of what each arrangement shows"], "answer": 1, "why": "In contrast 比较按主题分组与按时间排序，即第二项。", "point": "signal"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["signal", "predict"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "Our subject is the organization of a public garden. Paths connect its different areas.", "items": [{"stem": "What does the opening phrase introduce?", "options": ["A result of closing a garden path", "The topic that the talk will discuss", "A contrast between two areas of the garden", "The definition of a garden path"], "answer": 1, "why": "Our subject is 引出 public garden 的组织方式，即第二项。", "point": "predict"}]},
+   {"look": "passage", "text": "A schedule refers to a plan showing when activities take place. It can be revised when times change.", "items": [{"stem": "What relation does 'refers to' mark?", "options": ["A contrast between two activities", "An example of a revised schedule", "A cause of changes in activity times", "A definition of the term schedule"], "answer": 3, "why": "refers to 引出 schedule 的含义，即第四项。", "point": "signal"}]},
+   {"look": "passage", "text": "Some packages can be used again. For instance, a returned container can be cleaned and refilled.", "items": [{"stem": "What follows the example signal?", "options": ["A specific case of a package being reused", "A definition of every kind of container", "A contrast between two ways to dispose of packages", "A summary of how packages are cleaned"], "answer": 0, "why": "For instance 后的 returned container 可以清洗并再次装填，是重复使用的实例，即第一项。", "point": "predict"}]},
+   {"look": "passage", "text": "The first route uses stairs. Unlike that route, the second has a ramp.", "items": [{"stem": "What does the signal indicate about the routes?", "options": ["The second caused the first to be closed.", "The ramp is defined as a kind of stair.", "They differ in how they give access.", "The two routes share the same stairs."], "answer": 2, "why": "Unlike 引出 stairs 与 ramp 的差异，即第三项。", "point": "signal"}]},
+   {"look": "passage", "text": "The entry was blocked. As a result, visitors used the other doorway.", "items": [{"stem": "What follows 'As a result'?", "options": ["A definition of the blocked entry", "A consequence of the blocked entry", "A contrast between two open doorways", "An example of the entry being blocked"], "answer": 1, "why": "As a result 引出访客改用另一道门这一结果，即第二项。", "point": "predict"}]},
+   {"look": "passage", "text": "Both containers hold the same amount, but only one has a lid. In short, capacity and closure are distinct properties.", "items": [{"stem": "What function does the final signal mark?", "options": ["Introducing a cause of equal capacity", "Giving another example of a container with a lid", "Defining the amount held by a container", "Summarizing how the two properties differ"], "answer": 3, "why": "In short 引出容量与封闭方式不同的概括，即第四项。", "point": "signal"}]},
+   {"audio": {"intro": "Listen to the lecture.", "lines": [{"who": "A", "text": "I'd like to discuss how a notice can be made easier to find. A notice refers here to a short message displayed for visitors. For example, a list of opening times can be placed beside an entrance. However, a notice at one entrance may not reach people who use another. The placement and the route both matter when deciding where to display it."}]}, "items": [
+    {"stem": "What does the speaker introduce after 'For example'?", "options": ["A contrast between two visitors' routes", "A definition of a notice as a short message", "A specific notice placed near an entrance", "A summary of all possible opening times"], "answer": 2, "why": "For example 后的 list of opening times 是放在入口旁的一则通知，即第三项。", "point": "predict"},
+    {"stem": "What relationship is marked by 'However'?", "options": ["A definition of an entrance by its location", "A result of placing the list by the entrance", "A repetition of the list of opening times", "A qualification concerning another entrance"], "answer": 3, "why": "However 后指出一个入口的通知可能无法触及另一个入口的访客，即第四项。", "point": "signal"}
+   ]},
+   {"audio": {"intro": "Listen to the lecture.", "lines": [{"who": "A", "text": "Let's turn to a fictional comparison of two water containers. The first has a narrow opening, whereas the second has a wide one. Both hold the same amount. Because the wider opening admits a larger cleaning brush, the second container is easier to clean with that brush. To sum up, equal capacity does not mean that the two openings serve the same practical purpose."}]}, "items": [
+    {"stem": "What does 'because' introduce?", "options": ["A summary of the capacities of both containers", "A contrast between the narrow and wide openings", "A definition of the larger brush used for cleaning", "A reason the second container is easier to clean"], "answer": 3, "why": "Because the wider opening admits a larger cleaning brush 给出较易清洗的原因，即第四项。", "point": "signal"},
+    {"stem": "What does the final signal introduce?", "options": ["A summary separating capacity from the use of an opening", "A new example of a container with unequal capacity", "A reason for changing the amount held by the first container", "A definition of the brush used to clean the second container"], "answer": 0, "why": "To sum up 引出 equal capacity 与 openings serve the same practical purpose 的区别，即第一项。", "point": "predict"}
+   ]}
+  ]}]} 
+ ]
+}

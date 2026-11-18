@@ -1,0 +1,408 @@
+{
+ "id": "reading-passage-method",
+ "title": "阅读理解的解题步骤",
+ "goal": "识别阅读任务，并按定位、阅读证据和比较选项的顺序解题。",
+ "skill": "阅读",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "classify",
+   "label": "按题干识别所需的阅读任务"
+  },
+  {
+   "id": "procedure",
+   "label": "按定位和核对步骤选择答案"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语（新课标卷）：课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "阅读理解的解题步骤和知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "阅读理解的题干规定了问什么、问谁。细节题要找原文明确写出的信息。推断题要根据原文信息得出结论。"
+    },
+    {
+     "p": "词义题要结合上下文理解词语。主旨题要概括段落或全文。目的题要判断作者为什么写这篇文章、为什么举这个例子。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定任务与对象",
+     "d": "判断题目属于细节、推断、词义、主旨还是目的。标出所问的对象，如题干中的 repair team。"
+    },
+    {
+     "t": "2　定位段落",
+     "d": "用人名、具体事物或题干指明的词句找到相关段落。主旨题和全文目的题要看各段。"
+    },
+    {
+     "t": "3　阅读完整证据",
+     "d": "读完相关的整句，必要时读前后句。分清哪些是原文直接写的，哪些是由此推出的。"
+    },
+    {
+     "t": "4　比较选项",
+     "d": "核对对象、动作和限定条件。选出既有原文依据、又回答了题干的选项。原文 repaired the clock，正确选项常写成 fixed the clock。"
+    }
+   ]
+  },
+  {
+   "id": "tasks",
+   "type": "table",
+   "title": "阅读任务",
+   "cols": [
+    "类型",
+    "英文题干",
+    "证据"
+   ],
+   "rows": [
+    [
+     "细节",
+     "What did the team repair?",
+     "找到 team 的实际行动。"
+    ],
+    [
+     "推断",
+     "What can be inferred about the team?",
+     "结合行动及其结果判断。"
+    ],
+    [
+     "词义",
+     "What does 'restore' mean in paragraph 2?",
+     "联系第二段中的上下文。"
+    ],
+    [
+     "主旨",
+     "What is the passage mainly about?",
+     "归纳各段共同支持的内容。"
+    ],
+    [
+     "目的",
+     "Why does the author mention the clock?",
+     "看提到钟表的句子前后的观点。"
+    ]
+   ]
+  },
+  {
+   "id": "evidence",
+   "type": "table",
+   "title": "事实与推断",
+   "cols": [
+    "类型",
+    "原文",
+    "对应内容"
+   ],
+   "rows": [
+    [
+     "事实",
+     "Mia brought a ladder to the workshop.",
+     "Mia brought a ladder."
+    ],
+    [
+     "推断",
+     "The shelf was too high, so Mia brought a ladder.",
+     "Mia needed a way to reach the shelf."
+    ],
+    [
+     "事实",
+     "The rain delayed the outdoor concert.",
+     "The concert was delayed by rain."
+    ],
+    [
+     "推断",
+     "The rain stopped; the musicians moved outside again.",
+     "The musicians had been indoors."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A town library wanted to make its old maps easier to study. Volunteers first placed the maps in protective covers. They then made digital copies, which readers could examine on a screen. The original maps remained in a temperature-controlled room. The library also prepared descriptions to help readers search the digital collection."
+    },
+    {
+     "box": "Why did the volunteers make digital copies?\n1. To allow readers to examine the maps on a screen\n2. To move the original maps into protective covers\n3. To replace the descriptions used in the search\n4. To change the temperature in the storage room"
+    },
+    {
+     "p": "题干问制作数字副本的原因，用 digital copies 定位。同一句的 which readers could examine on a screen 说明了用途，第一项与此一致。"
+    },
+    {
+     "p": "第二项是制作副本之前的行动。第三项改变了 descriptions 的用途。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "相邻信息",
+     "protective covers 是制作副本前的行动。",
+     "题干问的是制作副本。"
+    ],
+    [
+     "改变关系",
+     "用副本取代 descriptions。",
+     "descriptions 用来帮助检索副本，没有被取代。"
+    ],
+    [
+     "范围变化",
+     "some maps 改成 all maps。",
+     "核对数量和限定词。"
+    ],
+    [
+     "无依据推断",
+     "仅凭储存温度判断地图年代。",
+     "原文没有提到地图的年代。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "classify"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "What did the caretaker replace on Monday?",
+     "items": [
+      {
+       "stem": "What kind of information does this question request?",
+       "options": [
+        "A stated action by the caretaker",
+        "A suggested reason for the repair",
+        "A general title for the passage",
+        "A possible meaning of replace"
+       ],
+       "answer": 0,
+       "why": "题干问 caretaker 周一换了什么。答案是原文写明的行动，属于细节题。",
+       "point": "classify"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "What can be inferred about the caretaker?",
+     "items": [
+      {
+       "stem": "What does this question require?",
+       "options": [
+        "Find the date of an action",
+        "Draw a supported conclusion",
+        "Explain a word in a sentence",
+        "Name the passage's main topic"
+       ],
+       "answer": 1,
+       "why": "题干中的 inferred 表示推断题，要根据原文事实得出结论。",
+       "point": "classify"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "What does 'fresh' mean in the second paragraph?",
+     "items": [
+      {
+       "stem": "What is the task in this question?",
+       "options": [
+        "Identify the caretaker's action",
+        "Summarize the second paragraph",
+        "Determine a word's context meaning",
+        "Explain the author's writing purpose"
+       ],
+       "answer": 2,
+       "why": "题干指定了 fresh 和第二段，要判断这个词在上下文中的意思。",
+       "point": "classify"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Why does the author describe the caretaker's work?",
+     "items": [
+      {
+       "stem": "What is the question asking about?",
+       "options": [
+        "The date of the caretaker's work",
+        "The meaning of the word caretaker",
+        "The person who hired the caretaker",
+        "The purpose of describing the work"
+       ],
+       "answer": 3,
+       "why": "题干问作者为什么描述这项工作，要判断这处描述的作用，属于目的题。",
+       "point": "classify"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "procedure"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A school planned an exhibition of handmade instruments. The art club built the stands, while the music club collected the instruments. On the first day, rain kept visitors away from the courtyard. The exhibition moved to the hall the following morning, and more families attended. Teachers kept the stands for another event, but the instruments went back to their owners.",
+     "items": [
+      {
+       "stem": "What did the music club do for the exhibition?",
+       "options": [
+        "It built the stands for the hall.",
+        "It gathered the instruments on display.",
+        "It returned the stands to families.",
+        "It kept the stands for another event."
+       ],
+       "answer": 1,
+       "why": "依据：the music club collected the instruments。第二项用 gathered 改写 collected。搭展台的是美术社。",
+       "point": "procedure"
+      },
+      {
+       "stem": "What can be inferred about the first day?",
+       "options": [
+        "More families came than on the next day.",
+        "Teachers returned every instrument.",
+        "The weather lowered attendance that day.",
+        "The exhibition opened in the hall."
+       ],
+       "answer": 2,
+       "why": "依据：On the first day, rain kept visitors away from the courtyard，第二天移到礼堂后来的人更多。可以推断天气使第一天的人数减少。",
+       "point": "procedure"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "classify",
+    "procedure"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "The residents of Bell Street had long walked past an empty shop with a painted green door. When the owner offered its front room for community use, a group of neighbours proposed a repair café. People could bring small household objects and work alongside volunteers who knew how to mend them. The group hoped to make repair skills easier to share.\n\nBefore opening, the neighbours listed the tools they already owned. Some brought screwdrivers and boxes for spare parts; others offered lamps so that the worktables would be well lit. The owner agreed to store the tools in the back room between meetings. A notice on the green door explained that visitors should remain with their objects while a volunteer examined them. The neighbours also placed chairs along the wall for people waiting to speak with volunteers.\n\nAt the first meeting, a visitor brought a clock that had stopped. A volunteer showed her how to remove its back and clean a loose contact. Another visitor had a torn bag, and a neighbour demonstrated how to sew the handle securely. Neither visitor paid for the demonstration, although both were asked to bring any special replacement parts they needed.\n\nAfterward, the organisers collected comments on slips of paper. Several visitors wanted a longer session, while the volunteers asked for more space around the tables. For the next meeting, the group rearranged the room and kept the same opening hours. The owner also put a second notice in the window so that passers-by could see the next date without opening the door.",
+       "items": [
+        {
+         "stem": "Which question asks for a stated detail about the repair café?",
+         "options": [
+          "What did the owner agree to store?",
+          "What can be inferred about the owner?",
+          "What is the passage mainly about?",
+          "Why does the author describe the clock?"
+         ],
+         "answer": 0,
+         "why": "依据：原文写明 The owner agreed to store the tools in the back room。第一项问的就是这一明确细节。",
+         "point": "classify"
+        },
+        {
+         "stem": "Where were the tools kept between meetings?",
+         "options": [
+          "In boxes beside the green door",
+          "In the back room of the shop",
+          "On the visitors' worktables",
+          "In the window near the notice"
+         ],
+         "answer": 1,
+         "why": "依据：The owner agreed to store the tools in the back room between meetings。两次活动之间，工具放在后屋。",
+         "point": "procedure"
+        },
+        {
+         "stem": "What can be inferred from the visitors' comments?",
+         "options": [
+          "They wanted to pay for demonstrations.",
+          "They asked for more room around tables.",
+          "Some visitors hoped for longer sessions.",
+          "Some wanted the window notice removed."
+         ],
+         "answer": 2,
+         "why": "依据：Several visitors wanted a longer session。可以推断部分访客希望活动时间更长。要求更多空间的是志愿者。",
+         "point": "procedure"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A small museum had a collection of letters written by people who once worked on the local railway. The letters described ordinary routines as well as special journeys. Although the museum displayed a few pages, most remained in boxes because there was little room for a permanent exhibition. The staff wanted visitors to encounter more of the collection without putting every original on display.\n\nThey invited a group of students to prepare a listening station. The students chose short passages from the letters and recorded volunteers reading them aloud. Each recording included a brief introduction identifying the writer and the year. Museum staff checked the introductions against the labels already attached to the letters. The students then arranged the recordings by date, beginning with the earliest letter in their selection.\n\nThe first version of the station had headphones at a single table. During a trial, several visitors gathered there at once, so the students added a second pair of headphones and moved the table away from the entrance. They did not change the recordings, since visitors had said the voices and introductions were clear.\n\nThe museum also supplied printed versions beside the station. Some visitors preferred to read, and others used the pages to follow the recordings. At the end of the trial, staff placed a notebook nearby for comments. One visitor asked whether more letters could be included; another suggested adding a map of the railway. The students planned to discuss both ideas with the staff before making further changes. They kept the notebook so that the staff could read the suggestions at their next meeting.",
+       "items": [
+        {
+         "stem": "Which question asks for the main idea of the passage?",
+         "options": [
+          "When were the letters written?",
+          "Where was the table moved?",
+          "Why did one visitor request a map?",
+          "What is the passage mainly about?"
+         ],
+         "answer": 3,
+         "why": "mainly about 要求概括全文。其他三个问句各问一处细节或原因。",
+         "point": "classify"
+        },
+        {
+         "stem": "Why did the students add another pair of headphones?",
+         "options": [
+          "The introductions needed to be recorded again.",
+          "Visitors found the voices hard to hear.",
+          "Several visitors gathered at the station.",
+          "The letters had been returned to boxes."
+         ],
+         "answer": 2,
+         "why": "依据：several visitors gathered there at once, so the students added a second pair of headphones。so 前面就是原因。",
+         "point": "procedure"
+        },
+        {
+         "stem": "Which question asks what the station's description contributes to the passage?",
+         "options": [
+          "Why does the author describe the listening station?",
+          "Who checked the letters' introductions?",
+          "What does 'station' mean in paragraph two?",
+          "Which year appears on a letter's label?"
+         ],
+         "answer": 0,
+         "why": "Why does the author describe ... 问的是这段描述在文章中的作用，属于目的题。",
+         "point": "classify"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

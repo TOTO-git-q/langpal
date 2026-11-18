@@ -1,0 +1,91 @@
+{
+ "id": "listening-conversation-reason",
+ "title": "对话原因题",
+ "goal": "听出说话人给出的原因，区分猜测与结果。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "reason", "label": "听出说话人明确给出的理由"},
+  {"id": "exclude", "label": "排除猜测和因果倒置的选项"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "长对话教学依据"}],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "原因题询问某个行动、选择或变化的理由。题干常用 why 或 reason for。答案以说话人明确给出的解释为依据。"},
+   {"box": "Why did Mia change the date?\nWhat is the reason for changing the date?"},
+   {"p": "原因常由 because 引出，也可能在后一句说明。对方提出的猜测，要看说话人是否认可。行动之后发生的事是结果，不是原因。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定所问行动", "d": "先确定题干中的人物和行动。Why did Mia change the date 问 Mia 改日期的原因。"},
+   {"t": "2　听取本人解释", "d": "because 后面可直接说明理由。I changed it because the hall was closed 指大厅关闭是原因。"},
+   {"t": "3　核对相邻话语", "d": "没有 because 时，后句也可能解释原因。I changed the date. The hall was closed 中第二句说明原因。"},
+   {"t": "4　区分猜测与结果", "d": "猜测是否成立，要看对方怎样回应。改期后通知参与者是后续行动，不是改期原因。"}
+  ]},
+  {"id": "signals", "type": "table", "title": "原因与相邻信息", "cols": ["信息", "作用", "例句"], "rows": [
+   ["明确原因", "because 引出理由", "I changed it because the hall was closed."],
+   ["后句解释", "后句解释前句行动", "I changed the date. The hall was closed."],
+   ["本人理由", "行动者自己说的理由", "I chose the bus because it stops nearby."],
+   ["他人猜测", "要看行动者是否认可", "Was the train full? No, the bus stops nearby."],
+   ["后续结果", "行动之后发生的事", "I changed the date, so I told the group."]
+  ], "note": "同一对话中可同时出现原因和结果。确定题干所问的行动，再核对信息方向。"},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "Mia: I've moved the sewing class to Friday.\nLeon: Was the instructor unavailable on Thursday?\nMia: No, the instructor was free. The room is needed for another class on Thursday.\nLeon: Then I'll tell the students about Friday. Should we print new notices?\nMia: Yes, please. I'll update the online schedule."},
+   {"box": "Why did Mia move the class?\n1. The instructor was busy on Thursday.\n2. Another class needed the room.\n3. The students requested new notices.\n4. The online schedule needed an update."},
+   {"p": "The room is needed for another class 说明了改期原因，第二项符合。第一项是 Leon 的猜测，Mia 已经否定。第四项是改期之后要做的事。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "核对方法", "例"], "rows": [
+   ["未证实的猜测", "核对行动者的回应", "Was the teacher busy? No, the room was needed."],
+   ["另一人的理由", "对应题干中的人物", "I chose the train; she chose the bus."],
+   ["后续结果", "区分原因和之后的行动", "The room was closed, so I changed the date."],
+   ["因果倒置", "核对原因指向的事件", "The road closed, so the bus took another route."]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["reason", "exclude"], "groups": [
+   {"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "Why are you taking the later ferry?"}, {"who": "B", "text": "Because my meeting ends after the early one leaves."}]}, "items": [{"stem": "Why will the speaker take the later ferry?", "options": ["The meeting ends after the early ferry leaves.", "The later ferry reaches the meeting earlier.", "The earlier ferry leaves after the meeting.", "The speaker wants to leave the meeting early."], "answer": 0, "why": "because my meeting ends after the early one leaves 给出原因，第一项符合。", "point": "reason"}]},
+   {"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "Did you return the lamp because it was too expensive?"}, {"who": "B", "text": "No, it didn't fit on my desk. The shop gave me a refund."}]}, "items": [{"stem": "Why did the customer return the lamp?", "options": ["The customer expected a larger refund.", "The lamp was too large for the desk.", "The lamp cost more than expected.", "The desk was returned to the shop."], "answer": 1, "why": "it didn't fit on my desk 是本人理由，第二项符合。价格是被否定的猜测。", "point": "exclude"}]},
+   {"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "I chose the blue folder. The red one has no label."}, {"who": "B", "text": "I'll add a label to the red folder later."}]}, "items": [{"stem": "Why did the speaker choose the blue folder?", "options": ["The blue folder needed a new label.", "The red folder already had a label.", "The other folder had no label.", "The other speaker added a label."], "answer": 2, "why": "The red one has no label 解释选择蓝色文件夹的原因，第三项符合。", "point": "reason"}]},
+   {"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "Was the game moved because the field was wet?"}, {"who": "B", "text": "No, the field was dry. The lights weren't working, so we used another field."}]}, "items": [{"stem": "Why was another field used?", "options": ["The first field was wet after rain.", "The second field had no lights.", "The first field was too dry for play.", "The first field's lights had failed."], "answer": 3, "why": "The lights weren't working, so we used another field 指出换场地的原因，第四项符合。", "point": "exclude"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["reason", "exclude"], "groups": [
+   {"audio": {"intro": "Listen to a conversation.", "lines": [
+    {"who": "A", "text": "Why did you change the meeting from Tuesday to Wednesday?"},
+    {"who": "B", "text": "The interpreter is away on Tuesday. She'll be back on Wednesday."},
+    {"who": "A", "text": "I thought the meeting room was being repaired."},
+    {"who": "B", "text": "The repairs finished last week. I've sent everyone the new date, and I'll check the room again tomorrow."}
+   ]}, "items": [
+    {"stem": "Why was the meeting moved to Wednesday?", "options": ["The interpreter is away on Tuesday.", "The room will be repaired on Wednesday.", "The interpreter requested room repairs.", "The new date was sent to everyone."], "answer": 0, "why": "The interpreter is away on Tuesday 是改期理由，第一项符合。", "point": "reason"},
+    {"stem": "What was the reason for the change in date?", "options": ["The room repairs were not yet finished.", "The interpreter could attend on Wednesday.", "Everyone needed to receive the new date.", "The room needed checking on Tuesday."], "answer": 1, "why": "口译员周二不在，She'll be back on Wednesday 说明周三能够出席，第二项符合。房间维修已完成。", "point": "exclude"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 8, "pass": 0.75, "points": ["reason", "exclude"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to a conversation.", "lines": [
+    {"who": "A", "text": "Hi, Elena. I saw that the community orchestra has changed the location of its autumn concert. I thought the town hall was large enough for everyone. Was it too expensive to rent?"},
+    {"who": "B", "text": "No, Marcus. The rental price was within our budget. We moved the concert because the hall's heating system needs repairs, and the work won't finish before the performance."},
+    {"who": "A", "text": "I see. I also noticed that the concert starts at six instead of seven. Did the repairs affect the starting time as well? I had already put the later time in my calendar."},
+    {"who": "B", "text": "The time changed for a different reason. Several players need to catch the last bus home, and starting earlier gives them time to pack their instruments before it leaves."},
+    {"who": "A", "text": "Where will the concert be held now? The school auditorium has a good stage, although I remember it was busy when the orchestra tried to book it last year."},
+    {"who": "B", "text": "We chose the school auditorium this time because it has a ramp for moving the larger instruments. The library offered a room too, but its entrance has several steps."},
+    {"who": "A", "text": "That makes sense. I'll update the event listing on the neighborhood website. It currently shows the old location and time, so people might go to the wrong building."},
+    {"who": "B", "text": "Thank you. I'll send the same details to everyone who bought a ticket. The school staff will open the doors half an hour before the music begins, and we'll put signs near the entrance."}
+   ]}, "items": [
+    {"stem": "Why did the orchestra change the concert location?", "options": ["The town hall cost too much to rent.", "The school offered a later concert time.", "The hall's heating required repair work.", "The library needed a larger entrance."], "answer": 2, "why": "the hall's heating system needs repairs 是 Elena 明确给出的原因，第三项符合。", "point": "exclude"},
+    {"stem": "Why will the concert begin earlier?", "options": ["The auditorium closes before seven.", "Some players need to catch a bus.", "The heating repairs must begin at six.", "The website listed an earlier performance."], "answer": 1, "why": "Several players need to catch the last bus home 解释提前开始的原因，第二项符合。", "point": "reason"},
+    {"stem": "Why was the school auditorium chosen?", "options": ["Its ramp helps move large instruments.", "Its heating repairs have just finished.", "It was the only room still available.", "Its entrance has several steps to climb."], "answer": 0, "why": "it has a ramp for moving the larger instruments 说明选学校礼堂的原因，第一项符合。", "point": "reason"}
+   ]},
+   {"audio": {"intro": "Listen to a conversation.", "lines": [
+    {"who": "A", "text": "Hello, Theo. I heard the local museum is preparing a guide for visitors. You worked on the exhibition last summer, didn't you? I wondered why the guide will be available online first."},
+    {"who": "B", "text": "That's right, Fatima. We chose an online guide because the exhibits may change during the year. An online version lets us update the descriptions without printing a new guide each time."},
+    {"who": "A", "text": "I thought the museum had run out of paper. The exhibition included a collection of maps when I visited, and I remember reading a printed leaflet about them at the entrance."},
+    {"who": "B", "text": "We have plenty of paper. The map leaflet was useful, but its descriptions became out of date when some items were moved. That's why we want a version we can revise easily."},
+    {"who": "A", "text": "I also heard that the guide will have recordings as well as text. Is that because the museum has hired more guides to lead visitors through the rooms?"},
+    {"who": "B", "text": "No, the staff numbers are the same. We added recordings because some visitors prefer to listen while looking at the objects. People can choose the text or the audio according to their preference."},
+    {"who": "A", "text": "Will the guide be ready before the new display opens? Our history group is planning a visit, and I'd like to send its members a link in advance."},
+    {"who": "B", "text": "Yes. We'll publish it next Monday. After that I'll send the link to the history group and ask the front desk to keep a few printed copies for people who request them."}
+   ]}, "items": [
+    {"stem": "Why did the museum choose an online guide?", "options": ["The museum could no longer buy paper.", "The museum had hired new guides.", "The front desk ran out of printed copies.", "The descriptions can be updated easily."], "answer": 3, "why": "An online version lets us update the descriptions 解释选择线上指南的原因，第四项符合。", "point": "exclude"},
+    {"stem": "Why did the museum add recordings?", "options": ["More guides had joined the staff.", "Some visitors prefer listening.", "The map leaflet had become out of date.", "The printed leaflets had run out."], "answer": 1, "why": "some visitors prefer to listen while looking at the objects 说明添加录音的原因，第二项符合。", "point": "exclude"},
+    {"stem": "Why does Theo want a guide that can be revised?", "options": ["The leaflet's descriptions became outdated.", "The history group has already received a link.", "The museum wants to remove all printed copies.", "Some visitors prefer listening to reading."], "answer": 0, "why": "its descriptions became out of date 后接 That's why we want a version we can revise easily，第一项符合。", "point": "reason"}
+   ]}
+  ]}]} 
+ ]
+}

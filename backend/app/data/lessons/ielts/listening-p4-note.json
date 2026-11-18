@@ -1,0 +1,74 @@
+{
+ "id": "listening-p4-note",
+ "title": "笔记填空",
+ "goal": "根据笔记层次预测并记录与录音一致的原词。",
+ "skill": "听力",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "predict", "label": "利用标题和并列项预测答案"},
+  {"id": "record", "label": "记录与笔记层次一致的原词"}
+ ],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "笔记填空与听力课教学规格"}],
+ "cards": [
+  {"id": "type", "type": "text", "title": "题型", "body": [
+   {"p": "笔记用标题和缩进表示信息的层次。空格常出现在定义、原因或结果中。与空格并列的词可以提示答案的词性。"},
+   {"box": "Water loss\n  Causes: wind and ______\n  Result: faster drying"},
+   {"p": "空格与 wind 并列，应填名词。这一栏要填原因，不填 Result 一栏的内容。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　阅读层次", "d": "先看标题和缩进项目的关系。Water loss 是主题，Causes 是它下面的一个栏目。"},
+   {"t": "2　预测词性", "d": "根据并列的词和空格前的结构判断所缺成分。wind and 后面应接另一个名词。"},
+   {"t": "3　对应录音", "d": "按讲述顺序听，找出与栏目意思一致的原词。定义、原因、结果各填在自己的栏目里。"},
+   {"t": "4　核对形式", "d": "核对词数、修饰词和单复数。题面已有的词不重复填写。"}
+  ]},
+  {"id": "clues", "type": "table", "title": "笔记的线索", "cols": ["栏目", "笔记", "判断"], "rows": [
+   ["定义", "A sample: a selected ______", "填入定义的核心名词"],
+   ["原因", "Causes: wind and ______", "填与 wind 并列的名词"],
+   ["结果", "Result: fewer ______", "fewer 后接复数名词"],
+   ["对象", "Materials: glass and ______", "填与 glass 并列的材料名称"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "Recording: The researchers studied two causes of wear: friction and moisture. The friction was produced by repeated movement.\n\nWear\n  Causes: friction and ______\n\nWrite ONE WORD from the recording."},
+   {"p": "答案是 moisture。Causes 说明这一栏填原因，moisture 与 friction 并列。repeated movement 说的是 friction 从哪里来，不是第二个原因。"}
+  ]},
+  {"id": "distractors", "type": "table", "title": "常见错误", "cols": ["情况", "录音与笔记", "正确填法"], "rows": [
+   ["遗漏复数", "three layers → three ______", "填 layers，保留 -s"],
+   ["多写限定词", "a narrow channel → a narrow ______", "只填 channel，narrow 已在笔记中"],
+   ["填写上层概念", "materials: glass and wood → glass and ______", "填 wood，不填 materials"],
+   ["混淆原因与结果", "wind causes rapid drying → Cause: ______", "填 wind，不填 drying"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["predict", "record"], "groups": [
+   {"audio": {"lines": [{"who": "A", "text": "The material has two layers. The outer layer protects the surface."}]}, "items": [{"stem": "Write ONE WORD from the recording. Structure: two ______.", "accept": ["layers"], "why": "录音说 two layers。two 后面用复数，答案是 layers。", "point": "predict"}]},
+   {"audio": {"lines": [{"who": "A", "text": "The two tools used in this survey were a ruler and a camera."}]}, "items": [{"stem": "Write ONE WORD from the recording. Tools: ruler and ______.", "accept": ["camera"], "why": "录音说 a ruler and a camera，camera 与 ruler 同为工具。笔记省去了 a，只填 camera。", "point": "predict"}]},
+   {"audio": {"lines": [{"who": "A", "text": "A dark surface absorbed more heat and consequently dried more quickly."}]}, "items": [{"stem": "Write ONE WORD from the recording. Cause of faster drying: more ______ absorbed.", "accept": ["heat"], "why": "依据是 absorbed more heat，这是干得更快的原因。more 已在题面，只填 heat。", "point": "record"}]},
+   {"audio": {"lines": [{"who": "A", "text": "The enclosure had a narrow entrance and a wider internal chamber."}]}, "items": [{"stem": "Write ONE WORD from the recording. Enclosure: a narrow ______.", "accept": ["entrance"], "why": "依据是 a narrow entrance。narrow 已在笔记中，只填 entrance。", "point": "record"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["predict", "record"], "groups": [{
+   "audio": {"lines": [{"who": "A", "text": "Today we will consider how a simple water filter can be described in notes. A filter is a device that separates some material from a liquid passing through it. In the example, water enters a container from above. The container holds a layer of gravel above a layer of sand. The gravel and sand are the two materials in this model. They are not the same size, so the order of the layers matters when the device is described. Below the sand is a piece of cloth. Its role is to hold the sand in place while water passes through. The cloth is therefore a support, not another name for the container. The water leaving the bottom may look clearer because some visible particles have been retained in the filter. Clear appearance alone does not establish that water is safe to drink. In a demonstration, a researcher can compare water before and after it passes through the device. The comparison can include the appearance of each sample and the amount collected. Notes can group the information under a definition, the materials and the observed result. Within the materials section, the order from top to bottom can be recorded as gravel, sand and cloth. This order makes the positions of the layers clear. The result belongs under a separate heading because it describes the water after filtering rather than the construction of the device."}]},
+   "items": [
+    {"stem": "Write ONE WORD from the recording. Filter: separates material from a ______.", "accept": ["liquid"], "why": "定义是 separates some material from a liquid passing through it，所缺名词是 liquid。", "point": "predict"},
+    {"stem": "Write ONE WORD from the recording. Filter materials: gravel and ______.", "accept": ["sand"], "why": "依据是 The gravel and sand are the two materials。与 gravel 并列的材料是 sand。", "point": "record"},
+    {"stem": "Write ONE WORD from the recording. Support below the sand: ______.", "accept": ["cloth"], "why": "依据是 Below the sand is a piece of cloth。下一句说明 cloth 的作用是托住沙层。", "point": "record"}
+   ]
+  }]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["predict", "record"], "sets": [{"id": "set-a", "groups": [
+   {
+    "audio": {"lines": [{"who": "A", "text": "This talk concerns the observation of shadows. A shadow is a dark area formed where an object blocks light from reaching a surface. In a classroom demonstration, a lamp provides a source of light and a card acts as the object. The card stands between the lamp and a white screen. First, the demonstrator keeps the lamp and screen fixed, then moves the card closer to the lamp. The shadow on the screen becomes larger. Next, the card is moved towards the screen. Its shadow becomes smaller again. These changes concern the apparent size of the shadow on that particular screen. To record the demonstration, the class can measure the shadow with a ruler and note the card position each time. The notes should distinguish the objects used from the results observed. A heading for equipment can contain the lamp, card, screen and ruler. A separate heading for results can show what happened when the card moved in each direction. The light source and screen remain in their original places throughout this particular comparison. Other conditions could be investigated separately. For example, a different lamp or a different screen position would create a different comparison. The notes should identify the conditions of the demonstration rather than treating every possible arrangement as identical. A short description of the method also helps the reader interpret the recorded measurements."}]},
+    "items": [
+     {"stem": "Write ONE WORD from the recording. Shadow: a dark ______ where light is blocked.", "accept": ["area"], "why": "定义是 A shadow is a dark area formed where an object blocks light，所缺名词是 area。", "point": "predict"},
+     {"stem": "Write ONE WORD from the recording. Equipment: lamp, card, screen and ______.", "accept": ["ruler"], "why": "依据是 A heading for equipment can contain the lamp, card, screen and ruler。与其他器材并列的是 ruler。", "point": "predict"},
+     {"stem": "Write ONE WORD from the recording. Moving the card towards the screen makes the shadow ______.", "accept": ["smaller"], "why": "依据是 the card is moved towards the screen. Its shadow becomes smaller again。答案是 smaller。", "point": "record"}
+    ]
+   },
+   {
+    "audio": {"lines": [{"who": "A", "text": "Researchers who study local traffic sometimes count vehicles at selected points. A traffic count is a record of vehicles passing a chosen location during a stated period. A count can help describe patterns at that location, although the observation period must be identified. Imagine a study at a road junction. The observers count cars and buses separately rather than treating them as one category. They record the totals during the morning and repeat the count in the afternoon. In this example, more buses pass the junction in the afternoon than in the morning. The researchers also note that roadworks divert some vehicles away from the junction during the morning count. This is a possible explanation for part of the difference, rather than a measurement of the effect on each vehicle. The final report presents the observed counts and the roadworks as separate pieces of information. It does not claim that the same difference occurs at every junction or on every day. A table of results could use one row for each vehicle type and columns for the two periods. Notes can instead put the vehicle categories under one heading and the possible explanation under another. In either format, the timing of the observation gives the counts their context. A later study could repeat the counts on other days to see whether the observed pattern recurs under different conditions."}]},
+    "items": [
+     {"stem": "Write ONE WORD from the recording. A traffic count records vehicles at a chosen ______.", "accept": ["location"], "why": "定义是 a record of vehicles passing a chosen location，所缺名词是 location。", "point": "predict"},
+     {"stem": "Write ONE WORD from the recording. Vehicle categories: cars and ______.", "accept": ["buses"], "why": "依据是 count cars and buses separately。与 cars 并列的是 buses，保留复数。", "point": "record"},
+     {"stem": "Write ONE WORD from the recording. Possible explanation for the morning count: ______.", "accept": ["roadworks"], "why": "依据是 roadworks divert some vehicles away from the junction during the morning count。下一句称它为 a possible explanation。", "point": "record"}
+    ]
+   }
+  ]}]}
+ ]
+}

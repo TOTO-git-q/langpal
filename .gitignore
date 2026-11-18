@@ -1,0 +1,37 @@
+# 环境与依赖
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# 密钥（DEEPSEEK_API_KEY 等，绝不入库）
+.env
+
+# 运行时数据（聊天记录/记忆/生词本，回档不该动用户数据）
+backend/db/*.db
+data/*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Electron 构建产物
+desktop/dist/
+desktop/out/
+
+# 杂项
+*.log
+Thumbs.db
+
+# 回忆用的嵌入模型缓存（2.1G，从小主机拷来）
+.fastembed_cache/
+data/avatars/
+data/uploads/
+data.bak-*/
+
+# DB/source backups made during maintenance (contain chat data)
+data/backups/
+data/source-backups/
+
+# lesson courses the user had made, and synthesized lesson recordings
+data/lessons/
+data/lesson_audio/

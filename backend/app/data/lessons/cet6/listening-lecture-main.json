@@ -1,0 +1,77 @@
+{
+ "id": "listening-lecture-main",
+ "title": "讲座主题与目的题",
+ "goal": "识别讲座反复解释的中心概念；判断讲者的主要说明目的。",
+ "skill": "听力",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "topic", "label": "识别讲座反复解释的中心概念"},
+  {"id": "purpose", "label": "判断讲者的主要说明目的"}
+ ],
+ "sources": [
+  {"id": "syllabus", "title": "大学英语六级（CET-6）：课表", "url": "docs/syllabi/cet6.md", "used": "讲座的教学内容、知识点与练习规格"}
+ ],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "主题题问讲座主要讨论什么。目的题问讲者讲这段话主要为了做什么。主题指讨论的对象，目的指讲者怎样说明这个对象。"},
+   {"box": "A broken clock can be repaired, but what happens when a building changes its original use? Today we will examine adaptive reuse: giving an existing building a new function. We will consider the building's structure, its new use, and the choices that connect them."},
+   {"p": "主题是建筑的再利用，目的是解释这一概念。钟表只是引入的例子，不是讲座的主体。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定开场问题", "d": "开场问题限定讨论对象。What happens when a building changes its use 指向建筑用途的变化。"},
+   {"t": "2　追踪反复说明的内容", "d": "记下贯穿全篇的概念和它们之间的关系。讲座继续讨论 structure 和 new use 时，二者共同指向建筑再利用。"},
+   {"t": "3　核对结尾回应", "d": "结尾常回应开场的问题。若末句回到 old structures serving new purposes，便与建筑再利用的主题一致。"},
+   {"t": "4　比较范围与目的", "d": "正确选项要覆盖讲述的主体。Explain adaptive reuse 概括说明目的，repair a clock 只概括引入的例子。"}
+  ]},
+  {"id": "purposes", "type": "table", "title": "讲述目的", "cols": ["类型", "讲述重点", "例"], "rows": [
+   ["讲解概念", "定义概念及其组成", "A food chain describes feeding relationships among organisms."],
+   ["讲解概念", "解释概念的适用范围", "A public space is open for shared use, though access may have rules."],
+   ["介绍研究", "说明问题、方法与发现", "A study compared two ways of displaying bus times."],
+   ["介绍研究", "说明研究结果的解释", "The researchers found a difference in recall and considered several explanations."],
+   ["评价现象", "分析现象的作用与不足", "Shared tools can reduce purchases, but they require maintenance."],
+   ["评价现象", "比较现象的不同影响", "Longer opening hours increase access while adding staffing costs."]
+  ], "note": "讲述目的看主体内容。讲座提到一项研究时，先判断研究是主体，还是解释概念时举的例子。"},
+  {"id": "scope", "type": "table", "title": "主旨选项的范围", "cols": ["范围", "原文", "判断"], "rows": [
+   ["引入例子", "A broken clock can be repaired.", "钟表只是引入，范围过小。"],
+   ["核心概念", "Adaptive reuse gives an existing building a new function.", "建筑的新用途贯穿主体。"],
+   ["局部细节", "A former station becomes a library.", "车站的用途只是一个实例。"],
+   ["范围过大", "All forms of repair improve every community.", "原文只讲建筑的新用途，没有评价各类维修。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A disused station can become a library, but adaptive reuse involves more than changing a sign. It gives an existing building a new function while retaining useful parts of its structure. The choice of a new use depends on the spaces already available and on the alterations they need. In this sense, reuse connects an old structure with a different purpose."},
+   {"box": "What is the speaker mainly doing?\n1. Explaining the idea of giving buildings new uses\n2. Reporting the cost of operating a station library\n3. Comparing every method of repairing public buildings\n4. Describing the history of a particular railway station"},
+   {"p": "adaptive reuse 和 existing building a new function 在开头与结尾呼应。讲者解释旧建筑承担新用途的概念，即第一项。车站是引入的实例。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "例", "依据"], "rows": [
+   ["例子代替主题", "A station library is the sole subject.", "车站引出旧建筑再利用。"],
+   ["细节代替主题", "Alterations are the only issue discussed.", "改造只是选择新用途的一方面。"],
+   ["扩大范围", "Every type of repair is evaluated.", "主体限于建筑的新用途。"],
+   ["误判目的", "The speaker reports a cost survey.", "讲述解释概念，没有报告成本调查。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["topic", "purpose"], "groups": [
+   {"audio": {"intro": "Listen to the lecture.", "lines": [{"who": "A", "text": "A visitor may notice a bench beside a path. Today we will consider accessibility: the extent to which people with different needs can use a place. An accessible path connects entrances and destinations in ways that accommodate those needs. The path is one part of a larger setting, and access depends on the connections between its parts."}]}, "items": [{"stem": "What is the main topic?", "options": ["The location of a particular bench", "The accessibility of a place", "The design of a single entrance", "The use of one destination on a path"], "answer": 1, "why": "accessibility 与 people with different needs can use a place 指向场所的可达性，即第二项。", "point": "topic"}]},
+   {"audio": {"intro": "Listen to the lecture.", "lines": [{"who": "A", "text": "Why do some readers overlook a notice? A research team compared two arrangements of the same notice on a library screen. More readers recalled it when it appeared beside the search box. The researchers discuss what the comparison suggests about placement. They also consider the readers who did not recall the notice in either arrangement."}]}, "items": [{"stem": "What is the speaker mainly doing?", "options": ["Defining a term used in a library notice", "Evaluating readers' use of the search box", "Introducing research on notice placement", "Describing the contents of a single notice"], "answer": 2, "why": "compared two arrangements 和 More readers recalled it 引出研究方法与发现，即第三项。", "point": "purpose"}]},
+   {"audio": {"intro": "Listen to the lecture.", "lines": [{"who": "A", "text": "A shared kitchen can bring neighbors together, but it also needs a cleaning schedule. Today we will consider both the social benefit and the work involved in running such a space. The value of sharing depends partly on how that work is organized."}]}, "items": [{"stem": "What is the speaker's main purpose?", "options": ["To evaluate benefits and demands of a shared kitchen", "To explain how to draw up a cleaning schedule", "To argue that sharing a kitchen brings neighbors together", "To describe the work of keeping a shared kitchen clean"], "answer": 0, "why": "social benefit 和 work involved 表明讲者评价共享厨房的益处与负担，即第一项。", "point": "purpose"}]},
+   {"audio": {"intro": "Listen to the lecture.", "lines": [{"who": "A", "text": "A bicycle can be borrowed for a short journey, but the subject today is the wider system that makes such borrowing possible. We will discuss where shared bicycles are placed and how they are returned. Together, these arrangements shape access to the service."}]}, "items": [{"stem": "What does the talk mainly concern?", "options": ["The length of a single bicycle journey", "The return of one borrowed bicycle", "The placement of a single bicycle", "The organization of bicycle sharing"], "answer": 3, "why": "where shared bicycles are placed and how they are returned 是共享单车服务的安排，即第四项。", "point": "topic"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["topic", "purpose"], "groups": [
+   {"audio": {"intro": "Listen to the lecture.", "lines": [{"who": "A", "text": "A plant on a windowsill turns toward light. That example introduces today's topic: how organisms respond to changes in their surroundings. A response is an observable change in activity or growth associated with a condition. Light is one condition; temperature is another. The response may differ between organisms and situations. The point is to connect a particular condition with the change observed, rather than assume that all organisms respond in the same way."}]}, "items": [
+    {"stem": "What is the main topic?", "options": ["The position of one plant on a windowsill", "The responses of organisms to conditions", "The amount of light reaching one plant", "The growth of every plant at one temperature"], "answer": 1, "why": "开头的 organisms respond to changes 和结尾的 condition 与 change 呼应，即第二项。", "point": "topic"},
+    {"stem": "What is the speaker mainly doing?", "options": ["Reporting an experiment on a windowsill", "Comparing light and temperature as plant responses", "Explaining what a response to a condition is", "Arguing that all organisms respond in the same way"], "answer": 2, "why": "A response is an observable change 给出定义，后文说明适用情形，即第三项。", "point": "purpose"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 8, "pass": 0.75, "points": ["topic", "purpose"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to the lecture.", "lines": [{"who": "A", "text": "Imagine that a visitor arrives at a town square and sees an empty stage. The stage may suggest that a performance is about to begin, but today the subject is not performance itself. I want to discuss how temporary uses can change the way people understand a public place. By temporary use, I mean an activity that occupies a location for a limited period without permanently replacing its usual function. A square might host a market for one morning and remain open for walking on other days. The market is a useful example because it brings people and objects into a space arranged for another purpose. Its tables, signs, and queues can reveal how much room different activities require. Yet the market is only one possible use. A short exhibition might occupy a wall, while a neighborhood meeting might use chairs arranged in a circle. Each changes movement through the square in a different way. Temporary use can also help people observe a proposal before making a permanent decision. Suppose a town is considering a seating area. Staff could place movable chairs in one part of the square for several weeks and observe whether people use them and whether the arrangement leaves enough room for pedestrians. Such observations describe that trial under those conditions. They do not guarantee that the same arrangement would work in every season or for every group. The trial also requires attention to who is present. An observer who visits only at lunchtime may miss people who come in the evening. A fuller account might combine observations made at different times with comments from people who use the square. Even then, a decision about a permanent change involves costs, maintenance, and competing needs that a short trial cannot settle on its own. The key distinction is between using a temporary activity to learn about a place and treating the activity as a complete solution. The empty stage at the beginning was one possible temporary feature. Markets, chairs, and exhibitions show a broader principle: a limited use can make the relationships among space, movement, and public needs easier to examine."}]}, "items": [
+    {"stem": "What is the lecture mainly about?", "options": ["The design of permanent stages in town squares", "The space a market needs in a town square", "The use of public places for limited periods", "The cost of maintaining chairs at exhibitions"], "answer": 2, "why": "开头的 temporary uses 和结尾的 limited use 呼应，主体讨论公共空间的临时使用，即第三项。", "point": "topic"},
+    {"stem": "What is the speaker's main purpose?", "options": ["To explain how temporary uses can inform decisions about a place", "To report the final results of a town's permanent seating project", "To argue that markets should replace all other uses of a square", "To describe how a market changes movement through a square"], "answer": 0, "why": "using a temporary activity to learn about a place 概括讲者的说明目的，即第一项。", "point": "purpose"},
+    {"stem": "How does the stage at the opening relate to the lecture?", "options": ["It supplies the final decision about permanent seating.", "It shows that the lecture is about performance itself.", "It presents the results of observations made at lunchtime.", "It introduces one example of the temporary uses discussed."], "answer": 3, "why": "结尾的 one possible temporary feature 表明舞台是引入整体主题的一个实例，即第四项。", "point": "topic"}
+   ]},
+   {"audio": {"intro": "Listen to the lecture.", "lines": [{"who": "A", "text": "A visitor to a small museum may notice that one object has a long label while another has only a name. Does giving more information always help visitors remember an object? Today I'll describe a fictional study designed to explore one part of that question. The study concerned where explanatory labels were placed, rather than how much information they contained. Its purpose was to compare two arrangements under the same conditions. In the study, visitors saw a small display of model boats. One group encountered a short label directly beside each model. Another group saw the same labels together on a panel at the end of the display. The text was identical, and both groups had the same time to view the objects. Afterwards, the visitors were asked to match descriptions with the models. In this imagined comparison, more visitors in the first group matched the descriptions correctly. That result is an observation about the two arrangements used in this particular display. The researchers considered one possible explanation: a nearby label may make it easier to connect a description with the object it describes. However, the study did not measure where visitors looked, so the researchers could not establish that explanation from the matching scores alone. Other differences in attention might also have contributed. The design has further limits. A display of model boats is not the same as a large gallery in which visitors choose their own route. The visitors in the study also had a fixed amount of time. Results from a longer visit or a different collection might be different. A useful next study could record viewing patterns and compare several kinds of objects. The opening question concerned whether more information improves memory. This study answers a narrower question: when the wording is held constant, its position may be associated with a difference in matching performance. It does not compare long labels with short ones. The study illustrates how a research question, a controlled comparison, and a carefully limited interpretation fit together. A finding is most useful when the conditions that produced it remain visible alongside the result."}]}, "items": [
+    {"stem": "What is the lecture mainly about?", "options": ["A comparison of label placement and visitors' matching", "The effect of label placement on where visitors looked", "A comparison of long and short descriptions on labels", "A plan to replace labels with a single large panel"], "answer": 0, "why": "compare two arrangements 与位置和 matching performance 的结论呼应，即第一项。", "point": "topic"},
+    {"stem": "What is the speaker mainly doing?", "options": ["Explaining why nearby labels improve visitors' memory", "Arguing that more information always improves memory", "Recommending longer labels for every museum object", "Presenting a study and the limits of its conclusions"], "answer": 3, "why": "讲座介绍研究设计、比较结果及解释的限制，即第四项。", "point": "purpose"},
+    {"stem": "How does the study narrow the opening question?", "options": ["It compares routes through a large gallery in different seasons.", "It compares positions while keeping the wording unchanged.", "It compares visitors' descriptions of several kinds of objects.", "It compares eye movements instead of matching scores."], "answer": 1, "why": "when the wording is held constant, its position 指出研究比较位置而非信息多少，即第二项。", "point": "topic"}
+   ]}
+  ]}]} 
+ ]
+}

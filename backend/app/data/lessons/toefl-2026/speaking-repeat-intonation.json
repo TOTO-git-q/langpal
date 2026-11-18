@@ -1,0 +1,446 @@
+{
+ "id": "speaking-repeat-intonation",
+ "title": "语调",
+ "goal": "判断一句话应使用的语调；判断句中未完成处的语调。",
+ "skill": "speaking",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 口语",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "pattern",
+   "label": "判断一句话应使用的语调"
+  },
+  {
+   "id": "boundary",
+   "label": "判断句中未完成处的语调"
+  }
+ ],
+ "sources": [],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "语调是意群里音高的变化，表示话说完了、还没说完或在询问。本课用 ↑ 表示升调，↓ 表示降调。箭头只标意群末尾的变化，不是全句逐词升降。"
+    },
+    {
+     "box": "The room is ready. ↓\nIs the room ready? ↑"
+    },
+    {
+     "p": "陈述、询问、列举和确认各有常见的语调。选语调看说话的目的，不只看标点。书面题会写明说话的目的。题目不要求听辨录音的实际音高。"
+    }
+   ]
+  },
+  {
+   "id": "endings",
+   "type": "table",
+   "title": "句末语调",
+   "cols": [
+    "情况",
+    "常见模式",
+    "用法与例句"
+   ],
+   "rows": [
+    [
+     "完整陈述",
+     "降调 ↓",
+     "报告一件已完成的事：The printer is ready. ↓"
+    ],
+    [
+     "特殊疑问句",
+     "降调 ↓",
+     "普通的询问：Where is the printer? ↓"
+    ],
+    [
+     "一般疑问句",
+     "升调 ↑",
+     "询问不知道的事：Is the printer ready? ↑"
+    ],
+    [
+     "反意疑问：真实求证",
+     "附加问句升调 ↑",
+     "说话人不确定：The printer is ready, isn’t it? ↑"
+    ],
+    [
+     "反意疑问：期待认同",
+     "附加问句降调 ↓",
+     "说话人已经确定：The printer is ready, isn’t it? ↓"
+    ],
+    [
+     "复述或惊讶",
+     "可改用升调",
+     "没听清，再问一遍：Where is the printer? ↑"
+    ]
+   ],
+   "note": "同一句反意疑问句可升可降。升降看说话人有没有把握，不看句子是肯定还是否定。"
+  },
+  {
+   "id": "continuation",
+   "type": "table",
+   "title": "未完成处的语调",
+   "cols": [
+    "情况",
+    "模式",
+    "例句"
+   ],
+   "rows": [
+    [
+     "封闭列举",
+     "前项常升，最后一项降，表示清单结束。",
+     "We need pencils ↑, rulers ↑, and erasers ↓."
+    ],
+    [
+     "尚未结束的清单",
+     "已说出的最后一项用升调，表示后面还有。",
+     "We need pencils ↑, rulers ↑ …"
+    ],
+    [
+     "前置时间从句",
+     "从句末可用升调或平调延续，主句末降。",
+     "When the paint dries ↑, remove the tape ↓."
+    ],
+    [
+     "前置条件从句",
+     "条件从句末用升调，表示后面还有主句。",
+     "If the cable fits ↑, connect the monitor ↓."
+    ],
+    [
+     "前置让步从句",
+     "让步从句末用升调，表示后面还有主句，不是提问。",
+     "Although the room is small ↑, the desks fit ↓."
+    ],
+    [
+     "升调的不同功能",
+     "句中的升调表示没说完，句末的升调表示求证。",
+     "After the call ↑, send the form ↓. / Is it ready? ↑"
+    ]
+   ],
+   "note": "前置从句末也可以用平调或降升调。本课的选择题用升调代表这一类读法。"
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Context: The speaker has not checked the cupboard and genuinely wants confirmation.\nThe spare cups are in the cupboard, aren’t they?\nChoose the tag ending and its meaning.\n1. Falling; agreement is expected.\n2. Rising; confirmation is requested.\n3. Rising; the list will continue.\n4. Falling; the location is being announced."
+    },
+    {
+     "p": "has not checked 和 genuinely wants confirmation 说明说话人不确定。附加问句用升调表示求证，答案是第二项。同一句用降调，表示期待对方认同。"
+    }
+   ]
+  },
+  {
+   "id": "check-pattern",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "pattern"
+   ],
+   "groups": [
+    {
+     "text": "The speaker gives a finished, neutral announcement: The shuttle has arrived.",
+     "items": [
+      {
+       "stem": "Which ending matches the stated purpose?",
+       "options": [
+        "Falling; a completed statement",
+        "Rising; a genuine yes/no inquiry",
+        "Rising; an unfinished list",
+        "Falling; an ordinary wh-question"
+       ],
+       "answer": 0,
+       "why": "The shuttle has arrived 是完整的中性陈述，用降调。",
+       "point": "pattern"
+      }
+     ]
+    },
+    {
+     "text": "The speaker genuinely asks: Has the parcel arrived?",
+     "items": [
+      {
+       "stem": "Which description fits the usual ending?",
+       "options": [
+        "Falling; a completed announcement",
+        "Falling; an ordinary wh-question",
+        "Rising; an unfinished list",
+        "Rising; a yes/no question seeking information"
+       ],
+       "answer": 3,
+       "why": "Has the parcel arrived 是一般疑问句，真心询问时用升调。",
+       "point": "pattern"
+      }
+     ]
+    },
+    {
+     "text": "The speaker asks for a place without surprise or repetition: Where is the spare key?",
+     "items": [
+      {
+       "stem": "Which ending fits this neutral wh-question?",
+       "options": [
+        "Rising; a request to repeat unheard words",
+        "Falling; an ordinary request for information",
+        "Rising; an unfinished sequence of places",
+        "Falling; an assertion that the key is spare"
+       ],
+       "answer": 1,
+       "why": "Where is the spare key 是普通的特殊疑问句，用降调。材料说明这不是没听清后的复问。",
+       "point": "pattern"
+      }
+     ]
+    },
+    {
+     "text": "The speaker is certain the hall is quiet and expects agreement: The hall is quiet, isn’t it?",
+     "items": [
+      {
+       "stem": "Which tag ending matches that attitude?",
+       "options": [
+        "Rising; uncertainty about the hall",
+        "Rising; another item is coming",
+        "Falling; shared agreement is expected",
+        "Falling; a location question is being asked"
+       ],
+       "answer": 2,
+       "why": "说话人已经确定，期待对方认同，附加问句用降调。",
+       "point": "pattern"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-boundary",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "boundary"
+   ],
+   "groups": [
+    {
+     "text": "This is the complete list: Bring clips, tape, and string.",
+     "items": [
+      {
+       "stem": "Which sequence follows the closed-list pattern?",
+       "options": [
+        "clips ↓ / tape ↑ / string ↑",
+        "clips ↑ / tape ↓ / string ↑",
+        "clips ↑ / tape ↑ / string ↓",
+        "clips ↓ / tape ↓ / string ↑"
+       ],
+       "answer": 2,
+       "why": "完整的列举前两项用升调，最后的 string 用降调结束。",
+       "point": "boundary"
+      }
+     ]
+    },
+    {
+     "text": "When the alarm stops, the technician will reset the panel.",
+     "items": [
+      {
+       "stem": "Which pair marks continuation and final completion?",
+       "options": [
+        "stops ↓ / panel ↑",
+        "stops ↑ / panel ↑",
+        "stops ↓ / panel ↓",
+        "stops ↑ / panel ↓"
+       ],
+       "answer": 3,
+       "why": "When 从句在前，话还没说完，stops 处用升调。主句末 panel 处用降调结束。",
+       "point": "boundary"
+      }
+     ]
+    },
+    {
+     "text": "The speaker begins a longer list and will add more items: helmets, gloves …",
+     "items": [
+      {
+       "stem": "What does a rise after gloves indicate?",
+       "options": [
+        "More items are expected.",
+        "A yes/no answer is required.",
+        "The complete list has ended.",
+        "The speaker expects agreement with a tag."
+       ],
+       "answer": 0,
+       "why": "材料说明清单还会继续，gloves 后的升调表示没说完。",
+       "point": "boundary"
+      }
+     ]
+    },
+    {
+     "text": "If the frame is secure, the exhibition can open.",
+     "items": [
+      {
+       "stem": "Which clause boundary can carry a continuation rise?",
+       "options": [
+        "After exhibition",
+        "After secure",
+        "After open",
+        "After the frame"
+       ],
+       "answer": 1,
+       "why": "If the frame is secure 是条件从句，secure 后用升调，引出主句。",
+       "point": "boundary"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "pattern",
+    "boundary"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "A curator neutrally reports a completed fact: The display is finished.",
+       "items": [
+        {
+         "stem": "Which ending matches the stated function?",
+         "options": [
+          "Rising; a list is still open",
+          "Falling; a complete statement is made",
+          "Rising; a yes/no answer is sought",
+          "Falling; a wh-question requests a detail"
+         ],
+         "answer": 1,
+         "why": "The display is finished 是中性完整陈述，降调表示完成。",
+         "point": "pattern"
+        }
+       ]
+      },
+      {
+       "text": "A visitor asks about an unknown fact: Is the upper gallery open?",
+       "items": [
+        {
+         "stem": "Which ending matches the ordinary yes/no pattern?",
+         "options": [
+          "Falling; a completed report",
+          "Falling; a neutral wh-question",
+          "Rising; an unfinished list",
+          "Rising; a request to confirm a fact"
+         ],
+         "answer": 3,
+         "why": "Is the upper gallery open 是一般疑问句，真实询问时常用升调。",
+         "point": "pattern"
+        }
+       ]
+      },
+      {
+       "text": "The speaker asks without surprise: Why was the rehearsal postponed?",
+       "items": [
+        {
+         "stem": "Which ending follows the neutral wh-question pattern?",
+         "options": [
+          "Falling; a reason is requested",
+          "Rising; unheard words are being repeated",
+          "Rising; a list of reasons remains unfinished",
+          "Falling; the postponement is being announced"
+         ],
+         "answer": 0,
+         "why": "Why was … postponed 是普通的特殊疑问句，问的是原因，用降调。",
+         "point": "pattern"
+        }
+       ]
+      },
+      {
+       "text": "Compare two uses of \"The path is safe, isn’t it?\" First, the speaker is unsure. Second, the speaker is confident and expects agreement.",
+       "items": [
+        {
+         "stem": "Which pair matches the tag endings in order?",
+         "options": [
+          "Falling / rising",
+          "Rising / rising",
+          "Rising / falling",
+          "Falling / falling"
+         ],
+         "answer": 2,
+         "why": "第一种是真心求证，用升调。第二种是期待认同，用降调。",
+         "point": "pattern"
+        }
+       ]
+      },
+      {
+       "text": "The complete kit contains a compass, a whistle, and a torch.",
+       "items": [
+        {
+         "stem": "Which sequence closes the three-item list?",
+         "options": [
+          "compass ↑ / whistle ↑ / torch ↓",
+          "compass ↓ / whistle ↑ / torch ↑",
+          "compass ↑ / whistle ↓ / torch ↑",
+          "compass ↓ / whistle ↓ / torch ↑"
+         ],
+         "answer": 0,
+         "why": "完整的列举在 compass、whistle 处用升调，torch 处用降调结束。",
+         "point": "boundary"
+        }
+       ]
+      },
+      {
+       "text": "After the adhesive sets, the model can be moved.",
+       "items": [
+        {
+         "stem": "Which pair shows continuation followed by completion?",
+         "options": [
+          "sets ↓ / moved ↑",
+          "sets ↑ / moved ↑",
+          "sets ↑ / moved ↓",
+          "sets ↓ / moved ↓"
+         ],
+         "answer": 2,
+         "why": "After the adhesive sets 是放在前面的时间从句，sets 处用升调。主句末 moved 处用降调结束。",
+         "point": "boundary"
+        }
+       ]
+      },
+      {
+       "text": "Although the trial was brief, the team collected useful observations.",
+       "items": [
+        {
+         "stem": "What does a continuation rise after brief signal?",
+         "options": [
+          "The speaker is asking whether the trial was brief.",
+          "The speaker has completed a list of observations.",
+          "The speaker expects agreement with a tag question.",
+          "The main statement following the concession is still to come."
+         ],
+         "answer": 3,
+         "why": "Although 从句先说让步，brief 处的升调表示后面还有主句，不是提问。",
+         "point": "boundary"
+        }
+       ]
+      },
+      {
+       "text": "The coordinator says \"badges, lanyards …\" and has more supplies to name.",
+       "items": [
+        {
+         "stem": "Which interpretation fits a rise after lanyards?",
+         "options": [
+          "The supply list is now complete.",
+          "The supply list is still continuing.",
+          "A yes/no answer about lanyards is required.",
+          "Agreement with a negative tag is expected."
+         ],
+         "answer": 1,
+         "why": "has more supplies to name 说明清单没完，lanyards 后的升调表示还有下一项。",
+         "point": "boundary"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

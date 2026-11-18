@@ -1,0 +1,44 @@
+{
+ "id": "writing-opinion-position", "title": "立场与程度表达", "goal": "能明确表达立场及程度，并保持全文一致。", "skill": "写作", "exam": "雅思 IELTS Academic", "mastery": "once",
+ "points": [{"id": "stance", "label": "选择明确回应题目的立场句"}, {"id": "consistency", "label": "保持全文立场及程度一致"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "写作立场表达课的内容与教学规格"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "立场句直接回应命题。立场有三种：完全同意、反对、有条件同意。有条件同意时，同一个条件要贯穿主体段和结论。"}, {"box": "I agree that libraries should open on Sundays if there is sufficient local demand."}, {"p": "if 引出需求条件。Sunday opening is discussed 只复述了话题，没有表明赞成或反对。"}]},
+  {"id": "agree", "type": "table", "title": "完全同意", "cols": ["方式", "表达", "例句"], "rows": [
+   ["明确同意", "fully agree", "I fully agree that every pupil should receive lunch."], ["明确支持", "strongly support", "I strongly support free lunches for every pupil."], ["无保留同意", "agree without reservation", "I agree without reservation that all pupils should receive lunch."], ["明确赞成", "in favour of", "I am entirely in favour of free lunches for all pupils."]
+  ]},
+  {"id": "disagree", "type": "table", "title": "反对", "cols": ["方式", "表达", "例句"], "rows": [
+   ["明确反对", "disagree", "I disagree that all pupils should receive free lunches."], ["反对政策", "oppose", "I oppose a free lunch requirement for every pupil."], ["不支持", "do not support", "I do not support free lunches for all pupils."], ["反对普遍要求", "against", "I am against requiring schools to feed every pupil free of charge."]
+  ]},
+  {"id": "conditional", "type": "table", "title": "有条件同意", "cols": ["限定", "表达", "例句"], "rows": [
+   ["按需求", "if there is demand", "I support Sunday opening if there is sufficient local demand."], ["按资金", "provided that funding is available", "I support the scheme provided that funding is available."], ["限定部分", "in some cases", "I agree with the proposal in some cases, particularly in large towns."], ["明确例外", "only where", "I favour Sunday opening only where staffing is sufficient."]
+  ]},
+  {"id": "consistency", "type": "table", "title": "立场的一致性", "cols": ["引言", "主体与结论", "判断"], "rows": [
+   ["支持所有学校", "讨论全面实施并重申支持", "立场一致"], ["只在资金充足时支持", "说明资金条件并保留条件", "程度一致"], ["反对普遍要求", "解释限制后仍反对普遍要求", "立场一致"], ["仅在有需求时支持", "结论支持所有地区", "条件被取消"], ["完全同意", "结论认为任何地区都不应实施", "立场相反"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["stance"], "groups": [{"items": [
+   {"stem": "A proposal says every school should provide free lunches. Which sentence fully agrees?", "options": ["I fully support free lunches for every pupil.", "I oppose free lunches for every school pupil.", "I support free lunches only in some schools.", "Schools differ in their lunch arrangements."], "answer": 0, "why": "第一项用 fully support 表示完全同意，every pupil 保留了提议的普遍范围。", "point": "stance"},
+   {"stem": "A proposal says every school should provide free lunches. Which sentence opposes it?", "options": ["I support requiring all schools to provide free lunches.", "I oppose requiring all schools to provide free lunches.", "I support free lunches only where funds allow.", "Schools have different lunch arrangements."], "answer": 1, "why": "第二项用 oppose 明确反对，对象是所有学校都要提供免费午餐这一要求。", "point": "stance"},
+   {"stem": "Which sentence supports Sunday opening only when demand is sufficient?", "options": ["I support Sunday opening in every town without exception.", "I oppose Sunday opening even where demand is high.", "I support Sunday opening if local demand is sufficient.", "Sunday opening is a matter for local libraries to discuss."], "answer": 2, "why": "if local demand is sufficient 为支持设定需求条件。", "point": "stance"},
+   {"stem": "Which sentence states a position rather than restating the issue?", "options": ["The issue is whether all libraries should open on Sundays.", "Some people discuss Sunday opening at local libraries.", "The proposal concerns the opening hours of libraries.", "I oppose requiring every library to open on Sundays."], "answer": 3, "why": "oppose 明确表达对普遍开放要求的反对。", "point": "stance"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["consistency"], "groups": [{"items": [
+   {"stem": "An introduction supports Sunday opening only where demand is sufficient. Which conclusion keeps that position?", "options": ["Libraries should open where local demand is sufficient.", "Every library should open regardless of local demand.", "No library should open even where demand is sufficient.", "The proposal is about opening libraries on Sundays."], "answer": 0, "why": "第一项保留需求条件，与引言的有条件支持一致。", "point": "consistency"},
+   {"stem": "An introduction fully supports free lunch for every pupil. Which body claim preserves that position?", "options": ["Not every pupil should be covered by the free lunch scheme.", "Every pupil should be covered by the free lunch scheme.", "Only a small minority should receive a free lunch.", "The subject of school meals has been discussed."], "answer": 1, "why": "第二项保留 every pupil 的全面覆盖，与完全支持一致。", "point": "consistency"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["stance", "consistency"], "sets": [{"id": "set-a", "groups": [
+   {"text": "Some people argue that every local library should open on Sundays so that residents who work during the week can visit. Others think that opening should depend on local demand and available staff. To what extent do you agree or disagree with requiring all libraries to open? Give reasons for your view.\n\nPosition: Support Sunday opening only where demand and staffing are sufficient.", "items": [
+    {"stem": "Which introduction states the specified position?", "options": ["I support opening only where demand and staffing are sufficient.", "I support opening every library regardless of demand or staffing.", "I oppose opening even where demand and staffing are sufficient.", "The question is whether libraries should open on Sundays."], "answer": 0, "why": "第一项明确支持开放，同时保留需求和人员两个条件。", "point": "stance"},
+    {"stem": "Which conclusion remains consistent with that introduction?", "options": ["Every library should open regardless of local conditions.", "Libraries should open where demand and staffing permit.", "No library should ever open on a Sunday.", "Libraries differ in their current opening hours."], "answer": 1, "why": "第二项仍以需求和人员为条件，程度与给定立场一致。", "point": "consistency"},
+    {"stem": "Complete a conditional stance.", "lead": "I support", "chunks": ["Sunday opening", "if", "local demand", "is sufficient"], "tail": ".", "extra": ["oppose"], "why": "if 从句限定支持开放所需的需求条件。", "point": "stance"},
+    {"stem": "Complete a conclusion that retains the staffing condition.", "lead": "Sunday opening", "chunks": ["is appropriate", "only where", "staffing", "is sufficient"], "tail": ".", "extra": ["in every library"], "why": "only where staffing is sufficient 保留人员条件。", "point": "consistency"}
+   ]},
+   {"text": "Some people believe that every secondary school should provide free lunches to all pupils on each school day. They argue that such provision should not depend on family income, whereas others prefer targeted support. Do you agree or disagree with providing free lunches universally? Give reasons for your answer.\n\nPosition: Fully support free lunches for all pupils.", "items": [
+    {"stem": "Which sentence expresses the specified stance?", "options": ["I oppose free lunches for all secondary pupils.", "I support lunches only for a minority of pupils.", "I fully support free lunches for every pupil.", "The issue concerns meals at secondary schools."], "answer": 2, "why": "fully support 和 every pupil 明确表示对普遍方案的完全支持。", "point": "stance"},
+    {"stem": "Which body claim is consistent with the specified stance?", "options": ["No pupil should receive a free school lunch.", "Only pupils at selected schools should be covered.", "Free lunches should be limited to certain school days.", "Every pupil should be included in the daily scheme."], "answer": 3, "why": "第四项保留每名学生和每日覆盖，与完全支持一致。", "point": "consistency"},
+    {"stem": "Complete a sentence expressing full support.", "lead": "I fully", "chunks": ["support", "free lunches", "for", "every pupil"], "tail": ".", "extra": ["oppose"], "why": "fully support 表示完全支持，every pupil 保留普遍范围。", "point": "stance"},
+    {"stem": "Complete a conclusion consistent with full support.", "lead": "The scheme", "chunks": ["should cover", "all pupils on", "each school", "day"], "tail": ".", "extra": ["only some pupils"], "why": "all pupils 和 each school day 保留题目中的普遍范围。", "point": "consistency"}
+   ]}
+  ]}]}
+ ]
+}

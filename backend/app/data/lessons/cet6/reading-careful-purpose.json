@@ -1,0 +1,70 @@
+{
+ "id": "reading-careful-purpose",
+ "title": "写作目的与例证作用题",
+ "goal": "区分全文目的与局部作用，依据上下文判断例证的论述功能。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "scope", "label": "区分全文目的与局部作用"},
+  {"id": "function", "label": "判断实例或引语支持的论述关系"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读理解能力的课程安排"}],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "写作目的题问作者写全文要完成什么任务。例证作用题问一个例子或一句引语在上下文中起什么作用。"},
+   {"box": "What is the main purpose of the passage?\nWhy does the author mention the repair room?"},
+   {"p": "全文目的要覆盖文章的主要内容。局部作用要联系例子前后的观点来判断。只复述例子内容的选项没有回答作用。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定范围", "d": "先看题干问的是全文还是某个例子。全文题看各段共同完成的任务。局部题只看题干指定的材料。"},
+   {"t": "2　寻找观点", "d": "读例子前后的判断句，确定例子与观点的关系。例子可以解释概念、支持判断、形成对比或反驳说法。"},
+   {"t": "3　核对作用", "d": "正确选项说明例子对观点起什么作用。例如，只描述一次借书是复述事件。说明这次借书支持了延长服务时间的效果，才是回答作用。"}
+  ]},
+  {"id": "functions", "type": "table", "title": "例证的作用", "cols": ["作用", "观点与例子", "论述关系"], "rows": [
+   ["解释", "Shared use lets neighbors borrow a drill.", "钻具借用解释共享使用"],
+   ["解释", "A reserve is flour kept for later use.", "储存面粉解释储备"],
+   ["支持", "Access improved; more residents borrowed tools.", "借用增加支持获取改善"],
+   ["支持", "The schedule helped; fewer bookings were missed.", "漏约减少支持安排的效果"],
+   ["对比", "The old route took 20 minutes; the new one took 10.", "两条路线的用时形成对比"],
+   ["对比", "One hall has a ramp, while the other has steps.", "两个入口的条件形成对比"],
+   ["反驳", "Not every plant needs daily water; this cactus needs less.", "仙人掌一例反驳所有植物都要每天浇水"],
+   ["反驳", "The service was not unused: residents borrowed it weekly.", "每周借用反驳无人使用的说法"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "Shared equipment can be useful for tasks that occur only occasionally. For example, a neighborhood tool library lets residents borrow a drill for a short repair instead of buying one for each household."},
+   {"box": "Why does the author mention the tool library?\n1. To describe a short repair done with a drill\n2. To illustrate sharing for occasional tasks\n3. To argue that every repair requires a drill\n4. To explain why households buy their own drills"},
+   {"p": "首句提出共享设备适合偶尔发生的任务。借钻具的例子说明这一观点，答案是第二项。第一项只复述了例子的内容。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "例", "排除依据"], "rows": [
+   ["复述内容", "说明居民借用了钻具", "未交代例子与共享观点的关系"],
+   ["范围扩大", "证明每项维修都需要钻具", "例子只涉及一次短暂维修"],
+   ["功能颠倒", "反驳共享设备的用途", "例子支持首句的观点"],
+   ["全文局部混淆", "以一个借用例子概括所有段落", "全文目的要覆盖各段的主要内容"]
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["scope", "function"], "groups": [
+   {"look": "passage", "text": "Shared tools can serve occasional tasks. A resident borrowed a drill for one short repair instead of buying one.", "items": [{"stem": "Why does the author mention the drill?", "options": ["To report the details of one resident's repair", "To illustrate sharing for occasional tasks", "To show that every repair needs a drill", "To argue that residents should buy drills"], "answer": 1, "why": "首句说共享工具适合偶尔的任务。借钻具做一次短暂维修是这一观点的实例，即第二项。", "point": "function"}]},
+   {"look": "passage", "text": "Not all rooms have step-free access. The east room has a ramp, but the west room can be reached only by steps.", "items": [{"stem": "Why are the two rooms mentioned?", "options": ["To claim that both rooms have ramps", "To show that every room has steps", "To contrast their access conditions", "To explain why the west room lacks a ramp"], "answer": 2, "why": "east room has a ramp 与 west room can be reached only by steps 形成对比，即第三项。", "point": "function"}]},
+   {"look": "passage", "text": "Some say no residents borrow the collection. Yet records show that a tool was borrowed every week.", "items": [{"stem": "What is the function of the weekly record?", "options": ["To confirm that no residents borrow tools", "To explain why some say no one borrows", "To show every resident borrowed a tool", "To challenge the claim of no borrowing"], "answer": 3, "why": "Yet 引出每周都有借用的记录，与 no residents borrow 的说法相反，即第四项。", "point": "function"}]},
+   {"look": "passage", "text": "A school describes how its garden uses stored rainwater. It explains collection, storage and use for plants.", "items": [{"stem": "What is the passage's main purpose?", "options": ["To explain the garden's use of stored rainwater", "To explain only how rainwater is collected", "To list the plants grown in the school garden", "To describe how the school stores drinking water"], "answer": 0, "why": "材料依次说明收集、储存和用于植物。全文目的是解释花园怎样使用储存的雨水，即第一项。第二项只说了收集一步。", "point": "scope"}]}
+  ]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["scope", "function"], "groups": [
+   {"look": "passage", "text": "A library changed the way it reports room availability. Previously, visitors had to ask at a desk. The library now displays confirmed bookings online. During a trial, fewer visitors arrived expecting an occupied room to be free. The example shows that accessible information can reduce uncertainty about shared spaces.", "items": [
+    {"stem": "What is the main purpose of the passage?", "options": ["To describe how visitors used to ask at a desk", "To explain an information change and its effect", "To argue that all visitors should reserve rooms", "To show that online booking caused more confusion"], "answer": 1, "why": "文章说明预订信息改为在网上公布，以及误判因此减少。第二项概括了这两部分。", "point": "scope"},
+    {"stem": "Why does the author mention fewer visitors arriving with mistaken expectations?", "options": ["To show that visitors stopped asking at the desk", "To explain why the library changed its booking reports", "To support the benefit of accessible booking information", "To suggest that online information increased uncertainty"], "answer": 2, "why": "末句说 accessible information can reduce uncertainty。误判减少是支持这一结论的结果，即第三项。第四项把效果说反了。", "point": "function"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["scope", "function"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A town operates a small workshop where residents can bring household objects for repair. Volunteers examine each object and explain which repairs they can attempt. They do not accept every item: some require specialist equipment that the workshop does not have. The town also publishes a list of local services for work beyond the volunteers' skills.\n\nThe workshop was established partly to help residents keep useful objects in service. For instance, a resident brought a chair with a loose joint. A volunteer showed the resident how to tighten and reinforce the joint, and the chair could be used again. This example illustrates the workshop's emphasis on practical repairs and shared knowledge rather than the purchase of replacements.\n\nThe town records the number and type of objects brought in, but it does not assume that every object would otherwise have been discarded. Some owners may already have intended to visit a professional repairer. The workshop plans to ask visitors about their original intentions before estimating its wider effect. The distinction matters because a count of repaired objects alone does not reveal what would have happened without the service.", "items": [
+    {"stem": "What is the main purpose of the passage?", "options": ["To explain a repair workshop and the limits of assessing its effect", "To describe the professional repair services listed by the town", "To argue that volunteers should accept every object brought to them", "To report how many objects the workshop has repaired"], "answer": 0, "why": "文章依次介绍维修点、椅子实例和评估效果的困难。第一项覆盖了这三部分。", "point": "scope"},
+    {"stem": "Why does the author mention the chair?", "options": ["To prove every object can be repaired by volunteers", "To show that the workshop buys replacement furniture", "To illustrate practical repair and shared knowledge", "To show that residents always intended to discard furniture"], "answer": 2, "why": "椅子一例之后原文说 This example illustrates the workshop's emphasis on practical repairs and shared knowledge，即第三项。", "point": "function"},
+    {"stem": "Why does the author mention owners who might visit a professional?", "options": ["To claim that no objects were repaired at the workshop", "To explain why a repair count cannot show the service's effect", "To show that all volunteers use specialist equipment", "To argue that the town should stop collecting records"], "answer": 1, "why": "有些物主本来就打算找专业人员维修。所以原文说 a count of repaired objects alone does not reveal what would have happened，即第二项。", "point": "function"}
+   ]},
+   {"look": "passage", "text": "A local archive wanted to make its collection easier to search. Its paper index listed documents by the names of people who had donated them. That system helped staff trace a document's origin, but visitors often asked about subjects rather than donors. The archive began adding subject terms to a digital index while retaining the donor information.\n\nOne set of letters illustrates the difference between the two approaches. Under the original index, a visitor needed the donor's name to find the set. In the new index, a search for local transport could also lead to the letters, because they describe changes to a bus route. The donor's name remained attached to the record. This example shows how a second route to the same material can serve a different search purpose.\n\nThe digital index remains a work in progress. Staff check each proposed subject term against the document before adding it. They also invite visitors to report terms that did not lead to relevant material. The archive intends to use these reports to revise the index, while keeping the original documents in secure storage.", "items": [
+    {"stem": "What is the main purpose of the passage?", "options": ["To describe the history of every local bus route", "To explain how subject indexing adds a search route", "To argue that donor information should be deleted", "To demonstrate that paper documents require no storage"], "answer": 1, "why": "文章说明档案馆保留捐赠者信息，同时增加主题检索，并介绍具体做法，即第二项。", "point": "scope"},
+    {"stem": "Why does the author discuss the set of letters?", "options": ["To claim that all letters discuss transport", "To show that donor names are no longer recorded", "To show that visitors usually search by donor name", "To illustrate two ways to find the same material"], "answer": 3, "why": "这组信件既能用捐赠者姓名找到，也能用 local transport 找到。例子说明同一材料有两条查找路径，即第四项。", "point": "function"},
+    {"stem": "Why does the author mention visitor reports?", "options": ["To explain how the archive plans to improve its index", "To show why the original documents were discarded", "To argue that staff should stop checking subject terms", "To show that visitors add subject terms themselves"], "answer": 0, "why": "原文说 The archive intends to use these reports to revise the index。访客反馈用于改进索引，即第一项。", "point": "scope"}
+   ]}
+  ]}]}
+ ]
+}

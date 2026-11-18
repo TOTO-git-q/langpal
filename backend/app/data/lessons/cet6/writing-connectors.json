@@ -1,0 +1,445 @@
+{
+ "id": "writing-connectors",
+ "title": "句间逻辑连接",
+ "goal": "按句间关系选择连接表达；区分连词与连接副词的句法用法。",
+ "skill": "写作",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "relation",
+   "label": "按句间关系选择连接表达"
+  },
+  {
+   "id": "punctuation",
+   "label": "区分连词与连接副词的句法用法"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语六级（CET-6）：课表",
+   "url": "docs/syllabi/cet6.md",
+   "used": "写作部分本课的内容范围、知识点与练习规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "连接词表明两句之间的关系，但不能代替论据。先判断是补充、因果、转折、让步还是举例。再看这个连接词后面接分句还是名词短语。"
+    },
+    {
+     "box": "The recording was unclear because the microphone was covered. The microphone was covered; therefore, the recording was unclear."
+    },
+    {
+     "p": "because 引出原因从句。therefore 放在独立分句里，引出结果。therefore 前面只用逗号是错的，要用句号或分号把两个分句隔开。"
+    }
+   ]
+  },
+  {
+   "id": "addition-cause",
+   "type": "table",
+   "title": "补充与因果",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "in addition",
+     "补充另一项相关信息。",
+     "The cover protects the pages. In addition, it holds a reference card."
+    ],
+    [
+     "moreover",
+     "补充支持同一方向的理由。",
+     "The stand is adjustable. Moreover, it folds for storage."
+    ],
+    [
+     "furthermore",
+     "再补充一条同方向的论证。",
+     "The plan identifies tasks. Furthermore, it assigns responsibility."
+    ],
+    [
+     "also",
+     "添加信息，常放在实义动词前。",
+     "The manual also explains routine maintenance."
+    ],
+    [
+     "because",
+     "后接原因分句。主句前不再加 so。",
+     "Because the path was blocked, the delivery took a different route."
+    ],
+    [
+     "therefore",
+     "引出由前文推出的结果或判断。",
+     "The seal was broken; therefore, the parcel required inspection."
+    ],
+    [
+     "as a result",
+     "连接副词短语，引出结果。",
+     "The label detached. As a result, the box could not be identified."
+    ],
+    [
+     "consequently",
+     "连接副词，说明后果。",
+     "The screen failed; consequently, the display was postponed."
+    ]
+   ]
+  },
+  {
+   "id": "contrast-concession",
+   "type": "table",
+   "title": "转折与让步",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "however",
+     "转折副词，用在独立分句里。它不是连词。",
+     "The draft is detailed. However, its conclusion is unclear."
+    ],
+    [
+     "in contrast",
+     "对照不同对象的特征。",
+     "The entrance is wide. In contrast, the inner passage is narrow."
+    ],
+    [
+     "by contrast",
+     "说明与前述对象的差异。",
+     "The old lid was rigid. By contrast, the new one bends easily."
+    ],
+    [
+     "on the other hand",
+     "提出另一面，两面不必完全相反。",
+     "The room is central. On the other hand, it offers little privacy."
+    ],
+    [
+     "although",
+     "让步从句后面要有主句。",
+     "Although the surface looks dry, the layer beneath remains damp."
+    ],
+    [
+     "even though",
+     "承认一个事实，主句写出与预期相反的情况。",
+     "Even though the route is short, the steep steps make it difficult."
+    ],
+    [
+     "even if",
+     "即使假设的条件成立，主句的判断也不变。",
+     "Even if the price falls, the item will still require storage space."
+    ],
+    [
+     "nevertheless",
+     "承认前面的困难，再给出另一判断。",
+     "The instructions are brief. Nevertheless, they cover the essential checks."
+    ]
+   ]
+  },
+  {
+   "id": "examples",
+   "type": "table",
+   "title": "举例表达",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "for example",
+     "引出一个完整的例句，例子要支持前面的判断。",
+     "Small changes can improve access. For example, a lower handle can be easier to reach."
+    ],
+    [
+     "for instance",
+     "用法同 for example，引出例子。",
+     "Some tasks need a record. For instance, loaned items need a return date."
+    ],
+    [
+     "such as",
+     "后接名词或名词短语，不接完整分句。",
+     "The cabinet holds supplies such as labels and envelopes."
+    ],
+    [
+     "to illustrate",
+     "用一个实例说明前面的观点。",
+     "A clear sequence reduces uncertainty. To illustrate, a numbered diagram shows which part fits first."
+    ]
+   ]
+  },
+  {
+   "id": "syntax",
+   "type": "table",
+   "title": "句法与标点",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "原因从句",
+     "because 后接主谓结构。从句放在句首时，后面加逗号。",
+     "Because the file was incomplete, the editor requested clarification."
+    ],
+    [
+     "结果分句",
+     "therefore 前用句号或分号，只用逗号是错的。",
+     "The file was incomplete; therefore, the editor requested clarification."
+    ],
+    [
+     "让步从句",
+     "although 连接从句和主句，不再加 but。",
+     "Although the sample is small, it reveals an inconsistency."
+    ],
+    [
+     "转折分句",
+     "however 前后都是独立分句时，前面用句号或分号。",
+     "The sample is small. However, it reveals an inconsistency."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A neighborhood studio has introduced a booking calendar. The calendar shows when each room is free. In addition, it records the equipment assigned to each reservation. This second function adds useful information; it is not a consequence of room availability. The system is convenient. However, it still needs accurate entries from staff. If an entry is wrong, the calendar may display a room as available when it is already occupied. Convenience therefore does not remove the need for checking."
+    },
+    {
+     "box": "Which relation does In addition mark?\n1. A consequence of showing room availability\n2. A contrast between available and occupied rooms\n3. An example of an inaccurate reservation\n4. Another function of the same calendar"
+    },
+    {
+     "p": "In addition 后面是 records the equipment，这是日历的另一项功能，对应第四项。However 引出限制，therefore 引出由前文得出的判断。"
+    }
+   ]
+  },
+  {
+   "id": "practice-1",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "relation",
+    "punctuation"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "A directory lists contacts. It gives opening hours as another feature. Which connector fits: The directory lists contacts. ___, it gives opening hours.",
+       "options": [
+        "In addition",
+        "As a result",
+        "In contrast",
+        "Nevertheless"
+       ],
+       "answer": 0,
+       "why": "another feature 表示补充，用 In addition，即第一项。",
+       "point": "relation"
+      },
+      {
+       "stem": "The drawer jammed, preventing access to the spare clips. Which relation fits before the consequence?",
+       "options": [
+        "For instance",
+        "As a result",
+        "On the other hand",
+        "Furthermore"
+       ],
+       "answer": 1,
+       "why": "preventing access 是 jammed 的结果，用 As a result，即第二项。",
+       "point": "relation"
+      },
+      {
+       "stem": "Which version uses because without repeating the causal connection?",
+       "options": [
+        "Because the receipt was missing, so the clerk requested another copy.",
+        "The receipt was missing, because, the clerk requested another copy.",
+        "Because the receipt was missing, the clerk requested another copy.",
+        "Because the receipt was missing. The clerk requested another copy."
+       ],
+       "answer": 2,
+       "why": "because 从句后直接接主句，即第三项。第一项多加了 so。",
+       "point": "punctuation"
+      },
+      {
+       "stem": "Which version correctly connects two independent clauses using however?",
+       "options": [
+        "The cover is attractive, however, the binding needs repair.",
+        "However the cover is attractive, the binding needs repair.",
+        "The cover is attractive however the binding needs repair.",
+        "The cover is attractive; however, the binding needs repair."
+       ],
+       "answer": 3,
+       "why": "however 不能单独连接两个独立分句。第四项用分号隔开，however 后加逗号。",
+       "point": "punctuation"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-2",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "relation",
+    "punctuation"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Use the connector meaning “an additional point” that begins with in: The poster gives the date. ___, it names the venue.",
+       "accept": [
+        "in addition"
+       ],
+       "why": "日期和地点是并列的两条信息，用 in addition 表示补充。",
+       "point": "relation"
+      },
+      {
+       "stem": "Use the two-word example marker beginning with for: Simple checks can reveal defects. ___, a loose handle may be noticed before use.",
+       "accept": [
+        "for example",
+        "for instance"
+       ],
+       "why": "for example 与 for instance 均可引出该实例。",
+       "point": "relation"
+      },
+      {
+       "stem": "Use because or therefore: ___ the switch was damaged, the lamp did not respond.",
+       "accept": [
+        "because"
+       ],
+       "why": "空后是原因从句，逗号后的主句给出结果，所以用 because。",
+       "point": "punctuation"
+      },
+      {
+       "stem": "Use although or however: The label is faded; ___, the reference number is still readable.",
+       "accept": [
+        "however"
+       ],
+       "why": "分号后是独立分句，用 however。用 although，分号后就只剩一个从句。",
+       "point": "punctuation"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "relation",
+    "punctuation"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "A plan provides a timetable and, as a separate benefit, identifies the responsible staff. Which connector expresses that addition?",
+         "options": [
+          "Furthermore",
+          "Consequently",
+          "Nevertheless",
+          "In contrast"
+         ],
+         "answer": 0,
+         "why": "as a separate benefit 表示补充，即第一项 Furthermore。",
+         "point": "relation"
+        },
+        {
+         "stem": "A general claim says that physical records can preserve useful information. A diary is then named as a particular case. Which connector fits?",
+         "options": [
+          "Therefore",
+          "For instance",
+          "On the other hand",
+          "Nevertheless"
+         ],
+         "answer": 1,
+         "why": "a particular case 表示实例，用 For instance，即第二项。",
+         "point": "relation"
+        },
+        {
+         "stem": "Which sentence correctly links a damaged sign to the resulting confusion without duplicating connectors?",
+         "options": [
+          "Because the sign was damaged, so visitors could not identify the entrance from the main path.",
+          "The sign was damaged, therefore, visitors could not identify the entrance from the main path.",
+          "Because the sign was damaged, visitors could not identify the entrance from the main path.",
+          "Because the sign was damaged. Visitors could not identify the entrance from the main path."
+         ],
+         "answer": 2,
+         "why": "because 从句后接主句，组成完整的句子，即第三项。第一项多加了 so。",
+         "point": "punctuation"
+        },
+        {
+         "stem": "Which revision preserves the contrast and uses however correctly between independent clauses?",
+         "options": [
+          "Although the proposal reduces travel, however, it requires additional coordination between the separate teams involved.",
+          "The proposal reduces travel, however, it requires additional coordination between the separate teams involved.",
+          "The proposal reduces travel however it requires additional coordination between the separate teams involved.",
+          "The proposal reduces travel; however, it requires additional coordination between the separate teams involved."
+         ],
+         "answer": 3,
+         "why": "第四项用分号隔开两个独立分句，however 表示转折。第二项只用逗号，是错的。",
+         "point": "punctuation"
+        }
+       ]
+      },
+      {
+       "items": [
+        {
+         "stem": "Use the three-word result marker beginning with as: The fastening broke during transport. ___, the contents shifted inside the package and needed inspection.",
+         "accept": [
+          "as a result"
+         ],
+         "why": "the contents shifted 是 fastening broke 的后果，用 as a result。",
+         "point": "relation"
+        },
+        {
+         "stem": "Use the four-word contrast marker beginning with on: The extension adds useful floor space. ___, it leaves less room for the outdoor waiting area.",
+         "accept": [
+          "on the other hand"
+         ],
+         "why": "前句说扩建增加了室内空间，后句说室外等候区变小。on the other hand 引出另一面。",
+         "point": "relation"
+        },
+        {
+         "stem": "Use although or however: ___ the proposed route is direct, it passes through a narrow entrance that may slow the delivery team.",
+         "accept": [
+          "although"
+         ],
+         "why": "although 从句后接逗号和主句。however 不能这样连接两个分句。",
+         "point": "punctuation"
+        },
+        {
+         "stem": "Use because or therefore: The samples were stored without labels; ___, the technician could not reliably match each sample to its recorded source.",
+         "accept": [
+          "therefore"
+         ],
+         "why": "分号后是结果，用 therefore。用 because，后半句就成了缺少主句的原因从句。",
+         "point": "punctuation"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

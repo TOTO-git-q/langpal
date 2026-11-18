@@ -1,0 +1,105 @@
+{
+ "id": "listening-passage-health",
+ "title": "日常健康篇章词汇",
+ "goal": "理解日常健康词汇，听懂习惯与身体状态的联系。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "vocab", "label": "理解日常健康话题的常用词"},
+  {"id": "listen", "label": "听懂习惯与身体状态的联系"}
+ ],
+ "sources": [
+  {"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "听力篇章教学依据"}
+ ],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "日常健康话题多涉及睡眠、饮食和运动。听习惯类的描述时，要分清经常做的事和只做过一次的事。"},
+   {"box": "A regular routine may include a walk after lunch. A balanced meal contains a variety of foods."},
+   {"p": "routine 指日常惯例，balanced 指均衡的。录音中某个人的经历，只说明这个人自己的情况。"}
+  ]},
+  {"id": "habits", "type": "table", "title": "词汇表：习惯", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["routine", "n.", "日常惯例", "A walk is part of her routine."],
+   ["habit", "n.", "习惯", "Reading before bed is a habit."],
+   ["regular", "adj.", "规律的", "He keeps regular meal times."],
+   ["schedule", "n.", "时间安排", "The schedule includes a lunch break."],
+   ["sleep", "n.", "睡眠", "Noise interrupted her sleep."],
+   ["bedtime", "n.", "就寝时间", "His bedtime changed during the trip."],
+   ["meal", "n.", "一餐", "They prepared a meal together."],
+   ["breakfast", "n.", "早餐", "She ate breakfast at home."],
+   ["diet", "n.", "日常饮食", "His diet includes vegetables."],
+   ["balanced", "adj.", "均衡的", "A balanced meal contains varied foods."],
+   ["exercise", "n.", "锻炼", "Walking is a form of exercise."],
+   ["walk", "n.", "步行", "They took a walk after lunch."],
+   ["activity", "n.", "活动", "The class tried a new activity."],
+   ["rest", "n.", "休息", "She took a rest after the walk."]
+  ]},
+  {"id": "condition", "type": "table", "title": "词汇表：身体状态", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["energy", "n.", "精力", "He had little energy after the trip."],
+   ["tired", "adj.", "疲倦的", "She felt tired after the journey."],
+   ["sleepy", "adj.", "困倦的", "He felt sleepy during the late film."],
+   ["awake", "adj.", "醒着的", "She was awake before the alarm."],
+   ["alert", "adj.", "警觉的", "The driver remained alert on the road."],
+   ["hungry", "adj.", "饥饿的", "He was hungry before lunch."],
+   ["thirsty", "adj.", "口渴的", "She felt thirsty after walking."],
+   ["full", "adj.", "吃饱的", "He felt full after the meal."],
+   ["breath", "n.", "呼吸", "She took a slow breath."],
+   ["muscle", "n.", "肌肉", "A muscle moves the arm."],
+   ["strength", "n.", "力量", "Lifting the box took strength."],
+   ["stiff", "adj.", "僵硬的", "His legs felt stiff after sitting."],
+   ["relaxed", "adj.", "放松的", "She felt relaxed after the break."],
+   ["recover", "v.", "恢复", "He rested to recover after the race."]
+  ]},
+  {"id": "improvement", "type": "table", "title": "词汇表：改善方式", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["adjust", "v.", "调整", "She adjusted her daily schedule."],
+   ["improve", "v.", "改善", "He changed the lighting to improve the room."],
+   ["maintain", "v.", "保持", "They maintained a regular routine."],
+   ["reduce", "v.", "减少", "She reduced the noise in the room."],
+   ["increase", "v.", "增加", "He increased the length of his walk."],
+   ["replace", "v.", "替换", "She replaced the broken bottle."],
+   ["prepare", "v.", "准备", "They prepared lunch at home."],
+   ["choose", "v.", "选择", "He chose fruit for a snack."],
+   ["variety", "n.", "多样性", "The menu offers a variety of foods."],
+   ["portion", "n.", "一份", "She served a portion of rice."],
+   ["stretch", "v.", "伸展", "He stretched his arms after sitting."],
+   ["move", "v.", "活动；移动", "She stood up and moved around."],
+   ["pause", "v.", "暂停", "He paused his work for lunch."],
+   ["gradual", "adj.", "逐渐的", "The change in her routine was gradual."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "Nora used to work through lunch and eat at her desk. She noticed that she felt tired during the afternoon. She adjusted her routine by taking a lunch break away from the desk. She now eats with a colleague and takes a short walk before returning to work. Nora says that the break helps her feel more alert. Her experience describes one person's routine and does not establish the same result for everyone."},
+   {"box": "What change did Nora make to her routine?\n1. She skipped lunch to take a short walk.\n2. She took a break away from her desk.\n3. She began working throughout lunch.\n4. She kept eating lunch at her desk."},
+   {"p": "taking a lunch break away from the desk 对应第二项。adjusted 表示调整；alert 表示警觉、清醒。"}
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["vocab", "listen"], "groups": [
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "Maya keeps a regular bedtime during the working week. Her bedtime changes when she travels."}]}, "items": [{"stem": "What does regular describe here?", "options": ["A bedtime kept consistently on workdays", "A bedtime that changes on every trip", "A bedtime kept only during her travels", "A working week with a changing schedule"], "answer": 0, "why": "regular bedtime 指规律的就寝时间，即第一项。", "point": "vocab"}]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "After a long walk, Ben rested. He said his legs felt tired before the rest."}]}, "items": [{"stem": "How did Ben feel before resting?", "options": ["He felt tired only after resting.", "His legs felt fully recovered.", "His legs felt tired after walking.", "His legs felt stiff before the walk."], "answer": 2, "why": "his legs felt tired before the rest 对应第三项。", "point": "listen"}]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "The meal included rice, vegetables, and beans. The speaker described it as balanced."}]}, "items": [{"stem": "What does balanced describe?", "options": ["A meal with only one ingredient", "A meal containing different foods", "A meal prepared without any rice", "A meal eaten at the same time daily"], "answer": 1, "why": "balanced 在此描述包含不同食物的均衡一餐，即第二项。", "point": "vocab"}]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "After sitting for a long time, Eli stood and stretched. Eli said the movement made his legs feel less stiff."}]}, "items": [{"stem": "What did Eli report after stretching?", "options": ["His legs felt stiffer after he stood up.", "His legs became more tired before sitting.", "He sat down again to rest his legs.", "His legs felt less stiff than before."], "answer": 3, "why": "the movement made his legs feel less stiff 对应第四项。", "point": "listen"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["vocab", "listen"], "groups": [
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "A university group invited students to describe changes in their daily routines. One student, Irene, noticed that she often skipped breakfast when her morning schedule was crowded. She decided to prepare part of her breakfast the night before. The next morning, she needed less time to get the meal ready. She said that eating before class helped her feel more alert during the first lesson. Another student, David, spoke about a different habit. He spent long afternoons at a desk and sometimes felt stiff afterward. He began pausing between tasks to stand and move around the room. David reported that his legs felt less stiff after these short pauses. Neither student claimed that the same change would work in the same way for everyone. Their accounts described personal experiences, not the results of a controlled study. The group also discussed how a routine can change when a person's timetable changes. Irene said that preparing food in advance was convenient on busy mornings, but she used a different schedule on weekends. David said he chose the timing of his pauses according to his work. The students also listened to other experiences at the meeting. Both students described small adjustments to activities they already performed. Their examples connect a particular habit with a reported feeling, while leaving open other factors that may have influenced that feeling."}]}, "items": [
+    {"stem": "What does Irene's adjustment involve?", "options": ["Preparing part of breakfast in advance", "Skipping the first lesson each morning", "Skipping breakfast on crowded mornings", "Using the same schedule on weekends"], "answer": 0, "why": "prepare part of her breakfast the night before 对应第一项。", "point": "vocab"},
+    {"stem": "What did David report after his pauses?", "options": ["He needed more time to prepare breakfast.", "His legs felt less stiff than before.", "He felt sleepy during the first lesson.", "He no longer needed to work at a desk."], "answer": 1, "why": "David reported that his legs felt less stiff 即第二项。", "point": "listen"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 8, "pass": 0.75, "points": ["vocab", "listen"], "sets": [{"id": "set-a", "groups": [
+   {"items": [
+    {"stem": "Mina's morning routine includes making breakfast and walking to class. What is her routine?", "options": ["Her usual sequence of morning activities", "Her plan for a single unusual morning", "The food she chooses for breakfast", "The route she takes when walking to class"], "answer": 0, "why": "routine 指惯例；句中是早晨通常的活动顺序，即第一项。", "point": "vocab"},
+    {"stem": "The meal is balanced: it contains grains, vegetables, and beans. What does balanced mean here?", "options": ["Prepared at exactly the same time", "Containing a suitable variety of foods", "Made entirely from a single ingredient", "Containing a large portion of grains"], "answer": 1, "why": "列出的谷物、蔬菜和豆类说明 balanced 指食物搭配均衡，即第二项。", "point": "vocab"},
+    {"stem": "After the race, Sam rested to recover. What does recover mean?", "options": ["Begin the same race once more", "Increase the distance of the race", "Return to a usual state after effort", "Become tired because of the race"], "answer": 2, "why": "rested to recover 表示赛后通过休息恢复状态，即第三项。", "point": "vocab"},
+    {"stem": "After sitting for hours, Jo's legs felt stiff. What does stiff mean?", "options": ["Sleepy after sitting for hours", "Able to move with less effort", "Tired because of a long race", "Difficult to move comfortably"], "answer": 3, "why": "stiff 描述久坐后腿部僵硬，即第四项。", "point": "vocab"},
+    {"stem": "Lee adjusted the schedule by moving lunch to an earlier time. What did Lee do?", "options": ["Changed the timing of lunch", "Removed lunch from the schedule", "Kept lunch at the original time", "Moved lunch to a later time"], "answer": 0, "why": "moving lunch to an earlier time 说明 adjusted 指调整安排，即第一项。", "point": "vocab"},
+    {"stem": "The menu offers a variety of foods, including fruit and vegetables. What does variety mean?", "options": ["A single repeated choice", "A selection of different kinds", "A fixed time for every meal", "A large portion of one food"], "answer": 1, "why": "including fruit and vegetables 说明 variety 指多种不同类别，即第二项。", "point": "vocab"}
+   ]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "A student named Anya noticed that she felt sleepy during an early class after several late evenings. She decided to change her evening routine for the following week. Instead of beginning her reading just before bed, she set aside time for it earlier. She then went to bed earlier on the nights before class. At the end of that week, Anya said she felt more alert in the morning. She also pointed out that her schedule had been less crowded than usual. Her account describes her own experience and does not prove which change caused the difference."}]}, "items": [
+    {"stem": "What change did Anya make before the early class?", "options": ["She moved her reading to an earlier time.", "She stopped reading for the entire week.", "She added more tasks to her evening schedule.", "She moved the class to a later time."], "answer": 0, "why": "she set aside time for it earlier 表示把阅读提前，即第一项。", "point": "listen"},
+    {"stem": "How did Anya describe her mornings at the end of the week?", "options": ["She felt sleepier than during the late evenings.", "She felt more alert than before the change.", "She felt stiff from reading at her desk.", "She felt sleepy because her schedule was full."], "answer": 1, "why": "Anya said she felt more alert in the morning，即第二项。", "point": "listen"}
+   ]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "During a busy project, Marco often ate lunch quickly while continuing to work. Later he changed his schedule so that he could sit with a colleague for lunch. They sometimes took a short walk afterward before returning to their desks. Marco said he enjoyed the conversation and felt more relaxed when he resumed work. The two did not walk every day, because their meetings varied. Marco's experience shows what he noticed after adjusting his routine; it does not show that lunch breaks have the same effect on everyone."}]}, "items": [
+    {"stem": "What did Marco and his colleague sometimes do after lunch?", "options": ["They prepared another meal at their desks.", "They continued the project without a pause.", "They took a brief walk together.", "They moved their meetings to the morning."], "answer": 2, "why": "sometimes took a short walk afterward 即第三项。", "point": "listen"},
+    {"stem": "What did Marco report when he returned to work?", "options": ["He felt more tired than before the project.", "He felt hungry because the meal was shorter.", "He felt stiff from walking with his colleague.", "He felt more relaxed after the lunch break."], "answer": 3, "why": "felt more relaxed when he resumed work 对应第四项。", "point": "listen"}
+   ]}
+  ]}]}
+ ]
+}

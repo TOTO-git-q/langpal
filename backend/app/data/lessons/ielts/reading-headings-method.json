@@ -1,0 +1,66 @@
+{
+ "id": "reading-headings-method",
+ "title": "段落标题配对",
+ "goal": "概括覆盖全段的中心意思，排除范围或重点不符的标题。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "mainidea", "label": "概括覆盖全段的中心意思"},
+  {"id": "scope", "label": "排除范围或重点不符的标题"}
+ ],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "段落标题配对：内容与知识点"}],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "段落标题概括一段的主题和讨论方向。标题要覆盖全段的主要内容，不只对应其中一个细节。"},
+   {"p": "例如一段先说材料受潮，再解释通风怎样减少潮气，中心是解决受潮的办法。只写材料名称的标题只覆盖了对象。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　概括段落", "d": "先确定讨论的对象，再概括作者对它说了什么。段首提出的问题，答案常在段末。"},
+   {"t": "2　比较标题", "d": "比较候选标题的对象、重点和范围。区分问题、原因、结果与解决办法。"},
+   {"t": "3　核对全段", "d": "检查解释句和例子是否都支持所选标题。注意题面说明的标题能否重复使用。"}
+  ]},
+  {"id": "scope", "type": "table", "title": "标题的范围", "cols": ["情况", "段落", "标题比较"], "rows": [
+   ["覆盖全段", "The room was damp. A fan reduced moisture and protected stored paper.", "Reducing damp in storage 概括问题和办法。"],
+   ["只含例子", "A fan reduced damp. For example, it protected stored paper.", "Stored paper 只对应例子，Reducing damp in storage 覆盖更完整。"],
+   ["重点不同", "The room was damp. A fan reduced moisture.", "Causes of damp 强调原因，段落主要说明减少潮气。"],
+   ["范围过大", "A fan reduced damp in one storeroom.", "All methods of protecting archives 涵盖了段落未讨论的方法。"],
+   ["段末结论", "Could a fan dry the room? Tests showed that regular ventilation reduced damp.", "Tests of ventilation 总结段首问题及段末结果。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "Would a roof garden increase the use of a library? Staff counted visitors before and after it opened. The total changed little, but interviews showed that many visitors stayed longer. The garden therefore changed the duration of visits rather than their number."},
+   {"box": "Choose the heading.\n1. A change in how long visitors stayed\n2. Interviews with library visitors\n3. An increase in visitor numbers\n4. Every effect of roof gardens"},
+   {"p": "段首问屋顶花园能否增加图书馆的使用。段末指出变化在停留时间，不在人数。第一项概括了这个结果。第三项与 The total changed little 相反。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "例", "排除方法"], "rows": [
+   ["词语相同", "Visitor numbers", "段落提到人数，结论侧重停留时间。"],
+   ["例子代替中心", "Interviews with visitors", "访谈是方法，结果是停留时间的变化。"],
+   ["范围过大", "Every effect of roof gardens", "材料只讨论图书馆访客的变化。"],
+   ["方向相反", "An increase in visitor numbers", "材料指出人数变化很小。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一　标题", "points": ["mainidea", "scope"], "groups": [
+   {"look": "passage", "text": "A storehouse became damp each winter. Staff fitted vents to improve airflow, and the paper inside remained drier afterwards.", "items": [{"stem": "Choose the heading.", "options": ["Improving airflow to reduce damp", "The paper kept in a storehouse", "The causes of damp each winter", "Fitting vents in several storehouses"], "answer": 0, "why": "段落先说 became damp each winter，再说 fitted vents to improve airflow 后纸张更干。第一项同时概括了问题和办法。", "point": "mainidea"}]},
+   {"look": "passage", "text": "The workshop makes furniture from reclaimed timber. Tables are one example, but the same wood is also used for shelves and benches.", "items": [{"stem": "Choose the heading.", "options": ["Sources of new timber", "Uses of reclaimed timber", "Tables made from old timber", "Shelves and benches in a workshop"], "answer": 1, "why": "首句 makes furniture from reclaimed timber 是中心，桌子、架子和长凳都是它的用途，即第二项。第三项只对应 Tables are one example 这个例子。", "point": "scope"}]},
+   {"look": "passage", "text": "Could the new signs reduce delays? Observations showed that visitors found the entrance more quickly after the signs were installed.", "items": [{"stem": "Choose the heading.", "options": ["Reasons visitors were delayed at the entrance", "A proposal to install new signs", "Evidence that signs improved navigation", "Visitors' opinions of the new signs"], "answer": 2, "why": "段首问新标志能否减少延误，段末 Observations showed 给出证据：访客更快找到入口。第三项概括了这一证据。", "point": "mainidea"}]},
+   {"look": "passage", "text": "A team compared two ways to clean a painting. Both removed dust, but only the gentler method preserved the surface.", "items": [{"stem": "Choose the heading.", "options": ["All methods of painting restoration", "Removing dust from a painting", "Damage caused by gentle cleaning", "A comparison of cleaning methods"], "answer": 3, "why": "首句 compared two ways to clean a painting 是中心，后一句给出比较结果，即第四项。第一项把两种方法扩大成所有修复方法。", "point": "scope"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二　段落", "points": ["mainidea", "scope"], "groups": [
+   {"look": "passage", "text": "A. A town library wished to make its local history collection easier to search. Staff first recorded titles and dates in a shared digital catalogue. They later added descriptions of photographs and maps, enabling readers to search by place as well as title.\n\nB. Digitising the catalogue did not remove the need to protect the collection itself. Staff moved the oldest photographs into protective sleeves and checked the storage room for damp. These measures reduced handling and protected the original items.", "items": [
+    {"stem": "Choose the heading for paragraph A. Each heading may be used once.", "options": ["Protecting original material", "Recording titles and dates", "Improving access through a catalogue", "A survey of every town library", "Checking the storage room for damp"], "answer": 2, "why": "首句的目的是 make its local history collection easier to search，后文的目录和补充描述都为此服务，即第三项。第二项只是第一步做法。", "point": "mainidea"},
+    {"stem": "Choose the heading for paragraph B. Each heading may be used once.", "options": ["Protecting original material", "Recording titles and dates", "Improving access through a catalogue", "A survey of every town library", "Checking the storage room for damp"], "answer": 0, "why": "保护套和检查潮湿都是 protected the original items 的措施，第一项覆盖了这两项。第五项只对应其中一项措施。", "point": "scope"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["mainidea", "scope"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A. A small museum had difficulty displaying objects of different sizes. Its existing cases were fixed in place, so rearranging an exhibition required staff to move heavy furniture. The museum introduced a set of movable cases with adjustable shelves. Staff can now change the layout when an exhibition changes, while the shelves can be raised or lowered to suit individual objects. The change reduced the time required to prepare a new display. It also allowed the museum to use the same cases for several kinds of exhibition.\n\nB. The cases solved a problem of flexibility, but they created a separate question about lighting. Some objects are sensitive to strong light, while visitors still need enough illumination to examine details. Staff tested lamps at several settings and recorded the light falling on each shelf. They then selected lower settings for sensitive objects and used directed light where more detail needed to be visible. The measurements are repeated when objects are moved, since their positions relative to the lamps may change.\n\nC. The museum also wanted to know whether the revised displays were useful to visitors. Rather than relying only on total visitor numbers, staff invited people to describe which labels helped them understand the objects. The comments showed that brief explanations of an object's use were particularly valuable. Staff therefore revised several labels to make that information easier to find. They kept the original catalogue descriptions for readers who wanted further detail. The new labels and the catalogue serve different purposes within the same exhibition.", "items": [
+    {"stem": "Choose the heading for paragraph A. Each heading may be used once.", "options": ["Balancing visibility and object protection", "Changing labels in response to visitors", "Flexible equipment for changing displays", "Moving heavy fixed cases", "An increase in total visitor numbers", "Lamps that damage sensitive objects"], "answer": 2, "why": "依据是 movable cases with adjustable shelves 和 change the layout when an exhibition changes，第三项概括了这套可调整的设备。第四项只是原来的问题。", "point": "mainidea"},
+    {"stem": "Choose the heading for paragraph B. Each heading may be used once.", "options": ["Balancing visibility and object protection", "Changing labels in response to visitors", "Flexible equipment for changing displays", "Moving heavy fixed cases", "An increase in total visitor numbers", "Lamps that damage sensitive objects"], "answer": 0, "why": "依据是 sensitive to strong light 和 visitors still need enough illumination。段落讲的是兼顾看清细节与保护展品，即第一项。", "point": "scope"},
+    {"stem": "Choose the heading for paragraph C. Each heading may be used once.", "options": ["Balancing visibility and object protection", "Changing labels in response to visitors", "Flexible equipment for changing displays", "Moving heavy fixed cases", "An increase in total visitor numbers", "Lamps that damage sensitive objects"], "answer": 1, "why": "依据是 The comments showed … 和 Staff therefore revised several labels。访客的意见促使修改标签，即第二项。", "point": "mainidea"}
+   ]},
+   {"look": "passage", "text": "A. A community orchard contains trees of several ages. Some young trees need support while their roots establish, whereas older trees require space around their trunks. Volunteers mapped the trees and recorded the work appropriate to each one. This plan prevents the same treatment being applied to every tree. It also helps new volunteers understand why tasks differ across the site. The map is updated as the trees grow and their needs change.\n\nB. Watering was once organised by a fixed weekly timetable. That arrangement was easy to remember, but it took little account of rainfall. Volunteers now check the soil before watering and record the result. The new approach allows them to respond to dry conditions without adding water when the ground is already wet. A simple record also makes it possible to compare observations from different parts of the orchard. The aim is to use water where it is needed, rather than to follow a date alone.\n\nC. The orchard produces fruit for local use, but it also provides a place to learn. Volunteers run sessions on pruning and invite residents to observe the work at different times of year. Participants can see why a task is done and later practise it with guidance. These sessions have made the orchard a setting for exchanging practical knowledge as well as gathering fruit. The sessions use the existing trees rather than a separate demonstration plot.", "items": [
+    {"stem": "Choose the heading for paragraph A. Each heading may be used once.", "options": ["Learning through work in the orchard", "Supporting young trees' roots", "Recording different trees' needs", "Adjusting watering to conditions", "Producing fruit for local use", "A fixed weekly watering schedule"], "answer": 2, "why": "依据是 mapped the trees and recorded the work appropriate to each one，即第三项。第二项只对应幼树这一个例子。", "point": "mainidea"},
+    {"stem": "Choose the heading for paragraph B. Each heading may be used once.", "options": ["Learning through work in the orchard", "Supporting young trees' roots", "Recording different trees' needs", "Adjusting watering to conditions", "Producing fruit for local use", "A fixed weekly watering schedule"], "answer": 3, "why": "依据是 check the soil before watering 和 respond to dry conditions，即第四项。第六项是段首被取代的旧做法。", "point": "scope"},
+    {"stem": "Choose the heading for paragraph C. Each heading may be used once.", "options": ["Learning through work in the orchard", "Supporting young trees' roots", "Recording different trees' needs", "Adjusting watering to conditions", "Producing fruit for local use", "A fixed weekly watering schedule"], "answer": 0, "why": "依据是 it also provides a place to learn 和后面的修剪课程，即第一项。第五项只对应段首的半句。", "point": "scope"}
+   ]}
+  ]}]}
+ ]
+}

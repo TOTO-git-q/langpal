@@ -1,0 +1,558 @@
+{
+  "id": "reading-banked",
+  "title": "词汇理解（选词填空） · 练习",
+  "goal": "根据句法、搭配与上下文，为十个空选择唯一合适的词。",
+  "skill": "reading",
+  "exam": "大学英语四级（CET-4）",
+  "points": [
+    {
+      "id": "pos",
+      "label": "根据句法识别空位要求"
+    },
+    {
+      "id": "collocation",
+      "label": "按搭配选择候选词"
+    },
+    {
+      "id": "meaning",
+      "label": "按上下文确定语境义"
+    }
+  ],
+  "sources": [
+    {
+      "id": "c1",
+      "title": "CET笔试",
+      "url": "https://cet.neea.edu.cn/html1/folder/16113/1586-1.htm",
+      "used": "考试题型、题量与时间。"
+    },
+    {
+      "id": "c2",
+      "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+      "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+      "used": "材料长度、作答形式与总体评分描述；练习材料为原创。"
+    },
+    {
+      "id": "c3",
+      "title": "分数解释",
+      "url": "https://cet.neea.edu.cn/html1/folder/19081/5124-1.htm",
+      "used": "报道分与卷面权重的区别。"
+    }
+  ],
+  "cards": [
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "小测",
+      "minutes": 7,
+      "points": [
+        "pos",
+        "collocation",
+        "meaning"
+      ],
+      "pass": 0.7,
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "label": "Choose one word from the bank for each blank. Use each word at most once.",
+              "look": "passage",
+              "text": "A college library wanted to give students better (1) to practical information about the surrounding town. Its website listed transport services, but the details were scattered across several pages. Staff decided to (2) the information in one guide that students could consult before leaving campus.\n\nThe project began with a walk around the neighborhood. Volunteers checked bus stops and photographed notices, including a (3) sign whose missing letters made the destination impossible to read. They did not simply copy everything they found. Instead, they compared the notices with information from the service offices. This helped (4) the risk of including details that were no longer correct.\n\nThe volunteers learned to record dates (5), checking every number against the original notice before saving a photograph. They also discovered a surprising (6) of needs: some students wanted bus routes, while others needed places to repair bicycles or buy inexpensive food. A (7), rather than lengthy, introduction of just two sentences explained how to use the guide.\n\nThe guide did not become popular overnight. Its readership grew (8), a little each week, as students recommended it to friends. Questions from readers provided (9) that several pages needed clearer headings. Updating the guide soon became a (10) task, carried out every Friday as part of the library's regular work.",
+              "items": [
+                {
+                  "stem": "Blank (1)",
+                  "answer": 0,
+                  "why": "give ... access to 表示使人能获取信息，空位需要名词；evidence 不与此处的 to 构成同义搭配。",
+                  "point": "collocation",
+                  "options": [
+                    "access",
+                    "accurately",
+                    "brief",
+                    "collect",
+                    "damaged",
+                    "evidence",
+                    "gradually",
+                    "ignore",
+                    "narrow",
+                    "predict",
+                    "rarely",
+                    "reduce",
+                    "routine",
+                    "severely",
+                    "variety"
+                  ]
+                },
+                {
+                  "stem": "Blank (2)",
+                  "answer": 3,
+                  "why": "decided to 后接动词原形，collect ... in one guide 表示把分散信息集中起来；ignore 与编写指南的目的相反。",
+                  "point": "pos",
+                  "options": [
+                    "access",
+                    "accurately",
+                    "brief",
+                    "collect",
+                    "damaged",
+                    "evidence",
+                    "gradually",
+                    "ignore",
+                    "narrow",
+                    "predict",
+                    "rarely",
+                    "reduce",
+                    "routine",
+                    "severely",
+                    "variety"
+                  ]
+                },
+                {
+                  "stem": "Blank (3)",
+                  "answer": 4,
+                  "why": "缺失字母说明标牌已损坏，damaged 修饰 sign；narrow 只表示狭窄，不能解释缺字。",
+                  "point": "meaning",
+                  "options": [
+                    "access",
+                    "accurately",
+                    "brief",
+                    "collect",
+                    "damaged",
+                    "evidence",
+                    "gradually",
+                    "ignore",
+                    "narrow",
+                    "predict",
+                    "rarely",
+                    "reduce",
+                    "routine",
+                    "severely",
+                    "variety"
+                  ]
+                },
+                {
+                  "stem": "Blank (4)",
+                  "answer": 11,
+                  "why": "核对公告与服务部门资料能降低过时信息的风险，reduce the risk 是对应搭配。",
+                  "point": "collocation",
+                  "options": [
+                    "access",
+                    "accurately",
+                    "brief",
+                    "collect",
+                    "damaged",
+                    "evidence",
+                    "gradually",
+                    "ignore",
+                    "narrow",
+                    "predict",
+                    "rarely",
+                    "reduce",
+                    "routine",
+                    "severely",
+                    "variety"
+                  ]
+                },
+                {
+                  "stem": "Blank (5)",
+                  "answer": 1,
+                  "why": "空位修饰 record，逐个核对数字说明记录准确，选 accurately；severely 不表示核对准确。",
+                  "point": "pos",
+                  "options": [
+                    "access",
+                    "accurately",
+                    "brief",
+                    "collect",
+                    "damaged",
+                    "evidence",
+                    "gradually",
+                    "ignore",
+                    "narrow",
+                    "predict",
+                    "rarely",
+                    "reduce",
+                    "routine",
+                    "severely",
+                    "variety"
+                  ]
+                },
+                {
+                  "stem": "Blank (6)",
+                  "answer": 14,
+                  "why": "后文列出交通、修车和食物等不同需求，a variety of needs 表示需求多样。",
+                  "point": "meaning",
+                  "options": [
+                    "access",
+                    "accurately",
+                    "brief",
+                    "collect",
+                    "damaged",
+                    "evidence",
+                    "gradually",
+                    "ignore",
+                    "narrow",
+                    "predict",
+                    "rarely",
+                    "reduce",
+                    "routine",
+                    "severely",
+                    "variety"
+                  ]
+                },
+                {
+                  "stem": "Blank (7)",
+                  "answer": 2,
+                  "why": "仅两句的导言说明篇幅简短，brief 修饰 introduction；routine 不表示长度。",
+                  "point": "pos",
+                  "options": [
+                    "access",
+                    "accurately",
+                    "brief",
+                    "collect",
+                    "damaged",
+                    "evidence",
+                    "gradually",
+                    "ignore",
+                    "narrow",
+                    "predict",
+                    "rarely",
+                    "reduce",
+                    "routine",
+                    "severely",
+                    "variety"
+                  ]
+                },
+                {
+                  "stem": "Blank (8)",
+                  "answer": 6,
+                  "why": "a little each week 与并非一夜走红共同限定为逐渐增长，选 gradually；rarely 表示很少发生，不能表达该连续过程。",
+                  "point": "meaning",
+                  "options": [
+                    "access",
+                    "accurately",
+                    "brief",
+                    "collect",
+                    "damaged",
+                    "evidence",
+                    "gradually",
+                    "ignore",
+                    "narrow",
+                    "predict",
+                    "rarely",
+                    "reduce",
+                    "routine",
+                    "severely",
+                    "variety"
+                  ]
+                },
+                {
+                  "stem": "Blank (9)",
+                  "answer": 5,
+                  "why": "读者的问题为修改标题提供依据，provided evidence that 与后面的从句衔接。",
+                  "point": "collocation",
+                  "options": [
+                    "access",
+                    "accurately",
+                    "brief",
+                    "collect",
+                    "damaged",
+                    "evidence",
+                    "gradually",
+                    "ignore",
+                    "narrow",
+                    "predict",
+                    "rarely",
+                    "reduce",
+                    "routine",
+                    "severely",
+                    "variety"
+                  ]
+                },
+                {
+                  "stem": "Blank (10)",
+                  "answer": 12,
+                  "why": "每周五纳入固定工作，routine task 表示例行任务；damaged 不能描述这一工作性质。",
+                  "point": "meaning",
+                  "options": [
+                    "access",
+                    "accurately",
+                    "brief",
+                    "collect",
+                    "damaged",
+                    "evidence",
+                    "gradually",
+                    "ignore",
+                    "narrow",
+                    "predict",
+                    "rarely",
+                    "reduce",
+                    "routine",
+                    "severely",
+                    "variety"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "label": "Choose one word from the bank for each blank. Use each word at most once.",
+              "look": "passage",
+              "text": "A student team studied how a campus cafe could waste less food without offering fewer choices. The manager gave them (1) to observe the kitchen, but asked them not to interrupt staff during the busiest hours. The students began by making a (2) record of the meals left unsold at the end of each day.\n\nTheir first suggestion was to (3) smaller portions of side dishes, with extra servings available on request. This would allow customers to choose an amount that matched their appetite. The team also asked staff to (4) unused ingredients from food that had already been served. Combining the two would make the records misleading.\n\nThe figures showed that soup was often left over, whereas sandwiches usually sold out. Yet the team avoided a (5) judgment based on a single day. They watched for two weeks and checked whether unusual events had affected demand. When a sports meeting brought extra visitors, they marked that day (6) so it would not be mistaken for an ordinary afternoon.\n\nChanges were introduced (7), with a different adjustment tested each week rather than all at once. Staff expressed (8) about the additional work, so the students designed a form that took only a minute to complete. The resulting system was (9) rather than complicated, making it suitable for daily use. Its main (10) was a clearer picture of what customers actually ate, allowing the manager to plan purchases with less guesswork.",
+              "items": [
+                {
+                  "stem": "Blank (1)",
+                  "answer": 5,
+                  "why": "give someone permission to do 表示允许某人做事；benefit 不与这里的 to observe 构成所需搭配。",
+                  "point": "collocation",
+                  "options": [
+                    "benefit",
+                    "concern",
+                    "detailed",
+                    "gradually",
+                    "permanent",
+                    "permission",
+                    "premature",
+                    "separately",
+                    "serve",
+                    "silently",
+                    "simple",
+                    "sort",
+                    "suddenly",
+                    "transport",
+                    "wealth"
+                  ]
+                },
+                {
+                  "stem": "Blank (2)",
+                  "answer": 2,
+                  "why": "record 需要形容词修饰，记录每天未售餐食的情况应为 detailed；premature 表示过早，不能说明记录内容。",
+                  "point": "pos",
+                  "options": [
+                    "benefit",
+                    "concern",
+                    "detailed",
+                    "gradually",
+                    "permanent",
+                    "permission",
+                    "premature",
+                    "separately",
+                    "serve",
+                    "silently",
+                    "simple",
+                    "sort",
+                    "suddenly",
+                    "transport",
+                    "wealth"
+                  ]
+                },
+                {
+                  "stem": "Blank (3)",
+                  "answer": 8,
+                  "why": "smaller portions 是供应的小份餐食，serve 与餐饮语境对应；transport 指运输，不能表示供客人取用。",
+                  "point": "collocation",
+                  "options": [
+                    "benefit",
+                    "concern",
+                    "detailed",
+                    "gradually",
+                    "permanent",
+                    "permission",
+                    "premature",
+                    "separately",
+                    "serve",
+                    "silently",
+                    "simple",
+                    "sort",
+                    "suddenly",
+                    "transport",
+                    "wealth"
+                  ]
+                },
+                {
+                  "stem": "Blank (4)",
+                  "answer": 11,
+                  "why": "sort ... from ... 表示将两类食物区分开；下句说明混在一起会误导记录。",
+                  "point": "collocation",
+                  "options": [
+                    "benefit",
+                    "concern",
+                    "detailed",
+                    "gradually",
+                    "permanent",
+                    "permission",
+                    "premature",
+                    "separately",
+                    "serve",
+                    "silently",
+                    "simple",
+                    "sort",
+                    "suddenly",
+                    "transport",
+                    "wealth"
+                  ]
+                },
+                {
+                  "stem": "Blank (5)",
+                  "answer": 6,
+                  "why": "后文继续观察两周，说明避免仅凭一天过早判断，选 premature；permanent 不是这里强调的依据不足。",
+                  "point": "meaning",
+                  "options": [
+                    "benefit",
+                    "concern",
+                    "detailed",
+                    "gradually",
+                    "permanent",
+                    "permission",
+                    "premature",
+                    "separately",
+                    "serve",
+                    "silently",
+                    "simple",
+                    "sort",
+                    "suddenly",
+                    "transport",
+                    "wealth"
+                  ]
+                },
+                {
+                  "stem": "Blank (6)",
+                  "answer": 7,
+                  "why": "异常活动日要单独标记，separately 与不误认为普通日相对应；silently 只说明无声。",
+                  "point": "meaning",
+                  "options": [
+                    "benefit",
+                    "concern",
+                    "detailed",
+                    "gradually",
+                    "permanent",
+                    "permission",
+                    "premature",
+                    "separately",
+                    "serve",
+                    "silently",
+                    "simple",
+                    "sort",
+                    "suddenly",
+                    "transport",
+                    "wealth"
+                  ]
+                },
+                {
+                  "stem": "Blank (7)",
+                  "answer": 3,
+                  "why": "每周测试一种调整，而非同时实施，故选 gradually；suddenly 与这一进程相反。",
+                  "point": "meaning",
+                  "options": [
+                    "benefit",
+                    "concern",
+                    "detailed",
+                    "gradually",
+                    "permanent",
+                    "permission",
+                    "premature",
+                    "separately",
+                    "serve",
+                    "silently",
+                    "simple",
+                    "sort",
+                    "suddenly",
+                    "transport",
+                    "wealth"
+                  ]
+                },
+                {
+                  "stem": "Blank (8)",
+                  "answer": 1,
+                  "why": "员工担心额外工作，express concern about 表示对此表示担忧；wealth 不表示态度。",
+                  "point": "collocation",
+                  "options": [
+                    "benefit",
+                    "concern",
+                    "detailed",
+                    "gradually",
+                    "permanent",
+                    "permission",
+                    "premature",
+                    "separately",
+                    "serve",
+                    "silently",
+                    "simple",
+                    "sort",
+                    "suddenly",
+                    "transport",
+                    "wealth"
+                  ]
+                },
+                {
+                  "stem": "Blank (9)",
+                  "answer": 10,
+                  "why": "表格只需一分钟，说明方法简单易用；permanent 表示永久，不能解释操作便利。",
+                  "point": "pos",
+                  "options": [
+                    "benefit",
+                    "concern",
+                    "detailed",
+                    "gradually",
+                    "permanent",
+                    "permission",
+                    "premature",
+                    "separately",
+                    "serve",
+                    "silently",
+                    "simple",
+                    "sort",
+                    "suddenly",
+                    "transport",
+                    "wealth"
+                  ]
+                },
+                {
+                  "stem": "Blank (10)",
+                  "answer": 0,
+                  "why": "后文说明系统带来的好处是更了解实际食用情况，选 benefit；permission 表示许可，不表示成效。",
+                  "point": "meaning",
+                  "options": [
+                    "benefit",
+                    "concern",
+                    "detailed",
+                    "gradually",
+                    "permanent",
+                    "permission",
+                    "premature",
+                    "separately",
+                    "serve",
+                    "silently",
+                    "simple",
+                    "sort",
+                    "suddenly",
+                    "transport",
+                    "wealth"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "more": {
+        "kind": "banked",
+        "topics": [
+          "校园生活信息指南",
+          "校园食堂减少浪费",
+          "公共自行车的维护",
+          "社区种植的协作",
+          "地方展馆的志愿者",
+          "学习记录的整理",
+          "图书交换活动",
+          "日常工具的重复使用",
+          "活动报名资料的核对",
+          "校园步行路线",
+          "学生社团的交接",
+          "公共服务的反馈"
+        ]
+      }
+    }
+  ]
+}

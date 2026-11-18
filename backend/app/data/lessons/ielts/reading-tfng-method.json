@@ -1,0 +1,70 @@
+{
+ "id": "reading-tfng-method",
+ "title": "事实判断的证据",
+ "goal": "为陈述定位原文依据，区分一致、相反与信息不足。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "locate", "label": "为陈述找到对应的原文信息"},
+  {"id": "judge", "label": "区分一致、相反与信息不足"}
+ ],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "事实判断的教学内容"}],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "事实判断比较题干陈述和文章信息。对象、行为与限定条件都一致时，判断为 TRUE。"},
+   {"p": "原文明确表达相反意思时，判断为 FALSE。原文缺少判断所需的信息时，判断为 NOT GIVEN。"},
+   {"box": "TRUE\nFALSE\nNOT GIVEN"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　拆分陈述", "d": "标出对象、行为和限定条件。The northern mill closed in winter 的对象是 northern mill，限定是 in winter。"},
+   {"t": "2　定位信息", "d": "用对象和较具体的词寻找对应句。阅读相邻句，核对动作和条件是否属于同一对象。"},
+   {"t": "3　比较命题", "d": "逐项比较原文与陈述。内容一致为 TRUE，明确相反为 FALSE，证据不足为 NOT GIVEN。"},
+   {"t": "4　核对原因", "d": "陈述含原因时，先找原文对原因的说法。原文明确给出另一个原因，判断为 FALSE。原文没有交代原因，判断为 NOT GIVEN。"}
+  ]},
+  {"id": "comparison", "type": "table", "title": "证据与判断", "cols": ["原文", "陈述", "判断与依据"], "rows": [
+   ["The eastern gate opens at dawn.", "The eastern gate opens at dawn.", "TRUE：对象和时间一致。"],
+   ["The eastern gate opens at dawn.", "The eastern gate opens at noon.", "FALSE：开门时间与原文矛盾。"],
+   ["The eastern gate opens at dawn.", "The eastern gate closes at dusk.", "NOT GIVEN：原文没有提关门时间。"],
+   ["The lift stopped because a cable broke.", "The lift stopped because a cable broke.", "TRUE：停止的原因一致。"],
+   ["The lift stopped solely because a cable broke.", "The lift stopped because its motor failed.", "FALSE：原文说缆索断裂是唯一原因。"],
+   ["The lift stopped during the inspection.", "The lift stopped because its motor failed.", "NOT GIVEN：原文只说停的时间，没有交代原因。"]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [
+   {"box": "The western bridge was repaired in spring. The eastern bridge remained open throughout the work.\nStatement: The eastern bridge was closed during the repair.\nTRUE / FALSE / NOT GIVEN"},
+   {"p": "依据是 The eastern bridge remained open throughout the work。陈述把开放改为关闭，与原文相反，判断为 FALSE。"},
+   {"p": "western bridge 是维修对象，eastern bridge 是保持开放的对象。比较时须保留方位词。"}
+  ]},
+  {"id": "distractors", "type": "table", "title": "干扰项", "cols": ["情况", "例", "核对"], "rows": [
+   ["对象替换", "western bridge 与 eastern bridge", "区分维修的桥和开放的桥"],
+   ["时间替换", "spring 与 throughout the work", "确认每个时间对应哪个动作"],
+   ["原因缺失", "stopped，原文没有说原因", "陈述补出的原因无依据，判断为 NOT GIVEN"],
+   ["原因相反", "solely because a cable broke", "陈述换成别的原因，判断为 FALSE"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["locate", "judge"], "groups": [
+   {"text": "A bakery uses a stone oven for bread. Its metal oven is used for cakes.", "items": [{"stem": "The bakery bakes bread in a stone oven. Enter TRUE, FALSE or NOT GIVEN.", "accept": ["TRUE"], "why": "原文的 uses a stone oven for bread 与陈述一致。", "point": "locate"}]},
+   {"text": "The library moved its map collection to the upper floor in May.", "items": [{"stem": "The map collection moved in June. Enter TRUE, FALSE or NOT GIVEN.", "accept": ["FALSE"], "why": "原文说 in May，陈述说 in June，时间相反。", "point": "locate"}]},
+   {"text": "A team cancelled the boat trip. The account gives no reason for the cancellation.", "items": [{"stem": "The boat trip was cancelled because of fog. Enter TRUE, FALSE or NOT GIVEN.", "accept": ["NOT GIVEN"], "why": "原文明确说未给出取消原因，无法判断是否因为雾。", "point": "judge"}]},
+   {"text": "The only reason for closing the workshop was a power failure.", "items": [{"stem": "The workshop closed because of a water leak. Enter TRUE, FALSE or NOT GIVEN.", "accept": ["FALSE"], "why": "原文说唯一原因是 power failure，陈述换成了 water leak。", "point": "judge"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["locate", "judge"], "groups": [{
+   "text": "A small museum stores its photographs in a cool room. It moved the maps to a separate cupboard after the photograph shelves became full. The museum has not recorded when the cupboard was built.",
+   "items": [
+    {"stem": "The photographs are kept in a cool room. Enter TRUE, FALSE or NOT GIVEN.", "accept": ["TRUE"], "why": "原文说 stores its photographs in a cool room，陈述一致。", "point": "locate"},
+    {"stem": "The cupboard was built before the museum opened. Enter TRUE, FALSE or NOT GIVEN.", "accept": ["NOT GIVEN"], "why": "原文说没有记录柜子的建造时间，无法判断它是否早于开馆。", "point": "judge"}
+   ]
+  }]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["locate", "judge"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A town archive has been considering how to make its collection easier to consult. Its records include handwritten minutes, printed plans and photographs. The archive occupies two rooms in an older building, and visitors use a separate reading room. In a trial project, staff chose a small group of printed plans for scanning. They selected these plans because the sheets could be handled safely without removing them from their folders. The trial did not include handwritten minutes, although staff intend to assess their condition later.\n\nThe scanner was installed in the room containing the plans. Staff moved a table away from the window to make space for it, but the plans themselves remained in their existing cabinets. A volunteer checked each digital image against the paper original. If an edge was missing, the sheet was scanned again. The volunteer also recorded the title printed on each plan. Dates were entered only when they appeared on the document; no dates were estimated from the appearance of the paper. Each image was then saved with its catalogue number.\n\nAfter the trial, the archive made the images available on a computer in its reading room. Visitors could enlarge an image to examine a detail, while staff kept the original plans in storage. The archive did not measure how long visitors spent looking at the images. A separate review considered whether the reading room needed more tables. The scanning trial was funded by a local grant, whereas ordinary building repairs were paid for from the archive's regular budget.", "items": [
+    {"stem": "The trial included handwritten minutes. Enter TRUE, FALSE or NOT GIVEN.", "accept": ["FALSE"], "why": "原文说 did not include handwritten minutes，与陈述相反。", "point": "locate"},
+    {"stem": "The plans were moved to new cabinets for scanning. Enter TRUE, FALSE or NOT GIVEN.", "accept": ["FALSE"], "why": "原文说 plans remained in their existing cabinets，与移到新柜子相反。", "point": "locate"},
+    {"stem": "The archive measured the time visitors spent viewing images. Enter TRUE, FALSE or NOT GIVEN.", "accept": ["FALSE"], "why": "原文明确说 did not measure 这项时间，与陈述相反。", "point": "judge"}
+   ]},
+   {"look": "passage", "text": "A group of gardeners wanted to compare two ways of collecting rainwater at a community garden. They placed one covered container beside a greenhouse and another near a tool shed. Both received water from roof gutters, but each container had its own tap. The group labelled the taps so that volunteers could record which container supplied water for a particular task. The gardeners used the same type of measuring jug at both taps.\n\nFor the first month, volunteers recorded the amount drawn from each container. The greenhouse container supplied water for seedlings, while water from the shed container was used on established beds. At the end of the month the group found that more water had been drawn from the greenhouse container. The record did not give the total rainfall for the period, and it did not state how much water remained in either container. The volunteers kept their records in a shared notebook.\n\nDuring the second month the gardeners exchanged the uses of the two containers. They wanted to see whether the tasks, rather than the position of a tap, affected the amount drawn. A damaged tap on the shed container was replaced before this second period began. The report identifies wear as the sole reason for replacing it. The greenhouse tap remained in place. At a later meeting the group discussed installing a third container, but the report does not say whether a location was chosen. The gardeners agreed to continue recording the water drawn before deciding how useful another container would be.", "items": [
+    {"stem": "The gardeners used identical types of jug at both taps. Enter TRUE, FALSE or NOT GIVEN.", "accept": ["TRUE"], "why": "原文说 the same type of measuring jug at both taps，与陈述一致。", "point": "locate"},
+    {"stem": "The shed tap was replaced because a volunteer had broken it. Enter TRUE, FALSE or NOT GIVEN.", "accept": ["FALSE"], "why": "原文说 wear 是更换水龙头的唯一原因，陈述说成志愿者弄坏，与原文相反，所以是 FALSE。", "point": "judge"},
+    {"stem": "The gardeners chose a position for a third container. Enter TRUE, FALSE or NOT GIVEN.", "accept": ["NOT GIVEN"], "why": "原文说报告未说明是否选定位置，因此无法判断。", "point": "judge"}
+   ]}
+  ]}]}
+ ]
+}

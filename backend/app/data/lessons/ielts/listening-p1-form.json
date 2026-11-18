@@ -1,0 +1,495 @@
+{
+ "id": "listening-p1-form",
+ "title": "表单填空",
+ "goal": "按栏目预测答案，并提取符合词数与单位要求的原词或数字。",
+ "skill": "听力",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "predict",
+   "label": "按栏目判断所需信息类别"
+  },
+  {
+   "id": "exact",
+   "label": "提取符合栏目和字数限制的答案"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "雅思 IELTS Academic：课表",
+   "url": "docs/syllabi/ielts.md",
+   "used": "听力课的内容、知识点与教学规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "栏目名决定要填哪一类信息。Surname 填姓氏，Contact number 填号码，Start date 填开始日期。预测只定类别，具体答案要从录音中听。"
+    },
+    {
+     "box": "Surname: ___\nContact number: ___\nStart date: ___\nFee: £___ per person\nRequirement: ___"
+    },
+    {
+     "p": "答案从录音中提取，填多少看空前和空后已给的词。Fee: £___ 已有货币符号，只填数字。Requirement: ___ room 只填房间类型，不再写 room。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　识别栏目类别",
+     "d": "根据栏目名和已给内容预测信息。Contact number 后面填号码，不填相邻的地址。"
+    },
+    {
+     "t": "2　检查作答上限",
+     "d": "看清限的是几个词、几个数字。ONE WORD AND/OR A NUMBER 可以写 9 July，不能写 the ninth of July。"
+    },
+    {
+     "t": "3　提取完整信息",
+     "d": "保留区分对象的修饰词。录音说租的是 electric bicycle 时，只写 bicycle 分不出普通车和电动车。"
+    },
+    {
+     "t": "4　回填核对",
+     "d": "把答案放回栏目，检查有没有重复或填错栏。Cost: £___ per day 只填金额，不再加 pounds per day。"
+    }
+   ]
+  },
+  {
+   "id": "fields",
+   "type": "table",
+   "title": "栏目与答案类别",
+   "cols": [
+    "栏目",
+    "填法",
+    "例"
+   ],
+   "rows": [
+    [
+     "姓名",
+     "surname 只填姓，不填全名。",
+     "My first name's Hana and my surname's West. → West"
+    ],
+    [
+     "联系方式",
+     "分清电话和地址。号码按听到的顺序写。",
+     "Phone: zero seven three, four one, six two → 0734162"
+    ],
+    [
+     "日期",
+     "分清申请、开始和结束日期，只填栏目问的那个。",
+     "Apply on 4 June; start on 12 June. → 12 June"
+    ],
+    [
+     "费用",
+     "看币种和费用对应的项目，已给的单位不再写。",
+     "Fee: £___ per person; eighteen pounds → 18"
+    ],
+    [
+     "需求",
+     "保留必要的修饰词，空后已给的词不再写。",
+     "a quiet room; Required: ___ room → quiet"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A: I'd like to register for the craft fair. My surname is Vale.\nB: What space does the stall need?\nA: A covered pitch, please. I can bring my own table.\nB: The fee is twenty-four pounds. The fair is on 16 August, but payment is due on 8 August."
+    },
+    {
+     "box": "Craft fair registration\nSurname: ___ (ONE WORD)\nPitch type: ___ (NO MORE THAN TWO WORDS)\nFee: £___ (A NUMBER)\nEvent date: ___ (ONE WORD AND A NUMBER)"
+    },
+    {
+     "p": "姓氏栏填 Vale。摊位类型填 covered pitch，covered 表示有遮盖的场地。费用栏已有 £，填 24。活动日期填 16 August，8 August 是付款期限。"
+    },
+    {
+     "box": "A: The equipment is for a portable radio, not a television.\nB: I'll record that.\nItem: ___ (NO MORE THAN TWO WORDS)\nAnswer: portable radio"
+    },
+    {
+     "p": "填原词要保留 portable，不能只写 radio，也不能换成同义词。如果题面已给 Item: portable ___，空内只填 radio。"
+    }
+   ]
+  },
+  {
+   "id": "errors",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "错误例",
+    "核对依据"
+   ],
+   "rows": [
+    [
+     "漏修饰词",
+     "covered pitch → pitch",
+     "场地类型要写出 covered，只写 pitch 不完整。"
+    ],
+    [
+     "重复单位",
+     "Fee: £___ → 24 pounds",
+     "题面已给 £，只填数字。"
+    ],
+    [
+     "相邻栏目移用",
+     "Event date → 8 August",
+     "8 August 属于付款期限，活动是 16 August。"
+    ],
+    [
+     "重复已给词",
+     "portable ___ → portable radio",
+     "portable 已给，空内只填 radio。"
+    ],
+    [
+     "擅改原词",
+     "covered pitch → sheltered space",
+     "题目要求填原词，不能换成同义词。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "predict",
+    "exact"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The dog's name is Pepper. The owner's surname is Grant."
+       },
+       {
+        "who": "B",
+        "text": "I'll use Grant in the owner's record."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Owner's surname: ___ . Write ONE WORD from the recording.",
+       "accept": [
+        "Grant"
+       ],
+       "why": "owner's surname is Grant 说的是主人的姓，Pepper 是狗的名字。",
+       "point": "predict"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "For the collection, should I use the shop address?"
+       },
+       {
+        "who": "B",
+        "text": "No, please use my mobile number: zero seven one, two four, eight six."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Contact number: ___ . Write the digits only, without spaces.",
+       "accept": [
+        "0712486"
+       ],
+       "why": "mobile number 后逐位给出 0712486，题面要求数字连续书写。",
+       "point": "predict"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "What kind of gloves does the sewing kit include?"
+       },
+       {
+        "who": "B",
+        "text": "Cotton gloves. The leather gloves are sold separately."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Included gloves: ___ . Write ONE WORD from the recording.",
+       "accept": [
+        "cotton"
+       ],
+       "why": "套装里的是 Cotton gloves，gloves 已给，只填 cotton。leather 手套另售。",
+       "point": "exact"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Is delivery nine pounds?"
+       },
+       {
+        "who": "B",
+        "text": "That's the packing charge. Delivery is fourteen pounds."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Delivery charge: £___ . Write A NUMBER in digits.",
+       "accept": [
+        "14",
+        "14.00"
+       ],
+       "why": "Delivery is fourteen pounds，£ 已给，填 14。9 镑是包装费。",
+       "point": "exact"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "predict",
+    "exact"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I'm calling about a stall at the village book exchange. I mainly have children's books, so I'd like a low table if possible."
+       },
+       {
+        "who": "B",
+        "text": "There's a low table available near the window. The exchange takes place on the twenty-third of September, and stallholders can arrive early to arrange their books. The ordinary visitor entrance is at the front, but stallholders use the side door."
+       },
+       {
+        "who": "A",
+        "text": "That's suitable. My surname is Holt. Is there a charge for the table?"
+       },
+       {
+        "who": "B",
+        "text": "It's seven pounds for the day. A chair is included, and extra chairs cost two pounds each."
+       },
+       {
+        "who": "A",
+        "text": "One chair is enough. Please reserve the low table for me."
+       },
+       {
+        "who": "B",
+        "text": "I've recorded the surname Holt and the table request. Pay at the side door on arrival."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Surname: ___ . Write ONE WORD from the recording.",
+       "accept": [
+        "Holt"
+       ],
+       "why": "My surname is Holt 给出了姓氏，填 Holt。",
+       "point": "predict"
+      },
+      {
+       "stem": "Table type: ___ . Write NO MORE THAN TWO WORDS from the recording.",
+       "accept": [
+        "low table"
+       ],
+       "why": "Please reserve the low table 确认类型，low 不能省略。",
+       "point": "exact"
+      },
+      {
+       "stem": "Table charge: £___ for the day. Write A NUMBER in digits.",
+       "accept": [
+        "7",
+        "7.00"
+       ],
+       "why": "seven pounds for the day 是桌位费用；2 是额外椅子的价格。",
+       "point": "exact"
+      }
+     ],
+     "text": "Book exchange stall\nSurname: ___\nTable type: ___\nTable charge: £___ for the day"
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "predict",
+    "exact"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Hello, I'm arranging delivery of a large plant from the garden shop. My first name is Ellis and my surname is Brook. The order was placed yesterday, but I haven't selected the delivery details."
+         },
+         {
+          "who": "B",
+          "text": "Certainly, Ellis. Is the delivery going to the address on the order, and what sort of container has been chosen?"
+         },
+         {
+          "who": "A",
+          "text": "The address is correct. I'd like a ceramic pot, rather than the plastic one shown in the photograph. The plant is a gift, so the container matters."
+         },
+         {
+          "who": "B",
+          "text": "We can provide that. Delivery costs sixteen pounds, while the ceramic pot is twenty-eight pounds. The plant itself has already been paid for."
+         },
+         {
+          "who": "A",
+          "text": "That's fine. Please deliver it on Tuesday afternoon. I work in the morning, so nobody will be there before lunch."
+         },
+         {
+          "who": "B",
+          "text": "I've recorded Tuesday afternoon. The driver will ring before arriving, using the contact number already on the order."
+         },
+         {
+          "who": "A",
+          "text": "Good. There's a narrow passage beside the house, but the front door is wide enough for the pot."
+         },
+         {
+          "who": "B",
+          "text": "I'll add a note asking the driver to use the front door."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Surname: ___ . Write ONE WORD from the recording.",
+         "accept": [
+          "Brook"
+         ],
+         "why": "my surname is Brook 对应姓氏，Ellis 是名字。",
+         "point": "predict"
+        },
+        {
+         "stem": "Container type: ___ . Write NO MORE THAN TWO WORDS from the recording.",
+         "accept": [
+          "ceramic pot"
+         ],
+         "why": "I'd like a ceramic pot 给出了容器，填 ceramic pot。plastic 是照片里的款式，没有选。",
+         "point": "exact"
+        },
+        {
+         "stem": "Delivery charge: £___ . Write A NUMBER in digits.",
+         "accept": [
+          "16",
+          "16.00"
+         ],
+         "why": "Delivery costs sixteen pounds 对应配送费，28 是花盆费用。",
+         "point": "exact"
+        }
+       ],
+       "text": "Plant delivery form\nSurname: ___\nDelivery address: as on order\nContact number: as on order\nContainer type: ___\nDelivery charge: £___\nDelivery period: Tuesday afternoon"
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Good morning. I'm applying to join the neighbourhood tool library. I submitted my details online, but the form asked me to telephone about the starting date and the equipment I need."
+         },
+         {
+          "who": "B",
+          "text": "I can see the application here. The name is Tessa Lane, and the contact number is already recorded. Would membership from the first of November be suitable?"
+         },
+         {
+          "who": "A",
+          "text": "I won't be moving into the area until later. Could it start on the ninth of November instead? I need tools for putting up shelves in my new flat."
+         },
+         {
+          "who": "B",
+          "text": "Yes, the ninth of November is available. The membership fee is thirty pounds, and there's a separate refundable equipment deposit. What would be the first item required?"
+         },
+         {
+          "who": "A",
+          "text": "An electric drill. I have a hammer already, and I can borrow a ladder from a neighbour. How should I confirm the application?"
+         },
+         {
+          "who": "B",
+          "text": "Bring a signed form to the counter. An unsigned copy can't be accepted. The address and telephone number don't need to be submitted again."
+         },
+         {
+          "who": "A",
+          "text": "I'll bring the signed form and collect the drill when membership starts."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Membership start date: ___ . Write ONE WORD AND A NUMBER, with the day before the full month name.",
+         "accept": [
+          "9 November",
+          "9th November",
+          "09 November",
+          "09th November"
+         ],
+         "why": "the ninth of November is available 确认了开始日期。the first of November 是最初的提议。",
+         "point": "predict"
+        },
+        {
+         "stem": "First item required: ___ . Write NO MORE THAN TWO WORDS from the recording.",
+         "accept": [
+          "electric drill"
+         ],
+         "why": "第一件要用的工具是 An electric drill，electric 要保留。hammer 已有，ladder 向邻居借。",
+         "point": "predict"
+        },
+        {
+         "stem": "Document required at the counter: ___ . Write NO MORE THAN TWO WORDS from the recording.",
+         "accept": [
+          "signed form"
+         ],
+         "why": "Bring a signed form 给出了所需文件。下一句说不收 unsigned copy，所以 signed 不能省。",
+         "point": "exact"
+        }
+       ],
+       "text": "Tool library membership\nApplicant: Tessa Lane\nContact number: recorded\nMembership start date: ___\nMembership fee: £30\nFirst item required: ___\nDocument required at the counter: ___"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

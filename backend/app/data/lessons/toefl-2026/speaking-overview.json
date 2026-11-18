@@ -1,0 +1,242 @@
+{
+ "id": "speaking-overview",
+ "title": "口语部分概览：题型、题量、计分",
+ "goal": "说出两类题的任务、题量和计分；说出两类题各自的评分要点。",
+ "skill": "speaking",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 口语",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "format",
+   "label": "说出两类题的任务、题量和计分"
+  },
+  {
+   "id": "criteria",
+   "label": "说出两类题各自的评分要点"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、计分、自适应"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明和官方样题（挖空规则是对照样题和答案看出来的）"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "facts",
+   "title": "概述",
+   "rows": [
+    {
+     "k": "题型与题量",
+     "v": "Listen and Repeat 7 题；Take an Interview 4 题，共 11 题。",
+     "src": "spec 第 6 页"
+    },
+    {
+     "k": "部分用时",
+     "v": "预计 8 分钟。",
+     "src": "spec 第 6 页"
+    },
+    {
+     "k": "单题分值",
+     "v": "两类题每题均为 0–5 分；5 分为单题满分。",
+     "src": "overview 第 26–27 页"
+    },
+    {
+     "k": "跟读作答时间",
+     "v": "每句的录音作答时限为 8–12 秒，随句子而异。",
+     "src": "overview 第 17 页"
+    },
+    {
+     "k": "面试作答时间",
+     "v": "每题 45 秒。",
+     "src": "overview 第 19 页"
+    },
+    {
+     "k": "作答与评分",
+     "v": "提交口头录音作答，由人工智能评分系统评价。",
+     "src": "spec 第 2、6 页；overview 第 17 页"
+    }
+   ]
+  },
+  {
+   "id": "types",
+   "type": "table",
+   "title": "题型",
+   "cols": [
+    "题型",
+    "材料",
+    "任务"
+   ],
+   "rows": [
+    [
+     "Listen and Repeat",
+     "学术或校园情境及示意图；句子逐渐加长。",
+     "逐句听后原样复述，不换成同义句。"
+    ],
+    [
+     "Take an Interview",
+     "预先录制的面试问题，围绕同一主题展开。",
+     "先回答事实或经历，再表达并支持观点。"
+    ]
+   ],
+   "src": "overview 第 17、19 页"
+  },
+  {
+   "id": "criteria",
+   "type": "table",
+   "title": "评分要点",
+   "cols": [
+    "类型",
+    "要求",
+    "例"
+   ],
+   "rows": [
+    [
+     "跟读：准确",
+     "词和语序与原句一致。换成同义词也算错。",
+     "The locker is empty. → The cabinet is empty.（换词）"
+    ],
+    [
+     "跟读：完整",
+     "功能词和词尾都要说出来。只说出大意不算完整。",
+     "The lockers are empty. → Lockers are empty.（漏词）"
+    ],
+    [
+     "跟读：可懂度",
+     "每个词的发音都能听清。",
+     "The lockers are empty.（lockers 的词尾须可辨认）"
+    ],
+    [
+     "面试：切题与展开",
+     "回答问到的内容，再补充相关细节。重复题目不算展开。",
+     "Why join the club? → It offers supervised practice."
+    ],
+    [
+     "面试：语流与可懂度",
+     "语速自然，在意思完整处停顿，不频繁中断。",
+     "I joined last autumn / because I wanted more practice."
+    ],
+    [
+     "面试：词汇与语法",
+     "用词和语法准确，句式有变化。复杂句式要用来表达意思。",
+     "Although I was new, I could contribute a useful idea."
+    ]
+   ],
+   "src": "overview 第 26–28 页"
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 4,
+   "pass": 0.8,
+   "points": [
+    "format",
+    "criteria"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "Listen and Repeat contains seven sentences in a shared setting. Take an Interview contains four related questions. The speaking section takes about eight minutes.",
+       "items": [
+        {
+         "stem": "Which description matches Listen and Repeat?",
+         "options": [
+          "Seven sentences to reproduce within a scenario",
+          "Four questions to reproduce within a scenario",
+          "Seven questions requiring personal opinions",
+          "Four sentences requiring personal opinions"
+         ],
+         "answer": 0,
+         "why": "依据是 seven sentences in a shared setting：在同一情境里复述 7 句。4 题是面试的题量。",
+         "point": "format"
+        },
+        {
+         "stem": "Which description applies to the whole speaking section?",
+         "options": [
+          "Seven tasks in approximately four minutes",
+          "Eleven tasks in approximately eight minutes",
+          "Four tasks in approximately eight minutes",
+          "Eleven tasks in approximately seven minutes"
+         ],
+         "answer": 1,
+         "why": "seven sentences 加 four related questions 共 11 题。about eight minutes 是整个部分的用时。",
+         "point": "format"
+        }
+       ]
+      },
+      {
+       "text": "A repeat response is recorded within an 8-to-12-second limit, depending on the sentence. Each interview response has 45 seconds. Both task types use a 0-to-5 scoring scale.",
+       "items": [
+        {
+         "stem": "Which pairing is correct for an interview item?",
+         "options": [
+          "An 8-to-12-second response; a maximum of 5 points",
+          "A 45-second response; a maximum of 12 points",
+          "An 8-to-12-second response; a maximum of 45 points",
+          "A 45-second response; a maximum of 5 points"
+         ],
+         "answer": 3,
+         "why": "Each interview response has 45 seconds 给出时限，0-to-5 scoring scale 给出单题满分 5 分。",
+         "point": "format"
+        },
+        {
+         "stem": "A repeat response changes several words but remains understandable. Which requirement is directly affected?",
+         "options": [
+          "The requirement to express a supported personal opinion",
+          "The requirement to answer a related interview question",
+          "The requirement to reproduce the original wording accurately",
+          "The requirement to elaborate within a 45-second answer"
+         ],
+         "answer": 2,
+         "why": "changes several words 说明原词被换掉了，影响的是第三项说的准确复述。能听懂不能抵消换词。",
+         "point": "criteria"
+        }
+       ]
+      },
+      {
+       "text": "An interview response should address the question, add relevant development, maintain a conversational pace, and communicate clearly with suitable grammar and vocabulary.",
+       "items": [
+        {
+         "stem": "A speaker answers a question about a preference but keeps repeating the preference without reasons. Which area needs improvement?",
+         "options": [
+          "The accuracy of reproducing a recorded sentence",
+          "The amount of relevant support for the answer",
+          "The number of questions included in the interview",
+          "The accuracy of repeating the interviewer word for word"
+         ],
+         "answer": 1,
+         "why": "依据是 add relevant development。反复说偏好，没有增加支持的理由。",
+         "point": "criteria"
+        },
+        {
+         "stem": "A response is relevant and detailed, but frequent long pauses make it difficult to follow. Which requirement is most directly affected?",
+         "options": [
+          "Maintaining a coherent flow at a conversational pace",
+          "Repeating all the words of a recorded sentence",
+          "Keeping the answer within the original sentence order",
+          "Developing a preference with additional relevant reasons"
+         ],
+         "answer": 0,
+         "why": "frequent long pauses 不符合 maintain a conversational pace。题干已说明内容相关、细节充分。",
+         "point": "criteria"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

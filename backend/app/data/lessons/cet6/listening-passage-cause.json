@@ -1,0 +1,476 @@
+{
+ "id": "listening-passage-cause",
+ "title": "听力篇章因果题",
+ "goal": "听出事件发生的直接原因；区分措施的目的与实际结果。",
+ "skill": "听力",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "cause",
+   "label": "听出事件发生的直接原因"
+  },
+  {
+   "id": "result",
+   "label": "区分措施的目的与实际结果"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语六级（CET-6）：课表",
+   "url": "docs/syllabi/cet6.md",
+   "used": "听力篇章因果题的内容、知识点与练习规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "因果题问两类信息：事件的直接原因，措施的结果。背景交代事情发生的环境。直接原因解释某个结果为什么发生。措施的目的和实际结果要分开记。"
+    },
+    {
+     "box": "The hall was old. The event moved because its heating failed. Organizers hired heaters to reopen it, but repairs took longer than expected."
+    },
+    {
+     "p": "建筑老旧是背景，供暖故障是活动迁移的直接原因。租用取暖设备是为了重新开放场地。实际结果是修理比预期慢。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定所问事件",
+     "d": "题干可能问原因、目的或结果。Why did the team move? 问迁移的原因。"
+    },
+    {
+     "t": "2　识别因果方向",
+     "d": "because 引出原因，therefore 和 as a result 引出结果。The gate was stuck; therefore the team used another entrance 中，前句是原因。"
+    },
+    {
+     "t": "3　区分目的与结果",
+     "d": "to 引出目的，后文说实际发生的事，两者分开记。Staff added signs to guide visitors, but some still missed the entrance. 前半是目的，后半是实际结果。"
+    },
+    {
+     "t": "4　核对直接依据",
+     "d": "选和所问事件直接相连的解释。旧建筑只是背景，供暖故障才直接解释场地迁移。"
+    }
+   ]
+  },
+  {
+   "id": "signals",
+   "type": "table",
+   "title": "因果表达",
+   "cols": [
+    "表达",
+    "方向",
+    "例"
+   ],
+   "rows": [
+    [
+     "because",
+     "后接原因，主句说明结果。",
+     "The trip was delayed because the gate was locked."
+    ],
+    [
+     "therefore",
+     "后接由前文产生的结果。",
+     "The gate was locked; therefore the trip was delayed."
+    ],
+    [
+     "as a result",
+     "后接前述情况造成的结果。",
+     "The gate was locked. As a result, the trip was delayed."
+    ],
+    [
+     "先果后因",
+     "先说结果，再说明原因。",
+     "The trip was delayed. The gate had been locked."
+    ],
+    [
+     "目的",
+     "to 后说明希望达到的目标。",
+     "Staff installed a bell to alert visitors."
+    ],
+    [
+     "实际结果",
+     "后文说明措施产生的效果。",
+     "Staff installed a bell; visitors still missed the entrance."
+    ]
+   ]
+  },
+  {
+   "id": "relations",
+   "type": "table",
+   "title": "原因、措施与结果",
+   "cols": [
+    "层次",
+    "判断",
+    "例"
+   ],
+   "rows": [
+    [
+     "背景",
+     "交代事件环境。",
+     "The market was held in an old square."
+    ],
+    [
+     "直接原因",
+     "解释某个事件为何发生。",
+     "Rain damaged the stalls, so the market closed early."
+    ],
+    [
+     "措施",
+     "为处理问题采取的行动。",
+     "Organizers covered the stalls to protect goods."
+    ],
+    [
+     "实际结果",
+     "措施之后观察到的情况。",
+     "The covers protected most goods, but some got wet."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A neighborhood workshop occupied an old building. Its evening class moved to another room because the original room's lights had failed. Staff fitted new lights to bring the class back, but the replacement parts arrived late. The class remained in the other room for another week."
+    },
+    {
+     "box": "Why did the evening class move?\n1. The replacement parts arrived late.\n2. The original room lost its lighting.\n3. The building was too old for evening use.\n4. Staff fitted new lights in the room."
+    },
+    {
+     "p": "because the original room's lights had failed 直接说明迁移原因，对应第二项。第一项的零件迟到解释的是回迁推迟，不是第一次迁移。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "背景误作原因",
+     "The class moved because the building was old.",
+     "迁移直接由照明故障引起。"
+    ],
+    [
+     "因果颠倒",
+     "The lights failed because the class moved.",
+     "故障先于迁移。"
+    ],
+    [
+     "目的误作结果",
+     "The class returned immediately after lights were ordered.",
+     "装灯是为了回迁，零件迟到使回迁推迟。"
+    ],
+    [
+     "原因替换",
+     "Late parts caused the first move.",
+     "零件迟到影响的是回迁，不是第一次迁移。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "cause",
+    "result"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A gallery closed one room because water had entered through a window. Staff covered the window to prevent further damage, but the floor still needed to dry before reopening. The other rooms remained open while staff checked the affected area. Visitors could see the exhibits in those rooms as usual."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why did the gallery close the room?",
+       "options": [
+        "Water had come in through one of its windows.",
+        "Staff had covered the window to dry the floor.",
+        "Staff needed time to check the other rooms.",
+        "Its exhibits had moved to the other rooms."
+       ],
+       "answer": 0,
+       "why": "依据是 because water had entered through a window，即第一项。第二项把盖住窗户这项措施当成了关闭的原因。",
+       "point": "cause"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The bus was delayed. A delivery vehicle had blocked the road. The driver informed passengers so they could change their plans; several chose to wait. Once the vehicle had moved, the bus continued along its usual route. The driver announced the next stop before passengers got off."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What caused the delay?",
+       "options": [
+        "Several passengers changed their plans.",
+        "The driver informed the passengers.",
+        "A delivery vehicle obstructed the road.",
+        "The driver had changed the usual route."
+       ],
+       "answer": 2,
+       "why": "先说结果 The bus was delayed，再用 A delivery vehicle had blocked the road 交代原因，即第三项。",
+       "point": "cause"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A reading group moved its meeting earlier to help members catch the last bus. The change helped some members, but others could no longer arrive from work in time. The group discussed both problems at its next meeting. Members agreed to review the time again after hearing from those who had been absent."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What was an actual effect of the earlier meeting?",
+       "options": [
+        "Every member was able to catch the last bus.",
+        "Some members could not arrive from work on time.",
+        "Absent members asked to review the meeting time.",
+        "The group moved its meeting back to the later time."
+       ],
+       "answer": 1,
+       "why": "依据是 others could no longer arrive from work in time，这是提前开会后的实际结果，即第二项。第一项把 helped some members 扩大成了所有人。",
+       "point": "result"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Staff placed labels on the boxes to reduce sorting time. As a result, the team found requested items faster, although adding the labels took a morning. The labels described the contents of each box. Staff checked them against the items inside before putting the boxes back on their shelves."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What happened after staff labelled the boxes?",
+       "options": [
+        "Adding the labels took staff the whole week.",
+        "Staff no longer checked what each box held.",
+        "Sorting became slower because of the new labels.",
+        "The team found requested items more quickly."
+       ],
+       "answer": 3,
+       "why": "依据是 As a result, the team found requested items faster，即第四项。第一项把 took a morning 改成了一整周。",
+       "point": "result"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "cause",
+    "result"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A bicycle club kept its equipment in a shared shed. After several pumps were difficult to find, volunteers added a numbered shelf for each pump. Their aim was to make returns easier to check. At the next meeting the pumps were all on the right shelves, but some helmets were still mixed together. The volunteers later added helmet labels as well."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why did volunteers number the pump shelves?",
+       "options": [
+        "Some pumps had been difficult to locate.",
+        "All the helmets were already labelled.",
+        "The helmets were mixed together in the shed.",
+        "Pumps had been left on the helmet shelves."
+       ],
+       "answer": 0,
+       "why": "依据是 After several pumps were difficult to find，即第一项。第三项是下次会议时才发现的问题，后来引出的是头盔标签。",
+       "point": "cause"
+      },
+      {
+       "stem": "What was observed at the next meeting?",
+       "options": [
+        "The helmets were all on numbered shelves.",
+        "The pumps had been mixed with helmets.",
+        "The pumps were on their assigned shelves.",
+        "The helmet labels had been added already."
+       ],
+       "answer": 2,
+       "why": "the pumps were all on the right shelves 是下次会议时观察到的结果。",
+       "point": "result"
+      },
+      {
+       "stem": "What was the purpose of numbering the shelves?",
+       "options": [
+        "To separate helmets from new pumps",
+        "To make checking returned pumps easier",
+        "To show where helmets should be returned",
+        "To show which pumps were hard to find"
+       ],
+       "answer": 1,
+       "why": "Their aim was to make returns easier to check 明确给出措施的目的。",
+       "point": "result"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "cause",
+    "result"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the passage.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'd like to explain how a town adjusted its weekly food market. The market had used the same square for many years, and its stalls were normally arranged in two long rows. One spring, the eastern entrance had to close because work began on the pavement beside it. Visitors could still enter from the west, but the old layout made it difficult for them to reach several stalls at the far end. The market manager first asked sellers to move their tables closer together. She hoped this would leave a wider route through the middle. At the next market, however, the tables were so close that customers waiting at one stall blocked the neighboring stall. The manager then invited the sellers to try a different arrangement. They placed the tables around the edge of the square, leaving the center open. Volunteers also put a temporary sign near the western entrance to show where the food stalls had moved. The new arrangement allowed people to cross the square more easily. Some sellers still wanted the eastern entrance reopened, since it was closer to the bus stop. The pavement work finished several weeks later, but the sellers decided to keep the open center. They found it useful even after visitors could enter from both sides. The episode showed the difference between a planned improvement and its observed effect: moving tables closer was intended to improve movement, but the edge arrangement achieved that aim more successfully."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why did the eastern entrance close?",
+         "options": [
+          "Sellers moved their tables around the edge.",
+          "Visitors were entering only from the western side.",
+          "Work began on the pavement beside the entrance.",
+          "Sellers chose to keep the square's center open."
+         ],
+         "answer": 2,
+         "why": "依据是 because work began on the pavement beside it，即第三项。第二项是入口关闭之后的情况。",
+         "point": "cause"
+        },
+        {
+         "stem": "What was the manager's aim in moving tables closer?",
+         "options": [
+          "To reopen the eastern entrance immediately",
+          "To create a wider route through the center",
+          "To keep customers from blocking nearby stalls",
+          "To put all sellers at the edge of the square"
+         ],
+         "answer": 1,
+         "why": "She hoped this would leave a wider route through the middle 表明最初措施的目的。",
+         "point": "result"
+        },
+        {
+         "stem": "What resulted from the first change to the tables?",
+         "options": [
+          "Customers waiting at stalls obstructed nearby stalls.",
+          "Visitors crossed the open center of the square more easily.",
+          "Sellers reopened the entrance beside the bus stop.",
+          "A wider route opened through the middle of the market."
+         ],
+         "answer": 0,
+         "why": "依据是 customers waiting at one stall blocked the neighboring stall，这是桌子靠拢后的实际结果，即第一项。第四项是这项措施的目的，并没有实现。",
+         "point": "result"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the passage.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Today I'm describing a change made by a village mail service. The service collected letters from a small box outside the village hall every weekday. For years, one driver emptied the box on the way to the sorting office. Then the road beside the hall was closed for bridge repairs. The driver could still reach the hall by a longer route, but that made the rest of the collection round late. The service moved the box to a shop on the other side of the bridge. Its purpose was to keep the regular collection round on schedule. Staff posted a notice on the old box and asked the shop owner to display the new collection time. During the first week, the driver completed the round on time, but several residents left letters at the hall because they had not seen the notice. Staff therefore added a second notice at the hall entrance and included the temporary address in the village newsletter. The following week, fewer letters were left at the former location. Staff continued to check the old site each day during the repairs. The bridge repairs eventually ended, and the service returned the box to the hall. The shop owner suggested keeping a second box at the shop, but the service decided to review demand before making another change. The temporary move had solved the driver's scheduling problem, while the additional notices addressed a separate problem: making sure residents knew where to leave their letters."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why did the service move the collection box?",
+         "options": [
+          "The shop owner requested another permanent box.",
+          "Residents had stopped leaving letters at the hall.",
+          "The driver could no longer reach the hall.",
+          "The road closure delayed the collection round."
+         ],
+         "answer": 3,
+         "why": "依据是 the road beside the hall was closed 和 that made the rest of the collection round late，即第四项。第三项与 could still reach the hall by a longer route 相反。",
+         "point": "cause"
+        },
+        {
+         "stem": "What happened during the first week at the shop?",
+         "options": [
+          "The driver finished late despite the move.",
+          "Some residents still left letters at the hall.",
+          "The bridge reopened before collection began.",
+          "The service installed a second permanent box."
+         ],
+         "answer": 1,
+         "why": "several residents left letters at the hall 是迁移后第一周观察到的结果。",
+         "point": "result"
+        },
+        {
+         "stem": "Why did staff add a second notice at the hall?",
+         "options": [
+          "Some residents had missed the original notice.",
+          "The shop had stopped displaying collection times.",
+          "Fewer letters were being left at the hall.",
+          "The bridge repairs had already been completed."
+         ],
+         "answer": 0,
+         "why": "several residents … had not seen the notice 后的 therefore 引出增加通知的措施。",
+         "point": "cause"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,477 @@
+{
+ "id": "writing-connectors",
+ "title": "段内连接词",
+ "goal": "按句间关系选择连接表达；正确连接并标点相邻句子。",
+ "skill": "写作",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "logic",
+   "label": "按句间关系选择连接表达"
+  },
+  {
+   "id": "punctuation",
+   "label": "正确连接并标点相邻句子"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语四级（CET-4）：课表",
+   "url": "docs/syllabi/cet4.md",
+   "used": "写作部分本课的内容范围、知识点及教学材料规格"
+  },
+  {
+   "id": "c2",
+   "title": "C2 全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "依据所给研究文件中的写作语言与连贯性要求安排教学，不陈述考试事实"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "连接词表明两句之间的关系。先判断后句对前句是补充、对比、结果、举例，还是让步，再选连接词，并核对它要求的句法和标点。原文没有的因果或转折，不能靠连接词加上。"
+    },
+    {
+     "box": "The collection is easy to search. However, some older records still need clearer descriptions."
+    },
+    {
+     "p": "后句指出前句所说优点的不足，用 However。用 Therefore 就成了易检索导致记录不清，因果不成立。"
+    }
+   ]
+  },
+  {
+   "id": "addition-contrast",
+   "type": "table",
+   "title": "补充与转折",
+   "cols": [
+    "类别",
+    "表达",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "补充",
+     "in addition",
+     "补充一条同方向的信息。",
+     "The room has movable tables. In addition, it offers storage space for project materials."
+    ],
+    [
+     "补充",
+     "moreover",
+     "再加一条同方向的理由。",
+     "The archive is nearby. Moreover, it provides free access to documents needed for the project."
+    ],
+    [
+     "补充",
+     "furthermore",
+     "进一步补充，前后围绕同一论点。",
+     "The guide explains the procedure. Furthermore, it includes examples of correctly completed application forms."
+    ],
+    [
+     "补充",
+     "also",
+     "放在实义动词前、be 动词后，不能单独连接两句。",
+     "The center provides study rooms and also lends basic recording equipment to student groups."
+    ],
+    [
+     "转折",
+     "however",
+     "连接副词，前面用句号或分号。",
+     "The route is short. However, its uneven surface makes carrying heavy equipment difficult."
+    ],
+    [
+     "转折",
+     "but",
+     "并列连词，前面用逗号。",
+     "The route is short, but its uneven surface makes carrying heavy equipment difficult."
+    ],
+    [
+     "转折",
+     "in contrast",
+     "对比两个对象的差别。",
+     "The first draft lists facts. In contrast, the revised draft explains their practical implications."
+    ],
+    [
+     "转折",
+     "on the other hand",
+     "说明同一问题的另一面。",
+     "Shared equipment reduces costs. On the other hand, groups must coordinate their booking times."
+    ]
+   ]
+  },
+  {
+   "id": "cause-example",
+   "type": "table",
+   "title": "因果与举例",
+   "cols": [
+    "类别",
+    "表达",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "因果",
+     "because",
+     "从属连词，后接原因从句。",
+     "The volunteers postponed the outdoor display because the stands were still wet from rain."
+    ],
+    [
+     "因果",
+     "therefore",
+     "引出结果，前面用句号或分号，不能只用逗号。",
+     "The stands were still wet. Therefore, the volunteers postponed the outdoor display until tomorrow."
+    ],
+    [
+     "因果",
+     "as a result",
+     "引出结果，前句是原因。",
+     "The address was incomplete. As a result, the courier could not deliver the package."
+    ],
+    [
+     "因果",
+     "consequently",
+     "引出结果，前面用句号或分号。",
+     "The application lacked a signature. Consequently, the office returned it for correction this morning."
+    ],
+    [
+     "举例",
+     "for example",
+     "后接完整的例句，例子说明前面的概括。",
+     "Simple labels can prevent errors. For example, room numbers help visitors find the correct workshop."
+    ],
+    [
+     "举例",
+     "for instance",
+     "引出一个具体实例，用法同 for example。",
+     "Small changes can improve access. For instance, a lower counter may help seated visitors."
+    ],
+    [
+     "举例",
+     "such as",
+     "后接名词或动名词，用来列举，不连接两个句子。",
+     "The club lends basic equipment such as microphones and small speakers for student events."
+    ],
+    [
+     "举例",
+     "to illustrate",
+     "引出说明前句的例子，例子要具体。",
+     "Clear roles reduce duplication. To illustrate, one editor checks dates while another checks names."
+    ]
+   ]
+  },
+  {
+   "id": "concession",
+   "type": "table",
+   "title": "让步",
+   "cols": [
+    "表达",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "although",
+     "引出让步从句，主句前不再加 but。",
+     "Although the hall was small, the organizers found enough space for the planned displays."
+    ],
+    [
+     "even though",
+     "引出与预期相反的事实，语气比 although 强。",
+     "Even though the deadline was close, the team checked every source before submitting its report."
+    ],
+    [
+     "nevertheless",
+     "连接副词，承接前句的困难，前面用句号或分号。",
+     "The deadline was close. Nevertheless, the team checked every source before submitting its report."
+    ],
+    [
+     "despite",
+     "后接名词或动名词，不接完整的句子。",
+     "Despite the limited space, the organizers displayed all the selected photographs along the walls."
+    ]
+   ]
+  },
+  {
+   "id": "syntax",
+   "type": "table",
+   "title": "连接形式与句界",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "however 与 but",
+     "however 前用句号或分号，but 前用逗号。",
+     "The desk is old; however, it remains stable. The desk is old, but it remains stable."
+    ],
+    [
+     "therefore 与 because",
+     "therefore 引出结果句，because 引出原因从句。",
+     "The gate was locked; therefore, we used another entrance. We used another entrance because the gate was locked."
+    ],
+    [
+     "让步从句",
+     "although 从句在前时后加逗号，despite 后接名词短语。",
+     "Although the budget was limited, the exhibition opened. Despite the limited budget, the exhibition opened."
+    ],
+    [
+     "举例形式",
+     "for example 后接句子，such as 后列名词。",
+     "The course teaches practical skills. For example, students learn basic repairs such as fixing a loose handle."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The seminar offers several kinds of practice. ___, participants analyze a short interview and compare two summaries. The material is brief. ___, the discussion requires careful reading of each claim."
+    },
+    {
+     "p": "第一空后是练习的具体例子，填 For example 或 For instance。第二空前后的意思是材料虽短，仍要细读，填 However 或 Nevertheless。材料短不是细读的原因，不能填 Therefore。"
+    },
+    {
+     "box": "The material is brief; however, the discussion requires careful reading of each claim."
+    },
+    {
+     "p": "however 前用分号隔开两个独立句，后面加逗号。改用 but 时，写成 The material is brief, but the discussion requires careful reading of each claim。"
+    }
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "logic",
+    "punctuation"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Which expression introduces an additional benefit? The service stores files securely. ___, it makes them available from different rooms.",
+       "options": [
+        "In contrast",
+        "In addition",
+        "As a result",
+        "For example"
+       ],
+       "answer": 1,
+       "why": "题干要求补充一个好处，In addition 引出同方向的补充，即第二项。第三项把两个好处写成了因果。",
+       "point": "logic"
+      },
+      {
+       "stem": "Which expression introduces a concrete instance? Several objects can be reused. ___, old jars can hold small tools.",
+       "options": [
+        "Therefore",
+        "However",
+        "For instance",
+        "Moreover"
+       ],
+       "answer": 2,
+       "why": "old jars 是 objects 的具体实例，应使用 For instance。",
+       "point": "logic"
+      },
+      {
+       "stem": "Which version correctly connects two independent clauses with however?",
+       "options": [
+        "The plan is clear; however, its cost remains uncertain.",
+        "The plan is clear, however, its cost remains uncertain.",
+        "The plan is clear however its cost remains uncertain.",
+        "However the plan is clear, its cost remains uncertain."
+       ],
+       "answer": 0,
+       "why": "however 是连接副词，前面用分号隔开两个独立句，即第一项。第二项只用了逗号。",
+       "point": "punctuation"
+      },
+      {
+       "stem": "Which completion introduces a cause clause? The workshop moved indoors ___ the courtyard was unavailable.",
+       "options": [
+        "therefore",
+        "consequently",
+        "as a result",
+        "because"
+       ],
+       "answer": 3,
+       "why": "because 引出原因从句 the courtyard was unavailable，即第四项。其余三项都引出结果。",
+       "point": "punctuation"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "logic",
+    "punctuation"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A student exhibition was assigned a large room with narrow doors. The room had plenty of floor space, but the largest display could not pass through the entrance. The group therefore requested another room. Smaller displays could be carried inside without difficulty, so space alone was not the deciding issue.",
+     "items": [
+      {
+       "stem": "Choose from however / therefore / for example: The doors were too narrow. ___, the display could not be carried inside.",
+       "accept": [
+        "therefore"
+       ],
+       "why": "门太窄是原因，无法运入是结果，填 therefore。",
+       "point": "logic"
+      },
+      {
+       "stem": "Join the remaining advantage and the limitation with but.",
+       "lead": "The room had plenty of space",
+       "chunks": [
+        ", but",
+        "its narrow",
+        "doors prevented",
+        "delivery of"
+       ],
+       "tail": "the largest display.",
+       "extra": [
+        "however"
+       ],
+       "why": "but 连接两个独立分句，前面用逗号。however 前不能只用逗号。",
+       "point": "punctuation"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "logic",
+    "punctuation"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "The draft needs a specific example: Shared tools can support small repairs. ___, a screwdriver can tighten a loose drawer handle.",
+         "options": [
+          "For example",
+          "As a result",
+          "In contrast",
+          "In addition"
+         ],
+         "answer": 0,
+         "why": "a screwdriver 是 shared tools 的具体实例，填 For example，即第一项。",
+         "point": "logic"
+        },
+        {
+         "stem": "The draft states a contrast: The hall is large. ___, the storage cupboard holds very little equipment.",
+         "options": [
+          "Therefore",
+          "However",
+          "For instance",
+          "Moreover"
+         ],
+         "answer": 1,
+         "why": "大厅大，储物柜却装得很少，是转折关系，用 However，即第二项。",
+         "point": "logic"
+        },
+        {
+         "stem": "Which sentence uses therefore with a correct boundary between independent clauses?",
+         "options": [
+          "The access code changed, therefore, the old code no longer worked.",
+          "Therefore the access code changed, the old code no longer worked.",
+          "The access code changed; therefore, the old code no longer worked.",
+          "The access code changed therefore the old code no longer worked."
+         ],
+         "answer": 2,
+         "why": "therefore 是连接副词，第三项用分号分隔独立句，后接逗号。",
+         "point": "punctuation"
+        },
+        {
+         "stem": "Which version uses because to introduce the stated reason?",
+         "options": [
+          "The workshop was full, because, registration closed early.",
+          "Because the workshop was full, so registration closed early.",
+          "Registration closed early; because the workshop was full.",
+          "Registration closed early because the workshop was full."
+         ],
+         "answer": 3,
+         "why": "because 引出原因从句 the workshop was full，放在句末时前面不用分号，即第四项。第二项多用了 so。",
+         "point": "punctuation"
+        },
+        {
+         "stem": "Connect the advantage and limitation using but.",
+         "lead": "The cabinet was inexpensive",
+         "chunks": [
+          ", but",
+          "its limited",
+          "capacity restricted",
+          "the amount of"
+         ],
+         "tail": "equipment stored inside.",
+         "extra": [
+          "however"
+         ],
+         "why": "but 前加逗号，可以连接两个完整分句。however 前要用句号或分号。",
+         "point": "punctuation"
+        },
+        {
+         "stem": "Use therefore to introduce the result as a separate clause.",
+         "lead": "The labels were missing",
+         "chunks": [
+          "; therefore,",
+          "the staff",
+          "could not identify",
+          "the contents of"
+         ],
+         "tail": "the sealed boxes.",
+         "extra": [
+          "because"
+         ],
+         "why": "分号隔开两个独立句，therefore 引出无法识别的结果。because 引出的是原因，不能放在这里。",
+         "point": "punctuation"
+        },
+        {
+         "stem": "Choose from moreover / therefore / however: The map was outdated. ___, several visitors followed a route that no longer existed. Express the result.",
+         "accept": [
+          "therefore"
+         ],
+         "why": "地图过时，游客才走了不存在的路线。后句是结果，填 therefore。",
+         "point": "logic"
+        },
+        {
+         "stem": "Choose from although / because / if: ___ the task was demanding, the volunteers completed it as planned. Express concession.",
+         "accept": [
+          "although"
+         ],
+         "why": "题干要求表示让步。although 承认任务难，主句说明仍然按计划完成了。",
+         "point": "logic"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

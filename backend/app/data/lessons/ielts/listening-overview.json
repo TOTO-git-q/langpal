@@ -1,0 +1,281 @@
+{
+ "id": "listening-overview",
+ "title": "听力部分概览",
+ "goal": "区分听力材料、作答限制与计分方式。",
+ "skill": "听力",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "format",
+   "label": "区分四部分的材料和作答要求"
+  },
+  {
+   "id": "score",
+   "label": "说明题量、时间与计分方式"
+  }
+ ],
+ "sources": [
+  {
+   "id": "i1",
+   "title": "I1 IELTS Academic: Listening test format",
+   "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening",
+   "used": "四部分、题量、录音时长与遍数、题型及作答限制"
+  },
+  {
+   "id": "i5",
+   "title": "I5 IELTS scoring in detail",
+   "url": "https://www.ielts.org/take-a-test/your-results/ielts-scoring-in-detail",
+   "used": "每题计分、整数和半分分数段、换算门槛可能变化"
+  },
+  {
+   "id": "i10",
+   "title": "I10 Your guide to understanding and using IELTS scores",
+   "url": "https://cdn.ielts.org/ielts-guides/guide-to-ielts-scores-2025.pdf",
+   "used": "0—9 分数段及不设统一及格线"
+  },
+  {
+   "id": "syllabus",
+   "title": "雅思 IELTS Academic：课表",
+   "url": "docs/syllabi/ielts.md",
+   "used": "课程题形适配及教学通过率"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "facts",
+   "title": "概述",
+   "rows": [
+    {
+     "k": "材料",
+     "v": "依次为日常对话、日常独白、教育讨论、学术独白。",
+     "src": "I1 听力结构说明"
+    },
+    {
+     "k": "题量",
+     "v": "4 个部分，每部分 10 题，共 40 题。",
+     "src": "I1 听力结构说明"
+    },
+    {
+     "k": "录音",
+     "v": "约 30 分钟，录音播放 1 遍。",
+     "src": "I1 听力结构说明"
+    },
+    {
+     "k": "作答限制",
+     "v": "选择题按题面选出规定数量的选项。完成题按题面要求填原词、数字或词库选项。",
+     "src": "I1 听力题型说明"
+    },
+    {
+     "k": "原始分",
+     "v": "每个正确答案得 1 分；原始总分换算为整数或半分分数段。",
+     "src": "I5 听力计分说明"
+    },
+    {
+     "k": "分数段",
+     "v": "成绩用 0—9 分数段报告。考试不设统一及格线。原始分换算分数段的门槛随试卷略有变化。",
+     "src": "I10 分数使用指南；I5 计分说明"
+    }
+   ]
+  },
+  {
+   "id": "types",
+   "type": "table",
+   "title": "题型",
+   "cols": [
+    "类型",
+    "作答要求",
+    "例"
+   ],
+   "rows": [
+    [
+     "单项选择",
+     "考试为 3 选 1，考细节或主旨。",
+     "Which room has been booked?"
+    ],
+    [
+     "多项选择",
+     "按题面选出规定数量的选项，每一项都要在录音中有依据。",
+     "Choose TWO services included in the price."
+    ],
+    [
+     "配对",
+     "把录音中的各项对应到同一份选项。选项能否重复使用，看题面。",
+     "Match each activity with its location."
+    ],
+    [
+     "平面图、地图、图解标注",
+     "按图中位置找对应的名称，填原词或从所给名称中选。",
+     "Entrance: ___"
+    ],
+    [
+     "表单、笔记、表格、流程填空",
+     "用录音原词或所给词库补全信息，词数看题面。",
+     "Type of membership: ___"
+    ],
+    [
+     "句子填空",
+     "填入录音原词，意思和语法都要接得上原句。",
+     "The package includes ___."
+    ],
+    [
+     "简答",
+     "只写所问的信息，不抄整句。",
+     "What document is required?"
+    ]
+   ],
+   "src": "I1 听力题型说明"
+  },
+  {
+   "id": "contexts",
+   "type": "table",
+   "title": "四部分材料",
+   "cols": [
+    "部分",
+    "材料与信息",
+    "例"
+   ],
+   "rows": [
+    [
+     "Part 1",
+     "日常对话。把提问者的需求和对方确认的服务信息对应起来。",
+     "A visitor asks a receptionist about a room."
+    ],
+    [
+     "Part 2",
+     "日常独白。一名讲者介绍场所或活动安排。",
+     "A guide explains the facilities at a sports centre."
+    ],
+    [
+     "Part 3",
+     "教育讨论。区分各人的建议、理由和最后的决定。",
+     "A student and a tutor discuss a project."
+    ],
+    [
+     "Part 4",
+     "学术独白。区分概念、例子和结论。",
+     "A lecturer explains a method of studying soil."
+    ]
+   ],
+   "src": "I1 听力结构说明"
+  },
+  {
+   "id": "limits",
+   "type": "text",
+   "title": "作答限制与成绩",
+   "body": [
+    {
+     "p": "字数限制每题不同，以本题题面为准。填原词时保留原文的词形。词库题从所给选项中选。"
+    },
+    {
+     "box": "Write NO MORE THAN TWO WORDS.\nRequired document: ___\nRecording: Please bring a membership card.\nAnswer: membership card"
+    },
+    {
+     "p": "membership card 是两个词，符合上限。a membership card 是三个词，超出上限。只写 card 则缺了证件种类。表中已给出的单位不再写进空格。"
+    },
+    {
+     "p": "考试的单项选择是三选一，本课程用四选一练习。考试的多项选择，本课程改为从四个组合中选一个。课程录音最多用两个合成声音。这些是课程的练习形式，考试形式以官方说明为准。"
+    },
+    {
+     "p": "课程通过率只用来检查学习，不能换算成雅思分数段。课内正确率达到 0.8，也不对应某个分数段。原始分换算分数段的门槛随试卷略有变化。"
+    }
+   ],
+   "src": "I1 听力题型说明；I5 计分说明"
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 4,
+   "pass": 0.8,
+   "points": [
+    "format",
+    "score"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "Which sequence matches the four Listening parts?",
+         "options": [
+          "Everyday dialogue, everyday monologue, educational discussion, academic monologue",
+          "Everyday monologue, everyday dialogue, academic monologue, educational discussion",
+          "Educational discussion, academic monologue, everyday dialogue, everyday monologue",
+          "Academic monologue, educational discussion, everyday monologue, everyday dialogue"
+         ],
+         "answer": 0,
+         "why": "概述列出的顺序是日常对话、日常独白、教育讨论、学术独白，与第一项一致。",
+         "point": "format"
+        },
+        {
+         "stem": "How does official single-answer multiple choice differ from this course's adaptation?",
+         "options": [
+          "The official task has four options; the course has three.",
+          "The official task has three options; the course has four.",
+          "Both use three options for a single answer.",
+          "Both use four options for a single answer."
+         ],
+         "answer": 1,
+         "why": "依据：考试的单项选择是三选一，本课程用四选一练习。答案是第二项。",
+         "point": "format"
+        },
+        {
+         "stem": "A source-word task allows NO MORE THAN TWO WORDS. The recording says 'a membership card'. Which entry gives the required document within that limit?",
+         "options": [
+          "a membership card",
+          "a card",
+          "membership card",
+          "membership"
+         ],
+         "answer": 2,
+         "why": "membership card 是两个词，保留了证件种类，即第三项。第一项是三个词，超出上限。",
+         "point": "format"
+        },
+        {
+         "stem": "Which statement describes the Listening recordings?",
+         "options": [
+          "About 40 minutes, with each recording played once",
+          "About 30 minutes, with each recording played twice",
+          "About 10 minutes, with each recording played twice",
+          "About 30 minutes, with each recording played once"
+         ],
+         "answer": 3,
+         "why": "概述写明录音约 30 分钟，只放 1 遍，即第四项。第二项把播放次数说成了 2 遍。",
+         "point": "score"
+        },
+        {
+         "stem": "Which statement describes the raw score?",
+         "options": [
+          "Forty questions are worth one mark each when correct.",
+          "Ten questions are worth four marks each when correct.",
+          "Four parts are worth one raw mark each when completed.",
+          "Forty questions are converted directly into forty bands."
+         ],
+         "answer": 0,
+         "why": "概述写明共 40 题，每个正确答案得 1 分，即第一项。",
+         "point": "score"
+        },
+        {
+         "stem": "What follows from reaching this course's 0.8 threshold?",
+         "options": [
+          "It establishes a fixed official band for that raw percentage.",
+          "It meets a course target without establishing an official band.",
+          "It fixes the same raw-score boundary for every test version.",
+          "It establishes a universal IELTS pass mark of eight bands."
+         ],
+         "answer": 1,
+         "why": "课程通过率只用来检查学习，不对应雅思分数段，即第二项。",
+         "point": "score"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

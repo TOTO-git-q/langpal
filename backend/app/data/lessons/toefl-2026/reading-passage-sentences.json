@@ -1,0 +1,422 @@
+{
+ "id": "reading-passage-sentences",
+ "title": "长句分析",
+ "goal": "找出长句的主语和谓语；判断从句和短语修饰的对象。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "core",
+   "label": "找出长句的主语和谓语"
+  },
+  {
+   "id": "modifier",
+   "label": "判断从句和短语修饰的对象"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、计分、自适应"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明和官方样题（挖空规则是对照样题和答案看出来的）"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Reading Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-reading.pdf",
+   "used": "第 1 课：三类题的说明和需要的三项基本功"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "主干是主句的主语和谓语，加上必要的宾语或表语。分析时先分出主句和从句，再看各部分修饰谁。离谓语最近的名词常常不是主语。"
+    },
+    {
+     "box": "The report, which includes several maps, describes the route."
+    },
+    {
+     "p": "主句是 The report describes the route。which includes several maps 修饰 report。includes 是从句的谓语，主句的谓语是 describes。"
+    }
+   ]
+  },
+  {
+   "id": "clauses",
+   "type": "table",
+   "title": "主句与从句",
+   "cols": [
+    "类型",
+    "例句",
+    "步骤 1",
+    "步骤 2"
+   ],
+   "rows": [
+    [
+     "主语和谓语",
+     "The collection of instruments from several abandoned observatories, despite its uneven condition and incomplete labels, provides researchers with evidence about the methods used to measure the night sky.",
+     "暂时移开 of 短语与 despite 短语。",
+     "主语是 collection，不是 instruments；谓语是 provides。"
+    ],
+    [
+     "定语从句",
+     "The samples that the technician collected near the damaged pipe were placed in separate containers so that their contents could be compared without mixing material from different locations.",
+     "先找出从句 that ... pipe，它修饰 samples。",
+     "主句是 samples were placed，collected 是从句的谓语。"
+    ],
+    [
+     "名词性从句",
+     "The report explains why the early measurements differed from the later ones, although the same instrument was used throughout the entire series of observations in the laboratory.",
+     "why 引导 explains 的宾语从句。",
+     "主句是 report explains，why 从句是它的宾语。"
+    ],
+    [
+     "状语从句",
+     "Although the original road followed the edge of the hill, the new route crossed the open plain because engineers wanted to avoid several sharp turns near the village.",
+     "Although 引导让步，because 引导原因。",
+     "主句是 route crossed，两个从句分别交代让步和原因。"
+    ]
+   ]
+  },
+  {
+   "id": "phrases",
+   "type": "table",
+   "title": "短语与并列结构",
+   "cols": [
+    "类型",
+    "例句",
+    "步骤 1",
+    "步骤 2"
+   ],
+   "rows": [
+    [
+     "分词短语",
+     "Suspended from a frame above the workbench, the lamp illuminated the narrow opening in the wooden model without blocking the technician’s view of the moving parts inside.",
+     "Suspended ... workbench 表示 lamp 的悬挂状态。",
+     "主句是 lamp illuminated，谓语是 illuminated。"
+    ],
+    [
+     "插入语",
+     "The revised schedule, as the coordinator noted during the final planning meeting, allowed workers to inspect the equipment before visitors entered the building for the afternoon demonstration.",
+     "as ... meeting 是插入说明，暂时移开。",
+     "主句是 schedule allowed，noted 属于插入语。"
+    ],
+    [
+     "同位语",
+     "The central shaft, a metal rod that connects the upper wheel to the lower mechanism, transfers movement between the two sections of the machine during normal operation.",
+     "a metal rod ... mechanism 说明 shaft 是什么。",
+     "主句是 shaft transfers，同位语和 shaft 指同一个东西。"
+    ],
+    [
+     "并列结构",
+     "The survey team measured the width of each doorway, recorded the position of every window, and drew a plan showing how the rooms were connected inside the building.",
+     "measured、recorded、drew 由 and 并列。",
+     "三个谓语共用主语 team，showing 修饰 plan。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The diagrams prepared by the students, which showed each stage of the assembly process in detail, helped the instructor identify steps that required a clearer explanation before the workshop began."
+    },
+    {
+     "box": "What is the main clause?\n1. The students showed the process.\n2. The diagrams helped the instructor identify steps.\n3. The instructor prepared the diagrams.\n4. The workshop required an explanation."
+    },
+    {
+     "p": "步骤 1：主语中心词是 diagrams，prepared by the students 是后置分词短语。步骤 2：which showed ... detail 是修饰 diagrams 的定语从句。"
+    },
+    {
+     "p": "步骤 3：主句谓语是 helped，宾语是 the instructor，identify steps 说明帮助做什么。主干是 The diagrams helped the instructor identify steps，即第二项。that required ... explanation 修饰 steps，不属于主干。"
+    }
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "core",
+    "modifier"
+   ],
+   "groups": [
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "The equipment that arrived after the initial inspection required additional testing before the laboratory could use it to compare the performance of the newly designed materials.",
+     "items": [
+      {
+       "stem": "Which statement gives the main clause?",
+       "options": [
+        "The equipment arrived after the initial inspection.",
+        "The laboratory could use the equipment.",
+        "The equipment required additional testing.",
+        "The laboratory compared the newly designed materials."
+       ],
+       "answer": 2,
+       "why": "that arrived after the initial inspection 是修饰 equipment 的定语从句。主句主语是 equipment，谓语是 required，即第三项。",
+       "point": "core"
+      }
+     ]
+    },
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "Covered with a thin layer of protective wax, the wooden panel remained dry while the other objects on the shelf absorbed moisture from the surrounding air.",
+     "items": [
+      {
+       "stem": "What does “Covered with a thin layer of protective wax” describe?",
+       "options": [
+        "The wooden panel",
+        "The surrounding air",
+        "The other objects",
+        "The shelf"
+       ],
+       "answer": 0,
+       "why": "Covered ... wax 是分词短语，逻辑主语是主句主语 the wooden panel，说明木板的状态，即第一项。",
+       "point": "modifier"
+      }
+     ]
+    },
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "The statement that the results were preliminary reminded readers that further observations might change the interpretation presented in the first version of the technical report.",
+     "items": [
+      {
+       "stem": "Which statement expresses the main clause?",
+       "options": [
+        "The results were preliminary.",
+        "Further observations might change the interpretation.",
+        "The report presented the first interpretation.",
+        "The statement reminded readers of a qualification."
+       ],
+       "answer": 3,
+       "why": "主语是 The statement，谓语是 reminded。that the results were preliminary 说明 statement 的内容，即第四项。",
+       "point": "core"
+      }
+     ]
+    },
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "Although the fabric looked smooth from a distance, the enlarged image revealed small irregularities along its surface that were invisible under the room’s ordinary lighting.",
+     "items": [
+      {
+       "stem": "What does the clause beginning “Although” do?",
+       "options": [
+        "It identifies which small irregularities are visible.",
+        "It supplies a concession to the main statement.",
+        "It states the content of the enlarged image.",
+        "It gives the reason the image was enlarged."
+       ],
+       "answer": 1,
+       "why": "Although the fabric looked smooth 与主句的 revealed small irregularities 意思相对，是让步，即第二项。",
+       "point": "modifier"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "core",
+    "modifier"
+   ],
+   "groups": [
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "The research vessel, a small ship equipped for coastal observations, carried instruments that could record changes in water temperature. Before the crew left the harbor, the captain checked the route and reviewed the planned stopping points. Stored in padded containers, the instruments remained secure during the short voyage.",
+     "items": [
+      {
+       "stem": "What is the main clause of the first sentence?",
+       "options": [
+        "The research vessel carried instruments.",
+        "The ship was equipped for coastal observations.",
+        "The instruments could record water temperature.",
+        "The research vessel was a small ship."
+       ],
+       "answer": 0,
+       "why": "a small ship equipped for coastal observations 是同位语，that could record ... 是定语从句。主句是 vessel carried instruments，即第一项。",
+       "point": "core"
+      },
+      {
+       "stem": "What does “Stored in padded containers” describe?",
+       "options": [
+        "The planned stopping points",
+        "The instruments on board",
+        "The captain checking the route",
+        "The padded containers"
+       ],
+       "answer": 1,
+       "why": "Stored in padded containers 的逻辑主语是主句主语 the instruments，表示仪器存放的状态，即第二项。",
+       "point": "modifier"
+      },
+      {
+       "stem": "How are “checked” and “reviewed” related?",
+       "options": [
+        "They belong to two clauses with different subjects.",
+        "They share the subject crew from the Before clause.",
+        "They are coordinated predicates with the same subject.",
+        "The second verb modifies the planned stopping points."
+       ],
+       "answer": 2,
+       "why": "the captain checked the route and reviewed the planned stopping points 中，两个谓语由 and 并列，共用主语 captain，即第三项。",
+       "point": "core"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "core",
+    "modifier"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Read the passage.",
+       "look": "passage",
+       "text": "The sculpture that stood beside the entrance for many years was moved to a sheltered courtyard after conservators discovered cracks along the base of its supporting column.",
+       "items": [
+        {
+         "stem": "Which statement gives the sentence’s main clause?",
+         "options": [
+          "The sculpture stood beside the entrance.",
+          "Conservators discovered cracks along the base.",
+          "The sculpture was moved to another location.",
+          "The cracks were along the supporting column."
+         ],
+         "answer": 2,
+         "why": "that stood beside the entrance for many years 是定语从句，after 从句交代时间。主句是 sculpture was moved，即第三项。",
+         "point": "core"
+        }
+       ]
+      },
+      {
+       "label": "Read the passage.",
+       "look": "passage",
+       "text": "The revised index, an alphabetical list of technical terms used throughout the handbook, enabled readers to locate descriptions of unfamiliar tools without examining every chapter separately.",
+       "items": [
+        {
+         "stem": "What does “an alphabetical list of technical terms used throughout the handbook” identify?",
+         "options": [
+          "The revised index",
+          "The unfamiliar tools",
+          "The separate chapters",
+          "The handbook"
+         ],
+         "answer": 0,
+         "why": "这个名词短语紧跟 The revised index，是它的同位语，说明索引是什么，即第一项。",
+         "point": "modifier"
+        }
+       ]
+      },
+      {
+       "label": "Read the passage.",
+       "look": "passage",
+       "text": "Although the early drawings omitted several internal supports, the final model included those structures and represented their positions accurately enough for the builders to compare alternative arrangements.",
+       "items": [
+        {
+         "stem": "Which statement expresses the coordinated main predicates?",
+         "options": [
+          "The drawings omitted several internal supports.",
+          "The builders compared alternative arrangements.",
+          "The final model omitted supports and represented their positions.",
+          "The model included the supports and showed their positions."
+         ],
+         "answer": 3,
+         "why": "主句主语是 the final model，included 与 represented 由 and 并列，即第四项。omitted 在 Although 从句里，不是主句的谓语。",
+         "point": "core"
+        }
+       ]
+      },
+      {
+       "label": "Read the passage.",
+       "look": "passage",
+       "text": "The markings left by repeated contact with the metal clamp helped the investigator distinguish parts that had been attached firmly from parts that had remained loose.",
+       "items": [
+        {
+         "stem": "What does “left by repeated contact with the metal clamp” modify?",
+         "options": [
+          "The loose parts",
+          "The markings",
+          "The investigator",
+          "The clamp"
+         ],
+         "answer": 1,
+         "why": "left by repeated contact with the metal clamp 是过去分词短语，紧跟并修饰 markings，即第二项。",
+         "point": "modifier"
+        }
+       ]
+      },
+      {
+       "label": "Read the passage.",
+       "look": "passage",
+       "text": "The analyst’s conclusion that the two recordings came from different rooms depended on differences in background noise rather than on the words spoken by the people being recorded.",
+       "items": [
+        {
+         "stem": "Which statement captures the main subject and predicate?",
+         "options": [
+          "The two recordings came from different rooms.",
+          "The people being recorded spoke the words.",
+          "The conclusion depended on background noise.",
+          "The analyst concluded that the rooms were different."
+         ],
+         "answer": 2,
+         "why": "主语是 conclusion，谓语是 depended。that the two recordings came from different rooms 说明结论的内容，即第三项。",
+         "point": "core"
+        }
+       ]
+      },
+      {
+       "label": "Read the passage.",
+       "look": "passage",
+       "text": "The jars that remained sealed throughout the experiment contained liquid that was clearer than the liquid in the open containers, even though all containers began with the same mixture.",
+       "items": [
+        {
+         "stem": "What does “that remained sealed throughout the experiment” modify?",
+         "options": [
+          "The same mixture",
+          "The jars",
+          "The clearer liquid",
+          "The open containers"
+         ],
+         "answer": 1,
+         "why": "that remained sealed throughout the experiment 紧跟 jars，说明是哪些罐，即第二项。后一个 that 从句修饰 liquid。",
+         "point": "modifier"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

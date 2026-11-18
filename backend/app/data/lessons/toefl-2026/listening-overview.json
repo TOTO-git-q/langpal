@@ -1,0 +1,255 @@
+{
+ "id": "listening-overview",
+ "title": "听力部分概览：题型、题量、时间",
+ "goal": "说出听力题型、题量、时间与计分方式，并区分考试规则和本课程的作答建议。",
+ "skill": "listening",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 听力",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "format",
+   "label": "说出四类题的任务、题量和材料长度"
+  },
+  {
+   "id": "pace",
+   "label": "按题型安排听和答的节奏"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、录音长度、只放一遍"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "各题型的说明、考查的能力、官方样题"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Listening Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-listening.pdf",
+   "used": "第 1 课：四类题的说明和小测答案；第 2、4 课：应答配对、重音和语调"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "facts",
+   "title": "概述",
+   "rows": [
+    {
+     "k": "题量",
+     "v": "听力共 47 题，其中有不计分的题。各题型的题数随所考的模块而定。",
+     "src": "spec 第 2–3 页"
+    },
+    {
+     "k": "时间与阶段",
+     "v": "听力分两个阶段，第二阶段的难度按第一阶段的表现确定。第一阶段约 18 分钟，第二阶段约 7 或 11 分钟，合计约 25 或 29 分钟。",
+     "src": "spec 第 2–3 页"
+    },
+    {
+     "k": "播放",
+     "v": "每段录音只播放 1 遍。应答题听到的那句话不在屏幕上显示。",
+     "src": "spec 第 12 页；overview 第 8 页"
+    },
+    {
+     "k": "计分",
+     "v": "计分题每题最高 1 分。成绩报告上的分数不是答对的题数。",
+     "src": "spec 第 13 页；overview 第 21 页"
+    },
+    {
+     "k": "分数段",
+     "v": "听力成绩用 1–6 分表示，以 0.5 分为间隔。",
+     "src": "overview 第 21 页"
+    }
+   ]
+  },
+  {
+   "id": "types",
+   "type": "table",
+   "title": "题型",
+   "cols": [
+    "类型",
+    "材料与任务",
+    "题量"
+   ],
+   "rows": [
+    [
+     "Listen and Choose a Response",
+     "听简短问句或陈述句，从 4 个书面回应中选出最合适的一项。",
+     "15–19 题"
+    ],
+    [
+     "Listen to a Conversation",
+     "听两人的短对话，每段 2 题，问细节、意图或推断。",
+     "10 题"
+    ],
+    [
+     "Listen to an Announcement",
+     "听约 40–85 词的学术场景通知，每条 2 题，问主旨、细节等。",
+     "6–10 题"
+    ],
+    [
+     "Listen to an Academic Talk",
+     "听约 100–250 词的学术短讲，每段 4 题，问主旨、细节、结构或推断。",
+     "8–16 题"
+    ]
+   ],
+   "src": "spec 第 5 页；overview 第 8–12 页；lessonplan 第 8 页",
+   "note": "表中的题量是各题型的范围，各行上限相加不是总题量。官方没有规定短对话的词数。"
+  },
+  {
+   "id": "score",
+   "type": "text",
+   "title": "计分与分数段",
+   "body": [
+    {
+     "p": "成绩报告用 1–6 分，每档相差 0.5 分。例如，4 和 4.5 都是可能的听力分数。0.5 是分数档的间隔，单题没有 0.5 分。"
+    },
+    {
+     "p": "CEFR 对应关系为：1–1.5 对应 A1，2–2.5 对应 A2，3–3.5 对应 B1，4–4.5 对应 B2，5–5.5 对应 C1，6 对应 C2。例如，听力 4.5 对应 B2。"
+    },
+    {
+     "p": "听力的总时间是两个阶段相加：18 分钟加 7 分钟约 25 分钟，18 分钟加 11 分钟约 29 分钟。18 分钟只是第一阶段。"
+    }
+   ],
+   "src": "spec 第 2–3、13 页；overview 第 21 页"
+  },
+  {
+   "id": "pace",
+   "type": "table",
+   "title": "作答节奏",
+   "cols": [
+    "类型",
+    "听与答的顺序",
+    "例"
+   ],
+   "rows": [
+    [
+     "应答题",
+     "先判断这句话的功能，再比较回应。短句不必逐字记。",
+     "Where is the repair desk? → 地点信息"
+    ],
+    [
+     "对话",
+     "依次记下目的、困难、方案和决定。被否定的方案不是结论。",
+     "The morning slot is full. I'll take the afternoon one. → 下午"
+    ],
+    [
+     "通知",
+     "先确定通知的事项，再记下有关的时间、地点和要求。",
+     "Collect the helmets at the east gate before noon. → 物品、地点、期限"
+    ],
+    [
+     "短讲",
+     "记概念和它的解释、例子、转折，不抄整句。",
+     "A pulley changes the direction of a pulling force. → 定义"
+    ],
+    [
+     "录音结束后",
+     "按题干回想所需的信息，再比较选项。录音不会重播。",
+     "What must visitors bring? → 核对物品要求"
+    ]
+   ],
+   "note": "以上为本课程的建议，不是官方规定"
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 4,
+   "pass": 0.8,
+   "points": [
+    "format",
+    "pace"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "What does Listen and Choose a Response require?",
+         "options": [
+          "Selecting a written reply to a spoken utterance",
+          "Selecting the main idea of a short academic talk",
+          "Answering two questions about a conversation",
+          "Answering two questions about an announcement"
+         ],
+         "answer": 0,
+         "why": "Listen and Choose a Response 是听一句话，再选出书面的回应，即第一项。其余三项是另外三类题的任务。",
+         "point": "format"
+        },
+        {
+         "stem": "Which description matches an announcement task?",
+         "options": [
+          "A two-speaker campus exchange followed by two questions",
+          "A short utterance with four written replies",
+          "An academic-context message of about 40–85 words",
+          "An academic talk of about 100–250 words with four questions"
+         ],
+         "answer": 2,
+         "why": "Listen to an Announcement 的材料是学术场景的通知，约 40–85 词，即第三项。",
+         "point": "format"
+        },
+        {
+         "stem": "Which statement correctly describes listening timing?",
+         "options": [
+          "The entire section lasts about 18 minutes, including both stages.",
+          "The first stage lasts 18 minutes, followed by 7 or 11.",
+          "The first stage lasts 7 minutes, followed by 11 or 18.",
+          "The entire section lasts either 7 or 11 minutes."
+         ],
+         "answer": 1,
+         "why": "规格中第一阶段约 18 分钟，第二阶段约 7 或 11 分钟，即第二项。第一项把 18 分钟当成了两个阶段的总时间。",
+         "point": "format"
+        },
+        {
+         "stem": "Which statement correctly describes listening scoring?",
+         "options": [
+          "Every one of the 47 items, scored or not, adds one raw point.",
+          "The reported band score equals the number of items correct.",
+          "Each scored item is worth up to six raw points.",
+          "Scored items earn up to one point; bands run from 1 to 6."
+         ],
+         "answer": 3,
+         "why": "计分题每题最高 1 分，成绩报告的分数为 1–6，即第四项。47 题中有不计分的题，所以第一项不对。",
+         "point": "format"
+        },
+        {
+         "stem": "Which sequence follows the course advice for response items?",
+         "options": [
+          "Identify the function, then compare possible replies.",
+          "Write the whole utterance, then identify its function.",
+          "Compare repeated words, then choose the closest wording.",
+          "Wait for another playback, then compare possible replies."
+         ],
+         "answer": 0,
+         "why": "本课的建议是先判断这句话的功能，再比较回应，即第一项。例如 Where is the repair desk? 要的是地点。",
+         "point": "pace"
+        },
+        {
+         "stem": "Which note best follows the course advice for announcements?",
+         "options": [
+          "The complete wording of every sentence in the announcement",
+          "The event, relevant time, location, and required action",
+          "Only the times and numbers mentioned in it",
+          "Only the location where the event will be held"
+         ],
+         "answer": 1,
+         "why": "通知要先确定事项，再记有关的时间、地点和要求，即第二项。例：Collect the helmets at the east gate before noon。",
+         "point": "pace"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

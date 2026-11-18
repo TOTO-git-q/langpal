@@ -1,0 +1,609 @@
+{
+ "id": "listening-conversation-linking",
+ "title": "缩约与连续语流",
+ "goal": "还原常见缩约形式并辨认连续语流中的词界。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "contraction",
+   "label": "还原常见缩约表达"
+  },
+  {
+   "id": "boundary",
+   "label": "从连续语流中辨认词界"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "长对话材料的教学依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "口语里，代词和后面的助动词常缩约，助动词和 not 也常缩约，如 I'm、isn't。前一个词以辅音结尾、后一个词以元音开头时，两个词常连在一起读。"
+    },
+    {
+     "box": "I'm ready. = I am ready.\nPick it up. → pick / it / up"
+    },
+    {
+     "p": "I'm 还原为 I am。pick it up 读起来像一个词：pick 的 k 连着 it，it 的 t 连着 up。词界按完整的词和上下文来分。"
+    }
+   ]
+  },
+  {
+   "id": "contractions",
+   "type": "table",
+   "title": "缩约与完整形式",
+   "cols": [
+    "缩约",
+    "完整形式",
+    "例"
+   ],
+   "rows": [
+    [
+     "I'm",
+     "I am",
+     "I'm waiting outside. = I am waiting outside."
+    ],
+    [
+     "I've",
+     "I have",
+     "I've finished the list. = I have finished the list."
+    ],
+    [
+     "I'd",
+     "I would 或 I had",
+     "I'd like tea. = I would like tea. / I'd left. = I had left."
+    ],
+    [
+     "we'll",
+     "we will",
+     "We'll call later. = We will call later."
+    ],
+    [
+     "isn't",
+     "is not",
+     "The room isn't free. = The room is not free."
+    ],
+    [
+     "didn't",
+     "did not",
+     "They didn't wait. = They did not wait."
+    ]
+   ],
+   "note": "I'd 是 would 还是 had，看后面的动词。I'd like 中是 would，I'd left 中是 had。"
+  },
+  {
+   "id": "boundaries",
+   "type": "table",
+   "title": "辅音与元音词界",
+   "cols": [
+    "词界",
+    "完整表达",
+    "语境"
+   ],
+   "rows": [
+    [
+     "pick / it / up",
+     "Pick it up.",
+     "A: The note fell. B: I'll pick it up."
+    ],
+    [
+     "turn / it / off",
+     "Turn it off.",
+     "A: The light is on. B: I'll turn it off."
+    ],
+    [
+     "put / it / away",
+     "Put it away.",
+     "A: The map is on the desk. B: I'll put it away."
+    ],
+    [
+     "take / it / out",
+     "Take it out.",
+     "A: The key is in the box. B: I'll take it out."
+    ],
+    [
+     "write / it / on",
+     "Write it on the card.",
+     "A: Where should I put the number? B: Write it on the card."
+    ],
+    [
+     "leave / it / at",
+     "Leave it at the desk.",
+     "A: Where should I put the bag? B: Leave it at the desk."
+    ],
+    [
+     "send / it / over",
+     "Send it over.",
+     "A: I have the file. B: Please send it over."
+    ],
+    [
+     "bring / it / in",
+     "Bring it in.",
+     "A: The parcel is outside. B: Please bring it in."
+    ]
+   ],
+   "note": "连读时词与词之间没有停顿，写下来仍是分开的词。听到后用整句的意思核对。"
+  },
+  {
+   "id": "example",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A: The form is on the floor.\nB: I'll pick it up and leave it on the desk.\nA: Is the form for the room booking?\nB: Yes, the booking details are on it.\nA: Please put it beside the blue folder.\nB: Is that the folder near the lamp?\nA: Yes. The staff will collect both later.\nB: I'll put the form there now."
+    },
+    {
+     "box": "What does B say?\n1. I'll pick it up and leave it on the desk.\n2. I'll pick it up and leave it by the desk.\n3. I'll pick them up and leave them on the desk.\n4. I'll pick it out and leave it on the desk."
+    },
+    {
+     "p": "pick it up 分成 pick / it / up，it 指地上的表格。第一项与录音一致：捡起表格，放到桌上。第四项把连读的 it up 听成了 it out。"
+    }
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "contraction",
+    "boundary"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Are you ready to leave?"
+       },
+       {
+        "who": "B",
+        "text": "I'm ready now."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which sentence has the same meaning as the second speaker's reply?",
+       "options": [
+        "I am ready now.",
+        "I was ready.",
+        "I have been ready before.",
+        "I will be ready later."
+       ],
+       "answer": 0,
+       "why": "I'm 是 I am 的缩约，第一项保留现在的状态。",
+       "point": "contraction"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Have you sent the invitation?"
+       },
+       {
+        "who": "B",
+        "text": "I've sent it already."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which sentence expands the second speaker's reply?",
+       "options": [
+        "I am sending it now.",
+        "I will send it later.",
+        "I have sent it already.",
+        "I had sent it earlier."
+       ],
+       "answer": 2,
+       "why": "I've 是 I have 的缩约，第三项还原了完整形式。",
+       "point": "contraction"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The lamp is still on."
+       },
+       {
+        "who": "B",
+        "text": "I'll turn it off."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What does the second speaker say?",
+       "options": [
+        "I'll turn it on.",
+        "I'll turn it off.",
+        "I'll turn them off.",
+        "I've turned it off."
+       ],
+       "answer": 1,
+       "why": "录音是 I'll turn it off，分成 turn / it / off，第二项与录音一致。第一项把 off 换成了 on。",
+       "point": "boundary"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The box contains the key."
+       },
+       {
+        "who": "B",
+        "text": "I'll take it out."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What does the second speaker say?",
+       "options": [
+        "I'll take them out.",
+        "I'll take it off.",
+        "I'd take it out.",
+        "I'll take it out."
+       ],
+       "answer": 3,
+       "why": "录音是 I'll take it out，分成 take / it / out，第四项与录音一致。第二项把 it out 换成了 it off。",
+       "point": "boundary"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "contraction",
+    "boundary"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The meeting room isn't open yet."
+       },
+       {
+        "who": "B",
+        "text": "I've checked the schedule. We'll need to wait until ten."
+       },
+       {
+        "who": "A",
+        "text": "The schedule is on the floor."
+       },
+       {
+        "who": "B",
+        "text": "I'll pick it up."
+       },
+       {
+        "who": "A",
+        "text": "Please leave it at the desk."
+       },
+       {
+        "who": "B",
+        "text": "All right. Do we need the projector?"
+       },
+       {
+        "who": "A",
+        "text": "Yes, and it's in the cupboard."
+       },
+       {
+        "who": "B",
+        "text": "I'll take it out when the room opens."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which sentence expands the second speaker's statement about the schedule?",
+       "options": [
+        "I am checking the schedule.",
+        "I had checked the schedule.",
+        "I have checked the schedule.",
+        "I will check the schedule."
+       ],
+       "answer": 2,
+       "why": "I've checked 是 I have checked 的缩约，即第三项。",
+       "point": "contraction"
+      },
+      {
+       "stem": "What does the first speaker ask B to do with the schedule?",
+       "options": [
+        "Leave it at the desk",
+        "Leave it on the floor",
+        "Pick it up later",
+        "Take it out of the cupboard"
+       ],
+       "answer": 0,
+       "why": "录音是 Please leave it at the desk，分成 leave / it / at，即第一项。第二项的 floor 是表格原来的位置。",
+       "point": "boundary"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "contraction",
+    "boundary"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Can you stay for tea?"
+         },
+         {
+          "who": "B",
+          "text": "I'd like to stay."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which sentence expands the second speaker's reply?",
+         "options": [
+          "I had stayed for tea.",
+          "I would like to stay.",
+          "I have stayed for tea.",
+          "I am staying for tea."
+         ],
+         "answer": 1,
+         "why": "I'd like 中的 I'd 是 I would，第二项是完整形式。",
+         "point": "contraction"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "When did you leave the hall?"
+         },
+         {
+          "who": "B",
+          "text": "I'd left before the rain began."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which sentence expands the second speaker's reply?",
+         "options": [
+          "I would leave before the rain began.",
+          "I am leaving before the rain begins.",
+          "I will leave before it rains.",
+          "I had left before the rain began."
+         ],
+         "answer": 3,
+         "why": "I'd left 中的 I'd 是 I had，第四项保留了过去完成的动作。",
+         "point": "contraction"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Is the room free?"
+         },
+         {
+          "who": "B",
+          "text": "It isn't free today."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which sentence expands the second speaker's reply?",
+         "options": [
+          "It is not free today.",
+          "It was not free yesterday.",
+          "It will be free today.",
+          "It has been free today."
+         ],
+         "answer": 0,
+         "why": "Isn't 是 is not 的缩约，第一项还原当前状态。",
+         "point": "contraction"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Did the visitors wait?"
+         },
+         {
+          "who": "B",
+          "text": "They didn't wait."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which sentence expands the second speaker's reply?",
+         "options": [
+          "They do not wait here.",
+          "They will not wait here.",
+          "They did not wait.",
+          "They had not waited."
+         ],
+         "answer": 2,
+         "why": "Didn't 是 did not 的缩约，第三项保留过去时。",
+         "point": "contraction"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The note fell beside the chair."
+         },
+         {
+          "who": "B",
+          "text": "I'll pick it up."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What does the second speaker say?",
+         "options": [
+          "I'll pick them up.",
+          "I'll pick it out.",
+          "I'd pick it up.",
+          "I'll pick it up."
+         ],
+         "answer": 3,
+         "why": "录音是 I'll pick it up，分成 pick / it / up，第四项与录音一致。第二项把 it up 听成了 it out。",
+         "point": "boundary"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The map is on the desk."
+         },
+         {
+          "who": "B",
+          "text": "I'll put it away."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What does the second speaker say?",
+         "options": [
+          "I'll put it away.",
+          "I'll put them away.",
+          "I'll put it down.",
+          "I've put it away."
+         ],
+         "answer": 0,
+         "why": "录音是 I'll put it away，分成 put / it / away，第一项与录音一致。第四项把 I'll 换成了 I've。",
+         "point": "boundary"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Where should I put the number?"
+         },
+         {
+          "who": "B",
+          "text": "Write it on the card."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What does the second speaker say?",
+         "options": [
+          "Write it in the card.",
+          "Write them on the card.",
+          "Write it on the card.",
+          "Right, it's on the card."
+         ],
+         "answer": 2,
+         "why": "录音是 Write it on the card，分成 write / it / on，第三项与录音一致。第四项 Right, it's on 读音相近，但意思是号码已经在卡上。",
+         "point": "boundary"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I have the file ready."
+         },
+         {
+          "who": "B",
+          "text": "Please send it over."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What does the second speaker say?",
+         "options": [
+          "Please send it later.",
+          "Please send it over.",
+          "Please send them over.",
+          "Please hand it over."
+         ],
+         "answer": 1,
+         "why": "录音是 Please send it over，分成 send / it / over，第二项与录音一致。第四项把 send 换成了 hand。",
+         "point": "boundary"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

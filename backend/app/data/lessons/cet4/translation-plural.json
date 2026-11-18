@@ -1,0 +1,71 @@
+{
+ "id": "translation-plural",
+ "title": "汉语数量与英语名词形式",
+ "goal": "能根据语境判断名词的可数性，并选择符合数量的形式。",
+ "skill": "翻译",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "count", "label": "判断原文名词在语境中的可数性"},
+  {"id": "form", "label": "选择符合数量含义的名词形式"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译教学所依据的大纲"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "汉语名词的形式通常不随数量改变。英语要根据名词的可数性和语境中的数量选择形式。"},
+   {"box": "原文：游客在展厅里参观了三件传统工艺品。\n译文：Visitors viewed three traditional crafts in the exhibition hall."},
+   {"p": "three 后用复数 crafts。汉语没有复数词尾，译成英语时要用复数表示多个。"}
+  ]},
+  {"id": "countable", "type": "table", "title": "可数名词", "cols": ["名词", "中文义", "例句"], "rows": [
+   ["facility", "设施", "The park has two facilities for visitors."],
+   ["visitor", "游客", "Visitors use the path beside the lake."],
+   ["tradition", "传统", "Local traditions include making paper lanterns."],
+   ["building", "建筑", "The village has three old buildings."],
+   ["garden", "花园", "A garden stands beside the library."],
+   ["museum", "博物馆", "The city has several museums."],
+   ["craft", "工艺品", "The exhibition includes handmade crafts."],
+   ["festival", "节日", "The community celebrates a local festival."]
+  ]},
+  {"id": "uncountable", "type": "table", "title": "不可数名词", "cols": ["名词", "中文义", "例句"], "rows": [
+   ["information", "信息", "The guide provides information about the site."],
+   ["advice", "建议", "The guide gives visitors useful advice."],
+   ["equipment", "设备", "The museum bought new equipment."],
+   ["furniture", "家具", "The room contains wooden furniture."],
+   ["water", "水", "Water flows through the channel."],
+   ["wood", "木材", "The craftsperson uses local wood."],
+   ["rice", "大米", "Farmers grow rice in the valley."],
+   ["tea", "茶叶", "The shop sells tea from the hills."]
+  ]},
+  {"id": "quantity", "type": "table", "title": "数量与量词", "cols": ["情况", "原文", "译文与说明"], "rows": [
+   ["复数泛称", "游客通常沿着湖边步道参观这座公园。", "Visitors usually tour the park along the lakeside path. visitors 泛指游客。"],
+   ["明确数量", "这个村庄保存着两座历史悠久的石桥。", "The village preserves two historic stone bridges. two 后接复数。"],
+   ["一般物质", "工匠使用木材制作适合日常使用的器具。", "Craftspeople use wood to make objects for daily use. wood 表示木材。"],
+   ["量词", "展板上提供了一条关于古桥的信息。", "The panel provides a piece of information about the old bridge. piece 表示一条。"],
+   ["多个单位", "工作人员搬进了三件新的家具。", "Staff moved in three pieces of new furniture. pieces 表示三件。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "原文：工作人员为游客提供了两条有用的信息。\n1. Staff provided visitors with two useful informations.\n2. Staff provided visitors with two pieces of useful information.\n3. Staff provided visitors with a piece of useful information.\n4. Staff provided visitors with two useful pieces of equipment."},
+   {"p": "information 不可数。第二项用 two pieces of 保留两条这一数量。"}
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["count", "form"], "groups": [{"items": [
+   {"stem": "原文：导览图为游客提供有关展馆的信息。Which noun is uncountable in the translation?", "options": ["information", "visitors", "maps", "halls"], "answer": 0, "why": "information 表示信息，通常不可数。", "point": "count"},
+   {"stem": "原文：公园新建了三座供游客休息的亭子。Which phrase preserves the number?", "options": ["three new pavilion", "three new pavilions", "a new pavilion", "three new pieces of pavilion"], "answer": 1, "why": "three 后接可数名词复数 pavilions。", "point": "form"},
+   {"stem": "原文：工匠使用木材制作小型家具。Which translation treats the material as uncountable?", "options": ["Craftspeople use a wood to make small furniture.", "Craftspeople use woods to make a small furniture.", "Craftspeople use wood to make small furniture.", "Craftspeople use two woods to make small furnitures."], "answer": 2, "why": "wood 表示木材，furniture 表示家具，均用不可数形式。", "point": "count"},
+   {"stem": "原文：工作人员为展室添置了两件新家具。Which phrase expresses the quantity?", "options": ["two new furnitures", "a new piece of furniture", "two new items of equipment", "two pieces of new furniture"], "answer": 3, "why": "two pieces of 表示两件，furniture 保持不可数形式。", "point": "form"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["count", "form"], "groups": [{"text": "原文：村里的小展馆收藏传统工艺品。展馆有两间展室，还为游客提供关于工艺的信息。", "items": [
+   {"stem": "Which phrase translates 两间展室?", "options": ["two exhibition rooms", "an exhibition room", "two exhibition room", "two pieces of exhibition room"], "answer": 0, "why": "两间用 two 修饰复数 rooms。", "point": "form"},
+   {"stem": "Which phrase expresses the information provided?", "options": ["informations about the crafts", "information about the crafts", "information about the rooms", "an information about the crafts"], "answer": 1, "why": "原文是关于工艺的信息。information 不可数，不加 -s，前面也不用 an，即第二项。", "point": "count"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["count", "form"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "原文：工作人员提供了有关村庄的实用信息。Which phrase expresses the information naturally?", "options": ["useful information about the village", "a useful information about the village", "useful informations about the village", "useful information about the staff"], "answer": 0, "why": "原文是有关村庄的信息。information 不可数，第一项用原形，也没有加 a。", "point": "count"},
+   {"stem": "原文：公园为游客提供了三个休息设施。Which phrase preserves the number?", "options": ["a rest facility for visitors", "three rest facilities for visitors", "three rest facility for visitors", "three pieces of rest facility for visitors"], "answer": 1, "why": "原文是三个休息设施。facility 可数，three 后接复数 facilities，即第二项。", "point": "form"},
+   {"stem": "原文：工匠用木材制作了供展览的桌子。Which translation uses the material noun correctly?", "options": ["Craftspeople made a table for the exhibition from a wood.", "Craftspeople made furniture for the exhibition from two woods.", "Craftspeople made a table for the exhibition from wood.", "Craftspeople made tables for the exhibition from woods."], "answer": 2, "why": "原文的木材指材料，wood 不可数，前面不加 a，也不加 -s。第三项用了不可数形式。", "point": "count"},
+   {"stem": "原文：展室内放置了两件古老的木制家具。Which phrase expresses the stated quantity?", "options": ["two old wooden furnitures", "one piece of old wooden furniture", "two old wooden pieces of equipment", "two pieces of old wooden furniture"], "answer": 3, "why": "two pieces of 表示两件，furniture 保持不可数形式。", "point": "form"},
+   {"stem": "原文：这个小镇保存着两座古老的石桥。Arrange the given translation.", "lead": "The town", "chunks": ["preserves", "two", "old stone", "bridges"], "tail": ".", "extra": ["bridge"], "why": "two 后接 bridges，old stone 修饰桥。", "point": "form"},
+   {"stem": "原文：导览图提供了一条有关古桥的信息。Arrange the given translation.", "lead": "The map", "chunks": ["provides a piece", "of information", "about", "the old bridge"], "tail": ".", "extra": ["informations"], "why": "a piece of information 表示一条信息。", "point": "count"},
+   {"stem": "原文：展馆收藏着三件传统工艺品。The gallery holds three traditional ___. Complete with the plural of craft.", "accept": ["crafts"], "why": "three 后用 crafts。", "point": "form"},
+   {"stem": "原文：展馆为访客提供了设备。The gallery provides visitors with ___. Complete with the uncountable noun equipment.", "accept": ["equipment"], "why": "equipment 表示设备，使用不可数形式。", "point": "count"}
+  ]}]}]}
+ ]
+}

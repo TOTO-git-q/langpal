@@ -1,0 +1,56 @@
+{
+ "id": "writing-practical-complaint", "title": "投诉信", "goal": "能陈述服务问题并提出相应解决诉求。", "skill": "写作", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "fact", "label": "准确陈述可核对的服务问题"}, {"id": "solution", "label": "提出与问题相符的解决诉求"}],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "投诉信的内容与知识点"}],
+ "cards": [
+  {"id": "structure", "type": "table", "title": "结构", "cols": ["部分", "内容", "例句"], "rows": [
+   ["背景", "说明订单或服务", "I ordered a desk lamp from your shop on Monday."],
+   ["问题", "写明可核对的事实", "The lamp arrived without its power cable."],
+   ["影响", "说明问题造成的不便", "Without the cable, I cannot use the lamp."],
+   ["诉求", "提出对应的解决办法", "Could you send the missing cable?"]
+  ]},
+  {"id": "expressions", "type": "table", "title": "常用表达", "cols": ["用途", "表达", "例句"], "rows": [
+   ["交代订单", "order + 物品", "I ordered a desk lamp on Monday."],
+   ["请求更换", "request a replacement", "I would like to request a replacement for the cracked lid."],
+   ["请求退款", "request a refund", "I would like to request a refund for the cancelled booking."],
+   ["请求解决", "resolve the problem", "Please let me know how you can resolve the problem."]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [
+   {"p": "假定李华订购台灯后发现缺少电源线，需要说明问题和影响，并请求补发。"},
+   {"box": "Describe the order and problem.\nRequest a suitable solution.\n\nDear Customer Service Team,\nI am writing about the desk lamp I ordered from your shop on Monday. The parcel arrived yesterday, but the power cable listed on the order was missing. The lamp itself appears undamaged. Without the cable, however, I cannot use it at my desk. Could you please send the missing cable to the delivery address on my order? I can provide the order number and a photograph of the contents if needed. I would appreciate a reply explaining how this problem can be resolved.\nBest regards,\nLi Hua"},
+   {"p": "信中说明订单、缺少的物品和无法使用的影响。补发电源线直接回应缺件问题。"}
+  ]},
+  {"id": "errors", "type": "table", "title": "常见错误", "cols": ["问题", "片段", "修改"], "rows": [
+   ["问题笼统", "The order was terrible.", "The power cable was missing from the parcel."],
+   ["只有情绪", "Your service is awful.", "The booking was cancelled after payment."],
+   ["诉求不对应", "Please replace the lamp.（仅缺电源线）", "Please send the missing power cable."],
+   ["影响不清", "The missing cable is a problem.", "Without the cable, I cannot use the lamp."]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["fact", "solution"], "groups": [
+   {"text": "假定李华订购的杯子杯盖破裂，杯身完好，希望更换杯盖。", "items": [
+    {"stem": "Which sentence reports the checkable problem?", "options": ["The lid arrived with a crack in it.", "The cup body arrived with a crack in it.", "The order was a complete disaster.", "The cup must have been damaged before packing."], "answer": 0, "why": "情境说杯盖破裂、杯身完好。第一项如实陈述杯盖上的裂缝。第二项把裂缝说到了杯身上。", "point": "fact"},
+    {"stem": "Which request addresses the stated problem?", "options": ["Could you replace the undamaged cup body?", "Could you send a replacement lid for the cup?", "Could you refund the full price of the cup and lid?", "Could you explain how the lid was packed?"], "answer": 1, "why": "情境中只有杯盖破裂，李华希望更换杯盖。第二项请求补发新杯盖，与问题相符。第三项要求退还整只杯子的钱，超出了问题范围。", "point": "solution"}
+   ]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["fact", "solution"], "groups": [{"items": [
+   {"stem": "State that a parcel lacked its cable.", "lead": "The parcel", "chunks": ["arrived", "without", "the", "power"], "tail": "cable.", "extra": ["arriving"], "why": "arrived without the power cable 陈述缺件事实。", "point": "fact"},
+   {"stem": "Ask for a replacement lid.", "lead": "Could", "chunks": ["you", "send", "a replacement", "for the"], "tail": "lid?", "extra": ["sending"], "why": "Could you send a replacement 请求更换。", "point": "solution"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["fact", "solution"], "sets": [{"id": "set-a", "groups": [
+   {"text": "假定李华预订的课程取消，但费用已经支付，希望退还费用。", "items": [
+    {"stem": "Which sentence states the problem as given?", "options": ["The class was cancelled after I paid the fee.", "The class was the worst service I have ever received.", "The class was cancelled before I paid the fee.", "I paid the fee but did not attend the class."], "answer": 0, "why": "情境中的事实是课程取消，费用已经付过。第一项把这两点都说清了。第三项把付费和取消的先后说反了。", "point": "fact"},
+    {"stem": "Which request responds to the payment problem?", "options": ["Could you charge the class fee a second time?", "Could you refund the fee for the cancelled class?", "Could you describe the cancelled class in detail?", "Could you confirm that the class has already ended?"], "answer": 1, "why": "课程取消了，费用却已付过。第二项请求退还这笔费用，正好回应付款的问题。", "point": "solution"}
+   ]},
+   {"text": "假定李华收到的笔记本缺少订单中列出的封套，笔记本完好。", "items": [
+    {"stem": "Which sentence gives the stated problem?", "options": ["The notebook arrived with a damaged cover.", "The notebook was not included in the parcel.", "The sleeve listed in the order was missing.", "The parcel contained an extra notebook and sleeve."], "answer": 2, "why": "情境说订单中列出的封套没有收到，笔记本完好。第三项陈述的就是这一缺件。第一项说封面损坏，与笔记本完好不符。", "point": "fact"},
+    {"stem": "Which request directly obtains the missing item?", "options": ["Could you replace the notebook with another model?", "Could you cancel every future notebook order?", "Could you refund the entire cost of the notebook?", "Could you send the missing protective sleeve?"], "answer": 3, "why": "缺的是封套，笔记本本身完好。第四项请求补发封套，直接解决缺件问题。", "point": "solution"}
+   ]},
+   {"items": [
+    {"stem": "State that the lid arrived cracked.", "lead": "The lid", "chunks": ["arrived", "with", "a", "visible"], "tail": "crack.", "extra": ["arriving"], "why": "arrived with a visible crack 客观描述杯盖状态。", "point": "fact"},
+    {"stem": "Ask for a refund of a cancelled booking.", "lead": "Could", "chunks": ["you", "refund", "the", "booking"], "tail": "fee?", "extra": ["refunding"], "why": "Could you refund the booking fee 提出退款诉求。", "point": "solution"},
+    {"stem": "State that the order lacked a cable.", "lead": "The order", "chunks": ["arrived", "without", "the", "power"], "tail": "cable.", "extra": ["arriving"], "why": "arrived without the power cable 说明缺件。", "point": "fact"},
+    {"stem": "Ask the shop to resolve the problem.", "lead": "Please", "chunks": ["let me", "know", "how you can", "resolve the"], "tail": "problem.", "extra": ["resolving"], "why": "how you can resolve the problem 请求说明解决办法。", "point": "solution"}
+   ]}
+  ]}]}
+ ]
+}

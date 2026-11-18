@@ -1,0 +1,448 @@
+{
+  "id": "usage-cloze",
+  "title": "完形填空　语言运用第一节 · 练习",
+  "goal": "读懂整篇记叙文，选出每个空在上下文中最合适的词或短语。",
+  "skill": "reading",
+  "exam": "高考英语（新课标卷）",
+  "points": [
+    {
+      "id": "context",
+      "label": "利用上下文复现确定词义"
+    },
+    {
+      "id": "logic",
+      "label": "按句间逻辑确定选词方向"
+    },
+    {
+      "id": "collocation",
+      "label": "选择符合语境的常用搭配"
+    }
+  ],
+  "sources": [
+    {
+      "id": "sample",
+      "title": "2024 年高考综合改革适应性测试 英语（新课标卷）试卷（教育部教育考试院）",
+      "url": "https://www.neea.edu.cn/html1/report/2401/499-1.htm",
+      "used": "语言运用第一节题型"
+    }
+  ],
+  "cards": [
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "小测",
+      "minutes": 12,
+      "pass": 0.7,
+      "points": [
+        "context",
+        "logic",
+        "collocation"
+      ],
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "label": "Cloze",
+              "look": "passage",
+              "text": "When our town library announced a repair day, I signed up to help. I arrived early, carrying my grandfather's old toolbox and feeling a little (1) _____.\n\nAt the first table, a girl was holding a toy train. One wheel had come off, and she feared that the toy was (2) _____. I examined it and found that a small screw was missing. I did not have the right size, so I asked the volunteer at the next table. He (3) _____ through a box and found one that fitted. Soon the train could (4) _____ across the table again.\n\nLater, an older visitor brought a lamp that would not light. I was ready to take it apart, but another volunteer (5) _____ that we check the bulb first. She replaced it, and the lamp came on. Her suggestion (6) _____ us a great deal of work. I wrote it down because I wanted to (7) _____ it next time.\n\nBy afternoon, the room was busy. Some people brought objects; others came to (8) _____ how repairs were done. I showed a boy how to tighten a loose handle, then let him (9) _____ the tool himself. He turned the screw and gave it a (10) _____. It stayed in place.\n\nAt the end of the day, we counted the objects we had repaired and thanked everyone who had (11) _____. I had expected to work alone at a table. Instead, I had learned to (12) _____ help, listen to advice and share what I knew. As I closed Grandfather's toolbox, I realised that a useful skill can (13) _____ when people pass it on. I was already looking forward to the next repair day, when I could (14) _____ more neighbours and perhaps (15) _____ something new from them.",
+              "items": [
+                {
+                  "stem": "Blank (1)",
+                  "options": [
+                    "nervous",
+                    "asleep",
+                    "hungry",
+                    "silent"
+                  ],
+                  "answer": 0,
+                  "why": "第一次参加修理日，独自带着旧工具箱早早到场，心情紧张；asleep、hungry 与情境不符。",
+                  "point": "context"
+                },
+                {
+                  "stem": "Blank (2)",
+                  "options": [
+                    "borrowed",
+                    "ruined",
+                    "hidden",
+                    "delivered"
+                  ],
+                  "answer": 1,
+                  "why": "轮子掉了，女孩担心玩具坏了；后文把它修好也说明此前是坏的。",
+                  "point": "context"
+                },
+                {
+                  "stem": "Blank (3)",
+                  "options": [
+                    "argued",
+                    "slept",
+                    "searched",
+                    "travelled"
+                  ],
+                  "answer": 2,
+                  "why": "他在盒子里翻找并找到合适的螺丝，search through 是常用搭配。",
+                  "point": "collocation"
+                },
+                {
+                  "stem": "Blank (4)",
+                  "options": [
+                    "roll",
+                    "fly",
+                    "sink",
+                    "grow"
+                  ],
+                  "answer": 0,
+                  "why": "修好轮子后，玩具火车又能在桌上滚动前进，与 wheel 呼应。",
+                  "point": "context"
+                },
+                {
+                  "stem": "Blank (5)",
+                  "options": [
+                    "forgot",
+                    "suggested",
+                    "denied",
+                    "doubted"
+                  ],
+                  "answer": 1,
+                  "why": "另一位志愿者建议先查灯泡，下文 Her suggestion 复现了这个意思。",
+                  "point": "context"
+                },
+                {
+                  "stem": "Blank (6)",
+                  "options": [
+                    "cost",
+                    "owed",
+                    "promised",
+                    "saved"
+                  ],
+                  "answer": 3,
+                  "why": "换灯泡就修好了灯，省去了拆开的大量工作；save sb. work 是常用搭配。",
+                  "point": "collocation"
+                },
+                {
+                  "stem": "Blank (7)",
+                  "options": [
+                    "refuse",
+                    "hide",
+                    "remember",
+                    "lose"
+                  ],
+                  "answer": 2,
+                  "why": "记下方法是为了下次记得使用；refuse、lose 与 wrote it down 的目的相反。",
+                  "point": "logic"
+                },
+                {
+                  "stem": "Blank (8)",
+                  "options": [
+                    "sell",
+                    "watch",
+                    "prevent",
+                    "describe"
+                  ],
+                  "answer": 1,
+                  "why": "前半句说有人带来物品，others 引出另一些人，他们是来看修理过程的。",
+                  "point": "logic"
+                },
+                {
+                  "stem": "Blank (9)",
+                  "options": [
+                    "drop",
+                    "break",
+                    "return",
+                    "hold"
+                  ],
+                  "answer": 3,
+                  "why": "我示范后让男孩自己拿工具，下句 He turned the screw 说明他亲手操作。",
+                  "point": "context"
+                },
+                {
+                  "stem": "Blank (10)",
+                  "options": [
+                    "test",
+                    "price",
+                    "name",
+                    "seat"
+                  ],
+                  "answer": 0,
+                  "why": "拧紧后试一试把手，下句 It stayed in place 是试的结果。",
+                  "point": "logic"
+                },
+                {
+                  "stem": "Blank (11)",
+                  "options": [
+                    "waited",
+                    "complained",
+                    "helped",
+                    "departed"
+                  ],
+                  "answer": 2,
+                  "why": "一天结束时感谢所有帮过忙的人，与志愿修理的情境一致。",
+                  "point": "context"
+                },
+                {
+                  "stem": "Blank (12)",
+                  "options": [
+                    "turn down",
+                    "ask for",
+                    "pay for",
+                    "look after"
+                  ],
+                  "answer": 1,
+                  "why": "Instead 表示与「独自干活」的预想相反，学会了寻求帮助；ask for help 是常用搭配。",
+                  "point": "collocation"
+                },
+                {
+                  "stem": "Blank (13)",
+                  "options": [
+                    "stop",
+                    "disappear",
+                    "spread",
+                    "fail"
+                  ],
+                  "answer": 2,
+                  "why": "技能在人们传授时得到传播，与 pass it on 呼应；stop、fail 方向相反。",
+                  "point": "logic"
+                },
+                {
+                  "stem": "Blank (14)",
+                  "options": [
+                    "avoid",
+                    "meet",
+                    "refuse",
+                    "replace"
+                  ],
+                  "answer": 1,
+                  "why": "期待在下次修理日结识更多邻居，meet neighbours 搭配自然。",
+                  "point": "collocation"
+                },
+                {
+                  "stem": "Blank (15)",
+                  "options": [
+                    "teach",
+                    "lend",
+                    "send",
+                    "learn"
+                  ],
+                  "answer": 3,
+                  "why": "learn something from sb. 表示向他人学习，与前文分享技能相呼应。",
+                  "point": "collocation"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "label": "Cloze",
+              "look": "passage",
+              "text": "Last spring, our class decided to hold a plant sale to raise money for new library books. I was chosen to (1) _____ the event, and at first I felt quite (2) _____. I had made a list of tasks and given everyone a job.\n\nOn the morning of the sale, however, dark clouds (3) _____ over the school. By nine o'clock it was raining heavily, and only a few customers had (4) _____. My classmates looked at me, waiting for a (5) _____. I wanted to cancel the sale, but our teacher reminded me that the plants could not be kept for another week.\n\nThen Lily, the quietest girl in our class, made a (6) _____. \"Why don't we move the tables into the covered walkway?\" she asked. The idea was so (7) _____ that I wondered why I had not thought of it. We carried the tables inside, and Tom wrote a large sign to (8) _____ visitors to the new place.\n\n(9) _____, more people came. Parents collecting their children stopped to look, and some teachers bought plants for their offices. Lily (10) _____ to each customer how often the plants needed water, so nobody left without useful advice.\n\nBy the end of the afternoon, we had sold almost every plant. When we counted the money, we found that we had (11) _____ more than we had planned. I thanked Lily in front of the class, and her face turned red with (12) _____.\n\nThat day taught me that a leader does not need to have every answer. Sometimes the best thing to do is to (13) _____. A good plan matters, but people who are willing to (14) _____ their ideas matter even more. Since then, I have always (15) _____ other people's opinions before I make a decision.",
+              "items": [
+                {
+                  "stem": "Blank (1)",
+                  "options": [
+                    "cancel",
+                    "organise",
+                    "attend",
+                    "avoid"
+                  ],
+                  "answer": 1,
+                  "why": "后文我列任务、给每人分工，可见我负责组织这次活动。",
+                  "point": "context"
+                },
+                {
+                  "stem": "Blank (2)",
+                  "options": [
+                    "ashamed",
+                    "bored",
+                    "confident",
+                    "sleepy"
+                  ],
+                  "answer": 2,
+                  "why": "已经列好任务、分好工，起初很有把握；下段 however 引出变化。",
+                  "point": "logic"
+                },
+                {
+                  "stem": "Blank (3)",
+                  "options": [
+                    "gathered",
+                    "disappeared",
+                    "cleared",
+                    "melted"
+                  ],
+                  "answer": 0,
+                  "why": "下句说开始下大雨，乌云聚集；clouds gather 是常用搭配。",
+                  "point": "collocation"
+                },
+                {
+                  "stem": "Blank (4)",
+                  "options": [
+                    "complained",
+                    "left",
+                    "argued",
+                    "arrived"
+                  ],
+                  "answer": 3,
+                  "why": "下大雨，到场的顾客很少；only a few customers 与雨天对应。",
+                  "point": "context"
+                },
+                {
+                  "stem": "Blank (5)",
+                  "options": [
+                    "present",
+                    "decision",
+                    "reason",
+                    "joke"
+                  ],
+                  "answer": 1,
+                  "why": "下句我想取消义卖，同学们正等我作决定；结尾 make a decision 复现。",
+                  "point": "context"
+                },
+                {
+                  "stem": "Blank (6)",
+                  "options": [
+                    "mistake",
+                    "promise",
+                    "complaint",
+                    "suggestion"
+                  ],
+                  "answer": 3,
+                  "why": "后面的 Why don't we...? 是提建议；make a suggestion 是常用搭配。",
+                  "point": "collocation"
+                },
+                {
+                  "stem": "Blank (7)",
+                  "options": [
+                    "simple",
+                    "strange",
+                    "costly",
+                    "dangerous"
+                  ],
+                  "answer": 0,
+                  "why": "so...that 表结果：办法简单，我才奇怪自己怎么没想到。",
+                  "point": "logic"
+                },
+                {
+                  "stem": "Blank (8)",
+                  "options": [
+                    "invite",
+                    "warn",
+                    "direct",
+                    "stop"
+                  ],
+                  "answer": 2,
+                  "why": "牌子的作用是把顾客引到新地点，direct sb. to a place 是常用搭配。",
+                  "point": "collocation"
+                },
+                {
+                  "stem": "Blank (9)",
+                  "options": [
+                    "Instead",
+                    "Gradually",
+                    "Otherwise",
+                    "Besides"
+                  ],
+                  "answer": 1,
+                  "why": "换到走廊后，顾客一点点多起来，后句家长和老师陆续来买。",
+                  "point": "logic"
+                },
+                {
+                  "stem": "Blank (10)",
+                  "options": [
+                    "denied",
+                    "hid",
+                    "explained",
+                    "doubted"
+                  ],
+                  "answer": 2,
+                  "why": "后半句 useful advice 说明她向顾客讲解浇水方法。",
+                  "point": "context"
+                },
+                {
+                  "stem": "Blank (11)",
+                  "options": [
+                    "raised",
+                    "lost",
+                    "spent",
+                    "borrowed"
+                  ],
+                  "answer": 0,
+                  "why": "首句 raise money 复现；花几乎卖光，所以筹到的钱比计划多。",
+                  "point": "context"
+                },
+                {
+                  "stem": "Blank (12)",
+                  "options": [
+                    "anger",
+                    "fear",
+                    "pain",
+                    "pleasure"
+                  ],
+                  "answer": 3,
+                  "why": "她当众受到感谢，脸红是因为高兴；anger、fear、pain 与受谢不符。",
+                  "point": "logic"
+                },
+                {
+                  "stem": "Blank (13)",
+                  "options": [
+                    "argue",
+                    "listen",
+                    "leave",
+                    "hurry"
+                  ],
+                  "answer": 1,
+                  "why": "前句说领导者不必什么都知道，这次的好办法来自倾听别人。",
+                  "point": "logic"
+                },
+                {
+                  "stem": "Blank (14)",
+                  "options": [
+                    "hide",
+                    "forget",
+                    "share",
+                    "sell"
+                  ],
+                  "answer": 2,
+                  "why": "愿意分享想法的人，与 Lily 提出建议对应；share ideas 是常用搭配。",
+                  "point": "collocation"
+                },
+                {
+                  "stem": "Blank (15)",
+                  "options": [
+                    "asked for",
+                    "turned down",
+                    "made up",
+                    "given up"
+                  ],
+                  "answer": 0,
+                  "why": "从此作决定前总先征求别人的意见；ask for opinions 是常用搭配。",
+                  "point": "collocation"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "more": {
+        "kind": "usage-cloze",
+        "topics": [
+          "社区修理日",
+          "班级义卖",
+          "第一次登台",
+          "学做家常菜",
+          "帮邻居找宠物",
+          "运动队训练",
+          "图书馆志愿者",
+          "转学第一周",
+          "照顾生病的家人",
+          "校园种植",
+          "学一门乐器",
+          "小组科学实验",
+          "乡村支教见闻",
+          "雨中远足"
+        ]
+      }
+    }
+  ]
+}

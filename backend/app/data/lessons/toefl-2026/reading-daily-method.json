@@ -1,0 +1,431 @@
+{
+ "id": "reading-daily-method",
+ "title": "题型与解题步骤",
+ "goal": "根据题干识别问法，并按体裁定位信息、核对条件。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "qtype",
+   "label": "根据题干判断问法"
+  },
+  {
+   "id": "procedure",
+   "label": "按步骤完成一段材料的题"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、计分、自适应"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明和官方样题（挖空规则是对照样题和答案看出来的）"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Reading Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-reading.pdf",
+   "used": "第 1 课：三类题的说明和需要的三项基本功"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "日常文字题的材料是非学术的短文字，每段约 15–150 词，后面有 2–3 道单选题。常见体裁有通知、邮件、短信、广告、时间表和收据。"
+    },
+    {
+     "box": "Notice: Registration closes on Friday.\nEmail: I am writing to confirm the delivery address.\nMessage: Can we meet at the side door?"
+    },
+    {
+     "p": "通知按事项排列信息。邮件的主题行提示目的。短信要结合前后几条消息理解。例中的 closes 表示截止，confirm 表示确认，Can we meet 提出安排。"
+    }
+   ],
+   "src": "overview 第 6 页；lessonplan 第 2 页"
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　先读题干",
+     "d": "先确定问的是目的、细节、推断还是词句的意思。What is the purpose of the notice? 问整段的用途，不问某个日期。"
+    },
+    {
+     "t": "2　判断体裁",
+     "d": "根据标题、主题行或说话人判断体裁。Subject: Delivery address 说明这是邮件，地址多半在正文的请求句里。"
+    },
+    {
+     "t": "3　带着问题读",
+     "d": "按题干里的具体对象找原文。问 Where should visitors enter? 时，Entrance: Side door 直接给出位置。"
+    },
+    {
+     "t": "4　核对条件",
+     "d": "比对原文和选项里的对象、时间和限制。Members only 只允许会员进入，不能改写成 All visitors are welcome。"
+    }
+   ]
+  },
+  {
+   "id": "questions",
+   "type": "table",
+   "title": "问法",
+   "cols": [
+    "类型",
+    "题干形式",
+    "依据"
+   ],
+   "rows": [
+    [
+     "目的",
+     "Why was the email sent?",
+     "全文的用途，如 To confirm a booking。"
+    ],
+    [
+     "细节",
+     "When does registration close?",
+     "原文直接写出的信息，如 by Friday noon。"
+    ],
+    [
+     "推断",
+     "What can be inferred about the writer?",
+     "由职责推出身份，如 I assign the rooms。"
+    ],
+    [
+     "词句的意思",
+     "What does “hold off” mean here?",
+     "由上下文确定词义，如 Wait until approval。"
+    ]
+   ]
+  },
+  {
+   "id": "formats",
+   "type": "table",
+   "title": "体裁与定位",
+   "cols": [
+    "体裁",
+    "信息位置",
+    "例"
+   ],
+   "rows": [
+    [
+     "通知、公告",
+     "标题和事项说明",
+     "STORAGE RULES — Keep the aisle clear."
+    ],
+    [
+     "邮件",
+     "主题行和目的句",
+     "Subject: Address check — Please confirm the street number."
+    ],
+    [
+     "短信、聊天记录",
+     "提问与回应所在的轮次",
+     "Rae: Which door? Kim: The side one."
+    ],
+    [
+     "广告、时间表、收据",
+     "项目名与对应数字所在的行",
+     "Locker rental: $6 per day."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "COSTUME FITTING\nPerformers with a confirmed role should report to Room 14 on Monday. Bring the shoes intended for the performance. Other clothing will be supplied. Anyone unable to attend must email the costume coordinator before Monday."
+    },
+    {
+     "box": "What should performers bring to the fitting?\n1. A complete costume\n2. Their stage footwear\n3. A room reservation\n4. A printed email"
+    },
+    {
+     "p": "题干问携带的物品，属于细节题。材料标题表明这是服装试穿通知，定位词是 bring。"
+    },
+    {
+     "p": "依据是 Bring the shoes intended for the performance。第二项把 shoes intended for the performance 改写为 stage footwear。"
+    },
+    {
+     "p": "Other clothing will be supplied 说明其他衣物由组织方提供，演员不必带整套服装。邮件只由无法出席的人发送。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "取自相邻的句子",
+     "Bring a printed email.",
+     "email 用于报告缺席，不是要带的东西。"
+    ],
+    [
+     "改变关系",
+     "Performers supply all clothing.",
+     "supplied 指由组织方提供。"
+    ],
+    [
+     "遗漏条件",
+     "Everyone must email the coordinator.",
+     "只有 unable to attend 的人才需要发邮件。"
+    ],
+    [
+     "原文未提及",
+     "Reserve Room 14 in advance.",
+     "原文只指定了房间，没有要求预约。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "qtype",
+    "procedure"
+   ],
+   "groups": [
+    {
+     "label": "Read the notice.",
+     "look": "notice",
+     "text": "SEED EXCHANGE\nThis page lists the varieties available for exchange. Send a list of seeds offered in return before requesting a packet.",
+     "items": [
+      {
+       "stem": "What is the main purpose of the text?",
+       "options": [
+        "To ask readers to mail seed packets first",
+        "To explain how to request seeds in exchange",
+        "To list seeds that have already been exchanged",
+        "To collect lists of seeds people want to buy"
+       ],
+       "answer": 1,
+       "why": "依据是 lists the varieties available for exchange 和 Send a list of seeds offered in return before requesting a packet。这页说明怎样申请交换种子，即第二项。",
+       "point": "qtype"
+      }
+     ]
+    },
+    {
+     "label": "Read the notice.",
+     "look": "notice",
+     "text": "Mural volunteers: Use the blue entrance on Sunday. The main entrance is reserved for deliveries during painting hours.",
+     "items": [
+      {
+       "stem": "Which entrance should volunteers use?",
+       "options": [
+        "The entrance kept for deliveries",
+        "The main entrance",
+        "The entrance marked in blue",
+        "The entrance open only on weekdays"
+       ],
+       "answer": 2,
+       "why": "依据是 Use the blue entrance on Sunday，第三项的 marked in blue 改写了 blue entrance。正门留给送货使用。",
+       "point": "procedure"
+      }
+     ]
+    },
+    {
+     "label": "Read the messages.",
+     "look": "messages",
+     "text": "Hana: The recording is too quiet.\nEli: I can turn it up before we send it to the editor.",
+     "items": [
+      {
+       "stem": "What does Eli mean by “turn it up”?",
+       "options": [
+        "Make the sound louder",
+        "Send the file earlier",
+        "Shorten the recording",
+        "Play the recording again"
+       ],
+       "answer": 0,
+       "why": "依据是 The recording is too quiet。录音声音太小，turn it up 就是调大音量，即第一项。",
+       "point": "qtype"
+      }
+     ]
+    },
+    {
+     "label": "Read the notice.",
+     "look": "notice",
+     "text": "Welcome to the weaving course. Spare looms are available only to participants whose own equipment is being repaired.",
+     "items": [
+      {
+       "stem": "Who may use a spare loom?",
+       "options": [
+        "Any participant in the weaving course",
+        "Participants who repair equipment for others",
+        "Participants whose looms have been repaired",
+        "Participants with equipment under repair"
+       ],
+       "answer": 3,
+       "why": "依据是 only to participants whose own equipment is being repaired，第四项保留了设备正在维修这一条件。第一项漏掉了 only 后面的条件。",
+       "point": "procedure"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "qtype",
+    "procedure"
+   ],
+   "groups": [
+    {
+     "label": "Read the notice.",
+     "look": "notice",
+     "text": "Telescope Demonstration\nThe astronomy group will demonstrate how to focus a telescope in the east courtyard. No previous experience is needed. Clouds will not cancel the demonstration because the first exercises use nearby buildings rather than stars. If rain is forecast, the demonstration will move indoors to Room 8.",
+     "items": [
+      {
+       "stem": "Why was this notice posted?",
+       "options": [
+        "To announce a demonstration canceled by clouds",
+        "To invite members with telescope experience to lead a session",
+        "To announce a beginners' telescope demonstration",
+        "To explain a move of the session to Room 8"
+       ],
+       "answer": 2,
+       "why": "依据是 demonstrate how to focus a telescope 和 No previous experience is needed。这是一场面向初学者的演示，即第三项。",
+       "point": "qtype"
+      },
+      {
+       "stem": "What will cause the event to move to Room 8?",
+       "options": [
+        "A prediction that it will rain",
+        "A lack of visible stars",
+        "A cloudy sky over the courtyard",
+        "A need to view stars instead of buildings"
+       ],
+       "answer": 0,
+       "why": "依据是 If rain is forecast，第一项用 prediction 改写了 forecast。第三项错在原文写明 Clouds will not cancel the demonstration。",
+       "point": "procedure"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "qtype",
+    "procedure"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Read the notice.",
+       "look": "notice",
+       "text": "Badge Collection for Puzzle Night\nTeam captains should collect the badges for their entire team at the games desk. Individual players do not need to visit the desk. Bring the confirmation number from the registration email. Badges will be sorted under the captain's surname, not the team name. If the captain cannot come, another team member may collect the badges with the same confirmation number.",
+       "items": [
+        {
+         "stem": "What is the main purpose of the notice?",
+         "options": [
+          "To explain how teams obtain their badges",
+          "To invite captains to register new teams",
+          "To ask every player to visit the games desk",
+          "To ask teams to sort badges by team name"
+         ],
+         "answer": 0,
+         "why": "依据是 Team captains should collect the badges for their entire team at the games desk，后文都在说领取的办法，即第一项。",
+         "point": "qtype"
+        },
+        {
+         "stem": "How will staff locate a team's badges?",
+         "options": [
+          "By looking for the team name",
+          "By looking under each player's surname",
+          "By using the captain's family name",
+          "By counting the individual players"
+         ],
+         "answer": 2,
+         "why": "依据是 sorted under the captain's surname, not the team name，第三项用 family name 改写了 surname。",
+         "point": "procedure"
+        },
+        {
+         "stem": "What can a team do if its captain is absent?",
+         "options": [
+          "Have each player collect a badge separately",
+          "Send another member with the confirmation number",
+          "Send another member with the team name instead",
+          "Ask the desk to sort the badges under the team name"
+         ],
+         "answer": 1,
+         "why": "依据是 another team member may collect the badges with the same confirmation number。第二项写出了代领的人和要带的号码。",
+         "point": "procedure"
+        }
+       ]
+      },
+      {
+       "label": "Read the email.",
+       "look": "email",
+       "text": "Subject: Sample fabric approval\n\nDear Morgan,\nThe fabric sample for the display curtains is attached to this message as a photograph. Please approve the color before I order the full length. The supplier has enough fabric for the project, so quantity is not a concern. I will hold off on placing the order until the approval arrives. If the photograph does not show the shade clearly, I can bring the sample to the office.\n\nRegards,\nTess",
+       "items": [
+        {
+         "stem": "Why did Tess write to Morgan?",
+         "options": [
+          "To arrange a visit to show the sample",
+          "To ask Morgan to order the full length",
+          "To announce a shortage of suitable fabric",
+          "To obtain agreement on the fabric color"
+         ],
+         "answer": 3,
+         "why": "依据是 Please approve the color before I order the full length，第四项用 obtain agreement 改写了 approve。",
+         "point": "qtype"
+        },
+        {
+         "stem": "What does “hold off” mean in the email?",
+         "options": [
+          "Reduce the quantity",
+          "Delay taking action",
+          "Change the supplier",
+          "Reject the sample"
+         ],
+         "answer": 1,
+         "why": "依据是 until the approval arrives。hold off 指收到同意之前先不下单，即第二项。",
+         "point": "procedure"
+        },
+        {
+         "stem": "What is most likely to happen if Morgan cannot judge the shade from the photograph?",
+         "options": [
+          "Tess will provide the physical sample.",
+          "The supplier will select the color.",
+          "Tess will send a clearer photograph.",
+          "The project will require less fabric."
+         ],
+         "answer": 0,
+         "why": "依据是 I can bring the sample to the office，第一项把带样品来概括为提供实物。",
+         "point": "procedure"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

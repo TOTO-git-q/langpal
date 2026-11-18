@@ -1,0 +1,70 @@
+{
+ "id": "listening-p3-multiple",
+ "title": "听力多项信息筛选",
+ "goal": "逐项核对讨论中的信息，选出有独立依据的完整组合。",
+ "skill": "听力",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [{"id": "evidence", "label": "为每个入选信息找到独立依据"}, {"id": "exclude", "label": "排除仅被提及或被否定的信息"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "多项信息筛选与教学规格"}],
+ "cards": [
+  {"id": "task", "type": "text", "title": "题型", "body": [{"p": "讨论中常提到好几个建议。题干规定要选哪一种，例如最后被接受的建议。组合选项里的两项，都要在录音中各有依据。"}, {"box": "Suggestions: a map; a chart; a photograph; a table; a timeline.\nWhich two suggestions were accepted?"}, {"p": "五项建议都可能被讨论到。一项能不能入选，要看对它有没有明确的回应。本课把两项的组合写成四个选项，从中选一项。"}]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定筛选条件", "d": "题干可能问接受、拒绝或提出的建议。accepted 要求找到接受的依据。"},
+   {"t": "2　逐项记录回应", "d": "把每项建议记作支持、否定或只是提到。A chart would work 是支持图表。We mentioned a timeline 只是提到时间线。"},
+   {"t": "3　核对两项依据", "d": "入选的每一项都要符合题干的条件。Use the map and include the chart 分别确认了地图和图表。"},
+   {"t": "4　核对完整组合", "d": "一项对了，还要核对另一项。地图被接受、照片被否定时，map and photograph 这个组合不对。"}
+  ]},
+  {"id": "responses", "type": "table", "title": "建议与回应", "cols": ["情况", "依据", "例句"], "rows": [
+   ["明确支持", "接受所提建议", "Let's use a map. — Agreed."],
+   ["明确否定", "说明建议不采用", "A photograph would be useful, but we can't use it."],
+   ["仅被提及", "尚无明确决定", "We also discussed a timeline; we'll decide later."],
+   ["部分正确", "组合中另一项不符", "Use the map, but omit the photograph."]
+  ], "note": "一项建议刚被提到时，后面可能接受，也可能否定。要听完对它的回应。"},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "Student: We could add a map or a photograph.\nTutor: Use the map, but the photograph is unclear. A chart might help, though a table would be too detailed.\nStudent: Agreed. I'll add the chart too. We can decide about a timeline later."},
+   {"box": "Suggestions: a map; a chart; a photograph; a table; a timeline.\nWhich two suggestions are accepted?\n1. A map and a photograph\n2. A chart and a table\n3. A map and a chart\n4. A table and a timeline"},
+   {"p": "依据是 Use the map 和 I'll add the chart too，两句分别确认地图和图表，即第三项。照片不清楚，表格太细，时间线以后再定。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "排除依据", "例句"], "rows": [
+   ["只对一项", "另一项被否定", "Use the map, but omit the photograph."],
+   ["仅被提及", "回应保留决定", "We'll decide about the timeline later."],
+   ["混淆提出与接受", "提议之后有否定", "A table might help, but it is too detailed."],
+   ["混淆提出者", "核对提出建议的人", "Mia suggested the map; Lee suggested the chart."]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["evidence", "exclude"], "groups": [
+   {"audio": {"intro": "Listen to a discussion.", "lines": [{"who": "A", "text": "Let's include a map and a chart."}, {"who": "B", "text": "Agreed. The photograph is unclear; we haven't decided about the table or timeline."}]}, "items": [{"stem": "Which two items are accepted: a map, a chart, a photograph, a table or a timeline?", "options": ["A map and a chart", "A map and a photograph", "A chart and a table", "A table and a timeline"], "answer": 0, "why": "依据是 Let's include a map and a chart 和随后的 Agreed。被接受的是地图和图表，即第一项。", "point": "evidence"}]},
+   {"audio": {"intro": "Listen to a discussion.", "lines": [{"who": "A", "text": "We could use a questionnaire or a diary."}, {"who": "B", "text": "Use the questionnaire; the diary takes too long. An interview is also worthwhile. We'll consider observation and a test later."}]}, "items": [{"stem": "Which two methods are accepted: a questionnaire, a diary, an interview, observation or a test?", "options": ["A diary and an interview", "A questionnaire and an interview", "A questionnaire and a test", "Observation and a diary"], "answer": 1, "why": "依据是 Use the questionnaire 和 An interview is also worthwhile。两句分别接受问卷和访谈，即第二项。", "point": "evidence"}]},
+   {"audio": {"intro": "Listen to a discussion.", "lines": [{"who": "A", "text": "Should we invite the tutor or the librarian?"}, {"who": "B", "text": "The tutor is away and the librarian is unavailable. Invite the researcher and the lecturer. We can ask the coordinator later."}]}, "items": [{"stem": "Which two people are unavailable: the tutor, the librarian, the researcher, the lecturer or the coordinator?", "options": ["The tutor and the researcher", "The lecturer and the coordinator", "The tutor and the librarian", "The librarian and the lecturer"], "answer": 2, "why": "依据是 The tutor is away and the librarian is unavailable。来不了的是导师和图书管理员，即第三项。", "point": "exclude"}]},
+   {"audio": {"intro": "Listen to a discussion.", "lines": [{"who": "A", "text": "A table and a chart would work."}, {"who": "B", "text": "Yes. A map is too small and a photograph is blurred. We haven't decided on a timeline."}]}, "items": [{"stem": "Which two items are rejected: a table, a chart, a map, a photograph or a timeline?", "options": ["A table and a chart", "A chart and a timeline", "A table and a map", "A map and a photograph"], "answer": 3, "why": "依据是 A map is too small and a photograph is blurred。被否定的是地图和照片，即第四项。时间线还没有决定。", "point": "exclude"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["evidence", "exclude"], "groups": [{"audio": {"intro": "Listen to a discussion.", "lines": [{"who": "A", "text": "For the display, shall we use the model, the drawing or the photograph?"}, {"who": "B", "text": "The model is too large and the photograph is blurred. The drawing is clear, so let's use it. We also have a map and a chart."}, {"who": "A", "text": "The chart would help explain the figures."}, {"who": "B", "text": "Agreed. We can decide about the map later."}]}, "items": [
+   {"stem": "Which two items are accepted: the model, drawing, photograph, map or chart?", "options": ["The drawing and the chart", "The model and the drawing", "The photograph and the chart", "The map and the model"], "answer": 0, "why": "let's use it 指 drawing。对 The chart would help 的回应是 Agreed。被接受的是画和图表，即第一项。", "point": "evidence"},
+   {"stem": "Which two items are rejected: the model, drawing, photograph, map or chart?", "options": ["The drawing and the map", "The model and the photograph", "The photograph and the chart", "The map and the chart"], "answer": 1, "why": "依据是 The model is too large and the photograph is blurred。被否定的是模型和照片，即第二项。地图以后再定。", "point": "exclude"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["evidence", "exclude"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to a discussion.", "lines": [
+    {"who": "A", "text": "For our display about the local archive, I suggested including a map and a photograph. The map would show where the material was collected, while the photograph would show one of the boxes in which it is kept. I also mentioned a timeline, but I'm not sure we have enough space for it."},
+    {"who": "B", "text": "The map is a good idea, so let's include it. The photograph is too dark to show the box clearly, though. I suggested a chart and a table: the chart could show the kinds of material, and the table could list every item."},
+    {"who": "A", "text": "The chart would help visitors understand the collection. Let's use that alongside the map. The table lists so many items that it would be hard to read on the display. We can leave it out."},
+    {"who": "B", "text": "Agreed. We'll decide about the timeline after measuring the available space. For now, the map and chart give us a clear starting point. I can prepare the chart tomorrow, and you can check that the map has the right labels."},
+    {"who": "A", "text": "I'll do that. Once we've checked both, we'll ask the tutor to look at the display before we print the final version."}
+   ]}, "items": [
+    {"stem": "Which two items are accepted: a map, photograph, timeline, chart or table?", "options": ["A map and a photograph", "A chart and a table", "A map and a chart", "A timeline and a table"], "answer": 2, "why": "let's include it 指地图，Let's use that alongside the map 指图表。两项都被接受，即第三项。", "point": "evidence"},
+    {"stem": "Which two items are rejected: a map, photograph, timeline, chart or table?", "options": ["A map and a timeline", "A photograph and a table", "A chart and a timeline", "A map and a chart"], "answer": 1, "why": "依据是 The photograph is too dark 和 We can leave it out。照片太暗，表格不好读，两项都不用，即第二项。时间线还没有决定。", "point": "exclude"},
+    {"stem": "Which two items did the second student suggest: a map, photograph, timeline, chart or table?", "options": ["A map and a photograph", "A map and a timeline", "A photograph and a chart", "A chart and a table"], "answer": 3, "why": "依据是第二位学生说的 I suggested a chart and a table，即第四项。地图和照片是第一位学生提的。", "point": "evidence"}
+   ]},
+   {"audio": {"intro": "Listen to a discussion.", "lines": [
+    {"who": "A", "text": "We need to choose activities for the workshop on using sources. I suggested a search exercise and a reading exercise. The search exercise would help students find articles, while the reading exercise would ask them to identify an author's main claim. I also mentioned a quiz, but we haven't decided whether there is time for it."},
+    {"who": "B", "text": "The search exercise is essential, so let's include it. I think the reading exercise is too long for the session. I suggested a referencing exercise and a debate: referencing would give students practice with citations, while a debate could take up the rest of the session."},
+    {"who": "A", "text": "Let's include the referencing exercise. It fits well after the search. The debate would be difficult to organise in the time available, so we should leave it out. We can discuss the quiz once the other activities have been timed."},
+    {"who": "B", "text": "Agreed. I'll prepare the referencing materials, and you can draft the search instructions. When they're ready, we'll time both activities and then decide whether the quiz fits. The tutor can check the instructions before the workshop."},
+    {"who": "A", "text": "I'll send my draft tomorrow. That should leave enough time for the tutor's comments and for any changes to the instructions."}
+   ]}, "items": [
+    {"stem": "Which two activities are accepted: a search, reading, quiz, referencing or debate exercise?", "options": ["A search and a referencing exercise", "A reading exercise and a quiz", "A debate and a search exercise", "A quiz and a referencing exercise"], "answer": 0, "why": "let's include it 指检索练习，后面又说 Let's include the referencing exercise。两项都被接受，即第一项。", "point": "evidence"},
+    {"stem": "Which two activities are rejected: a search, reading, quiz, referencing or debate exercise?", "options": ["A search and a quiz", "A reading exercise and a debate", "A quiz and a debate", "A search and a referencing exercise"], "answer": 1, "why": "依据是 the reading exercise is too long 和 we should leave it out。阅读练习太长，辩论难以组织，即第二项。小测还没有决定。", "point": "exclude"},
+    {"stem": "Which two activities did the first student suggest: a search, reading, quiz, referencing or debate exercise?", "options": ["A quiz and a debate", "A search and a debate", "A search and a reading exercise", "A reading and a referencing exercise"], "answer": 2, "why": "依据是第一位学生说的 I suggested a search exercise and a reading exercise，即第三项。引用练习和辩论是第二位学生提的。", "point": "evidence"}
+   ]}
+  ]}]}
+ ]
+}

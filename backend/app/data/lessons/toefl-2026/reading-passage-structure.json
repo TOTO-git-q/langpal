@@ -1,0 +1,379 @@
+{
+ "id": "reading-passage-structure",
+ "title": "学术短文的五种结构",
+ "goal": "根据首段判断短文的结构；根据结构预测后文和出题点。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "recognize",
+   "label": "根据首段判断短文的结构"
+  },
+  {
+   "id": "predict",
+   "label": "根据结构预测后文和出题点"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、计分、自适应"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明和官方样题（挖空规则是对照样题和答案看出来的）"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Reading Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-reading.pdf",
+   "used": "第 1 课：三类题的说明和需要的三项基本功"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "结构指短文各部分之间的关系。首段里出现旧说、疑问、困难、分类或双方关系，就能据此预测后文怎样展开。判断时看整段的意思，不只看一个连接词。"
+    },
+    {
+     "box": "A coating keeps the metal dry, but small scratches expose it to water. Researchers therefore tested a way to seal these openings."
+    },
+    {
+     "p": "这段先说困难，再说办法，属于问题与解决。依据：scratches 是困难，seal these openings 是办法。"
+    }
+   ]
+  },
+  {
+   "id": "patterns",
+   "type": "table",
+   "title": "首段信号",
+   "cols": [
+    "结构",
+    "首段例句",
+    "后文走向"
+   ],
+   "rows": [
+    [
+     "旧观点与新发现",
+     "Researchers once attributed the marks to tools, but closer inspection revealed tooth impressions.",
+     "先交代旧解释，再说明改变判断的证据。"
+    ],
+    [
+     "现象与解释",
+     "A metal lid can be difficult to remove when a jar is cold. Differences in expansion help explain this pattern.",
+     "先描述现象，再解释形成机制。"
+    ],
+    [
+     "问题与解决",
+     "Paper labels became unreadable outdoors, so the team tested engraved tags.",
+     "先说明困难，再比较办法与效果。"
+    ],
+    [
+     "总述与分述",
+     "A scientific illustration serves several purposes: recording shape, comparing specimens, and highlighting details.",
+     "按总述中的分类逐项展开。"
+    ],
+    [
+     "双方的相互作用",
+     "Grazing changes plant growth, while changes in plants alter where grazers feed.",
+     "分别说明两个方向的影响。"
+    ]
+   ]
+  },
+  {
+   "id": "questions",
+   "type": "table",
+   "title": "结构与出题点",
+   "cols": [
+    "结构",
+    "后文例句",
+    "对应内容"
+   ],
+   "rows": [
+    [
+     "旧观点与新发现",
+     "The new images show that the marks continue beneath the surface.",
+     "新证据支持的结论，旧说和新说的差别。"
+    ],
+    [
+     "现象与解释",
+     "The metal expands as its temperature rises.",
+     "原因、结果及解释机制。"
+    ],
+    [
+     "问题与解决",
+     "Engraved tags remained readable after exposure to rain.",
+     "办法的目的、作用与局限。"
+    ],
+    [
+     "总述与分述",
+     "The first purpose is to preserve a record of shape.",
+     "某项分述属于哪一类，某个例子说明哪个总论点。"
+    ],
+    [
+     "双方的相互作用",
+     "Plants with tougher leaves receive less grazing, changing the animals’ feeding choices.",
+     "影响的方向，一方变化后另一方怎样变化。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A map cannot display every feature of a landscape at full size. If all details are included, important routes may become difficult to see. Cartographers address this problem by selecting information suited to the map’s purpose."
+    },
+    {
+     "box": "Which topic would most logically follow this introduction?\n1. The difficulty of showing every landscape feature at full size\n2. Examples of selecting details for different maps\n3. Ways to include every detail while keeping all routes visible\n4. The route details that become hard to see on a crowded map"
+    },
+    {
+     "p": "首句提出限制：地图无法按原大小显示所有地物。第二句说明后果：细节太多，路线难以看清。第三句用 selecting information suited to the map’s purpose 提出办法。后文应举例说明怎样选择细节，即第二项。第四项只重复路线难以看清的现象，没有承接办法。"
+    }
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "recognize",
+    "predict"
+   ],
+   "groups": [
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "A telescope image appears blurred even when the lens is clean. Moving air along the path of light helps explain the blur.",
+     "items": [
+      {
+       "stem": "Which structure is introduced?",
+       "options": [
+        "A blurred image followed by a method of cleaning the lens",
+        "A comparison of lens cleanliness with the movement of air",
+        "An observed blur followed by an explanation of its cause",
+        "An account of how image blur sets the air in motion"
+       ],
+       "answer": 2,
+       "why": "appears blurred 描述现象，Moving air along the path of light helps explain the blur 解释原因。这是现象与解释，即第三项。",
+       "point": "recognize"
+      }
+     ]
+    },
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "Book bindings protect pages in several ways. They hold the sheets together, cover their edges, and make a volume easier to handle.",
+     "items": [
+      {
+       "stem": "Which structure does the opening establish?",
+       "options": [
+        "A general statement followed by three separate functions",
+        "An account of how bindings and pages protect each other",
+        "A comparison of competing ways to attach a book’s sheets",
+        "A sequence of steps for assembling a complete book binding"
+       ],
+       "answer": 0,
+       "why": "in several ways 是总述。后面的 hold the sheets together、cover their edges、make a volume easier to handle 是分述的三项功能，即第一项。",
+       "point": "recognize"
+      }
+     ]
+    },
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "In a model of a lake, larger fish reduce the number of small fish. A decline in small fish then limits food for the larger fish.",
+     "items": [
+      {
+       "stem": "Which relationship should a following paragraph develop?",
+       "options": [
+        "The one-way effect of larger fish on small-fish numbers",
+        "The way a decline in large fish reduces food for small fish",
+        "The contrast between a lake with only large fish and one with only small fish",
+        "The effects that the two groups of fish have on each other"
+       ],
+       "answer": 3,
+       "why": "larger fish reduce the number of small fish 是一个方向，A decline in small fish then limits food for the larger fish 是反方向。后文应展开双方的相互影响，即第四项。",
+       "point": "predict"
+      }
+     ]
+    },
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "A catalog once classified all fragments as parts of one vessel. Newly examined joins show that they came from several vessels.",
+     "items": [
+      {
+       "stem": "What would most logically follow?",
+       "options": [
+        "A fuller description of the catalog’s original single-vessel grouping",
+        "An account of the joins supporting the revised classification",
+        "An explanation of how the new joins confirm a single vessel",
+        "A classification of joins by their position within one vessel"
+       ],
+       "answer": 1,
+       "why": "once classified 是旧说，Newly examined joins show that they came from several vessels 是新证据。后文应说明支持新分类的证据，即第二项。",
+       "point": "predict"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "recognize",
+    "predict"
+   ],
+   "groups": [
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "A recording archive faced a practical difficulty: fragile discs could be damaged each time they were played. Staff began making digital copies, allowing listeners to hear the recordings without handling the originals. The copies reduced routine use of the discs. However, digital files also required reliable storage and regular checks. The next section considers how the archive managed those new requirements.",
+     "items": [
+      {
+       "stem": "Which structure organizes this account?",
+       "options": [
+        "A difficulty followed by a response and its limitations",
+        "A comparison of discs and digital files as equally fragile formats",
+        "A claim that playing discs causes damage followed by its rejection",
+        "A general view of digital storage and its advantages"
+       ],
+       "answer": 0,
+       "why": "faced a practical difficulty 提出问题，making digital copies 是应对办法。However 之后的 required reliable storage and regular checks，是这个办法带来的新要求，即第一项。",
+       "point": "recognize"
+      },
+      {
+       "stem": "What should the next section describe?",
+       "options": [
+        "The process of copying recordings from discs into digital files",
+        "The ways the archive stored and checked its digital copies",
+        "The ways repeated playback can damage the original discs",
+        "The reasons digital copies eliminate the need for regular checks"
+       ],
+       "answer": 1,
+       "why": "those new requirements 指前一句的 reliable storage and regular checks。下一节讲档案馆怎样存储和检查数字副本，即第二项。",
+       "point": "predict"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "recognize",
+    "predict"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Read the passage.",
+       "look": "passage",
+       "text": "Removing Dust from Measurements\n\nA laboratory that weighs very small objects faces a practical difficulty: even a little dust can change the recorded mass. Dust may settle on an object while it is being carried from a storage cabinet to a balance. The resulting reading includes material that was never part of the intended sample. To reduce this source of error, the laboratory uses covered containers and a separate weighing enclosure.\n\nThe container protects the sample during transport. It is opened only after it has been placed inside the enclosure, where unnecessary air movement is limited. Staff also clean the working surface before each series of measurements. These steps address different opportunities for contamination rather than relying on a single precaution.\n\nProtection must be balanced against access. A container that is difficult to open may force the operator to handle the sample repeatedly, creating another chance for contamination. The laboratory therefore evaluates the whole procedure, including transfer and opening, rather than judging the container alone. The next section examines how staff compare alternative container designs while keeping the samples and balances the same.",
+       "items": [
+        {
+         "stem": "Which structure is established in the first paragraph?",
+         "options": [
+          "An account of how dust settles and changes measured mass",
+          "A comparison of containers and enclosures as alternatives",
+          "A measurement problem followed by ways of addressing it",
+          "An overview of the lab followed by its weighing stages"
+         ],
+         "answer": 2,
+         "why": "faces a practical difficulty 提出误差问题，To reduce this source of error 引出处理办法。首段是问题与解决，即第三项。",
+         "point": "recognize"
+        },
+        {
+         "stem": "Which question best follows the structure of the second paragraph?",
+         "options": [
+          "Which precaution addresses each stage of handling?",
+          "How does still air protect samples in transport?",
+          "Why is cleaning the surface enough on its own?",
+          "How does opening the container help protect samples before transport?"
+         ],
+         "answer": 0,
+         "why": "during transport、inside the enclosure、before each series of measurements 分别对应处理样品的不同阶段。每个阶段各有一项措施，即第一项。",
+         "point": "predict"
+        },
+        {
+         "stem": "What would most likely be discussed next?",
+         "options": [
+          "A comparison of balances using the same covered container",
+          "A description of how dust becomes part of a sample’s recorded mass",
+          "An account of the protection provided by containers during transport",
+          "A comparison of container designs with other conditions held constant"
+         ],
+         "answer": 3,
+         "why": "依据是末句 compare alternative container designs while keeping the samples and balances the same。下一节比较不同的容器设计，其他条件不变，即第四项。",
+         "point": "predict"
+        }
+       ]
+      },
+      {
+       "label": "Read the passage.",
+       "look": "passage",
+       "text": "Testing a Story about a Workshop\n\nThe first interpretation of an abandoned workshop treated it as a place used only for making wooden furniture. That interpretation rested on the presence of saws and partly shaped boards near the doorway. A later examination of the back room, however, revealed a collection of metal stamps and sheets of leather. The new evidence suggested that the activities of the workshop had been more varied than the original account allowed.\n\nThe objects in the back room were not scattered randomly. Several stamps lay beside pieces of leather carrying matching impressions. This association supported the idea that the stamps had actually been used there. Their presence was therefore harder to explain as the accidental storage of unrelated objects.\n\nThe revised account did not require the earlier observations to be false. Furniture could still have been made near the entrance. Instead, the new account expanded the range of activities attributed to the building. Establishing whether those activities occurred at the same time required another kind of evidence. The next section examines dates in surviving purchase records to determine when the different materials entered the workshop.",
+       "items": [
+        {
+         "stem": "Which structure is introduced by the opening paragraph?",
+         "options": [
+          "A general description followed by separate examples",
+          "An earlier interpretation revised by new evidence",
+          "A comparison of woodworking and leatherwork as rival trades",
+          "An account of woodworking leading to leatherwork"
+         ],
+         "answer": 1,
+         "why": "The first interpretation 是旧说：only for making wooden furniture。A later examination 带来新证据，结论改为 more varied。这是旧观点与新发现，即第二项。",
+         "point": "recognize"
+        },
+        {
+         "stem": "Which question corresponds to the role of the second paragraph?",
+         "options": [
+          "Which kinds of stamps were used to make each leather impression?",
+          "How were wooden boards and leather sheets stored near the doorway?",
+          "What evidence supports the revised interpretation?",
+          "Why was the back room used only for storage?"
+         ],
+         "answer": 2,
+         "why": "第二段的 pieces of leather carrying matching impressions 是证据，supported the idea that the stamps had actually been used there 说明这条证据支持新的解释，即第三项。",
+         "point": "predict"
+        },
+        {
+         "stem": "What topic is announced for the next section?",
+         "options": [
+          "The impressions linking leather to the stamps",
+          "The timing of activities shown by written records",
+          "The evidence that woodworking had stopped before leatherworking began",
+          "The observations proving that no furniture was made near the entrance"
+         ],
+         "answer": 1,
+         "why": "末句 examines dates in surviving purchase records 说明下一节用购货记录上的日期判断各项活动的时间，即第二项。",
+         "point": "predict"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

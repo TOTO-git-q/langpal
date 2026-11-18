@@ -1,0 +1,279 @@
+{
+  "id": "reading-diagram",
+  "title": "图解标注　Diagram label completion · 练习",
+  "goal": "依据文中的位置和功能说明为图解的部件选出名称。",
+  "skill": "阅读",
+  "exam": "雅思 IELTS Academic",
+  "points": [
+    {
+      "id": "spatial",
+      "label": "将空间关系对应到图示"
+    },
+    {
+      "id": "label",
+      "label": "提取部件的准确名称"
+    }
+  ],
+  "sources": [
+    {
+      "id": "i2",
+      "title": "IELTS Academic: Reading test format",
+      "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+      "used": "阅读材料与题型"
+    },
+    {
+      "id": "syllabus",
+      "title": "雅思 IELTS Academic：课表",
+      "url": "docs/syllabi/ielts.md",
+      "used": "练习尺寸与知识点"
+    }
+  ],
+  "cards": [
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "小测",
+      "minutes": 12,
+      "pass": 0.75,
+      "points": [
+        "spatial",
+        "label"
+      ],
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "label": "Label the diagram below the passage. Choose the correct name for each numbered part from the list. Two names are not needed.",
+              "look": "passage",
+              "text": "Inside a Modern Beehive\n\nFor most of history, people who kept honeybees housed them in simple containers. In much of northern Europe, the usual choice was the skep, a dome-shaped basket woven from straw. Bees built their wax combs inside it, fixing them to the walls, and the combs could not be removed without being broken. To collect the honey, beekeepers often had to destroy the combs and sometimes the colony itself. The modern hive, developed in the nineteenth century, solved this problem by giving the bees removable wooden frames on which to build their combs. Its design depends on a simple discovery: bees leave a gap of a particular width, often called the bee space, between combs and the walls around them, and if every space in the hive is of about this width, the bees will not fill it with wax. The frames can therefore be lifted out, inspected and replaced.\n\nA modern hive is built as a stack of boxes, each of which has a particular purpose. At the very bottom is the floor, a flat wooden base on which the rest of the hive stands. Some floors are made of fine mesh, which lets air circulate beneath the colony. Along the front edge of the floor there is a narrow gap, the entrance, through which the bees fly in and out. In cold weather the beekeeper can fit a strip of wood to make the entrance smaller, which helps the colony to defend itself and keep warm.\n\nDirectly on top of the floor sits the brood box. This is the deepest box in the hive, and it holds the frames on which the queen lays her eggs. Here the young bees develop, cared for by the workers, and the colony also stores some honey and pollen around the edges of these combs for its own use. The brood box is the heart of the colony, and beekeepers disturb it as little as possible.\n\nAbove the brood box lies the queen excluder. It is a flat grid, usually made of metal or plastic, with slots wide enough for worker bees to pass through but too narrow for the queen, whose body is larger. Because the queen cannot climb beyond it, no eggs are laid in the boxes above, and the combs there contain only honey. This makes it possible to harvest honey without removing young bees.\n\nThe boxes placed above the excluder are called supers. They are shallower than the brood box, partly because a box full of honey is very heavy and a shallower box is easier to lift. During a good summer, the workers fill the supers with honey, and the beekeeper may add further supers on top as the season goes on. At the end of the season, the supers are removed and the honey is extracted from their combs.\n\nOn top of the highest super is the crown board, a flat wooden sheet that covers the stack of boxes. It usually has a small hole in the centre, which can be used to feed the bees or fitted with a device that lets them leave the boxes below but not return. The crown board also means that, when the outermost cover is lifted off, the bees remain inside the boxes rather than flying straight out.\n\nThe final part is the roof, which fits over the crown board and keeps rain out of the hive. Roofs are often covered with a sheet of metal on top and are made with deep sides that overlap the boxes below, so that wind cannot lift them easily.\n\nWhen inspecting a hive, the beekeeper usually uses a smoker, a small metal container in which material such as dry grass is burned to produce cool smoke. A little smoke at the entrance and under the cover makes the bees calmer and less likely to sting. The smoker is not part of the hive itself, but few beekeepers would open a hive without one.\n\nDiagram: a modern beehive (side view, parts listed from top to bottom, not to scale)\n(1) ______ : covering with deep overlapping sides and a metal sheet on top\n(2) ______ : thin flat sheet with a small central hole\n(3) ______ : shallow box of frames\n(4) ______ : flat grid of narrow slots\n(5) ______ : deep box of frames\nFloor\n(6) ______ : narrow gap along the front edge of the floor",
+              "items": [
+                {
+                  "stem": "Part (1)",
+                  "options": [
+                    "brood box",
+                    "smoker",
+                    "roof",
+                    "queen excluder",
+                    "skep",
+                    "entrance",
+                    "super",
+                    "crown board"
+                  ],
+                  "answer": 2,
+                  "why": "依据是 The final part is the roof, which fits over the crown board；它在最上层，四周深边并覆有金属片。",
+                  "point": "label"
+                },
+                {
+                  "stem": "Part (2)",
+                  "options": [
+                    "brood box",
+                    "smoker",
+                    "roof",
+                    "queen excluder",
+                    "skep",
+                    "entrance",
+                    "super",
+                    "crown board"
+                  ],
+                  "answer": 7,
+                  "why": "依据是 On top of the highest super is the crown board … a small hole in the centre；它在浅箱之上、顶盖之下。",
+                  "point": "spatial"
+                },
+                {
+                  "stem": "Part (3)",
+                  "options": [
+                    "brood box",
+                    "smoker",
+                    "roof",
+                    "queen excluder",
+                    "skep",
+                    "entrance",
+                    "super",
+                    "crown board"
+                  ],
+                  "answer": 6,
+                  "why": "依据是 The boxes placed above the excluder are called supers. They are shallower than the brood box。",
+                  "point": "spatial"
+                },
+                {
+                  "stem": "Part (4)",
+                  "options": [
+                    "brood box",
+                    "smoker",
+                    "roof",
+                    "queen excluder",
+                    "skep",
+                    "entrance",
+                    "super",
+                    "crown board"
+                  ],
+                  "answer": 3,
+                  "why": "依据是 Above the brood box lies the queen excluder. It is a flat grid … with slots。",
+                  "point": "label"
+                },
+                {
+                  "stem": "Part (5)",
+                  "options": [
+                    "brood box",
+                    "smoker",
+                    "roof",
+                    "queen excluder",
+                    "skep",
+                    "entrance",
+                    "super",
+                    "crown board"
+                  ],
+                  "answer": 0,
+                  "why": "依据是 Directly on top of the floor sits the brood box. This is the deepest box in the hive。",
+                  "point": "spatial"
+                },
+                {
+                  "stem": "Part (6)",
+                  "options": [
+                    "brood box",
+                    "smoker",
+                    "roof",
+                    "queen excluder",
+                    "skep",
+                    "entrance",
+                    "super",
+                    "crown board"
+                  ],
+                  "answer": 5,
+                  "why": "依据是 Along the front edge of the floor there is a narrow gap, the entrance。smoker 是工具，不是蜂箱的部件。",
+                  "point": "spatial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "label": "Label the diagram below the passage. Choose the correct name for each numbered part from the list. Two names are not needed.",
+              "look": "passage",
+              "text": "Fresh Water from the Sun\n\nIn many dry coastal regions, sea water is plentiful but fresh water is scarce. One of the simplest ways of turning salty water into water that is safe to drink is the basin solar still. It uses no fuel and, in its usual form, no electricity. Instead, it relies on the same processes that drive the natural water cycle: evaporation, which separates water from the salts dissolved in it, and condensation, which turns the vapour back into liquid. Because it is simple to build and has few moving parts, the solar still has been used in remote places, on small islands and in emergencies. It can be made from widely available materials such as wood, glass and sheet metal.\n\nThe heart of the device is a shallow basin that holds a few centimetres of salty water. The floor of the basin is covered with a dark lining, usually black, because dark surfaces absorb more of the sun's energy than pale ones. Sunlight passes into the still and is absorbed by this lining, which warms the water lying on top of it. As the water warms, some of it evaporates. The salts and most other impurities are left behind in the basin, because they do not evaporate with the water.\n\nBeneath the basin is a layer of insulation. Without it, much of the heat collected by the lining would pass down into the cold ground, and the water would evaporate more slowly. Materials such as foam, dry sand or straw are commonly used for this purpose, as long as they remain dry.\n\nThe basin is enclosed by a sloping cover made of glass or clear plastic, which is sealed around its edges so that vapour cannot escape. The cover lets sunlight in but is cooler than the warm, moist air inside the still. When the water vapour touches the underside of the cover, it condenses into small droplets. Because the cover slopes, these droplets do not fall back into the basin; instead, they run down the underside of the cover towards its lower edge.\n\nAlong this lower edge, just inside the still, runs a narrow trough. The droplets drip from the cover into the trough, which collects the fresh water. The trough is slightly tilted so that the water flows along it to one end, where it leaves the still through an outlet. This is a short pipe leading to a storage container outside. The container should be covered and kept in the shade so that the collected water stays clean and cool. A lid also keeps out dust and insects.\n\nBecause water is constantly evaporating from the basin, the level of salty water gradually falls, and salts become more concentrated. To replace the water, an inlet is fitted at the higher side of the still. This is a pipe through which fresh supplies of salty water can be poured or allowed to flow in from a tank. From time to time, the basin is also flushed out to remove the salt that has built up.\n\nThe output of a basin solar still is modest. Even in strong sunshine, a still of one square metre usually produces only a few litres of fresh water a day, so a family's needs may require several stills. The rate depends on the strength of the sunlight, the temperature of the air and how well the still has been built and maintained. In cloudy weather, production falls sharply. A dirty or scratched cover lets in less light, and leaks around the seal allow vapour to escape. Some designs use a wick of cloth to hold a thin film of water in the sun and speed up evaporation, and larger installations may use a pump to move water. The simple basin still, however, needs neither. Its main advantages are its low cost and the fact that it can be maintained by people without specialist training.\n\nDiagram: a basin solar still (side view, parts listed from top to bottom, not to scale)\n(1) ______ : clear sloping sheet, with droplets on its underside\n(2) ______ : narrow channel just under the lower edge of the sloping sheet\n(3) ______ : short pipe leading from that channel to a container outside\n(4) ______ : pipe entering at the higher side, level with the water\nSalty water in a shallow basin\n(5) ______ : dark layer on the floor of the basin\n(6) ______ : layer of foam beneath the basin",
+              "items": [
+                {
+                  "stem": "Part (1)",
+                  "options": [
+                    "outlet",
+                    "pump",
+                    "lining",
+                    "cover",
+                    "inlet",
+                    "wick",
+                    "trough",
+                    "insulation"
+                  ],
+                  "answer": 3,
+                  "why": "依据是 The basin is enclosed by a sloping cover made of glass or clear plastic，水汽在它的下表面凝成水滴。",
+                  "point": "label"
+                },
+                {
+                  "stem": "Part (2)",
+                  "options": [
+                    "outlet",
+                    "pump",
+                    "lining",
+                    "cover",
+                    "inlet",
+                    "wick",
+                    "trough",
+                    "insulation"
+                  ],
+                  "answer": 6,
+                  "why": "依据是 Along this lower edge, just inside the still, runs a narrow trough，水滴从盖板滴进这里。",
+                  "point": "spatial"
+                },
+                {
+                  "stem": "Part (3)",
+                  "options": [
+                    "outlet",
+                    "pump",
+                    "lining",
+                    "cover",
+                    "inlet",
+                    "wick",
+                    "trough",
+                    "insulation"
+                  ],
+                  "answer": 0,
+                  "why": "依据是 it leaves the still through an outlet. This is a short pipe leading to a storage container outside。",
+                  "point": "label"
+                },
+                {
+                  "stem": "Part (4)",
+                  "options": [
+                    "outlet",
+                    "pump",
+                    "lining",
+                    "cover",
+                    "inlet",
+                    "wick",
+                    "trough",
+                    "insulation"
+                  ],
+                  "answer": 4,
+                  "why": "依据是 an inlet is fitted at the higher side of the still. This is a pipe；pump 文中说简单蒸馏器不需要。",
+                  "point": "spatial"
+                },
+                {
+                  "stem": "Part (5)",
+                  "options": [
+                    "outlet",
+                    "pump",
+                    "lining",
+                    "cover",
+                    "inlet",
+                    "wick",
+                    "trough",
+                    "insulation"
+                  ],
+                  "answer": 2,
+                  "why": "依据是 The floor of the basin is covered with a dark lining；wick 是另一些设计用的布条，不在盆底。",
+                  "point": "spatial"
+                },
+                {
+                  "stem": "Part (6)",
+                  "options": [
+                    "outlet",
+                    "pump",
+                    "lining",
+                    "cover",
+                    "inlet",
+                    "wick",
+                    "trough",
+                    "insulation"
+                  ],
+                  "answer": 7,
+                  "why": "依据是 Beneath the basin is a layer of insulation，材料可以是 foam。",
+                  "point": "spatial"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "more": {
+        "kind": "diagram",
+        "topics": [
+          "蜂箱",
+          "太阳能蒸馏器",
+          "风车",
+          "水井",
+          "传统窑炉",
+          "灯塔顶部",
+          "雨水桶",
+          "堆肥箱",
+          "古代水钟",
+          "日晷",
+          "帆船",
+          "温室"
+        ]
+      }
+    }
+  ]
+}

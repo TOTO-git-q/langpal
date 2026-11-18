@@ -1,0 +1,57 @@
+{
+ "id": "writing-practical-invitation", "title": "邀请信", "goal": "能组织邀请信并明确参与和回复要求。", "skill": "写作", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "structure", "label": "按邀请目的与安排组织内容"}, {"id": "reply", "label": "选择明确说明参与及回复要求的句子"}],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "邀请信的结构、表达和知识点"}],
+ "cards": [
+  {"id": "structure", "type": "table", "title": "结构", "cols": ["部分", "内容", "例句"], "rows": [
+   ["邀请目的", "明确邀请对象参加活动。", "I would like to invite you to our poetry evening."],
+   ["活动安排", "说明时间和地点等事实。", "It will be held at 7 p.m. in the school hall."],
+   ["参与理由", "说明活动与对方兴趣的联系。", "Your interest in poetry makes this event a good match."],
+   ["期待回复", "说明需要确认的事项及期限。", "Please confirm whether you can attend by Monday."]
+  ]},
+  {"id": "expressions", "type": "table", "title": "常用表达", "cols": ["功能", "表达", "用法"], "rows": [
+   ["邀请", "I would like to invite you to our exhibition.", "invite 后接受邀人，to 后接活动。"],
+   ["邀请", "Would you like to join us for the concert?", "join us for 后接参加的活动。"],
+   ["安排", "The talk will be held in Room 5.", "be held 说明活动举行。"],
+   ["理由", "The talk may interest you because you enjoy history.", "because 后写读者的兴趣，与活动对应。"],
+   ["回复", "Please confirm whether you can attend by Friday.", "confirm 后说明需要确认的内容。"],
+   ["回复", "Please let me know if you can join us.", "if 引出是否参加的询问。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "假定李华邀请同学参加摄影展，要求说明时间地点并请对方周三前确认能否参加。\n• Invite the classmate.\n• Give the time and place.\n• Ask for a reply by Wednesday.\nLetter 1: Dear Sam, I invite you to our photo exhibition at 2 p.m. on Saturday in the library. Your interest in photography makes it a suitable event for you. Please confirm by Wednesday whether you can attend. Best, Li Hua\nLetter 2: Dear Sam, I invite you to our photo exhibition at 2 p.m. on Saturday in the library. Your interest in photography makes it a suitable event for you. I hope the exhibition will be enjoyable. Best, Li Hua"},
+   {"p": "两封信都有邀请和活动安排。第一封请对方周三前确认能否参加，第二封没有提出回复要求。活动的时间地点由写信人告知，能否参加要由读者回复。"}
+  ]},
+  {"id": "errors", "type": "table", "title": "常见错误", "cols": ["问题", "片段", "修改"], "rows": [
+   ["只介绍活动", "Our poetry evening is on Friday.", "I invite you to our poetry evening on Friday."],
+   ["安排不明确", "The concert will be held soon.", "The concert will be held at 7 p.m. on Friday."],
+   ["理由与读者无联系", "The club has many members.", "You may enjoy the concert because you play the violin."],
+   ["回复内容不明确", "Please confirm the concert.", "Please confirm whether you can attend the concert."]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["structure", "reply"], "groups": [
+   {"text": "假定李华邀请同学参加棋类活动，需要明确活动时间和地点。", "items": [{"stem": "Which sentence gives both details?", "options": ["The chess event will be held at three in Room 8.", "The chess event will be held in Room 8 at school.", "The chess event will include several chess games.", "The chess event will welcome students from the club."], "answer": 0, "why": "at three 和 in Room 8 分别交代时间和地点。", "point": "structure"}]},
+   {"text": "假定李华邀请教师参加朗读会，需要请教师周五前确认能否出席。", "items": [{"stem": "Which sentence asks for the intended reply?", "options": ["The reading event will take place on Friday.", "Please confirm by Friday whether you can attend.", "Please confirm that the event was held on Friday.", "The reading event is held for teachers on Friday."], "answer": 1, "why": "第二项请教师在周五前确认能否出席。", "point": "reply"}]},
+   {"text": "假定李华邀请同学参加校园戏剧表演，活动适合对表演感兴趣的人。", "items": [{"stem": "Which sentence explains a reason to attend?", "options": ["The performance will begin at six.", "The performance will be in the hall.", "You may enjoy it because you like acting.", "Please confirm whether you can attend."], "answer": 2, "why": "活动适合对表演感兴趣的人。第三项用 because you like acting 把活动和收信人的兴趣联系起来。", "point": "structure"}]},
+   {"text": "假定李华邀请同学参加绘画活动，希望知道对方能否加入。", "items": [{"stem": "Which sentence asks about participation?", "options": ["The painting session is on Saturday morning.", "The painting session is in Room 3.", "Please confirm that the session is in Room 3.", "Please let me know if you can join us."], "answer": 3, "why": "李华想知道对方能否加入。第四项请对方告知能否参加，第三项只是确认地点。", "point": "reply"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["structure", "reply"], "groups": [{"items": [
+   {"stem": "Invite a classmate to a school concert.", "lead": "I would", "chunks": ["like", "to invite", "you to", "our school"], "tail": "concert.", "extra": ["inviting"], "why": "would like to invite 后接受邀人和活动。", "point": "structure"},
+   {"stem": "Ask a guest to confirm attendance by Tuesday.", "lead": "Please", "chunks": ["confirm", "whether", "you can attend", "by"], "tail": "Tuesday.", "extra": ["attending"], "why": "confirm whether 引出是否出席，by Tuesday 写明回复期限。", "point": "reply"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["structure", "reply"], "sets": [{"id": "set-a", "groups": [
+   {"text": "假定李华邀请同学参加校园科学展，需要告知时间和地点。", "items": [
+    {"stem": "Which sentence gives the time and place?", "options": ["The fair will be held at ten in the school hall.", "The fair will be held in the large school hall.", "The fair will feature several student projects.", "The fair will welcome teachers and students."], "answer": 0, "why": "at ten 和 in the school hall 交代时间与地点。", "point": "structure"},
+    {"stem": "Which sentence asks whether the classmate can attend?", "options": ["Please confirm that the fair starts at ten.", "Please confirm whether you can attend the fair.", "Please confirm the location of the school hall.", "Please confirm whether the fair will be held at ten."], "answer": 1, "why": "whether you can attend 明确请求确认能否参加。", "point": "reply"}
+   ]},
+   {"text": "假定李华邀请爱好传统音乐的同学参加一场民族乐器演出。", "items": [
+    {"stem": "Which sentence gives a relevant reason to attend?", "options": ["The concert will begin on Saturday evening.", "The concert will take place in the school hall.", "You may enjoy the traditional instruments on stage.", "Please reply before the start of the concert."], "answer": 2, "why": "收信人爱好传统音乐。第三项提到台上的传统乐器，把演出和这一爱好联系起来。", "point": "structure"},
+    {"stem": "Which sentence requests a reply about participation?", "options": ["Please confirm the exact location of the school concert.", "Please confirm which traditional instruments will be played.", "Please let me know if you enjoyed the concert.", "Please let me know if you can attend the concert."], "answer": 3, "why": "邀请需要对方回复能否参加。第四项请对方告知能否参加演出；第三项问的是已经结束的演出。", "point": "reply"}
+   ]},
+   {"items": [
+    {"stem": "Invite a teacher to a student art show.", "lead": "I would", "chunks": ["like", "to invite", "you to", "our art"], "tail": "show.", "extra": ["inviting"], "why": "invite you to 引出受邀人和活动。", "point": "structure"},
+    {"stem": "Ask a guest to confirm attendance by Thursday.", "lead": "Please", "chunks": ["confirm", "whether", "you can attend", "by"], "tail": "Thursday.", "extra": ["attending"], "why": "confirm whether 引出能否出席，by Thursday 表示回复期限。", "point": "reply"},
+    {"stem": "State where the lecture will be held.", "lead": "The lecture", "chunks": ["will be", "held", "in", "the school"], "tail": "library.", "extra": ["holding"], "why": "will be held 表示活动将举行，in the school library 表示地点。", "point": "structure"},
+    {"stem": "Ask a friend to say whether they can join the walk.", "lead": "Please", "chunks": ["let me know", "if", "you can", "join the"], "tail": "walk.", "extra": ["joining"], "why": "let me know if 引出回复的内容，can 后接 join。", "point": "reply"}
+   ]}
+  ]}]} 
+ ]
+}

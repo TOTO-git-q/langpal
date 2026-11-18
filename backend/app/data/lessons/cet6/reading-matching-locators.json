@@ -1,0 +1,404 @@
+{
+ "id": "reading-matching-locators",
+ "title": "段落匹配的定位词",
+ "goal": "选择有区分度的定位词并识别原文变体。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "select",
+   "label": "选出有区分度的定位词"
+  },
+  {
+   "id": "locate",
+   "label": "识别定位词在原文中的变体"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "阅读课程内容与材料形式"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "定位词是用来缩小查找范围的具体信息。人名、地名、数字和具体名词出现次数少，区分度比各段共有的主题词高。"
+    },
+    {
+     "box": "A survey of the town's libraries mentions the Bracken branch once and libraries in every paragraph. Statement: The Bracken branch extended its opening hours."
+    },
+    {
+     "p": "Bracken 能把这个分馆和其他分馆区分开。找到名称后，还要核对延长开放时间这个动作。只凭名称相同还不能确定对应。"
+    }
+   ]
+  },
+  {
+   "id": "selection",
+   "type": "table",
+   "title": "定位词的区分度",
+   "cols": [
+    "类型",
+    "陈述",
+    "定位依据"
+   ],
+   "rows": [
+    [
+     "人名",
+     "Dr. Lin compared two seed samples.",
+     "Lin 可区分其他研究者"
+    ],
+    [
+     "数字",
+     "The trial continued for six weeks.",
+     "six weeks 可区分试验时长"
+    ],
+    [
+     "专有名词",
+     "The Oak Museum lends instruments.",
+     "Oak Museum 可区分机构"
+    ],
+    [
+     "具体名词",
+     "A survey recorded bicycle journeys.",
+     "bicycle journeys 可区分出行方式"
+    ],
+    [
+     "全文主题词",
+     "The survey recorded bicycle journeys.",
+     "survey 各段都有，先查 bicycle journeys"
+    ]
+   ]
+  },
+  {
+   "id": "variants",
+   "type": "table",
+   "title": "定位词的变体",
+   "cols": [
+    "变化",
+    "陈述",
+    "原文"
+   ],
+   "rows": [
+    [
+     "数字写法",
+     "The scheme lasted 12 months.",
+     "The scheme ran for twelve months."
+    ],
+    [
+     "时间换算",
+     "The survey took one year.",
+     "The survey was conducted over twelve months."
+    ],
+    [
+     "称谓替换",
+     "Professor Rao examined the samples.",
+     "The researcher Rao examined the samples."
+    ],
+    [
+     "机构称谓",
+     "The River Museum lent tools.",
+     "The museum on River Street lent tools."
+    ],
+    [
+     "具体名词改写",
+     "The project repaired bicycles.",
+     "The project fixed bikes."
+    ],
+    [
+     "名称与代词",
+     "The library bought a printer.",
+     "The library opened in May. It bought a printer."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A report discusses several transport projects.\n[A] The Harbor route carries passengers between the station and the market.\n[B] The Moor route was extended after a study lasting twelve months. The extension serves a hospital.\n[C] The Valley route is operated by volunteers on weekends.\n\nStatement: A year-long study preceded an extension serving a hospital."
+    },
+    {
+     "p": "优先查 hospital 和 year-long study。第二段的 hospital 原词复现，twelve months 对应 year-long，was extended 对应 extension。"
+    },
+    {
+     "p": "再核对先后：after a study 表示先做研究，后延长线路。其他段也讲线路，但没有同时提到研究时长和医院。"
+    }
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "select"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A report mentions museums in every paragraph, but names the Alder Museum once. The Alder Museum has an evening opening.",
+     "items": [
+      {
+       "stem": "Which phrase best distinguishes the relevant museum?",
+       "options": [
+        "the museum report",
+        "the Alder Museum",
+        "the museum opening",
+        "the evening report"
+       ],
+       "answer": 1,
+       "why": "Alder Museum 只出现一次，能区分其他博物馆。",
+       "point": "select"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "A report discusses several school meals. Only one paragraph mentions lentils served at lunch.",
+     "items": [
+      {
+       "stem": "Which expression is most useful for finding the paragraph about lentils?",
+       "options": [
+        "school meals",
+        "the report",
+        "food at school",
+        "lentils at lunch"
+       ],
+       "answer": 3,
+       "why": "lentils 仅在一个段落出现，比共同话题 school meals 有区分度。",
+       "point": "select"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "locate"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "The trial of the new timetable continued for twelve months before the operator reviewed it.",
+     "items": [
+      {
+       "stem": "Which expression in the statement corresponds to twelve months?",
+       "options": [
+        "one year",
+        "twelve weeks",
+        "two years",
+        "a month"
+       ],
+       "answer": 0,
+       "why": "twelve months 就是一年，对应 one year，即第一项。",
+       "point": "locate"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Professor Imani gathered samples from the river. The researcher later compared them in a laboratory.",
+     "items": [
+      {
+       "stem": "Who does the researcher refer to?",
+       "options": [
+        "a laboratory visitor",
+        "a river worker",
+        "Professor Imani",
+        "a sample collector's assistant"
+       ],
+       "answer": 2,
+       "why": "The researcher 指前句采样的 Professor Imani。",
+       "point": "locate"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-three",
+   "type": "check",
+   "title": "练习三",
+   "points": [
+    "select",
+    "locate"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A report about coastal projects names the Selby pier only once. The pier has a ramp for wheelchairs.",
+     "items": [
+      {
+       "stem": "Which phrase best locates the statement about wheelchair access at Selby?",
+       "options": [
+        "coastal projects",
+        "Selby pier",
+        "the report",
+        "project access"
+       ],
+       "answer": 1,
+       "why": "Selby pier 是只出现一次的专名，适合定位。",
+       "point": "select"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The council installed cycle racks by the station. The bicycle stands were painted blue.",
+     "items": [
+      {
+       "stem": "Which phrase restates cycle racks in the passage?",
+       "options": [
+        "the station council",
+        "the blue station",
+        "the bicycle stands",
+        "the painted cycles"
+       ],
+       "answer": 2,
+       "why": "bicycle stands 与 cycle racks 指相同设施。",
+       "point": "locate"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "select",
+    "locate"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "An article discusses several public parks. It names the Maple Park once, in a sentence about a pond.",
+       "items": [
+        {
+         "stem": "Which phrase best locates the paragraph about that particular park?",
+         "options": [
+          "the Maple Park",
+          "public parks",
+          "the park article",
+          "several parks"
+         ],
+         "answer": 0,
+         "why": "Maple Park 是只出现一次的专名，可区分其他公园。",
+         "point": "select"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A report discusses several studies of sleep. Only one study measured the sleep of nurses working night shifts.",
+       "items": [
+        {
+         "stem": "Which phrase best narrows a search for the study of those workers?",
+         "options": [
+          "studies of sleep",
+          "measured sleep",
+          "the study report",
+          "nurses working night shifts"
+         ],
+         "answer": 3,
+         "why": "nurses working night shifts 指出只有一项研究涉及的群体。",
+         "point": "select"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "An article mentions many courses. Only one began in 1998, when the college opened its workshop.",
+       "items": [
+        {
+         "stem": "Which expression best identifies the course in the statement?",
+         "options": [
+          "college courses",
+          "the year 1998",
+          "the college",
+          "the course article"
+         ],
+         "answer": 1,
+         "why": "原文说 Only one began in 1998。1998 只对应一门课程，比各段共有的 courses 更具体，即第二项。",
+         "point": "select"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A group studied the stream for eighteen months before publishing its report.",
+       "items": [
+        {
+         "stem": "Which phrase describes the same period?",
+         "options": [
+          "half a year",
+          "two full years",
+          "one and a half years",
+          "a full month"
+         ],
+         "answer": 2,
+         "why": "eighteen months 与 one and a half years 均为一年半。",
+         "point": "locate"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "Dr. Sen surveyed households near the forest. The researcher then compared their answers with older records.",
+       "items": [
+        {
+         "stem": "Which person is referred to as the researcher?",
+         "options": [
+          "a household member",
+          "a forest visitor",
+          "a records clerk",
+          "Dr. Sen"
+         ],
+         "answer": 3,
+         "why": "The researcher 回指前句调查住户的 Dr. Sen。",
+         "point": "locate"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "The city placed bicycle stands outside the station. Each cycle rack holds several bicycles.",
+       "items": [
+        {
+         "stem": "Which phrase refers to the bicycle stands?",
+         "options": [
+          "the cycle racks",
+          "the city station",
+          "the bicycles",
+          "the station's bicycles"
+         ],
+         "answer": 0,
+         "why": "cycle rack 与 bicycle stand 指停放自行车的设施。",
+         "point": "locate"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

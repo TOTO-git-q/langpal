@@ -1,0 +1,169 @@
+/* apps.css — 多个页面共用的小部件（头像、词卡、句解析面板）+ 单词本页 + 口语页。 */
+
+/* ============ 头像与名字（联系人、顶栏、设置里的人设卡共用） ============ */
+.avatar {
+  flex: 0 0 36px; width: 36px; height: 36px; overflow: hidden;
+  display: flex; align-items: center; justify-content: center;
+  border: var(--bw) solid var(--tbink); background: var(--avatar-bg);
+  color: var(--on-dark); font: 700 15px/1 var(--font-pixel);
+}
+.avatar img { width: 100%; height: 100%; object-fit: cover; }
+.avatar.sm { flex-basis: 28px; width: 28px; height: 28px; font-size: var(--fs-ui); }
+.avatar.lg { flex-basis: 72px; width: 72px; height: 72px; font-size: 30px; border-width: 3px; }
+.avatar.lang-ja { background: var(--avatar-ja); }
+.avatar.lang-en { background: var(--avatar-en); }
+.avatar.lang-de { background: var(--avatar-de); }
+.jn-meta { display: block; min-width: 0; }
+.jn-name { display: block; font-size: 13px; font-weight: 700; color: var(--ink); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.jn-lang { display: block; font-size: var(--fs-s); color: var(--tbink); opacity: .8; }
+
+/* ============ 词卡弹层 ============ */
+#word-popover { position: fixed; z-index: 500; width: 300px; padding: var(--gap-3); font-size: var(--fs-ui); line-height: 1.5; }
+.wp-head { display: flex; align-items: baseline; flex-wrap: wrap; gap: var(--gap-2); margin-bottom: 6px; }
+.wp-surface { font: 700 18px/1.3 var(--font-text); color: var(--ink); }
+.wp-surface:lang(ja), [lang="ja"] .wp-surface { font-family: var(--font-text-ja); }
+.wp-reading { font-size: var(--fs-ui); color: var(--tbink); }
+.wp-pos { font-size: var(--fs-s); background: var(--panel); border: 1px solid var(--border); padding: 0 5px; }
+.wp-meaning { margin-bottom: 6px; font: 700 15px/1.5 var(--font-text); }
+.wp-usage-box { margin-bottom: 6px; padding: 6px 8px; background: var(--panel); border-left: 3px solid var(--border); }
+.wp-usage-box .txt, .wp-grammar { font: 13px/1.6 var(--font-text); }
+.lbl { font: 700 var(--fs-s)/1.5 var(--font-pixel); color: var(--tbink); }
+.wp-grammar { margin-bottom: 6px; }
+.wp-footer { display: flex; align-items: center; gap: var(--gap-2); margin-top: 6px; }
+.wp-register { flex: 1; font-size: var(--fs-s); color: var(--muted); }
+.wp-collect-btn svg { width: 13px; height: 13px; }
+.wp-collect-btn.saved { background: var(--sel); border-color: var(--sel); color: var(--on-dark); }
+.wp-loading-note { margin-top: 6px; font-size: var(--fs-s); color: var(--muted); }
+.pixel-box .wp-cancel { min-height: 0; padding: 0; border: 0; background: none; color: var(--tbink); text-decoration: underline; font-weight: 400; }
+.skeleton-line {
+  height: 12px; margin-bottom: var(--gap-2);
+  background: linear-gradient(90deg, var(--panel), var(--paper), var(--panel)); background-size: 200% 100%;
+  animation: skel 1.3s infinite;
+}
+@keyframes skel { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+
+/* ============ 句解析：右侧滑出面板 ============ */
+#sentence-panel {
+  position: fixed; top: var(--titlebar-h); right: 0; bottom: 0; z-index: 300;
+  width: 380px; max-width: 90vw; display: flex; flex-direction: column;
+  border-width: 0 0 0 3px; transform: translateX(100%); transition: transform .22s ease;
+}
+#sentence-panel.open { transform: translateX(0); }
+.sp-header {
+  flex: none; display: flex; align-items: center; gap: var(--gap-2); padding: var(--gap-2) 10px;
+  background: linear-gradient(90deg, var(--title), var(--title-2)); border-bottom: var(--bw) solid var(--tbink);
+}
+.sp-title { flex: 1; font-size: 13px; font-weight: 700; color: var(--tbink); }
+.pixel-box .sp-close { min-height: 22px; width: 24px; padding: 0; background: var(--pink); border-color: var(--tbink); color: var(--on-dark); }
+.pixel-box .sp-close:hover { background: var(--pink-d); }
+.sp-body { flex: 1; min-height: 0; overflow-y: auto; padding: var(--gap-3); }
+.hint-text { margin-top: 6px; font-size: var(--fs-ui); color: var(--muted); }
+.drawer-sentence { margin-bottom: 10px; padding: 10px; background: var(--panel); border: var(--bw) solid var(--tbink); font: 700 15px/1.6 var(--font-text); }
+.drawer-section-label { margin: var(--gap-3) 0 6px; font-size: var(--fs-ui); font-weight: 700; color: var(--tbink); }
+.drawer-translation .txt { font: var(--fs-text)/1.6 var(--font-text); }
+.chunk-row { display: flex; flex-wrap: wrap; gap: 6px; }
+.chunk { padding: 5px 8px; border: var(--bw) solid var(--border); background: var(--paper); text-align: center; }
+.chunk .ctext { font: 700 13px/1.5 var(--font-text); }
+.chunk .crole { font-size: var(--fs-s); color: var(--tbink); }
+.grammar-card { margin-bottom: var(--gap-2); padding: var(--gap-2); border: var(--bw) solid var(--border); background: var(--paper); }
+.g-head { display: flex; align-items: center; gap: 6px; margin-bottom: var(--gap-1); }
+.g-name { flex: 1; font: 700 13px/1.5 var(--font-text); }
+.g-exp, .g-example { font: var(--fs-ui)/1.6 var(--font-text); }
+.g-example { margin-top: var(--gap-1); color: var(--tbink); }
+.pixel-box .star-btn { min-height: 24px; padding: 0 5px; }
+.star-btn svg { width: 13px; height: 13px; }
+
+/* ============ 自绘确认框（LP.util.confirm；删除等不可逆操作） ============ */
+.confirm-overlay { position: fixed; inset: 0; z-index: 900; display: flex; align-items: center; justify-content: center; background: var(--scrim); }
+.confirm-box { width: 320px; max-width: 88vw; padding: 18px; }
+.confirm-title { margin-bottom: var(--gap-2); font-size: var(--fs-h); font-weight: 700; color: var(--rust); }
+.confirm-text { margin-bottom: var(--gap-4); font: var(--fs-ui)/1.6 var(--font-text); overflow-wrap: anywhere; }
+.confirm-actions { display: flex; justify-content: flex-end; gap: var(--gap-2); }
+.danger-btn, .rd-delete, .row-delete { border-color: var(--rust); color: var(--rust); }
+.danger-btn:hover, .rd-delete:hover, .row-delete:hover, .confirm-danger { background: var(--rust); border-color: var(--rust); color: var(--on-dark); }
+
+/* ============ 单词本 / 句型本 ============ */
+.nb-workspace { min-height: 100%; }
+.nb-tabs, .nb-filter { display: flex; align-items: center; flex-wrap: wrap; gap: var(--gap-1); }
+.nb-tab { min-height: 32px; padding: 0 var(--gap-3); font-size: 13px; }
+.nb-chip { min-height: 24px; padding: 0 var(--gap-2); border-width: 1px; font-weight: 400; }
+.nb-count { padding-inline-start: var(--gap-1); font-size: var(--fs-s); color: var(--muted); white-space: nowrap; }
+.nb-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 1fr)); gap: 10px; padding: var(--gap-3) var(--page-pad); }
+.nb-grid:empty { display: none; }
+.nb-card { display: flex; flex-direction: column; gap: 6px; min-width: 0; padding: 10px; border: var(--bw) solid var(--border); background: var(--paper); }
+.nb-top { display: flex; align-items: baseline; flex-wrap: wrap; gap: 6px; }
+.nb-word { font: 700 16px/1.4 var(--font-text); overflow-wrap: anywhere; }
+.nb-reading { font-size: var(--fs-s); color: var(--tbink); }
+.spacer { flex: 1; }
+.nb-lang-tag { padding: 0 5px; border: 1px solid var(--border); font-size: var(--fs-s); }
+.nb-meaning { font: 13px/1.6 var(--font-text); overflow-wrap: anywhere; }
+.nb-translation { color: var(--muted); }
+.nb-context { padding-top: var(--gap-1); border-top: 1px dashed var(--line-soft); color: var(--muted); font: var(--fs-ui)/1.6 var(--font-text); cursor: pointer; overflow-wrap: anywhere; }
+.nb-context:hover { color: var(--tbink); text-decoration: underline; }
+.nb-foot { display: flex; align-items: center; margin-top: auto; }
+.nb-date { font-size: var(--fs-s); color: var(--muted); }
+.nb-actions { display: flex; gap: var(--gap-1); }
+.nb-actions button { min-height: 26px; width: 28px; padding: 0; border-width: 1px; }
+.nb-actions svg { width: 15px; height: 15px; }
+.nb-empty { padding: 40px 0; text-align: center; color: var(--muted); font-size: 13px; }
+
+/* ============ 口语（speaking-coach 嵌入） ============ */
+.coach-toolbar h1 { display: flex; align-items: center; gap: var(--gap-2); font-size: var(--fs-h); color: var(--tbink); }
+.coach-toolbar h1 img { width: 24px; height: 24px; }
+.coach-toolbar nav, .coach-caption-tools { display: flex; align-items: center; flex-wrap: wrap; gap: var(--gap-1); }
+.coach-voice, .coach-shadowing { flex: 1; min-height: 0; display: flex; flex-direction: column; }
+.coach-voice[hidden], .coach-shadowing[hidden], .coach-home[hidden], .coach-records[hidden] { display: none; }
+.coach-toolbar { justify-content: flex-start; }
+.coach-toolbar nav { margin-left: auto; }
+.coach-toolbar nav[hidden] { display: none; }
+/* 首页：和听力页同一套——主操作卡，下面两栏（练法和最近 | 这个月） */
+.coach-home { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: var(--gap-4); width: min(100%, 1280px); padding: var(--gap-4) var(--page-pad); }
+.coach-setup { display: grid; }
+.coach-setup .listen-plan-preview { display: flex; justify-content: space-between; gap: var(--gap-3); }
+.coach-home .lp-home { grid-template-rows: minmax(0, 1fr); align-items: stretch; }
+.coach-home .lp-left > .lp-recent { flex: 1; min-height: 0; display: flex; flex-direction: column; border-top: var(--bw) solid var(--tbink); }
+.coach-home .lp-month { display: flex; flex-direction: column; min-height: 0; border-top: var(--bw) solid var(--tbink); }
+.coach-home .lp-month-body { overflow-y: auto; justify-content: flex-start; gap: var(--gap-5); }
+.coach-tips { display: grid; gap: 2px; margin: var(--gap-2) 0 0; padding-left: 1.2em; font: 13px/1.6 var(--font-text); color: var(--ink); }
+.coach-tips[hidden] { display: none; }
+/* 识别模型没下好时的一行卡：名字、进度或大小、按钮 */
+.coach-asr { flex: none; display: flex; align-items: center; gap: var(--gap-3); padding: var(--gap-3) var(--gap-4); border: var(--bw) solid var(--rust); background: var(--paper); }
+.coach-asr[hidden] { display: none; }
+.coach-asr strong { color: var(--rust); font-size: 14px; white-space: nowrap; }
+.coach-asr .lp-bar-track { flex: 1; height: 10px; }
+.coach-asr-amount { color: var(--muted); font-size: 13px; white-space: nowrap; }
+.coach-asr button { margin-left: auto; }
+.coach-asr.flash { animation: coach-asr-flash .6s steps(2) 2; }
+@keyframes coach-asr-flash { 50% { background: var(--rust); } }
+.coach-asr.flash strong, .coach-asr.flash .coach-asr-amount { animation: coach-asr-text .6s steps(2) 2; }
+@keyframes coach-asr-text { 50% { color: var(--paper); } }
+.lp-format-count { position: absolute; top: var(--gap-3); right: var(--gap-3); font-size: var(--fs-ui); font-weight: 700; }
+.lp-recent-row .coach-mean { grid-area: dots; color: var(--tbink); font: 700 var(--fs-ui) var(--font-pixel); }
+.coach-redo, .coach-homework { display: grid; gap: var(--gap-1); }
+.coach-redo h4, .coach-homework h4 { color: var(--tbink); font-size: var(--fs-ui); }
+.coach-redo .coach-correction { font: 13px/1.5 var(--font-text); }
+.coach-redo audio { width: min(240px, 100%); height: 32px; }
+.coach-homework p { font: 13px/1.6 var(--font-text); }
+.coach-frame { flex: 1; display: block; width: 100%; min-height: 0; border: 0; background: var(--paper); }
+.coach-state { margin: auto; max-width: 360px; padding: var(--gap-5); text-align: center; color: var(--muted); font-size: 13px; line-height: 1.7; }
+.coach-state p { margin-bottom: var(--gap-3); }
+.coach-records { flex: 1; min-height: 0; overflow: auto; padding: var(--gap-4) var(--page-pad); }
+.coach-record-head, .coach-record-content { max-width: 860px; margin-inline: auto; }
+.coach-record-head { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: var(--gap-2); padding-bottom: var(--gap-3); border-bottom: var(--bw) solid var(--tbink); }
+.coach-record-head h2 { font-size: var(--fs-h); color: var(--tbink); }
+.coach-record-content { display: grid; gap: var(--gap-3); padding-block: var(--gap-4); font: 13px/1.6 var(--font-text); }
+.coach-record-content h3 { font: 700 var(--fs-h)/1.5 var(--font-pixel); color: var(--tbink); }
+.coach-record-content p { overflow-wrap: anywhere; }
+.coach-comment { padding: var(--gap-3); border-left: 3px solid var(--border); background: var(--panel); }
+.coach-scores { display: grid; grid-template-columns: repeat(auto-fit, minmax(118px, 1fr)); gap: var(--gap-2); }
+.coach-scores > div { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: var(--gap-1); padding: var(--gap-2); border: var(--bw) solid var(--border); background: var(--paper); font: var(--fs-ui) var(--font-pixel); }
+.coach-scores progress { grid-column: 1 / -1; width: 100%; }
+.coach-correction { display: grid; gap: var(--gap-1); padding: var(--gap-2) 0; border-top: 1px solid var(--line-soft); }
+.coach-before { color: var(--rust); text-decoration: line-through; }
+.coach-after { color: var(--tbink); font-weight: 700; }
+.coach-caption-tools span { font-size: var(--fs-ui); color: var(--muted); }
+.coach-caption-lines { list-style: none; }
+.coach-caption-lines li { display: grid; grid-template-columns: 48px 1fr; gap: var(--gap-2); padding: 10px 0; border-top: 1px solid var(--line-soft); }
+.coach-caption-lines small { font-variant-numeric: tabular-nums; color: var(--muted); }
+.coach-caption-lines a { display: inline-block; margin-top: var(--gap-1); font-size: var(--fs-ui); }
+.coach-record-content audio { display: block; width: min(260px, 100%); height: 36px; margin-top: 5px; }

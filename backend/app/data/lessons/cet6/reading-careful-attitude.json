@@ -1,0 +1,72 @@
+{
+ "id": "reading-careful-attitude",
+ "title": "作者态度题",
+ "goal": "区分作者与他人的观点，判断评价对象和态度强度。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "voice", "label": "区分作者判断与他人观点"},
+  {"id": "degree", "label": "准确判断态度的对象与强度"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读理解能力的课程安排"}],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "作者态度题问作者怎样评价某个对象。判断态度看三处：评价词、前后句的关系、作者加上的限制。"},
+   {"box": "What is the author's attitude toward the proposal?\nHow does the author view the trial?"},
+   {"p": "引语里的评价属于被引用的人。只陈述事实的句子不表达支持或反对。让步句中，作者强调的判断通常在主句。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定对象", "d": "先确认题目问的是措施、结果，还是某人的观点。作者肯定了结果，不一定肯定每一项措施。"},
+   {"t": "2　区分观点", "d": "找出评价词，再看是谁的评价。引语和报告动词（say、argue）后面的观点不算作者的。"},
+   {"t": "3　判断程度", "d": "看让步后的主句和限制语，判断态度的强弱。例如 promising but untested：认可潜力，但保留判断。"}
+  ]},
+  {"id": "attitude-words", "type": "table", "title": "态度词", "cols": ["类型", "词语", "含义"], "rows": [
+   ["支持", "supportive, favorable, approving, positive, enthusiastic", "支持、赞同或积极"],
+   ["质疑", "skeptical, doubtful, critical, questioning, unconvinced", "怀疑、批评或未信服"],
+   ["保留", "cautious, reserved, guarded, tentative, qualified", "谨慎、保留或有条件"],
+   ["客观", "neutral, impartial, objective, detached, dispassionate", "中立、公正或不带感情"]
+  ]},
+  {"id": "signals", "type": "table", "title": "评价的归属", "cols": ["情况", "例", "判断"], "rows": [
+   ["他人观点", "Critics call the plan wasteful.", "批评者认为计划浪费"],
+   ["作者评价", "The plan deserves a careful trial.", "作者主张谨慎试行"],
+   ["让步后主句", "Although costly, the trial provided useful evidence.", "作者肯定证据的价值"],
+   ["中性陈述", "The trial lasted six weeks.", "只报告时长，不表态"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "Some residents called the new schedule a complete success. Although the first results are encouraging, the trial was short and further evidence is needed before the schedule is made permanent."},
+   {"box": "How does the author view the new schedule?\n1. Entirely successful and ready for permanent use\n2. Promising but requiring further evaluation\n3. Wasteful and certain to fail in every setting\n4. Already rejected by all the residents"},
+   {"p": "complete success 是 some residents 的评价。作者认可结果 encouraging，主句强调 further evidence is needed。第二项是有保留的肯定。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "例", "排除依据"], "rows": [
+   ["观点归属错误", "作者认为完全成功", "完全成功是部分居民的评价"],
+   ["强度扩大", "作者确信一定失败", "作者仍认为结果令人鼓舞"],
+   ["对象错配", "对居民的评价当作对计划的评价", "分别核对评价对象"],
+   ["忽略让步", "只取 encouraging", "主句要求进一步证据"]
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["voice", "degree"], "groups": [
+   {"look": "passage", "text": "Some visitors called the exhibition confusing. The author considers its labels clear and useful.", "items": [{"stem": "How does the author view the labels?", "options": ["As confusing and unnecessary", "As clear and of practical use", "As useful but hard to read", "As clear but unnecessary"], "answer": 1, "why": "author considers its labels clear and useful 直接给出作者评价，第二项是它的改写。confusing 是部分参观者的看法。", "point": "voice"}]},
+   {"look": "passage", "text": "The trial is promising, but its small sample calls for caution before wider use.", "items": [{"stem": "What is the author's attitude toward wider use?", "options": ["Approval of immediate wider use", "Rejection because the sample is small", "Caution because the sample is small", "Indifference to the size of the sample"], "answer": 2, "why": "promising 肯定潜力，its small sample calls for caution before wider use 要求推广前谨慎，即第三项。第二项的 Rejection 过强。", "point": "degree"}]},
+   {"look": "passage", "text": "The report states that the display opened in May and closed in July. It gives the dates without evaluating the display.", "items": [{"stem": "What tone does the report use about the display?", "options": ["Enthusiastic and celebratory", "Skeptical and dismissive", "Critical and deeply concerned", "Neutral and purely factual"], "answer": 3, "why": "材料说明报告只提供日期，未评价展览，因此语气中立。", "point": "degree"}]},
+   {"look": "passage", "text": "A manager praised the new system. The author questions whether its benefits justify the cost.", "items": [{"stem": "How does the author view the system?", "options": ["Whether it is worth its cost is uncertain.", "The manager's praise proves all costs are low.", "The benefits certainly exceed every cost.", "The manager's praise settles the question."], "answer": 0, "why": "author questions whether its benefits justify the cost 表明作者怀疑收益抵不抵得上成本，即第一项。称赞来自经理，不是作者。", "point": "voice"}]}
+  ]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["voice", "degree"], "groups": [
+   {"look": "passage", "text": "The town tested evening access to its pool. A council member described the trial as a complete solution to residents' needs. The author regards the additional access as valuable, although staffing costs still need study. The trial's attendance figures cover only one month.", "items": [
+    {"stem": "Whose view is that the trial is a complete solution?", "options": ["The author's own final judgment", "One council member's assessment", "Every resident's stated opinion", "The pool staff's cost estimate"], "answer": 1, "why": "A council member described the trial as a complete solution 明确给出观点所属者。", "point": "voice"},
+    {"stem": "How does the author view the additional access?", "options": ["Valuable and already free of costs", "Unnecessary despite the attendance", "Useful, but its costs need more study", "Certain to meet every resident's need"], "answer": 2, "why": "作者认为 access valuable，同时指出 staffing costs still need study。", "point": "degree"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["voice", "degree"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A town has begun lending portable air-quality monitors to community groups. The devices allow groups to record measurements near schools and along busy streets. Supporters describe the program as an effective way to involve residents in local discussions. One critic has argued that the devices are too limited to be useful at all.\n\nThe author of this article considers both claims too broad. The monitors can help groups identify questions worth investigating, especially when measurements are taken repeatedly at the same place. However, a short set of readings cannot establish every source of pollution. Measurements may vary with weather and with the time of day, so the conditions under which they were taken should accompany any report.\n\nThe program is therefore a promising starting point rather than a complete assessment of local air. The town should make instructions and support available to borrowers, and it should explain how the readings can be interpreted. Further comparison with established measurement methods would also be useful. These steps would help residents use the devices while recognizing the limits of the information they provide.", "items": [
+    {"stem": "How does the author view the monitoring program?", "options": ["As useful but limited without further support", "As a complete assessment of local air quality", "As useless for any community discussion", "As a replacement for every established method"], "answer": 0, "why": "promising starting point 和 instructions、further comparison 体现肯定用途及限制。", "point": "degree"},
+    {"stem": "Who argues that the devices are not useful at all?", "options": ["The author of the article", "The groups borrowing the devices", "One critic of the program", "Every supporter of the program"], "answer": 2, "why": "One critic has argued that the devices are too limited to be useful at all 明确标出观点归属。", "point": "voice"},
+    {"stem": "How does the author regard a short set of readings?", "options": ["As proof of every source of pollution", "As evidence with limits on what it can establish", "As a substitute for recording weather conditions", "As a reason to stop all measurements at schools"], "answer": 1, "why": "a short set of readings cannot establish every source 说明短期读数的证据范围有限。", "point": "degree"}
+   ]},
+   {"look": "passage", "text": "A university has tested a shared bicycle scheme for travel between its two campuses. Participants borrowed bicycles from racks and returned them at either campus. A survey after the trial asked about convenience, and staff recorded the number of bicycles needing repairs. The figures cover only the trial period.\n\nThe scheme's organizers called it an unqualified success. Some participants, however, said that bicycles were not always available when they needed them. The author regards the trial as useful evidence that a shared service can work on these routes, but availability needs attention before the service is expanded. Repair records also matter, because keeping the bicycles in working order requires staff time.\n\nThe author does not suggest that every campus journey should be made by bicycle. Weather, distance and personal circumstances affect travel choices. A further trial with improved tracking of bicycle availability would show whether the service could reliably meet demand at busy times. Until then, it would be premature to treat the initial survey as proof that all participants' transport needs have been met.", "items": [
+    {"stem": "Who called the scheme an unqualified success?", "options": ["All participants in the survey", "The author of the article", "Staff responsible for the repairs", "The organizers of the scheme"], "answer": 3, "why": "The scheme's organizers called it an unqualified success 明确指出评价者。", "point": "voice"},
+    {"stem": "How does the author view expansion of the service?", "options": ["It should occur immediately without changes.", "It should wait until availability is improved.", "It should replace every other way of traveling.", "It is impossible even with improved tracking."], "answer": 1, "why": "availability needs attention before the service is expanded 表达有条件的态度。", "point": "degree"},
+    {"stem": "What is the author's view of the initial survey?", "options": ["It does not yet prove that all needs were met.", "It proves every campus journey should use a bicycle.", "It shows that repair records no longer matter.", "It establishes bicycle availability at every busy time."], "answer": 0, "why": "premature to treat the initial survey as proof 限定了调查结论的范围。", "point": "voice"}
+   ]}
+  ]}]}
+ ]
+}

@@ -1,0 +1,388 @@
+{
+ "id": "reading-matching-social",
+ "title": "社会议题长文",
+ "goal": "确定社会议题中观点的归属并定位方案及理由。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "viewpoint",
+   "label": "确定观点所属人物或群体"
+  },
+  {
+   "id": "locate",
+   "label": "定位方案及其支持或反对理由"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "阅读课程内容与材料形式"
+  }
+ ],
+ "cards": [
+  {
+   "id": "structure",
+   "type": "table",
+   "title": "结构",
+   "cols": [
+    "功能",
+    "内容",
+    "例"
+   ],
+   "rows": [
+    [
+     "问题背景",
+     "说明议题及其出现的情境",
+     "A town is considering changes to market hours."
+    ],
+    [
+     "群体立场",
+     "区分不同群体的判断",
+     "Vendors favor an earlier opening."
+    ],
+    [
+     "调查证据",
+     "说明受访对象与结果",
+     "A survey asked shoppers about arrival times."
+    ],
+    [
+     "方案争议",
+     "比较理由与反对意见",
+     "Residents support the change, but drivers oppose it."
+    ],
+    [
+     "实施条件",
+     "指出方案成立所需条件",
+     "The plan depends on access to a hall."
+    ]
+   ]
+  },
+  {
+   "id": "expressions",
+   "type": "table",
+   "title": "常用表达",
+   "cols": [
+    "功能",
+    "表达",
+    "含义"
+   ],
+   "rows": [
+    [
+     "归属",
+     "residents argue that",
+     "观点属于居民"
+    ],
+    [
+     "支持",
+     "vendors favor the proposal",
+     "商贩支持提议"
+    ],
+    [
+     "反对",
+     "drivers object to the change",
+     "司机反对变动"
+    ],
+    [
+     "调查",
+     "respondents reported that",
+     "报告受访者的回答"
+    ],
+    [
+     "条件",
+     "the plan depends on",
+     "指出实施所需条件"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "[A] A town is considering opening its market earlier. Vendors favor the change because it would give them more time to sell produce.\n[B] Bus drivers oppose the earlier opening because the first bus would have to leave before their current shift begins.\n[C] In a survey, shoppers reported arriving at a range of times. The survey did not ask vendors about their working hours.\n[D] The plan requires an agreement with the bus operator.\n\nStatement: A group objects to the plan because of its effect on work schedules."
+    },
+    {
+     "p": "第二段的 Bus drivers oppose 是反对的群体，before their current shift begins 是理由，答案是第二段。第一段的 vendors 支持变动，立场与陈述相反。"
+    },
+    {
+     "p": "第三段是顾客的调查回答，第四段是实施条件。这两段都没有给出司机反对的理由。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "混淆",
+    "例",
+    "核对依据"
+   ],
+   "rows": [
+    [
+     "群体错配",
+     "把 drivers 的反对归给 vendors",
+     "核对发言者"
+    ],
+    [
+     "立场倒置",
+     "把 oppose 改为 favor",
+     "核对态度动词"
+    ],
+    [
+     "理由错配",
+     "把销售时间当作司机的理由",
+     "核对理由所属群体"
+    ],
+    [
+     "调查范围扩大",
+     "把 shoppers 的回答说成全体居民意见",
+     "核对受访对象"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "viewpoint",
+    "locate"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "[A] Parents favor a later school start. [B] Drivers oppose a later school start.",
+     "items": [
+      {
+       "stem": "Which paragraph gives the parents' view?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Both paragraphs",
+        "Neither paragraph"
+       ],
+       "answer": 0,
+       "why": "第一段将 favor a later school start 归于 Parents。",
+       "point": "viewpoint"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "[A] Residents support the shelter because it blocks rain. [B] Vendors oppose it because it would reduce their space.",
+     "items": [
+      {
+       "stem": "Which paragraph explains opposition based on space?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Both paragraphs",
+        "Neither paragraph"
+       ],
+       "answer": 1,
+       "why": "第二段把 reduce their space 作为商贩的反对理由。",
+       "point": "locate"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "[A] Volunteers favor a weekend event. [B] Organizers favor an evening event.",
+     "items": [
+      {
+       "stem": "Which paragraph gives the organizers' preference?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Both paragraphs",
+        "Neither paragraph"
+       ],
+       "answer": 1,
+       "why": "第二段的 Organizers favor an evening event 说明主办者的偏好。",
+       "point": "viewpoint"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "[A] The proposal requires a room owned by the school. [B] The proposal was discussed by visitors to the school.",
+     "items": [
+      {
+       "stem": "Which paragraph identifies a condition for the proposal?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Both paragraphs",
+        "Neither paragraph"
+       ],
+       "answer": 0,
+       "why": "第一段的 requires a room 指出方案需要的场地。",
+       "point": "locate"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "viewpoint",
+    "locate"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "[A] Residents propose a covered waiting area near the clinic. They say it would protect patients from rain.\n\n[B] Local shopkeepers oppose the chosen site. They say construction would block deliveries to their shops.\n\n[C] A survey of patients found that some arrive by bus and others walk. The survey did not ask shopkeepers about deliveries.\n\n[D] The council says the proposal requires the landowner's consent before construction can begin.",
+     "items": [
+      {
+       "stem": "Which paragraph attributes a concern about deliveries to shopkeepers?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Paragraph C",
+        "Paragraph D"
+       ],
+       "answer": 1,
+       "why": "第二段的 shopkeepers oppose 和 block deliveries 指出观点归属和理由。",
+       "point": "viewpoint"
+      },
+      {
+       "stem": "Which paragraph gives protection from rain as a reason for a proposal?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Paragraph C",
+        "Paragraph D"
+       ],
+       "answer": 0,
+       "why": "第一段的 residents say it would protect patients from rain 给出支持理由。",
+       "point": "locate"
+      },
+      {
+       "stem": "Which paragraph identifies a required permission?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Paragraph C",
+        "Paragraph D"
+       ],
+       "answer": 3,
+       "why": "第四段的 requires the landowner's consent 是实施条件。",
+       "point": "locate"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 8,
+   "pass": 0.8,
+   "points": [
+    "viewpoint",
+    "locate"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "[A] A town is considering whether to extend the opening hours of its public library. The current schedule includes several weekday evenings but no Sunday hours. A residents' group has proposed opening on Sunday afternoon. Its members say that people who work on Saturdays would have another opportunity to borrow books. They also propose keeping the existing weekday schedule, so that the additional opening would not replace an evening service. The proposal concerns access to the library building rather than the size of the collection.\n\n[B] Library employees have asked the council to consider staffing before approving the proposal. Their representative supports Sunday opening only if additional staff are hired. Without extra staff, the representative argues, the change could require existing employees to work longer schedules. The employees have not opposed access on Sundays in principle. Their position concerns the conditions under which the extra hours would be covered, and they have asked for the staffing costs to be published.\n\n[C] A survey asked current library members when they usually visited. Many respondents reported using the library on weekdays, while some said they visited on Saturdays. The survey did not ask people who were not members why they stayed away. It therefore describes the habits of respondents rather than demand among every resident. The council has asked the library to collect further information before it estimates how many additional visits Sunday opening might produce.\n\n[D] A local association of shopkeepers prefers extending Friday evening hours instead. Its members argue that people already visiting nearby shops on Fridays could combine shopping with a library visit. They are concerned that Sunday opening would require nearby transport services to operate for longer. The association has submitted its preference to the council, which has not yet selected either option. Each proposal would require funding to cover opening costs.",
+       "items": [
+        {
+         "stem": "Which paragraph describes employees' conditional support for Sunday opening?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D"
+         ],
+         "answer": 1,
+         "why": "第二段的 representative supports Sunday opening only if additional staff are hired 指明群体和条件。",
+         "point": "viewpoint"
+        },
+        {
+         "stem": "Which paragraph reports a survey limited to existing library members?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D"
+         ],
+         "answer": 2,
+         "why": "第三段的 survey asked current library members 指出调查对象。",
+         "point": "locate"
+        },
+        {
+         "stem": "Which paragraph attributes support for Friday evening hours to shopkeepers?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D"
+         ],
+         "answer": 3,
+         "why": "第四段的 association of shopkeepers prefers extending Friday evening hours 给出立场归属。",
+         "point": "viewpoint"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "[A] A neighborhood has discussed converting an unused car park into a public garden. A group of nearby residents supports the idea because the area currently has few places to sit outdoors. They suggest movable seats and a small number of trees. The group wants the design to leave a clear route through the site for pedestrians. Its proposal does not include a permanent building, and the residents have asked the council to consider maintenance when assessing the costs.\n\n[B] Some market traders object to losing the car park. They say that customers who carry heavy purchases currently rely on it. The traders suggest improving a narrow green space on another street instead. Their proposal would retain the parking area, though the alternative site has less room for seating. The traders have asked the council to compare both locations before making a decision. Their concern is access for customers rather than the proposed choice of trees.\n\n[C] A group of students counted cars entering the car park on three market days. The number varied across those days and was highest during the morning. The students did not interview drivers about the purpose of their journeys, so the count cannot establish how many came to shop. The council is considering additional observations on non-market days. The count provides information on use of the site during a limited period.\n\n[D] The council has said that a garden at the car park would require agreement from the owner of the land. A maintenance plan would also be needed before the project could proceed. The council has not yet decided which organization would maintain the site. The alternative green space is already public land, but its narrower shape would constrain the number of seats. Both possibilities remain under discussion while the council examines costs and access. Residents and traders will have opportunities to comment on the estimates.",
+       "items": [
+        {
+         "stem": "Which paragraph gives customers carrying heavy purchases as a reason to retain parking?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D"
+         ],
+         "answer": 1,
+         "why": "第二段的 traders say customers who carry heavy purchases rely on the car park 给出反对理由。",
+         "point": "locate"
+        },
+        {
+         "stem": "Which paragraph says nearby residents support more outdoor seating?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D"
+         ],
+         "answer": 0,
+         "why": "第一段的 A group of nearby residents supports the idea 与 few places to sit outdoors 表示居民的立场和理由。",
+         "point": "viewpoint"
+        },
+        {
+         "stem": "Which paragraph identifies the landowner's agreement as a condition?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D"
+         ],
+         "answer": 3,
+         "why": "第四段的 garden ... would require agreement from the owner of the land 指明实施条件。",
+         "point": "locate"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

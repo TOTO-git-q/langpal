@@ -1,0 +1,372 @@
+{
+ "id": "reading-banked-context",
+ "title": "上下文的语义线索",
+ "goal": "利用上下文的语义关系选择符合整段含义的词。",
+ "skill": "阅读",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "clue",
+   "label": "识别上下文提供的语义线索"
+  },
+  {
+   "id": "coherence",
+   "label": "选择与整段含义一致的词"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "词汇理解教学依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "intro",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "词库里常有几个词性相同的词，放进空格都合语法。这时按意思选择。空格所在句和相邻句提供五种线索：同义复现、对比、因果、定义和举例。"
+    },
+    {
+     "p": "例如 The path is steep. The climb is difficult. 两句里的 steep 和 difficult 都说明上坡不容易。找到线索后，再核对整段的意思。"
+    }
+   ]
+  },
+  {
+   "id": "repeat",
+   "type": "table",
+   "title": "同义复现和对比",
+   "cols": [
+    "线索",
+    "短段",
+    "依据"
+   ],
+   "rows": [
+    [
+     "同义复现",
+     "The path is steep. The climb is difficult.",
+     "steep 与 difficult 描述上坡不易。"
+    ],
+    [
+     "同义复现",
+     "The room is silent. No one makes a sound.",
+     "silent 对应 no one makes a sound。"
+    ],
+    [
+     "对比",
+     "The first box is heavy, but the second is light.",
+     "but 连接重量相反的描述。"
+    ],
+    [
+     "对比",
+     "Unlike the dry field, the garden is wet.",
+     "Unlike 引出干湿对比。"
+    ]
+   ]
+  },
+  {
+   "id": "cause",
+   "type": "table",
+   "title": "因果关系",
+   "cols": [
+    "线索",
+    "短段",
+    "依据"
+   ],
+   "rows": [
+    [
+     "原因",
+     "The road was wet because it rained.",
+     "雨水解释路面潮湿的原因。"
+    ],
+    [
+     "结果",
+     "The tank was empty, so workers filled it.",
+     "水箱空了促使工人注水。"
+    ],
+    [
+     "原因",
+     "The gate stayed closed because repairs continued.",
+     "维修还在进行，所以大门关着。"
+    ],
+    [
+     "结果",
+     "The bus was delayed. As a result, the class started late.",
+     "延误导致上课推迟。"
+    ]
+   ]
+  },
+  {
+   "id": "definition",
+   "type": "table",
+   "title": "定义和举例",
+   "cols": [
+    "线索",
+    "短段",
+    "依据"
+   ],
+   "rows": [
+    [
+     "定义",
+     "A volunteer is a person who offers help without pay.",
+     "后半句解释 volunteer 的含义。"
+    ],
+    [
+     "定义",
+     "A schedule is a plan showing when activities occur.",
+     "后半句说明 schedule 的用途。"
+    ],
+    [
+     "举例",
+     "The shop sells fruit, such as apples and pears.",
+     "apples 和 pears 是 fruit 的例子。"
+    ],
+    [
+     "举例",
+     "Tools, including hammers and saws, were stored here.",
+     "hammers 和 saws 是 tools 的例子。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The old room was noisy. After the machines were moved, it became _____. People could read without hearing them.\n1. quiet\n2. crowded\n3. bright\n4. narrow"
+    },
+    {
+     "p": "后句说人们读书时听不到机器声，quiet 与此对应，也和前句的 noisy 构成对比，即第一项。第三项 bright 也能描述房间，但前后句讲的是声音。"
+    }
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "clue",
+    "coherence"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The room was silent. No one made a _____.",
+       "options": [
+        "sound",
+        "plan",
+        "mistake",
+        "decision"
+       ],
+       "answer": 0,
+       "why": "silent 与 No one made a sound 同义复现。make a plan、make a mistake 也是搭配，但与前句的 silent 无关。",
+       "point": "clue"
+      },
+      {
+       "stem": "Unlike the heavy box, the small bag was _____.",
+       "options": [
+        "heavy",
+        "light",
+        "large",
+        "full"
+       ],
+       "answer": 1,
+       "why": "Unlike 表明重量对比；light 与 heavy 相对。",
+       "point": "clue"
+      },
+      {
+       "stem": "Rain filled the tank, so it was no longer _____.",
+       "options": [
+        "wet",
+        "full",
+        "empty",
+        "heavy"
+       ],
+       "answer": 2,
+       "why": "雨水灌满水箱，所以水箱不再是空的。",
+       "point": "coherence"
+      },
+      {
+       "stem": "The basket contained fruit, including apples and _____.",
+       "options": [
+        "baskets",
+        "juice",
+        "seeds",
+        "pears"
+       ],
+       "answer": 3,
+       "why": "including 引出 fruit 的例子；pears 与 apples 都是水果。",
+       "point": "coherence"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "clue",
+    "coherence"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A room beside the road was noisy. The school moved its reading group to a room at the back of the building. There, students could read without the sound of passing cars.",
+     "items": [
+      {
+       "stem": "The first room was _____ because of the road.",
+       "options": [
+        "quiet",
+        "noisy",
+        "dusty",
+        "dangerous"
+       ],
+       "answer": 1,
+       "why": "原文直接说明 A room beside the road was noisy。",
+       "point": "clue"
+      },
+      {
+       "stem": "The new room let students read without traffic _____.",
+       "options": [
+        "routes",
+        "repairs",
+        "noise",
+        "signs"
+       ],
+       "answer": 2,
+       "why": "依据是 without the sound of passing cars，noise 与 sound 对应。",
+       "point": "coherence"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "clue",
+    "coherence"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "The room was silent. Nobody made a _____.",
+         "options": [
+          "sound",
+          "plan",
+          "call",
+          "choice"
+         ],
+         "answer": 0,
+         "why": "silent 与 nobody made a sound 构成同义复现。",
+         "point": "clue"
+        },
+        {
+         "stem": "The first road was wide, but the second was only two meters across and therefore _____.",
+         "options": [
+          "wide",
+          "narrow",
+          "long",
+          "short"
+         ],
+         "answer": 1,
+         "why": "but 引出宽度对比；narrow 与 wide 相对。",
+         "point": "clue"
+        },
+        {
+         "stem": "The plants needed water, so the gardener _____ them.",
+         "options": [
+          "planted",
+          "moved",
+          "watered",
+          "covered"
+         ],
+         "answer": 2,
+         "why": "植物缺水促使园丁浇水，so 标示结果。",
+         "point": "clue"
+        },
+        {
+         "stem": "A _____ is a plan that shows when activities will happen.",
+         "options": [
+          "map",
+          "budget",
+          "record",
+          "schedule"
+         ],
+         "answer": 3,
+         "why": "后半句 a plan that shows when activities will happen 是定义，说的是活动的时间安排，即 schedule。record 记的是已经发生的事，与 will happen 不符。",
+         "point": "clue"
+        },
+        {
+         "stem": "The hall was crowded before the concert. After everyone left, it was _____.",
+         "options": [
+          "empty",
+          "crowded",
+          "noisy",
+          "full"
+         ],
+         "answer": 0,
+         "why": "依据是 After everyone left，人都离开后大厅就空了。empty 和前句的 crowded 构成对比。",
+         "point": "coherence"
+        },
+        {
+         "stem": "The road was closed for repairs. Drivers used another _____ to reach the station.",
+         "options": [
+          "car",
+          "route",
+          "map",
+          "driver"
+         ],
+         "answer": 1,
+         "why": "道路关闭后司机改走另一条路线，route 符合前后句。",
+         "point": "coherence"
+        },
+        {
+         "stem": "The box contained tools, such as hammers and _____.",
+         "options": [
+          "boxes",
+          "nails",
+          "saws",
+          "workers"
+         ],
+         "answer": 2,
+         "why": "such as 引出工具的例子；saws 与 hammers 同属工具。",
+         "point": "coherence"
+        },
+        {
+         "stem": "The river was low after a dry month. Heavy rain later raised the water _____.",
+         "options": [
+          "temperature",
+          "bridge",
+          "rainfall",
+          "level"
+         ],
+         "answer": 3,
+         "why": "前句说河水低，后句说大雨使水位上升。level 和前句的 low 相对应。",
+         "point": "coherence"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

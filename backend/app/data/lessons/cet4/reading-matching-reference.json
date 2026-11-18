@@ -1,0 +1,69 @@
+{
+ "id": "reading-matching-reference",
+ "title": "跨句信息与段落对应",
+ "goal": "合并同段相邻句的信息并核对证据范围。",
+ "skill": "阅读",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "combine", "label": "合并同一段内有关联的信息"},
+  {"id": "boundary", "label": "区分完整依据与无关信息拼接"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读教学依据"}],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "一条陈述的依据常常分在同一段的两个相邻句里。两句之间靠代词、因果或举例连接。读出这层关系，才能确定对应的段落。"},
+   {"box": "A town restored an old hall. It now uses the building for music classes.\nStatement: A restored building is used for music lessons."},
+   {"p": "It 指 town，the building 指 old hall。两句合起来说明修复后的用途。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定陈述信息", "d": "标出主体、动作和条件。restored building 和 music lessons 是例题的关键信息。"},
+   {"t": "2　查找关联句", "d": "查找同段中与陈述相关的相邻句。例题第二句的 the building 承接第一句的 old hall。"},
+   {"t": "3　核对关系", "d": "确定代词指向及因果方向。例题先说修复，再说该建筑的用途。"},
+   {"t": "4　限定依据", "d": "确认整条陈述都由同一段里相互关联的句子支持。不同段落的事实不能拼在一起。"}
+  ]},
+  {"id": "links", "type": "table", "title": "跨句关系", "cols": ["类型", "原文", "对应陈述"], "rows": [
+   ["代词承接", "The club bought a tent. It lent the tent to a school.", "The club lent a tent it had bought."],
+   ["代词承接", "Staff repaired two lamps. They put them in the hall.", "Staff put repaired lamps in the hall."],
+   ["原因结果", "The path flooded. As a result, the tour was delayed.", "Flooding delayed the tour."],
+   ["原因结果", "The library was closed. Therefore, the meeting moved.", "Closure caused the meeting to move."],
+   ["概括例子", "The centre reduced waste. For example, it reused paper.", "The centre reused paper to reduce waste."],
+   ["概括例子", "The town improved access. It added a ramp, for example.", "A ramp was an access improvement."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A. The school received a collection of maps. Teachers placed them in the reading room.\nB. The school bought a cabinet. Students placed it in the hall.\n\nStatement: Maps received by the school were put in its reading room."},
+   {"p": "第一段 them 指 maps。received a collection of maps 与 placed them in the reading room 共同支持陈述。"},
+   {"p": "第二段的 it 指 cabinet。这一段的放置动作不能接到第一段的 maps 上。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "例", "依据"], "rows": [
+   ["代词错指", "Students placed maps in the hall.", "it 指第二段的 cabinet。"],
+   ["主体拼接", "Students placed maps in the reading room.", "放地图的是 teachers。"],
+   ["跨段拼接", "The school bought maps and a cabinet together.", "两段分别说明收到地图和购买柜子。"],
+   ["因果倒置", "The tour caused flooding.", "原文是 flooding 延误 tour。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["combine", "boundary"], "groups": [
+   {"look": "passage", "text": "A. A club bought a camera. It lent the camera to a school. B. A school bought a camera. It lent the camera to a club.", "items": [{"stem": "A club lent a camera it had bought to a school.", "options": ["Paragraph A", "Paragraph B", "Both paragraphs", "Neither paragraph"], "answer": 0, "why": "第一段 It 指 club，两句合起来说明俱乐部买了相机又借给学校。第二段的出借方向相反。", "point": "combine"}]},
+   {"look": "passage", "text": "A. A road was blocked. As a result, the bus took another route. B. A bus stopped on a road. The driver checked its engine.", "items": [{"stem": "A blocked road caused a bus to change route.", "options": ["Both paragraphs", "Paragraph A", "Paragraph B", "Neither paragraph"], "answer": 1, "why": "第一段 As a result 把道路受阻和公交改道连成因果。第二段只说公交停在路上。", "point": "combine"}]},
+   {"look": "passage", "text": "A. A centre saved paper. For example, staff reused envelopes. B. A centre saved envelopes. Staff ordered more paper.", "items": [{"stem": "Reusing envelopes was an example of saving paper.", "options": ["Neither paragraph", "Both paragraphs", "Paragraph A", "Paragraph B"], "answer": 2, "why": "第一段 For example 把 reused envelopes 作为 saved paper 的例子。第二段虽有 envelopes 和 paper，但两句没有举例关系。", "point": "boundary"}]},
+   {"look": "passage", "text": "A. Visitors borrowed lamps. They returned them on Friday. B. Staff borrowed chairs. They returned them on Monday.", "items": [{"stem": "Visitors returned borrowed lamps on Friday.", "options": ["Paragraph A", "Paragraph B", "Both paragraphs", "Neither paragraph"], "answer": 0, "why": "第一段 They 指 visitors，them 指 lamps。第二段归还的是椅子，时间是周一。", "point": "boundary"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["combine", "boundary"], "groups": [
+   {"look": "passage", "text": "A. The museum acquired a model boat. It put the model in a glass case.\nB. The museum received a wooden box. Staff stored the box in an office.\nC. The museum improved its labels. For instance, staff added dates to the photographs.", "items": [
+    {"stem": "A model acquired by the museum was placed behind glass.", "options": ["Paragraph A", "Paragraph B", "Paragraph C", "None of the paragraphs"], "answer": 0, "why": "第一段 acquired a model boat 和 put the model in a glass case 合起来是完整依据。", "point": "combine"},
+    {"stem": "Adding dates to photographs illustrated an improvement in labels.", "options": ["Paragraph A", "Paragraph B", "Paragraph C", "None of the paragraphs"], "answer": 2, "why": "第三段 For instance 把 added dates to the photographs 作为 improved its labels 的例子。", "point": "boundary"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["combine", "boundary"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A. A local cinema collected old posters from residents for an exhibition. It made copies so that the owners could keep the originals at home. Staff wrote the film titles beside the copies and checked the dates with the residents who had supplied them. The exhibition opened in a room next to the cinema entrance, where visitors could read the labels. Staff also recorded the names of the people who had lent the posters.\n\nB. The cinema wanted the exhibition room to be accessible to more visitors. For example, staff moved a table away from the entrance to provide a wider route. They also placed labels where seated visitors could read them. The changes concerned access to the room; the screening schedule continued as planned during the exhibition. Visitors could still enter the cinema hall through its usual door.\n\nC. Heavy rain damaged a section of the roof above the cinema hall. As a result, the managers moved a planned discussion to the exhibition room. The films themselves were shown on another day after the roof was repaired. Notices at the entrance explained the revised arrangements to people who had already reserved places for the discussion.\n\nD. Volunteers prepared a booklet about the history of the cinema. They included a photograph of the original entrance and a drawing of the current building. Visitors could read the booklet in the exhibition room but could not take it home. After the event, the volunteers placed it in the cinema office for future visitors to consult.", "items": [
+    {"stem": "Copies of posters supplied by residents were exhibited while the owners kept the originals.", "options": ["Paragraph A", "Paragraph B", "Paragraph C", "Paragraph D"], "answer": 0, "why": "第一段 collected old posters from residents 和 made copies so that the owners could keep the originals 合起来说明展出的是复制品。", "point": "combine"},
+    {"stem": "Moving a table was an example of making a room easier to enter.", "options": ["Paragraph A", "Paragraph B", "Paragraph C", "Paragraph D"], "answer": 1, "why": "第二段 For example 把 moved a table 作为 accessible to more visitors 的例子。", "point": "boundary"},
+    {"stem": "Roof damage caused a discussion to be held in a different room.", "options": ["Paragraph A", "Paragraph B", "Paragraph C", "Paragraph D"], "answer": 2, "why": "第三段 damaged a section of the roof 之后的 As a result 引出讨论改到展览室。", "point": "combine"}
+   ]},
+   {"look": "passage", "text": "A. A community kitchen received a set of cooking pots from a local shop. Staff cleaned the pots and put them on shelves near the work tables. They recorded the donation in a notebook so that the kitchen could thank the shop later. The pots were kept for shared cooking sessions rather than sold to visitors. The notebook also listed other equipment that had been given to the kitchen.\n\nB. The kitchen also received several chairs from a school. Volunteers repaired the chairs and placed them around a table in the entrance area. The school had no use for the chairs after replacing its own furniture. Visitors could sit at the table while waiting for a class to begin in the kitchen. The table remained available to visitors throughout the day.\n\nC. The kitchen reduced the amount of food it discarded. For instance, it planned meals around ingredients that needed to be used soon. Staff discussed the plans before each cooking session and adjusted the quantities to suit the number of participants. Any unopened ingredients that remained were stored safely for a later session. The plans helped staff use the food already available to them.\n\nD. A water pipe in the kitchen needed repair. Consequently, the organizers moved one cooking class to a nearby hall. They informed the participants of the new location and carried the necessary equipment there before the class began. After the pipe had been repaired, later classes returned to the kitchen as originally planned.", "items": [
+    {"stem": "A shop donated pots that staff put near the kitchen work tables.", "options": ["Paragraph A", "Paragraph B", "Paragraph C", "Paragraph D"], "answer": 0, "why": "第一段 received a set of cooking pots from a local shop 和 put them on shelves near the work tables 合起来说明捐赠和存放位置。第二段捐椅子的是学校。", "point": "combine"},
+    {"stem": "Planning meals around ingredients was an example of reducing discarded food.", "options": ["Paragraph A", "Paragraph B", "Paragraph C", "Paragraph D"], "answer": 2, "why": "第三段 For instance 把 planned meals around ingredients 作为 reduced the amount of food it discarded 的例子。", "point": "boundary"},
+    {"stem": "A class moved because a water pipe required repair.", "options": ["Paragraph A", "Paragraph B", "Paragraph C", "Paragraph D"], "answer": 3, "why": "第四段 A water pipe in the kitchen needed repair 之后的 Consequently 引出课程换到附近大厅。", "point": "boundary"}
+   ]}
+  ]}]}
+ ]
+}

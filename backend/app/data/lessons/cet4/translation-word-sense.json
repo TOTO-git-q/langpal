@@ -1,0 +1,47 @@
+{
+ "id": "translation-word-sense", "title": "汉语多义词的译词选择", "goal": "能根据语境确定词义并选择合适的英文表达。", "skill": "翻译", "exam": "大学英语四级（CET-4）", "mastery": "once",
+ "points": [{"id": "sense", "label": "根据对象确定中文词语的具体含义"}, {"id": "select", "label": "选择与具体语境相符的英文词"}],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译教学所依据的大纲"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "同一个汉语词在不同语境中可以有不同的意思。选哪个英文词，要看它搭配的对象。"}, {"box": "原文：当地发展旅游业。她逐渐发展出绘画兴趣。\n译文：The area is developing its tourism. She gradually developed an interest in painting."}, {"p": "发展产业和培养兴趣都可用 develop。有的词换了对象就要换英文词，如建设道路用 build，建设经济用 develop。"}]},
+  {"id": "actions", "type": "table", "title": "发展与建设", "cols": ["词语", "语境一", "语境二"], "rows": [
+   ["发展", "发展旅游业：develop tourism", "发展到新阶段：reach a new stage"],
+   ["建设", "建设道路：build roads", "建设经济：develop the economy"],
+   ["开展", "开展调查：conduct a survey", "开展活动：hold an event"],
+   ["提高", "提高技能：improve skills", "提高价格：raise prices"]
+  ]},
+  {"id": "qualities", "type": "table", "title": "水平与特点", "cols": ["词语", "语境一", "语境二"], "rows": [
+   ["水平", "技能水平：skill level", "生活水平：living standards"],
+   ["丰富", "经验丰富：experienced", "内容丰富：rich in content"],
+   ["特色", "建筑特色：architectural features", "地方特色：local character"],
+   ["传统", "传统习俗：traditional customs", "保留传统：preserve a tradition"]
+  ]},
+  {"id": "relations", "type": "table", "title": "便利与作用", "cols": ["词语", "语境一", "语境二"], "rows": [
+   ["方便", "交通方便：convenient transport", "方便居民：make life easier for residents"],
+   ["交流", "交流想法：exchange ideas", "文化交流：cultural exchange"],
+   ["保护", "保护建筑：protect a building", "保护传统：preserve a tradition"],
+   ["作用", "发挥作用：play a role", "药物作用：the effect of a medicine"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [{"box": "原文：工作人员在社区开展了一项调查。\n1. Staff built a survey in the community.\n2. Staff conducted a survey in the community.\n3. Staff raised a survey in the community.\n4. Staff preserved a survey in the community."}, {"p": "调查与 conduct 搭配。第二项表达工作人员实施调查。"}]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["sense", "select"], "groups": [{"items": [
+   {"stem": "原文：工作人员开展调查，了解居民的需求。Which action does 开展 describe?", "options": ["conducting a survey", "building a survey", "learning residents' needs", "meeting residents' needs"], "answer": 0, "why": "开展调查是实施一项调查，对应 conducting a survey。了解居民需求是调查的目的，不是开展的对象。", "point": "sense"},
+   {"stem": "原文：这位工匠有丰富的木工经验。Which phrase describes the craftsperson?", "options": ["rich in wood supplies", "experienced in woodworking", "full of woodworking content", "new to working with wood"], "answer": 1, "why": "丰富的木工经验说的是人的经验多，用 experienced 表示，即第二项。第三项用的是内容丰富的意思。", "point": "select"},
+   {"stem": "原文：镇上建设了一条通往学校的新道路。Which action does 建设 describe?", "options": ["developing a road", "building a school", "building a new road", "repairing an old road"], "answer": 2, "why": "建设的对象是一条新道路，修路用 build，对应第三项。学校是道路通往的地方，不是建设的对象。", "point": "sense"},
+   {"stem": "原文：新的车站方便了附近的居民。Which phrase expresses the effect?", "options": ["made the nearby residents more convenient", "was built near the residents", "moved the residents closer to the station", "made life easier for nearby residents"], "answer": 3, "why": "方便居民是让居民的生活更方便，可用 make life easier for residents，即第四项。第一项用 convenient 形容人，英语不这样说。", "point": "select"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["sense", "select"], "groups": [{"text": "原文：社区开展了一项调查，了解传统工艺的特色。工作人员保护旧工具，同时保留制作工艺的传统。", "items": [
+   {"stem": "Which phrase expresses 开展调查?", "options": ["conduct a survey", "build a survey", "raise a survey", "preserve a survey"], "answer": 0, "why": "conduct a survey 表示开展调查。", "point": "select"},
+   {"stem": "Which phrase expresses the preservation of a practice?", "options": ["protect the old tools", "preserve a tradition", "study a craft's features", "conduct a tradition"], "answer": 1, "why": "保留制作工艺的传统对应 preserve a tradition。第一项保护的是旧工具，是物品，不是做法。", "point": "sense"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["sense", "select"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "原文：工作人员开展了一次社区文化活动。Which action does 开展 describe?", "options": ["holding a community cultural event", "attending a community cultural event", "building a community culture", "preserving community culture"], "answer": 0, "why": "开展活动是举办活动，用 hold，对应第一项。第二项是参加活动，与工作人员开展活动的身份不符。", "point": "sense"},
+   {"stem": "原文：新的步道方便了附近的居民。Which phrase translates the effect on residents?", "options": ["made the nearby residents convenient", "made life easier for nearby residents", "made walking harder for nearby residents", "was built close to nearby residents"], "answer": 1, "why": "方便居民用 make life easier for residents，即第二项。第一项用 convenient 形容人，英语不这样说。", "point": "select"},
+   {"stem": "原文：这个展览的内容十分丰富。Which meaning of 丰富 applies?", "options": ["a lot of experience", "a large exhibition hall", "a variety of content", "a rich, expensive display"], "answer": 2, "why": "这里的丰富形容展览的内容，指内容多样，即第三项。第一项是经验丰富的意思，说的是人。", "point": "sense"},
+   {"stem": "原文：这座建筑具有鲜明的建筑特色。Which phrase fits the object?", "options": ["building materials", "architectural traditions", "traditional customs", "architectural features"], "answer": 3, "why": "原文说的是建筑本身的特色，对应 architectural features，即第四项。第二项是建筑传统，不是特色。", "point": "select"},
+   {"stem": "原文：工作人员对居民开展了一项调查。Arrange the given translation.", "lead": "The staff", "chunks": ["conducted", "a survey", "of", "residents"], "tail": ".", "extra": ["built"], "why": "conduct a survey 表示开展调查。", "point": "select"},
+   {"stem": "原文：团队成员交流了对计划的想法。Arrange the given translation.", "lead": "The team members", "chunks": ["exchanged", "ideas", "about", "the plan"], "tail": ".", "extra": ["raised"], "why": "exchange ideas 表示交流想法。", "point": "sense"},
+   {"stem": "原文：新标识方便了参观展馆的居民。The new signs ___ for residents to visit the gallery. Complete with made it easier.", "accept": ["made it easier"], "why": "made it easier 表示使参观更方便。", "point": "select"},
+   {"stem": "原文：工匠努力保护这座旧建筑。The craftsperson worked to ___ the old building. Complete with the verb protect.", "accept": ["protect"], "why": "protect a building 表示保护建筑。", "point": "sense"}
+  ]}]}]}
+ ]
+}

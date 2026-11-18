@@ -1,0 +1,53 @@
+{
+ "id": "translation-overview",
+ "title": "翻译部分概览",
+ "goal": "了解翻译任务的材料和时间，并区分两个总体评分档的表现。",
+ "skill": "翻译",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "format", "label": "说出翻译任务的材料与时间要求"},
+  {"id": "criteria", "label": "区分两个评分档的意义与语言表现"}
+ ],
+ "sources": [
+  {"id": "c1", "title": "CET笔试", "url": "https://cet.neea.edu.cn/html1/folder/16113/1586-1.htm", "used": "翻译任务、时间和比例"},
+  {"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "原文长度与翻译总体评分"}
+ ],
+ "cards": [
+  {
+   "id": "overview", "type": "facts", "title": "概述",
+   "rows": [
+    {"k": "任务", "v": "将 1 段中文译成英文。", "src": "c1 CET笔试；c2 大纲"},
+    {"k": "原文", "v": "180—200 个汉字。", "src": "c2 大纲"},
+    {"k": "时间", "v": "30 分钟。", "src": "c1 CET笔试"},
+    {"k": "比例", "v": "占全卷的 15%。", "src": "c1 CET笔试"}
+   ]
+  },
+  {
+   "id": "task", "type": "table", "title": "题型",
+   "cols": ["材料", "作答", "核对重点"],
+   "rows": [["一段中文", "写出英文译文", "原意与英文表达"]]
+  },
+  {
+   "id": "criteria", "type": "table", "title": "总体评分档",
+   "cols": ["分档", "原意", "语言表现"],
+   "rows": [
+    ["13—15 分", "准确传达原意", "译文通顺"],
+    ["7—9 分", "勉强传达原意", "连贯性较弱，错误较多"]
+   ],
+   "src": "c2 大纲 第 4.2 节"
+  },
+  {
+   "id": "timed", "type": "quiz", "title": "小测", "minutes": 4, "pass": 0.8,
+   "points": ["format", "criteria"],
+   "sets": [{"id": "set-a", "groups": [{"items": [
+    {"stem": "What is the direction of the translation task?", "options": ["Translate English into Chinese.", "Translate Chinese into English.", "Summarize Chinese in English.", "Rewrite English in Chinese."], "answer": 1, "why": "任务是将中文段落译成英文，即第二项。", "point": "format"},
+    {"stem": "How long is the source passage?", "options": ["150–180 Chinese characters", "150–200 English words", "180–200 Chinese characters", "180–200 English words"], "answer": 2, "why": "原文长度为 180—200 个汉字，即第三项。", "point": "format"},
+    {"stem": "What are the task time and its share of the paper?", "options": ["30 minutes and 15%", "30 minutes and 30%", "15 minutes and 30%", "15 minutes and 15%"], "answer": 0, "why": "翻译任务为 30 分钟，占全卷 15%，即第一项。", "point": "format"},
+    {"stem": "How does a translation in the 13–15 band convey meaning?", "options": ["It barely conveys meaning but reads fluently.", "It conveys meaning accurately but lacks coherence.", "It barely conveys meaning and has substantial errors.", "It conveys meaning accurately and reads fluently."], "answer": 3, "why": "13—15 分的译文准确传达原意，且译文通顺，即第四项。", "point": "criteria"},
+    {"stem": "How does a translation in the 7–9 band convey meaning?", "options": ["It conveys meaning accurately and fluently.", "It only just conveys the original meaning.", "It conveys meaning accurately without errors.", "It conveys meaning accurately but fluency varies."], "answer": 1, "why": "7—9 分的译文勉强传达原意，即第二项。", "point": "criteria"},
+    {"stem": "What language features characterize the 7–9 band?", "options": ["Fluent expression with very few errors", "Strong coherence and accurate meaning", "Weak coherence and substantial errors", "Accurate expression without language errors"], "answer": 2, "why": "7—9 分的译文连贯性较弱，错误较多，即第三项。", "point": "criteria"}
+   ]}]}]
+  }
+ ]
+}

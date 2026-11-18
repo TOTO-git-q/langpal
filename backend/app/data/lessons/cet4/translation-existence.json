@@ -1,0 +1,53 @@
+{
+ "id": "translation-existence",
+ "title": "存在与位置的表达",
+ "goal": "能区分存在、拥有和包含，并准确表达地理位置。",
+ "skill": "翻译",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "exist", "label": "按含义选择存在或拥有结构"},
+  {"id": "location", "label": "准确表达事物的地理位置"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译教学范围"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "中文的「有」可以表示存在、拥有或包含，英语按意思选结构。表示存在用 there be。表示拥有用 have，拥有者作主语。表示包含用 contain，容器作主语。"},
+   {"box": "There is a fountain in the square. / The school has a library. / The box contains letters."}
+  ]},
+  {"id": "existence", "type": "table", "title": "存在、拥有与包含", "cols": ["含义", "结构", "例句"], "rows": [
+   ["存在", "there be 引出某处存在的事物。", "广场中央有一座古老的石制喷泉。 / There is an old stone fountain in the center of the square."],
+   ["存在与一致", "be 的单复数与后面的名词一致。", "河边有几棵高大的柳树。 / There are several tall willow trees by the river."],
+   ["拥有", "have 的主语是拥有者。", "这所学校有一个向公众开放的图书馆。 / The school has a library open to the public."],
+   ["包含", "contain 的主语是容器或整体。", "这个木箱里有几封保存完好的信。 / The wooden box contains several well-preserved letters."]
+  ]},
+  {"id": "places", "type": "table", "title": "地理位置", "cols": ["结构", "用法", "例句"], "rows": [
+   ["be located in", "主语是要说明位置的事物，in 引出它所在的范围。", "这座博物馆位于城市的中心。 / The museum is located in the city center."],
+   ["lie to the east of", "to the east of 表示在另一地点以外的东面。", "这个村庄位于湖的东面。 / The village lies to the east of the lake."],
+   ["存在句", "there be 先引出存在的事物。", "山谷里有一个历史悠久的村庄。 / There is an old village in the valley."],
+   ["位置句", "已知事物作主语，再说明位置。", "这个历史悠久的村庄位于山谷中。 / The old village is located in the valley."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "这所学校拥有一座图书馆，图书馆位于校园东部。\nThe school has a library. The library is located in the eastern part of the campus."},
+   {"p": "学校拥有图书馆，用 school 作 have 的主语。第二句说明图书馆的位置，用 library 作 located 的主语。"}
+  ]},
+  {"id": "check-exist", "type": "check", "title": "练习一", "points": ["exist"], "groups": [{"items": [
+   {"stem": "这个盒子里装着几枚保存完好的古代硬币。", "options": ["There are several well-preserved ancient coins near the box.", "The box contains several ancient coins.", "The box contains several well-preserved ancient coins.", "The box has several well-preserved ancient coins on it."], "answer": 2, "why": "依据：「盒子里装着」，盒子是容器，用 contains，即第三项。第二项漏译了「保存完好的」。", "point": "exist"},
+   {"stem": "公园的正中央有一座小桥。", "options": ["There is a small bridge near the center of the park.", "There is a small bridge right in the center of the park.", "There are some small bridges right in the center of the park.", "There is a small bridge at the edge of the park."], "answer": 1, "why": "「公园的正中央有」表示存在，用 there is，right in the center 译出「正中央」，即第二项。第一项的 near 不是正中央。", "point": "exist"}
+  ]}]},
+  {"id": "check-location", "type": "check", "title": "练习二", "points": ["location"], "groups": [{"items": [
+   {"stem": "这座艺术馆位于城市中心的一座老建筑内。 The gallery is located ___ an old building in the city center.", "accept": ["in"], "why": "located in 表示位于某一范围内。", "point": "location"},
+   {"stem": "这个村庄位于湖的西面。", "lead": "The village", "chunks": ["lies", "to the west", "of", "the lake"], "tail": ".", "extra": ["in"], "why": "lies to the west of 表示位于湖以西。", "point": "location"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["exist", "location"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "这所学校拥有一间宽敞的音乐教室。", "options": ["There is a spacious music classroom near the school.", "The school has a spacious music classroom.", "The school has a music classroom.", "The school have a spacious music classroom."], "answer": 1, "why": "学校是拥有者，用 has 表示「拥有」，即第二项。第三项漏译了「宽敞的」。", "point": "exist"},
+   {"stem": "木箱里装有一些关于当地历史的旧照片。", "options": ["The wooden box contains some old photographs.", "There are some old photographs related to local history beside the wooden box.", "The wooden box contains some old photographs related to local history.", "The wooden box contain some old photographs related to local history."], "answer": 2, "why": "木箱是容器，用 contains；related to local history 译出「关于当地历史的」，即第三项。第一项漏译了这一部分。", "point": "exist"},
+   {"stem": "这座小镇位于湖以北，处在湖的范围之外。", "options": ["The town lies to the north of the lake.", "The lake lies to the north of the town.", "The town lies in the north of the lake.", "The town lies to the south of the lake."], "answer": 0, "why": "小镇在湖的范围以外，用 to the north of，即第一项。第三项 in the north of 表示在湖的范围之内。", "point": "location"},
+   {"stem": "这个展览馆位于大学校园内的一座旧楼中。", "options": ["The exhibition hall is located near an old building on the university campus.", "An old building is located in the exhibition hall on the university campus.", "The exhibition hall has an old building on the university campus.", "The exhibition hall is located in an old building on the university campus."], "answer": 3, "why": "展览馆是要说明位置的事物，作主语；located in 引出所在的旧楼，即第四项。第二项把展览馆和旧楼的关系弄反了。", "point": "location"},
+   {"stem": "广场中央有几棵高大的树木。", "lead": "There", "chunks": ["are", "several tall trees", "in the center", "of the square"], "tail": ".", "extra": ["is"], "why": "复数 trees 与 are 连用。", "point": "exist"},
+   {"stem": "这座桥位于山谷东面，处于山谷范围之外。", "lead": "The bridge", "chunks": ["lies", "to the east", "of", "the valley"], "tail": ".", "extra": ["in"], "why": "to the east of 表示在山谷外的东面。", "point": "location"},
+   {"stem": "这座博物馆位于城市的历史街区。 The museum is located ___ the historic district.", "accept": ["in"], "why": "located in 引出所在的区域。", "point": "location"},
+   {"stem": "这个盒子里有一张古老的地图。 The box ___ an old map. Use the present tense of contain.", "accept": ["contains"], "why": "单数主语 box 与 contains 连用。", "point": "exist"}
+  ]}]}]}
+ ]
+}

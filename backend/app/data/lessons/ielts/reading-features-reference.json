@@ -1,0 +1,406 @@
+{
+ "id": "reading-features-reference",
+ "title": "指代与替代",
+ "goal": "根据数、语义和上下文确定回指对象及事件。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "antecedent",
+   "label": "确定代词对应的对象"
+  },
+  {
+   "id": "event",
+   "label": "辨认指向前句事件的替代表达"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "雅思 IELTS Academic：课表",
+   "url": "docs/syllabi/ielts.md",
+   "used": "课程范围与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "回指是用代词或名词短语指前文已经出现的内容。判断时先核对单复数和意思，再读前后句，确定指的范围。"
+    },
+    {
+     "box": "The curator placed the maps in a cabinet. She locked it at the end of the day."
+    },
+    {
+     "p": "She 指 curator，it 指 cabinet。maps 是复数，不能用 it 指代。"
+    }
+   ]
+  },
+  {
+   "id": "pronouns",
+   "type": "table",
+   "title": "人称与指示代词",
+   "cols": [
+    "类型",
+    "例句",
+    "指代"
+   ],
+   "rows": [
+    [
+     "人称代词",
+     "The botanist labelled the samples before she packed them for transport to another laboratory, where a second team would examine their surfaces.",
+     "she 指 botanist；them 指 samples。"
+    ],
+    [
+     "人称代词",
+     "The engineers examined the valve, and they replaced it after finding damage that had prevented the machine from operating at its normal speed.",
+     "they 指 engineers；it 指 valve。"
+    ],
+    [
+     "人称代词",
+     "A painter showed the drawings to two archivists, who placed them in protective folders before the exhibition opened to the public that afternoon.",
+     "them 指 drawings。"
+    ],
+    [
+     "指示代词",
+     "The first jar was too narrow for a hand, while the second had a wide opening; this was suitable for taking out large objects by hand.",
+     "this 指第二个罐。"
+    ],
+    [
+     "指示代词",
+     "Several routes were considered in the report, but those near the river were excluded because regular flooding made them difficult to maintain.",
+     "those 指靠河的 routes。"
+    ],
+    [
+     "指示代词",
+     "The museum stored two fragile maps separately from its newer photographs; these were later displayed in new frames in the main gallery.",
+     "these 指 photographs。"
+    ]
+   ]
+  },
+  {
+   "id": "substitution",
+   "type": "table",
+   "title": "前后项与名词替代",
+   "cols": [
+    "类型",
+    "例句",
+    "指代"
+   ],
+   "rows": [
+    [
+     "前者",
+     "A sketch and a model were displayed together; the former showed the external shape while the latter demonstrated how the mechanism moved.",
+     "the former 指 sketch。"
+    ],
+    [
+     "后者",
+     "The study compared a tunnel with a bridge; the latter required a taller support, according to the plan prepared for the local council.",
+     "the latter 指 bridge。"
+    ],
+    [
+     "前后项",
+     "The analyst compared the old sample and the new sample; the former contained more salt, whereas the latter contained more sand by weight.",
+     "former 指旧样本；latter 指新样本。"
+    ],
+    [
+     "同义名词",
+     "A researcher devised a short questionnaire for residents; this survey asked about travel habits rather than the cost of building a new road.",
+     "this survey 指 questionnaire。"
+    ],
+    [
+     "同义名词",
+     "The group built a model of the gate; the replica showed the direction of movement but did not reproduce the gate at full size.",
+     "the replica 指 model。"
+    ],
+    [
+     "同义名词",
+     "A technician fitted a protective cover over the switch; the shield reduced accidental contact while leaving the indicator visible to the operator.",
+     "the shield 指 cover。"
+    ]
+   ]
+  },
+  {
+   "id": "events",
+   "type": "table",
+   "title": "事件回指",
+   "cols": [
+    "范围",
+    "例句",
+    "指代"
+   ],
+   "rows": [
+    [
+     "单个名词",
+     "The librarian placed a map beside a catalogue. This map was printed on thick paper and had a folded edge along its lower side.",
+     "This map 指前句的 map。"
+    ],
+    [
+     "前句事件",
+     "The team closed the road during the repairs. This delayed deliveries to the museum until the following morning, when access was restored.",
+     "This 指封路这一事件。"
+    ],
+    [
+     "前句事件",
+     "The tank lost water overnight. This prompted an inspection of the pipe before the system was returned to use by the building staff.",
+     "This 指水箱夜间失水。"
+    ],
+    [
+     "前句事件",
+     "The gallery extended its opening hours on Fridays. This change allowed visitors to enter after work without altering the schedule on other days.",
+     "This change 指延长开放时间。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "antecedent",
+    "event"
+   ],
+   "groups": [
+    {
+     "text": "The editor sent the reports to the authors. She asked them to check the dates before publication.",
+     "items": [
+      {
+       "stem": "Who does 'She' refer to?",
+       "options": [
+        "The editor",
+        "The authors",
+        "The reports",
+        "The dates"
+       ],
+       "answer": 0,
+       "why": "She 是单数，指前句的人物 editor，即第一项。authors 是复数，同一句里的 them 才指 authors。",
+       "point": "antecedent"
+      }
+     ]
+    },
+    {
+     "text": "A sketch and a model were displayed. The latter showed the gate's movement.",
+     "items": [
+      {
+       "stem": "What does 'The latter' refer to?",
+       "options": [
+        "The sketch",
+        "The model",
+        "The gate",
+        "The movement"
+       ],
+       "answer": 1,
+       "why": "A sketch and a model 中后提到的是 model，the latter 指它，即第二项。",
+       "point": "antecedent"
+      }
+     ]
+    },
+    {
+     "text": "The depot closed its entrance for repairs. This forced deliveries to use the rear gate.",
+     "items": [
+      {
+       "stem": "What does 'This' refer to?",
+       "options": [
+        "The depot's rear gate",
+        "The deliveries at the gate",
+        "The closure of the entrance",
+        "The repairs to the rear gate"
+       ],
+       "answer": 2,
+       "why": "This 指前句 closed its entrance 这件事，即第三项。入口关闭，送货才改走后门。",
+       "point": "event"
+      }
+     ]
+    },
+    {
+     "text": "The team designed a small water filter. The device was tested in a separate tank.",
+     "items": [
+      {
+       "stem": "What does 'The device' refer to?",
+       "options": [
+        "The design team",
+        "The separate tank",
+        "The water in the separate tank",
+        "The small water filter"
+       ],
+       "answer": 3,
+       "why": "The device 是前句 a small water filter 的同义名词，即第四项。在水箱里接受测试的正是这个过滤器。",
+       "point": "antecedent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "antecedent",
+    "event"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "The museum compared a drawing with a photograph. The former showed a gate before repair, while the latter showed it afterwards. Staff placed both images beside a model. The model could be moved by hand. The museum then extended the display for another month. This allowed more visitors to examine the images and model together.",
+     "items": [
+      {
+       "stem": "What does 'The former' refer to?",
+       "options": [
+        "The photograph",
+        "The drawing",
+        "The model",
+        "The gate"
+       ],
+       "answer": 1,
+       "why": "a drawing with a photograph 中先提到 drawing，the former 指它，即第二项。",
+       "point": "antecedent"
+      },
+      {
+       "stem": "What does 'This' refer to in the final sentence?",
+       "options": [
+        "The gate's repair",
+        "The model's movement",
+        "The comparison of images",
+        "The extension of the display"
+       ],
+       "answer": 3,
+       "why": "This 指前句 extended the display for another month 这件事，即第四项。展期延长，更多访客才能参观。",
+       "point": "event"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "antecedent",
+    "event"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A conservator examined a painting and a frame before an exhibition. She found a crack in the frame, while the painting remained stable. The conservator photographed the crack and sent the images to a colleague. He compared them with photographs from an earlier inspection. The museum postponed the installation until the frame had been supported. This gave the team time to test the support. A temporary barrier was then placed around the work area. The barrier prevented visitors from entering while the support was fitted. Once the work was complete, the painting and frame were installed together.",
+       "items": [
+        {
+         "stem": "Who does 'She' refer to?",
+         "options": [
+          "The colleague",
+          "The conservator",
+          "The museum visitor",
+          "The earlier inspector"
+         ],
+         "answer": 1,
+         "why": "She 指前句的 conservator，即第二项。下文的 colleague 用 He 指代。",
+         "point": "antecedent"
+        },
+        {
+         "stem": "What does 'them' refer to?",
+         "options": [
+          "The painting and frame",
+          "The crack and the support",
+          "The earlier inspection photographs",
+          "The images of the crack"
+         ],
+         "answer": 3,
+         "why": "前句是 sent the images to a colleague，them 指这些照片，即第四项。早先检查的照片是比较的另一方，第三项把两者弄反了。",
+         "point": "antecedent"
+        },
+        {
+         "stem": "What does 'This' refer to?",
+         "options": [
+          "The postponement of installation",
+          "The earlier inspection of the painting",
+          "The support fitted to the frame",
+          "The fitting of the temporary barrier"
+         ],
+         "answer": 0,
+         "why": "This 指前句 postponed the installation 这件事，即第一项。推迟安装，团队才有时间测试支撑物。",
+         "point": "event"
+        },
+        {
+         "stem": "What does 'The barrier' refer to?",
+         "options": [
+          "The support fitted to the cracked frame",
+          "The frame around the painting",
+          "The structure around the work area",
+          "The postponement of the installation"
+         ],
+         "answer": 2,
+         "why": "The barrier 重复前句的 A temporary barrier was then placed around the work area，即第三项。",
+         "point": "antecedent"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A research team compared a river crossing and a coastal crossing. The former was shorter, but the latter avoided a steep hill. The team built a scale model of the coastal route. This replica showed the planned position of the bridge and its approaches. The team then discovered that a proposed path crossed a drainage channel. This prompted a revision of the path. The revised drawing left the channel open, and it was sent to the council for review. The council requested a further survey before deciding whether to approve the revised route.",
+       "items": [
+        {
+         "stem": "What does 'The former' refer to?",
+         "options": [
+          "The coastal crossing",
+          "The river crossing",
+          "The scale model",
+          "The drainage channel"
+         ],
+         "answer": 1,
+         "why": "a river crossing and a coastal crossing 中先提到的是 river crossing，the former 指它，即第二项。",
+         "point": "antecedent"
+        },
+        {
+         "stem": "What does 'This replica' refer to?",
+         "options": [
+          "The scale model",
+          "The steep hill",
+          "The drainage channel",
+          "The revised drawing"
+         ],
+         "answer": 0,
+         "why": "This replica 是前句 a scale model 的同义名词，即第一项。",
+         "point": "antecedent"
+        },
+        {
+         "stem": "What prompted the revision of the path?",
+         "options": [
+          "The council's request for a survey",
+          "The shorter length of the river crossing",
+          "The planned position of the bridge",
+          "Finding that the path crossed a channel"
+         ],
+         "answer": 3,
+         "why": "前句是 discovered that a proposed path crossed a drainage channel，This prompted a revision 的 This 指这一发现，即第四项。",
+         "point": "event"
+        },
+        {
+         "stem": "What does 'it' refer to in the sentence about the council?",
+         "options": [
+          "The drainage channel",
+          "The planned bridge",
+          "The revised drawing",
+          "The scale model"
+         ],
+         "answer": 2,
+         "why": "it 是并列分句的主语，指前半句的 The revised drawing，即第三项。channel 只是图纸上保留的内容。",
+         "point": "antecedent"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "id": "reading-passage-narrative",
+ "title": "记叙文的事件结构",
+ "goal": "还原事件先后，并依据人物行动及结果解释变化。",
+ "skill": "阅读",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "sequence", "label": "还原叙事中的事件顺序"},
+  {"id": "change", "label": "根据行动与结果解释人物变化"}
+ ],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "记叙文结构和知识点"}],
+ "cards": [
+  {"id": "structure", "type": "table", "title": "结构", "cols": ["环节", "作用", "例"], "rows": [
+   ["背景", "交代人物及事件发生的环境。", "Mina joined a neighborhood choir."],
+   ["目标", "说明人物希望完成的事情。", "She wanted to sing at the concert."],
+   ["阻碍", "说明目标面临的具体困难。", "She could not attend the usual rehearsal."],
+   ["尝试", "呈现人物为解决困难采取的行动。", "She practiced with a recording at home."],
+   ["结果", "交代尝试产生的结果及人物认识。", "She sang with the group and valued shared practice."]
+  ]},
+  {"id": "expressions", "type": "table", "title": "常用表达", "cols": ["表达", "作用", "例"], "rows": [
+   ["at first", "引出最初状态，与后文比较。", "At first, Leo worked alone; later he asked for help."],
+   ["later", "标出发生在前述事件之后的行动。", "Later, Leo tested the repaired gate."],
+   ["before", "标明一个事件早于另一个事件。", "Before the test, Leo replaced the hinge."],
+   ["had previously", "回指叙述时点之前的经历。", "Leo had previously watched his uncle repair a gate."],
+   ["eventually", "引出经过尝试后的结果。", "Eventually, the gate opened smoothly."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "At the final rehearsal, Nora offered to move the chairs. A month earlier, she had avoided the stage because she feared making mistakes. Her teacher then gave her a small task: arranging the music stands. Nora practiced after school and gradually became willing to help the whole group."},
+   {"box": "What happened before Nora arranged the music stands?\n1. She offered to move the chairs.\n2. She avoided the stage.\n3. She helped the whole group.\n4. She attended the final rehearsal."},
+   {"p": "开头写 final rehearsal，随后用 A month earlier 回到更早的时间。时间表是回避舞台、接受任务、练习、主动搬椅子。第二项符合顺序。"},
+   {"p": "Nora 从回避舞台到主动帮助，行动表明她更愿意参与集体活动。害怕舞台是她一个月前的状态。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "例", "核对方法"], "rows": [
+   ["叙述顺序", "把开头搬椅子当作最先发生。", "用 A month earlier 排列时间。"],
+   ["一时状态", "把害怕当作 Nora 最终的态度。", "比较开头和结尾的行动。"],
+   ["行动对象", "把整理乐谱架写成搬椅子。", "核对每次行动的对象。"],
+   ["结果扩大", "把愿意帮助写成从未犯错。", "用最终行动核对结论范围。"]
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["sequence", "change"], "groups": [
+   {"look": "passage", "text": "On Friday Amir tested the model boat. Two days earlier, he had built its frame.", "items": [{"stem": "Which event occurred first?", "options": ["He built the boat frame.", "He tested the model boat.", "He tested the frame before building it.", "He built the boat on Friday."], "answer": 0, "why": "Two days earlier 说明造框架在周五测试之前，即第一项。", "point": "sequence"}]},
+   {"look": "passage", "text": "Before planting the seeds, Eva marked the rows. After planting them, she watered the soil.", "items": [{"stem": "What did Eva do immediately after planting?", "options": ["She marked the rows.", "She watered the soil.", "She planted the seeds.", "She marked the planted rows."], "answer": 1, "why": "After planting them, she watered the soil 说明播种之后紧接着浇水，即第二项。marked the rows 发生在播种之前。", "point": "sequence"}]},
+   {"look": "passage", "text": "At first Ben refused suggestions for his poster. After a classmate showed him an unclear heading, he invited others to comment on his draft.", "items": [{"stem": "How did Ben's approach change?", "options": ["He stopped making the poster.", "He removed every heading from his draft.", "He became willing to hear comments.", "He began working without a draft."], "answer": 2, "why": "从 refused suggestions 到 invited others to comment 表明 Ben 开始愿意听取意见。", "point": "change"}]},
+   {"look": "passage", "text": "Lily was disappointed when her first cake sank. She examined the recipe, tried again and kept a note of the change she made.", "items": [{"stem": "What does Lily's second attempt show?", "options": ["She no longer needed to examine the recipe.", "She wanted someone else to bake the cake.", "She considered the first cake complete.", "She used the setback to adjust her method."], "answer": 3, "why": "依据 examined the recipe, tried again and kept a note，Lily 根据第一次的结果调整方法。", "point": "change"}]}
+  ]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["sequence", "change"], "groups": [
+   {"look": "passage", "text": "At the end of the puppet show, Theo thanked his team for their ideas. Two weeks earlier, he had decided to make the puppets alone. When the paper arms kept falling off, he asked Mei for advice. She showed him a different way to join the pieces. Theo then invited the others to test the puppets before the show. Their suggestions helped him make the figures easier to move.", "items": [
+    {"stem": "What did Theo do before asking Mei for advice?", "options": ["He tested the finished show.", "He tried making the puppets alone.", "He thanked the team for its ideas.", "He invited the group to test figures."], "answer": 1, "why": "依据 Two weeks earlier, he had decided to make the puppets alone，独自制作早于向 Mei 求助。", "point": "sequence"},
+    {"stem": "What change is shown by Theo's final actions?", "options": ["He preferred to make all decisions alone.", "He decided that puppets were too difficult.", "He learned to use the group's contributions.", "He stopped making changes to the figures."], "answer": 2, "why": "Theo 邀请他人测试并感谢大家的想法，表明他开始利用团队的贡献。", "point": "change"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["sequence", "change"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "When the neighborhood repair fair opened, Ada stood beside a table of old lamps and explained a safety notice to the first visitor. She had not expected to take that role. Only a month earlier, she had hesitated to speak to anyone she did not know.\n\nAda had signed up because she wanted to learn how small household objects could be repaired. At the first planning meeting, however, the volunteers needed someone to welcome visitors and direct them to the right tables. Ada said nothing. She was worried that she would give people the wrong information, and she had never worked at a public event.\n\nAfter the meeting, her neighbor Malik offered to show her the plan of the room. Together they walked from table to table, noting which volunteers could handle lamps, chairs and bicycles. Ada wrote the information on a card. At the next meeting she practiced giving directions while Malik pretended to be a visitor. She made several mistakes, checked the card and tried again.\n\nOn the morning of the fair, one visitor asked about a chair when the chair table was already busy. Ada told him where to wait and checked with the volunteers there. Later she added waiting information to her card so that she could answer the same question more clearly. By the end of the day she was tired, but she volunteered to help welcome visitors at the next fair. She still kept her card; preparation, she found, made it easier to respond when plans changed.", "items": [
+    {"stem": "What did Ada do before practicing directions with Malik?", "options": ["She wrote table information on a card.", "She welcomed the first fair visitor.", "She added waiting details to the card.", "She offered to help at the next fair."], "answer": 0, "why": "依据 wrote the information on a card 和 At the next meeting she practiced，写卡片先于练习指路。", "point": "sequence"},
+    {"stem": "What did Ada do after discovering that the chair table was busy?", "options": ["She asked Malik to show her the room plan.", "She noted waiting details on her card.", "She practiced giving directions with Malik.", "She stopped giving directions to visitors."], "answer": 1, "why": "依据是 Later she added waiting information to her card。座椅桌忙过之后，她在卡片上补记了等候信息，即第二项。", "point": "sequence"},
+    {"stem": "What does Ada's decision at the end suggest?", "options": ["She wanted to repair lamps without preparation.", "She expected every visitor to ask about chairs.", "She had become willing to welcome visitors again.", "She believed written notes were no longer useful."], "answer": 2, "why": "依据 volunteered to help welcome visitors at the next fair，Ada 愿意再次负责接待。", "point": "change"}
+   ]},
+   {"look": "passage", "text": "At the school lunch, Daniel placed a bowl of soup on the table and waited while his classmates tasted it. He had helped prepare meals before, but this was the first time he had organized the cooking schedule. His list lay beside the stove, covered in small corrections.\n\nAt the start of the project, Daniel thought that a detailed list would be enough. The class had agreed to cook lunch for the people who maintained the school grounds. Daniel divided the work into chopping, cooking and serving, and wrote each person's name beside a task. He expected everyone to follow the list exactly.\n\nOn the first practice day, the vegetables were ready before the soup pot was free. Meanwhile, the students setting the tables were waiting for the plates, which had not yet been washed. Daniel felt annoyed and tried to hurry both groups. The result was more confusion, and the meal was served late.\n\nThat afternoon, Daniel asked the other students what had held them up. They explained that several tasks depended on equipment being available first. Together they drew arrows between those tasks and agreed to wash the plates before setting tables. They also decided who would tell the cooking group when the pot was ready.\n\nDuring the actual lunch, Daniel checked the plan with each group instead of calling out new orders. When one student finished early, he asked where an extra pair of hands would help. The soup reached the table on time. Daniel kept the corrected list as a record of the team's decisions, not as a plan that only he could change.", "items": [
+    {"stem": "What happened during the first practice day?", "options": ["The class served lunch earlier than planned.", "The group agreed on arrows between tasks.", "Daniel checked the final plan with each group.", "Some work waited for equipment or clean plates."], "answer": 3, "why": "依据是 the vegetables were ready before the soup pot was free 和 plates, which had not yet been washed。第一次练习时，有的工作要等锅和餐盘，即第四项。", "point": "sequence"},
+    {"stem": "What did the students do after discussing the delay?", "options": ["They linked dependent tasks on the plan.", "They let Daniel revise the list alone.", "They agreed to set tables before washing plates.", "They divided the work into three new tasks."], "answer": 0, "why": "依据是 Together they drew arrows between those tasks。箭头把相互依赖的任务连了起来，即第一项。第三项把洗盘子和摆桌子的先后说反了。", "point": "sequence"},
+    {"stem": "How did Daniel's way of organizing the work change?", "options": ["He gave up using any written schedule.", "He included others in revising the plan.", "He gave each group fewer tasks to complete.", "He called out new orders more quickly."], "answer": 1, "why": "依据是 Daniel asked the other students 和 Together they drew arrows。Daniel 从一个人定计划，变成和同学一起改计划，即第二项。", "point": "change"}
+   ]}
+  ]}]}
+ ]
+}

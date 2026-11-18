@@ -1,0 +1,45 @@
+{
+ "id": "writing-continuation-dialogue", "title": "对话描写", "goal": "能用对话推进事件，并正确组织直接引语。", "skill": "写作", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "function", "label": "选择能推动当前事件的对话内容"}, {"id": "punctuation", "label": "正确组织直接引语与引述语"}],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "对话描写的教学内容与知识点"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "对话可以提出请求、鼓励行动、表达歉意或澄清误解。说的话要符合说话人的处境，也要与对方的回应接得上。"}, {"box": "The lid would not move. ‘Could you hold the box?’ Mia asked. Ben held it while she lifted the lid."}, {"p": "Mia 说清了要对方帮什么。Ben 扶住盒子，开盖的动作就能继续。"}]},
+  {"id": "functions", "type": "table", "title": "对话的作用", "cols": ["作用", "情境", "对话"], "rows": [
+   ["请求", "箱子太重", "‘Could you help me lift this box?’"], ["请求", "路线不明", "‘Could you show me the path to the gate?’"],
+   ["鼓励", "朋友担心发言", "‘Start with your first point; I will listen.’"], ["鼓励", "同伴练习失败", "‘Try once more; I can hold the rope steady.’"],
+   ["道歉", "弄湿借来的书", "‘I am sorry I got your book wet.’"], ["道歉", "错过约定", "‘I am sorry I missed our meeting.’"],
+   ["澄清", "误以为文件已寄", "‘I meant to send the draft tomorrow, not today.’"], ["澄清", "误以为钥匙属于自己", "‘That key belongs to the office, not to me.’"]
+  ]},
+  {"id": "response", "type": "table", "title": "说话者与回应", "cols": ["前文", "对应话语", "作用"], "rows": [
+   ["The jar was stuck.", "‘Can you hold it steady?’", "请求协助开瓶"], ["The speaker hesitated.", "‘Take your time; I am listening.’", "鼓励继续发言"],
+   ["A borrowed cup broke.", "‘I am sorry I broke your cup.’", "对损坏物品道歉"], ["Ben thought the train left at six.", "‘It leaves at seven, not six.’", "澄清出发时间"],
+   ["The route divided in two.", "‘Which path leads to the bridge?’", "请求路线信息"], ["A parcel arrived late through Ana's mistake.", "‘I am sorry I sent it late.’", "为寄晚道歉"]
+  ]},
+  {"id": "marks", "type": "table", "title": "引语与标点", "cols": ["结构", "规则", "例句"], "rows": [
+   ["引语在前", "引语末尾的句号改成逗号，再接引述语。", "‘The gate is open,’ she said."],
+   ["引述语在前", "引述语后用逗号，引语首字母大写。", "He said, ‘The gate is open.’"],
+   ["问句在前", "问号留在引号内，引述语小写。", "‘Is the gate open?’ she asked."],
+   ["独立动作", "完整引语与独立动作各自成句。", "‘The gate is open.’ She waved to Ben."],
+   ["换人说话", "换说话人时另起一段。", "‘Is it open?’ Ben asked.\n‘Yes,’ Mia replied."]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [{"box": "Nina thought the meeting was on Friday. Leo checked the note: it said Thursday.\nWhich reply can clarify the mistake?\n1. ‘The note says Thursday, not Friday.’\n2. ‘The note says Friday, not Thursday.’\n3. ‘The meeting on Friday has already ended.’\n4. ‘The meeting note is missing from the desk.’"}, {"p": "便条上写的是 Thursday。第一项说出正确的日期，也指出了误会的日期。"}]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["function", "punctuation"], "groups": [{"items": [
+   {"stem": "Lara cannot reach a jar on the high shelf. Which request advances the action?", "options": ["‘Could you bring that jar down for me?’", "‘Could you put that jar higher for me?’", "‘I have already brought the jar down.’", "‘The jar is already beside my chair.’"], "answer": 0, "why": "罐子在高处，Lara 够不着。第一项请对方把罐子取下来，事情就能继续。", "point": "function"},
+   {"stem": "Which sentence punctuates the question and its reporting clause correctly?", "options": ["‘Is it ready,’ she asked?", "‘Is it ready?’ she asked.", "‘Is it ready?’ She asked.", "‘Is it ready’. she asked."], "answer": 1, "why": "问号放在引号内，后面的引述语以小写字母开头。", "point": "punctuation"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["punctuation"], "groups": [{"items": [
+   {"stem": "Arrange the reporting clause and the quoted statement.", "lead": "Mia", "chunks": ["said,", "‘The", "box", "is"], "tail": "open.’", "extra": ["saying,"], "why": "said 后用逗号，引语的句首词 The 大写。", "point": "punctuation"},
+   {"stem": "Arrange the quoted question and its reporting clause.", "lead": "‘Is", "chunks": ["the", "path", "clear?’", "Ben"], "tail": "asked.", "extra": ["clear,’"], "why": "问号位于引号内，Ben asked 是后置引述语。", "point": "punctuation"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["function", "punctuation"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "A student hesitates before reading aloud. Which reply encourages her to begin?", "options": ["‘Start with one sentence; I will listen.’", "‘You have already read every sentence.’", "‘I cannot listen to your first sentence.’", "‘Could you read the page for me instead?’"], "answer": 0, "why": "学生开口前犹豫。第一项建议她先读一句，并说自己会听。", "point": "function"},
+   {"stem": "Tom accidentally tore a friend's map. Which sentence acknowledges the mistake?", "options": ["‘Your map was torn before I borrowed it.’", "‘I am sorry I tore your map by accident.’", "‘I am glad your map was not torn.’", "‘I am sorry you tore your own map.’"], "answer": 1, "why": "地图是 Tom 弄破的。第二项道歉，并说明是自己不小心弄破的。第四项把弄破地图的人说成了朋友。", "point": "function"},
+   {"stem": "Anna believes the library closes at five, but the posted notice says six. Which reply clarifies the time?", "options": ["‘The library closed at five yesterday.’", "‘The library opens at five, not six.’", "‘The notice says six, not five.’", "‘The notice says five, not six.’"], "answer": 2, "why": "依据是 the posted notice says six。第三项说出通知上的时间，并纠正了五点的误会。", "point": "function"},
+   {"stem": "Which sentence correctly punctuates a quoted statement followed by a reporting clause?", "options": ["‘The key is here’. he said.", "‘The key is here.’ he said.", "‘The key is here,’ He said.", "‘The key is here,’ he said."], "answer": 3, "why": "陈述引语末尾用逗号连接小写的引述语。", "point": "punctuation"},
+   {"stem": "Arrange the statement after the reporting clause.", "lead": "Lena", "chunks": ["said,", "‘The", "bridge", "is"], "tail": "safe.’", "extra": ["saying,"], "why": "said 后用逗号，引语首字母大写。", "point": "punctuation"},
+   {"stem": "Arrange the question and its reporting clause.", "lead": "‘Is", "chunks": ["the", "gate", "locked?’", "Ravi"], "tail": "asked.", "extra": ["locked,’"], "why": "问号位于引号内，Ravi asked 是后置引述语。", "point": "punctuation"},
+   {"stem": "Arrange the reporting clause and quoted request.", "lead": "Ella", "chunks": ["asked,", "‘Can", "you", "hold"], "tail": "this rope?’", "extra": ["asking,"], "why": "asked 后用逗号，引语以大写的 Can 开始。", "point": "punctuation"},
+   {"stem": "Arrange the quoted statement and its reporting clause.", "lead": "‘The", "chunks": ["train", "has", "left,’", "Mina"], "tail": "said.", "extra": ["left.’"], "why": "引语后的逗号连接后置引述语 Mina said。", "point": "punctuation"}
+  ]}]}]}
+ ]
+}

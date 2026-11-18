@@ -1,0 +1,373 @@
+{
+ "id": "listening-long-attitude",
+ "title": "态度与观点题",
+ "goal": "依据评价与理由判断态度，并确定观点所属者。",
+ "skill": "听力",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "owner",
+   "label": "确定观点所属的说话人"
+  },
+  {
+   "id": "attitude",
+   "label": "根据评价词与理由判断态度"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语（新课标卷）：课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "态度与观点的教学要求"
+  }
+ ],
+ "cards": [
+  {
+   "id": "type",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "态度与观点题根据说话者的评价词和理由判断看法。说话者转述的意见属于被转述的人，要和说话者自己的评价分开。"
+    },
+    {
+     "box": "Mia says the route is too long. I like its scenery, but I'm concerned about the time it takes."
+    },
+    {
+     "p": "路线太长是 Mia 的意见。说话者喜欢沿途风景，同时担心路上花的时间。这是有保留的肯定，不是否定这条路线。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定观点对象",
+     "d": "核对题干中的人物和评价对象。What does Mia think of the route? 询问 Mia 对路线的看法。"
+    },
+    {
+     "t": "2　寻找评价与理由",
+     "d": "评价词说明态度，后面的理由说明原因。I'm satisfied because the route is clearly marked. 表示满意，理由是标识清楚。"
+    },
+    {
+     "t": "3　核对观点所属者",
+     "d": "分清转述和说话者自己的判断。Mia says it's too long. I like it. 一句中，嫌路线太长的是 Mia。"
+    }
+   ]
+  },
+  {
+   "id": "terms",
+   "type": "table",
+   "title": "评价词与理由",
+   "cols": [
+    "评价",
+    "例",
+    "判断"
+   ],
+   "rows": [
+    [
+     "satisfied",
+     "I'm satisfied; the instructions are clear.",
+     "对说明清楚感到满意"
+    ],
+    [
+     "concerned",
+     "I'm concerned that the route takes too long.",
+     "担心所需时间"
+    ],
+    [
+     "doubtful",
+     "I'm doubtful that the boxes will fit.",
+     "怀疑箱子能否放下"
+    ],
+    [
+     "disappointed",
+     "I'm disappointed; the display is closed.",
+     "对展览关闭感到失望"
+    ],
+    [
+     "保留意见",
+     "I like the room, but it's rather dark.",
+     "认可房间，同时指出光线问题"
+    ]
+   ],
+   "note": "判断态度要找到评价的对象和理由。态度只从说出的词句判断，不从声音判断。"
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Kai says the new timetable is perfect. I like the later start, but I'm concerned that the last bus leaves too early."
+    },
+    {
+     "box": "What does the speaker think of the timetable?\n1. It is perfect in every respect.\n2. It has a benefit but raises a concern.\n3. Its later start is its main problem.\n4. Its early last bus is its best feature."
+    },
+    {
+     "p": "I like the later start 是认可，concerned that the last bus leaves too early 是担忧。第二项包含了这两方面。第一项的 perfect 是 Kai 的评价，不是说话者的。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "观点换人",
+     "The speaker calls the timetable perfect.",
+     "perfect 是转述的 Kai 的看法。"
+    ],
+    [
+     "忽略保留",
+     "The speaker approves of every detail.",
+     "说话者担心末班车时间。"
+    ],
+    [
+     "程度过强",
+     "The speaker rejects the entire plan.",
+     "认可较晚开始，同时提出担忧。"
+    ],
+    [
+     "对象替换",
+     "The speaker likes the early last bus.",
+     "认可的对象是较晚的开始时间。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "owner",
+    "attitude"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation with Hana.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Ravi says the new reading room is too bright. I'm satisfied with it because the large windows make the signs easy to read."
+       },
+       {
+        "who": "B",
+        "text": "Yes, I prefer a quieter light, though I agree the signs are clear."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Who considers the room too bright?",
+       "options": [
+        "Hana, who reads the signs easily.",
+        "Ravi, whose opinion Hana reports.",
+        "Both Hana and Ravi, who agree.",
+        "Neither, since the signs are clear."
+       ],
+       "answer": 1,
+       "why": "依据是 Ravi says the new reading room is too bright。嫌阅览室太亮的是 Ravi，由 Hana 转述，即第二项。",
+       "point": "owner"
+      },
+      {
+       "stem": "How does Hana feel about the room?",
+       "options": [
+        "Pleased because its signs are clear.",
+        "Doubtful about its large windows.",
+        "Disappointed by its unclear signs.",
+        "Concerned that its light is too strong."
+       ],
+       "answer": 0,
+       "why": "依据是 I'm satisfied 和 make the signs easy to read。Hana 满意，理由是标识清楚，即第一项。",
+       "point": "attitude"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "owner",
+    "attitude"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I'm Eva from the film club. My friend Owen thinks the new meeting room is too small. I like its screen and I'm satisfied with the sound. Still, I'm concerned that people at the back may find it difficult to see. I'd like to try a different arrangement of the chairs before we decide whether to move. Owen suggested using the hall, but its screen is smaller."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is Eva's view of the new room?",
+       "options": [
+        "She dislikes both its screen and its sound.",
+        "She likes some features but has a concern.",
+        "She finds every seat suitable for viewing.",
+        "She wants to move to the hall without a trial."
+       ],
+       "answer": 1,
+       "why": "依据是 I like its screen 和 I'm concerned that people at the back may find it difficult to see。Eva 喜欢屏幕和音响，但担心后排看不清，即第二项。",
+       "point": "attitude"
+      },
+      {
+       "stem": "Who suggested using the hall?",
+       "options": [
+        "Eva, who wants to rearrange the chairs.",
+        "People who find the back hard to see.",
+        "The club, which prefers a smaller screen.",
+        "Owen, Eva's friend from the film club."
+       ],
+       "answer": 3,
+       "why": "依据是 Owen suggested using the hall。提出用礼堂的是 Eva 的朋友 Owen，即第四项。",
+       "point": "owner"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "owner",
+    "attitude"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation with Lena.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Have you seen the plans for the new riverside path, Amir? The council wants to add benches and plant trees along the route. My neighbor Ruth says the benches will take up too much space. I think the benches are useful for people who need a rest, though I'm concerned about the number of trees. If they are too close together, the path may become narrow."
+         },
+         {
+          "who": "B",
+          "text": "I agree that people need somewhere to sit. I'm satisfied with the tree plan because the drawings show enough room between them. But I'm doubtful that the proposed lights will cover the whole path. The drawing shows lights near the entrance, not the far end."
+         },
+         {
+          "who": "A",
+          "text": "That's a good point. Let's ask the council about the lights at the meeting on Thursday. I'll also ask how much space the trees will need when they grow."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Who believes the benches will occupy too much space?",
+         "options": [
+          "Lena, who values places to rest.",
+          "Ruth, the neighbor Lena mentions.",
+          "Amir, who likes the tree plan.",
+          "The council, which proposed benches."
+         ],
+         "answer": 1,
+         "why": "依据是 My neighbor Ruth says the benches will take up too much space。这是 Lena 转述的邻居 Ruth 的看法，即第二项。",
+         "point": "owner"
+        },
+        {
+         "stem": "What does Lena think of the tree plan?",
+         "options": [
+          "She is pleased with every detail of it.",
+          "She rejects the idea of any trees.",
+          "She is concerned about their spacing.",
+          "She doubts the path needs any benches."
+         ],
+         "answer": 2,
+         "why": "依据是 I'm concerned about the number of trees 和 If they are too close together。Lena 担心树种得太密，即第三项。",
+         "point": "attitude"
+        },
+        {
+         "stem": "What is Amir doubtful about?",
+         "options": [
+          "Whether the trees will have space.",
+          "Whether walkers need to rest.",
+          "Whether the council will hold a meeting.",
+          "Whether the lights cover the full path."
+         ],
+         "answer": 3,
+         "why": "依据是 Amir 说的 I'm doubtful that the proposed lights will cover the whole path。他怀疑灯照不到整条路，即第四项。",
+         "point": "owner"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a talk.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'm Nora, the organizer of the town photography display. My colleague Sam thinks the opening date should be moved because some photographs have not arrived. I understand his concern, but I'm satisfied with the date: the missing photographs are due tomorrow, and the opening is still a week away. I'm disappointed, however, that the large entrance wall cannot be used. A team will be repairing it during the display. We have smaller walls in the next room, so I plan to divide the photographs into groups there. I'm also concerned that visitors may miss that room. We will put a sign beside the entrance to direct them. Sam likes the grouping idea, but he is doubtful that one sign will be enough. At our next meeting we'll decide whether to add another sign near the stairs."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "How does Nora feel about the opening date?",
+         "options": [
+          "She is satisfied with the planned date.",
+          "She is disappointed it is a week away.",
+          "She doubts the photographs were ordered.",
+          "She wants the opening moved with Sam."
+         ],
+         "answer": 0,
+         "why": "依据是 I'm satisfied with the date。缺的照片明天就到，离开幕还有一周，所以 Nora 认可原定日期，即第一项。",
+         "point": "attitude"
+        },
+        {
+         "stem": "Why is Nora disappointed?",
+         "options": [
+          "The missing photographs arrived early.",
+          "The entrance wall will be unavailable.",
+          "The grouping idea has been rejected.",
+          "The display has no smaller rooms."
+         ],
+         "answer": 1,
+         "why": "依据是 I'm disappointed, however, that the large entrance wall cannot be used。入口的大墙不能用，即第二项。",
+         "point": "attitude"
+        },
+        {
+         "stem": "Who doubts that one sign will be sufficient?",
+         "options": [
+          "Nora, who will group the pictures.",
+          "The repair team at the entrance.",
+          "Sam, who likes the grouping idea.",
+          "The visitors using the smaller room."
+         ],
+         "answer": 2,
+         "why": "依据是 Sam likes the grouping idea, but he is doubtful that one sign will be enough。怀疑一块指示牌不够的是 Sam，即第三项。",
+         "point": "owner"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

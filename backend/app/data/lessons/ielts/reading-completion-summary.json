@@ -1,0 +1,68 @@
+{
+ "id": "reading-completion-summary",
+ "title": "摘要填空",
+ "goal": "定位摘要对应的原文范围，并补全连贯的摘要。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "scope", "label": "确定摘要对应的原文范围"},
+  {"id": "coherence", "label": "补出符合连续语义的答案"}
+ ],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "摘要填空的教学内容"}],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "摘要概括原文的一部分或全文。空格前后的内容常是原文的改写。"},
+   {"p": "原词填空从对应原文提取答案。词库填空从所给词中选择符合意义和语法的词。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定范围", "d": "用摘要中的对象和主题定位原文。A harbour 的摘要应先找到介绍港口的段落。"},
+   {"t": "2　对齐关系", "d": "比较摘要与原文的因果、转折及先后关系。Because the path flooded 与 flooding caused closure 表示同一原因。"},
+   {"t": "3　选择答案", "d": "按题面要求提取原词，或从词库中选词。核对词性和词数，例如冠词 a 后面填单数名词 barrier。"},
+   {"t": "4　回读摘要", "d": "把答案放回摘要，连同相邻句再读一遍。The barrier stopped sand 与原文说的功能一致，前后意思才连贯。"}
+  ]},
+  {"id": "mapping", "type": "table", "title": "摘要与原文", "cols": ["线索", "原文", "摘要对应"], "rows": [
+   ["对象", "The harbour has a stone wall.", "The harbour is protected by a wall."],
+   ["因果", "Flooding caused the path to close.", "The path closed because of flooding."],
+   ["先后", "The sheets were dried, then stored.", "Drying preceded storage."],
+   ["概括", "Bees and moths visit the flowers.", "Insects visit the flowers."]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [
+   {"box": "The town planted reeds beside its pond. The reeds slowed water entering the pond, so soil settled before reaching the open water. A fence was later installed to protect the plants.\n\nComplete the summary with ONE WORD from the passage.\nReeds slowed incoming water, allowing _____ to settle."},
+   {"p": "依据是 soil settled before reaching the open water。摘要的 allowing 表示结果，填 soil。fence 属于后来的保护措施。"}
+  ]},
+  {"id": "distractors", "type": "table", "title": "干扰项", "cols": ["情况", "例", "核对"], "rows": [
+   ["词性不同", "protection / protect", "冠词后填名词 protection"],
+   ["相邻细节", "soil / fence", "settle 对应 soil"],
+   ["概括层级", "bees / insects", "多个例子对应上位类别 insects"],
+   ["关系颠倒", "cause / result", "按原文核对原因和结果"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["scope", "coherence"], "groups": [
+   {"text": "The mill stored grain in a loft. Its wheel turned in the stream.", "items": [{"stem": "Complete with ONE WORD from the passage: The mill kept grain in a _____.", "accept": ["loft"], "why": "stored grain in a loft 说明储存地点是 loft。", "point": "scope"}]},
+   {"text": "A shade covered the seedlings. It reduced evaporation from their pots.", "items": [{"stem": "Complete with ONE WORD from the passage: The shade reduced _____ from the pots.", "accept": ["evaporation"], "why": "reduced evaporation from their pots 确定结果为 evaporation。", "point": "scope"}]},
+   {"text": "The survey recorded both colour and size. Only size was used to sort the shells.", "items": [{"stem": "Choose ONE WORD from the word bank: The shells were sorted by _____.", "options": ["colour", "shape", "size", "weight"], "answer": 2, "why": "依据是 Only size was used to sort the shells，填 size。colour 只被记录，没有用于分类。", "point": "coherence"}]},
+   {"text": "The museum repaired the frame before displaying the picture. The glass was cleaned afterwards.", "items": [{"stem": "Choose ONE WORD from the word bank: Before display, the _____ was repaired.", "options": ["glass", "frame", "picture", "display"], "answer": 1, "why": "依据是 repaired the frame before displaying the picture，填 frame。glass 是后来清洁的，没有修理。", "point": "coherence"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["scope", "coherence"], "groups": [{
+   "text": "A pottery workshop left newly shaped bowls on wooden boards. When their surfaces were firm, the potter smoothed their rims. The bowls then dried fully before firing in a kiln. The boards were kept for the next batch.\n\nSummary: The bowls first rested on boards. Once firm, their (1) were smoothed; complete (2) came before firing.",
+   "items": [
+    {"stem": "Choose ONE WORD from the word bank for (1).", "options": ["boards", "drying", "firing", "rims", "surfaces"], "answer": 3, "why": "依据是 the potter smoothed their rims，填 rims。surfaces 是变硬的部分，不是被修整的部分。", "point": "scope"},
+    {"stem": "Choose ONE WORD from the word bank for (2).", "options": ["boards", "drying", "firing", "rims", "surfaces"], "answer": 1, "why": "依据是 dried fully before firing。完全干燥在烧制之前，填 drying。", "point": "coherence"}
+   ]
+  }]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["scope", "coherence"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A village archive wanted to make a collection of old posters accessible without exposing the originals to frequent handling. The posters were printed on paper of several sizes and had been kept in drawers. Staff began by examining their condition. Sheets with loose edges were placed in separate folders, while those in stable condition were selected for a photographic trial. The archive recorded the location of every sheet before moving it, so that each could be returned to the same drawer. The record also gave staff a consistent way to organise their work.\n\nFor the trial, a camera was fixed above a flat table. A ruler was placed beside each poster to provide a scale in the image. Staff adjusted the lighting to make the printed detail visible, but they avoided pressing the sheets beneath glass. Each image was checked on a screen before the next sheet was photographed. If a corner was outside the frame, the photograph was taken again. The file name included the poster's catalogue number, allowing the image to be matched with the paper original.\n\nThe archive then made the images available on a computer in its reading room. Visitors could enlarge the photographs to inspect small lettering. Staff retained the originals in their folders and continued to monitor the condition of the paper. The project did not attempt to restore faded ink, and the images were not treated as replacements for the physical collection. Instead, they offered a way to consult the designs while reducing repeated handling of the sheets.\n\nSummary: The archive selected stable posters for photography. It placed a (1) beside each sheet to show scale. Images with a missing (2) were retaken. Visitors could enlarge the files to examine small (3).",
+    "items": [
+     {"stem": "Complete (1) with ONE WORD from the passage.", "accept": ["ruler"], "why": "A ruler was placed beside each poster to provide a scale 指明所需物件。", "point": "scope"},
+     {"stem": "Complete (2) with ONE WORD from the passage.", "accept": ["corner"], "why": "If a corner was outside the frame, the photograph was taken again 给出重拍条件。", "point": "coherence"},
+     {"stem": "Complete (3) with ONE WORD from the passage.", "accept": ["lettering"], "why": "enlarge the photographs to inspect small lettering 对应查看的内容。", "point": "coherence"}
+    ]},
+   {"look": "passage", "text": "A small coastal garden had a problem with wind. Young plants in an exposed bed grew unevenly, although plants of the same kind in a sheltered bed developed normally. The gardeners decided to compare two barriers rather than move the exposed bed. They built a low fence of narrow wooden strips along one side and planted a row of shrubs along another. The two barriers faced different directions, so the comparison was intended as a local trial rather than a general measurement of their performance.\n\nThe gardeners recorded the height of selected plants at regular intervals. They also placed lightweight markers in the soil to indicate the direction in which stems had bent. A notebook contained observations of damaged leaves, but these descriptions were kept separate from the height measurements. During the first season, the shrubs were still small. The fence reduced the movement of the nearest plants, while the shrubs provided little shelter until their branches became denser. The gardeners kept the same observation points throughout that season. This made it easier to compare successive entries in the notebook.\n\nIn the following season, the gardeners repeated the observations. They found that the shrubs now sheltered a wider area than before, though the fence continued to protect the plants immediately behind it. Neither barrier removed the need to water the bed. The gardeners therefore retained both, while noting that the trial did not establish how either would perform in a different garden. The written record helped them distinguish changes in the barriers from differences between individual plants.\n\nSummary: The gardeners compared a fence and shrubs in an exposed bed. They measured plant (1) and used markers to show the direction of bent (2). Later, denser (3) sheltered a wider area.",
+    "items": [
+     {"stem": "Choose ONE WORD from the word bank for (1).", "options": ["fence", "height", "leaves", "shrubs", "stems", "water"], "answer": 1, "why": "依据是 recorded the height of selected plants，填 height。", "point": "scope"},
+     {"stem": "Choose ONE WORD from the word bank for (2).", "options": ["fence", "height", "leaves", "shrubs", "stems", "water"], "answer": 4, "why": "依据是 markers ... to indicate the direction in which stems had bent，填 stems。leaves 出现在受损叶片的记录里。", "point": "scope"},
+     {"stem": "Choose ONE WORD from the word bank for (3).", "options": ["fence", "height", "leaves", "shrubs", "stems", "water"], "answer": 3, "why": "依据是 the shrubs now sheltered a wider area than before，填 shrubs。fence 只保护紧挨着的植物。", "point": "coherence"}
+    ]}
+  ]}]}
+ ]
+}

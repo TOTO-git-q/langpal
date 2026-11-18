@@ -1,0 +1,69 @@
+{
+ "id": "reading-matching-method",
+ "title": "段落匹配的证据核对",
+ "goal": "按陈述查找候选段落，并核对完整证据。",
+ "skill": "阅读",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "procedure", "label": "按陈述信息查找候选段落"},
+  {"id": "evidence", "label": "核对段落是否支持完整陈述"}
+ ],
+ "sources": [
+  {"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读教学依据"}
+ ],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "段落匹配要求为每条陈述找出支持它的段落。判断的依据是段落里的具体事实，不是两者共有的主题词。"},
+   {"box": "Statement: Volunteers repaired damaged chairs.\nParagraph: Volunteers checked the chairs and repaired the broken ones."},
+   {"p": "陈述的主体、动作和对象在这段里都有依据。如果段落只说志愿者检查椅子，就支持不了 repaired 这个动作。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　读取陈述", "d": "确定陈述的主体、动作和对象。Volunteers repaired chairs 的主体是 volunteers，动作是 repaired。"},
+   {"t": "2　标出线索", "d": "选取能区分段落的信息。damaged chairs 比反复出现的 volunteers 更具体。"},
+   {"t": "3　查找候选段", "d": "寻找线索及其近义表达。broken chairs 可以对应 damaged chairs。"},
+   {"t": "4　核对并回查", "d": "逐项核对陈述的主体、动作和对象。证据不足时先暂留这条陈述，做完其他陈述后再回查候选段。"}
+  ]},
+  {"id": "evidence", "type": "table", "title": "证据核对", "cols": ["核对内容", "陈述", "原文依据"], "rows": [
+   ["主体", "Residents planted trees.", "Residents planted trees; workers supplied tools."],
+   ["动作", "Workers supplied tools.", "Workers supplied tools; residents planted trees."],
+   ["对象", "A team repaired benches.", "The team repaired benches and inspected lamps."],
+   ["条件", "Some members met on Friday.", "Some members met on Friday; others met later."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A. A museum invited residents to describe old photographs. Staff then recorded their memories.\nB. The museum displayed photographs in a new room. Volunteers cleaned the frames.\n\nStatement: People living nearby contributed memories about pictures."},
+   {"p": "living nearby 对应 residents，contributed memories 对应 describe old photographs 和 recorded their memories。第一段支持完整陈述。"},
+   {"p": "第二段也提到 photographs，但讲的是展示和清洁。还不能确定 memories 出自哪一段时，先暂留这条陈述，再回查相关句子。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "例", "核对依据"], "rows": [
+   ["主题相同", "photographs 出现在两段", "核对 contributed memories"],
+   ["主体错置", "Staff cleaned the frames.", "原文是 Volunteers cleaned"],
+   ["动作错置", "Residents displayed photographs.", "原文是 residents described them"],
+   ["条件遗漏", "All members met on Friday.", "原文是 Some members"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["procedure", "evidence"], "groups": [
+   {"look": "passage", "text": "A. The garden group bought seeds. B. The garden group lent tools to a school.", "items": [{"stem": "The group lent equipment to a school.", "options": ["Paragraph A", "Paragraph B", "Both paragraphs", "Neither paragraph"], "answer": 1, "why": "第二段 lent tools to a school 是依据，equipment 改写了 tools。第一段只说买种子。", "point": "procedure"}]},
+   {"look": "passage", "text": "A. Staff sorted donated coats. B. Visitors donated coats to the shelter.", "items": [{"stem": "The shelter received coats from visitors.", "options": ["Both paragraphs", "Neither paragraph", "Paragraph A", "Paragraph B"], "answer": 3, "why": "第二段 Visitors donated coats to the shelter 说明外套由访客捐给收容所。第一段也有 donated coats，但没有说捐赠者是谁。", "point": "evidence"}]},
+   {"look": "passage", "text": "A. A club met before lunch. B. A club prepared lunch after its meeting.", "items": [{"stem": "The club prepared a meal after meeting.", "options": ["Both paragraphs", "Paragraph A", "Paragraph B", "Neither paragraph"], "answer": 2, "why": "第二段 prepared lunch after its meeting 同时有备餐和时间先后。第一段只说午饭前开会，没有备餐。", "point": "evidence"}]},
+   {"look": "passage", "text": "A. The hall displayed maps. B. The hall stored models of ships.", "items": [{"stem": "Models of boats were kept in the hall.", "options": ["Paragraph A", "Paragraph B", "Both paragraphs", "Neither paragraph"], "answer": 1, "why": "第二段 stored models of ships 是依据，kept 改写 stored，boats 改写 ships。", "point": "procedure"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["procedure", "evidence"], "groups": [
+   {"look": "passage", "text": "A. The town library collected recipes from residents. A cook sorted the contributions.\nB. A school collected stories about local food. Students read the stories aloud.\nC. The library printed the recipes in a booklet. It gave copies to residents.", "items": [
+    {"stem": "Local people supplied recipes to a library.", "options": ["Paragraph A", "Paragraph B", "Paragraph C", "None of the paragraphs"], "answer": 0, "why": "第一段 The town library collected recipes from residents 说明菜谱来自居民。第二段的学校收集的是故事。", "point": "procedure"},
+    {"stem": "Residents received a printed collection of recipes.", "options": ["Paragraph A", "Paragraph B", "Paragraph C", "None of the paragraphs"], "answer": 2, "why": "第三段 printed the recipes in a booklet 和 gave copies to residents 合起来才是依据。第一段的居民是提供菜谱的人。", "point": "evidence"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["procedure", "evidence"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A. A neighborhood association wanted to make its unused meeting room useful again. Members asked local artists to suggest activities for the space. Several artists proposed a shared exhibition, while others preferred classes. The association recorded both suggestions before deciding how to use the room. It did not ask the artists to pay for the initial discussion. The notes of the discussion were kept in the association office for members who could not attend the meeting.\n\nB. After the discussion, the association chose to hold a monthly exhibition. It invited artists to lend small works and asked volunteers to arrange the display. The artists kept ownership of their work throughout the event. Visitors could speak with some of the artists, but no sales were arranged by the association. The works were collected by the artists at the end of the exhibition.\n\nC. The volunteers found that the room was too dark for a clear display. They borrowed additional lamps from a nearby school and placed them beside the works. The school also offered chairs, although the volunteers had already obtained enough seating elsewhere. The borrowed lamps were returned after the exhibition ended. The volunteers checked that each lamp was working before returning it.\n\nD. At the end of the month, visitors filled out a short paper survey. Many asked for longer opening hours, while a smaller group suggested more seating. The association compared these comments with the volunteers' records before planning another event. It also thanked the school for the equipment it had lent.", "items": [
+    {"stem": "Artists offered ideas for activities in an unused room.", "options": ["Paragraph A", "Paragraph B", "Paragraph C", "Paragraph D"], "answer": 0, "why": "第一段 Members asked local artists to suggest activities 给出了提建议的人和建议的内容，unused room 对应 unused meeting room。", "point": "procedure"},
+    {"stem": "Volunteers borrowed lighting because the display room was dim.", "options": ["Paragraph A", "Paragraph B", "Paragraph C", "Paragraph D"], "answer": 2, "why": "第三段 too dark 是原因，borrowed additional lamps 是行动，dim 改写 too dark。第四段也提到借来的设备，但没有说借的原因。", "point": "evidence"},
+    {"stem": "Visitors requested more time to view future events.", "options": ["Paragraph A", "Paragraph B", "Paragraph C", "Paragraph D"], "answer": 3, "why": "第四段 Many asked for longer opening hours 说明访客希望延长开放时间。", "point": "procedure"}
+   ]},
+   {"look": "passage", "text": "A. A ferry service connects two sides of a wide river. Its managers wanted to understand why some passengers avoided the earliest trip. They placed a question box near the ticket office and collected written comments for two weeks. Staff did not record passengers' names or ask about their occupations. The box was available throughout the day so that passengers on different trips could leave their observations.\n\nB. Several comments mentioned that the bus reaching the ferry terminal arrived too late for the first departure. Other passengers described difficulty finding the timetable. The managers passed the comments about bus connections to the local transport office. They kept the timetable comments for their own review. The two types of comment concerned separate parts of the journey.\n\nC. The transport office adjusted one bus route so that it reached the terminal earlier. The ferry managers then posted a revised timetable at the bus stop as well as at the ticket office. Neither change required the ferry to alter its departure time. Passengers could use the two notices to plan the connection. Staff checked that the notices displayed the same information in both places.\n\nD. A month later, staff counted passengers on the first ferry and compared the figure with an earlier count. More people used that trip, although the count alone did not establish which change caused the increase. The managers planned to collect further comments before making any additional adjustments to the service. The count was kept with the earlier records for future comparison.", "items": [
+    {"stem": "Written feedback identified a bus arriving after the first ferry left.", "options": ["Paragraph A", "Paragraph B", "Paragraph C", "Paragraph D"], "answer": 1, "why": "第二段 the bus reaching the ferry terminal arrived too late for the first departure 是书面意见里的接驳问题。第三段讲公交改线，是之后的处理。", "point": "evidence"},
+    {"stem": "The ferry timetable was displayed in an additional location.", "options": ["Paragraph A", "Paragraph B", "Paragraph C", "Paragraph D"], "answer": 2, "why": "第三段 posted a revised timetable at the bus stop as well as at the ticket office 说明时刻表多了一个张贴地点。", "point": "procedure"},
+    {"stem": "A later count showed greater use of the first trip without identifying a cause.", "options": ["Paragraph A", "Paragraph B", "Paragraph C", "Paragraph D"], "answer": 3, "why": "第四段 More people used that trip 和 did not establish which change caused the increase 合起来支持整条陈述。", "point": "evidence"}
+   ]}
+  ]}]}
+ ]
+}

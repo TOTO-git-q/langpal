@@ -1,0 +1,69 @@
+{
+ "id": "reading-careful-inference",
+ "title": "有依据的推断题",
+ "goal": "依据因果、对比与条件作有限推断，排除超过证据范围的结论。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "basis", "label": "确定推断所依赖的原文信息"},
+  {"id": "limit", "label": "排除超过证据范围的结论"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读理解能力的课程安排"}],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "推断题要根据原文信息得出结论。题干常用 infer、imply、suggest。"},
+   {"box": "What can be inferred from the passage?\nWhat does the result imply?\nWhat does the passage suggest about the plan?"},
+   {"p": "推断要把原文中的几条事实或关系连起来。结论的对象、条件和程度不超出原文。依据只来自文章，不来自常识。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定对象", "d": "找出题干问的人、事物或结果。题干问一个结果说明什么时，相关的措施和观察结果都要读。"},
+   {"t": "2　连接依据", "d": "找出相关的因果、对比或条件关系。把相邻的陈述合起来，只向前推一步。"},
+   {"t": "3　核对范围", "d": "对照原文核对结论的群体、时间和程度。需要额外假设的选项可排除，把部分说成全部的选项也可排除。"}
+  ]},
+  {"id": "basis-types", "type": "table", "title": "推断依据", "cols": ["关系", "原文", "支持的结论"], "rows": [
+   ["因果", "Rain closed the garden; the tour moved indoors.", "雨影响了参观地点"],
+   ["因果", "A broken lift delayed deliveries to the upper floor.", "送货受电梯故障影响"],
+   ["对比", "The old route takes 20 minutes; the new one takes 12.", "新路线用时较短"],
+   ["对比", "Mara returned three books; Lee returned one.", "Mara 归还的书更多"],
+   ["条件", "Only members borrow tools. Jo borrowed a tool.", "Jo 是会员"],
+   ["条件", "Everyone who entered had a pass. Sam entered.", "Sam 有通行证"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "The old booking form took most visitors ten minutes to complete. After the questions were reduced, most visitors finished the revised form in five minutes. The office did not compare the number of applications."},
+   {"box": "What can be inferred about the revised form?\n1. It received more applications from every visitor.\n2. Most visitors completed it in less time than the old form.\n3. It required visitors to answer more questions than before.\n4. Every visitor completed it in exactly five minutes."},
+   {"p": "旧表用 ten minutes，新表用 five minutes。两句说的都是 most visitors。第二项保留了这个范围，并比较了用时。"},
+   {"p": "原文没有比较申请数量，第一项无从推出。第四项把 most 扩大为 every。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "例", "排除依据"], "rows": [
+   ["范围扩大", "Most visitors 改为 every visitor", "原文只说多数访客"],
+   ["方向颠倒", "新表用时更长", "五分钟少于十分钟"],
+   ["常识推测", "缩短表格必然增加申请量", "原文没有比较申请数量"],
+   ["条件遗漏", "允许所有人借用工具", "借用限于会员"]
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["basis", "limit"], "groups": [
+   {"look": "passage", "text": "The first workshop lasted ninety minutes. The revised workshop lasted sixty minutes.", "items": [{"stem": "What can be inferred about the revised workshop?", "options": ["It lasted longer than the first one.", "It took less time than the first one.", "It was cut to thirty minutes in total.", "It ran for ninety minutes, like the first."], "answer": 1, "why": "六十分钟少于九十分钟，支持新工作坊用时较短。", "point": "basis"}]},
+   {"look": "passage", "text": "Only registered volunteers entered the storeroom yesterday. Nora entered the storeroom yesterday.", "items": [{"stem": "What can be inferred about Nora?", "options": ["She registered every volunteer.", "She was the only volunteer who entered.", "She had registered as a volunteer.", "She entered with every volunteer."], "answer": 2, "why": "昨天进入库房的只有登记志愿者，Nora 进入过，因此她属于该群体。", "point": "basis"}]},
+   {"look": "passage", "text": "Some residents said the new bus stop was closer to their homes. The town did not survey every resident.", "items": [{"stem": "What does the passage support about the bus stop?", "options": ["Every resident lives closer to it.", "Most residents said it was closer to home.", "All residents answered the survey.", "It is closer to home for some residents."], "answer": 3, "why": "Some residents said 限定结论适用于部分居民。", "point": "limit"}]},
+   {"look": "passage", "text": "The rain closed the courtyard, so the meeting took place in the hall. The attendance count was not recorded.", "items": [{"stem": "What can be inferred about the rain?", "options": ["It affected where the meeting was held.", "It kept the meeting from taking place.", "It increased the recorded attendance count.", "It kept the hall closed during the meeting."], "answer": 0, "why": "雨使庭院关闭，会议改在大厅，因而雨影响了地点。", "point": "basis"}]}
+  ]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["basis", "limit"], "groups": [
+   {"look": "passage", "text": "A reading group met in a small room for its first session. It moved to a larger room for its second session because more people had registered. Only registered participants received a copy of the reading list. Chen received a copy at the second session. The group did not record which participants had attended both sessions.", "items": [
+    {"stem": "What can be inferred about Chen?", "options": ["Chen attended both sessions.", "Chen was a registered participant.", "Chen registered after the first session.", "Chen was the only one given the list."], "answer": 1, "why": "只有登记参与者收到书单，而 Chen 收到了书单，故其已登记。", "point": "basis"},
+    {"stem": "What does the passage support about the second session?", "options": ["Every participant attended the first session.", "It moved rooms because of the reading list.", "Registration influenced the choice of room.", "Fewer people registered for it than for the first."], "answer": 2, "why": "more people had registered 是改用大房间的原因，因此登记人数影响了地点选择。", "point": "limit"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["basis", "limit"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A volunteer group delivers meals to residents who have requested them. For several years, volunteers collected the meals from a kitchen on the east side of town. When that kitchen needed repairs, the group temporarily collected meals from a kitchen on the west side instead. The delivery addresses remained the same throughout the trial.\n\nThe coordinator compared two routes used by the same driver. The east-side route took forty minutes on a typical morning, while the west-side route took thirty minutes. The comparison did not include the time spent preparing meals. Some volunteers reported that the west-side kitchen was easier for them to reach, but the coordinator did not collect travel times from every volunteer.\n\nAfter the repairs, the group returned to the east-side kitchen. It also began discussing whether a later collection time might reduce delays. No decision about the schedule had been made when the coordinator wrote the report. The group planned another comparison before changing its regular arrangements, since a single driver's route could not describe every volunteer's experience.", "items": [
+    {"stem": "What can be inferred from the driver's route comparison?", "options": ["The west-side route took less time for that driver.", "Every volunteer reached the west-side kitchen sooner.", "Meal preparation took ten minutes at each kitchen.", "The delivery addresses changed during the trial."], "answer": 0, "why": "同一司机的西侧路线用时三十分钟，东侧路线用时四十分钟。", "point": "basis"},
+    {"stem": "What does the report support about volunteer travel?", "options": ["All volunteers reported identical travel times.", "No volunteer found the west-side kitchen accessible.", "Some volunteers had an easier trip to the west side.", "Every volunteer preferred the east-side kitchen."], "answer": 2, "why": "Some volunteers reported 限定了认为西侧厨房更方便的群体范围。", "point": "limit"},
+    {"stem": "What can be inferred about the collection schedule?", "options": ["The group had already adopted a later collection time.", "The group had not yet made a decision about the time.", "The group had stopped collecting meals from either kitchen.", "The group had compared every volunteer's travel time."], "answer": 1, "why": "No decision about the schedule had been made 说明尚未决定改变时间。", "point": "limit"}
+   ]},
+   {"look": "passage", "text": "A museum invited local schools to borrow sets of objects for classroom activities. Each set contained replicas rather than original artifacts. Only teachers who had completed a short training session on handling the replicas borrowed sets. Schools were responsible for returning the set at the end of the agreed period.\n\nDuring the first term, the museum prepared six sets. Two were designed for discussions of clothing and four for discussions of household work. All six were borrowed at least once. One teacher, Lena, borrowed a clothing set in the second month. The museum recorded the number of loans, but it did not measure how much each class learned from the objects.\n\nAt the end of the term, staff inspected the returned sets. Most replicas were in good condition, though a few needed repairs. The museum decided to provide written care instructions along with the training session in the next term. Staff planned to ask teachers whether the instructions were useful, and they kept the original training requirement for anyone requesting a set.", "items": [
+    {"stem": "What can be inferred about Lena?", "options": ["She borrowed one of the household work sets.", "She borrowed all six sets in one month.", "She borrowed her set in the first month.", "She had completed the handling training."], "answer": 3, "why": "原文说 Only teachers who had completed a short training session ... borrowed sets。Lena 借了一套，可推出她完成了培训，即第四项。", "point": "basis"},
+    {"stem": "What does the passage support about the six sets?", "options": ["Each one was borrowed only once.", "Each one was borrowed at least once.", "All six concerned classroom clothing.", "All six contained original artifacts."], "answer": 1, "why": "All six were borrowed at least once 支持每套均有借出；借出次数可以多于一次。", "point": "limit"},
+    {"stem": "What can be inferred about the museum's response to damaged replicas?", "options": ["It added written guidance while retaining training.", "It removed the training requirement for teachers.", "It replaced every replica with an original artifact.", "It stopped all loans for the following term."], "answer": 0, "why": "staff 决定增加 written care instructions，并保留原有培训要求。", "point": "basis"}
+   ]}
+  ]}]}
+ ]
+}

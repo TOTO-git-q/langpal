@@ -1,0 +1,527 @@
+{
+  "id": "listening-announcement",
+  "title": "Listen to an Announcement：听出变了什么、要你做什么",
+  "goal": "一段 40–85 词的通知只听一遍，后面两题都答对：抓住这条通知讲的是哪件事、时间地点怎么变、要你做什么。",
+  "skill": "listening",
+  "exam": "TOEFL iBT（2026 年 1 月起的新版）· 听力",
+  "points": [
+    {
+      "id": "gist",
+      "label": "这条通知讲的是哪件事、为什么发"
+    },
+    {
+      "id": "detail",
+      "label": "时间、地点、条件，以及要你做的事"
+    }
+  ],
+  "sources": [
+    {
+      "id": "spec",
+      "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+      "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+      "used": "题量、难度范围、录音长度、只放一遍"
+    },
+    {
+      "id": "overview",
+      "title": "ETS：Updated TOEFL iBT Test Overview",
+      "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+      "used": "各题型的说明、考查的能力、官方样题"
+    },
+    {
+      "id": "lessonplan",
+      "title": "ETS：TOEFL iBT Listening Lesson Plans（教师用教案）",
+      "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-listening.pdf",
+      "used": "第 1 课：四类题的说明和小测答案；第 2、4 课：应答配对、重音和语调"
+    }
+  ],
+  "cards": [
+    {
+      "id": "facts",
+      "type": "facts",
+      "title": "这道题是什么",
+      "rows": [
+        {
+          "k": "在哪",
+          "v": "听力部分四类题之一，6–10 题。每条通知后面两道题。",
+          "src": "spec 第 4 页；lessonplan 第 7 页"
+        },
+        {
+          "k": "听什么",
+          "v": "一段和学业有关的短通知，约 40–85 词。场合总是学校里：课堂上，或者学校的活动上，当面说的或者广播的。",
+          "src": "overview 第 11 页；lessonplan 第 7 页"
+        },
+        {
+          "k": "内容",
+          "v": "时间安排、去哪里怎么走、规章制度、学生取得的成绩。",
+          "src": "overview 第 11 页"
+        },
+        {
+          "k": "官方说它考什么",
+          "v": "一段短消息的主要内容和场合；重要细节；各种语法结构和较广的词汇；推断没有明说的意思；根据说话人的话预测之后的行动；听出这段话的目的。",
+          "src": "overview 第 11 页"
+        },
+        {
+          "k": "难度",
+          "v": "官方标的范围是 A2 到 C1。",
+          "src": "spec 第 4 页"
+        },
+        {
+          "k": "整个听力部分",
+          "v": "47 题，约 29 分钟，分两段自适应。每段录音只放一遍。说话人有北美、英国、澳大利亚三种口音。",
+          "src": "spec 第 1、4、11 页；overview 第 8 页；lessonplan 第 7 页"
+        }
+      ]
+    },
+    {
+      "id": "shape",
+      "type": "steps",
+      "title": "一条通知的五个位置",
+      "steps": [
+        {
+          "t": "一　招呼",
+          "d": "Good morning, everyone. / Attention, students.。这一句不带信息，用来让你准备好。"
+        },
+        {
+          "t": "二　什么事",
+          "d": "紧接着的一句：a quick reminder、I'm pleased to announce、one change to ...。第一道题常问这里。"
+        },
+        {
+          "t": "三　怎么变",
+          "d": "新的时间和地点。重点听 instead of、will now、has been moved to、only、starting ...。"
+        },
+        {
+          "t": "四　为什么",
+          "d": "Because of、Due to、since。有时候出一道原因题。"
+        },
+        {
+          "t": "五　要你做什么",
+          "d": "Please bring ...、Come to ...、send me an email ...。常带一个期限或条件，第二道题常问这里。"
+        }
+      ],
+      "note": "通知很短，没有废话。每一句都可能出题。"
+    },
+    {
+      "id": "numbers",
+      "type": "text",
+      "title": "数字和时间：听的时候就定住",
+      "body": [
+        {
+          "p": "通知里的细节大半是数字：几点、几号、哪个房间、多少钱、最多几次。它们只说一遍，过后很难回想。两个办法："
+        },
+        {
+          "list": [
+            "听到数字，同时听它前后的词，把它们绑成一对：eight thirty — depart；by one — back；twenty-five dollars — late fee。只记数字不记它指什么，等于没记。",
+            "一条通知里有两个时间时，问的通常是新的那个。instead of 后面的是旧的。"
+          ]
+        },
+        {
+          "compare": {
+            "thin": "记成：8:30、9、1",
+            "full": "记成：发车 9 → 8:30；1 点前回来；今天发邮件",
+            "why": "选项里三个数字都会出现。绑着它指的事一起记，才分得清。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kinds",
+      "type": "table",
+      "title": "三种问法",
+      "cols": [
+        "问法",
+        "题干常见的样子",
+        "答案在哪"
+      ],
+      "rows": [
+        [
+          "讲什么、为什么发",
+          "What is the announcement about? / What is the purpose of the announcement?",
+          "第二个位置：什么事。"
+        ],
+        [
+          "细节、要做的事",
+          "What should students do ...? / What happens to students who ...? / Why has ... changed?",
+          "第三到第五个位置。"
+        ],
+        [
+          "推断、之后会怎样",
+          "What will probably happen if ...? / What can be inferred about ...?",
+          "把条件句读懂：If you can't ..., send me an email so I can give your seat to someone else."
+        ]
+      ],
+      "src": "官方样题问的是 What is the announcement about?，见 overview 第 11 页。"
+    },
+    {
+      "id": "traps",
+      "type": "table",
+      "title": "错项的三种样子",
+      "cols": [
+        "样子",
+        "例子",
+        "怎么识破"
+      ],
+      "rows": [
+        [
+          "旧的信息",
+          "通知说 eight thirty instead of nine。选项：At nine.",
+          "instead of 后面的是作废的。"
+        ],
+        [
+          "把细节当主旨",
+          "通知讲换教室，顺带说收实验本。问「讲什么」，选项：Collecting lab notebooks.",
+          "主旨在开头的 reminder 那一句。"
+        ],
+        [
+          "夸大",
+          "通知说周二换教室。选项：The class has moved permanently.",
+          "听 only、this week、temporarily 这类限定。"
+        ]
+      ]
+    },
+    {
+      "id": "check",
+      "type": "check",
+      "title": "练习　两条通知",
+      "points": [
+        "gist",
+        "detail"
+      ],
+      "intro": "可以重听。听的时候数着五个位置。",
+      "groups": [
+        {
+          "audio": {
+            "intro": "Listen to an announcement in a classroom.",
+            "lines": [
+              {
+                "who": "A",
+                "text": "Good morning, everyone. Before we begin, a quick reminder: next week's class will not meet in this room. Because of the building repairs, we'll be in Room 310 of the Science Center on Tuesday only. On Thursday we're back here as usual. Also, please bring your lab notebooks on Tuesday. I'll be collecting them at the start of class."
+              }
+            ]
+          },
+          "items": [
+            {
+              "stem": "What is the announcement mainly about?",
+              "options": [
+                "A new lab schedule",
+                "A temporary change of classroom",
+                "A canceled class",
+                "The opening of a new building"
+              ],
+              "answer": 1,
+              "why": "next week's class will not meet in this room ... on Tuesday only。只是周二一次。",
+              "point": "gist"
+            },
+            {
+              "stem": "What should students do on Tuesday?",
+              "options": [
+                "Bring their lab notebooks",
+                "Go to the usual room",
+                "Hand in their notebooks on Thursday",
+                "Arrive after the repairs are finished"
+              ],
+              "answer": 0,
+              "why": "please bring your lab notebooks on Tuesday。",
+              "point": "detail"
+            }
+          ]
+        },
+        {
+          "audio": {
+            "intro": "Listen to an announcement on campus.",
+            "lines": [
+              {
+                "who": "A",
+                "text": "Attention, students. The library will extend its hours during final exams. Starting this Sunday, the main reading room will stay open until two a.m., and the café on the ground floor will serve coffee until midnight. Group study rooms can be reserved online for up to three hours at a time. Please remember that food is still not allowed above the ground floor."
+              }
+            ]
+          },
+          "items": [
+            {
+              "stem": "What is the purpose of the announcement?",
+              "options": [
+                "To announce a new café",
+                "To explain new rules about food",
+                "To tell students about longer library hours during exams",
+                "To ask students to leave the library earlier"
+              ],
+              "answer": 2,
+              "why": "The library will extend its hours during final exams。食物的规定只是最后的提醒，而且没有变。",
+              "point": "gist"
+            },
+            {
+              "stem": "What does the speaker say about group study rooms?",
+              "options": [
+                "They are closed during exams.",
+                "They cannot be reserved.",
+                "Food is allowed in them.",
+                "They can be booked for a limited time."
+              ],
+              "answer": 3,
+              "why": "reserved online for up to three hours at a time。",
+              "point": "detail"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "限时练习",
+      "minutes": 5,
+      "pass": 0.8,
+      "points": [
+        "gist",
+        "detail"
+      ],
+      "intro": "三条通知六道题，每条只能放一遍，五分钟。隔一天换一套再做；两套都答对五题以上，这一课才算学会。",
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "audio": {
+                "intro": "Listen to an announcement at a school event.",
+                "lines": [
+                  {
+                    "who": "A",
+                    "text": "Hello, everyone. I'm pleased to announce that our debate team took first place at the regional tournament last weekend. This is the first time our school has won in over ten years. The team will now represent us at the national competition in April. Please join us in the main hall this Friday at noon to congratulate them. Refreshments will be provided."
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "stem": "What is the announcement about?",
+                  "options": [
+                    "A change in the school schedule",
+                    "A new debate class",
+                    "A student team's achievement",
+                    "A competition held at the school"
+                  ],
+                  "answer": 2,
+                  "why": "our debate team took first place。",
+                  "point": "gist"
+                },
+                {
+                  "stem": "What are listeners invited to do?",
+                  "options": [
+                    "Join the debate team",
+                    "Attend a gathering on Friday",
+                    "Travel to the national competition",
+                    "Bring refreshments"
+                  ],
+                  "answer": 1,
+                  "why": "Please join us in the main hall this Friday at noon to congratulate them。茶点是学校提供的。",
+                  "point": "detail"
+                }
+              ]
+            },
+            {
+              "audio": {
+                "intro": "Listen to an announcement on campus.",
+                "lines": [
+                  {
+                    "who": "A",
+                    "text": "Good afternoon. This is a reminder that the deadline to register for spring courses is this Friday at five p.m. After that, you will need your advisor's signature and will be charged a late fee of twenty-five dollars. If the online system gives you an error, don't wait. Come to the registration office in person, and bring your student ID."
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "stem": "What happens to students who register after Friday?",
+                  "options": [
+                    "They must pay a fee and get a signature.",
+                    "They cannot take spring courses.",
+                    "They must register in person.",
+                    "They lose their student ID."
+                  ],
+                  "answer": 0,
+                  "why": "you will need your advisor's signature and will be charged a late fee。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "What should a student do if the online system shows an error?",
+                  "options": [
+                    "Wait until the system is repaired",
+                    "Email the advisor",
+                    "Pay the late fee",
+                    "Go to the registration office"
+                  ],
+                  "answer": 3,
+                  "why": "don't wait. Come to the registration office in person。",
+                  "point": "detail"
+                }
+              ]
+            },
+            {
+              "audio": {
+                "intro": "Listen to an announcement in a classroom.",
+                "lines": [
+                  {
+                    "who": "A",
+                    "text": "Before you leave, one change to the field trip. The bus to the botanical garden will now depart at eight thirty instead of nine, because the garden asked us to arrive before the school groups. We'll still be back by one. If you can't make the earlier time, send me an email today so I can give your seat to someone on the waiting list."
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "stem": "Why has the departure time changed?",
+                  "options": [
+                    "The bus company changed its schedule.",
+                    "The garden asked the group to come earlier.",
+                    "The trip will be longer than planned.",
+                    "Some students could not come at nine."
+                  ],
+                  "answer": 1,
+                  "why": "because the garden asked us to arrive before the school groups。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "What will probably happen if a student emails the teacher today?",
+                  "options": [
+                    "The bus will leave later.",
+                    "The student will get a refund.",
+                    "The student's seat will go to someone else.",
+                    "The trip will be moved to another day."
+                  ],
+                  "answer": 2,
+                  "why": "so I can give your seat to someone on the waiting list。",
+                  "point": "detail"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "audio": {
+                "intro": "Listen to an announcement in a classroom.",
+                "lines": [
+                  {
+                    "who": "A",
+                    "text": "Good morning. A quick note about the writing center. Starting next Monday, you'll need an appointment for all one-on-one sessions; walk-in visits will end. You can book up to two sessions a week through the center's website. Tutors ask that you bring a printed draft, since they are not able to read from phones. Sessions last thirty minutes."
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "stem": "What is the main change described in the announcement?",
+                  "options": [
+                    "Sessions will be shorter.",
+                    "The writing center is moving.",
+                    "Tutors will read drafts on phones.",
+                    "Appointments will be required."
+                  ],
+                  "answer": 3,
+                  "why": "you'll need an appointment for all one-on-one sessions; walk-in visits will end。",
+                  "point": "gist"
+                },
+                {
+                  "stem": "What should students bring to a session?",
+                  "options": [
+                    "A paper copy of their writing",
+                    "Their phones",
+                    "Two drafts",
+                    "An appointment card"
+                  ],
+                  "answer": 0,
+                  "why": "bring a printed draft。",
+                  "point": "detail"
+                }
+              ]
+            },
+            {
+              "audio": {
+                "intro": "Listen to an announcement on campus.",
+                "lines": [
+                  {
+                    "who": "A",
+                    "text": "Attention, please. Due to tonight's forecast of heavy snow, all classes after four p.m. are canceled. The library and the dining hall will close at six. Shuttle buses will make their final runs at six fifteen. Tomorrow's schedule will be announced by email at six a.m., so please check your inbox before leaving home."
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "stem": "Why are the evening classes canceled?",
+                  "options": [
+                    "The buildings are being repaired.",
+                    "Bad weather is expected.",
+                    "The shuttle buses are not running.",
+                    "It is a holiday."
+                  ],
+                  "answer": 1,
+                  "why": "Due to tonight's forecast of heavy snow。",
+                  "point": "gist"
+                },
+                {
+                  "stem": "How will students learn about tomorrow's classes?",
+                  "options": [
+                    "From the library",
+                    "From a shuttle driver",
+                    "By email early in the morning",
+                    "From an announcement at six p.m."
+                  ],
+                  "answer": 2,
+                  "why": "announced by email at six a.m.。六点还出现过一次，是图书馆关门的时间。",
+                  "point": "detail"
+                }
+              ]
+            },
+            {
+              "audio": {
+                "intro": "Listen to an announcement at a school event.",
+                "lines": [
+                  {
+                    "who": "A",
+                    "text": "Hi, everyone. The photography club is holding its annual exhibition in the student center from May third to May tenth. Any student may submit up to three photos, but they must have been taken this academic year. Bring your prints to Room 12 by April twentieth. A panel of art teachers will choose the winners, and the top prize is a new camera."
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "stem": "What is required of the photos that students submit?",
+                  "options": [
+                    "They must be taken with a new camera.",
+                    "They must be printed by the club.",
+                    "They must show the student center.",
+                    "They must have been taken during this school year."
+                  ],
+                  "answer": 3,
+                  "why": "they must have been taken this academic year。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "What can be inferred about the exhibition?",
+                  "options": [
+                    "It is held every year.",
+                    "It is only for art students.",
+                    "It lasts one day.",
+                    "It takes place in Room 12."
+                  ],
+                  "answer": 0,
+                  "why": "annual 是「每年一次的」。Room 12 是交照片的地方。",
+                  "point": "gist"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "more": {
+        "kind": "announcement",
+        "topics": [
+          "考试地点变更、奖学金申请期限、运动队获奖",
+          "实验课改时间、图书馆新规定、校园音乐会",
+          "停电通知、选课系统维护、志愿者表彰",
+          "校车改线、作业提交方式变更、毕业典礼安排",
+          "实验室安全检查、讲座报名、辩论赛结果",
+          "教室装修、助学金截止、开放日安排",
+          "消防演习、期末答疑安排、科研竞赛获奖",
+          "网络维护、宿舍检查、社团展览"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+ "id": "listening-short-travel",
+ "title": "出行与服务词汇",
+ "goal": "理解出行与服务词汇，根据服务用语判断办理事项。",
+ "skill": "听力",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "meaning", "label": "识别出行服务词汇的含义"},
+  {"id": "service", "label": "根据服务用语判断办理事项"}
+ ],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "出行服务词汇范围与课程小测规格"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "本课词汇分四类：交通换乘、住宿预订、餐饮点单、购物退换。订位、付款和取消各用不同的动词。"}, {"box": "I'd like to make a reservation. / I'd like to cancel my reservation."}, {"p": "make a reservation 是预订。cancel my reservation 是取消已经订好的预订。"}]},
+  {"id": "transport", "type": "table", "title": "词汇表：交通换乘", "cols": ["词语", "含义与搭配", "例句"], "rows": [
+   ["transfer", "换乘；transfer to a bus", "Transfer to a bus at the next station."],
+   ["platform", "站台；wait on the platform", "We waited on the platform for the train."],
+   ["timetable", "时刻表；check the timetable", "Check the timetable for the next train."],
+   ["fare", "车费；pay the fare", "The passenger paid the bus fare."],
+   ["route", "路线；take a route", "The bus takes a route through the town."],
+   ["departure", "出发；departure time", "The departure time is printed on the ticket."],
+   ["arrival", "到达；arrival time", "The board shows the arrival time."],
+   ["delay", "延误；a train delay", "The train delay lasted twenty minutes."],
+   ["ticket", "票；buy a ticket", "Maya bought a ticket at the station."],
+   ["destination", "目的地；reach a destination", "The bus reached its destination at noon."]
+  ]},
+  {"id": "lodging", "type": "table", "title": "词汇表：住宿预订", "cols": ["词语", "含义与搭配", "例句"], "rows": [
+   ["reservation", "预订；make a reservation", "Lee made a reservation for two nights."],
+   ["book", "预订；book a room", "They booked a room near the station."],
+   ["available", "可用的；a room is available", "A room is available on Friday."],
+   ["check in", "办理入住；check in at a hotel", "We checked in at the hotel at six."],
+   ["check out", "办理退房；check out of a hotel", "Guests check out of the hotel by noon."],
+   ["reception", "接待处；ask at reception", "Ask at reception for another key."],
+   ["guest", "住客；hotel guest", "Each hotel guest receives a key."],
+   ["single room", "单人间；reserve a single room", "Ari reserved a single room for Monday."],
+   ["confirm", "确认；confirm a booking", "Please confirm the booking by email."],
+   ["cancel", "取消；cancel a reservation", "She canceled her reservation on Tuesday."]
+  ]},
+  {"id": "dining", "type": "table", "title": "词汇表：餐饮点单", "cols": ["词语", "含义与搭配", "例句"], "rows": [
+   ["bill", "账单；ask for the bill", "We asked for the bill after dinner."],
+   ["menu", "菜单；look at the menu", "The guests looked at the menu."],
+   ["order", "点餐；order a meal", "They ordered a meal at the counter."],
+   ["table", "餐桌；book a table", "I booked a table for four."],
+   ["dish", "菜肴；a vegetable dish", "The menu includes a vegetable dish."],
+   ["serve", "供应；serve lunch", "The restaurant serves lunch at noon."],
+   ["waiter", "服务员；ask the waiter", "Ask the waiter for the menu."],
+   ["ingredient", "原料；list the ingredients", "The menu lists the ingredients in the soup."],
+   ["drink", "饮料；order a drink", "Nora ordered a drink with her meal."],
+   ["tip", "小费；leave a tip", "They left a tip after the meal."]
+  ]},
+  {"id": "shopping", "type": "table", "title": "词汇表：购物退换", "cols": ["词语", "含义与搭配", "例句"], "rows": [
+   ["refund", "退款；request a refund", "The customer requested a refund for the bag."],
+   ["exchange", "换货；exchange a jacket", "She exchanged the jacket for a larger size."],
+   ["receipt", "收据；keep the receipt", "Keep the receipt in case the size is wrong."],
+   ["return", "退回；return an item", "He returned the item to the shop."],
+   ["size", "尺码；a larger size", "The customer asked for a larger size."],
+   ["cash", "现金；pay in cash", "They paid in cash at the counter."],
+   ["card", "银行卡；pay by card", "I paid by card for the shoes."],
+   ["price", "价格；check the price", "The assistant checked the price of the coat."],
+   ["customer", "顾客；help a customer", "The assistant helped a customer with a return."],
+   ["replacement", "替换物；offer a replacement", "The shop offered a replacement for the damaged lamp."]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["meaning"], "groups": [
+   {"items": [{"stem": "Passengers transfer to a bus at Hill Station. What do they do?", "options": ["They change to a bus.", "They cancel a bus ticket.", "They wait for a later bus.", "They pay the bus fare."], "answer": 0, "why": "transfer to a bus 表示换乘公交车。", "point": "meaning"}]},
+   {"items": [{"stem": "Mia made a hotel reservation. What did she do?", "options": ["She checked out of a room.", "She booked a room in advance.", "She canceled her hotel room.", "She paid for a hotel room."], "answer": 1, "why": "made a reservation 表示预订。", "point": "meaning"}]},
+   {"items": [{"stem": "The diners asked for the bill. What did they request?", "options": ["A list of available dishes", "A table near the window", "The meal's total cost", "The ingredients in the soup"], "answer": 2, "why": "bill 指餐费账单。", "point": "meaning"}]},
+   {"items": [{"stem": "The customer requested a refund. What did the customer want?", "options": ["A larger size of the item", "A receipt for the same item", "A replacement for the item", "The money paid for the item"], "answer": 3, "why": "refund 指退还已付款项。", "point": "meaning"}]},
+   {"items": [{"stem": "The guest canceled the booking. What happened?", "options": ["The reservation was withdrawn.", "The reservation was confirmed.", "The room was booked again.", "The room charge was paid."], "answer": 0, "why": "canceled the booking 表示取消预订。", "point": "meaning"}]},
+   {"items": [{"stem": "The passenger checked the departure time. What did the passenger check?", "options": ["The time the train arrived", "The time the train would leave", "The price of the train ticket", "The platform for the train"], "answer": 1, "why": "departure time 指出发时间。", "point": "meaning"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["service"], "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "I'd like to book a table for four on Saturday evening. Is there space near the window, away from the restaurant entrance?"}, {"who": "B", "text": "Yes. I can reserve that table for seven."}]}, "items": [{"stem": "What service is the customer requesting?", "options": ["Canceling a table booking", "Paying the bill for a meal", "Making a table reservation", "Asking for a seat by the entrance"], "answer": 2, "why": "I'd like to book a table 表示预订餐桌，即第三项。顾客要的是窗边，离入口远。", "point": "service"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "This jacket is too small. I bought it yesterday and kept the receipt. Could I exchange it for a larger size?"}, {"who": "B", "text": "Certainly. I'll check whether that size is available."}]}, "items": [{"stem": "What does the customer want?", "options": ["A refund for a larger jacket", "A receipt for another purchase", "A smaller size of the same jacket", "The jacket in a larger size"], "answer": 3, "why": "exchange it for a larger size 表示换成大一码的夹克，即第四项。顾客要换货，不要退款。", "point": "service"}]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["meaning", "service"], "sets": [{"id": "set-a", "groups": [
+   {"items": [{"stem": "Passengers transfer to a train at Central Station. What do they do?", "options": ["They change to a train.", "They cancel their train booking.", "They check the train fare.", "They wait for a later train."], "answer": 0, "why": "transfer to a train 表示换乘火车。", "point": "meaning"}]},
+   {"items": [{"stem": "The guest made a hotel reservation. What did the guest arrange?", "options": ["A canceled hotel stay", "A room booked in advance", "A payment for the room", "A change to the booking"], "answer": 1, "why": "make a reservation 表示提前预订。", "point": "meaning"}]},
+   {"items": [{"stem": "The guests asked for the bill after dinner. What did they ask for?", "options": ["The menu for the meal", "The ingredients in the dish", "The meal's total cost", "The reservation for a table"], "answer": 2, "why": "bill 指需要支付的餐费账单。", "point": "meaning"}]},
+   {"items": [{"stem": "The shop gave a refund for the lamp. What did it give?", "options": ["A different size of lamp", "A receipt for another lamp", "A replacement for the lamp", "The money paid for the lamp"], "answer": 3, "why": "refund 是退还已付款项。", "point": "meaning"}]},
+   {"items": [{"stem": "The passenger checked the timetable. What did the passenger check?", "options": ["The scheduled travel times", "The price of the train ticket", "The route taken by the train", "The receipt for the ticket"], "answer": 0, "why": "timetable 指交通时刻表。", "point": "meaning"}]},
+   {"items": [{"stem": "The customer exchanged the shoes for a larger size. What happened?", "options": ["The customer canceled the order.", "The customer received different shoes.", "The customer requested a cash refund.", "The customer kept the original shoes."], "answer": 1, "why": "exchanged the shoes for a larger size 表示把原来的鞋换成大一码的鞋，即第二项。", "point": "meaning"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "I have a reservation for a single room on Friday, but my plans have changed. Could you cancel the booking, please?"}, {"who": "B", "text": "Certainly. I'll cancel the Friday reservation and send you a confirmation."}]}, "items": [{"stem": "What does the guest ask the hotel to do?", "options": ["Confirm a new room booking", "Change the room to Saturday", "Cancel an existing reservation", "Collect payment for Friday's room"], "answer": 2, "why": "Could you cancel the booking 是请酒店取消周五已订的单人间，即第三项。", "point": "service"}, {"stem": "What will the hotel send?", "options": ["A bill for the Friday room", "A new Friday reservation", "A receipt for the original booking", "Confirmation of the cancellation"], "answer": 3, "why": "I'll cancel the Friday reservation and send you a confirmation 说明酒店取消后会发确认，即第四项。", "point": "service"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "These shoes don't fit. I bought them yesterday and have the receipt. Could I get a refund instead of exchanging them?"}, {"who": "B", "text": "Yes. I'll return the payment to your card if you show me the receipt."}]}, "items": [{"stem": "What does the customer request?", "options": ["A refund for the shoes", "A larger pair of shoes", "A receipt for a new purchase", "A replacement pair of shoes"], "answer": 0, "why": "Could I get a refund instead of exchanging them 表示要退款，不换货，即第一项。", "point": "service"}, {"stem": "What must the customer show?", "options": ["A confirmation of an exchange", "The receipt for the shoes", "A receipt for another purchase", "The card used for the payment"], "answer": 1, "why": "if you show me the receipt 说明要出示买鞋的收据，即第二项。card 是退款打回的地方。", "point": "service"}]}
+  ]}]} 
+ ]
+}

@@ -1,0 +1,398 @@
+{
+ "id": "reading-passage-relation",
+ "title": "段落关系题",
+ "goal": "判断两段或两个观点之间的关系；利用段首句和连接词作为依据。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "relation",
+   "label": "判断两段或两个观点之间的关系"
+  },
+  {
+   "id": "signal",
+   "label": "利用段首句和连接词作为依据"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、计分、自适应"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明和官方样题（挖空规则是对照样题和答案看出来的）"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Reading Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-reading.pdf",
+   "used": "第 1 课：三类题的说明和需要的三项基本功"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "段落关系题问后一段怎样承接前一段。判断时比较两段的主要意思，不看某个重复的词。例如前段提出规律，后段描述一个实例，两段就是举例关系。"
+    },
+    {
+     "box": "How does paragraph 2 relate to paragraph 1?\nWhat is the relationship between the two explanations?\nWhich phrase signals the relationship between the paragraphs?"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　概括两段",
+     "d": "用一个短语概括每段的主要内容。第一段写 Metal expands when heated，第二段讲粒子运动，两段是现象与机制。"
+    },
+    {
+     "t": "2　查找连接信号",
+     "d": "找 because、for example、however、in addition、therefore 等连接词，再看它连接的内容。For example 后面确实给出一种具体金属，才是举例。"
+    },
+    {
+     "t": "3　核对关系方向",
+     "d": "看选项有没有把两段的作用颠倒。前段写一般规律、后段写具体情形时，是后段举例说明前段。"
+    }
+   ]
+  },
+  {
+   "id": "key",
+   "type": "table",
+   "title": "语境与依据",
+   "cols": [
+    "类型",
+    "例句",
+    "依据"
+   ],
+   "rows": [
+    [
+     "解释",
+     "The wire lengthens when heated. This occurs because heating changes the material’s internal motion.",
+     "后句解释前述变化的原因。"
+    ],
+    [
+     "举例",
+     "Materials vary in hardness. For example, chalk is easier to scratch than steel.",
+     "粉笔和钢是硬度差异的实例。"
+    ],
+    [
+     "对比",
+     "One design opens upward. By contrast, the other opens sideways.",
+     "两种设计并存，只比较差别。"
+    ],
+    [
+     "反驳",
+     "The room was said to have no windows. However, an original plan shows two.",
+     "原图显示有两扇窗，推翻前说。"
+    ],
+    [
+     "补充",
+     "The cover blocks dust. In addition, it reduces accidental contact.",
+     "增加同一对象的另一作用。"
+    ],
+    [
+     "结果",
+     "The support broke. Consequently, the platform tilted.",
+     "后句是前述事件的后果。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Paragraph 1: A drawing labels the chamber as a storage room without any heating system. That label has been used to explain why the room was occupied only briefly.\n\nParagraph 2: However, a surviving plan shows a fireplace and a chimney in the chamber. These features conflict with the description of an unheated room."
+    },
+    {
+     "box": "How does paragraph 2 relate to paragraph 1?\n1. It challenges an account by presenting conflicting evidence.\n2. It gives another example of the same unheated design.\n3. It explains the physical cause of the first drawing.\n4. It describes an effect of the room’s brief occupation."
+    },
+    {
+     "p": "段首的 However 表示转折，具体关系还要看内容。without any heating system 与 a fireplace and a chimney 矛盾，所以是反驳，即第一项。"
+    },
+    {
+     "p": "对比关系中，两种情况可以同时成立。这里的两种描述说的是同一个房间，而且互相冲突，所以是反驳，不是对比。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "方向颠倒",
+     "The general statement illustrates the later example.",
+     "一般概括在前，实例在后。"
+    ],
+    [
+     "把对比当反驳",
+     "Two designs differ → One design cannot exist.",
+     "两种设计可以并存，只是不同。"
+    ],
+    [
+     "把补充当结果",
+     "In addition → Therefore",
+     "In addition 增加另一个特点，前后没有因果。"
+    ],
+    [
+     "只看重复词",
+     "Both paragraphs mention a roof → They give the same claim.",
+     "同一个词可以出现在相反的观点里。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "relation",
+    "signal"
+   ],
+   "groups": [
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "Paragraph 1: Certain powders dissolve readily in water.\n\nParagraph 2: For example, sugar crystals disappear from view as their molecules spread through the liquid.",
+     "items": [
+      {
+       "stem": "How does the second paragraph develop the first?",
+       "options": [
+        "It disputes the first claim.",
+        "It limits the claim to one powder.",
+        "It introduces an opposing category of powders.",
+        "It supplies a specific illustration."
+       ],
+       "answer": 3,
+       "why": "For example 后面的糖是 powders 的一个具体实例，属于举例，即第四项。",
+       "point": "relation"
+      }
+     ]
+    },
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "Paragraph 1: The roof became heavier after snow accumulated.\n\nParagraph 2: As a result, the temporary supports bent under the added load.",
+     "items": [
+      {
+       "stem": "Which expression marks the second event as a consequence?",
+       "options": [
+        "after snow accumulated",
+        "As a result",
+        "temporary supports",
+        "under the added load"
+       ],
+       "answer": 1,
+       "why": "As a result 明确连接前面的重量增加与后面的支架弯曲。",
+       "point": "signal"
+      }
+     ]
+    },
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "Paragraph 1: The first lens produces an enlarged image.\n\nParagraph 2: In contrast, the second lens makes the object appear smaller.",
+     "items": [
+      {
+       "stem": "What relationship joins these descriptions?",
+       "options": [
+        "A contrast between two effects",
+        "A cause followed by its explanation",
+        "A claim followed by confirming evidence",
+        "A problem followed by a repair"
+       ],
+       "answer": 0,
+       "why": "In contrast 与 enlarged、smaller 对应，比较两种镜片的相反效果。",
+       "point": "relation"
+      }
+     ]
+    },
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "Paragraph 1: The chamber protects tools from moisture.\n\nParagraph 2: It also provides a secure place to keep small accessories.",
+     "items": [
+      {
+       "stem": "Which part of paragraph 2 signals an additional function?",
+       "options": [
+        "a secure place",
+        "small accessories",
+        "It also provides",
+        "to keep"
+       ],
+       "answer": 2,
+       "why": "It also provides 中的 also 表示增加一个用途，即第三项。",
+       "point": "signal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "relation",
+    "signal"
+   ],
+   "groups": [
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "Paragraph 1: A thick curtain can reduce the amount of light entering a room. The fabric intercepts some of the incoming light before it reaches the interior.\n\nParagraph 2: In addition, a curtain can prevent people outside from seeing directly into the room. This second function concerns privacy rather than brightness.",
+     "items": [
+      {
+       "stem": "How does paragraph 2 relate to paragraph 1?",
+       "options": [
+        "It identifies the cause of the first effect.",
+        "It adds another function of the same object.",
+        "It rejects the claim about incoming light.",
+        "It describes a result of blocking the light."
+       ],
+       "answer": 1,
+       "why": "This second function 说明第二段讲的是窗帘的另一个功能：保护隐私，与前段的遮光并列，即第二项。",
+       "point": "relation"
+      },
+      {
+       "stem": "Which phrase most directly indicates that relationship?",
+       "options": [
+        "entering a room",
+        "before it reaches",
+        "In addition",
+        "people outside"
+       ],
+       "answer": 2,
+       "why": "In addition 表示补充，后文也确实增加了另一种用途，即第三项。",
+       "point": "signal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "relation",
+    "signal"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Read the passage.",
+       "look": "passage",
+       "text": "Organizing Street Addresses\n\nA street address identifies a building within a larger system of named routes and numbered properties. Its usefulness depends on a shared arrangement: residents, visitors, and delivery workers need to interpret the numbers in roughly the same way. A sequence that is familiar only to its creator may be precise on paper yet difficult for others to use.\n\nOne possible arrangement illustrates this principle. In a planned numbering system, buildings on one side of a street may receive odd numbers and those on the opposite side even numbers. A visitor can then use the number not only to identify a property but also to narrow the search to one side of the street. The rule provides information that an arbitrary sequence would not supply.\n\nIn addition, a numbering system can leave room for later development. Gaps between assigned numbers may allow new buildings to receive addresses without forcing every existing property to change its number. This feature concerns future expansion rather than the immediate task of finding the correct side. Both features show why an address system is more than a list of individual labels.",
+       "items": [
+        {
+         "stem": "How does paragraph 2 relate to paragraph 1?",
+         "options": [
+          "It denies the need for a shared arrangement.",
+          "It lists the problems of an arbitrary sequence.",
+          "It illustrates the value of a shared numbering rule.",
+          "It describes an effect of future building expansion."
+         ],
+         "answer": 2,
+         "why": "One possible arrangement illustrates this principle 说明第二段用奇偶编号举例，说明共享规则的价值，即第三项。",
+         "point": "relation"
+        },
+        {
+         "stem": "Which opening phrase signals the role of paragraph 3?",
+         "options": [
+          "In addition",
+          "A street address",
+          "A visitor can then",
+          "One possible arrangement"
+         ],
+         "answer": 0,
+         "why": "In addition 表示补充，第三段讲预留编号便于以后扩建，即第一项。",
+         "point": "signal"
+        },
+        {
+         "stem": "What is the relationship between the functions described in paragraphs 2 and 3?",
+         "options": [
+          "The second is caused by the failure of the first.",
+          "The second disproves the possibility of the first.",
+          "The first provides an example of the second.",
+          "They are separate advantages of a numbering system."
+         ],
+         "answer": 3,
+         "why": "future expansion rather than the immediate task of finding the correct side 说明两段讲的功能不同。Both features 把它们并列为编号系统的两个优点，即第四项。",
+         "point": "relation"
+        }
+       ]
+      },
+      {
+       "label": "Read the passage.",
+       "look": "passage",
+       "text": "The Function of a Vacuum Flask\n\nA vacuum flask is sometimes imagined to be a container that actively produces cold. That description is misleading. A flask has no need to manufacture cold in order to keep a drink cool. Its principal function is to slow the transfer of heat between the contents and their surroundings, whether the contents begin warmer or cooler than the surrounding air.\n\nIn contrast to an ordinary single wall, the flask’s double wall encloses a space from which much of the air has been removed. With fewer gas particles in that space, heat transfer through the gas is reduced. The opening still requires a lid, because an uncovered opening would allow heat to pass more readily between the drink and the surrounding air.\n\nAs a result of reducing heat exchange, the container can help a hot drink remain hot as well as help a cool drink remain cool. This does not mean that either temperature stays unchanged forever. Heat can still cross parts of the container and pass through its materials. The design delays movement toward the surrounding temperature rather than preventing that movement completely.",
+       "items": [
+        {
+         "stem": "How does the explanation in paragraph 1 relate to the idea that a flask produces cold?",
+         "options": [
+          "It supplies another example of that idea.",
+          "It corrects that idea by describing a different function.",
+          "It explains how the flask manages to produce cold.",
+          "It accepts that idea and adds a second function."
+         ],
+         "answer": 1,
+         "why": "That description is misleading 否定了制造冷的说法，随后用 slow the transfer of heat 说明烧瓶真正的功能，即第二项。",
+         "point": "relation"
+        },
+        {
+         "stem": "Which phrase introduces a comparison of two wall designs?",
+         "options": [
+          "whether the contents begin warmer",
+          "This does not mean",
+          "In contrast to an ordinary single wall",
+          "As a result of reducing heat exchange"
+         ],
+         "answer": 2,
+         "why": "In contrast to an ordinary single wall 引出双层壁与普通单层壁的区别。",
+         "point": "signal"
+        },
+        {
+         "stem": "Which phrase marks paragraph 3 as a consequence of the mechanism described earlier?",
+         "options": [
+          "sometimes imagined",
+          "As a result of reducing heat exchange",
+          "from which much of the air",
+          "rather than preventing"
+         ],
+         "answer": 1,
+         "why": "As a result of 把减少热交换和饮品保温连成因果，即第二项。",
+         "point": "signal"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

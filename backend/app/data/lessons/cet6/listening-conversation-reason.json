@@ -1,0 +1,554 @@
+{
+ "id": "listening-conversation-reason",
+ "title": "长对话原因题",
+ "goal": "确定具体行为对应的原因；区分原因、结果与背景信息。",
+ "skill": "听力",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "cause",
+   "label": "确定具体行为对应的原因"
+  },
+  {
+   "id": "distinguish",
+   "label": "区分原因、结果与背景信息"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "依据课程课表选择长对话语言训练范围；材料与题目为原创。"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "原因题问某个人为什么做某件事。Why did …? 是直接提问。The speaker changed the plan because … 要求补全句子。两种问法要找的都是解释这个行为的那句话。"
+    },
+    {
+     "box": "Why did the coordinator postpone the collection?\nThe coordinator postponed the collection because …"
+    },
+    {
+     "p": "背景是事情发生时的环境。促发事件说明为什么在这时行动。结果是行动之后带来的变化。三者常在同一段对话里出现。最常见的错误是把事后的好处当成原来的动机。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定被解释行为",
+     "d": "先听清是谁、做了什么、什么时候。Why did Lina leave early? 问的是 Lina，同伴提前离开的理由不能用来作答。"
+    },
+    {
+     "t": "2　连接原因表达",
+     "d": "because 后面接句子，due to 后面接名词。We delayed because the van failed 和 due to a van failure 意思相同。"
+    },
+    {
+     "t": "3　检验因果方向",
+     "d": "把选项放到 because 后面读一遍，看因果是否通顺。The delay gave us more time 是延期的结果，不是延期的原因。"
+    },
+    {
+     "t": "4　区分层次与归属",
+     "d": "看题干问的是直接原因还是促发事件。A complaint prompted the review 说明审查为什么在这时开始，没有说明问题为什么一直存在。"
+    }
+   ]
+  },
+  {
+   "id": "signals",
+   "type": "table",
+   "title": "原因与信息层次",
+   "cols": [
+    "类型",
+    "用法",
+    "例"
+   ],
+   "rows": [
+    [
+     "明确原因",
+     "because 解释的是同一句里这个人的行为。",
+     "I left because my shift had ended."
+    ],
+    [
+     "名词性原因",
+     "due to 后面的名词就是原因。",
+     "The move was due to a damaged roof."
+    ],
+    [
+     "原因说明",
+     "the reason 后面常先否定一个猜测，再给出真正的原因。",
+     "The reason wasn't cost; the room lacked space."
+    ],
+    [
+     "促发事件",
+     "prompted 说明是什么让人在这时行动。",
+     "A missing parcel prompted a review of deliveries."
+    ],
+    [
+     "背景",
+     "长期存在的情况，说话人明确说它不是原因。",
+     "The club is old, but age isn't why we moved."
+    ],
+    [
+     "结果",
+     "so、as a result 后面是结果。",
+     "The room closed, so we met outside."
+    ]
+   ]
+  },
+  {
+   "id": "examples",
+   "type": "table",
+   "title": "例题：因果对应",
+   "cols": [
+    "原文",
+    "正确解释",
+    "说明"
+   ],
+   "rows": [
+    [
+     "The lid leaked, so we replaced it.",
+     "Replacement followed a leak.",
+     "先漏水，后更换；更换后不漏是结果。"
+    ],
+    [
+     "Because the path flooded, we took a longer route.",
+     "Flooding caused the detour.",
+     "路程变长是绕路的结果。"
+    ],
+    [
+     "A broken chair prompted a safety check; wear had been visible for weeks.",
+     "The break triggered the check.",
+     "磨损早已存在，是背景。"
+    ],
+    [
+     "The missed delivery led us to review a timetable that had long been unreliable.",
+     "A missed delivery initiated the review.",
+     "时刻表早就不可靠，是背景。"
+    ],
+    [
+     "I joined for practical experience; Ava joined to meet local artists.",
+     "The first speaker wanted experience.",
+     "结识艺术家是 Ava 的动机。"
+    ],
+    [
+     "Ben stayed because he was on duty; I stayed because my lift was late.",
+     "The speakers had different reasons.",
+     "两人都留下，原因各不相同。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A: Why did the neighborhood print club change its meeting place? Was the rent too high?\nB: The rent hadn't changed. We moved because the old room had no secure storage. A missing ink tray prompted us to act. The new room is closer to the station, which is a useful bonus."
+    },
+    {
+     "box": "Why did the club move?\n1. Its rent had increased.\n2. It needed secure storage.\n3. It wanted a shorter station walk.\n4. It had already recovered the ink tray."
+    },
+    {
+     "p": "依据是 We moved because the old room had no secure storage，即第二项。missing ink tray 是促发事件。closer to the station 是搬迁后的附带好处，不是搬迁的原因。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "结果代替原因",
+     "We moved to shorten the station walk.",
+     "离车站近是附带的好处。"
+    ],
+    [
+     "背景代替原因",
+     "The rent caused the move.",
+     "原文说 The rent hadn't changed。"
+    ],
+    [
+     "主体错配",
+     "Ava wanted practical experience.",
+     "想积累经验的是说话人，不是 Ava。"
+    ],
+    [
+     "因果倒置",
+     "The safety check caused the chair to break.",
+     "椅子先坏，才引出安全检查。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "cause",
+    "distinguish"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Why did the local running group stop using the riverside meeting point? I thought the group had become too large for the path."
+       },
+       {
+        "who": "B",
+        "text": "Numbers haven't changed. We moved because the gate is locked before our evening run finishes. The new point is farther from my home, but it remains accessible afterward."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why did the group move its meeting point?",
+       "options": [
+        "The old gate closed before the run ended.",
+        "The group had outgrown the riverside path.",
+        "The new point was closer to the speaker's home.",
+        "The evening runs had been shortened considerably."
+       ],
+       "answer": 0,
+       "why": "依据是 We moved because the gate is locked before our evening run finishes，即第一项。原文先说了 Numbers haven't changed。",
+       "point": "cause"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The shared sewing machine had been unreliable for months. When it stopped halfway through a costume repair yesterday, the committee finally arranged servicing."
+       },
+       {
+        "who": "B",
+        "text": "That failure must have made the problem urgent. Once it's serviced, people may finish their repairs more quickly, but that future benefit isn't what happened yesterday."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What prompted the committee to act at that particular time?",
+       "options": [
+        "The machine had already returned from servicing.",
+        "Every costume repair had become faster.",
+        "A breakdown in the middle of a costume repair.",
+        "The machine had been unreliable for months."
+       ],
+       "answer": 2,
+       "why": "依据是 When it stopped halfway through a costume repair yesterday, the committee finally arranged servicing。昨天修服装时机器停了，这才促使委员会行动，即第三项。几个月来不可靠只是背景。",
+       "point": "distinguish"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I'm joining the neighborhood mapping walk because I want to learn the names of the smaller lanes. Tessa is joining because she's collecting examples of street signs."
+       },
+       {
+        "who": "B",
+        "text": "Then the same walk should help with two different projects. The signs may interest you both, but Tessa's collection isn't the reason you gave for attending."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why is the first speaker joining the walk?",
+       "options": [
+        "To collect street signs for Tessa's project.",
+        "To become familiar with the names of small lanes.",
+        "To help Tessa organize the walking route.",
+        "To replace missing signs along the smaller lanes."
+       ],
+       "answer": 1,
+       "why": "依据是 I'm joining … because I want to learn the names of the smaller lanes，即第二项。收集路牌是 Tessa 的目的。",
+       "point": "cause"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "We postponed cleaning the shared attic because the access ladder was damaged. The delay has given residents more time to label their boxes."
+       },
+       {
+        "who": "B",
+        "text": "That extra time is useful, but we had enough labels and volunteers already. The work would have gone ahead on Saturday if the ladder had been safe to use."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "How is the extra labeling time related to the postponement?",
+       "options": [
+        "It is the stated reason for postponing the cleaning.",
+        "It is the shortage that originally prevented cleaning.",
+        "It is evidence that the attic has already been cleared.",
+        "It is a consequence of the delay caused by the ladder."
+       ],
+       "answer": 3,
+       "why": "依据是 because the access ladder was damaged 和 The delay has given residents more time。延期的原因是梯子坏了，多出的时间是延期的结果，即第四项。",
+       "point": "distinguish"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "cause",
+    "distinguish"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The neighborhood bookbinding group is changing its drying arrangements. We used to stack the boards beside an open window, but damp air kept slowing the process."
+       },
+       {
+        "who": "B",
+        "text": "Did last week's damaged cover cause the change?"
+       },
+       {
+        "who": "A",
+        "text": "It prompted us to act, but the damp conditions were the continuing problem. We're moving the boards to the inner room because its conditions are easier to control. That also frees space by the window for cutting paper, though extra cutting space wasn't the reason for the move."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why are the boards being moved?",
+       "options": [
+        "To provide extra cutting space beside the window.",
+        "To keep the boards closer to the cutting area.",
+        "To use a place with more controllable conditions.",
+        "To increase the number of boards being stacked."
+       ],
+       "answer": 2,
+       "why": "依据是 We're moving the boards to the inner room because its conditions are easier to control，即第三项。腾出窗边的切纸空间只是附带结果。",
+       "point": "cause"
+      },
+      {
+       "stem": "What was the role of the damaged cover?",
+       "options": [
+        "It triggered action on a continuing problem.",
+        "It resulted from moving boards to the inner room.",
+        "It created a new shortage of cutting space.",
+        "It proved that the inner room was too damp."
+       ],
+       "answer": 0,
+       "why": "依据是 It prompted us to act, but the damp conditions were the continuing problem。封面损坏促使大家处理一直存在的潮湿问题，即第一项。",
+       "point": "distinguish"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "cause",
+    "distinguish"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Nico, I noticed that the neighborhood bicycle workshop has stopped accepting repairs without appointments. Is that because the volunteers are receiving more bicycles? The waiting area looked full when I passed on Saturday, and I wondered whether demand had suddenly increased."
+         },
+         {
+          "who": "B",
+          "text": "Not really, Ada. The number of repairs has stayed fairly steady. The reason we changed the system is that arrivals were concentrated in the final hour. Volunteers couldn't inspect every bicycle properly before closing, even though the total workload was manageable."
+         },
+         {
+          "who": "A",
+          "text": "So the appointments spread arrivals across the session. Did something particular lead you to make the change now? The workshop has been running for several years, and I remember people arriving late on earlier occasions as well."
+         },
+         {
+          "who": "B",
+          "text": "Last Saturday, someone waited forty minutes and then learned that the part they needed wasn't available. That complaint prompted us to review the process. The underlying problem was the timing of arrivals, but the complaint made us deal with it immediately."
+         },
+         {
+          "who": "A",
+          "text": "Will people have to describe the fault when they book? That could help volunteers prepare parts. I'd be concerned if they had to diagnose the problem accurately, though. Many residents come precisely because they don't know what's wrong with their bicycle."
+         },
+         {
+          "who": "B",
+          "text": "We'll ask for a simple description, not a diagnosis. We're also keeping a few spaces for urgent cases because a bicycle may be someone's only way to work. Those spaces aren't intended for routine adjustments that can wait until another session."
+         },
+         {
+          "who": "A",
+          "text": "That seems reasonable. I might volunteer for the early session myself. I'm choosing that time because I care for my nephew later in the afternoon, rather than because I expect the early repairs to be easier."
+         },
+         {
+          "who": "B",
+          "text": "Thanks. The bookings should reduce uncertain waiting times, but we won't promise that every repair can be finished immediately. Spreading arrivals improves planning; it doesn't guarantee that all replacement parts will be in stock."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why did the workshop introduce appointments?",
+         "options": [
+          "To reduce a sudden increase in the total repair workload.",
+          "To distribute arrivals more evenly across the session.",
+          "To ensure every bicycle receives an immediate replacement part.",
+          "To give late arrivals priority over earlier visitors."
+         ],
+         "answer": 1,
+         "why": "依据是 The reason we changed the system is that arrivals were concentrated in the final hour。预约是为了让来人分散到整个时段，即第二项。",
+         "point": "cause"
+        },
+        {
+         "stem": "What role did the customer's complaint play?",
+         "options": [
+          "It was the result of the newly introduced appointment system.",
+          "It proved that volunteers received more bicycles overall.",
+          "It explained why Ada needed an early volunteer shift.",
+          "It triggered quick action on an existing timing problem."
+         ],
+         "answer": 3,
+         "why": "依据是 That complaint prompted us to review the process 和 The underlying problem was the timing of arrivals。投诉促使他们马上处理早已存在的时间问题，即第四项。",
+         "point": "distinguish"
+        },
+        {
+         "stem": "Ada chooses the early session because",
+         "options": [
+          "she has a family responsibility later in the afternoon.",
+          "she expects all early bicycle repairs to be easier.",
+          "she needs to collect unavailable parts before closing.",
+          "she wants to reduce her own uncertain waiting time."
+         ],
+         "answer": 0,
+         "why": "依据是 I'm choosing that time because I care for my nephew later in the afternoon，即第一项。Ada 还说明，原因不是早班的维修更容易。",
+         "point": "cause"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Priya, I heard that the community pottery group is moving its glaze demonstration to a different room. Was the old studio too small? It looked crowded at the open day, and I know more people have expressed interest since then."
+         },
+         {
+          "who": "B",
+          "text": "The size isn't the reason, Ellis. We've limited attendance to the same number as before. We're moving because the new demonstration room has a sink beside the workbench. In the old studio, the demonstrator had to leave the group whenever a tool needed washing."
+         },
+         {
+          "who": "A",
+          "text": "That explains the room choice. Why did the organizers postpone the demonstration from this Friday to next Friday? I assumed the move had taken longer than expected, especially since the workbench still needed to be delivered."
+         },
+         {
+          "who": "B",
+          "text": "The workbench is already installed. The postponement is due to the demonstrator's travel arrangements: the only train she could book arrives too late for this Friday's session. The room is ready, but we don't want to replace her with someone unfamiliar with the examples."
+         },
+         {
+          "who": "A",
+          "text": "Will the later date make preparation easier? I suppose having extra time would allow the volunteers to label the sample tiles more clearly. Last time, several labels were difficult to read once they had been placed along the back of the table."
+         },
+         {
+          "who": "B",
+          "text": "Yes, that is a useful consequence of the delay, but it wasn't our reason for postponing. The labels could have been finished by Friday. We will use the extra time to test the display from the audience's seats and adjust the lettering if necessary."
+         },
+         {
+          "who": "A",
+          "text": "I'll help with that. I'm attending the demonstration because I want to compare the sample finishes before choosing one for my bowls. My neighbor is coming to learn how to organize a similar demonstration, so we have different reasons."
+         },
+         {
+          "who": "B",
+          "text": "Then I'll reserve a place for each of you. The samples should support both interests, although the session won't include firing any new pieces."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why is the demonstration moving to another room?",
+         "options": [
+          "A larger group must fit into the new demonstration room.",
+          "The sample bowls need to be fired beside the workbench.",
+          "Cleaning tools will no longer require leaving the group.",
+          "The old room's workbench has not yet been delivered."
+         ],
+         "answer": 2,
+         "why": "依据是 We're moving because the new demonstration room has a sink beside the workbench。有了水池，洗工具时不用再离开大家，即第三项。",
+         "point": "cause"
+        },
+        {
+         "stem": "Which statement correctly distinguishes the postponement's cause from its consequence?",
+         "options": [
+          "Unclear labels caused the delay; the train was booked afterward.",
+          "Travel timing caused the delay; extra preparation time followed.",
+          "Late bench delivery caused the delay; attendance increased afterward.",
+          "Limited attendance caused the delay; washing became easier afterward."
+         ],
+         "answer": 1,
+         "why": "依据是 The postponement is due to the demonstrator's travel arrangements 和 that is a useful consequence of the delay。原因是示范者的行程，多出准备时间是结果，即第二项。",
+         "point": "distinguish"
+        },
+        {
+         "stem": "Which explanation belongs to Ellis rather than the neighbor?",
+         "options": [
+          "Learning to organize a similar demonstration for another group.",
+          "Avoiding a late train that conflicts with the demonstration.",
+          "Testing the lettering from the audience's seats before Friday.",
+          "Comparing finishes before deciding how the bowls should look."
+         ],
+         "answer": 3,
+         "why": "依据是 I'm attending the demonstration because I want to compare the sample finishes。这是 Ellis 的理由，即第四项。学习组织示范活动是邻居的理由。",
+         "point": "distinguish"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "id": "writing-overview",
+ "title": "写作部分概览",
+ "goal": "说明两项任务的字数和用时，区分四项写作评分标准。",
+ "skill": "写作",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "format", "label": "说明两项任务的字数和用时"},
+  {"id": "criteria", "label": "区分任务完成、衔接、词汇与语法标准"}
+ ],
+ "sources": [
+  {"id": "i3", "title": "IELTS Academic: Writing test format", "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing", "used": "两项任务、字数、建议用时和权重"},
+  {"id": "i4", "title": "IELTS Writing Band Descriptors", "url": "https://ielts.org/cdn/ielts-guides/ielts-writing-band-descriptors.pdf", "used": "四项标准与第六分数段描述"},
+  {"id": "i5", "title": "IELTS scoring in detail", "url": "https://www.ielts.org/take-a-test/your-results/ielts-scoring-in-detail", "used": "四项标准等权"},
+  {"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "课程内容与教学分类"}
+ ],
+ "cards": [
+  {
+   "id": "facts", "type": "facts", "title": "概述",
+   "rows": [
+    {"k": "总时间", "v": "两项写作共 60 分钟。", "src": "I3 写作结构"},
+    {"k": "Task 1", "v": "根据图表或图解写说明文，至少 150 词，建议用时约 20 分钟。", "src": "I3 写作结构"},
+    {"k": "Task 2", "v": "就观点、论点或问题展开论述，至少 250 词，建议用时约 40 分钟。", "src": "I3 写作结构"},
+    {"k": "权重", "v": "Task 2 对写作成绩的权重是 Task 1 的两倍。每项任务的四项评分标准等权。", "src": "I3 写作结构；I5 计分说明"}
+   ]
+  },
+  {
+   "id": "types", "type": "table", "title": "题型",
+   "cols": ["任务", "材料", "写作要求"],
+   "rows": [
+    ["Task 1", "图表、表格或图解", "选择并描述视觉信息。"],
+    ["Task 2", "观点、论点或问题", "讨论并展开回应。"]
+   ],
+   "note": "本课程按图表种类和议论文的问题类型分课。这一分类为教学所用，不是官方分类。"
+  },
+  {
+   "id": "criteria", "type": "table", "title": "评分标准",
+   "cols": ["标准", "考查内容", "示例"],
+   "rows": [
+    ["Task Achievement / Task Response", "任务覆盖、概述或立场及展开", "图表说明选取主要特征，议论回应明确立场。"],
+    ["Coherence and Cohesion", "信息组织与句段衔接", "相关数据归入同一段并用指代连接。"],
+    ["Lexical Resource", "词汇的范围与准确性", "用 rise 表示上升，用 fall 表示下降。"],
+    ["Grammatical Range and Accuracy", "句法范围与准确性", "描述过去的数据用过去时。"]
+   ],
+   "src": "I4 写作评分描述；I5 计分说明"
+  },
+  {
+   "id": "bands", "type": "table", "title": "分数段",
+   "cols": ["标准", "第 6 分数段的表现", "示例"],
+   "rows": [
+    ["Task 1", "写出主要特征，有概述。部分细节遗漏或不准确。", "概述了上升趋势，漏掉一个峰值。"],
+    ["Task 2", "回应了题目的主要部分。理由展开不足，或结论不清。", "提出了立场，理由解释不足。"],
+    ["衔接", "整体顺序清楚，连接词用得机械。", "段落顺序清楚，同一个连接词反复使用。"],
+    ["语言", "句型和用词变化少，同类错误反复出现。", "只用几种句型，同一个语法错误多次出现。"]
+   ],
+   "src": "I4 写作评分描述"
+  },
+  {
+   "id": "timed", "type": "quiz", "title": "小测", "minutes": 4, "pass": 0.8,
+   "points": ["format", "criteria"],
+   "sets": [{"id": "set-a", "groups": [{"items": [
+    {"stem": "Which allocation follows the suggested timing for the two tasks?", "options": ["About 20 minutes for Task 1 and 40 for Task 2", "About 40 minutes for Task 1 and 20 for Task 2", "About 20 minutes for each of the two tasks", "About 40 minutes for each of the two tasks"], "answer": 0, "why": "Task 1 建议约 20 分钟，Task 2 建议约 40 分钟，即第一项。", "point": "format"},
+    {"stem": "Which pair gives the minimum lengths for Task 1 and Task 2 respectively?", "options": ["250 words and 150 words", "150 words and 250 words", "150 words and 150 words", "250 words and 250 words"], "answer": 1, "why": "Task 1 至少 150 词，Task 2 至少 250 词，即第二项。", "point": "format"},
+    {"stem": "How do the two task scores contribute to the writing score?", "options": ["The first task has twice the weight of the second.", "The two tasks have the same weight in the score.", "The second task has twice the weight of the first.", "The first task has four times the weight of the second."], "answer": 2, "why": "Task 2 的权重是 Task 1 的两倍，即第三项。", "point": "format"},
+    {"stem": "Which criterion concerns the organisation of information and links between sentences?", "options": ["Task Achievement or Task Response", "Lexical Resource", "Grammatical Range and Accuracy", "Coherence and Cohesion"], "answer": 3, "why": "Coherence and Cohesion 考查信息组织与衔接，即第四项。", "point": "criteria"},
+    {"stem": "Which criterion concerns the range and accuracy of vocabulary?", "options": ["Lexical Resource", "Coherence and Cohesion", "Task Achievement", "Grammatical Range and Accuracy"], "answer": 0, "why": "Lexical Resource 考查词汇范围与准确性，即第一项。", "point": "criteria"},
+    {"stem": "Which criterion addresses the response to the task, including a position in an essay?", "options": ["Coherence and Cohesion", "Task Response", "Lexical Resource", "Grammatical Range and Accuracy"], "answer": 1, "why": "Task Response 考查议论文对任务的回应，包括立场与展开，即第二项。", "point": "criteria"}
+   ]}]}]
+  }
+ ]
+}

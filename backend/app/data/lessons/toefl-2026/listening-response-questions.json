@@ -1,0 +1,663 @@
+{
+ "id": "listening-response-questions",
+ "title": "疑问句的应答",
+ "goal": "按疑问句所需的信息选择回应，并由间接回答判断事实是否成立。",
+ "skill": "listening",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 听力",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "whq",
+   "label": "根据疑问词选出给出对应信息的回应"
+  },
+  {
+   "id": "indirect",
+   "label": "识别不带 yes / no 的间接回答"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、录音长度、只放一遍"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "各题型的说明、考查的能力、官方样题"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Listening Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-listening.pdf",
+   "used": "第 1 课：四类题的说明和小测答案；第 2、4 课：应答配对、重音和语调"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "回应疑问句，要给出所问的信息，或者说明所问的事是否属实。疑问词决定要哪一类信息，时态决定说的是什么时候。有 yes 或 no 的选项不一定对。"
+    },
+    {
+     "box": "How often is the filter changed? → Every month.\nHas the filter been changed? → The technician hasn't done it yet."
+    },
+    {
+     "p": "第一句问频率，回应是每月一次。第二句问这次换了没有，回应是还没换。两个回应互换就答非所问。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定所问信息",
+     "d": "听疑问词和后面的名词或动作。How long 问时长，How often 问频率。How long does the journey take? 要答路上用多久。"
+    },
+    {
+     "t": "2　核对肯定与否定",
+     "d": "把否定疑问句和反意疑问句还原成要核实的事。Isn’t the gate locked? 核实门锁没锁：It is 是锁了，It isn’t 是没锁。"
+    },
+    {
+     "t": "3　展开间接回答",
+     "d": "把选项里的状态或理由换成直接的回答。Has the package arrived? 后接 It’s still at the depot，意思是还没到，不用出现 no。"
+    }
+   ]
+  },
+  {
+   "id": "information",
+   "type": "table",
+   "title": "疑问词与信息",
+   "cols": [
+    "用词",
+    "用法",
+    "例"
+   ],
+   "rows": [
+    [
+     "who / whose",
+     "who 问人，whose 问东西是谁的。",
+     "Who booked the van? → Marta did. / Whose van is it? → Marta's."
+    ],
+    [
+     "where / when",
+     "where 问地点，when 问时间。",
+     "Where is the reception? → On the terrace. / When? → At six."
+    ],
+    [
+     "why",
+     "问原因。Why don’t we 是提议，不是问原因。",
+     "Why was the route closed? → A bridge needed repairs."
+    ],
+    [
+     "how",
+     "问方式或状态，看后面的动词。",
+     "How was the equipment delivered? → By truck."
+    ],
+    [
+     "how long / how often",
+     "how long 问多长时间，how often 问多久一次。",
+     "How long? → For an hour. / How often? → Once a month."
+    ],
+    [
+     "how many / how much",
+     "how many 问可数的数量，how much 问价钱或不可数的量。",
+     "How many jars? → Six. / How much does one cost? → Two dollars."
+    ],
+    [
+     "which / or",
+     "从给出的几项中选一项，不能只答 yes。",
+     "Which route, coastal or inland? → The inland route."
+    ]
+   ]
+  },
+  {
+   "id": "confirmation",
+   "type": "table",
+   "title": "确认与间接回答",
+   "cols": [
+    "类型",
+    "判断依据",
+    "例"
+   ],
+   "rows": [
+    [
+     "一般疑问句",
+     "说出状态，就能推出是或否，可以不说 yes / no。",
+     "Is the lift working? → It's being repaired."
+    ],
+    [
+     "完成时疑问句",
+     "already、still、yet 说明做完了没有。",
+     "Have the badges arrived? → They're on the desk already."
+    ],
+    [
+     "否定疑问：肯定",
+     "yes 加肯定分句，表示事实成立。",
+     "Isn't the door open? → Yes, it is."
+    ],
+    [
+     "否定疑问：否定",
+     "no 后的否定分句说明事实不成立。",
+     "Isn't the door open? → No, it's locked."
+    ],
+    [
+     "反意疑问：肯定",
+     "按前面陈述部分的事实回答，不看附加问句里的否定。",
+     "The van has arrived, hasn't it? → It has; it's outside."
+    ],
+    [
+     "反意疑问：否定",
+     "说出相反的状态就是否定，不必说 no。",
+     "The van has arrived, hasn't it? → It's still on the motorway."
+    ],
+    [
+     "选择疑问句",
+     "选其中一项，也可以说哪个都行或都不要。",
+     "Tea or juice? → Either is fine."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Haven't they finished restoring the old fountain?"
+    },
+    {
+     "box": "Choose the best response.\n1. The fountain was built a century ago.\n2. They finished a different fountain last spring.\n3. They're still replacing the stone around its base.\n4. Sure, I'll ask them to finish it today."
+    },
+    {
+     "p": "Haven’t they finished 是核实修复完成了没有。第三项的 still replacing 说明还在施工，间接回答了还没修完。"
+    },
+    {
+     "p": "第一项谈年代，第二项把对象换成另一座喷泉，第四项把问句当成了请求。这三项都没有说明这座喷泉现在修到了哪一步。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "信息类别不符",
+     "How often? → For three weeks.",
+     "for three weeks 是时长，不是频率。"
+    ],
+    [
+     "时间不符",
+     "When will it open? → It opened last year.",
+     "问将来，不答过去。"
+    ],
+    [
+     "否定范围错误",
+     "Isn't it ready? → Yes, it is. 被理解为未就绪。",
+     "Yes, it is 表示已经好了。"
+    ],
+    [
+     "对象替换",
+     "the old fountain → a different fountain",
+     "核对是不是同一对象。"
+    ],
+    [
+     "只答字面",
+     "Do you know where it is? → I know.",
+     "间接问句里有 where，仍要答地点。"
+    ]
+   ]
+  },
+  {
+   "id": "check-wh",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "whq"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Whose gloves were left beside the kiln?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "Yes, I'll take them to her.",
+        "They belong to the visiting artist.",
+        "The gloves were left yesterday.",
+        "They're made for handling hot objects."
+       ],
+       "answer": 1,
+       "why": "Whose gloves 问手套是谁的，第二项答是来访的艺术家的。第三项答的是什么时候留下的。",
+       "point": "whq"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "How often does the ferry stop at this island?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "The trip takes an hour.",
+        "The island has two docks.",
+        "The ferry is stopping now.",
+        "Twice each morning."
+       ],
+       "answer": 3,
+       "why": "How often 问多久停一次，第四项答每天上午两次。第一项的一小时是时长，不是频率。",
+       "point": "whq"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Why was the bread delivery delayed?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "The delivery van had a flat tire.",
+        "The bread is delivered at dawn.",
+        "Yes, it was delayed by about an hour.",
+        "Sure, I'll deliver it myself."
+       ],
+       "answer": 0,
+       "why": "Why 问为什么晚了，第一项给出原因：送货车爆胎。第三项只说晚了多久，没有说原因。",
+       "point": "whq"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Would you prefer the red ribbon or the gold one?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "Yes, I'd prefer one of them.",
+        "The gold ribbon costs less.",
+        "The gold one would suit the package.",
+        "Thanks, I chose the red one last time."
+       ],
+       "answer": 2,
+       "why": "red ribbon or the gold one 要求二选一，第三项选了金色，理由是和包裹相配。第二项只说价钱，没有作选择。",
+       "point": "whq"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-indirect",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "indirect"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Has the aquarium opened its new entrance yet?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "The entrance faces the park.",
+        "Yes, I opened it for them this morning.",
+        "They're still putting the doors in.",
+        "The aquarium opened years ago."
+       ],
+       "answer": 2,
+       "why": "Has … opened … yet 问新入口开了没有。第三项说门还在装，间接回答了还没开。第四项说的是整个水族馆，不是新入口。",
+       "point": "indirect"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Isn't the bakery closed on Mondays?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "It is; Monday is the staff's day off.",
+        "It opens early on Tuesdays.",
+        "No thanks, I've already had breakfast.",
+        "Yes, I closed it last Monday."
+       ],
+       "answer": 0,
+       "why": "It is 是 It is closed 的省略，day off 说明周一确实不开门，即第一项。",
+       "point": "indirect"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The canoe rental includes paddles, doesn't it?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "The paddles are made of wood.",
+        "No, I rented it last summer.",
+        "Sure, I'll book a canoe and paddles for you.",
+        "There's a separate charge for those."
+       ],
+       "answer": 3,
+       "why": "a separate charge for those 说明船桨要另外收费，间接回答了不包括，即第四项。",
+       "point": "indirect"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Is the sound technician coming this evening?"
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "The evening show starts at eight.",
+        "She has another job booked tonight.",
+        "Sure, I'll come over to help this evening.",
+        "The technician came last Tuesday."
+       ],
+       "answer": 1,
+       "why": "another job booked tonight 说明她今晚另有工作，间接回答了不来，即第二项。第四项说的是过去。",
+       "point": "indirect"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 5,
+   "pass": 0.75,
+   "points": [
+    "whq",
+    "indirect"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "When does the costume fitting begin?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "In the wardrobe room.",
+          "With the costume designer.",
+          "At half past two.",
+          "For about half an hour."
+         ],
+         "answer": 2,
+         "why": "When 问几点开始，第三项给出时间。其余三项分别答了地点、和谁一起、多长时间。",
+         "point": "whq"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "How long will the engine inspection take?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "Roughly forty minutes.",
+          "Every six months.",
+          "At nine tomorrow.",
+          "In the service garage."
+         ],
+         "answer": 0,
+         "why": "How long 问检查要多久，第一项答大约 40 分钟。第二项的每六个月一次是频率。",
+         "point": "whq"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Who should receive the signed witness form?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "Before the hearing starts.",
+          "The clerk handling the case.",
+          "At the public entrance.",
+          "With the original signature."
+         ],
+         "answer": 1,
+         "why": "Who should receive 问交给谁，第二项答负责此案的书记员。其余三项分别答了期限、地点和形式。",
+         "point": "whq"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Do you want the portrait framed in wood or metal?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "Yes, I'd like it framed, please.",
+          "Thanks, I framed it myself last year.",
+          "The metal frame arrived today.",
+          "Wood would match the portrait better."
+         ],
+         "answer": 3,
+         "why": "wood or metal 要求选一种材料，第四项选了木框。第一项只答了 yes，没有作选择。",
+         "point": "whq"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Have the new tennis nets been installed?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "Sure, I'll install them for you.",
+          "Yes, I played tennis there yesterday.",
+          "The installer hasn't been here yet.",
+          "The nets were ordered locally."
+         ],
+         "answer": 2,
+         "why": "hasn't been here yet 说明安装工人还没来，间接回答了网还没装，即第三项。",
+         "point": "indirect"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Doesn't the cobbler accept card payments?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "He only takes cash.",
+          "Thanks, I'll pay by card then.",
+          "No, I don't have a card.",
+          "The card machine was expensive."
+         ],
+         "answer": 0,
+         "why": "only takes cash 说明只收现金，间接回答了不能刷卡，即第一项。",
+         "point": "indirect"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The film subtitles are ready, aren't they?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "The subtitles appear at the bottom.",
+          "Yes, I'll read them for you.",
+          "Sure, I'd love to watch the film with you tonight.",
+          "The translator is still correcting them."
+         ],
+         "answer": 3,
+         "why": "still correcting them 说明字幕还在改，间接回答了还没好，即第四项。",
+         "point": "indirect"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Haven't the violin strings been replaced?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "The violin needs a new case.",
+          "They have; I changed them this morning.",
+          "I usually replace them myself.",
+          "Thanks, I'll play it for you later."
+         ],
+         "answer": 1,
+         "why": "They have 是 They have been replaced 的省略，this morning 说明今早已换好，即第二项。第三项只说了平时的习惯。",
+         "point": "indirect"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

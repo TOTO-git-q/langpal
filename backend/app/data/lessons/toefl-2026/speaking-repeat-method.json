@@ -1,0 +1,629 @@
+{
+ "id": "speaking-repeat-method",
+ "title": "题型与解题步骤",
+ "goal": "按步骤复述一句话；判断一次复述的失分类型。",
+ "skill": "speaking",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 口语",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "procedure",
+   "label": "按步骤复述一句话"
+  },
+  {
+   "id": "loss",
+   "label": "判断一次复述的失分类型"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、计分、自适应"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明和官方样题（挖空规则是对照样题和答案看出来的）"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "Listen and Repeat 要求听完一句后原样复述。句子逐渐变长，结构逐渐复杂。复述要保留原词、语序和完整的意思，不能改成概括。"
+    },
+    {
+     "box": "The practice room is upstairs.\nThe practice room beside the lift is available after lunch."
+    },
+    {
+     "p": "第二句在房间名称后加了位置，在谓语后加了时间。加上的部分也要说出。只说 The practice room is available，没有复述整句。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　听清意思",
+     "d": "先确定谁做什么，再辨认否定、数量和时间。The parcel has not arrived 中的 not 说明包裹还没到。"
+    },
+    {
+     "t": "2　按意群保留原词",
+     "d": "把相邻的词按意思分成短语来记。短语里的词不换成近义词。The parcel / has not arrived 分成主语和完整的谓语两段。"
+    },
+    {
+     "t": "3　按原顺序连贯复述",
+     "d": "按原句的意群顺序和节奏说出，功能词和词尾都要保留。The parcels have arrived 中，parcels 和 have 都不能说成单数形式。"
+    }
+   ],
+   "note": "以上为本课程的建议，不是官方规定"
+  },
+  {
+   "id": "accuracy",
+   "type": "table",
+   "title": "完整性与准确性",
+   "cols": [
+    "情况",
+    "要求",
+    "例"
+   ],
+   "rows": [
+    [
+     "主语",
+     "保留主语的身份和单复数。",
+     "The visitor waits. / The visitors wait."
+    ],
+    [
+     "谓语",
+     "保留时态和助动词，不能只留主要动词。",
+     "The clerk has checked the list."
+    ],
+    [
+     "否定",
+     "not 改变句子的意思。它读得轻，也不能省。",
+     "The door is not locked."
+    ],
+    [
+     "限定词",
+     "a、the、this 也是原词，不能换。",
+     "Please use the marked envelope."
+    ],
+    [
+     "修饰语",
+     "原句的时间和地点都要说出，不能只说主干。",
+     "The rehearsal starts after lunch."
+    ],
+    [
+     "可懂度",
+     "词说全了，发音还要能听清。",
+     "The files are ready.（files 的词尾须清楚）"
+    ]
+   ],
+   "src": "overview 第 26–27 页"
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The astronomy club meets in the small dome after sunset."
+    },
+    {
+     "box": "Proposed repetition: The astronomy club meets in the dome after sunset.\nWhich change occurred?\n1. A location was moved.\n2. A describing word was omitted.\n3. The meeting time was replaced.\n4. The sentence stopped before the verb."
+    },
+    {
+     "p": "原句的 in the small dome 是地点意群，after sunset 是时间意群。复述保留了地点和时间的顺序，但漏了 small。答案是第二项。"
+    },
+    {
+     "p": "the dome 仍然说出了地点，但不是原样复述。检查时逐词对照原句，不只看句子是否通顺。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "原句与复述",
+    "依据"
+   ],
+   "rows": [
+    [
+     "漏词",
+     "The new badge is ready. → The badge is ready.",
+     "漏了 new，后面的内容都说了。"
+    ],
+    [
+     "换词",
+     "The new badge is ready. → The new card is ready.",
+     "badge 换成了 card。意思相近的词也不是原词。"
+    ],
+    [
+     "改语序",
+     "The new badge is ready today. → Today the new badge is ready.",
+     "词语保留，但 today 移到句首。"
+    ],
+    [
+     "中途停住",
+     "The new badge is ready today. → The new badge …",
+     "谓语和后面的内容都没说出。"
+    ]
+   ],
+   "note": "这四类用来分析复述哪里有变化，不直接对应官方分数。"
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "procedure",
+    "loss"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The pottery course begins on Wednesday."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Rebuild the sentence heard.",
+       "chunks": [
+        "The pottery course",
+        "begins",
+        "on",
+        "Wednesday"
+       ],
+       "extra": [
+        "begin"
+       ],
+       "tail": ".",
+       "why": "原句 The pottery course begins on Wednesday 中，begins 与单数主语 course 一致。on Wednesday 是时间短语。",
+       "point": "procedure"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The bicycle rack is behind the greenhouse."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Rebuild the sentence heard.",
+       "chunks": [
+        "The bicycle rack",
+        "is",
+        "behind",
+        "the greenhouse"
+       ],
+       "extra": [
+        "beside"
+       ],
+       "tail": ".",
+       "why": "原句位置是 behind the greenhouse，beside 会改变空间关系。",
+       "point": "procedure"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The puzzle contest starts before dinner."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "The repetition is \"The contest starts before dinner.\" What changed?",
+       "options": [
+        "The time was moved to the beginning.",
+        "A word identifying the contest was dropped.",
+        "The action was replaced by another action.",
+        "The response stopped before the action."
+       ],
+       "answer": 1,
+       "why": "The puzzle contest 中的 puzzle 被省略，starts before dinner 仍完整保留。",
+       "point": "loss"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The sculptor needs a narrower chisel."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "The repetition is \"The sculptor needs a wider chisel.\" What changed?",
+       "options": [
+        "The word chisel was omitted.",
+        "The word needs was moved.",
+        "The response ended before chisel.",
+        "The description of the chisel was replaced."
+       ],
+       "answer": 3,
+       "why": "narrower 换成了 wider，属于换词，意思也相反了。其他词都保留了。",
+       "point": "loss"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "procedure",
+    "loss"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The hiking permit expires at midnight."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Restore the recorded sentence.",
+       "chunks": [
+        "The hiking permit",
+        "expires",
+        "at",
+        "midnight"
+       ],
+       "extra": [
+        "expired"
+       ],
+       "tail": ".",
+       "why": "原句 expires at midnight 使用一般现在时；expired 改变时态。",
+       "point": "procedure"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "All donated blankets must remain in this cupboard."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Put the heard chunks in their original order.",
+       "chunks": [
+        "All donated blankets",
+        "must remain",
+        "in",
+        "this cupboard"
+       ],
+       "extra": [
+        "that cupboard"
+       ],
+       "tail": ".",
+       "why": "原句 this cupboard 指示当前橱柜，不能替换成 that cupboard。",
+       "point": "procedure"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The debate begins after the final announcement."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "The repetition is \"After the final announcement, the debate begins.\" What changed?",
+       "options": [
+        "The time phrase was placed first.",
+        "The final announcement was omitted.",
+        "The word debate was replaced.",
+        "The response stopped before the main action."
+       ],
+       "answer": 0,
+       "why": "after the final announcement 从句尾移到了句首。词都在，语序变了。",
+       "point": "loss"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The garden volunteers will measure the new plots."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "The repetition is \"The garden volunteers will ...\" What happened?",
+       "options": [
+        "A complete time phrase changed position.",
+        "A full description replaced another description.",
+        "The response ended before completing the action.",
+        "A modifier was removed from a completed sentence."
+       ],
+       "answer": 2,
+       "why": "复述停在 will 后面，measure the new plots 没有说出。这是中途停住，不是漏掉一个修饰语。",
+       "point": "loss"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "procedure",
+    "loss"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The rowing team stores its oars beside the landing."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Rebuild the sentence heard.",
+         "chunks": [
+          "The rowing team",
+          "stores",
+          "its oars",
+          "beside the landing"
+         ],
+         "extra": [
+          "their oars"
+         ],
+         "tail": ".",
+         "why": "原句 its oars 的 its 指 the rowing team，不能换成 their。",
+         "point": "procedure"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The translation booth opens before the keynote session."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Restore the recorded sentence.",
+         "chunks": [
+          "The translation booth",
+          "opens",
+          "before",
+          "the keynote session"
+         ],
+         "extra": [
+          "after"
+         ],
+         "tail": ".",
+         "why": "原句是 before the keynote session，after 的意思正好相反。",
+         "point": "procedure"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The compost workshop has moved to the west courtyard."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Put the heard chunks in their original order.",
+         "chunks": [
+          "The compost workshop",
+          "has moved",
+          "to",
+          "the west courtyard"
+         ],
+         "extra": [
+          "had moved"
+         ],
+         "tail": ".",
+         "why": "原句 has moved 的助动词是 has，不能改成 had。",
+         "point": "procedure"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The chess final will resume after the break."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Reconstruct the sentence from the recording.",
+         "chunks": [
+          "The chess final",
+          "will resume",
+          "after",
+          "the break"
+         ],
+         "extra": [
+          "before"
+         ],
+         "tail": ".",
+         "why": "原句是 will resume after the break，before 改变了时间关系。",
+         "point": "procedure"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The ceramic tiles are stored beneath the stairs."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "The repetition is \"The tiles are stored beneath the stairs.\" Which error occurred?",
+         "options": [
+          "Omitting the word that describes the tiles",
+          "Replacing the location with a different location",
+          "Moving the location before the subject",
+          "Stopping before the storage location is given"
+         ],
+         "answer": 0,
+         "why": "The ceramic tiles 中的 ceramic 被漏掉，位置 beneath the stairs 仍在句尾。",
+         "point": "loss"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The photography tutor expects a printed portfolio."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "The repetition is \"The photography tutor expects a digital portfolio.\" Which error occurred?",
+         "options": [
+          "Dropping the noun naming the required submission",
+          "Replacing the description of the required submission",
+          "Moving the required submission before the tutor",
+          "Ending the response before describing the submission"
+         ],
+         "answer": 1,
+         "why": "printed 换成了 digital，提交的形式变了。portfolio 仍在。",
+         "point": "loss"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The fencing lesson finishes before the hall closes."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "The repetition is \"Before the hall closes, the fencing lesson finishes.\" Which error occurred?",
+         "options": [
+          "Leaving out the part about the hall",
+          "Replacing the action performed in the hall",
+          "Moving the time clause before the main clause",
+          "Stopping before the fencing lesson is mentioned"
+         ],
+         "answer": 2,
+         "why": "before the hall closes 被移到了句首。词和意思都在，语序变了。",
+         "point": "loss"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The student choir will perform in the eastern courtyard."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "The repetition is \"The student choir will ...\" Which description fits?",
+         "options": [
+          "The location was moved ahead of the choir.",
+          "The performance was changed to another event.",
+          "A location word was dropped from a complete sentence.",
+          "The response stopped before the predicate was complete."
+         ],
+         "answer": 3,
+         "why": "复述停在 will，perform in the eastern courtyard 未说出，谓语没有完成。",
+         "point": "loss"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

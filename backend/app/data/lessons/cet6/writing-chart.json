@@ -1,0 +1,470 @@
+{
+ "id": "writing-chart",
+ "title": "图表作文的数据概括",
+ "goal": "选出支撑总体趋势的关键数据；准确表达数据之间的比较关系。",
+ "skill": "写作",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "select",
+   "label": "选出支撑总体趋势的关键数据"
+  },
+  {
+   "id": "compare",
+   "label": "准确表达数据之间的比较关系"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语六级（CET-6）：课表",
+   "url": "docs/syllabi/cet6.md",
+   "used": "写作部分：图表作文的数据概括；内容范围、知识点与客观题规格。"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "概括数据前，先确认对象、单位、时间段和基数，再选出能说明主要关系的数值。总体上升不等于每期都上升。数值最高的一期，不一定是增加最多的一期。图表没有给出原因时，不写原因。"
+    },
+    {
+     "box": "Illustrative data: monthly locker rentals, measured in rentals: March 40, April 55, May 50, June 70."
+    },
+    {
+     "p": "首尾的 40 和 70 说明总体增加。April 到 May 下降，所以不能写成持续增加。这里统计的是租用次数，不是租用的人数。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　核对口径",
+     "d": "每个数字都对应到对象、单位和时间。rentals 是租用次数，renters 是租用的人，同一个人可以租多次。"
+    },
+    {
+     "t": "2　寻找主要关系",
+     "d": "先找首尾的变化、各组之间最大的差距和方向的转折。40 到 70 是总体上升，55 到 50 是中途回落。"
+    },
+    {
+     "t": "3　选择代表数据",
+     "d": "用起点、终点和转折点支撑概括。只写 April 55，说明不了整个时段的趋势。"
+    },
+    {
+     "t": "4　检查比较表达",
+     "d": "核对基数、增量和终值。40 到 70 是增加了 30，增幅 75%，不能写成 rose to 30。"
+    }
+   ]
+  },
+  {
+   "id": "patterns",
+   "type": "table",
+   "title": "趋势与关键数据",
+   "cols": [
+    "数据组",
+    "概括与例句",
+    "取舍"
+   ],
+   "rows": [
+    [
+     "Illustrative data: refill orders; Week 1: 30, Week 2: 45, Week 3: 60, Week 4: 75.",
+     "Orders rose steadily from 30 to 75 across the four weeks.",
+     "首尾说明变化幅度，中间各点说明每期都在上升。"
+    ],
+    [
+     "Illustrative data: support requests; North 18, East 34, South 22, West 26.",
+     "The largest difference was between East and North, at 16 requests.",
+     "比较同一指标的最大值与最小值。"
+    ],
+    [
+     "Illustrative data: workshop attendance; January 80, February 100, March 70, April 60.",
+     "Attendance peaked at 100 in February before declining to 60 in April.",
+     "先升后降时，写出峰值和转折。"
+    ],
+    [
+     "Illustrative data: workshop attendance; January 80, April 60.",
+     "Attendance was lower in April than in January.",
+     "只有首尾两个数据时，只比较首尾，不写中间的走势。"
+    ]
+   ]
+  },
+  {
+   "id": "units",
+   "type": "table",
+   "title": "百分比与比较基数",
+   "cols": [
+    "关系",
+    "规则",
+    "例"
+   ],
+   "rows": [
+    [
+     "百分点",
+     "两个百分比直接相减，单位为百分点。",
+     "The share rose from 20% to 30%, an increase of 10 percentage points."
+    ],
+    [
+     "相对增幅",
+     "增量除以原值，得到相对增幅。",
+     "The rise from 20% to 30% represents a 50% increase in the share."
+    ],
+    [
+     "终值与增量",
+     "to 接终值，by 接变化量。",
+     "Orders rose to 75, increasing by 45 from the initial 30."
+    ],
+    [
+     "比例与人数",
+     "总人数变化时，用比例乘以总人数算出人数。",
+     "20% of 100 people is 20; 30% of 200 people is 60."
+    ],
+    [
+     "倍数",
+     "终值除以基数得到倍数。翻一倍是增加 100%。",
+     "A rise from 30 to 60 doubles the total, a 100% increase."
+    ],
+    [
+     "因果边界",
+     "两组数据同时上升，只说明二者同时变化，不说明原因。",
+     "Orders and membership rose together; the figures alone do not establish why."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Illustrative chart description: The share of registered members attending a monthly craft meeting was 25% in January, 35% in February, 30% in March, and 40% in April. The registered membership remained 200 throughout. Summarize the overall change and any interruption to it. Distinguish changes in the attendance share from changes in the number of registered members. No information about publicity, prices, or meeting content is supplied, so explanations involving those factors cannot be established from these figures."
+    },
+    {
+     "box": "The attendance share rose overall from 25% to 40%, although it fell in March. The net increase was 15 percentage points, or 60% relative to January."
+    },
+    {
+     "p": "25% 到 40% 相差 15 个百分点，15 除以 25 是 60%。注册人数固定为 200，参加的人数由 50 增至 80，注册人数没有增加。"
+    },
+    {
+     "box": "The campaign increased membership by 15%."
+    },
+    {
+     "p": "这句有两处错误。材料没有提到 campaign，不能写成原因。增加的是出席比例，不是注册人数。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "逐项罗列",
+     "January 25%; February 35%; March 30%; April 40%.",
+     "数值都对，但没有概括总体趋势和转折。"
+    ],
+    [
+     "忽略回落",
+     "Attendance increased continuously from January to April.",
+     "March 低于 February，不能写 continuously。"
+    ],
+    [
+     "单位混淆",
+     "The share rose by 15%, from 25% to 40%.",
+     "相差 15 个百分点，相对增幅是 60%。"
+    ],
+    [
+     "基数混淆",
+     "The registered membership rose from 50 to 80.",
+     "50 与 80 为出席人数，不是注册人数。"
+    ],
+    [
+     "添加原因",
+     "Publicity caused the attendance increase.",
+     "材料没有提到 publicity，不能写成原因。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "select",
+    "compare"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "Illustrative data: reusable crate deliveries, in deliveries per month: May 24, June 30, July 36, August 42.",
+     "items": [
+      {
+       "stem": "Which summary captures the overall pattern?",
+       "options": [
+        "Deliveries rose from 24 to 42, with an increase in each interval.",
+        "Deliveries rose to 36 overall, before returning to the May level.",
+        "Deliveries peaked in June before falling during the last two months.",
+        "Deliveries remained stable except for a single increase in August."
+       ],
+       "answer": 0,
+       "why": "24、30、36、42 每期都上升，首尾由 24 增至 42，即第一项。",
+       "point": "select"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Illustrative data: percentage of households using a shared compost collection service: before 40%, after 50%.",
+     "items": [
+      {
+       "stem": "Which comparison is numerically correct?",
+       "options": [
+        "The share rose by 10%, equivalent to 25 percentage points.",
+        "The share rose by 10 percentage points, a relative increase of 25%.",
+        "The share rose by 25 percentage points, a relative increase of 10%.",
+        "The share rose to 10%, while the relative increase reached 50%."
+       ],
+       "answer": 1,
+       "why": "50% 减 40% 是 10 个百分点，10 除以原值 40 是 25%，即第二项。",
+       "point": "compare"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Illustrative data: completed repairs at four booths during the same fair: Booth A 12, Booth B 28, Booth C 20, Booth D 16.",
+     "items": [
+      {
+       "stem": "Which comparison captures the largest difference?",
+       "options": [
+        "Booth B and Booth C differed by sixteen completed repairs.",
+        "Booth C and Booth D differed by twelve completed repairs.",
+        "Booth B and Booth A differed by sixteen completed repairs.",
+        "Booth D and Booth A differed by eight completed repairs."
+       ],
+       "answer": 2,
+       "why": "最大值 28 与最小值 12 相差 16，即第三项。第一项的两个摊位实际相差 8。",
+       "point": "select"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Illustrative data: club members reserving seats: 30% of 100 members in one term; 20% of 200 members in the next term.",
+     "items": [
+      {
+       "stem": "Which sentence distinguishes the share from the count?",
+       "options": [
+        "Both the reservation share and the number of reserving members fell.",
+        "The share rose while the number of reserving members remained thirty.",
+        "The count fell from forty to thirty while the membership doubled.",
+        "The share fell, but the count rose from thirty members to forty."
+       ],
+       "answer": 3,
+       "why": "30% of 100 是 30，20% of 200 是 40。比例下降，人数却增加了，即第四项。",
+       "point": "compare"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "select",
+    "compare"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "Illustrative data: a local sports center records weekly equipment bookings. Week 1 has 60 bookings, Week 2 has 90, Week 3 has 75, and Week 4 has 65. Each booking is counted once, including repeated bookings by the same member. The figures do not report the number of individual users. They also contain no information about changes in price or opening hours. A summary should preserve the peak and the later decline while distinguishing bookings from people.",
+     "items": [
+      {
+       "stem": "Which summary best preserves the turning point?",
+       "options": [
+        "Bookings increased steadily from sixty to ninety over the month.",
+        "Bookings peaked at ninety in Week 2, then fell to sixty-five.",
+        "Individual users declined from ninety to sixty across all four weeks.",
+        "A price increase reduced bookings after the first week's peak."
+       ],
+       "answer": 1,
+       "why": "Week 2 的 90 是峰值，之后降到 75 和 65，即第二项。材料没有给出价格和使用人数。",
+       "point": "select"
+      },
+      {
+       "stem": "Express the net change in bookings.",
+       "lead": "The final weekly total",
+       "chunks": [
+        "was five bookings",
+        "higher than",
+        "the initial total",
+        "of sixty"
+       ],
+       "tail": "even though bookings fell after reaching a peak during the second week of the period.",
+       "extra": [
+        "higher as"
+       ],
+       "why": "65 减 60 是 5，用 higher than 比较首尾。higher as 不是正确的比较结构。",
+       "point": "compare"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "select",
+    "compare"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "Illustrative chart: A neighborhood tool library records the percentage of its 400 registered members who borrow at least one item each month. The shares are 30% in May, 45% in June, 40% in July, and 50% in August. Registered membership remains unchanged. Summarize the main pattern, retaining any interruption to the increase. Use the correct unit for the difference between the first and last shares. The chart contains no evidence about advertising or changes in borrowing fees, and it does not count total individual loans.",
+       "items": [
+        {
+         "stem": "Which summary best represents the full pattern?",
+         "options": [
+          "The borrowing share increased every month, reaching half of registered members.",
+          "The number of registered members rose sharply after a decline in July.",
+          "Borrowing fees fell overall, although registered membership remained unchanged.",
+          "The borrowing share rose overall, with a temporary decline during July."
+         ],
+         "answer": 3,
+         "why": "30%、45%、40%、50% 首尾上升，July 有回落，即第四项。第一项的 every month 忽略了这次回落。",
+         "point": "select"
+        },
+        {
+         "stem": "How should the May-to-August difference be expressed?",
+         "options": [
+          "A rise of 20 percentage points, from 30% to 50%.",
+          "A rise of 20%, from 30% to 50% of members.",
+          "A rise to 20%, from an initial share of 30%.",
+          "A rise of 50 percentage points, ending at 30%."
+         ],
+         "answer": 0,
+         "why": "50% 减 30% 是 20 个百分点，即第一项。相对增幅约为 66.7%，所以第二项的 20% 不对。",
+         "point": "compare"
+        },
+        {
+         "stem": "Summarize the overall pattern with its exception.",
+         "lead": "The borrowing share",
+         "chunks": [
+          "rose from thirty",
+          "to fifty percent",
+          "despite a decline",
+          "during July"
+         ],
+         "tail": "among the same four hundred registered members between the first and last months shown.",
+         "extra": [
+          "rising from thirty"
+         ],
+         "why": "rose 是谓语，from … to … 保留首尾；despite a decline during July 保留中途回落。",
+         "point": "select"
+        },
+        {
+         "stem": "Compare the numbers of borrowers, using the fixed membership.",
+         "lead": "The number of borrowers",
+         "chunks": [
+          "increased from",
+          "one hundred and twenty",
+          "to two hundred as",
+          "the share rose"
+         ],
+         "tail": "from thirty to fifty percent of the same four hundred registered members.",
+         "extra": [
+          "increasing from"
+         ],
+         "why": "400 的 30% 是 120，50% 是 200。increased from … to … 写出人数的起点和终点。",
+         "point": "compare"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "Illustrative chart: A museum's four workshops report completed objects during a demonstration week. The paper workshop records 18 objects, the clay workshop 42, the textile workshop 30, and the wood workshop 24. Every workshop uses the same counting rule: one finished object counts as one unit. The chart gives no figures for participant numbers or hours worked. Summarize the largest difference between workshops and compare the highest total with the lowest, without treating output totals as measures of individual speed or productivity.",
+       "items": [
+        {
+         "stem": "Which pair best represents the largest output difference?",
+         "options": [
+          "The textile and wood workshops, separated by six completed objects.",
+          "The clay and paper workshops, separated by twenty-four completed objects.",
+          "The clay and textile workshops, separated by twelve completed objects.",
+          "The wood and paper workshops, separated by six completed objects."
+         ],
+         "answer": 1,
+         "why": "最高的 clay 42 与最低的 paper 18 相差 24，即第二项。其余各组之间的差距都更小。",
+         "point": "select"
+        },
+        {
+         "stem": "Which comparison is supported by the counting rule?",
+         "options": [
+          "The clay workshop used twenty-four more participants than the paper workshop.",
+          "Clay participants worked more than twice as fast as paper participants.",
+          "The clay workshop completed twenty-four more objects than the paper workshop.",
+          "The paper workshop completed twenty-four fewer objects per hour than clay."
+         ],
+         "answer": 2,
+         "why": "依据是 one finished object counts as one unit，单位是成品数量，即第三项。材料没有人数和工时，不能比较效率。",
+         "point": "compare"
+        },
+        {
+         "stem": "Identify the two ends of the output range.",
+         "lead": "The widest difference",
+         "chunks": [
+          "is between",
+          "the clay workshop",
+          "with forty-two objects and",
+          "the paper workshop"
+         ],
+         "tail": "with eighteen, rather than between the textile and wood workshops whose totals are closer.",
+         "extra": [
+          "being between"
+         ],
+         "why": "is between 构成谓语，with forty-two objects and 把最高的一组和最低的一组连起来。",
+         "point": "select"
+        },
+        {
+         "stem": "State the supported comparison without changing its unit.",
+         "lead": "The clay workshop",
+         "chunks": [
+          "produced twenty-four more",
+          "finished objects than",
+          "the paper workshop under",
+          "the same counting rule"
+         ],
+         "tail": "during the demonstration week, but the figures do not establish a difference in individual working speed.",
+         "extra": [
+          "most finished objects"
+         ],
+         "why": "42 减 18 是 24，more … than 比较成品数量。most 是最高级，不能与 than 连用。",
+         "point": "compare"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

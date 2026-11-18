@@ -1,0 +1,803 @@
+{
+ "writing-practical": {
+  "format": "essay",
+  "spec": "Create one original practical writing task for an English senior secondary examination. Rotate among letters, notices, speeches and event reports on familiar school, community, cultural or environmental activities. In setting, use 24–150 Chinese characters to identify the writer, intended reader and communicative purpose, with enough concrete context to make the task clear. In lead, instruct the learner in English to write about 80 words in the appropriate form. Give two or three distinct English bullets specifying the required content. Give one Chinese must entry per bullet, in the same order, describing the required content. Set purpose in Chinese. The task should allow the learner to demonstrate complete coverage with concrete details, a register suited to the reader and form, and accurate, connected sentences. Do not use living people, news, outside knowledge, a completed response, or requirements that depend on an image.",
+  "checks": {
+   "bullets": [
+    2,
+    3
+   ],
+   "must": [
+    2,
+    3
+   ],
+   "setting": [
+    24,
+    150
+   ]
+  },
+  "example": {
+   "purpose": "邀请参加校园活动",
+   "setting": "假如你是校英语社团负责人李华，社团准备举办旧书交换活动。请给交换生朋友写一封信，邀请他参加并介绍有关安排。",
+   "lead": "Write a letter of about 80 words to invite your friend to the book exchange.",
+   "bullets": [
+    "Give the time and place of the event.",
+    "Explain what participants can bring and do.",
+    "Invite your friend to join you."
+   ],
+   "must": [
+    "交代活动时间和地点。",
+    "说明参加者可以带什么书以及做什么。",
+    "邀请朋友一同参加。"
+   ]
+  }
+ },
+ "reading-passage": {
+  "format": "reading",
+  "spec": "Write one original English passage of 250–350 words for a Chinese senior secondary examination. Rotate among an announcement, narrative, explanatory article and argument. Use a clear, standard written register and familiar school, community, nature or cultural topics; use no living people or news. Set four four-option questions in English covering factual detail, a limited inference, and main idea or purpose; a contextual word or sentence meaning may also be tested. Make one answer demonstrably supported by the passage. Build plausible distractors from details in the passage, including changed people, causes or scope, and avoid answers requiring outside knowledge. Use look passage. Explain the evidence and a tempting wrong answer in Chinese; assign the appropriate supplied point to each item.",
+  "checks": {
+   "groups": 1,
+   "text": [
+    176,
+    525
+   ],
+   "items": 4,
+   "options": 4,
+   "looks": [
+    "passage"
+   ]
+  },
+  "example": {
+   "groups": [
+    {
+     "label": "Reading",
+     "look": "passage",
+     "text": "When the old footbridge at the edge of the village was closed for repairs, the walk to school became much longer for the children who lived across the stream. They could use the road bridge, but it was nearly two kilometres away. The village council put up a notice explaining that the wooden boards had become unsafe and asking residents to keep away while the work was planned.\n\nAt a meeting, some parents suggested hiring a bus. Others worried that a bus would be expensive for a journey that would only be needed for a few weeks. Then a local gardener, Mr Green, offered another idea. He knew a farmer who owned a field beside the stream. With the farmer's permission, the children could follow a path across the field to a small stone crossing farther upstream. The crossing was narrow, however, and the path became slippery after rain.\n\nRather than simply announcing the route, the council asked families to try it on a Saturday morning. Adults walked with the children and noted places where a handrail or a clearer sign would help. The farmer agreed to keep his animals in another field during school hours. A group of residents laid a short line of rough stones on the wettest section of the path.\n\nThe temporary route opened the following Monday. It still took longer than the old bridge, but families could reach school on foot without going all the way to the road bridge. When the repaired footbridge reopened, the council thanked the farmer and the volunteers. It also kept a record of their suggestions, in case the crossing was ever needed again.",
+     "items": [
+      {
+       "stem": "Why was the old footbridge closed?",
+       "options": [
+        "It was too narrow for children.",
+        "Its wooden boards were unsafe.",
+        "The farmer needed the land.",
+        "The road bridge was being repaired."
+       ],
+       "answer": 1,
+       "why": "通知说明木板已不安全；维修的是人行桥，不是公路桥。",
+       "point": "detail"
+      },
+      {
+       "stem": "What can be inferred about the Saturday walk?",
+       "options": [
+        "It helped identify changes needed on the route.",
+        "It was the first day of the new school term.",
+        "It showed that a bus would be cheaper.",
+        "It persuaded the farmer to sell his field."
+       ],
+       "answer": 0,
+       "why": "家长和孩子试走后指出了需要扶手和标志的地方。",
+       "point": "inference"
+      },
+      {
+       "stem": "What did the farmer agree to do during school hours?",
+       "options": [
+        "Repair the road bridge.",
+        "Drive children to school.",
+        "Move his animals to another field.",
+        "Place signs inside the school."
+       ],
+       "answer": 2,
+       "why": "农场主同意在上学时间把牲畜留在另一块地里。",
+       "point": "detail"
+      },
+      {
+       "stem": "What is the main purpose of the passage?",
+       "options": [
+        "To compare different types of bridges.",
+        "To explain how to build a stone crossing.",
+        "To argue that school buses should be free.",
+        "To describe how a village arranged a temporary school route."
+       ],
+       "answer": 3,
+       "why": "全文讲述人行桥维修期间村民如何安排临时上学路线。",
+       "point": "main"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "usage-grammar": {
+  "format": "reading",
+  "spec": "Write one original English passage of 180–220 words in a standard school textbook register, on a familiar school, community, nature or cultural subject; do not use living people or news. Mark exactly ten numbered gaps (1) to (10) in the passage, mixing gaps followed by a base word in parentheses with gaps without a prompt. Prompted gaps test finite and non-finite verb forms or word formation; unprompted gaps test a single grammatical word such as an article, preposition or relative word. Set one blank item per numbered gap in order; its stem is Blank (n), and accept lists every grammatically and semantically valid answer including standard British and American variants. Make every gap uniquely determined in context or explicitly list valid alternatives. Explain the grammar in Chinese and assign the appropriate supplied point. Use look passage. Do not use half-word gaps or multiple-choice options.",
+  "checks": {
+   "groups": 1,
+   "text": [
+    128,
+    330
+   ],
+   "items": 10,
+   "answer": "blank",
+   "looks": [
+    "passage"
+   ]
+  },
+  "example": {
+   "groups": [
+    {
+     "label": "Grammar",
+     "look": "passage",
+     "text": "Last autumn, our school started a small seed library. Students bring seeds from plants they have grown and exchange them for others. The project (1) _____ (begin) with a box in the science room, but it soon needed more space. A teacher offered a cupboard (2) _____ the boxes could be kept dry.\n\nEach packet has a label with the name of the plant and the date. Students are asked (3) _____ (write) down where they collected the seeds, too. This information is (4) _____ (help) when another student wants to find out how the plant grows. The packets are arranged (5) _____ colour, so visitors can find flowers and vegetables easily.\n\nAt the end of each term, volunteers count the packets and check the labels. If a label is missing, they put the packet aside rather than make a guess. Last week, several younger pupils joined the team. They worked (6) _____ (careful) and asked many questions. One pupil said that she had never noticed how different seeds could be in size. Another was surprised that a dry bean could grow into a plant. The library has become a place (7) _____ students share both seeds and experience. It also gives them a reason to return in spring, when the garden (8) _____ (be) ready for planting. Anyone can join, and no one needs to buy (9) _____ expensive tool. All that is required is an interest (10) _____ growing something.",
+     "items": [
+      {
+       "stem": "Blank (1)",
+       "accept": [
+        "began"
+       ],
+       "why": "begin 的过去式与 Last autumn 对应。",
+       "point": "verb"
+      },
+      {
+       "stem": "Blank (2)",
+       "accept": [
+        "where"
+       ],
+       "why": "先行词 cupboard 表示存放地点，定语从句缺地点状语。",
+       "point": "function"
+      },
+      {
+       "stem": "Blank (3)",
+       "accept": [
+        "to write"
+       ],
+       "why": "ask someone to do 要求不定式。",
+       "point": "verb"
+      },
+      {
+       "stem": "Blank (4)",
+       "accept": [
+        "helpful"
+       ],
+       "why": "is 后用形容词作表语。",
+       "point": "form"
+      },
+      {
+       "stem": "Blank (5)",
+       "accept": [
+        "by"
+       ],
+       "why": "by colour 表示按颜色分类。",
+       "point": "function"
+      },
+      {
+       "stem": "Blank (6)",
+       "accept": [
+        "carefully"
+       ],
+       "why": "修饰动词 worked 用副词。",
+       "point": "form"
+      },
+      {
+       "stem": "Blank (7)",
+       "accept": [
+        "where"
+       ],
+       "why": "先行词 place 表示地点，定语从句缺地点状语。",
+       "point": "function"
+      },
+      {
+       "stem": "Blank (8)",
+       "accept": [
+        "is"
+       ],
+       "why": "从句主语是单数 garden，描述春天的状态用 is。",
+       "point": "verb"
+      },
+      {
+       "stem": "Blank (9)",
+       "accept": [
+        "an"
+       ],
+       "why": "expensive 以元音音素开头，单数名词前用 an。",
+       "point": "function"
+      },
+      {
+       "stem": "Blank (10)",
+       "accept": [
+        "in"
+       ],
+       "why": "an interest in 是固定搭配。",
+       "point": "function"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "listening-short": {
+  "format": "listening",
+  "spec": "Write five original English conversations, each 30 to 50 words and 2 to 4 alternating turns, beginning with A. Use natural standard spoken English about school, community, travel or everyday services. Each conversation has one English question with three distinct options; cover explicit details and paraphrases, place or relationship inferred from spoken evidence, and final actions after suggestions. Distractors should adapt mentioned times, people, places or rejected plans. Ensure one answer is supported by words actually heard, not voice, accent, gender or emotion. Use A and B only. Do not use living people, news or outside knowledge. Give a concise Chinese explanation of the evidence and the relevant supplied point for each item.",
+  "checks": {
+   "groups": 5,
+   "text": [
+    30,
+    50
+   ],
+   "lines": [
+    2,
+    4
+   ],
+   "alternate": true,
+   "items": 1,
+   "options": 3
+  },
+  "example": {
+   "groups": [
+    {
+     "intro": "Listen to the conversation.",
+     "lines": [
+      {
+       "who": "A",
+       "text": "Excuse me, I ordered a book last week. Has it arrived yet? I need it for my history project."
+      },
+      {
+       "who": "B",
+       "text": "Let me check your name. Yes, it's here behind the desk. You can borrow it for three weeks."
+      }
+     ],
+     "items": [
+      {
+       "stem": "Where are the speakers?",
+       "options": [
+        "At a library.",
+        "At a cinema.",
+        "At a railway station."
+       ],
+       "answer": 0,
+       "why": "对话提到订书和借书期限，说明地点是图书馆。",
+       "point": "inference"
+      }
+     ]
+    },
+    {
+     "intro": "Listen to the conversation.",
+     "lines": [
+      {
+       "who": "A",
+       "text": "Shall we meet at the museum at ten on Saturday? The exhibition opens at nine, but I have a class first."
+      },
+      {
+       "who": "B",
+       "text": "Ten works for me. I'll wait beside the ticket desk, not at the main gate."
+      }
+     ],
+     "items": [
+      {
+       "stem": "When will the speakers meet?",
+       "options": [
+        "At nine.",
+        "At ten.",
+        "After eleven."
+       ],
+       "answer": 1,
+       "why": "两人约定十点见面，九点是展览开放时间。",
+       "point": "detail"
+      }
+     ]
+    },
+    {
+     "intro": "Listen to the conversation.",
+     "lines": [
+      {
+       "who": "A",
+       "text": "I was going to take the bus to the sports centre, but the next one won't come for half an hour."
+      },
+      {
+       "who": "B",
+       "text": "Then why not walk? It's only fifteen minutes away. I'll come with you."
+      },
+      {
+       "who": "A",
+       "text": "Good idea. Let's go now."
+      }
+     ],
+     "items": [
+      {
+       "stem": "How will the speakers travel?",
+       "options": [
+        "By bus.",
+        "By car.",
+        "On foot."
+       ],
+       "answer": 2,
+       "why": "一人提议步行，另一人同意；乘公交是原计划。",
+       "point": "intention"
+      }
+     ]
+    },
+    {
+     "intro": "Listen to the conversation.",
+     "lines": [
+      {
+       "who": "A",
+       "text": "Could you tell me why my plant's leaves are turning yellow? I water it every morning before school."
+      },
+      {
+       "who": "B",
+       "text": "The soil feels very wet. Try watering it less often, and keep it near a window rather than outside."
+      }
+     ],
+     "items": [
+      {
+       "stem": "What does the second speaker advise?",
+       "options": [
+        "Watering the plant less often.",
+        "Putting the plant outside.",
+        "Watering it every morning."
+       ],
+       "answer": 0,
+       "why": "建议减少浇水次数，并放在窗边而不是室外。",
+       "point": "detail"
+      }
+     ]
+    },
+    {
+     "intro": "Listen to the conversation.",
+     "lines": [
+      {
+       "who": "A",
+       "text": "Have you finished the poster for the school concert? We need to send it to the printer today."
+      },
+      {
+       "who": "B",
+       "text": "Almost. I still need to add the starting time. Could you check the date while I do that?"
+      },
+      {
+       "who": "A",
+       "text": "Sure, I'll look at the programme."
+      }
+     ],
+     "items": [
+      {
+       "stem": "What will the second speaker add to the poster?",
+       "options": [
+        "The concert date.",
+        "The starting time.",
+        "The printer's address."
+       ],
+       "answer": 1,
+       "why": "第二个人要补上开始时间，并请对方核对日期。",
+       "point": "intention"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "listening-long": {
+  "format": "listening",
+  "spec": "Write two original recordings in standard natural spoken English on familiar school, community, cultural or everyday topics. The first is a two-person conversation using A and B; the second is an announcement or other monologue by A alone. Each recording is 120 to 180 words. Each has three English questions with three distinct options, testing its main subject, a person or concrete detail, and the reason or condition behind a decision. Build plausible distractors from other people, old plans and details actually mentioned. Make each answer uniquely supported by audible words, without relying on voice, accent, gender, emotion or outside knowledge. Avoid living people and news. Explain the evidence in Chinese and assign the supplied point.",
+  "checks": {
+   "groups": 2,
+   "text": [
+    120,
+    180
+   ],
+   "items": 3,
+   "options": 3
+  },
+  "example": {
+   "groups": [
+    {
+     "intro": "Listen to the recording.",
+     "lines": [
+      {
+       "who": "A",
+       "text": "Hi, Nina. Have you decided what our class should do for the community day? We need to give the teacher a plan by Friday."
+      },
+      {
+       "who": "B",
+       "text": "I've been thinking about the riverside path. There's a lot of litter there after weekends, and younger children use the path to get to the park."
+      },
+      {
+       "who": "A",
+       "text": "Cleaning it sounds useful. I originally wanted to plant trees, but the council says we need special permission to dig there."
+      },
+      {
+       "who": "B",
+       "text": "Then let's collect litter instead. My uncle can lend us gloves and bags, so we won't need to buy those. We should still ask the council where to leave the full bags."
+      },
+      {
+       "who": "A",
+       "text": "I'll make that call tomorrow. Can you write a notice for our classmates? We should meet at the school gate at nine and walk down together."
+      },
+      {
+       "who": "B",
+       "text": "Sure. I'll also ask everyone to wear strong shoes. If it rains heavily, we can move the work to the following Saturday."
+      }
+     ],
+     "items": [
+      {
+       "stem": "What are the speakers mainly planning?",
+       "options": [
+        "A class visit to a park.",
+        "A community clean-up.",
+        "A tree-planting lesson."
+       ],
+       "answer": 1,
+       "why": "两人商量组织同学清理河边步道上的垃圾。",
+       "point": "main"
+      },
+      {
+       "stem": "What will the first speaker do?",
+       "options": [
+        "Contact the council.",
+        "Write a notice.",
+        "Lend out gloves."
+       ],
+       "answer": 0,
+       "why": "第一人说明天打电话给议会，通知由另一人写。",
+       "point": "detail"
+      },
+      {
+       "stem": "Why do they decide against planting trees?",
+       "options": [
+        "They cannot find a place to meet.",
+        "The tools cost too much.",
+        "Digging requires permission."
+       ],
+       "answer": 2,
+       "why": "议会说在那里挖土需要特别许可。",
+       "point": "cause"
+      }
+     ]
+    },
+    {
+     "intro": "Listen to the recording.",
+     "lines": [
+      {
+       "who": "A",
+       "text": "Good morning, visitors. Welcome to the town museum's Saturday workshop. Today we'll learn how people made paper by hand. First, please leave your coats on the hooks near the entrance. The tables in the main hall are already set up with bowls, screens and pieces of old paper. At ten, our guide will show you each step, and after that you can make a sheet of your own. We had planned to dry the sheets outdoors, but the forecast says rain is likely, so we will use the warm room upstairs instead. Your paper will need several hours to dry. You may collect it from the front desk tomorrow afternoon, or leave your address and we can post it to you. Children should work with an adult, because the bowls of water can be difficult to carry. If you have any questions, please ask a member of staff wearing a blue badge."
+      }
+     ],
+     "items": [
+      {
+       "stem": "What is the announcement mainly about?",
+       "options": [
+        "A paper-making workshop.",
+        "A painting competition.",
+        "A tour of the town."
+       ],
+       "answer": 0,
+       "why": "通知介绍博物馆手工造纸活动的安排。",
+       "point": "main"
+      },
+      {
+       "stem": "Where will the paper dry?",
+       "options": [
+        "Outside the museum.",
+        "At the front desk.",
+        "In a room upstairs."
+       ],
+       "answer": 2,
+       "why": "由于可能下雨，纸张改在楼上的暖室晾干。",
+       "point": "detail"
+      },
+      {
+       "stem": "Why should children work with an adult?",
+       "options": [
+        "The room upstairs is closed.",
+        "The bowls of water may be hard to carry.",
+        "They must write a postal address."
+       ],
+       "answer": 1,
+       "why": "通知说明装水的盆可能难以搬动。",
+       "point": "cause"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "reading-seven": {
+  "format": "reading",
+  "spec": "Write one original English explanatory or advice article of 250 to 300 words in a standard senior secondary textbook register, on familiar school, community, culture, nature or learning topics; give it a short title on the first line. Do not use living people, news or outside knowledge. After the title write five short paragraphs, each about its own step or sub-topic (for example the place, the time, the method, the questions, the review), so that a sentence about one paragraph cannot sit in another. Remove one complete sentence from each paragraph and mark the gaps (1) _____ to (5) _____ in order; a gap may take the opening, a middle or the closing sentence of its paragraph. Remove only a sentence that is locked to its place by two cues: it carries its own paragraph's sub-topic, and a neighbour points to it: the sentence after the gap refers back to something only the removed sentence says (This, These, It, Such, Instead, or a repeated noun), or the sentence before the gap raises exactly what it answers (a question, a problem, a first step). Never remove a general remark that would read well in several paragraphs (This is important. Be patient. It is worth the effort.). Supply one bank of seven distinct complete English sentences: the five removed sentences and two that fit no gap. Each unused sentence is on the article's topic and may reuse a word of the passage, but must clash with every gap for a clear reason: it contradicts advice the passage gives; or it starts with a pronoun or noun phrase (They, These tools, Such a list) whose referent appears nowhere near any gap; or it is about a sub-topic no paragraph discusses. An unused sentence must never be a vaguer or reworded version of a removed sentence, and no two bank sentences may make the same point. Before returning, read each of the seven sentences into each of the five gaps: every gap must accept exactly one sentence and the two unused sentences none; if a sentence also reads acceptably in a second gap, rewrite it or the sentences around the gap. Put the bank in mixed order: the five correct sentences must not follow the order of the gaps, and the two unused sentences must not both be last. Each item is Blank (n); answer is an integer, the zero-based index of its sentence in the shared bank; no two items share an answer. Test the supplied points: role (what the gap does in its paragraph), reference (pronouns such as this, they, such and repeated or related words on either side) and logic (contrast, cause, example or sequence with the sentences on both sides). In why, explain in Chinese the cue before or after the gap and why the closest other sentence does not fit. Never ask the learner to type a letter.",
+  "checks": {
+   "groups": 1,
+   "text": [
+    160,
+    413
+   ],
+   "items": 5,
+   "options": 7,
+   "bank": true,
+   "looks": [
+    "passage"
+   ]
+  },
+  "example": {
+   "groups": [
+    {
+     "label": "Reading",
+     "look": "passage",
+     "text": "Keeping a Nature Notebook\n\nA nature notebook can help you notice changes in a familiar place. You do not need to travel far or know the names of every plant. (1) _____ A tree outside a window or a patch of grass near a bus stop can give you plenty to observe throughout the year.\n\nChoose a regular time to visit. (2) _____ On each visit, write the date and describe the weather before recording what you see. This routine makes it easier to compare one entry with another, even when several weeks have passed between visits.\n\nLook closely, but avoid disturbing living things. Notice the shape of leaves, the colour of flowers or the tracks left in soft ground. (3) _____ Instead, make a quick sketch and add a few words about its size and position. A drawing need not be perfect to be useful later.\n\nAsk questions as well as recording facts. For example, you might wonder why a shady corner stays damp longer than the path beside it. (4) _____ Return after different kinds of weather and see whether your observations support that first idea. You may discover that you need to change your explanation.\n\nFinally, look back through your pages from time to time. (5) _____ These patterns may be hard to notice during a single visit. Sharing them with a friend can also lead to new questions and give you another reason to keep observing.",
+     "bank": [
+      "If you cannot identify something, do not worry.",
+      "Always pick flowers to take home for your notebook.",
+      "Start with a place you can reach easily.",
+      "You may see patterns in the dates and descriptions.",
+      "These tools are cheap enough for any student to buy.",
+      "A visit every week or two is enough to begin.",
+      "Write down a possible answer, even if you are unsure."
+     ],
+     "items": [
+      {
+       "stem": "Blank (1)",
+       "answer": 2,
+       "why": "后句列举窗外的树、车站旁的草地，都是近处容易到达的地方；These tools 一句在全文找不到指代对象。",
+       "point": "role"
+      },
+      {
+       "stem": "Blank (2)",
+       "answer": 5,
+       "why": "前句要求定期去，此句给出去的频率，后句 On each visit 接着讲每次去做什么。",
+       "point": "role"
+      },
+      {
+       "stem": "Blank (3)",
+       "answer": 0,
+       "why": "后句 Instead 和 its size 指回此句里认不出的 something；Always pick flowers 与前文不要打扰生物相矛盾。",
+       "point": "reference"
+      },
+      {
+       "stem": "Blank (4)",
+       "answer": 6,
+       "why": "后句 that first idea 指的就是此句写下的可能答案；第五空的 patterns 一句与提问无关。",
+       "point": "logic"
+      },
+      {
+       "stem": "Blank (5)",
+       "answer": 3,
+       "why": "后句 These patterns 指回此句的 patterns；第四空那句写的是答案，不是规律。",
+       "point": "reference"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "usage-cloze": {
+  "format": "reading",
+  "spec": "Write one original English first-person narrative, or narrative with a short reflection at the end, of 250 to 300 words, in a natural senior secondary examination register, about a familiar school, family or community experience with a clear goal, a difficulty, a turn and an ending. Do not use living people, news or facts that need outside knowledge. Replace 15 words or short phrases with numbered gaps written exactly as (1) _____ to (15) _____ in order, spread over the whole story; do not gap the first sentence, and keep enough ungapped text for the story to be followed. For each gap give one item with stem Blank (n) and four distinct options of the same part of speech and the same grammatical form (all past tense verbs, all nouns, all phrasal verbs, and so on), so that grammar alone never decides the answer. Spread the items over the supplied points: context (the answer is echoed or explained by a word, synonym, antonym or event elsewhere in the story), logic (the answer follows from contrast, cause and result, or the order of events) and collocation (the answer forms a common word partnership with the words around the gap). Build the three distractors from the same situation: words that fit the sentence alone but not the story, words with the opposite feeling or direction, and near meanings with the wrong partner word. Exactly one option may fit both the sentence and the whole story. Give each item a short Chinese why naming the clue in the story and the supplied point it tests. Use label Cloze and look passage.",
+  "checks": {
+   "groups": 1,
+   "text": [
+    176,
+    413
+   ],
+   "items": 15,
+   "options": 4,
+   "looks": [
+    "passage"
+   ]
+  },
+  "example": {
+   "groups": [
+    {
+     "label": "Cloze",
+     "look": "passage",
+     "text": "When our town library announced a repair day, I signed up to help. I arrived early, carrying my grandfather's old toolbox and feeling a little (1) _____.\n\nAt the first table, a girl was holding a toy train. One wheel had come off, and she feared that the toy was (2) _____. I examined it and found that a small screw was missing. I did not have the right size, so I asked the volunteer at the next table. He (3) _____ through a box and found one that fitted. Soon the train could (4) _____ across the table again.\n\nLater, an older visitor brought a lamp that would not light. I was ready to take it apart, but another volunteer (5) _____ that we check the bulb first. She replaced it, and the lamp came on. Her suggestion (6) _____ us a great deal of work. I wrote it down because I wanted to (7) _____ it next time.\n\nBy afternoon, the room was busy. Some people brought objects; others came to (8) _____ how repairs were done. I showed a boy how to tighten a loose handle, then let him (9) _____ the tool himself. He turned the screw and gave it a (10) _____. It stayed in place.\n\nAt the end of the day, we counted the objects we had repaired and thanked everyone who had (11) _____. I had expected to work alone at a table. Instead, I had learned to (12) _____ help, listen to advice and share what I knew. As I closed Grandfather's toolbox, I realised that a useful skill can (13) _____ when people pass it on. I was already looking forward to the next repair day, when I could (14) _____ more neighbours and perhaps (15) _____ something new from them.",
+     "items": [
+      {
+       "stem": "Blank (1)",
+       "options": [
+        "nervous",
+        "asleep",
+        "hungry",
+        "silent"
+       ],
+       "answer": 0,
+       "why": "第一次参加修理日，独自带着旧工具箱早早到场，心情紧张；asleep、hungry 与情境不符。",
+       "point": "context"
+      },
+      {
+       "stem": "Blank (2)",
+       "options": [
+        "borrowed",
+        "ruined",
+        "hidden",
+        "delivered"
+       ],
+       "answer": 1,
+       "why": "轮子掉了，女孩担心玩具坏了；后文把它修好也说明此前是坏的。",
+       "point": "context"
+      },
+      {
+       "stem": "Blank (3)",
+       "options": [
+        "argued",
+        "slept",
+        "searched",
+        "travelled"
+       ],
+       "answer": 2,
+       "why": "他在盒子里翻找并找到合适的螺丝，search through 是常用搭配。",
+       "point": "collocation"
+      },
+      {
+       "stem": "Blank (4)",
+       "options": [
+        "roll",
+        "fly",
+        "sink",
+        "grow"
+       ],
+       "answer": 0,
+       "why": "修好轮子后，玩具火车又能在桌上滚动前进，与 wheel 呼应。",
+       "point": "context"
+      },
+      {
+       "stem": "Blank (5)",
+       "options": [
+        "forgot",
+        "suggested",
+        "denied",
+        "doubted"
+       ],
+       "answer": 1,
+       "why": "另一位志愿者建议先查灯泡，下文 Her suggestion 复现了这个意思。",
+       "point": "context"
+      },
+      {
+       "stem": "Blank (6)",
+       "options": [
+        "cost",
+        "owed",
+        "promised",
+        "saved"
+       ],
+       "answer": 3,
+       "why": "换灯泡就修好了灯，省去了拆开的大量工作；save sb. work 是常用搭配。",
+       "point": "collocation"
+      },
+      {
+       "stem": "Blank (7)",
+       "options": [
+        "refuse",
+        "hide",
+        "remember",
+        "lose"
+       ],
+       "answer": 2,
+       "why": "记下方法是为了下次记得使用；refuse、lose 与 wrote it down 的目的相反。",
+       "point": "logic"
+      },
+      {
+       "stem": "Blank (8)",
+       "options": [
+        "sell",
+        "watch",
+        "prevent",
+        "describe"
+       ],
+       "answer": 1,
+       "why": "前半句说有人带来物品，others 引出另一些人，他们是来看修理过程的。",
+       "point": "logic"
+      },
+      {
+       "stem": "Blank (9)",
+       "options": [
+        "drop",
+        "break",
+        "return",
+        "hold"
+       ],
+       "answer": 3,
+       "why": "我示范后让男孩自己拿工具，下句 He turned the screw 说明他亲手操作。",
+       "point": "context"
+      },
+      {
+       "stem": "Blank (10)",
+       "options": [
+        "test",
+        "price",
+        "name",
+        "seat"
+       ],
+       "answer": 0,
+       "why": "拧紧后试一试把手，下句 It stayed in place 是试的结果。",
+       "point": "logic"
+      },
+      {
+       "stem": "Blank (11)",
+       "options": [
+        "waited",
+        "complained",
+        "helped",
+        "departed"
+       ],
+       "answer": 2,
+       "why": "一天结束时感谢所有帮过忙的人，与志愿修理的情境一致。",
+       "point": "context"
+      },
+      {
+       "stem": "Blank (12)",
+       "options": [
+        "turn down",
+        "ask for",
+        "pay for",
+        "look after"
+       ],
+       "answer": 1,
+       "why": "Instead 表示与「独自干活」的预想相反，学会了寻求帮助；ask for help 是常用搭配。",
+       "point": "collocation"
+      },
+      {
+       "stem": "Blank (13)",
+       "options": [
+        "stop",
+        "disappear",
+        "spread",
+        "fail"
+       ],
+       "answer": 2,
+       "why": "技能在人们传授时得到传播，与 pass it on 呼应；stop、fail 方向相反。",
+       "point": "logic"
+      },
+      {
+       "stem": "Blank (14)",
+       "options": [
+        "avoid",
+        "meet",
+        "refuse",
+        "replace"
+       ],
+       "answer": 1,
+       "why": "期待在下次修理日结识更多邻居，meet neighbours 搭配自然。",
+       "point": "collocation"
+      },
+      {
+       "stem": "Blank (15)",
+       "options": [
+        "teach",
+        "lend",
+        "send",
+        "learn"
+       ],
+       "answer": 3,
+       "why": "learn something from sb. 表示向他人学习，与前文分享技能相呼应。",
+       "point": "collocation"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "writing-continuation": {
+  "format": "essay",
+  "spec": "Write an original unfinished English narrative of 300–350 words in a clear senior-secondary examination register. Use familiar family, school or community experiences, a small conflict and concrete clues that allow a coherent resolution. End before the conflict is resolved. Do not use living people, news or outside knowledge. In setting, put the story followed by two distinct lines labelled Paragraph 1 and Paragraph 2, each giving the first sentence of that paragraph. The first opening must permit a development that leads naturally to the second; the second must permit a resolution. In lead, ask the learner to continue the story in two paragraphs of about 150 words in total, beginning each with its given sentence. Set three English bullets covering plot and causality, concrete action, and consistent narrative person and tense. Give three corresponding Chinese must entries that describe what each bullet requires. The purpose identifies the task in Chinese. Do not provide a completed continuation.",
+  "checks": {
+   "bullets": 3,
+   "must": 3,
+   "setting": [
+    224,
+    525
+   ]
+  },
+  "example": {
+   "purpose": "读后续写",
+   "setting": "On the morning of the school fair, Maya carried a cardboard box into the hall. It held the paper lanterns her class had made for the reading corner. Each lantern had a small paper label with the title of a book written on it. Visitors could choose a label, find the book on the shelf and leave a short recommendation for the next reader.\n\nMaya and her friend Ben had planned the corner for weeks. Ben had brought a wooden stand from home, and Maya had promised to hang the lanterns before the doors opened. They wanted the youngest visitors to find the books without having to ask for help.\n\nAs Maya placed the box on a table, she heard a soft crack. One side of the stand had come loose. Ben examined it and found that a small wooden peg had fallen out. They searched the floor, but the hall was already crowded with tables, bags and boxes. The peg was nowhere in sight.\n\nThere were only twenty minutes left. Maya suggested putting the lanterns directly on the shelf, but Ben shook his head. The shelf was too low, and the labels would be hidden behind the books. He hurried off to ask a teacher for tools, while Maya tried to keep the lanterns from rolling off the table.\n\nThen a younger student stopped beside her. He had been helping to arrange the chairs, and he held a handful of coloured ribbon left over from another display. Maya remembered seeing two hooks above the reading corner. She looked at the ribbon, then at the lanterns. The student noticed her expression and asked what was wrong. Before she could answer, Ben returned without the tools: the teacher had lent them to another group. The doors would open in ten minutes, and the stand still leaned against the wall.\n\nParagraph 1: Maya pointed to the hooks above the reading corner.\nParagraph 2: When the doors opened, the first visitors came towards the corner.",
+   "lead": "Continue the story in two paragraphs of about 150 words in total. Begin each paragraph with its given sentence.",
+   "bullets": [
+    "Develop the plot using the clues and causes in the story.",
+    "Show the development through specific actions.",
+    "Keep the narrative person and tense consistent."
+   ],
+   "must": [
+    "使情节符合原文线索与因果关系",
+    "用具体动作展现情节发展",
+    "保持叙事人称与时态一致"
+   ]
+  }
+ }
+}

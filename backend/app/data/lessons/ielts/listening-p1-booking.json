@@ -1,0 +1,603 @@
+{
+ "id": "listening-p1-booking",
+ "title": "预约与服务咨询对话",
+ "goal": "按预约结构定位信息，并核对订金、取消及附加服务的适用条件。",
+ "skill": "听力",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "structure",
+   "label": "按预约对话的结构寻找信息"
+  },
+  {
+   "id": "condition",
+   "label": "识别服务条款的适用条件"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "雅思 IELTS Academic：课表",
+   "url": "docs/syllabi/ielts.md",
+   "used": "听力课的内容、知识点与教学规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "structure",
+   "type": "table",
+   "title": "结构",
+   "cols": [
+    "环节",
+    "住宿预订",
+    "设施租用",
+    "判断依据"
+   ],
+   "rows": [
+    [
+     "需求说明",
+     "I'd like a cabin for two nights.",
+     "We need a court for an hour.",
+     "先听要订什么、订多久。这时还不知道有没有空位。"
+    ],
+    [
+     "可用时段",
+     "The cabin is free from Friday.",
+     "The court is available after six.",
+     "这里的 free 是有空，不是免费。"
+    ],
+    [
+     "限制条件",
+     "A deposit is required to secure it.",
+     "Only members can book the evening slot.",
+     "条件决定方案能不能用，only 要听清。"
+    ],
+    [
+     "确认句",
+     "The cabin is reserved for both nights.",
+     "The court is booked from six to seven.",
+     "确认句给出最后订下的对象和时段。前面提到的其他选择不算。"
+    ]
+   ],
+   "note": "两类对话都按需求、可用时段、条件、确认的顺序推进。条款以本段录音为准，不套用其他服务的规则。"
+  },
+  {
+   "id": "deposit",
+   "type": "table",
+   "title": "常用表达：订金",
+   "cols": [
+    "表达",
+    "意思",
+    "例句"
+   ],
+   "rows": [
+    [
+     "pay a deposit",
+     "先付一部分钱，余款以后付。",
+     "A £25 deposit is payable when booking."
+    ],
+    [
+     "secure the booking",
+     "付了订金，预约就保留下来。",
+     "The deposit secures the booking."
+    ],
+    [
+     "deducted from the total",
+     "已付的订金从总价中扣除。",
+     "The deposit will be deducted from the total, leaving the balance due on arrival."
+    ],
+    [
+     "refundable provided that",
+     "满足后面的条件才能退。",
+     "The deposit is refundable provided that cancellation reaches us before Monday."
+    ]
+   ]
+  },
+  {
+   "id": "cancel",
+   "type": "table",
+   "title": "常用表达：取消",
+   "cols": [
+    "表达",
+    "意思",
+    "例句"
+   ],
+   "rows": [
+    [
+     "give notice",
+     "提前通知，要听清提前多久。",
+     "Please give at least two days' notice of cancellation."
+    ],
+    [
+     "no later than",
+     "最晚到这个时点，包括这个时点。",
+     "Cancellations must reach us no later than noon on Tuesday."
+    ],
+    [
+     "a cancellation fee applies",
+     "在所说的情况下收取消费。",
+     "A cancellation fee applies after that deadline."
+    ],
+    [
+     "non-refundable",
+     "这笔钱不退，要听清指的是哪一笔。",
+     "For cancellations on the day, the deposit is non-refundable."
+    ]
+   ]
+  },
+  {
+   "id": "extras",
+   "type": "table",
+   "title": "常用表达：附加服务",
+   "cols": [
+    "表达",
+    "意思",
+    "例句"
+   ],
+   "rows": [
+    [
+     "included in the price",
+     "该项目已含在报价内，不再单独收费。",
+     "Bed linen is included in the price."
+    ],
+    [
+     "at an additional charge",
+     "可以用，但要另付钱。",
+     "Towels are available at an additional charge."
+    ],
+    [
+     "on request",
+     "要提出才提供，可能另收费。",
+     "A cot is available on request for £8."
+    ],
+    [
+     "subject to availability",
+     "有余量才提供。",
+     "Late checkout is subject to availability."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A: I'd like a cabin from Friday to Sunday.\nB: That period is available. A £30 deposit secures the booking, with the balance due on arrival. Linen is included; towels cost £4.\nA: What happens if I cancel?\nB: The deposit is refundable if notice reaches us by noon on Wednesday. After that, it isn't refundable.\nA: Those terms are suitable. Please reserve the cabin.\nB: The cabin is reserved for those nights."
+    },
+    {
+     "p": "需求是周五至周日，回复说这段时间有空房。订金只是保留预订，余款到达时付。床单包含在内，毛巾另收 £4，这是两项条款。"
+    },
+    {
+     "box": "A: Could I hire the practice room after six?\nB: It's available, but evening bookings are for members only.\nA: I'm a member. Please book seven to eight.\nB: Seven to eight is confirmed. Music stands are included. A keyboard is available on request for £5."
+    },
+    {
+     "p": "住宿按入住的几晚定位，设施按使用的时段定位。members only 规定只有会员能订。on request for £5 有两层意思：要提出申请，还要另付 £5。"
+    },
+    {
+     "box": "Under the cabin terms, which cancellation qualifies for a deposit refund?\n1. Notice received on Thursday morning\n2. Notice received on Wednesday evening\n3. Notice received on Wednesday at 11 a.m.\n4. Notice received on Friday before arrival"
+    },
+    {
+     "p": "第三项在周三中午之前，符合退款条件。第四项虽然在入住前，但已过了周三中午的期限。"
+    }
+   ]
+  },
+  {
+   "id": "errors",
+   "type": "table",
+   "title": "常见错误",
+   "cols": [
+    "类型",
+    "错误理解",
+    "核对方法"
+   ],
+   "rows": [
+    [
+     "可用与免费混同",
+     "The room is free on Friday. → 无房费",
+     "这里说的是有空房。价格要另找报价的话轮。"
+    ],
+    [
+     "先付与全额混同",
+     "deposit → 已付清全部费用",
+     "balance due on arrival 说明余款到达时付。"
+    ],
+    [
+     "截止时点遗漏",
+     "before arrival → 必定退订金",
+     "看退款的截止时点，入住前不一定能退。"
+    ],
+    [
+     "附加服务范围扩大",
+     "linen included → towels included",
+     "逐项看哪些包含、哪些另付。"
+    ],
+    [
+     "申请等于承诺",
+     "on request → 无须确认即可提供",
+     "听清是否另收费，是否 subject to availability。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "structure",
+    "condition"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I'd like to hire a projector for Saturday."
+       },
+       {
+        "who": "B",
+        "text": "There's one available then. Friday's unit is already booked."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which part of the enquiry does the reply resolve?",
+       "options": [
+        "Whether a projector is free on Saturday",
+        "Whether the Saturday booking is confirmed",
+        "Whether the Saturday hire has been paid",
+        "Whether both days have been confirmed"
+       ],
+       "answer": 0,
+       "why": "There's one available then 回答了周六有没有设备，即第一项。回复没有说已经确认预订。",
+       "point": "structure"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The rehearsal room costs twenty pounds. A five-pound deposit secures it."
+       },
+       {
+        "who": "B",
+        "text": "So fifteen pounds remains to be paid?"
+       },
+       {
+        "who": "A",
+        "text": "That's right."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What does payment of the deposit achieve?",
+       "options": [
+        "It settles the full twenty-pound charge.",
+        "It reserves the room with a balance remaining.",
+        "It covers fifteen pounds of the charge.",
+        "It replaces the remaining fifteen-pound payment."
+       ],
+       "answer": 1,
+       "why": "deposit secures it 与 fifteen pounds remains to be paid 共同说明保留预约但尚未付清。",
+       "point": "condition"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "What's the cancellation deadline for the picnic shelter?"
+       },
+       {
+        "who": "B",
+        "text": "A refund is available if notice arrives before six on Thursday. After six, the fee is retained."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which cancellation meets the refund condition?",
+       "options": [
+        "Thursday at seven in the evening",
+        "Friday at five in the afternoon",
+        "Thursday at five in the afternoon",
+        "Friday at seven in the evening"
+       ],
+       "answer": 2,
+       "why": "before six on Thursday 包含周四下午五点，其他时点均更晚。",
+       "point": "condition"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The laptop is booked for the afternoon. A charger is included, and a carrying case costs three pounds."
+       },
+       {
+        "who": "B",
+        "text": "Please add the case as well."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which statement describes the accepted extra?",
+       "options": [
+        "A free case replaces the included charger.",
+        "The charger costs three pounds with the case.",
+        "Both accessories are already included free.",
+        "The case adds a charge to the laptop booking."
+       ],
+       "answer": 3,
+       "why": "a carrying case costs three pounds 后接 Please add the case，说明接受另付费用的附加项目。",
+       "point": "condition"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "structure",
+    "condition"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I'm enquiring about hiring the village meeting room for a sewing circle. We need a quiet room on Monday evening, with enough tables for eight people."
+       },
+       {
+        "who": "B",
+        "text": "The small meeting room is free from seven until nine. The larger hall has a dance class, so it wouldn't be quiet. The small room has tables and chairs included in the hire price."
+       },
+       {
+        "who": "A",
+        "text": "That sounds suitable. Would we be able to use an iron?"
+       },
+       {
+        "who": "B",
+        "text": "An iron is available on request, but there's a separate two-pound charge. Please ask for it when confirming the booking so it can be placed in the room."
+       },
+       {
+        "who": "A",
+        "text": "Please include the iron and book the small room from seven to nine."
+       },
+       {
+        "who": "B",
+        "text": "That's confirmed. If the session is cancelled, let the office know before noon on Friday for a refund. Later cancellation means the hire fee is retained."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which room and period have been confirmed?",
+       "options": [
+        "The large hall from seven to nine",
+        "The small room from seven to nine",
+        "The small room before seven",
+        "The large hall before the dance class"
+       ],
+       "answer": 1,
+       "why": "book the small room from seven to nine 后得到 That's confirmed，排除较吵的大厅。",
+       "point": "structure"
+      },
+      {
+       "stem": "What is required to obtain the iron?",
+       "options": [
+        "A request on arrival, with no extra charge",
+        "The room fee alone, without a request",
+        "A request when booking and a separate charge",
+        "Booking the small room before Friday noon"
+       ],
+       "answer": 2,
+       "why": "依据是 ask for it when confirming 和 separate two-pound charge。要在确认预订时提出，还要另付 2 镑，即第三项。",
+       "point": "condition"
+      },
+      {
+       "stem": "Which cancellation qualifies for a refund?",
+       "options": [
+        "Friday morning before noon",
+        "Friday afternoon after noon",
+        "Monday before seven",
+        "Monday after the session"
+       ],
+       "answer": 0,
+       "why": "before noon on Friday 是退款的截止时点，即第一项。周一活动开始前已超过期限。",
+       "point": "condition"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "structure",
+    "condition"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Hello, I'm looking for a lakeside cabin for a family visit. We need somewhere from Saturday until Monday, and I'd prefer one with a small kitchen because we'll prepare our own meals."
+         },
+         {
+          "who": "B",
+          "text": "The kitchen cabins are available for those nights. The simpler sleeping cabins are also free, but they don't have cooking facilities. A kitchen cabin costs ninety pounds per night."
+         },
+         {
+          "who": "A",
+          "text": "I'll choose a kitchen cabin. Is the whole amount due when booking, or is there a deposit?"
+         },
+         {
+          "who": "B",
+          "text": "A forty-pound deposit secures the reservation. It's deducted from the total, and the balance is due on arrival. Cancellation before noon on Thursday qualifies for a full deposit refund. After that deadline, the deposit is retained."
+         },
+         {
+          "who": "A",
+          "text": "Understood. Are bed linen and towels both included?"
+         },
+         {
+          "who": "B",
+          "text": "Linen is included. Towels cost five pounds per set and must be requested in advance."
+         },
+         {
+          "who": "A",
+          "text": "We'll bring our own towels. Please reserve the kitchen cabin for both nights."
+         },
+         {
+          "who": "B",
+          "text": "That's confirmed. The arrival details will be sent with the booking confirmation, and the kitchen equipment will be listed there as well."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What requirement explains the choice of cabin?",
+         "options": [
+          "The family needs towels supplied.",
+          "The family wants a single night.",
+          "The family plans to cook meals.",
+          "The family wants no arrival payment."
+         ],
+         "answer": 2,
+         "why": "because we'll prepare our own meals 说明需求，kitchen cabin 满足自行做饭的条件。",
+         "point": "structure"
+        },
+        {
+         "stem": "What is confirmed at the end of the conversation?",
+         "options": [
+          "A sleeping cabin with hired towels",
+          "A kitchen cabin for one night",
+          "A sleeping cabin for both nights",
+          "A kitchen cabin without hired towels"
+         ],
+         "answer": 3,
+         "why": "reserve the kitchen cabin for both nights 且 We'll bring our own towels，对应不租毛巾的厨房小屋。",
+         "point": "structure"
+        },
+        {
+         "stem": "Which cancellation qualifies for the stated deposit refund?",
+         "options": [
+          "Notice received on Thursday before noon",
+          "Notice received on Thursday after noon",
+          "Notice received on Saturday before arrival",
+          "Notice received on Monday before departure"
+         ],
+         "answer": 0,
+         "why": "before noon on Thursday 是退款条件，即第一项。周六到达前已超过期限。",
+         "point": "condition"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Good evening. I'm enquiring about hiring a badminton court for a workplace group. We can only meet after six, and we'd like to play for an hour. None of us has used this centre before."
+         },
+         {
+          "who": "B",
+          "text": "The evening courts are for members, although one member can make a booking for a group. There are vacancies at six and at seven. Is anyone in the group a member?"
+         },
+         {
+          "who": "A",
+          "text": "One colleague is. I'll ask her to make the booking. We prefer seven. Are rackets part of the court price?"
+         },
+         {
+          "who": "B",
+          "text": "Rackets can be hired for two pounds each. Shuttlecocks are included in the court fee. Cancellation at least twenty-four hours before the start receives a refund; later cancellation doesn't."
+         },
+         {
+          "who": "A",
+          "text": "That's clear. My colleague will book the seven o'clock court, but please don't treat this enquiry as a reservation. I still need to check whether everyone has a racket."
+         },
+         {
+          "who": "B",
+          "text": "Certainly. Nothing is reserved yet. The membership number will be required when the booking is made, and racket hire can be added then."
+         },
+         {
+          "who": "A",
+          "text": "I'll pass those details to my colleague."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What stage has this conversation reached?",
+         "options": [
+          "A reservation paid for by the whole group",
+          "An enquiry awaiting a member's booking",
+          "A confirmed booking with racket hire",
+          "A cancellation awaiting repayment"
+         ],
+         "answer": 1,
+         "why": "please don't treat this enquiry as a reservation 与 Nothing is reserved yet 一致，仍待会员正式预订。",
+         "point": "structure"
+        },
+        {
+         "stem": "Which arrangement meets the evening-booking condition?",
+         "options": [
+          "A member books on behalf of the group.",
+          "Every player hires a racket before booking.",
+          "The whole group pays the shuttlecock charge.",
+          "A non-member reserves before checking membership."
+         ],
+         "answer": 0,
+         "why": "one member can make a booking for a group 说明一名会员可以替全组预订，即第一项。",
+         "point": "condition"
+        },
+        {
+         "stem": "Which statement preserves the equipment terms?",
+         "options": [
+          "Rackets are included, but shuttlecocks cost extra.",
+          "Rackets cost extra, while shuttlecocks are included.",
+          "Both rackets and shuttlecocks are included.",
+          "Both rackets and shuttlecocks cost extra."
+         ],
+         "answer": 1,
+         "why": "Rackets can be hired for two pounds each 与 Shuttlecocks are included 区分另付和包含。",
+         "point": "condition"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

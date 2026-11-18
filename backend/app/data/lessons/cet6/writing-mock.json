@@ -1,0 +1,233 @@
+{
+ "id": "writing-mock",
+ "title": "写作模拟测试",
+ "goal": "选择切题且论证完整的句段，改正影响句意的结构错误。",
+ "skill": "写作",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "task",
+   "label": "选择切题且论证完整的句段"
+  },
+  {
+   "id": "accuracy",
+   "label": "改正影响句意的结构错误"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c1",
+   "title": "C1：CET笔试",
+   "url": "https://cet.neea.edu.cn/html1/folder/16113/1586-1.htm",
+   "used": "依据 exams_research.md 的 CET-6 节：正式写作题量与作答时间。"
+  },
+  {
+   "id": "c2",
+   "title": "C2：全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "依据 exams_research.md 的 CET-6 节：正式写作最低字数要求。"
+  },
+  {
+   "id": "syllabus",
+   "title": "大学英语六级（CET-6）：课表",
+   "url": "docs/syllabi/cet6.md",
+   "used": "写作模拟测试的客观题形式、知识点、课程限时与通过比例。"
+  }
+ ],
+ "cards": [
+  {
+   "id": "instructions",
+   "type": "text",
+   "title": "说明",
+   "src": "c1（C1）CET笔试：写作；c2（C2）考试大纲：写作任务说明；syllabus 写作模拟测试",
+   "body": [
+    {
+     "p": "正式写作要求在 30 分钟内写 1 篇短文，不少于 150 个英文词。本课用客观题复习审题、论证和句子准确性。完整的限时作文在短文写作练习中完成，由模型批改。"
+    },
+    {
+     "p": "审题时保留讨论对象、范围和写作目的。提纲要覆盖每一项独立要求，不用相关背景代替任务。论点中的限定条件，后文也要保留。"
+    },
+    {
+     "box": "Task: Evaluate anonymous feedback on draft stories, considering both useful criticism and abusive comments.\nRelevant thesis: Anonymous feedback can support revision if comments address the writing and personal attacks are removed.\nIncomplete thesis: Anonymous feedback gives writers useful criticism."
+    },
+    {
+     "p": "完整的论证先说措施怎样作用于原因，再联系到结果。重复优点代替不了中间环节。例子要写出论点中的行为和作用。结论不从一个情境扩大到所有情况。"
+    },
+    {
+     "box": "Claim: A shared pronunciation guide can make announcements more consistent.\nExplanation: Presenters consult the same recorded names before speaking, so they are less likely to use conflicting pronunciations.\nLimit: The guide cannot settle how to pronounce a name that has not been recorded."
+    },
+    {
+     "p": "句子是否准确，看主干和从属关系。谓语与主语中心词一致，不受旁边复数名词的影响。定语从句紧跟先行词。关系词已作宾语时，不再加代词宾语。"
+    },
+    {
+     "box": "The list of approved suppliers gives the purchasing team a clear basis for choosing a firm that meets the project requirements.\nThe form that the editor revised now includes a separate space for the source of each image submitted with an article."
+    },
+    {
+     "p": "从属连词引出的分句不能单独成句。because 引出原因，although 引出让步，后面都要接完整的主句。同一个主从句里，不再加 so 或 but。"
+    },
+    {
+     "box": "Because the replacement part was unavailable, the repair team postponed the work until a suitable component could be obtained from another supplier.\nAlthough the online catalog describes each item, the staff still inspect donated objects before deciding whether the collection can accept them."
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "task",
+    "accuracy"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A student science magazine is considering adding dated correction notes to articles when factual errors are discovered. Editors can already replace an incorrect sentence without recording the change. Some contributors worry that visible corrections will damage their reputation, while others believe that an explanation of the change helps readers assess the publication. Write an essay evaluating the proposed notes. Explain how visible corrections could affect reader trust, address the concern about contributors' reputations, and recommend a policy for handling factual mistakes in published articles.",
+       "items": [
+        {
+         "stem": "Which outline covers the task without changing its focus?",
+         "options": [
+          "Discuss trust in disclosed corrections, weigh the reputational concern, and propose a transparent procedure for correcting factual errors.",
+          "Discuss trust in scientific publishing, weigh the reputation of different magazines, and propose criteria for selecting new contributors.",
+          "Discuss contributors' reputations, describe how editors replace incorrect sentences, and explain how the magazine selects scientific topics for publication.",
+          "Discuss reasons for factual mistakes, describe how correction notes are dated, and compare the wording before and after revision."
+         ],
+         "answer": 0,
+         "why": "指令要求写 affect reader trust、address the concern about contributors' reputations 和 recommend a policy，第一项逐条对应。第二项把对象换成了整个科学出版和不同杂志的声誉。",
+         "point": "task"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A local oral-history archive plans to place interview transcripts on its website. The recordings currently remain available only in a supervised reading room. Searchable transcripts could help residents find accounts of local events, but speakers may have included private experiences they never intended to publish online. Write an essay assessing the proposal. Explain the value of searchable access, examine the difference between agreeing to an interview and agreeing to online publication, and recommend a condition that should be met before a transcript becomes publicly searchable.",
+       "items": [
+        {
+         "stem": "Which central claim addresses both the benefit and the required condition?",
+         "options": [
+          "Online transcripts should replace supervised access because agreeing to an interview already establishes permission for its wider publication.",
+          "Searchable transcripts can improve access to local accounts, provided speakers approve the material intended for public online release.",
+          "Searchable transcripts can improve access to local accounts, provided the recordings remain available in the supervised reading room.",
+          "Online transcripts should include private experiences because such details make searches more informative about events in the local area."
+         ],
+         "answer": 1,
+         "why": "find accounts of local events 是检索的价值，agreeing to an interview and agreeing to online publication 要求区分两种同意。第二项既写价值，又以讲述人同意公开为条件。第三项的条件是保留阅览室，解决不了隐私问题。",
+         "point": "task"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "Charging a refundable deposit for borrowed exhibition panels may reduce replacement costs, but the effect depends on return arrangements. The deposit gives each borrower a financial reason to bring a panel back. A convenient collection point addresses the separate difficulty of transporting bulky panels. Together, these measures can make return both worthwhile and practical. The argument is about recovering usable panels, rather than raising income from deposits that borrowers fail to reclaim.",
+       "items": [
+        {
+         "stem": "Which sentence best develops the link between the proposed measures and lower replacement costs?",
+         "options": [
+          "A larger deposit would increase the money held by the organizers, whether borrowed panels were eventually recovered or remained unreturned.",
+          "A convenient collection point would help borrowers reclaim deposits, making the financial reason to return panels unnecessary for the proposal.",
+          "When borrowers have both an incentive and a feasible return route, more panels may be recovered for use at later exhibitions.",
+          "When organizers keep unclaimed deposits as their main source of income, panel recovery becomes less relevant to the argument about replacement."
+         ],
+         "answer": 2,
+         "why": "worthwhile and practical 对应归还的动机和运输的便利，recovering usable panels 连到之后的再次使用。第三项写出了这一环节。第一项把重点改成了押金收入。",
+         "point": "task"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A neighborhood seed exchange should require labels stating the plant name and collection date. This information helps gardeners judge whether an offered packet suits their planting plans. The labels do not guarantee that every seed will grow, since storage conditions may differ. The case for labeling is therefore limited to improving the basis for selection. A supporting example should show a gardener using the stated information to make a choice, rather than merely receiving a larger packet.",
+       "items": [
+        {
+         "stem": "Which example supports the stated argument without claiming more than it establishes?",
+         "options": [
+          "A gardener takes the larger packet because its greater quantity appears more useful, without checking the plant name or collection date.",
+          "A gardener reads the collection date and concludes that every seed will grow, regardless of how the packet has been stored.",
+          "A gardener records the plant name after choosing a packet at random, treating the label as a record of the completed choice.",
+          "A gardener compares the plant names and collection dates on two packets, then selects the one better suited to the intended planting."
+         ],
+         "answer": 3,
+         "why": "依据是 using the stated information to make a choice：标签上的信息要用来做选择。第四项比较名称和日期后再选，符合这一点。第三项是选完才记下名称。",
+         "point": "task"
+        }
+       ]
+      },
+      {
+       "items": [
+        {
+         "stem": "A fieldwork report describes a shared checklist used to keep observation records consistent. The sentence states its current function.",
+         "lead": "The checklist of observation categories",
+         "chunks": [
+          "provides",
+          "a common basis",
+          "for comparing",
+          "the records collected"
+         ],
+         "tail": "by different teams during the fieldwork project.",
+         "extra": [
+          "provide"
+         ],
+         "why": "主语中心词是单数 checklist，of observation categories 不影响谓语的数，所以用 provides。collected by different teams 修饰 records。",
+         "point": "accuracy"
+        },
+        {
+         "stem": "An essay recommends updating rehearsal rosters. The intended sentence identifies the roster revised by the coordinator and states what it now contains.",
+         "lead": "The rehearsal roster",
+         "chunks": [
+          "that the coordinator",
+          "revised",
+          "now includes",
+          "a separate column"
+         ],
+         "tail": "for the arrival time of each performer taking part in the production.",
+         "extra": [
+          "revised it"
+         ],
+         "why": "that 在定语从句中作 revised 的宾语，后面不再加 it。主句谓语是 now includes，宾语是 a separate column。",
+         "point": "accuracy"
+        },
+        {
+         "stem": "An argument for revising a bus-stop map links an omitted entrance to a specific problem for passengers. The omission is the cause.",
+         "lead": "Because the bus-stop map",
+         "chunks": [
+          "omits the accessible entrance,",
+          "passengers who depend",
+          "on that entrance",
+          "may have difficulty"
+         ],
+         "tail": "finding a suitable route into the station.",
+         "extra": [
+          "so passengers who depend"
+         ],
+         "why": "Because 引出原因从句，逗号后接完整的主句 passengers ... may have difficulty，不再加 so。who depend on that entrance 限定 passengers。",
+         "point": "accuracy"
+        },
+        {
+         "stem": "An essay accepts the speed of automatic translation but maintains that a community notice needs human review. The main clause states that requirement.",
+         "lead": "Although automatic translation can produce a draft quickly, the community notice",
+         "chunks": [
+          "still requires",
+          "a careful",
+          "review of",
+          "the wording"
+         ],
+         "tail": "used to describe eligibility for the service.",
+         "extra": [
+          "but still requires"
+         ],
+         "why": "Although 从句承认翻译速度快，主句 the community notice still requires ... 提出审核要求，不再加 but。of the wording 说明审核的对象。",
+         "point": "accuracy"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

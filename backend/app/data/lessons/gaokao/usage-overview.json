@@ -1,0 +1,47 @@
+{
+ "id": "usage-overview",
+ "title": "语言运用部分概览",
+ "goal": "区分语言运用两节的作答形式与计分。",
+ "skill": "语言运用",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "format", "label": "区分完形选词与语法填空的作答形式"},
+  {"id": "scoring", "label": "说出两类题的题量与计分"}
+ ],
+ "sources": [
+  {"id": "g6", "title": "2024英语新课标适应性测试第9页", "url": "https://www.neea.edu.cn/res/Home/2401/24010507.jpg", "used": "第一节题量、选项与计分"},
+  {"id": "g7", "title": "2024英语新课标适应性测试第10页", "url": "https://www.neea.edu.cn/res/Home/2401/24010508.jpg", "used": "第二节题量、填词要求与计分"},
+  {"id": "syllabus", "title": "高考英语课程课表", "url": "docs/syllabi/gaokao.md", "used": "训练设置与知识点"}
+ ],
+ "cards": [
+  {"id": "facts", "type": "facts", "title": "概述", "rows": [
+   {"k": "第一节", "v": "完形填空共 15 空，每空 1 分，满分 15 分。", "src": "g6（G6）适应性测试第 9 页"},
+   {"k": "第二节", "v": "语法填空共 10 空，每空 1.5 分，满分 15 分。", "src": "g7（G7）适应性测试第 10 页"},
+   {"k": "总分", "v": "两节满分合计 30 分。", "src": "g6（G6）适应性测试第 9 页；g7（G7）适应性测试第 10 页"}
+  ]},
+  {"id": "types", "type": "table", "title": "题型", "cols": ["题型", "作答形式"], "rows": [
+   ["完形填空", "结合短文，从每空的 4 个选项中选出一项。"],
+   ["语法填空：有提示词", "结合短文填写提示词的适当形式。"],
+   ["语法填空：无提示词", "结合短文填写 1 个适当的词。"]
+  ], "src": "G6 适应性测试第 9 页；G7 适应性测试第 10 页"},
+  {"id": "scope", "type": "text", "title": "适用范围", "body": [
+   {"p": "以上结构依据 2024 年新课标适应性测试。这一结构是否适用于 2025–2026 年的所有全国卷，尚未确认。"},
+   {"p": "语法填空中有提示词的空和无提示词的空各占几个，尚未确认。这一部分的官方作答时长也未确认。"}
+  ]},
+  {"id": "training", "type": "table", "title": "训练设置", "cols": ["训练", "课程设置", "作答形式"], "rows": [
+   ["完形练习", "12 分钟", "从每空的 4 个选项中选词。"],
+   ["语法练习", "8 分钟", "填写完整词形或适当的词。"],
+   ["语言运用模拟", "20 分钟", "结合两篇短文完成两类题。"],
+   ["概览小测", "4 分钟", "辨别题型与计分。"]
+  ], "note": "以上为本课程的建议，不是官方规定。"},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 4, "pass": 0.8, "points": ["format", "scoring"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "Which task requires choosing from four options for each gap?", "options": ["The lexical cloze task", "The prompted grammar task", "The unprompted grammar task", "The grammar practice task"], "answer": 0, "why": "完形填空每空从 4 个选项中选词。", "point": "format"},
+   {"stem": "What is required for an unprompted grammar gap?", "options": ["Choose one of four words.", "Write one suitable word.", "Write a suitable form of the given word.", "Write up to two suitable words."], "answer": 1, "why": "无提示词的语法空填写 1 个适当的词。", "point": "format"},
+   {"stem": "What is the maximum score for the lexical cloze?", "options": ["10 points for 10 gaps", "15 points for 10 gaps", "15 points for 15 gaps", "30 points for 15 gaps"], "answer": 2, "why": "完形填空 15 空，每空 1 分，满分 15 分。", "point": "scoring"},
+   {"stem": "How is each grammar gap scored in the sample?", "options": ["One point for each gap", "Two points for each gap", "Three points for each gap", "One and a half points for each gap"], "answer": 3, "why": "语法填空每空 1.5 分。", "point": "scoring"},
+   {"stem": "What is written for a grammar gap with a prompt?", "options": ["A suitable form of the given word", "One choice from four printed words", "A selection from four given forms", "One new word that fits the gap"], "answer": 0, "why": "有提示词的语法空需要填写提示词的适当形式。", "point": "format"},
+   {"stem": "What is the total maximum for the two sections?", "options": ["15 points for both sections", "30 points for both sections", "25 points for both sections", "20 points for both sections"], "answer": 1, "why": "两节各 15 分，合计 30 分。", "point": "scoring"}
+  ]}]}]}
+ ]
+}

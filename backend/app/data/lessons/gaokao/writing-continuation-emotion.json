@@ -1,0 +1,43 @@
+{
+ "id": "writing-continuation-emotion", "title": "情感描写", "goal": "能根据事件描写情感的产生和变化。", "skill": "写作", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "cause", "label": "根据事件诱因选择合适的情感表达"}, {"id": "show", "label": "用可感知的反应呈现情感变化"}],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "情感描写的教学内容与知识点"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "人物有什么情感，取决于发生的事和人物的目标。情感可以通过表情、身体反应或内心想法写出来。同一个反应要结合上下文理解。"}, {"box": "Before her speech, Lina checked her notes again. After the first sentence, her hands stopped shaking."}, {"p": "发言前反复看笔记，写出了紧张。说完第一句后手不再发抖，写出了紧张在减轻。"}]},
+  {"id": "nervous", "type": "table", "title": "紧张", "cols": ["情感", "表达", "例句"], "rows": [
+   ["紧张", "feel nervous", "Owen felt nervous before his interview."], ["紧张", "tremble", "Her hands trembled as she opened the envelope."], ["紧张", "hold one's breath", "He held his breath while the results were read."], ["紧张", "pace up and down", "She paced up and down outside the examination room."], ["紧张", "a racing heart", "His racing heart made it hard to speak."], ["紧张", "clasp one's hands", "She clasped her hands while waiting for her turn."]
+  ]},
+  {"id": "disappointed", "type": "table", "title": "失落", "cols": ["情感", "表达", "例句"], "rows": [
+   ["失落", "feel disappointed", "He felt disappointed when the trip was cancelled."], ["失落", "lower one's head", "She lowered her head after hearing the refusal."], ["失落", "look downcast", "He looked downcast when his painting was not selected."], ["失落", "sigh", "She sighed as she put away the unused tickets."], ["失落", "lose hope", "He began to lose hope after another fruitless search."], ["失落", "fall silent", "She fell silent when the plan was rejected."]
+  ]},
+  {"id": "relief", "type": "table", "title": "释然", "cols": ["情感", "表达", "例句"], "rows": [
+   ["释然", "feel relieved", "She felt relieved when the missing dog returned."], ["释然", "breathe a sigh of relief", "He breathed a sigh of relief when the door opened."], ["释然", "relax one's shoulders", "She relaxed her shoulders after the call ended."], ["释然", "let out a breath", "He let out a breath when the boat reached shore."], ["释然", "stop worrying", "She stopped worrying after finding her brother."], ["释然", "a sense of relief", "A sense of relief came over him when the key turned."]
+  ]},
+  {"id": "gratitude", "type": "table", "title": "感激", "cols": ["情感", "表达", "例句"], "rows": [
+   ["感激", "feel grateful", "She felt grateful for her neighbor's help."], ["感激", "thank someone sincerely", "He thanked his teacher sincerely for the advice."], ["感激", "appreciate someone's help", "She appreciated her friend's help with the boxes."], ["感激", "smile in gratitude", "He smiled in gratitude as his friend handed him the coat."], ["感激", "be thankful for", "She was thankful for the warm meal."], ["感激", "express gratitude", "He expressed gratitude to the volunteers for their work."]
+  ]},
+  {"id": "changes", "type": "text", "title": "事件与情感变化", "body": [
+   {"p": "情感的变化要由事件引起。表情和身体反应要放在事件里理解，同一个反应在不同事件里意思可能不同。"},
+   {"box": "Her hands trembled before the speech. She relaxed as the audience listened.\nHe paced while waiting for the report. He breathed a sigh of relief at the good news.\nShe sighed over the cancelled trip. She smiled when the new date was announced.\nHe looked downcast after the selection. He thanked the teacher for her advice.\nShe searched anxiously for her dog. She felt relieved when it returned.\nHe worried outside the locked room. He thanked the neighbor who lent him a key.\nShe fell silent at the torn painting. She smiled as the repaired painting dried.\nHe worried about carrying the heavy boxes. He expressed gratitude when his friend helped."}
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [{"box": "After losing her notebook, Iris searched the library. At last, the librarian found it beneath a chair.\nWhich reaction fits the event?\n1. Iris relaxed and thanked the librarian.\n2. Iris worried because the notebook was still lost.\n3. Iris blamed the librarian for refusing to search.\n4. Iris searched again because the chair was empty."}, {"p": "found it 说明笔记本找到了。第一项写 Iris 放松下来并感谢图书管理员，与这个结果相符。"}]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["cause", "show"], "groups": [{"items": [
+   {"stem": "A student has just learned that a much anticipated trip is cancelled. Which reaction fits?", "options": ["She sighed and put away her ticket.", "She smiled and kept her ticket.", "She hurried to pack for the trip at once.", "She relaxed because the trip had begun."], "answer": 0, "why": "盼了很久的旅行取消了，人会失落。叹气、收起车票写出了失落，即第一项。", "point": "cause"},
+   {"stem": "A child was anxious until her lost dog returned. Which detail shows relief?", "options": ["She searched the yard once more.", "She relaxed her shoulders and hugged it.", "She paced outside the empty yard.", "She checked whether it had gone missing."], "answer": 1, "why": "狗回来了，担心也就消失了。放松肩膀、抱住狗写出了释然，即第二项。", "point": "show"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["show"], "groups": [{"items": [
+   {"stem": "After finding her missing bag, a traveler shows relief.", "lead": "She", "chunks": ["let out", "a breath", "and", "relaxed"], "tail": "her shoulders.", "extra": ["relaxing"], "why": "呼出一口气并放松肩膀，呈现找回包后的释然。", "point": "show"},
+   {"stem": "A student expresses gratitude for a classmate's help.", "lead": "He", "chunks": ["thanked", "his classmate", "for", "helping"], "tail": "with the project.", "extra": ["helped"], "why": "thanked 和 for helping 明确说明感激的对象和帮助。", "point": "show"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["cause", "show"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "Noah waits outside the room for an important interview. Which reaction conveys his nervousness?", "options": ["He paced up and down beside the door.", "He relaxed after the interview ended.", "He leaned back calmly in his chair.", "He smiled at the completed interview."], "answer": 0, "why": "面试还没有开始。在门外来回踱步写出了紧张，即第一项。第二项的放松发生在面试之后。", "point": "cause"},
+   {"stem": "A child's painting was not selected for the exhibition. Which reaction fits the news?", "options": ["She smiled at the selected painting.", "She lowered her head and fell silent.", "She thanked the judges for the prize.", "She relaxed when her painting was selected."], "answer": 1, "why": "画没有入选，人会失落。低头、沉默写出了失落，即第二项。", "point": "cause"},
+   {"stem": "A neighbor lends Ava the tool she needs to repair her bike. Which reaction fits?", "options": ["She worries that the tool is still missing.", "She sighs because the bike is still broken.", "She thanks the neighbor for the useful tool.", "She waits anxiously for the neighbor's tool."], "answer": 2, "why": "邻居借给 Ava 需要的工具。为此道谢写出了感激，即第三项。第四项写的是借到工具之前的等待。", "point": "cause"},
+   {"stem": "The missing boat has returned safely after a long search. Which reaction shows the change in the family?", "options": ["They begin searching for the boat again.", "They fear that the boat is still missing.", "They pace on the shore as they await the boat's return.", "They breathe more easily when it reaches shore."], "answer": 3, "why": "船在长时间搜寻后平安回来。呼吸变得舒缓，写出了从担心到释然的变化，即第四项。第三项写的是船回来之前的等待。", "point": "show"},
+   {"stem": "A speaker shows relief when her talk ends successfully.", "lead": "She", "chunks": ["breathed", "a sigh", "of", "relief"], "tail": "after the talk.", "extra": ["breathe"], "why": "breathed a sigh of relief 呈现演讲结束后的释然。", "point": "show"},
+   {"stem": "A runner thanks a teammate for waiting.", "lead": "He", "chunks": ["thanked", "his teammate", "for", "waiting"], "tail": "at the gate.", "extra": ["waited"], "why": "thanked 和 for waiting 说明感激及其原因。", "point": "show"},
+   {"stem": "A student shows tension before the results are announced.", "lead": "She", "chunks": ["clasped", "her hands", "while", "waiting"], "tail": "for the results.", "extra": ["waited"], "why": "clasped her hands 呈现等待结果时的紧张。", "point": "show"},
+   {"stem": "A boy shows disappointment after his plan is rejected.", "lead": "He", "chunks": ["lowered", "his head", "and", "put away"], "tail": "the plan.", "extra": ["putting"], "why": "低头和收起计划呈现计划被拒后的失落。", "point": "show"}
+  ]}]}]}
+ ]
+}

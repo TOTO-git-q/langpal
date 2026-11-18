@@ -1,0 +1,566 @@
+{
+ "id": "reading-careful-science",
+ "title": "环境与技术阅读词汇",
+ "goal": "辨认环境与技术词汇，理解技术措施与环境影响的关系。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "vocab",
+   "label": "辨认环境与技术领域词汇"
+  },
+  {
+   "id": "read",
+   "label": "理解技术措施与环境影响的关系"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "阅读课程内容与材料形式"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "环境与技术文章常比较资源使用、生态影响和技术措施。评价技术时需要区分预期作用、实际结果和适用条件。"
+    },
+    {
+     "box": "A filter can remove particles from water, but it must be maintained to remain effective."
+    },
+    {
+     "p": "remove particles 是技术作用，maintained 是维持效果的条件。技术用途和运行条件共同决定实际影响。"
+    }
+   ]
+  },
+  {
+   "id": "resources",
+   "type": "table",
+   "title": "词汇表：能源资源",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "搭配或例句"
+   ],
+   "rows": [
+    [
+     "energy",
+     "n.",
+     "能源；能量",
+     "save energy"
+    ],
+    [
+     "resource",
+     "n.",
+     "资源",
+     "natural resources"
+    ],
+    [
+     "renewable",
+     "adj.",
+     "可再生的",
+     "renewable energy"
+    ],
+    [
+     "solar",
+     "adj.",
+     "太阳能的",
+     "solar power"
+    ],
+    [
+     "fuel",
+     "n.",
+     "燃料",
+     "burn fuel"
+    ],
+    [
+     "electricity",
+     "n.",
+     "电；电力",
+     "generate electricity"
+    ],
+    [
+     "supply",
+     "n.",
+     "供应；供应量",
+     "water supply"
+    ],
+    [
+     "consume",
+     "v.",
+     "消耗",
+     "consume fuel"
+    ],
+    [
+     "conserve",
+     "v.",
+     "节约；保护",
+     "conserve water"
+    ],
+    [
+     "storage",
+     "n.",
+     "储存",
+     "energy storage"
+    ]
+   ]
+  },
+  {
+   "id": "ecology",
+   "type": "table",
+   "title": "词汇表：生态影响",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "搭配或例句"
+   ],
+   "rows": [
+    [
+     "emission",
+     "n.",
+     "排放；排放物",
+     "reduce emissions"
+    ],
+    [
+     "pollution",
+     "n.",
+     "污染",
+     "air pollution"
+    ],
+    [
+     "waste",
+     "n.",
+     "废弃物",
+     "household waste"
+    ],
+    [
+     "habitat",
+     "n.",
+     "栖息地",
+     "protect a habitat"
+    ],
+    [
+     "ecosystem",
+     "n.",
+     "生态系统",
+     "a river ecosystem"
+    ],
+    [
+     "biodiversity",
+     "n.",
+     "生物多样性",
+     "protect biodiversity"
+    ],
+    [
+     "contaminate",
+     "v.",
+     "污染",
+     "contaminate soil"
+    ],
+    [
+     "restore",
+     "v.",
+     "修复",
+     "restore a wetland"
+    ],
+    [
+     "impact",
+     "n.",
+     "影响",
+     "environmental impact"
+    ],
+    [
+     "degrade",
+     "v.",
+     "使退化",
+     "degrade a habitat"
+    ]
+   ]
+  },
+  {
+   "id": "technology",
+   "type": "table",
+   "title": "词汇表：技术应用",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "搭配或例句"
+   ],
+   "rows": [
+    [
+     "filter",
+     "n.",
+     "过滤器",
+     "replace a filter"
+    ],
+    [
+     "treat",
+     "v.",
+     "处理",
+     "treat wastewater"
+    ],
+    [
+     "recycle",
+     "v.",
+     "回收利用",
+     "recycle paper"
+    ],
+    [
+     "monitor",
+     "v.",
+     "监测",
+     "monitor water quality"
+    ],
+    [
+     "sensor",
+     "n.",
+     "传感器",
+     "install a sensor"
+    ],
+    [
+     "device",
+     "n.",
+     "设备",
+     "a measuring device"
+    ],
+    [
+     "efficient",
+     "adj.",
+     "效率高的",
+     "an efficient system"
+    ],
+    [
+     "convert",
+     "v.",
+     "转换",
+     "convert sunlight into electricity"
+    ],
+    [
+     "install",
+     "v.",
+     "安装",
+     "install a filter"
+    ],
+    [
+     "recover",
+     "v.",
+     "回收",
+     "recover heat"
+    ]
+   ]
+  },
+  {
+   "id": "limits",
+   "type": "table",
+   "title": "词汇表：风险限制",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "搭配或例句"
+   ],
+   "rows": [
+    [
+     "risk",
+     "n.",
+     "风险",
+     "reduce the risk"
+    ],
+    [
+     "exposure",
+     "n.",
+     "接触；暴露",
+     "exposure to smoke"
+    ],
+    [
+     "hazard",
+     "n.",
+     "危害源",
+     "a health hazard"
+    ],
+    [
+     "limitation",
+     "n.",
+     "局限",
+     "a limitation of the study"
+    ],
+    [
+     "capacity",
+     "n.",
+     "容量；能力",
+     "storage capacity"
+    ],
+    [
+     "maintenance",
+     "n.",
+     "维护",
+     "regular maintenance"
+    ],
+    [
+     "reliable",
+     "adj.",
+     "可靠的",
+     "reliable measurements"
+    ],
+    [
+     "cost",
+     "n.",
+     "成本",
+     "maintenance cost"
+    ],
+    [
+     "evaluate",
+     "v.",
+     "评估",
+     "evaluate the system"
+    ],
+    [
+     "condition",
+     "n.",
+     "条件",
+     "under local conditions"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A small workshop uses heated water to clean equipment. After use, the water normally leaves through a drain while it is still warm. The workshop has installed a heat exchanger that transfers some of this warmth to incoming water. The two streams remain separate, but heat can pass between them. As a result, the heater needs less energy to bring the incoming water to the required temperature.\n\nThe improvement depends on operation as well as equipment. If deposits collect on the exchanger, they can slow heat transfer. Staff therefore inspect and clean it regularly. The workshop compares energy use before and after installation, taking account of changes in the amount of equipment cleaned. A simple fall in total energy use would be misleading if the workshop had also cleaned much less equipment.\n\nThe exchanger reduces a particular demand for heating, but it does not remove the need for a heater. Its value depends on water use, maintenance and installation costs. Evaluating the measure requires both its effect on energy use and the resources required to operate it."
+    },
+    {
+     "p": "第一段的 transfers some of this warmth 说明热交换器回收一部分热量，两股水仍然分开。第二段比较能耗时考虑了清洗量。清洗的设备减少带来的节能，不算热交换器的效果。"
+    },
+    {
+     "p": "第三段同时考虑节能和成本。技术作用是减少加热需求，而不是取消加热设备。"
+    }
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "vocab",
+    "read"
+   ],
+   "groups": [
+    {
+     "fill": "A town collects rainwater for use in public gardens. The wa{ter} is sto{red} in cov{ered} tanks a{nd} used dur{ing} dry wea{ther}, when gard{eners} need mo{re} water f{or} their pla{nts} and soil than in rainy weather. The tanks do not create water; they retain rain that has already fallen. The amount available depends on rainfall and on tank capacity. Staff check the tanks regularly and keep the covers secure. This arrangement can reduce demand for treated water, but it still requires maintenance.",
+     "tags": [
+      "vocab",
+      "vocab",
+      "read",
+      "read",
+      "read",
+      "read",
+      "read",
+      "read",
+      "read",
+      "vocab"
+     ],
+     "notes": [
+      "water：前句说明收集雨水。",
+      "stored：水储存在水箱中。",
+      "covered：后文提到保持水箱盖安全。",
+      "and：连接储存与使用两个动作。",
+      "during：引出使用雨水的时间。",
+      "weather：dry weather 表示干燥天气。",
+      "gardeners：公共花园由园丁照料。",
+      "more：干燥天气需要更多水。",
+      "for：表示水的用途。",
+      "plants：园丁用水浇灌植物。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "vocab",
+    "read"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A school installed a sensor to monitor the temperature in two classrooms. One room had external shades over its windows; the other did not. During a warm week, staff recorded temperatures at the same time each afternoon. They also noted whether windows were open and how many people were present. The shaded room was cooler on several afternoons, but the observations alone could not establish that shading caused every difference.\n\nThe rooms were not identical. They faced different directions, and their occupants sometimes opened windows at different times. The staff therefore planned another comparison using similar rooms and a longer observation period. They also wanted to measure indoor light, because a shade that reduces heat may change the amount of daylight available.\n\nThe school used the initial records to identify questions rather than to promise a fixed reduction in temperature. If later comparisons support the use of shades, the school will also consider installation and maintenance costs. The aim is to evaluate the measure under the conditions in which it would operate, including both its possible benefits and its requirements.",
+     "items": [
+      {
+       "stem": "What did the sensor help staff do?",
+       "options": [
+        "Change the direction of the classrooms",
+        "Record classroom temperatures",
+        "Open windows at the same time",
+        "Install shades in both rooms"
+       ],
+       "answer": 1,
+       "why": "installed a sensor to monitor the temperature 表明传感器用于监测温度。",
+       "point": "vocab"
+      },
+      {
+       "stem": "Why did staff record window positions?",
+       "options": [
+        "To show that shading caused every difference",
+        "To check how many people were in each room",
+        "To identify another influence on temperature",
+        "To remove the need for a second, longer comparison"
+       ],
+       "answer": 2,
+       "why": "原文说 occupants sometimes opened windows at different times，开窗也会改变室温。记录开窗是为了找出另一个可能的影响因素，即第三项。",
+       "point": "read"
+      },
+      {
+       "stem": "What is a limitation of the initial observation?",
+       "options": [
+        "The rooms differed in more than their shades.",
+        "Both rooms faced the same direction throughout.",
+        "The staff recorded no classroom temperatures.",
+        "The school used identical rooms for a long period."
+       ],
+       "answer": 0,
+       "why": "原文说 The rooms were not identical。两间教室朝向不同，开窗时间也不同，差别不只是遮阳，即第一项。",
+       "point": "read"
+      },
+      {
+       "stem": "Why will staff also measure indoor light?",
+       "options": [
+        "To show that daylight explains the cooler room",
+        "To replace all measurements of temperature",
+        "To compare the number of people in each room",
+        "To assess another effect of the window shades"
+       ],
+       "answer": 3,
+       "why": "原文说 a shade that reduces heat may change the amount of daylight available。测量室内光线是为了评估遮阳的另一项影响，即第四项。",
+       "point": "read"
+      },
+      {
+       "stem": "What does evaluate mean in the final paragraph?",
+       "options": [
+        "Install a measure and pay its costs",
+        "Assess a measure using relevant evidence",
+        "Promote a measure by listing its benefits",
+        "Guarantee a fixed temperature reduction"
+       ],
+       "answer": 1,
+       "why": "evaluate 后面同时列出 benefits 和 requirements，意思是依据相关信息评估，即第二项。第三项只看好处。",
+       "point": "vocab"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 8,
+   "pass": 0.75,
+   "points": [
+    "vocab",
+    "read"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "fill": "A community collects used paper for recycling. Residents pl{ace} the pa{per} in cov{ered} bins s{o} that ra{in} does n{ot} damage i{t}. A tr{uck} then ta{kes} the pa{per} to a facility where it is sorted for processing. Keeping the paper dry makes handling easier. The collection also requires fuel for transport and space for storage. A full assessment considers these requirements along with the use of recovered material. Collection schedules and local facilities affect how the system operates.",
+       "tags": [
+        "read",
+        "vocab",
+        "read",
+        "read",
+        "read",
+        "read",
+        "read",
+        "read",
+        "read",
+        "vocab"
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A food cooperative recently installed a refrigeration system with doors on its display cabinets. Its previous cabinets were open at the front. The cooperative expected the doors to reduce the escape of cold air and thus reduce the electricity needed to maintain the required temperature. Staff also wanted customers to see products clearly, so they selected transparent doors.\n\nTo examine the change, staff recorded electricity use and cabinet temperature before and after installation. They also recorded the quantity of food stored and the temperature of the room. A lower electricity reading on its own would not establish the effect of the doors if the room were cooler or the cabinets contained less food. The records helped staff compare periods with similar operating conditions.\n\nThe cabinets used less electricity in the periods selected for comparison. Staff still needed to check the door seals: a damaged seal could allow air to pass through and reduce the benefit. The cooperative also considered the cost of fitting and maintaining the doors. Its assessment treated the measured reduction as one part of the decision, alongside the resources needed to keep the system operating.",
+       "items": [
+        {
+         "stem": "What was the expected role of the cabinet doors?",
+         "options": [
+          "To keep the room at a cooler temperature",
+          "To keep cool air inside the cabinets",
+          "To increase the amount of food stored",
+          "To replace the refrigeration system"
+         ],
+         "answer": 1,
+         "why": "原文说 expected the doors to reduce the escape of cold air。门的作用是把冷气留在柜内，即第二项。",
+         "point": "read"
+        },
+        {
+         "stem": "Why did staff record the temperature of the room?",
+         "options": [
+          "To establish that all cabinets held less food",
+          "To prove that the doors alone lowered electricity use",
+          "To account for another influence on electricity use",
+          "To avoid comparing the cabinets across periods"
+         ],
+         "answer": 2,
+         "why": "原文说 if the room were cooler，用电读数也会下降。记录室温是为了考虑另一个影响用电的因素，即第三项。",
+         "point": "read"
+        },
+        {
+         "stem": "What does the passage suggest about a damaged seal?",
+         "options": [
+          "It could allow air to pass through the door.",
+          "It would keep the cabinet temperature unchanged.",
+          "It would reduce the need for door maintenance.",
+          "It could increase the benefit of the doors."
+         ],
+         "answer": 0,
+         "why": "原文说 a damaged seal could allow air to pass through，即第一项。第四项与 reduce the benefit 相反。",
+         "point": "read"
+        },
+        {
+         "stem": "What does maintain mean in the first paragraph?",
+         "options": [
+          "Measure a changing room temperature",
+          "Repair and service the cooling equipment",
+          "Lower the temperature step by step",
+          "Keep the temperature at the needed level"
+         ],
+         "answer": 3,
+         "why": "maintain the required temperature 的宾语是温度，意思是把温度保持在所需水平，即第四项。第二项是 maintaining the doors 中的意思。",
+         "point": "vocab"
+        },
+        {
+         "stem": "What did the assessment include besides the measured electricity reduction?",
+         "options": [
+          "Customers' view of products through the doors",
+          "What it costs to fit and look after the new doors",
+          "The electricity used by the old open cabinets",
+          "A plan to return to cabinets with open fronts"
+         ],
+         "answer": 1,
+         "why": "原文说 The cooperative also considered the cost of fitting and maintaining the doors，即第二项。",
+         "point": "read"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

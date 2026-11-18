@@ -1,0 +1,55 @@
+{
+ "id": "writing-pie-method", "title": "饼图的构成比较", "goal": "确定比例对应的总体，区分构成变化与数量变化。", "skill": "写作", "exam": "雅思 IELTS Academic", "mastery": "once",
+ "points": [{"id": "whole", "label": "确定百分比所对应的总体"}, {"id": "change", "label": "区分构成变化与数量变化"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "饼图构成与变化"}],
+ "cards": [
+  {"id": "type", "type": "text", "title": "题型", "body": [{"p": "饼图的百分比是各类别在总体中所占的份额。读图先确认总体和时间，再比较最大的部分、其余部分和两期的构成。"}, {"p": "比较两期时，份额的变化是构成的变化。两期的总体可能不同，所以份额上升时，该类别的数量可能下降。"}, {"box": "2020: 50% of 100 = 50.\n2022: 60% of 60 = 36.\nThe share rose, but the number fell."}]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定总体", "d": "读取图题和时间。百分比的分母是相应年份的总体，例如当年的全部支出。"},
+   {"t": "2　比较份额", "d": "先找出最大的部分，再看其余各部分。同一总体中的份额可以直接比较，如 40% 大于 30%。"},
+   {"t": "3　对照时期", "d": "对照同一类别在两期的份额。从 20% 到 30%，是份额增加 10 个百分点。"},
+   {"t": "4　核对数量", "d": "给出总体数值时，用总体乘以百分比，算出数量。没有总体数值时，只描述份额的变化。"}
+  ]},
+  {"id": "features", "type": "table", "title": "构成与总体", "cols": ["情况", "数据", "描述"], "rows": [
+   ["最大份额", "Food 40%，Travel 30%，Other 30%", "Food accounted for the largest share."],
+   ["次要部分", "Food 40%，Travel 30%，Other 30%", "Travel and other costs each made up 30%."],
+   ["构成变化", "Travel 20% 至 30%", "The share of travel increased by 10 percentage points."],
+   ["数量变化", "总量 100 中占 50%，总量 60 中占 60%", "The share rose, while the number fell from 50 to 36."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box":"The two pie charts show how a community centre divided its annual expenditure among four purposes in 2020 and 2024. The percentages refer to each year's total expenditure. Summarise the principal features and compare the shares where relevant, using the exact percentages supplied.\n\n2020 expenditure\n         ***\n    **DDDDAAAAA**\n  **CCDDDDAAAAAAA**\n *CCCCCCDDAAAAAAAAA*\n *CCCCCCCDAAAAAAAAA*\n*CCCCCCCCCBAAAAAAAAA*\n *CCBBBBBBBBAAAAAAA*\n *BBBBBBBBBBBAAAAAA*\n  **BBBBBBBBBBBAA**\n    **BBBBBBBBB**\n         ***\n2024 expenditure\n         ***\n    **DDDDAAAAA**\n  **CCDDDDAAAAAAA**\n *CCCCCCDDAAAAAAAAA*\n *CCCCCCCDAAAAAAAAA*\n*CCCCCCCCCBAAAAAAAAA*\n *CCBBBBBBBBBBBBBAA*\n *BBBBBBBBBBBBBBBBB*\n  **BBBBBBBBBBBBB**\n    **BBBBBBBBB**\n         ***\nA = staff; B = premises; C = equipment; D = events\n2020: A 40%, B 30%, C 20%, D 10%\n2024: A 30%, B 40%, C 20%, D 10%\n* = boundary; sector sizes are approximate, percentages are exact."},
+   {"p": "2020 年 staff 占比最大，2024 年 premises 占比最大。两者各变动 10 个百分点。equipment 和 events 的份额不变。图中没有支出总额，所以不写金额的变化。"},
+   {"box": "Staff represented the largest share in 2020, but premises became the largest category in 2024. Equipment and events retained their respective shares. Staff accounted for 40% of expenditure in the first year and 30% in the second. The share for premises moved in the opposite direction, from 30% to 40%. Equipment remained at 20%, while events made up 10% of each year's expenditure."}
+  ]},
+  {"id": "errors", "type": "table", "title": "干扰项", "cols": ["情况", "例句", "依据"], "rows": [
+   ["总体", "40% of all residents was spent on staff.", "40% 指 2020 年支出，不是居民人数。"],
+   ["最大份额", "Events made up the largest share in 2020.", "Events 为 10%，staff 为 40%。"],
+   ["时间", "Staff's share rose from 30% to 40%.", "Staff 从 40% 降至 30%。"],
+   ["金额", "Spending on premises necessarily increased.", "份额上升，但总支出未知。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["whole", "change"], "groups": [{"items": [
+   {"stem": "In 2020, 40% of a centre's spending went on staff. What is the whole?", "options": ["The centre's spending in 2020", "The centre's staff in 2020", "The centre's spending in 2024", "The centre's spending on staff in 2020"], "answer": 0, "why": "40% of a centre's spending 的总体是 2020 年的全部支出，即第一项。staff 是其中的一部分，不是总体。", "point": "whole"},
+   {"stem": "A share is 20% in 2020 and 30% in 2024; totals are unknown. What is supported?", "options": ["The number rose by 10.", "The share rose by 10 percentage points.", "The number fell by 10.", "The share fell by 10 percentage points."], "answer": 1, "why": "30% 减 20% 为 10 个百分点，第二项只陈述份额。", "point": "change"},
+   {"stem": "A category is 50% of 100 items, then 60% of 60 items. What happened?", "options": ["The share and number both fell.", "The share fell and the number rose.", "The share rose and the number fell.", "The share and number both rose."], "answer": 2, "why": "份额从 50% 升至 60%，数量从 50 降至 36，第三项正确。", "point": "change"},
+   {"stem": "Shares of a budget are staff 40%, premises 30%, equipment 20% and events 10%. Which is largest?", "options": ["The 10% for events", "The 20% for equipment", "The 30% for premises", "The 40% for staff"], "answer": 3, "why": "40% 是该预算的四个份额中最大值。", "point": "whole"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["whole", "change"], "groups": [{"text": "Share of a school's annual energy use\n       2019   2023\nHeating 40%    30%\nLighting 30%   40%\nCooking 20%    20%\nOther   10%    10%\nTotal energy use is not given.", "items": [
+   {"stem": "Which category had the largest share in 2023?", "options": ["Heating, at 30%", "Lighting, at 40%", "Cooking, at 20%", "Other, at 10%"], "answer": 1, "why": "2023 年 lighting 的 40% 最大。", "point": "whole"},
+   {"stem": "What can be concluded about lighting?", "options": ["Its share increased by 10 percentage points.", "Its energy use increased by 10 units.", "Its share decreased by 10 percentage points.", "Its energy use decreased by 10 units."], "answer": 0, "why": "照明份额从 30% 增至 40%，总用量未知。", "point": "change"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["whole", "change"], "sets": [{"id": "set-a", "groups": [
+   {"text":"Annual museum expenditure by purpose\n                  2020   2024\nStaff              40%    30%\nPremises           30%    40%\nEquipment          20%    20%\nEvents             10%    10%\nTotal expenditure is not given.\n2020\n         ***\n    **DDDDAAAAA**\n  **CCDDDDAAAAAAA**\n *CCCCCCDDAAAAAAAAA*\n *CCCCCCCDAAAAAAAAA*\n*CCCCCCCCCBAAAAAAAAA*\n *CCBBBBBBBBAAAAAAA*\n *BBBBBBBBBBBAAAAAA*\n  **BBBBBBBBBBBAA**\n    **BBBBBBBBB**\n         ***\n2024\n         ***\n    **DDDDAAAAA**\n  **CCDDDDAAAAAAA**\n *CCCCCCDDAAAAAAAAA*\n *CCCCCCCDAAAAAAAAA*\n*CCCCCCCCCBAAAAAAAAA*\n *CCBBBBBBBBBBBBBAA*\n *BBBBBBBBBBBBBBBBB*\n  **BBBBBBBBBBBBB**\n    **BBBBBBBBB**\n         ***\nA = staff; B = premises; C = equipment; D = events. * = boundary; sectors are approximate.", "items": [
+    {"stem": "What is the whole for the 2024 percentages?", "options": ["The museum's spending on staff in 2024", "The museum's expenditure in 2024", "The museum's staff in 2024", "The museum's expenditure in 2020"], "answer": 1, "why": "标题是 annual museum expenditure，2024 年的百分比以当年的全部支出为总体，即第二项。staff 支出只是其中一部分。", "point": "whole"},
+    {"stem": "Which category had the largest share in 2020?", "options": ["Events, at 10%", "Equipment, at 20%", "Staff, at 40%", "Premises, at 30%"], "answer": 2, "why": "2020 年 staff 的 40% 是最大份额。", "point": "whole"},
+    {"stem": "What happened to the share of premises?", "options": ["It fell by 10 percentage points.", "It rose by 20 percentage points.", "It stayed at 30% in both years.", "It rose by 10 percentage points."], "answer": 3, "why": "Premises 从 30% 增至 40%，相差 10 个百分点。", "point": "change"},
+    {"stem": "What can be concluded about the amount spent on premises?", "options": ["Its change cannot be determined from the shares alone.", "It increased by 10 units over the period.", "It decreased by 10 units over the period.", "It remained exactly the same over the period."], "answer": 0, "why": "总支出未知，份额上升不足以确定金额变化。", "point": "change"}
+   ]},
+   {"text":"A garden's total area was 100 square metres in 2020 and 60 square metres in 2024. Shares in 2020 were flowers 50%, vegetables 25%, herbs 15%, paths 10%. Shares in 2024 were flowers 60%, vegetables 20%, herbs 10%, paths 10%.\n2020\n         ***\n    **DDDDAAAAA**\n  **CCDDDDAAAAAAA**\n *CCCCCCDDAAAAAAAAA*\n *CCCCCCCDAAAAAAAAA*\n*CCCCCCCCCBAAAAAAAAA*\n *BBBBBBBBBAAAAAAAA*\n *BBBBBBBBBAAAAAAAA*\n  **BBBBBBBAAAAAA**\n    **BBBBBAAAA**\n         ***\n2024\n         ***\n    **DDDDAAAAA**\n  **CCDDDDAAAAAAA**\n *CCCCCCDDAAAAAAAAA*\n *BBCCCCCDAAAAAAAAA*\n*BBBBBBBBBAAAAAAAAAA*\n *BBBBBBBAAAAAAAAAA*\n *BBBBBBAAAAAAAAAAA*\n  **BBAAAAAAAAAAA**\n    **AAAAAAAAA**\n         ***\nA = flowers; B = vegetables; C = herbs; D = paths. * = boundary; sectors are approximate.", "items": [
+    {"stem": "State the whole for the 2020 shares.", "lead": "The percentages", "chunks": ["refer to", "the garden's", "total area", "in"], "tail": "2020.", "extra": ["visitors"], "why": "题目给出的总体是 2020 年花园总面积。", "point": "whole"},
+    {"stem": "Describe the direction of the flower share.", "lead": "The flower share", "chunks": ["rose from 50%", "to 60%", "over", "the period"], "tail": ".", "extra": ["fell"], "why": "花卉份额从 50% 升至 60%。", "point": "change"},
+    {"stem": "State the flower area in 2024.", "lead": "Flowers", "chunks": ["covered", "36 square metres", "of the garden", "in"], "tail": "2024.", "extra": ["50"], "why": "2024 年总体为 60 平方米，60% 是 36 平方米。", "point": "whole"},
+    {"stem": "Compare the flower share and area over the period.", "lead": "The share", "chunks": ["rose while", "the flower area", "fell", "from 50 to 36 square metres"], "tail": ".", "extra": ["rose"], "why": "份额从 50% 升至 60%，面积从 50 平方米降至 36 平方米。", "point": "change"}
+   ]}
+  ]}]} 
+ ]
+}

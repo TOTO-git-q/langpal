@@ -1,0 +1,680 @@
+{
+ "id": "listening-conversation",
+ "title": "Listen to a Conversation：两个人把一件事谈定",
+ "goal": "一段对话只听一遍，后面两题都答对：听出是谁在办什么事、卡在哪、最后怎么定的，习语和言外之意靠对方的反应来懂。",
+ "skill": "listening",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 听力",
+ "points": [
+  {
+   "id": "detail",
+   "label": "事情卡在哪、最后怎么定的：细节不听反"
+  },
+  {
+   "id": "implied",
+   "label": "习语、言外之意、接下来会做什么"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、录音长度、只放一遍"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "各题型的说明、考查的能力、官方样题"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Listening Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-listening.pdf",
+   "used": "第 1 课：四类题的说明和小测答案；第 2、4 课：应答配对、重音和语调"
+  }
+ ],
+ "cards": [
+  {
+   "id": "facts",
+   "type": "facts",
+   "title": "这道题是什么",
+   "rows": [
+    {
+     "k": "在哪",
+     "v": "听力部分四类题之一，10 题，也就是五段对话，每段两题。",
+     "src": "spec 第 4 页；lessonplan 第 7 页"
+    },
+    {
+     "k": "听什么",
+     "v": "两个人之间的一段短对话。话题是公共生活里的事：吃饭、社交活动、学业、娱乐、各种服务、健康、爱好、住处、购物、通讯、出行。",
+     "src": "overview 第 9 页"
+    },
+    {
+     "k": "官方说它考什么",
+     "v": "听出对话的主要内容和场合；重要细节；熟练说话人会用的各种语法结构；较广的词汇，包括习语和口语说法；推断没有明说的意思；一句话的用意；对说话人接下来的行动作简单的预测；跟上两个人一来一往之间的联系。",
+     "src": "overview 第 9 页"
+    },
+    {
+     "k": "官方特别说明",
+     "v": "这类题要的不只是听出每个词：还要能推断、能认出说话人的身份和目的、能作预测。",
+     "src": "overview 第 9 页"
+    },
+    {
+     "k": "难度",
+     "v": "官方标的范围是 A2 到 C1。",
+     "src": "spec 第 4 页"
+    },
+    {
+     "k": "整个听力部分",
+     "v": "47 题，约 29 分钟，分两段自适应。每段录音只放一遍。说话人有北美、英国、澳大利亚三种口音。",
+     "src": "spec 第 1、4、11 页；overview 第 8 页；lessonplan 第 7 页"
+    }
+   ]
+  },
+  {
+   "id": "shape",
+   "type": "steps",
+   "title": "这类对话的走向",
+   "steps": [
+    {
+     "t": "一　开头一两句：谁找谁，要办什么",
+     "d": "I'd like to borrow ...、Can I return ...、Do you have a minute?。听到这里就知道场合和目的。"
+    },
+    {
+     "t": "二　中间：卡住了",
+     "d": "几乎每段都有一个障碍：时间冲突、名额满了、不符合条件。信号是 but、though、I'm afraid、By six?（把对方的话重复一遍并上扬）。"
+    },
+    {
+     "t": "三　出路",
+     "d": "对方给一两个办法：In that case, you could ...、I can offer ...、or you could ...。"
+    },
+    {
+     "t": "四　最后一句：定了",
+     "d": "I'll go with that.、Store credit is fine.、Then please put my name down.。最后的决定常常直接出一道题。"
+    }
+   ],
+   "note": "「接下来会做什么」的题，答案几乎总在最后两句里。"
+  },
+  {
+   "id": "kinds",
+   "type": "table",
+   "title": "四种问法",
+   "cols": [
+    "问法",
+    "题干常见的样子",
+    "答案在哪"
+   ],
+   "rows": [
+    [
+     "细节、原因",
+     "Why can't the student ...? / What does the clerk offer?",
+     "卡住的那一句，以及紧跟着的解释。"
+    ],
+    [
+     "一句话的意思或用意",
+     "What does Jo mean when she says “...”? / Why does the man say “...”?",
+     "看这句话前后：对方刚说了什么，之后怎么接。"
+    ],
+    [
+     "言外之意",
+     "What does the professor imply?",
+     "把两句话合起来：名额快满了，加上今天交表就有。意思是要快。"
+    ],
+    [
+     "接下来",
+     "What will the student probably do next?",
+     "最后一两句。"
+    ]
+   ],
+   "src": "官方样题的两道题正是言外之意和一句话的用意，见 lessonplan 第 4 页。"
+  },
+  {
+   "id": "idioms",
+   "type": "table",
+   "title": "对话里常见的习语",
+   "intro": "官方明确说听力不回避习语，样题里就有一句 I'd forget my head if it wasn't screwed on。听到不认识的说法，看对方怎么接。",
+   "cols": [
+    "说法",
+    "意思"
+   ],
+   "rows": [
+    [
+     "It slipped my mind.",
+     "我忘了。"
+    ],
+    [
+     "I'm up to my ears in work.",
+     "我的事多得忙不过来。"
+    ],
+    [
+     "You're in luck.",
+     "你运气不错（事情好办）。"
+    ],
+    [
+     "I'll go with that.",
+     "我选这个。"
+    ],
+    [
+     "That'll work. / That works for me.",
+     "可以，行。"
+    ],
+    [
+     "I'd love to, but ...",
+     "想去，但是去不了。"
+    ],
+    [
+     "I know myself.",
+     "我了解自己（后面多半是一个推辞的理由）。"
+    ],
+    [
+     "Put my name down.",
+     "把我登记上。"
+    ],
+    [
+     "a practice run",
+     "排练一遍。"
+    ],
+    [
+     "drop a course / drop out",
+     "退课 / 中途退出。"
+    ]
+   ],
+   "src": "官方不回避习语的说明，见 lessonplan 第 7 页。"
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "错项的三种样子",
+   "cols": [
+    "样子",
+    "例子",
+    "怎么识破"
+   ],
+   "rows": [
+    [
+     "被否掉的方案",
+     "对话里先说六点还，后来改成第二天早上还。选项：Return it at six.",
+     "听到 instead、in that case、though，前面的方案就作废了。"
+    ],
+    [
+     "张冠李戴",
+     "把店员提的办法说成是学生提的",
+     "记住每句话是谁说的。"
+    ],
+    [
+     "按字面解释习语",
+     "slipped my mind 解释成改了主意",
+     "看后一句：I'll check the website now，说明是忘了买。"
+    ]
+   ]
+  },
+  {
+   "id": "check",
+   "type": "check",
+   "title": "练习　两段对话",
+   "points": [
+    "detail",
+    "implied"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Hi, I'd like to borrow one of the library's laptops for the afternoon."
+       },
+       {
+        "who": "B",
+        "text": "Sure. I just need your student ID. They're due back at the desk by six."
+       },
+       {
+        "who": "A",
+        "text": "By six? My class doesn't end until six thirty."
+       },
+       {
+        "who": "B",
+        "text": "In that case, you could take an overnight loan instead. It has to be back by nine tomorrow morning."
+       },
+       {
+        "who": "A",
+        "text": "That's perfect. I'll go with that."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why can't the student return the laptop by six?",
+       "options": [
+        "The library closes at six.",
+        "She has a class that ends later.",
+        "She forgot her student ID.",
+        "She needs it for a class tomorrow."
+       ],
+       "answer": 1,
+       "why": "By six? My class doesn't end until six thirty。",
+       "point": "detail"
+      },
+      {
+       "stem": "What will the student probably do?",
+       "options": [
+        "Return the laptop at six",
+        "Come back after class to borrow one",
+        "Borrow a laptop until the next morning",
+        "Use a laptop in the library"
+       ],
+       "answer": 2,
+       "why": "对方提出 overnight loan，她说 That's perfect. I'll go with that。六点还是被否掉的方案。",
+       "point": "implied"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Carla, are you free on Saturday? A few of us are driving out to the lake."
+       },
+       {
+        "who": "B",
+        "text": "I'd love to, Nina, but I'm up to my ears in work. My history paper is due Monday, and I've barely started."
+       },
+       {
+        "who": "A",
+        "text": "That's too bad. We're leaving early, though. You could write in the evening."
+       },
+       {
+        "who": "B",
+        "text": "Tempting, but I know myself. If I go, I won't write a word. Take some pictures for me."
+       },
+       {
+        "who": "A",
+        "text": "Will do. Next time, then."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What does Carla mean when she says she is “up to my ears in work”?",
+       "options": [
+        "She has a great deal of work to do.",
+        "Her ears hurt from working.",
+        "Her work is easy.",
+        "She enjoys her job."
+       ],
+       "answer": 0,
+       "why": "下一句就是解释：论文周一要交，还没怎么动。",
+       "point": "implied"
+      },
+      {
+       "stem": "What will Carla probably do on Saturday?",
+       "options": [
+        "Go to the lake in the evening",
+        "Take pictures at the lake",
+        "Start a new job",
+        "Stay home and work on her paper"
+       ],
+       "answer": 3,
+       "why": "她说去了就一个字也写不出来，请对方替她拍照：她不去。",
+       "point": "implied"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "限时练习",
+   "minutes": 5,
+   "pass": 0.8,
+   "points": [
+    "detail",
+    "implied"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Excuse me, I bought this textbook last week, but I've dropped the course. Can I return it?"
+         },
+         {
+          "who": "B",
+          "text": "Do you have the receipt? And is the plastic wrap still on?"
+         },
+         {
+          "who": "A",
+          "text": "I have the receipt, but I opened it to check the first chapter."
+         },
+         {
+          "who": "B",
+          "text": "Then I can't give you a full refund, I'm afraid. I can offer store credit, or you could sell it at the buyback table in May."
+         },
+         {
+          "who": "A",
+          "text": "Store credit is fine. I need notebooks anyway."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why can't the student get a full refund?",
+         "options": [
+          "She has no receipt.",
+          "She bought the book too long ago.",
+          "The book has been opened.",
+          "She is still taking the course."
+         ],
+         "answer": 2,
+         "why": "店员问塑封还在不在，她说拆开看过第一章，店员接着说不能全额退。",
+         "point": "detail"
+        },
+        {
+         "stem": "What will the student probably do next?",
+         "options": [
+          "Wait until May to sell the book",
+          "Accept store credit and buy supplies",
+          "Keep the textbook",
+          "Look for the plastic wrap"
+         ],
+         "answer": 1,
+         "why": "Store credit is fine. I need notebooks anyway。",
+         "point": "implied"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Professor Lin, do you have a minute? I'm thinking about switching from the Tuesday lab to the Thursday one."
+         },
+         {
+          "who": "B",
+          "text": "Is there a problem with Tuesday?"
+         },
+         {
+          "who": "A",
+          "text": "My new job at the bookstore runs until three on Tuesdays, and the lab starts at two."
+         },
+         {
+          "who": "B",
+          "text": "I see. Thursday is nearly full, but one student dropped this morning. If you fill in the form today, the seat is yours."
+         },
+         {
+          "who": "A",
+          "text": "I'll do it right after this. Thank you so much."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why does the student want to change labs?",
+         "options": [
+          "Her work hours overlap with the Tuesday lab.",
+          "The Tuesday lab is too difficult.",
+          "She does not like her lab partner.",
+          "The Thursday lab is shorter."
+         ],
+         "answer": 0,
+         "why": "工作到三点，实验两点开始。",
+         "point": "detail"
+        },
+        {
+         "stem": "What does the professor imply?",
+         "options": [
+          "The Thursday lab may be canceled.",
+          "The student should quit her job.",
+          "The form is not necessary.",
+          "The student should act quickly."
+         ],
+         "answer": 3,
+         "why": "Thursday is nearly full，而且 If you fill in the form today, the seat is yours。",
+         "point": "implied"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Jo, did you get the tickets for Friday's concert?"
+         },
+         {
+          "who": "B",
+          "text": "Oh no. It completely slipped my mind. I'll check the website now."
+         },
+         {
+          "who": "A",
+          "text": "I hope they're not sold out."
+         },
+         {
+          "who": "B",
+          "text": "Looks like there are a few left in the balcony. They're a bit more expensive, though."
+         },
+         {
+          "who": "A",
+          "text": "Balcony's fine. Just get them before they're gone, and I'll pay you back tonight."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What does Jo mean when she says “It completely slipped my mind”?",
+         "options": [
+          "She changed her mind.",
+          "She forgot to buy the tickets.",
+          "She lost the tickets.",
+          "She did not want to go."
+         ],
+         "answer": 1,
+         "why": "紧接着她说现在去网站上看。",
+         "point": "implied"
+        },
+        {
+         "stem": "What will Jo probably do next?",
+         "options": [
+          "Wait for cheaper tickets",
+          "Ask Maya to buy the tickets",
+          "Buy balcony tickets",
+          "Cancel the plan"
+         ],
+         "answer": 2,
+         "why": "Balcony's fine. Just get them before they're gone。",
+         "point": "implied"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "set-b",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Hi, I'd like to sign up for the swimming class on Monday evenings."
+         },
+         {
+          "who": "B",
+          "text": "Monday's class is full, but there's still space on Wednesday at the same time. Same instructor, too."
+         },
+         {
+          "who": "A",
+          "text": "Hmm, I have a study group on Wednesdays. Is there a waiting list for Monday?"
+         },
+         {
+          "who": "B",
+          "text": "There is. You'd be third on it if I add you now. People often drop out after the first week."
+         },
+         {
+          "who": "A",
+          "text": "Then please put my name down."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why doesn't the student take the Wednesday class?",
+         "options": [
+          "It has a different instructor.",
+          "It costs more.",
+          "She has another commitment that day.",
+          "It starts too late."
+         ],
+         "answer": 2,
+         "why": "I have a study group on Wednesdays。教练是同一个人。",
+         "point": "detail"
+        },
+        {
+         "stem": "What does the staff member imply about the Monday class?",
+         "options": [
+          "A place may become available.",
+          "It will be canceled.",
+          "It is too difficult for beginners.",
+          "Its instructor is leaving."
+         ],
+         "answer": 0,
+         "why": "People often drop out after the first week：排在候补第三位也有希望。",
+         "point": "implied"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Sam, have you had a chance to look at the slides I sent?"
+         },
+         {
+          "who": "B",
+          "text": "I skimmed them on the bus, Priya. The data section is great, but the introduction feels a bit long."
+         },
+         {
+          "who": "A",
+          "text": "I thought so too. Could you cut it down? You're better at that than I am."
+         },
+         {
+          "who": "B",
+          "text": "Sure. I'll trim it to two slides and send it back by tonight."
+         },
+         {
+          "who": "A",
+          "text": "Perfect. Then all we have left is the practice run on Thursday."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What does Sam think of the slides?",
+         "options": [
+          "The data are wrong.",
+          "There are too few slides.",
+          "They are ready to present.",
+          "One part should be shorter."
+         ],
+         "answer": 3,
+         "why": "The data section is great, but the introduction feels a bit long。",
+         "point": "detail"
+        },
+        {
+         "stem": "What will Sam do tonight?",
+         "options": [
+          "Shorten the introduction",
+          "Practice the presentation",
+          "Write the data section",
+          "Meet Priya"
+         ],
+         "answer": 0,
+         "why": "I'll trim it to two slides and send it back by tonight。排练是周四。",
+         "point": "detail"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Hi, I locked myself out of my room, and my roommate's away until Sunday."
+         },
+         {
+          "who": "B",
+          "text": "You're in luck. We keep spare keys here. I just need to see a photo ID."
+         },
+         {
+          "who": "A",
+          "text": "My ID is in the room, though. Would my library card do? It has my picture on it."
+         },
+         {
+          "who": "B",
+          "text": "That'll work. Sign here, and remember to bring the key back within twenty-four hours, or there's a ten-dollar fee."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What does the staff member mean by “You're in luck”?",
+         "options": [
+          "The student has won a prize.",
+          "The problem can be solved easily.",
+          "The roommate has returned.",
+          "The room is already unlocked."
+         ],
+         "answer": 1,
+         "why": "后一句：We keep spare keys here。",
+         "point": "implied"
+        },
+        {
+         "stem": "What must the student do to avoid a fee?",
+         "options": [
+          "Show a photo ID tomorrow",
+          "Wait until Sunday",
+          "Pay ten dollars now",
+          "Return the spare key within a day"
+         ],
+         "answer": 3,
+         "why": "bring the key back within twenty-four hours, or there's a ten-dollar fee。",
+         "point": "detail"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "more": {
+    "kind": "conversation",
+    "topics": [
+     "图书馆借书、选课顾问、朋友约看电影",
+     "宿舍报修、小组分工、书店退货",
+     "健身房办卡、实验室借设备、室友商量买家具",
+     "打印店、教授答疑时间、朋友借笔记",
+     "校医院挂号、社团招新、合租分摊费用",
+     "食堂订餐、助教改作业时间、朋友商量周末出行",
+     "停车证、奖学金办公室、同学换座位",
+     "失物招领、论文指导、室友的作息"
+    ]
+   }
+  }
+ ]
+}

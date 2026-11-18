@@ -1,0 +1,62 @@
+{
+ "id": "translation-reference",
+ "title": "译文中的复现与省略",
+ "goal": "能保持译文指代清楚，并按对象变化选择复现或省略。",
+ "skill": "翻译",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "reference", "label": "保持译文代词的指向明确"},
+  {"id": "cohesion", "label": "按对象变化选择复现或省略"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译教学所依据的大纲"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "连续句可以用代词、名词复现或省略相同成分连接。选择取决于对象是否改变，以及指代是否明确。"},
+   {"box": "原文：村民修复了古井。古井现在为花园供水。\n译文：The villagers restored the old well. It now supplies water to the garden."},
+   {"p": "it 承接单数名词 the old well。若前文有多个可能的单数对象，重复名词可以明确指向。"}
+  ]},
+  {"id": "same", "type": "table", "title": "同一对象", "cols": ["情况", "原文", "译文与说明"], "rows": [
+   ["单数指代", "居民修建了一座桥。这座桥连接两条街道。", "Residents built a bridge. It connects two streets. it 指桥。"],
+   ["复数指代", "志愿者整理了画册。这些画册放在阅览室里。", "Volunteers sorted the albums. They are in the reading room. they 指画册。"],
+   ["省略重复主语", "工匠清洗竹片，然后把竹片编成篮子。", "The craftsperson washes the bamboo strips and weaves them into baskets. 并列谓语共用主语。"],
+   ["复现以明确对象", "展厅收藏了一幅画和一件雕塑。画作描绘了一条河。", "The gallery holds a painting and a sculpture. The painting depicts a river. 复现 painting 避免 it 指向不明。"]
+  ]},
+  {"id": "change", "type": "table", "title": "对象转换", "cols": ["情况", "原文", "译文与说明"], "rows": [
+   ["转向新对象", "村民修好了水渠。附近的田地因此得到灌溉。", "Villagers repaired the canal. As a result, nearby fields received water. 第二句改用 fields 作主语。"],
+   ["转回原对象", "学校开放了花园。居民前来参观。花园也供学生学习。", "The school opened the garden. Residents visited it. The garden also serves as a learning space for students. 重复 garden。"],
+   ["单复数一致", "游客参观了展馆。工作人员向游客介绍展品。", "Visitors toured the hall. Staff introduced the exhibits to them. them 指复数游客。"],
+   ["共同主体", "居民采摘茶叶，并在院中晾晒茶叶。", "Residents pick the tea leaves and dry them in the courtyard. 第二个动作仍由居民完成。"]
+  ]},
+  {"id": "summary", "type": "table", "title": "概括前句", "cols": ["概括对象", "原文", "译文与说明"], "rows": [
+   ["行动", "村民清理了河岸。这项行动改善了环境。", "Villagers cleaned the riverbank. This action improved the surroundings. action 概括清理行动。"],
+   ["变化", "集市的开放时间延长了。这一变化方便了居民。", "The market extended its opening hours. This change made shopping easier for residents. change 概括时间延长。"],
+   ["做法", "工匠先浸泡竹条。这种做法使竹条更柔韧。", "Craftspeople soak bamboo strips first. This practice makes the strips more flexible. practice 概括浸泡。"],
+   ["计划", "学校计划修建新展室。该计划包括保存旧照片。", "The school plans to build a new gallery. This plan includes preserving old photographs. plan 概括计划。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "原文：展馆展示了一只陶罐和一只木盒。陶罐用于储存谷物。\n1. The gallery displays a clay jar and a wooden box. The jar was used to store grain.\n2. The gallery displays a clay jar and a wooden box. The box was used to store grain.\n3. The gallery displays a clay jar and a wooden box. They were used to store grain.\n4. The gallery displays a clay jar and a wooden box. The gallery was used to store grain."},
+   {"p": "原文说明陶罐的用途。第一项复现 the jar，明确区分陶罐与木盒。"}
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["reference", "cohesion"], "groups": [{"items": [
+   {"stem": "原文：工人修复了石墙。石墙保护着花园。Which continuation identifies the wall? Workers restored the stone wall.", "options": ["It protects the garden.", "They protect the garden.", "The garden protects it.", "It protects the workers."], "answer": 0, "why": "单数 it 指 stone wall，第一项保留石墙保护花园的关系。", "point": "reference"},
+   {"stem": "原文：工匠收集了树叶和花朵。花朵被用来染布。Which continuation is clear? Craftspeople collected leaves and flowers.", "options": ["The leaves were used to dye cloth.", "The flowers were used to dye cloth.", "They were used to dye cloth.", "The leaves and flowers were used to dye cloth."], "answer": 1, "why": "原文说的是花朵被用来染布。第二项复现 flowers，指向明确；第三项的 they 会被理解为树叶和花朵。", "point": "reference"},
+   {"stem": "原文：居民种植树苗，然后定期给树苗浇水。Which translation keeps the shared subject?", "options": ["Residents plant seedlings and waters them regularly.", "Residents plant seedlings, and then water regularly.", "Residents plant seedlings and then water them regularly.", "Residents plant seedlings, and the seedlings water them regularly."], "answer": 2, "why": "种植和浇水都由居民完成。第三项的两个谓语共用 Residents，them 指 seedlings。", "point": "cohesion"},
+   {"stem": "原文：社区延长图书室的开放时间。这一变化方便了读者。Which phrase summarizes the extension?", "options": ["This reader", "This room", "This book", "This change"], "answer": 3, "why": "this change 概括开放时间延长这一变化。", "point": "cohesion"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["reference", "cohesion"], "groups": [{"text": "原文：学校修建了小花园。学生在花园里种植花草。这项活动也吸引了附近的居民。居民为花园提供了工具。", "items": [
+   {"stem": "Which continuation identifies the people who provided tools?", "options": ["The residents provided tools for the garden.", "The students provided tools for the garden.", "The school provided tools for the residents.", "The students provided tools for the residents."], "answer": 0, "why": "原文说居民为花园提供了工具。第一项复现 residents，指向明确。", "point": "reference"},
+   {"stem": "The students grew flowers in the garden. Which phrase can summarize that activity?", "options": ["This garden", "This activity", "These residents", "These tools"], "answer": 1, "why": "this activity 概括学生种花草的活动。", "point": "cohesion"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["reference", "cohesion"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "原文：工人修复了一座亭子。亭子位于湖边。Which continuation refers clearly to the pavilion? Workers restored a pavilion.", "options": ["It stands beside the lake.", "They stand beside the lake.", "It stands in the lake.", "The workers stand beside the lake."], "answer": 0, "why": "原文说亭子位于湖边。it 指单数 pavilion，beside the lake 译出湖边，即第一项。", "point": "reference"},
+   {"stem": "原文：博物馆收藏了一面鼓和一支笛子。笛子由竹子制成。Which continuation is clear? The museum holds a drum and a flute.", "options": ["The drum is made of bamboo.", "The flute is made of bamboo.", "They are made of bamboo.", "The drum and the flute are made of bamboo."], "answer": 1, "why": "原文说笛子由竹子制成。第二项复现 the flute，指向明确；第三项的 they 会包括鼓。", "point": "reference"},
+   {"stem": "原文：工匠挑选木材，然后将木材切成薄片。Which translation omits the repeated subject appropriately?", "options": ["Craftspeople select wood and then cut into thin strips.", "Craftspeople select wood, and then it cuts into thin strips.", "Craftspeople select wood and then cut it into thin strips.", "Craftspeople select wood and then cut them into thin strips."], "answer": 2, "why": "挑选和切割都由工匠完成，第二个动作省略主语。wood 不可数，用 it 指代，即第三项。", "point": "cohesion"},
+   {"stem": "原文：展馆增加了晚间开放时间。这一变化吸引了更多访客。Which continuation summarizes the extension? The gallery extended its evening hours.", "options": ["That evening attracted more visitors.", "This gallery attracted more visitors.", "This change attracted fewer visitors.", "This change attracted more visitors."], "answer": 3, "why": "原文用这一变化概括开放时间的延长，并说吸引了更多访客。第四项用 this change 和 more visitors 译出这两点。", "point": "cohesion"},
+   {"stem": "原文：学校开放了展室。展室陈列学生的作品。Arrange the continuation. The school opened an exhibition room.", "lead": "The room", "chunks": ["displays", "works", "by", "the students"], "tail": ".", "extra": ["display"], "why": "the room 复现展室，单数主语后用 displays。", "point": "reference"},
+   {"stem": "原文：居民清扫广场，然后在广场种树。Arrange the given translation.", "lead": "Residents", "chunks": ["clean the square and", "plant", "trees", "there"], "tail": ".", "extra": ["cleans"], "why": "clean 和 plant 共用居民这一主语，there 指广场。", "point": "cohesion"},
+   {"stem": "原文：志愿者整理了照片。照片现在存放在资料室里。Volunteers sorted the photographs. ___ are now kept in the archive room. Complete with the plural pronoun they.", "accept": ["they"], "why": "they 指复数 photographs。", "point": "reference"},
+   {"stem": "原文：村民修复了小路。这项行动改善了通行条件。Villagers repaired the path. This ___ improved access. Complete with the noun action.", "accept": ["action"], "why": "this action 概括修路行动。", "point": "cohesion"}
+  ]}]}]}
+ ]
+}

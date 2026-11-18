@@ -1,0 +1,73 @@
+{
+  "id": "writing-task2-discussion",
+  "title": "双方讨论题　Task 2 · 练习",
+  "goal": "解释双方观点，并以相关论据支持个人判断。",
+  "skill": "写作",
+  "exam": "雅思 IELTS Academic",
+  "points": [
+    {"id": "coverage", "label": "解释双方观点并表达个人判断"},
+    {"id": "develop", "label": "用相关论据支持解释"},
+    {"id": "response", "label": "准确表达让步与回应"}
+  ],
+  "sources": [
+    {"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "双方讨论题的练习尺寸与知识点"},
+    {"id": "writing", "title": "IELTS Academic: Writing test format", "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing", "used": "写作任务的形式"},
+    {"id": "rubric", "title": "IELTS Writing Band Descriptors", "url": "https://ielts.org/cdn/ielts-guides/ielts-writing-band-descriptors.pdf", "used": "写作评分标准"}
+  ],
+  "cards": [
+    {
+      "id": "rubric", "type": "rubric", "title": "评分标准",
+      "levels": [
+        {"score": 5, "name": "Band 8-9", "summary": "充分回应任务，立场清楚，论证和语言运用自如。", "signs": ["充分展开并支持立场", "组织连贯，衔接自然", "词汇灵活准确，句式多样，错误极少"]},
+        {"score": 4, "name": "Band 7", "summary": "回应任务并保持清楚立场，主要观点有展开。", "signs": ["主要观点有相关支持，个别地方可更充分", "结构清楚，衔接基本得当", "词汇和句式有变化，错误较少"]},
+        {"score": 3, "name": "Band 6", "summary": "回应任务的主要部分，但部分论证或结论不够充分。", "signs": ["立场可辨，部分观点支持不足或结论不够清楚", "整体推进清楚，衔接有时机械", "词汇和句式有一定范围，错误反复出现"]},
+        {"score": 2, "name": "Band 5", "summary": "部分回应任务，立场或论证不够清楚。", "signs": ["观点展开有限，可能有重复或不相关内容", "组织有一定顺序，但衔接不稳定", "词汇和句式范围有限，错误有时妨碍理解"]},
+        {"score": 1, "name": "Band 4 及以下", "summary": "对任务的回应和论证十分有限，语言困难明显。", "signs": ["立场不清或缺少相关支持", "内容组织和衔接有限", "词汇及句式范围很窄，错误频繁并影响理解"]},
+        {"score": 0, "name": "未作答", "summary": "未作答。", "signs": []}
+      ],
+      "takeaways": [{"t": "四项标准", "d": "按任务回应、连贯与衔接、词汇、语法范围与准确性四项等权评价。"}]
+    },
+    {
+      "id": "marking", "type": "marking", "title": "批改单",
+      "format": [
+        {"t": "题目的要求", "d": "逐条判断是否答到，并引用原文。"},
+        {"t": "分数档", "d": "对照评分标准给出 0–5 分和理由。"},
+        {"t": "必改的地方", "d": "列出最多五处影响理解或准确性的错误及改法。"},
+        {"t": "升一档", "d": "改写一处内容，说明怎样补充细节或表达得更准确。"}
+      ],
+      "rules": "评分依据任务回应、连贯与衔接、词汇、语法范围与准确性；四项等权。",
+      "example": {
+        "about": "以下示例说明只给出判断而没有展开时的判定。",
+        "coverage": [{"bullet": "Give reasons for your answer and include relevant examples from your own knowledge or experience.", "verdict": "做了但太薄", "quote": "Free access is useful.", "note": "给出了判断，但没有解释或例证。"}],
+        "score": 2,
+        "reason": "判断可辨，但论证展开有限。",
+        "fixes": [],
+        "upgrade": {"from": "Free access is useful.", "to": "Free access allows families on low incomes to use the facilities without paying for each visit.", "why": "补充了受益对象和具体作用。"},
+        "next": ""
+      }
+    },
+    {
+      "id": "timed", "type": "write", "title": "限时写作", "minutes": 40, "min_words": 250,
+      "points": ["coverage", "develop", "response"],
+      "tasks": [
+        {
+          "id": "set-a", "purpose": "讨论社区运动设施的使用方式",
+          "setting": "Some people believe that local councils should make community sports facilities free for everyone. Others think that users should pay a small fee so that the facilities can be maintained and improved. Both approaches would affect how these public spaces are funded.",
+          "lead": "Discuss both views and give your own opinion.",
+          "bullets": ["Give reasons for your answer and include relevant examples from your own knowledge or experience."],
+          "must": ["解释免费使用与收取少量费用两种观点，并以理由和相关例证支持个人判断。"],
+          "model": "Community sports facilities can make exercise accessible to a wide range of residents, but they also cost money to maintain. Some people therefore favour free access, while others prefer a modest charge. In my view, councils should keep basic use free and seek other funding for improvements.\n\nThe strongest argument for charging users is that a dependable source of income can help protect the facilities themselves. Swimming pools, for example, need cleaning, equipment checks and qualified staff. If a council has to meet all these costs from its general budget, repairs may be postponed whenever other services face pressure. A small admission fee could give managers some money specifically for upkeep, making it less likely that a pool or court becomes unusable.\n\nNevertheless, even a modest fee can discourage regular use when it is paid by several family members or on repeated visits. Free entry removes that immediate barrier and allows residents to try an activity without committing money they may need elsewhere. A teenager who can visit a local court after school, for instance, may be able to exercise regularly even if organised clubs are beyond the family's budget. The benefit is not confined to the individual: well-used public spaces can also provide opportunities for neighbours to meet.\n\nI accept that free access does not make maintenance free. Councils must still plan for the costs, and they could charge for optional services such as equipment hire or private coaching. However, making ordinary entry depend on payment would place the burden most directly on those whom public provision is intended to include. Protecting access should therefore take priority, provided that a realistic maintenance budget is agreed.\n\nIn conclusion, user fees offer a useful contribution to upkeep, but free basic access better serves the community as a whole. Optional charges and planned public funding can help maintain facilities without excluding residents from everyday use."
+        },
+        {
+          "id": "set-b", "purpose": "讨论学校如何安排户外学习",
+          "setting": "Some people think that schools should devote regular lesson time to learning outdoors in local parks and gardens. Others believe that this time should be spent in classrooms, where teachers can use equipment and keep lessons more predictable. Both views concern how pupils learn.",
+          "lead": "Discuss both views and give your own opinion.",
+          "bullets": ["Give reasons for your answer and include relevant examples from your own knowledge or experience."],
+          "must": ["解释定期户外学习与将课时用于课堂学习两种观点，并以理由和相关例证支持个人判断。"],
+          "model": "Schools must decide how best to use limited lesson time. While some people favour regular learning in parks and gardens, others prefer the stability and resources of the classroom. I believe that outdoor lessons deserve a regular place in the timetable, although they should complement rather than replace classroom teaching.\n\nClassrooms offer conditions that make many activities easier to organise. Teachers can prepare materials in advance, display written instructions and ensure that pupils have access to desks and equipment. A science lesson involving careful measurements, for example, may be more practical indoors, where instruments can be protected and results recorded consistently. Classroom routines can also help pupils who need a quiet, predictable environment to concentrate. These advantages make it sensible to retain indoor lessons as the foundation of the school day.\n\nOutdoor learning, however, can give pupils direct access to things that are difficult to understand solely from a description. In a garden, a class studying plants can compare leaves, observe the conditions in which different species grow and return later to look for changes. Such observations give the teacher concrete evidence to discuss when pupils are back inside. A local park can similarly provide a setting for measuring distances or examining how a public space is used.\n\nThere are limits: poor weather, travel time and accessibility can make some visits unsuitable. Schools should therefore choose nearby sites and provide alternatives when an outdoor activity would exclude a pupil or disrupt another essential lesson. These practical constraints justify careful planning, but they do not justify abandoning outdoor work altogether. Even a short, well-prepared visit can create material for several subsequent classroom activities.\n\nIn conclusion, the classroom provides reliable resources and structure, whereas outdoor lessons offer direct observation. A planned combination makes use of both strengths and gives pupils opportunities that neither setting could provide alone."
+        }
+      ],
+      "more": {"kind": "task2-discussion", "topics": ["社区运动设施", "户外学习", "公共交通投资", "图书馆服务", "学校课程安排", "城市绿地", "远程工作", "大学课程选择", "博物馆收费", "社区活动", "家庭垃圾分类", "职业培训", "学校午餐"]}
+    }
+  ]
+}

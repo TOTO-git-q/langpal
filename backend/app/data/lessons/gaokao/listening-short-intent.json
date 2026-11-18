@@ -1,0 +1,69 @@
+{
+ "id": "listening-short-intent",
+ "title": "间接表达与说话意图",
+ "goal": "结合前文与理由理解间接回应，判断说话者的交际目的。",
+ "skill": "听力",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "context", "label": "结合前一句解释间接回应"},
+  {"id": "purpose", "label": "判断请求、拒绝、建议和偏好"}
+ ],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "间接表达与说话意图的教学内容及课程小测规格"}],
+ "cards": [
+  {"id": "type", "type": "text", "title": "题型", "body": [
+   {"p": "间接表达不直接说出意图。常见的方式有三种：问对方能不能做某事，说明一个理由，提出一个假设。判断意图时，把前一句、回应和理由合起来看。"},
+   {"box": "A: Could you carry this box?\nB: My hands are full.\nA: I'll ask Kim."},
+   {"p": "My hands are full 字面意思是手里拿满了东西。前一句请对方搬箱子，所以这句表示暂时无法帮忙。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　听前一句", "d": "先确定回应针对的是什么问题或提议。Would you join us 是邀请对方参加活动。"},
+   {"t": "2　理解回应", "d": "根据理由判断是否接受。I'd love to, but I'm working 表示因为工作不能参加。"},
+   {"t": "3　确定意图", "d": "区分请求、拒绝、建议和偏好。Could you open the window 字面是问能力，实际是请对方开窗。"},
+   {"t": "4　核对事实", "d": "区分假设和已经发生的事。If we left early 是假设，说的不是已经出发。"}
+  ]},
+  {"id": "functions", "type": "table", "title": "间接表达的目的", "cols": ["目的", "语境与回应", "含义"], "rows": [
+   ["请求帮助", "A: The window is stuck. B: Could you give me a hand with it?", "请求协助打开窗户。"],
+   ["请求帮助", "A: This box needs to go upstairs. B: Would you help me carry it?", "请求协助搬箱子。"],
+   ["委婉拒绝", "A: Can you come tonight? B: I'd love to, but I have work.", "因工作无法参加。"],
+   ["委婉拒绝", "A: Can you lend me the book? B: I'm still using it for class.", "说明目前无法借出。"],
+   ["提出建议", "A: The bus is late. B: Why don't we walk?", "建议步行。"],
+   ["提出建议", "A: The room is noisy. B: We could study in the library.", "建议去图书馆学习。"],
+   ["表达偏好", "A: Tea or coffee? B: I'd rather have tea.", "偏好茶。"],
+   ["表达偏好", "A: The morning or afternoon tour? B: The afternoon would suit me better.", "偏好下午的游览。"]
+  ]},
+  {"id": "context", "type": "table", "title": "上下文与理由", "cols": ["前文", "回应", "判断"], "rows": [
+   ["邀请参加晚餐", "I have an evening class.", "理由说明无法赴晚餐。"],
+   ["请求借用自行车", "The tire is flat.", "理由说明自行车暂不可用。"],
+   ["讨论赶车", "If we left earlier, we could walk.", "假设提前出发可以步行。"],
+   ["选择饮料", "I'd rather have water.", "回应说明更希望喝水。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A: Would you like to join the garden visit on Saturday?\nB: I'd love to, but I'm helping at the food bank that morning.\nA: Perhaps another time."},
+   {"box": "What does the second speaker mean?\n1. The garden visit has moved to another day.\n2. The food bank work can wait until another time.\n3. The Saturday invitation cannot be accepted.\n4. The food bank visit has been canceled."},
+   {"p": "I'd love to 之后，but 引出周六上午的另一项安排，所以说话者不能接受邀请，即第三项。第一项把 another time 当成了改期。"}
+  ]},
+  {"id": "distractors", "type": "table", "title": "干扰项", "cols": ["类型", "例", "排除方法"], "rows": [
+   ["只解字面", "My hands are full → Hands can hold objects", "前一句请对方搬箱子，这句表示暂时无法帮忙。"],
+   ["忽略理由", "I'd love to, but I'm working → accepts", "but 后面是工作安排，表示不能参加。"],
+   ["假设当事实", "If we left early → They left early", "if 引导的是假设，两人并没有出发。"],
+   ["混淆目的", "Why don't we walk? → asks why they walked", "前文说公交车晚点，这句是建议步行。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["context", "purpose"], "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Could you help me carry these paint cans upstairs? I need them for the community art room, and they are quite heavy."}, {"who": "B", "text": "My hands are full of brushes. I'll ask Rosa to help you."}]}, "items": [{"stem": "What does the second speaker mean?", "options": ["The brushes are needed upstairs.", "The paint cans are lighter than they look.", "Helping with the cans is not possible now.", "Rosa has already carried the paint."], "answer": 2, "why": "对方请求帮忙搬油漆桶，My hands are full 说明手里拿满了刷子，所以现在无法帮忙，即第三项。", "point": "context"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "The library closes in twenty minutes, and we still need somewhere quiet to finish the plan for the club meeting."}, {"who": "B", "text": "Why don't we use the empty classroom across the hall?"}]}, "items": [{"stem": "What is the second speaker doing?", "options": ["Suggesting another study place", "Explaining the library hours", "Requesting a club meeting plan", "Asking why the classroom is empty"], "answer": 0, "why": "两人需要一个安静的地方，Why don't we use the empty classroom 是提出建议，即第一项。", "point": "purpose"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["context", "purpose"], "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Would you like to come to the pottery class with me on Friday evening? There is still a place available beside mine."}, {"who": "B", "text": "I'd love to, but I'm visiting my aunt that evening."}]}, "items": [{"stem": "What does the second speaker mean?", "options": ["The pottery place is unavailable.", "The visit to the aunt is canceled.", "The class will be held on Friday.", "The invitation cannot be accepted."], "answer": 3, "why": "but I'm visiting my aunt 说明周五晚上已有安排，所以不能接受邀请，即第四项。", "point": "context"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "We can hold the rehearsal in the morning or in the afternoon. Both rooms are free, so the group can choose either time."}, {"who": "B", "text": "The afternoon would suit me better; my lesson ends at noon."}]}, "items": [{"stem": "What is the second speaker expressing?", "options": ["A request to cancel the lesson", "A preference for the afternoon", "A refusal to attend the rehearsal", "A suggestion to change the room"], "answer": 1, "why": "The afternoon would suit me better 在两个时间中选了下午，表达偏好，即第二项。", "point": "purpose"}]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["context", "purpose"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Could you lend me your bicycle this afternoon? Mine is being repaired, and I need to take a parcel to the post office."}, {"who": "B", "text": "I'm using it to get to work this afternoon. Sorry."}]}, "items": [{"stem": "What does the second speaker mean?", "options": ["The bicycle is needed for work.", "The bicycle is being repaired.", "The parcel has reached the office.", "The parcel will be taken to work."], "answer": 0, "why": "对方想借自行车，I'm using it to get to work 说明下午要骑车上班，即第一项。第二项说的是对方的车。", "point": "context"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "This table is too heavy for me to move alone, and the meeting will start soon. Could you give me a hand with it?"}, {"who": "B", "text": "Of course. Where should we put it?"}]}, "items": [{"stem": "What is the first speaker doing?", "options": ["Offering to lead the meeting", "Requesting help moving a table", "Suggesting a later meeting time", "Explaining where the table belongs"], "answer": 1, "why": "桌子太重，一个人搬不动，Could you give me a hand 是请对方帮忙搬桌子，即第二项。", "point": "purpose"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Shall we take the early train to the seaside? It leaves at seven, and the later one won't arrive until lunch."}, {"who": "B", "text": "I'd rather take the later train; I have a class first."}]}, "items": [{"stem": "What does the second speaker prefer?", "options": ["An earlier class before the journey", "The train that leaves at seven", "The later train to the seaside", "Lunch before the early train"], "answer": 2, "why": "I'd rather take the later train 表示更想坐晚一班的车，理由是先有课，即第三项。", "point": "purpose"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Can you come to the book club on Wednesday evening? We're discussing the novel you recommended to the group last month."}, {"who": "B", "text": "I'd love to, but I'm working at the community center that evening."}]}, "items": [{"stem": "What does the second speaker mean?", "options": ["The novel is being discussed at work.", "The club is meeting on another evening.", "The recommended novel is unavailable.", "Work keeps the speaker from attending."], "answer": 3, "why": "I'm working at the community center that evening 说明当晚要工作，所以不能参加读书会，即第四项。", "point": "context"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "The road to the market is closed, and the bus has to take a longer route. We may not arrive before the stalls open."}, {"who": "B", "text": "We could take the train to the market instead."}]}, "items": [{"stem": "What is the second speaker doing?", "options": ["Suggesting a different route", "Confirming the bus has arrived", "Asking when the stalls open", "Explaining why the road closed"], "answer": 0, "why": "去市场的路封了，We could take the train instead 是建议改坐火车，即第一项。", "point": "purpose"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Would you like to walk to the exhibition with us? We plan to leave after lunch, but the bus stops just outside too."}, {"who": "B", "text": "My ankle hurts today, so I'll take the bus and meet you there."}]}, "items": [{"stem": "What does the second speaker mean?", "options": ["The exhibition has moved outside the hall.", "An injured ankle makes walking hard.", "The bus is leaving before lunch.", "The group has already walked there."], "answer": 1, "why": "My ankle hurts 是理由，所以说话者不步行，改坐公交车去，即第二项。", "point": "context"}]}
+  ]}]} 
+ ]
+}

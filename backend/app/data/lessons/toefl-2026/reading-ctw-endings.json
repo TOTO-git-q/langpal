@@ -1,0 +1,408 @@
+{
+ "id": "reading-ctw-endings",
+ "title": "词尾与词性",
+ "goal": "结合句法位置选择词性，并补出正确词尾和拼写形式。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "pos",
+   "label": "由句法位置判断所缺词的词性"
+  },
+  {
+   "id": "suffix",
+   "label": "补出正确的词尾并拼写正确"
+  }
+ ],
+ "sources": [],
+ "cards": [
+  {
+   "id": "intro",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "同一词根可以形成不同词性：act 是动词，action 是名词，active 是形容词，actively 是副词。先看空格所在的结构，确定词性；再看已给字母和词长，确定词形。"
+    },
+    {
+     "box": "The active group participated actively. Its participation was recorded."
+    },
+    {
+     "p": "active 修饰 group，actively 修饰 participated，participation 在 Its 后作主语。词尾选对后，还要核对整个词的长度和拼写。"
+    }
+   ]
+  },
+  {
+   "id": "positions",
+   "type": "table",
+   "title": "句法位置",
+   "cols": [
+    "位置",
+    "判断依据",
+    "例句"
+   ],
+   "rows": [
+    [
+     "冠词后",
+     "填名词；冠词和名词之间也可以是形容词。",
+     "The measurement is accurate. The accurate measurement is useful."
+    ],
+    [
+     "be 后",
+     "可接名词、形容词或分词，看后面的结构决定。",
+     "She is a chemist. The liquid is colorless. It is cooling."
+    ],
+    [
+     "情态动词后",
+     "接动词原形，不接过去式。",
+     "The team can simplify the design."
+    ],
+    [
+     "名词前",
+     "多为形容词，也可以是名词作定语。",
+     "a practical solution；a research project"
+    ],
+    [
+     "动词后",
+     "及物动词后接名词作宾语，副词说明方式，系动词后接形容词。",
+     "They measured resistance. It moved slowly. It became stable."
+    ]
+   ]
+  },
+  {
+   "id": "nouns",
+   "type": "table",
+   "title": "名词后缀",
+   "cols": [
+    "后缀",
+    "常见意义",
+    "例"
+   ],
+   "rows": [
+    [
+     "-tion",
+     "动作或过程",
+     "collection：收集；the collection of samples"
+    ],
+    [
+     "-ment",
+     "行为或结果",
+     "development：发展；the development of a device"
+    ],
+    [
+     "-ness",
+     "性质或状态",
+     "darkness：黑暗；complete darkness"
+    ],
+    [
+     "-ity",
+     "性质或程度",
+     "density：密度；the density of a liquid"
+    ],
+    [
+     "-ance",
+     "行为、状态或量",
+     "resistance：阻力；resistance to movement"
+    ],
+    [
+     "-ence",
+     "状态或性质",
+     "difference：差异；a difference in size"
+    ],
+    [
+     "-er / -or",
+     "从事某事的人或执行功能的物",
+     "researcher：研究者；a researcher in a laboratory；operator：操作员；a trained operator"
+    ],
+    [
+     "-ist",
+     "从事某专业的人",
+     "chemist：化学家；a chemist studying dyes"
+    ]
+   ],
+   "note": "后缀能提示词性，但不能随意加在词根后。explain 的名词是 explanation。"
+  },
+  {
+   "id": "verbs",
+   "type": "table",
+   "title": "动词词尾",
+   "cols": [
+    "词尾",
+    "用法",
+    "例"
+   ],
+   "rows": [
+    [
+     "-s / -es",
+     "一般现在时第三人称单数。",
+     "The sensor records pressure. The pump pushes water."
+    ],
+    [
+     "-ed",
+     "规则动词过去式或过去分词。",
+     "The staff tested the handle. It has been tested."
+    ],
+    [
+     "-ing",
+     "现在分词或动名词；与 be 构成进行时。",
+     "The motor is turning. Measuring takes time."
+    ],
+    [
+     "-ize",
+     "构成动词，意思是使成为某种状态。",
+     "The team will standardize the labels."
+    ],
+    [
+     "-ify",
+     "构成动词，意思是使成为某种状态。",
+     "The diagram can clarify the process."
+    ],
+    [
+     "-ate",
+     "可构成动词，要看句中位置确认。",
+     "The fan helps circulate air."
+    ]
+   ]
+  },
+  {
+   "id": "modifiers",
+   "type": "table",
+   "title": "形容词与副词后缀",
+   "cols": [
+    "后缀",
+    "例词与中文义",
+    "例"
+   ],
+   "rows": [
+    [
+     "-al",
+     "regional：地区的",
+     "regional differences"
+    ],
+    [
+     "-ous",
+     "porous：多孔的",
+     "a porous material"
+    ],
+    [
+     "-ive",
+     "effective：有效的",
+     "an effective method"
+    ],
+    [
+     "-able / -ible",
+     "readable：易读的；flexible：柔韧的",
+     "readable labels；a flexible tube"
+    ],
+    [
+     "-ful",
+     "useful：有用的",
+     "a useful comparison"
+    ],
+    [
+     "-less",
+     "colorless：无色的",
+     "a colorless liquid"
+    ],
+    [
+     "-ic",
+     "magnetic：磁的",
+     "a magnetic field"
+    ],
+    [
+     "-ly",
+     "多构成副词；friendly 这类词是形容词。",
+     "The wheel turns smoothly. a friendly assistant"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The assistant is cut____ the sheet. After dry___, the sheet moves eas___. Its thic_____ is measured."
+    },
+    {
+     "p": "cutting：is 后面是进行时。cut 是重读闭音节，以一个辅音字母结尾，接 -ing 时双写 t。同类的有 stop → stopped。"
+    },
+    {
+     "p": "drying：以辅音字母加 y 结尾的词，接 -ing 时保留 y，接 -ed 时 y 变 i，如 dry → dried。easily：easy 的副词是 easily，eas___ 补 ily。"
+    },
+    {
+     "p": "thickness：Its 后面要名词作主语。thick 加 -ness 是 thickness，表示厚度，thic_____ 补 kness。"
+    },
+    {
+     "p": "词尾是不发音的 e 时，去掉 e 再接 -ing，如 make → making。以 -ee 结尾时保留 e，如 see → seeing。"
+    }
+   ]
+  },
+  {
+   "id": "check-pos",
+   "type": "check",
+   "title": "练习一　词性",
+   "points": [
+    "pos"
+   ],
+   "groups": [
+    {
+     "label": "Fill in the missing letters.",
+     "fill": "A theater stores costumes for several productions. The colle{ction} includes coats and hats. Each colo{rful} costume has a label. A new assi{stant} can orga{nize} the shelves and simp{lify} the records. Some materials are flex{ible}, but others tear eas{ily}. The manager records the cond{ition} of each item. A car{eful} inspection helps the staff work effic{iently}.",
+     "tags": [
+      "pos",
+      "pos",
+      "pos",
+      "pos",
+      "pos",
+      "pos",
+      "pos",
+      "pos",
+      "pos",
+      "pos"
+     ],
+     "notes": [
+      "collection：The 后作主语，需要名词 collection。",
+      "colorful：修饰 costume，用形容词 colorful。",
+      "assistant：冠词和形容词后作主语，需要表示人的名词。",
+      "organize：can 后接动词原形 organize。",
+      "simplify：与 organize 并列，沿用 can 后的原形。",
+      "flexible：are 后表示材料性质，用形容词 flexible。",
+      "easily：修饰 tear 的方式，用副词 easily。",
+      "condition：the 后作 records 的宾语，用名词 condition。",
+      "careful：修饰 inspection，用形容词 careful。",
+      "efficiently：修饰 work，用副词 efficiently。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-spelling",
+   "type": "check",
+   "title": "练习二　词尾",
+   "points": [
+    "suffix"
+   ],
+   "groups": [
+    {
+     "label": "Fill in the missing letters.",
+     "fill": "A map designer prepares symbols for a walking guide. Yesterday she pla{nned} a new layout and cop{ied} several street names. Today she is mak{ing} the symbols larger and chec{king} their shapes. She class{ifies} roads by type and ident{ifies} public buildings. The symbols must be read{able} at a small size. Their cla{rity} matters more than decoration. A test reader works slo{wly} through the guide and checks each conne{ction} between two paths.",
+     "tags": [
+      "suffix",
+      "suffix",
+      "suffix",
+      "suffix",
+      "suffix",
+      "suffix",
+      "suffix",
+      "suffix",
+      "suffix",
+      "suffix"
+     ],
+     "notes": [
+      "planned：plan 的过去式双写 n，再加 -ed。",
+      "copied：copy 的过去式把 y 变 i，再加 -ed。",
+      "making：make 接 -ing 去掉末尾 e。",
+      "checking：check 接 -ing 不双写末尾辅音字母。",
+      "classifies：classify 的第三人称单数把 y 变 i，加 -es。",
+      "identifies：identify 的第三人称单数为 identifies。",
+      "readable：read 加 -able，表示可读的。",
+      "clarity：clear 的名词是 clarity，词根的拼法有变化。",
+      "slowly：slow 加 -ly 构成副词。",
+      "connection：connect 加 -ion 构成 connection，末尾是 -tion。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-mixed",
+   "type": "check",
+   "title": "练习三　词性与词尾",
+   "points": [
+    "pos",
+    "suffix"
+   ],
+   "groups": [
+    {
+     "label": "Fill in the missing letters.",
+     "fill": "A furniture maker compares finishes for a wooden desk. The compa{rison} begins with two samples. One finish is colo{rless} and leaves the grain visible. The other gives the wood a nat{ural} brown shade. The maker is rub{bing} each surface with cloth and not{ing} any marks. Yesterday both samples were dr{ied} indoors. Their smoot{hness} is checked by touch. An exper{ienced} worker can eval{uate} the results and apply the chosen finish care{fully}.",
+     "tags": [
+      "pos",
+      "suffix",
+      "pos",
+      "suffix",
+      "suffix",
+      "suffix",
+      "pos",
+      "pos",
+      "pos",
+      "suffix"
+     ],
+     "notes": [
+      "comparison：The 后作主语，compare 对应名词 comparison。",
+      "colorless：color 加 -less，表示无色的。",
+      "natural：修饰 brown shade，用形容词 natural。",
+      "rubbing：rub 接 -ing 双写 b。",
+      "noting：note 接 -ing 去掉不发音的 e。",
+      "dried：dry 的过去分词把 y 变 i，再加 -ed。",
+      "smoothness：Their 后作主语，用名词 smoothness。",
+      "experienced：修饰 worker，用形容词 experienced。",
+      "evaluate：can 后用原形 evaluate。",
+      "carefully：careful 加 -ly 为 carefully，保留原有 l。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 4,
+   "pass": 0.8,
+   "points": [
+    "pos",
+    "suffix"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Fill in the missing letters.",
+       "fill": "A laboratory technician grows crystals from a solution. The form{ation} of crystals begins as the liquid cools. An assi{stant} records the temperature care{fully} and notes any vis{ible} changes. Yesterday the technician sto{pped} the trial early because the container was leaking. Today she is us{ing} a new container and comp{aring} the results. A scie{ntist} will eval{uate} the final samples. Their hard{ness} is measured after they have been removed from the liquid. Each sample receives a label showing when it was collected.",
+       "tags": [
+        "pos",
+        "pos",
+        "suffix",
+        "pos",
+        "suffix",
+        "suffix",
+        "suffix",
+        "pos",
+        "pos",
+        "suffix"
+       ]
+      },
+      {
+       "label": "Fill in the missing letters.",
+       "fill": "A design class is examining ramps at building entrances. The measu{rement} of each slope takes several minutes. A port{able} device records the angle, and a student checks the reading repea{tedly}. Yesterday the class stu{died} a steep ramp beside a shop. Today students are plan{ning} an alternative and wri{ting} a short report. The new plan will simp{lify} access without blocking the door. Its prac{tical} advantages include space for turning. A compa{rison} with the old ramp helps explain the proposed impro{vement}.",
+       "tags": [
+        "pos",
+        "pos",
+        "suffix",
+        "suffix",
+        "suffix",
+        "suffix",
+        "pos",
+        "pos",
+        "suffix",
+        "suffix"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

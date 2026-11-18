@@ -1,0 +1,65 @@
+{
+ "id": "reading-seven-reference",
+ "title": "指代与词汇复现",
+ "goal": "利用指代和词汇复现判断句间联系。",
+ "skill": "阅读",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "reference", "label": "根据指代词找到相应对象或事件"},
+  {"id": "lexical", "label": "利用词汇复现确认话题连续性"}
+ ],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）课表", "url": "docs/syllabi/gaokao.md", "used": "教学内容与课程题型"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "句子之间可以通过指代和词汇复现保持联系。判断时既要找到对应的对象，也要核对句子的意思。"},
+   {"box": "Mia borrowed a map. She returned it after the walk."},
+   {"p": "it 指 a map，returned 说的是把借来的地图还回去。核对指代时，单复数要一致，动作也要说得通。"}
+  ]},
+  {"id": "reference", "type": "table", "title": "指代词", "cols": ["形式", "前句", "后句与联系"], "rows": [
+   ["this 指事件", "The bus arrived late.", "This delayed the trip. 指车辆迟到。"],
+   ["this 指事物", "A tunnel was built under the road.", "This connects the two parks. 指隧道。"],
+   ["they 指人", "The volunteers sorted the books.", "They then labeled the boxes. 指志愿者。"],
+   ["they 指物", "The lamps have timers.", "They switch off at midnight. 指灯。"],
+   ["such 指类别", "Some paths are too narrow for cars.", "Such paths are suitable for walking. 指这类小路。"],
+   ["such 指情况", "Rain can delay outdoor work.", "In such cases, the team works indoors. 指下雨耽误工作的情况。"],
+   ["one 指同类单数", "The old basket is broken.", "A new one will hold the fruit. 指新篮子。"],
+   ["one 指同类单数", "A pencil is needed for the sketch.", "A soft one makes darker marks. 指软铅笔。"]
+  ]},
+  {"id": "lexical", "type": "table", "title": "词汇复现", "cols": ["方式", "前句", "后句与联系"], "rows": [
+   ["原词", "A bridge crosses the stream.", "The bridge links two villages. 两句都讲桥。"],
+   ["原词", "The garden has a gate.", "The gate stays open by day. 两句都讲门。"],
+   ["同义词", "The path is steep.", "The slope makes cycling difficult. slope 对应陡坡。"],
+   ["同义词", "The repair took a week.", "The work finished on Friday. work 指这次维修。"],
+   ["上下义词", "A robin landed nearby.", "The bird picked up a seed. bird 概括 robin。"],
+   ["上下义词", "The box contained tools.", "A hammer lay on top. hammer 是工具。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "Lena found a torn poster in the hall. ____ She put the repaired poster back on the wall.\n1. She mended it with a strip of paper.\n2. She drew a map of the hall.\n3. The wall needed a new coat of paint.\n4. The poster announced a music class."},
+   {"p": "第一项的 it 指 torn poster，mended 对应后句的 repaired。第四项也有 poster，但讲的是海报内容，接不上后句的 repaired。"}
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一　指代", "points": ["reference"], "groups": [
+   {"look": "passage", "text": "The camera fell into water. ____ The owner then dried its case.", "items": [{"stem": "Which sentence best fills the gap?", "options": ["The owner took a photograph.", "The case was on a shelf.", "This damaged the camera.", "A different case was dry."], "answer": 2, "why": "This 指前句的相机落水。落水损坏了相机，所以后句主人把外壳晾干。", "point": "reference"}]},
+   {"look": "passage", "text": "Two bakers prepared the dough. ____ Afterward, the loaves cooled on a rack.", "items": [{"stem": "Which sentence best fills the gap?", "options": ["They shaped it into loaves.", "They washed the cooling rack thoroughly.", "It was a wooden bread rack.", "The loaves had already cooled."], "answer": 0, "why": "They 指 bakers，it 指 dough。面团做成 loaves，后句接着讲面包放凉。", "point": "reference"}]}
+  ]},
+  {"id": "check-two", "type": "check", "title": "练习二　词汇复现", "points": ["lexical"], "groups": [
+   {"look": "passage", "text": "A violin was left in the music room. ____ Its owner collected it after lunch.", "items": [{"stem": "Which sentence best fills the gap?", "options": ["The owner ate lunch in the music room.", "Another room held a piano.", "The music class ended at noon.", "A teacher kept the instrument safe."], "answer": 3, "why": "instrument 是 violin 的上义词，指同一把小提琴。老师先代为保管，后句主人再取回。", "point": "lexical"}]},
+   {"look": "passage", "text": "The workshop fixed a damaged chair. ____ The customer collected it later.", "items": [{"stem": "Which sentence best fills the gap?", "options": ["The workshop needed a new chair.", "The repair took one afternoon.", "The workshop closed later that day.", "The chair damaged the floor."], "answer": 1, "why": "repair 复现前句的 fixed a damaged chair，指同一次修理。修好之后，后句讲顾客取回椅子。", "point": "lexical"}]}
+  ]},
+  {"id": "check-three", "type": "check", "title": "练习三　综合", "points": ["reference", "lexical"], "groups": [
+   {"look": "passage", "text": "The gardeners planted beans beside the fence. ____ The plants soon climbed it.", "items": [{"stem": "Which sentence best fills the gap?", "options": ["The fence had a blue gate.", "The beans were cooked at home.", "They watered the young plants.", "The fence was taken down."], "answer": 2, "why": "They 指 gardeners，young plants 指刚种下的豆子。后句的 The plants 接着讲豆苗爬上篱笆。", "point": "reference"}]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["reference", "lexical"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "The community hall needed more light for an evening craft class. A group of residents brought several lamps from home. ____ The extra light made it easier to see the thread. After the class, each resident took home the lamp they had brought.\n\nA separate table held spare needles. A box beside it contained thread for the class. ____ Nobody had to leave the hall to buy another needle. At the end of the evening, the teacher counted the supplies and returned them to the box. ____ The next class could use the same supplies.", "items": [
+    {"stem": "Which sentence best fills the first gap?", "options": ["They placed them beside the worktables.", "They carried the thread to the hall.", "The class took place in daylight.", "The residents returned the needles home."], "answer": 0, "why": "They 指 residents，them 指 lamps。后句的 The extra light 就是这些灯带来的光。", "point": "reference"},
+    {"stem": "Which sentence best fills the second gap?", "options": ["The thread was left at home.", "The lamps were returned after class.", "The teacher had forgotten to bring needles.", "These needles were available to everyone."], "answer": 3, "why": "These needles 指前面的 spare needles。针够大家用，所以后句说没人需要出去买针。", "point": "reference"},
+    {"stem": "Which sentence best fills the third gap?", "options": ["The class was held outdoors.", "The materials were ready for reuse.", "The lamps were needed at home.", "The residents bought another table."], "answer": 1, "why": "materials 复现前句的 supplies。ready for reuse 与后句 could use the same supplies 一致。", "point": "lexical"}
+   ]},
+   {"look": "passage", "text": "A school display showed several handmade kites. One kite had a long tail, while another had a bright red frame. ____ The pupils hung them above the entrance. Visitors could see both designs as they came in.\n\nThe class had also written a guide to making kites. ____ Its pages explained how to attach a frame and balance a tail. A visitor asked for a copy, and the teacher gave her one. ____ The guide was therefore available to other visitors as well.", "items": [
+    {"stem": "Which sentence best fills the first gap?", "options": ["The entrance had a red door.", "A visitor entered the school.", "Both were made from light paper.", "The frame was painted after class."], "answer": 2, "why": "Both 指前句的两只风筝，后句的 them 也指它们。", "point": "reference"},
+    {"stem": "Which sentence best fills the second gap?", "options": ["The booklet was placed near the display.", "The entrance remained closed all day.", "The kite with the long tail hung highest.", "The teacher had no copy to give away."], "answer": 0, "why": "booklet 复现前句的 guide，指同一本册子。后句的 Its pages 接着说明册子的内容。", "point": "lexical"},
+    {"stem": "Which sentence best fills the third gap?", "options": ["The visitor took the last copy home.", "The teacher kept the only copy.", "The pupils had written only one copy.", "More copies remained on the table."], "answer": 3, "why": "copies 复现前句的 copy。桌上还有册子，所以后句说其他访客也能拿到。", "point": "lexical"}
+   ]}
+  ]}]}
+ ]
+}

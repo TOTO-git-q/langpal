@@ -1,0 +1,372 @@
+{
+ "id": "listening-long-detail",
+ "title": "人物与事件细节题",
+ "goal": "听出人物的具体经历和安排，核对人物、事项与时间。",
+ "skill": "听力",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "detail",
+   "label": "听出目标人物的具体经历与安排"
+  },
+  {
+   "id": "match",
+   "label": "排除人物或时间对应错误的选项"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语（新课标卷）：课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "人物与事件细节的教学要求"
+  }
+ ],
+ "cards": [
+  {
+   "id": "type",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "细节题问某个人物的经历或安排。答案要同时对上人物、事项、时间和地点。正确选项常用不同的词表达录音里的信息。"
+    },
+    {
+     "box": "Last year Maya taught at the village school. This year she works in the town library. → Maya's present workplace is the library."
+    },
+    {
+     "p": "学校和图书馆是 Maya 前后两个阶段的工作地点。问现在在哪里工作，答案是图书馆。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定人物与时间",
+     "d": "先看题干里的姓名和时间，它们决定要听哪条信息。What did Maya do last year? 问的是 Maya 去年的经历。"
+    },
+    {
+     "t": "2　对应事项与地点",
+     "d": "把动作和地点对应到做事的人。Maya taught at the village school. 说的是 Maya 在乡村学校任教。"
+    },
+    {
+     "t": "3　核对改写",
+     "d": "比较选项与录音的意思。works in the town library 可改写为 has a job at the town library。"
+    }
+   ]
+  },
+  {
+   "id": "mapping",
+   "type": "table",
+   "title": "人物与事项对应",
+   "cols": [
+    "人物",
+    "录音",
+    "对应信息"
+   ],
+   "rows": [
+    [
+     "Maya",
+     "Last year I taught at the village school.",
+     "去年在乡村学校任教"
+    ],
+    [
+     "Maya",
+     "Now I work in the town library.",
+     "现在在城镇图书馆工作"
+    ],
+    [
+     "Noah",
+     "I'll bring the photographs on Monday.",
+     "周一带照片"
+    ],
+    [
+     "Ella",
+     "I'll print the captions on Tuesday.",
+     "周二打印说明文字"
+    ]
+   ],
+   "note": "同一个人前后可能做不同的事。同一件事也可能由几个人分工完成。"
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Noah: I'll bring the photographs on Monday.\nElla: I'll print the captions on Tuesday and put them beside the photographs."
+    },
+    {
+     "box": "What will Ella do on Tuesday?\n1. Bring photographs to Noah.\n2. Print the written descriptions.\n3. Take photographs for the captions.\n4. Collect photographs on Monday."
+    },
+    {
+     "p": "Ella 说 I'll print the captions on Tuesday。第二项的 written descriptions 是 captions 的改写，人物、事项和时间都与原话一致。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "人物替换",
+     "Noah will print the captions.",
+     "打印说明文字的是 Ella。"
+    ],
+    [
+     "时间替换",
+     "Maya works at the school now.",
+     "学校是 Maya 去年的工作地点。"
+    ],
+    [
+     "地点替换",
+     "Maya taught at the town library.",
+     "去年任教的地点是乡村学校。"
+    ],
+    [
+     "事项拼接",
+     "Ella will bring the photographs on Tuesday.",
+     "带照片的是 Noah，周二是 Ella 打印的时间。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "detail",
+    "match"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation between Iris and Pavel.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I used to repair bicycles at the station. Now I teach bicycle maintenance at the youth center."
+       },
+       {
+        "who": "B",
+        "text": "I work at the station now. I sell tickets, while my sister repairs the bicycles there."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Where does Iris work now?",
+       "options": [
+        "At the station, repairing bicycles.",
+        "At the youth center, as a teacher.",
+        "At the station ticket office.",
+        "At a bicycle shop with her sister."
+       ],
+       "answer": 1,
+       "why": "依据是 Now I teach bicycle maintenance at the youth center。Iris 现在在青少年中心教课，即第二项；在车站修车是她以前的工作。",
+       "point": "detail"
+      },
+      {
+       "stem": "Who repairs bicycles at the station now?",
+       "options": [
+        "Iris, the maintenance teacher.",
+        "Pavel, the ticket seller.",
+        "Iris's sister at the center.",
+        "Pavel's sister at the station."
+       ],
+       "answer": 3,
+       "why": "依据是 Pavel 说的 my sister repairs the bicycles there，there 指车站。在车站修车的是 Pavel 的姐妹，即第四项。",
+       "point": "match"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "detail",
+    "match"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I'm Theo, and I help with the town's walking maps. At first I drew the routes by hand at home. Last spring I joined a group at the community office, where we checked each route together. This month I'm photographing the signs along the routes. My colleague Rosa is writing descriptions of the local buildings, and next month she'll add those descriptions to the maps."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What did Theo do at home at first?",
+       "options": [
+        "He drew the walking routes by hand.",
+        "He checked the routes with a group.",
+        "He photographed the route signs.",
+        "He described the local buildings."
+       ],
+       "answer": 0,
+       "why": "依据是 At first I drew the routes by hand at home。Theo 最初在家手绘路线，即第一项；和小组一起核对路线是去年春天的事。",
+       "point": "detail"
+      },
+      {
+       "stem": "What is Rosa doing this month?",
+       "options": [
+        "Checking the routes with Theo.",
+        "Adding photographs to the maps.",
+        "Writing about local buildings.",
+        "Drawing walking routes at home."
+       ],
+       "answer": 2,
+       "why": "依据是 My colleague Rosa is writing descriptions of the local buildings。Rosa 这个月在写本地建筑的介绍，即第三项。",
+       "point": "match"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "detail",
+    "match"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation with Felix.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Hello, Ada. I heard you're working at the harbor museum now. Didn't you use to guide visitors around the old lighthouse?"
+         },
+         {
+          "who": "B",
+          "text": "Yes. I spent two summers giving lighthouse tours. Then last autumn I joined the museum. At first I helped visitors find exhibits, but since January I've been looking after the collection of ship models. I clean the cases and keep a record of any repairs. I'm learning a lot about the people who built the models."
+         },
+         {
+          "who": "A",
+          "text": "That sounds interesting. My brother Luca also works there, doesn't he?"
+         },
+         {
+          "who": "B",
+          "text": "He does. Luca organizes visits for school groups. He worked in the ticket office before that. Next month he'll lead a workshop where children can make small paper boats. I'll prepare a display of models for the same workshop, so the children can compare different shapes."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What does Ada look after now?",
+         "options": [
+          "The collection of ship models.",
+          "The visitors' lighthouse tickets.",
+          "The school group's paper boats.",
+          "The museum's workshop bookings."
+         ],
+         "answer": 0,
+         "why": "依据是 since January I've been looking after the collection of ship models。Ada 从一月起负责船模收藏，即第一项。",
+         "point": "detail"
+        },
+        {
+         "stem": "What did Luca do before his current job?",
+         "options": [
+          "He gave tours of the lighthouse.",
+          "He worked at the ticket office.",
+          "He repaired models for the museum.",
+          "He led school workshops at the harbor."
+         ],
+         "answer": 1,
+         "why": "依据是 He worked in the ticket office before that。Luca 组织学校参观之前在售票处工作，即第二项。",
+         "point": "match"
+        },
+        {
+         "stem": "What will Ada do for next month's workshop?",
+         "options": [
+          "Lead children in making paper boats.",
+          "Organize school visits to the museum.",
+          "Give a guided tour of the lighthouse.",
+          "Set out models for the children to see."
+         ],
+         "answer": 3,
+         "why": "依据是 Ada 说的 I'll prepare a display of models for the same workshop。她要布置船模展示，即第四项；带孩子做纸船的是 Luca。",
+         "point": "match"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a talk.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "My name is Carmen. Today I'd like to describe how my work at the town theater has changed. Three years ago I joined as a volunteer and showed visitors to their seats. I enjoyed meeting the audience, but I wanted to learn more about what happens before a performance. The following year I helped the costume team, mainly by keeping a list of clothes needed for each scene. I still remember how carefully the team checked that list. This year I'm responsible for arranging the furniture on stage. I work from a plan drawn by the designer, and I check the position of each chair and table before the actors arrive. Next spring I'll return to the costume team for one production, because a member will be away. I'm looking forward to seeing how their work has developed."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What did Carmen do when she first joined the theater?",
+         "options": [
+          "She kept a list of stage costumes.",
+          "She guided audience members to seats.",
+          "She designed the stage furniture.",
+          "She checked clothes for each scene."
+         ],
+         "answer": 1,
+         "why": "依据是 Three years ago I joined as a volunteer and showed visitors to their seats。Carmen 最初是领观众入座，即第二项。",
+         "point": "detail"
+        },
+        {
+         "stem": "What is Carmen responsible for this year?",
+         "options": [
+          "Drawing the designer's furniture plan.",
+          "Choosing costumes for every scene.",
+          "Arranging furniture on the stage.",
+          "Leading visitors into the theater."
+         ],
+         "answer": 2,
+         "why": "依据是 This year I'm responsible for arranging the furniture on stage。Carmen 今年负责摆放舞台家具，即第三项；画布置图的是设计师。",
+         "point": "detail"
+        },
+        {
+         "stem": "When will Carmen work with the costume team again?",
+         "options": [
+          "During her first year as a volunteer.",
+          "During the year after she joined.",
+          "Before the actors arrive this year.",
+          "In the spring of the coming year."
+         ],
+         "answer": 3,
+         "why": "依据是 Next spring I'll return to the costume team。next spring 改写为 the spring of the coming year，即第四项。",
+         "point": "match"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

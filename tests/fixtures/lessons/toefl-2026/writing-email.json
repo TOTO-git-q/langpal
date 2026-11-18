@@ -1,0 +1,881 @@
+{
+  "id": "writing-email",
+  "title": "Write an Email：七分钟写一封办得成事的邮件",
+  "goal": "七分钟内写出一封三条要求都答到、语气对得上收件人、动词不出错的邮件。",
+  "skill": "writing",
+  "exam": "TOEFL iBT（2026 年 1 月起的新版）· 写作",
+  "points": [
+    {
+      "id": "coverage",
+      "label": "三条要求都答到，每条有具体细节",
+      "needs": "all_bullets_done"
+    },
+    {
+      "id": "register",
+      "label": "称呼、语气和请求的说法对得上收件人"
+    },
+    {
+      "id": "accuracy",
+      "label": "叙述事情时动词的时态和形式不出错"
+    }
+  ],
+  "sources": [
+    {
+      "id": "spec",
+      "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+      "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+      "used": "题量、计分上限、测什么能力"
+    },
+    {
+      "id": "overview",
+      "title": "ETS：Updated TOEFL iBT Test Overview",
+      "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+      "used": "题目说明、限时、官方样题和 4 分样例的评语、新旧分数对照表"
+    },
+    {
+      "id": "rubric",
+      "title": "ETS：Writing Scoring Guide — Write an Email",
+      "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/writing-rubrics.pdf",
+      "used": "0–5 分每一档的描述（本课是中文转述，原文以官方为准）"
+    },
+    {
+      "id": "lessonplan",
+      "title": "ETS：TOEFL iBT Writing Lesson Plans（教师用教案）",
+      "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-writing.pdf",
+      "used": "第 1 课答案页（限时、字数统计、无拼写检查），第 3 课（样题与样例）"
+    }
+  ],
+  "cards": [
+    {
+      "id": "facts",
+      "type": "facts",
+      "title": "这道题是什么",
+      "rows": [
+        {
+          "k": "在哪",
+          "v": "写作部分三类题之一。写作部分共 12 题、约 23 分钟：Build a Sentence 10 题，Write an Email 1 题，Write for an Academic Discussion 1 题。",
+          "src": "spec 第 5 页"
+        },
+        {
+          "k": "限时",
+          "v": "7 分钟，读题和写都算在里面。（学术讨论题是 10 分钟。）",
+          "src": "overview 第 14 页；lessonplan 第 6 页"
+        },
+        {
+          "k": "题目给什么",
+          "v": "一段情境（校园或日常社交场景），三条必须完成的要求，已经填好的收件人和主题行。指令是「尽量多写，用完整的句子」。",
+          "src": "overview 第 14 页"
+        },
+        {
+          "k": "要你做什么",
+          "v": "为一个明确的目的写信：提建议、发邀请、为一个问题提出解决办法，等等。",
+          "src": "overview 第 14 页"
+        },
+        {
+          "k": "工具",
+          "v": "有字数统计，没有拼写检查。",
+          "src": "lessonplan 第 6 页"
+        },
+        {
+          "k": "怎么计分",
+          "v": "0–5 分，由评分引擎按官方评分标准打分。写作部分原始分满分 20：Build a Sentence 每题 1 分，这道题 5 分，学术讨论 5 分。这一道题占写作的四分之一。",
+          "src": "spec 第 14 页；overview 第 21 页"
+        },
+        {
+          "k": "官方说它测四件事",
+          "v": "① 达成题目指定的沟通目的，合乎基本的社交惯例；② 内容展开得够、清楚、连贯；③ 语法结构和词汇有变化、用得准；④ 拼写、标点、大小写合规范。",
+          "src": "overview 第 14 页"
+        }
+      ],
+      "note": "你的目标是总分 110。官方对照表里，旧制 107–113 对应新制 5.5；写作单项 5.5 对应旧制 27–28。按这个目标，这道题要按 5 分来练，考场上不低于 4 分。（后半句是本课的建议，不是官方换算。）"
+    },
+    {
+      "id": "rubric",
+      "type": "rubric",
+      "title": "评分标准：每一档长什么样",
+      "intro": "下面是官方评分标准的中文转述。注意每一档的第一条都在说「展开」，最后一条都在说「错误」。",
+      "levels": [
+        {
+          "score": 5,
+          "name": "完全成功",
+          "summary": "信写得有效，意思清楚，语言从头到尾运用自如。",
+          "signs": [
+            "展开的内容实实在在地支持了写信的目的",
+            "句式有变化，用词准确、地道",
+            "社交惯例始终得体：礼貌程度、语体、信息怎么排、请求或拒绝或批评怎么措辞",
+            "几乎没有词汇和语法错误，只有限时写作里谁都会有的小笔误"
+          ]
+        },
+        {
+          "score": 4,
+          "name": "基本成功",
+          "summary": "信大体有效，容易看懂，语言够用。",
+          "signs": [
+            "展开够用",
+            "句式有变化，用词恰当",
+            "社交惯例大体得体",
+            "词汇和语法错误很少"
+          ]
+        },
+        {
+          "score": 3,
+          "name": "部分成功",
+          "summary": "任务大体完成了，但语言上的不足让一部分内容不够清楚、不够有效。",
+          "signs": [
+            "展开只是部分支持写信的目的",
+            "句式和词汇的范围中等",
+            "句子结构、词形、习惯用法或社交惯例上有看得出来的错误"
+          ]
+        },
+        {
+          "score": 2,
+          "name": "大体不成功",
+          "summary": "看得出想完成任务，但多半没起作用，意思有限或者难懂。",
+          "signs": [
+            "展开很少，或者和题目无关",
+            "有一些连得起来的句子，句式和词汇范围窄",
+            "句子结构和用法上的错误成堆"
+          ]
+        },
+        {
+          "score": 1,
+          "name": "不成功",
+          "summary": "没能有效完成任务，意思少到几乎看不懂。",
+          "signs": [
+            "几乎没有展开",
+            "电报式的短语和断句，词汇极少",
+            "错误严重而且频繁",
+            "自己写的话很少，通顺的部分多半是从题目里搬来的"
+          ]
+        },
+        {
+          "score": 0,
+          "name": "零分",
+          "summary": "空白、拒答、不是英语、全文照抄题目、和题目无关，或者乱敲键盘。",
+          "signs": []
+        }
+      ],
+      "takeaways": [
+        {
+          "t": "4 分和 5 分差在哪",
+          "d": "官方公布的样例是一封内容完整、语气得体的邮件，只得了 4 分。评语给的理由是一处动词形式错误（原文是 can successfully sent）「后果够重」。同一封信里还有三处拼写错误，评语没有提：5 分那一档明说限时写作的小笔误不算。所以冲 5 分时，先保动词的时态和形式，拼写排在后面。"
+        },
+        {
+          "t": "3 分和 4 分差在哪",
+          "d": "3 分的信也把三条要求都答了。差别在两处：细节够不够让收件人不用追问，以及错误是「很少」还是「看得出来」。"
+        },
+        {
+          "t": "别搬题目里的句子",
+          "d": "1 分那一档写着「通顺的部分多半是从题目里搬来的」。题目里的情境要用你自己的话重说，再加上题目没给的细节。"
+        }
+      ],
+      "src": "rubric；overview 第 15 页（4 分样例和评语）"
+    },
+    {
+      "id": "seven-minutes",
+      "type": "steps",
+      "title": "七分钟怎么用",
+      "steps": [
+        {
+          "t": "0:00–0:40　读题",
+          "d": "找三样东西：写给谁（定语气）、为什么写（定目的）、三条要求各要你做什么动作。动作通常是 tell、describe、explain、suggest、recommend、invite、ask 里的三个。"
+        },
+        {
+          "t": "0:40–1:00　给每条要求想一个细节",
+          "d": "不用写下来，脑子里各定一个：一个时间、一个现象、一个后果、一个具体的做法，哪种都行。"
+        },
+        {
+          "t": "1:00–6:00　按骨架写",
+          "d": "照题目里三条要求的顺序写，不调换。目标 100–130 词。官方的 4 分样例约 110 词；题目不设字数下限，指令是尽量多写。"
+        },
+        {
+          "t": "6:00–7:00　检查",
+          "d": "顺序固定：先数三条要求是不是都答了；再把每个动词看一遍（时态、情态动词后面用原形、被动有没有 be）；然后主谓一致和冠词；还有时间才看拼写。"
+        }
+      ],
+      "note": "100–130 词是本课按 7 分钟和普通打字速度定的练习目标，不是官方要求。"
+    },
+    {
+      "id": "skeleton",
+      "type": "skeleton",
+      "title": "一封邮件的骨架",
+      "intro": "顺序固定，不需要创新。评分看的是事情有没有办成，不看结构新不新。",
+      "parts": [
+        {
+          "name": "称呼",
+          "what": "题目给了名字和头衔就用它。",
+          "en": "Dear Dr. Alvarez, / Hi Sam,"
+        },
+        {
+          "name": "一句来意",
+          "what": "哪件事，出了什么情况，或者你想做什么。读完这一句对方就知道这封信是干什么的。",
+          "en": "I am writing about our group presentation, which is scheduled for next Tuesday."
+        },
+        {
+          "name": "第一条要求",
+          "what": "一句直接回应，加一到两句细节。",
+          "en": ""
+        },
+        {
+          "name": "第二条要求",
+          "what": "同上。",
+          "en": ""
+        },
+        {
+          "name": "第三条要求",
+          "what": "同上。这一条经常是「问」，要真的写出一个问句。",
+          "en": ""
+        },
+        {
+          "name": "一句收尾",
+          "what": "感谢，或者说明你等对方的哪个答复。",
+          "en": "Thank you for your understanding."
+        },
+        {
+          "name": "落款",
+          "what": "结束语加名字。",
+          "en": "Best regards, / Sincerely, / Thanks,"
+        }
+      ],
+      "note": "开头的寒暄（I hope you are well.）可以写一句，但它不算内容，不能替代来意。"
+    },
+    {
+      "id": "elaboration",
+      "type": "text",
+      "title": "展开：让收件人不用回信追问",
+      "body": [
+        {
+          "p": "评分标准每一档的第一条都是展开（elaboration）。展开不等于写长。判断的办法是站在收件人那边看：读完这一段，他要不要回信再问你一句才能办事。要问，就是没展开。"
+        },
+        {
+          "p": "七分钟里最省时间的细节只有三种，每条要求挑一种就够："
+        },
+        {
+          "list": [
+            "发生了什么：时间、步骤、看到的现象。",
+            "造成了什么影响：你因此做不了什么、会错过什么。",
+            "你希望怎样：具体哪个做法，最晚到什么时候。"
+          ]
+        },
+        {
+          "compare": {
+            "thin": "I had a problem with the online form.",
+            "full": "When I clicked “Submit,” the page froze, and I never saw a confirmation message.",
+            "why": "后一句说了哪一步、看到了什么。编辑读完就知道该去查什么。"
+          }
+        },
+        {
+          "compare": {
+            "thin": "Thursday is not convenient for me.",
+            "full": "I work at the campus bookstore until 5 p.m. on Thursdays, so I would miss the first half of the session.",
+            "why": "给了原因和后果，对方能据此判断要不要改时间。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "register",
+      "type": "table",
+      "title": "语气跟着收件人走",
+      "intro": "5 分那一档专门有一条讲社交惯例：礼貌程度、语体、请求怎么说。先看收件人属于哪一档，再选说法。邮件里可以用缩写（I'm, it's），官方样例里就有。",
+      "cols": [
+        "收件人",
+        "称呼",
+        "提请求",
+        "落款"
+      ],
+      "rows": [
+        [
+          "教授、行政人员、编辑、不认识的人",
+          "Dear Professor Okafor, / Dear Ms. Rivera,",
+          "Could you please …? / Would it be possible to …? / I would appreciate it if you could …",
+          "Best regards, / Sincerely,"
+        ],
+        [
+          "同学、社团里的伙伴",
+          "Hi Maya,",
+          "Could you …? / Would you mind …? / Let me know if …",
+          "Thanks, / Best,"
+        ],
+        [
+          "朋友、室友",
+          "Hi Sam, / Hey Sam,",
+          "Can you …? / Could you …?",
+          "Thanks! / See you soon,"
+        ]
+      ],
+      "note": "题目给了头衔和姓就用它。写成 Dear teacher 或 Dear Sir or Madam 属于社交惯例上的失误。请求要点明让对方做的那一个动作，需要的话给出时间。"
+    },
+    {
+      "id": "phrases",
+      "type": "table",
+      "title": "按用途备好的句子",
+      "intro": "每种用途记熟一两句，考场上不用现想。方括号里换成题目的内容。",
+      "cols": [
+        "用途",
+        "正式一些",
+        "随和一些"
+      ],
+      "rows": [
+        [
+          "说明来意",
+          "I am writing about [the heater in Room 214]. / I am writing to ask whether [I could submit my report on Monday].",
+          "I wanted to let you know that [I can't make it on Friday]."
+        ],
+        [
+          "先说好话",
+          "I really enjoyed [the first issue], especially [the section on local poets].",
+          "I loved [the first issue], especially [the section on local poets]."
+        ],
+        [
+          "讲发生了什么",
+          "When I [tried to register], [the page froze]. / I [paid the fee] last Monday, but I never received [a confirmation].",
+          "I [tried to sign up] yesterday, but [the site kept crashing]."
+        ],
+        [
+          "讲造成的影响",
+          "As a result, [two of our four members will be absent]. / This means that [I would miss the first half of the session].",
+          "So [I won't be able to help with the cooking]."
+        ],
+        [
+          "提办法、提建议",
+          "Would it be possible to [present on Thursday] instead? / I would recommend [adding an online booking system].",
+          "How about [I pick up the cake on my way]? / Maybe we could [move it to Sunday]."
+        ],
+        [
+          "发邀请",
+          "We would be honored if you could [join the panel]. / We would like to invite you to [speak at our event].",
+          "I was wondering if you would like to [join our study group]."
+        ],
+        [
+          "问情况",
+          "Could you confirm whether [my registration went through]? / Could you let me know [what I should bring]?",
+          "Do you know if [there is still space]? / What else do you need for [the dinner]?"
+        ],
+        [
+          "道歉、推掉",
+          "I am sorry that I will not be able to [attend]. / Unfortunately, I have [an exam review session] at that time.",
+          "I'm really sorry, but I can't [come at six]."
+        ],
+        [
+          "收尾",
+          "Thank you for your help. / Thank you for considering this request. / I look forward to hearing from you.",
+          "Thanks so much! / Let me know what you think."
+        ]
+      ]
+    },
+    {
+      "id": "models",
+      "type": "model",
+      "title": "同一道题，三个档次",
+      "task": {
+        "setting": "Your study group for a biology course is scheduled to give a presentation next Tuesday. Two members of your group have just told you that they must go on a required field trip for another course that day.",
+        "lead": "Write an email to your professor, Dr. Alvarez. In your email, do the following.",
+        "bullets": [
+          "Explain why your group cannot present on the scheduled day.",
+          "Suggest another way to complete the presentation.",
+          "Ask whether your suggestion would affect your group's grade."
+        ],
+        "to": "alvarez@university.edu",
+        "subject": "Group presentation next Tuesday"
+      },
+      "responses": [
+        {
+          "score": 5,
+          "text": "Dear Dr. Alvarez,\n\nI am writing on behalf of Group 4 about our presentation on coral bleaching, which is scheduled for next Tuesday. Unfortunately, two of our four members, Lin and Marcus, have a required field trip for their geology course that day, so they will not be able to attend class.\n\nSince each of us has prepared one section, presenting without them would leave half of the content uncovered. Would it be possible for us to present on Thursday instead? If Thursday's class is already full, we could also record the presentation in advance and submit the video by Tuesday.\n\nCould you let us know whether either option would affect our grade? We are happy to follow whichever arrangement works best for the class.\n\nThank you for your understanding.\n\nBest regards,\nWei Chen",
+          "comment": "三条要求都答了，而且每条都有让教授能直接做决定的细节：谁缺席、为什么缺了就讲不完、两个备选办法各是什么。请求用的是 Would it be possible 和 Could you，对教授合适。句式有变化（定语从句、since 引导的原因、if 引导的条件），没有影响理解的错误。",
+          "notes": [
+            {
+              "quote": "I am writing on behalf of Group 4 about our presentation on coral bleaching, which is scheduled for next Tuesday.",
+              "kind": "good",
+              "note": "一句来意：哪个组、哪件事、哪一天。"
+            },
+            {
+              "quote": "two of our four members, Lin and Marcus, have a required field trip for their geology course that day",
+              "kind": "good",
+              "note": "第一条要求的细节：几个人、什么原因。用的是自己的话，题目里没有 geology 和人名。"
+            },
+            {
+              "quote": "presenting without them would leave half of the content uncovered",
+              "kind": "good",
+              "note": "讲了影响。教授读到这里就明白为什么不能少两个人照常讲。"
+            },
+            {
+              "quote": "If Thursday's class is already full, we could also record the presentation in advance and submit the video by Tuesday.",
+              "kind": "good",
+              "note": "第二条要求给了备选，还带截止时间。对方不用回信来问「那不行怎么办」。"
+            },
+            {
+              "quote": "Could you let us know whether either option would affect our grade?",
+              "kind": "good",
+              "note": "第三条要求写成了一个真正的问句，问的是一件具体的事。"
+            }
+          ]
+        },
+        {
+          "score": 3,
+          "text": "Dear teacher,\n\nI am a student of your biology class. Our group have a presentation in next Tuesday, but two members can not come because they have field trip of another course. So we can not do the presentation at that day.\n\nI suggest we do the presentation in Thursday, or we send a video to you. I think it is more convenient for everyone. Please tell me if it will influence our grade.\n\nLooking forward to your reply.\n\nWei",
+          "comment": "三条要求都碰到了，所以任务算大体完成。停在 3 分有两个原因。一是展开只做了一半：没说少两个人为什么讲不了，两个办法也没有任何条件或时间。二是错误已经到了「看得出来」的程度：主谓一致、介词、冠词各有错，称呼和请求的说法对教授也不合适。",
+          "notes": [
+            {
+              "quote": "Dear teacher,",
+              "kind": "bad",
+              "note": "题目给了 Dr. Alvarez，应写 Dear Dr. Alvarez。"
+            },
+            {
+              "quote": "Our group have a presentation in next Tuesday",
+              "kind": "bad",
+              "note": "have 应为 has；next Tuesday 前面不加介词。"
+            },
+            {
+              "quote": "they have field trip of another course",
+              "kind": "bad",
+              "note": "缺冠词，介词用错：a field trip for another course。"
+            },
+            {
+              "quote": "at that day",
+              "kind": "bad",
+              "note": "应为 on that day，或直接说 that day。"
+            },
+            {
+              "quote": "I think it is more convenient for everyone.",
+              "kind": "bad",
+              "note": "这一句没有增加信息。这里该写的是「为什么周四可行」或「视频什么时候交」。"
+            },
+            {
+              "quote": "Please tell me if it will influence our grade.",
+              "kind": "bad",
+              "note": "对教授太直接，influence 也不是这里的常用词：Could you let us know whether this would affect our grade?"
+            }
+          ]
+        },
+        {
+          "score": 2,
+          "text": "Hello professor\n\nOur group cannot presentation next Tuesday because members have trip. Can we change day? Thank you.",
+          "comment": "看得出想办这件事，但基本没起作用：第三条要求（问成绩）完全没答，另外两条各只有半句，没有任何细节。句子很短，词形和冠词都有错（cannot presentation, have trip, change day）。",
+          "notes": [
+            {
+              "quote": "cannot presentation",
+              "kind": "bad",
+              "note": "情态动词后面要动词原形：cannot give the presentation。"
+            },
+            {
+              "quote": "Can we change day?",
+              "kind": "bad",
+              "note": "没有说改到哪天，教授必须回信追问。这就是没有展开。"
+            }
+          ]
+        }
+      ],
+      "src": "题目、三篇回答和批注都是本课原创，不是官方试题。官方样题和 4 分样例见 overview 第 14–15 页。"
+    },
+    {
+      "id": "errors",
+      "type": "table",
+      "title": "最常丢分的十处",
+      "intro": "前四条丢的是「任务」和「社交惯例」的分，后六条丢的是「语言」的分。",
+      "cols": [
+        "错在哪",
+        "错的样子",
+        "改成",
+        "为什么"
+      ],
+      "rows": [
+        [
+          "漏答一条要求",
+          "三条里只写了两条，常漏最后的「问」",
+          "写完先数一遍三条",
+          "少一条，沟通目的就没达成，分数上不去。"
+        ],
+        [
+          "照搬题目的句子",
+          "I had a problem using the online submission form.",
+          "When I clicked “Submit,” the page froze.",
+          "评分只看你自己写的话。"
+        ],
+        [
+          "称呼不对人",
+          "Dear teacher, / Dear Sir or Madam,",
+          "Dear Dr. Alvarez,",
+          "给了名字不用，属于社交惯例上的失误。"
+        ],
+        [
+          "请求像命令，或者没说要对方做什么",
+          "Please reply me as soon as possible.",
+          "Could you let me know by Friday?",
+          "要点明动作，给出时间。reply 后面还缺 to。"
+        ],
+        [
+          "时态乱",
+          "I upload the file yesterday and it don't work.",
+          "I uploaded the file yesterday, but it did not work.",
+          "已经发生的事用过去时。"
+        ],
+        [
+          "情态动词、被动后面的动词形式",
+          "I am not sure if my poems can successfully sent.",
+          "I am not sure if my poems were successfully sent.",
+          "被动要有 be。官方样例就是因为这一类错误停在 4 分。"
+        ],
+        [
+          "逗号连两个完整的句子",
+          "I tried twice, it still failed.",
+          "I tried twice, but it still failed.",
+          "两个完整的句子之间要有连词，或者分成两句。"
+        ],
+        [
+          "时间前多加介词",
+          "in next Tuesday / at that day",
+          "next Tuesday / on that day",
+          "next、last、this 加时间时，前面不用介词。"
+        ],
+        [
+          "to 后面该用 -ing",
+          "I look forward to hear from you.",
+          "I look forward to hearing from you.",
+          "这个 to 是介词。"
+        ],
+        [
+          "中式搭配",
+          "I very like it. / discuss about the plan / according to my opinion",
+          "I really like it. / discuss the plan / in my opinion",
+          "very 不直接修饰动词；discuss 是及物动词。"
+        ]
+      ]
+    },
+    {
+      "id": "drill-read",
+      "type": "drill",
+      "title": "练习 1　读题",
+      "points": [
+        "coverage",
+        "register"
+      ],
+      "prompt": "读下面这道题，回答四个问题。",
+      "material": "Your roommate, Sam, is planning a surprise birthday dinner for a friend this Friday at 6 p.m. and has asked you to help cook. You have just found out that you have an exam review session at that time.\n\nWrite an email to Sam. In your email, do the following.\n• Explain why you cannot come at the planned time.\n• Suggest another way you can help.\n• Ask what Sam still needs for the dinner.",
+      "items": [
+        {
+          "q": "收件人是谁？用哪一档语气？",
+          "a": "室友，朋友那一档。Hi Sam 开头，可以用缩写，请求用 Can you 或 Could you。"
+        },
+        {
+          "q": "三条要求各要你做什么动作？",
+          "a": "explain（讲原因）、suggest（提一个替代的做法）、ask（问一件具体的事）。"
+        },
+        {
+          "q": "哪一条最容易漏？",
+          "a": "第三条。它要的是一个问句，必须真的问出来，比如 What else do you still need?"
+        },
+        {
+          "q": "这封信要办成的事是什么？",
+          "a": "推掉原定的时间，同时把忙帮上。只道歉不提替代办法，就没达成目的。"
+        }
+      ]
+    },
+    {
+      "id": "drill-purpose",
+      "type": "drill",
+      "title": "练习 2　一句来意",
+      "points": [
+        "coverage"
+      ],
+      "prompt": "给下面三种情况各写一句开头，只写来意那一句。",
+      "criteria": "合格的标准：收件人只读这一句，就知道是哪件事、你要什么。只写 I am writing to ask you a question. 不合格。",
+      "items": [
+        {
+          "q": "写给教授：实验报告周五到期，你从周二起一直生病，想延到下周一交。",
+          "a": "I am writing to ask whether I could submit my lab report on Monday instead of this Friday, as I have been ill since Tuesday."
+        },
+        {
+          "q": "写给宿舍管理员：214 房间的暖气三天没热了。",
+          "a": "I am writing about the heater in Room 214, which has not been working for the past three days."
+        },
+        {
+          "q": "写给同学 Maya：你们几个人周三晚上要开统计学习小组，想请她加入。",
+          "a": "A few of us are starting a statistics study group on Wednesday evenings, and I was wondering if you would like to join."
+        }
+      ]
+    },
+    {
+      "id": "drill-elaborate",
+      "type": "drill",
+      "title": "练习 3　加一个细节",
+      "points": [
+        "coverage"
+      ],
+      "prompt": "下面每句都太空。各补成一到两句，让收件人不用追问。",
+      "criteria": "合格的标准：补上的内容回答了「具体是什么」「什么时候」「造成什么后果」里的至少一个，而且是你自己的话。",
+      "items": [
+        {
+          "q": "I had a problem with the online form.",
+          "a": "When I clicked “Submit,” the page froze, and I never saw a confirmation message."
+        },
+        {
+          "q": "I really like your magazine.",
+          "a": "I especially enjoy the section on local poets, which introduced me to two writers I had never heard of."
+        },
+        {
+          "q": "The new schedule is inconvenient for me.",
+          "a": "I work at the campus bookstore until 5 p.m. on Thursdays, so I would miss the first half of the session."
+        }
+      ]
+    },
+    {
+      "id": "drill-request",
+      "type": "drill",
+      "title": "练习 4　把请求说对",
+      "points": [
+        "register"
+      ],
+      "prompt": "按括号里的收件人，把每句改成合适的请求。",
+      "criteria": "合格的标准：点明要对方做的那一个动作；对不熟或地位高的人用 Could you、Would it be possible、I would appreciate it if；需要时给出时间。",
+      "items": [
+        {
+          "q": "（教授）Send me the slides.",
+          "a": "Could you please share the slides from Monday's lecture?"
+        },
+        {
+          "q": "（图书馆员）I want to borrow this book longer.",
+          "a": "Would it be possible to extend the loan for this book by one week?"
+        },
+        {
+          "q": "（教授）Tell me my grade quickly.",
+          "a": "Could you let me know when the grades will be available?"
+        },
+        {
+          "q": "（室友）You must clean the kitchen.",
+          "a": "Could you clean the kitchen before Friday? My parents are visiting that evening."
+        },
+        {
+          "q": "（活动协调员）Reply me as soon as possible.",
+          "a": "I would appreciate it if you could reply by Wednesday, as I need to book my train ticket."
+        }
+      ]
+    },
+    {
+      "id": "drill-correct",
+      "type": "drill",
+      "title": "练习 5　改错",
+      "points": [
+        "accuracy"
+      ],
+      "prompt": "每句有一处错。改过来，并说出规则。",
+      "items": [
+        {
+          "q": "I very like the new schedule.",
+          "a": "I really like the new schedule.　very 不直接修饰动词。"
+        },
+        {
+          "q": "Our group have finished the first part.",
+          "a": "Our group has finished the first part.　group 当一个整体，用单数。"
+        },
+        {
+          "q": "I uploaded the file yesterday, it did not go through.",
+          "a": "I uploaded the file yesterday, but it did not go through.　两个完整的句子不能只用逗号连。"
+        },
+        {
+          "q": "I am not sure if my poems can successfully sent.",
+          "a": "I am not sure if my poems were successfully sent.　被动要有 be；事情已经发生，用过去时。"
+        },
+        {
+          "q": "I look forward to hear from you.",
+          "a": "I look forward to hearing from you.　这个 to 是介词，后面用 -ing。"
+        },
+        {
+          "q": "Please reply me before Friday.",
+          "a": "Please reply to me before Friday.　reply 后面要有 to。"
+        },
+        {
+          "q": "The meeting is in next Tuesday.",
+          "a": "The meeting is next Tuesday.　next 加时间，前面不用介词。"
+        },
+        {
+          "q": "We discussed about the problem last week.",
+          "a": "We discussed the problem last week.　discuss 后面直接跟宾语。"
+        }
+      ]
+    },
+    {
+      "id": "marking",
+      "type": "marking",
+      "title": "批改单：每次都按这个格式给",
+      "format": [
+        {
+          "t": "一、题目的要求",
+          "d": "逐条判：做到了、做了但太薄、没做。每条引你的一句原话作依据。"
+        },
+        {
+          "t": "二、分数档",
+          "d": "0–5 分里的一档，加一句理由。理由用评分标准里的说法，不另造标准。"
+        },
+        {
+          "t": "三、必改的地方",
+          "d": "最多五处，按对理解的影响从大到小排。每处三样：你的原句、改后的句子、一句规则。拼写小错不满三处不提。"
+        },
+        {
+          "t": "四、升一档",
+          "d": "从你的信里挑一段重写，示范怎么把细节补上，或者把话说准。只改一段，不替你重写全文。"
+        },
+        {
+          "t": "五、回去练",
+          "d": "指回前面的某一个练习。"
+        }
+      ],
+      "rules": "批改单里不写鼓励的话，也不评价你这个人。分数只是对照评分标准的估计，和正式考试的评分引擎不是同一个东西。",
+      "example": {
+        "about": "下面拿「三个档次」里那封 3 分的信做一次示范。",
+        "coverage": [
+          {
+            "bullet": "Explain why your group cannot present on the scheduled day.",
+            "verdict": "做了但太薄",
+            "quote": "two members can not come because they have field trip of another course",
+            "note": "原因有了。少两个人为什么就讲不了，没有说。"
+          },
+          {
+            "bullet": "Suggest another way to complete the presentation.",
+            "verdict": "做了但太薄",
+            "quote": "I suggest we do the presentation in Thursday, or we send a video to you.",
+            "note": "办法有两个，都没有条件和时间。"
+          },
+          {
+            "bullet": "Ask whether your suggestion would affect your group's grade.",
+            "verdict": "做到了",
+            "quote": "Please tell me if it will influence our grade.",
+            "note": "问了，说法对教授偏直接。"
+          }
+        ],
+        "score": 3,
+        "reason": "任务大体完成；展开只是部分支持写信的目的；句子结构、词形和社交惯例上有看得出来的错误。",
+        "fixes": [
+          {
+            "from": "Our group have a presentation in next Tuesday",
+            "to": "Our group has a presentation next Tuesday",
+            "rule": "group 当整体用单数；next 加时间前不用介词。"
+          },
+          {
+            "from": "they have field trip of another course",
+            "to": "they have a field trip for another course",
+            "rule": "可数名词单数要有冠词；「某门课的」用 for。"
+          },
+          {
+            "from": "Dear teacher,",
+            "to": "Dear Dr. Alvarez,",
+            "rule": "题目给了头衔和姓就用它。"
+          },
+          {
+            "from": "Please tell me if it will influence our grade.",
+            "to": "Could you let us know whether this would affect our grade?",
+            "rule": "对教授用 Could you；「影响成绩」说 affect。"
+          },
+          {
+            "from": "at that day / in Thursday",
+            "to": "on that day / on Thursday",
+            "rule": "具体的某一天用 on。"
+          }
+        ],
+        "upgrade": {
+          "from": "I suggest we do the presentation in Thursday, or we send a video to you. I think it is more convenient for everyone.",
+          "to": "Would it be possible for us to present on Thursday instead? If Thursday's class is already full, we could record the presentation and send you the video by Tuesday.",
+          "why": "两个办法各补了一个条件或时间，教授可以直接选。原来第二句没有信息，删掉。"
+        },
+        "next": "练习 3（加一个细节）和练习 5（改错）。"
+      }
+    },
+    {
+      "id": "timed",
+      "type": "write",
+      "title": "限时写作",
+      "minutes": 7,
+      "points": [
+        "coverage",
+        "register",
+        "accuracy"
+      ],
+      "intro": "七分钟，计时器走完就交卷。批改单会按上一张卡的格式给。隔一天换一道题再写；两道不同的题都到 4 分，这一课才算学会。",
+      "tasks": [
+        {
+          "id": "workshop",
+          "purpose": "讲问题，问状态（社交场景）",
+          "setting": "You signed up online for a weekend photography workshop at your city's community center and paid the fee. However, you have not received a confirmation email, and the workshop begins this Saturday.",
+          "lead": "Write an email to the workshop coordinator, Ms. Rivera. In your email, do the following.",
+          "bullets": [
+            "Explain why you are interested in the workshop.",
+            "Describe what happened when you registered.",
+            "Ask what you should do before Saturday."
+          ],
+          "to": "rivera@cityarts.org",
+          "subject": "Photography workshop registration",
+          "must": [
+            "一个具体的兴趣来由：想学什么、为什么是现在。",
+            "报名的经过：哪天、做了什么、没收到什么。最好有一处能核对的事实，比如已经扣款。",
+            "一个真正的问句，问周六之前要做什么，最好给出一两个你能做的选项。"
+          ],
+          "model": "Dear Ms. Rivera,\n\nI recently signed up for the weekend photography workshop, and I am really looking forward to it. I have just bought my first camera, so a class on lighting and composition is exactly what I need.\n\nHowever, I am not sure that my registration went through. I completed the online form and paid the fee last Monday, and the payment appears on my bank statement, but I never received a confirmation email.\n\nSince the workshop starts this Saturday, could you please check whether my name is on the list? If there is anything I need to do before then, such as filling out the form again or bringing proof of payment, please let me know.\n\nThank you for your help.\n\nSincerely,\nWei Chen"
+        },
+        {
+          "id": "panel",
+          "purpose": "发邀请（校园场景）",
+          "setting": "You are a member of your university's environmental club. The club is organizing a panel discussion on campus recycling next month, and the members would like Professor Okafor, who teaches environmental policy, to be one of the speakers.",
+          "lead": "Write an email to Professor Okafor. In your email, do the following.",
+          "bullets": [
+            "Describe the event.",
+            "Explain why the club would like the professor to take part.",
+            "Ask about the professor's availability."
+          ],
+          "to": "okafor@university.edu",
+          "subject": "Invitation to a panel discussion",
+          "must": [
+            "活动的基本信息：主题、日期或时间、地点或规模里至少两样。",
+            "一个具体的理由，和这位教授本人有关，不能是「您很有名」这样的空话。",
+            "一个问时间的问句，最好留出改期的余地。"
+          ],
+          "model": "Dear Professor Okafor,\n\nI am writing on behalf of the Green Campus Club. On March 14, we are holding a panel discussion called “Where Does Our Recycling Go?” in the student center, followed by a short question-and-answer session.\n\nWe would be honored if you could join the panel. Several of our members took your environmental policy course last year, and your lecture on city waste programs is the reason we chose this topic.\n\nThe event is planned for 5 p.m. and should last about an hour. Would you be available at that time? If not, we would be glad to move it to a day that suits you better.\n\nThank you for considering our invitation.\n\nBest regards,\nWei Chen"
+        },
+        {
+          "id": "library",
+          "purpose": "提建议（校园场景）",
+          "setting": "The library at your university is asking students for ideas about how to improve its study spaces. You study in the library several times a week and have noticed a problem.",
+          "lead": "Write an email to the library director, Mr. Hughes. In your email, do the following.",
+          "bullets": [
+            "Describe the problem you have noticed.",
+            "Recommend a change.",
+            "Explain how the change would help students."
+          ],
+          "to": "hughes@university.edu",
+          "subject": "Suggestion for the study spaces",
+          "must": [
+            "一个你亲眼见到的具体问题：在哪、什么时候、什么样。",
+            "一个可以执行的改动，说得出怎么做。",
+            "改了之后的好处，至少一条，要和前面的问题对得上。"
+          ],
+          "model": "Dear Mr. Hughes,\n\nThank you for inviting students to share ideas about the library. I study on the third floor three or four evenings a week, and I have noticed that the group study rooms are often occupied by one person with a laptop, while groups of four or five end up working in the hallway.\n\nI would recommend adding a simple online booking system that gives priority to groups of three or more and limits each booking to two hours. Individual students could still use the rooms whenever no group has reserved them.\n\nThis change would make it much easier for groups to prepare presentations, and it would also reduce the noise in the quiet reading areas, where many groups currently meet.\n\nThank you for considering this suggestion.\n\nSincerely,\nWei Chen"
+        }
+      ],
+      "more": {
+        "kind": "email",
+        "topics": [
+          "健身房会员费被重复扣了一次",
+          "借来的图书馆书找不到了，下周到期",
+          "想把期中考试改到另一天，因为要参加比赛",
+          "宿舍楼上的邻居深夜很吵",
+          "网上订的教材送错了版本",
+          "向没见过面的学长请教选课",
+          "邀请同学参加周末的校园清洁活动",
+          "实习面试的时间和课撞了，想改时间",
+          "向房东报告厨房水龙头漏水",
+          "给社团指导老师推荐一个新活动",
+          "朋友帮你搬了家，写信感谢并约吃饭",
+          "小组里有人一直不交自己的部分",
+          "向教授要一封推荐信",
+          "订好的自习室被别人占了，向图书馆反映",
+          "食堂新菜单没有素食，写信提建议",
+          "错过了报名截止日期，问还能不能补报",
+          "邀请留学生办公室的老师来参加文化节",
+          "借同学的相机，把镜头盖摔坏了",
+          "向打工的咖啡店经理请两天假",
+          "校车改了时刻表，赶不上早课"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+ "id": "listening-conversation-detail",
+ "title": "对话事实细节题",
+ "goal": "提取指定人物的事实，并核对时间和条件。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "detail", "label": "提取指定人物的事实信息"},
+  {"id": "condition", "label": "核对事实的时间和适用条件"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "长对话教学依据"}],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "事实细节题询问录音中明确说出的信息，包括工作职责、活动安排和学习经历。题干里的人物、动作和时间决定要找的是哪一句。"},
+   {"p": "正确选项常换一种说法表达同一事实，如 prepare a schedule 改写为 make a timetable。核对时，做事的人和动作的对象都不能变。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定所问对象", "d": "先辨认题干指定的人物和事项。What does Lee do 问 Lee 的职责。"},
+   {"t": "2　定位完整信息", "d": "听取动作及其对象。Lee prepares the schedule 指 Lee 负责准备日程。"},
+   {"t": "3　核对时间和条件", "d": "分开过去、现在和备选计划。last year 与 now 对应不同时间。"},
+   {"t": "4　比较选项", "d": "看选项改写后，人物、动作和对象是否都没有变。make a timetable 与 prepare a schedule 表达相同的职责。"}
+  ]},
+  {"id": "facts", "type": "table", "title": "事实与条件", "cols": ["类别", "依据", "例句"], "rows": [
+   ["工作职责", "人物及负责的动作", "Lee prepares the schedule."],
+   ["活动安排", "行动、地点与时间", "The meeting is in the hall on Friday."],
+   ["过去经历", "过去的行动及时间", "I studied design last year."],
+   ["当前情况", "目前正在做的事", "I now work in the design office."],
+   ["备选计划", "计划成立的条件", "If it rains, we'll use the hall."]
+  ], "note": "条件要和行动一起记。If it rains 说明只有下雨时才用大厅。"},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "Tara: What will your team do at the book fair, Ali?\nAli: I prepare the list of books for visitors. Ren handles the payments. We worked together at the art fair last year, but then I collected tickets.\nTara: Where will the book fair take place?\nAli: In the hall on Saturday. If it is unavailable, we'll use the library room instead."},
+   {"box": "What is Ali's responsibility at the book fair?\n1. To collect visitors' tickets\n2. To make a list of books\n3. To handle visitors' payments\n4. To reserve the library room"},
+   {"p": "依据是 I prepare the list of books。Ali 负责制作书目，第二项是同义改写。第一项 collect tickets 是他去年的工作。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "核对方法", "例"], "rows": [
+   ["对象错置", "核对负责该动作的人", "Ren handles payments. → Ali handles payments"],
+   ["时间错置", "分开过去和现在", "I collected tickets last year. → I collect them now"],
+   ["条件遗漏", "保留备选计划的条件", "If the hall is unavailable, use the library."],
+   ["信息不全", "同时核对行动和对象", "List books for visitors. → list visitors"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["detail", "condition"], "groups": [
+   {"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "Jin, are you preparing the guest list?"}, {"who": "B", "text": "No, Sara is doing that. I'm arranging the chairs."}]}, "items": [{"stem": "What is Jin responsible for?", "options": ["Putting the chairs in place", "Preparing the guest list", "Inviting Sara to the event", "Checking the list of chairs"], "answer": 0, "why": "Jin 说 I'm arranging the chairs，第一项把 arranging 改写为 putting in place。", "point": "detail"}]},
+   {"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "Did you study French this year, Noor?"}, {"who": "B", "text": "I studied French last year. This year I'm taking a Spanish course."}]}, "items": [{"stem": "What is Noor studying this year?", "options": ["A French course from last year", "A course in the Spanish language", "A course for French teachers", "A Spanish course planned for next year"], "answer": 1, "why": "This year I'm taking a Spanish course 明确说明当前课程，第二项符合。", "point": "condition"}]},
+   {"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "Will the picnic be in the garden?"}, {"who": "B", "text": "Yes, unless it rains. If it does, we'll meet in the hall."}]}, "items": [{"stem": "When will the group meet in the hall?", "options": ["When the weather stays dry", "When the garden is too crowded", "When it rains on the picnic day", "When the picnic in the garden ends"], "answer": 2, "why": "If it does 里的 does 指下雨，下雨才去大厅，即第三项。", "point": "condition"}]},
+   {"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "I asked Rosa to print the programs, and she agreed."}, {"who": "B", "text": "Good. I'll hand them out at the entrance."}]}, "items": [{"stem": "What will Rosa do?", "options": ["Hand out the programs at the entrance", "Ask someone else to print the programs", "Collect programs after the event", "Print the programs as she was asked"], "answer": 3, "why": "依据是 I asked Rosa to print the programs, and she agreed，Rosa 会打印节目单，即第四项。第一项在入口发节目单的是另一位说话人。", "point": "detail"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["detail", "condition"], "groups": [
+   {"audio": {"intro": "Listen to a conversation.", "lines": [
+    {"who": "A", "text": "Mina, are you teaching the photography class again this spring?"},
+    {"who": "B", "text": "Not this spring. I taught the beginner class last autumn, but now I manage the equipment room."},
+    {"who": "A", "text": "I'm taking the new class. Where can students borrow cameras?"},
+    {"who": "B", "text": "Come to the equipment room on Tuesday or Thursday. Students may borrow a camera if they bring their student card."},
+    {"who": "A", "text": "I'll bring mine on Thursday. My class ends too late on Tuesday."}
+   ]}, "items": [
+    {"stem": "What does Mina do now?", "options": ["Teaches the beginner photography class", "Takes care of the equipment room", "Studies photography on Thursdays", "Provides student cards for the class"], "answer": 1, "why": "now I manage the equipment room 说明 Mina 目前管理器材室，第二项符合。", "point": "detail"},
+    {"stem": "What must students bring to borrow a camera?", "options": ["A photograph from the beginner class", "An equipment list from last autumn", "A card identifying them as students", "A camera used in the Tuesday class"], "answer": 2, "why": "if they bring their student card 给出借相机的条件，第三项符合。", "point": "condition"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 8, "pass": 0.75, "points": ["detail", "condition"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to a conversation.", "lines": [
+    {"who": "A", "text": "Hello, Grace. Have you decided what you'll do at the weekend food festival? The organizers are still matching volunteers with jobs, and I saw your name on the list this morning."},
+    {"who": "B", "text": "Yes, Oliver. I'll welcome visitors at the entrance on Saturday. Last year I helped in the kitchen, but this time I wanted a job where I could speak to more people."},
+    {"who": "A", "text": "That sounds enjoyable. I'll be at the information table, answering questions about the cooking demonstrations. We were going to put the table beside the entrance, but it will be next to the garden instead."},
+    {"who": "B", "text": "Then visitors can ask you about the demonstrations after they enter. Have the cooks agreed on the times? I heard one of them wanted to start earlier than planned."},
+    {"who": "A", "text": "They have. The first demonstration begins at eleven, and the second begins at two. The earlier suggestion was ten, but the kitchen team needs more preparation time in the morning."},
+    {"who": "B", "text": "I'll make sure the entrance signs show the final times. Can visitors join the demonstrations without booking a place, or do they need to register?"},
+    {"who": "A", "text": "They can watch without registering. Anyone who wants to cook alongside the instructors must register at my table, because there are only twelve places for the practical part."},
+    {"who": "B", "text": "That's clear. I'll direct people who want a practical place to your table. I can also tell the kitchen team when the first visitors arrive, so they know when to expect a crowd."}
+   ]}, "items": [
+    {"stem": "What will Grace do on Saturday?", "options": ["Answer questions beside the garden", "Prepare food with the kitchen team", "Greet people arriving at the entrance", "Lead the first cooking demonstration"], "answer": 2, "why": "Grace 说 I'll welcome visitors at the entrance on Saturday，第三项是同义改写。", "point": "detail"},
+    {"stem": "Where will Oliver work during the festival?", "options": ["At the entrance to the kitchen", "At a table placed next to the garden", "At a table beside the entrance", "At the demonstration area in the kitchen"], "answer": 1, "why": "信息台原计划放在入口旁，it will be next to the garden 是最终地点，第二项符合。", "point": "condition"},
+    {"stem": "Who must register at the information table?", "options": ["Visitors who want to cook with instructors", "Visitors who only want to watch the cooks", "Volunteers welcoming people at the entrance", "Cooks who begin the first demonstration"], "answer": 0, "why": "Anyone who wants to cook alongside the instructors must register，第一项保留参加实践的条件。", "point": "condition"}
+   ]},
+   {"audio": {"intro": "Listen to a conversation.", "lines": [
+    {"who": "A", "text": "Hi, Felix. I heard you've joined the local radio station. Are you presenting the morning program now? I remember you studied radio production at college two years ago."},
+    {"who": "B", "text": "Hello, Hana. I don't present programs. I select music for the afternoon show. The presenter, Jules, introduces each song and interviews the guests who come to the studio."},
+    {"who": "A", "text": "That must involve a lot of planning. I chose music for a student film once, and it took me several evenings. Do you select everything on the same day it is broadcast?"},
+    {"who": "B", "text": "No, I make the list on Monday for the following week. Jules then checks it on Tuesday, and we discuss any changes before sending the final list to the sound engineer."},
+    {"who": "A", "text": "Does the engineer work in the studio during the interviews as well? I've been thinking about visiting the station with our media club, and some members are interested in sound."},
+    {"who": "B", "text": "Yes, the engineer works there during the live show. Visitors can watch from the next room on Fridays, provided they contact the station before Thursday afternoon to arrange a visit."},
+    {"who": "A", "text": "That should work for us. Our club meets on Wednesdays, so I'll ask the members then and contact the station afterward. We might also prepare a few questions for the staff."},
+    {"who": "B", "text": "Please do. The staff can answer questions after the broadcast finishes. I'll tell Jules that your group may visit, and the engineer can explain how the equipment is used in the studio."}
+   ]}, "items": [
+    {"stem": "What is Felix's current job at the station?", "options": ["Introducing songs on the morning program", "Interviewing guests for a student film", "Operating sound equipment during interviews", "Choosing music for an afternoon program"], "answer": 3, "why": "Felix 说 I select music for the afternoon show，第四项改写了他的职责。", "point": "detail"},
+    {"stem": "When does Felix prepare the music list?", "options": ["On Monday for the following week", "On Tuesday after the live interview", "On Friday for the broadcast that day", "On Wednesday after the club meeting"], "answer": 0, "why": "I make the list on Monday for the following week 同时给出制作日和适用时间，第一项符合。", "point": "condition"},
+    {"stem": "What must the media club do to visit on Friday?", "options": ["Interview the guests during the show", "Choose music before the next broadcast", "Contact the station before Thursday afternoon", "Meet the sound engineer on Wednesday"], "answer": 2, "why": "provided they contact the station before Thursday afternoon 是参观条件，第三项对应联系期限。", "point": "condition"}
+   ]}
+  ]}]} 
+ ]
+}

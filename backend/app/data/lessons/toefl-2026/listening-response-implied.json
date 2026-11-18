@@ -1,0 +1,616 @@
+{
+ "id": "listening-response-implied",
+ "title": "陈述句的言外之意",
+ "goal": "判断陈述句的交际意图，并选择与困难、情绪和消息相符的回应。",
+ "skill": "listening",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 听力",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "intent",
+   "label": "判断陈述句期待的回应类型"
+  },
+  {
+   "id": "reply",
+   "label": "选出符合语境的回应"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、录音长度、只放一遍"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "各题型的说明、考查的能力、官方样题"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Listening Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-listening.pdf",
+   "used": "第 1 课：四类题的说明和小测答案；第 2、4 课：应答配对、重音和语调"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "陈述句除了说明事实，还常用来表达困难、抱怨、道歉或感谢。合适的回应要接住这句话的用意，只谈同一话题不算回应。"
+    },
+    {
+     "box": "I can't get this lid off. → Let me try loosening it.\nI'm sorry I chipped your bowl. → It's all right; it was already cracked."
+    },
+    {
+     "p": "负面的陈述不都是求助。I’m sorry I chipped your bowl 是道歉，要回应道歉。I can’t get this lid off 是困难，要提供帮助。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　找出态度与状态",
+     "d": "先抓 can’t、sorry、thanks、again 等词，再看整句。The latch is stuck 是困难，I’m sorry I broke the latch 是道歉。"
+    },
+    {
+     "t": "2　确定回应类型",
+     "d": "困难、抱怨、道歉、感谢和消息，各要一种回应。I finally qualified for the final 是好消息，回应用 Congratulations。"
+    },
+    {
+     "t": "3　核对对象与结果",
+     "d": "看帮助是否针对原来的问题，情绪是否和消息相符。The latch is stuck 后接 Let me loosen it 合适。I repaired a different latch 说的是另一个插销。"
+    }
+   ]
+  },
+  {
+   "id": "intent",
+   "type": "table",
+   "title": "陈述句与回应",
+   "cols": [
+    "类型",
+    "回应",
+    "例"
+   ],
+   "rows": [
+    [
+     "困难",
+     "针对眼前的问题提出建议或帮助。",
+     "I can't reach the valve. → I'll get a step stool."
+    ],
+    [
+     "抱怨",
+     "认可不便，或提出改进的办法。",
+     "The tap keeps dripping. → Let's report it to maintenance."
+    ],
+    [
+     "道歉",
+     "接受道歉，可以再说怎么补救。",
+     "Sorry I spilled the juice. → That's all right; I'll get a cloth."
+    ],
+    [
+     "感谢",
+     "用客气话回应感谢。",
+     "Thanks for checking the measurements. → Glad I could help."
+    ],
+    [
+     "好消息",
+     "表示祝贺或高兴。",
+     "I've been chosen for the orchestra. → Congratulations."
+    ],
+    [
+     "坏消息",
+     "表示遗憾，或提供实际的帮助。",
+     "My entry wasn't accepted. → I'm sorry to hear that."
+    ],
+    [
+     "安排信息",
+     "表示知道了，或据此调整安排。",
+     "The tutor will call after six. → I'll keep my phone nearby."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "I can't read the tiny numbers on this pressure gauge."
+    },
+    {
+     "box": "Choose the best response.\n1. Don't worry; it was already broken.\n2. I read the instruction sheet yesterday.\n3. The numbers run around the edge.\n4. Here's a magnifying glass that might help."
+    },
+    {
+     "p": "can’t read 和 tiny numbers 说明困难在于数字太小。第四项递上放大镜，正好解决看不清的问题。"
+    },
+    {
+     "p": "第一项把困难当成道歉来回应，还断定仪表坏了。第二项把读数字换成了读说明书，第三项只介绍数字的位置。这三项都没有解决看不清的问题。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "只复述事实",
+     "Thanks for measuring it. → I measured it.",
+     "感谢要用客气话回应，不是确认做过这件事。"
+    ],
+    [
+     "套语错配",
+     "Sorry I spilled it. → You're welcome.",
+     "区分道歉与感谢。"
+    ],
+    [
+     "对象替换",
+     "I can't read the gauge. → I read the manual.",
+     "核对困难针对的是哪件东西。"
+    ],
+    [
+     "结果反转",
+     "My entry wasn't accepted. → Congratulations.",
+     "听清否定词，分清结果是好是坏。"
+    ],
+    [
+     "推断过度",
+     "The numbers are tiny. → The gauge is broken.",
+     "看不清是因为数字小，不是仪表坏了。"
+    ]
+   ]
+  },
+  {
+   "id": "check-intent",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "intent"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I can't fasten this necklace on my own."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "Let me do the clasp for you.",
+        "Thanks, but I can manage it alone.",
+        "I fastened my coat earlier.",
+        "The necklace is silver."
+       ],
+       "answer": 0,
+       "why": "can’t fasten 说明自己戴不上项链，第一项提出帮对方扣上。第二项像在谢绝别人的帮助，把说话人弄反了。",
+       "point": "intent"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The queue at this ticket machine hardly moves."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "The tickets have printed numbers.",
+        "Congratulations; that's great news for you.",
+        "It's frustrating; let's try the staffed counter.",
+        "Good, I'm glad the machine is working so well today."
+       ],
+       "answer": 2,
+       "why": "hardly moves 是在抱怨队伍太慢。第三项先认可不便，再提出去人工窗口。第四项把抱怨听成了满意。",
+       "point": "intent"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I'm sorry I knocked over your model tower."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "The tower is taller than the house.",
+        "It's all right; we can rebuild that section.",
+        "You're welcome; it was no trouble at all.",
+        "Sorry, I'll be more careful next time."
+       ],
+       "answer": 1,
+       "why": "I’m sorry 是为碰倒模型道歉。第二项接受道歉，并提出重搭那一段。第四项是回答的人在道歉，说话人弄反了。",
+       "point": "intent"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Thanks for explaining the rules of the card game."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "Congratulations; you played really well tonight.",
+        "I explained a different game yesterday.",
+        "The rules are in the box.",
+        "You're welcome; I hope the next round is easier."
+       ],
+       "answer": 3,
+       "why": "Thanks for explaining 是道谢，第四项用 You’re welcome 回应。第一项是对好消息的回应，接不上道谢。",
+       "point": "intent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-reply",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "reply"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "My short story has been accepted by the magazine."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "The magazine comes out monthly.",
+        "I'm sorry to hear that; you can try another magazine.",
+        "You're welcome; I was glad to help you.",
+        "Congratulations; that's a real achievement."
+       ],
+       "answer": 3,
+       "why": "has been accepted 是好消息，第四项用 Congratulations 祝贺。第二项把好消息听成了坏消息。",
+       "point": "reply"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The workshop won't repair my old camera."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "What a pity; let's try another repair shop.",
+        "Congratulations; you must be really pleased.",
+        "Great, so you can collect it tomorrow morning.",
+        "The repair shop opened last month."
+       ],
+       "answer": 0,
+       "why": "won’t repair 是坏消息。第一项表示遗憾，并提出另找一家店修。第三项没听到 won’t，把结果弄反了。",
+       "point": "reply"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The carpet cleaner is coming early tomorrow."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "The carpet is darker than the curtains.",
+        "The cleaner came last summer.",
+        "Then I'll move the chairs out tonight.",
+        "Oh no, I'm so sorry to hear that."
+       ],
+       "answer": 2,
+       "why": "coming early tomorrow 是一项安排。第三项据此决定今晚先把椅子搬走。",
+       "point": "reply"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the speaker.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I can't find the right socket for this bolt."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "The bolt came in a small box.",
+        "Try the next size up; that one's too small.",
+        "You're welcome; it was no trouble to find it.",
+        "Yes, I found the right one yesterday."
+       ],
+       "answer": 1,
+       "why": "can’t find the right socket 是找不到合适的套筒。第二项建议换大一号，针对的正是这个困难。",
+       "point": "reply"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 5,
+   "pass": 0.75,
+   "points": [
+    "intent",
+    "reply"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The zipper on this sleeping bag won't close."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "The bag was delivered on Tuesday.",
+          "Don't worry; I know you didn't mean to.",
+          "Let's see if the fabric is caught.",
+          "I closed the tent an hour ago."
+         ],
+         "answer": 2,
+         "why": "won’t close 说明拉链拉不上。第三项提出先看看是不是夹住了布，是针对这个困难的帮助。",
+         "point": "intent"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "We've had to fill out this same survey three times."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "How annoying; I'll ask why it keeps coming.",
+          "The survey contains twelve questions.",
+          "Great, I'm glad you enjoy filling it out so much.",
+          "You're welcome; I sent it to you myself."
+         ],
+         "answer": 0,
+         "why": "same survey three times 是在抱怨重复填表。第一项认可不便，并说会去问原因。第三项把抱怨听成了喜欢。",
+         "point": "intent"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'm sorry I returned the rented skates with a broken lace."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "The rental includes a helmet.",
+          "I'm sorry; I'll pay for the new lace.",
+          "You're welcome; enjoy the rest of your day.",
+          "That's fine; we can replace the lace here."
+         ],
+         "answer": 3,
+         "why": "I’m sorry 是为鞋带断了道歉。第四项接受道歉，并说店里可以换鞋带。第二项是回答的人在道歉，说话人弄反了。",
+         "point": "intent"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Thanks for watering my balcony plants while I was away."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "The balcony faces the courtyard.",
+          "Happy to help; they stayed in good shape.",
+          "Don't worry; it wasn't your fault at all.",
+          "I was away for a week last spring."
+         ],
+         "answer": 1,
+         "why": "Thanks for watering 是道谢。第二项用 Happy to help 回应，并说花草长得不错。第三项是回应道歉的话。",
+         "point": "intent"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The panel has selected my proposal for the neighborhood mural."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "Congratulations; I can't wait to see it.",
+          "The panel meets on Wednesdays.",
+          "I'm sorry; maybe they'll choose it next year.",
+          "Thanks, I'll paint it for you this weekend."
+         ],
+         "answer": 0,
+         "why": "has selected 说明方案被选中，是好消息，第一项表示祝贺。第三项把选中听成了落选。",
+         "point": "reply"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Our rowing race has been canceled because of the wind."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "Congratulations; you must be very proud.",
+          "The wind often changes in spring.",
+          "That's a shame; we had prepared for weeks.",
+          "Good, then I'll see you at the starting line."
+         ],
+         "answer": 2,
+         "why": "has been canceled 是比赛取消的坏消息，第三项表示遗憾。第四项没听到取消，仍按比赛照常来回应。",
+         "point": "reply"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The new rug is arriving this afternoon."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "The rug is woven from wool.",
+          "Then let's clear the floor before it comes.",
+          "Thanks, but I already returned it yesterday.",
+          "You're welcome; it was no trouble at all."
+         ],
+         "answer": 1,
+         "why": "arriving this afternoon 是送货的安排。第二项据此提出在送到前把地面腾空。",
+         "point": "reply"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'm unable to open the latch on this lunchbox."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "The lunchbox contains two compartments.",
+          "I opened the kitchen door earlier.",
+          "You're welcome; I packed it for you.",
+          "Let me try pressing the release button."
+         ],
+         "answer": 3,
+         "why": "unable to open the latch 说明打不开搭扣。第四项提出按一下开启按钮，是对应的帮助。第二项说的是另一扇门。",
+         "point": "reply"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

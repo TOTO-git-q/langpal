@@ -1,0 +1,33 @@
+{
+ "id":"translation-parallel","title":"并列结构的对称","goal":"能识别并列层次并排列对称的结构。","skill":"翻译","exam":"大学英语六级（CET-6）","mastery":"once",
+ "points":[{"id":"level","label":"确定并列成分的共同层次"},{"id":"form","label":"排列形式对称的并列结构"}],
+ "sources":[{"id":"c2","title":"大学英语六级考试大纲","url":"https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf","used":"翻译课程内容依据"}],
+ "cards":[
+  {"id":"overview","type":"text","title":"概述","body":[{"p":"并列的成分属于同一语法层次。名词和名词并列，动词短语和动词短语并列，分句和分句并列。几个成分共用的主语或介词只写一次；不能共用时分别写出。"},{"box":"原文：博物馆收藏地图和照片，并举办讲座。\n译文：The museum collects maps and photographs and holds lectures."}]},
+  {"id":"types","type":"table","title":"并列层次","cols":["层次","原文","译文"],"rows":[["名词并列","档案馆保存古老的信件和地图。","The archive preserves old letters and maps."],["名词并列","学生讨论了材料的来源与用途。","Students discussed the sources and uses of the material."],["动词短语并列","志愿者整理照片并记录拍摄日期。","Volunteers sorted the photographs and recorded when each was taken."],["动词短语并列","农户收集雨水并用它灌溉菜园。","Farmers collect rainwater and use it to water gardens."],["分句并列","白天温度升高，夜间温度下降。","The temperature rises during the day, and it falls at night."],["分句并列","村民修复了桥梁，学校重新开放了。","Villagers repaired the bridge, and the school reopened."]] },
+  {"id":"shared","type":"table","title":"共享与重复","cols":["情况","原文","译文"],"rows":[["共享主语","工匠清理并修复了这些古老的工具。","Craftspeople cleaned and restored the old tools."],["不同主语","工匠清理工具，学生整理照片。","Craftspeople cleaned the tools, and students sorted photographs."],["共享介词","馆长谈论了地图的来源和用途。","The curator talked about the origins and uses of the maps."],["不同介词","学生查阅了地图并在地图上做标记。","Students consulted the maps and made marks on them."]] },
+  {"id":"paired","type":"table","title":"成对连词","cols":["结构","原文","译文"],"rows":[["both 名词 and 名词","学校既保存照片又保存信件。","The school preserves both photographs and letters."],["both 动词 and 动词","村民既种植茶树又加工茶叶。","Villagers both grow tea plants and process tea leaves."],["not only 名词 but also 名词","展览不仅展示地图，也展示航海工具。","The exhibition displays not only maps but also navigation tools."],["not only 动词 but also 动词","研究人员不仅收集数据，还分析结果。","Researchers not only collect data but also analyze the results."]] },
+  {"id":"practice-a","type":"check","title":"练习一","points":["level","form"],"groups":[{"items":[
+   {"stem":"原文：学生收集旧照片并整理旧信件。选择译句。","options":["Students collect old photographs and sort old letters.","Students collect old photographs and sorting old letters.","Students collecting old photographs and sort old letters.","Students collect old letters and sort old photographs."],"answer":0,"why":"collect 和 sort 是并列谓语，分别对应收集和整理。","point":"level"},
+   {"stem":"原文：图书馆既收藏地图，也收藏地方报纸。选择译句。","options":["The library holds both maps and collects local newspapers.","The library holds both maps and local newspapers.","The library holds both local maps and newspapers.","The library both holds maps and local newspapers."],"answer":1,"why":"地图和地方报纸都是收藏的对象。第二项把 both 放在 maps 前，both maps and local newspapers 都作 holds 的宾语。第四项的 both 放在了动词前，后面却接名词。","point":"form"}
+  ]}]},
+  {"id":"practice-b","type":"check","title":"练习二","points":["level","form"],"groups":[{"items":[
+   {"stem":"原文：农民种植蔬菜，工匠制作木制家具。排列译句。","lead":"Farmers","chunks":["grow vegetables,","and craftspeople","make wooden","furniture"],"tail":".","extra":["making"],"why":"两个分句各有主语和谓语，由 and 连接。","point":"level"},
+   {"stem":"原文：博物馆不仅保存文物，还举办公开讲座。排列译句。","lead":"The museum","chunks":["not only preserves","artifacts","but also holds","public lectures"],"tail":".","extra":["holding"],"why":"not only 和 but also 后分别接动词短语。","point":"form"}
+  ]}]},
+  {"id":"practice-c","type":"check","title":"练习三","points":["level","form"],"groups":[{"items":[
+   {"stem":"原文：工人检查屋顶并清理排水沟。选择译句。","options":["Workers inspect the drains and clean the roof.","Workers inspect the roof and cleaning the drains.","Workers inspect the roof and clean the drains.","Workers inspecting the roof and clean the drains."],"answer":2,"why":"inspect 和 clean 是共同主语后的并列谓语。","point":"level"},
+   {"stem":"原文：这座展馆既展示照片，又展示古老的地图。排列译句。","lead":"The gallery","chunks":["displays both","photographs","and old","maps"],"tail":".","extra":["displaying"],"why":"both photographs and old maps 是两个并列宾语。","point":"form"}
+  ]}]},
+  {"id":"timed","type":"quiz","title":"小测","minutes":6,"pass":0.8,"points":["level","form"],"sets":[{"id":"set-a","groups":[{"items":[
+   {"stem":"原文：研究人员收集数据并分析实验结果。选择译句。","options":["Researchers collect results and analyze experimental data.","Researchers collect data and analyzing experimental results.","Researchers collecting data and analyze experimental results.","Researchers collect data and analyze experimental results."],"answer":3,"why":"collect 和 analyze 构成同一主语下的并列谓语。","point":"level"},
+   {"stem":"原文：河水在春季上涨，在冬季下降。选择译句。","options":["The river rises in spring, and it falls in winter.","The river rises in winter, and it falls in spring.","The river rising in spring, and it falls in winter.","The river rises in spring, and falling in winter."],"answer":0,"why":"两个分句分别说明春季上涨和冬季下降。","point":"level"},
+   {"stem":"原文：档案馆既保存日记，也保存书信。选择译句。","options":["The archive preserves both diaries and preserving letters.","The archive preserves both diaries and letters.","The archive preserves both diaries and it preserves letters.","The archive both preserves diaries and letters."],"answer":1,"why":"日记和书信都是保存的对象。第二项用 both diaries and letters 连接两个名词。第四项的 both 放在了动词前，后面却接名词。","point":"form"},
+   {"stem":"原文：这家工坊不仅制作家具，还修复家具。选择译句。","options":["The workshop not only makes furniture but also repairing it.","The workshop not only making furniture but also repairs it.","The workshop not only makes furniture but also repairs it.","The workshop makes not only furniture but also repairs it."],"answer":2,"why":"制作和修复是两个动作。第三项把 makes 和 repairs 分别放在 not only 和 but also 后面。第四项的 not only 后面是名词，but also 后面却是动词。","point":"form"},
+   {"stem":"原文：研究人员采访渔民并记录他们的故事。排列译句。","lead":"Researchers","chunks":["interview","fishers and","record","their stories"],"tail":".","extra":["recording"],"why":"interview 和 record 由同一个主语支配。","point":"level"},
+   {"stem":"原文：工匠制作陶器，学生学习绘制图案。排列译句。","lead":"Craftspeople","chunks":["make pottery,","and students","learn to","paint patterns"],"tail":".","extra":["learning"],"why":"并列分句分别以 craftspeople 和 students 为主语。","point":"level"},
+   {"stem":"原文：这间教室既有地图，也有照片。排列译句。","lead":"The classroom","chunks":["has both","maps","and","photographs"],"tail":".","extra":["having"],"why":"both maps and photographs 是并列宾语。","point":"form"},
+   {"stem":"原文：这个项目不仅培训教师，还提供教材。排列译句。","lead":"The program","chunks":["not only trains","teachers","but also provides","teaching materials"],"tail":".","extra":["providing"],"why":"trains teachers 和 provides teaching materials 是并列动词短语。","point":"form"}
+  ]}]}]}
+ ]
+}

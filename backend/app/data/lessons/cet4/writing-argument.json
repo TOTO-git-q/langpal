@@ -1,0 +1,419 @@
+{
+ "id": "writing-argument",
+ "title": "观点论证短文",
+ "goal": "识别论证短文各段的功能；选择回应中心论点的结尾。",
+ "skill": "写作",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "structure",
+   "label": "识别论证短文各段的功能"
+  },
+  {
+   "id": "conclusion",
+   "label": "选择回应中心论点的结尾"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语四级（CET-4）：课表",
+   "url": "docs/syllabi/cet4.md",
+   "used": "写作部分本课的内容范围、知识点及教学材料规格"
+  },
+  {
+   "id": "c2",
+   "title": "C2 全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "依据所给研究文件中的写作语言与连贯性要求安排教学，不陈述考试事实"
+  }
+ ],
+ "cards": [
+  {
+   "id": "structure",
+   "type": "table",
+   "title": "结构",
+   "cols": [
+    "位置",
+    "功能",
+    "例句"
+   ],
+   "rows": [
+    [
+     "单方论证：开头",
+     "写明支持还是反对，理由放在后面展开。",
+     "The college should provide optional walking tours for students who are new to campus."
+    ],
+    [
+     "单方论证：主体",
+     "每段讲一个理由，都支持同一立场。",
+     "A short tour helps new students connect building names with places they can recognize."
+    ],
+    [
+     "单方论证：结尾",
+     "根据理由重申原立场，不把自愿改成强制。",
+     "Optional tours should therefore remain available to students who want practical guidance around campus."
+    ],
+    [
+     "双方讨论：主体",
+     "分别说明双方的理由。引述的意见不代表作者的立场。",
+     "Supporters value a printed guide for reliability, while opponents prefer information that updates quickly."
+    ],
+    [
+     "双方讨论：表态",
+     "比较双方理由后，写明作者的选择。",
+     "The college should offer a digital guide while keeping printed copies for students who need them."
+    ],
+    [
+     "结尾的边界",
+     "可以概括理由或提出有限的建议，不加入前文没有讨论的论点。",
+     "Keeping both formats would preserve access while allowing most information to be updated efficiently."
+    ]
+   ]
+  },
+  {
+   "id": "expressions",
+   "type": "table",
+   "title": "常用表达",
+   "cols": [
+    "功能",
+    "表达",
+    "用法和例句"
+   ],
+   "rows": [
+    [
+     "提出立场",
+     "The college should ...",
+     "写出主张，不只写话题。The college should provide optional walking tours for newcomers during the first week."
+    ],
+    [
+     "分述理由",
+     "One reason is that ...",
+     "后接具体理由。One reason is that a short tour helps students locate essential services before classes begin."
+    ],
+    [
+     "承认另一方",
+     "Supporters argue that ... / Others point out that ...",
+     "引出别人的观点。Others point out that a fixed tour time may conflict with some students’ classes."
+    ],
+    [
+     "比较后表态",
+     "For these reasons, ... should ...",
+     "回到前文讨论过的选择。For these reasons, the college should retain an optional tour alongside its written guide."
+    ],
+    [
+     "重申限定立场",
+     "... should remain an option for ...",
+     "保留可选的安排，不改成强制。Walking tours should remain an option for students who want an introduction to campus."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "p": "第一篇是单方论证。主体段给出两条理由：认清服务地点，当场提出具体问题。两条理由都支持开头的自愿参观。"
+    },
+    {
+     "box": "Optional Campus Tours\n\nThe college should provide optional walking tours for students who are new to campus. A map is useful, but a guided walk can connect unfamiliar building names with places that students can recognize later. The tours should support existing information rather than replace it.\n\nOne reason is that seeing essential services in person can make later visits more straightforward. A guide can point out the entrance to the records office and explain where students should wait. Another reason is that a small group allows participants to ask practical questions about the route. These questions may concern an accessible entrance or the location of a nearby service desk.\n\nThe college should therefore keep short tours available during the first week. Participation should remain optional, since some students already know the campus or prefer using a map. This arrangement provides additional guidance without requiring everyone to attend."
+    },
+    {
+     "p": "第二篇是双方讨论。先交代双方的理由，再根据适用条件作出选择。结尾保留纸质版，回应的是前文说的手机没电、没有合适设备的问题，不是新的主张。"
+    },
+    {
+     "box": "Printed and Digital Guides\n\nA student society must decide whether its event guide should be printed or digital. Supporters of printed guides value a copy that can be read without a charged phone. A paper guide can also be marked quickly during an event.\n\nOthers prefer a digital guide because room changes can be updated without printing every page again. It can contain links to detailed information, while a short printed guide has limited space. However, relying entirely on a digital version may cause difficulties for participants without a suitable device. Neither format removes every possible difficulty.\n\nThe society should use a digital guide as the main version and keep a small supply of printed copies. This choice combines convenient updates with an alternative for those who need it. The aim is dependable access to event information, rather than a rule requiring every participant to use the same format."
+    }
+   ]
+  },
+  {
+   "id": "errors",
+   "type": "table",
+   "title": "常见错误",
+   "cols": [
+    "情况",
+    "例",
+    "原因"
+   ],
+   "rows": [
+    [
+     "只有主题",
+     "The topic is optional campus tours for new students.",
+     "只有话题，没有立场。应写成 should offer 这类主张。"
+    ],
+    [
+     "主体与立场不对应",
+     "Thesis: Keep tours optional. Body: Every newcomer must attend a tour.",
+     "论点是自愿参加，主体却要求人人参加，与立场相反。"
+    ],
+    [
+     "双方讨论没有表态",
+     "Paper has advantages. Digital guides also have advantages.",
+     "只列双方的优点，没有回答采用哪种安排。"
+    ],
+    [
+     "结尾突然换题",
+     "The college should therefore build a new sports stadium for all its students.",
+     "前文只讨论参观和指南，没有讲过体育场。"
+    ],
+    [
+     "结尾扩大范围",
+     "Every visitor must use a digital guide in every campus activity throughout the year.",
+     "原论点保留纸质版，结尾却改成人人必须用电子版。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "structure",
+    "conclusion"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "A paragraph explains how recorded demonstrations let students review a difficult step. Where does it belong in an argument for optional recordings?",
+       "options": [
+        "The opening that only names the debate",
+        "The body paragraph giving a supporting reason",
+        "The conclusion restating the choice of recordings",
+        "The opposing view denying any review benefit"
+       ],
+       "answer": 1,
+       "why": "这段说明录像能帮学生复习难的步骤，是支持录像的理由，放在主体段，即第二项。",
+       "point": "structure"
+      },
+      {
+       "stem": "Opening: Small group consultations should remain optional. Which ending responds consistently?",
+       "options": [
+        "Consultations should replace all lectures in every course.",
+        "Every student should attend consultations every afternoon.",
+        "Optional consultations should remain available for students who need them.",
+        "Small group consultations should no longer be offered."
+       ],
+       "answer": 2,
+       "why": "开头说 remain optional，第三项的 remain available for students who need them 与之一致。",
+       "point": "conclusion"
+      },
+      {
+       "stem": "A draft presents reasons for and against keeping a club uniform. What must its final paragraph add to answer whether to retain it?",
+       "options": [
+        "A clear choice based on the reasons discussed",
+        "A repeat of the two views without a choice",
+        "A list of further reasons for keeping the uniform",
+        "A claim that both sides must agree on every reason"
+       ],
+       "answer": 0,
+       "why": "题目问是否保留，所以列完双方理由后，要根据理由写明选择，即第一项。",
+       "point": "structure"
+      },
+      {
+       "stem": "The body supports keeping a quiet area during reading hours. Which ending exceeds that argument?",
+       "options": [
+        "The library should retain a quiet area during reading hours.",
+        "Readers should still have a place for silent work.",
+        "The quiet area should remain available alongside discussion rooms.",
+        "Every campus building should prohibit conversation at all times."
+       ],
+       "answer": 3,
+       "why": "主体只支持 quiet area during reading hours。第四项扩大到所有建筑、所有时间。",
+       "point": "conclusion"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "structure",
+    "conclusion"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A course is comparing written and spoken feedback. Written comments can be reviewed later, while spoken comments allow immediate questions. The writer supports offering a choice when practical. The final paragraph should connect that choice to the two benefits already discussed, rather than declare that one method suits every student.",
+     "items": [
+      {
+       "stem": "What is the function of the sentence about written comments?",
+       "options": [
+        "It states the writer’s final choice between the two methods.",
+        "It presents a reason for one side of the discussion.",
+        "It announces that spoken comments are always unnecessary.",
+        "It concludes that every student must prefer writing."
+       ],
+       "answer": 1,
+       "why": "Written comments can be reviewed later 说明书面反馈的好处，是一方的理由，即第二项。",
+       "point": "structure"
+      },
+      {
+       "stem": "Complete the conclusion that retains the writer’s combined approach.",
+       "lead": "For these reasons, the course should",
+       "chunks": [
+        "offer a",
+        "choice of",
+        "written or",
+        "spoken comments for"
+       ],
+       "tail": "students requesting feedback.",
+       "extra": [
+        "rejected"
+       ],
+       "why": "offer a choice of written or spoken comments 保留两种反馈，没有只推行一种。",
+       "point": "conclusion"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "structure",
+    "conclusion"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "Task: Support optional plain-language summaries beside student science reports at a public exhibition. The thesis recommends summaries for general visitors while keeping the full reports. The body explains that a short summary can make the main ideas accessible and help writers notice unclear terms. The conclusion must preserve the optional arrangement.",
+       "items": [
+        {
+         "stem": "Where should the explanation about noticing unclear terms appear?",
+         "options": [
+          "In a body paragraph supporting the proposal",
+          "In the conclusion preserving the optional arrangement",
+          "In an opposing paragraph denying the stated benefit",
+          "In a title that only names the essay topic"
+         ],
+         "answer": 0,
+         "why": "help writers notice unclear terms 说明摘要的好处，是支持提议的理由，放在主体段，即第一项。",
+         "point": "structure"
+        },
+        {
+         "stem": "Which conclusion responds to the thesis without broadening it?",
+         "options": [
+          "Every scientific text should be replaced by a short summary.",
+          "Optional summaries should accompany reports intended for general visitors.",
+          "The exhibition should stop displaying reports that use technical terms.",
+          "Every student report should carry a summary for general visitors."
+         ],
+         "answer": 1,
+         "why": "论点的条件是摘要可选、与完整报告并存、面向 general visitors。第二项保留了这些条件。第四项把可选改成了每份报告都要有。",
+         "point": "conclusion"
+        },
+        {
+         "stem": "Complete a body sentence that introduces the stated reason.",
+         "lead": "One reason is that a summary",
+         "chunks": [
+          "can make",
+          "the main",
+          "ideas accessible",
+          "to general"
+         ],
+         "tail": "visitors at the exhibition.",
+         "extra": [
+          "made"
+         ],
+         "why": "One reason is that 引出主体段的理由，后面说明摘要让主要内容易懂。",
+         "point": "structure"
+        },
+        {
+         "stem": "Complete the limited recommendation for the ending.",
+         "lead": "The exhibition should therefore",
+         "chunks": [
+          "retain the",
+          "option of",
+          "adding short",
+          "summaries to"
+         ],
+         "tail": "reports written for general visitors.",
+         "extra": [
+          "required"
+         ],
+         "why": "retain the option 回应自愿添加摘要的立场，没有改成用摘要代替报告。",
+         "point": "conclusion"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "Task: Discuss online and in-person access to a hobby workshop, then state a preference. One paragraph explains the value of remote access for distant members. Another explains the value of personal discussion in the room. The writer chooses a combined arrangement so that remote access remains available alongside that discussion.",
+       "items": [
+        {
+         "stem": "What is the role of the two paragraphs about remote access and personal discussion?",
+         "options": [
+          "To announce that both formats have identical effects",
+          "To repeat the title without discussing any reasons",
+          "To compare reasons supporting the two available formats",
+          "To state the writer’s final choice of a combined arrangement"
+         ],
+         "answer": 2,
+         "why": "remote access 和 personal discussion 分别是两种方式的好处，这是在比较双方的理由，即第三项。",
+         "point": "structure"
+        },
+        {
+         "stem": "Which ending follows the writer’s stated choice?",
+         "options": [
+          "Every workshop should move online and end all personal discussion.",
+          "Every workshop should require attendance in the room without exceptions.",
+          "The club should keep workshops in the room and send notes to distant members.",
+          "The club should offer online access while keeping discussion in the room."
+         ],
+         "answer": 3,
+         "why": "材料说 The writer chooses a combined arrangement。第四项同时保留在线参加和现场讨论。",
+         "point": "conclusion"
+        },
+        {
+         "stem": "Complete the sentence introducing the reason for online access.",
+         "lead": "Supporters of online access",
+         "chunks": [
+          "value the",
+          "opportunity to",
+          "join a",
+          "workshop from"
+         ],
+         "tail": "a distant location.",
+         "extra": [
+          "valued"
+         ],
+         "why": "Supporters 引出一方的观点，后面说明远程参加的好处。",
+         "point": "structure"
+        },
+        {
+         "stem": "Complete the ending without changing the combined choice.",
+         "lead": "The club should therefore",
+         "chunks": [
+          "keep a",
+          "combination of",
+          "online access",
+          "and personal"
+         ],
+         "tail": "discussion at its workshops.",
+         "extra": [
+          "combining"
+         ],
+         "why": "combination of online access and personal discussion 重申两种方式并存。",
+         "point": "conclusion"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

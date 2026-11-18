@@ -1,0 +1,735 @@
+{
+ "id": "listening-conversation-campus",
+ "title": "校园事务词汇",
+ "goal": "能理解校园事务词汇并辨认手续和学业安排。",
+ "skill": "听力",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "vocab",
+   "label": "辨认校园事务词汇"
+  },
+  {
+   "id": "scene",
+   "label": "听出校园安排及其限制条件"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "课程内容依据的考试大纲"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "校园事务涉及课程、作业、借阅和住宿。听手续类内容，先听清做什么、对什么做、什么时候截止。"
+    },
+    {
+     "box": "A: May I renew the book online?\nB: Yes, unless another reader has requested it."
+    },
+    {
+     "p": "renew the book 表示续借。unless 后面是不能续借的情况：别的读者已经预约。"
+    }
+   ]
+  },
+  {
+   "id": "courses",
+   "type": "table",
+   "title": "选课与考核",
+   "cols": [
+    "词语",
+    "词性",
+    "中文义",
+    "搭配与对话"
+   ],
+   "rows": [
+    [
+     "elective",
+     "名词",
+     "选修课",
+     "take an elective; A: Is art required? B: No, it's an elective."
+    ],
+    [
+     "required course",
+     "名词短语",
+     "必修课",
+     "complete a required course; A: Must I take it? B: It's a required course."
+    ],
+    [
+     "enroll in",
+     "动词短语",
+     "注册参加",
+     "enroll in a course; A: Are you in the class? B: I enrolled in it yesterday."
+    ],
+    [
+     "drop a course",
+     "动词短语",
+     "退课",
+     "drop a course; A: Is Mina continuing? B: She dropped the course."
+    ],
+    [
+     "prerequisite",
+     "名词",
+     "先修要求",
+     "meet a prerequisite; A: Can I register now? B: First meet the prerequisite."
+    ],
+    [
+     "credit",
+     "名词",
+     "学分",
+     "earn credits; A: What does the course award? B: Three credits."
+    ],
+    [
+     "assessment",
+     "名词",
+     "考核",
+     "continuous assessment; A: Is there a final test? B: No, assessment is continuous."
+    ],
+    [
+     "assignment",
+     "名词",
+     "作业",
+     "submit an assignment; A: What is due? B: The assignment."
+    ],
+    [
+     "grade",
+     "名词",
+     "成绩",
+     "receive a grade; A: Has the work been marked? B: Yes, the grade is online."
+    ],
+    [
+     "resit",
+     "动词",
+     "补考",
+     "resit an exam; A: What if I fail? B: You may resit the exam."
+    ]
+   ],
+   "note": "enroll in 指注册参加，drop 指退出已选课程。"
+  },
+  {
+   "id": "research",
+   "type": "table",
+   "title": "研究与作业",
+   "cols": [
+    "词语",
+    "词性",
+    "中文义",
+    "搭配与对话"
+   ],
+   "rows": [
+    [
+     "extension",
+     "名词",
+     "延期",
+     "request an extension; A: Can I have more time? B: Request an extension."
+    ],
+    [
+     "deadline",
+     "名词",
+     "截止时间",
+     "meet a deadline; A: When is the deadline? B: Friday at noon."
+    ],
+    [
+     "cite",
+     "动词",
+     "引用并注明出处",
+     "cite a source; A: I used the article. B: Cite the source."
+    ],
+    [
+     "reference",
+     "名词",
+     "参考文献",
+     "list references; A: Where are the sources? B: They're in the references."
+    ],
+    [
+     "draft",
+     "名词",
+     "草稿",
+     "revise a draft; A: Is this final? B: No, it's a draft."
+    ],
+    [
+     "outline",
+     "名词",
+     "提纲",
+     "prepare an outline; A: What comes before the draft? B: Prepare an outline."
+    ],
+    [
+     "supervisor",
+     "名词",
+     "指导教师",
+     "consult a supervisor; A: Who advises the project? B: The supervisor."
+    ],
+    [
+     "feedback",
+     "名词",
+     "反馈意见",
+     "receive feedback; A: What did the tutor send? B: Feedback on the draft."
+    ],
+    [
+     "submit",
+     "动词",
+     "提交",
+     "submit a paper; A: Is the paper ready? B: Yes, I'll submit it."
+    ],
+    [
+     "revise",
+     "动词",
+     "修改",
+     "revise a report; A: What will you do with the comments? B: Revise the report."
+    ]
+   ],
+   "note": "request an extension 是申请延期。能否延期，看对方后面的答复。"
+  },
+  {
+   "id": "library",
+   "type": "table",
+   "title": "图书借阅",
+   "cols": [
+    "词语",
+    "词性",
+    "中文义",
+    "搭配与对话"
+   ],
+   "rows": [
+    [
+     "borrow",
+     "动词",
+     "借入",
+     "borrow a book; A: Can I take it home? B: Yes, borrow it at the desk."
+    ],
+    [
+     "renew",
+     "动词",
+     "续借",
+     "renew a loan; A: Can I keep it longer? B: Renew the loan online."
+    ],
+    [
+     "return",
+     "动词",
+     "归还",
+     "return a book; A: Is the loan finished? B: Yes, return the book."
+    ],
+    [
+     "due date",
+     "名词短语",
+     "到期日",
+     "check the due date; A: When is it due? B: Check the due date."
+    ],
+    [
+     "overdue",
+     "形容词",
+     "逾期的",
+     "an overdue book; A: Was it due yesterday? B: Yes, it's overdue."
+    ],
+    [
+     "reserve",
+     "动词",
+     "预约",
+     "reserve a book; A: It's on loan. B: Reserve it for later."
+    ],
+    [
+     "catalog",
+     "名词",
+     "目录",
+     "search the catalog; A: Where is the title listed? B: Search the catalog."
+    ],
+    [
+     "loan period",
+     "名词短语",
+     "借期",
+     "extend a loan period; A: How long may I keep it? B: The loan period is two weeks."
+    ],
+    [
+     "recall",
+     "动词",
+     "召回借出资料",
+     "recall a book; A: Why return it early? B: The library recalled it."
+    ],
+    [
+     "fine",
+     "名词",
+     "罚款",
+     "pay a fine; A: What is the charge for? B: A fine for the late return."
+    ]
+   ],
+   "note": "reserve 是预约，renew 是延长已有借期。"
+  },
+  {
+   "id": "housing",
+   "type": "table",
+   "title": "住宿与费用",
+   "cols": [
+    "词语",
+    "词性",
+    "中文义",
+    "搭配与对话"
+   ],
+   "rows": [
+    [
+     "deposit",
+     "名词",
+     "押金",
+     "pay a deposit; A: What is paid before moving in? B: A deposit."
+    ],
+    [
+     "rent",
+     "名词",
+     "租金",
+     "pay rent; A: What is due each month? B: The rent."
+    ],
+    [
+     "lease",
+     "名词",
+     "租约",
+     "sign a lease; A: What records the rental terms? B: The lease."
+    ],
+    [
+     "accommodation",
+     "名词",
+     "住宿",
+     "apply for accommodation; A: Where will you live? B: I've applied for accommodation."
+    ],
+    [
+     "roommate",
+     "名词",
+     "室友",
+     "share with a roommate; A: Who shares the room? B: My roommate."
+    ],
+    [
+     "utility bill",
+     "名词短语",
+     "水电等公用事业账单",
+     "pay a utility bill; A: Is electricity included? B: No, pay the utility bill separately."
+    ],
+    [
+     "refund",
+     "名词",
+     "退款",
+     "receive a refund; A: Was the extra payment returned? B: Yes, I received a refund."
+    ],
+    [
+     "fee",
+     "名词",
+     "费用",
+     "pay a fee; A: Is the application free? B: No, there's a fee."
+    ],
+    [
+     "installment",
+     "名词",
+     "分期付款的一期",
+     "pay in installments; A: Must I pay all at once? B: No, installments are allowed."
+    ],
+    [
+     "move in",
+     "动词短语",
+     "搬入",
+     "move into a room; A: When can I enter the room? B: You can move in on Monday."
+    ]
+   ],
+   "note": "deposit 是预付押金；refund 是退还的款项。"
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "vocab"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Which term describes a course that students may choose but need not take?",
+       "options": [
+        "A course with a prerequisite",
+        "An elective course",
+        "A course with continuous assessment",
+        "A required course"
+       ],
+       "answer": 1,
+       "why": "elective 指选修课，required course 是必修课。",
+       "point": "vocab"
+      },
+      {
+       "stem": "A student asks for an extension on a paper. What is requested?",
+       "options": [
+        "More time before submission",
+        "More feedback after marking",
+        "A reference for the paper",
+        "A higher grade for the paper"
+       ],
+       "answer": 0,
+       "why": "extension 指延长期限。",
+       "point": "vocab"
+      },
+      {
+       "stem": "A library book is overdue. What is true about its due date?",
+       "options": [
+        "It has been extended online.",
+        "It has been reserved for later.",
+        "It has already passed.",
+        "It has yet to be announced."
+       ],
+       "answer": 2,
+       "why": "overdue 表示已过到期日。",
+       "point": "vocab"
+      },
+      {
+       "stem": "A tenant receives a refund of the deposit. What happens to the money?",
+       "options": [
+        "It becomes the next month's rent.",
+        "It is paid as a new application fee.",
+        "It is divided into installments.",
+        "It is returned to the tenant."
+       ],
+       "answer": 3,
+       "why": "refund 指退款，押金被退还给租住者。",
+       "point": "vocab"
+      },
+      {
+       "stem": "A professor asks for an outline before the draft. What should the student prepare first?",
+       "options": [
+        "A plan of the paper's main points",
+        "A first full version of the paper",
+        "A list of feedback on the draft",
+        "The finished version of the paper"
+       ],
+       "answer": 0,
+       "why": "outline 指写作提纲，用于安排文章要点。",
+       "point": "vocab"
+      },
+      {
+       "stem": "A library recalls a book that is on loan. What does the library require?",
+       "options": [
+        "Payment for a new reservation",
+        "The return of the borrowed book",
+        "A renewal of the current loan",
+        "A request for another loan period"
+       ],
+       "answer": 1,
+       "why": "recall a book 指召回已借出的书。",
+       "point": "vocab"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "scene"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I'd like to enroll in the statistics course, but I haven't completed the introductory class. Is there another way to meet the prerequisite?"
+       },
+       {
+        "who": "B",
+        "text": "Yes. You can take a placement test on Monday. If you pass, the department will allow you to enroll. Registration closes on Wednesday."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What must the student do to enroll without the introductory class?",
+       "options": [
+        "Pass the Monday placement test",
+        "Complete the class by Wednesday",
+        "Ask the department for permission first",
+        "Register before the Monday test"
+       ],
+       "answer": 0,
+       "why": "If you pass 后接 allow you to enroll，条件是通过周一的测试。",
+       "point": "scene"
+      },
+      {
+       "stem": "When does registration close?",
+       "options": [
+        "On Monday, after the test",
+        "When the department replies",
+        "On Wednesday, after the test",
+        "Before the test on Monday"
+       ],
+       "answer": 2,
+       "why": "Registration closes on Wednesday 给出注册截止时间。",
+       "point": "scene"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I'd like to renew the book about maps. Its due date is tomorrow, and I need it for a report. Can I renew it online?"
+       },
+       {
+        "who": "B",
+        "text": "Yes, as long as nobody else has reserved it. The catalog shows no reservation now, so you can renew it for another week."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What condition applies to the renewal?",
+       "options": [
+        "The report must be submitted tomorrow.",
+        "The book must have no other reservation.",
+        "The student must renew it before tomorrow.",
+        "The student must search the catalog first."
+       ],
+       "answer": 1,
+       "why": "as long as nobody else has reserved it 是续借的条件。",
+       "point": "scene"
+      },
+      {
+       "stem": "How much longer can the student keep the book?",
+       "options": [
+        "Until tomorrow morning",
+        "For the rest of the report",
+        "Until another reader reserves it",
+        "For another week after renewing"
+       ],
+       "answer": 3,
+       "why": "renew it for another week 指续借一周。",
+       "point": "scene"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The housing office offered me a room starting in September. Is the deposit included in the first month's rent? I need to arrange the payment."
+       },
+       {
+        "who": "B",
+        "text": "No, the deposit is separate. Pay it by Friday to keep the room. The first month's rent is due when you move in."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What must the student pay by Friday to keep the room?",
+       "options": [
+        "The first month's rent",
+        "The deposit and rent together",
+        "The deposit, paid separately",
+        "The full payment for the room"
+       ],
+       "answer": 2,
+       "why": "Pay it by Friday 中 it 指前句的 deposit。",
+       "point": "scene"
+      },
+      {
+       "stem": "When is the first month's rent due?",
+       "options": [
+        "When the student moves in",
+        "When the room offer arrives",
+        "On the deposit deadline",
+        "By Friday, with the deposit"
+       ],
+       "answer": 0,
+       "why": "The first month's rent is due when you move in 给出缴费时间。",
+       "point": "scene"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "vocab",
+    "scene"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "A student drops a course after enrolling. What has the student done?",
+         "options": [
+          "Completed the course assessment",
+          "Withdrawn from the course",
+          "Earned credit for the course",
+          "Registered for the course again"
+         ],
+         "answer": 1,
+         "why": "drops a course 表示退掉已选课程。",
+         "point": "vocab"
+        },
+        {
+         "stem": "A tutor asks a student to cite a source in the report. What should the student add?",
+         "options": [
+          "A note of where the information came from",
+          "A summary of the source's main argument",
+          "An extra draft of the research outline",
+          "A list of sources to read later"
+         ],
+         "answer": 0,
+         "why": "cite a source 指引用时注明信息出处。",
+         "point": "vocab"
+        },
+        {
+         "stem": "A reader renews a library loan. What changes?",
+         "options": [
+          "The reader reserves a different book.",
+          "The reader pays a fine for late return.",
+          "The reader returns the book immediately.",
+          "The reader may keep the book longer."
+         ],
+         "answer": 3,
+         "why": "renew a loan 表示续借，延长借用时间。",
+         "point": "vocab"
+        },
+        {
+         "stem": "A residence requires a deposit before a student moves in. What is required?",
+         "options": [
+          "A monthly utility bill",
+          "The first month's rent",
+          "An advance security payment",
+          "A refund of the rent"
+         ],
+         "answer": 2,
+         "why": "deposit 是入住前支付的押金。",
+         "point": "vocab"
+        },
+        {
+         "stem": "A lecturer sends feedback on a draft. What has the student received?",
+         "options": [
+          "A new deadline for the draft",
+          "Comments on work in progress",
+          "A grade for the final version",
+          "A list of references for the draft"
+         ],
+         "answer": 1,
+         "why": "feedback on a draft 是针对草稿的意见。",
+         "point": "vocab"
+        },
+        {
+         "stem": "A housing office allows rent to be paid in installments. What does this allow?",
+         "options": [
+          "Payment in several separate amounts",
+          "A refund before the rent is paid",
+          "A lower deposit for the room",
+          "Payment only after the lease ends"
+         ],
+         "answer": 0,
+         "why": "pay in installments 指分期付款。",
+         "point": "vocab"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I need the history book for my paper, but the catalog says it's on loan. Can I reserve it?"
+         },
+         {
+          "who": "B",
+          "text": "Yes, I'll place a reservation. We'll email you when it's returned. You then have two days to collect it; after that it goes to the next reader."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What will the library employee do?",
+         "options": [
+          "Extend the current reader's loan",
+          "Renew the book for the student",
+          "Cancel the next reader's request",
+          "Place a reservation for the book"
+         ],
+         "answer": 3,
+         "why": "I'll place a reservation 表示工作人员将预约这本书。",
+         "point": "scene"
+        },
+        {
+         "stem": "What condition applies after the book is returned?",
+         "options": [
+          "The student must renew it online.",
+          "The student must write the paper in two days.",
+          "The student has two days to collect it.",
+          "The student must wait for the next reader."
+         ],
+         "answer": 2,
+         "why": "have two days to collect it 限定通知后的领取时间。",
+         "point": "scene"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "My draft is due Friday, but I need more time to check the references. Can I request an extension?"
+         },
+         {
+          "who": "B",
+          "text": "Yes, submit the request today. If the tutor approves it, the new deadline will be next Tuesday. Until you receive approval, Friday remains the deadline."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What must happen for the Tuesday deadline to apply?",
+         "options": [
+          "The student must finish the draft today.",
+          "The tutor must approve the request.",
+          "The references must be checked first.",
+          "The tutor must receive the final paper."
+         ],
+         "answer": 1,
+         "why": "If the tutor approves it 指出新期限取决于教师批准。",
+         "point": "scene"
+        },
+        {
+         "stem": "What deadline applies before approval?",
+         "options": [
+          "The original Friday deadline",
+          "The new Tuesday deadline",
+          "The day of the request",
+          "The day the references are checked"
+         ],
+         "answer": 0,
+         "why": "Until you receive approval, Friday remains the deadline 表明批准前仍为周五。",
+         "point": "scene"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

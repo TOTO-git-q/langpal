@@ -1,0 +1,243 @@
+{
+ "id": "writing-overview",
+ "title": "写作部分概览",
+ "goal": "说出写作任务要求，区分总体评分档次与报道分数。",
+ "skill": "写作",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "format",
+   "label": "说出写作任务及时间和字数要求"
+  },
+  {
+   "id": "criteria",
+   "label": "区分两档作文的总体表现"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c1",
+   "title": "C1 CET笔试",
+   "url": "https://cet.neea.edu.cn/html1/folder/16113/1586-1.htm",
+   "used": "写作任务数量、时间及卷面权重"
+  },
+  {
+   "id": "c2",
+   "title": "C2 全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "写作字数要求、提示形式及第4.1节总体评分"
+  },
+  {
+   "id": "c3",
+   "title": "C3 分数解释",
+   "url": "https://cet.neea.edu.cn/html1/folder/19081/5124-1.htm",
+   "used": "报道总分及不设及格线"
+  },
+  {
+   "id": "syllabus",
+   "title": "大学英语四级（CET-4）：课表",
+   "url": "docs/syllabi/cet4.md",
+   "used": "写作部分的课题范围、知识点与教学规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "facts",
+   "title": "概述",
+   "rows": [
+    {
+     "k": "任务",
+     "v": "写作部分完成1篇英语短文，作答时间为30分钟。",
+     "src": "C1 CET笔试：试卷结构（sources.id=c1）"
+    },
+    {
+     "k": "字数",
+     "v": "短文不少于120词。",
+     "src": "C2 大纲：写作要求（sources.id=c2）"
+    },
+    {
+     "k": "卷面权重",
+     "v": "写作占全卷15%。这是卷面权重，不是作文的固定报道分。",
+     "src": "C1 CET笔试；C3 分数解释（sources.id=c1、c3）"
+    },
+    {
+     "k": "总体评分",
+     "v": "写作按总体印象评分，最高15分。切题、清楚、连贯和语言四方面合起来看，不分别计分。",
+     "src": "C2 大纲 第4.1节（sources.id=c2）"
+    },
+    {
+     "k": "报道分数",
+     "v": "报道总分最高710分，不设及格线。原始成绩经等值和常模转换形成报道分数。",
+     "src": "C3 分数解释（sources.id=c3）"
+    }
+   ]
+  },
+  {
+   "id": "task",
+   "type": "table",
+   "title": "题型",
+   "cols": [
+    "类型",
+    "任务与提示",
+    "例"
+   ],
+   "rows": [
+    [
+     "短文写作",
+     "依据提纲、情境、图画或图表提示组织短文。",
+     "Explain a benefit of keeping a reading journal and illustrate it with an example."
+    ]
+   ]
+  },
+  {
+   "id": "criteria",
+   "type": "table",
+   "title": "总体评分",
+   "cols": [
+    "维度",
+    "13–15分档",
+    "7–9分档"
+   ],
+   "rows": [
+    [
+     "切题",
+     "内容切合题意，围绕任务展开。",
+     "基本切题。"
+    ],
+    [
+     "清楚",
+     "意思表达清楚。",
+     "部分内容表达不清楚。"
+    ],
+    [
+     "连贯",
+     "上下文衔接连贯。",
+     "文字勉强连贯。"
+    ],
+    [
+     "语言",
+     "语言错误很少。",
+     "语言错误较多，部分属于严重错误。"
+    ]
+   ]
+  },
+  {
+   "id": "evidence",
+   "type": "text",
+   "title": "评分依据",
+   "body": [
+    {
+     "p": "总体评分看整篇的表现。一个句子写得准确，整篇不一定进高档。出现一个错误，也不按固定分值扣分。"
+    },
+    {
+     "box": "Task: Explain how a reading journal supports learning.\nClear development: A reading journal makes gaps in understanding visible. After summarizing a chapter, a student can identify a missing link and reread the relevant passage.\nUnclear development: Journal helps reading. It is many good because the things, and student not know it is."
+    },
+    {
+     "p": "Clear development 一段围绕 gaps in understanding 展开，第二句写出具体过程。Unclear development 一段里 the things 和 it 指代不清，句子结构也有多处错误。两个片段只说明评分看什么，不对应具体分数。"
+    },
+    {
+     "box": "Paper weight: 15%. Holistic writing scale: up to 15. Reported total: up to 710, with no pass line."
+    },
+    {
+     "p": "卷面权重、作文评分量表和报道总分是三个不同的数。15%是卷面权重，不换算成105或106个固定的报道分。课程小测的通过率也不是考试的及格线。"
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 4,
+   "pass": 0.8,
+   "points": [
+    "format",
+    "criteria"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "Which plan meets the stated writing time and minimum length?",
+         "options": [
+          "One essay of at least 120 words in 30 minutes.",
+          "One essay of at least 30 words in 120 minutes.",
+          "One essay of at least 120 words in 15 minutes.",
+          "One essay of at least 15 words in 30 minutes."
+         ],
+         "answer": 0,
+         "why": "概述写明1篇、30分钟、不少于120词，即第一项。",
+         "point": "format"
+        },
+        {
+         "stem": "Which statement correctly distinguishes writing weight from its holistic scale?",
+         "options": [
+          "Writing has a 15-point reported total and a 710-point holistic scale.",
+          "Writing has a 30% paper weight and a 15-point holistic scale.",
+          "Writing has a 15% paper weight and a 15-point holistic scale.",
+          "Writing has a 15-point paper weight and a 30-point holistic scale."
+         ],
+         "answer": 2,
+         "why": "写作占全卷15%，评分量表最高15分，即第三项。",
+         "point": "format"
+        },
+        {
+         "stem": "Which statement about the reported total is supported by the overview?",
+         "options": [
+          "Its maximum is 710, with a pass line set by the writing scale.",
+          "Its maximum is 710, and no pass line is set.",
+          "Its maximum is 120, and no pass line is set.",
+          "Its maximum is 710, with a pass line of 15%."
+         ],
+         "answer": 1,
+         "why": "报道总分最高710分，不设及格线，即第二项。",
+         "point": "format"
+        },
+        {
+         "stem": "Which response belongs to the writing task described in the lesson?",
+         "options": [
+          "A completed outline replacing the required English essay.",
+          "A chart description replacing all written English content.",
+          "A set of selected answers replacing an English composition.",
+          "An English composition developed from the supplied prompt."
+         ],
+         "answer": 3,
+         "why": "题型表写明依据提示写一篇英语短文，即第四项。提纲和图表是提示的形式，不是作答的形式。",
+         "point": "format"
+        },
+        {
+         "stem": "Which whole-essay description matches the 13–15 band?",
+         "options": [
+          "Relevant content with unclear stretches and frequent serious errors.",
+          "Relevant content with clear, coherent development and very few errors.",
+          "Clear sentences with frequent serious errors and unclear development.",
+          "A relevant opening with unclear meaning throughout the remaining essay."
+         ],
+         "answer": 1,
+         "why": "13–15分档的作文切题、表达清楚、连贯，语言错误很少，即第二项。",
+         "point": "criteria"
+        },
+        {
+         "stem": "Which whole-essay description matches the 7–9 band rather than the top band?",
+         "options": [
+          "Meaning is clear throughout and errors are almost absent.",
+          "Development is coherent throughout and language is nearly error-free.",
+          "Meaning is unclear in places and errors are frequent, sometimes serious.",
+          "Content is relevant throughout and its meaning remains consistently clear."
+         ],
+         "answer": 2,
+         "why": "7–9分档有些地方表达不清，语言错误较多，其中有一些是严重错误，即第三项。",
+         "point": "criteria"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "id": "reading-passage-qualifiers",
+ "title": "范围与程度表达",
+ "goal": "判断数量和限制范围，并核对改写前后的可能性程度。",
+ "skill": "阅读",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "range", "label": "判断数量词与限制词的范围"},
+  {"id": "degree", "label": "核对改写前后断言的程度"}
+ ],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "数量、可能性及限制表达"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "数量词说明涉及多少人或物，情态词说明事情发生的可能性有多大。only 等词限定信息适用的对象。"},
+   {"p": "改写需要保留原句的限定。将 some 改成 all 会扩大数量范围；将 may 改成 certain 会加强确定程度。"}
+  ]},
+  {"id": "quantity", "type": "table", "title": "数量范围", "cols": ["原句", "改写", "关系"], "rows": [
+   ["Some visitors took maps.", "All visitors took maps.", "some 改为 all，范围扩大。"],
+   ["Most visitors took maps.", "All visitors took maps.", "most 改为 all，范围扩大到全体。"],
+   ["All visitors took maps.", "Every visitor took a map.", "all 与 every 均涵盖全体。"],
+   ["Most visitors took maps.", "Some visitors took maps.", "most 改为 some，说法变弱，信息变少。"]
+  ]},
+  {"id": "possibility", "type": "table", "title": "可能性程度", "cols": ["原句", "改写", "关系"], "rows": [
+   ["The road may close tomorrow.", "The road will certainly close tomorrow.", "may 改为 certainly，加强确定程度。"],
+   ["Rain is likely tonight.", "Rain is certain tonight.", "likely 表示可能性较大，certain 表示确定。"],
+   ["The package may arrive today.", "The package could arrive today.", "may 与 could 均表示可能。"],
+   ["The team is certain to return.", "The team may return.", "certain 改为 may，确定程度降低。"]
+  ]},
+  {"id": "limits", "type": "table", "title": "限制范围", "cols": ["原句", "改写", "关系"], "rows": [
+   ["Only members may borrow tools.", "Members and guests may borrow tools.", "删去 only，又加上 guests，借用对象扩大。"],
+   ["At least ten people joined.", "Ten or more people joined.", "两句均包含十人及更多人。"],
+   ["No more than six tickets remain.", "Six or fewer tickets remain.", "两句均把六张作为上限。"],
+   ["Only the morning class visited.", "Only the afternoon class visited.", "only 限定的班级发生改变。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "Most members of the ceramics club attended the first meeting. Only members who had registered for the workshop could use the equipment that day. The instructor said the club might add another session, but the room booking had not yet been confirmed."},
+   {"box": "Which statement matches the instructor's comment?\n1. Another session may be added.\n2. Another session is certain to be added.\n3. Every member has booked the room.\n4. No further session can be added."},
+   {"p": "might 表示可能增加场次。第一项的 may 保留了这一程度，第二项把可能改成了确定。"},
+   {"p": "most members 表示多数成员，only 限定当天可以使用设备的人。两处限定分别涉及人数和资格。"}
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["range", "degree"], "groups": [
+   {"look": "passage", "text": "Most of the club members returned the forms.", "items": [{"stem": "Which statement is supported?", "options": ["More than half of the members returned forms.", "Every one of the club members returned a form.", "Fewer than half of the members returned forms.", "Only a few club members returned their forms."], "answer": 0, "why": "most 表示多数，即超过半数的成员交了表，第一项。第二项把 most 扩大成了全体。", "point": "range"}]},
+   {"look": "passage", "text": "No more than eight people can use the room at once.", "items": [{"stem": "Which group size is within the stated limit?", "options": ["A group of nine people", "A group of eight people", "A group of ten people", "A group of eleven people"], "answer": 1, "why": "no more than eight 包括八人，九人及以上超出上限。", "point": "range"}]},
+   {"look": "passage", "text": "The class may visit the exhibition on Friday.", "items": [{"stem": "Which statement preserves the degree of certainty?", "options": ["The class must visit on Friday.", "The class will definitely visit on Friday.", "The class could visit on Friday.", "The class cannot visit on Friday."], "answer": 2, "why": "may 与 could 均表示周五参观存在可能。", "point": "degree"}]},
+   {"look": "passage", "text": "The organisers are certain that the hall will open at noon.", "items": [{"stem": "Which rewrite weakens the stated certainty?", "options": ["The hall will definitely open at noon.", "The hall is certain to open at noon.", "The hall will without doubt open at noon.", "The hall might open at noon."], "answer": 3, "why": "certain 表示确定，might 只表示可能。", "point": "degree"}]}
+  ]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["range", "degree"], "groups": [
+   {"look": "passage", "text": "Only registered students can use the music room on Monday. At least twelve students have registered. The teacher says another room is likely to be available, but its booking is not confirmed.", "items": [
+    {"stem": "Who may use the music room on Monday?", "options": ["Students who have registered", "Every student in the school", "Visitors who have not registered", "At most twelve registered students"], "answer": 0, "why": "Only registered students 限定了周一音乐室的使用对象，即第一项。第四项把 At least twelve 读成了上限。", "point": "range"},
+    {"stem": "What does the teacher say about another room?", "options": ["It is definitely already booked.", "It is likely to be available.", "It cannot be used at all.", "It is available only on Monday."], "answer": 1, "why": "likely to be available 表示很可能可用，预订尚未确认。", "point": "degree"}
+   ]}
+  ]},
+  {"id": "check-three", "type": "check", "title": "练习三", "points": ["range", "degree"], "groups": [
+   {"look": "passage", "text": "Some volunteers brought gloves for the cleanup. The coordinator expects at least ten participants on Saturday. Rain may delay the work, so a message will be sent if the start time changes.", "items": [
+    {"stem": "Which statement enlarges the stated group of volunteers?", "options": ["Some volunteers brought gloves.", "Volunteers may bring gloves again.", "Every volunteer brought gloves.", "Gloves were brought for the cleanup."], "answer": 2, "why": "some 改成 every，将部分志愿者扩大为全体。", "point": "range"},
+    {"stem": "What does the passage say about a delay?", "options": ["A delay is certain.", "A delay is a possibility.", "A delay has already happened.", "A delay is impossible on Saturday."], "answer": 1, "why": "Rain may delay the work 用 may 表示延期可能发生。", "point": "degree"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["range", "degree"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "The local history room has invited residents to contribute copies of old neighborhood photographs. Staff hope the images will help them describe how familiar streets have changed. The room will keep the copies in a folder that visitors can request at the desk; the originals will be returned to their owners after copying.\n\nMost contributors have already provided a date or an approximate date for their photographs. Some have also named the people in the pictures. Staff record the information supplied by each contributor separately from their own notes. When a date is uncertain, the record says so, allowing visitors to distinguish a confirmed date from an estimate.\n\nOnly photographs taken within the town will be included in the first folder. This restriction helps staff organise the first group of images before considering material from nearby villages. A photograph of a town street can still be included if the person who owns it now lives elsewhere. Owners are asked to supply their contact details so that staff can check unclear information later.\n\nThe history room is likely to hold a small display after the first folder has been completed, although the dates have not been arranged. Staff may also invite contributors to describe their photographs at an event. Both proposals depend on the availability of the room and the contributors. In the meantime, visitors can view an existing display about the town's buildings. The history room plans to review the number of photographs received at the end of the month before deciding how many additional folders are needed.", "items": [
+    {"stem": "What does the passage say about contributors and dates?", "options": ["More than half have supplied a date or estimate.", "Every contributor has supplied an exact date.", "No contributor has supplied an estimated date.", "Fewer than half have supplied any date at all."], "answer": 0, "why": "依据是 Most contributors have already provided a date or an approximate date。most 即超过半数，approximate date 即估计的日期，第一项。", "point": "range"},
+    {"stem": "Which photographs are eligible for the first folder?", "options": ["Any photographs owned by town residents", "Photographs taken inside the town", "Photographs from nearby villages", "Only photographs with a confirmed date"], "answer": 1, "why": "Only photographs taken within the town 限定了第一册照片的拍摄地点，即第二项。第一项看的是主人住在哪里，原文说主人住在外地也可以收录。", "point": "range"},
+    {"stem": "How certain is the proposed display?", "options": ["It is confirmed for the end of the month.", "It is impossible because the room is unavailable.", "It is probable, but its dates remain undecided.", "It is certain to include every photograph received."], "answer": 2, "why": "likely to hold 表示可能性较大，dates have not been arranged 表明日期尚未确定。", "point": "degree"}
+   ]},
+   {"look": "passage", "text": "The community theatre is preparing a series of short performances in its rehearsal room. The room is smaller than the main theatre and offers an opportunity to try new work with a small audience. Each performance will be followed by a discussion between the performers and those attending.\n\nAt least twenty seats will be available for each performance. The precise number depends on the space required by the performers. No more than thirty seats can be placed in the room under its current arrangement. Visitors will be able to reserve seats through the theatre office, which will publish the seating number for each performance before booking opens.\n\nSome performances will include music made by the performers. Others will use spoken words without music. The theatre plans to provide a short description of each programme, but it does not expect all programmes to be ready on the same day. Staff will add descriptions to the noticeboard as the groups finish them.\n\nOnly people with a reservation can enter the rehearsal room for a performance. Friends who do not have a seat may wait in the entrance hall, where information about future productions will be displayed. The theatre is certain that the first performance will take place on Saturday, although its starting time is still being checked. Later performances may take place on weekday evenings. A schedule will be published once the room arrangements have been agreed with each group. The theatre also plans to collect comments after the first event and use them when preparing the remaining discussions.", "items": [
+    {"stem": "Which number of seats falls within the stated limits?", "options": ["Fewer than twenty seats", "More than thirty seats", "Exactly thirty-one seats", "Exactly twenty-five seats"], "answer": 3, "why": "At least twenty 和 No more than thirty 共同限定座位数，25 在范围内。", "point": "range"},
+    {"stem": "Who can enter a performance in the rehearsal room?", "options": ["People who have reserved a seat", "All friends waiting in the entrance hall", "Anyone who reads the noticeboard", "Visitors to the main theatre"], "answer": 0, "why": "Only people with a reservation 限定了能入场的人，即第一项。", "point": "range"},
+    {"stem": "What is certain about the first performance?", "options": ["Its starting time has been confirmed.", "It will be held on Saturday.", "It will have live music.", "Its discussion will happen on a weekday."], "answer": 1, "why": "certain that the first performance will take place on Saturday 明确表示首场周六举行。", "point": "degree"}
+   ]}
+  ]}]}
+ ]
+}

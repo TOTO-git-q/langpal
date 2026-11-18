@@ -1,0 +1,59 @@
+{
+ "id": "translation-lexical", "title": "词义选择与搭配", "goal": "根据动作对象选择符合语境的英文搭配。", "skill": "翻译", "exam": "大学英语六级（CET-6）", "mastery": "once",
+ "points": [{"id": "sense", "label": "按动作对象确定中文词的语境义"}, {"id": "collocation", "label": "选择符合英文搭配的词语"}],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译课程内容依据"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "同一个中文动词，对象不同，英文用词也不同。翻译时先确定动作的含义，再核对英文动词能否和宾语搭配。"}, {"box": "原文：当地居民修建桥梁，方便两岸的往来。\n译文：Local residents built a bridge to connect the two banks."}, {"p": "build a bridge 是建造实物，establish a system 是建立制度。中文动词相近，英文按宾语选用不同的动词。"}]},
+  {"id": "develop", "type": "table", "title": "发展", "cols": ["对象与含义", "原文", "译文"], "rows": [
+   ["技能：培养", "学生通过练习发展了阅读能力。", "Students developed reading skills through practice."],
+   ["产业：推动", "当地发展旅游业以增加就业。", "The regionpromoted tourism to increase employment."],
+   ["业务：扩大", "这家企业逐步发展海外业务。", "The company gradually expanded its overseas business."],
+   ["自然变化：成长", "这一产业在当地逐渐发展壮大。", "The industry grew gradually in the area."]
+  ]},
+  {"id": "build", "type": "table", "title": "建设", "cols": ["对象与含义", "原文", "译文"], "rows": [
+   ["建筑：建造", "村民共同建设了一座桥梁。", "Villagers built a bridge together."],
+   ["制度：建立", "学校建设了一套图书借阅制度。", "The school established a system for borrowing books."],
+   ["网络：组建", "研究人员建设了一个合作网络。", "Researchers created a network for collaboration."],
+   ["道路：修筑", "工人建设了连接两村的道路。", "Workers constructed a road between the two villages."]
+  ]},
+  {"id": "improve", "type": "table", "title": "提高", "cols": ["对象与含义", "原文", "译文"], "rows": [
+   ["质量：改善", "新工艺提高了产品质量。", "The new process improved product quality."],
+   ["价格：上调", "商店提高了部分商品的价格。", "The shop raised the prices of some goods."],
+   ["意识：增强", "展览提高了公众的环保意识。", "The exhibition increased public awareness of environmental protection."],
+   ["效率：提升", "新安排提高了工作效率。", "The new arrangement improved efficiency."]
+  ]},
+  {"id": "form", "type": "table", "title": "形成", "cols": ["对象与含义", "原文", "译文"], "rows": [
+   ["习惯：养成", "她逐渐形成了每日阅读的习惯。", "She gradually developed a habit of reading every day."],
+   ["共识：达成", "双方经过讨论形成了共识。", "The two sides reached an agreement after discussion."],
+   ["队伍：组建", "居民形成了志愿者队伍。", "Residents formed a volunteer team."],
+   ["观点：形成", "学生根据证据形成自己的看法。", "Students form their own views based on evidence."]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [{"box": "原文：经过讨论，双方就合作计划形成了共识。\n译文：After discussion, the two sides reached an agreement on the cooperation plan."}, {"p": "共识是双方讨论后达成的结果，英文用 reach an agreement。套用 construct 这类建造实物的动词，搭配不成立。"}]},
+  {"id": "practice-a", "type": "check", "title": "练习一", "points": ["sense", "collocation"], "groups": [{"items": [
+   {"stem": "原文：企业扩大海外业务。选择译句。", "options": ["The company expanded its overseas business.", "The company reduced its overseas business.", "The company established its overseas business.", "The company maintained its overseas business."], "answer": 0, "why": "扩大是在原有业务上增加规模，第一项的 expanded 与此对应。第三项的 established 是新设立业务。", "point": "sense"},
+   {"stem": "原文：学校建立图书借阅制度。选择译句。", "options": ["The school revised a book-borrowing system.", "The school established a book-borrowing system.", "The school replaced a book-borrowing system.", "The school reviewed a book-borrowing system."], "answer": 1, "why": "established a system 表示建立制度。", "point": "collocation"},
+   {"stem": "原文：商店上调部分商品价格。选择译句。", "options": ["The shop lowered the prices of some goods.", "The shop maintained the prices of some goods.", "The shop raised the prices of some goods.", "The shop compared the prices of some goods."], "answer": 2, "why": "raised prices 表示上调价格。", "point": "sense"},
+   {"stem": "原文：双方讨论后达成共识。选择译句。", "options": ["The two sides rejected an agreement after discussion.", "The two sides revised an agreement after discussion.", "The two sides reviewed an agreement after discussion.", "The two sides reached an agreement after discussion."], "answer": 3, "why": "reached an agreement 表示达成共识。", "point": "collocation"},
+   {"stem": "原文：新工艺改善产品质量。选择译句。", "options": ["The new process improved product quality.", "The new process reduced product quality.", "The new process maintained product quality.", "The new process measured product quality."], "answer": 0, "why": "improved product quality 表示改善产品质量。", "point": "sense"},
+   {"stem": "原文：居民组建志愿者队伍。选择译句。", "options": ["Residents joined a volunteer team.", "Residents formed a volunteer team.", "Residents trained a volunteer team.", "Residents managed a volunteer team."], "answer": 1, "why": "formed a volunteer team 表示组建队伍。", "point": "collocation"}
+  ]}]},
+  {"id": "practice-b", "type": "check", "title": "练习二", "points": ["sense", "collocation"], "groups": [{"items": [
+   {"stem": "原文：研究人员创建合作网络。选择译句。", "options": ["Researchers joined a network for collaboration.", "Researchers expanded a network for collaboration.", "Researchers created a network for collaboration.", "Researchers left a network for collaboration."], "answer": 2, "why": "created a network 表示创建网络。", "point": "collocation"},
+   {"stem": "原文：这一产业在当地逐渐发展壮大。选择译句。", "options": ["The industry declined gradually in the area.", "The industry remained unchanged in the area.", "The industry appeared suddenly in the area.", "The industry grew gradually in the area."], "answer": 3, "why": "grew gradually 描述产业逐渐发展壮大。", "point": "sense"},
+   {"stem": "原文：展览增强公众环保意识。选择译句。", "options": ["The exhibition increased public awareness of environmental protection.", "The exhibition measured public awareness of environmental protection.", "The exhibition examined public awareness of environmental protection.", "The exhibition reduced public awareness of environmental protection."], "answer": 0, "why": "increased public awareness 表示增强公众意识。", "point": "collocation"},
+   {"stem": "原文：她养成每日阅读的习惯。选择译句。", "options": ["She abandoned a habit of reading every day.", "She developed a habit of reading every day.", "She described a habit of reading every day.", "She observed a habit of reading every day."], "answer": 1, "why": "developed a habit 表示养成习惯。", "point": "collocation"},
+   {"stem": "原文：村民共同建造桥梁。选择译句。", "options": ["Villagers crossed a bridge together.", "Villagers repaired a bridge together.", "Villagers built a bridge together.", "Villagers designed a bridge together."], "answer": 2, "why": "built a bridge 表示建造桥梁。", "point": "sense"},
+   {"stem": "原文：当地推动旅游业以增加就业。选择译句。", "options": ["The regionrestricted tourism to increase employment.", "The regionstudied tourism to increase employment.", "The regionmonitored tourism to increase employment.", "The regionpromoted tourism to increase employment."], "answer": 3, "why": "promoted tourism 表示推动旅游业。", "point": "sense"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["sense", "collocation"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "原文：工人修筑通往市场的道路。选择译句。", "options": ["Workers constructed a road to the market.", "Workers repaired a road to the market.", "Workers designed a road to the market.", "Workers widened a road to the market."], "answer": 0, "why": "constructed a road 表示修筑道路。", "point": "sense"},
+   {"stem": "原文：新安排提高了服务效率。选择译句。", "options": ["The arrangement reduced service efficiency.", "The arrangement improved service efficiency.", "The arrangement measured service efficiency.", "The arrangement maintained service efficiency."], "answer": 1, "why": "improved efficiency 表示提高效率。", "point": "sense"},
+   {"stem": "原文：研究人员依据访谈形成看法。选择译句。", "options": ["Researchers defend their views based on interviews.", "Researchers revise their views based on interviews.", "Researchers form their views based on interviews.", "Researchers compare their views based on interviews."], "answer": 2, "why": "form their views 表示形成看法。", "point": "collocation"},
+   {"stem": "原文：学生通过实践培养研究能力。选择译句。", "options": ["Students assessed research skills through practice.", "Students demonstrated research skills through practice.", "Students tested research skills through practice.", "Students developed research skills through practice."], "answer": 3, "why": "developed research skills 表示培养研究能力。", "point": "collocation"},
+   {"stem": "原文：大学扩大了研究网络。补全 The university ____ its research network. 使用 expand 的过去式。", "accept": ["expanded"], "why": "expanded its network 表示扩大网络。", "point": "sense"},
+   {"stem": "原文：机构上调了票价。补全 The organisation ____ ticket prices. 使用 raise 的过去式。", "accept": ["raised"], "why": "raised ticket prices 表示上调票价。", "point": "sense"},
+   {"stem": "原文：委员会与居民达成协议。补全 The committee ____ an agreement with residents. 使用 reach 的过去式。", "accept": ["reached"], "why": "reached an agreement 表示达成协议。", "point": "collocation"},
+   {"stem": "原文：学生依据访谈形成看法。补全 Students ____ views based on interviews. 使用 form 的过去式。", "accept": ["formed"], "why": "formed views 表示形成看法。", "point": "collocation"}
+  ]}]}]}
+ ]
+}

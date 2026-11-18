@@ -1,0 +1,202 @@
+{
+ "id": "translation-mock",
+ "title": "翻译模拟测试",
+ "goal": "核对译文的信息、句子组织和词形",
+ "skill": "翻译",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "meaning",
+   "label": "识别译文的遗漏和含义错误"
+  },
+  {
+   "id": "structure",
+   "label": "选择信息完整的英文句子"
+  },
+  {
+   "id": "wording",
+   "label": "选择准确且形式正确的词语"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c1",
+   "title": "CET笔试",
+   "url": "https://cet.neea.edu.cn/html1/folder/16113/1586-1.htm",
+   "used": "翻译任务数量和时间"
+  },
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "原文长度和总体评分"
+  }
+ ],
+ "cards": [
+  {
+   "id": "instructions",
+   "type": "text",
+   "title": "说明",
+   "body": [
+    {
+     "p": "四级翻译要求把 1 段 140–160 字的中文译成英语，限时 30 分钟。整段翻译在段落翻译练习中完成。"
+    },
+    {
+     "p": "整段译文按总体印象评分。本课小测核对信息、句子组织和词形三项，得分不等于译文成绩。"
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "meaning",
+    "structure",
+    "wording"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "中文：这座桥过去供行人使用，现在也允许自行车通行。",
+       "items": [
+        {
+         "stem": "Which translation preserves both uses of the bridge?",
+         "options": [
+          "The bridge once served pedestrians and now also allows bicycles.",
+          "The bridge once served bicycles and now also allows pedestrians.",
+          "The bridge has always served bicycles but has never allowed pedestrians.",
+          "The bridge now serves pedestrians but no longer allows bicycles."
+         ],
+         "answer": 0,
+         "why": "原文说过去供行人使用，现在也允许自行车通行，对应第一项。",
+         "point": "meaning"
+        }
+       ]
+      },
+      {
+       "text": "中文：村民先修理水渠，然后用河水灌溉田地。",
+       "items": [
+        {
+         "stem": "Which translation preserves the order of actions?",
+         "options": [
+          "The villagers irrigated the fields before repairing the channel.",
+          "The villagers repaired the channel and then irrigated the fields with river water.",
+          "The villagers repaired the fields and then irrigated the channel with river water.",
+          "The villagers irrigated the channel and then repaired the river beside the fields."
+         ],
+         "answer": 1,
+         "why": "原文先修理水渠，再用河水灌溉田地，对应第二项。",
+         "point": "meaning"
+        }
+       ]
+      },
+      {
+       "text": "中文：当地博物馆展示了居民过去使用的工具。",
+       "items": [
+        {
+         "stem": "Which translation is a complete sentence with the original meaning?",
+         "options": [
+          "The local museum displaying tools that residents once used.",
+          "The local museum, which displays tools used by residents.",
+          "The local museum displays tools that residents once used.",
+          "The tools used by the local museum once displayed residents."
+         ],
+         "answer": 2,
+         "why": "第三项主语和谓语齐全，定语从句 that residents once used 对应居民过去使用的。第一项的 displaying 不能作谓语，句子不完整。",
+         "point": "structure"
+        }
+       ]
+      },
+      {
+       "text": "中文：由于道路改善，村民到市场更加方便。",
+       "items": [
+        {
+         "stem": "Which translation preserves the cause and result?",
+         "options": [
+          "The road improved because villagers reached the market more easily.",
+          "The market improved because villagers built a new road.",
+          "The road improved, although villagers could not reach the market.",
+          "Improved roads made it easier for villagers to reach the market."
+         ],
+         "answer": 3,
+         "why": "道路改善是原因，到市场更方便是结果，对应第四项。",
+         "point": "meaning"
+        }
+       ]
+      },
+      {
+       "text": "中文：这条河为附近的农田提供水源。",
+       "items": [
+        {
+         "stem": "Arrange the chunks to translate the sentence.",
+         "chunks": [
+          "The river",
+          "provides",
+          "water",
+          "for nearby fields."
+         ],
+         "extra": [
+          "is"
+         ],
+         "why": "provides 是谓语，water 是宾语，for nearby fields 指受益对象。",
+         "point": "structure"
+        }
+       ]
+      },
+      {
+       "text": "中文：居民在旧车站举办展览。",
+       "items": [
+        {
+         "stem": "Arrange the chunks to translate the sentence.",
+         "chunks": [
+          "Residents",
+          "hold",
+          "an exhibition",
+          "at the old station."
+         ],
+         "extra": [
+          "holding"
+         ],
+         "why": "hold 是谓语，an exhibition 是宾语，地点状语位于句末。",
+         "point": "structure"
+        }
+       ]
+      },
+      {
+       "text": "中文：这些工人去年修复了屋顶。",
+       "items": [
+        {
+         "stem": "Complete the translation with the past form of repair: The workers ____ the roof last year.",
+         "accept": [
+          "repaired"
+         ],
+         "why": "last year 表示过去时间，repair 用过去式 repaired。",
+         "point": "wording"
+        }
+       ]
+      },
+      {
+       "text": "中文：这两个村庄有共同的市场。",
+       "items": [
+        {
+         "stem": "Complete the translation with the plural form of village: The two ____ share a market.",
+         "accept": [
+          "villages"
+         ],
+         "why": "two 后接复数名词，village 的复数是 villages。",
+         "point": "wording"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

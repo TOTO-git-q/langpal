@@ -1,0 +1,66 @@
+{
+ "id": "reading-passage-expository",
+ "title": "说明文的解释结构",
+ "goal": "识别说明文的组织方式，区分研究方法、发现与解释范围。",
+ "skill": "阅读",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "structure", "label": "判断说明文的主要组织方式"},
+  {"id": "research", "label": "区分研究方法、发现与解释范围"}
+ ],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "说明文结构与研究信息"}],
+ "cards": [
+  {"id": "structure", "type": "table", "title": "结构", "cols": ["结构", "信息关系", "例"], "rows": [
+   ["现象与原因", "先说明现象，再解释产生原因。", "The window misted up because warm air met the cold glass."],
+   ["问题与解决", "先提出困难，再说明应对办法。", "The path flooded, so workers added a drain."],
+   ["研究与发现", "介绍研究对象和方法，再报告结果。", "Researchers compared two schedules and recorded attendance."],
+   ["例子与解释", "用具体实例说明前后的概括。", "Some surfaces absorb water; a sponge is one example."],
+   ["数据与结论", "数字说明测到的情况。结论只适用于测量的范围。", "In this group, 12 of 20 chose the earlier session."]
+  ]},
+  {"id": "expressions", "type": "table", "title": "常用表达", "cols": ["表达", "作用", "例"], "rows": [
+   ["because", "引出所述现象的原因。", "The shade moved because the sun's position changed."],
+   ["to solve the problem", "引出应对前述问题的办法。", "To solve the problem, staff labeled the shelves."],
+   ["compared", "说明研究中比较的对象。", "The team compared morning and evening visits."],
+   ["found", "引出实际观察到的结果。", "The team found more visits in the morning."],
+   ["associated with", "表示同时出现的关系。", "Longer visits were associated with more exhibits viewed."],
+   ["limited to", "限定研究对象或结果适用范围。", "The survey was limited to one school."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A small library recorded the times when its study rooms were used. It compared visits on weekdays and weekends for one month. More people used the rooms on weekends. Weekend visitors also stayed longer on average. The library did not ask visitors why they chose those times, and the records came from only one library."},
+   {"box": "Which conclusion is supported by the records?\n1. Weekday visitors stayed longer than weekend visitors.\n2. The library's weekend visitors stayed longer on average.\n3. All libraries had more weekend visitors that month.\n4. Visitors chose weekends because rooms were quieter."},
+   {"p": "研究对象是这家图书馆的自习室使用记录。方法是比较一个月内工作日和周末的访问。"},
+   {"p": "依据：Weekend visitors also stayed longer on average，这是观察到的结果。第二项保留了 the library's 和 on average 两个范围。材料没有问访客为什么选这个时段，第四项的原因没有依据。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "例", "排除方法"], "rows": [
+   ["方法与结果", "把比较了什么当成发现了什么。", "compared 后是方法，found 后是结果。"],
+   ["相关与因果", "说周末使访客停留更久。", "看材料有没有调查原因。"],
+   ["范围扩大", "把一家图书馆的记录推广到所有图书馆。", "核对调查地点及时间。"],
+   ["例子与主张", "把一个周末的数据当作所有时间的结论。", "核对数据对应的时间范围。"]
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["structure", "research"], "groups": [
+   {"look": "passage", "text": "The labels on the jars faded in sunlight. Staff replaced them with labels placed inside a covered holder.", "items": [{"stem": "How is the information organized?", "options": ["A problem is followed by a response.", "A response is followed by a new problem.", "Two research findings are compared.", "Two possible causes are tested."], "answer": 0, "why": "依据：faded in sunlight 是问题，Staff replaced them with labels placed inside a covered holder 是应对办法。", "point": "structure"}]},
+   {"look": "passage", "text": "A metal lid becomes easier to remove after warm water is poured over it. Heating causes the lid to expand.", "items": [{"stem": "What relationship links the two sentences?", "options": ["A method is followed by a survey of metal lids.", "An observation is followed by an explanation.", "A solution is followed by its cost.", "A result is followed by a new test."], "answer": 1, "why": "依据：第一句 becomes easier to remove 是现象，第二句 Heating causes the lid to expand 是解释。", "point": "structure"}]},
+   {"look": "passage", "text": "The team counted bicycle visits at two entrances. The northern entrance had more visits during the week observed.", "items": [{"stem": "What was the team's method?", "options": ["Asking cyclists which route they preferred", "Closing the northern entrance for a week", "Counting visits at two separate entrances", "Changing the number of bicycles at each entrance"], "answer": 2, "why": "依据：The team counted bicycle visits at two entrances，这是方法。后一句报告的是结果。", "point": "research"}]},
+   {"look": "passage", "text": "In a survey of one class, students who read more often also reported borrowing more books. The survey did not test why.", "items": [{"stem": "What does the survey establish?", "options": ["Borrowing caused students to read more.", "Reading caused every student to borrow more books.", "Students in every class showed the same pattern.", "Reading and borrowing were related in this class."], "answer": 3, "why": "依据：students who read more often also reported borrowing more books。这只说明本班的两种行为相关。The survey did not test why，第一项的因果没有依据。", "point": "research"}]}
+  ]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["structure", "research"], "groups": [
+   {"look": "passage", "text": "A community centre wanted to learn when its rooms were used. For four weeks, staff recorded the number of bookings each morning and evening. Evening bookings were more numerous in three of the four weeks. The staff did not record how many people attended each booking. Because the records covered only one centre and one month, they describe this period rather than every centre's use.", "items": [
+    {"stem": "How does the passage develop its explanation?", "options": ["It presents a question, a method and a finding.", "It presents a cause, an objection and a reply.", "It lists two unrelated problems and their costs.", "It describes a solution before identifying a problem."], "answer": 0, "why": "依据：材料先说研究目的 wanted to learn when its rooms were used，再说记录方法，最后说结果：晚间预订较多。", "point": "structure"},
+    {"stem": "What was measured by the staff?", "options": ["The number of people at every booking", "The number of bookings at different times", "The room use of every community centre", "The length of time each booking lasted"], "answer": 1, "why": "依据：staff recorded the number of bookings each morning and evening。统计的是不同时段的预订数。参加人数没有记录。", "point": "research"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["structure", "research"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "At a neighborhood seed exchange, visitors used to leave packets on a single long table. By the afternoon, packets that had started in separate groups were mixed together. Visitors searching for a particular kind often had to examine many packets, while volunteers spent time putting them back into groups.\n\nThe organizers decided to change the layout for the next exchange. They placed several shallow boxes on the table and attached a large category label to each one. They also printed a short description on a card inside each box. A visitor looking for seeds for climbing plants, for example, could read the card before examining the individual packets. The cards described the categories rather than promising how any particular plant would grow.\n\nVolunteers observed the new layout during the next event. They noted how often they had to return a packet to a different box and asked visitors whether the labels were easy to follow. At the end of the afternoon, the boxes still contained some misplaced packets, but volunteers reported spending less time sorting than at the previous exchange. Several visitors said the large labels helped them begin their search.\n\nThese observations describe two events with different layouts. They do not establish exactly how much time the boxes saved, since the number of visitors and the range of packets also changed. The organizers kept the boxes for the following exchange and planned to count misplaced packets at several events. That would provide a more consistent record of how the system worked as attendance varied.", "items": [
+    {"stem": "How does the passage mainly develop its account?", "options": ["It describes a problem and an attempted solution.", "It explains how to grow climbing plants from seed.", "It argues against the use of any category labels.", "It reports exactly how much time the boxes saved."], "answer": 0, "why": "依据：首段讲种子袋混在一起、找起来费时，这是问题。后文讲改用分类盒，以及志愿者观察到的结果。", "point": "structure"},
+    {"stem": "What did volunteers observe during the event with boxes?", "options": ["How quickly each kind of seed grew", "How often packets needed to change boxes", "What visitors wrote on the category cards", "How packets mixed on the old single table"], "answer": 1, "why": "依据：They noted how often they had to return a packet to a different box。志愿者记录的是种子袋放错盒子的情况。", "point": "research"},
+    {"stem": "Why can the observations not show exactly how much time the boxes saved?", "options": ["Misplaced packets were not noted at all.", "Visitors found the labels hard to follow.", "Other conditions differed between the events.", "The boxes still held some misplaced packets."], "answer": 2, "why": "依据：since the number of visitors and the range of packets also changed。两次活动的人数和种子种类也不同，所以算不出盒子省了多少时间。", "point": "research"}
+   ]},
+   {"look": "passage", "text": "A town museum wanted to understand how visitors used its map of local walking routes. The printed map showed routes of different lengths, as well as the positions of benches and water fountains. Staff noticed that some maps were taken from the entrance but did not know which features visitors actually consulted.\n\nFor one month, a team invited adults leaving the museum to complete a short voluntary survey. The form asked whether they had used the map and, if so, which features they had checked. The team collected responses on both weekdays and weekends. It did not follow visitors on their walks or measure the routes they completed.\n\nAmong the people who returned the form, 80 said they had used the map. Of those users, 52 reported checking route lengths and 34 reported checking bench locations. A person could select more than one feature, so the two numbers overlap. The survey also showed that respondents who checked bench locations tended to report spending longer on their walks.\n\nThe responses help the museum decide what information to keep visible when the map is redesigned. They do not show that checking bench locations made people walk longer. Visitors who planned longer walks may simply have been more interested in places to rest. Nor do the forms represent everyone who took a map: completing the survey was voluntary, and it covered adults who left the museum during one month. Staff plan to compare these answers with feedback gathered at other times of year before making larger changes.", "items": [
+    {"stem": "How is the main research information organized?", "options": ["A map redesign is followed by visitor feedback.", "A survey is followed by the question it raised.", "A cause is followed by its effect on walk length.", "A question is followed by a survey and its results."], "answer": 3, "why": "依据：首段 did not know which features visitors actually consulted 是要弄清的问题。第二段是问卷方法，第三段是结果。", "point": "structure"},
+    {"stem": "What did the survey ask participants to report?", "options": ["Which parts of the map they had consulted", "Which features should stay on the new map", "How long the routes shown on the map were", "How many visitors completed each walking route"], "answer": 0, "why": "依据：The form asked whether they had used the map and, if so, which features they had checked。问卷问的是看过地图上的哪些信息。", "point": "research"},
+    {"stem": "What can be concluded about bench information and walk length?", "options": ["Looking at benches made every reported walk longer.", "The two reports were related among respondents.", "Planning long walks made visitors check benches.", "Every map user checked the bench locations."], "answer": 1, "why": "依据：respondents who checked bench locations tended to report spending longer on their walks。答卷人中两者有关联，但材料说明这不能证明谁导致谁。", "point": "research"}
+   ]}
+  ]}]}
+ ]
+}

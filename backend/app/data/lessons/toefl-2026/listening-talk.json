@@ -1,0 +1,405 @@
+{
+ "id": "listening-talk",
+ "title": "Listen to an Academic Talk：一边听一边搭出骨架",
+ "goal": "一段 100–250 词的学术短讲只听一遍，四题里答对三题以上：听出讲的是哪个概念、例子是给谁作证的、最后落在哪。",
+ "skill": "listening",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 听力",
+ "points": [
+  {
+   "id": "main",
+   "label": "讲的是哪个概念，主旨是什么"
+  },
+  {
+   "id": "organization",
+   "label": "一个例子、一段话是用来干什么的"
+  },
+  {
+   "id": "detail",
+   "label": "细节，以及往前推一步的推断"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、录音长度、只放一遍"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "各题型的说明、考查的能力、官方样题"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Listening Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-listening.pdf",
+   "used": "第 1 课：四类题的说明和小测答案；第 2、4 课：应答配对、重音和语调"
+  }
+ ],
+ "cards": [
+  {
+   "id": "facts",
+   "type": "facts",
+   "title": "这道题是什么",
+   "rows": [
+    {
+     "k": "在哪",
+     "v": "听力部分四类题之一，8–16 题。每段短讲后面四道题。",
+     "src": "spec 第 4 页；overview 第 12 页"
+    },
+    {
+     "k": "听什么",
+     "v": "模拟老师讲课的一段短讲，约 100–250 词。题材来自历史、艺术与音乐、生命科学、自然科学、商业与经济、社会科学。不需要背景知识：答题要用的信息都在短讲里。",
+     "src": "overview 第 12 页；lessonplan 第 7 页"
+    },
+    {
+     "k": "题目的顺序",
+     "v": "第一题总是问全篇的要点或一个关键概念；后面三题大体按内容出现的先后排。官方教案说，这也是有些考生觉得有条理地记笔记有帮助的原因。",
+     "src": "lessonplan 第 7 页"
+    },
+    {
+     "k": "官方说它考什么",
+     "v": "主要观点和支撑它的内容；各种语法结构；根据所讲内容作推断；短讲的组织方式；有时不常见、口语化或习语性的词汇。",
+     "src": "overview 第 12 页"
+    },
+    {
+     "k": "难度",
+     "v": "官方标的范围是 A2 到 C2，是听力里上限最高的一类。",
+     "src": "spec 第 4 页"
+    },
+    {
+     "k": "整个听力部分",
+     "v": "47 题，约 29 分钟，分两段自适应。每段录音只放一遍。说话人有北美、英国、澳大利亚三种口音。",
+     "src": "spec 第 1、4、11 页；overview 第 8 页；lessonplan 第 7 页"
+    }
+   ]
+  },
+  {
+   "id": "shape",
+   "type": "steps",
+   "title": "一段短讲的五个位置",
+   "steps": [
+    {
+     "t": "一　引子",
+     "d": "一个问题或一个身边的例子：Have you ever noticed ...? / Let's say you have an exam in a week ...。它本身不是主题，是用来引出概念的。"
+    },
+    {
+     "t": "二　概念和名字",
+     "d": "... and it's called the spacing effect. / Planners have a name for those tracks。听到 called、a name for、what ... call，后面就是全篇的主题。"
+    },
+    {
+     "t": "三　解释",
+     "d": "概念是什么、怎么起作用。常用 When ..., ... / That is exactly what ...。"
+    },
+    {
+     "t": "四　转折或对比",
+     "d": "For a long time ... More recently ... / There is a catch. / This idea matters because ...。转折后面的内容几乎一定出题。"
+    },
+    {
+     "t": "五　落点",
+     "d": "So the next time ... / So don't trust the feeling.。讲者的态度和建议在这里，推断题常问。"
+    }
+   ],
+   "note": "官方样题（硬性注意和柔性注意）就是这个顺序：电影的例子，概念的名字，第二个概念，后果，建议。见 overview 第 12 页。"
+  },
+  {
+   "id": "notes",
+   "type": "text",
+   "title": "笔记：五行就够",
+   "body": [
+    {
+     "p": "题目按内容的先后出，所以笔记也按先后记，一个位置一行，每行三五个词。不记整句，不记自己本来就记得住的例子细节。"
+    },
+    {
+     "box": "1  引子    park shortcut on grass\n2  概念    desire path = people walk where they want\n3  解释    shortest line\n4  转折    before: fences, signs → failed   |  now: free information; wait 1 yr, then build\n5  落点    not damage → a message"
+    },
+    {
+     "p": "第四行最要紧：before 和 now 各记了什么，哪个是讲者赞成的。四道题里通常有两道落在这一行。"
+    }
+   ],
+   "src": "记笔记有帮助的说法见 lessonplan 第 7 页；这个五行的记法是本课的建议。"
+  },
+  {
+   "id": "kinds",
+   "type": "table",
+   "title": "四种问法",
+   "cols": [
+    "问法",
+    "题干常见的样子",
+    "答案在哪",
+    "错项长什么样"
+   ],
+   "rows": [
+    [
+     "主题",
+     "What is the topic of the talk? / What is the talk mainly about?",
+     "第二个位置：概念的名字和它的定义。",
+     "引子里的例子（电影、考试）；只盖住一半内容的说法。"
+    ],
+    [
+     "为什么提到",
+     "Why does the speaker mention ...?",
+     "看它前后：它是在引出概念，还是在给某句话作证。",
+     "只复述例子的内容。"
+    ],
+    [
+     "细节",
+     "What does the speaker say about ...? / According to the speaker, why ...?",
+     "第三、四个位置。",
+     "把转折前后的两种情况说反。"
+    ],
+    [
+     "推断",
+     "What does the speaker imply about ...?",
+     "第五个位置的态度，往前推一步。",
+     "讲者没有表态的事；说得太满。"
+    ]
+   ],
+   "src": "前三种问法都能在官方样题里看到，见 lessonplan 第 4–5 页。"
+  },
+  {
+   "id": "worked",
+   "type": "check",
+   "title": "带着做一段",
+   "points": [
+    "main",
+    "organization",
+    "detail"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a talk in an urban planning class.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Have you ever noticed a dirt track cutting across the grass in a park, even though there's a paved path just a few meters away? Planners have a name for those tracks: desire paths. A desire path appears when many people ignore the official route and walk where they actually want to go, usually the shortest line between two points. For a long time, designers treated these paths as a problem. They put up fences and signs, and they planted bushes to keep people on the pavement. It rarely worked. People simply walked around the fence and made a new track. More recently, some planners have started to see desire paths as free information. A few universities have even opened new campuses without any paved walkways at all. They wait a year, watch where the grass wears down, and only then build the permanent paths along those lines. The idea is simple: instead of telling people where to walk, let their feet show you. So the next time you see a muddy shortcut, don't think of it as damage. Think of it as a message from the people who use the space."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is the talk mainly about?",
+       "options": [
+        "How to build stronger pavements",
+        "Why people damage parks",
+        "How planners understand the informal paths that walkers create",
+        "The history of university campuses"
+       ],
+       "answer": 2,
+       "why": "概念是 desire paths，全篇讲规划者怎么看它：从当成问题到当成信息。B 是讲者最后明确否定的看法。",
+       "point": "main"
+      },
+      {
+       "stem": "Why does the speaker mention fences and signs?",
+       "options": [
+        "To show that earlier attempts to stop the paths failed",
+        "To explain how parks are kept safe",
+        "To describe what desire paths look like",
+        "To recommend a way of protecting grass"
+       ],
+       "answer": 0,
+       "why": "For a long time ... It rarely worked。这是转折之前的旧做法，用来衬出后面的新看法。",
+       "point": "organization"
+      },
+      {
+       "stem": "According to the speaker, what do some universities do on new campuses?",
+       "options": [
+        "They build fences along the grass.",
+        "They pave every possible route.",
+        "They ask students to vote on the paths.",
+        "They wait to see where people walk before building paths."
+       ],
+       "answer": 3,
+       "why": "They wait a year, watch where the grass wears down, and only then build。",
+       "point": "detail"
+      },
+      {
+       "stem": "What does the speaker imply by calling a shortcut “a message”?",
+       "options": [
+        "People should be told where to walk.",
+        "The paths show what users of a space need.",
+        "Parks need more signs.",
+        "Shortcuts are usually dangerous."
+       ],
+       "answer": 1,
+       "why": "don't think of it as damage. Think of it as a message from the people who use the space：它告诉设计者人们真正想怎么走。",
+       "point": "detail"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "限时练习",
+   "minutes": 5,
+   "pass": 0.75,
+   "points": [
+    "main",
+    "organization",
+    "detail"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a talk on a podcast about learning.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Let's say you have an exam in a week and five hours to study for it. You could do all five hours the night before, or you could study one hour a day for five days. Same total time. Which works better? Research on memory gives a clear answer, and it's called the spacing effect. When you study something once and then come back to it after a break, your brain has to work to bring the information back. That effort is exactly what strengthens the memory. When you repeat the same material again and again in one sitting, it feels easy, and that feeling is misleading. You think you know it, but what you're really noticing is that it's still fresh. There is a catch. Spaced study feels harder and slower, so many students give it up. In several experiments, people who crammed rated their own learning higher than people who spaced their study, even though they scored lower on a test a week later. So don't trust the feeling. If your review session feels a little difficult, that's usually a sign it's working."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is the talk mainly about?",
+         "options": [
+          "How to study the night before an exam",
+          "Why spreading study over time improves memory",
+          "How to measure a student's memory",
+          "Why exams are scheduled a week apart"
+         ],
+         "answer": 1,
+         "why": "概念是 the spacing effect。A 是被拿来对比的做法。",
+         "point": "main"
+        },
+        {
+         "stem": "Why does the speaker describe two ways of using five hours?",
+         "options": [
+          "To introduce the concept with a familiar situation",
+          "To show that five hours is not enough",
+          "To explain how exams are graded",
+          "To compare two different exams"
+         ],
+         "answer": 0,
+         "why": "这是引子：用一个人人遇到过的选择引出概念。",
+         "point": "organization"
+        },
+        {
+         "stem": "According to the speaker, why does repeating material in one sitting feel easy?",
+         "options": [
+          "The brain is working hard.",
+          "The student has learned it well.",
+          "The material is simple.",
+          "The material is still fresh in the mind."
+         ],
+         "answer": 3,
+         "why": "what you're really noticing is that it's still fresh。B 正是讲者说的错觉。",
+         "point": "detail"
+        },
+        {
+         "stem": "What does the speaker imply about a review session that feels difficult?",
+         "options": [
+          "The student should stop and rest.",
+          "The material is too advanced.",
+          "The session is probably effective.",
+          "The student should study the night before instead."
+         ],
+         "answer": 2,
+         "why": "If your review session feels a little difficult, that's usually a sign it's working。",
+         "point": "detail"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "set-b",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a talk in an economics class.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I want to start today with a question. You have a free evening, and a friend gives you a ticket to a concert. The ticket cost you nothing. So is going to the concert free? Most people say yes. An economist would say no, and the reason is a concept called opportunity cost. The opportunity cost of any choice is the value of the best alternative you give up. If you would otherwise have spent that evening working a shift that pays sixty dollars, then the concert costs you sixty dollars, even though no money leaves your pocket. This idea matters because it changes how we compare options. Take a student deciding whether to go to graduate school. The obvious costs are tuition and books. The hidden cost, often the larger one, is the salary that student would have earned by working during those years. Leaving it out makes graduate school look cheaper than it really is. Notice that opportunity cost isn't always about money. Time is limited, so every hour you spend on one activity is an hour you can't spend on another."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is the talk mainly about?",
+         "options": [
+          "How to get free concert tickets",
+          "Why graduate school is expensive",
+          "How much students earn after graduation",
+          "The idea that the cost of a choice is what you give up"
+         ],
+         "answer": 3,
+         "why": "概念是 opportunity cost：the value of the best alternative you give up。",
+         "point": "main"
+        },
+        {
+         "stem": "Why does the speaker mention the concert ticket?",
+         "options": [
+          "To recommend a concert",
+          "To show that something with no price can still have a cost",
+          "To explain how tickets are priced",
+          "To compare concerts with work"
+         ],
+         "answer": 1,
+         "why": "引子。票不要钱，但放弃了一个六十美元的班。",
+         "point": "organization"
+        },
+        {
+         "stem": "According to the speaker, what is the hidden cost of graduate school?",
+         "options": [
+          "The income not earned while studying",
+          "The price of books",
+          "The cost of tuition",
+          "The interest on student loans"
+         ],
+         "answer": 0,
+         "why": "the salary that student would have earned by working during those years。学费和书是 obvious costs。",
+         "point": "detail"
+        },
+        {
+         "stem": "What does the speaker suggest about time?",
+         "options": [
+          "Time is less important than money.",
+          "Students should work instead of studying.",
+          "Choosing how to spend time also has an opportunity cost.",
+          "Free time has no cost."
+         ],
+         "answer": 2,
+         "why": "opportunity cost isn't always about money ... every hour you spend on one activity is an hour you can't spend on another。",
+         "point": "detail"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "more": {
+    "kind": "talk",
+    "topics": [
+     "锚定效应（心理学）",
+     "比较优势（经济学）",
+     "共生（生物学）",
+     "确认偏误（心理学）",
+     "规模经济（经济学）",
+     "拟态（生物学）",
+     "风化和侵蚀（地球科学）",
+     "文艺复兴时期的透视法（艺术史）",
+     "沉没成本（经济学）",
+     "条件反射（心理学）",
+     "食物网（生态学）",
+     "温室效应（环境科学）",
+     "口述历史（历史学）",
+     "社会规范（社会学）",
+     "边际效用（经济学）",
+     "自然选择（生物学）",
+     "选择太多为什么让人为难（心理学）",
+     "城市的同心圆模型（地理学）"
+    ]
+   }
+  }
+ ]
+}

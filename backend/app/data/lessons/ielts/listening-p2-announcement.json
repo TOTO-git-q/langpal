@@ -1,0 +1,497 @@
+{
+ "id": "listening-p2-announcement",
+ "title": "公共服务说明",
+ "goal": "按说明结构定位要求；区分一般安排与例外。",
+ "skill": "听力",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "structure",
+   "label": "按说明结构定位要求"
+  },
+  {
+   "id": "exception",
+   "label": "区分一般安排与例外"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "雅思 IELTS Academic：课表",
+   "url": "docs/syllabi/ielts.md",
+   "used": "听力：日常独白 Part 2；本课内容、知识点及教学尺寸"
+  }
+ ],
+ "cards": [
+  {
+   "id": "structure",
+   "type": "table",
+   "title": "结构",
+   "cols": [
+    "位置",
+    "内容",
+    "例句"
+   ],
+   "rows": [
+    [
+     "对象",
+     "先确定说明针对哪些人。",
+     "This message is for volunteers joining the evening session."
+    ],
+    [
+     "事项",
+     "确定开放、报名或变更的是哪一项服务。",
+     "The viewing platform will reopen on Saturday."
+    ],
+    [
+     "时间",
+     "区分活动时刻与登记截止时刻。",
+     "The talk begins at seven; registration closes at noon."
+    ],
+    [
+     "要求",
+     "要求只适用于被点名的那类人，如 speakers。",
+     "Speakers must send a title; listeners need not do so."
+    ],
+    [
+     "例外",
+     "except 后面的情况不按一般安排执行。",
+     "The office opens daily except on public holidays."
+    ],
+    [
+     "临时变更",
+     "this week only 说明新安排只在本周有效。",
+     "This week only, the entrance is on the east side."
+    ]
+   ]
+  },
+  {
+   "id": "access",
+   "type": "table",
+   "title": "常用表达：资格与登记",
+   "cols": [
+    "表达",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "members only",
+     "只对会员本人开放。",
+     "The reference room is for members only."
+    ],
+    [
+     "restricted to members",
+     "只有会员能进入或使用所指的那项服务。",
+     "Evening access is restricted to members."
+    ],
+    [
+     "only current members may …",
+     "会员资格必须在有效期内。",
+     "Only current members may borrow equipment."
+    ],
+    [
+     "register in advance",
+     "必须在活动前登记，到场后不能再申请。",
+     "Participants must register in advance for the walk."
+    ],
+    [
+     "prior registration is required",
+     "登记是必需的条件，不是建议。",
+     "Prior registration is required for the demonstration."
+    ],
+    [
+     "book by …",
+     "by 后面是预订的截止时间，不是活动开始的时间。",
+     "Book by Thursday for the Saturday session."
+    ]
+   ]
+  },
+  {
+   "id": "exceptions",
+   "type": "table",
+   "title": "常用表达：例外与变更",
+   "cols": [
+    "表达",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "except on public holidays",
+     "节假日不按平常的安排开放。",
+     "The centre opens every day except on public holidays."
+    ],
+    [
+     "excluding bank holidays",
+     "所指的假日除外，其余日子照常。",
+     "Collections take place on Mondays, excluding bank holidays."
+    ],
+    [
+     "unless it is a public holiday",
+     "遇到节假日，前面的安排不执行。",
+     "The desk opens on Fridays unless it is a public holiday."
+    ],
+    [
+     "for this week only",
+     "临时安排只在本周有效。",
+     "For this week only, registration is at the side desk."
+    ],
+    [
+     "instead of",
+     "新安排取代原安排，两者不同时执行。",
+     "The meeting is in the lounge instead of the hall."
+    ],
+    [
+     "all other arrangements remain unchanged",
+     "只改提到的那一项，其余安排不变。",
+     "The start moves to six; all other arrangements remain unchanged."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "This notice concerns visitors to the clock tower. Guided visits normally begin at ten on Saturdays, except on public holidays. This Saturday is not a public holiday, but the visit will begin at eleven because of maintenance. Registration is still required by Friday. The booking desk is open to everyone; the evening viewing session remains for members only."
+    },
+    {
+     "box": "Which visitor can join this Saturday's guided visit?\n1. A visitor arriving at ten without registering\n2. A visitor waiting for the members' evening session\n3. A visitor registering on Saturday before eleven\n4. A visitor registered by Friday and arriving at eleven"
+    },
+    {
+     "p": "第四项同时满足两个条件：周五前登记，十一点到场。normally 引出一般安排，this Saturday 和 but 引出本次变更。still 说明登记要求不变。"
+    },
+    {
+     "p": "members only 只限定 evening viewing session，与白天的 guided visits 无关。同一说明里的会员限制，不套用到其他服务上。"
+    }
+   ]
+  },
+  {
+   "id": "errors",
+   "type": "table",
+   "title": "常见错误",
+   "cols": [
+    "类型",
+    "例",
+    "依据"
+   ],
+   "rows": [
+    [
+     "对象扩大",
+     "Evening access is for members only. → all visits",
+     "会员条件只针对晚间进入。"
+    ],
+    [
+     "截止与开始混同",
+     "Book by noon; the event starts at six. → book at six",
+     "noon 是截止点，six 是活动开始。"
+    ],
+    [
+     "例外遗漏",
+     "Open daily except holidays. → open on a holiday",
+     "except 排除了节假日。"
+    ],
+    [
+     "临时当永久",
+     "This week only: use the side door. → always",
+     "变更只在本周有效。"
+    ],
+    [
+     "变更范围扩大",
+     "New venue; all other arrangements unchanged. → new time",
+     "只换了场地，时间没有变。"
+    ]
+   ]
+  },
+  {
+   "id": "check-short",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "structure",
+    "exception"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "This message is for mural volunteers. Painting begins at nine on Sunday, but names must be registered by Friday. Visitors who only want to look at the finished mural don't need to register."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What must someone joining the painting do?",
+       "options": [
+        "Arrive on Friday to view the mural",
+        "Register by Friday for Sunday's work",
+        "Register on Sunday before viewing",
+        "Wait until the finished mural opens"
+       ],
+       "answer": 1,
+       "why": "依据是 names must be registered by Friday，这条要求针对 mural volunteers。第二项说的就是周五前登记、周日参加。",
+       "point": "structure"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The community choir normally rehearses in the school hall. For this week only, rehearsal is in the dining room at the usual time. Next week's rehearsal will be back in the hall."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Where should choir members go this week?",
+       "options": [
+        "To the hall at the usual time",
+        "To the hall at a later time",
+        "To the dining room next week",
+        "To the dining room at the usual time"
+       ],
+       "answer": 3,
+       "why": "依据是 For this week only, rehearsal is in the dining room at the usual time。本周只换场地，时间不变，即第四项。",
+       "point": "exception"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Animal shelter tours run each Monday, excluding bank holidays. This coming Monday is a bank holiday, so the next tour will be on the following Monday."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which tour arrangement is valid?",
+       "options": [
+        "The tour resumes on the following Monday.",
+        "The next tour runs on the bank holiday.",
+        "The tour moves to the day before the holiday.",
+        "The holiday tour runs later on the same day."
+       ],
+       "answer": 0,
+       "why": "依据是 the next tour will be on the following Monday。这个周一是假日，参观停一次，下一次在再下一个周一，即第一项。",
+       "point": "exception"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The digital library session is open to all residents. Anyone wishing to use a laptop must reserve one beforehand. Residents bringing their own device don't need an equipment reservation."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which attendee must make an equipment reservation?",
+       "options": [
+        "A resident bringing a personal tablet",
+        "A resident bringing a personal laptop",
+        "A resident needing a library laptop",
+        "A resident using only a personal device"
+       ],
+       "answer": 2,
+       "why": "依据是 Anyone wishing to use a laptop must reserve one。自带设备的人不用预约，要借用电脑的人才需预约，即第三项。",
+       "point": "structure"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-talk",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "structure",
+    "exception"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "This announcement concerns public visits to the rooftop garden. The garden normally opens from ten until four on weekdays. It closes on public holidays, even when they fall on a weekday. Visits are open to everyone, but the gardening workshop is restricted to members and requires advance booking. This Wednesday, which is not a public holiday, the garden will open at noon because staff are replacing a water pipe. Closing time remains four. The workshop will still begin at two, and existing bookings remain valid. The delayed garden opening doesn't cancel the workshop or change who can attend."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What must a gardening-workshop participant have?",
+       "options": [
+        "Membership without an advance booking",
+        "An advance booking without membership",
+        "Admission during ordinary public hours",
+        "Membership and an advance booking"
+       ],
+       "answer": 3,
+       "why": "依据是 restricted to members and requires advance booking。会员身份和提前预约两项都要有，即第四项。",
+       "point": "structure"
+      },
+      {
+       "stem": "What is the full public opening period this Wednesday?",
+       "options": [
+        "From noon until four",
+        "From ten until four",
+        "From two until four",
+        "From ten until noon"
+       ],
+       "answer": 0,
+       "why": "依据是 will open at noon 和 Closing time remains four。本周三从中午开到四点，即第一项。",
+       "point": "exception"
+      },
+      {
+       "stem": "How does the delayed opening affect the workshop?",
+       "options": [
+        "It cancels the existing bookings.",
+        "It leaves the two o'clock session in place.",
+        "It admits visitors without membership.",
+        "It moves the session to noon, when the garden opens."
+       ],
+       "answer": 1,
+       "why": "依据是 The workshop will still begin at two, and existing bookings remain valid。推迟的只是花园开放，工作坊仍在两点，即第二项。",
+       "point": "exception"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "structure",
+    "exception"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the introduction.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "This announcement is about access to the community darkroom and its exhibition space. The exhibition is open to everyone from ten until five, Monday to Saturday, except on public holidays. No exhibition booking is needed. The darkroom itself has different conditions. It is restricted to current members who have completed the introductory session, and a work period must be reserved in advance. Membership on its own doesn't allow someone to arrive and use the equipment without a booking. This Friday is a public holiday, so neither the exhibition nor the darkroom will open that day. Saturday isn't a holiday, and the usual Saturday arrangements will apply. There is also a temporary change affecting next Tuesday only. The exhibition will open at noon instead of ten because staff are moving display panels. Its closing time will remain five. Darkroom reservations for that Tuesday aren't affected, since the equipment area has a separate entrance. Anyone holding one of those reservations should use that entrance at the booked time. The delayed exhibition opening doesn't remove the membership or introductory-session requirements for darkroom users. Further enquiries can be made at reception during the normal opening period."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What does a person need to use the darkroom?",
+         "options": [
+          "Current membership, completed induction and a reserved work period",
+          "Current membership and an exhibition visit without a reservation",
+          "An exhibition booking and a work period before induction",
+          "A completed induction and exhibition access without current membership"
+         ],
+         "answer": 0,
+         "why": "依据是 current members who have completed the introductory session 和 reserved in advance。会员、入门课、预约三项都要满足，即第一项。",
+         "point": "structure"
+        },
+        {
+         "stem": "What happens on the public holiday mentioned?",
+         "options": [
+          "Only the exhibition opens at its usual time.",
+          "Only reserved darkroom sessions can continue.",
+          "Both the exhibition and the darkroom are closed.",
+          "Both areas open with the Saturday arrangements."
+         ],
+         "answer": 2,
+         "why": "依据是 neither the exhibition nor the darkroom will open that day。两处都不开放，即第三项。",
+         "point": "exception"
+        },
+        {
+         "stem": "How does next Tuesday's change affect a valid darkroom reservation?",
+         "options": [
+          "The session moves to noon with the exhibition.",
+          "The session keeps its time using a separate entrance.",
+          "The session is cancelled until the following Saturday.",
+          "The session permits use without introductory training."
+         ],
+         "answer": 1,
+         "why": "依据是 Darkroom reservations for that Tuesday aren't affected 和 separate entrance。预约的时间不变，从单独的入口进入，即第二项。",
+         "point": "exception"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the introduction.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'm giving the arrangements for the neighbourhood storytelling evening. This message covers both people who have booked to tell a story and those coming simply to listen. The event is normally held in the village hall on the first Thursday of each month. When that Thursday is a public holiday, the event takes place a week later instead. This month's first Thursday isn't a holiday, so the date remains unchanged. However, the hall is unavailable while its floor is being repaired. For this month only, the evening will take place in the reading room. It will return to the village hall next month. Doors open at half past six, and stories begin at seven as usual. Listeners don't need to register, but anyone telling a story must send its title to the organiser by Tuesday evening. That requirement remains in force despite the change of venue. Booking a place as a storyteller doesn't reserve a seat for accompanying listeners; seating for listeners is allocated on arrival. The reading room's daytime membership rules don't apply to this public evening, so non-members may attend too. Please use the reading room entrance rather than waiting outside the village hall."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is required of someone who plans to tell a story?",
+         "options": [
+          "Reserve seats for all accompanying listeners on arrival",
+          "Register as a daytime member before Thursday evening",
+          "Send a title when the doors open on Thursday",
+          "Send the story title to the organiser by Tuesday"
+         ],
+         "answer": 3,
+         "why": "依据是 anyone telling a story must send its title to the organiser by Tuesday evening。第四项的对象、动作和期限都与这句一致。",
+         "point": "structure"
+        },
+        {
+         "stem": "Which arrangement applies to this month's event?",
+         "options": [
+          "The reading room hosts it on the usual Thursday.",
+          "The village hall hosts it one week after Thursday.",
+          "The reading room hosts it one week after Thursday.",
+          "The village hall hosts it on the usual Thursday."
+         ],
+         "answer": 0,
+         "why": "依据是 the date remains unchanged 和 For this month only, the evening will take place in the reading room。日期不变，只换地点，即第一项。",
+         "point": "exception"
+        },
+        {
+         "stem": "How does the reading room's membership rule apply that evening?",
+         "options": [
+          "It restricts all listeners to current daytime members.",
+          "It permits non-members only if telling a story.",
+          "It does not restrict attendance at the public event.",
+          "It requires listeners to become members on arrival."
+         ],
+         "answer": 2,
+         "why": "依据是 daytime membership rules don't apply to this public evening 和 non-members may attend too。会员规定不限制这次公开活动，即第三项。",
+         "point": "exception"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

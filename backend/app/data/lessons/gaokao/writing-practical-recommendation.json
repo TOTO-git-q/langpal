@@ -1,0 +1,56 @@
+{
+ "id": "writing-practical-recommendation", "title": "推荐信", "goal": "能根据读者需要推荐对象并说明具体理由。", "skill": "写作", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "object", "label": "明确推荐对象及其具体特点"}, {"id": "reason", "label": "依据读者需求选择推荐理由"}],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "推荐信的内容与知识点"}],
+ "cards": [
+  {"id": "structure", "type": "table", "title": "结构", "cols": ["部分", "内容", "例句"], "rows": [
+   ["对象", "说出推荐的书、地点或人", "I recommend the book A Garden Year."],
+   ["特点", "指出对象的具体特点", "It has short chapters and clear pictures."],
+   ["理由", "将特点与读者需求联系", "Its pictures help beginners identify plants."],
+   ["结尾", "重申对象适合的用途", "It is suitable for a first visit to a garden."]
+  ]},
+  {"id": "expressions", "type": "table", "title": "常用表达", "cols": ["用途", "表达", "例句"], "rows": [
+   ["推荐书", "recommend + 书名", "I recommend The River Path for its clear maps."],
+   ["推荐地点", "recommend + 地点", "I recommend the town museum for a rainy afternoon."],
+   ["推荐人选", "recommend + 人 + for + 职务", "I recommend Mei for the guide role."],
+   ["说明适合", "be suitable for + 名词", "Mei is suitable for the guide role."]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [
+   {"p": "假定李华向需要入门读物的同学推荐一本植物书，说明书的特点及推荐理由。"},
+   {"box": "Recommend a book.\nExplain how its features meet a beginner's needs.\n\nDear Ben,\nI recommend A Garden Year as a first book about plants. It introduces common garden plants in short chapters, and each chapter includes a clear picture. The pictures help a beginner match the names with plants seen outside. The book also suggests simple ways to observe leaves throughout the year. Its explanations use everyday language, so there is no need for specialist knowledge. It is suitable for someone starting to learn about plants. I hope these features make the book useful for your reading.\nBest,\nLi Hua"},
+   {"p": "书名说明推荐对象。具体特点有两个：图片帮助识别植物，浅显的解释方便入门阅读。"}
+  ]},
+  {"id": "errors", "type": "table", "title": "常见错误", "cols": ["问题", "不足", "修改"], "rows": [
+   ["对象不明", "I recommend a place.", "I recommend the town museum."],
+   ["只有评价", "The book is excellent.", "The book has pictures that help beginners identify plants."],
+   ["特点与需求脱节", "The museum has a café.（需要了解历史）", "The museum displays objects from local history."],
+   ["人选无依据", "Mei is the best guide.", "Mei has guided visitors at school exhibitions."]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["object", "reason"], "groups": [
+   {"text": "假定同学需要适合雨天参观的地点，李华推荐有室内展览的博物馆。", "items": [
+    {"stem": "Which sentence identifies the place and a feature?", "options": ["I recommend the museum with indoor exhibitions.", "I visited the museum with my classmates last week.", "I learned about the museum from my classmate.", "I recommend staying indoors on rainy days."], "answer": 0, "why": "第一项指出博物馆及其室内展览。", "point": "object"},
+    {"stem": "Which reason addresses the rainy-day need?", "options": ["Its outdoor path leads to the museum garden.", "Its indoor displays remain accessible in rain.", "Its garden contains a path near the displays.", "Its visitors often walk outdoors after a visit."], "answer": 1, "why": "同学需要雨天能去的地方。第二项说室内展览下雨时仍可参观，符合这一需要。", "point": "reason"}
+   ]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["object", "reason"], "groups": [{"items": [
+   {"stem": "Recommend Mei for a guide role.", "lead": "I", "chunks": ["recommend", "Mei", "for", "the guide"], "tail": "role.", "extra": ["recommending"], "why": "recommend Mei for 指明推荐的人选和岗位。", "point": "object"},
+   {"stem": "Explain why a book helps beginners.", "lead": "Its pictures", "chunks": ["help", "beginners", "identify", "the"], "tail": "plants.", "extra": ["identifying"], "why": "help beginners identify 说明图片如何帮助初学者。", "point": "reason"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["object", "reason"], "sets": [{"id": "set-a", "groups": [
+   {"text": "假定同学需要一本有地图的步行指南，李华推荐 The River Path。", "items": [
+    {"stem": "Which sentence names the book and its feature?", "options": ["I recommend The River Path for its detailed maps.", "I borrowed The River Path from a classmate last month.", "I discussed walking guides with my classmate yesterday.", "I visited a river path and took a map home."], "answer": 0, "why": "第一项指出书名及详细地图这一特点。", "point": "object"},
+    {"stem": "Which reason meets the stated need?", "options": ["The guide tells the long history of the river towns.", "Its clear maps help walkers follow the river route.", "The writer borrowed a map from another walker.", "The river route is popular with many walkers."], "answer": 1, "why": "同学需要有地图的步行指南。第二项说书中的地图帮助步行者沿河边路线行走，对应这一需要。", "point": "reason"}
+   ]},
+   {"text": "假定学校需要能向访客介绍展品的讲解员，李华推荐曾讲解展品的 Mei。", "items": [
+    {"stem": "Which sentence names the candidate and her experience?", "options": ["Mei visited the exhibition with a school guide.", "The guide role was discussed at school yesterday.", "I recommend Mei, who has explained exhibits to visitors.", "I recommend that visitors attend the school exhibition."], "answer": 2, "why": "第三项说明推荐 Mei，并写出她讲解展品的经历。", "point": "object"},
+    {"stem": "Which reason connects Mei's experience to the role?", "options": ["Her visit gave her a chance to see the exhibits.", "Her classmates enjoyed visiting the exhibition.", "Her classmates think she is a very friendly person.", "Her guiding experience helps her explain exhibits."], "answer": 3, "why": "讲解员要向访客介绍展品。第四项把 Mei 讲解展品的经历和这项工作联系起来。", "point": "reason"}
+   ]},
+   {"items": [
+    {"stem": "Recommend a museum for a class visit.", "lead": "I", "chunks": ["recommend", "the museum", "for", "our class"], "tail": "visit.", "extra": ["recommending"], "why": "recommend the museum for 指明地点及用途。", "point": "object"},
+    {"stem": "Explain why maps help walkers.", "lead": "The maps", "chunks": ["help", "walkers", "follow", "the river"], "tail": "route.", "extra": ["following"], "why": "help walkers follow 说明地图对步行者的作用。", "point": "reason"},
+    {"stem": "Recommend a person for an organizer role.", "lead": "I", "chunks": ["recommend", "Lin", "for", "the organizer"], "tail": "role.", "extra": ["recommends"], "why": "recommend Lin for 指明人选和岗位。", "point": "object"},
+    {"stem": "Explain why short chapters help beginners.", "lead": "The short chapters", "chunks": ["make", "the book", "suitable", "for"], "tail": "beginners.", "extra": ["suitably"], "why": "make the book suitable for beginners 将章节特点与读者联系起来。", "point": "reason"}
+   ]}
+  ]}]}
+ ]
+}

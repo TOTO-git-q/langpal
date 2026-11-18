@@ -1,0 +1,474 @@
+{
+ "id": "writing-agreement",
+ "title": "主谓一致的判断",
+ "goal": "找出决定谓语形式的主语中心词；选择与主语一致的谓语形式。",
+ "skill": "写作",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "head",
+   "label": "找出决定谓语形式的主语中心词"
+  },
+  {
+   "id": "verb",
+   "label": "选择与主语一致的谓语形式"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语六级（CET-6）：课表",
+   "url": "docs/syllabi/cet6.md",
+   "used": "写作部分本课的内容范围、知识点与练习规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "谓语用单数还是复数，看主语的中心词，不看离谓语最近的名词。介词短语里的复数名词不影响单数中心词。判断时先找主语中心词，再看修饰语、代词和数量短语。"
+    },
+    {
+     "box": "The condition of the seats requires attention. The seats near the entrance require attention."
+    },
+    {
+     "p": "第一句的中心词是 condition，谓语用 requires。第二句的中心词是 seats，谓语用 require。of the seats 和 near the entrance 都是修饰语。"
+    }
+   ]
+  },
+  {
+   "id": "phrases",
+   "type": "table",
+   "title": "主语与介词短语",
+   "cols": [
+    "情况",
+    "规则",
+    "例句"
+   ],
+   "rows": [
+    [
+     "单数中心",
+     "中心词是单数，of 后的复数名词不影响谓语。",
+     "The quality of the recordings varies."
+    ],
+    [
+     "复数中心",
+     "中心词是复数，介词后的单数名词不影响谓语。",
+     "The labels on the container need replacing."
+    ],
+    [
+     "附加成分",
+     "with 引出附加成分，谓语跟前面的主语一致。",
+     "The director with two assistants is present."
+    ],
+    [
+     "并列主语",
+     "and 连接两个人或物，谓语用复数。",
+     "The director and two assistants are present."
+    ]
+   ]
+  },
+  {
+   "id": "indefinite",
+   "type": "table",
+   "title": "不定代词",
+   "cols": [
+    "情况",
+    "规则",
+    "例句"
+   ],
+   "rows": [
+    [
+     "each",
+     "each 作主语，谓语用单数。",
+     "Each of the suggestions deserves consideration."
+    ],
+    [
+     "everyone",
+     "everyone 作主语，谓语为单数。",
+     "Everyone in the workshops has a name badge."
+    ],
+    [
+     "both",
+     "both 指双方，作主语用复数。",
+     "Both of the entrances are accessible."
+    ],
+    [
+     "代词与修饰语",
+     "of 短语只说明范围，谓语仍跟 each 用单数。",
+     "Each of the drawers contains a separate set of tools."
+    ]
+   ]
+  },
+  {
+   "id": "gerunds",
+   "type": "table",
+   "title": "动名词主语",
+   "cols": [
+    "情况",
+    "规则",
+    "例句"
+   ],
+   "rows": [
+    [
+     "一项活动",
+     "动名词短语作主语，谓语一般用单数。",
+     "Comparing several versions takes time."
+    ],
+    [
+     "带复数宾语",
+     "宾语是复数，主语仍是一项活动，谓语用单数。",
+     "Keeping accurate records helps later reviewers."
+    ],
+    [
+     "主语边界",
+     "动名词后的宾语属于主语，谓语在宾语之后。",
+     "Reading the notices requires concentration."
+    ],
+    [
+     "不同活动并列",
+     "两项不同的活动用 and 并列，谓语用复数。",
+     "Packing the exhibits and arranging transport are separate tasks."
+    ]
+   ]
+  },
+  {
+   "id": "quantities",
+   "type": "table",
+   "title": "数量短语",
+   "cols": [
+    "情况",
+    "规则",
+    "例句"
+   ],
+   "rows": [
+    [
+     "the number of",
+     "表示数量本身，谓语用单数。",
+     "The number of available seats is limited."
+    ],
+    [
+     "a number of",
+     "表示若干个，后接复数名词，谓语用复数。",
+     "A number of seats are reserved."
+    ],
+    [
+     "部分与整体",
+     "half of 等看 of 后的名词：不可数用单数，复数用复数。",
+     "Half of the equipment is ready. Half of the boxes are ready."
+    ],
+    [
+     "整体度量",
+     "时间、金额等看作一个总量时，谓语用单数。",
+     "Ten minutes is enough for this brief check."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The number of requests from separate departments ___ increasing. Each of the coordinators ___ a copy of the current list. Reviewing the requests ___ time, even when several coordinators share the work."
+    },
+    {
+     "box": "1. are / have / take\n2. is / has / takes\n3. is / have / take\n4. are / has / takes"
+    },
+    {
+     "p": "答案是第二项。三处主语是 The number、Each 和 Reviewing the requests，都用单数谓语。departments、coordinators 和 requests 在修饰语或宾语的位置，不影响谓语。"
+    },
+    {
+     "box": "A number of requests are incomplete."
+    },
+    {
+     "p": "a number of requests 表示若干个请求，谓语用复数。the number of 和 a number of 只差一个冠词，谓语的数相反。"
+    }
+   ]
+  },
+  {
+   "id": "practice-1",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "head",
+    "verb"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "In “The arrangement of the chairs affects access,” which element controls affects?",
+       "options": [
+        "The noun arrangement",
+        "The noun chairs",
+        "The noun access",
+        "The phrase of the chairs"
+       ],
+       "answer": 0,
+       "why": "arrangement 是主语中心词，即第一项。chairs 在 of 短语里，不影响谓语。",
+       "point": "head"
+      },
+      {
+       "stem": "In “Checking the records takes patience,” what is the complete subject?",
+       "options": [
+        "The records",
+        "Checking the records",
+        "Checking",
+        "Checking the records takes"
+       ],
+       "answer": 1,
+       "why": "Checking the records 是动名词短语，整个短语作主语，即第二项。records 是 Checking 的宾语。",
+       "point": "head"
+      },
+      {
+       "stem": "Choose the pair for a present-tense description: Each of the compartments ___ a label, and both of the lids ___ secure.",
+       "options": [
+        "have / are",
+        "has / is",
+        "has / are",
+        "have / is"
+       ],
+       "answer": 2,
+       "why": "Each 作主语用 has，both 作主语用 are，即第三项。compartments 在 of 短语里，不影响谓语。",
+       "point": "verb"
+      },
+      {
+       "stem": "Choose the pair: The number of vacant stalls ___ small, but a number of stalls ___ still available.",
+       "options": [
+        "are / is",
+        "are / are",
+        "is / is",
+        "is / are"
+       ],
+       "answer": 3,
+       "why": "the number 表示数量本身，用 is。a number of stalls 表示若干个摊位，用 are。即第四项。",
+       "point": "verb"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-2",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "head",
+    "verb"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Make the condition, rather than the individual folders, the subject of the main statement.",
+       "lead": "The condition",
+       "chunks": [
+        "of the folders",
+        "requires",
+        "a careful",
+        "review"
+       ],
+       "tail": ".",
+       "extra": [
+        "require"
+       ],
+       "why": "condition 是中心词，谓语用 requires。of the folders 是修饰语。",
+       "point": "head"
+      },
+      {
+       "stem": "Make the single activity of checking details the subject.",
+       "lead": "Checking",
+       "chunks": [
+        "the details",
+        "requires",
+        "a clear set",
+        "of criteria"
+       ],
+       "tail": ".",
+       "extra": [
+        "require"
+       ],
+       "why": "Checking the details 是一项活动，谓语用单数 requires。",
+       "point": "head"
+      },
+      {
+       "stem": "Describe everyone’s possession of a pass in the present.",
+       "lead": "Everyone",
+       "chunks": [
+        "in the group has",
+        "a pass",
+        "for the",
+        "workshop"
+       ],
+       "tail": ".",
+       "extra": [
+        "have"
+       ],
+       "why": "everyone 作主语，谓语用单数 has。",
+       "point": "verb"
+      },
+      {
+       "stem": "Describe several boxes awaiting collection.",
+       "lead": "A number",
+       "chunks": [
+        "of boxes are",
+        "ready",
+        "for",
+        "collection"
+       ],
+       "tail": ".",
+       "extra": [
+        "is"
+       ],
+       "why": "a number of boxes 表示若干个箱子，谓语用 are。",
+       "point": "verb"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "head",
+    "verb"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "In “The location of the temporary signs determines whether visitors can find the rear entrance without asking a member of staff,” what controls determines?",
+         "options": [
+          "The noun location",
+          "The noun signs",
+          "The noun visitors",
+          "The noun entrance"
+         ],
+         "answer": 0,
+         "why": "location 是主语中心词，即第一项。signs 在 of 短语里，visitors 和 entrance 属于后面的从句。",
+         "point": "head"
+        },
+        {
+         "stem": "In “Maintaining accurate records of equipment loans requires regular attention from staff working at the desk,” what is the complete subject?",
+         "options": [
+          "Accurate records of equipment loans",
+          "Maintaining accurate records of equipment loans",
+          "Regular attention from staff working at the desk",
+          "Staff working at the desk"
+         ],
+         "answer": 1,
+         "why": "Maintaining accurate records of equipment loans 是一项活动，整个短语作主语，即第二项。第一项只取了 Maintaining 的宾语。",
+         "point": "head"
+        },
+        {
+         "stem": "Choose the present-tense pair: Everyone in the discussion groups ___ a written agenda, and each of the facilitators ___ responsible for recording unanswered questions.",
+         "options": [
+          "have / is",
+          "has / are",
+          "has / is",
+          "have / are"
+         ],
+         "answer": 2,
+         "why": "Everyone 和 each 作主语都用单数，即第三项。groups 和 facilitators 在修饰语里，不影响谓语。",
+         "point": "verb"
+        },
+        {
+         "stem": "Choose the present-tense pair: The number of completed applications ___ increasing, although a number of applications ___ still missing the required statement of purpose.",
+         "options": [
+          "are / are",
+          "is / is",
+          "are / is",
+          "is / are"
+         ],
+         "answer": 3,
+         "why": "the number 表示数量本身，用 is。a number of applications 表示若干份申请，用 are。即第四项。",
+         "point": "verb"
+        }
+       ]
+      },
+      {
+       "items": [
+        {
+         "stem": "Construct the main statement with description as the head, despite the intervening plural noun procedures.",
+         "lead": "The description",
+         "chunks": [
+          "of the procedures provides",
+          "a useful",
+          "basis for",
+          "discussion"
+         ],
+         "tail": "among staff who need to agree on a consistent approach.",
+         "extra": [
+          "provide"
+         ],
+         "why": "description 是单数中心词，谓语用 provides。procedures 是 of 的宾语。",
+         "point": "head"
+        },
+        {
+         "stem": "Construct a statement whose subject is the activity of comparing the proposed routes.",
+         "lead": "Comparing",
+         "chunks": [
+          "the proposed routes",
+          "reveals",
+          "important differences",
+          "in accessibility"
+         ],
+         "tail": "for visitors who cannot use the steps near the original entrance.",
+         "extra": [
+          "reveal"
+         ],
+         "why": "Comparing the proposed routes 是一项活动，谓语用单数 reveals。",
+         "point": "head"
+        },
+        {
+         "stem": "State that each individual among the reviewers has the same responsibility.",
+         "lead": "Each",
+         "chunks": [
+          "of the reviewers",
+          "has",
+          "a responsibility",
+          "to explain the decision"
+         ],
+         "tail": "using evidence that can be traced to the submitted material.",
+         "extra": [
+          "have"
+         ],
+         "why": "Each 作主语，谓语用 has。of the reviewers 只说明范围。",
+         "point": "verb"
+        },
+        {
+         "stem": "Treat the proportion as a part of uncountable equipment in a present-tense statement.",
+         "lead": "Half",
+         "chunks": [
+          "of the equipment is",
+          "ready",
+          "for",
+          "inspection"
+         ],
+         "tail": "by the technician who will prepare the room for the demonstration.",
+         "extra": [
+          "are"
+         ],
+         "why": "equipment 不可数，Half of the equipment 用 is。",
+         "point": "verb"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

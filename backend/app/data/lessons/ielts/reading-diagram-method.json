@@ -1,0 +1,68 @@
+{
+ "id": "reading-diagram-method",
+ "title": "阅读图解标注",
+ "goal": "将空间描述对应到图示位置并提取部件名称。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "spatial", "label": "将空间描述对应到图示位置"},
+  {"id": "label", "label": "提取目标部件的准确名称"}
+ ],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "阅读图解标注的教学内容"}],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "图解展示整体与部件的空间关系。箭头端点指向待标注的部件。"},
+   {"p": "原文常用位置和功能来描述部件。所填名称要对应箭头指向的部件，并符合题面的词数限制。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定整体", "d": "先辨认图的整体和剖面方向。A vessel 的剖面可显示内部层次。"},
+   {"t": "2　辨认端点", "d": "沿箭头找到指向的部件。上层和下层的端点对应不同位置。"},
+   {"t": "3　对应原文", "d": "结合方位词与功能寻找部件名称。Above the mesh 的层位于网的上方。"},
+   {"t": "4　提取名称", "d": "按题面限制提取原词。检查单复数和必要修饰词。"}
+  ]},
+  {"id": "position", "type": "table", "title": "部件的位置", "cols": ["原文", "图示关系", "例"], "rows": [
+   ["above the mesh", "位于网上方", "sand above mesh"],
+   ["below the mesh", "位于网下方", "bowl below mesh"],
+   ["inside the shell", "位于壳内", "seed inside shell"],
+   ["outside the shell", "位于壳外", "fibres outside shell"]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [
+   {"box": "A sieve consists of a rim surrounding a mesh. The rim supports the mesh, which allows small particles to pass through.\n\nTop view\n(1) → ◎ ← (2)\nOuter ring: (1); centre: (2)\nComplete each label with ONE WORD from the passage."},
+   {"p": "rim surrounding a mesh 表示外圈是 rim，中央是 mesh。support 与 allows small particles to pass through 分别对应两者功能。"}
+  ]},
+  {"id": "distractors", "type": "table", "title": "干扰项", "cols": ["情况", "例", "核对"], "rows": [
+   ["相邻部件", "rim / mesh", "rim 支撑 mesh"],
+   ["内外混淆", "inside / outside", "端点对应壳内或壳外"],
+   ["整体替代部件", "sieve / mesh", "mesh 是 sieve 的部件"],
+   ["遗漏修饰", "wooden handle", "保留指定材料 wooden"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["spatial", "label"], "groups": [
+   {"text": "A small tray rests on a stand.\n\nSide view\n(1) → ▰\n(2) → ▯", "items": [{"stem": "Complete label (2) with ONE WORD from the passage.", "accept": ["stand"], "why": "依据是 A small tray rests on a stand。托盘在上，下方的 (2) 是 stand。", "point": "spatial"}]},
+   {"text": "A lid covers a jar.\n\nSide view\n(1) → ▰\n(2) → ▯", "items": [{"stem": "Complete label (1) with ONE WORD from the passage.", "accept": ["lid"], "why": "A lid covers a jar，上方部件是 lid。", "point": "spatial"}]},
+   {"text": "A wooden handle is fixed to the metal blade. The handle is on the left.\n\nSide view\n(1) → ▬◆ ← (2)", "items": [{"stem": "Complete label (1) with NO MORE THAN TWO WORDS from the passage.", "accept": ["wooden handle", "handle"], "why": "原文把左侧的柄称作 wooden handle。", "point": "label"}]},
+   {"text": "A valve controls the flow through the pipe.\n\nSide view\nPipe ━━●━━\n(1) → ●", "items": [{"stem": "Complete label (1) with ONE WORD from the passage.", "accept": ["valve"], "why": "依据是 A valve controls the flow through the pipe。管上的圆点是 valve。", "point": "label"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["spatial", "label"], "groups": [{
+   "text": "The model of a fruit has a shell surrounding a seed. A stalk is attached at the top of the shell.\n\nCross-section\n(1) → ▮\n(2) → ◎\nThe upper bar is attached to the outer ring; the inner circle is (3).",
+   "items": [
+    {"stem": "Complete label (1) with ONE WORD from the passage.", "accept": ["stalk"], "why": "依据是 A stalk is attached at the top of the shell。顶部的短条是 stalk。", "point": "spatial"},
+    {"stem": "Complete label (3) with ONE WORD from the passage.", "accept": ["seed"], "why": "shell surrounding a seed 表示中央为 seed。", "point": "label"}
+   ]
+  }]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["spatial", "label"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A teaching model shows the parts of a simple rain collector in cross-section. It is intended to demonstrate how the parts are arranged, rather than to provide drinking water. At the top, an open funnel directs incoming water towards a narrow tube. The tube carries the water down into a covered container. A removable lid surrounds the tube where it enters the container, reducing the size of the opening at the top.\n\nInside the container, a mesh sits above the base. Its purpose in the model is to hold back larger pieces of material that may have entered with the water. The mesh is supported at its edges so that water can move through it. Below the mesh is the space in which the collected water gathers. A tap is fitted near the bottom of the container. Opening the tap lets water leave without lifting the lid. The model does not include a treatment stage for removing dissolved substances.\n\nThe parts can be removed for cleaning. The lid lifts away after the tube has been taken out, and the mesh can then be reached from above. The container itself stays on a flat stand while the parts are being handled. In a classroom demonstration, a coloured liquid can make the route easier to follow. The colour shows where the liquid travels; it does not indicate that the collector has made the liquid safe. The model distinguishes directing water, holding back larger material and releasing the collected water as separate functions.\n\nCross-section\n(1) → ▽\n　　　│\n　　　┌─────┐\n(2) → ├─────┤\n　　　│　　● ← (3)\n　　　└─────┘\nThe top opening leads into the container. The horizontal line is inside it; the dot is at the lower side.",
+    "items": [
+     {"stem": "Complete label (1) with ONE WORD from the passage.", "accept": ["funnel"], "why": "At the top, an open funnel directs incoming water 指出顶部入口。", "point": "spatial"},
+     {"stem": "Complete label (2) with ONE WORD from the passage.", "accept": ["mesh"], "why": "依据是 Inside the container, a mesh sits above the base。容器内的横线是 mesh。", "point": "spatial"},
+     {"stem": "Complete label (3) with ONE WORD from the passage.", "accept": ["tap"], "why": "依据是 A tap is fitted near the bottom of the container。容器下侧的圆点是 tap。", "point": "label"}
+    ]},
+   {"look": "passage", "text": "A classroom model represents a seed within a fruit. Its purpose is to show how a smaller structure can be protected by surrounding layers. The model is enlarged so that the parts can be examined separately. It is not intended to represent the detailed anatomy of every kind of fruit. The outer layer of the model is called the skin. Beneath it is a thicker layer called the flesh. In the centre, the flesh surrounds a hard shell, which encloses a single seed.\n\nThe parts are made in different colours to show their boundaries. Each layer can be examined on its own. The shell opens into two halves, allowing the seed to be removed. A short stalk is attached to the outside of the skin at the top. It is shown as a separate piece so that its position relative to the outer layer remains visible. The stalk is not part of the shell, and opening the shell does not require the stalk to be removed.\n\nThe model can be assembled from the centre outwards. The seed is first placed inside the shell, and the two halves are closed. The flesh is then fitted around the shell. Finally, the skin is wrapped around the flesh and the stalk attached. The same model can also be opened in the reverse order. This allows the positions of the layers to be compared with their names. The central seed, its enclosing shell and the surrounding flesh have distinct places in the model, even though all belong to the same whole.\n\nCross-section\n　　　(1) → ▮\n(2) → ╔═════╗\n　　　║╔═══╗║\n　　　║║● ← (3)\n　　　║╚═══╝║\n　　　╚═════╝",
+    "items": [
+     {"stem": "Complete label (1) with ONE WORD from the passage.", "accept": ["stalk"], "why": "A short stalk is attached to the outside of the skin at the top 指出顶部的柄。", "point": "spatial"},
+     {"stem": "Complete label (2) with ONE WORD from the passage.", "accept": ["skin"], "why": "The outer layer of the model is called the skin 指出外层名称。", "point": "label"},
+     {"stem": "Complete label (3) with ONE WORD from the passage.", "accept": ["seed"], "why": "依据是 a hard shell, which encloses a single seed。最内侧的圆点是 seed。", "point": "label"}
+    ]}
+  ]}]}
+ ]
+}

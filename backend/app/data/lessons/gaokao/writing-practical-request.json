@@ -1,0 +1,56 @@
+{
+ "id": "writing-practical-request", "title": "求助信", "goal": "能说明具体困难并提出可执行的求助请求。", "skill": "写作", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "problem", "label": "明确说明需要帮助的具体困难"}, {"id": "request", "label": "选择对象能够执行的求助请求"}],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "求助信的结构、表达和知识点"}],
+ "cards": [
+  {"id": "structure", "type": "table", "title": "结构", "cols": ["部分", "内容", "例句"], "rows": [
+   ["当前任务", "说明正在进行的事。", "I am preparing a guide to our school garden."],
+   ["具体困难", "说明需要帮助的原因。", "I cannot identify some of the plants."],
+   ["请求与期限", "提出可执行的帮助及需要的时间。", "Could you check the plant names by Friday?"],
+   ["联系方式", "说明可以联系写信人的方式。", "You can reply to this email."]
+  ]},
+  {"id": "expressions", "type": "table", "title": "常用表达", "cols": ["请求", "表达", "用途"], "rows": [
+   ["审阅", "Could you review my draft by Tuesday?", "请读者在期限前检查草稿。"],
+   ["提供信息", "Could you send me the opening hours?", "请知情者提供具体信息。"],
+   ["调整安排", "Would it be possible to move our meeting to Friday?", "询问调整时间是否可行。"],
+   ["说明困难", "I am unsure whether the dates are correct.", "指出待核实的内容。"],
+   ["联系方式", "Please reply to this email by Thursday.", "说明回复方式和期限。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "假定李华正在制作学校花园介绍册，无法确认几种植物的英文名称，请教师在周五前审阅名称并通过邮件回复。\n• Describe the difficulty.\n• Ask for a review by Friday.\n• Give a way to reply.\nDraft: Dear Ms. Brown, I am preparing a guide to our school garden. I cannot identify some plant names in English. Could you review my list by Friday? Please reply to this email. Thank you for your help. Yours, Li Hua"},
+   {"p": "草稿先说明介绍册任务，再指出植物英文名称不确定。请教师审阅名单，正对应这一困难。by Friday 写明期限，reply to this email 写明联系方式。"}
+  ]},
+  {"id": "errors", "type": "table", "title": "常见错误", "cols": ["问题", "片段", "修改"], "rows": [
+   ["困难空泛", "I have a problem with the guide.", "I cannot identify the plants in the guide."],
+   ["请求不可执行", "Please make the guide perfect.", "Could you check the plant names?"],
+   ["请求与困难不符", "Could you choose the cover color?", "Could you review the plant names?"],
+   ["期限不明确", "Please review the list sometime.", "Could you review the list by Friday?"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["problem", "request"], "groups": [
+   {"text": "假定李华编写校园地图时无法确定图书馆入口的位置。", "items": [{"stem": "Which sentence states the specific difficulty?", "options": ["I cannot locate the library entrance on the map.", "I am drawing a map of our school campus.", "I have run into some trouble with the campus map.", "I cannot find time to finish the campus map."], "answer": 0, "why": "情境是无法确定图书馆入口的位置。第一项写出了这一具体困难；第三项只说遇到麻烦，没有说明是什么。", "point": "problem"}]},
+   {"text": "假定李华希望图书馆工作人员告知入口的位置。", "items": [{"stem": "Which request can the staff carry out?", "options": ["Could you make the library map perfect?", "Could you tell me where the entrance is?", "Could you make sure no visitor gets lost?", "Could you tell me where every room on campus is?"], "answer": 1, "why": "情境是请工作人员告知入口的位置。第二项只请对方说明入口在哪里，工作人员能够做到。", "point": "request"}]},
+   {"text": "假定李华要交一份英语报告，但不确定其中几处日期。", "items": [{"stem": "Which sentence identifies the problem?", "options": ["The report is written for the English class.", "I am unsure how long the report should be.", "I am unsure whether several dates are correct.", "I have some trouble with my English report."], "answer": 2, "why": "情境是不确定报告中几处日期是否正确。第三项写出了这一具体困难；第二项说的是另一件事。", "point": "problem"}]},
+   {"text": "假定李华请教师在周三前检查报告中的日期。", "items": [{"stem": "Which request includes the action and deadline?", "options": ["Could you check the dates in my English report?", "Could you add the missing dates by Wednesday?", "Could you review the report at some time?", "Could you check the report dates by Wednesday?"], "answer": 3, "why": "情境是请教师在周三前检查报告中的日期。第四项同时写明检查日期和周三的期限；第一项缺少期限。", "point": "request"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["problem", "request"], "groups": [{"items": [
+   {"stem": "State difficulty identifying plant names.", "lead": "I cannot", "chunks": ["identify", "some", "of the", "plant"], "tail": "names.", "extra": ["identifying"], "why": "cannot identify 表示无法辨认，plant names 指出具体困难。", "point": "problem"},
+   {"stem": "Ask a teacher to review a draft by Monday.", "lead": "Could", "chunks": ["you review", "my draft", "by", "this"], "tail": "Monday?", "extra": ["reviewing"], "why": "Could you review 提出审阅请求，by this Monday 写明期限。", "point": "request"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["problem", "request"], "sets": [{"id": "set-a", "groups": [
+   {"text": "假定李华编写校园历史介绍，需要确认旧照片拍摄的日期，请教师在周四前查看照片。", "items": [
+    {"stem": "Which sentence states the difficulty?", "options": ["I cannot confirm when the old photos were taken.", "I am writing a history of our school buildings.", "I have run into a problem with the old photos.", "I cannot find enough old photos of the school."], "answer": 0, "why": "情境是需要确认旧照片的拍摄日期。第一项写出了这一具体困难；第三项只说照片有问题，没有说明是什么。", "point": "problem"},
+    {"stem": "Which request includes the relevant action and deadline?", "options": ["Could you describe the old buildings on Thursday?", "Could you check the photo dates by Thursday?", "Could you check the photo dates next month?", "Could you take new photos of the school by Thursday?"], "answer": 1, "why": "情境是请教师在周四前查看照片、确认日期。第二项写明了这一行动和期限；第三项的期限不对。", "point": "request"}
+   ]},
+   {"text": "假定李华需要参加周五的志愿者培训，但同一时间有课程，请负责人调整培训时间。", "items": [
+    {"stem": "Which sentence specifies the difficulty?", "options": ["I have a small problem with the volunteer training.", "The volunteer training is scheduled for Friday.", "I have a class at the same time as the training.", "The training leader has arranged a class for Friday."], "answer": 2, "why": "情境是培训与一节课时间相同。第三项写出了这一冲突；第二项只说了培训的时间。", "point": "problem"},
+    {"stem": "Which request addresses the schedule conflict?", "options": ["Could you confirm that the training is on Friday?", "Could you tell me how long the training will last?", "Could you explain what volunteers do at training?", "Could the training be moved to another time?"], "answer": 3, "why": "情境是请负责人调整培训时间。第四项询问培训能否改到其他时间，回应了时间冲突。", "point": "request"}
+   ]},
+   {"items": [
+    {"stem": "State difficulty checking names in a list.", "lead": "I cannot", "chunks": ["check", "all", "the names", "on the"], "tail": "list.", "extra": ["checking"], "why": "cannot check 说明无法核对名单上的全部姓名。", "point": "problem"},
+    {"stem": "Ask a teacher to review a draft by Friday.", "lead": "Could", "chunks": ["you review", "my draft", "by", "this"], "tail": "Friday?", "extra": ["reviewing"], "why": "Could you review 提出审阅请求，by this Friday 表示期限。", "point": "request"},
+    {"stem": "State uncertainty about the location of a meeting.", "lead": "I am", "chunks": ["unsure", "where", "the meeting", "will be"], "tail": "held.", "extra": ["holding"], "why": "unsure where 引出不确定的信息，will be held 说明举行地点。", "point": "problem"},
+    {"stem": "Politely ask an office for the opening hours.", "lead": "Could", "chunks": ["you send", "me", "the opening", "hours for"], "tail": "the library?", "extra": ["sending"], "why": "Could you send me 提出具体请求，the opening hours 指定所需信息。", "point": "request"}
+   ]}
+  ]}]} 
+ ]
+}

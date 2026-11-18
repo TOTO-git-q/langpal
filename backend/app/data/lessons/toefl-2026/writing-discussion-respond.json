@@ -1,0 +1,531 @@
+{
+ "id": "writing-discussion-respond",
+ "title": "回应他人的观点",
+ "goal": "能准确转述并回应同学的观点，在同意、补充或反驳中加入相关的新内容。",
+ "skill": "writing",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 写作",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "refer",
+   "label": "准确引用并回应同学的观点"
+  },
+  {
+   "id": "add",
+   "label": "提出新的理由或角度"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、计分上限、测什么能力"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明、限时、官方样题和 5 分样例的评语"
+  },
+  {
+   "id": "rubric",
+   "title": "ETS：Writing Scoring Guide — Write for an Academic Discussion",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/writing-rubrics.pdf",
+   "used": "0–5 分每一档的描述（本课是中文转述，原文以官方为准）"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Writing Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-writing.pdf",
+   "used": "第 1 课（题目说明和答案页），第 4 课（在讨论区发帖要做的三件事），第 5 课（样题与样例）"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "回应同学的观点分两步。先准确说出对方主张什么、范围多大，再说明自己的意见和它是什么关系。可以部分同意、补充或反驳。只提同学的名字不算回应。"
+    },
+    {
+     "box": "Mara: A seed exchange could reduce the cost of starting a garden.\nResponse: Mara is right about the initial cost, and I would add that an exchange can introduce gardeners to varieties they have not tried."
+    },
+    {
+     "p": "回应保留了 initial cost，又加了品种选择这个角度。把 Mara 的观点写成所有园艺费用都能省掉，就扩大了原意。只把 reduce the cost 换成 save money，没有增加内容。"
+    }
+   ]
+  },
+  {
+   "id": "reference",
+   "type": "table",
+   "title": "引用与回应",
+   "cols": [
+    "关系",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "准确转述",
+     "保留对象、程度和条件，不必逐字引用。",
+     "Mara argues that an exchange can lower initial expenses."
+    ],
+    [
+     "部分同意",
+     "先指出赞同部分，再给不同判断。",
+     "Mara is right about cost, but beginners may still need growing advice."
+    ],
+    [
+     "补充理由",
+     "写明新加的内容，和原来的理由分开。",
+     "In addition to saving money, an exchange can broaden the choice of seeds."
+    ],
+    [
+     "补充条件",
+     "说明原观点在什么条件下成立。",
+     "The saving Mara describes depends on seeds being suitable for the local season."
+    ],
+    [
+     "有据反驳",
+     "针对理由或推论，不评价发言人。",
+     "Lower seed prices alone do not ensure success, because some plants need special care."
+    ],
+    [
+     "承认顾虑",
+     "承认对方的顾虑，同时提出解决办法。",
+     "Although plant care can be demanding, clear instructions could reduce that difficulty."
+    ]
+   ]
+  },
+  {
+   "id": "contribution",
+   "type": "table",
+   "title": "新增内容",
+   "cols": [
+    "方式",
+    "原观点与回应",
+    "说明"
+   ],
+   "rows": [
+    [
+     "新增对象",
+     "Cost matters to beginners. → Experienced growers could also exchange uncommon varieties.",
+     "从新手费用转向熟练种植者的选择。"
+    ],
+    [
+     "新增机制",
+     "Seeds cost less. → Sharing surplus seeds can prevent unused packets from being discarded.",
+     "说明减少浪费的过程，不只重述便宜。"
+    ],
+    [
+     "新增条件",
+     "An exchange saves money. → The seeds must still be viable.",
+     "加一个条件：种子要能发芽，才真正省钱。"
+    ],
+    [
+     "解决顾虑",
+     "Plant care is difficult. → A brief care sheet could accompany each packet.",
+     "方案直接回应照料困难。"
+    ],
+    [
+     "单纯改写",
+     "Seeds cost less. → Gardeners spend less on seeds.",
+     "意思相同，没有新理由。"
+    ],
+    [
+     "无关补充",
+     "Seeds cost less. → The exchange table is painted green.",
+     "桌子的颜色和交换的价值无关。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Professor: Should a city convert an unused station into a public workshop?\nInez: Yes. The existing building could be reused instead of left empty.\nTao: I worry that tools and machines would disturb nearby residents.\nDraft: Inez is right that the station should not remain empty. Reusing an empty building avoids leaving it unused."
+    },
+    {
+     "p": "草稿第二句只是改写了第一句，没有回应噪声，也没有新角度。修改时可以保留再利用的立场，同时提出解决 Tao 顾虑的办法。"
+    },
+    {
+     "box": "Revision: I agree with Inez that the station should have a new use. Tao's concern about noise suggests that the workshop should close before nearby residents' evening rest. Insulated rooms for powered tools could also limit disturbance."
+    },
+    {
+     "p": "evening rest 和 insulated rooms 都是对噪声顾虑的具体回应。两个办法都围绕工作坊是否适合这个地点。"
+    },
+    {
+     "box": "Which statement accurately describes the revision?\n1. It rejects reuse because Tao opposes all public buildings.\n2. It repeats Inez's point without addressing noise.\n3. It accepts reuse while adding measures related to Tao's concern.\n4. It argues that empty stations already prevent neighborhood noise."
+    },
+    {
+     "p": "答案是第三项：既保留了立场，又加了新内容。第一项扩大了 Tao 的反对范围。"
+    }
+   ]
+  },
+  {
+   "id": "check-reference",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "refer",
+    "add"
+   ],
+   "groups": [
+    {
+     "look": "post",
+     "text": "Professor: Should a neighborhood start a shared compost collection?\nElena: I support it if collection is frequent enough to avoid smells.\nKarim: I worry that residents will mix unsuitable waste with food scraps.",
+     "items": [
+      {
+       "stem": "Which response accurately represents Elena's view?",
+       "options": [
+        "Elena supports collection regardless of how often waste is removed.",
+        "Elena thinks frequent collection guarantees correct sorting.",
+        "Elena's support depends on removing waste often enough.",
+        "Elena opposes collection because all food scraps smell."
+       ],
+       "answer": 2,
+       "why": "if collection is frequent enough 是 Elena 的支持条件，不能写成无条件支持或解决分类。",
+       "point": "refer"
+      }
+     ]
+    },
+    {
+     "look": "post",
+     "text": "Professor: Should a university display student art in administrative offices?\nJon: It gives artists an audience.\nLila: I worry about damage when the offices are busy.",
+     "items": [
+      {
+       "stem": "Which response adds a solution to Lila's concern?",
+       "options": [
+        "More office visitors would give the artwork a larger audience.",
+        "Protective cases could reduce accidental contact with the works.",
+        "Busy offices would allow more people to view student work.",
+        "Student artists could reach people outside their art classes."
+       ],
+       "answer": 1,
+       "why": "damage when the offices are busy 对应 accidental contact；protective cases 增加了保护措施，即第二项。第三项仍在说办公室人多、观众多。",
+       "point": "add"
+      }
+     ]
+    },
+    {
+     "look": "post",
+     "text": "Nora: Recorded public lectures help people whose work schedules prevent attendance, but recordings should not replace live questions.",
+     "items": [
+      {
+       "stem": "Which reply preserves Nora's qualification?",
+       "options": [
+        "I agree that recordings widen access while live questions still matter.",
+        "I agree that recordings should replace questions for working viewers.",
+        "I agree that workers should attend live lectures instead of watching recordings.",
+        "I agree that only recorded lectures can include useful questions."
+       ],
+       "answer": 0,
+       "why": "but recordings should not replace live questions 限定了扩大接触范围的主张，第一项同时保留两层意思。",
+       "point": "refer"
+      }
+     ]
+    },
+    {
+     "look": "post",
+     "text": "Professor: Should a town offer an equipment-sharing scheme for festivals?\nArun: It would lower rental costs.\nBea: It might be difficult to coordinate pickup times.",
+     "items": [
+      {
+       "stem": "Which response adds a relevant angle neither student mentions?",
+       "options": [
+        "Sharing festival equipment would reduce what organizers pay for rentals each year.",
+        "A pickup schedule could still be hard to coordinate.",
+        "Rental savings would make the equipment less expensive.",
+        "Standardized equipment could reduce the need to relearn setup procedures."
+       ],
+       "answer": 3,
+       "why": "原帖只提 lower rental costs 和 coordinate pickup times；减少重复学习安装步骤是设备共享的另一个作用。",
+       "point": "add"
+      }
+     ]
+    },
+    {
+     "look": "post",
+     "text": "Priya: A community kitchen could be useful, but only if users receive training before operating the equipment.",
+     "items": [
+      {
+       "stem": "Which reply turns Priya's condition into a specific proposal?",
+       "options": [
+        "Priya's condition could be met by training users after they first operate the equipment.",
+        "Priya's condition could be met through an introductory safety session.",
+        "Priya's view suggests that training makes shared kitchens unnecessary.",
+        "Priya's support means that all users already know the equipment."
+       ],
+       "answer": 1,
+       "why": "receive training before operating 对应 introductory safety session，第二项保留了先培训、后使用的条件。第一项把培训放到了使用之后。",
+       "point": "refer"
+      }
+     ]
+    },
+    {
+     "look": "post",
+     "text": "Professor: Should a course use anonymous peer feedback?\nLeo: Anonymity can make criticism more candid.\nAnya: It might make careless comments harder to trace.",
+     "items": [
+      {
+       "stem": "Which response adds a safeguard rather than repeating either point?",
+       "options": [
+        "Anonymous writers may express criticism more openly.",
+        "Untraceable comments could receive less careful attention.",
+        "A teacher could check comments before releasing them to authors.",
+        "Removing names could make criticism less personally uncomfortable."
+       ],
+       "answer": 2,
+       "why": "check comments before releasing them 是针对 careless comments 的新增审核办法，即第三项。第二项只是重述 Anya 的顾虑。",
+       "point": "add"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-refer-order",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "refer"
+   ],
+   "groups": [
+    {
+     "label": "Make an appropriate sentence.",
+     "items": [
+      {
+       "stem": "Milo argues that a reading group needs a facilitator, but the facilitator should not choose every book.",
+       "lead": "I agree with Milo that",
+       "chunks": [
+        "a facilitator",
+        "should not control",
+        "the choice",
+        "of every book"
+       ],
+       "tail": ".",
+       "extra": [
+        "controlling"
+       ],
+       "why": "should not control 保留原帖对职责的限制；of every book 紧接 choice。",
+       "point": "refer"
+      },
+      {
+       "stem": "Sana worries that a school clothing exchange may leave families uncertain about item sizes.",
+       "lead": "Sana's concern is",
+       "chunks": [
+        "that families",
+        "may not know",
+        "which size",
+        "to select"
+       ],
+       "tail": ".",
+       "extra": [
+        "selecting"
+       ],
+       "why": "that families may not know 转述顾虑，which size to select 明确顾虑对象。",
+       "point": "refer"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-add-order",
+   "type": "check",
+   "title": "练习三",
+   "points": [
+    "add"
+   ],
+   "groups": [
+    {
+     "label": "Make an appropriate sentence.",
+     "items": [
+      {
+       "stem": "Two students discuss the cost and appearance of a pedestrian footbridge; neither mentions inspection access.",
+       "lead": "Another issue is",
+       "chunks": [
+        "the need",
+        "to inspect",
+        "the underside",
+        "of the bridge"
+       ],
+       "tail": ".",
+       "extra": [
+        "inspecting"
+       ],
+       "why": "inspection access 是费用和外观之外的角度；the underside of the bridge 是检查对象。",
+       "point": "add"
+      },
+      {
+       "stem": "Two students discuss the price and opening hours of a local swimming course; neither considers feedback.",
+       "lead": "I would add",
+       "chunks": [
+        "that learners",
+        "need feedback",
+        "that identifies",
+        "specific errors"
+       ],
+       "tail": ".",
+       "extra": [
+        "identifying"
+       ],
+       "why": "feedback that identifies specific errors 增加学习反馈这一角度，未重复费用或开放时间。",
+       "point": "add"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "refer",
+    "add"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "post",
+       "text": "Professor: Should a town install public drinking-water refill stations?\nHana: Yes. People could refill containers instead of buying another bottle.\nLuis: I support them only if the town can maintain them regularly; a broken station is of little use.\nProposed reply: Hana's point about repeated purchases is useful. Luis also identifies a practical condition. The town could publish a maintenance schedule and provide a clear way to report broken stations.",
+       "items": [
+        {
+         "stem": "Which statement accurately captures Luis's position?",
+         "options": [
+          "He accepts the idea provided that reliable upkeep is possible.",
+          "He rejects stations because refilling containers is inconvenient.",
+          "He supports stations even when repair is unavailable.",
+          "He values buying bottles more than maintaining stations."
+         ],
+         "answer": 0,
+         "why": "only if the town can maintain them regularly 表示有条件支持，对应 reliable upkeep is possible。",
+         "point": "refer"
+        },
+        {
+         "stem": "What does the proposed reply contribute beyond the two posts?",
+         "options": [
+          "A restatement that people could avoid buying another bottle",
+          "Specific arrangements for upkeep and reporting failures",
+          "A claim that refill stations never require maintenance",
+          "An argument that maintaining stations increases bottle purchases"
+         ],
+         "answer": 1,
+         "why": "publish a maintenance schedule 和 report broken stations 把维护条件变成具体措施；两位同学尚未提出这些安排。",
+         "point": "add"
+        }
+       ]
+      },
+      {
+       "look": "post",
+       "text": "Professor: Should professional training courses let learners submit a portfolio instead of taking a final written test?\nDario: Portfolios can show skills developed over time.\nSuki: Written tests are easier to compare because everyone answers the same questions.\nProposed reply: Suki is right about comparability, but identical questions may miss skills shown through practical work. A shared assessment checklist could make portfolios easier to compare without requiring identical projects.",
+       "items": [
+        {
+         "stem": "Which response accurately acknowledges and limits Suki's argument?",
+         "options": [
+          "Suki says portfolios already require everyone to answer identical questions.",
+          "Suki values practical work more than comparison across learners.",
+          "Suki identifies a comparison advantage, though tests may miss practical skills.",
+          "Suki opposes comparison because portfolios develop gradually over time."
+         ],
+         "answer": 2,
+         "why": "easier to compare 是 Suki 的理由。第三项先承认这个优势，再指出笔试可能测不到实践技能。",
+         "point": "refer"
+        },
+        {
+         "stem": "Which part of the reply is a new contribution?",
+         "options": [
+          "The observation that portfolios can display developed skills",
+          "The statement that everyone answers the same test questions",
+          "The concern that differing submissions make comparison harder",
+          "The suggestion of common criteria for evaluating different portfolios"
+         ],
+         "answer": 3,
+         "why": "A shared assessment checklist 提出共同评价标准，回应可比性；原帖没有这个办法。",
+         "point": "add"
+        }
+       ]
+      },
+      {
+       "label": "Make an appropriate sentence.",
+       "items": [
+        {
+         "stem": "Ravi supports a neighborhood noticeboard only if posted information is checked.",
+         "lead": "Ravi's support depends on",
+         "chunks": [
+          "a process",
+          "that checks",
+          "the accuracy",
+          "of posted information"
+         ],
+         "tail": ".",
+         "extra": [
+          "checking"
+         ],
+         "why": "depends on 保留 only if 的条件；that checks the accuracy 说明审核过程。",
+         "point": "refer"
+        },
+        {
+         "stem": "Clara argues that student travel grants should prioritize applicants who lack other funding.",
+         "lead": "Clara favors",
+         "chunks": [
+          "giving priority",
+          "to applicants",
+          "who lack",
+          "other funding"
+         ],
+         "tail": ".",
+         "extra": [
+          "lacking"
+         ],
+         "why": "giving priority to applicants who lack other funding 保留优先对象，未扩大为所有申请者。",
+         "point": "refer"
+        },
+        {
+         "stem": "Two students discuss how affordable and convenient a reusable-container program would be; neither discusses returns.",
+         "lead": "Another question is whether",
+         "chunks": [
+          "users",
+          "will",
+          "return",
+          "the containers"
+         ],
+         "tail": "after each use.",
+         "extra": [
+          "returning"
+         ],
+         "why": "归还行为是成本和便利之外的相关条件，whether 引出需要考虑的新问题。",
+         "point": "add"
+        },
+        {
+         "stem": "Two students discuss a park lighting plan's cost and appearance; neither mentions replacement parts.",
+         "lead": "I would also consider",
+         "chunks": [
+          "the availability",
+          "of parts",
+          "that fit",
+          "the proposed fixtures"
+         ],
+         "tail": ".",
+         "extra": [
+          "fitting"
+         ],
+         "why": "the availability of parts that fit the proposed fixtures 增加后续维修条件。",
+         "point": "add"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

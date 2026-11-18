@@ -1,0 +1,76 @@
+{
+ "id": "reading-passage-practical",
+ "title": "广告与活动说明",
+ "goal": "按栏目定位活动信息，合并价格和限制条件判断适用情况。",
+ "skill": "阅读",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "locate", "label": "按栏目找到所需活动信息"},
+  {"id": "condition", "label": "合并信息并核对价格与限制条件"}
+ ],
+ "sources": [
+  {"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "应用文结构、表达和阅读任务"}
+ ],
+ "cards": [
+  {"id": "structure", "type": "table", "title": "结构", "cols": ["栏目", "信息", "例"], "rows": [
+   ["标题与对象", "确定活动名称和适用人群。", "Family Film Day: children and their parents"],
+   ["项目与地点", "区分活动内容及举办地点。", "A short film at the community hall"],
+   ["日期与价格", "区分活动日期和每人的费用。", "Saturday, 10 May; $4 per person"],
+   ["报名", "核对报名方式和截止时间。", "Register online by 6 May."],
+   ["入场与退款", "查看入场要求和取消条件。", "Show your ticket at the door. Refunds are available before 8 May."]
+  ]},
+  {"id": "expressions", "type": "table", "title": "常用表达", "cols": ["表达", "含义", "例"], "rows": [
+   ["per", "按每个单位计算。", "$5 per person: three people pay $15."],
+   ["up to", "表示上限，包含所给数值。", "Groups of up to six: six people may join."],
+   ["except", "把后面的对象排除在外。", "Open daily except Monday: closed on Monday."],
+   ["in advance", "表示在活动开始之前办好。", "Book in advance: reserve before the event."],
+   ["refund", "退还已付的费用。", "A refund is available before Friday."],
+   ["admission", "指入场许可或入场费用。", "Admission is free: entry costs nothing."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "Paper Arts Afternoon\nSessions: Saturday and Sunday, 2 p.m. Each session admits up to eight people.\nFees: $6 per adult; children enter for $3 each.\nBooking: Reserve by Thursday. A refund is available before Friday, but not on or after Friday."},
+   {"box": "How much will two adults and one child pay for a session?\n1. $9\n2. $12\n3. $15\n4. $18"},
+   {"p": "Fees 栏给出成人和儿童两种单价。两名成人共 $12，一名儿童 $3，合计 $15，即第三项。"},
+   {"p": "Booking 栏有两个截止时间：报名截至 Thursday，退款要在 Friday 之前。活动日和人数上限在 Sessions 栏。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "例", "核对方法"], "rows": [
+   ["日期混淆", "把 Thursday 的报名截止日当作活动日。", "比较 Booking 和 Sessions。"],
+   ["单位混淆", "把 $6 per adult 当作全组费用。", "用单价乘以对应人数。"],
+   ["上限扩大", "把 up to eight 解释为至少八人。", "核对人数是否超过上限。"],
+   ["退款条件", "把 Friday 当作仍可退款的日期。", "核对 before 与 on or after。"]
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["locate", "condition"], "groups": [
+   {"look": "passage", "text": "Bird Drawing Class\nPlace: North Hall. Date: 12 June. Booking closes on 9 June.", "items": [
+    {"stem": "Where will the class take place?", "options": ["At North Hall", "At a booking office", "At the June exhibition", "At the drawing desk"], "answer": 0, "why": "依据是 Place: North Hall，即第一项。9 June 是报名截止日，与地点无关。", "point": "locate"}
+   ]},
+   {"look": "passage", "text": "River Walk\nAdmission: $4 per person. Booking: online by Tuesday. Refunds: before Thursday.", "items": [
+    {"stem": "Which section gives the registration deadline?", "options": ["The admission information", "The booking information", "The refund information", "The river-walk title"], "answer": 1, "why": "Booking: online by Tuesday 给出报名方式和截止日。", "point": "locate"}
+   ]},
+   {"look": "passage", "text": "Music Room Tours\nEntry is $7 per person. Groups may contain up to five visitors.", "items": [
+    {"stem": "What is the entry cost for four visitors?", "options": ["$7 in total", "$21 in total", "$28 in total", "$35 in total"], "answer": 2, "why": "$7 per person 表示每人 7 美元，四人共 28 美元。", "point": "condition"}
+   ]},
+   {"look": "passage", "text": "Garden Tours\nTours run every day except Wednesday. Booking is required before arrival.", "items": [
+    {"stem": "On which day is a tour unavailable?", "options": ["On Monday", "On Tuesday", "On Thursday", "On Wednesday"], "answer": 3, "why": "依据是 every day except Wednesday，周三没有导览，即第四项。", "point": "condition"}
+   ]}
+  ]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["locate", "condition"], "groups": [
+   {"look": "passage", "text": "Community Photography Walk\nThe walk begins at the station garden at 9 a.m. on 20 July. It finishes at the old bridge at noon. Adults and children aged 12 or over are welcome; children under 16 must be accompanied by an adult.\nTickets cost $8 per adult and $5 per child under 16. Registration closes on 15 July. Book through the community office or its website. Bring the booking email for admission. Full refunds are available through 17 July; after that date the office can transfer a ticket to another person but cannot refund it.", "items": [
+    {"stem": "What must a participant show at the start?", "options": ["A message confirming a booking", "A photograph of the old bridge", "A transfer request to the office", "A receipt for a station ticket"], "answer": 0, "why": "Bring the booking email for admission 说明入场时须出示报名邮件。", "point": "locate"},
+    {"stem": "How much do one adult and one 13-year-old pay?", "options": ["$8 for both participants", "$10 for both participants", "$13 for both participants", "$16 for both participants"], "answer": 2, "why": "$8 per adult 和 $5 per child under 16 合计 $13。", "point": "condition"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["locate", "condition"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "Textile Workshop Weekend\n\nThe Harbour Arts Centre invites adults and young people aged 14 and above to explore hand weaving over one weekend. Participants do not need previous experience. Instructors will introduce the tools and provide all thread. Finished work can be collected on the following Tuesday, after the frames have been checked and cleaned.\n\nSessions\nThe Saturday session runs from 10 a.m. to 12:30 p.m. The Sunday session runs from 1 p.m. to 3:30 p.m. Both cover the same skills, so participants should book only one. Each session takes up to twelve people. A small display of work by local weavers can be visited in the entrance hall throughout the weekend, including by people who have not booked a session.\n\nFees and booking\nA place costs $18 per person. Members of the arts centre pay $15 each. Book through the centre website by Wednesday. If places remain, the reception desk accepts bookings on Thursday. A place is confirmed when payment has been received. The fee includes the materials and the use of a frame.\n\nChanges and admission\nA full refund is available for cancellations made before Friday. From Friday onward, a booking can be transferred to another eligible participant, but the fee cannot be returned. Bring the confirmation email to the workshop room on the first floor. The entrance display is free and does not require the email. The centre is open throughout the weekend except on Sunday morning, when staff prepare the rooms.", "items": [
+    {"stem": "Where can visitors see work by local weavers?", "options": ["In the entrance hall", "In the workshop room", "At the reception desk", "On the weaving frames"], "answer": 0, "why": "依据 A small display of work by local weavers ... in the entrance hall，作品陈列在入口大厅。", "point": "locate"},
+    {"stem": "What will two centre members pay for their workshop places?", "options": ["A combined fee of $18", "A combined fee of $30", "A combined fee of $33", "A combined fee of $36"], "answer": 1, "why": "依据 Members of the arts centre pay $15 each，两名会员共付 $30。", "point": "condition"},
+    {"stem": "What can a participant do with a booking on Friday?", "options": ["Obtain a full refund at reception", "Book a second session at the member rate", "Transfer the place to an eligible person", "Collect the finished work from the centre"], "answer": 2, "why": "依据 From Friday onward, a booking can be transferred，周五可以把名额转给符合条件的人。", "point": "condition"}
+   ]},
+   {"look": "passage", "text": "Night Sky Discovery Evening\n\nThe Hilltop Learning Centre is holding an evening of indoor talks and outdoor sky observation on 14 September. The programme is for adults and children aged ten or older. Anyone under sixteen must attend with an adult. Instructors will provide viewing equipment and explain its safe use; visitors should bring a warm coat because the outdoor part takes place after sunset.\n\nProgramme\nDoors open at 6 p.m. A short introduction in the lecture room starts at 6:30, followed by observation in the courtyard at 7. If clouds prevent observation, the instructors will run an indoor demonstration instead. The evening ends at 8:30. Visitors may see an exhibition of sky photographs in the entrance area before the introduction begins.\n\nPrices and reservations\nTickets are $10 per adult and $6 per child under sixteen. Each booking may include up to six people. Reserve online by 10 September or call the centre between 9 a.m. and 4 p.m. on weekdays. Reservations close at the same time for both methods. A confirmation number will be sent after payment.\n\nAdmission and cancellations\nShow the confirmation number at the entrance. The centre can return the full ticket price for a cancellation received by 11 September. After that date, visitors can give their places to other people who meet the age rules, but payments cannot be returned. All programme areas are accessible by lift. The centre cafe opens at 5 p.m. and closes when the introduction begins.", "items": [
+    {"stem": "Where does the outdoor observation take place?", "options": ["In the entrance area", "In the lecture room", "Beside the centre cafe", "In the centre courtyard"], "answer": 3, "why": "依据 observation in the courtyard，室外观测在庭院进行。", "point": "locate"},
+    {"stem": "What must visitors present when they enter?", "options": ["A number confirming their reservation", "A photograph from the exhibition", "A ticket for the indoor demonstration", "A receipt from the centre cafe"], "answer": 0, "why": "依据 Show the confirmation number at the entrance，入场时须出示确认号码。", "point": "locate"},
+    {"stem": "How much will two adults and one 12-year-old pay?", "options": ["A total of $20", "A total of $26", "A total of $30", "A total of $36"], "answer": 1, "why": "依据 $10 per adult 和 $6 per child under sixteen，两名成人及一名 12 岁儿童共付 $26。", "point": "condition"}
+   ]}
+  ]}]}
+ ]
+}

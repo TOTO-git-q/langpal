@@ -1,0 +1,468 @@
+{
+ "id": "speaking-interview-structure",
+ "title": "回答的结构",
+ "goal": "按问题范围组织直接回答、理由、细节和收尾，并识别偏题与遗漏。",
+ "skill": "speaking",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 口语",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "structure",
+   "label": "按结构组织一段回答"
+  },
+  {
+   "id": "direct",
+   "label": "判断第一句是否直接回答了问题"
+  }
+ ],
+ "sources": [],
+ "cards": [
+  {
+   "id": "structure",
+   "type": "table",
+   "title": "结构",
+   "cols": [
+    "部分",
+    "作用",
+    "例句"
+   ],
+   "rows": [
+    [
+     "直接回答",
+     "第一句给出所问的信息或立场，不重复题目。",
+     "I prefer the smaller seminar."
+    ],
+    [
+     "理由",
+     "说明为什么这样选。",
+     "It gives each participant more time to speak."
+    ],
+    [
+     "例子",
+     "用一件具体的事说明理由。",
+     "Last week, everyone presented an interpretation of the poem."
+    ],
+    [
+     "细节",
+     "说明过程、条件或结果，和理由相连。",
+     "We compared the interpretations before choosing one."
+    ],
+    [
+     "收尾",
+     "回到答案，不再加新的理由。",
+     "That discussion is why the smaller format suits me."
+    ],
+    [
+     "事实类回答",
+     "问的是事实时，回答可以短，不加观点。",
+     "Where does the seminar meet? → In the language center."
+    ],
+    [
+     "观点类回答",
+     "通常需要更多解释。",
+     "Should it stay small? → Yes, because everyone can contribute."
+    ]
+   ],
+   "note": "以上为本课程的建议，不是官方规定"
+  },
+  {
+   "id": "expressions",
+   "type": "table",
+   "title": "常用表达",
+   "cols": [
+    "功能",
+    "句型",
+    "例句"
+   ],
+   "rows": [
+    [
+     "事实",
+     "I usually …，说明习惯。",
+     "I usually prepare a list of questions."
+    ],
+    [
+     "立场",
+     "I prefer … / I think …，后接明确的选择或判断。",
+     "I think short meetings are more productive."
+    ],
+    [
+     "理由",
+     "The main reason is that …，that 后接完整的句子。",
+     "The main reason is that everyone arrives prepared."
+    ],
+    [
+     "例子",
+     "For example, …，例子要支持前面的理由。",
+     "For example, we settled the budget in one meeting."
+    ],
+    [
+     "细节",
+     "More specifically, …，把内容说得更具体。",
+     "More specifically, we compared the two largest expenses."
+    ],
+    [
+     "结果",
+     "As a result, …，引出前面过程带来的结果。",
+     "As a result, we finished before the room closed."
+    ],
+    [
+     "收尾",
+     "That's why …，指前面已经说过的理由。",
+     "That's why I favor a written agenda."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Question: Would a shared herb garden benefit the residence hall? Why?\nResponse: I think it would. Residents could meet while caring for it. For example, students on different floors could take turns watering the plants together. That shared task would give them a reason to talk."
+    },
+    {
+     "p": "I think it would 先回答是否有益。could meet 给出社交理由，take turns watering 说明怎样实现。最后一句回到交流的机会，没有加新的理由。"
+    },
+    {
+     "box": "Which sentence directly answers the question?\n1. Some residents grow herbs in their rooms.\n2. The residence hall has an unused courtyard.\n3. I think a shared garden would help residents connect.\n4. Watering a garden takes regular effort."
+    },
+    {
+     "p": "第三项明确说有益，并点出作用。其余三句可以作背景或细节，但没有回答是否有益。"
+    }
+   ]
+  },
+  {
+   "id": "errors",
+   "type": "table",
+   "title": "常见错误",
+   "cols": [
+    "类型",
+    "原句",
+    "改正"
+   ],
+   "rows": [
+    [
+     "先述背景",
+     "Should tours be smaller? → Tours take place on weekends.",
+     "I favor smaller tours. 先给立场。"
+    ],
+    [
+     "只答一半",
+     "Where and why? → In the courtyard.",
+     "In the courtyard, because it has space. 补原因。"
+    ],
+    [
+     "理由循环",
+     "I prefer it because it is my preference.",
+     "I prefer it because it reduces waiting. 说明作用。"
+    ],
+    [
+     "例子偏题",
+     "Quiet rooms aid focus. For example, the chairs are blue.",
+     "Quiet rooms aid focus. I can read without interruptions."
+    ],
+    [
+     "收尾加新理由",
+     "So it saves time. It is also cheaper.",
+     "So it saves time. 成本要另作说明。"
+    ],
+    [
+     "事实过度展开",
+     "Where is it? → I believe locations matter.",
+     "It is beside the entrance. 先交代地点。"
+    ]
+   ]
+  },
+  {
+   "id": "check-opening",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "direct",
+    "structure"
+   ],
+   "groups": [
+    {
+     "text": "Question: How often does the film club meet? Notes: twice a month; in a lecture room; student-led; founded last autumn.",
+     "items": [
+      {
+       "stem": "Which opening directly answers the question?",
+       "options": [
+        "It is run by students.",
+        "It meets twice monthly.",
+        "It meets in a lecture room.",
+        "It began last autumn."
+       ],
+       "answer": 1,
+       "why": "How often 问频率，notes 里是 twice a month，第二项的 twice monthly 与之对应。",
+       "point": "direct"
+      }
+     ]
+    },
+    {
+     "text": "Question: Why did the speaker choose the pottery class? Notes: wanted to learn hand-building; class meets on Tuesday; teacher makes large bowls; materials included.",
+     "items": [
+      {
+       "stem": "Which opening states the requested reason?",
+       "options": [
+        "The teacher makes large bowls by hand.",
+        "The fee for the class includes the materials.",
+        "I wanted to learn to shape clay by hand.",
+        "The class meets on Tuesdays each week."
+       ],
+       "answer": 2,
+       "why": "Why 问原因，notes 里是 wanted to learn hand-building，第三项是它的同义改写。",
+       "point": "direct"
+      }
+     ]
+    },
+    {
+     "text": "Claim: A meal rota reduces uncertainty. Detail: Each flatmate knows which evening to cook.",
+     "items": [
+      {
+       "stem": "How should the detail relate to the claim?",
+       "options": [
+        "It should show how the rota makes duties clear.",
+        "It should replace the claim with a list of meals.",
+        "It should contradict the idea of assigned evenings.",
+        "It should name the meal each flatmate cooks."
+       ],
+       "answer": 0,
+       "why": "Each flatmate knows which evening to cook 说明了 reduces uncertainty 的具体表现，即第一项。",
+       "point": "structure"
+      }
+     ]
+    },
+    {
+     "text": "Question: Which exhibition was memorable, and what made it memorable? Response: The textile exhibition was memorable.",
+     "items": [
+      {
+       "stem": "What must be added to complete the answer?",
+       "options": [
+        "Another statement that the exhibition was memorable",
+        "A comparison with every other exhibition",
+        "The name of the textile exhibition again",
+        "The feature that made the textiles stand out"
+       ],
+       "answer": 3,
+       "why": "回答只说了哪个展览难忘，还缺 what made it memorable，即第四项。",
+       "point": "direct"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-whole",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "structure",
+    "direct"
+   ],
+   "groups": [
+    {
+     "text": "Question: Should the student radio station keep its local-history program? Response: Yes, it gives residents a chance to share experiences. Last month, a retired bus driver described how routes changed around the old depot. Listeners then sent in photographs of the same area. The program makes those personal memories available to others.",
+     "items": [
+      {
+       "stem": "What is the role of the bus driver's account?",
+       "options": [
+        "It replaces the speaker's positive position with a story.",
+        "It gives an example of residents sharing experiences.",
+        "It introduces a different program about transport.",
+        "It explains why listeners sent in photographs."
+       ],
+       "answer": 1,
+       "why": "a retired bus driver described … 是 residents share experiences 的一个例子，即第二项。",
+       "point": "structure"
+      },
+      {
+       "stem": "Which opening preserves the answer's directness?",
+       "options": [
+        "I used to listen to many different stations.",
+        "The old depot is near several bus routes.",
+        "The station should retain the program because it shares local memories.",
+        "There are photographs of the depot in the station."
+       ],
+       "answer": 2,
+       "why": "Should … keep 问是否保留。第三项用 retain the program 直接回答，并接上后文的 personal memories。",
+       "point": "direct"
+      },
+      {
+       "stem": "Complete the closing sentence.",
+       "lead": "The program",
+       "chunks": [
+        "makes",
+        "those personal memories",
+        "available",
+        "to others"
+       ],
+       "tail": ".",
+       "extra": [
+        "availability"
+       ],
+       "why": "makes … available 说明节目的作用，those personal memories 指前面的例子。",
+       "point": "structure"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "direct",
+    "structure"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I prefer repairing clothes to replacing them. One reason is that a small repair lets me keep an item that already fits."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "The question asks whether the speaker prefers repairing or replacing clothes. Which opening is direct?",
+         "options": [
+          "I prefer keeping clothes usable through repairs.",
+          "Some of my clothes no longer fit well.",
+          "Small repairs need thread and a needle.",
+          "I bought several replacement items recently."
+         ],
+         "answer": 0,
+         "why": "录音第一句 I prefer repairing clothes to replacing them 直接作出选择，第一项是它的同义改写。",
+         "point": "direct"
+        },
+        {
+         "stem": "What does the second sentence contribute?",
+         "options": [
+          "A new preference that contradicts the opening",
+          "A reason supporting the preference for repairs",
+          "A closing remark about a different activity",
+          "A list of all clothing repair techniques"
+         ],
+         "answer": 1,
+         "why": "One reason is that 引出支持修补衣服的理由，即第二项。",
+         "point": "structure"
+        },
+        {
+         "stem": "Rebuild the first sentence that was heard.",
+         "lead": "I",
+         "chunks": [
+          "prefer",
+          "repairing clothes",
+          "to",
+          "replacing them"
+         ],
+         "tail": ".",
+         "extra": [
+          "than"
+         ],
+         "why": "prefer … to … 表示比起后者更喜欢前者。这里的 to 是介词，不用 than。",
+         "point": "direct"
+        },
+        {
+         "stem": "Rebuild the second sentence that was heard.",
+         "lead": "One reason",
+         "chunks": [
+          "is that",
+          "a small repair",
+          "lets me keep",
+          "an item that already fits"
+         ],
+         "tail": ".",
+         "extra": [
+          "although"
+         ],
+         "why": "One reason is that 后接完整的句子，说明理由。",
+         "point": "structure"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The sketching group meets beside the canal. We use that spot because the path provides a clear view of the warehouses."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "The interviewer asks where the group meets. Which opening supplies that information?",
+         "options": [
+          "The group enjoys sketching old warehouses.",
+          "A clear view is useful for outdoor sketching.",
+          "The meeting spot is next to the canal.",
+          "The path can be busy during the afternoon."
+         ],
+         "answer": 2,
+         "why": "meets beside the canal 回答了 where，第三项的 next to 是 beside 的同义改写。",
+         "point": "direct"
+        },
+        {
+         "stem": "If the interviewer also asks why that spot was chosen, how does the response develop?",
+         "options": [
+          "It gives the time of the meeting after naming the location.",
+          "It replaces the location with a description of the group.",
+          "It repeats the canal's name without giving a reason.",
+          "It connects the chosen location with a useful view."
+         ],
+         "answer": 3,
+         "why": "because the path provides a clear view 说明了选这个地点的原因，即第四项。",
+         "point": "structure"
+        },
+        {
+         "stem": "Rebuild the first sentence that was heard.",
+         "lead": "The sketching group",
+         "chunks": [
+          "meets",
+          "beside",
+          "the",
+          "canal"
+         ],
+         "tail": ".",
+         "extra": [
+          "meeting"
+         ],
+         "why": "meets beside the canal 先交代地点。",
+         "point": "direct"
+        },
+        {
+         "stem": "Rebuild the second sentence that was heard.",
+         "lead": "We",
+         "chunks": [
+          "use that spot",
+          "because",
+          "the path provides",
+          "a clear view of the warehouses"
+         ],
+         "tail": ".",
+         "extra": [
+          "although"
+         ],
+         "why": "because 引出选这个地点的理由，that spot 指前一句的运河边。",
+         "point": "structure"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

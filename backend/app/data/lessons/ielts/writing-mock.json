@@ -1,0 +1,33 @@
+{
+ "id": "writing-mock", "title": "写作模拟测试", "goal": "能判断图表描述的准确性及议论回应的立场与展开。", "skill": "写作", "exam": "雅思 IELTS Academic", "mastery": "once",
+ "points": [{"id": "task1", "label": "判断图表描述的特征与准确性"}, {"id": "task2", "label": "判断议论回答的立场与展开"}],
+ "sources": [
+  {"id": "i3", "title": "IELTS Academic format: Writing", "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing", "used": "写作总时间及两项任务的字数要求"},
+  {"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "模拟测试的材料和教学规格"}
+ ],
+ "cards": [
+  {"id": "instructions", "type": "text", "title": "说明", "src": "i3 写作结构", "body": [
+   {"p": "写作部分共 60 分钟。Task 1 至少写 150 词，Task 2 至少写 250 词。"},
+   {"p": "两篇完整作文分别在表格练习和观点题练习中完成，限时 20 分钟和 40 分钟。"},
+   {"p": "本课小测用客观题检查图表描述和议论回应。小测成绩只反映局部知识，不能用来预测写作分数段。"}
+  ], "note": "练习计时和客观判断为本课程的教学规格。"},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 8, "pass": 0.75, "points": ["task1", "task2"], "sets": [{"id": "set-a", "groups": [
+   {"text": "The table shows the number of passengers using four local bus routes in a town in 2015, 2020 and 2025. Figures are in thousands of passengers per year. Summarise the main features and make relevant comparisons. The routes served the same areas throughout the period.\n\nAnnual passengers (thousands)\nRoute | 2015 | 2020 | 2025\nNorth | 40 | 50 | 60\nEast | 30 | 30 | 30\nSouth | 50 | 40 | 30\nWest | 20 | 30 | 40", "items": [
+    {"stem": "Which overview accurately summarises the main patterns?", "options": ["North and West rose, South fell, and East remained stable.", "North and South rose, while East and West remained stable.", "All four routes rose by the same amount over the period.", "East and West fell, while North and South remained stable."], "answer": 0, "why": "North 和 West 上升，South 下降，East 三个年份均为 30。", "point": "task1"},
+    {"stem": "Which comparison is supported by the 2025 figures?", "options": ["South had twice as many passengers as North.", "North had twice as many passengers as East.", "East had twice as many passengers as West.", "West had twice as many passengers as North."], "answer": 1, "why": "2025 年 North 为 60,000 人次，East 为 30,000 人次，正好两倍。", "point": "task1"},
+    {"stem": "Which statement accurately describes the West route?", "options": ["It rose from 20 to 50 thousand passengers.", "It fell from 40 to 20 thousand passengers.", "It rose from 20 to 40 thousand passengers.", "It remained at 30 thousand passengers throughout."], "answer": 2, "why": "West 从 2015 年的 20,000 人次升至 2025 年的 40,000 人次。", "point": "task1"},
+    {"stem": "Complete the description of the North route.", "lead": "North", "chunks": ["rose", "from 40", "to 60 thousand", "passengers"], "tail": ".", "extra": ["falling"], "why": "North 从 40,000 人次上升到 60,000 人次。", "point": "task1"},
+    {"stem": "Complete the description of the East route.", "lead": "East", "chunks": ["remained", "at 30 thousand", "passengers", "in each year"], "tail": ".", "extra": ["rising"], "why": "East 在三个年份都是 30,000 人次。", "point": "task1"},
+    {"stem": "Complete the comparison for 2025.", "lead": "North carried", "chunks": ["twice as many", "passengers", "as", "South"], "tail": ".", "extra": ["more"], "why": "2025 年 North 为 60,000 人次，South 为 30,000 人次。", "point": "task1"}
+   ]},
+   {"text": "A town is considering changes to its local bus network. Some people believe the council should spend more money on frequent bus services rather than widening roads for private cars. Others think road widening should receive priority. To what extent do you agree or disagree with giving priority to bus services? Give reasons and examples for your answer.", "items": [
+    {"stem": "What proposal must an answer evaluate?", "options": ["Whether the town should change its local bus network at all.", "Whether bus services should replace private cars in the town.", "Whether residents agree that the roads are too narrow for cars.", "Whether frequent bus services should have spending priority."], "answer": 3, "why": "题目问 To what extent do you agree or disagree with giving priority to bus services，要评价的是给高频公交优先拨款。第一项只是题目的背景，范围过宽。", "point": "task2"},
+    {"stem": "Which sentence states a clear position on the proposal?", "options": ["I favour prioritising frequent bus services over road widening.", "Some people discuss buses and others discuss private cars.", "The council is considering changes to its transport network.", "Both buses and roads exist within the town's transport system."], "answer": 0, "why": "I favour 明确表示作者支持公交服务优先于道路拓宽。", "point": "task2"},
+    {"stem": "A writer claims frequent buses can help commuters who do not drive. Which sentence develops that claim?", "options": ["Commuters who do not drive are people who travel to work by other means.", "A shorter wait can make bus travel practical for workers without cars.", "Road widening and buses are both discussed by local residents.", "Some roads in the town are used by private cars and buses."], "answer": 1, "why": "第二项说明候车时间缩短后，公交对没有汽车的通勤者更实用，展开了原来的论点。", "point": "task2"},
+    {"stem": "Complete a clear position favouring buses.", "lead": "The council", "chunks": ["should prioritise", "frequent bus services", "over", "road widening"], "tail": ".", "extra": ["prioritising"], "why": "该句明确主张公交服务优先于拓宽道路。", "point": "task2"},
+    {"stem": "Complete a relevant explanation of the benefit.", "lead": "More frequent buses", "chunks": ["can reduce", "waiting times", "for", "commuters"], "tail": ".", "extra": ["reducing"], "why": "班次增加可能减少通勤者的等待时间。", "point": "task2"},
+    {"stem": "Complete a conclusion consistent with a preference for bus investment.", "lead": "On balance,", "chunks": ["investment in buses", "should take priority", "over", "widening roads"], "tail": ".", "extra": ["taking"], "why": "结论保持公交投资优先的立场。", "point": "task2"}
+   ]}
+  ]}]} 
+ ]
+}

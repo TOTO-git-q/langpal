@@ -1,0 +1,65 @@
+{
+ "id": "reading-matching-structure",
+ "title": "长篇说明文的段落功能",
+ "goal": "识别段落功能并按信息类别查找候选段。",
+ "skill": "阅读",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "function", "label": "判断长篇说明文各段的功能"},
+  {"id": "navigate", "label": "按信息类别缩小候选段范围"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读教学依据"}],
+ "cards": [
+  {"id": "structure", "type": "table", "title": "结构", "cols": ["功能", "主题句例", "内容"], "rows": [
+   ["现象", "Many visitors arrive after the gate closes.", "描述到达时间造成的问题。"],
+   ["原因", "The bus timetable explains some late arrivals.", "说明部分迟到的原因。"],
+   ["实例", "One visitor missed the last bus connection.", "用具体经历说明情况。"],
+   ["对策", "The centre has added a later entry period.", "提出或实施应对措施。"]
+  ]},
+  {"id": "signals", "type": "table", "title": "常用表达", "cols": ["功能", "表达", "例句"], "rows": [
+   ["现象", "A common problem is", "A common problem is the lack of seating."],
+   ["原因", "One reason is", "One reason is the early closing time."],
+   ["实例", "For example", "For example, one family arrived after closing."],
+   ["对策", "One response is", "One response is to extend opening hours."],
+   ["小标题", "Improving Access", "A section under Improving Access describes a ramp."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A. Limited Seating\nThe waiting room has too few seats at busy times. Some visitors stand near the door.\nB. Providing More Seats\nThe centre has placed folding chairs in the waiting room. Staff put them away when the room is quiet.\n\nStatement: The centre provides extra seating at busy times."},
+   {"p": "第一段主题句 The waiting room has too few seats at busy times 描述问题。第二段主题句 The centre has placed folding chairs in the waiting room 说明措施。"},
+   {"p": "小标题 Providing More Seats 提示先查第二段。placed folding chairs 和 put them away when the room is quiet 支持陈述。"},
+   {"box": "A. Delayed Deliveries\nSeveral deliveries reached the workshop late. The delay affected the work schedule.\nB. A Change in Collection\nThe workshop arranged an earlier collection from its supplier. The new arrangement began on Monday."},
+   {"p": "第一段主题句 Several deliveries reached the workshop late 描述现象。第二段主题句 The workshop arranged an earlier collection from its supplier 说明对策。两个小标题也把问题和措施分开。"}
+  ]},
+  {"id": "errors", "type": "table", "title": "常见错误", "cols": ["类型", "例", "核对"], "rows": [
+   ["问题当对策", "too few seats", "查找增加座位的行动。"],
+   ["原因当现象", "early closing time", "区分关闭时间与迟到情况。"],
+   ["实例当全部", "one family arrived late", "该例只说明一家人的情况。"],
+   ["小标题代替依据", "Providing More Seats", "核对 chairs 的具体安排。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["function", "navigate"], "groups": [
+   {"look": "passage", "text": "The station has a problem with crowded platforms. Passengers often wait close to the entrance.", "items": [{"stem": "What is the paragraph's main function?", "options": ["To describe a problem of crowding", "To explain a new platform design", "To give a cause of empty trains", "To compare two station timetables"], "answer": 0, "why": "a problem with crowded platforms 引出站台拥挤现象。", "point": "function"}]},
+   {"look": "passage", "text": "One reason for the crowded platform is that two trains depart at the same time.", "items": [{"stem": "What information does this paragraph provide?", "options": ["A change to train seating", "A cause of platform crowding", "An example of a quiet platform", "A proposal for later departures"], "answer": 1, "why": "One reason 引出两列车同时出发这一原因。", "point": "function"}]},
+   {"look": "passage", "text": "A. The Problem: The footpath is often muddy. B. A Response: Workers have added a gravel surface.", "items": [{"stem": "Where should a reader look for a measure to address the path?", "options": ["The problem paragraph", "Both paragraph headings", "The response paragraph", "Neither paragraph"], "answer": 2, "why": "A Response 和 added a gravel surface 指向铺设碎石的措施。", "point": "navigate"}]},
+   {"look": "passage", "text": "A. The Reason: The bus arrives after the ferry leaves. B. An Example: One passenger missed the ferry on Tuesday.", "items": [{"stem": "Where should a reader look for an individual case?", "options": ["The reason paragraph", "Both paragraph headings", "Neither paragraph", "The example paragraph"], "answer": 3, "why": "An Example 引出一名乘客的具体经历。", "point": "navigate"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["function", "navigate"], "groups": [
+   {"look": "passage", "text": "A. A Storage Problem\nThe school has too little room for sports equipment. Balls are kept in several classrooms.\nB. The Cause\nThe original cupboard is too small for the new equipment.\nC. A Storage Plan\nThe school will place a larger cabinet in the hall. Teachers will label its shelves.", "items": [
+    {"stem": "What is the function of the first paragraph?", "options": ["To present a problem with storage", "To give the cause of the shortage", "To explain labels on the shelves", "To report a cabinet's delivery"], "answer": 0, "why": "too little room for sports equipment 是储存问题。短缺的原因在第二段 The Cause。", "point": "function"},
+    {"stem": "Which paragraph should be checked for a proposed measure?", "options": ["The first paragraph", "The third paragraph", "The second paragraph", "All three paragraphs"], "answer": 1, "why": "A Storage Plan 和 will place a larger cabinet 指向拟采取的措施。", "point": "navigate"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["function", "navigate"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A. Food at the Market\nAt the end of each market day, some sellers have fresh food left over. They may have more produce than customers have purchased. Keeping this food for another market day can be difficult, especially when sellers do not have enough cool storage. The amount left varies from one day to another and depends on what customers buy. Unsold food must therefore be handled soon after the market closes for the day.\n\nB. A Reason for Surplus\nSellers need to estimate how much food customers will want before the market opens. If fewer customers arrive than expected, some goods remain unsold. Weather and the timing of other local events can affect attendance. An estimate helps sellers prepare, but it cannot ensure that every item will be bought on a particular day.\n\nC. One Seller's Experience\nA vegetable seller once brought extra carrots to a weekend market. Fewer customers came than the seller had expected, and several boxes remained at closing time. The seller offered the carrots to a local kitchen. The kitchen accepted them for a meal it was preparing, and the empty boxes were returned afterwards.\n\nD. A Collection Plan\nThe market later arranged a collection point for food that sellers wished to donate. A local kitchen agreed to pick up suitable items after closing. Sellers could indicate what they wanted to give, and the kitchen could decide what it was able to use. The arrangement was intended to connect available food with a specific local need.", "items": [
+    {"stem": "What is the main function of the first paragraph?", "options": ["To present the problem of food remaining", "To detail the kitchen's collection schedule", "To give one seller's account of carrots", "To explain how customers choose a market"], "answer": 0, "why": "some sellers have fresh food left over 引出现象及储存困难。", "point": "function"},
+    {"stem": "Which paragraph should be checked for an individual seller's experience?", "options": ["The paragraph headed Food at the Market", "The paragraph headed One Seller's Experience", "The paragraph headed A Collection Plan", "The paragraph headed A Reason for Surplus"], "answer": 1, "why": "One Seller's Experience 指向具体卖家和剩余胡萝卜的经历。", "point": "navigate"},
+    {"stem": "What does the final paragraph primarily describe?", "options": ["How weather and other events affect attendance", "How one seller gave carrots to a kitchen", "An arrangement for collecting donated food", "The storage difficulty that sellers first noticed"], "answer": 2, "why": "arranged a collection point for food that sellers wished to donate 说明收集捐赠食物的安排。第二项是第三段一位卖家的个别经历。", "point": "function"}
+   ]},
+   {"look": "passage", "text": "A. A Waiting Problem\nPeople visiting a repair workshop sometimes wait a long time before speaking with a technician. At busy periods, several visitors arrive together and stand near the entrance. The workshop has a small waiting area, so staff want to understand when queues form. They began by recording arrival times rather than changing the repair process immediately. The records covered both the morning and the later hours of the working day.\n\nB. Why Queues Form\nOne reason for the queue is that visitors often arrive just after the workshop opens. Some want to leave an item before going to work. When several people arrive at once, the single reception desk cannot serve all of them at the same moment. Later in the day, arrivals are usually spread over a longer period.\n\nC. A Visitor's Account\nOne visitor brought a bicycle lamp to the workshop on a weekday morning. Several other people had arrived shortly before, so the visitor waited near the entrance. The technician later inspected the lamp and explained the repair. This account illustrates one busy period; it does not describe every visitor's experience or every type of repair.\n\nD. A New Appointment System\nThe workshop introduced a way to reserve a time for leaving an item. Visitors who made an appointment could tell staff in advance what they needed repaired. The workshop continued to accept visitors without appointments as well. Staff planned to compare waiting times before and after the change to see how the new arrangement worked.", "items": [
+    {"stem": "Which paragraph should be checked for an explanation of the queue?", "options": ["The paragraph headed A Visitor's Account", "The paragraph headed A Waiting Problem", "The paragraph headed A New Appointment System", "The paragraph headed Why Queues Form"], "answer": 3, "why": "Why Queues Form 和 One reason 指向排队原因。", "point": "navigate"},
+    {"stem": "What is the role of the paragraph about the bicycle lamp?", "options": ["To present a particular visitor's experience", "To prescribe the workshop's repair procedure", "To report results of the appointment system", "To establish the reason for every queue"], "answer": 0, "why": "One visitor brought a bicycle lamp 引出一个具体经历。", "point": "function"},
+    {"stem": "Which paragraph describes a measure intended to address waiting?", "options": ["The paragraph headed Why Queues Form", "The paragraph headed A New Appointment System", "The paragraph headed A Visitor's Account", "The paragraph headed A Waiting Problem"], "answer": 1, "why": "introduced a way to reserve a time 说明预约措施。", "point": "navigate"}
+   ]}
+  ]}]}
+ ]
+}

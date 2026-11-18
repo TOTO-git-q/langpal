@@ -1,0 +1,443 @@
+{
+ "id": "listening-passage-narrative",
+ "title": "人物经历类独白",
+ "goal": "恢复人物经历的时间顺序；识别关键事件引起的变化。",
+ "skill": "听力",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "timeline",
+   "label": "恢复人物经历的时间顺序"
+  },
+  {
+   "id": "change",
+   "label": "识别关键事件引起的变化"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语六级（CET-6）：课表",
+   "url": "docs/syllabi/cet6.md",
+   "used": "人物经历类独白的内容、知识点与练习规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "structure",
+   "type": "table",
+   "title": "结构",
+   "cols": [
+    "部分",
+    "作用",
+    "例"
+   ],
+   "rows": [
+    [
+     "背景",
+     "交代人物所处的情况。",
+     "I had recently joined a gardening group."
+    ],
+    [
+     "目标",
+     "说明人物希望完成的事。",
+     "I wanted to grow herbs for the group."
+    ],
+    [
+     "困难",
+     "说明目标遇到的具体障碍。",
+     "The containers dried out quickly."
+    ],
+    [
+     "行动",
+     "记下人物应对困难的做法。",
+     "I moved them to a sheltered spot."
+    ],
+    [
+     "结果",
+     "说明行动后发生的变化。",
+     "The soil stayed damp for longer."
+    ]
+   ],
+   "note": "叙述有时会回到更早的经历。判断顺序看时间词和时态。"
+  },
+  {
+   "id": "expressions",
+   "type": "table",
+   "title": "常用表达",
+   "cols": [
+    "表达",
+    "作用",
+    "例"
+   ],
+   "rows": [
+    [
+     "at first",
+     "引出早期做法或认识。",
+     "At first I avoided asking for advice."
+    ],
+    [
+     "had + 过去分词",
+     "回溯过去某一时点之前的事。",
+     "I had tested the route before the group arrived."
+    ],
+    [
+     "一般过去时",
+     "叙述过去发生的主要事件。",
+     "The group arrived and we followed the route."
+    ],
+    [
+     "after / before",
+     "说明两个事件的先后。",
+     "After I tested the route, I marked the turns."
+    ],
+    [
+     "changed my mind",
+     "说明认识或决定发生转变。",
+     "A visit to the workshop changed my mind."
+    ],
+    [
+     "eventually",
+     "引出一段过程之后的结果。",
+     "Eventually I shared the completed plan."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "When I joined the town choir, I wanted to sing in its concert. I had practiced alone before the first rehearsal, but I lost my place when the other parts started. I asked another singer to rehearse with me. Hearing our parts together helped me follow the music. At first I thought practice had to be solitary; afterward I valued rehearsing with others."
+    },
+    {
+     "box": "What changed the speaker's view of practice?\n1. Practicing alone before the first rehearsal\n2. Rehearsing with another singer after losing their place\n3. Losing their place when the other parts started\n4. Following the music while practicing alone"
+    },
+    {
+     "p": "had practiced alone 是第一次排练之前的经历。lost my place 是困难，rehearse with me 是应对的行动。和别人一起排练改变了讲者的看法，对应第二项。第三项是困难，不是改变看法的原因。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "回溯误作后续",
+     "Solo practice followed the first rehearsal.",
+     "had practiced 指排练前的练习。"
+    ],
+    [
+     "混同早期与最终认识",
+     "The speaker finally preferred to practice alone.",
+     "最后的看法是重视和别人一起排练。"
+    ],
+    [
+     "困难误作结果",
+     "Losing a place was the final outcome.",
+     "困难之后还有行动：讲者找人一起排练。"
+    ],
+    [
+     "转变原因替换",
+     "Joining the choir alone changed the view.",
+     "看法是在和别人一起排练之后改变的。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "timeline",
+    "change"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I had measured the classroom before the volunteers arrived. We then moved the tables against the walls and tested the space for a dance lesson. The measurements helped us decide which tables could remain without narrowing the space needed by the dancers."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What happened before the volunteers arrived?",
+       "options": [
+        "The dancers completed their first lesson.",
+        "The speaker measured the classroom.",
+        "The group moved tables against the walls.",
+        "The volunteers tested the open space."
+       ],
+       "answer": 1,
+       "why": "had measured the classroom before the volunteers arrived 明确测量先于志愿者到来。",
+       "point": "timeline"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "At first I thought that repairing a chair meant replacing every loose joint. A carpenter showed me that one joint only needed tightening. After seeing the chair become stable, I began checking each joint before deciding what work was necessary."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What changed the speaker's approach to the chair?",
+       "options": [
+        "Seeing a joint tightened successfully",
+        "Replacing every joint in the chair",
+        "Finding that the chair had no loose joints",
+        "Being told to replace every loose joint"
+       ],
+       "answer": 0,
+       "why": "one joint only needed tightening 和 seeing the chair become stable 说明改变做法的原因。",
+       "point": "change"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I had drafted the invitation before the committee met. During the meeting, members suggested a different date. I revised the invitation afterward, then sent it to the printer. The earlier draft helped the committee discuss the wording as well as the date."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which event took place last?",
+       "options": [
+        "The speaker drafted the invitation.",
+        "The committee suggested a different date.",
+        "The speaker revised the invitation.",
+        "The invitation went to the printer."
+       ],
+       "answer": 3,
+       "why": "I revised the invitation afterward, then sent it to the printer 表明送印发生在修改之后。",
+       "point": "timeline"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I once assumed a long rehearsal was always useful. During a play, however, the actors lost concentration near the end of a long session. I divided the next rehearsal into shorter sections, and the actors remained attentive throughout each section."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why did the speaker divide the next rehearsal?",
+       "options": [
+        "The actors requested a longer final section.",
+        "The actors stayed attentive in shorter sessions.",
+        "The actors lost focus during a long session.",
+        "The short sections had already been completed."
+       ],
+       "answer": 2,
+       "why": "actors lost concentration near the end of a long session 促使讲者把下次排练分段，即第三项。第二项是分段之后的结果。",
+       "point": "change"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "timeline",
+    "change"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I volunteered to organize a local history display. I had expected photographs to be enough, and I collected them before meeting the residents. At the meeting, one resident explained that an unlabelled photograph showed a former market rather than a school. I added captions after checking the other images with residents. The display opened with both pictures and short explanations. The experience changed my view: an image can become more useful when its context is recorded."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What did the speaker do before meeting residents?",
+       "options": [
+        "Opened the display with captions",
+        "Collected photographs for the display",
+        "Checked every image with residents",
+        "Identified the market in a photograph"
+       ],
+       "answer": 1,
+       "why": "I collected them before meeting the residents 表明收集照片发生在会面前。",
+       "point": "timeline"
+      },
+      {
+       "stem": "What prompted the speaker to add captions?",
+       "options": [
+        "A resident identified the place in a photograph.",
+        "The display had already opened without pictures.",
+        "Residents had labelled the photographs already.",
+        "A school replaced the market in the display."
+       ],
+       "answer": 0,
+       "why": "one resident explained … a former market rather than a school 促使讲者核对图片并补充说明。",
+       "point": "change"
+      },
+      {
+       "stem": "How did the speaker's view change?",
+       "options": [
+        "From valuing captions to rejecting explanations",
+        "From consulting residents to avoiding their accounts",
+        "From recording context to relying on pictures alone",
+        "From trusting pictures alone to recording context"
+       ],
+       "answer": 3,
+       "why": "早先的看法是 expected photographs to be enough，后来是 more useful when its context is recorded，即第四项。第三项把先后顺序说反了。",
+       "point": "change"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "timeline",
+    "change"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the passage.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "When I joined a local walking group, I offered to plan a route for a weekend trip. I wanted the group to reach a viewpoint before lunch. I had walked the first section alone the previous month, so I assumed the rest of the route would be equally straightforward. I drew a map and sent it to the other members. On the day of the trip, the first section went as expected. Beyond it, however, we found that a footbridge was closed for repairs. The alternative path took us down to the river and then back up a steep slope. Two members found the climb tiring, and we stopped several times. We reached the viewpoint later than planned and ate lunch there. At first I was disappointed that my map had not worked. Another member suggested that I contact the local path office before planning the next walk. I did so and learned about a different route with a gentler slope. Before our next trip, I walked that route with another member and noted places to rest. We also agreed on a shorter option for anyone who wanted to return early. The next walk went smoothly, although we did not all travel at exactly the same pace. The experience changed my idea of a useful route plan. I had thought a map only needed to show the destination. I now include current access information, likely difficulties, and alternatives for the people taking part."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What had the speaker done before drawing the first map?",
+         "options": [
+          "Walked the opening section of the route",
+          "Checked bridge repairs with the path office",
+          "Tested the gentler route with a member",
+          "Agreed on a shorter return option"
+         ],
+         "answer": 0,
+         "why": "had walked the first section alone the previous month 发生在 drew a map 之前。",
+         "point": "timeline"
+        },
+        {
+         "stem": "What caused the group to take the steep alternative path?",
+         "options": [
+          "The group reached the viewpoint before lunch.",
+          "The route office recommended a gentler slope.",
+          "A footbridge on the planned route was closed.",
+          "Two members found the first section tiring."
+         ],
+         "answer": 2,
+         "why": "a footbridge was closed for repairs 后接 The alternative path，说明改变路线的原因。",
+         "point": "change"
+        },
+        {
+         "stem": "How did the speaker's view of route planning change?",
+         "options": [
+          "From considering alternatives to showing only a destination",
+          "From relying on a destination map to including access and options",
+          "From consulting a path office to planning without information",
+          "From walking with another member to always planning alone"
+         ],
+         "answer": 1,
+         "why": "thought a map only needed to show the destination 与 now include current access information … and alternatives 对照认识的变化。",
+         "point": "change"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the passage.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "A few years ago, I volunteered to help a school prepare a small exhibition of student artwork. My task was to arrange the pictures in a corridor before families arrived. I had previously organized a display at a library, where all the pictures were hung at the same height. I expected the same arrangement to work at the school. The corridor was narrower than the library room, however, and some of the younger students could not see the pictures clearly when adults stood in front of them. I first tried moving the pictures closer together, but that made the labels difficult to read. A teacher suggested arranging some pictures lower and leaving wider spaces between groups. We tried the idea before the families entered. The children were able to see more of the display, and the labels were easier to find. Later, the teacher asked the students which parts they had noticed. Several mentioned pictures placed near their own eye level. For the next exhibition, I measured the corridor and discussed the arrangement with teachers before hanging anything. We left room for people to move and used different heights for different groups of pictures. I had originally treated a consistent height as the main sign of a neat display. The school experience taught me to consider who needs to see the work and how people will move through the space. The library arrangement had suited its room, but it was not a rule for every display."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What had the speaker done before volunteering at the school?",
+         "options": [
+          "Asked students which pictures they noticed",
+          "Organized an artwork display at a library",
+          "Measured the school's narrow corridor",
+          "Hung school pictures at different heights"
+         ],
+         "answer": 1,
+         "why": "had previously organized a display at a library 回溯学校志愿工作之前的经历。",
+         "point": "timeline"
+        },
+        {
+         "stem": "What prompted the teacher's suggestion?",
+         "options": [
+          "Families had already left the school corridor.",
+          "Moving the pictures closer had made the labels easier to read.",
+          "The library display had used several different heights.",
+          "Pupils struggled to see, and the labels were hard to read."
+         ],
+         "answer": 3,
+         "why": "依据是 younger students could not see 和 made the labels difficult to read，即第四项。第二项把 difficult 说成了 easier。",
+         "point": "change"
+        },
+        {
+         "stem": "What did the speaker do before hanging the next exhibition?",
+         "options": [
+          "Measured the corridor and consulted teachers",
+          "Asked families to move the pictures closer",
+          "Used the library's uniform height without discussion",
+          "Removed the pictures that children had noticed"
+         ],
+         "answer": 0,
+         "why": "For the next exhibition, I measured the corridor and discussed the arrangement with teachers before hanging anything 给出先后顺序。",
+         "point": "timeline"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

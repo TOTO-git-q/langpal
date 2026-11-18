@@ -1,0 +1,62 @@
+{
+ "id": "translation-articles",
+ "title": "翻译中的泛指与特指",
+ "goal": "能判断原文的指称，并为英文名词选择适当的冠词。",
+ "skill": "翻译",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "reference", "label": "判断原文对象是泛指还是特指"},
+  {"id": "article", "label": "补出英文名词所需的冠词"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译教学所依据的大纲"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "英语用冠词表示名词指的是哪一个。中文常不说「一」或「这」，译成英文时，单数可数名词前仍要加限定词。"},
+   {"box": "原文：村里有一种传统。这个传统与春季播种有关。\n译文：The village has a tradition. The tradition is related to spring planting."},
+   {"p": "第一句引入一种传统，用 a。第二句指已提及的传统，用 the。"}
+  ]},
+  {"id": "general", "type": "table", "title": "泛指与引入", "cols": ["情况", "原文", "译文与说明"], "rows": [
+   ["一种传统", "当地有一种传统，人们在春天种树。", "There is a local tradition of planting trees in spring. a 引入一种传统。"],
+   ["一种习俗", "当地有一种习俗，人们在节日期间赠送花朵。", "There is a local custom of giving flowers during festivals. a 引入一种习俗。"],
+   ["一般物质", "工匠使用木材制作日常使用的器具。", "Craftspeople use wood to make objects for daily use. wood 泛指木材。"],
+   ["一般物质", "居民用水清洗准备编织的竹条。", "Residents use water to wash bamboo strips for weaving. water 泛指水。"]
+  ]},
+  {"id": "specific", "type": "table", "title": "特指与独一对象", "cols": ["情况", "原文", "译文与说明"], "rows": [
+   ["已提及建筑", "村里有一座展馆。展馆收藏了传统工具。", "The village has a gallery. The gallery holds traditional tools. 第二次提及用 the。"],
+   ["已提及建筑", "镇上建了一座桥。桥连接两片农田。", "The town built a bridge. The bridge connects two fields. 第二次提及用 the。"],
+   ["独一对象", "太阳升起时，村民开始在田间劳作。", "The villagers begin working in the fields when the sun rises. the sun 指太阳。"],
+   ["独一对象", "夜晚的天空中，月亮照亮了村边的小路。", "The moon in the night sky lit up the path beside the village. the moon 指月亮。"]
+  ]},
+  {"id": "contrast", "type": "table", "title": "冠词的选择", "cols": ["表达", "指称", "例句"], "rows": [
+   ["a tradition", "第一次引入的一种传统", "The community has a tradition of sharing food."],
+   ["the tradition", "前文已说过的那个传统", "The tradition brings neighbors together."],
+   ["an exhibition", "以元音音素开头的单数名词，第一次引入用 an", "The hall has an exhibition of local crafts."],
+   ["water", "泛指物质，不加冠词", "Water is used to clean the tools."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "原文：村里有一座展馆。展馆展示当地工艺品。\n1. The village has a gallery. A gallery displays local crafts.\n2. The village has a gallery. The gallery displays local crafts.\n3. The village has gallery. The gallery displays local crafts.\n4. The village has a gallery. Galleries display local crafts."},
+   {"p": "第二句的「展馆」就是前句那座展馆，用 the gallery，即第二项。第一项的 A gallery 指的是另一座展馆。"}
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["reference", "article"], "groups": [{"items": [
+   {"stem": "原文：村里有一种传统，人们在秋天分享食物。Which phrase introduces the tradition?", "options": ["a tradition", "the tradition", "tradition", "an tradition"], "answer": 0, "why": "依据：「有一种传统」是第一次引入。单数可数名词第一次出现用 a，即第一项。", "point": "article"},
+   {"stem": "原文：镇上有一座桥。桥通往学校。Which phrase identifies the bridge already mentioned?", "options": ["a bridge", "the bridge", "bridges", "another bridge"], "answer": 1, "why": "依据：第二句的「桥」就是前句那座桥。第二次提及用 the，即第二项。", "point": "reference"},
+   {"stem": "原文：太阳升起时，居民开始打扫广场。Which phrase names the sun?", "options": ["a sun", "sun", "the sun", "the suns"], "answer": 2, "why": "太阳是独一的对象，用 the sun，即第三项。", "point": "article"},
+   {"stem": "原文：工匠使用木材制作常见的家用器具。Which phrase refers to wood in general?", "options": ["a wood", "the wood", "the woods", "wood"], "answer": 3, "why": "依据：「使用木材」指木材这种材料。泛指物质不加冠词，即第四项。", "point": "reference"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["reference", "article"], "groups": [{"text": "原文：村里建了一座展室。展室收藏木制工具。工匠使用木材制作这些工具。", "items": [
+   {"stem": "Which phrase refers back to the room?", "options": ["the exhibition room", "another exhibition room", "a exhibition room", "exhibition rooms"], "answer": 0, "why": "依据：第二句的「展室」就是前句建的那间，用 the，即第一项。", "point": "reference"},
+   {"stem": "Which phrase introduces the room for the first time?", "options": ["the exhibition room", "an exhibition room", "a exhibition room", "exhibition room"], "answer": 1, "why": "依据：「建了一座展室」是第一次引入。exhibition 以元音音素开头，用 an，即第二项。", "point": "article"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["reference", "article"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "原文：村里有一种习俗，人们在春天种花。Which phrase introduces the custom?", "options": ["a custom", "the custom", "custom", "an custom"], "answer": 0, "why": "依据：「有一种习俗」是第一次引入。单数可数名词第一次出现用 a，即第一项。", "point": "article"},
+   {"stem": "原文：镇上建了一座展馆。展馆收藏当地照片。Which phrase refers to the room already introduced?", "options": ["another gallery", "the gallery", "galleries", "a gallery"], "answer": 1, "why": "依据：第二句的「展馆」就是前句那座展馆。第二次提及用 the，即第二项。", "point": "reference"},
+   {"stem": "原文：太阳升起时，工匠开始准备工作。Which phrase names the sun?", "options": ["a sun", "sun", "the sun", "the suns"], "answer": 2, "why": "太阳是独一的对象，用 the sun，即第三项。", "point": "article"},
+   {"stem": "原文：工匠使用木材制作了许多实用的器具。Which phrase expresses wood as a material in general?", "options": ["a wood", "the wood", "the woods", "wood"], "answer": 3, "why": "依据：「使用木材」指木材这种材料。泛指物质不加冠词，即第四项。", "point": "reference"},
+   {"stem": "原文：镇上建了一座桥。桥连接两片农田。Arrange the continuation. The town built a bridge.", "lead": "The", "chunks": ["bridge", "connects", "two", "fields"], "tail": ".", "extra": ["a"], "why": "the bridge 指前句的桥，单数主语后用 connects。", "point": "reference"},
+   {"stem": "原文：这个社区有一种分享食物的传统。Arrange the translation.", "lead": "The community", "chunks": ["has", "a tradition", "of sharing", "food"], "tail": ".", "extra": ["an"], "why": "a tradition 引入一种传统，of sharing food 说明其内容。", "point": "article"},
+   {"stem": "原文：村里有一座展馆。展馆收藏照片。The village has a gallery. ___ gallery holds photographs. Complete with the definite article.", "accept": ["the"], "why": "the gallery 指已提及的展馆。", "point": "reference"},
+   {"stem": "原文：社区有一种每年种树的传统。The community has ___ of planting trees each year. Complete with the noun tradition and the indefinite article a.", "accept": ["a tradition"], "why": "tradition 是以辅音音素开头的单数名词，用 a。", "point": "article"}
+  ]}]}]}
+ ]
+}

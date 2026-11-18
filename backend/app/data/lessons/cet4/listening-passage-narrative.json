@@ -1,0 +1,64 @@
+{
+ "id": "listening-passage-narrative",
+ "title": "人物故事的事件线索",
+ "goal": "还原故事事件顺序，将行动和结果对应到人物。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "sequence", "label": "按线索还原故事事件的顺序"},
+  {"id": "character", "label": "将行动和结果对应到人物"}
+ ],
+ "sources": [
+  {"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "听力篇章教学依据"}
+ ],
+ "cards": [
+  {"id": "structure", "type": "table", "title": "结构", "cols": ["层次", "内容", "例"], "rows": [
+   ["人物与背景", "确定人物及活动场景", "Mina joined a local theater group."],
+   ["困难", "找出人物遇到的问题", "The group needed a place to rehearse."],
+   ["行动", "对应人物采取的措施", "Mina asked the library about an empty room."],
+   ["结果", "确认行动后的实际情况", "The library offered the room on Tuesdays."]
+  ], "note": "故事可以倒叙。事件的先后看时间表达，不看叙述的先后。"},
+  {"id": "expressions", "type": "table", "title": "常用表达", "cols": ["表达", "关系", "例句"], "rows": [
+   ["then", "引出接着发生的事", "Mina called the library, then visited the room."],
+   ["later", "引出较后发生的事", "Later, the group rehearsed there."],
+   ["by the time", "从句的时间点之前已完成", "By the time Mina arrived, the librarian had opened the room."],
+   ["代词", "根据上下文对应人物", "Mina thanked the librarian after she opened the room."]
+  ], "note": "代词指谁，要看前后的人名和动作。"},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "When Eva entered the workshop, the table was already covered with fabric. Earlier, her classmate Ben had brought it from a storage room. They needed to prepare a display before visitors arrived. Eva cut the fabric to fit the table, then Ben placed the finished models on top. Later, visitors could see the models clearly. Eva thanked Ben for finding the fabric, and he thanked her for preparing it."},
+   {"box": "What happened before Eva entered the workshop?\n1. Visitors examined the finished models.\n2. Ben brought fabric from storage.\n3. Eva cut the fabric for the table.\n4. Ben thanked Eva for cutting the fabric."},
+   {"p": "Earlier 和 had brought 表明 Ben 搬来布料的动作发生在 Eva 进入之前，即第二项。结尾的互相感谢对应两人各自的行动。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "常见错误", "cols": ["类型", "例", "核对"], "rows": [
+   ["叙述顺序当事件顺序", "先听到 Eva 进入，误判她先于搬布进屋。", "earlier 和过去完成时表明搬布在先。"],
+   ["人物替换", "把 Eva 裁布说成 Ben 裁布。", "裁布这个动作的主语是 Eva。"],
+   ["结果提前", "把看清模型说成准备布料之前的事件。", "看清模型是摆好模型之后的结果。"],
+   ["代词误指", "把 he thanked her 中的 he 指为 Eva。", "前一句是 Eva thanked Ben，he 指 Ben。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["sequence", "character"], "groups": [
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "Leo collected the keys, then opened the hall. Later, the musicians arrived."}]}, "items": [{"stem": "What did Leo do immediately before opening the hall?", "options": ["He met the musicians outside.", "He collected the keys for the hall.", "He locked the hall again.", "He waited for the musicians to arrive."], "answer": 1, "why": "collected the keys, then opened the hall 表明取钥匙在开门之前，即第二项。", "point": "sequence"}]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "By the time Tara reached the station, the train had left. She called the office later."}]}, "items": [{"stem": "What happened first?", "options": ["Tara called the office from the station.", "Tara reached the station.", "The train left the station.", "The office called Tara."], "answer": 2, "why": "By the time 和 had left 表明火车先离开，即第三项。", "point": "sequence"}]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "Noah found the missing note. He gave it to Priya, who put it beside the telephone."}]}, "items": [{"stem": "Who placed the note beside the telephone?", "options": ["Priya, after receiving it from Noah", "Noah, before giving it to Priya", "Priya, before Noah found the note", "Noah, after Priya moved the telephone"], "answer": 0, "why": "who put it 指代 Priya，第一项对应正确人物及顺序。", "point": "character"}]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "Lena asked Omar to carry the box. He brought it upstairs, and she opened it there."}]}, "items": [{"stem": "What did Lena do upstairs?", "options": ["She asked Omar to open the box.", "She carried the box to Omar.", "She closed the box for Omar.", "She opened the box Omar had carried."], "answer": 3, "why": "she opened it 指 Lena 打开 Omar 搬上楼的箱子，即第四项。", "point": "character"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["sequence", "character"], "groups": [
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "By the time Hana reached the community garden, her friend Daniel had already found the missing hose. It had been left near the tool shed. The two wanted to water the young plants, but the hose would not reach the far corner. Daniel connected a second hose, and Hana checked the join for leaks. Later, they watered the corner together. Daniel thanked Hana because her careful check had kept water from leaking at the connection."}]}, "items": [
+    {"stem": "What happened before Hana reached the garden?", "options": ["Daniel found the hose near the shed.", "Hana checked the hose connection.", "They watered the far corner together.", "Daniel thanked Hana for checking."], "answer": 0, "why": "By the time Hana reached 和 had already found 表明 Daniel 先找到水管，即第一项。", "point": "sequence"},
+    {"stem": "What did Hana contribute to the task?", "options": ["She found the hose in the shed.", "She connected the second hose herself.", "She checked the connection for leaks.", "She watered the far corner by herself."], "answer": 2, "why": "Hana checked the join for leaks 明确对应第三项。", "point": "character"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 8, "pass": 0.75, "points": ["sequence", "character"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "When Mei walked into the community center, her friend Arun was already standing beside a stack of folded tables. They were preparing a display of photographs made by local residents. Earlier that morning, Arun had collected the photographs from the library, where they had been kept until the display. The center had offered a large room, but the pair soon discovered that the tables were too low for some visitors to see the photographs comfortably. Mei suggested placing the photographs on the wall instead. Arun asked the center manager whether they could use removable hooks, and the manager agreed. While he collected the hooks, Mei sorted the photographs by subject. She placed pictures of the river in one group and pictures of the market in another. Then Arun returned, and together they hung the two groups on opposite walls. By the time the first visitors arrived, the pair had finished hanging every photograph. Later, one visitor asked who had arranged the pictures by subject. Arun pointed to Mei, explaining that her idea made the display easier to follow. Mei thanked Arun for obtaining the hooks so quickly. At the end of the afternoon, they took down the photographs and returned them to the library. The low tables remained folded beside the wall. Although the original plan had changed, the two friends had found a way to make the pictures visible and keep the collection in order."}]}, "items": [
+    {"stem": "What did Arun do before Mei entered the center?", "options": ["He collected the photographs from the library.", "He hung the pictures on opposite walls.", "He returned the photographs to the library.", "He sorted the photographs into two groups."], "answer": 0, "why": "Earlier that morning, Arun had collected the photographs 表明进入之前的行动，即第一项。", "point": "sequence"},
+    {"stem": "What did Mei do while Arun collected the hooks?", "options": ["She asked the manager for permission.", "She sorted the pictures by subject.", "She hung the river pictures on the wall.", "She returned the hooks to the manager."], "answer": 1, "why": "While he collected the hooks, Mei sorted the photographs 指出 Mei 的行动，即第二项。", "point": "character"},
+    {"stem": "What had happened by the time the first visitors arrived?", "options": ["The pictures had been returned to the library.", "The manager had folded all the display tables.", "The friends had finished hanging the photographs.", "The visitors had asked who sorted the pictures."], "answer": 2, "why": "By the time the first visitors arrived 后说明照片已经挂好，即第三项。", "point": "sequence"}
+   ]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "At the end of the term, Sofia thanked her classmate Malik for saving their class recording. The problem had begun several days earlier, when the class prepared a short interview with a visiting craft worker. Sofia was responsible for asking the questions, while Malik agreed to operate the recorder. They tested the equipment in an empty classroom and heard both voices clearly. On the day of the interview, however, a machine in the neighboring room made a steady noise. After the interview, Malik listened to the recording and found that parts of the answers were difficult to hear. Sofia wanted to ask the visitor to return, but the visitor was leaving town that afternoon. Malik remembered that a second recorder had been placed closer to the visitor during the interview. He found that recording and discovered that the answers were clearer on it. Sofia then listened to both recordings and noted where the questions were clearest. Together, they prepared a version using the clearer parts of each recording. Later, their teacher played it for the class. By the time the class heard the interview, the visitor had already left town. The teacher praised the pair for checking both recordings carefully. Sofia's thanks to Malik referred to his finding the second recording, while Malik credited Sofia with identifying the clearest questions. Their different tasks helped them preserve the interview."}]}, "items": [
+    {"stem": "What did Malik discover after the interview?", "options": ["The visitor had never answered Sofia's questions.", "The classroom test had taken place after the interview.", "The teacher had already played the final version.", "Some answers were hard to hear on the recording."], "answer": 3, "why": "Malik listened 后发现 parts of the answers were difficult to hear，即第四项。", "point": "character"},
+    {"stem": "What did Sofia do after Malik found the second recording?", "options": ["She asked the visitor to return the next week.", "She identified where the questions sounded clearest.", "She placed the first recorder near the visitor.", "She operated the recorder during the interview."], "answer": 1, "why": "Sofia then listened 和 noted where the questions were clearest 对应第二项。", "point": "character"},
+    {"stem": "What occurred before the class heard the interview?", "options": ["The visitor had already left town.", "The teacher had asked the visitor to return.", "Sofia had interviewed the visitor a second time.", "Malik had asked the visitor the questions himself."], "answer": 0, "why": "By the time the class heard the interview, the visitor had already left town，即第一项。", "point": "sequence"}
+   ]}
+  ]}]}
+ ]
+}

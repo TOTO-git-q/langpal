@@ -1,0 +1,363 @@
+{
+ "id": "usage-grammar-method",
+ "title": "语法填空的句法判断",
+ "goal": "能根据句子结构判断空缺成分及动词形式。",
+ "skill": "语言运用",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "verb",
+   "label": "根据句法位置区分谓语与非谓语"
+  },
+  {
+   "id": "function",
+   "label": "根据缺失成分确定无提示词的功能"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语课程课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "教学内容与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "type",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "先找出句子的主语和谓语，再判断空格在句中的作用。有提示词的空，通常要变动词形式或词性。无提示词的空，通常起限定、连接等作用。"
+    },
+    {
+     "box": "The volunteers collected paper to recycle. / The volunteers collected paper and sorted it."
+    },
+    {
+     "p": "第一句的 collected 是谓语，to recycle 表目的。第二句的 collected 和 sorted 是由 and 连接的并列谓语。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　划分分句",
+     "d": "找出连接词，分清各个分句。每个分句分别找出主语和谓语。"
+    },
+    {
+     "t": "2　判断动词位置",
+     "d": "分句缺谓语时，空格填谓语形式。已有谓语时，看空格是与它并列，还是用非谓语。"
+    },
+    {
+     "t": "3　判断其他成分",
+     "d": "检查名词短语内部和分句之间缺什么成分。再结合上下文确定所填词的作用。"
+    },
+    {
+     "t": "4　回读句子",
+     "d": "把答案代入完整句子。核对句子结构和上下文的意思。"
+    }
+   ]
+  },
+  {
+   "id": "prompted",
+   "type": "table",
+   "title": "有提示词的句法位置",
+   "cols": [
+    "位置",
+    "判断",
+    "例句"
+   ],
+   "rows": [
+    [
+     "缺谓语",
+     "主语后缺少谓语动词",
+     "The guide (explain) the route every morning. → explains"
+    ],
+    [
+     "已有谓语",
+     "表目的的动作用非谓语",
+     "The guide paused (check) the map. → to check"
+    ],
+    [
+     "并列谓语",
+     "and 连接同一主语的两个动作",
+     "The guide opened the gate and (lead) the group inside. → led"
+    ],
+    [
+     "名词前",
+     "名词前的修饰语一般用形容词",
+     "The guide gave a (use) suggestion. → useful"
+    ]
+   ]
+  },
+  {
+   "id": "unprompted",
+   "type": "table",
+   "title": "无提示词的句法位置",
+   "cols": [
+    "位置",
+    "功能",
+    "例句"
+   ],
+   "rows": [
+    [
+     "单数名词前",
+     "限定名词",
+     "She found an old map."
+    ],
+    [
+     "动词与名词之间",
+     "构成介词短语",
+     "They arrived at the gate."
+    ],
+    [
+     "名词与修饰分句之间",
+     "连接定语从句并在从句中作主语",
+     "The path that crosses the field is narrow."
+    ],
+    [
+     "两个分句之间",
+     "连接表示原因的分句",
+     "They stopped because it rained."
+    ]
+   ]
+  },
+  {
+   "id": "example",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Mina opened the box and (find) a note inside."
+    },
+    {
+     "p": "and 连接 opened 和另一个动作，两者共用主语 Mina。空格是并列谓语，填 found。"
+    },
+    {
+     "box": "Mina found a note that described the garden."
+    },
+    {
+     "p": "that 连接 note 与后面的修饰分句，并在该分句中作主语。"
+    }
+   ]
+  },
+  {
+   "id": "distractors",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "情况",
+    "错误判断",
+    "依据"
+   ],
+   "rows": [
+    [
+     "已有谓语",
+     "将目的动作当作并列谓语",
+     "She stopped to read. 中 to read 表目的。"
+    ],
+    [
+     "并列动词",
+     "将第二个谓语当作目的",
+     "She stopped and read. 中 and 连接两个谓语。"
+    ],
+    [
+     "名词短语",
+     "将限定词当作分句连接词",
+     "An old map 中 an 限定 map。"
+    ],
+    [
+     "修饰分句",
+     "将关系词当作介词",
+     "The map that hangs here 中 that 作从句主语。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "verb",
+    "function"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The gardener (water) the plants every morning.",
+       "accept": [
+        "waters"
+       ],
+       "why": "主语后缺谓语，every morning 表示经常发生的动作。",
+       "point": "verb"
+      },
+      {
+       "stem": "The gardener stopped (water) the plants because the soil was dry. Complete the purpose: stopped ___ the plants.",
+       "accept": [
+        "to water"
+       ],
+       "why": "stopped 已作谓语，to water 表示停下来的目的。",
+       "point": "verb"
+      },
+      {
+       "stem": "The gardener found ___ old pot. Use an indefinite article.",
+       "accept": [
+        "an"
+       ],
+       "why": "old 以元音音素开头，单数名词 pot 前用 an。",
+       "point": "function"
+      },
+      {
+       "stem": "The gardener stayed inside ___ it was raining. Complete the reason.",
+       "accept": [
+        "because",
+        "since",
+        "as"
+       ],
+       "why": "后面的分句说明待在室内的原因。",
+       "point": "function"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "verb",
+    "function"
+   ],
+   "groups": [
+    {
+     "text": "A school garden has a small shed beside its gate. Each spring, the class cleans the shed and checks the tools. This year, the students also want to label the shelves. They plan to put the labels where everyone can see them. Their teacher keeps a list of the tools inside the shed.",
+     "items": [
+      {
+       "stem": "The class cleans the shed and (check) the tools each spring.",
+       "accept": [
+        "checks"
+       ],
+       "why": "and 连接两个并列谓语，主语 the class 是单数。",
+       "point": "verb"
+      },
+      {
+       "stem": "The teacher keeps a list ___ the tools. Complete the phrase.",
+       "accept": [
+        "of"
+       ],
+       "why": "a list of 表示某些事物的清单。",
+       "point": "function"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "verb",
+    "function"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "A community workshop keeps a collection of tools for local residents. Last month, its members repaired a long table in the main room. They also arranged the smaller tools in boxes, so that each visitor could find them easily. One member painted a sign to identify the shelf for brushes. Another member wrote a list of the equipment and placed it near the door. The workshop opens on Saturday mornings. Visitors can bring a broken object and ask a volunteer for advice. The volunteers first examine each object and discuss possible repairs with its owner. They try to explain each step clearly. Some visitors already know how to use the tools, while others are using them for the first time. Before the room closes, everyone returns the equipment to its place. The table is then cleared for the next group. The members keep a notebook in which visitors can suggest improvements. They read the suggestions at their monthly meeting and decide which changes are practical. The workshop has become a place where people can share both tools and experience.",
+       "items": [
+        {
+         "stem": "In ‘painted a sign to identify the shelf’, what is the role of ‘to identify’?",
+         "options": [
+          "A purpose of painting the sign",
+          "A second event joined by and in the clause",
+          "The subject of the main clause",
+          "A determiner before the sign"
+         ],
+         "answer": 0,
+         "why": "painted 已作谓语，to identify 说明绘制标牌的目的。",
+         "point": "verb"
+        },
+        {
+         "stem": "In ‘examine each object and discuss possible repairs’, how is ‘discuss’ used?",
+         "options": [
+          "As a modifier of the object",
+          "As a parallel main-clause verb",
+          "As the subject of a clause",
+          "As the purpose of examining each object"
+         ],
+         "answer": 1,
+         "why": "and 连接 examine 和 discuss，二者共用主语 The volunteers。",
+         "point": "verb"
+        },
+        {
+         "stem": "In ‘a list of the equipment’, what is the role of ‘of’?",
+         "options": [
+          "It joins two main clauses in the sentence.",
+          "It supplies the clause subject.",
+          "It introduces a phrase modifying list.",
+          "It marks a parallel predicate."
+         ],
+         "answer": 2,
+         "why": "of the equipment 是修饰 list 的介词短语。",
+         "point": "function"
+        }
+       ]
+      },
+      {
+       "text": "A local archive recently received a box of photographs from a family. The pictures show the neighborhood at different times. Before placing them in storage, the archivist examined each photograph and recorded its condition. She wore clean gloves to protect the surfaces. Some pictures had dates on the back, but others had no written information. The archivist compared buildings in those pictures with buildings shown in dated images. She also asked the family whether they recognized any of the people. The family identified a shopkeeper who appeared in several photographs. His shop once stood beside a bridge that was later replaced. The archive now keeps the photographs in protective sleeves. Each sleeve has a number, and the number links the photograph to its description in a separate record. Visitors may consult copies of the pictures in the reading room. The originals remain in storage because light can damage old photographs. The archive plans a small display for the autumn. It will include copies and short descriptions of the places shown. The staff hope that visitors will add more information about the neighborhood.",
+       "items": [
+        {
+         "stem": "In ‘examined each photograph and recorded its condition’, what role does ‘recorded’ have?",
+         "options": [
+          "It modifies the first photograph.",
+          "It gives the purpose of examining each photo.",
+          "It supplies a clause connector.",
+          "It is a predicate parallel to examined."
+         ],
+         "answer": 3,
+         "why": "and 连接 examined 和 recorded，两者都是主语 the archivist 的谓语。",
+         "point": "verb"
+        },
+        {
+         "stem": "In ‘a bridge that was later replaced’, what role does ‘that’ have?",
+         "options": [
+          "It introduces a phrase indicating the place.",
+          "It connects a clause modifying bridge.",
+          "It marks the purpose of a verb.",
+          "It is a determiner before bridge."
+         ],
+         "answer": 1,
+         "why": "that 引出修饰 bridge 的从句，并在从句中作主语。",
+         "point": "function"
+        },
+        {
+         "stem": "In ‘remain in storage because light can damage old photographs’, what does ‘because’ connect?",
+         "options": [
+          "A verb and the purpose of that verb",
+          "A subject and its predicate",
+          "A main clause and a reason clause",
+          "Two verbs with the same subject"
+         ],
+         "answer": 2,
+         "why": "because 引出说明原件留在库房的原因的分句。",
+         "point": "function"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

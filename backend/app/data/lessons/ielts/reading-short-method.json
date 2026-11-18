@@ -1,0 +1,68 @@
+{
+ "id": "reading-short-method",
+ "title": "阅读简答题",
+ "goal": "根据问题范围提取简短而完整的原词答案。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "focus", "label": "根据疑问词限定所需信息"},
+  {"id": "extract", "label": "提取符合要求的简短原词答案"}
+ ],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "阅读简答题的教学内容"}],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "简答题根据问题从原文中摘出简短的答案。疑问词决定答案的类别，题面规定词数。"},
+   {"p": "答案用原文的词，不换成同义词。用来区分同类事物的修饰词要保留。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　判断类别", "d": "Who 问人，where 问地点。How many 问数量，what caused 问原因。"},
+   {"t": "2　定位依据", "d": "用问题中的对象和动作在原文中定位。相邻句常出现另一个人或地点，核对答案属于题目问的那件事。"},
+   {"t": "3　提取原词", "d": "摘出能回答问题的最短完整短语。原文有两个同类事物时保留修饰词，例如 western gate 和 eastern gate。"},
+   {"t": "4　核对限制", "d": "核对题目要几项信息、限多少词。照抄整句通常超出词数。"}
+  ]},
+  {"id": "focus", "type": "table", "title": "疑问词与答案", "cols": ["问法", "答案类别", "例"], "rows": [
+   ["Who repaired it?", "人", "a carpenter"],
+   ["Where was it stored?", "地点", "the cellar"],
+   ["How many were counted?", "数量", "twenty"],
+   ["What caused the delay?", "原因", "heavy rain"]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [
+   {"box": "Heavy rain delayed the delivery. The packages remained in the northern warehouse, while empty boxes were kept in the southern warehouse.\nWhere were the packages kept? Answer using NO MORE THAN TWO WORDS from the passage."},
+   {"p": "依据是 packages remained in the northern warehouse。答案写 northern warehouse，northern 用来区分放空箱的 southern warehouse。"}
+  ]},
+  {"id": "errors", "type": "table", "title": "常见错误", "cols": ["情况", "例", "改正"], "rows": [
+   ["换成同义词", "用 storm 代替 heavy rain", "写原文的 heavy rain"],
+   ["取了相邻的事实", "southern warehouse", "southern warehouse 放的是空箱，答案是 northern warehouse"],
+   ["漏掉修饰词", "warehouse", "写 northern warehouse"],
+   ["照抄整句", "The packages remained in...", "只写地点 northern warehouse"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["focus", "extract"], "groups": [
+   {"text": "A carpenter repaired the gate. A painter later painted it.", "items": [{"stem": "Who repaired the gate? Answer with ONE WORD from the passage.", "accept": ["carpenter"], "why": "A carpenter repaired the gate 指出修理者。", "point": "focus"}]},
+   {"text": "The photographs were stored in the cellar. The frames remained upstairs.", "items": [{"stem": "Where were the photographs stored? Answer with ONE WORD from the passage.", "accept": ["cellar"], "why": "photographs were stored in the cellar 给出地点。", "point": "focus"}]},
+   {"text": "Researchers counted twenty birds in the field and recorded twelve in the wood.", "items": [{"stem": "How many birds were counted in the field? Answer with ONE WORD OR ONE NUMBER.", "accept": ["twenty", "20"], "why": "counted twenty birds in the field 给出数量。", "point": "extract"}]},
+   {"text": "Heavy rain caused the delay. The wind affected the return journey.", "items": [{"stem": "What caused the delay? Answer with NO MORE THAN TWO WORDS from the passage.", "accept": ["heavy rain", "rain"], "why": "Heavy rain caused the delay 指出原因。", "point": "extract"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["focus", "extract"], "groups": [{
+   "text": "A team surveyed the northern bridge after cracks appeared in its surface. The southern bridge had no cracks. An engineer recorded the damage, and a photographer documented the surrounding road.",
+   "items": [
+    {"stem": "Who recorded the damage? Answer with ONE WORD from the passage.", "accept": ["engineer"], "why": "An engineer recorded the damage 指明记录者。", "point": "focus"},
+    {"stem": "Which bridge was surveyed? Answer with NO MORE THAN TWO WORDS from the passage.", "accept": ["northern bridge"], "why": "依据是 surveyed the northern bridge。northern 用来区分没有裂缝的 southern bridge。", "point": "extract"}
+   ]
+  }]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["focus", "extract"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A local museum received a collection of models made by a boat builder. Before displaying them, the museum needed to document their condition and decide where they could be kept. Some models had fabric sails, while others showed only the hull. Their sizes differed, so staff could not use one support for the whole collection. They began by identifying each model and matching it with a note supplied by the donor.\n\nA conservator examined the surfaces and recorded loose pieces. A photographer then made images of both sides of every model. The conservator's notes and the photographs served different purposes: the notes described condition, while the images provided a visual record of shape and decoration. The museum decided to store the models in the eastern room because that room had space for suitable shelves. The western room was used for packing materials and did not hold the models.\n\nThe staff made supports from padded blocks so that the models would not rest directly on their projecting parts. They labelled each support with the model's catalogue number. If a model was moved for display, the corresponding support moved with it. A register recorded each move, including the date and the new location. The museum did not estimate the date on which every model had been made, because the donor's notes did not always provide it. Staff planned to review the collection again after it had been stored for a period. This later review would compare the condition of the models with the conservator's first record, rather than replace the original notes.",
+    "items": [
+     {"stem": "Who recorded the loose pieces? Answer with ONE WORD from the passage.", "accept": ["conservator"], "why": "A conservator examined the surfaces and recorded loose pieces 指出记录者。", "point": "focus"},
+     {"stem": "Where were the models stored? Answer with NO MORE THAN TWO WORDS from the passage.", "accept": ["eastern room"], "why": "依据是 store the models in the eastern room。eastern 用来区分放包装材料的 western room。", "point": "extract"},
+     {"stem": "What were the supports made from? Answer with NO MORE THAN TWO WORDS from the passage.", "accept": ["padded blocks", "blocks"], "why": "依据是 made supports from padded blocks，答案是支架的材料。", "point": "extract"}
+    ]},
+   {"look": "passage", "text": "A group of volunteers studied the movement of visitors through a walled garden. The garden had a northern gate and a southern gate. The group wanted to learn how often each entrance was used, not why individual visitors chose it. Volunteers stood outside the gates so that they could count entries without obstructing the paths. They used separate sheets for the two entrances and wrote the date at the top of each sheet.\n\nThe volunteers counted for thirty minutes at each session. They recorded the northern gate on one sheet and the southern gate on another. When heavy rain began, a session was stopped because visitors were leaving and the sheets were becoming wet. The group did not add the incomplete count to the later comparison. It kept the sheet with a note explaining why the session had ended. This made the decision visible to anyone checking the record.\n\nAt the end of the trial, a coordinator checked the sheets for missing dates. The coordinator then entered the complete counts into a table. On several mornings the southern gate had more entries than the northern gate. The group did not infer from that result that the southern gate was preferred by every visitor. Some people might have entered more than once, and the count did not record their reasons. The table showed the number of entries observed during particular sessions. The original sheets were retained so that the table could be checked against the volunteers' initial notes. The distinction between an observed entry and an individual visitor remained important throughout the report.",
+    "items": [
+     {"stem": "How long did volunteers count at each session? Answer with NO MORE THAN TWO WORDS from the passage.", "accept": ["thirty minutes", "30 minutes"], "why": "counted for thirty minutes at each session 给出时长。", "point": "focus"},
+     {"stem": "What caused the session to stop? Answer with NO MORE THAN TWO WORDS from the passage.", "accept": ["heavy rain", "rain"], "why": "When heavy rain began, a session was stopped 指明原因。", "point": "focus"},
+     {"stem": "Which gate had more entries on several mornings? Answer with NO MORE THAN TWO WORDS from the passage.", "accept": ["southern gate"], "why": "依据是 the southern gate had more entries than the northern gate。southern 用来区分两个入口。", "point": "extract"}
+    ]}
+  ]}]}
+ ]
+}

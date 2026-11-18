@@ -1,0 +1,57 @@
+{
+ "id": "reading-overview",
+ "title": "阅读部分概览",
+ "goal": "区分阅读材料、题型和作答要求，说明时间与计分方式。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "format", "label": "区分阅读材料与题型的作答要求"},
+  {"id": "score", "label": "说明阅读时间、题量与计分"}
+ ],
+ "sources": [
+  {"id": "i2", "title": "IELTS Academic: Reading test format", "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading", "used": "阅读材料、题型和作答要求"},
+  {"id": "i5", "title": "IELTS scoring in detail", "url": "https://www.ielts.org/take-a-test/your-results/ielts-scoring-in-detail", "used": "阅读计分和分数段"}
+ ],
+ "cards": [
+  {
+   "id": "overview", "type": "facts", "title": "概述",
+   "rows": [
+    {"k": "材料", "v": "3 篇面向非专业读者的文章，总计 2150—2750 词；材料包括论说文。", "src": "i2 阅读结构"},
+    {"k": "题量与时间", "v": "共 40 题，作答时间 60 分钟；各题型的题量不固定。", "src": "i2 阅读结构"},
+    {"k": "计分", "v": "每答对一题得 1 分，原始分换算为整数或半分的分数段。", "src": "i5 计分说明"},
+    {"k": "换算", "v": "原始分对应的分数段门槛可能随试卷略有变化。", "src": "i5 计分说明"}
+   ]
+  },
+  {
+   "id": "types", "type": "table", "title": "题型", "cols": ["类别", "任务", "作答"],
+   "rows": [
+    ["判断", "比较陈述与事实或作者观点", "选取相应判断标签"],
+    ["配对", "将标题、信息或特征与对象对应", "从给定选项中选取对应项"],
+    ["选择", "根据文章判断细节或主旨", "从候选答案中选取指定数量"],
+    ["填空", "完成句子、摘要、笔记等", "按题面从原文或词库取词"],
+    ["简答", "回答文章中的具体信息", "按题面限制提取原词"]
+   ]
+  },
+  {
+   "id": "answers", "type": "table", "title": "作答要求", "cols": ["情况", "要求", "例"],
+   "rows": [
+    ["原词填空", "使用原文中的词并遵守题面词数限制", "原文写 solar panels，限两个词时可填 solar panels。"],
+    ["词库填空", "从题目提供的词库中选择", "词库含 erosion，题意对应侵蚀时选 erosion。"],
+    ["事实判断", "比较陈述与文章信息", "TRUE 表示陈述与文章信息一致。"],
+    ["观点判断", "比较陈述与作者的观点", "YES 表示陈述与作者观点一致。"]
+   ]
+  },
+  {
+   "id": "timed", "type": "quiz", "title": "小测", "minutes": 4, "pass": 0.8, "points": ["format", "score"],
+   "sets": [{"id": "set-a", "groups": [{"items": [
+    {"stem": "Which description matches the reading materials?", "options": ["Three articles for non-specialist readers", "Three articles for specialist researchers", "Four articles for non-specialist readers", "Four articles for specialist researchers"], "answer": 0, "why": "阅读材料有 3 篇，面向非专业读者，第一项符合。", "point": "format"},
+    {"stem": "What should an answer use when a completion task supplies a word bank?", "options": ["A word copied from the article instead", "A suitable word from the supplied bank", "Any synonym of a word in the bank", "A full sentence copied from the article"], "answer": 1, "why": "词库填空从题目提供的词库中选词，第二项符合。", "point": "format"},
+    {"stem": "What is the total time for the reading section?", "options": ["30 minutes for 40 questions", "40 minutes for 40 questions", "60 minutes for 40 questions", "60 minutes for 30 questions"], "answer": 2, "why": "阅读共 40 题，作答时间为 60 分钟，第三项符合。", "point": "score"},
+    {"stem": "How is a correct reading answer scored?", "options": ["It receives half a raw mark.", "It receives two raw marks.", "It receives a whole band directly.", "It receives one raw mark."], "answer": 3, "why": "每答对一题得 1 分原始分，第四项符合。", "point": "score"},
+    {"stem": "What must a source-word completion answer observe?", "options": ["The task's printed word limit", "A fixed limit for every task", "Any number of words from the article", "A fixed limit of one sentence"], "answer": 0, "why": "原词填空须遵守该题题面的词数限制，第一项符合。", "point": "format"},
+    {"stem": "Which statement describes reading band conversion?", "options": ["A raw mark always equals a band score.", "Raw scores are converted to whole or half bands.", "Every paper has identical raw-score thresholds.", "Each correct answer earns half a band."], "answer": 1, "why": "阅读原始分换算为整数或半分的分数段，门槛可能略有变化，第二项符合。", "point": "score"}
+   ]}]}]
+  }
+ ]
+}

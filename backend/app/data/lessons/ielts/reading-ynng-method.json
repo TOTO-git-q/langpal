@@ -1,0 +1,66 @@
+{
+ "id": "reading-ynng-method",
+ "title": "作者观点判断",
+ "goal": "找到作者自身的观点依据，区分反对与未表态。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "writer", "label": "找到作者自身的观点依据"},
+  {"id": "judge", "label": "区分反对观点与未表达观点"}
+ ],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "作者观点判断：内容与知识点"}],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "观点判断比较陈述与作者的评价或主张。依据是作者在文中表达的立场，不是读者自己的经验。"},
+   {"p": "YES 表示作者支持陈述，NO 表示作者持相反观点，NOT GIVEN 表示作者没有就该命题表态。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定命题", "d": "找出陈述的评价对象和主张。核对程度、条件与比较对象。"},
+   {"t": "2　查找观点", "d": "找到讨论同一命题的句子。区分作者自己的评价与转述他人的意见。"},
+   {"t": "3　比较立场", "d": "分别核对支持和相反的证据。两种证据均未出现时，判断为 NOT GIVEN。"}
+  ]},
+  {"id": "evidence", "type": "table", "title": "观点与归属", "cols": ["情况", "原文", "判断"], "rows": [
+   ["支持", "The proposal would improve access to the archive.", "作者认为提议有帮助。陈述说提议有帮助，判断为 YES。"],
+   ["反对", "The proposal would make access to the archive harder.", "作者认为提议使使用更难。陈述说提议有帮助，判断为 NO。"],
+   ["未表态", "The proposal concerns access to the archive.", "作者只说明提议涉及什么。陈述说提议有帮助，判断为 NOT GIVEN。"],
+   ["转述", "Some curators support the proposal; its value remains uncertain.", "支持来自 curators。作者认为价值仍不确定，没有表示支持。"],
+   ["让步与反驳", "Although the proposal is inexpensive, it would restrict access.", "作者承认成本低，同时认为它会限制使用。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "Some residents believe a new footpath would damage the garden. Although the route would cross a planted area, its value for access outweighs that limited loss. The article makes no judgement about its cost."},
+   {"box": "The writer believes that the benefits of the footpath exceed the damage it would cause.\nYES / NO / NOT GIVEN"},
+   {"p": "although 从句之后的主句是作者的判断：access 的价值超过有限的损失。陈述与此一致，答案是 YES。居民的担忧是转述的观点。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["情况", "例", "依据"], "rows": [
+   ["他人观点", "Some residents believe the path would damage the garden.", "residents 是观点提出者。"],
+   ["让步", "Although the route crosses a planted area, its value outweighs that loss.", "although 从句之后的主句是作者的判断。"],
+   ["限定变化", "The route is useful on weekdays.", "只说工作日，推不出每天都有用。"],
+   ["缺少评价", "The proposal includes a garden route.", "只介绍提议的内容，没有评价。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一　观点", "points": ["writer", "judge"], "groups": [
+   {"look": "passage", "text": "Some teachers favour a longer lunch break, but the present timetable already gives pupils enough time to eat.", "items": [{"stem": "The writer thinks the existing lunch break is sufficient. Write YES, NO or NOT GIVEN.", "accept": ["YES"], "why": "作者在 but 后认为现有时间足够，支持陈述。", "point": "writer"}]},
+   {"look": "passage", "text": "The proposed labels are attractive, yet they offer too little information about the objects on display.", "items": [{"stem": "The writer believes the proposed labels give enough information. Write YES, NO or NOT GIVEN.", "accept": ["NO"], "why": "too little information 与信息足够相反。", "point": "judge"}]},
+   {"look": "passage", "text": "Several farmers prefer the new irrigation system. The proposal includes a separate storage tank.", "items": [{"stem": "The writer believes the new system costs less than the old one. Write YES, NO or NOT GIVEN.", "accept": ["NOT GIVEN"], "why": "原文只转述农民的偏好、介绍水箱，没有提到成本。", "point": "judge"}]},
+   {"look": "passage", "text": "Although the survey included only one village, its detailed interviews provide a useful account of local transport needs.", "items": [{"stem": "The writer regards the interviews as useful evidence about local transport needs. Write YES, NO or NOT GIVEN.", "accept": ["YES"], "why": "作者在让步后的主句称访谈提供有用的描述。", "point": "writer"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二　短文", "points": ["writer", "judge"], "groups": [
+   {"look": "passage", "text": "A local museum is considering whether to publish photographs of its collection online. Some staff argue that a website would reduce visits to the building. That concern deserves attention, but it overlooks the value of helping people who cannot travel to the museum. An online catalogue would make the collection more accessible to those readers. It would not, however, replace the experience of seeing an object at close range. The proposal also includes written descriptions, although the museum has not decided how long each description should be.", "items": [
+    {"stem": "The writer believes an online catalogue would help people unable to visit the museum. Write YES, NO or NOT GIVEN.", "accept": ["YES"], "why": "作者称在线目录能使无法前往的人更容易接触馆藏。", "point": "writer"},
+    {"stem": "The writer thinks online photographs can fully replace seeing objects in person. Write YES, NO or NOT GIVEN.", "accept": ["NO"], "why": "would not replace the experience 与完全替代相反。", "point": "judge"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["writer", "judge"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A town is deciding what to do with an unused railway building. One proposal would turn it into a shared workshop, where local craftspeople could hire space and equipment. Critics argue that the building should instead be used entirely for offices. They point out that offices could provide a regular rental income. That advantage is real, but income should not be the only measure of the building's value. A shared workshop could also give small enterprises access to tools that they could not afford separately.\n\nThe workshop proposal does have a weakness. The building would need repairs before any equipment could be installed, and the cost of those repairs has not yet been established. It would be premature to promise that the workshop will pay for itself. Even so, postponing a decision until every detail is known would serve the town poorly. An initial survey of the building could identify the most urgent work and provide a basis for comparing the two proposals.\n\nThe survey should be published before a final decision is made. Residents could then consider the evidence alongside the expected benefits of each use. The town has already invited comments from business owners, but it has not said how those comments will be assessed. Public discussion will be more useful if the criteria are stated in advance. This does not mean that every suggestion will be adopted. It means that the reasons for the final choice can be examined by the people affected. The published criteria would make that discussion more focused.", "items": [
+    {"stem": "The writer believes rental income is the only relevant measure of the building's value. Write YES, NO or NOT GIVEN.", "accept": ["NO"], "why": "作者明确指出 income should not be the only measure。", "point": "judge"},
+    {"stem": "The writer considers access to equipment a possible benefit of a shared workshop. Write YES, NO or NOT GIVEN.", "accept": ["YES"], "why": "作者称共享工坊能让小企业使用单独购买不起的工具。", "point": "writer"},
+    {"stem": "The writer believes the town should now promise that the workshop will cover its own costs. Write YES, NO or NOT GIVEN.", "accept": ["NO"], "why": "依据是 It would be premature to promise that the workshop will pay for itself。作者认为现在作出承诺为时过早。", "point": "judge"}
+   ]},
+   {"look": "passage", "text": "A research library is reviewing the opening hours of its reading room. Some researchers want the room to remain open every evening. They argue that daytime access is difficult for people with other commitments. Extending access could indeed help those readers, but keeping the room open every evening would put unnecessary pressure on a small staff. A limited evening schedule would be a more proportionate response to the problem.\n\nThe library should first ask readers which evenings they would use. A short survey could show whether demand is concentrated on particular days. The result would not by itself settle the question, because staff availability also matters. Nevertheless, it would be better to base a trial on evidence of demand than on an assumption that all evenings are equally useful. The length of such a trial is a separate decision and is not considered here.\n\nAnother proposal is to allow readers to reserve material in advance. Library employees already retrieve some documents from closed storage, and reservations could make that work easier to plan. The idea merits a trial, provided that readers who cannot reserve online retain another way to request material. A reservation system that excludes those readers would reduce access rather than improve it. The library should therefore examine the alternatives before choosing a system. The cost of any particular software has not been assessed in this discussion. A trial should also record the time spent retrieving material. Such records would help staff assess whether reservations improve planning while preserving access for all readers.", "items": [
+    {"stem": "The writer supports opening the reading room on a limited number of evenings. Write YES, NO or NOT GIVEN.", "accept": ["YES"], "why": "作者称 limited evening schedule 是更合适的回应。", "point": "writer"},
+    {"stem": "The writer recommends that the trial last for three months. Write YES, NO or NOT GIVEN.", "accept": ["NOT GIVEN"], "why": "原文说试行期限 is not considered here，作者没有提出任何期限。", "point": "judge"},
+    {"stem": "The writer accepts advance reservations only if an alternative request method remains available. Write YES, NO or NOT GIVEN.", "accept": ["YES"], "why": "provided that 引出作者支持试行预约的条件：保留其他申请方式。", "point": "writer"}
+   ]}
+  ]}]}
+ ]
+}

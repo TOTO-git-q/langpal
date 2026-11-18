@@ -1,0 +1,92 @@
+{
+ "id": "listening-conversation-main",
+ "title": "对话主题与目的题",
+ "goal": "概括对话中持续讨论的主题，判断交谈的目的。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "topic", "label": "概括双方持续讨论的话题"},
+  {"id": "purpose", "label": "判断此次交谈要解决的事项"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "长对话教学依据"}],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "主题题要求概括双方主要讨论的事项，常用 mainly discussing 提问。目的题要求判断这次交谈要解决的问题，常用 purpose of the conversation 提问。"},
+   {"p": "主题是谈论的对象，目的是要办成的事。两种题都看开头和后面反复讨论的内容。只提到一次的话不能作依据。"},
+   {"box": "What are the speakers mainly discussing?\nWhat is the purpose of the conversation?"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　辨认问法", "d": "mainly discussing 问讨论的主题。purpose of the conversation 问交谈的目的。"},
+   {"t": "2　听取开头", "d": "开头常提出需要讨论的事项。We need a place for the exhibit 引入展览场地。"},
+   {"t": "3　核对后续内容", "d": "反复讨论的方案和条件指向主题。双方比较两个地点后选定一个，目的就是确定地点。"},
+   {"t": "4　检查概括范围", "d": "正确选项要覆盖主要的讨论。只提到一次的交通方式是局部细节。"}
+  ]},
+  {"id": "focus", "type": "table", "title": "主题与目的", "cols": ["类别", "判断依据", "例"], "rows": [
+   ["主题", "概括反复讨论的对象", "The location of an exhibit"],
+   ["目的", "概括双方要完成的任务", "To choose a location for an exhibit"],
+   ["开头", "确定提出的事项", "We need a place for the exhibit."],
+   ["后续", "核对讨论是否围绕事项展开", "The hall is available, but the studio is larger."],
+   ["结尾", "结合达成的决定核对目的", "Let's reserve the studio."]
+  ], "note": "对话可能以问题开头，也可能先交代背景。后续讨论决定概括的范围。"},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "Nora: We need to choose a time for the repair workshop. I attended a similar event last year, but it was held on a weekday.\nBen: Many residents work then. Saturday morning might suit more people.\nNora: The community room is free then. The bus stop is close, too.\nBen: Let's reserve it for Saturday morning and tell the residents."},
+   {"box": "What is the purpose of the conversation?\n1. To describe a workshop held last year\n2. To choose a time for a workshop\n3. To change the route of a bus\n4. To find residents to repair the room"},
+   {"p": "开头说 choose a time，结尾说 reserve it for Saturday morning，双方要确定的是时间，即第二项。第一项去年的活动只是背景。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "核对方法", "例"], "rows": [
+   ["局部插话", "检查是否覆盖主要讨论", "The bus stop is close. → bus routes"],
+   ["个人背景", "区分过去经历与当前目的", "I attended an event last year. → last year's event"],
+   ["范围过宽", "保留交谈的具体对象", "a workshop time → all community activities"],
+   ["对象与目的混淆", "目的要写出当前的任务", "a workshop → choosing its time"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["topic", "purpose"], "groups": [
+   {"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "We need a menu for the club lunch. Should we order sandwiches or soup?"}, {"who": "B", "text": "Soup is easier to serve. Let's order that."}]}, "items": [{"stem": "What are the speakers mainly discussing?", "options": ["What food to order for a club lunch", "How to serve soup at a club lunch", "Where the club should hold its lunch", "Why sandwiches cost more than soup"], "answer": 0, "why": "menu、sandwiches 和 soup 都是午餐吃什么，即第一项。第二项 easier to serve 只是选汤的理由。", "point": "topic"}]},
+   {"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "The walking group needs a route for Sunday. The river path is closed."}, {"who": "B", "text": "Then let's take the path through the park."}]}, "items": [{"stem": "What is the purpose of the conversation?", "options": ["To report that the river path is open", "To choose a route for the Sunday walk", "To arrange repairs to the park path", "To change the day of a walking trip"], "answer": 1, "why": "依据是 needs a route 和 let's take the path through the park，双方要选定路线，即第二项。", "point": "purpose"}]},
+   {"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "The plant sale needs signs. I can make them with paper."}, {"who": "B", "text": "Cardboard would last longer outdoors. Let's use that."}]}, "items": [{"stem": "What are the speakers mainly discussing?", "options": ["Who will make the signs for the sale", "Where to put the signs outdoors", "The material for signs at a sale", "The plants to sell at the sale"], "answer": 2, "why": "双方比较用 paper 还是 cardboard 做 signs，讨论的是材料，即第三项。", "point": "topic"}]},
+   {"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "I need to return the borrowed camera, but the office closes before my class ends."}, {"who": "B", "text": "I can return it for you at lunch."}, {"who": "A", "text": "Thanks. I'll give it to you before class."}]}, "items": [{"stem": "What is the purpose of the conversation?", "options": ["To find a camera for a class", "To change the office opening hours", "To arrange a class at lunchtime", "To arrange the camera's return"], "answer": 3, "why": "要解决的事是 return the borrowed camera，另一位说话人提出午饭时代为归还，即第四项。", "point": "purpose"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["topic", "purpose"], "groups": [
+   {"audio": {"intro": "Listen to a conversation.", "lines": [
+    {"who": "A", "text": "We need a way to collect questions before the public talk. Last year I printed the invitations, and they took a long time to fold."},
+    {"who": "B", "text": "People could send questions by email. We could also leave a box at the front desk."},
+    {"who": "A", "text": "The desk is only open on weekdays. Email would reach people on weekends as well."},
+    {"who": "B", "text": "Then let's use email. I'll put the address on the invitation."},
+    {"who": "A", "text": "Good. I'll ask the speaker to look at the questions before the talk."}
+   ]}, "items": [
+    {"stem": "What are the speakers mainly discussing?", "options": ["The topic the speaker will cover in the talk", "How to collect questions for a talk", "The weekday hours of the front desk", "How long the invitations took to fold"], "answer": 1, "why": "双方比较 email 和前台的箱子，讨论的是怎样收集问题，即第二项。第三项前台的开放时间只是比较的理由。", "point": "topic"},
+    {"stem": "What is the purpose of the conversation?", "options": ["To choose a method of receiving questions", "To invite a speaker to a weekend event", "To change the front desk's opening hours", "To describe the invitations used last year"], "answer": 0, "why": "开头说 need a way to collect questions，后面定下 let's use email，目的是确定收集方式，即第一项。", "point": "purpose"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 8, "pass": 0.75, "points": ["topic", "purpose"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to a conversation.", "lines": [
+    {"who": "A", "text": "Hello, Dana. The neighborhood choir needs a place to rehearse next month. The hall we used last year will be painted, so we have to choose somewhere else. Could we look at the available rooms together?"},
+    {"who": "B", "text": "Certainly, Luis. The school has a music room with a piano and enough chairs. I visited it when my sister gave a concert there, and the windows face the garden."},
+    {"who": "A", "text": "A piano would help, but several choir members work until six. Does the school let groups stay after that time? Our rehearsal usually begins at half past six."},
+    {"who": "B", "text": "I asked the school office. The building closes at six on weekdays. There's also a meeting room at the community center, and it stays open until nine."},
+    {"who": "A", "text": "The later closing time sounds suitable. Does it have enough room for everyone to stand? We had twenty people at the last rehearsal, and a few new singers may join."},
+    {"who": "B", "text": "The staff say it holds thirty people. There isn't a piano, but we can bring the small keyboard from the hall. They also have a cupboard where we can keep it between rehearsals."},
+    {"who": "A", "text": "That's a good solution. Let's book the community center room for the four evenings. I'll contact the staff and confirm the dates. Then I can tell the singers where to go."},
+    {"who": "B", "text": "I'll arrange to move the keyboard before the first evening. We can still use the old hall again after the painting is finished, but the community center will meet our needs next month."}
+   ]}, "items": [
+    {"stem": "What are the speakers mainly discussing?", "options": ["The songs performed at a school concert", "The painting schedule for a community hall", "Possible rehearsal rooms for a choir", "The purchase of a piano for a school"], "answer": 2, "why": "双方比较学校的 music room 和社区中心的 meeting room，讨论的是排练场地，即第三项。", "point": "topic"},
+    {"stem": "What is the purpose of the conversation?", "options": ["To find singers for the school concert", "To select a place for choir rehearsals", "To arrange painting at the old hall", "To plan a concert in the school garden"], "answer": 1, "why": "开头说 choose somewhere else，结尾说 book the community center room，目的是选排练地点，即第二项。", "point": "purpose"},
+    {"stem": "Which subject receives the most attention?", "options": ["Where the choir can rehearse next month", "How Dana's sister prepared for a concert", "How to move the keyboard to the center", "When the old hall was first painted"], "answer": 0, "why": "对话主要比较下个月能用的排练地点，即第一项。第二项 Dana 姐姐的音乐会只是背景。", "point": "topic"}
+   ]},
+   {"audio": {"intro": "Listen to a conversation.", "lines": [
+    {"who": "A", "text": "Hi, Morgan. Our local history group has collected a lot of photographs, and we need to decide how visitors can see them. The pictures are stored in several boxes at the moment."},
+    {"who": "B", "text": "We could put them in an album at the library desk. I made an album for my family last year, and people enjoyed turning the pages together. The library staff know about our collection."},
+    {"who": "A", "text": "An album would protect the originals, but only one visitor could use it at a time. Our open day usually attracts several groups, and I want them to look at the photographs together."},
+    {"who": "B", "text": "Then perhaps we could display copies on boards. The library has boards left over from a book event. I can ask the staff whether we may borrow them for the open day."},
+    {"who": "A", "text": "That would allow several people to see the photographs at once. Could we also add short captions? The photographs show different streets, and visitors may not recognize every building."},
+    {"who": "B", "text": "Yes. The group already has notes about most of the streets. I can type the captions, while you choose which photographs should go on each board."},
+    {"who": "A", "text": "Let's do that. I'll select the pictures this week and make copies at the library. We'll leave the originals in their boxes so they remain safe."},
+    {"who": "B", "text": "I'll contact the library tomorrow about the boards. Once the captions are ready, we can arrange everything before the visitors arrive. The album can remain an option for a smaller event later."}
+   ]}, "items": [
+    {"stem": "What are the speakers mainly discussing?", "options": ["The history of the library building", "A family album made by Morgan", "Captions for photographs of streets", "Showing local history photographs"], "answer": 3, "why": "对话反复讨论怎样让访客看到 photographs，即第四项。第三项的说明文字只是其中一个细节。", "point": "topic"},
+    {"stem": "What is the purpose of the conversation?", "options": ["To find boxes for storing family albums", "To plan how visitors will see photographs", "To invite library staff to a book event", "To collect notes about a library building"], "answer": 1, "why": "开头说 decide how visitors can see them，后面定下用展板展出照片，即第二项。", "point": "purpose"},
+    {"stem": "Which task are the speakers trying to complete?", "options": ["Prepare a photo display for an open day", "Make an album to keep at the library desk", "Store the original photos in new boxes", "Plan a smaller event to show the album"], "answer": 0, "why": "双方决定复印照片、写说明、借展板，都是为开放日布置展览，即第一项。第二项的相册方案已被放弃。", "point": "purpose"}
+   ]}
+  ]}]} 
+ ]
+}

@@ -1,0 +1,378 @@
+/* listening.css — 学习 › 听力：选题安排 → 听大意 → 回听 → 答题 → 复盘，右侧随心记。 */
+
+.lp-listening { min-height: 100%; }
+.lp-listening.listening-choosing :is(.lp-listening-player, .lp-listening-questions, .lp-listening-review) { display: none; }
+
+/* 顶部工具条：进度 + 换一段 + 随心记 */
+.lp-listening-heading { justify-content: flex-start; }
+.lp-listening-stage { order: -1; flex: 1 1 300px; max-width: 420px; display: grid; gap: var(--gap-1); }
+.lp-listening-stage progress { order: 1; width: 100%; height: 10px; appearance: none; border: var(--bw) solid var(--tbink); background: var(--paper); }
+.lp-listening-stage progress::-webkit-progress-bar { background: var(--paper); }
+.lp-listening-stage progress::-webkit-progress-value { background: var(--sel); }
+.lp-listening-steps { display: flex; justify-content: space-between; gap: var(--gap-1); list-style: none; font-size: var(--fs-ui); }
+.lp-listening-steps li { color: var(--muted); white-space: nowrap; }
+.lp-listening-steps li.done { color: var(--tbink); }
+.lp-listening-steps li[aria-current] { color: var(--tbink); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+[data-listen=notes-toggle] { margin-left: auto; }
+
+.lp-listening-desk {
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(200px, 270px); align-items: start; gap: var(--gap-5);
+  width: min(100%, 1080px); margin-inline: auto; padding: var(--gap-5) var(--page-pad);
+}
+.lp-listening-desk:has(.lp-listening-notes[hidden]) { grid-template-columns: minmax(0, 1fr); max-width: 860px; }
+.lp-listening-flow { min-width: 0; display: grid; gap: var(--gap-3); }
+
+/* 这次听什么：一张像素框卡片 */
+.lp-listening-setup { display: grid; gap: var(--gap-3); }
+.listen-plan-preview {
+  display: flex; align-items: center; justify-content: space-between; gap: var(--gap-3);
+  padding: var(--gap-3); border: var(--bw) solid var(--tbink); background: var(--paper);
+}
+.listen-plan-preview strong { font-size: 13px; color: var(--ink); }
+.listen-plan-preview p { margin: var(--gap-1) 0 var(--gap-2); font-size: var(--fs-ui); color: var(--muted); }
+.listen-plan-preview [data-listen=course] { min-height: 24px; font-size: var(--fs-s); }
+.listen-plan-fields { display: grid; grid-template-columns: 1fr 1fr; gap: var(--gap-3); padding: var(--gap-3); border: var(--bw) dashed var(--tbink); }
+.listen-plan-fields label { display: grid; gap: var(--gap-1); min-width: 0; font-size: var(--fs-s); font-weight: 700; color: var(--tbink); }
+.listen-plan-fields :is(input, select) { width: 100%; }
+.listen-plan-fields > button { justify-self: end; align-self: end; }
+.lp-listening-difficulty-help { align-self: end; font-size: var(--fs-s); color: var(--muted); }
+.listen-start-actions { display: flex; align-items: center; flex-wrap: wrap; gap: var(--gap-3); }
+.listen-start-actions > button[type=submit] { min-height: 36px; min-width: 120px; font-size: 13px; }
+.lp-listening-status { font-size: var(--fs-ui); color: var(--rust); }
+.lp-listening-status:empty { display: none; }
+.lp-listening-flow > [data-listen=reload], .lp-listening-flow > [data-listen=configure] { justify-self: start; }
+[data-listen$="-storage-status"] { font-size: var(--fs-s); color: var(--muted); }
+[data-listen$="-storage-status"]:empty, .lp-listening [data-state=ready], .lp-listening [data-state=loading] { display: none; }
+
+/* 最近练习 */
+.lp-listening-history { display: grid; gap: var(--gap-2); }
+.lp-listening-history p { font-size: var(--fs-s); color: var(--muted); overflow-wrap: anywhere; }
+.lp-listening-history p:empty { display: none; }
+/* 练习记录：每条可删 */
+.listen-manage > summary { font-size: var(--fs-ui); }
+.listen-manage[open] > summary { margin-bottom: var(--gap-2); }
+.listen-manage-list { display: grid; gap: 2px; max-height: 260px; overflow: auto; }
+.listen-manage-row { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; align-items: center; gap: var(--gap-2); padding: 4px var(--gap-2); border: 1px solid var(--line-soft); background: var(--paper); font-size: var(--fs-ui); }
+.listen-manage-row span { font-size: var(--fs-s); color: var(--muted); white-space: nowrap; }
+.listen-manage-row.unreadable strong { color: var(--muted); }
+.listen-manage-row .row-delete { min-height: 24px; border-width: 1px; }
+
+/* 播放 / 答题 / 复盘 */
+.lp-listening-player, .lp-listening-questions, .lp-listening-review { display: grid; gap: var(--gap-2); justify-items: start; overflow-wrap: anywhere; }
+.lp-listening-player { padding: var(--gap-3); border: var(--bw) solid var(--tbink); background: var(--paper); }
+.lp-listening-player h2, .lp-listening-review h2 { font: 700 15px/1.5 var(--font-text); }
+.lp-listening-player p { font: 13px/1.6 var(--font-text); color: var(--muted); }
+.lp-listening-player audio { display: block; width: min(100%, 530px); height: 42px; }
+.lp-listening-player-actions { display: flex; flex-wrap: wrap; gap: 6px; }
+.lp-listening-questions fieldset { display: grid; gap: 6px; width: 100%; min-width: 0; padding: var(--gap-2) 0 var(--gap-3); border: 0; border-bottom: 1px solid var(--line-soft); font: 14px/1.6 var(--font-text); }
+.lp-listening-questions legend { font-weight: 700; }
+.lp-listening-questions label { display: flex; align-items: center; gap: .6em; }
+.lp-listening-questions input[type=radio] { flex: none; }
+.lp-listening-review { font: 14px/1.6 var(--font-text); }
+.lp-listening-review article { width: 100%; padding-top: 10px; border-top: 1px solid var(--line-soft); }
+.lp-listening-review :is(h3, p) { margin-bottom: 6px; }
+.lp-listening-review h3 { font: 700 13px/1.5 var(--font-pixel); color: var(--tbink); }
+.lp-listening-review blockquote { margin: var(--gap-1) 0; padding: var(--gap-2) 10px; border-left: 3px solid var(--border); background: var(--panel); }
+.lp-listening button.lp-listening-clip { min-height: 24px; margin-inline-start: 6px; font-size: var(--fs-s); }
+
+/* 随心记：横线本 */
+.lp-listening-notes { display: grid; border: var(--bw) solid var(--tbink); background: var(--paper); }
+.lp-listening-notes label { padding: 6px 10px; background: var(--gamepink); border-bottom: var(--bw) solid var(--tbink); font-weight: 700; color: var(--tbink); }
+.lp-listening-notes textarea {
+  display: block; width: 100%; min-height: 300px; max-height: 60dvh; padding: 4px 10px; border: 0; resize: vertical;
+  font: 14px/28px var(--font-text);
+  background: repeating-linear-gradient(transparent 0 27px, var(--line-soft) 27px 28px) 0 4px / 100% 100% var(--paper);
+}
+.lp-listening-notes > :is(p, button) { margin: var(--gap-1) 10px; }
+
+@media (max-width: 720px) {
+  .lp-listening-desk { grid-template-columns: minmax(0, 1fr); }
+  .lp-listening-notes { order: 1; }
+  .lp-listening-notes textarea { min-height: 120px; }
+  .listen-plan-fields { grid-template-columns: 1fr; }
+}
+
+/* ---- 盲听：只有一个大播放键和进度 ---- */
+.lp-big-play { display: block; width: 88px; height: 88px; margin: var(--gap-4) auto; border: 3px solid var(--tbink); border-radius: 50%; background: var(--sel); color: var(--on-dark); font-size: 30px; line-height: 1; }
+.lp-big-play:hover { background: var(--border-d); }
+.lp-listening-player:not(.blind) .lp-big-play { display: none; }
+/* ---- 错因：三个图标按钮，点完才看对错 ---- */
+.lp-causes { display: grid; gap: var(--gap-3); }
+.lp-causes h2 { margin: 0; color: var(--tbink); }
+.lp-cause-row { display: flex; align-items: center; gap: var(--gap-3); flex-wrap: wrap; }
+.lp-cause-choices { display: flex; gap: 6px; }
+.lp-cause { display: flex; flex-direction: column; align-items: center; gap: 2px; width: 92px; min-height: 64px; }
+.lp-cause span { font: 700 22px/1 var(--font-pixel); }
+.lp-cause small { font-size: var(--fs-s); }
+.lp-cause[aria-checked="true"] { background: var(--sel); border-color: var(--sel); color: var(--on-dark); }
+.lp-cause-tag { margin-left: 8px; padding: 0 6px; background: var(--panel); color: var(--tbink); font-size: var(--fs-s); }
+/* ---- 精听：逐句、调速、点一句显示一句；听写逐词 ---- */
+.lp-close { margin-top: var(--gap-5); padding-top: var(--gap-3); border-top: var(--bw) solid var(--line-soft); }
+.lp-close-head { display: flex; align-items: center; gap: var(--gap-3); }
+.lp-close-head h3 { margin: 0; color: var(--tbink); }
+.lp-speeds { display: flex; margin-left: auto; border: var(--bw) solid var(--tbink); }
+.lp-speeds button { min-height: 24px; padding: 0 8px; border: 0; border-right: 1px solid var(--line-soft); background: var(--paper); font-size: var(--fs-ui); }
+.lp-speeds button:last-child { border-right: 0; }
+.lp-speeds button[aria-checked="true"] { background: var(--sel); color: var(--on-dark); }
+.lp-lines { display: grid; gap: 6px; margin: var(--gap-3) 0 0; padding: 0; list-style: none; }
+.lp-line { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 6px var(--gap-2); align-items: start; }
+.lp-line-play { width: 32px; min-height: 32px; padding: 0; border-radius: 50%; }
+.lp-line-text { grid-column: 2; min-height: 32px; padding: 4px 10px; border: 1px dashed var(--line-soft); background: repeating-linear-gradient(90deg, var(--line-soft) 0 10px, transparent 10px 14px) center / 100% 6px no-repeat; color: transparent; text-align: left; font: 14px/1.6 var(--font-text); }
+.lp-line-text.shown { background: var(--paper); color: var(--ink); border-style: solid; }
+.lp-line.dictation .lp-line-play { border-color: var(--rust); }
+.lp-dictation { grid-column: 2; display: flex; flex-wrap: wrap; gap: 6px; }
+.lp-dictation input { flex: 1; min-width: 160px; font: 14px/1.4 var(--font-text); }
+.lp-dictation-out { flex-basis: 100%; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px; }
+.lp-word { padding: 0 4px; font: 14px/1.6 var(--font-text); }
+.lp-word.ok { background: var(--right-bg); color: var(--right); }
+.lp-word.wrong { background: var(--wrong-bg); color: var(--rust); text-decoration: line-through; }
+.lp-word.missing { border: 1px dashed var(--rust); color: var(--rust); }
+.lp-dictation-out b { margin-left: auto; color: var(--tbink); font-size: var(--fs-ui); }
+
+/* 精听逐句：一段对白一组，每句一个播放键 + 盖住的字 */
+.lp-lines { display: grid; gap: var(--gap-3); margin: var(--gap-3) 0 0; padding: 0; list-style: none; }
+.lp-turn { display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: var(--gap-2); align-items: start; }
+.lp-turn-speaker { grid-column: 1; width: 24px; height: 24px; display: grid; place-items: center; border: var(--bw) solid var(--tbink); color: var(--tbink); font-weight: 700; }
+.lp-sentences { grid-column: 2; display: grid; gap: var(--gap-1); margin: 0; padding: 0; list-style: none; }
+.lp-turn > .lp-sentences:only-child { grid-column: 1 / -1; }
+.lp-sentences > .lp-line { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: var(--gap-2); }
+.lp-sentences > .lp-line > .lp-dictation { grid-column: 2; }
+.lp-sentences > .lp-line.dictation { padding: var(--gap-2); border-left: var(--bw) solid var(--pink-d); background: var(--paper); }
+.lp-dictation-words { display: flex; flex-wrap: wrap; gap: 4px; align-items: baseline; }
+.lp-sentences .lp-line-text { justify-content: flex-start; }
+
+.lp-type-tag { margin-left: var(--gap-2); padding: 0 6px; border: 1px solid var(--line-soft); color: var(--muted); font-size: var(--fs-ui); font-weight: 400; }
+
+/* 首页：主按钮 + 文字按钮 + 「⋯」 */
+.listen-start-actions { display: flex; align-items: center; gap: var(--gap-3); }
+.lp-text-btn { border-color: transparent !important; background: none !important; color: var(--tbink) !important; text-decoration: underline; text-underline-offset: 3px; }
+.lp-more { position: relative; margin-left: auto; }
+.lp-more > summary { list-style: none; display: grid; place-items: center; width: 32px; height: 30px; border: var(--bw) solid var(--tbink); background: var(--paper); color: var(--tbink); font: 700 16px/1 var(--font-pixel); cursor: pointer; }
+.lp-more > summary::-webkit-details-marker { display: none; }
+.lp-more[open] > summary { background: var(--sel); color: var(--on-dark); }
+.lp-more-pop { position: absolute; right: 0; top: calc(100% + 6px); z-index: 30; width: min(520px, 80vw); display: grid; gap: var(--gap-2); padding: var(--gap-3); }
+.lp-more-pop > button { justify-content: flex-start; }
+.lp-more-pop .lp-listening-history { margin: 0; }
+button.lp-cause-tag { min-height: 0; padding: 0 6px; border: 0; font-weight: 400; cursor: pointer; }
+.lp-speed { min-width: 56px; }
+
+/* ================= 丰满版：首页铺满、练习三阶段带常驻随心记 ================= */
+#page-listening.active { display: flex; flex-direction: column; overflow: hidden; }
+.lp-listening { flex: 1; min-height: 0; display: flex; flex-direction: column; }
+.lp-listening-heading { flex: none; }
+.lp-listening-desk { flex: 1; min-height: 0; width: min(100%, 1280px); padding: var(--gap-4) var(--page-pad); gap: var(--gap-4); }
+/* 首页：卡片 + 两栏，两栏撑满剩下的高度，各自滚 */
+.lp-listening:not(.in-practice) .lp-listening-desk { display: flex; flex-direction: column; max-width: none; }
+.lp-listening:not(.in-practice) .lp-listening-flow { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: var(--gap-4); }
+.lp-listening:not(.in-practice) .lp-listening-notes:not([hidden]) { position: fixed; right: var(--page-pad); top: 140px; bottom: var(--gap-4); width: 300px; z-index: 20; box-shadow: var(--shadow); }
+/* 主操作卡：一圈像素框，题型/课程 + 小标在上，主按钮在下 */
+.lp-listening-setup { flex: none; gap: var(--gap-3); padding: var(--gap-4); border: var(--bw) solid var(--tbink); background: var(--paper); box-shadow: var(--shadow-sm); }
+.lp-listening-setup .listen-plan-preview { padding: 0; border: 0; background: none; align-items: flex-start; }
+.listen-plan-preview strong { font-size: 18px; color: var(--tbink); }
+.listen-plan-preview p { margin: 6px 0 0; font-size: 13px; }
+.lp-tags { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 6px; }
+.lp-tag { padding: 2px 8px; border: var(--bw) solid currentColor; font-weight: 700; font-size: var(--fs-ui); white-space: nowrap; }
+.lp-tag.down { color: var(--rust); }
+.lp-tag.up { color: var(--ok); }
+.lp-tag.weak { color: var(--tbink); }
+.listen-start-actions > button[type=submit] { min-height: 42px; min-width: 160px; font-size: 15px; }
+/* 两栏：最近 | 这个月 */
+.lp-home { flex: 1; min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--gap-4); }
+.lp-home.single { grid-template-columns: minmax(0, 1fr); }
+.lp-home > section { min-height: 0; display: flex; flex-direction: column; border-top: var(--bw) solid var(--tbink); }
+.lp-home > section[hidden] { display: none; }
+.lp-home h3 { flex: none; padding: var(--gap-2) 0; color: var(--tbink); font-size: 14px; }
+.lp-recent-list { flex: 1; min-height: 0; overflow-y: auto; margin: 0; padding: 0; list-style: none; }
+.lp-recent-list li + li { border-top: 1px solid var(--line-soft); }
+.lp-recent-row { display: grid !important; grid-template-columns: minmax(0, 1fr) auto auto 22px; align-items: center; gap: var(--gap-3); width: 100%; min-height: 48px !important; padding: 6px var(--gap-2) !important; border: 0 !important; background: none !important; color: var(--ink) !important; font-weight: 400 !important; text-align: left; }
+.lp-recent-row:hover { background: var(--panel) !important; }
+.lp-recent-row strong { overflow: hidden; color: var(--tbink); font-size: 13px; text-overflow: ellipsis; white-space: nowrap; }
+.lp-recent-row time { color: var(--muted); font-size: var(--fs-ui); }
+.lp-recent-go { color: var(--sel); font-size: 12px; }
+.lp-recent-row.pending strong::after { content: ' ·'; color: var(--sel); }
+.lp-dots { display: flex; gap: 4px; }
+.lp-dots i { width: 12px; height: 12px; border: var(--bw) solid var(--tbink); }
+.lp-dots i.ok { background: var(--ok); border-color: var(--ok); }
+.lp-dots i.bad { background: var(--rust); border-color: var(--rust); }
+.lp-dots i.open { background: var(--paper); }
+.lp-month-body { flex: 1; min-height: 0; overflow-y: auto; display: grid; align-content: start; gap: var(--gap-4); }
+.lp-month-numbers { display: flex; gap: var(--gap-5); }
+.lp-big-number { display: grid; gap: 2px; }
+.lp-big-number strong { color: var(--tbink); font: 700 40px/1 var(--font-pixel); }
+.lp-big-number span { color: var(--ink); font-size: 13px; font-weight: 700; }
+.lp-big-number small { color: var(--muted); font-size: var(--fs-ui); }
+.lp-bars { display: grid; gap: 6px; }
+.lp-bars h4 { color: var(--tbink); font-size: var(--fs-ui); }
+.lp-bar { display: grid; grid-template-columns: minmax(64px, 7em) minmax(0, 1fr) 3.5em; align-items: center; gap: var(--gap-2); font-size: var(--fs-ui); }
+.lp-bar-track { height: 12px; border: 1px solid var(--tbink); background: var(--paper); }
+.lp-bar-fill { display: block; height: 100%; background: var(--sel); }
+.lp-bars.causes .lp-bar-fill { background: var(--rust); }
+.lp-bar b { color: var(--tbink); text-align: right; }
+/* 练习中：左边主流程，右边随心记常驻（三阶段同一份） */
+.lp-listening.in-practice .lp-listening-desk { grid-template-columns: minmax(0, 1fr) minmax(240px, 320px); align-items: stretch; overflow-y: auto; }
+.lp-listening.in-practice .lp-listening-notes { display: grid !important; grid-template-rows: auto minmax(0, 1fr) auto; position: sticky; top: 0; align-self: start; height: calc(100dvh - 190px); min-height: 360px; }
+.lp-listening.in-practice .lp-listening-notes textarea { min-height: 0; max-height: none; height: 100%; resize: none; }
+.lp-listening.in-practice [data-listen=notes-toggle] { display: none; }
+/* 播放器：大播放键 + 宽进度条在一行 */
+.lp-listening-player { justify-items: stretch; gap: var(--gap-3); padding: var(--gap-4); box-shadow: var(--shadow-sm); }
+.lp-player-row { display: flex; align-items: center; gap: var(--gap-4); }
+.lp-big-play { flex: none; width: 72px; height: 72px; margin: 0; font-size: 26px; }
+.lp-listening-player audio { flex: 1; width: 100%; max-width: none; height: 54px; }
+.lp-listening-player-actions { gap: var(--gap-2); }
+.lp-listening-player-actions [data-listen=questions] { margin-left: auto; min-height: 36px; min-width: 120px; }
+/* 答题：题目在左（随心记在右） */
+.lp-listening-questions { justify-items: stretch; }
+.lp-listening-questions > button[type=submit] { justify-self: start; min-height: 38px; min-width: 120px; }
+/* 精听：逐句列表是主体；当前句高亮，听写框跟着它 */
+.lp-close { margin-top: 0; padding-top: 0; border-top: 0; }
+.lp-sentences > .lp-line.current { background: var(--panel); outline: var(--bw) solid var(--sel); outline-offset: 0; }
+.lp-sentences > .lp-line > .lp-dictation, .lp-sentences > .lp-line > .lp-dictation-words { grid-column: 2; }
+.lp-sentences > .lp-line { padding: 4px var(--gap-2); }
+.lp-sentences > .lp-line.dictation { border-left: 0; background: none; }
+.lp-sentences > .lp-line.dictation.current { background: var(--panel); }
+.lp-line.dictation .lp-line-play { border-color: var(--rust); color: var(--rust); }
+@media (max-width: 899px) {
+  .lp-listening.in-practice .lp-listening-desk { grid-template-columns: minmax(0, 1fr); }
+  .lp-listening.in-practice .lp-listening-notes { position: static; height: auto; min-height: 0; }
+  .lp-listening.in-practice .lp-listening-notes textarea { min-height: 160px; }
+  .lp-home { grid-template-columns: minmax(0, 1fr); }
+  #page-listening.active { overflow-y: auto; }
+}
+.lp-listening:not(.in-practice) .lp-listening-desk { align-items: stretch; }
+.lp-listening.in-practice .lp-listening-desk { max-width: 1280px; align-items: start; }
+.lp-listening.in-practice .lp-listening-flow { align-content: start; }
+.lp-listening-player { align-content: start; }
+.lp-listening-player-actions > button { min-height: 32px; }
+
+/* 播放器：大号时间 + 听了几遍 */
+.lp-player-meta { display: flex; align-items: baseline; gap: 4px; }
+.lp-player-time { color: var(--tbink); font: 700 44px/1 var(--font-pixel); font-variant-numeric: tabular-nums; }
+.lp-player-total { color: var(--muted); font: 700 20px/1 var(--font-pixel); }
+.lp-plays { display: flex; gap: 4px; margin-left: auto; align-self: center; }
+.lp-plays i { width: 10px; height: 10px; border-radius: 50%; background: var(--sel); }
+.lp-listening.in-practice .lp-listening-player { min-height: 220px; }
+.lp-listening.in-practice .lp-listening-review { justify-items: stretch; }
+.lp-listening-review > .lp-close { width: 100%; }
+.lp-close .lp-lines { width: 100%; }
+.lp-listening.in-practice .lp-listening-review > button { justify-self: start; }
+
+/* 「⋯」里不再重复最近练习（首页左栏就是它），只留练习记录管理 */
+@media (max-width: 899px) { .lp-listening:not(.in-practice) .lp-listening-notes:not([hidden]) { position: static; width: auto; box-shadow: none; } }
+
+/* ================= 第二轮：自绘播放器、盲听撑满、首页再充实 ================= */
+/* 首页不要顶栏（只剩一个随心记按钮），高度让给内容 */
+.lp-listening:not(.in-practice) .lp-listening-heading { display: none; }
+/* 「⋯」紧跟在「换题型」后面 */
+.listen-start-actions .lp-more { margin-left: 0; }
+/* 播放器：大播放键永远只有一个 */
+.lp-listening-player .lp-big-play, .lp-listening-player:not(.blind) .lp-big-play { display: grid; place-items: center; }
+.lp-listening-player audio { display: none !important; }
+.lp-player-row { justify-content: center; gap: var(--gap-4); }
+.lp-player-row > .lp-listening-secondary, .lp-player-row > .lp-speed { min-height: 34px; min-width: 72px; }
+/* 句子块带：一句一块，宽度按时长；A 主紫、B 粉；播过实心、没播浅色、正在播从左填 */
+.lp-track { display: flex; gap: 2px; width: 100%; height: 20px; cursor: pointer; touch-action: none; user-select: none; }
+.lp-track:focus-visible { outline: var(--bw) solid var(--pink-d); outline-offset: 3px; }
+.lp-seg { position: relative; flex: 1 1 0; min-width: 3px; color: var(--sel); overflow: hidden; }
+.lp-seg.b { color: var(--pink-d); }
+.lp-seg::before { content: ''; position: absolute; inset: 0; background: currentColor; opacity: .2; }
+.lp-seg > i { position: absolute; left: 0; top: 0; bottom: 0; width: 0; background: currentColor; }
+.lp-seg.now::after { content: ''; position: absolute; inset: 0; border: var(--bw) solid currentColor; }
+.lp-track.plain .lp-seg { color: var(--sel); border: var(--bw) solid var(--tbink); }
+.lp-listening-player.blind .lp-track { height: 64px; }
+/* 盲听：卡撑满左栏，和随心记等高；上=标题时间遍数，中=块带，下=控制行，底=开始答题 + 题数 */
+.lp-listening.in-practice .lp-listening-player.blind { display: flex; flex-direction: column; justify-content: space-between; height: calc(100dvh - 190px); min-height: 360px; }
+.lp-player-foot { display: none; align-items: center; gap: var(--gap-3); padding-top: var(--gap-3); border-top: 1px solid var(--line-soft); }
+.lp-listening-player.blind .lp-player-foot { display: flex; }
+.lp-player-foot [data-listen=questions] { min-height: 40px; min-width: 140px; margin: 0; }
+.lp-qdots i { width: 14px; height: 14px; }
+/* 块带吃掉盲听卡里多出来的高度，时间放大，不留空带 */
+.lp-listening.in-practice .lp-listening-player.blind { justify-content: flex-start; gap: var(--gap-4); }
+.lp-listening-player.blind .lp-track { flex: 1 1 64px; height: auto; min-height: 64px; max-height: 28dvh; margin-block: auto; }
+.lp-listening-player.blind .lp-player-time { font-size: 64px; }
+.lp-listening-player.blind .lp-player-total { font-size: 26px; }
+/* 答题 / 复盘：播放器收成细条，时间也小一号 */
+.lp-listening-player:not(.blind) { min-height: 0 !important; gap: var(--gap-2); padding: var(--gap-3); }
+.lp-listening-player:not(.blind) .lp-player-time { font-size: 24px; }
+.lp-listening-player:not(.blind) .lp-player-total { font-size: 14px; }
+.lp-listening-player:not(.blind) .lp-big-play { width: 44px; height: 44px; font-size: 18px; }
+.lp-listening-player:not(.blind) h2 { display: none; }
+/* 细条版：时间在左、块带在右一行；控制行在下 */
+.lp-listening-player:not(.blind) { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; column-gap: var(--gap-3); }
+.lp-listening-player:not(.blind) > :not(.lp-player-meta):not(.lp-track) { grid-column: 1 / -1; }
+.lp-listening-player:not(.blind) .lp-player-meta { grid-column: 1; }
+.lp-listening-player:not(.blind) .lp-track { grid-column: 2; }
+.lp-listening-player:not(.blind) .lp-player-row { min-height: 44px; }
+/* 首页「最近」：两行高，语言小标 + 题型 + 点阵 + 日期；第二行 preview */
+.lp-recent-row { grid-template-columns: auto minmax(0, 1fr) auto auto 18px !important; grid-template-areas: "tag fmt dots date go" ". prev prev prev prev"; row-gap: 2px !important; min-height: 56px !important; }
+.lp-lang-tag { grid-area: tag; padding: 0 5px; border: 1px solid var(--tbink); color: var(--tbink); font-size: var(--fs-ui); font-weight: 700; }
+.lp-recent-row strong { grid-area: fmt; }
+.lp-recent-row .lp-dots { grid-area: dots; }
+.lp-recent-row time { grid-area: date; }
+.lp-recent-go { grid-area: go; }
+.lp-recent-preview { grid-area: prev; overflow: hidden; color: var(--muted); font: 13px/1.4 var(--font-text); text-overflow: ellipsis; white-space: nowrap; }
+.lp-dots i { width: 14px; height: 14px; }
+/* 这个月：30 天活动格带 */
+.lp-activity { display: grid; grid-template-columns: repeat(30, minmax(0, 1fr)); gap: 3px; }
+.lp-activity i { aspect-ratio: 1; border: 1px solid var(--line-soft); background: var(--paper); }
+.lp-activity i.l1 { background: var(--sel); border-color: var(--sel); opacity: .4; }
+.lp-activity i.l2 { background: var(--sel); border-color: var(--sel); opacity: .7; }
+.lp-activity i.l3 { background: var(--sel); border-color: var(--sel); }
+.lp-activity i.today { outline: var(--bw) solid var(--pink-d); outline-offset: 1px; }
+.lp-month-numbers { flex-wrap: wrap; }
+/* 复盘小毛病：说话人标和播放键同一行居中；「已收录」和「查看错题」同一行 */
+.lp-turn { align-items: start; }
+.lp-turn-speaker { margin-top: 8px; }
+.lp-saved-row { display: flex; align-items: center; gap: var(--gap-3); }
+.lp-saved-row p { margin: 0 !important; }
+@media (max-width: 899px) {
+  .lp-listening.in-practice .lp-listening-player.blind { height: auto; min-height: 420px; }
+}
+
+/* 这个月：内容在栏里上下撑开，底边和左栏对齐 */
+.lp-month-body { display: flex; flex-direction: column; justify-content: flex-start; gap: var(--gap-5); }
+.lp-big-number strong { font-size: 48px; }
+.lp-activity { grid-template-columns: repeat(15, minmax(0, 1fr)); gap: 4px; }
+.lp-bars { gap: 10px; }
+.lp-bar-track { height: 16px; }
+.lp-bar { font-size: 13px; }
+
+/* ================= 第三轮：首页有没有数据都是一个版式 ================= */
+/* 卡左上：语言拨片（和主聊天拨片同一种画法） */
+.lp-plan-head { display: grid; gap: 6px; justify-items: start; }
+.lp-lang-dial { display: inline-flex; border: var(--bw) solid var(--tbink); background: var(--paper); }
+.lp-lang-dial .lp-dial-opt { min-height: 30px; padding: 0 14px; border: 0; border-left: 1px solid var(--line-soft); background: var(--paper); color: var(--tbink); font-weight: 700; }
+.lp-lang-dial .lp-dial-opt:first-child { border-left: 0; }
+.lp-lang-dial .lp-dial-opt[aria-checked="true"] { background: var(--sel); color: var(--on-dark); }
+.listen-plan-preview strong:empty { display: none; }
+/* 左栏：题型格子在上，最近在下（自己滚）；没有最近时格子把左栏铺到底 */
+.lp-left { min-height: 0; display: flex; flex-direction: column; gap: var(--gap-4); }
+.lp-formats { flex: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: minmax(84px, auto); gap: var(--gap-3); }
+.lp-home.no-recent .lp-formats { flex: 1; grid-auto-rows: minmax(84px, 1fr); max-height: calc(200px * 3 + var(--gap-3) * 2); }
+.lp-left > .lp-recent { flex: 1; min-height: 0; }
+.lp-format-tile { position: relative; display: flex !important; flex-direction: column; align-items: flex-start !important; justify-content: space-between !important; gap: 6px; min-height: 84px; padding: var(--gap-3) !important; border: var(--bw) solid var(--tbink) !important; background: var(--paper) !important; color: var(--tbink) !important; text-align: left; white-space: normal !important; }
+.lp-format-tile:hover { background: var(--panel) !important; }
+.lp-format-tile[aria-checked="true"] { background: var(--sel) !important; border-color: var(--sel) !important; color: var(--on-dark) !important; }
+.lp-format-name { font-size: 16px; font-weight: 700; line-height: 1.25; }
+.lp-format-marks { display: flex; align-items: center; gap: var(--gap-3); margin-top: auto; }
+.lp-speakers { display: flex; gap: 3px; }
+.lp-speakers i { position: relative; width: 10px; height: 14px; }
+.lp-speakers i::before { content: ''; position: absolute; left: 2px; top: 0; width: 6px; height: 6px; background: currentColor; }
+.lp-speakers i::after { content: ''; position: absolute; left: 0; bottom: 0; width: 10px; height: 6px; background: currentColor; }
+.lp-format-tile .lp-dots i { width: 12px; height: 12px; border-color: currentColor; background: transparent; }
+.lp-auto-mark { font-size: 18px; line-height: 1; }
+.lp-format-stat { position: absolute; top: var(--gap-3); right: var(--gap-3); display: grid; grid-template-columns: 56px auto; align-items: center; gap: 6px; font-size: var(--fs-ui); }
+.lp-format-stat .lp-bar-track { height: 8px; border-color: currentColor; background: transparent; }
+.lp-format-stat .lp-bar-fill { background: currentColor; }
+.lp-format-tile[aria-checked="true"] .lp-format-stat .lp-bar-fill { background: var(--on-dark); }
+/* 这个月常驻；空条不写数 */
+.lp-month[hidden] { display: flex !important; }
+.lp-bar.empty .lp-bar-track { border-style: dashed; }
+/* 两栏底边对齐 */
+.lp-home { align-items: stretch; }
+.lp-home > .lp-left, .lp-home > .lp-month { min-height: 0; }
+.lp-home { grid-template-rows: minmax(0, 1fr); }
+/* 这个月：内容在栏里上下分布，底边和左栏对齐 */
+.lp-month-body { justify-content: space-between; }
+.lp-left > .lp-recent { display: flex; flex-direction: column; border-top: var(--bw) solid var(--tbink); }
+.lp-left > .lp-recent[hidden] { display: none; }
+.lp-left > .lp-recent > .lp-recent-list { flex: 1; min-height: 0; overflow-y: auto; }

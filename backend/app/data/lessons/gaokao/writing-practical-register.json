@@ -1,0 +1,80 @@
+{
+ "id": "writing-practical-register",
+ "title": "应用文的语域",
+ "goal": "能根据读者选择称呼、结束语和请求表达。",
+ "skill": "写作",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "audience", "label": "按读者身份选择称呼和结束语"},
+  {"id": "request", "label": "选择与交际关系一致的请求表达"}
+ ],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "应用文语域的内容与知识点"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "语域要符合读者身份和交际关系。写给熟悉的同学，可以用名字称呼，请求也可以直接一些。初次联系教师或机构，称呼和请求要更正式。"},
+   {"box": "Hi Mei, can you check the poster?\nDear Professor Liu, could you check the poster?"},
+   {"p": "两句都请求检查海报。第一句适合熟悉的同学，第二句适合初次联系的教师。称呼、正文和结束语的语域要一致。"}
+  ]},
+  {"id": "greetings", "type": "table", "title": "称呼与结束语", "cols": ["读者", "称呼与结束语", "用法"], "rows": [
+   ["熟悉的同学", "Hi Mei, … Best, Li Hua", "用名字称呼，署名写信人。"],
+   ["教师", "Dear Professor Liu, … Best regards, Li Hua", "初次联系用职称和姓氏。"],
+   ["已知称谓的工作人员", "Dear Ms. Brown, … Kind regards, Li Hua", "对方署名用什么称谓，回信就用什么。"],
+   ["姓名未知的机构人员", "Dear Admissions Team, … Yours sincerely, Li Hua", "用部门名称称呼读者。"]
+  ]},
+  {"id": "requests-a", "type": "table", "title": "请求表达：资料", "cols": ["意图", "同学", "教师或机构"], "rows": [
+   ["发送笔记", "Can you send me the notes?", "Could you send me the notes?"],
+   ["检查海报", "Can you check the poster?", "Could you check the poster?"],
+   ["确认日期", "Can you confirm the date?", "Could you confirm the date?"],
+   ["提供表格", "Can you share the form?", "Could you provide the form?"]
+  ]},
+  {"id": "requests-b", "type": "table", "title": "请求表达：安排", "cols": ["意图", "同学", "教师或机构"], "rows": [
+   ["调整会议", "Can we move the meeting?", "Would it be possible to move the meeting?"],
+   ["延后领取", "Can I collect it later?", "Would it be possible to collect it later?"],
+   ["审阅草稿", "Can you read my draft?", "I would be grateful if you could review my draft."],
+   ["解释要求", "Can you explain the requirements?", "Could you explain the requirements?"]
+  ]},
+  {"id": "requests-c", "type": "table", "title": "请求表达：协作", "cols": ["意图", "同学", "教师或机构"], "rows": [
+   ["核对地址", "Please check the address.", "Could you check the address?"],
+   ["转发链接", "Please forward the link.", "Could you forward the link?"],
+   ["查看名单", "Can you look at the list?", "Could you review the list?"],
+   ["说明流程", "Can you explain the steps?", "Could you explain the procedure?"]
+  ]},
+  {"id": "consistency", "type": "table", "title": "语域的一致性", "cols": ["情况", "不协调的表达", "修改"], "rows": [
+   ["初次写给教师", "Dear Professor Wu, Send me the notes now.", "Dear Professor Wu, could you send me the notes?"],
+   ["写给熟悉同学", "Hi Yan, I hereby submit a formal request for the notes.", "Hi Yan, can you send me the notes?"],
+   ["写给机构", "Hey buddy, could you confirm the date?", "Dear Admissions Team, could you confirm the date?"],
+   ["写给教师", "Dear Professor Wu, … Best regards, Professor Wu", "Dear Professor Wu, … Best regards, Li Hua"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["audience", "request"], "groups": [
+   {"text": "假定李华首次给教师 Professor Chen 写信，请她确认讲座日期。", "items": [
+    {"stem": "Which greeting and signature fit the situation?", "options": ["Dear Professor Chen, … Best regards, Li Hua", "Dear Li Hua, … Best regards, Professor Chen", "Hi Chen, … Best, Professor Chen", "Hi Li Hua, … Best, Professor Chen"], "answer": 0, "why": "读者是 Professor Chen，署名是写信人 Li Hua，第一项符合这一关系。", "point": "audience"},
+    {"stem": "Which request is suitable for a first message?", "options": ["Confirm the lecture date immediately.", "Could you confirm the lecture date?", "The lecture date has been confirmed.", "Could you tell me the lecture topic?"], "answer": 1, "why": "李华要请教师确认讲座日期。第二项用 Could you 礼貌地提出这一请求；第四项同样礼貌，但问的是讲座主题。", "point": "request"}
+   ]},
+   {"text": "假定李华给熟悉的同学 Ben 写信，请他发来活动照片。", "items": [
+    {"stem": "Which opening and closing suit the reader?", "options": ["Dear Li Hua, … Best, Ben", "Dear Photos Team, … Yours sincerely, Ben", "Hi Ben, … Best, Li Hua", "Hi Li Hua, … Best, Ben"], "answer": 2, "why": "李华写信给熟悉的同学 Ben。称呼写读者 Ben，署名写写信人 Li Hua，即第三项。第四项把两人颠倒了。", "point": "audience"},
+    {"stem": "Which request fits this exchange?", "options": ["Can you check the photos I sent you?", "Would you review the photos for me?", "I hereby request the activity photos.", "Can you send me the activity photos?"], "answer": 3, "why": "李华要请熟悉的同学发来活动照片。第四项用同学间自然的 Can you 提出这一请求；第三项对熟悉的同学过于正式。", "point": "request"}
+   ]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["audience", "request"], "groups": [{"items": [
+   {"stem": "A student politely asks an office to check a registration.", "lead": "Could", "chunks": ["you", "please check", "my", "course"], "tail": "registration?", "extra": ["checking"], "why": "Could you please check 是礼貌请求，check 后接核对的内容。", "point": "request"},
+   {"stem": "A student closes a first letter to a teacher who has offered advice.", "lead": "Thank", "chunks": ["you", "for", "your", "helpful"], "tail": "advice.", "extra": ["advise"], "why": "Thank you for your helpful advice 适合作为致谢结束语。", "point": "audience"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["audience", "request"], "sets": [{"id": "set-a", "groups": [
+   {"text": "假定李华首次联系教师 Dr. Wang，请她提供讲座资料。", "items": [
+    {"stem": "Which greeting and signature fit the relationship?", "options": ["Dear Dr. Wang, … Best regards, Li Hua", "Dear Li Hua, … Best regards, Dr. Wang", "Hi Wang, … Best, Dr. Wang", "Dear Dr. Li, … Best regards, Wang"], "answer": 0, "why": "首次联系教师用 Dr. Wang 称呼，Li Hua 是署名。", "point": "audience"},
+    {"stem": "Which sentence requests the materials politely?", "options": ["The lecture materials have already arrived.", "Could you send me the lecture materials?", "Send me the lecture materials right now.", "Could you tell me when the lecture starts?"], "answer": 1, "why": "李华要请教师提供讲座资料。第二项用 Could you 礼貌地请对方发送资料；第四项问的是讲座时间。", "point": "request"}
+   ]},
+   {"text": "假定李华联系熟悉的同学 Amy，请她核对旅行日期。", "items": [
+    {"stem": "Which opening and closing fit this message?", "options": ["Dear Li Hua, … Best, Amy", "Dear Travel Office, … Best, Amy", "Hi Amy, … Best, Li Hua", "Hi Li Hua, … Best, Amy"], "answer": 2, "why": "Amy 是熟悉的同学，也是收件人，称呼用 Hi Amy。Li Hua 是写信人，放在结尾，即第三项。", "point": "audience"},
+    {"stem": "Which request fits the task and relationship?", "options": ["Can you change the travel date?", "Could you choose a travel date?", "I hereby request verification of the travel date.", "Can you check the travel date?"], "answer": 3, "why": "李华要请熟悉的同学 Amy 核对旅行日期。第四项用 Can you 直接提出这一请求；第一项把核对换成了更改。", "point": "request"}
+   ]},
+   {"items": [
+    {"stem": "A student politely asks an institution for a schedule.", "lead": "Could", "chunks": ["you", "please send", "me", "the course"], "tail": "schedule?", "extra": ["sending"], "why": "Could you please send 是礼貌请求，后接收取者及资料。", "point": "request"},
+    {"stem": "A student thanks a teacher for reviewing a proposal.", "lead": "Thank", "chunks": ["you", "for", "reviewing", "my"], "tail": "proposal.", "extra": ["review"], "why": "for 后用 reviewing，句子适合作为致谢结束语。", "point": "audience"},
+    {"stem": "A student asks an office whether a meeting can be moved.", "lead": "Would", "chunks": ["it be", "possible", "to move", "the meeting"], "tail": "to Monday?", "extra": ["moving"], "why": "Would it be possible to 后接动词原形，礼貌询问安排是否可行。", "point": "request"},
+    {"stem": "A student thanks the admissions team for its reply.", "lead": "Thank", "chunks": ["you", "for", "your", "prompt"], "tail": "reply.", "extra": ["replied"], "why": "Thank you for your prompt reply 是适合机构通信的致谢结束语。", "point": "audience"}
+   ]}
+  ]}]} 
+ ]
+}

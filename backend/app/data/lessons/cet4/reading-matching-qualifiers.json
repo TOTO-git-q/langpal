@@ -1,0 +1,69 @@
+{
+ "id": "reading-matching-qualifiers",
+ "title": "匹配陈述的限制条件",
+ "goal": "核对陈述的数量、范围、时间和对象条件。",
+ "skill": "阅读",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "scope", "label": "保留陈述中的数量和范围限制"},
+  {"id": "condition", "label": "核对时间与对象条件是否全部满足"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读教学依据"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "段落匹配要逐项核对数量、范围、时间和对象。主题相同的段落，常常只符合陈述的一部分条件。"},
+   {"box": "Some members arrived before noon.\nMost members arrived after noon."},
+   {"p": "两句都有 members 和 noon，但数量和先后都不同：一句是 some 和 before，另一句是 most 和 after。"}
+  ]},
+  {"id": "scope", "type": "table", "title": "数量与范围", "cols": ["表达", "例句", "含义"], "rows": [
+   ["some", "Some visitors signed the book.", "部分访客签名。"],
+   ["most", "Most visitors signed the book.", "大多数访客签名。"],
+   ["only", "Only members entered the room.", "只有会员进入。"],
+   ["at least", "At least ten members arrived.", "到场会员不少于 10 人。"],
+   ["all", "All members received a map.", "每位会员都收到地图。"]
+  ]},
+  {"id": "time", "type": "table", "title": "时间与对象", "cols": ["条件", "例句", "对应关系"], "rows": [
+   ["before", "Staff checked the room before the talk.", "先检查，后讲座。"],
+   ["after", "Staff checked the room after the talk.", "先讲座，后检查。"],
+   ["对象", "Members borrowed books; guests read maps.", "借书的是会员。"],
+   ["时间与对象", "Guests left after the film.", "访客在电影结束后离开。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A. Most students borrowed maps before the tour.\nB. Some students borrowed maps after the tour.\n\nStatement: A majority of students borrowed maps before the tour."},
+   {"p": "第一段的 most 对应 a majority，before the tour 也一致。第二段也讲学生借地图，但数量和时间都不同。"}
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["scope", "condition"], "groups": [
+   {"look": "passage", "text": "A. Some visitors signed the book. B. Most visitors signed the book.", "items": [{"stem": "Which paragraph reports that a majority signed?", "options": ["The first paragraph", "The second paragraph", "Both paragraphs", "Neither paragraph"], "answer": 1, "why": "Most visitors signed 表示大多数访客签名。", "point": "scope"}]},
+   {"look": "passage", "text": "A. Members collected coats before the talk. B. Members collected coats after the talk.", "items": [{"stem": "Where did collection follow the talk?", "options": ["The first paragraph", "Both paragraphs", "The second paragraph", "Neither paragraph"], "answer": 2, "why": "after the talk 表示收集发生在讲座之后。", "point": "condition"}]},
+   {"look": "passage", "text": "A. Only staff used the office. B. Staff and guests used the office.", "items": [{"stem": "Where was use limited to staff?", "options": ["The first paragraph", "The second paragraph", "Both paragraphs", "Neither paragraph"], "answer": 0, "why": "Only staff used 表示使用者限于工作人员。", "point": "scope"}]},
+   {"look": "passage", "text": "A. Teachers delivered books to pupils. B. Pupils delivered books to teachers.", "items": [{"stem": "Where did pupils receive books?", "options": ["The second paragraph", "Both paragraphs", "Neither paragraph", "The first paragraph"], "answer": 3, "why": "delivered books to pupils 表示学生是接收者。", "point": "condition"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["scope", "condition"], "groups": [
+   {"look": "passage", "text": "A. The club gave at least twenty maps to visitors. Members checked the maps before the event.\nB. The club gave twelve maps to visitors. Members checked the maps after the event.\nC. The club collected tickets from visitors. Members counted them after the event.", "items": [
+    {"stem": "Where did visitors receive no fewer than twenty maps?", "options": ["In the first paragraph", "In the second paragraph", "In the third paragraph", "In all three paragraphs"], "answer": 0, "why": "at least twenty maps 表示不少于 20 份地图。", "point": "scope"},
+    {"stem": "Where did members check maps after the event?", "options": ["In the first paragraph", "In the second paragraph", "In the third paragraph", "In all three paragraphs"], "answer": 1, "why": "第二段 checked the maps after the event 同时符合对象和时间。", "point": "condition"}
+   ]}
+  ]},
+  {"id": "practice-three", "type": "check", "title": "练习三", "points": ["scope", "condition"], "groups": [
+   {"look": "passage", "text": "A. Most families visited the park before lunch. B. Some families visited the park after lunch. C. Most teachers visited the park after lunch.", "items": [
+    {"stem": "Where did most families visit before lunch?", "options": ["The second paragraph", "The third paragraph", "The first paragraph", "All three paragraphs"], "answer": 2, "why": "Most families 和 before lunch 同时出现在第一段。", "point": "scope"},
+    {"stem": "Where did most teachers visit after lunch?", "options": ["The first paragraph", "The second paragraph", "All three paragraphs", "The third paragraph"], "answer": 3, "why": "第三段的 teachers 和 after lunch 符合对象与时间条件。", "point": "condition"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["scope", "condition"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A. A community garden held a planning meeting for its members. Most members asked for more space to grow vegetables, while a smaller group wanted extra seating. The committee wrote both requests in its notes. It also invited members to send further ideas in writing before the next meeting, when the proposals would be considered in detail. The notes were made available at the garden office for members who missed the discussion.\n\nB. The garden committee ordered twelve wooden benches for the paths. Before the benches arrived, volunteers cleared the areas where they would stand. They kept the paths open for visitors during the work and placed the tools in a locked shed each evening. After delivery, the volunteers checked each bench for damage before putting it in place. The new seats allowed visitors to pause beside the paths without obstructing them.\n\nC. The garden offered a class about planting seeds. Only registered members could attend because the teaching area was small. Some members who could not attend received a written guide afterwards. The guide described the same planting steps that the instructor demonstrated during the class, and it was also available at the garden office.\n\nD. Later, the committee distributed at least thirty packets of seeds to local families. It recorded the total number of packets but did not record the names of the families. Staff put the remaining packets in a box at the office. They planned to count them again before ordering supplies for the following season.", "items": [
+    {"stem": "What did most members request at the planning meeting?", "options": ["More space for growing vegetables", "More seats beside the paths", "Written ideas before the next meeting", "Notes kept at the garden office"], "answer": 0, "why": "Most members asked for more space to grow vegetables 是多数会员的请求。第二项的座位是 a smaller group 提出的。", "point": "scope"},
+    {"stem": "When did volunteers clear the areas for benches?", "options": ["After the benches were checked", "Before the benches were delivered", "After the next planning meeting", "Before the seed class was offered"], "answer": 1, "why": "Before the benches arrived, volunteers cleared the areas 说明先清理再送达。", "point": "condition"},
+    {"stem": "Who could attend the planting class?", "options": ["All local families with seeds", "Visitors walking along the garden paths", "Registered members of the garden", "All members and their guests"], "answer": 2, "why": "Only registered members could attend 限定参加者。", "point": "scope"},
+    {"stem": "What did the committee give local families?", "options": ["Exactly twelve wooden benches", "Fewer than thirty written guides", "Only the packets left in the office", "No fewer than thirty seed packets"], "answer": 3, "why": "at least thirty packets of seeds 表示不少于 30 包种子。", "point": "scope"}
+   ]},
+   {"look": "passage", "text": "A. A local arts centre arranged a series of workshops for residents. Some residents requested evening sessions because they worked during the day. Other residents preferred weekend sessions. The centre recorded both preferences before preparing a schedule and asked its teachers which rooms would be needed for the different activities. The final schedule was displayed at reception so that residents could see it when they visited.\n\nB. Before the first painting workshop, staff covered the tables with paper. After the workshop, the participants cleaned the brushes and placed them in a cupboard. The paper was collected separately for disposal. Staff checked that the room was clear before another group entered it for a meeting later that day. The cupboard was kept in the painting room, close to the tables.\n\nC. The centre lent drawing boards to students, while teachers borrowed folding chairs. Students returned the boards on Friday, and teachers returned the chairs on Saturday. Both groups left the equipment at the reception desk. Staff checked the returned items against a list and stored them in the rooms where they were usually kept. The list helped staff identify which pieces of equipment had been returned.\n\nD. Most visitors to an exhibition at the centre completed a short survey. Only a few visitors asked for printed catalogues, and the rest read the information displayed beside the pictures. Staff reviewed the survey responses after the exhibition closed. The responses helped them decide what information to provide at a later event.", "items": [
+    {"stem": "Which residents asked for evening workshops?", "options": ["All residents who attended the exhibition", "Some residents who worked during the day", "Residents who preferred weekend sessions", "Most residents who worked during the day"], "answer": 1, "why": "Some residents requested evening sessions because they worked during the day 给出了数量和对象。第四项把 some 改成了 most。", "point": "scope"},
+    {"stem": "When were the brushes cleaned?", "options": ["Before the tables were covered", "Before the painting workshop began", "After the painting workshop ended", "After the next exhibition opened"], "answer": 2, "why": "After the workshop, the participants cleaned the brushes 明确先后顺序。", "point": "condition"},
+    {"stem": "Who returned the drawing boards on Friday?", "options": ["The students who had borrowed them", "The teachers who borrowed chairs", "The visitors who read the labels", "The staff who prepared the schedule"], "answer": 0, "why": "Students returned the boards on Friday 同时确定主体和时间。", "point": "condition"},
+    {"stem": "When did staff review the survey responses?", "options": ["Before the first workshop began", "Before the centre arranged the exhibition", "After teachers returned the drawing boards", "After the exhibition had closed"], "answer": 3, "why": "staff reviewed the survey responses after the exhibition closed 给出时间条件。", "point": "condition"}
+   ]}
+  ]}]}
+ ]
+}

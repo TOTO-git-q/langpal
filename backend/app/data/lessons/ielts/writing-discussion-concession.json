@@ -1,0 +1,52 @@
+{
+ "id": "writing-discussion-concession", "title": "让步与反驳", "goal": "能限定让步范围并以相关依据回应观点。", "skill": "写作", "exam": "雅思 IELTS Academic", "mastery": "once",
+ "points": [{"id": "concede", "label": "准确限定所承认的观点范围"}, {"id": "respond", "label": "用相关依据回应对方观点"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "让步与反驳的内容和教学规格"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "让步先承认对方观点在一定范围内成立，再用相关依据给出不同的判断。回应有三种方式：限定适用范围、举出反例、比较后果。"}, {"box": "Although online booking saves time for some users, a telephone option remains useful for people without internet access."}, {"p": "让步部分承认网上预约为一部分用户节省时间。主句指出，无法上网的人仍需要电话预约。"}]},
+  {"id": "scope", "type": "table", "title": "限定适用范围", "cols": ["承认的情况", "回应", "例句"], "rows": [
+   ["网络预约节省部分用户时间", "保留电话渠道", "Although online booking saves time for some users, telephone booking helps people without internet access."],
+   ["骑车适合短途", "远距离需要其他交通方式", "Although cycling suits short journeys, buses remain useful over longer distances."],
+   ["自习室适合安静阅读", "讨论活动需要另一空间", "Although quiet rooms suit individual reading, groups need a separate discussion space."],
+   ["电子账单便于部分用户保存", "纸质账单适合无法联网者", "Although digital bills are easy for some users to store, paper bills help people without internet access."]
+  ]},
+  {"id": "response", "type": "table", "title": "反例与后果", "cols": ["方式", "承认与回应", "例句"], "rows": [
+   ["反例", "承认商店通常便利，举出关闭时段", "Although local shops are convenient, a shop that closes early cannot serve late workers."],
+   ["反例", "承认通风可降温，举出无风情形", "Although ventilation can cool a room, an open window helps little when there is no breeze."],
+   ["反例", "承认纸张可保存信息，举出受潮情况", "Although paper records can last, flooding can destroy an unprotected archive."],
+   ["后果", "承认扩建方便停车，比较绿地损失", "Although a larger car park adds spaces, it also removes land used for recreation."],
+   ["后果", "承认自动回复迅速，比较复杂问题未解决", "Although automatic replies arrive quickly, complex enquiries may remain unanswered."],
+   ["后果", "承认延长开放增加时间，比较额外人员费用", "Although longer opening hours increase access, they also require additional staffing."]
+  ]},
+  {"id": "grammar", "type": "table", "title": "让步结构", "cols": ["结构", "形式", "例句"], "rows": [
+   ["although", "后接完整从句", "Although buses are frequent, some residents need a later service."],
+   ["despite", "后接名词短语", "Despite frequent buses, some residents need a later service."],
+   ["despite", "后接动名词", "Despite running frequently, the buses stop early."],
+   ["从句位置", "句首从句后用逗号", "Although the service is frequent, it stops early."]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["concede", "respond"], "groups": [{"items": [
+   {"stem": "Online booking saves time for some users, but some people cannot connect. Which concession preserves the stated scope?", "options": ["Although online booking saves time for some users, a telephone option helps those without access.", "Although online booking saves time for every user, a telephone option helps those without internet access.", "Although telephone booking saves time for some users, online booking helps those without access.", "Although online booking saves time for some users, everyone can still book online."], "answer": 0, "why": "some users 保留了题面限定的人群，电话渠道回应 some people cannot connect，即第一项。第二项把 some 扩大成了 every。", "point": "concede"},
+   {"stem": "Cycling works for short trips. Which response limits that claim with a relevant condition?", "options": ["Cycling also suits long journeys, so buses are unnecessary.", "Buses can remain useful for longer journeys.", "Every journey can be completed only by bicycle.", "Cycling has no use for short journeys."], "answer": 1, "why": "骑车适合短途。第二项指出长途仍需要公交，限定了骑车的适用范围。", "point": "respond"},
+   {"stem": "A larger car park adds spaces but removes a recreation area. Which sentence compares these consequences?", "options": ["A car park adds spaces and therefore creates a recreation area for local residents.", "A car park removes spaces while adding a recreation area.", "Although a larger car park adds spaces, it removes recreational land.", "Although recreation land adds spaces, it retains the car park."], "answer": 2, "why": "增加车位和失去休闲用地是同一方案的两种后果，第三项用 although 把两者放进一句。", "point": "respond"},
+   {"stem": "Select the grammatical concession about frequent buses.", "options": ["Despite buses are frequent, the service stops early.", "Although frequent buses, the service stops early.", "Despite the buses are frequent, the service stops early.", "Although buses are frequent, the service stops early."], "answer": 3, "why": "although 后接完整从句 buses are frequent，句首从句后用逗号。", "point": "concede"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["concede", "respond"], "groups": [{"items": [
+   {"stem": "A shop is convenient during the day but closes before late workers finish. Which response provides a counterexample to unrestricted convenience?", "options": ["It is convenient for all workers at any time of day.", "Late workers cannot use it after its early closure.", "Its daytime convenience makes closure irrelevant.", "It serves late workers because it closes early."], "answer": 1, "why": "商店关门早，下班晚的人用不上。第二项给出这个反例，说明便利只在白天成立。", "point": "respond"},
+   {"stem": "Select the sentence that concedes frequent service using a noun phrase.", "options": ["Despite buses are frequent, the service ends early.", "Although frequent buses, the service ends early.", "Despite frequent buses, the service ends early.", "Although buses being frequent, the service ends early."], "answer": 2, "why": "despite 后接名词短语 frequent buses。", "point": "concede"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["concede", "respond"], "sets": [{"id": "set-a", "groups": [
+   {"text": "A council is considering a longer opening day for its library. Longer hours would help residents who work during the day, but staff would have to cover additional shifts. The council must compare access for these residents with the extra staffing required to keep the library open.", "items": [
+    {"stem": "Which sentence concedes the stated benefit without claiming it applies to everyone?", "options": ["Although longer hours help daytime workers, extra shifts require staff.", "Although longer hours help every resident equally, extra shifts require staff.", "Although staff need fewer shifts, every resident gains equal access.", "Although daytime workers need fewer shifts, the library closes earlier."], "answer": 0, "why": "题面的受益者是 residents who work during the day。第一项只承认 daytime workers 受益，主句指出需要额外人手。第二项把受益者扩大到每个居民。", "point": "concede"},
+    {"stem": "Which response compares the relevant consequences?", "options": ["The library gains staff because it offers fewer shifts.", "More access for daytime workers requires additional staffing.", "The library loses opening hours while gaining access.", "Staffing requirements disappear when opening hours increase."], "answer": 1, "why": "题面给出两种后果：白天工作的居民有了使用机会，工作人员要多值班。第二项把这两种后果联系起来。", "point": "respond"},
+    {"stem": "Complete the concession using a noun phrase after despite.", "lead": "Despite", "chunks": ["the benefit", "to daytime workers,", "additional shifts", "require staff"], "tail": ".", "extra": ["benefits are"], "why": "despite 后接名词短语 the benefit to daytime workers，主句说明人手需求。", "point": "concede"},
+    {"stem": "Complete the response about the cost of longer opening.", "lead": "Longer opening", "chunks": ["also requires", "staff", "to cover", "additional shifts"], "tail": ".", "extra": ["requiring"], "why": "额外班次需要工作人员，是题面给出的相关后果。", "point": "respond"}
+   ]},
+   {"text": "A town is considering replacing printed bus timetables with an online service. Online information can be updated quickly when routes change. Some passengers, however, have no internet connection at a stop, so the council is also considering retaining a printed timetable there.", "items": [
+    {"stem": "Which sentence limits the online service with a relevant example?", "options": ["Although updates are quick, every passenger can view them online at a stop.", "Although some passengers lack access, online updates are slow when routes change.", "Although updates are quick, passengers without access cannot view them online.", "Although printed timetables can be updated quickly, passengers prefer the online service."], "answer": 2, "why": "题面说 some passengers have no internet connection at a stop。第三项承认更新快，再用这些乘客说明线上服务的局限。", "point": "respond"},
+    {"stem": "Which concession uses although with a complete clause?", "options": ["Although quick online updates, print remains useful.", "Although the quick updating, print remains useful.", "Although updating quickly, print remains useful to passengers.", "Although online information updates quickly, print remains useful."], "answer": 3, "why": "although 后的 online information updates quickly 是完整从句。", "point": "concede"},
+    {"stem": "Complete the sentence acknowledging the stated benefit of online information.", "lead": "Although", "chunks": ["online information", "can be updated", "quickly when", "routes change"], "tail": ", some passengers cannot access it.", "extra": ["updating"], "why": "although 后的从句承认路线变动时更新迅速。", "point": "concede"},
+    {"stem": "Complete a response relevant to passengers without a connection.", "lead": "A printed timetable", "chunks": ["remains useful", "to passengers", "without", "internet access"], "tail": ".", "extra": ["remaining"], "why": "纸质时刻表可供无法联网的乘客使用。", "point": "respond"}
+   ]}
+  ]}]} 
+ ]
+}

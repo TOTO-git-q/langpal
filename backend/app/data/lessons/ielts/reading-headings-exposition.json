@@ -1,0 +1,72 @@
+{
+ "id": "reading-headings-exposition",
+ "title": "说明文的段落组织",
+ "goal": "辨认说明段的组织方式，区分中心意思与支持细节。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "structure", "label": "辨认说明段的组织方式"},
+  {"id": "hierarchy", "label": "区分中心意思与支持细节"}
+ ],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "说明文的段落组织：内容与知识点"}],
+ "cards": [
+  {"id": "structure", "type": "table", "title": "结构", "cols": ["组织方式", "内容", "例"], "rows": [
+   ["定义与分类", "解释概念，再区分种类", "A catalogue is a list of items. It may be arranged by author or by subject."],
+   ["定义与分类", "界定对象，再列出形式", "A container holds material. It may be a box or a jar."],
+   ["现象与解释", "描述现象，再说明原因", "The room became cooler because shade blocked direct sunlight."],
+   ["现象与解释", "描述变化，再解释机制", "The cloth dried slowly as moist air reduced evaporation."],
+   ["问题与解决", "提出困难，再介绍办法", "The path flooded. A raised walkway kept it usable."],
+   ["问题与解决", "描述限制，再说明应对", "The room was crowded, so staff moved some tables elsewhere."]
+  ]},
+  {"id": "expressions", "type": "table", "title": "常用表达", "cols": ["表达", "功能", "例"], "rows": [
+   ["is defined as", "引出定义", "A sample is defined as a portion selected for study."],
+   ["can be divided into", "引出分类", "The records can be divided into written and visual material."],
+   ["because", "引出原因", "The paper curled because it absorbed moisture."],
+   ["as a result", "引出结果", "The surface dried; as a result, it became harder."],
+   ["to address this", "引出解决办法", "To address this problem, staff added a cover."],
+   ["however", "引出转折", "The room was spacious; however, its entrance was narrow."]
+  ]},
+  {"id": "hierarchy", "type": "table", "title": "段落层级", "cols": ["层级", "作用", "例"], "rows": [
+   ["中心句", "概括全段的主要意思", "The archive uses several methods to protect paper."],
+   ["解释句", "说明中心意思的内容或原因", "Staff control humidity and limit handling."],
+   ["例句", "给出解释句所说的具体情况", "For example, fragile letters are placed in sleeves."],
+   ["转折后重点", "修正段首的看法，指出真正的重点", "The shelves are new. However, their adjustable height is their main advantage."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "At first the river appeared to be the main obstacle to travel. However, the steep ground beyond it caused greater delays. Routes were therefore altered to avoid the steepest slopes, although they still crossed the river."},
+   {"box": "Choose the heading.\n1. A route change in response to steep ground\n2. A plan to avoid every river crossing\n3. The river as the main obstacle to travel\n4. The role of the river in changing the route"},
+   {"p": "however 修正了段首的看法：更大的障碍是陡坡。段末说明路线因此改道。第一项概括了困难和应对。第二项与 they still crossed the river 相反。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "常见错误", "cols": ["情况", "例", "原因"], "rows": [
+   ["例子代替中心", "Fragile letters", "保护套只是保护纸张的一种措施。"],
+   ["沿用段首", "The river as the main obstacle", "转折后指出陡坡是更大的障碍。"],
+   ["混淆原因与办法", "The cause of the crowd", "移走桌子是应对拥挤的办法。"],
+   ["扩大分类范围", "Every type of record", "该段只提到书面和视觉两类材料。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一　段落结构", "points": ["structure", "hierarchy"], "groups": [
+   {"look": "passage", "text": "A collection is a group of related objects. A collection may be organised by date or by place of origin.", "items": [{"stem": "How is the paragraph organised?", "options": ["A definition followed by types of organisation", "Ways of organising followed by a definition", "A problem of organisation followed by a solution", "An observation followed by its physical cause"], "answer": 0, "why": "首句 A collection is a group of related objects 是定义，后一句说可以按日期或来源地组织，即第一项。第二项把顺序颠倒了。", "point": "structure"}]},
+   {"look": "passage", "text": "The floor became slippery when water entered through the doorway. A raised strip now keeps most water outside.", "items": [{"stem": "How is the paragraph organised?", "options": ["A phenomenon followed by an explanation of its cause", "A problem followed by a practical response to it", "A response followed by the problem it caused", "A classification of floors followed by an example"], "answer": 1, "why": "首句说水进门后地面湿滑，这是问题。A raised strip now keeps most water outside 是应对办法，即第二项。", "point": "structure"}]},
+   {"look": "passage", "text": "The workshop recycles several materials. For example, it turns offcuts of wood into small shelves.", "items": [{"stem": "What is the role of the shelves?", "options": ["They define all forms of recycling used in the workshop.", "They state the main point of the paragraph.", "They illustrate one use of recycled material.", "They contradict the recycling of offcuts."], "answer": 2, "why": "For example 后面的 shelves 是回收利用的一个例子，即第三项。全段的中心是首句 recycles several materials。", "point": "hierarchy"}]},
+   {"look": "passage", "text": "The bridge looks narrow. However, its most significant feature is the flexible joint that allows it to move in strong winds.", "items": [{"stem": "What is the paragraph's main focus?", "options": ["The narrow design of every similar bridge", "The narrow appearance of the bridge", "How strong winds damage narrow bridges", "The role of the bridge's flexible joint"], "answer": 3, "why": "however 后面指出 its most significant feature is the flexible joint，即第四项。第二项是段首被修正的看法。", "point": "hierarchy"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二　说明段", "points": ["structure", "hierarchy"], "groups": [
+   {"look": "passage", "text": "A. A reading room is a space set aside for consulting material. Some reading rooms provide open shelves, while others require staff to fetch items from storage. Both arrangements give readers a place to examine documents.\n\nB. The room initially seemed too small for group work. However, the main difficulty was the arrangement of its tables. Staff moved the tables into separate groups, creating space for discussion while keeping a clear path to the shelves.", "items": [
+    {"stem": "What is the organisation of paragraph A?", "options": ["A problem with the reading room followed by a repair", "A definition followed by two kinds of arrangement", "A definition followed by an example of one room", "A comparison showing one arrangement is better"], "answer": 1, "why": "首句是阅览室的定义，后一句用 while 区分开放书架和由工作人员取件两种安排，即第二项。末句说两种安排都能用，没有比较优劣。", "point": "structure"},
+    {"stem": "What is the main focus of paragraph B?", "options": ["The small size of the room for group work", "A clear path kept to the shelves", "Rearranging tables to allow group work", "The removal of shelves to enlarge the room"], "answer": 2, "why": "However 后指出真正的困难是桌子的摆放。工作人员把桌子分组，腾出了讨论的空间，即第三项。第一项是段首被修正的看法。", "point": "hierarchy"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["structure", "hierarchy"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A. A collection catalogue is an organised record of items held by an institution. Catalogues can be arranged in several ways. A catalogue organised by creator brings together works made by the same person, while a subject catalogue groups items according to what they concern. The choice depends on the kind of search the catalogue is intended to support. A digital catalogue may allow the same item to be found in both ways without keeping two separate physical lists. The organisation of information is therefore distinct from the material on which the record is stored.\n\nB. Staff at a small collection found that visitors often missed useful items because they searched only for exact titles. Some historical documents had titles that gave little indication of their content. To address this problem, staff added short subject descriptions to catalogue entries. A visitor searching for transport, for example, could then find a diary whose title contained only its author's name. The new descriptions did not replace the titles. They provided an additional route to material that might otherwise remain difficult to discover. Staff checked the descriptions against the items before adding them.\n\nC. At first, the new catalogue seemed most valuable because it reduced the amount of paper used for lists. However, its main contribution was to make the collection easier to search from different starting points. Visitors could search by place, subject or creator and compare the resulting entries. Staff retained printed lists for use when computers were unavailable. The catalogue therefore supplemented those lists while expanding the ways in which readers could locate material.", "items": [
+    {"stem": "How is paragraph A organised?", "options": ["A definition followed by ways of organising records", "A comparison showing creator catalogues are better", "A problem with exact-title searches and its solution", "A definition followed by the history of digital catalogues"], "answer": 0, "why": "首句是目录的定义，后面说明按 creator 和按 subject 两种编排方式，即第一项。第三项是第二段的内容。", "point": "structure"},
+    {"stem": "What is the main focus of paragraph B?", "options": ["A plan to remove inaccurate titles from the collection catalogue", "A way of improving searches through subject descriptions", "A diary that could be found by its author's name", "The replacement of titles by subject descriptions"], "answer": 1, "why": "段首的困难是只按标题检索会漏掉材料。To address this problem 后面的办法是加主题描述，即第二项。第四项与 did not replace the titles 相反。", "point": "structure"},
+    {"stem": "What is the main point of paragraph C?", "options": ["Printed lists were replaced by the new catalogue.", "The catalogue's most important benefit is the reduction in paper used for lists.", "The catalogue lets readers search from different starting points.", "Visitors can search only by the creator of an item."], "answer": 2, "why": "However 后面的 its main contribution was to make the collection easier to search from different starting points 是重点，即第三项。第二项是转折前被修正的看法。", "point": "hierarchy"}
+   ]},
+   {"look": "passage", "text": "A. Insulation is material used to slow the transfer of heat. It can be placed in different parts of a building, including walls and roofs. The choice of material depends on the space available and on how the building is used. A layer inside a roof and a layer inside a wall perform the same broad function, although their shapes and installation methods may differ. Good installation also requires attention to gaps, since heat can pass through areas that remain uncovered.\n\nB. A meeting room was consistently colder near its windows than near its interior wall. Part of the explanation was that cold glass cooled the air next to it. As the cooled air moved downwards, warmer air took its place. This movement made the area close to the windows feel cooler. Staff observed the pattern at several positions in the room instead of relying on a single measurement. The pattern concerned a difference within the room, rather than a comparison between separate buildings.\n\nC. The room had large windows and received plenty of daylight. However, light was not the reason for changing the window coverings. Staff wanted to reduce heat loss in the evening, when the room was still used but daylight was no longer needed. They fitted a covering that could be drawn after dark and opened again in the morning. The same windows continued to admit daylight during the day. The change addressed the timing of heat loss while preserving the existing source of natural light. Staff can adjust the covering as needed.", "items": [
+    {"stem": "How is paragraph A organised?", "options": ["A definition followed by a single installation method", "A phenomenon of heat loss followed by its cause", "A comparison showing roofs need more insulation", "A definition followed by examples of its placement"], "answer": 3, "why": "首句是 insulation 的定义，后面用 walls and roofs 举出放置的位置，即第四项。第一项与 installation methods may differ 不符。", "point": "structure"},
+    {"stem": "What is the function of the air movement in paragraph B?", "options": ["It explains why the area near the window feels cooler.", "It is the single measurement the staff relied on.", "It shows that cold glass warms the air next to it.", "It compares the temperatures of separate buildings."], "answer": 0, "why": "冷空气下沉、暖空气补上，这个过程解释了窗边为什么更冷，即第一项。第三项把 cold glass cooled the air 说反了。", "point": "hierarchy"},
+    {"stem": "What is the main focus of paragraph C?", "options": ["Reducing the amount of daylight throughout the entire day", "Reducing evening heat loss with a movable covering", "Using the large windows to admit more daylight", "Keeping the room warm throughout the whole day"], "answer": 1, "why": "However 后说明换窗帘不是因为光线，而是为了 reduce heat loss in the evening，即第二项。第三项沿用了段首的内容。", "point": "hierarchy"}
+   ]}
+  ]}]}
+ ]
+}

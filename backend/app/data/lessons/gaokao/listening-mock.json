@@ -1,0 +1,578 @@
+{
+ "id": "listening-mock",
+ "title": "听力模拟测试",
+ "goal": "综合判断短对话和较长材料中的信息。",
+ "skill": "听力",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "short",
+   "label": "完成短对话的信息判断"
+  },
+  {
+   "id": "long",
+   "label": "完成较长对话与独白的信息判断"
+  }
+ ],
+ "sources": [
+  {
+   "id": "g2",
+   "title": "2024英语新课标适应性测试 — 第1页",
+   "url": "https://www.neea.edu.cn/res/Home/2401/24010498.jpg",
+   "used": "第一节录音段数、播放次数和选项数"
+  },
+  {
+   "id": "g3",
+   "title": "2024英语新课标适应性测试 — 第2页",
+   "url": "https://www.neea.edu.cn/res/Home/2401/24010500.jpg",
+   "used": "第二节录音段数、播放次数和选项数"
+  },
+  {
+   "id": "syllabus",
+   "title": "高考英语（新课标卷）：课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "课程模拟测试的题量和训练设置"
+  }
+ ],
+ "cards": [
+  {
+   "id": "instructions",
+   "type": "text",
+   "title": "说明",
+   "body": [
+    {
+     "p": "2024 年适应性测试的听力分两节。第一节是 5 段短对话，每段播放 1 遍。第二节是 5 段较长的对话或独白，每段播放 2 遍。两节共 20 题，样卷每题 3 个选项。"
+    },
+    {
+     "p": "本课程的模拟测试每题 4 个选项，限时 19 分钟，答对七成为通过。以上为本课程的建议，不是官方规定。"
+    }
+   ],
+   "src": "G2 适应性测试第1页；G3 适应性测试第2页"
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 19,
+   "pass": 0.7,
+   "points": [
+    "short",
+    "long"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation between Lily and Omar.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Are we meeting at the station at nine for the boat trip?"
+         },
+         {
+          "who": "B",
+          "text": "The boat leaves at nine. Let's meet at the station at eight thirty so we have time to walk to the river."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "When will Lily and Omar meet?",
+         "options": [
+          "At eight by the river.",
+          "At eight thirty at the station.",
+          "At nine at the station.",
+          "At nine thirty on the boat."
+         ],
+         "answer": 1,
+         "why": "Let's meet at the station at eight thirty 指明集合时间；九点是开船时间。",
+         "point": "short"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation between Mina and Joel.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I thought the science fair was in the library. Why are you taking the posters to the gym?"
+         },
+         {
+          "who": "B",
+          "text": "The library is being painted, so the fair moved. The posters will go beside the gym entrance."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why was the fair moved?",
+         "options": [
+          "The gym entrance needs painting.",
+          "The posters are too large for the gym.",
+          "The library is being painted.",
+          "The gym entrance has room for posters."
+         ],
+         "answer": 2,
+         "why": "The library is being painted, so the fair moved 给出变更原因。",
+         "point": "short"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation between Nora and Eli.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The fruit stall has apples and pears today. I bought apples yesterday, so I'll get some pears for the picnic."
+         },
+         {
+          "who": "B",
+          "text": "I'll take the apples for my family. Shall I carry your pears?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What will Nora buy for the picnic?",
+         "options": [
+          "Pears from the fruit stall.",
+          "Apples for Eli's family.",
+          "Apples from yesterday's picnic.",
+          "Pears for Eli's family."
+         ],
+         "answer": 0,
+         "why": "I'll get some pears for the picnic 指出 Nora 这次要买的水果。",
+         "point": "short"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation between Tariq and Mei.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Did you finish the poster for the music club, Mei? The meeting is tomorrow."
+         },
+         {
+          "who": "B",
+          "text": "The drawing is ready, but I still need to add the meeting time. I'll do that tonight before I print it."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What will Mei do tonight?",
+         "options": [
+          "Draw a new music club poster.",
+          "Hold the club meeting early.",
+          "Print the poster without a time.",
+          "Add the meeting time to the poster."
+         ],
+         "answer": 3,
+         "why": "still need to add the meeting time 和 I'll do that tonight 指出今晚的行动。",
+         "point": "short"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The blue notebook costs six dollars and the green one costs four. Both have the same number of pages."
+         },
+         {
+          "who": "B",
+          "text": "I'll take the green one. I like blue, but I'd rather spend less."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why does the customer choose the green notebook?",
+         "options": [
+          "It contains more pages.",
+          "It costs less money.",
+          "It has a blue cover.",
+          "It is the customer's favorite color."
+         ],
+         "answer": 1,
+         "why": "I'd rather spend less 说明顾客选择较便宜的绿色笔记本。",
+         "point": "short"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation between Ella and Martin.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'm arranging a visit to the town observatory for the science club. We wanted to go on Friday, but the guide is teaching that evening. She's available on Thursday instead. Could you ask the members whether that works?"
+         },
+         {
+          "who": "B",
+          "text": "Certainly. How many people can join the visit?"
+         },
+         {
+          "who": "A",
+          "text": "The guide can take twenty. We already have sixteen names. The visit begins at seven, and the guide will first explain the equipment indoors. After that we'll go outside if the sky is clear. If it's cloudy, she'll show us photographs taken on other evenings."
+         },
+         {
+          "who": "B",
+          "text": "I'll tell everyone about Thursday and the limit. Shall we meet at school first?"
+         },
+         {
+          "who": "A",
+          "text": "Yes, at six thirty. I'll book the bus once the members confirm. Please ask them to reply by Tuesday."
+         },
+         {
+          "who": "A",
+          "text": "I'm arranging a visit to the town observatory for the science club. We wanted to go on Friday, but the guide is teaching that evening. She's available on Thursday instead. Could you ask the members whether that works?"
+         },
+         {
+          "who": "B",
+          "text": "Certainly. How many people can join the visit?"
+         },
+         {
+          "who": "A",
+          "text": "The guide can take twenty. We already have sixteen names. The visit begins at seven, and the guide will first explain the equipment indoors. After that we'll go outside if the sky is clear. If it's cloudy, she'll show us photographs taken on other evenings."
+         },
+         {
+          "who": "B",
+          "text": "I'll tell everyone about Thursday and the limit. Shall we meet at school first?"
+         },
+         {
+          "who": "A",
+          "text": "Yes, at six thirty. I'll book the bus once the members confirm. Please ask them to reply by Tuesday."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why is Thursday being considered for the visit?",
+         "options": [
+          "The observatory closes on Friday.",
+          "The guide is free on Thursday.",
+          "The members meet at school on Friday.",
+          "The bus is booked on Thursday."
+         ],
+         "answer": 1,
+         "why": "the guide is teaching that evening 和 available on Thursday 说明改选周四的原因。",
+         "point": "long"
+        },
+        {
+         "stem": "What will the guide do if the sky is cloudy?",
+         "options": [
+          "Explain the equipment outside.",
+          "Move the visit to another evening.",
+          "Show photographs from other evenings.",
+          "Ask the club to book a second bus."
+         ],
+         "answer": 2,
+         "why": "If it's cloudy, she'll show us photographs taken on other evenings 给出阴天安排。",
+         "point": "long"
+        },
+        {
+         "stem": "What will Ella arrange after members confirm?",
+         "options": [
+          "The bus for the club visit.",
+          "The guide's Friday lesson.",
+          "The photographs of the sky.",
+          "The club's Tuesday reply."
+         ],
+         "answer": 0,
+         "why": "I'll book the bus once the members confirm 指出 Ella 确认后的行动。",
+         "point": "long"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a talk.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Good morning, visitors. This is an announcement about the craft museum. The main entrance is closed today while its steps are repaired. Please enter through the side door beside the café. The museum opens at ten, and the first guided tour starts at eleven in the entrance room. The tour includes the weaving gallery and the pottery room. Everyone except children under seven needs a ticket; tickets are available at the side desk. If you want to join the afternoon weaving workshop, please reserve a place at that desk before noon. The workshop begins at two, and materials are provided. Photography is welcome in the galleries, but please ask before photographing a workshop participant. The café will remain open until four. We hope you enjoy learning about the objects and the people who made them."
+         },
+         {
+          "who": "A",
+          "text": "Good morning, visitors. This is an announcement about the craft museum. The main entrance is closed today while its steps are repaired. Please enter through the side door beside the café. The museum opens at ten, and the first guided tour starts at eleven in the entrance room. The tour includes the weaving gallery and the pottery room. Everyone except children under seven needs a ticket; tickets are available at the side desk. If you want to join the afternoon weaving workshop, please reserve a place at that desk before noon. The workshop begins at two, and materials are provided. Photography is welcome in the galleries, but please ask before photographing a workshop participant. The café will remain open until four. We hope you enjoy learning about the objects and the people who made them."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Where should visitors enter the museum today?",
+         "options": [
+          "Through the main entrance steps.",
+          "Through the weaving gallery door.",
+          "Through the pottery room entrance.",
+          "Through the side door by the café."
+         ],
+         "answer": 3,
+         "why": "Please enter through the side door beside the café 指出临时入口。",
+         "point": "long"
+        },
+        {
+         "stem": "Who does not need a ticket?",
+         "options": [
+          "Anyone joining the first guided tour.",
+          "Children who are under seven.",
+          "Visitors attending the weaving workshop.",
+          "People entering through the side door."
+         ],
+         "answer": 1,
+         "why": "Everyone except children under seven needs a ticket 指出免票对象。",
+         "point": "long"
+        },
+        {
+         "stem": "What must workshop participants do before noon?",
+         "options": [
+          "Reserve a place at the side desk.",
+          "Collect their pottery from the café.",
+          "Finish the first guided museum tour.",
+          "Photograph the weaving participants."
+         ],
+         "answer": 0,
+         "why": "reserve a place at that desk before noon 说明工作坊的预订期限。",
+         "point": "long"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Today we welcome Ben, who builds small boats. Ben, did you learn to build them at school?"
+         },
+         {
+          "who": "B",
+          "text": "No. I used to sail with my aunt when I was young. At first I only helped her clean her boat. Later she showed me how to repair a wooden seat, and I became curious about how the whole boat was made."
+         },
+         {
+          "who": "A",
+          "text": "How did you learn the rest?"
+         },
+         {
+          "who": "B",
+          "text": "I joined a class at the harbor. We worked in pairs, and eventually my partner and I finished a small boat. It took longer than we expected because we had to wait for the wood. I now help teach that same class on weekends."
+         },
+         {
+          "who": "A",
+          "text": "What will you do next?"
+         },
+         {
+          "who": "B",
+          "text": "I plan to build a boat with my aunt this summer. We'll use it on the lake where we used to sail."
+         },
+         {
+          "who": "A",
+          "text": "Today we welcome Ben, who builds small boats. Ben, did you learn to build them at school?"
+         },
+         {
+          "who": "B",
+          "text": "No. I used to sail with my aunt when I was young. At first I only helped her clean her boat. Later she showed me how to repair a wooden seat, and I became curious about how the whole boat was made."
+         },
+         {
+          "who": "A",
+          "text": "How did you learn the rest?"
+         },
+         {
+          "who": "B",
+          "text": "I joined a class at the harbor. We worked in pairs, and eventually my partner and I finished a small boat. It took longer than we expected because we had to wait for the wood. I now help teach that same class on weekends."
+         },
+         {
+          "who": "A",
+          "text": "What will you do next?"
+         },
+         {
+          "who": "B",
+          "text": "I plan to build a boat with my aunt this summer. We'll use it on the lake where we used to sail."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What did Ben do at first with his aunt's boat?",
+         "options": [
+          "He built a new boat at school.",
+          "He repaired the wooden seat.",
+          "He helped clean the boat.",
+          "He taught a class at the harbor."
+         ],
+         "answer": 2,
+         "why": "At first I only helped her clean her boat 指明最初的活动。",
+         "point": "long"
+        },
+        {
+         "stem": "Why did Ben's class project take longer than expected?",
+         "options": [
+          "The pair had to wait for wood.",
+          "His aunt was teaching the class.",
+          "They could work only on weekends.",
+          "The pair could meet only at school."
+         ],
+         "answer": 0,
+         "why": "because we had to wait for the wood 说明项目耗时较长的原因。",
+         "point": "long"
+        },
+        {
+         "stem": "What does Ben plan to do this summer?",
+         "options": [
+          "Clean the harbor classroom alone.",
+          "Build a boat with his aunt.",
+          "Teach his aunt to repair a seat.",
+          "Sail on the lake with his class."
+         ],
+         "answer": 1,
+         "why": "I plan to build a boat with my aunt this summer 给出未来计划。",
+         "point": "long"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a talk.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Last year I joined a team making a walking guide for our town. Before joining, I had visited the park and the market many times, but I knew little about the old railway path. At first I was asked to check distances between landmarks. I walked each route with a map and wrote down the time it took. One path was blocked by building work, so I suggested a route through the gardens instead. Later another team member checked that the garden gates would be open during the day. We added the new route to the guide and marked a place to rest near the pond. Finally we asked local walkers to try it. Their comments helped us make the directions clearer. I now notice details on walks that I used to pass without thinking about them."
+         },
+         {
+          "who": "A",
+          "text": "Last year I joined a team making a walking guide for our town. Before joining, I had visited the park and the market many times, but I knew little about the old railway path. At first I was asked to check distances between landmarks. I walked each route with a map and wrote down the time it took. One path was blocked by building work, so I suggested a route through the gardens instead. Later another team member checked that the garden gates would be open during the day. We added the new route to the guide and marked a place to rest near the pond. Finally we asked local walkers to try it. Their comments helped us make the directions clearer. I now notice details on walks that I used to pass without thinking about them."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What was the speaker asked to check at first?",
+         "options": [
+          "The opening hours of the market.",
+          "The distances between landmarks.",
+          "The building work beside the pond.",
+          "The comments on the finished guide."
+         ],
+         "answer": 1,
+         "why": "At first I was asked to check distances between landmarks 说明最初的任务。",
+         "point": "long"
+        },
+        {
+         "stem": "Why did the speaker suggest a garden route?",
+         "options": [
+          "The railway path was newly opened.",
+          "The pond needed a place to rest.",
+          "Another path was blocked by building work.",
+          "The market had closed for the day."
+         ],
+         "answer": 2,
+         "why": "One path was blocked by building work, so I suggested a route through the gardens 给出替代路线的原因。",
+         "point": "long"
+        },
+        {
+         "stem": "What did the team do after adding the new route?",
+         "options": [
+          "Asked local walkers to try the guide.",
+          "Closed the garden gates for the day.",
+          "Removed the place to rest near the pond.",
+          "Started building work on the old path."
+         ],
+         "answer": 0,
+         "why": "We added the new route 后接 Finally we asked local walkers to try it，说明后续行动。",
+         "point": "long"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation with Rosa.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Have you read the plans for the new community kitchen, Dev? The organizers want people to share recipes and cook together there. My brother thinks the kitchen should open every evening, but I think three evenings a week would give volunteers enough time to prepare."
+         },
+         {
+          "who": "B",
+          "text": "Three evenings sounds reasonable. I'm satisfied with the proposed location because it's near the bus stop. However, I'm concerned that the tables in the drawing are too close together. People will need space to carry dishes safely."
+         },
+         {
+          "who": "A",
+          "text": "I agree. The organizers are holding a meeting on Monday, so I'll ask whether they can change the table arrangement. I also like their idea of keeping a book where visitors can write down recipes."
+         },
+         {
+          "who": "B",
+          "text": "Me too. I'll come to the meeting and ask how volunteers can sign up. I can help on Wednesdays after work."
+         },
+         {
+          "who": "A",
+          "text": "Have you read the plans for the new community kitchen, Dev? The organizers want people to share recipes and cook together there. My brother thinks the kitchen should open every evening, but I think three evenings a week would give volunteers enough time to prepare."
+         },
+         {
+          "who": "B",
+          "text": "Three evenings sounds reasonable. I'm satisfied with the proposed location because it's near the bus stop. However, I'm concerned that the tables in the drawing are too close together. People will need space to carry dishes safely."
+         },
+         {
+          "who": "A",
+          "text": "I agree. The organizers are holding a meeting on Monday, so I'll ask whether they can change the table arrangement. I also like their idea of keeping a book where visitors can write down recipes."
+         },
+         {
+          "who": "B",
+          "text": "Me too. I'll come to the meeting and ask how volunteers can sign up. I can help on Wednesdays after work."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Who thinks the kitchen should open every evening?",
+         "options": [
+          "Rosa, who prefers three evenings.",
+          "Dev, who is free on Wednesdays.",
+          "The organizers, who proposed the book.",
+          "Rosa's brother, according to Rosa."
+         ],
+         "answer": 3,
+         "why": "My brother thinks the kitchen should open every evening 将该观点归给 Rosa 的哥哥。",
+         "point": "long"
+        },
+        {
+         "stem": "What concerns Dev about the kitchen plan?",
+         "options": [
+          "The bus stop is too far away.",
+          "The tables may be too close together.",
+          "The kitchen has no recipe book.",
+          "The meeting is on a Wednesday."
+         ],
+         "answer": 1,
+         "why": "I'm concerned that the tables in the drawing are too close together 表明 Dev 担心桌子间距。",
+         "point": "long"
+        },
+        {
+         "stem": "What will Rosa ask at the meeting?",
+         "options": [
+          "Whether the tables can be rearranged.",
+          "Whether the bus stop can be moved.",
+          "Whether the kitchen can close every evening.",
+          "Whether Dev can write a recipe book."
+         ],
+         "answer": 0,
+         "why": "I'll ask whether they can change the table arrangement 说明 Rosa 的提问计划。",
+         "point": "long"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

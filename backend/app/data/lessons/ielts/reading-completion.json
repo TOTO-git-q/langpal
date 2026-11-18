@@ -1,0 +1,192 @@
+{
+  "id": "reading-completion",
+  "title": "摘要、笔记、表格与流程填空　Summary/note/table/flow chart completion · 练习",
+  "goal": "依据原文补全摘要、笔记、表格或流程图中的空格。",
+  "skill": "阅读",
+  "exam": "雅思 IELTS Academic",
+  "points": [
+    {
+      "id": "scope",
+      "label": "定位摘要所对应的原文范围"
+    },
+    {
+      "id": "align",
+      "label": "核对结构化信息的对应关系"
+    },
+    {
+      "id": "sequence",
+      "label": "还原流程步骤关系"
+    }
+  ],
+  "sources": [
+    {
+      "id": "i2",
+      "title": "IELTS Academic: Reading test format",
+      "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+      "used": "阅读材料与题型"
+    },
+    {
+      "id": "syllabus",
+      "title": "雅思 IELTS Academic：课表",
+      "url": "docs/syllabi/ielts.md",
+      "used": "练习尺寸与知识点"
+    }
+  ],
+  "cards": [
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "小测",
+      "minutes": 12,
+      "pass": 0.75,
+      "points": [
+        "scope",
+        "align",
+        "sequence"
+      ],
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "label": "Complete the task below the passage. Write ONE WORD ONLY from the passage for each answer.",
+              "look": "passage",
+              "text": "How Sand Dunes Grow\n\nSand dunes form along coasts where there is a plentiful supply of sand and a strong onshore wind. At low tide, large areas of beach are exposed to the air. As the surface dries, the wind picks up loose grains and carries them inland, bouncing them along the ground. The grains are light enough to be moved easily but too heavy to be lifted high into the air. When the moving sand meets an obstacle, such as a line of seaweed, a piece of driftwood or a small plant, the wind slows down and drops some of its load. A small heap of sand builds up on the sheltered side of the obstacle, and if conditions remain favourable, the heap continues to grow.\n\nThese first low mounds, known as embryo dunes, are fragile. They lie close to the sea and may be washed away by a high tide or a storm. A few plants are able to survive here, tolerating salt spray and occasional flooding by sea water. Their stems and leaves slow the wind further and trap more sand, so that the dune gradually rises above the reach of most tides.\n\nOnce a dune has grown a little higher, a different plant takes over. Marram grass is particularly well suited to life on young dunes. Most plants are harmed if they are covered by sand, but marram grows more vigorously when it is buried, pushing new shoots upwards through each fresh layer. As it does so, the dune grows with it, and dunes dominated by marram can reach a considerable height. Below the surface, the plant spreads by means of long roots and underground stems, which form a dense network that holds the loose sand together. Marram is also adapted to the dry conditions of an exposed dune. In dry weather, its leaves roll inwards, which reduces the area from which water is lost and protects the pores through which the plant breathes.\n\nAs dunes become more stable, they change in character. Plants that die and decay add organic matter to the sand, which begins to hold water and nutrients. A wider range of species can then grow, including mosses, lichens and low flowering plants. These older dunes, further from the sea, often look grey rather than yellow because of the cover of mosses and lichens, and the marram that built them becomes less common, since it no longer receives the fresh sand it needs to thrive. Further inland still, the oldest dunes may eventually be colonised by shrubs and trees.\n\nDunes are valuable to people as well as to wildlife. They act as a natural barrier between the sea and the land behind, absorbing the energy of storm waves and supplying sand to beaches that have been eroded. In some places they also protect farmland and buildings from flooding by the sea. They are also popular places for walking and recreation, and this can create problems. Where people walk repeatedly along the same route, the plants are crushed and eventually die. Without roots to hold it, the sand is exposed to the wind, which may scoop out a deep hollow in the side of the dune, known as a blowout. Once formed, a blowout can grow rapidly and may cut right through the dune.\n\nCoastal managers use several methods to repair such damage. One is to put up fences made of brushwood, which slow the wind and cause it to drop sand on the damaged area, much as a natural obstacle would. Another is to plant marram grass by hand on bare sand, so that its roots can begin to bind the surface again. To prevent further damage, managers often lay boardwalks across the dunes so that visitors keep to fixed routes rather than spreading out over the vegetation. These measures are most successful when combined, and when the supply of sand from the beach remains sufficient for the dunes to keep growing.\n\nSummary\nMarram grass is well suited to young dunes. Unlike most plants, it grows more strongly when it is (1) ______ by fresh sand, sending new shoots upwards through each layer. Its long roots and underground (2) ______ form a network that holds loose sand together. In dry weather its leaves (3) ______ inwards, reducing water loss. Repeated walking can kill dune plants, and the wind may then create a hollow called a (4) ______. Managers repair damage with fences made of (5) ______, which make the wind drop sand, and they lay (6) ______ so that visitors keep to fixed routes.",
+              "items": [
+                {
+                  "stem": "Gap (1): write ONE WORD ONLY from the passage.",
+                  "accept": [
+                    "buried"
+                  ],
+                  "why": "依据是 marram grows more vigorously when it is buried；空格在 is 之后，填过去分词 buried。",
+                  "point": "scope"
+                },
+                {
+                  "stem": "Gap (2): write ONE WORD ONLY from the passage.",
+                  "accept": [
+                    "stems"
+                  ],
+                  "why": "依据是 the plant spreads by means of long roots and underground stems，空格前有 underground，填复数 stems。",
+                  "point": "scope"
+                },
+                {
+                  "stem": "Gap (3): write ONE WORD ONLY from the passage.",
+                  "accept": [
+                    "roll"
+                  ],
+                  "why": "依据是 In dry weather, its leaves roll inwards；主语 its leaves 是复数，填 roll。",
+                  "point": "scope"
+                },
+                {
+                  "stem": "Gap (4): write ONE WORD ONLY from the passage.",
+                  "accept": [
+                    "blowout",
+                    "blow-out"
+                  ],
+                  "why": "依据是 the wind … may scoop out a deep hollow in the side of the dune, known as a blowout。",
+                  "point": "scope"
+                },
+                {
+                  "stem": "Gap (5): write ONE WORD ONLY from the passage.",
+                  "accept": [
+                    "brushwood"
+                  ],
+                  "why": "依据是 put up fences made of brushwood, which slow the wind and cause it to drop sand。",
+                  "point": "scope"
+                },
+                {
+                  "stem": "Gap (6): write ONE WORD ONLY from the passage.",
+                  "accept": [
+                    "boardwalks"
+                  ],
+                  "why": "依据是 managers often lay boardwalks across the dunes so that visitors keep to fixed routes；空格前没有冠词，填复数。",
+                  "point": "scope"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "label": "Complete the task below the passage. Write ONE WORD ONLY from the passage for each answer.",
+              "look": "passage",
+              "text": "Lime Mortar\n\nMortar is the material that fills the joints between bricks or stones and binds them into a wall. Today most new buildings use mortar made with cement, but for many centuries before cement became widely available, builders used lime. Many historic buildings in Britain, from cottages to cathedrals, are held together by lime mortar, and repairing them properly requires an understanding of how this material is made and how it behaves. The materials used in the original construction matter as much as the bricks and stones themselves.\n\nThe process begins with limestone, a rock formed largely from the shells and skeletons of tiny sea creatures. Chemically, limestone consists mostly of calcium carbonate. The quality of the lime depended partly on the purity of the stone, and builders often preferred stone from particular quarries. After it has been quarried, the rock is broken into pieces of a manageable size, which are then loaded into a kiln. Traditional lime kilns were stone structures, often built into a hillside so that they could be filled from the top, with an opening at the bottom where the burnt material could be raked out. Inside the kiln, the limestone was heated to a very high temperature, usually by burning layers of wood or coal between layers of stone.\n\nThe intense heat drives carbon dioxide out of the rock. What remains is quicklime, or calcium oxide, a white, crumbly substance that is far more reactive than the original stone. Quicklime must be handled with great care. When it comes into contact with water, it reacts violently, producing a great deal of heat and sometimes causing burns to skin and eyes. For this reason, workers at lime kilns traditionally avoided handling it with bare hands.\n\nThe next stage is slaking, in which water is deliberately added to the quicklime. The reaction produces slaked lime, also known as calcium hydroxide. If a large amount of water is used, the result is a soft, smooth paste called lime putty. Builders often stored this putty under a layer of water for weeks or even months before using it, since long storage was believed to improve its quality and make it easier to work.\n\nTo make mortar, the lime is mixed with sand, typically in a proportion of about one part lime to three parts sand, although the exact mixture varied with local practice and with the purpose of the work. The sand gives the mortar bulk and strength, while the lime binds the grains together. The mixture is then used to bed bricks or stones and to fill the joints between them.\n\nLime mortar does not set quickly in the way that cement does. Instead, it hardens slowly as it absorbs carbon dioxide from the air. This process, known as carbonation, gradually turns the calcium hydroxide back into calcium carbonate, so that the hardened mortar is chemically similar to the limestone from which it was made. Carbonation begins at the surface and works inwards, and in a thick wall it may continue for many years. Because the process needs air, mortar made from pure lime of this kind cannot harden under water, which made it unsuitable for work such as the foundations of bridges.\n\nThe properties of lime mortar explain why conservation specialists prefer it for repairing old buildings. It is softer than cement mortar and allows moisture to pass through it. In a wall built with lime, water that enters the structure can evaporate through the joints rather than through the bricks or stones themselves. When cement is used to repair such a wall, the harder joints may trap moisture, which then escapes through the older material, causing it to crumble. Lime mortar is therefore sometimes described as sacrificial: it is designed to wear away before the bricks or stones, and it can be renewed far more easily than they can. Its softness also means that old bricks can be cleaned and reused when a wall is taken down.\n\nFlow chart\nLimestone is quarried and broken into pieces\n↓\nThe pieces are heated in a (1) ______\n↓\nCarbon dioxide is driven off, leaving (2) ______\n↓\nWater is added to it in a stage called (3) ______\n↓\nWith plenty of water, a paste called lime (4) ______ is formed and stored\n↓\nThe lime is mixed with (5) ______ to make mortar\n↓\nThe mortar hardens slowly by absorbing carbon dioxide from the (6) ______",
+              "items": [
+                {
+                  "stem": "Gap (1): write ONE WORD ONLY from the passage.",
+                  "accept": [
+                    "kiln"
+                  ],
+                  "why": "依据是 the rock is broken into pieces … which are then loaded into a kiln，加热在石灰窑里进行。",
+                  "point": "sequence"
+                },
+                {
+                  "stem": "Gap (2): write ONE WORD ONLY from the passage.",
+                  "accept": [
+                    "quicklime"
+                  ],
+                  "why": "依据是 The intense heat drives carbon dioxide out of the rock. What remains is quicklime。",
+                  "point": "sequence"
+                },
+                {
+                  "stem": "Gap (3): write ONE WORD ONLY from the passage.",
+                  "accept": [
+                    "slaking"
+                  ],
+                  "why": "依据是 The next stage is slaking, in which water is deliberately added to the quicklime。",
+                  "point": "sequence"
+                },
+                {
+                  "stem": "Gap (4): write ONE WORD ONLY from the passage.",
+                  "accept": [
+                    "putty"
+                  ],
+                  "why": "依据是 If a large amount of water is used, the result is … lime putty；空格前已有 lime，只填 putty。",
+                  "point": "align"
+                },
+                {
+                  "stem": "Gap (5): write ONE WORD ONLY from the passage.",
+                  "accept": [
+                    "sand"
+                  ],
+                  "why": "依据是 To make mortar, the lime is mixed with sand。",
+                  "point": "align"
+                },
+                {
+                  "stem": "Gap (6): write ONE WORD ONLY from the passage.",
+                  "accept": [
+                    "air"
+                  ],
+                  "why": "依据是 it hardens slowly as it absorbs carbon dioxide from the air。",
+                  "point": "sequence"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "more": {
+        "kind": "completion",
+        "topics": [
+          "海岸沙丘",
+          "石灰砂浆",
+          "手工造纸",
+          "盐的生产",
+          "堆肥",
+          "玻璃回收",
+          "奶酪制作",
+          "蜂蜡蜡烛",
+          "雨水收集",
+          "泥炭沼泽",
+          "木炭烧制",
+          "羊毛加工"
+        ],
+        "also": [
+          "completion-bank"
+        ]
+      }
+    }
+  ]
+}

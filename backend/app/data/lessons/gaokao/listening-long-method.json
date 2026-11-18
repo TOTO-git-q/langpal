@@ -1,0 +1,388 @@
+{
+ "id": "listening-long-method",
+ "title": "较长材料的解题步骤",
+ "goal": "根据题干确定信息类别，按人物和事项核对录音依据。",
+ "skill": "听力",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "question",
+   "label": "根据题干确定待听的信息类别"
+  },
+  {
+   "id": "match",
+   "label": "按人物与事项对应录音证据"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语（新课标卷）：课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "较长材料的解题步骤及课程练习规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "type",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "较长材料的题目可能问主题、人物的行为、原因或条件。题干规定要听哪类信息，也规定是哪个人、哪件事。正确选项在这几点上都与题干一致。"
+    },
+    {
+     "box": "Why did Lena change the date? → Her guide was unavailable on Monday.\nWhat will Lena do? → She will call the guide."
+    },
+    {
+     "p": "第一问问的是改日期的原因，第二问问的是 Lena 要做的事。两条信息属于同一件事，分别回答不同的问题。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定信息类别",
+     "d": "看疑问词和谓语，确定要听什么。Why did Lena change the date? 要听的是改日期的原因。"
+    },
+    {
+     "t": "2　对应人物与事项",
+     "d": "把每件事和做这件事的人对应起来。Lena calls the guide; Tom books the room. 中，联系向导的是 Lena，订房间的是 Tom。"
+    },
+    {
+     "t": "3　核对完整依据",
+     "d": "拿选项和录音里的原话核对。Her guide was unavailable on Monday. 说的是向导周一没空，说成房间周一没空就错了。"
+    }
+   ]
+  },
+  {
+   "id": "categories",
+   "type": "table",
+   "title": "题干与信息类别",
+   "cols": [
+    "类别",
+    "题干",
+    "依据"
+   ],
+   "rows": [
+    [
+     "主题",
+     "What are they mainly discussing?",
+     "开头引出的事项和反复谈到的对象"
+    ],
+    [
+     "行为",
+     "What will Mia prepare?",
+     "Mia 说自己要做的事"
+    ],
+    [
+     "原因",
+     "Why was the meeting moved?",
+     "说明为什么改地点或时间的话"
+    ],
+    [
+     "条件",
+     "When can the group use the room?",
+     "能用房间要满足的条件"
+    ]
+   ],
+   "note": "主题题要概括整段。只提到一次的细节，要连同前后的话一起听。"
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Mia: The garden visit is now on Friday because the guide is away on Thursday. I'll bring the maps.\nOwen: I'll arrange the bus, then."
+    },
+    {
+     "box": "Why was the visit moved?\n1. The guide is unavailable on Thursday.\n2. Mia needs more time to draw maps.\n3. Owen cannot arrange the bus on Friday.\n4. The garden is closed on Friday."
+    },
+    {
+     "p": "题干问的是改期的原因。because the guide is away on Thursday 说明向导周四不在，与第一项对应。Mia 带地图和 Owen 安排车辆是另外两件事。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "人物替换",
+     "Owen will bring the maps.",
+     "录音中带地图的是 Mia。"
+    ],
+    [
+     "事件拼接",
+     "The bus was moved because the guide is away.",
+     "向导不在说明的是参观为什么改期。"
+    ],
+    [
+     "时间替换",
+     "The guide is away on Friday.",
+     "录音限定的是 Thursday。"
+    ],
+    [
+     "信息类别不符",
+     "Mia will bring the maps.",
+     "携带地图不是变更日期的原因。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "question",
+    "match"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation between Nina and Ben.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The pottery class has moved to the art room because the hall needs repairs. I'll tell the students."
+       },
+       {
+        "who": "B",
+        "text": "I'll put a notice on the hall door. The class will still begin at four."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why has the class moved?",
+       "options": [
+        "The students need a later start.",
+        "The hall is being repaired.",
+        "The art room needs repairs.",
+        "The notice is on the hall door."
+       ],
+       "answer": 1,
+       "why": "依据是 because the hall needs repairs。礼堂要维修，所以陶艺课换了教室，即第二项。",
+       "point": "question"
+      },
+      {
+       "stem": "What will Ben do?",
+       "options": [
+        "Inform the students personally.",
+        "Repair the art room door.",
+        "Change the class start time.",
+        "Post a notice at the hall."
+       ],
+       "answer": 3,
+       "why": "依据是 Ben 说的 I'll put a notice on the hall door。Ben 去礼堂门上贴通知，即第四项；通知学生的是 Nina。",
+       "point": "match"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "question",
+    "match"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation between Sara and Leo.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The book sale is on Saturday. We can use the courtyard only if the rain stops. Otherwise we'll set up inside the library."
+       },
+       {
+        "who": "B",
+        "text": "I'll carry the books. Can you make the signs?"
+       },
+       {
+        "who": "A",
+        "text": "Yes. I'll finish them on Friday, after I collect the paper."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "When can the sale take place in the courtyard?",
+       "options": [
+        "When the books are carried inside.",
+        "When the signs are finished Friday.",
+        "When the rain has stopped.",
+        "When the paper has been collected."
+       ],
+       "answer": 2,
+       "why": "依据是 We can use the courtyard only if the rain stops。雨停了才能用庭院，即第三项。",
+       "point": "question"
+      },
+      {
+       "stem": "What will Sara make?",
+       "options": [
+        "The signs for the book sale.",
+        "A list of the books for sale.",
+        "A plan to use the library.",
+        "The paper for the signs."
+       ],
+       "answer": 0,
+       "why": "依据是 Leo 问 Can you make the signs?，Sara 回答 Yes。做标牌的是 Sara，即第一项；纸是她要去取的材料。",
+       "point": "match"
+      },
+      {
+       "stem": "What will Leo carry?",
+       "options": [
+        "The signs for the sale.",
+        "The paper for the signs.",
+        "The books from the library.",
+        "The books for the sale."
+       ],
+       "answer": 3,
+       "why": "依据是 Leo 说的 I'll carry the books。这里的书是义卖用的书，即第四项。",
+       "point": "match"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "question",
+    "match"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation between Clara and Daniel.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'm calling about the neighborhood film evening. We planned to show the film in the park, but the screen won't arrive until next week. The community center already has a screen, so I've reserved its main room for Saturday. The center is near the park, and there is a bus stop outside. People who signed up for the park event can use the same tickets."
+         },
+         {
+          "who": "B",
+          "text": "That sounds useful. I'll put the chairs in the main room on Saturday morning. I had offered to collect the screen, but that trip isn't needed now. Could you let the ticket holders know about the new place?"
+         },
+         {
+          "who": "A",
+          "text": "Yes, I'll send them a message tonight. We can still start at seven, as we planned. The center asks us to leave the room clean, so I'll bring bags for the rubbish."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What are Clara and Daniel mainly arranging?",
+         "options": [
+          "A bus trip to the community center.",
+          "A new location for a film evening.",
+          "A replacement screen for the park.",
+          "A cleanup day in the neighborhood."
+         ],
+         "answer": 1,
+         "why": "依据是 I've reserved its main room for Saturday 和 let the ticket holders know about the new place。两人安排的是电影晚会的新地点，即第二项。",
+         "point": "question"
+        },
+        {
+         "stem": "Why was the event moved indoors?",
+         "options": [
+          "The park bus stop is closed.",
+          "The film starts later than planned.",
+          "The center needs its screen back.",
+          "The ordered screen will arrive late."
+         ],
+         "answer": 3,
+         "why": "依据是 the screen won't arrive until next week。订的幕布下周才到，所以改到室内，即第四项。",
+         "point": "question"
+        },
+        {
+         "stem": "What will Daniel do on Saturday morning?",
+         "options": [
+          "Arrange the chairs in the room.",
+          "Send a message to ticket holders.",
+          "Collect the screen for the park.",
+          "Bring bags to clean the center."
+         ],
+         "answer": 0,
+         "why": "依据是 Daniel 说的 I'll put the chairs in the main room on Saturday morning。他周六上午摆椅子，即第一项；发消息的是 Clara。",
+         "point": "match"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a talk.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Hello, volunteers. This is Priya from the river path project. We're meeting next Wednesday to put new signs along the path. Last month we collected ideas from local walkers, and many asked for clearer directions at the bridge. The signs have arrived, but the posts are still being painted. If they are dry by Tuesday, we'll place the signs outdoors on Wednesday. Otherwise we'll meet in the workshop to prepare the remaining materials. Jordan will check the posts and send everyone an update on Tuesday afternoon. I'll bring the tools to whichever place we use. Please wear shoes suitable for working outside, even if we begin in the workshop. We expect to finish before lunch, and afterward Jordan will return the borrowed tools to the town office. Thanks for helping us prepare the path for visitors."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is the main subject of Priya's talk?",
+         "options": [
+          "Directions for visitors using the bridge.",
+          "A request for ideas from local walkers.",
+          "Plans for installing path signs.",
+          "A report on returning borrowed tools."
+         ],
+         "answer": 2,
+         "why": "依据是 We're meeting next Wednesday to put new signs along the path。讲话介绍的是安装路标的安排和条件，即第三项。",
+         "point": "question"
+        },
+        {
+         "stem": "What must happen before the signs can be placed outdoors?",
+         "options": [
+          "The painted posts must be dry.",
+          "The bridge must be painted.",
+          "The tools must be returned.",
+          "The walkers must collect ideas."
+         ],
+         "answer": 0,
+         "why": "依据是 If they are dry by Tuesday, we'll place the signs outdoors on Wednesday，they 指正在刷漆的立柱。立柱干了才能在户外安装，即第一项。",
+         "point": "question"
+        },
+        {
+         "stem": "What will Jordan do on Tuesday afternoon?",
+         "options": [
+          "Bring tools to the workshop.",
+          "Tell volunteers about the posts.",
+          "Return tools to the town office.",
+          "Collect ideas from local walkers."
+         ],
+         "answer": 1,
+         "why": "依据是 Jordan will check the posts and send everyone an update on Tuesday afternoon。Jordan 周二下午告诉大家立柱的情况，即第二项；归还工具是活动结束后的事。",
+         "point": "match"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

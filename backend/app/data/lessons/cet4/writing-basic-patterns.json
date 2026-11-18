@@ -1,0 +1,432 @@
+{
+ "id": "writing-basic-patterns",
+ "title": "英文句子的基本结构",
+ "goal": "按基本句型排列句子主干；补足谓语所需的句子成分。",
+ "skill": "写作",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "pattern",
+   "label": "按基本句型排列句子主干"
+  },
+  {
+   "id": "complete",
+   "label": "补足谓语所需的句子成分"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语四级（CET-4）：课表",
+   "url": "docs/syllabi/cet4.md",
+   "used": "英文句子的基本结构的教学范围、知识点及写作小测规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "句子主干由谓语动词决定：动词需要哪些成分，主干就有哪些成分。主语后面必须有能单独作谓语的动词。名词短语和单独的 -ing 形式都不能作谓语。"
+    },
+    {
+     "box": "The students near the seminar room discussed the topic before their afternoon class began."
+    },
+    {
+     "p": "near the seminar room 修饰 students，discussed 是谓语。宾语是动作的对象，表语说明主语，宾语补足语说明宾语。"
+    }
+   ]
+  },
+  {
+   "id": "patterns",
+   "type": "table",
+   "title": "五种基本句型",
+   "cols": [
+    "句型",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "主谓",
+     "动词后不接宾语，可加状语说明时间、地点。",
+     "The students laughed together when the drama club performed a short scene during lunch."
+    ],
+    [
+     "主谓宾",
+     "动词后必须接宾语，说明动作的对象。",
+     "The librarian checked the returned books before placing them on the shelf near the entrance."
+    ],
+    [
+     "主系表",
+     "系动词后接表语。表语用形容词，不用副词。",
+     "The rehearsal room became quiet when the student conductor raised a hand to begin."
+    ],
+    [
+     "主谓双宾语",
+     "give、show 等动词后先接接受者，再接事物。",
+     "The course assistant gave each student a printed timetable before the first laboratory session."
+    ],
+    [
+     "主谓宾补",
+     "补足语说明宾语的状态或身份，不是给出的东西。",
+     "The class elected Mina team leader after discussing the responsibilities of the new role."
+    ]
+   ]
+  },
+  {
+   "id": "contrasts",
+   "type": "table",
+   "title": "句型与成分",
+   "cols": [
+    "句型",
+    "第二组例句",
+    "成分"
+   ],
+   "rows": [
+    [
+     "主谓",
+     "Several students waited outside the lecture room until the previous class had finished.",
+     "waited 是谓语，outside the lecture room 是地点状语。"
+    ],
+    [
+     "主谓宾",
+     "The student representative collected written suggestions about the proposed changes to the campus courtyard.",
+     "collected 的宾语是 written suggestions。"
+    ],
+    [
+     "主系表",
+     "The instructions seemed clear to the students after the instructor demonstrated the equipment.",
+     "clear 是形容词表语，不用 clearly。"
+    ],
+    [
+     "主谓双宾语",
+     "The tutor showed the new students a sample report before explaining the assessment criteria.",
+     "students 是接受者，report 是事物。"
+    ],
+    [
+     "主谓宾补",
+     "The extra practice made the student speakers more confident about presenting their group project.",
+     "more confident 说明 speakers 的状态。"
+    ]
+   ]
+  },
+  {
+   "id": "missing",
+   "type": "table",
+   "title": "必需成分与残句",
+   "cols": [
+    "情况",
+    "残句或错误",
+    "完整句",
+    "说明"
+   ],
+   "rows": [
+    [
+     "缺谓语",
+     "The map on the classroom wall.",
+     "The map on the classroom wall shows the locations of all the campus buildings.",
+     "只有主语和修饰语，没有谓语。"
+    ],
+    [
+     "缺限定动词",
+     "The volunteers preparing name cards.",
+     "The volunteers are preparing name cards for participants arriving at the student conference today.",
+     "preparing 前面加 are 才能作谓语。"
+    ],
+    [
+     "缺宾语",
+     "The committee discussed after lunch.",
+     "The committee discussed the new timetable after lunch in the main student meeting room.",
+     "discuss 后面要接讨论的对象。"
+    ],
+    [
+     "缺表语",
+     "The explanation became.",
+     "The explanation became clearer after the tutor added an example from a familiar situation.",
+     "become 是系动词，后面要接表语。"
+    ],
+    [
+     "缺宾补",
+     "The changes made the instructions.",
+     "The changes made the instructions clearer for students using the equipment for the first time.",
+     "make 表示使宾语处于某种状态，后面要接宾补。"
+    ],
+    [
+     "误用双宾语",
+     "The tutor explained us the task.",
+     "The tutor explained the task to us before the group started preparing its response.",
+     "explain 不接双宾语，人要用 to 引出。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Context: A campus astronomy society has selected a coordinator for its observation evening. The choice is based on experience with organizing student groups, rather than on technical knowledge alone. Draft: The society appointed Lian. Intended meaning: Lian now has the role of coordinator for the evening."
+    },
+    {
+     "p": "appointed Lian 只说任命了 Lian，没有说出职务。加上补足语 coordinator，说明 Lian 的身份。coordinator 不是交给 Lian 的物品。"
+    },
+    {
+     "box": "The society appointed Lian coordinator of the observation evening after comparing the candidates' organizational experience."
+    },
+    {
+     "p": "The society gave Lian a schedule 中，schedule 是给 Lian 的东西，这句是双宾语。判断看两个成分的关系：后者说明前者的身份或状态，是宾补；后者是给出的东西，是双宾语。"
+    }
+   ]
+  },
+  {
+   "id": "check-sentences",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "pattern",
+    "complete"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "In 'The campus debate ended after the final speaker answered the last question', what is the main clause pattern?",
+       "options": [
+        "Subject and intransitive verb",
+        "Subject, linking verb and complement",
+        "Subject, verb and two objects",
+        "Subject, verb, object and complement"
+       ],
+       "answer": 0,
+       "why": "The campus debate ended 是主谓主干，after 从句补充时间。",
+       "point": "pattern"
+      },
+      {
+       "stem": "Which version completes a sentence with 'discuss' meaning to examine a topic together?",
+       "options": [
+        "The student panel discussed in the meeting room after the afternoon lecture.",
+        "The student panel discussed the proposal in the meeting room after the lecture.",
+        "The student panel discussing the proposal in the meeting room after the lecture.",
+        "The student panel the proposal in the meeting room after the afternoon lecture."
+       ],
+       "answer": 1,
+       "why": "discussed the proposal 既有谓语，又有宾语，句子完整，即第二项。第一项缺讨论的对象。",
+       "point": "complete"
+      },
+      {
+       "stem": "In 'The new lighting made the rehearsal space brighter', what is 'brighter'?",
+       "options": [
+        "The second object of the verb made",
+        "The object receiving the action",
+        "The complement describing the object",
+        "The complement describing the subject"
+       ],
+       "answer": 2,
+       "why": "brighter 说明 the rehearsal space 的状态，是宾语补足语，即第三项。第四项错在 brighter 说明的不是主语 lighting。",
+       "point": "pattern"
+      },
+      {
+       "stem": "Use the adjective 'clear' to complete the linking-verb pattern: The revised instructions seem ___ to the new members.",
+       "accept": [
+        "clear"
+       ],
+       "why": "seem 是系动词，后接形容词 clear 作表语。",
+       "point": "complete"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-paragraph",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "complete",
+    "pattern"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A student exhibition team has revised its visitor leaflet. Draft notes read: The new leaflet very useful. It includes a map and a short description of each display. The coordinator gave every guide a copy. The team considers the current layout suitable for visitors who arrive without a guide.",
+     "items": [
+      {
+       "stem": "Which repair supplies the missing predicate in the first note?",
+       "options": [
+        "The new leaflet being very useful for visitors during the exhibition.",
+        "The new leaflet very useful for visitors during the exhibition.",
+        "The new leaflet is very useful for visitors during the exhibition.",
+        "The new leaflet with very useful information for visitors during the exhibition."
+       ],
+       "answer": 2,
+       "why": "The new leaflet very useful 缺系动词，is 构成主系表。",
+       "point": "complete"
+      },
+      {
+       "stem": "State what the coordinator gave the guides.",
+       "lead": "The coordinator",
+       "chunks": [
+        "gave",
+        "every guide",
+        "a copy of",
+        "the revised leaflet"
+       ],
+       "tail": ".",
+       "extra": [
+        "giving"
+       ],
+       "why": "gave 是限定谓语，every guide 是接受者，a copy of the revised leaflet 是给予物。",
+       "point": "pattern"
+      },
+      {
+       "stem": "State the team's judgment about the layout.",
+       "lead": "The team considers",
+       "chunks": [
+        "the current layout",
+        "suitable",
+        "for",
+        "unguided visitors"
+       ],
+       "tail": ".",
+       "extra": [
+        "suitably"
+       ],
+       "why": "suitable 是说明 layout 的形容词宾补，suitably 是副词。",
+       "point": "pattern"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "pattern",
+    "complete"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A campus science fair uses student hosts to introduce simple demonstrations. The organizer has prepared a booklet explaining each station. Draft: The booklet on the registration table. It contains descriptions of the demonstrations. The organizer gave each host a copy. The hosts found the descriptions useful when preparing their introductions.",
+       "items": [
+        {
+         "stem": "Which revision turns the first draft fragment into a complete statement?",
+         "options": [
+          "The booklet on the registration table describes the stations used at the fair.",
+          "The booklet on the registration table describing the stations used at the fair.",
+          "The booklet on the registration table with descriptions of the fair's stations.",
+          "The booklet on the registration table and the descriptions of the fair's stations."
+         ],
+         "answer": 0,
+         "why": "原句 The booklet on the registration table 只是名词短语。第一项加上谓语 describes，句子完整。",
+         "point": "complete"
+        },
+        {
+         "stem": "What is the pattern of 'The hosts found the descriptions useful'?",
+         "options": [
+          "Subject, linking verb and subject complement",
+          "Subject, verb, object and object complement",
+          "Subject, verb and two separate objects",
+          "Subject and verb with no object"
+         ],
+         "answer": 1,
+         "why": "the descriptions 是宾语，useful 说明它们的性质，是宾补。",
+         "point": "pattern"
+        },
+        {
+         "stem": "State the organizer's action with the booklet.",
+         "lead": "The organizer",
+         "chunks": [
+          "gave",
+          "each host",
+          "a copy of",
+          "the booklet"
+         ],
+         "tail": ".",
+         "extra": [
+          "giving"
+         ],
+         "why": "gave 后依次是接受者和给予物，giving 不能独立构成谓语。",
+         "point": "pattern"
+        },
+        {
+         "stem": "Use the past-simple form of 'be' to supply the missing linking verb: The booklet ___ useful during yesterday's science fair.",
+         "accept": [
+          "was"
+         ],
+         "why": "主语 The booklet 是单数，题干要求过去式，用 was 连接主语和 useful。",
+         "point": "complete"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A student sound-recording group is preparing a campus audio guide. Its members check the script before recording. Draft: The group discussed in the editing room. The intended topic was the opening paragraph. Later, the director played a test recording, and the voices sounded natural to the other group members.",
+       "items": [
+        {
+         "stem": "Which addition supplies the object required by 'discussed'?",
+         "options": [
+          "The group discussed carefully in the editing room before the scheduled recording.",
+          "The group discussed after lunch in the editing room before the scheduled recording.",
+          "The group discussed the opening paragraph in the editing room before the recording.",
+          "The group discussed with great care in the editing room before the recording."
+         ],
+         "answer": 2,
+         "why": "discussed 缺讨论的对象。第三项加上宾语 the opening paragraph，其余各项加的都是状语。",
+         "point": "complete"
+        },
+        {
+         "stem": "In 'The voices sounded natural', which analysis is correct?",
+         "options": [
+          "The voices receive natural as a second object of sounded.",
+          "The voices act on natural as the object of sounded.",
+          "The voices and natural are two objects following sounded.",
+          "The voices are described by natural after the linking verb sounded."
+         ],
+         "answer": 3,
+         "why": "sounded 是系动词，意为听起来。natural 说明 voices，是表语，即第四项。",
+         "point": "pattern"
+        },
+        {
+         "stem": "Describe the effect of the revision on the introduction.",
+         "lead": "The revision",
+         "chunks": [
+          "made",
+          "the introduction",
+          "more accessible",
+          "to new listeners"
+         ],
+         "tail": ".",
+         "extra": [
+          "accessibly"
+         ],
+         "why": "made 后接宾语 the introduction 和形容词宾补 more accessible。accessibly 是副词，不能说明宾语的状态。",
+         "point": "pattern"
+        },
+        {
+         "stem": "Complete the stated subject–verb–object sentence with the given noun 'script': The members checked the ___ before the recording session began.",
+         "accept": [
+          "script"
+         ],
+         "why": "checked 是及物动词，后接宾语 the script。",
+         "point": "complete"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

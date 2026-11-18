@@ -1,0 +1,446 @@
+{
+ "id": "listening-p2-short",
+ "title": "听力简答题",
+ "goal": "根据疑问词确定答案类别；提取完整且简短的答案。",
+ "skill": "听力",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "focus",
+   "label": "根据疑问词确定答案类别"
+  },
+  {
+   "id": "extract",
+   "label": "提取完整且简短的答案"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "雅思 IELTS Academic：课表",
+   "url": "docs/syllabi/ielts.md",
+   "used": "听力：日常独白 Part 2；本课内容、知识点及教学尺寸"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "简答题的疑问词决定答案是哪一类信息，后面的名词和动作说明问的是哪个对象。答案照录音写原词，题干里已有的部分不再重复。"
+    },
+    {
+     "box": "Who checks the tickets? → the duty manager\nWhere are tickets checked? → the entrance\nHow many tickets are available? → forty"
+    },
+    {
+     "p": "同一件事里的人、地点和数量各是不同的答案。题目只问手套的材质时，cotton gloves 写 cotton。题目问要带哪种物品时，写完整的 cotton gloves。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定信息类别",
+     "d": "先看问的是人、地点、原因还是数量。Why was the room closed? 问的是关闭的原因，答案不是日期。"
+    },
+    {
+     "t": "2　定位动作与对象",
+     "d": "用疑问词和题干里的动作一起定位。Who checks returned cameras? 问的是检查相机的人，不是交还相机的人。"
+    },
+    {
+     "t": "3　提取必要原词",
+     "d": "区别种类的修饰词要保留，题干已有的词去掉。Which kind of ticket? 的答案是 family ticket 时，family 必须写上，只写 ticket 不对。"
+    },
+    {
+     "t": "4　核对数量与长度",
+     "d": "题目要两项时，两项都要写，并且不超过词数限制。Name both items 的答案是 gloves and boots 时，只写 gloves 不完整。"
+    }
+   ]
+  },
+  {
+   "id": "focus",
+   "type": "table",
+   "title": "疑问词与答案类别",
+   "cols": [
+    "问法",
+    "答案类别",
+    "例"
+   ],
+   "rows": [
+    [
+     "Who …?",
+     "人名或身份。",
+     "Who leads the walk? → the volunteer coordinator"
+    ],
+    [
+     "Where …?",
+     "地点名称或位置。",
+     "Where are bags left? → the cloakroom"
+    ],
+    [
+     "Why …?",
+     "原因，常用名词短语回答。",
+     "Why was the trip postponed? → strong winds"
+    ],
+    [
+     "How many …?",
+     "可数的数量，用数词或数字。",
+     "How many bicycles are available? → sixteen"
+    ],
+    [
+     "What / Which …?",
+     "类别由后面的名词决定，如 material 问材料。",
+     "Which material is used? → cotton"
+    ],
+    [
+     "Which two …?",
+     "两个并列的对象都要写。",
+     "Which two items are needed? → a pen and a ruler"
+    ]
+   ]
+  },
+  {
+   "id": "extract",
+   "type": "table",
+   "title": "名词短语与词数",
+   "cols": [
+    "情况",
+    "规则",
+    "例"
+   ],
+   "rows": [
+    [
+     "身份名称",
+     "题干要完整职务时，修饰词要写上。",
+     "Full job title, TWO WORDS: assistant curator"
+    ],
+    [
+     "必要修饰",
+     "区别种类的修饰词要保留。",
+     "What kind of pass? → annual pass"
+    ],
+    [
+     "题干已有中心词",
+     "只问材质时，不再写物品名称。",
+     "What are the bags made of? ONE WORD: cotton"
+    ],
+    [
+     "数量",
+     "按题面写数字或数词，题面已有的单位不再写。",
+     "How many seats? ONE WORD OR ONE NUMBER: twelve / 12"
+    ],
+    [
+     "两项答案",
+     "两项都要有原文依据，前后顺序可以互换。",
+     "Use and: maps and pencils / pencils and maps"
+    ],
+    [
+     "原因短语",
+     "写 because of 后面的原因，不抄整句。",
+     "Because of heavy rain. → heavy rain"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The sculpture walk has moved to the courtyard because of roof repairs in the gallery. The duty curator will lead it, while an assistant checks tickets. Bring a pencil and a notebook; drawing boards will be provided."
+    },
+    {
+     "box": "1. Why has the walk moved? Write NO MORE THAN TWO WORDS from the recording.\n2. Who will lead the walk? Give the full job title in TWO WORDS from the recording.\n3. Name both items that participants must bring. Use and between the items. Write NO MORE THAN FIVE WORDS from the recording."
+    },
+    {
+     "p": "第一问的答案是 roof repairs；courtyard 是地点，不是原因。第二问的答案是 duty curator；assistant 只负责验票。"
+    },
+    {
+     "p": "第三问的答案是 a pencil and a notebook，也可写 pencil and notebook，两项顺序可以互换。drawing boards 由主办方提供，不用自带。本课要求写两项的题，两项之间都用 and 连接。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "常见错误",
+   "cols": [
+    "类型",
+    "例",
+    "依据"
+   ],
+   "rows": [
+    [
+     "回答相邻事实",
+     "Why …? → the courtyard",
+     "地点不是原因，答案在 because of 后面。"
+    ],
+    [
+     "回答整个句子",
+     "Who …? → The duty curator will lead it.",
+     "who 只问身份，写 duty curator 即可。"
+    ],
+    [
+     "丢失限定",
+     "Full job title: duty curator → curator",
+     "题干要完整职务，duty 要写上。"
+    ],
+    [
+     "重复题干",
+     "What material are the bags made of? → cotton bags",
+     "题干已有 bags，只写 cotton。"
+    ],
+    [
+     "遗漏并列项",
+     "Name both items: pencil and notebook → pencil",
+     "both 要求写出两个物品。"
+    ]
+   ]
+  },
+  {
+   "id": "check-short",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "focus",
+    "extract"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The delivery driver brings the seed packets to the garden. The head gardener checks their labels before volunteers sort them."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Who checks the labels? Give the full job title in TWO WORDS from the recording.",
+       "accept": [
+        "head gardener"
+       ],
+       "why": "依据是 The head gardener checks their labels。driver 只负责送货。",
+       "point": "focus"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Visitors collect their pottery from the storeroom, not from the classroom where it was made."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Where is finished pottery collected? Write ONE WORD from the recording.",
+       "accept": [
+        "storeroom"
+       ],
+       "why": "依据是 Visitors collect their pottery from the storeroom。classroom 是制作陶器的地方。",
+       "point": "focus"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The outdoor chess session was cancelled because of rain. The hall was available, but the organiser decided not to move the session indoors."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why was the outdoor session cancelled? Write ONE WORD from the recording.",
+       "accept": [
+        "rain"
+       ],
+       "why": "依据是 cancelled because of rain。hall 可用与取消的原因无关。",
+       "point": "focus"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "There are thirty stools in the painting room, but only eighteen are available for the afternoon group. The others are reserved for the morning class."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "How many stools can the afternoon group use? Write ONE WORD OR ONE NUMBER from the recording.",
+       "accept": [
+        "eighteen",
+        "18"
+       ],
+       "why": "依据是 only eighteen are available for the afternoon group。thirty 是凳子的总数。",
+       "point": "extract"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-talk",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "focus",
+    "extract"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "For the kite-making morning, the activity leader will distribute materials in the pavilion. Registration is at the gate, so names must be checked there before anyone enters the pavilion. The organisers provide paper, string and glue. Participants must bring scissors and pencils; those are the only tools not supplied. Aprons are available to borrow, so there is no need to bring one. The storage boxes are made of cardboard, while the finished kites use paper. At the end, unused materials go back into the cardboard boxes."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Where are materials distributed? Write ONE WORD from the recording.",
+       "accept": [
+        "pavilion"
+       ],
+       "why": "依据是 distribute materials in the pavilion。gate 是登记的地点。",
+       "point": "focus"
+      },
+      {
+       "stem": "Name both tools that participants must bring. Use and between the items. Write NO MORE THAN THREE WORDS from the recording.",
+       "accept": [
+        "scissors and pencils",
+        "pencils and scissors"
+       ],
+       "why": "依据是 Participants must bring scissors and pencils。两项都要写，顺序可以互换。",
+       "point": "extract"
+      },
+      {
+       "stem": "What material are the storage boxes made of? Write ONE WORD from the recording.",
+       "accept": [
+        "cardboard"
+       ],
+       "why": "依据是 The storage boxes are made of cardboard。题干已有 boxes，只写材质。",
+       "point": "extract"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "focus",
+    "extract"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the introduction.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Welcome to the neighbourhood costume exchange. Before the doors open, I'll explain today's arrangements for the volunteers. The exchange is being held in the sports annexe rather than the usual hall. The move is because of flooding in the hall; it has nothing to do with the number of donations. The annexe has enough space for the same collection tables. Sorting will be supervised by the stock manager. That's the full job title used on the staff list. The events assistant will check names at the entrance, but won't direct the sorting work. Please refer any sorting questions to the stock manager after signing in. Volunteers need to bring hangers and bags. Those are the only two items that aren't supplied. Labels, pens and string will already be on the tables, so extra supplies of those aren't needed. Hangers will keep the costumes separate, and bags will hold items that aren't suitable for display. Donations arrive through the rear door, while volunteers sign in at the front. Once sorting has finished, the tables will be rearranged for visitors. Nothing should be moved to the display area until the stock manager has checked it."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why has the costume exchange moved from the hall? Write ONE WORD from the recording.",
+         "accept": [
+          "flooding"
+         ],
+         "why": "依据是 The move is because of flooding。录音明确说搬迁与捐赠数量无关。",
+         "point": "focus"
+        },
+        {
+         "stem": "Who supervises sorting? Give the full job title in TWO WORDS from the recording.",
+         "accept": [
+          "stock manager"
+         ],
+         "why": "依据是 Sorting will be supervised by the stock manager。events assistant 只在入口核对名字。",
+         "point": "focus"
+        },
+        {
+         "stem": "Name both items that volunteers must bring. Use and between the items. Write NO MORE THAN THREE WORDS from the recording.",
+         "accept": [
+          "hangers and bags",
+          "bags and hangers"
+         ],
+         "why": "依据是 Volunteers need to bring hangers and bags。labels、pens、string 都已备好，不用带。",
+         "point": "extract"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the introduction.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "This introduction is for everyone joining the mosaic cleaning demonstration at the craft centre. The group meets in the courtyard, rather than in the workshop. Staff will check the attendance list there before taking everyone inside together. The workshop doors will stay closed until that check is finished, so waiting beside those doors would delay the start. There are twenty places at the viewing benches in total, but eight have been reserved for a visiting club. That leaves twelve places for local residents. The club's reservation won't be released on the day, even if some members arrive late. For the demonstration, participants will handle sample tiles rather than pieces from the display. Cotton gloves are required for handling those samples. The centre supplies the gloves in several sizes, and staff will check that each pair fits before the activity begins. Rubber gloves are used by staff for washing equipment afterwards; they aren't the gloves for handling the sample tiles. Brushes and cloths will be laid out at the benches. At the end, used gloves go into the marked container, while the sample tiles remain on their trays for the next demonstration."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Where does the group meet before entering the workshop? Write ONE WORD from the recording.",
+         "accept": [
+          "courtyard"
+         ],
+         "why": "依据是 The group meets in the courtyard, rather than in the workshop。workshop 是演示的地点。",
+         "point": "focus"
+        },
+        {
+         "stem": "How many places are available for local residents? Write ONE WORD OR ONE NUMBER from the recording.",
+         "accept": [
+          "twelve",
+          "12"
+         ],
+         "why": "依据是 That leaves twelve places for local residents。twenty 是总数，其中 eight 已预留。",
+         "point": "extract"
+        },
+        {
+         "stem": "What material are the gloves for handling sample tiles made of? Write ONE WORD from the recording.",
+         "accept": [
+          "cotton"
+         ],
+         "why": "依据是 Cotton gloves are required for handling those samples。题干已有 gloves，只写材质。rubber gloves 是清洗设备用的。",
+         "point": "extract"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

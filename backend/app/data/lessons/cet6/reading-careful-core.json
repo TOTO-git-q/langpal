@@ -1,0 +1,65 @@
+{
+ "id": "reading-careful-core",
+ "title": "长句的主干",
+ "goal": "识别长句的主语中心词和限定谓语，保留主句的核心判断。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "core", "label": "识别长句的主语和限定谓语"},
+  {"id": "simplify", "label": "选出保留核心判断的简化句"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读理解能力的课程安排"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "长句的主干是主句的主语和限定谓语，谓语后面可能带宾语或表语。介词短语、同位语和从句插在主干中间，补充信息。"},
+   {"box": "The report on local gardens describes their water use.\nThe report describes their water use."},
+   {"p": "on local gardens 修饰 report，限定谓语是 describes。简化时要留下谓语和必要的宾语，核心判断才完整。"}
+  ]},
+  {"id": "prepositions", "type": "table", "title": "介词短语与主干", "cols": ["例句", "主语中心词与限定谓语", "简化句"], "rows": [
+   ["The report on changes in the use of shared rooms during the previous summer describes several reasons for the revised booking system at the center.", "report；describes", "The report describes several reasons."],
+   ["The collection of letters from families in the northern district of the town provides a detailed account of daily travel before the new bridge opened.", "collection；provides", "The collection provides an account."],
+   ["The list of rooms includes the hall.", "list；includes", "The list includes the hall."],
+   ["The notes on the trial explain its purpose.", "notes；explain", "The notes explain its purpose."]
+  ]},
+  {"id": "apposition", "type": "table", "title": "同位语与主干", "cols": ["例句", "主语中心词与限定谓语", "简化句"], "rows": [
+   ["The archive, a collection of letters and photographs donated by local residents over many years, records changes in the neighborhood around the old railway station.", "archive；records", "The archive records changes."],
+   ["The coordinator, an experienced volunteer with responsibility for the weekly schedule at the community kitchen, checks the list of requested deliveries early each morning.", "coordinator；checks", "The coordinator checks the list."],
+   ["The guide, a trained volunteer, leads the tour.", "guide；leads", "The guide leads the tour."],
+   ["The hall, a former school, hosts the meeting.", "hall；hosts", "The hall hosts the meeting."]
+  ]},
+  {"id": "clauses", "type": "table", "title": "嵌入从句与主干", "cols": ["例句", "主语中心词与限定谓语", "简化句"], "rows": [
+   ["The survey that the museum distributed to visitors who attended its weekend exhibition last autumn revealed several differences in the ways people searched for information.", "survey；revealed", "The survey revealed differences."],
+   ["The proposal that the committee revised after local residents explained their concerns about access to the building includes a second entrance near the existing bus stop.", "proposal；includes", "The proposal includes an entrance."],
+   ["The report that Mina prepared describes the trial.", "report；describes", "The report describes the trial."],
+   ["The room where volunteers meet needs repairs.", "room；needs", "The room needs repairs."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "The collection of maps that the library received from local residents shows changes in the streets around the station over several decades.\nWhich sentence preserves the main clause?\n1. The library received the maps.\n2. The collection shows changes.\n3. The residents show the changes.\n4. The maps changed the streets."},
+   {"p": "主语中心词是 collection，that the library received from local residents 是从句。主句的限定谓语是 shows，宾语是 changes。第二项保留了核心判断。"},
+   {"p": "第一项是从句的内容，不是主句。"}
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["core"], "groups": [
+   {"look": "passage", "text": "The list of new volunteers includes two teachers.", "items": [{"stem": "What is the main subject and finite verb?", "options": ["volunteers; includes", "list; includes", "teachers; includes", "list; volunteers"], "answer": 1, "why": "of new volunteers 修饰 list，主句限定谓语是 includes。", "point": "core"}]},
+   {"look": "passage", "text": "The guide, an experienced volunteer, leads the tour.", "items": [{"stem": "What is the main subject and finite verb?", "options": ["volunteer; experienced", "tour; leads", "guide; leads", "guide; experienced"], "answer": 2, "why": "an experienced volunteer 是 guide 的同位语，leads 是主句谓语。", "point": "core"}]}
+  ]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["simplify"], "groups": [
+   {"look": "passage", "text": "The report that Lina prepared describes the evening trial.", "items": [{"stem": "Which sentence preserves the main clause?", "options": ["Lina describes the report.", "Lina prepared the report.", "Lina prepared the evening trial.", "The report describes the trial."], "answer": 3, "why": "that Lina prepared 是修饰 report 的从句，主句是 The report describes the trial，即第四项。第二项只保留了从句。", "point": "simplify"}]},
+   {"look": "passage", "text": "The plan for the garden includes a path near the gate.", "items": [{"stem": "Which sentence preserves the main clause?", "options": ["The plan includes a path.", "The garden includes a plan.", "The garden includes a path.", "The path is near a gate."], "answer": 0, "why": "主语 plan 与谓语 includes 保留，a path 是其宾语。", "point": "simplify"}]}
+  ]},
+  {"id": "check-three", "type": "check", "title": "练习三", "points": ["core", "simplify"], "groups": [
+   {"look": "passage", "text": "The schedule, a list of available times, helps residents who book the room.", "items": [
+    {"stem": "What is the main subject and finite verb?", "options": ["residents; book", "schedule; helps", "list; book", "room; helps"], "answer": 1, "why": "主语中心词是 schedule，helps 是主句限定谓语。", "point": "core"},
+    {"stem": "Which sentence preserves the main clause?", "options": ["Residents book the schedule.", "Residents book the room.", "The schedule helps residents.", "A list of times helps residents."], "answer": 2, "why": "schedule helps residents 保留主句主语、谓语和宾语。", "point": "simplify"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["core", "simplify"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "The record of the tools that volunteers returned after the event lists several items needing repair.", "items": [{"stem": "What is the main subject and finite verb?", "options": ["record; lists", "volunteers; returned", "tools; returned", "event; lists"], "answer": 0, "why": "record 是主语中心词；lists 是主句限定谓语。", "point": "core"}]},
+   {"look": "passage", "text": "The proposal, a revised plan for the reading room, includes a desk near the window.", "items": [{"stem": "Which sentence preserves the main clause?", "options": ["The plan is for the reading room.", "The proposal includes a desk.", "The reading room includes a desk.", "The plan includes the window."], "answer": 1, "why": "同位语补充说明 proposal，主句判断为 proposal includes a desk。", "point": "simplify"}]},
+   {"look": "passage", "text": "The survey that residents completed after the trial reports their views on the new schedule.", "items": [{"stem": "What is the main subject and finite verb?", "options": ["residents; completed", "trial; completed", "survey; reports", "schedule; reports"], "answer": 2, "why": "that residents completed after the trial 修饰 survey，reports 是主句谓语。", "point": "core"}]},
+   {"look": "passage", "text": "The collection of photographs from former students documents the history of the school building.", "items": [{"stem": "Which sentence preserves the main clause?", "options": ["Former students document the history.", "Students took the photographs.", "The photographs show the building.", "The collection documents history."], "answer": 3, "why": "主句的 collection documents the history 保留了核心判断。", "point": "simplify"}]},
+   {"look": "passage", "text": "The coordinator, a volunteer who works on Saturdays, checks the condition of the equipment.", "items": [{"stem": "What is the main subject and finite verb?", "options": ["volunteer; works", "coordinator; checks", "equipment; works", "Saturdays; checks"], "answer": 1, "why": "volunteer 是同位语，who works 是从句；主句是 coordinator checks。", "point": "core"}]},
+   {"look": "passage", "text": "The notice that the office posted beside the entrance explains the rules for borrowing equipment.", "items": [{"stem": "Which sentence preserves the main clause?", "options": ["The notice explains the rules.", "The office explains the rules.", "The notice explains the equipment.", "The office posted the notice."], "answer": 0, "why": "notice 是主语，explains 是主句谓语，rules 是宾语。", "point": "simplify"}]}
+  ]}]}
+ ]
+}

@@ -1,0 +1,516 @@
+{
+ "id": "listening-conversation-intent",
+ "title": "长对话言外之意题",
+ "goal": "依据前后话轮理解间接表达；判断说话人的建议或拒绝意图。",
+ "skill": "听力",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "context",
+   "label": "依据前后话轮理解间接表达"
+  },
+  {
+   "id": "intent",
+   "label": "判断说话人的建议或拒绝意图"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "依据课程课表选择长对话语言训练范围；材料与题目为原创。"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "间接表达的意思要看它回应的是什么。用已有安排回应邀请，通常是婉拒。用实际困难回应请求，通常是做不到。答题要说出回应的用意，只复述字面事实不够。"
+    },
+    {
+     "box": "A: Could Morgan help this evening?\nB: Morgan is already covering the late shift."
+    },
+    {
+     "p": "这里的 late shift 说明 Morgan 今晚不能帮忙，是婉拒。如果前一句只是问 Morgan 的班次，同一句话就只是在提供信息。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定前一话轮的请求",
+     "d": "先分清前一句是邀请、建议还是询问信息。Can we use the room tonight? 要的回答是能不能用。"
+    },
+    {
+     "t": "2　连接回应中的限制",
+     "d": "把回应里的安排或困难和所请求的事对应起来。It's booked until nine 表示九点前不能用，说的只是九点以前。"
+    },
+    {
+     "t": "3　识别替代方案与条件",
+     "d": "注意 could、might、provided。We could meet outside 是提出另一个办法，对方还没有接受。"
+    },
+    {
+     "t": "4　控制推断范围",
+     "d": "只推出这句话的用意。I have a shift tonight 是婉拒今晚的邀请，推不出不喜欢这个活动。"
+    }
+   ]
+  },
+  {
+   "id": "contexts",
+   "type": "table",
+   "title": "间接表达的语境",
+   "cols": [
+    "功能",
+    "两轮语境",
+    "含义"
+   ],
+   "rows": [
+    [
+     "建议",
+     "A: The queue blocks the stairs. B: The side door is free.",
+     "建议改走侧门。"
+    ],
+    [
+     "建议",
+     "A: These labels are hard to read. B: A larger typeface might help.",
+     "建议把字号放大。"
+    ],
+    [
+     "婉拒",
+     "A: Could Ruth stay late? B: Ruth has a train to catch.",
+     "Ruth 要赶火车，不能留下。"
+    ],
+    [
+     "婉拒",
+     "A: Could we borrow this cart? B: It's loaded for a delivery.",
+     "推车现在要送货，暂时借不了。"
+    ],
+    [
+     "保留意见",
+     "A: Shall we extend the session? B: That depends on the room booking.",
+     "要先看房间预订情况，还没同意。"
+    ],
+    [
+     "保留意见",
+     "A: Does the draft work? B: The outline is clear, but the figures need checking.",
+     "认可提纲，数据还要核对。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A: Could we hold the instrument demonstration in the foyer?\nB: The foyer is beside the children's reading corner. The side room has a door that closes.\nA: Then I'll ask whether the side room is free. We should avoid disturbing the reading group."
+    },
+    {
+     "box": "What does the response suggest?\n1. Use a space that better contains the sound.\n2. Close the children's reading corner.\n3. Cancel the instrument demonstration.\n4. Leave the side-room door open."
+    },
+    {
+     "p": "依据是 The foyer is beside the children's reading corner 和 The side room has a door that closes。门厅挨着阅读区，侧室的门能关上。B 建议换到声音传不出去的房间，即第一项。A 接着去问侧室是否空着，说明听懂了这个建议。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "只复述字面",
+     "The side room has a door.",
+     "只复述了门，没有说出换房的用意。"
+    ],
+    [
+     "动机过度推断",
+     "The speaker dislikes children.",
+     "对话没有提到对儿童的态度。"
+    ],
+    [
+     "条件扩大",
+     "No demonstration can take place.",
+     "讨论的是换房间，演示照常进行。"
+    ],
+    [
+     "保留误作同意",
+     "The room has already been approved.",
+     "ask whether … free 说明还要确认侧室是否空着。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "intent",
+    "context"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Could we carry the neighborhood mural panels up the narrow staircase this afternoon? The exhibition opens tomorrow, and the panels are still in the entrance."
+       },
+       {
+        "who": "B",
+        "text": "The service lift is available after three. Those panels are wider than the landing, so carrying them upstairs could be difficult even with extra helpers."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What does the response suggest?",
+       "options": [
+        "Ask extra helpers to carry the panels upstairs.",
+        "Use the service lift when it becomes available.",
+        "Leave the panels in the entrance for the exhibition.",
+        "Carry the panels before the lift becomes available."
+       ],
+       "answer": 1,
+       "why": "依据是 The service lift is available after three 和 carrying them upstairs could be difficult。走楼梯难搬，建议三点后用货梯，即第二项。",
+       "point": "intent"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Could you cover the final hour at the community tea stall? The earlier volunteers can stay only until four, and we need someone until five."
+       },
+       {
+        "who": "B",
+        "text": "I'd help if I could, but I've promised to collect my niece from her lesson at four. I can bring extra cups before the stall opens."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What does the response mean?",
+       "options": [
+        "The speaker will cover the hour after collecting the niece.",
+        "The speaker wants the volunteers to collect extra cups at five.",
+        "The speaker has canceled the collection to work at the stall.",
+        "The speaker cannot cover that hour but offers other help."
+       ],
+       "answer": 3,
+       "why": "依据是 I've promised to collect my niece from her lesson at four 和 I can bring extra cups before the stall opens。最后一小时不能值班，但可以开场前送杯子，即第四项。",
+       "point": "context"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Would it be a good idea to move the reading circle outdoors every week? The garden was pleasant during our last meeting, and people liked sitting among the trees."
+       },
+       {
+        "who": "B",
+        "text": "It worked well that afternoon, though we'd need a dependable indoor alternative. The forecast won't always be as favorable as it was last time."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "How does the second speaker respond to the proposal?",
+       "options": [
+        "With conditional support that requires an indoor backup.",
+        "With unconditional approval based on one pleasant meeting.",
+        "With a demand to stop using the garden entirely.",
+        "With a promise that the weather will remain favorable."
+       ],
+       "answer": 0,
+       "why": "依据是 It worked well that afternoon, though we'd need a dependable indoor alternative。赞成，但要有室内的备用场地，即第一项。",
+       "point": "context"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I'm thinking of printing the neighborhood map in full color. The draft uses different colors for paths and entrances, but the printing quote is higher than expected."
+       },
+       {
+        "who": "B",
+        "text": "Could we test whether patterns distinguish them clearly in black and white? That would tell us whether color is necessary before we accept the more expensive quote."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is being suggested?",
+       "options": [
+        "Accept the higher quote without checking the draft.",
+        "Ask the printer to lower the full-color quote.",
+        "Test a less costly way to distinguish map features.",
+        "Print in full color because colors mark the paths."
+       ],
+       "answer": 2,
+       "why": "依据是 Could we test whether patterns distinguish them clearly in black and white。先试黑白图案能否区分，这是更省钱的办法，即第三项。",
+       "point": "intent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "context",
+    "intent"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Could we ask all the neighbors to bring homemade dishes to the courtyard lunch? That would give us a good variety without a large catering bill."
+       },
+       {
+        "who": "B",
+        "text": "Some residents don't have time to cook, and others may prefer to bring something bought. We could make the invitation broader."
+       },
+       {
+        "who": "A",
+        "text": "So the contribution wouldn't have to be homemade?"
+       },
+       {
+        "who": "B",
+        "text": "Exactly. People could bring a dish, fruit, or drinks if they wish. I'd also avoid making a contribution a condition of attending; the purpose is to meet neighbors."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What does the comment about residents' time imply?",
+       "options": [
+        "Every resident prefers bought food to homemade dishes.",
+        "The lunch will need a large catering bill after all.",
+        "The courtyard lunch should be limited to people who cook.",
+        "A homemade-only rule would leave out some residents."
+       ],
+       "answer": 3,
+       "why": "依据是 Some residents don't have time to cook, and others may prefer to bring something bought。只收自制菜，会把这些住户挡在外面，即第四项。",
+       "point": "context"
+      },
+      {
+       "stem": "What is the second speaker recommending?",
+       "options": [
+        "Require every guest to prepare a different homemade dish.",
+        "Let guests bring different kinds of food, if they wish.",
+        "Replace the social lunch with a paid catering service.",
+        "Restrict attendance to people who bring fruit or drinks."
+       ],
+       "answer": 1,
+       "why": "依据是 People could bring a dish, fruit, or drinks if they wish 和 I'd also avoid making a contribution a condition of attending。带什么可以多样，带不带也自愿，即第二项。",
+       "point": "intent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "context",
+    "intent"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Inez, could you lead the evening session at our neighborhood photography walk next Wednesday? We need someone to explain how to photograph shop windows after dark. The route is ready, and the participants have already received the meeting details."
+         },
+         {
+          "who": "B",
+          "text": "I'd normally enjoy that, Paulo, but Wednesday evenings are when I take my father to his language class. I've promised to keep doing that this term. I could help prepare the examples beforehand, though, if another member can lead the actual walk."
+         },
+         {
+          "who": "A",
+          "text": "I understand. Perhaps I can ask Tomas to lead and send him your examples. I was also thinking of buying portable lights for the group. The shop has an offer this week, and it would be useful to decide before the price goes back up."
+         },
+         {
+          "who": "B",
+          "text": "The windows already provide quite a lot of light. It might be worth trying the route with the equipment we have before adding anything else. We could discover that the problem is reflections rather than a shortage of light."
+         },
+         {
+          "who": "A",
+          "text": "That's a fair point. I'll walk the route tomorrow and take a few test pictures. What do you think about letting participants enter the shops to photograph displays from inside? One owner said that might be possible near closing time."
+         },
+         {
+          "who": "B",
+          "text": "It could work for that particular shop, provided we get clear permission and don't interfere with customers. I'd be cautious about treating one owner's comment as an invitation from every shop along the route. Their arrangements may be quite different."
+         },
+         {
+          "who": "A",
+          "text": "Then I'll contact the owners separately and include only the shops that agree. I'll also tell Tomas that the route may need a small adjustment. The starting point can stay the same even if we change which windows we stop beside."
+         },
+         {
+          "who": "B",
+          "text": "That sounds sensible. Send me the confirmed stops and I'll choose examples that match them. I can have the notes ready by Tuesday, so Tomas has time to look through them before the walk."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What does Inez imply by describing her Wednesday commitment?",
+         "options": [
+          "She cannot lead that session but can help with preparation.",
+          "She can lead the walk if it starts after the class.",
+          "She has canceled her commitment in order to lead the walk.",
+          "She expects Paulo to take her father to the class instead."
+         ],
+         "answer": 0,
+         "why": "依据是 I've promised to keep doing that this term 和 I could help prepare the examples beforehand。Inez 不能带队，但可以帮忙准备，即第一项。",
+         "point": "context"
+        },
+        {
+         "stem": "What is Inez suggesting about portable lights?",
+         "options": [
+          "Buy the discounted lights before testing the route.",
+          "Ask Tomas to bring lights for the evening walk.",
+          "Test the existing equipment before deciding to buy more.",
+          "Use additional lights to eliminate all reflections."
+         ],
+         "answer": 2,
+         "why": "依据是 It might be worth trying the route with the equipment we have before adding anything else。先用现有设备试，再决定买不买，即第三项。",
+         "point": "intent"
+        },
+        {
+         "stem": "How should Inez's response about entering shops be understood?",
+         "options": [
+          "She considers one owner's comment permission for the whole route.",
+          "She accepts the possibility subject to each shop's permission.",
+          "She rejects entering any shop even if permission is obtained.",
+          "She thinks the visits should happen only at closing time."
+         ],
+         "answer": 1,
+         "why": "依据是 It could work for that particular shop, provided we get clear permission。可以进店，但要先得到店主明确的许可，即第二项。",
+         "point": "context"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Arun, I'm arranging the neighborhood storytelling afternoon. Would you be willing to record all the stories on your phone? A few people who can't attend have asked whether they could listen later, and the small recorder we used last time is unavailable."
+         },
+         {
+          "who": "B",
+          "text": "My phone is fine for a short clip, Dalia, but its battery barely lasts through a normal afternoon now. I wouldn't want to promise a complete recording and then lose the final stories. I can help introduce the speakers instead, if that would be useful."
+         },
+         {
+          "who": "A",
+          "text": "That would be useful. I'll see whether someone else has a recorder. I also planned to put the recordings on an open website so anyone in the neighborhood could hear them. It seems simpler than sending separate links to people."
+         },
+         {
+          "who": "B",
+          "text": "Some speakers are sharing personal family memories. They may be comfortable speaking to the room without wanting those accounts freely available online. Perhaps we should ask each speaker how they want their recording shared before choosing a single method for everyone."
+         },
+         {
+          "who": "A",
+          "text": "Yes, I hadn't separated those two kinds of permission. I'll ask them. What about adding background music between stories? It could fill the pauses while the next speaker walks to the front, and my cousin has offered some short pieces."
+         },
+         {
+          "who": "B",
+          "text": "The idea has possibilities, but we'd need to hear the pieces first. Some listeners may find music distracting, particularly if it continues under the next speaker's opening words. Short pauses aren't necessarily a problem in an afternoon like this."
+         },
+         {
+          "who": "A",
+          "text": "I'll keep the pauses for now and only revisit the music if there's a clear reason. We can still thank my cousin for offering. Would you look over the order of speakers tonight? I'm trying not to place two very similar stories together."
+         },
+         {
+          "who": "B",
+          "text": "Yes, send me the list. I can comment on the sequence, and tomorrow we can check that any changes still fit the speakers' available times."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is Arun doing when he mentions his phone battery?",
+         "options": [
+          "Asking Dalia to find a phone with a better battery.",
+          "Asking Dalia to shorten all the stories to fit his phone.",
+          "Promising a complete recording if the last speaker finishes early.",
+          "Declining responsibility for recording the entire event."
+         ],
+         "answer": 3,
+         "why": "依据是 its battery barely lasts through a normal afternoon 和 I wouldn't want to promise a complete recording。Arun 用电池的问题婉拒了录整场，即第四项。",
+         "point": "intent"
+        },
+        {
+         "stem": "What does Arun imply about an open website?",
+         "options": [
+          "Everyone attending has already agreed to online publication.",
+          "Agreeing to speak may not mean agreeing to online sharing.",
+          "Family memories must be shared only through private links.",
+          "Absent neighbors have asked for the stories to be posted openly."
+         ],
+         "answer": 1,
+         "why": "依据是 They may be comfortable speaking to the room without wanting those accounts freely available online。愿意当面讲的人，未必愿意让录音公开上网，即第二项。",
+         "point": "context"
+        },
+        {
+         "stem": "What is Arun's intention in saying the music idea has possibilities?",
+         "options": [
+          "To approve every piece before hearing the offered recordings.",
+          "To reject the cousin's offer because all pauses must be removed.",
+          "To express limited interest while raising conditions and concerns.",
+          "To request continuous music beneath each speaker's opening words."
+         ],
+         "answer": 2,
+         "why": "依据是 The idea has possibilities, but we'd need to hear the pieces first，以及 Some listeners may find music distracting。Arun 有兴趣，但提出了条件和顾虑，即第三项。",
+         "point": "intent"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

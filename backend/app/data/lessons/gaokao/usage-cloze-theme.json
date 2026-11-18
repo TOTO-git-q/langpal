@@ -1,0 +1,359 @@
+{
+ "id": "usage-cloze-theme",
+ "title": "结尾评价与主题选词",
+ "goal": "依据人物行为与事件结局选择结尾评价。",
+ "skill": "语言运用",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "evidence",
+   "label": "用故事中的行为支持结尾评价"
+  },
+  {
+   "id": "theme",
+   "label": "选择与事件结局一致的主题词"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语课程课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "教学内容与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "type",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "结尾评价概括故事中具体行为的意义。主题词要对应故事的转折和结局。只讲一般道理的词不选。"
+    },
+    {
+     "box": "Nina repaired the torn bag for a neighbor. Her kindness made the journey easier."
+    },
+    {
+     "p": "kindness 对应 Nina 为邻居修包的行为。修包使邻居的行程更方便。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确认结局",
+     "d": "确定人物最后完成或改变了什么。注意结尾中的评价对象。"
+    },
+    {
+     "t": "2　回查行动",
+     "d": "找出导致结局的具体行动。核对行动者和受益者。"
+    },
+    {
+     "t": "3　概括主题",
+     "d": "选一个与行动一致的词概括它的意义。脱离事件的一般感想不选。"
+    },
+    {
+     "t": "4　比较选项",
+     "d": "把评价词代入结尾。核对它能否概括转折后的结果。"
+    }
+   ]
+  },
+  {
+   "id": "endings",
+   "type": "table",
+   "title": "行为与评价",
+   "cols": [
+    "类型",
+    "结尾片段",
+    "评价依据"
+   ],
+   "rows": [
+    [
+     "助人",
+     "Mina carried the bags upstairs. Her help allowed her neighbor to rest.",
+     "搬运行李是具体帮助。"
+    ],
+    [
+     "助人",
+     "Ari explained the route. His guidance helped the visitor reach the station.",
+     "指路使来访者到达车站。"
+    ],
+    [
+     "坚持",
+     "Lee practiced the turn each day. Her persistence made the movement smoother.",
+     "每天练习使动作更熟练。"
+    ],
+    [
+     "坚持",
+     "Tom repaired the model after each failure. His patience led to a working model.",
+     "失败后继续修理促成成功。"
+    ],
+    [
+     "合作",
+     "One student measured; another cut the wood. Their teamwork produced a shelf.",
+     "不同分工共同完成书架。"
+    ],
+    [
+     "合作",
+     "Maya wrote the signs while Bo placed them. Their cooperation prepared the route.",
+     "书写与放置共同完成布置。"
+    ]
+   ]
+  },
+  {
+   "id": "example",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The first paper bridge collapsed under a small weight. Jae changed the folds and tested it again. After several attempts, the bridge supported a heavier weight. Jae's ___ had led to an improvement.\n1. persistence  2. luck  3. haste  4. teamwork"
+    },
+    {
+     "p": "changed the folds、tested it again 和 several attempts 表明 Jae 不断改进。persistence 概括反复尝试，选第一项。第二项 luck 在原文中没有依据。"
+    }
+   ]
+  },
+  {
+   "id": "distractors",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "错误评价",
+    "依据"
+   ],
+   "rows": [
+    [
+     "相反行为",
+     "Jae abandoned the bridge after it collapsed.",
+     "后文写他改变折法并再次测试。"
+    ],
+    [
+     "遗漏转折",
+     "The first failure was the final result.",
+     "结尾的桥承受了更重的物体。"
+    ],
+    [
+     "泛泛感想",
+     "Bridges are useful in many places.",
+     "原文重点是反复改进纸桥。"
+    ],
+    [
+     "对象替换",
+     "The weight improved the paper by itself.",
+     "改进来自 Jae 改变折法并测试。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "evidence",
+    "theme"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Rui showed a visitor the way to the library. The visitor arrived before closing. Which action supports calling Rui helpful?",
+       "options": [
+        "The library was about to close.",
+        "Rui gave the visitor directions.",
+        "The visitor arrived at the library.",
+        "The visitor showed Rui the way."
+       ],
+       "answer": 1,
+       "why": "showed a visitor the way 是 Rui 给予帮助的行动。",
+       "point": "evidence"
+      },
+      {
+       "stem": "The first model failed. Sal changed its base twice and eventually made it stand. Her ___ was rewarded by the result.",
+       "options": [
+        "luck",
+        "haste",
+        "persistence",
+        "kindness"
+       ],
+       "answer": 2,
+       "why": "失败后两次改变底座并继续尝试，体现坚持。",
+       "point": "theme"
+      },
+      {
+       "stem": "One student read the instructions while another assembled the box. Together they finished it. Their ___ made the work possible.",
+       "options": [
+        "competition",
+        "persistence",
+        "independence",
+        "cooperation"
+       ],
+       "answer": 3,
+       "why": "两人分工阅读说明并组装，体现合作。",
+       "point": "theme"
+      },
+      {
+       "stem": "After the soup spilled, Bea helped clean the floor before the guests arrived. Which detail supports the word 'help'?",
+       "options": [
+        "Bea cleaned the floor.",
+        "The soup had spilled.",
+        "The guests were expected.",
+        "The floor had become wet."
+       ],
+       "answer": 0,
+       "why": "helped clean the floor 是 Bea 帮忙的具体行为。",
+       "point": "evidence"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "evidence",
+    "theme"
+   ],
+   "groups": [
+    {
+     "text": "The class built a bird feeder from spare wood. First, Noor measured the pieces, and Eli cut them to size. When the roof did not fit, both students checked the measurements and adjusted it. They attached the roof together and placed the finished feeder near a window. The class could watch birds visit it from inside.",
+     "items": [
+      {
+       "stem": "Which detail best supports the description 'teamwork'?",
+       "options": [
+        "The wood was spare material.",
+        "Both adjusted the roof together.",
+        "The feeder stood near a window.",
+        "Birds could be watched from inside."
+       ],
+       "answer": 1,
+       "why": "两人分工并共同调整屋顶，支持 teamwork。",
+       "point": "evidence"
+      },
+      {
+       "stem": "Which idea best fits the ending?",
+       "options": [
+        "A feeder works best when placed near a window.",
+        "Birds always visit wooden objects.",
+        "Working together can solve a problem.",
+        "Measuring removes the need to adjust anything."
+       ],
+       "answer": 2,
+       "why": "两人共同调整屋顶，完成了喂鸟器，体现合作解决问题。",
+       "point": "theme"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "evidence",
+    "theme"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "During the winter, a community center planned a clothing exchange for local families. The organizers asked residents to bring clean coats, gloves, and scarves that they no longer needed. Marta volunteered to sort the donations before the doors opened. She expected to work alone for the first hour, because the other volunteers had jobs to finish elsewhere in the building.\n\nWhen Marta arrived, she found more bags than she had expected. Some contained several sizes of clothing, and a few items needed buttons sewn on. She began separating the coats by size, but the growing piles made it difficult to reach the tables. A visitor named Daniel came early to drop off a bag. Seeing the crowded room, he asked whether he could help. Marta showed him how she was arranging the coats and asked him to make labels for the tables.\n\nAnother volunteer arrived with a small sewing kit. While she repaired loose buttons, Marta and Daniel moved the labeled piles onto separate tables. Daniel then helped clear a path through the room so that visitors could walk between the tables. By opening time, the clothing was arranged and the floor was clear. Families could find sizes without searching through the original bags.\n\nAt the end of the exchange, Marta thanked Daniel for staying. He said that he had only planned to leave a donation, but he had seen that another pair of hands was useful. Marta remembered how difficult the crowded room had looked when she arrived. With several people taking different tasks, the exchange had been ready in time. Their cooperation had turned the unexpected amount of work into a manageable task.",
+       "items": [
+        {
+         "stem": "Which action supports the idea that Daniel helped Marta?",
+         "options": [
+          "He made labels and moved clothing onto tables.",
+          "He brought the sewing kit and repaired the loose buttons.",
+          "He finished a job elsewhere in the building.",
+          "He asked families to bring only coats."
+         ],
+         "answer": 0,
+         "why": "Daniel made labels 并帮助把衣物移到桌上，是他的具体帮助。",
+         "point": "evidence"
+        },
+        {
+         "stem": "The final description of cooperation is supported by the volunteers' ___.",
+         "options": [
+          "separate arrivals without shared work",
+          "different tasks completed for one exchange",
+          "decision to leave all donations in bags",
+          "agreement to delay opening until all buttons were sewn"
+         ],
+         "answer": 1,
+         "why": "几人分别标记、修补和搬运，为同一个活动共同工作。",
+         "point": "theme"
+        },
+        {
+         "stem": "Which detail shows how the volunteers made the room easier to use?",
+         "options": [
+          "They kept the clothing in the original bags.",
+          "They removed the labels from the tables.",
+          "They cleared a path between the tables.",
+          "They waited outside until families arrived."
+         ],
+         "answer": 2,
+         "why": "cleared a path through the room 使来访者能在桌间行走。",
+         "point": "evidence"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "For a school project, Hana wanted to build a small paper kite that would fly steadily. Her first design rose briefly and then turned toward the ground. She had decorated it carefully, but the bright colors did not explain why it would not stay in the air. Hana took the kite home and wrote down what had happened instead of throwing it away.\n\nThe next afternoon, she compared the two sides and saw that one side was slightly heavier. She removed some tape and tested it again in an open field. The kite flew farther, but it still turned when a stronger breeze came. Hana asked her science teacher for suggestions. The teacher recommended changing only one feature at a time so that Hana could see which change affected the flight.\n\nHana made a longer tail and kept the rest of the kite unchanged. This time it stayed level for several moments before dropping. She recorded the result and tried a second tail made from a lighter strip of paper. The kite remained in the air longer, but the strip tore when she pulled the line. Hana replaced the torn strip and strengthened the point where it was attached.\n\nOn the day of the project display, the kite climbed and stayed steady long enough for the class to see the changes Hana had made. She placed her notes beside the original drawing, including the attempts that had not worked. A classmate asked why she had kept those notes. Hana explained that each test helped her decide what to change next. The final flight reflected her persistence in testing and adjusting the design, rather than the decoration she had first noticed.",
+       "items": [
+        {
+         "stem": "Which action best supports calling Hana persistent?",
+         "options": [
+          "She decorated the first kite brightly.",
+          "She displayed the original drawing.",
+          "She asked her teacher to fix the kite for her.",
+          "She kept testing and adjusting the kite."
+         ],
+         "answer": 3,
+         "why": "多次测试并调整结构，具体体现 persistence。",
+         "point": "evidence"
+        },
+        {
+         "stem": "Which idea best fits the ending of Hana's story?",
+         "options": [
+          "Decoration makes every kite fly steadily.",
+          "Repeated testing can lead to improvement.",
+          "The first design always shows the answer.",
+          "A stronger breeze prevents any useful test."
+         ],
+         "answer": 1,
+         "why": "记录每次测试并据此调整后，风筝最终飞得平稳。",
+         "point": "theme"
+        },
+        {
+         "stem": "Hana's notes were useful because they recorded ___.",
+         "options": [
+          "only the final successful flight",
+          "only the kite's bright colors",
+          "the results of changes and tests",
+          "only the advice her science teacher gave"
+         ],
+         "answer": 2,
+         "why": "wrote down what had happened 和 recorded the result 表明笔记记录测试结果。",
+         "point": "evidence"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

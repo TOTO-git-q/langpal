@@ -1,0 +1,592 @@
+{
+ "id": "reading-information-history",
+ "title": "历史与考古词汇",
+ "goal": "辨认历史与考古词汇，区分遗址证据和历史推断。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "vocab",
+   "label": "辨认历史与考古的常用词"
+  },
+  {
+   "id": "read",
+   "label": "区分证据内容与历史推断"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "雅思 IELTS Academic：课表",
+   "url": "docs/syllabi/ielts.md",
+   "used": "课程范围与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "考古研究的证据来自遗址、器物和器物所在的地层。发现地点、制作年代和用途要分开判断。"
+    },
+    {
+     "box": "A vessel was found near a hearth. Its shape suggests that it may have held liquid."
+    },
+    {
+     "p": "near a hearth 是发现地点。may have held liquid 是根据形状推断的用途。只凭发现地点不能确定用途。"
+    }
+   ]
+  },
+  {
+   "id": "evidence",
+   "type": "table",
+   "title": "词汇表：遗址证据",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "搭配"
+   ],
+   "rows": [
+    [
+     "site",
+     "n.",
+     "遗址",
+     "excavate a site"
+    ],
+    [
+     "excavate",
+     "v.",
+     "发掘",
+     "excavate a settlement"
+    ],
+    [
+     "archaeologist",
+     "n.",
+     "考古学家",
+     "an archaeologist examines a site"
+    ],
+    [
+     "artefact",
+     "n.",
+     "人工制品",
+     "record an artefact"
+    ],
+    [
+     "fragment",
+     "n.",
+     "碎片",
+     "a fragment of pottery"
+    ],
+    [
+     "pottery",
+     "n.",
+     "陶器",
+     "fragments of pottery"
+    ],
+    [
+     "vessel",
+     "n.",
+     "容器",
+     "a clay vessel"
+    ],
+    [
+     "hearth",
+     "n.",
+     "炉床",
+     "beside a hearth"
+    ],
+    [
+     "layer",
+     "n.",
+     "地层",
+     "a layer of soil"
+    ],
+    [
+     "deposit",
+     "n.",
+     "堆积层",
+     "a river deposit"
+    ],
+    [
+     "residue",
+     "n.",
+     "残留物",
+     "food residue"
+    ],
+    [
+     "trace",
+     "n.",
+     "痕迹",
+     "traces of burning"
+    ],
+    [
+     "burial",
+     "n.",
+     "埋葬；墓葬",
+     "a burial site"
+    ],
+    [
+     "settlement",
+     "n.",
+     "聚落",
+     "an early settlement"
+    ],
+    [
+     "context",
+     "n.",
+     "出土环境",
+     "record the context of a find"
+    ]
+   ]
+  },
+  {
+   "id": "dating",
+   "type": "table",
+   "title": "词汇表：年代判断",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "搭配"
+   ],
+   "rows": [
+    [
+     "date",
+     "v.",
+     "确定年代",
+     "date a sample"
+    ],
+    [
+     "chronology",
+     "n.",
+     "年代序列",
+     "establish a chronology"
+    ],
+    [
+     "period",
+     "n.",
+     "时期",
+     "a later period"
+    ],
+    [
+     "century",
+     "n.",
+     "世纪",
+     "the previous century"
+    ],
+    [
+     "era",
+     "n.",
+     "时代",
+     "an earlier era"
+    ],
+    [
+     "ancient",
+     "adj.",
+     "古代的",
+     "an ancient settlement"
+    ],
+    [
+     "medieval",
+     "adj.",
+     "中世纪的",
+     "a medieval building"
+    ],
+    [
+     "relative",
+     "adj.",
+     "相对的",
+     "relative dating"
+    ],
+    [
+     "sequence",
+     "n.",
+     "顺序",
+     "a sequence of layers"
+    ],
+    [
+     "earlier",
+     "adj.",
+     "较早的",
+     "an earlier layer"
+    ],
+    [
+     "later",
+     "adj.",
+     "较晚的",
+     "a later occupation"
+    ],
+    [
+     "sample",
+     "n.",
+     "样本",
+     "a charcoal sample"
+    ],
+    [
+     "estimate",
+     "v.",
+     "估计",
+     "estimate an age"
+    ],
+    [
+     "contemporary",
+     "adj.",
+     "同时期的",
+     "contemporary objects"
+    ],
+    [
+     "occupation",
+     "n.",
+     "居住期",
+     "a period of occupation"
+    ]
+   ]
+  },
+  {
+   "id": "trade",
+   "type": "table",
+   "title": "词汇表：贸易传播",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "搭配"
+   ],
+   "rows": [
+    [
+     "trade",
+     "n.",
+     "贸易",
+     "long-distance trade"
+    ],
+    [
+     "exchange",
+     "n.",
+     "交换",
+     "exchange of goods"
+    ],
+    [
+     "merchant",
+     "n.",
+     "商人",
+     "a travelling merchant"
+    ],
+    [
+     "route",
+     "n.",
+     "路线",
+     "a trade route"
+    ],
+    [
+     "transport",
+     "v.",
+     "运输",
+     "transport goods"
+    ],
+    [
+     "commodity",
+     "n.",
+     "商品",
+     "a valuable commodity"
+    ],
+    [
+     "import",
+     "v.",
+     "输入",
+     "import pottery"
+    ],
+    [
+     "export",
+     "v.",
+     "输出",
+     "export cloth"
+    ],
+    [
+     "origin",
+     "n.",
+     "来源",
+     "identify the origin"
+    ],
+    [
+     "source",
+     "n.",
+     "来源地",
+     "a source of clay"
+    ],
+    [
+     "local",
+     "adj.",
+     "当地的",
+     "local production"
+    ],
+    [
+     "distribution",
+     "n.",
+     "分布",
+     "the distribution of pottery"
+    ],
+    [
+     "circulate",
+     "v.",
+     "流通",
+     "goods circulate between towns"
+    ],
+    [
+     "contact",
+     "n.",
+     "接触",
+     "contact between communities"
+    ],
+    [
+     "spread",
+     "v.",
+     "传播",
+     "techniques spread across regions"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "At a riverside site, excavators found a decorated bowl in a storage pit. The pit contained charcoal from an earlier fire. The bowl resembles vessels made in a neighbouring valley, but resemblance alone cannot establish where it was made. Dark residue inside the bowl suggests that it held food, although the contents have not been identified."
+    },
+    {
+     "p": "storage pit 是发现地点。charcoal 来自更早的一次火，它的年代不是碗的制作年代。residue 说明碗可能盛过食物，具体是什么食物还不知道。"
+    },
+    {
+     "p": "resembles vessels 说的是形状相似。相似只是比较的线索，确定制作地点还要其他证据。"
+    }
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "vocab"
+   ],
+   "groups": [
+    {
+     "fill": "Archaeologists record the context of every find. A si{te} may contain a la{yer} of soil with a pottery frag{ment} beside a hea{rth}. A sam{ple} of charcoal can help researchers esti{mate} a date. The sequence of layers provides rela{tive} dates, while traces of burning provide evid{ence} of fire. The location of each arte{fact} is recorded before it is moved. These records allow later researchers to compare a new discovery with the original con{text}.",
+     "tags": [
+      "vocab",
+      "vocab",
+      "vocab",
+      "vocab",
+      "vocab",
+      "vocab",
+      "vocab",
+      "vocab",
+      "vocab",
+      "vocab"
+     ],
+     "notes": [
+      "site：遗址包含地层。",
+      "layer：layer of soil 是土层。",
+      "fragment：陶器碎片。",
+      "hearth：炉床与燃烧痕迹相关。",
+      "sample：charcoal sample 是木炭样本。",
+      "estimate：estimate a date 是估计年代。",
+      "relative：地层顺序提供相对年代。",
+      "evidence：燃烧痕迹是火的证据。",
+      "artefact：记录器物的位置。",
+      "context：对应首句的出土环境。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "vocab",
+    "read"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A. Excavators found beads in a courtyard beside a kiln. The kiln had been repaired several times.\n\nB. The beads contain a mineral not found in the local clay. Its source may have been distant, but no route has been established.\n\nC. Some beads were unfinished, which suggests that work took place nearby. The courtyard also held a broken vessel.",
+     "items": [
+      {
+       "stem": "Which paragraph states where the beads were found? Choose a paragraph. Options may be used more than once.",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Paragraph C",
+        "All three paragraphs",
+        "No paragraph"
+       ],
+       "answer": 0,
+       "why": "依据是第一段 Excavators found beads in a courtyard beside a kiln，给出了发现地点。",
+       "point": "read"
+      },
+      {
+       "stem": "Which paragraph gives a possible source of material? Choose a paragraph. Options may be used more than once.",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Paragraph C",
+        "All three paragraphs",
+        "No paragraph"
+       ],
+       "answer": 1,
+       "why": "依据是第二段 Its source may have been distant，提出了矿物来源的一种可能。",
+       "point": "read"
+      },
+      {
+       "stem": "Which paragraph gives evidence that work occurred nearby? Choose a paragraph. Options may be used more than once.",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Paragraph C",
+        "All three paragraphs",
+        "No paragraph"
+       ],
+       "answer": 2,
+       "why": "依据是第三段 Some beads were unfinished, which suggests that work took place nearby。未完成的珠子是附近有人加工的证据。",
+       "point": "read"
+      },
+      {
+       "stem": "Which paragraph mentions repairs to a kiln? Choose a paragraph. Options may be used more than once.",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Paragraph C",
+        "All three paragraphs",
+        "No paragraph"
+       ],
+       "answer": 0,
+       "why": "依据是第一段 The kiln had been repaired several times。",
+       "point": "vocab"
+      },
+      {
+       "stem": "Which paragraph mentions an incomplete artefact? Choose a paragraph. Options may be used more than once.",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Paragraph C",
+        "All three paragraphs",
+        "No paragraph"
+       ],
+       "answer": 2,
+       "why": "依据是第三段 Some beads were unfinished。unfinished 就是题干里的 incomplete。",
+       "point": "vocab"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 8,
+   "pass": 0.75,
+   "points": [
+    "vocab",
+    "read"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "fill": "Excavation records preserve information about objects. A si{te} can contain several lay{ers}, each with a different dep{osit} of soil. Researchers record the con{text} of each find before collecting a sam{ple} for analysis. A pottery frag{ment} may retain res{idue} on its inner surface. Such tra{ces} can inform an interpretation of the vessel's use. The possible ori{gin} of the clay is a separate question. A comparison of materials can provide evid{ence}, but a similar appearance alone does not prove a shared source.",
+       "tags": [
+        "vocab",
+        "vocab",
+        "vocab",
+        "vocab",
+        "vocab",
+        "vocab",
+        "vocab",
+        "vocab",
+        "vocab",
+        "vocab"
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A. Excavators working at a settlement beside a tidal inlet uncovered several clay jars. One lay beneath the floor of a former workshop, while others were found outside the building. Their positions were recorded before removal. The floor had been rebuilt, so the team distinguished material below it from objects in the later surface. A position beneath a floor establishes a relationship to that floor, but it does not by itself give the year in which a jar was made.\n\nB. One jar had a narrow neck and a dark deposit on its inner surface. Analysis identified traces of plant material in that deposit. The team therefore proposed that the jar had held plant products, although the examination could not establish which products they were. The neck might have restricted the flow of the contents, but shape alone does not show whether the vessel was used for transport or storage. Other jars from the workshop had wider openings and no comparable deposit.\n\nC. The clay of another jar contained grains matching a source in a valley inland. This suggests a connection with that area, but the vessel could have travelled in several ways. It might have been exchanged as a finished object, or the clay could have been transported before manufacture. No direct record of a route survived at the site. A similar vessel found at a second settlement adds a comparison, rather than proof that both objects followed the same route.\n\nD. A charcoal sample from a sealed layer below the workshop floor was dated separately. The result helps establish when material in that layer accumulated. The charcoal was not part of the jar, however, and its date cannot simply be transferred to the vessel. Researchers compare several kinds of evidence before proposing a chronology for the building and its contents.",
+       "items": [
+        {
+         "stem": "Which paragraph describes traces found inside a vessel? Choose a paragraph. Options may be used more than once.",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D",
+          "No paragraph"
+         ],
+         "answer": 1,
+         "why": "依据是第二段 a dark deposit on its inner surface 和 traces of plant material。题干的 traces found inside a vessel 是它的改写。",
+         "point": "vocab"
+        },
+        {
+         "stem": "Which paragraph reports a possible source of the clay? Choose a paragraph. Options may be used more than once.",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D",
+          "No paragraph"
+         ],
+         "answer": 2,
+         "why": "依据是第三段 grains matching a source in a valley inland，指出了黏土可能的来源。",
+         "point": "read"
+        },
+        {
+         "stem": "Which paragraph states the position of a jar relative to a floor? Choose a paragraph. Options may be used more than once.",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D",
+          "No paragraph"
+         ],
+         "answer": 0,
+         "why": "依据是第一段 One lay beneath the floor of a former workshop。第四段的 below the workshop floor 说的是木炭样本，不是罐。",
+         "point": "read"
+        },
+        {
+         "stem": "Which paragraph explains why a sample's date is not automatically the jar's date? Choose a paragraph. Options may be used more than once.",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D",
+          "No paragraph"
+         ],
+         "answer": 3,
+         "why": "依据是第四段 The charcoal was not part of the jar, however, and its date cannot simply be transferred to the vessel。",
+         "point": "read"
+        },
+        {
+         "stem": "Which paragraph mentions a rebuilt workshop surface? Choose a paragraph. Options may be used more than once.",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D",
+          "No paragraph"
+         ],
+         "answer": 0,
+         "why": "依据是第一段 The floor had been rebuilt。题干的 rebuilt workshop surface 指作坊重建过的地面。",
+         "point": "read"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

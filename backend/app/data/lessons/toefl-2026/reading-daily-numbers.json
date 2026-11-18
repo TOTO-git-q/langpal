@@ -1,0 +1,418 @@
+{
+ "id": "reading-daily-numbers",
+ "title": "广告、时间表、收据",
+ "goal": "在广告、时间表和收据中定位数字，并合并优惠、期限及例外条件。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "lookup",
+   "label": "在表格和列表中找到对应的数字、时间"
+  },
+  {
+   "id": "combine",
+   "label": "合并两处信息并核对条件、例外"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、计分、自适应"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明和官方样题（挖空规则是对照样题和答案看出来的）"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Reading Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-reading.pdf",
+   "used": "第 1 课：三类题的说明和需要的三项基本功"
+  }
+ ],
+ "cards": [
+  {
+   "id": "structure",
+   "type": "table",
+   "title": "结构",
+   "cols": [
+    "位置",
+    "读法",
+    "例"
+   ],
+   "rows": [
+    [
+     "广告项目名",
+     "先确定服务或商品，再读对应价格。",
+     "Helmet rental $4; helmet purchase $28."
+    ],
+    [
+     "时间表行列",
+     "先找日期所在的行，再读起止时间。",
+     "Saturday: 10 a.m.–2 p.m.; Sunday: closed."
+    ],
+    [
+     "收据明细",
+     "分清数量、单价和这一行的小计。",
+     "Chair hire: 3 × $5 = $15."
+    ],
+    [
+     "折扣与附加费",
+     "先确定优惠用在哪一项，再加上不打折的费用。",
+     "Hire $20; discount $2; delivery $6; total $24."
+    ],
+    [
+     "付款与余额",
+     "分清总价、已付金额和还要付的金额。",
+     "Total $40; paid $15; balance $25."
+    ],
+    [
+     "两处信息",
+     "把条件和价格所在的行合起来读。",
+     "Small lockers $3. Large lockers $5. Coupon: small lockers only."
+    ]
+   ]
+  },
+  {
+   "id": "expressions",
+   "type": "table",
+   "title": "常用表达",
+   "cols": [
+    "表达",
+    "含义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "valid only",
+     "只在所写的条件下有效。",
+     "The voucher is valid only on weekdays."
+    ],
+    [
+     "except",
+     "后面所说的时段或对象除外。",
+     "Open daily except Monday."
+    ],
+    [
+     "excluding",
+     "所列金额不含后面的项目。",
+     "The price is $30, excluding delivery."
+    ],
+    [
+     "up to",
+     "表示上限，最多到这个数。",
+     "Discounts of up to 20% are available."
+    ],
+    [
+     "at least",
+     "表示下限，含这个数。",
+     "Reserve at least two seats."
+    ],
+    [
+     "per",
+     "表示计价单位，总价要按数量相乘。",
+     "The charge is $8 per box per day."
+    ],
+    [
+     "from…to… / after",
+     "from…to… 是时间段，after 只给起点。",
+     "Open from 9 to 5. Collections begin after 1."
+    ],
+    [
+     "off",
+     "表示减去的金额或比例。",
+     "10% off a $40 item reduces the price to $36."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "TENT HIRE\nSmall tent: $20 per day\nLarge tent: $35 per day\nWeekend voucher: 10% off tent hire, valid only for bookings of at least two days\nDelivery: $8 per order, excluded from discounts"
+    },
+    {
+     "box": "What is the total for a small tent hired for two weekend days with the voucher and delivery?\n1. $40.00\n2. $43.20\n3. $44.00\n4. $48.00"
+    },
+    {
+     "p": "先找 Small tent 的单价：$20 per day。租 2 天，租金为 $40。租期满足 at least two days 的条件。"
+    },
+    {
+     "p": "优惠只用于租金：$40 × 90% = $36。再加上不打折的 $8 运费，总价为 $44，即第三项。第二项把运费也打了折，第四项漏了优惠。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "单位错误",
+     "A two-day small tent rental costs $20.",
+     "per day 是每天的价格，要乘以天数。"
+    ],
+    [
+     "遗漏下限",
+     "The voucher applies to a one-day booking.",
+     "at least two days 要求不少于 2 天。"
+    ],
+    [
+     "扩大优惠范围",
+     "Delivery also receives 10% off.",
+     "excluded from discounts 说明运费不打折。"
+    ],
+    [
+     "混淆上限",
+     "Every item marked up to 20% off gets 20% off.",
+     "up to 20% 是最高折扣。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "lookup",
+    "combine"
+   ],
+   "groups": [
+    {
+     "label": "Read the notice.",
+     "look": "notice",
+     "text": "TOOL SHARPENING\nKitchen knives: $6 each\nGarden shears: $9 each\nCollection service: $4 per order",
+     "items": [
+      {
+       "stem": "What is the sharpening charge for one pair of garden shears?",
+       "options": [
+        "Six dollars",
+        "Nine dollars",
+        "Four dollars",
+        "Thirteen dollars"
+       ],
+       "answer": 1,
+       "why": "依据是 Garden shears: $9 each，即第二项。上门取件的 $4 另算。",
+       "point": "lookup"
+      }
+     ]
+    },
+    {
+     "label": "Read the notice.",
+     "look": "notice",
+     "text": "COMMUNITY SAUNA\nMonday–Friday: 7 a.m.–9 p.m.\nSaturday: 10 a.m.–4 p.m.\nSunday: 10 a.m.–1 p.m.",
+     "items": [
+      {
+       "stem": "When does the sauna close on Sunday?",
+       "options": [
+        "In the early afternoon",
+        "In the late afternoon",
+        "In the early evening",
+        "In the late evening"
+       ],
+       "answer": 0,
+       "why": "依据是 Sunday: 10 a.m.–1 p.m.，下午 1 点对应 early afternoon。",
+       "point": "lookup"
+      }
+     ]
+    },
+    {
+     "label": "Read the notice.",
+     "look": "notice",
+     "text": "CUSHION COVERS\nStandard cover: $12\nVoucher: $3 off each standard cover, valid only for purchases of at least two covers",
+     "items": [
+      {
+       "stem": "What is the cost of one standard cover?",
+       "options": [
+        "Three dollars",
+        "Nine dollars",
+        "Eighteen dollars",
+        "Twelve dollars"
+       ],
+       "answer": 3,
+       "why": "依据是 valid only for purchases of at least two covers。只买 1 个不能用优惠，按原价 $12，即第四项。",
+       "point": "combine"
+      }
+     ]
+    },
+    {
+     "label": "Read the notice.",
+     "look": "notice",
+     "text": "COAT CLEANING RECEIPT\nCleaning total: $28\nAmount already paid: $10\nBalance due at collection",
+     "items": [
+      {
+       "stem": "How much remains to be paid?",
+       "options": [
+        "Ten dollars",
+        "Twenty-eight dollars",
+        "Eighteen dollars",
+        "Thirty-eight dollars"
+       ],
+       "answer": 2,
+       "why": "依据是 Cleaning total: $28 和 Amount already paid: $10，余额为 $28 − $10 = $18。",
+       "point": "combine"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "lookup",
+    "combine"
+   ],
+   "groups": [
+    {
+     "label": "Read the notice.",
+     "look": "notice",
+     "text": "Fruit Press Booking\nMorning slot: 9 a.m.–noon, $24\nAfternoon slot: 1 p.m.–4 p.m., $30\nCleaning charge: $6 per booking\nCooperative members receive $4 off the slot price. The cleaning charge is not discounted. Collection is available only during the booked slot.",
+     "items": [
+      {
+       "stem": "When does the afternoon slot begin?",
+       "options": [
+        "At nine in the morning",
+        "At twelve noon",
+        "At one in the afternoon",
+        "At four in the afternoon"
+       ],
+       "answer": 2,
+       "why": "依据是 Afternoon slot: 1 p.m.–4 p.m.，下午时段从 1 点开始，即第三项。",
+       "point": "lookup"
+      },
+      {
+       "stem": "What does a member pay for a morning booking including cleaning?",
+       "options": [
+        "Twenty-six dollars",
+        "Twenty dollars",
+        "Thirty dollars",
+        "Thirty-two dollars"
+       ],
+       "answer": 0,
+       "why": "依据是 Morning slot 的 $24、$4 off the slot price 和 Cleaning charge: $6，总价为 $24 − $4 + $6 = $26。",
+       "point": "combine"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "lookup",
+    "combine"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Read the notice.",
+       "look": "notice",
+       "text": "STATION LUGGAGE STORE\nStorage rates per bag\nSmall bag: $4 for up to 3 hours; $7 for more than 3 hours\nLarge bag: $6 for up to 3 hours; $10 for more than 3 hours\nOpening times\nMonday–Friday: 7 a.m.–8 p.m.\nSaturday–Sunday: 9 a.m.–6 p.m.\nAdvance-booking offer: $1 off each small bag stored for more than 3 hours. The offer excludes large bags. All bags must be collected before closing on the same day.",
+       "items": [
+        {
+         "stem": "What is the standard rate for a large bag stored for two hours?",
+         "options": [
+          "Four dollars per bag",
+          "Six dollars per bag",
+          "Seven dollars per bag",
+          "Ten dollars per bag"
+         ],
+         "answer": 1,
+         "why": "依据是 Large bag: $6 for up to 3 hours。2 小时在 3 小时以内，即第二项。",
+         "point": "lookup"
+        },
+        {
+         "stem": "When does the store close on Saturday?",
+         "options": [
+          "At six in the evening",
+          "At seven in the morning",
+          "At eight in the evening",
+          "At nine in the morning"
+         ],
+         "answer": 0,
+         "why": "依据是 Saturday–Sunday: 9 a.m.–6 p.m.，周末晚上 6 点关门，即第一项。",
+         "point": "lookup"
+        },
+        {
+         "stem": "What does an advance booking for one small bag stored for four hours cost?",
+         "options": [
+          "Four dollars",
+          "Five dollars",
+          "Seven dollars",
+          "Six dollars"
+         ],
+         "answer": 3,
+         "why": "依据是 small bag 的 $7 for more than 3 hours 和 $1 off each small bag，费用为 $7 − $1 = $6。",
+         "point": "combine"
+        }
+       ]
+      },
+      {
+       "label": "Read the notice.",
+       "look": "notice",
+       "text": "MAPLE ALTERATIONS — RECEIPT 62\nTrouser hems: 2 pairs × $15 = $30\nJacket sleeve adjustment: $24\nVoucher: 20% off trouser hems only = −$6\nTotal: $48\nDeposit paid: $18\nBalance due: $30\nCollection: Thursday after 3 p.m.\nThursday opening hours: 10 a.m.–7 p.m.\nThe voucher excludes jacket alterations. Collection requires this receipt. Items collected by another person also require written permission from the customer.",
+       "items": [
+        {
+         "stem": "How much was charged for the jacket sleeve adjustment?",
+         "options": [
+          "Fifteen dollars",
+          "Eighteen dollars",
+          "Twenty-four dollars",
+          "Thirty dollars"
+         ],
+         "answer": 2,
+         "why": "依据是 Jacket sleeve adjustment: $24，即第三项。",
+         "point": "lookup"
+        },
+        {
+         "stem": "What is the earliest listed collection time on Thursday?",
+         "options": [
+          "After the shop opens at ten",
+          "After three in the afternoon",
+          "After the shop closes at seven",
+          "At any time the shop is open"
+         ],
+         "answer": 1,
+         "why": "依据是 Collection: Thursday after 3 p.m.，即第二项。10 a.m. 是开门时间，不是取件时间。",
+         "point": "combine"
+        },
+        {
+         "stem": "What must a friend bring when collecting the order?",
+         "options": [
+          "The receipt and written permission from the customer",
+          "The voucher and a new deposit for the jacket",
+          "The receipt and a payment of the full original price",
+          "The voucher and the customer's unaltered trousers"
+         ],
+         "answer": 0,
+         "why": "依据是 Collection requires this receipt 和 also require written permission from the customer。第一项写出了代领要带的两样东西。",
+         "point": "combine"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,440 @@
+{
+ "id": "reading-endings-clauses",
+ "title": "长句的主干与修饰",
+ "goal": "找出长句的主语和谓语，确定修饰成分的对象。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "core",
+   "label": "找出长句的主语和谓语"
+  },
+  {
+   "id": "modifier",
+   "label": "确定从句与短语修饰的对象"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "雅思 IELTS Academic：课表",
+   "url": "docs/syllabi/ielts.md",
+   "used": "课程范围与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "长句的主干是主语和谓语。定语从句、分词短语和同位语补充名词的信息。and、or 等并列连词连接同类的成分。"
+    },
+    {
+     "box": "The samples that survived the fire were stored in a cabinet."
+    },
+    {
+     "p": "主语中心词是 samples，谓语是 were stored。that survived the fire 修饰 samples。"
+    }
+   ]
+  },
+  {
+   "id": "relative",
+   "type": "table",
+   "title": "定语从句",
+   "cols": [
+    "例句",
+    "主干",
+    "修饰对象"
+   ],
+   "rows": [
+    [
+     "The map that the archivist found in a wooden box showed a route across the valley and included several notes about the location of bridges.",
+     "map showed a route",
+     "that 从句修饰 map。"
+    ],
+    [
+     "The volunteers who completed the first task in a quiet room returned the following week to take part in a second study of visual attention.",
+     "volunteers returned",
+     "who 从句修饰 volunteers。"
+    ],
+    [
+     "The samples that remained dry during transport were labelled separately before the team compared them with the material collected from the lower section of the site.",
+     "samples were labelled",
+     "that 从句修饰 samples。"
+    ],
+    [
+     "The bridge which crosses the narrow channel connects the old workshop with a path that leads directly to the river and the storage building beyond it.",
+     "bridge connects workshop with path",
+     "which 从句修饰 bridge。"
+    ]
+   ]
+  },
+  {
+   "id": "participle",
+   "type": "table",
+   "title": "分词短语",
+   "cols": [
+    "例句",
+    "主干",
+    "修饰对象"
+   ],
+   "rows": [
+    [
+     "The jars stored beneath the floor contained fragments of grain, while the vessels placed beside the wall held no visible remains of food or liquid.",
+     "jars contained fragments",
+     "stored 短语修饰 jars。"
+    ],
+    [
+     "The engineer examining the inlet recorded a crack in the pipe before closing the valve and asking a colleague to inspect the damaged section separately.",
+     "engineer recorded a crack",
+     "examining 短语修饰 engineer。"
+    ],
+    [
+     "The notes written during the first survey were compared with a later drawing that showed the same entrance after the surrounding wall had been repaired.",
+     "notes were compared",
+     "written 短语修饰 notes。"
+    ],
+    [
+     "The students working on the model measured the gate before selecting materials that would allow its moving parts to be demonstrated to visitors at a public exhibition.",
+     "students measured the gate",
+     "working 短语修饰 students。"
+    ]
+   ]
+  },
+  {
+   "id": "apposition",
+   "type": "table",
+   "title": "同位语",
+   "cols": [
+    "例句",
+    "主干",
+    "修饰对象"
+   ],
+   "rows": [
+    [
+     "The inlet, a narrow opening at the base of the tank, carried water towards the pump through a short pipe fitted with a removable filter.",
+     "inlet carried water",
+     "a narrow opening 解释 inlet。"
+    ],
+    [
+     "Mara Bell, a researcher in the second group, compared the drawings with the original plan before reporting the differences to the rest of the team.",
+     "Mara Bell compared drawings",
+     "a researcher 解释 Mara Bell。"
+    ],
+    [
+     "The replica, a small model of the original gate, showed how the panels moved when water passed through the channel beneath the glass floor of the museum display.",
+     "replica showed how the panels moved",
+     "a small model 解释 replica。"
+    ],
+    [
+     "The depot, a building beside the old railway, stored replacement parts for the engines that were maintained by skilled workers at the neighbouring repair yard.",
+     "depot stored parts",
+     "a building 解释 depot。"
+    ]
+   ]
+  },
+  {
+   "id": "coordination",
+   "type": "table",
+   "title": "并列成分",
+   "cols": [
+    "例句",
+    "主干",
+    "并列范围"
+   ],
+   "rows": [
+    [
+     "The team measured the inlet and inspected the filter before recording both results in a notebook that was kept beside the pump throughout the trial.",
+     "team measured and inspected",
+     "并列谓语 measured 和 inspected。"
+    ],
+    [
+     "The team measured the inlet and the filter before recording both dimensions in a notebook that was kept beside the pump throughout the first trial.",
+     "team measured inlet and filter",
+     "并列宾语 inlet 和 filter。"
+    ],
+    [
+     "A map of the harbour and a drawing of the bridge were displayed together in the library, where visitors could compare the two representations of the area.",
+     "map and drawing were displayed",
+     "并列主语 map 和 drawing。"
+    ],
+    [
+     "The researcher checked the labels and the dates on the boxes before sending the collection to a second laboratory for further analysis of the contents.",
+     "researcher checked labels and dates",
+     "并列宾语 labels 和 dates。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "core",
+    "modifier"
+   ],
+   "groups": [
+    {
+     "text": "The jars stored beneath the floor contained grain, while the vessels beside the wall held only fragments of pottery from an earlier stage of occupation.",
+     "items": [
+      {
+       "stem": "Which is the main subject and verb of the first clause?",
+       "options": [
+        "jars contained",
+        "the floor stored",
+        "vessels held",
+        "grain stored"
+       ],
+       "answer": 0,
+       "why": "jars 是主语，contained 是谓语。stored beneath the floor 是分词短语，修饰 jars。",
+       "point": "core"
+      }
+     ]
+    },
+    {
+     "text": "The inlet, a narrow opening beside the pump, carried water into a tank where it could be stored until the gardeners needed it during dry weather.",
+     "items": [
+      {
+       "stem": "What does 'a narrow opening' describe?",
+       "options": [
+        "The pump",
+        "The inlet",
+        "The tank",
+        "The water"
+       ],
+       "answer": 1,
+       "why": "a narrow opening 是 inlet 的同位语。",
+       "point": "modifier"
+      }
+     ]
+    },
+    {
+     "text": "The engineer who examined the valve recorded a fault before a colleague replaced the damaged part and tested the flow of water through the pipe.",
+     "items": [
+      {
+       "stem": "Who recorded the fault?",
+       "options": [
+        "The colleague",
+        "The valve",
+        "The engineer",
+        "The damaged part"
+       ],
+       "answer": 2,
+       "why": "主干是 engineer recorded a fault；who 从句修饰 engineer。",
+       "point": "core"
+      }
+     ]
+    },
+    {
+     "text": "The team inspected the cover and repaired the filter before restarting the pump and checking whether the flow had returned to its earlier level.",
+     "items": [
+      {
+       "stem": "What did the team repair?",
+       "options": [
+        "The cover",
+        "The water pump",
+        "The flow",
+        "The filter"
+       ],
+       "answer": 3,
+       "why": "并列谓语 repaired 后的宾语是 the filter。",
+       "point": "modifier"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "core",
+    "modifier"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Complete the sentence about a map that was found in a box.",
+       "lead": "The map",
+       "chunks": [
+        "that",
+        "the archivist",
+        "found",
+        "was damaged"
+       ],
+       "tail": ".",
+       "extra": [
+        "were damaged"
+       ],
+       "why": "that 从句修饰单数 map，主干谓语用 was damaged。",
+       "point": "core"
+      },
+      {
+       "stem": "Complete the sentence about an engineer examining a valve.",
+       "lead": "The engineer",
+       "chunks": [
+        "who",
+        "examined",
+        "the valve",
+        "recorded"
+       ],
+       "tail": "a fault.",
+       "extra": [
+        "examining"
+       ],
+       "why": "who examined the valve 修饰 engineer，recorded 是主干谓语。",
+       "point": "modifier"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "core",
+    "modifier"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "The archivist who opened a sealed box found a drawing of an old gate. The drawing, a plan prepared for a workshop, included measurements of the frame. A photograph stored beside the plan showed the gate after repairs. The archivist compared the drawing and the photograph before recording the differences in a catalogue. The photograph showed a handle absent from the drawing. The catalogue kept the two items separate so that the later handle would not be mistaken for part of the original design. A second archivist checked the entries before the collection was displayed.",
+       "items": [
+        {
+         "stem": "What is the main subject and verb of the first sentence?",
+         "options": [
+          "archivist found",
+          "archivist opened",
+          "box opened",
+          "drawing found"
+         ],
+         "answer": 0,
+         "why": "主语是 archivist，谓语是 found。第二项 archivist opened 是定语从句 who opened a sealed box 里的主谓，不是主干。",
+         "point": "core"
+        },
+        {
+         "stem": "What does 'a plan prepared for a workshop' describe?",
+         "options": [
+          "The old gate",
+          "The drawing",
+          "The sealed box",
+          "The photograph"
+         ],
+         "answer": 1,
+         "why": "a plan prepared for a workshop 是 drawing 的同位语。",
+         "point": "modifier"
+        },
+        {
+         "stem": "Complete the sentence about the drawing found by the archivist.",
+         "lead": "The drawing",
+         "chunks": [
+          "that",
+          "the archivist",
+          "found",
+          "included measurements"
+         ],
+         "tail": ".",
+         "extra": [
+          "include measurements"
+         ],
+         "why": "that the archivist found 修饰 drawing，included 是主干谓语。",
+         "point": "core"
+        },
+        {
+         "stem": "Complete the sentence about the photograph stored beside the plan.",
+         "lead": "The photograph",
+         "chunks": [
+          "that",
+          "was",
+          "stored",
+          "beside the plan"
+         ],
+         "tail": "showed the gate.",
+         "extra": [
+          "were"
+         ],
+         "why": "that was stored beside the plan 修饰 photograph；showed 是谓语。",
+         "point": "modifier"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "The technician examining the pump found a loose cover near its inlet. The cover, a metal plate held by two screws, protected the moving parts from debris. The technician tightened the screws and checked the filter before restarting the pump. A colleague measured the water flow and the pressure after the machine had restarted. The two measurements were entered in separate columns in a record book. This allowed the team to compare later results with the earlier figures. The technician returned the following day to check whether the cover remained secure.",
+       "items": [
+        {
+         "stem": "What is the main subject and verb of the first sentence?",
+         "options": [
+          "pump examined",
+          "cover found",
+          "technician found",
+          "technician examining"
+         ],
+         "answer": 2,
+         "why": "主干是 technician found a loose cover。第四项的 examining 是分词，examining the pump 修饰 technician，不是谓语。",
+         "point": "core"
+        },
+        {
+         "stem": "Which two things did the colleague measure?",
+         "options": [
+          "The screws and the cover",
+          "The water flow and the filter",
+          "The pressure and the inlet",
+          "The flow and the pressure"
+         ],
+         "answer": 3,
+         "why": "measured 后面是并列宾语 the water flow and the pressure。filter 是技术员检查的，第二项只对了一半。",
+         "point": "modifier"
+        },
+        {
+         "stem": "Complete the sentence about the technician examining the pump.",
+         "lead": "The technician",
+         "chunks": [
+          "who",
+          "examined",
+          "the pump",
+          "found"
+         ],
+         "tail": "a loose cover.",
+         "extra": [
+          "examining"
+         ],
+         "why": "who examined the pump 修饰 technician，found 是主干谓语。",
+         "point": "core"
+        },
+        {
+         "stem": "Complete the sentence about the filter checked by the technician.",
+         "lead": "The filter",
+         "chunks": [
+          "that",
+          "the technician",
+          "checked",
+          "was inspected"
+         ],
+         "tail": ".",
+         "extra": [
+          "were inspected"
+         ],
+         "why": "that 从句修饰单数 filter，主干谓语是 was inspected。",
+         "point": "modifier"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

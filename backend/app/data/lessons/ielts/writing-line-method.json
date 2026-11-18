@@ -1,0 +1,70 @@
+{
+ "id": "writing-line-method",
+ "title": "折线图的主要特征",
+ "goal": "识别折线图的总体变化并选择代表数据。",
+ "skill": "写作",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "overview", "label": "识别折线图的总体变化"},
+  {"id": "select", "label": "选择支持总体特征的关键数据"}
+ ],
+ "sources": [
+  {"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "折线图主要特征与数据筛选"}
+ ],
+ "cards": [
+  {"id": "type", "type": "text", "title": "题型", "body": [
+   {"p": "折线图的横轴表示时间，纵轴表示数值。图例说明每条线代表什么，纵轴标题给出指标和单位。动笔前先确认年份范围和单位。"},
+   {"box": "Visitors (thousands)\n30 | S           N\n   |  \\         /\n20 |       X\n   |  /         \\\n10 | N           S\n   +----------------\n     2010  2012  2014  Year\nN = North; S = South; X = both\nNorth: 10, 20, 30; South: 30, 20, 10"},
+   {"p": "North 从 10 千人升到 30 千人，South 从 30 千人降到 10 千人，两线在 2012 年相等。概述写总体变化，细节再用起点、交点和终点支持。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　读取坐标和图例", "d": "确认时间范围、指标和单位。上例的单位是千人，N 对应 North。"},
+   {"t": "2　比较总体变化", "d": "对照各线的起点和终点。North 总体上升，South 总体下降。"},
+   {"t": "3　选择关键数据", "d": "找出最高点、最低点，以及两线相等或交叉的位置。2012 年两条线都是 20 千人，可以支持相等的描述。"},
+   {"t": "4　组织细节", "d": "把变化相近或相反的线放在一起写。用起点、终点和交点支持概述，不逐点罗列。"}
+  ]},
+  {"id": "features", "type": "table", "title": "主要特征", "cols": ["特征", "判读", "例句"], "rows": [
+   ["起点与终点", "同一条线的第一个和最后一个数值。", "North rose from 10,000 to 30,000 visitors."],
+   ["总体方向", "比较首末数值，概括全段的方向。", "North increased overall, while South declined."],
+   ["峰值", "同一条线上的最大值。", "North peaked at 30,000 in 2014."],
+   ["谷值", "同一条线上的最小值。", "South reached a low of 10,000 in 2014."],
+   ["交点", "两线相等之后高低对调，就是交叉。", "The two figures were equal in 2012 before North overtook South."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "The line chart shows the number of visitors to two local gardens over a six-year period. Figures are measured in thousands of people. Summarise the main features and compare the two gardens where relevant, selecting the values that best support the overall patterns.\n\nVisitors (thousands)\n40 | E                 O\n   |  \\               /\n30 |       E     O\n   |         \\ /\n20 |       O     E\n   |  /               \\\n10 | O                 E\n   +----------------------\n     2010  2012  2014  2016  Year\nO = Oak; E = Elm\nOak: 10, 20, 30, 40; Elm: 40, 30, 20, 10"},
+   {"p": "Oak 从 10 升到 40，Elm 从 40 降到 10。2012 年 Oak 低于 Elm，2014 年高于 Elm，两线在这两年之间交叉。首末数值足以支持两条线相反的总体趋势。"},
+   {"box": "Overall, visits to Oak increased, whereas visits to Elm fell. Oak rose from 10,000 to 40,000, while Elm declined from 40,000 to 10,000."}
+  ]},
+  {"id": "errors", "type": "table", "title": "干扰项", "cols": ["情况", "错误的句子", "原因"], "rows": [
+   ["单位", "Oak reached 40 visitors.", "纵轴单位为千人，终点是 40,000 人。"],
+   ["方向", "Both gardens rose overall.", "Elm 从 40 降至 10。"],
+   ["交叉", "The figures were equal in 2012.", "2012 年分别为 20 和 30。"],
+   ["逐点列举", "Oak was 10, then 20, then 30, then 40.", "用首末数值概括总体上升即可。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["overview", "select"], "groups": [{"items": [
+   {"stem": "A series moves from 12 to 18 to 24. Which summary fits?", "options": ["It increased overall.", "It decreased overall.", "It ended at its low.", "It remained unchanged."], "answer": 0, "why": "首末值从 12 升至 24，第一项概括总体上升。", "point": "overview"},
+   {"stem": "A series is 8, 15 and 11. Which value is its peak?", "options": ["The first value, 8", "The middle value, 15", "The final value, 11", "The change of 3"], "answer": 1, "why": "15 是三个数值中最大值，即第二项。", "point": "select"},
+   {"stem": "Series A is 5 then 9; series B is 9 then 5. What happened between the two points?", "options": ["Both series increased.", "Both series decreased.", "Their lines crossed.", "Their values stayed equal."], "answer": 2, "why": "第一条线从低于第二条变为高于第二条，两线之间交叉，即第三项。", "point": "overview"},
+   {"stem": "A line starts at 20, peaks at 40 and ends at 30. Which values support both its peak and final level?", "options": ["20 and 30", "20 and 40", "30 and 20", "40 and 30"], "answer": 3, "why": "峰值是 40，终点是 30，即第四项。", "point": "select"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["overview", "select"], "groups": [{"text": "Daily journeys (thousands)\n40 |                   R\n   |                /\n30 | B           R\n   |  \\       /\n25 |       B\n   |        \\ /\n20 |       R     B\n   |    /          \\\n15 |                   B\n   |  /\n10 | R\n   +----------------------\n     2010  2012  2014  2016  Year\nR = Rail; B = Bus\nRail: 10, 20, 30, 40; Bus: 30, 25, 20, 15", "items": [
+   {"stem": "Which overview describes the two series?", "options": ["Rail rose overall while bus fell.", "Rail fell overall while bus rose.", "Both means rose by the same amount.", "Both means fell by the same amount."], "answer": 0, "why": "Rail 从 10 增至 40，Bus 从 30 降至 15，即第一项。", "point": "overview"},
+   {"stem": "Which pair supports the change in rail journeys?", "options": ["30,000 at first and 15,000 at last", "10,000 at first and 40,000 at last", "20,000 at first and 30,000 at last", "25,000 at first and 20,000 at last"], "answer": 1, "why": "Rail 首末值分别为 10 千和 40 千，即第二项。", "point": "select"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["overview", "select"], "sets": [{"id": "set-a", "groups": [
+   {"text": "Bicycles hired (hundreds)\n8 | P                 C\n  |  \\               /\n6 |       P     C\n  |         \\ /\n4 |       C     P\n  |  /               \\\n2 | C                 P\n  +----------------------\n    2011  2013  2015  2017  Year\nC = Canal; P = Park\nCanal: 2, 4, 6, 8; Park: 8, 6, 4, 2", "items": [
+    {"stem": "Which overview fits the two lines?", "options": ["Canal rose while Park fell overall.", "Canal fell while Park rose overall.", "Both locations rose across the period.", "Both locations fell across the period."], "answer": 0, "why": "Canal 从 2 升至 8，Park 从 8 降至 2，第一项符合。", "point": "overview"},
+    {"stem": "Which values support the overall change at Canal?", "options": ["800 at first and 200 at last", "200 at first and 800 at last", "400 at first and 600 at last", "600 at first and 400 at last"], "answer": 1, "why": "单位是百辆，Canal 首末分别为 200 和 800，即第二项。", "point": "select"},
+    {"stem": "When did the order of the two lines reverse?", "options": ["Between 2015 and 2017", "Between 2011 and 2013", "Between 2013 and 2015", "In 2017, when Canal reached 800"], "answer": 2, "why": "2013 年 Canal 为 4 百，低于 Park 的 6 百；2015 年 Canal 为 6 百，高于 Park 的 4 百。交叉发生在这两年之间，即第三项。", "point": "overview"},
+    {"stem": "Which pair gives the maximum and minimum for Park?", "options": ["800 and 600 bicycles", "600 and 400 bicycles", "400 and 200 bicycles", "800 and 200 bicycles"], "answer": 3, "why": "Park 的最大值是 2011 年的 8 百辆，最小值是 2017 年的 2 百辆，即第四项。", "point": "select"}
+   ]},
+   {"text": "Books borrowed (thousands)\n20 | W                 E\n   |  \\               /\n15 |       W     E\n   |         \\ /\n10 |       E     W\n   |  /               \\\n 5 | E                 W\n   +----------------------\n     2012  2014  2016  2018  Year\nE = East; W = West\nEast: 5, 10, 15, 20; West: 20, 15, 10, 5", "items": [
+    {"stem": "Describe East's overall direction.", "lead": "The", "chunks": ["figure", "for East", "increased overall", "during"], "tail": "the period.", "extra": ["decreased"], "why": "East 从 5 升至 20，increased overall 与数据一致。", "point": "overview"},
+    {"stem": "State the initial and final values for West.", "lead": "West", "chunks": ["fell", "from 20,000", "to", "5,000"], "tail": "books.", "extra": ["rose"], "why": "West 从 20 千降至 5 千，from 表示起点，to 表示终点。", "point": "select"},
+    {"stem": "Compare the two overall directions.", "lead": "East", "chunks": ["rose while", "West fell", "over", "the period"], "tail": ".", "extra": ["rising"], "why": "East 总体上升，West 总体下降；while 连接两个分句。", "point": "overview"},
+    {"stem": "State the peak value of East at the end of the period.", "lead": "East", "chunks": ["peaked", "at", "20,000", "in"], "tail": "2018.", "extra": ["from"], "why": "East 的最高值是 2018 年的 20 千，peaked at 后接数值。", "point": "select"}
+   ]}
+  ]}]} 
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "id": "listening-short-action",
+ "title": "下一步行动题",
+ "goal": "区分提议与决定，核对最终行动的执行者和顺序。",
+ "skill": "听力",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "decision", "label": "听出最终确定的行动"},
+  {"id": "actor", "label": "核对行动的执行者与先后次序"}
+ ],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "下一步行动的教学内容与课程小测规格"}],
+ "cards": [
+  {"id": "type", "type": "text", "title": "题型", "body": [
+   {"p": "下一步行动题问对话结束时已经定下的行动。提议、原计划和被拒绝的方案，都要与最后定下的安排分开。"},
+   {"box": "A: Shall we take the bus?\nB: The bus is late. Let's walk.\nA: All right."},
+   {"p": "take the bus 是提议；Let's walk 得到 All right 的回应，因此双方决定步行。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定人物", "d": "先看题干问的是谁。What will Nina do next 问的是 Nina 的行动。"},
+   {"t": "2　区分方案", "d": "听出提议或原计划，再听对方的回应。Shall we take the bus 是乘车的提议，对方可能接受，也可能拒绝。"},
+   {"t": "3　确认决定", "d": "注意 will、instead 和表示同意的回应。I'll walk instead 表示改为步行。"},
+   {"t": "4　核对顺序", "d": "first、then 和 after 表示行动的先后。I'll call first, then leave 表示先打电话，再离开。"}
+  ]},
+  {"id": "expressions", "type": "table", "title": "计划与决定", "cols": ["类型", "例", "作用"], "rows": [
+   ["提议", "Shall we cycle? — Yes, let's.", "对方回答 Yes, let's，骑车才定下来。"],
+   ["原计划", "I was going to cycle, but I'll walk.", "原计划是骑车，最后决定步行。"],
+   ["将来安排", "I'm going to call Kim after lunch.", "事先定好的安排：午饭后打电话。"],
+   ["当场决定", "The door is locked. I'll find the key.", "will 表示说话时当场做的决定。"],
+   ["替代", "The road is closed; we'll take the train instead.", "instead 引出替代的方案：改乘火车。"],
+   ["回应", "Let's meet at six. — All right.", "All right 表示同意，六点见面定下来。"]
+  ]},
+  {"id": "sequence", "type": "table", "title": "执行者与顺序", "cols": ["对话", "先后与人物", "判断"], "rows": [
+   ["A: I'll fetch the map. B: I'll buy tickets.", "A 取地图，B 买票。", "两项行动分属不同的人。"],
+   ["A: I'll make tea first, then set the table. B: I'll wash cups.", "A 先沏茶，再摆桌。", "first 和 then 表示顺序。"],
+   ["A: Can you call Mei? B: Yes, after I finish this letter.", "B 先写完信，再给 Mei 打电话。", "after 后面是先做的事。"],
+   ["A: I'll pack the plates. B: I'll carry them outside.", "A 装盘子，B 拿出去。", "代词 them 指 plates。"],
+   ["A: Shall I print it? B: No, I'll print it.", "B 打印。", "B 拒绝了 A 的提议，自己打印。"],
+   ["A: You take the books. B: All right; I'll take them upstairs.", "B 把书拿到楼上。", "B 同意，并说明拿到楼上。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A: I was going to collect the chairs. Could you carry the boxes?\nB: The boxes are heavy. I'll collect the chairs instead.\nA: All right. I'll carry the boxes."},
+   {"box": "What will the second speaker do?\n1. Carry the boxes.\n2. Collect the chairs.\n3. Carry the boxes with the first speaker.\n4. Leave the chairs to the first speaker."},
+   {"p": "第二位说话者用 instead 改为去拿椅子。第一位说话者同意，自己搬箱子。第二项是最终的分工。"}
+  ]},
+  {"id": "distractors", "type": "table", "title": "干扰项", "cols": ["类型", "例", "排除方法"], "rows": [
+   ["原计划", "I was going to cycle, but I'll walk → cycle", "答案是改变后的决定：步行。"],
+   ["拒绝方案", "Shall we take the bus? — No, let's walk → take the bus", "被拒绝的方案不选，选 let's 后面的方案。"],
+   ["换人", "I'll fetch the map; you buy tickets → I buy tickets", "逐个核对动作的主语：买票的是对方。"],
+   ["换顺序", "Call first, then leave → leave first", "first 后面的动作在前：先打电话。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["decision", "actor"], "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Shall we take the bus to the swimming pool? It usually stops outside, but the road is closed for repairs today."}, {"who": "B", "text": "Let's walk instead. It isn't far."}, {"who": "A", "text": "All right."}]}, "items": [{"stem": "How will the speakers go to the pool?", "options": ["By the usual bus", "On foot together", "By a different bus", "On foot after repairs"], "answer": 1, "why": "Let's walk instead 得到 All right 的回应，双方决定步行。", "point": "decision"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Mira, can you call the driver about the delivery? I'll put the boxes near the door while you finish writing the address."}, {"who": "B", "text": "Yes, I'll call as soon as I've finished the address."}]}, "items": [{"stem": "What will Mira do before calling the driver?", "options": ["Move the delivery boxes", "Open the delivery door", "Finish writing the address", "Write a note to the driver"], "answer": 2, "why": "Mira 说 as soon as I've finished the address，先写完地址再打电话。", "point": "actor"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["decision", "actor"], "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "I was going to bring the cake to the picnic, but I won't have time to bake it. Could you bring one instead?"}, {"who": "B", "text": "Yes. I'll bake it tonight and bring it tomorrow."}]}, "items": [{"stem": "Who will bring the cake?", "options": ["The first speaker tomorrow", "Both speakers together", "The second speaker after the picnic", "The second speaker tomorrow"], "answer": 3, "why": "第二位说话者接受请求并说 I'll bake it tonight and bring it tomorrow。", "point": "actor"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "The museum is crowded today. We could go to the park instead, or wait here until the next group goes inside."}, {"who": "B", "text": "Let's wait for the next group."}, {"who": "A", "text": "Agreed."}]}, "items": [{"stem": "What will the speakers do?", "options": ["Wait for the next group", "Go to the park now", "Enter with the current group", "Leave after visiting the park"], "answer": 0, "why": "Let's wait for the next group 得到 Agreed 的回应，第一项是决定。", "point": "decision"}]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["decision", "actor"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "I was going to cycle to the concert, but my bicycle has a flat tire. I'll take the train instead and meet you there."}, {"who": "B", "text": "Fine. I'll meet you at the entrance."}]}, "items": [{"stem": "How will the first speaker travel?", "options": ["By train to the concert", "By bicycle to the concert", "By train after fixing the tire", "By bicycle to the entrance"], "answer": 0, "why": "I'll take the train instead 表明改乘火车去音乐会。", "point": "decision"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Leo, could you set the tables for the lunch? I'll wash the cups while you find the clean tablecloths in the cupboard."}, {"who": "B", "text": "Certainly. I'll get the tablecloths and set the tables."}]}, "items": [{"stem": "What will Leo do?", "options": ["Wash the cups for lunch", "Set the tables for lunch", "Wash the tablecloths first", "Find the cups in the cupboard"], "answer": 1, "why": "Leo 回答 I'll get the tablecloths and set the tables，第二项符合他的任务。", "point": "actor"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Shall we move the meeting to Friday? The room is available then, although we could also meet online on Thursday this week."}, {"who": "B", "text": "Let's meet online on Thursday."}, {"who": "A", "text": "That works for me."}]}, "items": [{"stem": "What have the speakers decided?", "options": ["To meet in the room on Friday", "To meet online on Friday", "To meet online on Thursday", "To meet in the room on Thursday"], "answer": 2, "why": "Let's meet online on Thursday 得到 That works 的回应，第三项是最终安排。", "point": "decision"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "I'll pick up the posters from the printer. Would you put them on the noticeboards when I get back to the school?"}, {"who": "B", "text": "Sure. I'll put them up after you return."}]}, "items": [{"stem": "What will the second speaker do after the first returns?", "options": ["Collect posters from the printer", "Return the posters to school", "Print posters for the noticeboards", "Put posters on the noticeboards"], "answer": 3, "why": "第二位说话者答应 I'll put them up after you return，them 指海报。", "point": "actor"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "The shop has run out of red paper for the signs. We could use blue paper, or wait until the red paper arrives tomorrow."}, {"who": "B", "text": "Let's use blue today."}, {"who": "A", "text": "All right."}]}, "items": [{"stem": "What will the speakers use for the signs?", "options": ["Blue paper available today", "Red paper arriving tomorrow", "Red paper available today", "Blue paper arriving tomorrow"], "answer": 0, "why": "Let's use blue today 获得同意，第一项符合决定。", "point": "decision"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Can you deliver the books to Ms King now? I need to phone her about the list, and the books are on the desk."}, {"who": "B", "text": "I'll deliver them after I check the list with you."}]}, "items": [{"stem": "What will the second speaker do first?", "options": ["Phone Ms King about the list", "Check the list with the first speaker", "Deliver the books to Ms King", "Put the books on the desk"], "answer": 1, "why": "after I check the list 表明先核对清单，再送书。", "point": "actor"}]}
+  ]}]} 
+ ]
+}

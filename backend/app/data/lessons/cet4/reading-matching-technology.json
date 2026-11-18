@@ -1,0 +1,98 @@
+{
+ "id": "reading-matching-technology",
+ "title": "数字生活与社会词汇",
+ "goal": "理解数字生活词汇及技术使用的便利和条件。",
+ "skill": "阅读",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "vocab", "label": "识别数字生活词汇及搭配"},
+  {"id": "read", "label": "读懂技术影响与限制条件"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读教学依据"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "数字技术影响信息获取、线上交流和个人数据的使用。阅读这类文章时，要分清技术带来的便利、它的限制和适用条件。"},
+   {"box": "An online notice can reach residents quickly, but it helps only those who can access it."},
+   {"p": "reach residents quickly 是便利。only those who can access it 限定了受益的人。"}
+  ]},
+  {"id": "information", "type": "table", "title": "词汇表：信息获取", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["access", "n.", "使用机会", "The library provides access to online journals."],
+   ["search", "v.", "搜索", "Readers search the catalogue by title."],
+   ["source", "n.", "来源", "The article names its source."],
+   ["website", "n.", "网站", "The website lists the opening hours."],
+   ["browser", "n.", "浏览器", "The page opens in a browser."],
+   ["download", "v.", "下载", "Members can download the guide."],
+   ["upload", "v.", "上传", "Staff upload the schedule each week."],
+   ["digital", "adj.", "数字的", "The archive keeps digital copies."],
+   ["link", "n.", "链接", "The link leads to the catalogue."],
+   ["update", "v.", "更新", "Staff update the information daily."],
+   ["device", "n.", "设备", "The guide can be read on a mobile device."],
+   ["network", "n.", "网络", "The school network connects the computers."],
+   ["online", "adj.", "在线的", "The online catalogue includes old maps."],
+   ["offline", "adj.", "离线的", "The offline copy can be read without a connection."]
+  ]},
+  {"id": "communication", "type": "table", "title": "词汇表：线上交流", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["platform", "n.", "平台", "The platform hosts the group's discussions."],
+   ["message", "n.", "消息", "She sent a message to the group."],
+   ["post", "n.", "帖子", "The post announces a meeting."],
+   ["comment", "n.", "评论", "A reader added a comment below the post."],
+   ["reply", "v.", "回复", "The organizer replied to the question."],
+   ["share", "v.", "分享", "Participants share notes after the meeting."],
+   ["contact", "v.", "联系", "Members can contact the organizer by email."],
+   ["participant", "n.", "参与者", "Each participant received a meeting link."],
+   ["discussion", "n.", "讨论", "The discussion continued online."],
+   ["meeting", "n.", "会议", "The meeting began at noon."],
+   ["screen", "n.", "屏幕", "The schedule appeared on the screen."],
+   ["text", "n.", "文字", "The message contained text and a picture."],
+   ["channel", "n.", "渠道", "Email is one channel for announcements."],
+   ["notify", "v.", "通知", "The organizer will notify members of changes."]
+  ]},
+  {"id": "data", "type": "table", "title": "词汇表：个人数据", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["privacy", "n.", "隐私", "The policy explains how the service protects privacy."],
+   ["personal", "adj.", "个人的", "The form asks for personal details."],
+   ["data", "n.", "数据", "The form collects data about attendance."],
+   ["account", "n.", "账户", "Each member has an account."],
+   ["password", "n.", "密码", "The account requires a password."],
+   ["permission", "n.", "许可", "The app requests permission to use the camera."],
+   ["consent", "n.", "同意", "The organizers asked for consent before sharing names."],
+   ["protect", "v.", "保护", "A password can help protect an account."],
+   ["collect", "v.", "收集", "The form collects contact details."],
+   ["store", "v.", "存储", "The service stores the files online."],
+   ["delete", "v.", "删除", "A member can delete an old message."],
+   ["setting", "n.", "设置", "A setting controls who can see the post."],
+   ["private", "adj.", "私密的", "The group keeps its member list private."],
+   ["public", "adj.", "公开的", "The public notice contains no phone numbers."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A neighborhood group uses an online platform to arrange shared meals. Members post times and reply when they can attend. This allows people to coordinate without meeting in person first. However, a member who has no internet connection may miss a change posted shortly before the meal. The organizer therefore also provides a telephone contact. Members choose whether to share their phone numbers with the group; the public notice contains only the meal time and place."},
+   {"p": "post times 和 reply 说明平台如何帮助安排聚餐。without meeting in person first 指出便利。"},
+   {"p": "no internet connection may miss a change 说明限制。telephone contact 为无法及时查看平台的成员提供另一种联系渠道。"},
+   {"p": "choose whether to share their phone numbers 说明是否公开号码由成员自己决定。public notice 只写时间和地点。"}
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["vocab", "read"], "groups": [
+   {"fill": "A local library provides an online catalogue. Readers can sea{rch} by title and follow a li{nk} to a book's record. A digital dev{ice}, such as a phone, can open the page. Members with an acc{ount} can save a list of titles. The library asks for permi{ssion} before sending messages, and a privacy set{ting} controls who can see the list. Readers may del{ete} old titles, down{load} the list, sh{are} it with friends, or use an off{line} copy without a connection.", "tags": ["vocab", "vocab", "vocab", "vocab", "vocab", "read", "vocab", "vocab", "read", "read"], "notes": [
+    "search：by title 表示按标题搜索。", "link：链接通向书目记录。", "device：手机是可打开页面的设备。", "account：账户可保存书目。", "permission：发送消息前征求许可。", "setting：隐私设置控制可见范围。", "delete：旧标题可从列表删除。", "download：列表可下载。", "share：with friends 表示与朋友分享。", "offline：without a connection 表示离线使用。"
+   ]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["vocab", "read"], "groups": [
+   {"look": "passage", "text": "A neighborhood repair group uses an online message board to arrange visits. Residents post descriptions of broken objects, and volunteers reply with times when they are available. The board makes it possible to compare suggestions before choosing a time. It also keeps earlier replies in one place, so a resident can return to them later.\n\nThe system has limits. A resident who cannot use the board may not see a volunteer's reply. The group therefore leaves a telephone number at a local shop, where residents can ask for help arranging a visit. Volunteers check the telephone messages as well as the board before confirming their plans.\n\nThe group asks residents to describe an object without publishing their home address. After a volunteer and resident agree on a visit, they exchange the address privately. The public board shows the kind of object and the proposed time, but not the address. This arrangement lets members discuss repairs while limiting the personal information shown to everyone.", "items": [
+    {"stem": "What does a volunteer's reply provide?", "options": ["A time when the volunteer is available", "A public list of all residents' addresses", "A record of the shop's opening hours", "A description of the broken object"], "answer": 0, "why": "volunteers reply with times when they are available 说明回复提供可用时间。", "point": "read"},
+    {"stem": "What does the board allow residents to do?", "options": ["Avoid describing the objects that need repair", "Compare suggestions before selecting a time", "Receive a visit without confirming a plan", "Read private addresses on the public board"], "answer": 1, "why": "compare suggestions before choosing a time 说明可先比较建议。", "point": "read"},
+    {"stem": "What does 'privately' mean in the final paragraph?", "options": ["On a board visible to everyone", "Without agreeing on a visit", "Between the people concerned", "Inside the local shop's notice"], "answer": 2, "why": "public board ... not the address 表明地址仅在有关人员之间交换。", "point": "vocab"},
+    {"stem": "Why does the group provide a telephone number?", "options": ["To replace volunteers' repair suggestions", "To keep residents' home addresses off the public board", "To let volunteers confirm visits without the board", "To offer contact to people unable to use the board"], "answer": 3, "why": "A resident who cannot use the board may not see a volunteer's reply 之后的 therefore 引出电话。第三项不对：志愿者确认前电话和留言板都要查看。", "point": "read"},
+    {"stem": "What information appears on the public board?", "options": ["The resident's full home address", "The object type and proposed time", "The private telephone messages", "The telephone number left at the shop"], "answer": 1, "why": "public board shows the kind of object and the proposed time 说明公开信息的范围。", "point": "read"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 8, "pass": 0.75, "points": ["vocab", "read"], "sets": [{"id": "set-a", "groups": [
+   {"fill": "A school group shares a digital calendar. Each member has an acc{ount} and signs in with a pass{word}. The calendar's privacy set{ting} determines who may see an event. Members can upl{oad} a schedule, upd{ate} its time, and del{ete} an event that is cancelled. They can also send a mes{sage} to partic{ipants}. A member who is off{line} cannot see a change until the dev{ice} connects again, so the organizer also posts a paper schedule.", "tags": ["vocab", "vocab", "read", "vocab", "vocab", "vocab", "vocab", "vocab", "read", "read"]},
+   {"look": "passage", "text": "A town museum introduced an online platform for people interested in local history. Members can share photographs and add descriptions of places they recognize. Museum staff check the descriptions against their records before adding them to a public collection. This process brings together information from people who might not otherwise meet. It also lets members contribute at a time that suits them.\n\nThe platform does not reach every resident. Some people do not have a reliable connection at home, and others prefer to bring photographs to the museum. Staff therefore continue to accept contributions in person. They make a digital copy with the owner's agreement and return the original. Both online and in-person contributions are reviewed before publication.\n\nThe museum also gives contributors a choice about personal information. A contributor can allow a name to appear beside a photograph or ask for the photograph to be published without a name. Staff do not publish a home address as part of the collection. The platform offers a convenient way to contribute, but the museum's other arrangements remain necessary for people who cannot or do not wish to use it.", "items": [
+    {"stem": "What does the platform enable members to do?", "options": ["Share photographs and describe locations", "Publish every description without review", "Borrow original photographs from residents", "Replace the museum's public collection"], "answer": 0, "why": "依据是 share photographs and add descriptions of places they recognize，第一项用 describe locations 改写了后半句。", "point": "read"},
+    {"stem": "What does 'contribute' mean in this passage?", "options": ["Remove a reviewed photograph", "Provide material for the collection", "Restrict access to the platform", "Return a visitor's original photograph"], "answer": 1, "why": "contributions 指居民提供的照片等资料，对应为馆藏提供材料。", "point": "vocab"},
+    {"stem": "Why does the museum accept photographs in person?", "options": ["Every member wants a name beside a photograph", "Staff cannot review online contributions", "Some residents lack a connection or prefer visiting", "Residents must leave their originals with the museum"], "answer": 2, "why": "Some people do not have a reliable connection 和 others prefer to bring photographs to the museum 是线下收照片的两个原因，第三项把两者都包括了。", "point": "read"},
+    {"stem": "Which detail can a contributor choose to omit from publication?", "options": ["The historical place shown in every picture", "The museum's records about a photograph", "The museum's review of the submitted description", "The contributor's name beside the photograph"], "answer": 3, "why": "allow a name to appear 或 published without a name 说明投稿者可选择是否署名。", "point": "read"},
+    {"stem": "What does 'public' mean for the collection?", "options": ["Kept only in a contributor's home", "Available for people generally to see", "Exchanged only between two staff members", "Stored without any descriptions of places"], "answer": 1, "why": "public collection 指向公众开放的馆藏；公开姓名由投稿者选择。", "point": "vocab"}
+   ]}
+  ]}]}
+ ]
+}

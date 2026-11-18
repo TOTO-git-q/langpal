@@ -1,0 +1,55 @@
+{
+ "id": "translation-relative",
+ "title": "补充说明与定语从句",
+ "goal": "能确定定语从句的先行词并选择适当的关系词。",
+ "skill": "翻译",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "antecedent", "label": "确定补充说明修饰的对象"},
+  {"id": "clause", "label": "选择关系词并组成清楚的从句"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译教学范围"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "定语从句修饰前面的名词，即先行词。关系词连接从句，并在从句中承担成分。先确定说明的人或物，再确定从句缺少主语、宾语还是地点状语。"},
+   {"box": "The artist who painted the wall lives nearby. / The studio where she works is open today."}
+  ]},
+  {"id": "relations", "type": "table", "title": "先行词与关系词", "cols": ["先行词", "用法", "例句"], "rows": [
+   ["人物", "who 可作从句的主语。", "那位修复壁画的画家住在附近。 / The artist who restored the mural lives nearby."],
+   ["人物", "先行词作主句宾语时，who 仍作从句的主语。", "我们拜访了那位教授书法的老师。 / We visited the teacher who taught calligraphy."],
+   ["物品", "which 可作从句的主语或宾语。", "这本介绍陶器的书摆在桌上。 / The book which describes pottery is on the table."],
+   ["物品", "which 可作从句的宾语。", "她保存了祖母编织的篮子。 / She kept the basket which her grandmother wove."],
+   ["地点", "where 作从句的地点状语。", "这是工匠制作木船的工坊。 / This is the workshop where craftspeople make wooden boats."],
+   ["地点", "地点词作从句宾语时可用 which。", "他们参观了工人去年修复的剧院。 / They visited the theater which workers restored last year."]
+  ]},
+  {"id": "punctuation", "type": "table", "title": "限定与补充", "cols": ["关系", "标点", "例句"], "rows": [
+   ["必要限定", "从句区分所指对象，前面不用逗号。", "The guide who speaks French leads this group."],
+   ["补充说明", "已确定的对象后加逗号，再补充信息。", "Maya, who speaks French, leads this group."],
+   ["必要限定", "从句说明是哪一个物品，前面不用逗号。", "The vase which has a blue rim is on the shelf."],
+   ["补充说明", "物品已经确定，从句前后加逗号。", "This vase, which has a blue rim, is on the shelf."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "这位老师教授书法，她住在学校附近。\nThe teacher, who teaches calligraphy, lives near the school."},
+   {"p": "who 指代 teacher，在从句中作 teaches 的主语。逗号表示老师已经确定，教授书法是补充的信息。"}
+  ]},
+  {"id": "check-object", "type": "check", "title": "练习一", "points": ["antecedent"], "groups": [{"items": [
+   {"stem": "这位画家修复了壁画，她住在附近。In 'The artist, who restored the mural, lives nearby', what does who refer to?", "options": ["the artist", "the mural", "the nearby studio", "the restoration"], "answer": 0, "why": "who 紧接 artist，指修复壁画的画家。", "point": "antecedent"},
+   {"stem": "这本书介绍陶器，它放在桌上。In 'The book, which describes pottery, is on the table', what does which refer to?", "options": ["the pottery", "the table", "the book", "the description"], "answer": 2, "why": "which 紧接 book，指介绍陶器的书。", "point": "antecedent"}
+  ]}]},
+  {"id": "check-clause", "type": "check", "title": "练习二", "points": ["clause"], "groups": [{"items": [
+   {"stem": "这是工匠制作木船的工坊。 This is the workshop ___ craftspeople make wooden boats. Use a relative adverb.", "accept": ["where"], "why": "where 指工坊并在从句中作地点状语。", "point": "clause"},
+   {"stem": "教授书法的老师住在学校附近。", "lead": "The teacher", "chunks": ["who teaches", "calligraphy", "lives near", "the school"], "tail": ".", "extra": ["where"], "why": "who 指老师并作 teaches 的主语。", "point": "clause"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["antecedent", "clause"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "这位工匠制作木船，他住在河边。In 'The craftsperson, who makes boats, lives by the river', what does who refer to?", "options": ["the river", "the boats", "the craftsperson", "the workshop"], "answer": 2, "why": "who 指制作船只的 craftsperson。", "point": "antecedent"},
+   {"stem": "这个花瓶有蓝色边缘，它放在架上。In 'This vase, which has a blue rim, is on the shelf', what does which refer to?", "options": ["the shelf", "the vase", "the blue rim", "the rim"], "answer": 1, "why": "which 指有蓝色边缘的 vase。", "point": "antecedent"},
+   {"stem": "这是工匠制作篮子的工坊。", "options": ["This is the workshop which makes baskets.", "This is the workshop which craftspeople make baskets.", "This is the workshop where craftspeople make baskets there.", "This is the workshop where craftspeople make baskets."], "answer": 3, "why": "工坊是制作篮子的地点。从句已有主语和宾语，缺的是地点状语，所以用 where，即第四项；第二项的 which 在从句中没有成分可充当。", "point": "clause"},
+   {"stem": "教授书法的老师住在附近。", "options": ["The teacher who teaches calligraphy lives nearby.", "The teacher who teaches calligraphy live nearby.", "The teacher who he teaches calligraphy lives nearby.", "The teacher which teaches calligraphy lives nearby."], "answer": 0, "why": "老师是人，从句缺主语，用 who；主句主语 teacher 是单数，用 lives，即第一项。", "point": "clause"},
+   {"stem": "修复壁画的画家住在村里。", "lead": "The artist", "chunks": ["who restored", "the mural", "lives in", "the village"], "tail": ".", "extra": ["where"], "why": "who 指画家并作 restored 的主语。", "point": "clause"},
+   {"stem": "这本介绍陶器的书放在桌上。", "lead": "The book", "chunks": ["which describes", "pottery", "is on", "the table"], "tail": ".", "extra": ["where"], "why": "which 指书并作 describes 的主语。", "point": "clause"},
+   {"stem": "这位老师教授书法，她住在附近。 The teacher, ___ teaches calligraphy, lives nearby. Use a relative pronoun.", "accept": ["who"], "why": "who 指 teacher 并作从句的主语。", "point": "antecedent"},
+   {"stem": "这就是人们学习制作陶器的工坊。 This is the workshop ___ people learn to make pottery. Use a relative adverb.", "accept": ["where"], "why": "where 指 workshop 并在从句中表示地点。", "point": "antecedent"}
+  ]}]}]}
+ ]
+}

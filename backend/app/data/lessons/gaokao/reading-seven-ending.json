@@ -1,0 +1,66 @@
+{
+ "id": "reading-seven-ending",
+ "title": "段尾结句与承接句",
+ "goal": "依据段内信息和下段内容判断段尾句。",
+ "skill": "阅读",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "conclude", "label": "选出由段内信息支持的结句"},
+  {"id": "bridge", "label": "判断段尾句与下一段的承接关系"}
+ ],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "教学内容与课程练习规格"}],
+ "cards": [
+  {"id": "type", "type": "text", "title": "题型", "body": [
+   {"p": "段尾句有三种作用：概括本段，说出由前文得出的结果，引向下一段。判断时先看本段的细节，再看下一段的话题。"},
+   {"box": "The group sorted the photographs and recorded their dates. These steps made the collection easier to search."},
+   {"p": "These steps 概括分类与记录日期，后半句指出两项工作的共同作用。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　概括本段", "d": "找出主要细节和它们的共同作用。sorted 和 recorded their dates 都是在整理照片。"},
+   {"t": "2　判断结句作用", "d": "看候选句是概括细节，还是说出结果。made the collection easier to search 是这些整理工作的结果。"},
+   {"t": "3　核对下一段", "d": "承接句要把本段和下段的话题连起来。下一段讲保存，段尾就先提出保存这件事。"}
+  ]},
+  {"id": "roles", "type": "table", "title": "段尾句的作用", "cols": ["作用", "段内信息与结句", "依据"], "rows": [
+   ["概括", "The team checked the date and place. These checks prevented confusion.", "两项核对有共同作用"],
+   ["概括", "The guide lists buses and trains. It offers several travel choices.", "两种交通构成多种选择"],
+   ["结果", "The path was flooded. As a result, the walk was postponed.", "积水导致行程推迟"],
+   ["结果", "The labels were too small. Visitors therefore asked staff for help.", "标签难辨带来求助"],
+   ["承接", "The books were selected. They still needed a place to be displayed.", "下段可展开陈列地点"],
+   ["承接", "The route was chosen. The group next considered the time of departure.", "下段可展开出发时间"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "The club sorted its photographs by year and placed them in labeled folders. Members could now find images from a particular event more quickly. ____\n\nThe next concern was preservation. The folders needed a dry place away from direct sunlight.\n\n1. The club also needed to protect the organized collection.\n2. The club had sorted its photographs by year.\n3. Every photograph was taken in direct sunlight.\n4. Members should take more photographs at each event."},
+   {"p": "第一项承接整理好的照片，又引出下一段的 preservation。第二项只重复分类的细节。第三项把保存条件写成了拍摄条件。"}
+  ]},
+  {"id": "distractors", "type": "table", "title": "干扰项", "cols": ["类型", "例", "原因"], "rows": [
+   ["新增无关建议", "例题第四项建议多拍照片。", "本段讲整理照片，不讲拍照。"],
+   ["重复局部细节", "例题第二项重复按年份分类。", "既没有概括本段，也没有引向下段。"],
+   ["提前展开", "直接详列下段的保存步骤。", "保存步骤是下一段的内容。"],
+   ["关系改变", "例题第三项改变了 sunlight 的作用。", "原文的 sunlight 是保存时要避开的。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["conclude", "bridge"], "groups": [
+   {"look": "passage", "text": "The volunteers checked the meeting time and confirmed the address. They sent both details to the speakers. ____", "items": [{"stem": "Which sentence best ends the paragraph?", "options": ["The speakers checked the meeting time again.", "The volunteers canceled the meeting.", "These checks helped speakers prepare to attend.", "The address was the only detail sent to speakers."], "answer": 2, "why": "依据是 checked the meeting time、confirmed the address 和 sent both details to the speakers。第三项概括了这些核对的作用。", "point": "conclude"}]},
+   {"look": "passage", "text": "The power failed during the rehearsal. The stage lights went out, and the actors could not see their marks. ____", "items": [{"stem": "Which sentence best ends the paragraph?", "options": ["The rehearsal paused until the lights returned.", "The actors turned off the stage lights themselves.", "The marks became brighter after the power failed.", "The rehearsal continued with all lights working."], "answer": 0, "why": "依据是 lights went out 和 could not see their marks。演员看不见位置，排练只能暂停，即第一项。", "point": "conclude"}]},
+   {"look": "passage", "text": "The team chose the illustrations for its booklet. ____\n\nThe printing shop offered two paper sizes. The team compared their costs before deciding.", "items": [{"stem": "Which sentence best connects the paragraphs?", "options": ["The illustrations were the only images selected.", "The shop had already printed every copy of the booklet.", "The team removed the pictures from its booklet.", "The team then needed to consider printing choices."], "answer": 3, "why": "本段讲选插图，下段讲纸张尺寸和费用。第四项的 printing choices 把两段连起来。", "point": "bridge"}]},
+   {"look": "passage", "text": "Students agreed on the topics for their radio program. ____\n\nThey invited two local musicians to speak about their work. Both accepted the invitation.", "items": [{"stem": "Which sentence best connects the paragraphs?", "options": ["The musicians had already recorded the program.", "The students next needed to find suitable guests.", "The topics were removed from the radio program.", "The program contained no interviews with guests."], "answer": 1, "why": "下段写邀请两位音乐人。第二项的 find suitable guests 引出了这件事。", "point": "bridge"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["conclude", "bridge"], "groups": [
+   {"look": "passage", "text": "A town group prepared a guide to its public gardens. Volunteers visited each garden, noted its opening hours and checked the location of its entrance. They compared their notes before writing the guide. ____\n\nThe guide also needed to reach residents. The group asked the library to place copies near its entrance and offered a version on the town website. ____", "items": [
+    {"stem": "Which sentence best fills the first gap?", "options": ["The visits provided information for the guide.", "The library placed copies near its entrance.", "The opening hours were removed from the notes.", "The volunteers had not visited any of the gardens."], "answer": 0, "why": "visited、noted 和 checked 都在为指南收集资料，第一项概括了这些行动。第二项是下一段的内容。", "point": "conclude"},
+    {"stem": "Which sentence best fills the second gap?", "options": ["The volunteers then visited each garden again.", "The volunteers stopped checking the opening hours.", "These channels made the guide available in two forms.", "Only the library would hold copies of the printed guide."], "answer": 2, "why": "依据是图书馆的 copies 和网站上的 version，指南有纸质和网上两种形式，即第三项。第四项漏掉了网站。", "point": "conclude"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["conclude", "bridge"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A school wanted to collect stories about an old playground. Students interviewed former pupils and asked them to describe games they had played. They also compared old photographs with the present site. ____\n\nThe information was gathered, but it needed an audience. ____ The students planned a display in the school hall, where families could read short extracts and look at the photographs.\n\nBefore opening the display, the students checked the text with the people they had interviewed. One person corrected the date of a photograph. Another clarified the name of a game. ____", "items": [
+    {"stem": "Which sentence best fills the first gap?", "options": ["The students then planned a display in the hall.", "The photographs replaced all the interviews.", "Former pupils described the games they had played.", "These sources offered different views of the playground."], "answer": 3, "why": "访谈和新旧照片对比是两种资料来源，第四项概括了两者。第一项是第二段的内容。", "point": "conclude"},
+    {"stem": "Which sentence best fills the second gap?", "options": ["The hall was closed before the interviews began.", "The students considered how to share the material.", "Every family had already read the extracts at home.", "The students decided to remove all photographs."], "answer": 1, "why": "前句说资料已收集、还需要观众，后句写展览计划。第二项的 share the material 前后都接得上。", "point": "bridge"},
+    {"stem": "Which sentence best fills the third gap?", "options": ["The display opened before anyone checked it.", "The people refused to discuss any of the games.", "The review helped make the display more accurate.", "The photographs showed only the present site."], "answer": 2, "why": "依据是 corrected the date 和 clarified the name，两处修改都让展览更准确，即第三项。", "point": "conclude"}
+   ]},
+   {"look": "passage", "text": "A neighborhood center planned a repair event. Organizers listed objects that volunteers could help mend, including clothing and small wooden items. They matched these tasks with the skills volunteers had offered. ____\n\nThe organizers had a list of tasks, but they also needed a place to work. ____ They chose a room with several tables and enough space for visitors to wait. The room was available throughout the afternoon.\n\nFinally, the team told residents what to bring and when to arrive. A notice listed the accepted items and the event hours. The local library displayed it beside the entrance. ____", "items": [
+    {"stem": "Which sentence best fills the first gap?", "options": ["The list connected repair needs with available skills.", "The volunteers had no skills for any listed tasks.", "The organizers next chose a room for the event.", "The organizers removed all clothing from the list."], "answer": 0, "why": "依据是 matched these tasks with the skills volunteers had offered。第一项概括了清单的作用：把修理需求和志愿者的技能对上。", "point": "conclude"},
+    {"stem": "Which sentence best fills the second gap?", "options": ["The volunteers had already repaired every object.", "The team matched each task with a volunteer.", "The team considered the requirements for a room.", "The team told residents when to arrive."], "answer": 2, "why": "前句说还需要工作的地方，后句写桌子、等候空间和可用时间。第三项提出对房间的要求，前后都接得上。", "point": "bridge"},
+    {"stem": "Which sentence best fills the third gap?", "options": ["The room stayed available through the afternoon.", "The notice helped residents prepare for the event.", "The team kept the accepted items secret from residents.", "Volunteers listed the skills they could offer."], "answer": 1, "why": "依据是 A notice listed the accepted items and the event hours。居民据此知道带什么、何时来，即第二项。", "point": "conclude"}
+   ]}
+  ]}]}]
+}

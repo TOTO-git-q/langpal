@@ -1,0 +1,490 @@
+{
+ "id": "writing-reason",
+ "title": "理由的因果展开",
+ "goal": "选择能解释理由的中间环节；排列因果关系清楚的论证句。",
+ "skill": "写作",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "explain",
+   "label": "选择能解释理由的中间环节"
+  },
+  {
+   "id": "link",
+   "label": "排列因果关系清楚的论证句"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语六级（CET-6）：课表",
+   "url": "docs/syllabi/cet6.md",
+   "used": "写作部分：理由的因果展开；内容范围、知识点与客观题规格。"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "展开理由时，先说行为改变了什么，再说这个变化怎样带来结果。中间的作用机制要写出来，不能用 useful、effective 这类评价词代替。把结论换个说法再说一遍，也不算支持。"
+    },
+    {
+     "box": "A checklist can reduce omissions because it makes each required step visible before a worker confirms completion, allowing unfinished steps to be noticed."
+    },
+    {
+     "p": "checklist 是措施。makes each required step visible 是中间机制。allowing unfinished steps to be noticed 把机制连到减少遗漏。只写 A checklist is useful because it is helpful，就没有因果解释。"
+    }
+   ]
+  },
+  {
+   "id": "chains",
+   "type": "table",
+   "title": "行为与作用机制",
+   "cols": [
+    "缺少中间环节",
+    "行为",
+    "作用机制",
+    "结果"
+   ],
+   "rows": [
+    [
+     "A project log improves coordination because coordination becomes better.",
+     "Record each completed task in a shared log.",
+     "The next worker can see which steps are already finished.",
+     "Work can continue without repeating the same step."
+    ],
+    [
+     "Short practice sessions improve progress because learners make progress.",
+     "Separate a difficult action into brief practice sessions with review.",
+     "A learner can notice a specific error before repeating the action.",
+     "The next attempt can target that error."
+    ],
+    [
+     "Clear containers reduce waste because less material is wasted.",
+     "Store reusable pieces in transparent, labeled containers.",
+     "Users can identify available pieces before opening new supplies.",
+     "Existing material is more likely to be used."
+    ],
+    [
+     "An agenda improves discussion because meetings become more effective.",
+     "Circulate a short agenda before a committee meeting.",
+     "Members can prepare information relevant to each decision.",
+     "Less meeting time is spent reconstructing basic background."
+    ],
+    [
+     "A sample improves instructions because instructions become clearer.",
+     "Show a completed sample beside written assembly instructions.",
+     "The sample makes the intended relationship between parts visible.",
+     "A learner can compare the current arrangement with the target."
+    ],
+    [
+     "A rotation improves fairness because duties become fairer.",
+     "Publish a rotation showing who completes each shared duty.",
+     "Members can see how work is distributed across the group.",
+     "Unequal assignments can be identified and reconsidered."
+    ]
+   ]
+  },
+  {
+   "id": "connectors",
+   "type": "table",
+   "title": "因果关系与句式",
+   "cols": [
+    "关系",
+    "例句",
+    "写法"
+   ],
+   "rows": [
+    [
+     "先结果后原因",
+     "A shared log reduces duplicate work because the next worker can see which steps have already been completed by another team member.",
+     "because 后面写机制，不换个说法重复结果。"
+    ],
+    [
+     "先原因后结果",
+     "Because the sample shows the intended arrangement of the parts, a learner can compare an unfinished assembly with a visible target.",
+     "句首的原因从句后面要接主句，不能单独成句。"
+    ],
+    [
+     "目的与结果",
+     "A rota is published so that members can check the allocation of duties; whether the allocation improves still depends on later decisions.",
+     "so that 表示目的，效果还没有发生。"
+    ],
+    [
+     "有限作用",
+     "Transparent containers can reduce unnecessary purchases when users consult them before ordering new material for a project that is about to begin.",
+     "can 和 when 保留了条件：用户先查看，才会减少采购。"
+    ],
+    [
+     "因果方向",
+     "Members prepare relevant information because they receive the agenda in advance, not because the meeting has already finished more quickly.",
+     "机制在前，结果在后，不写成结果导致了行为。"
+    ]
+   ]
+  },
+  {
+   "id": "errors",
+   "type": "table",
+   "title": "常见错误",
+   "cols": [
+    "类型",
+    "原句",
+    "补足依据"
+   ],
+   "rows": [
+    [
+     "同义重复",
+     "The agenda saves time because it makes the meeting shorter.",
+     "Advance topics allow members to prepare needed information."
+    ],
+    [
+     "只有背景",
+     "The containers were bought during the summer.",
+     "Their visible contents help users find reusable material."
+    ],
+    [
+     "中间缺失",
+     "A sample exists, so assembly must be correct.",
+     "Comparison with the sample can reveal misplaced parts."
+    ],
+    [
+     "结果倒置",
+     "The log is updated because duplicate work has already disappeared.",
+     "The updated log makes completed tasks visible before work resumes."
+    ],
+    [
+     "保证过强",
+     "A rota ensures that every member will accept every assignment.",
+     "A visible allocation allows uneven duties to be questioned."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A small theatre group should label the purpose of each rehearsal segment. Performers otherwise spend time guessing whether a scene is being rehearsed for movement, timing, or vocal delivery. A label identifies the current focus before the segment begins. That shared focus lets performers direct their attention to the relevant feature instead of changing several unrelated features at once. The proposal could make feedback more focused, provided that the director keeps the labels consistent with the actual rehearsal plan."
+    },
+    {
+     "p": "行为是标明排练目的。中间机制是事先明确大家共同的关注点。结果是反馈更集中。provided that 要求标签与实际安排一致，这个条件不能省略。"
+    },
+    {
+     "box": "Candidate support: The labels improve rehearsal because they make rehearsals better.\nRevised support: Because the labels identify the current focus, performers can direct their attention to the same feature before discussing changes."
+    },
+    {
+     "p": "候选句的 improve 和 better 是同义重复。修改后的句子用 identify the current focus 说明标签怎样引导注意力，所以能支持反馈更集中的结论。"
+    }
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "explain",
+    "link"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "Claim: A shared glossary can reduce misunderstanding in a volunteer translation project. Action: Members agree on a short definition for each recurring term.",
+     "items": [
+      {
+       "stem": "Which sentence supplies the missing mechanism?",
+       "options": [
+        "The glossary lists the recurring terms that occur throughout the translation project.",
+        "The project benefits because misunderstanding becomes less common among the volunteers.",
+        "Members can check the same intended meaning before interpreting each other's drafts.",
+        "The members finish a glossary after all their translations have been approved."
+       ],
+       "answer": 2,
+       "why": "agree on a short definition 让成员有了共同的词义。第三项 check the same intended meaning 说明了误解怎样减少。",
+       "point": "explain"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Claim: Keeping a brief maintenance record can help a bicycle club plan repairs. The record lists recurring faults for each shared bicycle.",
+     "items": [
+      {
+       "stem": "Which support explains how the record helps?",
+       "options": [
+        "The record shows repeated faults, so the club can choose which bicycles to repair first.",
+        "Repairs are easier to plan because the club finds repair planning less difficult than before.",
+        "The record is kept by a club that owns several shared bicycles.",
+        "The bicycle club records only the faults that have never happened to its shared bicycles."
+       ],
+       "answer": 0,
+       "why": "lists recurring faults 让重复出现的故障显现出来，俱乐部据此决定先修哪辆车，即第一项。",
+       "point": "explain"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Claim: Publishing a meeting's decision question in advance can improve preparation. The question specifies which alternatives members must compare.",
+     "items": [
+      {
+       "stem": "Which support merely repeats the claim?",
+       "options": [
+        "The question directs members toward information relevant to the alternatives.",
+        "Preparation improves because members become better prepared for the meeting.",
+        "Members can collect comparable details about each alternative before arriving.",
+        "The stated choice limits the background information members need to gather."
+       ],
+       "answer": 1,
+       "why": "Preparation improves 和 become better prepared 是同义重复，即第二项。它没有说明问题怎样引导成员准备。",
+       "point": "explain"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Claim: Keeping the same names for document versions can reduce confusion during review. The names indicate which draft each comment concerns.",
+     "items": [
+      {
+       "stem": "Which sentence connects the naming rule with the expected result?",
+       "options": [
+        "Review becomes clearer because there is less confusion among reviewers about the drafts.",
+        "Draft names are printed on the shared document folder that the review team uses.",
+        "Comments become final decisions before the reviewers have read any of the named drafts.",
+        "Reviewers can attach each comment to its intended draft rather than to another one."
+       ],
+       "answer": 3,
+       "why": "which draft each comment concerns 对应第四项的 attach each comment to its intended draft，意见不会放到别的版本上。",
+       "point": "explain"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "explain",
+    "link"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Explain how a marked fill line helps volunteers prepare equal portions.",
+       "lead": "Volunteers can prepare equal portions",
+       "chunks": [
+        "because the marked line",
+        "gives each person",
+        "the same reference",
+        "for filling"
+       ],
+       "tail": "a container instead of requiring a separate estimate of its intended contents on every occasion.",
+       "extra": [
+        "giving each person"
+       ],
+       "why": "because 后面用谓语 gives，说明大家共用一条刻度线。for filling 说明这个参照的用途。",
+       "point": "link"
+      },
+      {
+       "stem": "Explain how an index helps a group locate a decision in a long record.",
+       "lead": "The index can save search time",
+       "chunks": [
+        "because it links",
+        "each decision topic",
+        "to the place",
+        "where the discussion"
+       ],
+       "tail": "is recorded, allowing group members to consult the relevant passage without reading the entire document again.",
+       "extra": [
+        "linking"
+       ],
+       "why": "because it links 引出机制。to the place where the discussion is recorded 把议题和记录的位置对应起来。",
+       "point": "link"
+      },
+      {
+       "stem": "Connect listing required materials with identifying missing supplies before a workshop.",
+       "lead": "A materials list helps preparation",
+       "chunks": [
+        "because participants can compare",
+        "the required items",
+        "with the supplies",
+        "they already have"
+       ],
+       "tail": "and identify anything missing before arriving at the workshop where those materials will be needed.",
+       "extra": [
+        "compared"
+       ],
+       "why": "compare … with … 写出了机制：把所需物品和已有物品对照，就能发现缺什么。",
+       "point": "explain"
+      },
+      {
+       "stem": "Connect a visible waiting list with knowing when a shared device becomes available.",
+       "lead": "A visible waiting list reduces uncertainty",
+       "chunks": [
+        "because users can see",
+        "whose turn follows",
+        "the current booking",
+        "rather than guess"
+       ],
+       "tail": "whether a shared device will become available to them when the present user finishes the assigned session.",
+       "extra": [
+        "seeing"
+       ],
+       "why": "can see whose turn follows 说明先后顺序看得见。rather than guess 点出和原来不确定状态的区别。",
+       "point": "explain"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "explain",
+    "link"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A debate society asks members to send questions before a visiting speaker arrives. The questions are grouped by topic and passed to the speaker in advance. This allows the speaker to prepare examples that address recurring difficulties rather than choose examples without knowing the audience's needs. The resulting discussion may be more relevant, although new questions can still arise. The benefit depends on the connection between advance questions, targeted preparation, and the examples used during the session.",
+       "items": [
+        {
+         "stem": "Which sentence identifies the intermediate mechanism?",
+         "options": [
+          "The discussion becomes more relevant because it becomes more useful to members.",
+          "The grouped questions reveal recurring needs that can guide the speaker's preparation.",
+          "The society receives questions from members before hosting a visiting speaker.",
+          "The speaker's arrival determines which questions members have already submitted."
+         ],
+         "answer": 1,
+         "why": "依据是 prepare examples that address recurring difficulties。第二项写出了中间环节：分组后的问题显示共同需求，用来指导准备。",
+         "point": "explain"
+        },
+        {
+         "stem": "Which addition would only restate the desired result?",
+         "options": [
+          "The speaker can select examples matching difficulties mentioned by several members.",
+          "Grouping questions shows which topics require attention during preparation.",
+          "The discussion gains relevance because it becomes more relevant to its audience.",
+          "Advance questions reveal needs that might otherwise remain unknown to the speaker."
+         ],
+         "answer": 2,
+         "why": "gains relevance 和 becomes more relevant 是同义重复，即第三项。其余三项都说明了问题怎样指导准备。",
+         "point": "explain"
+        },
+        {
+         "stem": "Connect advance questions with targeted examples.",
+         "lead": "The speaker can prepare relevant examples",
+         "chunks": [
+          "because the grouped questions",
+          "reveal the difficulties",
+          "that members",
+          "want to discuss"
+         ],
+         "tail": "before the visiting speaker arrives, while still leaving room for new questions during the actual session.",
+         "extra": [
+          "revealing the difficulties"
+         ],
+         "why": "because the grouped questions reveal 是原因从句，谓语是 reveal。that members want to discuss 说明是哪些困难。",
+         "point": "link"
+        },
+        {
+         "stem": "State the causal chain without guaranteeing the outcome.",
+         "lead": "The discussion may become more relevant",
+         "chunks": [
+          "because advance questions",
+          "allow the speaker",
+          "to select examples",
+          "that address"
+         ],
+         "tail": "recurring difficulties identified by society members rather than merely repeat general information unrelated to their stated needs.",
+         "extra": [
+          "selected examples"
+         ],
+         "why": "because … allow … to select 把提前提问和选择例子连起来。may 表示可能，不是保证。",
+         "point": "link"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A community repair group photographs the arrangement of parts before dismantling a simple object. The image preserves the position of each part at the start of the work. During reassembly, members can compare their current arrangement with that record rather than rely entirely on memory. This can help them notice a misplaced part. The photograph does not diagnose every fault or prove that the object will work; its specific value is preserving a reference for checking arrangement.",
+       "items": [
+        {
+         "stem": "Which link explains how the photograph can help during reassembly?",
+         "options": [
+          "The group photographs the object because every repair has already succeeded.",
+          "The photograph guarantees that every fault in the object has been diagnosed.",
+          "The repair becomes more accurate because the photograph improves repair accuracy.",
+          "The saved positions provide a reference against which the current arrangement can be checked."
+         ],
+         "answer": 3,
+         "why": "依据是 compare their current arrangement with that record。第四项说明保存的位置可以用来核对当前排列。第二项写成了保证诊断出所有故障。",
+         "point": "explain"
+        },
+        {
+         "stem": "Which sentence extends the mechanism within its stated limit?",
+         "options": [
+          "A difference from the saved arrangement can prompt a check of a possibly misplaced part.",
+          "A saved image proves that no part can ever be installed in an incorrect position.",
+          "A photograph diagnoses all hidden faults before anyone examines the dismantled parts.",
+          "The initial arrangement must be correct because the repair group has taken its photograph."
+         ],
+         "answer": 0,
+         "why": "help them notice a misplaced part 说明发现差异后可以去核查，即第一项。does not diagnose every fault 限定了作用范围，第三项超出了这个范围。",
+         "point": "explain"
+        },
+        {
+         "stem": "Explain why the record can reveal an arrangement difference.",
+         "lead": "A misplaced part may be noticed",
+         "chunks": [
+          "because the saved image",
+          "provides a reference",
+          "against which members",
+          "can compare"
+         ],
+         "tail": "the current arrangement during reassembly instead of depending entirely on their memory of the object's original structure.",
+         "extra": [
+          "providing a reference"
+         ],
+         "why": "because the saved image provides 说明照片的作用。against which members can compare 把参照和当前排列连起来。",
+         "point": "link"
+        },
+        {
+         "stem": "Keep the conclusion limited to the mechanism actually described.",
+         "lead": "The photograph can assist reassembly",
+         "chunks": [
+          "because it preserves",
+          "the positions of parts",
+          "that members can use",
+          "as a reference"
+         ],
+         "tail": "for checking arrangement, without establishing that every fault has been identified or that the repaired object will function.",
+         "extra": [
+          "preserving"
+         ],
+         "why": "because it preserves 引出保存位置的机制。without establishing 说明照片只是排列的参照，不是全面诊断。",
+         "point": "link"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

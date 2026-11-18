@@ -1,0 +1,452 @@
+{
+ "id": "reading-passage-fact",
+ "title": "事实信息题：定位与同义改写",
+ "goal": "能在半分钟内定位到原文对应的句子，并识别作为正确选项的同义改写。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "locate",
+   "label": "用题干中的词定位到原文对应的句子"
+  },
+  {
+   "id": "paraphrase",
+   "label": "识别同义改写，排除沿用原文词语的干扰项"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、计分、自适应"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明和官方样题（挖空规则是对照样题和答案看出来的）"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Reading Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-reading.pdf",
+   "used": "第 1 课：三类题的说明和需要的三项基本功"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "事实信息题考查文章中明确陈述的内容。答案可以在原文的某一句中直接找到，不需要推断，也不需要背景知识。"
+    },
+    {
+     "box": "According to the passage, what …?\nWhat does the passage say about …?\nAccording to the passage, why …?\nWhich of the following is true of …?"
+    },
+    {
+     "p": "题干常含 According to the passage、the passage says，提问词是 what、why、how、which。所问的内容在原文中有明确的对应句。"
+    },
+    {
+     "p": "难点在选项：正确选项通常是原文的同义改写，沿用原文词语的选项往往是干扰项。本课训练两项能力：定位原文，识别同义改写。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定定位词",
+     "d": "选题干中最具体的词：人名、地名、数字、带引号的词、不常见的名词。全文的主题词不能用作定位词，因为它在每一段都出现。"
+    },
+    {
+     "t": "2　定位原文",
+     "d": "在原文中查找定位词，找到后读完该句，并读前后各一句。答案有时在相邻的句子里，尤其是以 because、so、this 开头的句子。"
+    },
+    {
+     "t": "3　复述，再比对选项",
+     "d": "先不看选项，用自己的话复述该句，可以用中文。再选出与复述意思相同的选项。先看选项的话，四个选项都容易显得合理。"
+    }
+   ]
+  },
+  {
+   "id": "locators",
+   "type": "table",
+   "title": "定位词",
+   "cols": [
+    "题干中的词",
+    "是否适合定位",
+    "原因"
+   ],
+   "rows": [
+    [
+     "人名、地名、物种名（Darwin、the Sahara、monarch butterflies）",
+     "很适合",
+     "大写或罕见，在原文中只出现一两次，容易找到。"
+    ],
+    [
+     "数字、年代、百分比",
+     "很适合",
+     "数字在文字中很醒目。原文也可能用 half、a third、twice 等词表示。"
+    ],
+    [
+     "带引号的术语",
+     "适合",
+     "文章只在一处给出它的定义。"
+    ],
+    [
+     "具体的名词（glaciers、pollen、merchants）",
+     "适合",
+     "原文可能换成同义词，找不到时查它的其他说法。"
+    ],
+    [
+     "动词和形容词（increase、important）",
+     "不适合",
+     "原文多用其他词表达（rise、grow、crucial）。"
+    ],
+    [
+     "全文的主题词",
+     "不适合",
+     "每一段都出现，无法定位。"
+    ]
+   ]
+  },
+  {
+   "id": "paraphrase",
+   "type": "table",
+   "title": "同义改写的六种方式",
+   "intro": "正确选项通常是原文句子的改写。下表左栏是原文，右栏是对应的正确选项。",
+   "cols": [
+    "方式",
+    "原文",
+    "正确选项"
+   ],
+   "rows": [
+    [
+     "换一个同义词",
+     "The river provided farmers with water.",
+     "The river supplied water to farmers."
+    ],
+    [
+     "换词性",
+     "Rainfall varies greatly from year to year.",
+     "There is great variation in yearly rainfall."
+    ],
+    [
+     "主动换成被动",
+     "Merchants carried silk across the desert.",
+     "Silk was transported across the desert by traders."
+    ],
+    [
+     "具体的换成概括的",
+     "The birds eat beetles, ants, and flies.",
+     "The birds feed on insects."
+    ],
+    [
+     "否定换成反义词",
+     "The method was not expensive.",
+     "The method was low in cost."
+    ],
+    [
+     "两句并成一句",
+     "The soil was thin. As a result, few crops grew.",
+     "Poor soil limited farming."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Each year a tree adds a new layer of wood beneath its bark. In wet years the layer is wide, and in dry years it is narrow. By counting these rings, scientists can tell how old a tree is. By measuring them, they can also learn what the climate was like long before anyone kept written records. Wood from old buildings can be used in the same way, as long as its ring pattern overlaps with that of a living tree."
+    },
+    {
+     "box": "According to the passage, what do scientists learn by measuring tree rings?\n1. How old a tree is\n2. What weather conditions were like in the past\n3. Which buildings were made from a tree\n4. How fast the bark grows"
+    },
+    {
+     "p": "步骤 1：定位词是 measuring。原文中 counting 和 measuring 各对应一句，两句相邻；题干问的是 measuring。"
+    },
+    {
+     "p": "步骤 2：对应的句子是 By measuring them, they can also learn what the climate was like long before anyone kept written records。"
+    },
+    {
+     "p": "步骤 3：复述为「量年轮可以了解很久以前的气候」。第二项与之同义：climate 换成了 weather conditions，long before written records 换成了 in the past。"
+    },
+    {
+     "list": [
+      "第一项是 counting 那一句的内容，取自相邻的句子，是这类题最常见的干扰项。",
+      "第三项沿用了原文的 buildings。原文说的是旧建筑的木材也能用来测量，没有说判断建筑用了哪棵树。",
+      "第四项的 bark 在原文出现过，但原文没有提到树皮的生长速度。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "取自相邻的句子",
+     "例题的第一项：把 counting 的结果当作 measuring 的结果。",
+     "确认题干所问的动作和对象，回原文核对主语和动词。"
+    ],
+    [
+     "沿用原文的词，改变了关系",
+     "例题的第三项：含 buildings，但关系不同。",
+     "比较整句的意思，不看词是否在原文出现过。"
+    ],
+    [
+     "原文未提及",
+     "例题的第四项。",
+     "原文中找不到对应的句子即可排除。"
+    ],
+    [
+     "程度过强",
+     "原文是 some、often、may，选项写成 all、always、will。",
+     "核对 some、most、often、only、never 等限定词。"
+    ]
+   ]
+  },
+  {
+   "id": "check-paraphrase",
+   "type": "check",
+   "title": "练习一　同义改写",
+   "points": [
+    "paraphrase"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "Because the island has no rivers, its people collect rainwater in large stone tanks.",
+     "items": [
+      {
+       "stem": "Which of the following says the same thing?",
+       "options": [
+        "The island's rivers fill large stone tanks with water.",
+        "The islanders store rain in tanks since there are no rivers.",
+        "People on the island built tanks to keep the rivers from flooding.",
+        "Rainwater on the island flows into rivers and stone tanks."
+       ],
+       "answer": 1,
+       "why": "collect rainwater 换成了 store rain，has no rivers 换成了 there are no rivers，即第二项。第一项沿用了 rivers 和 tanks，但原文说岛上没有河。",
+       "point": "paraphrase"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Honeybees rarely fly when the temperature falls below ten degrees Celsius.",
+     "items": [
+      {
+       "stem": "Which of the following says the same thing?",
+       "options": [
+        "Honeybees never fly when the weather turns cold.",
+        "Honeybees fly lower when the temperature falls.",
+        "Honeybees fly only when it is below ten degrees.",
+        "Cold weather usually keeps honeybees from flying."
+       ],
+       "answer": 3,
+       "why": "rarely fly 换成了 usually keeps … from flying，below ten degrees 概括成了 cold weather。第一项的 never 程度强于 rarely。",
+       "point": "paraphrase"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The invention of the printing press made books far cheaper to produce.",
+     "items": [
+      {
+       "stem": "Which of the following says the same thing?",
+       "options": [
+        "Books cost much less to make once the press was invented.",
+        "The printing press was far cheaper than books.",
+        "Books became cheaper to buy because more people could read.",
+        "The printing press was invented to make cheaper paper."
+       ],
+       "answer": 0,
+       "why": "名词 invention 换成了动词 was invented，cheaper to produce 换成了 cost less to make，即第一项。",
+       "point": "paraphrase"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Unlike most frogs, this species lays its eggs on land rather than in water.",
+     "items": [
+      {
+       "stem": "Which of the following says the same thing?",
+       "options": [
+        "Most frogs lay their eggs on land.",
+        "This species lays more eggs than most frogs.",
+        "Most frogs lay eggs in water, but this species does not.",
+        "This species, like most frogs, lays eggs both on land and in water."
+       ],
+       "answer": 2,
+       "why": "Unlike most frogs 和 rather than in water 两处对比合成了一句，即第三项。第四项把 unlike 读成了 like。",
+       "point": "paraphrase"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-passage",
+   "type": "check",
+   "title": "练习二　短文",
+   "points": [
+    "locate",
+    "paraphrase"
+   ],
+   "groups": [
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "Salt in the Ancient World\n\nBefore refrigeration, salt was the main way to keep food from spoiling. Meat and fish packed in salt could be stored for months, which allowed armies to travel and sailors to cross oceans. Because salt was needed everywhere but found in only a few places, it became an important trade good. In parts of West Africa, traders once exchanged salt for gold. The Latin word salarium, the origin of the English word “salary,” comes from the Latin word for salt, although historians are not sure why.",
+     "items": [
+      {
+       "stem": "According to the passage, why did salt become an important trade good?",
+       "options": [
+        "It was heavier and harder to carry than gold.",
+        "Armies controlled the few places where it was found.",
+        "Demand was widespread, but sources were limited.",
+        "It could be produced only near the ocean."
+       ],
+       "answer": 2,
+       "why": "定位词是 trade good，那一句是 Because salt was needed everywhere but found in only a few places。needed everywhere 换成了 Demand was widespread，found in only a few places 换成了 sources were limited。",
+       "point": "locate"
+      },
+      {
+       "stem": "What does the passage say salt made possible?",
+       "options": [
+        "Long journeys by soldiers and sailors",
+        "Keeping food fresh through refrigeration",
+        "Gold mining by traders in West Africa",
+        "Higher pay for soldiers who carried salt"
+       ],
+       "answer": 0,
+       "why": "那一句是 which allowed armies to travel and sailors to cross oceans，换成了 long journeys by soldiers and sailors。最后一项与 salary 有关，但原文只说明了这个词的来源。",
+       "point": "paraphrase"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "locate",
+    "paraphrase"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Read the passage.",
+       "look": "passage",
+       "text": "Deserts Behind Mountains\n\nWhen moist air from the ocean reaches a mountain range, it is forced to rise. As it rises, it cools, and the water it carries falls as rain or snow on the side of the mountains facing the wind. By the time the air crosses the peaks, it has lost most of its moisture. It then sinks and warms, which makes it even drier. The land on this far side receives very little rain and is said to lie in a “rain shadow.” Some of the driest places on Earth are found in rain shadows, even though they may be only a short distance from the sea.",
+       "items": [
+        {
+         "stem": "According to the passage, where does most of the rain fall?",
+         "options": [
+          "On the highest peaks only",
+          "On the far side of the mountains",
+          "Over the ocean, before the air reaches land",
+          "On the slopes that face the incoming wind"
+         ],
+         "answer": 3,
+         "why": "那一句是 falls as rain or snow on the side of the mountains facing the wind。side 换成了 slopes，facing the wind 换成了 face the incoming wind。",
+         "point": "locate"
+        },
+        {
+         "stem": "What happens to the air after it crosses the mountains?",
+         "options": [
+          "It rises again and forms new clouds.",
+          "It descends and becomes warmer and drier.",
+          "It cools and drops the rest of its rain.",
+          "It returns to the ocean to collect moisture."
+         ],
+         "answer": 1,
+         "why": "那一句是 It then sinks and warms, which makes it even drier。sinks 换成了 descends。第三项是空气越过山脉之前的情况。",
+         "point": "paraphrase"
+        },
+        {
+         "stem": "What does the passage say about places that lie in a rain shadow?",
+         "options": [
+          "They can be very dry even when the sea is nearby.",
+          "They are always far from any ocean.",
+          "They receive rain only in winter.",
+          "They are colder than the other side of the mountains."
+         ],
+         "answer": 0,
+         "why": "那一句是 even though they may be only a short distance from the sea。第二项与原文相反。",
+         "point": "paraphrase"
+        }
+       ]
+      },
+      {
+       "label": "Read the passage.",
+       "look": "passage",
+       "text": "Why Leaves Change Color\n\nThe green color of leaves comes from chlorophyll, a substance that plants use to make food from sunlight. During spring and summer, leaves produce so much chlorophyll that it hides the other colors they contain. As the days grow shorter in autumn, trees stop making chlorophyll, and the green fades. Yellow and orange, which were present in the leaf all along, can finally be seen. Red is different: it comes from a substance that some trees produce only in autumn, especially when sunny days are followed by cool nights. This is why the brightness of autumn leaves changes from one year to the next.",
+       "items": [
+        {
+         "stem": "According to the passage, why are yellow and orange not visible in summer?",
+         "options": [
+          "Leaves do not contain them until autumn.",
+          "Sunlight destroys them during the long days of summer.",
+          "They are covered by the large amount of chlorophyll.",
+          "Trees use them up to make food."
+         ],
+         "answer": 2,
+         "why": "那一句是 so much chlorophyll that it hides the other colors。hides 换成了 are covered by。第一项描述的是红色的情况。",
+         "point": "locate"
+        },
+        {
+         "stem": "According to the passage, what causes trees to stop producing chlorophyll?",
+         "options": [
+          "Cool nights that follow sunny autumn days",
+          "The shortening of daylight in autumn",
+          "The appearance of red in the leaves",
+          "A lack of water in late summer"
+         ],
+         "answer": 1,
+         "why": "那一句是 As the days grow shorter in autumn, trees stop making chlorophyll。第一项是红色是否鲜艳的条件，取自相邻的句子。",
+         "point": "locate"
+        },
+        {
+         "stem": "What does the passage say about the red color of leaves?",
+         "options": [
+          "It is hidden under chlorophyll all summer.",
+          "It appears in the leaves of every kind of tree.",
+          "It is brightest in years with many cloudy days.",
+          "Certain trees produce it only in the fall."
+         ],
+         "answer": 3,
+         "why": "那一句是 a substance that some trees produce only in autumn。some trees 换成了 Certain trees，autumn 换成了 the fall，即第四项。",
+         "point": "paraphrase"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

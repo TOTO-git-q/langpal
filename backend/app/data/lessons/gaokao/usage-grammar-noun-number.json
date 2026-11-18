@@ -1,0 +1,37 @@
+{
+ "id":"usage-grammar-noun-number","title":"名词单复数与所有格","goal":"能根据名词的可数性、数量和修饰关系填写词形。","skill":"语言运用","exam":"高考英语（新课标卷）","mastery":"once",
+ "points":[{"id":"number","label":"根据可数性与限定词确定名词的数"},{"id":"form","label":"正确填写复数或所有格形式"}],
+ "sources":[{"id":"syllabus","title":"高考英语课程课表","url":"docs/syllabi/gaokao.md","used":"教学内容与知识点"}],
+ "cards":[
+  {"id":"overview","type":"text","title":"概述","body":[{"p":"可数名词分单数和复数。不可数名词一般没有复数。用单数还是复数，先看名词前面的数词和限定词。"},{"box":"one box / two boxes / some information"},{"p":"所有格表示所属关系。单数名词后加 's。以 s 结尾的复数名词后只加撇号。"}]},
+  {"id":"number","type":"table","title":"可数与不可数名词","cols":["情况","形式","例句"],"rows":[
+   ["一个可数事物","a 或 one 加单数","One student is waiting."],["多个可数事物","数词加复数","Two students are waiting."],["逐一指称","each 后接单数","Each student has a card."],["泛指一类","用复数","Birds build nests."],["不可数名词","much 后接不可数名词","The guide gave us much information."],["计量不可数名词","量词用复数，名词不变","She gave us two pieces of advice."]
+  ]},
+  {"id":"plural","type":"table","title":"复数形式","cols":["形式","规则","例句"],"rows":[
+   ["book → books","一般加 -s","Two books are on the desk."],["box → boxes","以 x 结尾加 -es","Two boxes are on the desk."],["bus → buses","以 s 结尾加 -es","Three buses arrived."],["city → cities","辅音字母加 y，变 y 为 i 加 -es","The two cities are nearby."],["child → children","不规则变化","The children are reading."],["man → men","不规则变化","The men are waiting."],["woman → women","不规则变化","The women are working."],["shelf → shelves","f 变 v 加 -es","The shelves are full."]
+  ]},
+  {"id":"possessive","type":"table","title":"名词所有格","cols":["形式","意义","例句"],"rows":[
+   ["the teacher's desk","一个教师的桌子","The teacher's desk is near the door."],["the teachers' room","多个教师的房间","The teachers' room is upstairs."],["the children's books","多个孩子的书","The children's books are on the shelf."],["the cover of the book","书的封面","The cover of the book is blue."]
+  ]},
+  {"id":"contrast","type":"table","title":"常见错误","cols":["情况","错误与正确","依据"],"rows":[
+   ["数词与限定词","two book → two books; each students → each student","two 后用复数；each 后用单数"],["不可数名词","many informations → much information; two advices → two pieces of advice","information 和 advice 是不可数名词"],["复数拼写","two boxs → two boxes; two citys → two cities","box 加 -es；city 变 y 为 i 加 -es"],["不规则复数","two childs → two children","child 的复数是 children"],["单数所有格","the teachers desk → the teacher's desk","单数名词所有格加 's"],["复数所有格","the teachers's room → the teachers' room; the childrens' books → the children's books","以 s 结尾的复数后加撇号；children 后加 's"]
+  ]},
+  {"id":"practice-one","type":"check","title":"练习一","points":["number"],"groups":[{"items":[
+   {"stem":"Each (student) has a card.","accept":["student"],"why":"each 后用可数名词单数。","point":"number"},{"stem":"The guide gave us much (information).","accept":["information"],"why":"information 是不可数名词。","point":"number"},{"stem":"The guide gave us two pieces of (advice).","accept":["advice"],"why":"advice 不可数，数量由 pieces 表示。","point":"number"}
+  ]}]},
+  {"id":"practice-two","type":"check","title":"练习二","points":["form"],"groups":[{"items":[
+   {"stem":"Two (box) are on the desk.","accept":["boxes"],"why":"box 的复数加 -es。","point":"form"},{"stem":"Several (city) are marked on the map.","accept":["cities"],"why":"city 的复数把 y 变 i，再加 -es。","point":"form"},{"stem":"The books belong to one teacher. They are the (teacher) books.","accept":["teacher's","teacher’s"],"why":"单数名词的所有格加 's。","point":"form"}
+  ]}]},
+  {"id":"practice-three","type":"check","title":"练习三","points":["number","form"],"groups":[{"items":[
+   {"stem":"Three (child) are reading.","accept":["children"],"why":"child 的复数是 children。","point":"form"},{"stem":"The cards belong to several teachers. They are the (teachers) cards.","accept":["teachers'","teachers’"],"why":"以 s 结尾的复数所有格加撇号。","point":"form"},{"stem":"Many (bird) build nests in trees.","accept":["birds"],"why":"many 后用可数名词复数。","point":"number"}
+  ]}]},
+  {"id":"timed","type":"quiz","title":"小测","minutes":6,"pass":0.8,"points":["number","form"],"sets":[{"id":"set-a","groups":[
+   {"text":"A class prepared an exhibition about objects from home. Each [1] brought one object and wrote a short description of its use. The teacher placed two [2] near the entrance to hold the smaller objects. One box contained wooden spoons, while the other held sewing tools. Several [3] also brought photographs of objects that were too large to move. They attached labels to the photographs and put them on a board. The teacher gave the class useful [4] about arranging the display so that visitors could move easily around the room. The display included a picture of an old clock belonging to one student. The [5] owner explained that it had stood in her family home for many years. After the exhibition opened, visitors read the labels and spoke to the students about the objects. Some visitors described similar items in their own homes. The class recorded these comments in a notebook and added it to the display. When the event ended, everyone collected the objects they had brought. The teacher kept the photographs and notes for the school archive.","items":[
+    {"stem":"[1] Each (student) brought one object.","accept":["student"],"why":"each 后用单数 student。","point":"number"},{"stem":"[2] The teacher placed two (box) near the entrance.","accept":["boxes"],"why":"two 后用 box 的复数 boxes。","point":"form"},{"stem":"[3] Several (child) brought photographs.","accept":["children"],"why":"child 的复数是不规则形式 children。","point":"form"},{"stem":"[4] The teacher gave the class useful (advice).","accept":["advice"],"why":"advice 是不可数名词。","point":"number"},{"stem":"[5] The owner of the clock explained its history. Use the possessive: The (clock) owner explained its history.","accept":["clock's","clock’s"],"why":"clock 的单数所有格加 's，表示钟的主人。","point":"form"}
+   ]},
+   {"text":"A group of children planned a small reading corner in their community center. They asked the center manager which space they could use and measured it together. The manager suggested placing several [1] against the wall to hold books. Each [2] would have a label showing the kind of books on it. The group collected stories, picture books and books about animals from their homes. They also received two [3] of information from the manager about keeping the room tidy. The books belonged to all the children, so the group wrote the [4] names on a list. A parent offered to make cushions for the chairs. Two [5] helped by choosing fabric and cutting it to the right size. When the reading corner was ready, the group invited other families to visit. The visitors examined the labels and chose books to read at the tables. Some suggested adding a box for borrowed books to be returned. The children wrote down the suggestion and agreed to discuss it at their next meeting. They wanted the space to remain easy for everyone to use.","items":[
+    {"stem":"[1] The manager suggested placing several (shelf) against the wall.","accept":["shelves"],"why":"shelf 的复数是 shelves。","point":"form"},{"stem":"[2] Each (shelf) would have a label.","accept":["shelf"],"why":"each 后用单数 shelf。","point":"number"},{"stem":"[3] They received two (piece) of information.","accept":["pieces"],"why":"two 后用可数名词复数 pieces。","point":"number"},{"stem":"[4] The names belonged to several children. The group wrote the (children) names on a list.","accept":["children's","children’s"],"why":"不以 s 结尾的复数 children 后加 's。","point":"form"},{"stem":"[5] Two (woman) helped choose and cut fabric.","accept":["women"],"why":"woman 的复数是 women。","point":"form"}
+   ]}
+  ]}]}
+ ]
+}

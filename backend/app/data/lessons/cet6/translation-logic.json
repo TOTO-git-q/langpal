@@ -1,0 +1,60 @@
+{
+ "id": "translation-logic",
+ "title": "隐含逻辑的表达",
+ "goal": "能依据原文表达分句间的逻辑关系。",
+ "skill": "翻译",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "relation", "label": "依据原文确定分句间的关系"},
+  {"id": "connector", "label": "选择不过度解释的连接表达"}
+ ],
+ "sources": [{"id": "c2", "title": "大学英语六级考试大纲", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译课程内容依据"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "中文分句之间常常不写连接词。译文要按原文的意思补出因果、转折、让步或条件。原文只是并列两件事时，译文也用并列。"},
+   {"box": "原文：大雨导致河水上涨。\n译文：Heavy rain caused the river to rise."},
+   {"p": "补出因果关系要有原文依据。两件事先后发生，不能就此译成因果。"}
+  ]},
+  {"id": "cause-contrast", "type": "table", "title": "因果与转折", "cols": ["关系", "原文", "译文"], "rows": [
+   ["因果：原因在前", "由于道路结冰，校车停运了。", "The school bus stopped running because the roads were icy."],
+   ["因果：结果在后", "连日降雨导致河水上涨。", "Days of rain caused the river to rise."],
+   ["转折：实际情况相反", "原计划在室外举行，最后改在室内。", "The event was originally planned to take place outdoors, but it was eventually held indoors."],
+   ["转折：预期与结果不同", "这条小路看似平坦，走起来却很费力。", "The path looks level, but walking along it is tiring."]
+  ]},
+  {"id": "concession-condition", "type": "table", "title": "让步与条件", "cols": ["关系", "原文", "译文"], "rows": [
+   ["让步：困难未阻止结果", "虽然天色已晚，工人仍在修桥。", "Although it was late, the workers continued repairing the bridge."],
+   ["让步：特点与结果并存", "尽管空间有限，展览仍吸引了许多参观者。", "Although space was limited, the exhibition attracted many visitors."],
+   ["条件：条件满足时", "如果天气晴朗，活动将在公园举行。", "If the weather is clear, the event will be held in the park."],
+   ["条件：只要…就", "只要材料干燥，就可以存放在这里。", "The materials can be stored here if they are dry."]
+  ]},
+  {"id": "parallel", "type": "table", "title": "连接词与并列", "cols": ["情况", "原文", "译文"], "rows": [
+   ["明确因果", "道路结冰，所以车辆减速。", "The roads were icy, so the vehicles slowed down."],
+   ["明确转折", "房间很小，但采光很好。", "The room is small, but it receives plenty of light."],
+   ["明确条件", "如果时间充足，参观者可进入后院。", "If time permits, visitors may enter the rear courtyard."],
+   ["并列事实", "馆内展出陶器，也展出织物。", "The museum displays pottery as well as textiles."]
+  ]},
+  {"id": "practice-a", "type": "check", "title": "练习一", "points": ["relation", "connector"], "groups": [{"items": [
+   {"stem": "原文：由于风太大，渡船暂停航行。选择译句。", "options": ["The ferry suspended service because the wind was too strong.", "The ferry suspended service although the wind was too strong.", "The ferry suspended service, so the wind became too strong.", "The ferry kept sailing because the wind was too strong."], "answer": 0, "why": "原文中风太大是停航的原因，第一项用 because 表达这一关系。", "point": "relation"},
+   {"stem": "原文：公园里有池塘，也有花园。选择译句。", "options": ["The park has a pond because it has a garden.", "The park has a pond and a garden.", "The park has a pond although it has a garden.", "The park has a pond if it has a garden."], "answer": 1, "why": "池塘与花园是并列信息，and 不添加因果关系。", "point": "connector"}
+  ]}]},
+  {"id": "practice-b", "type": "check", "title": "练习二", "points": ["relation", "connector"], "groups": [{"items": [
+   {"stem": "原文：虽然路途遥远，他们仍按时到达。排列译句。", "lead": "Although", "chunks": ["the journey", "was long,", "they arrived", "on time"], "tail": ".", "extra": ["because"], "why": "Although 引出路途遥远这一让步事实，主句表达按时到达。", "point": "relation"},
+   {"stem": "原文：如果水位下降，船只便可以通过。排列译句。", "lead": "If", "chunks": ["the water level", "falls,", "boats can", "pass through"], "tail": ".", "extra": ["although"], "why": "If 引出水位下降这一通行条件。", "point": "connector"}
+  ]}]},
+  {"id": "practice-c", "type": "check", "title": "练习三", "points": ["relation", "connector"], "groups": [{"items": [
+   {"stem": "原文：这座桥很窄，但十分坚固。选择译句。", "options": ["The bridge is narrow because it is strong.", "The bridge is strong if it is narrow.", "The bridge is narrow but very strong.", "The bridge is strong because it is narrow."], "answer": 2, "why": "原文用但表示对比，but 对应这一关系。", "point": "relation"},
+   {"stem": "原文：图书馆收藏地图，也收藏照片。排列译句。", "lead": "The library", "chunks": ["collects maps", "as well", "as", "photographs"], "tail": ".", "extra": ["because"], "why": "地图和照片是并列收藏对象，as well as 连接两个名词。", "point": "connector"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["relation", "connector"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "原文：由于积雪，道路暂时关闭。选择译句。", "options": ["The road was temporarily closed although snow had fallen.", "The road was permanently closed because snow had fallen.", "Snow fell on the road because it was temporarily closed.", "The road was temporarily closed because snow had fallen."], "answer": 3, "why": "积雪是道路暂时关闭的原因，第四项用 because 表达因果，并保留 temporarily。", "point": "relation"},
+   {"stem": "原文：展厅面积不大，但陈列十分丰富。选择译句。", "options": ["The gallery is small but has a wide variety of exhibits.", "The gallery is small because it has a wide variety of exhibits.", "The gallery is large and has a wide variety of exhibits.", "The gallery is small, so it has only a few exhibits."], "answer": 0, "why": "面积小和陈列丰富是转折关系，第一项用 but 保留这一关系。", "point": "relation"},
+   {"stem": "原文：河边有柳树，也有芦苇。选择不添加因果的译句。", "options": ["Willows grow by the river because reeds grow there.", "Willows and reeds grow beside the river.", "Willows grow by the river if reeds grow there.", "Willows grow by the river although reeds grow there."], "answer": 1, "why": "原文并列说明两种植物，第二项保留并列关系。", "point": "connector"},
+   {"stem": "原文：如果雨停了，球队就恢复训练。选择译句。", "options": ["Although the rain stops, the team will resume training.", "Because the rain stops, the team will resume training.", "If the rain stops, the team will resume training.", "The rain stops because the team resumes training."], "answer": 2, "why": "雨停是恢复训练的条件，if 表达条件。", "point": "connector"},
+   {"stem": "原文：虽然天气寒冷，游客仍参观了庭院。排列译句。", "lead": "Although", "chunks": ["the weather", "was cold,", "visitors toured", "the courtyard"], "tail": ".", "extra": ["because"], "why": "Although 引出寒冷这一让步情况，主句说明参观行为。", "point": "relation"},
+   {"stem": "原文：由于雾很浓，航班延误了。排列译句。", "lead": "The flight", "chunks": ["was delayed", "because", "the fog", "was thick"], "tail": ".", "extra": ["although"], "why": "浓雾是延误的原因，because 引出原因。", "point": "relation"},
+   {"stem": "原文：如果大门开放，访客可以进入花园。排列译句。", "lead": "If", "chunks": ["the gate", "is open,", "visitors may enter", "the garden"], "tail": ".", "extra": ["because"], "why": "大门开放是进入花园的条件，if 引出条件。", "point": "connector"},
+   {"stem": "原文：展柜里有银币，也有铜币。排列译句。", "lead": "The case", "chunks": ["contains silver coins", "as well", "as", "copper coins"], "tail": ".", "extra": ["because"], "why": "两种硬币是并列展品，as well as 保留并列关系。", "point": "connector"}
+  ]}]}]}
+ ]
+}

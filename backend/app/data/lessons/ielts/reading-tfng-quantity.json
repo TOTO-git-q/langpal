@@ -1,0 +1,67 @@
+{
+ "id": "reading-tfng-quantity", "title": "数量与范围限定", "goal": "识别数量、范围和确定程度的限定。", "skill": "阅读", "exam": "雅思 IELTS Academic", "mastery": "once",
+ "points": [{"id": "scope", "label": "识别数量与范围的限定"}, {"id": "strength", "label": "比较陈述与原文的确定程度"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "数量与范围限定的教学内容"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "数量词说明陈述适用于多少对象。Some samples dried 只说部分样本变干，其余样本的情况不知道。"},
+   {"p": "频率词说明发生的次数，情态词说明确定的程度。比较两句时，还要核对对象、时间和比较基准。"}
+  ]},
+  {"id": "quantity", "type": "table", "title": "数量与范围", "cols": ["类型", "原文", "说明"], "rows": [
+   ["全部", "All the jars were sealed.", "与 Every jar was sealed. 同义。"],
+   ["全部", "Every shelf was checked.", "与 All shelves were checked. 同义。"],
+   ["全部", "All routes were open.", "与 Every route was open. 同义。"],
+   ["部分", "Some jars were sealed.", "只说明部分罐子密封。"],
+   ["部分", "Several shelves were checked.", "说明检查了若干架子。"],
+   ["部分", "A few routes were open.", "说明有少数路线开放。"]
+  ]},
+  {"id": "majority", "type": "table", "title": "多数与唯一", "cols": ["类型", "原文", "说明"], "rows": [
+   ["多数", "Most jars were sealed.", "多数罐子密封，数量超过一半。"],
+   ["多数", "A majority of shelves were checked.", "检查了超过一半的架子。"],
+   ["多数", "More than half the routes were open.", "开放路线超过一半。"],
+   ["唯一", "Only the blue jar was sealed.", "密封的罐子只有蓝色罐子。"],
+   ["唯一", "The sole checked shelf was wooden.", "被检查的架子只有一个。"],
+   ["唯一", "The only open route crossed a bridge.", "开放的路线只有一条。"]
+  ]},
+  {"id": "certainty", "type": "table", "title": "频率与可能性", "cols": ["类型", "原文", "说明"], "rows": [
+   ["频率", "The bell often rings at noon.", "often 表示经常，弱于 always。"],
+   ["频率", "The bell always rings at noon.", "always 表示每次都在正午响。"],
+   ["频率", "The bell sometimes rings at noon.", "sometimes 表示有时。"],
+   ["可能性", "The seal may need repair.", "may 表示可能需要维修。"],
+   ["可能性", "The seal must need repair.", "must 表示根据依据推断必然需要。"],
+   ["可能性", "The seal might need repair.", "might 表示可能需要维修。"]
+  ]},
+  {"id": "scope", "type": "table", "title": "比较基准", "cols": ["核对", "原文", "说明"], "rows": [
+   ["对象", "Most young trees survived.", "多数指 young trees 中的多数。"],
+   ["时间", "All gates opened on Monday.", "只说周一的情况。"],
+   ["基准", "The north path is longer than the south path.", "比较的基准是 south path。"],
+   ["强弱", "Some jars were sealed.", "只能推出部分罐子密封。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["scope", "strength"], "groups": [{"items": [
+   {"stem": "Some of the clay pots were repaired. Which conclusion is supported?", "options": ["At least one clay pot was repaired.", "Every clay pot was repaired.", "No clay pots were repaired.", "Most of the clay pots were repaired."], "answer": 0, "why": "Some of the clay pots 表示至少一只陶罐修复，第一项符合。", "point": "scope"},
+   {"stem": "Most of the wooden frames were painted. Which group is the comparison base?", "options": ["The painted wooden frames only", "The wooden frames in the group", "Every frame, wooden or not", "The wooden frames left unpainted"], "answer": 1, "why": "Most of the wooden frames 说的是全部木框中的多数，基准是这组木框，即第二项。", "point": "scope"},
+   {"stem": "A signal may fail in cold weather. Which statement has the same certainty?", "options": ["The signal must fail in cold weather.", "The signal always fails in cold weather.", "The signal might fail in cold weather.", "The signal never fails in cold weather."], "answer": 2, "why": "may 与 might 在此都表示可能，第三项符合。", "point": "strength"},
+   {"stem": "A valve often opens at night. Which statement matches that frequency?", "options": ["The valve never opens at night.", "The valve always opens at night.", "The valve opens only at night.", "The valve frequently opens at night."], "answer": 3, "why": "often 与 frequently 在此都表示经常，第四项符合。", "point": "strength"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["scope", "strength"], "groups": [{"items": [
+   {"stem": "Only the river path was closed. Which statement follows?", "options": ["No other path was closed.", "Every path was closed.", "The river path stayed open.", "Most paths remained closed."], "answer": 0, "why": "Only the river path 表示关闭的路线只有河边路线，第一项符合。", "point": "scope"},
+   {"stem": "The north wall is taller than the south wall. Which comparison is stated?", "options": ["The south wall exceeds the north wall.", "The north wall exceeds the south wall.", "The north wall equals the south wall.", "The north wall is taller than every other wall."], "answer": 1, "why": "taller than 比较北墙与南墙，第二项保持方向。", "point": "scope"},
+   {"stem": "A visitor sometimes uses the side entrance. Which claim is stronger?", "options": ["The visitor occasionally uses the side entrance.", "The visitor may use the side entrance.", "The visitor always uses the side entrance.", "The visitor has used the side entrance."], "answer": 2, "why": "always 表示每次使用，比 sometimes 的有时使用更强。", "point": "strength"},
+   {"stem": "The film might protect the surface. What is stated?", "options": ["Protection of the surface is impossible.", "Protection of the surface is certain.", "The surface has already been protected.", "Protection of the surface is possible."], "answer": 3, "why": "might 表示可能，第四项保持这一程度。", "point": "strength"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["scope", "strength"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "During a trial at a pottery workshop, all the small bowls were placed on a low shelf. Some large bowls were placed beside them, while the remaining large bowls went on a higher shelf. Most of the small bowls had a blue mark underneath. Only the bowls on the high shelf were covered with cloth. The workshop opened the shelves to visitors on Tuesday, but the notes contain no account of access on other days. Staff sometimes moved a covered bowl to the table for inspection, and they recorded each move in a notebook.", "items": [
+    {"stem": "Which bowls were all placed on the low shelf?", "options": ["The small bowls in the trial", "The large bowls in the trial", "The covered bowls in the trial", "The blue bowls in the trial"], "answer": 0, "why": "all the small bowls were placed on a low shelf 指全部小碗，第一项符合。", "point": "scope"},
+    {"stem": "What does the text say about large bowls?", "options": ["Every large bowl went on the higher shelf.", "Some large bowls went on the low shelf.", "No large bowl went on the low shelf.", "Only large bowls had a blue mark."], "answer": 1, "why": "Some large bowls were placed beside them 中的 them 指低架上的小碗，第二项符合。", "point": "scope"},
+    {"stem": "Which statement preserves the frequency of inspections?", "options": ["Staff never moved a covered bowl to the table for inspection.", "Staff always moved a covered bowl to the table for inspection.", "Staff occasionally moved a covered bowl for inspection.", "Staff only moved covered bowls for inspection."], "answer": 2, "why": "sometimes 对应 occasionally，第三项保留原文频率。", "point": "strength"},
+    {"stem": "What is known about visitor access on Wednesday?", "options": ["All shelves were opened on Wednesday.", "Only the high shelf was opened on Wednesday.", "No shelves were opened on Wednesday.", "The notes do not record Wednesday's access."], "answer": 3, "why": "依据是 the notes contain no account of access on other days。周三属于其他日期，开放情况没有记录，即第四项。", "point": "scope"}
+   ]},
+   {"look": "passage", "text": "A group tested covers on two storage boxes. The first box had a lid made of wood, and the second had a lid made of metal. Every box was checked at the end of the trial. The metal lid was heavier than the wooden one. The report states that the wooden lid might reduce dust inside its box, but the trial did not measure dust. The metal lid always remained closed during the trial, whereas the wooden lid was opened several times. The report gives no conclusion about either lid's performance outside this trial.", "items": [
+    {"stem": "Which comparison is stated?", "options": ["The metal lid weighed more than the wooden lid.", "The wooden lid weighed more than the metal lid.", "Both lids weighed the same during the trial.", "The metal box weighed more than the wooden box."], "answer": 0, "why": "metal lid was heavier than the wooden one 表明金属盖较重，第一项符合。", "point": "scope"},
+    {"stem": "What does the report say about the wooden lid and dust?", "options": ["It proves the lid removed all the dust inside.", "It suggests the lid could reduce dust.", "It reports that the trial measured less dust.", "It states the lid cannot affect dust."], "answer": 1, "why": "might reduce dust 表示可能减少灰尘，第二项符合。", "point": "strength"},
+    {"stem": "Which account of the metal lid matches the trial?", "options": ["It sometimes remained closed during the trial.", "It never remained closed during the trial.", "It stayed closed for the whole of the trial.", "It was opened several times during the trial."], "answer": 2, "why": "always remained closed during the trial 表示整个试验期间保持关闭。", "point": "strength"},
+    {"stem": "Which claim goes beyond the report's statement about dust?", "options": ["The wooden lid might reduce dust.", "The wooden lid could reduce dust.", "The wooden lid may reduce dust.", "The wooden lid certainly reduces dust."], "answer": 3, "why": "原文使用 might，certainly 将可能性扩大为确定性。", "point": "strength"}
+   ]}
+  ]}]}
+ ]
+}

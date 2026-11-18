@@ -1,0 +1,278 @@
+{
+  "id": "listening-conversation",
+  "title": "长对话 · 练习",
+  "goal": "听一遍对话，判断交谈目的、具体事实与后续行动。",
+  "skill": "listening",
+  "exam": "大学英语四级（CET-4）",
+  "points": [
+    {
+      "id": "gist",
+      "label": "判断对话主题和目的"
+    },
+    {
+      "id": "detail",
+      "label": "核对人物及具体事实"
+    },
+    {
+      "id": "inference",
+      "label": "依据对话判断后续行动"
+    }
+  ],
+  "sources": [
+    {
+      "id": "c1",
+      "title": "CET笔试",
+      "url": "https://cet.neea.edu.cn/html1/folder/16113/1586-1.htm",
+      "used": "考试题型、题量与时间。"
+    },
+    {
+      "id": "c2",
+      "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+      "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+      "used": "材料长度、作答形式与总体评分描述；练习材料为原创。"
+    },
+    {
+      "id": "c3",
+      "title": "分数解释",
+      "url": "https://cet.neea.edu.cn/html1/folder/19081/5124-1.htm",
+      "used": "报道分与卷面权重的区别。"
+    }
+  ],
+  "cards": [
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "小测",
+      "minutes": 4,
+      "points": [
+        "gist",
+        "detail",
+        "inference"
+      ],
+      "pass": 0.75,
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "audio": {
+                "intro": "Listen to a conversation.",
+                "lines": [
+                  {
+                    "who": "A",
+                    "text": "Hello, I'm organizing the photography club's exhibition. We booked the student hall for Friday, but the booking office says the floor needs repairs. Could the library help?"
+                  },
+                  {
+                    "who": "B",
+                    "text": "We have a meeting room upstairs. It holds thirty people, though we cannot allow pictures to be attached directly to its walls. What kind of display did you plan?"
+                  },
+                  {
+                    "who": "A",
+                    "text": "About twenty photographs, mostly local buildings. We expected visitors to walk around rather than sit through a talk. We could put the pictures on tables if necessary."
+                  },
+                  {
+                    "who": "B",
+                    "text": "Tables would leave very little space for walking. We do have six standing display boards in storage. You could borrow them, provided someone collects them before Thursday afternoon."
+                  },
+                  {
+                    "who": "A",
+                    "text": "That sounds promising. Is there a charge? We used nearly all our budget to print the photographs, so renting extra equipment would be difficult for us."
+                  },
+                  {
+                    "who": "B",
+                    "text": "The room and boards are free for registered clubs. However, you must leave the room as you found it. Food is not allowed, although water is fine."
+                  },
+                  {
+                    "who": "A",
+                    "text": "We can manage that. Our opening was advertised for six, and the library closes at eight. Would we have enough time to put everything away afterwards?"
+                  },
+                  {
+                    "who": "B",
+                    "text": "You can stay until half past eight to clear up. Please email the list of people helping you, so the evening staff know who should still be here."
+                  },
+                  {
+                    "who": "A",
+                    "text": "I'll send that list this afternoon. First, I'll ask two club members to help collect the boards tomorrow morning. Then I can tell everyone about the new location."
+                  },
+                  {
+                    "who": "B",
+                    "text": "Good. I'll reserve the room now. Once you have collected the boards, come to the desk and we will show you how to set them up safely."
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "stem": "What are the speakers mainly discussing?",
+                  "options": [
+                    "How to print photographs for a club.",
+                    "How to find another venue for an exhibition.",
+                    "How to repair the student hall floor.",
+                    "How to attract members to a library club."
+                  ],
+                  "answer": 1,
+                  "why": "原场地维修，双方讨论图书馆能否接办展览；照片已经印好，不是在商量印刷。",
+                  "point": "gist"
+                },
+                {
+                  "stem": "Why does the library staff member suggest using display boards?",
+                  "options": [
+                    "They can be attached directly to the walls.",
+                    "They allow visitors to sit through a talk.",
+                    "They are cheaper than printing photographs.",
+                    "Tables would leave too little walking space."
+                  ],
+                  "answer": 3,
+                  "why": "馆员指出桌子会占用行走空间，因而建议展板；墙上不能直接贴照片。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "What must the organizer send to the library?",
+                  "options": [
+                    "The names of people helping with the exhibition.",
+                    "A list of photographs that still need printing.",
+                    "Payment for the room and display equipment.",
+                    "A plan for serving food during the opening."
+                  ],
+                  "answer": 0,
+                  "why": "馆员要求发来协助人员名单，便于晚间工作人员核对；场地和展板免费。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "What will the organizer probably do first after the conversation?",
+                  "options": [
+                    "Move the exhibition back to the student hall.",
+                    "Collect the boards alone on Friday evening.",
+                    "Ask club members to help collect the boards.",
+                    "Ask the booking office to delay the repairs."
+                  ],
+                  "answer": 2,
+                  "why": "组织者说 First 要找两名社员帮忙次日上午取展板，之后再通知新地点。",
+                  "point": "inference"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "audio": {
+                "intro": "Listen to a conversation.",
+                "lines": [
+                  {
+                    "who": "A",
+                    "text": "I start my placement at the community radio station next week. What should I prepare before the first day?"
+                  },
+                  {
+                    "who": "B",
+                    "text": "Of course. You will initially help our producer organize recorded interviews. Have you used audio editing software before, or would a short introduction be useful?"
+                  },
+                  {
+                    "who": "A",
+                    "text": "I have edited music for a college project, but never an interview. I can cut files, although I need help deciding which parts of a conversation to keep."
+                  },
+                  {
+                    "who": "B",
+                    "text": "That is exactly what we will cover. Technical speed matters less than keeping a speaker's meaning clear. Removing a pause is fine; removing a qualification can change the message."
+                  },
+                  {
+                    "who": "A",
+                    "text": "Should I bring my laptop? It has the program I used at college. I could practice over the weekend if you send me a sample recording."
+                  },
+                  {
+                    "who": "B",
+                    "text": "You can bring it for taking notes, but recordings must stay on our office computers. We will give you a practice file when you arrive, with no personal information in it."
+                  },
+                  {
+                    "who": "A",
+                    "text": "I understand. The letter says I should come at nine on Monday. Is that when the whole team has its weekly planning meeting, or will I meet the producer first?"
+                  },
+                  {
+                    "who": "B",
+                    "text": "The team meeting starts at ten. Come to reception at nine, and I will show you the building before introducing you to the producer. Bring the placement form from your college."
+                  },
+                  {
+                    "who": "A",
+                    "text": "I have the form ready. In that case, I will review my notes on interviewing this weekend rather than edit a sample at home. That should help me understand the choices."
+                  },
+                  {
+                    "who": "B",
+                    "text": "Yes, especially the section on asking follow-up questions. We can teach you the controls here. What matters most is listening carefully before deciding that a piece of speech is unnecessary."
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "stem": "What is the main purpose of the conversation?",
+                  "options": [
+                    "To choose music for a college project.",
+                    "To arrange an interview with a radio listener.",
+                    "To prepare a student for a work placement.",
+                    "To change the station's weekly meeting time."
+                  ],
+                  "answer": 2,
+                  "why": "学生开头询问实习第一天前应准备什么，后文围绕工作内容与报到安排展开。",
+                  "point": "gist"
+                },
+                {
+                  "stem": "What does the staff member emphasize about editing interviews?",
+                  "options": [
+                    "Preserving what the speaker means.",
+                    "Removing every pause from a recording.",
+                    "Finishing each file as quickly as possible.",
+                    "Using the student's own editing program."
+                  ],
+                  "answer": 0,
+                  "why": "工作人员强调保持说话人的原意，并用删掉限制条件会改变意思作说明；速度并非首要标准。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "What will happen at nine on Monday?",
+                  "options": [
+                    "The student will join the weekly team meeting.",
+                    "The producer will send a recording to the college.",
+                    "The student will edit an interview at home.",
+                    "The staff member will show the student the building."
+                  ],
+                  "answer": 3,
+                  "why": "九点先在前台见面并参观；团队会议十点才开始。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "What will the student probably do during the weekend?",
+                  "options": [
+                    "Copy office recordings onto a laptop.",
+                    "Review notes about interviewing.",
+                    "Complete the first recorded interview.",
+                    "Attend the station's planning meeting."
+                  ],
+                  "answer": 1,
+                  "why": "学生明确改为周末复习采访笔记；录音须留在办公室电脑中，不能在家剪辑。",
+                  "point": "inference"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "more": {
+        "kind": "conversation",
+        "topics": [
+          "预约社团活动场地",
+          "确认实习报到安排",
+          "调整小组展示分工",
+          "借用图书馆设备",
+          "商量社区志愿服务",
+          "咨询校园兼职",
+          "退换不合用的用品",
+          "安排采访时间",
+          "讨论住宿维修",
+          "选择周末短途路线",
+          "筹备校园文化展",
+          "协调运动训练时间"
+        ]
+      }
+    }
+  ]
+}

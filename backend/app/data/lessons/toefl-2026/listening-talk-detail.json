@@ -1,0 +1,482 @@
+{
+ "id": "listening-talk-detail",
+ "title": "细节题",
+ "goal": "听出题目所问的细节；识别原话的同义改写。",
+ "skill": "listening",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 听力",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "detail",
+   "label": "听出题目所问的细节"
+  },
+  {
+   "id": "paraphrase",
+   "label": "识别原话的同义改写"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、录音长度、只放一遍"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "各题型的说明、考查的能力、官方样题"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Listening Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-listening.pdf",
+   "used": "第 1 课：四类题的说明和小测答案；第 2、4 课：应答配对、重音和语调"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "细节题问录音中直接说出的定义、原因、条件或结果。According to the speaker, why does the sample float? 要找讲者说出的原因，不用背景知识补充。"
+    },
+    {
+     "p": "细节常出现在定义之后、举例之中和转折之后。正确选项会换词或换句式，但对象、方向、程度和条件与录音一致。The coating slows water loss. 可改写为 The coating reduces the rate of drying."
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定所问对象",
+     "d": "先分清题干问的是哪样东西、哪个动作。问 coating 的作用，就找讲涂层的那句，不取旁边讲容器的句子。"
+    },
+    {
+     "t": "2　恢复完整关系",
+     "d": "听清谁做了什么，以及原因和限定词。Only the exposed surface dried. 的 only 说明只有表面干了，不是整块都干了。"
+    },
+    {
+     "t": "3　核对同义表达",
+     "d": "比较意思，不比较词是否相同。required less water 和 reduced water use 意思相同，produced more water 换了动作。"
+    }
+   ]
+  },
+  {
+   "id": "positions",
+   "type": "table",
+   "title": "细节的位置",
+   "cols": [
+    "位置",
+    "说明",
+    "例句"
+   ],
+   "rows": [
+    [
+     "定义之后",
+     "定义说明性质，后面常带例外",
+     "A conductor allows charge to move easily; rubber generally does not."
+    ],
+    [
+     "举例之中",
+     "条件和对应的结果连在一起",
+     "In the covered dish, less water escaped."
+    ],
+    [
+     "转折之后",
+     "以 but 后面的话为准",
+     "The surface looked dry, but the center remained wet."
+    ],
+    [
+     "原因之后",
+     "because 后面是原因",
+     "The jar was sealed because the sample absorbed moisture."
+    ],
+    [
+     "限制之中",
+     "some、only、may 要保留",
+     "Only the outer layer was removed."
+    ],
+    [
+     "比较之中",
+     "听清和谁比、谁快谁慢",
+     "The shaded sample dried more slowly than the exposed one."
+    ]
+   ]
+  },
+  {
+   "id": "paraphrases",
+   "type": "table",
+   "title": "同义改写",
+   "cols": [
+    "方式",
+    "原话",
+    "正确改写"
+   ],
+   "rows": [
+    [
+     "词汇替换",
+     "The layer prevents direct contact.",
+     "The layer keeps the surfaces apart."
+    ],
+    [
+     "动词改名词",
+     "The sample expanded.",
+     "The sample increased in size."
+    ],
+    [
+     "主动改被动",
+     "The screen blocked large particles.",
+     "Large particles were stopped by the screen."
+    ],
+    [
+     "否定改肯定",
+     "The method wasn't costly.",
+     "The method was inexpensive."
+    ],
+    [
+     "合并因果",
+     "The opening was narrow, so flow was slow.",
+     "A small opening limited the flow."
+    ],
+    [
+     "概括例子",
+     "The tray held sand and small stones.",
+     "The tray contained loose mineral material."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A filter separates particles from a fluid. In a simple demonstration, water carrying sand passes through paper. The water goes through, while the sand remains on the paper. However, dissolved salt can pass through with the water. The paper removes the suspended sand; it doesn't remove every substance in the water."
+    },
+    {
+     "box": "What does the paper remove in the demonstration?\n1. Salt dissolved in the water\n2. Sand carried in the water\n3. All substances in the water\n4. Water surrounding the salt"
+    },
+    {
+     "p": "依据是例子中的 while the sand remains on the paper。第二项把留在纸上改写成被滤纸去除。salt 出现在 However 之后，说的是这种过滤的局限。"
+    },
+    {
+     "p": "第一项把沙和盐的结果换了。第三项去掉了 doesn't remove every 的限制。第四项把穿过滤纸的水当成了留下的东西。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "相邻对象",
+     "Salt remains on the paper.",
+     "沙留在纸上，溶解的盐随水穿过"
+    ],
+    [
+     "关系相反",
+     "Water is trapped while sand passes through.",
+     "核对谁穿过、谁留下"
+    ],
+    [
+     "程度过强",
+     "The paper removes every substance.",
+     "滤纸只去除悬浮的沙"
+    ],
+    [
+     "只对一半",
+     "Sand and dissolved salt are both removed.",
+     "并列的两项都要有录音依据"
+    ]
+   ]
+  },
+  {
+   "id": "check-short",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "detail",
+    "paraphrase"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A sundial uses a shadow to indicate time. The shadow changes position as the sun's apparent position changes. On a heavily overcast day, however, the shadow may be too faint to read."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What can make the sundial difficult to read?",
+       "options": [
+        "A sharply defined shadow",
+        "A change in the sun's apparent position",
+        "Cloud cover that weakens the shadow",
+        "A shadow that moves during the day"
+       ],
+       "answer": 2,
+       "why": "On a heavily overcast day … the shadow may be too faint to read：云很厚时影子太淡，看不清，即第三项。第四项说的影子移动是日晷正常工作的情况。",
+       "point": "detail"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "In an archive, a photocopy may be used for frequent handling. The original document remains in storage. This reduces wear on the original, though the copy may not reproduce its texture."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is the benefit of using a copy?",
+       "options": [
+        "The original is exposed to less physical handling.",
+        "The copy preserves the original's surface texture.",
+        "The original's texture becomes easier to study on paper.",
+        "The copy provides a more durable version of the original texture."
+       ],
+       "answer": 0,
+       "why": "This reduces wear on the original：原件少被翻动，磨损就少，即第一项。第二项与 may not reproduce its texture 相反。",
+       "point": "paraphrase"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A balance compares masses using two pans. Before an object is measured, the empty pans must be level. If one side already hangs lower, the result can be misleading."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What must happen before measurement?",
+       "options": [
+        "The object must be weighed before the pans are leveled.",
+        "The lower empty pan must be used for the object.",
+        "The difference between the empty pans must be kept.",
+        "The empty pans must be brought into balance."
+       ],
+       "answer": 3,
+       "why": "the empty pans must be level 改写为 brought into balance，即第四项。",
+       "point": "detail"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A wool layer traps air between its fibers. That trapped air slows heat transfer. Compressing the layer can reduce the amount of trapped air, so a thinner compressed layer may insulate less effectively."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What can compression do to the wool layer?",
+       "options": [
+        "Increase insulation by creating more air spaces",
+        "Reduce insulation by decreasing the trapped air",
+        "Prevent heat transfer by thinning the fibers",
+        "Leave insulation unchanged by preserving all air spaces"
+       ],
+       "answer": 1,
+       "why": "Compressing the layer can reduce the amount of trapped air 是原因，may insulate less effectively 是结果。第二项把两句合成了一句。",
+       "point": "paraphrase"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-talk",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "detail",
+    "paraphrase"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A ceramic glaze forms a glassy coating on pottery during firing. In this classroom demonstration, the potter coats only the outside wall of a small cup. The base is left bare so the coating won't stick to the kiln shelf as it heats. The cup is then fired. Its final surface looks different from the dry coating before firing because heat changes the material. However, the color alone doesn't prove that the coating is suitable for food use. That requires information about its composition and performance."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why is the base left uncoated?",
+       "options": [
+        "To keep it from adhering to the shelf during firing",
+        "To show the final color before the cup is heated",
+        "To make the outside wall remain bare",
+        "To establish that the coating is safe for food"
+       ],
+       "answer": 0,
+       "why": "so the coating won't stick to the kiln shelf as it heats 说明底部不上釉的原因，第一项用 adhering 改写 stick。",
+       "point": "detail"
+      },
+      {
+       "stem": "What does the speaker say about judging food suitability?",
+       "options": [
+        "The dry color establishes it before firing.",
+        "The kiln shelf provides the necessary evidence.",
+        "Appearance by itself is insufficient.",
+        "Leaving the base bare guarantees it."
+       ],
+       "answer": 2,
+       "why": "the color alone doesn't prove … suitable for food use，第三项改写为 Appearance by itself is insufficient。",
+       "point": "paraphrase"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "detail",
+    "paraphrase"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to an academic talk.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "A soil core is a narrow column removed from the ground so its layers can be examined in order. In a teaching exercise, a class takes cores from two parts of a field. The students use a tube and keep the top of each core marked, because turning it over would reverse the apparent sequence. They describe the color and texture of each layer before taking small samples for later examination. One core contains a dark upper layer with many visible plant fragments. The students record those fragments as an observation; they don't assign an exact age to the layer from its color. After rain, the cores are wetter and can be harder to handle without disturbing their shape. However, the instructor doesn't tell students to dry them beside a heater. Instead, the cores are supported in trays so the layers stay in place during description. The aim is to preserve the relationships among layers while recording what can actually be seen. A photograph provides an additional record, but it doesn't replace the labels that connect each core to its collection location."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why do students mark the top of a core?",
+         "options": [
+          "To identify the wettest part before collection",
+          "To estimate the age from its dark color",
+          "To connect the photographed plant fragments with a collection site",
+          "To preserve the correct order of its layers"
+         ],
+         "answer": 3,
+         "why": "turning it over would reverse the apparent sequence：标出顶部是为了不把层序弄反，即第四项。",
+         "point": "detail"
+        },
+        {
+         "stem": "How do the students treat visible plant fragments?",
+         "options": [
+          "As proof that both cores have the same age",
+          "As features to record without dating the layer precisely",
+          "As material to remove before describing the core",
+          "As signs that the core was turned upside down"
+         ],
+         "answer": 1,
+         "why": "record those fragments as an observation; they don't assign an exact age：只作记录，不定年代。第二项把两部分都改写了。",
+         "point": "paraphrase"
+        },
+        {
+         "stem": "How are wet cores handled during description?",
+         "options": [
+          "They are supported in containers that keep the layers positioned.",
+          "They are warmed beside a heater until the layers separate.",
+          "They are turned over to compare the wettest ends.",
+          "They are photographed after their location labels are removed."
+         ],
+         "answer": 0,
+         "why": "the cores are supported in trays so the layers stay in place，第一项改写为 containers that keep the layers positioned。第二项的加热是讲者否定的做法。",
+         "point": "detail"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to an academic talk.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Let's examine how a public collection keeps track of an object. When a donated object arrives, staff give it a unique identification number. That number connects the object to a record describing what it is, where it came from, and any known history. It isn't simply a price tag, and it doesn't have to appear prominently on the object's visible surface. A small removable label or another appropriate marking method may be used, depending on the material. Before the object enters storage, staff also record its condition. A scratch noted at this stage can later be distinguished from damage that occurred while the object was in the collection. However, the initial description isn't the final record forever. If an examination reveals a new detail, staff add the finding while retaining the earlier entry. This allows later researchers to see how the understanding of the object changed. The record therefore serves both identification and accountability. It links a physical object with information, and it preserves a history of the observations made about that object over time."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is the main use of the identification number?",
+         "options": [
+          "To display the estimated selling price of the object",
+          "To state its condition without a separate record",
+          "To link the object with its documented information",
+          "To identify the most visible part of its surface"
+         ],
+         "answer": 2,
+         "why": "That number connects the object to a record，第三项改写为 link … with its documented information。第一项的 price tag 是讲者否定的说法。",
+         "point": "paraphrase"
+        },
+        {
+         "stem": "Why is an existing scratch recorded on arrival?",
+         "options": [
+          "To select a marking method that will conceal the damage",
+          "To distinguish earlier damage from damage occurring later",
+          "To use the scratch as the object's unique identifier",
+          "To estimate the object's history from the scratch alone"
+         ],
+         "answer": 1,
+         "why": "A scratch noted at this stage can later be distinguished from damage：先记下旧划痕，以后就能和入藏后的损伤分开，即第二项。",
+         "point": "detail"
+        },
+        {
+         "stem": "What happens when a new detail is discovered?",
+         "options": [
+          "The finding is added without discarding the earlier entry.",
+          "The earlier entry is replaced so only one description survives.",
+          "The discovery is kept separately from the object's identification record.",
+          "The condition record is kept unchanged to preserve its first form."
+         ],
+         "answer": 0,
+         "why": "add the finding while retaining the earlier entry 有两层意思：加上新发现，保留旧记录。第一项两层都改写了，第二项丢了 retaining。",
+         "point": "paraphrase"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

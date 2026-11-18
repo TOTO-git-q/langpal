@@ -1,0 +1,103 @@
+{
+ "id": "writing-practical-method",
+ "title": "应用文任务分析",
+ "goal": "能确定写作者、读者和目的，并核对内容要求。",
+ "skill": "写作",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "task", "label": "提取身份、对象与写作目的"},
+  {"id": "coverage", "label": "判断成文是否回应全部要求"}
+ ],
+ "sources": [
+  {"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "应用文任务分析的内容与知识点"}
+ ],
+ "cards": [
+  {
+   "id": "type", "type": "text", "title": "题型",
+   "body": [
+    {"p": "应用文任务的情境交代写作者、读者和目的。内容要点规定正文需要完成的事项。已给背景帮助理解任务，正文仍要写出要点规定的内容。"},
+    {"box": "假定李华是校园电影社成员，社团将举办电影配音活动，请给外教 Ms. Green 写信。\n• Invite her to the activity.\n• Give the time and place.\n• Ask her to reply by Friday."},
+    {"p": "李华是写作者，Ms. Green 是读者，目的是邀请她参加活动。正文还需交代时间和地点，并请求周五前回复。"}
+   ]
+  },
+  {
+   "id": "steps", "type": "steps", "title": "解题步骤",
+   "note": "以上为本课程的建议，不是官方规定。",
+   "steps": [
+    {"t": "1　确定交际关系", "d": "从情境确定写作者和读者。电影配音任务中，Li Hua 写给 Ms. Green。"},
+    {"t": "2　区分目的与背景", "d": "确定写信要完成的交际目的。电影社举办活动是背景，邀请 Ms. Green 参加是目的。"},
+    {"t": "3　核对内容要求", "d": "逐条找出正文中对应的句子。The activity is at 3 p.m. in Room 4 交代了时间和地点，还需核对邀请和回复要求。"}
+   ]
+  },
+  {
+   "id": "tasks", "type": "table", "title": "情境与要求",
+   "cols": ["任务", "已给背景", "需要写出的内容"],
+   "rows": [
+    ["邀请", "假定李华是戏剧社成员，给外教写信。", "Invite the teacher; give the rehearsal time."],
+    ["咨询", "假定李华准备报名，给课程办公室写信。", "Ask about the fee; ask who may join."],
+    ["通知", "假定李华是学生会成员，面向全校学生发布通知。", "Give the collection point; state the deadline."],
+    ["身份与对象", "假定李华代表班级写给图书馆工作人员。", "Li Hua writes on behalf of the class to the library staff."]
+   ]
+  },
+  {
+   "id": "worked", "type": "text", "title": "例题",
+   "body": [
+    {"box": "假定李华准备参加摄影课程，给课程办公室写信。\n• Ask about the course fee.\n• Ask when registration closes.\nDraft: Could you tell me the course fee? Thank you for your time."},
+    {"box": "Which requirement is missing?\n1. Asking about the course fee.\n2. Asking when registration closes.\n3. Identifying the course office.\n4. Thanking the course office."},
+    {"p": "草稿用 course fee 问了费用，没有问报名截止时间，答案是第二项。结尾的感谢不能代替这一要求。"}
+   ]
+  },
+  {
+   "id": "distractors", "type": "table", "title": "干扰项",
+   "cols": ["问题", "片段", "分析"],
+   "rows": [
+    ["遗漏要点", "Please join the film activity. It starts at three.", "有邀请和时间，缺少地点及回复要求。"],
+    ["对象错误", "Dear Film Club Members,", "任务要求写给外教，称呼改成了社团成员。"],
+    ["目的不明", "Our film club meets every Friday.", "只介绍社团，未向外教发出邀请。"],
+    ["背景代替要求", "I plan to take the photography course.", "报名计划是背景，还需询问费用和截止时间。"]
+   ]
+  },
+  {
+   "id": "practice-one", "type": "check", "title": "练习一", "points": ["task", "coverage"],
+   "groups": [
+    {"text": "假定李华代表班级给自然博物馆工作人员写信，咨询团体参观。\n• Ask about available dates.\n• Ask about the group fee.", "items": [
+     {"stem": "Who is the intended reader?", "options": ["The museum staff.", "The class members.", "The museum visitors.", "The class teacher."], "answer": 0, "why": "情境指定写给自然博物馆工作人员，第一项是读者。", "point": "task"},
+     {"stem": "Which draft covers both requirements?", "options": ["We would like to visit the museum as a class.", "Could you tell us the dates and the group fee?", "We know the group fee and will choose a date.", "Could you tell us the date of the last visit?"], "answer": 1, "why": "要点要求询问可选日期和团体费用，第二项同时提出两项询问。", "point": "coverage"}
+    ]},
+    {"text": "假定李华是学生会成员，面向本校学生发布旧书交换活动通知。\n• Give the exchange location.\n• State what books students may bring.", "items": [
+     {"stem": "What is the purpose of the notice?", "options": ["To ask students what old books they have.", "To thank students for bringing old books.", "To inform students about a book exchange.", "To report on a finished book exchange."], "answer": 2, "why": "情境要求面向学生发布旧书交换活动通知，第三项概括了目的。", "point": "task"},
+     {"stem": "What does the draft omit? Draft: Bring novels or dictionaries to the exchange.", "options": ["The kinds of books accepted.", "The activity being announced.", "The people who may bring books.", "The place for the exchange."], "answer": 3, "why": "草稿说明了可带的书，但没有给出 exchange location，第四项是遗漏的信息。", "point": "coverage"}
+    ]}
+   ]
+  },
+  {
+   "id": "practice-two", "type": "check", "title": "练习二", "points": ["task", "coverage"],
+   "groups": [
+    {"text": "假定李华是合唱团成员，请给音乐教师 Mr. Brown 写信邀请他观看演出。\n• Invite Mr. Brown to the concert.\n• Give the concert date and venue.\n• Ask him to reply by Monday.\nDraft: Dear Mr. Brown, Our choir will perform in the school hall on June 12. Please let me know by Monday. Yours, Li Hua", "items": [
+     {"stem": "Which action expresses the stated purpose?", "options": ["Inviting Mr. Brown to attend the concert.", "Telling Mr. Brown where the choir will sing.", "Asking Mr. Brown to reply by Monday.", "Thanking Mr. Brown for his earlier reply."], "answer": 0, "why": "情境要求写信邀请 Mr. Brown 观看演出，第一项就是这一目的。第二项的演出地点只是要点之一。", "point": "task"},
+     {"stem": "Which requirement is absent from the draft?", "options": ["The date and the concert venue.", "An invitation to attend the concert.", "The requested date for a reply.", "The name of the music teacher."], "answer": 1, "why": "草稿给出日期、地点和回复期限，但未邀请 Mr. Brown 参加，第二项是缺项。", "point": "coverage"}
+    ]}
+   ]
+  },
+  {
+   "id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["task", "coverage"],
+   "sets": [{"id": "set-a", "groups": [
+    {"text": "假定李华是园艺社成员，写信邀请交换生 Emma 参加种植活动。\n• Invite Emma to plant herbs.\n• Give the activity time and place.\n• Ask Emma to reply by Wednesday.\nDraft: Dear Emma, Our club will plant herbs at 4 p.m. in the school garden. Please reply by Wednesday. Best, Li Hua", "items": [
+     {"stem": "Who is the letter addressed to?", "options": ["Emma, the exchange student.", "Li Hua, the club member.", "The gardening club members.", "The school garden staff."], "answer": 0, "why": "情境指定邀请交换生 Emma，Dear Emma 也表明她是收件人。", "point": "task"},
+     {"stem": "Which requirement does the draft leave out?", "options": ["The time and place of planting.", "The invitation to join the planting.", "The deadline for Emma's reply.", "The name of the school garden."], "answer": 1, "why": "草稿说明种植安排和回复期限，缺少邀请 Emma 参加的句子。", "point": "coverage"}
+    ]},
+    {"text": "假定李华准备报名参加陶艺课程，给课程办公室写信咨询。\n• Ask about the course fee.\n• Ask whether materials are provided.\nDraft: Dear Course Office, Could you tell me whether materials are provided? I hope to register soon. Yours, Li Hua", "items": [
+     {"stem": "What is the main purpose of the letter?", "options": ["To confirm a pottery course registration.", "To provide materials for the course.", "To request information about the course.", "To thank the office for its materials."], "answer": 2, "why": "情境要求咨询陶艺课程，第三项概括了询问信息的目的。", "point": "task"},
+     {"stem": "Which requirement still needs a sentence?", "options": ["Whether the office provides materials.", "Whether the course is about pottery.", "Whether Li Hua plans to register.", "What fee the course charges."], "answer": 3, "why": "草稿询问了材料是否提供，还需询问 course fee，第四项对应缺少的要求。", "point": "coverage"}
+    ]},
+    {"items": [
+     {"stem": "A student writes to invite a teacher to a school concert.", "lead": "I", "chunks": ["would like", "to invite", "you to", "the school"], "tail": "concert.", "extra": ["inviting"], "why": "would like to invite 表达写信目的，invite 后接受邀对象和活动。", "point": "task"},
+     {"stem": "A notice must give the time of a school recycling collection.", "lead": "The collection", "chunks": ["will begin", "at", "nine", "on"], "tail": "Saturday.", "extra": ["beginning"], "why": "will begin 构成谓语，at nine 和 on Saturday 交代时间。", "point": "coverage"},
+     {"stem": "A student asks a museum office about the group fee.", "lead": "Could", "chunks": ["you tell", "me", "the group", "fee for"], "tail": "the visit?", "extra": ["telling"], "why": "Could you tell me 引出询问，the group fee 指定所需信息。", "point": "task"},
+     {"stem": "A letter must ask a classmate to reply before Friday.", "lead": "Please", "chunks": ["let", "me know", "by", "this"], "tail": "Friday.", "extra": ["knowing"], "why": "let me know 提出回复请求，by this Friday 写明期限。", "point": "coverage"}
+    ]}
+   ]}]
+  }
+ ]
+}

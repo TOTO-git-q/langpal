@@ -1,0 +1,57 @@
+{
+ "id": "listening-short-correction",
+ "title": "否定与信息修正",
+ "goal": "判断否定表达的范围，辨认修正后成立的信息。",
+ "skill": "听力",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "negative", "label": "判断否定表达限定的事实"},
+  {"id": "revision", "label": "选出修正后仍然成立的信息"}
+ ],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "否定与修正的教学内容及课程小测规格"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "否定词说明哪个动作或状态不成立。说话者也会在后面修正时间、地点等信息，答题以修正后的信息为准。"},
+   {"box": "The report isn't ready yet. / The meeting is on Monday. Actually, it's on Tuesday."},
+   {"p": "第一句说明报告还没有完成。第二组把会议日期修正为周二。"}
+  ]},
+  {"id": "negative", "type": "table", "title": "否定表达", "cols": ["表达", "含义", "例"], "rows": [
+   ["not yet", "到说话时尚未完成。", "The parcel hasn't arrived yet."],
+   ["no longer", "过去成立，现在已经停止。", "The shop no longer sells bread."],
+   ["hardly", "程度或数量很少，接近没有。", "There is hardly any milk left."],
+   ["not", "否定后面的动作或状态：今天蓝色房间不能用。", "The blue room isn't available today."]
+  ]},
+  {"id": "revision", "type": "table", "title": "信息修正", "cols": ["表达", "原话", "修正后的信息"], "rows": [
+   ["but", "I planned to walk, but I'll take the bus.", "改乘公交车。"],
+   ["but", "The room was open, but it's closed now.", "现在房间关闭。"],
+   ["actually", "The talk is on Tuesday. Actually, it's on Wednesday.", "讲座在周三。"],
+   ["actually", "The book is on the desk. Actually, it's on the shelf.", "书在架子上。"],
+   ["I mean", "Meet at five, I mean six.", "见面时间为六点。"],
+   ["I mean", "Take the blue folder, I mean the green one.", "应拿绿色文件夹。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A: Has the new café opened?\nB: Not yet. It will open next week.\nA: Then we'll visit next week."},
+   {"box": "What is true of the café?\n1. It opened last week.\n2. It has not opened yet.\n3. It was visited last week.\n4. It closes next week."},
+   {"p": "Not yet 回答的是是否已经开业，意思是说话时还没有开业。第二项与此一致。"}
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["negative"], "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Has the report for the garden project been finished? I need to send it to the committee before its meeting tomorrow."}, {"who": "B", "text": "Not yet. I'm checking the final page this afternoon."}]}, "items": [{"stem": "What is the report's current status?", "options": ["It was sent yesterday.", "It is not finished yet.", "It no longer has a final page.", "It was finished this morning."], "answer": 1, "why": "Not yet 回应完成情况，说明报告尚未完成。", "point": "negative"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["revision"], "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "The art club meets in Room Four tomorrow. Actually, the room is being painted, so the meeting is in Room Seven."}, {"who": "B", "text": "I'll tell the other members about the change."}]}, "items": [{"stem": "Where will the club meet tomorrow?", "options": ["In Room Four after painting", "In Room Four before painting", "In Room Seven, not Room Four", "In the room being painted"], "answer": 2, "why": "actually 后给出变更后的地点 Room Seven。", "point": "revision"}]}
+  ]},
+  {"id": "practice-three", "type": "check", "title": "练习三", "points": ["negative", "revision"], "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Does the café still sell soup at lunch? I used to buy it there when I worked nearby, and I'm visiting the area today."}, {"who": "B", "text": "It no longer sells soup, but it still serves sandwiches."}]}, "items": [{"stem": "What does the café serve now?", "options": ["Soup and sandwiches", "Soup instead of sandwiches", "Neither soup nor sandwiches", "Sandwiches but not soup"], "answer": 3, "why": "no longer sells soup 表示停止卖汤，still serves sandwiches 表示仍供应三明治。", "point": "negative"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Please bring the red folder to the meeting. I mean the yellow folder; the red one contains notes from last month's meeting."}, {"who": "B", "text": "All right. I'll bring the yellow one."}]}, "items": [{"stem": "Which folder should be brought?", "options": ["The yellow folder", "The red folder", "Both colored folders", "Last month's red notes"], "answer": 0, "why": "I mean the yellow folder 修正前面的 red folder。", "point": "revision"}]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["negative", "revision"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Has the printer delivered the posters for the concert? We need to put them up before the tickets go on sale tomorrow."}, {"who": "B", "text": "Not yet. The printer expects to bring them this afternoon."}]}, "items": [{"stem": "What is true of the posters?", "options": ["They have not arrived yet.", "They were delivered yesterday.", "They are no longer needed.", "They are already on sale."], "answer": 0, "why": "Not yet 回答是否送达，说明海报尚未到达。", "point": "negative"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "I thought the film started at six. Actually, I checked the programme again: it starts at seven, after the short talk here at the gallery."}, {"who": "B", "text": "Then we have time for the talk first."}]}, "items": [{"stem": "When does the film start?", "options": ["At six, before the talk", "At seven, after the talk", "At six, after the talk", "At seven, before the talk"], "answer": 1, "why": "actually 后修正为 starts at seven, after the short talk。", "point": "revision"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Do you still cycle to the station every morning? I remember seeing your bicycle outside the station when we worked together."}, {"who": "B", "text": "I no longer cycle there. I walk to the station now."}]}, "items": [{"stem": "How does the second speaker reach the station now?", "options": ["By bicycle each morning", "By bicycle after work", "On foot to the station", "On foot after cycling"], "answer": 2, "why": "no longer cycle 与 walk to the station now 说明现在步行。", "point": "negative"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Let's meet at the east entrance at four. I mean the west entrance; the east entrance is closed for repairs today."}, {"who": "B", "text": "All right. I'll wait at the west entrance before the visit."}]}, "items": [{"stem": "Where will the speakers meet?", "options": ["At the east entrance", "Inside the east entrance", "At the entrance under repair", "At the west entrance"], "answer": 3, "why": "I mean the west entrance 修正东侧入口，回应也确认西侧入口。", "point": "revision"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Is there enough paper left for the class? I need to print the activity sheets before the students arrive this afternoon."}, {"who": "B", "text": "There's hardly any paper left. I'll get another pack from the office."}]}, "items": [{"stem": "How much paper is left?", "options": ["Very little paper", "A full pack of paper", "Enough for every sheet", "No sheets to print"], "answer": 0, "why": "hardly any paper left 表示剩余的纸很少。", "point": "negative"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "I was going to take the morning bus to the garden, but I'll take the afternoon bus because my appointment ends at noon."}, {"who": "B", "text": "I'll meet you at the garden in the afternoon."}]}, "items": [{"stem": "Which bus will the first speaker take?", "options": ["The morning bus to the garden", "The afternoon bus to the garden", "The morning bus to the appointment", "The afternoon bus to the appointment"], "answer": 1, "why": "but I'll take the afternoon bus 修正了原来的上午计划。", "point": "revision"}]}
+  ]}]} 
+ ]
+}

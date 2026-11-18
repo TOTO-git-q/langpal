@@ -1,0 +1,211 @@
+{
+ "id": "reading-overview",
+ "title": "阅读部分概览",
+ "goal": "区分阅读题型、题量、时间和卷面权重。",
+ "skill": "阅读",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "format",
+   "label": "区分三类阅读材料和作答形式"
+  },
+  {
+   "id": "timing",
+   "label": "说出阅读题量与共享时间"
+  },
+  {
+   "id": "weight",
+   "label": "区分三类题的卷面权重"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c1",
+   "title": "CET笔试",
+   "url": "https://cet.neea.edu.cn/html1/folder/16113/1586-1.htm",
+   "used": "阅读题量、时间及卷面权重"
+  },
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "阅读材料长度及作答形式"
+  }
+ ],
+ "cards": [
+  {
+   "id": "facts",
+   "type": "facts",
+   "title": "概述",
+   "rows": [
+    {
+     "k": "题量",
+     "v": "词汇理解、长篇阅读和仔细阅读各 10 题，共 30 题。",
+     "src": "c1 CET笔试"
+    },
+    {
+     "k": "时间",
+     "v": "阅读理解共用 40 分钟。",
+     "src": "c1 CET笔试"
+    },
+    {
+     "k": "权重",
+     "v": "三类题在卷面上依次占 5%、10% 和 20%。",
+     "src": "c1 CET笔试"
+    }
+   ]
+  },
+  {
+   "id": "types",
+   "type": "table",
+   "title": "题型",
+   "cols": [
+    "题型",
+    "材料",
+    "作答形式"
+   ],
+   "rows": [
+    [
+     "词汇理解",
+     "1 篇 200–250 词的短文，含 10 空。",
+     "从 15 词词库中选词填空。"
+    ],
+    [
+     "长篇阅读",
+     "1 篇约 1000 词的长文。",
+     "为陈述选择对应段落。"
+    ],
+    [
+     "仔细阅读",
+     "2 篇短文，每篇 300–350 词。",
+     "根据文章内容选择答案。"
+    ]
+   ],
+   "src": "c2 大纲 第 3 节"
+  },
+  {
+   "id": "weights",
+   "type": "table",
+   "title": "卷面权重",
+   "cols": [
+    "题型",
+    "题量",
+    "卷面权重"
+   ],
+   "rows": [
+    [
+     "词汇理解",
+     "10 题",
+     "5%"
+    ],
+    [
+     "长篇阅读",
+     "10 题",
+     "10%"
+    ],
+    [
+     "仔细阅读",
+     "10 题",
+     "20%"
+    ]
+   ],
+   "src": "c1 CET笔试"
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 4,
+   "pass": 0.8,
+   "points": [
+    "format",
+    "timing",
+    "weight"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "Which reading task uses a bank of words?",
+         "options": [
+          "The passage with ten gaps",
+          "The text matched to statements",
+          "The first close-reading passage",
+          "The second close-reading passage"
+         ],
+         "answer": 0,
+         "why": "词汇理解的短文有 10 空，答案从词库中选择，即第一项。",
+         "point": "format"
+        },
+        {
+         "stem": "What does the long-reading task require?",
+         "options": [
+          "Selecting words for ten gaps",
+          "Choosing an answer for each passage",
+          "Matching statements to paragraphs",
+          "Completing two passages with words"
+         ],
+         "answer": 2,
+         "why": "长篇阅读要求为陈述选择对应段落，即第三项。",
+         "point": "format"
+        },
+        {
+         "stem": "How is the reading time arranged?",
+         "options": [
+          "Forty minutes for each reading task",
+          "Forty minutes shared by all three tasks",
+          "Thirty minutes shared by all three tasks",
+          "Thirty minutes for each reading task"
+         ],
+         "answer": 1,
+         "why": "阅读理解的三类题共用 40 分钟，即第二项。",
+         "point": "timing"
+        },
+        {
+         "stem": "How many questions are in the reading section?",
+         "options": [
+          "Ten questions across the three tasks",
+          "Twenty questions across the three tasks",
+          "Forty questions across the three tasks",
+          "Thirty questions across the three tasks"
+         ],
+         "answer": 3,
+         "why": "三类题各 10 题，共 30 题，即第四项。",
+         "point": "timing"
+        },
+        {
+         "stem": "Which task accounts for 5% of the paper?",
+         "options": [
+          "Vocabulary comprehension",
+          "Long reading and matching",
+          "Both close-reading passages",
+          "All three reading tasks"
+         ],
+         "answer": 0,
+         "why": "词汇理解的卷面权重为 5%，即第一项。",
+         "point": "weight"
+        },
+        {
+         "stem": "Which pair gives the weights of long reading and close reading, in that order?",
+         "options": [
+          "5% and 10%",
+          "20% and 10%",
+          "10% and 20%",
+          "10% and 5%"
+         ],
+         "answer": 2,
+         "why": "长篇阅读占 10%，仔细阅读占 20%，即第三项。",
+         "point": "weight"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

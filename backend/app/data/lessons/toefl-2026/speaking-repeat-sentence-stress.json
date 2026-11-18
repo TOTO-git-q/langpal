@@ -1,0 +1,534 @@
+{
+ "id": "speaking-repeat-sentence-stress",
+ "title": "句重音与节奏",
+ "goal": "判断一句话中重读的词；根据语境判断对比重音的位置。",
+ "skill": "speaking",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 口语",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "content",
+   "label": "判断一句话中重读的词"
+  },
+  {
+   "id": "focus",
+   "label": "根据语境判断对比重音的位置"
+  }
+ ],
+ "sources": [],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "句重音决定句中哪些词读得更突出。没有对比的陈述句里，名词、主要动词、形容词和副词通常重读。冠词、介词、代词和助动词通常弱读。具体读法还要看上下文。"
+    },
+    {
+     "box": "The GUIDE will CHECK the NEW ROUTE."
+    },
+    {
+     "p": "本课用大写标出重读的词，录音不一定这样读。带录音的题只用来给出句子。重音的位置按题干写明的语境判断。"
+    }
+   ]
+  },
+  {
+   "id": "neutral",
+   "type": "table",
+   "title": "实义词与功能词",
+   "cols": [
+    "类型",
+    "规律",
+    "例句"
+   ],
+   "rows": [
+    [
+     "名词",
+     "名词带出人和物的信息，通常重读。",
+     "The TRAIN crossed the BRIDGE."
+    ],
+    [
+     "主要动词",
+     "表达动作或状态，通常比助动词突出。",
+     "The assistant will CHECK the LIST."
+    ],
+    [
+     "形容词",
+     "提供新的性质或区别时通常重读。",
+     "The LARGE container is EMPTY."
+    ],
+    [
+     "副词",
+     "表示新的程度、方式或时间信息时可重读。",
+     "The gate closed SLOWLY."
+    ],
+    [
+     "冠词与介词",
+     "没有对比时读得弱，但不能省。",
+     "The KEY is in the DRAWER."
+    ],
+    [
+     "代词与助动词",
+     "指已知对象的代词和普通助动词通常读得弱。",
+     "She has FINISHED the DRAWING."
+    ],
+    [
+     "否定与对比",
+     "表示否定或被纠正的功能词也可以重读。",
+     "The notes are FOR the tutor, not FROM the tutor."
+    ],
+    [
+     "已知信息",
+     "已经说过的实义词读得弱，新信息重读。",
+     "What arrived? → A PARCEL arrived."
+    ]
+   ]
+  },
+  {
+   "id": "focus",
+   "type": "table",
+   "title": "节奏与信息焦点",
+   "cols": [
+    "情况",
+    "说明",
+    "例句"
+   ],
+   "rows": [
+    [
+     "重音间隔",
+     "重音之间的间隔大致相近，但不是严格等长。",
+     "CATS CHASE MICE. / The CATS will CHASE the MICE."
+    ],
+    [
+     "非重读音节",
+     "两个重音之间的功能词读得短，但仍要说清。",
+     "The CATS could have CHASED the MICE."
+    ],
+    [
+     "语速与边界",
+     "意群边界处可以放慢，不必把各段压成一样长。",
+     "After the long rehearsal, / the players RESTED."
+    ],
+    [
+     "主语对比",
+     "纠正动作执行者时突出主语。",
+     "MAYA sent the sketch.（不是 Leo）"
+    ],
+    [
+     "动作对比",
+     "纠正所做动作时突出动词。",
+     "Maya SENT the sketch.（不是 kept）"
+    ],
+    [
+     "对象对比",
+     "纠正动作对象时突出宾语。",
+     "Maya sent the SKETCH.（不是 invoice）"
+    ],
+    [
+     "新信息",
+     "重读回答问句的那个词，不一定是句末的词。",
+     "Who sent the sketch? → MAYA sent the sketch."
+    ],
+    [
+     "功能词对比",
+     "纠正方向或关系时，功能词可以成为焦点。",
+     "The parcel is FROM Maya, not FOR Maya."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Context: Leo says the guide borrowed the camera. The guide explains that she bought it.\nThe guide bought the camera.\nWhich word should carry the corrective focus?\n1. guide\n2. the\n3. bought\n4. camera"
+    },
+    {
+     "p": "被纠正的是动作：borrowed 换成 bought。人物和物品都没变。所以 bought 是对比焦点，答案是第三项。"
+    },
+    {
+     "box": "The GUIDE bought the camera. / The guide BOUGHT the camera. / The guide bought the CAMERA."
+    },
+    {
+     "p": "三句分别突出买的人、买这个动作和买的东西。最突出的那个词，就是这句话要区分的信息。"
+    }
+   ]
+  },
+  {
+   "id": "check-content",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "content"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The porter will move the heavy crate."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "In a neutral reading, which set contains the main content words?",
+       "options": [
+        "porter / move / heavy / crate",
+        "porter / will / heavy / crate",
+        "will / move / heavy / crate",
+        "porter / move / the / crate"
+       ],
+       "answer": 0,
+       "why": "porter、move、heavy、crate 分别是人物、动作、性质和对象。will 和 the 是功能词，第二项把 will 当成了实义词。",
+       "point": "content"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The editor has corrected the final paragraph."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "In a neutral reading, which set contains the main content words?",
+       "options": [
+        "editor / has / final / paragraph",
+        "has / corrected / final / paragraph",
+        "editor / corrected / the / paragraph",
+        "editor / corrected / final / paragraph"
+       ],
+       "answer": 3,
+       "why": "editor、corrected、final、paragraph 是本句的实义词。has 是助动词，没有对比时读得弱。",
+       "point": "content"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The courier can deliver the fragile package."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "In a neutral reading, which set contains the main content words?",
+       "options": [
+        "courier / can / fragile / package",
+        "courier / deliver / fragile / package",
+        "can / deliver / fragile / package",
+        "courier / deliver / the / package"
+       ],
+       "answer": 1,
+       "why": "courier、deliver、fragile、package 是实义词。普通肯定句中的 can 读得弱。",
+       "point": "content"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The dancer is wearing the silver costume."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "In a neutral reading, which set contains the main content words?",
+       "options": [
+        "dancer / is / silver / costume",
+        "the / wearing / silver / costume",
+        "dancer / wearing / silver / costume",
+        "dancer / wearing / the / costume"
+       ],
+       "answer": 2,
+       "why": "dancer、wearing、silver、costume 是实义词，is 是助动词。",
+       "point": "content"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-focus",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "focus"
+   ],
+   "groups": [
+    {
+     "text": "The wrong name was given: Leo prepared the slides. Correction: Nora prepared the slides.",
+     "items": [
+      {
+       "stem": "Which word carries the correction?",
+       "options": [
+        "prepared",
+        "slides",
+        "Nora",
+        "the"
+       ],
+       "answer": 2,
+       "why": "Leo 换成了 Nora，被纠正的是做事的人，所以突出 Nora。",
+       "point": "focus"
+      }
+     ]
+    },
+    {
+     "text": "The question is: What did the mechanic replace? Answer: The mechanic replaced the belt.",
+     "items": [
+      {
+       "stem": "Which word supplies the requested new information?",
+       "options": [
+        "mechanic",
+        "replaced",
+        "the",
+        "belt"
+       ],
+       "answer": 3,
+       "why": "问句已经给出人物和动作，belt 补出未知对象。",
+       "point": "focus"
+      }
+     ]
+    },
+    {
+     "text": "The ticket is for Friday, not from Friday.",
+     "items": [
+      {
+       "stem": "Which word is contrasted with from?",
+       "options": [
+        "for",
+        "ticket",
+        "Friday",
+        "the"
+       ],
+       "answer": 0,
+       "why": "for 和 from 表示的关系不同，所以功能词 for 重读。",
+       "point": "focus"
+      }
+     ]
+    },
+    {
+     "text": "The donor lent the instrument rather than sold it. Target sentence: The donor lent the instrument.",
+     "items": [
+      {
+       "stem": "Which word should receive the corrective focus?",
+       "options": [
+        "donor",
+        "lent",
+        "instrument",
+        "the"
+       ],
+       "answer": 1,
+       "why": "lent 与 sold 对比，需突出动作 lent。",
+       "point": "focus"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "content",
+    "focus"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The researcher will compare the final estimates."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Without contrast, which set identifies the content words?",
+         "options": [
+          "researcher / will / compare / estimates",
+          "researcher / compare / the / estimates",
+          "researcher / compare / final / estimates",
+          "researcher / will / compare / final / estimates"
+         ],
+         "answer": 2,
+         "why": "researcher、compare、final、estimates 是实义词。will 和 the 读得弱，但不能省。第四项多了助动词 will。",
+         "point": "content"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The plumber has replaced the damaged valve."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Without contrast, which set identifies the content words?",
+         "options": [
+          "plumber / replaced / damaged / valve",
+          "plumber / has / replaced / valve",
+          "has / replaced / damaged / valve",
+          "plumber / replaced / the / valve"
+         ],
+         "answer": 0,
+         "why": "plumber、replaced、damaged、valve 分别是人物、动作、性质和对象，是本句的主要信息。",
+         "point": "content"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The drummer can adjust the loose pedal."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Without contrast, which set identifies the content words?",
+         "options": [
+          "drummer / can / adjust / pedal",
+          "drummer / can / adjust / loose / pedal",
+          "drummer / adjust / the / pedal",
+          "drummer / adjust / loose / pedal"
+         ],
+         "answer": 3,
+         "why": "drummer、adjust、loose、pedal 是实义词。题干说明没有对比，can 读得弱，第二项多了 can。",
+         "point": "content"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The gardener is moving the empty planter."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Without contrast, which set identifies the content words?",
+         "options": [
+          "gardener / is / empty / planter",
+          "gardener / moving / empty / planter",
+          "gardener / moving / the / planter",
+          "is / moving / empty / planter"
+         ],
+         "answer": 1,
+         "why": "gardener、moving、empty、planter 是实义词，is 是助动词。",
+         "point": "content"
+        }
+       ]
+      },
+      {
+       "text": "Claim: Ada designed the poster. Correction: Milo designed the poster.",
+       "items": [
+        {
+         "stem": "Which word should be most prominent in the correction?",
+         "options": [
+          "designed",
+          "poster",
+          "the",
+          "Milo"
+         ],
+         "answer": 3,
+         "why": "Ada 被纠正为 Milo。designed 和 poster 两句都有，不是新信息。",
+         "point": "focus"
+        }
+       ]
+      },
+      {
+       "text": "Question: What did the archivist scan? Answer: The archivist scanned the diary.",
+       "items": [
+        {
+         "stem": "Which word carries the requested new information?",
+         "options": [
+          "diary",
+          "archivist",
+          "scanned",
+          "the"
+         ],
+         "answer": 0,
+         "why": "What did … scan 问扫描对象，diary 提供新信息。",
+         "point": "focus"
+        }
+       ]
+      },
+      {
+       "text": "The package is from the engraver, not for the engraver.",
+       "items": [
+        {
+         "stem": "Which word should contrast with for?",
+         "options": [
+          "package",
+          "engraver",
+          "from",
+          "the"
+         ],
+         "answer": 2,
+         "why": "from 和 for 分别表示来源和接收的人。这里 from 虽然是介词，也要重读。",
+         "point": "focus"
+        }
+       ]
+      },
+      {
+       "text": "Claim: The tutor copied the diagram. Correction: The tutor drew the diagram.",
+       "items": [
+        {
+         "stem": "Which word is the corrective focus?",
+         "options": [
+          "tutor",
+          "drew",
+          "diagram",
+          "the"
+         ],
+         "answer": 1,
+         "why": "copied 被纠正为 drew，人物和对象没变，所以突出 drew。",
+         "point": "focus"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

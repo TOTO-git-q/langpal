@@ -1,0 +1,545 @@
+{
+ "id": "listening-conversation-speech",
+ "title": "连续语流中的词组",
+ "goal": "辨认连续语流中的词组边界，并结合完整词组判断句意。",
+ "skill": "听力",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "segment",
+   "label": "从连续语流中辨认词组边界"
+  },
+  {
+   "id": "meaning",
+   "label": "结合完整词组判断句意"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "听力理解的课程内容依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "连续语流中，功能词通常读得比实义词轻、短。相邻的词常常连读。辨认词组要结合句法和上下文。"
+    },
+    {
+     "p": "例如 I can attend 表示可以出席，I have to attend 表示必须出席。can 和 have to 都读得轻，听清这两个功能词才能分清句意。"
+    }
+   ]
+  },
+  {
+   "id": "weak-forms",
+   "type": "table",
+   "title": "功能词的弱读",
+   "cols": [
+    "词",
+    "用法",
+    "例句",
+    "句意"
+   ],
+   "rows": [
+    [
+     "can",
+     "情态动词后接原形",
+     "I can check the list this evening.",
+     "今晚可以核对名单"
+    ],
+    [
+     "have",
+     "have to 表示必要性",
+     "We have to return the equipment today.",
+     "今天必须归还设备"
+    ],
+    [
+     "to",
+     "不定式标记，常轻读",
+     "They plan to visit the studio.",
+     "他们计划参观工作室"
+    ],
+    [
+     "and",
+     "连接并列成分，常轻读",
+     "We need paper and envelopes.",
+     "需要纸和信封"
+    ]
+   ],
+   "note": "功能词在句中被强调时，读得较重。"
+  },
+  {
+   "id": "linking",
+   "type": "table",
+   "title": "辅音与元音的连接",
+   "cols": [
+    "词组",
+    "词界",
+    "完整句",
+    "语境义"
+   ],
+   "rows": [
+    [
+     "pick up",
+     "pick 的末辅音连接 up",
+     "I'll pick up the parcel after lunch.",
+     "午饭后领取包裹"
+    ],
+    [
+     "turn off",
+     "turn 的末辅音连接 off",
+     "Please turn off the printer tonight.",
+     "今晚关闭打印机"
+    ],
+    [
+     "send it",
+     "send 的末辅音连接 it",
+     "I'll send it to the editor tomorrow.",
+     "明天把它发给编辑"
+    ],
+    [
+     "move in",
+     "move 的末辅音连接 in",
+     "They'll move in on Friday.",
+     "他们周五搬入"
+    ]
+   ],
+   "note": "连读只改变声音的衔接，词组的拼写和语法不变。"
+  },
+  {
+   "id": "boundaries",
+   "type": "table",
+   "title": "词组切分与句意",
+   "cols": [
+    "对照",
+    "词组",
+    "语境",
+    "区别"
+   ],
+   "rows": [
+    [
+     "能力与必要",
+     "can check / have to check",
+     "I can check the list. / I have to check the list.",
+     "可以核对与必须核对"
+    ],
+    [
+     "目的与并列",
+     "to call / and call",
+     "I need to call Mei. / I'll write and call Mei.",
+     "需要打电话与写信并打电话"
+    ],
+    [
+     "领取与寄送",
+     "pick up / send it",
+     "I'll pick up the parcel. / I'll send it tomorrow.",
+     "领取包裹与寄送包裹"
+    ],
+    [
+     "搬入与关闭",
+     "move in / turn off",
+     "They'll move in Friday. / They'll turn off the lights.",
+     "搬入与关灯"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A: Is the parcel still at the desk?\nB: Yes. I have to pick it up before the desk closes.\nA: I'll call the desk and check its closing time."
+    },
+    {
+     "box": "What must B do?\n1. Collect the parcel before closing.\n2. Deliver the parcel to the desk.\n3. Close the desk after the call.\n4. Call the desk about its hours."
+    },
+    {
+     "p": "have to 表示必须，pick it up 表示领取包裹，第一项与此对应。第四项的打电话是 A 的安排。"
+    }
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "segment",
+    "meaning"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Is the printer still running?"
+       },
+       {
+        "who": "B",
+        "text": "Yes. I'll turn it off after this page."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What will the second speaker do after the page?",
+       "options": [
+        "Start the printer again.",
+        "Switch the printer off.",
+        "Print the page again.",
+        "Keep the printer running."
+       ],
+       "answer": 1,
+       "why": "turn it off 表示关闭打印机，第二项保留动作和对象。",
+       "point": "meaning"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Can you collect the samples?"
+       },
+       {
+        "who": "B",
+        "text": "Yes, I can pick them up at noon."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which phrase describes the second speaker's plan?",
+       "options": [
+        "put them away",
+        "send them back",
+        "pick them up",
+        "write them down"
+       ],
+       "answer": 2,
+       "why": "I can pick them up 表示中午领取样品，第三项保留完整词组。",
+       "point": "segment"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Are the keys ready?"
+       },
+       {
+        "who": "B",
+        "text": "Yes, so we can move in tomorrow."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What can the speakers do tomorrow?",
+       "options": [
+        "Get new keys made.",
+        "Move into the place.",
+        "Check whether the keys are ready.",
+        "Return the keys early."
+       ],
+       "answer": 1,
+       "why": "can move in tomorrow 表示明天可以搬入，第二项对应这一安排。",
+       "point": "meaning"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Has Mei seen the schedule?"
+       },
+       {
+        "who": "B",
+        "text": "Not yet. I have to send it to her."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which phrase expresses the second speaker's obligation?",
+       "options": [
+        "have to send it",
+        "have sent it",
+        "can send it later",
+        "sent it already"
+       ],
+       "answer": 0,
+       "why": "have to send it 表示需要发送，第一项保留表示必要性的词组。",
+       "point": "segment"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "segment",
+    "meaning"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The forms are ready. Can we leave them here?"
+       },
+       {
+        "who": "B",
+        "text": "We have to hand them in at the office. I can take them there after lunch."
+       },
+       {
+        "who": "A",
+        "text": "I'll call and tell the office they're coming."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What must the speakers do with the forms?",
+       "options": [
+        "Leave them at the desk.",
+        "Submit them to the office.",
+        "Complete them after lunch.",
+        "Ask the office for new forms."
+       ],
+       "answer": 1,
+       "why": "have to hand them in at the office 表示必须把表格交到办公室，即第二项。",
+       "point": "meaning"
+      },
+      {
+       "stem": "Which phrase describes the first speaker's two actions?",
+       "options": [
+        "call and tell",
+        "call to collect",
+        "take and submit",
+        "leave and return"
+       ],
+       "answer": 0,
+       "why": "I'll call and tell 用 and 连接打电话和告知两个动作，即第一项。",
+       "point": "segment"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "segment",
+    "meaning"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Is the projector ready for the meeting?"
+         },
+         {
+          "who": "B",
+          "text": "Yes. I can set it up before the guests arrive."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which phrase describes the second speaker's offer?",
+         "options": [
+          "can put it away",
+          "has set it aside",
+          "can set it up",
+          "has sent it away"
+         ],
+         "answer": 2,
+         "why": "I can set it up 表示可以安装好投影仪，第三项保留谓语词组。",
+         "point": "segment"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Will the gallery keep the paintings overnight?"
+         },
+         {
+          "who": "B",
+          "text": "No. We have to pick them up this afternoon."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What must the speakers do this afternoon?",
+         "options": [
+          "Leave the paintings in the gallery.",
+          "Collect the paintings from the gallery.",
+          "Deliver new paintings to the gallery.",
+          "Arrange the paintings inside the gallery."
+         ],
+         "answer": 1,
+         "why": "have to pick them up 表示必须领取画作，第二项对应这一必要动作。",
+         "point": "meaning"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Does the director have the revised program?"
+         },
+         {
+          "who": "B",
+          "text": "Not yet. I'll send it to her and call her afterwards."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which phrase identifies the second speaker's first action?",
+         "options": [
+          "call her first",
+          "revise it again",
+          "ask her for it",
+          "send it to her"
+         ],
+         "answer": 3,
+         "why": "依据是 I'll send it to her and call her afterwards。先发送节目单，后打电话，即第四项。",
+         "point": "segment"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The lights are on in the workshop."
+         },
+         {
+          "who": "B",
+          "text": "I'll turn them off when the last group leaves."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What will the second speaker do after the last group leaves?",
+         "options": [
+          "Switch off the workshop lights.",
+          "Let the last group switch off the lights.",
+          "Turn the workshop lights on.",
+          "Switch off the lights before the group leaves."
+         ],
+         "answer": 0,
+         "why": "依据是 I'll turn them off when the last group leaves，them 指 lights。说话人自己在最后一组离开时关灯，即第一项。",
+         "point": "meaning"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "What supplies are needed for the labels?"
+         },
+         {
+          "who": "B",
+          "text": "We need pens and paper. The envelopes are already here."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which phrase names the supplies still needed?",
+         "options": [
+          "pens and envelopes",
+          "paper and envelopes",
+          "pens and paper",
+          "labels and envelopes"
+         ],
+         "answer": 2,
+         "why": "pens and paper 由 and 连接两项所需用品；envelopes 已经备好。",
+         "point": "segment"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Are the painters finished with the apartment?"
+         },
+         {
+          "who": "B",
+          "text": "Yes. We can move in on Saturday, but the keys won't arrive until Friday."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What does the second speaker say about Saturday?",
+         "options": [
+          "The painters must finish the apartment.",
+          "The keys will be delivered that day.",
+          "The apartment will be painted again.",
+          "The speakers can occupy the apartment."
+         ],
+         "answer": 3,
+         "why": "can move in on Saturday 表示周六可以搬入，即第四项。钥匙在周五送到，不是周六。",
+         "point": "meaning"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

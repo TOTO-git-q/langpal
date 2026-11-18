@@ -1,0 +1,44 @@
+{
+ "id": "writing-mixed-units", "title": "数据单位与指代", "goal": "能核对单位和统计口径，并准确指代比较对象。", "skill": "写作", "exam": "雅思 IELTS Academic", "mastery": "once",
+ "points": [{"id": "unit", "label": "核对数据的单位与统计口径"}, {"id": "reference", "label": "用明确的指代连接比较对象"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "写作数据单位课的内容与教学规格"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "描述数据时写明单位、统计对象和时间。人数和比例、总量和人均、实际数和预测数，含义各不相同。"}, {"box": "200 people visited the gallery; 25% of them walked there."}, {"p": "200 是人数，25% 是这 200 名访客中的比例。比较句里的代词要指向同类的名词，所指要明确。"}]},
+  {"id": "counts", "type": "table", "title": "人数与比例", "cols": ["数据", "统计口径", "例句"], "rows": [
+   ["20 people / 40%", "20 人，占 50 人的 40%", "Twenty of the 50 visitors walked."], ["30 people / 30%", "30 人，占 100 人的 30%", "Thirty of the 100 visitors cycled."], ["40 pupils / 50%", "40 人，占 80 人的 50%", "Half of the 80 pupils took the bus."], ["60 pupils / 50%", "60 人，占 120 人的 50%", "Half of the 120 pupils walked."]
+  ]},
+  {"id": "totals", "type": "table", "title": "总量与人均", "cols": ["总量", "人均", "例句"], "rows": [
+   ["100 books / 10 readers", "10 books per reader", "The group borrowed 100 books, or 10 per reader."], ["120 litres / 20 people", "6 litres per person", "The group used 120 litres, or 6 per person."], ["80 meals / 40 pupils", "2 meals per pupil", "The group received 80 meals, or 2 per pupil."], ["90 minutes / 30 people", "3 minutes per person", "The total was 90 minutes, or 3 per person."]
+  ]},
+  {"id": "forecasts", "type": "table", "title": "实际数与预测数", "cols": ["实际数", "预测数", "例句"], "rows": [
+   ["2020: 100 visits", "2030: 150 visits", "Visits were 100 in 2020 and are projected to reach 150 in 2030."], ["2021: 20 tonnes", "2031: 30 tonnes", "Output was 20 tonnes in 2021 and is forecast at 30 tonnes in 2031."], ["2022: 40 people", "2032: 50 people", "Staffing stood at 40 in 2022 and is expected to reach 50 in 2032."], ["2023: 60 litres", "2033: 70 litres", "Use was 60 litres in 2023 and is projected to be 70 litres in 2033."]
+  ]},
+  {"id": "reference", "type": "table", "title": "比较句的指代", "cols": ["对象", "指代", "例句"], "rows": [
+   ["单数或不可数名词", "that of", "The output of Mill A exceeded that of Mill B."], ["复数名词", "those of", "The figures for April exceeded those of March."], ["明确数值和单位", "数量 + 单位", "Town A used 20 litres; Town B used 30 litres."], ["不同总体", "写明分母", "Half of 80 pupils and half of 120 pupils attended."]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["unit"], "groups": [{"items": [
+   {"stem": "There were 20 walkers among 50 visitors. Which statement is accurate?", "options": ["Forty per cent of the visitors walked.", "Fifty per cent of the visitors walked.", "Twenty per cent of the visitors walked.", "Forty visitors walked out of the fifty."], "answer": 0, "why": "20 除以 50 等于 40%，第一项保留了比例。", "point": "unit"},
+   {"stem": "A group of 20 used 120 litres. Which statement gives the average?", "options": ["The group used 120 litres per person.", "The group used 6 litres per person.", "The group used 20 litres per person.", "The group used 6 litres in total."], "answer": 1, "why": "120 litres 除以 20 人得到每人 6 litres。", "point": "unit"},
+   {"stem": "An actual figure was 40 in 2022; a forecast gives 50 for 2032. Which description is accurate?", "options": ["The actual figure reached 50 in 2032.", "The forecast figure was 40 in 2022.", "The figure is forecast to reach 50 in 2032.", "The figure is forecast to fall to 40 in 2032."], "answer": 2, "why": "50 是 2032 年的预测值，第三项保留预测性质。", "point": "unit"},
+   {"stem": "Half of 80 pupils and half of 120 pupils attended. Which statement is accurate?", "options": ["Both groups had 80 pupils attending.", "Both groups had 120 pupils attending.", "The same number attended in each group.", "The same proportion attended in each group."], "answer": 3, "why": "两个分母不同，但出席比例均为一半。", "point": "unit"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["reference"], "groups": [{"items": [
+   {"stem": "Compare the output of Mill A with the output of Mill B. Which sentence is clear?", "options": ["The output of Mill A exceeded that of Mill B.", "The output of Mill A exceeded those of Mill B.", "The output of Mill A exceeded Mill B itself.", "The output of Mill A exceeded it of Mill B."], "answer": 0, "why": "that 指不可数名词 output，与前面的 output 对应。", "point": "reference"},
+   {"stem": "Compare the figures for April with the figures for March. Which sentence is clear?", "options": ["The figures for April exceeded that of March.", "The figures for April exceeded those of March.", "The figures for April exceeded March itself.", "The figures for April exceeded these of March."], "answer": 1, "why": "those of March 指复数名词 figures。", "point": "reference"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["unit", "reference"], "sets": [{"id": "set-a", "groups": [
+   {"text": "At a gallery, 20 of 50 visitors walked in April, while 30 of 100 visitors walked in May. Total visits were 50 in April and 100 in May.", "items": [
+    {"stem": "Which comparison of walking shares is accurate?", "options": ["The share was higher in April than in May.", "The share was higher in May than in April.", "The share was the same in the two months.", "The share was 20% in both of the months."], "answer": 0, "why": "April 为 20/50，即 40%；May 为 30/100，即 30%。", "point": "unit"},
+    {"stem": "Which sentence compares total visits using an explicit reference?", "options": ["May's total exceeded those of April.", "May's total exceeded that of April.", "May's total exceeded April itself.", "May's total exceeded it of April."], "answer": 1, "why": "that of April 指 April 的 total，与单数 total 对应。", "point": "reference"},
+    {"stem": "Complete a sentence identifying the April proportion.", "lead": "In April,", "chunks": ["40 per cent", "of", "the visitors", "walked"], "tail": ".", "extra": ["40 people"], "why": "20 名步行访客占 50 名访客的 40%。", "point": "unit"},
+    {"stem": "Complete the comparison of total visits.", "lead": "The total", "chunks": ["for May", "was higher", "than", "that for April"], "tail": ".", "extra": ["those for April"], "why": "that for April 回指单数 total；May 的 100 高于 April 的 50。", "point": "reference"}
+   ]},
+   {"text": "A group of 20 people used 120 litres of water in 2020. The group is projected to use 140 litres in 2030. Mill A produced 40 tonnes in 2020, while Mill B produced 30 tonnes.", "items": [
+    {"stem": "Which statement describes the water figures?", "options": ["The group used 140 litres per person in 2020.", "The group used 120 litres per person in 2020.", "The group is projected to use 140 litres in 2030.", "The group actually used 140 litres in 2030."], "answer": 2, "why": "140 litres 是 2030 年的预测总量。", "point": "unit"},
+    {"stem": "Which sentence compares the mills' output clearly?", "options": ["Mill A's output exceeded those of Mill B.", "Mill A's output exceeded this of Mill B.", "Mill A's output exceeded Mill B itself.", "Mill A's output exceeded that of Mill B."], "answer": 3, "why": "that 回指不可数名词 output；40 tonnes 高于 30 tonnes。", "point": "reference"},
+    {"stem": "Complete a statement of the 2020 average.", "lead": "The group", "chunks": ["used", "6 litres", "per", "person"], "tail": ".", "extra": ["140 litres"], "why": "120 litres 除以 20 人为每人 6 litres。", "point": "unit"},
+    {"stem": "Complete the sentence comparing the output figures.", "lead": "The output", "chunks": ["of Mill A", "exceeded", "that", "of Mill B"], "tail": ".", "extra": ["those"], "why": "that 回指单数的 output。", "point": "reference"}
+   ]}
+  ]}]}
+ ]
+}

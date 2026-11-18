@@ -1,0 +1,670 @@
+{
+ "id": "reading-complete-words",
+ "title": "Complete the Words：把半个词补完整",
+ "goal": "一段 10 个空，两分半钟内补对 8 个以上：功能词不丢分，实义词靠搭配和词形补出来。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "points": [
+  {
+   "id": "function",
+   "label": "功能词的空（the、of、that、from 这一类）不丢分"
+  },
+  {
+   "id": "content",
+   "label": "实义词的空靠搭配、句子成分和词尾补对"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、计分、自适应"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明和官方样题（挖空规则是对照样题和答案看出来的）"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Reading Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-reading.pdf",
+   "used": "第 1 课：三类题的说明和需要的三项基本功"
+  }
+ ],
+ "cards": [
+  {
+   "id": "facts",
+   "type": "facts",
+   "title": "这道题是什么",
+   "rows": [
+    {
+     "k": "在哪",
+     "v": "阅读部分三类题之一。阅读共 50 题、约 30 分钟，其中 Complete the Words 占 30 题：一个空算一题，每段 10 个空。",
+     "src": "spec 第 1、3 页；overview 第 4 页"
+    },
+    {
+     "k": "题目长什么样",
+     "v": "一段 70–100 词的学术短文。第一句是完整的；之后每隔一个词，把那个词的后一半去掉。每段有 10 个不完整的词，要你把缺的字母打出来。",
+     "src": "overview 第 5 页"
+    },
+    {
+     "k": "测什么",
+     "v": "同时处理意思和形式的能力：用词序规则、词汇知识和阅读理解，把文本补成通顺的一段。",
+     "src": "overview 第 5 页；spec 第 3 页"
+    },
+    {
+     "k": "难度",
+     "v": "官方标的范围是 B1 到 C1 以上。同一段里既有 the、of 这样的词，也有学术词汇。",
+     "src": "spec 第 3 页"
+    },
+    {
+     "k": "怎么计分",
+     "v": "每个空 1 分，机器判分。",
+     "src": "spec 第 9 页"
+    },
+    {
+     "k": "自适应",
+     "v": "阅读分两段：先做一组题，系统再按你的表现给一组较难或较易的题。",
+     "src": "spec 第 2 页"
+    }
+   ],
+   "note": "官方文件没有写拼写错一个字母算不算对。本课按「必须完全拼对」来练。"
+  },
+  {
+   "id": "rule",
+   "type": "text",
+   "title": "空是怎么挖出来的",
+   "body": [
+    {
+     "p": "知道挖空的规则，就知道每个空缺的是什么。对照官方样题和它的答案，可以看出四条："
+    },
+    {
+     "list": [
+      "第一句不挖。它告诉你这一段讲什么，先把它读懂。",
+      "从第二句起，隔一个词挖一个：留、挖、留、挖，直到挖满 10 个。所以空都挤在第二、三句里，后半段是完整的。",
+      "挖掉的是词的后一半。偶数个字母的词对半分（that 留 th，缺 at）；奇数个字母的词，缺的比留的多一个（might 留 mi，缺 ght）。",
+      "样题里一个下划线对应一个字母。数下划线，就知道这个词一共几个字母。"
+     ]
+    },
+    {
+     "box": "Trees keep a record of the weather in their wood. Each ye_ _ a tr_ _ adds o_ _ new ri_ _, and t_ _ width o_ that ri_ _ depends o_ how mu_ _ rain fe_ _. In wet years the ring is wide, while in dry years it remains narrow. ..."
+    },
+    {
+     "p": "两个推论。第一，被挖的词有一半左右是 the、of、on 这种很短的功能词，它们不该丢分。第二，没被挖的那一半词是完整的，后半段也是完整的，线索比看上去多。"
+    }
+   ],
+   "note": "上面这段和本课所有短文都是原创的，按官方样题的规则挖空。官方样题见 overview 第 5 页。"
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "一段怎么做",
+   "steps": [
+    {
+     "t": "一　读第一句",
+     "d": "定下话题。后面的实义词多半和这个话题有关。"
+    },
+    {
+     "t": "二　连着后面完整的部分，把全段扫一遍",
+     "d": "带空的句子先不填，读到段尾。后半段常常会重复前面被挖掉的词。"
+    },
+    {
+     "t": "三　先填功能词",
+     "d": "t_ _、o_、th_ _ 这类空，看它前后各一个词就能定。全段大约一半的空在这一步解决。"
+    },
+    {
+     "t": "四　再填实义词",
+     "d": "三样线索按顺序用：和旁边的词是不是固定搭配；它在句子里是名词、动词、形容词还是副词；它和话题有什么关系。"
+    },
+    {
+     "t": "五　数字母，再通读",
+     "d": "每个空数一遍下划线。然后把整段从头读一遍，专门看三样：时态前后一致不一致，名词单复数，拼写。"
+    }
+   ],
+   "note": "本课的练习按每段两分半钟计时。这是按阅读部分 50 题约 30 分钟估的练习节奏，不是官方给的时间。"
+  },
+  {
+   "id": "function",
+   "type": "table",
+   "title": "功能词：开头相同的那几个怎么选",
+   "intro": "功能词的空难在候选不止一个。先用字母数筛，再看它前后的词。",
+   "cols": [
+    "看到",
+    "可能是",
+    "怎么定"
+   ],
+   "rows": [
+    [
+     "o_",
+     "of / on / or",
+     "前面是名词、后面也是名词，多半是 of（the width of the ring）；前面是 depend、based、focus 这类词，是 on。"
+    ],
+    [
+     "i_",
+     "in / is / it / if",
+     "后面是名词短语，用 in；前面是主语、后面是形容词或分词，用 is；它自己做主语或宾语，用 it。"
+    ],
+    [
+     "a_",
+     "as / at / an",
+     "such as、as well as；at night、at the same time；an 后面的词以元音开头。"
+    ],
+    [
+     "b_",
+     "be / by",
+     "to、can、will 后面是 be；被动句里引出动作的人用 by。"
+    ],
+    [
+     "t_ _",
+     "the / too / two",
+     "名词前面几乎都是 the。"
+    ],
+    [
+     "a_ _",
+     "and / are / any / all",
+     "连接两个同类的词用 and；主语是复数、后面是形容词或分词，用 are。"
+    ],
+    [
+     "th_ _",
+     "that / this / they / them / then / than",
+     "比较级后面是 than；of、for、with 后面是 them；句子缺主语用 they；名词后面引出一个从句用 that。"
+    ],
+    [
+     "th_ _ _",
+     "these / those / their / there / three",
+     "后面是复数名词，是 these、those 或 their；后面是 is、are，是 there。"
+    ],
+    [
+     "wh_ _",
+     "when / what",
+     "后面讲时间背景用 when。"
+    ],
+    [
+     "wh_ _ _",
+     "which / while / where / whose",
+     "逗号后面补充说明前面的东西，用 which；对比两件同时发生的事，用 while；讲地点用 where。"
+    ],
+    [
+     "fr_ _ / wi_ _ / su_ _",
+     "from / with / such",
+     "这三个基本没有别的可能。"
+    ],
+    [
+     "h_ _",
+     "has / had / how / her / his",
+     "后面是过去分词，是 has 或 had，再看全段是现在时还是过去时。"
+    ]
+   ]
+  },
+  {
+   "id": "content",
+   "type": "text",
+   "title": "实义词：三样线索",
+   "body": [
+    {
+     "p": "实义词的空，留给你的那一半字母本身就是最大的线索。在它的基础上，按顺序用三样东西。"
+    },
+    {
+     "list": [
+      "搭配：absorb heat、depend on、raise a price、rain fell。旁边那个完整的词，常常只和很少几个词连用。",
+      "句子成分：a、the 后面是名词；主语后面是动词；名词前面是形容词；修饰动词或形容词的是副词，多以 -ly 结尾。",
+      "话题和重复：一段话只讲一件事，关键词会反复出现。前面被挖掉的词，后半段经常原样再出现一次。"
+     ]
+    },
+    {
+     "compare": {
+      "thin": "sto_ _ _ → story",
+      "full": "During the day the brain sto_ _ _ new facts → stores",
+      "why": "只看这一个词会想到 story。放回句子里：主语 the brain 后面缺动词，宾语是 new facts，是 stores；主语是单数，所以带 s。"
+     }
+    },
+    {
+     "compare": {
+      "thin": "Wh_ _ _ a person sleeps → When",
+      "full": "Wh_ _ _ a person sleeps → While",
+      "why": "意思上 When 也通，但 When 只有四个字母。三个下划线说明这个词有五个字母。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "endings",
+   "type": "table",
+   "title": "词尾：补的往往就是它",
+   "intro": "挖掉的是后一半，所以词尾几乎总在空里。词根你认识，分数常丢在词尾上。",
+   "cols": [
+    "词尾",
+    "什么时候用",
+    "例子"
+   ],
+   "rows": [
+    [
+     "-s / -es",
+     "名词复数；主语是第三人称单数的动词",
+     "flo_ _ _ _ that are rich → flowers；the brain sto_ _ _ → stores"
+    ],
+    [
+     "-ed",
+     "过去时；被动；have 后面的过去分词",
+     "They mi_ _ _ lime with ash → mixed；have disco_ _ _ _ _ → discovered"
+    ],
+    [
+     "-ing",
+     "begin、start、stop、by、after 等后面；进行时",
+     "begins eat_ _ _ → eating；dur_ _ _ the day → during"
+    ],
+    [
+     "-ly",
+     "修饰动词、形容词",
+     "is eas_ _ _ lost → easily；release it slo_ _ _ → slowly"
+    ],
+    [
+     "-er / -est",
+     "比较",
+     "A hig_ _ _ price → higher"
+    ],
+    [
+     "-tion / -ment / -ure / -ness",
+     "名词",
+     "huge struc_ _ _ _ _ → structures"
+    ],
+    [
+     "-al / -ous / -ive / -ary / -y",
+     "形容词",
+     "a temp_ _ _ _ _ form → temporary；wea_ _ _ _ people → wealthy"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "带着做一段",
+   "body": [
+    {
+     "box": "Trees keep a record of the weather in their wood. Each ye_ _ a tr_ _ adds o_ _ new ri_ _, and t_ _ width o_ that ri_ _ depends o_ how mu_ _ rain fe_ _. In wet years the ring is wide, while in dry years it remains narrow. Scientists can count these rings and measure them under a microscope. By comparing samples from many old trees, they are able to describe the climate of a region long before anyone wrote it down."
+    },
+    {
+     "p": "第一句说树的木头里记着天气。扫到后半段，看到 ring、rings、years 反复出现。"
+    },
+    {
+     "list": [
+      "ye_ _ → year：Each 后面是单数名词；后面有 in wet years。",
+      "tr_ _ → tree：a 后面是名词；全段讲树。",
+      "o_ _ → one：adds ___ new ring，ring 是单数，缺的是数量。",
+      "ri_ _ → ring：new 后面是名词；下一句就有 the ring。",
+      "t_ _ → the：width 前面缺限定词。",
+      "o_ → of：the width of that ring，两个名词之间。",
+      "ri_ _ → ring：that 后面的单数名词。",
+      "o_ → on：depends on。同样是 o_，上一个是 of，这一个是 on，由前面的词决定。",
+      "mu_ _ → much：how much rain，rain 不可数。",
+      "fe_ _ → fell：rain 的动词。讲的是过去那一年下了多少雨，用过去式。"
+     ]
+    },
+    {
+     "p": "十个空里，the、of、on、one、much 五个是功能词，year、tree、ring（两次）四个是后文重复出现的词，只有 fell 需要想一下时态。"
+    }
+   ]
+  },
+  {
+   "id": "errors",
+   "type": "table",
+   "title": "最常丢分的八处",
+   "cols": [
+    "错在哪",
+    "错的样子",
+    "应该是",
+    "怎么避免"
+   ],
+   "rows": [
+    [
+     "不数字母",
+     "Wh_ _ _ 填成 When",
+     "While",
+     "每个空填完数一遍下划线。"
+    ],
+    [
+     "th 开头的词乱填",
+     "cooler th_ _ → that",
+     "than",
+     "先看前一个词：比较级后面是 than。"
+    ],
+    [
+     "of 和 on 不分",
+     "depends o_ → of",
+     "on",
+     "看前面的动词或名词要哪个介词。"
+    ],
+    [
+     "名词漏了复数",
+     "flo_ _ _ _ that are → flower?",
+     "flowers",
+     "看后面的动词是 is 还是 are，再数字母。"
+    ],
+    [
+     "动词漏了第三人称单数",
+     "the plant rele_ _ _ _ → release?",
+     "releases",
+     "找到主语，看它是单数还是复数。"
+    ],
+    [
+     "时态和全段不一致",
+     "They mi_ _ _ lime → mixes",
+     "mixed",
+     "看第一句和旁边完整的动词是什么时态。"
+    ],
+    [
+     "词尾拼错",
+     "eas_ _ _ → easly；slo_ _ _ → slowy",
+     "easily；slowly",
+     "副词是形容词加 ly；y 结尾的先把 y 变成 i。"
+    ],
+    [
+     "空着不填",
+     "想不出来就跳过",
+     "填一个最可能的",
+     "空着一定没有分。"
+    ]
+   ]
+  },
+  {
+   "id": "check-function",
+   "type": "check",
+   "title": "练习 1　功能词",
+   "points": [
+    "function"
+   ],
+   "groups": [
+    {
+     "label": "Fill in the missing letters.",
+     "fill": "Most deserts are hot during t{he} day, b{ut} they can be very cold a{t} night. Animals th{at} live there have learned to hide fr{om} the sun. Some of th{em} sleep under rocks, wh{ile} others come out on{ly} after dark, wh{en} the air is cooler th{an} the ground.",
+     "tags": [
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function"
+     ],
+     "notes": [
+      "the：名词 day 前面。",
+      "but：前面说热，后面说冷，意思相反。",
+      "at：at night。",
+      "that：Animals 后面引出从句 live there。这里不能是 they：句子的谓语是后面的 have learned。",
+      "from：hide from。",
+      "them：of 后面用 them。",
+      "while：对比两类动物；五个字母。",
+      "only：only after dark。",
+      "when：说明 after dark 是什么时候；四个字母。",
+      "than：比较级 cooler 后面。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-endings",
+   "type": "check",
+   "title": "练习 2　词尾",
+   "points": [
+    "content"
+   ],
+   "groups": [
+    {
+     "label": "Fill in the missing letters.",
+     "fill": "Scientists have rece{ntly} disco{vered} that some plants can send sig{nals} to their neig{hbors}. When an insect begins eat{ing} a leaf, the plant rele{ases} a chemical into the air. Nearby plants that detect it start prod{ucing} substances that make their own leaves taste bit{ter}. This war{ning} system works surpri{singly} fast.",
+     "tags": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content"
+     ],
+     "notes": [
+      "recently：have 和过去分词之间放副词。",
+      "discovered：have 后面用过去分词。",
+      "signals：send 的宾语，前面没有 a，用复数。",
+      "neighbors：their 后面是名词；邻居不止一个。",
+      "eating：begins 后面用 -ing。",
+      "releases：主语 the plant 是单数。",
+      "producing：start 后面用 -ing。",
+      "bitter：taste 后面用形容词。",
+      "warning：warning system。",
+      "surprisingly：修饰 fast 的副词。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-passage",
+   "type": "check",
+   "title": "练习 3　完整的一段",
+   "points": [
+    "function",
+    "content"
+   ],
+   "groups": [
+    {
+     "label": "Fill in the missing letters in the paragraph.",
+     "fill": "Honeybees share information about food through movement. When a wor{ker} finds flo{wers} that a{re} rich i{n} nectar, s{he} returns t{o} the hi{ve} and perf{orms} a sh{ort} dance o{n} the wall of the comb. The direction of her steps shows where the food lies in relation to the sun, and the length of the dance tells the other bees how far they must fly. Workers that watch the dance can then find the same flowers without any help.",
+     "tags": [
+      "content",
+      "content",
+      "function",
+      "function",
+      "function",
+      "function",
+      "content",
+      "content",
+      "content",
+      "function"
+     ],
+     "notes": [
+      "worker：a 后面是单数名词，做 finds 的主语；出去找食物的是工蜂。",
+      "flowers：finds 的宾语；后面是 that are，所以是复数。",
+      "are：主语 flowers 是复数。",
+      "in：rich in。",
+      "she：逗号后面缺主语；后文有 her steps。",
+      "to：returns to。",
+      "hive：the 后面是名词；蜜蜂回的是蜂巢。",
+      "performs：and 连接两个动词，前一个 returns 带 s，这一个也带。",
+      "short：a ___ dance，形容词。",
+      "on：on the wall。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "限时练习",
+   "minutes": 5,
+   "pass": 0.8,
+   "points": [
+    "function",
+    "content"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Fill in the missing letters in the paragraph.",
+       "fill": "Roman builders made a kind of concrete that has lasted for two thousand years. They mi{xed} lime wi{th} ash fr{om} volcanoes a{nd} then ad{ded} pieces o{f} rock. Mod{ern} studies sh{ow} that sm{all} lumps o{f} lime inside the material can react with water when a crack appears. The reaction forms new crystals, which fill the gap and stop it from growing. This ability to repair itself explains why many ancient harbors and domes are still standing today.",
+       "tags": [
+        "content",
+        "function",
+        "function",
+        "function",
+        "content",
+        "function",
+        "content",
+        "content",
+        "content",
+        "function"
+       ]
+      },
+      {
+       "label": "Fill in the missing letters in the paragraph.",
+       "fill": "A placebo is a treatment that contains no active medicine. Doctors ha{ve} long not{iced} that so{me} patients fe{el} better af{ter} taking su{ch} a pi{ll} because th{ey} expect i{t} to wo{rk}. For this reason, new drugs are usually tested against a placebo in careful trials. One group receives the real drug, and another group receives a pill that only looks the same. If both groups improve equally, researchers conclude that the drug itself has little effect on the illness.",
+       "tags": [
+        "function",
+        "content",
+        "function",
+        "content",
+        "function",
+        "function",
+        "content",
+        "function",
+        "function",
+        "content"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "set-b",
+     "groups": [
+      {
+       "label": "Fill in the missing letters in the paragraph.",
+       "fill": "Cities are usually warmer than the countryside around them. Dark surf{aces} such a{s} roads a{nd} roofs abs{orb} heat fr{om} the s{un} during t{he} day a{nd} release i{t} slowly a{t} night. Tall buildings also block the wind that would normally carry warm air away. In addition, cars and air conditioners produce heat of their own. Planners try to reduce this effect by planting trees and by covering roofs with light colors that reflect more sunlight back into the sky.",
+       "tags": [
+        "content",
+        "function",
+        "function",
+        "content",
+        "function",
+        "content",
+        "function",
+        "function",
+        "function",
+        "function"
+       ]
+      },
+      {
+       "label": "Fill in the missing letters in the paragraph.",
+       "fill": "The printing press changed how knowledge moved through Europe. Before i{ts} invention, ev{ery} book h{ad} to b{e} copied b{y} hand, wh{ich} meant th{at} only wea{lthy} people co{uld} afford o{ne}. After printers began to use metal type, a single shop could produce hundreds of copies in the time that a scribe needed for one. Prices fell quickly, and more families learned to read. New ideas about science and religion could now travel from city to city within weeks.",
+       "tags": [
+        "function",
+        "content",
+        "function",
+        "function",
+        "function",
+        "function",
+        "function",
+        "content",
+        "function",
+        "function"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "set-c",
+     "groups": [
+      {
+       "label": "Fill in the missing letters in the paragraph.",
+       "fill": "Sleep plays an important part in learning. During t{he} day t{he} brain sto{res} new fa{cts} in a temp{orary} form th{at} is eas{ily} lost. Wh{ile} a per{son} sleeps, su{ch} memories are moved into areas where they can be kept for years. Experiments show that students who sleep after studying remember far more than those who stay awake all night. Even a short nap in the afternoon seems to protect what was learned in the morning.",
+       "tags": [
+        "function",
+        "function",
+        "content",
+        "content",
+        "content",
+        "function",
+        "content",
+        "function",
+        "content",
+        "function"
+       ]
+      },
+      {
+       "label": "Fill in the missing letters in the paragraph.",
+       "fill": "Coral reefs are built by very small animals. Each ani{mal} produces a ha{rd} skeleton o{f} limestone, a{nd} over ma{ny} centuries t{he} skeletons fo{rm} huge struc{tures} under t{he} sea. Ti{ny} plants that live inside the coral give it both food and color. When the water becomes too warm, the coral pushes these plants out and turns white. If the heat lasts for several weeks, the animals may die, and the fish that depend on the reef must leave.",
+       "tags": [
+        "content",
+        "content",
+        "function",
+        "function",
+        "function",
+        "function",
+        "content",
+        "content",
+        "function",
+        "content"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "set-d",
+     "groups": [
+      {
+       "label": "Fill in the missing letters in the paragraph.",
+       "fill": "Prices in a market depend on supply and demand. When ma{ny} people wa{nt} a pro{duct} that i{s} hard t{o} find, sel{lers} are ab{le} to ra{ise} its pr{ice}. A hig{her} price then encourages other companies to make the same product, and the supply begins to grow. As more goods reach the stores, buyers have a wider choice, so the price slowly falls again. Economists use this simple model to explain why costs rarely stay the same for long.",
+       "tags": [
+        "function",
+        "content",
+        "content",
+        "function",
+        "function",
+        "content",
+        "content",
+        "content",
+        "content",
+        "content"
+       ]
+      },
+      {
+       "label": "Fill in the missing letters in the paragraph.",
+       "fill": "Many birds travel thousands of kilometers every year. For a lo{ng} time, peo{ple} did n{ot} understand h{ow} these ani{mals} found th{eir} way acr{oss} oceans wit{hout} any land{marks}. Researchers n{ow} believe that some birds can sense the magnetic field of the earth, which works for them like a compass. Others appear to follow the position of the stars at night. Young birds seem to be born with a sense of direction, but they improve their routes as they gain experience.",
+       "tags": [
+        "content",
+        "content",
+        "function",
+        "function",
+        "content",
+        "function",
+        "content",
+        "content",
+        "content",
+        "function"
+       ]
+      }
+     ]
+    }
+   ],
+   "more": {
+    "kind": "ctw",
+    "topics": [
+     "火山是怎么形成的；短期记忆和长期记忆",
+     "蜜蜂授粉；通货膨胀",
+     "潮汐；古代的长途贸易",
+     "免疫系统；城市化",
+     "植物的根；古代的灌溉",
+     "冰川；语言是怎么消亡的",
+     "地震波；习惯是怎么养成的",
+     "食物链；蒸汽机",
+     "月相；市场竞争",
+     "声音的传播；人口迁移",
+     "海洋变酸；儿童怎么学会说话",
+     "彩虹；货币的起源",
+     "鸟的羽毛；地图的投影",
+     "土壤的形成；睡眠周期",
+     "恒星的一生；税收的作用",
+     "洋流；合作学习"
+    ]
+   }
+  }
+ ]
+}

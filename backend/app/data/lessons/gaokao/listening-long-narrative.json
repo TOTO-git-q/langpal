@@ -1,0 +1,51 @@
+{
+ "id": "listening-long-narrative", "title": "经历独白的结构", "goal": "还原经历的先后顺序，依据行动和结果判断人物变化。", "skill": "听力", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "sequence", "label": "还原独白中事件的先后顺序"}, {"id": "change", "label": "依据行动与结果判断人物变化"}],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "经历独白的教学要求"}],
+ "cards": [
+  {"id": "structure", "type": "table", "title": "结构", "cols": ["部分", "作用", "例"], "rows": [
+   ["背景", "交代人物和活动", "Last spring I joined a rowing team."],
+   ["困难", "说明遇到的问题", "At first I couldn't keep the same pace."],
+   ["尝试", "说明应对行动", "I practiced with a teammate."],
+   ["转折", "说明变化的契机", "Then our coach changed our practice."],
+   ["结果", "说明行动后的状态", "Later I could follow the team's pace."]
+  ], "note": "判断人物的变化，要看人物做了什么、结果怎样。讲述中可能插入更早发生的事。"},
+  {"id": "expressions", "type": "table", "title": "常用表达", "cols": ["表达", "时间关系", "例"], "rows": [
+   ["before", "before 后面的事较晚，主句的事较早", "Before I joined, I practiced alone."],
+   ["later", "比前面说的事晚", "Later I trained with the team."],
+   ["finally", "过程的最后一步", "Finally we completed the course."],
+   ["I had already", "在所说的那个时间之前已经发生", "I had already met the coach before the race."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [{"box": "Last year I joined a rowing team. Before that, I had practiced alone. At first I struggled to follow the pace. Later I trained with a teammate, and finally I kept up with the group."}, {"box": "What did the speaker do before joining the team?\n1. Practiced on their own.\n2. Trained with a teammate.\n3. Struggled with the team's pace.\n4. Kept up with the group."}, {"p": "Before that, I had practiced alone 说的是加入队伍之前的事，与第一项对应。和队友训练、跟上队伍都发生在加入之后。"}]},
+  {"id": "errors", "type": "table", "title": "常见错误", "cols": ["类型", "例", "辨析"], "rows": [
+   ["叙述顺序当事件顺序", "Joining came before practicing alone.", "Before that 引出更早的独自练习。"],
+   ["困难当结果", "The speaker still could not follow the pace.", "finally 后说明已经跟上团队。"],
+   ["尝试当背景", "The speaker trained with a teammate before joining.", "与队友训练发生在遇到困难之后。"],
+   ["无依据的变化", "The speaker became the coach.", "材料只说明能跟上团队。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["sequence", "change"], "groups": [
+   {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "Last autumn I joined a community choir. Before that, I had sung only at home. At first I found it hard to follow the other singers. Later I practiced the songs with a friend. Finally I could sing my part with the group."}]}, "items": [
+    {"stem": "What did the speaker do before joining the choir?", "options": ["Practice with a choir friend.", "Sing at home and nowhere else.", "Find it hard to follow singers.", "Sing each part with the group."], "answer": 1, "why": "依据是 Before that, I had sung only at home。加入合唱团之前只在家里唱，即第二项；跟不上别人是加入之后的事。", "point": "sequence"},
+    {"stem": "What changed after the speaker practiced?", "options": ["The speaker practiced with a friend.", "The speaker found it harder to follow.", "The speaker could sing with the group.", "The speaker sang only at home again."], "answer": 2, "why": "依据是 Finally I could sing my part with the group。和朋友练过之后，说话人能跟大家一起唱了，即第三项。", "point": "change"}
+   ]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["sequence", "change"], "groups": [
+   {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "I built a bird feeder last winter. Before choosing wood, I had drawn a plan. My first feeder kept letting rain in, so later I added a wider roof. After that the food stayed dry. Finally I put the feeder beside the window, where I could see it from the kitchen."}]}, "items": [
+    {"stem": "What did the speaker do before choosing wood?", "options": ["Draw a plan for the feeder.", "Add a wider roof to it.", "Place it beside the window.", "Watch it from the kitchen."], "answer": 0, "why": "依据是 Before choosing wood, I had drawn a plan。选木料之前先画了图，即第一项。", "point": "sequence"},
+    {"stem": "What was the result of the wider roof?", "options": ["Rain entered the feeder more often.", "The feeder moved into the kitchen.", "The feeder went beside the window.", "The food remained dry after rain."], "answer": 3, "why": "依据是 After that the food stayed dry。加宽屋顶后，食物不再被雨淋湿，即第四项；挪到窗边是最后才做的事。", "point": "change"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["sequence", "change"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "Last summer I helped arrange a neighborhood tool library, where people can borrow equipment for small repairs. Before the project started, I had collected suggestions from several neighbors. Many wanted a place to share tools they rarely used. At first we kept the tools in boxes in a community room, but it was difficult to find anything quickly. I tried writing a list, yet people still had to open several boxes to locate an item. Later another volunteer suggested putting shelves along one wall. We built the shelves and gave each type of tool its own space. Finally we added labels and a record book. After these changes, borrowers could find tools more easily and tell us when they returned them. Now I spend less time searching and more time showing new visitors how the library works."}]}, "items": [
+    {"stem": "What did the speaker do before the project began?", "options": ["Gathered ideas from neighbors.", "Built shelves in the community room.", "Added labels to every tool box.", "Showed visitors how to borrow tools."], "answer": 0, "why": "依据是 Before the project started, I had collected suggestions from several neighbors。collected suggestions 改写为 gathered ideas，即第一项。", "point": "sequence"},
+    {"stem": "What happened after the tools were put on shelves?", "options": ["The volunteers stopped using a record.", "Borrowers found the tools more easily.", "Neighbors requested a community room.", "The speaker put all tools back in boxes."], "answer": 1, "why": "依据是 After these changes, borrowers could find tools more easily。工具上架以后，借用的人更容易找到工具，即第二项。", "point": "change"},
+    {"stem": "What did the volunteers add after building the shelves?", "options": ["Suggestions from the neighborhood.", "Several boxes for unsorted tools.", "A plan to collect unused equipment.", "Labels and a book to record loans."], "answer": 3, "why": "依据是 We built the shelves 之后的 Finally we added labels and a record book。搭好架子后加的是标签和登记本，即第四项。", "point": "sequence"}
+   ]},
+   {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "Two years ago I entered a local cooking event with a soup recipe. I had made the soup for my family many times before deciding to enter. At the event, however, I discovered that preparing a large pot took longer than cooking a small one. I hurried and forgot to add some of the herbs. The judges liked the vegetables but found the flavor rather plain. Afterward I wrote down each step and practiced making a larger amount. I also asked my family to taste it and describe what they noticed. The following year I entered again. This time I began earlier and used my written list to check the herbs. I finished on time, and the judges commented that the flavor was balanced. I still use the same vegetables, but I now plan the timing more carefully."}]}, "items": [
+    {"stem": "What had the speaker done before entering the event?", "options": ["Asked judges to taste a large pot.", "Cooked the soup for family members.", "Wrote a list for the following year.", "Forgot the herbs at the competition."], "answer": 1, "why": "依据是 I had made the soup for my family many times before deciding to enter。参赛之前常给家人做这道汤，即第二项。", "point": "sequence"},
+    {"stem": "How did the speaker change the preparation the following year?", "options": ["The speaker changed the vegetables.", "The speaker cooked a smaller amount.", "The speaker started earlier and checked a list.", "The speaker asked the judges to taste it first."], "answer": 2, "why": "依据是 This time I began earlier and used my written list to check the herbs。第二年提早开始，并按清单核对香草，即第三项。", "point": "change"},
+    {"stem": "What did the judges say after the second attempt?", "options": ["The flavor was balanced.", "The soup was too plain.", "The herbs had been forgotten.", "The vegetables needed more work."], "answer": 0, "why": "依据是 the judges commented that the flavor was balanced。第二次评委说味道均衡，即第一项；味道太淡是第一次的评价。", "point": "change"}
+   ]}
+  ]}]} 
+ ]
+}

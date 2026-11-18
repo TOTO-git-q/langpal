@@ -1,0 +1,99 @@
+{
+ "id": "writing-process-method",
+ "title": "流程图的阶段组织",
+ "goal": "能概括流程全程，并按图示组织步骤和分支。",
+ "skill": "写作",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "overview", "label": "概括流程的主要阶段"},
+  {"id": "sequence", "label": "按图示关系组织步骤和分支"}
+ ],
+ "sources": [
+  {"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "写作流程图课的内容与教学规格"}
+ ],
+ "cards": [
+  {
+   "id": "type", "type": "text", "title": "题型",
+   "body": [
+    {"p": "流程图用箭头表示阶段之间的关系。制造流程通常从原料到成品，自然循环则可能回到起点。"},
+    {"box": "Manufacture: clay → shaping → firing → pots\nCycle: seeds → plants → flowers → seeds"},
+    {"p": "概述写出起点、终点和主要变化。细节按箭头的顺序展开。有分支时，写明每条分支通向哪里。图中没有给出的原因不写。"}
+   ]
+  },
+  {
+   "id": "steps", "type": "steps", "title": "解题步骤",
+   "steps": [
+    {"t": "1　确定流程类型", "d": "先找原料和成品。如果是自然循环，看最后一步是否回到起点。顺序以箭头方向为准。"},
+    {"t": "2　划分主要阶段", "d": "把连续操作归为较大的阶段。例如清洗和切割可归入原料准备。"},
+    {"t": "3　检查分支与回路", "d": "记下每条分支的条件和终点。指回前一阶段的箭头也要写进描述。"},
+    {"t": "4　组织概述与细节", "d": "概述说明全程，细节按阶段或分支分组。例如先写准备，再写处理和产物。"}
+   ]
+  },
+  {
+   "id": "features", "type": "table", "title": "阶段与结构",
+   "cols": ["图示", "概述重点", "例"],
+   "rows": [
+    ["原料到成品", "原料、加工和成品", "Clay is shaped and fired to make pots."],
+    ["自然循环", "变化及回到起点", "Seeds grow into plants that produce seeds."],
+    ["两条分支", "共同阶段与不同去向", "The mixture is divided into two products."],
+    ["返回箭头", "返回的阶段和条件", "Unsuitable pieces return to shaping."]
+   ]
+  },
+  {
+   "id": "example", "type": "text", "title": "例题",
+   "body": [
+    {"box": "The diagram shows how discarded glass is processed into new containers. Describe the main stages in their correct order, including the route taken by unsuitable pieces. Summarise the overall process and select the details needed to show how the material moves through the system.\n\nGlass → sorting → crushing → melting → moulding → inspection → containers\n                                ↑                       |\n                                └─ unsuitable pieces ───┘"},
+    {"p": "概述可写 Overall, discarded glass is processed into containers, while unsuitable pieces return to melting. 这句写出了原料、成品和回路。"},
+    {"p": "细节可先写 sorting 和 crushing，再写 melting、moulding 与 inspection。回路从 inspection 指向 melting。"}
+   ]
+  },
+  {
+   "id": "errors", "type": "table", "title": "干扰项",
+   "cols": ["问题", "图示依据", "例"],
+   "rows": [
+    ["遗漏回路", "不合格品返回熔化", "All pieces become containers immediately."],
+    ["颠倒顺序", "粉碎在熔化之前", "Glass is crushed after it is melted."],
+    ["添加原因", "图中没有生产成本", "Glass is melted to reduce costs."],
+    ["遗漏终点", "合格品成为容器", "The process consists solely of sorting glass."]
+   ]
+  },
+  {
+   "id": "practice-one", "type": "check", "title": "练习一", "points": ["overview", "sequence"],
+   "groups": [
+    {"items": [
+     {"stem": "A diagram shows wool → washing → spinning → cloth. Which overview covers the process?", "options": ["Wool is cleaned and made into cloth.", "Cloth is washed before wool is spun.", "Wool is washed to reduce production costs.", "Cloth is returned to the washing stage."], "answer": 0, "why": "箭头从 wool 经 washing 和 spinning 到 cloth。第一项概括了原料、加工与成品。", "point": "overview"},
+     {"stem": "A diagram shows eggs → larvae → adults → eggs. Which feature belongs in the overview?", "options": ["Adults are the final stage of the process.", "The stages return to the egg stage.", "Eggs are collected after the adults die.", "Larvae develop directly into eggs."], "answer": 1, "why": "最后一个箭头从 adults 指回 eggs，说明这是循环，即第二项。第一项漏掉了这个回路。", "point": "overview"},
+     {"stem": "A diagram shows leaves → drying → packing. Which sentence preserves the order?", "options": ["Leaves are packed before they are dried.", "Packing is followed by drying the leaves.", "After drying, the leaves are packed.", "Dried leaves are returned to packing."], "answer": 2, "why": "drying 后的箭头指向 packing，第三项顺序一致。", "point": "sequence"},
+     {"stem": "A diagram shows sorting → clean items → sale and sorting → damaged items → repair. What happens to damaged items?", "options": ["They are sold before being sorted.", "They are cleaned after being sold.", "They return to the sorting stage.", "They proceed from sorting to repair."], "answer": 3, "why": "damaged items 分支从 sorting 指向 repair，第四项符合箭头。", "point": "sequence"}
+    ]}
+   ]
+  },
+  {
+   "id": "practice-two", "type": "check", "title": "练习二", "points": ["overview", "sequence"],
+   "groups": [
+    {"text": "The diagram shows the preparation of dried herbs for sale. Summarise the main stages and describe how the material is handled from collection to the finished packages. Select details that show the order of operations and the two possible routes after the initial inspection.\n\nHerbs → inspection → acceptable leaves → drying → packing\n                   └→ damaged leaves → compost", "items": [
+     {"stem": "Which overview includes both routes?", "options": ["All herbs are dried and packed for sale.", "Herbs are inspected, then packed or composted.", "Packed herbs are inspected and then dried.", "Herbs are composted before being inspected."], "answer": 1, "why": "inspection 后合格叶片进入 drying 和 packing，受损叶片进入 compost。第二项涵盖两个终点。", "point": "overview"},
+     {"stem": "Which description follows the acceptable-leaf route?", "options": ["The leaves are packed before inspection.", "The leaves go from compost to drying.", "The leaves are inspected, dried and packed.", "The leaves are dried, inspected and composted."], "answer": 2, "why": "合格叶片依次经过 inspection、drying 和 packing。", "point": "sequence"}
+    ]}
+   ]
+  },
+  {
+   "id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["overview", "sequence"],
+   "sets": [{"id": "set-a", "groups": [
+    {"text": "The diagram illustrates how fruit is made into two products at a small factory. Summarise the main stages, including the common preparation and the separate routes after pressing. Describe the order shown by the arrows and distinguish the product obtained from each part of the pressed fruit.\n\nFruit → washing → crushing → pressing → juice → bottling\n                                     └→ pulp → drying → animal feed", "items": [
+     {"stem": "Which overview covers both final products?", "options": ["Fruit is prepared for juice and animal feed.", "Fruit is washed and then returned to pressing.", "Juice is dried before it becomes animal feed.", "Fruit is bottled before the pulp is crushed."], "answer": 0, "why": "共同处理后 juice 进入 bottling，pulp 经 drying 成为 animal feed。第一项涵盖两个产物。", "point": "overview"},
+     {"stem": "What follows pressing on the pulp route?", "options": ["Bottling the pulp to produce juice.", "Drying the pulp to produce feed.", "Drying the pulp to produce juice.", "Crushing the pulp to produce juice."], "answer": 1, "why": "pulp 后的箭头依次指向 drying 和 animal feed，即第二项。第三项步骤对，但干燥后的产物是饲料，不是果汁。", "point": "sequence"},
+     {"stem": "Complete a sentence about the common stages.", "lead": "The fruit", "chunks": ["is", "washed and then", "crushed before", "pressing"], "tail": ".", "extra": ["after bottling"], "why": "washing 和 crushing 均在 pressing 之前，bottling 则在其后。", "point": "sequence"},
+     {"stem": "Complete an overview of the two routes.", "lead": "The process", "chunks": ["produces", "bottled juice", "and animal", "feed"], "tail": ".", "extra": ["before washing"], "why": "两条分支的终点是瓶装果汁和动物饲料。洗涤在分支之前，before washing 用不上。", "point": "overview"}
+    ]},
+    {"text": "The diagram presents the stages in a flowering plant's cycle, starting with a seed. Summarise the principal changes and describe the route back to the starting stage. Select details from the diagram that show the order in which the plant develops and produces the next generation.\n\nSeed → germination → young plant → mature plant → flower → seed", "items": [
+     {"stem": "Which statement summarises the whole cycle?", "options": ["Flowers become mature plants before germination.", "A seed germinates and becomes a mature plant.", "A seed develops into a plant that produces seeds.", "Young plants produce flowers before they mature."], "answer": 2, "why": "流程从 seed 经过生长和 flower，又回到 seed。第三项写出了生长和回到起点。第二项只写到成熟，漏掉了回路。", "point": "overview"},
+     {"stem": "Which stage comes immediately before the flower?", "options": ["The initial seed stage.", "The young plant stage.", "The germination stage.", "The mature plant stage."], "answer": 3, "why": "mature plant 的箭头直接指向 flower。", "point": "sequence"},
+     {"stem": "Complete a sentence about the development shown.", "lead": "The young plant", "chunks": ["develops into", "a mature plant before it", "produces", "a flower"], "tail": ".", "extra": ["after producing seeds"], "why": "young plant 先成为 mature plant，随后形成 flower。", "point": "sequence"},
+     {"stem": "Complete an overview that includes the return stage.", "lead": "The cycle", "chunks": ["begins with a seed", "and ends", "with", "the production of seeds"], "tail": ".", "extra": ["before germination"], "why": "图示从种子开始，经过开花，最后产生种子。萌发在流程前段，before germination 用不上。", "point": "overview"}
+    ]}
+   ]}]
+  }
+ ]
+}

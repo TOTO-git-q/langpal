@@ -1,0 +1,66 @@
+{
+ "id": "reading-seven-middle",
+ "title": "段中解释与过渡句",
+ "goal": "根据前后句的信息关系选择段中句子。",
+ "skill": "阅读",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "function", "label": "判断段中空格所需的解释或过渡作用"},
+  {"id": "connection", "label": "同时验证候选句前后的信息联系"}
+ ],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "教学内容与课程练习规格"}],
+ "cards": [
+  {"id": "type", "type": "text", "title": "题型", "body": [
+   {"p": "段中句有三种作用：解释前文，引出后文，连接问题与回答。所填句子要和前句、后句都接得上。"},
+   {"box": "The bridge was closed. Repairs were needed after the storm. Workers reopened it after replacing the damaged boards."},
+   {"p": "第二句解释桥关闭的原因，又引出后句的修理。判断时前后两句都要看。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　概括前句", "d": "确定前句的对象和主要信息。The bridge was closed 的对象是桥，事件是关闭。"},
+   {"t": "2　判断所需作用", "d": "判断空格需要的是原因、话题转换还是问题。Repairs were needed 解释桥为什么关闭。"},
+   {"t": "3　核对后句", "d": "检查后句的代词、名词和动作在前文有没有对应。Workers 和 replacing the damaged boards 承接 repairs。"}
+  ]},
+  {"id": "functions", "type": "table", "title": "段中句的作用", "cols": ["作用", "前句与候选句", "后句的联系"], "rows": [
+   ["解释", "The gate was locked. The key had been misplaced.", "A caretaker found it later. 指回钥匙"],
+   ["解释", "The bus was late. A fallen branch blocked the road.", "Workers cleared it. 指回树枝"],
+   ["过渡", "The room is ready. The next task is to invite speakers.", "Send each speaker the schedule. 展开邀请"],
+   ["过渡", "The dates are fixed. The group must now choose a venue.", "A hall near the station is available. 展开地点"],
+   ["连接问答", "The plants need water. How can the water be saved?", "Collect rain in a barrel. 回答方法"],
+   ["连接问答", "The team needs help. Who can assist with the event?", "Local volunteers can assist. 回答对象"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A library wanted readers to find books more easily. ____ Each shelf then received a sign with its subject. Readers could use the signs to locate a section.\n\n1. Staff first arranged the books by subject.\n2. Staff removed every subject sign from the shelves.\n3. Readers returned their books without using shelves.\n4. The library closed before arranging its books."},
+   {"p": "第一项承接方便读者找书的目的，arranged the books by subject 又引出后句的 shelf 和 subject。第二项也提到标识，但动作是撤下，与后文放置标识相反。"}
+  ]},
+  {"id": "distractors", "type": "table", "title": "干扰项", "cols": ["类型", "例", "原因"], "rows": [
+   ["方向相反", "例题第二项撤下标识。", "后文是放置标识。"],
+   ["后文无依据", "例题第四项先关闭图书馆。", "图书馆关了，后面的工作无法进行。"],
+   ["对象改变", "把书架改成还书的地方。", "后文的 shelf 是放书和挂标识的地方。"],
+   ["关系不符", "只重复图书馆，没有说整理图书。", "后句的 shelf 和 subject 接不上。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["function", "connection"], "groups": [
+   {"look": "passage", "text": "The workshop began late. ____ Once the road was clear, the instructor arrived and started the lesson.", "items": [{"stem": "Which sentence best fills the gap?", "options": ["The instructor had forgotten the start time.", "The road had been blocked by a fallen tree.", "The lesson had already finished on time.", "The lesson was moved to a later date."], "answer": 1, "why": "第二项说路被倒下的树堵住，解释了开课晚，后句的 Once the road was clear 也承接这一点。第一项接不上后句。", "point": "connection"}]},
+   {"look": "passage", "text": "The class had decided what to plant. ____ They compared the hours of sunlight in two parts of the yard.", "items": [{"stem": "Which sentence best fills the gap?", "options": ["They removed all plants from the yard.", "They counted the hours spent choosing seeds.", "They next needed to select a planting place.", "They finished comparing the two sunny yards."], "answer": 2, "why": "第三项把话题从种什么转到种在哪里，后句比较院子里两处的日照，正是在选地点。", "point": "function"}]},
+   {"look": "passage", "text": "The photographer wanted to carry less equipment. ____ A single light camera met that need.", "items": [{"stem": "Which sentence best fills the gap?", "options": ["Which camera could serve the purpose?", "Where had the heavy camera been sold?", "Why did the photographer need more cameras?", "Why was the old equipment so heavy to carry?"], "answer": 0, "why": "后句的 A single light camera 回答的是哪台相机合适，即第一项的问题。第四项问原因，后句没有回答。", "point": "function"}]},
+   {"look": "passage", "text": "Mia could not finish painting the sign outside. ____ She moved it into the shed and continued working there.", "items": [{"stem": "Which sentence best fills the gap?", "options": ["The shed had no place for the sign.", "Mia had finished painting it indoors.", "The sign was stored in the shed already.", "Rain had started falling on the wet paint."], "answer": 3, "why": "第四项的 Rain 说明室外画不下去的原因，也说明她把牌子搬进棚里的原因。", "point": "connection"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["function", "connection"], "groups": [
+   {"look": "passage", "text": "A student team planned a small book fair. They reserved a room and arranged the tables. ____ They made a list of jobs, including greeting visitors and collecting books.\n\nThe team also wanted to keep a record of the fair. ____ One member agreed to take photographs, and another offered to write a report. The photographs and report would be added to the class archive.", "items": [
+    {"stem": "Which sentence best fills the first gap?", "options": ["The tables had been removed from the room.", "The next task was to assign work to members.", "The fair had ended before the room was ready.", "Visitors selected the room after the fair."], "answer": 1, "why": "第二项把话题从布置场地转到分工，后句的 a list of jobs 展开这项任务。", "point": "function"},
+    {"stem": "Which sentence best fills the second gap?", "options": ["Why had the team canceled the book fair?", "Where could visitors return the tables?", "Who would record what happened at the fair?", "Where would the class archive be stored?"], "answer": 2, "why": "后句写一人拍照、一人写报告，回答的是由谁来记录，即第三项。第四项问存放地点，后句没有回答。", "point": "connection"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["function", "connection"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A school planned a walking tour for visiting students. The organizers first checked the route. One section of the path was closed. ____ The group chose a nearby street so that the tour could continue.\n\nThe route was ready, but another decision remained. ____ The organizers compared two possible starting times. One allowed visitors to arrive by bus before the walk began. They chose that time and included it in the invitation.\n\nThe group also needed someone to explain the buildings along the way. ____ A local history teacher offered to lead the explanations. The teacher then prepared notes about the buildings on the chosen route.", "items": [
+    {"stem": "Which sentence best fills the first gap?", "options": ["A nearby street was closed after the walk.", "The visitors had already finished their tour.", "Workers were repairing a damaged section.", "The organizers removed the route from the invitation."], "answer": 2, "why": "第三项的 repairing a damaged section 解释路段为什么关闭，后句因此改走附近的街道。", "point": "connection"},
+    {"stem": "Which sentence best fills the second gap?", "options": ["The organizers still needed to set a time.", "The route had no buildings to explain.", "The visitors had already taken the bus.", "The group decided to cancel the invitation."], "answer": 0, "why": "前句说 another decision remained，后句比较两个 starting times。第一项点明要定的是时间，从路线转到时间。", "point": "function"},
+    {"stem": "Which sentence best fills the third gap?", "options": ["Why were the visitors changing the route?", "Who could provide the necessary information?", "When did the teacher finish the walking tour?", "Which buildings stood along the closed path?"], "answer": 1, "why": "前句说需要有人讲解建筑，后句的 A local history teacher 回答了由谁来讲，即第二项。", "point": "connection"}
+   ]},
+   {"look": "passage", "text": "A community theater wanted to reduce the waste left after performances. Volunteers examined the materials used to build the sets. Some pieces of wood were still in good condition. ____ The group stored those pieces for future productions.\n\nThe theater then considered another source of waste. ____ The program had been printed for every seat, even though some visitors shared copies. At the next performance, staff printed fewer copies and offered a digital version.\n\nThe volunteers also discussed how to make the new plan clear to visitors. ____ A sign at the entrance explained where to find the digital program. Staff could also answer questions about it before the performance began.", "items": [
+    {"stem": "Which sentence best fills the first gap?", "options": ["The volunteers had already thrown away the sets.", "Other pieces were too damaged to keep.", "The wood was damaged beyond use in any set.", "The useful pieces could be used again."], "answer": 3, "why": "前句说有些木料 in good condition，第四项接着说它们还能再用，后句才把 those pieces 存起来。第二项讲损坏的木料，后句的 those pieces 就指错了。", "point": "connection"},
+    {"stem": "Which sentence best fills the second gap?", "options": ["The group stored more wood for later shows.", "The group turned its attention to programs.", "All copies of the program were digital already.", "The theater closed before the next performance."], "answer": 1, "why": "第二项把话题从布景材料转到节目单，后句接着讲每个座位都印了一份节目单。", "point": "function"},
+    {"stem": "Which sentence best fills the third gap?", "options": ["How could visitors find out about the change?", "Why did some visitors share printed copies?", "When were the old sets stored after the performance?", "Who had received every printed program previously?"], "answer": 0, "why": "后文的入口告示和工作人员答疑，回答的是观众怎样得知这项改变，即第一项。", "point": "connection"}
+   ]}
+  ]}]}]
+}

@@ -1,0 +1,247 @@
+{
+  "id": "reading-headings",
+  "title": "标题配对　Matching headings · 练习",
+  "goal": "为说明文的每个段落选出概括全段的标题。",
+  "skill": "阅读",
+  "exam": "雅思 IELTS Academic",
+  "points": [
+    {
+      "id": "mainidea",
+      "label": "概括段落中心意思"
+    },
+    {
+      "id": "hierarchy",
+      "label": "区分中心意思与支持细节"
+    }
+  ],
+  "sources": [
+    {
+      "id": "i2",
+      "title": "IELTS Academic: Reading test format",
+      "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+      "used": "阅读材料与题型"
+    },
+    {
+      "id": "syllabus",
+      "title": "雅思 IELTS Academic：课表",
+      "url": "docs/syllabi/ielts.md",
+      "used": "练习尺寸与知识点"
+    }
+  ],
+  "cards": [
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "小测",
+      "minutes": 12,
+      "pass": 0.75,
+      "points": [
+        "mainidea",
+        "hierarchy"
+      ],
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "label": "The passage has five paragraphs, A–E. Choose the correct heading for each paragraph from the list of headings. Use each heading once only; three headings are not needed.",
+              "look": "passage",
+              "text": "Keeping Seeds for the Future\n\nA. Many plant species are under pressure from changes in land use, the spread of disease and shifts in climate. When a species disappears from the wild, its genetic material is lost with it, and no later effort can recover it. Seed banks were established as a form of insurance against such losses. By holding samples of seeds from many populations, they aim to ensure that material remains available for research and, if necessary, for returning plants to places where they have died out. A seed bank does not prevent a species from declining, but it can preserve options that would otherwise disappear. For this reason, collectors often concentrate on plants that are rare, plants found only in a small area and plants with uses in farming or medicine. Wild relatives of crops receive particular attention, since they may carry characteristics that breeders could one day need.\n\nB. The method used for most seeds is straightforward in principle. After collection, the seeds are cleaned and examined so that empty or damaged ones can be removed. They are then dried slowly in a room with low humidity until only a small proportion of their weight is water. Drying is essential, because water inside a seed would form ice crystals when frozen and damage its cells. Once dried, the seeds are sealed in airtight containers and placed in cold storage, usually at around minus twenty degrees Celsius. Under these conditions, the chemical processes that cause seeds to age are slowed dramatically, and many species can remain alive for decades or longer. The freezers themselves are monitored constantly, since a failure in temperature control could affect thousands of samples at once.\n\nC. Storage alone, however, does not guarantee that a collection remains useful. A seed that looks perfect may no longer be able to grow. Seed banks therefore take a small number of seeds from each sample at regular intervals and try to germinate them under suitable conditions of light, warmth and moisture. If the proportion that sprouts begins to fall, staff know that the sample is deteriorating. Samples that pass the test are returned to the freezer, and the date and result of each test are recorded. Where results are poor, staff can grow plants from the remaining seeds and collect fresh seed from them before the stored sample loses its value. These tests use up seeds, so collectors try to gather enough at the outset to allow for many years of checking. The results also help researchers to estimate how long the seeds of different species can be kept.\n\nD. Not every plant produces seeds that can be treated in this way. Some species have seeds that die if they lose too much water, so they cannot be dried before freezing. These are known as recalcitrant seeds. The acorns of oak trees are a familiar example, and the group also includes many trees of tropical forests, where seeds often germinate soon after they fall. For such species, seed banks must use other methods. Small pieces of the embryo may be removed and stored in liquid nitrogen at far lower temperatures, or plants may be kept growing in living collections. These approaches are more demanding than drying and freezing, and they are not yet available for every species that needs them.\n\nE. Even a large and well-managed seed bank cannot do the work of protecting plants where they grow. A stored sample represents the genetic variety of a population at the moment it was collected. In the wild, populations continue to adapt to changing conditions, interacting with the insects that pollinate them and with the soils and climates around them. A sample kept frozen for fifty years has not experienced the changes of those fifty years. Seeds can be returned to restore habitats, but only if suitable habitats still exist to receive them. For this reason, those who manage seed banks generally describe their work as one part of conservation rather than an alternative to it. Their collections are most valuable when they support efforts to keep natural populations healthy.",
+              "items": [
+                {
+                  "stem": "Paragraph A",
+                  "options": [
+                    "Seeds that cannot survive the standard method",
+                    "The temperatures of different freezers",
+                    "Insurance against the loss of plant species",
+                    "Why storage cannot replace protection in the wild",
+                    "The value of oak trees to wildlife",
+                    "Checking that stored seeds remain alive",
+                    "Successful projects to restore natural habitats",
+                    "Preparing seeds for long-term storage"
+                  ],
+                  "answer": 2,
+                  "why": "段落用 a form of insurance against such losses 概括种子库的用途，其余句子说明为什么要保存、保存哪些种子。",
+                  "point": "mainidea"
+                },
+                {
+                  "stem": "Paragraph B",
+                  "options": [
+                    "Seeds that cannot survive the standard method",
+                    "The temperatures of different freezers",
+                    "Insurance against the loss of plant species",
+                    "Why storage cannot replace protection in the wild",
+                    "The value of oak trees to wildlife",
+                    "Checking that stored seeds remain alive",
+                    "Successful projects to restore natural habitats",
+                    "Preparing seeds for long-term storage"
+                  ],
+                  "answer": 7,
+                  "why": "全段按清理、干燥、密封、冷藏的顺序说明保存方法；冷冻温度和监控只是其中的细节，所以不选“不同冷柜的温度”。",
+                  "point": "hierarchy"
+                },
+                {
+                  "stem": "Paragraph C",
+                  "options": [
+                    "Seeds that cannot survive the standard method",
+                    "The temperatures of different freezers",
+                    "Insurance against the loss of plant species",
+                    "Why storage cannot replace protection in the wild",
+                    "The value of oak trees to wildlife",
+                    "Checking that stored seeds remain alive",
+                    "Successful projects to restore natural habitats",
+                    "Preparing seeds for long-term storage"
+                  ],
+                  "answer": 5,
+                  "why": "段首说储存不能保证种子仍然有用，随后说明定期做发芽试验，全段讲的是检查种子是否仍有活力。",
+                  "point": "mainidea"
+                },
+                {
+                  "stem": "Paragraph D",
+                  "options": [
+                    "Seeds that cannot survive the standard method",
+                    "The temperatures of different freezers",
+                    "Insurance against the loss of plant species",
+                    "Why storage cannot replace protection in the wild",
+                    "The value of oak trees to wildlife",
+                    "Checking that stored seeds remain alive",
+                    "Successful projects to restore natural habitats",
+                    "Preparing seeds for long-term storage"
+                  ],
+                  "answer": 0,
+                  "why": "段落讲不能干燥冷冻的顽拗型种子及其替代办法；橡子只是例子，所以不选“橡树对野生动物的价值”。",
+                  "point": "hierarchy"
+                },
+                {
+                  "stem": "Paragraph E",
+                  "options": [
+                    "Seeds that cannot survive the standard method",
+                    "The temperatures of different freezers",
+                    "Insurance against the loss of plant species",
+                    "Why storage cannot replace protection in the wild",
+                    "The value of oak trees to wildlife",
+                    "Checking that stored seeds remain alive",
+                    "Successful projects to restore natural habitats",
+                    "Preparing seeds for long-term storage"
+                  ],
+                  "answer": 3,
+                  "why": "段首和段末都说种子库只是保护工作的一部分，不能替代野外保护；恢复栖息地只在一句里提到，而且文中没有说哪些项目成功。",
+                  "point": "hierarchy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "label": "The passage has five paragraphs, A–E. Choose the correct heading for each paragraph from the list of headings. Use each heading once only; three headings are not needed.",
+              "look": "passage",
+              "text": "Dry-Stone Walls\n\nA. In many upland areas of Britain, fields are divided not by hedges or fences but by walls of stone built without mortar. These dry-stone walls are made from whatever rock lies close at hand, so their colour and texture change from one district to the next: pale limestone in some valleys, dark gritstone or slate in others. Many were built in the eighteenth and nineteenth centuries, when large areas of open land were divided into separate fields, although some boundaries are far older. In some districts almost every field is enclosed in this way, and the walls run up even the steepest hillsides. Together they form one of the most recognisable features of the landscape, and many still serve their original purpose of keeping sheep and cattle within particular fields. In places where trees grow poorly, they also give animals some protection from wind and snow.\n\nB. A dry-stone wall stands because of the way its stones are arranged rather than because anything binds them together. It is built as two separate faces of stone that lean slightly towards each other, so that the wall is wider at its base than at its top. This taper, known as the batter, lowers the wall's centre of gravity and makes it more stable. The space between the two faces is packed with small stones, called hearting, which stop the larger stones from shifting inwards. At intervals, long through-stones are laid across the full width of the wall to tie the faces to each other. Finally, a row of coping stones is placed along the top to protect the structure beneath. Each stone is set so that it rests firmly on those below, and a skilled builder rarely needs to cut a stone heavily before placing it.\n\nC. Despite their strength, many walls are now in poor condition. Frost can gradually move stones, livestock push and rub against them, and a small gap left unrepaired tends to widen as the stones on either side lose their support. Repair was once a routine winter task for farm workers, but there are far fewer such workers than there were a century ago. Rebuilding a collapsed section is slow work, and many landowners have found it cheaper to put up a wire fence beside a damaged wall than to restore the wall itself. Once a wall has partly collapsed, its fallen stones are sometimes taken away for other uses, which makes a later repair even more difficult. As a result, the decline has often been gradual and unnoticed, with walls falling apart a few stones at a time over many years.\n\nD. The gaps between the stones of a wall provide shelter for a surprising range of living things. Mosses and lichens grow on exposed surfaces, some of them only on particular kinds of rock. Certain lichens grow so slowly that a patch a few centimetres across may be many decades old. Insects and spiders use the spaces inside the wall, while small mammals and reptiles may shelter there or hunt along its length. Birds such as wheatears sometimes nest in larger cavities. In open landscapes with few trees or hedges, a wall may be the only sheltered structure for a considerable distance. Its value to wildlife depends partly on its age: an old wall with an established cover of lichens offers more than one that has recently been rebuilt.\n\nE. Keeping walls in good repair depends on people who know how to build them. The skill is learned mainly through practice, by working alongside experienced wallers and gradually developing an eye for which stone will fit a particular space. Training courses now offer beginners the chance to learn the basic techniques over a few days, and qualifications have been introduced so that standards can be recognised. Some schemes provide funding for landowners to restore walls, which in turn creates work for trained builders. Without a steady supply of new wallers, however, even generous funding would achieve little, because the work itself cannot be done by machine.",
+              "items": [
+                {
+                  "stem": "Paragraph A",
+                  "options": [
+                    "Reasons for a gradual decline",
+                    "The colours of local stone",
+                    "Walls as homes for wildlife",
+                    "Choosing between stone walls and wire fences",
+                    "A traditional boundary built from local stone",
+                    "Passing on a practical skill",
+                    "Machines that can replace skilled builders",
+                    "How a wall holds itself together"
+                  ],
+                  "answer": 4,
+                  "why": "段落介绍干石墙是用就地石料、不用灰浆砌成的田界，并说明其年代和用途；石料颜色只是一个细节。",
+                  "point": "hierarchy"
+                },
+                {
+                  "stem": "Paragraph B",
+                  "options": [
+                    "Reasons for a gradual decline",
+                    "The colours of local stone",
+                    "Walls as homes for wildlife",
+                    "Choosing between stone walls and wire fences",
+                    "A traditional boundary built from local stone",
+                    "Passing on a practical skill",
+                    "Machines that can replace skilled builders",
+                    "How a wall holds itself together"
+                  ],
+                  "answer": 7,
+                  "why": "段首说墙靠石块的排列而不是黏合物立住，随后依次说明 batter、hearting、through-stones 和 coping stones。",
+                  "point": "mainidea"
+                },
+                {
+                  "stem": "Paragraph C",
+                  "options": [
+                    "Reasons for a gradual decline",
+                    "The colours of local stone",
+                    "Walls as homes for wildlife",
+                    "Choosing between stone walls and wire fences",
+                    "A traditional boundary built from local stone",
+                    "Passing on a practical skill",
+                    "Machines that can replace skilled builders",
+                    "How a wall holds itself together"
+                  ],
+                  "answer": 0,
+                  "why": "段落列出霜冻、牲畜、修墙人减少和成本几种原因，段末总结为缓慢的衰败；铁丝网只是其中一个原因的例子。",
+                  "point": "hierarchy"
+                },
+                {
+                  "stem": "Paragraph D",
+                  "options": [
+                    "Reasons for a gradual decline",
+                    "The colours of local stone",
+                    "Walls as homes for wildlife",
+                    "Choosing between stone walls and wire fences",
+                    "A traditional boundary built from local stone",
+                    "Passing on a practical skill",
+                    "Machines that can replace skilled builders",
+                    "How a wall holds itself together"
+                  ],
+                  "answer": 2,
+                  "why": "全段讲石缝为苔藓、地衣、昆虫、小型动物和鸟提供栖身之处。",
+                  "point": "mainidea"
+                },
+                {
+                  "stem": "Paragraph E",
+                  "options": [
+                    "Reasons for a gradual decline",
+                    "The colours of local stone",
+                    "Walls as homes for wildlife",
+                    "Choosing between stone walls and wire fences",
+                    "A traditional boundary built from local stone",
+                    "Passing on a practical skill",
+                    "Machines that can replace skilled builders",
+                    "How a wall holds itself together"
+                  ],
+                  "answer": 5,
+                  "why": "段落讲修墙技艺靠实践和培训传承；段末只说这项工作不能由机器完成，与“能替代工匠的机器”相反。",
+                  "point": "hierarchy"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "more": {
+        "kind": "headings",
+        "topics": [
+          "种子保存",
+          "传统石墙",
+          "城市排水",
+          "古代道路",
+          "湿地生态",
+          "灯塔",
+          "博物馆修复",
+          "森林火灾管理",
+          "公共图书馆的演变",
+          "海岸侵蚀",
+          "传统建筑材料",
+          "城市养蜂"
+        ]
+      }
+    }
+  ]
+}

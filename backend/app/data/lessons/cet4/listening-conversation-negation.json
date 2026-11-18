@@ -1,0 +1,608 @@
+{
+ "id": "listening-conversation-negation",
+ "title": "否定与更正表达",
+ "goal": "辨认否定范围与更正后保留的信息。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "negative",
+   "label": "确定否定表达作用的范围"
+  },
+  {
+   "id": "correction",
+   "label": "听出更正后保留的信息"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "长对话材料的教学依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "否定表达说明动作在什么时间、多大程度上没有发生。更正表达把前面的说法换成另一个说法，事实以更正后的为准。"
+    },
+    {
+     "box": "A: Has the parcel arrived? B: Not yet.\nA: Is the meeting on Monday? B: Actually, it's on Tuesday."
+    },
+    {
+     "p": "Not yet 表示包裹现在还没到。actually 后面把开会的日子改成了周二。否定和更正针对哪件事，看前后相邻的话。"
+    }
+   ]
+  },
+  {
+   "id": "negatives",
+   "type": "table",
+   "title": "否定的时间与范围",
+   "cols": [
+    "表达",
+    "含义",
+    "例"
+   ],
+   "rows": [
+    [
+     "not yet",
+     "到目前为止尚未发生",
+     "A: Is the gate open? B: Not yet; it opens at nine."
+    ],
+    [
+     "not yet",
+     "到目前为止尚未完成",
+     "A: Did the parcel arrive? B: Not yet; it's still in transit."
+    ],
+    [
+     "no longer",
+     "过去如此，现在已不再如此",
+     "A: Does the bus stop here? B: No longer; it stops across the road."
+    ],
+    [
+     "no longer",
+     "原有状态已经改变",
+     "A: Is the shop open on Sundays? B: No longer; it's closed that day."
+    ],
+    [
+     "hardly",
+     "程度或数量极少",
+     "A: Is there much milk? B: Hardly any; the bottle is almost empty."
+    ],
+    [
+     "hardly",
+     "动作发生得极少",
+     "A: Does Sam use the car? B: Hardly ever; Sam usually cycles."
+    ],
+    [
+     "not until",
+     "直到指定时间才发生",
+     "A: When does the hall open? B: Not until ten; it's closed before then."
+    ],
+    [
+     "not until",
+     "指定条件满足后才发生",
+     "A: When can we leave? B: Not until the rain stops."
+    ]
+   ],
+   "note": "hardly any 是很少，还剩一点。not yet 只说到现在为止还没有，以后的结果没有说。"
+  },
+  {
+   "id": "corrections",
+   "type": "table",
+   "title": "更正后的信息",
+   "cols": [
+    "表达",
+    "作用",
+    "例"
+   ],
+   "rows": [
+    [
+     "actually",
+     "更正时间",
+     "A: The class starts at two. B: Actually, it starts at three."
+    ],
+    [
+     "actually",
+     "更正地点",
+     "A: The keys are on the desk. B: Actually, they're in the drawer."
+    ],
+    [
+     "instead",
+     "以一项安排替代另一项",
+     "A: Shall we take the bus? B: Let's walk instead."
+    ],
+    [
+     "instead",
+     "说明替换的对象",
+     "A: Use the red box? B: Use the blue one instead."
+    ],
+    [
+     "I mean",
+     "更正说错的日期",
+     "A: Meet on Tuesday, I mean Wednesday. B: Wednesday is fine."
+    ],
+    [
+     "I mean",
+     "更正说错的数量",
+     "A: Bring four, I mean five cups. B: I'll bring five."
+    ]
+   ]
+  },
+  {
+   "id": "example",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A: Has the report been sent?\nB: Not yet. I planned to send it to Mira today, but actually it needs her manager's approval first. I'll send it to the manager instead.\nA: Then Mira will receive it after approval.\nB: Yes. The manager asked to see the figures.\nA: Are the figures in the final section?\nB: Yes, and the table is complete.\nA: I'll keep a copy for our records.\nB: I'll attach the table before sending it."
+    },
+    {
+     "box": "Who will receive the report first?\n1. Mira's manager\n2. Mira herself\n3. The speaker who keeps a copy\n4. Mira and her manager at once"
+    },
+    {
+     "p": "Not yet 说明报告还没发。I'll send it to the manager instead 把收件人改成了经理，即第一项。第二项是更正前的安排。"
+    }
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "negative",
+    "correction"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Has the paint dried?"
+       },
+       {
+        "who": "B",
+        "text": "Not yet. It still feels wet."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is the current state of the paint?",
+       "options": [
+        "It has dried completely.",
+        "It is still wet to the touch.",
+        "It will dry before noon.",
+        "It was already dry yesterday."
+       ],
+       "answer": 1,
+       "why": "Not yet 和 still feels wet 表明油漆尚未干，即第二项。",
+       "point": "negative"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Does the cafe still serve lunch?"
+       },
+       {
+        "who": "B",
+        "text": "No longer. It only serves breakfast now."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What can be inferred about the cafe now?",
+       "options": [
+        "It serves both lunch and breakfast.",
+        "It serves lunch but not breakfast.",
+        "It has not opened for breakfast yet.",
+        "It serves breakfast but not lunch."
+       ],
+       "answer": 3,
+       "why": "依据是 No longer 和 It only serves breakfast now，现在只供应早餐，不再供应午餐，即第四项。",
+       "point": "negative"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The film begins at seven, doesn't it?"
+       },
+       {
+        "who": "B",
+        "text": "Actually, it begins at eight."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "When does the film begin?",
+       "options": [
+        "At eight o'clock",
+        "At seven o'clock",
+        "An hour before seven",
+        "Between seven and eight"
+       ],
+       "answer": 0,
+       "why": "Actually 后面的 it begins at eight 更正了时间，即第一项。第二项是更正前的说法。",
+       "point": "correction"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Should I take the green folder?"
+       },
+       {
+        "who": "B",
+        "text": "Please take the yellow one instead."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which folder should the first speaker take?",
+       "options": [
+        "The folder with a green cover",
+        "Both the yellow and green folders",
+        "The folder with a yellow cover",
+        "Neither of the two colored folders"
+       ],
+       "answer": 2,
+       "why": "The yellow one instead 用黄色文件夹替代绿色文件夹，即第三项。",
+       "point": "correction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "negative",
+    "correction"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Are the chairs ready for the reading?"
+       },
+       {
+        "who": "B",
+        "text": "Not yet. The hall doesn't open until ten."
+       },
+       {
+        "who": "A",
+        "text": "We have hardly any time before the event at eleven."
+       },
+       {
+        "who": "B",
+        "text": "The chairs are already in the hall, so arranging them won't take long."
+       },
+       {
+        "who": "A",
+        "text": "Good. I'll bring the signs at half past nine."
+       },
+       {
+        "who": "B",
+        "text": "Put them by the door, please."
+       },
+       {
+        "who": "A",
+        "text": "Do we need signs for the north entrance?"
+       },
+       {
+        "who": "B",
+        "text": "Actually, use the south entrance. The north one is closed."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "When will the hall become available?",
+       "options": [
+        "Before half past nine",
+        "At ten in the morning",
+        "At eleven in the morning",
+        "After the reading has ended"
+       ],
+       "answer": 1,
+       "why": "The hall doesn't open until ten 表示十点才开放，即第二项。",
+       "point": "negative"
+      },
+      {
+       "stem": "Which entrance should the signs refer to?",
+       "options": [
+        "The entrance on the north side",
+        "Both entrances to the hall",
+        "The entrance on the south side",
+        "Neither entrance to the hall"
+       ],
+       "answer": 2,
+       "why": "Actually, use the south entrance 更正了入口，即第三项。",
+       "point": "correction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "negative",
+    "correction"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Has the library received the new maps?"
+         },
+         {
+          "who": "B",
+          "text": "Not yet. The parcel is still at the post office."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is the status of the maps?",
+         "options": [
+          "They are still waiting at the post office.",
+          "They are already at the library.",
+          "The library has sent them to the post office.",
+          "They will arrive at the library today."
+         ],
+         "answer": 0,
+         "why": "依据是 Not yet 和 The parcel is still at the post office，地图还在邮局，即第一项。",
+         "point": "negative"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Does the ferry stop at the island every day?"
+         },
+         {
+          "who": "B",
+          "text": "No longer. It now stops there only on weekends."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is true of the ferry's current schedule?",
+         "options": [
+          "It stops on weekdays only.",
+          "It stops at the island every day.",
+          "It stops at the island on weekends only.",
+          "It no longer stops at the island at all."
+         ],
+         "answer": 2,
+         "why": "No longer 和 only on weekends 表明现在只在周末停靠，即第三项。",
+         "point": "negative"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Is there enough flour for the bread?"
+         },
+         {
+          "who": "B",
+          "text": "Hardly any is left. We need to buy more."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "How much flour is left?",
+         "options": [
+          "Enough for several loaves",
+          "Only a very small amount",
+          "Exactly enough for one loaf",
+          "No flour at all"
+         ],
+         "answer": 1,
+         "why": "Hardly any is left 表示面粉只剩很少，即第二项。第四项把 hardly any 当成了一点都没有。",
+         "point": "negative"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Can we enter the exhibition at nine?"
+         },
+         {
+          "who": "B",
+          "text": "Not until ten. The staff need an hour to prepare."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "When can visitors enter the exhibition?",
+         "options": [
+          "Before the staff arrive at nine",
+          "At nine when preparation starts",
+          "During the hour of preparation",
+          "At ten after the preparation"
+         ],
+         "answer": 3,
+         "why": "Not until ten 表明十点才可入场，即第四项。",
+         "point": "negative"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The parcel should go to the west office."
+         },
+         {
+          "who": "B",
+          "text": "Actually, it should go to the east office."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Where should the parcel be sent?",
+         "options": [
+          "To both offices in the building",
+          "To the office on the east side",
+          "To the office on the west side",
+          "To neither office in the building"
+         ],
+         "answer": 1,
+         "why": "Actually 后的 east office 更正了接收地点，即第二项。",
+         "point": "correction"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Shall we make tea for the guests?"
+         },
+         {
+          "who": "B",
+          "text": "Let's offer them coffee instead."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What do the speakers plan to offer?",
+         "options": [
+          "Both tea and coffee to the guests",
+          "Tea before the guests have coffee",
+          "Tea instead of coffee for the guests",
+          "Coffee in place of tea for the guests"
+         ],
+         "answer": 3,
+         "why": "Offer them coffee instead 用咖啡替代茶，即第四项。",
+         "point": "correction"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Please bring six plates, I mean seven plates."
+         },
+         {
+          "who": "B",
+          "text": "All right, I'll bring them."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "How many plates are requested?",
+         "options": [
+          "Seven plates for the occasion",
+          "Six plates for the occasion",
+          "One plate in addition to seven",
+          "Thirteen plates altogether"
+         ],
+         "answer": 0,
+         "why": "I mean seven plates 把数量更正为七个，即第一项。",
+         "point": "correction"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Let's meet on Thursday, I mean Friday."
+         },
+         {
+          "who": "B",
+          "text": "Friday works for me."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which day is finally proposed?",
+         "options": [
+          "Thursday before the meeting",
+          "Both Thursday and Friday",
+          "Friday rather than Thursday",
+          "The day after Friday"
+         ],
+         "answer": 2,
+         "why": "I mean Friday 把日期改为周五，即第三项。",
+         "point": "correction"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

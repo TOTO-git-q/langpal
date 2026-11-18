@@ -1,0 +1,200 @@
+{
+  "id": "listening-passage",
+  "title": "听力篇章 · 练习",
+  "goal": "用首尾信息确定主题。",
+  "skill": "listening",
+  "exam": "大学英语六级（CET-6）",
+  "points": [
+    {
+      "id": "gist",
+      "label": "概括独白的中心内容"
+    },
+    {
+      "id": "detail",
+      "label": "提取事件细节与顺序"
+    },
+    {
+      "id": "inference",
+      "label": "依据已知信息作有限推断"
+    }
+  ],
+  "sources": [
+    {
+      "id": "c1",
+      "title": "CET笔试",
+      "url": "https://cet.neea.edu.cn/html1/folder/16113/1586-1.htm",
+      "used": "题型与考试时间。"
+    },
+    {
+      "id": "c2",
+      "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+      "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+      "used": "材料长度、任务形式与总体评分标准。"
+    }
+  ],
+  "cards": [
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "小测",
+      "minutes": 4,
+      "points": [
+        "gist",
+        "detail",
+        "inference"
+      ],
+      "more": {
+        "kind": "listening-passage",
+        "topics": [
+          "图书馆资料整理",
+          "校园活动安排",
+          "社区工具借用",
+          "工作培训",
+          "公共展览",
+          "志愿服务",
+          "城市步行路线",
+          "小组研究",
+          "档案保存",
+          "家庭物品修理",
+          "社区花园",
+          "交通服务"
+        ]
+      },
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "audio": {
+                "intro": "Listen to the passage.",
+                "lines": [
+                  {
+                    "who": "A",
+                    "text": "When our community center opened a cupboard of tools for residents to borrow, the organizers expected the main difficulty to be persuading people to donate equipment. In fact, the shelves filled quickly. The problem appeared later: visitors often selected a tool without knowing whether it was suitable for the job they had in mind.\n\nAt first, volunteers arranged everything by size. That kept the cupboard tidy, but it placed tools with very different uses beside one another. A resident repairing a loose chair borrowed equipment intended for cutting rather than fastening. Nothing was damaged, but the unnecessary journey showed that a neat display was not enough.\n\nThe team considered charging a deposit to encourage careful borrowing. They rejected that idea because money would not tell visitors which tool to choose. Instead, they grouped the equipment by task and attached cards describing suitable uses. A trained volunteer was available on Saturday mornings to explain the labels. Visitors were asked to describe their project before selecting anything unfamiliar.\n\nThe cupboard did not become completely self-service. Some equipment still required an explanation, and damaged items were removed for inspection. However, volunteers spent less time correcting unsuitable choices and more time helping residents plan repairs. They also kept a notebook of questions the cards had failed to answer.\n\nThe organizers now treat that notebook as part of the collection. When the same question appears repeatedly, they revise the relevant card. Their experience suggests that access to equipment works best when people also receive practical guidance on choosing it."
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "stem": "What is the passage mainly about?",
+                  "options": [
+                    "Why residents stopped donating tools",
+                    "How a deposit system raised money",
+                    "How a tool library improved guidance for borrowers",
+                    "Why volunteers replaced repairs with classes"
+                  ],
+                  "answer": 2,
+                  "why": "全文说明工具借用服务如何通过分类和说明帮助使用者；押金只是被否决的建议。",
+                  "point": "gist"
+                },
+                {
+                  "stem": "How were the tools originally arranged?",
+                  "options": [
+                    "By size",
+                    "By the jobs they could do",
+                    "By the date they were donated",
+                    "By the experience of their owners"
+                  ],
+                  "answer": 0,
+                  "why": "第二段说明最初按大小排列，按用途分组是后来的改动。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "Why did the organizers reject a deposit?",
+                  "options": [
+                    "Residents had refused all payments.",
+                    "It would not help people choose suitable tools.",
+                    "The cupboard had no spare shelves.",
+                    "It would prevent volunteers from inspecting tools."
+                  ],
+                  "answer": 1,
+                  "why": "原文指出金钱不能告诉访客应选哪种工具，问题在选择而非付费。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "What can be inferred about the information cards?",
+                  "options": [
+                    "They remove the need for all explanations.",
+                    "They are written only by borrowers.",
+                    "They cover only damaged equipment.",
+                    "They can be improved using recurring questions."
+                  ],
+                  "answer": 3,
+                  "why": "同一问题反复出现时会修改对应卡片，说明借用反馈能改进说明；部分设备仍需讲解。",
+                  "point": "inference"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "audio": {
+                "intro": "Listen to the passage.",
+                "lines": [
+                  {
+                    "who": "A",
+                    "text": "During a local history project, a group of students offered to scan family photographs for a neighborhood exhibition. They expected the oldest pictures to be the most useful. Their teacher suggested a different starting point: ask what could actually be established about each image before deciding whether to display it.\n\nOne photograph showed a crowded street with flags above the shops. Its owner believed it recorded the opening of a railway station, but a handwritten date on the back suggested otherwise. Rather than choose the more exciting story, the students compared shop names with entries in an old directory. They could identify the street, but they could not confirm the occasion.\n\nThe group displayed the picture with the location and an approximate date. The uncertain event was described as unknown. Some visitors found this disappointing, yet others brought photographs showing the same buildings from different angles. These helped the students distinguish a shop doorway from what they had initially taken to be a station entrance.\n\nFor the remaining images, the students made two records. One contained the owner's memories; the other listed details supported by documents or visible features. They kept both because personal recollections could suggest useful questions even when they did not settle them.\n\nThe exhibition became less like a collection of finished stories and more like an invitation to investigate. The students learned that admitting uncertainty did not make an old photograph worthless. It allowed later evidence to improve the account without hiding what had been doubtful from the beginning."
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "stem": "What is the main subject of the passage?",
+                  "options": [
+                    "The cost of restoring damaged photographs",
+                    "A disagreement over closing a railway station",
+                    "The replacement of memories with digital pictures",
+                    "Students learning to distinguish evidence from assumptions"
+                  ],
+                  "answer": 3,
+                  "why": "学生始终在核对照片信息和不确定性，主旨是区分证据与推测；数字扫描只是活动背景。",
+                  "point": "gist"
+                },
+                {
+                  "stem": "What did the old directory help the students establish?",
+                  "options": [
+                    "The occasion shown in the photograph",
+                    "The identity of the street",
+                    "The photographer’s name",
+                    "The exact date of the exhibition"
+                  ],
+                  "answer": 1,
+                  "why": "商店名称与名录的比对确定了街道，但没有确认拍摄场合。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "Why did the students keep the owners’ memories?",
+                  "options": [
+                    "They could suggest questions for further investigation.",
+                    "They were always more reliable than written records.",
+                    "They proved that every photograph showed a celebration.",
+                    "They replaced the need to examine visible features."
+                  ],
+                  "answer": 0,
+                  "why": "回忆虽不能确定事实，却能提供调查问题，因此与可核实信息分别保留。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "What can be inferred about acknowledging uncertainty?",
+                  "options": [
+                    "It prevents photographs from being exhibited.",
+                    "It guarantees that every visitor will agree.",
+                    "It makes later revisions easier to explain.",
+                    "It removes the need to collect more evidence."
+                  ],
+                  "answer": 2,
+                  "why": "结尾说明公开不确定性可让新证据改进说明，而不掩盖原有疑点；并非停止调查。",
+                  "point": "inference"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pass": 0.75
+    }
+  ]
+}

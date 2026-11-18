@@ -1,0 +1,67 @@
+{
+ "id": "listening-short-detail",
+ "title": "短对话细节题",
+ "goal": "定位时间、地点、物品和原因，识别细节的同义改写。",
+ "skill": "听力",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "locate", "label": "听出与问题对应的明确细节"},
+  {"id": "paraphrase", "label": "识别细节的同义改写"}
+ ],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "短对话细节的教学内容与课程小测规格"}],
+ "cards": [
+  {"id": "type", "type": "text", "title": "题型", "body": [
+   {"p": "细节题问对话中明确说出的时间、地点、物品或原因。选项常换用同义的说法，人物和条件要与原话一致。"},
+   {"box": "Why is the market closed? → The roof is being repaired.\nIt is closed for roof repairs."},
+   {"p": "roof repairs 是 the roof is being repaired 的另一种说法，关门的原因没有变。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定细节", "d": "先看疑问词问的是哪类信息。Where 问地点，why 问原因。"},
+   {"t": "2　定位原话", "d": "找到说题干中人物和事件的那句话。Leo left the key in the kitchen 说明 Leo 把钥匙留在了哪里。"},
+   {"t": "3　核对限定", "d": "注意时间、物主和否定。The red bag isn't mine 说明红色的包不是说话者的。"},
+   {"t": "4　比较改写", "d": "看选项的意思是否与原话相同。The shop is shut 与 The shop is closed 意思相同。"}
+  ]},
+  {"id": "details", "type": "table", "title": "细节定位", "cols": ["类别", "原话", "对应细节"], "rows": [
+   ["时间", "The talk begins at half past four.", "讲座四点半开始。"],
+   ["地点", "The parcel is behind the counter.", "包裹在柜台后面。"],
+   ["物品", "I packed the blue scarf.", "说话者带上了蓝色围巾。"],
+   ["原因", "The path is closed because a tree fell.", "树倒下导致道路关闭。"]
+  ]},
+  {"id": "paraphrases", "type": "table", "title": "细节的同义改写", "cols": ["方式", "原话", "选项表达"], "rows": [
+   ["同义词", "The shop is shut.", "The shop is closed."],
+   ["同义词", "The meeting will begin at noon.", "The meeting will start at twelve."],
+   ["否定转肯定", "The room isn't occupied.", "The room is empty."],
+   ["否定转肯定", "The parcel hasn't arrived; it's still at the depot.", "The parcel is still at the depot."],
+   ["具体到概括", "A branch fell across the path.", "A fallen branch blocked the path."],
+   ["具体到概括", "She packed a shirt and trousers.", "She packed some clothes."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A: Has the package reached the studio?\nB: Not yet. The driver called; the van is still on the road.\nA: I'll wait before starting work."},
+   {"box": "Where is the package?\n1. At the studio.\n2. On the way.\n3. In the studio's workroom.\n4. Parked outside the studio."},
+   {"p": "Not yet 与 the van is still on the road 说明包裹还在路上。第二项用 on the way 改写这一状态。"}
+  ]},
+  {"id": "distractors", "type": "table", "title": "干扰项", "cols": ["类型", "原话与选项", "排除方法"], "rows": [
+   ["他人信息", "Nora packed the scarf → Leo packed the scarf", "核对动作是谁做的：装围巾的是 Nora。"],
+   ["被否定的信息", "The parcel hasn't arrived → It has arrived", "hasn't 是否定：包裹还没到。"],
+   ["相邻时间", "The door opens at six; the show starts at seven → show at six", "六点是开门，七点才是演出。"],
+   ["原因倒置", "A fallen branch blocked the path → The path caused the branch to fall", "原因是树枝倒下，结果是道路被堵。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["locate", "paraphrase"], "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "I left my sketchbook on the bench beside the pond. Did you see it when you collected the brushes from the table?"}, {"who": "B", "text": "Yes, I brought it inside. It's on the shelf beside the brushes now."}]}, "items": [{"stem": "Where is the sketchbook now?", "options": ["On the bench beside the pond", "On the table near the pond", "On the shelf beside the brushes", "On the table with the brushes"], "answer": 2, "why": "It's on the shelf beside the brushes now 给出现在的位置，第三项符合。", "point": "locate"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Will the garden gate be open this morning? I need to deliver the plants, and the other entrance is too narrow for the cart."}, {"who": "B", "text": "Yes. The gate isn't locked today, so the cart can go through."}]}, "items": [{"stem": "What is true of the garden gate today?", "options": ["It is unlocked this morning.", "It is too narrow for the cart.", "It is locked until the plants arrive.", "It is narrower than the other entrance."], "answer": 0, "why": "isn't locked today 说明今天未上锁，第一项用 unlocked 改写。", "point": "paraphrase"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["locate", "paraphrase"], "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "I thought the drawing class started at five. Why are you leaving at four? The walk to the studio only takes ten minutes."}, {"who": "B", "text": "I have to buy paper first. The class does start at five."}]}, "items": [{"stem": "Why is the second speaker leaving at four?", "options": ["The studio opens at four.", "The walk takes an hour.", "The drawing class starts early.", "Paper must be bought first."], "answer": 3, "why": "I have to buy paper first 给出提前出发的原因，第四项符合。", "point": "locate"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "What did Mei put in the box for the trip? I put the cups in my bag, but there's still room for something else."}, {"who": "B", "text": "She put apples and pears in the box. The cups can stay in your bag."}]}, "items": [{"stem": "What did Mei put in the box?", "options": ["A set of cups", "Some fresh fruit", "Fruit and cups", "The first speaker's bag"], "answer": 1, "why": "apples and pears 都是水果，第二项概括盒中的物品。", "point": "paraphrase"}]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["locate", "paraphrase"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "The exhibition doors open at nine, but when does the guided tour start? I need to arrange a bus for the group."}, {"who": "B", "text": "The tour starts at ten. Ask everyone to arrive before then."}]}, "items": [{"stem": "When does the guided tour start?", "options": ["At ten in the morning", "At nine in the morning", "Before the doors open", "Before the bus arrives"], "answer": 0, "why": "The tour starts at ten 明确说明导览时间，第一项符合。", "point": "locate"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Did Zara take her jacket to the sports hall? She left her water bottle beside the door when she went out this morning."}, {"who": "B", "text": "She took the jacket, but her bottle is still beside the door."}]}, "items": [{"stem": "What did Zara take with her?", "options": ["The bottle by the door", "The jacket for the hall", "The bottle in the hall", "The jacket by the door"], "answer": 1, "why": "She took the jacket 指 Zara 带走外套，第二项符合；水瓶仍在门边。", "point": "locate"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Can we use the room beside the kitchen for the meeting? The room upstairs is being painted, and the tables are still outside."}, {"who": "B", "text": "Yes. The downstairs room isn't occupied this afternoon."}]}, "items": [{"stem": "What does the second speaker say about the downstairs room?", "options": ["It is being painted today.", "Its tables are outside today.", "It is vacant this afternoon.", "It is upstairs from the kitchen."], "answer": 2, "why": "isn't occupied this afternoon 表示下午空着，vacant 是同义改写。", "point": "paraphrase"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Why did the delivery arrive late? The driver usually reaches the bakery before the first customers come in at eight."}, {"who": "B", "text": "A fallen tree blocked the road, so the driver had to take another route."}]}, "items": [{"stem": "Why was the delivery late?", "options": ["The bakery opened after eight.", "The driver missed the customers.", "The other route was blocked by a tree.", "A tree obstructed the usual road."], "answer": 3, "why": "A fallen tree blocked the road 是延误的原因，obstructed 改写 blocked。", "point": "paraphrase"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Have you seen the tickets for the play? I checked the drawer under the phone, but they're not there with the programme."}, {"who": "B", "text": "I put the tickets in the blue envelope on the desk."}]}, "items": [{"stem": "Where are the tickets?", "options": ["In an envelope on the desk", "In the drawer under the phone", "Beside the programme in the drawer", "In a blue envelope in the drawer"], "answer": 0, "why": "in the blue envelope on the desk 指明票的位置，第一项符合。", "point": "locate"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "What did you buy for the class picnic? I bought bread and cheese, but I didn't have enough time to visit the fruit stall."}, {"who": "B", "text": "I bought oranges and bananas there. They're in the bag by the door."}]}, "items": [{"stem": "What did the second speaker buy?", "options": ["Bread and cheese for the class", "Some fruit for the picnic", "A bag for the fruit stall", "Cheese from the fruit stall"], "answer": 1, "why": "oranges and bananas 属于水果，第二项概括第二位说话者购买的物品。", "point": "paraphrase"}]}
+  ]}]} 
+ ]
+}

@@ -1,0 +1,368 @@
+{
+ "id": "writing-relative",
+ "title": "定语从句的连接",
+ "goal": "按先行词和从句成分选择关系词；将定语从句接到对应名词之后。",
+ "skill": "写作",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "link",
+   "label": "按先行词和从句成分选择关系词"
+  },
+  {
+   "id": "attach",
+   "label": "将定语从句接到对应名词之后"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语四级（CET-4）：课表",
+   "url": "docs/syllabi/cet4.md",
+   "used": "写作部分本课的内容范围、知识点及教学材料规格"
+  },
+  {
+   "id": "c2",
+   "title": "C2 全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "依据所给研究文件中的写作语言与连贯性要求安排教学，不陈述考试事实"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "限制性定语从句说明名词指的是哪一个，紧跟在先行词后面，不用逗号隔开。关系词在从句里也充当一个成分。选关系词时，先看先行词是人还是物，再看从句缺什么成分。"
+    },
+    {
+     "box": "The students who maintain the roof garden meet every Friday beside the greenhouse."
+    },
+    {
+     "p": "who 指 students，在从句里作 maintain 的主语。主句的谓语是 meet。从句里不能再加 they。"
+    }
+   ]
+  },
+  {
+   "id": "people",
+   "type": "table",
+   "title": "人物与所属关系",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "who：主语",
+     "先行词是人，who 在从句里作主语。",
+     "A student repairs radios. He joined our group. → The student who repairs radios joined our group at the start of this term."
+    ],
+    [
+     "who：宾语",
+     "who 在从句里作宾语，不再加 her。",
+     "We invited a tutor. She teaches pottery. → The tutor who we invited teaches pottery to local residents at the community center."
+    ],
+    [
+     "whose：所属",
+     "whose 后面直接接名词，不再加 her。",
+     "A runner lost her shoes. She borrowed a pair. → The runner whose shoes were missing borrowed a pair from the sports office."
+    ],
+    [
+     "whose：所属",
+     "whose 和后面的名词一起作从句的主语。",
+     "A team won a prize. Its project reused paper. → The team whose project reused paper won a prize at the student exhibition."
+    ]
+   ]
+  },
+  {
+   "id": "things",
+   "type": "table",
+   "title": "事物与从句位置",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "which：主语",
+     "先行词是物，which 作主语，后面直接接谓语。",
+     "A machine sorts envelopes. It needs repair. → The machine which sorts envelopes needs repair before the next batch of letters arrives."
+    ],
+    [
+     "which：宾语",
+     "which 在从句里作宾语，不再加 it。",
+     "We bought a map. It shows local footpaths. → The map which we bought shows several quiet footpaths through the nearby hills."
+    ],
+    [
+     "that：指人",
+     "限制性从句里可代替 who。逗号后面不用 that。",
+     "A volunteer speaks Polish. She will guide the guests. → The volunteer that speaks Polish will guide the guests around the new exhibition."
+    ],
+    [
+     "that：指物",
+     "限制性从句里可代替 which。例句中 that 作 designed 的宾语。",
+     "The club designed a badge. It has a green border. → The badge that the club designed has a green border around its name."
+    ],
+    [
+     "位置",
+     "从句紧跟在所修饰的名词后面。",
+     "The student who records interviews lent a microphone to the history club yesterday."
+    ],
+    [
+     "省略",
+     "关系词作宾语时可以省略，作主语时不能省。",
+     "The samples the group collected are stored in clearly labeled boxes near the window."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A student sent a proposal to the committee. The proposal included a courtyard drawing. The committee discussed it on Monday. Which noun should the clause that included a courtyard drawing follow?"
+    },
+    {
+     "p": "要说明的是 proposal，included 的主语也是 proposal，所以从句紧跟 proposal。放在 committee 后面，从句就成了修饰 committee。"
+    },
+    {
+     "box": "On Monday, the committee discussed the proposal that included a drawing of the courtyard."
+    },
+    {
+     "p": "that 已经代替 proposal，不能再写 that it included。同样，whose pages 不能写成 whose its pages。"
+    }
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "link",
+    "attach"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Which word marks ownership? The cyclist ___ helmet was damaged borrowed a spare one from the club.",
+       "options": [
+        "which",
+        "whose",
+        "who",
+        "that"
+       ],
+       "answer": 1,
+       "why": "helmet 属于 cyclist，需用 whose helmet。",
+       "point": "link"
+      },
+      {
+       "stem": "Which revision removes a repeated subject from The students who they restore furniture meet on Fridays?",
+       "options": [
+        "Remove who.",
+        "Remove students.",
+        "Remove they.",
+        "Remove restore."
+       ],
+       "answer": 2,
+       "why": "who 已经作 restore 的主语，they 重复，应删去，即第三项。删去 who，两个分句就没有了连接。",
+       "point": "link"
+      },
+      {
+       "stem": "The description concerns the workshop, not its organizer. Which placement preserves that meaning?",
+       "options": [
+        "The workshop that teaches weaving has a new organizer.",
+        "The workshop has an organizer that teaches weaving.",
+        "The organizer that has a workshop teaches weaving.",
+        "The new organizer that teaches weaving has a workshop."
+       ],
+       "answer": 0,
+       "why": "题干要求从句描述 workshop。第一项把 that teaches weaving 直接接在 workshop 后面。",
+       "point": "attach"
+      },
+      {
+       "stem": "Which revision removes a repeated object from The camera which I borrowed it has a broken strap?",
+       "options": [
+        "Remove I.",
+        "Remove borrowed.",
+        "Remove camera.",
+        "Remove it."
+       ],
+       "answer": 3,
+       "why": "which 已经代替 camera 作 borrowed 的宾语，it 重复，应删去，即第四项。I 是从句的主语，不能删。",
+       "point": "link"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "attach",
+    "link"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A craft team printed a guide to assembling paper lanterns. Each student received a guide and a folder for loose designs. One student requested a new folder because the original was torn. The guide contained clear diagrams of each stage, and the team kept spare copies in the office.",
+     "items": [
+      {
+       "stem": "Complete the sentence identifying the owner of the torn folder.",
+       "lead": "The student",
+       "chunks": [
+        "whose",
+        "folder was",
+        "torn",
+        "requested"
+       ],
+       "tail": "a new one from the office.",
+       "extra": [
+        "who"
+       ],
+       "why": "whose folder 表示所属。was torn 是从句的谓语，requested 是主句的谓语。",
+       "point": "attach"
+      },
+      {
+       "stem": "Insert a relative word: The guide ___ the team printed contains clear diagrams of each stage.",
+       "accept": [
+        "which",
+        "that"
+       ],
+       "why": "guide 是物，关系词作 printed 的宾语，which 和 that 都可以。题目要求填关系词，不能空着。",
+       "point": "link"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "link",
+    "attach"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "Which word shows possession? The singer ___ recording won the college award thanked the student sound team.",
+         "options": [
+          "whose",
+          "who",
+          "which",
+          "that"
+         ],
+         "answer": 0,
+         "why": "recording 属于 singer，应为 whose recording。",
+         "point": "link"
+        },
+        {
+         "stem": "Which repair removes the repeated subject? The workers who they maintain the lifts attend a monthly briefing.",
+         "options": [
+          "Delete who from the clause.",
+          "Delete they from the clause.",
+          "Delete maintain from the clause.",
+          "Delete workers from the sentence."
+         ],
+         "answer": 1,
+         "why": "who 已作 maintain 的主语，they 是多余代词。",
+         "point": "link"
+        },
+        {
+         "stem": "The report compares three designs. Which sentence attaches that description to the report?",
+         "options": [
+          "The report reached the supervisor who compared three designs.",
+          "The supervisor who read the report compared three designs.",
+          "The report that compared three designs reached the supervisor.",
+          "The supervisor compared three designs that appeared in the report."
+         ],
+         "answer": 2,
+         "why": "题干要求从句说明 report。第三项把 that compared three designs 接在 report 后面。",
+         "point": "attach"
+        },
+        {
+         "stem": "Which sentence places the clause beside the noun it describes and avoids a repeated object?",
+         "options": [
+          "The gloves which the instructor recommended them arrived yesterday.",
+          "The gloves arrived which the instructor recommended yesterday.",
+          "The instructor which recommended the gloves arrived yesterday.",
+          "The gloves which the instructor recommended arrived yesterday."
+         ],
+         "answer": 3,
+         "why": "第四项的 which 作 recommended 的宾语，紧跟 gloves。第一项多了 them，宾语重复。",
+         "point": "attach"
+        },
+        {
+         "stem": "Identify the student whose design won the award.",
+         "lead": "The student",
+         "chunks": [
+          "whose design",
+          "won the",
+          "award",
+          "received"
+         ],
+         "tail": "a letter from the committee.",
+         "extra": [
+          "who"
+         ],
+         "why": "whose design 是从句的主语，won the award 是从句的谓语部分。received 是主句的谓语。",
+         "point": "attach"
+        },
+        {
+         "stem": "Complete the sentence about the device that measures indoor light.",
+         "lead": "The device",
+         "chunks": [
+          "which",
+          "measures the",
+          "light level",
+          "requires"
+         ],
+         "tail": "a new battery before the test.",
+         "extra": [
+          "it"
+         ],
+         "why": "which 作 measures 的主语，requires 是主句的谓语。it 不是关系词，不能连接从句。",
+         "point": "attach"
+        },
+        {
+         "stem": "Insert a relative word: The instrument ___ measures wind speed stands beside the old sports field.",
+         "accept": [
+          "which",
+          "that"
+         ],
+         "why": "instrument 是物，关系词作 measures 的主语。which、that 都可以，作主语时不能省略。",
+         "point": "link"
+        },
+        {
+         "stem": "Insert a relative word: The volunteers ___ lead the walking tours receive maps from the local office.",
+         "accept": [
+          "who",
+          "that"
+         ],
+         "why": "volunteers 是人，关系词作 lead 的主语，who 和 that 都可以。",
+         "point": "link"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

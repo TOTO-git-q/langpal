@@ -1,0 +1,59 @@
+{
+ "id": "writing-map-method", "title": "地图的变化分类", "goal": "能辨认地图中的变化，并按区域或变化类型组织描述。", "skill": "写作", "exam": "雅思 IELTS Academic", "mastery": "once",
+ "points": [{"id": "change", "label": "辨认地图中的变化与保留项目"}, {"id": "organise", "label": "按区域或变化类型组织描述"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "写作地图课的内容与教学规格"}],
+ "cards": [
+  {"id": "type", "type": "text", "title": "题型", "body": [
+   {"p": "比较地图时先对齐方向和道路，再观察同一位置的设施。变化可分为新增、拆除、替换和保留。"},
+   {"box": "2010: field | road | shop\n2020: library | road | shop"},
+   {"p": "field 的位置变为 library，属于替换。road 和 shop 保留。概述写区域用途或道路连接的主要变化。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　对齐地图", "d": "先核对北向、道路和两个时点。只比较同一位置上的设施。"},
+   {"t": "2　分类变化", "d": "标出新增、拆除、替换和保留。原址由 field 变为 library 属于替换。"},
+   {"t": "3　选择概述", "d": "归纳区域功能或道路连接的主要变化。例如多块田地变为公共设施。"},
+   {"t": "4　组织细节", "d": "可按道路两侧分区，也可把新增设施归在一段。细节只写地图显示的信息。"}
+  ]},
+  {"id": "changes", "type": "table", "title": "变化分类", "cols": ["类型", "地图关系", "例句"], "rows": [
+   ["新增", "空地变为设施", "A café was added on vacant land."],
+   ["拆除", "设施原址变为空地", "The shed was removed."],
+   ["替换", "原址变为另一设施", "A library replaced the field."],
+   ["保留", "同一位置仍有该设施", "The road remained in place."]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [
+   {"box": "The maps show land near a railway station in 2000 and 2020. Compare the uses of the land on either side of the road and identify the features that remain. Summarise the principal changes and select details that describe the position of each feature in the two maps.\n\nN ↑          2000                    2020\nWest       yard | road | station   gallery | road | station       East\n           pond | road | depot     pond    | road | park"},
+   {"p": "西侧 yard 变为 gallery，东侧 depot 变为 park。road、pond 和 station 均保留。"},
+   {"p": "按区域组织时，先写西侧 gallery 和 pond，再写东侧 station 和 park。图中没有给出改建原因，描述中也不写原因。"}
+  ]},
+  {"id": "distractors", "type": "table", "title": "干扰项", "cols": ["错误", "地图依据", "例"], "rows": [
+   ["新增误作保留", "原址为空地", "The new café remained unchanged."],
+   ["替换方向颠倒", "library 取代 field", "The library became a field."],
+   ["位置混淆", "garden 位于道路东侧", "The garden was west of the road."],
+   ["增加用途推测", "地图未列出原因", "The library was built to attract tourists."]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["change", "organise"], "groups": [{"items": [
+   {"stem": "A vacant plot becomes a café. Which change is shown?", "options": ["A café is added on the plot.", "A café is removed from the plot.", "The plot replaces an existing café.", "The café remains on the same plot."], "answer": 0, "why": "原先为空地，后来有 café，属于新增。", "point": "change"},
+   {"stem": "A shed becomes vacant land. Which change is shown?", "options": ["The shed is extended over the land.", "The shed is removed from the site.", "A new shed is added on the land.", "The shed remains beside the land."], "answer": 1, "why": "原来的 shed 不再出现，原址为空地，属于拆除。", "point": "change"},
+   {"stem": "A garden replaces a yard west of a road; a shop remains east. Which grouping follows location?", "options": ["Garden and shop together as removed sites.", "Yard and shop together as new buildings.", "Garden and yard in a western section.", "Road and garden in an eastern section."], "answer": 2, "why": "yard 和取代它的 garden 都在道路西侧，可写进西侧一段，即第三项。", "point": "organise"},
+   {"stem": "A path stays in place and a bench is added. Which grouping follows change type?", "options": ["Both as structures that were removed.", "Both as features that were replaced.", "The bench with features that remained.", "The bench with features that were added."], "answer": 3, "why": "bench 是新增设施。按变化类型分组时，它与其他新增项目写在一起。", "point": "organise"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["change", "organise"], "groups": [{"text": "The maps show the same park before and after a proposed redevelopment. Compare the use of land to the west and east of the central path. Summarise the main changes and identify the facilities that will remain in their existing positions under the proposal.\n\nN ↑       Now                  Plan\nWest    lawn | path | pond   café | path | pond       East\n        tree | path | shed   tree | path | garden", "items": [
+   {"stem": "What is planned on the site of the shed?", "options": ["The existing pond will remain there.", "A garden will replace the shed.", "The central path will be removed.", "A café will replace the shed."], "answer": 1, "why": "东侧 shed 的原址在规划图中标为 garden。", "point": "change"},
+   {"stem": "Which pair belongs together in a description of the western area?", "options": ["The pond and the planned garden.", "The pond and the planned café.", "The café and the retained tree.", "The shed and the central path."], "answer": 2, "why": "规划图中 café 和 tree 都在 path 西侧。pond 在东侧，所以第二项不对。", "point": "organise"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["change", "organise"], "sets": [{"id": "set-a", "groups": [
+   {"text": "The maps show an area beside a road in 2000 and 2020. Compare the facilities on the two sides and describe the main changes in land use. Select details showing both new uses and features that stayed in their original positions throughout the period.\n\nN ↑         2000                  2020\nWest      field | road | shop   library | road | shop       East\n          pond  | road | shed   pond    | road | garden", "items": [
+    {"stem": "Which change occurred on the western side?", "options": ["A library replaced a field.", "A field replaced a library.", "A garden replaced a field.", "A shop replaced a shed."], "answer": 0, "why": "西侧同一位置 2000 年是 field，2020 年是 library。第一项写对了替换的方向。", "point": "change"},
+    {"stem": "Which pair would fit a paragraph about the eastern side in 2020?", "options": ["The field and the pond.", "The shop and the garden.", "The library and the pond.", "The shed and the field."], "answer": 1, "why": "2020 年道路东侧是 shop 和 garden。", "point": "organise"},
+    {"stem": "Complete a sentence about the western side.", "lead": "The field", "chunks": ["was", "replaced by", "a library in", "the west"], "tail": ".", "extra": ["by a garden"], "why": "西侧 field 原址变成 library；garden 在东侧。", "point": "change"},
+    {"stem": "Complete a sentence grouping the retained features.", "lead": "Both", "chunks": ["the pond and the shop", "remained in their", "original", "positions"], "tail": ".", "extra": ["were removed"], "why": "pond 和 shop 均在原位保留。", "point": "organise"}
+   ]},
+   {"text": "The maps show an industrial harbour at present and after a planned change. Compare the facilities on each side of the access road. Summarise the principal changes and identify the structures that are expected to stay in their current positions under the plan.\n\nN ↑        Present                     Plan\nWest     crane | road | dock     depot | road | dock       East\n         gate  | road | shed     gate  | road | store", "items": [
+    {"stem": "What is planned for the site of the crane?", "options": ["The crane will remain on the site.", "The dock will be extended over it.", "A depot will occupy the site.", "A store will occupy the site."], "answer": 2, "why": "规划图中 crane 原址标为 depot。", "point": "change"},
+    {"stem": "Which pair belongs in a paragraph on the eastern side?", "options": ["The crane and the retained gate.", "The depot and the retained gate.", "The road and the proposed depot.", "The dock and the proposed store."], "answer": 3, "why": "dock 和拟建 store 均位于道路东侧。", "point": "organise"},
+    {"stem": "Complete a sentence about the planned eastern change.", "lead": "The shed", "chunks": ["will be", "replaced by", "a store in", "the east"], "tail": ".", "extra": ["by a depot"], "why": "东侧 shed 原址规划为 store；depot 位于西侧。", "point": "change"},
+    {"stem": "Complete a sentence grouping the retained features.", "lead": "The retained features", "chunks": ["include", "the gate", "and the", "dock"], "tail": ".", "extra": ["the removed shed"], "why": "gate 和 dock 在规划图中仍位于原处。", "point": "organise"}
+   ]}
+  ]}]}
+ ]
+}

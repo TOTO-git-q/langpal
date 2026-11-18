@@ -1,0 +1,475 @@
+{
+ "id": "usage-cloze-emotions",
+ "title": "情感与评价词汇",
+ "goal": "根据事件与行为辨析人物的情感变化。",
+ "skill": "语言运用",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "meaning",
+   "label": "辨析情感评价词的含义"
+  },
+  {
+   "id": "change",
+   "label": "根据事件与行为判断情感变化"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语课程课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "教学内容与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "情感词写的是人物对事件的反应。选哪个情感词、情感怎样变化，要看事件的起因、人物的行动和结果。"
+    },
+    {
+     "box": "Mia was worried about her missing key. When she found it, she felt relieved."
+    },
+    {
+     "p": "钥匙丢失引起担忧，找到钥匙后担忧消失。relieved 表示担忧解除后的释然。"
+    }
+   ]
+  },
+  {
+   "id": "worry",
+   "type": "table",
+   "title": "词汇表：担忧",
+   "cols": [
+    "词",
+    "词义",
+    "例"
+   ],
+   "rows": [
+    [
+     "anxious / anxiously",
+     "焦虑的 / 焦虑地",
+     "She was anxious about the delay. / She waited anxiously for news."
+    ],
+    [
+     "worried / nervous",
+     "担心的 / 紧张的",
+     "He was worried about the storm. / She was nervous before speaking."
+    ],
+    [
+     "uneasy / concerned",
+     "不安的 / 担忧的",
+     "He felt uneasy about the noise. / She was concerned about the leak."
+    ],
+    [
+     "apprehensive / fearful",
+     "忧虑的 / 害怕的",
+     "She was apprehensive about the journey. / He was fearful of falling."
+    ],
+    [
+     "alarmed / troubled",
+     "惊恐的 / 忧虑的",
+     "The sudden smoke left her alarmed. / He was troubled by the mistake."
+    ]
+   ]
+  },
+  {
+   "id": "disappointment",
+   "type": "table",
+   "title": "词汇表：失望",
+   "cols": [
+    "词",
+    "词义",
+    "例"
+   ],
+   "rows": [
+    [
+     "disappointed / sadly",
+     "失望的 / 难过地",
+     "She was disappointed by the cancellation. / He looked sadly at the empty shelf."
+    ],
+    [
+     "frustrated / discouraged",
+     "沮丧的 / 灰心的",
+     "He was frustrated by the jammed lock. / She felt discouraged after several failures."
+    ],
+    [
+     "upset / unhappy",
+     "难过的 / 不高兴的",
+     "She was upset by the news. / He was unhappy with the delay."
+    ],
+    [
+     "dissatisfied / disheartened",
+     "不满意的 / 泄气的",
+     "She was dissatisfied with the repair. / He was disheartened by the setback."
+    ],
+    [
+     "regretful / sad",
+     "后悔的 / 悲伤的",
+     "He was regretful about his words. / She was sad when the visit ended."
+    ]
+   ]
+  },
+  {
+   "id": "relief",
+   "type": "table",
+   "title": "词汇表：释然",
+   "cols": [
+    "词",
+    "词义",
+    "例"
+   ],
+   "rows": [
+    [
+     "relieved / comfortable",
+     "释然的 / 舒适的",
+     "She was relieved to find the key. / He felt comfortable once the noise stopped."
+    ],
+    [
+     "reassured / comforted",
+     "安心的 / 得到安慰的",
+     "The doctor's explanation left her reassured. / He felt comforted by her words."
+    ],
+    [
+     "calm / relaxed",
+     "平静的 / 放松的",
+     "She felt calm after hearing the result. / He was relaxed after the long journey."
+    ],
+    [
+     "glad / pleased",
+     "高兴的 / 满意的",
+     "She was glad the parcel arrived. / He was pleased with the repaired chair."
+    ],
+    [
+     "thankful / grateful",
+     "感激的 / 感谢的",
+     "She was thankful for the help. / He was grateful to his guide."
+    ]
+   ]
+  },
+  {
+   "id": "confidence",
+   "type": "table",
+   "title": "词汇表：自信",
+   "cols": [
+    "词",
+    "词义",
+    "例"
+   ],
+   "rows": [
+    [
+     "confident / confidently",
+     "自信的 / 自信地",
+     "She felt confident after practice. / He spoke confidently after rehearsing."
+    ],
+    [
+     "sure / assured",
+     "确信的 / 确信的",
+     "She was sure of the answer. / He felt assured of their support."
+    ],
+    [
+     "hopeful / optimistic",
+     "抱有希望的 / 乐观的",
+     "She was hopeful about the repair. / He was optimistic about the plan."
+    ],
+    [
+     "determined / determinedly",
+     "坚定的 / 坚定地",
+     "She was determined to finish. / He continued determinedly after the delay."
+    ],
+    [
+     "proud / self-assured",
+     "自豪的 / 自信的",
+     "She was proud of her progress. / He appeared self-assured during the talk."
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "meaning",
+    "change"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The trip was canceled, and Mei felt unhappy because she had looked forward to it. She was ___ .",
+       "options": [
+        "relieved",
+        "disappointed",
+        "self-assured",
+        "reassured"
+       ],
+       "answer": 1,
+       "why": "looked forward to it 而活动取消，说明她感到失望。",
+       "point": "meaning"
+      },
+      {
+       "stem": "Tao feared his bag was lost. When he found it, his worry disappeared. He felt ___.",
+       "options": [
+        "anxious",
+        "discouraged",
+        "relieved",
+        "fearful"
+       ],
+       "answer": 2,
+       "why": "找到包后担忧消失，说明他感到释然。",
+       "point": "change"
+      },
+      {
+       "stem": "Lena was concerned that she might miss the bus. She waited ___ for it.",
+       "options": [
+        "confidently",
+        "gladly",
+        "proudly",
+        "anxiously"
+       ],
+       "answer": 3,
+       "why": "concerned that she might miss the bus 说明她焦虑地等待。",
+       "point": "meaning"
+      },
+      {
+       "stem": "After rehearsing, Amir believed he could deliver the speech. He felt ___.",
+       "options": [
+        "confident",
+        "discouraged",
+        "alarmed",
+        "disappointed"
+       ],
+       "answer": 0,
+       "why": "believed he could deliver the speech 表示练习后的自信。",
+       "point": "change"
+      },
+      {
+       "stem": "The explanation answered her concerns. Before it she was worried; afterward she was ___.",
+       "options": [
+        "fearful",
+        "reassured",
+        "troubled",
+        "uneasy"
+       ],
+       "answer": 1,
+       "why": "answered her concerns 说明解释使她安心。",
+       "point": "change"
+      },
+      {
+       "stem": "After repeated failures, he felt he might never succeed. He was ___.",
+       "options": [
+        "optimistic",
+        "confident",
+        "discouraged",
+        "relieved"
+       ],
+       "answer": 2,
+       "why": "repeated failures 和 might never succeed 表示灰心。",
+       "point": "meaning"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "meaning",
+    "change"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Sudden smoke entered the room, and she feared a fire. She was ___.",
+       "options": [
+        "pleased",
+        "calm",
+        "hopeful",
+        "alarmed"
+       ],
+       "answer": 3,
+       "why": "sudden smoke 和 feared a fire 表示受到惊吓。",
+       "point": "meaning"
+      },
+      {
+       "stem": "Nora thanked the neighbor who helped her carry the bags. She was ___ for the help.",
+       "options": [
+        "grateful",
+        "dissatisfied",
+        "frustrated",
+        "nervous"
+       ],
+       "answer": 0,
+       "why": "thanked the neighbor 表示感激帮助。",
+       "point": "meaning"
+      },
+      {
+       "stem": "The first repair failed and Jin felt discouraged. After the next attempt worked, she was ___.",
+       "options": [
+        "disheartened",
+        "pleased",
+        "apprehensive",
+        "upset"
+       ],
+       "answer": 1,
+       "why": "the next attempt worked 说明第二次修好了。Jin 由灰心转为满意，填 pleased。",
+       "point": "change"
+      },
+      {
+       "stem": "He regretted the unkind words he had said. He felt ___ about them.",
+       "options": [
+        "assured",
+        "optimistic",
+        "regretful",
+        "relaxed"
+       ],
+       "answer": 2,
+       "why": "regretted the unkind words 说明他后悔，regretful 就是后悔的。",
+       "point": "meaning"
+      },
+      {
+       "stem": "The coach's explanation answered her fears. She became ___ about the exercise.",
+       "options": [
+        "alarmed",
+        "troubled",
+        "uneasy",
+        "reassured"
+       ],
+       "answer": 3,
+       "why": "answered her fears 说明讲解使她安心。",
+       "point": "change"
+      },
+      {
+       "stem": "After many attempts, Ali still chose to continue until the work was done. He was ___ to finish.",
+       "options": [
+        "determined",
+        "fearful",
+        "disappointed",
+        "uneasy"
+       ],
+       "answer": 0,
+       "why": "chose to continue until the work was done 表示决心完成。",
+       "point": "change"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "meaning",
+    "change"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "fill": "Lia prepared a talk for her class. She was anx{ious} beforehand and wor{ried} that she might forget her notes. Her first practice went badly, leaving her disapp{ointed} and disco{uraged}. Her teacher offered advice, and Lia felt reas{sured} by the explanation. After practicing again, she was more conf{ident} in her preparation and hop{eful} about the talk. When she finished without forgetting, she was reli{eved} that her fear had passed. She was gl{ad} to thank her teacher and pr{oud} of her progress.",
+       "tags": [
+        "meaning",
+        "meaning",
+        "change",
+        "change",
+        "change",
+        "change",
+        "meaning",
+        "change",
+        "meaning",
+        "meaning"
+       ]
+      },
+      {
+       "items": [
+        {
+         "stem": "Jo feared her key was lost, but she found it. Her worry disappeared and she felt ___.",
+         "options": [
+          "relieved",
+          "alarmed",
+          "anxious",
+          "uneasy"
+         ],
+         "answer": 0,
+         "why": "found it 后 worry disappeared，表示释然。",
+         "point": "change"
+        },
+        {
+         "stem": "The game was canceled after Tom had eagerly prepared for it. He felt unhappy about the cancellation: he was ___.",
+         "options": [
+          "reassured",
+          "disappointed",
+          "confident",
+          "relaxed"
+         ],
+         "answer": 1,
+         "why": "eagerly prepared 说明 Tom 很期待这场比赛。比赛取消，他感到失望。",
+         "point": "meaning"
+        },
+        {
+         "stem": "After rehearsing, Mei believed she could perform the song. She now felt ___.",
+         "options": [
+          "discouraged",
+          "alarmed",
+          "confident",
+          "dissatisfied"
+         ],
+         "answer": 2,
+         "why": "believed she could perform 表示练习后有信心。",
+         "point": "change"
+        },
+        {
+         "stem": "Ben feared that the train would leave before he arrived. He waited ___ for news of the delay.",
+         "options": [
+          "proudly",
+          "confidently",
+          "calmly",
+          "anxiously"
+         ],
+         "answer": 3,
+         "why": "feared that the train would leave 表示焦虑等待消息。",
+         "point": "meaning"
+        },
+        {
+         "stem": "The guide answered Ava's concerns about the route. She felt ___ after hearing the explanation.",
+         "options": [
+          "reassured",
+          "troubled",
+          "fearful",
+          "uneasy"
+         ],
+         "answer": 0,
+         "why": "answered Ava's concerns 说明解释消除了担忧。",
+         "point": "change"
+        },
+        {
+         "stem": "Kai kept working despite setbacks because he had decided firmly to finish. He was ___.",
+         "options": [
+          "discouraged",
+          "determined",
+          "dissatisfied",
+          "apprehensive"
+         ],
+         "answer": 1,
+         "why": "decided firmly to finish 对应 determined。",
+         "point": "meaning"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

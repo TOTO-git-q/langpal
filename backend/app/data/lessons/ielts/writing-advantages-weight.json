@@ -1,0 +1,56 @@
+{
+ "id": "writing-advantages-weight", "title": "利弊权衡的表达", "goal": "能按统一尺度比较利益与代价并表达判断。", "skill": "写作", "exam": "雅思 IELTS Academic", "mastery": "once",
+ "points": [{"id": "criterion", "label": "按统一尺度比较利益与代价"}, {"id": "evaluate", "label": "选择有依据的权衡表达"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "利弊权衡的内容和教学规格"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "权衡时，先用同一个尺度比较利益和代价，再给出总体判断。常用的尺度有三种：影响范围、持续时间和可逆程度。"}, {"box": "The benefit reaches most residents, whereas the inconvenience affects only a small group."}, {"p": "例句的尺度是受影响的人数。下结论时还要说明，为什么人数的多少决定哪一方更重要。"}]},
+  {"id": "criteria", "type": "table", "title": "比较尺度", "cols": ["尺度", "比较", "例句"], "rows": [
+   ["影响范围", "多数居民与少数居民", "The benefit reaches most residents, while the inconvenience affects a few."],
+   ["影响范围", "多个学校与一所学校", "The new service helps several schools, but the closure affects one school."],
+   ["影响范围", "多数乘客与部分司机", "Most passengers save time, whereas some drivers face a longer route."],
+   ["持续时间", "长期节约与短期成本", "Long-term savings may outweigh the initial cost."],
+   ["持续时间", "持续机会与暂时中断", "The service offers lasting access after a brief interruption."]
+  ]},
+  {"id": "reversibility", "type": "table", "title": "持续时间与可逆程度", "cols": ["尺度", "比较", "例句"], "rows": [
+   ["持续时间", "多年效益与一次支出", "The benefit continues for years, whereas the payment is made once."],
+   ["可逆程度", "可调整安排与永久损失", "A timetable can be revised, whereas a demolished building cannot be restored in its original form."],
+   ["可逆程度", "可取消试点与固定建设", "A trial can be stopped, while a completed building is harder to reverse."],
+   ["可逆程度", "暂时关闭与永久拆除", "A temporary closure can be reversed, but demolition permanently removes the structure."]
+  ]},
+  {"id": "phrases", "type": "table", "title": "常用表达", "cols": ["表达", "含义", "例句"], "rows": [
+   ["outweigh", "重要性超过", "The savings outweigh the initial cost."], ["be outweighed by", "被超过", "The cost is outweighed by the savings."],
+   ["at the expense of", "以损失某物为代价", "The extension gains space at the expense of the garden."], ["come at a cost", "伴随代价", "The extra access comes at a cost to staff time."],
+   ["benefit from", "从中受益", "Residents benefit from longer opening hours."], ["result in", "导致", "The change results in a longer walk."]
+  ]},
+  {"id": "judgement", "type": "table", "title": "权衡表达", "cols": ["表达", "含义", "例句"], "rows": [
+   ["on balance", "综合权衡", "On balance, the benefit is greater."], ["a lasting benefit", "持久的利益", "The scheme provides a lasting benefit."],
+   ["a temporary drawback", "暂时的缺点", "The closure is a temporary drawback."], ["a wider impact", "更广的影响", "The service has a wider impact across the town."],
+   ["offset the cost", "抵消成本", "Future savings may offset the cost."], ["a greater burden", "更大的负担", "The longer journey places a greater burden on some residents."]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [{"box": "A council can convert an unused building into a shared workshop. The work would require a one-off payment, but the workshop could serve residents for many years. The council must also consider whether the building could be returned to its original use. Assess the advantages and disadvantages of the proposed conversion.\n\nThe one-off cost is substantial, but the workshop may provide access for many years. On balance, the lasting benefit can outweigh the initial expense if demand remains sufficient."}, {"p": "例段用持续时间作尺度，比较一次支出和多年使用。判断带有条件：需求要一直足够。"}]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["criterion", "evaluate"], "groups": [{"items": [
+   {"stem": "One scheme benefits most residents but inconveniences a few. Which shared criterion compares these effects?", "options": ["The number of people affected by each effect.", "The length of time each effect is expected to last.", "The ease of reversing the scheme if it fails.", "The cost of the scheme compared with its savings."], "answer": 0, "why": "most residents 和 a few 说的都是受影响的人数，尺度是影响范围，即第一项。", "point": "criterion"},
+   {"stem": "A scheme costs money once and saves money for years. Which sentence evaluates the effects using duration?", "options": ["The payment and the expected annual savings each occur only once.", "The lasting savings may outweigh the initial expense.", "The savings disappear before the one-off payment.", "The payment lasts longer because savings are annual."], "answer": 1, "why": "lasting savings 对 initial expense，用持续时间比较两者。may outweigh 给出有保留的总体判断，即第二项。", "point": "evaluate"},
+   {"stem": "A trial can be stopped; a completed building is harder to reverse. What is compared?", "options": ["The number of people using each proposed building.", "The time needed to complete each building.", "The ease of reversing each proposed change.", "The total cost of each proposed change."], "answer": 2, "why": "can be stopped 和 harder to reverse 说的都是能否恢复原状，尺度是可逆程度，即第三项。", "point": "criterion"},
+   {"stem": "A building extension adds space but removes a garden. Which sentence states the trade-off?", "options": ["The garden is kept at the expense of the extra space.", "The garden adds space by preventing the extension.", "The extension removes the garden without gaining space.", "The extension gains space at the expense of the garden."], "answer": 3, "why": "at the expense of 表示得到空间的代价是失去花园，即第四项。", "point": "evaluate"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["criterion", "evaluate"], "groups": [{"items": [
+   {"stem": "A temporary closure can be reversed, but demolition permanently removes a building. Which criterion is shared?", "options": ["The number of residents who visit the building each day.", "The extent to which each change can be reversed.", "The length of time each change takes to carry out.", "The cost of closing compared with demolishing."], "answer": 1, "why": "can be reversed 和 permanently removes 都在说能否恢复原状，即第二项。", "point": "criterion"},
+   {"stem": "A benefit reaches many residents, while a drawback affects a few. Which judgement follows that evidence without claiming certainty?", "options": ["The broader benefit will certainly outweigh the drawback in every case.", "The narrower drawback may carry more weight than the broader benefit.", "The broader benefit may carry more weight than the narrower drawback.", "The benefit disappears because the drawback affects a few residents."], "answer": 2, "why": "many residents 和 a few 是影响范围的对比，第三项用 may 给出有保留的判断。第一项用 certainly 和 in every case，说得过满。", "point": "evaluate"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["criterion", "evaluate"], "sets": [{"id": "set-a", "groups": [
+   {"text": "A town plans to convert an empty building into a workshop. The conversion requires a single payment, while the workshop could serve residents for many years. The town expects the benefit to continue only if enough people use it. Consider whether the expected advantage justifies the expense.", "items": [
+    {"stem": "Which criterion compares the payment and benefit as described?", "options": ["The duration of the payment and of the benefit.", "The number of residents who would use the workshop each year.", "The ease of reversing the conversion later.", "The amount of the payment and of the benefit."], "answer": 0, "why": "single payment 和 for many years 是时间长短的对比，尺度是持续时间，即第一项。", "point": "criterion"},
+    {"stem": "Which judgement follows the stated evidence and condition?", "options": ["The lasting benefit will outweigh the cost whether or not people use it.", "The lasting benefit may outweigh the cost if demand continues.", "The payment is annual and the benefit lasts only one day.", "The cost may outweigh the benefit because the payment is made only once."], "answer": 1, "why": "题面说 continue only if enough people use it。第二项用 may 和 if demand continues 保留了这个条件，第一项去掉了条件。", "point": "evaluate"},
+    {"stem": "Complete the duration comparison.", "lead": "The payment", "chunks": ["is made once,", "while the benefit", "may continue", "for years"], "tail": ".", "extra": ["continuing"], "why": "一次付款和多年效益以时间长度作比较。", "point": "criterion"},
+    {"stem": "Complete a qualified judgement about the two effects.", "lead": "The lasting benefit", "chunks": ["may outweigh", "the initial cost", "if demand", "remains sufficient"], "tail": ".", "extra": ["outweighing"], "why": "may outweigh 表达有条件的权衡，if 从句保留需求条件。", "point": "evaluate"}
+   ]},
+   {"text": "A council is considering two ways to use a historic building. A temporary closure can be reversed if the plan changes, whereas demolition would permanently remove the structure. A new public space could be built after demolition. The council must consider both the new space and the loss of the building.", "items": [
+    {"stem": "Which comparison uses reversibility?", "options": ["Demolition can be reversed, whereas closure would permanently remove the structure.", "The new space could be built after demolition but not after closure.", "Closure can be reversed, while demolition permanently removes the structure.", "Closure can be reversed, and demolition can also be undone later."], "answer": 2, "why": "can be reversed 和 would permanently remove 是可逆程度的对比，即第三项。", "point": "criterion"},
+    {"stem": "Which sentence expresses the stated trade-off?", "options": ["Demolition would keep the building and remove the proposed space.", "A temporary closure would make room for the new public space on the site.", "The new space could be built while the historic building is kept.", "The new space would come at the expense of the historic building."], "answer": 3, "why": "A new public space could be built after demolition：得到新空间，就要失去历史建筑。第四项用 at the expense of 表达这一代价。", "point": "evaluate"},
+    {"stem": "Complete the comparison of reversibility.", "lead": "Temporary closure", "chunks": ["can be reversed,", "whereas demolition", "permanently removes", "the building"], "tail": ".", "extra": ["reversing"], "why": "该句比较关闭可恢复和拆除造成的永久损失。", "point": "criterion"},
+    {"stem": "Complete the statement of the trade-off.", "lead": "The new space", "chunks": ["would come", "at the expense", "of the historic", "building"], "tail": ".", "extra": ["coming"], "why": "at the expense of 引出为新空间付出的建筑损失。", "point": "evaluate"}
+   ]}
+  ]}]} 
+ ]
+}

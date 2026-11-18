@@ -1,0 +1,53 @@
+{
+ "id": "reading-banked-context",
+ "title": "上下文的语义线索",
+ "goal": "利用话题复现与句间逻辑确定空缺词义。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "repeat", "label": "利用话题与同义复现确定词义"},
+  {"id": "logic", "label": "利用句间逻辑筛选候选词"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读任务及材料范围"}],
+ "cards": [
+  {"id": "intro", "type": "text", "title": "概述", "body": [
+   {"p": "几个候选词语法上都成立时，比较它们与上下文的意思。依据常在空位的前一句或后一句。"},
+   {"p": "话题词和同义表达提供内容线索；对比、因果与举例提供句间关系线索。"}
+  ]},
+  {"id": "repetition", "type": "table", "title": "话题与同义复现", "cols": ["线索", "语境", "判断"], "rows": [
+   ["话题：储水", "The tanks hold rainwater. They ___ water for dry months.", "store 与 tanks、rainwater 对应"],
+   ["话题：交通", "The buses stop at each village. This ___ links residents to town.", "service 指公共交通服务"],
+   ["同义解释", "The path is steep. Its sharp ___ makes cycling difficult.", "incline 对应 steep"],
+   ["同义解释", "The room is silent. This ___ helps readers concentrate.", "quiet 对应 silent"]
+  ]},
+  {"id": "relations", "type": "table", "title": "对比、因果与举例", "cols": ["线索", "语境", "判断"], "rows": [
+   ["对比", "The old route was long. However, the new one is ___.", "short 与 long 相对"],
+   ["对比", "The first sample was dry; the second, in contrast, was ___.", "wet 与 dry 相对"],
+   ["因果", "The path was icy. As a result, walking was ___.", "dangerous 符合结冰的结果"],
+   ["因果", "The tank leaked, so the water level ___.", "fell 符合漏水的结果"],
+   ["举例", "The garden attracted several ___. Bees and butterflies visited it.", "insects 概括所列例子"],
+   ["举例", "The shop sells tools, such as hammers and ___.", "saws 与 hammers 同属工具"]
+  ], "note": "线索确定词义的大致范围。选定后再核对词性和搭配。"},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["repeat"], "groups": [{"items": [
+   {"stem": "The shelves hold books for loan. The ___ is open on weekdays. Which word completes the second sentence?", "options": ["library", "shelf", "loan", "book"], "answer": 0, "why": "books for loan 提示讨论借书场所，library 与话题对应。", "point": "repeat"},
+   {"stem": "The instructions are clear and easy to follow. Their ___ helps new staff. Which word completes the second sentence?", "options": ["length", "clarity", "expense", "delay"], "answer": 1, "why": "clarity 与前句的 clear 对应。", "point": "repeat"}
+  ]}]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["logic"], "groups": [{"items": [
+   {"stem": "The first road is wide, but the second is ___. Which word completes the sentence?", "options": ["busy", "paved", "narrow", "long"], "answer": 2, "why": "but 表示对比；narrow 与 wide 相对。", "point": "logic"},
+   {"stem": "The full container was sealed, so its liquid could not ___ through the lid. Which word completes the sentence?", "options": ["enter", "settle", "collect", "escape"], "answer": 3, "why": "sealed 与 so 支持容器内的液体无法逸出，即 escape。", "point": "logic"}
+  ]}]},
+  {"id": "check-three", "type": "check", "title": "练习三", "points": ["repeat", "logic"], "groups": [{"items": [
+   {"stem": "The surface has many small holes. These ___ allow air to pass through. Which word completes the second sentence?", "options": ["openings", "covers", "surfaces", "barriers"], "answer": 0, "why": "openings 与前句的 small holes 对应。", "point": "repeat"},
+   {"stem": "The menu lists several grains, including rice and ___. Which word completes the sentence?", "options": ["milk", "wheat", "fruit", "cheese"], "answer": 1, "why": "including 后是谷物的例子，wheat 与 rice 同属谷物。", "point": "logic"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["repeat", "logic"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A town archive keeps old letters in protective folders. Each folder has a number, and a list records where it is stored. This ___ helps staff find a letter without searching every shelf.", "items": [{"stem": "Which word completes the passage?", "options": ["shelf", "letter", "system", "folder"], "answer": 2, "why": "编号和记录存放位置共同组成 system，说明如何找到信件。", "point": "repeat"}]},
+   {"look": "passage", "text": "The speaker used simple words and short sentences. This ___ made the explanation easier for the audience to follow.", "items": [{"stem": "Which word completes the passage?", "options": ["audience", "length", "difficulty", "simplicity"], "answer": 3, "why": "simplicity 概括 simple words and short sentences。", "point": "repeat"}]},
+   {"look": "passage", "text": "The garden has a fence to keep animals away from young plants. The ___ also has a gate through which gardeners can enter.", "items": [{"stem": "Which word completes the passage?", "options": ["barrier", "plant", "gate", "animal"], "answer": 0, "why": "barrier 与前句的 fence 对应，后句继续说明围栏。", "point": "repeat"}]},
+   {"look": "passage", "text": "One container lets light pass through, but the other blocks it. The second container is ___.", "items": [{"stem": "Which word completes the passage?", "options": ["transparent", "opaque", "open", "empty"], "answer": 1, "why": "blocks light 表示不透光；opaque 与前面透光的容器形成对比。", "point": "logic"}]},
+   {"look": "passage", "text": "The road was closed after a bridge inspection. As a result, drivers had to take a longer ___.", "items": [{"stem": "Which word completes the passage?", "options": ["bridge", "inspection", "route", "closure"], "answer": 2, "why": "道路关闭导致司机绕行；longer route 表示更长的路线。", "point": "logic"}]},
+   {"look": "passage", "text": "The workshop uses several measuring instruments. For example, a ruler measures length and a scale measures ___.", "items": [{"stem": "Which word completes the passage?", "options": ["length", "distance", "width", "weight"], "answer": 3, "why": "scale 与 ruler 是测量工具的例子；scale 可测量 weight。", "point": "logic"}]}
+  ]}]}
+ ]
+}

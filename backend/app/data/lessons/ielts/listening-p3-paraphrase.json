@@ -1,0 +1,76 @@
+{
+ "id": "listening-p3-paraphrase",
+ "title": "口头表达的同义改写",
+ "goal": "识别口头表达的同义改写，并核对对象与逻辑关系。",
+ "skill": "听力",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [{"id": "equivalent", "label": "识别口头表达与选项的同义关系"}, {"id": "relation", "label": "核对改写中的对象和逻辑关系"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "口头表达的改写与教学规格"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "选项常用别的词语转述录音里的话。判断是否同义时，还要核对三点：谁做的，对谁做的，谁导致谁。"}, {"box": "The tutor commented on the draft. → The tutor gave feedback on the draft.\nThe draft led to a discussion. → The discussion arose from the draft."}, {"p": "第一组换了动词。第二组换了句式，仍然是草稿引起讨论。"}]},
+  {"id": "synonym", "type": "table", "title": "同义替换", "cols": ["口头表达", "选项改写", "对应关系"], "rows": [
+   ["The tutor commented on the draft.", "The tutor gave feedback on the draft.", "commented 对应 gave feedback"],
+   ["The students selected a topic.", "The students chose a topic.", "selected 对应 chose"],
+   ["The tutor suggested a shorter survey.", "The tutor proposed a shorter survey.", "suggested 对应 proposed"],
+   ["The student checked the references.", "The student reviewed the references.", "checked 对应 reviewed"]
+  ], "note": "同义词要放在语境里判断。改写后，动作的对象不变。"},
+  {"id": "category", "type": "table", "title": "词性转换", "cols": ["口头表达", "选项改写", "对应关系"], "rows": [
+   ["They analysed the responses.", "They carried out an analysis of the responses.", "动词转名词"],
+   ["The students compared the methods.", "The students made a comparison of the methods.", "动词转名词"],
+   ["The tutor approved the plan.", "The tutor gave approval for the plan.", "动词转名词"],
+   ["The students revised the report.", "The students made revisions to the report.", "动词转名词"]
+  ], "note": "改写后的意思，由名词前的动词和 of、to、for 后面的对象一起决定。"},
+  {"id": "negative", "type": "table", "title": "否定转肯定", "cols": ["口头表达", "选项改写", "对应关系"], "rows": [
+   ["The room isn't available.", "The room is unavailable.", "否定可用转为不可用"],
+   ["The draft isn't complete.", "The draft is incomplete.", "否定完成转为未完成"],
+   ["The two samples aren't identical.", "The two samples differ.", "否定相同转为存在差异"],
+   ["The student didn't attend the seminar.", "The student was absent from the seminar.", "否定出席转为缺席"]
+  ], "note": "否定的范围不能变。not all 是有些不是，none 是全都不是。"},
+  {"id": "general", "type": "table", "title": "具体到概括", "cols": ["口头表达", "选项改写", "对应关系"], "rows": [
+   ["Students mark key points and write notes in the margin.", "Students annotate the text.", "标记与写批注概括为注释"],
+   ["The tutor asks students what they think and records their replies.", "The tutor collects students' opinions.", "提问和记录概括为收集意见"],
+   ["The team counts how many replies mention each issue.", "The team measures the frequency of each issue in replies.", "计数概括为衡量出现频率"],
+   ["The student corrects the citations and adds missing sources.", "The student revises the references.", "修改引文与补充来源概括为修订参考文献"]
+  ], "note": "概括要包含原来的全部信息。对象不扩大，因果不改变。"},
+  {"id": "example", "type": "text", "title": "例题", "body": [{"box": "Student: I checked the references, and that helped me find two missing sources.\nTutor: Good. Add them to the report before sending the draft."}, {"box": "What did checking the references help the student do?\n1. Find two missing sources\n2. Ask the tutor to check a draft\n3. Remove two completed references\n4. Send a report before the check"}, {"p": "依据是 that helped me find two missing sources。检查参考文献之后，学生找到了两个缺失的来源，即第一项。把缺失的来源说成检查的原因，就颠倒了因果。"}]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["equivalent", "relation"], "groups": [
+   {"audio": {"intro": "Listen to a discussion.", "lines": [{"who": "A", "text": "The tutor gave feedback on our draft."}, {"who": "B", "text": "Then we can revise it."}]}, "items": [{"stem": "What did the tutor do?", "options": ["Commented on the students' draft", "Revised the tutor's draft", "Received feedback from students", "Sent the revised draft to students"], "answer": 0, "why": "依据是 The tutor gave feedback on our draft。gave feedback on 改写成 commented on，做这件事的是导师，即第一项。", "point": "equivalent"}]},
+   {"audio": {"intro": "Listen to a discussion.", "lines": [{"who": "A", "text": "We analysed the replies."}, {"who": "B", "text": "I'll add the results to the report."}]}, "items": [{"stem": "What have the students done?", "options": ["Written the replies that were analysed", "Carried out an analysis of the replies", "Added the analysis results to the report", "Asked for an analysis of the replies"], "answer": 1, "why": "依据是 We analysed the replies。动词 analysed 改写成名词 an analysis，即第二项。把结果写进报告是之后的事。", "point": "equivalent"}]},
+   {"audio": {"intro": "Listen to a discussion.", "lines": [{"who": "A", "text": "The room isn't available on Friday."}, {"who": "B", "text": "Then we'll meet on Monday."}]}, "items": [{"stem": "What is true about Friday?", "options": ["The meeting is moved to Friday.", "The room is available that day.", "The room is unavailable that day.", "The meeting will be held in the room."], "answer": 2, "why": "依据是 The room isn't available on Friday。isn't available 改写成 unavailable，即第三项。会议改到了周一。", "point": "equivalent"}]},
+   {"audio": {"intro": "Listen to a discussion.", "lines": [{"who": "A", "text": "The small sample led us to revise the conclusion."}, {"who": "B", "text": "I'll explain that change in the report."}]}, "items": [{"stem": "What caused the conclusion to be revised?", "options": ["The explanation in the report", "The revised conclusion itself", "A sample larger than planned", "The limited size of the sample"], "answer": 3, "why": "依据是 The small sample led us to revise the conclusion。样本小是修改结论的原因，即第四项。报告里的说明是修改之后才写的。", "point": "relation"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["equivalent", "relation"], "groups": [{"audio": {"intro": "Listen to a discussion.", "lines": [{"who": "A", "text": "The tutor suggested comparing two seminars."}, {"who": "B", "text": "Yes, and the comparison showed that students asked more questions in the second seminar."}, {"who": "A", "text": "That result made us revise our explanation."}, {"who": "B", "text": "I'll describe the comparison and the revised explanation in the report."}]}, "items": [
+   {"stem": "What did the tutor propose?", "options": ["A comparison between two seminars", "A revision to the second seminar", "A revised explanation of the result", "A report on the second seminar only"], "answer": 0, "why": "依据是 The tutor suggested comparing two seminars。suggested comparing 改写成 proposed a comparison，即第一项。修改解释是学生后来做的。", "point": "equivalent"},
+   {"stem": "What caused the students to revise their explanation?", "options": ["The description in their report", "What the seminar comparison showed", "Fewer questions in the second seminar", "The revision of the second seminar"], "answer": 1, "why": "依据是 That result made us revise our explanation。that result 指比较两次研讨课得到的结果，即第二项。第三项与结果相反：第二次研讨课的提问更多。", "point": "relation"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["equivalent", "relation"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to a discussion.", "lines": [
+    {"who": "A", "text": "I'm preparing the report on how students use reading lists. I asked a small group which sources they looked at first and wrote down their replies. Their answers suggest that they often start with the titles recommended during seminars rather than choosing from the whole list."},
+    {"who": "B", "text": "So you've collected their opinions about where they begin. Did you also ask why they choose those titles? The tutor's recommendations might be important, but the length of the sources could influence the decision too."},
+    {"who": "A", "text": "I didn't ask about length in the first discussion. The tutor commented on my draft questions yesterday and suggested adding one about how much reading time students have. I'll ask that when I speak to the next group."},
+    {"who": "B", "text": "That sounds useful. Keep the first group's answers separate from the second group's responses, because the questions won't be identical. You can compare the two groups, but explain the difference in the report."},
+    {"who": "A", "text": "The tutor's feedback led me to change the questions, so I'll include that reason when I describe the method. I'll also report which question was added and when it was introduced."},
+    {"who": "B", "text": "Good. Once you've gathered the second set of answers, we can review both sets together and decide how to organise the results."}
+   ]}, "items": [
+    {"stem": "What has the student done with the first group's answers?", "options": ["Recorded which sources they use first", "Asked them why they chose those titles", "Asked them about their reading time", "Compared them with the second group's"], "answer": 0, "why": "依据是 I asked a small group which sources they looked at first and wrote down their replies。提问加记录，概括为记下他们先用哪些资料，即第一项。为什么选和阅读时间都还没有问。", "point": "equivalent"},
+    {"stem": "What caused the student to change the questions?", "options": ["The first group's choice of titles", "The tutor's comments on the draft", "The difference between the two groups", "The length of the recommended sources"], "answer": 1, "why": "依据是 The tutor's feedback led me to change the questions。feedback 对应 comments，导师的意见是改问题的原因，即第二项。", "point": "relation"}
+   ]},
+   {"audio": {"intro": "Listen to a discussion.", "lines": [
+    {"who": "A", "text": "For the project on feedback, I compared comments on the first draft with comments on the final draft. I counted how many comments in each set concerned structure and how many concerned the use of sources. The two sets aren't identical: the final draft received fewer comments about structure."},
+    {"who": "B", "text": "That difference is interesting, but the number of comments alone won't explain why it occurred. Did you ask the reviewers whether they thought the structure had improved? Their reasons might help you interpret the count."},
+    {"who": "A", "text": "Not yet. I had planned to interview the reviewers on Friday, but the room isn't available then. I'll arrange another time. In the meantime, I can make a chart showing the two counts for each category."},
+    {"who": "B", "text": "That would be clear. Please label the first and final drafts carefully, so readers can tell which count belongs to each. A chart that reverses those labels would change the result entirely."},
+    {"who": "A", "text": "I'll check the labels against my notes. The difference between the sets led me to plan the interviews; I want to understand the change before writing the conclusion."},
+    {"who": "B", "text": "Once you've interviewed the reviewers, we can discuss whether their explanations fit the pattern shown in the chart."}
+   ]}, "items": [
+    {"stem": "How did the numbers of comments about structure differ?", "options": ["The first draft received fewer than the final draft.", "The final draft received fewer than the first draft.", "Both drafts received exactly the same number.", "Neither draft received comments about structure."], "answer": 1, "why": "依据是 the final draft received fewer comments about structure。关于结构的意见，定稿比初稿少，即第二项。第一项把两稿的位置换了。", "point": "relation"},
+    {"stem": "Why will the interviews take place at another time?", "options": ["The reviewers aren't available on Friday.", "The chart must be finished first.", "The room is unavailable on Friday.", "The labels must be checked first."], "answer": 2, "why": "依据是 the room isn't available then，then 指周五，即第三项。第一项把不能来的换成了评阅人。", "point": "equivalent"}
+   ]},
+   {"items": [{"stem": "‘The tutor approved the plan.’ Which sentence preserves the meaning?", "options": ["The tutor asked for approval of the plan.", "The plan gave approval to the tutor.", "The tutor gave approval for the plan.", "The plan was revised before approval."], "answer": 2, "why": "approved 改写成 gave approval for，批准的仍是导师，对象仍是计划，即第三项。", "point": "equivalent"}]},
+   {"items": [{"stem": "‘The long questionnaire caused the students to leave early.’ Which statement preserves the relation?", "options": ["The students left early because the questionnaire was long.", "The questionnaire became long because the students left.", "The students made the questionnaire shorter before leaving.", "The early departure caused the questionnaire to be written."], "answer": 0, "why": "原句中问卷太长是原因，提前离开是结果。第一项用 because 引出同一个原因。", "point": "relation"}]},
+   {"items": [{"stem": "‘The draft isn't complete.’ Which sentence has the same meaning?", "options": ["The draft has been completed.", "The draft remains incomplete.", "The completed draft is available.", "The draft was complete before revision."], "answer": 1, "why": "isn't complete 改写成 remains incomplete，意思都是还没完成，即第二项。", "point": "equivalent"}]},
+   {"items": [{"stem": "‘The tutor reviewed the student's report.’ Which statement preserves the roles?", "options": ["The student reviewed the tutor's report.", "The tutor wrote a report for the student.", "The student's review was sent to the tutor.", "The tutor checked the student's report."], "answer": 3, "why": "reviewed 改写成 checked。做事的仍是导师，对象仍是学生的报告，即第四项。", "point": "relation"}]}
+  ]}]}
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "id": "reading-careful-method",
+ "title": "仔细阅读的证据核对",
+ "goal": "根据题干定位证据，区分明确陈述与有依据的推断。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "locate", "label": "根据题干确定需要核对的信息"},
+  {"id": "evidence", "label": "区分明确陈述与推断依据"}
+ ],
+ "sources": [
+  {"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读理解能力的课程安排"}
+ ],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "到原文哪里找证据，由题干决定：看题干问的对象、提问的动作和限定范围。同一个对象常在几句中出现，每一句的作用不同。"},
+   {"box": "According to the passage, why did the library extend its opening hours?\nWhat can be inferred about the library's evening visitors?"},
+   {"p": "第一问找延长开放时间的原因，原文会直接写出。第二问要根据讲晚间访客的句子作推断。两题的证据可能在不同的句子里。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　拆分题干", "d": "找出题目问的对象和动作，再标出时间、群体或条件。题干问 evening visitors，就只看讲晚间访客的句子。"},
+   {"t": "2　阅读证据", "d": "在原文中找题干的词或它的改写，读完这一句和前后两句。有代词或因果关系时，依据常分在相邻的两句里。"},
+   {"t": "3　核对选项", "d": "明确陈述题：选项要与原文直接写出的关系一致。推断题：选项要有原文依据，范围和程度不超过原文。"}
+  ]},
+  {"id": "scope", "type": "table", "title": "题干与证据", "cols": ["题干信息", "例", "核对内容"], "rows": [
+   ["对象", "the evening visitors", "只看访客，不看工作人员"],
+   ["动作", "why the hours changed", "找改变时间的原因，不找结果"],
+   ["时间", "after the trial", "只看试行结束以后"],
+   ["条件", "when the hall is full", "只看大厅满员时的安排"]
+  ]},
+  {"id": "evidence-types", "type": "table", "title": "陈述与推断", "cols": ["类型", "原文", "依据与结论"], "rows": [
+   ["明确原因", "The hall closed because its roof leaked.", "漏水是关闭的直接原因。"],
+   ["明确结果", "The hall closed, so the concert moved outdoors.", "音乐会改在室外是直接结果。"],
+   ["推断条件", "Only members borrowed tools. Lina borrowed one.", "Lina 借了工具，可推出她是会员。"],
+   ["推断比较", "The new route takes ten minutes; the old one takes twenty.", "可推出新路线用时较短。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "The town opened a repair room on Saturdays because many residents worked during the week. Volunteers kept the weekday telephone service. After the first month, the Saturday room had more visitors than the organizers had expected."},
+   {"box": "Why was the repair room opened on Saturdays?\n1. Volunteers requested a weekday telephone service.\n2. Many residents were at work on weekdays.\n3. Visitor numbers exceeded the organizers' expectations.\n4. The organizers wanted to close the telephone service."},
+   {"p": "题干的对象是 repair room，动作是周六开放，提问的是原因。第一句的 because 引出 many residents worked during the week，第二项是同义改写。"},
+   {"p": "末句讲第一个月后的访客数量，是开放以后的结果，不是原因。题目问访客是否超过预期时，证据才是末句。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "例", "核对内容"], "rows": [
+   ["相邻信息错配", "把电话服务当作开放原因", "区分电话服务和维修室"],
+   ["结果当原因", "把超过预期当作开放原因", "核对事件先后和因果"],
+   ["原词关系改变", "telephone service 被关闭", "原文说志愿者保留该服务"],
+   ["推断程度过强", "所有居民都在工作", "many 的范围小于 all"]
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["locate", "evidence"], "groups": [
+   {"look": "passage", "text": "The workshop moved indoors because rain was forecast. The display remained outside under a shelter.", "items": [{"stem": "Why did the workshop move indoors?", "options": ["A shelter was built outside.", "Rain was expected that day.", "The display had moved indoors.", "The shelter needed repairs."], "answer": 1, "why": "because rain was forecast 直接给出原因，forecast 改写为 expected。", "point": "locate"}]},
+   {"look": "passage", "text": "Only registered residents voted on the garden plan. Mei voted on the plan yesterday.", "items": [{"stem": "What can be inferred about Mei?", "options": ["She drafted the garden plan yesterday.", "She registered other voters.", "She is a registered resident.", "She opposed the garden plan."], "answer": 2, "why": "Only registered residents voted 与 Mei voted 共同支持她是登记居民。", "point": "evidence"}]},
+   {"look": "passage", "text": "The morning bus serves the station. The afternoon bus serves the museum and does not stop at the station.", "items": [{"stem": "Where does the afternoon bus stop?", "options": ["At the station before the museum", "At the station after the museum", "At both the museum and station", "At the museum without serving the station"], "answer": 3, "why": "afternoon bus serves the museum，且 does not stop at the station。", "point": "locate"}]},
+   {"look": "passage", "text": "The old survey took twenty minutes. The revised survey takes ten minutes.", "items": [{"stem": "What can be inferred about the revised survey?", "options": ["It takes less time than the old survey.", "It includes twice as many questions as the old one.", "It was completed by fewer people.", "It was revised after twenty minutes."], "answer": 0, "why": "新问卷用十分钟，旧问卷用二十分钟，因此新问卷用时较短。", "point": "evidence"}]}
+  ]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["locate", "evidence"], "groups": [
+   {"look": "passage", "text": "A neighborhood cinema tried showing films earlier on Sundays. Its manager made the change after families reported difficulty attending late screenings. The cinema kept its usual late show on Fridays. During the trial, Sunday attendance increased, although Friday attendance remained steady.", "items": [
+    {"stem": "Why did the cinema change the Sunday schedule?", "options": ["Friday attendance had decreased.", "Families found late shows difficult to attend.", "The manager wanted fewer Sunday screenings.", "Families preferred the usual Friday schedule."], "answer": 1, "why": "families reported difficulty attending late screenings 说明改动的原因。", "point": "locate"},
+    {"stem": "What can be inferred about Sunday attendance during the trial?", "options": ["It matched Friday attendance exactly.", "It fell below its previous level.", "It was higher than before the trial.", "It remained unchanged throughout the trial."], "answer": 2, "why": "Sunday attendance increased 表明试行期间周日观众数高于之前。", "point": "evidence"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["locate", "evidence"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A small museum wanted more local residents to use its collection of historical maps. Previously, visitors could consult the maps only at a desk in the main building. Staff members had to retrieve each map from storage, and the desk was open only on weekday afternoons. Some residents said that they could not visit at those times.\n\nThe museum therefore began a six-month trial at a neighborhood center. Each Saturday, a staff member brought copies of selected maps to the center. The original maps stayed in the museum because staff wanted to protect them from frequent transport. Visitors could examine the copies without making an appointment, while requests to see originals still had to be made at the museum.\n\nAt the end of the trial, staff counted more visits to the map display than they had expected. They also found that visitors asked about streets as well as individual buildings. The museum decided to continue the Saturday display and to prepare copies of more street maps. It did not extend the weekday desk hours, which remained the same as before the trial.", "items": [
+    {"stem": "Why did the original maps remain in the museum?", "options": ["To prevent damage from repeated journeys", "To let staff retrieve them from storage", "To allow Saturday visitors to borrow them", "To replace the copies at the center"], "answer": 0, "why": "原文说 staff wanted to protect them from frequent transport。第一项把 frequent transport 改写为 repeated journeys。", "point": "locate"},
+    {"stem": "What can be inferred about the trial display?", "options": ["It attracted fewer visits than predicted.", "It required an appointment for every copy.", "It attracted more visits than staff predicted.", "It replaced the weekday desk permanently."], "answer": 2, "why": "more visits ... than they had expected 支持访客数高于工作人员预期。", "point": "evidence"},
+    {"stem": "What remained unchanged after the trial?", "options": ["The selection of copied street maps", "The opening hours of the weekday desk", "The Saturday display at the neighborhood center", "The number of requests about streets"], "answer": 1, "why": "weekday desk hours ... remained the same 直接说明工作日服务台时间未变。", "point": "locate"}
+   ]},
+   {"look": "passage", "text": "A group of apartment buildings shared a courtyard that residents used for meetings and outdoor meals. The courtyard had several benches, but few shaded places. At a meeting, residents suggested planting trees. The building committee agreed that shade was useful, yet it was concerned that young trees would need regular watering during their first summer.\n\nInstead of planting immediately, the committee asked residents to test a watering schedule. Each building was assigned a week, and volunteers recorded whether they could cover every day in that week. The test involved no trees; volunteers simply reported their availability. At the end of the test, two buildings had covered all their assigned days, while the third had missed several.\n\nThe committee decided to plant a smaller number of trees than originally proposed. It also arranged for a shared water container near the courtyard entrance. The volunteers from the third building revised their schedule so that two people, rather than one, would be available on each day. The committee planned to review the arrangement after the first summer, when it would have records of actual watering rather than reports of availability alone.", "items": [
+    {"stem": "Why did the committee test a watering schedule?", "options": ["It doubted that the courtyard needed shade.", "It had to choose a spot for a water container.", "Residents had asked for a test, not for trees.", "It was concerned about watering young trees."], "answer": 3, "why": "依据是 concerned that young trees would need regular watering，委员会因此先测试浇水安排，即第四项。储水容器是测试之后才安排的。", "point": "locate"},
+    {"stem": "What can be inferred from the third building's test results?", "options": ["Its volunteers covered every assigned day.", "Its initial schedule did not cover every assigned day.", "Its volunteers revised the schedule before the test began.", "Its volunteers watered the trees throughout the test."], "answer": 1, "why": "原文说 the third had missed several，第三栋楼原来的安排漏掉了几天，即第二项。第四项错在测试中没有种树。", "point": "evidence"},
+    {"stem": "What can be inferred about the committee's review after summer?", "options": ["It will use records of watering already performed.", "It will rely solely on volunteers' reported availability.", "It will take place before any trees are planted.", "It will replace the volunteers with committee members."], "answer": 0, "why": "原文说 after the first summer, when it would have records of actual watering。第一项的 watering already performed 对应 actual watering。", "point": "evidence"}
+   ]}
+  ]}]} 
+ ]
+}

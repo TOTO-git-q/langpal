@@ -1,0 +1,386 @@
+{
+ "id": "listening-long-reason",
+ "title": "原因与条件题",
+ "goal": "区分决定的直接原因、背景和结果，核对条件。",
+ "skill": "听力",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "cause",
+   "label": "听出决定或变化的直接原因"
+  },
+  {
+   "id": "condition",
+   "label": "核对决定成立所需的条件"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语（新课标卷）：课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "原因与条件的教学要求"
+  }
+ ],
+ "cards": [
+  {
+   "id": "type",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "原因题问某次决定或变化的直接理由。条件题问一个行动要在什么情况下才能做。背景介绍和行动的结果，要与原因、条件分开。"
+    },
+    {
+     "box": "The hall is familiar, but we moved the concert because its roof needs repairs. We can use the garden only if the ground is dry."
+    },
+    {
+     "p": "熟悉礼堂是背景，屋顶维修是这次更换地点的直接原因。地面干燥是使用花园的条件。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定所问事件",
+     "d": "先看原因或条件说的是哪个行动。Why did the concert move? 问的是音乐会为什么换地点。"
+    },
+    {
+     "t": "2　辨认关系表达",
+     "d": "because 后面是原因，only if 后面是必要条件。because the roof needs repairs 说明了换地点的原因。"
+    },
+    {
+     "t": "3　核对方向与范围",
+     "d": "分清原因和结果。The roof needs repairs, so we moved the concert. 中，屋顶要修是原因，换地点是结果。"
+    }
+   ]
+  },
+  {
+   "id": "signals",
+   "type": "table",
+   "title": "原因与条件表达",
+   "cols": [
+    "表达",
+    "作用",
+    "例"
+   ],
+   "rows": [
+    [
+     "because",
+     "引出原因从句",
+     "We left because the room was closed."
+    ],
+    [
+     "since",
+     "引出已知原因",
+     "Since the room is closed, we'll meet outside."
+    ],
+    [
+     "due to",
+     "后接原因名词短语",
+     "The delay was due to heavy rain."
+    ],
+    [
+     "unless",
+     "后面的情况出现，主句的安排就取消",
+     "We'll meet outside unless it rains."
+    ],
+    [
+     "only if",
+     "引出必要条件",
+     "We'll use the garden only if it is dry."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "We usually meet in the hall because it is near the station. This week we are using the library because the hall's lights are being repaired. We can use the library only if we finish by six."
+    },
+    {
+     "box": "Why is the group using the library this week?\n1. The library is closer to the station.\n2. The hall's lights are under repair.\n3. The meeting must finish by six.\n4. The library lights need repair."
+    },
+    {
+     "p": "because the hall's lights are being repaired 是本周换地点的原因，与第二项对应。离车站近是平时用礼堂的理由。六点前结束是使用图书馆的条件。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "片段",
+    "辨析"
+   ],
+   "rows": [
+    [
+     "原因倒置",
+     "The roof needs repairs, so the concert moved.",
+     "屋顶要修是原因，换地点是结果。"
+    ],
+    [
+     "原因倒置",
+     "The bus was late, so the tour started late.",
+     "车晚到是原因，推迟出发是结果。"
+    ],
+    [
+     "条件遗漏",
+     "We'll use the garden only if it is dry.",
+     "地面干了才能用花园。"
+    ],
+    [
+     "条件遗漏",
+     "We'll walk unless the rain returns.",
+     "雨再下起来，就不步行了。"
+    ],
+    [
+     "一般理由",
+     "We usually meet there because it is near.",
+     "离得近是平时的理由，这次换地点另有原因。"
+    ],
+    [
+     "一般理由",
+     "I often take the train because it is quick.",
+     "快是平时坐火车的理由，这次的理由要另外听。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "cause",
+    "condition"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation between Anna and Ben.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I usually walk to the market because it's close. Today I'll take the bus since I'm carrying a large box."
+       },
+       {
+        "who": "B",
+        "text": "I'll join you only if the bus arrives before ten. Otherwise I'll walk."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why will Anna take the bus today?",
+       "options": [
+        "The market is close to her home.",
+        "She needs to carry a large box.",
+        "Ben is already walking there.",
+        "The bus always arrives before ten."
+       ],
+       "answer": 1,
+       "why": "依据是 Today I'll take the bus since I'm carrying a large box。今天要搬大箱子，所以坐公交，即第二项；市场近是她平时步行的理由。",
+       "point": "cause"
+      },
+      {
+       "stem": "When will Ben join Anna on the bus?",
+       "options": [
+        "If Anna walks to the market.",
+        "If the box is left at home.",
+        "If the bus arrives after ten.",
+        "If the bus arrives before ten."
+       ],
+       "answer": 3,
+       "why": "依据是 Ben 说的 I'll join you only if the bus arrives before ten。公交十点前到，Ben 才一起坐，即第四项。",
+       "point": "condition"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "cause",
+    "condition"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Our club often meets in the library because it is quiet. This Saturday we're moving to the art room due to a book fair in the library. We'll start at two unless the fair ends early. If it does end early, we can return to the library and start at one. Either way, Mara will bring the paints, and I will bring the paper."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why will the club move to the art room?",
+       "options": [
+        "A book fair will occupy the library.",
+        "The club needs paper for the art room.",
+        "The library is usually too noisy.",
+        "Mara will bring paints to the fair."
+       ],
+       "answer": 0,
+       "why": "依据是 we're moving to the art room due to a book fair in the library。图书馆这周六要办书展，即第一项。",
+       "point": "cause"
+      },
+      {
+       "stem": "When can the club return to the library?",
+       "options": [
+        "When Mara brings the paints.",
+        "When the art room is quiet.",
+        "When the book fair ends early.",
+        "When the meeting starts at two."
+       ],
+       "answer": 2,
+       "why": "依据是 If it does end early, we can return to the library。书展提前结束，社团才能回图书馆，即第三项。",
+       "point": "condition"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "cause",
+    "condition"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation between Leah and Marcus.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The school picnic is usually beside the lake because the view is lovely. But I've just heard that the path there is closed for repairs, so we need another place this Friday. What about the hill garden?"
+         },
+         {
+          "who": "B",
+          "text": "That could work. There's a covered area, but we can reserve it only if at least fifteen people sign up. We have twelve names at the moment. I'll ask the drama club whether anyone else would like to come."
+         },
+         {
+          "who": "A",
+          "text": "Good. If we can't get enough names, we can use the school courtyard instead. I'll order the food tomorrow unless the picnic is canceled altogether. The food shop needs a day's notice, so we should decide by Thursday morning."
+         },
+         {
+          "who": "B",
+          "text": "I'll send you the final number tonight. Then you can tell the shop which place we're using."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why does the picnic need a different place this Friday?",
+         "options": [
+          "The lake path is being repaired.",
+          "The hill garden has a better view.",
+          "The food shop needs more notice.",
+          "The drama club prefers the courtyard."
+         ],
+         "answer": 0,
+         "why": "依据是 the path there is closed for repairs, so we need another place。去湖边的路在维修，即第一项；风景好是平时去湖边的理由。",
+         "point": "cause"
+        },
+        {
+         "stem": "When can the covered area be reserved?",
+         "options": [
+          "When twelve students have registered.",
+          "When the food shop has been told.",
+          "When fifteen or more people sign up.",
+          "When the lake path repairs finish."
+         ],
+         "answer": 2,
+         "why": "依据是 we can reserve it only if at least fifteen people sign up。至少十五人报名才能订有顶棚的区域，即第三项；十二人是目前的人数。",
+         "point": "condition"
+        },
+        {
+         "stem": "When will Leah refrain from ordering food?",
+         "options": [
+          "If the courtyard is chosen instead.",
+          "If the picnic is canceled altogether.",
+          "If Marcus sends the number tonight.",
+          "If the hill garden becomes available."
+         ],
+         "answer": 1,
+         "why": "依据是 I'll order the food tomorrow unless the picnic is canceled altogether。野餐整个取消，Leah 就不订餐，即第二项。",
+         "point": "condition"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a talk.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Hello, I'm Martin from the community choir. We usually practice at the music school because it has a piano and plenty of chairs. This month, however, the school is replacing the floor, so our Tuesday rehearsals will be in the town hall. The hall also has a piano, though we need to bring extra chairs. The caretaker says we may leave the chairs there only if they are stacked against the back wall after each rehearsal. Please help with that before leaving. Our performance was originally planned for the hall as well, but it will now take place at the music school in June. The school expects the floor to be ready by then. If the work is delayed, we'll keep the performance at the hall and tell ticket holders about the change by email. The rehearsal time remains seven o'clock."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why are rehearsals moving this month?",
+         "options": [
+          "The hall has bought a new piano.",
+          "The chairs are stacked in the hall.",
+          "The performance begins at seven.",
+          "The school is replacing its floor."
+         ],
+         "answer": 3,
+         "why": "依据是 the school is replacing the floor, so our Tuesday rehearsals will be in the town hall。音乐学校在换地板，即第四项。",
+         "point": "cause"
+        },
+        {
+         "stem": "Under what condition may the chairs remain in the hall?",
+         "options": [
+          "They must be returned to the music school.",
+          "They must be stacked by the back wall.",
+          "They must be used for a performance.",
+          "They must be placed beside the piano."
+         ],
+         "answer": 1,
+         "why": "依据是 we may leave the chairs there only if they are stacked against the back wall。每次排练后把椅子靠后墙摞好，才能留在礼堂，即第二项。",
+         "point": "condition"
+        },
+        {
+         "stem": "Why does the choir usually practice at the music school?",
+         "options": [
+          "Its floor has just been replaced.",
+          "Its caretaker can stack the chairs.",
+          "It has a piano and enough seating.",
+          "It is free on Tuesday evenings."
+         ],
+         "answer": 2,
+         "why": "依据是 We usually practice at the music school because it has a piano and plenty of chairs。plenty of chairs 改写为 enough seating，即第三项。",
+         "point": "cause"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "id": "reading-careful-main",
+ "title": "主旨与标题题",
+ "goal": "概括文章的中心判断，选择范围恰当的主旨或标题。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "main", "label": "概括各段共同支持的中心思想"},
+  {"id": "scope", "label": "选出范围恰当的标题或主旨"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读理解能力的课程安排"}],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "主旨题考全文的中心思想，即各段共同支持的判断。标题题考用一个短语概括文章的对象和主要观点。"},
+   {"box": "What is the main idea of the passage?\nWhich title best reflects the passage?"},
+   {"p": "主题是文章讨论的对象。中心判断是作者对这个对象的主要看法。标题要覆盖主要内容，范围与原文一致。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定问题", "d": "在首段找出文章讨论的对象和提出的问题。首段的背景句只引出问题，中心判断要看后文。"},
+   {"t": "2　概括段落", "d": "逐段概括每段对这个对象说了什么。例子和数据归到它们支持的观点下面。"},
+   {"t": "3　核对范围", "d": "对照结尾的判断比较选项，选出覆盖各主要段落的一项。再检查选项的对象和程度是否超出原文。"}
+  ]},
+  {"id": "main-scope", "type": "table", "title": "主题与中心判断", "cols": ["层次", "例", "作用"], "rows": [
+   ["主题", "A town's shared tools", "确定讨论对象"],
+   ["中心判断", "Shared tools reduce the need for individual purchases.", "说明对共享工具的主要看法"],
+   ["支持细节", "Neighbors borrow drills for occasional repairs.", "说明共用工具的具体情形"],
+   ["适当标题", "Sharing Tools for Occasional Use", "保留对象与使用范围"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A college once posted notices only on a central board. Students who rarely passed the board missed changes to room bookings. The college added notices beside each room and sent brief updates to registered users. Reports of missed changes fell. The experience suggests that placing information where people need it can improve access."},
+   {"box": "Which title best reflects the passage?\n1. The History of College Notice Boards\n2. Making Booking Changes Easier to Find\n3. Eliminating All Room Booking Problems\n4. Why Students Avoid Central Buildings"},
+   {"p": "开头两句提出问题：通知不容易被看到。中间两句讲增加发布位置和结果。末句概括：信息放在需要的地方，更容易被获取。第二项覆盖了对象和主要判断。"},
+   {"p": "第一项把背景当作中心。第三项的 All 超出原文，原文只说漏看的报告减少了。第四项讲学生回避中心建筑，原文没有这个意思。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "例", "排除依据"], "rows": [
+   ["细节冒充主旨", "Room Notices beside Doors", "只讲了一个发布位置"],
+   ["细节冒充主旨", "Reports of Missed Changes", "只讲了一项结果"],
+   ["背景取代中心", "The Central Notice Board", "只讲原来的发布方式"],
+   ["背景取代中心", "Students and College Buildings", "只讲问题出现的背景"],
+   ["范围扩大", "Ending Every Booking Error", "原文只说漏看的报告减少"],
+   ["范围扩大", "Improving All College Services", "原文只讲预订变更的通知"]
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["main", "scope"], "groups": [
+   {"look": "passage", "text": "A library moved its returns box from a side street to the station entrance. More books were returned on time, and borrowers said the new location was easier to reach.", "items": [{"stem": "What is the main idea?", "options": ["A convenient location improved timely returns.", "Borrowers began to prefer the side street.", "The station entrance prevented all late returns.", "Borrowers asked the library to move the box."], "answer": 0, "why": "新位置更方便，按时归还增多；第一项概括两句之间的关系。", "point": "main"}]},
+   {"look": "passage", "text": "A school collects rainwater for its garden. The water is used for plants, while drinking water still comes from the regular supply.", "items": [{"stem": "Which title best fits the passage?", "options": ["Replacing All School Water Supplies", "Collecting Rain for a School Garden", "Making Rainwater Safe for Drinking", "Watering Plants with the Regular Supply"], "answer": 1, "why": "材料讲学校收集雨水浇花园，第二项保留了对象和用途。第三项错在饮用水仍来自原有供水。", "point": "scope"}]},
+   {"look": "passage", "text": "A community orchestra invited listeners to open rehearsals. Musicians explained how they prepared a piece, and listeners gained a better understanding of the process.", "items": [{"stem": "What is the main idea?", "options": ["Musicians explained pieces at their finished concerts.", "Listeners learned to play the pieces they heard.", "Open rehearsals helped listeners understand preparation.", "The orchestra limited listeners to finished performances."], "answer": 2, "why": "解释准备过程与听众增进理解共同支持第三项。", "point": "main"}]},
+   {"look": "passage", "text": "An office tested a quiet room for calls. Employees could reserve it for private conversations, while ordinary meetings stayed in their usual rooms.", "items": [{"stem": "Which title best fits the passage?", "options": ["Moving Every Office Meeting", "Ending Private Calls in the Office", "Reserving Rooms for Ordinary Meetings", "A Quiet Space for Private Calls"], "answer": 3, "why": "材料限于私人通话的安静房间，第四项完整保留对象和用途。", "point": "scope"}]}
+  ]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["main", "scope"], "groups": [
+   {"look": "passage", "text": "A town market used to close before many workers finished their shifts. Stallholders agreed to keep it open later on one evening each week. They also displayed the revised hours at bus stops. After several weeks, vendors reported more evening customers. The town kept the trial schedule while collecting further information about costs.", "items": [
+    {"stem": "What is the main idea of the passage?", "options": ["A market tested later hours to reach more customers.", "Workers moved their shifts to reach the market in time.", "Bus stop notices alone brought more evening customers.", "The town ended the trial because of its costs."], "answer": 0, "why": "延长一晚营业时间及顾客增多共同支持第一项。", "point": "main"},
+    {"stem": "Which title best reflects the scope of the passage?", "options": ["Counting the Costs of a Market Trial", "Later Hours on One Market Evening", "Posting Market Hours at Bus Stops", "Keeping a Market Open Every Evening"], "answer": 1, "why": "原文说 keep it open later on one evening each week，第二项保留了这个范围。第四项的 Every Evening 扩大了范围。", "point": "scope"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["main", "scope"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A neighborhood association maintains a small collection of hand tools. For years, the tools were kept in a locked room and could be borrowed only when the association's secretary was present. Residents who needed a tool for a brief repair sometimes bought their own because they could not collect one at the available times.\n\nThe association decided to test a different arrangement. It installed a secure cabinet in the entrance hall and gave registered borrowers a way to request access. A volunteer checked each returned tool and recorded any damage. The collection still belonged to the association; individual borrowers did not take ownership of the tools.\n\nDuring the first three months, the number of loans rose. Residents reported that they could plan repairs around their own schedules. The volunteer also found that a few items needed maintenance more often, so the association set aside time each month for inspection. The trial suggests that access outside a single person's working hours can make a shared collection more useful, provided that someone remains responsible for its care.", "items": [
+    {"stem": "What is the central idea of the passage?", "options": ["Flexible access can improve a shared tool service when maintenance is organized.", "Private ownership is necessary whenever a tool needs inspection.", "Residents should buy their own tools for brief repairs when the secretary is absent.", "A locked cabinet eliminates the need to maintain shared equipment."], "answer": 0, "why": "原文先说借用次数增加，末句又加上 provided that someone remains responsible for its care。第一项同时概括了取用方便和有人照管。", "point": "main"},
+    {"stem": "Which title best reflects the passage?", "options": ["Monthly Inspections of Damaged Tools", "Giving Borrowers Ownership of Tools", "Making Shared Tools Easier to Borrow", "Why Every Household Must Buy Tools"], "answer": 2, "why": "第三项覆盖共享工具取用方式的改变，保留文章的对象和范围。", "point": "scope"},
+    {"stem": "Which statement best captures the author's conclusion?", "options": ["Shared tools always require less care than private tools.", "Access and ongoing care both matter to a shared collection.", "A secretary's presence keeps a shared collection useful.", "Borrowers need ownership before they can plan a repair."], "answer": 1, "why": "末句将方便取用与有人负责照管联系起来，第二项概括这两方面。", "point": "main"}
+   ]},
+   {"look": "passage", "text": "A local theater wanted to learn why some residents had never attended a performance. Its staff first assumed that ticket prices were the main obstacle. A short survey, however, found that several respondents were uncertain about how long performances lasted and whether they could leave during an interval. Others mentioned the cost of tickets.\n\nThe theater responded in two ways. It published running times and interval information alongside each program. These details appeared on its website. It also reserved a limited number of lower-priced seats for selected performances. Staff did not treat the survey as a complete account of every resident's preferences; it had reached only people who chose to respond.\n\nAfter the changes, staff compared comments from new visitors with those gathered earlier. Some visitors mentioned the clearer information, while others referred to the lower-priced seats. The theater continued to collect comments rather than attributing every new visit to a single measure. Its experience illustrates how asking about obstacles can reveal more than one practical way to make a cultural venue accessible.", "items": [
+    {"stem": "What is the main idea of the passage?", "options": ["Ticket prices alone explain every resident's decision about the theater.", "Survey responses can reveal different obstacles to attending a theater.", "Clearer running times alone brought new visitors to the theater.", "A theater can learn about visitors only by changing seat prices."], "answer": 1, "why": "调查发现了演出信息和票价两类障碍，末句说询问障碍能找到不止一种办法。第二项概括了这一点。", "point": "main"},
+    {"stem": "Which title best fits the passage?", "options": ["Lower Ticket Prices at a Local Theater", "How One Survey Explained Every Resident's Choice", "Eliminating Every Barrier to Cultural Events", "Identifying Barriers to Theater Attendance"], "answer": 3, "why": "第四项保留剧院入场障碍的对象和范围，其他选项扩大范围或只取细节。", "point": "scope"},
+    {"stem": "Which title is appropriately limited to the passage's subject?", "options": ["A Theater's Efforts to Understand New Visitors", "A Complete Solution to Cultural Exclusion", "A Theater's Decision to Lower All Prices", "The Exact Preferences of All Residents"], "answer": 0, "why": "剧院调查未到访者的障碍并收集新访客意见，第一项的范围与此一致。", "point": "scope"}
+   ]}
+  ]}]} 
+ ]
+}

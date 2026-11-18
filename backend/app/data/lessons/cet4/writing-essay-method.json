@@ -1,0 +1,418 @@
+{
+ "id": "writing-essay-method",
+ "title": "短文写作的任务分析",
+ "goal": "提取写作对象和内容要求；判断提纲是否覆盖任务。",
+ "skill": "写作",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "task",
+   "label": "提取写作对象和内容要求"
+  },
+  {
+   "id": "coverage",
+   "label": "判断提纲是否覆盖任务"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语四级（CET-4）：课表",
+   "url": "docs/syllabi/cet4.md",
+   "used": "短文写作的任务分析的教学范围、知识点及写作小测规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "分析写作任务，先分清读者、目的和内容要求。情境里出现的人不一定是读者。要求中的动词，如 explain、describe，决定提纲每一部分要做什么。"
+    },
+    {
+     "box": "Write an article for new students explaining the benefits of the campus repair club."
+    },
+    {
+     "p": "new students 是读者，explaining the benefits 是目的，repair club 是主题。只介绍活动时间，没有说明益处，不算完成任务。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定对象与目的",
+     "d": "先找 for 后面的读者，再找 explain、suggest 等动词。for new students 表示写给新生，不是写给活动组织者。"
+    },
+    {
+     "t": "2　逐项建立对应",
+     "d": "把内容要求分别对应到提纲中的具体内容。explain a benefit 可对应 learning to repair a loose handle。"
+    },
+    {
+     "t": "3　核对完整性与范围",
+     "d": "检查每项要求在提纲中是否都有对应内容。活动介绍代替不了报名办法。内容只写指定的社团，不扩展到全部社团的历史。"
+    }
+   ]
+  },
+  {
+   "id": "mapping",
+   "type": "table",
+   "title": "任务与提纲",
+   "cols": [
+    "要素",
+    "用法",
+    "例"
+   ],
+   "rows": [
+    [
+     "读者",
+     "按读者的需要决定写什么。",
+     "For beginners: explain basic repair activities rather than the club's funding procedures for administrators."
+    ],
+    [
+     "目的",
+     "目的要写成具体内容，不只重复主题名称。",
+     "Explain benefits: repairing a loose handle gives students practice in solving a practical problem."
+    ],
+    [
+     "内容要求",
+     "每条要求都要有对应内容，可以合写，不能漏写。",
+     "Describe an activity and explain joining: outline a repair session and the registration procedure."
+    ],
+    [
+     "范围",
+     "细节都围绕指定的主题。",
+     "A paragraph about repairing bags supports a repair-club article; a history of all campus clubs does not."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Campus task: Write an article for first-year students about a campus board-game afternoon. Explain how the activity helps students meet classmates and state how to join. Describe one activity that new participants can try. The student union will collect the articles before the event."
+    },
+    {
+     "p": "读者是 first-year students，不是 student union。提纲要写三项：结识同学的益处、参加方法、一项具体活动。"
+    },
+    {
+     "box": "Outline: Introduce a cooperative game for small groups. Explain how discussing moves starts conversations. Give the registration desk location and the joining procedure."
+    },
+    {
+     "box": "Public-life task: Write an article for residents about a neighborhood lost-property shelf. Explain its purpose and describe how residents can leave or collect an item. The community office supplies the shelf but asks residents to manage the daily exchange themselves."
+    },
+    {
+     "p": "读者是 residents，community office 只负责提供书架。提纲要写三项：书架的用途、放物品的流程、领物品的流程。不写成要求办公室代管。"
+    },
+    {
+     "box": "Outline: Explain how the shelf helps return misplaced belongings. Describe labeling an item and recording its location. Explain checking a description before collecting it."
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "提纲片段",
+    "排除依据"
+   ],
+   "rows": [
+    [
+     "遗漏要求",
+     "Describe the board game and explain how it starts conversations.",
+     "缺少 how to join。"
+    ],
+    [
+     "对象错误",
+     "Explain to union officers how to collect articles for the board-game event.",
+     "把收集者当作文章读者。"
+    ],
+    [
+     "偏离主题",
+     "Compare the history of every student society and its public events.",
+     "用全部社团代替了指定的活动。"
+    ],
+    [
+     "背景代替要求",
+     "Describe the materials used to build the lost-property shelf in the community office.",
+     "写的是书架的材料，没有写放置和领取流程。"
+    ]
+   ]
+  },
+  {
+   "id": "check-short",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "task",
+    "coverage"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "An article for evening students must explain access to late dining. Who is the intended reader?",
+       "options": [
+        "Students attending evening classes",
+        "Cooks preparing the evening meals",
+        "Staff checking dining-room access",
+        "Writers collecting dining articles"
+       ],
+       "answer": 0,
+       "why": "for evening students 说明读者是上晚课的学生，即第一项。",
+       "point": "task"
+      },
+      {
+       "stem": "A task asks for a benefit of a campus walking group and a way to join. Which outline covers both?",
+       "options": [
+        "Describe two walking routes and compare their length.",
+        "Explain shared exercise and give the registration procedure.",
+        "Describe the group's history and list its past leaders.",
+        "Explain shared exercise and compare two walking routes."
+       ],
+       "answer": 1,
+       "why": "a benefit 与 a way to join 分别对应 shared exercise 和 registration procedure。",
+       "point": "coverage"
+      },
+      {
+       "stem": "A notice asks residents to explain how to report broken streetlights. Which purpose matches?",
+       "options": [
+        "Explain how the streetlights were originally manufactured.",
+        "Explain why residents prefer brighter lights in winter.",
+        "Explain the procedure residents use to report faulty lights.",
+        "Explain how officials compare the cost of replacement lights."
+       ],
+       "answer": 2,
+       "why": "how to report 要求写报告的流程，即第三项。",
+       "point": "task"
+      },
+      {
+       "stem": "An article must describe a reusable-cup service and discuss a difficulty. Which outline omits the second requirement?",
+       "options": [
+        "Describe borrowing cups and explain the problem of late returns.",
+        "Describe washing cups and discuss limited washing space.",
+        "Describe collecting cups and explain missing return labels.",
+        "Describe borrowing cups and explain the collection procedure."
+       ],
+       "answer": 3,
+       "why": "第四项的 collection procedure 仍是介绍服务，没有写困难。",
+       "point": "coverage"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-application",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "coverage",
+    "task"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A local sports hall asks for an article for occasional visitors about its shared equipment desk. The article must describe what can be borrowed, explain the return rule, and suggest a way to prevent missing items. The manager will use visitor feedback when reviewing the service.",
+     "items": [
+      {
+       "stem": "Which outline keeps every requested function?",
+       "options": [
+        "List equipment, explain returns, and propose numbered storage spaces.",
+        "List equipment, compare prices, and describe the manager's career.",
+        "Explain returns, propose labels, and describe other sports halls.",
+        "List equipment, explain returns, and repeat the equipment list."
+       ],
+       "answer": 0,
+       "why": "what can be borrowed、return rule、prevent missing items 分别对应 list equipment、explain returns 和 numbered storage spaces，即第一项。第四项缺预防丢失的办法。",
+       "point": "coverage"
+      },
+      {
+       "stem": "Complete a statement identifying the article's readers.",
+       "lead": "The article is intended",
+       "chunks": [
+        "for",
+        "occasional visitors",
+        "to",
+        "the shared equipment desk"
+       ],
+       "tail": ".",
+       "extra": [
+        "managers"
+       ],
+       "why": "读者是 occasional visitors。manager 只是使用反馈的人。",
+       "point": "task"
+      },
+      {
+       "stem": "Complete the outline entry that addresses preventing losses.",
+       "lead": "The final section should",
+       "chunks": [
+        "suggest",
+        "a way",
+        "to prevent",
+        "missing equipment"
+       ],
+       "tail": ".",
+       "extra": [
+        "cause"
+       ],
+       "why": "任务要求 prevent missing items，用 prevent。cause 意思相反。",
+       "point": "coverage"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "task",
+    "coverage"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A university department requests an article for students considering a peer note-checking circle. Explain why comparing notes may reveal missing information and describe how a new member can take part. The course tutor will collect submissions but will not run the circle. Focus on participation rather than the tutor's teaching methods.",
+       "items": [
+        {
+         "stem": "Which statement identifies the audience and purpose?",
+         "options": [
+          "Help potential members understand the value of the circle and joining it.",
+          "Help the tutor compare teaching methods and collect the student submissions.",
+          "Help existing tutors run the circle and review their teaching methods.",
+          "Help current members evaluate the tutor and organize course submissions."
+         ],
+         "answer": 0,
+         "why": "for students considering 说明读者是考虑加入的学生，explain why 和 describe how 说明目的，即第一项。",
+         "point": "task"
+        },
+        {
+         "stem": "Which outline fully responds to the task?",
+         "options": [
+          "Compare note-taking benefits and evaluate the tutor's teaching methods.",
+          "Explain how comparing notes reveals gaps and describe joining a session.",
+          "Describe joining a session and explain how the tutor collects submissions.",
+          "Explain how the tutor teaches and describe the circle's current members."
+         ],
+         "answer": 1,
+         "why": "第二项分别对应 reveal missing information 和 take part。第三项写导师收稿，这只是背景。",
+         "point": "coverage"
+        },
+        {
+         "stem": "Complete the statement of the task's audience.",
+         "lead": "The article should address",
+         "chunks": [
+          "students",
+          "who are considering",
+          "membership",
+          "in the circle"
+         ],
+         "tail": ".",
+         "extra": [
+          "tutors"
+         ],
+         "why": "读者是考虑加入的学生。tutors 不是读者。",
+         "point": "task"
+        },
+        {
+         "stem": "Complete the outline entry covering the practical requirement.",
+         "lead": "The participation section must",
+         "chunks": [
+          "explain",
+          "the process",
+          "of",
+          "joining the circle"
+         ],
+         "tail": ".",
+         "extra": [
+          "leaving the circle"
+         ],
+         "why": "joining 对应 how a new member can take part。任务没有要求写退出。",
+         "point": "coverage"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A town newsletter requests an article for households using a shared parcel room. Describe one problem caused by uncollected parcels and propose a practical collection rule. The building caretaker has supplied a room map as background. The article should address residents' use of the room, without reviewing the caretaker's work.",
+       "items": [
+        {
+         "stem": "Which purpose matches the requested article?",
+         "options": [
+          "Evaluate the caretaker's work and explain how the room map was drawn.",
+          "Compare parcel-room designs and describe how caretakers deliver parcels.",
+          "Explain a collection problem and recommend a rule for resident households.",
+          "Describe household shopping preferences and assess the caretaker's service."
+         ],
+         "answer": 2,
+         "why": "任务要求写一个问题和一条收取规则，读者是 households，即第三项。",
+         "point": "task"
+        },
+        {
+         "stem": "Which outline covers the required content?",
+         "options": [
+          "Describe the room map and explain the caretaker's daily responsibilities.",
+          "List uncollected parcels and compare residents' online shopping preferences.",
+          "Recommend collection times and evaluate the caretaker's work in detail.",
+          "Explain blocked shelf space and recommend collecting parcels within a set period."
+         ],
+         "answer": 3,
+         "why": "第四项先写包裹不取会占用货架，再提出限期收取的规则。第三项缺少问题，还评价了管理员。",
+         "point": "coverage"
+        },
+        {
+         "stem": "Complete a statement of the required topic.",
+         "lead": "The article must discuss",
+         "chunks": [
+          "the problem",
+          "caused by",
+          "parcels",
+          "left uncollected"
+         ],
+         "tail": ".",
+         "extra": [
+          "collected promptly"
+         ],
+         "why": "任务要求写 uncollected parcels 带来的问题。collected promptly 意思相反。",
+         "point": "task"
+        },
+        {
+         "stem": "Complete the outline entry that addresses the requested response.",
+         "lead": "The proposed rule should",
+         "chunks": [
+          "specify",
+          "a reasonable period",
+          "for",
+          "parcel collection"
+         ],
+         "tail": ".",
+         "extra": [
+          "room decoration"
+         ],
+         "why": "规则针对包裹的收取。room decoration 与任务无关。",
+         "point": "coverage"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

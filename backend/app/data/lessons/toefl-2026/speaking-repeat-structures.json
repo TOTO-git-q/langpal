@@ -1,0 +1,546 @@
+{
+ "id": "speaking-repeat-structures",
+ "title": "长句的结构",
+ "goal": "找出长句的主干；听后按结构还原整句。",
+ "skill": "speaking",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 口语",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "skeleton",
+   "label": "找出长句的主干"
+  },
+  {
+   "id": "rebuild",
+   "label": "听后按结构还原整句"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、计分、自适应"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "长句是在主干上加成分。常见的加法有四种：并列谓语、状语从句、定语从句、复杂名词短语。官方规格把这四种列为句子加长的方式。分析长句，先找主句的动作，再看加上的成分属于哪里。"
+    },
+    {
+     "box": "The assistant checks the meter.\nThe assistant checks the meter and records the reading.\nThe assistant who works at night checks the meter."
+    },
+    {
+     "p": "第二句加了一个并列的动作。第三句的 who works at night 修饰 assistant，不是主句的谓语。主干用来理解句子；复述时修饰成分要全部保留。"
+    }
+   ]
+  },
+  {
+   "id": "forms",
+   "type": "table",
+   "title": "四种加长方式",
+   "cols": [
+    "结构",
+    "标志",
+    "例句"
+   ],
+   "rows": [
+    [
+     "并列谓语",
+     "and、but 连接同一主语的两个动作，后一个动作前没有主语。",
+     "The operator opens the panel and checks the wiring."
+    ],
+    [
+     "状语从句",
+     "when、because、although 等连接完整分句。",
+     "The operator stops the test when the warning light appears."
+    ],
+    [
+     "定语从句",
+     "who、which、that 引出对名词的限定。",
+     "The operator who checked the wiring signed the form."
+    ],
+    [
+     "复杂名词短语",
+     "名词前后带修饰语。主语的单复数看中心词。",
+     "The detailed report on the faulty wiring is ready."
+    ],
+    [
+     "并列的层级",
+     "and 也可连接两个名词。先看 and 两边是什么词性。",
+     "The operator checks the cable and the socket."
+    ],
+    [
+     "从句的层级",
+     "从句有自己的主语和谓语。从句的动词不是主句谓语。",
+     "The cable that the operator replaced works properly."
+    ]
+   ],
+   "src": "spec 第 16 页"
+  },
+  {
+   "id": "restore",
+   "type": "table",
+   "title": "主干与修饰语",
+   "cols": [
+    "步骤",
+    "做法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "确定主句主语",
+     "先找句子讲的对象。动词前最近的名词不一定是主语。",
+     "The box of spare parts is missing. → The box is missing."
+    ],
+    [
+     "确定主句谓语",
+     "从句里的动词先不算进主句谓语。",
+     "The lens that arrived yesterday fits. → The lens fits."
+    ],
+    [
+     "保留并列动作",
+     "同一主语后的两个动作都属于主干。",
+     "The clerk checked and signed the form."
+    ],
+    [
+     "接回条件或时间",
+     "连词和它的从句一起放回录音里的位置。",
+     "If the signal returns, the test will resume."
+    ],
+    [
+     "接回定语从句",
+     "定语从句紧跟在它修饰的名词后面。",
+     "The sensor that measures pressure needs a new battery."
+    ],
+    [
+     "接回名词修饰语",
+     "of、with 等短语按原顺序放回中心名词后面。",
+     "The list of approved materials is on the desk."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The assistant who manages the equipment checks each cable and replaces any damaged connectors before the session begins."
+    },
+    {
+     "p": "主句主语是 The assistant，并列谓语是 checks 与 replaces。who manages the equipment 限定 assistant，before the session begins 说明动作发生的时间。"
+    },
+    {
+     "box": "Core: The assistant checks each cable and replaces any damaged connectors.\nFull: The assistant / who manages the equipment / checks each cable / and replaces any damaged connectors / before the session begins."
+    },
+    {
+     "p": "Core 只用于分析，不是完整的复述。还原时把 who 从句接回 assistant 后面，把 before 从句放回句尾。"
+    }
+   ]
+  },
+  {
+   "id": "check-core",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "skeleton"
+   ],
+   "groups": [
+    {
+     "text": "The film reel that arrived this morning contains the revised ending.",
+     "items": [
+      {
+       "stem": "Which statement gives the main-clause core?",
+       "options": [
+        "The reel arrived this morning.",
+        "The reel contains the ending.",
+        "The ending was revised this morning.",
+        "The reel was revised this morning."
+       ],
+       "answer": 1,
+       "why": "that arrived this morning 修饰 reel，主句为 The film reel contains the revised ending。",
+       "point": "skeleton"
+      }
+     ]
+    },
+    {
+     "text": "The team weighed the flour and recorded the amount before mixing.",
+     "items": [
+      {
+       "stem": "Which statement gives the main-clause core?",
+       "options": [
+        "The team mixed the flour.",
+        "The team recorded the mixing time.",
+        "The team weighed the recorded amount.",
+        "The team weighed the flour and recorded the amount."
+       ],
+       "answer": 3,
+       "why": "weighed 和 recorded 共用主语 The team，两个动作都属于主干。before mixing 是时间修饰语，即第四项。",
+       "point": "skeleton"
+      }
+     ]
+    },
+    {
+     "text": "The collection of handmade puppets occupies the upper shelf.",
+     "items": [
+      {
+       "stem": "Which statement gives the main-clause core?",
+       "options": [
+        "The collection occupies the shelf.",
+        "The puppets are handmade.",
+        "The collection contains handmade puppets.",
+        "The puppets are on an upper shelf."
+       ],
+       "answer": 0,
+       "why": "中心名词 collection 作主语，of handmade puppets 是后置修饰语。",
+       "point": "skeleton"
+      }
+     ]
+    },
+    {
+     "text": "Although the water was cold, the swimmers completed the crossing.",
+     "items": [
+      {
+       "stem": "Which statement gives the main-clause core?",
+       "options": [
+        "The water was cold.",
+        "The swimmers crossed cold water.",
+        "The swimmers completed the crossing.",
+        "The crossing took place in cold water."
+       ],
+       "answer": 2,
+       "why": "Although the water was cold 是让步从句，主句主语和谓语为 the swimmers completed。",
+       "point": "skeleton"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-restore",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "rebuild"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The tutor who teaches sculpture has approved the new design."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Rebuild the sentence heard.",
+       "chunks": [
+        "The tutor",
+        "who teaches sculpture",
+        "has approved",
+        "the new design"
+       ],
+       "extra": [
+        "which teaches sculpture"
+       ],
+       "tail": ".",
+       "why": "who teaches sculpture 修饰人 the tutor，has approved 是主句谓语。",
+       "point": "rebuild"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "When the bell rings, the ushers will close the side doors."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Restore the recorded sentence.",
+       "chunks": [
+        "When the bell rings,",
+        "the ushers",
+        "will close",
+        "the side doors"
+       ],
+       "extra": [
+        "will closed"
+       ],
+       "tail": ".",
+       "why": "When 从句在前，the ushers will close 为主句；情态动词后为原形。",
+       "point": "rebuild"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The coordinator checks the roster and assigns each volunteer a task."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Put the heard chunks in their original order.",
+       "chunks": [
+        "The coordinator",
+        "checks the roster",
+        "and assigns",
+        "each volunteer a task"
+       ],
+       "extra": [
+        "and assigning"
+       ],
+       "tail": ".",
+       "why": "checks 与 assigns 为并列谓语，and assigning 不符合录音和句法。",
+       "point": "rebuild"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The instructions for assembling the display are inside the package."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Reconstruct the sentence from the recording.",
+       "chunks": [
+        "The instructions",
+        "for assembling the display",
+        "are",
+        "inside the package"
+       ],
+       "extra": [
+        "is"
+       ],
+       "tail": ".",
+       "why": "instructions 是复数中心词，for assembling the display 是修饰语，谓语为 are。",
+       "point": "rebuild"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "skeleton",
+    "rebuild"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "The trainee who sorted the mineral samples will update the catalogue.",
+       "items": [
+        {
+         "stem": "Which option identifies the main-clause core?",
+         "options": [
+          "The trainee sorted the samples.",
+          "The catalogue contains sorted samples.",
+          "The trainee will update the catalogue.",
+          "The trainee will sort the samples."
+         ],
+         "answer": 2,
+         "why": "who sorted the mineral samples 是定语从句；主句动作是 will update the catalogue。",
+         "point": "skeleton"
+        }
+       ]
+      },
+      {
+       "text": "The diagram of the emergency exits shows the route through the annex.",
+       "items": [
+        {
+         "stem": "Which option identifies the main-clause core?",
+         "options": [
+          "The diagram shows the route.",
+          "The emergency exits lead through the annex.",
+          "The route passes through the annex.",
+          "The diagram depicts emergency exits."
+         ],
+         "answer": 0,
+         "why": "The diagram 是中心主语，of the emergency exits 修饰 diagram；谓语为 shows。",
+         "point": "skeleton"
+        }
+       ]
+      },
+      {
+       "text": "The reviewer read the proposal and added comments after the meeting ended.",
+       "items": [
+        {
+         "stem": "Which option identifies the main-clause core?",
+         "options": [
+          "The reviewer read comments after the meeting.",
+          "The reviewer ended the meeting and read comments.",
+          "The reviewer added a proposal after reading comments.",
+          "The reviewer read the proposal and added comments."
+         ],
+         "answer": 3,
+         "why": "read the proposal 与 added comments 都是 reviewer 的主句动作，after 引出时间从句。",
+         "point": "skeleton"
+        }
+       ]
+      },
+      {
+       "text": "Because the path was muddy, the surveyors carried the equipment by hand.",
+       "items": [
+        {
+         "stem": "Which option identifies the main-clause core?",
+         "options": [
+          "The path was muddy.",
+          "The surveyors carried the equipment.",
+          "The surveyors traveled along a muddy path.",
+          "The equipment was carried by hand."
+         ],
+         "answer": 1,
+         "why": "Because the path was muddy 是原因从句，主句为 the surveyors carried the equipment。",
+         "point": "skeleton"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The assistant labels each seed packet and records its origin."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Rebuild the sentence heard.",
+         "chunks": [
+          "The assistant",
+          "labels each seed packet",
+          "and records",
+          "its origin"
+         ],
+         "extra": [
+          "and recording"
+         ],
+         "tail": ".",
+         "why": "labels 与 records 共用主语；its origin 是第二个动作的宾语。",
+         "point": "rebuild"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The microscope will remain covered until the demonstration begins."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Restore the recorded sentence.",
+         "chunks": [
+          "The microscope",
+          "will remain covered",
+          "until",
+          "the demonstration begins"
+         ],
+         "extra": [
+          "unless"
+         ],
+         "tail": ".",
+         "why": "until the demonstration begins 是时间从句，unless 会改变逻辑关系。",
+         "point": "rebuild"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The student who designed the survey has revised the final question."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Put the heard chunks in their original order.",
+         "chunks": [
+          "The student",
+          "who designed the survey",
+          "has revised",
+          "the final question"
+         ],
+         "extra": [
+          "had revised"
+         ],
+         "tail": ".",
+         "why": "who 从句紧接 student；主句 has revised 的助动词须与录音一致。",
+         "point": "rebuild"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The replacement parts for the projector are stored beneath the counter."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Reconstruct the sentence from the recording.",
+         "chunks": [
+          "The replacement parts",
+          "for the projector",
+          "are stored",
+          "beneath the counter"
+         ],
+         "extra": [
+          "is stored"
+         ],
+         "tail": ".",
+         "why": "parts 是复数中心词，for the projector 不能改变谓语的数。",
+         "point": "rebuild"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

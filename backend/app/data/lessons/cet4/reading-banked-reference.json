@@ -1,0 +1,382 @@
+{
+ "id": "reading-banked-reference",
+ "title": "选词中的指代关系",
+ "goal": "追踪跨句指代并选择与所指对象一致的词语。",
+ "skill": "阅读",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "antecedent",
+   "label": "确定跨句代词所指的对象"
+  },
+  {
+   "id": "link",
+   "label": "根据指代关系选择衔接词语"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "词汇理解教学依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "intro",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "代词和概括名词（如 this change）用来指前文的事物或事件。空格在这类词附近时，先找出它指的是什么，再选词。"
+    },
+    {
+     "p": "例如 A library bought a new table. It stands by the window. 句中的 it 指 table。先看单复数是否一致，再看句意是否通顺。"
+    }
+   ]
+  },
+  {
+   "id": "pronouns",
+   "type": "table",
+   "title": "代词的数",
+   "cols": [
+    "形式",
+    "短段",
+    "指代对象"
+   ],
+   "rows": [
+    [
+     "it",
+     "The library bought a table. It stands by the window.",
+     "单数名词 table"
+    ],
+    [
+     "it",
+     "The team fixed a gate. It now opens easily.",
+     "单数名词 gate"
+    ],
+    [
+     "they",
+     "The students planted trees. They now grow beside the path.",
+     "复数名词 trees"
+    ],
+    [
+     "they",
+     "The library ordered books. They arrived yesterday.",
+     "复数名词 books"
+    ],
+    [
+     "these",
+     "The group collected tools. These were stored in a box.",
+     "复数名词 tools"
+    ],
+    [
+     "these",
+     "The town planted flowers. These now grow near the station.",
+     "复数名词 flowers"
+    ]
+   ]
+  },
+  {
+   "id": "summary",
+   "type": "table",
+   "title": "概括名词",
+   "cols": [
+    "形式",
+    "短段",
+    "指代对象"
+   ],
+   "rows": [
+    [
+     "this decision",
+     "The class moved the meeting. This decision gave everyone more time.",
+     "更改会议时间的决定"
+    ],
+    [
+     "this change",
+     "The shop opened earlier. This change helped morning customers.",
+     "商店提前开门"
+    ],
+    [
+     "such a plan",
+     "The town proposed a new path. Such a plan needs funding.",
+     "修建新路的计划"
+    ],
+    [
+     "such activities",
+     "Students read and discuss articles. Such activities build language skills.",
+     "阅读和讨论文章的活动"
+    ]
+   ]
+  },
+  {
+   "id": "meaning",
+   "type": "table",
+   "title": "指代与意义",
+   "cols": [
+    "短段",
+    "候选词",
+    "依据"
+   ],
+   "rows": [
+    [
+     "The bridge was repaired. It is now safe.",
+     "safe",
+     "it 指桥。桥修好后才安全。"
+    ],
+    [
+     "The tank was emptied. It now holds no water.",
+     "water",
+     "it 指水箱。emptied 对应 no water。"
+    ],
+    [
+     "The signs were removed. They are no longer on the doors.",
+     "doors",
+     "they 指标志。标志原来在门上。"
+    ],
+    [
+     "The class changed its schedule. This change moved the lesson to Friday.",
+     "schedule",
+     "this change 指课表的调整。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The team planted trees beside the path. They will provide _____ on sunny days.\n1. shade\n2. fruit\n3. tools\n4. paths"
+    },
+    {
+     "p": "they 指 trees，后句讲树在晴天的作用。树在晴天提供树荫，即第一项 shade。第二项 fruit 也由树提供，但与 on sunny days 无关。"
+    }
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "antecedent",
+    "link"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The school bought a piano. It was placed in the hall. What does it refer to?",
+       "options": [
+        "The piano",
+        "The school",
+        "The hall",
+        "The purchase"
+       ],
+       "answer": 0,
+       "why": "placed in the hall 描述被放入大厅的钢琴，it 指 piano。",
+       "point": "antecedent"
+      },
+      {
+       "stem": "Workers planted trees. They now grow beside the road. What does they refer to?",
+       "options": [
+        "The workers",
+        "The trees",
+        "The road",
+        "The planting"
+       ],
+       "answer": 1,
+       "why": "grow beside the road 描述树木，they 指 trees。",
+       "point": "antecedent"
+      },
+      {
+       "stem": "The class moved its meeting to Friday so members had more days to prepare. This _____ provided extra preparation time before the meeting.",
+       "options": [
+        "member",
+        "meeting",
+        "change",
+        "Friday"
+       ],
+       "answer": 2,
+       "why": "this change 概括把会议改到星期五的调整。",
+       "point": "link"
+      },
+      {
+       "stem": "The shop ordered new books. They arrived in two _____ made of cardboard.",
+       "options": [
+        "shops",
+        "pages",
+        "orders",
+        "boxes"
+       ],
+       "answer": 3,
+       "why": "they 指 books；书装在两个箱子里送达。",
+       "point": "link"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "antecedent",
+    "link"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A library moved its chairs to a quiet room. They are now near the windows. The library also extended its opening hours. This change lets visitors stay later in the evening.",
+     "items": [
+      {
+       "stem": "What does they refer to in the second sentence?",
+       "options": [
+        "The windows",
+        "The chairs",
+        "The visitors",
+        "The hours"
+       ],
+       "answer": 1,
+       "why": "前句的 chairs 被搬到安静的房间，they 指这些椅子。",
+       "point": "antecedent"
+      },
+      {
+       "stem": "This change refers to the longer opening _____.",
+       "options": [
+        "chairs",
+        "windows",
+        "hours",
+        "rooms"
+       ],
+       "answer": 2,
+       "why": "this change 承接前句延长开放时间的行为，即 longer opening hours。",
+       "point": "link"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "antecedent",
+    "link"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "The gardener planted a tree. It now stands beside the gate. What does it refer to?",
+         "options": [
+          "The tree",
+          "The gardener",
+          "The gate",
+          "The planting"
+         ],
+         "answer": 0,
+         "why": "前句种下的树如今位于门旁，it 指 tree。",
+         "point": "antecedent"
+        },
+        {
+         "stem": "The library ordered books. They arrived yesterday. What does they refer to?",
+         "options": [
+          "The readers",
+          "The books",
+          "The library",
+          "The order"
+         ],
+         "answer": 1,
+         "why": "前句订购的书昨天送达，they 指 books。",
+         "point": "antecedent"
+        },
+        {
+         "stem": "The school moved the chairs. These are now in the hall. What does these refer to?",
+         "options": [
+          "The hall",
+          "The students",
+          "The chairs",
+          "The school"
+         ],
+         "answer": 2,
+         "why": "前句搬动的椅子如今在大厅，these 指 chairs。",
+         "point": "antecedent"
+        },
+        {
+         "stem": "The team decided to meet earlier. This decision saved time. What does this decision refer to?",
+         "options": [
+          "A decision to cancel the meeting",
+          "A decision to delay the meeting",
+          "A decision to change the team",
+          "A decision to meet earlier"
+         ],
+         "answer": 3,
+         "why": "this decision 承接前句决定提前开会的事件。",
+         "point": "antecedent"
+        },
+        {
+         "stem": "The gate was repaired. It now opens _____.",
+         "options": [
+          "easily",
+          "badly",
+          "loudly",
+          "rarely"
+         ],
+         "answer": 0,
+         "why": "it 指修好的门。门修好后容易打开，即 opens easily。第二项 badly 与 repaired 的结果相反。",
+         "point": "link"
+        },
+        {
+         "stem": "The class changed its schedule. This _____ moved the lesson to Friday.",
+         "options": [
+          "lesson",
+          "change",
+          "schedule",
+          "teacher"
+         ],
+         "answer": 1,
+         "why": "this change 概括前句 changed its schedule 这一调整。第三项 schedule 是被调整的对象，不是调整这件事。",
+         "point": "link"
+        },
+        {
+         "stem": "Students read and discuss articles. Such _____ involve both reading and speaking.",
+         "options": [
+          "articles",
+          "readers",
+          "activities",
+          "teachers"
+         ],
+         "answer": 2,
+         "why": "such activities 概括阅读和讨论文章的活动。",
+         "point": "link"
+        },
+        {
+         "stem": "The library bought a lamp. It provides _____ for evening reading.",
+         "options": [
+          "power",
+          "shade",
+          "noise",
+          "light"
+         ],
+         "answer": 3,
+         "why": "it 指 lamp；灯为晚间阅读提供光线。",
+         "point": "link"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

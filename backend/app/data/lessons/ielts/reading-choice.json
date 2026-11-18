@@ -1,0 +1,212 @@
+{
+  "id": "reading-choice",
+  "title": "选择题　Multiple choice · 练习",
+  "goal": "依据文章证据回答细节、主旨和组合选择题。",
+  "skill": "阅读",
+  "exam": "雅思 IELTS Academic",
+  "points": [
+    {
+      "id": "detail",
+      "label": "核对具体关系与条件"
+    },
+    {
+      "id": "purpose",
+      "label": "概括主旨并判断写作目的"
+    },
+    {
+      "id": "verify",
+      "label": "核对组合中各项的独立依据"
+    }
+  ],
+  "sources": [
+    {
+      "id": "i2",
+      "title": "IELTS Academic: Reading test format",
+      "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+      "used": "阅读材料与题型"
+    },
+    {
+      "id": "syllabus",
+      "title": "雅思 IELTS Academic：课表",
+      "url": "docs/syllabi/ielts.md",
+      "used": "练习尺寸与知识点"
+    }
+  ],
+  "cards": [
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "小测",
+      "minutes": 12,
+      "pass": 0.75,
+      "points": [
+        "detail",
+        "purpose",
+        "verify"
+      ],
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "label": "Choose the correct answer.",
+              "look": "passage",
+              "text": "When Every Town Kept Its Own Time\n\nToday it seems obvious that a clock in one part of a country should show the same time as a clock in another. Until the middle of the nineteenth century, however, this was not the case in Britain. Each town kept its own local time, based on the position of the sun. Noon was the moment when the sun stood highest in the sky, and because the sun appears to move from east to west, noon arrived a little later in western towns than in eastern ones. Bristol, for example, kept a time about ten minutes behind that of London.\n\nFor most people, these differences hardly mattered. Life was organised around local events, and few people travelled far. Many villages had only one public clock, usually on the church, and it was set by the sun. Even for those who did, the stagecoach was slow enough for the difference to pass almost unnoticed. A journey from London to the west of England took many hours, and coach guards simply adjusted their watches as they went, so that passengers arrived to find the clocks of their destination agreeing with the guard's watch.\n\nThe railways changed this situation. Trains covered in a few hours distances that had previously taken a day or more, and they ran to published timetables. A timetable that listed departures in the local time of each station was confusing for passengers, who might find that a train appeared to take less time travelling in one direction than in the other. Passengers who wanted to change trains at another station had to calculate the difference for themselves. More seriously, railway staff working in different towns could be using different times. On lines where trains in both directions shared a single track, a misunderstanding about the time could bring two trains onto the same stretch of line, with obvious danger.\n\nRailway companies therefore began to adopt a single standard. The Great Western Railway is generally recorded as the first, introducing London time on its routes in 1840. Other companies followed, and by the end of the 1840s most British railways had adopted the same practice. The time they used was that of the Royal Observatory at Greenwich, in London, which had long kept accurate time for the purposes of navigation. Railway time, as it was often called, became a familiar idea within a few years.\n\nKeeping clocks in agreement over long distances required a means of sending the time from one place to another. This was provided by the electric telegraph, which was being built alongside many railway lines in the same period. From the 1850s, signals sent from Greenwich could tell stations and post offices across the country the exact time, allowing their clocks to be checked and corrected regularly.\n\nNot every town welcomed the change. Some local authorities saw no reason why their clocks should follow London rather than the sun, and for a time two systems existed side by side. A number of public clocks were made with two minute hands, one showing local time and the other London time. Gradually, however, the convenience of a single time won out, as more and more of daily life came to be organised around trains, post and telegraph.\n\nThe question was finally settled by law. In 1880, Parliament passed an act making Greenwich Mean Time the legal time throughout Great Britain. A few years later, at an international conference held in Washington in 1884, delegates chose the meridian passing through Greenwich as the starting point for measuring longitude around the world, a decision that later became the basis of the system of time zones used today.\n\nThe story of railway time shows how a change in technology can alter something as basic as the way people measure the day. Local solar time had served communities well for centuries, but once fast travel and instant communication linked distant towns, a shared time became a practical necessity. It is a reminder that standards which now seem natural were once a matter of local debate.",
+              "items": [
+                {
+                  "stem": "1. Why did differences in local time cause few problems before the railways?",
+                  "options": [
+                    "Most towns had already agreed to follow London time.",
+                    "Journeys were slow enough for travellers to adjust gradually.",
+                    "Coach companies did not publish any timetables.",
+                    "Clocks were not accurate enough to show the differences."
+                  ],
+                  "answer": 1,
+                  "why": "依据是 the stagecoach was slow enough for the difference to pass almost unnoticed，车上的人随路调表。“各镇已采用伦敦时间”与第一段相反。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "2. According to the writer, what was the most serious risk of using local times on the railways?",
+                  "options": [
+                    "Two trains might be sent onto the same single track.",
+                    "Passengers might misread the timetable and miss trains.",
+                    "Journeys might seem shorter in one direction than the other.",
+                    "Staff might refuse to work outside their own town."
+                  ],
+                  "answer": 0,
+                  "why": "依据是 More seriously … could bring two trains onto the same stretch of line。看错时刻表、行程显得长短不一只是给乘客带来的混乱。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "3. What made it possible to check clocks across the country against Greenwich?",
+                  "options": [
+                    "the railway timetables",
+                    "clocks with two minute hands",
+                    "the telegraph",
+                    "the observatory's navigation records"
+                  ],
+                  "answer": 2,
+                  "why": "依据是 This was provided by the electric telegraph … signals sent from Greenwich could tell stations and post offices … the exact time。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "4. Which TWO of the following are mentioned in the passage? i Some public clocks showed both local and London time; ii Some towns refused to let trains stop at their stations; iii Railway timetables continued to use local time after 1880; iv A law made Greenwich time official throughout Great Britain; v Church bells were rung to mark London noon.",
+                  "options": [
+                    "i and ii",
+                    "iii and v",
+                    "ii and iv",
+                    "i and iv"
+                  ],
+                  "answer": 3,
+                  "why": "文中说有些公共钟有两根分针（第 i 项），1880 年法律定格林尼治时间为法定时间（第 iv 项）；文中没有提到拒绝停车或教堂鸣钟。",
+                  "point": "verify"
+                },
+                {
+                  "stem": "5. What is the writer's main purpose in the passage?",
+                  "options": [
+                    "to argue that towns should have kept their local solar time",
+                    "to compare the speed of stagecoaches and trains",
+                    "to explain how the railways led to a single national time",
+                    "to describe the international system of time zones"
+                  ],
+                  "answer": 2,
+                  "why": "全文从各地自有时间写起，经铁路、电报到 1880 年立法，结尾说共同时间成为实际需要；时区只在倒数第二段提到。",
+                  "point": "purpose"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "label": "Choose the correct answer.",
+              "look": "passage",
+              "text": "Ice Before Refrigerators\n\nLong before refrigerators were invented, people found ways of keeping ice through the warmer months. In Britain, the most common solution among wealthy households was the ice house, a building designed to store ice collected in winter so that it could be used in spring and summer. Ice houses began to appear on large country estates in the seventeenth century and became much more common in the eighteenth and nineteenth centuries, when large numbers were built.\n\nThe ice itself came from local sources. In cold spells, workers cut blocks from frozen ponds, lakes and canals, or collected thin ice by breaking it into pieces. Some estates created shallow ponds especially for this purpose, since shallow water freezes more quickly than deep water. The work was cold and heavy, and it had to be done quickly before a thaw set in. The ice was carried to the ice house in carts and packed tightly inside, often with layers of straw between the blocks.\n\nThe design of an ice house was intended to keep heat away from the ice for as long as possible. The storage chamber was usually built of brick and shaped like an egg or a dome, and much of it was placed below ground, where the temperature remains relatively stable throughout the year. Many were built into the side of a slope facing north or were surrounded by trees, so that they were shaded from direct sunlight. Some had an outer wall and an inner wall with a gap between them, which added further insulation. Entry was usually through a short passage with a door at each end. Only one door was opened at a time, which limited the amount of warm air that could reach the chamber.\n\nOne of the most important features was hidden at the bottom of the chamber: a drain. Some melting was unavoidable, and if the meltwater had been left to collect around the base of the ice, it would have speeded up the melting of the remaining blocks. The drain carried this water away, keeping the ice as dry as possible. Builders sometimes added a trap in the drain to stop warm air from entering through it.\n\nThe ice was used in several ways. It kept food such as meat, fish and dairy produce fresh for longer, and it was used to cool drinks and to make iced desserts, which were fashionable among the wealthy. Ice was also valued in the treatment of illness, for example to bring down a high temperature. It was rarely used to cool rooms, since the quantities required would have been far too great.\n\nThe supply of ice was never certain. In a mild winter, local ponds might not freeze thickly enough, and an estate could reach the summer with an empty ice house. From the middle of the nineteenth century, this problem was eased by trade. Large quantities of ice were cut from lakes in Norway and North America and shipped to British ports, where it was stored in large commercial ice wells and sold to households and businesses. Imported ice was often cleaner than local pond ice and could be bought when it was needed.\n\nImported ice reduced the need for private ice houses, and the development of mechanical refrigeration in the late nineteenth and early twentieth centuries removed it altogether. Machines could now produce ice at any time of year, and later domestic refrigerators made it unnecessary to store ice at all. Most ice houses fell out of use, and many were filled in, demolished or simply forgotten.\n\nA considerable number survive, however, often hidden in the grounds of country houses and public parks. Some have been restored and opened to visitors, while others now serve as winter shelters for bats, which appreciate the same cool, stable conditions that once preserved the ice. Local history groups have surveyed many of the remaining examples and recorded their condition. These buildings are a reminder of the effort once required to obtain something that is now available at the touch of a switch.",
+              "items": [
+                {
+                  "stem": "1. Why were some ponds made shallow?",
+                  "options": [
+                    "so that ice could be carried to carts more easily",
+                    "so that the water would freeze more quickly",
+                    "so that workers could stand in them safely",
+                    "so that straw could be laid on the ice"
+                  ],
+                  "answer": 1,
+                  "why": "依据是 since shallow water freezes more quickly than deep water。运冰和铺稻草在文中出现，但不是挖浅水塘的原因。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "2. What was the purpose of the drain at the bottom of the chamber?",
+                  "options": [
+                    "to let fresh air reach the ice",
+                    "to supply water for making new ice",
+                    "to remove water that would make the ice melt faster",
+                    "to allow workers to clean the chamber"
+                  ],
+                  "answer": 2,
+                  "why": "依据是 if the meltwater had been left to collect … it would have speeded up the melting … The drain carried this water away。文中说存水弯是为了挡住热空气，与“让新鲜空气进来”相反。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "3. What problem could a mild winter cause for an estate?",
+                  "options": [
+                    "Its ice house might have no ice by summer.",
+                    "Its imported ice might arrive too late.",
+                    "Its ponds might flood the ice house.",
+                    "Its ice might be too thick to cut."
+                  ],
+                  "answer": 0,
+                  "why": "依据是 In a mild winter, local ponds might not freeze thickly enough, and an estate could reach the summer with an empty ice house。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "4. Which TWO reasons for the decline of private ice houses are given in the passage? i ice shipped from abroad; ii machines that could make ice; iii the collapse of many chambers; iv a shortage of skilled builders; v laws against cutting ice from canals.",
+                  "options": [
+                    "i and iii",
+                    "i and ii",
+                    "ii and iv",
+                    "iii and v"
+                  ],
+                  "answer": 1,
+                  "why": "倒数第二段说进口冰减少了对私家冰窖的需要，机械制冷使其完全不再需要；被填平、拆除是衰落的结果，不是原因，其余两项文中没有提到。",
+                  "point": "verify"
+                },
+                {
+                  "stem": "5. Which of the following best describes the passage as a whole?",
+                  "options": [
+                    "a comparison of British and Norwegian methods of cutting ice",
+                    "an argument that ice houses should be restored for wildlife",
+                    "a description of how fashionable desserts were made",
+                    "an account of how ice houses worked and why they were abandoned"
+                  ],
+                  "answer": 3,
+                  "why": "全文先讲冰的来源和冰窖的设计，再讲冰的用途、供应问题和衰落；蝙蝠和甜点都只是个别段落里的细节。",
+                  "point": "purpose"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "more": {
+        "kind": "choice",
+        "topics": [
+          "铁路与标准时间",
+          "冰窖",
+          "公共钟楼",
+          "邮票的出现",
+          "城市路灯",
+          "运河时代",
+          "地图测绘",
+          "公共浴室",
+          "天气预报的起源",
+          "图书馆借阅制度",
+          "港口与灯塔",
+          "集市与度量衡"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+ "id": "reading-features-method",
+ "title": "人物与特征配对",
+ "goal": "追踪对象的多次出现，将结论或特征归给正确对象。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "locate",
+   "label": "查找同一对象的各处相关信息"
+  },
+  {
+   "id": "attribute",
+   "label": "将结论或特征归给正确对象"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "雅思 IELTS Academic：课表",
+   "url": "docs/syllabi/ielts.md",
+   "used": "课程范围与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "特征配对题要把研究结论、发明或观点归给对应的对象。对象可以是人物、年代或类别。"
+    },
+    {
+     "box": "Researchers: Mara Kent; Paul Frost\nStatement: proposed a link between shade and germination"
+    },
+    {
+     "p": "这道题问的是谁提出了联系。提出假说的人和检验假说的人常常不是同一个人。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定特征",
+     "d": "标出题干中的对象、动作和限定。proposed a link 问的是谁提出了联系。"
+    },
+    {
+     "t": "2　追踪对象",
+     "d": "找出每个对象在文中出现的所有位置。代词和同义名词也可能指同一个对象。"
+    },
+    {
+     "t": "3　核对归属",
+     "d": "读完整句，确认动作是谁做的。proposed 是提出，tested 是检验，两者是不同的研究活动。"
+    },
+    {
+     "t": "4　核对时间",
+     "d": "区分早期观点和修订后的观点。题干问哪个时期，就按那个时期的证据作答。"
+    }
+   ]
+  },
+  {
+   "id": "relations",
+   "type": "table",
+   "title": "对象与研究关系",
+   "cols": [
+    "关系",
+    "原文",
+    "归属"
+   ],
+   "rows": [
+    [
+     "提出假说",
+     "Kent proposed that shade affects seeds.",
+     "Kent 提出联系。"
+    ],
+    [
+     "检验假说",
+     "Frost tested Kent's proposal.",
+     "Frost 检验联系。"
+    ],
+    [
+     "初步观点",
+     "Kent first attributed the change to shade.",
+     "最初观点属于 Kent。"
+    ],
+    [
+     "修改观点",
+     "Kent later considered moisture more important.",
+     "后来观点属于 Kent。"
+    ],
+    [
+     "年代与发明",
+     "In 1890, a workshop fitted a filter to the pump.",
+     "过滤装置对应 1890。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Kent suggested that shade slowed germination. Frost tested this suggestion with seeds in shaded and unshaded trays. Kent later accepted Frost's finding that water supply was more influential.\n\nWho tested the suggestion?\n1. Kent\n2. Frost\n3. Both researchers\n4. Neither researcher"
+    },
+    {
+     "p": "依据是 Frost tested this suggestion，检验者是 Frost，即第二项。Kent 提出了假说，后来接受了 Frost 的发现，但没有做检验。"
+    }
+   ]
+  },
+  {
+   "id": "distractors",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "情况",
+    "原文",
+    "判断"
+   ],
+   "rows": [
+    [
+     "提出与检验",
+     "Kent suggested it; Frost tested it.",
+     "检验者是 Frost。"
+    ],
+    [
+     "对象互换",
+     "Frost tested Kent's suggestion.",
+     "suggestion 属于 Kent。"
+    ],
+    [
+     "早期观点",
+     "Kent first favoured shade.",
+     "first 标明早期观点。"
+    ],
+    [
+     "观点变化",
+     "Kent later favoured moisture.",
+     "later 标明修订观点。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "locate",
+    "attribute"
+   ],
+   "groups": [
+    {
+     "text": "Vale proposed a link between light and growth. Lin tested Vale's proposal.",
+     "items": [
+      {
+       "stem": "Who proposed the link?",
+       "options": [
+        "Vale",
+        "Lin",
+        "Both researchers",
+        "Neither researcher"
+       ],
+       "answer": 0,
+       "why": "依据是 Vale proposed a link，提出者是 Vale，即第一项。Lin 只检验了这个联系。",
+       "point": "attribute"
+      }
+     ]
+    },
+    {
+     "text": "Orr described the shells. Chen later measured them and checked Orr's description.",
+     "items": [
+      {
+       "stem": "Who measured the shells?",
+       "options": [
+        "Orr",
+        "Chen",
+        "Both researchers",
+        "Neither researcher"
+       ],
+       "answer": 1,
+       "why": "依据是 Chen later measured them，测量者是 Chen，即第二项。Orr 只描述了贝壳。",
+       "point": "locate"
+      }
+     ]
+    },
+    {
+     "text": "In 1904 a workshop built a wooden pump. In 1912 it added a metal valve. In 1920 the valve was replaced.",
+     "items": [
+      {
+       "stem": "When was the metal valve added?",
+       "options": [
+        "In 1904",
+        "In 1920",
+        "In 1912",
+        "In both 1904 and 1920"
+       ],
+       "answer": 2,
+       "why": "依据是 In 1912 it added a metal valve，即第三项。1920 年是阀门被更换的时间。",
+       "point": "attribute"
+      }
+     ]
+    },
+    {
+     "text": "Reed initially favoured the river route. After studying the maps, Reed favoured the coastal route.",
+     "items": [
+      {
+       "stem": "Which route did Reed favour after studying the maps?",
+       "options": [
+        "The river route",
+        "Both routes equally",
+        "Neither route",
+        "The coastal route"
+       ],
+       "answer": 3,
+       "why": "依据是 After studying the maps, Reed favoured the coastal route，即第四项。river route 是 initially 的早期观点。",
+       "point": "locate"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "locate",
+    "attribute"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "Nora Bell proposed that a reflective roof would keep a workshop cooler. Ishan Roy tested the proposal by measuring two similar roofs. Bell later examined the measurements and revised her view: ventilation appeared more influential than the roof colour. Roy retained the measurements for comparison with a third building.",
+     "items": [
+      {
+       "stem": "Who proposed the effect of the roof? Options may be used more than once.",
+       "options": [
+        "Nora Bell",
+        "Ishan Roy",
+        "Both researchers",
+        "Neither researcher",
+        "The workshop staff"
+       ],
+       "answer": 0,
+       "why": "依据是 Nora Bell proposed that a reflective roof would keep a workshop cooler，提出者是 Bell，即第一项。",
+       "point": "attribute"
+      },
+      {
+       "stem": "Who measured the roofs? Options may be used more than once.",
+       "options": [
+        "Nora Bell",
+        "Ishan Roy",
+        "Both researchers",
+        "Neither researcher",
+        "The workshop staff"
+       ],
+       "answer": 1,
+       "why": "依据是 Ishan Roy tested the proposal by measuring two similar roofs，测量者是 Roy，即第二项。",
+       "point": "attribute"
+      },
+      {
+       "stem": "Who revised an earlier view? Options may be used more than once.",
+       "options": [
+        "Nora Bell",
+        "Ishan Roy",
+        "Both researchers",
+        "Neither researcher",
+        "The workshop staff"
+       ],
+       "answer": 0,
+       "why": "依据是 Bell later examined the measurements and revised her view，即第一项。Roy 只保留了测量数据，没有改变观点。",
+       "point": "locate"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "locate",
+    "attribute"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A study of seeds began with a question about water and light. Mira Lane noticed that seeds kept under a cover germinated later than those in open trays. She proposed that reduced light was responsible. The observation came from a single shelf, however, where the covered trays also received less water. Lane recorded both conditions in her notes instead of treating the difference in light as the only difference between the trays.\n\nA second researcher, Ravi Shah, designed a comparison to examine Lane's proposal. He placed seeds in covered and open trays but supplied equal quantities of water to both. Under those conditions the difference in germination time became small. Shah did not claim that light never affects seeds; his comparison addressed this particular set of seeds and conditions. He passed the measurements to Lane for further discussion.\n\nLane reviewed the figures and changed her initial explanation. She now considered the unequal water supply a more plausible explanation for the earlier delay. She also suggested repeating the work with seeds from another batch. Her revised interpretation was published alongside Shah's measurements, allowing readers to distinguish the original proposal from the later interpretation.\n\nA third researcher, Clara Moss, examined the trays rather than the seeds. She found that the covers altered evaporation and suggested a way to monitor moisture directly. Moss did not take part in the first comparison. Her suggestion concerned a future measurement, not the original reason Lane had given for the delay. Together the records show how an observation, a controlled comparison and a revised interpretation can belong to different stages of a study.",
+       "items": [
+        {
+         "stem": "Who first proposed that reduced light caused the delay? Options may be used more than once.",
+         "options": [
+          "Mira Lane",
+          "Ravi Shah",
+          "Clara Moss",
+          "Lane and Moss together",
+          "All three researchers"
+         ],
+         "answer": 0,
+         "why": "依据是第一段 She proposed that reduced light was responsible，She 指 Mira Lane，即第一项。Moss 没有参与最初的观察和假说。",
+         "point": "attribute"
+        },
+        {
+         "stem": "Who compared covered and open trays with equal water? Options may be used more than once.",
+         "options": [
+          "Mira Lane",
+          "Ravi Shah",
+          "Clara Moss",
+          "Lane and Moss together",
+          "All three researchers"
+         ],
+         "answer": 1,
+         "why": "依据是第二段 He placed seeds in covered and open trays but supplied equal quantities of water to both，He 指 Ravi Shah，即第二项。",
+         "point": "attribute"
+        },
+        {
+         "stem": "Who suggested measuring moisture in future? Options may be used more than once.",
+         "options": [
+          "Mira Lane",
+          "Ravi Shah",
+          "Clara Moss",
+          "Lane and Moss together",
+          "All three researchers"
+         ],
+         "answer": 2,
+         "why": "依据是 Clara Moss suggested a way to monitor moisture directly，即第三项。Lane 建议的是换一批种子重做，不是测湿度。",
+         "point": "locate"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A small workshop kept notes on changes to its water pump over several decades. In 1882 the workers fitted a wooden cover over the pump's moving parts. The cover protected the mechanism from falling debris, although it had to be removed for inspection. The workshop retained a drawing of the cover as well as a list of the materials used in its construction. Neither record gives the number of pumps operating elsewhere.\n\nIn 1891 the workshop added a removable filter at the inlet. The filter caught larger particles before water reached the pump. Workers could lift it out for cleaning without dismantling the wooden cover. A note from the same year records a discussion about changing the handle, but no change to the handle was made then. The date of a proposal must therefore be distinguished from the date of an alteration.\n\nIn 1903 a metal handle replaced the earlier wooden one. The new handle could be repaired independently of the filter. The inlet filter remained in use, and the cover continued to protect the mechanism. A later catalogue mistakenly described the filter as part of the 1903 alteration. The original workshop notes instead associate that year with the handle.\n\nFinally, in 1916 the workshop introduced a gauge to show pressure. The gauge supplied information about operation; it did not remove particles from water. A drawing made after its installation shows the gauge, handle and cover together. This drawing documents their later arrangement, but it does not mean that all three were introduced at the same time.",
+       "items": [
+        {
+         "stem": "When was the metal handle installed? Options may be used more than once.",
+         "options": [
+          "1882",
+          "1891",
+          "1916",
+          "1903",
+          "Both 1882 and 1916"
+         ],
+         "answer": 3,
+         "why": "依据是 In 1903 a metal handle replaced the earlier wooden one，即第四项。1891 年只讨论过换把手，没有更换。",
+         "point": "attribute"
+        },
+        {
+         "stem": "When was the removable inlet filter added? Options may be used more than once.",
+         "options": [
+          "1882",
+          "1891",
+          "1916",
+          "1903",
+          "Both 1882 and 1916"
+         ],
+         "answer": 1,
+         "why": "依据是 In 1891 the workshop added a removable filter at the inlet，即第二项。后来的目录把过滤器误记为 1903 年的改动。",
+         "point": "locate"
+        },
+        {
+         "stem": "When was the wooden protective cover fitted? Options may be used more than once.",
+         "options": [
+          "1882",
+          "1891",
+          "1916",
+          "1903",
+          "Both 1882 and 1916"
+         ],
+         "answer": 0,
+         "why": "依据是 In 1882 the workers fitted a wooden cover，即第一项。1916 年后的图纸画出了盖子，但不代表盖子是那时装的。",
+         "point": "locate"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

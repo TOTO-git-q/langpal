@@ -1,0 +1,509 @@
+{
+ "id": "listening-passage-numbers",
+ "title": "数量信息的听辨",
+ "goal": "辨认数量与范围的口头表达；将数值对应到正确对象和单位。",
+ "skill": "听力",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "number",
+   "label": "辨认数量与范围的口头表达"
+  },
+  {
+   "id": "referent",
+   "label": "将数值对应到正确对象和单位"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语六级（CET-6）：课表",
+   "url": "docs/syllabi/cet6.md",
+   "used": "数量信息的表达、知识点与练习规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "数量信息有四类：具体数值、比例、范围、约数。听到数字时，连同对象和单位一起记。变化量和变化后的总数要分开。"
+    },
+    {
+     "box": "The number of seats rose by fifteen to fifty. → Increase: 15 seats; new total: 50 seats."
+    },
+    {
+     "p": "by 后是增加量，to 后是增加后的总数。两个数的单位都是 seats。"
+    }
+   ]
+  },
+  {
+   "id": "teens",
+   "type": "table",
+   "title": "十几与几十",
+   "cols": [
+    "对照",
+    "数量",
+    "例"
+   ],
+   "rows": [
+    [
+     "thirteen / thirty",
+     "13 / 30",
+     "Thirteen students registered; thirty attended the talk."
+    ],
+    [
+     "fourteen / forty",
+     "14 / 40",
+     "Fourteen chairs were repaired; forty remained in use."
+    ],
+    [
+     "fifteen / fifty",
+     "15 / 50",
+     "Fifteen boxes were empty; fifty held books."
+    ],
+    [
+     "sixteen / sixty",
+     "16 / 60",
+     "Sixteen forms arrived today; sixty arrived yesterday."
+    ]
+   ],
+   "note": "单独念时，-teen 重读第二个音节，-ty 重读第一个音节。后面接名词时，-teen 的重音常移到第一个音节，如 thirteen maps。数字要连同对象一起记。"
+  },
+  {
+   "id": "fractions",
+   "type": "table",
+   "title": "分数与百分比",
+   "cols": [
+    "表达",
+    "数量",
+    "例"
+   ],
+   "rows": [
+    [
+     "one half",
+     "1/2",
+     "One half of the garden is shaded."
+    ],
+    [
+     "one quarter",
+     "1/4",
+     "One quarter of the tickets were reserved."
+    ],
+    [
+     "three quarters",
+     "3/4",
+     "Three quarters of the rooms were occupied."
+    ],
+    [
+     "twenty percent",
+     "20%",
+     "Twenty percent of the forms were incomplete."
+    ]
+   ],
+   "note": "分数和百分比是哪个总体的一部分，看 of 后面的名词。"
+  },
+  {
+   "id": "ranges",
+   "type": "table",
+   "title": "范围、约数与变化",
+   "cols": [
+    "表达",
+    "含义",
+    "例"
+   ],
+   "rows": [
+    [
+     "between ten and twelve",
+     "10 至 12 的范围",
+     "Between ten and twelve people attended."
+    ],
+    [
+     "from twenty to thirty",
+     "20 至 30 的范围",
+     "The journey takes from twenty to thirty minutes."
+    ],
+    [
+     "about forty",
+     "大约 40",
+     "About forty visitors came in the morning."
+    ],
+    [
+     "roughly fifty",
+     "大约 50",
+     "Roughly fifty trees were counted."
+    ],
+    [
+     "increase by",
+     "增加的数量",
+     "Attendance increased by ten to forty people."
+    ],
+    [
+     "increase to",
+     "增加后的总数",
+     "Attendance increased from thirty to forty people."
+    ]
+   ],
+   "note": "about 和 roughly 是约数，写成 exactly 的选项不对。by 后是变化量，to 后是变化后的总数。"
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The training room originally had thirty chairs. Staff added fifteen chairs for a larger group, so the total rose to forty-five. About fifty people had registered, but five later withdrew. The room now has enough chairs for the remaining participants."
+    },
+    {
+     "box": "How many chairs were added?\n1. About 50 chairs\n2. Exactly 45 chairs\n3. Exactly 15 chairs\n4. Exactly 30 chairs"
+    },
+    {
+     "p": "added fifteen chairs 表示增加量是 15，对应第三项。30 是原有座位数，45 是增加后的座位总数。"
+    }
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "number",
+    "referent"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The museum catalogued thirteen maps on Monday and thirty photographs on Tuesday. The maps were stored in flat drawers, while the photographs went into labelled boxes. Staff kept separate records of the two kinds of material so that each item could be located later."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "How many maps did staff catalogue?",
+       "options": [
+        "13 maps",
+        "30 maps",
+        "13 photographs",
+        "30 photographs"
+       ],
+       "answer": 0,
+       "why": "thirteen maps on Monday 将 13 与地图对应。",
+       "point": "number"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A quarter of the garden is used for herbs, while half is used for vegetables. The remaining area contains paths and a small shed. The group checks the planting plan each spring before deciding whether to change the use of any part of the garden."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What proportion of the garden is used for herbs?",
+       "options": [
+        "One half of the garden",
+        "Three quarters of the garden",
+        "One quarter of the garden",
+        "The entire garden area"
+       ],
+       "answer": 2,
+       "why": "A quarter of the garden is used for herbs 将四分之一与香草区对应。",
+       "point": "referent"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The workshop lasts between fifteen and twenty minutes. After it ends, visitors may spend another ten minutes looking at the tools. Staff repeat the workshop in the afternoon, using the same equipment and allowing the same additional time for questions."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "How long does the workshop last?",
+       "options": [
+        "Exactly 10 minutes",
+        "Between 15 and 20 minutes",
+        "Between 10 and 15 minutes",
+        "Exactly 20 minutes"
+       ],
+       "answer": 1,
+       "why": "lasts between fifteen and twenty minutes 给出工作坊时长的范围。",
+       "point": "number"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "number",
+    "referent"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Attendance at the choir rehearsal increased by ten people to forty. The conductor had moved the rehearsal to a larger room, which had fifty chairs. The choir kept a record of the count so it could choose a suitable room for the following week."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "How many people attended after the increase?",
+       "options": [
+        "10 people",
+        "30 people",
+        "50 people",
+        "40 people"
+       ],
+       "answer": 3,
+       "why": "increased by ten people to forty 中，to forty 指增加后的总人数。",
+       "point": "referent"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Roughly sixty visitors attended the morning session, compared with exactly sixteen at the afternoon session. Staff counted the afternoon visitors individually, but the morning total was estimated from the number of groups. Both sessions used the same room and offered the same demonstration."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "How many visitors attended the morning session?",
+       "options": [
+        "Exactly 16 visitors",
+        "Approximately 60 visitors",
+        "Exactly 60 visitors",
+        "Approximately 16 visitors"
+       ],
+       "answer": 1,
+       "why": "Roughly sixty visitors attended the morning session 表示上午人数约为 60。",
+       "point": "number"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Twenty percent of the letters were sent by email, while fifty percent were delivered by hand. The remaining letters were sent by post. Staff recorded the method of delivery separately from the date on which each letter was originally prepared."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What percentage of the letters was delivered by hand?",
+       "options": [
+        "20 percent",
+        "30 percent",
+        "50 percent",
+        "70 percent"
+       ],
+       "answer": 2,
+       "why": "fifty percent were delivered by hand 将 50% 与当面递送对应。",
+       "point": "referent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "number",
+    "referent"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the passage.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "A book fair received fourteen boxes of new books and forty boxes of used books. Volunteers sorted the two collections separately before the fair opened. The new books were placed near the entrance, and the used books went on tables farther inside."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "How many boxes of new books arrived?",
+         "options": [
+          "14 boxes",
+          "40 boxes",
+          "14 tables",
+          "40 tables"
+         ],
+         "answer": 0,
+         "why": "fourteen boxes of new books 表明新书有 14 箱。",
+         "point": "number"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the passage.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "A theater reserved one quarter of its seats for students and one half for other local residents. The rest were offered to visitors from outside the area. The reservations were recorded separately before any unused seats were released."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What proportion of seats was reserved for students?",
+         "options": [
+          "One half of the seats",
+          "One quarter of the seats",
+          "Three quarters of the seats",
+          "The whole number of seats"
+         ],
+         "answer": 1,
+         "why": "one quarter of its seats for students 把四分之一与学生对应。",
+         "point": "referent"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the passage.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The cleaning team expects the work to take between thirty and forty minutes. Afterward, staff will spend fifteen minutes checking the room. The estimate covers the cleaning itself; the separate check begins only when cleaning has finished."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is the estimated duration of cleaning?",
+         "options": [
+          "Exactly 15 minutes",
+          "Between 15 and 30 minutes",
+          "Between 30 and 40 minutes",
+          "Exactly 40 minutes"
+         ],
+         "answer": 2,
+         "why": "work to take between thirty and forty minutes 给出清洁工作的预计时长。",
+         "point": "number"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the passage.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The number of seats in the hall rose by fifteen to fifty after staff brought in extra chairs. The hall had previously held thirty-five seats. The new total was recorded before visitors entered, and the remaining chairs stayed in storage."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "How many seats were added?",
+         "options": [
+          "35 seats",
+          "50 seats",
+          "15 visitors",
+          "15 seats"
+         ],
+         "answer": 3,
+         "why": "rose by fifteen to fifty 中，by fifteen 是增加的座位数。",
+         "point": "referent"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the passage.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Roughly seventy people attended the first concert, while exactly seventeen attended the later talk. Staff estimated the concert audience from the number of occupied rows. They counted the smaller group at the talk individually before it began."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "How many people attended the concert?",
+         "options": [
+          "Approximately 70 people",
+          "Exactly 70 people",
+          "Approximately 17 people",
+          "Exactly 17 people"
+         ],
+         "answer": 0,
+         "why": "Roughly seventy people attended the first concert 表示约 70 人。",
+         "point": "number"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the passage.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The survey found that thirty percent of respondents preferred email updates, while sixty percent preferred printed notices. The remaining respondents expressed no preference. The survey counted preferences, not the number of notices actually sent."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What percentage preferred printed notices?",
+         "options": [
+          "30 percent of respondents",
+          "60 percent of respondents",
+          "30 percent of notices sent",
+          "60 percent of notices sent"
+         ],
+         "answer": 1,
+         "why": "sixty percent preferred printed notices 指受访者中偏好纸质通知的比例。",
+         "point": "referent"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

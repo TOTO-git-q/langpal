@@ -1,0 +1,55 @@
+{
+ "id": "listening-p4-diagram",
+ "title": "听力图解标注",
+ "goal": "依据位置和功能对应图解中的部件名称。",
+ "skill": "听力",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [{"id": "part", "label": "依据空间位置识别部件"}, {"id": "function", "label": "将部件名称与功能相匹配"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "听力图解标注与听力课教学规格"}],
+ "cards": [
+  {"id": "type", "type": "text", "title": "题型", "body": [{"p": "图解标注题要把录音里的名称对应到箭头所指的部件上。剖面图画出外层和内部结构。植物结构图画出各部分的位置。"}, {"box": "Outer edge → [cover | core] ← centre"}, {"p": "两个箭头的端点分别是 cover 和 core。名称看箭头的端点，不看箭头经过的地方。"}]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　辨认图形", "d": "观察图形的外缘、内部和方向。剖面图显示被切开的内部。"},
+   {"t": "2　确定端点", "d": "沿箭头找到实际指向的部件。相邻部件的名称不能互换。"},
+   {"t": "3　对应功能", "d": "把录音说的作用和图中的位置对上。支撑件和通道常常挨在一起，要按作用区分。"},
+   {"t": "4　核对答案", "d": "原词题按字数限制，写录音里的名称。名称表题从给出的名称中选一个。"}
+  ]},
+  {"id": "positions", "type": "table", "title": "位置与功能", "cols": ["关系", "录音例句", "对应"], "rows": [
+   ["外层", "The outer cover protects the core.", "cover 位于外缘"],
+   ["内部", "The core lies inside the cover.", "core 位于 cover 内"],
+   ["支撑", "A frame holds the chamber upright.", "frame 支撑 chamber"],
+   ["通道", "A tube carries water into the chamber.", "tube 输送水"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [{"box": "Recording: A frame surrounds the chamber and supports it. A narrow tube runs through the frame into the chamber.\n\n(1) → ┌─frame─┐\n│chamber←(2)│\n└──┬──┘\ntube→│\n\nWrite ONE WORD from the recording. (1) ______"}, {"p": "答案是 frame。箭头的端点在外面的支撑件上。tube 是穿过支撑件的通道。"}]},
+  {"id": "errors", "type": "table", "title": "常见错误", "cols": ["情况", "依据", "核对"], "rows": [
+   ["外层与内部混淆", "cover surrounds core", "外层是 cover"],
+   ["支撑件与通道混淆", "frame supports; tube carries water", "按作用区分 frame 和 tube"],
+   ["按箭头经过处作答", "arrow ends at chamber", "名称对应端点 chamber"],
+   ["选了图中没有的部件", "leaf is in the list but not on the diagram", "名称表里有多余的名称，图中没有的不选"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["part", "function"], "groups": [
+   {"text": "(1) → [outer layer | seed]", "audio": {"lines": [{"who": "A", "text": "The shell forms the outside and surrounds the seed."}]}, "items": [{"stem": "Write ONE WORD from the recording. Label (1): ______", "accept": ["shell"], "why": "依据是 The shell forms the outside。箭头指向外层，答案是 shell。", "point": "part"}]},
+   {"text": "[cover | inner part] ← (1)", "audio": {"lines": [{"who": "A", "text": "The centre lies inside the cover."}]}, "items": [{"stem": "Write ONE WORD from the recording. Label (1): ______", "accept": ["centre"], "why": "依据是 The centre lies inside the cover。箭头指向内部，答案是 centre。", "point": "part"}]},
+   {"text": "(1) → [supporting structure]", "audio": {"lines": [{"who": "A", "text": "The frame supports the vessel; the pipe carries water."}]}, "items": [{"stem": "Choose the name for label (1).", "options": ["pipe", "vessel", "frame", "water"], "answer": 2, "why": "依据是 The frame supports the vessel。起支撑作用的是 frame，即第三项。vessel 是被支撑的部件。", "point": "function"}]},
+   {"text": "(1) → [water channel]", "audio": {"lines": [{"who": "A", "text": "The rod supports the vessel, while the tube carries water."}]}, "items": [{"stem": "Choose the name for label (1).", "options": ["vessel", "rod", "water", "tube"], "answer": 3, "why": "依据是 the tube carries water。输水的通道是 tube，即第四项。rod 起支撑作用。", "point": "function"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["part", "function"], "groups": [{"text": "Plant stem cross-section\n(1)→┌─outer layer─┐\n│●←(2): channel│\n│─←(3): support│\n└─────────────┘", "audio": {"lines": [{"who": "A", "text": "This diagram shows a simplified cross-section of a woody stem. The outer layer is bark. It covers the tissues within and can help protect them from damage. Inside the stem are narrow structures called vessels. These form channels through which water moves. The vessels are shown as circles in this simplified view because they run along the length of the stem, across the plane of the cut. Another internal component is the fibre. Fibres provide mechanical support. On the diagram a short line represents a fibre, while the circular mark represents a vessel. These marks do not show the actual number or detailed arrangement of structures in a real stem. The purpose is to distinguish an outer protective layer from two different kinds of internal tissue. The vessel is associated with transport, whereas the fibre is associated with support. A leaf may be attached to a stem, but it is not the outer layer or either of the internal structures indicated here. The arrows end on the components to be named. Their tips, rather than their starting positions, identify the parts. The diagram is a teaching model, and the relative sizes in it are simplified. In an actual woody stem, tissues have a more complex arrangement. In this model, the positions matter more than the exact length of either internal mark."}]}, "items": [
+   {"stem": "Choose the name for label (1).", "options": ["vessel", "leaf", "bark", "stem", "fibre"], "answer": 2, "why": "依据是 The outer layer is bark。箭头指向外层，名称是 bark。", "point": "part"},
+   {"stem": "Choose the name for label (2).", "options": ["vessel", "leaf", "bark", "stem", "fibre"], "answer": 0, "why": "依据是 These form channels through which water moves。圆点是输水的通道，名称是 vessel。", "point": "function"},
+   {"stem": "Choose the name for label (3).", "options": ["vessel", "leaf", "bark", "stem", "fibre"], "answer": 4, "why": "依据是 Fibres provide mechanical support。短线是起支撑作用的部分，名称是 fibre。", "point": "function"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["part", "function"], "sets": [{"id": "set-a", "groups": [
+   {"text": "Water sampler cross-section\n(1)→┌─outer layer─┐\n│┌space←(2)┐│\n│└────┬────┘│\n└─────┼─────┘\n(3)→│ water channel", "audio": {"lines": [{"who": "A", "text": "Consider a teaching model of a water sampler. In cross-section, its outer layer is called the casing. This surrounds a chamber in which a sample can be held. The casing protects the chamber from contact with the surrounding material. It is not itself the space where the sample is stored. Water enters the chamber through a narrow tube at the bottom of the model. The tube is a channel, not a support. A separate bracket holds the sampler in position during the demonstration. The bracket is outside the drawing and is not one of the labelled parts. The arrows on the diagram point to three distinct features. The first ends at the outside layer, the second at the space within it, and the third at the channel leading into that space. In this model the casing and chamber are drawn with simple rectangular outlines. The tube is shown entering from below, although other designs may place a channel differently. The diagram represents the arrangement of this particular model rather than every sampler. The names are connected to functions: protection for the casing, storage for the chamber, and transport for the tube. These distinctions matter when the parts are described together, because a component may be mentioned before the one whose arrow appears first. Position and function provide separate ways to check the identification."}]}, "items": [
+    {"stem": "Write ONE WORD from the recording. Label (1): ______", "accept": ["casing"], "why": "依据是 its outer layer is called the casing。箭头指向外层，答案是 casing。", "point": "part"},
+    {"stem": "Write ONE WORD from the recording. Label (2): ______", "accept": ["chamber"], "why": "依据是 a chamber in which a sample can be held。外壳里面存放样品的空间是 chamber。", "point": "part"},
+    {"stem": "Write ONE WORD from the recording. Label (3): ______", "accept": ["tube"], "why": "依据是 Water enters the chamber through a narrow tube。通向内部空间的通道是 tube。", "point": "function"}
+   ]},
+   {"text": "Root teaching model\n(4)→┌─outer layer─┐\n│●←(5): channel│\n│─←(6): support│\n└─────────────┘", "audio": {"lines": [{"who": "A", "text": "This simplified model represents a root in cross-section. Its outer layer is labelled skin. The skin surrounds the internal tissues and is shown as the outer boundary of the drawing. Within the root, a vessel is represented by a circle. It is a channel involved in the movement of water. A fibre is represented by a short line and provides support. Neither the vessel nor the fibre is the external covering. A leaf is included in the list of names for comparison, but it is a separate plant organ and is not indicated on this root diagram. In a real root, the number and arrangement of tissues would be more complex than these three marks suggest. This model isolates the distinction between an outer covering and two structures within it. It also contrasts a channel with a supporting component. The arrow tips end at the structures to be identified. The first tip touches the outer boundary. The second touches the circle representing the channel. The third touches the line representing the supporting component. The words used in the description name the structures, while the diagram shows their relative positions. The simple shapes are conventions for this teaching model, not detailed drawings of individual cells. The model therefore helps identify the relationships without claiming to reproduce the complete anatomy of a root."}]}, "items": [
+    {"stem": "Choose the name for label (4).", "options": ["leaf", "fibre", "skin", "root", "vessel"], "answer": 2, "why": "依据是 Its outer layer is labelled skin。箭头指向外层，名称是 skin。", "point": "part"},
+    {"stem": "Choose the name for label (5).", "options": ["leaf", "fibre", "skin", "root", "vessel"], "answer": 4, "why": "依据是 a vessel is represented by a circle. It is a channel。圆点是通道，名称是 vessel。", "point": "function"},
+    {"stem": "Choose the name for label (6).", "options": ["leaf", "fibre", "skin", "root", "vessel"], "answer": 1, "why": "依据是 A fibre is represented by a short line and provides support。短线是支撑部分，名称是 fibre。", "point": "function"}
+   ]}
+  ]}]}
+ ]
+}

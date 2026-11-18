@@ -1,0 +1,53 @@
+{
+ "id": "translation-names", "title": "文化名称与解释性表达", "goal": "能选择给定的文化名称，并用简短英语说明其特征。", "skill": "翻译", "exam": "大学英语四级（CET-4）", "mastery": "once",
+ "points": [{"id": "name", "label": "选择已给词表中的合适名称"}, {"id": "explain", "label": "用简短英语说明文化事物的特征"}],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译教学所依据的大纲"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "文化名称可以使用通行译名，也可保留拼音并补充简短解释。解释应说明事物的类别及主要特征。"}, {"box": "原文：粽子是一种用叶子包裹糯米制成的食物。\n译文：Zongzi is a food made with glutinous rice wrapped in leaves."}, {"p": "zongzi 保留拼音；a food 给出类别，后面的短语说明材料和制作方式。"}]},
+  {"id": "festivals", "type": "table", "title": "词汇表：节日", "cols": ["名称", "英文名称", "简短说明"], "rows": [
+   ["春节", "Spring Festival", "a festival marking the lunar new year"],
+   ["端午节", "Dragon Boat Festival", "a festival associated with dragon boat races"],
+   ["中秋节", "Mid-Autumn Festival", "a festival associated with the autumn full moon"],
+   ["节日名称", "festival", "先给名称，再用说明写出节日的特征。"]
+  ]},
+  {"id": "foods", "type": "table", "title": "词汇表：饮食", "cols": ["名称", "英文名称", "简短说明"], "rows": [
+   ["粽子", "zongzi", "a food made with glutinous rice wrapped in leaves"],
+   ["饺子", "jiaozi", "dumplings made with dough and filling"],
+   ["月饼", "mooncake", "a pastry traditionally eaten at the Mid-Autumn Festival"],
+   ["饮食名称", "food", "先给名称，再用说明写出材料或用途。"]
+  ]},
+  {"id": "crafts", "type": "table", "title": "词汇表：工艺", "cols": ["名称", "英文名称", "简短说明"], "rows": [
+   ["剪纸", "paper cutting", "the craft of cutting designs from paper"],
+   ["刺绣", "embroidery", "the craft of decorating fabric with stitches"],
+   ["陶艺", "pottery", "the craft of making objects from clay"],
+   ["工艺名称", "craft", "先给名称，再用说明写出材料或技法。"]
+  ]},
+  {"id": "buildings", "type": "table", "title": "词汇表：建筑", "cols": ["名称", "英文名称", "简短说明"], "rows": [
+   ["四合院", "siheyuan", "a courtyard house with buildings around a courtyard"],
+   ["亭子", "pavilion", "a small building used as a place to rest"],
+   ["牌坊", "paifang", "a traditional ornamental gateway"],
+   ["建筑名称", "building", "先给名称，再用说明写出形制或用途。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [{"box": "词表：四合院 siheyuan；亭子 pavilion；牌坊 paifang。\n原文：四合院是一种房屋，建筑围绕庭院排列。\n1. A siheyuan is a traditional ornamental gateway.\n2. A siheyuan is a house with buildings around a courtyard.\n3. A pavilion is a house with buildings around a courtyard.\n4. A paifang is a place to rest beside a courtyard."}, {"p": "词表中四合院对应 siheyuan。第二项保留房屋类别和围绕庭院的特征。"}]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["name", "explain"], "groups": [{"items": [
+   {"stem": "词表：春节 Spring Festival；端午节 Dragon Boat Festival；中秋节 Mid-Autumn Festival。原文：春节是农历新年。Which name is given for 春节?", "options": ["Spring Festival", "Dragon Boat Festival", "Mid-Autumn Festival", "the lunar new year"], "answer": 0, "why": "词表把春节对应为 Spring Festival，对应第一项。第四项是原文的解释，不是名称。", "point": "name"},
+   {"stem": "原文：剪纸是一种从纸上剪出图案的工艺。Which explanation keeps the category and method?", "options": ["a craft of decorating paper with stitches", "a craft of cutting designs from paper", "a design printed on a sheet of paper", "a craft of folding paper into shapes"], "answer": 1, "why": "原文说剪纸是从纸上剪出图案的工艺。craft 说明类别，cutting designs from paper 说明技法，对应第二项。", "point": "explain"},
+   {"stem": "词表：粽子 zongzi；饺子 jiaozi；月饼 mooncake。原文：月饼是一种糕点。Which name is given for 月饼?", "options": ["zongzi", "jiaozi", "mooncake", "a pastry"], "answer": 2, "why": "词表把月饼对应为 mooncake，对应第三项。第四项是原文的类别糕点，不是名称。", "point": "name"},
+   {"stem": "原文：四合院是一种建筑围绕庭院排列的房屋。Which explanation keeps the main feature?", "options": ["a gateway standing in front of a courtyard", "a small resting building inside a courtyard", "a single house with a courtyard behind it", "a house with buildings around a courtyard"], "answer": 3, "why": "原文说四合院是建筑围绕庭院排列的房屋。house 表示类别，buildings around a courtyard 保留布局，对应第四项。", "point": "explain"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["name", "explain"], "groups": [{"text": "词表：剪纸 paper cutting；刺绣 embroidery；陶艺 pottery。原文：展览介绍剪纸和刺绣。剪纸从纸上剪出图案，刺绣用针线装饰织物。", "items": [
+   {"stem": "Which name corresponds to 刺绣 in the supplied list?", "options": ["embroidery", "paper cutting", "pottery", "stitches"], "answer": 0, "why": "词表把刺绣对应为 embroidery，对应第一项。", "point": "name"},
+   {"stem": "Which explanation retains the material and method of paper cutting?", "options": ["decorating fabric with stitches", "cutting designs from paper", "making objects from clay", "decorating paper with stitches"], "answer": 1, "why": "原文说剪纸从纸上剪出图案。cutting designs from paper 保留了材料纸和剪出图案的动作，对应第二项。", "point": "explain"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["name", "explain"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "词表：春节 Spring Festival；端午节 Dragon Boat Festival；中秋节 Mid-Autumn Festival。原文：中秋节与秋天的圆月有关。Which name is given for 中秋节?", "options": ["Mid-Autumn Festival", "Dragon Boat Festival", "Spring Festival", "the autumn full moon"], "answer": 0, "why": "词表把中秋节对应为 Mid-Autumn Festival，对应第一项。第四项是原文提到的圆月，不是节日名称。", "point": "name"},
+   {"stem": "原文：刺绣是一种用针线装饰织物的工艺。Which explanation preserves the category and method?", "options": ["a craft of cutting designs out of fabric", "a craft of decorating fabric with stitches", "a piece of fabric decorated with printed designs", "a craft of making fabric with needles"], "answer": 1, "why": "原文说刺绣用针线装饰织物。craft 表示类别，decorating fabric with stitches 说明技法，对应第二项。", "point": "explain"},
+   {"stem": "词表：粽子 zongzi；饺子 jiaozi；月饼 mooncake。原文：粽子用叶子包裹糯米制成。Which name is given for 粽子?", "options": ["mooncake", "jiaozi", "zongzi", "glutinous rice"], "answer": 2, "why": "词表把粽子对应为 zongzi，对应第三项。第四项是原料糯米，不是名称。", "point": "name"},
+   {"stem": "原文：牌坊是一种传统的装饰性门楼。Which explanation retains the category and feature?", "options": ["a traditional house around a courtyard", "a modern ornamental gateway", "a traditional gateway built for defense", "a traditional ornamental gateway"], "answer": 3, "why": "原文说牌坊是传统的装饰性门楼。gateway 表示门楼，traditional ornamental 保留传统和装饰性两个特征，对应第四项。", "point": "explain"},
+   {"stem": "词表：剪纸 paper cutting；刺绣 embroidery。原文：剪纸是从纸上剪出图案的工艺。Arrange the explanation.", "lead": "Paper cutting", "chunks": ["is the craft", "of cutting", "designs from", "paper"], "tail": ".", "extra": ["fabric"], "why": "词表给出 paper cutting，后文保留纸和剪出图案的技法。", "point": "explain"},
+   {"stem": "词表：四合院 siheyuan；牌坊 paifang。原文：四合院的建筑围绕庭院排列。Arrange the given translation.", "lead": "A siheyuan", "chunks": ["has buildings", "arranged", "around", "a courtyard"], "tail": ".", "extra": ["gateway"], "why": "词表给出 siheyuan，arranged around a courtyard 表示围绕庭院排列。", "point": "name"},
+   {"stem": "词表：粽子 zongzi；饺子 jiaozi。原文：粽子是用叶子包裹糯米制成的食物。Zongzi is a food made with glutinous rice ___ leaves. Complete with wrapped in.", "accept": ["wrapped in"], "why": "wrapped in leaves 表示用叶子包裹。", "point": "explain"},
+   {"stem": "词表：剪纸 paper cutting；刺绣 embroidery。原文：剪纸是从纸上剪出图案的工艺。___ is the craft of cutting designs from paper. Complete with the name in the supplied list.", "accept": ["paper cutting"], "why": "词表将剪纸对应 paper cutting。", "point": "name"}
+  ]}]}]}
+ ]
+}

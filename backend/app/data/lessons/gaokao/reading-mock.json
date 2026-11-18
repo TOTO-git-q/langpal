@@ -1,0 +1,357 @@
+{
+ "id": "reading-mock",
+ "title": "阅读模拟测试",
+ "goal": "依据短文证据完成阅读理解和句子还原。",
+ "skill": "阅读",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "passage",
+   "label": "完成阅读理解的证据判断"
+  },
+  {
+   "id": "seven",
+   "label": "完成整篇文章的句子还原"
+  }
+ ],
+ "sources": [
+  {
+   "id": "g4",
+   "title": "2024英语新课标适应性测试 第3页",
+   "url": "https://www.neea.edu.cn/res/Home/2401/24010501.jpg",
+   "used": "G4 阅读第一节题量与分值"
+  },
+  {
+   "id": "g5",
+   "title": "2024英语新课标适应性测试 第8页",
+   "url": "https://www.neea.edu.cn/res/Home/2401/24010506.jpg",
+   "used": "G5 阅读第二节题量与选句形式"
+  },
+  {
+   "id": "syllabus",
+   "title": "高考英语（新课标卷）课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "课程组卷方式和训练设置"
+  }
+ ],
+ "cards": [
+  {
+   "id": "description",
+   "type": "text",
+   "title": "说明",
+   "src": "g4 第3页；g5 第8页",
+   "body": [
+    {
+     "p": "2024 年适应性测试的阅读第一节为 15 题，第二节为 5 题，每题 2.5 分。第二节从 7 个句子中选出 5 句。"
+    },
+    {
+     "p": "本课程的阅读理解共 4 篇，各配 3、4、4、4 题。句子还原用 1 篇材料。39 分钟是课程训练的时长。阅读理解的篇数和各节时长尚未从官方资料中确认。"
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 39,
+   "pass": 0.7,
+   "points": [
+    "passage",
+    "seven"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "The Riverside Repair Room\n\nOn the first Saturday of each month, the Riverside Community Hall becomes a repair room. Residents bring small household objects that no longer work as expected, and volunteer repairers help them examine the problem. The event began when a group of neighbors noticed that many useful items were being thrown away because their owners did not know how to fix a loose part or a broken connection.\n\nThe repair room is open from 10 a.m. to 1 p.m. Visitors should register at the entrance before joining a table. Each visitor may bring one item at a time, so that volunteers can help as many people as possible. If time remains after the first repair, a visitor may return to the entrance and register another item. There is no charge, although visitors may contribute toward replacement materials if they choose.\n\nThe volunteers work on clothing, bicycles, and small mechanical objects. They do not accept appliances that must be connected to the electrical supply during testing. Visitors with such items are given a list of local professional services. The volunteers cannot promise that every object will be repaired; sometimes a replacement part is unavailable, or the damage is beyond the tools on hand.\n\nOwners are encouraged to stay at the table while the work is being done. A volunteer might show how to sew a loose button or adjust a bicycle brake, explaining each step as the owner watches. Organizers hope that visitors will leave with more than a working object: they may also learn a method they can use again. To avoid a long wait, visitors can check the hall noticeboard for dates when a particular repair team will be absent.",
+       "items": [
+        {
+         "stem": "What should a visitor do before taking an item to a repair table?",
+         "options": [
+          "Buy replacement materials at the hall.",
+          "Register the item at the hall entrance.",
+          "Contact a professional repair service.",
+          "Check whether all repair teams are present."
+         ],
+         "answer": 1,
+         "why": "原文 Visitors should register at the entrance before joining a table：去修理桌之前先在入口登记，即第二项。",
+         "point": "passage"
+        },
+        {
+         "stem": "Which item is outside the volunteers' service?",
+         "options": [
+          "A bicycle with a brake that needs adjusting",
+          "A coat with a loose button to be sewn",
+          "A small mechanical object that has stopped working",
+          "An appliance needing power during testing"
+         ],
+         "answer": 3,
+         "why": "原文 They do not accept appliances that must be connected to the electrical supply during testing：测试时要通电的电器不收，即第四项。",
+         "point": "passage"
+        },
+        {
+         "stem": "Why are owners encouraged to remain at the table?",
+         "options": [
+          "They can learn techniques from the repairer.",
+          "They can register a second item sooner.",
+          "They must provide all replacement materials.",
+          "They must test every appliance themselves."
+         ],
+         "answer": 0,
+         "why": "原文说志愿者边修边讲解每一步，组织者希望来访者 learn a method they can use again，即第一项。",
+         "point": "passage"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "The Missing Labels\n\nWhen Nia joined the school history club, she expected to spend her afternoons reading old letters. Instead, her first assignment was to sort a collection of photographs donated by a former teacher. The pictures showed school plays, sports days, and classroom projects, but many had no dates or names on the back.\n\nAt first Nia tried to arrange the photographs by the style of clothing. That produced a neat sequence, but she soon found that costumes from a play had been placed beside ordinary school uniforms. A photograph that appeared older than the rest turned out to show a recent performance about the past. Nia stopped treating clothing as a reliable date and began looking for other evidence.\n\nShe noticed that a large tree appeared in the background of several outdoor photographs. In some pictures it was supported by a wooden frame; in others it was taller and the frame had gone. A teacher remembered when the tree had been planted, but could not give a date for every picture. Nia used the tree to create a rough order, then compared the images with dates printed in old school newsletters.\n\nThe newsletters helped identify several events, although a few photographs remained uncertain. Rather than guess, Nia wrote down what could be established and marked the remaining dates as approximate. She also recorded which newsletter or remembered detail supported each label. Later members of the club could therefore check her work and add information if another record appeared.\n\nAt the club's end-of-term display, Nia placed two similar photographs side by side. One had a confirmed date, and the other had only a possible range. A note explained the difference. Visitors supplied a few names, but Nia kept those suggestions separate until the club could compare them with another source.",
+       "items": [
+        {
+         "stem": "Why did Nia abandon her first method of ordering the photographs?",
+         "options": [
+          "The newsletters gave different dates.",
+          "The teacher had dated every picture.",
+          "Costumes made clothing an unreliable clue.",
+          "The tree had disappeared from every scene."
+         ],
+         "answer": 2,
+         "why": "第二段说戏服和日常校服被排在一起，一张近期演出的照片看起来最旧。所以 Nia 不再按服装判断年代，即第三项。",
+         "point": "passage"
+        },
+        {
+         "stem": "How did the tree help Nia?",
+         "options": [
+          "Its growth suggested a rough sequence.",
+          "Its frame contained a written date.",
+          "Its planting date dated every picture.",
+          "It appeared only in photos of plays."
+         ],
+         "answer": 0,
+         "why": "照片里的树有的带木架，有的更高、木架已拆。Nia used the tree to create a rough order，即第一项。老师记得种树的时间，但不能确定每张照片的日期。",
+         "point": "passage"
+        },
+        {
+         "stem": "What did Nia do with dates that remained uncertain?",
+         "options": [
+          "She assigned a date from the clothing.",
+          "She labeled those dates as approximate.",
+          "She removed the photographs from the collection.",
+          "She copied the dates suggested by visitors."
+         ],
+         "answer": 1,
+         "why": "原文 marked the remaining dates as approximate：确定不了的日期标为大致日期，即第二项。",
+         "point": "passage"
+        },
+        {
+         "stem": "What does Nia's treatment of visitors' suggestions show?",
+         "options": [
+          "She preferred visitors' memories to records.",
+          "She expected every photograph to remain undated.",
+          "She avoided using any help from other people.",
+          "She wanted further evidence before accepting names."
+         ],
+         "answer": 3,
+         "why": "原文说 Nia kept those suggestions separate until the club could compare them with another source：访客提供的名字先单独放，等有别的材料核对，即第四项。",
+         "point": "passage"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A Roof for Rainwater\n\nA school garden needs water throughout the growing season, but the amount available from a tap is not always the only concern. Carrying water across a playground takes time, and young plants may need attention on days when the garden club does not meet. One school addressed these practical problems by placing a rain barrel beside a small tool shed.\n\nThe shed roof directs rain into a gutter, and a pipe leads from the gutter to the covered barrel. A screen at the top helps keep leaves out. A tap near the bottom allows pupils to fill watering cans without lifting the barrel. When the barrel is full, an overflow pipe directs extra water away from the building. The system does not create water; it stores some of the rain that falls on the roof until it is needed.\n\nBefore installing the barrel, the club recorded rainfall and estimated how much water its plants used. The pupils soon learned that an estimate based on roof area and rainfall describes the water reaching the roof, not necessarily the amount collected. Some water may remain on the roof or be lost before it reaches the barrel. They also discovered that a full barrel can become empty quickly during a dry spell.\n\nThe club therefore continued to use the tap when stored rainwater was insufficient. Members checked the screen for leaves and made sure the lid remained securely closed. They kept simple records of the water collected and used, noting the weather as well. After several months, the records helped them decide when to water and how much reserve they needed.\n\nThe project gave the pupils a practical reason to measure and compare quantities. It also showed that a useful system has limits: a barrel depends on rainfall and its capacity, and it requires regular care.",
+       "items": [
+        {
+         "stem": "What is the purpose of the screen at the barrel's top?",
+         "options": [
+          "To direct overflow away from the shed",
+          "To measure the amount of rainfall",
+          "To keep the barrel's lid securely closed",
+          "To reduce the leaves entering the barrel"
+         ],
+         "answer": 3,
+         "why": "原文 A screen at the top helps keep leaves out：滤网挡住树叶，即第四项。",
+         "point": "passage"
+        },
+        {
+         "stem": "Why may the collected amount be below the estimate?",
+         "options": [
+          "Some rain does not reach the barrel.",
+          "The estimate includes the plants' water use.",
+          "The barrel creates less water than the tap.",
+          "The screen lets leaves take up space."
+         ],
+         "answer": 0,
+         "why": "原文说估计的是落到屋顶的水，Some water may remain on the roof or be lost before it reaches the barrel，即第一项。",
+         "point": "passage"
+        },
+        {
+         "stem": "What did the club do when the stored water ran short?",
+         "options": [
+          "It waited for the next rain.",
+          "It continued to use the tap.",
+          "It installed a second barrel.",
+          "It diverted overflow into the shed."
+         ],
+         "answer": 1,
+         "why": "原文 The club therefore continued to use the tap when stored rainwater was insufficient：储水不够时继续用自来水，即第二项。",
+         "point": "passage"
+        },
+        {
+         "stem": "What is the main idea of the passage?",
+         "options": [
+          "A school replaced every tap with a rain barrel.",
+          "A roof can provide unlimited water in dry weather.",
+          "A school used and monitored a rainwater system.",
+          "A garden can grow without measuring water use."
+         ],
+         "answer": 2,
+         "why": "全文依次讲雨水桶的装法、使用、记录和局限，第三项概括了全文。",
+         "point": "passage"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "The Value of a Draft\n\nA community magazine invited residents to contribute short accounts of places that mattered to them. The editors received descriptions of a market, a footpath, a workshop, and many other familiar locations. Several writers apologized for sending a draft rather than a finished piece. Yet the editors found that drafts were often a useful starting point for discussion.\n\nA draft makes choices visible. One writer described a footpath by listing every turn from beginning to end. The editors asked what made the route memorable, and the writer added a scene in which neighbors met there after work. The final version still gave readers a sense of the path, but the encounter explained why the place mattered. The editors had not supplied the memory; they had asked a question that helped the writer select it.\n\nQuestions are most useful when they point to a particular passage. A general remark that a story needs more detail leaves the writer to guess what is missing. Asking what could be heard at the market, for example, identifies a place where a sensory detail might help. The writer can then decide whether that detail belongs in the account.\n\nThis process also has limits. An editor may misunderstand a sentence or suggest a change that weakens the writer's intended meaning. For that reason, the magazine's editors explain what they understood and invite the writer to respond. The writer remains responsible for the account and can decline a suggestion after considering it.\n\nThe magazine does not treat revision as a way to make every voice sound alike. Its aim is to help each contributor make an experience clear to readers. A draft provides material for that exchange, while specific questions and a writer's own decisions shape the next version.",
+       "items": [
+        {
+         "stem": "How did the footpath account change after the editors' question?",
+         "options": [
+          "It replaced the path with a market scene.",
+          "It added a meeting showing why the path mattered.",
+          "It removed the writer's own memory of the route.",
+          "It listed every turn without describing an encounter."
+         ],
+         "answer": 1,
+         "why": "原文 the writer added a scene in which neighbors met there after work，这个场景说明了小路为什么重要，即第二项。",
+         "point": "passage"
+        },
+        {
+         "stem": "Why does the author prefer a specific question to a general remark?",
+         "options": [
+          "It guarantees that a writer accepts the suggestion.",
+          "It supplies a finished memory for the writer to use.",
+          "It identifies a passage where detail might help.",
+          "It ensures that every account has the same structure."
+         ],
+         "answer": 2,
+         "why": "原文说泛泛的意见让作者去猜缺什么，具体的问题 identifies a place where a sensory detail might help，即第三项。",
+         "point": "passage"
+        },
+        {
+         "stem": "What can a contributor do with an editor's suggestion?",
+         "options": [
+          "Replace it with the editor's own memory.",
+          "Accept it whenever the editor insists on it.",
+          "Use it only if every contributor agrees.",
+          "Consider it and then choose to decline it."
+         ],
+         "answer": 3,
+         "why": "原文 can decline a suggestion after considering it：作者考虑之后可以不采纳，即第四项。",
+         "point": "passage"
+        },
+        {
+         "stem": "Which title best reflects the passage?",
+         "options": [
+          "How Drafts and Questions Support Revision",
+          "Why Every Local Account Needs More Turns",
+          "How Editors Supply Writers with Memories",
+          "Why a Magazine Should Avoid Different Voices"
+         ],
+         "answer": 0,
+         "why": "全文讲初稿、编辑的具体提问和作者自己的决定怎样推动修改，第一项概括了全文。",
+         "point": "passage"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "Making a Useful Neighborhood Map\n\nA neighborhood map can help new residents find services and help longtime residents notice places they rarely visit. A useful map begins with a clear purpose and a manageable area. A group might decide to show routes between a community hall, a bus stop, and a public garden. Once the purpose is clear, members can decide which details matter to the people who will use it.\n\nFirst, walk through the chosen area and record the main paths and entrances. [1] ____ For instance, a gate that appears open on an old plan may now be locked. Notes made on site can prevent the finished map from directing someone to an inaccessible entrance. Members should also record street names and check them against reliable local signs.\n\nNext, choose symbols that can be distinguished easily. [2] ____ A small key beside the map can explain what each symbol means. If two symbols look alike when printed, change one before making copies. The key should use the same shapes and colors as the map itself.\n\nThe first draft needs a practical test. [3] ____ Ask them to use the map to find a place without receiving spoken directions. Their questions will reveal missing labels or unclear turns. A test by someone unfamiliar with the area is especially useful because that person cannot rely on the maker's memory.\n\nFinally, decide how the map will be kept current. [4] ____ A path may close temporarily, or a service may move to another building. Include a date on each version so readers know when the information was checked. The group can review reported changes before issuing a revised copy.\n\nA map need not contain every possible detail to be helpful. [5] ____ With a clear purpose, legible symbols, and regular checks, a simple map can guide readers through the area it describes.",
+       "items": [
+        {
+         "stem": "Which option fills gap 1?",
+         "options": [
+          "Invite people who did not draw it to try the route.",
+          "Changes in the neighborhood can make an accurate map outdated.",
+          "Observe whether the real entrances match existing plans.",
+          "A clear selection of relevant information makes it easier to use.",
+          "Use a different shape for each kind of place.",
+          "A long history of the community hall may interest local readers.",
+          "A printed copy should be folded before it is carried outdoors."
+         ],
+         "answer": 2,
+         "why": "后一句 For instance, a gate that appears open on an old plan may now be locked 举的是旧图与实地不符的例子。空格应是核对实际的入口，即第三项。",
+         "point": "seven"
+        },
+        {
+         "stem": "Which option fills gap 2?",
+         "options": [
+          "Invite people who did not draw it to try the route.",
+          "Changes in the neighborhood can make an accurate map outdated.",
+          "Observe whether the real entrances match existing plans.",
+          "A clear selection of relevant information makes it easier to use.",
+          "Use a different shape for each kind of place.",
+          "A long history of the community hall may interest local readers.",
+          "A printed copy should be folded before it is carried outdoors."
+         ],
+         "answer": 4,
+         "why": "前一句要求符号容易区分，后一句 A small key 说明每个符号的意思。空格应讲怎样设计符号，即第五项。",
+         "point": "seven"
+        },
+        {
+         "stem": "Which option fills gap 3?",
+         "options": [
+          "Invite people who did not draw it to try the route.",
+          "Changes in the neighborhood can make an accurate map outdated.",
+          "Observe whether the real entrances match existing plans.",
+          "A clear selection of relevant information makes it easier to use.",
+          "Use a different shape for each kind of place.",
+          "A long history of the community hall may interest local readers.",
+          "A printed copy should be folded before it is carried outdoors."
+         ],
+         "answer": 0,
+         "why": "后一句 Ask them to use the map 中的 them 需要先行词。第一项的 people who did not draw it 正是试用地图的人。",
+         "point": "seven"
+        },
+        {
+         "stem": "Which option fills gap 4?",
+         "options": [
+          "Invite people who did not draw it to try the route.",
+          "Changes in the neighborhood can make an accurate map outdated.",
+          "Observe whether the real entrances match existing plans.",
+          "A clear selection of relevant information makes it easier to use.",
+          "Use a different shape for each kind of place.",
+          "A long history of the community hall may interest local readers.",
+          "A printed copy should be folded before it is carried outdoors."
+         ],
+         "answer": 1,
+         "why": "后一句举了道路临时关闭、服务搬迁两个例子，都是街区的变化。第二项说明这些变化会使地图过时。",
+         "point": "seven"
+        },
+        {
+         "stem": "Which option fills gap 5?",
+         "options": [
+          "Invite people who did not draw it to try the route.",
+          "Changes in the neighborhood can make an accurate map outdated.",
+          "Observe whether the real entrances match existing plans.",
+          "A clear selection of relevant information makes it easier to use.",
+          "Use a different shape for each kind of place.",
+          "A long history of the community hall may interest local readers.",
+          "A printed copy should be folded before it is carried outdoors."
+         ],
+         "answer": 3,
+         "why": "前一句说地图不必包含所有细节。第四项接着说明：选好相关信息，地图更好用。",
+         "point": "seven"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,530 @@
+{
+ "id": "listening-p1-method",
+ "title": "日常对话的信息定位",
+ "goal": "按栏目定位话轮，区分需求与双方确认的服务信息。",
+ "skill": "听力",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "locate",
+   "label": "按栏目定位对话中的对应话轮"
+  },
+  {
+   "id": "confirm",
+   "label": "区分提出的条件与确认的信息"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "雅思 IELTS Academic：课表",
+   "url": "docs/syllabi/ielts.md",
+   "used": "听力课的内容、知识点与教学规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "定位时先看栏目问的是什么，再找对应的话轮。姓名栏对应核实身份的话轮，日期栏对应安排时间的话轮。数字按所属的对象填，不按出现的顺序填。"
+    },
+    {
+     "box": "Guest name: ___ / Arrival date: ___ / Confirmed nightly rate: £___"
+    },
+    {
+     "p": "顾客说的预算、偏好和日期是需求。服务人员的报价和双方接受的安排才是确认的信息。I'd prefer a balcony. 只是偏好，订到的房间不一定有阳台。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定栏目对象",
+     "d": "先看栏目要哪一类信息。Arrival date 是到达日期，不填离开日期。"
+    },
+    {
+     "t": "2　跟随提问话轮",
+     "d": "用姓名、日期、费用及其同义表达找到话轮。What should I put the booking under? 问的是姓名，不是付款方式。"
+    },
+    {
+     "t": "3　比较需求与回复",
+     "d": "记下提问者的条件，再听服务人员能否满足。I'd like Friday. 后接 Friday is full.，周五没有订上。"
+    },
+    {
+     "t": "4　核对确认范围",
+     "d": "找出双方都接受的安排，看它指的是哪一项。That's booked for Saturday. 只确认了周六，前面说的周五不算。"
+    }
+   ]
+  },
+  {
+   "id": "turns",
+   "type": "table",
+   "title": "栏目与话轮",
+   "cols": [
+    "环节",
+    "定位依据",
+    "例"
+   ],
+   "rows": [
+    [
+     "需求",
+     "提问者想要的服务，还没有安排。",
+     "I'd like a room overlooking the harbour."
+    ],
+    [
+     "条件",
+     "限定哪些方案可用，要和日期、人数一起核对。",
+     "Only the courtyard room is free on Friday."
+    ],
+    [
+     "报价",
+     "服务人员给出的价格。预算不是报价。",
+     "The room is £76 a night, including breakfast."
+    ],
+    [
+     "确认",
+     "双方都接受的安排，可能与最初的要求不同。",
+     "I'll take the courtyard room. / That's confirmed."
+    ],
+    [
+     "姓名",
+     "booking under 后面是预订人的姓名。付款人可能是另一个人。",
+     "The booking is under Nora Kent; my sister will pay."
+    ],
+    [
+     "报名日期",
+     "分清报名的时间和活动举行的时间。",
+     "Register by Monday for the walk on Thursday."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A: I'd like to book a room for Friday. My budget is £90 a night, and I'd prefer a harbour view.\nB: The harbour rooms are £96. A courtyard room is £84, and there's one free on Friday.\nA: That's within my budget. I'll take the courtyard room.\nB: Certainly. What name shall I put it under?\nA: Nora Kent.\nB: That's confirmed, Ms Kent."
+    },
+    {
+     "box": "Which room is confirmed?\n1. A harbour room at £90\n2. A courtyard room at £84\n3. A harbour room at £96\n4. A courtyard room at £90"
+    },
+    {
+     "p": "答案是第二项，依据是 I'll take the courtyard room 和 That's confirmed。£90 是预算，£96 是没有选的海景房的价格。姓名话轮只用来填 Guest name 栏。"
+    },
+    {
+     "box": "A: I'd prefer the morning photography walk.\nB: That session is full, but the afternoon walk has space.\nA: Please put me on the afternoon walk.\nB: I've added the booking."
+    },
+    {
+     "p": "morning 是最初的偏好。afternoon 有空位，又被接受了。条件话轮否定了原方案，确认话轮落实了新方案。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "需求替代确认",
+     "harbour view 替代 courtyard room",
+     "先看有没有空位，再看提问者是否接受。"
+    ],
+    [
+     "预算替代报价",
+     "£90 替代 £84",
+     "my budget 是预算，栏目要的是房型对应的价格。"
+    ],
+    [
+     "相邻日期移用",
+     "registration Monday 替代 walk Thursday",
+     "看时间修饰的是报名还是活动。"
+    ],
+    [
+     "人物归属变化",
+     "payer's name 替代 guest name",
+     "先看栏目要的是谁的姓名。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "locate",
+    "confirm"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The reservation is for my father, Alan Shaw. I'm paying for it; my name is Leo Shaw."
+       },
+       {
+        "who": "B",
+        "text": "I'll put Alan Shaw in the guest field and Leo Shaw in the payment record."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which name belongs in the guest field?",
+       "options": [
+        "Leo Shaw, the person paying",
+        "Alan Shaw, the person staying",
+        "Both names as joint guests",
+        "The name on the payment record"
+       ],
+       "answer": 1,
+       "why": "put Alan Shaw in the guest field 说明住客是 Alan Shaw，即第二项。Leo Shaw 只记在付款记录里。",
+       "point": "locate"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I'd like the evening baking session."
+       },
+       {
+        "who": "B",
+        "text": "That's full. The afternoon session has space."
+       },
+       {
+        "who": "A",
+        "text": "I'll join the afternoon session, then."
+       },
+       {
+        "who": "B",
+        "text": "I've reserved a place there."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which arrangement is confirmed?",
+       "options": [
+        "A place in both baking sessions",
+        "A waiting place in the evening",
+        "A place in the afternoon session",
+        "A move from afternoon to evening"
+       ],
+       "answer": 2,
+       "why": "I'll join the afternoon session 后接 I've reserved a place there，确认下午场。",
+       "point": "confirm"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Does the £25 cover the whole bicycle tour?"
+       },
+       {
+        "who": "B",
+        "text": "That's the guide's fee. Bicycle hire is £12, and lunch is £8. The £5 charge is for delivery."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which amount belongs under 'Bicycle hire'?",
+       "options": [
+        "£25",
+        "£8",
+        "£5",
+        "£12"
+       ],
+       "answer": 3,
+       "why": "Bicycle hire is £12 直接说出了自行车租金，即第四项。£25 是导游费。",
+       "point": "locate"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Could the parcel be collected on Monday?"
+       },
+       {
+        "who": "B",
+        "text": "Collections are available on Tuesday or Wednesday."
+       },
+       {
+        "who": "A",
+        "text": "Tuesday suits me. Please book that."
+       },
+       {
+        "who": "B",
+        "text": "Tuesday is now confirmed."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which day is the agreed collection day?",
+       "options": [
+        "Tuesday, the day finally accepted",
+        "Monday, the original requested day",
+        "Wednesday, the other available day",
+        "Tuesday and Wednesday together"
+       ],
+       "answer": 0,
+       "why": "Tuesday suits me 与 Tuesday is now confirmed 一致；Wednesday 仅为候选。",
+       "point": "confirm"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "locate",
+    "confirm"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I'm enquiring about the volunteer garden session. I can help with planting, but I haven't used the workshop tools before. Is there a suitable group?"
+       },
+       {
+        "who": "B",
+        "text": "The planting group meets on Sunday. The tool workshop is on Saturday, and it's for people with previous experience. Everyone signs in at the greenhouse, although the planting itself takes place in the vegetable beds."
+       },
+       {
+        "who": "A",
+        "text": "Sunday suits me. My name is Iris Cole. Is there a fee for the session?"
+       },
+       {
+        "who": "B",
+        "text": "The session is free. A pair of gloves costs four pounds if needed, but bringing a pair from home is fine."
+       },
+       {
+        "who": "A",
+        "text": "I already have gloves. Please add me to the Sunday planting group."
+       },
+       {
+        "who": "B",
+        "text": "I've done that. The booking is under Iris Cole, and there's nothing to pay. Arrive at the greenhouse before going to the beds."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Where should Iris sign in?",
+       "options": [
+        "At the vegetable beds",
+        "At the tool workshop",
+        "At the greenhouse",
+        "At the Saturday group"
+       ],
+       "answer": 2,
+       "why": "Everyone signs in at the greenhouse 对应签到地点，vegetable beds 是活动地点。",
+       "point": "locate"
+      },
+      {
+       "stem": "What has been confirmed for Iris?",
+       "options": [
+        "A paid place at the tool workshop",
+        "A free place in the planting group",
+        "A planting place with purchased gloves",
+        "A Saturday place without equipment"
+       ],
+       "answer": 1,
+       "why": "Sunday planting group 已登记，there's nothing to pay 确认费用；手套由 Iris 自带。",
+       "point": "confirm"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "locate",
+    "confirm"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Good afternoon. I'm calling about staying at the Marsh View guesthouse during the wildlife weekend. I need a room for two nights, starting on the fourteenth of May."
+         },
+         {
+          "who": "B",
+          "text": "We have a garden room available then. The tower room is free from the fifteenth, but it wouldn't cover the first night. May I take the guest's name?"
+         },
+         {
+          "who": "A",
+          "text": "It's Ravi Moss. My colleague Elena will send the payment, so her name may appear on the transfer. I'd prefer the tower room if there's any way to arrange it."
+         },
+         {
+          "who": "B",
+          "text": "I'm afraid that isn't possible for both nights. The garden room costs seventy-eight pounds a night. The tower room is ninety-two. Breakfast is included in either price."
+         },
+         {
+          "who": "A",
+          "text": "All right, the garden room will do. Please reserve it for both nights under my name. Is arrival after six a problem?"
+         },
+         {
+          "who": "B",
+          "text": "No, reception stays open until eight. I've confirmed the garden room for Ravi Moss from the fourteenth. I'll send the details to the email address on the enquiry form."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Whose name belongs in the guest-name field?",
+         "options": [
+          "Elena, who sends the transfer",
+          "Ravi Moss, who will stay",
+          "Both Ravi and Elena as guests",
+          "Marsh View, the guesthouse"
+         ],
+         "answer": 1,
+         "why": "the guest's name 后的 It's Ravi Moss 对应住客；Elena 是付款人。",
+         "point": "locate"
+        },
+        {
+         "stem": "Which room has been confirmed?",
+         "options": [
+          "The tower room for both nights",
+          "The garden room for the second night",
+          "The tower room from the fifteenth",
+          "The garden room for both nights"
+         ],
+         "answer": 3,
+         "why": "Please reserve it for both nights 中 it 指 garden room，末句再次确认。",
+         "point": "confirm"
+        },
+        {
+         "stem": "What is the nightly rate for the confirmed room?",
+         "options": [
+          "£78 with breakfast included",
+          "£92 with breakfast included",
+          "£78 with breakfast charged separately",
+          "£92 with breakfast charged separately"
+         ],
+         "answer": 0,
+         "why": "The garden room costs seventy-eight pounds a night 与 Breakfast is included 对应第一项。",
+         "point": "locate"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Hello, I'd like to register for the community starwatching evening. I saw an early session advertised, but I don't finish work until seven. Would a later group be possible?"
+         },
+         {
+          "who": "B",
+          "text": "The early group starts at half past six. We also have a group starting at eight, and there are places left in that one. Both meet at the orchard gate, rather than at the observatory entrance."
+         },
+         {
+          "who": "A",
+          "text": "Eight would be ideal. I'm calling for myself, Mina Reed, and my brother. We both need to borrow binoculars. Does the fee include those?"
+         },
+         {
+          "who": "B",
+          "text": "The entry fee is twelve pounds per person. Binocular hire would normally add three pounds, but it's included for this evening. A printed sky chart costs two pounds extra."
+         },
+         {
+          "who": "A",
+          "text": "We won't need a chart. Please book two places at eight, with binoculars for both of us."
+         },
+         {
+          "who": "B",
+          "text": "That's arranged. The booking is under Mina Reed. Come to the orchard gate ten minutes before the session, and the leader will take the group to the viewing area."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Where does the group meet?",
+         "options": [
+          "At the observatory entrance",
+          "At the viewing area",
+          "At the orchard gate",
+          "Between the gate and the observatory"
+         ],
+         "answer": 2,
+         "why": "Both meet at the orchard gate 说明集合地点，即第三项。viewing area 是集合后才去的地方。",
+         "point": "locate"
+        },
+        {
+         "stem": "Which booking has been agreed?",
+         "options": [
+          "Two places at eight, with binoculars",
+          "Two places at half past six, with binoculars",
+          "One place at eight, with a sky chart",
+          "Two places at eight, with sky charts"
+         ],
+         "answer": 0,
+         "why": "book two places at eight, with binoculars 后得到 That's arranged，图表已明确不需要。",
+         "point": "confirm"
+        },
+        {
+         "stem": "What will Mina and her brother pay for binocular hire that evening?",
+         "options": [
+          "Three pounds each in addition to entry",
+          "Nothing extra because hire is included",
+          "Two pounds each with a printed chart",
+          "Twelve pounds each in addition to entry"
+         ],
+         "answer": 1,
+         "why": "it's included for this evening 说明租用不另收费；three pounds 为通常价格。",
+         "point": "confirm"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

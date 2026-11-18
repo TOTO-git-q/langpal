@@ -1,0 +1,60 @@
+{
+ "id": "reading-passage-science",
+ "title": "科技与研究词汇",
+ "goal": "识别科技与研究词汇，并区分研究观察、解释和应用限制。",
+ "skill": "阅读",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "vocabulary", "label": "识别科技与研究常用词汇"},
+  {"id": "read", "label": "读懂研究结果及其适用条件"}
+ ],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "科技与研究词汇、研究结果和适用条件"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "科技与研究材料常介绍测试对象、实验步骤和测得的结果。解释是研究者对结果原因的看法。结果能用到哪里，要看测试是在什么条件下做的。"}]},
+  {"id": "procedure", "type": "table", "title": "词汇表：实验步骤", "cols": ["词语", "词性与含义", "搭配或例句"], "rows": [
+   ["sample", "n. 样本", "a sample of water"], ["observe", "v. 观察", "observe a change"], ["experiment", "n. 实验", "conduct an experiment"], ["test", "v. 测试", "test a device"], ["measure", "v. 测量", "measure temperature"],
+   ["record", "v. 记录", "record the results"], ["compare", "v. 比较", "compare two samples"], ["collect", "v. 收集", "collect data"], ["repeat", "v. 重复", "repeat a test"], ["examine", "v. 检查", "examine the surface"],
+   ["method", "n. 方法", "a research method"], ["procedure", "n. 步骤；程序", "follow the procedure"], ["variable", "n. 变量", "change one variable"], ["condition", "n. 条件", "under similar conditions"], ["participant", "n. 参与者", "a study participant"]
+  ]},
+  {"id": "evidence", "type": "table", "title": "词汇表：证据与数量", "cols": ["词语", "词性与含义", "搭配或例句"], "rows": [
+   ["evidence", "n. 证据", "evidence for a claim"], ["data", "n. 数据", "analyse the data"], ["result", "n. 结果", "a test result"], ["finding", "n. 发现", "report a finding"], ["observation", "n. 观察结果", "record an observation"],
+   ["conclusion", "n. 结论", "reach a conclusion"], ["explanation", "n. 解释", "offer an explanation"], ["average", "n. 平均值", "calculate the average"], ["range", "n. 范围", "a range of values"], ["amount", "n. 数量", "a small amount of water"],
+   ["increase", "n. 增加", "an increase in temperature"], ["decrease", "n. 减少", "a decrease in weight"], ["difference", "n. 差异", "a difference between groups"], ["similar", "adj. 相似的", "similar results"], ["accurate", "adj. 准确的", "an accurate measurement"]
+  ]},
+  {"id": "technology", "type": "table", "title": "词汇表：技术应用", "cols": ["词语", "词性与含义", "搭配或例句"], "rows": [
+   ["device", "n. 设备", "a measuring device"], ["sensor", "n. 传感器", "a temperature sensor"], ["system", "n. 系统", "a recording system"], ["tool", "n. 工具", "a useful tool"], ["design", "n. 设计", "a simple design"],
+   ["function", "n. 功能", "the function of a device"], ["operate", "v. 运转；操作", "operate a machine"], ["display", "v. 显示", "display a number"], ["detect", "v. 检测到", "detect a change"], ["signal", "n. 信号", "send a signal"],
+   ["battery", "n. 电池", "charge a battery"], ["screen", "n. 屏幕", "read a screen"], ["digital", "adj. 数字的", "a digital record"], ["application", "n. 应用", "a practical application"], ["limit", "n. 限制", "a limit of the method"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A team tested a small sensor designed to show when a storage box was opened. During a classroom test, the sensor sent a signal each time the lid was lifted. The team suggested that the movement of the lid activated the sensor, but it did not test other possible causes. The test used one box in a dry room. Before recommending the device for different containers or damp places, the team planned further tests. Its observation was a signal during each opening; its explanation concerned what caused the signal."},
+   {"p": "每次打开盒盖时发出信号是观察结果。盒盖运动激活传感器是研究者提出的解释。"},
+   {"p": "测试只用了一个盒子，在干燥的房间里做。用到其他容器或潮湿环境之前，还要在这些条件下再测。"}
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["vocabulary", "read"], "groups": [
+   {"fill": "A team tested a lamp. They us{ed} a dev{ice} to mea{sure} the tempe{rature} and rec{ord} each res{ult}, then ch{eck} the sam{ple} for cha{nges} before tes{ting} it again. The lamp stayed in the same room throughout the work. The team wrote down the readings after each test. Its notes also described the position of the measuring device. These details allowed the team to compare the readings under the same conditions carefully.", "tags": ["read", "vocabulary", "vocabulary", "vocabulary", "vocabulary", "vocabulary", "read", "vocabulary", "read", "read"], "notes": [
+    "used：表示使用设备。", "device：后文 measuring device 再次提到这个设备。", "measure：与 temperature 搭配，表示测量温度。", "temperature：设备测量温度。", "record：记录每次结果。", "result：每次测试有一个结果。", "check：检查样本是否有变化。", "sample：后文 it 指回被测试的样本。", "changes：for changes 表示检查变化。", "testing：before 后接动名词，again 表示再次测试。"
+   ]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["vocabulary", "read"], "groups": [
+   {"look": "passage", "text": "Students tested two types of covering for a container of warm water. They filled two identical containers with the same amount of water and placed one covering on each. They measured the water temperature at the start and again after thirty minutes. Both containers were kept in the same room.\n\nThe water under the first covering had cooled less by the second measurement. The students suggested that the first covering reduced heat loss more effectively in this setup. They did not test containers of other sizes or use the coverings outdoors. Before applying the result to different conditions, they planned to repeat the test with other containers and at other room temperatures.", "items": [
+    {"stem": "What does a measurement provide in this test?", "options": ["A reading of the water temperature", "The amount of water in each container", "A cause for the water's cooling", "A comparison of two room temperatures"], "answer": 0, "why": "依据是 measured the water temperature。measurement 是测得的水温读数，即第一项。降温的原因是学生的解释，不是测量值。", "point": "vocabulary"},
+    {"stem": "What did the students compare?", "options": ["Two amounts of water in one container", "Two coverings on similar containers", "Two outdoor sites with different weather", "Two containers without any covering"], "answer": 1, "why": "依据 tested two types of covering 和 identical containers，比较对象是两种覆盖物。", "point": "read"},
+    {"stem": "What did the second measurement show?", "options": ["Both containers had gained the same heat.", "The second covering made the water warmer.", "The first container's water had cooled less.", "Both coverings produced the same temperature."], "answer": 2, "why": "依据 water under the first covering had cooled less，第一次覆盖物下的水降温较少。", "point": "read"},
+    {"stem": "What limitation did the students identify?", "options": ["The water was measured only at the start.", "The two containers were stored in different rooms.", "The first container held less water than the second.", "No tests used other sizes or outdoor settings."], "answer": 3, "why": "依据是 did not test containers of other sizes or use the coverings outdoors。其他尺寸的容器和室外都还没有测过，即第四项。", "point": "read"},
+    {"stem": "Why did the students plan to repeat the test?", "options": ["To examine whether the result applies in other conditions", "To ensure both coverings are tested in only one room", "To avoid measuring the water temperature a second time", "To replace the first observations with a different question"], "answer": 0, "why": "依据 Before applying the result to different conditions，他们计划在其他条件下复测。", "point": "read"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 8, "pass": 0.75, "points": ["vocabulary", "read"], "sets": [{"id": "set-a", "groups": [
+   {"fill": "Students compared two screens. They pla{ced} each scr{een} beside a win{dow} and obse{rved} the im{age} at no{on}, then repe{ated} the sa{me} test af{ter} sunset and comp{ared} results. Both screens displayed the same picture during each test. The students recorded what they could see and noted the light in the room. They planned to repeat the comparison on another day before drawing a conclusion about the screens. Their notes described where each screen was placed.", "tags": ["read", "vocabulary", "read", "vocabulary", "vocabulary", "read", "vocabulary", "read", "read", "vocabulary"]},
+   {"look": "passage", "text": "A team at a community workshop built a device to help staff see whether a storage container had been left open. The device used a small sensor on the lid and displayed a light when the lid was raised. Staff hoped that a visible signal would make it easier to notice an open container while they were working elsewhere in the room.\n\nThe team first tested the device on one container indoors. A volunteer opened and closed the lid twenty times while another person recorded whether the light came on. The light appeared during nineteen openings. The team checked the record against a video of the test and confirmed that the light had not appeared during one opening. The test did not measure how quickly staff noticed the light.\n\nThe builders suggested that the sensor may have shifted slightly during the opening without a signal. They could not establish the cause from the video, however, because the sensor itself was hidden from view. They adjusted its position and planned another test that would record both the lid and the sensor. This would help them investigate the explanation rather than treating it as a confirmed result.\n\nThe first test was useful for checking the basic operation of the design, but it covered only one container in one room. A different lid or a different mounting position might affect the sensor's movement. Before recommending the device to other workshops, the team planned to test more containers and ask staff to report whether the light could be seen from their usual working positions. Those later tests would address both reliability and practical use.", "items": [
+    {"stem": "What does the sensor do in the proposed device?", "options": ["It sends a signal related to the lid's position.", "It records a video of each storage container.", "It changes the position of the workshop light.", "It keeps the container closed during the test."], "answer": 0, "why": "依据是 sensor on the lid 和 displayed a light when the lid was raised。盒盖一抬起，传感器就让灯亮，即第一项。", "point": "vocabulary"},
+    {"stem": "What was observed in the first test?", "options": ["The sensor shifted during every opening.", "The light appeared in nineteen of twenty openings.", "Staff noticed the light immediately each time.", "The lid remained closed throughout the recording."], "answer": 1, "why": "依据 The light appeared during nineteen openings，这是测试中记录的结果。", "point": "read"},
+    {"stem": "Why was the suggested cause not confirmed?", "options": ["The team had not recorded when the lid opened.", "The light had appeared during all twenty openings.", "The sensor could not be seen in the video.", "The volunteer had used several different containers."], "answer": 2, "why": "依据 the sensor itself was hidden from view，录像无法确认传感器是否移动。", "point": "read"},
+    {"stem": "Which condition limits the first result?", "options": ["The test used several rooms and many lids.", "The test compared the sensor with a second design.", "The test measured staff response time outdoors.", "The test used just one container in one room."], "answer": 3, "why": "依据 it covered only one container in one room，测试范围限于一个容器和一个房间。", "point": "read"},
+    {"stem": "Why will staff report whether they can see the light?", "options": ["To assess the device in their normal working positions", "To establish why the sensor failed in the first test", "To count how often the container was opened on video", "To check whether a different lid moves the sensor"], "answer": 0, "why": "依据是 whether the light could be seen from their usual working positions。员工的反馈用来评估平时工作中能否看到灯，即第一项。", "point": "read"}
+   ]}
+  ]}]}
+ ]
+}

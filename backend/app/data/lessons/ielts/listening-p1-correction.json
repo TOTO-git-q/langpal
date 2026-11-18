@@ -1,0 +1,621 @@
+{
+ "id": "listening-p1-correction",
+ "title": "信息更正与最终确认",
+ "goal": "区分原安排、候选方案和最终确认，按更正范围保留有效信息。",
+ "skill": "听力",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "repair",
+   "label": "识别取消或更正的信息"
+  },
+  {
+   "id": "final",
+   "label": "选取最后确认的有效信息"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "雅思 IELTS Academic：课表",
+   "url": "docs/syllabi/ielts.md",
+   "used": "听力课的内容、知识点与教学规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "更正表达改变已有的某一项信息。听到更正，要记下被否定的内容、替代的内容和它所属的字段。答案是最后确认、仍然有效的信息，不一定是最后出现的词或数字。"
+    },
+    {
+     "box": "Monday is unavailable. Tuesday is possible, but please book Wednesday. Wednesday is confirmed. → Wednesday"
+    },
+    {
+     "p": "原安排是此前的计划，候选安排只说明可能，确认句才落实选择。Actually, the hall has a kitchen. 只是补充一个事实。出现 actually，日期或价格不一定改变。"
+    }
+   ]
+  },
+  {
+   "id": "status",
+   "type": "table",
+   "title": "信息的有效状态",
+   "cols": [
+    "状态",
+    "判断依据",
+    "例"
+   ],
+   "rows": [
+    [
+     "原安排",
+     "此前定下的安排。被改动后就不再是答案。",
+     "We originally arranged delivery for Monday."
+    ],
+    [
+     "候选安排",
+     "can、could 说明可行。没有人接受，就还没有决定。",
+     "Tuesday could work, or perhaps Wednesday."
+    ],
+    [
+     "最终确认",
+     "双方都接受的具体安排。没有改动的部分照旧保留。",
+     "Please use Wednesday. / Wednesday is confirmed."
+    ],
+    [
+     "局部更正",
+     "只替换被指出的字段，其他字段继续有效。",
+     "Change the date to Friday; the price stays at £20."
+    ],
+    [
+     "追加说明",
+     "后出现的内容可能属于别的字段，前面的信息仍然有效。",
+     "Collection is Friday. The office is closed on Sunday."
+    ]
+   ]
+  },
+  {
+   "id": "signals",
+   "type": "table",
+   "title": "更正表达",
+   "cols": [
+    "表达",
+    "短对话",
+    "说明"
+   ],
+   "rows": [
+    [
+     "actually",
+     "A: Is delivery on Monday? B: Actually, it's Tuesday. Monday is the packing day.",
+     "否定对方问题里的说法。属于同一字段时才替换。"
+    ],
+    [
+     "actually",
+     "A: The charge is £18. B: Actually, the invoice says £16. A: Yes, £16 is correct.",
+     "核实后的金额替代报错的金额。"
+    ],
+    [
+     "rather",
+     "A: Send it to Green Hall, or rather, Green House. B: Green House, understood.",
+     "or rather 修正刚说出的名称。"
+    ],
+    [
+     "rather",
+     "A: The fitting is on the sixth, or rather, the sixteenth. B: I've written the sixteenth.",
+     "后面的词修正前面的词。rather 也可以表示偏好。"
+    ],
+    [
+     "instead",
+     "A: Shall I reserve the morning slot? B: Book the afternoon instead. A: Done.",
+     "替换先前的选择，再听对方是否落实。"
+    ],
+    [
+     "instead",
+     "A: Is the parcel going by post? B: I'll collect it instead. A: I'll keep it here.",
+     "换了一种做法，原来的做法取消。"
+    ],
+    [
+     "否定后补充",
+     "A: Is the balance £40? B: No, £40 is the deposit. The balance is £60.",
+     "否定的是 £40 的归属，数字本身没错。"
+    ],
+    [
+     "否定后补充",
+     "A: The order is for Lane? B: Not Lane; it's for Lake. A: Lake, corrected.",
+     "只改名称，订单的其他信息不变。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A: The rehearsal was booked for the tenth at £45, under the name Marsh.\nB: Could it move to the twelfth?\nA: The twelfth is unavailable. The thirteenth is possible.\nB: Please use the thirteenth. Also, the name is March, not Marsh.\nA: March, on the thirteenth, confirmed. The price is £45, or rather £42 with the discount.\nB: £42 is fine.\nA: The office closes on the fifteenth."
+    },
+    {
+     "box": "Confirmed date: 13\nName: March\nPrice: £42"
+    },
+    {
+     "p": "tenth 是原日期，twelfth 是被否定的候选，thirteenth 才是确认的日期。fifteenth 最后出现，但它是办公室关闭的日期，与排练无关。"
+    },
+    {
+     "p": "March 更正了姓名。or rather 后的 £42 更正了价格，£42 is fine 表示接受。每项答案看各自的话轮，一次更正只改一个字段。"
+    }
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "repair"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Is the basket order for the ninth?"
+       },
+       {
+        "who": "B",
+        "text": "Actually, the ninth is the payment deadline. Collection is on the eleventh."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is corrected?",
+       "options": [
+        "The ninth is the payment deadline, not collection.",
+        "The payment deadline is cancelled without a replacement.",
+        "The collection is moved to the payment deadline.",
+        "The payment and collection are confirmed for the same day."
+       ],
+       "answer": 0,
+       "why": "the ninth is the payment deadline 说明九日是付款期限，不是领取日，即第一项。领取日是 eleventh。",
+       "point": "repair"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The route begins at West Park, or rather, West Gate."
+       },
+       {
+        "who": "B",
+        "text": "West Gate. I'll change the meeting-point note."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which original location is replaced?",
+       "options": [
+        "The gate beside the park",
+        "West Park as the meeting point",
+        "West Gate as the meeting point",
+        "Both the park and the gate"
+       ],
+       "answer": 1,
+       "why": "or rather, West Gate 更正刚说出的 West Park，改动的是集合地点。",
+       "point": "repair"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Would a paper receipt be useful?"
+       },
+       {
+        "who": "B",
+        "text": "Send an email receipt instead. I don't need a paper copy."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which request is rejected?",
+       "options": [
+        "Sending any receipt at all",
+        "Sending the email receipt",
+        "Providing a paper receipt",
+        "Replacing paper with email"
+       ],
+       "answer": 2,
+       "why": "I don't need a paper copy 明确排除纸质收据，instead 引出电子收据。",
+       "point": "repair"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Was the quoted price sixty pounds?"
+       },
+       {
+        "who": "B",
+        "text": "No, sixteen pounds for the repair. Sixty was the price of a replacement."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What was wrong with the initial question?",
+       "options": [
+        "It gave sixteen as the repair price.",
+        "It treated sixteen pounds as the replacement price.",
+        "It cancelled the replacement price.",
+        "It assigned the replacement price to the repair."
+       ],
+       "answer": 3,
+       "why": "Sixty was the price of a replacement 说明初问将更换价格误作维修价格。",
+       "point": "repair"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "final"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I'd prefer a collection on Thursday."
+       },
+       {
+        "who": "B",
+        "text": "Thursday is full. Friday or Saturday would be possible."
+       },
+       {
+        "who": "A",
+        "text": "Friday, please."
+       },
+       {
+        "who": "B",
+        "text": "Friday is confirmed. Saturday is our last working day."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which day remains valid for collection?",
+       "options": [
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Friday and Saturday"
+       ],
+       "answer": 1,
+       "why": "Friday is confirmed 明确安排；最后的 Saturday 属于营业说明。",
+       "point": "final"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The delivery is for Mr Wade."
+       },
+       {
+        "who": "B",
+        "text": "Is that Mr Wake?"
+       },
+       {
+        "who": "A",
+        "text": "Wade, with a D at the end."
+       },
+       {
+        "who": "B",
+        "text": "Wade, confirmed."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Confirmed surname: ___ . Write ONE WORD.",
+       "accept": [
+        "Wade"
+       ],
+       "why": "Wade, confirmed 接受原姓氏；中途的 Wake 是核实中的错误候选。",
+       "point": "final"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The original quote was twenty-seven pounds. With the discount, it's twenty-four."
+       },
+       {
+        "who": "B",
+        "text": "Twenty-four is acceptable."
+       },
+       {
+        "who": "A",
+        "text": "I'll confirm twenty-four. The discount offer ends on the twenty-seventh."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Confirmed price: £___ . Write A NUMBER in digits.",
+       "accept": [
+        "24",
+        "24.00"
+       ],
+       "why": "I'll confirm twenty-four 确认价格，最后的 twenty-seventh 是期限。",
+       "point": "final"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I could use the small box or the flat envelope."
+       },
+       {
+        "who": "B",
+        "text": "The envelope won't protect the model."
+       },
+       {
+        "who": "A",
+        "text": "Then I'll take the small box."
+       },
+       {
+        "who": "B",
+        "text": "I'll pack it in that."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What will be used?",
+       "options": [
+        "The flat envelope alone",
+        "The box and envelope together",
+        "The small box alone",
+        "Neither proposed container"
+       ],
+       "answer": 2,
+       "why": "I'll take the small box 后接 I'll pack it in that，确认盒子，信封已被否定。",
+       "point": "final"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "repair",
+    "final"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Hello, I'm checking the details for a lunch order. The first note says collection on the eighth, under the name Hales, with a total price of forty-six pounds."
+         },
+         {
+          "who": "B",
+          "text": "I remember the order. Actually, collection needs to be on the tenth. The eighth is when our team returns to the office, and lunch isn't needed that day."
+         },
+         {
+          "who": "A",
+          "text": "The tenth is possible. Would the eleventh be more convenient? There's a wider choice of dishes then."
+         },
+         {
+          "who": "B",
+          "text": "No, please keep the tenth. Also, the name is Hale, without the final S. Hales was entered incorrectly on the first note."
+         },
+         {
+          "who": "A",
+          "text": "I've corrected the name to Hale and confirmed the tenth. The total is forty-six pounds, or rather forty-three, because the delivery charge doesn't apply to collection."
+         },
+         {
+          "who": "B",
+          "text": "Forty-three pounds is fine. We'll collect everything ourselves. Could the boxes be labelled separately?"
+         },
+         {
+          "who": "A",
+          "text": "Certainly. I'll label each box and leave them at the collection counter. The kitchen closes for cleaning on the eleventh, but that doesn't affect this order."
+         },
+         {
+          "who": "B",
+          "text": "Thank you. The corrected date and price are both suitable."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which original detail is replaced by the correction beginning 'Actually'?",
+         "options": [
+          "Collection on the eighth",
+          "The team's return on the eighth",
+          "Collection on the eleventh",
+          "The kitchen closure on the eleventh"
+         ],
+         "answer": 0,
+         "why": "Actually, collection needs to be on the tenth 替换的是原来的领取日期 the eighth，即第一项。",
+         "point": "repair"
+        },
+        {
+         "stem": "Why is £46 no longer the correct total?",
+         "options": [
+          "The boxes no longer require labels.",
+          "The collection date has moved again.",
+          "Collection means no delivery charge.",
+          "The wider choice of dishes has been accepted."
+         ],
+         "answer": 2,
+         "why": "because the delivery charge doesn't apply to collection 说明自取不收配送费，所以总价改了，即第三项。",
+         "point": "repair"
+        },
+        {
+         "stem": "Which date is finally confirmed for collection?",
+         "options": [
+          "The eighth, when the team returns",
+          "The tenth, as requested after correction",
+          "The eleventh, when more dishes are available",
+          "The eleventh, after the kitchen is cleaned"
+         ],
+         "answer": 1,
+         "why": "confirmed the tenth 给出最终日期，即第二项。eleventh 的提议没有被接受。",
+         "point": "final"
+        },
+        {
+         "stem": "Which name and amount should remain on the order?",
+         "options": [
+          "Hales, £46",
+          "Hale, £46",
+          "Hales, £43",
+          "Hale, £43"
+         ],
+         "answer": 3,
+         "why": "corrected the name to Hale 与 Forty-three pounds is fine 分别确认姓名和金额。",
+         "point": "final"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'm calling about the community costume exchange. I left a note asking for a delivery of two storage trunks to the east entrance on Tuesday. Has that been arranged?"
+         },
+         {
+          "who": "B",
+          "text": "The note is here. Before confirming it, there's a change to the entrance. Please use the north entrance instead; the east entrance will be closed while the floor is repaired."
+         },
+         {
+          "who": "A",
+          "text": "North entrance, understood. Could the delivery move to Wednesday? Tuesday is awkward for our volunteers."
+         },
+         {
+          "who": "B",
+          "text": "Wednesday is unavailable, but Thursday is possible. The Tuesday slot is still free if keeping the original date would be easier."
+         },
+         {
+          "who": "A",
+          "text": "Thursday will work. Please book that. The organisation name is Thread Circle, or rather, Thread Club. I used our former name by mistake."
+         },
+         {
+          "who": "B",
+          "text": "I've recorded Thread Club and confirmed Thursday at the north entrance. The charge remains twenty pounds; changing the entrance doesn't add a fee."
+         },
+         {
+          "who": "A",
+          "text": "That's agreed. We still need both trunks."
+         },
+         {
+          "who": "B",
+          "text": "Both are included in the booking. The volunteers can phone the office on Wednesday to check the route, but the delivery will remain on Thursday."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which arrangement is cancelled by 'instead'?",
+         "options": [
+          "Delivery of both storage trunks",
+          "Use of the east entrance",
+          "Use of the north entrance",
+          "Payment of the twenty-pound charge"
+         ],
+         "answer": 1,
+         "why": "use the north entrance instead 替换的是 east entrance，即第二项。",
+         "point": "repair"
+        },
+        {
+         "stem": "What does 'or rather' correct?",
+         "options": [
+          "The current name Thread Club",
+          "The Thursday delivery date",
+          "The unchanged delivery charge",
+          "The former name Thread Circle"
+         ],
+         "answer": 3,
+         "why": "or rather 后的 Thread Club 替代刚说出的 Thread Circle，即第四项。",
+         "point": "repair"
+        },
+        {
+         "stem": "Which delivery arrangement is finally valid?",
+         "options": [
+          "Thursday at the north entrance",
+          "Tuesday at the north entrance",
+          "Wednesday at the east entrance",
+          "Thursday at the east entrance"
+         ],
+         "answer": 0,
+         "why": "confirmed Thursday at the north entrance 给出了日期和入口，即第一项。Wednesday 只是打电话核对路线的日子。",
+         "point": "final"
+        },
+        {
+         "stem": "What is the final charge for the booking?",
+         "options": [
+          "More than £20 because the entrance changed",
+          "£20 for each of the two trunks",
+          "£20 with no extra entrance-change fee",
+          "Less than £20 because the date changed"
+         ],
+         "answer": 2,
+         "why": "charge remains twenty pounds 和 doesn't add a fee 说明费用仍是 20 镑，换入口不加钱，即第三项。",
+         "point": "final"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

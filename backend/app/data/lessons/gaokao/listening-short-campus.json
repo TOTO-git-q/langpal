@@ -1,0 +1,86 @@
+{
+ "id": "listening-short-campus",
+ "title": "校园活动词汇",
+ "goal": "理解校园活动词汇，并依据场景表达确定活动安排。",
+ "skill": "听力",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "meaning", "label": "识别校园活动词汇的语境义"},
+  {"id": "arrangement", "label": "依据场景词听出活动安排"}
+ ],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "校园词汇范围与课程小测规格"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "本课的校园活动词汇分四类：课程作业、社团报名、图书借阅和体育活动。一个词的具体意思，要看搭配和场景。"}, {"box": "Please renew the book before its due date."}, {"p": "renew the book 表示续借图书。due date 是应还日期。"}]},
+  {"id": "coursework", "type": "table", "title": "词汇表：课程作业", "cols": ["词语", "含义与搭配", "例句"], "rows": [
+   ["deadline", "截止日期；meet a deadline", "The class must meet the deadline for the report."],
+   ["assignment", "作业；complete an assignment", "Mia completed her assignment before lunch."],
+   ["submit", "提交；submit a report", "Please submit the report on Friday."],
+   ["essay", "文章；write an essay", "Leo is writing an essay about trees."],
+   ["draft", "草稿；a first draft", "The first draft is on the desk."],
+   ["revise", "修改；revise a draft", "Ana will revise her draft tonight."],
+   ["lecture", "讲座；attend a lecture", "We attended a lecture on local history."],
+   ["course", "课程；take a course", "Sam is taking a course in photography."],
+   ["grade", "成绩；receive a grade", "The students received their grades yesterday."],
+   ["feedback", "反馈；give feedback", "The teacher gave feedback on each report."]
+  ]},
+  {"id": "clubs", "type": "table", "title": "词汇表：社团报名", "cols": ["词语", "含义与搭配", "例句"], "rows": [
+   ["sign up", "报名；sign up for a club", "Nina signed up for the art club."],
+   ["join", "加入；join a club", "Ben joined the music club in May."],
+   ["member", "成员；club member", "Each club member has a card."],
+   ["register", "登记报名；register for an event", "Students can register for the event online."],
+   ["application", "申请；submit an application", "Please submit an application by Monday."],
+   ["meeting", "会议；attend a meeting", "The members attended a meeting after class."],
+   ["organizer", "组织者；event organizer", "The event organizer reserved the room."],
+   ["volunteer", "志愿者；a student volunteer", "A student volunteer welcomed the guests."],
+   ["schedule", "日程；check the schedule", "Check the schedule for the next rehearsal."],
+   ["rehearsal", "排练；attend a rehearsal", "The choir will attend a rehearsal on Tuesday."]
+  ]},
+  {"id": "library", "type": "table", "title": "词汇表：图书借阅", "cols": ["词语", "含义与搭配", "例句"], "rows": [
+   ["borrow", "借入；borrow a book", "I borrowed a book from the library."],
+   ["renew", "续借；renew a book", "Kai renewed the book for another week."],
+   ["return", "归还；return a book", "Please return the book by Friday."],
+   ["due date", "应还日期；check the due date", "Check the due date inside the book."],
+   ["library card", "借书证；show a library card", "Show a library card at the desk."],
+   ["shelf", "书架；on the shelf", "The dictionary is on the top shelf."],
+   ["librarian", "图书馆员；ask a librarian", "Ask a librarian about the collection."],
+   ["catalogue", "目录；search the catalogue", "We searched the catalogue for the title."],
+   ["reserve", "预留；reserve a book", "Mina reserved a book for her project."],
+   ["loan", "借阅期；extend a loan", "The librarian extended the loan by a week."]
+  ]},
+  {"id": "sports", "type": "table", "title": "词汇表：体育活动", "cols": ["词语", "含义与搭配", "例句"], "rows": [
+   ["practice", "训练；football practice", "Football practice begins at four."],
+   ["coach", "教练；team coach", "The team coach changed the schedule."],
+   ["team", "队伍；join a team", "Ava joined the basketball team."],
+   ["match", "比赛；play a match", "The team will play a match on Sunday."],
+   ["court", "球场；tennis court", "The tennis court is beside the hall."],
+   ["track", "跑道；running track", "The running track is open after class."],
+   ["equipment", "器材；sports equipment", "The coach checked the sports equipment."],
+   ["warm-up", "热身；do a warm-up", "The players did a warm-up before practice."],
+   ["tournament", "锦标赛；enter a tournament", "Our team entered the school tournament."],
+   ["captain", "队长；team captain", "The team captain spoke to the coach."]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["meaning"], "groups": [
+   {"items": [{"stem": "The deadline for the essay is Friday. What is Friday?", "options": ["The final day for submission", "The first day of the course", "The day the essay was returned", "The day the teacher gave feedback"], "answer": 0, "why": "deadline 指提交作业的截止日期。", "point": "meaning"}]},
+   {"items": [{"stem": "Nora signed up for the choir. What did she do?", "options": ["She conducted the choir.", "She registered for the choir.", "She left the choir rehearsal.", "She scheduled the choir's concert."], "answer": 1, "why": "signed up for 表示报名参加。", "point": "meaning"}]},
+   {"items": [{"stem": "The librarian renewed the loan. What changed?", "options": ["The book was returned early.", "The book was replaced with a new copy.", "The borrowing period was extended.", "The loan was ended that day."], "answer": 2, "why": "renewed the loan 表示延长借阅期限。", "point": "meaning"}]},
+   {"items": [{"stem": "The team will attend practice. What will they attend?", "options": ["A meeting to discuss the match", "A match against another team", "A talk on the team schedule", "A training session for the team"], "answer": 3, "why": "体育语境中的 practice 指训练。", "point": "meaning"}]},
+   {"items": [{"stem": "Mia submitted her assignment. What did she do?", "options": ["She handed in her work.", "She revised her first draft.", "She received her assignment.", "She checked her deadline."], "answer": 0, "why": "submitted her assignment 表示提交作业。", "point": "meaning"}]},
+   {"items": [{"stem": "A volunteer welcomed the guests. Who welcomed them?", "options": ["A guest attending the event", "A person offering unpaid help", "A member invited as a guest", "A person paid to organize the event"], "answer": 1, "why": "volunteer 指志愿提供帮助的人。", "point": "meaning"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["arrangement"], "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "When is the deadline for the history assignment? I have a draft, but I need another evening to revise it before submitting."}, {"who": "B", "text": "The teacher moved the deadline to Friday, so you have until then."}]}, "items": [{"stem": "When is the assignment due?", "options": ["This evening", "Tomorrow evening", "On Friday", "After Friday"], "answer": 2, "why": "moved the deadline to Friday 表示截止日期改为周五。", "point": "arrangement"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "I'd like to join the photography club. Can I register at the meeting tomorrow, or should I send the form before then?"}, {"who": "B", "text": "Send the form today. The meeting is for registered members."}]}, "items": [{"stem": "What should the student do today?", "options": ["Attend the club meeting", "Register at the meeting", "Ask the members for a form", "Send the registration form"], "answer": 3, "why": "Send the form today 是当天要做的事。会议只对已登记的成员开放，所以不能到会上再报名。", "point": "arrangement"}]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["meaning", "arrangement"], "sets": [{"id": "set-a", "groups": [
+   {"items": [{"stem": "The report deadline is Monday. What does deadline mean?", "options": ["The latest time to submit", "The first time to revise", "The time feedback is given", "The time the report is assigned"], "answer": 0, "why": "deadline 表示提交的截止时间。", "point": "meaning"}]},
+   {"items": [{"stem": "Students can sign up for the club today. What can they do?", "options": ["Leave the club today", "Register for the club", "Lead the club meeting", "Change the club schedule"], "answer": 1, "why": "sign up for 表示报名参加。", "point": "meaning"}]},
+   {"items": [{"stem": "The reader wants to renew a book. What does the reader want?", "options": ["To return the book early", "To get a new copy of the book", "To extend the borrowing period", "To borrow the book for the first time"], "answer": 2, "why": "renew a book 表示续借，延长借阅期限。", "point": "meaning"}]},
+   {"items": [{"stem": "The team has practice after class. What is planned?", "options": ["A meeting about the match", "A match against another team", "A discussion of the schedule", "A training session for players"], "answer": 3, "why": "team practice 指队伍的训练活动。", "point": "meaning"}]},
+   {"items": [{"stem": "The teacher gave feedback on the draft. What was given?", "options": ["Comments on the work", "A deadline for the work", "A topic for the first draft", "A schedule for submitting drafts"], "answer": 0, "why": "feedback 指对草稿的反馈意见。", "point": "meaning"}]},
+   {"items": [{"stem": "The team captain spoke to the coach. Who is the captain?", "options": ["The person coaching the team", "The person leading the team", "The person scheduling the match", "The person watching the team"], "answer": 1, "why": "team captain 指队长。", "point": "meaning"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "I'd like to sign up for the drama club. The notice says the meeting is on Thursday, but I haven't sent my registration form yet."}, {"who": "B", "text": "Please send it by Tuesday. The meeting is for registered students."}]}, "items": [{"stem": "When must the form be sent?", "options": ["Before the Thursday meeting ends", "After the Thursday meeting", "By Tuesday before the meeting", "On Tuesday after the meeting"], "answer": 2, "why": "send it by Tuesday 说明报名表的提交期限。", "point": "arrangement"}, {"stem": "What will happen on Thursday?", "options": ["The registration form is due.", "Students will register at the meeting.", "The club notice will be written.", "The drama club will hold a meeting."], "answer": 3, "why": "the meeting is on Thursday 说明周四举行社团会议。", "point": "arrangement"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "I borrowed a book for my science assignment, but it's due tomorrow. Can I keep it until next Friday to finish the report?"}, {"who": "B", "text": "Yes. I'll renew the loan until next Friday. Please bring your library card to the desk."}]}, "items": [{"stem": "What will the librarian do?", "options": ["Extend the loan until next Friday", "Collect the book tomorrow", "Keep the library card at the desk", "Lend another book for the assignment"], "answer": 0, "why": "I'll renew the loan until next Friday 表示把借阅期延长到下周五，即第一项。", "point": "arrangement"}, {"stem": "What should the student bring?", "options": ["The finished science report", "The student's library card", "The borrowed science book", "A copy of the assignment"], "answer": 1, "why": "bring your library card to the desk 指明须带借书证。", "point": "arrangement"}]}
+  ]}]} 
+ ]
+}

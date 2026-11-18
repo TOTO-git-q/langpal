@@ -1,0 +1,389 @@
+{
+ "id": "reading-ctw-function-b",
+ "title": "功能词（下）：连词、助动词、that 与 than",
+ "goal": "根据分句关系、动词形式和句法位置补全连词、助动词及易混词。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "conjunction",
+   "label": "按前后分句的逻辑关系补出连词"
+  },
+  {
+   "id": "auxiliary",
+   "label": "按主语、时态和动词形式补出助动词、情态动词"
+  },
+  {
+   "id": "confusable",
+   "label": "区分 that、than、then、there"
+  }
+ ],
+ "sources": [],
+ "cards": [
+  {
+   "id": "intro",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "连词连接分句。助动词用来构成时态、语态和疑问句。已给字母和词长只能缩小候选范围，最后由句法和逻辑关系决定。"
+    },
+    {
+     "box": "The sample was small, but the result was clear. The sample has been stored."
+    },
+    {
+     "p": "but 连接相反的情况。has 后面接过去分词 been。th__ 可能是 that、than、then，要看后面是从句、比较对象还是下一步动作。"
+    }
+   ]
+  },
+  {
+   "id": "conjunctions",
+   "type": "table",
+   "title": "连词",
+   "cols": [
+    "关系",
+    "用词",
+    "例句"
+   ],
+   "rows": [
+    [
+     "并列",
+     "and",
+     "The panel records light and measures temperature."
+    ],
+    [
+     "转折",
+     "but",
+     "The box is small, but it is heavy."
+    ],
+    [
+     "选择",
+     "or",
+     "The device runs on batteries, or it uses a power cable."
+    ],
+    [
+     "结果",
+     "so",
+     "The cable broke, so the screen went dark."
+    ],
+    [
+     "原因",
+     "because / since",
+     "The trial stopped because the cable broke. Since the cable is broken, the screen is dark."
+    ],
+    [
+     "让步",
+     "although",
+     "Although the box is heavy, it is easy to carry."
+    ],
+    [
+     "同时或对比；时间",
+     "while / when",
+     "While one group measures width, another measures length. When the bell rings, work stops."
+    ],
+    [
+     "条件；否定条件",
+     "if / unless",
+     "If the door opens, the light comes on. The room stays dark unless the door opens."
+    ]
+   ]
+  },
+  {
+   "id": "auxiliaries",
+   "type": "table",
+   "title": "助动词与情态动词",
+   "cols": [
+    "结构",
+    "形式与条件",
+    "例句"
+   ],
+   "rows": [
+    [
+     "be + 分词",
+     "is / are：现在；was / were：过去，按主语单复数选择。",
+     "The motor is running. The wheels are turning. It was repaired. They were tested."
+    ],
+    [
+     "have + 过去分词",
+     "has / have：现在完成时；had：过去完成时。",
+     "The timer has stopped. The workers have left. It had stopped before they arrived."
+    ],
+    [
+     "do + 原形",
+     "do / does：现在；did：过去，用于疑问、否定或强调。",
+     "Do they agree? Does it work? It did not move."
+    ],
+    [
+     "能力",
+     "can / could + 原形",
+     "The camera can rotate. The older camera could rotate too."
+    ],
+    [
+     "将来或过去将来",
+     "will / would + 原形",
+     "It will arrive tomorrow. They said it would arrive the next day."
+    ],
+    [
+     "可能性",
+     "may / might + 原形",
+     "The estimate may change. A larger sample might help."
+    ],
+    [
+     "建议",
+     "should + 原形",
+     "The report should include the date."
+    ],
+    [
+     "必要性或较强推断",
+     "must + 原形",
+     "All labels must be readable. The locked drawer must contain the missing key."
+    ]
+   ],
+   "note": "情态动词后用原形：can rotate，不用 can rotates。has stopped 和 had stopped 选哪个，看句中的时间关系。"
+  },
+  {
+   "id": "confusable",
+   "type": "table",
+   "title": "辨析",
+   "cols": [
+    "用词",
+    "句法依据",
+    "例句"
+   ],
+   "rows": [
+    [
+     "that",
+     "引出完整的内容从句；也可引导限定性定语从句。",
+     "The report states that the bridge is closed."
+    ],
+    [
+     "than",
+     "比较级后引出比较对象。",
+     "This beam is longer than the original one."
+    ],
+    [
+     "then",
+     "表示随后或当时，不引导内容从句。",
+     "First measure the beam; then record its length."
+    ],
+    [
+     "there",
+     "there be 表示存在，不表示所属。",
+     "There are two beams beside the door."
+    ],
+    [
+     "which",
+     "指物的关系词，在从句里作主语或宾语。",
+     "The beam, which supports the roof, is cracked."
+    ],
+    [
+     "while",
+     "连接同时发生或相互对比的完整分句。",
+     "The roof is dry while the floor is wet."
+    ]
+   ]
+  },
+  {
+   "id": "adverbs",
+   "type": "table",
+   "title": "not、also、only",
+   "cols": [
+    "用词",
+    "位置与作用",
+    "例句"
+   ],
+   "rows": [
+    [
+     "not",
+     "通常放在助动词或情态动词之后。",
+     "The motor does not run. The lid must not move."
+    ],
+    [
+     "also",
+     "放在实义动词前、be 后或第一个助动词后。",
+     "The device also records time. It is also portable. It can also store data."
+    ],
+    [
+     "only + 主语",
+     "限制执行动作的人或物。",
+     "Only the technician checks the motor."
+    ],
+    [
+     "only + 其他成分",
+     "紧挨着被限制的成分。位置一变，意思就变。",
+     "The technician checks only the motor. The motor runs only at night."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The fabric is thinner th__ the leather. Tests show th__ it stretches more. First record its width; th__ compare the two materials. Th___ are several possible uses."
+    },
+    {
+     "p": "第一空前面是比较级 thinner，补 than。第二空后面是完整的从句 it stretches more，show 后面用 that。"
+    },
+    {
+     "p": "第三空连接先后两个动作，补 then。第四空后面是 are，表示存在，补 there。than、that、then 各缺 2 个字母，there 缺 3 个。"
+    }
+   ]
+  },
+  {
+   "id": "check-conjunctions",
+   "type": "check",
+   "title": "练习一　连词",
+   "points": [
+    "conjunction"
+   ],
+   "groups": [
+    {
+     "label": "Fill in the missing letters.",
+     "fill": "A workshop tests different umbrella designs. One frame is light, b{ut} another is heavy. The team measures weight a{nd} records the results. The trials continue indoors bec{ause} rain would affect the scales. Alth{ough} the room is dry, every cover is tested with water. The frame bends wh{en} pressure is applied. I{f} a rib breaks, the trial stops. The cover remains attached unl{ess} a clip opens. One design folds flat, wh{ile} another keeps its curved shape.",
+     "tags": [
+      "conjunction",
+      "conjunction",
+      "conjunction",
+      "conjunction",
+      "conjunction",
+      "conjunction",
+      "conjunction",
+      "conjunction"
+     ],
+     "notes": [
+      "but：light 与 heavy 构成转折。",
+      "and：measures 与 records 是并列动作。",
+      "because：后面说明在室内测试的原因。",
+      "although：室内干燥与用水测试构成让步。",
+      "when：后面的分句说明弯曲发生的时间。",
+      "if：肋条断裂是停止测试的条件。",
+      "unless：夹子打开是罩布不再固定的例外条件。",
+      "while：对比两种设计的形状。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-auxiliaries",
+   "type": "check",
+   "title": "练习二　助动词",
+   "points": [
+    "auxiliary"
+   ],
+   "groups": [
+    {
+     "label": "Fill in the missing letters.",
+     "fill": "A conservation team is examining an old wall painting. Today the surface i{s} being photographed, and several damaged areas a{re} being marked. Last week a small section w{as} cleaned; other sections we{re} left untouched. The team has just finished its first report and i{s} sending it now. Two specialists ha{ve} already checked every photograph. The new camera c{an} record fine cracks. Tomorrow the team wi{ll} compare the images with earlier drawings.",
+     "tags": [
+      "auxiliary",
+      "auxiliary",
+      "auxiliary",
+      "auxiliary",
+      "auxiliary",
+      "auxiliary",
+      "auxiliary",
+      "auxiliary"
+     ],
+     "notes": [
+      "is：Today 表示现在，surface 是单数，后接 being。",
+      "are：areas 是复数，使用 are being。",
+      "was：Last week 指过去，section 是单数。",
+      "were：sections 是复数，过去被动结构用 were。",
+      "is：team 是单数，后接 sending，构成现在进行时。",
+      "have：复数 specialists 后接过去分词 checked，用 have。",
+      "can：表示设备能力，后接原形 record。",
+      "will：Tomorrow 表示将来，后接原形 compare。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-confusable",
+   "type": "check",
+   "title": "练习三　辨析",
+   "points": [
+    "confusable"
+   ],
+   "groups": [
+    {
+     "label": "Fill in the missing letters.",
+     "fill": "An archive is comparing two handwritten diaries. The curator finds th{at} both writers describe the same festival. One account is longer th{an} the other. First the dates are checked; th{en} the entries are placed side by side. Th{ere} are differences in the names of streets. A note confirms th{at} one street was renamed. First the old name is recorded; th{en} the new name is added. The first diary is older th{an} the second. Th{ere} is no map in either diary.",
+     "tags": [
+      "confusable",
+      "confusable",
+      "confusable",
+      "confusable",
+      "confusable",
+      "confusable",
+      "confusable",
+      "confusable"
+     ],
+     "notes": [
+      "that：finds 后引出 both writers describe 的内容从句。",
+      "than：比较级 longer 后引出比较对象。",
+      "then：与 First 对应，表示随后。",
+      "there：there are 表示存在，后接复数 differences。",
+      "that：confirms 后接 one street was renamed 的完整从句。",
+      "then：与 First 对应，连接记录的先后步骤。",
+      "than：比较级 older 后用 than。",
+      "there：there is no map 表示没有地图。their 表示所属，放在这里不合句法。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 4,
+   "pass": 0.8,
+   "points": [
+    "confusable",
+    "conjunction",
+    "auxiliary"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Fill in the missing letters.",
+       "fill": "A film club is preparing captions for a silent documentary. The editor knows th{at} the captions must fit the screen. Short lines are clearer th{an} long ones, b{ut} the meaning must remain complete. First a line is shortened; th{en} it i{s} checked against the scene. Th{ere} are no spoken words, s{o} images supply the context. The editors ha{ve} already checked the opening scene. They c{an} change a caption i{f} its meaning is unclear. The finished version will be shown at the next meeting.",
+       "tags": [
+        "confusable",
+        "confusable",
+        "conjunction",
+        "confusable",
+        "auxiliary",
+        "confusable",
+        "conjunction",
+        "auxiliary",
+        "auxiliary",
+        "conjunction"
+       ]
+      },
+      {
+       "label": "Fill in the missing letters.",
+       "fill": "A workshop is restoring a mechanical clock. Yesterday the case w{as} opened, and the hands we{re} removed. The repairer found th{at} one wheel was damaged. It was smaller th{an} the wheel beside it. First the broken wheel was measured; th{en} a replacement was selected. Th{ere} is now a new wheel inside the case. Alth{ough} the repair is complete, testing continues. The clock wi{ll} remain on the bench until tomorrow bec{ause} its accuracy needs checking, wh{ile} the other clocks return to their owners.",
+       "tags": [
+        "auxiliary",
+        "auxiliary",
+        "confusable",
+        "confusable",
+        "confusable",
+        "confusable",
+        "conjunction",
+        "auxiliary",
+        "conjunction",
+        "conjunction"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

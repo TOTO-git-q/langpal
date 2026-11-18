@@ -1,0 +1,53 @@
+{
+ "id": "translation-passive",
+ "title": "汉译英的被动结构",
+ "goal": "能根据原文选择主动或被动结构，并使用正确的被动形式。",
+ "skill": "翻译",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "voice", "label": "按原文话题选择主动或被动"},
+  {"id": "form", "label": "组成时态和分词正确的被动句"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译教学范围"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "被动结构把动作的承受者放在主语位置。行为者不明或不重要时，省略 by 短语。原文有明确的行为者时，也可以用主动句。"},
+   {"box": "The bridge was built in 1990. / Local workers built the bridge in 1990."}
+  ]},
+  {"id": "contexts", "type": "table", "title": "被动结构的语境", "cols": ["情况", "用法", "例句"], "rows": [
+   ["行为者不明", "突出承受者，省略未知的行为者。", "这座石桥建于一九九零年。 / The stone bridge was built in 1990."],
+   ["承受者为话题", "承接前文话题，必要时用 by 引出行为者。", "这幅画由当地画家创作。 / The painting was created by a local artist."],
+   ["客观介绍", "介绍广泛认可的特征或评价。", "这个村庄以竹编工艺闻名。 / The village is known for its bamboo weaving."],
+   ["行为者明确", "行为者是信息重点时，用主动句。", "村民每年修理这座木桥。 / Villagers repair the wooden bridge every year."]
+  ]},
+  {"id": "forms", "type": "table", "title": "被动结构的形式", "cols": ["结构", "用法", "例句"], "rows": [
+   ["be built", "build 的过去分词是 built。be 的形式随时间变化。", "The hall was built in 1980. / The halls are built with local stone."],
+   ["be known for", "for 引出闻名的原因。", "The town is known for its pottery."],
+   ["be regarded as", "as 引出对主语的评价或身份。", "The garden is regarded as a local landmark."],
+   ["主谓一致", "be 与承受者的单复数一致。", "The towers were built in 1920. / The tower was built in 1920."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "这座旧剧院建于一九三五年，如今仍供当地居民使用。\nThe old theater was built in 1935 and is still used by local residents."},
+   {"p": "theater 承受建造和使用两个动作。建造发生在过去，使用延续到现在，因此分别用 was built 和 is used。"}
+  ]},
+  {"id": "check-voice", "type": "check", "title": "练习一", "points": ["voice"], "groups": [{"items": [
+   {"stem": "这座古塔建于十八世纪，建造者已无法考证。", "options": ["The old tower built in the eighteenth century, and its builders can no longer be identified.", "The old tower was built in the eighteenth century, and its builders can no longer be identified.", "The old tower was built in the eighteenth century, and its builders can no longer identify it.", "The old tower is built in the eighteenth century, and its builders can no longer be identified."], "answer": 1, "why": "塔是建造的承受者，建造者已无法考证，所以两个分句都用被动。建造发生在过去，用 was built，即第二项。", "point": "voice"},
+   {"stem": "当地工匠每年修复这座古桥，保持桥面平整。", "options": ["Local craftspeople repair the old bridge every year to keep its surface even.", "The old bridge was repaired by local craftspeople once to keep its surface even.", "Local craftspeople repaired the old bridge to keep its surface even.", "The old bridge repaired by local craftspeople every year to keep its surface even."], "answer": 0, "why": "原文的行为者是当地工匠，动作每年发生。第一项用主动句和一般现在时，保留了行为者和频率。", "point": "voice"}
+  ]}]},
+  {"id": "check-form", "type": "check", "title": "练习二", "points": ["form"], "groups": [{"items": [
+   {"stem": "这座小镇以精美的陶器闻名，吸引许多游客。 The town is known ___ its fine pottery.", "accept": ["for"], "why": "be known for 后接闻名的原因。", "point": "form"},
+   {"stem": "这座建筑被视为当地的文化地标。", "lead": "The building", "chunks": ["is regarded", "as", "a local", "cultural landmark"], "tail": ".", "extra": ["for"], "why": "is regarded as 后接对建筑的评价。", "point": "form"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["voice", "form"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "这座礼堂建于一九八零年，建造者已经不详。", "options": ["The hall built in 1980, and its builders are unknown.", "The hall was built in 1980, and its builders are well known.", "The hall was built in 1980, and its builders are unknown.", "The hall is built in 1980, and its builders are unknown."], "answer": 2, "why": "礼堂是建造的承受者，建造者不详，建造发生在过去，用 was built，即第三项。第一项缺少 was。", "point": "voice"},
+   {"stem": "当地居民每年清理这条河，河水因此更加清澈。", "options": ["The river was cleaned by local residents once, so the water has become clearer.", "Local residents cleaned the river last year, so the water has become clearer.", "Local residents are cleaned the river every year, so the water has become clearer.", "Local residents clean the river every year, so the water has become clearer."], "answer": 3, "why": "原文的行为者是当地居民，动作每年发生。第四项用主动句 clean the river every year，也译出了河水更清澈的结果。", "point": "voice"},
+   {"stem": "这些石墙建于一九二零年，至今保存完好。", "options": ["The stone walls were built in 1920 and are still well preserved.", "The stone walls are built in 1920 and are still well preserved.", "The stone walls were build in 1920 and are still well preserved.", "The stone walls was built in 1920 and are still well preserved."], "answer": 0, "why": "建造发生在一九二零年，用过去时；复数 walls 与 were 一致，built 是过去分词，即第一项。", "point": "form"},
+   {"stem": "这个花园被视为该地区的重要地标。", "options": ["The garden is regarded for an important landmark in the area.", "The garden is regarded as an important landmark in the area.", "The garden regards as an important landmark in the area.", "The area is regarded as an important landmark in the garden."], "answer": 1, "why": "被视为对应 is regarded as，as 后接对花园的评价，即第二项。第一项把 as 换成了 for。", "point": "form"},
+   {"stem": "这座博物馆以古代陶器闻名，收藏十分丰富。", "lead": "The museum", "chunks": ["is known", "for", "its collection of", "ancient pottery"], "tail": ", which is very rich.", "extra": ["as"], "why": "be known for 引出闻名的原因。", "point": "form"},
+   {"stem": "这些房屋于一九五零年由当地工人建造。", "lead": "The houses", "chunks": ["were built", "in 1950 by", "local", "workers"], "tail": ".", "extra": ["was"], "why": "复数 houses 在过去时与 were built 连用。", "point": "form"},
+   {"stem": "这座城市以传统木雕闻名，吸引众多参观者。 The city is known ___ its traditional woodcarving.", "accept": ["for"], "why": "known for 后接闻名的原因。", "point": "form"},
+   {"stem": "这座桥被视为城市的重要历史地标。 The bridge is regarded ___ an important historic landmark.", "accept": ["as"], "why": "regarded as 后接对桥的评价。", "point": "form"}
+  ]}]}]}
+ ]
+}

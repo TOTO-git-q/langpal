@@ -1,0 +1,90 @@
+{
+ "id": "reading-banked-collocation",
+ "title": "选词填空的词语搭配",
+ "goal": "根据搭配限制和上下文选择合适的词语。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "pair", "label": "识别词语之间的搭配限制"},
+  {"id": "context", "label": "结合句意选择合适搭配"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读任务及材料范围"}],
+ "cards": [
+  {"id": "intro", "type": "text", "title": "概述", "body": [
+   {"p": "搭配是经常一起出现的词语组合。词性合适的候选词，还要与句中的词搭配，并符合语境。"},
+   {"p": "例如 make a decision 表示作出决定；gather evidence 表示收集证据。两组搭配的宾语不同。"}
+  ]},
+  {"id": "verb-noun", "type": "table", "title": "动宾搭配", "cols": ["搭配", "中文义", "例句"], "rows": [
+   ["make a decision", "作出决定", "They made a decision."],
+   ["reach a conclusion", "得出结论", "The team reached a conclusion."],
+   ["gather evidence", "收集证据", "They gathered evidence."],
+   ["provide evidence", "提供证据", "The records provide evidence."],
+   ["have an effect", "产生影响", "The change had an effect."],
+   ["take responsibility", "承担责任", "The manager took responsibility."],
+   ["raise awareness", "提高认识", "The campaign raised awareness."],
+   ["conduct research", "开展研究", "The group conducts research."],
+   ["collect data", "收集数据", "The staff collected data."],
+   ["solve a problem", "解决问题", "The method solved a problem."]
+  ]},
+  {"id": "adjective-noun", "type": "table", "title": "形容词与名词", "cols": ["搭配", "中文义", "例句"], "rows": [
+   ["significant increase", "显著增长", "The report showed a significant increase."],
+   ["gradual decline", "逐渐下降", "The graph shows a gradual decline."],
+   ["practical solution", "切实可行的解决办法", "They proposed a practical solution."],
+   ["reliable source", "可靠来源", "The book is a reliable source."],
+   ["strong evidence", "有力证据", "The records offer strong evidence."],
+   ["major factor", "主要因素", "Cost was a major factor."],
+   ["public demand", "公众需求", "Public demand has grown."],
+   ["limited resources", "有限的资源", "The group has limited resources."],
+   ["initial result", "初步结果", "The initial result was promising."],
+   ["long-term effect", "长期影响", "The study examined the long-term effect."]
+  ]},
+  {"id": "adverbs", "type": "table", "title": "副词修饰", "cols": ["搭配", "中文义", "例句"], "rows": [
+   ["widely used", "广泛使用的", "The method is widely used."],
+   ["closely related", "密切相关的", "The two questions are closely related."],
+   ["highly effective", "非常有效的", "The filter is highly effective."],
+   ["strongly support", "有力支持", "The results strongly support the claim."],
+   ["gradually increase", "逐渐增加", "Costs gradually increased."],
+   ["carefully examine", "仔细检查", "They carefully examined the sample."],
+   ["clearly indicate", "清楚表明", "The figures clearly indicate a change."],
+   ["fully understand", "充分理解", "The team fully understood the task."],
+   ["directly affect", "直接影响", "The policy directly affects costs."],
+   ["largely depend", "主要依赖", "The result largely depends on timing."]
+  ]},
+  {"id": "prepositions", "type": "table", "title": "介词搭配", "cols": ["搭配", "中文义", "例句"], "rows": [
+   ["effect on", "对……的影响", "The effect on costs was small."],
+   ["evidence for", "支持……的证据", "They found evidence for the claim."],
+   ["increase in", "……的增加", "There was an increase in demand."],
+   ["access to", "使用……的机会", "Residents gained access to the service."],
+   ["responsibility for", "对……的责任", "She accepted responsibility for the report."],
+   ["depend on", "依靠", "Plants depend on water."],
+   ["contribute to", "促成", "Training contributed to the improvement."],
+   ["result in", "导致", "The delay resulted in a change."],
+   ["similar to", "与……相似", "The result is similar to the earlier finding."],
+   ["different from", "与……不同", "The route is different from the old one."]
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["pair"], "groups": [{"items": [
+   {"stem": "Which verb completes '___ responsibility for the report'?", "options": ["take", "gather", "conduct", "solve"], "answer": 0, "why": "take responsibility for 表示承担对某事的责任。", "point": "pair"},
+   {"stem": "Which preposition completes 'evidence ___ the claim'?", "options": ["from", "for", "on", "in"], "answer": 1, "why": "evidence for 表示支持某项主张的证据。", "point": "pair"}
+  ]}]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["context"], "groups": [{"items": [
+   {"stem": "The team needs facts before testing its claim. What should it gather?", "options": ["A decision", "A responsibility", "Evidence", "A solution"], "answer": 2, "why": "检验主张需要事实，gather evidence 表示收集证据。", "point": "context"},
+   {"stem": "A measure reduced costs and was easy to apply. Which phrase describes it?", "options": ["A gradual decline", "A reliable source", "An initial result", "A practical solution"], "answer": 3, "why": "措施有效且易于实施，a practical solution 表示切实可行的解决办法。", "point": "context"}
+  ]}]},
+  {"id": "check-three", "type": "check", "title": "练习三", "points": ["pair", "context"], "groups": [{"items": [
+   {"stem": "Which adverb completes 'The two findings are ___ related'?", "options": ["closely", "gradually", "carefully", "widely"], "answer": 0, "why": "closely related 表示密切相关。", "point": "pair"},
+   {"stem": "The number rose slowly over several years. Which phrase describes it?", "options": ["A long-term effect", "A gradual increase", "A limited resource", "A major factor"], "answer": 1, "why": "rose slowly 表示逐渐增加，即 a gradual increase。", "point": "context"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["pair", "context"], "sets": [{"id": "set-a", "groups": [
+   {"fill": "Local staff discussed a proposal. They rea{ched} a deci{sion} and gath{ered} some evid{ence} about pub{lic} demand. T{he} proposal sho{wed} a signi{ficant} increase i{n} local inte{rest}. It offered a practical solution to transport problems. Before beginning the project, the staff asked residents about the routes they used and the times at which services were most useful. The responses helped them identify the areas with the greatest demand. They also recorded costs so that a later review could compare the plan with the service actually provided.", "tags": ["pair", "pair", "pair", "pair", "context", "context", "context", "pair", "pair", "context"]},
+   {"items": [
+    {"stem": "Which verb completes '___ research into water use'?", "options": ["Solve", "Conduct", "Gather", "Reach"], "answer": 1, "why": "conduct research 表示开展研究。", "point": "pair"},
+    {"stem": "Which preposition completes 'have an effect ___ costs'?", "options": ["for", "from", "on", "to"], "answer": 2, "why": "effect on 表示对某事的影响。", "point": "pair"},
+    {"stem": "Which phrase means that a method is used in many places?", "options": ["A carefully used method", "A closely related method", "A strongly supported method", "A widely used method"], "answer": 3, "why": "widely used 表示广泛使用的。", "point": "pair"},
+    {"stem": "The investigation found several facts supporting the claim. What did it provide?", "options": ["Strong evidence", "Limited resources", "A practical solution", "Evidence against the claim"], "answer": 0, "why": "several facts supporting the claim 说明证据多且支持主张，即 strong evidence。第四项把支持改成了反对。", "point": "context"},
+    {"stem": "A group lacks money and equipment for its project. What does it have?", "options": ["A significant increase", "Limited resources", "A reliable source", "Public demand"], "answer": 1, "why": "资金和设备不足对应 limited resources。", "point": "context"},
+    {"stem": "The project changed costs for many years. What did the study examine?", "options": ["The initial result", "The major factor", "The long-term effect", "The short-term effect"], "answer": 2, "why": "for many years 说明变化持续多年，对应 long-term effect。第四项 short-term 与此相反。", "point": "context"}
+   ]}
+  ]}]}
+ ]
+}

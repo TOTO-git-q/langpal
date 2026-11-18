@@ -1,0 +1,366 @@
+{
+ "id": "usage-grammar-tense",
+ "title": "谓语动词的基本时态",
+ "goal": "能根据时间和动作状态选择基本时态的谓语形式。",
+ "skill": "语言运用",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "time",
+   "label": "根据时间线索确定动作所属时间"
+  },
+  {
+   "id": "aspect",
+   "label": "区分一般动作与正在进行的动作"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语课程课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "教学内容与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "时态表示动作发生的时间，也区分一般动作和正在进行的动作。判断时态看三处：时间状语、叙述背景和相邻的动作。"
+    },
+    {
+     "box": "The shop opens at nine. / The shop is opening a new branch this month."
+    },
+    {
+     "p": "第一句说通常的营业时间，第二句说本月正在进行的变化。谓语还要和主语的人称和数一致。"
+    }
+   ]
+  },
+  {
+   "id": "simple",
+   "type": "table",
+   "title": "一般时态",
+   "cols": [
+    "时态",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "一般现在",
+     "表示事实或经常发生的动作",
+     "Water freezes at zero degrees Celsius."
+    ],
+    [
+     "一般现在",
+     "第三人称单数主语后，动词加 -s 或 -es",
+     "The library closes at six every Friday."
+    ],
+    [
+     "一般过去",
+     "表示过去发生、已经结束的动作",
+     "The library closed early yesterday."
+    ],
+    [
+     "一般将来",
+     "will 加动词原形表示将来动作",
+     "The library will reopen tomorrow."
+    ],
+    [
+     "一般将来",
+     "be going to 加动词原形表示计划",
+     "The class is going to visit the library next week."
+    ]
+   ]
+  },
+  {
+   "id": "continuous",
+   "type": "table",
+   "title": "进行时态",
+   "cols": [
+    "时态",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "现在进行",
+     "am、is、are 加动词的 ing 形式",
+     "The students are preparing a display now."
+    ],
+    [
+     "现在进行",
+     "表示现阶段正在进行的变化",
+     "The days are becoming shorter this month."
+    ],
+    [
+     "过去进行",
+     "was、were 加动词的 ing 形式",
+     "At noon yesterday, the students were preparing a display."
+    ],
+    [
+     "过去进行",
+     "两个过去动作同时进行",
+     "While Mei was sorting books, Dan was labeling boxes."
+    ],
+    [
+     "过去进行与一般过去",
+     "背景动作正在进行时，另一个动作发生",
+     "Mei was sorting books when Dan arrived."
+    ]
+   ],
+   "note": "know、believe 等表示状态的动词一般不用进行时，如 She knows the answer。"
+  },
+  {
+   "id": "contrast",
+   "type": "table",
+   "title": "辨析",
+   "cols": [
+    "情况",
+    "形式",
+    "例句"
+   ],
+   "rows": [
+    [
+     "习惯与当前动作",
+     "一般现在与现在进行",
+     "She walks to school every day. / She is walking home now."
+    ],
+    [
+     "过去的事件与背景",
+     "一般过去与过去进行",
+     "The bell rang while she was walking home."
+    ],
+    [
+     "过去与将来",
+     "一般过去与一般将来",
+     "The team met yesterday. / The team will meet tomorrow."
+    ],
+    [
+     "单数与复数",
+     "进行时的 be 与主语一致",
+     "The bird is feeding. / The birds are feeding."
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "time"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Every morning, the driver (check) the bus before leaving.",
+       "accept": [
+        "checks"
+       ],
+       "why": "Every morning 表示经常发生的动作，单数主语后用 checks。",
+       "point": "time"
+      },
+      {
+       "stem": "Yesterday, the driver (check) the bus at six.",
+       "accept": [
+        "checked"
+       ],
+       "why": "Yesterday 表示过去的时间，用一般过去时。",
+       "point": "time"
+      },
+      {
+       "stem": "Tomorrow, the driver (check) the bus at six. Use will.",
+       "accept": [
+        "will check"
+       ],
+       "why": "Tomorrow 表示将来，will 后接动词原形。",
+       "point": "time"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "aspect"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "At this moment, the chef (cut) vegetables for lunch.",
+       "accept": [
+        "is cutting"
+       ],
+       "why": "At this moment 表示现在正在进行的动作，单数主语后用 is cutting。",
+       "point": "aspect"
+      },
+      {
+       "stem": "At noon yesterday, the chefs (cut) vegetables when the delivery arrived. The cutting was already in progress.",
+       "accept": [
+        "were cutting"
+       ],
+       "why": "送货到达时，切菜已经在进行，复数主语用 were cutting。",
+       "point": "aspect"
+      },
+      {
+       "stem": "While the chef was cutting vegetables, the assistants (wash) the bowls. Both actions were in progress.",
+       "accept": [
+        "were washing"
+       ],
+       "why": "两个动作在过去同时进行，复数主语后用 were washing。",
+       "point": "aspect"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-three",
+   "type": "check",
+   "title": "练习三",
+   "points": [
+    "time",
+    "aspect"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The pond usually (freeze) in winter, but today the water is still moving.",
+       "accept": [
+        "freezes"
+       ],
+       "why": "usually 表示通常情况，用一般现在时。",
+       "point": "time"
+      },
+      {
+       "stem": "The water level (rise) at present after days of rain.",
+       "accept": [
+        "is rising"
+       ],
+       "why": "at present 表示变化现在正在发生，用 is rising。",
+       "point": "aspect"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "time",
+    "aspect"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "A bicycle repair club meets in a neighborhood hall. Its members work on their own bicycles and share equipment. Every Saturday, the club leader [1] the condition of the tools before the doors open. Last Saturday, a visitor [2] a bicycle with a loose chain. The leader explained the problem and showed the visitor how to adjust it. At ten that morning, several members [3] at the tables. While one member was checking a tire, another [4] a chain. A bell rang when a delivery of spare parts arrived. The club usually keeps common parts in labeled drawers, so members can find them without delay. Today, however, the members are rearranging the drawers because the collection has grown. Each label will have a clear name and a picture. The club [5] an open afternoon next weekend. New visitors can see the work area and speak with the members. The hall has a separate entrance for bicycles, and a notice beside it explains where visitors should leave them. The club also keeps a notebook of repairs so that members can record the methods they have used.",
+       "items": [
+        {
+         "stem": "Every Saturday, the club leader (check) the condition of the tools.",
+         "accept": [
+          "checks"
+         ],
+         "why": "Every Saturday 表示习惯，单数主语后用 checks。",
+         "point": "time"
+        },
+        {
+         "stem": "Last Saturday, a visitor (bring) a bicycle with a loose chain.",
+         "accept": [
+          "brought"
+         ],
+         "why": "Last Saturday 表示过去时间，bring 的过去式是 brought。",
+         "point": "time"
+        },
+        {
+         "stem": "At ten last Saturday morning, several members (work) at the tables. Their work was in progress at that time.",
+         "accept": [
+          "were working"
+         ],
+         "why": "At ten last Saturday morning 是过去的具体时刻，动作正在进行，用 were working。",
+         "point": "aspect"
+        },
+        {
+         "stem": "While one member was checking a tire, another (clean) a chain. Both actions were in progress.",
+         "accept": [
+          "was cleaning"
+         ],
+         "why": "两个动作在过去同时进行，another 是单数，用 was cleaning。",
+         "point": "aspect"
+        },
+        {
+         "stem": "The club (hold) an open afternoon next weekend. Use will.",
+         "accept": [
+          "will hold"
+         ],
+         "why": "next weekend 指将来，will 后用动词原形。",
+         "point": "time"
+        }
+       ]
+      },
+      {
+       "text": "An art class studies patterns made with paper. The teacher usually [1] examples on a large board before the lesson begins. Students examine the shapes carefully and describe the repeated lines. Yesterday, the class [2] a new method using folded paper. Each student chose a sheet and folded it several times. At the end of the lesson, they opened their sheets and compared the patterns. One student noticed that the folds formed squares. Another found triangles near the edges. At the moment, the class [3] a display of these patterns for the school hall. Two students are measuring the board, while another student [4] labels. They are choosing simple descriptions so that visitors can understand how each pattern was made. Next week, the class [5] another group to look at the display. The teacher will also leave some spare paper on a nearby table. Visitors can fold it and compare their own patterns with the examples. After the display closes, the class will keep the labeled examples in a folder. The folder will help future students explore the same method.",
+       "items": [
+        {
+         "stem": "The teacher usually (place) examples on a large board before the lesson.",
+         "accept": [
+          "places"
+         ],
+         "why": "usually 表示习惯，单数主语后用 places。",
+         "point": "time"
+        },
+        {
+         "stem": "Yesterday, the class (try) a new method using folded paper.",
+         "accept": [
+          "tried"
+         ],
+         "why": "Yesterday 指过去，try 的过去式是 tried。",
+         "point": "time"
+        },
+        {
+         "stem": "At the moment, the class (prepare) a display for the school hall.",
+         "accept": [
+          "is preparing"
+         ],
+         "why": "At the moment 表示动作正在进行，class 作单数主语，用 is preparing。",
+         "point": "aspect"
+        },
+        {
+         "stem": "Two students are measuring the board, while another student (write) labels now.",
+         "accept": [
+          "is writing"
+         ],
+         "why": "两个动作现在同时进行，单数主语后用 is writing。",
+         "point": "aspect"
+        },
+        {
+         "stem": "Next week, the class (invite) another group to look at the display. Use will.",
+         "accept": [
+          "will invite"
+         ],
+         "why": "Next week 指将来，will 后用动词原形。",
+         "point": "time"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

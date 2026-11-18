@@ -1,0 +1,48 @@
+{
+ "id": "translation-comparison", "title": "程度与比较关系", "goal": "能保留程度变化，并选择比较对象一致的结构。", "skill": "翻译", "exam": "大学英语四级（CET-4）", "mastery": "once",
+ "points": [{"id": "degree", "label": "保留原文的程度与变化方向"}, {"id": "compare", "label": "选择对象一致的比较结构"}],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译教学所依据的大纲"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "程度表达有三类：持续变化、两者有差异、两者相同。翻译时要保留比较对象，不扩大原文的范围。"}, {"box": "原文：村里的公共交通比过去更加便利。\n译文：Public transport in the village is more convenient than it used to be."}, {"p": "原文比较的是村里的现在和过去，译文用比较级，不能译成最高级。"}]},
+  {"id": "change", "type": "table", "title": "程度变化", "cols": ["情况", "原文", "译文与说明"], "rows": [
+   ["越来越便利", "村里的交通服务变得越来越便利。", "Transport services in the village are becoming increasingly convenient. increasingly 表示程度上升。"],
+   ["越来越受欢迎", "传统工艺展览变得越来越受欢迎。", "Traditional craft exhibitions are becoming more and more popular. more and more 表示持续变化。"],
+   ["更为便捷", "新的步道使居民出行更为便捷。", "The new path makes travel more convenient for residents. more convenient 表示程度提高。"],
+   ["更为清晰", "新的标识使展览路线更为清晰。", "The new signs make the exhibition route clearer. clearer 表示程度提高。"]
+  ]},
+  {"id": "comparison", "type": "table", "title": "比较对象", "cols": ["情况", "原文", "译文与说明"], "rows": [
+   ["两条道路", "北面的道路比南面的道路更宽。", "The northern road is wider than the southern road. 比较两条道路。"],
+   ["两个展室", "东面的展室比西面的展室更明亮。", "The eastern exhibition room is brighter than the western one. 比较两个展室。"],
+   ["同样长", "这条小路与河边的步道同样长。", "This path is as long as the riverside path. as long as 表示长度相同。"],
+   ["同样便利", "新车站与旧车站同样便利。", "The new station is as convenient as the old station. as convenient as 表示程度相同。"]
+  ]},
+  {"id": "more-than", "type": "table", "title": "more than 的含义", "cols": ["含义", "原文", "译文与说明"], "rows": [
+   ["数量超过", "去年有超过一百人参观了展馆。", "More than one hundred people visited the gallery last year. 表示人数超过一百。"],
+   ["数量超过", "这条步道的长度超过两公里。", "This path is more than two kilometers long. 表示长度超过两公里。"],
+   ["数量比较", "今年参观展览的人数比去年多。", "More people visited the exhibition this year than last year. 比较两个年份的人数。"],
+   ["数量比较", "东区的花园比西区的花园多。", "The eastern area has more gardens than the western area. 比较两个地区的花园数量。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [{"box": "原文：北面的道路比南面的道路更宽。\n1. The northern road is wider than the southern road.\n2. The southern road is wider than the northern road.\n3. The northern road is as wide as the southern road.\n4. The northern road is the widest road in the town."}, {"p": "原文比较北面和南面两条道路，北面的更宽，即第一项。第二项把比较方向弄反了。"}]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["degree", "compare"], "groups": [{"items": [
+   {"stem": "原文：社区的交通服务变得越来越便利。Which translation preserves the change?", "options": ["The community's transport services are becoming increasingly convenient.", "The community's transport services are becoming less and less convenient.", "The community's transport services remain as convenient as they were.", "The community's transport services were more convenient in the past."], "answer": 0, "why": "「越来越便利」用 becoming increasingly convenient，即第一项。", "point": "degree"},
+   {"stem": "原文：北面的道路比南面的道路更宽。Which translation keeps the comparison?", "options": ["The southern road is wider than the northern road.", "The northern road is wider than the southern road.", "The northern road is as wide as the southern road.", "The northern road is the widest road in the town."], "answer": 1, "why": "原文说北面的道路更宽，第二项保留了比较对象和方向。第一项把方向弄反了。", "point": "compare"},
+   {"stem": "原文：新的标识使展览路线更为清晰。Which translation retains the stated degree?", "options": ["The new signs make the exhibition route less clear.", "The new signs make the exhibition route clear.", "The new signs make the exhibition route clearer.", "The new signs make the exhibition route the clearest of all."], "answer": 2, "why": "「更为清晰」用比较级 clearer，即第三项。第二项丢掉了「更为」。", "point": "degree"},
+   {"stem": "原文：新车站与旧车站同样便利。Which translation preserves equality?", "options": ["The new station is more convenient than the old one.", "The old station is more convenient than the new one.", "The new station is the most convenient station.", "The new station is as convenient as the old one."], "answer": 3, "why": "「同样便利」用 as convenient as，即第四项。", "point": "compare"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["degree", "compare"], "groups": [{"text": "原文：传统工艺展览越来越受欢迎。今年参观展览的人数比去年多，超过一百人。东展室与西展室同样明亮。", "items": [
+   {"stem": "Which phrase describes the change in popularity?", "options": ["increasingly popular", "less popular than before", "equally popular throughout", "the most popular"], "answer": 0, "why": "「越来越受欢迎」用 increasingly popular，即第一项。", "point": "degree"},
+   {"stem": "Which sentence preserves the comparison between years?", "options": ["Fewer people visited this year than last year.", "More people visited this year than last year.", "The same number visited this year and last year.", "More people visited last year than this year."], "answer": 1, "why": "依据：今年参观展览的人数比去年多，即第二项。第四项把两个年份弄反了。", "point": "compare"},
+   {"stem": "Which phrase preserves the threshold for this year's visitors?", "options": ["exactly one hundred people", "fewer than one hundred people", "more than one hundred people", "the most people of any year"], "answer": 2, "why": "「超过一百人」用 more than one hundred people，即第三项。", "point": "degree"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["degree", "compare"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "原文：这个村庄的公共交通越来越便利。Which translation preserves the change?", "options": ["The village's public transport is becoming increasingly convenient.", "The village's public transport is becoming less and less convenient.", "The village's public transport remains as convenient as before.", "The village's public transport was more convenient in the past."], "answer": 0, "why": "「越来越便利」用 becoming increasingly convenient，即第一项。", "point": "degree"},
+   {"stem": "原文：东展室比西展室更明亮。Which translation preserves the comparison?", "options": ["The western exhibition room is brighter than the eastern one.", "The eastern exhibition room is brighter than the western one.", "The eastern exhibition room is as bright as the western one.", "The eastern exhibition room is the brightest of all the rooms."], "answer": 1, "why": "原文说东展室更明亮，即第二项。第一项把比较方向弄反了。", "point": "compare"},
+   {"stem": "原文：新的标识使展览路线更为清晰。Which phrase preserves the degree?", "options": ["makes the exhibition route less clear", "makes the exhibition route clear", "makes the exhibition route clearer", "makes the exhibition route the clearest of all"], "answer": 2, "why": "「更为清晰」用比较级 clearer，即第三项。第二项丢掉了「更为」。", "point": "degree"},
+   {"stem": "原文：这条小路与河边的步道同样长。Which sentence preserves the comparison?", "options": ["This path is longer than the riverside path.", "The riverside path is longer than this path.", "This path is the longest path in the area.", "This path is as long as the riverside path."], "answer": 3, "why": "「同样长」用 as long as，即第四项。", "point": "compare"},
+   {"stem": "原文：传统工艺展览变得越来越受欢迎。Arrange the given translation.", "lead": "Traditional craft exhibitions", "chunks": ["are", "becoming", "more and more", "popular"], "tail": ".", "extra": ["less"], "why": "more and more popular 表示越来越受欢迎。", "point": "degree"},
+   {"stem": "原文：北面的道路比南面的道路更宽。Arrange the given translation.", "lead": "The northern road", "chunks": ["is wider", "than", "the southern", "road"], "tail": ".", "extra": ["widest"], "why": "wider than 比较北面与南面的道路。", "point": "compare"},
+   {"stem": "原文：去年参观展馆的人数超过一百人。___ one hundred people visited the gallery last year. Complete with the phrase more than.", "accept": ["more than"], "why": "more than 表示人数超过一百。", "point": "degree"},
+   {"stem": "原文：新车站与旧车站同样便利。The new station is ___ the old station. Complete using as and convenient.", "accept": ["as convenient as"], "why": "as convenient as 表示同样便利。", "point": "compare"}
+  ]}]}]}
+ ]
+}

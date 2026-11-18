@@ -1,0 +1,436 @@
+{
+ "id": "writing-reference",
+ "title": "段内指代与复现",
+ "goal": "确定指代词对应的对象；选择保持段落话题连续的表达。",
+ "skill": "写作",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "referent",
+   "label": "确定指代词对应的对象"
+  },
+  {
+   "id": "cohesion",
+   "label": "选择保持段落话题连续的表达"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语六级（CET-6）：课表",
+   "url": "docs/syllabi/cet6.md",
+   "used": "写作部分本课的内容范围、知识点与练习规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "后一句说的是谁、是什么，要能从前文确定。代词要和所指对象在意思和单复数上一致。前文有两个可能的对象时，重复名词，不用含混的代词。"
+    },
+    {
+     "box": "The inspector compared the sketch with the photograph. The photograph showed a missing panel."
+    },
+    {
+     "p": "this 加概括名词，可以回指前面的一个行动或判断。概括名词要和所指内容的性质相符，例如 this result 不能指还没实施的计划。"
+    }
+   ]
+  },
+  {
+   "id": "pronouns",
+   "type": "table",
+   "title": "代词的先行词",
+   "cols": [
+    "情况",
+    "写法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "单数对象",
+     "两个单数名词都能用 it 指代时，直接写出名词。",
+     "Ambiguous: The box stood beside the case. It was damaged. Clear: The case was damaged."
+    ],
+    [
+     "复数对象",
+     "两个复数群体都能用 they 指代时，重复所指的群体。",
+     "Ambiguous: The guides met the guests. They needed maps. Clear: The guests needed maps."
+    ],
+    [
+     "数的对应",
+     "it 指单数，them 指复数，各与所指对象的数一致。",
+     "The folder contains the forms. It protects them from damage."
+    ],
+    [
+     "语义核对",
+     "离代词最近的名词不一定是所指对象，要按意思判断。",
+     "The mechanic placed the screws inside a tray and counted them."
+    ]
+   ]
+  },
+  {
+   "id": "summary-nouns",
+   "type": "table",
+   "title": "指示词与概括名词",
+   "cols": [
+    "情况",
+    "写法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "行动回指",
+     "用 this 加名词回指前面的动作，写明是什么动作。",
+     "Vague: Staff moved the desk. This helped. Clear: This change of position cleared the doorway."
+    ],
+    [
+     "问题回指",
+     "回指问题时，名词要说出是哪一项困难。",
+     "Vague: The file lacked a date and a name. This delayed work. Clear: This lack of identifying information delayed work."
+    ],
+    [
+     "建议与结果",
+     "方案只是提出，用 proposal，不写成已经见效。",
+     "The chair proposed alternating duties. This proposal still needs discussion."
+    ],
+    [
+     "多个动作",
+     "前面有几个动作时，this 后加具体名词，指明是哪一个。",
+     "The team moved the table and replaced the lamp. This replacement improved the lighting."
+    ]
+   ]
+  },
+  {
+   "id": "repetition",
+   "type": "table",
+   "title": "关键词复现",
+   "cols": [
+    "情况",
+    "写法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "概念延续",
+     "同一概念重复原词，不换成意思相近的另一个概念。",
+     "Unclear: The plan protects privacy. This secrecy needs funding. Clear: Privacy protection needs funding."
+    ],
+    [
+     "制度与事件",
+     "制度名称不能换成单次事件名称。",
+     "Unclear: The appeal procedure is revised. This complaint is clearer. Clear: The revised procedure is clearer."
+    ],
+    [
+     "上位词概括",
+     "上位词要能包括前面的对象，类别不变。",
+     "The kit contains a ruler and a compass. These tools support accurate drawing."
+    ],
+    [
+     "信息推进",
+     "重复关键词后，补充新的信息，不重复原句。",
+     "The schedule lists weekly tasks. The schedule also identifies the person responsible for each task."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A repair cooperative introduced a fault log and a parts register. The fault log describes problems reported by users. The parts register records the components available for repairs. These records serve different purposes, so replacing both names with the same vague label can obscure the distinction. A sentence about recurring faults should continue with the fault log. A sentence about whether a replacement is available should return to the parts register. Repeating the precise name preserves the relationship between each record and its function."
+    },
+    {
+     "box": "Which continuation clearly concerns available components?\n1. It records repeated complaints from users.\n2. These problems show which repairs are common.\n3. The parts register indicates which replacements are in stock.\n4. The fault log records the supply of spare components."
+    },
+    {
+     "p": "第三项重复 parts register，说的仍是库存。第四项的名词也写得清楚，但把两种记录的功能弄反了。"
+    }
+   ]
+  },
+  {
+   "id": "practice-1",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "referent",
+    "cohesion"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The curator placed the prints in a portfolio and counted them. What does them refer to?",
+       "options": [
+        "The portfolio used to store the prints",
+        "The prints placed in the portfolio",
+        "The curator doing the counting",
+        "The act of placing prints"
+       ],
+       "answer": 1,
+       "why": "counted them 的 them 是复数，指 prints，即第二项。portfolio 是单数。",
+       "point": "referent"
+      },
+      {
+       "stem": "The team postponed the launch. This decision allowed another inspection. What does this decision identify?",
+       "options": [
+        "The findings of the later inspection",
+        "The original time of the launch",
+        "The team's choice to delay the launch",
+        "The membership of the inspection team"
+       ],
+       "answer": 2,
+       "why": "This decision 概括的是 postponed the launch，即第三项。",
+       "point": "referent"
+      },
+      {
+       "stem": "A paragraph distinguishes booking requests from confirmed bookings. Which continuation keeps the distinction?",
+       "options": [
+        "A booking request becomes a confirmed booking only after approval.",
+        "A booking request is another name for every confirmed booking.",
+        "A confirmed booking is always an unanswered booking request.",
+        "Approval refers to the act of sending any booking request."
+       ],
+       "answer": 0,
+       "why": "第一项用 only after approval 区分申请和确认两种状态。",
+       "point": "cohesion"
+      },
+      {
+       "stem": "The paragraph concerns protecting personal details. Which continuation preserves the meaning of privacy?",
+       "options": [
+        "Secrecy requires all details about every activity to remain hidden.",
+        "Publicity ensures that all personal details are available for viewing.",
+        "Convenience determines how quickly those details can be copied.",
+        "Privacy protection limits who is able to view those personal details."
+       ],
+       "answer": 3,
+       "why": "第四项用 personal details 和 who is able to view 延续了隐私的意思。第一项换成 secrecy，范围扩大到所有活动。",
+       "point": "cohesion"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-2",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "referent",
+    "cohesion"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Specify that the chart, rather than the accompanying note, was revised.",
+       "lead": "The editor",
+       "chunks": [
+        "revised the chart",
+        "because its scale",
+        "did not match",
+        "the reported values"
+       ],
+       "tail": ".",
+       "extra": [
+        "their scale"
+       ],
+       "why": "the chart 写明了修改的对象。chart 是单数，所以用 its scale。",
+       "point": "referent"
+      },
+      {
+       "stem": "Summarize a decision to separate requests by urgency.",
+       "lead": "This classification",
+       "chunks": [
+        "allows the team",
+        "to distinguish",
+        "urgent requests",
+        "from routine ones"
+       ],
+       "tail": ".",
+       "extra": [
+        "these results"
+       ],
+       "why": "This classification 概括按紧急程度分类的决定。these results 指结果，与决定不符。",
+       "point": "referent"
+      },
+      {
+       "stem": "Continue discussing a deposit without changing it into a fee.",
+       "lead": "The deposit",
+       "chunks": [
+        "is returned",
+        "after the borrower",
+        "brings back",
+        "the borrowed equipment"
+       ],
+       "tail": ".",
+       "extra": [
+        "fee"
+       ],
+       "why": "deposit 是押金，可以退还，与 is returned 相符。换成 fee，款项的类别就变了。",
+       "point": "cohesion"
+      },
+      {
+       "stem": "Refer to a proposal to shorten opening hours without treating it as an achieved result.",
+       "lead": "This proposal",
+       "chunks": [
+        "would require",
+        "a review",
+        "of existing",
+        "staff arrangements"
+       ],
+       "tail": ".",
+       "extra": [
+        "This achievement"
+       ],
+       "why": "would require 保留了提议的状态。This achievement 会把提议当成已经实现。",
+       "point": "cohesion"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "referent",
+    "cohesion"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "The designer placed the cards in a holder and checked them for printing errors before delivering the complete set to the client. What does them identify?",
+         "options": [
+          "The cards carrying printed information",
+          "The holder containing the cards",
+          "The client receiving the set",
+          "The delivery of the complete set"
+         ],
+         "answer": 0,
+         "why": "them 是复数，checked them for printing errors 查的是 cards，即第一项。",
+         "point": "referent"
+        },
+        {
+         "stem": "A council moved its advice sessions to the evening. This change allowed employed residents to attend after their shifts. What does this change summarize?",
+         "options": [
+          "The employment of local residents",
+          "The alteration to the session times",
+          "The content of the advice given",
+          "The location of residents’ workplaces"
+         ],
+         "answer": 1,
+         "why": "moved its advice sessions to the evening 是调整时间，即第二项。",
+         "point": "referent"
+        },
+        {
+         "stem": "The paragraph distinguishes a repair estimate from a final invoice. Which continuation preserves that distinction?",
+         "options": [
+          "The estimate records completed work; the invoice predicts whether repairs might be required.",
+          "The invoice and estimate both confirm that every proposed repair has already been completed.",
+          "The estimate predicts likely charges; the invoice records charges for work actually completed.",
+          "The estimate guarantees the final charge; the invoice removes any need to record completed work."
+         ],
+         "answer": 2,
+         "why": "estimate 是预计费用，final invoice 是实际费用，第三项保留了这一区别。第一项把两者对调了。",
+         "point": "cohesion"
+        },
+        {
+         "stem": "The writer says a shared record makes decisions traceable. Which continuation develops that same concept rather than substituting a different one?",
+         "options": [
+          "Publicity allows everyone to view every personal detail mentioned during the decision process.",
+          "Popularity allows reviewers to prefer the decisions supported by the greatest number of people.",
+          "Speed allows reviewers to complete a decision before any reasons have been recorded.",
+          "Traceability allows later reviewers to connect a decision with the recorded reasons for it."
+         ],
+         "answer": 3,
+         "why": "traceable 对应第四项的 connect a decision with the recorded reasons。其余三项换成了公开、受欢迎和速度，都是别的概念。",
+         "point": "cohesion"
+        }
+       ]
+      },
+      {
+       "items": [
+        {
+         "stem": "Identify the handbook as the object of revision when both a handbook and a leaflet have been mentioned.",
+         "lead": "The handbook",
+         "chunks": [
+          "needs revision because",
+          "its description",
+          "of the process",
+          "is incomplete"
+         ],
+         "tail": "and leaves new employees uncertain about the final approval stage.",
+         "extra": [
+          "their description"
+         ],
+         "why": "重复 handbook，避免和 leaflet 混淆。handbook 是单数，所以用 its description。",
+         "point": "referent"
+        },
+        {
+         "stem": "Refer specifically to the choice to collect separate records in one catalog.",
+         "lead": "This consolidation",
+         "chunks": [
+          "makes the catalog",
+          "a single source of",
+          "information about",
+          "the collection"
+         ],
+         "tail": "for staff who previously had to consult several separate records.",
+         "extra": [
+          "These unrelated findings"
+         ],
+         "why": "This consolidation 概括把记录合并到一个目录里的做法。These unrelated findings 所指的内容前文没有。",
+         "point": "referent"
+        },
+        {
+         "stem": "Continue a paragraph about consent while retaining the distinction between permission and mere awareness.",
+         "lead": "Consent",
+         "chunks": [
+          "involves permission",
+          "for a specified use",
+          "of personal information",
+          "rather than simple awareness"
+         ],
+         "tail": "that an organization has collected details about an individual.",
+         "extra": [
+          "Publicity"
+         ],
+         "why": "Consent 指同意使用，awareness 只是知道。换成 Publicity，论述对象就变了。",
+         "point": "cohesion"
+        },
+        {
+         "stem": "Continue discussing a proposed allocation rule without presenting the proposal as an observed success.",
+         "lead": "The proposed rule",
+         "chunks": [
+          "would establish",
+          "a common basis",
+          "for allocating",
+          "limited storage space"
+         ],
+         "tail": "among the groups that currently use the building for different activities.",
+         "extra": [
+          "has already improved"
+         ],
+         "why": "would establish 和 proposed 一致，都表示还没有实施。has already improved 会把提议写成已有成效。",
+         "point": "cohesion"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

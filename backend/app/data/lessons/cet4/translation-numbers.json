@@ -1,0 +1,39 @@
+{
+ "id": "translation-numbers", "title": "数量年代与计量单位", "goal": "能转换数量和年代，并保留单位及变化基准。", "skill": "翻译", "exam": "大学英语四级（CET-4）", "mastery": "once",
+ "points": [{"id": "convert", "label": "准确转换数量级和年代"}, {"id": "unit", "label": "保留原文的单位与变化基准"}],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译教学所依据的大纲"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "汉语和英语的数字分组不同。翻译时保留数量级、单位、年代及变化的起点或终点。"}, {"box": "原文：展馆去年的参观人数增加到了两万人。\n译文：The number of visitors to the gallery rose to twenty thousand last year."}, {"p": "两万是 twenty thousand。rose to 表示增加后的数值。"}]},
+  {"id": "groups", "type": "table", "title": "数量级", "cols": ["原文", "英文数量", "例句"], "rows": [
+   ["一万", "ten thousand", "The library holds ten thousand books."], ["三万", "thirty thousand", "The park received thirty thousand visitors."], ["一亿", "one hundred million", "The region produced one hundred million boxes."], ["两亿", "two hundred million", "The fund reached two hundred million yuan."]
+  ]},
+  {"id": "dates", "type": "table", "title": "年代与世纪", "cols": ["原文", "表达", "例句"], "rows": [
+   ["二十世纪八十年代", "the 1980s", "The workshop opened in the 1980s."], ["二十一世纪二十年代", "the 2020s", "The collection grew in the 2020s."], ["十九世纪", "the nineteenth century", "The building dates from the nineteenth century."], ["二十世纪", "the twentieth century", "The bridge was built in the twentieth century."]
+  ]},
+  {"id": "units", "type": "table", "title": "比例与变化", "cols": ["原文", "表达", "例句"], "rows": [
+   ["百分之二十", "twenty percent", "Twenty percent of the rooms are open."], ["百分之三十", "thirty percent", "Thirty percent of the visitors arrived by bus."], ["约五十米", "about fifty meters", "The path is about fifty meters long."], ["约三百人", "approximately three hundred people", "Approximately three hundred people attended."], ["增加到八十", "rise to eighty", "Attendance rose to eighty people."], ["增加了八十", "rise by eighty", "Attendance rose by eighty people."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [{"box": "原文：展馆的参观人数从一百人增加到了两百人。\n1. Attendance at the gallery rose by two hundred people.\n2. Attendance at the gallery rose from one hundred to two hundred people.\n3. Attendance at the gallery fell from two hundred to one hundred people.\n4. Attendance at the gallery rose to two hundred people."}, {"p": "原文给出起点一百人和终值两百人。第二项用 from … to 把两个数都译出来。第四项只有终值，漏译了起点。"}]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["convert", "unit"], "groups": [{"items": [
+   {"stem": "原文：图书馆收藏了三万册有关地方历史的书籍。Which quantity is equivalent to 三万?", "options": ["thirty thousand books", "three thousand books", "thirty million books", "three million books"], "answer": 0, "why": "三万是 thirty thousand。", "point": "convert"},
+   {"stem": "原文：展馆收藏的旧照片数量增加到了五百张。Which phrase gives the final number?", "options": ["rose by five hundred photographs", "rose to five hundred photographs", "fell by five hundred photographs", "fell to five hundred photographs"], "answer": 1, "why": "增加到表示终值，使用 rose to。", "point": "unit"},
+   {"stem": "原文：这座石桥建于二十世纪八十年代。Which expression gives the decade?", "options": ["the 1880s", "the 1890s", "the 1980s", "the 1990s"], "answer": 2, "why": "二十世纪八十年代是 the 1980s。", "point": "convert"},
+   {"stem": "原文：这条步道的长度约为三百米。Which phrase keeps the approximation and unit?", "options": ["exactly three hundred meters", "about three thousand meters", "exactly three hundred kilometers", "about three hundred meters"], "answer": 3, "why": "原文是约为三百米。about 译出约，three hundred meters 译出数量和单位。", "point": "unit"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["convert", "unit"], "groups": [{"text": "原文：这座展馆建于十九世纪。去年参观人数增加了两万人，达到五万人。其中百分之二十乘坐公交车到达。", "items": [
+   {"stem": "Which phrase gives the century?", "options": ["the nineteenth century", "the twentieth century", "the nineteen hundreds", "the 1990s"], "answer": 0, "why": "十九世纪是 the nineteenth century。", "point": "convert"},
+   {"stem": "Which phrase expresses the increase in visitors?", "options": ["rose to twenty thousand", "rose by twenty thousand", "rose by fifty thousand", "fell by twenty thousand"], "answer": 1, "why": "增加了两万是增加的数量，用 rose by twenty thousand。五万是增加后的总数，不是增加量。", "point": "unit"},
+   {"stem": "Which proportion arrived by bus?", "options": ["two percent of visitors", "fifty percent of visitors", "twenty percent of visitors", "twenty visitors in total"], "answer": 2, "why": "百分之二十是 twenty percent。", "point": "unit"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["convert", "unit"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "原文：这个展览去年接待了两万名参观者。Which quantity corresponds to 两万?", "options": ["twenty thousand visitors", "two thousand visitors", "twenty million visitors", "two million visitors"], "answer": 0, "why": "两万是 twenty thousand。", "point": "convert"},
+   {"stem": "原文：展览的参观人数增加到了八百人。Which phrase gives the final number?", "options": ["rose by eight hundred people", "rose to eight hundred people", "fell by eight hundred people", "fell to eight hundred people"], "answer": 1, "why": "增加到八百是 rose to eight hundred。", "point": "unit"},
+   {"stem": "原文：这座桥在二十世纪八十年代建成。Which expression gives the decade?", "options": ["the 1880s", "the 1890s", "the 1980s", "the 1990s"], "answer": 2, "why": "二十世纪八十年代是 the 1980s。", "point": "convert"},
+   {"stem": "原文：从村庄到展馆的道路约有五百米长。Which phrase preserves the unit and approximation?", "options": ["exactly five hundred meters", "about five thousand meters", "exactly five hundred kilometers", "about five hundred meters"], "answer": 3, "why": "原文是约有五百米长。about 译出约，five hundred meters 译出数量和单位。", "point": "unit"},
+   {"stem": "原文：这个图书馆收藏了两亿册图书。Arrange the given translation.", "lead": "The library", "chunks": ["holds", "two hundred", "million", "books"], "tail": ".", "extra": ["thousand"], "why": "两亿是 two hundred million。", "point": "convert"},
+   {"stem": "原文：去年展馆的参观人数增加了三百人。Arrange the given translation.", "lead": "Last year, attendance", "chunks": ["at the gallery", "rose by", "three hundred", "people"], "tail": ".", "extra": ["to"], "why": "rose by 表示增加的数量。", "point": "unit"},
+   {"stem": "原文：展览有一亿张照片。The exhibition has ___ photographs. Complete the number in words using million.", "accept": ["one hundred million", "a hundred million"], "why": "一亿是 one hundred million 或 a hundred million。", "point": "convert"},
+   {"stem": "原文：参观人数增加了二十人。Attendance rose ___ people. Complete with by and the number in words.", "accept": ["by twenty"], "why": "by twenty 表示增加二十人。", "point": "unit"}
+  ]}]}]}
+ ]
+}

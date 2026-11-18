@@ -1,0 +1,76 @@
+{
+ "id": "listening-p3-choice",
+ "title": "听力单项选择",
+ "goal": "按题干限定寻找细节，并结合完整语境排除干扰项。",
+ "skill": "听力",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [{"id": "detail", "label": "按题干限定找出对应细节"}, {"id": "eliminate", "label": "排除与完整语境不符的选项"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "听力单项选择与教学规格"}],
+ "cards": [
+  {"id": "task", "type": "text", "title": "题型", "body": [{"p": "单项选择题要求根据讨论选出一项。细节题问人物、时间或条件。原因题问某个决定的理由。目的题问一项行动或整段讨论的目标。"}, {"box": "What will Nia prepare before the meeting?\nWhy did Nia reject the interview plan?\nWhat is the main purpose of the discussion?"}, {"p": "before the meeting 限定时间，Why 问原因，main purpose 要求概括整段讨论的目标。只讲一处细节的选项，概括不了整段讨论。"}]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　辨认问法", "d": "确定题干要求细节、原因还是目的。Why choose a survey 问选择问卷的理由。"},
+   {"t": "2　比较选项", "d": "比较人物、时间和条件。Before the seminar 与 after the seminar 指向不同时间。"},
+   {"t": "3　核对语境", "d": "听到选项里的词，还要核对它说的是谁、有没有限制。A survey is quick, but interviews give detail 一句中，两个优点分属两种方法。"},
+   {"t": "4　确认完整依据", "d": "以最后接受的方案为准。We considered interviews, but chose a survey 一句中，最后选的是问卷。"}
+  ]},
+  {"id": "focus", "type": "table", "title": "题干限定", "cols": ["问法", "依据", "例句"], "rows": [
+   ["细节", "人物和动作须对应", "What will Nia prepare? — She'll prepare the outline."],
+   ["时间", "区分两个动作的先后", "Before the meeting, Nia will prepare the outline."],
+   ["原因", "寻找决定的直接理由", "They chose a survey because it reaches more students."],
+   ["目的", "概括讨论的主要任务", "They compare methods for collecting feedback."]
+  ], "note": "一个话轮里可能既有原因又有后续行动，答案按题干所问来选。"},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "Student: Shall I analyse the questionnaires before the meeting?\nTutor: We haven't collected them yet. Prepare the interview questions first; we'll analyse only the first-year students' questionnaires after the meeting.\nStudent: I'll draft the questions tonight."},
+   {"box": "What will the student prepare before the meeting?\n1. An analysis of the questionnaires\n2. Questions for an interview\n3. A collection of completed questionnaires\n4. An analysis of the interview answers"},
+   {"p": "依据是 Prepare the interview questions first 和 I'll draft the questions，答案是第二项。第一项是被否定的方案：问卷要到会后才分析，而且只分析一年级的。第三项沿用了 questionnaires，但问卷还没有收上来。第四项把 analyse 用到了访谈上。"},
+   {"box": "Student: Shall we observe the library sessions? The library is quiet.\nTutor: It's closed, so we'll observe the studio sessions. Record only the afternoon sessions.\nStudent: Agreed. I'll record them."},
+   {"p": "quiet 说的是 library，用在 studio 上就换了对象。观察 library 是被否定的方案。记录全部 studio sessions，漏掉了 afternoon 这个限制。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "语境", "错误选项"], "rows": [
+   ["重复原词", "Survey is quick; interviews give detail.", "A survey gives detail."],
+   ["重复原词", "Mina collects forms; Ben codes replies.", "Mina codes replies."],
+   ["否定方案", "We considered diaries, but chose interviews.", "They chose diaries."],
+   ["否定方案", "Tuesday is full; we'll meet on Thursday.", "They will meet on Tuesday."],
+   ["部分条件", "Only revised drafts go to the tutor.", "Every draft goes to the tutor."],
+   ["部分条件", "The survey covers first-year students in one department.", "It covers first-year students in every department."]
+  ], "note": "选项沿用原文的词时，核对人物和关系；原文带条件时，核对范围。"},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["detail", "eliminate"], "groups": [
+   {"audio": {"intro": "Listen to a discussion.", "lines": [{"who": "A", "text": "I'll draft the questions. Could you check the references?"}, {"who": "B", "text": "Yes, I'll check them tonight."}]}, "items": [{"stem": "What will the second student do?", "options": ["Draft the questions tonight", "Check the references tonight", "Check the questions next week", "Draft the references next week"], "answer": 1, "why": "依据是 Could you check the references? 和 Yes, I'll check them tonight。第二位学生今晚核对参考文献，即第二项。", "point": "detail"}]},
+   {"audio": {"intro": "Listen to a discussion.", "lines": [{"who": "A", "text": "The survey is quick, but an interview gives more detail."}, {"who": "B", "text": "Let's interview a small group, then."}]}, "items": [{"stem": "Why do they select interviews?", "options": ["They can be completed more quickly.", "They cover a larger group of students.", "They provide more detailed information.", "They allow the survey to be finished sooner."], "answer": 2, "why": "依据是 an interview gives more detail，即第三项。quick 说的是 survey。", "point": "eliminate"}]},
+   {"audio": {"intro": "Listen to a discussion.", "lines": [{"who": "A", "text": "We considered Monday, but the tutor is away. Shall we meet on Friday?"}, {"who": "B", "text": "Yes, Friday suits me."}]}, "items": [{"stem": "When will the students meet?", "options": ["On Monday with the tutor", "On Monday without the tutor", "On Friday before the tutor leaves", "On Friday, which suits them both"], "answer": 3, "why": "依据是 Shall we meet on Friday? 和 Yes, Friday suits me，即第四项。Monday 因为导师不在，没有采用。", "point": "eliminate"}]},
+   {"audio": {"intro": "Listen to a discussion.", "lines": [{"who": "A", "text": "We need to decide whether to use photographs or drawings in the report."}, {"who": "B", "text": "Let's compare how clearly each shows the objects."}]}, "items": [{"stem": "What is the purpose of the discussion?", "options": ["To select a way to illustrate the report", "To decide which objects to collect", "To decide when the report is due", "To select a person to write the report"], "answer": 0, "why": "依据是 decide whether to use photographs or drawings in the report。讨论的是报告用哪种图，即第一项。", "point": "detail"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["detail", "eliminate"], "groups": [{"audio": {"intro": "Listen to a discussion.", "lines": [{"who": "A", "text": "I'm comparing the notes students take during lectures. I thought of collecting notes from every course."}, {"who": "B", "text": "That would be too much to analyse. Choose one course, and compare the notes from two lectures."}, {"who": "A", "text": "I'll use the history course. I'll collect the first set on Monday and the second set on Thursday."}, {"who": "B", "text": "Good. Ask the students' permission before collecting either set."}]}, "items": [
+   {"stem": "Why does the tutor suggest choosing one course?", "options": ["Two lectures are enough to cover every course.", "The history course has the most detailed notes.", "All courses together would give too many notes.", "Students gave permission for one course only."], "answer": 2, "why": "依据是 I thought of collecting notes from every course 和 That would be too much to analyse。所有课程的笔记太多，分析不过来，即第三项。", "point": "detail"},
+   {"stem": "Which notes will the student compare?", "options": ["Notes from two history lectures", "Notes from every history course", "Notes collected only on Monday", "Notes from two courses on Thursday"], "answer": 0, "why": "依据是 Choose one course, and compare the notes from two lectures 和 I'll use the history course，即第一项。", "point": "eliminate"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["detail", "eliminate"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to a discussion.", "lines": [
+    {"who": "A", "text": "We need to decide how to present our project on students' use of feedback. I have a set of quotations from the interviews, and I also made a chart showing the number of students who mentioned each type of feedback. Which should we start with?"},
+    {"who": "B", "text": "The chart will give the audience an overview. We can use a few quotations afterwards to show what the categories mean. I wouldn't start with all the quotations: there are too many to follow without knowing the categories."},
+    {"who": "A", "text": "Right. I thought we could put the chart on a handout, but perhaps a slide would be easier for everyone to see at the same time."},
+    {"who": "B", "text": "Yes, use a slide for the chart. A handout would still be useful for the quotations, provided that we select only those we discuss. The full interview transcripts should stay out of the handout because they contain more detail than we need."},
+    {"who": "A", "text": "I'll prepare the chart slide tonight. Could you select the quotations for the handout tomorrow? We can check the wording together before the presentation."},
+    {"who": "B", "text": "Certainly. I'll also check that each quotation matches its category. Then we can decide whether to shorten any of them without changing their meaning."}
+   ]}, "items": [
+    {"stem": "What is the main purpose of the discussion?", "options": ["To choose students for the interviews", "To organise material for a presentation", "To revise the original feedback categories", "To count all the interview transcripts"], "answer": 1, "why": "依据是 We need to decide how to present our project。后面讲的都是图表和引语怎样安排，即第二项。", "point": "detail"},
+    {"stem": "Why does the second student recommend opening with the chart?", "options": ["It includes every interview quotation.", "It gives the full transcript of each interview.", "It introduces the categories as an overview.", "It shows how to change the interview wording."], "answer": 2, "why": "依据是 The chart will give the audience an overview。先用图表介绍各个分类，再用引语说明，即第三项。", "point": "detail"},
+    {"stem": "What will go on the handout?", "options": ["All quotations from every interview", "The chart and complete transcripts", "The chart with revised categories", "Selected quotations that they discuss"], "answer": 3, "why": "依据是 A handout would still be useful for the quotations, provided that we select only those we discuss，即第四项。完整的访谈稿不放进去。", "point": "eliminate"}
+   ]},
+   {"audio": {"intro": "Listen to a discussion.", "lines": [
+    {"who": "A", "text": "I'm planning a report on how students choose optional modules. I could speak to students who have just made their choices, or to those who chose their modules last year and have now completed them."},
+    {"who": "B", "text": "The students who have finished can reflect on whether the modules met their expectations. Those choosing now can explain their immediate reasons, but they can't yet compare expectations with experience. Which question matters most for your report?"},
+    {"who": "A", "text": "I want to examine the reasons for choosing, so I'll speak to the current group. I originally planned individual interviews, but I can only book the room for one afternoon. A group discussion would let me hear from more students during that time."},
+    {"who": "B", "text": "That seems practical. Make sure the questions invite different reasons rather than assuming everyone chose for the same reason. You should also tell the students that taking part is voluntary."},
+    {"who": "A", "text": "I'll write the questions this evening and send them to you tomorrow. After you've commented, I'll contact the students and arrange the discussion for next week."},
+    {"who": "B", "text": "Fine. I'll return the questions with comments on Thursday. Leave enough time to revise them before you contact anyone, and keep the project focused on the choice of modules."}
+   ]}, "items": [
+    {"stem": "Which students will the researcher speak to?", "options": ["Students currently choosing optional modules", "Students who completed modules last year", "Students who have commented on the questions", "Students who have already joined a discussion"], "answer": 0, "why": "依据是 I want to examine the reasons for choosing, so I'll speak to the current group。current group 是正在选课的学生，即第一项。", "point": "eliminate"},
+    {"stem": "Why does the researcher choose a group discussion?", "options": ["It will show whether modules met expectations.", "It will reach more students in the available time.", "It will remove the need to book a room.", "It will let each student speak in an individual interview."], "answer": 1, "why": "依据是 I can only book the room for one afternoon 和 A group discussion would let me hear from more students during that time，即第二项。", "point": "detail"},
+    {"stem": "What will the tutor return on Thursday?", "options": ["A room booking for the group discussion", "The completed report on optional modules", "The questions with comments on them", "A list of all students who chose modules"], "answer": 2, "why": "依据是 I'll return the questions with comments on Thursday，即第三项。", "point": "eliminate"}
+   ]}
+  ]}]}
+ ]
+}

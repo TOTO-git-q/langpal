@@ -1,0 +1,366 @@
+{
+ "id": "reading-careful-attitude",
+ "title": "作者态度题",
+ "goal": "区分不同声音，并依据评价措辞判断作者态度。",
+ "skill": "阅读",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "voice",
+   "label": "区分作者与被引用者的观点"
+  },
+  {
+   "id": "attitude",
+   "label": "依据评价措辞判断作者态度"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "阅读理解的教学依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "作者态度题问作者怎样评价某个对象。态度依据作者自己的措辞和论述来判断。引语表达的是被引用者的观点。"
+    },
+    {
+     "box": "A visitor called the plan wasteful. However, I consider it a useful first step.\nWhat is the author's attitude? Supportive."
+    },
+    {
+     "p": "wasteful 是访客的评价。however 后的 useful first step 表明作者持支持态度。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定评价对象",
+     "d": "找到题干所问的计划、做法或观点。再看评价针对它的哪一部分。"
+    },
+    {
+     "t": "2　区分说话者",
+     "d": "分清引语、转述和作者自己的判断。but、however 后面常是作者的立场。"
+    },
+    {
+     "t": "3　判断态度程度",
+     "d": "根据评价词和理由判断态度。作者指出某项做法的局限时，再看作者是否仍承认它的作用。"
+    }
+   ]
+  },
+  {
+   "id": "words",
+   "type": "table",
+   "title": "态度词",
+   "cols": [
+    "类别",
+    "态度词",
+    "例句"
+   ],
+   "rows": [
+    [
+     "支持",
+     "supportive 支持的；favorable 赞同的；positive 肯定的；approving 赞许的",
+     "The plan is a useful way to share tools."
+    ],
+    [
+     "反对",
+     "opposed 反对的；critical 批评的；negative 否定的；disapproving 不赞成的",
+     "The plan is wasteful and should be abandoned."
+    ],
+    [
+     "保留",
+     "cautious 谨慎的；reserved 有保留的；skeptical 怀疑的；doubtful 存疑的",
+     "The plan may help, but its cost needs checking."
+    ],
+    [
+     "客观陈述",
+     "objective 客观的；neutral 中立的；impartial 公正的；unbiased 无偏见的",
+     "The plan began in May and ended in June."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Some residents call the new timetable a complete failure. The extra evening bus is useful, but its low daytime use needs further study before the service expands.\nWhat is the author's attitude to the timetable?\n1. Cautiously supportive\n2. Completely opposed\n3. Unaware of its benefits\n4. Certain that expansion is needed"
+    },
+    {
+     "p": "complete failure 是部分居民的说法。作者认可晚间班车有用，又要求先研究日间的使用情况。这是有保留的肯定，即第一项。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "混淆声音",
+     "把居民说的 complete failure 当作作者的判断。",
+     "先看这句评价是谁说的。"
+    ],
+    [
+     "忽略转折",
+     "只看 useful，就认为作者完全赞成扩大服务。",
+     "读完 but 后面的要求再判断。"
+    ],
+    [
+     "扩大程度",
+     "把 needs further study 读成完全否定。",
+     "作者既有认可也有疑问，态度是有保留的。"
+    ],
+    [
+     "混淆对象",
+     "把对 daytime use 的疑问当作否定 evening bus。",
+     "分别看每个评价针对什么。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "voice",
+    "attitude"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A manager called the shared office impractical. The author disagrees: sharing the room reduces unused space and deserves support.",
+     "items": [
+      {
+       "stem": "What is the author's attitude to the shared office?",
+       "options": [
+        "Supportive of sharing the room",
+        "Opposed to any use of the room",
+        "Uncertain whether space is unused",
+        "Neutral about the manager's claim"
+       ],
+       "answer": 0,
+       "why": "作者 disagrees 并认为 sharing deserves support，持支持态度。",
+       "point": "voice"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "A visitor praised the exhibit as complete. However, the author considers it incomplete because it leaves out the workers' accounts.",
+     "items": [
+      {
+       "stem": "What is the author's attitude to the exhibit?",
+       "options": [
+        "Pleased by its complete accounts",
+        "Critical of its missing accounts",
+        "Neutral about the workers' accounts",
+        "Supportive of excluding the accounts"
+       ],
+       "answer": 1,
+       "why": "however 后的 incomplete 是作者的批评；praised 是访客的评价。",
+       "point": "voice"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The proposal may reduce delays, but the author wants evidence about its cost before recommending it.",
+     "items": [
+      {
+       "stem": "What is the author's attitude to the proposal?",
+       "options": [
+        "Certain it should be adopted immediately",
+        "Convinced it can never reduce delays",
+        "Cautious about recommending the proposal",
+        "Indifferent to its possible financial cost"
+       ],
+       "answer": 2,
+       "why": "may reduce delays 表示可能有益，但作者要求成本证据，态度谨慎。",
+       "point": "attitude"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The report states that the service began in April and lists its opening hours without evaluating them.",
+     "items": [
+      {
+       "stem": "How does the report present the service?",
+       "options": [
+        "With praise for its opening hours",
+        "With doubt about its start date",
+        "With opposition to the service",
+        "With a neutral account of facts"
+       ],
+       "answer": 3,
+       "why": "报告只列出开始时间和开放时间，没有评价。这是中立的陈述。",
+       "point": "attitude"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "voice",
+    "attitude"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A town is considering longer library hours. One resident argues that the change would cost too much. The author accepts that staff costs matter but regards an evening trial as worthwhile. If few residents use the service, the town can reconsider its schedule after the trial.",
+     "items": [
+      {
+       "stem": "Who says the change would cost too much?",
+       "options": [
+        "A resident commenting on the proposal",
+        "The author recommending an evening trial",
+        "The staff members using the library",
+        "The residents attending the evening trial"
+       ],
+       "answer": 0,
+       "why": "One resident argues 引出费用过高的判断。",
+       "point": "voice"
+      },
+      {
+       "stem": "What is the author's attitude to an evening trial?",
+       "options": [
+        "Opposed because costs are irrelevant",
+        "Supportive while recognizing the cost",
+        "Certain it will attract every resident",
+        "Neutral about trying the new hours"
+       ],
+       "answer": 1,
+       "why": "作者认可费用问题，但称试行 worthwhile。",
+       "point": "attitude"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "voice",
+    "attitude"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "The town council is considering a shared bicycle program for short journeys between public buildings. A council member describes the idea as a complete answer to local transport problems. That claim goes too far. A bicycle can help some people make short trips, but it cannot meet every travel need, particularly when a passenger needs to carry a heavy load.\n\nAnother resident argues that the town should reject the idea entirely because bicycles need storage and regular care. These costs deserve attention, but they do not establish that the program has no value. A small trial near the library and the sports center would provide useful information about demand and maintenance. The town should publish those costs alongside the number of trips made.\n\nI would support a trial with a clear end date and a review. Success should not be judged solely by the number of bicycles in use on the busiest day. The review should also consider whether residents can find a bicycle when they need one and whether the town can maintain the service within its budget. If the trial reveals serious problems, the council can change or end the program.",
+       "items": [
+        {
+         "stem": "Who describes the bicycle idea as a complete answer?",
+         "options": [
+          "The resident who opposes the program",
+          "The author who asks for a review",
+          "A member of the town council",
+          "A passenger carrying a heavy load"
+         ],
+         "answer": 2,
+         "why": "A council member describes 引出 complete answer；作者随后认为该说法过度。",
+         "point": "voice"
+        },
+        {
+         "stem": "What is the author's attitude to a limited trial?",
+         "options": [
+          "Supportive, with conditions for review",
+          "Opposed, because storage and care are costly",
+          "Certain that it will solve every journey",
+          "Neutral about whether it should take place"
+         ],
+         "answer": 0,
+         "why": "I would support a trial 与 clear end date and a review 表明附条件的支持。",
+         "point": "attitude"
+        },
+        {
+         "stem": "How does the author regard the resident's objection?",
+         "options": [
+          "As proof that a trial has no value",
+          "As a cost concern that merits attention",
+          "As a reason to ignore maintenance costs",
+          "As a minor point the review can leave aside"
+         ],
+         "answer": 1,
+         "why": "These costs deserve attention 承认了反对者提出的费用问题。",
+         "point": "voice"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A school is deciding whether to replace paper notices with a weekly email. An office worker says that email is always the best way to reach families. I doubt that this is true for every family. Some may not read email regularly, while others may prefer to keep a printed notice on a kitchen table.\n\nThe email could still be useful. It would allow the office to correct an error quickly and to include links to longer documents. These are worthwhile advantages, especially when a date changes at short notice. A parent who opposes the idea argues that no notice should ever be sent electronically. That position also ignores the different ways families obtain information.\n\nThe school should ask families which method they can use and test a combined system before removing paper notices. A trial would show whether the office can manage both forms without creating confusion. It would also help identify families who receive neither version. Until that evidence is available, replacing all paper notices would be premature. The aim is to make information available, not simply to count how many messages the office sends.",
+       "items": [
+        {
+         "stem": "Who says electronic notices should never be used?",
+         "options": [
+          "The office worker proposing email",
+          "The author requesting a combined trial",
+          "A parent opposed to the email idea",
+          "A family preferring a printed notice"
+         ],
+         "answer": 2,
+         "why": "A parent who opposes the idea argues 引出这一观点。",
+         "point": "voice"
+        },
+        {
+         "stem": "What is the author's attitude to email notices?",
+         "options": [
+          "Completely opposed to any electronic notice",
+          "Supportive of replacing all paper immediately",
+          "Indifferent to whether families receive notices",
+          "Positive about benefits but cautious about exclusive use"
+         ],
+         "answer": 3,
+         "why": "作者称邮件优势 worthwhile，同时认为立即全部替换纸质通知为时过早。",
+         "point": "attitude"
+        },
+        {
+         "stem": "How does the author regard the office worker's claim?",
+         "options": [
+          "As a reason to stop all electronic notices",
+          "As too broad for the needs of all families",
+          "As a neutral description of a completed trial",
+          "As proof that all families prefer paper notices"
+         ],
+         "answer": 1,
+         "why": "I doubt that this is true for every family 表明作者认为 always 的说法范围过宽。",
+         "point": "attitude"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

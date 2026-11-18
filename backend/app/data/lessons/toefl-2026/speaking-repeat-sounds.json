@@ -1,0 +1,756 @@
+{
+ "id": "speaking-repeat-sounds",
+ "title": "易混音",
+ "goal": "听辨最小对立词；听出并保留词尾辅音。",
+ "skill": "speaking",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 口语",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "discriminate",
+   "label": "听辨最小对立词"
+  },
+  {
+   "id": "final",
+   "label": "听出并保留词尾辅音"
+  }
+ ],
+ "sources": [],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "最小对立词是只差一个音的两个词，换一个音，词义就变了。听辨时元音、词首和词尾都要核对。本课的词尾组比较两个真词：一个带词尾辅音，一个不带。"
+    },
+    {
+     "box": "light / night　ship / sheep　day / date"
+    },
+    {
+     "p": "音标按常见的美音标注。本课的 /e/ 指 bed 的元音，也常写作 /ɛ/。/ɪ/ 和 /iː/ 不只长短不同，音色也不同，不能只凭长短判断。"
+    }
+   ]
+  },
+  {
+   "id": "initials",
+   "type": "table",
+   "title": "词汇表：词首辅音",
+   "cols": [
+    "音组",
+    "词对",
+    "读音",
+    "词义"
+   ],
+   "rows": [
+    [
+     "/l/ — /n/",
+     "light / night",
+     "/laɪt/ — /naɪt/",
+     "光；夜晚"
+    ],
+    [
+     "/l/ — /n/",
+     "low / no",
+     "/loʊ/ — /noʊ/",
+     "低的；不"
+    ],
+    [
+     "/l/ — /n/",
+     "line / nine",
+     "/laɪn/ — /naɪn/",
+     "线；九"
+    ],
+    [
+     "/l/ — /n/",
+     "lack / knack",
+     "/læk/ — /næk/",
+     "缺乏；技能"
+    ],
+    [
+     "/l/ — /n/",
+     "lot / knot",
+     "/lɑt/ — /nɑt/",
+     "地块；结"
+    ],
+    [
+     "/l/ — /n/",
+     "load / node",
+     "/loʊd/ — /noʊd/",
+     "负荷；节点"
+    ],
+    [
+     "/v/ — /w/",
+     "vine / wine",
+     "/vaɪn/ — /waɪn/",
+     "藤；葡萄酒"
+    ],
+    [
+     "/v/ — /w/",
+     "vest / west",
+     "/vɛst/ — /wɛst/",
+     "背心；西方"
+    ],
+    [
+     "/v/ — /w/",
+     "vet / wet",
+     "/vɛt/ — /wɛt/",
+     "兽医；湿的"
+    ],
+    [
+     "/v/ — /w/",
+     "veal / wheel",
+     "/viːl/ — /wiːl/",
+     "小牛肉；车轮"
+    ],
+    [
+     "/v/ — /w/",
+     "veil / whale",
+     "/veɪl/ — /weɪl/",
+     "面纱；鲸"
+    ],
+    [
+     "/v/ — /w/",
+     "verse / worse",
+     "/vɜrs/ — /wɜrs/",
+     "诗节；更差的"
+    ]
+   ],
+   "intro": "/l/ 的气流从舌头两侧出来，/n/ 的气流从鼻腔出来。/v/ 是上齿轻触下唇摩擦，/w/ 是圆唇，不咬唇。",
+   "note": "A light marks each node. 含 /l/ 和 /n/，The vest is beside the wheel. 含 /v/ 和 /w/。whale 按常见美音读 /w/ 开头。"
+  },
+  {
+   "id": "fricatives-vowels",
+   "type": "table",
+   "title": "词汇表：摩擦音与元音",
+   "cols": [
+    "音组",
+    "词对",
+    "读音",
+    "词义"
+   ],
+   "rows": [
+    [
+     "/θ/ — /s/",
+     "thin / sin",
+     "/θɪn/ — /sɪn/",
+     "薄的；罪过"
+    ],
+    [
+     "/θ/ — /s/",
+     "thick / sick",
+     "/θɪk/ — /sɪk/",
+     "厚的；生病的"
+    ],
+    [
+     "/θ/ — /s/",
+     "thought / sought",
+     "/θɔt/ — /sɔt/",
+     "想法；寻找的过去式"
+    ],
+    [
+     "/θ/ — /s/",
+     "theme / seam",
+     "/θiːm/ — /siːm/",
+     "主题；接缝"
+    ],
+    [
+     "/θ/ — /s/",
+     "thumb / sum",
+     "/θʌm/ — /sʌm/",
+     "拇指；总数"
+    ],
+    [
+     "/θ/ — /s/",
+     "mouth / mouse",
+     "/maʊθ/ — /maʊs/",
+     "嘴；老鼠"
+    ],
+    [
+     "/æ/ — /e/",
+     "bad / bed",
+     "/bæd/ — /bɛd/",
+     "坏的；床"
+    ],
+    [
+     "/æ/ — /e/",
+     "bag / beg",
+     "/bæɡ/ — /bɛɡ/",
+     "袋子；恳求"
+    ],
+    [
+     "/æ/ — /e/",
+     "pan / pen",
+     "/pæn/ — /pɛn/",
+     "平底锅；笔"
+    ],
+    [
+     "/æ/ — /e/",
+     "man / men",
+     "/mæn/ — /mɛn/",
+     "男人；男人的复数"
+    ],
+    [
+     "/æ/ — /e/",
+     "sad / said",
+     "/sæd/ — /sɛd/",
+     "悲伤的；说的过去式"
+    ],
+    [
+     "/æ/ — /e/",
+     "bat / bet",
+     "/bæt/ — /bɛt/",
+     "球棒；打赌"
+    ]
+   ],
+   "intro": "/θ/ 舌尖放在上下齿之间，/s/ 舌尖留在齿后。/æ/ 的嘴张得比 /e/ 大。判断时听音，不看字母，如 said 读 /e/。",
+   "note": "The thin cloth has a visible seam. 含 /θ/ 和 /s/，The pen is beside the pan. 对照 /e/ 和 /æ/。表中的 mouth 是名词，词尾读 /θ/。"
+  },
+  {
+   "id": "vowels-finals",
+   "type": "table",
+   "title": "词汇表：元音与词尾",
+   "cols": [
+    "音组",
+    "词对",
+    "读音",
+    "词义"
+   ],
+   "rows": [
+    [
+     "/ɪ/ — /iː/",
+     "ship / sheep",
+     "/ʃɪp/ — /ʃiːp/",
+     "船；绵羊"
+    ],
+    [
+     "/ɪ/ — /iː/",
+     "sit / seat",
+     "/sɪt/ — /siːt/",
+     "坐；座位"
+    ],
+    [
+     "/ɪ/ — /iː/",
+     "fill / feel",
+     "/fɪl/ — /fiːl/",
+     "填满；感觉"
+    ],
+    [
+     "/ɪ/ — /iː/",
+     "live / leave",
+     "/lɪv/ — /liːv/",
+     "居住；离开"
+    ],
+    [
+     "/ɪ/ — /iː/",
+     "bit / beat",
+     "/bɪt/ — /biːt/",
+     "一点；节拍"
+    ],
+    [
+     "/ɪ/ — /iː/",
+     "slip / sleep",
+     "/slɪp/ — /sliːp/",
+     "滑倒；睡觉"
+    ],
+    [
+     "词尾 /p/",
+     "bee / beep",
+     "/biː/ — /biːp/",
+     "蜜蜂；短促提示音"
+    ],
+    [
+     "词尾 /t/",
+     "bow / boat",
+     "/boʊ/ — /boʊt/",
+     "蝴蝶结；船"
+    ],
+    [
+     "词尾 /t/",
+     "day / date",
+     "/deɪ/ — /deɪt/",
+     "天；日期"
+    ],
+    [
+     "词尾 /d/",
+     "sigh / side",
+     "/saɪ/ — /saɪd/",
+     "叹气；侧面"
+    ],
+    [
+     "词尾 /t/",
+     "ray / rate",
+     "/reɪ/ — /reɪt/",
+     "光线；速率"
+    ],
+    [
+     "词尾 /d/",
+     "tie / tide",
+     "/taɪ/ — /taɪd/",
+     "领带；潮汐"
+    ]
+   ],
+   "intro": "/iː/ 的舌位比 /ɪ/ 更高、更靠前。词尾辅音即使没有明显爆破，口腔仍会闭合一下，前面的元音听起来也不同。",
+   "note": "The sheep can slip on the wet path. 对照两种元音，Write the date of the next high tide. 要说出 date、tide 的词尾。live 按动词读，bow 按蝴蝶结的读音。"
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The two words on the first card are ship and date."
+    },
+    {
+     "box": "Which pair is spoken?\n1. sheep / date\n2. ship / day\n3. ship / date\n4. sheep / day"
+    },
+    {
+     "p": "ship 的元音是 /ɪ/，不是 sheep 的 /iː/。date 比 day 多一个词尾 /t/。两处都对的是第三项。"
+    },
+    {
+     "p": "听辨题选录音里实际说出的词，不看两个词是否常一起出现。判断有没有词尾，要听整个词，不要求每个塞音都有响亮的爆破。"
+    }
+   ]
+  },
+  {
+   "id": "check-pairs",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "discriminate"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The drawing exercise uses the words line and low."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which pair occurs in the recording?",
+       "options": [
+        "nine / low",
+        "line / no",
+        "nine / no",
+        "line / low"
+       ],
+       "answer": 3,
+       "why": "录音为 line /laɪn/ 与 low /loʊ/，两个词首都是 /l/，不是 /n/。",
+       "point": "discriminate"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The sound archive labels this entry vine and vest."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which two labels are spoken?",
+       "options": [
+        "vine / vest",
+        "wine / vest",
+        "vine / west",
+        "wine / west"
+       ],
+       "answer": 0,
+       "why": "vine 和 vest 都以 /v/ 开头，wine、west 以 /w/ 开头。",
+       "point": "discriminate"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The pronunciation card contains theme and thumb."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which words appear on the card?",
+       "options": [
+        "seam / sum",
+        "theme / sum",
+        "theme / thumb",
+        "seam / thumb"
+       ],
+       "answer": 2,
+       "why": "theme 与 thumb 均以 /θ/ 开头；seam、sum 为 /s/。",
+       "point": "discriminate"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The spelling activity begins with pan and bad."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which pair begins the activity?",
+       "options": [
+        "pen / bed",
+        "pan / bad",
+        "pan / bed",
+        "pen / bad"
+       ],
+       "answer": 1,
+       "why": "pan 与 bad 的元音都是 /æ/，不是 pen、bed 中的 /e/。",
+       "point": "discriminate"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-finals",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "discriminate",
+    "final"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The first vocabulary slip reads fill and sit."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which pair is read aloud?",
+       "options": [
+        "feel / seat",
+        "fill / seat",
+        "fill / sit",
+        "feel / sit"
+       ],
+       "answer": 2,
+       "why": "fill、sit 均含 /ɪ/，feel、seat 含 /iː/。",
+       "point": "discriminate"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The next puzzle clue contains bee and boat."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which pair preserves the recorded endings?",
+       "options": [
+        "beep / bow",
+        "bee / bow",
+        "beep / boat",
+        "bee / boat"
+       ],
+       "answer": 3,
+       "why": "bee 没有词尾 /p/，boat 有词尾 /t/。",
+       "point": "final"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The code for the practice round is ray and side."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which pair matches the code?",
+       "options": [
+        "ray / side",
+        "rate / side",
+        "ray / sigh",
+        "rate / sigh"
+       ],
+       "answer": 0,
+       "why": "ray 无词尾 /t/，side 有词尾 /d/，不能改成 rate 或 sigh。",
+       "point": "final"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the sentence.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The final rehearsal cue is tie and date."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which pair was spoken?",
+       "options": [
+        "tide / date",
+        "tie / date",
+        "tie / day",
+        "tide / day"
+       ],
+       "answer": 1,
+       "why": "tie 没有词尾 /d/，date 有词尾 /t/。多一个或少一个词尾，就成了另一个词。",
+       "point": "final"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "discriminate",
+    "final"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "For the circuit worksheet, the labels are light and node."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which pair of labels is spoken?",
+         "options": [
+          "night / load",
+          "light / load",
+          "light / node",
+          "night / node"
+         ],
+         "answer": 2,
+         "why": "light 以 /l/ 开头，node 以 /n/ 开头，两个词都要对。",
+         "point": "discriminate"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "For the fabric catalogue, the code words are veil and west."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which pair matches the recorded code words?",
+         "options": [
+          "veil / west",
+          "whale / west",
+          "veil / vest",
+          "whale / vest"
+         ],
+         "answer": 0,
+         "why": "veil 以 /v/ 开头，west 以 /w/ 开头。",
+         "point": "discriminate"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "For the poetry worksheet, the target words are thought and seam."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which targets are read aloud?",
+         "options": [
+          "sought / theme",
+          "thought / theme",
+          "sought / seam",
+          "thought / seam"
+         ],
+         "answer": 3,
+         "why": "thought 以 /θ/ 开头，seam 以 /s/ 开头。",
+         "point": "discriminate"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "For the handwriting sheet, the examples are bag and bet."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which pair is spoken?",
+         "options": [
+          "beg / bat",
+          "bag / bet",
+          "bag / bat",
+          "beg / bet"
+         ],
+         "answer": 1,
+         "why": "bag 的元音是 /æ/，bet 的元音是 /e/。",
+         "point": "discriminate"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "For the memory exercise, the terms are slip and leave."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which pair matches the two terms?",
+         "options": [
+          "slip / leave",
+          "sleep / leave",
+          "slip / live",
+          "sleep / live"
+         ],
+         "answer": 0,
+         "why": "slip 的元音是 /ɪ/，leave 的元音是 /iː/。live 按动词读 /lɪv/。",
+         "point": "discriminate"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "For the sculpture inventory, the spoken labels are lot and knack."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which labels occur in the recording?",
+         "options": [
+          "knot / lack",
+          "lot / lack",
+          "lot / knack",
+          "knot / knack"
+         ],
+         "answer": 2,
+         "why": "lot 首音为 /l/，knack 的 k 不发音，首音为 /n/。",
+         "point": "discriminate"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "For the tide chart, the code words are day and tide."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which pair preserves the presence or absence of final consonants?",
+         "options": [
+          "date / tide",
+          "day / tie",
+          "date / tie",
+          "day / tide"
+         ],
+         "answer": 3,
+         "why": "day 没有词尾 /t/，tide 有词尾 /d/。",
+         "point": "final"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the sentence.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "For the equipment checklist, the cue words are beep and bow."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which pair matches the recorded word endings?",
+         "options": [
+          "bee / boat",
+          "beep / bow",
+          "beep / boat",
+          "bee / bow"
+         ],
+         "answer": 1,
+         "why": "beep 有词尾 /p/，bow 读 /boʊ/，没有词尾 /t/。",
+         "point": "final"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

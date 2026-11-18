@@ -1,0 +1,68 @@
+{
+ "id": "reading-completion-flow",
+ "title": "阅读流程填空",
+ "goal": "依据先后和条件关系完成流程节点。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "sequence", "label": "还原原文中的步骤顺序"},
+  {"id": "node", "label": "按节点功能选择所需原词"}
+ ],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "阅读流程填空的教学内容"}],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "流程按箭头呈现连续步骤。节点可表示输入物质、操作、产物或分支条件。"},
+   {"p": "原文的叙述顺序可能和流程不同，例如先写结果，再补前面的步骤。流程顺序按原文的时间词和条件词确定。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定节点", "d": "阅读节点前后的词，判断所缺的是物质、工具还是动作。Cut with a knife 的 knife 是工具。"},
+   {"t": "2　定位步骤", "d": "寻找原文中对应的对象和动作。before drying 表示操作在干燥之前。"},
+   {"t": "3　检查分支", "d": "用 if 和 unless 核对条件。If wet, dry again 表示潮湿时重新干燥。"},
+   {"t": "4　回填核对", "d": "按题面限制提取原词。沿箭头检查前后步骤和产物是否一致。"}
+  ]},
+  {"id": "nodes", "type": "table", "title": "流程节点", "cols": ["节点", "例", "作用"], "rows": [
+   ["输入", "clay enters a mould", "clay 是加工材料"],
+   ["工具", "cut with a knife", "knife 执行切割"],
+   ["产物", "cool to form a sheet", "sheet 是冷却产物"],
+   ["条件", "if wet, dry again", "潮湿时重复干燥"]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [
+   {"box": "The samples were weighed after drying. Before drying, the researchers placed them on trays. If a sample remained damp, it was dried again.\n\nPlace samples on trays → dry → if damp, dry again → samples are _____\nComplete with ONE WORD from the passage."},
+   {"p": "依据是 samples were weighed after drying。最后节点表示称重，填原词 weighed。"}
+  ]},
+  {"id": "distractors", "type": "table", "title": "干扰项", "cols": ["情况", "例", "核对"], "rows": [
+   ["顺序颠倒", "weighed after drying", "先干燥，后称重"],
+   ["工具替代材料", "knife / clay", "knife 是工具，clay 是材料"],
+   ["忽略分支", "if damp, dry again", "重复干燥以潮湿为条件"],
+   ["产物替代动作", "sheet / cool", "sheet 是产物，cool 是动作"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["sequence", "node"], "groups": [
+   {"text": "The strips were folded after cutting. Before cutting, they were measured.\nMeasure → cut → strips are _____", "items": [{"stem": "Complete with ONE WORD from the passage.", "accept": ["folded"], "why": "folded after cutting 指出切割后的动作。", "point": "sequence"}]},
+   {"text": "The worker mixed sand with clay before adding water.\nMix clay with _____ → add water", "items": [{"stem": "Complete with ONE WORD from the passage.", "accept": ["sand"], "why": "mixed sand with clay before adding water 给出先加入的材料。", "point": "sequence"}]},
+   {"text": "A brush was used to spread the paste on the board.\nSpread paste with a _____", "items": [{"stem": "Complete with ONE WORD from the passage.", "accept": ["brush"], "why": "A brush was used to spread the paste 指明工具。", "point": "node"}]},
+   {"text": "If the surface is rough, it is polished again. A smooth surface can be packed.\nIf surface is _____ → polish again", "items": [{"stem": "Complete with ONE WORD from the passage.", "accept": ["rough"], "why": "If the surface is rough 指明重复抛光的条件。", "point": "node"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["sequence", "node"], "groups": [{
+   "text": "After the mixture cooled, it was poured into jars. Before cooling, it was stirred with a wooden spoon. If the mixture was still warm, workers waited before pouring.\n\nStir with a (1) → cool → if warm, wait → pour into (2)",
+   "items": [
+    {"stem": "Complete (1) with ONE WORD from the passage.", "accept": ["spoon"], "why": "stirred with a wooden spoon 指明搅拌工具。", "point": "node"},
+    {"stem": "Complete (2) with ONE WORD from the passage.", "accept": ["jars"], "why": "After the mixture cooled, it was poured into jars 指明冷却后的容器。", "point": "sequence"}
+   ]
+  }]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["sequence", "node"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A laboratory group wanted to compare the amount of water held by different samples of soil. The final calculation used the difference between the mass of each wet sample and its mass after drying. The researchers kept the size of the containers consistent, because the containers were included in both measurements. The procedure was designed for comparison within this group of samples, not for estimating every property of the soils.\n\nBefore any soil was added, each empty container received a label. The researchers then placed a sample in each container and weighed it. They recorded this first mass beside the label in a notebook. Next, the containers were put in a drying oven. After a period of drying, each container was allowed to cool before being weighed again. If a sample still felt damp, the researchers returned it to the oven and repeated the cooling and weighing stages.\n\nThe team subtracted the final mass from the first mass for each labelled container. This gave the mass lost during the procedure. To make the comparison easier to inspect, the results were entered in a table alongside the sample labels. The researchers kept their original notebook as well as the table, so that a copied result could be checked against the first record. They also noted that any material lost during handling could affect the difference. For that reason, they moved the containers carefully and avoided touching the samples while transferring them between the oven and the balance. The procedure depended on maintaining the link between each sample and its measurements.\n\nLabel empty containers → add soil → record first (1) → dry in an (2) → cool and weigh → if still (3), repeat drying",
+    "items": [
+     {"stem": "Complete (1) with ONE WORD from the passage.", "accept": ["mass"], "why": "依据是 They recorded this first mass。称重后记下的是 mass。", "point": "sequence"},
+     {"stem": "Complete (2) with ONE WORD from the passage.", "accept": ["oven"], "why": "containers were put in a drying oven 指出设备。", "point": "node"},
+     {"stem": "Complete (3) with ONE WORD from the passage.", "accept": ["damp"], "why": "依据是 If a sample still felt damp。damp 是重新烘干的条件。", "point": "node"}
+    ]},
+   {"look": "passage", "text": "A workshop made paper sheets from used paper collected locally. The finished sheets were left to dry on a rack, but that was the final stage of a longer process. Workers first sorted the collected paper and removed pieces of plastic. They kept the sorted paper in a box until enough material was available for a batch. This initial separation helped prevent unwanted material from appearing in the finished sheets.\n\nThe sorted paper was torn into small pieces and soaked in water. After soaking, workers mixed the pieces with more water to produce a pulp. They poured the pulp into a wide tray and lowered a mesh frame into it. When the frame was lifted, a layer of pulp remained on the mesh and water drained away. Workers transferred this layer onto a cloth, then pressed it to remove more water. If the layer tore during transfer, they returned it to the tray and formed it again.\n\nThe pressed sheet was placed on the rack to dry. Once dry, it could be removed and inspected. Workers recorded whether its surface was even and noted any remaining fragments of coloured paper. These observations helped them decide how to sort material for a later batch. The workshop did not expect every sheet to look identical, because the collected paper varied. Its aim was to follow a consistent sequence and keep a record of the materials used. The process turned discarded paper into new sheets without requiring each original piece to retain its earlier shape.\n\nSort paper → tear and soak → make (1) → lift a layer with a mesh (2) → transfer to cloth; if torn, form again → press and dry on a (3)",
+    "items": [
+     {"stem": "Complete (1) with ONE WORD from the passage.", "accept": ["pulp"], "why": "依据是 mixed the pieces with more water to produce a pulp。混合的产物是 pulp。", "point": "node"},
+     {"stem": "Complete (2) with ONE WORD from the passage.", "accept": ["frame"], "why": "依据是 lowered a mesh frame into it。空前已有 mesh，所缺的是工具 frame。", "point": "node"},
+     {"stem": "Complete (3) with ONE WORD from the passage.", "accept": ["rack"], "why": "pressed sheet was placed on the rack to dry 给出最后的干燥位置。", "point": "sequence"}
+    ]}
+  ]}]}
+ ]
+}

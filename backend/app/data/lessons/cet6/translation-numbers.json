@@ -1,0 +1,53 @@
+{
+ "id": "translation-numbers", "title": "数字与单位", "goal": "能转换大数并保留数量单位。", "skill": "翻译", "exam": "大学英语六级（CET-6）", "mastery": "once",
+ "points": [{"id": "convert", "label": "转换中文大数与英文计数单位"}, {"id": "unit", "label": "保留数值对应的单位与数量关系"}],
+ "sources": [{"id": "c2", "title": "大学英语六级考试大纲", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译课程内容依据"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "中文的大数以万和亿为单位。英文的大数三位一组，单位是 thousand、million 和 billion。翻译时先换算数值，再确定计量单位。"},
+   {"box": "原文：该县人口约为十二万。\n译文：The county has a population of about 120,000."},
+   {"p": "十二万写作 120,000，也可以说 120 thousand。数字后面的计量名词随数值变单复数：one kilometre，300 kilometres。"}
+  ]},
+  {"id": "scale", "type": "table", "title": "大数单位", "cols": ["中文数值", "英文数值", "例句"], "rows": [
+   ["一万", "10,000；ten thousand", "The town has ten thousand residents."],
+   ["十万", "100,000；one hundred thousand", "The town has one hundred thousand residents."],
+   ["一百万", "1,000,000；one million", "The region has one million residents."],
+   ["一亿", "100,000,000；one hundred million", "The country has one hundred million residents."],
+   ["十亿", "1,000,000,000；one billion", "The country has one billion residents."]
+  ]},
+  {"id": "population-area", "type": "table", "title": "人口与面积", "cols": ["类型", "原文", "译文"], "rows": [
+   ["人口：万", "该镇人口约为十二万。", "The town has about 120,000 residents."],
+   ["人口：亿", "该国人口为一亿。", "The country has a population of 100 million."],
+   ["面积：万", "这个湖的面积为两万平方千米。", "The lake covers 20,000 square kilometres."],
+   ["面积：单数", "这个公园的面积为一平方千米。", "The park covers one square kilometre."]
+  ]},
+  {"id": "length-year", "type": "table", "title": "长度与年份", "cols": ["类型", "原文", "译文"], "rows": [
+   ["长度：复数", "这条河长三百千米。", "The river is 300 kilometres long."],
+   ["长度：单数", "这条隧道长一千米。", "The tunnel is one kilometre long."],
+   ["年份：过去", "这座桥于一九八八年开放。", "The bridge opened in 1988."],
+   ["年份：过去", "这家博物馆于二〇〇五年建立。", "The museum was established in 2005."]
+  ]},
+  {"id": "practice-a", "type": "check", "title": "练习一", "points": ["convert", "unit"], "groups": [{"items": [
+   {"stem": "原文：这座城市有人口五十万。选择译句。", "options": ["The city has a population of 50,000.", "The city has a population of 500,000.", "The city has a population of 5,000,000.", "The city has a population of 5,000."], "answer": 1, "why": "五十万等于 500,000，第二项保留人口数值。", "point": "convert"},
+   {"stem": "原文：这个公园占地两平方千米。选择译句。", "options": ["The park covers two square kilometre.", "The park covers two thousand square metres.", "The park covers two square kilometres.", "The park covers two kilometres."], "answer": 2, "why": "原文的面积单位是平方千米。第三项用 square kilometres，two 后面用复数。第一项单位用了单数。", "point": "unit"}
+  ]}]},
+  {"id": "practice-b", "type": "check", "title": "练习二", "points": ["convert", "unit"], "groups": [{"items": [
+   {"stem": "原文：这片地区有人口三百万。补全译句 The region has a population of ____. 用数字 3 加英文计数单位。", "accept": ["3 million", "three million"], "why": "三百万对应 3 million。", "point": "convert"},
+   {"stem": "原文：这座桥长一千米。补全译句 The bridge is ____ long. 用数字 1 加英式英文单位。", "accept": ["1 kilometre", "one kilometre", "1,000 metres", "1000 metres"], "why": "一千米写作 1 kilometre，单位用单数。", "point": "unit"}
+  ]}]},
+  {"id": "practice-c", "type": "check", "title": "练习三", "points": ["convert", "unit"], "groups": [{"items": [
+   {"stem": "原文：这个地区有人口两亿。选择译句。", "options": ["The region has a population of 20 million.", "The region has a population of 2 million.", "The region has a population of 2 billion.", "The region has a population of 200 million."], "answer": 3, "why": "一亿是 100 million，两亿是 200 million。", "point": "convert"},
+   {"stem": "原文：这个展馆在二〇一二年开放。选择译句。", "options": ["The hall opened in 2012.", "The hall opened in 2021.", "The hall opened in 2002.", "The hall opened in 2011."], "answer": 0, "why": "二〇一二年对应年份 2012。", "point": "unit"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["convert", "unit"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "原文：该市有一百万人口。选择译句。", "options": ["The city has a population of one hundred thousand.", "The city has a population of ten million.", "The city has a population of one million.", "The city has a population of one billion."], "answer": 2, "why": "一百万等于 one million。", "point": "convert"},
+   {"stem": "原文：该地区有人口三亿。选择译句。", "options": ["The region has a population of 30 million.", "The region has a population of 300 million.", "The region has a population of 3 million.", "The region has a population of 3 billion."], "answer": 1, "why": "三亿等于 300 million。", "point": "convert"},
+   {"stem": "原文：这条河长一千米。选择译句。", "options": ["The river is one square kilometre in length.", "The river is one kilometres in length.", "The river is one thousand kilometres in length.", "The river is one kilometre in length."], "answer": 3, "why": "一千米即 one kilometre。第四项数值是 one，长度单位用单数 kilometre。", "point": "unit"},
+   {"stem": "原文：这座车站于一九九六年开放。选择译句。", "options": ["The station opened in 1996.", "The station opened in 1969.", "The station opened in 1896.", "The station opened in 1995."], "answer": 0, "why": "一九九六年对应 1996。", "point": "unit"},
+   {"stem": "原文：这座城镇人口为四十万。补全译句 The town has a population of ____. 用数字 400 加英文计数单位。", "accept": ["400 thousand", "400,000"], "why": "四十万是 400 thousand。", "point": "convert"},
+   {"stem": "原文：该地区人口为五亿。补全译句 The region has a population of ____. 用数字 500 加英文计数单位。", "accept": ["500 million"], "why": "五亿是 500 million。", "point": "convert"},
+   {"stem": "原文：这座岛面积为三平方千米。补全译句 The island covers ____. 用数字 3 加英式英文面积单位。", "accept": ["3 square kilometres"], "why": "面积为三平方千米，kilometres 用复数。", "point": "unit"},
+   {"stem": "原文：这条道路长二十千米。补全译句 The road is ____ long. 用数字 20 加英式英文长度单位。", "accept": ["20 kilometres"], "why": "长度为二十千米，kilometres 用复数。", "point": "unit"}
+  ]}]}]}
+ ]
+}

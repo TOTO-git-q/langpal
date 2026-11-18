@@ -1,0 +1,422 @@
+{
+ "id": "reading-passage-traps",
+ "title": "干扰项的类型",
+ "goal": "判断干扰项的类型；按依据逐项排除。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "classify",
+   "label": "判断干扰项的类型"
+  },
+  {
+   "id": "eliminate",
+   "label": "按依据逐项排除"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、计分、自适应"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明和官方样题（挖空规则是对照样题和答案看出来的）"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Reading Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-reading.pdf",
+   "used": "第 1 课：三类题的说明和需要的三项基本功"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "干扰项常沿用原文的词，也可能写原文中真实但与题干无关的信息。排除时看题干问的对象，再看原文中的关系。选项与原文用词相同，并不说明它正确。"
+    },
+    {
+     "box": "Which of the following is supported by the passage?\nWhat kind of error does the proposed answer contain?"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　核对所问对象",
+     "d": "先排除讲相邻信息的选项。原文是 The dial shows pressure; the screen shows temperature。题干问 screen 时，pressure 是 dial 的信息。"
+    },
+    {
+     "t": "2　核对关系与方向",
+     "d": "看谁作用于谁，再看否定和比较。The cable supports the platform 写成 The platform supports the cable，关系就颠倒了。"
+    },
+    {
+     "t": "3　核对范围与证据",
+     "d": "看 some、all、may、must 这类词，再看有没有原文没写的细节。Some boxes were reused 写成 All boxes were reused 是程度过强。补出回收地点是原文未提及。"
+    }
+   ]
+  },
+  {
+   "id": "key",
+   "type": "table",
+   "title": "五类干扰项",
+   "cols": [
+    "类型",
+    "例句",
+    "依据"
+   ],
+   "rows": [
+    [
+     "取自相邻的句子",
+     "The dial shows pressure. The screen shows temperature. Question: What does the screen show? Wrong: Pressure.",
+     "信息来自原文，但对应 dial。"
+    ],
+    [
+     "沿用原词改变关系",
+     "The cable supports the platform. Wrong: The platform supports the cable.",
+     "词语相同，支撑关系颠倒。"
+    ],
+    [
+     "原文未提及",
+     "The report describes the test. Wrong: The report was written overseas.",
+     "没有写作地点信息。"
+    ],
+    [
+     "程度过强",
+     "Some boxes were reused. Wrong: All boxes were reused.",
+     "some 被扩大成 all。"
+    ],
+    [
+     "与原文相反",
+     "The opening became narrower. Wrong: The opening became wider.",
+     "变化方向相反。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A researcher measured the thickness of a sheet to estimate its weight. She examined its surface separately to identify scratches. Only some sheets showed scratches, and the report did not discuss their price."
+    },
+    {
+     "box": "Which statement is supported?\n1. Surface inspection estimated the sheets’ weight.\n2. Every sheet had visible scratches.\n3. Thickness was used in estimating weight.\n4. The scratched sheets were cheaper."
+    },
+    {
+     "p": "先核对动作：measured the thickness 对应 estimate its weight，examined its surface 对应 identify scratches，即第三项。"
+    },
+    {
+     "p": "第一项把两种操作的用途弄混了。第二项把 some 扩大成 every。第四项加了原文没有讨论的价格。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "取自相邻的句子",
+     "The handle opens the lid. The knob adjusts the angle. Question: What does the knob do? Wrong: Opens the lid.",
+     "开盖是 handle 的作用。"
+    ],
+    [
+     "沿用原词改变关系",
+     "The cover protects the lens. Wrong: The lens protects the cover.",
+     "保护者与被保护对象颠倒。"
+    ],
+    [
+     "原文未提及",
+     "The sample was stored indoors. Wrong: It was stored in a university laboratory.",
+     "原文只说 indoors，没有提到大学实验室。"
+    ],
+    [
+     "程度过强",
+     "The treatment may reduce damage. Wrong: It always prevents damage.",
+     "may reduce 被改成 always prevents。"
+    ],
+    [
+     "与原文相反",
+     "The dark coating absorbed more light. Wrong: It absorbed less light.",
+     "more 被改成 less。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "classify",
+    "eliminate"
+   ],
+   "groups": [
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "A lens enlarges the image. A nearby scale measures its width.",
+     "items": [
+      {
+       "stem": "A proposed answer says that the scale enlarges the image. What error does it contain?",
+       "options": [
+        "It assigns the function of the lens to the nearby scale.",
+        "It turns a limited observation into a universal rule.",
+        "It adds a time period that the passage never mentions.",
+        "It reverses an explicitly stated increase into a decrease."
+       ],
+       "answer": 0,
+       "why": "enlarges the image 是 lens 的作用，scale 的作用是 measures its width。选项把相邻句的作用安到了 scale 上，属于取自相邻的句子，即第一项。",
+       "point": "classify"
+      }
+     ]
+    },
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "A warm current carries heat toward the coast.",
+     "items": [
+      {
+       "stem": "Which statement preserves the relationship?",
+       "options": [
+        "The coast produces heat that creates the current.",
+        "The current carries cold water away from the coast.",
+        "Heat is transported coastward by the moving water.",
+        "Every warm current begins at this particular coast."
+       ],
+       "answer": 2,
+       "why": "carries heat toward the coast 改写成 Heat is transported coastward，运输的方向没有变，即第三项。",
+       "point": "eliminate"
+      }
+     ]
+    },
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "Several items were repaired before they were displayed.",
+     "items": [
+      {
+       "stem": "A proposed answer says every item was repaired. Which error is present?",
+       "options": [
+        "A date is added that the text never gives.",
+        "A neighboring action is substituted.",
+        "The direction of movement is reversed.",
+        "The original claim’s scope is enlarged."
+       ],
+       "answer": 3,
+       "why": "Several items 被改成 every item，属于程度过强，即第四项。",
+       "point": "classify"
+      }
+     ]
+    },
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "The new filter allowed less dust to pass through than the old filter.",
+     "items": [
+      {
+       "stem": "Which conclusion is supported?",
+       "options": [
+        "The new filter let dust pass more quickly than the old one.",
+        "The new filter let through less dust than the old one.",
+        "The new filter prevented every particle from passing.",
+        "The new filter allowed more dust through than the old one."
+       ],
+       "answer": 1,
+       "why": "less dust ... than the old filter 说明新过滤器透过的灰尘比旧的少，即第二项。第三项把减少说成了完全挡住。",
+       "point": "eliminate"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "eliminate",
+    "classify"
+   ],
+   "groups": [
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "A storage trial compared two baskets. The woven basket allowed air to pass through its sides. The solid basket kept loose powder from escaping. Both baskets could hold dry grain, but the trial did not compare their cost.",
+     "items": [
+      {
+       "stem": "Which statement about the woven basket is supported?",
+       "options": [
+        "It let air move through its sides.",
+        "It could not hold dry grain.",
+        "It prevented all movement of powder.",
+        "It blocked more air than the solid basket."
+       ],
+       "answer": 0,
+       "why": "allowed air to pass through its sides 对应 let air move through its sides，即第一项。挡住散粉是 solid basket 的作用。",
+       "point": "eliminate"
+      },
+      {
+       "stem": "The proposed answer “The woven basket cost less” has which problem?",
+       "options": [
+        "It reverses the stated direction of air movement.",
+        "It treats some baskets as all possible baskets.",
+        "It adds a comparison the passage does not make.",
+        "It assigns grain storage to a different material."
+       ],
+       "answer": 2,
+       "why": "原文说 the trial did not compare their cost，价格的比较不在材料中，属于原文未提及，即第三项。",
+       "point": "classify"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "classify",
+    "eliminate"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Read the passage.",
+       "look": "passage",
+       "text": "Recording Stones on a Survey Grid\n\nIn a training survey, students examine a field that has been divided into marked squares. They count visible stones within each assigned square and record the result on a plan. They also measure the largest stone in each square. Counting gives information about how many visible stones are present; measuring gives information about the size of a selected stone. These two records describe different features of the same area.\n\nThe students do not remove the soil. Stones below the surface therefore remain outside the survey, even if their presence seems likely. The instructor asks students to label their results as observations of visible stones rather than a complete account of everything beneath the field. The wording keeps the claim consistent with the method.\n\nSome squares contain more visible stones than others. The plan makes these differences easier to compare, but it does not explain their cause. The survey includes no evidence about whether people moved stones in the past. A later investigation could examine that possibility. For the present exercise, however, the record supports a description of surface distribution rather than a history of how that distribution developed.",
+       "items": [
+        {
+         "stem": "Which statement correctly describes what counting provides?",
+         "options": [
+          "It identifies the size of the largest stone.",
+          "It shows how many stones can be seen in a square.",
+          "It establishes the total number of buried stones.",
+          "It reveals the reason stones were moved in the past."
+         ],
+         "answer": 1,
+         "why": "原文说 Counting gives information about how many visible stones are present，即第二项。石块的大小来自 measuring。",
+         "point": "eliminate"
+        },
+        {
+         "stem": "Which statement is supported about the method?",
+         "options": [
+          "It removes the soil to expose hidden objects.",
+          "It guarantees that no stones lie underground.",
+          "It records the position of every buried stone.",
+          "It leaves stones below the surface unrecorded."
+         ],
+         "answer": 3,
+         "why": "The students do not remove the soil，所以 Stones below the surface ... remain outside the survey，即第四项。",
+         "point": "eliminate"
+        },
+        {
+         "stem": "Which statement is supported about differences between squares?",
+         "options": [
+          "Their causes are not established by this exercise.",
+          "They prove people moved every stone.",
+          "They disappear once the results are placed on a plan.",
+          "They show that all squares contain identical stones."
+         ],
+         "answer": 0,
+         "why": "原文说 it does not explain their cause，平面图只便于比较分布，即第一项。",
+         "point": "eliminate"
+        },
+        {
+         "stem": "The proposed answer “Every square contains more stones than the others” changes “Some squares” in what way?",
+         "options": [
+          "It borrows a measurement from the neighboring sentence.",
+          "It adds an unmentioned instrument to the method.",
+          "It turns a limited claim into an unrestricted one.",
+          "It reverses the stated purpose of the survey grid."
+         ],
+         "answer": 2,
+         "why": "Some squares 被扩大成 Every square，属于程度过强，即第三项。",
+         "point": "classify"
+        }
+       ]
+      },
+      {
+       "label": "Read the passage.",
+       "look": "passage",
+       "text": "Testing a Foldable Stand\n\nA design exercise compares two stands used to hold a display board. Both stands support the same board indoors. The first stand has fixed legs, while the second has legs that fold inward. Folding reduces the space required to store the second stand. It does not change the area of the board itself, which remains the same in both arrangements.\n\nThe designers also attach a strap to the folded stand. The strap holds the legs together during transport; a separate handle provides a place to grip the stand. Although these parts are close together, they have different functions. Confusing the strap with the handle would produce an inaccurate description of the design.\n\nThe trial is limited to a smooth indoor floor. On that surface, both stands remain upright during the demonstration. No test is performed outdoors, and the exercise does not compare the materials’ resistance to rain. The observations therefore do not establish how either stand would behave in wet or windy conditions. The folding arrangement offers a storage advantage, but that advantage alone is not evidence of superior performance in every setting.",
+       "items": [
+        {
+         "stem": "Which statement about folding is supported?",
+         "options": [
+          "It makes the display board larger.",
+          "It prevents the stand from being carried.",
+          "It reduces the space needed for storage.",
+          "It guarantees resistance to outdoor rain."
+         ],
+         "answer": 2,
+         "why": "Folding reduces the space required to store the second stand 说明折叠减少了储存空间，即第三项。",
+         "point": "eliminate"
+        },
+        {
+         "stem": "Which description correctly identifies the strap’s role?",
+         "options": [
+          "It keeps the folded legs together while the stand is moved.",
+          "It supplies the gripping point provided by the separate handle.",
+          "It enlarges the floor area occupied by the display board.",
+          "It keeps the stand upright on the smooth floor."
+         ],
+         "answer": 0,
+         "why": "The strap holds the legs together during transport，即第一项。供人握持的是 handle。",
+         "point": "eliminate"
+        },
+        {
+         "stem": "Which statement stays within the trial’s evidence?",
+         "options": [
+          "Both stands remain stable in every outdoor storm.",
+          "Both stands stayed upright on the tested indoor floor.",
+          "Only the folding stand can support the display board.",
+          "Neither stand can be placed on a smooth indoor floor."
+         ],
+         "answer": 1,
+         "why": "On that surface, both stands remain upright 只针对被测的室内地面，即第二项。第一项推到了室外天气，原文没有测试。",
+         "point": "eliminate"
+        },
+        {
+         "stem": "An answer claims the folded stand requires more storage space. How does it conflict with the passage?",
+         "options": [
+          "It adds a manufacturing location absent from the text.",
+          "It substitutes the handle’s function for the strap’s function.",
+          "It expands a claim about some stands into all stands.",
+          "It reverses the stated effect of folding on storage space."
+         ],
+         "answer": 3,
+         "why": "Folding reduces the space required 与 requires more storage space 方向相反，属于与原文相反，即第四项。",
+         "point": "classify"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

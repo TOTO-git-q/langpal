@@ -1,0 +1,606 @@
+{
+ "id": "listening-p1-spelling",
+ "title": "姓名与地址的拼写",
+ "goal": "按口头拼读记录字母串，并准确还原姓名、门牌、街名与邮编。",
+ "skill": "听力",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "letters",
+   "label": "按口头拼读记录字母串"
+  },
+  {
+   "id": "address",
+   "label": "还原姓名和地址中的拼写"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "雅思 IELTS Academic：课表",
+   "url": "docs/syllabi/ielts.md",
+   "used": "听力课的内容、知识点与教学规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "姓名和街道名按听到的拼读逐个记录字母，不换成熟悉的拼法。double 表示同一个字母连续写两次。把整个名称再拼读一遍是核实，名称只写一次。"
+    },
+    {
+     "box": "It's Hill: H, I, double L. I'll repeat that: H, I, L, L. → Hill"
+    },
+    {
+     "p": "字母、数字和它们的先后顺序都是答案的一部分。门牌、街名、街道类型和邮编分开记录。更正只改被提到的那一部分，其余部分不变。"
+    },
+    {
+     "box": "It's 18 Fern Road, not Fern Lane. The number is still 18. → 18 Fern Road"
+    }
+   ]
+  },
+  {
+   "id": "sounds",
+   "type": "table",
+   "title": "字母读音",
+   "cols": [
+    "字母",
+    "区别",
+    "例"
+   ],
+   "rows": [
+    [
+     "A / E / I",
+     "字母名分别读 /eɪ/、/iː/、/aɪ/，与单词中的元音不同。",
+     "A as in apple; E as in egg; I as in ink."
+    ],
+    [
+     "B / P / V",
+     "开头的辅音不同。听不清时以后面的解释词为准。",
+     "B as in book; P as in pen; V as in van."
+    ],
+    [
+     "G / J",
+     "G 读 /dʒiː/，J 读 /dʒeɪ/，区别在末尾的元音。",
+     "G as in gate; J as in jam."
+    ],
+    [
+     "M / N",
+     "区别在末尾的鼻音。听不清时以重复或解释词为准。",
+     "M as in map; N as in net."
+    ],
+    [
+     "O / zero",
+     "字母 O 和数字 0 分开记录，以说话人的说明为准。",
+     "The letter O, followed by the digit zero."
+    ],
+    [
+     "double / triple",
+     "紧跟其后的那个字母写两次或三次。",
+     "double L → LL; triple S → SSS"
+    ]
+   ]
+  },
+  {
+   "id": "spoken",
+   "type": "table",
+   "title": "姓氏、街名与邮编",
+   "cols": [
+    "类别",
+    "口头拼写",
+    "记录"
+   ],
+   "rows": [
+    [
+     "姓氏",
+     "A: Is that Reed? B: It's Reid: R, E, I, D. The third letter is I.",
+     "Reid；同音的姓按拼读写。"
+    ],
+    [
+     "姓氏",
+     "A: How is Bell spelt? B: B, E, double L. I'll repeat it: B, E, L, L.",
+     "Bell；double L 写成 LL，再拼一遍不加字母。"
+    ],
+    [
+     "街名",
+     "A: Is it Beach Road? B: Beech Road: B, E, E, C, H, then Road.",
+     "Beech Road；只改街名的拼法，Road 不变。"
+    ],
+    [
+     "街名",
+     "A: Could I check Willow Lane? B: W, I, double L, O, W. That's W, I, L, L, O, W.",
+     "Willow Lane；LL 在词的中间。"
+    ],
+    [
+     "邮编",
+     "A: Was that AB14 6PQ? B: AB14 6PT. The final letter is T as in tea.",
+     "AB14 6PT；只改末尾的字母。"
+    ],
+    [
+     "邮编",
+     "A: Please repeat the postcode. B: LS6 2NN. L, S, six, two, double N.",
+     "LS6 2NN；数字顺序不变，末尾是 NN。"
+    ]
+   ]
+  },
+  {
+   "id": "address",
+   "type": "table",
+   "title": "地址的组成",
+   "cols": [
+    "组成",
+    "用法",
+    "例"
+   ],
+   "rows": [
+    [
+     "姓名",
+     "姓氏栏只写姓。",
+     "First name: Eva; surname: Bell → Bell"
+    ],
+    [
+     "门牌",
+     "号码后面的字母也属于门牌。",
+     "Number twelve B → 12B"
+    ],
+    [
+     "街道类型",
+     "Road、Lane、Street 是地址的一部分，按原词写。",
+     "18 Fern Road; not 18 Fern Lane"
+    ],
+    [
+     "邮编",
+     "字母和数字的顺序不变；题面允许时可省去空格。",
+     "LS6 2NN → LS6 2NN / LS62NN"
+    ],
+    [
+     "缩写",
+     "题目允许时可用通行缩写。",
+     "Road → Rd / Rd.; Street → St / St."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A: The parcel is for Ms Hall at 12B Beech Road.\nB: Is Hall spelt H, A, L?\nA: H, A, double L. And the street is Beech: B, E, E, C, H, not Beach.\nB: Twelve B, Beech Road. What is the postcode?\nA: AB14 6PT. The last letter is T as in tea."
+    },
+    {
+     "box": "Surname: Hall\nHouse number and street: 12B Beech Road\nPostcode: AB14 6PT"
+    },
+    {
+     "p": "Hall 末尾是 LL。Beech 和 Beach 的第二个元音字母不同。12B 的 B 是门牌的一部分，不写进邮编。tea 只用来说明字母 T，不写进地址。"
+    },
+    {
+     "p": "答案用原词，不换成同音的拼法。题面要求完整的街道类型时写 Road；允许缩写时，Rd 和 Rd. 也算对。"
+    }
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "letters"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The badge should show the initials E G."
+       },
+       {
+        "who": "B",
+        "text": "Was the second letter J?"
+       },
+       {
+        "who": "A",
+        "text": "No, G as in gate. The first is E as in egg."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Initials: ___ . Write the TWO letters without spaces.",
+       "accept": [
+        "EG"
+       ],
+       "why": "依据是 G as in gate 和 The first is E as in egg。第二个字母是 G，不是 J。",
+       "point": "letters"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The parcel code is P V B."
+       },
+       {
+        "who": "B",
+        "text": "Could that be B V P?"
+       },
+       {
+        "who": "A",
+        "text": "No, P as in pen, V as in van, B as in book."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Parcel code: ___ . Write the THREE letters without spaces.",
+       "accept": [
+        "PVB"
+       ],
+       "why": "依据是 P as in pen, V as in van, B as in book，字母按这个顺序写。",
+       "point": "letters"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Please label the box M N N."
+       },
+       {
+        "who": "B",
+        "text": "Is that two letters?"
+       },
+       {
+        "who": "A",
+        "text": "Three letters: M as in map, followed by double N."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Box label: ___ . Write the THREE letters without spaces.",
+       "accept": [
+        "MNN"
+       ],
+       "why": "依据是 M as in map, followed by double N。double N 写成 NN。",
+       "point": "letters"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The access code is the letter O, zero, then I."
+       },
+       {
+        "who": "B",
+        "text": "Does it begin with two zeroes?"
+       },
+       {
+        "who": "A",
+        "text": "No. The first character is the letter O; only the middle character is a digit."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Access code: ___ . Write the THREE characters without spaces.",
+       "accept": [
+        "O0I"
+       ],
+       "why": "依据是 the letter O, zero, then I。第一个是字母 O，只有中间是数字 0。",
+       "point": "letters"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "address"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "My surname is Dunn. That's D, U, double N."
+       },
+       {
+        "who": "B",
+        "text": "Dunn, with two Ns. I'll put that on the repair receipt."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Surname: ___ . Write ONE WORD.",
+       "accept": [
+        "Dunn"
+       ],
+       "why": "依据是 double N，Dunn 的末尾是 NN。",
+       "point": "address"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Deliver the groceries to thirty-one Maple Street."
+       },
+       {
+        "who": "B",
+        "text": "Maple is M, A, P, L, E, and the number is thirty-one?"
+       },
+       {
+        "who": "A",
+        "text": "That's right. Street, not Road."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "House number and street: ___ . Write NO MORE THAN TWO WORDS AND A NUMBER; use digits for the house number.",
+       "accept": [
+        "31 Maple Street",
+        "31 Maple St",
+        "31 Maple St."
+       ],
+       "why": "依据是 thirty-one Maple Street 和 Street, not Road。门牌写 31，街道类型是 Street。",
+       "point": "address"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The return address is nine Ash Lane."
+       },
+       {
+        "who": "B",
+        "text": "Did that start with eight?"
+       },
+       {
+        "who": "A",
+        "text": "Nine. The street is Ash: A, S, H. Lane is written in full on the label."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "House number and street: ___ . Write NO MORE THAN TWO WORDS AND A NUMBER; use digits and the full street type.",
+       "accept": [
+        "9 Ash Lane",
+        "09 Ash Lane"
+       ],
+       "why": "依据是 Nine 和 The street is Ash。门牌是 9，不是 8；Lane 写全。",
+       "point": "address"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The postcode is YO10 3AB."
+       },
+       {
+        "who": "B",
+        "text": "Is the second character zero?"
+       },
+       {
+        "who": "A",
+        "text": "It's the letter O. The digits after that are one, zero, three, then A and B."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Postcode: ___ . Write the letters and digits in order; a space between the two parts is optional.",
+       "accept": [
+        "YO10 3AB",
+        "YO103AB"
+       ],
+       "why": "依据是 It's the letter O。第二个字符是字母 O，后面依次是 1、0、3。",
+       "point": "address"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "letters",
+    "address"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Hello, I'm calling to arrange collection of a damaged suitcase. The case belongs to me, but it will be waiting at my aunt's house. My surname is Penn, with two Ns."
+         },
+         {
+          "who": "B",
+          "text": "Thanks. Could the surname be spelt out, and could I have the house number and street for the collection?"
+         },
+         {
+          "who": "A",
+          "text": "It's P, E, double N. The address is twenty-six Birch Lane. Birch is B, I, R, C, H, and Lane is the street type. Please don't use Birch Road, which is nearby."
+         },
+         {
+          "who": "B",
+          "text": "I've recorded the address. There's a tag field as well. What letters appear on the suitcase tag?"
+         },
+         {
+          "who": "A",
+          "text": "The tag reads E J V. That's E as in egg, J as in jam and V as in van. I sometimes see the middle letter copied as G, but it's definitely J."
+         },
+         {
+          "who": "B",
+          "text": "And is there a separate collection code?"
+         },
+         {
+          "who": "A",
+          "text": "Yes, M double P. That's the letter M followed by two Ps. The code identifies the collection, while the other letters identify the suitcase."
+         },
+         {
+          "who": "B",
+          "text": "Thank you. I'll keep those two fields separate on the collection record."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Suitcase tag: ___ . Write the THREE letters without spaces.",
+         "accept": [
+          "EJV"
+         ],
+         "why": "依据是 E as in egg, J as in jam and V as in van。中间的字母是 J，不是 G。",
+         "point": "letters"
+        },
+        {
+         "stem": "Collection code: ___ . Write the THREE letters without spaces.",
+         "accept": [
+          "MPP"
+         ],
+         "why": "依据是 the letter M followed by two Ps。先写 M，再写两个 P。",
+         "point": "letters"
+        },
+        {
+         "stem": "Owner's surname: ___ . Write ONE WORD.",
+         "accept": [
+          "Penn"
+         ],
+         "why": "依据是 P, E, double N，末尾是 NN。",
+         "point": "address"
+        },
+        {
+         "stem": "Collection address: ___ . Write NO MORE THAN TWO WORDS AND A NUMBER; use digits and the full street type.",
+         "accept": [
+          "26 Birch Lane"
+         ],
+         "why": "依据是 twenty-six Birch Lane。附近的 Birch Road 是另一条街。",
+         "point": "address"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Good afternoon. I need to update the delivery address for a box of replacement tiles. The old order has the right customer details, but the box should go to our new workshop."
+         },
+         {
+          "who": "B",
+          "text": "Of course. Please give the building number and the street name, including whether it's a road or a lane."
+         },
+         {
+          "who": "A",
+          "text": "It's forty-eight Alder Road. Alder is A, L, D, E, R. The postcode is LS7 4NN, ending with double N. I previously gave LS7 4MN by mistake, so that needs correcting."
+         },
+         {
+          "who": "B",
+          "text": "I'll replace the postcode. The order also asks for a workshop label and a batch code. Are those different?"
+         },
+         {
+          "who": "A",
+          "text": "They are. The workshop label is B V P: B as in book, V as in van, P as in pen. Please keep that order."
+         },
+         {
+          "who": "B",
+          "text": "And the batch code?"
+         },
+         {
+          "who": "A",
+          "text": "It's the letter O, zero, and J as in jam. The first character isn't a zero. The label marks the destination shelf, while the batch code identifies the tiles."
+         },
+         {
+          "who": "B",
+          "text": "I've entered both separately. The delivery note will use the new address and the corrected postcode."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Workshop label: ___ . Write the THREE letters without spaces.",
+         "accept": [
+          "BVP"
+         ],
+         "why": "依据是 B as in book, V as in van, P as in pen，字母按这个顺序写。",
+         "point": "letters"
+        },
+        {
+         "stem": "Batch code: ___ . Write the THREE characters without spaces.",
+         "accept": [
+          "O0J"
+         ],
+         "why": "依据是 the letter O, zero, and J as in jam。首位是字母 O，中间是数字 0。",
+         "point": "letters"
+        },
+        {
+         "stem": "Workshop address: ___ . Write NO MORE THAN TWO WORDS AND A NUMBER; use digits for the building number.",
+         "accept": [
+          "48 Alder Road",
+          "48 Alder Rd",
+          "48 Alder Rd."
+         ],
+         "why": "依据是 forty-eight Alder Road。门牌写 48，Road 也可写作 Rd。",
+         "point": "address"
+        },
+        {
+         "stem": "Corrected postcode: ___ . Write the letters and digits in order; a space between the two parts is optional.",
+         "accept": [
+          "LS7 4NN",
+          "LS74NN"
+         ],
+         "why": "依据是 LS7 4NN, ending with double N。原先给的 4MN 已经更正。",
+         "point": "address"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,608 @@
+{
+ "id": "writing-sentence-adverbial",
+ "title": "状语从句与条件句",
+ "goal": "能按逻辑关系排列状语从句，并区分真实与非真实条件的时态。",
+ "skill": "writing",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 写作",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "clause",
+   "label": "排出状语从句和主句"
+  },
+  {
+   "id": "conditional",
+   "label": "按条件句的时态配合选择词块"
+  }
+ ],
+ "sources": [],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "状语从句说明原因、让步、时间或条件。两个分句是什么关系，由连接词决定。每个分句一般都有自己的主语和谓语。主句和从句的先后可以调换，意思不变。"
+    },
+    {
+     "box": "Because the pipe leaked, the technician stopped the test.\nThe technician stopped the test because the pipe leaked."
+    },
+    {
+     "p": "条件句用时态表示事情有多大可能。If the pipe leaks, we will stop the test 表示将来可能漏水。If the pipe leaked, we would stop the test 是假设，这里的过去式不表示已经漏水。"
+    }
+   ]
+  },
+  {
+   "id": "relations",
+   "type": "table",
+   "title": "状语从句的关系",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "because",
+     "说明原因，后接分句。because of 后接名词。",
+     "We stopped because the pipe leaked. / We stopped because of a leak."
+    ],
+    [
+     "although",
+     "引出让步。主句前不再加 but。",
+     "Although the pipe was new, it leaked."
+    ],
+    [
+     "when",
+     "表示时间，可指一次事件或一般情况。",
+     "When the alarm sounds, the valve closes."
+    ],
+    [
+     "until",
+     "用在肯定句里，表示动作一直持续到某个时候。",
+     "We waited until the pipe cooled."
+    ],
+    [
+     "not … until",
+     "表示某动作直到某时才发生。",
+     "We did not restart until the pipe cooled."
+    ],
+    [
+     "as soon as",
+     "表示一件事发生后另一件事随即发生。",
+     "We restarted as soon as the inspection ended."
+    ]
+   ]
+  },
+  {
+   "id": "order",
+   "type": "table",
+   "title": "分句位置与时态",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "从句在前",
+     "从句和主句之间一般加逗号。",
+     "When the test ended, the technician left."
+    ],
+    [
+     "从句在后",
+     "时间或原因从句放在后面，一般不加逗号。",
+     "The technician left when the test ended."
+    ],
+    [
+     "将来的时间从句",
+     "表示将来的事用一般现在时，不用 will。",
+     "We will leave as soon as the test ends."
+    ],
+    [
+     "将来之前完成",
+     "强调事情先完成，从句用现在完成时。",
+     "We will leave when the test has ended."
+    ],
+    [
+     "过去事件",
+     "过去发生的事，从句用过去时。",
+     "We left when the test ended."
+    ],
+    [
+     "when 的两种作用",
+     "时间从句用现在时。问未知时间的间接问句可以用 will。",
+     "We will leave when it ends. / We do not know when it will end."
+    ]
+   ]
+  },
+  {
+   "id": "conditions",
+   "type": "table",
+   "title": "条件句的时态配合",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "一般事实",
+     "if 从句和主句都用一般现在时。",
+     "If the sensor fails, the warning light comes on."
+    ],
+    [
+     "真实的未来条件",
+     "if 从句用现在时，主句用 will + 原形。",
+     "If the sensor fails, we will replace it."
+    ],
+    [
+     "真实条件与指令",
+     "主句也可以用情态动词或祈使句。",
+     "If the light comes on, stop the test."
+    ],
+    [
+     "现在或将来非真实条件",
+     "if 用过去式，主句用 would / could + 原形。",
+     "If we had a spare sensor, we could continue."
+    ],
+    [
+     "非真实 be",
+     "正式写法用 were，口语里也用 was。",
+     "If the sensor were reliable, we would use it."
+    ],
+    [
+     "过去非真实条件",
+     "if 用过去完成时，主句用 would have + 过去分词。",
+     "If we had checked the sensor, we would have noticed the fault."
+    ],
+    [
+     "if 从句里的 would",
+     "假设的结果用 would，放在主句。if 从句里的 would 表示意愿。",
+     "If the sensor failed, we would stop. / If the operator would help, we could finish."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "There is no spare filter, so the trial cannot continue.\nIf we ______ ______ ______ ______ the trial.\na spare filter, / had / continue / we could / have"
+    },
+    {
+     "p": "前一句说目前没有备用滤芯，所以 if 从句是与现状相反的假设，用 had。主句用 could continue。could 放在主句，不放进 if 从句。"
+    },
+    {
+     "box": "If we had a spare filter, we could continue the trial."
+    },
+    {
+     "p": "a spare filter, 末尾的逗号表示从句到此结束。have 是现在时，不能用在这个非真实条件句里。"
+    }
+   ]
+  },
+  {
+   "id": "check-clause",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "clause"
+   ],
+   "groups": [
+    {
+     "label": "Make an appropriate sentence.",
+     "items": [
+      {
+       "stem": "Why did the temperature reading disappear?",
+       "lead": "The display went blank because",
+       "chunks": [
+        "the",
+        "battery",
+        "was",
+        "empty"
+       ],
+       "tail": ".",
+       "extra": [
+        "were"
+       ],
+       "why": "because 后接完整的分句 the battery was empty。battery 是单数，用 was，were 是多出的词块。",
+       "point": "clause"
+      },
+      {
+       "stem": "Did the new seal prevent the leak?",
+       "lead": "Although the",
+       "chunks": [
+        "seal",
+        "was new,",
+        "it",
+        "leaked"
+       ],
+       "tail": ".",
+       "extra": [
+        "but"
+       ],
+       "why": "Although 引出让步，从句结束后直接接主句 it leaked，不再加 but。",
+       "point": "clause"
+      },
+      {
+       "stem": "When should the timer start?",
+       "lead": "Start it when",
+       "chunks": [
+        "the",
+        "green",
+        "light",
+        "appears"
+       ],
+       "tail": ".",
+       "extra": [
+        "appear"
+       ],
+       "why": "when 后接主语 the green light 和谓语 appears。light 是单数，动词加 -s。",
+       "point": "clause"
+      },
+      {
+       "stem": "Can the lid be opened now?",
+       "lead": "Wait until",
+       "chunks": [
+        "the",
+        "pressure",
+        "has",
+        "fallen"
+       ],
+       "tail": ".",
+       "extra": [
+        "fall"
+       ],
+       "why": "until 后接 the pressure has fallen，表示等到压力降下来。has 后接过去分词 fallen。",
+       "point": "clause"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-conditional",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "conditional"
+   ],
+   "groups": [
+    {
+     "label": "Make an appropriate sentence.",
+     "items": [
+      {
+       "stem": "The backup motor is available if this one fails.",
+       "lead": "If this motor",
+       "chunks": [
+        "fails,",
+        "we",
+        "will",
+        "replace it"
+       ],
+       "tail": ".",
+       "extra": [
+        "failing,"
+       ],
+       "why": "故障将来可能真的发生，从句用 fails，主句用 will replace it。failing 不能单独作从句的谓语。",
+       "point": "conditional"
+      },
+      {
+       "stem": "We have no insulated container, so the samples cannot be transported.",
+       "lead": "If we",
+       "chunks": [
+        "had",
+        "an insulated container,",
+        "we could",
+        "transport the samples"
+       ],
+       "tail": ".",
+       "extra": [
+        "has"
+       ],
+       "why": "题干说没有容器，所以用 had 和 could transport 表示与现状相反的假设。主语 we 不用 has。",
+       "point": "conditional"
+      },
+      {
+       "stem": "The warning was ignored, and the pump was damaged.",
+       "lead": "If we had",
+       "chunks": [
+        "noticed",
+        "the warning,",
+        "we would have",
+        "stopped the pump"
+       ],
+       "tail": ".",
+       "extra": [
+        "notice"
+       ],
+       "why": "过去没有发生的事，条件用 had noticed，结果用 would have stopped。had 后面不接原形 notice。",
+       "point": "conditional"
+      },
+      {
+       "stem": "The chamber is too small for the test.",
+       "lead": "If the chamber",
+       "chunks": [
+        "were larger,",
+        "we",
+        "could",
+        "run the test"
+       ],
+       "tail": ".",
+       "extra": [
+        "be larger,"
+       ],
+       "why": "were larger 是与实际尺寸相反的假设，与 could run 配合。be larger 不能单独作从句的谓语。",
+       "point": "conditional"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-mixed",
+   "type": "check",
+   "title": "练习三",
+   "points": [
+    "clause",
+    "conditional"
+   ],
+   "groups": [
+    {
+     "label": "Make an appropriate sentence.",
+     "items": [
+      {
+       "stem": "When should the recorder be switched off?",
+       "lead": "Switch it off as soon as",
+       "chunks": [
+        "the",
+        "final",
+        "signal",
+        "ends"
+       ],
+       "tail": ".",
+       "extra": [
+        "will end"
+       ],
+       "why": "as soon as 引出将来的时间从句，用现在时 ends，不用 will end。",
+       "point": "clause"
+      },
+      {
+       "stem": "Why did the reading remain uncertain?",
+       "lead": "We did not confirm it until",
+       "chunks": [
+        "the",
+        "second",
+        "measurement",
+        "arrived"
+       ],
+       "tail": ".",
+       "extra": [
+        "arrive"
+       ],
+       "why": "not … until 表示第二次测量结果到了才确认。过去的事用 arrived。",
+       "point": "clause"
+      },
+      {
+       "stem": "The coolant level may drop during the trial.",
+       "lead": "If the level",
+       "chunks": [
+        "drops,",
+        "the system",
+        "will",
+        "sound an alarm"
+       ],
+       "tail": ".",
+       "extra": [
+        "dropping,"
+       ],
+       "why": "drops 和 will sound 构成真实的未来条件。dropping 不能单独作 if 从句的谓语。",
+       "point": "conditional"
+      },
+      {
+       "stem": "The instrument was not calibrated, so the results were unusable.",
+       "lead": "If the instrument had",
+       "chunks": [
+        "been calibrated,",
+        "the results",
+        "would have",
+        "been usable"
+       ],
+       "tail": ".",
+       "extra": [
+        "was calibrated,"
+       ],
+       "why": "had been calibrated 是过去完成时的被动，主句用 would have been。had was calibrated 不成立。",
+       "point": "conditional"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "clause",
+    "conditional"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Make an appropriate sentence.",
+       "items": [
+        {
+         "stem": "Why did the density trial stop?",
+         "lead": "The trial stopped because",
+         "chunks": [
+          "the",
+          "sample jar",
+          "was",
+          "cracked"
+         ],
+         "tail": ".",
+         "extra": [
+          "were"
+         ],
+         "why": "because 引出试验停止的原因。the sample jar 是单数，用 was cracked。",
+         "point": "clause"
+        },
+        {
+         "stem": "Did the reinforced hinge remain intact?",
+        "lead": "Although the",
+         "chunks": [
+         "hinge",
+          "was reinforced,",
+          "it",
+          "broke"
+         ],
+         "tail": ".",
+         "extra": [
+          "but"
+         ],
+         "why": "Although 引出让步 the hinge was reinforced。主句 it broke 前不再加 but。",
+         "point": "clause"
+        },
+        {
+         "stem": "When should the diffraction image be saved?",
+         "lead": "Save it when",
+         "chunks": [
+          "the",
+          "last",
+          "exposure",
+          "finishes"
+         ],
+         "tail": ".",
+         "extra": [
+          "will finish"
+         ],
+         "why": "when 引出将来的时间从句，用现在时 finishes，不用 will finish。",
+         "point": "clause"
+        },
+        {
+         "stem": "Can the sealed vessel be moved immediately?",
+         "lead": "Leave it in place until",
+         "chunks": [
+          "the",
+          "internal",
+          "temperature",
+          "falls"
+         ],
+         "tail": ".",
+         "extra": [
+          "will fall"
+         ],
+         "why": "until 说明要等到什么时候才能移动。将来的时间从句用现在时 falls。",
+         "point": "clause"
+        },
+        {
+         "stem": "When should the flow measurement begin?",
+         "lead": "Begin as soon as",
+         "chunks": [
+          "the",
+          "control",
+          "valve",
+          "opens"
+         ],
+         "tail": ".",
+         "extra": [
+          "will open"
+         ],
+         "why": "as soon as 表示阀门一打开就开始。时间从句用现在时 opens。",
+         "point": "clause"
+        },
+        {
+         "stem": "The controller can replace a failed fuse automatically.",
+         "lead": "If the fuse",
+         "chunks": [
+          "fails,",
+          "the controller",
+          "will",
+          "replace it"
+         ],
+         "tail": ".",
+         "extra": [
+          "failing,"
+         ],
+         "why": "真实的未来条件，从句用 fails，主句用 will replace it。failing 不能单独作从句的谓语。",
+         "point": "conditional"
+        },
+        {
+         "stem": "There is no vacuum chamber, so the experiment cannot proceed.",
+         "lead": "If we",
+         "chunks": [
+          "had",
+          "a vacuum chamber,",
+          "we could",
+          "proceed with the experiment"
+         ],
+         "tail": ".",
+         "extra": [
+          "has"
+         ],
+         "why": "题干说没有真空室，条件与现状相反，用 had，与 could proceed 配合。主语 we 不用 has。",
+         "point": "conditional"
+        },
+        {
+         "stem": "The microscope is not powerful enough to reveal the detail.",
+         "lead": "If the microscope",
+         "chunks": [
+          "were stronger,",
+          "we",
+          "could",
+          "see the detail"
+         ],
+         "tail": ".",
+         "extra": [
+          "be stronger,"
+         ],
+         "why": "were stronger 是非真实条件，主句用 could see。be stronger 不能单独作从句的谓语。",
+         "point": "conditional"
+        },
+        {
+         "stem": "The vibration was not detected, and the test was not stopped.",
+         "lead": "If we had",
+         "chunks": [
+          "detected",
+          "the vibration,",
+          "we would have",
+          "stopped the test"
+         ],
+         "tail": ".",
+         "extra": [
+          "detect"
+         ],
+         "why": "过去未发生的条件用 had detected，未实现的结果用 would have stopped。",
+         "point": "conditional"
+        },
+        {
+         "stem": "The humidity data were not saved, so the analysis was delayed.",
+         "lead": "If the data had",
+         "chunks": [
+          "been saved,",
+          "the analysis",
+          "would not have",
+          "been delayed"
+         ],
+         "tail": ".",
+         "extra": [
+          "were saved,"
+         ],
+         "why": "had been saved 和 would not have been delayed 构成过去的非真实条件。had were saved 不成立。",
+         "point": "conditional"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

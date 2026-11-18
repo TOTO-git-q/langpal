@@ -1,0 +1,388 @@
+{
+ "id": "reading-matching-science",
+ "title": "科学专题长文",
+ "goal": "辨认科学专题的段落功能并定位研究与应用。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "structure",
+   "label": "识别科学专题各段的功能"
+  },
+  {
+   "id": "locate",
+   "label": "区分概念解释与研究例证所在段"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "阅读课程内容与材料形式"
+  }
+ ],
+ "cards": [
+  {
+   "id": "structure",
+   "type": "table",
+   "title": "结构",
+   "cols": [
+    "功能",
+    "内容",
+    "例"
+   ],
+   "rows": [
+    [
+     "现象引入",
+     "描述需要解释的现象",
+     "Some surfaces stay cooler in sunlight."
+    ],
+    [
+     "机制解释",
+     "说明现象产生的过程",
+     "A pale surface reflects more sunlight."
+    ],
+    [
+     "研究例证",
+     "交代观察方法与结果",
+     "Researchers compared two roof surfaces."
+    ],
+    [
+     "局限评价",
+     "限定证据的适用范围",
+     "The comparison covered one season."
+    ],
+    [
+     "应用",
+     "说明机制或发现的用途",
+     "A reflective coating may reduce heating."
+    ]
+   ]
+  },
+  {
+   "id": "expressions",
+   "type": "table",
+   "title": "常用表达",
+   "cols": [
+    "功能",
+    "表达",
+    "含义"
+   ],
+   "rows": [
+    [
+     "定义",
+     "is defined as",
+     "给出概念的定义"
+    ],
+    [
+     "机制",
+     "results from",
+     "指出现象的来源"
+    ],
+    [
+     "证据",
+     "the measurements showed",
+     "说明测量结果"
+    ],
+    [
+     "局限",
+     "the study was limited to",
+     "限定研究范围"
+    ],
+    [
+     "应用",
+     "can be used to",
+     "说明可能的用途"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "[A] A permeable surface allows water to pass through it into the material below. Ordinary solid paving can direct more rain toward drains.\n[B] In a small courtyard experiment, researchers compared water collected below permeable paving with water below solid paving. More water entered the ground beneath the permeable surface.\n[C] The result came from one courtyard. Different soils and rainfall patterns would need separate study.\n[D] A designer can use permeable paving where the ground beneath it can receive water.\n\nStatement: A comparison measured water passing through two kinds of paving."
+    },
+    {
+     "p": "第一段定义 permeable surface，第二段报告比较的方法和结果。陈述中的 comparison 和 water passing through 对应第二段的实验，答案是第二段。"
+    },
+    {
+     "p": "第三段说明证据的适用范围，第四段讲应用。同一个术语会出现在几段里，匹配时核对陈述问的是哪一种段落功能。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "混淆",
+    "例",
+    "核对依据"
+   ],
+   "rows": [
+    [
+     "定义与实验",
+     "allows water to pass 与 compared water",
+     "前者定义，后者报告比较"
+    ],
+    [
+     "结果与局限",
+     "more water entered 与 one courtyard",
+     "分别核对测量结果与范围"
+    ],
+    [
+     "应用与证据",
+     "designer can use 与 researchers compared",
+     "区分用途与研究行为"
+    ],
+    [
+     "可能与确定",
+     "may reduce 改为 always reduces",
+     "核对判断程度"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "structure",
+    "locate"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "[A] Reflection is the return of light from a surface. [B] A team measured light reflected by two painted panels.",
+     "items": [
+      {
+       "stem": "Which paragraph defines reflection?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Both paragraphs",
+        "Neither paragraph"
+       ],
+       "answer": 0,
+       "why": "第一段的 Reflection is the return of light 给出定义。",
+       "point": "structure"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "[A] A team compared two painted panels outdoors. [B] The comparison lasted only one afternoon.",
+     "items": [
+      {
+       "stem": "Which paragraph identifies a limit of the comparison?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Both paragraphs",
+        "Neither paragraph"
+       ],
+       "answer": 1,
+       "why": "第二段的 lasted only one afternoon 限定研究时长。",
+       "point": "structure"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "[A] Dark surfaces absorb some light. [B] A researcher measured the temperature of dark fabric in sunlight.",
+     "items": [
+      {
+       "stem": "Which paragraph reports a measurement?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Both paragraphs",
+        "Neither paragraph"
+       ],
+       "answer": 1,
+       "why": "第二段的 measured the temperature 报告测量行为。",
+       "point": "locate"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "[A] Evaporation changes liquid water into water vapor. [B] A cooling system can use evaporation to remove heat.",
+     "items": [
+      {
+       "stem": "Which paragraph describes a use of evaporation?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Both paragraphs",
+        "Neither paragraph"
+       ],
+       "answer": 1,
+       "why": "第二段的 cooling system can use evaporation 说明用途。",
+       "point": "locate"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "structure",
+    "locate"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "[A] Insulation slows the transfer of heat between spaces at different temperatures.\n\n[B] In a classroom demonstration, students wrapped one container in insulation and left another uncovered. Both initially held water at the same temperature. The wrapped container cooled more slowly.\n\n[C] The demonstration used containers of one size. Its results do not specify the effect of every insulation material.\n\n[D] Insulation is used in buildings to reduce heat transfer through walls.",
+     "items": [
+      {
+       "stem": "Which paragraph reports a comparison involving containers?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Paragraph C",
+        "Paragraph D"
+       ],
+       "answer": 1,
+       "why": "第二段比较 wrapped container 与 uncovered container 的冷却。",
+       "point": "locate"
+      },
+      {
+       "stem": "Which paragraph limits the interpretation of the demonstration?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Paragraph C",
+        "Paragraph D"
+       ],
+       "answer": 2,
+       "why": "第三段的 one size 限定了实验对象。",
+       "point": "structure"
+      },
+      {
+       "stem": "Which paragraph describes an application in buildings?",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Paragraph C",
+        "Paragraph D"
+       ],
+       "answer": 3,
+       "why": "第四段说明 insulation 用于减少墙体热传递。",
+       "point": "locate"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 8,
+   "pass": 0.8,
+   "points": [
+    "structure",
+    "locate"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "[A] Some materials allow heat to move through them more readily than others. A metal spoon placed in a hot drink may become warm at the handle, even though only the other end is in the liquid. Heat passes through the material from the warmer region toward the cooler region. This process, called conduction, can occur in solids without the whole object moving from one place to another. The rate depends on the material and on the conditions under which heat is transferred.\n\n[B] In a classroom investigation, students placed spoons made of different materials in warm water. They measured the temperature near each handle at intervals, keeping the amount and initial temperature of the water the same. The metal handle warmed faster than the wooden handle in their comparison. The students recorded their readings in a table rather than relying on a single observation. The investigation provided an example of different rates of heat transfer under the conditions they selected.\n\n[C] The comparison used spoons of particular shapes and sizes. Their dimensions, as well as the materials, could affect the observations. To examine the role of material more closely, another investigation could use samples with matching dimensions and repeat measurements. The classroom result is therefore evidence about the tested objects, rather than a measurement that directly specifies the rate of transfer for every object made from those materials.\n\n[D] Knowledge of heat transfer is useful when designing the handle of a cooking utensil. A material that transfers heat slowly can help keep a handle cooler than a metal cooking surface. The final temperature also depends on the handle's shape, position and exposure to heat. Designers must consider these features together with strength and cleaning requirements. A material's behavior in a single classroom comparison supplies only one part of the information needed for a practical design.",
+       "items": [
+        {
+         "stem": "Which paragraph defines heat conduction?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D"
+         ],
+         "answer": 0,
+         "why": "第一段的 Heat passes through the material 和 called conduction 给出定义。",
+         "point": "structure"
+        },
+        {
+         "stem": "Which paragraph reports temperature readings from spoons?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D"
+         ],
+         "answer": 1,
+         "why": "第二段的 measured the temperature near each handle 描述具体测量。",
+         "point": "locate"
+        },
+        {
+         "stem": "Which paragraph identifies dimensions as a limitation of the comparison?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D"
+         ],
+         "answer": 2,
+         "why": "第三段指出 spoons of particular shapes and sizes 可能影响观察结果。",
+         "point": "structure"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "[A] Rain falling on a field may soak into the ground or flow over the surface. Infiltration is the movement of water from the surface into soil. Its rate varies with conditions including soil structure, the amount of water already present and the surface cover. A surface that accepts water quickly during one event may behave differently when the soil is already wet. Describing infiltration therefore requires attention to the conditions in which it is observed.\n\n[B] A student team investigated two small plots in a school garden. One plot had a layer of plant material on the soil; the other was left uncovered. The team poured the same amount of water onto each plot and recorded how much remained visible on the surface after a fixed interval. Less water remained on the covered plot. The observation described surface water in that comparison; it did not directly measure the depth reached by the water.\n\n[C] Both plots were in the same garden, but their soil could still differ. The students had not measured compaction or water content before adding water. Those differences provide possible explanations alongside the difference in cover. Further comparisons could include several plots and measurements of initial conditions. Repeating the procedure after rain would also show whether the same pattern occurred when the soil began wetter.\n\n[D] Gardeners sometimes add plant material to soil surfaces for several purposes, including protecting exposed soil. A decision to use a covering depends on local conditions and on the needs of the plants. The school comparison can suggest a question for further observation, but it cannot establish the effect of every kind of covering in every garden. Any practical assessment must consider the amount and type of material as well as the soil underneath. Gardeners can also observe how the surface changes after repeated rainfall.",
+       "items": [
+        {
+         "stem": "Which paragraph reports an experiment comparing covered and uncovered plots?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D"
+         ],
+         "answer": 1,
+         "why": "第二段比较 covered plot 与 uncovered plot，并记录表面剩水。",
+         "point": "locate"
+        },
+        {
+         "stem": "Which paragraph defines the movement of water into soil?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D"
+         ],
+         "answer": 0,
+         "why": "第一段的 Infiltration is the movement of water from the surface into soil 给出定义。",
+         "point": "structure"
+        },
+        {
+         "stem": "Which paragraph discusses a possible practical use of plant material?",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "Paragraph D"
+         ],
+         "answer": 3,
+         "why": "第四段的 gardeners add plant material 提到覆盖土壤的用途。",
+         "point": "locate"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,417 @@
+{
+ "id": "reading-mock",
+ "title": "模拟测试",
+ "goal": "在固定时限内完成补全单词、日常文字和学术短文三类任务。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "ctw",
+   "label": "完成补全单词"
+  },
+  {
+   "id": "daily",
+   "label": "完成日常文字"
+  },
+  {
+   "id": "academic",
+   "label": "完成学术短文"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、计分、自适应"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明和官方样题（挖空规则是对照样题和答案看出来的）"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Reading Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-reading.pdf",
+   "used": "第 1 课：三类题的说明和需要的三项基本功"
+  }
+ ],
+ "cards": [
+  {
+   "id": "instructions",
+   "type": "text",
+   "title": "说明",
+   "body": [
+    {
+     "p": "本套共 50 题：补全单词 3 段 30 空，日常文字 4 段 10 题，学术短文 2 篇 10 题。限时 30 分钟。每空或每道单选题 1 分，答对 35 个为通过。"
+    },
+    {
+     "p": "官方规格中，阅读共 50 题，其中补全单词 30 题，日常文字和学术短文各 5–15 题。两个阶段合计约 27–30 分钟。本套取 30 分钟，后两类各 10 题。"
+    },
+    {
+     "p": "官方考试分两个阶段，后一阶段的难度随前一阶段的成绩变化。本套材料固定，难度不变。通过标准只用于本课程判断是否掌握，与官方分数段无对应关系。"
+    },
+    {
+     "p": "补全单词只填缺少的字母，已给的部分不再写，例如 cat{alog} 填 alog。每段首句完整，之后隔一个词挖一个空，共 10 空。单选题选材料中有依据的那一项。"
+    },
+    {
+     "p": "按页面顺序作答，交卷前核对拼写和题干条件。例如 valid only on weekdays 不适用于周日，学术短文中的 some 不能改写成 all。"
+    }
+   ],
+   "note": "本套的题量分配、30 分钟时限、作答顺序和通过标准由本课程设定，不是官方规定。",
+   "src": "spec 第 3–4 页；overview 第 5–7 页"
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 30,
+   "pass": 0.7,
+   "points": [
+    "ctw",
+    "daily",
+    "academic"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Fill in the missing letters.",
+       "fill": "Glass containers can be recycled into new glass products. Workers so{rt} the gl{ass} by co{lor} and rem{ove} metal li{ds} before t{he} material i{s} crushed in{to} small pie{ces}. These frag{ments} are melted in a furnace and shaped into new containers. Green, brown, and clear glass are kept separate during sorting so that unwanted colors do not enter the final product. The lids are sent to separate metal bins. Removing other materials also helps prevent defects in the new glass.",
+       "tags": [
+        "ctw",
+        "ctw",
+        "ctw",
+        "ctw",
+        "ctw",
+        "ctw",
+        "ctw",
+        "ctw",
+        "ctw",
+        "ctw"
+       ]
+      },
+      {
+       "label": "Fill in the missing letters.",
+       "fill": "A simple library catalog can describe books with three basic pieces of information. These ent{ries} consist o{f} book tit{les}, author na{mes}, and loca{tion} codes th{at} identify t{he} shelf wh{ere} each bo{ok} is ke{pt}. Readers can search by author name when they already know who wrote the book. Subject terms offer another route when the reader wants information about a topic rather than a particular work. A location code can help a reader find a volume even when neighboring books concern different subjects.",
+       "tags": [
+        "ctw",
+        "ctw",
+        "ctw",
+        "ctw",
+        "ctw",
+        "ctw",
+        "ctw",
+        "ctw",
+        "ctw",
+        "ctw"
+       ]
+      },
+      {
+       "label": "Fill in the missing letters.",
+       "fill": "Metal springs can lengthen under tension and then recover their shape. When fo{rce} stretches th{em}, the spr{ings} become lon{ger} and st{ore} energy th{at} can b{e} released wh{en} they ret{urn} to th{eir} original length. This behavior makes springs useful in devices that need to absorb movement and then move back. However, a spring has limits. If it is stretched too far, it may remain permanently changed instead of recovering its previous shape. Designers must therefore select springs suitable for the forces expected during use.",
+       "tags": [
+        "ctw",
+        "ctw",
+        "ctw",
+        "ctw",
+        "ctw",
+        "ctw",
+        "ctw",
+        "ctw",
+        "ctw",
+        "ctw"
+       ]
+      },
+      {
+       "label": "Read the notice.",
+       "look": "notice",
+       "text": "BOARDWALK OBSERVATION DECK\nThe upper deck will be reserved for the coastal bird count on Saturday from 6 a.m. until 10 a.m. During that period, other visitors may use the lower deck. Registered counters should enter through the side gate and collect a numbered recording sheet there. No registration is needed to visit either deck after 10 a.m. The count will proceed in light rain.",
+       "items": [
+        {
+         "stem": "What is the main purpose of the notice?",
+         "options": [
+          "To announce a permanent change to deck access",
+          "To explain temporary access arrangements",
+          "To close both decks until 10 a.m.",
+          "To announce the cancellation of a count"
+         ],
+         "answer": 1,
+         "why": "依据是 The upper deck will be reserved…from 6 a.m. until 10 a.m.。通知说明的是这段时间的临时安排，即第二项。",
+         "point": "daily"
+        },
+        {
+         "stem": "Where should an unregistered visitor go at 8 a.m. on Saturday?",
+         "options": [
+          "To the upper deck for a recording sheet",
+          "To the side gate to join the counters",
+          "To the lower deck during the reserved period",
+          "To either deck without any restriction"
+         ],
+         "answer": 2,
+         "why": "依据是 During that period, other visitors may use the lower deck。8 点仍在上层保留的时段内，即第三项。",
+         "point": "daily"
+        }
+       ]
+      },
+      {
+       "label": "Read the email.",
+       "look": "email",
+       "text": "Subject: Basket workshop materials\n\nDear Participants,\nThe reed bundles for Sunday's workshop have arrived, but the darker variety is shorter than expected. The tutor has adjusted the design so that the supplied reeds will still be sufficient. There is no need to purchase additional material. Please reply by Friday only if using the darker reeds is a problem. Otherwise, a bundle will be prepared under each participant's name. The start time remains unchanged.\n\nRegards,\nWorkshop Office",
+       "items": [
+        {
+         "stem": "Why was the email sent?",
+         "options": [
+          "To explain a material change and its effect",
+          "To postpone the workshop until Friday",
+          "To request payment for extra supplies",
+          "To announce a change to the start time"
+         ],
+         "answer": 0,
+         "why": "依据是 darker variety is shorter than expected 和 adjusted the design。邮件说明材料有变化，以及相应的调整，即第一项。",
+         "point": "daily"
+        },
+        {
+         "stem": "Who should reply to the office?",
+         "options": [
+          "Everyone who has registered for Sunday",
+          "Anyone who wants to keep the original start time",
+          "Only the tutor who changed the basket design",
+          "Participants unable to use the darker material"
+         ],
+         "answer": 3,
+         "why": "依据是 reply by Friday only if using the darker reeds is a problem，第四项保留了回复的条件。第一项漏掉了 only if。",
+         "point": "daily"
+        },
+        {
+         "stem": "What does the email imply about the adjusted design?",
+         "options": [
+          "It requires participants to bring extra reeds.",
+          "It can be completed with the material provided.",
+          "It will take place at a different starting time.",
+          "It has already been completed by every participant."
+         ],
+         "answer": 1,
+         "why": "依据是 the supplied reeds will still be sufficient。材料够用，调整后的设计用现有材料就能完成，即第二项。",
+         "point": "daily"
+        }
+       ]
+      },
+      {
+       "label": "Read the messages.",
+       "look": "messages",
+       "text": "Asha: Is the folding screen ready for the portrait session?\nBram: The frame is ready, but the fabric has not arrived.\nCeri: I have a plain sheet that could cover it for today.\nAsha: That would do. Can we collect it before noon?\nCeri: Sure. I will leave it with the receptionist.\nBram: Great. We can attach it to the frame here.",
+       "items": [
+        {
+         "stem": "What does Asha mean by “That would do”?",
+         "options": [
+          "Ceri's sheet should replace the fabric for good.",
+          "The fabric delivery must be canceled.",
+          "Ceri's sheet will work as a cover for today.",
+          "The portrait session should be postponed."
+         ],
+         "answer": 2,
+         "why": "依据是 a plain sheet that could cover it for today。That would do 表示这张床单今天可以临时代用，即第三项。第一项把 for today 扩大成了长期。",
+         "point": "daily"
+        },
+        {
+         "stem": "Where will the group obtain the sheet?",
+         "options": [
+          "From the person at reception",
+          "From Bram, who has the frame",
+          "From Ceri in the afternoon",
+          "From the fabric supplier"
+         ],
+         "answer": 0,
+         "why": "依据是 I will leave it with the receptionist，第一项用 the person at reception 改写了 receptionist。",
+         "point": "daily"
+        }
+       ]
+      },
+      {
+       "label": "Read the notice.",
+       "look": "notice",
+       "text": "HARBOR KAYAK RENTAL\nSingle kayak: $18 per hour\nDouble kayak: $28 per hour\nRental desk: 8 a.m.–5 p.m.\nLast departures: 3 p.m.\nAll kayaks must return by 5 p.m.\nWeekday offer: $4 off the total charge for rentals lasting at least two hours. The offer does not apply on weekends. Life jackets are included. A refundable $20 deposit is collected separately and returned when the kayak is returned undamaged.",
+       "items": [
+        {
+         "stem": "What is the latest departure time?",
+         "options": [
+          "Eight in the morning",
+          "Five in the afternoon",
+          "Two in the afternoon",
+          "Three in the afternoon"
+         ],
+         "answer": 3,
+         "why": "依据是 Last departures: 3 p.m.，即第四项。5 p.m. 是还船和服务台关门的时间。",
+         "point": "daily"
+        },
+        {
+         "stem": "What is the rental charge for a single kayak for two hours on a weekday, excluding the deposit?",
+         "options": [
+          "Twenty dollars",
+          "Thirty-two dollars",
+          "Thirty-six dollars",
+          "Fifty-two dollars"
+         ],
+         "answer": 1,
+         "why": "依据是 $18 per hour 和 $4 off the total charge。2 小时租金 $36，减去 $4 为 $32，即第二项；押金不计在内。",
+         "point": "daily"
+        },
+        {
+         "stem": "What must happen for the deposit to be returned?",
+         "options": [
+          "The kayak must be returned by 3 p.m.",
+          "The customer must rent for at least two hours.",
+          "The kayak must be returned without damage.",
+          "The rental must take place on a weekend."
+         ],
+         "answer": 2,
+         "why": "依据是 returned when the kayak is returned undamaged，第三项用 without damage 改写了 undamaged。",
+         "point": "daily"
+        }
+       ]
+      },
+      {
+       "label": "Read the passage.",
+       "look": "passage",
+       "text": "Allowing Bridges to Move\n\nA bridge may appear completely rigid, yet its materials change size as their temperature changes. Steel generally expands when heated and contracts when cooled. The movement in a short piece is small, but across a long bridge it can become large enough to matter. Engineers therefore need to consider not only the weight that a bridge carries but also the movement of its parts.\n\nOne solution is an expansion joint, a controlled gap between sections of the structure. The gap allows neighboring sections to move without pressing directly against each other. If movement were completely prevented, temperature changes could create stresses within the materials. Special supports can also allow part of the bridge to slide slightly while continuing to carry its weight.\n\nThese moving parts require attention. Dirt can accumulate in a joint and reduce the space available for movement. Water may also enter places that need protection. Regular inspection and cleaning help the joint continue to perform its intended function. The presence of a gap is therefore not necessarily evidence of damage. In the right location, it is an intentional feature that helps the bridge respond to changing conditions.",
+       "items": [
+        {
+         "stem": "What is the main purpose of the passage?",
+         "options": [
+          "To explain how steel bridges carry heavy weight",
+          "To argue that all gaps indicate structural failure",
+          "To show that cleaning joints prevents all damage",
+          "To explain why bridges are built to allow movement"
+         ],
+         "answer": 3,
+         "why": "依据是 Engineers therefore need to consider…the movement of its parts。后文讲接缝、支座和维护，都围绕让桥能够移动，即第四项。",
+         "point": "academic"
+        },
+        {
+         "stem": "According to the passage, why does the length of a bridge matter?",
+         "options": [
+          "A small change in size can become important over a long structure.",
+          "Long bridges are always exposed to higher temperatures than short ones.",
+          "Short bridges do not carry enough weight to require special materials.",
+          "A long bridge prevents its steel from contracting during cold weather."
+         ],
+         "answer": 0,
+         "why": "依据是 The movement in a short piece is small, but across a long bridge it can become large enough to matter，即第一项。",
+         "point": "academic"
+        },
+        {
+         "stem": "The word “contracts” in the passage is closest in meaning to",
+         "options": [
+          "hardens",
+          "shrinks",
+          "weakens",
+          "shakes"
+         ],
+         "answer": 1,
+         "why": "依据是 expands when heated and contracts when cooled。contracts 与 expands 相对，意思是收缩，即第二项。",
+         "point": "academic"
+        },
+        {
+         "stem": "Why does the author mention dirt accumulating in a joint?",
+         "options": [
+          "To explain how dirt protects the joint from water",
+          "To show that bridge sections cannot move after construction",
+          "To illustrate why movement features need maintenance",
+          "To argue that cleaning is more important than initial design"
+         ],
+         "answer": 2,
+         "why": "依据是 reduce the space available for movement 和 Regular inspection and cleaning。积尘的例子说明接缝需要维护，即第三项。",
+         "point": "academic"
+        },
+        {
+         "stem": "What can be inferred about a gap observed in a bridge?",
+         "options": [
+          "It should be treated as evidence of damage in every case.",
+          "It must have been caused by steel contracting in cold weather.",
+          "It shows that movement in the bridge was completely prevented.",
+          "Its purpose should be considered before calling it damage."
+         ],
+         "answer": 3,
+         "why": "依据是 not necessarily evidence of damage 和 an intentional feature。缺口可能是有意的设计，判断前要先考虑用途，即第四项。",
+         "point": "academic"
+        }
+       ]
+      },
+      {
+       "label": "Read the passage.",
+       "look": "passage",
+       "text": "What Discarded Objects Reveal\n\nWritten records often describe public events, official decisions, or the possessions of wealthy people. Everyday activities may receive much less attention. Archaeologists can investigate some of these activities by examining objects that people threw away. A broken cooking pot or a group of animal bones may preserve evidence that no written account mentions.\n\nDiscarded material is useful partly because it was often removed from daily use without being carefully selected for future visitors. Food remains can suggest what was eaten, while worn tools can indicate repeated tasks. However, the evidence is incomplete. Some materials decay quickly, and valuable objects may have been repaired or reused instead of discarded. A rubbish deposit therefore cannot be treated as a complete list of everything a household owned.\n\nLocation also matters. Waste found behind one house may have been brought there from several neighboring buildings. Researchers compare the position of objects, the layers containing them, and other evidence from the site before linking a deposit to particular residents. Discarded objects are most informative when their context is preserved. Removing an object without recording where it lay can destroy relationships that would otherwise help explain its use.",
+       "items": [
+        {
+         "stem": "How does the first paragraph introduce the topic?",
+         "options": [
+          "By showing why written records may need to be supplemented",
+          "By arguing that public events are impossible to investigate",
+          "By describing a cooking pot found with animal bones",
+          "By proving that wealthy people never discarded possessions"
+         ],
+         "answer": 0,
+         "why": "依据是 Everyday activities may receive much less attention 和 evidence that no written account mentions。首段说明文字记录有缺口，需要实物补充，即第一项。",
+         "point": "academic"
+        },
+        {
+         "stem": "Why might a valuable object be absent from a rubbish deposit?",
+         "options": [
+          "It could have decayed faster than every other material.",
+          "It could have been kept in use rather than thrown away.",
+          "It could have been carried to a neighboring building.",
+          "It could have been carefully selected for future visitors."
+         ],
+         "answer": 1,
+         "why": "依据是 valuable objects may have been repaired or reused instead of discarded，第二项用 kept in use 概括了 repaired or reused。",
+         "point": "academic"
+        },
+        {
+         "stem": "The word “context” in the passage refers mainly to",
+         "options": [
+          "The household assumed to have owned an object",
+          "The written records that mention an object",
+          "The location and relationships surrounding an object",
+          "The material used to replace a missing part of an object"
+         ],
+         "answer": 2,
+         "why": "依据是 the position of objects, the layers containing them, and other evidence from the site。context 指物品所在的位置和它与周围证据的关系，即第三项。",
+         "point": "academic"
+        },
+        {
+         "stem": "What can be inferred about waste found behind a house?",
+         "options": [
+          "It always represents the possessions of the wealthiest residents.",
+          "It proves that the household owned no reusable objects.",
+          "It must belong to the residents of that house.",
+          "It may include material from people living in other buildings."
+         ],
+         "answer": 3,
+         "why": "依据是 may have been brought there from several neighboring buildings。屋后的垃圾可能来自几户人家，即第四项。",
+         "point": "academic"
+        },
+        {
+         "stem": "How does the final paragraph relate to the second paragraph?",
+         "options": [
+          "It adds a spatial limitation to other limits on interpreting waste.",
+          "It rejects the claim that discarded objects can reveal daily life.",
+          "It replaces the study of objects with the study of official records.",
+          "It gives a complete inventory of the tools mentioned earlier."
+         ],
+         "answer": 0,
+         "why": "第二段讲 decay 和 reused 使证据不全。第三段以 Location also matters 再加一条地点上的限制，即第一项。",
+         "point": "academic"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

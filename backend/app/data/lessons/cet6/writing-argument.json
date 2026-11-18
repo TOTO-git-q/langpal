@@ -1,0 +1,436 @@
+{
+ "id": "writing-argument",
+ "title": "观点论证型短文",
+ "goal": "识别观点短文各段的功能；判断段落是否支持同一立场。",
+ "skill": "写作",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "structure",
+   "label": "识别观点短文各段的功能"
+  },
+  {
+   "id": "consistent",
+   "label": "判断段落是否支持同一立场"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语六级（CET-6）：课表",
+   "url": "docs/syllabi/cet6.md",
+   "used": "写作部分：观点论证型短文；内容范围、知识点与客观题规格。"
+  }
+ ],
+ "cards": [
+  {
+   "id": "structure",
+   "type": "table",
+   "title": "结构",
+   "cols": [
+    "部分",
+    "功能",
+    "例"
+   ],
+   "rows": [
+    [
+     "提出争议",
+     "说明要判断的问题。背景介绍不是立场。",
+     "The newspaper is considering whether routine editorials should carry their authors' names."
+    ],
+    [
+     "明确立场",
+     "表明支持、反对或有条件的支持，对象与争议一致。",
+     "Routine editorials should identify their authors so that public arguments have clear responsibility."
+    ],
+    [
+     "分段论证",
+     "每段用一个不同的理由支持立场，例子说明理由怎样起作用。",
+     "A signature allows a reader to direct a factual correction to the person responsible."
+    ],
+    [
+     "回应主题",
+     "结尾回到开头的争议，保留前文的条件。",
+     "Signed editorials are appropriate for routine arguments, while sensitive reports may need protection."
+    ],
+    [
+     "单边论证",
+     "先表态，再逐段给出支持理由，结尾说明适用范围。",
+     "Position → responsibility → distinction from the paper's view → qualified conclusion."
+    ],
+    [
+     "双方比较",
+     "用同一标准比较双方，最后给出明确判断。",
+     "Benefit of guidance → restriction of compulsory talks → optional introductions."
+    ]
+   ]
+  },
+  {
+   "id": "expressions",
+   "type": "table",
+   "title": "常用表达",
+   "cols": [
+    "功能",
+    "表达与例句",
+    "用法"
+   ],
+   "rows": [
+    [
+     "提出争议",
+     "The issue is whether every exhibition should begin with a compulsory guided introduction.",
+     "whether 引出有待判断的问题。"
+    ],
+    [
+     "表明立场",
+     "I support signed editorials because a name gives readers an identifiable person to contact.",
+     "because 后面给出具体理由。"
+    ],
+    [
+     "引出论据",
+     "For example, a reader can ask the named author to correct an inaccurate cost estimate.",
+     "例子说明前一句的理由怎样起作用。"
+    ],
+    [
+     "讨论另一方",
+     "However, requiring every visitor to attend a talk may restrict access for people with limited time.",
+     "说明对方关注的实际问题，讨论对象不变。"
+    ],
+    [
+     "回应争议",
+     "The center should offer introductions while allowing visitors to choose whether to attend them.",
+     "保留可选与强制的区别。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A student newspaper must decide whether to sign routine editorials with individual names. I support naming their authors because an identifiable writer can take responsibility for a public judgment.\n\nA name gives readers a clear point of contact when an argument needs clarification. If an editorial overlooks an activity's actual cost, the person affected can direct the correction to its author. Responsibility is therefore connected to a practical opportunity to improve the discussion, rather than merely to praise or blame.\n\nNaming authors can also distinguish an individual's argument from the newspaper's general position. Readers may otherwise assume that every contributor agrees with a statement. A clear signature makes disagreement within the publication easier to understand without requiring the newspaper to suppress different views.\n\nThese reasons support signed routine editorials, although sensitive personal reports may need different arrangements. The recommendation concerns responsibility for ordinary public arguments; it does not require every contribution to reveal private information."
+    },
+    {
+     "p": "第一篇开头直接表态支持具名社论。中间两段各给一个理由：读者有明确的联系人，个人观点和报社立场能分开。结尾保留 routine 的范围，并说明私人信息不必公开。"
+    },
+    {
+     "box": "A community art center is considering whether every exhibition should have a guided introduction. Supporters value the chance to explain unfamiliar work, while opponents worry that a required talk would restrict independent viewing. Both concerns involve access to the artwork, but they favor different arrangements.\n\nA short introduction can clarify a technique that visitors would otherwise misunderstand. Someone unfamiliar with printmaking, for example, may benefit from hearing how several impressions can come from the same prepared surface. This explanation can make later observation more informed.\n\nHowever, visitors arrive with different interests and amounts of time. Requiring everyone to wait for a scheduled talk could prevent a brief visit altogether. A printed explanation and an optional conversation would preserve access to information without making one route compulsory.\n\nThe center should therefore offer guided introductions while allowing visitors to begin independently. This arrangement retains the benefit identified by supporters and answers the restriction raised by opponents. The position is in favor of available guidance, rather than mandatory participation."
+    },
+    {
+     "p": "第二篇先摆出双方的关切，再分别讨论讲解的好处和强制参加的问题。结尾提供讲解，同时允许观众自行参观，两方的关切都得到回应。承认讲解有用，不等于支持强制参加。"
+    },
+    {
+     "p": "判断段落是否一致，要看评价的对象和限定条件。第一篇加上隐私例外，是缩小范围，立场不变。改成所有社论都必须匿名，就否定了中心论点。"
+    }
+   ]
+  },
+  {
+   "id": "errors",
+   "type": "table",
+   "title": "常见错误",
+   "cols": [
+    "类型",
+    "偏离表达",
+    "对应判断"
+   ],
+   "rows": [
+    [
+     "背景代替立场",
+     "Editorials appear in the newspaper every week.",
+     "只说明出版频率，没有回答是否署名。"
+    ],
+    [
+     "例子没有作用",
+     "The named author writes in a large room.",
+     "写作地点与署名的作用无关。"
+    ],
+    [
+     "中途改换立场",
+     "Routine editorials should never identify their writers.",
+     "与支持具名社论的开头相反。"
+    ],
+    [
+     "把让步当结论",
+     "Guidance is useful, so attendance must always be compulsory.",
+     "有用不等于必须参加。"
+    ],
+    [
+     "删除限定",
+     "Every piece of private information must be published with a name.",
+     "超出了 routine editorials 的范围。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "structure",
+    "consistent"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "Position: A neighborhood newsletter should publish corrections next to the relevant article. Support: Readers can see the amendment while viewing the claim that it changes.",
+     "items": [
+      {
+       "stem": "What role does the support sentence perform?",
+       "options": [
+        "It repeats the position without giving a reason for the placement.",
+        "It explains how the proposed placement makes a correction visible.",
+        "It rejects corrections whenever the original article remains available.",
+        "It describes a past article without connecting it to the proposal."
+       ],
+       "answer": 1,
+       "why": "依据是 while viewing the claim that it changes：更正放在原文旁边，读者能对照着看，即第二项。",
+       "point": "structure"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Position: Beginner hiking groups should use routes with clear signs, while experienced groups may choose less marked paths.",
+     "items": [
+      {
+       "stem": "Which conclusion preserves the position?",
+       "options": [
+        "Every hiking group should avoid paths that already have signs.",
+        "Experienced groups should follow marked routes because beginners do.",
+        "Beginners should have clear guidance, without the same rule for experts.",
+        "All less marked paths should be closed to both beginner and experienced groups."
+       ],
+       "answer": 2,
+       "why": "Beginner … while experienced … 把两类人分开处理，第三项保留了这一区分。",
+       "point": "consistent"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Draft plan: compare the convenience of automatic appointment reminders with concerns about unwanted messages; conclude that reminders should be optional.",
+     "items": [
+      {
+       "stem": "Which organization does the plan use?",
+       "options": [
+        "A comparison of competing considerations followed by a qualified decision.",
+        "A single supporting reason followed by a history of appointment reminders.",
+        "A description of unwanted messages without a position on reminders.",
+        "A rejection of reminders before considering any possible benefit."
+       ],
+       "answer": 0,
+       "why": "compare … with … 之后 conclude … optional，是比较双方后表态，即第一项。",
+       "point": "structure"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Position: A community choir should retain auditions for solo roles but keep group singing open to all members.",
+     "items": [
+      {
+       "stem": "Which sentence would change the stated position?",
+       "options": [
+        "Auditions can help match a singer's range to the demands of a solo.",
+        "Open group singing allows members to participate without performing alone.",
+        "The distinction between solo and group roles should remain clear.",
+        "Every member should pass an audition before joining group singing."
+       ],
+       "answer": 3,
+       "why": "立场是 keep group singing open to all members。第四项要求所有成员先通过 audition，与之冲突。",
+       "point": "consistent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "structure",
+    "consistent"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A student society is considering public minutes for routine meetings. The writer supports publishing decisions but removing personal details. One body paragraph explains how a clear record helps absent members understand what was agreed. Another explains why a record should distinguish a confirmed decision from an unfinished proposal. Both reasons support useful transparency. A final paragraph should retain the privacy limit rather than expand the recommendation to every statement made during the meeting.",
+     "items": [
+      {
+       "stem": "What do the two body paragraphs have in common?",
+       "options": [
+        "Both describe why absent members should lose access to decisions.",
+        "Both support publishing useful records through different reasons.",
+        "Both argue that unfinished proposals are already confirmed decisions.",
+        "Both require personal details to appear beside every recorded proposal."
+       ],
+       "answer": 1,
+       "why": "understand what was agreed 和 distinguish a confirmed decision 是两个不同的理由，都支持公开会议记录，即第二项。",
+       "point": "structure"
+      },
+      {
+       "stem": "Complete a conclusion consistent with the stated position.",
+       "lead": "The society should",
+       "chunks": [
+        "publish routine decisions",
+        "while removing",
+        "personal details from",
+        "the public record"
+       ],
+       "tail": "so that absent members can understand agreed actions without requiring complete disclosure of every discussion.",
+       "extra": [
+        "publishing routine decisions"
+       ],
+       "why": "publish … while removing 同时保留公开决定和删除个人信息两个条件。should 后接原形，publishing 不能用。",
+       "point": "consistent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "structure",
+    "consistent"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A university is considering whether to display students' draft project plans in a shared online space. I support voluntary sharing with a clear option to keep sensitive material private. The aim should be useful feedback rather than universal visibility.\n\nSharing can reveal weaknesses before a project becomes difficult to change. A student planning a local exhibition might overlook access for visitors carrying large bags. A classmate who notices this problem can suggest a different entrance arrangement while the plan is still flexible. The benefit comes from an additional perspective at a useful stage.\n\nA voluntary system also allows students to explain what kind of feedback they need. A request about the entrance is more focused than a general invitation to judge the entire project. However, drafts containing personal information should not be made public simply because other drafts are shared.\n\nThe university should provide a place for willing students to exchange focused comments and should respect decisions to withhold sensitive details. This preserves the original purpose without turning feedback into compulsory disclosure.",
+       "items": [
+        {
+         "stem": "What is the main function of the exhibition example?",
+         "options": [
+          "To illustrate how early feedback can reveal a practical weakness.",
+          "To show that every project should be replaced with a local exhibition.",
+          "To establish that entrance design is the university's only concern.",
+          "To explain why classmates should see all sensitive personal details."
+         ],
+         "answer": 0,
+         "why": "依据是 suggest a different entrance arrangement while the plan is still flexible。例子说明早期反馈能发现实际问题，即第一项。",
+         "point": "structure"
+        },
+        {
+         "stem": "Which conclusion preserves the writer's position?",
+         "options": [
+          "All project drafts should become visible regardless of their contents.",
+          "Sharing should stay optional, with sensitive details protected.",
+          "Only projects without any need for comments should be shared.",
+          "Students should withhold every draft to prevent focused comments."
+         ],
+         "answer": 1,
+         "why": "依据是 support voluntary sharing with a clear option to keep sensitive material private。第二项保留了自愿和保护隐私两点。",
+         "point": "consistent"
+        },
+        {
+         "stem": "State the role of the exhibition example.",
+         "lead": "The exhibition example",
+         "chunks": [
+          "illustrates the value",
+          "of receiving comments",
+          "before a project",
+          "becomes difficult"
+         ],
+         "tail": "to revise, rather than introducing a separate argument that all students should organize public exhibitions.",
+         "extra": [
+          "illustrating the value"
+         ],
+         "why": "illustrates 说明例子的作用，before a project becomes difficult 指出早期反馈的价值。例子本身不是全文的要求。",
+         "point": "structure"
+        },
+        {
+         "stem": "State the policy supported throughout the text.",
+         "lead": "The university should",
+         "chunks": [
+          "allow students to",
+          "share draft plans",
+          "without requiring",
+          "the disclosure of"
+         ],
+         "tail": "sensitive information, preserving voluntary participation as a condition of the proposed feedback system.",
+         "extra": [
+          "allowing students to"
+         ],
+         "why": "allow … without requiring 既保留分享的机会，也保护敏感信息，自愿不变成强制。",
+         "point": "consistent"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A neighborhood council is debating whether to reserve a small hall exclusively for quiet activities. Supporters want a dependable place for reading and study. Opponents point out that the same hall is also used for discussions and rehearsals, which cannot always remain silent. The decision concerns the allocation of a shared room.\n\nA quiet-only rule would make conditions predictable for readers. Someone arriving to prepare a report would not have to discover that a rehearsal had begun beside the reading tables. This predictability is a real benefit, especially when no alternative quiet room is available nearby.\n\nYet exclusive use would remove a meeting place from groups that already depend on it. A schedule reserving designated periods for quiet activities could protect readers without excluding every other use. Clear notices would be necessary so that the arrangement remained predictable.\n\nI therefore favor scheduled quiet periods over permanent exclusion of other activities. The proposal preserves a dependable setting for study while recognizing the room's existing community functions.",
+       "items": [
+        {
+         "stem": "How does the final paragraph relate to the body?",
+         "options": [
+          "It repeats only the complaint about rehearsals without judging the proposal.",
+          "It rejects predictability as a relevant consideration for the hall.",
+          "It combines reliable quiet access with protection for the hall's other uses.",
+          "It introduces a new argument about building a second neighborhood hall."
+         ],
+         "answer": 2,
+         "why": "依据是 preserves a dependable setting … while recognizing … existing community functions。结尾同时照顾读者和其他用途，即第三项。",
+         "point": "structure"
+        },
+        {
+         "stem": "Which addition would contradict the final position?",
+         "options": [
+          "Notices should identify the periods reserved for quiet activities.",
+          "Readers benefit when the timing of quiet access is dependable.",
+          "Discussion groups should retain access outside reserved quiet periods.",
+          "The hall should permanently exclude every activity that involves discussion."
+         ],
+         "answer": 3,
+         "why": "结论是 scheduled quiet periods over permanent exclusion。第四项要求永久排除讨论活动，与之相反。",
+         "point": "consistent"
+        },
+        {
+         "stem": "Express the organization of the argument.",
+         "lead": "The argument reaches",
+         "chunks": [
+          "a qualified decision",
+          "after comparing",
+          "the need for quiet",
+          "with the hall's"
+         ],
+         "tail": "existing functions as a place for community discussions and rehearsals that cannot always remain silent.",
+         "extra": [
+          "compared"
+         ],
+         "why": "after comparing … with … 概括了比较的结构，qualified decision 是比较之后的判断。",
+         "point": "structure"
+        },
+        {
+         "stem": "Preserve the writer's final recommendation.",
+         "lead": "The council should",
+         "chunks": [
+          "reserve designated periods",
+          "for quiet activities",
+          "rather than permanently exclude",
+          "the other uses"
+         ],
+         "tail": "on which local groups already depend when they meet or rehearse in the shared hall.",
+         "extra": [
+          "reserving designated periods"
+         ],
+         "why": "reserve … rather than permanently exclude 保留了限时安静、不永久排除的立场。should 后接原形，reserving 不能用。",
+         "point": "consistent"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

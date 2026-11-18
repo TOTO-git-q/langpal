@@ -1,0 +1,412 @@
+{
+ "id": "reading-passage-inference",
+ "title": "推理判断题",
+ "goal": "根据原文证据作出范围适当的推断。",
+ "skill": "阅读",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "evidence",
+   "label": "为推断找出原文证据"
+  },
+  {
+   "id": "limit",
+   "label": "排除超出证据范围的结论"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语（新课标卷）：课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "推理判断题的教学内容和知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "推理判断题要求根据原文信息得出结论。题干常用 What can be inferred? 或 What does this suggest?。结论必须在原文中找得到依据。"
+    },
+    {
+     "p": "例：The door was locked, so Mei used another entrance. 可以推断 Mei 没有从这扇门进去。谁锁的门，这句话没有交代。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定推断对象",
+     "d": "读题干，确定问的是哪个人物或事件。What can be inferred about Mei? 推断的对象是 Mei。"
+    },
+    {
+     "t": "2　寻找相关证据",
+     "d": "找出这个对象的行动、结果和前后变化。locked 和 another entrance 合起来，说明她换了入口。"
+    },
+    {
+     "t": "3　检查推断范围",
+     "d": "核对 some、only、may 等限定词。some visitors 指一部分访客，不是全部。"
+    },
+    {
+     "t": "4　比较结论",
+     "d": "选出证据能够支持的结论。改变了因果顺序、数量范围或人物关系的选项，可直接排除。"
+    }
+   ]
+  },
+  {
+   "id": "clues",
+   "type": "table",
+   "title": "推断的证据",
+   "cols": [
+    "依据",
+    "原文",
+    "可推断的结论"
+   ],
+   "rows": [
+    [
+     "行动与结果",
+     "The door was locked, so Mei used another entrance.",
+     "Mei 未从锁住的门进入。"
+    ],
+    [
+     "行动与结果",
+     "The shelf was too high, so Ian fetched a ladder.",
+     "Ian 需要借助工具够到架子。"
+    ],
+    [
+     "前后对比",
+     "Before the path opened, walkers crossed the field; now they use the path.",
+     "步行者的路线发生了变化。"
+    ],
+    [
+     "前后对比",
+     "The shop once closed at noon; it now stays open until four.",
+     "商店现在下午仍营业。"
+    ],
+    [
+     "限定词",
+     "Only members may reserve the studio.",
+     "非会员无法预订录音室。"
+    ],
+    [
+     "限定词",
+     "Some seedlings survived the frost.",
+     "至少有一部分幼苗存活。"
+    ]
+   ]
+  },
+  {
+   "id": "boundaries",
+   "type": "table",
+   "title": "推断的范围",
+   "cols": [
+    "证据",
+    "可推断",
+    "证据不足的结论"
+   ],
+   "rows": [
+    [
+     "Rain delayed the match.",
+     "比赛因雨推迟。",
+     "比赛使降雨发生。"
+    ],
+    [
+     "Some readers preferred print.",
+     "至少有读者偏好纸本。",
+     "所有读者都偏好纸本。"
+    ],
+    [
+     "Liu borrowed a map.",
+     "Liu 借了地图。",
+     "Liu 从未到过该地。"
+    ],
+    [
+     "The gate was closed at noon.",
+     "中午时门关着。",
+     "门全天关闭。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "At first, the cycling club met beside the station. When building work closed the station square, the club moved its meeting place to the park. The route itself remained the same. Several members arrived at the old meeting place during the first week, so the club added a notice to its website."
+    },
+    {
+     "box": "What can be inferred about the club's first week at the park?\n1. Every member had read the website notice.\n2. Some members had not reached the new meeting place directly.\n3. Building work had changed the cycling route.\n4. The park had closed because of the station work."
+    },
+    {
+     "p": "依据：Several members arrived at the old meeting place during the first week。有几名成员先去了旧地点，没有直接到公园。第二项用 Some members 保留了部分成员这一范围。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "因果倒置",
+     "The club's move closed the square.",
+     "先是施工封了广场，俱乐部才搬走。"
+    ],
+    [
+     "程度过强",
+     "Every member went to the old place.",
+     "several 只是几名成员。"
+    ],
+    [
+     "信息不足",
+     "The members disliked the park.",
+     "原文没有对公园的评价。"
+    ],
+    [
+     "改变事实",
+     "The club changed its route.",
+     "原文说 The route itself remained the same。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "evidence",
+    "limit"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "The printer ran out of paper, so Sam went to the supply cupboard. He returned with a new pack and continued printing the notices.",
+     "items": [
+      {
+       "stem": "What can be inferred about Sam?",
+       "options": [
+        "He obtained paper before continuing.",
+        "He emptied the cupboard of notices.",
+        "He stopped preparing the notices.",
+        "He repaired the printer's cupboard."
+       ],
+       "answer": 0,
+       "why": "依据：He returned with a new pack and continued printing。他先拿到纸，再接着打印。",
+       "point": "evidence"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Previously the bus stopped outside the market. After the roadworks began, it stopped beside the library instead. The market remained open.",
+     "items": [
+      {
+       "stem": "What does the change suggest?",
+       "options": [
+        "The library was closed by the roadworks.",
+        "The bus used a different stopping place.",
+        "The market moved beside the library.",
+        "The roadworks ended before the bus moved."
+       ],
+       "answer": 1,
+       "why": "依据：Previously the bus stopped outside the market，后来 it stopped beside the library instead。前后对比，说明公交换了停靠地点。",
+       "point": "evidence"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Some participants chose a morning session, while others chose an afternoon session. All sessions took place in the same building.",
+     "items": [
+      {
+       "stem": "What can be inferred about the participants?",
+       "options": [
+        "All participants chose the morning.",
+        "None attended in the same building.",
+        "At least one chose the afternoon.",
+        "Every participant attended both sessions."
+       ],
+       "answer": 2,
+       "why": "依据：others chose an afternoon session。至少有人选了下午场。",
+       "point": "limit"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The team postponed the walk because the path was flooded. The team checked the path again the following day.",
+     "items": [
+      {
+       "stem": "What can be inferred from the passage?",
+       "options": [
+        "The walk caused the path to flood.",
+        "The path was dry when the walk was postponed.",
+        "The team completed the walk in the flood.",
+        "The flooded path affected the walk's timing."
+       ],
+       "answer": 3,
+       "why": "依据：The team postponed the walk because the path was flooded。积水使活动推迟，影响的是时间。",
+       "point": "limit"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "evidence",
+    "limit"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A pottery class originally used the upstairs studio. When the stairs were repaired, the class met downstairs for three weeks. The instructor moved the clay and tools before each meeting. After the stairs reopened, most participants returned upstairs, but one group continued downstairs because its members preferred the larger tables. Both rooms remained available to the class.",
+     "items": [
+      {
+       "stem": "What can be inferred about the repair period?",
+       "options": [
+        "The class stopped using clay.",
+        "The class met in a different room.",
+        "The instructor closed both rooms.",
+        "The participants repaired the stairs."
+       ],
+       "answer": 1,
+       "why": "依据：When the stairs were repaired, the class met downstairs for three weeks。维修期间换到楼下上课。",
+       "point": "evidence"
+      },
+      {
+       "stem": "What can be inferred about the return upstairs?",
+       "options": [
+        "Every group returned immediately.",
+        "Neither room remained available.",
+        "At least one group stayed downstairs.",
+        "The larger tables were moved upstairs."
+       ],
+       "answer": 2,
+       "why": "依据：one group continued downstairs because its members preferred the larger tables。至少有一组留在楼下。",
+       "point": "limit"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "evidence",
+    "limit"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A group of residents wanted to make a walking guide to the old canal. They agreed that the guide should describe the route as it exists now while also including information about buildings beside it. The group borrowed several maps from the town archive and compared them with the signs along the canal. Some of the names had changed, so the members wrote down both the older and the current names.\n\nOn their first walk, the group found that a bridge marked on one map was closed for repairs. They returned to the starting point and followed a different path to reach the opposite bank. Later they checked a notice from the local council, which said that the bridge would remain closed until the work was complete. They decided to describe the alternative path in the first edition of the guide.\n\nThe members then divided the writing. Sora described the route from the station to the canal, while Ben wrote about the buildings. Ada checked the distances by walking the route again. When her notes showed that one distance in the draft was too short, the group corrected it before printing. The first copies were placed in the library and at the station.\n\nAfter a month, the library collected comments from readers. Several people asked for larger print, and one reader suggested a map with fewer labels. The group prepared a larger-print version first. It kept the original map in both versions while discussing whether a simplified map would still show the necessary paths. The bridge was still closed when the new copies appeared.",
+       "items": [
+        {
+         "stem": "What can be inferred from the group's first walk?",
+         "options": [
+          "The group needed another way across the canal.",
+          "The group reopened the bridge for readers.",
+          "The group removed all names from the guide.",
+          "The group began its walk on the opposite bank."
+         ],
+         "answer": 0,
+         "why": "依据：a bridge marked on one map was closed for repairs，They ... followed a different path to reach the opposite bank。桥封了，他们只能另找路过河。",
+         "point": "evidence"
+        },
+        {
+         "stem": "What does Ada's work suggest about the draft?",
+         "options": [
+          "Its route began at the library instead of the station.",
+          "At least one distance needed to be corrected.",
+          "Every distance had already been checked on foot.",
+          "Its buildings were described by Ada alone."
+         ],
+         "answer": 1,
+         "why": "依据：one distance in the draft was too short, the group corrected it before printing。草稿里至少有一处距离要改。",
+         "point": "evidence"
+        },
+        {
+         "stem": "What can be inferred about the readers' comments?",
+         "options": [
+          "All readers wanted the map removed.",
+          "No reader requested larger print.",
+          "More than one reader requested larger print.",
+          "Every reader preferred the original print size."
+         ],
+         "answer": 2,
+         "why": "依据：Several people asked for larger print。提这个要求的不止一位读者。",
+         "point": "limit"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A neighbourhood cooking group met once a month in a community kitchen. The members prepared a meal together and wrote down the recipes that worked for them. At first, one person kept the notes in a paper folder. When that person could not attend a meeting, the group had to wait until the next month to add the new recipe to the folder. The members began looking for a way to make the notes available at every meeting.\n\nThey asked the centre's manager whether a copy could be stored in the kitchen. The manager agreed, as long as the folder was kept on a shelf away from the sink. The group made a second copy and placed it there. The original stayed with the member who had kept it before. Each month, a volunteer added the same new recipe to both copies.\n\nDuring one meeting, the group prepared a bean soup. The recipe asked for more water than the pot could hold, so the members divided the ingredients between two pots. They wrote this adjustment beside the recipe. At the next meeting, another member brought a larger pot, and the group was able to use a single pot for the same amount of soup.\n\nThe members also discussed how to share the recipes beyond the kitchen. Some preferred printed pages, while others suggested a digital collection. They had not made a final choice by the end of the meeting. Meanwhile, the two folders continued to be updated, and the manager checked that the kitchen copy remained on its shelf.",
+       "items": [
+        {
+         "stem": "What can be inferred about the original folder?",
+         "options": [
+          "It was left beside the kitchen sink.",
+          "It contained no recipes from meetings.",
+          "It was replaced by a digital collection.",
+          "It was not present at every early meeting."
+         ],
+         "answer": 3,
+         "why": "依据：When that person could not attend a meeting, the group had to wait until the next month。保管人缺席时，文件夹也不在场。",
+         "point": "evidence"
+        },
+        {
+         "stem": "What does the manager's agreement imply?",
+         "options": [
+          "The kitchen copy had to be kept away from the sink.",
+          "The group had to remove the original from its owner.",
+          "The group could keep the folder anywhere in the kitchen.",
+          "The recipes had to be published in a digital collection."
+         ],
+         "answer": 0,
+         "why": "依据：The manager agreed, as long as the folder was kept on a shelf away from the sink。as long as 引出的条件限定了副本的位置。",
+         "point": "limit"
+        },
+        {
+         "stem": "What can be inferred about the larger pot?",
+         "options": [
+          "It was used before the group divided the soup.",
+          "It held the quantity previously split between two pots.",
+          "It made the members use less water in both pots.",
+          "It was supplied by the centre's manager at the first meeting."
+         ],
+         "answer": 1,
+         "why": "依据：another member brought a larger pot, and the group was able to use a single pot for the same amount of soup。大锅装得下之前分成两锅的量。",
+         "point": "evidence"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

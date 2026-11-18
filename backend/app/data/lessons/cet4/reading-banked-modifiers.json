@@ -1,0 +1,373 @@
+{
+ "id": "reading-banked-modifiers",
+ "title": "形容词与副词空位",
+ "goal": "根据修饰对象和语境选择形容词或副词。",
+ "skill": "阅读",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "position",
+   "label": "根据修饰对象判断所需词性"
+  },
+  {
+   "id": "meaning",
+   "label": "区分形式相近但意义不同的修饰词"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "词汇理解教学依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "intro",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "形容词常修饰名词，或位于系动词之后。副词可修饰动词或形容词。A quiet room 中，quiet 修饰 room。The room is quiet 中，quiet 作表语。"
+    },
+    {
+     "p": "词尾是判断词性的线索，选词时还要核对句法和意义。hard 和 hardly 都可作副词，意义却不同。"
+    }
+   ]
+  },
+  {
+   "id": "adjectives",
+   "type": "table",
+   "title": "形容词空位",
+   "cols": [
+    "位置",
+    "例一",
+    "例二"
+   ],
+   "rows": [
+    [
+     "名词前",
+     "The narrow path leads uphill.",
+     "A useful map shows the route."
+    ],
+    [
+     "be 后",
+     "The path is narrow.",
+     "The map is useful."
+    ],
+    [
+     "look 后",
+     "The room looks clean.",
+     "The bread looks fresh."
+    ],
+    [
+     "become 后",
+     "The water became cold.",
+     "The road became quiet."
+    ]
+   ]
+  },
+  {
+   "id": "adverbs",
+   "type": "table",
+   "title": "副词空位",
+   "cols": [
+    "修饰对象",
+    "例一",
+    "例二"
+   ],
+   "rows": [
+    [
+     "动作方式",
+     "The water flows slowly.",
+     "The driver stopped carefully."
+    ],
+    [
+     "动作时间",
+     "The train arrived late.",
+     "She recently joined the group."
+    ],
+    [
+     "形容词程度",
+     "The room is extremely quiet.",
+     "The route is surprisingly short."
+    ],
+    [
+     "动作程度",
+     "The plan changed considerably.",
+     "The price increased greatly."
+    ]
+   ]
+  },
+  {
+   "id": "pairs",
+   "type": "table",
+   "title": "相近形式的意义",
+   "cols": [
+    "词",
+    "意义",
+    "例"
+   ],
+   "rows": [
+    [
+     "hard",
+     "努力地",
+     "She worked hard to finish the report."
+    ],
+    [
+     "hardly",
+     "几乎不",
+     "She hardly worked on the report."
+    ],
+    [
+     "late",
+     "晚，迟",
+     "The bus arrived late yesterday."
+    ],
+    [
+     "lately",
+     "最近",
+     "The bus has been late lately."
+    ]
+   ],
+   "note": "hard 也可作形容词，如 hard work；late 也可作形容词，如 a late bus。"
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Mina studied every morning and completed all the exercises. She never studied after noon. She worked _____.\nhard / hardly / late / lately"
+    },
+    {
+     "p": "每天学习并完成练习说明 Mina 学习努力，hard 符合句意。hardly 表示几乎不，与所述行为相反。"
+    }
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "position",
+    "meaning"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The _____ path leads to the lake.",
+       "options": [
+        "narrow",
+        "narrowly",
+        "width",
+        "breadth"
+       ],
+       "answer": 0,
+       "why": "path 前用形容词 narrow 修饰名词。",
+       "point": "position"
+      },
+      {
+       "stem": "The guide spoke _____ so the group could hear every word.",
+       "options": [
+        "clear",
+        "clearly",
+        "clarity",
+        "cleared"
+       ],
+       "answer": 1,
+       "why": "副词 clearly 修饰动词 spoke。",
+       "point": "position"
+      },
+      {
+       "stem": "The student made almost no effort and _____ studied.",
+       "options": [
+        "hard",
+        "late",
+        "hardly",
+        "lately"
+       ],
+       "answer": 2,
+       "why": "almost no effort 表明几乎没有学习，hardly 符合语境。",
+       "point": "meaning"
+      },
+      {
+       "stem": "In recent weeks, the library has been busy _____.",
+       "options": [
+        "hard",
+        "hardly",
+        "recent",
+        "lately"
+       ],
+       "answer": 3,
+       "why": "In recent weeks 表示最近一段时间，lately 意义相符。",
+       "point": "meaning"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "position",
+    "meaning"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A school bus was delayed by road work yesterday. It arrived after the lesson had begun. The driver explained the delay calmly, and the teacher helped the students enter the room.",
+     "items": [
+      {
+       "stem": "The driver gave a _____ explanation of the delay.",
+       "options": [
+        "calmly",
+        "calm",
+        "calmed",
+        "calmingly"
+       ],
+       "answer": 1,
+       "why": "explanation 前需要形容词；calm 与原文 calmly 的意义对应。",
+       "point": "position"
+      },
+      {
+       "stem": "The bus arrived _____ yesterday.",
+       "options": [
+        "lately",
+        "hard",
+        "late",
+        "hardly"
+       ],
+       "answer": 2,
+       "why": "原文说车在课程开始后到达，late 表示迟到。",
+       "point": "meaning"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "position",
+    "meaning"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "The _____ room has enough space for the meeting.",
+         "options": [
+          "large",
+          "largely",
+          "enlarge",
+          "largeness"
+         ],
+         "answer": 0,
+         "why": "形容词 large 修饰名词 room。",
+         "point": "position"
+        },
+        {
+         "stem": "The children listened _____ to the story.",
+         "options": [
+          "attentive",
+          "attentively",
+          "attention",
+          "attend"
+         ],
+         "answer": 1,
+         "why": "副词 attentively 修饰动词 listened。",
+         "point": "position"
+        },
+        {
+         "stem": "After the repair, the door remained _____.",
+         "options": [
+          "securely",
+          "security",
+          "secure",
+          "securing"
+         ],
+         "answer": 2,
+         "why": "系动词 remained 后用形容词 secure 作表语。",
+         "point": "position"
+        },
+        {
+         "stem": "The route was _____ short: the walk took only five minutes.",
+         "options": [
+          "surprise",
+          "surprised",
+          "surprising",
+          "surprisingly"
+         ],
+         "answer": 3,
+         "why": "副词 surprisingly 修饰形容词 short。",
+         "point": "position"
+        },
+        {
+         "stem": "The team worked _____ every morning for weeks and finished the project. They never worked after noon.",
+         "options": [
+          "hard",
+          "hardly",
+          "lately",
+          "late"
+         ],
+         "answer": 0,
+         "why": "连续工作数周并完成项目表明团队努力工作，hard 符合句意。",
+         "point": "meaning"
+        },
+        {
+         "stem": "The box was almost empty; it _____ contained anything.",
+         "options": [
+          "hard",
+          "hardly",
+          "late",
+          "lately"
+         ],
+         "answer": 1,
+         "why": "almost empty 表示几乎没有东西，hardly 符合句意。",
+         "point": "meaning"
+        },
+        {
+         "stem": "The train arrived _____ yesterday, an hour after its scheduled time.",
+         "options": [
+          "lately",
+          "hard",
+          "late",
+          "hardly"
+         ],
+         "answer": 2,
+         "why": "an hour after its scheduled time 说明火车比预定时间晚到一小时，late 表示晚。",
+         "point": "meaning"
+        },
+        {
+         "stem": "In the past few weeks, the shop has been busy _____.",
+         "options": [
+          "hard",
+          "hardly",
+          "recent",
+          "lately"
+         ],
+         "answer": 3,
+         "why": "In the past few weeks 表示最近一段时间，lately 意义相符。",
+         "point": "meaning"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

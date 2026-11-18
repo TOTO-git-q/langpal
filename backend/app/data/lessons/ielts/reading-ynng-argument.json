@@ -1,0 +1,69 @@
+{
+ "id": "reading-ynng-argument",
+ "title": "论说文的论证结构",
+ "goal": "识别文章的主要主张，判断理由、例证与反驳的作用。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "claim", "label": "识别文章的主要主张"},
+  {"id": "role", "label": "判断理由、例证与反驳的作用"}
+ ],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "论说文的论证结构：内容与知识点"}],
+ "cards": [
+  {"id": "structure", "type": "table", "title": "结构", "cols": ["组成", "作用", "例"], "rows": [
+   ["主张", "作者要论证的判断", "The library should extend its Saturday hours."],
+   ["理由", "解释主张为何成立", "Many readers cannot visit during the working week."],
+   ["例证", "用具体情况说明理由", "For example, shift workers may be free only at weekends."],
+   ["反驳", "回应与主张相反的意见", "Extra staffing costs matter, but a short trial could limit them."]
+  ]},
+  {"id": "expressions", "type": "table", "title": "常用表达", "cols": ["表达", "功能", "例"], "rows": [
+   ["should", "提出建议", "The council should publish the survey."],
+   ["because", "引出理由", "The survey matters because it records local needs."],
+   ["for example", "引出例证", "For example, it records the needs of older residents."],
+   ["although / but", "让步后提出回应", "Although the survey is brief, it covers several districts."],
+   ["provided that", "限定主张的条件", "The trial is worthwhile provided that its results are published."]
+  ]},
+  {"id": "patterns", "type": "table", "title": "论证顺序", "cols": ["方式", "例", "主张"], "rows": [
+   ["旧观点后反驳", "Some favour closing the path. Yet a repair would preserve access.", "维修可保留通行。"],
+   ["先主张后限定", "The path should remain open, provided that repairs are completed.", "完成维修后保留通行。"],
+   ["事实后评价", "The path crosses a school site. Its use should therefore be restricted during lessons.", "上课期间应限制使用。"],
+   ["让步后回应", "Repairs cost money, but closing the path would impose costs too.", "评估时应考虑关闭的代价。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "Some residents think the pond should be filled in because it requires maintenance. However, retaining it would preserve a shared outdoor space. For example, the school uses its edge for outdoor lessons. Maintenance costs should be reviewed, but they do not alone justify removing the pond."},
+   {"box": "What is the role of the school example?\n1. It illustrates a use of the shared space.\n2. It establishes the cost of filling the pond.\n3. It gives a reason for filling in the pond.\n4. It disputes the existence of maintenance costs."},
+   {"p": "学校在池塘边上课是共享空间用途的具体例证，支持保留池塘的主张。第一项概括了这一作用。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "常见错误", "cols": ["情况", "例", "辨析"], "rows": [
+   ["事实当主张", "The pond requires maintenance.", "这是事实。作者的主张是保留池塘。"],
+   ["例证当主张", "The school uses the pond for lessons.", "这是支持共享空间价值的例子。"],
+   ["旧观点当结论", "Some residents favour filling in the pond.", "作者在转折后支持保留池塘。"],
+   ["忽略条件", "Keep the path open if repairs are completed.", "主张以完成维修为条件。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一　结构", "points": ["claim", "role"], "groups": [
+   {"look": "passage", "text": "Some managers favour removing the noticeboard. Yet the board should remain because not all staff check online messages.", "items": [{"stem": "What is the writer's main claim?", "options": ["The board should be retained.", "All staff check online messages.", "The board should be removed.", "Staff should check online messages instead."], "answer": 0, "why": "转折后 the board should remain 是作者的主张。", "point": "claim"}]},
+   {"look": "passage", "text": "The hall should host evening classes. Many working adults cannot attend during the day.", "items": [{"stem": "What is the role of the second sentence?", "options": ["It states an objection to evening classes.", "It gives a reason for evening classes.", "It restates the claim about evening classes.", "It gives an example of a daytime class."], "answer": 1, "why": "工作成年人白天无法参加，解释了开设晚课的理由。", "point": "role"}]},
+   {"look": "passage", "text": "The garden should be open to the public, provided that volunteers can maintain the paths safely.", "items": [{"stem": "Which claim does the writer make?", "options": ["The garden should open whether or not the paths are safe.", "The volunteers should decide when the garden opens.", "The garden should open if safe maintenance is possible.", "The garden should stay closed to the public for now."], "answer": 2, "why": "provided that 引出开放花园的条件：志愿者能安全维护小路，即第三项。", "point": "claim"}]},
+   {"look": "passage", "text": "Critics say the repair will disrupt travel. That disruption is temporary, whereas a closure would remove the route permanently.", "items": [{"stem": "What is the role of the second sentence?", "options": ["It repeats the critics' objection without comment.", "It agrees that the repair should be cancelled.", "It gives an example of a permanent repair.", "It responds by comparing disruption with closure."], "answer": 3, "why": "作者比较维修的暂时影响与关闭的永久影响，以回应批评。", "point": "role"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二　短文", "points": ["claim", "role"], "groups": [
+   {"look": "passage", "text": "A college is considering removing printed timetables from its entrance hall. Some staff argue that online information is sufficient. However, the printed display should remain during the first weeks of each term. New students may not yet know how to access the college system. For example, a student whose account is still being set up can check the display immediately. The display need not replace the online timetable; both can provide the same information. Printing does have a cost, but a temporary display would limit the amount of paper used.", "items": [
+    {"stem": "What is the writer's main recommendation?", "options": ["Keep printed timetables at the start of each term.", "Replace online timetables with printed displays.", "Remove printed information throughout the year.", "Keep printed timetables in the hall all year round."], "answer": 0, "why": "should remain during the first weeks 是作者的建议。", "point": "claim"},
+    {"stem": "Why does the writer mention a student awaiting an account?", "options": ["To show that printing is too expensive", "To illustrate a reason for keeping the display", "To prove that the online timetable is inaccurate", "To show that online information is sufficient"], "answer": 1, "why": "账户尚未设好的学生可用纸质展示，例证支持保留展示的理由。", "point": "role"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["claim", "role"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "Some people argue that a public archive should lend its original documents to anyone who requests them. They believe that lending would give more people direct access to local history. The aim is valuable, but unrestricted lending would expose documents to unnecessary risk. The archive should instead make high-quality copies available while allowing original documents to be consulted under supervision. This approach would extend access and retain a degree of protection.\n\nOriginal records can be damaged by handling even when readers are careful. A folded letter, for example, may weaken at its creases if it is repeatedly opened. A copy lets readers examine the text without placing that particular object under the same pressure. Copies also allow several people to read the same item at once. However, a copy cannot always show every feature of the original, such as the texture of the paper. Supervised access therefore remains important for research that depends on those features.\n\nCritics may object that making copies takes staff time. This is a serious constraint, and the archive should begin with frequently requested material rather than attempt to reproduce everything at once. The choice of material should be reviewed as readers' needs change. A published list of available copies would help readers plan a visit and could also reveal which gaps matter most. The proposed system would not remove every risk or satisfy every request immediately. It would balance the competing needs of access and preservation with the resources currently available. The process could be reviewed each year.", "items": [
+    {"stem": "Which policy does the writer support?", "options": ["Lending original documents to anyone who requests them", "Supplying copies and supervising access to originals", "Replacing every original with a high-quality copy", "Allowing supervised reading of originals but no copies"], "answer": 1, "why": "作者主张提供复制品，同时在监督下查阅原件。", "point": "claim"},
+    {"stem": "What is the role of the folded letter?", "options": ["It shows why copies cannot reproduce texture.", "It shows that careful readers prevent damage.", "It explains why several readers can share a copy.", "It illustrates how handling may damage originals."], "answer": 3, "why": "折痕受反复打开影响是原件可能因处理而受损的例证。", "point": "role"},
+    {"stem": "Why does the writer mention the time needed to make copies?", "options": ["To show that copies should never be made", "To argue that everything should be copied at once", "To acknowledge a constraint on the proposal", "To explain why copies cannot show paper texture"], "answer": 2, "why": "作者称 staff time 是 serious constraint，并建议先复制常被索取的材料。", "point": "role"}
+   ]},
+   {"look": "passage", "text": "A local council is considering whether to close a small public hall. Some members believe that the building is used too rarely to justify its upkeep. The number of bookings is relevant, but it does not show whether the hall meets needs that other buildings cannot meet. The council should review possible uses before making a decision. Closing the hall before that review would risk losing a resource that may be difficult to replace.\n\nThe review should ask who uses the hall, when they use it and what alternatives are available. For example, a group that meets during the day may be able to move to a school building, whereas an evening group may have no suitable space nearby. The two groups should not be treated as though their circumstances were identical. The review should also include people who have tried to book the hall but found the current arrangements unsuitable. Their reasons may show whether a change in opening hours would make the building more useful.\n\nKeeping the hall open indefinitely without assessing its costs would be unwise. Maintenance and staffing must be compared with the benefits identified by the review. Even if demand is established, the council may still need to change the way the building is managed. The central point is that a decision about closure should follow an examination of both demand and alternatives. A published account of the evidence would also allow residents to understand the choice and the reasons behind it. That account should include the hall's maintenance costs.", "items": [
+    {"stem": "What is the writer's main claim?", "options": ["The council should review uses before deciding on closure.", "The council should retain the hall without reviewing costs.", "The council should close the hall before seeking evidence.", "The council should move every group into a school."], "answer": 0, "why": "should review possible uses before making a decision 概括作者主张。", "point": "claim"},
+    {"stem": "What is the function of the example of two groups?", "options": ["It shows that all groups have the same alternatives.", "It illustrates that alternatives vary by time of use.", "It proves that the school is available every evening.", "It gives the actual maintenance cost of the hall."], "answer": 1, "why": "白天组与晚间组的不同选择说明替代场所随使用时间而异。", "point": "role"},
+    {"stem": "Which statement reflects the writer's position on costs?", "options": ["Costs alone already justify immediate closure.", "Costs should be ignored if demand is established.", "Costs should be compared with identified benefits.", "Costs should be fixed before demand is reviewed."], "answer": 2, "why": "maintenance and staffing must be compared with the benefits 表明作者要求比较成本和收益。", "point": "claim"}
+   ]}
+  ]}]}
+ ]
+}

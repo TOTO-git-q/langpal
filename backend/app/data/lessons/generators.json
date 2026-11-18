@@ -1,0 +1,40 @@
+{
+  "head": "你是备考练习的出题人。照下面的规格出一份新的练习。样题只用来看格式和难度，内容、话题、人名都不能照搬。话题用 topic 给的那个（topic 里用顿号隔开了几个话题，就一段材料用一个）；不要和 avoid 里列的重复。只返回 JSON。\n",
+  "items": "每道题四个选项，只有一个对，而且必须能从材料里证明；错项要像真的，但能被材料排除。answer 是正确选项从 0 起的下标。why 用中文写一两句：凭材料里的哪一句对，最像的那个错项错在哪；why 里不要用 A、B、C、D 指选项，要说选项的内容。point 只能用 points 里给出的 id。",
+  "items_blank": "每道题是一个要自己填的空，答案必须能从材料里唯一确定。accept 列出所有算对的写法（通常只有一个；有两种拼法或者写不写冠词都对时才多列）。why 用中文写一两句：凭材料里的哪一句。point 只能用 points 里给出的 id。",
+  "items_order": "每道题是「连词成句」：stem 是第一个人说的一句完整的话，回应的那句话被拆成几块让考生排。chunks 是这几块按正确顺序排好的样子，每块是一个词或一个两三个词的短语，各块互不相同；lead 和 tail 是回应句开头、结尾已经给出、不用排的词（没有就写空字符串，句末的标点放在 tail 里）；extra 是用不上的干扰块，最多一个，要是和某一块只差词形或者意思相近的词（没有就给空数组）。把 lead、chunks、tail 依次连起来必须是一句语法正确、接得上 stem 的话，而且这些块只有这一种排法讲得通。why 用中文写一两句：这句话的骨架是什么（哪几块是主语、谓语、从句），最容易排错的是哪两块。point 只能用 points 里给出的 id。",
+  "items_bank": "这一组题共用同一组选项：选项只在题组的 bank 里列一次，每道题不给 options，answer 是这道题的正确选项在 bank 里从 0 起的下标。每道题只有一个选项对，而且必须能从材料里证明；bank 里可以有哪道题都用不上的选项。why 用中文写一两句：凭材料里的哪一句。point 只能用 points 里给出的 id。",
+  "blind": "你是考生。只根据给出的材料回答每道题，不要用材料以外的知识。只返回 JSON：{\"answers\": [每题选项的下标，从 0 起]}。\n",
+  "blind_blank": "你是考生。只根据给出的材料回答每道题，照题干的要求填，不要用材料以外的知识。只返回 JSON：{\"answers\": [每题填的内容，字符串]}。\n",
+  "blind_order": "你是考生。每道题给了第一个人说的话（stem）、回应句开头和结尾已经给出的词（lead、tail），和一组打乱的词块（pool）。从 pool 里选词块，排成一句语法正确、接得上 stem 的话；pool 里可能有一块用不上。只返回 JSON：{\"answers\": [每道题排好的词块数组]}。\n",
+  "fill": "下面的短文里有些词只给了前一半，下划线的个数就是缺的字母数。把每个不完整的词补全。只返回 JSON：{\"words\": [按顺序的完整的词]}。\n",
+  "function_words": "the of on in is it to be by as at and are that this they them then than these those their there which while where when what with from for have has had how she he his her its one not now such some many much all any could would should can may must will was were been do does did an or if so but into over after before during more most only also itself we you who whose about",
+  "retry": "上一次交的没有通过检查：{reason}。这一次要改掉这一处，其余照规格。",
+  "reasons": {
+    "length": "{key} 的长度是 {got}，要 {low}–{high}",
+    "count": "{key} 有 {got} 个，要 {low}–{high} 个",
+    "options": "有的题选项个数不对或者有重复的选项，每题要 {n} 个互不相同的选项",
+    "point": "有的题的 point 不在给出的 points 里",
+    "blind": "只看材料重做了一遍，第 {n} 题得不出你给的答案，说明这道题的答案不唯一或者材料里没有依据",
+    "ambiguous": "第 {n} 段里有的空换一个同样长的词也讲得通，上下文要写得只能是那个词",
+    "cut": "第 {n} 段里要挖空的位置落在了数字、带连字符或撇号的词、或者专有名词上",
+    "format": "{key} 不符合规格里写的固定格式",
+    "label": "录音的台词里写了「Host:」「Lily:」这样的说话人标签，声音会把它念出来。台词只写说出口的话，谁在说用 who 表示；要让人知道名字，就在台词里说出来或写进 intro",
+    "fixed": "输出的字段不全或者类型不对",
+    "missing": "缺了字段 {key}",
+    "unknown": "多了输出格式里没有的字段 {key}，只能用给出的那些字段",
+    "type": "字段 {key} 的类型不对，照输出格式里写的类型给"
+  },
+  "formats": {
+    "essay": {"schema": {"type": "object", "required": ["purpose", "setting", "lead", "bullets", "must"], "properties": {"purpose": {"type": "string"}, "setting": {"type": "string"}, "lead": {"type": "string"}, "bullets": {"type": "array", "items": {"type": "string"}}, "must": {"type": "array", "items": {"type": "string"}}, "to": {"type": "string"}, "subject": {"type": "string"}, "posts": {"type": "array", "items": {"type": "object", "required": ["who", "text"], "properties": {"who": {"type": "string"}, "text": {"type": "string"}}}}}}},
+    "reading": {"schema": {"type": "object", "required": ["groups"], "properties": {"groups": {"type": "array", "items": {"type": "object", "required": ["label", "look", "text", "items"], "properties": {"label": {"type": "string"}, "look": {"type": "string"}, "text": {"type": "string"}, "items": {"type": "array", "items": {"$ref": "#/$defs/item"}}}}}}}},
+    "listening": {"schema": {"type": "object", "required": ["groups"], "properties": {"groups": {"type": "array", "items": {"type": "object", "required": ["intro", "lines", "items"], "properties": {"intro": {"type": "string"}, "lines": {"type": "array", "items": {"type": "object", "required": ["who", "text"], "properties": {"who": {"type": "string"}, "text": {"type": "string"}}}}, "items": {"type": "array", "items": {"$ref": "#/$defs/item"}}}}}}}},
+    "ctw": {"schema": {"type": "object", "required": ["paragraphs"], "properties": {"paragraphs": {"type": "array", "items": {"type": "string"}}}}}
+  },
+  "item": {
+    "choice": {"type": "object", "required": ["stem", "options", "answer", "why", "point"], "properties": {"stem": {"type": "string"}, "options": {"type": "array", "items": {"type": "string"}}, "answer": {"type": "integer"}, "why": {"type": "string"}, "point": {"type": "string"}}},
+    "blank": {"type": "object", "required": ["stem", "accept", "why", "point"], "properties": {"stem": {"type": "string"}, "accept": {"type": "array", "items": {"type": "string"}}, "why": {"type": "string"}, "point": {"type": "string"}}},
+    "order": {"type": "object", "required": ["stem", "lead", "chunks", "tail", "extra", "why", "point"], "properties": {"stem": {"type": "string"}, "lead": {"type": "string"}, "chunks": {"type": "array", "items": {"type": "string"}}, "tail": {"type": "string"}, "extra": {"type": "array", "items": {"type": "string"}}, "why": {"type": "string"}, "point": {"type": "string"}}},
+    "bank": {"type": "object", "required": ["stem", "answer", "why", "point"], "properties": {"stem": {"type": "string"}, "answer": {"type": "integer"}, "why": {"type": "string"}, "point": {"type": "string"}}}
+  }
+}

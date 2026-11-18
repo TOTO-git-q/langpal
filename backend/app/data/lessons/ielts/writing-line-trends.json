@@ -1,0 +1,88 @@
+{
+ "id": "writing-line-trends",
+ "title": "趋势表达与时间参照",
+ "goal": "准确表达变化方向与幅度，并按时间参照选择时态。",
+ "skill": "写作",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "trend", "label": "准确表达变化方向与幅度"},
+  {"id": "tense", "label": "按数据的时间参照选择时态"}
+ ],
+ "sources": [
+  {"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "趋势表达与时间参照"}
+ ],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "趋势动词说明数值朝哪个方向变化。同一变化也可以用名词短语表达。幅度指变化有多大，速度指变化有多快。图中时间信息不够时，不写速度。"},
+   {"box": "Attendance rose sharply.\nThere was a sharp rise in attendance."},
+   {"p": "动词 rise 的过去式是 rose。名词 rise 前面可加 a sharp，后面用 in 引出发生变化的指标。"}
+  ]},
+  {"id": "rise", "type": "table", "title": "上升", "cols": ["动词搭配", "名词搭配", "例句"], "rows": [
+   ["rise sharply", "a sharp rise", "Attendance rose sharply from 20 to 60 in one year."],
+   ["rise gradually", "a gradual rise", "There was a gradual rise in attendance over the decade."],
+   ["increase steadily", "a steady increase", "Attendance increased steadily from 20 to 40."],
+   ["increase substantially", "a substantial increase", "There was a substantial increase in attendance from 20 to 80."],
+   ["grow rapidly", "rapid growth", "Attendance grew rapidly during the first year."],
+   ["grow slowly", "slow growth", "There was slow growth in attendance over the decade."]
+  ]},
+  {"id": "fall", "type": "table", "title": "下降", "cols": ["动词搭配", "名词搭配", "例句"], "rows": [
+   ["fall sharply", "a sharp fall", "Sales fell sharply from 90 to 30 in one year."],
+   ["fall gradually", "a gradual fall", "There was a gradual fall in sales over the decade."],
+   ["decline steadily", "a steady decline", "Sales declined steadily from 90 to 60."],
+   ["decline substantially", "a substantial decline", "There was a substantial decline in sales from 90 to 20."],
+   ["drop rapidly", "a rapid drop", "Sales dropped rapidly during the first year."],
+   ["decrease slightly", "a slight decrease", "There was a slight decrease in sales from 90 to 88."]
+  ]},
+  {"id": "stable", "type": "table", "title": "稳定", "cols": ["动词搭配", "名词搭配", "例句"], "rows": [
+   ["remain stable", "a stable level", "Output remained stable at 50 tonnes."],
+   ["stay constant", "a constant level", "Output stayed at a constant level of 50 tonnes."],
+   ["remain unchanged", "no change", "Output remained unchanged at 50 tonnes."],
+   ["stay steady", "a steady level", "Output stayed at a steady level of 50 tonnes."],
+   ["level off", "a levelling off", "Output levelled off at 50 tonnes after rising."],
+   ["plateau", "a plateau", "Output reached a plateau of 50 tonnes after rising."]
+  ]},
+  {"id": "fluctuate", "type": "table", "title": "波动", "cols": ["动词搭配", "名词搭配", "例句"], "rows": [
+   ["fluctuate slightly", "slight fluctuations", "Prices fluctuated slightly between £49 and £51."],
+   ["fluctuate considerably", "considerable fluctuations", "Prices showed considerable fluctuations between £20 and £80."],
+   ["fluctuate widely", "wide fluctuations", "Prices fluctuated widely between £20 and £80."],
+   ["fluctuate around", "fluctuations around", "There were fluctuations around £50, from £49 to £51."],
+   ["fluctuate between", "fluctuations between", "Prices fluctuated between £40 and £60."],
+   ["vary over time", "variation over time", "Prices varied over time, rising to £60 and falling to £40."]
+  ]},
+  {"id": "reference", "type": "table", "title": "幅度与时间参照", "cols": ["情况", "规则", "例句"], "rows": [
+   ["终点", "to 后接变化后的数值。", "Output rose from 20 to 35 tonnes."],
+   ["幅度", "by 后接起点与终点的差值。", "Output rose by 15 tonnes, from 20 to 35."],
+   ["幅度与速度", "large 说幅度，rapid 说速度。","A large rise occurred slowly over ten years."],
+   ["过去", "已结束的过去时段用一般过去时。", "Output rose between 2010 and 2020."],
+   ["当前", "当前状态用一般现在时。", "Output is currently 35 tonnes."],
+   ["预测", "预测数据用 is projected to 等表达，写明是预测。", "Output is projected to reach 40 tonnes in 2030."]
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["trend"], "groups": [{"items": [
+   {"stem": "Attendance rose from 30 to 45. Which description gives the change?", "options": ["Attendance rose by 45.", "Attendance rose to 15.", "Attendance rose by 15.", "Attendance fell by 15."], "answer": 2, "why": "45 减 30 等于 15，by 后接增量。第三项给出正确幅度。", "point": "trend"},
+   {"stem": "A figure moves from 10 to 90 over twenty years. Which statement is supported?", "options": ["It increased by 80 over twenty years.", "It increased to 80 over twenty years.", "It decreased by 80 over twenty years.", "It remained at 80 over twenty years."], "answer": 0, "why": "终点 90 与起点 10 相差 80，第一项准确表达增量。", "point": "trend"},
+   {"stem": "Prices move repeatedly between £19 and £21. Which phrase fits?", "options": ["a constant level of £19 throughout", "slight fluctuations around £20", "a steady rise to £21", "a sharp fall to £19"], "answer": 1, "why": "数值在 20 英镑附近反复升降，范围较小。第二项表达小幅波动。", "point": "trend"}
+  ]}]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["tense"], "groups": [{"items": [
+   {"stem": "The period 2001–2005 has ended. Complete the sentence.", "lead": "The total", "chunks": ["fell", "from 50", "to 40", "between 2001 and"], "tail": "2005.", "extra": ["falls"], "why": "已结束的过去时段用 fell；from 和 to 分别引出起点与终点。", "point": "tense"},
+   {"stem": "The current figure is 40 tonnes. Complete the sentence.", "lead": "The", "chunks": ["current total", "stands", "at", "40"], "tail": "tonnes.", "extra": ["stood"], "why": "current 表示当前状态，stands at 引出当前数值。", "point": "tense"},
+   {"stem": "A projection gives 60 tonnes for 2035. Complete the sentence.", "lead": "The total", "chunks": ["is projected", "to reach", "60 tonnes", "in"], "tail": "2035.", "extra": ["reached"], "why": "is projected to reach 表示预测值，in 引出预测年份。", "point": "tense"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["trend", "tense"], "sets": [{"id": "set-a", "groups": [
+   {"text": "A local archive recorded 200 visits in 2010 and 260 in 2020. Visits moved between 195 and 205 in the intervening years before rising to the final figure.", "items": [
+    {"stem": "Which sentence gives the overall increase?", "options": ["Visits increased by 60 over the period.", "Visits increased to 60 over the period.", "Visits decreased by 60 over the period.", "Visits remained at 60 over the period."], "answer": 0, "why": "260 减 200 等于 60。第一项用 by 表示增量。", "point": "trend"},
+    {"stem": "Which phrase describes the intervening years?", "options": ["a steady rise towards 260 visits", "a large fall from 260", "slight fluctuations around 200", "a constant total of 195"], "answer": 2, "why": "中间年份的数值在 195 至 205 之间变动，第三项表示在 200 附近小幅波动。", "point": "trend"}
+   ]},
+   {"text": "A garden centre currently sells 80 pots a day. Its records show 50 a day in 2018. A projection puts the daily figure at 100 in 2032.", "items": [
+    {"stem": "Which sentence reports the current figure?", "options": ["Daily sales stood at 80 pots in 2018.", "Daily sales currently stand at 80 pots.", "Daily sales will stand at 80 pots in 2032.", "Daily sales stood at 100 pots in 2018."], "answer": 1, "why": "currently sells 80 pots a day 给出当前数据，第二项用一般现在时表达。", "point": "tense"},
+    {"stem": "Which sentence identifies the future figure as a projection?", "options": ["Daily sales reached 100 pots in 2032.", "Daily sales are projected to reach 80 pots in 2032.", "Daily sales are projected to reach 100 pots in 2018.", "Daily sales are projected to reach 100 pots in 2032."], "answer": 3, "why": "依据是 A projection puts the daily figure at 100 in 2032。第四项用 are projected to 写明预测，数值和年份都与材料一致。", "point": "tense"}
+   ]},
+   {"items": [
+    {"stem": "A figure rises from 12 to 28 tonnes. Complete the sentence with the final value.", "lead": "The figure", "chunks": ["rose", "from 12", "to", "28"], "tail": "tonnes.", "extra": ["by"], "why": "to 后接终点 28，from 12 给出起点。", "point": "trend"},
+    {"stem": "A figure falls from 70 to 55 tonnes. Complete the sentence with the size of the fall.", "lead": "The figure", "chunks": ["fell", "by", "15", "tonnes"], "tail": "overall.", "extra": ["to"], "why": "70 减 55 等于 15；by 15 tonnes 表示下降幅度。", "point": "trend"},
+    {"stem": "The data refer to the completed period 1990–2000. Complete the sentence.", "lead": "The figure", "chunks": ["rose", "from 10", "to 20", "between 1990 and"], "tail": "2000.", "extra": ["rises"], "why": "1990 至 2000 年是已结束的时段，rose 是一般过去时。", "point": "tense"},
+    {"stem": "A projection gives 70 tonnes for 2040. Complete the sentence.", "lead": "Output", "chunks": ["is projected", "to reach", "70 tonnes", "in"], "tail": "2040.", "extra": ["reached"], "why": "is projected to reach 表示预测，in 引出预测年份。", "point": "tense"}
+   ]}
+  ]}]}
+ ]
+}

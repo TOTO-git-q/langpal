@@ -1,0 +1,459 @@
+{
+ "id": "reading-careful-modifiers",
+ "title": "阅读中的后置修饰",
+ "goal": "识别句子主干，并确定后置修饰语的对象。",
+ "skill": "阅读",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "core",
+   "label": "找出含后置修饰的句子主干"
+  },
+  {
+   "id": "modifier",
+   "label": "确定从句和短语修饰的对象"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "阅读理解的教学依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "后置修饰语放在所修饰的名词后面，可以是介词短语、定语从句或分词短语。读句子时先找主语和谓语，再看宾语和修饰关系。"
+    },
+    {
+     "box": "The book on the table belongs to Mei.\n主干：The book belongs to Mei.\non the table 修饰 book。"
+    },
+    {
+     "p": "主干是句子的主谓关系。修饰语说明指的是哪一个，或补充信息。理解全句时修饰语不能丢掉。"
+    }
+   ]
+  },
+  {
+   "id": "phrases",
+   "type": "table",
+   "title": "介词短语",
+   "cols": [
+    "例句",
+    "主干与修饰对象"
+   ],
+   "rows": [
+    [
+     "The picture on the wall shows a quiet street, and the visitors discuss its colors during their tour of the room.",
+     "主干：The picture shows a quiet street；on the wall 修饰 picture。"
+    ],
+    [
+     "The students in the back row asked several questions after the lecture, while the other students wrote notes at their desks.",
+     "主干：The students asked several questions；in the back row 修饰 students。"
+    ],
+    [
+     "The basket under the table holds clean towels for the guests, who can take them to the small pool beside the garden.",
+     "主干：The basket holds clean towels；under the table 修饰 basket。"
+    ],
+    [
+     "The sign near the entrance gives opening hours to visitors, and the staff update it whenever the schedule for the building changes.",
+     "主干：The sign gives opening hours；near the entrance 修饰 sign。"
+    ]
+   ]
+  },
+  {
+   "id": "clauses",
+   "type": "table",
+   "title": "从句与分词短语",
+   "cols": [
+    "类型",
+    "例句",
+    "主干与修饰对象"
+   ],
+   "rows": [
+    [
+     "定语从句",
+     "The woman who leads the team checks each report before the meeting and shares the main findings with the other members.",
+     "The woman checks each report；who leads the team 修饰 woman。"
+    ],
+    [
+     "定语从句",
+     "The box that contains the keys stays in the office, where the staff can reach it during their regular working hours.",
+     "The box stays in the office；that contains the keys 修饰 box。"
+    ],
+    [
+     "定语从句",
+     "The road which crosses the bridge connects two villages, and a bus follows this route every morning except on public holidays.",
+     "The road connects two villages；which crosses the bridge 修饰 road。"
+    ],
+    [
+     "分词短语",
+     "The letters sent by the school explain the new schedule, and the parents keep them for reference throughout the coming term.",
+     "The letters explain the new schedule；sent by the school 修饰 letters。"
+    ],
+    [
+     "分词短语",
+     "The people waiting outside the hall received numbered tickets, while the visitors inside listened to a short talk about the exhibition.",
+     "The people received numbered tickets；waiting outside the hall 修饰 people。"
+    ],
+    [
+     "分词短语",
+     "The bench painted by the volunteers stands near the gate, and the children use it while they wait for their bus.",
+     "The bench stands near the gate；painted by the volunteers 修饰 bench。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The package left near the door contains books for the class.\nWhat contains books?\n1. The package\n2. The door\n3. The class\n4. The books"
+    },
+    {
+     "p": "主句谓语 contains 的主语是 package。left near the door 修饰 package，第一项正确。"
+    }
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "core",
+    "modifier"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "The coat by the window belongs to the teacher.",
+     "items": [
+      {
+       "stem": "What belongs to the teacher?",
+       "options": [
+        "The coat by the window",
+        "The window",
+        "The teacher by the window",
+        "The window near the coat"
+       ],
+       "answer": 0,
+       "why": "主语 coat 与谓语 belongs 构成主干。",
+       "point": "core"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The notice on the board announces the meeting.",
+     "items": [
+      {
+       "stem": "What is on the board?",
+       "options": [
+        "The meeting",
+        "The notice",
+        "The meeting date",
+        "The announced meeting"
+       ],
+       "answer": 1,
+       "why": "on the board 紧接并修饰 notice。",
+       "point": "modifier"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The farmer who owns the field sells vegetables.",
+     "items": [
+      {
+       "stem": "Who sells vegetables?",
+       "options": [
+        "The vegetables",
+        "The field",
+        "The farmer",
+        "The vegetable field"
+       ],
+       "answer": 2,
+       "why": "who owns the field 修饰 farmer，主句谓语是 sells。",
+       "point": "core"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The dishes washed by the cook are on the shelf.",
+     "items": [
+      {
+       "stem": "What did the cook wash?",
+       "options": [
+        "The shelf",
+        "The cook",
+        "The shelf for the dishes",
+        "The dishes"
+       ],
+       "answer": 3,
+       "why": "washed by the cook 修饰 dishes，说明盘子由厨师清洗。",
+       "point": "modifier"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "core",
+    "modifier"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "The team that runs the local market prepared a list of sellers for the visitors. The list placed beside the gate includes the names of the sellers and their products.",
+     "items": [
+      {
+       "stem": "Who prepared the list?",
+       "options": [
+        "The visitors at the gate",
+        "The team running the market",
+        "The sellers on the list",
+        "The products in the market"
+       ],
+       "answer": 1,
+       "why": "主句主语是 team，that 从句修饰 team。",
+       "point": "core"
+      },
+      {
+       "stem": "What was placed beside the gate?",
+       "options": [
+        "The list of sellers",
+        "The market team",
+        "The visitors to the market",
+        "The local market"
+       ],
+       "answer": 0,
+       "why": "placed beside the gate 修饰 list。",
+       "point": "modifier"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-three",
+   "type": "check",
+   "title": "练习三",
+   "points": [
+    "core",
+    "modifier"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "The manager of the shop thanked the volunteers who had carried the tables into the room.",
+     "items": [
+      {
+       "stem": "Who thanked the volunteers?",
+       "options": [
+        "The volunteers",
+        "The shop",
+        "The manager",
+        "The tables"
+       ],
+       "answer": 2,
+       "why": "句子主干是 The manager thanked the volunteers。",
+       "point": "core"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The flowers growing beside the path attract insects from the nearby garden.",
+     "items": [
+      {
+       "stem": "What grows beside the path?",
+       "options": [
+        "The insects",
+        "The garden",
+        "The path",
+        "The flowers"
+       ],
+       "answer": 3,
+       "why": "growing beside the path 修饰 flowers。",
+       "point": "modifier"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "core",
+    "modifier"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "The map on the wall shows the paths through the park to the visitors who arrive at the information desk.",
+       "items": [
+        {
+         "stem": "What shows the paths?",
+         "options": [
+          "The information desk",
+          "The map on the wall",
+          "The visitors in the park",
+          "The wall by the desk"
+         ],
+         "answer": 1,
+         "why": "主句的主语是 map，谓语是 shows；on the wall 修饰 map。",
+         "point": "core"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "The box under the counter holds the paper bags that customers use for carrying small items from the store.",
+       "items": [
+        {
+         "stem": "What is under the counter?",
+         "options": [
+          "The box holding the bags",
+          "The customers in the store",
+          "The items carried from the store",
+          "The store with the counter"
+         ],
+         "answer": 0,
+         "why": "under the counter 修饰 box。",
+         "point": "modifier"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "The woman who planned the event gave the visitors a short guide to the rooms in the old building.",
+       "items": [
+        {
+         "stem": "Who gave the guide to the visitors?",
+         "options": [
+          "The visitors in the rooms",
+          "The rooms in the building",
+          "The woman planning the event",
+          "The guide to the building"
+         ],
+         "answer": 2,
+         "why": "主句的主语是 woman，谓语是 gave；who 从句修饰 woman。",
+         "point": "core"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "The clock that hangs above the door reminds the workers of the time when the office closes each evening.",
+       "items": [
+        {
+         "stem": "What hangs above the door?",
+         "options": [
+          "The workers in the office",
+          "The door to the office",
+          "The time in the evening",
+          "The clock in the office"
+         ],
+         "answer": 3,
+         "why": "that hangs above the door 是修饰 clock 的定语从句。",
+         "point": "modifier"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "The children waiting near the gate watched the buses that passed the school on their way to the station.",
+       "items": [
+        {
+         "stem": "Who watched the buses?",
+         "options": [
+          "The children by the gate",
+          "The buses passing the school",
+          "The people at the station",
+          "The school near the gate"
+         ],
+         "answer": 0,
+         "why": "主句的主语是 children，谓语是 watched；waiting near the gate 修饰 children。",
+         "point": "core"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "The chair repaired by the carpenter stands in the room where the family reads together after dinner.",
+       "items": [
+        {
+         "stem": "What did the carpenter repair?",
+         "options": [
+          "The room for reading",
+          "The chair in the room",
+          "The family after dinner",
+          "The dinner for the family"
+         ],
+         "answer": 1,
+         "why": "repaired by the carpenter 修饰 chair，说明椅子由木匠修理。",
+         "point": "modifier"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "The list of books recommended by the teacher includes stories about places that the class has discussed.",
+       "items": [
+        {
+         "stem": "What includes stories about places?",
+         "options": [
+          "The teacher in the class",
+          "The places in the stories",
+          "The list of books",
+          "The books the class discussed"
+         ],
+         "answer": 2,
+         "why": "主语是 list，includes 是主句谓语。",
+         "point": "core"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "The guests who arrived before lunch left their coats on the chairs beside the table in the hall.",
+       "items": [
+        {
+         "stem": "Who arrived before lunch?",
+         "options": [
+          "The chairs by the table",
+          "The coats in the hall",
+          "The people having lunch",
+          "The guests at the hall"
+         ],
+         "answer": 3,
+         "why": "who arrived before lunch 修饰 guests。",
+         "point": "modifier"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "id": "reading-passage-environment",
+ "title": "生态与环境词汇",
+ "goal": "理解生态环境词汇，并分析保护措施及其作用。",
+ "skill": "阅读",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "vocabulary", "label": "理解生态环境词汇的语境义"},
+  {"id": "read", "label": "读懂保护措施及其作用的说明"}
+ ],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "生态环境词汇与保护措施"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "生态环境类材料常讲生物与栖息地的关系，也介绍资源利用、污染和保护措施。读保护措施时，要分清两件事：采取了什么行动，观察到了什么效果。"}]},
+  {"id": "species", "type": "table", "title": "词汇表：物种与栖息地", "cols": ["词语", "词性与含义", "搭配或例句"], "rows": [
+   ["habitat", "n. 栖息地", "protect a natural habitat"], ["species", "n. 物种", "a species of bird"], ["ecosystem", "n. 生态系统", "a forest ecosystem"], ["wildlife", "n. 野生生物", "protect local wildlife"], ["organism", "n. 生物体", "a living organism"],
+   ["native", "adj. 本地的", "a native plant"], ["population", "n. 种群", "a bird population"], ["nest", "n. 巢", "build a nest"], ["shelter", "n. 庇护处", "find shelter from rain"], ["breed", "v. 繁殖", "birds breed in spring"],
+   ["insect", "n. 昆虫", "a flying insect"], ["plant", "n. 植物", "a flowering plant"], ["forest", "n. 森林", "a broad forest"], ["wetland", "n. 湿地", "restore a wetland"], ["coast", "n. 海岸", "along the coast"]
+  ]},
+  {"id": "resources", "type": "table", "title": "词汇表：资源与污染", "cols": ["词语", "词性与含义", "搭配或例句"], "rows": [
+   ["resource", "n. 资源", "use natural resources"], ["waste", "n. 废物", "reduce food waste"], ["pollution", "n. 污染", "reduce air pollution"], ["pollute", "v. 污染", "pollute a river"], ["litter", "n. 垃圾", "pick up litter"],
+   ["plastic", "n. 塑料", "a piece of plastic"], ["soil", "n. 土壤", "moist soil"], ["water", "n. 水", "clean drinking water"], ["air", "n. 空气", "fresh air"], ["fuel", "n. 燃料", "save fuel"],
+   ["energy", "n. 能源；能量", "save energy"], ["emission", "n. 排放物", "reduce vehicle emissions"], ["chemical", "n. 化学物质", "store chemicals safely"], ["damage", "n. 损害", "damage to a habitat"], ["supply", "n. 供应", "a supply of fresh water"]
+  ]},
+  {"id": "protection", "type": "table", "title": "词汇表：保护措施", "cols": ["词语", "词性与含义", "搭配或例句"], "rows": [
+   ["conservation", "n. 保护", "wildlife conservation"], ["protect", "v. 保护", "protect nesting sites"], ["preserve", "v. 保护；保存", "preserve an old forest"], ["restore", "v. 恢复", "restore a damaged habitat"], ["reduce", "v. 减少", "reduce waste"],
+   ["reuse", "v. 再利用", "reuse a glass jar"], ["recycle", "v. 回收利用", "recycle paper"], ["collect", "v. 收集", "collect litter"], ["sort", "v. 分类", "sort waste by material"], ["repair", "v. 修理", "repair a broken container"],
+   ["monitor", "v. 监测", "monitor water quality"], ["prevent", "v. 防止", "prevent further damage"], ["reserve", "n. 保护区", "a nature reserve"], ["sustainable", "adj. 可持续的", "sustainable resource use"], ["reusable", "adj. 可重复使用的", "a reusable bag"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A wetland reserve includes shallow pools and areas of tall plants. Birds can use these places to feed and nest. At one entrance, visitors had begun to walk through the plants, leaving a narrow bare path. Staff placed a fence beside that path and provided a marked route around it. They also recorded where visitors walked. Later observations showed fewer people entering the fenced area. The staff continued checking both the plants and the birds, because a change in visitor routes alone did not show how the habitat would recover."},
+   {"p": "材料中的 habitat 指浅水池和高大植物所在的区域。围栏和标记路线是措施。进入围栏的人变少，是观察到的效果。"},
+   {"p": "continued checking 说明工作人员还在观察植物和鸟类。访客改走别的路线，还说明不了栖息地恢复得怎样。"}
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["vocabulary", "read"], "groups": [
+   {"fill": "Residents are improving a pond. They ch{eck} the wa{ter} for wa{ste} and we{igh} what th{ey} find, th{en} carry reus{able} bags a{nd} gloves wh{en} they rem{ove} litter. The weight is written in a notebook after each visit. The group separates plastic from other material and sends suitable items for recycling. Members return regularly to observe the pond and record whether more waste has appeared. Their notes help them plan the next cleanup.", "tags": ["read", "vocabulary", "vocabulary", "read", "read", "read", "vocabulary", "read", "read", "vocabulary"], "notes": [
+    "check：查看池水中是否有废物。", "water：pond 对应池塘里的水。", "waste：后文 litter 和废物分类提供线索。", "weigh：后文 The weight 对应称重。", "they：指代居民，作 find 的主语。", "then：表示检查之后的行动。", "reusable：袋子可以重复使用。", "and：连接 bags 和 gloves。", "when：引出清理垃圾的时间。", "remove：与 litter 搭配，表示清除垃圾。"
+   ]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["vocabulary", "read"], "groups": [
+   {"look": "passage", "text": "A school found that many sheets of paper were used on only one side. Teachers placed boxes beside classroom printers for collecting these sheets. Students could take them for drafts or notes when a clean sheet was unnecessary. Full pages containing private information were placed in a separate container for secure disposal.\n\nAfter one month, the school counted the sheets remaining in the boxes and asked teachers how the system worked. Some boxes emptied quickly, while others still contained paper. The count did not reveal how many new sheets the school had saved, because paper use varied between classes. The school kept the boxes and decided to record paper orders as well as the amount collected over the next term. That comparison would provide more information about changes in purchasing and reuse.", "items": [
+    {"stem": "What does reuse mean in this passage?", "options": ["Using a sheet again for another purpose", "Sending used pages for secure disposal", "Ordering a new supply of classroom paper", "Counting the sheets left in the boxes"], "answer": 0, "why": "依据：Students could take them for drafts or notes，末句又提到 purchasing and reuse。reuse 指把只用过一面的纸再拿来打草稿、记笔记。", "point": "vocabulary"},
+    {"stem": "What was placed in boxes beside printers?", "options": ["New paper for the next term", "Sheets with one side still blank", "Private pages for secure disposal", "Records of paper orders"], "answer": 1, "why": "依据：many sheets of paper were used on only one side，盒子就是 for collecting these sheets。盒子里收的是只用过一面的纸。", "point": "read"},
+    {"stem": "What was the purpose of providing the collected paper?", "options": ["To give students clean sheets for printing", "To keep private pages in classrooms", "To provide sheets for drafts and notes", "To count how much paper each class used"], "answer": 2, "why": "依据：Students could take them for drafts or notes when a clean sheet was unnecessary。收集的纸用来打草稿、记笔记。", "point": "read"},
+    {"stem": "Why did the first count not show how much new paper was saved?", "options": ["All the boxes emptied before the count.", "The school stopped recording the amount collected.", "The private pages had all been put into boxes.", "The amount of paper used differed between classes."], "answer": 3, "why": "依据：because paper use varied between classes。各班用纸量不同，盒里剩多少张，说明不了省下多少新纸。", "point": "read"},
+    {"stem": "What will the school add to its records?", "options": ["The paper orders the school places", "The pages sent for secure disposal", "How quickly each box was emptied", "Teachers' views on the system"], "answer": 0, "why": "依据：decided to record paper orders as well as the amount collected。除了收集的数量，学校还要记录纸张订单。", "point": "read"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 8, "pass": 0.75, "points": ["vocabulary", "read"], "sets": [{"id": "set-a", "groups": [
+   {"fill": "A garden group planted young trees. The tr{ees} provide sh{ade} for peo{ple} and she{lter} for bi{rds}, while th{eir} roots he{lp} hold so{il} in pl{ace} during he{avy} rain. The group waters the trees when the soil is dry and checks the supports after strong winds. Volunteers also note which trees grow well in each part of the garden. These records guide the choice of places for future planting and help the group identify trees that need attention.", "tags": ["vocabulary", "vocabulary", "read", "vocabulary", "vocabulary", "read", "read", "vocabulary", "read", "read"]},
+   {"look": "passage", "text": "A town park contains a small meadow between a stream and a walking path. For years the grass was cut very short across the entire area. Park staff wanted to provide more shelter and flowering plants for insects while keeping the path accessible to visitors. They therefore marked a section away from the path where grass and other plants could grow longer.\n\nThe staff continued to cut a narrow strip beside the path. This made the edge of the route clear and left room for visitors to walk. Signs explained why the taller plants were being left in the marked area. The signs also asked visitors to keep dogs on the path rather than allowing them to run through the plants.\n\nTo observe the change, volunteers recorded the kinds of flowering plants they could identify in the marked section. They visited several times during the warmer months and used the same route each time. The following year they repeated the visits. They recorded more kinds of flowers during the second year's visits, although weather and the timing of flowering could also affect what was visible.\n\nThe observations helped staff plan further monitoring. They did not establish that every insect species had increased, because the volunteers had counted flowers rather than insects. Staff kept the longer vegetation and arranged separate insect observations for the next season. They also invited visitors to report blocked sections of the path, so that access could be maintained while the meadow was managed. The project therefore combined a change in cutting with records of plants and attention to visitor access.", "items": [
+    {"stem": "In the passage, what does monitoring involve?", "options": ["Cutting a strip beside the path", "Observing the meadow over time", "Putting up signs for visitors", "Letting the grass grow longer"], "answer": 1, "why": "依据：The observations helped staff plan further monitoring，随后又安排了下一季的昆虫观察。monitoring 指长期观察和记录。", "point": "vocabulary"},
+    {"stem": "Why did staff leave some plants taller?", "options": ["To stop visitors from using the path", "To leave room for visitors to walk", "To make the meadow more suitable for insects", "To create a place for dogs to run freely"], "answer": 2, "why": "依据：Park staff wanted to provide more shelter and flowering plants for insects。留高植物是为了给昆虫更多藏身处和开花植物。", "point": "read"},
+    {"stem": "What was the purpose of cutting a strip beside the path?", "options": ["To measure how many flowers grew there", "To give insects shelter beside the route", "To mark the area where insects were counted", "To keep the walking route clear for visitors"], "answer": 3, "why": "依据：This made the edge of the route clear and left room for visitors to walk。修剪窄条是为了方便游客通行。", "point": "read"},
+    {"stem": "What did volunteers record during their visits?", "options": ["The kinds of flowers they identified", "The number of every insect species", "The number of visitors walking dogs", "The blocked sections of the path"], "answer": 0, "why": "依据：volunteers recorded the kinds of flowering plants they could identify。志愿者记录的是能认出的开花植物种类。", "point": "read"},
+    {"stem": "Why were separate insect observations planned?", "options": ["The flowers were not visible in either year.", "Earlier records covered plants, not insects.", "The path had already been closed to visitors.", "Visitors had been asked to identify insects."], "answer": 1, "why": "依据：because the volunteers had counted flowers rather than insects。之前只数了花，判断不了昆虫是否增加。", "point": "read"}
+   ]}
+  ]}]}
+ ]
+}

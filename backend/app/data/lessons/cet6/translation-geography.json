@@ -1,0 +1,568 @@
+{
+ "id": "translation-geography",
+ "title": "地理与交通词汇",
+ "goal": "辨认地理与交通词汇，准确表达位置与连接关系。",
+ "skill": "翻译",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "vocab",
+   "label": "辨认地理与交通词汇"
+  },
+  {
+   "id": "meaning",
+   "label": "选择准确表达位置与连接关系的词语"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "翻译能力范围"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "地理与交通说明涉及地形、位置和路线。位于某地用 be located in；流经某地用 flow through，主语通常是河流。"
+    },
+    {
+     "box": "这条河流经山谷，公路连接山谷和城镇。\nThe river flows through the valley, and the road connects the valley with the town."
+    },
+    {
+     "p": "flow through 说明河流经过的区域。connect 说明两地相连，不指出去向。"
+    }
+   ]
+  },
+  {
+   "id": "terrain",
+   "type": "table",
+   "title": "词汇表：地形水系",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "搭配或例句"
+   ],
+   "rows": [
+    [
+     "mountain",
+     "n.",
+     "山",
+     "a mountain range"
+    ],
+    [
+     "valley",
+     "n.",
+     "山谷",
+     "a narrow valley"
+    ],
+    [
+     "plain",
+     "n.",
+     "平原",
+     "a coastal plain"
+    ],
+    [
+     "plateau",
+     "n.",
+     "高原",
+     "a high plateau"
+    ],
+    [
+     "basin",
+     "n.",
+     "盆地；流域",
+     "a river basin"
+    ],
+    [
+     "river",
+     "n.",
+     "河流",
+     "a river flows east"
+    ],
+    [
+     "lake",
+     "n.",
+     "湖泊",
+     "a freshwater lake"
+    ],
+    [
+     "tributary",
+     "n.",
+     "支流",
+     "a tributary joins the river"
+    ],
+    [
+     "coast",
+     "n.",
+     "海岸",
+     "along the coast"
+    ],
+    [
+     "shore",
+     "n.",
+     "岸",
+     "the shore of a lake"
+    ]
+   ]
+  },
+  {
+   "id": "location",
+   "type": "table",
+   "title": "词汇表：地理位置",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "搭配或例句"
+   ],
+   "rows": [
+    [
+     "locate",
+     "v.",
+     "使坐落于",
+     "be located in a valley"
+    ],
+    [
+     "northern",
+     "adj.",
+     "北部的",
+     "the northern region"
+    ],
+    [
+     "southern",
+     "adj.",
+     "南部的",
+     "the southern coast"
+    ],
+    [
+     "eastern",
+     "adj.",
+     "东部的",
+     "the eastern plain"
+    ],
+    [
+     "western",
+     "adj.",
+     "西部的",
+     "the western plateau"
+    ],
+    [
+     "upstream",
+     "adv.",
+     "在上游",
+     "travel upstream"
+    ],
+    [
+     "downstream",
+     "adv.",
+     "在下游",
+     "a town lies downstream"
+    ],
+    [
+     "border",
+     "n.",
+     "边界",
+     "cross the border"
+    ],
+    [
+     "adjacent",
+     "adj.",
+     "邻近的",
+     "adjacent to the lake"
+    ],
+    [
+     "surround",
+     "v.",
+     "环绕",
+     "hills surround the town"
+    ]
+   ]
+  },
+  {
+   "id": "facilities",
+   "type": "table",
+   "title": "词汇表：交通设施",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "搭配或例句"
+   ],
+   "rows": [
+    [
+     "railway",
+     "n.",
+     "铁路",
+     "build a railway"
+    ],
+    [
+     "highway",
+     "n.",
+     "公路",
+     "a highway crosses the plain"
+    ],
+    [
+     "bridge",
+     "n.",
+     "桥梁",
+     "a bridge over the river"
+    ],
+    [
+     "tunnel",
+     "n.",
+     "隧道",
+     "a tunnel through the mountain"
+    ],
+    [
+     "station",
+     "n.",
+     "车站",
+     "a railway station"
+    ],
+    [
+     "port",
+     "n.",
+     "港口",
+     "a busy port"
+    ],
+    [
+     "airport",
+     "n.",
+     "机场",
+     "an international airport"
+    ],
+    [
+     "route",
+     "n.",
+     "路线",
+     "a bus route"
+    ],
+    [
+     "platform",
+     "n.",
+     "站台",
+     "wait on the platform"
+    ],
+    [
+     "terminal",
+     "n.",
+     "终点站",
+     "a bus terminal"
+    ]
+   ]
+  },
+  {
+   "id": "links",
+   "type": "table",
+   "title": "词汇表：区域联系",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "搭配或例句"
+   ],
+   "rows": [
+    [
+     "connect",
+     "v.",
+     "连接",
+     "connect two towns"
+    ],
+    [
+     "link",
+     "v.",
+     "连接",
+     "link the port with the city"
+    ],
+    [
+     "cross",
+     "v.",
+     "穿过；横跨",
+     "cross the river"
+    ],
+    [
+     "flow",
+     "v.",
+     "流动",
+     "flow through a valley"
+    ],
+    [
+     "lead",
+     "v.",
+     "通往",
+     "lead to the station"
+    ],
+    [
+     "reach",
+     "v.",
+     "到达",
+     "reach the coast"
+    ],
+    [
+     "access",
+     "n.",
+     "通达途径",
+     "access to the port"
+    ],
+    [
+     "transport",
+     "n.",
+     "运输",
+     "rail transport"
+    ],
+    [
+     "freight",
+     "n.",
+     "货运",
+     "carry freight by rail"
+    ],
+    [
+     "network",
+     "n.",
+     "网络",
+     "a transport network"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "小镇位于山谷东部，一条河流经镇旁。桥梁横跨河流，公路由桥通往车站。桥梁连接两岸，但河水沿山谷向南流动。车站位于公路尽头，旅客可以从这里乘火车离开山谷。\nThe town is located in the eastern part of the valley, beside a river that flows past it. A bridge crosses the river, and a road leads from the bridge to the station. The bridge connects the banks, while the water flows south along the valley. The station stands at the end of the road, where travelers can take a train out of the valley."
+    },
+    {
+     "p": "located in 表示位置，flows past 表示流经镇旁。leads from ... to 标明道路的起点和终点。"
+    },
+    {
+     "box": "What connects the banks?\n1. The road to the station\n2. The bridge across the river\n3. The river along the valley\n4. The station beside the road"
+    },
+    {
+     "p": "第二项对应 The bridge connects the banks。河流沿山谷流动，桥梁横跨河流。"
+    }
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "vocab"
+   ],
+   "groups": [
+    {
+     "fill": "A river passes through a broad valley. The ri{ver} flows past a to{wn} before turning toward the co{ast}, where the river reaches the sea. A bri{dge} crosses the water near a sta{tion}. From the station a ro{ad} leads to a po{rt} where boats load cargo. A rai{lway} follows the valley through a tun{nel} below a rocky ri{dge}. These routes serve different places, so a map shows their directions and destinations separately. The river flows naturally; the road and railway are built routes.",
+     "tags": [
+      "vocab",
+      "vocab",
+      "vocab",
+      "vocab",
+      "vocab",
+      "vocab",
+      "vocab",
+      "vocab",
+      "vocab",
+      "vocab"
+     ],
+     "notes": [
+      "river：首句说明河流。",
+      "town：河流流经城镇旁。",
+      "coast：河流转向海岸。",
+      "bridge：桥梁横跨水面。",
+      "station：桥梁靠近车站。",
+      "road：公路由车站通向港口。",
+      "port：港口装载船货。",
+      "railway：铁路沿山谷延伸。",
+      "tunnel：隧道穿过山脊下方。",
+      "ridge：隧道在山脊下方。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "vocab",
+    "meaning"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A Valley Route\n\nA railway runs through a valley. A tunnel carries it beneath a ridge, and a bridge takes it across a river. The station lies east of the bridge. A road leads from the station to a lake, but the railway continues north to a town.",
+     "items": [
+      {
+       "stem": "What crosses the river?",
+       "options": [
+        "The bridge",
+        "The tunnel",
+        "The valley",
+        "The ridge"
+       ],
+       "answer": 0,
+       "why": "a bridge takes it across a river 表明桥横跨河流。",
+       "point": "meaning"
+      },
+      {
+       "stem": "Where is the station?",
+       "options": [
+        "West of the bridge",
+        "East of the bridge",
+        "Beneath the ridge",
+        "North of the town"
+       ],
+       "answer": 1,
+       "why": "The station lies east of the bridge 指明车站在桥东。",
+       "point": "meaning"
+      },
+      {
+       "stem": "What does the tunnel pass beneath?",
+       "options": [
+        "The station",
+        "The lake",
+        "The ridge",
+        "The road"
+       ],
+       "answer": 2,
+       "why": "a tunnel carries it beneath a ridge 指明隧道穿过山脊下方。",
+       "point": "vocab"
+      },
+      {
+       "stem": "Where does the road lead?",
+       "options": [
+        "To the ridge",
+        "To the river",
+        "To the town",
+        "To the lake"
+       ],
+       "answer": 3,
+       "why": "a road leads from the station to a lake 指明终点是湖。",
+       "point": "meaning"
+      },
+      {
+       "stem": "What continues north?",
+       "options": [
+        "The road",
+        "The railway",
+        "The bridge",
+        "The river"
+       ],
+       "answer": 1,
+       "why": "the railway continues north to a town 指明铁路向北延伸。",
+       "point": "vocab"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 8,
+   "pass": 0.75,
+   "points": [
+    "vocab",
+    "meaning"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "fill": "A railway serves several inland towns. The rai{lway} crosses a bri{dge} over a ri{ver} and continues through a tun{nel} beneath the hi{lls}. It reaches a sta{tion} near a la{ke} whose water supplies the surrounding farms. Trains carry passengers and fre{ight}, meaning goods, along the ro{ute}. Travelers can change to bu{ses} at the station. A map distinguishes this railway from the road because the two routes follow different paths through the hills.",
+       "tags": [
+        "vocab",
+        "vocab",
+        "vocab",
+        "vocab",
+        "vocab",
+        "vocab",
+        "vocab",
+        "vocab",
+        "vocab",
+        "vocab"
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A Route Across the Plain\n\nA town stands on the eastern edge of a broad plain. A river flows south through the plain and passes west of the town. Farther south, the river reaches a lake. The town itself is not on the lake shore.\n\nA railway links the town with a port on the coast. It first travels west across the river on a bridge, then turns south toward the port. A station beside the bridge serves villages on both banks. From this station, a road leads east to the town. The road and the railway therefore both reach the town from the bridge.\n\nThe port handles goods brought by train. The railway carries these goods from the town toward the coast. A separate road continues from the port along the coast. It does not cross the plain or follow the river. Maps of the area distinguish these routes by showing the bridge, the station and the port as separate locations. The river is a natural waterway, while the railway and roads are built routes.\n\n中文信息：城镇位于平原东缘，河流从镇西向南流入湖中。铁路经桥梁连接城镇与海港，桥旁的车站有公路通往城镇。",
+       "items": [
+        {
+         "stem": "Where does the river pass the town?",
+         "options": [
+          "To its east",
+          "To its west",
+          "To its south",
+          "Along its lake shore"
+         ],
+         "answer": 1,
+         "why": "passes west of the town 说明河流从镇西经过，即第二项。河流向南流的是方向，不是相对城镇的位置。",
+         "point": "meaning"
+        },
+        {
+         "stem": "What does the railway link?",
+         "options": [
+          "The lake and the river",
+          "The coast and the plain",
+          "The town and the port",
+          "The bridge and the lake"
+         ],
+         "answer": 2,
+         "why": "A railway links the town with a port 指明两个连接地点。",
+         "point": "meaning"
+        },
+        {
+         "stem": "What does the bridge carry across the river?",
+         "options": [
+          "The railway",
+          "The coastal road",
+          "The station",
+          "The villages on both banks"
+         ],
+         "answer": 0,
+         "why": "travels west across the river on a bridge 指铁路经桥过河。",
+         "point": "vocab"
+        },
+        {
+         "stem": "Where does the road from the station lead?",
+         "options": [
+          "West to the coast",
+          "South to the lake",
+          "North to the river",
+          "East to the town"
+         ],
+         "answer": 3,
+         "why": "a road leads east to the town 指明方向和终点。",
+         "point": "meaning"
+        },
+        {
+         "stem": "What does a road along the coast follow?",
+         "options": [
+          "The bridge",
+          "The shore",
+          "The river",
+          "The railway"
+         ],
+         "answer": 1,
+         "why": "along the coast 表示沿海岸，与 shore 对应。",
+         "point": "vocab"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

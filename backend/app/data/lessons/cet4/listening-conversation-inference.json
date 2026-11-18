@@ -1,0 +1,555 @@
+{
+ "id": "listening-conversation-inference",
+ "title": "对话推断与行动题",
+ "goal": "根据对话中的依据推断情况与确定的行动。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "basis",
+   "label": "找出支持对话推断的证据"
+  },
+  {
+   "id": "action",
+   "label": "区分建议与最终确定的行动"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "长对话材料的教学依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "type",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "推断题要求根据对话推出没有直接说出的情况。What can be inferred 问能推出什么。What is the speaker likely to do 问说话人随后会做什么。"
+    },
+    {
+     "box": "A: Can the printer be used?\nB: It has no paper, and the cupboard is empty. I'll ask the office for some."
+    },
+    {
+     "p": "柜子空了，说明现在没有纸可补。I'll ask 表示说话人已决定去办公室要纸。推断只从已知事实往前推一步。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　识别问法",
+     "d": "can be inferred 问情况，likely to do 问行动。先看题干问的是谁、什么事。"
+    },
+    {
+     "t": "2　寻找依据",
+     "d": "依据常是说话人的职责或遇到的困难。The clerk checks loans 和 the clerk can renew the book 说明这位职员负责借阅服务。"
+    },
+    {
+     "t": "3　核对最终安排",
+     "d": "按对话顺序分清愿望、建议和最后的决定。We could call 只是建议，I'll call 才是说话人决定自己打电话。"
+    }
+   ]
+  },
+  {
+   "id": "evidence",
+   "type": "table",
+   "title": "推断依据",
+   "cols": [
+    "依据",
+    "例",
+    "推断"
+   ],
+   "rows": [
+    [
+     "职责",
+     "I check returned books and renew loans.",
+     "说话人负责借阅服务。"
+    ],
+    [
+     "实际困难",
+     "The cupboard is empty; we need paper for the printer.",
+     "打印前需要取得纸张。"
+    ],
+    [
+     "最后决定",
+     "I'll ask the office for paper this afternoon.",
+     "说话人准备向办公室询问。"
+    ],
+    [
+     "条件",
+     "If the hall is free, we'll book it.",
+     "预订取决于大厅是否空闲。"
+    ]
+   ],
+   "note": "有条件的计划，条件要和计划一起记。行动以最后确认的为准。"
+  },
+  {
+   "id": "decisions",
+   "type": "table",
+   "title": "计划的确定程度",
+   "cols": [
+    "类型",
+    "例",
+    "含义"
+   ],
+   "rows": [
+    [
+     "愿望",
+     "I hope to visit the exhibition.",
+     "希望参观，尚未确定。"
+    ],
+    [
+     "建议",
+     "We could visit the exhibition on Friday.",
+     "提出周五参观。"
+    ],
+    [
+     "承诺",
+     "I'll call the exhibition office.",
+     "说话人承诺打电话。"
+    ],
+    [
+     "确定安排",
+     "We've booked tickets for Friday.",
+     "周五的票已经预订。"
+    ]
+   ]
+  },
+  {
+   "id": "example",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A: Could we use the small van for the boxes?\nB: The van is being repaired. We could ask for the larger one.\nA: Good. I'll call the transport office now.\nB: The boxes are ready beside the door.\nA: Are they all marked with the destination?\nB: Yes, each box has a label.\nA: I'll mention that when I call.\nB: I'll wait here until we hear about the van."
+    },
+    {
+     "box": "What is A likely to do next?\n1. Repair the small van.\n2. Telephone the transport office.\n3. Pack boxes in the small van.\n4. Drive the larger van immediately."
+    },
+    {
+     "p": "依据是 I'll call the transport office now，说话人已决定马上打电话，即第二项。第四项不对：大车还没有要到。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "建议当决定",
+     "We could ask → the van is booked",
+     "核对建议是否已被确认。"
+    ],
+    [
+     "困难反转",
+     "The van is being repaired → it is ready",
+     "核对车辆的当前状态。"
+    ],
+    [
+     "行动者替换",
+     "I'll call → the listener will call",
+     "核对承诺行动的人。"
+    ],
+    [
+     "超出依据",
+     "I'll call → the van will arrive today",
+     "原文没有说车何时到。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "basis",
+    "action"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Can you print the maps?"
+       },
+       {
+        "who": "B",
+        "text": "The printer has ink, but there's no paper in the room."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What can be inferred about printing the maps now?",
+       "options": [
+        "The printer needs more ink.",
+        "Paper must first be obtained.",
+        "The maps have been printed.",
+        "The room has another printer."
+       ],
+       "answer": 1,
+       "why": "There's no paper in the room 表明需要先取得纸张，即第二项。",
+       "point": "basis"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Do you work with the returned books?"
+       },
+       {
+        "who": "B",
+        "text": "Yes. I check them in and renew loans at this desk."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What can be inferred about the second speaker's duties?",
+       "options": [
+        "The second speaker is returning books borrowed earlier.",
+        "B repairs damaged books at the desk.",
+        "The second speaker decides which new books to buy.",
+        "B handles services for borrowers."
+       ],
+       "answer": 3,
+       "why": "依据是 I check them in and renew loans at this desk。办理还书和续借，说明答话的人负责借阅服务，即第四项。",
+       "point": "basis"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "We could email the schedule to the volunteers."
+       },
+       {
+        "who": "B",
+        "text": "Good idea. I'll send it this evening."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is the second speaker likely to do this evening?",
+       "options": [
+        "Email the volunteers the schedule",
+        "Ask the volunteers to write a schedule",
+        "Print the schedule for the volunteers",
+        "Meet the volunteers to change the schedule"
+       ],
+       "answer": 0,
+       "why": "I'll send it this evening 承接发送日程表的建议，即第一项。",
+       "point": "action"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "We could use the garden for the sale."
+       },
+       {
+        "who": "B",
+        "text": "It's going to rain. Let's use the hall instead."
+       },
+       {
+        "who": "A",
+        "text": "Agreed. I'll book the hall."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What will the first speaker probably do?",
+       "options": [
+        "Set up the sale in the garden",
+        "Wait to see whether it rains",
+        "Reserve the hall for the sale",
+        "Ask for the hall booking to be cancelled"
+       ],
+       "answer": 2,
+       "why": "依据是 Agreed. I'll book the hall，这是最后确认的安排，即第三项。第一项在花园办是最初的建议。",
+       "point": "action"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "basis",
+    "action"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The signs for the walking tour aren't ready."
+       },
+       {
+        "who": "B",
+        "text": "The printer has broken down."
+       },
+       {
+        "who": "A",
+        "text": "Could we use the printer at the community center?"
+       },
+       {
+        "who": "B",
+        "text": "It closes at five, and it's already six."
+       },
+       {
+        "who": "A",
+        "text": "Then perhaps we can write the signs by hand."
+       },
+       {
+        "who": "B",
+        "text": "We have markers and large sheets of card."
+       },
+       {
+        "who": "A",
+        "text": "Let's do that. I'll write the directions."
+       },
+       {
+        "who": "B",
+        "text": "I'll put the finished signs by the door."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What can be inferred about using the community center printer tonight?",
+       "options": [
+        "It has broken down like the other one.",
+        "It can be used again at six.",
+        "It cannot be used at this hour.",
+        "It prints signs only on large card."
+       ],
+       "answer": 2,
+       "why": "依据是 It closes at five, and it's already six。社区中心已经关门，那里的打印机现在用不了，即第三项。",
+       "point": "basis"
+      },
+      {
+       "stem": "What is the second speaker likely to do with the signs?",
+       "options": [
+        "Leave the completed signs near the door",
+        "Print the signs at the community center",
+        "Write the directions on the large cards",
+        "Take the broken printer to the door"
+       ],
+       "answer": 0,
+       "why": "依据是 I'll put the finished signs by the door，这位说话人会把写好的标牌放在门边，即第一项。第三项写指路内容的是另一位说话人。",
+       "point": "action"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 8,
+   "pass": 0.75,
+   "points": [
+    "basis",
+    "action"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Nora, I'm organizing the neighborhood seed exchange on Saturday. We have enough packets of seeds, but I still need a place where visitors can write their names and leave the packets they bring."
+         },
+         {
+          "who": "B",
+          "text": "The community center has a long table. I'm responsible for lending out its furniture, so I can check whether anyone has reserved the table for that day."
+         },
+         {
+          "who": "A",
+          "text": "That would be helpful. We could put it near the front entrance. I had hoped to use the room upstairs, but the lift is being repaired, and some visitors cannot use the stairs."
+         },
+         {
+          "who": "B",
+          "text": "In that case the ground floor is better. There's a space beside the entrance, though we should keep the doorway clear. I'll look at the furniture schedule now."
+         },
+         {
+          "who": "A",
+          "text": "Thank you. We also need labels for the packets. I thought of printing them, but the office printer won't be fixed until next week."
+         },
+         {
+          "who": "B",
+          "text": "We could write the labels on small cards. There are plenty of cards and markers in the cupboard, and I can bring them when I come on Saturday."
+         },
+         {
+          "who": "A",
+          "text": "Let's do that. I'll write the names of the plants on the cards on Friday, once you have brought them to my desk. That gives us time to check the spelling."
+         },
+         {
+          "who": "B",
+          "text": "I've just checked the schedule: the table is free. I'll reserve it for Saturday and bring the cards to your desk tomorrow. We can arrange everything on the ground floor before visitors arrive on Saturday morning."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What can be inferred about Nora's role at the community center?",
+         "options": [
+          "She manages reservations for its furniture.",
+          "She repairs the lift and the office printer.",
+          "She is organizing the seed exchange on Saturday.",
+          "She is in charge of the office printer."
+         ],
+         "answer": 0,
+         "why": "依据是 I'm responsible for lending out its furniture，Nora 负责家具的借用和预订，即第一项。第三项组织换种子活动的是对方。",
+         "point": "basis"
+        },
+        {
+         "stem": "Why is the upstairs room difficult for some visitors to use?",
+         "options": [
+          "The doorway must be kept clear.",
+          "The stairs are being repaired.",
+          "The lift is unavailable at present.",
+          "The room has no table free that day."
+         ],
+         "answer": 2,
+         "why": "依据是 the lift is being repaired 和 some visitors cannot use the stairs。电梯在修，即第三项。第二项把修电梯说成了修楼梯。",
+         "point": "basis"
+        },
+        {
+         "stem": "What is Nora likely to do after checking the schedule?",
+         "options": [
+          "Write the plant names on the cards",
+          "Reserve the table for the exchange",
+          "Move the event into the upstairs room",
+          "Print the labels on the office printer"
+         ],
+         "answer": 1,
+         "why": "依据是 the table is free 之后的 I'll reserve it for Saturday，即第二项。第一项写植物名是对方周五要做的事。",
+         "point": "action"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Ben, the volunteers are preparing a walking tour of the town's old market area. I have a list of the stops, but the route has to be checked before we share it."
+         },
+         {
+          "who": "B",
+          "text": "I can help. I guide visitors around that area on weekends, and I know where the public paths and crossings are. Are we planning to start at the station?"
+         },
+         {
+          "who": "A",
+          "text": "That's what I hoped, but the entrance beside the station is closed while workers replace the pavement. The other entrance near the fountain is open and wide enough for the group."
+         },
+         {
+          "who": "B",
+          "text": "Then we should start by the fountain. I'll walk the route tomorrow and check that each crossing is open. I can also note any places where the group might need to wait."
+         },
+         {
+          "who": "A",
+          "text": "Great. We could print maps for everyone, but the map file still shows the old entrance. It needs to be changed before the office can print it."
+         },
+         {
+          "who": "B",
+          "text": "Perhaps the office can update it after I check the route. I'll send the staff my notes tomorrow evening, including the new starting point and the crossings."
+         },
+         {
+          "who": "A",
+          "text": "Agreed. I'll ask the office to update the map once your notes arrive. We won't print anything until the staff have corrected the file."
+         },
+         {
+          "who": "B",
+          "text": "I'll bring a copy of the current map with me tomorrow so I can mark the changes. If I find another closed path, I'll include it in the notes as well. That will help the office make an accurate map."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What can be inferred about Ben's knowledge of the market area?",
+         "options": [
+          "He has never walked the route before.",
+          "He regularly leads visitors there.",
+          "He prints maps for the office.",
+          "He supervises the pavement repairs."
+         ],
+         "answer": 1,
+         "why": "依据是 I guide visitors around that area on weekends，Ben 每个周末都在那里带人参观，即第二项。",
+         "point": "basis"
+        },
+        {
+         "stem": "What is Ben likely to do tomorrow evening?",
+         "options": [
+          "Print the updated maps for the group",
+          "Correct the map file on his own",
+          "Send route notes to the office staff",
+          "Guide the group from the station entrance"
+         ],
+         "answer": 2,
+         "why": "依据是 I'll send the staff my notes tomorrow evening，这是 Ben 确定要做的事，即第三项。第二项改地图文件的是办公室。",
+         "point": "action"
+        },
+        {
+         "stem": "What is the first speaker likely to ask the office to do?",
+         "options": [
+          "Check each crossing along the route",
+          "Print maps showing the old entrance",
+          "Print the maps before the notes arrive",
+          "Change the map once the notes arrive"
+         ],
+         "answer": 3,
+         "why": "依据是 I'll ask the office to update the map once your notes arrive，即第四项。第三项与 We won't print anything until the staff have corrected the file 相反。",
+         "point": "action"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,612 @@
+{
+ "id": "listening-p1-numbers",
+ "title": "数字与日期的听辨",
+ "goal": "辨认数字、号码、金额、时刻与日期，并核对它们对应的对象及单位。",
+ "skill": "听力",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "number",
+   "label": "听辨数字、金额和连续号码"
+  },
+  {
+   "id": "date",
+   "label": "记录时刻与日期并核对单位"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "雅思 IELTS Academic：课表",
+   "url": "docs/syllabi/ielts.md",
+   "used": "听力课的内容、知识点与教学规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "数字要和它所指的对象一起记。thirteen 和 thirty 数值不同，还可能分属人数和费用。连续号码逐位记下，不当作数量。"
+    },
+    {
+     "box": "There are thirteen guests. The meal costs thirty pounds per person.\nGuests: 13 / Price per person: £30"
+    },
+    {
+     "p": "时刻是几点钟，时长是持续多久。日期要写出日和月。金额要核对小数，以及每人、每晚等单位。单价和总价不能混用。"
+    },
+    {
+     "box": "The appointment is at ten fifteen and lasts forty minutes.\nAppointment time: 10:15 / Duration: 40 minutes"
+    }
+   ]
+  },
+  {
+   "id": "integers",
+   "type": "table",
+   "title": "相近数字与连续号码",
+   "cols": [
+    "类别",
+    "表达与记录",
+    "说明"
+   ],
+   "rows": [
+    [
+     "十三与三十",
+     "thirteen guests → 13; thirty pounds → £30",
+     "-teen 和 -ty 词尾不同，再用所指对象核对。"
+    ],
+    [
+     "十四与四十",
+     "fourteen chairs → 14; forty tables → 40",
+     "听清词尾，开头相同不能作依据。"
+    ],
+    [
+     "十五与五十",
+     "fifteen tickets → 15; fifty seats → 50",
+     "重音会随语境变化，要同时听词尾。"
+    ],
+    [
+     "十八与八十",
+     "eighteen rooms → 18; eighty pounds → £80",
+     "-teen 结尾有鼻音 n。连读时再用上下文核对。"
+    ],
+    [
+     "逐位号码",
+     "zero seven two, one eight four → 072184",
+     "开头的零是号码的一部分，要写出来。"
+    ],
+    [
+     "重复数字",
+     "double three, six, double eight → 33688",
+     "double 只重复紧随其后的一个数字。"
+    ],
+    [
+     "零的读法",
+     "oh four, zero nine, two → 04092",
+     "号码语境中的 oh 可表示零。"
+    ],
+    [
+     "分组停顿",
+     "six two, four eight, one five → 624815",
+     "停顿用于分组，不改变数字先后。"
+    ]
+   ]
+  },
+  {
+   "id": "money",
+   "type": "table",
+   "title": "金额与小数",
+   "cols": [
+    "表达",
+    "记录",
+    "说明"
+   ],
+   "rows": [
+    [
+     "It's thirteen pounds fifty per person.",
+     "£13.50 per person",
+     "pounds 后面的 fifty 是 50 便士，不是另加 £50。"
+    ],
+    [
+     "The charge is thirty pounds and five pence.",
+     "£30.05",
+     "5 便士写 .05，50 便士写 .50。"
+    ],
+    [
+     "The total is eight pounds seventy-five.",
+     "£8.75",
+     "这是总价，不换算成每人的价格。"
+    ],
+    [
+     "It's forty-two pounds ten per night.",
+     "£42.10 per night",
+     "per night 是每晚的价格，不是整个住宿的价格。"
+    ]
+   ]
+  },
+  {
+   "id": "time-date",
+   "type": "table",
+   "title": "时刻与日期",
+   "cols": [
+    "类别",
+    "表达与记录",
+    "说明"
+   ],
+   "rows": [
+    [
+     "时刻",
+     "quarter past nine in the morning → 09:15",
+     "past 是过了九点一刻，不写成 08:45。"
+    ],
+    [
+     "时刻",
+     "half past two in the afternoon → 14:30",
+     "afternoon 说明是下午。half past 是过了半小时。"
+    ],
+    [
+     "时刻",
+     "quarter to six in the evening → 17:45",
+     "to 是差一刻到六点，不写成 18:15。"
+    ],
+    [
+     "时刻",
+     "ten to eight in the morning → 07:50",
+     "八点差十分，不是 08:10。"
+    ],
+    [
+     "日期",
+     "the third of February → 3 February",
+     "是二月三日，不是三月二日。"
+    ],
+    [
+     "日期",
+     "June the twenty-first → 21 June",
+     "月份在前，日期照样写成日加月。"
+    ],
+    [
+     "日期",
+     "the twelfth of October → 12 October",
+     "twelfth 是 12，词形变了，数字不变。"
+    ],
+    [
+     "日期",
+     "April the thirtieth → 30 April",
+     "thirtieth 与 thirteenth 不同，分别为 30 和 13。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A: I'd like the price for a room on the thirteenth of March.\nB: It's thirty pounds and fifty pence per person per night. Arrival is from quarter to five in the afternoon.\nA: Could I leave a contact number? It's zero seven two, double four, six one."
+    },
+    {
+     "box": "Date: 13 March\nPrice: £30.50 per person per night\nEarliest arrival: 16:45\nContact number: 0724461"
+    },
+    {
+     "p": "thirteenth 是日期，thirty 是价格。per person per night 是每人每晚的价格，不是整间房的总价。quarter to five 是差一刻五点，即 16:45。"
+    },
+    {
+     "p": "号码里的 double four 写成 44，开头的 zero 要保留。如果题面已给 £，空内只写 30.50。"
+    }
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "number"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "How many display stands are needed?"
+       },
+       {
+        "who": "B",
+        "text": "Fourteen. The hall has space for forty, but we only need fourteen."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Stands needed: ___ . Write A NUMBER in digits.",
+       "accept": [
+        "14"
+       ],
+       "why": "we only need fourteen 明确需求是 14，40 是容量。",
+       "point": "number"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "What's the reference number for the repair?"
+       },
+       {
+        "who": "B",
+        "text": "Zero six, double two, eight nine. That's the reference, not the cost."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Reference number: ___ . Write the digits without spaces.",
+       "accept": [
+        "062289"
+       ],
+       "why": "Zero six, double two, eight nine 展开为 062289，重复的是数字 2。",
+       "point": "number"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Is the fabric eight pounds fifty a metre?"
+       },
+       {
+        "who": "B",
+        "text": "It's eight pounds and five pence a metre. Eight fifty was the old price."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Current price per metre: £___ . Write the amount in digits to two decimal places.",
+       "accept": [
+        "8.05"
+       ],
+       "why": "five pence 对应 .05，旧价 eight fifty 不再适用。",
+       "point": "number"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The standard hamper is fifteen pounds, and the large hamper is fifty."
+       },
+       {
+        "who": "B",
+        "text": "I'll order the standard one."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is the price of the chosen hamper?",
+       "options": [
+        "£50 for the large hamper",
+        "£15 for the standard hamper",
+        "£50 for the standard hamper",
+        "£15 for the large hamper"
+       ],
+       "answer": 1,
+       "why": "standard one 对应 fifteen pounds，large hamper 对应 fifty。",
+       "point": "number"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "date"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "When does the locksmith's visit start?"
+       },
+       {
+        "who": "B",
+        "text": "At twenty past three in the afternoon. It should take twenty minutes."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Visit start: ___ . Use digits in 24-hour HH:MM format.",
+       "accept": [
+        "15:20"
+       ],
+       "why": "twenty past three in the afternoon 是 15:20，twenty minutes 是时长。",
+       "point": "date"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Is the costume collection on the twelfth of April?"
+       },
+       {
+        "who": "B",
+        "text": "No, April the twentieth. The twelfth is the fitting."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Collection date: ___ . Write the day before the full month name, using ONE WORD AND A NUMBER.",
+       "accept": [
+        "20 April",
+        "20th April"
+       ],
+       "why": "April the twentieth 对应领取日期，twelfth 是试穿日期。",
+       "point": "date"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The adult entry is eighteen pounds per person. The family ticket is forty."
+       },
+       {
+        "who": "B",
+        "text": "We need two adult entries, not a family ticket."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which unit applies to the £18 price?",
+       "options": [
+        "Per family ticket",
+        "Per pair of adults",
+        "Per adult entry",
+        "Per whole event"
+       ],
+       "answer": 2,
+       "why": "eighteen pounds per person 是每位成人的价格，即第三项。两位成人一共要付 36 镑。",
+       "point": "date"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The coach leaves at quarter to eleven in the morning. Check-in opens at half past ten."
+       },
+       {
+        "who": "B",
+        "text": "So check-in starts fifteen minutes before departure."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Departure time: ___ . Use digits in 24-hour HH:MM format.",
+       "accept": [
+        "10:45"
+       ],
+       "why": "quarter to eleven 是 10:45，10:30 是签到开始时刻。",
+       "point": "date"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "number",
+    "date"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Hello, I'm enquiring about the recording booth at the neighbourhood media centre. I need to make a short voice recording, and I'd like to check the charges before I arrange a visit."
+         },
+         {
+          "who": "B",
+          "text": "The basic booth costs thirteen pounds fifty per hour. The larger studio is thirty pounds an hour, but that includes space for several musicians. Which would be suitable?"
+         },
+         {
+          "who": "A",
+          "text": "The basic booth will be enough. I just need a quiet space for one person. Can I come on the twenty-second of February?"
+         },
+         {
+          "who": "B",
+          "text": "Yes. There's an appointment at quarter past two in the afternoon. The morning slot at half past ten has already been taken."
+         },
+         {
+          "who": "A",
+          "text": "I'll take the afternoon appointment. Is there a reference number I should bring?"
+         },
+         {
+          "who": "B",
+          "text": "Yes, it's zero eight, double six, one four. Please keep the leading zero when writing it down. The reference is separate from the room number."
+         },
+         {
+          "who": "A",
+          "text": "Understood. I'll bring my notes and arrive a little before the appointment."
+         },
+         {
+          "who": "B",
+          "text": "That's fine. The assistant will meet the visitor at reception and show the way to the booth."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Booking reference: ___ . Write the digits without spaces.",
+         "accept": [
+          "086614"
+         ],
+         "why": "zero eight, double six, one four 写成 086614。开头的零要保留，double six 写成 66。",
+         "point": "number"
+        },
+        {
+         "stem": "What is the hourly price of the basic booth?",
+         "options": [
+          "£30.00",
+          "£13.05",
+          "£13.50",
+          "£30.50"
+         ],
+         "answer": 2,
+         "why": "thirteen pounds fifty 是 £13.50，即第三项。£30.00 是大录音室的价格。",
+         "point": "number"
+        },
+        {
+         "stem": "When is the booked appointment?",
+         "options": [
+          "14:15",
+          "10:30",
+          "14:30",
+          "10:15"
+         ],
+         "answer": 0,
+         "why": "quarter past two in the afternoon 是 14:15，half past ten 是已被占用的上午时段。",
+         "point": "date"
+        },
+        {
+         "stem": "Appointment date: ___ . Write ONE WORD AND A NUMBER, with the day before the full month name.",
+         "accept": [
+          "22 February",
+          "22nd February"
+         ],
+         "why": "the twenty-second of February 对应 22 February；序数后缀也可保留。",
+         "point": "date"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'm organising transport for our local walking club and need to check the minibus booking. There will be eighteen passengers. I noticed eighty pounds on the earlier quotation and wasn't sure what it covered."
+         },
+         {
+          "who": "B",
+          "text": "The eighty pounds is the vehicle charge for one day. Eighteen passengers is within its capacity. There's also a parking charge of four pounds and five pence, which is paid separately."
+         },
+         {
+          "who": "A",
+          "text": "Thanks. The walk is on the thirtieth of September, not the thirteenth. Could the bus be ready at ten to nine in the morning?"
+         },
+         {
+          "who": "B",
+          "text": "Yes, that's possible. The driver will arrive at twenty past eight to inspect the vehicle, but passengers should use the agreed departure time."
+         },
+         {
+          "who": "A",
+          "text": "That's clear. Will the eighty-pound charge apply to each passenger?"
+         },
+         {
+          "who": "B",
+          "text": "No, it's per vehicle per day. It doesn't increase with the number of passengers on this booking. The parking charge is still separate."
+         },
+         {
+          "who": "A",
+          "text": "Then please confirm that arrangement for the thirtieth."
+         },
+         {
+          "who": "B",
+          "text": "I've confirmed it. The invoice will show the vehicle charge and the separate parking amount on different lines."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Parking charge: £___ . Write the amount in digits to two decimal places.",
+         "accept": [
+          "4.05"
+         ],
+         "why": "four pounds and five pence 对应 4.05，5 便士不是 .50。",
+         "point": "number"
+        },
+        {
+         "stem": "How many passengers are travelling?",
+         "options": [
+          "80",
+          "18",
+          "13",
+          "30"
+         ],
+         "answer": 1,
+         "why": "There will be eighteen passengers 说明人数是 18，即第二项。80 是车辆费用。",
+         "point": "number"
+        },
+        {
+         "stem": "What does the £80 charge cover?",
+         "options": [
+          "One passenger for the day",
+          "One vehicle including parking",
+          "All passengers on both dates",
+          "One vehicle for one day"
+         ],
+         "answer": 3,
+         "why": "per vehicle per day 说明是一辆车一天的费用，即第四项。停车费另付，所以第二项不对。",
+         "point": "date"
+        },
+        {
+         "stem": "Agreed departure time: ___ . Use digits in 24-hour HH:MM format.",
+         "accept": [
+          "08:50"
+         ],
+         "why": "ten to nine in the morning 是 08:50；twenty past eight 是司机检查车辆的时间。",
+         "point": "date"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,746 @@
+{
+ "id": "listening-talk-science",
+ "title": "常考学科：自然科学",
+ "goal": "认识本学科的常用词；听懂本学科的短讲并答题。",
+ "skill": "listening",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 听力",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "vocab",
+   "label": "认识本学科的常用词"
+  },
+  {
+   "id": "listen",
+   "label": "听懂本学科的短讲并答题"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、录音长度、只放一遍"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "各题型的说明、考查的能力、官方样题"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Listening Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-listening.pdf",
+   "used": "第 1 课：四类题的说明和小测答案；第 2、4 课：应答配对、重音和语调"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "自然科学短讲常讲生物、地球科学、天文和物理。术语的意思看定义和它在句中的关系。A predator hunts prey. 中 predator 是捕食者，prey 是被捕食者，两者不能对调。"
+    },
+    {
+     "p": "生物材料常讲结构与功能，如 root hairs absorb water。地球科学讲地球内部和地表的过程，常比较不同的介质，如 waves travel at different velocities。天文材料要分清 orbit 和 rotation，物理材料要分清 frequency 和 amplitude。"
+    },
+    {
+     "p": "认得词还不够，答案要以录音为依据。The instrument detected a vibration. 只说明探测到了振动，没说原因。原因要听后面的解释。"
+    }
+   ]
+  },
+  {
+   "id": "biology",
+   "type": "table",
+   "title": "词汇表：生物",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "organism",
+     "n.",
+     "生物；有机体",
+     "A single organism may consist of one cell."
+    ],
+    [
+     "species",
+     "n.",
+     "物种",
+     "Several species share this habitat."
+    ],
+    [
+     "habitat",
+     "n.",
+     "栖息地",
+     "The wetland provides habitat for many birds."
+    ],
+    [
+     "population",
+     "n.",
+     "种群",
+     "The population contains individuals of the same species."
+    ],
+    [
+     "predator",
+     "n.",
+     "捕食者",
+     "A predator hunts other animals for food."
+    ],
+    [
+     "prey",
+     "n.",
+     "被捕食的动物；猎物",
+     "The owl carries its prey to the nest."
+    ],
+    [
+     "nutrient",
+     "n.",
+     "营养物质",
+     "Roots take up nutrients from the soil."
+    ],
+    [
+     "absorb",
+     "v.",
+     "吸收",
+     "Root hairs absorb water from the soil."
+    ],
+    [
+     "release",
+     "v.",
+     "释放",
+     "The cells release energy from nutrients."
+    ],
+    [
+     "tissue",
+     "n.",
+     "组织",
+     "Plant tissue contains specialized cells."
+    ],
+    [
+     "cell",
+     "n.",
+     "细胞",
+     "A membrane surrounds each cell."
+    ],
+    [
+     "membrane",
+     "n.",
+     "膜",
+     "The membrane separates the cell from its surroundings."
+    ],
+    [
+     "adaptation",
+     "n.",
+     "适应性特征；适应",
+     "Thick fur is an adaptation to cold conditions."
+    ],
+    [
+     "reproduce",
+     "v.",
+     "繁殖",
+     "These organisms reproduce by dividing."
+    ]
+   ]
+  },
+  {
+   "id": "earth",
+   "type": "table",
+   "title": "词汇表：地球科学",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "mineral",
+     "n.",
+     "矿物",
+     "Quartz is a common mineral."
+    ],
+    [
+     "crystal",
+     "n.",
+     "晶体",
+     "The crystal has a regular internal structure."
+    ],
+    [
+     "sediment",
+     "n.",
+     "沉积物",
+     "Fine sediment settles when the water slows."
+    ],
+    [
+     "layer",
+     "n.",
+     "层",
+     "A thin layer of clay covers the rock."
+    ],
+    [
+     "crust",
+     "n.",
+     "地壳；外壳",
+     "The crust is Earth's outer rocky layer."
+    ],
+    [
+     "mantle",
+     "n.",
+     "地幔",
+     "The mantle lies beneath Earth's crust."
+    ],
+    [
+     "core",
+     "n.",
+     "核心；地核",
+     "Earth's core is beneath the mantle."
+    ],
+    [
+     "pressure",
+     "n.",
+     "压力",
+     "Pressure generally increases with depth."
+    ],
+    [
+     "density",
+     "n.",
+     "密度",
+     "Density expresses mass per unit volume."
+    ],
+    [
+     "seismic",
+     "adj.",
+     "地震的；地震波的",
+     "Seismic waves travel through Earth."
+    ],
+    [
+     "vibrate",
+     "v.",
+     "振动",
+     "The ground can vibrate during an earthquake."
+    ],
+    [
+     "boundary",
+     "n.",
+     "边界；分界",
+     "The wave changes direction at a boundary."
+    ],
+    [
+     "detect",
+     "v.",
+     "探测到；发现",
+     "The instrument can detect weak vibrations."
+    ],
+    [
+     "velocity",
+     "n.",
+     "速度",
+     "The wave's velocity depends on the material."
+    ]
+   ]
+  },
+  {
+   "id": "space-physics",
+   "type": "table",
+   "title": "词汇表：天文与物理",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "orbit",
+     "n.",
+     "轨道",
+     "The satellite follows an orbit around Earth."
+    ],
+    [
+     "gravity",
+     "n.",
+     "重力；引力",
+     "Gravity attracts the satellite toward Earth."
+    ],
+    [
+     "satellite",
+     "n.",
+     "卫星",
+     "The Moon is Earth's natural satellite."
+    ],
+    [
+     "rotation",
+     "n.",
+     "自转；旋转",
+     "Earth's rotation produces the cycle of day and night."
+    ],
+    [
+     "phase",
+     "n.",
+     "相位；月相；阶段",
+     "The Moon's visible phase changes during its orbit."
+    ],
+    [
+     "illuminate",
+     "v.",
+     "照亮",
+     "Sunlight illuminates part of the Moon."
+    ],
+    [
+     "reflect",
+     "v.",
+     "反射",
+     "The Moon reflects sunlight."
+    ],
+    [
+     "frequency",
+     "n.",
+     "频率",
+     "A higher frequency means more cycles each second."
+    ],
+    [
+     "amplitude",
+     "n.",
+     "振幅",
+     "The amplitude describes the size of the vibration."
+    ],
+    [
+     "wavelength",
+     "n.",
+     "波长",
+     "Wavelength is the distance between successive wave peaks."
+    ],
+    [
+     "transmit",
+     "v.",
+     "传递；传播",
+     "The material transmits sound."
+    ],
+    [
+     "medium",
+     "n.",
+     "介质",
+     "Sound requires a medium through which to travel."
+    ],
+    [
+     "energy",
+     "n.",
+     "能量",
+     "A moving object has kinetic energy."
+    ],
+    [
+     "dissipate",
+     "v.",
+     "使耗散；消散",
+     "The vibration's energy gradually dissipates."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The Moon can look like a thin curve on one night and almost a full circle on another. Those changing appearances are its phases. The Moon doesn't produce its own visible light; it reflects sunlight. Except during an eclipse, sunlight illuminates about half of its surface at a time. As the Moon travels around Earth, the portion of that sunlit half visible from Earth changes. That is why the visible shape changes even though the Moon itself remains round. This ordinary cycle isn't caused by Earth's shadow covering the Moon each month. A lunar eclipse is a different event, occurring when the Moon passes through Earth's shadow. The useful distinction is between the changing view of an illuminated surface and a shadow actually falling on that surface."
+    },
+    {
+     "box": "What causes the ordinary change in lunar phases?\n1. Earth casts a shadow on the Moon every month.\n2. Different amounts of the sunlit half are visible from Earth.\n3. The Moon changes its physical shape as it rotates.\n4. The Moon produces different amounts of its own light."
+    },
+    {
+     "p": "phase 指 changing appearances，reflect 指反射太阳光，illuminate 指表面被照亮。第二项的依据是 the portion of that sunlit half visible from Earth changes。"
+    },
+    {
+     "p": "解释的顺序是：太阳照亮半个月面 → 月球绕地球运行 → 从地球上看到的亮面变化。This ordinary cycle isn't caused by Earth's shadow 说明月相和月食是两回事。"
+    },
+    {
+     "p": "月球本身是圆的，变的是看到的亮面形状。第四项把 reflects sunlight 改成了自己发光，第三项把看到的变化说成了月球形状的变化。"
+    }
+   ]
+  },
+  {
+   "id": "check-vocab",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "vocab"
+   ],
+   "groups": [
+    {
+     "text": "A wetland is the habitat of a frog species. The researchers counted the frogs living there and compared their body sizes.",
+     "items": [
+      {
+       "stem": "What does habitat refer to?",
+       "options": [
+        "The natural place where the frogs live",
+        "The number of frogs counted there",
+        "The average size of the frogs' bodies",
+        "The classification of the frog species"
+       ],
+       "answer": 0,
+       "why": "the habitat of a frog species 指青蛙生活的地方，即第一项。数量和体型是材料里的其他信息。",
+       "point": "vocab"
+      }
+     ]
+    },
+    {
+     "text": "An owl is a predator of small rodents. The rodents feed on seeds, while the owl hunts the rodents.",
+     "items": [
+      {
+       "stem": "Which meaning of predator fits this context?",
+       "options": [
+        "An organism hunted by the rodents",
+        "A seed that provides food for rodents",
+        "An animal that catches other animals for food",
+        "A place where owls and rodents live"
+       ],
+       "answer": 2,
+       "why": "the owl hunts the rodents 解释了 predator，第三项概括了捕食者。第一项把关系说反了。",
+       "point": "vocab"
+      }
+     ]
+    },
+    {
+     "text": "The sand became sediment when it settled on the bottom. Water continued flowing above it.",
+     "items": [
+      {
+       "stem": "What is sediment here?",
+       "options": [
+        "The water moving above the sand",
+        "Material deposited after settling",
+        "The speed of the flowing water",
+        "The process that keeps sand suspended"
+       ],
+       "answer": 1,
+       "why": "when it settled on the bottom 说明 sediment 是沉到底部的物质，即第二项。",
+       "point": "vocab"
+      }
+     ]
+    },
+    {
+     "text": "A sensor detected a faint vibration, although the people nearby could not feel the ground move.",
+     "items": [
+      {
+       "stem": "What did the sensor do?",
+       "options": [
+        "It produced the faint movement.",
+        "It stopped the ground from moving.",
+        "It increased the movement's strength.",
+        "It registered the presence of the movement."
+       ],
+       "answer": 3,
+       "why": "detected a faint vibration 指探测到已有的振动，第四项的 registered the presence 是同义表达。",
+       "point": "vocab"
+      }
+     ]
+    },
+    {
+     "text": "The satellite follows an orbit around the planet. Its rotation also changes which side faces the planet.",
+     "items": [
+      {
+       "stem": "What is an orbit?",
+       "options": [
+        "The object's spin around its own axis",
+        "The planet that the satellite travels around",
+        "The path followed around another body",
+        "The surface that faces the planet"
+       ],
+       "answer": 2,
+       "why": "an orbit around the planet 指绕行星运行的路径，即第三项。绕自身转动的是 rotation。",
+       "point": "vocab"
+      }
+     ]
+    },
+    {
+     "text": "The bell's vibration had a smaller amplitude after several seconds, although the rate of vibration changed little.",
+     "items": [
+      {
+       "stem": "What became smaller?",
+       "options": [
+        "The size of the vibration",
+        "The number of cycles per second",
+        "The time between successive cycles",
+        "The distance traveled by the bell as a whole"
+       ],
+       "answer": 0,
+       "why": "a smaller amplitude 指振动的幅度变小，即第一项。rate … changed little 说明频率基本没变。",
+       "point": "vocab"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-listen",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "listen"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A shout near a large wall can return as an echo. Sound travels through the air, reaches the wall, and is reflected toward the listener. The returning sound is heard later because it has traveled an additional distance. In a small room, reflections may arrive too soon to be heard as separate repetitions. They still affect the sound in the room. A soft covering can absorb some sound energy, reducing the strength of reflected sound. It changes the strength of the reflection without shortening the distance to the wall. The key distinction is between the path that sound takes and the amount of energy that returns. A longer path affects the delay; greater absorption generally weakens the reflection."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why is an echo heard after the original sound?",
+       "options": [
+        "Absorption at the wall delays the production of the original sound.",
+        "The reflected sound travels an extra distance.",
+        "The wall sends the sound back at a slower speed than its outward speed.",
+        "The covering increases the distance that the original shout travels."
+       ],
+       "answer": 1,
+       "why": "依据是 because it has traveled an additional distance，第二项是它的同义改写。",
+       "point": "listen"
+      },
+      {
+       "stem": "What does the soft covering reduce?",
+       "options": [
+        "The additional distance traveled by the reflected sound",
+        "The time between the shout and the returning reflection",
+        "The energy generated by the original source",
+        "The energy returning in reflected sound"
+       ],
+       "answer": 3,
+       "why": "依据是 absorb some sound energy, reducing the strength of reflected sound，即第四项。到墙的距离没有因此变短。",
+       "point": "listen"
+      },
+      {
+       "stem": "Why may reflections in a small room not sound like separate echoes?",
+       "options": [
+        "They return too quickly to be distinguished as repetitions.",
+        "The surfaces absorb the returning sound before it affects the room.",
+        "The original sound and the returning sound travel equal distances.",
+        "The reflected sound is too strong to separate from the source."
+       ],
+       "answer": 0,
+       "why": "依据是 may arrive too soon to be heard as separate repetitions。第一项改写了 too soon。",
+       "point": "listen"
+      },
+      {
+       "stem": "Which distinction does the speaker emphasize?",
+       "options": [
+        "Absorption determines the delay, while distance determines the original energy.",
+        "The strength of a source determines how long its reflection travels.",
+        "Travel distance affects delay, while absorption affects strength.",
+        "A longer returning path indicates that the wall absorbed more energy."
+       ],
+       "answer": 2,
+       "why": "依据是 A longer path affects the delay; greater absorption generally weakens the reflection，第三项对应这两层关系。",
+       "point": "listen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "vocab",
+    "listen"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "The root absorbs water from moist soil and passes it into other plant tissues. Some water is later released from the leaves.",
+       "items": [
+        {
+         "stem": "What does absorbs mean here?",
+         "options": [
+          "Takes in a substance from the surroundings",
+          "Sends a substance out through the leaves",
+          "Stores a substance in the surrounding soil",
+          "Passes a substance outward through the root surface"
+         ],
+         "answer": 0,
+         "why": "absorbs water from moist soil 指从土壤里吸水，第一项是它的改写。released 是相反的方向。",
+         "point": "vocab"
+        }
+       ]
+      },
+      {
+       "text": "The sample's density was calculated from its mass and volume. Its total mass increased when a larger piece was added.",
+       "items": [
+        {
+         "stem": "What does density express?",
+         "options": [
+          "The total mass of all pieces combined",
+          "The mass contained in each unit of volume",
+          "The volume added by the larger piece",
+          "The change in mass during the calculation"
+         ],
+         "answer": 1,
+         "why": "依据是 density … from its mass and volume，也就是单位体积的质量，即第二项。第一项说的是总质量。",
+         "point": "vocab"
+        }
+       ]
+      },
+      {
+       "text": "Seismic waves from the earthquake reached several instruments. The instruments also recorded ordinary traffic vibrations.",
+       "items": [
+        {
+         "stem": "What does seismic describe in this sentence?",
+         "options": [
+          "Vibrations produced by the nearby traffic",
+          "Measurements made before any ground movement",
+          "The locations where the instruments were built",
+          "Waves associated with an earthquake"
+         ],
+         "answer": 3,
+         "why": "Seismic waves from the earthquake 指地震产生的波，即第四项。traffic 是另一种振动的来源。",
+         "point": "vocab"
+        }
+       ]
+      },
+      {
+       "text": "The planet's rotation carries a location from daylight into night. Its orbit carries the entire planet around the star.",
+       "items": [
+        {
+         "stem": "What is rotation in this context?",
+         "options": [
+          "Motion of the star around the planet",
+          "Travel along the planet's path around the star",
+          "The planet's turning about its own axis",
+          "The light transmitted from the star"
+         ],
+         "answer": 2,
+         "why": "rotation carries a location from daylight into night 指行星自身转动，即第三项。绕恒星运行的是 orbit。",
+         "point": "vocab"
+        }
+       ]
+      },
+      {
+       "text": "The signal had a high frequency: many vibration cycles occurred each second. Its amplitude remained small.",
+       "items": [
+        {
+         "stem": "Which property was high?",
+         "options": [
+          "The size of each vibration",
+          "The number of vibration cycles per unit time",
+          "The time needed for one vibration cycle",
+          "The distance from the signal to its source"
+         ],
+         "answer": 1,
+         "why": "many vibration cycles occurred each second 解释了 frequency，即第二项。amplitude remained small 说明幅度不高。",
+         "point": "vocab"
+        }
+       ]
+      },
+      {
+       "text": "The liquid served as the medium through which the sound traveled. A detector measured the sound after it crossed the container.",
+       "items": [
+        {
+         "stem": "What does medium mean here?",
+         "options": [
+          "A device that measures the sound",
+          "The strength registered after transmission",
+          "The boundary around the container",
+          "The substance carrying the sound"
+         ],
+         "answer": 3,
+         "why": "through which the sound traveled 指传声的介质，第四项的 carrying the sound 是同义解释。detector 是测量的设备。",
+         "point": "vocab"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to an academic talk.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "A plant root can have many fine extensions called root hairs. Each is an extension of a surface cell, not a tiny separate root. Root hairs increase the area in contact with moist soil. That larger area helps the plant absorb water and dissolved nutrients. The root doesn't need to become much thicker to gain that contact. However, root hairs are delicate. When a plant is lifted roughly from the soil, many can be damaged, even if the thicker root remains visible. A newly moved plant may therefore have less effective contact with the soil than its appearance suggests. Careful handling helps preserve that contact. The point is that a structure too small to notice easily can contribute substantially to the function of a larger organ."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "How do root hairs assist a plant?",
+         "options": [
+          "They develop into additional roots that thicken the existing root.",
+          "They increase contact with soil for absorbing water and nutrients.",
+          "They store dissolved nutrients while limiting water entry into cells.",
+          "They enlarge the root's volume primarily by adding thicker tissue."
+         ],
+         "answer": 1,
+         "why": "依据是 increase the area in contact with moist soil 和 absorb water and dissolved nutrients。接触面积变大，吸水和养分就更多，第二项保留了这层因果。",
+         "point": "listen"
+        },
+        {
+         "stem": "What can happen when a plant is lifted roughly?",
+         "options": [
+          "The thicker root may lose function while its delicate extensions stay intact.",
+          "The root may absorb more nutrients because it has left the original soil.",
+          "Delicate structures may be damaged despite the visible root remaining.",
+          "The remaining visible root may retain the same effective soil contact."
+         ],
+         "answer": 2,
+         "why": "依据是 many can be damaged, even if the thicker root remains visible，即第三项。第四项从粗根还在推出接触不变，与 less effective contact 相反。",
+         "point": "listen"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to an academic talk.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Seismic waves allow scientists to investigate parts of Earth that cannot be directly observed. A disturbance produces different kinds of waves. Some involve compression in the direction of travel; others involve motion across that direction. These waves do not pass through every material in the same way. Changes in speed and direction can occur when a wave reaches a boundary between materials. Instruments record the arrival times of the waves at different places. Scientists compare those records with possible models of Earth's interior. A single record doesn't provide a complete picture. Many observations are needed to distinguish a consistent pattern from a local effect. The resulting account is an interpretation of measured wave behavior, not a photograph of the deep interior. That distinction explains both the power of the method and the need to compare multiple measurements."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What do scientists compare to investigate the interior?",
+         "options": [
+          "Records of wave arrivals against possible internal models",
+          "Models of wave sources against photographs of deep material boundaries",
+          "Directions of ground motion against visible patterns of surface materials",
+          "Distances between instruments against measurements from one local record"
+         ],
+         "answer": 0,
+         "why": "依据是 compare those records with possible models of Earth's interior。records 指波到达的记录，即第一项。",
+         "point": "listen"
+        },
+        {
+         "stem": "Why are many observations needed?",
+         "options": [
+          "To establish a single speed shared by waves in different materials",
+          "To turn the recorded arrival pattern into a direct image of the interior",
+          "To identify the original disturbance without considering local effects",
+          "To separate a consistent pattern from an effect at one location"
+         ],
+         "answer": 3,
+         "why": "依据是 distinguish a consistent pattern from a local effect，第四项是它的改写。第二项与 not a photograph of the deep interior 相反。",
+         "point": "listen"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

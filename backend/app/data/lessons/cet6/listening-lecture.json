@@ -1,0 +1,200 @@
+{
+  "id": "listening-lecture",
+  "title": "讲座/讲话（讲话/报道/讲座） · 练习",
+  "goal": "先确定讲者解释的概念或问题。",
+  "skill": "listening",
+  "exam": "大学英语六级（CET-6）",
+  "points": [
+    {
+      "id": "gist",
+      "label": "概括讲座的主题与目的"
+    },
+    {
+      "id": "detail",
+      "label": "准确对应事实与研究结果"
+    },
+    {
+      "id": "organization",
+      "label": "解释例证与观点的关系"
+    }
+  ],
+  "sources": [
+    {
+      "id": "c1",
+      "title": "CET笔试",
+      "url": "https://cet.neea.edu.cn/html1/folder/16113/1586-1.htm",
+      "used": "题型与考试时间。"
+    },
+    {
+      "id": "c2",
+      "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+      "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+      "used": "材料长度、任务形式与总体评分标准。"
+    }
+  ],
+  "cards": [
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "小测",
+      "minutes": 4,
+      "points": [
+        "gist",
+        "detail",
+        "organization"
+      ],
+      "more": {
+        "kind": "listening-lecture",
+        "topics": [
+          "公共空间的使用",
+          "档案的选择与保存",
+          "观察记录的方法",
+          "团队知识交流",
+          "资源借用制度",
+          "展览的信息组织",
+          "校园服务评估",
+          "城市步行环境",
+          "学习反馈",
+          "日常维修",
+          "技术说明的可读性",
+          "社区参与"
+        ]
+      },
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "audio": {
+                "intro": "Listen to a lecture.",
+                "lines": [
+                  {
+                    "who": "A",
+                    "text": "When we evaluate a public service, the easiest number to collect is often the number of people who use it. A library counts visits, a museum counts tickets, and a community center counts registrations. These figures are useful, but today I want to explain why they cannot, by themselves, tell us whether a service is meeting its purpose.\n\nConsider a hypothetical library that introduces an online reservation system for study rooms. In the first month, the number of bookings doubles. It would be tempting to announce that access has improved dramatically. Yet a booking is a promise to use a room, not evidence that somebody actually used it. If students reserve several possible times and attend only one, the new system may make the rooms appear busy while leaving them empty.\n\nWe therefore need to distinguish an activity from the result we care about. In this case, the activity is making a reservation. The desired result is that students who need a room can find one and use it. Staff might record whether reserved rooms are occupied, how long groups stay, and how often a group cannot find a place. None of these measures is perfect, but together they provide a fuller account than the booking total.\n\nThere is another complication: improving a number can sometimes change behavior in an unhelpful way. Suppose staff are praised only for increasing the number of reservations. They might encourage shorter sessions, producing more bookings without providing more useful study time. This does not mean the staff are dishonest. It means the measure makes one kind of success visible while concealing another.\n\nQualitative evidence matters as well. A brief conversation with users may reveal that the available rooms are too noisy for recorded presentations, even though the occupancy rate looks excellent. Such comments cannot establish how common a problem is, but they can identify a question worth investigating systematically.\n\nMy recommendation is to begin with the purpose of the service, then choose a small group of measures that reflect it. Keep the definitions stable so that comparisons remain meaningful, and review unexpected changes before claiming success. Counting is necessary; deciding what the count represents is equally necessary. The aim is not to gather every possible number, but to avoid letting the easiest number replace the original goal."
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "stem": "What is the lecture mainly about?",
+                  "options": [
+                    "Why public services should stop counting visitors",
+                    "Why service evaluation needs measures linked to its purpose",
+                    "How to increase the number of library reservations",
+                    "How to replace numerical records with interviews"
+                  ],
+                  "answer": 1,
+                  "why": "讲座围绕数字能否反映服务目的展开，结尾要求先明确目的再选指标；并未主张停止计数。",
+                  "point": "gist"
+                },
+                {
+                  "stem": "What happens in the hypothetical library in the first month?",
+                  "options": [
+                    "The number of rooms doubles.",
+                    "Every reserved room remains empty.",
+                    "The length of every booking falls.",
+                    "The number of reservations doubles."
+                  ],
+                  "answer": 3,
+                  "why": "假设中翻倍的是预订次数，不是房间数或实际使用时间。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "Why does the speaker mention staff encouraging shorter sessions?",
+                  "options": [
+                    "To show how a measure can reward an unhelpful change",
+                    "To prove that staff deliberately falsify records",
+                    "To explain why students prefer short meetings",
+                    "To show that more reservations always improve access"
+                  ],
+                  "answer": 0,
+                  "why": "例子说明单一指标可能奖励增加预订次数却未增加有效使用的行为；讲者明确不认定员工不诚实。",
+                  "point": "organization"
+                },
+                {
+                  "stem": "What does the speaker recommend?",
+                  "options": [
+                    "Changing definitions whenever results disappoint",
+                    "Collecting every available statistic",
+                    "Choosing several measures based on the service’s purpose",
+                    "Treating favorable user comments as proof of success"
+                  ],
+                  "answer": 2,
+                  "why": "结尾建议围绕目的选少量指标并保持定义稳定；评价不以所有可收集数字为目标。",
+                  "point": "gist"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "audio": {
+                "intro": "Listen to a lecture.",
+                "lines": [
+                  {
+                    "who": "A",
+                    "text": "Imagine that you are designing an exhibition about everyday objects. You have a wooden chair, a cooking pot and a handwritten shopping list. None is especially rare. How can you make visitors interested without surrounding each object with so much explanation that they stop looking at it? Today I will discuss a principle that helps: organize information in layers.\n\nThe first layer should answer a question a visitor can grasp immediately. Beside the chair, a short label might ask why one leg has been repaired several times. That directs attention to something visible. A second layer could explain the repair and the evidence used to identify it. A third might offer a longer account of materials, ownership and changing household habits. Visitors can then choose how far to follow the subject.\n\nNotice that these layers are not simply three versions of the same sentence. Each does a different job. The first invites observation, the second connects observation with explanation, and the third supplies broader context. Repeating the same information in larger and smaller type would add visual clutter without giving readers a useful path through the material.\n\nThere is also a danger in choosing a very dramatic opening. Suppose the shopping list has no known author. A label that confidently describes the owner's feelings might be memorable, but it would turn a gap in the evidence into an invented story. A better question would concern what the listed goods suggest about household needs, while making the limits of that inference clear.\n\nThe arrangement should be tested with visitors who have not helped design it. Ask them to find a particular detail, then observe where they look and whether they can explain what they found. Asking only whether the labels are attractive misses the problem of use. Someone may admire a display while being unable to connect a label with the object it describes.\n\nFinally, layering must not become an excuse to hide essential information. If an object is a reproduction, that fact belongs where every visitor can see it, rather than at the end of an optional account. Additional detail may be optional; a condition that changes the meaning of the display is not. A successful exhibition allows different levels of interest while giving everyone a reliable starting point."
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "stem": "What is the main purpose of the lecture?",
+                  "options": [
+                    "To rank objects by their financial value",
+                    "To explain how to identify a shopping list’s owner",
+                    "To explain how layered information can support an exhibition",
+                    "To argue that labels should contain only questions"
+                  ],
+                  "answer": 2,
+                  "why": "讲座解释信息分层如何引导观察、说明和背景理解，物件估价不是主题。",
+                  "point": "gist"
+                },
+                {
+                  "stem": "What is the suggested role of the second information layer?",
+                  "options": [
+                    "Providing a question with no explanation",
+                    "Explaining an observation and its supporting evidence",
+                    "Repeating the first label in larger type",
+                    "Presenting all available historical background"
+                  ],
+                  "answer": 1,
+                  "why": "第二层将可见现象与解释、证据联系起来；更广泛背景属于第三层。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "Why does the speaker discuss the shopping list with an unknown author?",
+                  "options": [
+                    "To show that common objects cannot be displayed",
+                    "To recommend inventing a memorable personal history",
+                    "To show why all inferences should be removed",
+                    "To illustrate the risk of filling an evidence gap with fiction"
+                  ],
+                  "answer": 3,
+                  "why": "不明作者的例子说明不能为戏剧性编造人物感受；基于物品的有限推断仍可保留。",
+                  "point": "organization"
+                },
+                {
+                  "stem": "What is the speaker’s view of information that an object is a reproduction?",
+                  "options": [
+                    "It must be visible to every visitor.",
+                    "It should appear only in optional background material.",
+                    "It can be omitted if the object is attractive.",
+                    "It belongs only in a discussion of monetary value."
+                  ],
+                  "answer": 0,
+                  "why": "结尾说明复制品身份会改变展品意义，必须人人可见，不能藏在可选背景中。",
+                  "point": "gist"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pass": 0.75
+    }
+  ]
+}

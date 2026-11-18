@@ -1,0 +1,378 @@
+{
+ "id": "writing-support",
+ "title": "理由与例子的展开",
+ "goal": "选择支持论点的相关理由；用具体解释或例子展开理由。",
+ "skill": "写作",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "reason",
+   "label": "选择支持论点的相关理由"
+  },
+  {
+   "id": "example",
+   "label": "用具体解释或例子展开理由"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语四级（CET-4）：课表",
+   "url": "docs/syllabi/cet4.md",
+   "used": "写作部分本课的内容范围、知识点及教学材料规格"
+  },
+  {
+   "id": "c2",
+   "title": "C2 全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "依据所给研究文件中的写作语言与连贯性要求安排教学，不陈述考试事实"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "主体段先提出与论点相关的理由，再解释理由为什么成立，最后用具体情境或对比来说明。换个说法重复论点，不算支撑。例子要说明当前的理由，只出现相同的主题词不够。"
+    },
+    {
+     "box": "Clear task lists can improve group coordination because members can see who is responsible for each action."
+    },
+    {
+     "p": "理由是分工清楚，解释是每项行动都有负责人。例子要写出这种分工怎样避免遗漏，不能只说团队活动很重要。"
+    }
+   ]
+  },
+  {
+   "id": "development",
+   "type": "table",
+   "title": "理由的展开方式",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "因果解释",
+     "写出从行动到效果的中间过程。",
+     "Written roles identify the person responsible for each task, so unfinished work is easier to trace."
+    ],
+    [
+     "因果解释",
+     "解释要支持当前的理由，不保证结果。",
+     "Early feedback reveals gaps in a plan while students still have time to revise it."
+    ],
+    [
+     "具体情境",
+     "写出人物、动作和结果，不需要统计数字。",
+     "During a group display, one student checked the labels while another arranged the pictures."
+    ],
+    [
+     "具体情境",
+     "实例说明一个可能的过程，不当作普遍规律。",
+     "A student notices a missing source during a draft meeting and adds it before submission."
+    ],
+    [
+     "简短对比",
+     "比较的两方情况相近，只突出一处差别。",
+     "A named task owner can answer questions directly, whereas an unnamed responsibility may remain unclear."
+    ],
+    [
+     "简短对比",
+     "比较要说明对当前理由的作用，不只比较喜好。",
+     "A draft comment allows revision before submission, while a final comment arrives after that opportunity."
+    ]
+   ]
+  },
+  {
+   "id": "errors",
+   "type": "table",
+   "title": "支撑的相关性与充分性",
+   "cols": [
+    "情况",
+    "改法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "重复论点",
+     "只换了说法，没有原因。补上行为过程。",
+     "Weak: Clear roles are useful because roles should be clear. Better: Named roles help members identify who should act next."
+    ],
+    [
+     "例子无关",
+     "场景相同，但说明不了效果。改用能说明效果的细节。",
+     "Claim: Early feedback permits revision. Unrelated: The feedback session was held in a newly painted room."
+    ],
+    [
+     "论据不足",
+     "一个例子只能说明一个人。结论限定在这个人身上。",
+     "Limited evidence: One student corrected a plan. Unsupported claim: Every student will produce a perfect project."
+    ],
+    [
+     "例子与理由断开",
+     "补一句，说明例子支持理由中的哪一步。",
+     "This division of work prevented two members from preparing the same labels for the display."
+    ],
+    [
+     "相关但不够具体",
+     "把抽象评价改成可观察的行动和变化。",
+     "Weak: The meeting was helpful. Better: A question about costs led the group to revise its budget."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Claim: A residence should label shared storage shelves. Reason: Labels can reduce confusion about where items belong. Example: After a shelf was marked for cleaning supplies, residents returned brushes there instead of placing them among cooking equipment. This made the next search more direct."
+    },
+    {
+     "p": "理由是减少 confusion。例子写刷子放回了标好的架子，末句说明下次找起来更直接。几句话都围绕标签和查找，不需要写架子的颜色或购买时间。"
+    },
+    {
+     "box": "Which detail best develops the reason? A resident returns a brush to its marked shelf and can locate it again the next day."
+    },
+    {
+     "p": "这个细节直接说明了归位和查找的关系。补一句 The shelves were bought last year，说明不了标签的作用。"
+    }
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "reason",
+    "example"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Claim: A shared calendar can reduce meeting conflicts. Which reason explains the benefit?",
+       "options": [
+        "A shared calendar is useful because it is a helpful tool for arranging meetings.",
+        "Members can compare proposed times with commitments already recorded.",
+        "The shared calendar also shows the room in which each meeting will be held.",
+        "Members will never miss a meeting once the calendar has been shared."
+       ],
+       "answer": 1,
+       "why": "compare proposed times with commitments already recorded 说明了日历怎样避免时间冲突，即第二项。第一项只是换个说法重复论点。",
+       "point": "reason"
+      },
+      {
+       "stem": "Reason: Checklists can prevent missing steps. Which example directly develops it?",
+       "options": [
+        "The committee chose a clear font so that the checklist was easy to read.",
+        "The committee printed copies of its checklist for every volunteer on the event day.",
+        "A volunteer checked the list and noticed that the keys were still uncollected.",
+        "A volunteer told the committee that checklists are important for successful events."
+       ],
+       "answer": 2,
+       "why": "noticed that the keys were still uncollected 展示了清单帮志愿者发现漏掉的步骤，直接对应 missing steps，即第三项。",
+       "point": "example"
+      },
+      {
+       "stem": "One learner used a glossary successfully. Which conclusion stays within the evidence?",
+       "options": [
+        "A glossary helped this learner understand unfamiliar terms in this task.",
+        "A glossary guarantees complete understanding for everyone in every task.",
+        "No learner needs any further explanation once a glossary has been provided.",
+        "Every glossary is more useful than every other learning resource."
+       ],
+       "answer": 0,
+       "why": "One learner 只是一个个案，只能说明这个学习者在这项任务中受益，即第一项。第二项把个案扩大到了所有人。",
+       "point": "example"
+      },
+      {
+       "stem": "Claim: A short rehearsal helps speakers check timing. Which reason supports it?",
+       "options": [
+        "Speakers prefer rehearsal rooms with comfortable chairs and large windows.",
+        "A rehearsal is helpful because practicing speeches is a useful activity.",
+        "The speech and its rehearsal usually take place in the same lecture building.",
+        "A timed practice reveals sections that take longer than the allotted time."
+       ],
+       "answer": 3,
+       "why": "reveals sections that take longer than the allotted time 说明排练怎样帮助发现超时的部分，即第四项。",
+       "point": "reason"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "reason",
+    "example"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A student is preparing a presentation with a strict time limit. During a timed practice, the introduction takes much longer than expected. The student shortens that section and leaves more time for the main example. This experience supports rehearsal as a way to check the length of different sections.",
+     "items": [
+      {
+       "stem": "Complete the explanation linking practice to the stated benefit.",
+       "lead": "A timed practice",
+       "chunks": [
+        "reveals",
+        "the length",
+        "of each",
+        "section before"
+       ],
+       "tail": "the final presentation.",
+       "extra": [
+        "conceals"
+       ],
+       "why": "reveals 说明计时练习让各部分的长度显现出来。conceals 意思相反。",
+       "point": "reason"
+      },
+      {
+       "stem": "Choose from explanation / repetition / location: The sentence about discovering an overlong introduction is an ___ of how rehearsal helps.",
+       "accept": [
+        "explanation"
+       ],
+       "why": "发现引言超时，说明了排练怎样帮助修改，所以是 explanation。",
+       "point": "example"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "reason",
+    "example"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A gardening group keeps seed packets in a shared cabinet. Several packets look alike, and members have sometimes chosen the wrong packet before planting. A writer argues that the group should add clear labels naming the contents. The proposed benefit is easier identification, not a change in the cabinet’s appearance.",
+       "items": [
+        {
+         "stem": "Which reason most directly supports labeling these seed packets?",
+         "options": [
+          "Clear labels help gardeners distinguish packets that look alike before planting.",
+          "Labels would give the shared cabinet a neater and brighter appearance for members.",
+          "Labeling seed packets is a good practice because good organization is always important.",
+          "Larger cabinets would stop members from choosing the wrong packet before planting."
+         ],
+         "answer": 0,
+         "why": "Several packets look alike 和 have sometimes chosen the wrong packet 说明问题在于难以辨别，第一项正对这一点。第二项讲外观，材料已说明好处不在外观。",
+         "point": "reason"
+        },
+        {
+         "stem": "Which example best develops that reason?",
+         "options": [
+          "A gardener repaints the shared cabinet so that it looks neater before spring planting.",
+          "A gardener checks a label and selects basil instead of a similar packet of mint.",
+          "A gardener says again that labeled packets are much easier to identify and organize.",
+          "A gardener buys a larger cabinet before deciding which labels to print for the packets."
+         ],
+         "answer": 1,
+         "why": "checks a label and selects basil instead of a similar packet of mint 具体展示了标签怎样帮人选对种子袋，即第二项。第三项只是重复论点。",
+         "point": "example"
+        },
+        {
+         "stem": "Complete the causal explanation, keeping the labels as the source of information.",
+         "lead": "The labels",
+         "chunks": [
+          "make",
+          "the contents",
+          "of each",
+          "packet clear before"
+         ],
+         "tail": "planting begins.",
+         "extra": [
+          "hide"
+         ],
+         "why": "make the contents of each packet clear 解释了标签怎样避免误选。hide 意思相反，与论点不符。",
+         "point": "reason"
+        },
+        {
+         "stem": "Choose from relevant / unrelated / conclusive: An example of selecting the correct packet after reading its label is ___ support for this reason.",
+         "accept": [
+          "relevant"
+         ],
+         "why": "例子展示了读标签、选对种子袋的过程，是相关的支撑。一个例子不足以成为定论，所以不填 conclusive。",
+         "point": "example"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A committee plans to discuss a small budget at its next meeting. The writer supports sending the agenda in advance so members can bring relevant information. For example, a member who knows the topic can prepare cost estimates. Without that notice, the same member may need to request the figures after the discussion.",
+       "items": [
+        {
+         "stem": "Which sentence explains the benefit of announcing the agenda in advance?",
+         "options": [
+          "Advance agendas improve meetings because improved meetings are useful for members.",
+          "The agenda is sent by email with the committee’s usual logo at the top of the page.",
+          "Members can prepare relevant information before the topics are discussed together.",
+          "All members will agree on the budget whenever they receive an agenda before a meeting."
+         ],
+         "answer": 2,
+         "why": "so members can bring relevant information 说明提前发议程能让成员先准备资料，即第三项。第四项推出全体一致，材料没有依据。",
+         "point": "reason"
+        },
+        {
+         "stem": "Which contrast best illustrates preparation rather than mere attendance?",
+         "options": [
+          "One meeting was held on a weekday evening, while another was held on a Saturday.",
+          "One meeting included experienced members, while the other included only new committee members.",
+          "One meeting used printed agendas while another used a different paper color.",
+          "A prepared member brings cost estimates; an unprepared member requests them later."
+         ],
+         "answer": 3,
+         "why": "can prepare cost estimates 和 request the figures after the discussion 形成对比，区别在于是否提前准备了资料，即第四项。",
+         "point": "example"
+        },
+        {
+         "stem": "Complete the explanation of the budget example.",
+         "lead": "An advance agenda",
+         "chunks": [
+          "gives",
+          "members a chance",
+          "to prepare",
+          "cost estimates before"
+         ],
+         "tail": "the committee discusses the budget.",
+         "extra": [
+          "denies"
+         ],
+         "why": "gives members a chance to prepare 说明提前发议程给了成员准备的机会，与材料的理由一致。",
+         "point": "reason"
+        },
+        {
+         "stem": "Choose from comparison / repetition / guarantee: Contrasting prepared estimates with a later request for them is a ___.",
+         "accept": [
+          "comparison"
+         ],
+         "why": "两种准备情况放在一起比较，是对比。材料没有保证任何结果，所以不填 guarantee。",
+         "point": "example"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

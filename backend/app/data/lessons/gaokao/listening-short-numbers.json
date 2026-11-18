@@ -1,0 +1,63 @@
+{
+ "id": "listening-short-numbers",
+ "title": "时间与数量表达",
+ "goal": "听辨时间与数量，并根据明确条件计算时刻或金额。",
+ "skill": "听力",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "hear", "label": "听辨时刻、时长和数量"},
+  {"id": "calculate", "label": "按已听条件确定时间或金额"}
+ ],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "时间与数量表达的教学内容及课程小测规格"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "这类题先分清所问的是时刻、时长、数量还是价格。需要计算时，只用对话中说出的数字。"},
+   {"box": "The bus leaves at nine and takes twenty minutes. → It arrives at nine twenty."},
+   {"p": "nine 是出发时刻，twenty minutes 是时长。两者相加，得到到达时刻。"}
+  ]},
+  {"id": "numbers", "type": "table", "title": "易混数词", "cols": ["十几", "几十", "例句"], "rows": [
+   ["thirteen：13", "thirty：30", "We need thirteen chairs, not thirty."],
+   ["fourteen：14", "forty：40", "The group has fourteen members, not forty."],
+   ["fifteen：15", "fifty：50", "The guide counted fifteen visitors, not fifty."],
+   ["sixteen：16", "sixty：60", "The class ordered sixteen maps, not sixty."],
+   ["seventeen：17", "seventy：70", "The hall has seventeen tables, not seventy."],
+   ["eighteen：18", "eighty：80", "The shop received eighteen boxes, not eighty."]
+  ]},
+  {"id": "time", "type": "table", "title": "时刻与时长", "cols": ["表达", "含义", "例"], "rows": [
+   ["整点", "o'clock 指整点。", "The meeting starts at six o'clock."],
+   ["半点", "half past 加整点，表示过了半小时。", "The film begins at half past six."],
+   ["差几分", "分钟数加 to 加下一个整点，表示差几分到整点。", "Ten to seven means 6:50."],
+   ["时长", "for 加一段时间，表示持续多久。", "The film lasts for forty minutes."],
+   ["起止计算", "开始时刻加时长，得到结束时刻。", "It starts at six and lasts forty minutes, so it ends at 6:40."]
+  ]},
+  {"id": "money", "type": "table", "title": "单价与总价", "cols": ["条件", "计算", "例"], "rows": [
+   ["单价乘数量", "单价乘件数，得到总价。", "Two tickets at $5 each cost $10."],
+   ["总价减已付", "总价减去已付的钱，得到余款。", "$12 total, $5 paid: $7 remains."],
+   ["结束减开始", "结束时刻减开始时刻，得到时长。", "From 2:00 to 2:30 is thirty minutes."],
+   ["开始加时长", "开始时刻加时长，得到结束时刻。", "A twenty-minute talk that starts at 3:00 ends at 3:20."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A: How much is one notebook?\nB: Three dollars each.\nA: I'll take two."},
+   {"box": "How much do the two notebooks cost?\n1. Three dollars.\n2. Five dollars.\n3. Six dollars.\n4. Nine dollars."},
+   {"p": "each 表示每本 3 美元，two 表示买 2 本。3 乘 2 等于 6，即第三项。"}
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["hear"], "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "How many chairs do we need for the drawing class? I counted the names on the list, but another student joined this morning."}, {"who": "B", "text": "We'll need fourteen chairs in all. The teacher already has a chair."}]}, "items": [{"stem": "How many chairs are needed for the class?", "options": ["Forty-four chairs", "Fourteen chairs", "Forty chairs", "Fifteen chairs"], "answer": 1, "why": "We'll need fourteen chairs in all 说明一共要 14 把，即第二项。老师已经有椅子，不再加一把。", "point": "hear"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["hear"], "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "When does the film begin tonight? I know the doors open at six, and I need to meet my friend before it starts."}, {"who": "B", "text": "The film begins at half past six. I'll see you at the entrance."}]}, "items": [{"stem": "When does the film begin?", "options": ["At six o'clock", "At a quarter past six", "At half past six", "At half past seven"], "answer": 2, "why": "The film begins at half past six 说明六点半开场，即第三项。六点是开门的时间。", "point": "hear"}]}
+  ]},
+  {"id": "practice-three", "type": "check", "title": "练习三", "points": ["calculate"], "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "How long will the train journey take? It leaves at two o'clock, and I need to tell my friend when to meet me."}, {"who": "B", "text": "The journey takes thirty minutes, so tell your friend the arrival time."}]}, "items": [{"stem": "When will the train arrive?", "options": ["At half past one", "At two o'clock", "At three o'clock", "At half past two"], "answer": 3, "why": "两点出发，路上用 thirty minutes，所以两点半到达，即第四项。", "point": "calculate"}]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["hear", "calculate"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "How many people signed up for the art trip? We reserved a bus for forty, but not every seat needs to be filled."}, {"who": "B", "text": "There are fifteen names on the list so far."}]}, "items": [{"stem": "How many people have signed up?", "options": ["Fifteen people", "Fifty people", "Forty people", "Fourteen people"], "answer": 0, "why": "fifteen names on the list 表示已有 15 人报名，即第一项。forty 是大巴的座位数。", "point": "hear"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "When does the science talk start? I want to collect my ticket before it begins, and the ticket desk opens at six."}, {"who": "B", "text": "It starts at ten to seven. I'll wait by the desk."}]}, "items": [{"stem": "When does the talk start?", "options": ["At ten past six", "At ten to seven", "At seven ten", "At ten to six"], "answer": 1, "why": "It starts at ten to seven 表示差 10 分到七点开始，即六点五十分，第二项。", "point": "hear"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "How much are the postcards at the museum shop? I want two of the same design to send to my cousins."}, {"who": "B", "text": "They're four dollars each. The envelopes are included in that price."}]}, "items": [{"stem": "How much will the two postcards cost?", "options": ["Four dollars in total", "Six dollars in total", "Eight dollars in total", "Twelve dollars in total"], "answer": 2, "why": "每张 four dollars，买 2 张，共 8 美元，即第三项。信封不另收钱。", "point": "calculate"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "The painting workshop starts at three o'clock. How long does it last? I need to arrange a ride home after the workshop."}, {"who": "B", "text": "It lasts for forty minutes, with all the materials provided."}]}, "items": [{"stem": "When does the workshop end?", "options": ["At two forty", "At three o'clock", "At four o'clock", "At three forty"], "answer": 3, "why": "三点开始，持续 forty minutes，所以三点四十分结束，即第四项。", "point": "calculate"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "How long is the boat trip around the island? The first trip leaves at eleven, and I'd like to plan lunch afterward."}, {"who": "B", "text": "The trip takes seventeen minutes. Tickets are sold beside the pier."}]}, "items": [{"stem": "How long is the boat trip?", "options": ["Seventeen minutes", "Seventy minutes", "Eleven minutes", "Seven minutes"], "answer": 0, "why": "The trip takes seventeen minutes 说明船程 17 分钟，即第一项。eleven 是第一班船的出发时刻。", "point": "hear"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "The room costs twelve dollars for the afternoon. I've already paid five dollars when I made the booking yesterday."}, {"who": "B", "text": "That's right. You can pay the rest at the desk today."}]}, "items": [{"stem": "How much remains to be paid?", "options": ["Five dollars in total", "Seven dollars in total", "Twelve dollars in total", "Seventeen dollars in total"], "answer": 1, "why": "总价 12 美元，已付 5 美元，还要付 7 美元，即第二项。", "point": "calculate"}]}
+  ]}]} 
+ ]
+}

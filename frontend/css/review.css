@@ -1,0 +1,66 @@
+/* review.css — 复习 › 错题本（回看）和单词本的「开始复习」。要练走复习会话（learning.css）。 */
+
+.rv-shell { min-height: 100%; }
+.rv-toolbar { display: grid; grid-template-columns: minmax(0, 1fr) auto auto auto; grid-template-areas: "kinds languages count start"; align-items: center; }
+.rv-kinds { grid-area: kinds; }
+.rv-languages { grid-area: languages; }
+.rv-toolbar [role="group"] { display: flex; flex-wrap: wrap; gap: var(--gap-1); }
+.rv-languages button { min-height: 24px; border-width: 1px; font-weight: 400; }
+.rv-toolbar img { width: 16px; height: 16px; }
+.rv-count { grid-area: count; min-width: 3ch; text-align: end; font-size: var(--fs-ui); color: var(--muted); white-space: nowrap; }
+.rv-start-review { grid-area: start; }
+.rv-status { padding: var(--gap-2) var(--page-pad); font-size: var(--fs-ui); color: var(--rust); }
+.rv-status:empty { display: none; }
+
+.rv-items { max-width: 920px; margin: 0 auto; }
+.rv-entry { border-bottom: 1px solid var(--line-soft); }
+.rv-entry summary {
+  display: grid; grid-template-columns: 28px minmax(0, 1fr) auto 12px; align-items: center; gap: 12px;
+  padding: var(--gap-3) var(--page-pad); list-style: none; color: var(--ink); font-weight: 400; cursor: pointer;
+}
+.rv-entry summary::-webkit-details-marker { display: none; }
+.rv-entry summary::after { content: '▸'; color: var(--tbink); }
+.rv-entry[open] summary::after { content: '▾'; }
+.rv-entry summary:hover { background: var(--hover); }
+.rv-entry[open] summary { background: var(--panel); box-shadow: inset 3px 0 var(--tbink); }
+.rv-kind { display: inline-flex; align-items: center; justify-content: center; }
+.rv-kind img { width: 20px; height: 20px; object-fit: contain; }
+.rv-question { display: grid; gap: 2px; min-width: 0; overflow-wrap: anywhere; }
+.rv-question strong { font: 600 14px/1.45 var(--font-text); }
+.rv-question small { font-size: var(--fs-ui); color: var(--muted); }
+.rv-date { color: var(--muted); font-size: var(--fs-ui); white-space: nowrap; }
+
+.rv-detail { display: grid; gap: 10px; padding: var(--gap-3) var(--page-pad) var(--gap-4) calc(var(--page-pad) + 40px); font: 14px/1.6 var(--font-text); overflow-wrap: anywhere; }
+.rv-evidence { margin: 0; padding: var(--gap-2) 12px; border-left: 3px solid var(--border); background: var(--paper); }
+.rv-line { display: flex; align-items: baseline; gap: 8px; margin: 0; }
+.rv-line + .rv-line { margin-top: 4px; }
+.rv-line-play { flex: none; width: 26px; min-height: 26px; padding: 0; border-radius: 50%; font-size: 12px; }
+.rv-options { display: grid; gap: 4px; margin: 0; padding: 0; list-style: none; }
+.rv-option { display: flex; align-items: baseline; gap: 10px; padding: 6px 10px; border: 1px solid var(--line-soft); background: var(--paper); }
+.rv-option .rv-mark { flex: none; width: 1.4em; color: var(--muted); font: 700 13px/1.5 var(--font-pixel); text-align: center; }
+.rv-option.right { border-color: var(--right); background: var(--right-bg); }
+.rv-option.right .rv-mark { color: var(--right); }
+.rv-option.wrong { border-color: var(--rust); background: var(--wrong-bg); }
+.rv-option.wrong .rv-mark { color: var(--rust); }
+.rv-explain { margin: 0; color: var(--ink); }
+.rv-foot { display: flex; align-items: center; gap: var(--gap-3); }
+.rv-foot a { text-underline-offset: 3px; }
+
+.rv-start-review, .nb-start-review { margin-left: auto; background: var(--sel); border-color: var(--sel); color: var(--on-dark); }
+.rv-start-review:disabled { background: var(--line-soft); border-color: var(--line-soft); }
+.nb-word-open { cursor: pointer; text-decoration: underline dotted; text-underline-offset: 3px; }
+
+@media (max-width: 720px) {
+  .rv-toolbar { grid-template-columns: minmax(0, 1fr) auto auto; grid-template-areas: "kinds count start" "languages languages languages"; }
+  .rv-detail { padding-left: var(--page-pad); }
+}
+
+.rv-evidence mark { background: var(--mark); color: inherit; }
+
+.rv-foot .row-more { margin-left: auto; }
+.rv-skeleton { height: 58px; border-bottom: 1px solid var(--line-soft); background: linear-gradient(90deg, var(--panel) 0 40%, transparent 40%) 52px 14px / 70% 12px no-repeat, linear-gradient(90deg, var(--panel) 0 25%, transparent 25%) 52px 34px / 70% 10px no-repeat; }
+@media (max-width: 1000px) { .rv-toolbar .list-search { width: 110px; } .rv-toolbar { gap: 6px; } }
+.rv-toolbar { min-width: 0; }
+.rv-toolbar { grid-template-columns: minmax(0, 1fr) auto auto auto auto; grid-template-areas: "kinds search languages count start"; }
+.rv-toolbar .list-search { grid-area: search; }
+@media (max-width: 720px) { .rv-toolbar { grid-template-columns: minmax(0, 1fr) auto auto; grid-template-areas: "kinds count start" "search languages languages"; } }

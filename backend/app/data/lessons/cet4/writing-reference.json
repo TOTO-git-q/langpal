@@ -1,0 +1,383 @@
+{
+ "id": "writing-reference",
+ "title": "段内指代与词语复现",
+ "goal": "确定代词的明确指代对象；用指代和关键词连接相邻句子。",
+ "skill": "写作",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "antecedent",
+   "label": "确定代词的明确指代对象"
+  },
+  {
+   "id": "cohesion",
+   "label": "用指代和关键词连接相邻句子"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语四级（CET-4）：课表",
+   "url": "docs/syllabi/cet4.md",
+   "used": "写作部分本课的内容范围、知识点及教学材料规格"
+  },
+  {
+   "id": "c2",
+   "title": "C2 全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "依据所给研究文件中的写作语言与连贯性要求安排教学，不陈述考试事实"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "相邻的句子要指向同一个对象，换对象时要写明。it 一般指单数事物，they 指复数对象。附近有两个可能的对象时，重复名词，不靠远近判断代词指谁。"
+    },
+    {
+     "box": "The department introduced a booking system last month. It records requests for shared equipment."
+    },
+    {
+     "p": "这里 It 只能指 booking system。如果前面还提到另一个系统，就写 The booking system，读者才不会理解错。"
+    }
+   ]
+  },
+  {
+   "id": "forms",
+   "type": "table",
+   "title": "指代形式与语义边界",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "it",
+     "承接前文明确的单数对象。前面有两个并列对象时不用 it。",
+     "The club purchased a folding table for outdoor events. It fits inside the storage cupboard."
+    ],
+    [
+     "they",
+     "承接前文明确的复数对象，谓语用复数。",
+     "The volunteers received printed badges before the event. They wore them throughout the afternoon."
+    ],
+    [
+     "this 加名词",
+     "用名词说明概括的是决定、变化还是过程。",
+     "The office combined two application forms. This change reduced the number of repeated questions."
+    ],
+    [
+     "原名复现",
+     "前文有两个可能的对象时，重复名词。",
+     "The organizer placed the folder beside the notebook. The folder contained the signed forms."
+    ],
+    [
+     "同义名词复现",
+     "换用的名词要和原词指同一事物，类别不变。",
+     "The center lends equipment to clubs. This lending service requires every item to be returned."
+    ],
+    [
+     "替换边界",
+     "loan 是要归还的借用，不能换成 gift。",
+     "The student received a loan of equipment, which had to be returned after the performance."
+    ]
+   ]
+  },
+  {
+   "id": "pairs",
+   "type": "table",
+   "title": "指代清楚与指代不明",
+   "cols": [
+    "情况",
+    "指代问题",
+    "清楚的表达"
+   ],
+   "rows": [
+    [
+     "单数对象竞争",
+     "The curator placed a photograph beside a sketch for comparison. It showed the entrance before the extension was built. The two objects were later moved to separate folders, but the description did not state which image showed the old entrance.",
+     "The curator placed a photograph beside a sketch for comparison. The photograph showed the entrance before the extension was built. Both images were later moved to separate folders. Naming the photograph identifies the image that contains the earlier view of the entrance."
+    ],
+    [
+     "复数对象竞争",
+     "The mentors met the trainees before the workshop began. They received printed instructions about the afternoon activity. Both groups stayed in the same classroom, and several people asked about the schedule. The paragraph does not identify which group received the instructions.",
+     "The mentors met the trainees before the workshop began. The trainees received printed instructions about the afternoon activity. Both groups stayed in the same classroom, and several people asked about the schedule. Repeating trainees keeps the recipients distinct from their mentors."
+    ],
+    [
+     "整件事的概括",
+     "The office moved registration online and extended its opening hours. This helped students who lived far from campus. The paragraph describes two changes, either of which might help those students. The writer needs to identify the specific change being discussed.",
+     "The office moved registration online and extended its opening hours. This move to online registration helped students who lived far from campus complete the process without traveling. The longer opening hours were a separate change, intended mainly for visitors arriving after classes."
+    ],
+    [
+     "主语与宾语转换",
+     "A student handed a notebook to a tutor before the meeting. It contained questions about the project. The tutor wrote comments in a separate folder. It was returned after lunch, but the paragraph does not identify which object the student received.",
+     "A student handed a notebook to a tutor before the meeting. The notebook contained questions about the project. The tutor wrote comments in a separate folder. The notebook was returned after lunch, while the folder remained with the tutor for later discussion."
+    ],
+    [
+     "单复数不一致",
+     "The group bought several portable lamps for its display. It was placed beside the posters before the visitors arrived. The lamps had been tested earlier, and the group kept spare batteries nearby. The singular pronoun leaves the intended plural reference unclear.",
+     "The group bought several portable lamps for its display. The lamps were placed beside the posters before the visitors arrived. They had been tested earlier, and the group kept spare batteries nearby. The plural pronoun now consistently refers to the portable lamps."
+    ],
+    [
+     "同义替换越界",
+     "The college offered students a loan of basic recording equipment for a weekend project. This gift allowed a team to record interviews away from campus. The equipment had to be returned on Monday, so calling the arrangement a gift changes its meaning.",
+     "The college offered students a loan of basic recording equipment for a weekend project. This lending arrangement allowed a team to record interviews away from campus. The equipment had to be returned on Monday, and the new phrase preserves that temporary arrangement."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The studio replaced paper booking slips with a shared calendar. Staff could see all reservations in one place. This reduced duplicated bookings."
+    },
+    {
+     "p": "This 可以概括前面的安排，写成 this shared calendar 或 this change to a shared calendar 更明确。下一句如果谈纸张消耗，就另写 replacing paper slips。"
+    },
+    {
+     "box": "This change to a shared calendar made overlapping reservations easier for studio staff to identify."
+    },
+    {
+     "p": "calendar 不能换成 timetable of classes。材料说的是工作室预订，不是课程安排。"
+    }
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "antecedent",
+    "cohesion"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The club placed a scanner beside a printer. It needed a new cable. What makes it unclear?",
+       "options": [
+        "Both objects are plural nouns.",
+        "Either machine could need the cable.",
+        "The cable is mentioned before the machines.",
+        "The printer is the noun nearest to it."
+       ],
+       "answer": 1,
+       "why": "scanner 和 printer 都是单数，都可能需要新线缆，即第二项。第四项说 printer 离 it 最近，但远近决定不了指代。",
+       "point": "antecedent"
+      },
+      {
+       "stem": "The reports arrived yesterday. ___ contain the final measurements. Which personal pronoun agrees?",
+       "options": [
+        "It",
+        "This",
+        "They",
+        "Its"
+       ],
+       "answer": 2,
+       "why": "reports 是复数，contain 的主语用 They，即第三项。",
+       "point": "cohesion"
+      },
+      {
+       "stem": "A temporary equipment loan must be returned. Which phrase preserves this meaning?",
+       "options": [
+        "This lending arrangement",
+        "This permanent donation",
+        "This completed purchase",
+        "This unconditional gift"
+       ],
+       "answer": 0,
+       "why": "loan 要归还。lending arrangement 保留了临时借用的意思，即第一项。",
+       "point": "cohesion"
+      },
+      {
+       "stem": "Two changes are mentioned: new signs and longer hours. The next sentence concerns the new signs. Which opening is clearest?",
+       "options": [
+        "This helped visitors.",
+        "They improved access.",
+        "The change was useful.",
+        "The new signs guided visitors."
+       ],
+       "answer": 3,
+       "why": "前文有两项变化。第四项直接写出 The new signs，对象明确。",
+       "point": "antecedent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "cohesion",
+    "antecedent"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A design society began accepting application forms online. It also printed posters announcing the new procedure. Students could submit their forms from home instead of visiting the society office. The change concerned submission methods; the office kept its usual opening hours throughout the registration period.",
+     "items": [
+      {
+       "stem": "Name the arrangement that allowed remote submission.",
+       "lead": "This",
+       "chunks": [
+        "move to",
+        "online submission",
+        "enabled students",
+        "to send"
+       ],
+       "tail": "their work from home.",
+       "extra": [
+        "donation"
+       ],
+       "why": "This move to online submission 概括了提交方式的变化。donation 与材料无关。",
+       "point": "cohesion"
+      },
+      {
+       "stem": "Choose the intended object: forms / posters / opening hours. In the sentence They were accepted online, they refers to the ___.",
+       "accept": [
+        "forms"
+       ],
+       "why": "材料说 began accepting application forms online，在线接收的是 forms。",
+       "point": "antecedent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "antecedent",
+    "cohesion"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A technician placed a screen beside a tablet in the training room. The draft continues: It displayed a diagram of the new layout before the session. The writer intends to describe the screen. The cables were stored separately. They were labeled with the names of the devices they connected.",
+       "items": [
+        {
+         "stem": "What makes it unclear in the draft?",
+         "options": [
+          "Both the screen and the tablet could display the diagram.",
+          "The screen and the tablet are both plural nouns.",
+          "It could refer to the diagram of the new layout.",
+          "The tablet was mentioned before the screen was mentioned."
+         ],
+         "answer": 0,
+         "why": "screen 和 tablet 都可能显示图表，It 指哪一个不清楚，即第一项。",
+         "point": "antecedent"
+        },
+        {
+         "stem": "The writer means the screen. Which revision makes that reference explicit?",
+         "options": [
+          "The tablet displayed the diagram before the session.",
+          "The screen displayed the diagram before the session.",
+          "The equipment displayed the diagram before the session.",
+          "It displayed the diagram beside the other device."
+         ],
+         "answer": 1,
+         "why": "材料说 intends to describe the screen。第二项重复 screen，指代就清楚了。第三项的 equipment 仍可指两台设备。",
+         "point": "cohesion"
+        },
+        {
+         "stem": "Complete the revision that names the intended device.",
+         "lead": "The screen",
+         "chunks": [
+          "displayed",
+          "the diagram",
+          "of the",
+          "new layout before"
+         ],
+         "tail": "the training session began.",
+         "extra": [
+          "tablet"
+         ],
+         "why": "重复 The screen 写明所指。the diagram of the new layout 是 displayed 的宾语。",
+         "point": "cohesion"
+        },
+        {
+         "stem": "Choose the referent of They in the final sentence: cables / screen / tablet.",
+         "accept": [
+          "cables"
+         ],
+         "why": "依据是 The cables were stored separately. They were labeled。复数代词 They 承接 cables。",
+         "point": "antecedent"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "An equipment lending service replaced its paper notebook with a shared digital log. All members can now read the entries. The service still lends equipment temporarily, and borrowers must return the equipment after each activity. Changing the record system did not turn the lending service into a donation program.",
+       "items": [
+        {
+         "stem": "Which phrase best names the change that made entries readable to all members?",
+         "options": [
+          "This purchase of a paper notebook",
+          "This return of borrowed equipment",
+          "This move to a shared digital log",
+          "This transfer of equipment ownership"
+         ],
+         "answer": 2,
+         "why": "依据是 replaced its paper notebook with a shared digital log，所有成员因此能看到记录，即第三项。",
+         "point": "cohesion"
+        },
+        {
+         "stem": "Why would replacing lending service with donation program distort the paragraph?",
+         "options": [
+          "The service uses a digital record rather than a paper notebook.",
+          "The program allows members to view the same shared information.",
+          "The equipment is used for several different student activities.",
+          "The borrowed equipment must be returned after each activity ends."
+         ],
+         "answer": 3,
+         "why": "依据是 borrowers must return the equipment。设备要归还，是借用，不是捐赠，即第四项。",
+         "point": "cohesion"
+        },
+        {
+         "stem": "Complete the sentence naming the system change.",
+         "lead": "This",
+         "chunks": [
+          "move to",
+          "a shared log",
+          "made the",
+          "entries visible to"
+         ],
+         "tail": "all members of the group.",
+         "extra": [
+          "donation"
+         ],
+         "why": "This move to a shared log 概括了记录方式的变化。donation 改变了原意。",
+         "point": "cohesion"
+        },
+        {
+         "stem": "Choose the referent: borrowed equipment / paper notebook / digital log. In It must be returned after each activity, it refers to the ___.",
+         "accept": [
+          "borrowed equipment"
+         ],
+         "why": "要归还的是借出的设备，填 borrowed equipment。",
+         "point": "antecedent"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

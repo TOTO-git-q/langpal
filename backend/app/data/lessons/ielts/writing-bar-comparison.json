@@ -1,0 +1,68 @@
+{
+ "id": "writing-bar-comparison",
+ "title": "比较结构与倍数",
+ "goal": "保持比较对象和单位一致，准确表达倍数与差值。",
+ "skill": "写作", "exam": "雅思 IELTS Academic", "mastery": "once",
+ "points": [{"id": "parallel", "label": "保持比较双方的对象和单位一致"}, {"id": "ratio", "label": "准确表达倍数与差值"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "比较结构与倍数"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "比较句的两端要用同一个指标和单位：人数比人数，百分比比百分比。后一端的指标与前一端相同时，可以用 that 代替。"},
+   {"box": "The number of visitors to Oak was higher than that of visitors to Elm."},
+   {"p": "倍数表示一个数是另一个数的几倍。差值表示两者相差多少，单位和原数值相同。"}
+  ]},
+  {"id": "higher", "type": "table", "title": "高于与低于", "cols": ["结构", "例句"], "rows": [
+   ["higher than", "The rate in Oak was higher than that in Elm."],
+   ["lower than", "The rate in Elm was lower than that in Oak."],
+   ["more than", "Oak had more visitors than Elm."],
+   ["fewer than", "Elm had fewer visitors than Oak."]
+  ]},
+  {"id": "similar", "type": "table", "title": "相当", "cols": ["结构", "例句"], "rows": [
+   ["the same as", "The rate in Oak was the same as that in Elm."],
+   ["equal to", "Oak's total was equal to Elm's total."],
+   ["as many as", "Oak had as many visitors as Elm."],
+   ["as much as", "Oak used as much water as Elm."]
+  ]},
+  {"id": "multiples", "type": "table", "title": "倍数", "cols": ["结构", "例句"], "rows": [
+   ["twice as many as", "Oak had twice as many visitors as Elm."],
+   ["twice as much as", "Oak used twice as much water as Elm."],
+   ["twice the number of", "Oak recorded twice the number of visitors recorded at Elm."],
+   ["three times as high as", "Oak's rate was three times as high as Elm's rate."]
+  ]},
+  {"id": "difference", "type": "table", "title": "差值", "cols": ["数据", "例句"], "rows": [
+   ["Oak 40 人，Elm 20 人", "Oak had 20 more visitors than Elm."],
+   ["Oak 40 人，Elm 20 人", "Elm had 20 fewer visitors than Oak."],
+   ["Oak 40 升，Elm 20 升", "The difference was 20 litres."],
+   ["Oak 40%，Elm 20%", "Oak's rate was 20 percentage points higher than Elm's."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "Oak used 40 litres of water; Elm used 20 litres. Oak used twice as much water as Elm. Oak used 20 litres more water than Elm. The two locations also recorded visitor totals: Oak had 60 visitors and Elm had 30. Thus Oak had twice as many visitors as Elm, with a difference of 30 people. The water quantities and visitor totals are compared separately."},
+   {"p": "40 是 20 的两倍，用 twice as much as 表达。40 比 20 多 20 升，用 20 litres more 表达差值。"},
+   {"p": "water 是不可数名词，用 much。visitors 是可数名词复数，用 many。比较 rate 时两端都要是比率，例如 the rate in Oak 和 that in Elm。"}
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["parallel", "ratio"], "groups": [{"items": [
+   {"stem": "Oak had 40 visitors and Elm had 20. Which comparison is accurate?", "options": ["Oak had twice as many visitors as Elm.", "Oak had twice as much visitors as Elm.", "Oak had 40 fewer visitors than Elm.", "Oak had the same number as Elm."], "answer": 0, "why": "40 是 20 的两倍。visitors 是可数名词复数，与 many 搭配，即第一项。", "point": "ratio"},
+   {"stem": "Oak used 40 litres and Elm used 20 litres. Which sentence gives the difference?", "options": ["Oak used 40 litres more than Elm.", "Oak used 20 litres more than Elm.", "Oak used 20 litres less than Elm.", "Oak used the same amount as Elm."], "answer": 1, "why": "40 减 20 等于 20 升，第二项表达差值。", "point": "ratio"},
+   {"stem": "Which sentence compares two rates?", "options": ["The rate in Oak was higher than Elm.", "Oak was higher than the rate in Elm.", "The rate in Oak was higher than that in Elm.", "The rate in Oak was higher than Elm's visitors."], "answer": 2, "why": "that 指代 rate，第三项两端都是比率。", "point": "parallel"},
+   {"stem": "Each site used 50 litres. Which sentence compares the amounts?", "options": ["Oak used as many water as Elm.", "Oak used more water than Elm.", "Oak used fewer water than Elm.", "Oak used as much water as Elm."], "answer": 3, "why": "两处用水量相同。water 是不可数名词，用 as much as，即第四项。", "point": "parallel"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["parallel", "ratio"], "groups": [{"items": [
+   {"stem": "Mill has 60 visitors and Ford has 30. Complete the comparison.", "lead": "Mill", "chunks": ["has twice", "as many visitors", "as", "Ford"], "tail": ".", "extra": ["much"], "why": "60 是 30 的两倍，visitors 与 many 搭配。", "point": "ratio"},
+   {"stem": "Mill's rate is 30%; Ford's rate is 20%. Complete the comparison.", "lead": "The rate", "chunks": ["in Mill", "is higher", "than that", "in Ford"], "tail": ".", "extra": ["visitors"], "why": "that 指代 rate，两端均为比率。", "point": "parallel"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["parallel", "ratio"], "sets": [{"id": "set-a", "groups": [
+   {"text": "A survey recorded 80 visitors at North and 40 at South. Water use was 60 litres at North and 30 litres at South. The visitor rate was 40% at North and 20% at South.", "items": [
+    {"stem": "Which sentence correctly compares visitor counts?", "options": ["North had twice as much visitors as South.", "North had twice as many visitors as South.", "North had 80 fewer visitors than South.", "North had the same visitors as South."], "answer": 1, "why": "80 是 40 的两倍，visitors 与 many 搭配。", "point": "ratio"},
+    {"stem": "Which sentence compares the two rates?", "options": ["North's rate was higher than South.", "North was higher than South's rate.", "North's rate was higher than South's rate.", "North's rate was higher than South's visitors."], "answer": 2, "why": "两地比率分别为 40% 和 20%，第三项比较两个比率。", "point": "parallel"},
+    {"stem": "Which statement gives the difference in water use?", "options": ["North used 60 litres less than South.", "North used 60 litres more than South.", "North used 30 litres less than South.", "North used 30 litres more than South."], "answer": 3, "why": "60 升减 30 升为 30 升，第四项正确。", "point": "ratio"},
+    {"stem": "Which sentence compares water quantities grammatically?", "options": ["North used more water than South.", "North used more water than South's rate.", "North used more waters than South.", "North used more water than South's visitors."], "answer": 0, "why": "两端都指用水量，water 是不可数名词，第一项正确。", "point": "parallel"}
+   ]},
+   {"text": "In a second survey, East recorded 90 bookings and West 45. East used 80 litres of water and West used 40 litres. Their occupancy rates were 60% and 30% respectively.", "items": [
+    {"stem": "Compare the booking counts as a multiple.", "lead": "East", "chunks": ["recorded", "twice as many", "bookings", "as West"], "tail": ".", "extra": ["much"], "why": "90 是 45 的两倍，可数名词 bookings 与 many 搭配。", "point": "ratio"},
+    {"stem": "Compare the two occupancy rates.", "lead": "The rate", "chunks": ["in East", "was higher", "than that", "in West"], "tail": ".", "extra": ["bookings"], "why": "that 指代 rate，两端均表示入住率。", "point": "parallel"},
+    {"stem": "Give the difference in water use.", "lead": "East", "chunks": ["used", "40 litres", "more water", "than West"], "tail": ".", "extra": ["less"], "why": "80 升比 40 升多 40 升。", "point": "ratio"},
+    {"stem": "Compare the water quantities as a multiple.", "lead": "East", "chunks": ["used", "twice as much", "water", "as West"], "tail": ".", "extra": ["many"], "why": "80 升是 40 升的两倍，water 与 much 搭配。", "point": "parallel"}
+   ]}
+  ]}]} 
+ ]
+}

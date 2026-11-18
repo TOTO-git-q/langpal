@@ -1,0 +1,609 @@
+{
+ "id": "listening-conversation-inference",
+ "title": "推断题与下一步",
+ "goal": "依据对话推断态度和关系，并从结尾决定判断下一步行动。",
+ "skill": "listening",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 听力",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "basis",
+   "label": "为推断找到对话中的依据"
+  },
+  {
+   "id": "next",
+   "label": "根据对话结尾判断接下来的行动"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、录音长度、只放一遍"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "各题型的说明、考查的能力、官方样题"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Listening Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-listening.pdf",
+   "used": "第 1 课：四类题的说明和小测答案；第 2、4 课：应答配对、重音和语调"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "推断题的结论不一定逐字说出，但必须有对话里的直接依据。态度看评价词和回应。关系看双方各自做的事。下一步看结尾接受了什么安排。"
+    },
+    {
+     "box": "What can be inferred about the speaker?\nHow does the assistant feel about the proposal?\nWhat is the probable relationship between the speakers?\nWhat will the visitor probably do next?"
+    },
+    {
+     "p": "推断只比原话多走一步。I’ve shown every new volunteer how to use this tool 说明此人有指导经验，但说明不了此人负责整个机构。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定推断对象",
+     "d": "先分清问的是态度、关系还是行动。What does Lee think of the plan 问的是评价，不是计划哪天完成。"
+    },
+    {
+     "t": "2　合并直接依据",
+     "d": "把关于同一对象的话合起来看。I like the route, but not in this weather 是有条件的赞同，不是完全反对。"
+    },
+    {
+     "t": "3　检查结尾决定",
+     "d": "提出、拒绝和接受要分开看。Let’s wait 后面接 Agreed，说明决定先等，不是马上出发。"
+    },
+    {
+     "t": "4　限制结论范围",
+     "d": "结论不能添加职业、动机或确定的结果。I’ll ask about a vacancy 只是去问空缺，不一定拿到职位。"
+    }
+   ]
+  },
+  {
+   "id": "basis",
+   "type": "table",
+   "title": "推断依据",
+   "cols": [
+    "类型",
+    "依据",
+    "例句"
+   ],
+   "rows": [
+    [
+     "肯定态度",
+     "有明确的赞许",
+     "That layout makes everything easier to find."
+    ],
+    [
+     "保留态度",
+     "肯定之后加了条件",
+     "It might work, if we can reduce the cost."
+    ],
+    [
+     "失望态度",
+     "结果没有达到原先的期待",
+     "I expected more than a single sample."
+    ],
+    [
+     "工作关系",
+     "看此人提供服务还是指导，判断角色",
+     "Bring the damaged strap over; I’ll replace it."
+    ],
+    [
+     "熟悉程度",
+     "经验只说明熟悉这一件事",
+     "I’ve used this route twice before."
+    ],
+    [
+     "行动准备",
+     "必要的步骤已做好，行动就在眼前",
+     "I’ve packed the samples; the courier is due shortly."
+    ]
+   ],
+   "note": "能推出的是此人做什么，推不出具体职位。I’ll replace the strap 说明此人提供维修，但不一定是店主。"
+  },
+  {
+   "id": "next",
+   "type": "table",
+   "title": "结尾与行动",
+   "cols": [
+    "类型",
+    "例句",
+    "结论"
+   ],
+   "rows": [
+    [
+     "直接决定",
+     "I’ll reserve the afternoon slot.",
+     "准备预订下午时段"
+    ],
+    [
+     "接受建议",
+     "A: Try the side door. B: I’ll do that.",
+     "准备改走侧门"
+    ],
+    [
+     "有条件接受",
+     "I’ll join if my shift ends early.",
+     "是否参加，要看下班时间"
+    ],
+    [
+     "顺序限定",
+     "First I’ll ask permission; then I’ll book.",
+     "先申请许可，之后才预订"
+    ],
+    [
+     "暂缓决定",
+     "Let’s leave it until we know the cost.",
+     "等费用明确后再决定"
+    ],
+    [
+     "他人行动",
+     "A: I’ll call. B: I’ll wait here.",
+     "A 打电话，B 在原地等"
+    ]
+   ],
+   "note": "结尾有时只是补充条件，决定没有变。I’ll reserve it, provided the fee is refundable 是在能退款的前提下预订。"
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Visitor: Can I take the delicate glass bowl home on the bus?\nAssistant: I wouldn't risk it without padding. I pack these every day.\nVisitor: Could you wrap it for me?\nAssistant: Of course. Wait here while I get a padded box.\nVisitor: Thanks. I'll take it once it's packed."
+    },
+    {
+     "box": "What can be inferred about the assistant?\n1. The assistant owns the glass workshop.\n2. The assistant often travels by bus.\n3. The assistant made this particular bowl.\n4. The assistant has experience packing fragile goods."
+    },
+    {
+     "p": "I pack these every day 说明此人常包装易碎品，第四项把它概括为有经验。其余选项沿用了 workshop、bus、bowl，但加上了所有权、出行习惯或制作经历。"
+    },
+    {
+     "p": "结尾是工作人员去拿包装箱，顾客在原地等。问 What will the visitor do next 时，不能选 get a padded box，因为拿箱子的是工作人员。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "错误",
+    "例"
+   ],
+   "rows": [
+    [
+     "推断过远",
+     "从经验推到职务或所有权",
+     "I pack these daily → I own the shop."
+    ],
+    [
+     "条件消失",
+     "把可能参加说成一定参加",
+     "If my shift ends early → I will certainly join."
+    ],
+    [
+     "旧方案",
+     "忽略了结尾的拒绝或修改",
+     "Drive there? No, let’s walk. → They will drive."
+    ],
+    [
+     "人物错配",
+     "把对方要做的事说成提问者做",
+     "I’ll get a box; wait here. → The visitor gets a box."
+    ],
+    [
+     "程度过强",
+     "把一次评价扩大成一贯的看法",
+     "This route is unsuitable today → The route is always bad."
+    ]
+   ]
+  },
+  {
+   "id": "check-infer",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "basis",
+    "next"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Do you like the new market layout?"
+       },
+       {
+        "who": "B",
+        "text": "The wider aisles help, but the stalls still need clearer numbers."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What can be inferred about the speaker’s opinion?",
+       "options": [
+        "The layout needs no further changes.",
+        "The layout is better but still has a flaw.",
+        "The wider aisles make the layout worse.",
+        "The stall numbers are the main improvement."
+       ],
+       "answer": 1,
+       "why": "依据是 The wider aisles help, but the stalls still need clearer numbers。布局有改进，但编号还要改，即第二项。",
+       "point": "basis"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Can I sail today?"
+       },
+       {
+        "who": "B",
+        "text": "The wind's above our limit. Come back tomorrow, after we've checked the forecast."
+       },
+       {
+        "who": "A",
+        "text": "All right. I'll leave the boat covered."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What will the visitor probably do now?",
+       "options": [
+        "Sail before the wind gets stronger",
+        "Uncover the boat for a forecast check",
+        "Keep the boat unused for the moment",
+        "Return tomorrow without checking conditions"
+       ],
+       "answer": 2,
+       "why": "依据是 All right. I'll leave the boat covered。今天不出航，船先盖着，即第三项；明天还要先看预报。",
+       "point": "next"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "How should I trim this hedge?"
+       },
+       {
+        "who": "B",
+        "text": "Start at this end. I'll watch the first section, then you can finish it."
+       },
+       {
+        "who": "A",
+        "text": "Thanks. I haven't used these shears before."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is the likely relationship between the speakers?",
+       "options": [
+        "Two workers comparing prices of shears",
+        "A worker asking a customer to trim a hedge",
+        "Two workers with equal experience of the tool",
+        "A beginner and a person showing the method"
+       ],
+       "answer": 3,
+       "why": "依据是 I'll watch the first section 和 I haven't used these shears before。一个是新手，一个在旁边指导，即第四项。",
+       "point": "basis"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The parcel's too large for the locker."
+       },
+       {
+        "who": "B",
+        "text": "Could the office hold it?"
+       },
+       {
+        "who": "A",
+        "text": "Yes, but ring them before going."
+       },
+       {
+        "who": "B",
+        "text": "I'll make the call now."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What will the customer probably do first?",
+       "options": [
+        "Contact the office by telephone",
+        "Visit the locker again",
+        "Collect the parcel from the office",
+        "Ask for a smaller parcel"
+       ],
+       "answer": 0,
+       "why": "依据是 ring them before going 和 I'll make the call now。顾客先给办公室打电话，即第一项；还没去取包裹。",
+       "point": "next"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-dialogue",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "basis",
+    "next"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "This is my first session in the darkroom. Are these trays ready?"
+       },
+       {
+        "who": "B",
+        "text": "Yes. I prepare them before every group arrives. Keep the unused paper in its box."
+       },
+       {
+        "who": "A",
+        "text": "Thanks. Should I open my paper now?"
+       },
+       {
+        "who": "B",
+        "text": "Not yet. I'll switch off the white light first."
+       },
+       {
+        "who": "A",
+        "text": "All right, I'll wait."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What can be inferred about the second speaker?",
+       "options": [
+        "The speaker routinely prepares the workspace.",
+        "The speaker is attending a first session.",
+        "The speaker manufactures photographic paper.",
+        "The speaker has already turned off the white light."
+       ],
+       "answer": 0,
+       "why": "依据是 I prepare them before every group arrives。第二个说话人经常准备场地，即第一项。",
+       "point": "basis"
+      },
+      {
+       "stem": "What will the beginner probably do next?",
+       "options": [
+        "Start opening the paper box",
+        "Prepare trays for another group",
+        "Wait until the white light is off",
+        "Leave the darkroom before the session"
+       ],
+       "answer": 2,
+       "why": "依据是 Not yet. I'll switch off the white light first 和 I'll wait。新手要等白光关掉，即第三项。",
+       "point": "next"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "basis",
+    "next"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I've never worked on a theater lighting desk before."
+         },
+         {
+          "who": "B",
+          "text": "That's fine. I train all the new volunteers. Tonight we'll only use the basic controls."
+         },
+         {
+          "who": "A",
+          "text": "Should I start pressing the buttons while you explain?"
+         },
+         {
+          "who": "B",
+          "text": "Let's check the cable connections first. Then I'll demonstrate one cue."
+         },
+         {
+          "who": "A",
+          "text": "Okay. I'll help you check the cables before trying the desk."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What can be inferred about the second speaker?",
+         "options": [
+          "The speaker is also using the desk for the first time.",
+          "The speaker designs every production’s lighting.",
+          "The speaker has experience training new volunteers.",
+          "The speaker expects the beginner to perform without instruction."
+         ],
+         "answer": 2,
+         "why": "依据是 I train all the new volunteers。此人带过新志愿者，即第三项；推不出负责所有灯光设计。",
+         "point": "basis"
+        },
+        {
+         "stem": "What will the beginner probably do first?",
+         "options": [
+          "Assist with checking the connections",
+          "Operate the basic controls alone",
+          "Demonstrate a lighting cue for the trainer",
+          "Train the other new volunteers"
+         ],
+         "answer": 0,
+         "why": "依据是 I'll help you check the cables before trying the desk。新手先帮忙检查线缆，即第一项。",
+         "point": "next"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "What do you think of the proposed dog-walking route, Tess?"
+         },
+         {
+          "who": "B",
+          "text": "The shaded section is good, but the bridge is too narrow for our group."
+         },
+         {
+          "who": "A",
+          "text": "We could cross the stream at the wider bridge farther east."
+         },
+         {
+          "who": "B",
+          "text": "That would solve the crowding problem. Let's use it, but check that the path is open."
+         },
+         {
+          "who": "A",
+          "text": "I'll phone the park office now."
+         },
+         {
+          "who": "B",
+          "text": "Thanks. Once we know, we can send everyone the route."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "How does Tess feel about the revised route?",
+         "options": [
+          "Tess opposes using any shaded path.",
+          "Tess believes it has already been officially approved.",
+          "Tess expects the original narrow bridge to be widened.",
+          "Tess favors it subject to checking access."
+         ],
+         "answer": 3,
+         "why": "依据是 That would solve the crowding problem. Let's use it, but check that the path is open。Tess 赞同新路线，但要先确认小路开放，即第四项。",
+         "point": "basis"
+        },
+        {
+         "stem": "What will Tess’s companion probably do next?",
+         "options": [
+          "Send the final route to the group",
+          "Ask the park office about the path",
+          "Lead the group across the narrow bridge",
+          "Arrange construction of a wider bridge"
+         ],
+         "answer": 1,
+         "why": "依据是 I'll phone the park office now。同伴马上要给公园办公室打电话，即第二项；发路线要等确认之后。",
+         "point": "next"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The rented telescope has arrived, but I can't get a clear view through it."
+         },
+         {
+          "who": "B",
+          "text": "Have you removed the small cover at the front? I made that mistake the first time I borrowed one."
+         },
+         {
+          "who": "A",
+          "text": "Oh, I haven't. Could you help me set it up outside?"
+         },
+         {
+          "who": "B",
+          "text": "Sure, after we remove the cover. There's no need to call the rental desk yet."
+         },
+         {
+          "who": "A",
+          "text": "Good. Let's try that before reporting a fault."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What can be inferred about the helper?",
+         "options": [
+          "The helper has borrowed similar equipment before.",
+          "The helper works at the rental desk.",
+          "The helper believes the telescope is definitely broken.",
+          "The helper has already reported this telescope’s fault."
+         ],
+         "answer": 0,
+         "why": "依据是 I made that mistake the first time I borrowed one。帮忙的人以前借过类似的设备，即第一项。",
+         "point": "basis"
+        },
+        {
+         "stem": "What will the speakers probably do before contacting the rental desk?",
+         "options": [
+          "Return the telescope immediately",
+          "Ask for a different rental model",
+          "Remove the cover and try the telescope",
+          "Arrange for the front cover to be repaired"
+         ],
+         "answer": 2,
+         "why": "依据是 after we remove the cover 和 Let's try that before reporting a fault。两人先取下镜头盖再试，即第三项。",
+         "point": "next"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

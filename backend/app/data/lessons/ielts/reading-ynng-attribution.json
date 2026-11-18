@@ -1,0 +1,74 @@
+{
+ "id": "reading-ynng-attribution",
+ "title": "引述与评价表达",
+ "goal": "确认观点的提出者，辨认作者对引述观点的评价。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "source", "label": "确认观点的提出者"},
+  {"id": "evaluation", "label": "辨认作者对引述观点的评价"}
+ ],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "引述与评价表达：内容与知识点"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "引述句指出观点的提出者。作者可以接受、限制或反对被引述的观点，也可以只报告该观点。"},
+   {"p": "Some planners support the scheme 只报告规划人员的意见。作者是否支持，要看后面的评价。"}
+  ]},
+  {"id": "reporting", "type": "table", "title": "引述动词", "cols": ["动词", "含义", "例句"], "rows": [
+   ["argue", "提出论点", "The authors argue that the path should remain open."],
+   ["claim", "声称", "The report claims that the path is safe."],
+   ["suggest", "提出看法", "The survey suggests that the path is well used."],
+   ["propose", "提出建议", "Residents propose that the gate be moved."],
+   ["maintain", "坚持认为", "The committee maintains that the route is practical."],
+   ["observe", "指出", "The guide observes that the route is narrow."]
+  ]},
+  {"id": "evaluation", "type": "table", "title": "评价动词", "cols": ["动词", "含义", "例句"], "rows": [
+   ["acknowledge", "承认", "The writer acknowledges that the route is narrow."],
+   ["accept", "接受", "The writer accepts that the route is narrow."],
+   ["reject", "反对", "The writer rejects the claim that the route is unsafe."],
+   ["question", "质疑", "The writer questions the claim that the route is unsafe."],
+   ["support", "支持", "The writer supports the proposal to move the gate."],
+   ["dispute", "对某说法提出异议", "The writer disputes the claim that the route is unsafe."]
+  ]},
+  {"id": "structures", "type": "table", "title": "观点归属", "cols": ["结构", "例句", "分析"], "rows": [
+   ["据某人所述", "According to the guide, the gate is old.", "说法来自 guide，句子没有评价它。"],
+   ["被动引述", "The gate is said by the guide to be old.", "说法仍来自 guide，只是换成了被动句。"],
+   ["转折后评价", "The guide calls the gate unsafe, but the evidence does not support this claim.", "作者在 but 后质疑 unsafe 的依据。"],
+   ["承认并限定", "The guide notes the narrow gate; the writer accepts this but disputes the proposed closure.", "作者接受门窄，同时反对关闭提议。"],
+   ["并列来源", "The guide favours repairs, while residents prefer a new gate.", "维修归于 guide，新门归于 residents。"],
+   ["未给态度", "The guide claims the gate is unsafe. The report describes the gate's dimensions.", "第二句只报告尺寸，看不出作者是否接受 unsafe 的说法。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "Some librarians claim that printed catalogues are obsolete. This judgement is too broad: a printed list can remain useful when electronic access is unavailable."},
+   {"box": "The writer agrees that printed catalogues have no remaining use.\nYES / NO / NOT GIVEN"},
+   {"p": "第一句的 claim 来自部分图书馆员。作者用 too broad 评价这一判断，并指出印刷目录仍有用途。答案是 NO。"}
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一　来源", "points": ["source", "evaluation"], "groups": [
+   {"look": "passage", "text": "According to the engineer, the wall needs repair. The architect instead proposes replacing the wall with a fence.", "items": [{"stem": "Who proposes replacing the wall?", "options": ["The engineer who inspected it", "The architect who proposed a fence", "Both the engineer and architect", "Neither the engineer nor architect"], "answer": 1, "why": "architect proposes replacing the wall 指明建议者。", "point": "source"}]},
+   {"look": "passage", "text": "The report is said by local teachers to underestimate travel times. The report itself lists the routes used by pupils.", "items": [{"stem": "Who says the report underestimates travel times?", "options": ["The pupils using the routes", "The author of the report", "The local teachers", "The teachers and the report's author"], "answer": 2, "why": "被动结构 is said by local teachers 指出说法来源。", "point": "source"}]},
+   {"look": "passage", "text": "The committee claims that a new entrance would solve every access problem. This claim goes beyond the available evidence.", "items": [{"stem": "How does the writer evaluate the claim?", "options": ["As broader than the evidence supports", "As supported by every access study", "As one that solves every access problem", "As a proposal for collecting evidence"], "answer": 0, "why": "goes beyond the available evidence 表明说法超出证据范围。", "point": "evaluation"}]},
+   {"look": "passage", "text": "The researchers argue that the surface is too fragile to handle. The writer accepts their concern but favours a protective cover over closing the display.", "items": [{"stem": "What does the writer accept?", "options": ["That the display must be closed", "That the researchers designed a cover", "That the surface can be handled freely", "That the fragile surface is a concern"], "answer": 3, "why": "accepts their concern 指接受研究者对表面脆弱的担忧。", "point": "evaluation"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二　语境", "points": ["source", "evaluation"], "groups": [
+   {"look": "passage", "text": "A town is considering how to use an empty plot. According to a residents' group, a garden would provide a quiet shared space. Local traders instead propose a small market, arguing that it would bring more people to nearby shops. The value of a shared space is clear, but the group has not shown that a garden is the only way to create one. The market proposal also needs more detail about noise and opening hours before it can be assessed. Both groups agree that the site needs a safe entrance.", "items": [
+    {"stem": "Who proposes a market on the plot?", "options": ["The residents' group", "The local traders", "Both groups together", "The writer of the article"], "answer": 1, "why": "Local traders instead propose a small market 指明提出者。", "point": "source"},
+    {"stem": "How does the writer evaluate the garden argument?", "options": ["It proves that a garden would always be quiet.", "It fails to show that a shared space has value.", "It has not shown that a garden is the only option.", "It has already settled the market's opening hours."], "answer": 2, "why": "依据是 the group has not shown that a garden is the only way to create one，即第三项。作者认为共享空间的价值是清楚的，第二项与此相反。", "point": "evaluation"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["source", "evaluation"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "According to the transport adviser, a later bus would help evening workers. The council's finance officer argues that the extra service would cost too much. The adviser accepts that the cost matters, but maintains that the officer has not considered the benefits to workers. The writer agrees that benefits should be considered alongside costs; the available evidence does not yet establish whether the service would be affordable. A passenger survey is proposed by the adviser, while the officer recommends a review of operating costs.", "items": [
+    {"stem": "Who proposes the passenger survey?", "options": ["The finance officer", "The evening workers", "The transport adviser", "The council's passengers"], "answer": 2, "why": "is proposed by the adviser 指出调查建议的来源。", "point": "source"},
+    {"stem": "What does the writer say about affordability?", "options": ["It is established by the passenger survey.", "It is already settled by the officer's estimate.", "It is less relevant than workers' preferences.", "It remains unsettled by the available evidence."], "answer": 3, "why": "does not yet establish whether the service would be affordable 表示证据尚未确定其可负担性。", "point": "evaluation"},
+    {"stem": "Whose view is that a later bus would help workers?", "options": ["The transport adviser's view", "The finance officer's view", "The passengers' survey result", "The council's operating review"], "answer": 0, "why": "According to the transport adviser 标明该观点的提出者。", "point": "source"},
+    {"stem": "What does the writer agree should be considered?", "options": ["The survey instead of the cost review", "The benefits together with the costs", "The costs without worker benefits", "The officer's estimate without evidence"], "answer": 1, "why": "writer agrees that benefits should be considered alongside costs 表明赞同的内容。", "point": "evaluation"}
+   ]},
+   {"look": "passage", "text": "A heritage group argues that the old bridge should be repaired. Some residents claim that a replacement would be safer. The writer acknowledges the importance of safety, but rejects the claim that replacement is the only way to achieve it. An engineering assessment is needed to compare the options. The assessment is recommended by the heritage group, while the residents have requested information about the cost of a replacement. Neither request settles which option should ultimately be chosen. Both concerns require further examination.", "items": [
+    {"stem": "Who argues for repairing the old bridge?", "options": ["The engineering assessors", "Some local residents", "The heritage group", "The writer discussing the bridge"], "answer": 2, "why": "A heritage group argues that the old bridge should be repaired 指出观点来源。", "point": "source"},
+    {"stem": "How does the writer treat the claim that replacement is the only safe option?", "options": ["As a conclusion from the assessment", "As a claim to be accepted in full", "As an unanswered question about cost", "As a claim that should be rejected"], "answer": 3, "why": "rejects the claim that replacement is the only way 表示作者反对该说法。", "point": "evaluation"},
+    {"stem": "Who requests information about replacement costs?", "options": ["The residents", "The heritage group", "The engineering assessors", "The writer discussing the options"], "answer": 0, "why": "the residents have requested information about the cost 指出请求者。", "point": "source"},
+    {"stem": "What does the writer acknowledge?", "options": ["The need to choose replacement immediately", "The importance of considering safety", "The results of a completed assessment", "The residents' estimate of repair costs"], "answer": 1, "why": "acknowledges the importance of safety 是作者明确接受的内容。", "point": "evaluation"}
+   ]}
+  ]}]}
+ ]
+}

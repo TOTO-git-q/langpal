@@ -1,0 +1,400 @@
+{
+ "id": "reading-sentence-grammar",
+ "title": "填空的词性与词形",
+ "goal": "根据句子结构判断词性，核对原词的数与语法形式。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "pos",
+   "label": "根据空格前后结构判断词性"
+  },
+  {
+   "id": "form",
+   "label": "核对原词的数与语法形式"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "雅思 IELTS Academic：课表",
+   "url": "docs/syllabi/ielts.md",
+   "used": "课程范围与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "句子填空要核对两件事：空格在句子里的位置，原文的词形。冠词、介词、助动词和并列成分都能提示空格的词性。"
+    },
+    {
+     "box": "The team tested two filters.\nThe two _____ were tested by the team."
+    },
+    {
+     "p": "two 后面接复数名词。原词 filters 保留复数，和 were 一致。"
+    }
+   ]
+  },
+  {
+   "id": "noun-position",
+   "type": "table",
+   "title": "冠词与介词",
+   "cols": [
+    "线索",
+    "例句",
+    "分析"
+   ],
+   "rows": [
+    [
+     "冠词",
+     "The museum displayed a model of the gate beside an original drawing, allowing visitors to compare the arrangement shown in the two objects.",
+     "a model：冠词后接名词。"
+    ],
+    [
+     "冠词",
+     "The researcher opened an envelope containing the results and placed it beside the notebook before comparing the figures with an earlier set of measurements.",
+     "an envelope：冠词后接名词。"
+    ],
+    [
+     "冠词",
+     "The team fitted the cover over the tank after measuring its opening and recording the dimensions on a plan of the garden's water system.",
+     "the cover：冠词后接名词。"
+    ],
+    [
+     "介词",
+     "The technician examined the pipe after the inspection and entered the results in a record book that remained beside the machine throughout the trial.",
+     "after the inspection：介词后接名词短语。"
+    ],
+    [
+     "介词",
+     "A screen was placed between the tank and the channel to keep leaves from reaching the inlet while rainwater passed through the mesh above it.",
+     "between 后接名词短语。"
+    ],
+    [
+     "介词",
+     "The conservator worked with a colleague before the display opened, and both recorded the condition of the sheet in the same catalogue entry.",
+     "with 后接名词短语。"
+    ]
+   ]
+  },
+  {
+   "id": "verb-position",
+   "type": "table",
+   "title": "助动词与并列",
+   "cols": [
+    "线索",
+    "例句",
+    "分析"
+   ],
+   "rows": [
+    [
+     "助动词",
+     "The team can measure the width of the opening without removing the cover, provided that the device remains accessible from the side of the tank.",
+     "can 后接动词原形 measure。"
+    ],
+    [
+     "助动词",
+     "The technician has checked the valve and recorded the result in the log, which is kept near the pump for later inspection by colleagues.",
+     "has 后接过去分词 checked。"
+    ],
+    [
+     "助动词",
+     "The two samples were stored in separate containers before the researchers examined their surfaces and entered the observations in a shared laboratory notebook.",
+     "were 后接过去分词 stored。"
+    ],
+    [
+     "并列",
+     "The team measured and recorded the width of the frame before the model was assembled and placed beside the original drawing in the display.",
+     "measured 与 recorded 并列。"
+    ],
+    [
+     "并列",
+     "The record lists the date and location of each discovery so that later researchers can trace an object to the place where it was found.",
+     "date 与 location 并列。"
+    ],
+    [
+     "并列",
+     "The two lids were light and strong enough for the workers to lift them repeatedly while checking the contents of the tanks during the summer.",
+     "light 与 strong 并列作表语。"
+    ]
+   ]
+  },
+  {
+   "id": "number",
+   "type": "table",
+   "title": "可数名词与词形",
+   "cols": [
+    "类型",
+    "例句",
+    "分析"
+   ],
+   "rows": [
+    [
+     "单数",
+     "A valve controls the flow into the tank, and a separate cover protects the opening from material falling from the roof of the workshop.",
+     "a valve 是单数。"
+    ],
+    [
+     "复数",
+     "Two valves control the flow into the tank, and a separate cover protects the opening from material falling from the roof of the workshop.",
+     "two valves 是复数。"
+    ],
+    [
+     "复数一致",
+     "Several records contain drawings of the bridge and descriptions of the channel, while one separate sheet lists the dates of repairs to the gate.",
+     "several records 与 contain 一致。"
+    ],
+    [
+     "名词",
+     "The team recorded a change in pressure during the trial and repeated the measurement after the pump had been switched off for an hour.",
+     "a change 中 change 是名词。"
+    ],
+    [
+     "动词",
+     "The pressure can change during the trial, so the team recorded a measurement before switching the pump off and checking its inlet for damage.",
+     "can change 中 change 是动词。"
+    ],
+    [
+     "名词与动词",
+     "Researchers test each sample before writing a test report, which records the conditions and allows the measurements to be compared with earlier results.",
+     "test 可作动词或名词。"
+    ]
+   ]
+  },
+  {
+   "id": "compounds",
+   "type": "table",
+   "title": "复合名词中心词",
+   "cols": [
+    "例句",
+    "中心词",
+    "数"
+   ],
+   "rows": [
+    [
+     "A water tank stands beside the shed, where a gardener can check the level before using the stored water on plants in the surrounding beds.",
+     "water tank 的中心词是 tank。",
+     "tank 单数。"
+    ],
+    [
+     "Two water tanks stand beside the shed, where a gardener can check the levels before using the stored water on plants in the surrounding beds.",
+     "water tanks 的中心词是 tanks。",
+     "tanks 复数。"
+    ],
+    [
+     "Several research teams share a laboratory, but each team records its own measurements in a separate notebook before comparing the results with the other groups.",
+     "research teams 的中心词是 teams。",
+     "teams 复数。"
+    ],
+    [
+     "A research team shares a laboratory with another group, and each team records its own measurements in a separate notebook before comparing the results.",
+     "research team 的中心词是 team。",
+     "team 单数。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "pos",
+    "form"
+   ],
+   "groups": [
+    {
+     "text": "The archivist placed a drawing in a folder before the inspection. The drawing showed the gate before repairs.",
+     "items": [
+      {
+       "stem": "The archivist placed a _____ in a folder. ONE WORD ONLY.",
+       "accept": [
+        "drawing"
+       ],
+       "why": "冠词 a 后接原文名词 drawing。",
+       "point": "pos"
+      }
+     ]
+    },
+    {
+     "text": "The technician has checked the valve. A colleague then recorded the result in a log beside the pump.",
+     "items": [
+      {
+       "stem": "The technician has _____ the valve. ONE WORD ONLY.",
+       "accept": [
+        "checked"
+       ],
+       "why": "has 后保留过去分词 checked。",
+       "point": "form"
+      }
+     ]
+    },
+    {
+     "text": "Two water tanks stand beside the shed. Each tank has a cover that can be removed for inspection.",
+     "items": [
+      {
+       "stem": "Two water _____ stand beside the shed. ONE WORD ONLY.",
+       "accept": [
+        "tanks"
+       ],
+       "why": "two 后用复数中心词 tanks。",
+       "point": "form"
+      }
+     ]
+    },
+    {
+     "text": "The workers measured and recorded the width of the gate before attaching a new handle to the wooden frame.",
+     "items": [
+      {
+       "stem": "The workers measured and _____ the width of the gate. ONE WORD ONLY.",
+       "accept": [
+        "recorded"
+       ],
+       "why": "recorded 与 measured 并列，保持原文过去式。",
+       "point": "pos"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "pos",
+    "form"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A research team compared two water filters. The filters were stored in a cupboard before the trial. A technician can measure the flow through each filter. The technician entered the results in a notebook after the test. The team used the same instrument for both measurements.",
+     "items": [
+      {
+       "stem": "The filters were stored in a _____. ONE WORD ONLY.",
+       "accept": [
+        "cupboard"
+       ],
+       "why": "冠词 a 后接原文名词 cupboard。",
+       "point": "pos"
+      },
+      {
+       "stem": "A technician can _____ the flow. ONE WORD ONLY.",
+       "accept": [
+        "measure"
+       ],
+       "why": "can 后接原文动词原形 measure。",
+       "point": "pos"
+      },
+      {
+       "stem": "The team compared two water _____. ONE WORD ONLY.",
+       "accept": [
+        "filters"
+       ],
+       "why": "two water filters 的中心词 filters 保留复数。",
+       "point": "form"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "pos",
+    "form"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A museum team examined two wooden models of a bridge. Each model had been stored in a separate box. The curator has recorded the position of a crack on one model. A conservator can repair the crack without replacing the entire frame. The team measured and photographed both models before moving them. After the inspection, the models were placed on shelves in a dry room. The photographs remained in the museum catalogue, where staff could compare them with images made during earlier visits. The boxes were kept separately for future transport.",
+       "items": [
+        {
+         "stem": "Each model had been stored in a separate _____. ONE WORD ONLY.",
+         "accept": [
+          "box"
+         ],
+         "why": "a separate 后接原文单数名词 box。",
+         "point": "pos"
+        },
+        {
+         "stem": "The curator has _____ the position of a crack. ONE WORD ONLY.",
+         "accept": [
+          "recorded"
+         ],
+         "why": "has 后接原文过去分词 recorded。",
+         "point": "form"
+        },
+        {
+         "stem": "The conservator can _____ the crack. ONE WORD ONLY.",
+         "accept": [
+          "repair"
+         ],
+         "why": "can 后接原文动词原形 repair。",
+         "point": "pos"
+        },
+        {
+         "stem": "The team examined two wooden _____. ONE WORD ONLY.",
+         "accept": [
+          "models"
+         ],
+         "why": "two wooden 后接原文复数名词 models。",
+         "point": "form"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A research group studied water flow in a small garden. Two water tanks stood beside the shed, and a pipe joined them. The workers checked and cleaned the pipe before the trial. They recorded the flow after the cleaning. A change in pressure was noted during the first measurement. The pressure could change again when the pipe was opened, so a second measurement was taken. The results were entered in a record book. This book also contained the dates of the inspections and the names of the workers who completed them.",
+       "items": [
+        {
+         "stem": "Two water _____ stood beside the shed. ONE WORD ONLY.",
+         "accept": [
+          "tanks"
+         ],
+         "why": "water tanks 的中心词是复数 tanks，与 two 一致。",
+         "point": "form"
+        },
+        {
+         "stem": "The workers checked and _____ the pipe. ONE WORD ONLY.",
+         "accept": [
+          "cleaned"
+         ],
+         "why": "cleaned 与 checked 并列，保留原文形式。",
+         "point": "pos"
+        },
+        {
+         "stem": "The workers recorded the flow after the _____. ONE WORD ONLY.",
+         "accept": [
+          "cleaning"
+         ],
+         "why": "after the 后接名词 cleaning。",
+         "point": "pos"
+        },
+        {
+         "stem": "The pressure could _____ again when the pipe was opened. ONE WORD ONLY.",
+         "accept": [
+          "change"
+         ],
+         "why": "could 后接动词原形 change。",
+         "point": "form"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

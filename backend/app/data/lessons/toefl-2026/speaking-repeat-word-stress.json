@@ -1,0 +1,658 @@
+{
+ "id": "speaking-repeat-word-stress",
+ "title": "词重音",
+ "goal": "按规则判断词的重音位置；区分重音不同的同形词。",
+ "skill": "speaking",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 口语",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "rule",
+   "label": "按规则判断词的重音位置"
+  },
+  {
+   "id": "contrast",
+   "label": "区分重音不同的同形词"
+  }
+ ],
+ "sources": [],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "词重音是一个词里读得最突出的那个音节，不是把整个词读响。大写的部分是主重音所在的音节。本课用书面标记考重音位置，不用录音判断。"
+    },
+    {
+     "box": "REcord（名词） / reCORD（动词）\nThe record is incomplete. / Please record the result."
+    },
+    {
+     "p": "有些同形词作名词和作动词时重音位置不同。后缀和复合词也能提示重音位置。具体词的读音要逐个记。本课四张表共列 40 个词。"
+    }
+   ]
+  },
+  {
+   "id": "homographs",
+   "type": "table",
+   "title": "词汇表：同形词",
+   "cols": [
+    "词",
+    "名词 / 动词重音",
+    "词义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "record",
+     "REcord / reCORD",
+     "名词：记录；动词：记录",
+     "Keep a record. / Record each result."
+    ],
+    [
+     "permit",
+     "PERmit / perMIT",
+     "名词：许可证；动词：允许",
+     "A permit is required. / The rules permit entry."
+    ],
+    [
+     "present",
+     "PREsent / preSENT",
+     "名词：礼物；动词：呈现",
+     "The present was wrapped. / Present the findings."
+    ],
+    [
+     "produce",
+     "PROduce / proDUCE",
+     "名词：农产品；动词：生产",
+     "The produce is fresh. / The cells produce heat."
+    ],
+    [
+     "object",
+     "OBject / obJECT",
+     "名词：物体；动词：反对",
+     "The object is heavy. / Residents object to the plan."
+    ],
+    [
+     "subject",
+     "SUBject / subJECT",
+     "名词：主题；动词：使承受",
+     "The subject is complex. / Do not subject it to heat."
+    ],
+    [
+     "conduct",
+     "CONduct / conDUCT",
+     "名词：行为；动词：开展",
+     "Her conduct was professional. / Conduct a survey."
+    ],
+    [
+     "contract",
+     "CONtract / conTRACT",
+     "名词：合同；动词：收缩",
+     "Sign the contract. / Muscles contract."
+    ],
+    [
+     "project",
+     "PROject / proJECT",
+     "名词：项目；动词：投射",
+     "The project is complete. / Project the image onto the wall."
+    ],
+    [
+     "increase",
+     "INcrease / inCREASE",
+     "名词：增加；动词：增加",
+     "An increase was reported. / Costs may increase."
+    ]
+   ],
+   "note": "这些双音节词作名词时主重音在前，作动词时在后。这条规律只适用于表中这类词。"
+  },
+  {
+   "id": "suffixes",
+   "type": "table",
+   "title": "词汇表：后缀",
+   "cols": [
+    "词",
+    "重音",
+    "规律与词义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "education",
+     "eduCAtion",
+     "-tion 前一音节；名词：教育",
+     "Education can broaden access to skilled work."
+    ],
+    [
+     "discussion",
+     "disCUSsion",
+     "-sion 前一音节；名词：讨论",
+     "The discussion focused on costs."
+    ],
+    [
+     "economic",
+     "ecoNOMic",
+     "-ic 前一音节；形容词：经济的",
+     "The report describes economic change."
+    ],
+    [
+     "scientific",
+     "scienTIFic",
+     "-ic 前一音节；形容词：科学的",
+     "The claim needs scientific evidence."
+    ],
+    [
+     "activity",
+     "acTIVity",
+     "-ity 前一音节；名词：活动",
+     "The activity requires careful measurement."
+    ],
+    [
+     "ability",
+     "aBILity",
+     "-ity 前一音节；名词：能力",
+     "The task measures spatial ability."
+    ],
+    [
+     "employee",
+     "employEE",
+     "-ee 自带主重音；名词：雇员",
+     "Each employee receives safety training."
+    ],
+    [
+     "trainee",
+     "trainEE",
+     "-ee 自带主重音；名词：受训者",
+     "The trainee observed the procedure."
+    ],
+    [
+     "generate",
+     "GENerate",
+     "三音节 -ate 动词；动词：产生",
+     "The device can generate electricity."
+    ],
+    [
+     "illustrate",
+     "ILLustrate",
+     "三音节 -ate 动词；动词：说明",
+     "The examples illustrate the difference."
+    ]
+   ],
+   "note": "-tion、-ic、-ity 前面的音节常重读。-ee 本身常重读。本表的三音节 -ate 动词重读倒数第三音节。create 重读末音节，不按这条规律。"
+  },
+  {
+   "id": "compounds",
+   "type": "table",
+   "title": "词汇表：复合名词",
+   "cols": [
+    "词",
+    "重音",
+    "词义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "notebook",
+     "NOTEbook",
+     "名词：笔记本",
+     "The notebook contains field observations."
+    ],
+    [
+     "textbook",
+     "TEXTbook",
+     "名词：教科书",
+     "The textbook introduces basic statistics."
+    ],
+    [
+     "blackboard",
+     "BLACKboard",
+     "名词：黑板",
+     "The diagram remained on the blackboard."
+    ],
+    [
+     "classroom",
+     "CLASSroom",
+     "名词：教室",
+     "The classroom has movable desks."
+    ],
+    [
+     "greenhouse",
+     "GREENhouse",
+     "名词：温室",
+     "The seedlings grew in a greenhouse."
+    ],
+    [
+     "keyboard",
+     "KEYboard",
+     "名词：键盘",
+     "The keyboard has a damaged key."
+    ],
+    [
+     "rainfall",
+     "RAINfall",
+     "名词：降雨量",
+     "Annual rainfall varies across the region."
+    ],
+    [
+     "deadline",
+     "DEADline",
+     "名词：截止日期",
+     "The deadline applies to every application."
+    ],
+    [
+     "feedback",
+     "FEEDback",
+     "名词：反馈",
+     "The feedback identified two unclear claims."
+    ],
+    [
+     "database",
+     "DAtabase",
+     "名词：数据库",
+     "The database stores survey responses."
+    ]
+   ],
+   "note": "本表复合名词的主重音在第一部分。greenhouse 是温室。green house 是绿色的房子，不是复合名词。"
+  },
+  {
+   "id": "academic",
+   "type": "table",
+   "title": "词汇表：学术常用词",
+   "cols": [
+    "词",
+    "重音",
+    "词义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "analyze",
+     "ANalyze",
+     "动词：分析",
+     "The researchers analyze each response."
+    ],
+    [
+     "analysis",
+     "aNALysis",
+     "名词：分析",
+     "The analysis separates two effects."
+    ],
+    [
+     "hypothesis",
+     "hyPOthesis",
+     "名词：假设",
+     "The hypothesis predicts a clear difference."
+    ],
+    [
+     "evidence",
+     "EVidence",
+     "名词：证据",
+     "The evidence supports a narrower claim."
+    ],
+    [
+     "method",
+     "METHod",
+     "名词：方法",
+     "The method reduces measurement error."
+    ],
+    [
+     "phenomenon",
+     "pheNOMenon",
+     "名词：现象",
+     "The phenomenon occurs under specific conditions."
+    ],
+    [
+     "significant",
+     "sigNIFicant",
+     "形容词：显著的；重要的",
+     "The difference is statistically significant."
+    ],
+    [
+     "variable",
+     "VARiable",
+     "名词：变量",
+     "Only one variable was changed."
+    ],
+    [
+     "approach",
+     "apPROACH",
+     "名词：方法；动词：接近",
+     "This approach uses fewer assumptions."
+    ],
+    [
+     "consequence",
+     "CONsequence",
+     "名词：后果",
+     "One consequence was a longer waiting time."
+    ]
+   ],
+   "note": "派生词的重音位置可能和原词不同，如 ANalyze 和 aNALysis。本表只标主重音，不标次重音。"
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The team will present a present to the retiring archivist.\nWhich pair matches the two uses?\n1. PREsent / PREsent\n2. preSENT / PREsent\n3. PREsent / preSENT\n4. preSENT / preSENT"
+    },
+    {
+     "p": "will 后的 present 是动词，主重音在后。a 后的 present 是名词，主重音在前。答案是第二项。"
+    }
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "contrast",
+    "rule"
+   ],
+   "groups": [
+    {
+     "text": "The intern will record the interview in a written record.",
+     "items": [
+      {
+       "stem": "Which pair marks record in sentence order?",
+       "options": [
+        "REcord / REcord",
+        "reCORD / reCORD",
+        "reCORD / REcord",
+        "REcord / reCORD"
+       ],
+       "answer": 2,
+       "why": "will record 为动词，written record 为名词；前者后重，后者前重。",
+       "point": "contrast"
+      }
+     ]
+    },
+    {
+     "text": "The contract allows the material to contract when cooled.",
+     "items": [
+      {
+       "stem": "Which pair matches the noun and the verb?",
+       "options": [
+        "CONtract / conTRACT",
+        "conTRACT / CONtract",
+        "CONtract / CONtract",
+        "conTRACT / conTRACT"
+       ],
+       "answer": 0,
+       "why": "The contract 是合同，to contract 是收缩；名词前重、动词后重。",
+       "point": "contrast"
+      }
+     ]
+    },
+    {
+     "text": "The two terms are education and scientific.",
+     "items": [
+      {
+       "stem": "Which pair follows the suffix patterns?",
+       "options": [
+        "EDucation / SCIentific",
+        "educaTION / scientiFIC",
+        "eduCAtion / SCIentific",
+        "eduCAtion / scienTIFic"
+       ],
+       "answer": 3,
+       "why": "education 与 scientific 分别在 -tion、-ic 前的音节重读。",
+       "point": "rule"
+      }
+     ]
+    },
+    {
+     "text": "The word pair is generate and notebook.",
+     "items": [
+      {
+       "stem": "Which pair has the taught primary stress?",
+       "options": [
+        "geneRATE / noteBOOK",
+        "GENerate / NOTEbook",
+        "GENerate / noteBOOK",
+        "geneRATE / NOTEbook"
+       ],
+       "answer": 1,
+       "why": "GENerate 是所列三音节 -ate 动词；NOTEbook 的主重音在复合词第一部分。",
+       "point": "rule"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "contrast",
+    "rule"
+   ],
+   "groups": [
+    {
+     "text": "The proposal concerns an increase in costs that may increase again.",
+     "items": [
+      {
+       "stem": "Which pair matches the two uses of increase?",
+       "options": [
+        "INcrease / INcrease",
+        "inCREASE / inCREASE",
+        "INcrease / inCREASE",
+        "inCREASE / INcrease"
+       ],
+       "answer": 2,
+       "why": "an increase 是名词，may increase 是动词，重音分别在前和后。",
+       "point": "contrast"
+      }
+     ]
+    },
+    {
+     "text": "The two words are ability and trainee.",
+     "items": [
+      {
+       "stem": "Which pair follows the -ity and -ee patterns?",
+       "options": [
+        "ABility / TRAInee",
+        "abiLIty / TRAInee",
+        "abiLIty / trainEE",
+        "aBILity / trainEE"
+       ],
+       "answer": 3,
+       "why": "ability 重读 -ity 前的音节；trainee 重读 -ee。",
+       "point": "rule"
+      }
+     ]
+    },
+    {
+     "text": "The course introduces analysis and evidence.",
+     "items": [
+      {
+       "stem": "Which pair matches the academic-word table?",
+       "options": [
+        "aNALysis / EVidence",
+        "ANalysis / eVIdence",
+        "anaLYsis / eviDENCE",
+        "ANalysis / EVidence"
+       ],
+       "answer": 0,
+       "why": "aNALysis 的主重音在第二音节，EVidence 在第一音节。",
+       "point": "rule"
+      }
+     ]
+    },
+    {
+     "text": "The produce stall hopes to produce less packaging waste.",
+     "items": [
+      {
+       "stem": "Which pair fits the meanings in order?",
+       "options": [
+        "proDUCE / PROduce",
+        "PROduce / proDUCE",
+        "PROduce / PROduce",
+        "proDUCE / proDUCE"
+       ],
+       "answer": 1,
+       "why": "produce stall 中 produce 指农产品，to produce 表示产生；词性和重音均不同。",
+       "point": "contrast"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "rule",
+    "contrast"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "The curator will present a small present at the farewell event.",
+       "items": [
+        {
+         "stem": "Which pair marks present in sentence order?",
+         "options": [
+          "PREsent / PREsent",
+          "preSENT / PREsent",
+          "PREsent / preSENT",
+          "preSENT / preSENT"
+         ],
+         "answer": 1,
+         "why": "will present 是动词，a small present 是名词，分别后重和前重。",
+         "point": "contrast"
+        }
+       ]
+      },
+      {
+       "text": "The permit will permit entry to the fossil preparation room.",
+       "items": [
+        {
+         "stem": "Which pair matches the two uses of permit?",
+         "options": [
+          "perMIT / PERmit",
+          "PERmit / PERmit",
+          "perMIT / perMIT",
+          "PERmit / perMIT"
+         ],
+         "answer": 3,
+         "why": "The permit 是名词，will permit 是动词；前者前重，后者后重。",
+         "point": "contrast"
+        }
+       ]
+      },
+      {
+       "text": "The conservator will object if the object is moved.",
+       "items": [
+        {
+         "stem": "Which pair fits the two uses of object?",
+         "options": [
+          "obJECT / OBject",
+          "OBject / obJECT",
+          "OBject / OBject",
+          "obJECT / obJECT"
+         ],
+         "answer": 0,
+         "why": "will object 表示反对，the object 指物体，分别为动词后重和名词前重。",
+         "point": "contrast"
+        }
+       ]
+      },
+      {
+       "text": "The panel praised her conduct during the study she helped conduct.",
+       "items": [
+        {
+         "stem": "Which pair matches conduct in sentence order?",
+         "options": [
+          "conDUCT / CONduct",
+          "CONduct / CONduct",
+          "CONduct / conDUCT",
+          "conDUCT / conDUCT"
+         ],
+         "answer": 2,
+         "why": "her conduct 是名词行为，helped conduct 中为动词开展；两个词的主重音不同。",
+         "point": "contrast"
+        }
+       ]
+      },
+      {
+       "text": "The assigned terms are discussion and economic.",
+       "items": [
+        {
+         "stem": "Which pair follows the taught suffix patterns?",
+         "options": [
+          "discusSION / economIC",
+          "DIScussion / ecoNOMic",
+          "disCUSsion / ecoNOMic",
+          "disCUSsion / ECOnomic"
+         ],
+         "answer": 2,
+         "why": "discussion 在 -sion 前重读，economic 在 -ic 前重读；两词都不是后缀自身重读。",
+         "point": "rule"
+        }
+       ]
+      },
+      {
+       "text": "The vocabulary list contains activity and employee.",
+       "items": [
+        {
+         "stem": "Which pair has the correct primary stress?",
+         "options": [
+          "acTIVity / employEE",
+          "ACtivity / EMployee",
+          "activIty / emPLOYee",
+          "acTIVity / EMployee"
+         ],
+         "answer": 0,
+         "why": "activity 的重音在 -ity 前，employee 的主重音在 -ee。",
+         "point": "rule"
+        }
+       ]
+      },
+      {
+       "text": "The paired terms are illustrate and feedback.",
+       "items": [
+        {
+         "stem": "Which pair follows the patterns taught here?",
+         "options": [
+          "illusTRATE / FEEDback",
+          "ILLustrate / FEEDback",
+          "ILLustrate / feedBACK",
+          "illusTRATE / feedBACK"
+         ],
+         "answer": 1,
+         "why": "ILLustrate 重读倒数第三音节，FEEDback 的主重音在复合词第一部分。",
+         "point": "rule"
+        }
+       ]
+      },
+      {
+       "text": "The research summary uses hypothesis and significant.",
+       "items": [
+        {
+         "stem": "Which pair matches the academic-word table?",
+         "options": [
+          "HYpothesis / SIGnificant",
+          "hypoTHEsis / signifiCANT",
+          "hyPOthesis / SIGnificant",
+          "hyPOthesis / sigNIFicant"
+         ],
+         "answer": 3,
+         "why": "hyPOthesis 与 sigNIFicant 的主重音均在第二音节；大写标明该音节。",
+         "point": "rule"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

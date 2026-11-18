@@ -1,0 +1,54 @@
+{
+ "id": "writing-advantages-method", "title": "利弊题的任务区分", "goal": "能区分利弊指令并选择适当的总体判断。", "skill": "写作", "exam": "雅思 IELTS Academic", "mastery": "once",
+ "points": [{"id": "task", "label": "区分列举利弊与总体权衡要求"}, {"id": "judgement", "label": "选择回应指令的总体判断"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "利弊题的内容和教学规格"}],
+ "cards": [
+  {"id": "type", "type": "text", "title": "题型", "body": [{"p": "利弊题有两种指令。一种要求讨论优点和缺点，另一种要求判断优点是否大于缺点。两种都要解释具体的影响，第二种还要给出总体判断。"}, {"box": "What are the advantages and disadvantages?\nDo the advantages outweigh the disadvantages?"}, {"p": "第一句要求讨论两类影响。第二句要求比较影响的重要程度，并给出总体判断。"}]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　识别指令", "d": "先看指令是讨论利弊，还是判断哪一方更重要。指令中有 outweigh，就要给出总体判断。"},
+   {"t": "2　确定对象", "d": "写明哪些人受影响，在什么条件下受影响。线上咨询对能上网和无法上网的居民影响不同。"},
+   {"t": "3　解释结果", "d": "说明政策怎样带来利益或代价。远程咨询让居民不必出门，节省了路程。"},
+   {"t": "4　检查判断", "d": "权衡题的引言和结论都要写明比较结果。理由说明哪一方影响更大，不靠数优缺点的条数。"}
+  ]},
+  {"id": "tasks", "type": "table", "title": "指令与判断", "cols": ["指令", "要求", "适当回应"], "rows": [
+   ["What are the advantages and disadvantages?", "讨论两类影响", "分别解释优点和缺点"],
+   ["Discuss the benefits and drawbacks.", "讨论两类影响", "分别说明利益和代价"],
+   ["Do the advantages outweigh the disadvantages?", "比较总体重要程度", "明确判断并解释比较依据"],
+   ["Do the benefits outweigh the drawbacks?", "比较总体重要程度", "权衡后说明哪方更重要"]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [
+   {"box": "A local authority plans to replace some face-to-face appointments with online consultations. Residents could avoid travelling, but some lack a suitable internet connection. The authority wants to maintain access while reducing the need to visit its offices. Do the advantages of this change outweigh the disadvantages? Give reasons for your answer.\n\nOutline: Online appointments save travel for connected residents. People without access may be excluded. Retaining in-person appointments makes the travel benefit more significant than the remaining inconvenience."},
+   {"p": "题目要求总体判断。提纲先写受益的人，再写受影响的人。保留线下预约是判断成立的条件。"}
+  ]},
+  {"id": "errors", "type": "table", "title": "干扰项", "cols": ["提纲", "问题", "修改方向"], "rows": [
+   ["List travel savings and exclusion; give no comparison.", "权衡题缺少总体判断", "说明哪一方更重要"],
+   ["Two benefits and one drawback mean benefits win.", "以数量代替重要程度", "比较影响的实际程度"],
+   ["Discuss online appointments without mentioning residents.", "对象不明确", "指出受益和受影响的人"],
+   ["Describe office buildings without evaluating appointments.", "偏离政策影响", "解释预约方式的结果"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["task", "judgement"], "groups": [{"items": [
+   {"stem": "What are the advantages and disadvantages of online consultations? Which task is required?", "options": ["Explain the benefits and the drawbacks of online consultations.", "Explain only the benefits of online consultations for residents.", "Decide that the disadvantages always outweigh the benefits.", "Describe how online consultations work without evaluating them."], "answer": 0, "why": "advantages and disadvantages 要求解释优点和缺点两方面，即第一项。第二项只写了优点。", "point": "task"},
+   {"stem": "Do the advantages of online consultations outweigh the disadvantages? What must the response add?", "options": ["A list of the benefits and drawbacks without any comparison.", "A judgement comparing the importance of benefits and drawbacks.", "A description of online appointments without any evaluation.", "A judgement based only on how many benefits are listed."], "answer": 1, "why": "outweigh 要求比较两类影响的重要程度，并给出判断，即第二项。第一项列出了利弊，但没有比较。", "point": "task"},
+   {"stem": "Online consultations reduce travel but exclude some residents. In-person appointments remain available. Which judgement uses that condition?", "options": ["The benefit disappears because travel is still possible for all residents.", "Exclusion affects everyone because in-person visits remain.", "The benefit may be greater because another access route remains.", "The drawbacks are absent because online access is universal."], "answer": 2, "why": "In-person appointments remain available 说明无法上网的居民仍能预约。排斥的影响因此变小，第三项据此判断利益更大。", "point": "judgement"},
+   {"stem": "A draft lists two benefits and one drawback of online appointments. What is missing from an outweigh response?", "options": ["A third benefit so that benefits outnumber the drawback.", "A statement that all effects have identical importance.", "A rule that three effects always establish a conclusion.", "An explanation comparing the importance of the effects."], "answer": 3, "why": "outweigh 题要说明哪一方更重要。两条优点对一条缺点只是条数，还要比较各自影响的大小，即第四项。", "point": "judgement"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["task", "judgement"], "groups": [{"text": "A town proposes to close a central street to private cars on Saturdays. Pedestrians would gain more space, while some drivers would need to use a car park farther away. Shops would remain open throughout the day. Do the advantages of the proposal outweigh the disadvantages? Give reasons for your answer.", "items": [
+   {"stem": "What does the instruction require?", "options": ["Compare the overall importance of the benefits and drawbacks.", "Describe the street without evaluating any effects of the proposal.", "Discuss only the benefit of additional pedestrian space.", "List the benefits and drawbacks without saying which matters more."], "answer": 0, "why": "outweigh 要求比较优缺点的总体重要程度，即第一项。第四项只列出利弊，没有比较。", "point": "task"},
+   {"stem": "Which conclusion gives a relevant overall judgement?", "options": ["Pedestrians would gain space, while drivers would walk farther from parking.", "The pedestrian benefit is more important than the longer walk from parking.", "Shops remain open all day, so drivers would not need to park elsewhere.", "The proposal changes how pedestrians, drivers and shops use the street."], "answer": 1, "why": "第二项把行人多出的空间和司机多走的路放在一起比较，并说明哪一方更重要。第一项只列出两种影响，没有判断。", "point": "judgement"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["task", "judgement"], "sets": [{"id": "set-a", "groups": [
+   {"text": "A university plans to make recordings of lectures available after each class. Students who miss a class could review the material, although preparing accessible recordings would require staff time. The university would continue to offer the original classes. What are the advantages and disadvantages of this change? Give reasons for your answer.", "items": [
+    {"stem": "Which response satisfies the stated instruction?", "options": ["Explain review access and the staff time needed for recordings.", "Discuss review access and ignore the time needed for recordings.", "Decide whether review access outweighs the staff time required.", "Assume recordings replace every class and evaluate that change."], "answer": 0, "why": "指令是 What are the advantages and disadvantages，要讨论两方面：学生可以补看，制作录播占用工作人员的时间。第一项两方面都写到。", "point": "task"},
+   {"stem": "Which pair identifies affected parties and results?", "options": ["Students lose every class; staff gain recording time as lectures are removed.", "Students can review material; staff spend time preparing recordings.", "Students prepare the recordings; staff review the missed material.", "Students who miss a class lose the material; staff save preparation time."], "answer": 1, "why": "could review the material 说的是学生，preparing accessible recordings would require staff time 说的是工作人员。第二项把两方和各自的结果对应正确。", "point": "judgement"},
+    {"stem": "Complete the description of the task.", "lead": "The instruction", "chunks": ["asks for", "advantages", "and disadvantages", "of the change"], "tail": ".", "extra": ["asking"], "why": "题目要求说明该变化的优点和缺点。", "point": "task"},
+    {"stem": "Complete a relevant description of the drawback.", "lead": "Preparing recordings", "chunks": ["requires", "additional time", "from", "staff"], "tail": ".", "extra": ["requiring"], "why": "题面指出准备录播需要工作人员的时间。", "point": "judgement"}
+   ]},
+   {"text": "A town is considering a weekly car-free day in its central shopping street. The measure could provide pedestrians with more room, but drivers would need to park outside the centre and walk to the shops. The shops would stay open as usual. Do the advantages outweigh the disadvantages? Give reasons for your answer.", "items": [
+    {"stem": "What must the response do beyond identifying the effects?", "options": ["List the pedestrian benefit and the parking drawback once more.", "Show that drivers can no longer reach the shops at all.", "Compare the overall importance of the benefit and the drawback.", "Count the effects and let the larger number decide the answer."], "answer": 2, "why": "outweigh 要求比较两种影响的重要程度，给出总体判断，即第三项。只列出影响或数条数都不够。", "point": "task"},
+    {"stem": "Which conclusion offers a judgement about the stated effects?", "options": ["Pedestrians would have more room, and drivers would walk from outside the centre.", "The shops stay open as usual, so drivers would lose nothing on the car-free day.", "Two effects are named, so the answer depends only on counting them.", "Extra pedestrian space is more valuable than the longer walk from parking."], "answer": 3, "why": "第四项比较了行人多出的空间和停车后多走的路，并判断前者更重要。第一项只描述影响，没有判断。", "point": "judgement"},
+    {"stem": "Complete the required task description.", "lead": "The writer", "chunks": ["must compare", "the importance", "of the benefits", "and drawbacks"], "tail": ".", "extra": ["comparing"], "why": "权衡指令要求比较利益和代价的重要程度。", "point": "task"},
+    {"stem": "Complete a judgement favouring the pedestrian benefit.", "lead": "The extra space", "chunks": ["is more valuable", "than", "the longer walk", "from parking"], "tail": ".", "extra": ["valuing"], "why": "该句将行人空间与停车后较长的步行距离作比较。", "point": "judgement"}
+   ]}
+  ]}]} 
+ ]
+}

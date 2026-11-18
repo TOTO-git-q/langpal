@@ -1,0 +1,455 @@
+{
+ "id": "usage-cloze-verbs",
+ "title": "动作动词辨析",
+ "goal": "根据动作的对象和结果辨析动词。",
+ "skill": "语言运用",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "meaning",
+   "label": "区分动作动词的核心含义"
+  },
+  {
+   "id": "object",
+   "label": "根据动作对象与结果选择动词"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语课程课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "教学内容与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "动作动词的意义涉及动作方式、对象和结果。辨析时结合事件：attempt 表示尝试，manage 表示设法完成。"
+    },
+    {
+     "box": "She attempted to open the jar, but it remained shut. / She managed to open the jar."
+    },
+    {
+     "p": "第一句的尝试没有成功，第二句的动作已经完成。"
+    }
+   ]
+  },
+  {
+   "id": "observe",
+   "type": "table",
+   "title": "词汇表：观察",
+   "cols": [
+    "动词",
+    "词义",
+    "语境对照"
+   ],
+   "rows": [
+    [
+     "glance / stare",
+     "快速看 / 盯着看",
+     "She glanced at the clock. / He stared at the painting for a minute."
+    ],
+    [
+     "notice / observe",
+     "注意到 / 观察",
+     "I noticed a mark on the leaf. / We observed the bird for an hour."
+    ],
+    [
+     "watch / inspect",
+     "观看 / 检查",
+     "They watched the match. / The mechanic inspected the wheel."
+    ],
+    [
+     "spot / examine",
+     "发现 / 仔细查看",
+     "She spotted a crack. / He examined the crack closely."
+    ]
+   ]
+  },
+  {
+   "id": "movement",
+   "type": "table",
+   "title": "词汇表：移动",
+   "cols": [
+    "动词",
+    "词义",
+    "语境对照"
+   ],
+   "rows": [
+    [
+     "approach / reach",
+     "靠近 / 到达",
+     "We approached the gate. / We reached the gate."
+    ],
+    [
+     "enter / leave",
+     "进入 / 离开",
+     "She entered the hall. / She left the hall."
+    ],
+    [
+     "climb / descend",
+     "攀登 / 下行",
+     "They climbed the hill. / They descended the hill."
+    ],
+    [
+     "carry / drag",
+     "携带 / 拖",
+     "He carried the box. / She dragged the heavy box across the floor."
+    ]
+   ]
+  },
+  {
+   "id": "giving",
+   "type": "table",
+   "title": "词汇表：给予",
+   "cols": [
+    "动词",
+    "词义",
+    "语境对照"
+   ],
+   "rows": [
+    [
+     "offer / provide",
+     "主动提出给予 / 提供",
+     "She offered him a seat. / The school provided books for the class."
+    ],
+    [
+     "lend / borrow",
+     "借出 / 借入",
+     "I lent her a pen. / She borrowed a pen from me."
+    ],
+    [
+     "hand / pass",
+     "递交 / 传递",
+     "He handed the ticket to the clerk. / She passed the salt to her friend."
+    ],
+    [
+     "donate / share",
+     "捐赠 / 分享",
+     "They donated coats to a charity. / They shared a meal with a neighbor."
+    ]
+   ]
+  },
+  {
+   "id": "completion",
+   "type": "table",
+   "title": "词汇表：完成",
+   "cols": [
+    "动词",
+    "词义",
+    "语境对照"
+   ],
+   "rows": [
+    [
+     "attempt / manage",
+     "尝试 / 设法完成",
+     "He attempted to lift it but failed. / She managed to lift it."
+    ],
+    [
+     "finish / abandon",
+     "完成 / 放弃",
+     "They finished the project. / He abandoned the project halfway."
+    ],
+    [
+     "solve / identify",
+     "解决 / 找出",
+     "She solved the problem. / He identified the problem."
+    ],
+    [
+     "achieve / pursue",
+     "实现 / 追求",
+     "She achieved her goal. / He pursued his goal for years."
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "meaning",
+    "object"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Ella looked quickly at the clock before leaving. She ___ at it.",
+       "options": [
+        "stared",
+        "glanced",
+        "inspected",
+        "examined"
+       ],
+       "answer": 1,
+       "why": "looked quickly 对应 glanced。",
+       "point": "meaning"
+      },
+      {
+       "stem": "The travelers arrived at the gate after walking toward it. They ___ the gate, rather than merely moving toward it.",
+       "options": [
+        "approached",
+        "left",
+        "reached",
+        "passed"
+       ],
+       "answer": 2,
+       "why": "arrived at 说明已经到达，用 reached。",
+       "point": "object"
+      },
+      {
+       "stem": "The class needed books, and the school supplied them. The school ___ the books.",
+       "options": [
+        "borrowed",
+        "offered",
+        "handed",
+        "provided"
+       ],
+       "answer": 3,
+       "why": "supplied 说明学校提供了书，用 provided。",
+       "point": "meaning"
+      },
+      {
+       "stem": "Liu tried to lift the table, but it did not move. He ___ to lift it.",
+       "options": [
+        "attempted",
+        "managed",
+        "finished",
+        "achieved"
+       ],
+       "answer": 0,
+       "why": "tried 和 did not move 说明他尝试但没有成功。",
+       "point": "object"
+      },
+      {
+       "stem": "Nina gave her pen to Bo for the lesson; he would return it afterward. She ___ it to him.",
+       "options": [
+        "borrowed",
+        "lent",
+        "donated",
+        "returned"
+       ],
+       "answer": 1,
+       "why": "借给别人并约定归还，用 lent。",
+       "point": "object"
+      },
+      {
+       "stem": "The path went downward from the hilltop. The walkers ___ the hill.",
+       "options": [
+        "climbed",
+        "reached",
+        "descended",
+        "approached"
+       ],
+       "answer": 2,
+       "why": "went downward 对应 descended。",
+       "point": "meaning"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "meaning",
+    "object"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The mechanic looked carefully at the wheel to find damage. She ___ the wheel.",
+       "options": [
+        "glanced",
+        "watched",
+        "noticed",
+        "inspected"
+       ],
+       "answer": 3,
+       "why": "looked carefully to find damage 对应 inspected。",
+       "point": "meaning"
+      },
+      {
+       "stem": "The box was too heavy to lift, so Ali pulled it along the floor. He ___ it.",
+       "options": [
+        "dragged",
+        "carried",
+        "lifted",
+        "pushed"
+       ],
+       "answer": 0,
+       "why": "pulled it along the floor 表示拖动。",
+       "point": "object"
+      },
+      {
+       "stem": "The teacher asked about the cause of the error. Mei found what it was but had not corrected it. She ___ the problem.",
+       "options": [
+        "solved",
+        "identified",
+        "abandoned",
+        "finished"
+       ],
+       "answer": 1,
+       "why": "found what it was 表示找出问题，尚未解决。",
+       "point": "object"
+      },
+      {
+       "stem": "The team completed its project after several weeks. It ___ the project.",
+       "options": [
+        "pursued",
+        "attempted",
+        "finished",
+        "abandoned"
+       ],
+       "answer": 2,
+       "why": "completed 对应 finished。",
+       "point": "meaning"
+      },
+      {
+       "stem": "Asha asked if her neighbor would like a seat. She ___ him one.",
+       "options": [
+        "lent",
+        "handed",
+        "passed",
+        "offered"
+       ],
+       "answer": 3,
+       "why": "asked if her neighbor would like a seat 是主动提出给邻居座位，用 offered。",
+       "point": "object"
+      },
+      {
+       "stem": "The family gave unused coats to a charity for others to keep. They ___ the coats.",
+       "options": [
+        "donated",
+        "lent",
+        "shared",
+        "borrowed"
+       ],
+       "answer": 0,
+       "why": "gave unused coats to a charity 表示捐赠。",
+       "point": "meaning"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "meaning",
+    "object"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "fill": "Our class prepared a display on Friday. I gla{nced} briefly at the clock and then wat{ched} my partner arrange the photographs. We appro{ached} the board, moving closer, and rea{ched} its far side. Our teacher off{ered} us a spare frame, and the school prov{ided} paper for labels. I le{nt} a pen to my partner temporarily; she borr{owed} it for a moment. We atte{mpted} to hang one picture, but it fell. Later we man{aged} to attach it securely.",
+       "tags": [
+        "meaning",
+        "meaning",
+        "object",
+        "object",
+        "meaning",
+        "object",
+        "object",
+        "object",
+        "meaning",
+        "meaning"
+       ]
+      },
+      {
+       "items": [
+        {
+         "stem": "Kai looked at the bird continuously for several minutes. He ___ at it.",
+         "options": [
+          "stared",
+          "glanced",
+          "pointed",
+          "waved"
+         ],
+         "answer": 0,
+         "why": "looked continuously for several minutes 对应 stared。",
+         "point": "meaning"
+        },
+        {
+         "stem": "The group moved toward the bridge but had not arrived there. They ___ the bridge.",
+         "options": [
+          "reached",
+          "approached",
+          "left",
+          "entered"
+         ],
+         "answer": 1,
+         "why": "moved toward 和 had not arrived 表示靠近而非到达。",
+         "point": "object"
+        },
+        {
+         "stem": "The student found the cause of the error and then corrected it. She ___ the problem, rather than merely identifying it.",
+         "options": [
+          "noticed",
+          "identified",
+          "solved",
+          "examined"
+         ],
+         "answer": 2,
+         "why": "found the cause and corrected it 表明问题已解决。",
+         "point": "object"
+        },
+        {
+         "stem": "Bo asked if May needed help carrying the books. He ___ to help her.",
+         "options": [
+          "managed",
+          "refused",
+          "failed",
+          "offered"
+         ],
+         "answer": 3,
+         "why": "asked if May needed help 表示主动提出帮助。",
+         "point": "meaning"
+        },
+        {
+         "stem": "The rope was heavy, but after several tries Ana lifted it successfully. She ___ to lift it, rather than merely trying.",
+         "options": [
+          "managed",
+          "attempted",
+          "offered",
+          "abandoned"
+         ],
+         "answer": 0,
+         "why": "lifted it successfully 表明她设法完成了动作。",
+         "point": "object"
+        },
+        {
+         "stem": "The visitors came into the room through the open door. They ___ the room.",
+         "options": [
+          "left",
+          "entered",
+          "approached",
+          "descended"
+         ],
+         "answer": 1,
+         "why": "came into the room 对应 entered the room。",
+         "point": "meaning"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

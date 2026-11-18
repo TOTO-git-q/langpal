@@ -1,0 +1,56 @@
+{
+ "id": "writing-practical-apology", "title": "道歉信", "goal": "能说明道歉事项和原因，并提出对应的补救安排。", "skill": "写作", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "responsibility", "label": "明确表达道歉事项与原因"}, {"id": "remedy", "label": "选择能够补救具体问题的安排"}],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "道歉信的结构、表达和知识点"}],
+ "cards": [
+  {"id": "structure", "type": "table", "title": "结构", "cols": ["部分", "内容", "例句"], "rows": [
+   ["道歉事项", "说明失约或失误。", "I am sorry that I missed our meeting."],
+   ["简要原因", "解释造成问题的原因。", "My train was delayed by a fallen tree."],
+   ["补救安排", "提出回应问题的行动。", "Could we meet tomorrow at the same place?"],
+   ["请求谅解", "礼貌表达希望获得谅解。", "I hope you can forgive my absence."]
+  ]},
+  {"id": "expressions", "type": "table", "title": "常用表达", "cols": ["表达", "用法", "例句"], "rows": [
+   ["apologize for", "for 后接名词或动名词。", "I apologize for missing the meeting."],
+   ["sorry that", "that 后接完整分句。", "I am sorry that I missed the meeting."],
+   ["because", "引出具体原因。", "I was late because the bus broke down."],
+   ["补救安排", "提出可以执行的行动。", "I can deliver the replacement tomorrow."],
+   ["请求谅解", "结尾表达歉意。", "I hope you can forgive the inconvenience."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "假定李华未能按时把借来的词典还给同学，需要道歉、说明原因并提出补救。\n• Apologize for the late return.\n• Explain the reason.\n• Offer a remedy.\nDraft: Dear Sam, I am sorry that I did not return your dictionary on Monday. I left it at home when I went to school. I can bring it to your classroom tomorrow morning. I hope you can forgive the delay. Best, Li Hua"},
+   {"p": "第一句说明没有按时还词典，第二句说明原因。第三句提出明早送到教室，直接解决词典还没还的问题。"}
+  ]},
+  {"id": "errors", "type": "table", "title": "常见错误", "cols": ["问题", "片段", "修改"], "rows": [
+   ["事项不明", "I apologize for the problem.", "I apologize for returning your book late."],
+   ["只有原因", "The bus broke down on the way.", "I am sorry I was late because the bus broke down."],
+   ["补救无关", "I will buy a new notebook.", "I will return your book tomorrow morning."],
+   ["补救不具体", "I will do something later.", "I will send the missing file this evening."]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["responsibility", "remedy"], "groups": [
+   {"text": "假定李华因公交车故障错过与同学的会议。", "items": [{"stem": "Which sentence states the mistake and cause?", "options": ["I am sorry I missed our meeting because my bus broke down.", "I am sorry I missed our meeting yesterday afternoon.", "I am sorry my bus broke down on the way this morning.", "I am sorry I missed our meeting because I forgot the time."], "answer": 0, "why": "情境给出两点：错过会议，原因是公交车故障。第一项两点都说到了。第二项只说错过会议，没有原因。", "point": "responsibility"}]},
+   {"text": "假定李华忘记把活动照片发给同学。", "items": [{"stem": "Which action remedies the problem?", "options": ["I can take more photos at the next activity.", "I can send the missing photos tonight.", "I can check the colors of the photos.", "I will send you something later."], "answer": 1, "why": "问题是照片没有发给同学。第二项今晚补发照片，直接解决这个问题。第四项没有说发什么、什么时候发。", "point": "remedy"}]},
+   {"text": "假定李华因电脑故障迟交报告。", "items": [{"stem": "Which sentence identifies the reason for the delay?", "options": ["I submitted the report before the deadline yesterday.", "I am sorry that my report was handed in late.", "My computer failed before I could submit the report.", "I forgot when the report was due."], "answer": 2, "why": "情境中迟交的原因是电脑故障。第三项说明提交前电脑坏了。第二项只说迟交，没有说原因。", "point": "responsibility"}]},
+   {"text": "假定李华打破了朋友借给他的杯子。", "items": [{"stem": "Which action addresses the damaged cup?", "options": ["I can return the broken cup to you tomorrow.", "I will make it up to you in some way later.", "I can be more careful next time.", "I can replace the cup I accidentally broke."], "answer": 3, "why": "问题是杯子被打破。第四项提出赔一个新杯子，针对这一损失。第一项还回去的是打破的杯子，问题还在。", "point": "remedy"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["responsibility", "remedy"], "groups": [{"items": [
+   {"stem": "Apologize for missing a planned meeting.", "lead": "I apologize", "chunks": ["for", "missing", "our", "planned"], "tail": "meeting.", "extra": ["miss"], "why": "apologize for 后接动名词，missing our planned meeting 指出失约事项。", "point": "responsibility"},
+   {"stem": "Offer to send a missing document tonight.", "lead": "I can", "chunks": ["send", "the missing", "document", "to you"], "tail": "tonight.", "extra": ["sending"], "why": "can 后接 send，句子提出补发文件的具体安排。", "point": "remedy"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["responsibility", "remedy"], "sets": [{"id": "set-a", "groups": [
+   {"text": "假定李华因误记时间错过与同学的排练，需要道歉并提出补救。", "items": [
+    {"stem": "Which sentence identifies the mistake and reason?", "options": ["I am sorry I missed rehearsal because I noted the wrong time.", "I am sorry I missed rehearsal on Saturday afternoon.", "I am sorry I missed rehearsal because the room had been changed.", "I am sorry I was late for rehearsal because I noted the wrong time."], "answer": 0, "why": "情境给出两点：错过排练，原因是记错时间。第一项两点都说到了。第三项的原因与情境不符。", "point": "responsibility"},
+    {"stem": "Which action could address the missed rehearsal?", "options": ["I will check the rehearsal time more carefully.", "I can practice the missed part with you tomorrow.", "I can explain when rehearsals usually begin.", "I can bring a copy of the rehearsal schedule next week."], "answer": 1, "why": "问题是错过了排练。第二项提出明天和同学补练错过的部分，直接回应这一问题。", "point": "remedy"}
+   ]},
+   {"text": "假定李华没有按时发送活动海报，因为误把文件存入了另一个文件夹。", "items": [
+    {"stem": "Which sentence explains the delay?", "options": ["The poster was sent before the deadline.", "I am sorry that the poster was not sent to you on time.", "I saved the file in the wrong folder by mistake.", "I opened the correct folder after the activity."], "answer": 2, "why": "情境中的原因是把文件存进了另一个文件夹，第三项说的就是这一点。第二项只说没按时发，没有说原因。", "point": "responsibility"},
+    {"stem": "Which offer addresses the missing poster?", "options": ["I can tell you how I named the folder.", "I will be more careful with my files.", "I can design a new poster for the next activity.", "I can send the correct poster to you now."], "answer": 3, "why": "问题是海报没有按时发出。第四项现在就把正确的海报发过去，直接解决问题。", "point": "remedy"}
+   ]},
+   {"items": [
+    {"stem": "Apologize for returning a borrowed book late.", "lead": "I apologize", "chunks": ["for", "returning", "your book", "so"], "tail": "late.", "extra": ["return"], "why": "apologize for 后接 returning，指出迟还书的事项。", "point": "responsibility"},
+    {"stem": "Offer to deliver a forgotten book tomorrow.", "lead": "I can", "chunks": ["bring", "the book", "to your", "classroom"], "tail": "tomorrow.", "extra": ["bringing"], "why": "can 后接 bring，句子提出补送书籍的安排。", "point": "remedy"},
+    {"stem": "Apologize for missing a scheduled visit.", "lead": "I am", "chunks": ["sorry", "that", "I missed", "our planned"], "tail": "visit.", "extra": ["missing"], "why": "sorry that 后接完整分句，说明错过约定的访问。", "point": "responsibility"},
+    {"stem": "Offer to send a corrected file this evening.", "lead": "I can", "chunks": ["send", "the corrected", "file", "this"], "tail": "evening.", "extra": ["sending"], "why": "send the corrected file 提出发送更正文件的补救行动。", "point": "remedy"}
+   ]}
+  ]}]} 
+ ]
+}

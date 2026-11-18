@@ -1,0 +1,55 @@
+{
+ "id": "translation-split",
+ "title": "中文长句的分句界限",
+ "goal": "能按主体和信息关系断句，并检查英语句子的完整性。",
+ "skill": "翻译",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "boundary", "label": "按主体和信息关系确定分句界限"},
+  {"id": "complete", "label": "检查拆分后的句子是否完整"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译教学范围"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "中文长句中的信息可以按主体和时间阶段拆成英语句子。每个独立句需要完整的主语和谓语。两个独立句可以用句号分开，也可以用连词连接。"},
+   {"box": "村民修复了水渠，农田得到了灌溉。 / Villagers repaired the canal. The fields received water."}
+  ]},
+  {"id": "boundaries", "type": "table", "title": "分句界限", "cols": ["情况", "分析", "例句"], "rows": [
+   ["主体改变", "为新主体另设主谓。", "工匠修复了钟，钟声再次响起。 / The craftsperson repaired the clock. Its bell rang again."],
+   ["主体改变", "不同主体的动作可以分句。", "居民栽种树木，鸟儿在树上筑巢。 / Residents planted trees. Birds built nests in them."],
+   ["时间阶段", "过去与现状可以各成一句。", "这座楼建于一九八零年，如今是一所学校。 / The building was built in 1980. It is now a school."],
+   ["时间阶段", "未来计划可与现状分开。", "公园现在开放，明年将增建花园。 / The park is open now. A garden will be added next year."],
+   ["独立信息", "并列事实各有主谓时可分开。", "展厅陈列陶器，图书馆收藏手稿。 / The gallery displays pottery. The library holds manuscripts."],
+   ["独立信息", "分句保留原文各项事实。", "村里有一座桥，河边有一条小路。 / There is a bridge in the village. A path runs beside the river."]
+  ]},
+  {"id": "complete", "type": "table", "title": "句子完整性", "cols": ["情况", "用法", "例句"], "rows": [
+   ["主语", "新句补出明确主语。", "The hall opened in 1990. It now hosts concerts."],
+   ["谓语", "每个独立句都有限定动词。", "The trees are old. Their roots reach the stream."],
+   ["标点", "两个独立句可用句号分开。", "The museum opened. Visitors entered."],
+   ["固定关系", "定语从句紧跟所修饰的名词，不单独成句。", "The bridge that crosses the river is old."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "村民修复了水渠，农田得到了灌溉。\nVillagers repaired the canal. The fields received water."},
+   {"p": "第一句的主体是 villagers，第二句的主体是 fields。两句各有谓语，句号表示两个完整句子的界限。"}
+  ]},
+  {"id": "check-boundary", "type": "check", "title": "练习一", "points": ["boundary"], "groups": [{"items": [
+   {"stem": "工匠修复了钟，钟声再次响起。", "options": ["The craftsperson repaired the clock and rang its bell again.", "The craftsperson repaired the clock. Its bell rang again.", "The clock was repaired. Its bell rang again.", "The craftsperson repaired the clock. Its bell will ring again."], "answer": 1, "why": "修钟的是工匠，响起的是钟声，主体变了，要另起一句。第二项为第二句补出主语 Its bell，两个主体都保留了。第一项让工匠去敲钟，改变了主体。", "point": "boundary"},
+   {"stem": "这座楼建于一九八零年，如今是一所学校。", "options": ["The building was built as a school in 1980.", "The building was built in 1980. It was a school at that time.", "The building was built in 1980. It has been a school ever since.", "The building was built in 1980. It is now a school."], "answer": 3, "why": "建于一九八零年是过去，如今是一所学校是现状，两个阶段各成一句。第四项第一句用过去时，第二句用一般现在时。第三项说成建成后一直是学校，原文没有这层意思。", "point": "boundary"}
+  ]}]},
+  {"id": "check-complete", "type": "check", "title": "练习二", "points": ["complete"], "groups": [{"items": [
+   {"stem": "博物馆开放了。游客进入了博物馆。 The museum opened. ___ entered the museum. Use the plural noun for people visiting.", "accept": ["Visitors"], "why": "第二句需要主语；visitors 表示游客。", "point": "complete"},
+   {"stem": "图书馆收藏手稿。展厅陈列陶器。", "lead": "The library", "chunks": ["holds manuscripts.", "The gallery", "displays", "pottery"], "tail": ".", "extra": ["displaying"], "why": "两个句子分别有主语和谓语，句号分开独立句。", "point": "complete"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["boundary", "complete"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "居民种植了树木，鸟儿在树上筑巢。", "options": ["Residents planted trees. Birds built nests in them.", "Residents planted trees and built nests in them.", "Residents planted trees for birds to build nests in.", "Trees were planted. Birds built nests in them."], "answer": 0, "why": "种树的是居民，筑巢的是鸟儿，两个主体各成一句。第一项保留了两个主体和各自的动作。第二项让居民去筑巢，改变了主体。", "point": "boundary"},
+   {"stem": "展厅陈列陶器，图书馆收藏手稿。", "options": ["The library displays pottery. The gallery holds manuscripts.", "The gallery displays pottery and manuscripts.", "The gallery displays pottery. The library holds manuscripts.", "The gallery and the library display pottery and manuscripts."], "answer": 2, "why": "原文是两个主体各做一件事：展厅陈列陶器，图书馆收藏手稿。第三项分成两句，主体和宾语的对应都正确。第一项把两个主体对调了。", "point": "boundary"},
+   {"stem": "博物馆开放了，游客进入了博物馆。", "options": ["The museum opened, visitors entered the museum.", "The museum opened. Visitors entered the museum.", "The museum opened. Then entered the museum.", "The museum opened. Visitors entering the museum."], "answer": 1, "why": "两个独立句各有主语和谓语，用句号分开。", "point": "complete"},
+   {"stem": "这座大厅于一九九零年开放，如今举办音乐会。", "options": ["The hall opened in 1990. Now hosting concerts.", "The hall opening in 1990. It now hosts concerts.", "The hall opened in 1990, it now hosts concerts.", "The hall opened in 1990. It now hosts concerts."], "answer": 3, "why": "两句分别有谓语 opened 和 hosts，用句号分开。", "point": "complete"},
+   {"stem": "村民修复了水渠，农田得到了灌溉。", "lead": "Villagers", "chunks": ["repaired the canal.", "The fields", "received", "water"], "tail": ".", "extra": ["receiving"], "why": "两句各有主语和谓语，句号分开。", "point": "complete"},
+   {"stem": "这座桥建于一九二零年，如今仍在使用。", "lead": "The bridge", "chunks": ["was built in 1920.", "It", "is still", "in use"], "tail": ".", "extra": ["building"], "why": "It 指代桥，第二句用 is 表示现状。", "point": "boundary"},
+   {"stem": "树木很古老。树根延伸到溪边。 The trees are old. Their roots ___ the stream. Use the present tense of reach.", "accept": ["reach"], "why": "复数主语 roots 与 reach 连用，组成完整谓语。", "point": "complete"},
+   {"stem": "大厅于一九九零年开放，如今举办音乐会。 The hall opened in 1990. ___ now hosts concerts. Use a pronoun for the hall.", "accept": ["It"], "why": "It 指代大厅，使第二句有明确主语。", "point": "boundary"}
+  ]}]}]}
+ ]
+}

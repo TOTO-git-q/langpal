@@ -1,0 +1,229 @@
+{
+  "id": "writing-essay",
+  "title": "短文写作 · 练习",
+  "goal": "提取主题、对象与限定范围。",
+  "skill": "writing",
+  "exam": "大学英语六级（CET-6）",
+  "points": [
+    {
+      "id": "ontopic",
+      "label": "覆盖任务要求并保持切题"
+    },
+    {
+      "id": "develop",
+      "label": "用具体例证支持论点"
+    },
+    {
+      "id": "accuracy",
+      "label": "使用完整且连接正确的句子"
+    }
+  ],
+  "sources": [
+    {
+      "id": "c1",
+      "title": "CET笔试",
+      "url": "https://cet.neea.edu.cn/html1/folder/16113/1586-1.htm",
+      "used": "题型与考试时间。"
+    },
+    {
+      "id": "c2",
+      "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+      "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+      "used": "材料长度、任务形式与总体评分标准。"
+    }
+  ],
+  "cards": [
+    {
+      "id": "rubric",
+      "type": "rubric",
+      "title": "评分标准：每一档长什么样",
+      "src": "c2",
+      "levels": [
+        {
+          "score": 5,
+          "name": "13—15 分",
+          "summary": "切题，思想表达清楚，文字通顺连贯，基本没有语言错误。",
+          "signs": [
+            "任务要求完整，论点与例证相互支持。",
+            "句间关系清楚，用词和句子结构准确。"
+          ]
+        },
+        {
+          "score": 4,
+          "name": "10—12 分",
+          "summary": "切题，思想表达清楚，文字连贯，只有个别语言错误。",
+          "signs": [
+            "主要内容完整，理由有必要的解释。",
+            "少量语言错误不妨碍理解。"
+          ]
+        },
+        {
+          "score": 3,
+          "name": "7—9 分",
+          "summary": "基本切题，部分意思表达不够清楚，文字勉强连贯，语言错误较多，包含一些严重错误。",
+          "signs": [
+            "部分理由或例证缺少必要信息。",
+            "句子结构或用词错误使部分意思难以理解。"
+          ]
+        },
+        {
+          "score": 2,
+          "name": "4—6 分",
+          "summary": "部分切题，多处意思表达不清，语言错误较多，包含多处严重错误。",
+          "signs": [
+            "若干要求未充分回应。",
+            "多个句子之间的关系不清楚。"
+          ]
+        },
+        {
+          "score": 1,
+          "name": "1—3 分",
+          "summary": "内容零散，思想表达不清，语言错误严重且频繁。",
+          "signs": [
+            "只有少量可辨认的相关内容。",
+            "很难根据句子理解完整观点。"
+          ]
+        },
+        {
+          "score": 0,
+          "name": "0 分",
+          "summary": "没有可评定的相关英文作答。",
+          "signs": [
+            "空白、只抄题目或内容与任务无关。"
+          ]
+        }
+      ],
+      "takeaways": [
+        {
+          "t": "整体表现",
+          "d": "结合切题、清楚、连贯和语言准确性判断整体档位，不给课程能力另设官方分项权重。"
+        },
+        {
+          "t": "内容依据",
+          "d": "立场、理由与例证需围绕同一主题，不能用篇幅代替有效展开。"
+        }
+      ]
+    },
+    {
+      "id": "marking",
+      "type": "marking",
+      "title": "批改单：每次都按这个格式给",
+      "format": [
+        {
+          "t": "一、题目的要求",
+          "d": "逐条核对完成情况，并引用作答原句。"
+        },
+        {
+          "t": "二、分数档",
+          "d": "按整体表现选择最接近的档位，并说明依据。"
+        },
+        {
+          "t": "三、必改的地方",
+          "d": "最多列五处实际语言错误，给出原句、改句和规则。"
+        },
+        {
+          "t": "四、升一档",
+          "d": "选一至两句补足细节或改准表达；满档作答不另改写。"
+        }
+      ],
+      "rules": "按整体评分描述判断，不将三项课程能力换算为官方分项分数。0—5 为依次对应六个评分档的课程记录值，不是六级报道分。只依据作答给出评语，不评价写作者。",
+      "example": {
+        "about": "课堂学习与社会实践：论证句的修改。",
+        "coverage": [
+          {
+            "bullet": "State your view on balancing study and practical activities.",
+            "verdict": "做到了",
+            "quote": "Students should combine study with volunteering while keeping enough time for classes.",
+            "note": "明确说明两类活动应兼顾，并限定课堂学习时间。"
+          },
+          {
+            "bullet": "Support your view with a reason and concrete example.",
+            "verdict": "做了但太薄",
+            "quote": "For example, students can learn useful things in a library.",
+            "note": "没有说明具体工作及其学习作用。"
+          },
+          {
+            "bullet": "Suggest one way to manage a possible time conflict.",
+            "verdict": "做了但太薄",
+            "quote": "Students should arrange their time better.",
+            "note": "没有给出可执行的安排。"
+          }
+        ],
+        "score": 3,
+        "reason": "基本切题，但例证和措施不够具体，部分意思缺少充分说明。",
+        "fixes": [],
+        "upgrade": {
+          "from": "For example, students can learn useful things in a library.",
+          "to": "For example, organizing books in a community library can show students how a clear classification system helps readers find information.",
+          "why": "补出具体行为及其结果，使例子直接支持学习价值。"
+        },
+        "next": ""
+      }
+    },
+    {
+      "id": "timed",
+      "type": "write",
+      "title": "限时写作",
+      "minutes": 30,
+      "points": [
+        "ontopic",
+        "develop",
+        "accuracy"
+      ],
+      "more": {
+        "kind": "writing-essay",
+        "topics": [
+          "自主学习与求助",
+          "团队分工与责任",
+          "校园资源共享",
+          "长期练习与即时反馈",
+          "志愿服务与学习",
+          "时间安排与选择",
+          "倾听与独立判断",
+          "接受批评的方法",
+          "公共空间的使用",
+          "阅读与个人经验",
+          "专业学习与通识教育",
+          "目标与行动计划"
+        ]
+      },
+      "tasks": [
+        {
+          "id": "set-a",
+          "purpose": "论述课堂学习与社会实践的关系。",
+          "setting": "A university is discussing how students should divide their time between academic study and practical activities. Some students want more opportunities to volunteer or complete internships, while others worry that these activities can interfere with coursework. Consider how the two forms of learning might support or compete with each other.",
+          "lead": "Write an essay of at least 150 words in 30 minutes. In your essay, do the following.",
+          "bullets": [
+            "State your view on balancing study and practical activities.",
+            "Support your view with a reason and concrete example.",
+            "Suggest one way to manage a possible time conflict."
+          ],
+          "must": [
+            "明确说明课堂学习与社会实践应如何安排，全文保持同一立场。",
+            "给出理由，并用具体行为及结果说明实践或学习的作用。",
+            "提出可执行的时间安排，说明如何处理两类活动的冲突。"
+          ],
+          "model": "College students should combine academic study with practical activities, but the balance must protect their main learning commitments. The two forms of learning are most valuable when each helps students understand the other.\n\nClassroom study provides concepts that practical experience can make concrete. For example, a student learning how to organize information might volunteer at a community library. Arranging a small collection would reveal why clear categories matter and where a seemingly reasonable system confuses readers. Returning to class with these questions could make later discussions more useful. However, the same activity would lose much of its value if it repeatedly caused the student to miss essential lessons.\n\nA workable arrangement is to agree on fixed volunteering hours at the beginning of the term and reduce them before examinations. Students should also tell the organization about academic deadlines before accepting responsibilities. This approach treats practical work seriously without pretending that time is unlimited. The aim is not to collect as many experiences as possible, but to connect a manageable experience with sustained study."
+        },
+        {
+          "id": "set-b",
+          "purpose": "论述团队合作中倾听与独立判断的关系。",
+          "setting": "A student team is preparing a proposal for a campus improvement project. One member argues that quick agreement saves time, while another wants everyone to explain concerns before a decision is made. The team must choose a workable proposal together. Consider the value of listening carefully without giving up independent judgment.",
+          "lead": "Write an essay of at least 150 words in 30 minutes. In your essay, do the following.",
+          "bullets": [
+            "Explain your view of listening in a team discussion.",
+            "Develop a reason with an example of a decision.",
+            "Suggest how a team can handle disagreement constructively."
+          ],
+          "must": [
+            "明确说明倾听在团队讨论中的价值，同时保留独立判断。",
+            "用一项具体决策中的行为和结果支撑理由。",
+            "提出处理分歧的具体办法，说明如何帮助团队作出决定。"
+          ],
+          "model": "Listening carefully is essential to teamwork because agreement is useful only when members understand what they are agreeing to. It should help a team examine its choices rather than require everyone to surrender an independent judgment.\n\nDifferent members often notice different limitations. Imagine a group proposing outdoor study tables. One member may focus on cost, while another notices that the suggested location becomes noisy during sports practice. If the group immediately accepts the cheapest plan, it may create a space that students rarely use. Listening to the concern allows the team to compare locations before spending money. The objection improves the decision instead of merely delaying it.\n\nTo handle disagreement, a team can ask each member to explain one concern and propose a possible adjustment. It should then assess the alternatives against shared criteria, such as cost, accessibility and intended use. A deadline can keep this process manageable. Members may still prefer different options, but they will know why the final choice was made. Respectful listening therefore strengthens both cooperation and the quality of individual judgment."
+        }
+      ],
+      "min_words": 150
+    }
+  ]
+}

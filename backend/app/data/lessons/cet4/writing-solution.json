@@ -1,0 +1,93 @@
+{
+ "id": "writing-solution",
+ "title": "问题与对策短文",
+ "goal": "将问题与可解释的原因对应；选择针对原因且主体明确的措施。",
+ "skill": "写作",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "cause", "label": "将问题与可解释的原因对应"},
+  {"id": "measure", "label": "选择针对原因且主体明确的措施"}
+ ],
+ "sources": [
+  {"id": "syllabus", "title": "大学英语四级（CET-4）：课表", "url": "docs/syllabi/cet4.md", "used": "写作部分本课的内容范围、知识点及教学材料规格"}
+ ],
+ "cards": [
+  {
+   "id": "structure", "type": "table", "title": "结构",
+   "cols": ["部分", "作用", "例句"],
+   "rows": [
+    ["现象", "说明对象和具体问题，限定讨论范围。", "Unused paper often remains beside the printers in the student workroom after classes finish."],
+    ["原因", "写出造成这个现象的原因。原因要来自题目或材料。", "Some students print an entire file because they cannot preview individual pages at the shared computer."],
+    ["措施", "写明谁来做、做什么。措施要针对原因。", "The technology team could enable page previews on the shared computer before students print their files."],
+    ["预期效果", "写措施可能带来的变化，用 could、may 表示可能。", "This change could reduce unnecessary printing by letting students select only the pages they need."],
+    ["对应关系", "原因、措施和效果围绕同一个问题。效果写成可能，不写成保证。", "Previewing pages may save paper, although it cannot prevent every printing mistake in the workroom."]
+   ]
+  },
+  {
+   "id": "expressions", "type": "table", "title": "常用表达",
+   "cols": ["功能", "表达", "用法与例句"],
+   "rows": [
+    ["描述现象", "A problem is that ...", "从句说明具体问题。A problem is that visitors often leave empty cups beside the collection bins."],
+    ["解释原因", "One reason is that ...", "从句写出造成现象的原因。One reason is that the signs above the bins are difficult to read."],
+    ["提出措施", "... could ...", "主语是行动者，后接具体行动。The library team could place larger signs above the collection bins."],
+    ["连接原因与措施", "To address this, ...", "this 指前面说的问题或原因。To address this, staff could place clear labels at the entrance to the room."],
+    ["说明预期效果", "This could ...", "用 could 表达可能结果。This could help visitors find the right collection point more easily."]
+   ]
+  },
+  {
+   "id": "worked", "type": "text", "title": "例题",
+   "body": [
+    {"p": "校园浪费范文先写剩下的食物，再写两个原因：份量过大，厨房要提前估计需求。小份餐针对份量过大，提前选餐帮助厨房估计需求。效果写成可能，要比较几周的剩菜才能确认。"},
+    {"box": "Reducing Food Waste on Campus\n\nAt a campus dining hall, some prepared food remains uneaten after lunch. This waste concerns both the food left on plates and meals prepared but not chosen. A useful response begins by identifying the decisions that produce each kind of waste.\n\nOne reason for leftovers on plates is that some diners find the standard portion too large. Another is that the kitchen must estimate demand before knowing how many people want each meal. When the estimate is too high, prepared meals may remain at the end of lunch. These causes call for different actions rather than a general appeal to waste less.\n\nThe dining team could offer a smaller portion and allow diners to request more if needed. It could also invite students to indicate their lunch choice before the morning deadline. Smaller portions may leave less food on plates, while advance choices could help staff estimate demand. The team could compare leftovers over several weeks to see whether the changes are useful."},
+    {"p": "社区交通范文把候车拥挤对应到两个原因：班次间隔长，乘客不知道下一班车的时间。交通部门调整班次，并在站台公布时刻表。乘客意见和候车人数用来核对效果。"},
+    {"box": "Improving a Community Bus Service\n\nResidents of a neighborhood often face crowded buses on the route to the local station in the morning. The problem is especially noticeable at the stop near the housing blocks, where passengers gather before the first work period. A response should consider both the service schedule and the information available to passengers.\n\nThe interval between two early buses is long, so many passengers arrive during the same gap. Some residents also reach the stop without knowing when the next bus is due. Simply repeating that the stop is crowded does not explain either the interval or the uncertainty.\n\nThe transport office could shorten that interval by moving an existing bus to the busiest period. It could also post the revised timetable at the stop. More evenly spaced departures may spread passengers across buses, and a visible timetable could help residents plan when to leave home. The office could collect passenger comments and check the number waiting after the change."}
+   ]
+  },
+  {
+   "id": "errors", "type": "table", "title": "常见错误",
+   "cols": ["情况", "例", "原因"],
+   "rows": [
+    ["重复现象", "The bus stop is crowded. The solution is to reduce crowding at the bus stop.", "第二句没有写谁来做、做什么。"],
+    ["原因与措施错位", "The schedule is unclear. Residents should buy larger bags for their bus journeys.", "行李大小不能解决时刻信息不清。"],
+    ["行动主体不明", "A new timetable should be posted at the stop before the morning bus service begins.", "应明确由交通部门张贴时刻表。"],
+    ["效果过度确定", "A new sign will eliminate every mistake made by every visitor to the building.", "标识可能减少错误，不能保证全部消除。"],
+    ["改变问题范围", "A crowded morning bus means the whole transport system should close during the evening.", "问题出在早高峰，措施却改到了晚间。"]
+   ]
+  },
+  {
+   "id": "practice-one", "type": "check", "title": "练习一", "points": ["cause", "measure"],
+   "groups": [{"items": [
+    {"stem": "A shared printer produces unused pages because students cannot preview the file. Which cause matches this problem?", "options": ["The lack of a page preview before printing", "The availability of a preview before printing", "The collection of used pages after printing", "The number of unused pages left at the printer"], "answer": 0, "why": "cannot preview the file 表明打印前缺少预览功能，与第一项对应。", "point": "cause"},
+    {"stem": "Visitors miss a room because its door has no sign. Which response addresses the cause?", "options": ["Visitors could describe the missing room again.", "Staff could place a clear sign on the door.", "Staff could remove the existing room number.", "Visitors could wait beside the unmarked door."], "answer": 1, "why": "door has no sign 是原因。第二项由工作人员在门上加标识，直接针对这个原因。", "point": "measure"},
+    {"stem": "A garden club reports that seedlings dry out on weekends because nobody is assigned to water them. Which explanation fits?", "options": ["Members receive too many watering assignments.", "Seedlings receive extra water every weekend.", "The club has no assigned weekend watering duty.", "The club assigns weekend watering to new members."], "answer": 2, "why": "nobody is assigned to water them 说明周末没有人负责浇水，即第三项。", "point": "cause"},
+    {"stem": "A rehearsal room is often locked because members do not know where to collect the key. Which measure addresses that cause?", "options": ["Members could report that the locked room is unavailable.", "Members could rehearse without knowing where the key is.", "The club could remove the key collection information.", "The club could tell members where to collect the key."], "answer": 3, "why": "do not know where to collect the key 说明缺少领取钥匙的信息。第四项由社团告知领取地点，针对这一原因。", "point": "measure"}
+   ]}]
+  },
+  {
+   "id": "practice-two", "type": "check", "title": "练习二", "points": ["cause", "measure"],
+   "groups": [{"look": "passage", "text": "A neighborhood tool library finds that some borrowed tools are returned late. Several borrowers explain that they forget the return date, which is printed only on a receipt they often lose. The library manager plans to send a reminder before each return date. The manager will then compare the number of late returns with earlier records.", "items": [
+    {"stem": "Which cause does the proposed reminder address?", "options": ["Borrowers receive too many reminders before returning their tools.", "Borrowers forget dates that appear only on easily lost receipts.", "The manager records the return dates only after collecting the tools.", "The library compares late returns with its earlier records."], "answer": 1, "why": "forget the return date 和 printed only on a receipt they often lose 说明日期只印在容易丢的收据上，借用者记不住，即第二项。", "point": "cause"},
+    {"stem": "Which sentence states the actor and the measure that address the cause?", "options": ["Borrowers could lose their receipts after borrowing more tools.", "The manager could report to borrowers that some tools are returned late.", "The manager could send borrowers a reminder before the due date.", "Borrowers could compare their late returns with earlier records."], "answer": 2, "why": "The library manager plans to send a reminder 写明了行动主体和措施。提醒针对借用者忘记日期，即第三项。", "point": "measure"},
+    {"stem": "Complete the expected effect of the manager's reminder on late returns.", "lead": "The reminder", "chunks": ["could help", "borrowers remember", "the date", "for returning"], "tail": "their tools on time.", "extra": ["forgot"], "why": "could help borrowers remember 表达提醒可能帮助借用者想起归还日期。", "point": "measure"}
+   ]}]
+  },
+  {
+   "id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["cause", "measure"],
+   "sets": [{"id": "set-a", "groups": [
+    {"look": "passage", "text": "A student theater group has found that rehearsal time is often lost while members search for shared costumes. The costumes are stored in several identical boxes, none of which indicates its contents. The group leader proposes labeling each box by costume type and keeping a list beside the shelves. Members could then locate the items they need more quickly, leaving more time for rehearsal.", "items": [
+     {"stem": "Which cause explains why members spend time searching?", "options": ["The shelves already hold a list of the costumes in every box.", "The group rehearses before members collect the shared costumes.", "The boxes look alike and do not identify their contents.", "The costumes have already been sorted and labeled."], "answer": 2, "why": "identical boxes, none of which indicates its contents 说明盒子外观相同，也没有标明里面装什么，即第三项。", "point": "cause"},
+     {"stem": "Which proposal directly addresses the identified cause?", "options": ["Members could repeat that rehearsal time is often lost.", "The leader could store the costumes in more identical boxes.", "Members could rehearse without locating the shared costumes.", "The leader could label the boxes and list their contents."], "answer": 3, "why": "labeling each box 和 keeping a list 针对盒子没有标识这一原因，行动主体是组长，即第四项。", "point": "measure"},
+     {"stem": "Complete the sentence explaining the cause of the search problem.", "lead": "Members spend time searching because", "chunks": ["the boxes", "look alike", "and do not", "identify their"], "tail": "contents for the theater group.", "extra": ["identified"], "why": "look alike 对应 identical，do not identify their contents 对应 none of which indicates its contents。", "point": "cause"},
+     {"stem": "Complete the sentence describing the leader's proposed measure.", "lead": "The group leader could", "chunks": ["label each", "costume box", "and keep", "a list beside"], "tail": "the shelves for members to consult.", "extra": ["labeled"], "why": "The group leader could label ... and keep a list 写明了行动主体。措施针对服装难找的原因。", "point": "measure"}
+    ]},
+    {"look": "passage", "text": "At a community workshop, participants often arrive after demonstrations begin. The organizer discovers that the invitation gives the closing time but does not state when demonstrations start. The workshop coordinator plans to add the starting time to future invitations and send them in advance. This may help participants plan their arrival, although it will not prevent every delay.", "items": [
+     {"stem": "What explains the difficulty in planning arrival?", "options": ["The invitation leaves out the demonstrations' starting time.", "The invitation leaves out the workshop's closing time.", "The coordinator sends the future invitations in advance.", "The participants plan to arrive before demonstrations begin."], "answer": 0, "why": "does not state when demonstrations start 说明邀请函没有写开始时间，即第一项。", "point": "cause"},
+     {"stem": "Which measure addresses that cause and names an actor?", "options": ["Participants could repeat that demonstrations begin late.", "The coordinator could add the starting time to invitations.", "The organizer could remove the closing time from invitations.", "Participants could change the demonstrations' closing time."], "answer": 1, "why": "coordinator plans to add the starting time 说明由协调员补上开始时间，针对邀请函缺少的信息，即第二项。", "point": "measure"},
+     {"stem": "Complete the sentence explaining the missing information.", "lead": "The invitation", "chunks": ["gives the", "closing time", "but omits", "the start of"], "tail": "the demonstrations at the workshop.", "extra": ["omitted"], "why": "gives the closing time but omits the start 写出了邀请函有什么、缺什么。", "point": "cause"},
+     {"stem": "Complete the sentence describing the coordinator's action.", "lead": "The coordinator could", "chunks": ["add the", "starting time", "to future", "invitations for"], "tail": "participants at the community workshop.", "extra": ["added"], "why": "coordinator could add the starting time to future invitations 写明了行动者和措施。", "point": "measure"}
+    ]}
+   ]}]
+  }
+ ]
+}

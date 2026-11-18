@@ -1,0 +1,48 @@
+{
+ "id": "writing-mixed-method", "title": "混合图的关联比较", "goal": "能概括各图特征，并建立有数据依据的跨图比较。", "skill": "写作", "exam": "雅思 IELTS Academic", "mastery": "once",
+ "points": [{"id": "coverage", "label": "概括每张图的主要特征"}, {"id": "link", "label": "建立有数据依据的跨图比较"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "写作混合图课的内容与教学规格"}],
+ "cards": [
+  {"id": "type", "type": "text", "title": "题型", "body": [{"p": "混合图用两张图呈现相关信息。先逐张读出对象、时间、指标和单位，再找两图共同的对象或时段。"}, {"box": "Chart 1: Town A visitors, 2020: 200 people\nChart 2: Town A visitors, 2020: 25% arrived by bus"}, {"p": "两图共有 Town A 和 2020。人数和比例分开概括。把两图的数据写进一句时，各自的单位和总体都要写出。"}]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定各图口径", "d": "分别记录对象、时间、单位和总体。例如人数以 people 标示，比例以百分数标示。"},
+   {"t": "2　概括各图特征", "d": "每张图各选主要变化或最大类别。例如人数上升，公共汽车占比最大。"},
+   {"t": "3　核对共同信息", "d": "对象和时段都相同，才把两图的数值写进一句。不同年份的数值各自标明年份。"},
+   {"t": "4　选择比较", "d": "比较时把两图的特征并列写出。两项数值同时变化，只写同时变化，不写谁导致谁。"}
+  ]},
+  {"id": "features", "type": "table", "title": "跨图比较", "cols": ["核对项", "处理", "例"], "rows": [
+   ["共同对象", "匹配相同地点或类别", "Town A: 200 visitors; 25% by bus."],
+   ["共同时间", "核对年份是否重合", "2020 visitors and 2020 travel shares."],
+   ["不同单位", "保留人数与比例单位", "200 people; 25% of visitors."],
+   ["因果关系", "图中无原因时只描述数据", "Visits and bus use both increased."]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [{"box": "The charts describe attendance at a local exhibition and the transport used by its visitors. Summarise the main patterns in each chart, then select a comparison that can be supported by both sets of information. Pay attention to the year, the unit and the group represented by each figure.\n\nAttendance (people; █ = 100 people)\n2018  █ 100\n2020  ██ 200\n\nTransport in 2020 (share of visitors)\n       .──────.\n     /  Bus   | Walk  \\ \n    |   50%   |  25%  |\n    |         |───────|\n     \\        | Bike /\n       '──────| 25%'\nBus 50%; walk 25%; bike 25%."}, {"p": "概述可分别写参观人数上升、2020 年公共汽车占比最大。200 people 和 50% 均指 2020 年访客，可并列描述。"}, {"p": "这组数据没有说明乘公共汽车导致人数上升。人数和占比的单位不同，不能直接比较大小。"}]},
+  {"id": "distractors", "type": "table", "title": "干扰项", "cols": ["错误", "依据", "例"], "rows": [
+   ["漏掉一图", "人数和交通方式均需概括", "Attendance rose."], ["错配年份", "比例仅指 2020", "In 2018, 50% travelled by bus."], ["混淆单位", "200 是人数，50% 是比例", "The number of people was 50%."], ["添加原因", "图表未给出因果证据", "Bus travel caused attendance to rise."]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["coverage", "link"], "groups": [{"items": [
+   {"stem": "Attendance rose from 100 to 200; in the later year, 50% travelled by bus and 30% walked. Which overview covers both figures?", "options": ["Attendance rose and bus travel was the largest share.", "Attendance fell and walking was the largest share.", "Attendance stayed level and bus travel caused growth.", "Attendance rose because all visitors travelled by bus."], "answer": 0, "why": "人数由 100 增至 200。公交占 50%，高于步行的 30%。第一项概括了这两项数据。", "point": "coverage"},
+   {"stem": "A chart shows 2020 visitor numbers; another shows their 2020 transport shares. What connects the charts?", "options": ["The same number and the same unit.", "The same visitors and the same year.", "The same causes and the same unit.", "The same visitors in different years."], "answer": 1, "why": "两图都描述 2020 年的同一组访客。", "point": "link"},
+   {"stem": "A line shows 2015–2018 sales; a table gives staff numbers in 2020. Which comparison is supported?", "options": ["Sales rose in 2020 with staff numbers.", "Staff numbers fell throughout 2015–2018.", "The table reports staffing after the sales period.", "Sales growth caused the 2020 staffing level."], "answer": 2, "why": "2015–2018 和 2020 不重合，第三项准确说明了时间关系。", "point": "link"},
+   {"stem": "A chart shows 40% travelling by bus and 25% walking. Which feature belongs in its overview?", "options": ["Walking had the larger travel share.", "Bus travel increased from 25% to 40%.", "All travellers used bus or walking.", "Bus travel had a larger share than walking."], "answer": 3, "why": "40% 高于 25%，第四项准确比较了两个比例。", "point": "coverage"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["coverage", "link"], "groups": [{"text": "An exhibition recorded 100 visits in 2019 and 160 in 2021. In 2021, 60% of visits were by adults and 40% by children.", "items": [
+   {"stem": "Which overview covers the two sets of figures?", "options": ["Visits fell and children formed the larger share.", "Visits rose and adults formed the larger share.", "Visits rose because adults formed a larger share.", "Visits stayed level and adult visits were 60."], "answer": 1, "why": "访问量由 100 增至 160；成人占 60%，高于儿童的 40%。", "point": "coverage"},
+   {"stem": "Which statement combines figures for the same year without asserting a cause?", "options": ["In 2019, 160 visits included 60% adults.", "In 2021, visits rose to 160 because 60% were adults.", "In 2021, 160 visits included 60% adults.", "In 2021, 160 visits included 60% children."], "answer": 2, "why": "160 次访问和成人占 60% 都是 2021 年的数据。第三项把两者写在一起，没有说原因。", "point": "link"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["coverage", "link"], "sets": [{"id": "set-a", "groups": [
+   {"text": "The charts show the number of visits to three museum branches over three years and the distribution of visits among those branches in the final year. Summarise the main features of both charts and select relevant comparisons. The attendance figures and the shares use different units.\n\nVisits (number; █ = 100 visits)\n             2018       2019       2020\nNorth        ██ 200     ███ 300    ████ 400\nSouth        █ 100      ██ 200     ██ 200\nWest         █ 100      ██ 200     ██ 200\n\n2020 share of all branch visits\n       .──────.\n     / North  | South \\ \n    |   50%   |  25%  |\n    |         |───────|\n     \\        | West /\n       '──────| 25%'\nNorth 50%; South 25%; West 25%.", "items": [
+    {"stem": "Which overview covers both charts?", "options": ["North visits rose and North had the largest final share.", "North visits fell and West had the largest final share.", "All branches fell and South had the largest final share.", "All branches stayed level and West had the largest share."], "answer": 0, "why": "North 从 200 增至 400，2020 年占比 50%，高于另两处的 25%。", "point": "coverage"},
+    {"stem": "Which statement combines figures from the same year?", "options": ["North had 300 visits and a 50% share in 2020.", "North had 400 visits and a 50% share in 2020.", "South had 200 visits and a 50% share in 2020.", "West had 400 visits and a 25% share in 2020."], "answer": 1, "why": "柱图中 North 2020 年为 400 次，饼图中 North 该年占 50%。第一项的 300 是 2019 年的数值。", "point": "link"},
+    {"stem": "Complete a comparison of the final-year shares.", "lead": "The North branch", "chunks": ["accounted for", "a larger share", "than", "either other branch"], "tail": ".", "extra": ["fewer visits"], "why": "North 的 50% 高于 South 和 West 各自的 25%。", "point": "coverage"},
+    {"stem": "Complete the statement using both charts.", "lead": "In 2020,", "chunks": ["North recorded", "400 visits", "and represented", "half of all visits"], "tail": ".", "extra": ["in 2018"], "why": "柱图的 400 次和饼图的 50% 均指 2020 年 North 分馆。", "point": "link"}
+   ]},
+   {"text": "The line chart shows the number of bicycles hired at a station on four days. The table gives the number returned late on the same days. Summarise the main features of both displays and compare figures only where the day and the unit are clear.\n\nBicycle hires (number)\n40 |             ●\n30 |         ●───╯\n20 |     ●───╯\n10 | ●───╯\n 0 +────────────────\n     Mon Tue Wed Thu\n     10  20  30  40\n\nLate returns (number)\nMon 1 | Tue 2 | Wed 3 | Thu 4", "items": [
+    {"stem": "Which overview describes both displays?", "options": ["Hires fell while late returns were level.", "Hires were level while late returns fell.", "Hires and late returns both rose over the days.", "Hires rose while late returns fell from 4 to 1."], "answer": 2, "why": "租车数由 10 增至 40，迟还数由 1 增至 4；两者均上升。", "point": "coverage"},
+    {"stem": "Which same-day comparison is supported?", "options": ["Monday had 10 hires and 4 late returns.", "Tuesday had 20 hires and 3 late returns.", "Wednesday had 40 hires and 3 late returns.", "Thursday had 40 hires and 4 late returns."], "answer": 3, "why": "Thursday 在线图为 40 次租用，表中为 4 次迟还。", "point": "link"},
+    {"stem": "Complete a sentence describing the line's overall pattern.", "lead": "The number", "chunks": ["of bicycle hires rose", "from", "10 to", "40"], "tail": ".", "extra": ["fell"], "why": "线图的起点为 10、终点为 40，整体上升。", "point": "coverage"},
+    {"stem": "Complete a comparison using both displays.", "lead": "On Wednesday,", "chunks": ["there were", "30 hires", "and 3 late", "returns"], "tail": ".", "extra": ["on Monday"], "why": "Wednesday 的线图数值为 30，表中数值为 3。", "point": "link"}
+   ]}
+  ]}]}
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "id": "translation-reference",
+ "title": "译文的指代衔接",
+ "goal": "能恢复省略的对象并选择清楚的衔接表达。",
+ "skill": "翻译",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "referent", "label": "恢复原文省略但可确定的对象"},
+  {"id": "cohesion", "label": "选择指代清楚且称谓一致的表达"}
+ ],
+ "sources": [{"id": "c2", "title": "大学英语六级考试大纲", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译课程内容依据"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "中文常省略上下文里已经明确的主体。英文的分句要有主语，译文要把这个主体补出来。补的方法有三种：重复名词，用代词，用指示词加概括名词。代词的单复数要和所指对象一致。"},
+   {"box": "原文：这座桥建于上世纪，后来经过修复。\n译文：The bridge was built in the last century. It was later repaired."},
+   {"p": "it 指前句的桥。前文有两个可能的对象时，重复名词，所指才清楚。"}
+  ]},
+  {"id": "repeat", "type": "table", "title": "重复名词", "cols": ["情况", "原文", "译文"], "rows": [
+   ["多个单数对象", "展馆靠近车站。展馆于周日关闭。", "The gallery is near the station. The gallery closes on Sundays."],
+   ["多个复数对象", "工匠整理了工具和材料。工具放在架子上。", "The craftspeople sorted the tools and materials. The tools were placed on a shelf."],
+   ["名称与简称", "社区图书馆今年开放。这座图书馆提供借阅服务。", "The community library opened this year. The library offers a lending service."],
+   ["统一术语", "湿地保护区有观鸟点。这个保护区还设有步道。", "The wetland reserve has birdwatching spots. The reserve also has walking trails."]
+  ]},
+  {"id": "pronoun", "type": "table", "title": "代词指代", "cols": ["情况", "原文", "译文"], "rows": [
+   ["单数事物", "这本目录很详细。还附有地图。", "The catalogue is detailed. It also includes a map."],
+   ["复数事物", "这些手稿已登记。随后被送入档案室。", "The manuscripts were registered. They were then sent to the archive."],
+   ["复数人物", "志愿者清理了花园。随后种下树苗。", "The volunteers cleared the garden. They then planted seedlings."],
+   ["对象可能不明", "画家和作家参观了展览。画家随后离开。", "The painter and the writer visited the exhibition. The painter then left."]
+  ]},
+  {"id": "summary", "type": "table", "title": "指示词与概括名词", "cols": ["情况", "原文", "译文"], "rows": [
+   ["概括行动", "村民修复了水渠。这项工作持续了两周。", "Villagers repaired the canal. This work lasted two weeks."],
+   ["概括变化", "票价下降了。这一变化吸引了更多观众。", "Ticket prices fell. This change attracted more visitors."],
+   ["概括决定", "学校增设了晚班车。这项决定方便了学生。", "The school added an evening bus. This decision helped students."],
+   ["概括过程", "工匠先浸泡纤维，再制成纸浆。这个过程需要清水。", "The craftspeople soaked the fibres and made pulp. This process required clean water."]
+  ]},
+  {"id": "practice-a", "type": "check", "title": "练习一", "points": ["referent", "cohesion"], "groups": [{"items": [
+   {"stem": "原文：这些灯笼很轻。由纸制成。选择译句。", "options": ["The lanterns are light. It is made of paper.", "The lanterns are light. They are made of paper.", "The lanterns are light because they are made of paper.", "The lanterns are light. This is made of paper."], "answer": 1, "why": "第二句省略的主体是这些灯笼，复数，用 they 指代 lanterns。第三项加了原文没有的因果关系。", "point": "referent"},
+   {"stem": "原文：学校延长了开放时间。这项决定方便了读者。选择译句。", "options": ["The school extended its hours. These decisions helped readers.", "The school extended its hours. The school helped readers.", "The school extended its hours. This decision helped readers.", "The school extended its hours. This decision helped the school."], "answer": 2, "why": "这项决定指前句延长开放时间这件事，用 this decision 概括。受益的是读者，即第三项。", "point": "cohesion"}
+  ]}]},
+  {"id": "practice-b", "type": "check", "title": "练习二", "points": ["referent", "cohesion"], "groups": [{"items": [
+   {"stem": "原文：这条河流经村庄。最后注入湖泊。排列第二句译文。", "lead": "It finally", "chunks": ["flows", "into", "the", "lake"], "tail": ".", "extra": ["flow"], "why": "It 指单数的河流，flows 表示河流注入湖泊。", "point": "referent"},
+   {"stem": "原文：他们修复了水井。这项工作耗时一个月。排列第二句译文。", "lead": "This work", "chunks": ["took", "a total", "of", "one month"], "tail": ".", "extra": ["take"], "why": "This work 概括修复水井的工作，took 表示耗时。", "point": "cohesion"}
+  ]}]},
+  {"id": "practice-c", "type": "check", "title": "练习三", "points": ["referent", "cohesion"], "groups": [{"items": [
+   {"stem": "原文：画家和作家参观了展览。画家随后离开。选择指代明确的译句。", "options": ["The painter and the writer visited the exhibition. The writer then left.", "The painter and the writer visited the exhibition. The painter then left.", "The painter and the writer visited the exhibition. Both then left.", "The painter and the writer visited the exhibition. He then left."], "answer": 1, "why": "原文说的是画家随后离开，重复 the painter 指代才明确。第四项的 he 可以指画家，也可以指作家。", "point": "cohesion"},
+   {"stem": "原文：志愿者搬运了箱子。随后仔细清点了图书馆的书。排列第二句译文。", "lead": "They then carefully", "chunks": ["counted", "the", "library", "books"], "tail": ".", "extra": ["counts"], "why": "They 指志愿者，counted 表示随后清点。", "point": "referent"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["referent", "cohesion"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "原文：这张地图非常古老。保存在图书馆里。选择译句。", "options": ["The map is very old. They are kept in the library.", "The map is very old. It keeps in the library.", "The map is very old. It is kept in the library.", "The map is very old, so it is kept in the library."], "answer": 2, "why": "第二句省略的主体是这张地图，单数，用 it。地图是被保存的，用被动 is kept。", "point": "referent"},
+   {"stem": "原文：工匠检查了器具。随后修好了它们。选择译句。", "options": ["The craftspeople checked the tools. They then repaired it.", "The craftspeople checked the tools. They then repaired them.", "The craftspeople checked the tools. They are now repairing them.", "The craftspeople repaired the tools. They then checked them."], "answer": 1, "why": "第二句省略的主体是工匠，用 they；它们指复数的器具，用 them。修好了是已经完成的动作，用 repaired。", "point": "referent"},
+   {"stem": "原文：图书馆增加了座位。这一变化方便了读者。选择译句。", "options": ["The library added seats. This change helped readers.", "The library added seats. These changes helped readers.", "The library added seats. This change helped the library.", "The library added seats. The library helped readers."], "answer": 0, "why": "这一变化指前句增加座位这件事，用单数的 this change 概括。受益的是读者，即第一项。", "point": "cohesion"},
+   {"stem": "原文：剧院靠近车站。剧院去年关闭。选择指代明确的译句。", "options": ["The theatre is near the station. The station closed last year.", "The theatre is near the station. Both places closed last year.", "The theatre is near the station. It closed last year.", "The theatre is near the station. The theatre closed last year."], "answer": 3, "why": "原文说的是剧院关闭，重复 the theatre 指代才明确。第三项的 it 可以指剧院，也可以指车站。", "point": "cohesion"},
+   {"stem": "原文：这些档案十分珍贵。现已被数字化。排列第二句译文。", "lead": "They", "chunks": ["have", "now been", "converted", "to digital form"], "tail": ".", "extra": ["has"], "why": "They 指复数档案，have been converted 表示已被转换。", "point": "referent"},
+   {"stem": "原文：这座塔位于山顶。可以俯瞰村庄。排列第二句译文。", "lead": "It", "chunks": ["overlooks", "the village", "from", "the hilltop"], "tail": ".", "extra": ["overlook"], "why": "It 指塔，overlooks 表示俯瞰。", "point": "referent"},
+   {"stem": "原文：村民修复了桥梁。这项工作持续了半年。排列第二句译文。", "lead": "This work", "chunks": ["lasted", "for", "half", "a year"], "tail": ".", "extra": ["last"], "why": "This work 指修桥工作，lasted 表示持续时间。", "point": "cohesion"},
+   {"stem": "原文：学校增加了一辆校车。这项决定帮助了学生。排列第二句译文。", "lead": "This decision", "chunks": ["helped", "the students", "at", "the school"], "tail": ".", "extra": ["helps"], "why": "This decision 指增设校车的决定，helped 表示帮助。", "point": "cohesion"}
+  ]}]}]}
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "id": "listening-p4-table", "title": "表格填空", "goal": "按行对象和列属性记录录音中的对应信息。", "skill": "听力", "exam": "雅思 IELTS Academic", "mastery": "once",
+ "points": [{"id": "axes", "label": "确定表格的行对象与列属性"}, {"id": "align", "label": "将听到的细节填入对应单元格"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "表格填空与听力课教学规格"}],
+ "cards": [
+  {"id": "type", "type": "text", "title": "题型", "body": [{"p": "表格的每一行是一个对象，每一列是一种属性。空格要填的是所在行与所在列交叉处的信息。"}, {"box": "Plant | Leaf shape | Height (cm)\nA | oval | 12\nB | round | ______"}, {"p": "空格在 B 这一行、高度这一列，应填 B 的高度。表头已有 cm，答案不再写单位。"}]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定行对象", "d": "先读出每一行的对象名称。录音换到下一个对象时，随之换到下一行。"},
+   {"t": "2　确定列属性", "d": "读出各列的标题，如形状、数量。注意表头里已有的单位。"},
+   {"t": "3　记录对应信息", "d": "听当前对象在所问那一列的信息。相邻两个对象的同类数值要分开核对。"},
+   {"t": "4　检查答案", "d": "按题面的词数和数字限制填写原词。再核对答案所在的行和列。"}
+  ]},
+  {"id": "axes-table", "type": "table", "title": "行与列", "cols": ["表格", "行对象", "列属性", "例"], "rows": [
+   ["物种特征", "不同植物", "叶形", "plant B：round"],
+   ["物种特征", "不同植物", "高度与单位", "plant A：12 cm"],
+   ["实验结果", "不同样本", "干燥时间", "sample X：13 minutes"],
+   ["实验结果", "不同样本", "剩余质量", "sample Y：30 grams"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [{"box": "Recording: Sample X dried in thirteen minutes. Sample Y took thirty minutes.\n\nSample | Drying time (minutes)\nX | 13\nY | ______\n\nWrite ONE NUMBER."}, {"p": "答案是 30。录音说 Sample Y took thirty minutes。13 是上一行 X 的数值。minutes 已写在列标题中。"}]},
+  {"id": "distractors", "type": "table", "title": "常见错误", "cols": ["情况", "例", "正确填法"], "rows": [
+   ["行对象混淆", "X：13；Y：30", "Y 行填 30，不填 13"],
+   ["列属性混淆", "height：12；width：20", "高度列填 12，不填 20"],
+   ["相近数字混淆", "thirteen；thirty", "thirteen 是 13，thirty 是 30"],
+   ["重复单位", "time (minutes)：30", "只填 30，不写 minutes"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["axes", "align"], "groups": [
+   {"audio": {"lines": [{"who": "A", "text": "Plant A has oval leaves; plant B has round leaves."}]}, "items": [{"stem": "Write ONE WORD. Plant B | Leaf shape: ______.", "accept": ["round"], "why": "录音说 plant B has round leaves，这一行的叶形填 round。oval 属于另一株植物。", "point": "axes"}]},
+   {"audio": {"lines": [{"who": "A", "text": "Sample X is twelve centimetres wide and twenty centimetres long."}]}, "items": [{"stem": "Write ONE NUMBER. Sample X | Width (cm): ______.", "accept": ["12", "twelve"], "why": "录音说 twelve centimetres wide。宽度是 12，20 是长度。", "point": "axes"}]},
+   {"audio": {"lines": [{"who": "A", "text": "The first container held fourteen litres; the second held forty litres."}]}, "items": [{"stem": "Write ONE NUMBER. Second container | Capacity (litres): ______.", "accept": ["40", "forty"], "why": "录音说 the second held forty litres。14 是第一个容器的容量。", "point": "align"}]},
+   {"audio": {"lines": [{"who": "A", "text": "The first piece is made of cotton. The second piece is made of wool."}]}, "items": [{"stem": "Write ONE WORD. Second piece | Material: ______.", "accept": ["wool"], "why": "录音说 The second piece is made of wool。cotton 是第一块的材料。", "point": "align"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["axes", "align"], "groups": [{
+   "text": "Sample | Seeds opened | Longest root (mm)\nOak | (1) | (3)\nAsh | 20 | (2)",
+   "audio": {"lines": [{"who": "A", "text": "This lecture describes a comparison of two seed samples in a classroom demonstration. The samples are called Oak and Ash so that each has a distinct label. The labels identify the rows of the results table. They are names for the samples in this demonstration and do not refer to the trees from which the seeds came. Both samples were placed on damp paper under the same light. The class counted the seeds that had opened after the same number of days. In the Oak sample, twelve seeds had opened. In the Ash sample, twenty seeds had opened. These counts belong in separate rows of the table. The class also measured the longest root in each sample. The longest root in Oak measured thirteen millimetres. In Ash, the longest root measured thirty millimetres. The unit is millimetres for both measurements. The count and the root length describe different attributes, so they need separate columns. This comparison records a result for the samples under these particular conditions. It does not establish that every seed in either sample grew at the same rate. A useful table includes the sample label, the number opened and the longest root. It also identifies the unit of length in the column heading. The observations can then be read across each row without confusing the results of the two samples."}]},
+   "items": [
+    {"stem": "Write ONE NUMBER. Oak | Seeds opened: ______.", "accept": ["12", "twelve"], "why": "依据是 In the Oak sample, twelve seeds had opened。20 是 Ash 的数量。", "point": "axes"},
+    {"stem": "Write ONE NUMBER. Ash | Longest root (mm): ______.", "accept": ["30", "thirty"], "why": "依据是 In Ash, the longest root measured thirty millimetres。13 是 Oak 的根长。", "point": "align"},
+    {"stem": "Write ONE NUMBER. Oak | Longest root (mm): ______.", "accept": ["13", "thirteen"], "why": "依据是 The longest root in Oak measured thirteen millimetres。30 是 Ash 的根长。", "point": "align"}
+   ]
+  }]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["axes", "align"], "sets": [{"id": "set-a", "groups": [
+   {"text": "Plant | Leaf shape | Height (cm)\nNorth | oval | (2)\nSouth | (1) | (3)", "audio": {"lines": [{"who": "A", "text": "In this lecture we will compare two kinds of plant growing in a teaching collection. The plants are given the names North and South to distinguish the rows in a table. These are labels for the individual plants in the collection, not claims about where the species normally grow. Each plant is described using leaf shape and height. North has oval leaves and stands thirteen centimetres high. South has round leaves and stands thirty centimetres high. The shapes belong in one column of the table and the heights in another. The unit for height is centimetres. The two measurements were taken on the same day, using the same ruler. The table can also include the location of each pot within the teaching room. North stands by the window, while South stands on a shelf away from the window. This location describes the pots in the room, not a natural distribution of the plants. If the pots are moved, their labels and measured features remain separate from their new positions. A reader following the row for North should find its oval leaves, its height and its current position together. The row for South contains the corresponding information for the other plant. A comparison of these two specimens alone cannot establish a typical height for an entire species. The table is a record of the specific plants observed in this teaching collection."}]},
+    "items": [
+     {"stem": "Write ONE WORD. South | Leaf shape: ______.", "accept": ["round"], "why": "依据是 South has round leaves。oval 是 North 的叶形。", "point": "axes"},
+     {"stem": "Write ONE NUMBER. North | Height (cm): ______.", "accept": ["13", "thirteen"], "why": "依据是 North has oval leaves and stands thirteen centimetres high。30 是 South 的高度。", "point": "axes"},
+     {"stem": "Write ONE NUMBER. South | Height (cm): ______.", "accept": ["30", "thirty"], "why": "依据是 South has round leaves and stands thirty centimetres high。13 是 North 的高度。", "point": "align"}
+    ]
+   },
+   {"text": "Sample | Material | Drying time (minutes) | Mass after drying (grams)\nFirst | (4) | 14 | (6)\nSecond | wool | (5) | 60", "audio": {"lines": [{"who": "A", "text": "We will now examine a small experiment comparing two pieces of fabric. Each piece was placed in water and then left to dry under the same conditions. The first sample was cotton and the second was wool. The material identifies each row in the results table. Two measurements were recorded for each piece: the time taken to dry and its mass after drying. The cotton sample took fourteen minutes to dry, while the wool sample took forty minutes. These are the drying times for the two pieces in this comparison. After drying, the cotton sample had a mass of sixteen grams, and the wool sample had a mass of sixty grams. The table has one column for drying time in minutes and another for mass in grams. Although fourteen and forty sound similar, they belong to different rows. The same care is needed with sixteen and sixty. The observations do not show what would happen to every cotton or wool fabric. The pieces could differ in thickness or size, so a further comparison would need to describe those properties too. In the present record, the shared drying conditions and the measurements are given for these particular samples. Reading across a row connects each material to its own time and mass. Reading down a column compares the same attribute across the two materials. The table headings make the units and attributes explicit."}]},
+    "items": [
+     {"stem": "Write ONE WORD. First sample | Material: ______.", "accept": ["cotton"], "why": "依据是 The first sample was cotton。第一行的材料填 cotton。", "point": "axes"},
+     {"stem": "Write ONE NUMBER. Wool | Drying time (minutes): ______.", "accept": ["40", "forty"], "why": "依据是 the wool sample took forty minutes。14 是 cotton 的干燥时间。", "point": "align"},
+     {"stem": "Write ONE NUMBER. Cotton | Mass after drying (grams): ______.", "accept": ["16", "sixteen"], "why": "依据是 the cotton sample had a mass of sixteen grams。60 是 wool 的质量。", "point": "align"}
+    ]
+   }
+  ]}]}
+ ]
+}

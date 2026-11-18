@@ -1,0 +1,545 @@
+{
+ "id": "listening-talk-signals",
+ "title": "信号词",
+ "goal": "听出信号词及其类别；根据信号词预判接下来的内容。",
+ "skill": "listening",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 听力",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "signal",
+   "label": "听出信号词及其类别"
+  },
+  {
+   "id": "predict",
+   "label": "根据信号词预判接下来的内容"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、录音长度、只放一遍"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "各题型的说明、考查的能力、官方样题"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Listening Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-listening.pdf",
+   "used": "第 1 课：四类题的说明和小测答案；第 2、4 课：应答配对、重音和语调"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "信号词表明讲述中的逻辑关系。By friction, I mean resistance between surfaces. 中，I mean 后是定义；For example, a sliding block slows down. 中，for example 后是具体实例。"
+    },
+    {
+     "p": "信号词只能预判下一句是哪一类信息，具体内容要听录音。However 提示后面和前面有差别，后面那句不一定更重要。so 可能引出一个局部的结果，也可能收束整段，要看它指的范围。"
+    }
+   ]
+  },
+  {
+   "id": "opening",
+   "type": "table",
+   "title": "话题与定义",
+   "cols": [
+    "类别",
+    "表达",
+    "后续内容",
+    "例句"
+   ],
+   "rows": [
+    [
+     "引入话题",
+     "Today I'd like to discuss …",
+     "本段讨论的对象",
+     "Today I'd like to discuss the motion of pendulums."
+    ],
+    [
+     "引入话题",
+     "Let's look at …",
+     "选定的对象或现象",
+     "Let's look at the swing of a hanging weight."
+    ],
+    [
+     "引入话题",
+     "The question is …",
+     "需要解释的问题",
+     "The question is what controls the time of each swing."
+    ],
+    [
+     "引入话题",
+     "Our focus today is …",
+     "本段讲的范围",
+     "Our focus today is the length of the pendulum."
+    ],
+    [
+     "下定义",
+     "By …, I mean …",
+     "术语在此处的含义",
+     "By a cycle, I mean one complete back-and-forth motion."
+    ],
+    [
+     "下定义",
+     "… refers to …",
+     "术语指的概念",
+     "The period refers to the time taken for one cycle."
+    ],
+    [
+     "下定义",
+     "… is defined as …",
+     "明确的定义",
+     "Frequency is defined as the number of cycles per unit of time."
+    ],
+    [
+     "下定义",
+     "When I say …, I'm talking about …",
+     "澄清用词范围",
+     "When I say length, I'm talking about the suspension point to the weight's center."
+    ]
+   ],
+   "note": "引入话题的表达只说明要讲什么。记定义时，对象和条件都要记下。"
+  },
+  {
+   "id": "example-contrast",
+   "type": "table",
+   "title": "举例与对比",
+   "cols": [
+    "类别",
+    "表达",
+    "后续内容",
+    "例句"
+   ],
+   "rows": [
+    [
+     "举例",
+     "For example, …",
+     "支持前述观点的具体情况",
+     "For example, a staircase changes the route through a building."
+    ],
+    [
+     "举例",
+     "For instance, …",
+     "一个具体实例，不代表全部",
+     "For instance, a wide doorway permits several people to pass."
+    ],
+    [
+     "举例",
+     "Take …",
+     "选定一个实例",
+     "Take a corridor with doors at both ends."
+    ],
+    [
+     "举例",
+     "A case in point is …",
+     "与前述观点对应的案例",
+     "A case in point is a room divided by a movable screen."
+    ],
+    [
+     "转折与对比",
+     "However, …",
+     "限制、修正或相反情况",
+     "The hall is wide. However, its exit is narrow."
+    ],
+    [
+     "转折与对比",
+     "In contrast, …",
+     "另一方的不同特征",
+     "The corridor is enclosed. In contrast, the courtyard is open."
+    ],
+    [
+     "转折与对比",
+     "Unlike …, …",
+     "比较的对象和差异",
+     "Unlike a fixed wall, a screen can be moved."
+    ],
+    [
+     "转折与对比",
+     "On the other hand, …",
+     "另一个方面，不一定相反",
+     "The opening improves access. On the other hand, it reduces privacy."
+    ]
+   ],
+   "note": "记例子时连同它说明的观点一起记，记对比时两方都记。出现例子时，话题并没有变。"
+  },
+  {
+   "id": "cause-summary",
+   "type": "table",
+   "title": "因果与总结",
+   "cols": [
+    "类别",
+    "表达",
+    "后续内容",
+    "例句"
+   ],
+   "rows": [
+    [
+     "因果",
+     "Because …",
+     "原因，主句是结果",
+     "Because the seal leaked, air entered the container."
+    ],
+    [
+     "因果",
+     "As a result, …",
+     "前述条件造成的结果",
+     "The seal leaked. As a result, the pressure changed."
+    ],
+    [
+     "因果",
+     "That's why …",
+     "由前述原因解释的现象",
+     "Air entered the container. That's why the pressure rose."
+    ],
+    [
+     "因果",
+     "This leads to …",
+     "过程产生的后果",
+     "The uneven pressure pushes the flap. This leads to an opening."
+    ],
+    [
+     "总结",
+     "To sum up, …",
+     "压缩前面的主要关系",
+     "To sum up, pressure differences can drive movement."
+    ],
+    [
+     "总结",
+     "In short, …",
+     "简要的结论，与前文一致",
+     "In short, an intact seal helps maintain the difference."
+    ],
+    [
+     "总结",
+     "The main point is …",
+     "讲者要保留的中心观点",
+     "The main point is that both sides of the seal matter."
+    ],
+    [
+     "总结",
+     "So, what this shows is …",
+     "从前述证据归纳的结论",
+     "So, what this shows is that a small leak can change the system."
+    ]
+   ],
+   "note": "because 后面是原因，不是结果。判断总结要看整段，只看一个 so 不够。"
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Today I'd like to discuss reversible changes. By reversible, I mean that the original state can be restored under suitable conditions. Take an ice cube: it melts into water, which can freeze again. However, burning paper doesn't provide the same kind of reversal. The main point is that a change in appearance alone doesn't tell us whether the original state can be recovered."
+    },
+    {
+     "box": "What does the phrase introducing the ice cube signal?\n1. A correction to the meaning of reversible\n2. A concrete case of the defined change\n3. A contrast with a change that cannot be reversed\n4. A summary of both kinds of change"
+    },
+    {
+     "p": "Take 后面是 ice cube，这是可逆变化的一个具体例子，即第二项。纸燃烧的对比由 However 引出，整段的结论由 The main point is 引出。"
+    },
+    {
+     "p": "这段的顺序是话题、定义、举例、对比、总结。只记冰和纸两个名词，就看不出例子和定义的关系。"
+    }
+   ]
+  },
+  {
+   "id": "check-short",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "signal",
+    "predict"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Today I'd like to discuss the role of stress in a sentence. By stress, I mean giving one word greater prominence. This use of stress concerns speech, rather than physical force."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which function does the phrase before the meaning of stress serve?",
+       "options": [
+        "Giving another example of physical force",
+        "Stating a result of speaking more loudly",
+        "Contrasting speech with physical force",
+        "Defining how a term is being used"
+       ],
+       "answer": 3,
+       "why": "By stress, I mean 给出术语在这里的意思，第四项概括了这种定义的作用。",
+       "point": "signal"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A layer of snow can reduce heat loss from the ground. For instance, soil beneath snow may stay warmer than exposed soil during cold weather."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What kind of information does the example signal introduce?",
+       "options": [
+        "A particular comparison illustrating insulation",
+        "A definition of heat loss from the ground",
+        "A reason to reject the claim about snow",
+        "A summary of every cause of soil temperature"
+       ],
+       "answer": 0,
+       "why": "For instance 后面比较了积雪下和裸露的土壤，具体支持 reduce heat loss，即第一项。",
+       "point": "predict"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A manuscript can contain corrections made at different times. However, a difference in ink color alone doesn't prove that two people wrote it. One writer may have changed pens."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What relation is signaled before the warning about ink?",
+       "options": [
+        "An example linking a correction to a second writer",
+        "A definition of a handwritten manuscript",
+        "A limitation on interpreting a visible difference",
+        "A conclusion that ink color reliably identifies different writers"
+       ],
+       "answer": 2,
+       "why": "However 引出 ink color alone doesn't prove 这一限制，第三项概括了转折后的内容。",
+       "point": "signal"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A bridge joint leaves room for small changes in length. Because metal expands when warmed, a completely rigid connection can create stress. The joint allows some movement."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What does the causal signal introduce?",
+       "options": [
+        "The result of leaving room at the joint",
+        "The reason some movement must be allowed",
+        "A contrasting account of expansion in rigid connections",
+        "A summary of the joint's construction process"
+       ],
+       "answer": 1,
+       "why": "Because metal expands when warmed 是接头要留出活动余地的原因，即第二项。第一项把原因说成了结果。",
+       "point": "predict"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-talk",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "signal",
+    "predict"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Let's look at how the arrangement of a display affects comparison. By adjacency, I mean placing things next to one another. For example, two fabric samples displayed side by side make a small color difference easier to notice. In contrast, samples placed in separate rooms must be compared from memory. Because the remembered color may be imperfect, that comparison can be less reliable. The main point is that arrangement can affect what differences become apparent, even when the samples themselves haven't changed."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which relation connects the two display arrangements?",
+       "options": [
+        "A cause in one room followed by its result in another",
+        "A definition of adjacency followed by its restatement",
+        "A general claim followed by two similar examples",
+        "Contrast between direct and remembered comparison"
+       ],
+       "answer": 3,
+       "why": "In contrast 把 separate rooms 和前面的 side by side 对比：一种直接看，一种凭记忆。第四项保留了对比的两方。",
+       "point": "signal"
+      },
+      {
+       "stem": "What follows the definition of adjacency?",
+       "options": [
+        "A specific case involving nearby fabric samples",
+        "A denial that arrangement affects comparison",
+        "A conclusion about all remembered colors",
+        "A cause of the samples physically changing"
+       ],
+       "answer": 0,
+       "why": "For example 后面是 two fabric samples displayed side by side，这个实例对应 placing things next to one another，即第一项。",
+       "point": "predict"
+      },
+      {
+       "stem": "What is the role of the final signal phrase?",
+       "options": [
+        "To introduce a separate cause of fading",
+        "To restate the definition of adjacency",
+        "To state the conclusion about arrangement",
+        "To begin another example in a separate room"
+       ],
+       "answer": 2,
+       "why": "The main point is 引出 arrangement can affect what differences become apparent，这是全段的结论，即第三项。",
+       "point": "signal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "signal",
+    "predict"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to an academic talk.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Our focus today is feedback in a simple control system. By feedback, I mean information about the current state that is used to adjust an action. Consider a tank with a device that measures the water level. When the level falls, a controller opens an inlet. Water enters, and the level rises. As a result, the controller eventually receives information that the desired level has been reached and closes the inlet. This is a case of using a measurement to guide a response. However, a delayed measurement can cause trouble. If the controller keeps receiving old information, it may continue adding water after the tank is already full enough. The measurement isn't useful merely because it exists; it must arrive in time for the response. Unlike a timer that opens the inlet for a fixed interval, this controller responds to the measured condition of the tank. To sum up, feedback links the state of a system to an adjustment, but the timing of the information affects how well that adjustment works."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What does the speaker signal before explaining the meaning of feedback?",
+         "options": [
+          "A contrast with the water tank",
+          "A definition of the central term",
+          "A result of an overflowing inlet",
+          "A summary of the entire explanation"
+         ],
+         "answer": 1,
+         "why": "By feedback, I mean 引出定义，即第二项。后面的水箱是具体例子。",
+         "point": "signal"
+        },
+        {
+         "stem": "What information should be expected after the contrast signal about delay?",
+         "options": [
+          "Another example of adjustment reaching the desired level",
+          "The definition of a fixed interval",
+          "A general conclusion about the measurement's accuracy",
+          "A problem that limits the control process"
+         ],
+         "answer": 3,
+         "why": "However, a delayed measurement can cause trouble 提示控制过程有问题，后文的 old information 说明了问题在哪，即第四项。",
+         "point": "predict"
+        },
+        {
+         "stem": "What relation is marked by the comparison with a timer?",
+         "options": [
+          "A difference between fixed scheduling and response to a measured state",
+          "A cause linking a fixed interval to the tank's changing level",
+          "An example of two devices using the same kind of measurement",
+          "A definition of feedback based on a predetermined time interval"
+         ],
+         "answer": 0,
+         "why": "Unlike a timer … fixed interval 与 responds to the measured condition 对比了两种控制方式，第一项把两方都概括了。",
+         "point": "signal"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to an academic talk.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Let's look at how a mechanical lock distinguishes between keys. A key's profile refers to the shape that permits it to enter a particular opening. Entering the opening, however, isn't the same as operating the lock. For example, in a simple pin mechanism, the key must also lift internal parts to suitable positions. A key can enter yet fail to produce that arrangement. Because those parts remain misaligned, the central section cannot turn. This explains why two keys that look rather similar may not operate the same lock. On the other hand, copying a key's relevant shape can allow another key to work; the lock isn't recognizing the personal identity of whoever holds it. This distinction concerns a mechanical system, not every possible way of controlling access. Electronic systems may use different kinds of information. In short, a mechanical key must meet the lock's physical requirements, and the visible ability to enter is only one of those requirements. The example shows why an initial fit can be necessary without being sufficient for the complete operation."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What does the phrase introducing the pin mechanism lead listeners to expect?",
+         "options": [
+          "A conclusion comparing electronic and mechanical access",
+          "An explanation of how a copied key identifies its holder",
+          "A concrete example of an additional physical requirement",
+          "A definition of the profile needed to enter the opening"
+         ],
+         "answer": 2,
+         "why": "For example 引出 key must also lift internal parts，说明钥匙插进去之后还有别的条件，即第三项。",
+         "point": "predict"
+        },
+        {
+         "stem": "What is introduced by the causal signal about internal parts?",
+         "options": [
+          "A definition of a key's visible profile",
+          "The reason the central section cannot rotate",
+          "A summary of the requirements shared with electronic systems",
+          "A contrast between a copied key and its original"
+         ],
+         "answer": 1,
+         "why": "Because those parts remain misaligned 是原因，the central section cannot turn 是结果，第二项保留了这个因果方向。",
+         "point": "signal"
+        },
+        {
+         "stem": "What information does the final summary signal introduce?",
+         "options": [
+          "A general conclusion combining the lock's physical requirements",
+          "A new example of an electronic identification method",
+          "A revised claim that the visible profile is the decisive requirement",
+          "A detailed account of how a particular key was copied"
+         ],
+         "answer": 0,
+         "why": "In short 把 physical requirements 和 only one of those requirements 合在一起，第一项概括了这个总结。",
+         "point": "predict"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,746 @@
+{
+ "id": "listening-talk-humanities",
+ "title": "常考学科：社会与人文",
+ "goal": "认识本学科的常用词；听懂本学科的短讲并答题。",
+ "skill": "listening",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 听力",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "vocab",
+   "label": "认识本学科的常用词"
+  },
+  {
+   "id": "listen",
+   "label": "听懂本学科的短讲并答题"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、录音长度、只放一遍"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "各题型的说明、考查的能力、官方样题"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Listening Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-listening.pdf",
+   "used": "第 1 课：四类题的说明和小测答案；第 2、4 课：应答配对、重音和语调"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "心理类材料讲认知、行为和研究设计。经济类材料讲资源、激励、生产和交换。The stimulus changed, but the task stayed the same. 这句要记下两件事：刺激变了，任务没变。只记一个 experiment 不够。"
+    },
+    {
+     "p": "历史类材料要分清文献的记载和研究者的解释。艺术类材料把形式、技法和创作背景联系起来。The patron commissioned a portrait. 中 patron 是出钱委托的资助者，不是画家本人；commission 是委托创作。"
+    },
+    {
+     "p": "词取它在本学科里的意思。composition 在讲画作时指构图。The composition places the figure near the edge. 说的是人物在画面里的位置，不是作文，也不是化学成分。"
+    }
+   ]
+  },
+  {
+   "id": "psychology",
+   "type": "table",
+   "title": "词汇表：心理",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "perception",
+     "n.",
+     "知觉；感知",
+     "Perception involves interpreting sensory information."
+    ],
+    [
+     "attention",
+     "n.",
+     "注意；注意力",
+     "The sudden sound attracted attention."
+    ],
+    [
+     "stimulus",
+     "n.",
+     "刺激；刺激物",
+     "The experiment used a brief sound as a stimulus."
+    ],
+    [
+     "response",
+     "n.",
+     "反应",
+     "The researchers measured the response to the sound."
+    ],
+    [
+     "behavior",
+     "n.",
+     "行为",
+     "The study compared behavior in two settings."
+    ],
+    [
+     "cognition",
+     "n.",
+     "认知",
+     "Cognition includes processes such as reasoning."
+    ],
+    [
+     "category",
+     "n.",
+     "类别",
+     "The objects were placed in the same category."
+    ],
+    [
+     "classify",
+     "v.",
+     "分类",
+     "Participants classify the objects by shape."
+    ],
+    [
+     "criterion",
+     "n.",
+     "标准",
+     "Size was the only criterion for grouping the objects."
+    ],
+    [
+     "bias",
+     "n.",
+     "偏差；偏向",
+     "The wording may introduce bias into the answers."
+    ],
+    [
+     "participant",
+     "n.",
+     "参与者",
+     "Each participant completed the same task."
+    ],
+    [
+     "sample",
+     "n.",
+     "样本",
+     "The sample included adults from several neighborhoods."
+    ],
+    [
+     "variable",
+     "n.",
+     "变量",
+     "The experiment changed one variable at a time."
+    ],
+    [
+     "interpret",
+     "v.",
+     "解释；理解",
+     "Researchers interpret the responses in context."
+    ]
+   ]
+  },
+  {
+   "id": "economics",
+   "type": "table",
+   "title": "词汇表：经济",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "scarcity",
+     "n.",
+     "稀缺",
+     "Scarcity requires choices about limited resources."
+    ],
+    [
+     "resource",
+     "n.",
+     "资源",
+     "Time is a limited resource."
+    ],
+    [
+     "allocate",
+     "v.",
+     "分配",
+     "The committee must allocate the available funds."
+    ],
+    [
+     "incentive",
+     "n.",
+     "激励因素",
+     "A lower fee provides an incentive to join early."
+    ],
+    [
+     "demand",
+     "n.",
+     "需求",
+     "Demand describes what buyers are willing and able to purchase at different prices."
+    ],
+    [
+     "supply",
+     "n.",
+     "供给",
+     "Supply describes what sellers offer at different prices."
+    ],
+    [
+     "revenue",
+     "n.",
+     "收入；营收",
+     "Ticket sales generated revenue for the theater."
+    ],
+    [
+     "cost",
+     "n.",
+     "成本",
+     "The cost of materials increased."
+    ],
+    [
+     "profit",
+     "n.",
+     "利润",
+     "Profit is revenue minus the relevant costs."
+    ],
+    [
+     "productivity",
+     "n.",
+     "生产率",
+     "The workshop increased output per worker, raising productivity."
+    ],
+    [
+     "specialization",
+     "n.",
+     "专业化；分工",
+     "Specialization lets workers focus on particular tasks."
+    ],
+    [
+     "exchange",
+     "n.",
+     "交换；交易",
+     "The exchange involved goods rather than money."
+    ],
+    [
+     "inventory",
+     "n.",
+     "库存",
+     "The shop keeps an inventory of replacement parts."
+    ],
+    [
+     "distribution",
+     "n.",
+     "分配；分销",
+     "Distribution connects producers with customers."
+    ]
+   ]
+  },
+  {
+   "id": "history-art",
+   "type": "table",
+   "title": "词汇表：历史与艺术",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "chronology",
+     "n.",
+     "年代顺序",
+     "The letters helped establish the chronology of the dispute."
+    ],
+    [
+     "artifact",
+     "n.",
+     "人工制品；文物",
+     "The artifact was made from carved bone."
+    ],
+    [
+     "archive",
+     "n.",
+     "档案馆；档案",
+     "The archive holds records from the town council."
+    ],
+    [
+     "document",
+     "n.",
+     "文件；文献",
+     "The document records a transfer of property."
+    ],
+    [
+     "institution",
+     "n.",
+     "机构；制度",
+     "The institution maintained public records."
+    ],
+    [
+     "tradition",
+     "n.",
+     "传统",
+     "The festival continued a local tradition."
+    ],
+    [
+     "context",
+     "n.",
+     "背景；语境",
+     "The meaning of a symbol depends on its context."
+    ],
+    [
+     "patron",
+     "n.",
+     "资助者；赞助人",
+     "A patron paid for the artist's work."
+    ],
+    [
+     "commission",
+     "v.",
+     "委托创作",
+     "The council commissioned a portrait."
+    ],
+    [
+     "composition",
+     "n.",
+     "构图；作品",
+     "The composition places the main figure near the center."
+    ],
+    [
+     "portrait",
+     "n.",
+     "肖像",
+     "The portrait shows the subject holding a book."
+    ],
+    [
+     "perspective",
+     "n.",
+     "视角；透视",
+     "The artist used perspective to suggest depth."
+    ],
+    [
+     "technique",
+     "n.",
+     "技法；技术",
+     "The technique creates fine lines on the surface."
+    ],
+    [
+     "symbol",
+     "n.",
+     "象征；符号",
+     "The branch functions as a symbol of peace."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A formal portrait can communicate more than a person's appearance. The patron who commissions it may also want the painting to suggest learning, authority, or a connection with a particular community. Imagine a portrait in which the subject holds a book beside a desk. The book may contribute to an image of learning, but it doesn't by itself prove what the person read. The artist also makes choices about composition: where the figure is placed and how surrounding objects direct attention. Those choices help organize the message. To interpret the portrait, a researcher can compare the visible details with information about its commission and intended audience. The painting is evidence of a constructed representation, not a transparent record of every aspect of the subject's life. Its symbols become more informative when their historical context is known."
+    },
+    {
+     "box": "Why does the speaker caution against drawing a conclusion from the book alone?\n1. The composition directs attention away from the book.\n2. A portrait always records the subject's reading accurately.\n3. The book's symbolic role does not prove actual reading habits.\n4. The patron's identity is determined by the book's position."
+    },
+    {
+     "p": "commission 指委托的背景，composition 指画面位置的安排，symbol 指物品承载的意义。第三项的依据是 it doesn't by itself prove what the person read：书是象征，不能证明人物实际读过什么。"
+    },
+    {
+     "p": "alone 和 by itself 限定了范围，讲者没有否定画作的史料价值。compare the visible details with information about its commission 说明解读画像还要结合委托背景和观众。"
+    },
+    {
+     "p": "人物拿着书，是看得见的细节。人物读过哪些书，是另一个结论。同样，书在画面中的位置也不能证明资助者是谁。"
+    }
+   ]
+  },
+  {
+   "id": "check-vocab",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "vocab"
+   ],
+   "groups": [
+    {
+     "text": "The same sound stimulus was presented to each participant. The response was the time taken to press a button.",
+     "items": [
+      {
+       "stem": "What does stimulus mean here?",
+       "options": [
+        "The person who presses the button",
+        "The sound that triggers the measured reaction",
+        "The time recorded after the sound",
+        "The button used to record the response"
+       ],
+       "answer": 1,
+       "why": "sound stimulus 是作为刺激的声音，response 是测量的反应。第二项说的就是引起反应的声音。",
+       "point": "vocab"
+      }
+     ]
+    },
+    {
+     "text": "Participants classified the cards by size rather than color. Size was the criterion used to create the groups.",
+     "items": [
+      {
+       "stem": "What does criterion refer to?",
+       "options": [
+        "A group created after the sorting",
+        "A color printed on every card",
+        "A person who performs the sorting",
+        "The standard used to decide group membership"
+       ],
+       "answer": 3,
+       "why": "Size was the criterion 指分组所用的标准，第四项用 standard 改写了 criterion。groups 是分组的结果。",
+       "point": "vocab"
+      }
+     ]
+    },
+    {
+     "text": "The workshop earned revenue from selling chairs. After subtracting wood costs and wages, some profit remained.",
+     "items": [
+      {
+       "stem": "What is revenue in this account?",
+       "options": [
+        "Money received from the chair sales",
+        "Money left after every relevant cost",
+        "The cost of wood used in the chairs",
+        "Wages paid to the workshop's employees"
+       ],
+       "answer": 0,
+       "why": "earned revenue from selling chairs 指卖椅子收到的钱，即第一项。扣除成本后剩下的是 profit。",
+       "point": "vocab"
+      }
+     ]
+    },
+    {
+     "text": "Workers specialized in different tasks: one cut the fabric, while another sewed the pieces. Together they completed the garments.",
+     "items": [
+      {
+       "stem": "What does specialized mean?",
+       "options": [
+        "Regularly switched between cutting and sewing tasks",
+        "Prepared fabric for others without completing a distinct task",
+        "Focused on particular parts of the work",
+        "Each carried out both cutting and sewing for separate garments"
+       ],
+       "answer": 2,
+       "why": "one cut … another sewed 说明每人只做一道工序，第三项概括了 specialized。",
+       "point": "vocab"
+      }
+     ]
+    },
+    {
+     "text": "The archive preserves letters and meeting records. A historian visits it to compare accounts of a local decision.",
+     "items": [
+      {
+       "stem": "What is the archive?",
+       "options": [
+        "The conclusion reached by the historian",
+        "The decision recorded at one meeting",
+        "The person who wrote a particular letter",
+        "The place or collection holding preserved records"
+       ],
+       "answer": 3,
+       "why": "preserves letters and meeting records 说明 archive 是保存记录的地方或收藏，即第四项。",
+       "point": "vocab"
+      }
+     ]
+    },
+    {
+     "text": "The artist used perspective to suggest depth on a flat panel. The distant buildings appeared smaller than the nearby figures.",
+     "items": [
+      {
+       "stem": "What does perspective refer to here?",
+       "options": [
+        "An arrangement that makes distant buildings appear closer",
+        "A method of representing depth on a surface",
+        "A method for recording the actual sizes of nearby figures",
+        "A way of showing different parts without suggesting distance"
+       ],
+       "answer": 1,
+       "why": "suggest depth on a flat panel 指在平面上表现深度，第二项是它的同义改写。",
+       "point": "vocab"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-listen",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "listen"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to an academic talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A producer may keep an inventory so goods are available before customers request them. Imagine a small maker of umbrellas. Rainy days can bring sudden demand, while production takes time. Stored umbrellas allow the maker to respond without waiting for new ones to be finished. However, inventory has costs. It occupies space, and money spent making unsold umbrellas isn't available for other uses. Keeping a larger stock therefore isn't automatically the best choice. The decision depends on expected demand, production time, and storage costs. A maker who expects irregular bursts of demand may choose a different stock level from one with steady orders. Inventory connects production with sales, but it requires balancing availability against the cost of keeping goods ready."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why might the umbrella maker keep finished goods in stock?",
+       "options": [
+        "To meet sudden demand before more goods can be produced",
+        "To reduce the number of umbrellas requested during rainy periods",
+        "To avoid committing production funds before customers place orders",
+        "To match each completed umbrella to an existing steady order"
+       ],
+       "answer": 0,
+       "why": "依据是 Stored umbrellas allow the maker to respond without waiting for new ones to be finished。有存货就不必等新伞做好，即第一项。",
+       "point": "listen"
+      },
+      {
+       "stem": "Which cost of inventory is mentioned?",
+       "options": [
+        "Responding from stock requires waiting for an additional production stage.",
+        "Stored umbrellas reduce the money received for each completed sale.",
+        "Stock uses space and ties up money before sale.",
+        "Irregular orders require producing the same umbrella a second time."
+       ],
+       "answer": 2,
+       "why": "依据是 It occupies space, and money spent making unsold umbrellas isn't available for other uses。第三项概括了这两项成本：占地方，占资金。",
+       "point": "listen"
+      },
+      {
+       "stem": "What might lead two makers to choose different stock levels?",
+       "options": [
+        "Using the same storage cost for every finished item",
+        "Having different patterns of customer demand",
+        "Facing equal production times",
+        "Receiving identical steady orders throughout production"
+       ],
+       "answer": 1,
+       "why": "依据是 irregular bursts of demand 和 steady orders 的对比。两家的需求模式不同，即第二项。",
+       "point": "listen"
+      },
+      {
+       "stem": "What is the speaker's main qualification?",
+       "options": [
+        "Steady demand calls for the same stock level as sudden bursts.",
+        "Reducing storage is preferable even when orders become less predictable.",
+        "Production delays determine the best stock level independently of storage costs.",
+        "A larger inventory is not necessarily the best option."
+       ],
+       "answer": 3,
+       "why": "依据是 Keeping a larger stock therefore isn't automatically the best choice。第四项用 not necessarily 改写了 isn't automatically。",
+       "point": "listen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "vocab",
+    "listen"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "The study used a sample of forty volunteers rather than testing every resident. Each volunteer completed the same task.",
+       "items": [
+        {
+         "stem": "What does sample refer to?",
+         "options": [
+          "The task completed by every volunteer",
+          "The full set of residents in the community",
+          "The selected group taking part in the study",
+          "The conclusion drawn after the task"
+         ],
+         "answer": 2,
+         "why": "a sample of forty volunteers rather than … every resident 说明样本是从居民中选出的一组人，即第三项。",
+         "point": "vocab"
+        }
+       ]
+      },
+      {
+       "text": "A reduced membership fee gave residents an incentive to join early. Late applicants could still join at the standard fee.",
+       "items": [
+        {
+         "stem": "What is an incentive in this situation?",
+         "options": [
+          "A benefit that encourages a particular choice",
+          "A rule preventing all later applications",
+          "The standard fee charged to late applicants",
+          "The number of residents who already joined"
+         ],
+         "answer": 0,
+         "why": "reduced membership fee … to join early 是鼓励提前加入的好处，第一项概括了激励的作用。",
+         "point": "vocab"
+        }
+       ]
+      },
+      {
+       "text": "The historian established a chronology by placing the dated letters in order. The interpretation of their meaning came afterward.",
+       "items": [
+        {
+         "stem": "What does chronology describe?",
+         "options": [
+          "The author's explanation of the letters' meanings",
+          "The place where the letters were preserved",
+          "The date written on each separate letter",
+          "The order of the letters and events through time"
+         ],
+         "answer": 3,
+         "why": "placing the dated letters in order 是按时间排序，即第四项。解释信件的意思是之后的另一步。",
+         "point": "vocab"
+        }
+       ]
+      },
+      {
+       "text": "A patron funded the mural and commissioned its creation. The artist designed and painted it for a public hall.",
+       "items": [
+        {
+         "stem": "Who is the patron?",
+         "options": [
+          "The person who painted every part of the mural",
+          "The supporter who provided funding for the work",
+          "The visitor who later entered the public hall",
+          "The subject represented in the painted scene"
+         ],
+         "answer": 1,
+         "why": "funded the mural 说明 patron 是出资的人，即第二项。作画的是 artist。",
+         "point": "vocab"
+        }
+       ]
+      },
+      {
+       "text": "The composition places a bright figure beside a dark doorway. This arrangement guides attention toward the figure.",
+       "items": [
+        {
+         "stem": "What does composition mean here?",
+         "options": [
+          "The arrangement of elements within the artwork",
+          "The substance from which the doorway was built",
+          "The bright color given to the main figure",
+          "The direction in which viewers' attention moves"
+         ],
+         "answer": 0,
+         "why": "places … beside … 和 This arrangement 说的是画面元素的安排，即第一项。引导视线是这种安排的效果。",
+         "point": "vocab"
+        }
+       ]
+      },
+      {
+       "text": "The researchers interpreted the answers by considering the questions' wording. They did not simply count the responses.",
+       "items": [
+        {
+         "stem": "What did the researchers do when they interpreted the answers?",
+         "options": [
+          "They changed the wording of the questions.",
+          "They measured only how many responses existed.",
+          "They explained the answers in relation to their context.",
+          "They rewrote the answers in clearer wording."
+         ],
+         "answer": 2,
+         "why": "by considering the questions' wording 说明是结合问题的措辞来解释答案，第三项改写了 interpreted。只数回答是另一种做法。",
+         "point": "vocab"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to an academic talk.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "People can classify the same objects in different ways depending on the task. Imagine a collection of cups. A researcher first asks participants to group them by material. Glass cups form one category, and metal cups another. Then the instruction changes: group the cups by whether they have handles. Some objects that were together are now separated, while cups made from different materials can enter the same group. The objects haven't changed. The criterion has changed. This simple exercise illustrates that a category can depend on a chosen purpose rather than reflect a single inevitable arrangement. It doesn't mean every classification is equally useful for every task. A material-based system may help study heat transfer, while a handle-based system may help study how people grasp the cups."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why do some cups change groups?",
+         "options": [
+          "The second task gives material differences greater importance.",
+          "The standard used for grouping them changes.",
+          "The second task combines shape and material into one requirement.",
+          "The researcher separates handled cups according to their material."
+         ],
+         "answer": 1,
+         "why": "依据是 The criterion has changed。杯子本身没变，变的是分类标准，即第二项。",
+         "point": "listen"
+        },
+        {
+         "stem": "What limitation does the speaker place on the conclusion?",
+         "options": [
+          "A classification by material is preferable for studying how cups are held.",
+          "Different tasks generally require the same object arrangement.",
+          "A useful category must correspond to a single permanent property.",
+          "A classification's usefulness depends on the task."
+         ],
+         "answer": 3,
+         "why": "依据是 doesn't mean every classification is equally useful for every task。第四项用 depends on the task 改写了这句话。",
+         "point": "listen"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to an academic talk.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "A public clock can do more than display the time. In a town where activities must be coordinated, a shared clock can provide a common reference for meetings, work, or market hours. Imagine two workshops whose private clocks disagree. A bell from the town clock gives both a signal they can use, even if neither private clock is adjusted immediately. However, a common signal isn't evidence that every resident followed the same schedule. Work could still vary with occupation and season. A historian studying the clock would therefore examine rules, notices, and accounts of actual use. The object shows that a shared time reference was available. Records are needed to investigate who relied on it and for which activities. The presence of a technology and the uniform adoption of that technology are separate historical claims."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What does the example of two workshops illustrate?",
+         "options": [
+          "A shared time signal can help coordinate activities despite local disagreement.",
+          "A public signal brings private clocks into agreement as soon as it sounds.",
+          "A shared time reference makes different occupations follow similar routines.",
+          "Public bells mainly replace private clocks when workshops cannot adjust them."
+         ],
+         "answer": 0,
+         "why": "依据是 gives both a signal they can use, even if neither private clock is adjusted immediately。两只私人钟不一致，公共钟仍给出共同的参照，即第一项。",
+         "point": "listen"
+        },
+        {
+         "stem": "Why would a historian examine records of actual use?",
+         "options": [
+          "To infer a uniform schedule directly from the rules about the clock",
+          "To determine which private clock gave the correct time before the bell",
+          "To distinguish access to a shared clock from how people adopted it",
+          "To attribute seasonal differences in work to disagreement among clocks"
+         ],
+         "answer": 2,
+         "why": "依据是 Records are needed to investigate who relied on it and for which activities。有钟可用和人们实际采用是两回事，第三项说的是区分这两者。",
+         "point": "listen"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

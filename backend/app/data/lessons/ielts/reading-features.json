@@ -1,0 +1,217 @@
+{
+  "id": "reading-features",
+  "title": "特征配对　Matching features · 练习",
+  "goal": "把文中的特征或结论归给正确的对象。",
+  "skill": "阅读",
+  "exam": "雅思 IELTS Academic",
+  "points": [
+    {
+      "id": "attribute",
+      "label": "准确判断特征归属"
+    },
+    {
+      "id": "antecedent",
+      "label": "还原代词对应的对象"
+    }
+  ],
+  "sources": [
+    {
+      "id": "i2",
+      "title": "IELTS Academic: Reading test format",
+      "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+      "used": "阅读材料与题型"
+    },
+    {
+      "id": "syllabus",
+      "title": "雅思 IELTS Academic：课表",
+      "url": "docs/syllabi/ielts.md",
+      "used": "练习尺寸与知识点"
+    }
+  ],
+  "cards": [
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "小测",
+      "minutes": 12,
+      "pass": 0.75,
+      "points": [
+        "attribute",
+        "antecedent"
+      ],
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "label": "Match each statement with the correct type of bridge. You may use any option more than once.",
+              "look": "passage",
+              "text": "How Bridges Carry Their Loads\n\nEvery bridge has to solve the same basic problem: it must carry its own weight and the weight of whatever crosses it, and pass those forces safely to the ground. Engineers have developed several distinct ways of doing this. The choice between them depends on the distance to be crossed, the ground at each side, the materials available and the cost. Five common types illustrate the range of solutions.\n\nThe simplest is the beam bridge. In its most basic form, it is a horizontal beam resting on a support at each end, like a plank laid across a stream. When a load crosses, the beam bends slightly: its upper part is squeezed while its lower part is stretched. Because the beam has to resist this bending along its whole length, its depth must increase as the span grows, and the bridge quickly becomes heavy. For this reason, beam bridges are generally used for relatively short crossings, although a long distance can be covered by a series of beams resting on many intermediate supports, as on many road viaducts.\n\nAn arch bridge works in a different way. Its curved shape turns the downward force of a load into pressure that travels around the curve and out into the ground at each end. The material of the arch is therefore mostly squeezed rather than bent, which is why stone, a material that is strong under pressure but weak when stretched, was so widely used for arches. The ground at the ends must be firm enough to resist the outward push; otherwise the arch may spread and collapse. Many arch bridges built centuries ago remain in use, a sign of how well this form suits masonry.\n\nFor the longest spans, engineers have usually chosen the suspension bridge. Its deck hangs from vertical cables attached to two main cables, and these main cables pass over the tops of tall towers before being fixed into massive anchorages in the ground at each end. The main cables are in tension, pulled tight by the weight they carry. Because steel cable is very strong for its weight, this arrangement allows a deck to stretch well over a kilometre between towers. Its weakness is a tendency to move in strong winds, which designers counter by making the deck stiff or giving it a shape that air flows past smoothly.\n\nA cantilever is a structure fixed at one end and free at the other, like a diving board. A cantilever bridge uses pairs of such arms projecting from piers towards each other, sometimes with a short section suspended between their tips. One practical advantage of this design lies in the way it can be built. Because each arm is supported by its own pier, it can be extended outwards piece by piece without any temporary structure underneath. This made the design useful over deep water or busy shipping channels, where scaffolding from below would be impractical.\n\nCable-stayed bridges look similar to suspension bridges from a distance, since both use towers and cables. The difference lies in how the cables are arranged. In a cable-stayed bridge, the cables run in straight lines directly from each tower to points along the deck, and the pull of the cables on one side of a tower balances the pull on the other. Unlike a suspension bridge, therefore, it needs no heavy anchorages at the ends of the bridge. The former, by contrast, depends on its anchorages to keep the main cables tight. The cable-stayed design has become common for medium and long spans in recent decades, partly because it can be built relatively quickly and uses less cable.\n\nNone of these types is better than the others in every situation. A short rural crossing may need nothing more than a beam, while a wide estuary may require a suspension or cable-stayed design. In practice, engineers often combine features, for example by using a series of beams for the approaches to a larger central span. Understanding how each type carries its load helps to explain why bridges in different places look so different.",
+              "items": [
+                {
+                  "stem": "Its depth has to increase as the distance it crosses becomes greater.",
+                  "options": [
+                    "suspension bridge",
+                    "beam bridge",
+                    "cable-stayed bridge",
+                    "arch bridge",
+                    "cantilever bridge"
+                  ],
+                  "answer": 1,
+                  "why": "依据是 its depth must increase as the span grows，说的是梁桥。",
+                  "point": "attribute"
+                },
+                {
+                  "stem": "Its material is mainly squeezed rather than bent.",
+                  "options": [
+                    "suspension bridge",
+                    "beam bridge",
+                    "cable-stayed bridge",
+                    "arch bridge",
+                    "cantilever bridge"
+                  ],
+                  "answer": 3,
+                  "why": "依据是 The material of the arch is therefore mostly squeezed rather than bent。梁桥一段里梁会弯曲，不符合。",
+                  "point": "attribute"
+                },
+                {
+                  "stem": "It relies on anchorages in the ground to keep its main cables tight.",
+                  "options": [
+                    "suspension bridge",
+                    "beam bridge",
+                    "cable-stayed bridge",
+                    "arch bridge",
+                    "cantilever bridge"
+                  ],
+                  "answer": 0,
+                  "why": "依据是 The former, by contrast, depends on its anchorages to keep the main cables tight。The former 指前一句的 suspension bridge，不是斜拉桥。",
+                  "point": "antecedent"
+                },
+                {
+                  "stem": "It can be extended from its supports without anything built beneath it.",
+                  "options": [
+                    "suspension bridge",
+                    "beam bridge",
+                    "cable-stayed bridge",
+                    "arch bridge",
+                    "cantilever bridge"
+                  ],
+                  "answer": 4,
+                  "why": "依据是 it can be extended outwards piece by piece without any temporary structure underneath，it 指悬臂桥的每一臂。",
+                  "point": "antecedent"
+                },
+                {
+                  "stem": "It does not need heavy anchorages at the ends of the bridge.",
+                  "options": [
+                    "suspension bridge",
+                    "beam bridge",
+                    "cable-stayed bridge",
+                    "arch bridge",
+                    "cantilever bridge"
+                  ],
+                  "answer": 2,
+                  "why": "依据是 Unlike a suspension bridge, therefore, it needs no heavy anchorages，这里的 it 指斜拉桥。",
+                  "point": "antecedent"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "label": "Match each statement with the correct writing material. You may use any option more than once.",
+              "look": "passage",
+              "text": "Surfaces for Writing\n\nWriting has always depended on a surface to receive it, and the materials chosen have shaped how texts were made, stored and read. A surface that is cheap but fragile encourages different habits from one that is costly but durable, and the choice also affects which texts are likely to survive for later generations to read. Five materials, each important in a different place and period, show how varied the solutions have been.\n\nIn ancient Mesopotamia, scribes wrote by pressing the cut end of a reed into soft clay, producing the wedge-shaped marks of the script now called cuneiform. Clay was abundant along the rivers of the region and cost almost nothing. Once written, a tablet could be left to dry in the sun, and documents that needed to last were sometimes baked to make them harder. Most tablets were small enough to be held in one hand, and collections of them were kept in baskets, jars or on shelves. Clay tablets were heavy and bulky, but they resisted fire and damp so well that very large numbers have survived to the present day.\n\nIn Egypt, the main writing surface came from papyrus, a tall reed that grew along the Nile. Its stems were cut into thin strips, which were laid side by side in one layer, with a second layer placed on top at right angles. The layers were pressed and dried, and the natural juices of the plant held them together as a single sheet. Sheets were then joined end to end to form long rolls. Writers used a pen cut from a reed and an ink made from soot, and a reader unrolled the text section by section. Papyrus was light and flexible, but it became brittle with age and decayed quickly in damp conditions, so most surviving examples come from the dry climate of Egypt itself.\n\nFor writing that did not need to last, Greeks and Romans often used wax tablets. These were wooden boards with a shallow hollow filled with wax. The writer marked the wax with a stylus, a pointed instrument whose other end was flat. This was used to smooth the surface again, so that the same tablet could be written on many times. Tablets were often joined in pairs or larger sets with the wax surfaces facing each other, which protected the writing when they were closed. Wax tablets were therefore ideal for school exercises, letters to be copied later and temporary accounts, though their contents were rarely preserved.\n\nParchment is made from animal skin that has been cleaned, stretched on a frame and scraped thin while it dries. Unlike leather, it is not tanned. The skins most often used came from calves, sheep and goats. It is strong and smooth, and both of its sides can be written on. Parchment had a particular advantage over papyrus when it came to books. The latter tended to crack if it was folded repeatedly, whereas the former could be folded and sewn into pages, producing the codex, the form of the book still familiar today. Its chief disadvantage was cost, since a single large volume might require the skins of many animals.\n\nPaper is made by breaking down plant fibres in water to form a pulp. A thin layer of this pulp is lifted on a fine screen, drained and left to dry into a sheet. The technique was developed in China, and knowledge of it spread westwards over many centuries, first through Central Asia and the Islamic world and later into Europe. Early European paper mills used water power to beat the rags into pulp. Because it could be made from cheap materials such as rags, paper cost far less than parchment, and when printing with movable type spread across Europe, it became the usual surface for books.\n\nEach of these materials suited the needs of its time and place. Their differences explain, in part, why some ancient texts have survived in great numbers while others are known only from later copies made on a more durable surface.",
+              "items": [
+                {
+                  "stem": "Its surface could be smoothed so that it was used again.",
+                  "options": [
+                    "parchment",
+                    "clay tablets",
+                    "paper",
+                    "wax tablets",
+                    "papyrus"
+                  ],
+                  "answer": 3,
+                  "why": "依据是 This was used to smooth the surface again, so that the same tablet could be written on many times；This 指尖笔平的一端，说的是蜡板。",
+                  "point": "antecedent"
+                },
+                {
+                  "stem": "It was made by placing strips in two layers at right angles.",
+                  "options": [
+                    "parchment",
+                    "clay tablets",
+                    "paper",
+                    "wax tablets",
+                    "papyrus"
+                  ],
+                  "answer": 4,
+                  "why": "依据是纸莎草一段 a second layer placed on top at right angles。",
+                  "point": "attribute"
+                },
+                {
+                  "stem": "It could be folded and sewn into the pages of a book without cracking.",
+                  "options": [
+                    "parchment",
+                    "clay tablets",
+                    "paper",
+                    "wax tablets",
+                    "papyrus"
+                  ],
+                  "answer": 0,
+                  "why": "依据是 The latter tended to crack … whereas the former could be folded and sewn into pages；the latter 指纸莎草，the former 指羊皮纸。",
+                  "point": "antecedent"
+                },
+                {
+                  "stem": "It was sometimes heated so that important records would last.",
+                  "options": [
+                    "parchment",
+                    "clay tablets",
+                    "paper",
+                    "wax tablets",
+                    "papyrus"
+                  ],
+                  "answer": 1,
+                  "why": "依据是 documents that needed to last were sometimes baked to make them harder，说的是泥板。",
+                  "point": "attribute"
+                },
+                {
+                  "stem": "It was first produced far to the east of Europe and later spread westwards.",
+                  "options": [
+                    "parchment",
+                    "clay tablets",
+                    "paper",
+                    "wax tablets",
+                    "papyrus"
+                  ],
+                  "answer": 2,
+                  "why": "依据是 The technique was developed in China, and knowledge of it spread westwards，说的是纸。",
+                  "point": "attribute"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "more": {
+        "kind": "features",
+        "topics": [
+          "桥梁类型",
+          "书写材料",
+          "屋顶材料",
+          "古代计时工具",
+          "船的类型",
+          "照明方式",
+          "种子传播方式",
+          "道路铺面",
+          "保存食物的方法",
+          "乐器的发声方式",
+          "纺织纤维",
+          "建筑结构"
+        ]
+      }
+    }
+  ]
+}

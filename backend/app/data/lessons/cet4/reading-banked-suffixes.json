@@ -1,0 +1,443 @@
+{
+ "id": "reading-banked-suffixes",
+ "title": "词缀与词性辨认",
+ "goal": "结合后缀和句法位置辨认词性。",
+ "skill": "阅读",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "suffix",
+   "label": "根据常见后缀辨认候选词性"
+  },
+  {
+   "id": "context",
+   "label": "用句法位置核对同根词的选择"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "词汇理解教学依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "intro",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "同根词可以有不同的词性。后缀是判断词性的线索，最后还要看空位在句中的位置。They develop a plan 中，develop 是动词。the development of a plan 中，development 是名词。"
+    }
+   ]
+  },
+  {
+   "id": "nouns",
+   "type": "table",
+   "title": "名词后缀",
+   "cols": [
+    "词组",
+    "词性与意义",
+    "例"
+   ],
+   "rows": [
+    [
+     "develop / development",
+     "动词：发展；名词：发展",
+     "The development of the garden took time."
+    ],
+    [
+     "improve / improvement",
+     "动词：改善；名词：改善",
+     "The improvement made travel easier."
+    ],
+    [
+     "arrange / arrangement",
+     "动词：安排；名词：安排",
+     "The arrangement saved space."
+    ],
+    [
+     "educate / education",
+     "动词：教育；名词：教育",
+     "Education helps people learn."
+    ],
+    [
+     "organize / organization",
+     "动词：组织；名词：组织",
+     "The organization offers classes."
+    ],
+    [
+     "decide / decision",
+     "动词：决定；名词：决定",
+     "The decision changed the plan."
+    ],
+    [
+     "discuss / discussion",
+     "动词：讨论；名词：讨论",
+     "The discussion lasted an hour."
+    ],
+    [
+     "create / creation",
+     "动词：创造；名词：创造",
+     "The creation of the garden took work."
+    ]
+   ]
+  },
+  {
+   "id": "verbs",
+   "type": "table",
+   "title": "动词后缀",
+   "cols": [
+    "词组",
+    "词性与意义",
+    "例"
+   ],
+   "rows": [
+    [
+     "modern / modernize",
+     "形容词：现代的；动词：使现代化",
+     "The library plans to modernize its catalog."
+    ],
+    [
+     "simple / simplify",
+     "形容词：简单的；动词：简化",
+     "The editor will simplify the instructions."
+    ],
+    [
+     "class / classify",
+     "名词：类别；动词：分类",
+     "Scientists classify the samples."
+    ],
+    [
+     "active / activate",
+     "形容词：活跃的；动词：启动",
+     "The switch will activate the light."
+    ]
+   ]
+  },
+  {
+   "id": "modifiers",
+   "type": "table",
+   "title": "形容词和副词后缀",
+   "cols": [
+    "词组",
+    "词性与意义",
+    "例"
+   ],
+   "rows": [
+    [
+     "help / helpful",
+     "名词：帮助；形容词：有帮助的",
+     "The guide gave helpful advice."
+    ],
+    [
+     "use / useful / useless",
+     "名词：用途；形容词：有用的 / 无用的",
+     "The map is useful."
+    ],
+    [
+     "care / careful / careless",
+     "名词：小心；形容词：仔细的 / 粗心的",
+     "A careful driver checks the road."
+    ],
+    [
+     "slow / slowly",
+     "形容词：慢的；副词：缓慢地",
+     "The river flows slowly."
+    ],
+    [
+     "clear / clearly",
+     "形容词：清楚的；副词：清楚地",
+     "The teacher spoke clearly."
+    ]
+   ],
+   "note": "少数以 -ly 结尾的词是形容词，如 a friendly neighbor 中的 friendly。"
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "suffix",
+    "context"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The group discussed the _____ of the garden.",
+       "options": [
+        "development",
+        "develop",
+        "developed",
+        "developing"
+       ],
+       "answer": 0,
+       "why": "the 后需要名词；development 表示发展。",
+       "point": "suffix"
+      },
+      {
+       "stem": "The town plans to _____ the old library.",
+       "options": [
+        "modern",
+        "modernize",
+        "modernity",
+        "modernization"
+       ],
+       "answer": 1,
+       "why": "plans to 后用动词原形；modernize 表示使现代化。",
+       "point": "suffix"
+      },
+      {
+       "stem": "The guide gave a _____ explanation.",
+       "options": [
+        "help",
+        "helped",
+        "helpful",
+        "helpfully"
+       ],
+       "answer": 2,
+       "why": "explanation 前用形容词 helpful。",
+       "point": "context"
+      },
+      {
+       "stem": "The teacher spoke _____ to the class.",
+       "options": [
+        "clear",
+        "cleared",
+        "clarity",
+        "clearly"
+       ],
+       "answer": 3,
+       "why": "副词 clearly 修饰 spoke。",
+       "point": "context"
+      },
+      {
+       "stem": "The _____ provides free classes.",
+       "options": [
+        "organization",
+        "organize",
+        "organized",
+        "organizing"
+       ],
+       "answer": 0,
+       "why": "The 后的空位是主语；organization 是名词。",
+       "point": "suffix"
+      },
+      {
+       "stem": "The switch will _____ the light.",
+       "options": [
+        "activity",
+        "activate",
+        "active",
+        "activation"
+       ],
+       "answer": 1,
+       "why": "will 后接动词原形 activate。",
+       "point": "context"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "suffix",
+    "context"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The _____ about the new schedule lasted an hour.",
+       "options": [
+        "discuss",
+        "discussion",
+        "discussed",
+        "discussing"
+       ],
+       "answer": 1,
+       "why": "The 后的空位作主语，discussion 是名词。",
+       "point": "suffix"
+      },
+      {
+       "stem": "The driver checked the road and moved _____.",
+       "options": [
+        "slowing",
+        "slowness",
+        "slowly",
+        "slowed"
+       ],
+       "answer": 2,
+       "why": "空位修饰 moved，副词 slowly 符合结构。",
+       "point": "context"
+      },
+      {
+       "stem": "The team made a _____ about the meeting place.",
+       "options": [
+        "decide",
+        "decided",
+        "deciding",
+        "decision"
+       ],
+       "answer": 3,
+       "why": "a 后需要名词 decision。",
+       "point": "suffix"
+      },
+      {
+       "stem": "The map is _____ for finding the entrance.",
+       "options": [
+        "useful",
+        "usefully",
+        "use",
+        "using"
+       ],
+       "answer": 0,
+       "why": "系动词 is 后用形容词 useful。",
+       "point": "context"
+      },
+      {
+       "stem": "The editor will _____ the instructions.",
+       "options": [
+        "simple",
+        "simplify",
+        "simplicity",
+        "simplification"
+       ],
+       "answer": 1,
+       "why": "will 后用动词原形 simplify。",
+       "point": "suffix"
+      },
+      {
+       "stem": "A _____ driver checks the road.",
+       "options": [
+        "care",
+        "carefully",
+        "careful",
+        "caringly"
+       ],
+       "answer": 2,
+       "why": "driver 前用形容词 careful。",
+       "point": "context"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "suffix",
+    "context"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "fill": "The class prepared a garden project. Its devel{opment} took several weeks. The teacher asked for a discu{ssion} of each plan, followed by a deci{sion} on where to plant. The final arran{gement} left room for paths. Students worked to imp{rove} the soil and then examined the impro{vement}. A use{ful} map showed where the seeds belonged. The group worked slo{wly} near the young plants. One student spoke cle{arly} when explaining the plan. A hel{pful} guide described the tools they needed.",
+       "tags": [
+        "suffix",
+        "suffix",
+        "suffix",
+        "suffix",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context"
+       ]
+      },
+      {
+       "items": [
+        {
+         "stem": "The _____ of the garden required several tools.",
+         "options": [
+          "creation",
+          "create",
+          "creative",
+          "created"
+         ],
+         "answer": 0,
+         "why": "The 后需要名词，creation 表示创造。",
+         "point": "suffix"
+        },
+        {
+         "stem": "The school will _____ the instructions for new students.",
+         "options": [
+          "simple",
+          "simplify",
+          "simplicity",
+          "simplification"
+         ],
+         "answer": 1,
+         "why": "will 后接动词原形，simplify 表示简化。",
+         "point": "suffix"
+        },
+        {
+         "stem": "The report described a recent _____ in the service.",
+         "options": [
+          "improve",
+          "improving",
+          "improvement",
+          "improved"
+         ],
+         "answer": 2,
+         "why": "a recent 后需要名词；improvement 符合结构。",
+         "point": "context"
+        },
+        {
+         "stem": "The workers placed the boxes _____ on the shelf.",
+         "options": [
+          "care",
+          "careful",
+          "careless",
+          "carefully"
+         ],
+         "answer": 3,
+         "why": "副词 carefully 修饰 placed。",
+         "point": "context"
+        },
+        {
+         "stem": "The _____ provides classes for adults.",
+         "options": [
+          "organization",
+          "organize",
+          "organized",
+          "organizing"
+         ],
+         "answer": 0,
+         "why": "The 后的空位作主语，organization 是名词。",
+         "point": "suffix"
+        },
+        {
+         "stem": "The switch can _____ the light.",
+         "options": [
+          "active",
+          "activate",
+          "activity",
+          "activation"
+         ],
+         "answer": 1,
+         "why": "can 后接动词原形 activate。",
+         "point": "context"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,412 @@
+{
+ "id": "writing-continuation-plot",
+ "title": "情节推进",
+ "goal": "依据人物目标与已有事件安排有因果联系的后续行动和反应。",
+ "skill": "写作",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "cause",
+   "label": "选择由前一事件自然引出的后续行动"
+  },
+  {
+   "id": "response",
+   "label": "使人物反应符合目标与既有性格"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语（新课标卷）：课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "情节推进与课程题目规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "情节按目标、行动、结果、新反应的顺序推进。行动有了结果，人物随后的选择要符合他的目标和性格。"
+    },
+    {
+     "box": "Mara wanted to repair the shelf. She tightened a screw, but the shelf still tilted. She checked the other screws."
+    },
+    {
+     "p": "修架子是目标，拧紧螺丝是尝试。架子仍然倾斜，Mara 便检查其他螺丝。这个新动作由上一次尝试的结果引出。"
+    }
+   ]
+  },
+  {
+   "id": "methods",
+   "type": "table",
+   "title": "三种推进方式",
+   "cols": [
+    "方式",
+    "起因与行动",
+    "结果与反应"
+   ],
+   "rows": [
+    [
+     "主动尝试",
+     "Ella needed a label and cut one from spare paper.",
+     "The label was too small; she cut a larger one."
+    ],
+    [
+     "主动尝试",
+     "Hugo wanted a stable table and adjusted one leg.",
+     "It still shook; he checked the other legs."
+    ],
+    [
+     "他人帮助",
+     "Pia could not lift the box and asked her brother.",
+     "He held one side; together they moved it."
+    ],
+    [
+     "他人帮助",
+     "Leo lacked a ruler and asked his classmate.",
+     "She lent hers; he measured the board."
+    ],
+    [
+     "误解澄清",
+     "Rosa thought the meeting was at six and asked the host.",
+     "He said seven; she changed her arrival plan."
+    ],
+    [
+     "误解澄清",
+     "Dan thought the seeds were for cooking and asked Mei.",
+     "She explained they were for planting; he returned them."
+    ]
+   ]
+  },
+  {
+   "id": "responses",
+   "type": "table",
+   "title": "结果与人物反应",
+   "cols": [
+    "已有情节",
+    "后续反应",
+    "依据"
+   ],
+   "rows": [
+    [
+     "A careful worker noticed a loose wire.",
+     "She stopped and examined the wire.",
+     "细致的人先检查已发现的问题。"
+    ],
+    [
+     "A patient child failed to fold the paper once.",
+     "He unfolded it and tried again.",
+     "再次尝试符合耐心的表现。"
+    ],
+    [
+     "A visitor asked a librarian for a book.",
+     "The librarian checked the shelf.",
+     "查找书籍回应来访者的请求。"
+    ],
+    [
+     "A baker learned that an order was for Friday.",
+     "She changed the date on her note.",
+     "更正记录回应获得的新信息。"
+    ]
+   ]
+  },
+  {
+   "id": "continuity",
+   "type": "table",
+   "title": "情节的因果联系",
+   "cols": [
+    "情况",
+    "片段",
+    "判断"
+   ],
+   "rows": [
+    [
+     "有铺垫的帮助",
+     "Ava asked her uncle for a ladder. He brought one.",
+     "Ava 先提出请求，叔叔才带来梯子。"
+    ],
+    [
+     "偶然获救",
+     "Ava needed a ladder. A stranger arrived with one by chance.",
+     "陌生人碰巧出现，前文没有铺垫。"
+    ],
+    [
+     "逐步改变",
+     "Tom feared speaking. After practicing with a friend, he spoke briefly.",
+     "先和朋友练习，然后才简短发言。"
+    ],
+    [
+     "突然转变",
+     "Tom feared speaking. He immediately delivered a long speech.",
+     "没有练习，也没有别的原因，转变过于突然。"
+    ]
+   ]
+  },
+  {
+   "id": "example",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Mira wanted to deliver a note, but rain had made the path muddy. Her friend offered her a pair of boots.\nWhich action follows naturally?\n1. Mira puts on the boots and walks along the muddy path.\n2. Mira leaves the note at home and cleans her friend's boots.\n3. Mira gives away the boots and refuses to leave the house.\n4. Mira finds the note already delivered before the rain."
+    },
+    {
+     "p": "Mira 要送便条，困难是路上泥泞。朋友送来的靴子正好解决这一困难。第一项穿上靴子继续送便条，是自然的后续行动。"
+    }
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "cause",
+    "response"
+   ],
+   "groups": [
+    {
+     "text": "Sana wanted to hang a picture. She tried a short nail, but it slipped out of the wall. A longer nail was in her toolbox.",
+     "items": [
+      {
+       "stem": "What action follows the failed attempt?",
+       "options": [
+        "She tries the longer nail from the toolbox.",
+        "She hangs the picture on the short nail.",
+        "She returns the short nail and leaves the picture unhung.",
+        "She decides the wall needs no picture."
+       ],
+       "answer": 0,
+       "why": "短钉从墙上滑了出来，工具箱里还有一枚长钉。第一项改用长钉再试，由失败的结果自然引出。",
+       "point": "cause"
+      },
+      {
+       "stem": "Which response continues Sana's goal?",
+       "options": [
+        "She ignores the picture and closes the toolbox.",
+        "She checks whether the picture hangs securely.",
+        "She takes down every other picture on the wall.",
+        "She stores the nail and abandons the picture."
+       ],
+       "answer": 1,
+       "why": "Sana 的目标是把画挂好。第二项检查画是否挂牢，延续了这一目标。",
+       "point": "response"
+      }
+     ]
+    },
+    {
+     "text": "A cautious camper saw smoke near the stove. He turned off the stove and asked his companion to check the cooking pan.",
+     "items": [
+      {
+       "stem": "Which response fits the camper's caution?",
+       "options": [
+        "He ignores the smoke and leaves the stove burning.",
+        "He replaces the pan without looking at the stove.",
+        "He waits for the pan to be checked before restarting.",
+        "He asks his companion to light another stove at once."
+       ],
+       "answer": 2,
+       "why": "露营者做事谨慎，先关火，又请同伴检查锅。第三项等检查完再开火，符合他一贯的谨慎。",
+       "point": "response"
+      },
+      {
+       "stem": "What can the companion do in response to the request?",
+       "options": [
+        "Check the stove instead of the cooking pan.",
+        "Turn the stove back on to find where the smoke comes from.",
+        "Place the unchecked pan back on the flame.",
+        "Look at the pan and report what caused the smoke."
+       ],
+       "answer": 3,
+       "why": "露营者请同伴 check the cooking pan。第四项查看锅并说明冒烟的原因，回应了这一请求。第一项检查的是炉子，不是锅。",
+       "point": "cause"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "cause",
+    "response"
+   ],
+   "groups": [
+    {
+     "text": "A careful student named June wanted to submit a drawing. She thought the deadline was Monday. Before packing the drawing, she asked her teacher, who explained that submissions closed on Friday.",
+     "items": [
+      {
+       "stem": "Which action follows the teacher's clarification?",
+       "options": [
+        "June submits the drawing before Friday.",
+        "June tells the teacher she is wrong.",
+        "June assumes Monday is still the deadline.",
+        "June packs the drawing to submit it on Monday."
+       ],
+       "answer": 0,
+       "why": "老师说明 submissions closed on Friday。第一项在周五前交画，由这一澄清直接引出。",
+       "point": "cause"
+      },
+      {
+       "stem": "Which response fits June's careful manner?",
+       "options": [
+        "She forgets the teacher's correction at once.",
+        "She writes the corrected date on her calendar.",
+        "She refuses to listen to the teacher's reply.",
+        "She assumes every submission closes on Monday."
+       ],
+       "answer": 1,
+       "why": "June 做事细致，打包前先问清截止日期。第二项把改正后的日期记在日历上，与这种性格一致。",
+       "point": "response"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "cause",
+    "response"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "A patient boy named Felix wanted to build a paper bridge. His first bridge bent under a coin. His sister suggested folding another layer beneath it and offered him a sheet of paper. Felix thanked her and considered the suggestion.",
+       "items": [
+        {
+         "stem": "Which action follows the sister's suggestion?",
+         "options": [
+          "Felix rebuilds the first bridge exactly as before.",
+          "Felix asks his sister to remove the paper bridge.",
+          "Felix folds another layer of paper under the bridge.",
+          "Felix refuses to use the paper she offered."
+         ],
+         "answer": 2,
+         "why": "姐姐建议在桥下再折一层，还给了他一张纸。第三项照建议加了一层，由这一建议自然引出。",
+         "point": "cause"
+        },
+        {
+         "stem": "Which response fits Felix's patience?",
+         "options": [
+          "He blames his sister for the bent bridge.",
+          "He throws away the paper before testing the bridge.",
+          "He says the coin can never rest on any paper bridge.",
+          "He tests the revised bridge with the coin again."
+         ],
+         "answer": 3,
+         "why": "Felix 有耐心，目标是建成纸桥。第四项改完后再用硬币试一次，符合他的耐心和目标。",
+         "point": "response"
+        },
+        {
+         "stem": "Complete the sentence about Felix's action.",
+         "lead": "Felix",
+         "chunks": [
+          "folded",
+          "another layer",
+          "under",
+          "the bridge"
+         ],
+         "extra": [
+          "folding"
+         ],
+         "tail": ".",
+         "why": "folded another layer under the bridge 是对姐姐建议的具体回应。",
+         "point": "cause"
+        },
+        {
+         "stem": "Complete the sentence about Felix's next test.",
+         "lead": "He",
+         "chunks": [
+          "placed",
+          "the coin",
+          "on",
+          "the bridge"
+         ],
+         "extra": [
+          "placing"
+         ],
+         "tail": ".",
+         "why": "再次把硬币放在桥上可检验修改结果，延续 Felix 的目标。",
+         "point": "response"
+        }
+       ]
+      },
+      {
+       "text": "Lina wanted to meet her brother at the station. She thought he would arrive on the morning train. He called to explain that his train was delayed until afternoon. Lina listened carefully and checked the updated schedule.",
+       "items": [
+        {
+         "stem": "Which action follows the clarification?",
+         "options": [
+          "Lina plans to meet the afternoon train instead.",
+          "Lina waits for the morning train after the call.",
+          "Lina leaves for the station early in the morning.",
+          "Lina asks her brother to take the earlier train."
+         ],
+         "answer": 0,
+         "why": "哥哥打电话说列车推迟到下午。第一项改为去接下午的车，回应了这一新信息。",
+         "point": "cause"
+        },
+        {
+         "stem": "Which response fits Lina's careful behavior?",
+         "options": [
+          "She ignores the updated schedule after the call.",
+          "She notes the revised arrival time before leaving.",
+          "She assumes every train arrives in the morning.",
+          "She asks her brother to forget the delay entirely."
+         ],
+         "answer": 1,
+         "why": "Lina 仔细听电话，又核对了新时刻表。第二项出门前记下新的到站时间，延续了这种细心。",
+         "point": "response"
+        },
+        {
+         "stem": "Complete the sentence about Lina's revised plan.",
+         "lead": "Lina",
+         "chunks": [
+          "went",
+          "to the station",
+          "in",
+          "the afternoon"
+         ],
+         "extra": [
+          "going"
+         ],
+         "tail": ".",
+         "why": "哥哥的列车延至下午，下午前往车站回应这一变化。",
+         "point": "cause"
+        },
+        {
+         "stem": "Complete the sentence about Lina's careful response.",
+         "lead": "She",
+         "chunks": [
+          "wrote",
+          "the new time",
+          "in",
+          "her notebook"
+         ],
+         "extra": [
+          "writing"
+         ],
+         "tail": ".",
+         "why": "记下新时间与 Lina 仔细核对变更信息的行为一致。",
+         "point": "response"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

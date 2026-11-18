@@ -1,0 +1,402 @@
+{
+ "id": "writing-continuation-bridge",
+ "title": "两段之间的衔接",
+ "goal": "根据第二段首句确定第一段需达到的状态并选择衔接句。",
+ "skill": "写作",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "constraint",
+   "label": "从第二段首句确定第一段需达到的状态"
+  },
+  {
+   "id": "bridge",
+   "label": "选择能够自然连接两段的结句"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语（新课标卷）：课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "两段衔接与课程题目规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "第二段首句规定了第二段开始时的时间、地点和人物状态。第一段的结尾要把故事带到这个状态。"
+    },
+    {
+     "box": "Paragraph 1 ends: They carried the folded tent to the campsite.\nParagraph 2 begins: At the campsite, they unfolded the tent."
+    },
+    {
+     "p": "第一段结尾写人物带着帐篷到了营地，第二段从展开帐篷写起。两个动作前后相接。"
+    }
+   ]
+  },
+  {
+   "id": "time",
+   "type": "table",
+   "title": "时间与地点",
+   "cols": [
+    "第二段首句",
+    "候选结句",
+    "衔接依据"
+   ],
+   "rows": [
+    [
+     "The next morning, Ella opened the parcel.",
+     "That evening, Ella placed the unopened parcel on her desk.",
+     "头天晚上放下包裹，第二天早上再打开。"
+    ],
+    [
+     "At sunset, Ravi reached the lake.",
+     "After walking all afternoon, Ravi saw the lake ahead.",
+     "走了一下午，日落时到达湖边。"
+    ],
+    [
+     "Inside the hall, Mei found an empty chair.",
+     "Mei entered the hall as the talk began.",
+     "先进入大厅，才能在厅里找座位。"
+    ],
+    [
+     "At the station, Omar greeted his aunt.",
+     "Omar took the bus to the station.",
+     "先乘车到车站，再在车站见面。"
+    ]
+   ]
+  },
+  {
+   "id": "state",
+   "type": "table",
+   "title": "人物状态",
+   "cols": [
+    "第二段首句",
+    "候选结句",
+    "衔接依据"
+   ],
+   "rows": [
+    [
+     "With the key in her hand, Nora opened the gate.",
+     "Nora found the key beneath the mat.",
+     "先找到钥匙，再用钥匙开门。"
+    ],
+    [
+     "Together, they lifted the box onto the shelf.",
+     "Jin asked his brother to help with the heavy box.",
+     "先请哥哥帮忙，才有两人一起搬箱子。"
+    ],
+    [
+     "Still wet, the dog shook itself by the door.",
+     "The dog ran in from the rain.",
+     "从雨里跑进来，说明狗为什么是湿的。"
+    ],
+    [
+     "Relieved, Anna handed the lost book to its owner.",
+     "Anna spotted the lost book under a chair.",
+     "找到了书，才会松一口气并归还。"
+    ]
+   ]
+  },
+  {
+   "id": "errors",
+   "type": "table",
+   "title": "常见错误",
+   "cols": [
+    "情况",
+    "第二段首句",
+    "候选结句的不足"
+   ],
+   "rows": [
+    [
+     "重复首句",
+     "The children opened the box.",
+     "The children opened the box 重复了动作。"
+    ],
+    [
+     "提前结局",
+     "Mia began to repair the bicycle.",
+     "Mia finished repairing the bicycle 提前写完了修理。"
+    ],
+    [
+     "缺少过渡",
+     "At the cabin, Ben greeted his friend.",
+     "Ben stayed at home 缺少前往木屋的过程。"
+    ],
+    [
+     "状态矛盾",
+     "Holding the note, Eva called her sister.",
+     "Eva threw the note away 与手里拿着便条矛盾。"
+    ]
+   ]
+  },
+  {
+   "id": "example",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Ava wanted to return a borrowed umbrella. Her neighbor had left for the library.\nParagraph 2 begins: At the library door, Ava handed the umbrella to her neighbor.\nWhich ending fits paragraph 1?\n1. Ava took the umbrella and walked to the library.\n2. Ava returned the umbrella and walked home.\n3. Ava left the umbrella behind at home.\n4. Ava waited at home until the library closed."
+    },
+    {
+     "p": "第二段开始时，Ava 和邻居都在图书馆门口，伞在 Ava 手里。第一项写 Ava 带着伞去图书馆，把交还的动作留给第二段。"
+    }
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "constraint",
+    "bridge"
+   ],
+   "groups": [
+    {
+     "text": "Milo wants to return a notebook to his friend at the park. His friend has already gone there.\nParagraph 2 begins: At the park, Milo gave the notebook to his friend.",
+     "items": [
+      {
+       "stem": "What must happen before the second opening?",
+       "options": [
+        "Milo must reach the park with the notebook.",
+        "Milo must return home without the notebook.",
+        "His friend must leave the park with the notebook.",
+        "His friend must come to Milo's home."
+       ],
+       "answer": 0,
+       "why": "依据是 At the park 和 gave the notebook。Milo 要带着笔记本到公园，即第一项。",
+       "point": "constraint"
+      },
+      {
+       "stem": "Which ending leads to the opening?",
+       "options": [
+        "Milo left the notebook on his desk at home.",
+        "Milo carried the notebook to the park entrance.",
+        "Milo gave the notebook to his friend at the park.",
+        "Milo watched his friend leave the park alone."
+       ],
+       "answer": 1,
+       "why": "第二段在公园里交还笔记本。第二项写 Milo 带着笔记本到了公园门口，交还的动作留给第二段。第三项重复了第二段首句。",
+       "point": "bridge"
+      }
+     ]
+    },
+    {
+     "text": "Eve is looking for her dog in the garden. Her brother offers to search the shed.\nParagraph 2 begins: With the dog safely beside them, they walked home.",
+     "items": [
+      {
+       "stem": "What must happen before the walk home?",
+       "options": [
+        "Eve must leave the dog in the shed.",
+        "Eve's brother must walk home alone.",
+        "Eve and her brother must find the dog.",
+        "The dog must return to the garden alone."
+       ],
+       "answer": 2,
+       "why": "依据是 With the dog safely beside them。回家前两人已经找到了狗，即第三项。",
+       "point": "constraint"
+      },
+      {
+       "stem": "Which ending prepares for the opening?",
+       "options": [
+        "Eve locked the empty shed and left the garden.",
+        "Her brother walked home without searching the shed.",
+        "Eve and her brother walked home beside the dog.",
+        "Her brother found the dog hiding behind the shed."
+       ],
+       "answer": 3,
+       "why": "第二段开始时狗已在两人身边。第四项写哥哥在棚屋后找到了狗，接上了这个状态。第三项重复了第二段首句。",
+       "point": "bridge"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "constraint",
+    "bridge"
+   ],
+   "groups": [
+    {
+     "text": "A painter named Yara planned to show her work in the hall. The frame for her painting was broken. Her friend offered to bring a spare frame from home.\nParagraph 2 begins: In the hall, Yara placed the framed painting on the display stand.",
+     "items": [
+      {
+       "stem": "What must be ready before the second paragraph?",
+       "options": [
+        "The painting must be framed and taken to the hall.",
+        "The display stand must be returned to her friend's home.",
+        "The broken frame must be displayed without a painting.",
+        "The painting must be left unframed in Yara's room."
+       ],
+       "answer": 0,
+       "why": "依据是 In the hall 和 framed painting。画要装好框，并且带到大厅，即第一项。",
+       "point": "constraint"
+      },
+      {
+       "stem": "Which ending best prepares for that state?",
+       "options": [
+        "Yara placed the framed painting on the display stand.",
+        "Yara fitted the spare frame and took the painting to the hall.",
+        "Yara waited in the hall while the spare frame stayed at home.",
+        "Yara fitted the spare frame and hung the painting in her room."
+       ],
+       "answer": 1,
+       "why": "第二段需要画已装框、人在大厅。第二项两件事都做到了。第四项装了框，但画留在了自己房间。",
+       "point": "bridge"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "constraint",
+    "bridge"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "Luca wanted to share a cake with his grandmother. He finished baking it at home, while she waited at the community center. The cake was still on the kitchen table.\nParagraph 2 begins: At the community center, Luca cut the cake for his grandmother.",
+       "items": [
+        {
+         "stem": "What must happen before the second opening?",
+         "options": [
+          "His grandmother must cut the cake at home.",
+          "Luca must leave the cake on the kitchen table.",
+          "Luca must bring the cake to the community center.",
+          "His grandmother must take the cake from the oven."
+         ],
+         "answer": 2,
+         "why": "依据是 At the community center 和 Luca cut the cake。蛋糕要从家里带到社区中心，即第三项。",
+         "point": "constraint"
+        },
+        {
+         "stem": "Which ending leads into the second paragraph?",
+         "options": [
+          "Luca cut the cake for his grandmother at the center.",
+          "Luca covered the cake and left it on the kitchen table.",
+          "Luca stayed at home while his grandmother left the center.",
+          "Luca carried the cake from home to the center."
+         ],
+         "answer": 3,
+         "why": "第二段在社区中心切蛋糕。第四项写 Luca 带着蛋糕从家到了中心，接上了地点和物品。第一项重复了第二段首句。",
+         "point": "bridge"
+        },
+        {
+         "stem": "Complete the sentence describing the necessary arrival.",
+         "lead": "Luca",
+         "chunks": [
+          "arrived",
+          "at",
+          "the community center with",
+          "the cake"
+         ],
+         "extra": [
+          "arriving"
+         ],
+         "tail": ".",
+         "why": "arrived at the community center with the cake 写出了地点和物品，与第二段首句相接。",
+         "point": "constraint"
+        },
+        {
+         "stem": "Complete the sentence that prepares for the second opening.",
+         "lead": "Luca",
+         "chunks": [
+          "carried",
+          "the cake",
+          "to",
+          "the community center"
+         ],
+         "extra": [
+          "carrying"
+         ],
+         "tail": ".",
+         "why": "carried the cake to the community center 写出了切蛋糕之前从家到中心的移动。",
+         "point": "bridge"
+        }
+       ]
+      },
+      {
+       "text": "Ava and her father were preparing a picnic. The blanket they needed was in a cupboard, but its door was stuck. Her father found a small tool that might loosen the handle.\nParagraph 2 begins: With the blanket spread on the grass, Ava unpacked the food.",
+       "items": [
+        {
+         "stem": "What must happen before the second paragraph?",
+         "options": [
+          "They must retrieve and spread the blanket.",
+          "Ava must unpack the food on the grass.",
+          "They must leave the blanket in the cupboard.",
+          "They must replace the cupboard's handle."
+         ],
+         "answer": 0,
+         "why": "依据是 With the blanket spread on the grass。毯子要从柜子里取出并铺好，即第一项。",
+         "point": "constraint"
+        },
+        {
+         "stem": "Which ending best prepares for that state?",
+         "options": [
+          "Ava unpacked the food on the spread blanket.",
+          "They opened the cupboard and spread the blanket outside.",
+          "Her father loosened the handle, but the door stayed shut.",
+          "Her father put the blanket back in the cupboard."
+         ],
+         "answer": 1,
+         "why": "第二段开始时毯子已铺在草地上。第二项写打开柜子、铺好毯子，接上了这个状态。第三项柜门没有打开。",
+         "point": "bridge"
+        },
+        {
+         "stem": "Complete the sentence about the necessary action.",
+         "lead": "Her father",
+         "chunks": [
+          "opened",
+          "the cupboard",
+          "with",
+          "the tool"
+         ],
+         "extra": [
+          "opening"
+         ],
+         "tail": ".",
+         "why": "用工具打开柜门，才能取出第二段要用的毯子。",
+         "point": "constraint"
+        },
+        {
+         "stem": "Complete the sentence leading to the picnic.",
+         "lead": "They",
+         "chunks": [
+          "carried",
+          "the blanket",
+          "to",
+          "the grass"
+         ],
+         "extra": [
+          "carrying"
+         ],
+         "tail": ".",
+         "why": "先把毯子带到草地上，第二段才能把它铺开。",
+         "point": "bridge"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "id": "reading-headings-ecology",
+ "title": "生态与适应词汇",
+ "goal": "辨认生态与适应的常用词，读懂适应机制的说明。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "vocab", "label": "辨认生态与适应的常用词"},
+  {"id": "read", "label": "读懂适应机制的说明"}
+ ],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "生态与适应词汇：内容与知识点"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "生态类的文章讲生物、食物来源和栖息地之间的关系。适应机制指生物的某个特征，以及它怎样帮助生物在特定条件下生存或繁殖。"},
+   {"p": "例如 A thick coat reduces heat loss in cold weather 中，寒冷是条件，厚毛减少热量散失是机制。"}
+  ]},
+  {"id": "food", "type": "table", "title": "词汇表：食物关系", "cols": ["词语", "词性与词义", "搭配"], "rows": [
+   ["food chain", "名词短语：食物链", "a link in a food chain"],
+   ["food web", "名词短语：食物网", "a complex food web"],
+   ["producer", "名词：生产者", "plants are producers"],
+   ["consumer", "名词：消费者", "a primary consumer"],
+   ["predator", "名词：捕食者", "a natural predator"],
+   ["prey", "名词：猎物", "catch prey"],
+   ["herbivore", "名词：食草动物", "a grazing herbivore"],
+   ["carnivore", "名词：食肉动物", "a large carnivore"],
+   ["omnivore", "名词：杂食动物", "an opportunistic omnivore"],
+   ["graze", "动词：吃草", "graze on grass"],
+   ["feed on", "动词短语：以……为食", "feed on leaves"],
+   ["forage", "动词：觅食", "forage for seeds"],
+   ["nectar", "名词：花蜜", "collect nectar"],
+   ["seed", "名词：种子", "disperse seeds"],
+   ["decomposer", "名词：分解者", "fungi act as decomposers"]
+  ]},
+  {"id": "adaptation", "type": "table", "title": "词汇表：物种适应", "cols": ["词语", "词性与词义", "搭配"], "rows": [
+   ["adaptation", "名词：适应性特征", "a physical adaptation"],
+   ["adapt", "动词：适应", "adapt to change"],
+   ["camouflage", "名词：伪装", "use camouflage"],
+   ["colouration", "名词：体色", "protective colouration"],
+   ["fur", "名词：毛皮", "thick fur"],
+   ["feather", "名词：羽毛", "flight feathers"],
+   ["beak", "名词：鸟喙", "a curved beak"],
+   ["claw", "名词：爪", "sharp claws"],
+   ["shell", "名词：壳", "a hard shell"],
+   ["nocturnal", "形容词：夜间活动的", "a nocturnal animal"],
+   ["hibernate", "动词：冬眠", "hibernate during winter"],
+   ["migrate", "动词：迁徙", "migrate between regions"],
+   ["insulation", "名词：隔热", "provide insulation"],
+   ["waterproof", "形容词：防水的", "a waterproof layer"],
+   ["tolerate", "动词：耐受", "tolerate dry conditions"]
+  ]},
+  {"id": "habitat", "type": "table", "title": "词汇表：栖息地变化", "cols": ["词语", "词性与词义", "搭配"], "rows": [
+   ["habitat", "名词：栖息地", "a coastal habitat"],
+   ["population", "名词：种群", "a bird population"],
+   ["species", "名词：物种", "native species"],
+   ["ecosystem", "名词：生态系统", "a freshwater ecosystem"],
+   ["wetland", "名词：湿地", "a protected wetland"],
+   ["woodland", "名词：林地", "a patch of woodland"],
+   ["grassland", "名词：草地", "open grassland"],
+   ["vegetation", "名词：植被", "dense vegetation"],
+   ["shelter", "名词：庇护处", "provide shelter"],
+   ["nest", "名词：巢", "build a nest"],
+   ["breeding", "名词：繁殖", "the breeding season"],
+   ["fragmentation", "名词：破碎化", "habitat fragmentation"],
+   ["restore", "动词：恢复", "restore a habitat"],
+   ["conserve", "动词：保护", "conserve wildlife"],
+   ["disturbance", "名词：干扰", "reduce disturbance"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A bird feeding in shallow water may encounter prey beneath the surface. A long beak allows it to reach into soft mud while keeping much of its body above the water. The beak's length is useful in this feeding situation; the passage does not claim that every water bird has the same beak."},
+   {"p": "条件是猎物藏在浅水下的软泥里。机制是长喙能伸进泥中，同时鸟身大部分留在水面之上。这一段说明的是一种适应性特征的作用。"}
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一　词汇", "points": ["vocab"], "groups": [
+   {"fill": "Ecologists study how animals obtain food. A pred{ator} hunts other animals. Its pr{ey} is the animal caught. A herbivore eats plants, and may gr{aze} on grass. Birds can for{age} for seeds. A bee may collect nec{tar} from flowers. Plants can produce a se{ed} that grows into a new plant. A food ch{ain} describes one sequence of feeding relationships. A food w{eb} connects several such sequences. Fungi may act as decomposers and break down dead material. Together these relationships help describe an ecos{ystem}. Each animal occupies a hab{itat} that provides suitable conditions.", "tags": ["vocab", "vocab", "vocab", "vocab", "vocab", "vocab", "vocab", "vocab", "vocab", "vocab"], "notes": ["predator：捕食其他动物的动物。", "prey：被捕食的动物。", "graze：吃草。", "forage：寻找食物。", "nectar：蜜蜂采集的花蜜。", "seed：能长成新植物的种子。", "chain：food chain 指食物链。", "web：food web 指食物网。", "ecosystem：相互联系的生态系统。", "habitat：提供适宜条件的栖息地。"]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二　精读", "points": ["read"], "groups": [
+   {"look": "passage", "text": "A small animal that feeds in open grassland must obtain food while remaining alert to predators. Grass and low vegetation provide some cover, but the animal may need to cross exposed ground to reach another feeding area. Its pattern of movement can affect how long it remains visible.\n\nOne useful feature is protective colouration. A coat whose colours resemble the surrounding ground can make the animal less conspicuous when it is still. This does not make the animal invisible. Its position, movement and the amount of cover also affect whether a predator detects it. The same coat may be less effective against a background of a different colour.\n\nAnother response is to feed near places that provide shelter. A burrow gives the animal a place to retreat if a predator approaches. Remaining close to a burrow may limit the area available for feeding, so the animal may have to move between feeding sites as food is used. The distance between food and shelter is therefore an important part of the animal's surroundings.\n\nThese features address different aspects of the same problem. Colouration can reduce visibility, while a burrow offers a place to escape. Neither supplies food directly. The value of either feature depends in part on the conditions in which the animal uses it. For example, shelter is useful only if the animal can reach it in time. A description of adaptation should identify the condition, the feature and the way in which the feature helps, rather than treating the feature as a complete explanation on its own.", "items": [
+    {"stem": "What is the main focus of the passage?", "options": ["How colouration and shelter help an animal in grassland", "How protective colouration makes an animal invisible", "How a grassland animal finds enough food to eat", "Why a burrow is the only defence against predators"], "answer": 0, "why": "第二段讲 protective colouration，第三段讲 shelter，末段说两者应对的是同一个问题：在开阔草地上避开捕食者。第一项概括了全文。", "point": "read"},
+    {"stem": "How can protective colouration help?", "options": ["It lets the animal cross exposed ground unseen.", "It makes the animal less conspicuous when it is still.", "It hides the animal whatever its background.", "It makes a still animal more visible against matching ground."], "answer": 1, "why": "依据是 A coat whose colours resemble the surrounding ground can make the animal less conspicuous when it is still，即第二项。", "point": "read"},
+    {"stem": "What can reduce the effectiveness of the same coat?", "options": ["A burrow located close to the animal's feeding site", "Low vegetation that provides some cover", "A background of a different colour", "An animal remaining still on matching ground"], "answer": 2, "why": "依据是 The same coat may be less effective against a background of a different colour，即第三项。", "point": "read"},
+    {"stem": "What function does a burrow serve?", "options": ["It provides the animal with a reliable supply of food.", "It makes the animal harder to see on open ground.", "It lets the animal feed over a wider area.", "It offers a place to retreat from a predator."], "answer": 3, "why": "依据是 A burrow gives the animal a place to retreat if a predator approaches，即第四项。第二项是体色的作用。", "point": "read"},
+    {"stem": "What limitation can feeding near a burrow have?", "options": ["It can restrict the area available for feeding.", "It can prevent the animal from using its nearby shelter.", "It can make the animal more visible to predators.", "It can remove the need to move between sites."], "answer": 0, "why": "依据是 Remaining close to a burrow may limit the area available for feeding，即第一项。第四项与 may have to move between feeding sites 相反。", "point": "read"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 8, "pass": 0.75, "points": ["vocab", "read"], "sets": [{"id": "set-a", "groups": [
+   {"fill": "Habitats provide places for organisms to live. A wet{land} is an area where water is present at or near the ground. A wood{land} contains trees, while a gras{sland} is dominated by grasses. A group of the same species in an area forms a popul{ation}. A bird may build a ne{st} for its young. Vegetation can provide she{lter} from weather. Animals may mig{rate} between regions at different times of year. Some mammals hibe{rnate} through winter. A thick coat can provide insul{ation} against heat loss. People may res{tore} a damaged habitat by helping its vegetation recover.", "tags": ["vocab", "vocab", "vocab", "vocab", "vocab", "vocab", "vocab", "vocab", "vocab", "vocab"]},
+   {"look": "passage", "text": "Animals living in cold water can lose heat to their surroundings. For a diving bird, the challenge is to enter water to find food while retaining enough body heat. Feathers form part of the solution. Their structure can trap a layer of air close to the body, and air slows the transfer of heat. The bird maintains its feathers through preening, which helps keep them in condition. The insulating layer is most useful when the feathers are arranged so that air remains among them.\n\nWater creates a second demand. A bird with wet feathers may find it harder to maintain the air layer. Many water birds spread oil from a gland over their feathers during preening. This helps the outer surface resist water, although preening and the structure of the feathers work together. Oil alone does not explain every property of the feather covering. The bird must continue to maintain the covering as it feeds and rests.\n\nThe air layer has consequences as well as benefits. Air makes the bird more buoyant, so it must work to move below the surface when diving for food. Once underwater, the bird can reach prey that is unavailable at the surface. The advantages of insulation and the effort of diving therefore occur together. A complete explanation considers both the protection from heat loss and the demands created by the same layer of air.\n\nThese features operate in a particular environment. A feather covering that retains air is valuable in cold water because it reduces heat transfer. Preening helps maintain the covering, and the bird's diving behaviour gives it access to underwater food. The environmental condition is cold water; the mechanism involves trapped air and the maintenance of feathers.", "items": [
+    {"stem": "What is the main focus of the passage?", "options": ["How feathers and behaviour help a bird feed in cold water", "How oil alone keeps a diving bird's feathers dry", "Why water birds never need to maintain their feathers", "Why insulation removes every difficulty involved in diving"], "answer": 0, "why": "第一段讲羽毛保温，第二段讲梳理和涂油防水，第三段讲潜水觅食。第一项概括了羽毛和行为共同帮助鸟在冷水中觅食。", "point": "read"},
+    {"stem": "How does air among the feathers help the bird?", "options": ["It helps the bird move below the surface.", "It slows the movement of heat away from the body.", "It prevents the bird from entering the water.", "It replaces the need to preen the feathers."], "answer": 1, "why": "依据是 air slows the transfer of heat，即第二项。第一项与 it must work to move below the surface 相反。", "point": "read"},
+    {"stem": "What does spreading oil over feathers help to do?", "options": ["Make the layer of air trapped among the feathers disappear", "Make the bird more buoyant in water", "Help the outer surface of the feathers resist water", "Remove the need for feather structure"], "answer": 2, "why": "依据是 spread oil 后面的 This helps the outer surface resist water，即第三项。第二项是空气层的作用。", "point": "read"},
+    {"stem": "What consequence does the air layer have for diving?", "options": ["It removes the need for the bird to move while it is underwater.", "It lets the bird reach prey unavailable at the surface.", "It makes the bird lose heat more quickly.", "It increases buoyancy and requires effort to submerge."], "answer": 3, "why": "依据是 Air makes the bird more buoyant, so it must work to move below the surface，即第四项。第二项是潜水的好处，不是空气层带来的后果。", "point": "read"},
+    {"stem": "What does the passage identify as the environmental condition?", "options": ["Cold water around the feeding bird", "The layer of air trapped close to the bird's body", "The oil spread over the feathers", "Preening carried out between dives"], "answer": 0, "why": "末句说 The environmental condition is cold water，即第一项。空气层和梳理羽毛属于机制。", "point": "read"}
+   ]}
+  ]}]}
+ ]
+}

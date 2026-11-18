@@ -1,0 +1,112 @@
+/* workspace-agent.css — 课程管家：顶栏、对话记录列、对话 + 输入框、右侧变更审阅。 */
+
+.workspace-agent { flex: 1; min-height: 0; display: flex; flex-direction: column; }
+.workspace-agent-head { flex: none; display: flex; align-items: center; gap: var(--gap-2); min-height: 46px; padding: var(--gap-2) var(--page-pad); background: var(--gamepink); border-bottom: var(--bw) solid var(--tbink); }
+.workspace-agent-title { display: flex; align-items: center; gap: var(--gap-2); margin-right: auto; }
+.workspace-agent-title img { width: 24px; height: 24px; }
+.workspace-agent-title h1 { font-size: var(--fs-h); color: var(--tbink); }
+.workspace-agent-head > button[aria-expanded="true"] { background: var(--sel); border-color: var(--sel); color: var(--on-dark); }
+
+.workspace-agent-body { flex: 1; min-height: 0; display: flex; }
+
+/* 对话记录列 */
+.workspace-agent-conversations { flex: 0 0 180px; min-width: 0; overflow: auto; padding: var(--gap-2); background: var(--gamepink); border-right: var(--bw) solid var(--tbink); }
+.workspace-agent-conversations > button { width: 100%; margin-bottom: var(--gap-2); border-style: dashed; }
+.workspace-agent-conversation-list { display: grid; gap: var(--gap-1); }
+.workspace-agent-conversation-list button { justify-content: flex-start; overflow: hidden; text-overflow: ellipsis; border-color: transparent; background: transparent; font-weight: 400; text-align: left; }
+.workspace-agent-conversation-list button[aria-current=true] { background: var(--sel); border-color: var(--sel); color: var(--on-dark); }
+
+/* 对话 */
+.workspace-agent-main { flex: 1; min-width: 0; display: flex; flex-direction: column; padding: 0 var(--page-pad) var(--gap-3); }
+.workspace-agent-thread { flex: 1; min-height: 0; overflow: auto; width: min(100%, 780px); margin-inline: auto; padding: var(--gap-4) 2px; }
+.workspace-agent-empty { display: flex; flex-direction: column; align-items: flex-start; gap: var(--gap-3); padding: var(--gap-5) 0; }
+.workspace-agent-empty img { width: 32px; height: 32px; }
+.workspace-agent-empty h2 { font-size: var(--fs-h); color: var(--tbink); }
+.workspace-agent-empty > p { max-width: 48ch; font-size: var(--fs-ui); color: var(--muted); }
+.workspace-agent-examples, .workspace-agent-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; }
+.workspace-agent-turn { display: grid; justify-items: start; gap: var(--gap-2); margin-bottom: var(--gap-5); }
+.workspace-agent-turn > small { max-width: 100%; overflow-wrap: anywhere; color: var(--muted); }
+.workspace-agent-request, .workspace-agent-reply { white-space: pre-wrap; overflow-wrap: anywhere; font: 14px/1.65 var(--font-text); }
+.workspace-agent-request { justify-self: end; max-width: 88%; padding: 7px 10px; border: var(--bw) solid var(--pink-d); background: var(--pink); color: var(--on-dark); }
+.workspace-agent-reply { max-width: 92%; padding: 7px 10px; border: var(--bw) solid var(--tbink); background: var(--gamepink); }
+.workspace-agent-reply.pending, .workspace-agent-routes { color: var(--muted); }
+.workspace-agent-routes { font-size: var(--fs-s); }
+.workspace-agent-message-file { justify-self: end; display: grid; gap: 5px; max-width: 85%; font-size: var(--fs-ui); color: var(--muted); }
+.workspace-agent-message-file img { display: block; width: 100%; max-width: 240px; max-height: 240px; object-fit: contain; border: var(--bw) solid var(--tbink); background: var(--paper); image-rendering: auto; }
+
+/* 输入框上方：Claude 不可用（或不能看图）时的一句提示 */
+.workspace-agent-provider { flex: none; width: min(100%, 780px); margin: 0 auto var(--gap-1); padding: var(--gap-1) var(--gap-2); border-left: 3px solid var(--rust); background: var(--wrong-bg); font-size: var(--fs-ui); color: var(--rust); }
+
+.workspace-agent-provider > button { min-height: 22px; margin-left: var(--gap-2); padding: 0 var(--gap-2); font-size: var(--fs-s); }
+.workspace-agent-reuse { flex: none; width: min(100%, 780px); margin: 0 auto var(--gap-1); font-size: var(--fs-s); color: var(--muted); }
+.workspace-agent-reuse > small { display: block; margin: var(--gap-1) 0 var(--gap-2); }
+.workspace-agent-reuse .workspace-agent-actions { max-height: 110px; overflow: auto; }
+.workspace-agent-reuse button { max-width: 100%; white-space: normal; text-align: left; }
+
+/* 输入框：和聊天页一样的方框 */
+.workspace-agent-form { flex: none; width: min(100%, 780px); margin-inline: auto; padding: var(--gap-2); border: var(--bw) solid var(--tbink); background: var(--gamepink); }
+.workspace-agent-form textarea { display: block; width: 100%; min-height: 60px; max-height: 160px; resize: none; font: 14px/1.6 var(--font-text); }
+.workspace-agent-formbar { display: flex; align-items: center; gap: var(--gap-2); margin-top: 6px; }
+.workspace-agent-formbar .workspace-agent-attach { width: 32px; padding: 0; font-size: 16px; }
+.workspace-agent-formbar .workspace-agent-mic { width: 32px; padding: 0; margin-left: auto; }
+.workspace-agent-formbar .workspace-agent-mic[aria-pressed=true] { background: var(--rust); border-color: var(--rust); color: var(--on-dark); }
+.workspace-agent-formbar .workspace-agent-send { width: 40px; padding: 0; margin-left: auto; }
+.workspace-agent-mic + .workspace-agent-send { margin-left: 0; }
+.workspace-agent-status { width: min(100%, 780px); margin: 0 auto; padding: var(--gap-1) 0; font-size: var(--fs-ui); color: var(--rust); }
+.workspace-agent-status:empty { display: none; }
+.workspace-agent-attachments { display: flex; flex-wrap: wrap; gap: var(--gap-2); margin-bottom: var(--gap-2); }
+.workspace-agent-attachments:empty { display: none; }
+.workspace-agent-file-chip { position: relative; display: flex; align-items: center; gap: var(--gap-2); max-width: 100%; min-height: 52px; padding: var(--gap-2) 32px var(--gap-2) var(--gap-2); border: var(--bw) solid var(--tbink); background: var(--paper); font-size: var(--fs-ui); }
+.workspace-agent-file-chip > span { overflow-wrap: anywhere; }
+.workspace-agent-file-chip > small { max-width: 30ch; overflow-wrap: anywhere; font-size: var(--fs-s); color: var(--muted); }
+.workspace-agent-file-chip > button { position: absolute; top: -8px; right: -8px; min-height: 0; width: 20px; height: 20px; padding: 0; background: var(--rust); color: var(--on-dark); }
+.workspace-agent-file-chip.error { border-color: var(--rust); }
+.workspace-agent-file-chip.error small { color: var(--rust); }
+.workspace-agent-file-chip.image { width: 80px; height: 80px; padding: 0; }
+.workspace-agent-file-chip.image img { width: 100%; height: 100%; object-fit: cover; image-rendering: auto; }
+.workspace-agent-file-chip.image > small { position: absolute; inset: auto 0 0; padding: 2px; background: var(--tbink); color: var(--on-dark); font-size: 12px; }
+.workspace-agent-file-chip.image.error { width: 150px; height: 110px; }
+.workspace-agent-file-icon { font-size: 22px; color: var(--tbink); }
+.workspace-agent-file-name { max-width: 170px; }
+
+/* 右侧：改了什么 */
+.workspace-agent-inspector { flex: 0 0 clamp(260px, 34%, 420px); min-width: 0; display: flex; flex-direction: column; background: var(--body); border-left: var(--bw) solid var(--tbink); }
+.workspace-agent-inspector-head { flex: none; display: flex; align-items: center; justify-content: space-between; gap: var(--gap-2); min-height: 40px; padding: 4px var(--gap-3); background: linear-gradient(90deg, var(--title), var(--title-2)); border-bottom: var(--bw) solid var(--tbink); font-weight: 700; color: var(--tbink); }
+.workspace-agent-inspector-head button { min-height: 22px; width: 24px; padding: 0; background: var(--pink); color: var(--on-dark); }
+.workspace-agent-inspector-content { flex: 1; overflow: auto; padding: var(--gap-3); }
+.workspace-agent-proposal { display: grid; gap: var(--gap-2); }
+.workspace-agent-proposal > h3 { font-size: 13px; color: var(--tbink); }
+.workspace-agent-change { padding: var(--gap-2) 0; border-top: 1px solid var(--line-soft); }
+.workspace-agent-field { margin-top: var(--gap-2); font-size: var(--fs-s); font-weight: 700; color: var(--tbink); }
+.workspace-agent-comparison { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; margin-top: 6px; }
+.workspace-agent-comparison > div { min-width: 0; padding: 6px; border: 1px solid var(--line-soft); background: var(--paper); }
+.workspace-agent-comparison > div:last-child { border-color: var(--border); background: var(--panel); }
+.workspace-agent-comparison small { color: var(--muted); }
+.workspace-agent-comparison > div > p { margin: var(--gap-1) 0; font: var(--fs-ui)/1.6 var(--font-text); }
+.concierge-course-change { display: grid; gap: 6px; padding: var(--gap-3) 0; }
+.concierge-course-change > strong { font: 700 16px/1.4 var(--font-text); }
+.concierge-course-change > span { font-size: var(--fs-ui); color: var(--muted); }
+.concierge-course-change > p { font: 13px/1.6 var(--font-text); }
+.workspace-agent-actions [role=status] { font-size: var(--fs-ui); color: var(--muted); }
+.workspace-agent-change-history { display: grid; gap: var(--gap-2); }
+.workspace-agent-change-history article { display: grid; gap: 6px; padding: var(--gap-2) 0; border-bottom: 1px solid var(--line-soft); }
+.workspace-agent-change-history small { font-size: var(--fs-s); color: var(--muted); }
+
+
+@media (max-width: 1000px) {
+  .workspace-agent-conversations { flex-basis: 150px; }
+}
+@media (max-width: 720px) {
+  .workspace-agent-body { flex-direction: column; }
+  .workspace-agent-conversations { flex: none; display: flex; align-items: center; gap: 6px; overflow-x: auto; border-right: 0; border-bottom: var(--bw) solid var(--tbink); }
+  .workspace-agent-conversations > button { width: auto; flex: none; margin: 0; }
+  .workspace-agent-conversation-list { display: flex; }
+  .workspace-agent-conversation-list button { flex: none; max-width: 150px; }
+  .workspace-agent-inspector { flex: none; max-height: 50%; border-left: 0; border-top: var(--bw) solid var(--tbink); }
+}
+
+/* 这轮用哪家：输入框下面的一个小下拉；没换时不起眼，换了就实心 */
+.workspace-agent-model { width: auto; max-width: 180px; min-height: 26px; height: 26px; padding: 0 22px 0 8px; border: 1px solid var(--line-soft); background-color: transparent; color: var(--muted); font-size: var(--fs-s); }
+.workspace-agent-model.custom { border-color: var(--tbink); color: var(--tbink); font-weight: 700; }
+.workspace-agent-model[data-state="bad"] { border-color: var(--rust); color: var(--rust); }
+.workspace-agent-model option.off { color: var(--muted); }

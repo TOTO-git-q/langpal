@@ -1,0 +1,1106 @@
+{
+ "email": {
+  "format": "essay",
+  "spec": "出一道 Write an Email 题。\n- setting：用第二人称写情境，40–70 个英文词，说清发生了什么事、要写给谁。场合是校园或日常社交，不需要专业知识。\n- lead：固定句式 Write an email to <收件人>. In your email, do the following.\n- bullets：恰好三条，每条以动词原形开头，三条要做的事各不相同（比如说明、建议、询问）。\n- to：收件人的邮箱（虚构域名）。subject：主题行。\n- must：三条，和 bullets 一一对应，用中文写这一条最少要写出什么才算答到。\n- purpose：一句中文，说这道题练哪种目的和场合。",
+  "checks": {
+   "bullets": 3,
+   "must": 3,
+   "setting": [
+    30,
+    90
+   ],
+   "to": true,
+   "lead": [
+    "Write an email to",
+    "do the following."
+   ]
+  },
+  "example": {
+   "purpose": "讲问题，问状态（社交场景）",
+   "setting": "You signed up online for a weekend photography workshop at your city's community center and paid the fee. However, you have not received a confirmation email, and the workshop begins this Saturday.",
+   "lead": "Write an email to the workshop coordinator, Ms. Rivera. In your email, do the following.",
+   "bullets": [
+    "Explain why you are interested in the workshop.",
+    "Describe what happened when you registered.",
+    "Ask what you should do before Saturday."
+   ],
+   "to": "rivera@cityarts.org",
+   "subject": "Photography workshop registration",
+   "must": [
+    "一个具体的兴趣来由：想学什么、为什么是现在。",
+    "报名的经过：哪天、做了什么、没收到什么。最好有一处能核对的事实，比如已经扣款。",
+    "一个真正的问句，问周六之前要做什么，最好给出一两个你能做的选项。"
+   ]
+  }
+ },
+ "discussion": {
+  "format": "essay",
+  "spec": "出一道 Write for an Academic Discussion 题。\n- setting：固定句式 Your professor is teaching a class on <学科>. Write a post responding to the professor's question.，学科用英文小写，两三个词以内（比如 sociology、urban planning）。\n- posts：三个帖子 {who, text}，教授在前，两位同学在后。教授的帖子 50–90 个英文词：先用两三句引出话题，最后提一个征求看法的问题（是非题或二选一），以问号结尾；who 写 Professor 加姓。两位同学各 30–55 个英文词，立场相反，各给一个具体的理由；两个理由要留出余地，让考生还能说出别的角度；who 写名字。\n- must：两条中文。第一条写「第一句就回答教授问的是什么；有一条讲透的理由和一个具体的例子」这一类；第二条写出两位同学都没说过、考生可以补的是哪一类内容。\n- purpose：一句中文：这道题讨论什么（学科）。",
+  "fixed": {
+   "lead": "In your response, you should do the following.",
+   "bullets": [
+    "Express and support your opinion.",
+    "Make a contribution to the discussion in your own words."
+   ]
+  },
+  "checks": {
+   "must": 2,
+   "setting": [
+    12,
+    30
+   ],
+   "posts": 3,
+   "post": [
+    25,
+    100
+   ],
+   "question": true
+  },
+  "example": {
+   "purpose": "该不该让员工自己选在哪办公（商科）",
+   "setting": "Your professor is teaching a class on business. Write a post responding to the professor's question.",
+   "posts": [
+    {
+     "who": "Professor Reyes",
+     "text": "In recent years, many companies have allowed employees to work from home several days a week. Some managers believe this makes workers more productive, while others worry that teams communicate less. If you were running a company, would you let employees choose where they work? Why or why not?"
+    },
+    {
+     "who": "Alex",
+     "text": "Yes, I would. Commuting wastes an hour or two every day, and people who work from home can use that time to focus. Employees who are trusted to manage their own time usually work harder."
+    },
+    {
+     "who": "Priya",
+     "text": "I would not. New employees learn mostly by watching experienced colleagues and asking quick questions. That kind of learning is very hard when everyone is at home behind a screen."
+    }
+   ],
+   "must": [
+    "第一句就回答「你会不会让员工自己选」；有一条讲透的理由和一个具体的例子。",
+    "有一点是 Alex 和 Priya 都没说过的：一个新理由、让某个观点成立的条件，或者折中的做法。"
+   ]
+  }
+ },
+ "ctw": {
+  "format": "ctw",
+  "spec": "写两段用来做 Complete the Words 的学术短文，两段讲不同学科的知识点。每段 75–95 个英文词，第一句点明话题。用常见的学术词汇，句子完整，不用数字、专有名词、带连字符的词和缩写（don't 这类）。第二句和第三句要写得让人能从上下文推出每一个词，避免 these 和 those、this 和 that 这种换了也通的词。",
+  "checks": {
+   "paragraphs": 2,
+   "paragraph": [
+    70,
+    100
+   ]
+  },
+  "example": {
+   "paragraphs": [
+    "Roman builders made a kind of concrete that has lasted for two thousand years. They mixed lime with ash from volcanoes and then added pieces of rock. Modern studies show that small lumps of lime inside the material can react with water when a crack appears. The reaction forms new crystals, which fill the gap and stop it from growing. This ability to repair itself explains why many ancient harbors and domes are still standing today.",
+    "A placebo is a treatment that contains no active medicine. Doctors have long noticed that some patients feel better after taking such a pill because they expect it to work. For this reason, new drugs are usually tested against a placebo in careful trials. One group receives the real drug, and another group receives a pill that only looks the same. If both groups improve equally, researchers conclude that the drug itself has little effect on the illness."
+   ]
+  }
+ },
+ "daily": {
+  "format": "reading",
+  "spec": "出一套 Read in Daily Life：三段日常文字，体裁各不相同（通知、广告、邮件、一串短信、时间表、收据、社交媒体帖子里选三种），每段 40–110 个英文词，后面两道或三道题，三段一共 8 题。label 写 Read a notice. 这样的一句；look 是 notice、email、messages、post 之一（时间表、收据、广告用 notice）。邮件从 Subject: 一行写起，不写 From 和 To。至少三题要把文字里两处信息合起来才能答；至少两题考口语说法或省略写法。",
+  "checks": {
+   "groups": 3,
+   "text": [
+    15,
+    150
+   ],
+   "items": [
+    2,
+    3
+   ],
+   "total": [
+    7,
+    9
+   ],
+   "looks": [
+    "notice",
+    "email",
+    "messages",
+    "post"
+   ]
+  },
+  "example": {
+   "groups": [
+    {
+     "label": "Read a notice.",
+     "look": "notice",
+     "text": "NOTICE TO RESIDENTS — Hartwell Hall\n\nThe elevator in the east wing will be out of service Thursday, Oct. 12, from 9 AM to 3 PM for its yearly safety inspection. Please use the west wing elevator or the stairs during this time. If you need help moving heavy items that day, contact the front desk at least 24 hours in advance.",
+     "items": [
+      {
+       "stem": "What is the main purpose of the notice?",
+       "options": [
+        "To tell residents that an elevator will be unavailable for part of a day",
+        "To announce that an elevator is being replaced",
+        "To ask residents to stop moving heavy items",
+        "To introduce a new front desk service"
+       ],
+       "answer": 0,
+       "why": "out of service ... from 9 AM to 3 PM：停用几个小时做年检。B 夸大成了更换。",
+       "point": "purpose"
+      },
+      {
+       "stem": "What should a resident who needs help moving a large box on Oct. 12 do?",
+       "options": [
+        "Wait until 9 AM that day",
+        "Use the east wing elevator",
+        "Contact the front desk by Oct. 11",
+        "Call the safety inspector"
+       ],
+       "answer": 2,
+       "why": "at least 24 hours in advance：至少提前一天，也就是 11 号之前。",
+       "point": "detail"
+      }
+     ]
+    },
+    {
+     "label": "Read a text message chain.",
+     "look": "messages",
+     "text": "Maya: Heads-up: Prof. Chen moved tomorrow's quiz to next Monday.\nJon: Seriously? I was up till 2 studying for it.\nMaya: At least you're ahead now. Still coming to the review session tonight?\nJon: I'll pass. I need to catch up on sleep. Can you send me your notes from Tuesday?\nMaya: Sure, I'll email them after dinner.",
+     "items": [
+      {
+       "stem": "What does Jon mean when he says “I'll pass”?",
+       "options": [
+        "He expects to do well on the quiz.",
+        "He will not go to the review session.",
+        "He will give his notes to Maya.",
+        "He will walk past Maya's room."
+       ],
+       "answer": 1,
+       "why": "Maya 问 Still coming to the review session tonight?，他答 I'll pass，接着说要补觉：不去了。A 是按字面理解 pass。",
+       "point": "informal"
+      },
+      {
+       "stem": "When is the quiz now scheduled?",
+       "options": [
+        "Tonight",
+        "Tomorrow",
+        "On Tuesday",
+        "Next Monday"
+       ],
+       "answer": 3,
+       "why": "moved tomorrow's quiz to next Monday。Tuesday 是笔记的日期。",
+       "point": "detail"
+      },
+      {
+       "stem": "What will Maya probably do this evening?",
+       "options": [
+        "Take the quiz",
+        "Send Jon her notes",
+        "Study with Jon",
+        "Meet Professor Chen"
+       ],
+       "answer": 1,
+       "why": "最后一条：I'll email them after dinner。",
+       "point": "informal"
+      }
+     ]
+    },
+    {
+     "label": "Read a schedule.",
+     "look": "notice",
+     "text": "Green Line Shuttle — Fall Schedule\nCampus Center → Downtown Station\n\nWeekdays: every 15 min, 7:00 AM–7:00 PM; every 30 min, 7:00 PM–11:00 PM\nWeekends: every 30 min, 9:00 AM–9:00 PM\n\nFree with student ID. Others: $2 per ride, exact change only.\nNo service on university holidays.",
+     "items": [
+      {
+       "stem": "A student wants to take the shuttle at 10:00 PM on a Saturday. What does the schedule show?",
+       "options": [
+        "The shuttle runs every 15 minutes then.",
+        "The shuttle runs every 30 minutes then.",
+        "There is no shuttle at that time.",
+        "The student must pay $2."
+       ],
+       "answer": 2,
+       "why": "周六看 Weekends 那一行：到 9:00 PM 为止。晚上十点有车的是 Weekdays。",
+       "point": "detail"
+      },
+      {
+       "stem": "What should a visitor without a student ID bring?",
+       "options": [
+        "A credit card",
+        "Exactly two dollars in cash",
+        "A printed schedule",
+        "A holiday pass"
+       ],
+       "answer": 1,
+       "why": "Others: $2 per ride, exact change only：只收刚好的零钱。",
+       "point": "informal"
+      },
+      {
+       "stem": "Where would this text most likely be found?",
+       "options": [
+        "On a restaurant menu",
+        "On a store receipt",
+        "At a campus bus stop",
+        "In a course catalog"
+       ],
+       "answer": 2,
+       "why": "路线、发车间隔、票价：这是张贴在站点的时刻表。",
+       "point": "purpose"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "academic": {
+  "format": "reading",
+  "spec": "出一篇 Read an Academic Passage：一篇 190–220 个英文词的说明文，第一行是标题，后面分三段，段与段之间空一行。不需要背景知识，事实要可靠，拿不准的细节不写。后面五道题，依次是：事实信息；词义（题干用 The word “x” in the passage is closest in meaning to，x 必须是文中的词）；推断；观点之间的关系；提到某个例子或某一段的目的。label 写 Read an academic passage.，look 写 passage。",
+  "checks": {
+   "groups": 1,
+   "text": [
+    170,
+    230
+   ],
+   "items": 5,
+   "looks": [
+    "passage"
+   ]
+  },
+  "example": {
+   "groups": [
+    {
+     "label": "Read an academic passage.",
+     "look": "passage",
+     "text": "Hunting by Sound\n\nBats that hunt insects at night face an obvious problem: they must find small, fast prey in complete darkness. They solve it with echolocation. A bat sends out a rapid series of very high sounds, most of them above the range of human hearing, and then listens for the echoes that return from objects around it.\n\nThe echoes carry a surprising amount of information. The time an echo takes to come back tells the bat how far away an object is. A change in the pitch of the echo reveals whether the object is moving toward the bat or away from it. Even the texture of a surface can be judged, because a smooth leaf and a furry moth reflect sound differently.\n\nSome insects have developed defenses. Certain moths have simple ears tuned to the sounds bats make; when they hear an approaching bat, they dive suddenly toward the ground. A few species go further and produce clicking sounds of their own, which seem to interfere with the bat's ability to judge distance. In response, some bats have shifted to sounds that these moths cannot hear, a pattern that biologists describe as an arms race between hunter and prey.",
+     "items": [
+      {
+       "stem": "According to the passage, what tells a bat how far away an object is?",
+       "options": [
+        "The pitch of the echo",
+        "The loudness of the echo",
+        "The time the echo takes to return",
+        "The texture of the object"
+       ],
+       "answer": 2,
+       "why": "事实信息。第二段：The time an echo takes to come back tells the bat how far away an object is。pitch 说的是物体朝哪边动。",
+       "point": "locate"
+      },
+      {
+       "stem": "The word “reveals” in the passage is closest in meaning to",
+       "options": [
+        "shows",
+        "prevents",
+        "repeats",
+        "doubts"
+       ],
+       "answer": 0,
+       "why": "词义。句子结构和上一句的 tells 平行：音高的变化让蝙蝠知道物体的动向。",
+       "point": "infer"
+      },
+      {
+       "stem": "What can be inferred about the sounds that bats use for hunting?",
+       "options": [
+        "They are produced only when insects are near.",
+        "People cannot hear most of them.",
+        "They travel farther than other sounds.",
+        "Moths cannot detect any of them."
+       ],
+       "answer": 1,
+       "why": "推断。第一段：most of them above the range of human hearing。D 说得太满：有些飞蛾有专门听这种声音的耳朵。",
+       "point": "infer"
+      },
+      {
+       "stem": "Why does the author mention a smooth leaf and a furry moth?",
+       "options": [
+        "To name two things that bats eat",
+        "To explain why bats avoid trees",
+        "To compare the speed of different echoes",
+        "To show that echoes carry information about surfaces"
+       ],
+       "answer": 3,
+       "why": "目的。because 前面那句：Even the texture of a surface can be judged。这两样东西是给它举的例子。",
+       "point": "structure"
+      },
+      {
+       "stem": "What is the main purpose of the third paragraph?",
+       "options": [
+        "To describe how insects and bats have each responded to the other",
+        "To explain why moths are easier to catch than other insects",
+        "To show that echolocation no longer works",
+        "To compare the hearing of moths and humans"
+       ],
+       "answer": 0,
+       "why": "目的。段首 Some insects have developed defenses，段尾 In response, some bats have shifted ...，最后用 arms race 总结。C 说得太满。",
+       "point": "structure"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "response": {
+  "format": "listening",
+  "spec": "出一套 Listen and Choose a Response：八句校园生活里的话，每句 6–14 个英文词，只会被听到、不会显示。每句是一个题组：intro 写空字符串，lines 只有一句 {who: \"A\", text: 那句话}，items 只有一道题，stem 固定写 Choose the best response.，四个选项是四个书面的回应。八句要覆盖：问信息、绕弯的问句、请求、提议、讲一个麻烦、道谢或道歉、否定疑问或反意疑问。错项要用上「重复听到的词」「答了另一个问题」「只答字面」这几种。",
+  "checks": {
+   "groups": 8,
+   "lines": 1,
+   "text": [
+    4,
+    16
+   ],
+   "items": 1,
+   "stem": "Choose the best response."
+  },
+  "example": {
+   "groups": [
+    {
+     "intro": "",
+     "lines": [
+      {
+       "who": "A",
+       "text": "Where can I pick up my student ID?"
+      }
+     ],
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "Tomorrow morning.",
+        "At the registration office on the second floor.",
+        "It costs five dollars.",
+        "Yes, you can pick it."
+       ],
+       "answer": 1,
+       "why": "Where 问地点。",
+       "point": "function"
+      }
+     ]
+    },
+    {
+     "intro": "",
+     "lines": [
+      {
+       "who": "A",
+       "text": "Could you keep an eye on my laptop for a minute?"
+      }
+     ],
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "Sure. Take your time.",
+        "I have an eye exam today.",
+        "No, it's a new laptop.",
+        "A minute ago."
+       ],
+       "answer": 0,
+       "why": "keep an eye on 是「帮忙看着」。这是请求，配答应。",
+       "point": "function"
+      }
+     ]
+    },
+    {
+     "intro": "",
+     "lines": [
+      {
+       "who": "A",
+       "text": "Isn't this the room for the chemistry review?"
+      }
+     ],
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "I reviewed chemistry last night.",
+        "No, I don't have a room.",
+        "It was supposed to be, but it's been moved to Room 204.",
+        "The review was very helpful."
+       ],
+       "answer": 2,
+       "why": "否定疑问在求证。C 先确认原来是，再纠正。",
+       "point": "implied"
+      }
+     ]
+    },
+    {
+     "intro": "",
+     "lines": [
+      {
+       "who": "A",
+       "text": "I heard you got the scholarship. Congratulations!"
+      }
+     ],
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "Yes, I heard it too.",
+        "You're welcome.",
+        "I'll apply next year.",
+        "Thanks! I still can't believe it."
+       ],
+       "answer": 3,
+       "why": "祝贺配道谢。You're welcome 只配 Thanks。",
+       "point": "function"
+      }
+     ]
+    },
+    {
+     "intro": "",
+     "lines": [
+      {
+       "who": "A",
+       "text": "How about meeting at the café instead of the library?"
+      }
+     ],
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "That works for me.",
+        "I met her at the library.",
+        "The café opens at seven.",
+        "About two cups of coffee."
+       ],
+       "answer": 0,
+       "why": "How about 是提议。That works for me 是同意。",
+       "point": "function"
+      }
+     ]
+    },
+    {
+     "intro": "",
+     "lines": [
+      {
+       "who": "A",
+       "text": "You wouldn't happen to have a spare charger, would you?"
+      }
+     ],
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "No, it happened yesterday.",
+        "I do, actually. It's in my bag.",
+        "Yes, I wouldn't.",
+        "It charges very fast."
+       ],
+       "answer": 1,
+       "why": "这是很客气的借东西的说法。回应要说有没有。",
+       "point": "implied"
+      }
+     ]
+    },
+    {
+     "intro": "",
+     "lines": [
+      {
+       "who": "A",
+       "text": "What did you think of the guest lecture?"
+      }
+     ],
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "I think it starts at three.",
+        "I'm thinking about going.",
+        "Honestly, it was hard to follow.",
+        "The guest is from Canada."
+       ],
+       "answer": 2,
+       "why": "What did you think of 问看法，而且是过去的事。",
+       "point": "function"
+      }
+     ]
+    },
+    {
+     "intro": "",
+     "lines": [
+      {
+       "who": "A",
+       "text": "The cafeteria's closed again? You've got to be kidding."
+      }
+     ],
+     "items": [
+      {
+       "stem": "Choose the best response.",
+       "options": [
+        "No, I'm not a kid.",
+        "It closes the kitchen.",
+        "Yes, I'm joking with you.",
+        "I know. That's the third time this week."
+       ],
+       "answer": 3,
+       "why": "You've got to be kidding 是表示不满和难以相信，不是真的问对方在不在开玩笑。",
+       "point": "implied"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "conversation": {
+  "format": "listening",
+  "spec": "出一套 Listen to a Conversation：三段两个人的短对话，场合各不相同（校园里办事、同学之间商量、日常生活里的服务）。每段四到六句，A 先说，两人轮流，一共 55–85 个英文词。每段都要有：要办的事、一个卡住的地方、一条出路、最后的决定；三段里至少有两段用到一句常见的习语。两个说话人声音相近，所以题干里不要用 the man、the woman，用身份（the student、the librarian）或者对话里叫出来的名字。每段两道题，问法在这几种里选：原因或细节、一句话的意思、言外之意、接下来会做什么。每段的 intro 写 Listen to a conversation.；lines 是 [{who, text}]，who 是 A 或 B。why 里也不要用 A、B 指说话人，用身份或名字。",
+  "checks": {
+   "groups": 3,
+   "lines": [
+    4,
+    6
+   ],
+   "alternate": true,
+   "text": [
+    45,
+    95
+   ],
+   "items": 2,
+   "intro": "Listen to a conversation."
+  },
+  "example": {
+   "groups": [
+    {
+     "intro": "Listen to a conversation.",
+     "lines": [
+      {
+       "who": "A",
+       "text": "Excuse me, I bought this textbook last week, but I've dropped the course. Can I return it?"
+      },
+      {
+       "who": "B",
+       "text": "Do you have the receipt? And is the plastic wrap still on?"
+      },
+      {
+       "who": "A",
+       "text": "I have the receipt, but I opened it to check the first chapter."
+      },
+      {
+       "who": "B",
+       "text": "Then I can't give you a full refund, I'm afraid. I can offer store credit, or you could sell it at the buyback table in May."
+      },
+      {
+       "who": "A",
+       "text": "Store credit is fine. I need notebooks anyway."
+      }
+     ],
+     "items": [
+      {
+       "stem": "Why can't the student get a full refund?",
+       "options": [
+        "She has no receipt.",
+        "She bought the book too long ago.",
+        "The book has been opened.",
+        "She is still taking the course."
+       ],
+       "answer": 2,
+       "why": "店员问塑封还在不在，她说拆开看过第一章，店员接着说不能全额退。",
+       "point": "detail"
+      },
+      {
+       "stem": "What will the student probably do next?",
+       "options": [
+        "Wait until May to sell the book",
+        "Accept store credit and buy supplies",
+        "Keep the textbook",
+        "Look for the plastic wrap"
+       ],
+       "answer": 1,
+       "why": "Store credit is fine. I need notebooks anyway。",
+       "point": "implied"
+      }
+     ]
+    },
+    {
+     "intro": "Listen to a conversation.",
+     "lines": [
+      {
+       "who": "A",
+       "text": "Professor Lin, do you have a minute? I'm thinking about switching from the Tuesday lab to the Thursday one."
+      },
+      {
+       "who": "B",
+       "text": "Is there a problem with Tuesday?"
+      },
+      {
+       "who": "A",
+       "text": "My new job at the bookstore runs until three on Tuesdays, and the lab starts at two."
+      },
+      {
+       "who": "B",
+       "text": "I see. Thursday is nearly full, but one student dropped this morning. If you fill in the form today, the seat is yours."
+      },
+      {
+       "who": "A",
+       "text": "I'll do it right after this. Thank you so much."
+      }
+     ],
+     "items": [
+      {
+       "stem": "Why does the student want to change labs?",
+       "options": [
+        "Her work hours overlap with the Tuesday lab.",
+        "The Tuesday lab is too difficult.",
+        "She does not like her lab partner.",
+        "The Thursday lab is shorter."
+       ],
+       "answer": 0,
+       "why": "工作到三点，实验两点开始。",
+       "point": "detail"
+      },
+      {
+       "stem": "What does the professor imply?",
+       "options": [
+        "The Thursday lab may be canceled.",
+        "The student should quit her job.",
+        "The form is not necessary.",
+        "The student should act quickly."
+       ],
+       "answer": 3,
+       "why": "Thursday is nearly full，而且 If you fill in the form today, the seat is yours。",
+       "point": "implied"
+      }
+     ]
+    },
+    {
+     "intro": "Listen to a conversation.",
+     "lines": [
+      {
+       "who": "A",
+       "text": "Jo, did you get the tickets for Friday's concert?"
+      },
+      {
+       "who": "B",
+       "text": "Oh no. It completely slipped my mind. I'll check the website now."
+      },
+      {
+       "who": "A",
+       "text": "I hope they're not sold out."
+      },
+      {
+       "who": "B",
+       "text": "Looks like there are a few left in the balcony. They're a bit more expensive, though."
+      },
+      {
+       "who": "A",
+       "text": "Balcony's fine. Just get them before they're gone, and I'll pay you back tonight."
+      }
+     ],
+     "items": [
+      {
+       "stem": "What does Jo mean when she says “It completely slipped my mind”?",
+       "options": [
+        "She changed her mind.",
+        "She forgot to buy the tickets.",
+        "She lost the tickets.",
+        "She did not want to go."
+       ],
+       "answer": 1,
+       "why": "紧接着她说现在去网站上看。",
+       "point": "implied"
+      },
+      {
+       "stem": "What will Jo probably do next?",
+       "options": [
+        "Wait for cheaper tickets",
+        "Ask Maya to buy the tickets",
+        "Buy balcony tickets",
+        "Cancel the plan"
+       ],
+       "answer": 2,
+       "why": "Balcony's fine. Just get them before they're gone。",
+       "point": "implied"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "announcement": {
+  "format": "listening",
+  "spec": "出一套 Listen to an Announcement：三条学校里的口头通知，每条 45–80 个英文词，一个人说。内容在这几类里选三种不同的：时间地点的变更、规章或期限、学生取得的成绩、活动安排。每条都要有：招呼、什么事、新的时间或地点、要听的人做什么（带一个期限或条件）。每条是一个题组：intro 写 Listen to an announcement in a classroom.（或 on campus.、at a school event.，三种里选合适的），lines 只有一句 {who: \"A\", text: 整条通知}。每条两道题：一道问讲什么或为什么发，一道问细节、要做的事或之后会怎样。",
+  "checks": {
+   "groups": 3,
+   "lines": 1,
+   "text": [
+    40,
+    85
+   ],
+   "items": 2,
+   "intro": "Listen to an announcement "
+  },
+  "example": {
+   "groups": [
+    {
+     "intro": "Listen to an announcement at a school event.",
+     "lines": [
+      {
+       "who": "A",
+       "text": "Hello, everyone. I'm pleased to announce that our debate team took first place at the regional tournament last weekend. This is the first time our school has won in over ten years. The team will now represent us at the national competition in April. Please join us in the main hall this Friday at noon to congratulate them. Refreshments will be provided."
+      }
+     ],
+     "items": [
+      {
+       "stem": "What is the announcement about?",
+       "options": [
+        "A change in the school schedule",
+        "A new debate class",
+        "A student team's achievement",
+        "A competition held at the school"
+       ],
+       "answer": 2,
+       "why": "our debate team took first place。",
+       "point": "gist"
+      },
+      {
+       "stem": "What are listeners invited to do?",
+       "options": [
+        "Join the debate team",
+        "Attend a gathering on Friday",
+        "Travel to the national competition",
+        "Bring refreshments"
+       ],
+       "answer": 1,
+       "why": "Please join us in the main hall this Friday at noon to congratulate them。茶点是学校提供的。",
+       "point": "detail"
+      }
+     ]
+    },
+    {
+     "intro": "Listen to an announcement on campus.",
+     "lines": [
+      {
+       "who": "A",
+       "text": "Good afternoon. This is a reminder that the deadline to register for spring courses is this Friday at five p.m. After that, you will need your advisor's signature and will be charged a late fee of twenty-five dollars. If the online system gives you an error, don't wait. Come to the registration office in person, and bring your student ID."
+      }
+     ],
+     "items": [
+      {
+       "stem": "What happens to students who register after Friday?",
+       "options": [
+        "They must pay a fee and get a signature.",
+        "They cannot take spring courses.",
+        "They must register in person.",
+        "They lose their student ID."
+       ],
+       "answer": 0,
+       "why": "you will need your advisor's signature and will be charged a late fee。",
+       "point": "detail"
+      },
+      {
+       "stem": "What should a student do if the online system shows an error?",
+       "options": [
+        "Wait until the system is repaired",
+        "Email the advisor",
+        "Pay the late fee",
+        "Go to the registration office"
+       ],
+       "answer": 3,
+       "why": "don't wait. Come to the registration office in person。",
+       "point": "detail"
+      }
+     ]
+    },
+    {
+     "intro": "Listen to an announcement in a classroom.",
+     "lines": [
+      {
+       "who": "A",
+       "text": "Before you leave, one change to the field trip. The bus to the botanical garden will now depart at eight thirty instead of nine, because the garden asked us to arrive before the school groups. We'll still be back by one. If you can't make the earlier time, send me an email today so I can give your seat to someone on the waiting list."
+      }
+     ],
+     "items": [
+      {
+       "stem": "Why has the departure time changed?",
+       "options": [
+        "The bus company changed its schedule.",
+        "The garden asked the group to come earlier.",
+        "The trip will be longer than planned.",
+        "Some students could not come at nine."
+       ],
+       "answer": 1,
+       "why": "because the garden asked us to arrive before the school groups。",
+       "point": "detail"
+      },
+      {
+       "stem": "What will probably happen if a student emails the teacher today?",
+       "options": [
+        "The bus will leave later.",
+        "The student will get a refund.",
+        "The student's seat will go to someone else.",
+        "The trip will be moved to another day."
+       ],
+       "answer": 2,
+       "why": "so I can give your seat to someone on the waiting list。",
+       "point": "detail"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "talk": {
+  "format": "listening",
+  "spec": "出一段 Listen to an Academic Talk：一位老师的短讲，170–220 个英文词，口语化（可以用 Let's say、Now、So 这样的词），讲一个概念：先用身边的例子引入，给出概念的名字和意思，解释，然后有一个转折或对比，最后落到一句建议或态度。不需要背景知识，事实要可靠，拿不准的细节不写。只有一个题组：intro 写 Listen to a talk in a ... class.，lines 只有一句 {who: \"A\", text: 整段短讲}。后面四道题：第一题问主题，其余三题按内容先后，其中一道问「为什么提到某个例子」，一道是推断。",
+  "checks": {
+   "groups": 1,
+   "lines": 1,
+   "text": [
+    150,
+    250
+   ],
+   "items": 4,
+   "intro": "Listen to a talk"
+  },
+  "example": {
+   "groups": [
+    {
+     "intro": "Listen to a talk on a podcast about learning.",
+     "lines": [
+      {
+       "who": "A",
+       "text": "Let's say you have an exam in a week and five hours to study for it. You could do all five hours the night before, or you could study one hour a day for five days. Same total time. Which works better? Research on memory gives a clear answer, and it's called the spacing effect. When you study something once and then come back to it after a break, your brain has to work to bring the information back. That effort is exactly what strengthens the memory. When you repeat the same material again and again in one sitting, it feels easy, and that feeling is misleading. You think you know it, but what you're really noticing is that it's still fresh. There is a catch. Spaced study feels harder and slower, so many students give it up. In several experiments, people who crammed rated their own learning higher than people who spaced their study, even though they scored lower on a test a week later. So don't trust the feeling. If your review session feels a little difficult, that's usually a sign it's working."
+      }
+     ],
+     "items": [
+      {
+       "stem": "What is the talk mainly about?",
+       "options": [
+        "How to study the night before an exam",
+        "Why spreading study over time improves memory",
+        "How to measure a student's memory",
+        "Why exams are scheduled a week apart"
+       ],
+       "answer": 1,
+       "why": "概念是 the spacing effect。A 是被拿来对比的做法。",
+       "point": "main"
+      },
+      {
+       "stem": "Why does the speaker describe two ways of using five hours?",
+       "options": [
+        "To introduce the concept with a familiar situation",
+        "To show that five hours is not enough",
+        "To explain how exams are graded",
+        "To compare two different exams"
+       ],
+       "answer": 0,
+       "why": "这是引子：用一个人人遇到过的选择引出概念。",
+       "point": "organization"
+      },
+      {
+       "stem": "According to the speaker, why does repeating material in one sitting feel easy?",
+       "options": [
+        "The brain is working hard.",
+        "The student has learned it well.",
+        "The material is simple.",
+        "The material is still fresh in the mind."
+       ],
+       "answer": 3,
+       "why": "what you're really noticing is that it's still fresh。B 正是讲者说的错觉。",
+       "point": "detail"
+      },
+      {
+       "stem": "What does the speaker imply about a review session that feels difficult?",
+       "options": [
+        "The student should stop and rest.",
+        "The material is too advanced.",
+        "The session is probably effective.",
+        "The student should study the night before instead."
+       ],
+       "answer": 2,
+       "why": "If your review session feels a little difficult, that's usually a sign it's working。",
+       "point": "detail"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "sentence": {
+  "format": "reading",
+  "spec": "出一套 Build a Sentence：十三道题（检查时会淘汰排法不唯一的，最后留十道），每道是校园或日常生活里两个人的一问一答。stem 是第一个人说的话（问句，或者一句陈述）；回应是一句 7–12 个英文词的话，拆成 lead、四到六个要排的词块（chunks）、tail。lead 是回应句开头的一两个词（大写开头），句末的标点放在 tail 里，tail 前面也可以带回应句最后的一两个词。每题一个 extra。十道题要覆盖：只有主谓宾和时间地点的简单句、带 who / that / which 的定语从句、间接问句（whether、what、which、where 引导，从句里不倒装）、频度副词和 already 的位置、enough 和 too、比较结构（比较级 + than，as … as）、条件句；每种不超过三道，至少三道排出来是问句。每道题的词块必须只有一种排法：不要用放在句首句末都通的副词和时间状语。point 按这道题主要考的那一样标。整套只有一个题组：label 写 Make an appropriate sentence.，look 写 passage，text 写空字符串。",
+  "checks": {
+   "groups": 1,
+   "items": [
+    10,
+    14
+   ],
+   "answer": "order",
+   "chunks": [
+    4,
+    6
+   ],
+   "keep": 10
+  },
+  "example": {
+   "groups": [
+    {
+     "label": "Make an appropriate sentence.",
+     "look": "passage",
+     "text": "",
+     "items": [
+      {
+       "stem": "Where did you put my charger?",
+       "lead": "I",
+       "chunks": [
+        "left",
+        "it",
+        "on the desk",
+        "next to",
+        "your laptop"
+       ],
+       "tail": ".",
+       "extra": [
+        "leave"
+       ],
+       "why": "主语 I + 谓语 left + 宾语 it，后面是地点：on the desk，再用 next to your laptop 说得更具体。leave 时态不对。",
+       "point": "skeleton"
+      },
+      {
+       "stem": "Do you know the professor's office hours?",
+       "lead": "I",
+       "chunks": [
+        "think",
+        "she said",
+        "that",
+        "they are",
+        "on Tuesdays"
+       ],
+       "tail": ".",
+       "extra": [
+        "what"
+       ],
+       "why": "I think 后面是一个句子 she said…，said 后面又是一个 that 从句。两层从句都是陈述语序。",
+       "point": "clause"
+      },
+      {
+       "stem": "Is the reading for tomorrow long?",
+       "lead": "It",
+       "chunks": [
+        "is",
+        "much",
+        "shorter",
+        "than",
+        "last week's chapter"
+       ],
+       "tail": ".",
+       "extra": [
+        "more"
+       ],
+       "why": "比较级 shorter 自己就是「更短」，前面用 much 加强，不能再加 more。than 后面是比较的对象。",
+       "point": "order"
+      },
+      {
+       "stem": "What happened to your presentation?",
+       "lead": "The",
+       "chunks": [
+        "projector",
+        "stopped",
+        "working",
+        "halfway through",
+        "my talk"
+       ],
+       "tail": ".",
+       "extra": [
+        "was"
+       ],
+       "why": "主语 The projector，谓语 stopped working（stop doing：不再做了）。halfway through my talk 是时间，放最后。",
+       "point": "skeleton"
+      },
+      {
+       "stem": "Which elective are you taking?",
+       "lead": "I",
+       "chunks": [
+        "haven't",
+        "decided",
+        "which one",
+        "I",
+        "want"
+       ],
+       "tail": "yet.",
+       "extra": [
+        "do"
+       ],
+       "why": "decided 后面的 which one I want 是间接问句，陈述语序：which one + 主语 + 动词，不加 do。",
+       "point": "clause"
+      },
+      {
+       "stem": "Have you met the new lab assistant?",
+       "lead": "Is",
+       "chunks": [
+        "she",
+        "the one",
+        "who",
+        "helped",
+        "you"
+       ],
+       "tail": "yesterday?",
+       "extra": [
+        "helps"
+       ],
+       "why": "问句：Is + 主语 she + 表语 the one。who helped you yesterday 修饰 the one。yesterday 决定了用过去式 helped。",
+       "point": "clause"
+      },
+      {
+       "stem": "Can I borrow your notes from Monday?",
+       "lead": "I'm",
+       "chunks": [
+        "afraid",
+        "I",
+        "don't",
+        "have them",
+        "with me"
+       ],
+       "tail": ".",
+       "extra": [
+        "not"
+       ],
+       "why": "I'm afraid 后面直接接一个完整的句子：I don't have them with me。否定已经在 don't 里了，not 是多出来的。",
+       "point": "order"
+      },
+      {
+       "stem": "How do I sign up for the workshop?",
+       "lead": "You",
+       "chunks": [
+        "need",
+        "to",
+        "fill out",
+        "a form",
+        "online"
+       ],
+       "tail": ".",
+       "extra": [
+        "filling"
+       ],
+       "why": "need to + 动词原形：need to fill out。宾语 a form 在动词后面，online 说方式，放最后。",
+       "point": "skeleton"
+      },
+      {
+       "stem": "Was the exam difficult?",
+       "lead": "It",
+       "chunks": [
+        "was",
+        "not nearly",
+        "as hard",
+        "as",
+        "I thought"
+       ],
+       "tail": ".",
+       "extra": [
+        "than"
+       ],
+       "why": "as … as 结构：not nearly as hard as I thought，「远没有我想的那么难」。than 只和比较级（harder）连用。",
+       "point": "order"
+      },
+      {
+       "stem": "Why didn't you answer my message?",
+       "lead": "I",
+       "chunks": [
+        "didn't",
+        "see it",
+        "until",
+        "I",
+        "got home"
+       ],
+       "tail": ".",
+       "extra": [
+        "seeing"
+       ],
+       "why": "not … until：直到……才。until 后面是一个完整的分句 I got home。didn't 后面用原形 see。",
+       "point": "clause"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

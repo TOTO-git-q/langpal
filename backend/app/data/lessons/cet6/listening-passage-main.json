@@ -1,0 +1,474 @@
+{
+ "id": "listening-passage-main",
+ "title": "听力篇章主旨题",
+ "goal": "结合首尾与重复信息概括主旨；排除范围不符的主旨选项。",
+ "skill": "听力",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "main",
+   "label": "结合首尾与重复信息概括主旨"
+  },
+  {
+   "id": "scope",
+   "label": "排除范围不符的主旨选项"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语六级（CET-6）：课表",
+   "url": "docs/syllabi/cet6.md",
+   "used": "听力篇章主旨题的内容、知识点与练习规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "主旨题有三种问法：主要内容、标题、讲述目的。开头的背景和单个例子都要放回全段，看它们起什么作用。"
+    },
+    {
+     "box": "What is the passage mainly about?\nWhich title best describes the passage?\nWhy does the speaker discuss the project?"
+    },
+    {
+     "p": "前两种问法问整段讲了什么。目的题问讲者讲这些内容要说明什么。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定问题范围",
+     "d": "主要内容和标题要覆盖整段。目的题要看讲者为什么讲这些内容。"
+    },
+    {
+     "t": "2　联系首尾",
+     "d": "开头常提出问题，结尾常说明结果或认识。The hall was empty 和 The new schedule brought visitors back 合起来看，主题是开放时间的调整。"
+    },
+    {
+     "t": "3　概括重复信息",
+     "d": "主题常换着词重复出现。Shared labels、common names、a single index 说的都是统一目录。"
+    },
+    {
+     "t": "4　核对选项范围",
+     "d": "正确选项覆盖全段的主要内容。只讲开头背景或一个例子的选项，范围过窄。"
+    }
+   ]
+  },
+  {
+   "id": "clues",
+   "type": "table",
+   "title": "主旨线索",
+   "cols": [
+    "线索",
+    "判断",
+    "例"
+   ],
+   "rows": [
+    [
+     "首尾呼应",
+     "联系开头的问题和结尾的结果。",
+     "The path was hard to find. … Signs now guide visitors to it."
+    ],
+    [
+     "首尾呼应",
+     "联系开头的目标和结尾的认识。",
+     "We wanted quieter rooms. … Separate booking times reduced noise."
+    ],
+    [
+     "主题重复",
+     "归纳不同事例中的共同关系。",
+     "Each shelf has a label. Each box has a matching number."
+    ],
+    [
+     "主题重复",
+     "不同的近义表达指同一个对象。",
+     "Residents share tools. Neighbors also lend equipment."
+    ],
+    [
+     "结尾点题",
+     "结尾一句概括前文的做法。",
+     "Members checked routes and times. The plan made deliveries predictable."
+    ],
+    [
+     "结尾点题",
+     "结论要能概括前文的各项做法。",
+     "A group revised its forms and trained staff. Clear instructions improved service."
+    ]
+   ]
+  },
+  {
+   "id": "scope",
+   "type": "table",
+   "title": "主旨选项的范围",
+   "cols": [
+    "问法",
+    "判断依据",
+    "例"
+   ],
+   "rows": [
+    [
+     "主要内容",
+     "概括各部分共有的对象与关系。",
+     "A route was tested and revised. → The development of a route"
+    ],
+    [
+     "标题",
+     "标题覆盖主要内容，避免只命名一个例子。",
+     "Several rooms were reorganized. → Reorganizing shared space"
+    ],
+    [
+     "讲述目的",
+     "从事例和结论确定讲述的作用。",
+     "Two trials led to a safer route. → To show how testing improved a route"
+    ],
+    [
+     "开头背景",
+     "背景只引出主题。",
+     "An old building housed a new repair service."
+    ],
+    [
+     "单个人物",
+     "一个人的经历常只是一个例子。",
+     "One member tested the booking form among several changes."
+    ],
+    [
+     "单一例子",
+     "例子用来支持整体观点。",
+     "A numbered shelf illustrates a wider filing system."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A community hall once opened only in the evening. A survey found that older residents preferred morning activities, while parents wanted a session after school. The hall introduced both and moved some evening events to a smaller room. Attendance became more evenly spread. The experience shows that a schedule can be redesigned around different groups' needs."
+    },
+    {
+     "box": "What is the speaker's main point?\n1. Evening activities should all move to a smaller room.\n2. A schedule can reflect the needs of different groups.\n3. Older residents prefer every activity in the morning.\n4. Parents designed the hall's original evening schedule."
+    },
+    {
+     "p": "开头说原来只在晚上开放，结尾说时间表按不同群体的需要重新安排。第二项概括全段。第一项的小房间只是其中一项调整。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "背景代替主题",
+     "The hall's former evening hours",
+     "旧时间是调整的背景。"
+    ],
+    [
+     "例子代替整体",
+     "The use of a smaller room",
+     "房间调整只是重新安排的一部分。"
+    ],
+    [
+     "主体替换",
+     "Parents designed the original schedule",
+     "材料说父母需要放学后的活动。"
+    ],
+    [
+     "范围扩大",
+     "All activities were moved to mornings",
+     "材料保留了不同时段。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "main",
+    "scope"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A museum found that visitors missed its upstairs displays. Staff added signs near the stairs and printed a map. The map showed the upper rooms as well as the displays on the ground floor. Staff placed copies beside the entrance. The changes made the upper rooms easier to find."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is the passage mainly about?",
+       "options": [
+        "Changes that help visitors find the upper rooms",
+        "Reasons for moving the museum displays downstairs",
+        "A plan to replace the museum's printed visitor maps",
+        "A printed map of the museum's ground-floor displays"
+       ],
+       "answer": 0,
+       "why": "added signs 和 printed a map 说明博物馆怎样帮助参观者找到楼上展室。",
+       "point": "main"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A choir rehearsed in a small room before moving to a school hall. Its conductor then divided rehearsals into sections and combined them later. Each section could work on its own music in the hall. This let singers work on difficult parts before practicing together."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which title best covers the passage?",
+       "options": [
+        "Why a choir left the school hall",
+        "The choir's work on difficult sections of its music",
+        "How a choir changed where and how it rehearsed",
+        "How singers practiced together without sections"
+       ],
+       "answer": 2,
+       "why": "moving to a school hall 和 divided rehearsals 共同说明合唱团排练安排的改变。",
+       "point": "scope"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "At a market, one stall changed the labels on its jars. Another placed ingredient cards beside its bread. The jar labels named their contents, while the cards listed what went into each loaf. Both actions helped customers identify what they were buying."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why does the speaker mention the two stalls?",
+       "options": [
+        "To present jar labels as the only way to identify products",
+        "To show two ways of helping customers identify products",
+        "To explain how bread cards replaced the labels on jars",
+        "To show why the bread stall stopped using ingredient cards"
+       ],
+       "answer": 1,
+       "why": "Both actions helped customers identify what they were buying 概括两个例子的共同作用。",
+       "point": "main"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A swimming club reviewed its pool timetable. It reserved early sessions for instruction and left later sessions open for independent practice. Members who wanted a lesson could use the early sessions, while those practicing alone could come later. The new timetable gave both activities a regular place."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which title best describes the passage?",
+       "options": [
+        "The early lessons offered by the swimming club",
+        "Why independent practice at the pool was cancelled",
+        "The later sessions for independent swimming practice",
+        "A timetable for both lessons and independent practice"
+       ],
+       "answer": 3,
+       "why": "instruction 和 independent practice 是新时间表安排的两种活动，第四项涵盖两者。",
+       "point": "scope"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "main",
+    "scope"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the passage.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A group restoring an orchard began by mapping its trees. One volunteer photographed the oldest tree, but the map included every tree in the plot. The group then noted which trees needed support and which paths had to stay clear for workers. The work was not simply a record of old trees. It gave the group a practical basis for planning repairs and access."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is the main purpose of the account?",
+       "options": [
+        "To explain how a map supported orchard work",
+        "To compare the ages of individual orchard trees",
+        "To describe how photographs replaced the orchard map",
+        "To show why workers stopped using the orchard paths"
+       ],
+       "answer": 0,
+       "why": "a practical basis for planning repairs and access 说明地图支持果园工作的安排。",
+       "point": "main"
+      },
+      {
+       "stem": "Which title best represents the whole passage?",
+       "options": [
+        "Photographing the oldest tree in an orchard",
+        "Closing every path through a working orchard",
+        "Using an orchard map to plan practical work",
+        "Deciding which orchard trees needed support"
+       ],
+       "answer": 2,
+       "why": "mapping its trees 和 planning repairs and access 构成全段主线，最老的树只是一个细节。",
+       "point": "scope"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "main",
+    "scope"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the passage.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'm going to talk about a neighborhood cinema that changed how it plans its programme. For years, the cinema had selected films through a small committee. The committee knew the regular audience well, but it had little information about people who rarely attended. When ticket sales fell on weekday afternoons, the members initially considered reducing the number of screenings. Before making that decision, they invited residents to describe what kept them away. The answers were varied. Some people wanted films with subtitles, while others said the existing starting times made it difficult to travel home by bus. A parent also suggested a weekend event for families. The committee could not satisfy every request at once, so it chose a few changes to try over several months. It added subtitles to selected screenings and moved one afternoon showing earlier. It also organized a family event on a Saturday. Staff kept records of attendance and collected comments after each event. The first family event was crowded, although a later one attracted fewer people. The earlier afternoon screening brought in some visitors who had previously found the journey home inconvenient. At the end of the trial, the committee kept the earlier time and continued to test other suggestions. Its experience illustrates a broader change in planning: decisions became a cycle of listening, trying an adjustment, and examining the response. A single successful event mattered less than having a way to learn from different members of the audience."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is the passage mainly about?",
+         "options": [
+          "A cinema's shift toward testing audience suggestions",
+          "The committee's plan to end all afternoon screenings",
+          "A family's proposal for a single Saturday cinema event",
+          "The subtitles added to some weekday screenings"
+         ],
+         "answer": 0,
+         "why": "listening, trying an adjustment, and examining the response 概括影院调整放映计划的方式。",
+         "point": "main"
+        },
+        {
+         "stem": "Which title best covers the passage?",
+         "options": [
+          "How One Family Event Filled a Cinema",
+          "Building Audience Feedback into Cinema Planning",
+          "The History of the Cinema's Small Committee",
+          "Why All Afternoon Screenings Were Cancelled"
+         ],
+         "answer": 1,
+         "why": "invited residents 和 kept records 表明收集意见与检验结果都进入了计划过程。",
+         "point": "scope"
+        },
+        {
+         "stem": "Why does the speaker describe the cinema's trial?",
+         "options": [
+          "To show that subtitles alone restored ticket sales",
+          "To argue that every suggestion should be adopted",
+          "To explain why family events always attract crowds",
+          "To illustrate a process for learning from audiences"
+         ],
+         "answer": 3,
+         "why": "a cycle of listening, trying an adjustment, and examining the response 说明试行体现了向观众学习的过程。",
+         "point": "main"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the passage.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'd like to describe a change in the way a town maintains its public benches. In the past, the maintenance team usually acted after someone reported a broken seat. A worker would visit, identify the problem, and return later with the necessary tools. This solved individual problems, but it made it difficult to plan the team's work across the town. The team decided to create a regular inspection record. Each bench received a number, and workers noted its condition during visits to nearby streets. The record included loose fittings, damaged surfaces, and whether a bench needed cleaning. The team also kept a space for reports from residents. A report could still lead to an immediate visit if a seat was unsafe. The inspection record served a different purpose: it helped the team group less urgent jobs and bring suitable materials on a planned trip. In one area, workers found several benches with loose fittings. They repaired those seats during one visit instead of arranging separate trips. In another area, most benches needed cleaning rather than repairs, so a different team was scheduled. The team updated the record after each visit to show what had been done. The record did not eliminate unexpected damage, and staff continued to respond to urgent calls. It did, however, help them see patterns that individual reports could not show. The town's experience demonstrates how routine information can support maintenance planning while leaving room for prompt action when a problem requires it."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is the passage mainly about?",
+         "options": [
+          "A system that relies only on residents' reports",
+          "A worker's journey to repair one loose fitting",
+          "Maintenance that combines records and reports",
+          "The cleaning of benches in one area of town"
+         ],
+         "answer": 2,
+         "why": "regular inspection record 和 reports from residents 共同构成改进后的维护安排，即第三项。第一项只依靠居民报告，是原来的做法。",
+         "point": "main"
+        },
+        {
+         "stem": "Which title best reflects the whole passage?",
+         "options": [
+          "Grouping Loose-Fitting Repairs into One Visit",
+          "Planning Bench Maintenance with Routine Records",
+          "Why Residents Stopped Reporting Damaged Benches",
+          "Responding to Urgent Calls about Unsafe Seats"
+         ],
+         "answer": 1,
+         "why": "routine information can support maintenance planning 概括全段，即第二项。第一项的合并维修只是其中一个例子。",
+         "point": "scope"
+        },
+        {
+         "stem": "Which title focuses on one example rather than the whole account?",
+         "options": [
+          "Planning Bench Maintenance with Records and Reports",
+          "Combining Routine Inspection with Urgent Repairs",
+          "Improving Maintenance through Information and Action",
+          "Cleaning Rather than Repairing Benches in One Area"
+         ],
+         "answer": 3,
+         "why": "In another area, most benches needed cleaning 只描述一个地区，不能涵盖整个维护制度。",
+         "point": "scope"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

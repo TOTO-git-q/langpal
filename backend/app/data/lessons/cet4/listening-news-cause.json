@@ -1,0 +1,424 @@
+{
+ "id": "listening-news-cause",
+ "title": "新闻原因与后果题",
+ "goal": "辨认新闻事件的直接原因以及已经发生或预期的后果。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "cause",
+   "label": "听出事件的直接原因"
+  },
+  {
+   "id": "result",
+   "label": "区分已发生后果与预期结果"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "听力课程材料的依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "type",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "why 和 cause 问原因，result 问结果。答题时把原因、事件和后果按先后顺序对应起来。"
+    },
+    {
+     "box": "Why did the bus stop? / What caused the delay? / What was the result of the delay?"
+    },
+    {
+     "p": "报道常先交代背景，再说直接原因。有的后果只是预期，要看动词形式。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　识别问法",
+     "d": "why 和 cause 指向原因，result 指向后果。The road flooded, so the bus stopped 中，洪水是原因。"
+    },
+    {
+     "t": "2　定位事件",
+     "d": "确定题干询问的是哪一事件。一次报道可能同时涉及关闭道路和调整线路。"
+    },
+    {
+     "t": "3　建立关系",
+     "d": "用因果表达连接原因与事件。because of 后面的名词短语通常表示原因。"
+    },
+    {
+     "t": "4　核对状态",
+     "d": "区分已发生的结果与预计发生的结果。原文说预计改善服务，选项就不能写成服务已经改善。"
+    }
+   ]
+  },
+  {
+   "id": "signals",
+   "type": "table",
+   "title": "因果表达",
+   "cols": [
+    "表达",
+    "关系",
+    "例"
+   ],
+   "rows": [
+    [
+     "because of",
+     "后接原因",
+     "The road closed because of flooding."
+    ],
+    [
+     "due to",
+     "后接原因",
+     "The delay was due to heavy rain."
+    ],
+    [
+     "lead to",
+     "后接结果",
+     "A damaged pipe led to a closure."
+    ],
+    [
+     "as a result",
+     "引出结果",
+     "The road flooded. As a result, buses changed routes."
+    ],
+    [
+     "be expected to",
+     "后接预期的结果，尚未发生",
+     "The repairs are expected to reduce delays."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The town closed the footbridge because of a damaged support. The bridge was built twenty years ago. Officials expect repairs to make the crossing safer. Engineers inspected the crossing on Monday after a resident reported damage. Workers will replace the support before the bridge reopens. The town has placed a notice at each end of the crossing and will announce the reopening date later.\nWhy was the footbridge closed?\n1. Its support was damaged.\n2. The bridge was twenty years old.\n3. Repairs had made it safer.\n4. Officials opened another crossing."
+    },
+    {
+     "p": "because of a damaged support 是直接原因，第一项与之对应。第二项的建造年代只是背景。第三项是预期，还没有发生。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "原文",
+    "错误对应"
+   ],
+   "rows": [
+    [
+     "背景当原因",
+     "The bridge was built twenty years ago.",
+     "桥梁关闭是因为建造年代。"
+    ],
+    [
+     "结果当前因",
+     "Flooding closed the road; buses changed routes.",
+     "公交改道导致道路关闭。"
+    ],
+    [
+     "预期当事实",
+     "Repairs are expected to reduce delays.",
+     "维修已经减少延误。"
+    ],
+    [
+     "事件替换",
+     "A damaged pipe closed the pool.",
+     "水管损坏关闭了健身房。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "cause",
+    "result"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The ferry was delayed because of thick fog. Its afternoon trip arrived late at the island."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why was the ferry delayed?",
+       "options": [
+        "The afternoon trip arrived late.",
+        "Thick fog affected the journey.",
+        "The afternoon trip was canceled.",
+        "The fog cleared before the trip."
+       ],
+       "answer": 1,
+       "why": "because of thick fog 说明延误的原因是大雾，第二项符合。",
+       "point": "cause"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A broken water pipe closed the sports hall. The hall had opened five years earlier."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What caused the sports hall to close?",
+       "options": [
+        "Its opening five years ago",
+        "A change to its opening hours",
+        "A water pipe that had broken",
+        "A new pipe in another hall"
+       ],
+       "answer": 2,
+       "why": "依据是 A broken water pipe closed the sports hall。水管破裂导致体育馆关闭，第三项符合。",
+       "point": "cause"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A storm damaged the road. As a result, buses now use the bridge route."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What happened as a result of the road damage?",
+       "options": [
+        "The bridge route was damaged.",
+        "The storm reached the bridge.",
+        "The buses stopped using roads.",
+        "Buses changed to another route."
+       ],
+       "answer": 3,
+       "why": "As a result, buses now use the bridge route 是已经发生的结果。公交改走桥上的线路，第四项符合。",
+       "point": "result"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The town is replacing old lamps. Officials expect the new lights to reduce electricity use."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What do officials expect from the new lights?",
+       "options": [
+        "A drop in electricity use",
+        "Replacing all the old lamps",
+        "More electricity use",
+        "Electricity use staying the same"
+       ],
+       "answer": 0,
+       "why": "依据是 expect the new lights to reduce electricity use。官员预期用电减少，第一项符合。",
+       "point": "result"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "cause",
+    "result"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A town swimming pool closed on Monday because a pipe supplying water to the changing rooms had broken. The pool had been built ten years ago and had remained open during routine checks last summer. Staff discovered water on the floor early on Monday and called a repair team. The team turned off the supply and began replacing the damaged pipe. As a result of the closure, swimming lessons scheduled for Monday were moved to the nearby school pool. The town says the school pool will also host lessons on Tuesday. Workers expect to finish replacing the pipe by Wednesday, but the town has not announced a reopening time. The pool manager said staff would inspect the floor before allowing visitors back into the changing rooms. The manager expects the new pipe to prevent a repeat of the leak. Updates will be posted at the pool entrance and on the town notice board."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why did the town pool close?",
+       "options": [
+        "Summer checks were complete.",
+        "A water supply pipe had broken.",
+        "Lessons moved to the school pool.",
+        "The changing rooms needed inspection."
+       ],
+       "answer": 1,
+       "why": "依据是 because a pipe supplying water to the changing rooms had broken。供水管破裂是直接原因，第二项符合。",
+       "point": "cause"
+      },
+      {
+       "stem": "What happened as a result of the closure?",
+       "options": [
+        "The school pool closed on Tuesday.",
+        "The changing rooms passed inspection.",
+        "The lessons moved to another pool.",
+        "The town announced a reopening time."
+       ],
+       "answer": 2,
+       "why": "依据是 As a result of the closure, swimming lessons … were moved。课程已经改到附近学校的泳池，第三项符合。",
+       "point": "result"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "cause",
+    "result"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The Northvale town market moved indoors on Saturday because strong winds made its outdoor stalls unsafe. The market usually operates in the square beside the town hall and has served local residents for more than twenty years. On Friday evening, organizers checked the weather forecast and contacted the stallholders. They arranged space in the nearby community hall, where the market opened at its usual time the following morning. The move allowed shoppers to visit most of the usual stalls, although two sellers could not attend. As a result, those sellers will return the following Saturday. The organizers said the hall had enough room for visitors to move between the tables. They expect the market to return to the square next week if conditions improve. A notice at the square directed shoppers to the hall, and volunteers stood outside to answer questions. The town council thanked the hall staff for preparing the building at short notice."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why did the market move indoors?",
+         "options": [
+          "The square had served residents for twenty years.",
+          "Two sellers could not attend the market.",
+          "Strong winds made outdoor stalls unsafe.",
+          "The forecast showed rain on Saturday."
+         ],
+         "answer": 2,
+         "why": "依据是 because strong winds made its outdoor stalls unsafe。大风使露天摊位不安全，第三项符合。",
+         "point": "cause"
+        },
+        {
+         "stem": "Why could shoppers visit most of the usual stalls?",
+         "options": [
+          "The market moved to the community hall.",
+          "Every seller attended despite the wind.",
+          "The square remained open to the market.",
+          "The two absent sellers returned on Saturday."
+         ],
+         "answer": 0,
+         "why": "依据是 The move allowed shoppers to visit most of the usual stalls。市场搬进社区礼堂，顾客才能去大多数摊位，第一项符合。",
+         "point": "cause"
+        },
+        {
+         "stem": "What do organizers expect if conditions improve?",
+         "options": [
+          "The market will stay in the community hall.",
+          "The market will return to the square.",
+          "All outdoor stalls have already returned.",
+          "Two sellers have left the market permanently."
+         ],
+         "answer": 1,
+         "why": "依据是 expect the market to return to the square next week if conditions improve。天气好转后市场回到广场，第二项符合。",
+         "point": "result"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "A city library has extended its weekend hours after a survey showed that many residents could not visit during the working week. From this month, the library will open two hours earlier on Saturdays and remain open one hour later on Sundays. The building was renovated three years ago, when a study room was added on the upper floor. The recent survey was available at the library desk and online for four weeks. More than six hundred residents responded, and many requested longer weekend access. As a result of the new schedule, the library has added two staff shifts at the weekend. The library director expects the change to give families more time to use the study room. Staff will count weekend visits for the next three months before reviewing the schedule. Weekday opening times and borrowing rules remain unchanged. A printed timetable is available beside the entrance for visitors who need it."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why did the library extend its weekend hours?",
+         "options": [
+          "The study room was added three years ago.",
+          "Many residents couldn't visit on weekdays.",
+          "The library had removed its borrowing rules.",
+          "Staff had already counted three months of visits."
+         ],
+         "answer": 1,
+         "why": "依据是 a survey showed that many residents could not visit during the working week。许多居民工作日无法前来，第二项符合。",
+         "point": "cause"
+        },
+        {
+         "stem": "What has happened as a result of the new schedule?",
+         "options": [
+          "The study room was added upstairs.",
+          "The weekday hours were reduced.",
+          "The library stopped its survey.",
+          "Two weekend staff shifts were added."
+         ],
+         "answer": 3,
+         "why": "依据是 As a result of the new schedule, the library has added two staff shifts。周末已增加两个班次，第四项符合。",
+         "point": "result"
+        },
+        {
+         "stem": "What does the director expect the change to do?",
+         "options": [
+          "Give families more study-room time",
+          "Change the weekday opening times",
+          "Remove all need for weekend staff shifts",
+          "Replace the existing borrowing rules"
+         ],
+         "answer": 0,
+         "why": "依据是 expects the change to give families more time to use the study room。这是馆长的预期，第一项符合。",
+         "point": "result"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

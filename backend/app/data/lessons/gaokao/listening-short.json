@@ -1,0 +1,68 @@
+{
+  "id": "listening-short",
+  "title": "短对话　听力第一节 · 练习",
+  "goal": "听懂短对话中的细节、场景和行动。",
+  "skill": "listening",
+  "exam": "高考英语（新课标卷）",
+  "points": [
+    {"id": "detail", "label": "听出明确细节并识别同义改写"},
+    {"id": "inference", "label": "根据话语判断场景与人物关系"},
+    {"id": "intention", "label": "区分建议与最终行动"}
+  ],
+  "sources": [{"id": "sample", "title": "2024 年高考综合改革适应性测试 英语（新课标卷）试卷（教育部教育考试院）", "url": "https://www.neea.edu.cn/html1/report/2401/499-1.htm", "used": "听力第一节题型"}],
+  "cards": [{
+    "id": "timed", "type": "quiz", "title": "小测", "minutes": 4, "pass": 0.7,
+    "points": ["detail", "inference", "intention"],
+    "sets": [
+      {"id": "set-a", "groups": [
+        {"audio": {"intro": "Listen to the conversation.", "lines": [
+          {"who": "A", "text": "Excuse me, I ordered a book last week. Has it arrived yet? I need it for my history project."},
+          {"who": "B", "text": "Let me check your name. Yes, it's here behind the desk. You can borrow it for three weeks."}
+        ]}, "items": [{"stem": "Where are the speakers?", "options": ["At a library.", "At a cinema.", "At a railway station."], "answer": 0, "why": "对话提到订书和借书期限，说明地点是图书馆。", "point": "inference"}]},
+        {"audio": {"intro": "Listen to the conversation.", "lines": [
+          {"who": "A", "text": "Shall we meet at the museum at ten on Saturday? The exhibition opens at nine, but I have a class first."},
+          {"who": "B", "text": "Ten works for me. I'll wait beside the ticket desk, not at the main gate."}
+        ]}, "items": [{"stem": "When will the speakers meet?", "options": ["At nine.", "At ten.", "After eleven."], "answer": 1, "why": "两人约定十点见面，九点是展览开放时间。", "point": "detail"}]},
+        {"audio": {"intro": "Listen to the conversation.", "lines": [
+          {"who": "A", "text": "I was going to take the bus to the sports centre, but the next one won't come for half an hour."},
+          {"who": "B", "text": "Then why not walk? It's only fifteen minutes away. I'll come with you."},
+          {"who": "A", "text": "Good idea. Let's go now."}
+        ]}, "items": [{"stem": "How will the speakers travel?", "options": ["By bus.", "By car.", "On foot."], "answer": 2, "why": "一人提议步行，另一人同意；乘公交是原计划。", "point": "intention"}]},
+        {"audio": {"intro": "Listen to the conversation.", "lines": [
+          {"who": "A", "text": "Could you tell me why my plant's leaves are turning yellow? I water it every morning before school."},
+          {"who": "B", "text": "The soil feels very wet. Try watering it less often, and keep it near a window rather than outside."}
+        ]}, "items": [{"stem": "What does the second speaker advise?", "options": ["Watering the plant less often.", "Putting the plant outside.", "Watering it every morning."], "answer": 0, "why": "建议减少浇水次数，并放在窗边而不是室外。", "point": "detail"}]},
+        {"audio": {"intro": "Listen to the conversation.", "lines": [
+          {"who": "A", "text": "Have you finished the poster for the school concert? We need to send it to the printer today."},
+          {"who": "B", "text": "Almost. I still need to add the starting time. Could you check the date while I do that?"},
+          {"who": "A", "text": "Sure, I'll look at the programme."}
+        ]}, "items": [{"stem": "What will the second speaker add to the poster?", "options": ["The concert date.", "The starting time.", "The printer's address."], "answer": 1, "why": "第二个人要补上开始时间，并请对方核对日期。", "point": "intention"}]}
+      ]},
+      {"id": "set-b", "groups": [
+        {"audio": {"intro": "Listen to the conversation.", "lines": [
+          {"who": "A", "text": "The pottery class was supposed to start at half past two, wasn't it? I hope we haven't missed the beginning."},
+          {"who": "B", "text": "No, the teacher moved it to three because the earlier group needed more time to finish their work."}
+        ]}, "items": [{"stem": "When will the pottery class start?", "options": ["At two.", "At half past two.", "At three."], "answer": 2, "why": "老师把开始时间从两点半改到了三点。", "point": "detail"}]},
+        {"audio": {"intro": "Listen to the conversation.", "lines": [
+          {"who": "A", "text": "I'd like to send this parcel to my sister. Could you tell me how much the postage will be?"},
+          {"who": "B", "text": "Certainly. Please put it on the scales first, and I'll check the weight before printing a label for you."}
+        ]}, "items": [{"stem": "Where are the speakers most likely?", "options": ["At a post office.", "In a classroom.", "At a sports centre."], "answer": 0, "why": "对话涉及寄包裹、称重和打印邮寄标签，地点是邮局。", "point": "inference"}]},
+        {"audio": {"intro": "Listen to the conversation.", "lines": [
+          {"who": "A", "text": "Should I send the photographs by email, or would you rather have printed copies for the display tomorrow?"},
+          {"who": "B", "text": "Email them, please. I can choose the best ones and print them here before the hall opens."},
+          {"who": "A", "text": "All right. I'll send them tonight."}
+        ]}, "items": [{"stem": "What will the first speaker do tonight?", "options": ["Print the photographs.", "Email the photographs.", "Open the hall."], "answer": 1, "why": "第一人同意今晚发邮件；第二人负责挑选和打印。", "point": "intention"}]},
+        {"audio": {"intro": "Listen to the conversation.", "lines": [
+          {"who": "A", "text": "I thought the gardening club met in the science room. Why are all the chairs outside the library today?"},
+          {"who": "B", "text": "The science room is being painted, so we're meeting in the library this week. Next week we'll return to our usual room."}
+        ]}, "items": [{"stem": "Why is the club meeting in the library?", "options": ["The library has more chairs.", "The usual room is being painted.", "The club is choosing books."], "answer": 1, "why": "科学教室正在粉刷，所以本周改在图书馆集合。", "point": "detail"}]},
+        {"audio": {"intro": "Listen to the conversation.", "lines": [
+          {"who": "A", "text": "We could take the early train, but we'd have to leave home before six. Is there another way to reach the village?"},
+          {"who": "B", "text": "There's a bus at eight. It takes a little longer, but it stops close to the village hall."},
+          {"who": "A", "text": "Let's take that, then."}
+        ]}, "items": [{"stem": "How will the speakers reach the village?", "options": ["By train.", "On foot.", "By bus."], "answer": 2, "why": "第二人提出乘八点的公交，第一人接受了这个方案。", "point": "intention"}]}
+      ]}
+    ],
+    "more": {"kind": "listening-short", "topics": ["图书借阅", "展览安排", "出行选择", "植物照料", "校园海报", "手工课程", "邮寄包裹", "照片展示", "社团活动", "乡村交通", "志愿服务", "运动安排"]}
+  }]
+}

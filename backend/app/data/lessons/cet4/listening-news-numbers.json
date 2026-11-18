@@ -1,0 +1,552 @@
+{
+ "id": "listening-news-numbers",
+ "title": "新闻中的数字与单位",
+ "goal": "听辨新闻中的数字并将数值对应到对象及单位。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "number",
+   "label": "听辨数字和日期表达"
+  },
+  {
+   "id": "unit",
+   "label": "将数值对应到对象及单位"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "听力课程材料的依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "新闻里的数字要和对象、单位、时间对应起来。同一个数字配上不同的单位，意思就不同。"
+    },
+    {
+     "box": "The trip takes fifteen minutes and costs fifteen dollars."
+    },
+    {
+     "p": "fifteen minutes 表示时长，fifteen dollars 表示费用。变化前后的两个数值要分开记。"
+    }
+   ]
+  },
+  {
+   "id": "numbers",
+   "type": "table",
+   "title": "数字对比",
+   "cols": [
+    "类别",
+    "表达",
+    "例"
+   ],
+   "rows": [
+    [
+     "十几与整十",
+     "thirteen / thirty",
+     "Thirteen seats remain; thirty were available."
+    ],
+    [
+     "十几与整十",
+     "fourteen / forty",
+     "Fourteen tickets were sold; forty were printed."
+    ],
+    [
+     "十几与整十",
+     "fifteen / fifty",
+     "Fifteen workers arrived; fifty applied."
+    ],
+    [
+     "百与千",
+     "a hundred / a thousand",
+     "A hundred visited today; a thousand visited this month."
+    ],
+    [
+     "百与千",
+     "two hundred / two thousand",
+     "Two hundred seats were filled out of two thousand."
+    ],
+    [
+     "百与千",
+     "three hundred / three thousand",
+     "Three hundred maps were used out of three thousand."
+    ]
+   ]
+  },
+  {
+   "id": "dates",
+   "type": "table",
+   "title": "比例与日期",
+   "cols": [
+    "类别",
+    "表达",
+    "例"
+   ],
+   "rows": [
+    [
+     "百分数",
+     "ten percent / twenty percent",
+     "Ten percent walked; twenty percent cycled."
+    ],
+    [
+     "百分数",
+     "fifteen percent / fifty percent",
+     "Fifteen percent arrived early; fifty percent arrived later."
+    ],
+    [
+     "百分数",
+     "thirty percent / thirteen percent",
+     "Thirty percent chose tea; thirteen percent chose juice."
+    ],
+    [
+     "日期",
+     "May third / March fifth",
+     "The work starts on March fifth and ends on May third."
+    ],
+    [
+     "日期",
+     "June tenth / June twentieth",
+     "The hall closes on June tenth and opens on June twentieth."
+    ],
+    [
+     "日期",
+     "July first / July fifteenth",
+     "Tickets arrive on July first; sales begin on July fifteenth."
+    ]
+   ]
+  },
+  {
+   "id": "units",
+   "type": "table",
+   "title": "年龄与单位",
+   "cols": [
+    "类别",
+    "对应关系",
+    "例"
+   ],
+   "rows": [
+    [
+     "年龄",
+     "thirteen / thirty years old",
+     "A thirteen-year-old visitor met a thirty-year-old guide."
+    ],
+    [
+     "年龄",
+     "fourteen / forty years old",
+     "The fourteen-year-old student spoke to a forty-year-old teacher."
+    ],
+    [
+     "年龄",
+     "fifteen / fifty years old",
+     "A fifteen-year-old musician joined a fifty-year-old director."
+    ],
+    [
+     "人数",
+     "people 表示人数。",
+     "Twenty people joined the tour."
+    ],
+    [
+     "金额",
+     "dollars 表示金额。",
+     "The ticket costs twenty dollars."
+    ],
+    [
+     "时长",
+     "minutes 表示持续时间。",
+     "The tour lasts twenty minutes."
+    ],
+    [
+     "变化前后",
+     "from 后是原值，to 后是新值。",
+     "Attendance rose from twenty to thirty."
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "number",
+    "unit"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Thirteen students joined the garden project, and thirty attended its opening."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "How many students joined the project?",
+       "options": [
+        "Thirty students",
+        "Thirteen students",
+        "Three students",
+        "Forty students"
+       ],
+       "answer": 1,
+       "why": "依据是 Thirteen students joined the garden project。第二项符合；thirty 是参加开幕的人数。",
+       "point": "number"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The hall closes on June tenth and reopens on June twentieth."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "When will the hall reopen?",
+       "options": [
+        "On June tenth",
+        "On July twentieth",
+        "On June twentieth",
+        "On July tenth"
+       ],
+       "answer": 2,
+       "why": "依据是 reopens on June twentieth。第三项符合；June tenth 是关闭的日期。",
+       "point": "number"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The tour takes twenty minutes and costs fifteen dollars."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What does fifteen refer to?",
+       "options": [
+        "The number of tours",
+        "The length in minutes",
+        "The number of visitors",
+        "The price in dollars"
+       ],
+       "answer": 3,
+       "why": "依据是 costs fifteen dollars。fifteen 后面的单位是 dollars，指价格，第四项符合。",
+       "point": "unit"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Attendance rose from two hundred to three hundred last month."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What was the new attendance figure?",
+       "options": [
+        "Three hundred people",
+        "Two hundred people",
+        "Three thousand people",
+        "Two thousand people"
+       ],
+       "answer": 0,
+       "why": "依据是 rose from two hundred to three hundred。to 后面是变化后的数值，第一项符合。",
+       "point": "unit"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "number",
+    "unit"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A town museum has extended its weekend opening hours after receiving comments from visitors. The museum now opens at nine on Saturday instead of ten. On Sunday it continues to open at ten, but it closes at six rather than five. Last month, three hundred people visited on Saturdays, compared with two hundred during the previous month. A museum officer said the longer hours would give families more time to see the displays. The museum has also introduced a short tour of the building. The tour lasts forty minutes and costs fifteen dollars per adult. Children can join without a charge when accompanied by an adult. The museum plans to review attendance at the end of the season. Staff will keep a record of visitor numbers and ask people whether the revised hours are useful. The officer said weekday opening times and the existing bus stop outside the building would remain unchanged."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "How long does the new tour last?",
+       "options": [
+        "Fifteen minutes",
+        "Forty minutes",
+        "Sixty minutes",
+        "Fourteen minutes"
+       ],
+       "answer": 1,
+       "why": "依据是 The tour lasts forty minutes。第二项符合；fifteen 是成人票价。",
+       "point": "number"
+      },
+      {
+       "stem": "What was the earlier Saturday attendance figure?",
+       "options": [
+        "Three hundred people",
+        "Two thousand people",
+        "Two hundred people",
+        "Three thousand people"
+       ],
+       "answer": 2,
+       "why": "依据是 compared with two hundred during the previous month。这是变化前的人数，第三项符合。",
+       "point": "unit"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "number",
+    "unit"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Thirteen volunteers planted trees on Saturday. Thirty more will help next week."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "How many volunteers planted trees on Saturday?",
+         "options": [
+          "Thirty volunteers",
+          "Forty volunteers",
+          "Thirteen volunteers",
+          "Fifteen volunteers"
+         ],
+         "answer": 2,
+         "why": "依据是 Thirteen volunteers planted trees on Saturday。第三项符合；thirty 是下周来帮忙的人数。",
+         "point": "number"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The exhibition opens on March fifth and closes on May third."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "When does the exhibition open?",
+         "options": [
+          "On March fifth",
+          "On May third",
+          "On March third",
+          "On May fifth"
+         ],
+         "answer": 0,
+         "why": "依据是 opens on March fifth。第一项符合；May third 是闭展日期。",
+         "point": "number"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The library received two thousand books this year. Two hundred arrived in May."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "How many books arrived in May?",
+         "options": [
+          "Two thousand books",
+          "Three hundred books",
+          "Three thousand books",
+          "Two hundred books"
+         ],
+         "answer": 3,
+         "why": "依据是 Two hundred arrived in May。第四项符合；two thousand 是全年收到的总数。",
+         "point": "number"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Fifteen percent of visitors chose the morning tour, while fifty percent chose the afternoon tour."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What percentage chose the morning tour?",
+         "options": [
+          "Fifty percent",
+          "Fifteen percent",
+          "Forty percent",
+          "Fourteen percent"
+         ],
+         "answer": 1,
+         "why": "依据是 Fifteen percent of visitors chose the morning tour。第二项符合；fifty percent 选的是下午的参观。",
+         "point": "number"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "A fourteen-year-old student interviewed a forty-year-old gardener for the project."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "How old was the student?",
+         "options": [
+          "Forty years old",
+          "Fifty years old",
+          "Fourteen years old",
+          "Fifteen years old"
+         ],
+         "answer": 2,
+         "why": "依据是 A fourteen-year-old student。第三项符合；forty 是园丁的年龄。",
+         "point": "number"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The boat journey lasts thirty minutes and costs twenty dollars."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What does twenty refer to?",
+         "options": [
+          "The cost in dollars",
+          "The journey in minutes",
+          "The number of boats",
+          "The number of passengers"
+         ],
+         "answer": 0,
+         "why": "依据是 costs twenty dollars。twenty 后面的单位是 dollars，指费用，第一项符合。",
+         "point": "unit"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The class had twelve students last month and now has twenty students."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is the current class size?",
+         "options": [
+          "Twelve students",
+          "Thirty students",
+          "Thirty-two students",
+          "Twenty students"
+         ],
+         "answer": 3,
+         "why": "依据是 now has twenty students。第四项符合；twelve 是上个月的人数。",
+         "point": "unit"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The hall rental is fifty dollars, and the meeting lasts fifty minutes."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which figure describes the duration of the meeting?",
+         "options": [
+          "Fifty dollars",
+          "Fifty minutes",
+          "Fifteen dollars",
+          "Fifteen minutes"
+         ],
+         "answer": 1,
+         "why": "依据是 the meeting lasts fifty minutes。minutes 表示时长，第二项符合；fifty dollars 是场地租金。",
+         "point": "unit"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

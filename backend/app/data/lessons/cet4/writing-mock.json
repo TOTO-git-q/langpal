@@ -1,0 +1,184 @@
+{
+ "id": "writing-mock",
+ "title": "写作模拟测试",
+ "goal": "判断任务覆盖、段落支撑和句子完整性。",
+ "skill": "写作",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "coverage",
+   "label": "判断短文是否覆盖写作要求"
+  },
+  {
+   "id": "support",
+   "label": "选择支持中心论点的内容"
+  },
+  {
+   "id": "sentence",
+   "label": "识别并修正不完整的句子"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c1",
+   "title": "C1 CET笔试",
+   "url": "https://cet.neea.edu.cn/html1/folder/16113/1586-1.htm",
+   "used": "写作任务数量和时间"
+  },
+  {
+   "id": "c2",
+   "title": "C2 全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "写作字数要求"
+  },
+  {
+   "id": "syllabus",
+   "title": "大学英语四级（CET-4）：课表",
+   "url": "docs/syllabi/cet4.md",
+   "used": "写作模拟测试的知识点和教学规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "instructions",
+   "type": "text",
+   "title": "说明",
+   "body": [
+    {
+     "p": "完整的作文在短文写作练习中完成：按提示写 1 篇英语短文，不少于 120 词，限时 30 分钟。任务数量和时间依据 C1 CET笔试，字数要求依据 C2 大纲。"
+    },
+    {
+     "p": "本课的客观题检查三项：任务覆盖、段落支撑、句子完整。客观题的成绩不代表作文成绩。"
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "coverage",
+    "support",
+    "sentence"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "Writing task: Explain one benefit of a shared tool library and suggest one way to encourage residents to use it.\n\nDraft: A shared tool library saves residents from buying equipment they need only occasionally. For example, neighbors can borrow a ladder for a single repair instead of purchasing one.",
+       "items": [
+        {
+         "stem": "Which required element is missing from the draft?",
+         "options": [
+          "A benefit of borrowing equipment",
+          "A suggestion for encouraging use",
+          "An example of an occasional repair",
+          "An explanation of equipment ownership"
+         ],
+         "answer": 1,
+         "why": "题目要求 suggest one way to encourage residents to use it。草稿只写了好处和借梯子的例子，缺这一项，即第二项。",
+         "point": "coverage"
+        },
+        {
+         "stem": "Which sentence best completes the missing requirement?",
+         "options": [
+          "Residents sometimes need a ladder for only one repair in the whole year.",
+          "A shared library can reduce the number of tools each household buys.",
+          "The library could display borrowing instructions at the community center.",
+          "A ladder is one kind of equipment that residents may borrow from the library."
+         ],
+         "answer": 2,
+         "why": "第三项的 display borrowing instructions 是鼓励居民使用的办法。其余各项只重复了已有的好处或例子。",
+         "point": "coverage"
+        },
+        {
+         "stem": "Which sentence best supports the claim that sharing tools reduces purchases?",
+         "options": [
+          "A resident can borrow a drill for one task instead of buying one.",
+          "A resident can read the library's opening hours before visiting.",
+          "The library can display borrowing instructions near its entrance.",
+          "The library can label each shelf with the names of its tools."
+         ],
+         "answer": 0,
+         "why": "第一项写借电钻做一件事，不用买，直接支持减少购买的论点。",
+         "point": "support"
+        },
+        {
+         "stem": "The missing requirement is to ___ one way to encourage residents to use the library. Complete with the exact verb from the task.",
+         "accept": [
+          "suggest"
+         ],
+         "why": "题目用的动词是 suggest，草稿还没有给出办法。",
+         "point": "coverage"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "Writing task: Explain why a student group should keep records of its decisions and give an example.\n\nClaim: Written records help members remember what was agreed.\n\nDraft fragment: Because the secretary recorded the meeting's decisions.",
+       "items": [
+        {
+         "stem": "Which example most directly supports the claim?",
+         "options": [
+          "The members discussed a date before the secretary recorded their decision.",
+          "The secretary recorded the meeting decisions without adding an example.",
+          "The members selected a date without consulting the meeting record.",
+          "A member checked the notes later to confirm the date everyone had chosen."
+         ],
+         "answer": 3,
+         "why": "第四项写成员事后查笔记确认日期，说明记录帮助成员回忆决定。第一项只写了记录的过程。",
+         "point": "support"
+        },
+        {
+         "stem": "Complete a supporting sentence showing how records help members recall a decision.",
+         "lead": "A member checked",
+         "chunks": [
+          "the notes",
+          "to confirm",
+          "the agreed",
+          "meeting"
+         ],
+         "tail": "date.",
+         "extra": [
+          "confirming to"
+         ],
+         "why": "不定式 to confirm 表示查笔记的目的。confirming to 不成立。",
+         "point": "support"
+        },
+        {
+         "stem": "Complete the sentence with the missing past-tense form of be: The notes ___ useful to the group.",
+         "accept": [
+          "were"
+         ],
+         "why": "notes 是复数，be 的过去式用 were。",
+         "point": "sentence"
+        },
+        {
+         "stem": "The fragment needs a main clause. Complete the sentence using the given words.",
+         "lead": "Because the secretary recorded the decisions, the members",
+         "chunks": [
+          "could check",
+          "the agreed date",
+          "in",
+          "the notes"
+         ],
+         "tail": "later.",
+         "extra": [
+          "checking"
+         ],
+         "why": "Because 从句后接主句 the members could check。could 后用动词原形。",
+         "point": "sentence"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

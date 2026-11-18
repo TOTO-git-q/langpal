@@ -1,0 +1,103 @@
+{
+ "id": "reading-seven-method",
+ "title": "句子还原的解题步骤",
+ "goal": "根据语篇作用和上下文衔接选择句子。",
+ "skill": "阅读",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "role", "label": "判断空格所需句子的篇章作用"},
+  {"id": "both", "label": "核对候选句与空格两侧的衔接"}
+ ],
+ "sources": [
+  {"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "教学内容与课程练习规格"}
+ ],
+ "cards": [
+  {
+   "id": "type", "type": "text", "title": "题型",
+   "body": [
+    {"p": "句子还原要求为空格选出合适的句子。空格在段中的位置和前后句的关系，决定所缺句子的作用。"},
+    {"box": "A shared kitchen needs clear rules. ____ Labeling food also prevents confusion."},
+    {"p": "空格处可填 Put names on containers。后句的 also 说明前面已有一条规则。所填句子要讲共用厨房的规则。"}
+   ]
+  },
+  {
+   "id": "steps", "type": "steps", "title": "解题步骤",
+   "steps": [
+    {"t": "1　确定全文主题", "d": "读标题和各段内容，概括全文话题。Shared kitchen rules 表明文章讲共用厨房的规则。"},
+    {"t": "2　概括段落中心", "d": "找本段反复出现的对象。Containers 和 labels 反复出现，本段讲给食物做标记。"},
+    {"t": "3　判断空格位置", "d": "段首的空格常填概括句，段中的常填解释句或过渡句，段尾的常填总结句。最后仍要看段内的具体内容。"},
+    {"t": "4　核对两侧衔接", "d": "把候选句放回空格，检查指代、词汇和逻辑关系。候选句要和前句接得上，也要和后句接得上。"}
+   ]
+  },
+  {
+   "id": "roles", "type": "table", "title": "句子的篇章作用",
+   "cols": ["作用", "语境与例句", "依据"],
+   "rows": [
+    ["主题句", "Plan a route. Check the distance and the road surface.", "概括距离和路面的准备"],
+    ["解释句", "The path is closed. Repairs are being made after a storm.", "说明关闭的原因"],
+    ["过渡句", "The route is ready. Another decision concerns what to carry.", "由路线转到携带物品"],
+    ["结句", "Bring water and a map. These supplies support a safer trip.", "概括本段用品的作用"]
+   ]
+  },
+  {
+   "id": "worked", "type": "text", "title": "例题",
+   "body": [
+    {"box": "A school is organizing a seed exchange. Students first sort seeds by plant type. ____ Each packet is then marked with the plant name. The labels help visitors choose what they can grow.\n\n1. They place each type in a separate packet.\n2. They grow every plant in the same packet.\n3. They remove the plant names from old labels.\n4. They ask visitors to sort the seeds at home."},
+    {"p": "第一项承接前句 sort seeds by plant type，又引出后句的 Each packet：先分类，再装袋。前后都接得上。"},
+    {"p": "第二项也有 packet，但说的是在袋里种植。第四项讲分类，却没有提到袋子，后句的 Each packet 在前文找不到对应。"}
+   ]
+  },
+  {
+   "id": "distractors", "type": "table", "title": "干扰项",
+   "cols": ["类型", "例", "原因"],
+   "rows": [
+    ["同词异关系", "例题第二项把袋子当成种植的地方。", "原文的动作是装袋，不是种植。"],
+    ["只接前句", "例题第四项讲分类，没有提到袋子。", "后句的 Each packet 接不上。"],
+    ["局部重复", "例题第三项只重复标签和名称。", "原文是写上名称，第三项是去掉名称。"],
+    ["层级不符", "把一个袋子上的标签当作全段中心。", "标签只是细节，概括不了全段。"]
+   ]
+  },
+  {
+   "id": "practice-one", "type": "check", "title": "练习一", "points": ["role", "both"],
+   "groups": [
+    {"look": "passage", "text": "____ First, read the instructions. Then arrange the tools before starting the repair.", "items": [
+     {"stem": "Which sentence best opens the paragraph?", "options": ["Keep the tools after the repair.", "Prepare before repairing an item.", "Read one instruction after working.", "Repair an item without any tools."], "answer": 1, "why": "依据是 read the instructions 和 arrange the tools，两件事都是修理前的准备。第二项概括了这两项行动。", "point": "role"}
+    ]},
+    {"look": "passage", "text": "The club moved its meeting indoors. ____ The new room kept the displays dry.", "items": [
+     {"stem": "Which sentence best fills the gap?", "options": ["The displays were made indoors.", "The room was closed for repairs.", "Rain had begun before the event.", "The club had no displays to show."], "answer": 2, "why": "第三项的 Rain 说明搬进室内的原因，后句的 kept the displays dry 也与下雨对应。前后都接得上。", "point": "both"}
+    ]},
+    {"look": "passage", "text": "Nora listed the books she had borrowed. She noted their return dates beside each title. ____", "items": [
+     {"stem": "Which sentence best closes the paragraph?", "options": ["Her list helped her track the loans.", "She borrowed a title about dates.", "She forgot when each book was due.", "The library kept the list of titles."], "answer": 0, "why": "依据是 listed the books 和 noted their return dates。第一项概括了这份清单的用处。第三项与记下归还日期相反。", "point": "role"}
+    ]},
+    {"look": "passage", "text": "The museum stored the photographs in boxes. ____ These records made it easier to find each image later.", "items": [
+     {"stem": "Which sentence best fills the gap?", "options": ["The boxes were photographed later.", "The museum moved the boxes to a store.", "The images were left unrecorded.", "Staff made a list of the contents."], "answer": 3, "why": "后句的 These records 需要前文有记录。第四项的 a list of the contents 承接装箱，又是 These records 所指的对象。", "point": "both"}
+    ]}
+   ]
+  },
+  {
+   "id": "practice-two", "type": "check", "title": "练习二", "points": ["role", "both"],
+   "groups": [
+    {"look": "passage", "text": "A neighborhood group wanted to share garden tools. ____ Members wrote down which tools they could lend and when those tools were available. The list was placed in the community hall.\n\nThe group also needed a way to track loans. Each borrower entered a name and the date beside the tool. ____ The next borrower could then see whether it had been returned.", "items": [
+     {"stem": "Which sentence best fills the first gap?", "options": ["They began by making a list of tools.", "They stopped lending their tools.", "They placed tools in the community hall.", "They returned each tool immediately."], "answer": 0, "why": "后文的 wrote down 和 The list 展开了第一项的 making a list。第三项把放清单的地方说成了放工具的地方。", "point": "role"},
+     {"stem": "Which sentence best fills the second gap?", "options": ["The list described how tools were made.", "Members listed the tools they could lend.", "Members recorded the date of return too.", "Borrowers removed all names from the list."], "answer": 2, "why": "后句说下一位借用者能看出工具是否已还。第三项记下归还日期，正好让后句成立。第二项是第一段的内容。", "point": "both"}
+    ]}
+   ]
+  },
+  {
+   "id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["role", "both"],
+   "sets": [{"id": "set-a", "groups": [
+    {"look": "passage", "text": "A student group planned a display of old maps. ____ They compared maps from different years and selected examples that showed changes in local streets. They also wrote short captions identifying the dates.\n\nThe group wanted visitors to compare the maps easily. They placed maps of the same area next to one another. ____ Visitors could follow the colored marks across the display. The arrangement made the sequence of changes clear.\n\nThe students tested their display with a small audience. Several visitors found the print on the captions difficult to read. ____ The revised captions were easier to see from a short distance.", "items": [
+     {"stem": "Which sentence best fills the first gap?", "options": ["Visitors chose which streets to show.", "Dates were removed from every map.", "They chose how to present local change.", "They first tested the display with visitors."], "answer": 2, "why": "后文比较各年地图、挑出街道变化的例子、写日期说明，都是在安排怎样呈现本地变化，即第三项。第四项的试展是第三段的事。", "point": "role"},
+     {"stem": "Which sentence best fills the second gap?", "options": ["They marked corresponding streets in color.", "They removed the maps from the display.", "They hung the maps in the order of their dates.", "They printed captions without any dates."], "answer": 0, "why": "后句的 the colored marks 需要前文交代。第一项用颜色标出对应的街道，把相邻的地图联系起来。", "point": "both"},
+     {"stem": "Which sentence best fills the third gap?", "options": ["Visitors were asked to stand farther away.", "The group printed the captions in larger type.", "The maps were arranged by street color.", "The group moved maps of the same area closer together."], "answer": 1, "why": "前句说说明文字的字太小，后句说 revised captions 更容易看清。第二项把字印大，前后都接得上。", "point": "both"}
+    ]},
+    {"look": "passage", "text": "A class decided to make a guide to local walking paths. ____ The students checked the length and surface of each route. They also noted where the paths began and ended, so that the guide would contain useful directions.\n\nOne path crossed a field that sometimes flooded. The class visited after several dry days and again after heavy rain. ____ On the second visit, water covered part of the route. The guide therefore advised checking local conditions before setting out.\n\nThe students printed a draft and asked another class to use it. Readers identified places where the directions were unclear. The authors revised those instructions and checked them on the paths. ____", "items": [
+     {"stem": "Which sentence best fills the first gap?", "options": ["Every path began at the same place.", "The guide described only flooded fields.", "The students first printed a final guide.", "They gathered details about the routes."], "answer": 3, "why": "后文的 length、surface 和起点终点都是路线信息，第四项概括了这些内容。", "point": "role"},
+     {"stem": "Which sentence best fills the second gap?", "options": ["Both visits took place in dry weather.", "The two visits revealed different conditions.", "The class decided to remove the field from the guide.", "The students avoided visiting the field."], "answer": 1, "why": "前句写一次在干燥天去、一次在大雨后去，后句写第二次路被水淹。第二项说两次看到的情况不同，前后都接得上。", "point": "both"},
+     {"stem": "Which sentence best closes the final paragraph?", "options": ["Readers rewrote the unclear directions themselves.", "The authors avoided testing the directions.", "The readers' comments helped improve the guide.", "The guide dropped the advice about heavy rain."], "answer": 2, "why": "本段写读者指出问题、作者修改并实地核对。第三项概括了反馈的作用。第一项把修改的人换成了读者。", "point": "role"}
+    ]}
+   ]}]
+  }
+ ]
+}

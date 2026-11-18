@@ -1,0 +1,1118 @@
+{
+ "id": "listening-mock",
+ "title": "模拟测试",
+ "goal": "在限定时间内完成四类听力题，并依据录音判断回应、细节、意图和推断。",
+ "skill": "listening",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 听力",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "response",
+   "label": "完成听句子选回应"
+  },
+  {
+   "id": "dialogue",
+   "label": "完成对话和通知"
+  },
+  {
+   "id": "talk",
+   "label": "完成学术短讲"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、录音长度、只放一遍"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "各题型的说明、考查的能力、官方样题"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Listening Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-listening.pdf",
+   "used": "第 1 课：四类题的说明和小测答案；第 2、4 课：应答配对、重音和语调"
+  }
+ ],
+ "cards": [
+  {
+   "id": "instructions",
+   "type": "text",
+   "title": "说明",
+   "body": [
+    {
+     "p": "官方规格列出听力共 47 题：听句子选回应 15–19 题，对话 10 题，通知 6–10 题，学术短讲 8–16 题。各题型的题数合计为 47，不会同时取到上限。"
+    },
+    {
+     "p": "官方听力分两个阶段，第二阶段的难度按第一阶段的表现确定。第一阶段约 18 分钟。第二阶段较易的模块约 7 分钟，较难的模块约 11 分钟。全部约 25–29 分钟。"
+    },
+    {
+     "p": "本套采用固定材料，共 47 题：听句子选回应 19 题，对话 5 段共 10 题，通知 3 条共 6 题，学术短讲 3 段共 12 题。限时 29 分钟，答对 33 题为通过。"
+    },
+    {
+     "p": "各段录音只播放 1 遍，听完后按题干选一个答案，作答时看不到原文。本套难度固定，不随作答调整。练习的正确率不能换算成官方分数。"
+    }
+   ],
+   "src": "spec 第 2–3、5、12 页",
+   "note": "本套的题型配比和通过标准是本课程的安排，不是官方规定。限时取官方较难路径的预计总时长。"
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 29,
+   "pass": 0.7,
+   "points": [
+    "response",
+    "dialogue",
+    "talk"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Who's collecting the badges?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "The event coordinator is.",
+          "Yes, I'll collect mine later.",
+          "The badges are ready now.",
+          "They were collected yesterday."
+         ],
+         "answer": 0,
+         "why": "Who’s collecting 问由谁来收，第一项指出是活动协调人。第二项用 Yes 回答 who 的问题，接不上。",
+         "point": "response"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Is the elevator working?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "It worked all last week.",
+          "No, please use the stairs.",
+          "The elevator is upstairs.",
+          "Sure, I'll take the stairs."
+         ],
+         "answer": 1,
+         "why": "Is the elevator working 问电梯现在能不能用。第二项先答 No，再给出走楼梯的办法。",
+         "point": "response"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Could you switch the kettle off?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "It was switched off yesterday.",
+          "The kettle switches on here.",
+          "Sure, I'll do it now.",
+          "Thanks, but I've had enough tea."
+         ],
+         "answer": 2,
+         "why": "Could you switch the kettle off 是请对方关水壶，第三项答应马上去关。",
+         "point": "response"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Are these gloves yours?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "Sure, I'll hold them for you.",
+          "I wear gloves when it's cold.",
+          "Thanks, I'll try them.",
+          "No, mine are in my bag."
+         ],
+         "answer": 3,
+         "why": "Are these gloves yours 问手套是不是对方的。第四项答 No，并说明自己的手套在包里。",
+         "point": "response"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Where are the spare envelopes?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "In the drawer by the desk.",
+          "We have several spares.",
+          "They arrived this morning.",
+          "Yes, I'll get you some."
+         ],
+         "answer": 0,
+         "why": "Where 问位置，第一项给出抽屉的位置。第三项回答的是什么时候到的。",
+         "point": "response"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Shall we move the piano?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "It was moved last month.",
+          "Let's ask someone to help first.",
+          "The piano is quite new.",
+          "No thanks, I can move it myself."
+         ],
+         "answer": 1,
+         "why": "Shall we move the piano 是提议一起搬琴。第二项同意搬，并提出先找人帮忙。",
+         "point": "response"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "How was the factory tour?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "The tour starts near the gate.",
+          "It lasted about an hour.",
+          "More interesting than I'd expected.",
+          "Sure, I'd be glad to join the next one."
+         ],
+         "answer": 2,
+         "why": "How was the factory tour 问参观的感受，第三项说比预想的有意思。第二项只说了时长，没有回答感受。",
+         "point": "response"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I can't loosen this bolt."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "Yes, I loosened it earlier.",
+          "Thanks, but I can do it myself.",
+          "It's the bolt beside the hinge.",
+          "Would a longer wrench help?"
+         ],
+         "answer": 3,
+         "why": "I can't loosen this bolt 说的是一个困难，第四项提出换一把长扳手试试。",
+         "point": "response"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Would Friday suit you?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "Yes, I'm free that day.",
+          "Friday suited them last week.",
+          "The suit is ready on Friday.",
+          "Thanks, I'll ask them."
+         ],
+         "answer": 0,
+         "why": "Would Friday suit you 问周五是否方便，第一项说那天有空，表示同意。",
+         "point": "response"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Didn't you reserve a table?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "The tables are beside the window.",
+          "I did, but for tomorrow.",
+          "Yes, please reserve one for me.",
+          "Thanks, I'd love to."
+         ],
+         "answer": 1,
+         "why": "Didn’t you reserve a table 是向对方确认有没有订座。第二项先确认订了，再补充订的是明天。",
+         "point": "response"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Thanks for translating that phrase."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "The phrase has several meanings.",
+          "I translated it yesterday afternoon.",
+          "You're welcome. I'm glad it helped.",
+          "Sure, I'll translate it for you."
+         ],
+         "answer": 2,
+         "why": "Thanks for translating that phrase 是道谢，第三项用 You're welcome 回应。",
+         "point": "response"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Which ladder should we use?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "We used a ladder last week.",
+          "The ladder is in the shed.",
+          "I'll use it after lunch.",
+          "The shorter one should reach."
+         ],
+         "answer": 3,
+         "why": "Which ladder 要求从几架梯子中选一架。第四项指出用矮的那架，并说明够得着。",
+         "point": "response"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I owe you for the taxi."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "Don't worry; you paid last time.",
+          "The taxi came from the station.",
+          "Thanks, I'll pay you back tomorrow.",
+          "Sure, I'll call one for you."
+         ],
+         "answer": 0,
+         "why": "I owe you for the taxi 是说欠对方车费。第一项说上次是对方付的，这次不用还。第三项把还钱的人弄反了。",
+         "point": "response"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Why is the fountain off?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "The pump is being repaired.",
+          "It is in the central square.",
+          "Yes, it was on yesterday.",
+          "Sure, I'll turn it on."
+         ],
+         "answer": 0,
+         "why": "Why is the fountain off 问喷泉停的原因，第一项说水泵在修。",
+         "point": "response"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "How long will the haircut take?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "The salon closes at six.",
+          "It should take about half an hour.",
+          "Yes, I'd like it a bit shorter, please.",
+          "I booked it at the salon."
+         ],
+         "answer": 1,
+         "why": "How long will the haircut take 问要多长时间，第二项给出半小时。第三项只回应了字面上的 long。",
+         "point": "response"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Can I leave my suitcase here?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "The suitcase arrived here today.",
+          "No thanks, I'll keep mine with me.",
+          "Yes, I'll watch it until you return.",
+          "I left my suitcase there yesterday."
+         ],
+         "answer": 2,
+         "why": "Can I leave my suitcase here 是请求把箱子暂放在这里。第三项同意，并说会帮忙看着。",
+         "point": "response"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "This stapler won't work."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "The stapler is on the desk.",
+          "I used a different stapler yesterday.",
+          "Sure, I'll lend it to you.",
+          "Could it need more staples?"
+         ],
+         "answer": 3,
+         "why": "This stapler won't work 说订书机用不了，第四项提出可能是订书钉用完了。",
+         "point": "response"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Could we lower the blinds?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "Sure, the sunlight is quite strong.",
+          "They were lowered last night.",
+          "The blinds are above the sink.",
+          "No thanks, I can lower them myself."
+         ],
+         "answer": 0,
+         "why": "Could we lower the blinds 提议放下百叶窗。第一项用 Sure 同意，并说明阳光很强。",
+         "point": "response"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "",
+        "lines": [
+         {
+          "who": "A",
+          "text": "You're taking the trolley, right?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Choose the best response.",
+         "options": [
+          "Sure, I'll take it for you.",
+          "Yes, these bags are too heavy.",
+          "The trolley turns right ahead.",
+          "Yes, I took it last week."
+         ],
+         "answer": 1,
+         "why": "句末的 right 是向对方确认是否用手推车。第二项用 Yes 确认，并说明包太重。",
+         "point": "response"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'd like to join the community garden, but I can't manage a whole plot."
+         },
+         {
+          "who": "B",
+          "text": "We have shared plots. Partners divide the watering and harvesting."
+         },
+         {
+          "who": "A",
+          "text": "That sounds better. Would I choose my own partner?"
+         },
+         {
+          "who": "B",
+          "text": "You can, or we can match you with someone. There's an orientation on Sunday."
+         },
+         {
+          "who": "A",
+          "text": "I'll come to that before deciding. I want to understand the weekly work first."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why is the visitor interested in a shared plot?",
+         "options": [
+          "It requires no regular watering.",
+          "It allows harvesting without joining.",
+          "It divides the gardening work between people.",
+          "It provides a partner before orientation."
+         ],
+         "answer": 2,
+         "why": "访客照料不了整块地，Partners divide the watering and harvesting 正好解决这个困难，即第三项。",
+         "point": "dialogue"
+        },
+        {
+         "stem": "What will the visitor probably do next?",
+         "options": [
+          "Take over a full plot immediately",
+          "Choose a partner without further information",
+          "Begin harvesting with an assigned partner",
+          "Attend an introduction before making a decision"
+         ],
+         "answer": 3,
+         "why": "I’ll come to that before deciding 的 that 指周日的说明会。访客先去听，再决定是否加入，即第四项。",
+         "point": "dialogue"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I brought three puzzles for the swap. Does each one need its box?"
+         },
+         {
+          "who": "B",
+          "text": "A bag is fine if there's a picture of the finished puzzle."
+         },
+         {
+          "who": "A",
+          "text": "One box is damaged, but the picture is clear. Could I cut it out and put it in the bag?"
+         },
+         {
+          "who": "B",
+          "text": "Yes. Just make sure all the pieces are there."
+         },
+         {
+          "who": "A",
+          "text": "I've checked them. I'll bag that one and leave the other two boxed."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is required for a puzzle without its box?",
+         "options": [
+          "An image showing the completed puzzle",
+          "A new box purchased at the swap",
+          "A picture of each separate piece",
+          "A bag identical to the other puzzles’ bags"
+         ],
+         "answer": 0,
+         "why": "A bag is fine if there’s a picture of the finished puzzle：没有盒子也行，但要有拼好后的图，即第一项。",
+         "point": "dialogue"
+        },
+        {
+         "stem": "What does the visitor plan to do?",
+         "options": [
+          "Put all three puzzles in new boxes",
+          "Use a bag for the puzzle with the damaged box",
+          "Remove the pictures from the two good boxes",
+          "Check the pieces after giving the puzzles away"
+         ],
+         "answer": 1,
+         "why": "I’ll bag that one and leave the other two boxed：只有盒子破了的那一盒改用袋子装，即第二项。",
+         "point": "dialogue"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Can I leave these used batteries in the recycling bin outside?"
+         },
+         {
+          "who": "B",
+          "text": "Not that one. It's for paper and cans. Batteries go to the collection cabinet inside."
+         },
+         {
+          "who": "A",
+          "text": "Is the cabinet open now?"
+         },
+         {
+          "who": "B",
+          "text": "The building is open, but the collection staff won't arrive until two. They need to check the batteries before accepting them."
+         },
+         {
+          "who": "A",
+          "text": "Then I'll keep them with me and come back at two."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why can’t the visitor leave the batteries immediately?",
+         "options": [
+          "The outside bin is already full of batteries.",
+          "The building will not open until two.",
+          "The staff who must inspect them are not yet there.",
+          "The cabinet accepts only paper and cans."
+         ],
+         "answer": 2,
+         "why": "电池要由工作人员检查后才收，而 the collection staff won’t arrive until two，即第三项。第二项与 The building is open 相反。",
+         "point": "dialogue"
+        },
+        {
+         "stem": "What will the visitor probably do?",
+         "options": [
+          "Leave the batteries beside the cabinet",
+          "Put the batteries in the outside bin",
+          "Ask the staff to inspect the cans",
+          "Return when the collection staff are present"
+         ],
+         "answer": 3,
+         "why": "Then I'll keep them with me and come back at two：访客先把电池带走，两点再来，即第四项。",
+         "point": "dialogue"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'm interested in fostering a kitten, but I travel occasionally."
+         },
+         {
+          "who": "B",
+          "text": "We sometimes need a home for just a weekend while a permanent foster carer is away."
+         },
+         {
+          "who": "A",
+          "text": "That could work. Do I need to buy supplies?"
+         },
+         {
+          "who": "B",
+          "text": "We'll provide food and bedding. First, complete the application so we can discuss your home and availability."
+         },
+         {
+          "who": "A",
+          "text": "I'll fill it out tonight, then. A short stay would suit me best."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What makes the suggested arrangement suitable for the visitor?",
+         "options": [
+          "It can involve only a brief period of care.",
+          "It requires taking the kitten on trips.",
+          "It guarantees permanent adoption after a weekend.",
+          "It allows the visitor to avoid an application."
+         ],
+         "answer": 0,
+         "why": "访客偶尔要出门，a home for just a weekend 只要短期照顾，正好合适，即第一项。",
+         "point": "dialogue"
+        },
+        {
+         "stem": "What is the visitor expected to do first?",
+         "options": [
+          "Purchase food for the kitten",
+          "Submit information for an application",
+          "Collect the kitten’s bedding immediately",
+          "Choose a permanent foster carer"
+         ],
+         "answer": 1,
+         "why": "First, complete the application 说明第一步是填申请表，即第二项。食物和垫子由机构提供。",
+         "point": "dialogue"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'm new to buying loose grains here. Should I fill my jar and then weigh it?"
+         },
+         {
+          "who": "B",
+          "text": "Weigh the empty jar first. We subtract that weight so you only pay for the grains."
+         },
+         {
+          "who": "A",
+          "text": "Do I need a new jar each time?"
+         },
+         {
+          "who": "B",
+          "text": "No, reuse this one. Just make sure it's clean and dry."
+         },
+         {
+          "who": "A",
+          "text": "Good. I'll weigh it now before I choose the rice."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why is the empty jar weighed?",
+         "options": [
+          "To decide which grain fits inside it",
+          "To check whether it has been cleaned",
+          "To exclude the container’s weight from the price",
+          "To charge for the jar separately from the rice"
+         ],
+         "answer": 2,
+         "why": "We subtract that weight so you only pay for the grains：空罐的重量要扣掉，只按谷物收钱，即第三项。",
+         "point": "dialogue"
+        },
+        {
+         "stem": "What does the employee say about the jar?",
+         "options": [
+          "It must be replaced at every visit.",
+          "It must be purchased from the grain shop.",
+          "It should be filled before its first weighing.",
+          "It may be used again if properly prepared."
+         ],
+         "answer": 3,
+         "why": "reuse this one 和 make sure it's clean and dry 合起来是：罐子洗净晾干后可以再用，即第四项。",
+         "point": "dialogue"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to an announcement in a laboratory.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Before today's microscopy session, please leave bags on the shelves, not under the benches. We'll be moving between stations, and the floor must stay clear. Slides and cleaning materials are already beside each microscope. If a lens looks dirty, raise a hand instead of wiping it with a tissue. A teaching assistant will bring the proper cleaning paper. At the end, leave the slides in the labeled trays."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is the main purpose of the announcement?",
+         "options": [
+          "To explain procedures for using the laboratory safely",
+          "To announce a change in the microscopy timetable",
+          "To request donations of laboratory cleaning supplies",
+          "To show students how to clean the lenses themselves"
+         ],
+         "answer": 0,
+         "why": "放包的位置、保持地面通畅、镜头脏了举手，都是使用实验室的规定，即第一项。",
+         "point": "dialogue"
+        },
+        {
+         "stem": "What should students do if a lens needs cleaning?",
+         "options": [
+          "Use a tissue from their own bags",
+          "Request assistance before cleaning it",
+          "Move the microscope under the bench",
+          "Place the lens in a tray with the slides"
+         ],
+         "answer": 1,
+         "why": "raise a hand instead of wiping it with a tissue：先举手求助，助教会送来专用的擦镜纸，即第二项。",
+         "point": "dialogue"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to an announcement on campus.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Voting for the student council closes tomorrow at noon. The voting link was sent to all enrolled students this morning. If the link doesn't open, visit the election desk in the student center before the deadline. The desk can verify your enrollment and provide access. Candidate speeches will remain online after voting closes, but watching them does not extend the voting period."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What should a student do if the voting link fails?",
+         "options": [
+          "Wait for the candidate speeches to be removed",
+          "Ask a candidate to record the vote",
+          "Go to the election desk before voting closes",
+          "Enroll again after the deadline"
+         ],
+         "answer": 2,
+         "why": "链接打不开时，visit the election desk ... before the deadline，即第三项。",
+         "point": "dialogue"
+        },
+        {
+         "stem": "What does the speaker emphasize about the speeches?",
+         "options": [
+          "They must be watched at the election desk.",
+          "They are available only until noon tomorrow.",
+          "They replace voting for students with broken links.",
+          "Their continued availability does not change the voting deadline."
+         ],
+         "answer": 3,
+         "why": "watching them does not extend the voting period：演讲视频之后还能看，但投票截止时间不变，即第四项。",
+         "point": "dialogue"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to an announcement on campus.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Our campus compost collection is expanding to the courtyard behind the arts building. Put fruit peels and other approved food scraps in the green container there. Packaging goes in the separate waste bins, even if it has food on it. The environmental club will demonstrate the sorting procedure on Wednesday at lunch. The existing collection point beside the science building will continue operating as usual."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is being announced?",
+         "options": [
+          "An additional location for collecting compostable scraps",
+          "The closure of the existing science-building collection point",
+          "A new rule requiring all packaging to be composted",
+          "The relocation of the environmental club’s regular meetings"
+         ],
+         "answer": 0,
+         "why": "expanding to the courtyard 是新增地点，existing collection point ... continue 说明原地点照常使用，即第一项。",
+         "point": "dialogue"
+        },
+        {
+         "stem": "What should listeners do with food packaging?",
+         "options": [
+          "Place it with fruit peels in the green container",
+          "Use the separate waste bins for it",
+          "Take it to the club only on Wednesday",
+          "Leave it at the old collection point for composting"
+         ],
+         "answer": 1,
+         "why": "Packaging goes in the separate waste bins, even if it has food on it：包装沾了食物也放进另外的垃圾桶，即第二项。",
+         "point": "dialogue"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a talk in a physical science class.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "A wet cloth often feels cool as it dries. That familiar experience illustrates evaporative cooling. In a liquid, molecules are moving at different speeds. Some molecules near the surface have enough energy to escape into the air. When they leave, they carry energy away from the remaining liquid, which can lower its temperature. Sweating uses this process. Producing sweat alone isn't enough; much of the cooling happens when the sweat evaporates. That's why humid weather can feel uncomfortable even when someone is sweating heavily. If the surrounding air already contains a great deal of water vapor, evaporation is slower. Moving air often helps by carrying away moist air near the skin and replacing it with less humid air. However, a fan doesn't guarantee the same cooling under every condition. The humidity and the availability of moisture still matter. This also explains why a wet cloth can cool a container more effectively in dry air than in very humid air. The key idea is not simply that water touches a surface. It is that water changes from liquid to vapor and carries energy away."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is the talk mainly about?",
+         "options": [
+          "How liquid temperature controls the amount of water in air",
+          "How fans produce water vapor",
+          "How evaporation can remove heat from a surface",
+          "Why moving air matters more than evaporation in cooling"
+         ],
+         "answer": 2,
+         "why": "全篇讲 evaporative cooling：水变成水汽时带走热量，即第三项。出汗和风扇都是例子。",
+         "point": "talk"
+        },
+        {
+         "stem": "Why does the speaker begin with a wet cloth?",
+         "options": [
+          "To show that cooling depends mainly on contact with water",
+          "To show that wet cloth cools best in very humid air",
+          "To explain why wet objects always remain cold",
+          "To introduce the process through an ordinary experience"
+         ],
+         "answer": 3,
+         "why": "That familiar experience illustrates evaporative cooling：用日常见到的现象引出概念，即第四项。",
+         "point": "talk"
+        },
+        {
+         "stem": "Why can humid weather reduce the effectiveness of sweating?",
+         "options": [
+          "Water evaporates more slowly into already moist air.",
+          "The body stops producing sweat when the air becomes humid.",
+          "Sweat carries more energy away before it evaporates.",
+          "Moving air prevents moisture from leaving the skin."
+         ],
+         "answer": 0,
+         "why": "If the surrounding air already contains a great deal of water vapor, evaporation is slower：空气潮湿时，汗蒸发得慢，即第一项。",
+         "point": "talk"
+        },
+        {
+         "stem": "What can be inferred about using a fan for evaporative cooling?",
+         "options": [
+          "Its effect is independent of surrounding humidity.",
+          "Its effect depends partly on the surrounding conditions.",
+          "It cools only by adding water to the skin.",
+          "It guarantees equal cooling with or without moisture."
+         ],
+         "answer": 1,
+         "why": "a fan doesn’t guarantee the same cooling under every condition：风扇的效果部分取决于湿度等条件，即第二项。",
+         "point": "talk"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a talk in a museum studies class.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Museums sometimes display a replica beside an original object, or in place of an original that is too fragile to exhibit. A replica is a copy made to represent particular features of another object. Its value depends on its purpose. Imagine a visitor examining a replica of an ancient tool. The copy may show the tool's shape clearly and may even be safe to handle. Handling it can reveal how its size and balance affect its use. But the replica cannot provide evidence of the original owner's wear marks unless those marks have also been carefully reproduced. A model made from a different material may feel different, too. This is why a museum should explain what a replica reproduces and what it leaves out. A copy can support learning without replacing every kind of evidence in the original. Sometimes the original remains in controlled storage while the replica allows more visitors to examine its form. These roles are complementary. Protecting an object and making it accessible are different goals, and one display item may not serve both equally well."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is the main point of the talk?",
+         "options": [
+          "Replicas are useful teaching objects with limits that should be explained.",
+          "Replicas provide every kind of evidence found in original objects.",
+          "Museums should display original objects only when visitors may handle them.",
+          "Museums use replicas mainly to demonstrate differences between materials."
+         ],
+         "answer": 0,
+         "why": "A copy can support learning without replacing every kind of evidence 讲了复制品的用处和局限，讲者还说要向观众说明，即第一项。",
+         "point": "talk"
+        },
+        {
+         "stem": "What can handling a suitable tool replica help visitors understand?",
+         "options": [
+          "The exact identity of its original owner",
+          "How the tool’s dimensions and balance relate to use",
+          "How long the original remained in storage",
+          "The exact conditions inside controlled storage"
+         ],
+         "answer": 1,
+         "why": "Handling it can reveal how its size and balance affect its use，第二项用 dimensions 改写 size。",
+         "point": "talk"
+        },
+        {
+         "stem": "Why does the speaker mention wear marks?",
+         "options": [
+          "To prove that every replica is made from the original material",
+          "To show that tool shapes cannot be reproduced accurately",
+          "To illustrate evidence that a copy may fail to preserve",
+          "To explain why replicas should always use the original material"
+         ],
+         "answer": 2,
+         "why": "the replica cannot provide evidence of the original owner's wear marks：磨损痕迹是复制品可能保留不了的证据，即第三项。",
+         "point": "talk"
+        },
+        {
+         "stem": "What can be inferred about displaying a replica while storing the original?",
+         "options": [
+          "The replica provides all the evidence needed to study original wear.",
+          "The original no longer has any educational value.",
+          "Visitors can learn everything without knowing which object is a copy.",
+          "The arrangement can support access while helping protect the original."
+         ],
+         "answer": 3,
+         "why": "原物存放在库房里受到保护，复制品让更多观众看到器物的形状，即第四项。",
+         "point": "talk"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a talk in a research methods class.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Suppose a town wants to know how residents feel about its bus service. An interviewer stands at one bus stop on a weekday morning and asks people waiting there. The answers may be useful, but they don't necessarily describe the views of all residents. This is an example of a sampling problem. The sample includes people who use that stop at that time. It leaves out people who travel at other times, use other routes, or avoid buses because the service does not meet their needs. Asking more people at the same stop might produce a larger sample without solving the problem. The issue is how people enter the sample, not only how many are interviewed. A better approach might include different locations and times, together with a way to reach people who don't currently ride buses. Even then, researchers should consider who responds and who does not. A well-described sampling method helps readers judge which conclusions the results can support. The goal is not to collect every possible opinion, but to avoid treating one narrow group as though it represents everyone."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is the talk mainly about?",
+         "options": [
+          "Why morning bus users should be excluded from service surveys",
+          "Why surveys should focus on people who use services most often",
+          "How the selection of a sample limits survey conclusions",
+          "How interviewing more people guarantees a representative survey"
+         ],
+         "answer": 2,
+         "why": "The issue is how people enter the sample：选样本的方式决定了调查能得出哪些结论，即第三项。",
+         "point": "talk"
+        },
+        {
+         "stem": "Who is missing from the initial sample?",
+         "options": [
+          "People waiting at the selected stop that morning",
+          "People who already use the selected bus route",
+          "People interviewed while waiting for a bus",
+          "Residents who avoid using the bus service"
+         ],
+         "answer": 3,
+         "why": "It leaves out people ... who avoid buses：不坐公交的居民不在样本里，即第四项。",
+         "point": "talk"
+        },
+        {
+         "stem": "Why might interviewing more people at the same stop be insufficient?",
+         "options": [
+          "The same selection limits can remain despite a larger sample.",
+          "Opinions collected in the morning are necessarily less accurate.",
+          "People at the stop cannot describe their own experiences.",
+          "A survey needs every resident’s opinion before it can be useful."
+         ],
+         "answer": 0,
+         "why": "a larger sample without solving the problem：人数多了，样本选得窄的问题还在，即第一项。",
+         "point": "talk"
+        },
+        {
+         "stem": "What does the speaker recommend for interpreting survey results?",
+         "options": [
+          "Assume every resident has responded in the same way.",
+          "Consider how participants were selected and who responded.",
+          "Ignore people who do not currently use the service.",
+          "Treat weekday riders as representatives of all residents."
+         ],
+         "answer": 1,
+         "why": "researchers should consider who responds and who does not：要看参与者的选取方式和谁作了回答，即第二项。",
+         "point": "talk"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

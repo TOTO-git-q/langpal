@@ -1,0 +1,548 @@
+{
+ "id": "listening-conversation-inference",
+ "title": "长对话推断题",
+ "goal": "为人物关系或态度找到依据；依据最终决定判断后续行动。",
+ "skill": "听力",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "basis",
+   "label": "为人物关系或态度找到依据"
+  },
+  {
+   "id": "next",
+   "label": "依据最终决定判断后续行动"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "依据课程课表选择长对话语言训练范围；材料与题目为原创。"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "推断题问人物关系、说话人的态度或下一步行动。答案要由某一句明确的话支持。判断身份看说话人负责什么，判断态度看评价，判断下一步看最后的决定。"
+    },
+    {
+     "box": "What can be inferred about the speakers' relationship?\nHow does the coordinator view the proposal?\nWhat will the applicant most likely do next?"
+    },
+    {
+     "p": "I approve the final schedule 说明说话人负责审批，但看不出具体职称。Let's check the cost first 表示先查价格，买不买还没定。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　提取明确线索",
+     "d": "判断人物关系，先看谁负责什么、谁把东西交给谁。I inspect each returned item 说明说话人负责检验。只因谈到家具，推不出说话人的职业。"
+    },
+    {
+     "t": "2　合并评价与限制",
+     "d": "把肯定的话和 but 后面的限制连起来读。Useful, but too costly for this trial：认可用途，但嫌这次试用太贵。"
+    },
+    {
+     "t": "3　追踪最后决定",
+     "d": "提议要有对方的回应才算接受。We could call Friday 后面接 Let's wait until Monday，以改过的安排为准。"
+    },
+    {
+     "t": "4　保持推断强度",
+     "d": "分清计划、可能和完成。may be available 不能说成 guaranteed。I'll submit 是还没提交。"
+    }
+   ]
+  },
+  {
+   "id": "evidence",
+   "type": "table",
+   "title": "身份与态度依据",
+   "cols": [
+    "类型",
+    "话轮",
+    "可推出的结论"
+   ],
+   "rows": [
+    [
+     "身份职责",
+     "I authorize every loan before equipment leaves.",
+     "说话人负责审批设备借出。"
+    ],
+    [
+     "人物关系",
+     "Please review my draft; I'll revise it after your comments.",
+     "一方交草稿，另一方审阅。"
+    ],
+    [
+     "有限赞成",
+     "The idea is useful, but we need a cheaper version.",
+     "认可用途，嫌现在的方案太贵。"
+    ],
+    [
+     "审慎判断",
+     "The result is promising, though the sample is small.",
+     "初步肯定，但样本小，结论还不稳。"
+    ]
+   ]
+  },
+  {
+   "id": "status",
+   "type": "table",
+   "title": "行动状态的区别",
+   "cols": [
+    "对比",
+    "话轮",
+    "可推出的结论"
+   ],
+   "rows": [
+    [
+     "提议与接受",
+     "We could hire a van. / Let's compare prices first.",
+     "先比较价格，还没决定租车。"
+    ],
+    [
+     "提议与接受",
+     "Shall we move the table? / Yes, let's do that.",
+     "双方同意移桌子，还没动手。"
+    ],
+    [
+     "计划与完成",
+     "I'll email the drawing tonight.",
+     "今晚才发，现在还没发。"
+    ],
+    [
+     "计划与完成",
+     "I've emailed it; I'll check for a reply tomorrow.",
+     "已经发了，下一步查回复。"
+    ],
+    [
+     "可能与确定",
+     "A room may become free after lunch.",
+     "房间只是可能空出，还没订到。"
+    ],
+    [
+     "可能与确定",
+     "The booking is confirmed for Friday.",
+     "预订已经确认，活动还没举行。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A: I review each proposed display before the workshop opens to visitors. This model is clearly labeled, but its stand needs strengthening.\nB: I'll reinforce it this afternoon and bring it back tomorrow.\nA: Good. I'll inspect the revised stand before approving the display."
+    },
+    {
+     "box": "What is the most likely next step?\n1. The model will be displayed immediately.\n2. Visitors will inspect the stand before opening.\n3. The maker will strengthen the stand for another inspection.\n4. The reviewer will build a replacement model."
+    },
+    {
+     "p": "依据是 I'll reinforce it 和 I'll inspect the revised stand。B 去加固支架，A 再检查，即第三项。标签清楚只是一个优点，展品还没有获得批准。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "提议当接受",
+     "We could rent it → Rental is agreed.",
+     "看对方的回应是不是接受。"
+    ],
+    [
+     "计划当完成",
+     "I'll reinforce it → It is already reinforced.",
+     "I'll 是要做，还没做。"
+    ],
+    [
+     "可能当确定",
+     "A room may open → A room is reserved.",
+     "may 只是可能，还没预订。"
+    ],
+    [
+     "评价过度",
+     "Clearly labeled → Fully approved.",
+     "支架还要加固，所以还没批准。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "basis",
+    "next"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Before I issue a permit for the street performance, I need the proposed area marked on this plan. We have to keep the shop entrances clear."
+       },
+       {
+        "who": "B",
+        "text": "I'll revise the plan and bring it back. Our performers can stand nearer the square, so the audience won't need to gather directly beside the doors."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What relationship is best supported?",
+       "options": [
+        "Two shoppers choosing a shop entrance.",
+        "A permit reviewer and a performance applicant.",
+        "Two performers holding an approved permit.",
+        "A shop owner renting space to a customer."
+       ],
+       "answer": 1,
+       "why": "依据是 Before I issue a permit 和 I'll revise the plan and bring it back。一方发放许可，另一方申请演出，即第二项。",
+       "point": "basis"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The proposed neighborhood reading bench would be useful, but the timber cost is higher than our budget. I wouldn't abandon the idea just because this design is expensive."
+       },
+       {
+        "who": "B",
+        "text": "Then I'll ask for a simpler design. We can compare it with the current one before committing any money to the project."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What attitude does the first speaker express?",
+       "options": [
+        "Complete rejection of every possible bench design.",
+        "Approval of the current design despite its high cost.",
+        "Preference for dropping the bench to stay within budget.",
+        "Support for the idea with concern about the current cost."
+       ],
+       "answer": 3,
+       "why": "依据是 would be useful 和 I wouldn't abandon the idea，同时 the timber cost is higher than our budget。支持这个想法，但嫌现在的成本高，即第四项。",
+       "point": "basis"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "We could hire a minibus for the birdwatching trip. It would keep everyone together, and the company has a vehicle available."
+       },
+       {
+        "who": "B",
+        "text": "Let's first check how many people are coming. If only a few confirm, we can share cars instead. I'll ask for replies by tomorrow evening before we book anything."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What will happen before transport is booked?",
+       "options": [
+        "The organizer will find out how many are coming.",
+        "The available minibus will definitely be hired.",
+        "Every participant will travel in a separate car.",
+        "The group will share cars whatever the replies are."
+       ],
+       "answer": 0,
+       "why": "依据是 Let's first check how many people are coming 和 before we book anything。订车之前先确认人数，即第一项。",
+       "point": "next"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I've sent the draft route for the neighborhood heritage walk. The guide may be able to check it tomorrow, but that isn't certain."
+       },
+       {
+        "who": "B",
+        "text": "Then I'll wait for the guide's reply before printing the map. The route might change, and printing now could mean producing another version immediately afterward."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which next action is supported?",
+       "options": [
+        "Print the map because the route has been approved.",
+        "Change the route before the guide receives the draft.",
+        "Wait for the guide's comments before printing the map.",
+        "Collect a guaranteed reply tomorrow and print immediately."
+       ],
+       "answer": 2,
+       "why": "依据是 I'll wait for the guide's reply before printing the map。先等导游回复再印地图，即第三项。",
+       "point": "next"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "basis",
+    "next"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I've looked at the storage proposal for the community costume collection. As the person responsible for the building's keys, I need to know who would enter the room and when."
+       },
+       {
+        "who": "B",
+        "text": "We could give every group a key, but perhaps a booking system would be easier to track."
+       },
+       {
+        "who": "A",
+        "text": "I prefer the booking idea, provided a named person takes responsibility each time."
+       },
+       {
+        "who": "B",
+        "text": "Agreed. I'll draft that arrangement and send it for review. We haven't issued any extra keys, and I won't do so before the arrangement is approved."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What can be inferred about the first speaker's role?",
+       "options": [
+        "The speaker designs all the stored costumes.",
+        "The speaker represents every borrowing group.",
+        "The speaker oversees access to the building.",
+        "The speaker has already issued additional keys."
+       ],
+       "answer": 2,
+       "why": "依据是 the person responsible for the building's keys 和 I need to know who would enter the room。说话人管理大楼的出入，即第三项。",
+       "point": "basis"
+      },
+      {
+       "stem": "What is the most likely next step?",
+       "options": [
+        "Prepare a booking proposal for review.",
+        "Issue a key to every group immediately.",
+        "Treat the initial key proposal as approved.",
+        "Allow unnamed borrowers unrestricted access."
+       ],
+       "answer": 0,
+       "why": "依据是 I'll draft that arrangement and send it for review。下一步是起草预约方案，交给对方审阅，即第一项。",
+       "point": "next"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "basis",
+    "next"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Welcome to the small-stage program, Maya. Before I can approve your puppet performance, I need a plan showing where the audience will sit and how the puppets will move behind the screen. My role is to make sure each visiting group can use the room safely."
+         },
+         {
+          "who": "B",
+          "text": "Thanks, Leon. Our group has performed in school halls, but this space is narrower. I brought a sketch based on the dimensions you sent. We could reduce the screen width, although that would require changing one scene involving three puppets."
+         },
+         {
+          "who": "A",
+          "text": "The sketch is useful. I like the way you've kept the entrance clear, but the space behind the screen looks tight. I'm not rejecting the performance; I want to see whether the performers can move without stepping into the audience area."
+         },
+         {
+          "who": "B",
+          "text": "We could bring the screen on Tuesday and try the movements. If there's enough space, we'd keep the scene. If not, we'll rewrite that part for two puppets. Would a practical test be more useful than another drawing?"
+         },
+         {
+          "who": "A",
+          "text": "Yes, a test would help. Tuesday morning is already booked, but the room is available after two. I can be here then. Please don't advertise the performance date yet, because approval will depend on what the test shows."
+         },
+         {
+          "who": "B",
+          "text": "All right. We'll come at two thirty with the screen and the puppets for that scene. I'll ask the other performers to keep the proposed performance date free, but I won't tell the audience that it's confirmed."
+         },
+         {
+          "who": "A",
+          "text": "Good. After the test, I'll write down any conditions we agree on. If the layout works, we can discuss publicity and ticket arrangements. Those details can wait until we're certain the performance fits the room."
+         },
+         {
+          "who": "B",
+          "text": "I'll send the revised sketch tonight so you can see the smaller screen option as well. We'll treat Tuesday as a trial of the space, not as a rehearsal of the whole show."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is the most likely relationship between Leon and Maya?",
+         "options": [
+          "A ticket seller and a member of the show's audience.",
+          "A school hall manager and a touring puppet performer.",
+          "A venue coordinator and a visiting performance organizer.",
+          "Two performers rehearsing an already approved production."
+         ],
+         "answer": 2,
+         "why": "依据是 Before I can approve your puppet performance 和 each visiting group can use the room safely。Leon 负责审批场地使用，Maya 代表来访的演出团体，即第三项。",
+         "point": "basis"
+        },
+        {
+         "stem": "What can be inferred about Leon's attitude toward the proposal?",
+         "options": [
+          "He sees potential but needs proof that the layout works.",
+          "He has rejected the performance because the entrance is blocked.",
+          "He has approved the complete show without further conditions.",
+          "He cares mainly about publicity and ticket arrangements."
+         ],
+         "answer": 0,
+         "why": "依据是 I like the way you've kept the entrance clear, but the space behind the screen looks tight，以及 I'm not rejecting the performance。Leon 看好方案，但要先确认布置可行，即第一项。",
+         "point": "basis"
+        },
+        {
+         "stem": "What will Maya's group most likely do next Tuesday?",
+         "options": [
+          "Perform the complete show for a confirmed audience.",
+          "Rehearse the whole show in the room that morning.",
+          "Rewrite the scene regardless of the available space.",
+          "Test whether the proposed staging fits the room."
+         ],
+         "answer": 3,
+         "why": "依据是 We'll treat Tuesday as a trial of the space。周二去试场地够不够用，即第四项。",
+         "point": "next"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Rowan, I've brought the draft label for the embroidered banner. As you requested, I've described the materials separately from the family story. The donor believes her grandmother made it, but the date written on the back may have been added later."
+         },
+         {
+          "who": "B",
+          "text": "That's helpful, Suri. Since I sign off the labels before they go into the gallery, I need to distinguish what we can verify from what the donor remembers. The family account is valuable, but it shouldn't become a definite attribution without supporting evidence."
+         },
+         {
+          "who": "A",
+          "text": "I agree. I've written that the banner was donated with an account linking it to the grandmother. I haven't called her the maker. There may be a photograph of it in the family album, though the donor hasn't located that image yet."
+         },
+         {
+          "who": "B",
+          "text": "That wording is appropriately cautious. Could we contact the donor again before the labels are printed? A dated photograph might help establish when the banner was in use, even if it doesn't show who stitched it. We should explain that distinction in our request."
+         },
+         {
+          "who": "A",
+          "text": "I can call tomorrow. I was going to send the label straight to the printer this evening, but I'll hold it until we've made that inquiry. The other labels are ready, so delaying this one won't stop the entire display from being prepared."
+         },
+         {
+          "who": "B",
+          "text": "Good. If the photograph turns up, we'll check what it actually supports. If it doesn't, the current wording can remain, with the family account clearly attributed. We don't need to remove the banner simply because one part of its history remains uncertain."
+         },
+         {
+          "who": "A",
+          "text": "Then I'll contact the donor and make a note of the response. I'll bring any new image to you before changing the label. I won't treat the existence of a photograph as proof of the maker."
+         },
+         {
+          "who": "B",
+          "text": "Exactly. Once we've reviewed the response together, I'll approve the wording and we can send that label for printing."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What can be inferred about Rowan's responsibility?",
+         "options": [
+          "Supplying the family's account as the banner's donor.",
+          "Reviewing and approving the labels shown in the gallery.",
+          "Printing every label before historical details are checked.",
+          "Taking the photograph that proves who made the banner."
+         ],
+         "answer": 1,
+         "why": "依据是 I sign off the labels before they go into the gallery 和 I'll approve the wording。Rowan 负责审核并批准展签，即第二项。",
+         "point": "basis"
+        },
+        {
+         "stem": "What is Suri most likely to do before printing this label?",
+         "options": [
+          "Declare the grandmother to be the confirmed maker.",
+          "Remove the banner from the display permanently.",
+          "Ask the donor about a possible family photograph.",
+          "Publish the missing photograph without reviewing it."
+         ],
+         "answer": 2,
+         "why": "依据是 I can call tomorrow 和 I'll hold it until we've made that inquiry。Suri 先向捐赠者询问照片的事，再送印，即第三项。",
+         "point": "next"
+        },
+        {
+         "stem": "If no photograph is found, what course of action is supported?",
+         "options": [
+          "Retain wording that identifies the story as the family's account.",
+          "Replace the cautious wording with a definite maker attribution.",
+          "Cancel the entire display until the maker is established.",
+          "Print a label saying the grandmother certainly did not make it."
+         ],
+         "answer": 0,
+         "why": "依据是 If it doesn't, the current wording can remain, with the family account clearly attributed。保留现有措辞，并写明这是家族的说法，即第一项。",
+         "point": "next"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

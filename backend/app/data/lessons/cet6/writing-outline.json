@@ -1,0 +1,470 @@
+{
+ "id": "writing-outline",
+ "title": "提纲作文的要点对应",
+ "goal": "将提纲要点对应到段落功能；识别遗漏或重复的提纲内容。",
+ "skill": "写作",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "map",
+   "label": "将提纲要点对应到段落功能"
+  },
+  {
+   "id": "omit",
+   "label": "识别遗漏或重复的提纲内容"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语六级（CET-6）：课表",
+   "url": "docs/syllabi/cet6.md",
+   "used": "写作部分：提纲作文的要点对应；内容范围、知识点与客观题规格。"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "提纲要点规定必须写到的内容，不规定段落数量。现象描述说发生了什么，原因分析说为什么发生，个人观点给出判断和依据。相关内容可以合成一段，独立的要求仍要有对应的句子。"
+    },
+    {
+     "box": "Outline: describe students' use of reusable notebooks; explain their reasons; state a view on continued use."
+    },
+    {
+     "p": "描述使用情况，代替不了解释原因。描述和原因可以写在同一段，最后的判断仍要写。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　标明功能",
+     "d": "确定每个要点是描述、解释还是评价。describe participation 对应现象，explain participation 对应原因。"
+    },
+    {
+     "t": "2　安排层次",
+     "d": "把同一功能的细节放进同一段。low cost 和 easy storage 都是选用可重复使用笔记本的原因，可以放在一起。"
+    },
+    {
+     "t": "3　保留独立要求",
+     "d": "合段后逐项核对。描述和原因写完后，state a view 仍要有一句明确的判断。"
+    },
+    {
+     "t": "4　检查重复",
+     "d": "比较段落实际说了什么，不看连接词。More students use them 和 Their use is becoming common 说的是同一现象，属于重复。"
+    }
+   ]
+  },
+  {
+   "id": "functions",
+   "type": "table",
+   "title": "要点与段落功能",
+   "cols": [
+    "功能",
+    "写法",
+    "例"
+   ],
+   "rows": [
+    [
+     "现象描述",
+     "交代对象和变化，不先假定原因。",
+     "More club members now use reusable notebooks during planning meetings."
+    ],
+    [
+     "原因分析",
+     "说明现象出现的原因，不换个说法重复现象。",
+     "Replaceable pages reduce the need to buy a new notebook for each project."
+    ],
+    [
+     "个人观点",
+     "表明是否支持，或在什么条件下支持，不只说有争议。",
+     "Continued use is worthwhile when replacement pages remain easy to obtain."
+    ],
+    [
+     "合段",
+     "相关信息可以合并，用 because 等词保留关系。",
+     "Use has grown because members can replace individual pages."
+    ],
+    [
+     "独立要求",
+     "同一话题下的不同任务，要分别写到。",
+     "Describe current use, then assess whether the club should encourage it."
+    ]
+   ]
+  },
+  {
+   "id": "outlines",
+   "type": "table",
+   "title": "提纲的合并与保留",
+   "cols": [
+    "提纲",
+    "段落安排",
+    "判断"
+   ],
+   "rows": [
+    [
+     "Describe balcony gardening; explain lack of space; give a view on shared planters.",
+     "Paragraph 1: gardening and space limits. Paragraph 2: evaluate shared planters.",
+     "现象和直接原因合段，评价单独成段，符合要求。"
+    ],
+    [
+     "Describe balcony gardening; explain lack of space; give a view on shared planters.",
+     "Paragraph 1: gardens are small. Paragraph 2: balconies offer little space.",
+     "重复空间信息，缺少共享花盆的评价。"
+    ],
+    [
+     "Describe reusable parcel bags; explain cost and convenience; assess a deposit scheme.",
+     "Paragraph 1: current use. Paragraph 2: cost and convenience. Paragraph 3: assess deposits.",
+     "两个原因同段，押金的评价单独成段，符合要求。"
+    ],
+    [
+     "Describe reusable parcel bags; explain cost and convenience; assess a deposit scheme.",
+     "Paragraph 1: bag use. Paragraph 2: convenience. Paragraph 3: support deposits.",
+     "缺少成本这个原因，支持押金代替不了它。"
+    ],
+    [
+     "Describe a community story archive; explain participation; discuss privacy and give a view.",
+     "Paragraph 1: archive and participation. Paragraph 2: privacy risks and a conditional judgment.",
+     "隐私风险和附条件的立场相关，可以合段。"
+    ],
+    [
+     "Describe a community story archive; explain participation; discuss privacy and give a view.",
+     "Paragraph 1: archive. Paragraph 2: participation. Paragraph 3: archives are important.",
+     "只说档案重要，没有讨论隐私。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "An arts newsletter requests an article about students exchanging unused fabric. The outline requires a description of the exchange, an explanation of why participants prefer swapping to buying new material, and a personal view on whether the exchange should continue. Discuss both cost and the opportunity to find unusual pieces when explaining participation. The description and explanation may appear together if their functions remain clear. The final judgment must address continuation rather than merely repeat that students already exchange fabric."
+    },
+    {
+     "box": "Draft plan: Paragraph 1 describes the exchange and explains lower costs. Paragraph 2 explains access to unusual pieces. Paragraph 3 describes the exchange again."
+    },
+    {
+     "p": "第一段既描述交换活动，又解释了一个原因，第二段补上另一个原因。第三段重复现象，缺少是否继续的判断。段落数够了，任务仍不完整。"
+    },
+    {
+     "box": "Revised final point: The exchange should continue while organizers maintain clear rules for the condition of donated fabric."
+    },
+    {
+     "p": "修改后的结尾回应了 continuation，并给出条件。条件只限定立场，是否继续的判断仍然保留。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "描述冒充解释",
+     "Swapping is popular because many students swap fabric.",
+     "because 后仍是流行现象，没有新原因。"
+    ],
+    [
+     "重复冒充覆盖",
+     "Paragraph 1: increasing use. Paragraph 2: growing popularity.",
+     "比较两段的信息，increasing use 和 growing popularity 说的是同一件事。"
+    ],
+    [
+     "合并导致遗漏",
+     "Cost and convenience → cost alone.",
+     "合段时两个原因都要保留。"
+    ],
+    [
+     "背景冒充观点",
+     "The exchange began last term.",
+     "开始时间不能回答是否应当继续。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "map",
+    "omit"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "Outline: describe bicycle maintenance sessions; explain why attendance rises; assess whether volunteers should continue offering them. Draft: Attendance has grown since beginners can ask questions without booking individual appointments.",
+     "items": [
+      {
+       "stem": "Which functions does the draft combine?",
+       "options": [
+        "A judgment on continuation and an account of past appointments.",
+        "A description of attendance and an explanation of its growth.",
+        "Two judgments about replacing volunteers with individual appointments.",
+        "A description of volunteers and a decision to stop sessions."
+       ],
+       "answer": 1,
+       "why": "Attendance has grown 描述现象，since beginners can ask questions … 解释增长的原因，即第二项。",
+       "point": "map"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Outline: describe evening language walks; explain social contact and convenient timing; give a view on continuation. Plan: describe the walks, explain social contact, recommend continuation.",
+     "items": [
+      {
+       "stem": "Which required element has no clear place?",
+       "options": [
+        "The judgment on continuing the language walks.",
+        "The description of the evening activity itself.",
+        "The role of timing in attracting participants.",
+        "The contribution of social contact to participation."
+       ],
+       "answer": 2,
+       "why": "提纲要求写 convenient timing，计划只写了 social contact 这一个原因，即第三项。",
+       "point": "omit"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Outline: describe shared sewing machines and assess booking rules. Plan: one paragraph describes booking demand; another says many users want the same machines.",
+     "items": [
+      {
+       "stem": "What is the main weakness of the plan?",
+       "options": [
+        "It repeats demand without assessing the booking rules.",
+        "It assesses rules without describing sewing machines.",
+        "It explains how rules reduced the demand for machines.",
+        "It separates a judgment from its supporting evidence."
+       ],
+       "answer": 0,
+       "why": "booking demand 和 many users want the same machines 都在说需求，属于重复。assess booking rules 没有写到，即第一项。",
+       "point": "omit"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Outline: describe a local walking map; discuss unclear route labels; give a view on revising it. Plan: describe the map first, then discuss label problems and support revision.",
+     "items": [
+      {
+       "stem": "Why can the final two points share a paragraph?",
+       "options": [
+        "Both points describe how the original map was produced.",
+        "Both points replace the requested description of the map.",
+        "The judgment makes discussion of unclear labels unnecessary.",
+        "The label problem directly supports the judgment about revision."
+       ],
+       "answer": 3,
+       "why": "label problems 正是 support revision 的依据，所以两点可以同段，即第四项。合段后两种功能都在。",
+       "point": "map"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "map",
+    "omit"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "The outline for an article on neighborhood skill swaps asks for current activities, reasons for joining, and a judgment about keeping the scheme free. A draft first describes residents exchanging basic lessons. Its next paragraph explains that participants gain help without spending money and can meet neighbors. Its final paragraph lists the same activities again. The reasons are relevant, but the reader still does not know whether the writer supports free participation.",
+     "items": [
+      {
+       "stem": "Which revision fills the missing function?",
+       "options": [
+        "Add more examples of the lessons residents exchange.",
+        "Explain again that participants can meet their neighbors.",
+        "Replace the repeated list with a reasoned view on free participation.",
+        "Move the repeated activities before the explanation of joining."
+       ],
+       "answer": 2,
+       "why": "final paragraph lists the same activities again 重复了开头，文中缺少 judgment about keeping the scheme free。第三项用对免费参与的看法替换重复的内容。",
+       "point": "omit"
+      },
+      {
+       "stem": "Express the final paragraph's required function.",
+       "lead": "The final paragraph should",
+       "chunks": [
+        "give a judgment",
+        "on keeping",
+        "the skill swap",
+        "free for residents"
+       ],
+       "tail": "instead of repeating the activities already described in the opening section.",
+       "extra": [
+        "giving a judgment"
+       ],
+       "why": "give a judgment 对应评价功能，on keeping … free 说明评价的对象。should 后面用原形 give，不用 giving。",
+       "point": "map"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "map",
+    "omit"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A residential newsletter requests an article about a shared luggage store. The outline asks for a description of its current use, explanations involving limited room space and infrequent travel, and a view on whether access should remain free. A draft describes residents leaving suitcases in the store and explains that their rooms are small. It then repeats that suitcases occupy little space in bedrooms when stored elsewhere. The last paragraph supports free access, provided that each resident registers stored items.",
+       "items": [
+        {
+         "stem": "Which function is performed by the final paragraph?",
+         "options": [
+          "Describing how often residents travel with their suitcases.",
+          "Explaining why bedroom space is limited in the residence.",
+          "Expressing a conditional judgment about the cost of access.",
+          "Repeating the description of where suitcases are currently kept."
+         ],
+         "answer": 2,
+         "why": "supports free access, provided that … 是带条件的立场，评价的是免费使用，即第三项。",
+         "point": "map"
+        },
+        {
+         "stem": "Which change best addresses the draft's coverage problem?",
+         "options": [
+          "Replace the free-access judgment with another account of small rooms.",
+          "Delete the description because registration already describes every use.",
+          "Repeat the point about bedroom space with different luggage examples.",
+          "Replace the repeated space point with an explanation involving rare travel."
+         ],
+         "answer": 3,
+         "why": "提纲要求两个原因：limited room space 和 infrequent travel。草稿把空间写了两遍，漏了出行少，即第四项。",
+         "point": "omit"
+        },
+        {
+         "stem": "State the function of the paragraph on small bedrooms.",
+         "lead": "The paragraph on bedroom size",
+         "chunks": [
+          "explains a reason",
+          "for residents' use",
+          "of the shared store",
+          "rather than judging"
+         ],
+         "tail": "whether access to that store should remain free under a registration rule.",
+         "extra": [
+          "explain a reason"
+         ],
+         "why": "explains a reason 对应原因分析，rather than judging 把它和评价功能分开。主语 paragraph 是单数，谓语用 explains。",
+         "point": "map"
+        },
+        {
+         "stem": "Identify the content still needed after the space explanation.",
+         "lead": "The revised explanation must",
+         "chunks": [
+          "include the effect",
+          "of infrequent travel",
+          "on the need",
+          "for luggage storage"
+         ],
+         "tail": "rather than repeat the existing point about the limited size of residents' rooms.",
+         "extra": [
+          "including the effect"
+         ],
+         "why": "include the effect of infrequent travel 补上漏掉的原因，must 后面用原形 include。rather than 后面是要去掉的重复内容。",
+         "point": "omit"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "Prepare an article for a neighborhood journal about residents sharing documentary recommendations. Describe the recommendation list, explain both the wish to discover unfamiliar subjects and the difficulty of choosing among many films, and assess whether contributors should briefly explain each recommendation. A draft opens with a description and a sentence about discovering unfamiliar subjects. Its second paragraph discusses the difficulty of choosing films. Its third argues for short explanations because readers need to judge relevance before selecting a title.",
+       "items": [
+        {
+         "stem": "How does the opening relate to the outline?",
+         "options": [
+          "It combines the description with one reason for participation.",
+          "It combines both reasons with the final judgment on explanations.",
+          "It replaces the list description with a full assessment of contributors.",
+          "It repeats the film-selection difficulty developed in the second paragraph."
+         ],
+         "answer": 0,
+         "why": "a description and a sentence about discovering unfamiliar subjects 说明开头既有描述，又有一个原因，即第一项。",
+         "point": "map"
+        },
+        {
+         "stem": "Which proposed addition would mainly duplicate existing content?",
+         "options": [
+          "A brief condition limiting how long contributors' explanations should be.",
+          "A paragraph again explaining that choosing among many films is difficult.",
+          "A concrete example showing how a short explanation clarifies relevance.",
+          "A sentence connecting unfamiliar subjects to the benefit of recommendations."
+         ],
+         "answer": 1,
+         "why": "Its second paragraph discusses the difficulty of choosing films 已经写了这个原因。第二项再用一段复述，就是重复。",
+         "point": "omit"
+        },
+        {
+         "stem": "Describe the relationship between the final paragraph and the outline.",
+         "lead": "The final paragraph",
+         "chunks": [
+          "assesses the proposal",
+          "that contributors",
+          "should explain",
+          "their documentary recommendations"
+         ],
+         "tail": "so that readers can judge relevance before deciding which films to watch.",
+         "extra": [
+          "assessing the proposal"
+         ],
+         "why": "assesses 是主句谓语，that contributors should explain 说明评价的是哪个提议。用 assessing，句子就没有谓语。",
+         "point": "map"
+        },
+        {
+         "stem": "State why another paragraph on choice difficulty is unnecessary.",
+         "lead": "An additional paragraph",
+         "chunks": [
+          "would repeat the difficulty",
+          "of choosing films",
+          "already discussed",
+          "in the second paragraph"
+         ],
+         "tail": "without addressing a new requirement in the outline for the neighborhood journal.",
+         "extra": [
+          "repeating the difficulty"
+         ],
+         "why": "would 后面用原形 repeat，不用 repeating。already discussed 说明这个困难前文已经写过。",
+         "point": "omit"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

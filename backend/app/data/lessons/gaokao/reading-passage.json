@@ -1,0 +1,182 @@
+{
+  "id": "reading-passage",
+  "title": "阅读理解　阅读第一节 · 练习",
+  "goal": "根据短文证据理解细节、推断和主旨。",
+  "skill": "reading",
+  "exam": "高考英语（新课标卷）",
+  "points": [
+    {
+      "id": "detail",
+      "label": "定位细节并核对同义改写"
+    },
+    {
+      "id": "inference",
+      "label": "依据文中证据作出有限推断"
+    },
+    {
+      "id": "main",
+      "label": "概括全文主旨并限定范围"
+    }
+  ],
+  "sources": [
+    {
+      "id": "sample",
+      "title": "2024 年高考综合改革适应性测试 英语（新课标卷）试卷（教育部教育考试院）",
+      "url": "https://www.neea.edu.cn/html1/report/2401/499-1.htm",
+      "used": "阅读理解题型"
+    }
+  ],
+  "cards": [
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "小测",
+      "minutes": 8,
+      "pass": 0.75,
+      "points": [
+        "detail",
+        "inference",
+        "main"
+      ],
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "label": "Reading",
+              "look": "passage",
+              "text": "When the old footbridge at the edge of the village was closed for repairs, the walk to school became much longer for the children who lived across the stream. They could use the road bridge, but it was nearly two kilometres away. The village council put up a notice explaining that the wooden boards had become unsafe and asking residents to keep away while the work was planned.\n\nAt a meeting, some parents suggested hiring a bus. Others worried that a bus would be expensive for a journey that would only be needed for a few weeks. Then a local gardener, Mr Green, offered another idea. He knew a farmer who owned a field beside the stream. With the farmer's permission, the children could follow a path across the field to a small stone crossing farther upstream. The crossing was narrow, however, and the path became slippery after rain.\n\nRather than simply announcing the route, the council asked families to try it on a Saturday morning. Adults walked with the children and noted places where a handrail or a clearer sign would help. The farmer agreed to keep his animals in another field during school hours. A group of residents laid a short line of rough stones on the wettest section of the path.\n\nThe temporary route opened the following Monday. It still took longer than the old bridge, but families could reach school on foot without going all the way to the road bridge. When the repaired footbridge reopened, the council thanked the farmer and the volunteers. It also kept a record of their suggestions, in case the crossing was ever needed again.",
+              "items": [
+                {
+                  "stem": "Why was the old footbridge closed?",
+                  "options": [
+                    "It was too narrow for children.",
+                    "Its wooden boards were unsafe.",
+                    "The farmer needed the land.",
+                    "The road bridge was being repaired."
+                  ],
+                  "answer": 1,
+                  "why": "通知说明木板已不安全；维修的是人行桥，不是公路桥。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "What can be inferred about the Saturday walk?",
+                  "options": [
+                    "It helped identify changes needed on the route.",
+                    "It was the first day of the new school term.",
+                    "It showed that a bus would be cheaper.",
+                    "It persuaded the farmer to sell his field."
+                  ],
+                  "answer": 0,
+                  "why": "家长和孩子试走后指出了需要扶手和标志的地方。",
+                  "point": "inference"
+                },
+                {
+                  "stem": "What did the farmer agree to do during school hours?",
+                  "options": [
+                    "Repair the road bridge.",
+                    "Drive children to school.",
+                    "Move his animals to another field.",
+                    "Place signs inside the school."
+                  ],
+                  "answer": 2,
+                  "why": "农场主同意在上学时间把牲畜留在另一块地里。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "What is the main purpose of the passage?",
+                  "options": [
+                    "To compare different types of bridges.",
+                    "To explain how to build a stone crossing.",
+                    "To argue that school buses should be free.",
+                    "To describe how a village arranged a temporary school route."
+                  ],
+                  "answer": 3,
+                  "why": "全文讲述人行桥维修期间村民如何安排临时上学路线。",
+                  "point": "main"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "label": "Reading",
+              "look": "passage",
+              "text": "A library can be more than a place to borrow books. In one small town, a shelf near the entrance holds tools that residents can borrow for a week at a time. There are screwdrivers, garden forks and even a machine for cleaning carpets. The collection began when a librarian noticed how often neighbours asked one another for equipment they needed only once or twice a year.\n\nBefore adding any tools, the library asked residents what they would actually use. Many requested basic repair equipment rather than the expensive machines the staff had first imagined. The library bought a small set with a local grant, and residents donated several items in good condition. Each tool was checked before it was added to the catalogue. Borrowers must be adults, and they receive written instructions with each item.\n\nThe arrangement has limits. The library cannot lend every kind of equipment, and a tool that needs repair may be unavailable for several weeks. To reduce waiting, staff keep a list of reservations. They also ask borrowers to report damage instead of trying to hide it. This lets the library remove an unsafe item and decide whether it can be repaired.\n\nThe most surprising result has been the conversations around the shelf. People returning a garden tool sometimes share advice with someone borrowing it next. The library has since held short demonstrations where volunteers explain simple maintenance tasks. These meetings do not replace professional training, but they give beginners a chance to ask questions. For the town, the shelf has become both a way to share useful objects and a place where practical knowledge can pass between neighbours.",
+              "items": [
+                {
+                  "stem": "What did the library do before acquiring tools?",
+                  "options": [
+                    "It asked residents which tools they needed.",
+                    "It trained every borrower as a professional.",
+                    "It sold old books to buy machines.",
+                    "It asked volunteers to repair the carpet cleaner."
+                  ],
+                  "answer": 0,
+                  "why": "图书馆先询问居民实际需要哪些工具。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "Why does the library ask borrowers to report damage?",
+                  "options": [
+                    "To charge every borrower for a new tool.",
+                    "To identify equipment that may be unsafe.",
+                    "To shorten the written instructions.",
+                    "To increase the number of demonstrations."
+                  ],
+                  "answer": 1,
+                  "why": "报告损坏能让图书馆及时移走可能不安全的工具。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "What can be inferred about the demonstrations?",
+                  "options": [
+                    "They are required before any book can be borrowed.",
+                    "They teach residents to operate every machine.",
+                    "They provide an opportunity for beginners to learn.",
+                    "They are intended only for professional workers."
+                  ],
+                  "answer": 2,
+                  "why": "文中说讲解活动让初学者有机会提问，并不代替专业培训。",
+                  "point": "inference"
+                },
+                {
+                  "stem": "Which title best expresses the main idea?",
+                  "options": [
+                    "How to Open a New Bookshop",
+                    "Why All Tools Need Professional Repair",
+                    "The History of Gardening Equipment",
+                    "A Library Shelf That Shares Tools and Knowledge"
+                  ],
+                  "answer": 3,
+                  "why": "文章介绍工具借用及邻里交流知识两方面。",
+                  "point": "main"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "more": {
+        "kind": "reading-passage",
+        "topics": [
+          "社区图书馆",
+          "校园花园",
+          "乡村步道",
+          "博物馆活动",
+          "旧物修理",
+          "志愿服务",
+          "自然观察",
+          "公共交通",
+          "地方手工艺",
+          "学校社团",
+          "水资源利用",
+          "社区交流"
+        ]
+      }
+    }
+  ]
+}

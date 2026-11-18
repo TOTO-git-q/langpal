@@ -1,0 +1,214 @@
+{
+  "id": "writing-task1-pie",
+  "title": "饼图　Task 1 · 练习",
+  "goal": "概括构成及变化，并准确比较比例。",
+  "skill": "写作",
+  "exam": "雅思 IELTS Academic",
+  "points": [
+    {
+      "id": "overview",
+      "label": "概括构成与主要变化"
+    },
+    {
+      "id": "structure",
+      "label": "按概述与细节组织说明"
+    },
+    {
+      "id": "accuracy",
+      "label": "准确表述比例与百分点"
+    }
+  ],
+  "sources": [
+    {
+      "id": "syllabus",
+      "title": "雅思 IELTS Academic：课表",
+      "url": "docs/syllabi/ielts.md",
+      "used": "练习尺寸与知识点"
+    },
+    {
+      "id": "writing",
+      "title": "IELTS Academic: Writing test format",
+      "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing",
+      "used": "写作任务的形式"
+    },
+    {
+      "id": "rubric",
+      "title": "IELTS Writing Band Descriptors",
+      "url": "https://ielts.org/cdn/ielts-guides/ielts-writing-band-descriptors.pdf",
+      "used": "写作评分标准"
+    }
+  ],
+  "cards": [
+    {
+      "id": "rubric",
+      "type": "rubric",
+      "title": "评分标准",
+      "levels": [
+        {
+          "score": 5,
+          "name": "Band 8-9",
+          "summary": "充分完成任务，概述清楚，语言运用自如。",
+          "signs": [
+            "准确概括并充分呈现主要特征",
+            "组织连贯，衔接自然",
+            "词汇准确灵活，句式多样，错误极少"
+          ]
+        },
+        {
+          "score": 4,
+          "name": "Band 7",
+          "summary": "完成任务，概述清楚，主要特征有恰当支持。",
+          "signs": [
+            "选择并呈现主要特征，细节可更充分",
+            "结构清楚，衔接基本得当",
+            "词汇与句式有变化，错误较少"
+          ]
+        },
+        {
+          "score": 3,
+          "name": "Band 6",
+          "summary": "涵盖主要特征并尝试概述，但部分细节可能遗漏或不准确。",
+          "signs": [
+            "概述可辨，部分细节不充分或有误",
+            "整体推进清楚，衔接有时机械",
+            "词汇和句式有一定范围，错误反复出现"
+          ]
+        },
+        {
+          "score": 2,
+          "name": "Band 5",
+          "summary": "部分完成任务，概述或主要特征不够清楚。",
+          "signs": [
+            "选择的细节有限，可能遗漏重要特征",
+            "组织有一定顺序，但衔接不稳定",
+            "词汇和句式范围有限，错误有时妨碍理解"
+          ]
+        },
+        {
+          "score": 1,
+          "name": "Band 4 及以下",
+          "summary": "任务完成十分有限，语言困难明显。",
+          "signs": [
+            "主要特征或概述缺失",
+            "组织和衔接有限",
+            "词汇及句式范围很窄，错误频繁并影响理解"
+          ]
+        },
+        {
+          "score": 0,
+          "name": "未作答",
+          "summary": "未作答。",
+          "signs": []
+        }
+      ],
+      "takeaways": [
+        {
+          "t": "四项标准",
+          "d": "按任务完成情况、连贯与衔接、词汇、语法范围与准确性四项等权评价。"
+        }
+      ]
+    },
+    {
+      "id": "marking",
+      "type": "marking",
+      "title": "批改单",
+      "format": [
+        {
+          "t": "题目的要求",
+          "d": "逐条判断是否答到，并引用原文。"
+        },
+        {
+          "t": "分数档",
+          "d": "对照评分标准给出 0–5 分和理由。"
+        },
+        {
+          "t": "必改的地方",
+          "d": "列出最多五处影响理解或准确性的错误及改法。"
+        },
+        {
+          "t": "升一档",
+          "d": "改写一处内容，说明怎样补充细节或表达得更准确。"
+        }
+      ],
+      "rules": "评分依据任务完成情况、连贯与衔接、词汇、语法范围与准确性；四项等权。",
+      "example": {
+        "about": "以下示例说明概述不完整时的判定。",
+        "coverage": [
+          {
+            "bullet": "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+            "verdict": "做了但太薄",
+            "quote": "The figures changed.",
+            "note": "提到了变化，但没有概括主要趋势。"
+          }
+        ],
+        "score": 2,
+        "reason": "描述涉及变化，但没有说明主要特征。",
+        "fixes": [],
+        "upgrade": {
+          "from": "The figures changed.",
+          "to": "Both figures rose, although the second increased more rapidly.",
+          "why": "概括了两组数据的变化方向及主要差异。"
+        },
+        "next": ""
+      }
+    },
+    {
+      "id": "timed",
+      "type": "write",
+      "title": "限时写作",
+      "minutes": 20,
+      "min_words": 150,
+      "points": [
+        "overview",
+        "structure",
+        "accuracy"
+      ],
+      "tasks": [
+        {
+          "id": "set-a",
+          "purpose": "比较家庭出行方式的构成",
+          "setting": "The pie charts below show how journeys made by households in one town were distributed among four principal modes of transport in 2010 and 2020. Each percentage is a share of all journeys in the relevant year, not a count of travellers.\n\nPie charts: share of household journeys (%)\nMode          2010  2020\nCar             50    40\nBus             20    25\nBicycle         10    15\nWalking         20    20",
+          "lead": "Write at least 150 words.",
+          "bullets": [
+            "Summarise the information by selecting and reporting the main features, and make comparisons where relevant."
+          ],
+          "must": [
+            "概括两年的出行方式构成及主要变化。"
+          ],
+          "model": "The pie charts compare the proportions of household journeys made by four transport modes in a town in 2010 and 2020. The percentages refer to journeys rather than the number of people travelling.\n\nOverall, cars accounted for the largest share in both years, although their proportion fell. Bus travel and cycling became more significant, while walking maintained the same share of the total.\n\nIn 2010, half of all journeys were made by car. Bus travel and walking each represented one fifth, at 20%, while cycling was the least common mode at 10%. Thus the car share was two and a half times that of either buses or walking, and five times the figure for bicycles.\n\nBy 2020, the car share had declined by ten percentage points to 40%. It nevertheless remained the largest category, exceeding the bus figure of 25% by 15 percentage points. Bus travel had gained five points over the decade, and cycling had also risen by five points, reaching 15%. Walking remained unchanged at 20%. As a result, the three non-car modes together represented 60% of journeys in 2020, compared with 50% in 2010."
+        },
+        {
+          "id": "set-b",
+          "purpose": "比较图书馆经费的构成",
+          "setting": "The pie charts below show the allocation of one library's annual budget among four categories in 2015 and 2025. The percentages refer to the share of the budget in each year and do not indicate whether the total amount of money changed.\n\nPie charts: share of annual budget (%)\nCategory       2015  2025\nStaff            40    35\nBooks            30    25\nBuilding         20    20\nDigital          10    20",
+          "lead": "Write at least 150 words.",
+          "bullets": [
+            "Summarise the information by selecting and reporting the main features, and make comparisons where relevant."
+          ],
+          "must": [
+            "概括两年预算的构成及主要变化。"
+          ],
+          "model": "The pie charts illustrate how a library divided its annual budget among staff, books, the building and digital services in 2015 and 2025. The data are proportions of each year's budget rather than amounts of money.\n\nOverall, staff accounted for the largest share in both years, although this proportion declined. Digital services gained the most ground and, by 2025, had the same share as the building. The chart does not establish whether actual expenditure rose or fell.\n\nIn 2015, 40% of the budget was allocated to staff, making this category ten percentage points larger than books, at 30%. The building received 20%, while digital services had the smallest share, at 10%. Together, staff and books accounted for 70% of the budget that year.\n\nTen years later, the proportions for staff and books had each fallen by five percentage points, to 35% and 25% respectively. The building's share was unchanged at one fifth. In contrast, the digital share doubled to 20%, an increase of ten percentage points. Staff and books still made up a majority, but their combined share had decreased to 60%."
+        }
+      ],
+      "more": {
+        "kind": "task1-pie",
+        "topics": [
+          "公共交通",
+          "图书馆借阅",
+          "社区用水",
+          "家庭能源",
+          "学校出行",
+          "城市绿地",
+          "博物馆参观",
+          "家庭支出",
+          "废物处理",
+          "运动设施",
+          "课程报名",
+          "公园访客",
+          "自行车出行"
+        ]
+      }
+    }
+  ]
+}

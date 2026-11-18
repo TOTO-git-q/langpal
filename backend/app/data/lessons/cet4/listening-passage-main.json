@@ -1,0 +1,72 @@
+{
+ "id": "listening-passage-main",
+ "title": "篇章主旨题",
+ "goal": "概括篇章的核心判断，并判断主旨选项的范围。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "main", "label": "概括篇章的核心判断"},
+  {"id": "scope", "label": "排除仅覆盖局部信息的主旨"}
+ ],
+ "sources": [
+  {"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "听力篇章的材料规格"}
+ ],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "主旨题要求概括整段录音的中心内容。题干常用 mainly about 或 best title。标题应涵盖主要内容，并体现讲者对主题的核心判断。"},
+   {"box": "What is the talk mainly about?\nWhich is the best title for the talk?"},
+   {"p": "只有主题词的选项通常范围过宽。讲者用几个例子说明同一观点时，主旨是这些例子共同支持的判断。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定话题", "d": "听开头引入的对象和问题。A town changed its street lighting. 引出城镇照明的变化。"},
+   {"t": "2　归纳判断", "d": "结合中间的措施和结尾的结果概括讲者的判断。New lights use less energy while keeping paths visible. 说明变化的作用。"},
+   {"t": "3　核对范围", "d": "比较选项和整段内容。A New Lighting System for Town Paths 涵盖变化，The History of Electricity 范围过宽。"},
+   {"t": "4　核对立场", "d": "确认选项没有采用讲者否定的观点。The town removed every light. 与保留照明的描述不符。"}
+  ]},
+  {"id": "scope", "type": "table", "title": "主题与核心判断", "cols": ["主题", "核心判断", "适合的概括"], "rows": [
+   ["library deliveries", "送书服务方便无法到馆的居民", "Home Delivery Extends Library Access"],
+   ["school gardens", "学生通过种植观察植物变化", "Learning Through a School Garden"],
+   ["old buildings", "旧建筑可改作社区空间", "A New Community Use for an Old Building"],
+   ["shared tools", "共享工具减少个人购置的需要", "Sharing Tools Within a Neighborhood"]
+  ], "note": "概括由主题词加核心判断组成。核心判断要覆盖整段内容。某个词出现的次数多，不说明它就是主旨。"},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A group of residents started a seed exchange in their neighborhood. People bring seeds they have saved and take seeds offered by others. The group also labels each packet with the plant name and the date it was collected. Members share growing experiences at regular meetings. The exchange allows neighbors to try different plants while learning from one another."},
+   {"box": "Which is the best title for the talk?\n1. Gardening Activities in Local Communities\n2. A Neighborhood Seed Exchange and Shared Learning\n3. How to Write a Date on a Packet\n4. Why Residents Stopped Sharing Seeds"},
+   {"p": "开头的 seed exchange 确定主题，结尾的 try different plants 和 learning from one another 给出核心判断。第二项涵盖交换和共同学习。"},
+   {"p": "第一项扩大到社区的各种园艺活动。第三项只概括标签上的一个细节。第四项与 started a seed exchange 相反。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "例", "原因"], "rows": [
+   ["范围过宽", "Gardening Activities in Local Communities", "录音只讲交换种子这一项活动"],
+   ["范围过宽", "Ways Neighbors Learn from One Another", "录音里的共同学习只涉及种植经验"],
+   ["局部例子", "How to Write a Date on a Packet", "日期是标签的一个细节"],
+   ["局部例子", "The Names Printed on Seed Packets", "名称未概括交换和学习"],
+   ["受否定观点", "Why Residents Stopped Sharing Seeds", "录音说明居民开始交换"],
+   ["受否定观点", "Why Members Kept Growing Advice Private", "录音说明成员分享经验"]
+  ]},
+  {"id": "check-short", "type": "check", "title": "练习一", "points": ["main", "scope"], "groups": [
+   {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "A school replaced its lost property box with a shelf. Students can see labeled items there, and staff keep a record of what is collected. The change makes it easier to find lost belongings."}]}, "items": [{"stem": "What is the talk mainly about?", "options": ["A school system that makes lost items easier to find", "The records that staff keep of every collected item", "A decision to remove the labels from lost items", "Ways schools can stop students from losing belongings"], "answer": 0, "why": "makes it easier to find lost belongings 概括了新架子的作用，对应第一项。", "point": "main"}]},
+   {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "A market moved some stalls into a covered hall. Shoppers can now visit those stalls in wet weather. Other stalls remain outside, so the market offers both indoor and outdoor spaces."}]}, "items": [{"stem": "Which is the best title for the talk?", "options": ["A Market Moves All Its Stalls Indoors", "A Market Adds Covered Space for Shoppers", "A New Covered Hall for Wet-Weather Events", "Why Some Stalls Remain Outside the Hall"], "answer": 1, "why": "covered hall 和 both indoor and outdoor spaces 说明市场增加了室内空间，对应第二项。", "point": "scope"}]},
+   {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "A university writing group meets once a week. Members read drafts and discuss whether the ideas are clear. They do not write the drafts for one another; they offer comments that authors can use in revision."}]}, "items": [{"stem": "What is the talk mainly about?", "options": ["A group that writes every student's assignment", "A weekly class on how to write clear ideas", "A writing group that offers feedback on drafts", "A meeting to replace writing with discussion"], "answer": 2, "why": "offer comments that authors can use in revision 说明小组通过反馈帮助修改，对应第三项。", "point": "main"}]},
+   {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "A town placed benches along a walking route. Some stand near trees, and others are close to shops. The benches give walkers places to rest along different parts of the route."}]}, "items": [{"stem": "Which is the best title for the talk?", "options": ["Trees and Shops Along a Walking Route", "A Town Builds a New Walking Route", "One Bench Near a Particular Shop", "Resting Places Along a Walking Route"], "answer": 3, "why": "places to rest along different parts of the route 概括了长椅的共同作用，对应第四项。", "point": "scope"}]}
+  ]},
+  {"id": "check-passage", "type": "check", "title": "练习二", "points": ["main", "scope"], "groups": [
+   {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "A local theater wanted more people to learn about the work behind a performance. It began offering short tours before selected shows. Visitors see the area where costumes are stored and learn how stage lights are arranged. Staff explain that the tour does not replace the performance itself. Instead, it introduces some of the preparation that audiences normally do not see. The theater has also invited visitors to ask questions about the work of the technical team. The tours give audiences another way to understand how a production is prepared."}]}, "items": [
+    {"stem": "What is the talk mainly about?", "options": ["A theater's tours of work behind a performance", "A theater's decision to cancel its performances", "How a theater arranges its stage lights", "Visitors' questions for a technical team"], "answer": 0, "why": "结尾的 another way to understand how a production is prepared 概括参观活动，对应第一项。", "point": "main"},
+    {"stem": "Which title best covers the talk?", "options": ["Careers in a Theater's Lighting and Costume Teams", "A Costume Stored in a Theater Building", "A Theater Opens Its Preparation Work to Visitors", "Tours That Replace a Theater's Performances"], "answer": 2, "why": "tours 和 work behind a performance 共同支持第三项，服装只是参观内容之一。", "point": "scope"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 8, "pass": 0.75, "points": ["main", "scope"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "A college has created a lending collection of musical instruments. The idea began when a student club noticed that some people wanted to join informal music groups but did not own an instrument. Buying an instrument can require a substantial initial payment, especially for someone who is still deciding what to play. The college library offered a room for storage, and several former students donated instruments they no longer used. Staff checked each instrument before adding it to the collection. Students may borrow an instrument for a limited period and return it to the library desk. They receive written instructions about keeping it clean and reporting any damage. The library does not promise that every type of instrument will always be available. When an instrument is already on loan, a student can place a request and wait for its return. The music club also organizes introductory sessions where borrowers can learn basic care and meet other players. These sessions are separate from formal music classes and do not replace instruction from a teacher. The library keeps records of loans and checks the condition of the instruments between borrowers. Its purpose is to make trying an instrument possible for more students, rather than requiring each beginner to purchase one immediately. The collection gives students a temporary way to explore music and helps them connect with others who share that interest."}]}, "items": [
+    {"stem": "What is the talk mainly about?", "options": ["The college's plan to replace its formal music classes", "A college collection that lets students borrow instruments", "A library's effort to sell instruments to former students", "A music club's introductory sessions for borrowers"], "answer": 1, "why": "结尾说明 collection 让学生暂时尝试乐器并与他人交流，对应第二项。", "point": "main"},
+    {"stem": "Which title best reflects the full talk?", "options": ["Buying a New Instrument for Every Music Student", "Basic Instrument Care for New Borrowers", "One Student's Request for a Particular Instrument", "A Lending Collection That Opens Access to Music"], "answer": 3, "why": "make trying an instrument possible for more students 概括借用项目的作用，对应第四项。", "point": "scope"},
+    {"stem": "Which statement best summarizes the speaker's point?", "options": ["Borrowing instruments offers a way to explore music before buying.", "Formal lessons have become unnecessary for all student musicians.", "Every instrument requested is immediately available to borrowers.", "Students must donate an instrument before joining a music group."], "answer": 0, "why": "rather than requiring each beginner to purchase one immediately 支持借用后再考虑购买，对应第一项。", "point": "main"}
+   ]},
+   {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "A town has developed a way to make its walking maps more useful to visitors. Its old map showed the main streets and the locations of public buildings, but it gave little information about the routes between them. Some visitors wanted a shorter walk, while others preferred to pass through quieter places. A team at the visitor center worked with local residents to describe several routes connecting the same public square and riverside park. One route follows a busy shopping street. Another passes a community garden and a small square with seating. The team walked each route and recorded its distance, crossing points, and places to rest. It then added these details to a revised map. The map also makes clear that the routes take different paths rather than claiming that one route is best for everyone. Printed copies are available at the visitor center, and the same information can be read online. Staff ask visitors to report changes, such as a path temporarily closed for repairs. They check those reports before updating the online map and preparing the next printed version. The map does not list every street in the town or describe every building. Its purpose is to help people compare several walks between two popular places. By showing route features as well as destinations, it allows visitors to choose a walk that suits their interests and needs."}]}, "items": [
+    {"stem": "Which is the best title for the talk?", "options": ["A Map Showing Every Street and Public Building in Town", "A New Route Along the Town's Shopping Street", "Walking Maps That Help Visitors Compare Routes", "How Visitors Report Closed Paths"], "answer": 2, "why": "结尾的 compare several walks 和 choose a walk 概括地图的作用，对应第三项。", "point": "scope"},
+    {"stem": "What is the talk mainly about?", "options": ["A map that compares different walks between two places", "A plan to identify one route that suits every visitor", "A guide describing the design of every public building", "A system for visitors to report closed paths"], "answer": 0, "why": "地图描述连接广场和公园的几条路线，并提供比较信息，对应第一项。", "point": "main"},
+    {"stem": "Which statement best captures the speaker's main point?", "options": ["The shortest walk is the best choice for all visitors.", "Route details can help visitors choose a suitable walk.", "The printed map contains every street and every building.", "Visitors should avoid the shopping street and garden."], "answer": 1, "why": "showing route features ... allows visitors to choose a walk 说明路线细节帮助选择，对应第二项。", "point": "scope"}
+   ]}
+  ]}]} 
+ ]
+}

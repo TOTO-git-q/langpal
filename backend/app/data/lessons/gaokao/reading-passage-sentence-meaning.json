@@ -1,0 +1,402 @@
+{
+ "id": "reading-passage-sentence-meaning",
+ "title": "句意理解题",
+ "goal": "结合上下文和句子结构理解完整句意。",
+ "skill": "阅读",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "whole",
+   "label": "结合上下文确定画线句的完整意思"
+  },
+  {
+   "id": "scope",
+   "label": "核对改写句的否定与条件范围"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语（新课标卷）：课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "句意理解题的教学内容和知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "句意理解题要求解释材料中指定句子的完整意思。正确改写需要保留句子的主体、动作、条件和语气。"
+    },
+    {
+     "p": "例如 The gate opens only on weekdays 限定了开放时间。只解释 gate 或 opens 的选项不是完整句意。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　分析句子主干",
+     "d": "确定谁做了什么以及动作的对象。例如 The volunteers repaired the gate 的主干是 volunteers repaired the gate。"
+    },
+    {
+     "t": "2　确定指代对象",
+     "d": "回查 it、this 等词所指的内容。The gate was damaged. It needed repair 中 it 指 gate。"
+    },
+    {
+     "t": "3　核对限定范围",
+     "d": "检查否定词、条件和转折。例如 not all 指不是全部，if it rains 只说下雨时的情况。"
+    },
+    {
+     "t": "4　结合上下文比较",
+     "d": "读目标句前后的句子，判断字面说法在语境中的意思。正确选项解释整句，不只解释其中一个词。"
+    }
+   ]
+  },
+  {
+   "id": "structure",
+   "type": "table",
+   "title": "句子结构与指代",
+   "cols": [
+    "片段",
+    "完整改写",
+    "局部解释"
+   ],
+   "rows": [
+    [
+     "The team repaired the gate before opening it.",
+     "The gate was repaired before it was opened.",
+     "The gate was open."
+    ],
+    [
+     "The coat was torn. It needed a new button too.",
+     "The coat also needed a replacement button.",
+     "A button was new."
+    ],
+    [
+     "The class moved outside after the rain stopped.",
+     "The class went outdoors when the rain ended.",
+     "The rain stopped."
+    ],
+    [
+     "The label was missing. This delayed the search.",
+     "The missing label delayed the search.",
+     "A label was missing."
+    ]
+   ]
+  },
+  {
+   "id": "scope",
+   "type": "table",
+   "title": "否定条件与对比",
+   "cols": [
+    "片段",
+    "完整改写",
+    "局部解释"
+   ],
+   "rows": [
+    [
+     "Not all the seats were occupied.",
+     "Some seats were unoccupied.",
+     "All seats were occupied."
+    ],
+    [
+     "The hall opens if the inspection is complete.",
+     "The hall opens after a completed inspection.",
+     "The inspection is complete."
+    ],
+    [
+     "The first plan was costly, but the second saved money.",
+     "The second plan cost less than the first.",
+     "The first plan was costly."
+    ],
+    [
+     "The project opened doors to new work. It led to several further projects.",
+     "The project created opportunities for further work.",
+     "The project opened physical doors."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The history club prepared a public talk. It first expected all the seats to be taken, but several remained empty. Not every seat was taken that evening."
+    },
+    {
+     "box": "What does the last sentence mean?\n1. Every seat was taken.\n2. Some seats were not occupied.\n3. No visitor attended the talk.\n4. Every seat had been reserved."
+    },
+    {
+     "p": "several remained empty 说明有座位空着。第二项保留了 Not every 的否定范围，即有一部分座位没人坐。第三项把部分否定扩大成了全部否定。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "核对方法"
+   ],
+   "rows": [
+    [
+     "只解释局部",
+     "只说明 rain stopped。",
+     "核对 class 的行动。"
+    ],
+    [
+     "遗漏条件",
+     "检查之前就开放大厅。",
+     "核对 if 引出的条件。"
+    ],
+    [
+     "改变立场",
+     "第二个方案更昂贵。",
+     "核对 but 后的对比。"
+    ],
+    [
+     "误用字面义",
+     "机会被解释为实体的门。",
+     "核对 further projects 的语境。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "whole",
+    "scope"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "The path had flooded, so the group chose another route. This change added twenty minutes to the walk.",
+     "items": [
+      {
+       "stem": "What does the second sentence mean?",
+       "options": [
+        "The new route made the walk twenty minutes longer.",
+        "The flood ended twenty minutes before the walk.",
+        "The original route was shortened by twenty minutes.",
+        "The group walked for only twenty minutes."
+       ],
+       "answer": 0,
+       "why": "This change 指改走另一条路线，added twenty minutes 指行程多了二十分钟，即第一项。",
+       "point": "whole"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The library bought new chairs. Not all of them were placed in the reading room; some went to the study area.",
+     "items": [
+      {
+       "stem": "What does 'Not all of them were placed in the reading room' mean?",
+       "options": [
+        "Every new chair went to the reading room.",
+        "Some new chairs went somewhere else.",
+        "No new chair went to the reading room.",
+        "Old chairs went to the study area."
+       ],
+       "answer": 1,
+       "why": "some went to the study area 说明有一部分新椅子放在了别处，即第二项。第三项把不是全部说成了一把也没有。",
+       "point": "scope"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The first design used expensive wood. The second made better use of the budget: it used a cheaper material.",
+     "items": [
+      {
+       "stem": "What does the second sentence mean?",
+       "options": [
+        "The second design required a larger budget.",
+        "The second design used the same costly wood.",
+        "The second design reduced material costs.",
+        "The second design made the wood cheaper."
+       ],
+       "answer": 2,
+       "why": "it used a cheaper material 说明第二种设计换了便宜的材料，材料成本降低，即第三项。",
+       "point": "whole"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The hall will open to visitors if the safety check is complete. Until then, visitors must wait outside.",
+     "items": [
+      {
+       "stem": "What does the first sentence mean?",
+       "options": [
+        "Visitors may enter before the safety check.",
+        "The safety check is unnecessary for opening.",
+        "The hall will remain closed after the check.",
+        "Opening depends on completing the safety check."
+       ],
+       "answer": 3,
+       "why": "if the safety check is complete 是大厅开放的条件，即第四项。",
+       "point": "scope"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "whole",
+    "scope"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A class built a model bridge from thin wooden strips. Its first design held a small weight but bent under a heavier one. The students then added supports beneath the bridge. This made the structure stronger, although it also increased the weight of the model. The class did not replace every strip. Only the pieces that had bent were removed, and the rest remained in place.",
+     "items": [
+      {
+       "stem": "What does 'This made the structure stronger' mean?",
+       "options": [
+        "The supports reduced the model's weight.",
+        "Adding supports strengthened the bridge.",
+        "The first design needed no extra supports.",
+        "The bent strips made the bridge stronger."
+       ],
+       "answer": 1,
+       "why": "This 指前一句的 added supports beneath the bridge。加了支撑，桥更结实，即第二项。第一项与 increased the weight of the model 相反。",
+       "point": "whole"
+      },
+      {
+       "stem": "What does 'The class did not replace every strip' mean?",
+       "options": [
+        "Every strip was removed from the bridge.",
+        "No support was added to the bridge.",
+        "Some strips remained without replacement.",
+        "All strips bent under the smaller weight."
+       ],
+       "answer": 2,
+       "why": "Only the pieces that had bent were removed 说明只换了弯掉的木条，其余没换，即第三项。",
+       "point": "scope"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "whole",
+    "scope"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A local theatre group wanted to make its collection of stage clothes easier to use. The clothes had been stored in several cupboards, and the labels on some boxes were difficult to read. Before the next production, the group set aside a day to sort the collection. Volunteers brought the boxes into the hall and placed them on tables. They decided to record the contents before moving anything to a new cupboard.\n\nOne box contained hats from several productions. Another held coats, including one with a damaged sleeve. The volunteers placed the damaged coat separately so that a member who could sew would see it. Not every item in the second box needed repair. Several coats were ready to be stored as they were. The group wrote a short note about the damaged sleeve and attached it to the coat.\n\nThe volunteers then prepared new labels. Each label gave the type of clothing and the cupboard where it would be kept. The labels did not list the name of every production, because that information was already in the group's notebook. A member checked the notebook against the boxes before the cupboards were closed. This prevented the new arrangement from separating the clothes from their records.\n\nThe group also discussed lending costumes to a nearby school. It agreed that the school could borrow clothes if it returned them after the performance. The school would provide a list of the items it borrowed. The theatre group kept a copy with the notebook, so that volunteers could check the contents when the clothes came back.",
+       "items": [
+        {
+         "stem": "What does 'Not every item in the second box needed repair' mean?",
+         "options": [
+          "Some contents of the second box required no repair.",
+          "All of the contents of the second box needed new sleeves.",
+          "None of the items in either box could be stored.",
+          "Every item in the first box required repair."
+         ],
+         "answer": 0,
+         "why": "Several coats were ready to be stored 说明第二个箱子里有些衣物不用修，即第一项。",
+         "point": "scope"
+        },
+        {
+         "stem": "What does 'This prevented the new arrangement from separating the clothes from their records' mean?",
+         "options": [
+          "The new labels listed the name of every production.",
+          "Checking the notebook kept clothes and records matched.",
+          "Writing labels replaced all the production records.",
+          "Moving the clothes to new cupboards lost some of their records."
+         ],
+         "answer": 1,
+         "why": "This 指前一句的 checked the notebook against the boxes。核对之后，衣物和记录仍然对得上，即第二项。",
+         "point": "whole"
+        },
+        {
+         "stem": "What does the agreement about lending clothes mean?",
+         "options": [
+          "The school may keep the costumes permanently after the performance.",
+          "The theatre may borrow the school's costume notebook.",
+          "The school may borrow costumes provided it returns them.",
+          "The theatre must perform at the school before lending."
+         ],
+         "answer": 2,
+         "why": "依据是 could borrow clothes if it returned them。第三项保留了归还这个条件。",
+         "point": "scope"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "The science club planned an exhibition about sound. Its members wanted visitors to compare the sounds produced by different objects, so they collected metal tins, wooden blocks, and glass jars. A teacher helped them choose a room where the demonstrations would not disturb a class taking a test nearby. The club then placed the objects on a long table and prepared cards explaining what visitors could try.\n\nThe first version of the display asked visitors to strike each object with the same wooden stick. During a trial, the club noticed that the glass jars moved across the table when struck. The members placed the jars on folded cloths. This kept the jars in place without stopping visitors from hearing them. The club also asked visitors to tap gently, and the teacher remained beside the table throughout the trial.\n\nThe club had expected visitors to spend the most time with the jars, but the wooden blocks attracted more attention. Several visitors compared blocks of different sizes and asked why their sounds differed. The blocks became a starting point for discussion rather than just another item on the table. In response, the club added a card inviting visitors to describe what they heard before reading an explanation.\n\nAfter the exhibition, the members returned the objects to their owners. They kept the cards and the folded cloths for a future display, although they had not yet decided on its topic. The teacher collected the trial notes and suggested that the club use them when planning the next event.",
+       "items": [
+        {
+         "stem": "What does 'This kept the jars in place without stopping visitors from hearing them' mean?",
+         "options": [
+          "The cloths made the jars silent during the trial.",
+          "Gentle tapping stopped the jars from moving across the table.",
+          "The teacher held the jars steady beside the table.",
+          "The cloths held the jars still but let them be heard."
+         ],
+         "answer": 3,
+         "why": "This 指前一句的 placed the jars on folded cloths。布垫让罐子不再移动，敲击声仍然听得见，即第四项。第一项与 without stopping visitors from hearing them 相反。",
+         "point": "whole"
+        },
+        {
+         "stem": "What does 'The blocks became a starting point for discussion' mean?",
+         "options": [
+          "Visitors used the blocks to begin talking about sound.",
+          "Visitors moved the blocks to the room's starting point.",
+          "The blocks stopped visitors from asking about sounds.",
+          "The blocks were replaced before the discussion began."
+         ],
+         "answer": 0,
+         "why": "依据是 Several visitors compared blocks of different sizes and asked why their sounds differed。木块引出了关于声音的讨论，即第一项。",
+         "point": "whole"
+        },
+        {
+         "stem": "What does the final sentence about the cards and cloths mean?",
+         "options": [
+          "The club returned every card to the objects' owners.",
+          "The club saved the cards and cloths for a later display.",
+          "The club had already chosen the next exhibition's topic.",
+          "The club discarded the trial notes after the exhibition."
+         ],
+         "answer": 1,
+         "why": "依据是 kept the cards and the folded cloths for a future display，即第二项。第三项与 had not yet decided on its topic 相反。",
+         "point": "whole"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

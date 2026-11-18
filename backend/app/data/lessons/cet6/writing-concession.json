@@ -1,0 +1,436 @@
+{
+ "id": "writing-concession",
+ "title": "让步与回应",
+ "goal": "准确表达对立观点中可接受的部分；选出不改变原立场的回应句。",
+ "skill": "写作",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "concede",
+   "label": "准确表达对立观点中可接受的部分"
+  },
+  {
+   "id": "respond",
+   "label": "选出不改变原立场的回应句"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语六级（CET-6）：课表",
+   "url": "docs/syllabi/cet6.md",
+   "used": "写作部分本课的内容范围、知识点与练习规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "让步是承认对立观点中成立的部分。回应是说明这一优点为什么推翻不了原立场。例如承认某个方案效率较高，并不是说所有场合都该用它。"
+    },
+    {
+     "box": "Although a standard form speeds up routine requests, unusual cases still require an explanation that the form may not accommodate."
+    },
+    {
+     "p": "although 承认的通常是已知情况。even if 把让步写成假设。admittedly 是连接副词，用来承认某一点。让步之后，主句仍要写出作者的判断。"
+    }
+   ]
+  },
+  {
+   "id": "forms",
+   "type": "table",
+   "title": "让步表达",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "although",
+     "引出从句，主要判断放在主句。主句前不再加 but。",
+     "Although the guide is concise, it omits the exceptions."
+    ],
+    [
+     "even if",
+     "把让步写成假设。条件即使成立，主句的判断仍然成立。",
+     "Even if delivery becomes faster, fragile objects will still need careful packing."
+    ],
+    [
+     "admittedly",
+     "连接副词，用来承认一点。它不能像连词那样连接两个分句。",
+     "Admittedly, the hall is convenient. However, it lacks a quiet preparation area."
+    ],
+    [
+     "主次关系",
+     "回应说明原立场继续成立的理由。",
+     "Although copying a plan saves time, local conditions may require changes."
+    ]
+   ]
+  },
+  {
+   "id": "pairs-one",
+   "type": "table",
+   "title": "优点与适用范围",
+   "cols": [
+    "情况",
+    "让步与回应",
+    "例句"
+   ],
+   "rows": [
+    [
+     "速度",
+     "承认处理快，回应复杂请求仍需说明。",
+     "Concession: The form speeds up routine requests. Response: Complex cases still need additional explanation."
+    ],
+    [
+     "成本",
+     "承认初期便宜，回应长期的运行费用。",
+     "Concession: A used printer costs less initially. Response: Its running costs must also be considered."
+    ],
+    [
+     "覆盖范围",
+     "承认通知范围广，回应仍有人没有听到。",
+     "Concession: A public announcement reaches many passengers. Response: Written signs remain useful for those who miss it."
+    ],
+    [
+     "熟悉程度",
+     "承认熟悉的布局有益，回应任务变化后需要调整。",
+     "Concession: A familiar layout reduces searching. Response: A changed task may still require a new layout."
+    ]
+   ]
+  },
+  {
+   "id": "pairs-two",
+   "type": "table",
+   "title": "假设让步与回应",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "空间",
+     "即使能装下，也要回应通行问题。",
+     "Even if every display fits inside, visitors will still need clear space between the stands."
+    ],
+    [
+     "自动化",
+     "承认自动检查有用，回应内容矛盾仍需人工判断。",
+     "Admittedly, automated checks flag missing fields. However, a complete form can still contain contradictory information."
+    ],
+    [
+     "缺少回应",
+     "只承认优点的论证不完整，要补上回应。",
+     "Incomplete argument: Admittedly, the system is fast. Response: Speed alone does not establish accuracy."
+    ],
+    [
+     "扩大对方观点",
+     "对方只说部分任务，回应也只针对部分任务。",
+     "Claim: Some tasks suit automation. Inaccurate reply: Automation cannot replace every worker."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A theater should retain a staffed booking desk alongside its online service. Admittedly, online booking allows many visitors to reserve seats without waiting for the desk to open. That advantage concerns availability, not the ability to resolve every unusual request. A visitor who needs to discuss access arrangements may still require a conversation. The online service can handle straightforward reservations, while staff deal with questions that the standard booking form does not answer. Keeping both channels therefore serves different needs."
+    },
+    {
+     "box": "Which response preserves the position?\n1. Online availability makes a staffed desk unnecessary for every visitor.\n2. Staff should stop handling reservations because online service is always available.\n3. Routine reservations can move online while unusual access questions retain staff support.\n4. Online booking should be removed because some visitors need a conversation."
+    },
+    {
+     "p": "第三项保留了 alongside 表达的立场：两种渠道并存。让步承认网上预约不用等开门，回应只针对 unusual request，没有否定网上预约。"
+    }
+   ]
+  },
+  {
+   "id": "practice-1",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "concede",
+    "respond"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Claim: A shared template may save time on routine reports. Which concession keeps that scope?",
+       "options": [
+        "Admittedly, a template can reduce preparation time for routine reports.",
+        "Admittedly, templates make every report accurate without further checking.",
+        "Admittedly, routine reports never benefit from a shared template.",
+        "Admittedly, a template removes the need to prepare any report."
+       ],
+       "answer": 0,
+       "why": "原主张是 may save time on routine reports。第一项 can reduce preparation time 保留了这一范围，没有扩大到准确性。",
+       "point": "concede"
+      },
+      {
+       "stem": "Position: Keep a quiet room for individual tasks. Concession: Open areas make discussion easier. Which response fits?",
+       "options": [
+        "Discussion is useful, so every separate space in the building should become an open area.",
+        "Discussion is useful, but tasks requiring uninterrupted attention still need a separate space.",
+        "Open areas make discussion easier, so individual tasks no longer need uninterrupted attention.",
+        "Discussion is useful, so tasks requiring uninterrupted attention should also move to open areas."
+       ],
+       "answer": 1,
+       "why": "第二项先承认讨论有用，再用 uninterrupted attention 说明为什么仍要保留安静的房间。",
+       "point": "respond"
+      },
+      {
+       "stem": "The fee reduction is only proposed. Which sentence avoids presenting it as an established fact?",
+       "options": [
+        "Although the fee has been reduced, some applicants still need help with paperwork.",
+        "Admittedly, the fee is now lower, but applicants still need help with paperwork.",
+        "Even if the fee is reduced, some applicants may still need help with the paperwork.",
+        "The reduced fee already helps applicants, although paperwork remains a difficulty."
+       ],
+       "answer": 2,
+       "why": "降费只是 proposed。第三项用 Even if 写成假设。第一项 has been reduced 把它写成了已发生的事。",
+       "point": "concede"
+      },
+      {
+       "stem": "Opponent: Short meetings can handle routine updates. Which reply addresses that limited claim?",
+       "options": [
+        "Short meetings are wrong because no meeting can solve every organizational problem.",
+        "Routine updates should end because short meetings cannot replace all written records.",
+        "Every difficult decision should also be kept brief because routine updates can be handled quickly.",
+        "Brief updates may work, while difficult decisions can still require extended discussion."
+       ],
+       "answer": 3,
+       "why": "对方只说 routine updates。第四项承认这一点，再指出 difficult decisions 仍需较长的讨论。",
+       "point": "respond"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-2",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "concede",
+    "respond"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Acknowledge the known benefit of illustrated instructions while preserving the need for practice.",
+       "lead": "Although the illustrations",
+       "chunks": [
+        "make the sequence clearer,",
+        "new operators still need",
+        "practice with",
+        "the equipment"
+       ],
+       "tail": ".",
+       "extra": [
+        "but new operators still need"
+       ],
+       "why": "Although 从句后直接接主句，不再加 but。",
+       "point": "concede"
+      },
+      {
+       "stem": "Treat lower installation costs as hypothetical.",
+       "lead": "Even if the initial cost",
+       "chunks": [
+        "falls,",
+        "maintenance will remain",
+        "a factor in",
+        "the final decision"
+       ],
+       "tail": ".",
+       "extra": [
+        "although"
+       ],
+       "why": "Even if 已经引出条件，主句写维护因素，不能再加 although。",
+       "point": "concede"
+      },
+      {
+       "stem": "Preserve the need for checking after acknowledging that a summary is shorter.",
+       "lead": "Admittedly, the summary is brief.",
+       "chunks": [
+        "However, it does not",
+        "remove the need",
+        "to examine",
+        "the underlying evidence"
+       ],
+       "tail": ".",
+       "extra": [
+        "Therefore, it does not"
+       ],
+       "why": "However 引出对简短这一优点的回应。两句是转折关系，不是因果关系，所以不用 Therefore。",
+       "point": "respond"
+      },
+      {
+       "stem": "Respond to convenience without claiming the proposal works for nobody.",
+       "lead": "The proposal",
+       "chunks": [
+        "may suit",
+        "routine deliveries without",
+        "meeting the needs",
+        "of urgent cases"
+       ],
+       "tail": ".",
+       "extra": [
+        "all deliveries without"
+       ],
+       "why": "routine deliveries 和 urgent cases 是两类对象。写成 all deliveries 就扩大了适用范围。",
+       "point": "respond"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "concede",
+    "respond"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "An archive claims only that online catalogs help users locate entries. Which concession represents this accurately?",
+         "options": [
+          "Admittedly, a digital catalog can make particular entries easier to find.",
+          "Admittedly, a digital catalog makes every original document understandable to users.",
+          "Admittedly, a digital catalog guarantees that all historical entries are accurate.",
+          "Admittedly, a digital catalog makes examining original documents entirely unnecessary."
+         ],
+         "answer": 0,
+         "why": "原主张只是 help users locate entries。第一项 easier to find 与此对应，没有扩大到理解或准确性。",
+         "point": "concede"
+        },
+        {
+         "stem": "Position: Retain supervised tool practice. Concession: A video shows each step clearly. Which response maintains the position?",
+         "options": [
+          "A clear demonstration is useful, so observation can replace every opportunity for tool practice.",
+          "A clear demonstration is useful, but learners still need observed practice handling the tools.",
+          "A clear demonstration is useful only if learners avoid handling the tools during practice.",
+          "A clear demonstration is useful, and this means supervised tool practice should be discontinued."
+         ],
+         "answer": 1,
+         "why": "视频只是 shows each step。第二项指出学员仍要亲手操作工具，这一点支持保留有人指导的练习。",
+         "point": "respond"
+        },
+        {
+         "stem": "The committee has not established whether electronic voting is cheaper. Which concession keeps that uncertainty?",
+         "options": [
+          "Although electronic voting costs less, a clear procedure for disputed ballots remains necessary.",
+          "Admittedly, electronic voting has reduced costs, but a procedure for disputed ballots remains necessary.",
+          "Even if electronic voting costs less, a clear procedure for disputed ballots will remain necessary.",
+          "Electronic voting is cheaper, although a clear procedure for disputed ballots remains necessary."
+         ],
+         "answer": 2,
+         "why": "委员会 has not established 是否更便宜。第三项用 Even if 写成假设，没有断言成本更低。",
+         "point": "concede"
+        },
+        {
+         "stem": "Opponent: Reservations reduce uncertainty about available desks. Position: Preserve some walk-in access. Which response addresses the actual claim?",
+         "options": [
+          "Reservations cannot predict every aspect of a visit, so their claimed benefit is wholly false.",
+          "Reservations clarify availability, so every desk should require a booking before a visitor arrives.",
+          "Reservations clarify availability, so walk-in visitors should simply book a desk in advance.",
+          "Reservations clarify availability, but unplanned visits still justify some desks without booking."
+         ],
+         "answer": 3,
+         "why": "对方只说预约 reduce uncertainty。第四项承认这一点，再用 unplanned visits 说明为什么保留部分不用预约的座位。",
+         "point": "respond"
+        }
+       ]
+      },
+      {
+       "items": [
+        {
+         "stem": "Acknowledge the established convenience of a single ticket while retaining the separate issue of accessible entrances.",
+         "lead": "Although a combined ticket",
+         "chunks": [
+          "simplifies payment,",
+          "it does not",
+          "resolve every problem",
+          "with access"
+         ],
+         "tail": "to the buildings included in the visit.",
+         "extra": [
+          "but it does not"
+         ],
+         "why": "Although 后的主句不再加 but。payment 和 access 是两个不同的问题。",
+         "point": "concede"
+        },
+        {
+         "stem": "Assume that a shorter menu might reduce ordering time without asserting that this has happened.",
+         "lead": "Even if a shorter menu",
+         "chunks": [
+          "reduces ordering time,",
+          "diners will still need",
+          "clear information",
+          "about ingredients"
+         ],
+         "tail": "before making a suitable choice for their meal.",
+         "extra": [
+          "has certainly reduced"
+         ],
+         "why": "Even if 把缩短点餐时间写成假设。主句说明配料信息仍然需要。",
+         "point": "concede"
+        },
+        {
+         "stem": "Acknowledge the price advantage of bulk purchasing, then limit its usefulness when storage is scarce.",
+         "lead": "Admittedly, buying in bulk can lower prices.",
+         "chunks": [
+          "However, limited storage",
+          "may restrict",
+          "the usefulness",
+          "of this approach"
+         ],
+         "tail": "for a small shop with little spare space.",
+         "extra": [
+          "Therefore, limited storage"
+         ],
+         "why": "价格优势和存储限制是转折关系，用 However。restrict 的宾语是 the usefulness of this approach。",
+         "point": "respond"
+        },
+        {
+         "stem": "Respond to a claim about routine translation without attributing universal accuracy to its supporters.",
+         "lead": "Automatic translation",
+         "chunks": [
+          "may handle",
+          "routine phrases without",
+          "resolving every ambiguity",
+          "in a complex message"
+         ],
+         "tail": "that requires careful interpretation of the context.",
+         "extra": [
+          "must handle all messages"
+         ],
+         "why": "may 和 routine 限定了承认的范围。without 引出机器翻译解决不了的复杂情况。",
+         "point": "respond"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

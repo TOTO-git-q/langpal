@@ -1,0 +1,459 @@
+{
+ "id": "writing-method",
+ "title": "短文写作的审题",
+ "goal": "提取指令中的对象和限定范围；选出覆盖任务要求的提纲。",
+ "skill": "写作",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "task",
+   "label": "提取指令中的对象和限定范围"
+  },
+  {
+   "id": "coverage",
+   "label": "选出覆盖任务要求的提纲"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语六级（CET-6）：课表",
+   "url": "docs/syllabi/cet6.md",
+   "used": "写作部分：短文写作的审题；内容范围、知识点与客观题规格。"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "审题要确定四件事：主题、讨论对象、限定范围和写作目的。主题相同但对象不同，也会偏题。指令有两个动词时，只回应一个就会漏项。"
+    },
+    {
+     "box": "Discuss whether first-year residents should share kitchen duties during their first term, and explain one condition for making the arrangement fair."
+    },
+    {
+     "p": "share kitchen duties 是主题，first-year residents 是对象，during their first term 限定时间。讨论是否合理、说明公平的条件，这两项都要写。介绍厨房设施代替不了判断。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　拆分指令",
+     "d": "先找出写作动作，再找出动作涉及的对象。Discuss whether 要求作出判断，Explain why 要求说明原因。"
+    },
+    {
+     "t": "2　保留限定",
+     "d": "将人群、地点、时间和条件写入中心句。first-year residents 不能扩大为 all residents。"
+    },
+    {
+     "t": "3　建立对应",
+     "d": "每项要求对应一个段落，或段内的一个层次。例如先讨论是否公平，再说明轮值的条件。关系紧密的两项要求可以写在同一段。"
+    },
+    {
+     "t": "4　核对提纲",
+     "d": "逐项检查每个要求是否都写到了，删去只与大主题相关的内容。例如介绍厨房设备，并没有说明轮值是否公平。"
+    }
+   ]
+  },
+  {
+   "id": "scope",
+   "type": "table",
+   "title": "指令的限定",
+   "cols": [
+    "要素",
+    "说明",
+    "例"
+   ],
+   "rows": [
+    [
+     "主题",
+     "找出讨论的事项。主题名词本身不是论点。",
+     "Topic: shared kitchen duties; claim: rotating duties can distribute work fairly."
+    ],
+    [
+     "对象",
+     "保留具体群体，不能自行扩大。",
+     "First-year residents need a clear rotation, rather than a rule for every household."
+    ],
+    [
+     "范围",
+     "时间或情境限制也属于任务。",
+     "The arrangement concerns the first term, when residents are learning shared routines."
+    ],
+    [
+     "目的",
+     "评论给判断，解释给原因，建议给行动。",
+     "Evaluate the rotation; explain missed turns; propose a reminder system."
+    ]
+   ]
+  },
+  {
+   "id": "tasks",
+   "type": "table",
+   "title": "写作目的与提纲",
+   "cols": [
+    "类型",
+    "题目与提纲",
+    "判断"
+   ],
+   "rows": [
+    [
+     "评论",
+     "Task: Evaluate anonymous feedback in a student orchestra. Outline: assess candor, discuss accountability, give a judgment.",
+     "切题。每项评价都围绕匿名反馈。"
+    ],
+    [
+     "评论",
+     "Task: Discuss compulsory attendance at a campus debate. Outline: describe the event, list speakers, explain registration.",
+     "偏题。只介绍活动，没有评价强制参加。"
+    ],
+    [
+     "解释",
+     "Task: Explain why residents stop using a neighborhood exchange shelf. Outline: missing labels, uncertain ownership, resulting hesitation.",
+     "切题。三项都解释居民为什么不再使用。"
+    ],
+    [
+     "解释",
+     "Task: Explain uneven participation in a walking group. Outline: conflicting shifts, publicity posters, a proposed meeting place.",
+     "漏项。后两项没有解释参与为什么不均。"
+    ],
+    [
+     "建议",
+     "Task: Suggest ways to protect shared drawing tools. Outline: label ownership, record loans, assign a return shelf.",
+     "切题。每项措施都写明对象和做法。"
+    ],
+    [
+     "建议",
+     "Task: Recommend improvements to a volunteer rota. Outline: describe missed shifts, praise volunteers, repeat the need for change.",
+     "漏项。描述问题、称赞志愿者都不是改进措施。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A campus radio team is considering replacing every live discussion with a recorded programme. Write a comment for the team about this proposal. Focus on discussion programmes produced by student volunteers during term time. Evaluate the benefit of flexible recording and the possible loss of immediate listener questions. State whether the team should replace all live discussions or retain some of them. The equipment budget is already settled; a proposal for buying new equipment would not address the decision under discussion."
+    },
+    {
+     "box": "Plan 1: describe microphones; explain purchase costs; recommend new equipment.\nPlan 2: assess recording flexibility; assess listener interaction; recommend a mix of recorded and live discussions."
+    },
+    {
+     "p": "第二份提纲评价了指令要求的两个方面，并回答了是否 replace all。第一份提纲话题相同，却转到已经确定的 equipment budget，没有讨论是否替换。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "扩大对象",
+     "first-year residents → every household",
+     "核对人群。大主题相同，不说明切题。"
+    ],
+    [
+     "遗漏条件",
+     "Discuss the rotation; omit fairness conditions.",
+     "核对 and 后的独立要求。"
+    ],
+    [
+     "改变目的",
+     "Explain missed turns → recommend a new kitchen.",
+     "要求分析原因时，不写行动建议。"
+    ],
+    [
+     "重复背景",
+     "Describe the radio team twice without evaluating replacement.",
+     "同一背景写两遍，仍只算一项内容。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "task",
+    "coverage"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "Comment on whether a neighborhood repair club should charge members a small annual fee, considering both access and the cost of replacement tools.",
+     "items": [
+      {
+       "stem": "Which issue must the comment evaluate?",
+       "options": [
+        "Whether a fee can balance participation with tool costs.",
+        "Whether new tools should replace the annual repair meetings.",
+        "Whether every local club should charge the same fee.",
+        "Whether membership access explains how tools are repaired."
+       ],
+       "answer": 0,
+       "why": "指令问 whether … should charge，并要求考虑 both access and the cost。第一项正是权衡这两方面。",
+       "point": "task"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Explain why students leave a campus seed exchange unused despite receiving free membership; consider collection hours and uncertainty about seed labels.",
+     "items": [
+      {
+       "stem": "Which outline addresses the explanation?",
+       "options": [
+        "Describe membership benefits, then propose a larger exchange.",
+        "Explain limited collection times, then explain unclear labels.",
+        "Explain free membership, then list several seed varieties.",
+        "Describe seed labels, then evaluate compulsory membership."
+       ],
+       "answer": 1,
+       "why": "指令列出两个因素：collection hours 和 uncertainty about seed labels。第二项分别解释这两个因素。",
+       "point": "coverage"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Recommend ways for a local history group to check interview transcripts before publication, addressing unclear names and missing permission records.",
+     "items": [
+      {
+       "stem": "Which plan covers both requirements?",
+       "options": [
+        "Check personal names, then summarize the group's history.",
+        "Request permission records, then publish all unchecked names.",
+        "Confirm uncertain names, then verify publication permissions.",
+        "Explain transcript errors, then describe the completed interviews."
+       ],
+       "answer": 2,
+       "why": "指令要求处理 unclear names 和 missing permission records。第三项对两项都给出了核查措施。",
+       "point": "coverage"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Evaluate whether a college should keep paper maps for visitors who cannot use its navigation app; focus on access rather than printing design.",
+     "items": [
+      {
+       "stem": "Which focus stays within the requested scope?",
+       "options": [
+        "The attractiveness of maps compared with the app's design.",
+        "The popularity of the navigation app among all college students.",
+        "The cost of redesigning every map on the campus.",
+        "The value of paper guidance for visitors without app access."
+       ],
+       "answer": 3,
+       "why": "对象是 visitors who cannot use its navigation app，重点是 access。第四项两者都符合。",
+       "point": "task"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "task",
+    "coverage"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A community workshop asks for suggestions about storing unfinished pottery. Work is sometimes moved because shelves have no names. New participants also struggle to find the collection date. The suggestions should address both difficulties without recommending a larger building. A proposal that merely describes the crowded shelves would identify the setting but leave the requested actions unspecified. The writer needs to connect each action to one of the two practical difficulties.",
+     "items": [
+      {
+       "stem": "Which pair of actions covers the stated difficulties?",
+       "options": [
+        "Describe crowded shelves and praise the workshop's participants.",
+        "Label each storage space and display the collection schedule.",
+        "Expand the building and remove all unfinished pottery.",
+        "Display the collection schedule and explain pottery techniques."
+       ],
+       "answer": 1,
+       "why": "shelves have no names 对应给储物位置贴标签，struggle to find the collection date 对应公布取件时间，即第二项。第四项只解决了一个困难。",
+       "point": "coverage"
+      },
+      {
+       "stem": "Express the proposal's required focus.",
+       "lead": "The proposal should",
+       "chunks": [
+        "address the storage",
+        "of unfinished pottery",
+        "and the communication",
+        "of collection dates"
+       ],
+       "tail": "within the existing community workshop rather than discuss a larger building.",
+       "extra": [
+        "addressing the storage"
+       ],
+       "why": "address 的宾语是存放和取件日期通知两件事。should 后接动词原形 address，不用 addressing。",
+       "point": "task"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "task",
+    "coverage"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A student newspaper is preparing a comment on compulsory peer review in introductory design classes. Write about students who are submitting their first design project, rather than experienced professionals. Assess the value of receiving comments from classmates and one possible difficulty in using those comments. State whether compulsory peer review is appropriate for this group. The newspaper already has a separate article about assessment grades, so the comment should focus on learning from feedback rather than proposing a new grading system.",
+       "items": [
+        {
+         "stem": "Which central question fits the assigned comment?",
+         "options": [
+          "Should beginners be required to exchange feedback on their first projects?",
+          "Should professionals receive grades for reviewing introductory design projects?",
+          "Should all design grades be replaced with classmates' written comments?",
+          "Should the newspaper publish instructions for marking every design project?"
+         ],
+         "answer": 0,
+         "why": "对象是交 first design project 的学生，任务是判断 whether compulsory peer review is appropriate。第一项两者都对应。",
+         "point": "task"
+        },
+        {
+         "stem": "Which outline covers the comment's required parts?",
+         "options": [
+          "Describe classmates' comments, explain grade calculations, recommend a grading system.",
+          "Weigh feedback benefits and difficulties, then judge required review for beginners.",
+          "Describe the first project, list experienced professionals, summarize their designs.",
+          "Defend required review for beginners, then repeat its benefits without limitations."
+         ],
+         "answer": 1,
+         "why": "指令要求评价益处和一个困难，再 State whether。第二项这三部分都有；第四项只写了益处。",
+         "point": "coverage"
+        },
+        {
+         "stem": "State the object and scope of the discussion.",
+         "lead": "The comment concerns",
+         "chunks": [
+          "whether beginners",
+          "should take part",
+          "in compulsory peer review",
+          "of their first design projects"
+         ],
+         "tail": "during introductory classes rather than professional assessments.",
+         "extra": [
+          "taking part"
+         ],
+         "why": "whether beginners should take part 是要讨论的问题，of their first design projects 限定范围。",
+         "point": "task"
+        },
+        {
+         "stem": "State the outline's two evaluation tasks.",
+         "lead": "The body should",
+         "chunks": [
+          "examine the benefits",
+          "of classmates' comments",
+          "and explain one difficulty",
+          "in applying that feedback"
+         ],
+         "tail": "before reaching a judgment about compulsory review for beginners.",
+         "extra": [
+          "examining the benefits"
+         ],
+         "why": "examine 对应益处，explain 对应困难。should 后接动词原形 examine，不用 examining。",
+         "point": "coverage"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A neighborhood association wants an explanation of low attendance at its weekend clothing exchange. Write about residents who signed up but did not attend, rather than people who never registered. Discuss how the collection timetable and unclear information about accepted items may have discouraged attendance. Explain the connection between each factor and the residents' decision. The association will request recommendations later. This article should therefore analyze the reasons for absence without turning into a plan for advertising a new exchange event.",
+       "items": [
+        {
+         "stem": "Which population and purpose match the request?",
+         "options": [
+          "All residents, with recommendations for advertising the next exchange.",
+          "Unregistered residents, with an evaluation of whether exchanges are useful.",
+          "Registered absentees, with an explanation of timetable and information barriers.",
+          "Weekend organizers, with instructions for sorting accepted clothing items."
+         ],
+         "answer": 2,
+         "why": "对象是 residents who signed up but did not attend，目的是 analyze the reasons for absence，即第三项。",
+         "point": "task"
+        },
+        {
+         "stem": "Which plan fulfills the current request?",
+         "options": [
+          "Describe accepted items and propose publicity for the next exchange.",
+          "Explain timetable barriers for residents who never registered for the exchange.",
+          "Explain timetable barriers and recommend an advertising campaign.",
+          "Explain how timing and item uncertainty each discouraged registered residents."
+         ],
+         "answer": 3,
+         "why": "指令要求 Explain the connection between each factor and the residents' decision。第四项分别解释了两个因素；第二项写错了人群。",
+         "point": "coverage"
+        },
+        {
+         "stem": "Identify the population whose absence needs explanation.",
+         "lead": "The explanation should",
+         "chunks": [
+          "focus on residents",
+          "who registered",
+          "for the clothing exchange",
+          "but did not attend"
+         ],
+         "tail": "rather than people who had never expressed an interest in joining.",
+         "extra": [
+          "registering"
+         ],
+         "why": "who registered … but did not attend 写出这群人的两个特点。who 后要用谓语动词 registered，不用 registering。",
+         "point": "task"
+        },
+        {
+         "stem": "Express the relation that each body section must establish.",
+         "lead": "Each body section should",
+         "chunks": [
+          "connect a stated barrier",
+          "with the decision",
+          "of registered residents",
+          "to miss the exchange"
+         ],
+         "tail": "instead of replacing causal explanation with suggestions for a future event.",
+         "extra": [
+          "connecting a stated barrier"
+         ],
+         "why": "connect … with 把障碍和缺席联系起来，to miss the exchange 修饰 decision。should 后接原形 connect，不用 connecting。",
+         "point": "coverage"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

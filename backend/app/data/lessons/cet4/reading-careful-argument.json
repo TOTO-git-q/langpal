@@ -1,0 +1,369 @@
+{
+ "id": "reading-careful-argument",
+ "title": "议论文的观点与依据",
+ "goal": "区分作者的主张和其他观点，并确定支持主张的依据。",
+ "skill": "阅读",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "claim",
+   "label": "区分作者论点与其他观点"
+  },
+  {
+   "id": "support",
+   "label": "确定事实和例子支持的论点"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "阅读理解的教学依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "structure",
+   "type": "table",
+   "title": "结构",
+   "cols": [
+    "部分",
+    "作用",
+    "例"
+   ],
+   "rows": [
+    [
+     "提出问题",
+     "确定需要讨论的选择或问题。",
+     "Should the hall stay open later?"
+    ],
+    [
+     "列出观点",
+     "提出作者对问题的主张。",
+     "The hall should try longer hours."
+    ],
+    [
+     "给出证据",
+     "用事实或例子支持主张。",
+     "An evening trial drew visitors after work."
+    ],
+    [
+     "回应异议",
+     "说明其他观点及作者的回应。",
+     "Extra hours cost money, but a short trial limits the cost."
+    ]
+   ]
+  },
+  {
+   "id": "expressions",
+   "type": "table",
+   "title": "常用表达",
+   "cols": [
+    "作用",
+    "表达",
+    "判读"
+   ],
+   "rows": [
+    [
+     "提出主张",
+     "I argue that the hall should open later.",
+     "I argue that 后是作者的主张。"
+    ],
+    [
+     "引入例子",
+     "For example, an evening trial drew visitors after work.",
+     "例子支持延长时间的主张。"
+    ],
+    [
+     "转述异议",
+     "Some residents argue that longer hours cost too much.",
+     "费用观点属于部分居民。"
+    ],
+    [
+     "回应异议",
+     "However, a short trial limits the initial cost.",
+     "however 后是作者对费用的回应。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Should the school make its garden available after class? I think it should. Last spring, a short trial allowed families to work together there in the evening. Some staff worry that extra opening time will require supervision. A schedule shared by volunteers could address that concern.\nWhat claim does the trial support?\n1. Opening after class can let families use the garden together.\n2. The garden should be closed throughout the evening.\n3. Extra opening time will require staff supervision.\n4. A volunteer schedule has already solved supervision."
+    },
+    {
+     "p": "作者支持课后开放。试行时家庭在晚上一起使用花园，这个例子支持第一项。第三项是员工提出的异议，作者用志愿者排班来回应。"
+    },
+    {
+     "box": "Should the school make its garden available after class? I oppose a regular evening opening until supervision is arranged. During a recent trial, the gate was left open after the last volunteer departed. Some parents favor immediate opening, but an agreed closing schedule should come first.\nWhat claim does the trial support?\n1. A closing schedule is needed before regular opening.\n2. The garden is already supervised at every hour.\n3. The garden should open every evening right away.\n4. The gate was locked after the last volunteer left."
+    },
+    {
+     "p": "第二篇作者主张先安排好监督，再定期开放。最后一名志愿者离开后大门还开着，这支持先定好关门安排，即第一项。第三项是部分家长的意见。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "核对"
+   ],
+   "rows": [
+    [
+     "观点归属",
+     "将家长的 immediate opening 当成第二篇作者主张。",
+     "作者的主张在 I oppose 和 but 之后。"
+    ],
+    [
+     "例子与主张错配",
+     "用第一篇试行支持完全关闭花园。",
+     "第一篇的试行说明课后开放可行。"
+    ],
+    [
+     "范围过强",
+     "把试行中的情况改成 every activity。",
+     "原文只说了这一次试行的情况。"
+    ],
+    [
+     "忽略回应",
+     "只看 extra opening time 的监督问题。",
+     "作者随后用志愿者排班作了回应。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "claim",
+    "support"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "Some parents want the play area closed at noon. I favor keeping it open, with a staff member present.",
+     "items": [
+      {
+       "stem": "What does the author favor?",
+       "options": [
+        "Keeping the area open with supervision",
+        "Closing the play area at noon for everyone",
+        "Leaving the area open without staff",
+        "Removing staff from the play area"
+       ],
+       "answer": 0,
+       "why": "I favor keeping it open 表明作者支持有人监督时开放。",
+       "point": "claim"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "A map can help visitors find services. At one station, a map directed new passengers to the ticket desk.",
+     "items": [
+      {
+       "stem": "What claim does the station example support?",
+       "options": [
+        "Visitors should avoid the ticket desk.",
+        "A map can guide visitors to services.",
+        "Only new passengers need a station map.",
+        "A ticket desk can replace every map."
+       ],
+       "answer": 1,
+       "why": "地图指引乘客到售票处，支持地图帮助寻找服务的观点。",
+       "point": "support"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "One teacher argues for a longer break. The author instead recommends two shorter breaks during the morning.",
+     "items": [
+      {
+       "stem": "What does the author recommend?",
+       "options": [
+        "One longer break after the morning",
+        "Two longer breaks in the morning",
+        "Two shorter breaks in the morning",
+        "The teacher's single longer break"
+       ],
+       "answer": 2,
+       "why": "instead 后说明作者建议上午安排两次较短休息。",
+       "point": "claim"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "A room can serve several purposes. The local hall hosts classes in the morning and meetings in the evening.",
+     "items": [
+      {
+       "stem": "What does the hall example support?",
+       "options": [
+        "Meetings can only occur in the morning.",
+        "Classes cannot be held in a hall.",
+        "Each room should be kept for one fixed use.",
+        "One room can support different activities."
+       ],
+       "answer": 3,
+       "why": "大厅早晚用于不同活动，支持一个房间可有多种用途。",
+       "point": "support"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "claim",
+    "support"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "The school should lend sports equipment during lunch. Some staff worry that items will be lost. A trial with a sign-out sheet returned every borrowed ball to the storage room. This result suggests that a simple record can help staff track equipment, although the process still needs supervision.",
+     "items": [
+      {
+       "stem": "What does the author propose?",
+       "options": [
+        "Lending sports equipment during lunch",
+        "Ending every sports activity during lunch",
+        "Keeping equipment stored at lunch",
+        "Leaving borrowed equipment without supervision"
+       ],
+       "answer": 0,
+       "why": "首句提出午餐时间借出运动器材的主张。",
+       "point": "claim"
+      },
+      {
+       "stem": "What does the trial support?",
+       "options": [
+        "A record makes supervision unnecessary.",
+        "A sign-out record can help track equipment.",
+        "All staff oppose lending sports equipment.",
+        "Every borrowed ball was lost during the trial."
+       ],
+       "answer": 1,
+       "why": "试行中借出的球全部归还，支持登记有助追踪器材。",
+       "point": "support"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "claim",
+    "support"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "Should a town use an empty shop as a place for public meetings? Some residents say the room should remain available only for shops. I argue that the town should allow community groups to use it temporarily while a long-term tenant is sought. This would put an unused space to work without preventing a later business from moving in.\n\nA short trial suggests that the arrangement can be useful. A local music group met there on three evenings and returned the keys after each meeting. The group brought its own chairs and left the room ready for inspection. The trial does not prove that every group will treat the space equally well, but it shows that a temporary arrangement is possible.\n\nOne shop owner worries that meetings will make the space less attractive to future tenants. That concern deserves a practical answer. The town could agree on rules for cleaning and inspect the room after each use. It could also end the arrangement when a tenant signs a contract. These conditions allow the town to benefit from the space now while preserving the option of a shop later.",
+       "items": [
+        {
+         "stem": "What is the author's main claim?",
+         "options": [
+          "The town should permanently rule out a future shop.",
+          "The town should close the room to community groups.",
+          "The town should allow temporary community use.",
+          "The town should offer every group a permanent lease."
+         ],
+         "answer": 2,
+         "why": "I argue 后提出寻找长期租户期间允许社区团体暂用。",
+         "point": "claim"
+        },
+        {
+         "stem": "What does the music group's trial support?",
+         "options": [
+          "Temporary use of the room can be arranged.",
+          "Every group will always return all keys.",
+          "A long-term tenant has already signed a contract.",
+          "The room was left unready for inspection."
+         ],
+         "answer": 0,
+         "why": "音乐团体使用房间并归还钥匙，支持暂用安排可行。",
+         "point": "support"
+        },
+        {
+         "stem": "Whose concern is that meetings may discourage future tenants?",
+         "options": [
+          "The music group's concern",
+          "A shop owner's concern",
+          "The author's final conclusion",
+          "Some residents' concern"
+         ],
+         "answer": 1,
+         "why": "One shop owner worries 引出对未来租户的担忧。",
+         "point": "claim"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A college is considering whether to replace its printed course guide with a website. Supporters of a website point out that it can be updated when a class changes rooms. I agree that current information is valuable, but the college should continue to offer a printed guide as well. Students do not all have the same opportunities to consult a screen.\n\nDuring registration last year, the office placed a few printed guides beside its computers. Staff observed that several students used the books while waiting for a computer. The observation does not show how every student prefers to receive information. It does show that a printed copy can be useful even when computers are available nearby.\n\nA critic argues that printing makes updates harder. The college can address this by marking the guide with its publication date and placing later changes on a noticeboard as well as the website. The office should remove old printed copies when it issues a revised guide. These steps require attention, but they allow students to consult a guide in more than one form and to see where to find later changes.",
+       "items": [
+        {
+         "stem": "What does the author recommend?",
+         "options": [
+          "Replacing the printed course guide with a website",
+          "Keeping a printed guide alongside the website",
+          "Stopping updates whenever class rooms change",
+          "Reprinting the guide whenever a room changes"
+         ],
+         "answer": 1,
+         "why": "作者赞同信息及时更新，同时主张继续提供纸质指南。",
+         "point": "claim"
+        },
+        {
+         "stem": "What does the registration example support?",
+         "options": [
+          "All students prefer print to screens.",
+          "Computers were unavailable throughout registration.",
+          "Most students would rather use a website.",
+          "Printed guides can be useful near computers."
+         ],
+         "answer": 3,
+         "why": "学生等电脑时使用纸质指南，支持电脑附近的纸质资料仍有用。",
+         "point": "support"
+        },
+        {
+         "stem": "How does the author respond to the concern about updates?",
+         "options": [
+          "By suggesting dated guides and visible changes",
+          "By arguing that class information never changes",
+          "By asking students to keep old copies forever",
+          "By proposing that the website should be closed"
+         ],
+         "answer": 0,
+         "why": "作者建议标明印刷日期，并在公告栏及网站发布后续变更。",
+         "point": "claim"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

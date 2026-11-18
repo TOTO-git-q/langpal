@@ -1,0 +1,44 @@
+{
+ "id": "writing-opinion-cohesion", "title": "议论段的衔接", "goal": "能按逻辑选择连接表达，并保持指代清楚。", "skill": "写作", "exam": "雅思 IELTS Academic", "mastery": "once",
+ "points": [{"id": "connector", "label": "按逻辑关系选择连接表达"}, {"id": "reference", "label": "保持句间指代与话题连贯"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "写作议论衔接课的内容与教学规格"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "连接表达标明两句之间的关系：补充、转折、因果、举例或让步。代词和重复的关键词让读者知道正在讨论哪个对象。"}, {"box": "The centre offers painting classes. It also provides materials."}, {"p": "It 回指 the centre，also 补充另一项服务。连接表达要符合两句的实际关系。一句里堆用几个连接词，意思会重复。"}]},
+  {"id": "addition", "type": "table", "title": "补充与转折", "cols": ["关系", "表达", "例句"], "rows": [
+   ["补充", "also", "The centre also lends equipment."], ["补充", "in addition", "In addition, the centre lends equipment."], ["补充", "furthermore", "Furthermore, the centre lends equipment."], ["转折", "but", "The course is useful, but it is costly."], ["转折", "however", "The course is useful; however, it is costly."], ["转折", "nevertheless", "The course is useful; nevertheless, it is costly."]
+  ]},
+  {"id": "cause", "type": "table", "title": "因果与举例", "cols": ["关系", "表达", "例句"], "rows": [
+   ["因果", "because", "People can attend because the class is free."], ["因果", "therefore", "The class is free; therefore, more people can attend."], ["因果", "as a result", "The class is free. As a result, more people can attend."], ["举例", "for example", "Some equipment is shared. For example, members borrow brushes."], ["举例", "for instance", "Some equipment is shared. For instance, members borrow brushes."], ["举例", "such as", "Members borrow equipment such as brushes."]
+  ]},
+  {"id": "concession", "type": "table", "title": "让步与标点", "cols": ["关系", "结构", "例句"], "rows": [
+   ["让步", "although + 从句", "Although the course is costly, it is useful."], ["让步", "even though + 从句", "Even though the course is costly, it is useful."], ["让步", "despite + 名词", "Despite the cost, the course is useful."], ["并列连词", "逗号 + but", "The course is useful, but it is costly."], ["连接副词", "分号 + however + 逗号", "The course is useful; however, it is costly."], ["连接副词", "句号 + Therefore + 逗号", "The class is free. Therefore, more people can attend."]
+  ]},
+  {"id": "reference", "type": "table", "title": "指代与复现", "cols": ["方式", "作用", "例句"], "rows": [
+   ["单数代词", "指代明确的单数对象", "The centre is open daily. It offers classes."], ["复数代词", "指代明确的复数对象", "The classes are free. They attract residents."], ["关键词复现", "前面有两个可指的名词时，重复关键词", "The centre contacted the school. The school replied."], ["避免堆用", "一个表达标明一个关系", "The course is useful; however, it is costly."]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["connector"], "groups": [{"items": [
+   {"stem": "The centre offers classes. _____, it lends equipment. Which expression adds a second service?", "options": ["In addition", "However", "Therefore", "Although"], "answer": 0, "why": "后句增加另一项服务，In addition 表示补充。", "point": "connector"},
+   {"stem": "The course is useful. _____, it is expensive. Which expression marks a contrast?", "options": ["For example", "However", "Therefore", "In addition"], "answer": 1, "why": "useful 与 expensive 构成转折，However 表示对照。", "point": "connector"},
+   {"stem": "The class is free. _____, more residents can afford to attend. Which expression marks the result?", "options": ["For instance", "Nevertheless", "As a result", "Even though"], "answer": 2, "why": "免费使更多居民有能力参加，As a result 引出结果。", "point": "connector"},
+   {"stem": "_____ the course is costly, it is useful. Which expression introduces concession?", "options": ["Therefore", "For example", "In addition", "Although"], "answer": 3, "why": "Although 引出 costly 这一让步，主句陈述 useful。", "point": "connector"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["reference", "connector"], "groups": [{"items": [
+   {"stem": "The centre contacted the school. The school replied. Which revision keeps the respondent clear?", "options": ["The centre contacted the school. The school replied.", "The centre contacted the school. It replied.", "The centre contacted the school. They replied.", "The centre contacted the school. This replied."], "answer": 0, "why": "重复 the school，回复的一方就很明确。第二项的 It 可能指 the centre，也可能指 the school。", "point": "reference"},
+   {"stem": "Which sentence marks the contrast with correct punctuation?", "options": ["The course is useful, however it is costly.", "The course is useful; however, it is costly.", "The course is useful, although, it is costly.", "The course is useful; but, it is costly."], "answer": 1, "why": "however 连接两个完整的分句，前面用分号，后面用逗号，即第二项。", "point": "connector"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["connector", "reference"], "sets": [{"id": "set-a", "groups": [
+   {"text": "A community arts centre offers free painting classes. The classes can attract residents who would otherwise be unable to pay. The centre also lends brushes and paper, so participants do not have to purchase these materials before attending. However, the centre has limited space, which may restrict the number of people in each class. Its organisers therefore need to plan the use of rooms carefully.", "items": [
+    {"stem": "Which expression introduces the contrast between free provision and limited space?", "options": ["However, the centre has limited space.", "For example, the centre has limited space.", "Therefore, the centre has limited space.", "In addition, the centre has limited space."], "answer": 0, "why": "前文讲免费课程和借用材料带来的方便，limited space 是相反的一面，所以用 However。", "point": "connector"},
+    {"stem": "In 'The classes can attract residents', what does 'The classes' refer to?", "options": ["The brushes and paper lent to participants.", "The free painting sessions at the centre.", "The rooms that need careful planning.", "The organisers who manage the centre."], "answer": 1, "why": "前句的 free painting classes 是 The classes 的指代对象。", "point": "reference"},
+    {"stem": "Complete a sentence that adds another service.", "lead": "In addition,", "chunks": ["the centre", "lends", "brushes", "to participants"], "tail": ".", "extra": ["however"], "why": "In addition 引出借用画笔这一补充服务。", "point": "connector"},
+    {"stem": "Complete a sentence that clearly names the available materials.", "lead": "Participants", "chunks": ["can", "borrow", "brushes", "and paper"], "tail": ".", "extra": ["the organisers"], "why": "brushes 和 paper 明确指代材料。", "point": "reference"}
+   ]},
+   {"text": "A town has introduced separate containers for household recycling. Clear labels help residents identify where to put paper, glass and other materials. For example, a label on a glass container can prevent residents from placing paper inside it. The council also collects the containers regularly. Although this service requires staff time, it can keep the collection points usable for residents.", "items": [
+    {"stem": "Which sentence provides an example of the role of labels?", "options": ["The council collects the separate containers regularly.", "The collection service requires staff time to operate.", "A label on a glass container stops paper going inside.", "The town has introduced separate containers for recycling."], "answer": 2, "why": "原文用 For example 引出玻璃容器上的标签，说明标签如何帮助居民分类。第三项是这个例子的改写。", "point": "connector"},
+    {"stem": "In 'it can keep the collection points usable', what does 'it' refer to?", "options": ["The paper placed in a glass container.", "The label displayed on the glass container.", "The staff time required by the council.", "The council's regular collection service."], "answer": 3, "why": "前一句讲 council 定期收集容器。this service 指这项收集服务，it 也指它。", "point": "reference"},
+    {"stem": "Complete a sentence introducing a concession.", "lead": "Although", "chunks": ["the service", "requires staff time,", "it", "keeps collection points usable"], "tail": ".", "extra": ["therefore"], "why": "Although 从句承认人员成本，主句说明服务的作用。", "point": "connector"},
+    {"stem": "Complete a sentence using a clear repeated noun.", "lead": "The council", "chunks": ["collects", "the containers", "and keeps", "the collection points usable"], "tail": ".", "extra": ["the labels"], "why": "the collection points 明确指出保持可用的对象。", "point": "reference"}
+   ]}
+  ]}]}
+ ]
+}

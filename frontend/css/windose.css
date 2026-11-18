@@ -1,0 +1,347 @@
+/* windose.css — 设计变量 + 基础排版 + 应用外壳（标题栏/图标栏/页面容器）+ 全应用通用控件。
+   视觉语言取自 NEEDY GIRL OVERDOSE 的 JINE / Windose：像素字体、2px 实线紫边、方角、实心紫底选中、虚线框表示新建。
+   其他样式表只写各自页面的版面，颜色/边框/间距/字体一律用这里的变量。
+
+   响应式只有三档（各样式表统一用这三个值）：
+     ≤ 1000px  中窗：收窄侧栏和留白
+     ≤ 720px   窄窗（900 宽窗口放大页面时会到这档）：多栏改单栏
+     ≤ 480px   极窄：控件折行、隐藏次要文字
+   !important 只有一处：.hidden / [hidden] 必须压过各页面写的 display。 */
+
+@font-face {
+  font-family: 'PixelM';
+  src: url('../assets/font/PixelMplus12-Regular.woff2') format('woff2'), url('../assets/font/PixelMplus12-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'PixelM';
+  src: url('../assets/font/PixelMplus12-Bold.woff2') format('woff2'), url('../assets/font/PixelMplus12-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+}
+/* 像素字体到之前的替身：雅黑按像素字体的字宽和行高调过，换字体时不跳行 */
+@font-face {
+  font-family: 'PixelM Fallback';
+  src: local('Microsoft YaHei UI'), local('Microsoft YaHei'), local('PingFang SC'), local('Noto Sans CJK SC');
+  size-adjust: 96%;
+  ascent-override: 88%;
+  descent-override: 12%;
+  line-gap-override: 0%;
+}
+
+:root {
+  /* ---- 颜色（沿用 NGO Windose launcher 采样值） ---- */
+  --border: #4d23cf;        /* 主边框紫 */
+  --border-d: #3a17a8;
+  --tbink: #4d23cf;         /* 标题栏/强调文字 */
+  --sel: #4d23cf;           /* 选中：实心紫底白字 */
+  --ink: #2a1f5e;           /* 正文 */
+  --muted: #6f6290;         /* 次要文字 */
+  --title: #f0d1f1;         /* 标题栏渐变两端 */
+  --title-2: #f7c9ec;
+  --body: #fff8ff;          /* 页面底 */
+  --paper: #ffffff;         /* 卡片/输入框底 */
+  --gamepink: #f7e1fb;      /* 侧栏/工具栏底、对方气泡 */
+  --panel: #efe6ff;         /* 浅紫块、悬停 */
+  --line-soft: #d8c9ec;     /* 细分隔线 */
+  --cyan: #90f4e4;
+  --cyan-d: #6fd8dd;
+  --pink: #ff7fc4;          /* 用户气泡 */
+  --pink-d: #e84fa8;
+  --amber: #e0a530;
+  --rust: #b0563a;          /* 错误/危险 */
+  --ok: #2e8a52;
+  --mark: #ffe9a8;          /* 已收藏词、批注高亮 */
+  --on-dark: #ffffff;       /* 紫底/粉底上的字 */
+  --hover: rgba(77, 35, 207, .10);
+  --line-faint: rgba(77, 35, 207, .15);  /* 列表行之间的淡分隔 */
+  --note-bg: #fff4cf;       /* 批注引文底 */
+  --warn-bg: #fff4e6;       /* 未保存提示底 */
+  --wrong-bg: #fff0f8;      /* 错题：上次选择 */
+  --right: #217e6b;         /* 错题：正确答案 */
+  --right-bg: #eefaf6;
+  --avatar-bg: #9a8fae;     /* 头像底色（按人设语言） */
+  --avatar-ja: #ff8fb8;
+  --avatar-en: #6fb8ff;
+  --avatar-de: #ffcf6a;
+  /* 阅读底色（阅读器和设置里的排版预览共用） */
+  --reader-lilac: #f4eaf7;
+  --reader-paper: #faf3df;
+  --reader-paper-ink: #382b22;
+  --reader-night: #282131;
+  --reader-night-ink: #f0e9f4;
+  --shadow: 4px 4px 0 rgba(20, 10, 90, .4);
+  --shadow-sm: 3px 3px 0 rgba(20, 10, 90, .3);
+  --scrim: rgba(20, 10, 40, .45);
+
+  /* ---- 线与间距 ---- */
+  --bw: 2px;                /* 所有实线边框 */
+  --gap-1: 4px;
+  --gap-2: 8px;
+  --gap-3: 12px;
+  --gap-4: 16px;
+  --gap-5: 24px;
+  --page-pad: 20px;         /* 页面内容左右留白 */
+  --control-h: 30px;
+
+  /* ---- 外壳尺寸 ---- */
+  --titlebar-h: 40px;
+  --rail-w: 76px;           /* 最左图标栏 */
+  --contacts-w: 200px;      /* 聊天页联系人列 */
+  --subnav-w: 156px;        /* 设置页分类列 */
+
+  /* ---- 字体 ----
+     像素字：界面外壳（导航、标题、按钮、标签、表单）。PixelMplus 只有日文 JIS 字形，
+     简体中文缺字统一回退到雅黑，不让各页各自回退。
+     正文字：聊天气泡、文章、题目、讲解等长文本。 */
+  --font-pixel: 'PixelM', 'PixelM Fallback', 'Microsoft YaHei UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', sans-serif;
+  --font-text: 'Segoe UI', 'Microsoft YaHei UI', 'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', sans-serif;
+  --font-text-ja: 'Segoe UI', 'Yu Gothic UI', 'Meiryo UI', 'Hiragino Sans', 'Noto Sans CJK JP', sans-serif;
+  --font-serif: Georgia, 'Noto Serif', 'Yu Mincho', 'Songti SC', 'SimSun', serif;
+  --fs-s: 12px;
+  --fs-ui: 12px;
+  --fs-text: 14px;
+  --fs-h: 14px;
+}
+
+/* ============ 基础 ============ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+html, body { width: 100%; height: 100%; overflow: hidden; }
+body { background: var(--body); color: var(--ink); font: var(--fs-ui)/1.5 var(--font-pixel); }
+:where(button, input, select, textarea) { font: inherit; color: inherit; }
+:where(button) { cursor: pointer; border: none; background: none; }
+img { image-rendering: pixelated; }
+a { color: var(--tbink); }
+.hidden, [hidden] { display: none !important; }
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip-path: inset(50%); white-space: nowrap;
+}
+
+/* 日语注音：ruby 只是展示，查询、复制、批注锚点都用原文 */
+.lp-furigana ruby { ruby-position: over; ruby-align: center; }
+.lp-furigana rt { font: 400 .55em/1.1 var(--font-text-ja); color: var(--muted); user-select: none; -webkit-user-select: none; }
+.lp-furigana rb { font: inherit; }
+
+::-webkit-scrollbar { width: 12px; height: 12px; }
+::-webkit-scrollbar-track { background: var(--gamepink); }
+::-webkit-scrollbar-thumb { background: var(--tbink); border: 2px solid var(--gamepink); }
+::-webkit-scrollbar-corner { background: var(--gamepink); }
+
+:focus-visible { outline: var(--bw) solid var(--pink-d); outline-offset: 1px; }
+
+/* ============ 通用控件（零优先级默认值，各页面按需覆盖） ============ */
+:where(#app-page, dialog, .pixel-box, #reading-root) :where(button) {
+  display: inline-flex; align-items: center; justify-content: center; gap: var(--gap-1);
+  min-height: var(--control-h); padding: 2px 10px;
+  border: var(--bw) solid var(--tbink); background: var(--paper); color: var(--tbink);
+  font-size: var(--fs-ui); font-weight: 700; line-height: 1.3; white-space: nowrap;
+}
+:where(#app-page, dialog, .pixel-box, #reading-root) :where(button:hover:not(:disabled)) { background: var(--panel); }
+:where(#app-page, dialog, .pixel-box, #reading-root) :where(button[aria-pressed="true"], button[aria-selected="true"], button[type="submit"], button.primary) {
+  background: var(--sel); border-color: var(--sel); color: var(--on-dark);
+}
+:where(#app-page, dialog, .pixel-box, #reading-root) :where(button:disabled) { opacity: .5; cursor: default; }
+:where(#app-page, dialog, .pixel-box, #reading-root) :where(input:not([type="checkbox"], [type="radio"], [type="range"], [type="file"]), select, textarea) {
+  min-height: var(--control-h); max-width: 100%; padding: 3px 8px;
+  border: var(--bw) solid var(--tbink); background: var(--paper); color: var(--ink);
+  font-size: var(--fs-ui);
+}
+:where(#app-page, dialog, .pixel-box, #reading-root) :where(textarea) { line-height: 1.6; resize: vertical; }
+:where(#app-page, dialog, .pixel-box, #reading-root) :where(input, select, textarea):disabled { background: var(--gamepink); color: var(--muted); }
+:where(#app-page, dialog) :where(input[type="checkbox"], input[type="radio"], input[type="range"], progress) { accent-color: var(--sel); }
+/* 像素开关：<input type="checkbox" role="switch">，方框 + 方形滑块 */
+:where(#app-page, dialog) input[type="checkbox"][role="switch"] {
+  appearance: none; position: relative; flex: none; width: 32px; height: 18px; margin: 0; cursor: pointer;
+  border: 1px solid var(--tbink); background: var(--line-soft);
+}
+:where(#app-page, dialog) input[type="checkbox"][role="switch"]::after {
+  content: ''; position: absolute; top: 2px; left: 2px; width: 12px; height: 12px;
+  background: var(--on-dark); border: 1px solid var(--tbink); transition: left .15s;
+}
+:where(#app-page, dialog) input[type="checkbox"][role="switch"]:checked { background: var(--sel); }
+:where(#app-page, dialog) input[type="checkbox"][role="switch"]:checked::after { left: 16px; }
+:where(#app-page, dialog) ::placeholder { color: var(--muted); opacity: 1; }
+:where(#app-page, dialog) :where(summary) { cursor: pointer; font-weight: 700; color: var(--tbink); }
+:where(#app-page, dialog) :where(progress) { height: 8px; }
+
+/* 下拉框：新版 Chromium 用可定制的弹出层，做成同一套方角紫边 */
+@supports (appearance: base-select) {
+  select:not([multiple]):not([size]), select:not([multiple]):not([size])::picker(select) { appearance: base-select; }
+  select:not([multiple]):not([size]) { display: inline-flex; align-items: center; justify-content: space-between; }
+  select::picker(select) {
+    border: var(--bw) solid var(--tbink); padding: 2px; margin-block: 2px;
+    background: var(--paper); color: var(--ink); box-shadow: var(--shadow-sm);
+    max-block-size: min(310px, 50dvh);
+  }
+  select::picker-icon { color: var(--tbink); margin-inline-start: auto; padding-inline-start: .6em; }
+  select option { min-height: 26px; padding: 3px 8px; font: var(--fs-ui)/1.4 var(--font-pixel); }
+  select option:is(:focus-visible, :hover) { background: var(--panel); }
+  select option:checked { background: var(--sel); color: var(--on-dark); }
+  select option::checkmark { display: none; }
+}
+
+/* 弹框：方角紫边 + 像素投影 */
+dialog {
+  margin: auto; max-width: calc(100vw - 32px); max-height: calc(100dvh - 32px);
+  border: 3px solid var(--border); background: var(--body); color: var(--ink);
+  box-shadow: var(--shadow); padding: var(--gap-4);
+}
+dialog::backdrop { background: var(--scrim); }
+
+/* 页面顶部工具条（各页通用） */
+.workspace-tools {
+  display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;
+  gap: var(--gap-2) var(--gap-3); min-height: 46px; padding: var(--gap-2) var(--page-pad);
+  background: var(--gamepink); border-bottom: var(--bw) solid var(--tbink);
+}
+
+/* ============ 应用外壳 ============ */
+#app-shell { position: absolute; inset: 0; display: flex; flex-direction: column; background: var(--body); }
+
+/* 标题栏：品牌 + 二级导航 + 桌面壳三键；浏览器里三键隐藏，drag/no-drag 属性无副作用 */
+#app-titlebar {
+  flex: none; height: var(--titlebar-h);
+  display: flex; align-items: stretch; gap: var(--gap-3); padding: 0 var(--gap-2) 0 0;
+  background: linear-gradient(90deg, var(--title), var(--title-2));
+  border-bottom: 3px solid var(--tbink);
+  -webkit-app-region: drag; user-select: none;
+}
+#app-brand {
+  flex: none; width: var(--rail-w); display: flex; align-items: center; justify-content: center; gap: 6px;
+}
+#app-icon { width: 20px; height: 20px; -webkit-app-region: no-drag; }
+#app-title { font-size: 14px; font-weight: 700; color: var(--tbink); }
+/* 顶边 6px 让给无边框窗口的原生缩放热区（thickFrame），否则 drag 区吃掉它 */
+#win-resize-topstrip { position: fixed; top: 0; left: 0; right: 0; height: 6px; z-index: 10000; -webkit-app-region: no-drag; }
+#app-winbtns { margin-inline-start: auto; display: flex; align-items: center; gap: var(--gap-1); -webkit-app-region: no-drag; }
+.win-btn {
+  width: 26px; height: 22px; border: var(--bw) solid var(--tbink);
+  background: var(--cyan); color: var(--tbink); font-weight: 700; font-size: 13px; line-height: 1;
+  display: flex; align-items: center; justify-content: center;
+}
+.win-btn:active { background: var(--cyan-d); }
+.win-btn.win-close { background: var(--pink); color: var(--on-dark); border-color: var(--pink-d); }
+.win-btn.win-close:active { background: var(--pink-d); }
+
+.nav-btn { display: flex; align-items: center; gap: 6px; color: var(--tbink); font-weight: 700; white-space: nowrap; }
+.nav-btn img { flex: none; width: 20px; height: 20px; object-fit: contain; }
+
+/* 二级导航（学习/复习）：像标签页一样挂在标题栏底边，选中项实心紫底 */
+.app-section-nav { display: flex; align-items: flex-end; gap: var(--gap-1); min-width: 0; -webkit-app-region: no-drag; }
+.app-section-nav .nav-btn {
+  height: 30px; padding: 0 var(--gap-3); font-size: var(--fs-ui);
+  border: var(--bw) solid var(--tbink); border-bottom: 0; background: var(--body);
+}
+.app-section-nav .nav-btn img { width: 18px; height: 18px; }
+.app-section-nav .nav-btn:hover { background: var(--panel); }
+.app-section-nav .nav-btn.active { background: var(--sel); color: var(--on-dark); }
+
+#app-main { flex: 1; min-height: 0; display: flex; }
+
+/* 最左图标栏 */
+#app-sidebar {
+  flex: 0 0 var(--rail-w); width: var(--rail-w); min-height: 0;
+  display: flex; flex-direction: column;
+  background: var(--gamepink); border-right: 3px solid var(--tbink);
+}
+#app-navrow { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: var(--gap-1); padding: var(--gap-2) 6px; overflow-y: auto; }
+#app-navrow .nav-btn {
+  flex-direction: column; justify-content: center; gap: 3px; min-height: 54px; padding: 4px 0;
+  border: var(--bw) solid transparent; font-size: var(--fs-ui); font-weight: 400; color: var(--tbink);
+}
+/* 没选中：字照样看得清，图标退半步；选中：加框、加粗、图标全亮 */
+#app-navrow .nav-btn img { width: 24px; height: 24px; opacity: .72; filter: saturate(.7); }
+#app-navrow .nav-btn:hover { background: var(--hover); }
+#app-navrow .nav-btn:hover img { opacity: 1; filter: none; }
+#app-navrow .nav-btn.active { background: var(--panel); border-color: var(--tbink); font-weight: 700; }
+#app-navrow .nav-btn.active img { opacity: 1; filter: none; }
+#app-navrow [data-tab="settings"] { margin-top: auto; }
+
+/* 底部：健康圆点 + 周额度角标 */
+#app-navstatus {
+  flex: none; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 3px 5px;
+  padding: 6px 4px; border-top: 1px solid var(--line-soft);
+  font-size: var(--fs-s); font-weight: 700; color: var(--tbink); text-align: center; line-height: 1.25;
+}
+#nav-health-dot { flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--ok); }
+#nav-health-dot.bad { background: var(--rust); }
+#nav-health-dot.warn { background: var(--amber); }
+#nav-usage-chip.hot { color: var(--rust); }
+
+#app-page { flex: 1; min-width: 0; position: relative; background: var(--body); }
+.page-panel { display: none; height: 100%; }
+.page-panel.active { display: block; overflow-y: auto; }
+/* 自己管滚动的整页工作区（聊天页的横排在 jine.css） */
+#page-coach.active, #page-workspace-agent.active, #page-reading.active { display: flex; flex-direction: column; overflow: hidden; }
+
+/* 浮层外框（词卡、句解析、确认框） */
+.pixel-box { background: var(--body); border: 3px solid var(--border); box-shadow: var(--shadow-sm); }
+
+#toast {
+  position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%); z-index: 1000;
+  max-width: min(560px, calc(100vw - 32px)); padding: var(--gap-2) var(--gap-4);
+  background: var(--border); color: var(--on-dark); border: var(--bw) solid var(--border-d); box-shadow: var(--shadow);
+  font-size: 13px; font-weight: 700; text-align: center; overflow-wrap: anywhere;
+}
+
+@media (max-width: 1000px) {
+  :root { --page-pad: 16px; --contacts-w: 176px; --subnav-w: 136px; }
+}
+@media (max-width: 720px) {
+  :root { --page-pad: 12px; --rail-w: 60px; --contacts-w: 60px; }
+  #app-navrow .nav-btn { font-size: var(--fs-s); }
+  #app-title { display: none; }
+  .app-section-nav .nav-btn { padding: 0 var(--gap-2); }
+}
+@media (max-width: 480px) {
+  .app-section-nav .nav-btn span { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms; animation-iteration-count: 1; transition-duration: .01ms; }
+}
+
+#toast .toast-undo { margin-left: 4px; padding: 0 6px; border: 1px solid currentColor; background: none; color: inherit; font: inherit; cursor: pointer; }
+
+/* 连续流：实心「下一步」+ 文字「回到今天」 */
+.next-actions { display: flex; align-items: center; justify-content: center; gap: var(--gap-4); margin: var(--gap-5) 0 var(--gap-3); }
+.next-actions .next-go { min-height: 38px; padding: 0 24px; }
+.next-actions .next-home { border-color: transparent !important; background: none !important; color: var(--tbink); text-decoration: underline; text-underline-offset: 3px; }
+
+/* 列表行内「⋯」：少用的、危险的都收在这里；危险项锈红色 */
+.row-more { position: relative; }
+.row-more > summary { list-style: none; display: grid; place-items: center; width: 28px; height: 26px; border: 1px solid var(--line-soft); color: var(--tbink); font-weight: 700; cursor: pointer; }
+.row-more > summary::-webkit-details-marker { display: none; }
+.row-more[open] > summary { border-color: var(--tbink); background: var(--panel); }
+.row-more-pop { position: absolute; right: 0; bottom: calc(100% + 4px); z-index: 20; display: flex; flex-direction: column; min-width: 120px; padding: 4px; }
+.row-more-pop > button { justify-content: flex-start; border: 0 !important; background: none !important; min-height: 28px; }
+.row-more-pop > button:hover { background: var(--panel) !important; }
+.row-danger { color: var(--rust) !important; }
+/* 列表顶上的搜索框 */
+.list-search { width: 160px; min-height: 28px !important; }
+/* 空状态：一个图标 + 一个动作 */
+.empty-state { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: var(--gap-3); min-height: 240px; }
+.empty-state > img { width: 48px; height: 48px; opacity: .8; }
+/* 和内容形状一致的占位 */
+.nb-skeleton { min-height: 150px; border-style: dashed !important; background: repeating-linear-gradient(180deg, var(--panel) 0 14px, transparent 14px 26px) 16px 18px / 60% 80% no-repeat; }
+
+.save-tick { margin-left: 6px; color: var(--ok); font-weight: 700; animation: tickFade 1.6s ease forwards; }
+.save-tick.bad { color: var(--rust); }
+@keyframes tickFade { 0%, 70% { opacity: 1; } 100% { opacity: 0; } }
+
+/* 加载占位：和内容同形的浅色块，不转圈、不写字 */
+.rd-skeleton, .skeleton-row { min-height: 64px; border-bottom: 1px solid var(--line-soft); background: linear-gradient(var(--panel), var(--panel)) 84px 18px / 55% 12px no-repeat, linear-gradient(var(--panel), var(--panel)) 84px 38px / 35% 10px no-repeat, linear-gradient(var(--panel), var(--panel)) 12px 12px / 58px 40px no-repeat; }
+.skeleton-row { min-height: 44px; background: linear-gradient(var(--panel), var(--panel)) 12px 16px / 60% 12px no-repeat; }
+.rv2-skeleton { min-height: 220px; border: var(--bw) dashed var(--line-soft); background: linear-gradient(var(--panel), var(--panel)) center 60px / 50% 18px no-repeat, linear-gradient(var(--panel), var(--panel)) center 110px / 30% 14px no-repeat; }
+.row-more:not([open]) > .row-more-pop, .lp-more:not([open]) > .lp-more-pop { display: none; }
+.row-more > summary::after, .row-more > summary::before { content: none !important; }
+
+/* 标题栏上的角色窗口开关：她的小头像。开着的时候有一圈青色，关着的时候淡一点 */
+.stage-btn { flex: none; align-self: center; width: 24px; height: 24px; margin-inline: auto 8px; padding: 0; -webkit-app-region: no-drag; border: var(--bw) solid var(--tbink); border-radius: 50%;
+  background: var(--paper); overflow: hidden; line-height: 0; opacity: .6; filter: saturate(.5); transition: opacity .15s, filter .15s, box-shadow .15s; }
+.stage-btn img { width: 100%; height: 100%; image-rendering: pixelated; }
+.stage-btn:hover { opacity: 1; filter: none; }
+.stage-btn[aria-pressed="true"] { opacity: 1; filter: none; box-shadow: 0 0 0 2px var(--cyan); }
+.stage-btn[hidden] { display: none; }
+.stage-btn:not([hidden]) + #app-winbtns { margin-inline-start: 0; }

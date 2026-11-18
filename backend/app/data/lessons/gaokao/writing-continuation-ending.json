@@ -1,0 +1,45 @@
+{
+ "id": "writing-continuation-ending", "title": "故事结尾", "goal": "能回应故事冲突，并用已有线索或人物变化收束故事。", "skill": "写作", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "resolve", "label": "选择回应原文冲突的结局"}, {"id": "echo", "label": "用已有线索或人物变化形成结尾"}],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "故事结尾的教学内容与知识点"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "故事的结尾要回应前文的冲突，写出行动的结果。前文出现过的物品和人物的变化，能让结尾与前文连起来。"}, {"box": "A lost glove kept Hana searching the garden. At last she found it beneath the bench and returned the pair to her brother."}, {"p": "手套丢了，是故事的困难。结尾找到手套并还了回去，困难就解决了。"}]},
+  {"id": "resolve", "type": "table", "title": "冲突与结果", "cols": ["冲突", "行动", "结尾"], "rows": [
+   ["钥匙丢失", "沿原路寻找", "She found the key beside the bench and opened the shed."],
+   ["海报被雨淋湿", "同伴一起修补", "They dried the poster and displayed the repaired copy."],
+   ["地图撕裂", "寻找剩余部分", "He fitted the pieces together and found the marked path."],
+   ["种子缺水", "安排轮流浇水", "The group watered the seeds, and new leaves appeared."]
+  ]},
+  {"id": "echo", "type": "table", "title": "线索与人物变化", "cols": ["前文", "结尾", "联系"], "rows": [
+   ["A red ribbon marked the lost parcel.", "The red ribbon appeared beneath the chair; the parcel was found.", "前文的红丝带再次出现"],
+   ["An old photograph showed the original garden.", "They placed the photograph beside the restored garden.", "前文的旧照片再次出现"],
+   ["Lena refused help with the boxes.", "Lena asked her friend to carry one end of the box.", "从拒绝帮助到请人帮忙"],
+   ["Omar feared speaking to the group.", "Omar stood up and explained his idea to the group.", "从害怕发言到当众说明想法"]
+  ]},
+  {"id": "limits", "type": "table", "title": "结尾的依据", "cols": ["前文", "可用结尾", "原因"], "rows": [
+   ["Mia repaired a torn kite with her sister.", "The sisters flew the repaired kite together.", "结果来自修补行动"],
+   ["Sam learned to ask his partner for help.", "Sam invited his partner to check the final design.", "新行动体现变化"],
+   ["A blue button identified the lost coat.", "The blue button helped them recognize the coat.", "已有细节支持结果"],
+   ["A team solved a timetable problem.", "They posted the revised timetable before the event.", "结尾回应具体问题"]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [{"box": "Maya wanted to return a borrowed umbrella. Its green handle made it easy to recognize, but she could not find it after lunch. She searched the classroom with her friend.\nWhich ending uses the existing clue?\n1. Maya spotted the green handle beneath a desk and returned the umbrella.\n2. Maya bought a red coat and left the umbrella in the classroom.\n3. Maya found a new umbrella with a blue handle in a shop.\n4. Maya decided that all borrowed items should stay at school."}, {"p": "green handle 是认出雨伞的线索。第一项凭这个线索找到雨伞并还了回去，回应了归还的目标。"}]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["resolve", "echo"], "groups": [{"items": [
+   {"stem": "A team has repaired a broken bird feeder. Which ending shows the result?", "options": ["They hung the repaired feeder back up, and birds returned.", "They found another broken feeder in the storage shed.", "They left the repaired feeder lying in the shed.", "They removed the feeder before repairing its damaged roof."], "answer": 0, "why": "喂食器已经修好。第一项把它挂回去，鸟又来了，写出了修补的结果。第二项又引出了新的问题。", "point": "resolve"},
+   {"stem": "A girl once refused help with her project but has learned to cooperate. Which ending shows her change?", "options": ["She hid the finished project from her partner.", "She invited her partner to finish it with her.", "She decided that her partner needed no help.", "She returned to working alone on the project."], "answer": 1, "why": "依据是 has learned to cooperate。第二项邀请同伴一起完成项目，写出了她的变化。", "point": "echo"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["resolve", "echo"], "groups": [{"items": [
+   {"stem": "A student has found a borrowed book and returns it.", "lead": "She", "chunks": ["handed", "the book", "back", "to"], "tail": "its owner.", "extra": ["handing"], "why": "把书还给主人，回应了找书还书的目标。", "point": "resolve"},
+   {"stem": "A child who had feared speaking now presents an idea to classmates.", "lead": "He", "chunks": ["stood", "up", "and", "shared"], "tail": "his idea.", "extra": ["sharing"], "why": "站起来分享想法，写出他不再害怕发言。", "point": "echo"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["resolve", "echo"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "Nia needs to deliver a letter but has lost the address. She asks the recipient for it. Which ending resolves the problem?", "options": ["Nia writes down the address and delivers the letter.", "Nia gets the address but keeps the letter at home.", "Nia delivers the letter before asking for the address.", "Nia asks the recipient again but still has no address."], "answer": 0, "why": "Nia 缺的是地址，她向收信人问了。第一项记下地址并把信送到，解决了这个问题。第二项拿到了地址，信却没有送。", "point": "resolve"},
+   {"stem": "A child searches for a toy boat identified by a yellow sail. Which ending uses that clue?", "options": ["He paints a newly purchased boat with a blue sail at the dock.", "He sees the yellow sail under the dock and retrieves the boat.", "He leaves the yellow sail under the dock and buys a toy plane instead.", "He repairs the dock after losing the new boat with its blue sail."], "answer": 1, "why": "依据是 identified by a yellow sail。第二项凭黄色的帆认出了船，并把它取回。", "point": "echo"},
+   {"stem": "A group needs to restore a wet notice before an event. They dry and rewrite it. Which ending follows their work?", "options": ["They post the old wet notice before the event.", "They cancel the event without reading the notice.", "They post the rewritten notice before the event.", "They rewrite the notice again after the event."], "answer": 2, "why": "通知已经晾干、重写。第三项在活动前把它贴出去，完成了任务。第一项贴的是没有重写的旧通知。", "point": "resolve"},
+   {"stem": "Ben initially refuses his sister's suggestions, then learns to listen. Which ending shows his change?", "options": ["Ben hides his revised design from his sister again.", "Ben says his sister's ideas are still useless.", "Ben finishes the design without hearing his sister speak.", "Ben asks his sister to review the revised design."], "answer": 3, "why": "依据是 then learns to listen。第四项请她看修改后的设计，写出了他愿意听取建议。", "point": "echo"},
+   {"stem": "A girl returns a missing scarf after recognizing its red stripe.", "lead": "She", "chunks": ["recognized", "the red stripe", "and", "returned"], "tail": "the scarf.", "extra": ["returning"], "why": "凭红条纹认出围巾并归还，用前文的物品线索结束故事。", "point": "echo"},
+   {"stem": "A boy has located his friend's lost notebook and gives it back.", "lead": "He", "chunks": ["gave", "the notebook", "back", "to"], "tail": "his friend.", "extra": ["giving"], "why": "归还笔记本回应寻找失物的目标。", "point": "resolve"},
+   {"stem": "A formerly hesitant student presents her suggestion to the team.", "lead": "She", "chunks": ["stood", "up", "and", "explained"], "tail": "her suggestion.", "extra": ["explaining"], "why": "站起来说明建议，写出她不再犹豫。", "point": "echo"},
+   {"stem": "After repairing a sign, two volunteers put it back beside the path.", "lead": "They", "chunks": ["put", "the repaired sign", "back", "beside"], "tail": "the path.", "extra": ["putting"], "why": "修好并放回标牌，回应标牌损坏的问题。", "point": "resolve"}
+  ]}]}]}
+ ]
+}

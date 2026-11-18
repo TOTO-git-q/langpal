@@ -1,0 +1,393 @@
+{
+ "id": "reading-passage-inference",
+ "title": "推断题",
+ "goal": "为推断找到原文的依据；排除超出原文的选项。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "basis",
+   "label": "为推断找到原文的依据"
+  },
+  {
+   "id": "onestep",
+   "label": "排除超出原文的选项"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、计分、自适应"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明和官方样题（挖空规则是对照样题和答案看出来的）"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Reading Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-reading.pdf",
+   "used": "第 1 课：三类题的说明和需要的三项基本功"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "推断题的正确选项在原文中没有直接写出，但能由原文推出。推出的结论保留原文的对象、范围和确定程度。原文没有说的原因不能加进去。"
+    },
+    {
+     "box": "What can be inferred from the passage about …?\nThe passage implies that …\nWhat does the passage suggest about …?"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定推断对象",
+     "d": "按题干中的对象定位。题干问 sealed jars 时，只读讲密封罐和对照罐的句子。"
+    },
+    {
+     "t": "2　列出必要依据",
+     "d": "在定位到的句子里找因果、对比和限定词。Only sealed jars remained dry 中的 only 是限定词：保持干燥的罐都是密封的。"
+    },
+    {
+     "t": "3　限制结论范围",
+     "d": "只推一步。由 Only sealed jars remained dry 可推出未密封的罐受了潮。密封能永久防潮则超出了原文。"
+    }
+   ]
+  },
+  {
+   "id": "key",
+   "type": "table",
+   "title": "语境与依据",
+   "cols": [
+    "类型",
+    "例句",
+    "依据"
+   ],
+   "rows": [
+    [
+     "因果",
+     "The engine stopped because its fuel supply was interrupted.",
+     "可推知：发动机要重新运转，须先恢复供油。"
+    ],
+    [
+     "对比",
+     "The covered trays stayed clean; the uncovered trays collected dust.",
+     "可推知：积尘多少与有没有覆盖有关。"
+    ],
+    [
+     "限定词 only",
+     "Only registered objects were included in the count.",
+     "可推知未登记物件不在计数中。"
+    ],
+    [
+     "限定词 some",
+     "Some samples retained their color after heating.",
+     "可推知有些样品加热后保色，推不出全部保色。"
+    ],
+    [
+     "证据范围",
+     "The trial involved adults from one neighborhood.",
+     "结论只适用于这一社区的成年人。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A museum compared two identical copies of a photograph. One was displayed under a bright lamp; the other was stored in darkness. After several months, the displayed copy had faded more. Both copies had been kept at the same temperature."
+    },
+    {
+     "box": "What can be inferred from the comparison?\n1. Temperature alone explains the difference.\n2. The darker copy will never fade.\n3. All photographs fade at the same rate.\n4. Light exposure may have contributed to the difference."
+    },
+    {
+     "p": "依据是 displayed copy had faded more 和 kept at the same temperature。两份副本温度相同，只有光照不同。所以光照可能与褪色的差别有关，第四项用 may 保留了原文的确定程度。"
+    },
+    {
+     "p": "第二项加了 never，第三项把两份副本扩大到所有照片，都超出了观察范围。第一项与温度相同这一条件矛盾。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "过度推断",
+     "Some samples survived → All samples will survive.",
+     "原文说 some，选项写成了 all。"
+    ],
+    [
+     "无依据",
+     "The trial used adults → Children refused to participate.",
+     "原文没有提到儿童，选项无依据。"
+    ],
+    [
+     "与原文相反",
+     "Only sealed jars stayed dry → Open jars stayed dry.",
+     "only 限定的是密封罐，敞口的罐没有保持干燥。"
+    ],
+    [
+     "把相关当作唯一原因",
+     "Two conditions differed → One condition explains everything.",
+     "原文只说两种条件不同，选项把其中一种写成唯一原因。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "basis",
+    "onestep"
+   ],
+   "groups": [
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "The instrument could record signals only while connected to an external battery. During the final hour, that connection was lost.",
+     "items": [
+      {
+       "stem": "What can be inferred about the final hour?",
+       "options": [
+        "The instrument produced stronger signals.",
+        "The instrument could not record signals.",
+        "The battery was replaced with a larger one.",
+        "The connection was deliberately removed."
+       ],
+       "answer": 1,
+       "why": "only while connected 说明仪器只在接通电池时记录，that connection was lost 说明最后一小时断开了。这段时间仪器无法记录，即第二项。",
+       "point": "basis"
+      }
+     ]
+    },
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "The same task took the trained group less time than the untrained group, although both groups made the same number of errors.",
+     "items": [
+      {
+       "stem": "What does the comparison suggest?",
+       "options": [
+        "Training reduced errors as well as the time needed.",
+        "The untrained group was given a harder version of the task.",
+        "Training may have improved speed without reducing errors.",
+        "All trained people would complete every task more quickly."
+       ],
+       "answer": 2,
+       "why": "less time 说明受训组更快，same number of errors 说明两组错误一样多。训练可能提高了速度，但没有减少错误，即第三项。",
+       "point": "onestep"
+      }
+     ]
+    },
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "Only fragments with visible lettering were photographed. Several unmarked fragments were placed in storage.",
+     "items": [
+      {
+       "stem": "What can be inferred about the stored unmarked fragments?",
+       "options": [
+        "They were not among the photographed fragments.",
+        "They were photographed before being stored.",
+        "They were the only fragments with visible lettering.",
+        "They outnumbered the fragments that were photographed."
+       ],
+       "answer": 0,
+       "why": "Only fragments with visible lettering were photographed 限定了拍照范围。unmarked fragments 没有字迹，不在拍照之列，即第一项。",
+       "point": "basis"
+      }
+     ]
+    },
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "Some of the tested fabrics resisted tearing when wet. The report did not examine what happened after drying.",
+     "items": [
+      {
+       "stem": "Which inference stays within the evidence?",
+       "options": [
+        "Every tested fabric resisted tearing when wet.",
+        "The tested fabrics also resisted tearing after drying.",
+        "None of the tested fabrics resisted tearing when wet.",
+        "At least one tested fabric resisted tearing when wet."
+       ],
+       "answer": 3,
+       "why": "Some of the tested fabrics resisted tearing when wet 说明至少有一种受测织物湿时不易撕裂，即第四项。第二项讲的是 after drying，报告没有研究。",
+       "point": "onestep"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "basis",
+    "onestep"
+   ],
+   "groups": [
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "A survey of a cliff recorded nests only where observers could see them from a public path. Dense vegetation hid several sections of the rock face. The report listed the visible nests but did not estimate how many were behind the vegetation.",
+     "items": [
+      {
+       "stem": "What can be inferred about the recorded total?",
+       "options": [
+        "It includes nests hidden behind the vegetation.",
+        "It cannot establish the total for the whole cliff.",
+        "It proves that hidden sections contained no nests.",
+        "It is larger than the number of visible nests."
+       ],
+       "answer": 1,
+       "why": "Dense vegetation hid several sections，报告又 did not estimate 这些部分的巢数。记录到的数量只是可见部分，得不出整面崖壁的总数，即第二项。",
+       "point": "basis"
+      },
+      {
+       "stem": "Which conclusion is supported without an additional assumption?",
+       "options": [
+        "The hidden sections contained more nests than the visible ones.",
+        "Every hidden section contained several nests.",
+        "Visibility affected which nests could enter the record.",
+        "Observers recorded the hidden nests from the public path."
+       ],
+       "answer": 2,
+       "why": "recorded nests only where observers could see them 说明能否看见决定了哪些巢被记录，即第三项。第一项比较了巢的多少，原文没有给出隐藏部分的数量。",
+       "point": "onestep"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "basis",
+    "onestep"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Read the passage.",
+       "look": "passage",
+       "text": "Comparing Protective Wrappers\n\nConsider a conservation trial designed to compare wrappers for stored metal objects. Researchers place identical metal pieces in two cabinets kept at the same temperature and humidity. In one cabinet, each piece is enclosed in a newly designed wrapper. In the other, each piece is left uncovered. All pieces come from the same batch and have been cleaned in the same way before the trial begins.\n\nAfter the trial, fewer covered pieces show surface damage than uncovered pieces. This difference is consistent with a protective effect of the wrapper under the tested conditions. However, the researchers have used only one kind of metal. They have also kept the cabinets indoors, away from direct sunlight and large temperature changes.\n\nThe report recommends further trials before the wrapper is used for objects made from other metals. It also calls for observations over a longer period. The initial result provides a reason to continue testing, but it does not establish how the material will perform in every storage setting. A museum considering the wrapper must distinguish the conditions that were examined from those that remain untested.",
+       "items": [
+        {
+         "stem": "What can be inferred about differences in temperature between the cabinets?",
+         "options": [
+          "They explain why fewer covered pieces were damaged.",
+          "They caused all of the observed surface damage.",
+          "They were reduced by keeping both cabinets in sunlight.",
+          "They cannot account for the difference in damage."
+         ],
+         "answer": 3,
+         "why": "kept at the same temperature and humidity 说明两个柜子温度相同，温度无法解释两组损伤的差别，即第四项。",
+         "point": "basis"
+        },
+        {
+         "stem": "What does the recommendation for other-metal trials imply?",
+         "options": [
+          "The current result has a limited material scope.",
+          "The wrapper has already failed on other metals.",
+          "The wrapper works equally well on all metals.",
+          "The trial already tested several kinds of metal."
+         ],
+         "answer": 0,
+         "why": "used only one kind of metal 说明结果只涉及一种金属，所以报告建议在其他金属上再试，即第一项。",
+         "point": "onestep"
+        },
+        {
+         "stem": "Which inference about the wrapper is best supported?",
+         "options": [
+          "It prevents surface damage in every possible setting.",
+          "It may protect metal under the tested conditions.",
+          "It works only when exposed to direct sunlight.",
+          "It protects metal better outdoors than indoors."
+         ],
+         "answer": 1,
+         "why": "fewer covered pieces show surface damage 说明包装可能有保护作用，under the tested conditions 把范围限在试验条件内，即第二项。",
+         "point": "onestep"
+        }
+       ]
+      },
+      {
+       "label": "Read the passage.",
+       "look": "passage",
+       "text": "Inspecting a Closed Passage\n\nA maintenance team is preparing a report on an underground service passage. The inspection vehicle can move through a section only if that section is wide enough for its wheels. It carries a camera and a lamp, and its operator records the condition of the walls while it moves. A narrow branch of the passage cannot admit the vehicle and is therefore absent from the camera record.\n\nThe wider sections contain both dry and damp areas. In the damp areas that the vehicle reaches, the camera shows marks near several pipe joints. These marks provide locations for closer examination, but the team has not yet established where the moisture originates. Water could be entering at a joint or reaching it from another location.\n\nThe report separates observations from questions requiring additional work. It lists the photographed marks and identifies the branch that has not been inspected. Engineers plan to use a smaller device in that branch. Until the additional inspection is completed, the report cannot describe the condition of every part of the passage or establish a single explanation for all of the visible marks.",
+       "items": [
+        {
+         "stem": "What can be inferred about the absence of images from the narrow branch?",
+         "options": [
+          "It shows that the branch has undamaged walls.",
+          "It indicates that the camera lamp failed there.",
+          "It reflects a limit of the inspection equipment.",
+          "It proves that the branch contains no pipe joints."
+         ],
+         "answer": 2,
+         "why": "cannot admit the vehicle and is therefore absent 说明没有图像是因为车辆进不去，原因在检查设备，即第三项。",
+         "point": "basis"
+        },
+        {
+         "stem": "What conclusion about the moisture is justified?",
+         "options": [
+          "Its source requires further investigation.",
+          "It enters through every photographed joint.",
+          "It appears only in the uninspected branch.",
+          "It comes from water entering at the pipe joints."
+         ],
+         "answer": 0,
+         "why": "has not yet established where the moisture originates 说明水的来源还没有查明，需要进一步调查，即第一项。第四项把 could be entering at a joint 说成了确定的事。",
+         "point": "onestep"
+        },
+        {
+         "stem": "What can be inferred about the planned smaller device?",
+         "options": [
+          "It will be used to re-examine the damp wider sections.",
+          "It will confirm that the branch walls are undamaged.",
+          "It will prove that every pipe joint is defective.",
+          "It will reach the branch the vehicle could not enter."
+         ],
+         "answer": 3,
+         "why": "use a smaller device in that branch 中的 that branch 是车辆进不去的窄支道。小型设备用来检查这条支道，即第四项。",
+         "point": "basis"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

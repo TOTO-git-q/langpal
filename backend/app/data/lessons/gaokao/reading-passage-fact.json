@@ -1,0 +1,412 @@
+{
+ "id": "reading-passage-fact",
+ "title": "事实细节题",
+ "goal": "定位事实细节，核对同义改写及限定条件。",
+ "skill": "阅读",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "locate",
+   "label": "用题干的具体词定位原文证据"
+  },
+  {
+   "id": "paraphrase",
+   "label": "核对细节的同义改写与限定条件"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语（新课标卷）：课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "事实细节题的教学内容和知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "事实细节题考材料中明确写出的信息。题干问人物、行动、时间或条件。正确选项常换一种说法表达同一个事实。"
+    },
+    {
+     "p": "What did Lena repair? 限定了人物 Lena 和动作 repair。答案必须是 Lena 做的事，不是别人做的事。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定所问内容",
+     "d": "找出题干中的人物、事物和动作。What did Lena repair? 问的是 Lena 修了什么。"
+    },
+    {
+     "t": "2　定位证据",
+     "d": "用人名、数字或具体名词找到原文中的句子。本题用 Lena 和 repair 定位。"
+    },
+    {
+     "t": "3　核对限定",
+     "d": "读完整句，必要时读前后句。核对谁做、做什么、何时做、在什么条件下做。only on Friday 就是时间限定。"
+    },
+    {
+     "t": "4　比较改写",
+     "d": "比较选项和原文的意思。主动句改成被动句时，核对做事的人和被做的事有没有对调。"
+    }
+   ]
+  },
+  {
+   "id": "locating",
+   "type": "table",
+   "title": "定位词与限定",
+   "cols": [
+    "线索",
+    "原文",
+    "核对内容"
+   ],
+   "rows": [
+    [
+     "人名",
+     "Lena repaired a lamp; Omar painted a shelf.",
+     "Lena 修的是 lamp。"
+    ],
+    [
+     "数字",
+     "Six boxes arrived on Monday; eight arrived on Tuesday.",
+     "Monday 对应 six。"
+    ],
+    [
+     "具体名词",
+     "The bridge opened in June; the path opened in July.",
+     "bridge 对应 June。"
+    ],
+    [
+     "条件",
+     "Members may borrow a tent if they reserve it first.",
+     "借 tent 须先预订。"
+    ]
+   ]
+  },
+  {
+   "id": "rewriting",
+   "type": "table",
+   "title": "细节的同义改写",
+   "cols": [
+    "方式",
+    "原文",
+    "正确改写"
+   ],
+   "rows": [
+    [
+     "同义替换",
+     "Mira purchased a ticket.",
+     "Mira bought a ticket."
+    ],
+    [
+     "同义替换",
+     "The class postponed its visit.",
+     "The class delayed its visit."
+    ],
+    [
+     "主动变被动",
+     "A guide led the visitors.",
+     "The visitors were led by a guide."
+    ],
+    [
+     "主动变被动",
+     "The wind damaged the roof.",
+     "The roof was damaged by the wind."
+    ],
+    [
+     "具体概括",
+     "Nina packed apples and pears.",
+     "Nina packed fruit."
+    ],
+    [
+     "具体概括",
+     "The team used paintbrushes and paint rollers.",
+     "The team used painting tools."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "On Saturday, Lena fixed a lamp for the community room. Omar cleaned the windows, and Noor brought paint for the shelves. Lena returned on Monday to check the lamp, but the shelves were painted on Tuesday."
+    },
+    {
+     "box": "What did Lena do on Saturday?\n1. She cleaned the community room's windows.\n2. She repaired a light for the community room.\n3. She brought paint for the room's shelves.\n4. She checked the lamp after returning on Monday."
+    },
+    {
+     "p": "依据：On Saturday, Lena fixed a lamp。第二项用 repaired a light 改写 fixed a lamp，时间也是 Saturday。第四项是 Monday 的事。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "相邻信息",
+     "把 Monday 检查灯当作 Saturday 的事。",
+     "题干问的是 Saturday。"
+    ],
+    [
+     "对象替换",
+     "把 Omar 擦窗户说成 Lena 做的。",
+     "核对动作是谁做的。"
+    ],
+    [
+     "关系倒置",
+     "The guide was led by visitors.",
+     "原文 A guide led the visitors，带路的是 guide。"
+    ],
+    [
+     "条件遗漏",
+     "把须先预订说成不用预订。",
+     "核对 if 引出的条件。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "locate",
+    "paraphrase"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "On Friday, Mina collected the keys; on Saturday, Joel collected the chairs. Mina returned the keys on Sunday.",
+     "items": [
+      {
+       "stem": "What did Mina collect on Friday?",
+       "options": [
+        "The keys she returned on Sunday",
+        "The chairs collected by Joel",
+        "The chairs she returned on Sunday",
+        "The keys returned on Saturday"
+       ],
+       "answer": 0,
+       "why": "依据：On Friday, Mina collected the keys。她周五取的是钥匙，就是周日归还的那串。",
+       "point": "locate"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The volunteers planted roses near the gate. The gardener watered the trees beside the path.",
+     "items": [
+      {
+       "stem": "What did the volunteers do?",
+       "options": [
+        "They watered the trees that line the path.",
+        "They put roses in the ground by the gate.",
+        "They planted trees beside the path.",
+        "They watered the roses near the gate."
+       ],
+       "answer": 1,
+       "why": "依据：The volunteers planted roses near the gate。第二项用 put roses in the ground 改写 planted roses。",
+       "point": "paraphrase"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "A technician checked the microphones on Tuesday. The speakers were checked by an assistant on Wednesday.",
+     "items": [
+      {
+       "stem": "Who checked the speakers?",
+       "options": [
+        "The technician on Tuesday",
+        "The technician on Wednesday",
+        "The assistant on Wednesday",
+        "The assistant on Tuesday"
+       ],
+       "answer": 2,
+       "why": "依据：The speakers were checked by an assistant on Wednesday。被动句中 by 后面的 an assistant 是检查的人。",
+       "point": "locate"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Visitors may use the recording room after attending a short training session. They can enter the exhibition without training.",
+     "items": [
+      {
+       "stem": "When may visitors use the recording room?",
+       "options": [
+        "Before they attend the training",
+        "While they attend the training",
+        "Instead of attending the training",
+        "After they attend the training"
+       ],
+       "answer": 3,
+       "why": "依据：Visitors may use the recording room after attending a short training session。先参加培训，才能用录音室。",
+       "point": "paraphrase"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "locate",
+    "paraphrase"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "The town orchestra planned a free outdoor concert. On Monday, its members tested the sound equipment in the square. A local carpenter built a platform on Tuesday, and volunteers placed chairs beside it on Wednesday. If rain was forecast, the concert would move to the school hall. The orchestra announced the final location on Friday, after checking the weather report.",
+     "items": [
+      {
+       "stem": "What did the carpenter build?",
+       "options": [
+        "A set of chairs for the square",
+        "A platform for the concert",
+        "A hall for the orchestra",
+        "A stand for the sound equipment"
+       ],
+       "answer": 1,
+       "why": "依据：A local carpenter built a platform on Tuesday。木匠搭的是平台。椅子是志愿者摆的。",
+       "point": "locate"
+      },
+      {
+       "stem": "Under what condition would the concert move indoors?",
+       "options": [
+        "If the chairs arrived on Wednesday",
+        "If the platform was built on Tuesday",
+        "If the weather report predicted rain",
+        "If the sound equipment was tested"
+       ],
+       "answer": 2,
+       "why": "依据：If rain was forecast, the concert would move to the school hall。第三项用 the weather report predicted rain 改写 rain was forecast。",
+       "point": "paraphrase"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "locate",
+    "paraphrase"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A village history group decided to make a collection of photographs available to residents. The photographs had been kept in several family albums, and their owners wanted to keep the originals at home. The group therefore asked permission to make copies rather than collect the albums themselves. Each owner was invited to write a short description of the people and places shown.\n\nOn the first Saturday in May, volunteers met at the village hall. Rina operated the scanner, while Daniel recorded the descriptions in a notebook. Another volunteer, Ava, returned each album to its owner after the pictures had been copied. The group also set aside a table where families could look at copies together. Some visitors recognized buildings that had changed over the years, and they added those details to the notebook.\n\nThe following week, Daniel transferred the descriptions to a computer. He kept the spelling supplied by the families and noted when a name was uncertain. Rina checked that each digital image had the same number as its written description. The group stored a second copy of the files at the village library, with the owners' agreement.\n\nIn June, the group arranged a small display in the hall. Visitors could examine printed copies without handling the original albums. The display included a notebook for further information, but visitors were asked to leave a contact name if they wanted the group to follow up. After the display closed, the group planned to compare the new notes with the descriptions already collected.",
+       "items": [
+        {
+         "stem": "What did Daniel record at the first meeting?",
+         "options": [
+          "Descriptions supplied by the owners",
+          "Numbers printed on the family albums",
+          "Contact names from the June display",
+          "Uncertain names in the computer files"
+         ],
+         "answer": 0,
+         "why": "依据：Rina operated the scanner, while Daniel recorded the descriptions in a notebook。Daniel 记下的是照片主人写的说明。",
+         "point": "locate"
+        },
+        {
+         "stem": "Why did the group make copies of the photographs?",
+         "options": [
+          "The library wanted to keep the albums.",
+          "The owners wished to retain the originals.",
+          "The families requested new descriptions.",
+          "The hall could not display printed pictures."
+         ],
+         "answer": 1,
+         "why": "依据：their owners wanted to keep the originals at home. The group therefore asked permission to make copies。主人想把原件留在家里，所以只复制。",
+         "point": "paraphrase"
+        },
+        {
+         "stem": "What were visitors asked to provide if they wanted a follow-up?",
+         "options": [
+          "The original albums from their homes",
+          "The numbers of all digital images",
+          "A contact name with their information",
+          "A computer copy of the descriptions"
+         ],
+         "answer": 2,
+         "why": "依据：visitors were asked to leave a contact name if they wanted the group to follow up。需要回访的访客要留下联系人姓名。",
+         "point": "paraphrase"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A school gardening club had a narrow strip of ground beside its classroom. The members wanted to use it for growing herbs, but the soil was hard and the site received shade during much of the morning. They first watched the space for a week and recorded when sunlight reached different sections. Their notes showed that the end nearest the gate received the longest period of afternoon sun.\n\nThe club asked the caretaker, Mr Cole, for permission to place containers there. He agreed, provided that a clear route was left between the gate and the classroom door. The members measured the route before choosing their containers. They also found a rain barrel already standing near the wall, which could supply water for the plants.\n\nOn planting day, Erin brought soil in bags, while Mateo carried the containers from a storage shed. The members filled four containers and planted mint in two of them. They planted parsley in the other two. A teacher wrote the plant names on wooden labels, and the club placed one label in each container. The remaining soil was returned to the shed for later use.\n\nAt the end of the month, the members compared their notes. The parsley in the container closest to the gate had grown well, but another container had dried out. They decided to check its water more often rather than move it immediately. Mr Cole also suggested keeping the route clear when watering, so the club stored its watering cans against the wall after each visit.",
+       "items": [
+        {
+         "stem": "What did Mateo bring from the storage shed?",
+         "options": [
+          "Bags of soil for the plants",
+          "Labels for the four containers",
+          "Watering cans for the teacher",
+          "Containers for the gardening club"
+         ],
+         "answer": 3,
+         "why": "依据：Mateo carried the containers from a storage shed。Mateo 搬来的是容器，土是 Erin 带的。",
+         "point": "locate"
+        },
+        {
+         "stem": "What condition did Mr Cole set for placing the containers?",
+         "options": [
+          "The rain barrel had to be moved to the shed.",
+          "The route to the classroom had to remain clear.",
+          "The club had to plant parsley in every container.",
+          "The containers had to stay in the morning shade."
+         ],
+         "answer": 1,
+         "why": "依据：He agreed, provided that a clear route was left between the gate and the classroom door。provided that 引出的条件是留出通道。",
+         "point": "paraphrase"
+        },
+        {
+         "stem": "What did the club decide about the container that dried out?",
+         "options": [
+          "To check its water more frequently",
+          "To move it immediately to the gate",
+          "To return its soil to the storage shed",
+          "To replace its label with a new one"
+         ],
+         "answer": 0,
+         "why": "依据：They decided to check its water more often rather than move it immediately。第一项用 more frequently 改写 more often。",
+         "point": "locate"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

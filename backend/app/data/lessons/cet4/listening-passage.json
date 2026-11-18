@@ -1,0 +1,206 @@
+{
+  "id": "listening-passage",
+  "title": "听力篇章 · 练习",
+  "goal": "听一遍篇章，概括主旨并依据事实作有限推断。",
+  "skill": "listening",
+  "exam": "大学英语四级（CET-4）",
+  "points": [
+    {
+      "id": "gist",
+      "label": "概括篇章主旨"
+    },
+    {
+      "id": "detail",
+      "label": "辨认明确陈述的事实"
+    },
+    {
+      "id": "inference",
+      "label": "依据材料作有限推断"
+    }
+  ],
+  "sources": [
+    {
+      "id": "c1",
+      "title": "CET笔试",
+      "url": "https://cet.neea.edu.cn/html1/folder/16113/1586-1.htm",
+      "used": "考试题型、题量与时间。"
+    },
+    {
+      "id": "c2",
+      "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+      "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+      "used": "材料长度、作答形式与总体评分描述；练习材料为原创。"
+    },
+    {
+      "id": "c3",
+      "title": "分数解释",
+      "url": "https://cet.neea.edu.cn/html1/folder/19081/5124-1.htm",
+      "used": "报道分与卷面权重的区别。"
+    }
+  ],
+  "cards": [
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "小测",
+      "minutes": 4,
+      "points": [
+        "gist",
+        "detail",
+        "inference"
+      ],
+      "pass": 0.75,
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "audio": {
+                "intro": "",
+                "lines": [
+                  {
+                    "who": "A",
+                    "text": "When a college gardening club took responsibility for a small vegetable plot, its members expected watering to be their simplest job. Instead, it became their first serious problem. Some plants received water twice in one morning, while others went dry for days. Everyone wanted to help, but nobody knew what the previous visitor had done. At first, the club leader proposed a strict daily timetable. Several members objected because their class schedules changed from week to week. Then a new member suggested placing a notebook in a waterproof box beside the gate. After each visit, gardeners wrote down the date, the beds they had watered, and anything unusual they had noticed. The system did not tell people when to come. It made their work visible to the next person. Within a few weeks, members were also recording broken tools and signs of insects. The notebook became a shared memory of the garden rather than simply a watering record. It did not solve every problem: somebody still had to buy seeds and arrange major repairs. Yet it reduced repeated work and helped new volunteers join in without waiting for instructions. The club learned that cooperation does not always require a more detailed schedule. Sometimes people need a simple way to see what has already happened and what still needs attention before they decide how to help."
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "stem": "What is the passage mainly about?",
+                  "options": [
+                    "How a written record improved cooperation in a gardening club.",
+                    "Why vegetable gardens need watering every morning.",
+                    "How a club introduced a strict timetable for volunteers.",
+                    "Why new volunteers should avoid major garden repairs."
+                  ],
+                  "answer": 0,
+                  "why": "全文围绕记录本如何减少重复劳动、方便协作；严格时间表是被否定的方案。",
+                  "point": "gist"
+                },
+                {
+                  "stem": "What caused the watering problem?",
+                  "options": [
+                    "The club had no money to buy seeds.",
+                    "The plants were all in the same bed.",
+                    "Members did not know what others had done.",
+                    "The notebook had been damaged by water."
+                  ],
+                  "answer": 2,
+                  "why": "原文说没有人知道前一位来访者做了什么，因此出现重复浇水和漏浇。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "Why did some members object to a daily timetable?",
+                  "options": [
+                    "They wanted to work only on major repairs.",
+                    "Their class schedules changed from week to week.",
+                    "They preferred to receive individual instructions.",
+                    "They could not find a waterproof box."
+                  ],
+                  "answer": 1,
+                  "why": "课程安排每周变化是反对固定时间表的原因；防水盒属于后来采用的方案。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "What can be inferred about the notebook?",
+                  "options": [
+                    "It removed the need to buy gardening supplies.",
+                    "It required volunteers to arrive at fixed times.",
+                    "It replaced all decisions made by the club leader.",
+                    "It helped volunteers choose useful work independently."
+                  ],
+                  "answer": 3,
+                  "why": "新志愿者可不等指令就加入，说明记录帮助自主判断待办事项；它并未解决采购等所有问题。",
+                  "point": "inference"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "audio": {
+                "intro": "",
+                "lines": [
+                  {
+                    "who": "A",
+                    "text": "A local history museum once arranged its displays according to the dates when objects were made. This seemed logical to the staff, but visitors often walked past the cases without stopping. The dates told them which object was older, yet offered little reason to care about either one. For a small experimental exhibition, the museum tried a different approach. It placed an old cooking pot beside a modern saucepan and asked a question: how has preparing a family meal changed? Labels explained who used the objects, what fuel they needed, and how much attention the cooking required. Visitors began comparing the displays with their own kitchens. Children asked relatives about meals they remembered, and conversations lasted longer than before. Staff did not remove dates altogether. They moved them below the main explanation, where interested readers could still find them. Nor did they claim that the newer object was better in every way. One label explained that an older design could be repaired locally, while some modern parts were difficult to replace. The experiment suggested that familiar questions can give people a reason to examine unfamiliar objects. It did not prove that every exhibition should follow the same pattern. A specialist visitor might still prefer a detailed timeline. For general visitors, however, a connection with daily life offered a useful starting point for learning about the past."
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "stem": "What is the main idea of the passage?",
+                  "options": [
+                    "Modern cooking equipment should replace museum objects.",
+                    "Museum visitors always prefer detailed timelines.",
+                    "Familiar questions can make historical objects more engaging.",
+                    "Museums should remove all dates from their displays."
+                  ],
+                  "answer": 2,
+                  "why": "实验通过日常做饭的问题引出历史器物，结尾强调日常联系的作用；并未要求取消所有年代信息。",
+                  "point": "gist"
+                },
+                {
+                  "stem": "What did the museum place beside an old cooking pot?",
+                  "options": [
+                    "A detailed timetable of family meals.",
+                    "A modern saucepan.",
+                    "A photograph of the museum staff.",
+                    "A collection of replacement parts."
+                  ],
+                  "answer": 1,
+                  "why": "原文明说旧锅旁放的是现代平底深锅；替换零件只在后文说明中出现。",
+                  "point": "detail"
+                },
+                {
+                  "stem": "Why did one label mention the repair of an older design?",
+                  "options": [
+                    "To show that newer objects were not better in every respect.",
+                    "To explain why all modern saucepans had been removed.",
+                    "To ask visitors to repair the museum's cooking equipment.",
+                    "To prove that cooking in the past required no attention."
+                  ],
+                  "answer": 0,
+                  "why": "维修例子承接“不声称新器物各方面都更好”，用于限定比较结论。",
+                  "point": "inference"
+                },
+                {
+                  "stem": "What can be inferred about the experimental approach?",
+                  "options": [
+                    "It made dates unnecessary for every visitor.",
+                    "It proved that specialists dislike household objects.",
+                    "It prevented children from asking relatives questions.",
+                    "It may suit general visitors without meeting every visitor's preference."
+                  ],
+                  "answer": 3,
+                  "why": "结尾区分普通观众与可能偏好详细时间线的专业观众，因此不能把方案推广为人人适用。",
+                  "point": "inference"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "more": {
+        "kind": "passage",
+        "topics": [
+          "记录如何帮助团队协作",
+          "展品如何联系日常生活",
+          "学习任务的合理分配",
+          "社区项目的志愿者安排",
+          "观察植物生长的记录",
+          "修理旧物的经验",
+          "公共空间的使用习惯",
+          "收集反馈的方法",
+          "整理口述历史",
+          "规划一次步行活动",
+          "解释一个生活中的误解",
+          "从小规模试用中学习"
+        ]
+      }
+    }
+  ]
+}

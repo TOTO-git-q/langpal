@@ -1,0 +1,597 @@
+{
+ "id": "listening-conversation-method",
+ "title": "题型与对话结构",
+ "goal": "按目的、困难、方案和决定理解对话，并根据题干确定所需信息。",
+ "skill": "listening",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 听力",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "structure",
+   "label": "按对话结构预判信息的位置"
+  },
+  {
+   "id": "qtype",
+   "label": "根据题干判断问法"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、录音长度、只放一遍"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "各题型的说明、考查的能力、官方样题"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Listening Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-listening.pdf",
+   "used": "第 1 课：四类题的说明和小测答案；第 2、4 课：应答配对、重音和语调"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "对话题的材料是两人的日常交谈，每段后有 2 道题。录音只播放 1 遍。作答依据是听到的信息，不是对场景的常识判断。"
+    },
+    {
+     "p": "按官方规格，这类录音通常有 35–100 词。本课练习分清对话中的目的、困难、方案和决定。"
+    },
+    {
+     "box": "Why does the customer need a different size?\nWhat does Lee mean by “That settles it”?\nWhat can be inferred about the assistant?\nWhat will the customer probably do next?"
+    }
+   ],
+   "src": "spec 第 12 页；lessonplan 第 3、7 页"
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定交谈目的",
+     "d": "开头通常说明要办的事。I need a costume for Saturday 是要租一套服装，Saturday 只是使用的时间。"
+    },
+    {
+     "t": "2　区分困难和方案",
+     "d": "转折词后面常是困难。听到提议，还要听对方是否接受。We could repair it 是方案，That would take too long 表示这个方案不用。"
+    },
+    {
+     "t": "3　确认结尾决定",
+     "d": "后续行动看最后接受的安排。Then I’ll collect it tomorrow 是决定，取件时间是 tomorrow，不是前面提过的 today。"
+    },
+    {
+     "t": "4　按题干核对依据",
+     "d": "why 问原因，mean 问一句话在语境中的意思，infer 问没有直说的信息，next 问下一步。Why does Lee mention tomorrow 问提到这个词的作用，答案不是日期本身。"
+    }
+   ]
+  },
+  {
+   "id": "structure",
+   "type": "table",
+   "title": "对话结构",
+   "cols": [
+    "类型",
+    "说明",
+    "例句"
+   ],
+   "rows": [
+    [
+     "目的",
+     "说话人想办成的事",
+     "I need a costume for Saturday."
+    ],
+    [
+     "困难",
+     "妨碍办成这件事的情况",
+     "That size is already rented out."
+    ],
+    [
+     "方案",
+     "提出的替代办法，对方可能不接受",
+     "We could alter the larger one."
+    ],
+    [
+     "否定方案",
+     "说明某个办法行不通",
+     "The alteration would take too long."
+    ],
+    [
+     "决定",
+     "最后采用的办法和由谁去做",
+     "Then I’ll take the adjustable one."
+    ],
+    [
+     "补充条件",
+     "决定之后附加的要求",
+     "Bring it back before noon on Monday."
+    ]
+   ],
+   "note": "这几部分可以省略，也可以重复。We can alter it, but not before Monday 的后半句是对方案的限制。提出方案不等于已经决定。"
+  },
+  {
+   "id": "questions",
+   "type": "table",
+   "title": "问法与依据",
+   "cols": [
+    "类型",
+    "依据",
+    "例句"
+   ],
+   "rows": [
+    [
+     "细节或原因",
+     "录音中直接说出的事实或原因",
+     "Why does Lee reject the repair?"
+    ],
+    [
+     "一句话的意思",
+     "结合前一句理解这句话",
+     "What does Lee mean by “That settles it”?"
+    ],
+    [
+     "说话目的",
+     "这句话在对话中的作用",
+     "Why does Lee mention the opening time?"
+    ],
+    [
+     "推断",
+     "把几条线索合起来，结论不超出录音",
+     "What can be inferred about Lee?"
+    ],
+    [
+     "下一步",
+     "结尾的决定或表示接受的话",
+     "What will Lee probably do next?"
+    ]
+   ],
+   "note": "why 开头的题不都是原因题。Why does Lee need repairs 问事情的原因。Why does Lee say “It opens late” 问说这句话的目的。"
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Customer: I need a frame for this drawing by tomorrow.\nAssistant: A custom frame takes a week. There's a ready-made one, but it's slightly larger.\nCustomer: Would a border fill the space?\nAssistant: Yes. I can cut one this afternoon.\nCustomer: Then I'll leave the drawing here and collect it tomorrow."
+    },
+    {
+     "box": "What will the customer probably do next?\n1. Wait a week for a custom frame\n2. Take the drawing away to measure it\n3. Leave the drawing for fitting\n4. Collect the finished frame this afternoon"
+    },
+    {
+     "p": "probably do next 问下一步，依据在结尾。开头是装框的需求，中间的困难是定制要一周，加衬边是替代方案。"
+    },
+    {
+     "p": "Then I’ll leave the drawing here 表示接受方案，第三项改写为 leave the drawing for fitting。this afternoon 是裁衬边的时间，不是取件时间。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "排除方法",
+    "例"
+   ],
+   "rows": [
+    [
+     "原先的目的",
+     "开头的期望不是结果，结果看结尾。",
+     "I hoped to collect it today. → It is ready today."
+    ],
+    [
+     "未采用的方案",
+     "方案后面有否定，就不是最后的办法。",
+     "A custom frame takes a week. → Wait a week."
+    ],
+    [
+     "责任人错误",
+     "核对由谁做：I can cut 是店员裁。",
+     "I can cut one. → The customer will cut it."
+    ],
+    [
+     "时间关系错误",
+     "分开加工的时间和取件的时间。",
+     "Cut it this afternoon; collect it tomorrow."
+    ],
+    [
+     "问法错误",
+     "原因题找原因，不找结尾的决定。",
+     "Why reject the repair? → Collect it tomorrow."
+    ]
+   ]
+  },
+  {
+   "id": "check-structure",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "structure",
+    "qtype"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I'd like to donate this coat."
+       },
+       {
+        "who": "B",
+        "text": "The lining's torn. We can only accept clothes that are ready to wear."
+       },
+       {
+        "who": "A",
+        "text": "I'll have it repaired first."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which part explains the obstacle?",
+       "options": [
+        "The request to donate a coat",
+        "The description of its damaged lining",
+        "The plan to repair the coat",
+        "The reference to wearable clothing as a goal"
+       ],
+       "answer": 1,
+       "why": "The lining’s torn 说明衣服不能马上接收，这是困难，即第二项。修补是之后的安排。",
+       "point": "structure"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I wanted a seat near the front."
+       },
+       {
+        "who": "B",
+        "text": "Those seats are taken, but the back row has space."
+       },
+       {
+        "who": "A",
+        "text": "The back is fine. I'll sit there."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What kind of information does “What will the visitor do next?” ask for?",
+       "options": [
+        "The reason front seats are occupied",
+        "The meaning of the word space",
+        "An action based on the final decision",
+        "A description of the original preference"
+       ],
+       "answer": 2,
+       "why": "do next 问的是行动。I’ll sit there 是结尾的决定，即第三项。",
+       "point": "qtype"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Could I buy a small jar of this paint?"
+       },
+       {
+        "who": "B",
+        "text": "We only have large jars today."
+       },
+       {
+        "who": "A",
+        "text": "That would be far more than I need."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which part explains why the available option is unsuitable?",
+       "options": [
+        "The customer’s opening request",
+        "The clerk’s description of the stock",
+        "The clerk’s reference to today",
+        "The customer’s final response"
+       ],
+       "answer": 3,
+       "why": "far more than I need 说明大罐用不完，现有的选择不合适。这句是顾客最后的回答，即第四项。",
+       "point": "structure"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Pat, the ferry trip is canceled because of the fog."
+       },
+       {
+        "who": "B",
+        "text": "Then let's visit the indoor market instead."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What does “Why is the ferry trip canceled?” ask about?",
+       "options": [
+        "The stated reason for a change",
+        "The meaning of the suggested destination",
+        "The likely result of visiting the market",
+        "The purpose of Pat’s reply"
+       ],
+       "answer": 0,
+       "why": "题干问事情的原因，because of the fog 直接说出了原因，即第一项。",
+       "point": "qtype"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-dialogue",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "structure",
+    "qtype"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I need a quiet spot for a phone interview."
+       },
+       {
+        "who": "B",
+        "text": "The lounge is empty now, but a tour group arrives soon. Try the small office."
+       },
+       {
+        "who": "A",
+        "text": "Isn't it being painted?"
+       },
+       {
+        "who": "B",
+        "text": "That finished yesterday. I'll unlock it."
+       },
+       {
+        "who": "A",
+        "text": "Thanks. I'll wait here while you get the key."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which part rules out the lounge?",
+       "options": [
+        "The request for a quiet place",
+        "The warning about an arriving group",
+        "The question about painting",
+        "The offer to unlock the office"
+       ],
+       "answer": 1,
+       "why": "a tour group arrives soon 说明休息室很快会变吵，即第二项。",
+       "point": "structure"
+      },
+      {
+       "stem": "Which question explicitly asks for an inference?",
+       "options": [
+        "Where will the interview take place?",
+        "When did the painting finish?",
+        "What does the helper’s offer suggest about access to the office?",
+        "Why is the lounge unsuitable?"
+       ],
+       "answer": 2,
+       "why": "第三项用 suggest 问没有直说的信息：从 I’ll unlock it 可推断办公室要有人开锁。其余三问的答案都在录音中直接说出。",
+       "point": "qtype"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "structure",
+    "qtype"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'm arranging a cake delivery for our team lunch."
+         },
+         {
+          "who": "B",
+          "text": "We can deliver in the morning, but someone must sign for it."
+         },
+         {
+          "who": "A",
+          "text": "Our office won't open until noon. Could it go to the reception desk next door?"
+         },
+         {
+          "who": "B",
+          "text": "Yes, if their staff agree to accept it."
+         },
+         {
+          "who": "A",
+          "text": "I'll ask them now, then confirm the address with you."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which part introduces the difficulty with morning delivery?",
+         "options": [
+          "The statement that the office opens at noon",
+          "The request for a cake for lunch",
+          "The suggestion of the neighboring reception desk",
+          "The plan to confirm the delivery address"
+         ],
+         "answer": 0,
+         "why": "早晨送达要有人签收。Our office won’t open until noon 说明早上没人签收，这是困难，即第一项。",
+         "point": "structure"
+        },
+        {
+         "stem": "What kind of information does “What will the organizer probably do next?” require?",
+         "options": [
+          "The reason a cake was ordered",
+          "The meaning of the delivery address",
+          "The opening time of the office",
+          "The action indicated by the final plan"
+         ],
+         "answer": 3,
+         "why": "probably do next 问下一步，依据在结尾。I’ll ask them now 是先去问隔壁前台，即第四项。",
+         "point": "qtype"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'd like to try the pottery wheel during the open studio."
+         },
+         {
+          "who": "B",
+          "text": "The wheels are reserved for members. Visitors can make a bowl by hand."
+         },
+         {
+          "who": "A",
+          "text": "I was hoping to use a wheel. Can I become a member today?"
+         },
+         {
+          "who": "B",
+          "text": "Yes, but the safety introduction is tomorrow, and members must attend it first."
+         },
+         {
+          "who": "A",
+          "text": "All right. I'll make a bowl by hand today and attend tomorrow's introduction."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which information limits the membership option for today?",
+         "options": [
+          "Visitors may make a bowl by hand.",
+          "Members must first attend tomorrow’s introduction.",
+          "The visitor hoped to use a wheel.",
+          "The visitor plans to join the introduction."
+         ],
+         "answer": 1,
+         "why": "the safety introduction is tomorrow 和 members must attend it first 合起来说明今天不能用陶轮，即第二项。",
+         "point": "structure"
+        },
+        {
+         "stem": "Which question asks about an explicitly stated reason?",
+         "options": [
+          "What does the visitor’s final reply imply?",
+          "What will the visitor probably do tomorrow?",
+          "Why can’t a new member use a wheel today?",
+          "What does the visitor mean by “All right”?"
+         ],
+         "answer": 2,
+         "why": "第三项问今天不能用陶轮的原因，录音中直接说了。其余三问分别问推断、下一步和一句话的意思。",
+         "point": "qtype"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I want to record bird calls on the trail this evening."
+         },
+         {
+          "who": "B",
+          "text": "The recorder's available, but its battery won't last until dark."
+         },
+         {
+          "who": "A",
+          "text": "Could I carry a spare?"
+         },
+         {
+          "who": "B",
+          "text": "We don't have one. The observation hut has power, though."
+         },
+         {
+          "who": "A",
+          "text": "Then I'll record from the hut. I'll collect the recorder before I leave."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which part provides an alternative after the spare-battery idea fails?",
+         "options": [
+          "The statement about power in the hut",
+          "The request to record bird calls",
+          "The statement that a recorder is available",
+          "The promise to collect the recorder"
+         ],
+         "answer": 0,
+         "why": "没有备用电池之后，The observation hut has power, though 提出了替代办法，即第一项。",
+         "point": "structure"
+        },
+        {
+         "stem": "What does “What does the visitor mean by ‘Then I’ll record from the hut’?” ask for?",
+         "options": [
+          "The remaining length of the recording session",
+          "The reason the spare battery is unavailable",
+          "The location where the recorder will be collected",
+          "The meaning of the reply in the discussion"
+         ],
+         "answer": 3,
+         "why": "mean by 问一句话在对话中的意思，即第四项。Then I’ll record from the hut 表示接受去有电源的小屋录音。",
+         "point": "qtype"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

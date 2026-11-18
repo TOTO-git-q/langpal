@@ -1,0 +1,484 @@
+{
+ "id": "writing-email-register",
+ "title": "语域",
+ "goal": "能按收件人关系选择称呼、结尾和恰当的请求表达。",
+ "skill": "writing",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 写作",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "register",
+   "label": "根据收件人选择称呼和结尾"
+  },
+  {
+   "id": "request",
+   "label": "选择合乎语域的请求表达"
+  }
+ ],
+ "sources": [
+  {
+   "id": "rubric",
+   "title": "ETS：Writing Scoring Guide — Write an Email",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/writing-rubrics.pdf",
+   "used": "0–5 分每一档的描述（本课是中文转述，原文以官方为准）"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "语域取决于三点：和收件人的关系、写信的目的、请求给对方的负担。第一次写给教授或工作人员，用称谓和完整的礼貌请求。写给熟悉的同学可以直接一些，但要说清请对方做什么。"
+    },
+    {
+     "box": "Dear Professor Shah, Could you clarify the assessment criteria?\nHi Lena, Can you send me the shared notes?"
+    },
+    {
+     "p": "礼貌的请求不必写长。Could you send the receipt? 已经清楚得体。请求负担较大或场合正式时，才用 I would be grateful if 这类表达。"
+    }
+   ]
+  },
+  {
+   "id": "audience",
+   "type": "table",
+   "title": "收件人与称呼",
+   "cols": [
+    "对象",
+    "称呼与结尾",
+    "说明"
+   ],
+   "rows": [
+    [
+     "教授，已知姓氏",
+     "Dear Professor Shah, … Best regards,",
+     "第一次联系用职称加姓氏。"
+    ],
+    [
+     "博士，题目给出 Dr.",
+     "Dear Dr. Lin, … Sincerely,",
+     "题目给出什么头衔，就用什么头衔。"
+    ],
+    [
+     "工作人员，已知称谓",
+     "Dear Ms. Bell, … Best regards,",
+     "对方署名用什么称谓，回信就用什么。"
+    ],
+    [
+     "工作人员，姓名未知",
+     "Dear Records Team, … Kind regards,",
+     "不知道姓名时，称呼部门或岗位。"
+    ],
+    [
+     "熟悉的同学",
+     "Hi Lena, … Best,",
+     "熟悉的同学之间直接称呼名字。"
+    ],
+    [
+     "不熟悉的学生负责人",
+     "Hello Jordan, … Best regards,",
+     "不熟的同学也用 Hello 加名字，句子写完整。"
+    ]
+   ]
+  },
+  {
+   "id": "requests",
+   "type": "table",
+   "title": "请求的正式程度",
+   "cols": [
+    "程度",
+    "表达",
+    "用途和例句"
+   ],
+   "rows": [
+    [
+     "直接",
+     "Please + 动词原形",
+     "用于明确的日常协作。Please send the notes before lunch."
+    ],
+    [
+     "直接",
+     "Can you + 动词原形",
+     "熟悉同学间自然。Can you check the room number?"
+    ],
+    [
+     "礼貌",
+     "Could you + 动词原形",
+     "教授或工作人员常用。Could you confirm the appointment?"
+    ],
+    [
+     "礼貌",
+     "Would it be possible to + 动词原形",
+     "询问安排是否可行。Would it be possible to collect the key later?"
+    ],
+    [
+     "非常正式",
+     "I would be grateful if + 主语 + could",
+     "负担较大或正式请求。I would be grateful if you could review the appeal."
+    ],
+    [
+     "非常正式",
+     "I would appreciate it if + 主语 + could",
+     "appreciate 后面的 it 不能省。I would appreciate it if you could reconsider the decision."
+    ]
+   ]
+  },
+  {
+   "id": "consistency",
+   "type": "table",
+   "title": "语域的一致性",
+   "cols": [
+    "情况",
+    "不一致的表达",
+    "对应修改"
+   ],
+   "rows": [
+    [
+     "教授：称呼正式，正文过于随便",
+     "Dear Professor Hall, Send me that stuff.",
+     "Could you send me the survey instructions?"
+    ],
+    [
+     "同学：普通协作过度庄重",
+     "Hi Eva, I hereby submit my formal request for your pencil.",
+     "Could I borrow your pencil?"
+    ],
+    [
+     "工作人员：请求礼貌，结尾突兀",
+     "Could you check the invoice? Do it now.",
+     "Could you check the invoice today? Thank you for your help."
+    ],
+    [
+     "对象未知，称呼过分亲近",
+     "Hey buddy, please update my parking permit.",
+     "Dear Parking Team, could you update my permit?"
+    ],
+    [
+     "事实未确认，先指责对方",
+     "You ignored my request for a locker key.",
+     "I have not yet received a reply about the locker key."
+    ],
+    [
+     "有明确期限，过度含糊",
+     "Whenever, if it is not too much trouble, maybe send it.",
+     "Could you send the signed form by Friday?"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Context: This is the first message to Professor Dent about a course handbook.\nDraft: Hey Clara,\nI would be grateful if you could confirm whether the handbook is available in large print.\nBest regards,\nNoel"
+    },
+    {
+     "box": "Which change makes the greeting consistent with the relationship?\n1. Keep the first-name greeting because the request is polite.\n2. Use Dear Professor Dent while keeping the clear request.\n3. Keep the greeting and replace the request with Send it now.\n4. Address the message to Noel because that name appears in the closing."
+    },
+    {
+     "p": "情境是 first message to Professor Dent，第二项符合这一关系。正文的请求已经清楚，问题只在称呼用了名字。结尾的 Noel 是写信人，不是收件人。"
+    },
+    {
+     "p": "教授在之后的邮件里请学生称呼名字，才可以改用名字。正文的请求再礼貌，称呼也要用 Professor Dent。"
+    }
+   ]
+  },
+  {
+   "id": "check-register",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "register",
+    "request"
+   ],
+   "groups": [
+    {
+     "look": "email",
+     "text": "Context: An unfamiliar staff member signs a reply about a transit pass as Ms. Cora Bell. The student is sending proof of eligibility.\nDraft: Hi Cora, Here is the document for the pass. Best, Sam",
+     "items": [
+      {
+       "stem": "Which opening and closing best match a courteous first exchange?",
+       "options": [
+        "Dear Ms. Bell, … Best regards, Sam",
+        "Dear Sam, … Best regards, Ms. Bell",
+        "Hi Cora, … Best, Sam",
+        "Dear Ms. Cora, … Best regards, Sam"
+       ],
+       "answer": 0,
+       "why": "工作人员署名 Ms. Cora Bell，回信就用 Ms. 加姓氏，即 Dear Ms. Bell。Sam 是写信的学生，放在结尾，即第一项。",
+       "point": "register"
+      },
+      {
+       "stem": "Which revision keeps the request polite and specific?",
+       "options": [
+        "Send the proof of eligibility to me again now.",
+        "Could you confirm whether this document is sufficient?",
+        "Could you confirm that my pass has already been approved?",
+        "Thank you for confirming a pass that has already been issued."
+       ],
+       "answer": 1,
+       "why": "学生是在提交 proof of eligibility，还不知道是否符合条件。第二项礼貌地问这份文件是否够用，请求具体。",
+       "point": "request"
+      }
+     ]
+    },
+    {
+     "look": "email",
+     "text": "Context: Omar and Bea are close classmates organizing a chess ladder. Omar needs Bea to send the latest results.\nDraft: Hi Bea, Can you send me the latest results? Best, Omar",
+     "items": [
+      {
+       "stem": "Which feature fits the relationship?",
+       "options": [
+        "The closing identifies Bea as the writer.",
+        "The request treats the results as already received.",
+        "The greeting uses the classmate's first name.",
+        "The closing uses a formal Best regards."
+       ],
+       "answer": 2,
+       "why": "close classmates 是熟悉的同学，Hi Bea 用名字称呼，与这种关系相符，即第三项。",
+       "point": "register"
+      },
+      {
+       "stem": "Which alternative preserves the request without adding unnecessary formality?",
+       "options": [
+        "Could you certify that the results are correct?",
+        "I hereby request the latest results.",
+        "Would you announce that the ladder has ended?",
+        "Could you send me the current results?"
+       ],
+       "answer": 3,
+       "why": "原句请对方发送结果。第四项只把 Can you 换成同样自然的 Could you，动作没变，也没有变得更正式。",
+       "point": "request"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-requests",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "request"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The office has asked which certificate needs verification.",
+       "lead": "Could",
+       "chunks": [
+        "you",
+        "please verify",
+        "the date",
+        "on"
+       ],
+       "tail": "my certificate?",
+       "extra": [
+        "verified"
+       ],
+       "why": "Could you 后面接 please 和动词原形 verify，the date on 说明核实什么。verified 不是原形。",
+       "point": "request"
+      },
+      {
+       "stem": "A friend has the updated rehearsal roster.",
+       "lead": "Can",
+       "chunks": [
+        "you",
+        "send",
+        "me a copy",
+        "of"
+       ],
+       "tail": "the roster?",
+       "extra": [
+        "sending"
+       ],
+       "why": "Can you send 是同学间的日常请求，a copy of 后接资料名称。can 后面用原形 send。",
+       "point": "request"
+      },
+      {
+       "stem": "The department is considering a formal appeal.",
+       "lead": "I would be",
+       "chunks": [
+        "grateful",
+        "if",
+        "you could",
+        "review"
+       ],
+       "tail": "my appeal.",
+       "extra": [
+        "reviewing"
+       ],
+       "why": "I would be grateful if 引出正式请求，could 后接 review。",
+       "point": "request"
+      },
+      {
+       "stem": "A student asks a service desk to reconsider a recorded decision.",
+       "lead": "I would",
+       "chunks": [
+        "appreciate",
+        "it",
+        "if",
+        "you could reconsider"
+       ],
+       "tail": "the decision.",
+       "extra": [
+        "that"
+       ],
+       "why": "appreciate it if 是固定结构。it 是形式宾语，不能换成 that。",
+       "point": "request"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "register",
+    "request"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "email",
+       "text": "Context: A student contacts Dr. Farah Moss for the first time about joining a field-methods reading group. Dr. Moss has not invited students to use her first name.\nDraft: Hi Farah,\nCould you tell me whether the group accepts new members this term?\nBest regards,\nDina",
+       "items": [
+        {
+         "stem": "Which revision best matches the stated relationship?",
+         "options": [
+          "Use Dear Dr. Moss and keep the polite closing.",
+          "Use Dear Dina and sign the message as Dr. Moss.",
+          "Use Hi Farah and retain Best regards, Dina.",
+          "Use Dear Farah and keep the polite closing."
+         ],
+         "answer": 0,
+         "why": "first time 和 has not invited students to use her first name 说明不能用名字称呼。称呼应为 Dear Dr. Moss，即第一项。",
+         "point": "register"
+        },
+        {
+         "stem": "Which request is appropriate if the student needs a reply before registration closes on Friday?",
+         "options": [
+          "Send the reply now because new members have already registered.",
+          "Could you confirm eligibility before registration closes on Friday?",
+          "I am grateful that my registration was confirmed last Friday.",
+          "Could you confirm that I am registered before registration closes on Friday?"
+         ],
+         "answer": 1,
+         "why": "学生要问的是 whether the group accepts new members。第二项礼貌地请对方确认这一点，并写明周五的期限。",
+         "point": "request"
+        }
+       ]
+      },
+      {
+       "look": "email",
+       "text": "Context: Lee and Quinn are close classmates preparing a campus puzzle trail. They normally greet each other by first name. Lee needs Quinn to check two clue cards, not rewrite the whole trail.\nDraft: Dear Committee Chair,\nI would be profoundly indebted if you undertook a comprehensive revision of the trail.\nYours faithfully,\nLee",
+       "items": [
+        {
+         "stem": "Which greeting and closing best fit this exchange?",
+         "options": [
+          "Hi Lee, … Best, Quinn",
+          "Dear Committee Chair, … Yours faithfully, Lee",
+          "Hi Quinn, … Best, Lee",
+          "Hi Quinn, … Yours faithfully, Lee"
+         ],
+         "answer": 2,
+         "why": "normally greet each other by first name 说明用名字称呼。收件人是 Quinn，写信人是 Lee，结尾也用同学间的 Best，即第三项。",
+         "point": "register"
+        },
+        {
+         "stem": "Which request fits both the relationship and the intended action?",
+         "options": [
+          "Could you rewrite all the clues for me?",
+          "Can you confirm the whole trail is revised?",
+          "I would be grateful if you could check the two clue cards.",
+          "Can you check the two clue cards for me?"
+         ],
+         "answer": 3,
+         "why": "needs Quinn to check two clue cards, not rewrite the whole trail 规定了要做的事。第四项用同学间自然的 Can you，只请对方检查两张卡片。",
+         "point": "request"
+        }
+       ]
+      },
+      {
+       "items": [
+        {
+         "stem": "A professor is being asked to check a course description.",
+         "lead": "Could",
+         "chunks": [
+          "you",
+          "please check",
+          "the wording",
+          "of"
+         ],
+         "tail": "the course description?",
+         "extra": [
+          "checking"
+         ],
+         "why": "Could you please check 是礼貌请求，please 后面用原形 check。the wording of 说明检查什么。",
+         "point": "request"
+        },
+        {
+         "stem": "An unfamiliar administrator is being asked to review a substantial application.",
+         "lead": "I would be",
+         "chunks": [
+          "grateful",
+          "if",
+          "you could",
+          "review"
+         ],
+         "tail": "my application.",
+         "extra": [
+          "reviewed"
+         ],
+         "why": "grateful if you could review 适合较正式请求，could 后接原形。",
+         "point": "request"
+        },
+        {
+         "stem": "A message to an unknown office team ends after a clear request.",
+         "lead": "Thank",
+         "chunks": [
+          "you",
+          "for",
+          "considering",
+          "my"
+         ],
+         "tail": "request.",
+         "extra": [
+          "consider"
+         ],
+         "why": "Thank you for considering my request 适合写给不认识的部门。for 后面接动名词 considering。",
+         "point": "register"
+        },
+        {
+         "stem": "A student closes a first message to a professor who has offered guidance.",
+         "lead": "Thank",
+         "chunks": [
+          "you",
+          "for",
+          "providing",
+          "this"
+         ],
+         "tail": "guidance.",
+         "extra": [
+          "provide"
+         ],
+         "why": "Thank you for providing this guidance 语气正式，与学生和教授的关系相符。",
+         "point": "register"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

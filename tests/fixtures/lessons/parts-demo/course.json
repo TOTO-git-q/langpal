@@ -1,0 +1,70 @@
+{
+ "version": 3,
+ "id": "parts-demo",
+ "title": "分部课样本",
+ "language": "en",
+ "sections": [
+  {
+   "id": "reading",
+   "title": "阅读",
+   "venue": "reading",
+   "lessons": [
+    "reading-academic",
+    "reading-passage-fact",
+    "reading-passage-next"
+   ],
+   "parts": [
+    {
+     "title": "学术短文",
+     "lessons": [
+      "reading-passage-fact",
+      "reading-passage-next"
+     ],
+     "practice": {
+      "lesson": "reading-academic",
+      "title": "1 篇 5 题",
+      "brief": [
+       "先读题干，再回原文定位。",
+       "正确选项是原文的同义改写。"
+      ],
+      "points": {
+       "locate": "reading-passage-fact",
+       "infer": "reading-passage-next"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "writing",
+   "title": "写作",
+   "venue": "chat",
+   "lessons": [
+    "writing-email"
+   ],
+   "parts": [
+    {
+     "title": "写邮件",
+     "lessons": [],
+     "practice": {
+      "lesson": "writing-email",
+      "title": "1 篇 · 7 分钟",
+      "venue": "chat",
+      "brief": [
+       "三条要求逐条写到。"
+      ],
+      "points": {
+       "coverage": "reading-passage-next",
+       "register": "reading-passage-fact",
+       "accuracy": "reading-passage-fact"
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "titles": {
+  "reading-passage-fact": "事实信息题：定位与同义改写",
+  "reading-passage-next": "下一课"
+ }
+}

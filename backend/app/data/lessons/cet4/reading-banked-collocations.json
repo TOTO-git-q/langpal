@@ -1,0 +1,569 @@
+{
+ "id": "reading-banked-collocations",
+ "title": "选词中的固定搭配",
+ "goal": "根据常用搭配选择符合语境的候选词。",
+ "skill": "阅读",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "pair",
+   "label": "识别常用词语之间的搭配"
+  },
+  {
+   "id": "select",
+   "label": "根据搭配限制选择候选词"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "词汇理解教学依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "intro",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "搭配是经常一起使用的词语组合，如 make progress（取得进步）。选词时先看空格前后的词能否和候选词组成搭配，再核对整句的意思。"
+    }
+   ]
+  },
+  {
+   "id": "verbnoun",
+   "type": "table",
+   "title": "动词与名词",
+   "cols": [
+    "搭配",
+    "中文义",
+    "例"
+   ],
+   "rows": [
+    [
+     "make progress",
+     "取得进步",
+     "The class made progress in reading."
+    ],
+    [
+     "make a decision",
+     "作决定",
+     "The group made a decision yesterday."
+    ],
+    [
+     "take action",
+     "采取行动",
+     "Residents took action to clean the park."
+    ],
+    [
+     "take notes",
+     "记笔记",
+     "Students take notes during lectures."
+    ],
+    [
+     "reach a conclusion",
+     "得出结论",
+     "The team reached a conclusion after discussion."
+    ],
+    [
+     "solve a problem",
+     "解决问题",
+     "The new schedule solved a problem."
+    ],
+    [
+     "provide information",
+     "提供信息",
+     "The guide provides information about the museum."
+    ],
+    [
+     "conduct research",
+     "开展研究",
+     "The team conducts research on learning."
+    ],
+    [
+     "gain experience",
+     "获得经验",
+     "Volunteers gain experience through practice."
+    ],
+    [
+     "meet a need",
+     "满足需要",
+     "The service meets a local need."
+    ]
+   ]
+  },
+  {
+   "id": "adjnoun",
+   "type": "table",
+   "title": "形容词与名词",
+   "cols": [
+    "搭配",
+    "中文义",
+    "例"
+   ],
+   "rows": [
+    [
+     "public transport",
+     "公共交通",
+     "Public transport serves the town."
+    ],
+    [
+     "valuable experience",
+     "宝贵的经验",
+     "The work gave her valuable experience."
+    ],
+    [
+     "practical skills",
+     "实用技能",
+     "The course teaches practical skills."
+    ],
+    [
+     "local community",
+     "当地社区",
+     "The local community supported the project."
+    ],
+    [
+     "limited resources",
+     "有限的资源",
+     "The group works with limited resources."
+    ],
+    [
+     "strong evidence",
+     "有力的证据",
+     "The report provides strong evidence."
+    ],
+    [
+     "close attention",
+     "密切注意",
+     "The teacher paid close attention to the answer."
+    ],
+    [
+     "clear instructions",
+     "清楚的说明",
+     "The task includes clear instructions."
+    ],
+    [
+     "major change",
+     "重大变化",
+     "The schedule underwent a major change."
+    ],
+    [
+     "common goal",
+     "共同目标",
+     "The teams share a common goal."
+    ]
+   ]
+  },
+  {
+   "id": "verbprep",
+   "type": "table",
+   "title": "动词与介词",
+   "cols": [
+    "搭配",
+    "中文义",
+    "例"
+   ],
+   "rows": [
+    [
+     "depend on",
+     "依靠",
+     "Plants depend on water."
+    ],
+    [
+     "focus on",
+     "关注",
+     "The lesson focuses on reading."
+    ],
+    [
+     "belong to",
+     "属于",
+     "The books belong to the library."
+    ],
+    [
+     "participate in",
+     "参加",
+     "Students participate in the discussion."
+    ],
+    [
+     "respond to",
+     "回应",
+     "The guide responded to the question."
+    ],
+    [
+     "contribute to",
+     "促进",
+     "Practice contributes to progress."
+    ],
+    [
+     "prepare for",
+     "为……准备",
+     "The class prepared for the visit."
+    ],
+    [
+     "benefit from",
+     "从……受益",
+     "The children benefit from the program."
+    ],
+    [
+     "refer to",
+     "提及",
+     "The report refers to the survey."
+    ],
+    [
+     "result in",
+     "导致",
+     "The repair resulted in a delay."
+    ]
+   ]
+  },
+  {
+   "id": "nounprep",
+   "type": "table",
+   "title": "名词与介词",
+   "cols": [
+    "搭配",
+    "中文义",
+    "例"
+   ],
+   "rows": [
+    [
+     "access to",
+     "使用或进入的机会",
+     "The ramp provides access to the building."
+    ],
+    [
+     "reason for",
+     "……的原因",
+     "The rain was the reason for the delay."
+    ],
+    [
+     "interest in",
+     "对……的兴趣",
+     "She has an interest in history."
+    ],
+    [
+     "effect on",
+     "对……的影响",
+     "The change had an effect on travel."
+    ],
+    [
+     "solution to",
+     "……的解决办法",
+     "The team found a solution to the problem."
+    ],
+    [
+     "increase in",
+     "……的增加",
+     "The survey showed an increase in visits."
+    ],
+    [
+     "difference between",
+     "……之间的差异",
+     "The report explains the difference between the plans."
+    ],
+    [
+     "response to",
+     "对……的回应",
+     "The letter was a response to the request."
+    ],
+    [
+     "opportunity for",
+     "……的机会",
+     "The course offers an opportunity for practice."
+    ],
+    [
+     "demand for",
+     "对……的需求",
+     "The town has a demand for clean water."
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "pair",
+    "select"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Students _____ notes during the lecture.",
+       "options": [
+        "take",
+        "reach",
+        "solve",
+        "gain"
+       ],
+       "answer": 0,
+       "why": "take notes 表示记笔记。",
+       "point": "pair"
+      },
+      {
+       "stem": "The ramp gives visitors access _____ the building.",
+       "options": [
+        "on",
+        "to",
+        "in",
+        "for"
+       ],
+       "answer": 1,
+       "why": "access to 表示进入的机会。",
+       "point": "pair"
+      },
+      {
+       "stem": "Plants _____ on water to grow.",
+       "options": [
+        "refer",
+        "focus",
+        "depend",
+        "result"
+       ],
+       "answer": 2,
+       "why": "depend on 表示依靠；植物依靠水生长。",
+       "point": "select"
+      },
+      {
+       "stem": "The class discussed the problem and reached a _____.",
+       "options": [
+        "need",
+        "skill",
+        "response",
+        "conclusion"
+       ],
+       "answer": 3,
+       "why": "reach a conclusion 表示得出结论。need 与 meet 搭配，不与 reach 搭配。",
+       "point": "select"
+      },
+      {
+       "stem": "The new service meets a local _____.",
+       "options": [
+        "need",
+        "skill",
+        "change",
+        "reason"
+       ],
+       "answer": 0,
+       "why": "meet a need 表示满足需要。",
+       "point": "pair"
+      },
+      {
+       "stem": "The report focuses _____ the new schedule.",
+       "options": [
+        "in",
+        "on",
+        "to",
+        "for"
+       ],
+       "answer": 1,
+       "why": "focus on 表示关注。",
+       "point": "select"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "pair",
+    "select"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The group found a solution _____ the problem.",
+       "options": [
+        "from",
+        "in",
+        "to",
+        "on"
+       ],
+       "answer": 2,
+       "why": "solution to 表示问题的解决办法。",
+       "point": "pair"
+      },
+      {
+       "stem": "The students _____ in a discussion after reading.",
+       "options": [
+        "depended",
+        "referred",
+        "resulted",
+        "participated"
+       ],
+       "answer": 3,
+       "why": "participate in 表示参加。result in 也接 in，但表示导致，主语是事情，不是人。",
+       "point": "pair"
+      },
+      {
+       "stem": "The team will _____ research on study habits.",
+       "options": [
+        "conduct",
+        "reach",
+        "meet",
+        "take"
+       ],
+       "answer": 0,
+       "why": "conduct research 表示开展研究。",
+       "point": "select"
+      },
+      {
+       "stem": "The volunteers gained valuable _____ from the work.",
+       "options": [
+        "progress",
+        "experience",
+        "instructions",
+        "action"
+       ],
+       "answer": 1,
+       "why": "gain experience 表示获得经验，valuable experience 表示宝贵的经验。progress 与 make 搭配，不与 gain 搭配。",
+       "point": "select"
+      },
+      {
+       "stem": "The rain was the reason _____ the delay.",
+       "options": [
+        "to",
+        "on",
+        "for",
+        "in"
+       ],
+       "answer": 2,
+       "why": "reason for 表示……的原因。",
+       "point": "pair"
+      },
+      {
+       "stem": "The guide _____ information about the building.",
+       "options": [
+        "reaches",
+        "conducts",
+        "solves",
+        "provides"
+       ],
+       "answer": 3,
+       "why": "provide information 表示提供信息。",
+       "point": "select"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "pair",
+    "select"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "fill": "A class planned a visit to a museum. The teacher provided clear instru{ctions} for the trip. Students took no{tes} during the visit and later shared information. The group made prog{ress} in its research on local history. Members reached a concl{usion} after comparing their notes. They had access to useful books at the library. The project offered an oppor{tunity} for practice. It also gave them valuable exper{ience}. Their teacher paid close atte{ntion} to the final report. Students had an inte{rest} in the topic and shared a common go{al}. The local comm{unity} received a copy of the report.",
+       "tags": [
+        "pair",
+        "pair",
+        "pair",
+        "pair",
+        "pair",
+        "select",
+        "select",
+        "select",
+        "select",
+        "select"
+       ]
+      },
+      {
+       "items": [
+        {
+         "stem": "The students will _____ notes during the lecture.",
+         "options": [
+          "take",
+          "gain",
+          "reach",
+          "solve"
+         ],
+         "answer": 0,
+         "why": "take notes 表示记笔记。",
+         "point": "pair"
+        },
+        {
+         "stem": "The team reached a _____ after discussion.",
+         "options": [
+          "problem",
+          "conclusion",
+          "response",
+          "skill"
+         ],
+         "answer": 1,
+         "why": "reach a conclusion 表示得出结论。",
+         "point": "pair"
+        },
+        {
+         "stem": "The new timetable had an effect _____ travel.",
+         "options": [
+          "for",
+          "to",
+          "on",
+          "in"
+         ],
+         "answer": 2,
+         "why": "effect on 表示对……的影响。",
+         "point": "select"
+        },
+        {
+         "stem": "The students _____ in the discussion.",
+         "options": [
+          "depended",
+          "resulted",
+          "referred",
+          "participated"
+         ],
+         "answer": 3,
+         "why": "participate in 表示参加。result in 也接 in，但表示导致，主语是事情，不是人。",
+         "point": "select"
+        },
+        {
+         "stem": "The town improved its public _____.",
+         "options": [
+          "transport",
+          "evidence",
+          "attention",
+          "decision"
+         ],
+         "answer": 0,
+         "why": "public transport 表示公共交通。",
+         "point": "pair"
+        },
+        {
+         "stem": "The library gives residents access _____ books.",
+         "options": [
+          "on",
+          "to",
+          "for",
+          "in"
+         ],
+         "answer": 1,
+         "why": "access to 表示使用的机会。",
+         "point": "select"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

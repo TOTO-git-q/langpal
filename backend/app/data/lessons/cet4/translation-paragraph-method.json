@@ -1,0 +1,72 @@
+{
+ "id": "translation-paragraph-method",
+ "title": "汉译英的信息核对",
+ "goal": "能划分原文信息单位，并核对译文中的遗漏和含义变化。",
+ "skill": "翻译",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "units", "label": "划分需要保留的原文信息"},
+  {"id": "coverage", "label": "检查译文中的遗漏和含义改变"}
+ ],
+ "sources": [
+  {"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译教学所依据的大纲"}
+ ],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "信息核对以原文为依据，检查译文是否保留主体、动作、对象及其限定。词序可以改变，信息关系必须一致。"},
+   {"box": "原文：去年，居民在河边种植了树木。\n译文：Residents planted trees by the river last year."},
+   {"p": "居民是主体，种植是动作，树木是对象，去年和河边分别限定时间与地点。译文中的各项均有对应。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　划分信息", "d": "先找主体、动作和对象。再标出时间、地点与范围等限定。"},
+   {"t": "2　对应译文", "d": "逐项寻找译文中的对应表达。核对动作与对象的关系。"},
+   {"t": "3　检查差异", "d": "检查有无遗漏、增添或相反的含义。改写词序时仍须保留原文限定。"}
+  ]},
+  {"id": "units", "type": "table", "title": "信息单位", "cols": ["单位", "原文信息", "译文对应"], "rows": [
+   ["主体", "社区志愿者", "community volunteers"],
+   ["动作与对象", "整理旧照片", "sorted old photographs"],
+   ["时间", "上个月", "last month"],
+   ["地点", "在活动室", "in the community room"],
+   ["范围", "仅整理旧照片", "sorted only old photographs"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "原文：镇上的旧车站曾用于运送货物。去年，镇政府修缮了候车室，并在室内展出有关铁路的老照片。展览每周末开放，平日不开放，居民可以免费参观。"},
+   {"box": "The town repaired the waiting room last year. Old railway photographs are displayed there. The exhibition opens at weekends, and residents can visit free of charge."},
+   {"p": "译文保留了修缮时间、展品和免费条件。遗漏的是车站原来的用途和平日不开放。"},
+   {"box": "原文：村里的工坊保存着传统织布工具。工匠每年夏季向访客展示织布过程，但只有提前预约的团体才能参加体验活动。工坊还记录老工匠的技艺。\nThe workshop keeps traditional weaving tools. Craftspeople demonstrate weaving every summer. All visitors may take part in the activity. The workshop records the skills of experienced craftspeople."},
+   {"p": "All visitors 扩大了体验活动的范围。原文只允许提前预约的团体参加。"}
+  ]},
+  {"id": "errors", "type": "table", "title": "干扰项", "cols": ["情况", "原文", "译文问题"], "rows": [
+   ["遗漏时间", "今年开放", "opens：未说明今年"],
+   ["增加范围", "部分居民参加", "all residents participate：扩大范围"],
+   ["关系颠倒", "学生采访工匠", "craftspeople interview students：主体与对象颠倒"],
+   ["否定改变", "周一不开放", "opens on Monday：开放状态相反"]
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["units", "coverage"], "groups": [{"items": [
+   {"stem": "原文：去年学生在校园收集落叶。Which phrase gives the time?", "options": ["last year", "the students", "on campus", "fallen leaves"], "answer": 0, "why": "去年对应 last year，第一项表示时间。", "point": "units"},
+   {"stem": "原文：居民只在春天种花。Which translation preserves the restriction?", "options": ["Residents plant flowers every season.", "Residents plant flowers only in spring.", "Residents planted flowers before spring.", "Residents plant only trees in spring."], "answer": 1, "why": "只在春天对应 only in spring，第二项保留了时间限制。", "point": "coverage"},
+   {"stem": "原文：老师介绍了当地的植物。Which phrase identifies the object?", "options": ["the teacher", "introduced", "local plants", "the locality"], "answer": 2, "why": "被介绍的对象是当地的植物，对应第三项。", "point": "units"},
+   {"stem": "原文：团队记录了部分鸟类的声音。Which translation preserves the scope?", "options": ["The team recorded the sounds of every bird.", "Some team members recorded the sounds of birds.", "The team recorded some of the sounds of birds.", "The team recorded the sounds of some birds."], "answer": 3, "why": "原文的部分限定的是鸟类。第四项用 the sounds of some birds 保留了这一范围；第三项把部分移到了声音上。", "point": "coverage"}
+  ]}]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["units", "coverage"], "groups": [{"text": "原文：市民中心上月开放了一间阅读室。阅读室收藏地方报纸，也提供安静的学习空间。每周三，志愿者整理新收到的报纸；周日阅读室关闭。", "items": [
+   {"stem": "Which information specifies when volunteers sort the newspapers?", "options": ["Every Wednesday", "Last month", "Every Sunday", "On opening day"], "answer": 0, "why": "每周三是志愿者整理报纸的时间，对应第一项。", "point": "units"},
+   {"stem": "Which sentence reverses the Sunday information?", "options": ["The reading room is closed on Sundays.", "The reading room is open every Sunday.", "Volunteers sort newly received papers.", "The room provides a quiet study space."], "answer": 1, "why": "原文说周日关闭，第二项说周日开放，含义相反。", "point": "coverage"},
+   {"stem": "Which sentence adds a restriction absent from the original?", "options": ["Every Wednesday, volunteers sort the newly received papers.", "The room provides a quiet study space.", "Only volunteers may use the reading room.", "The reading room is closed on Sundays."], "answer": 2, "why": "原文提到志愿者整理报纸，没有限定只有志愿者使用阅读室。第三项增加了限制。", "point": "coverage"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["units", "coverage"], "sets": [{"id": "set-a", "groups": [
+   {"text": "原文：山村的集市每月举行一次，附近农户在这里出售蔬菜和手工篮子。去年，村里为集市增设了遮雨棚。雨天集市照常开放，但活动在下午结束。", "items": [
+    {"stem": "Which phrase identifies the sellers at the market?", "options": ["nearby farmers", "local customers", "village visitors", "the villagers"], "answer": 0, "why": "附近农户是出售者，对应 nearby farmers。", "point": "units"},
+    {"stem": "Which translation preserves the timing of the market?", "options": ["It is held once a week and stays open on rainy days.", "It is held once a month and stays open on rainy days.", "It is held once a month but closes on rainy days.", "It is held twice a month and stays open on rainy days."], "answer": 1, "why": "原文是每月举行一次，雨天照常开放，对应第二项。第三项把照常开放改成了关闭。", "point": "coverage"},
+    {"stem": "Which people sell at the market? Arrange the given words to identify the sellers.", "lead": "The sellers", "chunks": ["are", "the", "nearby", "farmers"], "tail": ".", "extra": ["customers"], "why": "附近农户是出售者，the nearby farmers 表示这些人。", "point": "units"},
+    {"stem": "From the given translation, copy the phrase that corresponds to 遮雨棚: The village added a rain shelter to the market last year. Answer with the complete noun phrase including its article.", "accept": ["a rain shelter"], "why": "a rain shelter 是给定译文中遮雨棚的对应表达。", "point": "units"}
+   ]},
+   {"text": "原文：海边的研究站保存了多年的海水记录。工作人员每天测量水温，每周整理一次结果。去年，该站开始向学校提供这些记录，但没有公开研究人员的姓名。", "items": [
+    {"stem": "Which information identifies what staff measure each day?", "options": ["the sea-water records of many years", "the names of researchers", "the temperature of the water", "the number of local schools"], "answer": 2, "why": "每天测量的对象是水温，对应第三项。", "point": "units"},
+    {"stem": "Which translation preserves the information about disclosure?", "options": ["The station published only the researchers' names.", "The station withheld the records from schools.", "The station published the researchers' names with the records.", "The station did not make the researchers' names public."], "answer": 3, "why": "原文说没有公开研究人员姓名，第四项保留了否定。", "point": "coverage"},
+    {"stem": "Arrange the given translation of the original action: The station / began to provide / schools with / these records. Preserve the stated recipient and object.", "chunks": ["The station", "began to provide", "schools with", "these records"], "tail": ".", "extra": ["researchers with"], "why": "原文的接受者是学校，提供的对象是记录。researchers with 改变了接受者。", "point": "coverage"},
+    {"stem": "From the given translation, copy the phrase that corresponds to 每周一次: Staff organize the results once a week. Answer with the complete time phrase.", "accept": ["once a week"], "why": "once a week 是给定译文中每周一次的对应表达。", "point": "coverage"}
+   ]}
+  ]}]}
+ ]
+}

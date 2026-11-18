@@ -1,0 +1,415 @@
+{
+ "id": "usage-grammar-relative",
+ "title": "定语从句引导词",
+ "goal": "能根据先行词及从句所缺成分选择定语从句引导词。",
+ "skill": "语言运用",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "antecedent",
+   "label": "确定先行词及从句所缺成分"
+  },
+  {
+   "id": "relative",
+   "label": "选择符合从句结构的关系词"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语课程课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "教学内容与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "定语从句修饰先行词。关系词连接先行词与从句，并在从句中充当主语、宾语、定语或状语。"
+    },
+    {
+     "box": "The person who wrote the note left. / The room where she wrote it is quiet."
+    },
+    {
+     "p": "who 指代 person，并作 wrote 的主语。where 指 room 这个地点，在从句中作地点状语。"
+    }
+   ]
+  },
+  {
+   "id": "pronouns",
+   "type": "table",
+   "title": "关系代词",
+   "cols": [
+    "关系词",
+    "成分",
+    "例句"
+   ],
+   "rows": [
+    [
+     "who、that",
+     "指人，可作主语",
+     "The guide who leads the group is Mei."
+    ],
+    [
+     "who、whom、that",
+     "指人，可作宾语",
+     "The guide whom we met is Mei."
+    ],
+    [
+     "which、that",
+     "指物，可作主语或宾语",
+     "The book that describes the bridge is new."
+    ],
+    [
+     "whose",
+     "指人或物的所属关系，后接名词",
+     "The house whose roof is red is old."
+    ],
+    [
+     "whom、which",
+     "放在介词后，指人用 whom，指物用 which",
+     "The person with whom I spoke left. / The box in which it lay was small."
+    ]
+   ],
+   "note": "关系代词在限制性从句中作宾语，可以省略，如 The guide we met is Mei。介词放在关系词前面时，关系词不能省。"
+  },
+  {
+   "id": "adverbs",
+   "type": "table",
+   "title": "关系副词",
+   "cols": [
+    "关系词",
+    "从句成分",
+    "例句"
+   ],
+   "rows": [
+    [
+     "where",
+     "指地点，作地点状语",
+     "The room where we met is quiet."
+    ],
+    [
+     "when",
+     "指时间，作时间状语",
+     "The day when we met was rainy."
+    ],
+    [
+     "why",
+     "指原因，常用于 the reason 后",
+     "The reason why she left is clear."
+    ],
+    [
+     "介词加 which",
+     "介词按先行词的搭配选择",
+     "The room in which we met is quiet."
+    ],
+    [
+     "时间与原因",
+     "限制性从句中也可用 that",
+     "The day that we met was rainy. / The reason that she left is clear."
+    ]
+   ],
+   "note": "先行词是地点或时间，也要看从句缺什么。the room which we visited 中，which 作 visited 的宾语。"
+  },
+  {
+   "id": "contrasts",
+   "type": "table",
+   "title": "辨析：先行词与成分",
+   "cols": [
+    "对照",
+    "关系词作主语或宾语",
+    "关系词作其他成分"
+   ],
+   "rows": [
+    [
+     "地点",
+     "The room that we cleaned is large.",
+     "The room where we met is large."
+    ],
+    [
+     "时间",
+     "The day that I remember was cold.",
+     "The day when we met was cold."
+    ],
+    [
+     "人",
+     "The person who called is Mei.",
+     "The person whose bag is red is Mei."
+    ],
+    [
+     "物",
+     "The book which fell is old.",
+     "The book whose cover is blue is old."
+    ],
+    [
+     "介词位置",
+     "The person whom I spoke to left.",
+     "The person to whom I spoke left."
+    ]
+   ]
+  },
+  {
+   "id": "contrasts-extra",
+   "type": "table",
+   "title": "辨析：从句结构",
+   "cols": [
+    "对照",
+    "关系词作主语或宾语",
+    "其他结构"
+   ],
+   "rows": [
+    [
+     "限制与补充",
+     "The map that we used is old.",
+     "The map, which we used yesterday, is old."
+    ],
+    [
+     "事物作主语",
+     "The shelf which holds the boxes is high.",
+     "The shelf whose paint is blue is high."
+    ],
+    [
+     "人作宾语",
+     "The artist whom we invited arrived.",
+     "The artist with whom we spoke arrived."
+    ],
+    [
+     "原因",
+     "The reason that she gave is clear.",
+     "The reason why she left is clear."
+    ],
+    [
+     "地方",
+     "The garden which we visited is large.",
+     "The garden in which we met is large."
+    ]
+   ],
+   "note": "用逗号隔开的是非限制性从句。指物时用 which，不用 that，如 The map, which is old, is useful。"
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "antecedent"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The woman ___ wrote the article is a teacher. Fill in one relative word.",
+       "accept": [
+        "who",
+        "that"
+       ],
+       "why": "先行词 woman 指人，从句缺主语，可用 who 或 that。",
+       "point": "antecedent"
+      },
+      {
+       "stem": "The article ___ she wrote is on the table. Fill in one relative word.",
+       "accept": [
+        "which",
+        "that"
+       ],
+       "why": "先行词 article 指物，从句缺宾语，可用 which 或 that。",
+       "point": "antecedent"
+      },
+      {
+       "stem": "The artist ___ paintings are here lives nearby. Fill in one relative word.",
+       "accept": [
+        "whose"
+       ],
+       "why": "paintings 属于 artist，从句缺表示所属的定语，用 whose。",
+       "point": "antecedent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "relative"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The room ___ we met has a blue door. Use a relative adverb.",
+       "accept": [
+        "where"
+       ],
+       "why": "room 表示地点，从句缺地点状语，用 where。",
+       "point": "relative"
+      },
+      {
+       "stem": "The day ___ we met was rainy. Use a relative adverb.",
+       "accept": [
+        "when"
+       ],
+       "why": "day 表示时间，从句缺时间状语，用 when。",
+       "point": "relative"
+      },
+      {
+       "stem": "The person with ___ I spoke was the guide. Fill in one relative word.",
+       "accept": [
+        "whom"
+       ],
+       "why": "介词 with 放在关系词前，指人用 whom。",
+       "point": "relative"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-three",
+   "type": "check",
+   "title": "练习三",
+   "points": [
+    "antecedent",
+    "relative"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The map, ___ was drawn in 1900, shows the old bridge. Fill in one relative word.",
+       "accept": [
+        "which"
+       ],
+       "why": "逗号后是非限制性从句，指物且作主语，用 which。",
+       "point": "relative"
+      },
+      {
+       "stem": "The reason ___ she left is clear. Use a relative adverb.",
+       "accept": [
+        "why"
+       ],
+       "why": "reason 后的从句缺原因状语，用 why。",
+       "point": "antecedent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "antecedent",
+    "relative"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "A town library has opened a room for local history. The librarian [1] organized the room collected photographs and maps from several families. The room has a table where visitors can study copies of the material. The first display includes a photograph [2] shows a busy street many years ago. Several shops appear in the photograph, and a short note identifies each one. A resident [3] grandfather owned one of the shops helped the librarian write the note. The library also keeps a notebook for information from visitors. One page records the date [4] the first public meeting was held in the building. Another page explains the reason [5] the building was moved to its present site. It had previously stood near a road that was being widened. Visitors may add details if they know more about the places shown. The librarian reads these comments and checks them against other records before adding them to a display. The library plans to change the selection of photographs regularly. This will allow more families to share material from their collections. Anyone who lends an original item receives it back after the library has made a copy. Copies remain available for people who cannot visit during the display.",
+       "items": [
+        {
+         "stem": "The librarian ___ organized the room collected photographs. Fill in one relative word.",
+         "accept": [
+          "who",
+          "that"
+         ],
+         "why": "librarian 指人，从句缺主语，可用 who 或 that。",
+         "point": "antecedent"
+        },
+        {
+         "stem": "The display includes a photograph ___ shows a busy street. Fill in one relative word.",
+         "accept": [
+          "which",
+          "that"
+         ],
+         "why": "photograph 指物，从句缺主语，可用 which 或 that。",
+         "point": "antecedent"
+        },
+        {
+         "stem": "A resident ___ grandfather owned a shop helped write the note. Fill in one relative word.",
+         "accept": [
+          "whose"
+         ],
+         "why": "grandfather 与 resident 是所属关系，whose 作定语。",
+         "point": "antecedent"
+        },
+        {
+         "stem": "One page records the date ___ the first meeting was held. Use a relative adverb.",
+         "accept": [
+          "when"
+         ],
+         "why": "date 表示时间，从句缺时间状语，用 when。",
+         "point": "relative"
+        },
+        {
+         "stem": "Another page explains the reason ___ the building was moved. Use a relative adverb.",
+         "accept": [
+          "why"
+         ],
+         "why": "reason 后的从句缺原因状语，用 why。",
+         "point": "relative"
+        }
+       ]
+      },
+      {
+       "text": "A craft center offers a course in making baskets. The teacher begins by showing the class a basket [1] she made from long strips of material. She explains how the strips cross and how the base supports the sides. The room [2] the class meets has several wide tables. Each table has enough space for two students to work together. A student [3] hands are tired may take a short break before continuing. The teacher walks between the tables and answers questions. One student has brought a picture of a basket from home. The picture, [4] was drawn by the student's aunt, shows a different arrangement of strips. The teacher asks the class to compare its pattern with the example on the table. At the end of the session, the students place their unfinished work on a shelf. The shelf on [5] the baskets rest is marked with the class name. This makes it easier to find the work at the next meeting. The teacher keeps extra strips in a box beside the shelf. Students can use them if a strip breaks while they are working. The finished baskets will be displayed in the entrance hall for a week.",
+       "items": [
+        {
+         "stem": "The teacher shows the class a basket ___ she made from long strips. Fill in one relative word.",
+         "accept": [
+          "which",
+          "that"
+         ],
+         "why": "basket 指物，从句中 made 缺宾语，可用 which 或 that。",
+         "point": "antecedent"
+        },
+        {
+         "stem": "The room ___ the class meets has several wide tables. Use a relative adverb.",
+         "accept": [
+          "where"
+         ],
+         "why": "room 表示地点，从句缺地点状语，用 where。",
+         "point": "relative"
+        },
+        {
+         "stem": "A student ___ hands are tired may take a break. Fill in one relative word.",
+         "accept": [
+          "whose"
+         ],
+         "why": "hands 属于 student，whose 作定语。",
+         "point": "antecedent"
+        },
+        {
+         "stem": "The picture, ___ was drawn by the student's aunt, shows a different pattern. Fill in one relative word.",
+         "accept": [
+          "which"
+         ],
+         "why": "逗号后是非限制性从句，指物且作主语，用 which。",
+         "point": "relative"
+        },
+        {
+         "stem": "The shelf on ___ the baskets rest is marked with the class name. Fill in one relative word.",
+         "accept": [
+          "which"
+         ],
+         "why": "介词 on 放在关系词前，先行词 shelf 指物，用 which。",
+         "point": "relative"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,358 @@
+{
+ "id": "usage-grammar-perfect",
+ "title": "谓语动词的完成时",
+ "goal": "能根据参照时间和动作先后选择完成时谓语。",
+ "skill": "语言运用",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "reference",
+   "label": "确定完成动作所对应的参照时间"
+  },
+  {
+   "id": "form",
+   "label": "按先后关系填出完成时谓语"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语课程课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "教学内容与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "用完成时先找参照时间。完成时表示参照时间之前已经完成的动作，或一直延续到参照时间的状态。现在完成时的参照是现在，过去完成时的参照是过去某个时间。"
+    },
+    {
+     "box": "The train has left. / The train had left before we reached the station."
+    },
+    {
+     "p": "第一句说火车已经离开，与现在有关。第二句的参照是过去的到站，火车在到站之前就离开了。"
+    }
+   ]
+  },
+  {
+   "id": "present",
+   "type": "table",
+   "title": "现在完成时",
+   "cols": [
+    "情况",
+    "形式或线索",
+    "例句"
+   ],
+   "rows": [
+    [
+     "过去动作与现在有关",
+     "has 或 have 加过去分词",
+     "Lena has lost her key, so she cannot open the door."
+    ],
+    [
+     "从过去延续至今",
+     "since 加起点",
+     "Lena has lived here since 2020."
+    ],
+    [
+     "截至现在的结果",
+     "so far 表示到目前为止",
+     "So far, Lena has collected twelve postcards."
+    ],
+    [
+     "主语与助动词",
+     "第三人称单数用 has，其余用 have",
+     "Lena has left. / Her friends have left."
+    ]
+   ],
+   "note": "句中有 yesterday 这类表示过去的时间，用一般过去时，如 Lena lost her key yesterday。"
+  },
+  {
+   "id": "past",
+   "type": "table",
+   "title": "过去完成时",
+   "cols": [
+    "情况",
+    "形式或线索",
+    "例句"
+   ],
+   "rows": [
+    [
+     "过去的参照事件之前",
+     "had 加过去分词",
+     "The film had begun before we entered."
+    ],
+    [
+     "以过去事件为截止点",
+     "by the time 加一般过去时",
+     "By the time we arrived, the film had begun."
+    ],
+    [
+     "过去某时前已完成",
+     "by 加过去时间",
+     "By noon, the chef had prepared the soup."
+    ],
+    [
+     "延续到过去某时的状态",
+     "since 引出过去的起点",
+     "When the school closed in 2020, Mei had taught there since 2015."
+    ]
+   ]
+  },
+  {
+   "id": "contrast",
+   "type": "table",
+   "title": "辨析",
+   "cols": [
+    "参照",
+    "形式",
+    "例句"
+   ],
+   "rows": [
+    [
+     "现在",
+     "has 或 have 加过去分词",
+     "The painter has finished the door; it is dry now."
+    ],
+    [
+     "过去",
+     "had 加过去分词",
+     "The painter had finished the door before the guests arrived."
+    ],
+    [
+     "过去某时发生",
+     "一般过去时",
+     "The painter finished the door yesterday."
+    ],
+    [
+     "时间起点与截止点",
+     "since 引出起点，by the time 引出截止事件",
+     "She has worked here since May. / She had left by the time I arrived."
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "reference",
+    "form"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The artist (paint) three pictures so far this week. The week is still in progress.",
+       "accept": [
+        "has painted"
+       ],
+       "why": "so far 以现在为截止点，单数主语用 has painted。",
+       "point": "reference"
+      },
+      {
+       "stem": "The artists (paint) three pictures so far this week. The week is still in progress.",
+       "accept": [
+        "have painted"
+       ],
+       "why": "so far 指截至现在，复数主语用 have painted。",
+       "point": "form"
+      },
+      {
+       "stem": "The artist (live) here since 2020 and still lives here. Use the present perfect simple.",
+       "accept": [
+        "has lived"
+       ],
+       "why": "since 2020 表示延续到现在的起点，单数主语用 has lived。",
+       "point": "reference"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "reference",
+    "form"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "By the time the visitors arrived yesterday, the artist (finish) the picture. Use the past perfect.",
+       "accept": [
+        "had finished"
+       ],
+       "why": "画完发生在过去的 arrived 之前，用 had finished。",
+       "point": "reference"
+      },
+      {
+       "stem": "The artist (leave) before the guests arrived yesterday. Use the past perfect.",
+       "accept": [
+        "had left"
+       ],
+       "why": "离开发生在客人到达之前，leave 的过去分词是 left。",
+       "point": "form"
+      },
+      {
+       "stem": "By noon yesterday, the artists (make) five prints. Use the past perfect.",
+       "accept": [
+        "had made"
+       ],
+       "why": "by noon yesterday 以过去的中午为截止点，make 的过去分词是 made。",
+       "point": "form"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-three",
+   "type": "check",
+   "title": "练习三",
+   "points": [
+    "reference",
+    "form"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The artist (find) the missing brush, so it is on the table now. Use the present perfect.",
+       "accept": [
+        "has found"
+       ],
+       "why": "找到画笔的结果与现在有关，单数主语用 has found。",
+       "point": "reference"
+      },
+      {
+       "stem": "When the guests arrived yesterday, the artist (put) the brushes away already. Use the past perfect.",
+       "accept": [
+        "had put"
+       ],
+       "why": "收好画笔发生在客人到达之前。put 的过去分词还是 put。",
+       "point": "form"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "reference",
+    "form"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "A neighborhood group collects seeds for a shared garden. It began the project several years ago and still meets every month. Since 2021, the group [1] records of the seeds it receives. The records help members plan which plants to grow in each season. So far this year, the group [2] seeds from twelve local gardens. Members check the packets and write the date on each one. The group also keeps a list of plants that grow well in the area. Last spring, a member offered the group some empty wooden boxes. By the time the boxes arrived, another member [3] a place for them in the shed. The group put the seed packets inside and added clear labels. Before the first planting day began, the members [4] the packets into separate groups. This made it easier to give each visitor a selection. The project leader is pleased because the group [5] more families this year than in any previous year, and the year is still in progress. The members will discuss the next planting day at their next meeting. They hope that visitors will return some seeds after the plants have grown.",
+       "items": [
+        {
+         "stem": "Since 2021, the group (keep) records and still keeps them. Use the present perfect simple.",
+         "accept": [
+          "has kept"
+         ],
+         "why": "Since 2021 引出延续到现在的起点，单数主语用 has kept。",
+         "point": "reference"
+        },
+        {
+         "stem": "So far this year, the group (receive) seeds from twelve local gardens.",
+         "accept": [
+          "has received"
+         ],
+         "why": "So far this year 以现在为截止点，单数主语用 has received。",
+         "point": "form"
+        },
+        {
+         "stem": "By the time the boxes arrived last spring, another member (prepare) a place for them. Use the past perfect.",
+         "accept": [
+          "had prepared"
+         ],
+         "why": "准备好地方发生在箱子到达之前，用 had prepared。",
+         "point": "reference"
+        },
+        {
+         "stem": "Before the first planting day began last spring, the members (divide) the packets. Use the past perfect.",
+         "accept": [
+          "had divided"
+         ],
+         "why": "分装种子发生在种植日开始之前，用 had divided。",
+         "point": "form"
+        },
+        {
+         "stem": "The group (welcome) more families this year than in any previous year. The year is still in progress; use the present perfect.",
+         "accept": [
+          "has welcomed"
+         ],
+         "why": "this year 还没有结束，单数主语用 has welcomed。",
+         "point": "form"
+        }
+       ]
+      },
+      {
+       "text": "A town museum is preparing a collection of recorded stories. It asks residents to describe places that matter to them. Since the project began, the curator [1] each recording in a separate digital folder. The curator also writes a short description so that the staff can locate a story later. So far, the museum [2] twenty interviews. The staff expect to collect more before the exhibition opens. Last month, a retired baker offered to describe his old shop. By the time the interviewer reached his home, he [3] several photographs of the shop on the table. He used them to explain where he had worked. Before the interview started, the interviewer [4] the recording equipment, so the conversation could begin without delay. The baker described the layout of the room and the work he did each morning. The museum now has a copy of his photographs as well as the recording. It [5] permission from him to use both in the exhibition. The staff plan to place short written descriptions beside the listening stations. Visitors will be able to choose a story and listen to it through headphones. The original files will remain in the museum's storage system.",
+       "items": [
+        {
+         "stem": "Since the project began, the curator (store) each recording in a separate folder. The practice continues; use the present perfect simple.",
+         "accept": [
+          "has stored"
+         ],
+         "why": "Since 引出延续到现在的起点，单数主语用 has stored。",
+         "point": "reference"
+        },
+        {
+         "stem": "So far, the museum (collect) twenty interviews.",
+         "accept": [
+          "has collected"
+         ],
+         "why": "So far 以现在为截止点，单数主语用 has collected。",
+         "point": "form"
+        },
+        {
+         "stem": "By the time the interviewer reached his home last month, the baker (place) several photographs on the table. Use the past perfect.",
+         "accept": [
+          "had placed"
+         ],
+         "why": "摆好照片发生在采访者到达之前，用 had placed。",
+         "point": "reference"
+        },
+        {
+         "stem": "Before the interview started last month, the interviewer (test) the equipment. Use the past perfect.",
+         "accept": [
+          "had tested"
+         ],
+         "why": "测试设备发生在采访开始之前，用 had tested。",
+         "point": "form"
+        },
+        {
+         "stem": "The museum (obtain) permission to use the photographs, so it can use them now. Use the present perfect.",
+         "accept": [
+          "has obtained"
+         ],
+         "why": "获得许可的结果与现在的使用有关，用 has obtained。",
+         "point": "reference"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

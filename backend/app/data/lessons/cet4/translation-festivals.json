@@ -1,0 +1,82 @@
+{
+ "id": "translation-festivals", "title": "节日与传统习俗词汇", "goal": "能选用节日习俗词汇，并核对译文中的活动和寓意。", "skill": "翻译", "exam": "大学英语四级（CET-4）", "mastery": "once",
+ "points": [{"id": "vocab", "label": "选用节日习俗的常用词"}, {"id": "meaning", "label": "判断译文是否准确表达活动和寓意"}],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译教学所依据的大纲"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "节日介绍常涉及日期、活动和寓意。译文应区分活动的参与者、活动内容和习俗所表达的意义。"}, {"box": "原文：家人在节日期间团聚，共同分享食物。\n译文：Family members reunite during the festival and share food."}, {"p": "family members 是团聚和分享食物的主体。reunite 表示重新团聚。"}]},
+  {"id": "time", "type": "table", "title": "词汇表：节日时间", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["festival", "n.", "节日", "The festival takes place in spring."],
+   ["holiday", "n.", "假日", "Families visit relatives during the holiday."],
+   ["lunar", "adj.", "阴历的", "The lunar calendar gives the date."],
+   ["calendar", "n.", "日历", "The calendar marks the festival date."],
+   ["date", "n.", "日期", "The date changes from year to year."],
+   ["season", "n.", "季节", "The event welcomes a new season."],
+   ["spring", "n.", "春季", "Flowers appear in spring."],
+   ["autumn", "n.", "秋季", "The gathering takes place in autumn."],
+   ["year", "n.", "年", "The family meets every year."],
+   ["month", "n.", "月", "The festival falls in that month."],
+   ["day", "n.", "日", "The celebration lasts one day."],
+   ["eve", "n.", "前夕", "The family meets on the eve of the holiday."],
+   ["annual", "adj.", "每年的", "The annual event brings neighbors together."],
+   ["traditional", "adj.", "传统的", "A traditional celebration marks the date."]
+  ]},
+  {"id": "activities", "type": "table", "title": "词汇表：庆祝活动", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["celebrate", "v.", "庆祝", "Families celebrate the festival together."],
+   ["gather", "v.", "聚集", "Neighbors gather in the square."],
+   ["reunite", "v.", "团聚", "Relatives reunite at the family home."],
+   ["reunion", "n.", "团聚", "The meal is a family reunion."],
+   ["relative", "n.", "亲属", "A relative joins the meal."],
+   ["visit", "v.", "探访", "Families visit relatives."],
+   ["share", "v.", "分享", "Neighbors share food."],
+   ["prepare", "v.", "准备", "The family prepares a meal."],
+   ["meal", "n.", "一餐", "The meal brings relatives together."],
+   ["decorate", "v.", "装饰", "Residents decorate the hall."],
+   ["lantern", "n.", "灯笼", "A lantern hangs near the door."],
+   ["display", "v.", "展示", "Artists display paper decorations."],
+   ["perform", "v.", "表演", "The group performs a dance."],
+   ["dance", "n.", "舞蹈", "The dance is part of the event."],
+   ["participate", "v.", "参加", "Residents participate in the celebration."]
+  ]},
+  {"id": "meaning", "type": "table", "title": "词汇表：传统寓意", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["symbolize", "v.", "象征", "The circle symbolizes unity."],
+   ["symbol", "n.", "象征", "The circle is a symbol of unity."],
+   ["represent", "v.", "代表", "The image represents a wish."],
+   ["meaning", "n.", "含义", "The guide explains the meaning."],
+   ["significance", "n.", "意义", "Residents discuss the significance of the custom."],
+   ["custom", "n.", "习俗", "The custom brings neighbors together."],
+   ["tradition", "n.", "传统", "The tradition continues in the village."],
+   ["wish", "n.", "愿望", "The message expresses a wish for peace."],
+   ["hope", "n.", "希望", "The gift expresses hope for the future."],
+   ["unity", "n.", "团结", "The design symbolizes unity."],
+   ["connection", "n.", "联系", "The meal expresses a connection between relatives."],
+   ["happiness", "n.", "幸福", "The greeting expresses a wish for happiness."],
+   ["peace", "n.", "平安", "The message expresses a wish for peace."],
+   ["respect", "n.", "敬意", "The visit expresses respect for elders."],
+   ["gratitude", "n.", "感激", "The gift expresses gratitude."],
+   ["honor", "v.", "纪念；尊敬", "The event honors the community's elders."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "原文：节日期间，一些家庭会在家中团聚，共同准备一顿饭。亲属们围坐在一起分享食物，也向长辈表达敬意。对这些家庭而言，这顿饭体现了家庭成员之间的联系。不同家庭的庆祝方式可能有所不同。\n译文：During the festival, some families reunite at home and prepare a meal together. Relatives sit together and share food. They also express respect for their elders. For these families, the meal represents the bonds between family members. Celebrations may differ among families."},
+   {"p": "some families 是团聚和准备饭菜的主体。relatives 分享食物，并向长辈表达敬意。"},
+   {"p": "represents 对应体现，bonds 对应联系。可能有所不同译为 may differ，保留了原文的可能。"}
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["vocab", "meaning"], "groups": [{"fill": "The village holds a celebration each autumn. Residents cele{brate} the fest{ival} in a shared hall, where family members have a reu{nion} and rela{tives} gat{her} for a meal. They deco{rate} the hall with lant{erns}. The gathering is a trad{ition} that brings neighbors together. A round design symbo{lizes} unity, and a greeting expresses a wish for happ{iness}. These meanings are explained by the hosts to guests who have not attended before.", "tags": ["vocab", "vocab", "vocab", "vocab", "meaning", "vocab", "vocab", "vocab", "meaning", "meaning"], "notes": ["celebrate：庆祝节日。", "festival：庆祝活动对应节日。", "reunion：家庭成员团聚。", "relatives：亲属聚集用餐。", "gather：亲属聚集。", "decorate：用灯笼装饰大厅。", "lanterns：悬挂的灯笼。", "tradition：每年的聚会是一项传统。", "symbolizes：圆形图案象征团结。", "happiness：祝词表达幸福的愿望。"]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["vocab", "meaning"], "groups": [{"text": "原文：节日期间，居民在广场上布置灯笼。孩子们展示自己制作的纸饰，长辈讲述这些装饰的寓意。居民认为，这些活动为邻里提供了相聚的机会，也表达了对平安生活的希望。", "items": [
+   {"stem": "Who puts the lanterns in the square?", "options": ["The residents of the area", "The elders of the area", "The children of the area", "The children and the elders"], "answer": 0, "why": "原文说居民在广场上布置灯笼，对应第一项。孩子们展示的是纸饰，不是灯笼。", "point": "meaning"},
+   {"stem": "What do the children display?", "options": ["Lanterns the residents set up", "Paper decorations they made", "Decorations made by the elders", "Lanterns that they made"], "answer": 1, "why": "原文说孩子们展示自己制作的纸饰，对应第二项。灯笼是居民布置的，不是孩子做的。", "point": "meaning"},
+   {"stem": "Which phrase translates 装饰的寓意 in the description?", "options": ["the display of the decorations", "the makers of the decorations", "the meaning of the decorations", "the making of the decorations"], "answer": 2, "why": "寓意指装饰所表达的意思，meaning 表示含义或寓意，对应第三项。", "point": "vocab"},
+   {"stem": "Which wish do the activities express?", "options": ["A wish for respect toward the elders", "A wish for the children's skill", "A wish to keep the lanterns lit", "A wish for a safe and peaceful life"], "answer": 3, "why": "原文说活动表达了对平安生活的希望，对应第四项。", "point": "meaning"},
+   {"stem": "Which phrase expresses 邻里相聚?", "options": ["neighbors gather together", "neighbors set up lanterns", "neighbors explain the customs", "neighbors display decorations"], "answer": 0, "why": "相聚即聚在一起，gather together 表示聚集，对应第一项。", "point": "vocab"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 8, "pass": 0.75, "points": ["vocab", "meaning"], "sets": [{"id": "set-a", "groups": [
+   {"fill": "The family meets each year for a special meal. The fest{ival} gives rela{tives} a chance to reu{nite}, and they gat{her} at the family home. Together they pre{pare} food and sh{are} it around the table. This trad{ition} has a special mea{ning} for them: it expresses their conne{ction} with one another. A greeting offers a wish for pe{ace}. The family keeps the celebration simple so that everyone has time to talk.", "tags": ["vocab", "vocab", "vocab", "meaning", "vocab", "meaning", "vocab", "meaning", "meaning", "meaning"]},
+   {"text": "原文：在一次社区庆祝活动中，居民一起制作纸灯笼，并将灯笼挂在公共大厅。孩子们向来宾介绍图案的含义。居民用圆形图案表达团结的愿望，也通过共同准备活动增进邻里之间的联系。", "items": [
+    {"stem": "Who makes the paper lanterns?", "options": ["Residents working together", "Visitors working together", "Children visiting the hall", "Guests explaining the designs"], "answer": 0, "why": "原文说居民一起制作纸灯笼。", "point": "meaning"},
+    {"stem": "Which phrase translates 纸灯笼?", "options": ["a lantern hung in the hall", "a lantern made of paper", "a paper with round designs", "a round lantern design"], "answer": 1, "why": "纸灯笼是用纸做的灯笼，lantern made of paper 对应第二项。第一项说的是灯笼挂的位置。", "point": "vocab"},
+    {"stem": "What do the children explain to guests?", "options": ["How the residents make lanterns", "Where the lanterns are hung", "The meaning of the designs", "How the event was prepared"], "answer": 2, "why": "原文说孩子们向来宾介绍图案的含义，对应第三项。", "point": "meaning"},
+    {"stem": "Which wish is expressed by the round design?", "options": ["A wish for more guests in the hall", "A wish for children to learn the crafts", "A wish to hang lanterns in the hall", "A wish for unity among the residents"], "answer": 3, "why": "原文说居民用圆形图案表达团结的愿望，对应第四项。", "point": "meaning"},
+    {"stem": "Which phrase translates 团结的愿望 in this passage?", "options": ["a wish for unity", "a symbol of unity", "a wish for connection", "a unity of wishes"], "answer": 0, "why": "愿望是 wish，团结是 unity，a wish for unity 对应第一项。第二项是象征，不是愿望。", "point": "vocab"}
+   ]}
+  ]}]}
+ ]
+}

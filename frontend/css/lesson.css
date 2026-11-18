@@ -1,0 +1,211 @@
+/* 分项课的卡片（js/lesson-cards.js）。卡片排在聊天的时间线里：白纸、紫边、标题一条紫带；看过的收成一条标题。 */
+.jm-card { align-self: stretch; flex: none; margin: 10px 0; border: var(--bw) solid var(--jm-ink); background: var(--paper); color: #2b2442;
+  font: 15px/1.8 var(--font-text); image-rendering: auto; user-select: text; }
+.jm-card > summary { padding: 6px 16px; background: var(--jm-ink); color: var(--on-dark); font-weight: 700; font-size: 15px; list-style: none; cursor: pointer; }
+.jm-card > summary::-webkit-details-marker { display: none; }
+.jm-card:not([open]) > summary { background: var(--paper); color: var(--jm-ink); }
+.jm-card:not([open]) > summary::after { content: '＋'; float: right; }
+.lc-body { padding: 10px 18px 14px; }
+.lc-body p { margin: 8px 0; }
+.lc-body ul, .lc-body ol { margin: 8px 0; padding-left: 22px; }
+.lc-body [lang="en"] { font-family: Georgia, 'Times New Roman', serif; }
+.lc-body small { display: block; color: var(--muted); font-size: 12px; }
+.lc-intro, .lc-prompt { font-weight: 700; }
+.lc-foot, .lc-criteria, .lc-about { color: var(--muted); font-size: 13px; }
+.lc-foot { border-top: 1px dashed var(--line-soft); padding-top: 8px; }
+
+.lc-row { display: grid; grid-template-columns: 8.5em 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line-soft); }
+.lc-row b, .lc-bone b, .lc-sheet h4, .lc-example h4 { color: var(--jm-ink); }
+.lc-level { display: grid; grid-template-columns: 34px 1fr; gap: 12px; padding: 9px 0; border-bottom: 1px solid var(--line-soft); }
+.lc-score, .lc-timer { display: inline-flex; align-items: center; justify-content: center; min-width: 28px; height: 28px; padding: 0 6px;
+  background: var(--muted); color: var(--on-dark); font: 700 15px/1 Consolas, monospace; }
+.lc-score.s5 { background: var(--ok); } .lc-score.s4 { background: #4f9a3a; } .lc-score.s3 { background: #b07a10; }
+.lc-score.s2 { background: var(--rust); } .lc-score.s1 { background: #8a3b2a; }
+.lc-timer { background: var(--jm-ink); } .lc-timer.low { background: var(--rust); }
+.lc-take { margin: 12px 0 0; padding: 8px 14px; background: var(--panel); border-left: 4px solid var(--jm-ink); }
+.lc-take p { margin: 2px 0 0; }
+ol.lc-steps { list-style: none; padding: 0; }
+.lc-steps li { margin-bottom: 8px; padding: 8px 0 8px 14px; border-left: 4px solid var(--jm-ink); background: var(--panel); }
+.lc-steps li p { margin: 2px 0 0; }
+.lc-bone { display: grid; grid-template-columns: 7em 1fr; gap: 12px; padding: 7px 10px; border: 1px solid var(--line-soft); border-top: 0; }
+.lc-bone:first-child { border-top: 1px solid var(--line-soft); }
+.lc-bone p { margin: 0; } .lc-bone .eg { color: var(--muted); }
+.lc-compare { margin: 10px 0; border: 1px solid var(--line-soft); }
+.lc-compare p { margin: 0; padding: 7px 12px; }
+.lc-compare .thin { background: #fbeee9; text-decoration: line-through; text-decoration-color: var(--rust); }
+.lc-compare .full { background: #eaf6ee; }
+.lc-compare .why { font-size: 13.5px; }
+.lc-tablewrap { overflow-x: auto; }
+.lc-body table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.lc-body th, .lc-body td { padding: 6px 9px; border: 1px solid var(--line-soft); vertical-align: top; text-align: left; }
+.lc-body th { background: var(--panel); color: var(--jm-ink); white-space: nowrap; }
+.lc-task { margin: 10px 0; padding: 10px 14px; border: 1px solid #2b2442; background: #fafafa; white-space: pre-wrap; }
+.lc-task p { white-space: normal; }
+.lc-task-head { color: var(--muted); font: 13px/1.6 Consolas, monospace; }
+.lc-response { margin-top: 18px; padding-top: 14px; border-top: 2px solid var(--line-soft); }
+.lc-rhead { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+.lc-letter { margin: 10px 0; padding: 12px 16px; border: 1px solid var(--line-soft); background: #fffdf7; white-space: pre-wrap; }
+.lc-letter mark { background: none; color: inherit; }
+.lc-letter mark.good { box-shadow: inset 0 -0.55em #cfead8; }
+.lc-letter mark.bad { box-shadow: inset 0 -0.55em #f6d5c9; }
+.lc-letter mark sup { margin-left: 1px; color: var(--jm-ink); font: 700 11px/1 Consolas, monospace; }
+.lc-notes { font-size: 14px; }
+.lc-notes li.good::marker { color: var(--ok); font-weight: 700; }
+.lc-notes li.bad::marker { color: var(--rust); font-weight: 700; }
+.lc-comment { padding: 8px 14px; background: var(--panel); }
+.lc-fold { margin: 6px 0; }
+.lc-fold > summary { color: var(--jm-ink); font-size: 13.5px; cursor: pointer; }
+
+/* 练习：一题一个输入框 */
+.lc-items li { margin-bottom: 12px; }
+.lc-q { margin: 0 0 4px; }
+.lc-body textarea { display: block; width: 100%; padding: 6px 10px; border: var(--bw) solid var(--jm-ink); background: var(--paper); color: inherit; font: 15px/1.7 var(--font-text); resize: vertical; }
+.lc-body textarea[readonly] { border-color: var(--line-soft); background: #fafafa; }
+.jm-card button.lc-go { min-height: 28px; margin-top: 6px; padding: 0 14px; border: var(--bw) solid var(--jm-ink); background: var(--jm-ink); color: var(--on-dark); font-size: var(--fs-ui); font-weight: 700; }
+.jm-card button.lc-go:hover { background: #3a18a8; }
+.jm-card button.lc-go:disabled { opacity: .55; }
+.jm-card button.lc-next { display: block; margin: 14px 0 0 auto; }
+.lc-check p { margin: 6px 0 0; }
+.lc-check .ok b { color: var(--ok); } .lc-check .no b { color: var(--rust); }
+.lc-check .fix { padding: 6px 12px; background: #eaf6ee; }
+
+/* 限时写作 */
+.lc-begin { display: block; margin: 12px 0 0; }
+.lc-essay { font-family: Georgia, 'Times New Roman', serif !important; font-size: 16px !important; }
+.lc-writing-foot { display: flex; align-items: center; gap: 12px; margin-top: 6px; }
+.lc-count { color: var(--muted); font: 13px/1 Consolas, monospace; }
+.lc-notice { flex: 1; color: var(--rust); font-size: 13px; }
+
+/* 批改单 */
+.lc-sheet { margin-top: 12px; padding: 2px 16px 12px; border: var(--bw) dashed var(--jm-ink); }
+.lc-sheet h4, .lc-example h4 { margin: 14px 0 4px; font-size: 15px; }
+.lc-mark .from { color: var(--rust); } .lc-mark .to { color: var(--ok); }
+.lc-verdict { font-weight: 700; white-space: nowrap; }
+.lc-verdict.thin { color: #b07a10; } .lc-verdict.missing { color: var(--rust); } .lc-verdict.done { color: var(--ok); }
+.lc-sheet q, .lc-example q { quotes: '“' '”'; }
+
+/* 上课条：顶栏下面一条 */
+.jm-lesson { position: relative; z-index: 2; flex: none; background: var(--paper); border-bottom: var(--bw) solid var(--jm-ink); }
+.jm-lesson[hidden] { display: none; }
+.jm-lesson-head { display: flex; align-items: center; gap: var(--gap-2); width: min(100%, var(--jm-col)); margin: 0 auto; padding: 5px 18px; }
+.jm-lesson-head strong { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--jm-ink); font: 700 13px/20px var(--font-text); }
+.jm-lesson-head button { flex: none; min-height: 22px; padding: 0 8px; border: 1px solid var(--jm-ink); background: var(--paper); color: var(--jm-ink); font-size: var(--fs-s); }
+.jm-lesson-head button:hover { background: var(--panel); }
+.lc-post { margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--line-soft); }
+.lc-post p { margin: 2px 0 0; }
+
+/* 客观题：题组 */
+.lc-group { margin-top: 16px; padding-top: 12px; border-top: 2px solid var(--line-soft); }
+.lc-group:first-child, .lc-intro + .lc-group, .lc-rhead + .lc-quiz .lc-group:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
+.lc-label { margin: 0 0 6px; color: var(--muted); font-size: 13.5px; font-style: italic; }
+.lc-stim { margin: 6px 0 12px; padding: 12px 16px; border: 1px solid #2b2442; background: #fafafa; }
+.lc-stim p { margin: 0 0 8px; } .lc-stim p:last-child { margin-bottom: 0; }
+.lc-stim .head { font-weight: 700; }
+.lc-stim.notice { border-width: 2px; } .lc-stim.notice .head { text-align: center; }
+.lc-stim.email .head { padding-bottom: 6px; border-bottom: 1px solid var(--line-soft); font: 13px/1.6 Consolas, monospace; color: var(--muted); }
+.lc-stim.messages { border-radius: 14px; background: #f3f0fb; border-color: var(--line-soft); }
+.lc-stim.messages b { color: var(--jm-ink); font-family: var(--font-text); }
+.lc-stim.post { border-radius: 10px; border-color: var(--line-soft); }
+.lc-stim.passage .head { font-size: 16px; }
+.lc-fill { line-height: 2.3 !important; }
+.lc-body input.lc-gap { display: inline-block; min-height: 0; height: 1.7em; margin: 0 1px 0 0; padding: 0 2px; border: 0; border-bottom: var(--bw) solid var(--jm-ink); border-radius: 0; background: var(--panel);
+  color: inherit; font: inherit; letter-spacing: .08em; }
+.lc-body input.lc-gap:focus { outline: 2px solid var(--jm-ink); outline-offset: 1px; }
+.lc-body input.lc-gap.ok { border-bottom-color: var(--ok); background: #eaf6ee; }
+.lc-body input.lc-gap.no { border-bottom-color: var(--rust); background: #fbeee9; text-decoration: line-through; }
+.lc-right { margin: 0 4px 0 2px; color: var(--ok); }
+.lc-gapnotes { font-size: 14px; }
+.lc-gapnotes li.ok { color: var(--muted); } .lc-gapnotes li.no::marker { color: var(--rust); font-weight: 700; }
+.lc-mc { margin: 12px 0 0; }
+.lc-stem { margin: 0 0 6px !important; font-weight: 700; }
+.lc-options { display: grid; gap: 4px; }
+.jm-card button.lc-option { display: block; width: 100%; min-height: 32px; padding: 4px 12px; border: 1px solid var(--line-soft); background: var(--paper); color: inherit; font-size: 15px; font-weight: 400; text-align: left; white-space: normal; }
+.jm-card button.lc-option:hover:not(:disabled) { background: var(--panel); }
+.jm-card button.lc-option[aria-pressed="true"] { border-color: var(--jm-ink); box-shadow: inset 4px 0 0 var(--jm-ink); }
+.jm-card button.lc-option.right { border-color: var(--ok); background: #eaf6ee; box-shadow: inset 4px 0 0 var(--ok); }
+.jm-card button.lc-option.wrong { border-color: var(--rust); background: #fbeee9; box-shadow: inset 4px 0 0 var(--rust); }
+.jm-card button.lc-option:disabled { opacity: 1; cursor: default; }
+.lc-why { margin: 6px 0 0 !important; padding: 0 12px; color: #2b2442; font-size: 14px; }
+.lc-why:empty { display: none; }
+.lc-pass { padding: 0 8px; color: var(--on-dark); font-size: var(--fs-s); font-weight: 700; }
+.lc-pass.yes { background: var(--ok); } .lc-pass.no { background: var(--rust); }
+
+/* 录音 */
+.lc-audio { display: flex; align-items: center; gap: 12px; margin: 0 0 10px; }
+.jm-card button.lc-play { margin-top: 0; min-width: 96px; }
+.lc-script p { margin: 4px 0; } .lc-script b { color: var(--jm-ink); font-family: var(--font-text); }
+.lc-again { display: flex; justify-content: flex-end; align-items: center; gap: 10px; margin-top: 14px; }
+.lc-blank-row { display: flex; align-items: center; gap: 10px; margin: 2px 0 4px; }
+.lc-body input.lc-answer { flex: 0 1 280px; min-height: 32px; padding: 4px 10px; border: 1px solid var(--line-soft); border-bottom: var(--bw) solid var(--jm-ink); border-radius: 0; background: var(--panel); font-size: 15px; }
+.lc-body input.lc-answer:focus { outline: 2px solid var(--jm-ink); outline-offset: 1px; }
+.lc-body input.lc-answer.ok { border-bottom-color: var(--ok); background: #eaf6ee; }
+.lc-body input.lc-answer.no { border-bottom-color: var(--rust); background: #fbeee9; text-decoration: line-through; }
+.lc-bank { margin: 8px 0 12px; padding: 8px 12px 8px 34px; border: 1px solid var(--line-soft); background: var(--paper); columns: 2; column-gap: 28px; list-style: upper-alpha; font-size: 15px; }
+.lc-bank li { break-inside: avoid; padding: 1px 0; }
+.lc-pick .lc-blank-row { justify-content: space-between; }
+.lc-pick .lc-stem { margin: 0; }
+.lc-body select.lc-select { flex: 0 0 auto; max-width: 60%; min-height: 32px; padding: 2px 8px; border: 1px solid var(--line-soft); border-bottom: var(--bw) solid var(--jm-ink); border-radius: 0; background: var(--panel); font-size: 15px; }
+.lc-body select.lc-select.ok { border-bottom-color: var(--ok); background: #eaf6ee; }
+.lc-body select.lc-select.no { border-bottom-color: var(--rust); background: #fbeee9; }
+.lc-order-line { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; min-height: 40px; margin: 4px 0 8px; padding: 6px 10px; border: 1px solid var(--line-soft); border-bottom: var(--bw) solid var(--jm-ink); background: var(--panel); font-size: 16px; }
+.lc-order-line.ok { border-bottom-color: var(--ok); background: #eaf6ee; }
+.lc-order-line.no { border-bottom-color: var(--rust); background: #fbeee9; }
+.lc-order-spot { display: contents; }
+.lc-order-gap { display: inline-block; width: 46px; height: 1.5em; border-bottom: 2px dotted var(--line-soft); }
+.lc-order-pool { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 6px; }
+.jm-card button.lc-chip { min-height: 30px; padding: 2px 10px; border: 1px solid var(--jm-ink); background: var(--paper); color: inherit; font-size: 15px; font-weight: 400; }
+.jm-card button.lc-chip.on { background: var(--panel); border-style: dashed; }
+.jm-card button.lc-chip:disabled { opacity: 1; cursor: default; }
+.lc-order-right { margin: 0 0 4px; color: var(--ok); font-size: 15px; }
+.course-page { --jm-ink: #4d23cf; background: var(--paper); font-family: var(--font-text); }
+.cp-catalog, .cp-lesson { width: min(100%, 880px); margin: 0 auto; padding: 28px 24px 64px; }
+.cp-catalog[hidden], .cp-lesson[hidden] { display: none; }
+.cp-head { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 18px; }
+.course-page select.cp-course { min-height: 34px; max-width: 60%; padding: 0 10px; border: var(--bw) solid var(--jm-ink); border-radius: 0; background: var(--paper); font: 700 15px/1.2 var(--font-text); color: inherit; }
+.cp-sections { display: flex; gap: 0; border-bottom: var(--bw) solid var(--jm-ink); }
+.course-page .cp-sections button { display: flex; align-items: baseline; gap: 8px; min-height: 38px; padding: 0 18px; border: var(--bw) solid transparent; border-bottom: 0; background: none; color: inherit; font: 700 16px/1.2 var(--font-text); cursor: pointer; }
+.course-page .cp-sections button[aria-pressed="true"] { border-color: var(--jm-ink); background: var(--jm-ink); color: var(--on-dark, #fff); }
+.cp-sections small { font: 400 12px/1 Consolas, monospace; opacity: .8; }
+.cp-courses { margin-top: 8px; }
+.cp-head h1 { margin: 0; font: 700 22px/1.3 var(--font-text); }
+.cp-count { margin: 6px 0 0; color: var(--muted); font-size: 13px; }
+.cp-languages { display: flex; gap: 4px; }
+.cp-section { margin: 34px 0 0; padding-bottom: 6px; border-bottom: var(--bw) solid var(--jm-ink); color: var(--jm-ink); font: 700 17px/1.3 var(--font-text); }
+.cp-part { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin: 20px 0 2px; }
+.cp-part h3 { margin: 0; font: 700 14px/1.4 var(--font-text); }
+.course-page button.cp-practise { min-height: 28px; padding: 0 12px; font-size: 13px; white-space: nowrap; }
+.cp-list { margin: 0; padding: 0; list-style: none; }
+.cp-list li { border-bottom: 1px solid var(--line-soft); }
+.course-page button.cp-row { display: flex; align-items: baseline; gap: 14px; width: 100%; min-height: 0; padding: 9px 4px; border: 0; background: none; color: inherit; font: 400 15px/1.5 var(--font-text); text-align: left; cursor: pointer; }
+.course-page button.cp-row:hover:not(:disabled) { background: var(--panel); }
+.course-page button.cp-row:disabled { color: var(--muted); cursor: default; opacity: 1; }
+.cp-number { flex: none; color: var(--muted); font: 12px/1 Consolas, monospace; }
+.cp-title { flex: 1; min-width: 0; }
+.cp-status { flex: none; color: var(--muted); font-size: 12px; }
+.cp-status[data-status="known"] { color: var(--ok); }
+.cp-status[data-status="learning"] { color: var(--jm-ink); }
+.cp-empty { padding: 80px 0; text-align: center; color: var(--muted); }
+.course-page button.cp-primary { min-height: 38px; padding: 0 20px; border: var(--bw) solid var(--jm-ink); background: var(--jm-ink); color: var(--on-dark, #fff); font-weight: 700; }
+.cp-top { display: flex; align-items: center; gap: 14px; margin-bottom: 18px; }
+.course-page button.cp-back { min-height: 28px; padding: 0 12px; font-size: 13px; }
+.cp-crumb { color: var(--muted); font-size: 13px; }
+.cp-intro h1 { margin: 0; font: 700 24px/1.35 var(--font-text); }
+.cp-goal { margin: 8px 0 0; color: #4a4360; font-size: 15px; line-height: 1.7; }
+.cp-brief { margin-top: 16px; padding: 14px 18px; border: 1px solid var(--line-soft); background: var(--panel); }
+.cp-brief h2, .cp-missed h2 { margin: 0 0 6px; font: 700 14px/1.4 var(--font-text); }
+.cp-brief ul { margin: 0; padding-left: 20px; font-size: 14px; line-height: 1.75; }
+.cp-links { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin: 10px 0 0; font-size: 13px; color: var(--muted); }
+.course-page button.cp-link, .cp-brief button.cp-link { min-height: 0; padding: 0; border: 0; border-bottom: 1px solid currentColor; background: none; color: var(--jm-ink); font: 400 13px/1.5 var(--font-text); cursor: pointer; }
+.course-page button.cp-link:disabled, .cp-brief button.cp-link:disabled { color: var(--muted); border-bottom-color: transparent; cursor: default; opacity: 1; }
+.cp-body { margin-top: 10px; }
+/* 整节课一页：卡片不折叠，标题就是这一节的小标题 */
+.cp-body > .jm-card { margin: 26px 0 0; border: 0; background: none; }
+.cp-body > .jm-card > summary { padding: 0 0 6px; border-bottom: 1px solid var(--line-soft); background: none; color: var(--jm-ink); font: 700 18px/1.4 var(--font-text); pointer-events: none; }
+.cp-body > .jm-card > .lc-body { padding: 12px 0 0; }
+.cp-body > .jm-card.lc-quiz, .cp-body > .jm-card.lc-write { margin-top: 36px; padding: 0 18px 18px; border: var(--bw) solid var(--jm-ink); background: var(--paper); }
+.cp-body > .jm-card.lc-quiz > summary, .cp-body > .jm-card.lc-write > summary { margin: 0 -18px; padding: 8px 18px; border: 0; background: var(--jm-ink); color: var(--on-dark, #fff); font-size: 15px; }
+.cp-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 24px; }
+.cp-missed { flex: 1 1 100%; padding: 14px 18px; border: 1px solid var(--line-soft); background: var(--panel); }
+.cp-missed p { display: flex; align-items: baseline; gap: 12px; margin: 4px 0 0; }
+.cp-miss-count { color: var(--rust); font-size: 12px; }
+.cp-practice .cp-body > .jm-card > .lc-body > .lc-intro { display: none; }

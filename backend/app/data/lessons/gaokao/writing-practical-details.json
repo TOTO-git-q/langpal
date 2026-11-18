@@ -1,0 +1,52 @@
+{
+ "id": "writing-practical-details", "title": "内容要点的具体展开", "goal": "能用相关的具体信息展开内容要点。", "skill": "写作", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "develop", "label": "为内容要点补入相关的具体信息"}, {"id": "relevance", "label": "判断扩展内容与任务的关联"}],
+ "sources": [{"id": "syyllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "内容要点展开的范围和知识点"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "内容要点先写清事项，再根据交际目的补充必要细节。时间、地点、原因和例子都能使信息具体。补充的细节要服务于所写事项。"}, {"box": "The meeting will take place. → The meeting will take place at 3 p.m. on Tuesday."}, {"p": "第二句补充了会议时间。任务要求说明地点时，还要写出具体地点。"}]},
+  {"id": "time-place", "type": "table", "title": "时间与地点", "cols": ["细节", "空泛句", "具体句"], "rows": [
+   ["时间", "The workshop is soon.", "The workshop is on Friday afternoon."],
+   ["时间", "Please reply early.", "Please reply by next Monday."],
+   ["地点", "The display is at school.", "The display is in the school library."],
+   ["地点", "We will meet nearby.", "We will meet at the museum entrance."]
+  ]},
+  {"id": "reason-example", "type": "table", "title": "原因与例子", "cols": ["细节", "空泛句", "具体句"], "rows": [
+   ["原因", "The path is closed.", "The path is closed because workers are repairing it."],
+   ["原因", "I suggest a map.", "I suggest a map because it will help visitors find the hall."],
+   ["例子", "Bring a useful item.", "Bring a useful item, such as a reusable water bottle."],
+   ["例子", "The club offers activities.", "The club offers activities such as weekly drawing sessions."]
+  ]},
+  {"id": "relevance", "type": "table", "title": "细节与目的", "cols": ["要求", "相关细节", "无关扩展"], "rows": [
+   ["告知集合地点", "Meet at the south gate.", "The south gate was painted last year."],
+   ["解释改期原因", "The room is needed for a meeting.", "The room has several windows."],
+   ["说明回复期限", "Please reply by Tuesday.", "The activity was planned on Tuesday."],
+   ["举例说明展品", "The display includes old maps.", "The display is open in May."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "假定李华邀请同学参加学校画展，需要说明地点。\nDraft: The exhibition will take place at school.\nWhich revision supplies the required detail?\n1. The exhibition will take place in the school library.\n2. The exhibition will include several paintings.\n3. The exhibition will take place next Saturday.\n4. The exhibition was planned by the art club."},
+   {"p": "任务要求说明地点。第一项把 at school 写成 in the school library，回应了这一要求。第二项讲展品，第三项讲日期，都不是地点。"}
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["develop", "relevance"], "groups": [
+   {"text": "假定李华写信邀请同学参加读书会，需要告知时间。", "items": [{"stem": "Which sentence gives the required detail?", "options": ["The reading group meets at four on Friday.", "The reading group meets in the library.", "The reading group welcomes new members.", "The reading group discusses short stories."], "answer": 0, "why": "at four on Friday 给出读书会的时间。", "point": "develop"}]},
+   {"text": "假定李华说明演出改期的原因。", "items": [{"stem": "Which detail directly explains the change?", "options": ["The performance has several short songs.", "The hall is being repaired this week.", "The performers met in the hall yesterday.", "The new performance date is Friday."], "answer": 1, "why": "任务要求说明改期原因。第二项说礼堂本周在维修，演出只能改期，直接说明了原因。", "point": "relevance"}]},
+   {"text": "假定李华介绍校园展览，要求举一个展品的例子。", "items": [{"stem": "Which sentence supplies an example?", "options": ["The exhibition is open next week.", "The exhibition is in the main hall.", "The exhibition includes old postcards.", "The exhibition is arranged by students."], "answer": 2, "why": "old postcards 是展品的具体例子。", "point": "develop"}]},
+   {"text": "假定李华写通知，要求说明书籍捐赠地点。", "items": [{"stem": "Which detail serves that requirement?", "options": ["The books are useful for young readers.", "The books were donated by students.", "The collection ends on Thursday.", "The collection box is outside Room 6."], "answer": 3, "why": "outside Room 6 说明捐赠地点。", "point": "relevance"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["develop", "relevance"], "groups": [{"items": [
+   {"stem": "A notice gives the place for a club meeting.", "lead": "The meeting", "chunks": ["will be", "held", "in", "the music"], "tail": "room.", "extra": ["holding"], "why": "will be held 表示活动举行，in the music room 给出地点。", "point": "develop"},
+   {"stem": "A letter explains why a visit must be postponed.", "lead": "The visit", "chunks": ["must be", "postponed", "because", "the museum is"], "tail": "closed.", "extra": ["although"], "why": "because 引出延期的原因，closed 说明博物馆目前关闭。", "point": "relevance"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["develop", "relevance"], "sets": [{"id": "set-a", "groups": [
+   {"text": "假定李华邀请同学参加学校陶艺活动，需告知开始时间。", "items": [{"stem": "Which sentence gives a specific time?", "options": ["The session starts at ten on Saturday.", "The session takes place at school.", "The session includes clay modeling.", "The session welcomes all students."], "answer": 0, "why": "at ten on Saturday 补充了活动开始时间。", "point": "develop"}]},
+   {"text": "假定李华建议同学参观植物园以学习本地植物知识，需要解释原因。", "items": [{"stem": "Which detail supports the stated learning purpose?", "options": ["The garden is open for visitors on Saturday afternoon.", "The garden has labeled local plants to study.", "The garden is beside the railway station.", "The garden was visited by another class."], "answer": 1, "why": "参观的目的是学习本地植物知识。第二项说园内的本地植物带有标签，可供学习，直接支持这一目的。", "point": "relevance"}]},
+   {"text": "假定李华介绍艺术社团，需要举例说明活动内容。", "items": [{"stem": "Which detail provides an activity example?", "options": ["The club is in the north building.", "The club meets every Wednesday.", "The club holds weekly sketching sessions.", "The club welcomes all new members."], "answer": 2, "why": "weekly sketching sessions 是社团活动的例子。", "point": "develop"}]},
+   {"text": "假定李华通知同学领取活动证书，要求明确领取地点。", "items": [{"stem": "Which detail directly meets the requirement?", "options": ["The certificates record participation.", "The certificates were printed on Monday.", "The certificates are ready this week.", "The certificates are at the reception desk."], "answer": 3, "why": "at the reception desk 交代证书领取地点。", "point": "relevance"}]},
+   {"items": [
+    {"stem": "A message gives the deadline for signing up.", "lead": "Please", "chunks": ["sign up", "by", "this", "coming"], "tail": "Friday.", "extra": ["signed"], "why": "sign up 提出报名要求，by this coming Friday 给出截止时间。", "point": "develop"},
+    {"stem": "A letter explains why the meeting must move.", "lead": "The meeting", "chunks": ["must move", "because", "the usual room", "is being"], "tail": "repaired.", "extra": ["although"], "why": "because 从句说明原会议室正在维修，直接解释变更原因。", "point": "relevance"},
+    {"stem": "A notice states the location of a film screening.", "lead": "The screening", "chunks": ["will take", "place", "in", "the lecture"], "tail": "hall.", "extra": ["taking"], "why": "will take place 表示举行，in the lecture hall 补充地点。", "point": "develop"},
+    {"stem": "A message gives a reason to bring a bottle on a walk.", "lead": "Please", "chunks": ["bring", "a bottle", "because", "the walk is"], "tail": "long.", "extra": ["although"], "why": "because the walk is long 为携带水瓶提供相关原因。", "point": "relevance"}
+   ]}
+  ]}]} 
+ ]
+}

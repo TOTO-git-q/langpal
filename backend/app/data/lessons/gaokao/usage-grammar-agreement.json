@@ -1,0 +1,375 @@
+{
+ "id": "usage-grammar-agreement",
+ "title": "主谓一致",
+ "goal": "能根据主语中心词及主语结构确定谓语的单复数。",
+ "skill": "语言运用",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "head",
+   "label": "找出决定谓语单复数的主语中心词"
+  },
+  {
+   "id": "agreement",
+   "label": "按主语结构选择一致的谓语形式"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语课程课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "教学内容与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "谓语的单复数与主语一致。主语包含介词短语时，决定谓语形式的是主语的中心词，而非介词后面的名词。"
+    },
+    {
+     "box": "The box of tools is heavy. / The boxes of tools are heavy."
+    },
+    {
+     "p": "第一句的中心词 box 是单数，第二句的中心词 boxes 是复数。介词短语 of tools 修饰中心词。"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "type": "table",
+   "title": "主语结构",
+   "cols": [
+    "结构",
+    "谓语",
+    "例句"
+   ],
+   "rows": [
+    [
+     "名词加介词短语",
+     "与中心名词的数一致",
+     "The cover of the books is blue."
+    ],
+    [
+     "动名词短语作主语",
+     "通常用单数",
+     "Collecting old maps takes patience."
+    ],
+    [
+     "each、every 加单数名词",
+     "用单数",
+     "Each student has a card. / Every student has a card."
+    ],
+    [
+     "either、neither 单独作主语",
+     "正式书面语中通常用单数",
+     "Neither of the answers is correct."
+    ],
+    [
+     "either … or、neither … nor",
+     "与靠近谓语的主语一致",
+     "Either the teacher or the students are ready."
+    ],
+    [
+     "there be",
+     "与后面的名词短语一致",
+     "There is a book on the desk. / There are books on the desk."
+    ]
+   ]
+  },
+  {
+   "id": "heads",
+   "type": "table",
+   "title": "中心词与介词短语",
+   "cols": [
+    "情况",
+    "单数中心词",
+    "复数中心词"
+   ],
+   "rows": [
+    [
+     "清单与物品",
+     "The list of tools is on the wall.",
+     "The lists of tools are on the wall."
+    ],
+    [
+     "盒子与图画",
+     "The box of pictures is under the desk.",
+     "The boxes of pictures are under the desk."
+    ],
+    [
+     "封面与书",
+     "The cover of the books is blue.",
+     "The covers of the book are blue."
+    ],
+    [
+     "钥匙与房间",
+     "The key to the rooms is missing.",
+     "The keys to the room are missing."
+    ],
+    [
+     "画作与画家",
+     "The painting by the artists is large.",
+     "The paintings by the artist are large."
+    ]
+   ]
+  },
+  {
+   "id": "structures",
+   "type": "table",
+   "title": "主语结构的对照",
+   "cols": [
+    "情况",
+    "单数谓语",
+    "复数谓语"
+   ],
+   "rows": [
+    [
+     "动名词与名词",
+     "Collecting stamps takes time.",
+     "The stamps take up space."
+    ],
+    [
+     "each 与复数主语",
+     "Each of the students has a card.",
+     "The students have cards."
+    ],
+    [
+     "every 与复数主语",
+     "Every member of the teams is ready.",
+     "The members of the team are ready."
+    ],
+    [
+     "either 与并列主语",
+     "Either the students or the teacher is ready.",
+     "Either the teacher or the students are ready."
+    ],
+    [
+     "there be",
+     "There is a basket of apples on the table.",
+     "There are baskets of apples on the table."
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "head"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The label on the jars (be) yellow. Use the present tense.",
+       "accept": [
+        "is"
+       ],
+       "why": "主语中心词 label 是单数，on the jars 是修饰语。",
+       "point": "head"
+      },
+      {
+       "stem": "The labels on the jar (be) yellow. Use the present tense.",
+       "accept": [
+        "are"
+       ],
+       "why": "主语中心词 labels 是复数，on the jar 是修饰语。",
+       "point": "head"
+      },
+      {
+       "stem": "A collection of stamps (belong) to the club.",
+       "accept": [
+        "belongs"
+       ],
+       "why": "中心词 collection 是单数，谓语用 belongs。",
+       "point": "head"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "agreement"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Reading old letters (take) patience.",
+       "accept": [
+        "takes"
+       ],
+       "why": "动名词短语作主语，谓语通常用单数。",
+       "point": "agreement"
+      },
+      {
+       "stem": "Each of the students (have) a map.",
+       "accept": [
+        "has"
+       ],
+       "why": "each 作主语时用单数谓语。",
+       "point": "agreement"
+      },
+      {
+       "stem": "Neither the students nor the teacher (be) absent today. Use the present tense.",
+       "accept": [
+        "is"
+       ],
+       "why": "neither … nor 连接主语时，谓语与邻近的 teacher 一致。",
+       "point": "agreement"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-three",
+   "type": "check",
+   "title": "练习三",
+   "points": [
+    "head",
+    "agreement"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "There (be) several boxes of paper in the room. Use the present tense.",
+       "accept": [
+        "are"
+       ],
+       "why": "there be 结构的主语 several boxes 是复数。",
+       "point": "agreement"
+      },
+      {
+       "stem": "The color of the boxes (match) the door.",
+       "accept": [
+        "matches"
+       ],
+       "why": "中心词 color 是单数，of the boxes 修饰 color。",
+       "point": "head"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "head",
+    "agreement"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "A local reading room has a collection of maps. The collection includes plans of streets, parks, and public buildings. The cover of the oldest maps [1] a short description of the town. The maps are kept in a cabinet near the entrance. Each of the drawers [2] a label with a date. A volunteer shows visitors how to handle the larger sheets. Unfolding these maps [3] care because some of the paper is thin. Visitors use a wide table rather than holding a map in the air. The table has weights that can hold the corners down without damaging them. There [4] several photographs of the town beside the cabinet. They show some of the same streets at different times. The photographs help visitors compare the images with the plans. Neither the maps nor the photograph [5] available to take home. Copies can be requested at the desk instead. The volunteer records each request and explains when the copy will be ready. The reading room also has a notebook for suggestions. Visitors often write down the names of places that they would like to find on future visits. The staff check the notebook at the end of the week.",
+       "items": [
+        {
+         "stem": "The cover of the oldest maps (have) a short description.",
+         "accept": [
+          "has"
+         ],
+         "why": "主语中心词 cover 是单数，用 has。",
+         "point": "head"
+        },
+        {
+         "stem": "Each of the drawers (have) a label with a date.",
+         "accept": [
+          "has"
+         ],
+         "why": "each 作主语，用单数谓语 has。",
+         "point": "agreement"
+        },
+        {
+         "stem": "Unfolding these maps (require) care.",
+         "accept": [
+          "requires"
+         ],
+         "why": "动名词短语作主语，用单数谓语 requires。",
+         "point": "agreement"
+        },
+        {
+         "stem": "There (be) several photographs of the town beside the cabinet. Use the present tense.",
+         "accept": [
+          "are"
+         ],
+         "why": "there be 后的主语 several photographs 是复数。",
+         "point": "agreement"
+        },
+        {
+         "stem": "Neither the maps nor the photograph (be) available to take home. Use the present tense.",
+         "accept": [
+          "is"
+         ],
+         "why": "neither … nor 后的谓语与邻近的单数主语 photograph 一致。",
+         "point": "agreement"
+        }
+       ]
+      },
+      {
+       "text": "A youth club runs a weekly cooking session. Its recipes are written on cards and kept in a cupboard. The box of recipe cards [1] on the top shelf. The cards are sorted by the type of dish. Every member of the groups [2] a simple task before cooking begins. Some wash vegetables, while others measure ingredients. The leader checks the list before the groups start. The handles of the large pan [3] cool enough to touch when the pan is not in use. After cooking, the students wait for hot equipment to cool before putting it away. There [4] a set of clean cloths beside the sink. These are used for drying the tables and the equipment. Either the leader or the students [5] the cupboard at the end of each session. The arrangement depends on who finishes cleaning first. The club keeps a notebook in which participants can suggest recipes. At the next meeting, the leader reads the suggestions and discusses the ingredients with the group. A suitable recipe needs to fit the available time and equipment. Once the group has chosen a recipe, a member writes it on a new card for the cupboard.",
+       "items": [
+        {
+         "stem": "The box of recipe cards (be) on the top shelf. Use the present tense.",
+         "accept": [
+          "is"
+         ],
+         "why": "主语中心词 box 是单数，用 is。",
+         "point": "head"
+        },
+        {
+         "stem": "Every member of the groups (have) a simple task.",
+         "accept": [
+          "has"
+         ],
+         "why": "every 修饰单数名词 member，谓语用 has。",
+         "point": "agreement"
+        },
+        {
+         "stem": "The handles of the large pan (be) cool when the pan is not in use. Use the present tense.",
+         "accept": [
+          "are"
+         ],
+         "why": "主语中心词 handles 是复数，用 are。",
+         "point": "head"
+        },
+        {
+         "stem": "There (be) a set of clean cloths beside the sink. Use the present tense.",
+         "accept": [
+          "is"
+         ],
+         "why": "there be 后的主语中心词 set 是单数。",
+         "point": "head"
+        },
+        {
+         "stem": "Either the leader or the students (lock) the cupboard at the end of each session.",
+         "accept": [
+          "lock"
+         ],
+         "why": "either … or 连接主语时，谓语与邻近的复数主语 students 一致。",
+         "point": "agreement"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

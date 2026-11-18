@@ -1,0 +1,415 @@
+{
+ "id": "usage-grammar-participle",
+ "title": "非谓语动词的分词",
+ "goal": "能确定分词的逻辑主语并根据动作关系选择分词形式。",
+ "skill": "语言运用",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "subject",
+   "label": "确定分词对应的逻辑主语"
+  },
+  {
+   "id": "form",
+   "label": "依据主动被动关系选择分词形式"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语课程课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "教学内容与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "现在分词表示主动，过去分词表示被动或完成。分词可作定语、状语或宾语补足语。"
+    },
+    {
+     "box": "The girl carrying a box entered. / The box carried by the girl was heavy."
+    },
+    {
+     "p": "girl 执行 carry，box 承受 carry。分词作状语时，它的逻辑主语就是句子的主语。"
+    }
+   ]
+  },
+  {
+   "id": "positions",
+   "type": "table",
+   "title": "分词的句法功能",
+   "cols": [
+    "功能",
+    "逻辑关系",
+    "例句"
+   ],
+   "rows": [
+    [
+     "定语",
+     "被修饰名词执行动作",
+     "The person standing by the gate is Mei."
+    ],
+    [
+     "定语",
+     "被修饰名词承受已完成的动作",
+     "The gate painted yesterday is green."
+    ],
+    [
+     "状语",
+     "句子主语执行动作",
+     "Walking home, Mei saw a bird."
+    ],
+    [
+     "状语",
+     "句子主语承受动作",
+     "Built of stone, the bridge is strong."
+    ],
+    [
+     "宾语补足语",
+     "宾语执行正在进行的动作",
+     "Mei saw a child drawing a bird."
+    ],
+    [
+     "宾语补足语",
+     "宾语承受动作",
+     "Mei found the door locked."
+    ]
+   ],
+   "note": "被动动作正在进行，用 being done，如 the gate being painted now。被动动作已经完成，用过去分词，如 painted。"
+  },
+  {
+   "id": "modifiers",
+   "type": "table",
+   "title": "辨析：定语与补足语",
+   "cols": [
+    "对象",
+    "主动或进行",
+    "被动或完成"
+   ],
+   "rows": [
+    [
+     "画家与画",
+     "The artist painting a wall is Mei.",
+     "The wall painted by Mei is blue."
+    ],
+    [
+     "修理者与自行车",
+     "The worker repairing the bicycle is Bo.",
+     "The bicycle repaired by Bo is ready."
+    ],
+    [
+     "读者与信",
+     "I saw Mei reading a letter.",
+     "I found the letter opened."
+    ],
+    [
+     "清洁者与窗",
+     "I watched Bo cleaning the window.",
+     "I found the window cleaned."
+    ],
+    [
+     "正在刷漆与已经刷漆",
+     "The wall being painted now is blue.",
+     "The wall painted yesterday is blue."
+    ]
+   ]
+  },
+  {
+   "id": "subject",
+   "type": "table",
+   "title": "辨析：分词的逻辑主语",
+   "cols": [
+    "关系",
+    "正确句",
+    "错误句"
+   ],
+   "rows": [
+    [
+     "人看地图",
+     "Looking at the map, Mei found the route.",
+     "Looking at the map, the route was clear."
+    ],
+    [
+     "人打开盒子",
+     "Opening the box, Bo found a note.",
+     "Opening the box, a note appeared."
+    ],
+    [
+     "人走过桥",
+     "Walking across the bridge, Mei saw a boat.",
+     "Walking across the bridge, a boat came into view."
+    ],
+    [
+     "人整理照片",
+     "Sorting the photos, Bo found an old picture.",
+     "Sorting the photos, an old picture appeared."
+    ],
+    [
+     "人抬起包",
+     "Lifting the bag, Mei noticed a label.",
+     "Lifting the bag, a label became visible."
+    ]
+   ],
+   "note": "错误句的主句主语不是分词动作的执行者。改法有两种：换成执行动作的人作主语，或把分词短语改成完整的从句。"
+  },
+  {
+   "id": "subject-passive",
+   "type": "table",
+   "title": "辨析：受事主语",
+   "cols": [
+    "关系",
+    "正确句",
+    "错误句"
+   ],
+   "rows": [
+    [
+     "门被刷漆",
+     "Painted yesterday, the door is dry now.",
+     "Painted yesterday, the worker saw the door."
+    ],
+    [
+     "信被寄出",
+     "Sent on Monday, the letter arrived on Friday.",
+     "Sent on Monday, Mei received the letter on Friday."
+    ],
+    [
+     "钟被修理",
+     "Repaired by Bo, the clock works again.",
+     "Repaired by Bo, the owner uses the clock."
+    ],
+    [
+     "杯子被装满",
+     "Filled with water, the cup stood on the table.",
+     "Filled with water, Mei placed the cup on the table."
+    ],
+    [
+     "图画被展示",
+     "Displayed in the hall, the picture attracted visitors.",
+     "Displayed in the hall, the visitors admired the picture."
+    ]
+   ],
+   "note": "错误句的主句主语不是分词动作的承受者。改法有两种：换成承受动作的事物作主语，或把分词短语改成完整的从句。"
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "subject"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "(Walk) along the path, the guide noticed a sign. The guide was walking.",
+       "accept": [
+        "Walking"
+       ],
+       "why": "guide 是 walk 的逻辑主语，执行动作。",
+       "point": "subject"
+      },
+      {
+       "stem": "(Build) by local workers, the shelter opened last year. Use a past participle.",
+       "accept": [
+        "Built"
+       ],
+       "why": "主句主语 shelter 承受 build 的动作，用过去分词 Built。",
+       "point": "subject"
+      },
+      {
+       "stem": "(Read) the letter, Mei noticed the date. Mei was reading.",
+       "accept": [
+        "Reading"
+       ],
+       "why": "Mei 是 read 的逻辑主语，执行动作。",
+       "point": "subject"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "form"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The basket (make) by Bo yesterday is on the table. Use a past participle.",
+       "accept": [
+        "made"
+       ],
+       "why": "basket 承受已完成的制作动作，make 的过去分词是 made。",
+       "point": "form"
+      },
+      {
+       "stem": "The person (carry) the basket is Bo. The action is in progress.",
+       "accept": [
+        "carrying"
+       ],
+       "why": "person 执行正在进行的 carry 动作，用 carrying。",
+       "point": "form"
+      },
+      {
+       "stem": "Mei saw Bo (repair) the basket. The repair was in progress. Use a present participle.",
+       "accept": [
+        "repairing"
+       ],
+       "why": "Bo 执行正在进行的修理动作，repairing 作宾语补足语。",
+       "point": "form"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-three",
+   "type": "check",
+   "title": "练习三",
+   "points": [
+    "subject",
+    "form"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "(Carry) a lamp, Bo entered the room. Bo was carrying it.",
+       "accept": [
+        "Carrying"
+       ],
+       "why": "Bo 执行 carry，分词短语与主句主语对应。",
+       "point": "subject"
+      },
+      {
+       "stem": "The lamp (repair) yesterday works again. Use a past participle.",
+       "accept": [
+        "repaired"
+       ],
+       "why": "lamp 承受已完成的修理动作，用 repaired。",
+       "point": "form"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "subject",
+    "form"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "A school is preparing an outdoor display of student artwork. On Monday, the art teacher met a group of students in the hall. [1] a list of the pictures, she checked that every student was represented. She then asked the group to help arrange the display. The student [2] a large folder was responsible for the drawings. He placed the folder on a table and opened it carefully. The pictures [3] by the students last month showed different places in the neighborhood. Each picture had a small label with its creator's name. The group also had a wooden frame that needed repair. The teacher saw one student [4] the frame while another gathered the tools. The repair was still in progress when the teacher walked past. Later, she found the frame [5] and ready to use. The students placed the drawings inside it and carried it to the display area. A separate table held smaller pieces of work. The teacher asked the group to leave enough space for visitors to move between the tables. At the end of the day, the students covered the display to protect it overnight. They planned to remove the covers before the visitors arrived.",
+       "items": [
+        {
+         "stem": "(Read) a list of the pictures, the teacher checked that every student was represented. She was reading it.",
+         "accept": [
+          "Reading"
+         ],
+         "why": "teacher 是 read 的逻辑主语，执行阅读动作。",
+         "point": "subject"
+        },
+        {
+         "stem": "The student (carry) a large folder was responsible for the drawings. The action was in progress.",
+         "accept": [
+          "carrying"
+         ],
+         "why": "student 执行正在进行的 carry 动作，用 carrying。",
+         "point": "subject"
+        },
+        {
+         "stem": "The pictures (draw) by the students last month showed local places. Use a past participle.",
+         "accept": [
+          "drawn"
+         ],
+         "why": "pictures 承受已完成的绘制动作，过去分词为 drawn。",
+         "point": "form"
+        },
+        {
+         "stem": "The teacher saw one student (repair) the frame while another gathered tools. The repair was in progress. Use a present participle.",
+         "accept": [
+          "repairing"
+         ],
+         "why": "student 执行正在进行的 repair 动作，用 repairing。",
+         "point": "form"
+        },
+        {
+         "stem": "Later, the teacher found the frame (repair) and ready to use. Use a past participle.",
+         "accept": [
+          "repaired"
+         ],
+         "why": "frame 承受修理，repaired 表示修理后的状态。",
+         "point": "form"
+        }
+       ]
+      },
+      {
+       "text": "A volunteer team maintains a path through a public garden. Last Saturday, the members met beside the garden gate. [1] the path, the leader noticed several branches on the ground. She asked two volunteers to move them away from the walking area. Another volunteer checked a sign near the entrance. The sign [2] by a local artist the previous year still showed the correct route. Its paint was in good condition, so the team left it in place. Farther along the path, the volunteers found a bench that needed attention. The person [3] the bench was a carpenter from the neighborhood. The repair was in progress when the leader returned. She saw another volunteer [4] leaves away from the bench at the same time. Once the work was finished, the group put the tools back into a shared box. The bench [5] by the carpenter was ready for visitors to use. The team also noted a loose stone near the path. Its members reported the stone to the garden staff, who would arrange a separate repair. Before leaving, the volunteers checked that no tools remained on the ground. They agreed to meet again the following month.",
+       "items": [
+        {
+         "stem": "(Walk) along the path, the leader noticed several branches. She was walking.",
+         "accept": [
+          "Walking"
+         ],
+         "why": "leader 是 walk 的逻辑主语，执行行走动作。",
+         "point": "subject"
+        },
+        {
+         "stem": "The sign (paint) by a local artist the previous year still showed the route. Use a past participle.",
+         "accept": [
+          "painted"
+         ],
+         "why": "sign 承受已完成的涂画动作，用 painted。",
+         "point": "form"
+        },
+        {
+         "stem": "The person (repair) the bench was a carpenter. The repair was in progress.",
+         "accept": [
+          "repairing"
+         ],
+         "why": "person 执行正在进行的修理动作，用 repairing。",
+         "point": "subject"
+        },
+        {
+         "stem": "The leader saw another volunteer (sweep) leaves away at the same time. The action was in progress. Use a present participle.",
+         "accept": [
+          "sweeping"
+         ],
+         "why": "volunteer 执行正在进行的 sweep 动作，用 sweeping。",
+         "point": "form"
+        },
+        {
+         "stem": "The bench (repair) by the carpenter was ready for visitors. Use a past participle.",
+         "accept": [
+          "repaired"
+         ],
+         "why": "bench 承受已完成的修理动作，用 repaired。",
+         "point": "form"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

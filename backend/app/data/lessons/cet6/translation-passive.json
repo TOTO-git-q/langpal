@@ -1,0 +1,388 @@
+{
+ "id": "translation-passive",
+ "title": "被动结构的选择",
+ "goal": "能根据信息重点选择并构成被动句。",
+ "skill": "翻译",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "voice",
+   "label": "按信息重点选择主动或被动结构"
+  },
+  {
+   "id": "form",
+   "label": "构成时态和主语一致的被动句"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "大学英语六级考试大纲",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "翻译课程内容依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "主动句用施事作主语，被动句用动作的承受者作主语。三种情况用被动：施事不明，承受者是重点，需要保持段落主题。原文没有说出施事时，译文不补出具体的施事。"
+    },
+    {
+     "box": "原文：这座桥在上世纪末得到修复。\n译文：The bridge was repaired at the end of the last century."
+    }
+   ]
+  },
+  {
+   "id": "voice",
+   "type": "table",
+   "title": "信息重点",
+   "cols": [
+    "情况",
+    "原文",
+    "译文"
+   ],
+   "rows": [
+    [
+     "施事不明",
+     "这些旧地图在档案室里被发现。",
+     "These old maps were found in the archive."
+    ],
+    [
+     "施事不明",
+     "这座木屋在暴风雨中受到损坏。",
+     "The wooden house was damaged in the storm."
+    ],
+    [
+     "承受者为重点",
+     "这幅画被当地艺术家仔细修复。",
+     "The painting was carefully restored by local artists."
+    ],
+    [
+     "承受者为重点",
+     "这座展馆由建筑师专门设计。",
+     "The exhibition hall was specially designed by an architect."
+    ],
+    [
+     "保持段落主题",
+     "这条运河历史悠久，去年得到了清理。",
+     "The canal has a long history. It was cleared last year."
+    ],
+    [
+     "保持段落主题",
+     "这些照片十分珍贵，现已被妥善保存。",
+     "The photographs are precious. They have been carefully preserved."
+    ]
+   ]
+  },
+  {
+   "id": "forms",
+   "type": "table",
+   "title": "被动句形式",
+   "cols": [
+    "形式",
+    "原文",
+    "译文"
+   ],
+   "rows": [
+    [
+     "一般现在时：is / are 加过去分词",
+     "这些手工纸张在当地制作。",
+     "These sheets of handmade paper are made locally."
+    ],
+    [
+     "一般过去时：was / were 加过去分词",
+     "这座石桥在去年秋季修复。",
+     "The stone bridge was repaired last autumn."
+    ],
+    [
+     "现在完成时：has / have been 加过去分词",
+     "这些古老的照片已经数字化。",
+     "These old photographs have been digitized."
+    ],
+    [
+     "情态动词加 be 和过去分词",
+     "这些展品必须妥善保护。",
+     "These exhibits must be properly protected."
+    ],
+    [
+     "不及物动词用主动形式",
+     "这场展览在周日结束了。",
+     "The exhibition ended on Sunday."
+    ],
+    [
+     "主语数与助动词一致",
+     "这些门每天早晨都要检查。",
+     "These doors are checked every morning."
+    ]
+   ]
+  },
+  {
+   "id": "practice-a",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "voice",
+    "form"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "原文：这些陶罐在旧房子里被发现，发现者不明。选择译句。",
+       "options": [
+        "The clay jars were found in the old house.",
+        "Local farmers found the clay jars in the old house.",
+        "The clay jars were found by the owner of the old house.",
+        "The clay jars found in the old house."
+       ],
+       "answer": 0,
+       "why": "原文说发现者不明。第一项用被动句，以陶罐作主语，没有补出发现者。第三项补出了原文没有的 the owner。",
+       "point": "voice"
+      },
+      {
+       "stem": "原文：这封信在去年被翻译成了英文。选择译句。",
+       "options": [
+        "The letter is translated into English last year.",
+        "The letter was translated into English last year.",
+        "The letter were translated into English last year.",
+        "The letter was translating into English last year."
+       ],
+       "answer": 1,
+       "why": "last year 对应过去时，单数主语后用 was translated。",
+       "point": "form"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-b",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "voice",
+    "form"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "原文：这座古塔历史悠久，去年得到仔细修复。排列第二句译文。",
+       "lead": "It",
+       "chunks": [
+        "was",
+        "carefully repaired",
+        "last",
+        "year"
+       ],
+       "tail": ".",
+       "extra": [
+        "were"
+       ],
+       "why": "It 指古塔，was repaired 保持段落主题并使用过去时。",
+       "point": "voice"
+      },
+      {
+       "stem": "原文：这些展品必须保存在干燥的环境中。排列译句。",
+       "lead": "These exhibits",
+       "chunks": [
+        "must be",
+        "kept",
+        "in a dry",
+        "environment"
+       ],
+       "tail": ".",
+       "extra": [
+        "must"
+       ],
+       "why": "情态动词后用 be 和过去分词 kept 构成被动。",
+       "point": "form"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-c",
+   "type": "check",
+   "title": "练习三",
+   "points": [
+    "voice",
+    "form"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "原文：这场音乐会于上周六晚上结束。选择译句。",
+       "options": [
+        "The concert was ended last Saturday evening.",
+        "The concert has ended last Saturday evening.",
+        "The concert ended last Saturday evening.",
+        "The concert was postponed last Saturday evening."
+       ],
+       "answer": 2,
+       "why": "end 在这里表示活动自己结束，是不及物动词。第三项用主动的过去时 ended。第一项错把它写成了被动。",
+       "point": "form"
+      },
+      {
+       "stem": "原文：这些珍贵的手稿现已被妥善保存。排列译句。",
+       "lead": "These precious manuscripts",
+       "chunks": [
+        "have",
+        "been",
+        "preserved",
+        "with care"
+       ],
+       "tail": ".",
+       "extra": [
+        "has"
+       ],
+       "why": "复数主语后用 have been 加过去分词 preserved，现在完成时对应「现已」；with care 对应「妥善」。has 用于单数主语。",
+       "point": "voice"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "voice",
+    "form"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "原文：这座桥是一处地标，去年得到修复。选择与前句主题衔接的译句。",
+         "options": [
+          "The bridge is a landmark. Local workers repaired a road last year.",
+          "The bridge is a landmark. It repaired last year.",
+          "The bridge is a landmark. A road was repaired here last year.",
+          "The bridge is a landmark. It was repaired last year."
+         ],
+         "answer": 3,
+         "why": "第二句的主语 It 承接前句的桥，was repaired 说明桥得到修复，即第四项。第二项缺少 was，成了桥自己修复。",
+         "point": "voice"
+        },
+        {
+         "stem": "原文：这些古老的工具在地下被发现，发现者不明。选择译句。",
+         "options": [
+          "These old tools were found underground.",
+          "These old tools were found underground by workers.",
+          "A local worker found the old tools underground.",
+          "These old tools were left underground."
+         ],
+         "answer": 0,
+         "why": "原文说发现者不明。第一项用被动句，以工具作主语，没有补出发现者。第二项补出了原文没有的 workers。",
+         "point": "voice"
+        },
+        {
+         "stem": "原文：这些照片已经被整理成一本相册。选择译句。",
+         "options": [
+          "These photos has been arranged in an album.",
+          "These photos have been arranged in an album.",
+          "These photos have arranged in an album.",
+          "These photos are arranging in an album."
+         ],
+         "answer": 1,
+         "why": "复数主语后用 have been 加过去分词 arranged。",
+         "point": "form"
+        },
+        {
+         "stem": "原文：会议在上周五下午准时开始。选择译句。",
+         "options": [
+          "The meeting was postponed until Friday afternoon.",
+          "The meeting has begun last Friday afternoon.",
+          "The meeting began on time last Friday afternoon.",
+          "The meeting was begun on time last Friday afternoon."
+         ],
+         "answer": 2,
+         "why": "begin 在这里表示会议自己开始，用主动的过去时 began，即第三项。第四项错把它写成了被动。",
+         "point": "form"
+        },
+        {
+         "stem": "原文：这幅地图是一件藏品，现已被仔细数字化。排列第二句译文。",
+         "lead": "It",
+         "chunks": [
+          "has",
+          "been",
+          "carefully converted",
+          "to digital form"
+         ],
+         "tail": ".",
+         "extra": [
+          "have"
+         ],
+         "why": "It 指代地图，has been converted 保持话题并构成被动。",
+         "point": "voice"
+        },
+        {
+         "stem": "原文：这些石碑十分古老，受到法律的严格保护。排列第二句译文。",
+         "lead": "They",
+         "chunks": [
+          "are",
+          "strictly protected",
+          "by",
+          "law"
+         ],
+         "tail": ".",
+         "extra": [
+          "is"
+         ],
+         "why": "They 指石碑，are protected 表达承受保护。",
+         "point": "voice"
+        },
+        {
+         "stem": "原文：这批文件在上周被送到档案馆。排列译句。",
+         "lead": "The documents",
+         "chunks": [
+          "were sent",
+          "to the",
+          "archive",
+          "last week"
+         ],
+         "tail": ".",
+         "extra": [
+          "was sent"
+         ],
+         "why": "复数主语和过去时间对应 were sent。",
+         "point": "form"
+        },
+        {
+         "stem": "原文：这些种子必须存放在阴凉的地方。排列译句。",
+         "lead": "The seeds",
+         "chunks": [
+          "must be",
+          "stored",
+          "in a cool",
+          "place"
+         ],
+         "tail": ".",
+         "extra": [
+          "must"
+         ],
+         "why": "must be stored 是情态动词的被动形式。",
+         "point": "form"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

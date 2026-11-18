@@ -1,0 +1,68 @@
+{
+ "id": "listening-passage-inference",
+ "title": "篇章推断题",
+ "goal": "依据录音作有限推断，保留范围和可能性限制。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "basis", "label": "依据对比或结果作有限推断"},
+  {"id": "limit", "label": "保留录音中的范围和可能性限制"}
+ ],
+ "sources": [
+  {"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "听力篇章教学依据"}
+ ],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "推断题要求根据录音中陈述的事实得出一步结论。题干常用 conclude、suggest 或 imply。"},
+   {"box": "What can be concluded from the comparison?\nWhat does the result suggest?\nWhat does the speaker imply?"},
+   {"p": "推断要保留录音对数量和可能性的限制，如 some、may。评价性的词表明讲者的立场，还要看清它评价的对象。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定依据", "d": "找出题干涉及的比较、结果或评价。记下比较的对象和条件。"},
+   {"t": "2　作一步推断", "d": "由两件事实之间的联系得出结论。新路线用十分钟，旧路线用十五分钟，说明这次新路线更快。"},
+   {"t": "3　核对限制", "d": "some、may 这类词限定的范围要保留。只靠常识、录音中没有依据的结论可直接排除。"}
+  ]},
+  {"id": "basis", "type": "table", "title": "推断依据", "cols": ["依据", "例句", "推断"], "rows": [
+   ["对比", "The new route took ten minutes; the old route took fifteen.", "这次新路线用时较短。"],
+   ["结果", "The new label helped visitors find the door.", "这次的新标识让访客更容易找到入口。"],
+   ["评价", "The speaker calls the trial promising but limited.", "讲者认为试验有潜力，仍有局限。"],
+   ["条件", "Some seeds grew in the shaded box.", "背阴的箱子里至少有一部分种子长出来了。"]
+  ], "note": "一次结果只说明这一次、这个条件下的情况。"},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A student group tested two ways of collecting questions for a guest speaker. At the first meeting, questions were spoken aloud. At the second, members could also write them on cards. More members submitted questions at the second meeting. The organizer called the cards a useful option, though the meetings differed in other ways as well. The group plans to try the cards again before deciding whether to use them regularly."},
+   {"box": "What can be inferred about the organizer's view of the cards?\n1. They are useful enough to try again.\n2. They caused every member to submit a question.\n3. They must replace spoken questions immediately.\n4. They made the two meetings identical."},
+   {"p": "useful option 和 plans to try the cards again 支持第一项。两次会议还有别的差异，所以不能认定提问增多全是卡片的作用。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "例", "核对"], "rows": [
+   ["扩大范围", "Some visitors waited. 改成 All visitors waited.", "some 只指一部分人。"],
+   ["可能当必然", "The change may help. 改成 The change will help.", "may 是可能，will 是肯定。"],
+   ["比较方向颠倒", "The second route was shorter. 改成 The first route was shorter.", "核对比较的哪一方更短。"],
+   ["常识代替证据", "Cards may be convenient. 推成每人都喜欢卡片。", "录音中找不到依据的结论可排除。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["basis", "limit"], "groups": [
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "The first bus arrived at nine. The second arrived at nine fifteen. Both had left the same station at eight thirty."}]}, "items": [{"stem": "What can be concluded about the trips?", "options": ["The first bus took less time to arrive.", "The buses reached the station together.", "The second bus left the station later.", "The first bus arrived fifteen minutes late."], "answer": 0, "why": "两车同时出发，第一辆先到，因此第一辆用时较短，即第一项。", "point": "basis"}]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "The speaker called the draft clear but incomplete. It explained the problem well, although it included no proposed solution."}]}, "items": [{"stem": "What does the speaker imply about the draft?", "options": ["Its proposed solution is difficult to understand.", "Its explanation of the problem is missing.", "It needs a solution as well as the explanation.", "It already contains all the necessary sections."], "answer": 2, "why": "clear but incomplete 和 no proposed solution 支持补充方案的推断，即第三项。", "point": "basis"}]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "Some residents used the new path during the first week. The group did not count people who used the older path."}]}, "items": [{"stem": "What can be concluded about the new path?", "options": ["Every resident used it during the week.", "At least a few residents used it that week.", "It was more popular than the older path.", "No one used the older path that week."], "answer": 1, "why": "Some residents used the new path 支持至少部分居民使用，即第二项。", "point": "limit"}]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "The organizer said that an earlier opening might reduce the queue. The idea has not yet been tested."}]}, "items": [{"stem": "What does the organizer suggest?", "options": ["The queue was already reduced by an earlier opening.", "An earlier opening certainly eliminates the queue.", "The queue caused the earlier opening to be canceled.", "Opening earlier could reduce the queue."], "answer": 3, "why": "might reduce 表示可能减少，第四项保留了可能性。", "point": "limit"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["basis", "limit"], "groups": [
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "A school tested two locations for a notice board. During the first week, it stood near the main door. During the second, it stood outside the dining hall. More students stopped to read the board in the second week. The organizer considered the result encouraging, but noted that the notices were different in the two weeks. Some students also said that a larger print size might help them read the notices from a distance. The school will test the board again before choosing a permanent location."}]}, "items": [
+    {"stem": "What does the organizer's reaction suggest?", "options": ["The result is promising but needs further examination.", "The board must return to the main door immediately.", "The notices were identical during both weeks.", "The dining hall is the permanent location already chosen."], "answer": 0, "why": "encouraging 与 will test the board again 表明结果有希望，仍需检验，即第一项。", "point": "basis"},
+    {"stem": "What can be inferred about the suggested larger print?", "options": ["It certainly helped every student read the board.", "It was the only difference between the two weeks.", "It may make distant reading easier for some students.", "It made the board less visible near the dining hall."], "answer": 2, "why": "Some students 和 might help 限定了人数与可能性，即第三项。", "point": "limit"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 8, "pass": 0.75, "points": ["basis", "limit"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "A town museum wanted to learn how visitors used its small exhibition on local crafts. In the first month, the descriptions beside the objects consisted mainly of dates and names. In the second month, the museum added short accounts of how the objects had been used. Staff counted the number of visitors who stopped at each case, but they did not ask everyone why they stopped. The second month saw more stops at several cases. The museum director described this as an encouraging sign, while pointing out that a school holiday also occurred during that month. The director said the new descriptions might have contributed to the change, but a comparison of these two months alone could not establish the reason. A few visitors wrote that the accounts helped them connect the objects with daily life. Others asked for larger print. The museum plans to keep the accounts during a further observation period and test a larger type size on one case. This time, staff also intend to ask visitors a brief question about what drew them to the display. The museum is not trying to prove that dates are unimportant. Dates remain on the labels because they help identify when an object was made. The additional accounts provide a different kind of information. The director hopes that collecting more evidence will help the museum decide how to arrange both kinds of information."}]}, "items": [
+    {"stem": "What does the director's description of the result suggest?", "options": ["The observation is hopeful but not conclusive.", "The holiday definitely reduced all visits.", "The new labels have already been removed.", "The dates were proven unimportant to visitors."], "answer": 0, "why": "encouraging sign 与 could not establish the reason 支持第一项的有限评价。", "point": "basis"},
+    {"stem": "What can be concluded about the additional accounts?", "options": ["They certainly caused every increase in stops.", "They may have influenced the observed change.", "They mattered less than the school holiday.", "They replaced all the dates on the labels."], "answer": 1, "why": "might have contributed 表示可能有影响，第二项保留这一限制。", "point": "limit"},
+    {"stem": "What do the written comments suggest about the accounts?", "options": ["All visitors wanted the accounts removed.", "No visitor noticed a link with daily life.", "A few visitors found the accounts helpful.", "Most visitors preferred dates without accounts."], "answer": 2, "why": "A few visitors wrote that the accounts helped them 支持第三项，没有涉及多数访客。", "point": "limit"}
+   ]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "A group of volunteers recorded how long it took to prepare two meeting rooms for a community event. Both rooms needed the same number of chairs, but the chairs were stored in different places. In the first room, they were kept in a cupboard next to the entrance. In the second, they were stored at the far end of a corridor. On the day of the event, setting out the chairs took twelve minutes in the first room and eighteen in the second. The group leader considered the comparison useful, but cautioned that different volunteers prepared the two rooms. The group did not measure how quickly each person worked. The leader said storage location could be one reason for the difference, rather than a proven explanation. Some volunteers suggested moving the second room's chairs nearer to its entrance. The group plans to test that arrangement at a later event, with the same people preparing both rooms. It will also record the time needed to return the chairs after the event. That part of the work was not measured during the first comparison. The volunteers noted that a nearby cupboard would need enough room for the chairs as well as the equipment already stored there. The next test will therefore include a check of the available space. A shorter route may help, but the group needs to consider both setup and storage before making a permanent change."}]}, "items": [
+    {"stem": "What can be concluded from the recorded preparation times?", "options": ["The second room was prepared six minutes faster.", "The first room took less time to prepare that day.", "Both rooms took exactly the same time to prepare.", "The same volunteers prepared both rooms that day."], "answer": 1, "why": "twelve minutes 与 eighteen 对比，支持第一间当天用时较短，即第二项。", "point": "basis"},
+    {"stem": "What does the leader suggest about storage location?", "options": ["It had no possible connection to preparation time.", "It was proven to be the only cause of the difference.", "It may have contributed to the difference in times.", "It prevented volunteers from using either room."], "answer": 2, "why": "could be one reason 表示地点可能是原因之一，即第三项。", "point": "limit"},
+    {"stem": "What does the planned second test imply?", "options": ["The first comparison established every cause.", "Returning chairs was already timed accurately.", "The group has permanently moved the chairs.", "The group wants more evidence before deciding."], "answer": 3, "why": "plans to test 和 needs to consider 支持决定前继续收集依据，即第四项。", "point": "basis"}
+   ]}
+  ]}]}
+ ]
+}

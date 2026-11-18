@@ -1,0 +1,374 @@
+{
+ "id": "usage-grammar-articles",
+ "title": "冠词",
+ "goal": "能根据指称关系、发音和名词结构选择冠词。",
+ "skill": "语言运用",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "reference",
+   "label": "依据指称关系选择泛指或特指冠词"
+  },
+  {
+   "id": "sound",
+   "label": "按发音和名词结构选择冠词形式"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语课程课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "教学内容与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "冠词放在名词前。a 和 an 用在可数名词单数前，表示非特指的一个。the 用在说话双方都能确定的事物前。"
+    },
+    {
+     "box": "A visitor found an envelope. The envelope contained a map."
+    },
+    {
+     "p": "首次提及信封用 an，再次提及同一个信封用 the。复数名词和不可数名词泛指时，一般不用冠词。"
+    }
+   ]
+  },
+  {
+   "id": "reference",
+   "type": "table",
+   "title": "泛指与特指",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "首次提及",
+     "可数单数非特指时用 a 或 an",
+     "A boy found a shell."
+    ],
+    [
+     "再次提及",
+     "双方可确定的事物前用 the",
+     "The shell was pink."
+    ],
+    [
+     "限定特指",
+     "后面的修饰语使对象确定时用 the",
+     "The book on this desk is mine."
+    ],
+    [
+     "复数泛指",
+     "复数名词泛指一类时不用冠词",
+     "Birds build nests."
+    ],
+    [
+     "不可数泛指",
+     "不可数名词泛指时不用冠词",
+     "Water is essential for life."
+    ],
+    [
+     "不可数特指",
+     "指确定的那一部分时用 the",
+     "The water in this glass is warm."
+    ]
+   ]
+  },
+  {
+   "id": "form",
+   "type": "table",
+   "title": "冠词的形式",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "辅音音素",
+     "以辅音音素开头的词前用 a",
+     "A university opened nearby."
+    ],
+    [
+     "元音音素",
+     "以元音音素开头的词前用 an",
+     "The walk took an hour."
+    ],
+    [
+     "形容词",
+     "名词前有形容词时，看形容词的第一个音",
+     "An old house stands here."
+    ],
+    [
+     "序数词",
+     "限定顺序的序数词前通常用 the",
+     "The first page is missing."
+    ],
+    [
+     "固定短语",
+     "by bus 不加冠词",
+     "They went by bus."
+    ],
+    [
+     "固定短语",
+     "in the morning 使用 the",
+     "They met in the morning."
+    ]
+   ]
+  },
+  {
+   "id": "contrast",
+   "type": "table",
+   "title": "辨析",
+   "cols": [
+    "对比",
+    "例句",
+    "区别"
+   ],
+   "rows": [
+    [
+     "首次与再次",
+     "She bought a lamp. The lamp is blue.",
+     "首次提及用 a，再次提及同一盏灯用 the"
+    ],
+    [
+     "泛指与特指",
+     "Books are useful. The books on that shelf are old.",
+     "前句泛指书，后句指那个书架上的书"
+    ],
+    [
+     "字母与发音",
+     "a university / an hour",
+     "看第一个音，不看第一个字母"
+    ],
+    [
+     "单数与复数",
+     "A cat needs food. Cats need food.",
+     "泛指一类时，单数用 a，复数不用冠词"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "reference"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "A girl found a key. _____ key was silver.",
+       "accept": [
+        "The",
+        "the"
+       ],
+       "why": "再次提及同一把钥匙，用 the。",
+       "point": "reference"
+      },
+      {
+       "stem": "The museum has one entrance. _____ entrance is on the east side. Use an article.",
+       "accept": [
+        "The",
+        "the"
+       ],
+       "why": "馆只有一个入口，所指确定，用 the。",
+       "point": "reference"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "sound"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The visitor waited for _____ hour.",
+       "accept": [
+        "an"
+       ],
+       "why": "hour 以元音音素开头，前用 an。",
+       "point": "sound"
+      },
+      {
+       "stem": "Use a or an: The group entered _____ old building.",
+       "accept": [
+        "an"
+       ],
+       "why": "old 以元音音素开头，前用 an。",
+       "point": "sound"
+      },
+      {
+       "stem": "Mia was _____ first student to finish the test.",
+       "accept": [
+        "the"
+       ],
+       "why": "序数词 first 前通常用 the。",
+       "point": "sound"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-three",
+   "type": "check",
+   "title": "练习三",
+   "points": [
+    "reference",
+    "sound"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "We met in _____ morning before lunch.",
+       "accept": [
+        "the"
+       ],
+       "why": "in the morning 是固定短语。",
+       "point": "sound"
+      },
+      {
+       "stem": "There is one gate in the wall. _____ gate is locked. Use an article.",
+       "accept": [
+        "The",
+        "the"
+       ],
+       "why": "再次提及已确定的门，用 the。",
+       "point": "reference"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "reference",
+    "sound"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "A neighborhood group decided to collect stories about local gardens. The members invited residents to bring photographs and describe the places in them. One resident brought [1] old photograph of a garden behind her former home. [2] photograph showed a narrow path and several fruit trees. She explained that her family had planted the trees together when she was a child. Another visitor brought a notebook containing plans for a shared garden. [3] notebook belonged to his grandfather, who had recorded the names of the plants on each page. The group spent [4] hour listening to the visitors and copying their notes. Later, the members arranged the photographs in order and wrote captions for each one. They put the earliest photograph on [5] first page of a new album. Other pages showed how the gardens had changed over time. The group planned to keep the album in the local library, where residents could add more stories. Before returning the originals, members checked the names and dates with their owners. The project gave the group a way to preserve personal memories alongside pictures of familiar places.",
+       "items": [
+        {
+         "stem": "[1] One resident brought _____ old photograph.",
+         "accept": [
+          "an"
+         ],
+         "why": "old 以元音音素开头，单数名词短语前用 an。",
+         "point": "sound"
+        },
+        {
+         "stem": "[2] A resident brought an old photograph. _____ photograph showed a narrow path.",
+         "accept": [
+          "The",
+          "the"
+         ],
+         "why": "再次提及同一张照片，用 the。",
+         "point": "reference"
+        },
+        {
+         "stem": "[3] Another visitor brought a notebook. _____ notebook belonged to his grandfather.",
+         "accept": [
+          "The",
+          "the"
+         ],
+         "why": "再次提及这本笔记，用 the。",
+         "point": "reference"
+        },
+        {
+         "stem": "[4] The group spent _____ hour listening to the visitors.",
+         "accept": [
+          "an"
+         ],
+         "why": "hour 以元音音素开头，前用 an。",
+         "point": "sound"
+        },
+        {
+         "stem": "[5] They put the earliest photograph on _____ first page of a new album.",
+         "accept": [
+          "the"
+         ],
+         "why": "序数词 first 限定页次，前用 the。",
+         "point": "sound"
+        }
+       ]
+      },
+      {
+       "text": "A class prepared a display about different kinds of paper. The teacher placed a sheet of handmade paper on a table. [1] sheet had small pieces of leaves in it. Students compared it with a sheet made by a machine. They described the different surfaces and wrote their observations in a shared chart. One student brought [2] example from home: a card made from recycled paper. The card was thicker than the other samples, and its surface was slightly rough. Another student found a box for storing the samples. [3] box was large enough to hold the chart as well. The class met in [4] morning to arrange everything. They chose [5] first table near the door for the display, so visitors could see the materials as they entered. Beside each sample, the students placed a short note about its appearance. They also left blank cards on a separate desk for visitors to record their own observations. After the display, the samples would return to their owners, while the class would keep the chart in a classroom folder for a later lesson.",
+       "items": [
+        {
+         "stem": "[1] The teacher placed a sheet on a table. _____ sheet had small pieces of leaves in it.",
+         "accept": [
+          "The",
+          "the"
+         ],
+         "why": "再次提及这张纸，用 the。",
+         "point": "reference"
+        },
+        {
+         "stem": "[2] One student brought _____ example from home.",
+         "accept": [
+          "an"
+         ],
+         "why": "example 以元音音素开头，前用 an。",
+         "point": "sound"
+        },
+        {
+         "stem": "[3] Another student found a box. _____ box was large enough to hold the chart.",
+         "accept": [
+          "The",
+          "the"
+         ],
+         "why": "再次提及同一个盒子，用 the。",
+         "point": "reference"
+        },
+        {
+         "stem": "[4] The class met in _____ morning to arrange everything.",
+         "accept": [
+          "the"
+         ],
+         "why": "in the morning 是固定短语。",
+         "point": "sound"
+        },
+        {
+         "stem": "[5] They chose _____ first table near the door for the display.",
+         "accept": [
+          "the"
+         ],
+         "why": "序数词 first 前用 the。",
+         "point": "sound"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

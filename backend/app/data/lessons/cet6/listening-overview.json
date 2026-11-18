@@ -1,0 +1,223 @@
+{
+ "id": "listening-overview",
+ "title": "听力部分概览",
+ "goal": "区分三类材料的题量和长度；说出播放次数、总时间与分值比例。",
+ "skill": "听力",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "format",
+   "label": "区分三类材料的题量和长度"
+  },
+  {
+   "id": "timing",
+   "label": "说出播放次数、总时间与分值比例"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c1",
+   "title": "CET笔试",
+   "url": "https://cet.neea.edu.cn/html1/folder/16113/1586-1.htm",
+   "used": "听力题量、时间和卷面比例。"
+  },
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "材料数量、长度和录音播放次数。"
+  },
+  {
+   "id": "c3",
+   "title": "分数解释",
+   "url": "https://cet.neea.edu.cn/html1/folder/19081/5124-1.htm",
+   "used": "卷面权重与报道分的区别。"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "facts",
+   "title": "概述",
+   "rows": [
+    {
+     "k": "长对话",
+     "v": "2 段，共 8 题；每段 280—320 词，占全卷 8%。",
+     "src": "C1 CET笔试结构表；C2 大纲 听力理解"
+    },
+    {
+     "k": "听力篇章",
+     "v": "2 篇，共 7 题；每篇 240—260 词，占全卷 7%。",
+     "src": "C1 CET笔试结构表；C2 大纲 听力理解"
+    },
+    {
+     "k": "讲话、报道、讲座",
+     "v": "3 篇，共 10 题；材料合计约 1200 词，占全卷 20%。",
+     "src": "C1 CET笔试结构表；C2 大纲 听力理解"
+    },
+    {
+     "k": "时间与播放",
+     "v": "听力共 30 分钟，录音播放 1 遍。",
+     "src": "C1 CET笔试结构表；C2 大纲 听力理解"
+    },
+    {
+     "k": "比例与报道分",
+     "v": "8%、7%、20% 是三类材料在卷面上的权重，不是每道题的报道分。",
+     "src": "C1 CET笔试结构表；C3 分数解释"
+    }
+   ]
+  },
+  {
+   "id": "types",
+   "type": "table",
+   "title": "题型",
+   "cols": [
+    "材料",
+    "数量与长度",
+    "题量",
+    "卷面比例"
+   ],
+   "rows": [
+    [
+     "长对话",
+     "2 段，每段 280—320 词",
+     "8 题",
+     "8%"
+    ],
+    [
+     "听力篇章",
+     "2 篇，每篇 240—260 词",
+     "7 题",
+     "7%"
+    ],
+    [
+     "讲话、报道、讲座",
+     "3 篇，合计约 1200 词",
+     "10 题",
+     "20%"
+    ]
+   ]
+  },
+  {
+   "id": "length",
+   "type": "text",
+   "title": "材料长度",
+   "body": [
+    {
+     "p": "长对话和听力篇章的词数指一段或一篇的长度。讲话、报道、讲座的约 1200 词是三篇的合计。"
+    },
+    {
+     "p": "一段长对话 280—320 词，一篇听力篇章 240—260 词。题量按类计算：长对话两段共 8 题，听力篇章两篇共 7 题。"
+    }
+   ]
+  },
+  {
+   "id": "weight",
+   "type": "text",
+   "title": "时间与分值比例",
+   "body": [
+    {
+     "p": "30 分钟是整个听力部分的时间，三类材料共用。每段录音只播放 1 遍。"
+    },
+    {
+     "p": "三类材料的卷面比例合计为 35%，其中讲话、报道、讲座占 20%，比例最高。报道分要经过等值和常模转换，所以不能按比例算出一道题的固定分值。"
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 4,
+   "pass": 0.8,
+   "points": [
+    "format",
+    "timing"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "Which description matches the conversation materials?",
+         "options": [
+          "Two recordings of 280–320 words each.",
+          "Two recordings of 240–260 words each.",
+          "Three recordings totaling about 1,200 words.",
+          "Three recordings of 280–320 words each."
+         ],
+         "answer": 0,
+         "why": "长对话 2 段，每段 280—320 词，即第一项。240—260 词是听力篇章的长度。",
+         "point": "format"
+        },
+        {
+         "stem": "How are the seven passage questions distributed by material type?",
+         "options": [
+          "They accompany the two conversations.",
+          "They accompany three talks or reports.",
+          "They accompany two listening passages.",
+          "They accompany all listening materials."
+         ],
+         "answer": 2,
+         "why": "听力篇章 2 篇，共 7 题，即第三项。长对话是 8 题，讲话、报道、讲座是 10 题。",
+         "point": "format"
+        },
+        {
+         "stem": "What does approximately 1,200 words describe?",
+         "options": [
+          "The length of each of the three talks, reports or lectures.",
+          "The combined length of the two conversations and two passages.",
+          "The length of each conversation together with its questions.",
+          "The combined length of the three talks, reports or lectures."
+         ],
+         "answer": 3,
+         "why": "约 1200 词是讲话、报道、讲座三篇的合计长度，即第四项。第一项把合计当成了单篇。",
+         "point": "format"
+        },
+        {
+         "stem": "Which statement correctly combines time and playback?",
+         "options": [
+          "Each conversation takes 30 minutes; recordings play once.",
+          "The listening section takes 30 minutes; recordings play once.",
+          "The listening section takes 30 minutes; recordings play twice.",
+          "Each passage takes 30 minutes; recordings play twice."
+         ],
+         "answer": 1,
+         "why": "30 分钟是整个听力部分的时间，录音播放 1 遍，即第二项。",
+         "point": "timing"
+        },
+        {
+         "stem": "Which sequence gives the paper weights for conversations, passages, and talks respectively?",
+         "options": [
+          "8%, 7%, and 20%.",
+          "7%, 8%, and 20%.",
+          "20%, 7%, and 8%.",
+          "8%, 20%, and 7%."
+         ],
+         "answer": 0,
+         "why": "长对话、听力篇章、讲话报道讲座依次占全卷 8%、7%、20%，即第一项。",
+         "point": "timing"
+        },
+        {
+         "stem": "How should the listening percentages be interpreted?",
+         "options": [
+          "As reported points awarded unchanged for each correct answer.",
+          "As percentages of the 30 minutes assigned to each recording.",
+          "As paper weights, rather than fixed reported points per question.",
+          "As proportions of words assigned to the three material types."
+         ],
+         "answer": 2,
+         "why": "依据是分数解释：报道分要经过等值和常模转换。8%、7%、20% 是卷面权重，第三项与此相符。",
+         "point": "timing"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "id": "translation-arts",
+ "title": "艺术与传统技艺词汇",
+ "goal": "辨认艺术与技艺词汇，准确表达材料和制作过程。",
+ "skill": "翻译",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "vocab", "label": "辨认艺术与技艺词汇"},
+  {"id": "meaning", "label": "选择符合材料和制作过程的表达"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译能力范围"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "介绍传统技艺的文字会讲到材料、工具、工序、艺术形式和外观。翻译时分清动作和动作的对象：carve wood 是雕刻木材，weave reeds 是编织芦苇。"},
+   {"box": "工匠在木板上雕刻图案，再用刷子涂上颜料。\nThe craftsperson carves a pattern into a wooden board and then applies pigment with a brush."},
+   {"p": "carve 对应雕刻，apply 对应涂抹。木板是雕刻对象，刷子是涂色工具。"}
+  ]},
+  {"id": "materials", "type": "table", "title": "词汇表：材料工具", "cols": ["词", "词性", "中文义", "搭配或例句"], "rows": [
+   ["clay", "n.", "黏土", "shape clay"], ["bamboo", "n.", "竹子", "split bamboo"], ["silk", "n.", "丝绸", "silk fabric"], ["wood", "n.", "木材", "carve wood"], ["paper", "n.", "纸", "cut paper"], ["pigment", "n.", "颜料", "apply pigment"], ["brush", "n.", "刷子；画笔", "use a brush"], ["needle", "n.", "针", "thread a needle"], ["loom", "n.", "织机", "work at a loom"], ["chisel", "n.", "凿子", "use a chisel"]
+  ]},
+  {"id": "process", "type": "table", "title": "词汇表：制作工序", "cols": ["词", "词性", "中文义", "搭配或例句"], "rows": [
+   ["carve", "v.", "雕刻", "carve a wooden figure"], ["weave", "v.", "编织", "weave a basket"], ["paint", "v.", "绘制；涂色", "paint a pattern"], ["mold", "v.", "塑造", "mold wet clay"], ["cut", "v.", "剪；切割", "cut the paper"], ["polish", "v.", "打磨；抛光", "polish the surface"], ["dye", "v.", "给……染色", "dye the thread"], ["fire", "v.", "烧制", "fire the pottery"], ["embroider", "v.", "刺绣", "embroider a design"], ["assemble", "v.", "组装", "assemble the parts"]
+  ]},
+  {"id": "forms", "type": "table", "title": "词汇表：艺术形式", "cols": ["词", "词性", "中文义", "搭配或例句"], "rows": [
+   ["pottery", "n.", "陶器", "make pottery"], ["sculpture", "n.", "雕塑", "a stone sculpture"], ["embroidery", "n.", "刺绣", "silk embroidery"], ["calligraphy", "n.", "书法", "practice calligraphy"], ["weaving", "n.", "编织", "traditional weaving"], ["painting", "n.", "绘画；画作", "a landscape painting"], ["print", "n.", "版画", "a woodblock print"], ["paper-cutting", "n.", "剪纸", "traditional paper-cutting"], ["mosaic", "n.", "镶嵌画", "a mosaic of tiles"], ["textile", "n.", "纺织品", "a woven textile"]
+  ]},
+  {"id": "appearance", "type": "table", "title": "词汇表：审美特点", "cols": ["词", "词性", "中文义", "搭配或例句"], "rows": [
+   ["pattern", "n.", "图案", "a floral pattern"], ["texture", "n.", "质地；纹理", "a rough texture"], ["symmetry", "n.", "对称", "the symmetry of the design"], ["contrast", "n.", "对比", "a contrast of colors"], ["delicate", "adj.", "精细的", "delicate lines"], ["vivid", "adj.", "鲜明的", "vivid colors"], ["geometric", "adj.", "几何图形的", "geometric shapes"], ["smooth", "adj.", "光滑的", "a smooth surface"], ["intricate", "adj.", "复杂精细的", "an intricate design"], ["decorative", "adj.", "装饰性的", "a decorative border"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "竹编工匠先把竹子劈成细条，再将竹条交错编成篮子。篮口的边缘经过加固，表面保留了竹子自然的纹理。不同宽度的竹条形成不同的图案。\nA bamboo weaver first splits bamboo into narrow strips and then interlaces them to make a basket. The rim is reinforced, and the surface retains the bamboo's natural texture. Strips of different widths create different patterns."},
+   {"p": "splits 对应劈开，interlaces 对应交错编织。reinforced 的对象是篮口，texture 指表面的纹理。"},
+   {"box": "Which action turns the strips into a basket?\n1. Applying pigment to them\n2. Interlacing them\n3. Polishing them into a rim\n4. Cutting patterns into them"},
+   {"p": "第二项对应 interlaces them to make a basket。劈成竹条发生在编织之前。"}
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["vocab"], "groups": [{
+   "fill": "A potter makes a small vessel from clay. The cl{ay} is sha{ped} by ha{nd} before i{t} is le{ft} to d{ry} and th{en} fired i{n} a ki{ln} at hi{gh} temperature. The vessel can then be decorated with pigment. The potter chooses a simple pattern that follows the curve of the surface. After the decoration has been applied, the finished object is ready for use. Each stage changes the material in a different way.",
+   "tags": ["vocab", "vocab", "vocab", "vocab", "vocab", "vocab", "vocab", "vocab", "vocab", "vocab"],
+   "notes": ["clay：首句指明材料。", "shaped：指将黏土塑形。", "hand：by hand 表示手工。", "it：指代黏土。", "left：be left to dry 表示放置晾干。", "dry：晾干后再烧制。", "then：表示工序先后。", "in：in a kiln 表示在窑中。", "kiln：烧制陶器使用窑。", "high：high temperature 表示高温。"]
+  }]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["vocab", "meaning"], "groups": [{"look": "passage", "text": "A Printed Design\n\nA printer draws a design on a wooden block. The printer carves away the areas that are not meant to receive ink, leaving the design raised. A roller spreads ink over the raised surface. Paper is placed on the block and pressed against it. When the paper is lifted, the design appears on the sheet. The same block can be inked again to make another print. The carved block is the tool used to transfer the design; the paper is the surface that receives it.", "items": [
+   {"stem": "What material is carved?", "options": ["The wooden block", "The paper sheet", "The inked roller", "The printed design"], "answer": 0, "why": "原文说 carves away the areas，雕刻对象是 wooden block，即第一项。", "point": "meaning"},
+   {"stem": "What does the roller apply?", "options": ["Paper to the carved wooden block", "Ink to the raised design on the block", "Ink to the areas carved away", "Pressure to the paper placed on the block"], "answer": 1, "why": "依据是 A roller spreads ink over the raised surface，滚筒把墨涂在凸起的图案上，即第二项。第三项弄反了：刻去的部分不接墨。", "point": "meaning"},
+   {"stem": "What does raised mean here?", "options": ["Removed from the surface of the block", "Lifted off the block with the paper", "Left higher than the cut-away areas", "Covered with ink by the roller"], "answer": 2, "why": "carves away 和 leaving the design raised 相对照：刻去的是图案以外的部分，图案留得比它们高，即第三项。", "point": "vocab"},
+   {"stem": "What receives the transferred design?", "options": ["The ink roller", "The wooden block", "The raised surface", "The paper sheet"], "answer": 3, "why": "the paper is the surface that receives it 指明纸张承接图案，即第四项。", "point": "meaning"},
+   {"stem": "What can be used again to make another print?", "options": ["The lifted sheet", "The carved block", "The removed wood", "The transferred paper"], "answer": 1, "why": "The same block can be inked again 说明雕好的木版可重复上墨，即第二项。", "point": "vocab"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 8, "pass": 0.75, "points": ["vocab", "meaning"], "sets": [{"id": "set-a", "groups": [
+   {"fill": "A craftsperson decorates a piece of cloth. A nee{dle} carries thr{ead} through t{he} fabric a{nd} forms a pat{tern} on i{ts} surface. The des{ign} may inc{lude} flowers o{r} geometric sha{pes}. Different stitches can produce different textures, even when the same color is used throughout. The maker plans the position of each part before beginning. The finished embroidery can decorate clothing or another textile, depending on how the fabric will be used.", "tags": ["vocab", "vocab", "vocab", "vocab", "vocab", "vocab", "vocab", "vocab", "vocab", "vocab"]},
+   {"look": "passage", "text": "A Woven Mat\n\nA workshop makes mats from long plant fibers. The makers first sort the fibers by width and set aside any that are too short for the planned design. They soak the selected fibers in water so that the strips can bend more easily. The strips are then arranged in two directions. The maker passes each strip over and under the strips crossing it, tightening the weave as the mat grows.\n\nSome strips are dyed before weaving. By placing dark and light strips in a chosen sequence, the maker creates a pattern without painting the finished surface. The color belongs to the strips themselves. At the edges, the loose ends are folded back and secured. This step holds the woven structure together; it does not change which fibers form the pattern.\n\nThe finished mat has a textured surface because the crossing strips sit at slightly different levels. A wider strip produces a broader band in the design. The workshop can vary the appearance by changing strip widths or colors while using the same basic over-and-under process.\n\n中文信息：工坊把植物纤维浸水后交错编成垫子。部分纤维在编织前染色，深浅条带按顺序形成图案。边缘的松散末端折回并固定。", "items": [
+    {"stem": "Why are selected fibers soaked?", "options": ["To make their colors darker after weaving", "To make the strips easier to bend", "To fix the loose ends in place", "To paint the finished surface"], "answer": 1, "why": "soak ... so that the strips can bend more easily 表明浸水使纤维容易弯曲，即第二项。", "point": "meaning"},
+    {"stem": "How is the pattern made?", "options": ["By painting the woven mat after its edges are secured", "By sorting fibers after weaving", "By arranging dyed strips in sequence", "By removing the crossing strips"], "answer": 2, "why": "placing dark and light strips in a chosen sequence 对应第三项。", "point": "meaning"},
+    {"stem": "What does weave mean in this passage?", "options": ["Interlace strips to make a structure", "Apply different colors to a finished surface", "Soak the loose ends in water", "Sort strips by their width"], "answer": 0, "why": "passes each strip over and under the strips crossing it 描述了交错编织，即第一项。", "point": "vocab"},
+    {"stem": "What is done to the loose ends?", "options": ["They are dyed after weaving.", "They are cut into wider strips.", "They are soaked so that they bend more easily.", "They are folded back and secured."], "answer": 3, "why": "the loose ends are folded back and secured 对应第四项。", "point": "meaning"},
+    {"stem": "What produces the textured surface?", "options": ["Pigment applied after weaving", "Crossing strips at different levels", "Short fibers removed during sorting", "Water retained in the loose ends"], "answer": 1, "why": "crossing strips sit at slightly different levels 解释了表面纹理，即第二项。", "point": "vocab"}
+   ]}
+  ]}]}
+ ]
+}

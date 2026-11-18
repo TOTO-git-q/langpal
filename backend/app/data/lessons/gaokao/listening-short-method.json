@@ -1,0 +1,66 @@
+{
+ "id": "listening-short-method",
+ "title": "短对话的解题步骤",
+ "goal": "根据题干确定对象和信息类别，结合完整回应核对选项。",
+ "skill": "听力",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "target", "label": "根据题干确定所问信息及对象"},
+  {"id": "evidence", "label": "用完整回应核对选项依据"}
+ ],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "短对话教学内容与课程小测规格"}],
+ "cards": [
+  {"id": "type", "type": "text", "title": "题型", "body": [
+   {"p": "题干规定问哪个人、问哪类信息。正确答案的人物、时间和动作都与题干一致。依据在说话人完整的回应里。"},
+   {"box": "Where will Lena meet Sam? → At the west entrance.\nWhen will Lena meet Sam? → At three."},
+   {"p": "同一次见面可以问地点，也可以问时间。west entrance 回答地点，three 回答时刻。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定对象", "d": "读题干中的姓名或身份，确定所问的人。What will Nina bring? 问 Nina 携带的物品。"},
+   {"t": "2　确定信息类别", "d": "疑问词和后面的词说明要听哪类信息。When does the class start? 问课程几点开始。"},
+   {"t": "3　听完整回应", "d": "回应中常有否定和更改，听到句末再判断。I planned to walk, but I'll cycle instead 表示最后骑车。"},
+   {"t": "4　核对选项", "d": "把选项中的人物、动作和时间与回应逐一对照。Maya brings cups 不能回答 Leo 带什么。"}
+  ]},
+  {"id": "targets", "type": "table", "title": "题干与信息", "cols": ["信息", "题干例句", "所需内容"], "rows": [
+   ["地点", "Where will Rosa meet Kai?", "Rosa 与 Kai 约定的地点。"],
+   ["时间", "When does the film begin?", "电影开始的时刻。"],
+   ["人物关系", "How are the speakers related?", "由双方的职责或称呼判断的关系。"],
+   ["意图", "Why does Omar mention the rain?", "Omar 提到下雨的目的。"],
+   ["行动", "What will Mei do next?", "Mei 已确定的下一步行动。"]
+  ]},
+  {"id": "response", "type": "table", "title": "完整回应", "cols": ["回应", "判断", "依据"], "rows": [
+   ["I thought of Monday, but Tuesday is better.", "最后定在周二。", "but 后面是改过的选择。"],
+   ["I can't collect it; Ana will do that.", "由 Ana 去取。", "can't 说明说话人不取，will 说明 Ana 去取。"],
+   ["We met at noon yesterday; let's meet at two today.", "今天约在两点。", "today 说明这是今天的安排。"],
+   ["The blue folder is mine, and the green one is Jo's.", "绿色文件夹是 Jo 的。", "and 后面说的是绿色文件夹。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A: Leo, are you bringing the plates for the garden lunch?\nB: I can bring cups. Nina has already offered to bring the plates.\nA: Good. I'll bring the food."},
+   {"box": "What will Leo bring?\n1. The food.\n2. The plates.\n3. The cups.\n4. The plates and the cups."},
+   {"p": "题干问 Leo 带什么。Leo 说 I can bring cups，即第三项。plates 由 Nina 带。"}
+  ]},
+  {"id": "distractors", "type": "table", "title": "干扰项", "cols": ["类型", "例", "排除方法"], "rows": [
+   ["答非所问", "When? → At the west entrance.", "题干问时间，地点不能作答。"],
+   ["换人", "Leo brings cups → Nina brings cups", "cups 是 Leo 带的，Nina 带的是 plates。"],
+   ["换时间", "Yesterday at noon → today at noon", "noon 是昨天的时间，今天约在两点。"],
+   ["忽略修正", "Monday, but Tuesday is better → Monday", "以 but 后面的安排为准。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["target", "evidence"], "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Mila, I can take the flowers to the hall this morning. Are you bringing the paper decorations, or will you collect the food?"}, {"who": "B", "text": "I'll bring the decorations. Arun is collecting the food after lunch."}]}, "items": [{"stem": "What will Mila bring?", "options": ["The flowers for the hall", "The paper decorations", "The food for lunch", "The decorations for Arun"], "answer": 1, "why": "Mila 回答 I'll bring the decorations，即第二项。food 由 Arun 去取。", "point": "target"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "The pottery class used to start at six, didn't it? I have a meeting until then, so I may arrive late today."}, {"who": "B", "text": "It did last month, but today it starts at seven. There's plenty of time after your meeting."}]}, "items": [{"stem": "When does the pottery class start today?", "options": ["At six this evening", "At seven last month", "At six last month", "At seven this evening"], "answer": 3, "why": "It did last month, but today it starts at seven 说明今天七点开课，即第四项。六点是上个月的时间。", "point": "evidence"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["target", "evidence"], "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Dr Green, my essay is almost ready, but could I hand it in after the history lesson tomorrow? I need to check one reference tonight."}, {"who": "B", "text": "Certainly, Ella. Put it on my desk before lunch."}]}, "items": [{"stem": "How are the speakers related?", "options": ["Teacher and student", "Doctor and patient", "Two history teachers", "Two essay writers"], "answer": 0, "why": "Ella 请求晚一点交 essay，Dr Green 让她放到自己桌上。两人是学生和老师，即第一项。", "point": "target"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Shall we put the display near the window? The front entrance has more light, but people might block the doorway."}, {"who": "B", "text": "Let's use the window. I'll move the chairs away so everyone can see it."}]}, "items": [{"stem": "Where will the speakers put the display?", "options": ["In front of the doorway", "Beside the chairs", "Near the window", "Outside the entrance"], "answer": 2, "why": "Let's use the window 是最后的决定，展品放在窗边，即第三项。", "point": "evidence"}]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["target", "evidence"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Dina, will you pick up the paint for the community mural? I can collect the brushes after I finish work at the garden."}, {"who": "B", "text": "Yes, I'll get the paint this afternoon. The brushes are already at the community center."}]}, "items": [{"stem": "What will Dina collect?", "options": ["The paint for the mural", "The brushes for the mural", "The brushes from the garden", "The paint from the garden"], "answer": 0, "why": "Dina 回答 I'll get the paint，即第一项。brushes 已经在社区中心。", "point": "target"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Is the photography workshop still on Thursday? I reserved a camera for that day, although I could change the booking if needed."}, {"who": "B", "text": "The instructor moved it to Friday, so the camera booking needs to change."}]}, "items": [{"stem": "When is the workshop now?", "options": ["On Thursday as booked", "On Friday after the change", "On Thursday after the change", "On Friday before the change"], "answer": 1, "why": "The instructor moved it to Friday 说明改到了周五，即第二项。", "point": "evidence"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Excuse me, I'd like to reserve a table for four this evening. Is there a quiet space away from the entrance?"}, {"who": "B", "text": "Certainly. I can book a table beside the window for seven."}]}, "items": [{"stem": "How are the speakers most likely related?", "options": ["Two people sharing a table", "Two diners waiting by the entrance", "A diner and a restaurant worker", "Two workers arranging the entrance"], "answer": 2, "why": "一方要 reserve a table，另一方说 I can book a table，是在为客人订位，即第三项。", "point": "target"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "I'd planned to send the pictures by email tonight, but my connection has stopped working. Can you send them from your office?"}, {"who": "B", "text": "Yes. Give me the files and I'll email them after lunch."}]}, "items": [{"stem": "What will the second speaker do?", "options": ["Repair the connection tonight", "Send the pictures tonight", "Collect the pictures after work", "Email the pictures after lunch"], "answer": 3, "why": "I'll email them after lunch 说明第二位说话者午饭后发图片，即第四项。tonight 是第一位说话者原来的计划。", "point": "evidence"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Could we meet by the fountain before the outdoor concert? I know you suggested the gate, but it will be crowded there."}, {"who": "B", "text": "All right. I'll wait by the fountain with the tickets."}]}, "items": [{"stem": "Where will the speakers meet?", "options": ["Next to the fountain", "At the crowded gate", "Inside the concert hall", "At the ticket office"], "answer": 0, "why": "I'll wait by the fountain 接受了在喷泉旁见面的提议，即第一项。gate 是原来的建议。", "point": "evidence"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "The forecast says rain this afternoon, and the picnic blankets are still outside. Could someone bring them in before lunch?"}, {"who": "B", "text": "I'll bring them inside now, and then I'll prepare the food for the picnic."}]}, "items": [{"stem": "Why does the first speaker mention the rain?", "options": ["To suggest preparing the food", "To request moving the blankets", "To confirm the picnic location", "To suggest moving the picnic inside"], "answer": 1, "why": "提到下雨后，说话者问 Could someone bring them in，目的是请人把毯子收进来，即第二项。", "point": "target"}]}
+  ]}]} 
+ ]
+}

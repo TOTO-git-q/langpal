@@ -1,0 +1,53 @@
+{
+ "id": "translation-articles", "title": "可数性与冠词", "goal": "根据可数性和指称范围选择名词短语。", "skill": "翻译", "exam": "大学英语六级（CET-6）", "mastery": "once",
+ "points": [{"id": "count", "label": "判断名词在语境中的可数性"}, {"id": "article", "label": "按指称范围选择冠词或零冠词"}],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译课程内容依据"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "中文名词前一般没有冠词。英文名词前用哪个冠词，取决于可数性、单复数和指称范围。单数可数名词前通常要有限定词。"}, {"box": "原文：一座桥连接两岸。这座桥方便了村民出行。\n译文：A bridge connects the two banks. The bridge makes travel easier for villagers."}, {"p": "a bridge 首次引入一座桥，the bridge 回指同一座桥。复数名词和不可数名词表示泛指时，常用零冠词。"}]},
+  {"id": "generic", "type": "table", "title": "泛指事物", "cols": ["情况", "原文", "译文"], "rows": [
+   ["复数泛指", "书籍可以记录不同地区的历史。", "Books can record the history of different regions."],
+   ["复数泛指", "桥梁连接河流两岸的社区。", "Bridges connect communities on opposite banks of rivers."],
+   ["复数泛指", "博物馆保存与展示文物。", "Museums preserve and display cultural objects."],
+   ["单数首次提及", "村里新建了一座图书馆。", "A new library was built in the village."]
+  ]},
+  {"id": "specific", "type": "table", "title": "特指实体", "cols": ["情况", "原文", "译文"], "rows": [
+   ["后续回指", "村里新建了一座图书馆。这座图书馆向公众开放。", "A new library was built in the village. The library is open to the public."],
+   ["后续回指", "学校购买了一台电脑。这台电脑放在阅览室。", "The school bought a computer. The computer is in the reading room."],
+   ["短语限定", "展厅里的画作描绘了山村。", "The painting in the gallery depicts a mountain village."],
+   ["复数特指", "桌上的书属于学校图书馆。", "The books on the table belong to the school library."]
+  ]},
+  {"id": "abstract", "type": "table", "title": "不可数抽象概念", "cols": ["情况", "原文", "译文"], "rows": [
+   ["knowledge 泛指", "知识可以通过交流得到传播。", "Knowledge can spread through exchange."],
+   ["information 泛指", "信息有助于居民了解服务。", "Information helps residents learn about services."],
+   ["research 泛指", "研究有助于理解语言变化。", "Research helps explain language change."],
+   ["短语限定", "报告中的信息来自调查。", "The information in the report comes from a survey."]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [{"box": "原文：学校购买了一台电脑。这台电脑放在阅览室。\n译文：The school bought a computer. The computer is in the reading room."}, {"p": "computer 在此处可数。首次引入单台电脑用 a，后文回指同一台电脑用 the。"}]},
+  {"id": "practice-a", "type": "check", "title": "练习一", "points": ["count", "article"], "groups": [{"items": [
+   {"stem": "原文：知识可以通过交流传播。选择译句。", "options": ["Knowledge can spread through exchange.", "A knowledge can spread through exchange.", "The knowledge can spread through exchange.", "Knowledges can spread through exchanges."], "answer": 0, "why": "原文泛指知识。knowledge 不可数，泛指时用零冠词。第三项的 the knowledge 指特定的知识。", "point": "count"},
+   {"stem": "原文：村里新建了一座图书馆。选择译句。", "options": ["New library was built in the village.", "A new library was built in the village.", "New libraries were built in the village.", "The new library was built in the village."], "answer": 1, "why": "原文是一座图书馆，且第一次提到。单数可数名词首次出现用 a。第四项的 the 用于已经提到过的图书馆。", "point": "article"},
+   {"stem": "原文：信息有助于居民了解服务。选择译句。", "options": ["An information helps residents learn about services.", "Informations help residents learn about services.", "Information helps residents learn about services.", "The information helps residents learn about services."], "answer": 2, "why": "原文泛指信息。information 不可数，泛指时用零冠词。第四项的 the information 指特定的信息。", "point": "count"},
+   {"stem": "原文：桌上的书属于学校图书馆。选择译句。", "options": ["A books on the table belong to the school library.", "Books on the table belong to the school library.", "Book on the table belong to the school library.", "The books on the table belong to the school library."], "answer": 3, "why": "on the table 限定一组特定的书，复数名词用 the。", "point": "article"},
+   {"stem": "原文：博物馆保存和展示文物。选择泛指译句。", "options": ["Museums preserve and display cultural objects.", "Museum preserve and display cultural objects.", "The museum preserves and displays cultural objects.", "The museums preserve and display cultural objects."], "answer": 0, "why": "原文泛指博物馆，用复数 museums 加零冠词。第三项和第四项加了 the，指特定的博物馆。", "point": "count"},
+   {"stem": "原文：学校买了一台电脑。这台电脑在阅览室。选择后一句。", "options": ["A computer is in the reading room.", "The computer is in the reading room.", "Computers are in the reading room.", "Computer is in the reading room."], "answer": 1, "why": "后句回指前句的电脑，使用 the computer。", "point": "article"}
+  ]}]},
+  {"id": "practice-b", "type": "check", "title": "练习二", "points": ["count", "article"], "groups": [{"items": [
+   {"stem": "原文：研究有助于解释语言变化。选择译句。", "options": ["A research helps explain language change.", "Researches help explain language changes.", "Research helps explain language change.", "The research helps explain language change."], "answer": 2, "why": "原文泛指研究活动。research 在此不可数，泛指时用零冠词。第四项的 the research 指某一项特定的研究。", "point": "count"},
+   {"stem": "原文：展厅里的画作描绘了一座山村。选择译句。", "options": ["The painting in the gallery depicts the mountain village.", "Painting in the gallery depicts a mountain village.", "The painting in the gallery depict a mountain village.", "The painting in the gallery depicts a mountain village."], "answer": 3, "why": "in the gallery 限定了特定的画作，用 the painting，谓语用单数 depicts。山村是首次提到，用 a mountain village；第一项误用了 the。", "point": "article"},
+   {"stem": "原文：桥梁连接河流两岸的社区。选择泛指译句。", "options": ["Bridges connect communities on opposite banks of rivers.", "The bridges connect communities on opposite banks of rivers.", "Bridge connect communities on opposite banks of rivers.", "The bridge connects communities on opposite banks of the river."], "answer": 0, "why": "原文泛指桥梁，用复数 bridges 加零冠词，谓语用 connect。第二项加了 the，指特定的几座桥。", "point": "count"},
+   {"stem": "原文：报告中的信息来自一项调查。选择译句。", "options": ["An information in the report comes from a survey.", "The information in the report comes from a survey.", "The informations in the report come from a survey.", "The information in the report comes from the survey."], "answer": 1, "why": "in the report 限定了信息，用 the information；information 不可数，不加 s。一项调查是首次提到，用 a survey，第四项误用了 the。", "point": "article"},
+   {"stem": "原文：书籍可以记录不同地区的历史。选择泛指译句。", "options": ["A books can record the history of different regions.", "Book can record the history of different regions.", "Books can record the history of different regions.", "The books can record the history of different regions."], "answer": 2, "why": "原文泛指书籍，用复数 books 加零冠词。第四项的 the books 指特定的书。", "point": "count"},
+   {"stem": "原文：村里新建了一座图书馆。这座图书馆向公众开放。选择后一句。", "options": ["A library is open to the public.", "The libraries are open to the public.", "Library is open to the public.", "The library is open to the public."], "answer": 3, "why": "这座图书馆指前句提到的那一座，回指用 the library。第一项的 a 会引入另一座图书馆。", "point": "article"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["count", "article"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "原文：人们分享历史知识时，知识就会传播。选择译句。", "options": ["Knowledge spreads when people share it.", "A knowledge spreads when people share it.", "Knowledges spread when people share them.", "The knowledge spreads when people share it."], "answer": 0, "why": "原文泛指知识。knowledge 不可数，泛指时用零冠词。第四项的 the knowledge 指特定的知识。", "point": "count"},
+   {"stem": "原文：读者常从图书馆借书。选择泛指译句。", "options": ["Readers often borrow book from libraries.", "Readers often borrow books from libraries.", "Readers often borrow the books from libraries.", "The readers often borrow books from libraries."], "answer": 1, "why": "原文泛指读者和书籍，readers 和 books 都用复数加零冠词。第三项和第四项加了 the，变成特定的书或读者。", "point": "count"},
+   {"stem": "原文：村里有一座桥。这座桥跨过河流。选择后一句。", "options": ["Bridge crosses the river.", "A bridge crosses the river.", "The bridge crosses the river.", "The bridges cross over the river."], "answer": 2, "why": "这座桥指前句引入的那一座，回指用单数 the bridge。第二项的 a 会引入另一座桥。", "point": "article"},
+   {"stem": "原文：档案中的信息来自访谈。选择译句。", "options": ["An information in the archive comes from interviews.", "A information in the archive comes from interviews.", "The informations in the archive come from interviews.", "The information in the archive comes from interviews."], "answer": 3, "why": "in the archive 限定了信息，用 the information。information 不可数，前面不用 a、an，词尾也不加 s。", "point": "article"},
+   {"stem": "原文：共享知识有助于人们理解历史。排列译句。", "chunks": ["Sharing knowledge helps", "people", "understand", "history"], "extra": ["a knowledge"], "tail": ".", "why": "knowledge 在此不可数，泛指时用零冠词。", "point": "count"},
+   {"stem": "原文：博物馆保存历史建筑的旧照片。排列泛指译句。", "chunks": ["Museums preserve", "old photographs", "of", "historic buildings"], "extra": ["a museum"], "tail": ".", "why": "Museums 是复数泛指，preserve 与复数主语一致。", "point": "count"},
+   {"stem": "原文：学校买了一本书。这本书放在桌上。排列后一句。", "chunks": ["The book is", "on", "the", "table"], "extra": ["a book"], "tail": ".", "why": "the book 回指前句的书。", "point": "article"},
+   {"stem": "原文：村里开设了一所新学校。排列译句。", "chunks": ["A new school opened", "in", "the", "village"], "extra": ["an"], "tail": ".", "why": "首次引入单数可数名词 school，new 以辅音音素开头，使用 a。", "point": "article"}
+  ]}]}]}
+ ]
+}

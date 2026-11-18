@@ -1,0 +1,527 @@
+{
+ "id": "speaking-interview-functions",
+ "title": "六种话语功能",
+ "goal": "区分描述、解释、观点、建议、预测和叙述，并选择对应的回答句型。",
+ "skill": "speaking",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 口语",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "function",
+   "label": "根据问句判断所需的话语功能"
+  },
+  {
+   "id": "frame",
+   "label": "为每种功能选择合适的句型"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "口语题型、题量、时间、话语功能和每题满分"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "官方口语规格列出六种话语功能：描述、解释、观点、建议、预测和叙述。功能由整个问句决定：How does the group work? 问运作方式，How should the group work? 要求建议。"
+    },
+    {
+     "p": "一个回答可以同时有几种功能。I prefer written feedback because I can reread it. 先表达观点，再解释原因。这道题仍是偏好题，because 只是引出理由。"
+    }
+   ]
+  },
+  {
+   "id": "questions",
+   "type": "table",
+   "title": "问句与功能",
+   "cols": [
+    "功能",
+    "问句",
+    "回答内容"
+   ],
+   "rows": [
+    [
+     "描述",
+     "What is the workspace like?",
+     "说明特征，不讲一次事件。"
+    ],
+    [
+     "解释",
+     "Why is the workspace shared?",
+     "说明原因，不只重复共享这一事实。"
+    ],
+    [
+     "观点",
+     "Is a shared workspace a good idea? Why?",
+     "作出评价，再给出依据。"
+    ],
+    [
+     "建议",
+     "What should the organizers change?",
+     "提出应采取的行动。"
+    ],
+    [
+     "预测",
+     "How might the workspace change?",
+     "推测将来可能的变化。"
+    ],
+    [
+     "叙述",
+     "What happened on the first day?",
+     "按顺序讲过去发生的事。"
+    ]
+   ]
+  },
+  {
+   "id": "describe-explain-opine",
+   "type": "table",
+   "title": "描述、解释与观点",
+   "cols": [
+    "功能",
+    "句型",
+    "例句"
+   ],
+   "rows": [
+    [
+     "描述",
+     "It has … / There is … / It is …",
+     "It has movable desks. There is a shared screen. It is open and bright. 说明特征。"
+    ],
+    [
+     "描述的范围",
+     "One feature is …",
+     "One feature is the adjustable lighting. 只说特征，不加评价。"
+    ],
+    [
+     "解释",
+     "This is because … / The reason is that … / …, so …",
+     "This is because space is limited. The reason is that teams share equipment. Space is limited, so desks are shared."
+    ],
+    [
+     "因果方向",
+     "because + 原因；so + 结果",
+     "We share tools because they are costly. 费用高是原因，共享是结果。"
+    ],
+    [
+     "观点",
+     "I think … / In my view, … / I prefer …",
+     "I think sharing is practical. In my view, access matters most. I prefer a shared room."
+    ],
+    [
+     "观点的依据",
+     "立场后可接 because",
+     "I prefer a shared room because I can ask colleagues questions. because 后面给出理由。"
+    ]
+   ]
+  },
+  {
+   "id": "suggest-predict-narrate",
+   "type": "table",
+   "title": "建议、预测与叙述",
+   "cols": [
+    "功能",
+    "句型",
+    "例句"
+   ],
+   "rows": [
+    [
+     "建议",
+     "They should … / They could … / I'd suggest …",
+     "They should add lockers. They could label the shelves. I'd suggest reserving a quiet corner."
+    ],
+    [
+     "建议与预测",
+     "should 表建议；may 表可能",
+     "They should add lockers. 是建议；They may add lockers. 是推测。"
+    ],
+    [
+     "预测",
+     "… will probably … / … is likely to … / … might …",
+     "Demand will probably grow. The room is likely to become busier. Teams might book shorter sessions."
+    ],
+    [
+     "预测的依据",
+     "根据现有信息推测",
+     "Bookings are rising, so demand will probably grow."
+    ],
+    [
+     "叙述",
+     "Last …, I … / I was … when … / After …, I …",
+     "Last Monday, I joined the team. I was unpacking when a colleague arrived. After the tour, I chose a desk."
+    ],
+    [
+     "叙述与描述",
+     "叙述讲过去的经过，描述讲不变的特征",
+     "I moved a desk after the tour. 叙述事件；The desk has wheels. 描述特征。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Question: The seed exchange has attracted more visitors each month. How might it develop next year?\nNotes: volunteers run it; packets are sorted by plant type; more shelves may be needed; exchanges began last spring."
+    },
+    {
+     "box": "Which opening matches the question's main function?\n1. It began last spring with a few packets.\n2. Volunteers should label every packet clearly.\n3. The packets are sorted by plant type.\n4. It may need more shelf space as attendance grows."
+    },
+    {
+     "p": "How might … next year 要求预测。第四项用 may need 推测将来的变化，依据是人数增长。第一项是叙述，第二项是建议，第三项是描述。"
+    }
+   ]
+  },
+  {
+   "id": "check-function",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "function",
+    "frame"
+   ],
+   "groups": [
+    {
+     "text": "The photography society offers portrait sessions and editing lessons. What are its weekly meetings like?",
+     "items": [
+      {
+       "stem": "Which function is requested?",
+       "options": [
+        "Predicting future attendance at the meetings",
+        "Describing the activities in the meetings",
+        "Advising the society to replace its meetings",
+        "Narrating how the society was established"
+       ],
+       "answer": 1,
+       "why": "What are … like 要求描述，即第二项。offers portrait sessions and editing lessons 是可以描述的内容。",
+       "point": "function"
+      }
+     ]
+    },
+    {
+     "text": "The rowing team moved its practice indoors because the river was closed. Why did it change locations?",
+     "items": [
+      {
+       "stem": "Which function should organize the answer?",
+       "options": [
+        "An opinion about whether indoor practice is better",
+        "A prediction about future river closures",
+        "An explanation connecting the closure to the move",
+        "A description of the indoor practice space"
+       ],
+       "answer": 2,
+       "why": "Why did it change locations 问原因，要用解释回答，即第三项。原因是 the river was closed。",
+       "point": "function"
+      }
+     ]
+    },
+    {
+     "text": "The drama group has two costume designers. How could it avoid giving both designers the same task?",
+     "items": [
+      {
+       "stem": "Which opening meets the request?",
+       "options": [
+        "It could give each designer separate characters.",
+        "It once gave both designers the same costume.",
+        "It has two designers who work on costumes.",
+        "It may recruit another costume designer next year."
+       ],
+       "answer": 0,
+       "why": "How could it avoid 要求提出办法。第一项用 could 给出建议；第四项的 may recruit 是预测。",
+       "point": "frame"
+      }
+     ]
+    },
+    {
+     "text": "The chess club held a tournament last weekend. Describe what happened when the final game ended.",
+     "items": [
+      {
+       "stem": "Which opening performs the required function?",
+       "options": [
+        "The final game might last longer next year.",
+        "Final games are usually important to the club.",
+        "The club should record the final game.",
+        "The players shook hands and the organizer announced the result."
+       ],
+       "answer": 3,
+       "why": "what happened 要求叙述过去的事。第四项用 shook 和 announced 讲出经过。",
+       "point": "frame"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-frame",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "frame",
+    "function"
+   ],
+   "groups": [
+    {
+     "text": "Question: Is restoring old furniture a useful student activity? Notes: students learn practical skills; sessions are weekly; tools are shared.",
+     "items": [
+      {
+       "stem": "Which opening gives an opinion supported by the notes?",
+       "options": [
+        "Sessions take place every week in a shared workshop.",
+        "I think it is useful because students gain practical skills.",
+        "Tools might become harder to share next year.",
+        "Students should return shared tools after each session."
+       ],
+       "answer": 1,
+       "why": "Is … useful 要求评价。第二项用 I think … because … 给出立场，依据是 practical skills。",
+       "point": "frame"
+      }
+     ]
+    },
+    {
+     "text": "Question: How might demand for language exchanges change? Notes: applications have risen; organizers match partners; sessions started in May.",
+     "items": [
+      {
+       "stem": "Which sentence predicts rather than describes or advises?",
+       "options": [
+        "Organizers match partners using the applications.",
+        "The first exchanges took place in May.",
+        "Demand is likely to rise if applications keep increasing.",
+        "Organizers should review each application carefully."
+       ],
+       "answer": 2,
+       "why": "How might … change 要求预测。第三项用 is likely to rise 推测将来，依据是 applications have risen。",
+       "point": "frame"
+      }
+     ]
+    },
+    {
+     "text": "The craft fair used numbered stalls so visitors could locate sellers. Why were the stalls numbered?",
+     "items": [
+      {
+       "stem": "Which answer supplies the requested explanation?",
+       "options": [
+        "The numbers helped visitors find the sellers.",
+        "The fair had stalls occupied by different sellers.",
+        "The organizers should keep the stall numbers next year.",
+        "Visitors will probably return to their favorite sellers."
+       ],
+       "answer": 0,
+       "why": "原因是 so visitors could locate sellers。第一项的 find 是 locate 的同义改写。",
+       "point": "function"
+      }
+     ]
+    },
+    {
+     "text": "The astronomy group meets outdoors. What should it do when clouds prevent observation?",
+     "items": [
+      {
+       "stem": "Which function is central to this question?",
+       "options": [
+        "Describing the group's usual outdoor meeting site",
+        "Predicting the date of the next clear night",
+        "Narrating the group's first outdoor meeting",
+        "Recommending an activity for cloudy evenings"
+       ],
+       "answer": 3,
+       "why": "What should it do 要求提出建议，即第四项。when clouds prevent observation 说明了建议用在什么情况下。",
+       "point": "function"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "function",
+    "frame"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The map room contains large tables, adjustable lamps, and drawers for oversized sheets. What is the room like?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What kind of answer does the question require?",
+         "options": [
+          "A description of the room's physical features",
+          "A reason the room changed its opening hours",
+          "A recommendation to replace the room's furniture",
+          "A prediction about demand for the room"
+         ],
+         "answer": 0,
+         "why": "What is the room like 要求描述，即第一项。tables、lamps、drawers 都是房间的特征。",
+         "point": "function"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The volunteer kitchen prepares ingredients the evening before each session. Why does it do that rather than prepare everything on the day?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which function should the response primarily serve?",
+         "options": [
+          "Narrating the kitchen's first cooking session",
+          "Explaining the reason for the preparation schedule",
+          "Predicting how the kitchen will change next year",
+          "Describing the appearance of the stored ingredients"
+         ],
+         "answer": 1,
+         "why": "Why … rather than … 问提前准备的原因，要用解释回答，即第二项。",
+         "point": "function"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The campus repair cafe has a long waiting list. Organizers are considering separate queues for clothing and electrical items. What would be a useful change?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which response opening gives the requested suggestion?",
+         "options": [
+          "The waiting list has grown since the cafe opened.",
+          "The cafe might become busier next semester.",
+          "I'd suggest separating the two repair queues.",
+          "The cafe currently repairs both kinds of items."
+         ],
+         "answer": 2,
+         "why": "What would be a useful change 要求建议。第三项用 I'd suggest 提出把两类维修分开排队。",
+         "point": "frame"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the speaker.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The oral-history project has received more recordings each month. What is likely to happen to its storage needs?"
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which opening matches the requested function?",
+         "options": [
+          "The recordings contain accounts from several generations.",
+          "The project should ask speakers to shorten their recordings.",
+          "The project began collecting accounts last winter.",
+          "It will probably need more space as recordings accumulate."
+         ],
+         "answer": 3,
+         "why": "What is likely to happen 要求预测。第四项用 will probably need 推测，依据是 more recordings each month。",
+         "point": "frame"
+        }
+       ]
+      },
+      {
+       "text": "Question: Was the peer-mediation scheme worthwhile? Explain the view. Notes: it helped students settle disagreements; mediators trained together; meetings were private.",
+       "items": [
+        {
+         "stem": "Which opening states a supported opinion?",
+         "options": [
+          "I think it was valuable because it settled disagreements.",
+          "The mediators attended training before the private meetings.",
+          "The scheme might hold more training sessions in future.",
+          "The mediators should arrange the meetings in private rooms."
+         ],
+         "answer": 0,
+         "why": "Was … worthwhile 要求评价。第一项的 valuable 对应 worthwhile，依据是 it helped students settle disagreements。",
+         "point": "frame"
+        }
+       ]
+      },
+      {
+       "text": "Question: What happened when the student journal's printing was delayed? Notes: the editor informed contributors; the group posted a digital edition; paper copies followed later.",
+       "items": [
+        {
+         "stem": "Which opening starts the required narration?",
+         "options": [
+          "The journal has both paper and digital editions.",
+          "The editor notified contributors, and the team released a digital version.",
+          "The journal should keep a digital edition available.",
+          "A future printing delay might affect contributors."
+         ],
+         "answer": 1,
+         "why": "What happened 要求叙述。第二项用 notified 和 released 按顺序讲出经过。",
+         "point": "frame"
+        }
+       ]
+      },
+      {
+       "text": "The climbing club has beginners and experienced members. Should they train together? Explain the position.",
+       "items": [
+        {
+         "stem": "Which function is required before supporting details?",
+         "options": [
+          "Predicting next year's membership numbers",
+          "Describing the wall's physical layout",
+          "Expressing a view about mixed training",
+          "Narrating the club's first training session"
+         ],
+         "answer": 2,
+         "why": "Should they train together 和 Explain the position 要求先表明对混合训练的立场，即第三项。",
+         "point": "function"
+        }
+       ]
+      },
+      {
+       "text": "The campus parcel service used to collect packages at a desk. Last week it tested lockers. Describe what happened during the first trial.",
+       "items": [
+        {
+         "stem": "What does the question ask the speaker to do?",
+         "options": [
+          "Recommend replacing the lockers with a desk",
+          "Predict whether lockers will be popular later",
+          "Describe the lockers without mentioning the trial",
+          "Narrate events from the initial locker trial"
+         ],
+         "answer": 3,
+         "why": "what happened during the first trial 要求讲试用时发生的事，即第四项。第三项只描述储物柜，不讲经过。",
+         "point": "function"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

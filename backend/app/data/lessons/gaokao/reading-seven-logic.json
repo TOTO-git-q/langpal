@@ -1,0 +1,60 @@
+{
+ "id": "reading-seven-logic", "title": "句间逻辑关系", "goal": "依据句间逻辑关系和连接表达选择衔接的句子。", "skill": "阅读", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "relation", "label": "识别相邻句之间的逻辑关系"}, {"id": "verify", "label": "依据连接表达验证句子位置"}],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）课表", "url": "docs/syllabi/gaokao.md", "used": "教学内容与课程题型"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "句间关系有递进、转折、让步、因果、举例和并列六种。连接表达提示关系，关系是否成立要看两句的内容。"}, {"box": "The road was flooded. Therefore, the bus took another route."}, {"p": "Therefore 引出结果：路被水淹，所以公交车改道。连接表达还要和空格两侧的内容相符。"}]},
+  {"id": "addition", "type": "table", "title": "递进与并列", "cols": ["关系", "表达", "例"], "rows": [
+   ["递进", "moreover", "The room is quiet. Moreover, it has a large desk."],
+   ["递进", "furthermore", "The plan saves time. Furthermore, it reduces waste."],
+   ["递进", "in addition", "The class reads poems. In addition, it writes them."],
+   ["并列", "and", "The team packed the books, and the driver loaded them."],
+   ["并列", "also", "The hall has a stage. It also has a screen."],
+   ["并列", "similarly", "The first group recorded the temperature. Similarly, the second group measured rainfall."]
+  ]},
+  {"id": "contrast", "type": "table", "title": "转折与让步", "cols": ["关系", "表达", "例"], "rows": [
+   ["转折", "however", "The path is short. However, it is steep."],
+   ["转折", "but", "The box is small, but it is heavy."],
+   ["转折", "in contrast", "The first shelf holds novels. In contrast, the second holds dictionaries."],
+   ["让步", "although", "Although it rained, the match continued indoors."],
+   ["让步", "even though", "Even though the train was late, the meeting began on time."],
+   ["让步", "nevertheless", "The task was difficult. Nevertheless, the team completed it."]
+  ]},
+  {"id": "cause", "type": "table", "title": "因果与举例", "cols": ["关系", "表达", "例"], "rows": [
+   ["因果", "therefore", "The shop was closed. Therefore, we returned later."],
+   ["因果", "as a result", "The roof leaked. As a result, the floor became wet."],
+   ["因果", "because", "The floor was wet because the roof leaked."],
+   ["举例", "for example", "Some birds eat seeds. For example, finches feed on them."],
+   ["举例", "for instance", "Several tools are needed. For instance, a ruler helps measure the wood."],
+   ["举例", "such as", "The box contains tools such as rulers and scissors."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "The museum's entrance was being repaired. ____ Visitors used the side door instead.\n1. For example, the museum displayed old doors.\n2. Therefore, the main door was closed.\n3. However, the entrance was open as usual.\n4. Similarly, the side door was repaired last year."},
+   {"p": "第二项的 Therefore 引出入口维修的结果；正门关闭，又说明了后句为什么走侧门。第三项用 However 引出对照，内容却与维修矛盾。"}
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一　关系", "points": ["relation", "verify"], "groups": [
+   {"look": "passage", "text": "The path was covered in ice. ____ The walkers chose a safer route.", "items": [{"stem": "Which sentence best fills the gap?", "options": ["Therefore, it was unsafe to use.", "For example, the route was icy.", "However, it was safe to use.", "Similarly, the ice was on the path."], "answer": 0, "why": "第一项的 Therefore 引出结冰的结果：路不安全。后句换一条更安全的路，正好接上。", "point": "verify"}]},
+   {"look": "passage", "text": "The first team painted the walls. ____ Both teams finished before lunch.", "items": [{"stem": "Which sentence best fills the gap?", "options": ["However, the second team did no painting at all.", "For example, the walls were painted blue.", "Therefore, both teams stopped work.", "Similarly, the second team painted the doors."], "answer": 3, "why": "第四项的 Similarly 引出第二组的同类工作，后句的 Both teams 正好指这两组。第一项与 Both teams finished 矛盾。", "point": "relation"}]}
+  ]},
+  {"id": "check-two", "type": "check", "title": "练习二　衔接", "points": ["relation", "verify"], "groups": [
+   {"look": "passage", "text": "The library offers several quiet activities. ____ Participants can borrow the books afterward.", "items": [{"stem": "Which sentence best fills the gap?", "options": ["However, the library offers no activities.", "For example, a reading group meets there.", "Therefore, no books can be borrowed.", "Similarly, participants returned the books."], "answer": 1, "why": "第二项的 For example 引出一项安静活动，读书小组又与后句的 the books 对应。", "point": "relation"}]},
+   {"look": "passage", "text": "The river was shallow near the bank. ____ The swimmers stayed close to the bank.", "items": [{"stem": "Which sentence best fills the gap?", "options": ["For example, the water was deep far from the bank.", "Therefore, the river was equally shallow everywhere.", "However, it became deep farther from the bank.", "Similarly, the swimmers stayed near the bank."], "answer": 2, "why": "岸边浅、远处深是对照，要用 However，后句游泳的人因此留在岸边，即第三项。第一项内容相同，但 For example 不表示对照。", "point": "verify"}]}
+  ]},
+  {"id": "check-three", "type": "check", "title": "练习三　综合", "points": ["relation", "verify"], "groups": [
+   {"look": "passage", "text": "The outdoor stage was wet after the rain. ____ The actors performed in the hall instead.", "items": [{"stem": "Which sentence best fills the gap?", "options": ["For example, the actors performed outside.", "Nevertheless, the outdoor stage was dry.", "Therefore, it could not be used safely.", "Similarly, the hall floor was wet after the rain."], "answer": 2, "why": "第三项的 Therefore 引出舞台淋湿的结果：不能安全使用。后句改到礼堂演出，正好接上。", "point": "verify"}]},
+   {"look": "passage", "text": "The club used two ways to record the event. One member took photographs. ____ Together, the records captured both images and sounds.", "items": [{"stem": "Which sentence best fills the gap?", "options": ["Another member recorded the speeches.", "However, no one recorded the sounds.", "Therefore, a second member took photographs.", "For example, the photos showed the speakers."], "answer": 0, "why": "首句说有两种记录方式。第一项与拍照并列，recorded the speeches 对应后句的 sounds。", "point": "relation"}]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["relation", "verify"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A town group wanted to make its square more comfortable in summer. The square had several benches, but little shade. ____ People could then sit outside without being in direct sun. The group also wanted the space to remain easy to clean.\n\nThe first proposal used large pots. ____ They could be moved when the square needed cleaning. A second proposal placed fixed seats around a tree. ____ The group finally chose pots because workers could move them.", "items": [
+    {"stem": "Which sentence best fills the first gap?", "options": ["For example, the benches were easy to clean.", "However, the group removed all the benches.", "Therefore, the group proposed adding trees.", "Similarly, the benches received direct sun."], "answer": 2, "why": "前句说树荫少，第三项的 Therefore 引出对策：种树。后句 sit outside without being in direct sun 正是种树的效果。", "point": "verify"},
+    {"stem": "Which sentence best fills the second gap?", "options": ["In addition, the pots could hold small trees.", "However, the pots could never be moved.", "For example, the seats were fixed around a tree.", "Therefore, the square had no need of cleaning."], "answer": 0, "why": "第一项的 In addition 补充花盆的用处，后句的 They 指 pots，could be moved 也说的是花盆。第二项与后句矛盾。", "point": "relation"},
+    {"stem": "Which sentence best fills the third gap?", "options": ["For example, pots can be moved for cleaning.", "However, those seats would be hard to move.", "Therefore, both proposals used movable pots.", "Similarly, those seats could be moved for cleaning."], "answer": 1, "why": "第二项的 However 指出固定座椅难以移动，末句据此说明为什么最后选了花盆。第四项与 fixed seats 矛盾。", "point": "verify"}
+   ]},
+   {"look": "passage", "text": "A cooking club collected recipes from families in its neighborhood. The members wanted to record dishes that people made at home. ____ One recipe described a soup prepared for family gatherings. Another explained how to bake a simple loaf.\n\nThe club planned to print a booklet. Printing every recipe would have made it too long. ____ The members selected a smaller group of recipes instead. They then checked each set of instructions with its contributor. ____ Readers would have a clearer guide to preparing the dishes.", "items": [
+    {"stem": "Which sentence best fills the first gap?", "options": ["However, few families were willing to share their recipes.", "Therefore, the club printed every recipe it received.", "Similarly, the members cooked each dish at home.", "For example, several recipes marked special occasions."], "answer": 3, "why": "后两句举出两份食谱，第一份用于家庭聚会。第四项的 For example 引出这些实例。第一项与后文收到的食谱矛盾。", "point": "relation"},
+    {"stem": "Which sentence best fills the second gap?", "options": ["For instance, every recipe was printed.", "Therefore, the members had to make a choice.", "However, the booklet needed more recipes.", "Similarly, all recipes would fit easily."], "answer": 1, "why": "前句说全印会太长，第二项的 Therefore 引出结果：只能挑选。后句 selected a smaller group 接着说怎样挑。", "point": "verify"},
+    {"stem": "Which sentence best fills the third gap?", "options": ["However, the contributors refused to check them.", "Therefore, the booklet became even longer.", "As a result, unclear steps could be corrected.", "Similarly, the members chose fewer recipes."], "answer": 2, "why": "前句写与提供者核对步骤，第三项的 As a result 引出核对的结果，后句的 clearer guide 又承接这一点。", "point": "relation"}
+   ]}
+  ]}]}
+ ]
+}

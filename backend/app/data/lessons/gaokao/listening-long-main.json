@@ -1,0 +1,377 @@
+{
+ "id": "listening-long-main",
+ "title": "主旨与谈话目的题",
+ "goal": "概括较长材料的中心内容，判断发起谈话或讲话的目的。",
+ "skill": "听力",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "main",
+   "label": "概括对话或独白的中心内容"
+  },
+  {
+   "id": "purpose",
+   "label": "判断发起谈话或讲话的目的"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语（新课标卷）：课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "主旨与谈话目的的教学要求"
+  }
+ ],
+ "cards": [
+  {
+   "id": "type",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "主旨题问整段材料的中心内容。谈话目的题问发起谈话的人想通过谈话办成什么事。同一段材料的话题和目的相关，但两种题问的重点不同。"
+    },
+    {
+     "box": "I'm calling to arrange a visit to the print studio. Could we come on Thursday? → The subject is a studio visit; the purpose is to arrange one."
+    },
+    {
+     "p": "参观工作室是谈论的对象，安排参观是打电话的目的。背景信息说明为什么要做这件事，它本身不是目的。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　辨认所问",
+     "d": "mainly discussing 要求概括讨论内容。Why is the speaker calling? 要求说明打电话的目的。"
+    },
+    {
+     "t": "2　联系开头与结尾",
+     "d": "开头常引出事项，结尾的决定能帮助确定范围。A visit is proposed. 之后谈日期和人数，最后确认参观，中心就是参观安排。"
+    },
+    {
+     "t": "3　核对重复对象",
+     "d": "反复谈到的对象通常与中心有关。日期、人数和联络方式都属于参观安排，只说人数就只概括了其中一项。"
+    }
+   ]
+  },
+  {
+   "id": "focus",
+   "type": "table",
+   "title": "主旨与目的",
+   "cols": [
+    "类型",
+    "依据",
+    "例"
+   ],
+   "rows": [
+    [
+     "话题",
+     "概括各项相关内容",
+     "The speakers discuss plans for a studio visit."
+    ],
+    [
+     "目的",
+     "确定发起者要完成的事",
+     "The caller wants to arrange a studio visit."
+    ],
+    [
+     "开头",
+     "确定引入的事项",
+     "I'd like to discuss our garden tour."
+    ],
+    [
+     "结尾",
+     "核对最终安排",
+     "I'll confirm the tour date tomorrow."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A: Our cooking club needs a place for its spring meal. May we use the college kitchen?\nB: Yes, on Saturday. I'll ask the caretaker for the key.\nA: Thank you. I'll tell the club members the time."
+    },
+    {
+     "box": "Why does the club member speak to the college staff member?\n1. To find a room for a club meal.\n2. To ask the caretaker for the meal time.\n3. To tell members the room is reserved.\n4. To have the caretaker open the kitchen."
+    },
+    {
+     "p": "依据是 needs a place 和 May we use the college kitchen。发起谈话是为了给聚餐找场地，第一项概括了这个目的。向管理员拿钥匙是后来的安排。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "仅概括一例",
+     "Choosing the paint for one poster.",
+     "材料还谈了场地和宣传，主旨要包括全部事项。"
+    ],
+    [
+     "仅概括一例",
+     "The price of one bus ticket.",
+     "材料还谈了路线和出发时间，主旨是整个行程。"
+    ],
+    [
+     "范围过大",
+     "All college activities.",
+     "材料只谈一次社团聚餐，主旨不扩大到全部活动。"
+    ],
+    [
+     "范围过大",
+     "Every public garden in the city.",
+     "材料只谈一处花园的参观，主旨不扩大到全城。"
+    ],
+    [
+     "背景当目的",
+     "To explain that the club has members.",
+     "目的是发起者提出的具体请求，如借用厨房。"
+    ],
+    [
+     "背景当目的",
+     "To say that the bus stop is nearby.",
+     "车站近只是背景，目的看发起者要办成的事。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "main",
+    "purpose"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation with Ava.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Our orchestra needs a rehearsal room. The school hall is occupied on Friday. Could we use the library room?"
+       },
+       {
+        "who": "B",
+        "text": "Yes, if the rehearsal finishes by six. I'll reserve it for you."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why does Ava speak to the librarian?",
+       "options": [
+        "To reserve a rehearsal space.",
+        "To change the rehearsal closing time.",
+        "To report an occupied school hall.",
+        "To offer the school hall for use."
+       ],
+       "answer": 0,
+       "why": "依据是 needs a rehearsal room 和 Could we use the library room。Ava 是来借排练场地的，即第一项。",
+       "point": "purpose"
+      },
+      {
+       "stem": "What is the conversation mainly about?",
+       "options": [
+        "The school's library opening hours.",
+        "The orchestra's rehearsal arrangements.",
+        "The librarian's Friday activities.",
+        "The school hall's closing time."
+       ],
+       "answer": 1,
+       "why": "依据是 Could we use the library room 和 if the rehearsal finishes by six。双方谈的是排练的场地和结束时间，即第二项。",
+       "point": "main"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "main",
+    "purpose"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a talk.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Welcome to the museum workshop. I'm speaking to explain the plan for making paper lanterns. First we'll fold the paper, then we'll decorate it. The red paper is on the table and the blue paper is by the window. Afterward we'll display the lanterns in the entrance hall. Please leave the scissors on the table when you've finished."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is the talk mainly about?",
+       "options": [
+        "A display in the museum entrance.",
+        "The colors of the workshop paper.",
+        "Plans for a lantern workshop.",
+        "The location of the paper scissors."
+       ],
+       "answer": 2,
+       "why": "依据是 explain the plan for making paper lanterns。讲话依次介绍折纸、装饰和展示，中心是灯笼工作坊的安排，即第三项。",
+       "point": "main"
+      },
+      {
+       "stem": "Why is the speaker addressing the group?",
+       "options": [
+        "To ask them to fold paper at home.",
+        "To explain the workshop activities.",
+        "To collect the lanterns on display.",
+        "To describe the museum's entrance."
+       ],
+       "answer": 1,
+       "why": "依据是 I'm speaking to explain the plan for making paper lanterns。讲话是为了说明工作坊要做的事，即第二项。",
+       "point": "purpose"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "main",
+    "purpose"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation between Rita and Alex.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Hello, I'm calling from the town cycling group. We'd like to organize a ride along the canal next month, and I'm looking for someone who knows the route to lead it. A friend suggested that your center might help. We expect about twenty riders, including some beginners, and we'd rather avoid busy roads. Would anyone at the center be interested?"
+         },
+         {
+          "who": "B",
+          "text": "I think so. Our guide Helen knows the canal path well. She led a family ride there in April. She usually works on Saturdays, but she's free on the first Sunday next month. How long would the group like to ride?"
+         },
+         {
+          "who": "A",
+          "text": "About two hours, with a short stop near the old bridge. I'll check the date with our members and call you back tomorrow. If that Sunday works, perhaps Helen can tell us where to meet."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What are Rita and Alex mainly discussing?",
+         "options": [
+          "A cycling group's guided canal ride.",
+          "A family ride that took place in April.",
+          "A guide's working hours on Saturdays.",
+          "A planned stop beside an old bridge."
+         ],
+         "answer": 0,
+         "why": "依据是 organize a ride along the canal 和 someone who knows the route to lead it。双方谈了领队、日期和时长，中心是有向导带领的运河骑行，即第一项。",
+         "point": "main"
+        },
+        {
+         "stem": "Why did Rita call the center?",
+         "options": [
+          "To invite members on a family ride.",
+          "To find a guide for the group ride.",
+          "To ask Helen about a ride in April.",
+          "To change the group's preferred route."
+         ],
+         "answer": 1,
+         "why": "依据是 I'm looking for someone who knows the route to lead it。Rita 打电话是为了给骑行找领队，即第二项。",
+         "point": "purpose"
+        },
+        {
+         "stem": "Why did Rita mention the beginners?",
+         "options": [
+          "To say they rode with Helen in April.",
+          "To ask for a ride of only two hours.",
+          "To describe the riders needing a guide.",
+          "To choose the meeting place for the ride."
+         ],
+         "answer": 2,
+         "why": "依据是 We expect about twenty riders, including some beginners。这句介绍的是需要领队的骑行者，即第三项。",
+         "point": "purpose"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a talk.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Good morning. I'm the coordinator of the town seed exchange. I'm here to explain how our exchange will work this autumn and invite residents to take part. Last year several neighbors shared seeds informally, and they suggested making the exchange open to the whole town. On October tenth we'll set up tables in the library meeting room. People can bring seeds from flowers or vegetables and label each packet with the plant's name. Those who have no seeds to share are welcome to take some too. Volunteers will answer questions about storing packets, but they won't sell any plants. The library has offered boxes for the packets, and the gardening club will provide paper labels. Please deliver any seeds to the library desk by October eighth so the volunteers have time to sort them. I hope the exchange will help neighbors grow a wider variety of plants."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What is the talk mainly about?",
+         "options": [
+          "How the library distributes garden plants.",
+          "How volunteers sort the seed packets.",
+          "How neighbors shared seeds last year.",
+          "How the town seed exchange is organized."
+         ],
+         "answer": 3,
+         "why": "依据是 I'm here to explain how our exchange will work this autumn。讲话介绍了交换的时间、地点、参加办法和物品准备，即第四项。",
+         "point": "main"
+        },
+        {
+         "stem": "Why is the coordinator speaking?",
+         "options": [
+          "To thank the library for offering boxes.",
+          "To report how neighbors shared seeds last year.",
+          "To explain the exchange and invite people.",
+          "To ask residents to buy plants from volunteers."
+         ],
+         "answer": 2,
+         "why": "依据是 explain how our exchange will work 和 invite residents to take part。讲话既说明办法又邀请参加，即第三项；去年邻居交换种子只是背景。",
+         "point": "purpose"
+        },
+        {
+         "stem": "Which description best covers the talk?",
+         "options": [
+          "Plans for sharing seeds in the town.",
+          "A list of seeds delivered to the library.",
+          "Instructions for labeling the seed boxes.",
+          "A report on every town gardening event."
+         ],
+         "answer": 0,
+         "why": "依据是全篇谈的时间、地点、参加的人和准备工作。这些都属于全镇交换种子的安排，即第一项。",
+         "point": "main"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

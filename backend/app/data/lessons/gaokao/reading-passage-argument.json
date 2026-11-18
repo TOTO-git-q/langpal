@@ -1,0 +1,65 @@
+{
+ "id": "reading-passage-argument",
+ "title": "议论文的论证结构",
+ "goal": "区分论点与反方观点，并判断理由和证据支持的论点。",
+ "skill": "阅读",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "claim", "label": "区分主要论点与反方观点"},
+  {"id": "support", "label": "判断理由及证据支持的论点"}
+ ],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "议论文结构、观点归属和证据"}],
+ "cards": [
+  {"id": "structure", "type": "table", "title": "结构", "cols": ["成分", "作用", "例"], "rows": [
+   ["论点", "提出作者希望读者接受的判断。", "The school should extend library hours."],
+   ["理由", "解释支持论点的原因。", "Later hours would help students with afternoon classes."],
+   ["证据", "用事例或数据支持具体理由。", "The late study room was full on three trial evenings."],
+   ["反方观点", "与作者主张不同的意见。", "Some staff favor closing at the usual time."],
+   ["回应", "回答反方的顾虑，再说明作者的判断。", "A trial on two evenings could limit the extra workload."]
+  ]},
+  {"id": "expressions", "type": "table", "title": "常用表达", "cols": ["方式", "作用", "例"], "rows": [
+   ["让步与反驳", "承认对方一点，再说明不同判断。", "Although extra hours cost money, a short trial can limit the expense."],
+   ["两方对照", "标明不同群体各自的观点。", "Some favor earlier opening; others prefer later closing."],
+   ["提出建议", "用建议回应已说明的问题。", "The school should try later hours twice a week."],
+   ["引出理由", "说明前面判断的原因。", "This would help students because afternoon classes finish late."],
+   ["引出证据", "用实例支持前面的理由。", "For example, the late study room was full on three evenings."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "Some residents argue that a shared tool cupboard would take too much room. The cupboard would indeed need a corner of the hall. However, it could reduce the need for each household to store equipment used only occasionally. At a trial event, neighbors borrowed every available ladder. The hall committee should test a small cupboard before deciding whether to expand it. The trial would let residents measure demand while keeping the space required modest."},
+   {"box": "Which view does the author support?\n1. Every household should buy its own ladder.\n2. A small shared cupboard should be tested.\n3. The hall has too little room for a cupboard.\n4. The full cupboard should be built immediately."},
+   {"p": "Some residents argue 引出反方的顾虑：柜子太占地方。However 后面说共享工具的好处。should test a small cupboard 是作者的建议，即第二项。第三项是反方的看法。"},
+   {"p": "试用时梯子全部被借走，说明居民有借用的需要。这个例子不能说明每户都该买梯子。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "例", "核对方法"], "rows": [
+   ["观点归属", "把居民的空间顾虑当作作者主张。", "Some residents 后面是反方，作者的主张在 However 之后。"],
+   ["让步误读", "把承认占空间当作反对试用。", "承认占空间之后，However 引出的是试用的理由。"],
+   ["证据错配", "把借出梯子当作每户购买的证据。", "借梯子说明有借用的需要，与购买无关。"],
+   ["程度扩大", "把试用小柜子改成立即扩大。", "作者建议先试用小柜子，再决定是否扩大。"]
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["claim", "support"], "groups": [
+   {"look": "passage", "text": "Some teachers prefer a single long break. I favor two short breaks because students can use them between different classes.", "items": [{"stem": "What does the author favor?", "options": ["Two shorter breaks between classes", "One longer break during the day", "Fewer classes before the long break", "A single break after all classes"], "answer": 0, "why": "I favor two short breaks 是作者的主张，即第一项。一次长休息是部分老师的看法。", "point": "claim"}]},
+   {"look": "passage", "text": "Critics say a repair day needs too many volunteers. The concern is reasonable, but one monthly event could keep the workload manageable.", "items": [{"stem": "What is the author's response to the criticism?", "options": ["Cancel every repair event immediately", "Hold a repair day once each month", "Ask each volunteer to work every day", "Find more volunteers for each repair day"], "answer": 1, "why": "作者先承认顾虑合理，but 后面的 one monthly event 是回应：每月办一次，即第二项。", "point": "claim"}]},
+   {"look": "passage", "text": "The noticeboard should include large print. At the trial, visitors could read the larger notices from the doorway.", "items": [{"stem": "What does the trial example support?", "options": ["Visitors usually read notices from the doorway.", "Small print is also readable from the doorway.", "Larger print can be read from farther away.", "All notices should be placed by the doorway."], "answer": 2, "why": "visitors could read the larger notices from the doorway 说明大字在远处也能看清，即第三项。", "point": "support"}]},
+   {"look": "passage", "text": "The club should publish a meeting agenda early. Members who receive it can prepare questions before the discussion begins.", "items": [{"stem": "Why does the author recommend an early agenda?", "options": ["It lets the club shorten all discussions.", "It lets members add items to the agenda.", "It lets members avoid preparing questions.", "It lets members prepare for the discussion."], "answer": 3, "why": "依据 can prepare questions before the discussion begins：提前发议程，成员可以在会前准备，即第四项。", "point": "support"}]}
+  ]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["claim", "support"], "groups": [
+   {"look": "passage", "text": "Some people want the town pool to offer only long swimming sessions. Longer sessions allow more time in the water, but they can be difficult for families with other commitments. The pool should keep one short session each afternoon. During last month's trial, the short session filled on four weekdays, and staff reported that several families attended together. The trial does not show that every family needs a short session, but it does show a demand for that option.", "items": [
+    {"stem": "What does the author recommend?", "options": ["Keep an afternoon session of shorter length.", "Replace afternoon sessions with longer ones.", "Reserve every afternoon session for families.", "Run the short session on four weekdays only."], "answer": 0, "why": "依据 The pool should keep one short session each afternoon：作者建议每天下午保留一个短时段，即第一项。", "point": "claim"},
+    {"stem": "What does the trial's attendance support?", "options": ["Every family requires a short session.", "Some people want a shorter session.", "Long sessions have no regular users.", "Long sessions should be dropped entirely."], "answer": 1, "why": "依据 the short session filled on four weekdays 和 it does show a demand for that option：有人需要短时段，即第二项。第一项把 some 扩大成了 every。", "point": "support"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["claim", "support"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "The town council is considering whether to publish a printed timetable for the local bus. Some members argue that the online timetable is enough. They point out that a website can be updated quickly when a service changes, while a printed sheet may become outdated. That concern deserves attention, but it does not justify relying on the website alone.\n\nThe council should provide a small number of printed timetables at the library and the health centre. People can take a copy home, make notes on it and consult it without a connection. This would be useful for residents who do not always have a phone available. It would also give staff at those locations a clear reference when answering questions.\n\nDuring a two-week trial, the library placed fifty sheets near its entrance. All were taken, and staff were asked for additional copies. This does not tell us how often each sheet was used, but it does suggest that some residents wanted a printed version. It would be unwise to assume that every passenger needs one, just as it would be unwise to assume that none do.\n\nUpdates can be handled without abandoning print. Each sheet should show the date when it was prepared and a phone number for checking changes. When the route changes, the library and health centre can replace the sheets they hold. Printing and replacing copies will involve some work, so the council should review the number needed after a few months. A limited supply, alongside the website, addresses access while keeping that work manageable.", "items": [
+    {"stem": "What is the author's main recommendation?", "options": ["Provide limited printed timetables as well as the website.", "Replace the website with printed timetables for every passenger.", "Rely on the website because it can be updated quickly.", "Review the website after a few months of use."], "answer": 0, "why": "依据 provide a small number of printed timetables 和 alongside the website：保留网站，另外提供少量纸质时刻表，即第一项。第三项是部分议员的看法。", "point": "claim"},
+    {"stem": "Which concern is raised by some council members?", "options": ["The website is updated too slowly.", "Printed information may cease to be current.", "Printed sheets take work to replace.", "Printed copies cannot show a telephone number."], "answer": 1, "why": "依据 Some members argue … a printed sheet may become outdated：这些议员担心纸质信息过时，即第二项。第三项是作者自己承认的困难。", "point": "claim"},
+    {"stem": "What does the library trial support?", "options": ["Each sheet was used often by residents.", "Every passenger needs a printed version.", "There was some demand for printed information.", "Library staff preferred the printed version."], "answer": 2, "why": "依据 All were taken 和 staff were asked for additional copies：有人需要纸质版，即第三项。原文说这不能说明每张用了多少次。", "point": "support"}
+   ]},
+   {"look": "passage", "text": "The school garden committee has to decide how to use a narrow strip beside the classroom building. One proposal is to plant flowers there throughout the year. Another is to divide the strip between flowers and a small area for growing herbs. I support the second proposal, provided that students agree on a care schedule first.\n\nA flower-only strip would be attractive and might be simpler to organize. Its supporters also point out that a single type of planting makes the border easier to plan. These are fair advantages. Yet a mixed strip could serve two purposes: flowers could make the path pleasant, while herbs could provide material for lessons about leaves and plant growth. The school would not need a large plot to try this arrangement.\n\nLast term, two classes grew herbs in containers near their windows. According to their teachers' records, both classes used the plants in several lessons. Those records do not prove that every class would use an outdoor herb bed, but they give a reason to expect that a small bed could have an educational use. A trial would also show whether the available light suits the chosen plants.\n\nThe main difficulty is care during holidays. The committee should ask for volunteers to share watering duties and choose plants that suit the site. If no group can commit to the schedule, the flower-only plan should be reconsidered. A mixed strip is worth testing when its care is arranged; planting first and assigning responsibility later would leave the proposal incomplete. The committee can review the trial at the end of the school year.", "items": [
+    {"stem": "Which plan does the author support?", "options": ["Plant only flowers without a care schedule.", "Use only containers inside every classroom.", "Plant herbs first and arrange care later.", "Test a mixed strip with an agreed care plan."], "answer": 3, "why": "依据 I support the second proposal, provided that students agree on a care schedule first：作者支持花和香草混种，条件是先定好照料安排，即第四项。", "point": "claim"},
+    {"stem": "What do supporters of the flower-only proposal emphasize?", "options": ["A single planting type is simpler to plan.", "All classes need herbs for their lessons.", "The strip receives too little light for flowers.", "A mixed strip could serve two purposes."], "answer": 0, "why": "依据 Its supporters also point out that a single type of planting makes the border easier to plan，即第一项。第四项是作者的看法。", "point": "claim"},
+    {"stem": "What do the teachers' records suggest about the herb proposal?", "options": ["Every class will certainly use outdoor herbs.", "A small herb bed could be used in some lessons.", "Herbs grow better in containers than outdoors.", "The outdoor site has already passed a light test."], "answer": 1, "why": "依据 both classes used the plants in several lessons 和 a small bed could have an educational use：小块香草地可能用于教学，即第二项。", "point": "support"}
+   ]}
+  ]}]}
+ ]
+}

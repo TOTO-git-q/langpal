@@ -1,0 +1,249 @@
+{
+ "id": "listening-overview",
+ "title": "听力部分概览",
+ "goal": "区分听力材料、题量、播放安排与卷面权重。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "format",
+   "label": "区分三类听力的材料和题量"
+  },
+  {
+   "id": "timing",
+   "label": "说出播放次数及共享作答时间"
+  },
+  {
+   "id": "weight",
+   "label": "区分三类题的卷面权重"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c1",
+   "title": "CET笔试",
+   "url": "https://cet.neea.edu.cn/html1/folder/16113/1586-1.htm",
+   "used": "听力题量、时间及卷面权重"
+  },
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "材料长度及播放次数"
+  }
+ ],
+ "cards": [
+  {
+   "id": "facts",
+   "type": "facts",
+   "title": "概述",
+   "rows": [
+    {
+     "k": "材料与题量",
+     "v": "短篇新闻 3 条、7 题；长对话 2 段、8 题；听力篇章 3 篇、10 题。",
+     "src": "C1 CET笔试；C2 大纲第 3.1 节"
+    },
+    {
+     "k": "时间与播放",
+     "v": "听力各类题共享 25 分钟；录音播放 1 遍。",
+     "src": "C1 CET笔试；C2 大纲第 3.1 节"
+    },
+    {
+     "k": "卷面权重",
+     "v": "短篇新闻、长对话和听力篇章分别占全卷的 7%、8% 和 20%。",
+     "src": "C1 CET笔试"
+    }
+   ]
+  },
+  {
+   "id": "types",
+   "type": "table",
+   "title": "题型",
+   "cols": [
+    "题型",
+    "材料长度",
+    "题量"
+   ],
+   "rows": [
+    [
+     "短篇新闻",
+     "3 条合计 450–500 词",
+     "7 题"
+    ],
+    [
+     "长对话",
+     "每段 240–280 词",
+     "8 题"
+    ],
+    [
+     "听力篇章",
+     "每篇 220–240 词",
+     "10 题"
+    ]
+   ],
+   "src": "C1 CET笔试；C2 大纲第 3.1 节"
+  },
+  {
+   "id": "weights",
+   "type": "table",
+   "title": "卷面权重",
+   "cols": [
+    "题型",
+    "卷面权重",
+    "材料"
+   ],
+   "rows": [
+    [
+     "短篇新闻",
+     "7%",
+     "3 条新闻"
+    ],
+    [
+     "长对话",
+     "8%",
+     "2 段对话"
+    ],
+    [
+     "听力篇章",
+     "20%",
+     "3 篇篇章"
+    ],
+    [
+     "听力合计",
+     "35%",
+     "三类听力材料"
+    ]
+   ],
+   "note": "比例表示卷面权重，不是每题固定的报道分。"
+  },
+  {
+   "id": "practice",
+   "type": "table",
+   "title": "练习计时",
+   "cols": [
+    "项目",
+    "时间",
+    "适用范围"
+   ],
+   "rows": [
+    [
+     "考试听力",
+     "25 分钟",
+     "三类听力共享"
+    ],
+    [
+     "新闻课小测",
+     "6 分钟",
+     "本课程题型课和体裁课"
+    ],
+    [
+     "对话课小测",
+     "8 分钟",
+     "本课程题型课和体裁课"
+    ],
+    [
+     "篇章课小测",
+     "8 分钟",
+     "本课程题型课和体裁课"
+    ]
+   ],
+   "note": "小测计时是本课程的教学安排，不是考试各类题的单独限时。"
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 4,
+   "pass": 0.8,
+   "points": [
+    "format",
+    "timing",
+    "weight"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "Which listening task has three reports and seven questions?",
+         "options": [
+          "Short news reports",
+          "Long conversations",
+          "Listening passages",
+          "Short conversations"
+         ],
+         "answer": 0,
+         "why": "短篇新闻为 3 条、7 题。",
+         "point": "format"
+        },
+        {
+         "stem": "Which task contains two recordings and eight questions?",
+         "options": [
+          "Short news reports",
+          "Listening passages",
+          "Long conversations",
+          "Short conversations"
+         ],
+         "answer": 2,
+         "why": "长对话为 2 段、8 题。",
+         "point": "format"
+        },
+        {
+         "stem": "How often is a listening recording played?",
+         "options": [
+          "Twice for news",
+          "Once for each recording",
+          "Twice for passages",
+          "Once for conversations only"
+         ],
+         "answer": 1,
+         "why": "听力录音播放 1 遍。",
+         "point": "timing"
+        },
+        {
+         "stem": "How is the 25-minute listening time allocated?",
+         "options": [
+          "It is reserved for news reports.",
+          "It is reserved for conversations.",
+          "It is divided into fixed task limits.",
+          "It is shared by all listening tasks."
+         ],
+         "answer": 3,
+         "why": "25 分钟为三类听力共享的时间。",
+         "point": "timing"
+        },
+        {
+         "stem": "What is the paper weight of listening passages?",
+         "options": [
+          "Twenty percent",
+          "Seven percent",
+          "Eight percent",
+          "Thirty-five percent"
+         ],
+         "answer": 0,
+         "why": "听力篇章占全卷 20%；35% 是听力合计。",
+         "point": "weight"
+        },
+        {
+         "stem": "Which pair gives the paper weights for news and conversations, respectively?",
+         "options": [
+          "8% and 7%",
+          "20% and 8%",
+          "7% and 8%",
+          "7% and 20%"
+         ],
+         "answer": 2,
+         "why": "短篇新闻占 7%，长对话占 8%。",
+         "point": "weight"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

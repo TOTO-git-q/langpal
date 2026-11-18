@@ -1,0 +1,484 @@
+{
+ "id": "writing-email-errors",
+ "title": "常见语法错误",
+ "goal": "能在保留邮件原意的前提下改正六类常见语法和书写错误。",
+ "skill": "writing",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 写作",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "tense",
+   "label": "改正时态和主谓一致的错误"
+  },
+  {
+   "id": "form",
+   "label": "改正冠词、介词和标点的错误"
+  }
+ ],
+ "sources": [
+  {
+   "id": "rubric",
+   "title": "ETS：Writing Scoring Guide — Write an Email",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/writing-rubrics.pdf",
+   "used": "0–5 分每一档的描述（本课是中文转述，原文以官方为准）"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "改语法错误时，邮件的事实和意图不能变。时态表示动作发生的时间。主谓一致看主语的中心词。冠词、介词和标点决定名词之间的关系，以及句子在哪里结束。"
+    },
+    {
+     "box": "The list of names is attached.\nThe names on the list are correct."
+    },
+    {
+     "p": "第一句的主语中心词是 list，不是 names；第二句的主语是 names。动词的单复数看中心词，不看离动词最近的名词。不完整的句子要补出主句，只改词尾不够。"
+    }
+   ]
+  },
+  {
+   "id": "first",
+   "type": "table",
+   "title": "常见错误：基本形式",
+   "cols": [
+    "类型",
+    "错句",
+    "改正",
+    "说明"
+   ],
+   "rows": [
+    [
+     "时态",
+     "I send the invitation yesterday.",
+     "I sent the invitation yesterday.",
+     "yesterday 是已经过去的时间，用过去式。"
+    ],
+    [
+     "主谓一致",
+     "The list of applicants are attached.",
+     "The list of applicants is attached.",
+     "中心词 list 是单数，动词用 is。"
+    ],
+    [
+     "冠词",
+     "I need a advice about the form.",
+     "I need advice about the form.",
+     "advice 不可数，不加 a。要计数时说 a piece of advice。"
+    ],
+    [
+     "介词",
+     "Please reply me by Monday.",
+     "Please reply to me by Monday.",
+     "reply 后面接人要加 to。by Monday 表示周一之前。"
+    ],
+    [
+     "标点和大小写",
+     "the room is locked, I cannot enter.",
+     "The room is locked. I cannot enter.",
+     "两个完整的句子不能只用逗号连接。句首字母大写。"
+    ],
+    [
+     "句子不完整",
+     "Because the attachment is missing.",
+     "Because the attachment is missing, I cannot check the details.",
+     "because 从句不能单独成句，要接上主句。"
+    ]
+   ]
+  },
+  {
+   "id": "second",
+   "type": "table",
+   "title": "常见错误：语境限定",
+   "cols": [
+    "类型",
+    "错句",
+    "改正",
+    "说明"
+   ],
+   "rows": [
+    [
+     "时态",
+     "I have received the badge last Friday.",
+     "I received the badge last Friday.",
+     "有 last Friday 这类过去时间，用一般过去时，不用现在完成时。"
+    ],
+    [
+     "主谓一致",
+     "The replacement keys is ready.",
+     "The replacement keys are ready.",
+     "中心词 keys 是复数，replacement 只是修饰语。"
+    ],
+    [
+     "冠词",
+     "Could you send me an copy of the receipt?",
+     "Could you send me a copy of the receipt?",
+     "a 和 an 看后一个词的读音。copy 以辅音开头，用 a。"
+    ],
+    [
+     "介词",
+     "The interview is in Tuesday.",
+     "The interview is on Tuesday.",
+     "具体某天用 on；月份用 in，如 in May。"
+    ],
+    [
+     "标点和大小写",
+     "i can attend on monday.",
+     "I can attend on Monday.",
+     "代词 I 和星期名大写。普通名词不大写。"
+    ],
+    [
+     "句子不完整",
+     "The parcel that arrived this morning.",
+     "The parcel that arrived this morning contains the samples.",
+     "that arrived 只修饰 parcel，句子还缺谓语 contains。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Context: Yesterday, a student received a box containing two damaged microscope slides. The student is reporting the damage now.\nDraft: Dear Laboratory Supplier,\ni receive the box yesterday. The slides in the box is damaged. Because the glass is cracked.\nBest regards,\nNadia"
+    },
+    {
+     "p": "有 yesterday，receive 改为 received。主语是 slides，is 改为 are。Because the glass is cracked 只有原因，要补出它造成的影响。"
+    },
+    {
+     "box": "Dear Laboratory Supplier,\nI received the box yesterday. The slides in the box are damaged. Because the glass is cracked, I cannot use them for the demonstration.\nBest regards,\nNadia"
+    },
+    {
+     "p": "received 说的是已经收到，are 说的是现在的状态，两句时态不同是正常的。I 和句首字母大写。补主句时保留 cracked 这一事实，不编造已有的处理结果。"
+    }
+   ]
+  },
+  {
+   "id": "check-tense",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "tense",
+    "form"
+   ],
+   "groups": [
+    {
+     "look": "email",
+     "text": "Context: The ticket office issued a replacement yesterday. The message reports that single completed event.\nDraft: Dear Ticket Office, I collect the replacement yesterday.",
+     "items": [
+      {
+       "stem": "Which revision preserves the event and its time?",
+       "options": [
+        "I collected the replacement yesterday.",
+        "I have collected the replacement yesterday.",
+        "I was collecting the replacement yesterday.",
+        "I collected the replacements yesterday."
+       ],
+       "answer": 0,
+       "why": "single completed event 和 yesterday 表示过去完成的一次动作，用一般过去时 collected，即第一项。第二项的现在完成时不能与 yesterday 连用。",
+       "point": "tense"
+      }
+     ]
+    },
+    {
+     "look": "email",
+     "text": "Context: One envelope contains several completed forms and is attached to the message as a scanned file.\nDraft: The envelope containing the forms are attached.",
+     "items": [
+      {
+       "stem": "Which revision corrects agreement while preserving the attached object and its contents?",
+       "options": [
+        "The envelopes containing the forms are attached.",
+        "The envelope containing the forms is attached.",
+        "The forms from the envelope are attached.",
+        "The envelope containing the form is attached."
+       ],
+       "answer": 1,
+       "why": "The envelope containing the forms 的主语中心词是 envelope，containing the forms 只是修饰，谓语应为 is。",
+       "point": "tense"
+      }
+     ]
+    },
+    {
+     "look": "email",
+     "text": "Context: A student requests guidance, without specifying a particular recommendation.\nDraft: Dear Careers Team, Could you give me an advice about the interview?",
+     "items": [
+      {
+       "stem": "Which revision preserves the general request and corrects the noun phrase?",
+       "options": [
+        "Could you give the interviewer advice about my application?",
+        "Could you arrange an interview about the advice I provided?",
+        "Could you give me advice about the interview?",
+        "Could you explain the recommendation I have already received?"
+       ],
+       "answer": 2,
+       "why": "without specifying a particular recommendation 说明请求的是一般的指导。advice 不可数，去掉 an，即第三项。",
+       "point": "form"
+      }
+     ]
+    },
+    {
+     "look": "email",
+     "text": "Context: The message announces a briefing on a specific day.\nDraft: The briefing will take place in Friday.",
+     "items": [
+      {
+       "stem": "Which correction preserves the intended day?",
+       "options": [
+        "The briefing will take place before Friday.",
+        "The briefing will take place after Friday.",
+        "The briefing will take place by Friday.",
+        "The briefing will take place on Friday."
+       ],
+       "answer": 3,
+       "why": "specific day 指星期五当天，具体某天用 on，即第四项。第三项的 by 表示截止，改变了时间。",
+       "point": "form"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-boundaries",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "form"
+   ],
+   "groups": [
+    {
+     "look": "email",
+     "text": "Context: The sender cannot unlock a cabinet and needs the key.\nDraft: The cabinet is locked, I need the key.",
+     "items": [
+      {
+       "stem": "Which revision fixes the sentence boundary while preserving the stated situation?",
+       "options": [
+        "The cabinet is unlocked. I need the key.",
+        "The cabinet is locked because I need the key.",
+        "The cabinet is locked. I need the key.",
+        "I have the key; it is locked."
+       ],
+       "answer": 2,
+       "why": "The cabinet is locked 和 I need the key 都是完整的句子，用句号分开，即第三项。第二项的 because 把需要钥匙写成了上锁的原因。",
+       "point": "form"
+      }
+     ]
+    },
+    {
+     "look": "email",
+     "text": "Context: The missing page prevents a reviewer from checking the total.\nDraft: Because the last page is missing.",
+     "items": [
+      {
+       "stem": "Which completion supplies the missing main clause without changing the situation?",
+       "options": [
+        "the reviewer cannot verify the total.",
+        "the reviewer can verify the total without it.",
+        "the reviewer has already verified the total.",
+        "the reviewer can still verify it."
+       ],
+       "answer": 0,
+       "why": "prevents a reviewer from checking the total 说明结果是无法核对。第一项补出了这个主句。",
+       "point": "form"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "stem": "A courier is identifying the contents of a newly arrived package.",
+       "lead": "The package",
+       "chunks": [
+        "that arrived this morning",
+        "contains",
+        "the",
+        "replacement"
+       ],
+       "tail": "parts.",
+       "extra": [
+        "containing"
+       ],
+       "why": "that arrived this morning 修饰 package，contains 是主句的谓语。containing 不能单独作谓语。",
+       "point": "form"
+      },
+      {
+       "stem": "A student confirms availability on a weekday.",
+       "lead": "I",
+       "chunks": [
+        "can",
+        "attend",
+        "the briefing",
+        "on"
+       ],
+       "tail": "Monday.",
+       "extra": [
+        "attending"
+       ],
+       "why": "can 后面接原形 attend。具体某天用 on，Monday 大写。",
+       "point": "form"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "tense",
+    "form"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "email",
+       "text": "Context: The bursar sent a refund yesterday, and the student confirms that completed transfer now.\nDraft: Dear Bursar, I receive the refund yesterday. Thank you for processing it.",
+       "items": [
+        {
+         "stem": "Which revision preserves the time of receipt?",
+         "options": [
+          "I received the refund yesterday.",
+          "I have received the refund yesterday.",
+          "I was receiving the refund yesterday.",
+          "I received the refunds yesterday."
+         ],
+         "answer": 0,
+         "why": "yesterday 和 completed transfer 表示过去已完成的事，用一般过去时 received，即第一项。第二项的现在完成时不能与 yesterday 连用。",
+         "point": "tense"
+        }
+       ]
+      },
+      {
+       "look": "email",
+       "text": "Context: A single schedule lists all appointments and accompanies the email as a file.\nDraft: Dear Adviser, The schedule of appointments are attached.",
+       "items": [
+        {
+         "stem": "Which change corrects agreement without changing the facts?",
+         "options": [
+          "Make schedule plural to match are.",
+          "Change are to is to match schedule.",
+          "Change appointments to appointment to match schedule.",
+          "Change attached to attaching to match appointments."
+         ],
+         "answer": 1,
+         "why": "a single schedule 说明只有一份日程。中心词 schedule 是单数，are 改为 is，即第二项。",
+         "point": "tense"
+        }
+       ]
+      },
+      {
+       "look": "email",
+       "text": "Context: The writer wants one unspecified hour to prepare a demonstration.\nDraft: Dear Demonstration Coordinator, I need a hour to prepare the equipment.",
+       "items": [
+        {
+         "stem": "Which revision corrects the article without changing the preparation request?",
+         "options": [
+          "I need the hour we reserved to prepare the equipment.",
+          "I need an hour each day to prepare the equipment.",
+          "I need an hour to prepare the equipment.",
+          "I need hours to prepare the equipment."
+         ],
+         "answer": 2,
+         "why": "one unspecified hour 要用不定冠词。hour 以元音开头，用 an hour，即第三项。第二项多出了 each day。",
+         "point": "form"
+        }
+       ]
+      },
+      {
+       "look": "email",
+       "text": "Context: A rehearsal takes place on the day named in the message.\nDraft: Dear Stage Team, The rehearsal is in Wednesday.",
+       "items": [
+        {
+         "stem": "Which correction preserves the stated timing?",
+         "options": [
+          "The rehearsal is before Wednesday.",
+          "The rehearsal is after Wednesday.",
+          "The rehearsal is by Wednesday.",
+          "The rehearsal is on Wednesday."
+         ],
+         "answer": 3,
+         "why": "on the day named 指星期三当天，用 on Wednesday，即第四项。第三项的 by 表示截止，改变了时间。",
+         "point": "form"
+        }
+       ]
+      },
+      {
+       "items": [
+        {
+         "stem": "The writer reports a delivery completed last night.",
+         "lead": "I",
+         "chunks": [
+          "received",
+          "the replacement",
+          "filter",
+          "last"
+         ],
+         "tail": "night.",
+         "extra": [
+          "receive"
+         ],
+         "why": "last night 是已经过去的时间，用 received。",
+         "point": "tense"
+        },
+        {
+         "stem": "Two boxes contain spare cables and are ready for collection now.",
+         "lead": "The boxes containing the spare cables",
+         "chunks": [
+          "are",
+          "ready",
+          "for",
+          "collection"
+         ],
+         "tail": ".",
+         "extra": [
+          "is"
+         ],
+         "why": "主语 boxes 为复数，containing the spare cables 是修饰成分，谓语用 are。",
+         "point": "tense"
+        },
+        {
+         "stem": "The office asks which day the sender can discuss a corrected invoice.",
+         "lead": "I am",
+         "chunks": [
+          "available",
+          "for",
+          "a discussion",
+          "on"
+         ],
+         "tail": "Tuesday.",
+         "extra": [
+          "in"
+         ],
+         "why": "available for a discussion 表示可参加讨论，具体星期前用 on。",
+         "point": "form"
+        },
+        {
+         "stem": "A torn page prevents the sender from reading the final instruction.",
+         "lead": "Because the page is torn,",
+         "chunks": [
+          "I",
+          "cannot",
+          "read",
+          "the final"
+         ],
+         "tail": "instruction.",
+         "extra": [
+          "reading"
+         ],
+         "why": "Because 从句之后，逗号后补出主句 I cannot read the final instruction。cannot 后面用原形 read。",
+         "point": "form"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

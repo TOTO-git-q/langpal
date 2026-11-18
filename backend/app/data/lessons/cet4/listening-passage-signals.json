@@ -1,0 +1,77 @@
+{
+ "id": "listening-passage-signals",
+ "title": "篇章中的逻辑信号",
+ "goal": "识别口头信号的逻辑类别，判断信号前后的信息关系。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "signal", "label": "识别口头信号表达的逻辑类别"},
+  {"id": "relation", "label": "判断信号前后信息的关系"}
+ ],
+ "sources": [
+  {"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "听力篇章教学依据"}
+ ],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "口头信号表达标出话题的引入、列举、转折、对比、因果和结束。信号只说明关系，具体内容要听它前后的句子。"},
+   {"box": "The first room is quiet. In contrast, the second is noisy.\nThe second room is noisy. For example, machines run there all day."},
+   {"p": "In contrast 对比两间房的不同。for example 引出说明噪声的实例。However 多引出转折或限制。"}
+  ]},
+  {"id": "opening-list", "type": "table", "title": "引入与列举", "cols": ["类别", "表达", "例句"], "rows": [
+   ["引入", "Today I'll discuss", "Today I'll discuss the town's footpaths."],
+   ["引入", "Let's look at", "Let's look at the route across the park."],
+   ["引入", "Our topic is", "Our topic is the use of public space."],
+   ["引入", "I'd like to begin with", "I'd like to begin with the entrance."],
+   ["列举", "first", "First, the group measured the doorway."],
+   ["列举", "second", "Second, the group checked the corridor."],
+   ["列举", "for example", "For example, a ramp can connect two levels."],
+   ["列举", "for instance", "For instance, a sign can indicate an entrance."]
+  ], "note": "first 和 second 标记次序；for example 与 for instance 引出具体实例。"},
+  {"id": "contrast", "type": "table", "title": "转折与对比", "cols": ["类别", "表达", "例句"], "rows": [
+   ["转折", "however", "The room is large. However, its door is narrow."],
+   ["转折", "but", "The path is short, but it is steep."],
+   ["转折", "nevertheless", "The task was difficult. Nevertheless, the group completed it."],
+   ["转折", "even so", "The chairs were old. Even so, they were comfortable."],
+   ["对比", "in contrast", "The east room is quiet. In contrast, the west room is noisy."],
+   ["对比", "unlike", "Unlike the east room, the west room faces the street."],
+   ["对比", "whereas", "The east room faces a garden, whereas the west room faces a street."],
+   ["对比", "by comparison", "The first path is steep. By comparison, the second is level."]
+  ], "note": "转折常引出限制。对比只指出两方的差异，并不否定前一句。"},
+  {"id": "cause-end", "type": "table", "title": "因果与结束", "cols": ["类别", "表达", "例句"], "rows": [
+   ["因果", "because", "The event moved indoors because rain was expected."],
+   ["因果", "as a result", "Rain was expected. As a result, the event moved indoors."],
+   ["因果", "therefore", "The path was closed. Therefore, the group used the road."],
+   ["因果", "this led to", "The pipe broke. This led to a delay."],
+   ["结束", "to sum up", "To sum up, both routes reach the station."],
+   ["结束", "in short", "In short, both routes have advantages."],
+   ["结束", "the main point is", "The main point is that access depends on the entrance."],
+   ["结束", "to conclude", "To conclude, the signs make the entrance easier to find."]
+  ], "note": "because 后面是原因，as a result 后面是结果。结束表达概括的是前文讲过的内容。"},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "Today I'll discuss two ways to display books. A low shelf is easy to reach. However, it holds fewer books than a taller shelf. In contrast, a tall shelf provides more space but may be harder to reach. For example, a child may need help with its upper shelves. To sum up, both storage space and access matter when a shelf is chosen."},
+   {"box": "What does the example of the child illustrate?\n1. A limitation of reaching a tall shelf\n2. The number of books on a low shelf\n3. A reason a low shelf holds fewer books\n4. A summary of how shelves should be chosen"},
+   {"p": "For example 引出孩子需要帮助的情况，说明前文较高书架不易够到，即第一项。However 引出低书架容量的限制，in contrast 对比高书架。"}
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["signal", "relation"], "groups": [
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "Today I'll discuss a local walking route. It connects the station with the park."}]}, "items": [{"stem": "What function does the opening expression serve?", "options": ["It gives a result of closing the park.", "It introduces the topic of the route.", "It contrasts the station with the park.", "It summarizes a completed comparison."], "answer": 1, "why": "Today I'll discuss 引出话题，即第二项。", "point": "signal"}]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "The room has several uses. For example, the club holds meetings there."}]}, "items": [{"stem": "How is the meeting related to the first statement?", "options": ["It contradicts the room's use.", "It states the cause of the room's size.", "It provides one instance of a use.", "It compares the room with another building."], "answer": 2, "why": "For example 引出房间用途的一个实例，即第三项。", "point": "relation"}]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "The hall seats many people. However, its entrance is narrow."}]}, "items": [{"stem": "What relation does however signal?", "options": ["A limitation alongside the hall's capacity", "An example of every entrance in the hall", "A result caused by the hall's capacity", "A summary of the hall's construction"], "answer": 0, "why": "However 引出入口狭窄这一限制，即第一项。", "point": "signal"}]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "The eastern path is shaded. In contrast, the western path is open to the sun."}]}, "items": [{"stem": "How are the two paths related in the description?", "options": ["One is an example of the other's location.", "One caused the other to become shaded.", "They have the same exposure to sunlight.", "They differ in their exposure to sunlight."], "answer": 3, "why": "In contrast 对比 shaded 与 open to the sun，即第四项。", "point": "relation"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["signal", "relation"], "groups": [
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "Today I'll discuss the arrangement of a small craft market. The organizers wanted visitors to reach every table without crowding the doorway. First, they drew a plan of the room. Second, they marked the tables and entrances on the plan. The plan showed two possible routes through the room. One route followed the walls; the other crossed the center. The organizers tested both before choosing the final arrangement. The route along the walls left the center open. However, it brought several tables close to the entrance. In contrast, the route through the center left more space beside the entrance but made the middle of the room busier. For example, two people standing at opposite tables could narrow the central passage. The organizers therefore moved the tables slightly farther apart. As a result, visitors had more room to pass between them. The change also reduced the number of tables that could fit in the room. The group considered that limitation when it invited participants. It asked each participant to bring a smaller display rather than adding tables. On the day of the market, a volunteer remained near the entrance to answer questions. To sum up, arranging the market involved balancing display space with room for visitors to move. The final plan responded to both concerns, although it did not provide unlimited space for either one."}]}, "items": [
+    {"stem": "What does the example of two people illustrate?", "options": ["A way the central passage could become narrow", "A reason the entrance was placed in the center", "A reason the tables were moved closer together", "A summary of every display at the market"], "answer": 0, "why": "For example 后的两人使通道变窄，说明中央路线的限制，即第一项。", "point": "relation"},
+    {"stem": "What function does to sum up serve?", "options": ["It introduces the first route for the first time.", "It contrasts two volunteers at the entrance.", "It gives a specific example of a display.", "It states the conclusion about space and movement."], "answer": 3, "why": "To sum up 引出对展示空间和通行空间的概括，即第四项。", "point": "signal"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["signal", "relation"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "Our topic is the use of a community notice board. The board stands near the entrance."}]}, "items": [{"stem": "What does the opening expression signal?", "options": ["An example of an entrance", "A contrast between two boards", "The introduction of a topic", "The result of moving a board"], "answer": 2, "why": "Our topic is 引出讨论对象，即第三项。", "point": "signal"}]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "A room can serve several purposes. For instance, a club can use it for a meeting."}]}, "items": [{"stem": "What is the meeting in relation to the first statement?", "options": ["A counterclaim about the room's size", "An example of one possible purpose", "A result of the club leaving the room", "A conclusion about every club meeting"], "answer": 1, "why": "For instance 引出房间用途的一个实例，即第二项。", "point": "relation"}]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "The new bench is close to the entrance. However, it is exposed to rain."}]}, "items": [{"stem": "What does however introduce?", "options": ["A limitation of the bench's location", "An example of a sheltered entrance", "A cause of the bench's construction", "A summary of the bench's advantages"], "answer": 0, "why": "However 引出长椅位置的一个不利方面，即第一项。", "point": "signal"}]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "The first route has many steps. In contrast, the second route has a ramp."}]}, "items": [{"stem": "What relationship connects the two routes?", "options": ["The first route caused the second to close.", "The second route is an example of a step.", "The first route summarizes the second route.", "The routes differ in their means of access."], "answer": 3, "why": "In contrast 对照 steps 与 a ramp，第四项保留两条路线的差异。", "point": "relation"}]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "The bridge was closed for repairs. As a result, the bus used a different road."}]}, "items": [{"stem": "What relationship does as a result signal?", "options": ["The bus route is an example of bridge repair.", "The bus route changed because the bridge closed.", "The bridge closed because the bus changed roads.", "The bridge and bus route are being contrasted."], "answer": 1, "why": "As a result 后是桥梁关闭造成的路线变化，即第二项。", "point": "relation"}]},
+   {"audio": {"intro": "Listen to a passage.", "lines": [{"who": "A", "text": "Both boxes keep the papers dry, but only one fits the shelf. To conclude, size and protection both matter."}]}, "items": [{"stem": "What does to conclude introduce?", "options": ["A new example of a wet document", "A reason the shelf became smaller", "A contrast between two kinds of paper", "A summary of the relevant considerations"], "answer": 3, "why": "To conclude 引出对尺寸和保护作用的概括，即第四项。", "point": "signal"}]}
+  ]}]}
+ ]
+}

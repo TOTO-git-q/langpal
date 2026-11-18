@@ -1,0 +1,509 @@
+{
+ "id": "writing-discussion-method",
+ "title": "题型与评分标准",
+ "goal": "能区分教授的问题与同学的立场，并依据评分标准判断帖子在展开和表达上的问题。",
+ "skill": "writing",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 写作",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "task",
+   "label": "找出教授的问题和两位同学的立场"
+  },
+  {
+   "id": "criteria",
+   "label": "按评分标准判断一个帖子的问题"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、计分上限、测什么能力"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明、限时、官方样题和 5 分样例的评语"
+  },
+  {
+   "id": "rubric",
+   "title": "ETS：Writing Scoring Guide — Write for an Academic Discussion",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/writing-rubrics.pdf",
+   "used": "0–5 分每一档的描述（本课是中文转述，原文以官方为准）"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Writing Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-writing.pdf",
+   "used": "第 1 课（题目说明和答案页），第 4 课（在讨论区发帖要做的三件事），第 5 课（样题与样例）"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "学术讨论题给出教授的问题和两位同学的帖子。考生要表明自己的立场，并加以支持。同学的意见是讨论的背景，要回答的是教授的问题。"
+    },
+    {
+     "box": "Professor: Should a museum replace long object labels with short ones?\nLena: Short labels leave visitors more time to examine objects.\nOmar: Long labels explain details that visitors may not notice."
+    },
+    {
+     "p": "这个问题要判断是否缩短展品说明。Lena 支持缩短，Omar 强调长说明的价值。只复述两人的理由，不算自己的回答。"
+    },
+    {
+     "p": "限时 10 分钟，包括阅读和输入。官方建议至少写 100 词，但写够字数不等于展开充分。作答时题目一直可见，有字数统计，没有拼写检查。"
+    }
+   ],
+   "src": "overview 第 15 页；lessonplan 第 4、7 页"
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "note": "以上为本课程的建议，不是官方规定。",
+   "steps": [
+    {
+     "t": "1　确定问题与立场（2 分钟）",
+     "d": "分清教授要判断的做法和同学给出的理由。例如 museum 题问的是说明是否应缩短，不是博物馆有没有价值。"
+    },
+    {
+     "t": "2　展开自己的回答（7 分钟）",
+     "d": "选定立场，说明理由怎样支持它，再加入具体情况。例如主张用短标签，同时提供可选的详细说明，兼顾两种阅读需求。"
+    },
+    {
+     "t": "3　核对内容与语言（1 分钟）",
+     "d": "检查观点是否切题、解释是否完整，再核对主谓一致和指代。例如 The labels helps 应改为 The labels help。"
+    }
+   ]
+  },
+  {
+   "id": "task",
+   "type": "table",
+   "title": "问题与立场",
+   "cols": [
+    "内容",
+    "做法",
+    "例"
+   ],
+   "rows": [
+    [
+     "教授的问题",
+     "找出要判断的动作和对象。",
+     "Should labels be shorter? → 判断标签长度。"
+    ],
+    [
+     "支持意见",
+     "区分立场与支撑它的理由。",
+     "Short labels save time. → 支持；理由是节省时间。"
+    ],
+    [
+     "反对意见",
+     "写清对方具体要保留什么。",
+     "Long labels explain details. → 保留详细说明。"
+    ],
+    [
+     "自己的立场",
+     "回答问题，不只复述双方。",
+     "I favor short labels with optional detailed notes."
+    ],
+    [
+     "自己的贡献",
+     "增加解释、例子或适用条件。",
+     "A visitor studying a single object could read an extended note."
+    ],
+    [
+     "只谈背景",
+     "谈了背景，没有回答问题。",
+     "Museums display objects. → 未回答标签是否应缩短。"
+    ]
+   ]
+  },
+  {
+   "id": "criteria",
+   "type": "table",
+   "title": "评分标准",
+   "cols": [
+    "分档",
+    "内容与语言",
+    "例"
+   ],
+   "rows": [
+    [
+     "5 分",
+     "切题，展开充分；句式多样，用词准确，几乎无误。",
+     "Short labels preserve viewing time; optional notes serve visitors seeking detail."
+    ],
+    [
+     "4 分",
+     "切题，展开足够且易懂；句式有变化，错误少。",
+     "Short labels leave time for viewing. Visitors can read extra notes if needed."
+    ],
+    [
+     "3 分",
+     "大体切题且可理解；部分解释缺失，存在明显错误。",
+     "Short labels saves time. Visitors need time, so they are better."
+    ],
+    [
+     "2 分",
+     "展开薄弱或部分偏题；表达有限，错误累积。",
+     "Labels short good. Museum people time and read."
+    ],
+    [
+     "1 分",
+     "几乎无连贯观点；语言严重受限，原创内容极少。",
+     "Museum labels visitors. Short long details."
+    ],
+    [
+     "0 分",
+     "空白、拒答、非英语、完全抄题、完全偏题或乱敲。",
+     "[Blank response]"
+    ]
+   ],
+   "note": "例句只展示各档的特征，不是整篇的得分。评分综合看内容、展开和语言，不按某一种错误的个数区分 3 分和 4 分。",
+   "src": "rubric 第 2 页"
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Professor: Should cities fund repair centers for household appliances?\nEva: Yes. Repairs can keep useful appliances in service.\nJules: No. Public money should support services used by more residents.\nDraft: I favor repair centers. They are useful, and repairing appliances is useful. Cities should fund them because they are helpful."
+    },
+    {
+     "box": "Which weakness is most evident in the draft?\n1. It supports the policy without explaining how it benefits residents.\n2. It rejects repairs because too few residents use appliances.\n3. It argues for broader services instead of repair centers.\n4. It explains appliance maintenance without stating a funding preference."
+    },
+    {
+     "p": "答案是第一项。I favor repair centers 表明了立场，但 useful、helpful 只是重复评价，没有解释修理怎样带来好处。第二项和第三项把 Jules 的意见当成了作者的立场。"
+    },
+    {
+     "box": "Revision: I favor repair centers because a small repair can let a household keep an appliance it would otherwise replace. For instance, a resident with a broken vacuum hose could replace that part instead of buying a new machine."
+    },
+    {
+     "p": "改写补出了小修理和不必换整机之间的关系。这个例子支持原来的立场，说的是一种情况，不是所有家电。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "混淆发言人",
+     "Eva supports broader services. 原文是 Jules。",
+     "逐一核对发言人及其理由。"
+    ],
+    [
+     "把背景当问题",
+     "What makes an appliance useful?",
+     "原题判断的是公共资金的用途。"
+    ],
+    [
+     "把评价当展开",
+     "Repairs are helpful because they are useful.",
+     "两个形容词都没有说明好处从哪里来。"
+    ],
+    [
+     "凭单句定分",
+     "One spelling error means a score of 3.",
+     "评分看整篇的展开和语言。"
+    ],
+    [
+     "把长度当质量",
+     "A long list of useful things proves the claim.",
+     "列出的每一项都要说明和立场的关系。"
+    ]
+   ]
+  },
+  {
+   "id": "check-task",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "task",
+    "criteria"
+   ],
+   "groups": [
+    {
+     "look": "post",
+     "text": "Professor: Should a town give stall-fee discounts to first-time craft sellers?\nMina: Yes, because the initial fee may discourage new sellers.\nLeon: No, because established sellers also face costs.",
+     "items": [
+      {
+       "stem": "Which decision does the professor ask the class to discuss?",
+       "options": [
+        "Whether experienced sellers have lower production costs",
+        "Whether new sellers should pay less to rent a stall",
+        "Whether new sellers should sell the same crafts",
+        "Whether established sellers should stop paying fees"
+       ],
+       "answer": 1,
+       "why": "依据是 give stall-fee discounts to first-time craft sellers，改写为 new sellers should pay less，即第二项。成本是同学给的理由。",
+       "point": "task"
+      }
+     ]
+    },
+    {
+     "look": "post",
+     "text": "Professor: Should a campus reserve laundry machines through appointments?\nSara: Yes; appointments would reduce uncertain waiting.\nBen: No; missed appointments could leave machines unused.",
+     "items": [
+      {
+       "stem": "Which summary preserves both students' positions?",
+       "options": [
+        "Both support booking because it reduces waiting.",
+        "Sara opposes booking, while Ben favors full use.",
+        "Sara favors predictable access, while Ben fears idle machines.",
+        "Both oppose booking because students may miss appointments."
+       ],
+       "answer": 2,
+       "why": "reduce uncertain waiting 对应 predictable access；leave machines unused 对应 idle machines，两人的立场相反。",
+       "point": "task"
+      }
+     ]
+    },
+    {
+     "look": "post",
+     "text": "Professor: Should an observatory offer more evening tours?\nDraft: I support more evening tours. Evening tours are beneficial. Their benefits would make the observatory more beneficial.",
+     "items": [
+      {
+       "stem": "Which change would address the draft's main weakness?",
+       "options": [
+        "Explain a specific benefit of visiting in the evening.",
+        "Repeat the support for evening visits more strongly.",
+        "Replace beneficial with useful in every sentence.",
+        "Add that the observatory already offers some tours."
+       ],
+       "answer": 0,
+       "why": "Evening tours are beneficial 只有评价，后一句仍重复 beneficial；需要说明具体好处。",
+       "point": "criteria"
+      }
+     ]
+    },
+    {
+     "look": "post",
+     "text": "Professor: Should a college publish anonymous course feedback?\nDraft: I support publication because applicants could compare workload expectations. A course described as requiring weekly reports may suit a different schedule from one assessed by a final project. Students could plan more realistic combinations.",
+     "items": [
+      {
+       "stem": "Which assessment is supported by this draft?",
+       "options": [
+        "It lists assessment formats without choosing a publication policy.",
+        "It argues that weekly reports suit every applicant.",
+        "It discusses workload without connecting it to applicants' choices.",
+        "It links publication to planning through a concrete comparison."
+       ],
+       "answer": 3,
+       "why": "Students could plan more realistic combinations 将具体考核方式与选课安排联系起来，支撑了公开反馈的立场。",
+       "point": "criteria"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-order",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "task",
+    "criteria"
+   ],
+   "groups": [
+    {
+     "label": "Make an appropriate sentence.",
+     "items": [
+      {
+       "stem": "The professor wants a decision about whether residents should vote on local park names.",
+       "lead": "The question is whether",
+       "chunks": [
+        "residents",
+        "should choose",
+        "the names",
+        "of local parks"
+       ],
+       "tail": ".",
+       "extra": [
+        "choosing"
+       ],
+       "why": "whether 后用完整判断 residents should choose；of local parks 限定 names，不能把背景改成理由。",
+       "point": "task"
+      },
+      {
+       "stem": "The draft calls shared laboratory equipment useful but never explains a benefit.",
+       "lead": "The draft fails to",
+       "chunks": [
+        "explain",
+        "how shared equipment",
+        "would benefit",
+        "the researchers"
+       ],
+       "tail": ".",
+       "extra": [
+        "benefiting"
+       ],
+       "why": "fails to explain how 对应缺失的解释；how 后是 shared equipment would benefit the researchers。",
+       "point": "criteria"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "task",
+    "criteria"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "post",
+       "text": "Professor: Should a town archive accept residents' recorded family histories as well as written documents?\nNia: Yes. Recordings preserve voices that written summaries cannot convey.\nPavel: I would accept them only if speakers approve public access; private memories should not automatically become public.\nDraft: The archive should accept recordings. They are valuable because recorded histories have value. Nia mentions voices, and voices are important.",
+       "items": [
+        {
+         "stem": "Which summary identifies the decision and Pavel's position?",
+         "options": [
+          "Whether to collect recordings; Pavel supports access with consent.",
+          "Whether to replace documents; Pavel opposes keeping written records.",
+          "Whether voices matter; Pavel supports unrestricted public access.",
+          "Whether to publish summaries; Pavel prefers voices to documents."
+         ],
+         "answer": 0,
+         "why": "问题中的 accept ... as well as written documents 是增加录音；only if speakers approve public access 是有条件接受。",
+         "point": "task"
+        },
+        {
+         "stem": "Which weakness should be addressed first in the draft?",
+         "options": [
+          "It advocates removing written records without justification.",
+          "It repeats favorable judgments without explaining a benefit.",
+          "It limits access without explaining the privacy concern.",
+          "It opposes recording without considering the value of voices."
+         ],
+         "answer": 1,
+         "why": "valuable because recorded histories have value 重复评价；voices are important 仍未解释声音的作用。",
+         "point": "criteria"
+        }
+       ]
+      },
+      {
+       "look": "post",
+       "text": "Professor: Should a university offer a single interdisciplinary degree instead of requiring students to choose one department?\nRosa: Yes; a shared degree would let students combine fields.\nAmir: I prefer departmental degrees because they show employers the area a graduate has studied deeply.\nDraft: I favor retaining departmental degrees. A clear subject title can help an employer identify relevant preparation. For example, a laboratory recruiting a chemist can distinguish chemistry graduates from applicants whose coursework is spread across several subjects. Students could still take electives outside their department.",
+       "items": [
+        {
+         "stem": "Which summary accurately separates the two students' positions?",
+         "options": [
+          "Both favor a shared degree, but for different employers.",
+          "Rosa favors departments, while Amir favors combining fields.",
+          "Rosa favors combining fields; Amir values identifiable specialization.",
+          "Both oppose electives because they weaken subject preparation."
+         ],
+         "answer": 2,
+         "why": "combine fields 是 Rosa 的理由，show employers the area ... studied deeply 是 Amir 的理由；最后一句的 electives 属于新帖子。",
+         "point": "task"
+        },
+        {
+         "stem": "Which assessment of the draft follows the scoring criteria?",
+         "options": [
+          "It changes the topic from degree labels to unrelated recruiting rules.",
+          "It rejects departmental degrees while defending specialized training.",
+          "It repeats Rosa's argument without choosing a degree structure.",
+          "It develops its preference with a relevant recruitment example."
+         ],
+         "answer": 3,
+         "why": "A clear subject title can help an employer identify relevant preparation 后用招聘化学人员的例子展开；不能仅凭这段确定整篇分数。",
+         "point": "criteria"
+        }
+       ]
+      },
+      {
+       "label": "Make an appropriate sentence.",
+       "items": [
+        {
+         "stem": "The professor asks whether visitors should book timed entry at a sculpture exhibition.",
+         "lead": "The professor asks whether",
+         "chunks": [
+          "visitors",
+          "should reserve",
+          "a specific",
+          "entry time"
+         ],
+         "tail": ".",
+         "extra": [
+          "reserving"
+         ],
+         "why": "asks whether 后的判断对应 timed entry；a specific 与 entry time 构成宾语。",
+         "point": "task"
+        },
+        {
+         "stem": "Leila supports discounted theater tickets only when unsold seats remain.",
+         "lead": "Leila's support depends on",
+         "chunks": [
+          "the availability",
+          "of seats",
+          "that remain",
+          "unsold"
+         ],
+         "tail": ".",
+         "extra": [
+          "remaining"
+         ],
+         "why": "depends on 后的条件是仍未售出的座位，that remain unsold 限定 seats。",
+         "point": "task"
+        },
+        {
+         "stem": "The writer favors a neighborhood tool library but merely calls borrowing convenient.",
+         "lead": "The post needs an explanation of how borrowing would reduce",
+         "chunks": [
+          "the",
+          "need",
+          "to buy",
+          "tools"
+         ],
+         "tail": ".",
+         "extra": [
+          "reducing"
+         ],
+         "why": "how borrowing would reduce the need 说明便捷之处；to buy tools 补足 need，形成可展开的理由。",
+         "point": "criteria"
+        },
+        {
+         "stem": "The writer claims a student journal encourages revision but gives no supporting situation.",
+         "lead": "The missing example should show how a writer uses",
+         "chunks": [
+          "feedback to",
+          "revise",
+          "an",
+          "article"
+         ],
+         "tail": ".",
+         "extra": [
+          "revising"
+         ],
+         "why": "how a writer uses feedback to revise an article 提供与 revision 对应的过程，不能只重复 encourages revision。",
+         "point": "criteria"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

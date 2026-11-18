@@ -1,0 +1,630 @@
+{
+ "id": "listening-news-public",
+ "title": "公共服务新闻词汇",
+ "goal": "识别公共服务词汇并理解服务变更及处理结果。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "vocab",
+   "label": "识别公共服务新闻的常用词"
+  },
+  {
+   "id": "listen",
+   "label": "听懂服务变更及处理结果"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "听力课程材料的依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "公共服务报道通常讲三件事：服务、故障和处理结果。判断词义时，要看动作的对象和事件所处的阶段。"
+    },
+    {
+     "box": "A damaged pipe closed the pool. Workers repaired it, and the pool reopened."
+    },
+    {
+     "p": "damaged pipe 是故障，repaired 是处理，reopened 是恢复开放。"
+    }
+   ]
+  },
+  {
+   "id": "service",
+   "type": "table",
+   "title": "词汇表：服务",
+   "cols": [
+    "词",
+    "词性及中文义",
+    "例"
+   ],
+   "rows": [
+    [
+     "service",
+     "n. 服务",
+     "The service runs daily."
+    ],
+    [
+     "route",
+     "n. 路线",
+     "The route passes the library."
+    ],
+    [
+     "passenger",
+     "n. 乘客",
+     "A passenger checked the timetable."
+    ],
+    [
+     "station",
+     "n. 车站",
+     "The bus left the station."
+    ],
+    [
+     "stop",
+     "n. 站点",
+     "The stop is near the park."
+    ],
+    [
+     "timetable",
+     "n. 时刻表",
+     "The timetable shows departure times."
+    ],
+    [
+     "journey",
+     "n. 行程",
+     "The journey takes an hour."
+    ],
+    [
+     "facility",
+     "n. 设施",
+     "The facility opens at nine."
+    ],
+    [
+     "entrance",
+     "n. 入口",
+     "The entrance faces the square."
+    ],
+    [
+     "access",
+     "n. 使用权；通道",
+     "Access to the hall is free."
+    ],
+    [
+     "shelter",
+     "n. 遮蔽处；候车亭",
+     "Passengers waited in the shelter."
+    ],
+    [
+     "resident",
+     "n. 居民",
+     "A resident requested a bus stop."
+    ],
+    [
+     "visitor",
+     "n. 访客",
+     "The visitor entered the hall."
+    ],
+    [
+     "schedule",
+     "n. 日程；时刻表",
+     "The schedule changed on Monday."
+    ]
+   ]
+  },
+  {
+   "id": "fault",
+   "type": "table",
+   "title": "词汇表：故障",
+   "cols": [
+    "词",
+    "词性及中文义",
+    "例"
+   ],
+   "rows": [
+    [
+     "delay",
+     "n. 延误",
+     "The delay lasted an hour."
+    ],
+    [
+     "disruption",
+     "n. 中断；扰乱",
+     "The disruption affected the route."
+    ],
+    [
+     "closure",
+     "n. 关闭",
+     "The closure began on Friday."
+    ],
+    [
+     "fault",
+     "n. 故障",
+     "The fault affected the heating system."
+    ],
+    [
+     "damage",
+     "n. 损坏",
+     "Workers inspected the damage."
+    ],
+    [
+     "leak",
+     "n. 泄漏",
+     "A leak closed the pool."
+    ],
+    [
+     "breakdown",
+     "n. 故障",
+     "The bus had a breakdown."
+    ],
+    [
+     "failure",
+     "n. 失灵；故障",
+     "The power failure closed the hall."
+    ],
+    [
+     "flooding",
+     "n. 洪水；水浸",
+     "Flooding closed the road."
+    ],
+    [
+     "shortage",
+     "n. 短缺",
+     "A staff shortage delayed the work."
+    ],
+    [
+     "broken",
+     "adj. 损坏的",
+     "The broken pipe was replaced."
+    ],
+    [
+     "unsafe",
+     "adj. 不安全的",
+     "The bridge was unsafe to use."
+    ],
+    [
+     "temporary",
+     "adj. 临时的",
+     "A temporary stop opened nearby."
+    ],
+    [
+     "suspend",
+     "v. 暂停",
+     "The town suspended the service."
+    ]
+   ]
+  },
+  {
+   "id": "response",
+   "type": "table",
+   "title": "词汇表：处理",
+   "cols": [
+    "词",
+    "词性及中文义",
+    "例"
+   ],
+   "rows": [
+    [
+     "repair",
+     "v. 修理",
+     "Workers repaired the pipe."
+    ],
+    [
+     "restore",
+     "v. 恢复",
+     "The team restored the service."
+    ],
+    [
+     "reopen",
+     "v. 重新开放",
+     "The pool will reopen on Friday."
+    ],
+    [
+     "replace",
+     "v. 更换",
+     "Engineers replaced the broken part."
+    ],
+    [
+     "inspect",
+     "v. 检查",
+     "Staff inspected the entrance."
+    ],
+    [
+     "check",
+     "v. 检查",
+     "Workers checked the bridge."
+    ],
+    [
+     "maintain",
+     "v. 维护",
+     "Staff maintain the equipment."
+    ],
+    [
+     "maintenance",
+     "n. 维护",
+     "The hall closed for maintenance."
+    ],
+    [
+     "reroute",
+     "v. 改变路线",
+     "The company rerouted the bus."
+    ],
+    [
+     "resume",
+     "v. 恢复",
+     "Services resumed on Tuesday."
+    ],
+    [
+     "announce",
+     "v. 宣布",
+     "The council announced the change."
+    ],
+    [
+     "install",
+     "v. 安装",
+     "Workers installed new signs."
+    ],
+    [
+     "supply",
+     "v. 供应",
+     "A company supplied the equipment."
+    ],
+    [
+     "improve",
+     "v. 改善",
+     "The new seats improve access."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A leak closed the Hilltown pool on Monday. Workers inspected the water system and replaced a broken pipe. The pool reopened on Thursday after staff checked the changing rooms. The town council said the repair had been completed safely. The pool's usual classes will resume next week, and visitors can find the current schedule at the entrance."
+    },
+    {
+     "p": "leak 指泄漏，closed 表示关闭。inspected 和 replaced 分别表示检查与更换。reopened 表示泳池已经重新开放。classes will resume 表示课程下周才恢复。"
+    }
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "vocab",
+    "listen"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A leak in a pipe closed the swimming pool on Monday."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What caused the pool closure?",
+       "options": [
+        "Pipe repairs",
+        "A leaking pipe",
+        "A leaking roof",
+        "A pipe closure"
+       ],
+       "answer": 1,
+       "why": "A leak in a pipe closed the swimming pool 表示水管泄漏导致关闭。",
+       "point": "vocab"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Workers repaired the bridge and reopened it to traffic on Friday."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What happened after the repair?",
+       "options": [
+        "The bridge closed to traffic.",
+        "Workers began repairing the bridge.",
+        "The bridge reopened to traffic.",
+        "Traffic used a different bridge."
+       ],
+       "answer": 2,
+       "why": "reopened it to traffic 表示维修后恢复通行。",
+       "point": "listen"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The bus company rerouted its service around the flooded road."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What did the bus company do?",
+       "options": [
+        "It repaired the flooded road.",
+        "It suspended its whole bus service.",
+        "It closed the road to all traffic.",
+        "It changed the service route."
+       ],
+       "answer": 3,
+       "why": "rerouted its service 表示改变服务路线。",
+       "point": "vocab"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The center suspended classes on Tuesday and plans to resume them on Thursday."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is planned for Thursday?",
+       "options": [
+        "The classes will start again.",
+        "Classes will be suspended.",
+        "New classes will be planned.",
+        "Classes will end for the week."
+       ],
+       "answer": 0,
+       "why": "plans to resume them on Thursday 表示计划恢复课程。",
+       "point": "listen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "vocab",
+    "listen"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the news.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "A town bus service resumed its usual route on Monday after workers repaired a damaged road. The road had been closed for a week because a water pipe beneath it was leaking. During the closure, buses used a longer route past the railway station, and passengers were advised to allow extra time. Engineers replaced the pipe on Thursday and checked the road surface on Friday. The town reopened the road over the weekend after the inspection was complete. The transport office said all regular stops were now in use again. A temporary stop near the station was removed on Sunday. The office thanked passengers for checking the revised timetable during the disruption. It also said the usual timetable would remain in place for the rest of the month. Residents can obtain a printed copy at the station or view the schedule at the town information desk during normal opening hours."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why was the road closed?",
+       "options": [
+        "A temporary stop was removed.",
+        "A pipe beneath it was leaking.",
+        "The regular timetable resumed.",
+        "Buses used a longer route."
+       ],
+       "answer": 1,
+       "why": "because a water pipe beneath it was leaking 指出关闭原因。",
+       "point": "listen"
+      },
+      {
+       "stem": "What does resumed mean in the report?",
+       "options": [
+        "Stopped for a week",
+        "Changed to a longer route",
+        "Started again after interruption",
+        "Removed a temporary stop"
+       ],
+       "answer": 2,
+       "why": "resumed its usual route 表示中断后恢复原路线。",
+       "point": "vocab"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 8,
+   "pass": 0.75,
+   "points": [
+    "vocab",
+    "listen"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "The road is closed because a pipe is leaking. What does leaking mean?",
+         "options": [
+          "Letting liquid escape",
+          "Being blocked inside",
+          "Being replaced by workers",
+          "Breaking into pieces"
+         ],
+         "answer": 0,
+         "why": "leaking 表示液体从管道中漏出。",
+         "point": "vocab"
+        },
+        {
+         "stem": "Workers will repair the damaged door. What will they do?",
+         "options": [
+          "Lock the damaged door",
+          "Fix the damaged door",
+          "Replace the door",
+          "Check the door for damage"
+         ],
+         "answer": 1,
+         "why": "repair 表示修理损坏的门。",
+         "point": "vocab"
+        },
+        {
+         "stem": "The service will resume on Friday. What will happen?",
+         "options": [
+          "It will be checked on Friday.",
+          "It will be delayed on Friday.",
+          "It will start again on Friday.",
+          "It will be canceled on Friday."
+         ],
+         "answer": 2,
+         "why": "resume 表示中断后恢复。",
+         "point": "vocab"
+        },
+        {
+         "stem": "The company rerouted the bus around the closed road. What did it change?",
+         "options": [
+          "The bus departure times",
+          "The number of buses",
+          "The length of the closure",
+          "The path taken by the bus"
+         ],
+         "answer": 3,
+         "why": "reroute 表示改变行进路线。",
+         "point": "vocab"
+        },
+        {
+         "stem": "The hall was closed for maintenance. What was the purpose?",
+         "options": [
+          "To keep the hall in working order",
+          "To announce a new timetable for the hall",
+          "To build a new hall on the site",
+         "To resume service at the hall"
+         ],
+         "answer": 0,
+         "why": "maintenance 指维护，目的是保持设施正常运作。",
+         "point": "vocab"
+        },
+        {
+         "stem": "The council installed new signs at the station. What did it do?",
+         "options": [
+          "It removed signs from the station.",
+          "It put up new signs at the station.",
+          "It checked the signs at the station.",
+          "It ordered new signs for the station."
+         ],
+         "answer": 1,
+         "why": "install 表示安装，put up 是同义表达。",
+         "point": "vocab"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "A city bus route returned to its usual timetable on Monday after a bridge repair was completed. The bridge had closed because an inspection found damage to its surface. Buses used a longer route through the market district during the two-week closure. Workers repaired the surface and engineers inspected it again on Friday. The transport office said all regular stops were now operating. A temporary stop at the market was removed on Sunday. Passengers can obtain the current timetable at the station. The office thanked residents for allowing extra travel time during the disruption."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Why did the bridge close?",
+         "options": [
+          "A temporary stop was removed.",
+          "The usual timetable returned.",
+          "An inspection found surface damage.",
+          "The market district opened to buses."
+         ],
+         "answer": 2,
+         "why": "an inspection found damage to its surface 指出关闭原因。",
+         "point": "listen"
+        },
+        {
+         "stem": "What happened after the bridge repair?",
+         "options": [
+          "Buses moved through the market district.",
+          "The inspection found new damage.",
+          "The temporary stop was installed.",
+          "Buses returned to the usual timetable."
+         ],
+         "answer": 3,
+         "why": "returned to its usual timetable ... after a bridge repair was completed 表示维修后的结果。",
+         "point": "listen"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to the news.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "The Northside community pool reopened on Thursday after a leak in its water system was repaired. The pool closed on Monday when staff found water on the changing-room floor. Engineers replaced a damaged pipe and checked the rest of the system on Wednesday. During the closure, swimming classes moved to the school pool nearby. The pool manager said the regular classes would return next week. Public swimming sessions have already resumed at the community pool. The manager added that the opening hours were unchanged and that a schedule was available at reception."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What led to the pool closure?",
+         "options": [
+          "A leak in the water system",
+          "A change in opening hours",
+          "A damaged changing-room floor",
+          "A move of classes to the school"
+         ],
+         "answer": 0,
+         "why": "after a leak ... was repaired 与 closed ... when staff found water 指出泄漏导致关闭。",
+         "point": "listen"
+        },
+        {
+         "stem": "Which activity has already resumed at the community pool?",
+         "options": [
+          "The pipe replacement work",
+          "Public swimming sessions",
+          "Checks on the water system",
+          "Next week's regular classes"
+         ],
+         "answer": 1,
+         "why": "Public swimming sessions have already resumed 表示公众游泳时段已经恢复。",
+         "point": "listen"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

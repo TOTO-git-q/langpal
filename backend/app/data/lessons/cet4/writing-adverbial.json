@@ -1,0 +1,387 @@
+{
+ "id": "writing-adverbial",
+ "title": "状语从句的逻辑关系",
+ "goal": "选择符合分句关系的连词；组成主从关系明确的复合句。",
+ "skill": "写作",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "relation",
+   "label": "选择符合分句关系的连词"
+  },
+  {
+   "id": "combine",
+   "label": "组成主从关系明确的复合句"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语四级（CET-4）：课表",
+   "url": "docs/syllabi/cet4.md",
+   "used": "写作部分本课的内容范围、知识点及教学材料规格"
+  },
+  {
+   "id": "c2",
+   "title": "C2 全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "依据所给研究文件中的写作语言与连贯性要求安排教学，不陈述考试事实"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "状语从句说明主句的原因、让步、条件或时间。用哪个连词，看两件事之间是什么关系。放在句首的事实不一定是原因。"
+    },
+    {
+     "box": "Although the hall was small, the audience could see the demonstration clearly from every seat."
+    },
+    {
+     "p": "although 先承认场地小，主句的结果却和通常的预期相反。改用 because，场地小就成了看得清的原因。"
+    }
+   ]
+  },
+  {
+   "id": "cause-concession",
+   "type": "table",
+   "title": "原因与让步",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "because：原因",
+     "because 引出原因。句中有 because 就不再用 so。",
+     "The path was flooded. The team changed its route. → Because the path was flooded, the walking team changed its route before departure."
+    ],
+    [
+     "because：原因",
+     "原因从句可以放在主句后面，中间一般不加逗号。",
+     "The scanner failed. Staff copied the forms by hand. → Staff copied the application forms by hand because the scanner had stopped working."
+    ],
+    [
+     "although：让步",
+     "although 先承认一个事实。主句前不再加 but。",
+     "The seats were old. They were comfortable. → Although the seats were old, they remained comfortable throughout the long evening performance."
+    ],
+    [
+     "although：让步",
+     "主句的结果和通常的预期相反。",
+     "The project was difficult. The group completed it. → Although the project was difficult, the group completed it before the agreed deadline."
+    ]
+   ]
+  },
+  {
+   "id": "condition-time",
+   "type": "table",
+   "title": "条件与时间",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "if：条件",
+     "条件还不确定。主句说条件满足后会怎样。",
+     "The room may be available. The club can meet there. → If the room is available, the club can hold its next meeting there."
+    ],
+    [
+     "if：条件",
+     "说将来的条件，从句用一般现在时。",
+     "The funds may arrive. Work will begin. → If the funds arrive this week, work will begin before the winter break."
+    ],
+    [
+     "when：时间",
+     "when 说明动作发生的时间。",
+     "The bell rang. Students left the workshop. → When the bell rang, students left the workshop and collected their coats outside."
+    ],
+    [
+     "when：时间",
+     "说将来的时间，从句用一般现在时，不用 will。",
+     "The exhibition will close. Staff will pack the displays. → When the exhibition closes, staff will pack the displays into the storage boxes."
+    ]
+   ]
+  },
+  {
+   "id": "connections",
+   "type": "table",
+   "title": "主从关系与并列关系",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "从句前置",
+     "从句后加逗号。逗号后的主句要有主语和谓语。",
+     "Because the timetable changed, the drama society moved its rehearsal to Thursday evening."
+    ],
+    [
+     "从句后置",
+     "because 从句放在主句后，一般不加逗号，也不能单独成句。",
+     "The society moved its rehearsal to Thursday evening because the timetable had changed."
+    ],
+    [
+     "并列因果",
+     "so 引出结果。句中有 so 就不再用 because。",
+     "The timetable changed, so the drama society moved its rehearsal to Thursday evening."
+    ],
+    [
+     "并列转折",
+     "but 连接两个分句。句中有 but 就不再用 although。",
+     "The room was noisy, but the speakers completed their discussion without any interruption."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Draft: Although the display was ready, but the labels were still missing. The missing labels prevented the exhibition from opening."
+    },
+    {
+     "p": "第一句已用 although，后面的 but 是重复连接，要删去。第二句说明不能开幕的原因是缺标签，不是 display was ready。"
+    },
+    {
+     "box": "Although the display was ready, the exhibition could not open because the labels were missing."
+    },
+    {
+     "p": "although 承认展品已经备好，because 说明不能开幕的原因。一句中可以有两个不同的连词，各自表示一层关系。"
+    }
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "relation",
+    "combine"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The team changed rooms for this reason: the heater had failed. Which connector states that reason?",
+       "options": [
+        "although",
+        "because",
+        "when",
+        "if"
+       ],
+       "answer": 1,
+       "why": "题干说 for this reason，要表达原因，所以用 because 引出 the heater had failed。",
+       "point": "relation"
+      },
+      {
+       "stem": "The date is uncertain. Which connector makes the visit depend on the museum reopening?",
+       "options": [
+        "Because",
+        "When",
+        "Although",
+        "If"
+       ],
+       "answer": 3,
+       "why": "uncertain 和 depend on 说明这是条件，用 If。When 会把重新开放当成已经确定的事。",
+       "point": "relation"
+      },
+      {
+       "stem": "Which sentence expresses concession without a repeated connector?",
+       "options": [
+        "Although the fabric was thin, the cover remained strong.",
+        "Although the fabric was thin, but the cover remained strong.",
+        "Because the fabric was thin, so the cover remained strong.",
+        "If the fabric was thin, when the cover remained strong."
+       ],
+       "answer": 0,
+       "why": "although 从句后直接接主句 the cover remained strong，不再加 but，即第一项。",
+       "point": "combine"
+      },
+      {
+       "stem": "The bell marks the end of the session. Which connector identifies the time of departure?",
+       "options": [
+        "Because",
+        "Although",
+        "When",
+        "If"
+       ],
+       "answer": 2,
+       "why": "题干问的是离开的时间，所以用 When 引出时间从句。",
+       "point": "relation"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "combine",
+    "relation"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A clothing collection took place in a tall residence building. The lift broke before the volunteers arrived. The collection therefore moved to the ground floor. Residents could still bring their donations to the entrance, and the volunteers continued the service there throughout the afternoon.",
+     "items": [
+      {
+       "stem": "Join the contrast between the broken lift and the continuing service.",
+       "lead": "Although",
+       "chunks": [
+        "the lift was",
+        "broken,",
+        "the service",
+        "continued"
+       ],
+       "tail": "on the ground floor.",
+       "extra": [
+        "but"
+       ],
+       "why": "although 从句到逗号结束，the service continued 是完整的主句，不再加 but。",
+       "point": "combine"
+      },
+      {
+       "stem": "Choose from because / although / if / when: The collection moved downstairs ___ the lift was broken. State the reason.",
+       "accept": [
+        "because"
+       ],
+       "why": "题干要求 State the reason，所以用 because 引出 the lift was broken。",
+       "point": "relation"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "relation",
+    "combine"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "The draft must explain the reason for a delay: The delivery stopped ___ the loading entrance was blocked.",
+         "options": [
+          "because",
+          "although",
+          "if",
+          "when"
+         ],
+         "answer": 0,
+         "why": "题干要求 explain the reason。because 引出原因：入口被堵，所以配送停止。",
+         "point": "relation"
+        },
+        {
+         "stem": "The draft must acknowledge a difficulty that did not prevent success: ___ the route was unfamiliar, the group arrived on time.",
+         "options": [
+          "Because",
+          "Although",
+          "If",
+          "When"
+         ],
+         "answer": 1,
+         "why": "did not prevent success 说明困难没有影响结果，是让步关系。Although 承认路线陌生，主句说仍然准时到达。",
+         "point": "relation"
+        },
+        {
+         "stem": "Which sentence expresses a future condition without treating it as a confirmed event?",
+         "options": [
+          "When the permit arrives, the survey will begin.",
+          "Because the permit arrived, the survey has begun.",
+          "If the permit arrives, the survey will begin.",
+          "Although the permit arrived, the survey has begun."
+         ],
+         "answer": 2,
+         "why": "题干要求不把事情当成已确定。If the permit arrives 表示许可还不一定到，即第三项。第一项的 When 表示预计会到的时间。",
+         "point": "relation"
+        },
+        {
+         "stem": "Which sentence correctly joins the stated cause and result? The projector failed. The lecture moved to another room.",
+         "options": [
+          "Because the projector failed, so the lecture moved to another room.",
+          "The projector failed, the lecture moved to another room.",
+          "Because the projector failed. The lecture moved to another room.",
+          "Because the projector failed, the lecture moved to another room."
+         ],
+         "answer": 3,
+         "why": "第四项是原因从句加完整主句，中间用逗号隔开。第一项在 because 之外又用了 so。",
+         "point": "combine"
+        },
+        {
+         "stem": "Join the equipment problem and the completed task as a concession.",
+         "lead": "Although",
+         "chunks": [
+          "the printer was",
+          "slow,",
+          "the team",
+          "finished"
+         ],
+         "tail": "the handouts before the lecture.",
+         "extra": [
+          "but"
+         ],
+         "why": "although 从句后直接接主句 the team finished，再加 but 就重复连接了。",
+         "point": "combine"
+        },
+        {
+         "stem": "Complete the sentence using the bell as the time signal.",
+         "lead": "When",
+         "chunks": [
+          "the bell rings,",
+          "the",
+          "workshop",
+          "ends"
+         ],
+         "tail": "for the afternoon.",
+         "extra": [
+          "so"
+         ],
+         "why": "When the bell rings 是时间从句，the workshop ends 是主句。两者之间不用 so。",
+         "point": "combine"
+        },
+        {
+         "stem": "Choose from because / although / if / when: ___ the final visitor leaves, the staff will lock the gallery. Express the expected time.",
+         "accept": [
+          "when"
+         ],
+         "why": "题干要求 Express the expected time，用 when。if 会把预计的事变成假设的条件。",
+         "point": "relation"
+        },
+        {
+         "stem": "Complete the future condition with the correct form of arrive: If the materials ___ tomorrow, the builders will start work.",
+         "accept": [
+          "arrive"
+         ],
+         "why": "说将来的条件，从句用一般现在时。主语 materials 是复数，填 arrive。",
+         "point": "combine"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

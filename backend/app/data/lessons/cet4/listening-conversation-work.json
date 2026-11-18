@@ -1,0 +1,110 @@
+{
+ "id": "listening-conversation-work",
+ "title": "工作与求职对话词汇",
+ "goal": "理解求职和工作安排词汇，核对岗位要求与个人条件。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [{"id": "vocab", "label": "识别求职与工作安排的词汇"}, {"id": "listen", "label": "听懂岗位要求和个人条件的对应"}],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "长对话材料的教学依据"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "求职与工作对话常谈岗位要求、个人经验和工作安排。答题时分清三类信息：职位的要求、申请人的条件、双方确认的安排。"}, {"box": "A: The vacancy involves answering calls. Have you done that before?\nB: Yes. I answered calls at a visitor center last year."}, {"p": "Vacancy 指空缺职位。申请人曾接听电话，与岗位职责对应。"}]},
+  {"id": "requirements", "type": "table", "title": "词汇表：岗位要求", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["vacancy", "n.", "空缺职位", "The company has a vacancy."],
+   ["position", "n.", "职位", "The position involves answering calls."],
+   ["applicant", "n.", "申请人", "Each applicant submits a form."],
+   ["application", "n.", "申请", "Send the application by Friday."],
+   ["interview", "n.", "面试", "The interview starts at ten."],
+   ["experience", "n.", "经验", "She has experience serving customers."],
+   ["qualification", "n.", "资格", "List the qualifications on the form."],
+   ["skill", "n.", "技能", "The job requires computer skills."],
+   ["requirement", "n.", "要求", "The notice lists each requirement."],
+   ["duty", "n.", "职责", "Answering calls is one duty."],
+   ["candidate", "n.", "候选人", "The candidate arrived early."],
+   ["reference", "n.", "推荐人", "The employer contacted a reference."],
+   ["employer", "n.", "雇主", "The employer described the role."],
+   ["training", "n.", "培训", "New staff receive training."]
+  ]},
+  {"id": "arrangements", "type": "table", "title": "词汇表：工作安排", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["shift", "n.", "轮班", "The morning shift begins at eight."],
+   ["schedule", "n.", "日程表", "The schedule shows working hours."],
+   ["deadline", "n.", "截止时间", "The deadline for the report is Friday."],
+   ["meeting", "n.", "会议", "The meeting begins after lunch."],
+   ["task", "n.", "任务", "Her first task is sorting the files."],
+   ["assign", "v.", "分配", "The manager will assign the tasks."],
+   ["available", "adj.", "有空的", "I'm available on Tuesdays."],
+   ["replace", "v.", "替换", "Lee will replace Kim on that shift."],
+   ["arrange", "v.", "安排", "Arrange a time for the meeting."],
+   ["postpone", "v.", "推迟", "They postponed the meeting until Friday."],
+   ["confirm", "v.", "确认", "Please confirm the start time."],
+   ["colleague", "n.", "同事", "A colleague will open the office."],
+   ["supervisor", "n.", "主管", "Ask the supervisor about the schedule."],
+   ["part-time", "adj.", "兼职的", "The position is part-time."]
+  ]},
+  {"id": "evaluation", "type": "table", "title": "词汇表：工作评价", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["performance", "n.", "工作表现", "The supervisor discussed her performance."],
+   ["feedback", "n.", "反馈", "The manager gave useful feedback."],
+   ["evaluate", "v.", "评价", "Managers evaluate the team's work."],
+   ["progress", "n.", "进展", "The report describes the team's progress."],
+   ["improve", "v.", "改进", "The team plans to improve its service."],
+   ["efficient", "adj.", "效率高的", "The new process is efficient."],
+   ["accurate", "adj.", "准确的", "The records are accurate."],
+   ["reliable", "adj.", "可靠的", "He is reliable and arrives on time."],
+   ["punctual", "adj.", "守时的", "The staff member is punctual."],
+   ["responsibility", "n.", "责任", "Checking the list is her responsibility."],
+   ["strength", "n.", "优点", "Clear communication is his strength."],
+   ["weakness", "n.", "不足", "The review identifies a weakness."],
+   ["achievement", "n.", "成果", "The report records an achievement."],
+   ["goal", "n.", "目标", "The team met its goal."]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [
+   {"box": "Interviewer: This vacancy involves answering calls and arranging visits. Have you done similar work?\nApplicant: Yes. At a visitor center last year, I answered calls and booked tours.\nInterviewer: The shift is on Saturday mornings. Are you available then?\nApplicant: Yes, I can work every Saturday morning.\nInterviewer: Good. Training begins next week."},
+   {"box": "Which experience matches a duty of the position?\n1. Preparing reports for a training course\n2. Answering calls at a visitor center\n3. Supervising staff on Saturday evenings\n4. Arranging a course at the visitor center"},
+   {"p": "岗位职责包括 answering calls。申请人去年在访客中心接听过电话，第二项把这段经验与职责对应起来。"}
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["vocab"], "groups": [
+   {"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "Is there a vacancy at the office?"}, {"who": "B", "text": "Yes, they're looking for a new assistant."}]}, "items": [{"stem": "What does vacancy mean here?", "options": ["A report about the office", "An open position for a worker", "A schedule for the assistants", "A training course for a manager"], "answer": 1, "why": "Looking for a new assistant 说明 vacancy 是空缺职位，即第二项。", "point": "vocab"}]},
+   {"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "Which shift do you work?"}, {"who": "B", "text": "I'm on duty from eight until noon."}]}, "items": [{"stem": "What does shift refer to?", "options": ["A period of scheduled work", "A task completed at noon", "A person in the office", "A report about the work"], "answer": 0, "why": "On duty from eight until noon 说明 shift 是轮班时段，即第一项。", "point": "vocab"}]},
+   {"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "Do you have experience with customers?"}, {"who": "B", "text": "Yes, I served visitors at a museum."}]}, "items": [{"stem": "What does experience mean here?", "options": ["A plan to apply for work", "A new duty at the museum", "A record of past practical work", "A schedule for museum visitors"], "answer": 2, "why": "Served visitors at a museum 说明 experience 是过去的实际工作经验，即第三项。", "point": "vocab"}]},
+   {"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "Did the supervisor give you feedback?"}, {"who": "B", "text": "Yes, she commented on my report."}]}, "items": [{"stem": "What does feedback refer to?", "options": ["The schedule for a report", "The supervisor's work hours", "The supervisor's own report", "The supervisor's comments"], "answer": 3, "why": "Commented on my report 说明 feedback 是主管的意见，即第四项。", "point": "vocab"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["listen"], "groups": [{"audio": {"intro": "Listen to a conversation.", "lines": [{"who": "A", "text": "The assistant position involves greeting visitors."}, {"who": "B", "text": "I greeted visitors at a museum last summer."}, {"who": "A", "text": "The shift is on Wednesday afternoons."}, {"who": "B", "text": "I'm available then, but I have class on Thursday."}, {"who": "A", "text": "Wednesday is the only required day."}, {"who": "B", "text": "That's suitable for me."}, {"who": "A", "text": "Please send your application by Monday."}, {"who": "B", "text": "I'll send it this weekend."}]}, "items": [
+   {"stem": "Which past experience matches the assistant's duty?", "options": ["Greeting visitors at a museum", "Teaching classes on Thursday", "Working Wednesday afternoon shifts", "Welcoming visitors every Thursday"], "answer": 0, "why": "Greeted visitors at a museum 与 greeting visitors 的职责对应，即第一项。", "point": "listen"},
+   {"stem": "When is the applicant available for the shift?", "options": ["Monday afternoon", "Thursday afternoon", "Wednesday afternoon", "Weekend afternoons"], "answer": 2, "why": "Wednesday afternoons 后的 I'm available then 表明申请人该时段有空，即第三项。", "point": "listen"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 8, "pass": 0.75, "points": ["vocab", "listen"], "sets": [{"id": "set-a", "groups": [
+   {"items": [{"stem": "An office has a vacancy for an assistant. What is a vacancy?", "options": ["An open job position", "A finished work assignment", "An assistant's regular shift", "A meeting with an employer"], "answer": 0, "why": "Vacancy 指空缺职位，即第一项。", "point": "vocab"}]},
+   {"items": [{"stem": "A worker has a morning shift. What does shift mean?", "options": ["A task due in the morning", "A period of scheduled work", "A meeting about the schedule", "A report on work experience"], "answer": 1, "why": "Shift 指轮班时段，即第二项。", "point": "vocab"}]},
+   {"items": [{"stem": "An applicant has experience answering calls. What does experience refer to?", "options": ["A plan for a future interview", "A requirement to attend training", "Past work answering phone calls", "A schedule for receiving calls"], "answer": 2, "why": "Experience 指实际经历或经验，此处是接听电话的经验，即第三项。", "point": "vocab"}]},
+   {"items": [{"stem": "The supervisor gave feedback on a report. What was given?", "options": ["A new report deadline", "A different work shift", "A list of job vacancies", "Comments on the report"], "answer": 3, "why": "Feedback 指对报告的反馈意见，即第四项。", "point": "vocab"}]},
+   {"items": [{"stem": "The meeting was postponed until Friday. What happened?", "options": ["It was moved to a later time.", "It was confirmed for the original time.", "It was completed before Friday.", "It was assigned to a new supervisor."], "answer": 0, "why": "Postponed until Friday 表示会议被推迟到周五，即第一项。", "point": "vocab"}]},
+   {"items": [{"stem": "A worker is punctual. What does this mean?", "options": ["The worker changes the schedule.", "The worker arrives on time.", "The worker reviews the schedule.", "The worker arranges meetings."], "answer": 1, "why": "Punctual 表示守时，即第二项。", "point": "vocab"}]},
+   {"audio": {"intro": "Listen to a conversation.", "lines": [
+    {"who": "A", "text": "This part-time position involves greeting visitors and answering calls at our information desk. Have you done either of those tasks before?"},
+    {"who": "B", "text": "Yes. Last summer I worked at a museum. I greeted visitors and answered questions about opening hours, although I didn't answer the museum's phone."},
+    {"who": "A", "text": "That visitor experience is useful. The shift here is on Tuesday afternoons. Are you available at that time?"},
+    {"who": "B", "text": "Yes, I have classes on Monday and Wednesday afternoons, but Tuesday is free. Could you tell me about training?"},
+    {"who": "A", "text": "New staff spend their first afternoon with a supervisor who explains the telephone system and the visitor information."},
+    {"who": "B", "text": "That would help me learn the phone duties."},
+    {"who": "A", "text": "Please send your application by Friday."},
+    {"who": "B", "text": "I'll send it tomorrow."}
+   ]}, "items": [
+    {"stem": "Which requirement matches the applicant's previous work?", "options": ["Explaining the phone system to staff", "Arranging the museum's phone system", "Greeting people at an information point", "Answering the museum's telephone calls"], "answer": 2, "why": "Greeted visitors at a museum 与岗位的 greeting visitors 对应，即第三项。", "point": "listen"},
+    {"stem": "Why can the applicant take the shift?", "options": ["Classes end before every afternoon shift.", "Training replaces the Tuesday shift.", "Wednesday afternoons are free of classes.", "Tuesday afternoon is free of classes."], "answer": 3, "why": "Tuesday is free 说明申请人周二下午有空，即第四项。", "point": "listen"}
+   ]},
+   {"audio": {"intro": "Listen to a conversation.", "lines": [
+    {"who": "A", "text": "We're looking for an assistant to organize files and prepare meeting rooms. What relevant experience do you have?"},
+    {"who": "B", "text": "At my previous office I organized files every morning. Another colleague prepared the meeting rooms, but I helped when the office was busy."},
+    {"who": "A", "text": "The position requires a Friday morning shift. Would that suit you?"},
+    {"who": "B", "text": "I'm available on Friday mornings. I work elsewhere on Thursday evenings, so I can't take an evening shift then."},
+    {"who": "A", "text": "Friday morning is the only shift for this role. The supervisor provides training on the filing system during the first week."},
+    {"who": "B", "text": "That schedule and training both sound suitable."},
+    {"who": "A", "text": "Please include a reference with your application."},
+    {"who": "B", "text": "I'll send the application and reference on Monday."}
+   ]}, "items": [
+    {"stem": "Which duty did the applicant perform regularly?", "options": ["Organizing files in the previous office", "Training supervisors in a filing system", "Preparing every meeting room alone", "Preparing meeting rooms each morning"], "answer": 0, "why": "I organized files every morning 说明申请人经常整理文件，即第一项。", "point": "listen"},
+    {"stem": "What will the applicant include with the application?", "options": ["Details of the Thursday evening job", "A reference the employer can contact", "Proof of training in the filing system", "A record of past filing work"], "answer": 1, "why": "Include a reference 后的 I'll send the application and reference 确认随申请提交推荐人信息，即第二项。", "point": "listen"}
+   ]}
+  ]}]}
+ ]
+}

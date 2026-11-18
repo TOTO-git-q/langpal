@@ -1,0 +1,881 @@
+{
+ "id": "writing-discussion",
+ "title": "学术讨论 · 练习",
+ "goal": "十分钟内写出一个 120 词以上的帖子：直接回答教授的问题，一条理由讲透并有具体例子，说出一点两位同学都没说过的内容。",
+ "skill": "writing",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 写作",
+ "points": [
+  {
+   "id": "position",
+   "label": "直接回答教授的问题，并且有同学没说过的新内容",
+   "needs": "all_bullets_done"
+  },
+  {
+   "id": "development",
+   "label": "一条理由讲透，带一个具体的例子"
+  },
+  {
+   "id": "accuracy",
+   "label": "句子结构和词形不出影响理解的错"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、计分上限、测什么能力"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明、限时、官方样题和 5 分样例的评语"
+  },
+  {
+   "id": "rubric",
+   "title": "ETS：Writing Scoring Guide — Write for an Academic Discussion",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/writing-rubrics.pdf",
+   "used": "0–5 分每一档的描述（本课是中文转述，原文以官方为准）"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Writing Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-writing.pdf",
+   "used": "第 1 课（题目说明和答案页），第 4 课（在讨论区发帖要做的三件事），第 5 课（样题与样例）"
+  }
+ ],
+ "cards": [
+  {
+   "id": "facts",
+   "type": "facts",
+   "title": "这道题是什么",
+   "rows": [
+    {
+     "k": "在哪",
+     "v": "写作部分三类题之一，1 题。",
+     "src": "spec 第 5 页"
+    },
+    {
+     "k": "限时",
+     "v": "10 分钟，读题和写都算在里面。教授的问题和两位同学的帖子一直留在屏幕上。",
+     "src": "overview 第 15 页；lessonplan 第 3 页"
+    },
+    {
+     "k": "题目给什么",
+     "v": "一个线上课堂讨论区：教授用一小段话引出话题，提一个征求看法的问题；两位同学各发了一个短帖，立场不同。",
+     "src": "overview 第 15 页"
+    },
+    {
+     "k": "要你做什么",
+     "v": "两件事：表明自己的看法并给出支撑；用自己的话为这场讨论做出贡献。",
+     "src": "overview 第 15 页"
+    },
+    {
+     "k": "字数",
+     "v": "官方说有效的回答至少 100 词。有字数统计，没有拼写检查。",
+     "src": "overview 第 15 页；lessonplan 第 6 页"
+    },
+    {
+     "k": "怎么计分",
+     "v": "0–5 分，由评分引擎按官方评分标准打分。写作部分原始分满分 20，这道题占 5 分。",
+     "src": "spec 第 14 页；overview 第 21 页"
+    },
+    {
+     "k": "官方说它测四件事",
+     "v": "① 把支持某个立场的论证讲清楚，可以回应别人的论点，也可以利用帖子里的信息；② 论证有支撑、清楚、连贯；③ 语法结构和词汇有变化、用得准；④ 拼写、标点、大小写合规范。",
+     "src": "overview 第 15 页"
+    },
+    {
+     "k": "在讨论区发帖要做的三件事",
+     "v": "说出你的看法；解释为什么，带上细节和例子；把讨论往前推一步：加一个新角度，或者提出你自己的问题。",
+     "src": "lessonplan 第 17 页"
+    }
+   ],
+   "note": "和 Write an Email 一样，这道题按 5 分来练，考场上不低于 4 分。（这是本课的建议，不是官方换算。）"
+  },
+  {
+   "id": "rubric",
+   "type": "rubric",
+   "title": "评分标准：每一档长什么样",
+   "intro": "下面是官方评分标准的中文转述。每一档的总述都先说帖子和讨论相不相关，再说语言。",
+   "levels": [
+    {
+     "score": 5,
+     "name": "完全成功",
+     "summary": "帖子切题，表达非常清楚，语言从头到尾运用自如。",
+     "signs": [
+      "解释、例证或细节切题，而且展开得充分",
+      "多种句式运用有效，用词准确、地道",
+      "几乎没有词汇和语法错误，只有限时写作里谁都会有的小笔误"
+     ]
+    },
+    {
+     "score": 4,
+     "name": "基本成功",
+     "summary": "帖子切题，语言能力足以让想法很容易被读懂。",
+     "signs": [
+      "解释、例证或细节切题，展开够用",
+      "句式有变化，用词恰当",
+      "词汇和语法错误很少"
+     ]
+    },
+    {
+     "score": 3,
+     "name": "部分成功",
+     "summary": "帖子大体切题、大体能懂，语言运用有一定能力。",
+     "signs": [
+      "展开里有一部分解释、例子或细节缺失、不清楚或者不相关",
+      "句式有一些变化，词汇有一定范围",
+      "句子结构、词形或习惯用法上有看得出来的错误"
+     ]
+    },
+    {
+     "score": 2,
+     "name": "大体不成功",
+     "summary": "看得出想参与讨论，但语言上的限制让想法难以跟上。",
+     "signs": [
+      "想法展开得差，或者只是部分相关",
+      "句式和词汇的范围有限",
+      "句子结构、词形或用法上的错误成堆"
+     ]
+    },
+    {
+     "score": 1,
+     "name": "不成功",
+     "summary": "没能有效参与讨论，语言上的限制让想法几乎表达不出来。",
+     "signs": [
+      "有一些词和短语看得出想答题，但几乎没有连贯的想法",
+      "句式和词汇的范围极其有限",
+      "错误严重而且频繁",
+      "自己写的话很少，通顺的部分多半是从题目里搬来的"
+     ]
+    },
+    {
+     "score": 0,
+     "name": "零分",
+     "summary": "空白、拒答、不是英语、全文照抄题目、和题目无关，或者乱敲键盘。",
+     "signs": []
+    }
+   ],
+   "takeaways": [
+    {
+     "t": "4 分和 5 分差在哪",
+     "d": "两档的第一条只差一个词：展开「够用」和展开「充分」。官方公布的 5 分样例是这样写的：先接住一位同学的顾虑，表明立场，给出理由，回应反对意见时提出了灵活的做法，最后用自己做志愿者的一段经历收住。评语说里面的小错（漏了一个冠词）属于最好的写作者在初稿里也会有的那一类。"
+    },
+    {
+     "t": "3 分和 4 分差在哪",
+     "d": "3 分档说的是解释、例子或细节里「有一部分缺失、不清楚或者不相关」。最常见的两种情况：例子是空的（many people think so），或者理由只说了结论、没说为什么。"
+    },
+    {
+     "t": "先相关，再谈语言",
+     "d": "每一档的总述第一件事都是帖子和讨论相不相关。没有回答教授问的那个问题，语言再好分数也上不去。"
+    }
+   ],
+   "src": "rubric 第 2 页；overview 第 15–17 页（5 分样例和评语）"
+  },
+  {
+   "id": "ten-minutes",
+   "type": "steps",
+   "title": "十分钟怎么用",
+   "steps": [
+    {
+     "t": "0:00–1:30　读",
+     "d": "找出教授真正问的那一句，它通常在最后。再看两位同学：各自站哪边、理由是什么，每人记一个词就够。"
+    },
+    {
+     "t": "1:30–2:30　定",
+     "d": "定四样东西：你的立场；一条最强的理由；一个具体的例子；一句两位同学都没说过的话（新理由、让观点成立的条件、或者折中的做法）。"
+    },
+    {
+     "t": "2:30–8:30　写",
+     "d": "120–150 词，顺序见下一张卡。只写一条理由，把它讲透。"
+    },
+    {
+     "t": "8:30–10:00　查",
+     "d": "顺序固定：先看第一句有没有回答教授的问题；再把每个动词看一遍（时态、第三人称单数、情态动词后面用原形）；然后主谓一致；还有时间才看拼写。"
+    }
+   ],
+   "note": "120–150 词是本课定的练习目标。官方只说有效的回答至少 100 词。"
+  },
+  {
+   "id": "skeleton",
+   "type": "skeleton",
+   "title": "一个帖子的骨架",
+   "intro": "这是讨论区的帖子，不是信：不要称呼，不要落款。",
+   "parts": [
+    {
+     "name": "立场句",
+     "what": "第一句就回答教授的问题。可以顺手点一位同学，表示你读过他的帖子。",
+     "en": "I understand Daniel's concern about cost, but I still think the requirement is a good idea."
+    },
+    {
+     "name": "理由",
+     "what": "只要一条。说完结论，接着说为什么它能推出你的立场。",
+     "en": ""
+    },
+    {
+     "name": "例子",
+     "what": "一个人、一件事、一个结果。用自己的经历最省时间。",
+     "en": "In my first semester, I joined a review session only because it was held in my dormitory."
+    },
+    {
+     "name": "新的贡献",
+     "what": "两位同学都没说过的内容：一个新理由、让某个观点成立的条件、或者折中的做法。可以单独成句，也可以就是你的理由本身。",
+     "en": "That said, Daniel's point shows that the rule needs an exception."
+    },
+    {
+     "name": "收束句",
+     "what": "可有可无。时间不够就不写。",
+     "en": ""
+    }
+   ]
+  },
+  {
+   "id": "contribution",
+   "type": "text",
+   "title": "什么才算「贡献」",
+   "body": [
+    {
+     "p": "题目的第二条要求是为讨论做出贡献。判断的办法：把你的帖子里和两位同学重复的内容都划掉，看还剩下什么。剩下的就是你的贡献。"
+    },
+    {
+     "p": "十分钟里做得到的贡献有三种："
+    },
+    {
+     "list": [
+      "一个新理由：同学从交朋友的角度说，你从学习、花费、安全里另挑一个角度。",
+      "一个条件：指出同学的观点在什么情况下成立、什么情况下不成立。",
+      "一个折中的做法：把两个人的顾虑都照顾到。"
+     ]
+    },
+    {
+     "compare": {
+      "thin": "I agree with Maya because students can make friends in a dormitory.",
+      "full": "I agree with Maya, and I would add that living on campus also keeps students close to the library and tutors.",
+      "why": "前一句把 Maya 的理由重说了一遍，划掉重复的部分就什么都不剩。后一句加了一个她没提的好处。"
+     }
+    },
+    {
+     "compare": {
+      "thin": "Daniel is wrong because money is not important.",
+      "full": "Daniel's point shows that the rule needs an exception for students who cannot afford campus housing.",
+      "why": "后一句没有否定同学，把他的顾虑变成了一个条件，讨论往前走了一步。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "develop",
+   "type": "text",
+   "title": "把一条理由讲透",
+   "body": [
+    {
+     "p": "5 分和 4 分差在展开充分不充分。展开是一条链：结论、为什么、例子。三环都在，才算讲透。"
+    },
+    {
+     "list": [
+      "结论：这条理由是什么。",
+      "为什么：它是怎么起作用的，中间那一步不能省。",
+      "例子：一个具体的人或一件具体的事，最好有结果。"
+     ]
+    },
+    {
+     "compare": {
+      "thin": "Living on campus helps students study. For example, many students study better.",
+      "full": "Living on campus helps students study because the library and the tutoring center are only a few minutes away. In my first semester, I joined a chemistry review session only because it was held in my dormitory lounge, and it raised my grade by a full letter.",
+      "why": "前一段只有结论，例子是空的。后一段说了为什么（离得近所以会去），例子里有时间、有地点、有结果。"
+     }
+    },
+    {
+     "p": "列三条理由、每条一句，不如一条理由写三句。十分钟写不透三条。"
+    }
+   ]
+  },
+  {
+   "id": "phrases",
+   "type": "table",
+   "title": "按用途备好的句子",
+   "intro": "每种用途记熟一两句。方括号里换成题目的内容。",
+   "cols": [
+    "用途",
+    "说法"
+   ],
+   "rows": [
+    [
+     "表明立场",
+     "I think [the requirement is a good idea]. / I am not convinced that [free buses would reduce traffic]. / I would support [the policy] as long as [the city adds shuttle buses]."
+    ],
+    [
+     "赞同同学并补充",
+     "I agree with Maya, and I would add that [...]. / Maya makes a good point about [...], and there is another benefit: [...]."
+    ],
+    [
+     "同意一部分",
+     "Daniel is right that [...], but [...]. / I see Daniel's point about [cost]; however, [...]."
+    ],
+    [
+     "不同意",
+     "I see it differently. / That may be true for [experienced employees], but not for [new ones]."
+    ],
+    [
+     "讲为什么",
+     "The main reason is that [...]. / This matters because [...]. / As a result, [...]."
+    ],
+    [
+     "举例子",
+     "In my first semester, [...]. / When my hometown [closed its main street], [...]. / My sister's company [follows a similar rule]."
+    ],
+    [
+     "先让一步再转回来",
+     "Admittedly, [...]. Still, [...]. / It is true that [...]; even so, [...]."
+    ],
+    [
+     "提条件、提折中",
+     "[The policy] works only if [...]. / A better solution would be to [...]. / Universities should [waive the requirement] for students who [...]."
+    ],
+    [
+     "收束",
+     "For these reasons, [...]. / That is why I think [...]."
+    ]
+   ]
+  },
+  {
+   "id": "models",
+   "type": "model",
+   "title": "同一道题，三个档次",
+   "task": {
+    "setting": "Your professor is teaching a class on education policy. Write a post responding to the professor's question.",
+    "lead": "In your response, you should do the following.",
+    "bullets": [
+     "Express and support your opinion.",
+     "Make a contribution to the discussion in your own words."
+    ],
+    "posts": [
+     {
+      "who": "Dr. Morgan",
+      "text": "Many universities require first-year students to live in campus housing instead of renting apartments off campus. Supporters say this helps new students adjust to university life, while critics argue that students should be free to choose where they live. What do you think? Should universities require first-year students to live on campus? Why or why not?"
+     },
+     {
+      "who": "Maya",
+      "text": "I think the requirement makes sense. When I started university, I did not know anyone, and living in a dormitory made it easy to meet people. If I had lived alone in an apartment, I probably would have felt isolated during my first semester."
+     },
+     {
+      "who": "Daniel",
+      "text": "I disagree. Campus housing is often more expensive than sharing an apartment, and not every family can afford it. Students are adults, and they should be able to decide how to spend their own money."
+     }
+    ]
+   },
+   "responses": [
+    {
+     "score": 5,
+     "text": "I understand Daniel's concern about cost, but I still think the requirement is a good idea for most first-year students. The first year is when students build the habits that decide whether they succeed, and living on campus removes many small obstacles. A student who lives five minutes from the library and the dining hall is much more likely to attend an evening study group or ask a tutor for help than one who has to catch the last bus home. In my first semester, I joined a chemistry review session only because it was held in my dormitory lounge, and it raised my grade by a full letter. That said, Daniel's point shows that the rule needs an exception. Universities should waive the requirement, or reduce the fee, for students who can show that campus housing costs more than they can afford.",
+     "comment": "第一句就回答了教授的问题，还接住了 Daniel。理由只有一条（住得近，学习上的小障碍少了），但结论、为什么、例子三环都在。它和 Maya 说的交朋友不是一回事，这是第一处贡献；最后把 Daniel 的顾虑变成一条例外规定，这是第二处。句式有变化（定语从句、比较、only because），没有影响理解的错误。",
+     "notes": [
+      {
+       "quote": "I understand Daniel's concern about cost, but I still think the requirement is a good idea for most first-year students.",
+       "kind": "good",
+       "note": "立场句：回答了问题，点了同学，还用 most 给立场留了边界。"
+      },
+      {
+       "quote": "living on campus removes many small obstacles",
+       "kind": "good",
+       "note": "理由。Maya 讲的是交朋友，这里换了一个角度：学习。"
+      },
+      {
+       "quote": "A student who lives five minutes from the library and the dining hall is much more likely to attend an evening study group or ask a tutor for help than one who has to catch the last bus home.",
+       "kind": "good",
+       "note": "讲了为什么：离得近，所以会去。这一环最容易被省掉。"
+      },
+      {
+       "quote": "In my first semester, I joined a chemistry review session only because it was held in my dormitory lounge, and it raised my grade by a full letter.",
+       "kind": "good",
+       "note": "例子：有时间、有地点、有结果。"
+      },
+      {
+       "quote": "Universities should waive the requirement, or reduce the fee, for students who can show that campus housing costs more than they can afford.",
+       "kind": "good",
+       "note": "把同学的反对意见变成一个条件。这是两位同学都没说过的内容。"
+      }
+     ]
+    },
+    {
+     "score": 3,
+     "text": "In my opinion, I agree with Maya. Live on campus is good for first-year students because they can make many friends. When students live in dormitory, they will not feel lonely and they can know more people. Also it is convenient. For example, many students live on campus and they are happy. Daniel say it is expensive, but I think make friends is more important than money. So universities should require it.",
+     "comment": "帖子切题，立场也清楚，所以到了 3 分。上不去有两个原因。一是展开里缺了东西：理由就是 Maya 的理由，例子是空的，convenient 只有一个词，对 Daniel 的回应没有理由。划掉和 Maya 重复的部分，几乎不剩什么。二是错误到了看得出来的程度：动词作主语没用 -ing，缺冠词，第三人称单数。",
+     "notes": [
+      {
+       "quote": "In my opinion, I agree with Maya.",
+       "kind": "bad",
+       "note": "In my opinion 和 I agree 说的是一回事，留一个。这一句也还没回答教授的问题。"
+      },
+      {
+       "quote": "Live on campus is good for first-year students because they can make many friends.",
+       "kind": "bad",
+       "note": "Live 应为 Living。理由和 Maya 的完全一样，没有新内容。"
+      },
+      {
+       "quote": "When students live in dormitory",
+       "kind": "bad",
+       "note": "缺冠词：in a dormitory。"
+      },
+      {
+       "quote": "Also it is convenient.",
+       "kind": "bad",
+       "note": "只有结论。方便在哪、为什么重要，没有说。"
+      },
+      {
+       "quote": "For example, many students live on campus and they are happy.",
+       "kind": "bad",
+       "note": "例子是空的：没有具体的人、事和结果。"
+      },
+      {
+       "quote": "Daniel say it is expensive, but I think make friends is more important than money.",
+       "kind": "bad",
+       "note": "say 应为 says，make 应为 making。为什么交朋友比钱重要，没有给理由。"
+      }
+     ]
+    },
+    {
+     "score": 2,
+     "text": "I think students should live on campus. It is good and convenient. Many people think so. Thank you.",
+     "comment": "看得出想参与讨论，但想法几乎没有展开：good 和 convenient 都没有解释，Many people think so 不是理由，两位同学的帖子完全没有碰。不到 20 个词，句式只有最简单的一种。",
+     "notes": [
+      {
+       "quote": "It is good and convenient.",
+       "kind": "bad",
+       "note": "两个形容词代替了理由。"
+      },
+      {
+       "quote": "Many people think so.",
+       "kind": "bad",
+       "note": "别人怎么想不能支撑你的立场。"
+      }
+     ]
+    }
+   ],
+   "src": "题目、三篇回答和批注都是本课原创，不是官方试题。官方样题和 5 分样例见 overview 第 15–17 页。"
+  },
+  {
+   "id": "errors",
+   "type": "table",
+   "title": "最常丢分的十处",
+   "intro": "前六条丢的是「相关」和「展开」的分，后四条丢的是「语言」的分。",
+   "cols": [
+    "错在哪",
+    "错的样子",
+    "改成",
+    "为什么"
+   ],
+   "rows": [
+    [
+     "没回答教授的问题",
+     "先写一段和题目有关的泛论，到最后也没表态",
+     "第一句就表态：I think / I do not think 加教授问的那件事",
+     "每一档的总述都先看帖子和讨论相不相关。"
+    ],
+    [
+     "只转述两位同学",
+     "Maya thinks ... Daniel thinks ... Both have reasons.",
+     "同学一句带过，其余写自己的",
+     "题目要的是你的看法和你的贡献。"
+    ],
+    [
+     "重复同学的理由",
+     "I agree with Maya because students can make friends.",
+     "换一个她没说的理由，或者给她的理由补一个条件",
+     "划掉重复的部分，剩下的才算贡献。"
+    ],
+    [
+     "例子是空的",
+     "For example, many people think so.",
+     "In my first semester, I joined a review session ...",
+     "5 分那一档要的是展开得充分的解释、例子或细节。"
+    ],
+    [
+     "列三条理由，哪条都没讲",
+     "First ... Second ... Third ...，每条一句",
+     "留一条最强的，写三句：结论、为什么、例子",
+     "十分钟写不透三条。"
+    ],
+    [
+     "不到 100 词",
+     "写了六七十词就停",
+     "理由后面补「为什么」，例子后面补「结果怎样」",
+     "官方说有效的回答至少 100 词。"
+    ],
+    [
+     "背来的套话",
+     "With the development of society, ... / Every coin has two sides.",
+     "删掉，直接表态",
+     "套话不是内容，还占时间。"
+    ],
+    [
+     "be 和 agree 连用，because 和 so 连用",
+     "I am agree with Maya. / Because rent is high, so students work.",
+     "I agree with Maya. / Because rent is high, students work.",
+     "agree 是动词；because 和 so 留一个。"
+    ],
+    [
+     "动词作主语不用 -ing，第三人称单数漏 s",
+     "Live on campus is good. / Daniel say it is expensive.",
+     "Living on campus is good. / Daniel says it is expensive.",
+     "这两种错在帖子里出现得最多，而且很显眼。"
+    ],
+    [
+     "聊天里的写法",
+     "u, gonna, wanna, cuz",
+     "you, going to, want to, because",
+     "课堂讨论区是半正式的语体。缩写 I'm、don't 可以用。"
+    ]
+   ]
+  },
+  {
+   "id": "drill-read",
+   "type": "drill",
+   "title": "练习 1　读题",
+   "points": [
+    "position"
+   ],
+   "prompt": "读下面这道题，回答四个问题。",
+   "material": "Dr. Kim: Some cities are considering making buses and subways free for all residents. Supporters say this would reduce traffic, while opponents say the money could be better spent. What do you think? Should cities make public transportation free? Why or why not?\n\nLeo: Yes. If the bus costs nothing, many people who drive today will leave their cars at home, and the streets will be less crowded.\n\nSofia: I don't think so. Free transportation is paid for with taxes. The city should use that money to make buses faster and more frequent instead.",
+   "items": [
+    {
+     "q": "教授真正问的是哪一句？这是哪一类问题？",
+     "a": "Should cities make public transportation free? 是一道是非题。第一句必须表明支持、反对，或者有条件地支持。"
+    },
+    {
+     "q": "Leo 站哪边？理由是什么？",
+     "a": "支持。免费了，开车的人会改坐公交，路上不那么堵。"
+    },
+    {
+     "q": "Sofia 站哪边？理由是什么？",
+     "a": "反对。钱来自税收，不如用来让公交更快、班次更多。"
+    },
+    {
+     "q": "说出一个两个人都没提到的角度。",
+     "a": "任选其一：对低收入居民的意义；免费之后高峰时段会不会更挤；只对学生和老人免费的折中；不用查票能省下多少成本。"
+    }
+   ]
+  },
+  {
+   "id": "drill-position",
+   "type": "drill",
+   "title": "练习 2　立场句",
+   "points": [
+    "position"
+   ],
+   "prompt": "按给定的立场，各写一句开头。",
+   "criteria": "合格的标准：一句话里有明确的立场（支持、反对或有条件地支持），并且点到了那位同学的观点。只写 I agree with Ana. 不合格。",
+   "items": [
+    {
+     "q": "题：大学该不该要求所有学生学一门外语？同学 Ana：该，能开阔视野。你的立场：反对。",
+     "a": "Although Ana is right that languages broaden our perspective, I do not think a foreign language should be required for every student."
+    },
+    {
+     "q": "题：城市公交该不该免费？同学 Sofia：不该，是用税收付的钱。你的立场：有条件地支持。",
+     "a": "I see Sofia's point about cost, so I would make public transportation free only for students and elderly residents."
+    },
+    {
+     "q": "题：公司该不该让员工自己选在哪里办公？同学 Alex：该，省下通勤时间。你的立场：支持，并且补一个新理由。",
+     "a": "I agree with Alex, and I would add that remote work lets companies hire talented people who live far from the office."
+    }
+   ]
+  },
+  {
+   "id": "drill-develop",
+   "type": "drill",
+   "title": "练习 3　把理由讲透",
+   "points": [
+    "development"
+   ],
+   "prompt": "下面每句只有结论。各补一句，说出为什么。",
+   "criteria": "合格的标准：补上的那一句回答了「为什么会这样」或者「具体是怎么发生的」，不是把第一句换个说法再说一遍。",
+   "items": [
+    {
+     "q": "Living on campus helps students study.",
+     "a": "The library and the tutoring center are only a few minutes away, so a student can walk there after dinner instead of taking a bus."
+    },
+    {
+     "q": "Free buses are good for the environment.",
+     "a": "When the bus costs nothing, some drivers leave their cars at home, and even a small drop in traffic reduces the exhaust in crowded streets."
+    },
+    {
+     "q": "Tablets distract students in class.",
+     "a": "A message or a game is always one tap away, so even a student who wants to pay attention loses focus each time a notification appears."
+    }
+   ]
+  },
+  {
+   "id": "drill-contribute",
+   "type": "drill",
+   "title": "练习 4　加一点新的",
+   "points": [
+    "position"
+   ],
+   "prompt": "每道题里两位同学各说了一个理由。写一句他们都没说过的话：新理由、条件或折中都可以。",
+   "criteria": "合格的标准：这一句里的内容两位同学都没说过，而且和题目直接有关。",
+   "items": [
+    {
+     "q": "题：小学该不该布置家庭作业？甲：该，能巩固课上学的。乙：不该，占掉了玩的时间。",
+     "a": "Homework also shows parents what their children are learning, which makes it easier for them to help."
+    },
+    {
+     "q": "题：博物馆该不该免费？甲：该，人人都进得起。乙：不该，门票是维护的经费。",
+     "a": "Museums could stay free for local residents and charge tourists, which keeps both access and income."
+    },
+    {
+     "q": "题：大学该不该取消期末考试，改用平时作业评分？甲：该，压力小。乙：不该，考试最公平。",
+     "a": "Regular assignments reward steady work, but they are easier to copy, so a short final exam is still needed to confirm that the work is the student's own."
+    }
+   ]
+  },
+  {
+   "id": "drill-correct",
+   "type": "drill",
+   "title": "练习 5　改错",
+   "points": [
+    "accuracy"
+   ],
+   "prompt": "每句有一处错。改过来，并说出规则。",
+   "items": [
+    {
+     "q": "I am agree with Maya.",
+     "a": "I agree with Maya.　agree 是动词，前面不加 be。"
+    },
+    {
+     "q": "Live on campus is good for new students.",
+     "a": "Living on campus is good for new students.　动词作主语用 -ing。"
+    },
+    {
+     "q": "Daniel say that housing is expensive.",
+     "a": "Daniel says that housing is expensive.　第三人称单数加 s。"
+    },
+    {
+     "q": "Students can make friends more easier in a dormitory.",
+     "a": "Students can make friends more easily in a dormitory.　more 和 -er 不叠用；修饰动词用副词。"
+    },
+    {
+     "q": "In my opinion, I think the rule is fair.",
+     "a": "I think the rule is fair.　In my opinion 和 I think 说的是一回事，留一个。"
+    },
+    {
+     "q": "Many people is worried about the cost.",
+     "a": "Many people are worried about the cost.　people 是复数。"
+    },
+    {
+     "q": "This policy will effect small shops.",
+     "a": "This policy will affect small shops.　affect 是动词，effect 是名词。"
+    },
+    {
+     "q": "Because the rent is high, so many students work part-time.",
+     "a": "Because the rent is high, many students work part-time.　because 和 so 不连用。"
+    }
+   ]
+  },
+  {
+   "id": "marking",
+   "type": "marking",
+   "title": "批改单：每次都按这个格式给",
+   "format": [
+    {
+     "t": "一、题目的要求",
+     "d": "两条各判一次：做到了、做了但太薄、没做。每条引你的一句原话作依据。第二条「贡献」只看两位同学没说过的内容。"
+    },
+    {
+     "t": "二、分数档",
+     "d": "0–5 分里的一档，加一句理由。理由用评分标准里的说法，不另造标准。"
+    },
+    {
+     "t": "三、必改的地方",
+     "d": "最多五处，按对理解的影响从大到小排。每处三样：你的原句、改后的句子、一句规则。拼写小错不满三处不提。"
+    },
+    {
+     "t": "四、升一档",
+     "d": "从你的帖子里挑一到两句重写，示范怎么把理由讲透，或者怎么把空的例子写实。只改一处，不替你重写全文。"
+    },
+    {
+     "t": "五、回去练",
+     "d": "指回前面的某一个练习。"
+    }
+   ],
+   "rules": "批改单里不写鼓励的话，也不评价你这个人。分数只是对照评分标准的估计，和正式考试的评分引擎不是同一个东西。",
+   "example": {
+    "about": "下面拿「三个档次」里那个 3 分的帖子做一次示范。",
+    "coverage": [
+     {
+      "bullet": "Express and support your opinion.",
+      "verdict": "做了但太薄",
+      "quote": "Live on campus is good for first-year students because they can make many friends.",
+      "note": "立场清楚。支撑只有一条理由，例子是空的。"
+     },
+     {
+      "bullet": "Make a contribution to the discussion in your own words.",
+      "verdict": "做了但太薄",
+      "quote": "I think make friends is more important than money.",
+      "note": "理由和 Maya 的一样。只有这一句回应了 Daniel，但没有说为什么。"
+     }
+    ],
+    "score": 3,
+    "reason": "帖子大体切题、大体能懂；展开里有一部分解释和例子缺失；句子结构和词形上有看得出来的错误。",
+    "fixes": [
+     {
+      "from": "Live on campus is good",
+      "to": "Living on campus is good",
+      "rule": "动词作主语用 -ing。"
+     },
+     {
+      "from": "Daniel say it is expensive",
+      "to": "Daniel says it is expensive",
+      "rule": "第三人称单数加 s。"
+     },
+     {
+      "from": "I think make friends is more important",
+      "to": "I think making friends is more important",
+      "rule": "动词作主语用 -ing。"
+     },
+     {
+      "from": "When students live in dormitory",
+      "to": "When students live in a dormitory",
+      "rule": "可数名词单数要有冠词。"
+     },
+     {
+      "from": "In my opinion, I agree with Maya.",
+      "to": "I agree with Maya.",
+      "rule": "In my opinion 和 I agree 留一个。"
+     }
+    ],
+    "upgrade": {
+     "from": "Also it is convenient. For example, many students live on campus and they are happy.",
+     "to": "Living on campus is also convenient for studying, because the library is only a few minutes away. In my first semester, I went there almost every evening, which I would not have done if I had needed to take a bus.",
+     "why": "给 convenient 补上了为什么，把空的例子换成了自己的一件事。这也是 Maya 没说过的角度。"
+    },
+    "next": "练习 3（把理由讲透）和练习 4（加一点新的）。"
+   }
+  },
+  {
+   "id": "timed",
+   "type": "write",
+   "title": "限时写作",
+   "minutes": 10,
+   "min_words": 100,
+   "points": [
+    "position",
+    "development",
+    "accuracy"
+   ],
+   "tasks": [
+    {
+     "id": "remote-work",
+     "purpose": "该不该让员工自己选在哪办公（商科）",
+     "setting": "Your professor is teaching a class on business. Write a post responding to the professor's question.",
+     "lead": "In your response, you should do the following.",
+     "bullets": [
+      "Express and support your opinion.",
+      "Make a contribution to the discussion in your own words."
+     ],
+     "posts": [
+      {
+       "who": "Professor Reyes",
+       "text": "In recent years, many companies have allowed employees to work from home several days a week. Some managers believe this makes workers more productive, while others worry that teams communicate less. If you were running a company, would you let employees choose where they work? Why or why not?"
+      },
+      {
+       "who": "Alex",
+       "text": "Yes, I would. Commuting wastes an hour or two every day, and people who work from home can use that time to focus. Employees who are trusted to manage their own time usually work harder."
+      },
+      {
+       "who": "Priya",
+       "text": "I would not. New employees learn mostly by watching experienced colleagues and asking quick questions. That kind of learning is very hard when everyone is at home behind a screen."
+      }
+     ],
+     "must": [
+      "第一句就回答「你会不会让员工自己选」；有一条讲透的理由和一个具体的例子。",
+      "有一点是 Alex 和 Priya 都没说过的：一个新理由、让某个观点成立的条件，或者折中的做法。"
+     ],
+     "model": "If I ran a company, I would let employees choose, but only after their first six months. Priya is right that new employees learn a great deal by watching experienced colleagues, and that kind of learning is hard to schedule in a video call. However, once people know their job, Alex's argument becomes stronger: an experienced programmer or accountant does not need supervision, and two hours saved from commuting can go into focused work or rest. My sister's company follows a similar rule. New staff spend their first months in the office with a mentor, and after that they decide for themselves. She told me that almost nobody quit during the first year, because people felt both supported and trusted. A single policy for everyone ignores the fact that employees need different things at different stages, so I would let the choice depend on experience."
+    },
+    {
+     "id": "car-free",
+     "purpose": "市中心该不该禁止私家车（城市规划）",
+     "setting": "Your professor is teaching a class on urban planning. Write a post responding to the professor's question.",
+     "lead": "In your response, you should do the following.",
+     "bullets": [
+      "Express and support your opinion.",
+      "Make a contribution to the discussion in your own words."
+     ],
+     "posts": [
+      {
+       "who": "Professor Tanaka",
+       "text": "Some cities have closed their central streets to private cars, leaving them open only to pedestrians, bicycles, and public transportation. Do you think closing city centers to cars is a good policy? Why or why not?"
+      },
+      {
+       "who": "Lucas",
+       "text": "I think it is a good policy. Fewer cars mean cleaner air, and streets without traffic are much safer for children and cyclists."
+      },
+      {
+       "who": "Hannah",
+       "text": "I am not sure. Small shops in the center depend on customers who arrive by car, and those customers may simply stop coming. It also becomes harder for elderly people to reach the center."
+      }
+     ],
+     "must": [
+      "第一句就表明支持、反对或有条件地支持；有一条讲透的理由和一个具体的例子。",
+      "有一点是 Lucas 和 Hannah 都没说过的：一个新的好处或坏处、政策成立的条件，或者解决 Hannah 顾虑的办法。"
+     ],
+     "model": "I support closing city centers to cars, although Hannah's worry about small shops deserves a serious answer. In my view, the policy works only if the city makes it easy to arrive without a car. When my hometown closed its main shopping street, the first months were difficult, and several shop owners complained, just as Hannah predicts. Then the city added a free shuttle from two large parking lots at the edge of the center, and the number of visitors actually rose, because people enjoyed walking in a quiet street and stayed longer. Lucas mentions cleaner air and safety, and I would add a third benefit: space. A street without parked cars has room for outdoor tables, markets, and benches, which bring customers to the same shops that feared the change. For elderly residents, small electric buses can solve most of the access problem."
+    },
+    {
+     "id": "devices",
+     "purpose": "课堂上的电子设备是帮忙还是添乱（教育）",
+     "setting": "Your professor is teaching a class on education. Write a post responding to the professor's question.",
+     "lead": "In your response, you should do the following.",
+     "bullets": [
+      "Express and support your opinion.",
+      "Make a contribution to the discussion in your own words."
+     ],
+     "posts": [
+      {
+       "who": "Dr. Osei",
+       "text": "More and more schools give every student a laptop or tablet to use in class. Do you think digital devices in the classroom help students learn, or do they mostly distract them? Explain your view."
+      },
+      {
+       "who": "Emma",
+       "text": "I think they help. Students can look up information immediately, and interactive exercises are more interesting than a textbook."
+      },
+      {
+       "who": "Noah",
+       "text": "In my experience, they mostly distract. Students switch to games or messages as soon as the teacher looks away, and research suggests that taking notes by hand helps people remember more."
+      }
+     ],
+     "must": [
+      "第一句就回答「帮忙还是添乱」，可以是有条件的回答；有一条讲透的理由和一个具体的例子。",
+      "有一点是 Emma 和 Noah 都没说过的：比如效果取决于什么条件，或者一个具体的用法。"
+     ],
+     "model": "I think Emma and Noah are both describing something real, because the effect of a device depends on what the teacher asks students to do with it. When a laptop is simply open during a lecture, Noah is right: the temptation to check messages is too strong for most teenagers. In my high school physics class, however, we used tablets for one specific task. We filmed a falling ball, measured its position frame by frame, and calculated the acceleration ourselves. Nobody played games during that lesson, since every minute had a clear purpose, and I still remember the result better than anything I copied from the board. For this reason, I would not ask whether schools should provide devices. I would ask teachers to plan short, defined activities that cannot be done on paper, and to keep the screens closed for the rest of the class."
+    }
+   ],
+   "more": {
+    "kind": "discussion",
+    "topics": [
+     "大学该不该把出勤算进成绩（教育）",
+     "公司该不该实行四天工作制（商科）",
+     "城市该不该对塑料袋收费（环境）",
+     "中学该不该晚一小时上课（教育）",
+     "社交媒体对青少年交朋友是帮助还是妨碍（社会学）",
+     "博物馆该不该免费（公共政策）",
+     "大学生该不该先工作一年再读研（教育）",
+     "网购的兴起对小城镇是好是坏（经济）",
+     "该不该用考试成绩以外的方式录取学生（教育）",
+     "动物园该不该继续存在（生物伦理）",
+     "政府该不该给买电动车的人补贴（环境政策）",
+     "在线课程能不能代替面授（教育技术）",
+     "广告该不该面向儿童（市场营销）",
+     "城市该把钱花在公园上还是道路上（城市规划）",
+     "学外语是不是越早越好（语言学）",
+     "企业该不该允许员工带宠物上班（管理）",
+     "历史课该多讲本国史还是世界史（历史教育）",
+     "大学该不该要求所有学生学编程（计算机教育）"
+    ]
+   }
+  }
+ ]
+}

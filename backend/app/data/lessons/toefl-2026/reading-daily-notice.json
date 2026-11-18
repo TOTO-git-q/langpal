@@ -1,0 +1,408 @@
+{
+ "id": "reading-daily-notice",
+ "title": "通知和公告",
+ "goal": "按通知结构定位事项，并识别要求、期限和例外。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "structure",
+   "label": "按通知的结构找到所需信息"
+  },
+  {
+   "id": "condition",
+   "label": "识别要求、期限和例外"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、计分、自适应"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明和官方样题（挖空规则是对照样题和答案看出来的）"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Reading Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-reading.pdf",
+   "used": "第 1 课：三类题的说明和需要的三项基本功"
+  }
+ ],
+ "cards": [
+  {
+   "id": "structure",
+   "type": "table",
+   "title": "结构",
+   "cols": [
+    "位置",
+    "内容",
+    "例"
+   ],
+   "rows": [
+    [
+     "标题",
+     "标题说明通知讲的事项，即主旨。",
+     "ARCHIVE ACCESS CHANGE"
+    ],
+    [
+     "对象",
+     "确认规定适用于哪些人。",
+     "For registered researchers only."
+    ],
+    [
+     "事项",
+     "查找发生的变化或举办的活动。",
+     "Reading desks will move to the annex."
+    ],
+    [
+     "时间地点",
+     "区分生效日、截止日和活动地点。",
+     "Effective May 6, use the annex entrance."
+    ],
+    [
+     "要求",
+     "确定必须完成的动作。",
+     "Researchers are required to show a pass."
+    ],
+    [
+     "联系方式",
+     "查找提交材料或咨询的对象。",
+     "Send questions to the archive office."
+    ]
+   ]
+  },
+  {
+   "id": "expressions",
+   "type": "table",
+   "title": "常用表达",
+   "cols": [
+    "表达",
+    "含义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "be required to",
+     "表示必须完成的动作。",
+     "Visitors are required to sign the register."
+    ],
+    [
+     "no later than",
+     "表示最迟期限，包含指定时点。",
+     "Submit the form no later than noon on Friday."
+    ],
+    [
+     "effective",
+     "表示规定开始生效的时间。",
+     "Effective August 1, entry requires a pass."
+    ],
+    [
+     "until further notice",
+     "表示暂时持续，结束时间尚未公布。",
+     "The upper room is closed until further notice."
+    ],
+    [
+     "in advance",
+     "表示在相关事件发生之前。",
+     "Reserve a desk two days in advance."
+    ],
+    [
+     "except / unless",
+     "分别表示例外和条件。",
+     "All guests sign in except staff. Entry is denied unless a pass is shown."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "DARKROOM ACCESS\nEffective September 8, users of the photography darkroom are required to attend an equipment briefing before their next session. Users who completed the briefing in August are exempt. Book a place with the studio office no later than September 5. Briefings take place in Room 12. Contact the studio office for additional dates."
+    },
+    {
+     "box": "Who may use the darkroom without attending another briefing?\n1. Users who booked a September session\n2. Users who contacted the studio office\n3. Users who finished the August briefing\n4. Users who arrive at Room 12 early"
+    },
+    {
+     "p": "题干问免于再次参加说明会的对象，依据位于例外句 Users who completed the briefing in August are exempt。"
+    },
+    {
+     "p": "第三项把 completed 改写为 finished，保留了 August。September 5 是预约期限，September 8 是规定生效日，两者都不决定豁免资格。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "混淆日期",
+     "The rule starts on September 5.",
+     "September 5 是预约期限，生效日是 September 8。"
+    ],
+    [
+     "遗漏例外",
+     "Every user must repeat the briefing.",
+     "August briefing 的参加者被明确豁免。"
+    ],
+    [
+     "扩大对象",
+     "All studio visitors need a briefing.",
+     "通知只针对 darkroom users。"
+    ],
+    [
+     "改变动作",
+     "Contacting the office grants an exemption.",
+     "联系办公室用于预约或查询日期。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "structure",
+    "condition"
+   ],
+   "groups": [
+    {
+     "label": "Read the notice.",
+     "look": "notice",
+     "text": "CHESS ROOM\nEffective April 3, visitors must leave bags in the entrance lockers. The change applies to spectators as well as players.",
+     "items": [
+      {
+       "stem": "When does the bag rule begin?",
+       "options": [
+        "At the start of April",
+        "On the third day of April",
+        "After the April tournament",
+        "At the end of April"
+       ],
+       "answer": 1,
+       "why": "依据是 Effective April 3，第二项用日期的完整说法表达生效日。",
+       "point": "structure"
+      }
+     ]
+    },
+    {
+     "label": "Read the notice.",
+     "look": "notice",
+     "text": "ORAL HISTORY PROJECT\nInterview volunteers should send consent forms to the project assistant. Questions about recording equipment go to the audio technician.",
+     "items": [
+      {
+       "stem": "Who receives the completed forms?",
+       "options": [
+        "The equipment technician",
+        "The interview subject",
+        "The project assistant",
+        "The interview volunteers"
+       ],
+       "answer": 2,
+       "why": "依据是 send consent forms to the project assistant，第三项是接收表格的人。",
+       "point": "structure"
+      }
+     ]
+    },
+    {
+     "label": "Read the notice.",
+     "look": "notice",
+     "text": "BOARD GAME DESIGN FAIR\nExhibitors are required to label prototypes before delivery. Commercial games brought for comparison do not need labels.",
+     "items": [
+      {
+       "stem": "Which objects need labels?",
+       "options": [
+        "All games used for comparison",
+        "Only commercially sold games",
+        "Every game the exhibitors bring",
+        "The prototypes being delivered"
+       ],
+       "answer": 3,
+       "why": "依据是 label prototypes before delivery，第四项说的就是要送交的样品。",
+       "point": "condition"
+      }
+     ]
+    },
+    {
+     "label": "Read the notice.",
+     "look": "notice",
+     "text": "COMMUNITY ORCHARD\nFruit-picking requests must arrive no later than 4 p.m. on Tuesday. Approval notices will be sent on Wednesday.",
+     "items": [
+      {
+       "stem": "Which request meets the deadline?",
+       "options": [
+        "One received at 3 p.m. on Tuesday",
+        "One received at 5 p.m. on Tuesday",
+        "One received on Wednesday morning",
+        "One received after the approval notice"
+       ],
+       "answer": 0,
+       "why": "依据是 no later than 4 p.m. on Tuesday，周二下午 3 点早于截止时刻。",
+       "point": "condition"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "structure",
+    "condition"
+   ],
+   "groups": [
+    {
+     "label": "Read the notice.",
+     "look": "notice",
+     "text": "Ceramics Display\nStudents exhibiting fired work should deliver it to the display office by Thursday noon. Unfired pieces cannot be accepted. Attach a label giving the maker's name and the title of the piece. Large pieces that require two people to carry must be booked in advance with the display coordinator. Small pieces need no delivery booking.",
+     "items": [
+      {
+       "stem": "Where should students bring their work?",
+       "options": [
+        "To the firing room",
+        "To the coordinator's classroom",
+        "To the display office",
+        "To the display coordinator"
+       ],
+       "answer": 2,
+       "why": "依据是 deliver it to the display office，第三项对应交付地点。",
+       "point": "structure"
+      },
+      {
+       "stem": "Which delivery requires advance arrangements?",
+       "options": [
+        "A small piece with a printed label",
+        "A piece needing two people to move it",
+        "An unfired piece delivered on Thursday",
+        "A small piece delivered before noon"
+       ],
+       "answer": 1,
+       "why": "依据是 Large pieces that require two people to carry must be booked in advance。第二项改写了这个条件：需要两个人搬。",
+       "point": "condition"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "structure",
+    "condition"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Read the notice.",
+       "look": "notice",
+       "text": "COMMUNITY RAMP SURVEY\nFor residents who use the path beside Willow Square\nThe access team is collecting comments on the proposed ramp at the square's west entrance. Submit written comments to the neighborhood office no later than 5 p.m. on May 12. The plan can be viewed in the office lobby. Comments received after the deadline will be saved for a later review, not considered at this meeting. People who submitted comments at the April workshop need not send them again. For a large-print copy of the plan, contact the access team.",
+       "items": [
+        {
+         "stem": "What is the notice mainly about?",
+         "options": [
+          "Reporting the completion of a new path",
+          "Inviting comments on a planned access change",
+          "Offering large-print copies of a plan",
+          "Summarizing comments from the April workshop"
+         ],
+         "answer": 1,
+         "why": "依据是 collecting comments on the proposed ramp。第二项概括了这件事：就拟建的坡道征求意见。",
+         "point": "structure"
+        },
+        {
+         "stem": "Where can residents examine the plan?",
+         "options": [
+          "At the square's west entrance",
+          "At the April workshop site",
+          "In the neighborhood office lobby",
+          "From the access team, by request"
+         ],
+         "answer": 2,
+         "why": "依据是 The plan can be viewed in the office lobby，examine 改写 viewed。",
+         "point": "structure"
+        },
+        {
+         "stem": "Who does not need to submit comments again?",
+         "options": [
+          "People who already responded at the April workshop",
+          "People who request a large-print copy of the plan",
+          "People who live near the square's west entrance",
+          "People who send comments after the stated deadline"
+         ],
+         "answer": 0,
+         "why": "依据是 People who submitted comments at the April workshop need not send them again。第一项用 already responded 改写了 submitted comments。",
+         "point": "condition"
+        }
+       ]
+      },
+      {
+       "label": "Read the notice.",
+       "look": "notice",
+       "text": "SHARED FREEZER INVENTORY\nTo all users of the food cooperative's storage freezer\nAn inventory will take place on October 18. Members are required to mark each container with a name and storage date before that day. Containers without both details will be moved to the collection shelf, where they may be claimed until October 20. Effective October 21, unclaimed containers will be removed. Staff containers are subject to the same rules. The freezer remains open during the inventory. Questions should be directed to the storage coordinator.",
+       "items": [
+        {
+         "stem": "Who should answer questions about the inventory?",
+         "options": [
+          "The staff who share the freezer",
+          "The members using the collection shelf",
+          "The member whose container is unmarked",
+          "The person coordinating storage"
+         ],
+         "answer": 3,
+         "why": "依据是 Questions should be directed to the storage coordinator。第四项用 the person coordinating storage 改写了这一职务。",
+         "point": "structure"
+        },
+        {
+         "stem": "Which container will be moved to the collection shelf?",
+         "options": [
+          "One showing both a name and a storage date",
+          "One showing a name but no storage date",
+          "One belonging to a member of staff",
+          "One labeled before the inventory day"
+         ],
+         "answer": 1,
+         "why": "依据是 Containers without both details will be moved。姓名和日期缺一项就会被移走，第二项只有姓名，没有日期。",
+         "point": "condition"
+        },
+        {
+         "stem": "What is the final day for claiming a container from the shelf?",
+         "options": [
+          "The day before the inventory",
+          "The day the inventory takes place",
+          "The twentieth day of October",
+          "The twenty-first day of October"
+         ],
+         "answer": 2,
+         "why": "依据是 may be claimed until October 20，第三项是这一天的另一种说法。",
+         "point": "condition"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

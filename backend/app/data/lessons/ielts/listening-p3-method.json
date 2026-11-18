@@ -1,0 +1,90 @@
+{
+ "id": "listening-p3-method",
+ "title": "教育讨论的议题推进",
+ "goal": "辨认教育讨论的议题阶段，区分提议与确定的安排。",
+ "skill": "听力",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {"id": "stage", "label": "辨认讨论所处的议题阶段"},
+  {"id": "decision", "label": "区分提议与已确定的安排"}
+ ],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "教育讨论的议题推进与教学规格"}],
+ "cards": [
+  {"id": "task", "type": "text", "title": "题型", "body": [
+   {"p": "教育讨论是学生与导师或两名学生商量一项学习任务。议题多是研究对象、方法和分工。同一个方案常常先被提出，后来又被修改或否定。"},
+   {"box": "Student: We could interview first-year students.\nTutor: What would their responses tell you?\nStudent: Whether the induction sessions meet their needs."},
+   {"p": "interview first-year students 只是提出的方法。responses 指研究要得到的信息。访谈用不用，要看后面的回应。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定当前议题", "d": "看这一轮话说的是什么对象、什么任务。Which students should we include 问的是研究对象。"},
+   {"t": "2　区分方案和理由", "d": "记下每个方案和它的限制。A survey would reach more students 说的是问卷的优点。访谈还可能用来补充细节。"},
+   {"t": "3　识别分工", "d": "核对每个动作由谁来做。Mina will code the responses 是 Mina 负责给回答编码，收集回答的是别人。"},
+   {"t": "4　确认最终安排", "d": "决定要有明确的接受语，后面也没有再改。Let's use interviews 之后对方说 That works，表示双方都同意用访谈。"}
+  ]},
+  {"id": "stages", "type": "table", "title": "讨论阶段", "cols": ["阶段", "作用", "例句"], "rows": [
+   ["提出问题", "确定任务或研究范围", "Which students should we include?"],
+   ["比较方案", "比较可选方法及条件", "A survey reaches more people; interviews give more detail."],
+   ["分配任务", "确定任务和承担者", "Mina will code the responses."],
+   ["形成决定", "确认采用的安排", "Let's use interviews. — That works."]
+  ], "note": "阶段可能重复，顺序也会变。判断时看当前这一轮话的作用。"},
+  {"id": "signals", "type": "table", "title": "提议与决定", "cols": ["表达", "作用", "例句"], "rows": [
+   ["could", "提出可能方案", "We could survey the whole class."],
+   ["what about", "征求对方案的意见", "What about using interviews?"],
+   ["but", "引出方案的限制", "Interviews give detail, but they take time."],
+   ["let's + 接受", "确认共同安排", "Let's use a survey. — Agreed."]
+  ], "note": "只听到 let's 还不能算决定，要听另一人是否接受、后面有没有再改。"},
+  {"id": "example", "type": "text", "title": "例题", "body": [
+   {"box": "Student: Could I compare two seminar groups?\nTutor: That would be useful, but the second group is too small. What about comparing two sessions in one group?\nStudent: Yes, I'll compare the sessions and send you the outline."},
+   {"box": "What has the student agreed to compare?\n1. Two seminar groups\n2. Two sessions in one group\n3. One group in a single session\n4. Two groups across two sessions"},
+   {"p": "比较两个研讨组是最初的提议，the second group is too small 是它的限制。依据是 Yes, I'll compare the sessions，学生接受的是第二项。send you the outline 是之后的任务。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "依据", "例句"], "rows": [
+   ["提议当决定", "听有没有接受语，后面有没有限制","We could compare groups. — One group is too small."],
+   ["对象错置", "核对动作对应的对象", "Compare sessions within one group, not two groups."],
+   ["分工错置", "核对任务的承担者", "Mina codes replies; Sam collects them."],
+   ["阶段混淆", "区分比较方法与分配工作", "Which method gives more detail? — Who will conduct it?"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["stage", "decision"], "groups": [
+   {"audio": {"intro": "Listen to a discussion.", "lines": [{"who": "A", "text": "Which year group should our project focus on?"}, {"who": "B", "text": "First-year students may be suitable."}]}, "items": [{"stem": "What are the students discussing?", "options": ["Which year group the project will study", "Which method suits first-year students", "Which year group will run the project", "That first-year students have been chosen"], "answer": 0, "why": "依据是 Which year group should our project focus on。两人在商量研究对象，即第一项。may be suitable 只是提议，还没有决定。", "point": "stage"}]},
+   {"audio": {"intro": "Listen to a discussion.", "lines": [{"who": "A", "text": "We could use diaries, but interviews would give us more detail."}, {"who": "B", "text": "Let's use interviews, then."}, {"who": "A", "text": "Agreed."}]}, "items": [{"stem": "Which method do the students accept?", "options": ["Diaries for more detail", "Interviews for more detail", "Diaries followed by interviews", "Interviews followed by diaries"], "answer": 1, "why": "依据是 Let's use interviews, then 和 Agreed。双方接受的是访谈，即第二项。diaries 只是先提出的方案。", "point": "decision"}]},
+   {"audio": {"intro": "Listen to a discussion.", "lines": [{"who": "A", "text": "I can collect the forms."}, {"who": "B", "text": "Then I'll enter the responses."}]}, "items": [{"stem": "What stage has the discussion reached?", "options": ["Choosing which forms to collect", "Comparing responses on the forms", "Allocating the work on the forms", "Reviewing responses already entered"], "answer": 2, "why": "依据是 I can collect the forms 和 I'll enter the responses。两人在分工，即第三项。", "point": "stage"}]},
+   {"audio": {"intro": "Listen to a discussion.", "lines": [{"who": "A", "text": "Should we submit the draft on Tuesday?"}, {"who": "B", "text": "Wednesday would give us time to check the references."}, {"who": "A", "text": "All right, Wednesday it is."}]}, "items": [{"stem": "When will the draft be submitted?", "options": ["Before the references are checked", "On Tuesday, as first suggested", "On Tuesday, after checking references", "On Wednesday, the day agreed on"], "answer": 3, "why": "依据是 All right, Wednesday it is。双方最后定在周三，即第四项。Tuesday 只是最初的提议。", "point": "decision"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["stage", "decision"], "groups": [{"audio": {"intro": "Listen to a discussion.", "lines": [
+   {"who": "A", "text": "For our report on study spaces, should we look at the library or the common room?"},
+   {"who": "B", "text": "The library is quieter, but we'd need permission to observe there. The common room is easier to access."},
+   {"who": "A", "text": "Let's use the common room. I'll observe there on Monday."},
+   {"who": "B", "text": "Fine. I'll prepare the observation sheet before then."}
+  ]}, "items": [
+   {"stem": "What are the students doing when they discuss access and noise?", "options": ["Dividing up the work", "Comparing two study spaces", "Confirming the observation day", "Reviewing the finished sheet"], "answer": 1, "why": "依据是 The library is quieter 和 The common room is easier to access。两人在比较两个地点，即第二项。", "point": "stage"},
+   {"stem": "What has the second student agreed to do?", "options": ["Observe the library on Monday", "Ask permission to use the library", "Prepare a sheet for observation", "Write the report in the common room"], "answer": 2, "why": "依据是 I'll prepare the observation sheet before then。第二位学生负责准备观察表，即第三项。周一去观察的是第一位学生。", "point": "decision"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["stage", "decision"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to a discussion.", "lines": [
+    {"who": "A", "text": "For my report on peer feedback, I'm unsure whose comments I should examine. I could look at the feedback students give each other in the first week, or at the comments they exchange after revising a draft."},
+    {"who": "B", "text": "The later comments might show how their advice develops. However, you'll have fewer examples because some students haven't completed a revision. The first-week comments are more numerous, and you can compare them across the whole group."},
+    {"who": "A", "text": "That makes sense. I'll focus on the first week. Should I count every suggestion, or classify suggestions by the aspect of writing they address?"},
+    {"who": "B", "text": "Classifying them would be more informative, provided that you define the categories first. A simple count could accompany that analysis, but it wouldn't explain what the advice concerns."},
+    {"who": "A", "text": "Then I'll define the categories and classify the suggestions. I'll also include the count. Could you review my categories before I start?"},
+    {"who": "B", "text": "Certainly. Send them to me on Thursday, and I'll return comments on Friday. That will leave you the weekend to make any changes before you begin the analysis. We'll discuss the resulting report later."}
+   ]}, "items": [
+    {"stem": "What issue opens the discussion?", "options": ["Which feedback the report should examine", "Which categories the tutor has already approved", "Who will return comments on Friday", "How the final count should be presented"], "answer": 0, "why": "依据是 I'm unsure whose comments I should examine。讨论从选哪一批反馈开始，即第一项。", "point": "stage"},
+    {"stem": "What has the student decided to analyse?", "options": ["Only comments on revised drafts", "Comments given in the first week", "The tutor's comments on categories", "A simple count of first-week comments"], "answer": 1, "why": "依据是 I'll focus on the first week。学生定下分析第一周的反馈，即第二项。第四项只说了计数，学生还要给建议分类。", "point": "decision"},
+    {"stem": "What is happening when the tutor discusses counting and classification?", "options": ["The tutor is setting dates for reviewing the work.", "The tutor is approving the student's categories.", "The tutor is comparing ways to analyse comments.", "The student is choosing which comments to study."], "answer": 2, "why": "依据是 Classifying them would be more informative 和 A simple count could accompany that analysis。导师在比较两种分析方法，即第三项。", "point": "stage"}
+   ]},
+   {"audio": {"intro": "Listen to a discussion.", "lines": [
+    {"who": "A", "text": "We need a topic for the presentation about learning resources. I thought we might investigate how students use printed handouts, but the tutor mentioned online reading lists as another possibility."},
+    {"who": "B", "text": "Handouts would let us compare what happens in class. Online lists could also be useful, though we'd need access to usage records, and those aren't available to us. Let's concentrate on handouts."},
+    {"who": "A", "text": "Agreed. We could ask students to complete a short questionnaire after a seminar. Or we could observe how they annotate a handout during the session."},
+    {"who": "B", "text": "Observation would show what they actually mark, but we'd have to arrange permission in advance. A questionnaire would tell us what they say they use the handout for. I think we have time to arrange the observation."},
+    {"who": "A", "text": "Then let's observe, and leave the questionnaire for another project. I'll ask the seminar leader for permission. Would you prepare the recording sheet?"},
+    {"who": "B", "text": "Yes, I'll draft the sheet. Once permission is confirmed, we can check it together before the seminar. Afterwards, I'll organise the notes and you can prepare the slides. We should keep the notes securely afterwards."}
+   ]}, "items": [
+    {"stem": "Which resource will the presentation focus on?", "options": ["The online reading lists the tutor named", "Both handouts and online reading lists", "The slides prepared for the presentation", "The printed handouts given out in class"], "answer": 3, "why": "依据是 Let's concentrate on handouts 和随后的 Agreed。主题定为纸质讲义，即第四项。网上书单拿不到使用记录，没有采用。", "point": "decision"},
+    {"stem": "What function does the discussion of permission serve?", "options": ["It reports the observation's results.", "It explains a condition on observation.", "It explains why observation was rejected.", "It confirms access to online records."], "answer": 1, "why": "依据是 we'd have to arrange permission in advance。观察要先取得许可，这是采用观察的条件，即第二项。", "point": "stage"},
+    {"stem": "What will the second student do after the seminar?", "options": ["Request the seminar leader's permission", "Prepare the presentation slides", "Organise the notes from the observation", "Conduct the questionnaire in class"], "answer": 2, "why": "依据是 Afterwards, I'll organise the notes。研讨课之后第二位学生整理笔记，即第三项。做幻灯片的是第一位学生。", "point": "decision"}
+   ]}
+  ]}]}
+ ]
+}

@@ -1,0 +1,418 @@
+{
+ "id": "listening-long-interview",
+ "title": "访谈对话的结构",
+ "goal": "按提问与回应定位访谈信息，区分假设与经历。",
+ "skill": "听力",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "structure",
+   "label": "按提问与回应定位访谈信息"
+  },
+  {
+   "id": "experience",
+   "label": "区分提问假设与受访者的经历"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语（新课标卷）：课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "访谈结构的教学要求"
+  }
+ ],
+ "cards": [
+  {
+   "id": "structure",
+   "type": "table",
+   "title": "结构",
+   "cols": [
+    "部分",
+    "作用",
+    "例"
+   ],
+   "rows": [
+    [
+     "背景介绍",
+     "引入受访者及话题",
+     "Today we welcome Mira, a local baker."
+    ],
+    [
+     "经历提问",
+     "引出过去的工作或活动",
+     "How did you start baking?"
+    ],
+    [
+     "追问原因",
+     "询问选择或变化的理由",
+     "Why did you change your recipe?"
+    ],
+    [
+     "未来安排",
+     "询问计划中的行动",
+     "What do you plan to do next?"
+    ]
+   ],
+   "note": "提问只引出话题，事实以受访者的回答为准。"
+  },
+  {
+   "id": "expressions",
+   "type": "table",
+   "title": "常用表达",
+   "cols": [
+    "表达",
+    "时间关系",
+    "例"
+   ],
+   "rows": [
+    [
+     "used to",
+     "过去经常的状态或行为",
+     "I used to bake at home."
+    ],
+    [
+     "at first",
+     "经历的最初阶段",
+     "At first I made only bread."
+    ],
+    [
+     "eventually",
+     "经过一段过程后的结果",
+     "Eventually I opened a bakery."
+    ],
+    [
+     "plan to",
+     "将来的计划",
+     "I plan to teach a class."
+    ]
+   ],
+   "note": "used to、at first、eventually 说的是已经发生的事。plan to 说的是还没有做的事。"
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Host: Did you start by selling cakes?\nMira: No. At first I baked bread at home. Eventually I sold bread at the market. I plan to teach a class next year."
+    },
+    {
+     "box": "What did Mira do at first?\n1. She taught a class at the market.\n2. She baked bread at home.\n3. She sold cakes at the market.\n4. She sold bread at the market."
+    },
+    {
+     "p": "主持人问 Mira 是不是从卖蛋糕开始，Mira 用 No 否定了。At first I baked bread at home 是她最初的经历，与第二项对应。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "辨析"
+   ],
+   "rows": [
+    [
+     "假设当事实",
+     "Mira started by selling cakes.",
+     "受访者否定了卖蛋糕的假设。"
+    ],
+    [
+     "阶段混淆",
+     "Mira sold bread at first.",
+     "卖面包是 eventually 之后的阶段。"
+    ],
+    [
+     "计划当经历",
+     "Mira taught a class last year.",
+     "授课是下一年的计划。"
+    ],
+    [
+     "原因换对象",
+     "Mira changed a recipe to teach a class.",
+     "改配方的原因只从受访者对 Why 的回答里找。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "structure",
+    "experience"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to an interview.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Today we're talking with painter Leo. Did you study painting at school?"
+       },
+       {
+        "who": "B",
+        "text": "No, I studied music. At first I painted at home after work. Eventually I joined a community art class."
+       },
+       {
+        "who": "A",
+        "text": "What do you plan to do next?"
+       },
+       {
+        "who": "B",
+        "text": "I'll display my paintings in the library."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What did Leo study at school?",
+       "options": [
+        "Painting with the community art class.",
+        "Music during his school years.",
+        "Painting first, then music.",
+        "Painting after his workday."
+       ],
+       "answer": 1,
+       "why": "依据是 No, I studied music。Leo 否定了学画画的说法，他在学校学的是音乐，即第二项。",
+       "point": "experience"
+      },
+      {
+       "stem": "What does Leo plan to do?",
+       "options": [
+        "Study music at school again.",
+        "Paint at home after work, as before.",
+        "Start a community music class.",
+        "Show his paintings at the library."
+       ],
+       "answer": 3,
+       "why": "依据是 Leo 对计划的回答 I'll display my paintings in the library。display 改写为 show，即第四项。",
+       "point": "structure"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "structure",
+    "experience"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to an interview.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Today we're speaking with gardener Tess. Did you start with a large garden?"
+       },
+       {
+        "who": "B",
+        "text": "No. At first I grew herbs in a few pots. Eventually I rented a small garden. I chose it because it was close to home."
+       },
+       {
+        "who": "A",
+        "text": "What will you grow next?"
+       },
+       {
+        "who": "B",
+        "text": "I plan to add flowers beside the herbs."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Why did Tess choose the small garden?",
+       "options": [
+        "It was near where she lived.",
+        "It contained many flowers.",
+        "It had space for large pots.",
+        "It was farther from her home."
+       ],
+       "answer": 0,
+       "why": "依据是 I chose it because it was close to home。close to home 改写为 near where she lived，即第一项。",
+       "point": "structure"
+      },
+      {
+       "stem": "How did Tess begin gardening?",
+       "options": [
+        "She rented a large garden.",
+        "She planted flowers at home.",
+        "She grew herbs in containers.",
+        "She added pots to a rented plot."
+       ],
+       "answer": 2,
+       "why": "依据是 At first I grew herbs in a few pots。pots 改写为 containers，即第三项；租小园子是后来的事。",
+       "point": "experience"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "structure",
+    "experience"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to an interview.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Today we welcome Mara, who repairs musical instruments. Did you begin by working in a music shop?"
+         },
+         {
+          "who": "B",
+          "text": "No. I used to play the violin in a small orchestra. At first I only replaced the strings on my own instrument. When a friend asked me to help with hers, I became interested in repairs. Eventually I took a course and began working in a repair shop."
+         },
+         {
+          "who": "A",
+          "text": "Why did you choose a repair course?"
+         },
+         {
+          "who": "B",
+          "text": "I wanted to learn how to work on instruments without damaging them. The course included practical lessons as well as advice about different materials."
+         },
+         {
+          "who": "A",
+          "text": "What do you plan to do next?"
+         },
+         {
+          "who": "B",
+          "text": "I plan to run a short workshop for players. I'll show them how to care for strings between visits to a repairer."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What did Mara do before she studied repairs?",
+         "options": [
+          "She played in an orchestra.",
+          "She taught a repair course.",
+          "She worked in a music shop.",
+          "She ran a workshop for players."
+         ],
+         "answer": 0,
+         "why": "依据是 I used to play the violin in a small orchestra。Mara 学修理之前在乐团拉小提琴，即第一项；在乐器店工作是主持人的猜测，她用 No 否定了。",
+         "point": "experience"
+        },
+        {
+         "stem": "Why did Mara take a repair course?",
+         "options": [
+          "To start playing in an orchestra.",
+          "To teach friends to replace strings.",
+          "To learn to repair instruments safely.",
+          "To find a shop selling new instruments."
+         ],
+         "answer": 2,
+         "why": "依据是 I wanted to learn how to work on instruments without damaging them。without damaging them 改写为 safely，即第三项。",
+         "point": "structure"
+        },
+        {
+         "stem": "What does Mara plan to do for players?",
+         "options": [
+          "Repair players' strings at each visit.",
+          "Offer a workshop about string care.",
+          "Join their orchestra as a teacher.",
+          "Sell them materials from her course."
+         ],
+         "answer": 1,
+         "why": "依据是 I plan to run a short workshop for players 和 show them how to care for strings。她要办一个讲琴弦保养的短期课，即第二项。",
+         "point": "structure"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to an interview.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Our guest is Arun, who makes maps for visitors to the marsh. Arun, did you learn about the marsh by reading books first?"
+         },
+         {
+          "who": "B",
+          "text": "Not at first. I used to walk there with my grandfather, who showed me the paths. Later I read about the plants and birds. Eventually I began drawing maps for friends who wanted to visit."
+         },
+         {
+          "who": "A",
+          "text": "Why did you add information about plants?"
+         },
+         {
+          "who": "B",
+          "text": "Friends wanted to know what they were seeing. I added short descriptions beside the paths, and a local teacher checked them for me. The maps also show where visitors can rest."
+         },
+         {
+          "who": "A",
+          "text": "Are you making another map now?"
+         },
+         {
+          "who": "B",
+          "text": "Yes. I plan to finish a map of the northern path this summer. It will include the resting places and the bridge near the entrance."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "How did Arun first learn about the marsh?",
+         "options": [
+          "He read a teacher's descriptions.",
+          "He drew maps of the northern path.",
+          "He asked friends about the plants.",
+          "He walked there with his grandfather."
+         ],
+         "answer": 3,
+         "why": "依据是 I used to walk there with my grandfather。Arun 用 Not at first 否定了先读书的说法，他最初是跟祖父去湿地散步，即第四项。",
+         "point": "experience"
+        },
+        {
+         "stem": "Why did Arun include plant information?",
+         "options": [
+          "A teacher needed a map of the bridge.",
+          "His grandfather planned a northern path.",
+          "His friends wanted to identify plants.",
+          "Visitors wanted to know where to rest."
+         ],
+         "answer": 2,
+         "why": "依据是 Friends wanted to know what they were seeing。朋友想知道看到的是什么植物，即第三项；标出休息处是地图的另一项内容。",
+         "point": "structure"
+        },
+        {
+         "stem": "Which event happened after Arun's walks with his grandfather?",
+         "options": [
+          "He first visited the marsh with friends.",
+          "He read about the plants and birds.",
+          "He learned the paths from his teacher.",
+          "He completed the northern map in summer."
+         ],
+         "answer": 1,
+         "why": "依据是 Later I read about the plants and birds。Later 说明读书在跟祖父散步之后，即第二项。",
+         "point": "experience"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

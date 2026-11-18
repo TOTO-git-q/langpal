@@ -1,0 +1,60 @@
+{
+ "id": "listening-long-signals", "title": "口头衔接表达", "goal": "识别口头衔接表达，判断前后内容的关系。", "skill": "听力", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "signal", "label": "识别口头衔接表达的关系类别"}, {"id": "relation", "label": "依据衔接表达判断前后内容的关系"}],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "口头衔接表达的教学要求"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "口头衔接表达分四类：列举、转折、因果和补充。衔接表达提示前后两部分是什么关系，具体的意思要看它连接的句子。"}, {"box": "The room has several uses. For example, we hold art classes there. The main point is that it serves different groups."}, {"p": "for example 引出美术课这个例子。the main point 引出结论：房间供不同的群体使用。例子支持结论，范围比结论窄。"}]},
+  {"id": "listing", "type": "table", "title": "列举", "cols": ["表达", "作用", "例"], "rows": [
+   ["first", "引出第一项", "First, we check the list."],
+   ["second", "引出第二项", "Second, we prepare the boxes."],
+   ["finally", "引出最后一项", "Finally, we label each box."],
+   ["for example", "引出一个例子", "We need tools. For example, a brush is useful."],
+   ["for instance", "引出一个例子", "Some plants need support. For instance, beans can climb a frame."]
+  ]},
+  {"id": "contrast", "type": "table", "title": "转折", "cols": ["表达", "作用", "例"], "rows": [
+   ["however", "引出不同或受限的情况", "The room is large. However, it is dark."],
+   ["but", "连接前后不同的信息", "The room is large, but it is dark."],
+   ["yet", "引出与预期不同的情况", "The room is large, yet it feels crowded."],
+   ["instead", "引出替代方案", "The room is closed. We'll meet outside instead."],
+   ["on the other hand", "引出另一方面", "The room is central. On the other hand, it is noisy."]
+  ], "note": "however 后面的内容常修正前面的判断。前后两项事实都成立，都要记下。"},
+  {"id": "cause", "type": "table", "title": "因果", "cols": ["表达", "作用", "例"], "rows": [
+   ["because", "引出原因", "We stayed inside because it rained."],
+   ["since", "引出已知原因", "Since it rained, we stayed inside."],
+   ["so", "引出结果", "It rained, so we stayed inside."],
+   ["as a result", "引出结果", "It rained. As a result, the path was wet."],
+   ["that's why", "引出结果，原因在前一句", "The path was wet. That's why we stayed inside."]
+  ]},
+  {"id": "addition", "type": "table", "title": "补充", "cols": ["表达", "作用", "例"], "rows": [
+   ["also", "增加相关信息", "The hall has chairs. It also has tables."],
+   ["in addition", "补充另一项", "The hall has chairs. In addition, it has tables."],
+   ["besides", "补充另一项理由", "The hall is central. Besides, it is inexpensive."],
+   ["what's more", "补充进一步的信息", "The hall is central. What's more, it has parking."],
+   ["another point is", "引出另一项要点", "Another point is that the hall has a lift."]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["signal", "relation"], "groups": [
+   {"audio": {"intro": "Listen to the speaker.", "lines": [{"who": "A", "text": "The studio offers several classes. For example, there is a pottery class on Monday."}]}, "items": [{"stem": "How is the pottery class related to the first statement?", "options": ["It is a reason for closing the studio.", "It is an example of the classes offered.", "It is a correction to the class schedule.", "It is the result of a Monday meeting."], "answer": 1, "why": "For example 引出所提供课程中的一个实例。", "point": "relation"}]},
+   {"audio": {"intro": "Listen to the speaker.", "lines": [{"who": "A", "text": "First, we'll sort the seeds. Second, we'll put them into packets."}]}, "items": [{"stem": "What does second introduce?", "options": ["A reason for sorting the seeds.", "A contrast with sorting the seeds.", "A later item in the sequence.", "A result of opening a packet."], "answer": 2, "why": "Second 引出列举中的第二项，装袋排在分类之后。", "point": "signal"}]},
+   {"audio": {"intro": "Listen to the speaker.", "lines": [{"who": "A", "text": "The path is short. However, it is steep, so allow extra time."}]}, "items": [{"stem": "How does the second sentence qualify the first?", "options": ["It gives another example of a short path.", "It explains why the path was built.", "It adds a second path to the route.", "It notes a difficulty despite the short distance."], "answer": 3, "why": "However 引出 steep 这一难处：路虽短，却要多留时间。第四项说的就是这一点。", "point": "relation"}]},
+   {"audio": {"intro": "Listen to the speaker.", "lines": [{"who": "A", "text": "The pool is closed today. We'll practice in the gym instead."}]}, "items": [{"stem": "What does instead introduce?", "options": ["An alternative place to practice.", "A cause of the pool's closure.", "An example of a pool activity.", "An additional visit to the pool."], "answer": 0, "why": "instead 引出以体育馆替代游泳池的安排。", "point": "signal"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["signal", "relation"], "groups": [
+   {"audio": {"intro": "Listen to the speaker.", "lines": [{"who": "A", "text": "The bridge is being repaired, so the bus will use the longer road."}]}, "items": [{"stem": "Why will the bus use the longer road?", "options": ["The road is being repaired.", "The bus needs a new bridge.", "The bridge is under repair.", "The road leads to the repair shop."], "answer": 2, "why": "so 前面是原因：The bridge is being repaired。第三项用 under repair 改写了这一原因。", "point": "relation"}]},
+   {"audio": {"intro": "Listen to the speaker.", "lines": [{"who": "A", "text": "Since the printer is busy, I'll make the copies tomorrow."}]}, "items": [{"stem": "What does since introduce here?", "options": ["A second kind of printer.", "The reason for waiting to copy.", "An example of a copy already made.", "The result of copying tomorrow."], "answer": 1, "why": "Since 引出打印机正在使用这一原因。", "point": "signal"}]},
+   {"audio": {"intro": "Listen to the speaker.", "lines": [{"who": "A", "text": "The cabin has a kitchen. In addition, it has a small room for storing bicycles."}]}, "items": [{"stem": "How is the storage room related to the kitchen?", "options": ["It is a substitute for the kitchen.", "It is the reason the kitchen closed.", "It is an example of a kitchen tool.", "It is another feature of the cabin."], "answer": 3, "why": "In addition 引出小屋的另一项设施。", "point": "relation"}]},
+   {"audio": {"intro": "Listen to the speaker.", "lines": [{"who": "A", "text": "The bus is inexpensive. What's more, it stops near the museum."}]}, "items": [{"stem": "What does what's more introduce?", "options": ["A further advantage of the bus.", "A problem with the museum stop.", "A result of changing the fare.", "A contrast with the bus's price."], "answer": 0, "why": "What's more 补充公交停靠地点近这一优点。", "point": "signal"}]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["signal", "relation"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "Our town's repair café helps people learn to mend household items. First, visitors describe what is wrong with an item. Second, a volunteer helps them examine it. For example, a visitor with a loose chair might learn to tighten its joints. The main point is that visitors take part in the repair, rather than simply leaving the item with us. However, we cannot accept every object. Electrical items need a specialist, so we refer their owners to a qualified repair shop. The café provides ordinary hand tools. In addition, visitors can borrow an instruction book during their visit. We meet in the old station building on the first Saturday of each month. Since space is limited, please book a place beforehand. We hope the café will help people keep useful objects in service longer."}]}, "items": [
+    {"stem": "How does the loose chair relate to the café's work?", "options": ["It is an example of a repair visitors learn.", "It is the reason all tools need specialists.", "It is a correction to the booking time.", "It is an addition to the list of hand tools."], "answer": 0, "why": "For example 引出学习修理松动椅子这一实例，支持访客参与修理的说明。", "point": "relation"},
+    {"stem": "What does however introduce?", "options": ["Another example of a loose chair.", "The result of reading a repair book.", "A limit on which objects are accepted.", "A reason to add more Saturday meetings."], "answer": 2, "why": "However 后面是 we cannot accept every object，说明接收的物品有限制，即第三项。", "point": "signal"},
+    {"stem": "Why are electrical items sent elsewhere?", "options": ["Space at the café is limited.", "They require a qualified specialist.", "Visitors must book a place beforehand.", "The café meets only once a month."], "answer": 1, "why": "Electrical items need a specialist, so we refer their owners… 中，so 前面就是原因。第二项是这一原因的改写。", "point": "relation"}
+   ]},
+   {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "Today I'll explain our plan for the school pond. The pond is home to several kinds of plants. For instance, reeds grow near the edge, where students can observe them from the path. The main aim of the plan is to make the area easier to study while protecting the plants. The old path is narrow. However, we won't widen it into the water; instead, we'll move a bench to make more room beside the path. We will also put up a small notice explaining where to stand. Because the ground can be wet, the notice will remind visitors to wear suitable shoes. In addition, the science club will keep a record of plants seen each month. The club will share the record with other classes at the end of the term."}]}, "items": [
+    {"stem": "What does for instance introduce?", "options": ["A reason to remove the pond plants.", "A result of moving the bench.", "An alternative to the school pond.", "An example of plants by the pond."], "answer": 3, "why": "For instance 引出池边芦苇，作为多种植物中的一个例子。", "point": "signal"},
+    {"stem": "How does the plan respond to the narrow path?", "options": ["It widens the path into the water.", "It moves a bench to create space.", "It removes the reeds from the edge.", "It stops the science club's records."], "answer": 1, "why": "instead 后面是替代的办法：we'll move a bench to make more room。第二项与此一致。", "point": "relation"},
+    {"stem": "What relationship does in addition signal?", "options": ["A further action by the science club.", "A reason the old path was narrow.", "A contrast with the visitors' shoes.", "An example of a notice being removed."], "answer": 0, "why": "In addition 引出科学社团每月记录植物的补充安排。", "point": "signal"}
+   ]}
+  ]}]} 
+ ]
+}

@@ -1,0 +1,512 @@
+{
+ "id": "listening-announcement-action",
+ "title": "要求与条件",
+ "goal": "听出通知中的行动、期限与适用条件，保留例外及仍需履行的要求。",
+ "skill": "listening",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 听力",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "action",
+   "label": "听出需要采取的行动和期限"
+  },
+  {
+   "id": "condition",
+   "label": "听出适用对象、条件和例外"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、录音长度、只放一遍"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "各题型的说明、考查的能力、官方样题"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Listening Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-listening.pdf",
+   "used": "第 1 课：四类题的说明和小测答案；第 2、4 课：应答配对、重音和语调"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "要求题考查四件事：做什么、谁做、什么时候做、在什么条件下做。选项保留了原文的动词，但时间、对象或条件有一项不符，就不能选。"
+    },
+    {
+     "box": "New members must submit a sample by Friday unless they've already received approval.\nMembers may borrow the tool only if they have completed training."
+    },
+    {
+     "p": "第一句只要求未获批准的新成员提交样品。第二句中，完成培训是借工具的前提。培训完成了，也不一定借得到工具。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定动作与对象",
+     "d": "把要求还原成谁做什么。New members must submit a sample 的对象只是新成员。"
+    },
+    {
+     "t": "2　连接动作与期限",
+     "d": "把 by、no later than 后面的时间连到对应的动作。Submit the form by noon, then collect a badge at two 中，正午是提交期限，两点是领证时间。"
+    },
+    {
+     "t": "3　核对条件与例外",
+     "d": "遇到 unless、only if、except，记下它们限定的范围。Attend unless already approved 中，只有已获批准的人可以不参加，其他人仍要参加。"
+    },
+    {
+     "t": "4　检查选项是否完整",
+     "d": "逐项核对人群、动作和期限。只写 collect a badge 的选项，漏掉了 submit the form by noon 这一步。"
+    }
+   ]
+  },
+  {
+   "id": "actions",
+   "type": "table",
+   "title": "行动与期限",
+   "cols": [
+    "表达",
+    "用法",
+    "例"
+   ],
+   "rows": [
+    [
+     "be sure to",
+     "表示必须完成的行动，不是可做可不做的建议。",
+     "Be sure to sign the attendance sheet."
+    ],
+    [
+     "must / be required to",
+     "规定义务。can 只表示许可。",
+     "Participants are required to wear the supplied badges."
+    ],
+    [
+     "by / no later than",
+     "最迟在这一时刻完成，截止时刻本身也算。",
+     "Return the tray no later than five."
+    ],
+    [
+     "before",
+     "在这一时刻或事件之前完成。",
+     "Submit the request before the office closes."
+    ],
+    [
+     "until",
+     "说明状态持续到什么时候。完成期限用 by。",
+     "Keep the pass until Friday; return it by Monday."
+    ],
+    [
+     "先后顺序",
+     "before / after 连接两个动作，先后不能颠倒。",
+     "Collect a label before leaving your entry on the table."
+    ]
+   ]
+  },
+  {
+   "id": "conditions",
+   "type": "table",
+   "title": "对象、条件与例外",
+   "cols": [
+    "表达",
+    "用法",
+    "例"
+   ],
+   "rows": [
+    [
+     "指定对象",
+     "名词短语限定要求适用的人群。",
+     "First-time participants must attend the briefing."
+    ],
+    [
+     "unless",
+     "表示例外。所说条件不成立时，执行主句的要求。",
+     "Attend the briefing unless you completed it this term."
+    ],
+    [
+     "only if",
+     "表示前提。前提满足了，也不一定获准。",
+     "A tool may be borrowed only if training is complete."
+    ],
+    [
+     "if",
+     "条件成立时执行要求，只适用于符合条件的情况。",
+     "If the tag is damaged, request a replacement."
+    ],
+    [
+     "except",
+     "排除特定的人或时间，其余仍要照做。",
+     "All volunteers except team leaders should report to the desk."
+    ],
+    [
+     "already / still",
+     "already 说明已经办过，可免重复；still 说明要求仍然有效。",
+     "Approved members still need to collect a badge."
+    ],
+    [
+     "无需重复",
+     "no need to / need not 只免去这一个动作，其他要求照旧。",
+     "There is no need to send another form if one is on file."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Hello, campus bicycle workshop volunteers. New volunteers must attend the tool briefing on Wednesday unless they've completed it this term. Everyone helping on Saturday must collect a badge from the coordinator no later than Friday noon. Completing the briefing doesn't replace badge collection. Volunteers who already have a badge for this Saturday don't need another one."
+    },
+    {
+     "box": "A new volunteer completed the briefing this term but has no badge. What must the volunteer do?\n1. Repeat the briefing and collect a badge on Saturday\n2. Collect a badge by Friday noon without repeating the briefing\n3. Skip both the briefing and badge collection\n4. Attend the briefing instead of collecting a badge"
+    },
+    {
+     "p": "unless they’ve completed it this term 说明本学期已完成培训的人不必再参加。题干中的新志愿者已完成培训，不用再去。"
+    },
+    {
+     "p": "Everyone helping on Saturday must collect a badge … no later than Friday noon 是另一项要求。此人没有证件，仍须在周五中午前领取。第二项同时写出了例外和这项要求。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "扩大适用对象",
+     "New volunteers → every volunteer",
+     "核对 new 等限定词。"
+    ],
+    [
+     "例外方向反转",
+     "unless already completed → only those already completed must attend",
+     "unless 后面是可以不做的人，不是要做的人。"
+    ],
+    [
+     "遗漏独立义务",
+     "免重复培训 → 免领证件",
+     "免去培训的人仍要领证件。"
+    ],
+    [
+     "期限错配",
+     "Friday noon 领取 → Saturday 领取",
+     "领取截止是周五中午，周六是活动日。"
+    ],
+    [
+     "条件反推",
+     "only if trained → all trained people are guaranteed a tool",
+     "only if 只给出前提，满足前提也不保证借得到。"
+    ]
+   ]
+  },
+  {
+   "id": "check-rules",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "action",
+    "condition"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to an announcement on campus.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "For students using the language recording booths, be sure to erase your temporary files before signing out. The technician will check the booths at closing time, but deleting personal files remains each user's responsibility."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What must users do before signing out?",
+       "options": [
+        "Wait for the technician’s closing check",
+        "Ask the technician to save temporary files",
+        "Remove their own temporary recordings",
+        "Leave file deletion to the technician at closing"
+       ],
+       "answer": 2,
+       "why": "依据是 be sure to erase your temporary files before signing out。删除临时文件是使用者自己的事，技术员闭馆时的检查代替不了，所以选第三项。",
+       "point": "action"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to an announcement on campus.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Students entering the campus kite festival must submit an entry description no later than Thursday noon. Finished kites should be brought on Saturday morning. Please don't bring the kites to the registration desk on Thursday."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What must entrants do by Thursday noon?",
+       "options": [
+        "Submit a description of their entry",
+        "Bring their finished kite to the desk",
+        "Collect their kite on Saturday",
+        "Submit a description on Saturday morning"
+       ],
+       "answer": 0,
+       "why": "依据是 submit an entry description no later than Thursday noon。周四中午前要交的是作品说明，第一项与此对应；成品风筝周六才带来。",
+       "point": "action"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to an announcement on campus.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "All volunteers for the campus food collection should attend the packing demonstration unless they completed it this semester. Returning volunteers who last attended in a previous semester must attend again."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Who may skip the demonstration?",
+       "options": [
+        "All returning volunteers",
+        "Anyone who attended in any previous semester",
+        "All volunteers assigned to packing",
+        "Volunteers who completed it this semester"
+       ],
+       "answer": 3,
+       "why": "依据是 unless they completed it this semester。只有本学期参加过的人可以不去，即第四项；以前学期参加过的老志愿者仍要参加。",
+       "point": "condition"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to an announcement on campus.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The studio storage cabinet can be opened only if a supervisor is present. Having a cabinet key doesn't remove that requirement. If no supervisor is available, leave the request with the studio assistant."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is necessary for opening the cabinet?",
+       "options": [
+        "Leaving a key with the assistant",
+        "Having a supervisor present",
+        "Submitting a request without a supervisor",
+        "Having a key regardless of supervision"
+       ],
+       "answer": 1,
+       "why": "依据是 only if a supervisor is present。有监督人在场是开柜的前提，即第二项；有钥匙也代替不了。",
+       "point": "condition"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-conditions",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "action",
+    "condition"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to an announcement on campus.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Attention, students participating in the campus fabric exchange. Bring clean fabric to the sorting table by Wednesday afternoon. Attach a tag stating the fabric type unless the original label is still attached and readable. Staff will issue exchange tokens after checking the material. Please keep those tokens until Saturday, when the exchange takes place. No one may select fabric before the Saturday opening."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What should contributors do by Wednesday afternoon?",
+       "options": [
+        "Select replacement fabric from the table",
+        "Spend the tokens at the exchange",
+        "Ask staff to remove all original labels",
+        "Deliver clean fabric for sorting"
+       ],
+       "answer": 3,
+       "why": "依据是 Bring clean fabric to the sorting table by Wednesday afternoon。周三下午前要做的是交布料，即第四项；挑布料和用代币都在周六。",
+       "point": "action"
+      },
+      {
+       "stem": "Which fabric does not need an additional tag?",
+       "options": [
+        "Fabric with a readable original label still attached",
+        "All fabric brought before Wednesday afternoon",
+        "Fabric checked after its original label was removed",
+        "All fabric exchanged for tokens on Saturday"
+       ],
+       "answer": 0,
+       "why": "依据是 unless the original label is still attached and readable。原标签既要还在，又要看得清，才不必另加标签，即第一项。",
+       "point": "condition"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "action",
+    "condition"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to an announcement on campus.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Hello, students contributing to the campus seed exchange. Please deliver sealed seed packets to the collection desk no later than Wednesday at four. Each packet must name the plant and the year the seeds were collected. Packets with both details already printed on them don't need an extra label. Staff will sort the packets on Thursday, and the exchange itself takes place on Friday."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What must contributors do by Wednesday at four?",
+         "options": [
+          "Attend the public seed exchange",
+          "Deliver sealed packets to the desk",
+          "Sort all packets for the staff",
+          "Collect their packets after sorting"
+         ],
+         "answer": 1,
+         "why": "依据是 deliver sealed seed packets … no later than Wednesday at four。周三四点前要做的是交种子袋，即第二项；周四分拣，周五交换。",
+         "point": "action"
+        },
+        {
+         "stem": "Which packets need no extra label?",
+         "options": [
+          "All packets sealed before Wednesday",
+          "Packets naming the plant but not the collection year",
+          "Packets that staff will sort on Thursday",
+          "Packets already showing the plant and collection year"
+         ],
+         "answer": 3,
+         "why": "依据是 Packets with both details already printed on them don't need an extra label。植物名称和采集年份都已印好的种子袋不必另贴标签，即第四项。",
+         "point": "condition"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to an announcement on campus.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "A reminder for campus mural restoration helpers. Attend Friday's safety briefing unless you've completed the same briefing this term. Everyone working on the mural must collect a pair of gloves from the coordinator before work starts on Saturday. Personal gloves won't be used. Completing the briefing earlier doesn't remove the glove requirement. Helpers without the required briefing must wait until they have attended it before beginning work."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What must every helper do before starting work?",
+         "options": [
+          "Collect gloves from the coordinator",
+          "Bring a pair of personal gloves",
+          "Repeat the briefing on Friday",
+          "Begin work while waiting for the briefing"
+         ],
+         "answer": 0,
+         "why": "依据是 Everyone … must collect a pair of gloves from the coordinator。这是每个人的要求，即第一项；完成过培训的人也要领手套。",
+         "point": "action"
+        },
+        {
+         "stem": "Who is excused from Friday’s briefing?",
+         "options": [
+          "Anyone who brings personal gloves",
+          "Everyone assigned to Saturday’s work",
+          "Helpers who completed that briefing this term",
+          "Helpers who have already collected gloves"
+         ],
+         "answer": 2,
+         "why": "依据是 unless you’ve completed the same briefing this term。本学期完成过同一培训的人不必再参加，即第三项。",
+         "point": "condition"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to an announcement on campus.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Attention, teams entering the student puzzle contest. Your captain must confirm the team list by Monday noon. Only students currently enrolled at the college may compete, and each team needs a captain. Graduates may watch, but they cannot join a team. The contest is on Wednesday afternoon. Bring the confirmation email on the day; sending it on Wednesday will be too late to register."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What must captains do by Monday noon?",
+         "options": [
+          "Attend the contest with their teams",
+          "Confirm who is on their team",
+          "Bring an email to Wednesday’s contest",
+          "Add graduate spectators to their team"
+         ],
+         "answer": 1,
+         "why": "依据是 Your captain must confirm the team list by Monday noon。确认队员名单就是第二项；周三带邮件是之后的要求。",
+         "point": "action"
+        },
+        {
+         "stem": "Who is eligible to compete?",
+         "options": [
+          "Any graduate who brings a confirmation email",
+          "Any spectator named by a captain",
+          "Any captain who confirms a list by Monday",
+          "A student currently enrolled at the college"
+         ],
+         "answer": 3,
+         "why": "依据是 Only students currently enrolled at the college may compete。只有在读学生能参赛，即第四项；毕业生只能观看。",
+         "point": "condition"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

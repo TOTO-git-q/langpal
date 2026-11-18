@@ -1,0 +1,56 @@
+{
+ "id": "writing-practical-inquiry", "title": "咨询信", "goal": "能提出相关的具体问题并使用间接问句。", "skill": "写作", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "question", "label": "提出与情境有关的具体咨询事项"}, {"id": "order", "label": "正确排列礼貌间接问句"}],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "咨询信的结构、表达和知识点"}],
+ "cards": [
+  {"id": "structure", "type": "table", "title": "结构", "cols": ["部分", "内容", "例句"], "rows": [
+   ["咨询背景", "说明写信人与咨询事项的联系。", "I am interested in your summer photography course."],
+   ["具体问题", "询问尚未给出的费用、时间或资格。", "Could you tell me how much the course costs?"],
+   ["补充问题", "提出与背景有关的另一项疑问。", "Could you tell me whether beginners can join?"],
+   ["期待答复", "礼貌表达期待回复。", "I look forward to your reply."]
+  ]},
+  {"id": "expressions", "type": "table", "title": "常用表达", "cols": ["询问内容", "表达", "语序"], "rows": [
+   ["费用", "Could you tell me how much the course costs?", "疑问词后用主语加谓语。"],
+   ["时间", "Could you tell me when registration closes?", "when 后接 registration closes。"],
+   ["资格", "Could you tell me whether beginners can join?", "whether 后接主语加谓语。"],
+   ["地点", "I would like to know where the class meets.", "where 后接 the class meets。"],
+   ["回复", "I look forward to your reply.", "用陈述句表达期待。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "假定李华准备报名绘画课程，课程公告已说明上课地点，费用及报名资格尚未给出。\n• Ask about the fee.\n• Ask whether beginners may join.\nDraft: Dear Course Team, I am interested in the painting course. Could you tell me how much it costs? I would also like to know whether beginners can join. I look forward to your reply. Yours sincerely, Li Hua"},
+   {"p": "两个问题分别问费用和资格。地点公告里已经给出，正文只问还缺的信息。how much 和 whether 后面都用陈述语序。"}
+  ]},
+  {"id": "errors", "type": "table", "title": "常见错误", "cols": ["问题", "片段", "修改"], "rows": [
+   ["间接问句倒装", "Could you tell me when does the course start?", "Could you tell me when the course starts?"],
+   ["资格问句倒装", "I wonder whether can beginners join.", "I wonder whether beginners can join."],
+   ["重复已知信息", "Could you tell me where the class meets?", "Could you tell me how much the class costs?"],
+   ["问题空泛", "Could you tell me about the course?", "Could you tell me when registration closes?"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["question", "order"], "groups": [
+   {"text": "假定课程公告已给出上课地点，李华需要询问课程费用。", "items": [{"stem": "Which question asks for the missing information?", "options": ["Could you tell me how much the course costs?", "Could you tell me where the course meets?", "Could you tell me where the room is located?", "Could you tell me how to find the course room?"], "answer": 0, "why": "公告已给出上课地点，还缺的是费用。第一项询问课程费用。", "point": "question"}]},
+   {"text": "假定李华希望询问报名截止时间。", "items": [{"stem": "Which indirect question uses the correct word order?", "options": ["Could you tell me when does registration close?", "Could you tell me when registration closes?", "Could you tell me when closes registration?", "Could you tell me registration when closes?"], "answer": 1, "why": "when 后使用主语 registration 加谓语 closes。", "point": "order"}]},
+   {"text": "假定李华想知道没有绘画经验的人能否参加课程。", "items": [{"stem": "Which question asks about eligibility?", "options": ["Could you tell me how much beginners pay for the course?", "Could you tell me what beginners will learn in the course?", "Could you tell me whether beginners may join the course?", "Could you tell me when the beginners' course starts?"], "answer": 2, "why": "李华想知道没有绘画经验的人能否参加。第三项用 whether beginners may join 询问的正是这一资格。", "point": "question"}]},
+   {"text": "假定李华询问课程开课时间。", "items": [{"stem": "Which indirect question is correctly ordered?", "options": ["I wonder when does the course start.", "I wonder when starts the course.", "I wonder the course starts when.", "I wonder when the course starts."], "answer": 3, "why": "when 后用 the course starts 的陈述语序。", "point": "order"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["question", "order"], "groups": [{"items": [
+   {"stem": "Politely ask whether beginners may join a course.", "lead": "Could you", "chunks": ["tell me", "whether", "beginners", "may join"], "tail": "the course?", "extra": ["joining"], "why": "whether 引出资格问题，beginners may join 使用陈述语序。", "point": "question"},
+   {"stem": "Ask when registration closes using an indirect question.", "lead": "Could you", "chunks": ["tell me", "when", "registration", "closes"], "tail": "?", "extra": ["does"], "why": "间接问句中 when 后接 registration closes，不用助动词 does。", "point": "order"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["question", "order"], "sets": [{"id": "set-a", "groups": [
+   {"text": "假定李华准备报名木工课程，公告已说明课程地点，但没有说明费用。", "items": [
+    {"stem": "Which question asks for the missing detail?", "options": ["Could you tell me how much the course costs?", "Could you tell me where the course meets?", "Could you tell me where the classroom is?", "Could you tell me where the course is held?"], "answer": 0, "why": "费用尚未给出，第一项询问课程费用。", "point": "question"},
+    {"stem": "Which indirect question has the correct word order?", "options": ["Could you tell me how much does the course cost?", "Could you tell me how much the course costs?", "Could you tell me how much costs the course?", "Could you tell me the course how much costs?"], "answer": 1, "why": "how much 后用 the course costs 的陈述语序。", "point": "order"}
+   ]},
+   {"text": "假定李华对摄影营感兴趣，想知道没有相机的学生能否参加。", "items": [
+    {"stem": "Which question asks about eligibility?", "options": ["Could you tell me how much the camp charges students with cameras?", "Could you tell me when students without cameras should arrive?", "Could you tell me whether students without cameras may join?", "Could you tell me where students can buy cameras for the camp?"], "answer": 2, "why": "李华想知道没有相机的学生能否参加。第三项用 whether 问的正是这一资格。第二项默认他们可以参加，只问到达时间。", "point": "question"},
+    {"stem": "Which indirect question is correctly ordered?", "options": ["I wonder whether can students join without cameras.", "I wonder whether join students without cameras.", "I wonder students whether can join without cameras.", "I wonder whether students can join without cameras."], "answer": 3, "why": "whether 后使用 students can join 的陈述语序。", "point": "order"}
+   ]},
+   {"items": [
+    {"stem": "Politely ask when the workshop begins.", "lead": "Could you", "chunks": ["tell me", "when", "the workshop", "begins"], "tail": "?", "extra": ["does"], "why": "when 后接 the workshop begins，询问开始时间。", "point": "question"},
+    {"stem": "Form an indirect question about where a class meets.", "lead": "Could you", "chunks": ["tell me", "where", "the class", "meets"], "tail": "?", "extra": ["does"], "why": "where 后用 the class meets 的陈述语序，不用 does 倒装。", "point": "order"},
+    {"stem": "Ask whether beginners may attend the class.", "lead": "I would", "chunks": ["like to know", "whether", "beginners", "may attend"], "tail": "the class.", "extra": ["attending"], "why": "whether 引出能否参加的问题，beginners may attend 是陈述语序。", "point": "question"},
+    {"stem": "Form an indirect question about the closing date.", "lead": "I wonder", "chunks": ["when", "registration for", "the course", "closes"], "tail": ".", "extra": ["does"], "why": "when 后的主语是 registration for the course，谓语是 closes。", "point": "order"}
+   ]}
+  ]}]} 
+ ]
+}

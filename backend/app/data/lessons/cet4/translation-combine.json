@@ -1,0 +1,55 @@
+{
+ "id": "translation-combine",
+ "title": "连续动作的主次安排",
+ "goal": "能区分主要动作、目的和伴随情况，并合并主体一致的动作。",
+ "skill": "翻译",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "hierarchy", "label": "区分连续动作的主次关系"},
+  {"id": "combine", "label": "在主体一致时合并相关动作"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译教学范围"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "同一主体的几个连续动作，可以并列，也可以分出主次。地位相同的动作用 and 并列。表示目的用不定式，表示伴随用分词短语。"},
+   {"box": "The guide opened the gate and greeted the visitors. / The guide opened the gate to admit the visitors."}
+  ]},
+  {"id": "choices", "type": "table", "title": "动作的关系", "cols": ["关系", "结构", "例句"], "rows": [
+   ["并列动作", "用 and 连接两个时态相同的谓语。", "工匠切割木料并制作书架。 / The craftsperson cut the wood and made a bookshelf."],
+   ["并列动作", "主语相同的两个动作，主语只写一次。", "居民清理街道并种植树木。 / Residents cleaned the street and planted trees."],
+   ["目的", "to 加动词原形表示目的。", "导游打开大门让游客进入。 / The guide opened the gate to admit the visitors."],
+   ["目的", "不定式表示的动作也由句子主语完成。", "她查阅地图以确定路线。 / She consulted the map to identify the route."],
+   ["伴随", "现在分词短语表示伴随动作。", "老师站在门口迎接学生。 / The teacher stood at the door, greeting students."],
+   ["伴随", "分词表示的动作也由句子主语完成。", "工匠坐在窗边雕刻木头。 / The craftsperson sat by the window, carving wood."]
+  ]},
+  {"id": "errors", "type": "table", "title": "常见错误", "cols": ["情况", "分析", "例句"], "rows": [
+   ["主体一致", "分词动作由句子主语发出。", "The guide walked ahead, carrying a lantern."],
+   ["主体改变", "不同主体用独立分句表达。", "The guide opened the gate, and the visitors entered."],
+   ["并列谓语", "and 前后的谓语形式和时态一致。", "The team collected samples and recorded the results."],
+   ["目的", "to 后用动词原形。", "The team checked the labels to avoid errors."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "研究人员查看标签以避免错误。\nThe researchers checked the labels to avoid errors."},
+   {"p": "checked 表示主要动作，to avoid errors 表示查看的目的。查看和避免错误的主体都是 researchers。"}
+  ]},
+  {"id": "check-hierarchy", "type": "check", "title": "练习一", "points": ["hierarchy"], "groups": [{"items": [
+   {"stem": "导游打开大门，让游客进入。Which action is the purpose of opening the gate?", "options": ["opening the gate", "guiding the visitors", "admitting the visitors", "leaving through the gate"], "answer": 2, "why": "「让游客进入」是打开大门的目的，即第三项。第一项是主要动作本身。", "point": "hierarchy"},
+   {"stem": "工匠坐在窗边，同时雕刻木头。Which action accompanies sitting?", "options": ["carving wood", "sitting by the window", "carving the window", "sitting on the wood"], "answer": 0, "why": "「同时」说明雕刻木头与坐在窗边同时发生，即第一项。", "point": "hierarchy"}
+  ]}]},
+  {"id": "check-combine", "type": "check", "title": "练习二", "points": ["combine"], "groups": [{"items": [
+   {"stem": "研究人员查看标签以避免错误。", "options": ["The researchers checked the labels and avoided errors.", "The researchers checked the labels to avoid errors.", "The researchers checked the labels to avoiding errors.", "The researchers checked labels for avoid errors."], "answer": 1, "why": "「以避免错误」是查看标签的目的，用 to avoid errors，即第二项。第一项用 and 并列，丢掉了目的关系。", "point": "combine"},
+   {"stem": "居民清理街道并种植树木。", "lead": "Residents", "chunks": ["cleaned", "the street and", "planted", "trees"], "tail": ".", "extra": ["planting"], "why": "cleaned 和 planted 是共享主语的并列过去时谓语。", "point": "combine"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["hierarchy", "combine"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "她查阅地图以确定路线。Which action is the purpose of consulting the map?", "options": ["drawing the map", "identifying the route", "consulting the map", "following the route on the map"], "answer": 1, "why": "「以确定路线」是查阅地图的目的，即第二项。第三项是主要动作本身。", "point": "hierarchy"},
+   {"stem": "老师站在门口，同时迎接学生。Which action accompanies standing at the door?", "options": ["standing at the door", "opening the door", "greeting the teacher", "greeting students"], "answer": 3, "why": "「同时」说明迎接学生是站在门口时伴随的动作，即第四项。第三项把迎接的对象弄错了。", "point": "hierarchy"},
+   {"stem": "工匠切割木料并制作书架。", "options": ["The craftsperson cut the wood and made a bookshelf.", "The craftsperson cut the wood and makes a bookshelf.", "The craftsperson cut the wood, made a bookshelf.", "The craftsperson cutting the wood and made a bookshelf."], "answer": 0, "why": "「切割」和「制作」是同一主体的并列动作，用 and 连接两个过去时谓语，即第一项。第二项的 makes 与 cut 时态不一致。", "point": "combine"},
+   {"stem": "工匠坐在窗边，同时雕刻木头。", "options": ["The craftsperson sat by the window and carving wood.", "The craftsperson sat by the window, carved wood.", "The craftsperson sat by the window, carving wood.", "The craftsperson sitting by the window, carving wood."], "answer": 2, "why": "坐和雕刻的主体都是工匠。主要动作用谓语 sat，伴随动作用分词 carving，即第三项。", "point": "combine"},
+   {"stem": "居民清理街道并种植树木。", "lead": "Residents", "chunks": ["cleaned", "the street and", "planted", "trees"], "tail": ".", "extra": ["planting"], "why": "cleaned 与 planted 是并列的过去时谓语。", "point": "combine"},
+   {"stem": "研究人员检查标签以避免错误。", "lead": "The researchers", "chunks": ["checked", "the labels", "to avoid", "errors"], "tail": ".", "extra": ["avoiding"], "why": "to avoid errors 表示检查标签的目的。", "point": "combine"},
+   {"stem": "她查阅地图以确定路线。 She consulted the map ___ identify the route. Complete the infinitive.", "accept": ["to"], "why": "to identify the route 表示查阅地图的目的。", "point": "hierarchy"},
+   {"stem": "老师站在门口，同时迎接学生。 The teacher stood at the door, ___ students. Use the present participle of greet.", "accept": ["greeting"], "why": "greeting students 表示老师站在门口时的伴随动作。", "point": "hierarchy"}
+  ]}]}]}
+ ]
+}

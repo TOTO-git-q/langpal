@@ -1,0 +1,46 @@
+{
+  "id": "writing-task2-two-part",
+  "title": "双问题　Task 2 · 练习",
+  "goal": "分别回应两个问题，并以相关解释和例证展开回答。",
+  "skill": "写作",
+  "exam": "雅思 IELTS Academic",
+  "points": [
+    {"id": "coverage", "label": "分别回应两个问题的要求"},
+    {"id": "develop", "label": "为各项回答提供相关展开"},
+    {"id": "precision", "label": "准确使用教育与技术应用词汇"}
+  ],
+  "sources": [
+    {"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "双问题的练习尺寸与知识点"},
+    {"id": "writing", "title": "IELTS Academic: Writing test format", "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing", "used": "写作任务的形式"},
+    {"id": "rubric", "title": "IELTS Writing Band Descriptors", "url": "https://ielts.org/cdn/ielts-guides/ielts-writing-band-descriptors.pdf", "used": "写作评分标准"}
+  ],
+  "cards": [
+    {"id": "rubric", "type": "rubric", "title": "评分标准", "levels": [
+      {"score": 5, "name": "Band 8-9", "summary": "充分回应任务，论点清楚且展开充分，语言运用自如。", "signs": ["充分回答两个问题并以相关细节支持", "组织连贯，衔接自然", "词汇灵活准确，句式多样，错误极少"]},
+      {"score": 4, "name": "Band 7", "summary": "回应任务，主要观点清楚并有展开。", "signs": ["两个问题均有相关回应，个别地方可更充分", "结构清楚，衔接基本得当", "词汇和句式有变化，错误较少"]},
+      {"score": 3, "name": "Band 6", "summary": "回应任务的主要部分，但部分论证不够充分。", "signs": ["主要回答可辨，部分观点支持不足", "整体推进清楚，衔接有时机械", "词汇和句式有一定范围，错误反复出现"]},
+      {"score": 2, "name": "Band 5", "summary": "部分回应任务，回答或论证不够清楚。", "signs": ["观点展开有限，可能有重复或不相关内容", "组织有一定顺序，但衔接不稳定", "词汇和句式范围有限，错误有时妨碍理解"]},
+      {"score": 1, "name": "Band 4 及以下", "summary": "对任务的回应和论证十分有限，语言困难明显。", "signs": ["相关观点不清或缺少支持", "内容组织和衔接有限", "词汇及句式范围很窄，错误频繁并影响理解"]},
+      {"score": 0, "name": "未作答", "summary": "未作答。", "signs": []}
+    ], "takeaways": [{"t": "四项标准", "d": "按任务回应、连贯与衔接、词汇、语法范围与准确性四项等权评价。"}]},
+    {"id": "marking", "type": "marking", "title": "批改单", "format": [
+      {"t": "题目的要求", "d": "逐条判断是否答到，并引用原文。"},
+      {"t": "分数档", "d": "对照评分标准给出 0–5 分和理由。"},
+      {"t": "必改的地方", "d": "列出最多五处影响理解或准确性的错误及改法。"},
+      {"t": "升一档", "d": "改写一处内容，说明怎样补充细节或表达得更准确。"}
+    ], "rules": "评分依据任务回应、连贯与衔接、词汇、语法范围与准确性；四项等权。", "example": {
+      "about": "以下示例说明评价缺少理由时的判定。",
+      "coverage": [{"bullet": "Give reasons for your answer and include relevant examples from your own knowledge or experience.", "verdict": "做了但太薄", "quote": "Online courses are useful.", "note": "给出了评价，但没有说明原因。"}],
+      "score": 2, "reason": "相关观点有提及，但展开有限。", "fixes": [],
+      "upgrade": {"from": "Online courses are useful.", "to": "Online courses allow shift workers to study at times when a college classroom may not be open.", "why": "补充了受益对象和具体作用。"}, "next": ""
+    }},
+    {"id": "timed", "type": "write", "title": "限时写作", "minutes": 40, "min_words": 250, "points": ["coverage", "develop", "precision"], "tasks": [
+      {"id": "set-a", "purpose": "分析成人在线学习的原因并评价其发展", "setting": "Many adults now choose to take short online courses alongside their work rather than attend classes at a college. These courses can be studied from home, and participants often have some choice over when to complete the lessons.", "lead": "Why do adults choose these courses? Is this a positive or negative development?", "bullets": ["Give reasons for your answer and include relevant examples from your own knowledge or experience."], "must": ["解释成人选择短期在线课程的原因，评价这一发展，并以理由和相关例证支持两项回答。"],
+        "model": "Adults who want to continue learning increasingly have a choice between a college classroom and a short course delivered online. Many choose the latter because it fits around employment and removes the need to travel. Although online study is not suitable for every subject or learner, I consider this development positive overall.\n\nThe main attraction is flexibility. People with jobs and family responsibilities cannot always attend a lesson at the same time each week. A recorded lesson can instead be watched in the evening or during a break, and a learner can return to a difficult section. Online courses may also be accessible to people who live far from a college. For example, a worker in a rural area can study bookkeeping from home without arranging a long journey after work.\n\nThis wider access is valuable because adults can update skills or explore an interest without leaving their jobs. A short course also allows someone to try a subject before committing to a longer qualification. These benefits are particularly clear when materials are well organised and learners can ask a tutor for feedback. The convenience of access should not, however, be confused with a guarantee that every course is effective.\n\nThere are limitations. Practical subjects may require equipment and supervision that cannot be supplied through a screen, while some students need a regular timetable or personal encouragement to finish. Colleges can address part of this difficulty by combining online materials with occasional workshops and providing clear channels for questions. Learners should also be able to check the content and assessment before enrolling.\n\nOverall, adults choose online courses largely because they make learning easier to fit into ordinary life. This is a beneficial change when course providers preserve opportunities for feedback and recognise that some skills still need face-to-face practice."
+      },
+      {"id": "set-b", "purpose": "分析学校使用数字作业平台的原因并评价其发展", "setting": "Some secondary schools now use a digital platform to distribute homework and receive completed assignments. Teachers can post instructions in one place, and pupils can submit their work without handing in a paper copy during a lesson.", "lead": "Why do schools use these platforms? Is this a positive or negative development?", "bullets": ["Give reasons for your answer and include relevant examples from your own knowledge or experience."], "must": ["解释学校使用数字作业平台的原因，评价这一发展，并以理由和相关例证支持两项回答。"],
+        "model": "Digital homework platforms are becoming part of the routine in some secondary schools. Schools adopt them to organise assignments and make submission more convenient. In my view, the change is beneficial if schools ensure that pupils can access the system and still receive meaningful feedback.\n\nOne reason for using a platform is that it keeps instructions, deadlines and submitted work together. A pupil who was absent can check what the class was asked to do, while a teacher can see which assignments have arrived without collecting a stack of paper. The system can also make it easier to distribute a corrected instruction to the whole class. These advantages matter when several teachers and classes must keep track of different tasks.\n\nThe same organisation can help pupils manage their work. For instance, a student who forgets the details of a science assignment can return to the original instructions at home instead of relying on memory. Teachers may also give written comments alongside an assignment, so that pupils can refer to them when revising. Used in this way, a platform supports learning rather than merely replacing paper with a screen.\n\nNevertheless, access is not equal in every household. A family may have a shared device or an unreliable connection, making an online deadline difficult to meet. Schools should therefore provide access to computers on site and allow an alternative submission method when necessary. They should also avoid assuming that an automatic mark explains an error: pupils still need opportunities to ask questions and discuss their work with a teacher.\n\nIn conclusion, schools use these platforms because they simplify the distribution and collection of homework. Their use is a positive development provided that access is addressed and technology remains a means of supporting, rather than replacing, teaching."
+      }
+    ], "more": {"kind": "task2-two-part", "topics": ["成人在线课程", "数字作业平台", "学校图书馆", "远程职业培训", "大学课程录播", "语言学习软件", "学生小组项目", "电子教材", "课堂实验", "公共数字技能课程", "在线学习反馈", "校园设备共享", "职业教育"]}}
+  ]
+}

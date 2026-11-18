@@ -1,0 +1,363 @@
+{
+ "id": "usage-grammar-infinitive",
+ "title": "非谓语动词的不定式",
+ "goal": "能识别不定式的句法功能并根据逻辑关系选择主动或被动形式。",
+ "skill": "语言运用",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "function",
+   "label": "识别不定式在句中的功能"
+  },
+  {
+   "id": "voice",
+   "label": "按逻辑关系选择不定式的主动或被动形式"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语课程课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "教学内容与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "不定式一般由 to 加动词原形构成。它可以表示目的、修饰名词，也可以作动词的宾语。被动形式是 to be 加过去分词。"
+    },
+    {
+     "box": "She stopped to read the notice. / She hoped to be invited."
+    },
+    {
+     "p": "第一句中 she 做 read 的动作；第二句中 she 是被邀请的人。选形式前，先确定谁做不定式的动作。"
+    }
+   ]
+  },
+  {
+   "id": "functions",
+   "type": "table",
+   "title": "不定式的功能",
+   "cols": [
+    "功能",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "目的状语",
+     "说明前面动作的目的",
+     "He opened the box to check its contents."
+    ],
+    [
+     "后置定语",
+     "放在名词后，说明待做的事",
+     "She has a report to write."
+    ],
+    [
+     "动词宾语",
+     "decide 后接不定式",
+     "They decided to leave early."
+    ],
+    [
+     "动词宾语",
+     "hope 后接不定式",
+     "They hope to return soon."
+    ],
+    [
+     "动词宾语",
+     "plan 后接不定式",
+     "They plan to meet tomorrow."
+    ]
+   ],
+   "note": "作目的状语时，不定式的动作一般由句子的主语完成。He opened the box to check its contents 中，检查的人是 he。"
+  },
+  {
+   "id": "voice-a",
+   "type": "table",
+   "title": "辨析：主动与被动",
+   "cols": [
+    "动作",
+    "执行动作",
+    "承受动作"
+   ],
+   "rows": [
+    [
+     "打印",
+     "Mia wants to print the cards.",
+     "Mia wants the cards to be printed."
+    ],
+    [
+     "邀请",
+     "Noah hopes to invite the artist.",
+     "Noah hopes to be invited by the artist."
+    ],
+    [
+     "检查",
+     "They plan to check the equipment.",
+     "They want the equipment to be checked."
+    ],
+    [
+     "修理",
+     "She hopes to repair the clock.",
+     "She wants the clock to be repaired."
+    ]
+   ]
+  },
+  {
+   "id": "voice-b",
+   "type": "table",
+   "title": "辨析：逻辑关系",
+   "cols": [
+    "动作",
+    "执行动作",
+    "承受动作"
+   ],
+   "rows": [
+    [
+     "展示",
+     "Leo wants to display the model.",
+     "Leo wants the model to be displayed."
+    ],
+    [
+     "运输",
+     "The team hopes to carry the boxes.",
+     "The team wants the boxes to be carried."
+    ],
+    [
+     "采访",
+     "The writer hopes to interview the guide.",
+     "The writer hopes to be interviewed by the guide."
+    ],
+    [
+     "清洗",
+     "The class plans to wash the windows.",
+     "The class wants the windows to be washed."
+    ]
+   ],
+   "note": "名词后的主动不定式也可表示待做的事，如 She has a letter to write，动作由 she 完成。"
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "function"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The guide paused (check) the map before continuing. Give the purpose.",
+       "accept": [
+        "to check"
+       ],
+       "why": "to check 表示停下来的目的。",
+       "point": "function"
+      },
+      {
+       "stem": "The guide has a map (check) before the trip. The guide will check it.",
+       "accept": [
+        "to check"
+       ],
+       "why": "to check 后置修饰 map，guide 执行检查动作。",
+       "point": "function"
+      },
+      {
+       "stem": "The guide decided (check) the map before the trip.",
+       "accept": [
+        "to check"
+       ],
+       "why": "decide 后用不定式作宾语。",
+       "point": "function"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "voice"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The guide hopes (invite) the artist to the event.",
+       "accept": [
+        "to invite"
+       ],
+       "why": "guide 执行邀请，用主动不定式。",
+       "point": "voice"
+      },
+      {
+       "stem": "The guide hopes (invite) by the artist to the event.",
+       "accept": [
+        "to be invited"
+       ],
+       "why": "guide 承受艺术家的邀请，用被动不定式。",
+       "point": "voice"
+      },
+      {
+       "stem": "The guide wants the posters (print) by the office. Use an infinitive.",
+       "accept": [
+        "to be printed"
+       ],
+       "why": "posters 承受办公室的打印动作，用被动不定式。",
+       "point": "voice"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-three",
+   "type": "check",
+   "title": "练习三",
+   "points": [
+    "function",
+    "voice"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The guide plans (visit) the gallery tomorrow.",
+       "accept": [
+        "to visit"
+       ],
+       "why": "plan 后接不定式，guide 执行参观动作。",
+       "point": "function"
+      },
+      {
+       "stem": "The guide wants the map (display) by the entrance staff. Use an infinitive.",
+       "accept": [
+        "to be displayed"
+       ],
+       "why": "map 承受展示动作，用被动不定式。",
+       "point": "voice"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "function",
+    "voice"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "A student group is preparing a display about local bridges. The members plan [1] a model of one bridge from cardboard. First, they visit the bridge and take notes about its shape. One member brings a ruler [2] the width of a small section. Another member has a list of questions [3] before the group starts building. She asks a guide about the materials used in the bridge. The guide explains which parts carry the weight and which parts protect people crossing. The group also takes photographs for its notes. Back at school, the members want the photographs [4] by the school office so that everyone can study them. They arrange the prints on a table and compare them with their measurements. The group hopes [5] the model at a school event next month. A short description will explain the choices they made. The students know that their model cannot show every detail of the actual bridge. They choose to represent the main shapes and use different colors for separate parts. After the event, they will store the model in a large box. The box will protect it until another class wants to examine it.",
+       "items": [
+        {
+         "stem": "The members plan (build) a model of one bridge from cardboard.",
+         "accept": [
+          "to build"
+         ],
+         "why": "plan 后接不定式作宾语。",
+         "point": "function"
+        },
+        {
+         "stem": "One member brings a ruler (measure) the width of a small section. Give the purpose.",
+         "accept": [
+          "to measure"
+         ],
+         "why": "to measure 表示带尺子的目的。",
+         "point": "function"
+        },
+        {
+         "stem": "Another member has a list of questions (ask) the guide. She will ask them.",
+         "accept": [
+          "to ask"
+         ],
+         "why": "to ask 后置修饰 questions，主语 she 执行提问。",
+         "point": "function"
+        },
+        {
+         "stem": "The members want the photographs (print) by the school office. Use an infinitive.",
+         "accept": [
+          "to be printed"
+         ],
+         "why": "photographs 承受打印动作，用被动不定式。",
+         "point": "voice"
+        },
+        {
+         "stem": "The group hopes (show) the model at a school event next month.",
+         "accept": [
+          "to show"
+         ],
+         "why": "group 执行展示动作，hope 后用主动不定式。",
+         "point": "voice"
+        }
+       ]
+      },
+      {
+       "text": "A community theater is planning a short performance for families. The director decides [1] the story in a garden. The actors meet in a room behind the stage and read the script together. Each actor has several lines [2] before the next meeting. They will practice those lines at home. One actor brings a notebook [3] the director's comments during practice. The director explains where each person will stand and when each character will enter. The theater owns a set of simple wooden boxes. The team plans to use them as seats and tables during the performance. The boxes need fresh paint before they can be used. The director wants the boxes [4] by the design team this week. The team chooses colors that match the paper plants on the stage. The theater also hopes [5] a local musician to play before the performance. If the musician is available, the music will begin while the audience enters. The director will place a schedule near the door so that everyone knows when to arrive. After each practice, the actors return their scripts to a shelf. The room can then be used by another group.",
+       "items": [
+        {
+         "stem": "The director decides (set) the story in a garden.",
+         "accept": [
+          "to set"
+         ],
+         "why": "decide 后接不定式作宾语。",
+         "point": "function"
+        },
+        {
+         "stem": "Each actor has several lines (practice) before the next meeting. Each actor will practice them.",
+         "accept": [
+          "to practice",
+          "to practise"
+         ],
+         "why": "不定式后置修饰 lines，演员执行练习动作；动词有美式和英式拼法。",
+         "point": "function"
+        },
+        {
+         "stem": "One actor brings a notebook (record) the director's comments. Give the purpose.",
+         "accept": [
+          "to record"
+         ],
+         "why": "to record 表示带笔记本的目的。",
+         "point": "function"
+        },
+        {
+         "stem": "The director wants the boxes (paint) by the design team this week. Use an infinitive.",
+         "accept": [
+          "to be painted"
+         ],
+         "why": "boxes 承受设计组的涂漆动作，用被动不定式。",
+         "point": "voice"
+        },
+        {
+         "stem": "The theater hopes (invite) a local musician to play before the performance.",
+         "accept": [
+          "to invite"
+         ],
+         "why": "theater 是发出邀请的一方，用主动不定式。",
+         "point": "voice"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

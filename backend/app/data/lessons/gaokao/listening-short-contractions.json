@@ -1,0 +1,61 @@
+{
+ "id": "listening-short-contractions",
+ "title": "缩约形式与省略",
+ "goal": "结合动词形式与前文还原缩约形式和省略成分。",
+ "skill": "听力",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "expand", "label": "结合后续动词还原缩约形式"},
+  {"id": "restore", "label": "根据上一句补足回应中省略的成分"}
+ ],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "缩约形式与省略的教学内容及课程小测规格"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "缩约形式要看后面的动词和上下文来还原。简短的回应常省去前一句已经说过的成分。"},
+   {"box": "I'd leave now. → I would leave now.\nHad the bus left? — Yes, it had. → The bus had left."},
+   {"p": "第一句 I'd 后面是动词原形 leave，所以是 would。第二组 Yes, it had 省去了 left，按问句补出来是 The bus had left。"}
+  ]},
+  {"id": "forms", "type": "table", "title": "缩约形式", "cols": ["形式", "展开", "例"], "rows": [
+   ["I'd + 动词原形", "I would 加动词原形。", "I'd leave now. = I would leave now."],
+   ["I'd + 过去分词", "I had 加过去分词，构成过去完成时。", "I'd left before noon. = I had left before noon."],
+   ["isn't", "is not，后可接形容词或现在分词。", "The room isn't ready. = The room is not ready."],
+   ["hasn't", "has not，后可接过去分词。", "The bus hasn't left. = The bus has not left."],
+   ["I'll", "I will，后接动词原形。", "I'll call tonight. = I will call tonight."],
+   ["I've", "I have，后接过去分词构成完成时。", "I've called already. = I have called already."]
+  ]},
+  {"id": "ellipsis", "type": "table", "title": "回应中的省略", "cols": ["前句与回应", "补足", "依据"], "rows": [
+   ["A: Who packed the bags? B: Lena did.", "Lena packed the bags.", "did 代替前句的动作。"],
+   ["A: Did Max call? B: Yes, he did.", "Max called.", "he 指 Max，did 对应过去动作。"],
+   ["A: Has the train left? B: Yes, it has.", "The train has left.", "it 指 train，has 承接完成时。"],
+   ["A: Is the room ready? B: Yes, it is.", "The room is ready.", "it 指 room，is 承接状态。"],
+   ["A: Who will send the form? B: I will.", "I will send the form.", "will 承接将来动作。"],
+   ["A: Can Ana drive? B: Yes, she can.", "Ana can drive.", "she 指 Ana，can 承接能力。"],
+   ["A: Where is the key? B: On the shelf.", "The key is on the shelf.", "只说了地点，补出主语和 is。"],
+   ["A: When does the shop open? B: At nine.", "The shop opens at nine.", "只说了时间，补出主语和谓语 opens。"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A: Had Nora packed the books before lunch?\nB: Yes, she had."},
+   {"box": "What does the response mean?\n1. Nora will pack the books after lunch.\n2. Nora had packed the books before lunch.\n3. Nora is packing the books at lunch.\n4. Nora had unpacked the books before lunch."},
+   {"p": "she 指 Nora，had 承接问句里的 had packed。补出省去的 packed the books before lunch，就是第二项。"}
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["expand"], "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Should we wait for the next bus, or leave now? The meeting starts soon, and the walk only takes ten minutes."}, {"who": "B", "text": "I'd leave now. The bus might take longer than walking."}]}, "items": [{"stem": "What does the second speaker say?", "options": ["I had left already.", "I would leave now.", "I have left already.", "I will leave tomorrow."], "answer": 1, "why": "I'd 后接动词原形 leave，此处展开为 I would leave。", "point": "expand"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["restore"], "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Who brought the maps to the visitor center? I asked both Ali and May, because the group needs a map for the walk."}, {"who": "B", "text": "May did. They're on the reception desk."}]}, "items": [{"stem": "Who brought the maps?", "options": ["Ali brought them.", "The group brought them.", "May brought them.", "The visitors brought them."], "answer": 2, "why": "May did 中 did 承接 brought the maps，执行者是 May。", "point": "restore"}]}
+  ]},
+  {"id": "practice-three", "type": "check", "title": "练习三", "points": ["expand", "restore"], "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Will you send the invitation this evening? The meeting is next week, and the guests need time to make their plans."}, {"who": "B", "text": "I've sent it already. The guests received it this morning."}]}, "items": [{"stem": "What does the second speaker mean?", "options": ["The invitation will be sent tonight.", "The guests will receive it next week.", "The invitation was planned for tonight.", "The invitation has already been sent."], "answer": 3, "why": "I've sent 展开为 I have sent，already 表示发送已完成。", "point": "expand"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Has the rain stopped? We need to carry the paintings to the hall, and I don't want them to get wet outside."}, {"who": "B", "text": "Yes, it has. We can carry them now."}]}, "items": [{"stem": "What has stopped?", "options": ["The rain outside", "The work in the hall", "The painting activity", "The delivery of paintings"], "answer": 0, "why": "it has 承接 Has the rain stopped，it 指 rain。", "point": "restore"}]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["expand", "restore"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Why didn't you see the notice before the meeting? I put it on the door when I arrived at the office yesterday."}, {"who": "B", "text": "I'd left before you arrived, so I didn't see it."}]}, "items": [{"stem": "What does the second speaker mean?", "options": ["I had left before you arrived.", "I would leave after you arrived.", "I have left since you arrived.", "I will leave before you arrive."], "answer": 0, "why": "I'd 后接过去分词 left，结合 before you arrived 展开为 I had left。", "point": "expand"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Has the train left the station? I need to call Nina, because she's meeting us at the platform before the train departs."}, {"who": "B", "text": "No, it hasn't. It's still at the platform."}]}, "items": [{"stem": "What does the response mean?", "options": ["Nina hasn't reached the station.", "The train has not left the station.", "The train is not at the platform.", "Nina has not called from the train."], "answer": 1, "why": "it hasn't 承接 Has the train left，表示火车尚未离站。", "point": "restore"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Could you send the list to the coach tonight? We need all the names before the team leaves for the match tomorrow."}, {"who": "B", "text": "I'll send it tonight, after I check the last name."}]}, "items": [{"stem": "What does the second speaker say?", "options": ["I had sent the list last night.", "I have sent the list already.", "I will send the list tonight.", "I would send the list tomorrow."], "answer": 2, "why": "I'll send 展开为 I will send，tonight 指今晚的行动。", "point": "expand"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Who will carry the chairs into the hall? I can bring the tables, but the chairs are still beside the outside door."}, {"who": "B", "text": "I will. I'll carry them in before the guests arrive."}]}, "items": [{"stem": "Who will carry the chairs?", "options": ["The guests will carry them.", "The first speaker will carry them.", "Both speakers will carry them.", "The second speaker will carry them."], "answer": 3, "why": "I will 承接 carry the chairs，I 指第二位说话者。", "point": "restore"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Is the report ready for the meeting? The committee is waiting for the final copy, and the meeting begins at four."}, {"who": "B", "text": "It isn't ready. I still need to check the final page."}]}, "items": [{"stem": "What does the second speaker say?", "options": ["The report is not ready.", "The report has not arrived.", "The report is already ready.", "The report has already been checked."], "answer": 0, "why": "isn't ready 展开为 is not ready，表示报告尚未准备好。", "point": "expand"}]},
+   {"audio": {"intro": "Listen to the conversation.", "lines": [{"who": "A", "text": "Where did you put the tickets for the play? I checked the drawer beside the telephone, but I couldn't find them there."}, {"who": "B", "text": "On the kitchen table, beside the programme for tonight's play."}]}, "items": [{"stem": "Where are the tickets?", "options": ["In the drawer beside the phone", "On the kitchen table", "On the programme in the drawer", "In the kitchen drawer"], "answer": 1, "why": "回应只说了地点 On the kitchen table，补全是 The tickets are on the kitchen table。", "point": "restore"}]}
+  ]}]} 
+ ]
+}

@@ -1,0 +1,402 @@
+{
+ "id": "reading-passage-title",
+ "title": "最佳标题题",
+ "goal": "根据对象、核心内容和范围选择标题。",
+ "skill": "阅读",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "coverage",
+   "label": "判断标题是否覆盖全文核心内容"
+  },
+  {
+   "id": "focus",
+   "label": "排除范围或重点失当的标题"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语（新课标卷）：课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "最佳标题题的教学内容和知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "最佳标题题要求概括文章的主要对象、核心事件或观点。标题应覆盖全文主线，并与材料的范围一致。"
+    },
+    {
+     "p": "例如文章介绍志愿者修复旧船的过程，Restoring an Old Boat 比 Boat and Volunteers 更能说明核心事件。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定对象",
+     "d": "找出全文反复讨论的对象。例如志愿者修复旧船的文章以旧船及修复活动为对象。"
+    },
+    {
+     "t": "2　概括核心内容",
+     "d": "归纳事件经过或作者的主要观点。Restoring an Old Boat 表达了修复旧船这一事件。"
+    },
+    {
+     "t": "3　核对全文范围",
+     "d": "检查标题是否覆盖文章的主要部分。只写船上的一块木板，覆盖不了整个修复过程。"
+    },
+    {
+     "t": "4　排除失当标题",
+     "d": "只并列几个主题词、看不出事件的标题可排除。把原文结论说得过大的标题也可排除。标题可以简短，但要说出核心内容。"
+    }
+   ]
+  },
+  {
+   "id": "narrative",
+   "type": "table",
+   "title": "记叙文标题",
+   "cols": [
+    "材料主线",
+    "适当标题",
+    "范围失当的标题"
+   ],
+   "rows": [
+    [
+     "志愿者修复旧船",
+     "Restoring an Old Boat",
+     "A Wooden Board"
+    ],
+    [
+     "学生共同制作风筝",
+     "A Class Builds Kites Together",
+     "A Roll of String"
+    ],
+    [
+     "厨师学习制作面包",
+     "Learning to Bake Bread",
+     "A Kitchen and Flour"
+    ],
+    [
+     "邻里整理闲置花园",
+     "Neighbours Renew a Garden",
+     "Every Garden in Town"
+    ]
+   ]
+  },
+  {
+   "id": "other-titles",
+   "type": "table",
+   "title": "说明文与议论文标题",
+   "cols": [
+    "类型与内容",
+    "适当标题",
+    "范围失当的标题"
+   ],
+   "rows": [
+    [
+     "说明：收集和使用雨水",
+     "Collecting and Using Rainwater",
+     "A Barrel by the Roof"
+    ],
+    [
+     "说明：介绍地图符号",
+     "How Map Symbols Work",
+     "Roads and Maps"
+    ],
+    [
+     "议论：支持共享工具",
+     "Why Communities Should Share Tools",
+     "Tools and Communities"
+    ],
+    [
+     "议论：建议修复旧物",
+     "Repairing Objects Can Reduce Waste",
+     "Repair Eliminates All Waste"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A group of neighbours found an old boat in a shed. They repaired its wooden sides, painted it, and tested it on a lake. After several weeks of work, the boat was ready for local families to use."
+    },
+    {
+     "box": "Which title best describes the passage?\n1. Repairing Every Boat in Town\n2. Restoring an Old Boat Together\n3. A Tin of Paint in a Shed\n4. Boats, Lakes and Families"
+    },
+    {
+     "p": "短文从发现旧船写到修理、上漆和试用。第二项写出了旧船、修复和共同参与，覆盖全文，是答案。第三项只写油漆这一细节。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "原因"
+   ],
+   "rows": [
+    [
+     "只写细节",
+     "A Tin of Paint in a Shed",
+     "只写了油漆，没有写修复过程。"
+    ],
+    [
+     "主题词堆列",
+     "Boats, Lakes and Families",
+     "只列出名词，没有说出修船这件事。"
+    ],
+    [
+     "范围过大",
+     "Repairing Every Boat in Town",
+     "文章只写一条旧船。"
+    ],
+    [
+     "夸大结论",
+     "Repair Eliminates All Waste",
+     "原文是 reduce，标题改成了 eliminate。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "coverage",
+    "focus"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "Students found a broken bench outside their school. They replaced a damaged board and painted the bench before returning it to the garden.",
+     "items": [
+      {
+       "stem": "Which is the best title?",
+       "options": [
+        "Students Repair a Garden Bench",
+        "Replacing a Damaged Board",
+        "Paint, Gardens and Students",
+        "Students Build a New Bench for the Garden"
+       ],
+       "answer": 0,
+       "why": "依据是 replaced a damaged board 和 painted the bench，两件事合起来是修长椅，即第一项。第二项只写换木板一步。",
+       "point": "coverage"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "A town collects rainwater from the roof of its hall. The stored water is later used for plants in the public garden.",
+     "items": [
+      {
+       "stem": "Which is the best title?",
+       "options": [
+        "How a Town Collects Rainwater on Its Roof",
+        "How a Town Collects and Uses Rainwater",
+        "Plants and Buildings in Town",
+        "Rainwater Meets All of a Town's Needs"
+       ],
+       "answer": 1,
+       "why": "依据是 collects rainwater 和 used for plants。标题要同时写收集和使用，即第二项。第一项只写了收集。",
+       "point": "coverage"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "A library lends tools to residents. Sharing rarely used tools can reduce the need for each household to buy its own.",
+     "items": [
+      {
+       "stem": "Which is the best title?",
+       "options": [
+        "Why Every Household Needs More Tools",
+        "The Tools Residents Use Most Often",
+        "Why Sharing Tools Can Reduce Purchases",
+        "Sharing Tools Ends All Household Buying"
+       ],
+       "answer": 2,
+       "why": "依据是 Sharing rarely used tools can reduce the need for each household to buy its own，第三项概括了这个观点。第四项把 reduce 说成了全部不买。",
+       "point": "focus"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Mina learned to bake bread with her grandfather. She practiced mixing and shaping the dough before baking her first loaf for a family meal.",
+     "items": [
+      {
+       "stem": "Which is the best title?",
+       "options": [
+        "A Family Meal with Her Grandfather",
+        "Mixing and Shaping the Dough",
+        "Flour, Ovens and Grandfathers",
+        "Learning to Make a First Loaf"
+       ],
+       "answer": 3,
+       "why": "依据是 learned to bake bread 和 baking her first loaf。主线是学做面包并做出第一条，即第四项。第二项只写练习的一步。",
+       "point": "coverage"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "coverage",
+    "focus"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A community centre noticed that people waiting for classes often had little to read. Volunteers collected donated books and placed them on a shelf near the entrance. Visitors could borrow a book and return it on another visit. The volunteers checked the shelf each week and replaced damaged books. Soon, visitors began suggesting titles for the collection, and the volunteers kept a notebook for these requests.",
+     "items": [
+      {
+       "stem": "Which is the best title for the passage?",
+       "options": [
+        "Visitors Suggest Titles for the Collection",
+        "A Shared Bookshelf for Centre Visitors",
+        "Replacing Damaged Books Every Week",
+        "Classes, Entrances and Visitors"
+       ],
+       "answer": 1,
+       "why": "全文从收集书籍写到借阅和维护。第二项概括了共享书架这条主线。第三项只写每周换书这一细节。",
+       "point": "coverage"
+      },
+      {
+       "stem": "Which title is too narrow for the passage?",
+       "options": [
+        "Sharing Books at a Community Centre",
+        "A Centre's Collection for Visitors",
+        "A Notebook for Suggested Titles",
+        "A Centre Creates a Borrowing Shelf"
+       ],
+       "answer": 2,
+       "why": "依据是末句 kept a notebook for these requests。记录建议的本子只是书架项目的一个细节，即第三项。",
+       "point": "focus"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "coverage",
+    "focus"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A group of neighbours noticed that an unused piece of land beside their street had become difficult to enter. Tall plants covered the path, and a gate no longer closed properly. The owner agreed that the neighbours could use the land as a shared garden, provided that they kept the entrance clear. The group met to decide what could be done with the space and how the work should be divided.\n\nThe neighbours first cleared the path and repaired the gate. They left several established trees in place and marked the parts of the ground that received the most sunlight. They also asked a local gardener for advice about the soil. She suggested beginning with a few containers while the group learned more about the site. The neighbours placed the containers where they would not block the entrance.\n\nEach household could look after one container, but the group agreed to share water and tools. One resident brought a barrel for rainwater, and another made a shelf for the tools. They wrote a schedule for checking the containers during holidays, so that plants would not be left without care. The first planting included herbs and flowers chosen by the households.\n\nAt the end of the season, the group met again. Some plants had grown well, while others needed a different position. Rather than add more containers immediately, the neighbours decided to move two of the existing ones and observe them for another season. They also planned to repair a second section of the path. The garden remained open to the households that had joined the project.",
+       "items": [
+        {
+         "stem": "Which title best fits the passage?",
+         "options": [
+          "Neighbours Create and Care for a Shared Garden",
+          "A Gardener's Advice on Starting with Containers",
+          "Clearing a Path and Repairing a Gate",
+          "A Barrel, a Shelf and a Holiday Schedule"
+         ],
+         "answer": 0,
+         "why": "全文从清理场地、种植写到调整容器，主线是邻里一起建花园、管花园，即第一项。第三项只写第二段开头的两件事。",
+         "point": "coverage"
+        },
+        {
+         "stem": "Which title is too narrow for the whole passage?",
+         "options": [
+          "Turning an Unused Space into a Shared Garden",
+          "A Rain Barrel Brought by One Resident",
+          "Neighbours Work Together on a Garden",
+          "A Shared Garden and Its First Season"
+         ],
+         "answer": 1,
+         "why": "依据是第三段的 brought a barrel for rainwater。雨水桶只是一件物品，覆盖不了全文，即第二项。",
+         "point": "focus"
+        },
+        {
+         "stem": "Which title best fits the second paragraph?",
+         "options": [
+          "Writing a Schedule for the Holidays",
+          "Moving Two Containers to New Positions",
+          "Preparing the Ground Before Planting",
+          "Clearing Every Tree from the Ground"
+         ],
+         "answer": 2,
+         "why": "第二段写清理小路、修门、标出日照处和摆放容器，都是种植前的准备，即第三项。第四项与 left several established trees in place 相反。",
+         "point": "coverage"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A school music group wanted to make a set of recordings for families who could not attend its concert. The teacher suggested recording the pieces during a rehearsal, then checking the sound before sharing the results. The students agreed that the recordings should be clear enough to hear each group of instruments. They also decided to include a short introduction to each piece.\n\nAt the first recording session, the students placed a microphone close to the drums. When they listened afterward, the drums were clear but some quieter instruments were difficult to hear. The group moved the microphone farther back and tried the same piece again. This time the balance improved, although a door closing in the corridor could be heard in the recording.\n\nFor the next session, the teacher reserved a room away from the busiest corridor. Students put a notice on the door and asked other groups to enter between pieces. They made several recordings and compared them, choosing the versions in which both the music and the introductions could be heard. One student checked the order of the files against the printed concert programme.\n\nThe group then shared the recordings with families through the school's usual system. It kept the rehearsal versions as well, because students wanted to hear how the changes in microphone position and room affected the results. After listening at home, several families sent comments. The teacher saved these with the students' notes for a future recording project. The group had learned that recording involved both musical preparation and attention to the surrounding space.",
+       "items": [
+        {
+         "stem": "Which title best fits the passage?",
+         "options": [
+          "Families Send Comments on the School's Recordings",
+          "Moving a Microphone Away from the Drums",
+          "A Notice on the Door of a Music Room",
+          "Students Improve Recordings for Their Families"
+         ],
+         "answer": 3,
+         "why": "全文从试录、调整麦克风和房间写到分享录音，主线是改进录音，即第四项。第二项只写第二段的一次调整。",
+         "point": "coverage"
+        },
+        {
+         "stem": "Which title gives only a detail rather than the passage's main line?",
+         "options": [
+          "A Notice for People Using the Corridor",
+          "Improving a School Group's Recordings",
+          "Making Recordings to Share with Families",
+          "From Rehearsal Recordings to Shared Music"
+         ],
+         "answer": 0,
+         "why": "依据是 put a notice on the door。门上的告示只是录音准备的一个细节，即第一项。",
+         "point": "focus"
+        },
+        {
+         "stem": "Which title best fits the second paragraph?",
+         "options": [
+          "Families Comment on the Shared Recordings",
+          "Testing and Adjusting Microphone Position",
+          "Students Write Introductions for the Programme",
+          "Moving to a Room Away from the Corridor"
+         ],
+         "answer": 1,
+         "why": "第二段先把麦克风放在鼓旁，再往后移，比较两次的效果，即第二项。第四项是第三段的内容。",
+         "point": "coverage"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

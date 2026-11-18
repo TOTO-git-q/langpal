@@ -1,0 +1,568 @@
+{
+ "id": "translation-economy",
+ "title": "经济与产业词汇",
+ "goal": "辨认经济与产业词汇，准确表达产业指标和发展关系。",
+ "skill": "翻译",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "vocab",
+   "label": "辨认经济与产业词汇"
+  },
+  {
+   "id": "meaning",
+   "label": "选择符合产业指标和发展关系的表达"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "翻译能力范围"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "产业类材料常写四种指标：产量、产值、需求、收入。output 指产量，翻译时保留单位。revenue 指收入，不能用来表示产量。"
+    },
+    {
+     "box": "工厂的产量增加，销售收入也随之增加。\nThe factory's output increased, and its sales revenue also rose."
+    },
+    {
+     "p": "output 对应产量，sales revenue 对应销售收入。两者常常一起变化，但属于不同的指标。"
+    }
+   ]
+  },
+  {
+   "id": "agriculture",
+   "type": "table",
+   "title": "词汇表：农业生产",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "搭配或例句"
+   ],
+   "rows": [
+    [
+     "crop",
+     "n.",
+     "农作物",
+     "grow crops"
+    ],
+    [
+     "yield",
+     "n.",
+     "产量",
+     "crop yield per hectare"
+    ],
+    [
+     "harvest",
+     "n.",
+     "收成",
+     "a grain harvest"
+    ],
+    [
+     "cultivate",
+     "v.",
+     "耕种",
+     "cultivate land"
+    ],
+    [
+     "irrigation",
+     "n.",
+     "灌溉",
+     "irrigation water"
+    ],
+    [
+     "fertilizer",
+     "n.",
+     "肥料",
+     "apply fertilizer"
+    ],
+    [
+     "grain",
+     "n.",
+     "谷物",
+     "grain production"
+    ],
+    [
+     "livestock",
+     "n.",
+     "牲畜",
+     "raise livestock"
+    ],
+    [
+     "acreage",
+     "n.",
+     "面积",
+     "planted acreage"
+    ],
+    [
+     "producer",
+     "n.",
+     "生产者",
+     "agricultural producers"
+    ]
+   ]
+  },
+  {
+   "id": "trade",
+   "type": "table",
+   "title": "词汇表：制造贸易",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "搭配或例句"
+   ],
+   "rows": [
+    [
+     "manufacture",
+     "v.",
+     "制造",
+     "manufacture machinery"
+    ],
+    [
+     "factory",
+     "n.",
+     "工厂",
+     "a textile factory"
+    ],
+    [
+     "component",
+     "n.",
+     "零部件",
+     "assemble components"
+    ],
+    [
+     "export",
+     "v.",
+     "出口",
+     "export finished goods"
+    ],
+    [
+     "import",
+     "v.",
+     "进口",
+     "import raw materials"
+    ],
+    [
+     "trade",
+     "n.",
+     "贸易",
+     "international trade"
+    ],
+    [
+     "supplier",
+     "n.",
+     "供应商",
+     "a local supplier"
+    ],
+    [
+     "shipment",
+     "n.",
+     "装运货物",
+     "a shipment of parts"
+    ],
+    [
+     "processing",
+     "n.",
+     "加工",
+     "food processing"
+    ],
+    [
+     "output",
+     "n.",
+     "产量；产出",
+     "industrial output"
+    ]
+   ]
+  },
+  {
+   "id": "upgrade",
+   "type": "table",
+   "title": "词汇表：产业升级",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "搭配或例句"
+   ],
+   "rows": [
+    [
+     "upgrade",
+     "v.",
+     "升级",
+     "upgrade equipment"
+    ],
+    [
+     "automation",
+     "n.",
+     "自动化",
+     "introduce automation"
+    ],
+    [
+     "productivity",
+     "n.",
+     "生产率",
+     "increase labor productivity"
+    ],
+    [
+     "efficiency",
+     "n.",
+     "效率",
+     "improve production efficiency"
+    ],
+    [
+     "investment",
+     "n.",
+     "投资",
+     "investment in equipment"
+    ],
+    [
+     "innovation",
+     "n.",
+     "创新",
+     "technological innovation"
+    ],
+    [
+     "workforce",
+     "n.",
+     "劳动力",
+     "train the workforce"
+    ],
+    [
+     "capacity",
+     "n.",
+     "产能",
+     "production capacity"
+    ],
+    [
+     "diversify",
+     "v.",
+     "使多样化",
+     "diversify production"
+    ],
+    [
+     "value-added",
+     "n.",
+     "增加值",
+     "industrial value-added"
+    ]
+   ]
+  },
+  {
+   "id": "market",
+   "type": "table",
+   "title": "词汇表：消费市场",
+   "cols": [
+    "词",
+    "词性",
+    "中文义",
+    "搭配或例句"
+   ],
+   "rows": [
+    [
+     "demand",
+     "n.",
+     "需求",
+     "consumer demand"
+    ],
+    [
+     "supply",
+     "n.",
+     "供给",
+     "supply and demand"
+    ],
+    [
+     "consumer",
+     "n.",
+     "消费者",
+     "consumer preferences"
+    ],
+    [
+     "market",
+     "n.",
+     "市场",
+     "a domestic market"
+    ],
+    [
+     "income",
+     "n.",
+     "收入",
+     "household income"
+    ],
+    [
+     "revenue",
+     "n.",
+     "收入；营业收入",
+     "sales revenue"
+    ],
+    [
+     "price",
+     "n.",
+     "价格",
+     "a retail price"
+    ],
+    [
+     "retail",
+     "n.",
+     "零售",
+     "online retail"
+    ],
+    [
+     "expenditure",
+     "n.",
+     "支出",
+     "household expenditure"
+    ],
+    [
+     "purchase",
+     "v.",
+     "购买",
+     "purchase goods"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "合作社扩大了蔬菜种植面积，并改进了灌溉。蔬菜产量增加，销售收入也有所增长。产量按重量计算，收入按销售所得计算，两项指标分别记录。合作社将记录用于比较不同时期的生产和销售情况。\nA cooperative expanded its vegetable acreage and improved irrigation. Vegetable output increased, and sales revenue also grew. Output was measured by weight, while revenue was recorded as money earned from sales. The cooperative used these records to compare production and sales across periods."
+    },
+    {
+     "p": "acreage 指种植面积，output 指产量，revenue 指销售收入。两项指标的计量方式不同。"
+    },
+    {
+     "box": "Which measure is recorded as money earned from sales?\n1. Vegetable acreage\n2. Sales revenue\n3. Vegetable output\n4. Irrigation water"
+    },
+    {
+     "p": "第二项对应 revenue was recorded as money earned from sales。产量以重量计。"
+    }
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "vocab"
+   ],
+   "groups": [
+    {
+     "fill": "A farm produces grain for local mills. The gr{ain} is sto{red} in a ware{house} until the mi{ll} places an or{der} for the next ship{ment} of grain by tr{uck}, a road vehicle. The storage building protects the crop before it is transported. The quan{tity} delivered can be measured by wei{ght}, while the money received for it is recorded separately as sales rev{enue}. These measures distinguish the amount supplied from the money earned through sales.",
+     "tags": [
+      "vocab",
+      "vocab",
+      "vocab",
+      "vocab",
+      "vocab",
+      "vocab",
+      "vocab",
+      "vocab",
+      "vocab",
+      "vocab"
+     ],
+     "notes": [
+      "grain：首句指明谷物。",
+      "stored：粮食被储存。",
+      "warehouse：仓库存放粮食。",
+      "mill：磨坊下订单。",
+      "order：place an order 表示下订单。",
+      "shipment：shipment 指装运的货物。",
+      "truck：卡车是公路车辆。",
+      "quantity：quantity 指交付数量。",
+      "weight：重量是数量的计量方式。",
+      "revenue：销售收入是所得款项。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "vocab",
+    "meaning"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A Grain Mill\n\nA mill installed a machine to sort grain by size. Its output of flour increased after the change. Demand remained steady, and the report did not state sales revenue. The machine changed the processing method, not the area planted by farms.",
+     "items": [
+      {
+       "stem": "What changed after the mill installed the machine?",
+       "options": [
+        "The processing method",
+        "The crop acreage",
+        "The demand for flour",
+        "The size of the grain"
+       ],
+       "answer": 0,
+       "why": "installed a machine to sort grain 说明改变的是加工方式。",
+       "point": "meaning"
+      },
+      {
+       "stem": "What does output measure here?",
+       "options": [
+        "The price paid for grain",
+        "The amount of flour produced",
+        "The area planted by farms",
+        "The demand for flour"
+       ],
+       "answer": 1,
+       "why": "output of flour increased 指面粉产出的数量增加。",
+       "point": "vocab"
+      },
+      {
+       "stem": "What was reported about demand?",
+       "options": [
+        "It rose with flour output.",
+        "It fell after the change.",
+        "It remained steady.",
+        "It was not stated in the report."
+       ],
+       "answer": 2,
+       "why": "Demand remained steady 表示需求保持稳定。",
+       "point": "meaning"
+      },
+      {
+       "stem": "What did the report not state?",
+       "options": [
+        "Flour output",
+        "Demand",
+        "The sorting method",
+        "Sales revenue"
+       ],
+       "answer": 3,
+       "why": "材料没有提供 sales revenue。",
+       "point": "meaning"
+      },
+      {
+       "stem": "What does sorting mean?",
+       "options": [
+        "Growing more grain",
+        "Separating grain by size",
+        "Grinding grain into flour",
+        "Measuring flour output"
+       ],
+       "answer": 1,
+       "why": "sort grain by size 表示按大小分拣谷物。",
+       "point": "vocab"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 8,
+   "pass": 0.75,
+   "points": [
+    "vocab",
+    "meaning"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "fill": "A workshop makes furniture for a local market. The work{shop} buys wo{od} from a supp{lier} and uses it to make tab{les} for local sh{ops} that sell them to cons{umers}. The wo{od} arrives in a tr{uck}, a road vehicle, and workers cut it into pa{rts} before assembly. The workshop records one num{ber} representing how many tables it made each month. It also records money earned from sales, because a production count and sales income describe different aspects of the business.",
+       "tags": [
+        "vocab",
+        "vocab",
+        "vocab",
+        "vocab",
+        "vocab",
+        "vocab",
+        "vocab",
+        "vocab",
+        "vocab",
+        "vocab"
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A Cooperative's Records\n\nA farming cooperative sells grain to local buyers. In one year its grain output rose from 80 to 90 tonnes. Output is the quantity produced; the figures are measured in tonnes rather than money. The cooperative also records the area planted, but that area is a separate measure and does not state how much grain was harvested.\n\nThe price per bag remained unchanged during the period. The cooperative sold more bags, so its sales revenue also increased. Revenue is the money received from sales. It differs from output even when output and revenue both rise. The report does not state how much income individual farming households received after expenses.\n\nOrders from customers are used as the measure of demand in this report. The number of orders rose, but it does not by itself reveal how much each household earned. The cooperative compares orders, output, prices and revenue to describe different aspects of its activity. It keeps their units alongside the figures so that a quantity is not mistaken for a monetary value.\n\n中文信息：合作社的粮食产量由80吨增至90吨，单袋价格不变，销量增加带动销售收入增长。报告以顾客订单衡量需求，并未给出农户扣除费用后的收入。",
+       "items": [
+        {
+         "stem": "What did the cooperative measure in tonnes?",
+         "options": [
+          "Sales revenue",
+          "Grain output",
+          "The price per bag",
+          "Household income"
+         ],
+         "answer": 1,
+         "why": "output rose from 80 to 90 tonnes 指产量以吨计。",
+         "point": "meaning"
+        },
+        {
+         "stem": "Which measure remained unchanged?",
+         "options": [
+          "Grain output",
+          "The number of orders",
+          "The price per bag",
+          "Sales revenue"
+         ],
+         "answer": 2,
+         "why": "The price per bag remained unchanged 表明单袋价格不变。",
+         "point": "meaning"
+        },
+        {
+         "stem": "What does demand refer to here?",
+         "options": [
+          "Customers' orders for grain",
+          "The number of bags produced",
+          "The price of each bag",
+          "The area planted"
+         ],
+         "answer": 0,
+         "why": "Orders from customers are used as the measure of demand 将需求对应到顾客订单。",
+         "point": "vocab"
+        },
+        {
+         "stem": "What happened to sales revenue?",
+         "options": [
+          "It was measured in tonnes.",
+          "It stayed unchanged, like the price per bag.",
+          "It rose from 80 to 90 tonnes.",
+          "It increased as more bags were sold."
+         ],
+         "answer": 3,
+         "why": "The cooperative sold more bags, so its sales revenue also increased 说明收入随销量增加，即第四项。80 到 90 吨是产量的变化。",
+         "point": "meaning"
+        },
+        {
+         "stem": "What is the distinction between output and revenue?",
+         "options": [
+          "Both are measured in tonnes of grain sold.",
+          "One counts production; the other measures sales income.",
+          "One measures the price per bag; the other measures acreage.",
+          "One counts customer orders; the other measures household income."
+         ],
+         "answer": 1,
+         "why": "output 是产出的数量，sales revenue 是销售收入。",
+         "point": "vocab"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

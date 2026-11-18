@@ -1,0 +1,57 @@
+{
+ "id": "translation-logic",
+ "title": "原文隐含的逻辑联系",
+ "goal": "能识别原文中的逻辑关系，并选择不增加原意的英语连接表达。",
+ "skill": "翻译",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "relation", "label": "识别原文分句之间的逻辑关系"},
+  {"id": "link", "label": "选择不增加原意的连接表达"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "翻译教学范围"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "中文分句之间常不用连词，关系要从语境判断。译成英语时，连接词只译出原文已有的因果、转折、让步或条件关系。原文只有先后顺序时，不加因果。"},
+   {"box": "雨下得很大，比赛取消了。 / The match was canceled because it rained heavily."}
+  ]},
+  {"id": "relations", "type": "table", "title": "分句之间的关系", "cols": ["关系", "表达", "例句"], "rows": [
+   ["因果", "because 引出原因。", "雨下得很大，比赛取消了。 / The match was canceled because it rained heavily."],
+   ["因果", "so 引出结果。", "道路结冰，车辆行驶缓慢。 / The road was icy, so vehicles moved slowly."],
+   ["转折", "but 连接相对的事实。", "东侧有花园，西侧是停车场。 / There is a garden on the east side, but the west side is a parking lot."],
+   ["转折", "while 可对照两个不同情况。", "姐姐喜欢绘画，弟弟喜欢音乐。 / The sister likes painting, while her brother likes music."],
+   ["让步", "although 引出一个情况，主句的结果与它相反。", "路途很远，游客仍步行前往。 / Although the route was long, the visitors walked there."],
+   ["让步", "although 从句后直接接主句，不加 but。", "天气寒冷，居民仍在户外锻炼。 / Although it was cold, residents exercised outdoors."],
+   ["条件", "if 引出结果成立的条件。", "明天下雨，活动就移到室内。 / If it rains tomorrow, the event will move indoors."],
+   ["条件", "if 从句说的是尚未发生的条件。", "时间允许，我们就参观展厅。 / If time permits, we will visit the gallery."]
+  ]},
+  {"id": "limits", "type": "table", "title": "连接方式", "cols": ["情况", "用法", "例句"], "rows": [
+   ["原因", "because 后接原因从句。", "The path was closed because the bridge was unsafe."],
+   ["结果", "so 前是原因，后是结果。", "The bridge was unsafe, so the path was closed."],
+   ["让步", "although 从句后直接接主句。", "Although the path was long, the walk was pleasant."],
+   ["无明确关系", "只表达相邻事实，不增加因果。", "The museum opened in May. A new guide arrived in June."]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "路途很远，游客仍步行前往。\nAlthough the route was long, the visitors walked there."},
+   {"p": "路途远与仍然步行形成让步关系。although 引出路途远这一情况，主句保留游客步行的事实。"}
+  ]},
+  {"id": "check-relation", "type": "check", "title": "练习一", "points": ["relation"], "groups": [{"items": [
+   {"stem": "道路结冰，车辆因此行驶缓慢。What relation joins the two facts?", "options": ["a cause and the result it brings", "a condition for slow driving", "a contrast between road and traffic", "a concession about the icy road"], "answer": 0, "why": "原文用因此连接两个事实：道路结冰是原因，车辆缓行是结果，对应第一项。", "point": "relation"},
+   {"stem": "路途很远，游客仍然步行前往。What relation joins the two facts?", "options": ["a condition for walking the route", "a reason for walking there", "the result of the visitors' walk", "a concession about the long route"], "answer": 3, "why": "原文用仍然连接：路途远，游客照样步行，是让步关系，对应第四项。第二项把路途远当成了步行的原因。", "point": "relation"}
+  ]}]},
+  {"id": "check-link", "type": "check", "title": "练习二", "points": ["link"], "groups": [{"items": [
+   {"stem": "明天下雨，活动就移到室内。 ___ it rains tomorrow, the event will move indoors. Use if.", "accept": ["If"], "why": "if 引出活动移入室内的条件。", "point": "link"},
+   {"stem": "道路结冰，车辆因此行驶缓慢。", "lead": "The road", "chunks": ["was icy,", "so", "vehicles", "moved slowly"], "tail": ".", "extra": ["although"], "why": "so 前是结冰的原因，后是车辆缓行的结果。", "point": "link"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["relation", "link"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "明天下雨，活动就移到室内。What relation joins the two facts?", "options": ["a contrast between events", "a past cause of the event moving indoors", "a condition for moving the event", "a concession about the event"], "answer": 2, "why": "明天下雨是活动移入室内的条件。", "point": "relation"},
+   {"stem": "天气寒冷，居民仍在户外锻炼。What relation joins the two facts?", "options": ["a concession about the cold", "a condition for the cold weather", "a cause of the cold weather", "a comparison of outdoor activities"], "answer": 0, "why": "天气寒冷与仍在户外锻炼形成让步关系。", "point": "relation"},
+   {"stem": "道路结冰，车辆因此行驶缓慢。", "options": ["The road was icy, although vehicles moved slowly.", "The road was icy, so vehicles moved slowly.", "The road was icy, if vehicles moved slowly.", "The road was icy, but vehicles moved quickly."], "answer": 1, "why": "so 引出道路结冰的结果，即车辆缓行。", "point": "link"},
+   {"stem": "路途很远，游客仍然步行前往。", "options": ["Because the route was long, the visitors walked there.", "If the route was long, the visitors walked there.", "The route was long, so the visitors walked there.", "Although the route was long, the visitors walked there."], "answer": 3, "why": "although 表示路途远与仍步行之间的让步关系。", "point": "link"},
+   {"stem": "明天下雨，活动就移到室内。", "lead": "If", "chunks": ["it rains tomorrow,", "the event", "will move", "indoors"], "tail": ".", "extra": ["because"], "why": "if 从句表示条件，主句表示条件成立时的安排。", "point": "link"},
+   {"stem": "道路结冰，车辆因此行驶缓慢。", "lead": "The road", "chunks": ["was icy,", "so", "vehicles", "moved slowly"], "tail": ".", "extra": ["although"], "why": "so 连接原因和结果，保留结冰与缓行的关系。", "point": "link"},
+   {"stem": "时间允许，我们就参观展厅。 ___ time permits, we will visit the gallery. Use if.", "accept": ["If"], "why": "if 引出参观展厅的条件。", "point": "relation"},
+   {"stem": "天气寒冷，居民仍在户外锻炼。 ___ it was cold, residents exercised outdoors. Use although or though.", "accept": ["Although", "Though"], "why": "although 或 though 引出与主句形成让步关系的情况。", "point": "relation"}
+  ]}]}]}
+ ]
+}

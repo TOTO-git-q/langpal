@@ -1,0 +1,953 @@
+{
+ "id": "listening-conversation-campus",
+ "title": "校园场景词汇",
+ "goal": "理解校园场景词汇，并根据相关词语确定交谈事项。",
+ "skill": "listening",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 听力",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "vocab",
+   "label": "认识校园场景的常用词"
+  },
+  {
+   "id": "scene",
+   "label": "根据词汇判断对话的场景和事项"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、录音长度、只放一遍"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "各题型的说明、考查的能力、官方样题"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Listening Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-listening.pdf",
+   "used": "第 1 课：四类题的说明和小测答案；第 2、4 课：应答配对、重音和语调"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "校园词汇要结合动作和对象来判断。withdraw from a course 是退课，withdraw a request 是撤回申请。听到 withdraw，还要听后面的对象。"
+    },
+    {
+     "p": "场景由一组相关的词共同确定。renew、due date 和 borrower 常与图书借阅有关；renew 和 housing contract 则指住宿合同续期。具体手续以对话内容为准。"
+    }
+   ]
+  },
+  {
+   "id": "registration",
+   "type": "table",
+   "title": "词汇表：选课与注册",
+   "cols": [
+    "词语",
+    "词性",
+    "中文义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "enroll",
+     "v.",
+     "注册入学或选修",
+     "Students enroll in the workshop online."
+    ],
+    [
+     "registration",
+     "n.",
+     "注册；选课登记",
+     "Registration opens on Monday."
+    ],
+    [
+     "prerequisite",
+     "n.",
+     "先修要求或先修课程",
+     "Statistics is a prerequisite for this course."
+    ],
+    [
+     "elective",
+     "n.",
+     "选修课",
+     "I'm taking an art elective this term."
+    ],
+    [
+     "credit",
+     "n.",
+     "学分",
+     "This course carries three credits."
+    ],
+    [
+     "waitlist",
+     "n.",
+     "候补名单",
+     "I'm on the waitlist for the seminar."
+    ],
+    [
+     "withdraw",
+     "v.",
+     "退出；退选",
+     "She decided to withdraw from the course."
+    ],
+    [
+     "advisor",
+     "n.",
+     "学业指导老师",
+     "My advisor helped me compare the courses."
+    ],
+    [
+     "major",
+     "n.",
+     "主修专业",
+     "Her major is environmental studies."
+    ],
+    [
+     "section",
+     "n.",
+     "同一课程的不同教学班",
+     "The afternoon section still has space."
+    ]
+   ],
+   "note": "credit 在这里指学分，three credits 是三个学分。退款时说的 store credit 是可用余额，意思不同。"
+  },
+  {
+   "id": "library",
+   "type": "table",
+   "title": "词汇表：图书馆",
+   "cols": [
+    "词语",
+    "词性",
+    "中文义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "catalog",
+     "n.",
+     "馆藏目录",
+     "The catalog lists both print and electronic books."
+    ],
+    [
+     "circulation desk",
+     "n.",
+     "借还服务台",
+     "Return the recording to the circulation desk."
+    ],
+    [
+     "loan",
+     "n.",
+     "借阅；借出物",
+     "The loan lasts for two weeks."
+    ],
+    [
+     "renew",
+     "v.",
+     "续借；续期",
+     "Can I renew this book online?"
+    ],
+    [
+     "overdue",
+     "adj.",
+     "逾期未还或未完成的",
+     "The borrowed atlas is overdue."
+    ],
+    [
+     "hold",
+     "n.",
+     "图书预约",
+     "Place a hold on the book that is checked out."
+    ],
+    [
+     "reference book",
+     "n.",
+     "工具书；参考书",
+     "The reference book must stay in the reading room."
+    ],
+    [
+     "database",
+     "n.",
+     "数据库",
+     "This database contains newspaper articles."
+    ],
+    [
+     "interlibrary loan",
+     "n.",
+     "馆际互借",
+     "Request the book through interlibrary loan."
+    ],
+    [
+     "archive",
+     "n.",
+     "档案馆；档案集合",
+     "The archive keeps letters from former students."
+    ]
+   ],
+   "note": "hold 是预约，renew 是延长已有的借阅。对已借出的书 place a hold，是排队等这本书还回来。"
+  },
+  {
+   "id": "housing",
+   "type": "table",
+   "title": "词汇表：宿舍与餐厅",
+   "cols": [
+    "词语",
+    "词性",
+    "中文义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "residence hall",
+     "n.",
+     "学生宿舍楼",
+     "The residence hall has a shared kitchen."
+    ],
+    [
+     "roommate",
+     "n.",
+     "室友",
+     "My roommate and I share a desk lamp."
+    ],
+    [
+     "resident assistant",
+     "n.",
+     "宿舍学生助理",
+     "The resident assistant explains the quiet hours."
+    ],
+    [
+     "maintenance",
+     "n.",
+     "维护；维修",
+     "The sink needs maintenance."
+    ],
+    [
+     "housing contract",
+     "n.",
+     "住宿合同",
+     "Read the housing contract before signing."
+    ],
+    [
+     "meal plan",
+     "n.",
+     "校园餐饮套餐",
+     "The meal plan includes weekday lunches."
+    ],
+    [
+     "dining hall",
+     "n.",
+     "学校餐厅",
+     "The dining hall serves breakfast early."
+    ],
+    [
+     "dietary restriction",
+     "n.",
+     "饮食限制",
+     "Please tell the cook about any dietary restrictions."
+    ],
+    [
+     "allergen",
+     "n.",
+     "过敏原",
+     "The label identifies common allergens."
+    ],
+    [
+     "serving",
+     "n.",
+     "一份食物",
+     "One serving of soup is included."
+    ]
+   ],
+   "note": "maintenance 也包括定期维护。routine maintenance 是例行保养，设备不一定坏了。"
+  },
+  {
+   "id": "fees",
+   "type": "table",
+   "title": "词汇表：费用与手续",
+   "cols": [
+    "词语",
+    "词性",
+    "中文义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "tuition",
+     "n.",
+     "学费",
+     "Tuition does not include housing in this example."
+    ],
+    [
+     "fee",
+     "n.",
+     "特定服务或项目的费用",
+     "The laboratory fee covers materials."
+    ],
+    [
+     "deposit",
+     "n.",
+     "押金；订金",
+     "The equipment deposit is returned after inspection."
+    ],
+    [
+     "refund",
+     "n.",
+     "退款",
+     "The refund will go to the original payment card."
+    ],
+    [
+     "receipt",
+     "n.",
+     "收据",
+     "Keep the receipt as proof of payment."
+    ],
+    [
+     "financial aid",
+     "n.",
+     "助学资助",
+     "The financial aid office reviews funding requests."
+    ],
+    [
+     "scholarship",
+     "n.",
+     "奖学金",
+     "The scholarship covers part of the tuition."
+    ],
+    [
+     "waiver",
+     "n.",
+     "豁免；免除许可",
+     "Apply for a waiver of the application fee."
+    ],
+    [
+     "transcript",
+     "n.",
+     "正式成绩单",
+     "The application requires an official transcript."
+    ],
+    [
+     "signature",
+     "n.",
+     "签名",
+     "The form needs the supervisor’s signature."
+    ]
+   ],
+   "note": "waiver 是免除，refund 是退还已付的钱。拿到 fee waiver 的人一开始就不用付这笔费用。"
+  },
+  {
+   "id": "coursework",
+   "type": "table",
+   "title": "词汇表：课程与作业",
+   "cols": [
+    "词语",
+    "词性",
+    "中文义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "syllabus",
+     "n.",
+     "课程大纲",
+     "The syllabus lists the weekly topics."
+    ],
+    [
+     "assignment",
+     "n.",
+     "作业；布置的任务",
+     "The assignment asks for two examples."
+    ],
+    [
+     "deadline",
+     "n.",
+     "截止时间",
+     "The deadline for the essay is Friday."
+    ],
+    [
+     "extension",
+     "n.",
+     "延期；延长",
+     "The instructor approved an extension."
+    ],
+    [
+     "draft",
+     "n.",
+     "草稿",
+     "The first draft needs a clearer introduction."
+    ],
+    [
+     "feedback",
+     "n.",
+     "反馈意见",
+     "The feedback explains which argument needs evidence."
+    ],
+    [
+     "citation",
+     "n.",
+     "引文标注；来源引用",
+     "Add a citation for the quoted sentence."
+    ],
+    [
+     "plagiarism",
+     "n.",
+     "抄袭",
+     "Presenting another writer’s work as one’s own is plagiarism."
+    ],
+    [
+     "office hours",
+     "n.",
+     "教师答疑时段",
+     "The professor holds office hours on Tuesdays."
+    ],
+    [
+     "rubric",
+     "n.",
+     "评分标准表",
+     "The rubric describes the criteria for the report."
+    ]
+   ],
+   "note": "extension 只改变期限，作业内容不变。an extension until Monday 是获准在周一前交。"
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Student: My draft is ready. Should I upload it as the final assignment?\nTutor: Bring it to office hours first. We'll compare it with the rubric and discuss the feedback.\nStudent: So I still have time to revise it?\nTutor: Yes. The deadline is next week."
+    },
+    {
+     "box": "What is the student arranging?\n1. Submission of an assignment without revision\n2. A discussion of unfinished work before submission\n3. An extension beyond the stated deadline\n4. A change to the criteria used in the rubric"
+    },
+    {
+     "p": "draft、office hours、rubric 和 feedback 都指向提交前的作业辅导，第二项正确。deadline is next week 说明还有时间修改，并没有延期。"
+    },
+    {
+     "p": "第一项漏掉了 Bring it to office hours first。第三项把还有修改时间说成了获准延期。第四项把对照评分标准说成了修改评分标准。"
+    }
+   ]
+  },
+  {
+   "id": "check-vocab",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "vocab"
+   ],
+   "groups": [
+    {
+     "text": "The course is full. Lina joined the waitlist instead of registering for another section.",
+     "look": "passage",
+     "items": [
+      {
+       "stem": "What is the waitlist?",
+       "options": [
+        "A list of students already guaranteed seats",
+        "A list of students waiting for available places",
+        "A list of sections that have been canceled",
+        "A list of courses Lina has completed"
+       ],
+       "answer": 1,
+       "why": "依据是 The course is full 和 joined the waitlist。课已满，Lina 在等空出的名额，即第二项。",
+       "point": "vocab"
+      }
+     ]
+    },
+    {
+     "text": "The atlas was due yesterday. The librarian says it is now overdue and asks for its return.",
+     "look": "passage",
+     "items": [
+      {
+       "stem": "What does “overdue” mean?",
+       "options": [
+        "Available for a new borrower",
+        "Reserved before its arrival",
+        "Not returned by the required time",
+        "Returned earlier than expected"
+       ],
+       "answer": 2,
+       "why": "依据是 was due yesterday 和 now overdue。书过了归还期限还没还，即第三项。",
+       "point": "vocab"
+      }
+     ]
+    },
+    {
+     "text": "The residence hall has a leaking tap. A maintenance worker will inspect it this afternoon.",
+     "look": "passage",
+     "items": [
+      {
+       "stem": "What work is being arranged?",
+       "options": [
+        "Checking a tap that needs repair this afternoon",
+        "Replacing the leaking tap before it is inspected",
+        "Inspecting a tap that has already been fixed",
+        "Delaying the inspection until tomorrow afternoon"
+       ],
+       "answer": 0,
+       "why": "依据是 a leaking tap 和 A maintenance worker will inspect it this afternoon。今天下午检查待修的水龙头，即第一项。",
+       "point": "vocab"
+      }
+     ]
+    },
+    {
+     "text": "The cafeteria label lists milk as an allergen, so a student with a milk allergy chooses another dish.",
+     "look": "passage",
+     "items": [
+      {
+       "stem": "What is an allergen?",
+       "options": [
+        "An ingredient absent from every dish",
+        "A portion of food served without milk",
+        "A dish prepared specifically for allergies",
+        "A substance that can trigger an allergic reaction"
+       ],
+       "answer": 3,
+       "why": "依据是 milk as an allergen 和 a milk allergy。allergen 是会引起过敏的物质，即第四项。",
+       "point": "vocab"
+      }
+     ]
+    },
+    {
+     "text": "The instructor approved an extension, so the report is due next Monday rather than this Friday.",
+     "look": "passage",
+     "items": [
+      {
+       "stem": "What has the extension changed?",
+       "options": [
+        "The report’s topic",
+        "The amount of time allowed",
+        "The number of reports required",
+        "The instructor’s grading criteria"
+       ],
+       "answer": 1,
+       "why": "依据是 due next Monday rather than this Friday。延期改变的是交报告的时间，即第二项。",
+       "point": "vocab"
+      }
+     ]
+    },
+    {
+     "text": "The scholarship pays part of Amir's tuition. He must arrange housing payments separately.",
+     "look": "passage",
+     "items": [
+      {
+       "stem": "What does “tuition” refer to?",
+       "options": [
+        "The cost of housing covered by the scholarship",
+        "The payment for housing arranged separately",
+        "The charge for receiving instruction",
+        "The entire scholarship paid to Amir"
+       ],
+       "answer": 2,
+       "why": "依据是 The scholarship pays part of Amir's tuition。tuition 是上课的费用，即学费，第三项；住宿费另付。",
+       "point": "vocab"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-scene",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "scene"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The meal plan includes lunch, but I have a dietary restriction."
+       },
+       {
+        "who": "B",
+        "text": "Please tell the dining hall staff before they serve you. They can explain which dishes contain the ingredient you avoid."
+       },
+       {
+        "who": "A",
+        "text": "Can I ask for a smaller serving as well?"
+       },
+       {
+        "who": "B",
+        "text": "Yes, just mention that when you choose your dish."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What are the speakers discussing?",
+       "options": [
+        "Adapting a campus meal to a student’s needs",
+        "Adding more lunches to an existing meal plan",
+        "Teaching staff to prepare all dishes without one ingredient",
+        "Canceling a meal plan because portions are too small"
+       ],
+       "answer": 0,
+       "why": "依据是 meal plan、dietary restriction 和 Please tell the dining hall staff。学生请餐厅按自己的饮食需要安排，即第一项。",
+       "point": "scene"
+      },
+      {
+       "stem": "What does the student also request?",
+       "options": [
+        "A larger meal-plan allowance",
+        "A lunch added to the meal plan",
+        "A reduced portion of food",
+        "An extension of lunch hours"
+       ],
+       "answer": 2,
+       "why": "依据是 Can I ask for a smaller serving as well?。smaller serving 是少一些的份量，即第三项。",
+       "point": "scene"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "I paid the equipment deposit for the ceramics course. How do I get it back?"
+       },
+       {
+        "who": "B",
+        "text": "Return the tools with your receipt. We'll inspect them and then process the refund."
+       },
+       {
+        "who": "A",
+        "text": "Do I need the instructor's signature?"
+       },
+       {
+        "who": "B",
+        "text": "Not for this return. The receipt is enough."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is the main matter being handled?",
+       "options": [
+        "Paying a new deposit for replacement tools",
+        "Recovering a payment made as security for tools",
+        "Buying the tools used in a ceramics course",
+        "Requesting an exemption from an unpaid deposit"
+       ],
+       "answer": 1,
+       "why": "依据是 paid the equipment deposit 和 process the refund。还了工具就退回押金，即第二项；押金已经付过，不是申请免付。",
+       "point": "scene"
+      },
+      {
+       "stem": "What document does the employee require?",
+       "options": [
+        "An inspection report signed by the student",
+        "A form signed by the course instructor",
+        "A statement showing that the tools were purchased",
+        "Proof that the original payment was made"
+       ],
+       "answer": 3,
+       "why": "依据是 Return the tools with your receipt 和 The receipt is enough。收据就是付款证明，即第四项；教师签名不需要。",
+       "point": "scene"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "My course assignment uses a quotation from a journal. Is a citation enough?"
+       },
+       {
+        "who": "B",
+        "text": "Use quotation marks as well, and make clear which words come from the source."
+       },
+       {
+        "who": "A",
+        "text": "I don't want it to look like my own writing."
+       },
+       {
+        "who": "B",
+        "text": "Exactly. Clear attribution helps avoid plagiarism."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What is being discussed?",
+       "options": [
+        "Marking which words in an assignment are borrowed",
+        "Obtaining permission to change a journal quotation",
+        "Removing all quotations from an assignment",
+        "Replacing a source citation with original writing"
+       ],
+       "answer": 0,
+       "why": "依据是 make clear which words come from the source。讨论的是在作业里标明引用的文字，即第一项。",
+       "point": "scene"
+      },
+      {
+       "stem": "What does the student want to avoid?",
+       "options": [
+        "Adding a citation to a quotation from a journal",
+        "Using quotation marks around borrowed words",
+        "Presenting another writer’s words as original work",
+        "Identifying the source of a quoted sentence"
+       ],
+       "answer": 2,
+       "why": "依据是 I don't want it to look like my own writing。学生不想让别人的话看起来像自己写的，即第三项。",
+       "point": "scene"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "vocab",
+    "scene"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "Biology is a prerequisite for the field course; students must complete it before enrolling.",
+       "look": "passage",
+       "items": [
+        {
+         "stem": "What is a prerequisite?",
+         "options": [
+          "A required earlier course or qualification",
+          "An optional course taken afterward",
+          "A course completed at the same time",
+          "A replacement for the field course"
+         ],
+         "answer": 0,
+         "why": "依据是 students must complete it before enrolling。prerequisite 是选课前必须先满足的要求，即第一项。",
+         "point": "vocab"
+        }
+       ]
+      },
+      {
+       "text": "The requested dictionary is a reference book and must be consulted inside the library.",
+       "look": "passage",
+       "items": [
+        {
+         "stem": "What kind of book is described?",
+         "options": [
+          "A book borrowed for reading at home",
+          "A book recording the library’s loans",
+          "A book reserved for a future borrower",
+          "A work used to look up information"
+         ],
+         "answer": 3,
+         "why": "依据是 The requested dictionary is a reference book。词典是供查阅的工具书，即第四项。",
+         "point": "vocab"
+        }
+       ]
+      },
+      {
+       "text": "Rosa needs an official transcript showing the courses she has taken and the grades she received.",
+       "look": "passage",
+       "items": [
+        {
+         "stem": "What document does Rosa need?",
+         "options": [
+          "A plan of courses to take in the future",
+          "A certified record of academic results",
+          "A request to revise grades already received",
+          "A guide explaining how courses award grades"
+         ],
+         "answer": 1,
+         "why": "依据是 showing the courses she has taken and the grades she received。official transcript 是正式的成绩记录，即第二项。",
+         "point": "vocab"
+        }
+       ]
+      },
+      {
+       "text": "The bursar approved a fee waiver, so the student does not have to pay the application charge.",
+       "look": "passage",
+       "items": [
+        {
+         "stem": "What does the waiver provide?",
+         "options": [
+          "An extension of the application payment deadline",
+          "A refund of a previously paid application charge",
+          "Permission not to pay the specified charge",
+          "A receipt proving that the charge was paid"
+         ],
+         "answer": 2,
+         "why": "依据是 does not have to pay the application charge。fee waiver 是免付这笔申请费，即第三项；第二项的退款要先付过钱。",
+         "point": "vocab"
+        }
+       ]
+      },
+      {
+       "text": "The syllabus lists the course topics, required readings, and dates of assessments.",
+       "look": "passage",
+       "items": [
+        {
+         "stem": "What is the syllabus?",
+         "options": [
+          "A document outlining the course and its schedule",
+          "A record of results from completed assessments",
+          "A collection of answers to the required readings",
+          "An application to change assessment dates"
+         ],
+         "answer": 0,
+         "why": "依据是 lists the course topics, required readings, and dates of assessments。syllabus 是介绍课程内容和安排的大纲，即第一项。",
+         "point": "vocab"
+        }
+       ]
+      },
+      {
+       "text": "The rubric awards marks for evidence, organization, and accurate use of sources.",
+       "look": "passage",
+       "items": [
+        {
+         "stem": "What does the rubric specify?",
+         "options": [
+          "The marks one assignment has already received",
+          "The order in which sources must be read",
+          "The evidence supporting one particular conclusion",
+          "The criteria used to assess the work"
+         ],
+         "answer": 3,
+         "why": "依据是 awards marks for evidence, organization, and accurate use of sources。rubric 列出的是评分标准，即第四项。",
+         "point": "vocab"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'd like to study the old student newsletters for my project."
+         },
+         {
+          "who": "B",
+          "text": "The archive has them, but they're not ordinary loans. They stay in the reading room."
+         },
+         {
+          "who": "A",
+          "text": "Can I reserve a time to consult them?"
+         },
+         {
+          "who": "B",
+          "text": "Yes. Tell the archive staff which years you need, and they'll prepare the folders."
+         },
+         {
+          "who": "A",
+          "text": "So I shouldn't place a regular book hold?"
+         },
+         {
+          "who": "B",
+          "text": "That's right. This is a request to consult archival material, not to borrow a book."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What service is the student arranging?",
+         "options": [
+          "Renewal of newsletters already borrowed",
+          "Access to historical material kept for consultation",
+          "Delivery of archived folders to the student’s home",
+          "Placement of an ordinary hold on a newsletter"
+         ],
+         "answer": 1,
+         "why": "依据是 The archive has them 和 a request to consult archival material。学生要预约在阅览室查阅旧档案，即第二项。",
+         "point": "scene"
+        },
+        {
+         "stem": "What does the employee distinguish?",
+         "options": [
+          "Borrowing complete folders from borrowing individual newsletters",
+          "Renewing an existing loan from placing a new hold",
+          "Consulting records from borrowing a book",
+          "Using current newsletters from reading those published earlier"
+         ],
+         "answer": 2,
+         "why": "依据是 This is a request to consult archival material, not to borrow a book。工作人员区分的是查阅档案和借书，即第三项。",
+         "point": "scene"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'm choosing my courses with my advisor. Can this statistics elective count toward my major?"
+         },
+         {
+          "who": "B",
+          "text": "It can, but check the prerequisite. Have you completed the introductory mathematics course?"
+         },
+         {
+          "who": "A",
+          "text": "Yes. It's on my transcript."
+         },
+         {
+          "who": "B",
+          "text": "Then ask your advisor to confirm the credits. Are you adding it or replacing another course?"
+         },
+         {
+          "who": "A",
+          "text": "Understood. I want to add it to my study plan, not drop anything."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What matter is the student trying to resolve?",
+         "options": [
+          "Whether a chosen course can satisfy degree requirements",
+          "Whether to withdraw from introductory mathematics",
+          "Whether prior mathematics credits can replace the statistics course",
+          "Whether to remove statistics credits from the study plan"
+         ],
+         "answer": 0,
+         "why": "依据是 Can this statistics elective count toward my major? 和 confirm the credits。学生想确认这门课能否计入专业要求，即第一项。",
+         "point": "scene"
+        },
+        {
+         "stem": "Why is the transcript mentioned?",
+         "options": [
+          "To request permission to withdraw from statistics",
+          "To cancel the introductory course registration",
+          "To change grades from the mathematics course",
+          "To show completion of an earlier required course"
+         ],
+         "answer": 3,
+         "why": "依据是 Have you completed the introductory mathematics course? 和 It's on my transcript。成绩单证明先修课已经修完，即第四项。",
+         "point": "scene"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

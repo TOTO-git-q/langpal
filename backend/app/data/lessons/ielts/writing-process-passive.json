@@ -1,0 +1,64 @@
+{
+ "id": "writing-process-passive",
+ "title": "过程描述的语态",
+ "goal": "能按动作主体选择语态，并用时间从句连接步骤。",
+ "skill": "写作", "exam": "雅思 IELTS Academic", "mastery": "once",
+ "points": [
+  {"id": "voice", "label": "按动作主体选择主动或被动语态"},
+  {"id": "sequence", "label": "用时间从句连接操作步骤"}
+ ],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "写作过程描述课的内容与教学规格"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [
+   {"p": "过程描述的主语有三种：接受操作的材料，执行操作的设备，自己发生变化的生物。用哪种语态，取决于主语和动作的关系。"},
+   {"box": "The mixture is heated.\nA pump moves the liquid.\nThe seed germinates."},
+   {"p": "mixture 是被加热的材料，用被动式。pump 是做事的设备，用主动式。germinate 是种子自己发芽，用主动式。"}
+  ]},
+  {"id": "voice", "type": "table", "title": "动作主体与语态", "cols": ["关系", "结构", "例句"], "rows": [
+   ["材料接受加工", "be heated", "The mixture is heated in a tank."],
+   ["材料接受切割", "be cut", "The sheets are cut into strips."],
+   ["材料接受过滤", "be filtered", "The liquid is filtered through sand."],
+   ["材料接受包装", "be packed", "The powder is packed in bags."],
+   ["设备执行操作", "active + object", "A pump moves the liquid."],
+   ["设备执行操作", "active + object", "Rollers flatten the sheets."],
+   ["生物自行变化", "intransitive verb", "The seed germinates."],
+   ["自然变化", "intransitive verb", "The warm air rises."]
+  ]},
+  {"id": "phrases", "type": "table", "title": "介词短语", "cols": ["功能", "表达", "例句"], "rows": [
+   ["地点", "in a tank", "The mixture is heated in a tank."],
+   ["路径", "through a filter", "The liquid passes through a filter."],
+   ["动作执行者", "by a pump", "The liquid is moved by a pump."],
+   ["成品形式", "into strips", "The sheets are cut into strips."]
+  ]},
+  {"id": "time", "type": "table", "title": "先后从句", "cols": ["关系", "结构", "例句"], "rows": [
+   ["先洗后切", "after + clause", "After the fruit is washed, it is sliced."],
+   ["先磨后加水", "before + clause", "The grain is ground before water is added."],
+   ["完成后继续", "once + clause", "Once the mixture cools, it is packed."],
+   ["达到条件后继续", "when + clause", "When the liquid boils, it enters the pipe."]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["voice"], "groups": [{"items": [
+   {"stem": "A pump moves water into a tank. Choose the sentence with the pump as subject.", "options": ["The pump moves the water into the tank.", "The pump is moved by water into the tank.", "The water is moved into the tank by the pump.", "The pump is moved water into the tank."], "answer": 0, "why": "pump 是执行 moves 的设备，用主动式，即第一项。第三项句子本身正确，但主语是 water。", "point": "voice"},
+   {"stem": "A machine cuts sheets into strips. Choose the sentence with sheets as subject.", "options": ["The sheets cut into strips by a machine.", "The sheets are cut into strips by a machine.", "A machine cuts the sheets into strips.", "The sheets are cutting into strips by a machine."], "answer": 1, "why": "sheets 接受切割，用 be + 过去分词，即第二项。第三项句子正确，但主语是 machine。", "point": "voice"},
+   {"stem": "Warm air rises naturally. Choose the accurate sentence.", "options": ["The warm air is risen naturally.", "The warm air raises naturally.", "The warm air rises naturally.", "The warm air is raised naturally."], "answer": 2, "why": "rise 是不及物动词，没有被动式。空气自己上升，用 rises，即第三项。第二项 raises 是及物动词，后面要接宾语。", "point": "voice"},
+   {"stem": "A filter removes particles from liquid. Choose the sentence with particles as subject.", "options": ["The particles remove liquid from the filter.", "The particles are removed from the filter by liquid.", "The filter removes the particles from the liquid.", "The particles are removed from the liquid by a filter."], "answer": 3, "why": "particles 是被移除的对象，用被动式，即第四项。第二项把 filter 和 liquid 的位置弄反了。", "point": "voice"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["sequence"], "groups": [{"items": [
+   {"stem": "Fruit is washed first and then sliced. Choose the sentence preserving this order.", "options": ["After the fruit is washed, it is sliced.", "Before the fruit is washed, it is sliced.", "After the fruit is sliced, it is washed.", "When the fruit is sliced, it is washed."], "answer": 0, "why": "after 从句中的 washing 先发生，主句中的 slicing 后发生。", "point": "sequence"},
+   {"stem": "The mixture cools first and is packed next. Choose the matching sentence.", "options": ["Once the mixture is packed, it cools.", "Once the mixture cools, it is packed.", "Before the mixture cools, it is packed.", "After the mixture is packed, it cools."], "answer": 1, "why": "once 引出完成的 cooling，随后进行 packing。", "point": "sequence"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["voice", "sequence"], "sets": [{"id": "set-a", "groups": [
+   {"text": "In a paper process, rollers flatten the wet sheets. The flattened sheets then pass through a dryer. After they are dry, a machine cuts them into strips.", "items": [
+    {"stem": "Which sentence describes the rollers' action?", "options": ["Rollers flatten the sheets while they are wet.", "Rollers are flattened by the wet sheets.", "The wet sheets are flattened by a dryer.", "Rollers flatten the sheets after they are dry."], "answer": 0, "why": "原文 rollers flatten the wet sheets：rollers 执行动作，纸张此时还是湿的，即第一项。第四项弄错了顺序，干燥在压平之后。", "point": "voice"},
+    {"stem": "Which sentence uses sheets as the subject of cutting?", "options": ["A machine cuts the sheets into strips.", "The sheets are cut into strips by a machine.", "The sheets are cut into strips by the dryer.", "The sheets are cut into strips before drying."], "answer": 1, "why": "原文 a machine cuts them into strips。以 sheets 为主语时用被动式 are cut，即第二项。第三项把切割的设备写成了 dryer。", "point": "voice"},
+    {"stem": "Complete the sentence about drying and cutting.", "lead": "After", "chunks": ["the sheets", "are dry,", "a machine", "cuts them into strips"], "tail": ".", "extra": ["before drying"], "why": "先完成 drying，再由机器切割。", "point": "sequence"},
+    {"stem": "Complete the sentence about flattening and drying.", "lead": "The sheets", "chunks": ["pass through", "a dryer after", "the rollers", "flatten them"], "tail": ".", "extra": ["before flattening"], "why": "rollers 先压平纸张，然后纸张通过 dryer。", "point": "sequence"}
+   ]},
+   {"text": "In a seed cycle, a seed absorbs water and germinates. The young plant grows and later produces flowers. After the flowers develop, seeds form and the cycle begins again.", "items": [
+    {"stem": "Which sentence correctly describes germination?", "options": ["The seed is germinated by the water.", "The seed germinates before absorbing water.", "The seed germinates after absorbing water.", "The water is absorbed after the seed germinates."], "answer": 2, "why": "原文 a seed absorbs water and germinates：种子先吸水，再自己发芽，用主动式，即第三项。第二项把先后弄反了。", "point": "voice"},
+    {"stem": "Which statement places seed formation after flower development?", "options": ["Flowers develop after seeds form.", "Seeds form before flowers develop.", "Flowers form before the plant grows.", "Seeds form after flowers develop."], "answer": 3, "why": "原文的 After the flowers develop 指明花形成在前，种子形成在后。", "point": "sequence"},
+    {"stem": "Complete a sentence about the seed's action.", "lead": "The seed", "chunks": ["absorbs", "water and", "then", "germinates"], "tail": ".", "extra": ["is absorbed"], "why": "seed 是 absorbs 和 germinates 的主语，水是吸收的对象。", "point": "voice"},
+    {"stem": "Complete a sentence about the stages before flowering.", "lead": "The young plant", "chunks": ["grows before it", "produces", "its", "flowers"], "tail": ".", "extra": ["after seed formation"], "why": "young plant 先 grows，再 produces flowers。", "point": "sequence"}
+   ]}
+  ]}]}
+ ]
+}

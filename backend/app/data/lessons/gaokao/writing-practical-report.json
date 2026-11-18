@@ -1,0 +1,59 @@
+{
+ "id": "writing-practical-report", "title": "活动报道", "goal": "能报道已经发生的活动及其具体结果。", "skill": "写作", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "event", "label": "按导语与过程组织已经发生的活动"}, {"id": "result", "label": "用具体事实说明活动结果"}],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "活动报道的内容与知识点"}],
+ "cards": [
+  {"id": "structure", "type": "table", "title": "结构", "cols": ["部分", "内容", "例句"], "rows": [
+   ["导语", "写明时间、地点、活动和目的", "On Friday, students held a book exchange in the hall to share books."],
+   ["过程", "按顺序写主要行动", "They displayed books and discussed their choices."],
+   ["结果", "用具体事实说明活动成果", "By the end, students had exchanged 60 books."],
+   ["感受", "说明参与者对活动的感受", "Participants said they enjoyed discovering new titles."]
+  ]},
+  {"id": "expressions", "type": "table", "title": "常用表达", "cols": ["用途", "表达", "例句"], "rows": [
+   ["导语", "时间 + 地点 + 已发生的活动", "On Friday, students held an exchange in the hall."],
+   ["目的", "to + 动词原形", "They held the event to share books."],
+   ["过程", "过去式动词", "Students displayed their books and discussed their choices."],
+   ["结果", "by the end + 已完成的结果", "By the end, students had exchanged 60 books."],
+   ["感受", "participants said + 过去经历", "Participants said they enjoyed the discussions."]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [
+   {"p": "假定学校周五在大厅举办图书交换活动，以分享读物。报道过程、结果和参与者感受。"},
+   {"box": "Report the event and its purpose.\nDescribe the process and result.\n\nOn Friday, students held a book exchange in the school hall to share books. First, they arranged their books on tables and added notes about their favorite titles. Visitors then read the notes and discussed their choices with the owners. By the end of the afternoon, students had exchanged 60 books. Several participants said they enjoyed finding books they might not otherwise have chosen. The conversations also gave classmates a chance to learn about one another's reading interests during the event."},
+   {"p": "导语交代时间、地点、活动和目的。过程按先摆放、再交流的顺序写。交换 60 本书是具体结果，参与者的话说明感受。"},
+   {"box": "Notice: Book Exchange\nA book exchange will take place in the school hall this Friday to help students share books. Please bring a book and a short note about it. Students may place their books on the tables before the event begins.\nThe Reading Club"},
+   {"p": "通知用 will take place 说明未来安排，并提出参加要求。报道用 held、arranged 和 exchanged 说明已经发生的活动及结果。"}
+  ]},
+  {"id": "errors", "type": "table", "title": "常见错误", "cols": ["问题", "不足", "修改"], "rows": [
+   ["时态不符", "The exchange will be held on Friday.（活动已结束）", "The exchange was held on Friday."],
+   ["通知与报道混淆", "Please bring books to the hall on Friday.", "Students brought books to the hall on Friday."],
+   ["结果空泛", "The exchange was successful.", "Students exchanged 60 books during the event."],
+   ["过程缺失", "Students attended the exchange.", "Students displayed books and discussed their choices."]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["event", "result"], "groups": [
+   {"text": "假定学校上周六在校园举行植树活动，学生种下 20 棵树。", "items": [
+    {"stem": "Which lead reports the completed event?", "options": ["Students planted trees on campus last Saturday.", "Students will plant trees on campus next Saturday.", "Please plant trees on campus next Saturday morning.", "The school invites students to a future tree planting."], "answer": 0, "why": "planted 和 last Saturday 说明活动已经发生。", "point": "event"},
+    {"stem": "Which sentence gives a specific result?", "options": ["Students discussed the plan for planting trees.", "Students planted 20 trees during the activity.", "Students arrived at the campus on Saturday.", "Students prepared tools for the planting activity."], "answer": 1, "why": "情境说学生种下 20 棵树。第二项用这一数字说明活动结果。", "point": "result"}
+   ]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["event", "result"], "groups": [{"items": [
+   {"stem": "Report where students held an exchange.", "lead": "Students", "chunks": ["held", "a book exchange", "in", "the school"], "tail": "hall.", "extra": ["holding"], "why": "held a book exchange in the school hall 报道已发生的活动和地点。", "point": "event"},
+   {"stem": "Report the number of books exchanged.", "lead": "Students", "chunks": ["exchanged", "sixty", "books", "during the"], "tail": "event.", "extra": ["exchanging"], "why": "exchanged sixty books 用数量说明结果。", "point": "result"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["event", "result"], "sets": [{"id": "set-a", "groups": [
+   {"text": "假定学校上周五在图书馆举行读书交流，学生分享书评，活动结束时交换了 40 本书。", "items": [
+    {"stem": "Which lead reports the completed event?", "options": ["Students held a reading exchange in the library last Friday.", "Students will hold a reading exchange in the library next Friday.", "Students should bring reviews to the library before the exchange.", "Students may register for a future reading exchange in the library."], "answer": 0, "why": "held 和 last Friday 说明活动已经发生，并交代地点。", "point": "event"},
+    {"stem": "Which sentence reports a concrete result?", "options": ["Students prepared reviews for the reading exchange.", "Students exchanged 40 books by the end of the event.", "Students planned to meet in the library for the event.", "Students arrived at the library before the exchange."], "answer": 1, "why": "活动结束时交换了 40 本书。第二项用这一数字报道结果。", "point": "result"}
+   ]},
+   {"text": "假定学生上周日在公园清理步道，目的是改善环境；活动结束时装满了 12 袋垃圾。", "items": [
+    {"stem": "Which sentence reports the event and its purpose?", "options": ["Students will clean the park path next Sunday morning.", "Students should bring bags to the park on Sunday morning.", "Students cleaned the park path to improve the environment.", "Students are invited to plan a future clean-up at the park."], "answer": 2, "why": "cleaned 表示已完成的行动，to improve the environment 说明目的。", "point": "event"},
+    {"stem": "Which sentence gives evidence of the clean-up result?", "options": ["Students discussed the park's paths before cleaning.", "Students met at the park entrance before cleaning.", "Students brought empty bags to the park on Sunday.", "Students filled 12 bags with litter during the clean-up."], "answer": 3, "why": "活动结束时装满了 12 袋垃圾。第四项用这一数字说明清理的结果。", "point": "result"}
+   ]},
+   {"items": [
+    {"stem": "Report a completed event in the school hall.", "lead": "Students", "chunks": ["held", "an exchange", "in", "the school"], "tail": "hall.", "extra": ["holding"], "why": "held an exchange 说明活动已经举行。", "point": "event"},
+    {"stem": "Report the number of trees planted.", "lead": "Students", "chunks": ["planted", "twenty", "trees", "during the"], "tail": "event.", "extra": ["planting"], "why": "planted twenty trees 用数量说明活动结果。", "point": "result"},
+    {"stem": "Report the purpose of a completed clean-up.", "lead": "Students", "chunks": ["cleaned", "the path", "to improve", "the"], "tail": "environment.", "extra": ["cleaning"], "why": "cleaned the path 说明已发生的活动，to improve 引出目的。", "point": "event"},
+    {"stem": "Report how many bags of litter were filled.", "lead": "Students", "chunks": ["filled", "twelve bags", "with", "the collected"], "tail": "litter.", "extra": ["filling"], "why": "filled twelve bags with the collected litter 写明成果。", "point": "result"}
+   ]}
+  ]}]}
+ ]
+}

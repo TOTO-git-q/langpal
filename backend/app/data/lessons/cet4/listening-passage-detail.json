@@ -1,0 +1,71 @@
+{
+ "id": "listening-passage-detail",
+ "title": "篇章事实细节题",
+ "goal": "听出明确的事实，并核对事实的对象和条件。",
+ "skill": "听力",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "detail", "label": "听出定义和明确陈述的事实"},
+  {"id": "qualifier", "label": "核对细节中的对象与限定条件"}
+ ],
+ "sources": [
+  {"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "听力篇章的材料规格"}
+ ],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "事实细节题询问录音中明确说明的定义、行动、发现或条件。题干中的人物和对象指明要找哪一条信息。"},
+   {"box": "What does the speaker mean by a shared workspace?\nWhat did the researchers find?"},
+   {"p": "答案以录音中的陈述为依据。听到 but 或 for example 时，要核对转折或例子说的是哪个对象。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定对象", "d": "听清题干询问的人物或事物。What did the volunteers do? 问志愿者的行动。"},
+   {"t": "2　寻找事实", "d": "将对象与录音中的动作或定义对应。Volunteers sorted the books. 给出志愿者的行动。"},
+   {"t": "3　核对条件", "d": "保留时间、范围和条件。Books were collected on Saturdays. 限定了收集时间。"},
+   {"t": "4　比较选项", "d": "核对选项中的主体和关系。Staff delivered the books. 描述工作人员的行动，不回答志愿者做了什么。"}
+  ]},
+  {"id": "facts", "type": "table", "title": "细节与限定条件", "cols": ["类型", "录音", "核对内容"], "rows": [
+   ["定义", "A seed library lends seeds for planting.", "seed library 的用途是借出种子"],
+   ["人物行动", "Mina recorded the results; Lee checked them.", "Mina 记录，Lee 核对"],
+   ["研究发现", "The team found fewer errors after a break.", "休息后错误减少"],
+   ["具体条件", "Members may borrow tools on weekdays.", "借用时间限于工作日"],
+   ["转折", "The first room is quiet, but the second is brighter.", "明亮的是第二个房间"],
+   ["举例", "Some materials, for example glass, can be reused.", "glass 是可再利用材料的例子"]
+  ], "note": "转折后和例子中的信息要对应到所说的对象。选项保留了录音中的条件，才与原意一致。"},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A neighborhood workshop lends tools to its members. A volunteer named Nora checks each tool when it is returned. Another volunteer, Ben, records the date of the return. Members may borrow hand tools for a week, but electric tools are available for only two days. The workshop asks members to report damage when they return an item."},
+   {"box": "What does Nora do?\n1. She records the date of each loan.\n2. She checks tools after they are returned.\n3. She lends electric tools for a week.\n4. She reports damage to the members."},
+   {"p": "Nora checks each tool when it is returned 说明 Nora 在工具归还时检查工具，第二项是同义改写。记录日期的是 Ben。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "选项", "依据核对"], "rows": [
+   ["人物替换", "Ben checks the returned tools.", "检查者是 Nora"],
+   ["挪用邻句", "Nora records the return date.", "记录日期的是 Ben"],
+   ["遗漏条件", "All tools can be borrowed for a week.", "电动工具只可借两天"],
+   ["关系改变", "Members report damage to Nora before borrowing.", "录音要求归还时报告损坏"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["detail", "qualifier"], "groups": [
+   {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "A repair cafe is a meeting where people bring damaged household objects and work with volunteers to repair them."}]}, "items": [{"stem": "What is a repair cafe?", "options": ["A meeting where people repair damaged household objects", "A meeting where volunteers sell damaged household objects", "A meeting for collecting undamaged household objects", "A cafe where volunteers bring household objects for repair"], "answer": 0, "why": "bring damaged household objects and work with volunteers to repair them 定义了这种聚会，对应第一项。", "point": "detail"}]},
+   {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "At the garden, Julia waters the young plants, while Sam labels the containers."}]}, "items": [{"stem": "What does Sam do?", "options": ["He waters the young plants.", "He puts labels on the containers.", "He moves the plants into containers.", "He removes labels from the garden."], "answer": 1, "why": "Sam labels the containers 说明 Sam 为容器贴标签，对应第二项。", "point": "qualifier"}]},
+   {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "The researchers compared two lists. They found that people recalled more words from the shorter list."}]}, "items": [{"stem": "What did the researchers find?", "options": ["People recalled fewer words from both lists.", "People recalled the same words from both lists.", "People remembered more words from the shorter list.", "People recalled more words from the longer list."], "answer": 2, "why": "recalled more words from the shorter list 表示较短的词表带来更多回忆，对应第三项。", "point": "detail"}]},
+   {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "Visitors can use the reading room every day, but the archive is open only on Tuesdays."}]}, "items": [{"stem": "When is the archive open?", "options": ["On every day of the week", "On every day except Tuesday", "Only when the reading room is closed", "Only on Tuesdays"], "answer": 3, "why": "the archive is open only on Tuesdays 限定了档案室的开放时间，对应第四项。", "point": "qualifier"}]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["detail", "qualifier"], "groups": [
+   {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "A community group has made a small collection of recorded stories. A story collector is a person who interviews local residents about their experiences and preserves the recordings. Volunteers ask each speaker for permission before recording. They also explain where the recording will be kept and who will be able to hear it. A speaker may choose which parts of an interview can be included in the collection. After each interview, a volunteer prepares a short written summary. Another volunteer checks the summary against the recording, paying particular attention to names and dates. The speaker may read the summary before it is made available to other people. The group stores the recordings in a library room, but written summaries are available online. For example, one summary describes how a family opened a bakery. Another concerns a school concert. The recordings themselves can be heard at the library on Friday afternoons. Library staff arrange a quiet place for visitors to listen and provide headphones. Visitors who want to find a particular story can search the summaries by subject. The group plans to add more interviews after volunteers have checked the existing summaries for accuracy. It also welcomes suggestions for subjects from residents. Each suggestion is discussed with a possible speaker before an interview is arranged. The collection gives residents access to accounts of events as remembered by the people who took part in them."}]}, "items": [
+    {"stem": "What does a story collector do?", "options": ["Interviews residents and keeps recordings", "Checks summaries against recordings", "Writes short summaries of residents' stories", "Checks permission after recording stories"], "answer": 0, "why": "interviews local residents ... and preserves the recordings 定义了 story collector，对应第一项。", "point": "detail"},
+    {"stem": "Where can people hear the recordings?", "options": ["Online at any time during the week", "In the library on Friday mornings", "In the library on Friday afternoons", "Online after searching summaries by subject"], "answer": 2, "why": "heard at the library on Friday afternoons 指明地点与时间，对应第三项。", "point": "qualifier"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 8, "pass": 0.75, "points": ["detail", "qualifier"], "sets": [{"id": "set-a", "groups": [
+   {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "A town museum has started a project to document objects used in local shops. The project team calls an object record a short description of an item, including its use and the name of the person who supplied it. The team does not need to own an object in order to record it. Some owners lend objects for display, while others permit the team to photograph them at home. For example, a shopkeeper lent an old set of scales, but kept the wooden counter where it had stood. A volunteer named Helen takes photographs of the objects at the museum. Her colleague Daniel writes the descriptions after speaking with their owners. Both volunteers check the spelling of names before a record is published. The records are available on the museum website, although the photographs of some privately owned objects are shown only inside the museum. The owners chose that condition when they joined the project. Visitors can see the displayed objects from Wednesday to Sunday. On Mondays and Tuesdays, the building is closed to visitors while staff prepare displays and update records. The museum also invites residents to suggest objects for future records. Staff contact each owner to discuss whether a photograph or a loan would be suitable. The project aims to preserve information about working life as well as the objects themselves. Its descriptions include the stories owners choose to share about how the items were used."}]}, "items": [
+    {"stem": "What is an object record?", "options": ["A list of every item that the museum owns", "A brief description of an item's use and supplier", "A photograph of an item taken at its owner's home", "A loan of an item for display in the museum"], "answer": 1, "why": "a short description of an item, including its use and the name of the person who supplied it 定义了记录，对应第二项。", "point": "detail"},
+    {"stem": "What does Daniel do for the project?", "options": ["He photographs every object at its owner's home.", "He lends the scales and keeps the counter.", "He prepares displays while Helen interviews owners.", "He writes descriptions after talking to owners."], "answer": 3, "why": "Daniel writes the descriptions after speaking with their owners 指出他的工作，对应第四项。", "point": "qualifier"},
+    {"stem": "Where are some privately owned objects' photographs shown?", "options": ["Only inside the museum", "Only on the website", "Online and in the museum", "In the museum on Mondays"], "answer": 0, "why": "shown only inside the museum 限定了部分照片的展示地点，对应第一项。", "point": "qualifier"}
+   ]},
+   {"audio": {"intro": "Listen to a talk.", "lines": [{"who": "A", "text": "A college team recently studied how the arrangement of a study space affects the use of that space. For this project, a shared table meant a table that several people could use at the same time without booking it. The team observed two rooms in the same building over several weeks. One room contained shared tables; the other had individual desks. Both rooms were open for the same hours, and students could choose either room. The researchers counted how many seats were occupied at different times. They found that the shared-table room had more occupied seats during the afternoon, while the individual-desk room was busier in the morning. The count did not show why students chose a particular room. The team also collected comments from students who agreed to answer a short questionnaire. Some students said they liked working near friends. Others valued a place where they could read without conversation. The researchers did not ask students to take a test or compare their grades. After the observation period, the college kept both rooms open and added signs explaining the different arrangements. It also moved a shelf away from the entrance to make the shared room easier to enter. Staff plan to repeat the seat count during another term. They will compare the new count with the earlier observations before deciding whether any further change is needed. The project describes the use of these rooms."}]}, "items": [
+    {"stem": "What did the researchers find in the afternoon?", "options": ["Both rooms had the same number of occupied seats.", "The individual-desk room had the larger attendance.", "More seats were occupied in the shared-table room.", "Most students had booked an individual desk."], "answer": 2, "why": "shared-table room had more occupied seats during the afternoon 给出研究发现，对应第三项。", "point": "detail"},
+    {"stem": "What did the team collect from students who agreed?", "options": ["Their grades from a college test", "Their answers to a questionnaire", "Their bookings for shared tables", "Their counts of the occupied seats"], "answer": 1, "why": "collected comments from students who agreed to answer a short questionnaire 说明自愿回答的学生提供了意见，对应第二项。", "point": "qualifier"},
+    {"stem": "What did the college do after the observation?", "options": ["It replaced all individual desks with shared tables.", "It moved a shelf closer to the entrance.", "It used students' grades to select a room.", "It added signs describing the room arrangements."], "answer": 3, "why": "added signs explaining the different arrangements 说明观察后的措施，对应第四项。", "point": "detail"}
+   ]}
+  ]}]} 
+ ]
+}

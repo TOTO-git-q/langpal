@@ -1,0 +1,47 @@
+{
+ "id": "writing-continuation-cohesion", "title": "叙事中的句间衔接", "goal": "能用时间表达与清晰的指代连接叙事。", "skill": "写作", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "time", "label": "用时间表达连接相邻事件"}, {"id": "reference", "label": "保持人物及事件的指代清晰"}],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "叙事衔接的教学内容与知识点"}],
+ "cards": [
+  {"id": "overview", "type": "text", "title": "概述", "body": [{"p": "时间表达说明事件是先后发生还是同时发生。代词和 this、that 指代前文时，所指的人物、物品或事件要清楚。"}, {"box": "Mina tied the parcel. Then she carried it to the door. Meanwhile, her brother opened the gate."}, {"p": "Then 标明打包之后的动作，Meanwhile 引出同时发生的动作。she 指 Mina，it 指包裹。"}]},
+  {"id": "time", "type": "table", "title": "时间衔接", "cols": ["关系", "表达", "例句"], "rows": [
+   ["先后", "then", "She folded the map. Then she put it in her bag."], ["稍后", "moments later", "He knocked. Moments later, the door opened."],
+   ["同时", "meanwhile", "Mia packed the food. Meanwhile, Leo filled the bottles."], ["此前", "earlier", "The path was wet. Earlier, rain had fallen there."],
+   ["之后", "afterward", "They repaired the sign. Afterward, they put it back."], ["最终", "finally", "She searched the desk and the shelf. Finally, she found the key."]
+  ]},
+  {"id": "reference", "type": "table", "title": "人物与事件指代", "cols": ["所指", "表达", "例句"], "rows": [
+   ["单个人物", "she 或 he", "Maya picked up the book. She opened it."], ["两个人物", "they", "Ava and Ben found the map. They followed it."],
+   ["换场后的人物", "重复姓名", "Mia left the room. In the garden, Lena greeted Mia."], ["前述动作", "this", "The team repaired the bridge. This allowed the villagers to cross."],
+   ["前述事件", "that", "The meeting was cancelled. That disappointed the volunteers."], ["多个可能对象", "重复名词", "The box lay beside the bag. Mia lifted the box."]
+  ]},
+  {"id": "comparison", "type": "table", "title": "衔接辨析", "cols": ["情境", "不清楚的表达", "明确表达"], "rows": [
+   ["先折地图后收起", "She folded the map. Meanwhile, she put it away.", "She folded the map. Then she put it away."],
+   ["两人同时工作", "Mia packed. Then at the same time, Leo filled bottles.", "Mia packed. Meanwhile, Leo filled bottles."],
+   ["敲门后过片刻", "He knocked. Earlier, the door opened in response.", "He knocked. Moments later, the door opened."],
+   ["先修标牌后放回", "They repaired the sign. Then afterward, they put it back.", "They repaired the sign. Afterward, they put it back."],
+   ["两件物品中取盒子", "The box was beside the bag. She lifted it.", "The box was beside the bag. She lifted the box."],
+   ["Lena 向 Mia 道谢", "Mia helped Lena. She thanked her.", "Mia helped Lena. Lena thanked Mia."],
+   ["新场景中辨认来者", "Mia left. At the gate, Lena greeted her.", "Mia left. At the gate, Lena greeted Mia."],
+   ["明确指修桥的结果", "They repaired the bridge. It helped the village.", "They repaired the bridge. This allowed people to cross."]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [{"box": "The children carried the seedlings outside. They watered them immediately. Another group filled the empty pots at the same time.\nWhich connector introduces the other group's simultaneous action?\n1. Earlier\n2. Meanwhile\n3. Finally\n4. Afterward"}, {"p": "at the same time 说明两组孩子的动作同时进行。表示同时的连接词是 Meanwhile，即第二项。"}]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["time", "reference"], "groups": [{"items": [
+   {"stem": "First, the team dried the notice. Next, they displayed it. Which connector introduces the second action?", "options": ["Earlier, they displayed it.", "Afterward, they displayed it.", "Meanwhile, they displayed it.", "Previously, they displayed it."], "answer": 1, "why": "依据是 First 和 Next。展示在晾干之后，Afterward 表示先后，即第二项。", "point": "time"},
+   {"stem": "A bag lies beside a box. Mia lifts the box. Which sentence makes the object clear?", "options": ["Mia lifted the box beside the bag.", "Mia lifted it from beside the bag.", "Mia lifted the bag beside the box.", "Mia lifted one of them carefully."], "answer": 0, "why": "盒子和包挨在一起，用 it 或 one of them 分不清拿的是哪一个。第一项重复 the box，所指明确。", "point": "reference"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["time", "reference"], "groups": [{"items": [
+   {"stem": "Mia first closes the book and then puts it on the shelf.", "lead": "She", "chunks": ["closed", "the book", "and then", "put it"], "tail": "on the shelf.", "extra": ["putting"], "why": "and then 连接按先后发生的两个动作。", "point": "time"},
+   {"stem": "Two friends, Leo and Ava, return a map together.", "lead": "Leo", "chunks": ["and Ava", "found", "the map", "and returned"], "tail": "it together.", "extra": ["returning"], "why": "Leo and Ava 一起作主语，说明是两人一起归还。", "point": "reference"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["time", "reference"], "sets": [{"id": "set-a", "groups": [{"items": [
+   {"stem": "After Ella knocked, a neighbor opened the door a short time later. Which sentence preserves that order?", "options": ["Moments later, the neighbor opened the door.", "Earlier, the neighbor had opened the door.", "Before Ella knocked, the neighbor opened it.", "Meanwhile, the neighbor opened the door."], "answer": 0, "why": "a short time later 说明门在敲门后不久打开。Moments later 表示的正是这个关系，即第一项。第四项的 Meanwhile 表示同时。", "point": "time"},
+   {"stem": "While Omar filled bottles, Ana packed food. Which connector introduces Ana's simultaneous action?", "options": ["Earlier, Ana packed the food.", "Meanwhile, Ana packed the food.", "Afterward, Ana packed the food.", "Previously, Ana packed the food."], "answer": 1, "why": "依据是 While Omar filled bottles。两项工作同时进行，用 Meanwhile，即第二项。", "point": "time"},
+   {"stem": "A red folder and a blue folder were on the desk. Ben took the blue folder. Which sentence identifies the object?", "options": ["Ben picked one of them up from the desk.", "Ben took the red folder from the desk.", "Ben took the blue folder from the desk.", "Ben took both folders from the desk."], "answer": 2, "why": "桌上有两个文件夹，one of them 分不清是哪一个。第三项重复 the blue folder，所指明确。", "point": "reference"},
+   {"stem": "Mia repaired a bridge. The repair allowed people to cross. Which sentence makes the link explicit?", "options": ["It allowed the people to cross the bridge.", "People crossed before Mia repaired the bridge.", "Mia repaired the bridge after people had crossed.", "This repair allowed people to cross the bridge."], "answer": 3, "why": "This repair 明确指前文修桥这件事，并说明它的结果，即第四项。第一项的 It 可以指桥，也可以指修桥。", "point": "reference"},
+   {"stem": "After closing the gate, a child walks home.", "lead": "She", "chunks": ["closed", "the gate", "and then", "walked"], "tail": "home.", "extra": ["walking"], "why": "and then 表明关门后走回家。", "point": "time"},
+   {"stem": "After checking a list, a volunteer calls a name.", "lead": "He", "chunks": ["checked", "the list", "and then", "called"], "tail": "a name.", "extra": ["calling"], "why": "and then 表示查看名单之后叫名字。", "point": "time"},
+   {"stem": "Mia helps Lena; Lena thanks Mia. Name the person who thanks Mia.", "lead": "Mia", "chunks": ["helped", "Lena,", "and Lena", "thanked"], "tail": "Mia.", "extra": ["thanking"], "why": "重复 Lena 明确道谢的人。", "point": "reference"},
+   {"stem": "Ava and Ben find and return a lost hat together.", "lead": "Ava", "chunks": ["and Ben", "found", "the hat", "and returned"], "tail": "it together.", "extra": ["returning"], "why": "Ava and Ben 一起作主语，说明是两人一起找到并归还帽子。", "point": "reference"}
+  ]}]}]}
+ ]
+}

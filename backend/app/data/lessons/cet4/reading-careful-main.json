@@ -1,0 +1,52 @@
+{
+ "id": "reading-careful-main", "title": "文章主旨与标题题", "goal": "概括全文的对象与核心判断，选择范围一致的标题。", "skill": "阅读", "exam": "大学英语四级（CET-4）", "mastery": "once",
+ "points": [{"id": "main", "label": "概括全文的对象与核心判断"}, {"id": "title", "label": "选择范围与全文一致的标题"}],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读教学依据"}],
+ "cards": [
+  {"id": "type", "type": "text", "title": "题型", "body": [{"p": "主旨题问全文讲什么对象、对它作出什么核心判断。标题题问哪个名称能覆盖全文的范围。"}, {"box": "What is the main idea of the passage?\nWhich is the best title for the passage?"}, {"p": "主题词是文章讨论的对象。核心判断是文章对这个对象的主要说明或观点。标题要覆盖各段的主要内容。"}]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　确定对象", "d": "找出反复讨论的对象。例如 repair cafe 是文章讨论的服务。"},
+   {"t": "2　概括各段", "d": "读首段、末段和各段的中心句。看各段讲的是 repair cafe 的作用还是限制。"},
+   {"t": "3　合并判断", "d": "把对象和各段共同支持的判断合成一句。例子只用来支持判断，范围比全文小。"},
+   {"t": "4　比较标题", "d": "看标题的对象和范围是否与全文一致。只讲一个例子的标题覆盖不了全文。"}
+  ]},
+  {"id": "scope", "type": "table", "title": "对象与核心判断", "cols": ["内容", "例", "作用"], "rows": [
+   ["对象", "A repair cafe offers help with broken household items.", "确定讨论的是维修服务"],
+   ["作用", "Volunteers show visitors how to mend a loose button.", "用具体例子说明帮助"],
+   ["限制", "The service cannot repair every electrical device.", "限定服务范围"],
+   ["概括", "A repair cafe helps with some repairs but has limits.", "合并服务的作用和限制"]
+  ], "note": "概括要覆盖文章的主要段落。单个例子只说明其中一部分。"},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "A school planted trees beside its playground to provide shade. Students helped water the young trees, and teachers arranged a schedule for their care. The trees will need time to grow, so the school also installed a temporary shelter.\n\nWhich is the best title?\n1. A School's Plans for Playground Shade\n2. The History of All School Playgrounds\n3. A Schedule for Watering One Tree\n4. Why Trees Need No Further Care"},
+   {"p": "文章讲操场遮阴，依次介绍种树、养护和临时遮棚。第一项同时覆盖长期和临时的措施。第三项只讲养护的一个细节。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "例", "排除方法"], "rows": [
+   ["局部例子", "A Schedule for Watering One Tree", "文章还讲了种树和临时遮棚"],
+   ["范围过宽", "The History of All School Playgrounds", "文章只讲一所学校的遮阴"],
+   ["只有主题词", "School Playgrounds", "缺少遮阴这一核心内容"],
+   ["判断相反", "Why Trees Need No Further Care", "文章安排了养护计划，说明树需要照料"]
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["main", "title"], "groups": [
+   {"text": "The village bus runs less often on Sundays. A shared timetable at each stop helps passengers plan around the reduced service.", "items": [{"stem": "What is the main idea?", "options": ["The timetable helps passengers plan for fewer Sunday buses.", "The village bus runs less often on Sundays.", "Sunday passengers have more services than weekday passengers.", "Passengers share timetables to replace Sunday buses."], "answer": 0, "why": "reduced service 和 helps passengers plan 共同说明时刻表应对周日班次减少。", "point": "main"}]},
+   {"text": "A bakery sells bread left from the previous day at a lower price. The bread remains available until it is sold, reducing the amount thrown away.", "items": [{"stem": "Which is the best title?", "options": ["Lower Prices for All Bakery Products", "Selling Older Bread to Reduce Waste", "Keeping Bread Fresh Until It Is Sold", "Why the Bakery Throws Away Old Bread"], "answer": 1, "why": "原文讲低价出售前一天的面包，从而减少丢弃。第二项概括了这两点。", "point": "title"}]},
+   {"text": "A music club lends instruments to beginners. Members also give short demonstrations so borrowers can learn basic care.", "items": [{"stem": "What is the main idea?", "options": ["The club sells instruments after each demonstration.", "Beginners teach members how to repair instruments.", "The club lends instruments and explains basic care.", "Members lend their own instruments to the club."], "answer": 2, "why": "lends instruments 和 demonstrations of basic care 共同概括俱乐部服务。", "point": "main"}]},
+   {"text": "A town lets residents report broken streetlights online. Staff still accept telephone reports from people who do not use the website.", "items": [{"stem": "Which is the best title?", "options": ["Replacing Every Streetlight in Town", "Reporting Streetlights by Telephone Only", "A Website for Reporting Broken Streetlights", "Two Ways to Report Streetlight Problems"], "answer": 3, "why": "原文讲了在线和电话两种报告方式，第四项把两者都概括进去。", "point": "title"}]}
+  ]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["main", "title"], "groups": [{"look": "passage", "text": "A museum has placed copies of selected paintings in a local hospital. The copies can be moved between waiting rooms, so different visitors can see them. Museum staff chose works with varied subjects and provided short descriptions. The original paintings remain in the museum, where visitors can examine their surfaces and colors more closely. The project gives hospital visitors access to images while preserving opportunities to see the originals.", "items": [
+   {"stem": "What is the main idea?", "options": ["The museum is moving all originals to the hospital.", "Visitors can study surfaces and colors in the hospital.", "The museum shares images through copies in a hospital.", "The hospital is replacing its waiting rooms with galleries."], "answer": 2, "why": "复制品放到医院，原作留在博物馆。博物馆借复制品把图像带到馆外。", "point": "main"},
+   {"stem": "Which is the best title?", "options": ["A Single Description of a Painting", "Sharing Museum Images in a Hospital", "Moving Paintings Between Waiting Rooms", "Removing Original Paintings from a Museum"], "answer": 1, "why": "第二项涵盖复制品进入医院及原作留在博物馆的整体安排。", "point": "title"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["main", "title"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A public swimming pool noticed that many families arrived at the same time on summer afternoons. The changing rooms became crowded, even though there was still space in the pool itself. Staff began recording arrival times for several weeks to find out when the pressure was greatest. They found that the busiest period lasted for about an hour after lunch.\n\nThe pool then introduced an online booking system for afternoon visits. Families could choose an arrival period before leaving home, and staff could limit the number of people entering together. A few places were kept for visitors who could not book online. The pool also displayed the day's available periods at its entrance.\n\nThe system did not make the building larger or add more changing rooms. It spread arrivals over a longer period, allowing people more room to change. Staff continued to watch how the system worked and invited visitors to report difficulties. The experience suggests that adjusting the timing of access can improve the use of an existing facility when crowding is concentrated at particular hours.", "items": [
+    {"stem": "What is the main idea of the passage?", "options": ["The pool spread arrivals to ease changing-room crowding.", "The pool enlarged every room to increase afternoon capacity.", "The pool recorded arrival times to find the busiest hour.", "The pool closed its entrance to visitors without bookings."], "answer": 0, "why": "游泳池先记录高峰，再安排到达时段，用分散到达缓解更衣室拥挤。", "point": "main"},
+    {"stem": "Which is the best title?", "options": ["The Construction of New Swimming Pools", "A Pool's Approach to Staggering Arrivals", "Recording Family Arrival Times at a Public Pool", "The Removal of All Afternoon Bookings"], "answer": 1, "why": "第二项概括调查高峰及分散到达的安排，范围与全文一致。", "point": "title"},
+    {"stem": "Which statement best expresses the passage's central point?", "options": ["Pool visitors should all arrive immediately after lunch.", "Online booking always requires a larger changing room.", "Changing arrival times can ease concentrated crowding.", "A single arrival period is suitable for every facility."], "answer": 2, "why": "末句指出调整进入时间可以缓解集中时段的拥挤，概括前文做法。", "point": "main"}
+   ]},
+   {"look": "passage", "text": "A small newspaper wanted to involve more residents in its coverage of local history. Its staff knew that many families kept photographs in albums, but those pictures were rarely seen outside their homes. The newspaper invited residents to bring photographs to a public collection day. Staff asked each owner to describe where and when the picture was taken, if that information was known.\n\nThe newspaper made a digital copy of each photograph and returned the original to its owner. Before publishing a copy, staff checked that the owner agreed to its use. They also compared descriptions with other available records, since memories of dates and places sometimes differed. When a detail remained uncertain, the newspaper identified it as uncertain in the caption.\n\nThe resulting series showed familiar streets at different times and included residents' accounts of changes in the area. The project made private images available to a wider audience while respecting the owners' decisions about publication. It also showed why photographs become more useful historical evidence when their origins are recorded and checked carefully.", "items": [
+    {"stem": "Which is the best title?", "options": ["Replacing Family Albums with a Newspaper", "Checking Dates in Residents' Memories", "Publishing Every Photograph Residents Brought", "Sharing Local History Through Family Photos"], "answer": 3, "why": "全文讲征集、核对和发表家庭照片，用来呈现地方历史。第四项覆盖了这一过程。", "point": "title"},
+    {"stem": "What is the main idea of the passage?", "options": ["A newspaper used checked family photos to record local history.", "A newspaper purchased every original photograph in the area.", "Residents agreed that all memories of dates were accurate.", "Staff replaced historical records with captions based on guesses."], "answer": 0, "why": "报纸征集照片、核对信息，并在说明中注明不确定之处。这些都是谨慎记录地方历史的做法。", "point": "main"},
+    {"stem": "Which title best covers the full project?", "options": ["One Family's Album and Its Storage", "Collecting and Checking Images of Local History", "Making Digital Copies of Old Photographs", "Choosing a Single Caption for One Photograph"], "answer": 1, "why": "第二项包括照片征集与资料核对，覆盖项目的主要阶段。", "point": "title"}
+   ]}
+  ]}]} 
+ ]
+}

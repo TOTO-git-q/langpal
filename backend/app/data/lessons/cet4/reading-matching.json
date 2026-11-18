@@ -1,0 +1,478 @@
+{
+  "id": "reading-matching",
+  "title": "长篇阅读（段落匹配） · 练习",
+  "goal": "依据具体线索和完整句意，将十条陈述对应到原文段落。",
+  "skill": "reading",
+  "exam": "大学英语四级（CET-4）",
+  "points": [
+    {
+      "id": "locate",
+      "label": "依据具体线索定位段落"
+    },
+    {
+      "id": "paraphrase",
+      "label": "识别陈述与原文的同义关系"
+    },
+    {
+      "id": "condition",
+      "label": "核对完整陈述的限制条件"
+    }
+  ],
+  "sources": [
+    {
+      "id": "c1",
+      "title": "CET笔试",
+      "url": "https://cet.neea.edu.cn/html1/folder/16113/1586-1.htm",
+      "used": "考试题型、题量与时间。"
+    },
+    {
+      "id": "c2",
+      "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+      "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+      "used": "材料长度、作答形式与总体评分描述；练习材料为原创。"
+    },
+    {
+      "id": "c3",
+      "title": "分数解释",
+      "url": "https://cet.neea.edu.cn/html1/folder/19081/5124-1.htm",
+      "used": "报道分与卷面权重的区别。"
+    }
+  ],
+  "cards": [
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "小测",
+      "minutes": 12,
+      "points": [
+        "locate",
+        "paraphrase",
+        "condition"
+      ],
+      "pass": 0.7,
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "label": "Match each statement to a paragraph. A paragraph may be used more than once or not at all.",
+              "look": "passage",
+              "text": "[A] A neighborhood association considering a shared workshop began with a simple question: what prevented residents from making small repairs at home? Its organizers expected to hear mostly about the price of tools. Instead, informal conversations revealed a mixture of difficulties. Some residents lacked a suitable table, others did not know where to obtain replacement parts, and several were afraid of damaging an object further. These answers changed the proposal. A room full of equipment would be useful only if people could also find guidance and a comfortable place to work.\n\n[B] Before looking for a building, the association ran three Saturday sessions in a borrowed classroom. Residents brought small household objects and described what they hoped to do. Organizers noted the activities requested rather than counting every visitor as a future member. Someone who wanted help once a year would not necessarily pay a monthly fee. The sessions also tested a rule that owners should remain beside their objects during a repair. This made the work an opportunity to learn, while preventing volunteers from becoming an unpaid collection and delivery service.\n\n[C] Finding a permanent room raised questions that were less exciting than choosing equipment. The association needed good lighting, reliable electricity, and enough space around each workbench. It also needed permission to use the room in the evening. A cheap basement was rejected because it could be reached only by a narrow staircase. A former shop was easier to enter but cost too much to heat. Eventually, a community center offered a room already used for daytime classes, on condition that all equipment could be locked away afterwards.\n\n[D] Storage shaped the workshop's collection. Large machines would have occupied most of the available cupboards, leaving little room for materials used in common repairs. The organizers therefore bought a modest range of hand tools and kept a list of larger equipment available elsewhere. Each tool had a marked storage place, so a missing item was visible before the room closed. This arrangement also helped newcomers find what they needed without repeatedly interrupting an experienced volunteer. The aim was a manageable collection, not the largest collection the budget could possibly buy.\n\n[E] Training began with tasks that appeared ordinary but could still be performed carelessly. Volunteers demonstrated how to hold an object securely, choose an appropriate tool, and stop when a job exceeded their experience. Nobody was expected to pretend to know every answer. When a resident brought in damaged electrical equipment, the group referred the case to a qualified repair service instead of attempting it. Turning work away was sometimes disappointing, but the organizers treated that decision as evidence of responsible judgment rather than a failure to offer help.\n\n[F] The first publicity campaign showed finished objects beside their proud owners. Although attractive, the photographs gave some newcomers the impression that every visit would produce a successful repair. The association changed its notices to include objects that could not be restored and explanations of why. One example concerned a missing part that was no longer available. Another involved damage that would cost more to repair than the owner wished to spend. These accounts made expectations more realistic and allowed visitors to value an informed decision even when they left with an unchanged object.\n\n[G] After two months, the attendance book showed that the early evening session was consistently quieter than the later one. Organizers initially considered closing it. A closer look at comments revealed that several regular users relied on those hours because they collected children later in the evening. Instead of judging the session only by its size, the group asked whether the timetable served different needs. It kept the early session but reduced the number of volunteers assigned to it. The change preserved access while avoiding unnecessary demands on the volunteer team.\n\n[H] Money remained a practical concern. A small membership payment covered basic supplies, but visitors paid separately for any replacement parts they needed. The association explained this distinction when people booked a place, rather than waiting until a repair was under way. Donations were welcome, although donated tools were checked before entering the collection. The treasurer published a short account each quarter, listing income and the broad categories of spending. Residents did not need to understand accounting to see whether the project was meeting its ordinary costs or using up its reserves.\n\n[I] The workshop gradually developed a record of recurring problems. Volunteers wrote brief notes about common faults, useful suppliers, and approaches that had failed. Names and contact details were kept out of these notes. A new volunteer could consult the record before attempting an unfamiliar task, and returning members did not have to explain every previous discussion again. However, the record was treated as a starting point rather than a guarantee. Objects that looked alike could differ internally, so each case still required inspection before any advice was applied.\n\n[J] Not all benefits could be counted as repaired objects. A visitor might learn to maintain an item before it broke, find a local supplier, or decide not to buy equipment for a job that was beyond their ability. The association added a brief question at the end of each visit: what had become clearer? Answers were grouped by theme instead of being converted into a single score. This gave the organizers a fuller picture of the workshop's value without pretending that confidence, knowledge, and money saved were interchangeable results.\n\n[K] The association's experience offered no universal formula for other neighborhoods. A community with many experienced volunteers might need different hours and equipment from one starting with very few. The most transferable lesson was the habit of making a limited proposal, observing its use, and revising it when evidence challenged an assumption. Sharing tools was only one part of the project. Sharing responsibility for how the service worked helped keep it useful. Growth was considered worthwhile only when the association could maintain the practical support on which existing users depended.",
+              "items": [
+                {
+                  "stem": "A less popular time slot was retained because it met the needs of a particular group.",
+                  "answer": 6,
+                  "why": "人数较少的早场因接孩子的使用者需要而保留，只减少志愿者配置。",
+                  "point": "condition",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F",
+                    "G",
+                    "H",
+                    "I",
+                    "J",
+                    "K"
+                  ]
+                },
+                {
+                  "stem": "The organizers distinguished occasional interest from willingness to pay regularly.",
+                  "answer": 1,
+                  "why": "试办时明确指出一年只需一次帮助的人未必愿交月费，并非将到场人数直接视为会员数。",
+                  "point": "paraphrase",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F",
+                    "G",
+                    "H",
+                    "I",
+                    "J",
+                    "K"
+                  ]
+                },
+                {
+                  "stem": "Users were asked what they had learned, even if the number of repaired objects did not show it.",
+                  "answer": 9,
+                  "why": "离场问题是哪些事情变清楚了，用于补充修好物品数量无法体现的收益。",
+                  "point": "paraphrase",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F",
+                    "G",
+                    "H",
+                    "I",
+                    "J",
+                    "K"
+                  ]
+                },
+                {
+                  "stem": "A limited amount of storage influenced the choice to buy mainly basic tools.",
+                  "answer": 3,
+                  "why": "储物空间不足使大型机器挤占常用物料位置，因此购买适量手工具。",
+                  "point": "locate",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F",
+                    "G",
+                    "H",
+                    "I",
+                    "J",
+                    "K"
+                  ]
+                },
+                {
+                  "stem": "Initial discussions revealed that the cost of equipment was only one obstacle.",
+                  "answer": 0,
+                  "why": "最初访谈还发现工作台、配件来源和担心损坏等困难，设备价格不是唯一障碍。",
+                  "point": "condition",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F",
+                    "G",
+                    "H",
+                    "I",
+                    "J",
+                    "K"
+                  ]
+                },
+                {
+                  "stem": "Written experience was useful, but similar-looking items still had to be examined individually.",
+                  "answer": 8,
+                  "why": "经验记录只是起点；外形相似的物品内部可能不同，每件仍须检查。",
+                  "point": "condition",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F",
+                    "G",
+                    "H",
+                    "I",
+                    "J",
+                    "K"
+                  ]
+                },
+                {
+                  "stem": "Publicity was revised to show that leaving with an unrepaired object could still be a reasonable outcome.",
+                  "answer": 5,
+                  "why": "宣传加入无法修复的例子，并解释缺件或成本过高，使人理解未修好也可能是知情决定。",
+                  "point": "paraphrase",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F",
+                    "G",
+                    "H",
+                    "I",
+                    "J",
+                    "K"
+                  ]
+                },
+                {
+                  "stem": "People had to stay with their possessions while volunteers worked on them.",
+                  "answer": 1,
+                  "why": "试办规定物主留在物品旁，目的是学习，也避免变成代收代送维修服务。",
+                  "point": "locate",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F",
+                    "G",
+                    "H",
+                    "I",
+                    "J",
+                    "K"
+                  ]
+                },
+                {
+                  "stem": "Expansion was acceptable only if support for current users could be maintained.",
+                  "answer": 10,
+                  "why": "末句限定扩张以维持现有使用者所需的实际支持为前提。",
+                  "point": "condition",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F",
+                    "G",
+                    "H",
+                    "I",
+                    "J",
+                    "K"
+                  ]
+                },
+                {
+                  "stem": "Some jobs were passed to specialists instead of being attempted by workshop volunteers.",
+                  "answer": 4,
+                  "why": "损坏的电气设备转交合格维修服务，志愿者不做超出能力的工作。",
+                  "point": "locate",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F",
+                    "G",
+                    "H",
+                    "I",
+                    "J",
+                    "K"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "label": "Match each statement to a paragraph. A paragraph may be used more than once or not at all.",
+              "look": "passage",
+              "text": "[A] A college project to map walking routes began when new students said that the official campus map did not answer their everyday questions. The map showed buildings accurately, but a straight line between two entrances could cross steps, locked gates, or muddy ground. Students wanted to know how a journey would actually feel, especially when carrying equipment or moving between classes in the rain. A geography tutor proposed that a student team collect practical route information. The project would supplement the official map, not replace the survey on which its building locations depended.\n\n[B] The team first agreed on what a route description should contain. Distance alone was not enough. Each entry would identify the starting and finishing points, the surface, major changes in level, and any restrictions on access. The students avoided labels such as easy or difficult because these judgments depended on the traveler. A steep slope might be a minor inconvenience for one person and a serious barrier for another. Describing the slope directly gave readers information they could use according to their own needs, rather than hiding a personal judgment inside a simple label.\n\n[C] Early walks exposed differences between observing a route and remembering it. Students often believed they knew where a gate stood until they tried to record its position precisely. They began carrying printed base maps and stopping at fixed landmarks to make notes. Photographs helped them check details afterwards, but the team did not publish images showing identifiable passersby. No special surveying equipment was required for the project. Its purpose was to record practical features consistently, while leaving precise boundary measurements to the existing official map and the staff responsible for maintaining it.\n\n[D] Timing caused another problem. The first group walked a route quickly and reported that it took six minutes. A second group, carrying a heavy model for a design class, needed much longer. Instead of publishing one apparently exact time, the team described the distance and noted conditions that could slow a journey. Where timing information was included, it came from several walks and was presented as a range. The students explained that waiting at a crossing or entering a crowded building could change the result even for the same traveler.\n\n[E] Access rules were sometimes more important than physical features. A passage through the science building offered a sheltered shortcut during teaching hours, but its doors were locked in the evening. The team confirmed the opening hours with building staff and placed the restriction beside the route itself. A general warning at the bottom of the map would have been easy to miss. Students also recorded an alternative outdoor route, so someone arriving after the doors closed could still plan the journey without returning to the starting point to search again.\n\n[F] The project included a small group of volunteers with different travel needs. One used a wheelchair; another regularly moved musical equipment on a trolley. Their comments revealed details that other students had overlooked, including a heavy door at the end of an otherwise smooth path. The team did not assume that either volunteer represented everyone with similar needs. It asked them to describe the particular obstacle and checked the location with them. This approach made their experience part of the evidence while avoiding a new set of broad assumptions about other travelers.\n\n[G] Rain changed several routes enough to justify repeat visits. A gravel path that looked convenient in dry weather developed puddles beside a narrow section. The students recorded this condition rather than calling the path permanently unsuitable. They also found that leaves could cover the edge of a step during autumn. Such observations were marked with the season and weather in which they had been made. Readers could then distinguish a lasting feature from a temporary problem, and the team could decide which entries needed checking again when conditions changed.\n\n[H] Once the draft was ready, the team tested how easily people could use it. Volunteers were given a starting point and a destination, then asked to explain which route they would choose and why. They did this on paper before taking an actual walk. Several readers misunderstood a symbol intended to show a covered passage, thinking it meant a tunnel. The students changed the symbol and added a short written label. The test showed that information could be geographically accurate yet still fail if the intended audience read its visual signs differently.\n\n[I] Keeping the map current required an arrangement that would survive the original team's graduation. The tutor persuaded two student societies to share responsibility for checking reports of changes. A simple form asked users for a location, a description, and the date of observation. Reports did not appear immediately on the public map. A volunteer first visited the site or confirmed the detail with campus staff. This slowed the updating process slightly, but it reduced the chance that a temporary closure or a mistaken location would become a lasting instruction to other users.\n\n[J] The final map appeared both online and as a folded sheet available at reception. The printed version carried a date and explained where updated information could be obtained. The team knew that paper copies would not reflect every short closure, but they remained useful to visitors without a working phone or campus network access. Conversely, the online version could link to longer descriptions that would make the folded sheet unreadable. The two versions therefore shared basic route information while using the strengths of their different forms instead of competing to contain everything.\n\n[K] Looking back, the students regarded the project as an exercise in choosing useful evidence. They had started with familiar paths and discovered how much depended on time, weather, equipment, and individual circumstances. The map could not promise an effortless journey or anticipate every possible change. What it could offer was a clearer basis for making a decision. The tutor suggested that the same questions could improve other campus information: what does the user need to do, which conditions affect that task, and how will anyone know when the description is out of date?",
+              "items": [
+                {
+                  "stem": "A misleading visual sign was changed after readers explained how they understood it.",
+                  "answer": 7,
+                  "why": "纸面试用中读者把有顶通道标志误解为隧道，因此团队更换标志并补文字。",
+                  "point": "paraphrase",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F",
+                    "G",
+                    "H",
+                    "I",
+                    "J",
+                    "K"
+                  ]
+                },
+                {
+                  "stem": "Descriptions avoided judging a path as easy because travelers could experience the same feature differently.",
+                  "answer": 1,
+                  "why": "团队不用 easy、difficult 等主观标签，改为直接描述坡度等特征。",
+                  "point": "condition",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F",
+                    "G",
+                    "H",
+                    "I",
+                    "J",
+                    "K"
+                  ]
+                },
+                {
+                  "stem": "Reports from users were checked before being added to the public version.",
+                  "answer": 8,
+                  "why": "用户提交变化报告后，志愿者须到现场或向校方核实，才更新公开地图。",
+                  "point": "locate",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F",
+                    "G",
+                    "H",
+                    "I",
+                    "J",
+                    "K"
+                  ]
+                },
+                {
+                  "stem": "An indoor shortcut was accompanied by both its opening hours and an outdoor alternative.",
+                  "answer": 4,
+                  "why": "科学楼通道的开放时段直接标在路线旁，同时提供室外替代路线。",
+                  "point": "locate",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F",
+                    "G",
+                    "H",
+                    "I",
+                    "J",
+                    "K"
+                  ]
+                },
+                {
+                  "stem": "The project aimed to add practical journey information to an existing map.",
+                  "answer": 0,
+                  "why": "首段说明补充日常路线体验与障碍信息，并不替代官方测绘地图。",
+                  "point": "paraphrase",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F",
+                    "G",
+                    "H",
+                    "I",
+                    "J",
+                    "K"
+                  ]
+                },
+                {
+                  "stem": "Observations made in particular weather were identified as such rather than treated as permanent conditions.",
+                  "answer": 6,
+                  "why": "记录标明季节和天气，并区分长久特征与临时问题，不把雨天情况永久化。",
+                  "point": "condition",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F",
+                    "G",
+                    "H",
+                    "I",
+                    "J",
+                    "K"
+                  ]
+                },
+                {
+                  "stem": "Experiences from people with specific needs were recorded without assuming they applied to everyone in that group.",
+                  "answer": 5,
+                  "why": "志愿者具体报告障碍，但团队不认定其能代表所有类似需求的人。",
+                  "point": "condition",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F",
+                    "G",
+                    "H",
+                    "I",
+                    "J",
+                    "K"
+                  ]
+                },
+                {
+                  "stem": "Readers tried selecting a route before the team asked them to walk it.",
+                  "answer": 7,
+                  "why": "测试先在纸上选路线并说明理由，然后才实地行走。",
+                  "point": "locate",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F",
+                    "G",
+                    "H",
+                    "I",
+                    "J",
+                    "K"
+                  ]
+                },
+                {
+                  "stem": "Different publishing forms were given different roles instead of each carrying all available detail.",
+                  "answer": 9,
+                  "why": "纸质和线上版共享基础信息，并分别利用可离线携带与容纳长说明的优势。",
+                  "point": "paraphrase",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F",
+                    "G",
+                    "H",
+                    "I",
+                    "J",
+                    "K"
+                  ]
+                },
+                {
+                  "stem": "A single travel-time estimate was replaced with information reflecting variation between journeys.",
+                  "answer": 3,
+                  "why": "两组用时不同后，不再公布看似精确的单一数值；必要时以多次行走的范围表示。",
+                  "point": "paraphrase",
+                  "options": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F",
+                    "G",
+                    "H",
+                    "I",
+                    "J",
+                    "K"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "more": {
+        "kind": "matching",
+        "topics": [
+          "社区共享工作室",
+          "校园步行地图",
+          "旧物交换项目",
+          "社区口述历史档案",
+          "公共阅读空间",
+          "校园节水计划",
+          "地方博物馆的展览设计",
+          "志愿者培训与交接",
+          "社区花园的日常管理",
+          "公共交通信息的改进",
+          "学生项目的反馈机制",
+          "文化活动的场地规划"
+        ]
+      }
+    }
+  ]
+}

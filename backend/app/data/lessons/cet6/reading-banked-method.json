@@ -1,0 +1,65 @@
+{
+ "id": "reading-banked-method",
+ "title": "选词填空的判断顺序",
+ "goal": "结合词性、结构和上下文选择并核对词库中的词。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "procedure", "label": "按空位与语境缩小候选范围"},
+  {"id": "verify", "label": "代入候选词核对句法与句意"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读任务及材料范围"}],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "选词填空要求在词库中选择符合语篇的词。候选词应同时符合空位的句法结构和上下文的意义。"},
+   {"p": "先处理依据充分的空，再比较剩余候选词。词库中的词按原样代入，不改词形。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　读取主题", "d": "通读段落，确定讨论对象及主要关系。注意重复出现的名词和表示转折的词。"},
+   {"t": "2　标注词性", "d": "按词形标出每个候选词的词性。有的词形兼作两种词性，如 increase 可作名词或动词。"},
+   {"t": "3　分析空位", "d": "查看空位所在的完整结构，确定所需词性和形式。结合相邻句的意义缩小范围。"},
+   {"t": "4　代入核对", "d": "先填写依据充分的空，再处理剩余空位。代入原词形，检查句法、搭配和全文逻辑。"}
+  ]},
+  {"id": "screen", "type": "table", "title": "句法与语义", "cols": ["依据", "例句", "判断"], "rows": [
+   ["句法：冠词与名词", "a useful ___ of the system", "空位需要名词，如 description"],
+   ["句法：情态动词", "The device can ___ heat.", "can 后接动词原形，如 retain"],
+   ["语义：转折", "The route was long, but it was ___ to follow.", "but 后可用 easy，与 long 形成对照"],
+   ["语义：因果", "The soil was dry, so the seeds needed ___.", "dry 和 so 支持 water"]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [
+   {"box": "The archive stored copies in two rooms. When a leak damaged one room, the second set remained ___.\nWords: protect, protection, safely, intact"},
+   {"p": "remained 后需要表语。intact 表示完好，符合第二套副本未受损的语境。safely 是副词，不符合此处的表语位置。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "例", "核对方法"], "rows": [
+   ["词性不合", "an analysis：an 后不能直接用 analyze", "确定名词短语的中心词"],
+   ["动词形式不合", "can retain：can 后不用 retained", "检查助动词和后续形式"],
+   ["搭配不合", "make a decision：不用 do a decision", "核对动词与宾语的搭配"],
+   ["句意不合", "a decline 后接 fell，不能选 rose", "比较上下文的变化方向"]
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["procedure", "verify"], "groups": [
+   {"text": "Words: collect, collection, collected, collective\nA museum added a rare map to its ___.", "items": [{"stem": "Which word completes the sentence?", "accept": ["collection"], "why": "its 后需要名词；collection 指收藏品。", "point": "procedure"}]},
+   {"text": "Words: preserve, preserved, preservation, preserving\nThe covers help ___ the drawings from dust.", "items": [{"stem": "Which word completes the sentence?", "accept": ["preserve"], "why": "help 后可接动词原形 preserve，表示保护。", "point": "procedure"}]},
+   {"text": "Words: increase, decrease, stable, stability\nThe number fell from 80 to 50, a clear ___.", "items": [{"stem": "Which word completes the sentence?", "accept": ["decrease"], "why": "fell 表明数量下降；decrease 作名词表示减少。", "point": "verify"}]},
+   {"text": "Words: evidence, evident, evidently, evidential\nThe records provide ___ for the claim.", "items": [{"stem": "Which word completes the sentence?", "accept": ["evidence"], "why": "provide 后的宾语是 evidence，且 evidence for 与 claim 搭配。", "point": "verify"}]}
+  ]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["procedure", "verify"], "groups": [
+   {"look": "passage", "text": "Words: durable, durability, measure, measured, carefully, careless, replace, replaced, retain, retained, narrow, widen, repair, repaired, repairs\nA book conservator inspected an old binding. The cover had torn, but most pages were sound. She chose a ___ material for a new cover because it needed to resist repeated handling. She then ___ the width of the pages before cutting the material. The notes on her work allow future conservators to understand what she changed.", "items": [
+    {"stem": "Which word completes the first gap?", "accept": ["durable"], "why": "material 前需要形容词；resist repeated handling 支持 durable。", "point": "procedure"},
+    {"stem": "Which word completes the second gap?", "accept": ["measured"], "why": "主语 She 后需要谓语；过去叙述中的 measured 与 width 搭配。", "point": "verify"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["procedure", "verify"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "Words: access, accessible, adaptation, adjust, adjusted, collect, collection, convenient, inconvenience, observe, observation, route, routes, temporary, temporarily\nA town library wanted to make its collection more useful to people living beyond the centre. Its staff first looked at borrowing records and spoke with residents. They found that some people could travel to the library only on weekends, while others had no convenient bus service at all. The staff decided to test a delivery service rather than move the main building.\n\nBefore choosing stops, the team made an ___ of travel patterns in several neighbourhoods. It then planned a short ___ for a van carrying books between community centres. At each stop, residents could return books as well as request items from the main collection. The service did not carry every title, but the catalogue showed which books could be requested for the next visit.\n\nAfter the trial, the staff compared the number of requests at each stop. They also asked whether the scheduled times were suitable for people working during the day. Several stops were busy, but one attracted few visitors. The team therefore ___ the timetable and continued to record requests. These records would help the library decide whether the service should remain in operation.", "items": [
+    {"stem": "Which bank word completes the first gap?", "accept": ["observation"], "why": "an 后需要名词；observation of travel patterns 表示对出行模式的观察。", "point": "procedure"},
+    {"stem": "Which bank word completes the second gap?", "accept": ["route"], "why": "a short 后需要单数名词；van 在社区中心之间行驶，route 表示路线。", "point": "procedure"},
+    {"stem": "Which bank word completes the third gap?", "accept": ["adjusted"], "why": "主语 team 后需要过去式谓语；人少促使团队调整 timetable。", "point": "verify"}
+   ]},
+   {"look": "passage", "text": "Words: absorb, absorbed, barrier, barriers, compare, comparison, dry, moisture, moist, protect, protection, rain, rainy, surface, surfaces\nA group of gardeners wanted to keep rainwater in a shared plot for longer. The plot had a gentle slope, and water sometimes ran from the upper beds to a paved path before it could enter the soil. The gardeners agreed to test a small change in one bed while leaving a similar bed unchanged. Both beds received the same amount of water during the trial.\n\nIn the first bed they added a layer of leaves over the soil. The layer formed a ___ between the soil and the air. In the second bed the soil remained uncovered. Each morning the gardeners checked the ___ of the soil beneath the surface. They used the same instrument and took readings at the same depth in both beds. They also recorded the weather because a hot or windy day could affect the results.\n\nAt the end of the week, they made a ___ of the readings. The covered bed generally held more water, although the difference varied from day to day. The gardeners kept their notes so that another group could repeat the trial under different weather conditions.", "items": [
+    {"stem": "Which bank word completes the first gap?", "accept": ["barrier"], "why": "a 后需要单数名词；覆盖层在土壤与空气之间形成 barrier。", "point": "procedure"},
+    {"stem": "Which bank word completes the second gap?", "accept": ["moisture"], "why": "检查土壤含水情况需要名词 moisture，呼应 held more water。", "point": "verify"},
+    {"stem": "Which bank word completes the third gap?", "accept": ["comparison"], "why": "a 后需要名词；比较两块地的读数是 make a comparison。", "point": "verify"}
+   ]}
+  ]}]}
+ ]
+}

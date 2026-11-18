@@ -1,0 +1,49 @@
+{
+ "id": "writing-two-part-method", "title": "双问题的分别回应", "goal": "能分别确定两问的要求并检查各自的展开。", "skill": "写作", "exam": "雅思 IELTS Academic", "mastery": "once",
+ "points": [{"id": "separate", "label": "分别确定两个问题所需的回答"}, {"id": "coverage", "label": "检查两项回答是否各有相关展开"}],
+ "sources": [{"id": "syllabus", "title": "雅思 IELTS Academic：课表", "url": "docs/syllabi/ielts.md", "used": "双问题的内容和教学规格"}],
+ "cards": [
+  {"id": "type", "type": "text", "title": "题型", "body": [{"p": "双问题围绕一个现象提出两个直接的问题。两问分别可能问原因、影响、评价或建议。每一问按它自己限定的对象回答。"}, {"box": "Why do some students use recorded lessons? Is this a positive development for their learning?"}, {"p": "第一问问使用录播的原因。第二问要求评价录播对学习的影响。回答时，原因和评价的依据分开写。"}]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　划分两问", "d": "分别标出疑问词和评价对象。例如 why 要求原因，positive 要求评价。"},
+   {"t": "2　建立回答", "d": "每一问写出一个对应的答案。例如用补看课程解释使用录播的原因。"},
+   {"t": "3　分别展开", "d": "每项回答都补上解释或例子。例如补看错过的内容，可以说明录播对学习的好处。"},
+   {"t": "4　核对首尾", "d": "检查引言和结论是否写到两项回答。结论的评价要与引言一致。"}
+  ]},
+  {"id": "questions", "type": "table", "title": "问题与回答", "cols": ["问题类型", "对象", "回答示例"], "rows": [
+   ["原因", "学生使用录播", "补看错过的课程"], ["评价", "录播对学习的作用", "可复习难点，评价偏积极"],
+   ["影响", "在线预约对居民的影响", "部分居民节省路程"], ["建议", "改善预约服务", "保留电话预约渠道"]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [{"box": "Many adult learners use recorded lessons alongside their regular classes. Recordings can be watched at different times and can be replayed when a topic is difficult. Some learners also value discussion during a live class. Why do adults use recorded lessons, and is this a positive development for learning? Give reasons for your answers.\n\nOutline: Adults may need flexible study times because of work. Recordings can improve learning by allowing repeated review, although live discussion remains valuable."}, {"p": "提纲先用工作安排解释使用原因，再用反复复习说明录播对学习有积极作用。第二项回答也提到了课堂讨论的作用。"}]},
+  {"id": "errors", "type": "table", "title": "干扰项", "cols": ["提纲", "问题", "修改方向"], "rows": [
+   ["Recorded lessons are useful. They are useful.", "两问共用空泛判断", "分别解释原因和评价"],
+   ["Explain flexible study times only.", "缺少对学习的评价", "增加学习效果及依据"],
+   ["Evaluate learning benefits only.", "缺少使用原因", "说明成人为何选择录播"],
+   ["Introduction: positive. Conclusion: wholly negative.", "评价前后不一致", "结论保持原有评价"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["separate", "coverage"], "groups": [{"items": [
+   {"stem": "Why do adults use recordings, and is this positive for learning? What does the first question ask for?", "options": ["Reasons adults choose recorded lessons.", "An evaluation of recordings for learning.", "Reasons adults still attend live classes.", "Effects of recordings on adults' jobs."], "answer": 0, "why": "why do adults use recordings 问的是使用原因，即第一项。第二项是第二问的要求。", "point": "separate"},
+   {"stem": "Why do adults use recordings, and is this positive for learning? What does the second question require?", "options": ["Reasons adults choose recorded lessons.", "An evaluation of the effect on learning.", "A suggestion for improving recordings.", "An evaluation of the effect on adults' work."], "answer": 1, "why": "is this positive for learning 要求评价录播对学习的作用，即第二项。第四项把评价的对象换成了工作。", "point": "separate"},
+   {"stem": "An outline explains that work makes flexible study useful, but gives no learning evaluation. What should it add?", "options": ["Another statement that adult learners have busy jobs.", "A second reason why adults choose to use recordings.", "An evaluation based on replaying difficult material.", "A list of working hours without any mention of study."], "answer": 2, "why": "提纲缺的是第二问的评价。第三项用重复播放难点说明录播对学习的作用，补上了这一问。第二项仍在回答第一问。", "point": "coverage"},
+   {"stem": "An introduction says recordings are generally positive for learning. Which conclusion is consistent?", "options": ["Recordings suit adults' working hours, but learning is not discussed.", "Recordings generally harm learning, although they offer flexibility.", "Recordings are wholly harmful in every learning situation.", "Recordings generally help learning alongside live discussion."], "answer": 3, "why": "引言的评价是 generally positive。第四项用 generally help 保持了积极评价，也保留了课堂讨论的作用。", "point": "coverage"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["separate", "coverage"], "groups": [{"text": "Many local services now allow residents to book appointments online. Some residents can avoid a journey to an office, but others have limited internet access. What effects can online booking have on residents, and what should service providers do to make booking accessible? Give reasons for both answers.", "items": [
+   {"stem": "What does each question request?", "options": ["Effects on residents, followed by a suggestion to improve access.", "Effects on residents, followed by the reasons online booking began.", "Reasons for online booking, followed by a suggestion for access.", "Effects on service providers, followed by a suggestion for access."], "answer": 0, "why": "第一问问在线预约对居民的影响，第二问要求让居民更容易预约的建议，即第一项。第四项把影响的对象换成了服务机构。", "point": "separate"},
+   {"stem": "Which outline develops both answers?", "options": ["State twice that booking is useful without naming any effect on residents.", "Explain saved journeys and recommend phone booking for those without access.", "Recommend telephone booking for those without access but give no effects.", "Explain saved journeys and omit any action for those without internet access."], "answer": 1, "why": "第二项先写节省路程这一影响，再为无法上网的居民建议电话预约，两问都有展开。第四项只回答了第一问。", "point": "coverage"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["separate", "coverage"], "sets": [{"id": "set-a", "groups": [
+   {"text": "Many adult learners use recorded lessons alongside their usual classes. Recordings can be watched at a convenient time and replayed when material is difficult. Some learners also value asking questions in a live class. Why do adults use recorded lessons, and is this a positive development for learning? Give reasons for your answers.", "items": [
+    {"stem": "What are the two requested responses?", "options": ["Reasons for use and an evaluation of learning effects.", "Reasons for use and a description of asking questions in class.", "Effects on adults' work and an evaluation of live classes.", "Two lists of reasons why adults use recorded lessons."], "answer": 0, "why": "why do adults use recorded lessons 要求原因，is this a positive development for learning 要求评价，即第一项。第二项把评价换成了描述课堂提问。", "point": "separate"},
+    {"stem": "Which outline develops both answers?", "options": ["Repeat that recordings are useful without explaining either question.", "Explain flexible study times and evaluate replaying difficult material.", "Evaluate asking questions in a live class but give no reasons for use.", "Explain flexible study times and omit the evaluation of learning."], "answer": 1, "why": "第二项用灵活的学习时间回答第一问，再评价重复播放难点对学习的作用。第四项缺少对学习的评价。", "point": "coverage"},
+    {"stem": "Complete the description of the first question.", "lead": "The first question", "chunks": ["asks why", "adults", "use recorded", "lessons"], "tail": ".", "extra": ["using"], "why": "第一问要求解释成人使用录播课程的原因。", "point": "separate"},
+    {"stem": "Complete a reason supporting a positive learning evaluation.", "lead": "Learners", "chunks": ["can replay", "difficult material", "when they", "need review"], "tail": ".", "extra": ["replaying"], "why": "可以重复播放难点，是录播对学习有积极作用的依据。", "point": "coverage"}
+   ]},
+   {"text": "More local services offer online appointment booking. Some residents avoid travelling to an office, while others lack a reliable internet connection. Service providers still need to make appointments available to both groups. What effects can online booking have on residents, and what should providers do to improve access? Give reasons for both answers.", "items": [
+    {"stem": "What does the second question request?", "options": ["The effects of online booking on residents.", "Reasons why some residents lack a reliable connection.", "A suggestion for improving access to booking.", "A suggestion for reducing residents' travel to offices."], "answer": 2, "why": "what should providers do to improve access 要求提出改善预约渠道的建议，即第三项。第一项是第一问的要求。", "point": "separate"},
+    {"stem": "Which outline responds to both questions?", "options": ["Explain saved journeys but propose no measure for residents without access.", "Propose telephone booking but describe no effects of online booking on residents.", "State twice that online booking exists without describing any effects.", "Explain saved journeys and propose phone booking for residents without access."], "answer": 3, "why": "第四项先写节省路程这一影响，再为无法上网的居民提出电话预约，两问都有回应。第一项缺少改善渠道的措施。", "point": "coverage"},
+    {"stem": "Complete the description of the first question.", "lead": "The first question", "chunks": ["asks about", "the effects", "of online booking", "on residents"], "tail": ".", "extra": ["asking"], "why": "第一问要求说明在线预约对居民的影响。", "point": "separate"},
+    {"stem": "Complete a relevant suggestion for the second question.", "lead": "Providers", "chunks": ["could retain", "telephone booking", "for residents", "without internet access"], "tail": ".", "extra": ["retaining"], "why": "无法上网的居民可以用电话预约，这一建议回应了第二问。", "point": "coverage"}
+   ]}
+  ]}]} 
+ ]
+}

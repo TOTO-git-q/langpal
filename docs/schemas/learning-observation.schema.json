@@ -1,0 +1,117 @@
+{
+  "$defs": {
+    "PointTarget": {
+      "additionalProperties": false,
+      "properties": {
+        "unit_id": {
+          "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+          "title": "Unit Id",
+          "type": "string"
+        },
+        "knowledge_id": {
+          "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+          "title": "Knowledge Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "unit_id",
+        "knowledge_id"
+      ],
+      "title": "PointTarget",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "event_id": {
+      "maxLength": 160,
+      "minLength": 1,
+      "title": "Event Id",
+      "type": "string"
+    },
+    "language": {
+      "title": "Language",
+      "type": "string"
+    },
+    "modality": {
+      "enum": [
+        "typed",
+        "spoken"
+      ],
+      "title": "Modality",
+      "type": "string"
+    },
+    "user_text": {
+      "maxLength": 18000,
+      "minLength": 1,
+      "title": "User Text",
+      "type": "string"
+    },
+    "teacher_text": {
+      "default": "",
+      "maxLength": 18000,
+      "title": "Teacher Text",
+      "type": "string"
+    },
+    "context": {
+      "default": "",
+      "maxLength": 10000,
+      "title": "Context",
+      "type": "string"
+    },
+    "audio_available": {
+      "default": false,
+      "title": "Audio Available",
+      "type": "boolean"
+    },
+    "source": {
+      "enum": [
+        "chat",
+        "speaking"
+      ],
+      "title": "Source",
+      "type": "string"
+    },
+    "unit_ids": {
+      "items": {
+        "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+        "type": "string"
+      },
+      "maxItems": 3,
+      "title": "Unit Ids",
+      "type": "array"
+    },
+    "targets": {
+      "items": {
+        "$ref": "#/$defs/PointTarget"
+      },
+      "maxItems": 3,
+      "title": "Targets",
+      "type": "array"
+    },
+    "outline_key": {
+      "anyOf": [
+        {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Outline Key"
+    }
+  },
+  "required": [
+    "event_id",
+    "language",
+    "modality",
+    "user_text",
+    "source"
+  ],
+  "title": "Observation",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

@@ -1,0 +1,380 @@
+{
+ "id": "reading-endings-method",
+ "title": "句尾配对",
+ "goal": "定位句首对应的完整命题，选择语义和句法均相符的句尾。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "locate",
+   "label": "定位句首对应的完整命题"
+  },
+  {
+   "id": "complete",
+   "label": "选择同时符合语义和句法的句尾"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "雅思 IELTS Academic：课表",
+   "url": "docs/syllabi/ielts.md",
+   "used": "课程范围与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "句尾配对题给出句首，要从候选句尾中选出一个，组成与原文意思一致的完整句子。判断时同时核对语法、对象和逻辑关系。"
+    },
+    {
+     "box": "The cover reduced evaporation.\nThe cover ... reduced water loss."
+    },
+    {
+     "p": "reduced water loss 是 reduced evaporation 的同义改写，关系一致。语法通顺的句尾，也要在原文中找到依据才能选。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定句首",
+     "d": "标出对象、动作和限定。The cover reduced 指向盖子的作用。"
+    },
+    {
+     "t": "2　定位命题",
+     "d": "在原文中找到句首的对象或它的改写。再读前后句，确认动作和结果。"
+    },
+    {
+     "t": "3　核对关系",
+     "d": "对照候选句尾的对象和因果方向。reduced water loss 与 reduced evaporation 相符。"
+    },
+    {
+     "t": "4　回读全句",
+     "d": "把句首和句尾连起来读，核对语法和范围。题面说明句尾可重复使用时，每题按各自的证据判断。"
+    }
+   ]
+  },
+  {
+   "id": "relations",
+   "type": "table",
+   "title": "完整命题",
+   "cols": [
+    "关系",
+    "原文",
+    "对应句"
+   ],
+   "rows": [
+    [
+     "原因",
+     "Rain delayed the work.",
+     "The work was delayed by rain."
+    ],
+    [
+     "结果",
+     "A cover reduced evaporation.",
+     "The cover reduced water loss."
+    ],
+    [
+     "对象",
+     "A filter protected the pump.",
+     "The pump was protected by the filter."
+    ],
+    [
+     "范围",
+     "Some seeds germinated early.",
+     "Early germination occurred in some of the seeds."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The filter caught leaves before they reached the pump. A cover protected the filter from falling branches.\n\nThe filter ...\n1. protected the cover from leaves.\n2. stopped leaves reaching the pump.\n3. caught branches after they reached the pump.\n4. protected the pump from the cover."
+    },
+    {
+     "p": "caught leaves before they reached the pump 说明过滤器挡住树叶，树叶到不了水泵。第二项的对象和先后关系都与原文一致。"
+    }
+   ]
+  },
+  {
+   "id": "distractors",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "原文",
+    "干扰项"
+   ],
+   "rows": [
+    [
+     "因果颠倒",
+     "Rain delayed repairs.",
+     "Repairs delayed rain."
+    ],
+    [
+     "对象不符",
+     "A cover protected the filter.",
+     "The filter protected the cover."
+    ],
+    [
+     "范围扩大",
+     "Some jars had narrow necks.",
+     "All jars had narrow necks."
+    ],
+    [
+     "相邻信息",
+     "A filter caught leaves; a cover stopped branches.",
+     "The filter stopped branches."
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "locate",
+    "complete"
+   ],
+   "groups": [
+    {
+     "text": "A mesh screen kept leaves out of the water tank. The tank supplied the garden.",
+     "items": [
+      {
+       "stem": "The mesh screen ...",
+       "options": [
+        "kept leaves out of the tank.",
+        "supplied water to the garden.",
+        "kept leaves out of the garden.",
+        "let leaves into the tank."
+       ],
+       "answer": 0,
+       "why": "依据是 A mesh screen kept leaves out of the water tank，第一项与它一致。供水给花园的是水箱，第二项把对象换了。",
+       "point": "locate"
+      }
+     ]
+    },
+    {
+     "text": "Heavy rain delayed the repair. The damaged gate was inspected beforehand.",
+     "items": [
+      {
+       "stem": "The repair ...",
+       "options": [
+        "delayed the inspection.",
+        "was delayed by heavy rain.",
+        "made the inspection unnecessary.",
+        "took place before the inspection."
+       ],
+       "answer": 1,
+       "why": "依据是 Heavy rain delayed the repair。第二项把主动句改成被动句，意思不变。检查在维修之前进行，第四项把先后颠倒了。",
+       "point": "complete"
+      }
+     ]
+    },
+    {
+     "text": "Some of the pots had handles. The remaining pots had narrow necks.",
+     "items": [
+      {
+       "stem": "The handles were found on ...",
+       "options": [
+        "all the pots in the group.",
+        "only the pots with narrow necks.",
+        "some of the pots in the group.",
+        "most of the pots in the group."
+       ],
+       "answer": 2,
+       "why": "依据是 Some of the pots had handles，第三项保留了 some 的范围。有窄颈的是其余的罐子，第二项把两类罐子混在了一起。",
+       "point": "complete"
+      }
+     ]
+    },
+    {
+     "text": "The wooden lid protected the grain. A stone weight held the lid in place.",
+     "items": [
+      {
+       "stem": "The stone weight ...",
+       "options": [
+        "protected the grain from the lid.",
+        "was made from the wooden lid.",
+        "stored grain underneath the lid.",
+        "held the wooden lid in place."
+       ],
+       "answer": 3,
+       "why": "依据是 A stone weight held the lid in place，第四项与它一致。保护谷物的是木盖，第一项把对象换了。",
+       "point": "locate"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "locate",
+    "complete"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A workshop stored tools in a cabinet. A lock kept the cabinet closed, and a label identified its contents. The label did not indicate which tools had been repaired. A separate record listed repairs by date.",
+     "items": [
+      {
+       "stem": "The lock ... Choose an ending. Endings may be used more than once.",
+       "options": [
+        "identified the cabinet's contents.",
+        "kept the cabinet closed.",
+        "listed repairs by date.",
+        "stored the label in a cabinet.",
+        "identified all the repaired tools."
+       ],
+       "answer": 1,
+       "why": "依据是 A lock kept the cabinet closed，对应第二项。标出柜内物品的是标签，不是锁。",
+       "point": "locate"
+      },
+      {
+       "stem": "The separate record ... Choose an ending. Endings may be used more than once.",
+       "options": [
+        "identified the cabinet's contents.",
+        "kept the cabinet closed.",
+        "listed repairs by date.",
+        "stored the label in a cabinet.",
+        "identified all the repaired tools."
+       ],
+       "answer": 2,
+       "why": "依据是 A separate record listed repairs by date，对应第三项。",
+       "point": "complete"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "locate",
+    "complete"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A community garden collected rainwater from the roof of a storage shed. A channel directed the water into a tank beside the shed. Early in the project, leaves from a nearby tree entered the channel and accumulated at its lower end. The leaves blocked the flow, so less water reached the tank after rain. Gardeners first cleared the channel by hand, but the blockage returned as more leaves fell. They recorded the problem before changing the arrangement.\n\nThe group then fitted a removable mesh screen above the channel. Rain could pass through the mesh, but most large leaves remained on its upper surface. Gardeners could lift the screen to clear it. The screen reduced the amount of leaf material entering the channel; it did not prevent small particles from reaching the tank. For that reason the group continued to inspect the bottom of the tank.\n\nA separate cover was placed over the tank itself. Its purpose was to limit evaporation between periods of rain. The cover also reduced the amount of material falling directly into the tank, although it could not clear leaves from the channel. The screen and cover therefore addressed related but distinct problems. The notes also recorded when the mesh was cleaned and whether leaves had accumulated on it. The group compared the water collected before and after the screen was fitted, keeping notes on rainfall as well as maintenance. The comparison described this garden's arrangement and did not establish that every roof or tank would behave in the same way.",
+       "items": [
+        {
+         "stem": "Leaves in the channel ... Choose an ending. Endings may be used more than once.",
+         "options": [
+          "limited the flow of water to the tank.",
+          "reduced evaporation from the tank.",
+          "kept most large leaves out of the channel.",
+          "carried rainwater from the shed roof.",
+          "recorded the amount of rainfall.",
+          "prevented leaves falling directly into the tank."
+         ],
+         "answer": 0,
+         "why": "依据是 The leaves blocked the flow, so less water reached the tank。第一项 limited the flow of water to the tank 是这句的改写。",
+         "point": "locate"
+        },
+        {
+         "stem": "The removable screen ... Choose an ending. Endings may be used more than once.",
+         "options": [
+          "limited the flow of water to the tank.",
+          "reduced evaporation from the tank.",
+          "kept most large leaves out of the channel.",
+          "carried rainwater from the shed roof.",
+          "recorded the amount of rainfall.",
+          "prevented leaves falling directly into the tank."
+         ],
+         "answer": 2,
+         "why": "依据是 most large leaves remained on its upper surface：大部分大叶片留在网罩上，进不了水渠，即第三项。",
+         "point": "complete"
+        },
+        {
+         "stem": "The cover over the tank ... Choose an ending. Endings may be used more than once.",
+         "options": [
+          "limited the flow of water to the tank.",
+          "reduced evaporation from the tank.",
+          "kept most large leaves out of the channel.",
+          "carried rainwater from the shed roof.",
+          "recorded the amount of rainfall.",
+          "prevented leaves falling directly into the tank."
+         ],
+         "answer": 1,
+         "why": "依据是 Its purpose was to limit evaporation，对应第二项。原文说盖子只是 reduced 落入水箱的杂物，第六项的 prevented 说过头了。",
+         "point": "complete"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A local museum prepared a display about a former railway station. Its collection included a timetable, a photograph and a model. Each object supplied a different kind of evidence. The timetable recorded planned departure times, whereas the photograph showed the appearance of the platform at one moment. Neither item alone established whether a particular train had left on time. Staff placed both beside a short explanation of their different uses.\n\nThe photograph had been stored folded, and a crease passed through the image of the platform roof. Before displaying it, a conservator made a high-resolution copy. The copy allowed visitors to inspect the roof without repeated handling of the original. It also preserved a record of the crease before any treatment. The team did not remove the crease from the copy, because it formed part of the object's documented condition.\n\nA model was built from measurements on an old plan. It showed the arrangement of the platforms and tracks but did not reproduce the colour of the station, since the plan contained no colour information. A label explained this limitation. Staff also compared the model with a later drawing. The drawing showed an extension absent from the earlier plan, so the two objects represented different stages of the station. The comparison helped visitors distinguish a later addition from features present in the earlier arrangement. The display placed the copy beside a caption explaining the crease and the earlier storage conditions. The museum retained the original plan in storage while displaying the model.",
+       "items": [
+        {
+         "stem": "The timetable ... Choose an ending. Endings may be used more than once.",
+         "options": [
+          "showed the later platform extension.",
+          "reproduced the station's original colours.",
+          "recorded planned departure times.",
+          "protected the original from handling.",
+          "removed the crease from the photograph.",
+          "proved that each train departed on time."
+         ],
+         "answer": 2,
+         "why": "依据是 The timetable recorded planned departure times，对应第三项。原文说单靠时刻表证明不了火车是否准点，第六项说过头了。",
+         "point": "locate"
+        },
+        {
+         "stem": "The photograph's copy ... Choose an ending. Endings may be used more than once.",
+         "options": [
+          "showed the later platform extension.",
+          "reproduced the station's original colours.",
+          "recorded planned departure times.",
+          "protected the original from handling.",
+          "removed the crease from the photograph.",
+          "proved that each train departed on time."
+         ],
+         "answer": 3,
+         "why": "依据是 without repeated handling of the original：有了副本，原件不必反复拿取，即第四项。",
+         "point": "complete"
+        },
+        {
+         "stem": "The later drawing ... Choose an ending. Endings may be used more than once.",
+         "options": [
+          "showed the later platform extension.",
+          "reproduced the station's original colours.",
+          "recorded planned departure times.",
+          "protected the original from handling.",
+          "removed the crease from the photograph.",
+          "proved that each train departed on time."
+         ],
+         "answer": 0,
+         "why": "依据是 The drawing showed an extension absent from the earlier plan，对应第一项 showed the later platform extension。",
+         "point": "locate"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

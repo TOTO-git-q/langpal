@@ -1,0 +1,377 @@
+{
+ "id": "reading-banked-verbs",
+ "title": "动词空位与谓语形式",
+ "goal": "区分谓语与非谓语空位并选择适当的动词形式。",
+ "skill": "阅读",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "finite",
+   "label": "区分谓语与非谓语空位"
+  },
+  {
+   "id": "form",
+   "label": "按助动词和主语选择已有词形"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "词汇理解教学依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "intro",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "空位是谓语时，动词形式要和主语、时间相符。The shop opens at nine 中，主语是单数，说的是日常情况，所以用 opens。"
+    },
+    {
+     "p": "句子已有谓语时，空位填非谓语形式。They stopped to rest 中，stopped 是谓语，to rest 表示目的。词库里的词照原样填入，不自行改动词尾。"
+    }
+   ]
+  },
+  {
+   "id": "finite",
+   "type": "table",
+   "title": "谓语空位",
+   "cols": [
+    "结构",
+    "例一",
+    "例二"
+   ],
+   "rows": [
+    [
+     "单数主语与现在时间",
+     "The train leaves at noon.",
+     "The shop opens at nine."
+    ],
+    [
+     "复数主语与现在时间",
+     "The trains leave at noon.",
+     "The shops open at nine."
+    ],
+    [
+     "过去时间",
+     "The train left yesterday.",
+     "The shop opened last week."
+    ],
+    [
+     "助动词 have 后",
+     "They have finished the task.",
+     "She has written the report."
+    ]
+   ]
+  },
+  {
+   "id": "helpers",
+   "type": "table",
+   "title": "助动词后的形式",
+   "cols": [
+    "结构",
+    "形式",
+    "例"
+   ],
+   "rows": [
+    [
+     "can、will 等情态动词后",
+     "动词原形",
+     "Visitors can enter at noon."
+    ],
+    [
+     "do、does 后",
+     "动词原形",
+     "Does the shop open at nine?"
+    ],
+    [
+     "have、has 后",
+     "过去分词",
+     "The team has completed the plan."
+    ],
+    [
+     "be 后表进行",
+     "现在分词",
+     "Workers are repairing the bridge."
+    ],
+    [
+     "be 后表被动",
+     "过去分词",
+     "The bridge was repaired yesterday."
+    ]
+   ]
+  },
+  {
+   "id": "nonfinite",
+   "type": "table",
+   "title": "非谓语空位",
+   "cols": [
+    "结构",
+    "例一",
+    "例二"
+   ],
+   "rows": [
+    [
+     "to 后动词原形表目的",
+     "She stopped to rest.",
+     "They met to discuss the plan."
+    ],
+    [
+     "介词后动名词",
+     "He left without speaking.",
+     "She learned by observing."
+    ],
+    [
+     "现在分词作后置修饰",
+     "The girl carrying a bag smiled.",
+     "The birds nesting nearby returned."
+    ],
+    [
+     "过去分词作后置修饰",
+     "The door painted blue is open.",
+     "The book borrowed yesterday is here."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The workers have _____ the old gate, so visitors can use it again.\n1. repair\n2. repaired\n3. repairing\n4. repairs"
+    },
+    {
+     "p": "have 后接过去分词，即第二项 repaired。后半句说游客又能使用大门，说明维修已经完成。"
+    }
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "finite",
+    "form"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "The museum _____ at nine every morning.",
+       "options": [
+        "opens",
+        "open",
+        "opening",
+        "opened"
+       ],
+       "answer": 0,
+       "why": "every morning 说的是日常情况，主语 The museum 是单数，所以用 opens。",
+       "point": "form"
+      },
+      {
+       "stem": "The museum _____ its doors yesterday after repairs.",
+       "options": [
+        "opening",
+        "opened",
+        "opens",
+        "open"
+       ],
+       "answer": 1,
+       "why": "yesterday 表示过去时间，谓语用 opened。",
+       "point": "finite"
+      },
+      {
+       "stem": "Visitors can _____ the garden through the side gate.",
+       "options": [
+        "entered",
+        "entering",
+        "enter",
+        "entry"
+       ],
+       "answer": 2,
+       "why": "can 后接动词原形 enter。",
+       "point": "form"
+      },
+      {
+       "stem": "The team stopped to _____ the map.",
+       "options": [
+        "checked",
+        "checking",
+        "checks",
+        "check"
+       ],
+       "answer": 3,
+       "why": "stopped 已是谓语，to 后用原形 check 表示目的。",
+       "point": "finite"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "finite",
+    "form"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A school garden has a broken fence. A group of students has collected tools for the work. They will repair the fence on Saturday. The teacher plans to bring gloves.",
+     "items": [
+      {
+       "stem": "The students have _____ tools for the work.",
+       "options": [
+        "collect",
+        "collected",
+        "collecting",
+        "collects"
+       ],
+       "answer": 1,
+       "why": "原文是 has collected tools for the work。have 后接过去分词 collected。",
+       "point": "form"
+      },
+      {
+       "stem": "The teacher plans to _____ gloves.",
+       "options": [
+        "brought",
+        "bringing",
+        "bring",
+        "brings"
+       ],
+       "answer": 2,
+       "why": "plans 是谓语，to 后接原形 bring。",
+       "point": "finite"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "finite",
+    "form"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "The bus _____ at the station at eight every day.",
+         "options": [
+          "arrives",
+          "arrive",
+          "arriving",
+          "arrived"
+         ],
+         "answer": 0,
+         "why": "主语 The bus 是单数，every day 说的是日常情况，所以用 arrives。",
+         "point": "finite"
+        },
+        {
+         "stem": "The buses _____ at the station at eight every day.",
+         "options": [
+          "arrives",
+          "arrive",
+          "arriving",
+          "arrived"
+         ],
+         "answer": 1,
+         "why": "主语 The buses 是复数，every day 说的是日常情况，所以用 arrive。",
+         "point": "finite"
+        },
+        {
+         "stem": "The volunteers met to _____ the room.",
+         "options": [
+          "cleaned",
+          "cleaning",
+          "clean",
+          "cleans"
+         ],
+         "answer": 2,
+         "why": "met 是谓语，to clean 表示目的。",
+         "point": "finite"
+        },
+        {
+         "stem": "The woman _____ the basket is a gardener.",
+         "options": [
+          "carry",
+          "carries",
+          "carried",
+          "carrying"
+         ],
+         "answer": 3,
+         "why": "句子的谓语是 is，空位不再作谓语。carrying the basket 放在 woman 后面修饰它。",
+         "point": "finite"
+        },
+        {
+         "stem": "The shop _____ early yesterday.",
+         "options": [
+          "closed",
+          "close",
+          "closing",
+          "closes"
+         ],
+         "answer": 0,
+         "why": "yesterday 表示过去时间，谓语用 closed。",
+         "point": "form"
+        },
+        {
+         "stem": "The workers have _____ the steps.",
+         "options": [
+          "repair",
+          "repaired",
+          "repairing",
+          "repairs"
+         ],
+         "answer": 1,
+         "why": "have 后接过去分词 repaired。",
+         "point": "form"
+        },
+        {
+         "stem": "The students can _____ the books today.",
+         "options": [
+          "borrowed",
+          "borrowing",
+          "borrow",
+          "borrows"
+         ],
+         "answer": 2,
+         "why": "can 后接动词原形 borrow。",
+         "point": "form"
+        },
+        {
+         "stem": "The team is _____ the new bridge now.",
+         "options": [
+          "build",
+          "builds",
+          "built",
+          "building"
+         ],
+         "answer": 3,
+         "why": "is 和 now 表示正在进行的动作，故用 building。",
+         "point": "form"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

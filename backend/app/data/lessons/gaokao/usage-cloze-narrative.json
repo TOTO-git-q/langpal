@@ -1,0 +1,63 @@
+{
+ "id": "usage-cloze-narrative",
+ "title": "完形记叙文的事件关系",
+ "goal": "根据事件的因果和先后关系判断人物行为。",
+ "skill": "语言运用",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {"id": "event", "label": "根据前后事件确定行为发生的条件"},
+  {"id": "result", "label": "根据结局核对人物行动的合理性"}
+ ],
+ "sources": [{"id": "syllabus", "title": "高考英语课程课表", "url": "docs/syllabi/gaokao.md", "used": "教学内容与知识点"}],
+ "cards": [
+  {"id": "structure", "type": "table", "title": "结构", "cols": ["事件", "作用", "例"], "rows": [
+   ["目标", "说明人物希望完成的事", "Lina wanted to deliver a meal."],
+   ["困难", "说明目标受到的阻碍", "The road was closed."],
+   ["尝试", "说明人物应对困难的行动", "She asked for another route."],
+   ["转折", "说明情境或行动发生变化", "A neighbor showed her a path."],
+   ["结局", "说明行动的结果", "Lina reached the house with the meal."]
+  ], "note": "以上为本课程的建议，不是官方规定。"},
+  {"id": "expressions", "type": "table", "title": "常用表达", "cols": ["关系", "表达", "例"], "rows": [
+   ["目标", "in order to", "She left early in order to deliver the meal."],
+   ["原因", "because", "She changed routes because the road was closed."],
+   ["变化", "instead", "She took the path instead."],
+   ["结果", "finally", "She finally reached the house."],
+   ["回忆", "had previously", "She had previously visited the house."]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [
+   {"box": "Lina wanted to bring a meal to a neighbor. The usual road was closed, and she did not know another way. She asked a nearby resident, who showed her a path. Lina followed it and delivered the meal while it was still warm. She was grateful for the resident's ___.\n1. directions  2. meal  3. closure  4. delay"},
+   {"p": "目标是送餐，困难是道路关闭。居民 showed her a path，Lina 才把饭送到。directions 指的就是指路，选第一项。"},
+   {"box": "During the recital, Omar remembered his first lesson. He had struggled to keep a steady beat, so his teacher suggested counting aloud. After weeks of practice, he could play the piece evenly. The counting had helped him control the ___.\n1. teacher  2. recital  3. rhythm  4. lesson"},
+   {"p": "had struggled 说的是演出之前学琴时的困难。steady beat 和 evenly 都与节奏有关。数拍子帮他控制的是 rhythm，选第三项。"}
+  ]},
+  {"id": "distractors", "type": "table", "title": "干扰项", "cols": ["类型", "例", "依据"], "rows": [
+   ["混淆目标与困难", "Lina wanted the road closed.", "她的目标是送餐，道路关闭是困难。"],
+   ["混淆先后", "Omar practiced only after the recital.", "回忆中的练习发生在演出之前。"],
+   ["颠倒因果", "The meal caused the road to close.", "道路关闭促使 Lina 寻找新路线。"],
+   ["忽略结果", "The resident delayed the delivery.", "路线指引使 Lina 顺利送达。"]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["event", "result"], "groups": [{"items": [
+   {"stem": "Jin wanted to call her aunt, but her phone battery was empty. She borrowed a phone and made the call. She borrowed it because her own phone had no ___.", "options": ["aunt's number", "battery power", "mobile signal", "credit"], "answer": 1, "why": "battery was empty 说明借电话的原因是手机没有电。", "point": "event"},
+   {"stem": "Milo wanted a photograph of the bird. It flew away when he approached, so he waited farther back. The bird returned, and he took the picture. Waiting farther back helped him take the ___.", "options": ["flight", "walk", "photo", "bird"], "answer": 2, "why": "结尾 he took the picture 说明等待后拍到了照片。", "point": "result"},
+   {"stem": "At the exhibition, Hana recalled her first attempt at pottery. The bowl had collapsed, but she later learned to shape the clay. Which happened first?", "options": ["Hana learned to shape the clay.", "Hana recalled learning to shape clay.", "Hana recalled the first attempt.", "Her first pottery bowl collapsed."], "answer": 3, "why": "碗塌陷发生在第一次尝试时，是最早的事。之后她才学会塑形，展览上的回忆最晚。", "point": "event"},
+   {"stem": "The team could not hear the instructions in the wind. They moved closer to their guide and then followed the route. Moving closer made the instructions easier to ___.", "options": ["hear", "read", "change", "forget"], "answer": 0, "why": "could not hear 和 moved closer 说明靠近向导解决了听不清的问题。", "point": "result"}
+  ]}]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["event", "result"], "groups": [{"text": "At the craft fair, Ava remembered her first attempt to sew a bag. The handles had come loose because her stitches were too wide. She asked her aunt to show her how to make smaller stitches, then practiced on spare cloth. The bag she brought to the fair had strong handles and carried several books without tearing.", "items": [
+   {"stem": "Why did Ava ask her aunt for help?", "options": ["The books had torn the spare cloth.", "The first bag's handles came loose.", "The fair had run out of strong bags.", "The aunt had forgotten how to sew."], "answer": 1, "why": "handles had come loose 和 stitches were too wide 说明她求助的原因。", "point": "event"},
+   {"stem": "What did the final bag show?", "options": ["The fair had supplied new books.", "The wide stitches had torn the cloth.", "Practice had made the handles strong.", "Ava had stopped making small stitches."], "answer": 2, "why": "Ava 先在碎布上练习缝小针脚。带到集市的包 had strong handles，装了几本书也没有撕开，即第三项。", "point": "result"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["event", "result"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "When Mrs. Wells injured her ankle, her neighbor Theo offered to collect her groceries. She gave him a short list and a cloth bag, explaining that she needed the food before her grandchildren arrived that afternoon. Theo knew the shop well, so he expected the trip to be quick. On the way, however, he saw a notice saying that the usual entrance was closed for repairs. A worker pointed toward another entrance at the back of the building.\n\nInside, Theo found most of the items on the list. The final item was a particular kind of tea, but its usual shelf was empty. He remembered that Mrs. Wells had said she preferred that tea because it was familiar to her grandchildren. Rather than replace it immediately, he asked a shop assistant whether any remained. The assistant checked the storage room and returned with one box. Theo put it into the bag with the other groceries and paid for everything.\n\nAs he left, rain began to fall. Theo had no umbrella, and the paper box of tea was near the top of the open bag. He moved it beneath a packet wrapped in plastic, then folded the top of the cloth bag over the groceries. Mrs. Wells opened the door when he returned. The food was dry, and the tea was there as well. Theo explained the delay at the shop. Mrs. Wells thanked him for checking the shelf and protecting the groceries. Later, her grandchildren arrived, and she made the tea they liked to share.", "items": [
+    {"stem": "Why did Theo ask the assistant about the tea?", "options": ["Its usual shelf was empty.", "The back entrance was closed.", "The cloth bag had become wet.", "Its usual box was damaged."], "answer": 0, "why": "its usual shelf was empty 促使 Theo 询问店员。", "point": "event"},
+    {"stem": "Theo folded the bag because rain might ___ the groceries.", "options": ["weigh", "wet", "warm", "dry"], "answer": 1, "why": "rain began to fall 后他把袋口折上，结尾 The food was dry，说明他是怕雨淋湿食品。", "point": "event"},
+    {"stem": "The assistant's search meant that Mrs. Wells could ___.", "options": ["repair the shop entrance", "dry the damaged tea box", "serve the familiar tea", "buy the tea herself"], "answer": 2, "why": "店员从库房找到一盒茶。结尾 she made the tea they liked to share，即第三项。", "point": "result"}
+   ]},
+   {"look": "passage", "text": "At the end of the school term, Mei demonstrated a short piece on the violin for her class. Before she began, she remembered how uncertain she had felt during her first month of lessons. At that time she could produce the notes, but moving from one string to another often interrupted the tune. Her teacher suggested that she slow down and practice the changes separately. Mei initially wanted to play the whole piece each time, because she enjoyed hearing the complete melody.\n\nOne afternoon she recorded herself and listened to the result. The places where she changed strings sounded uneven, even though the individual notes were correct. She marked those places in her music and tried the teacher's suggestion. Each day she played a small group of notes slowly, then repeated it until the movement felt consistent. She also noted the places that still needed work. When one change became easier, she added the notes before and after it.\n\nAfter several weeks Mei made another recording. The tune was smoother, though she still wanted to improve the ending. She continued to practice that section rather than increasing her speed. At the class demonstration, she played at a comfortable pace and completed the piece without stopping. Her classmates asked how she had prepared. Mei showed them the marks in her music and explained how she had practiced the difficult movements. She kept both recordings because they helped her hear the change in her playing over time. The demonstration gave her a reason to continue studying the instrument during the next term.", "items": [
+    {"stem": "What happened before Mei's class demonstration?", "options": ["Her classmates asked about her notes.", "She decided to continue next term.", "The class heard her complete the piece.", "She practiced difficult string changes."], "answer": 3, "why": "Mei 在演示前回忆了练琴的经过。慢练换弦发生在课堂演示之前，即第四项。", "point": "event"},
+    {"stem": "Mei recorded herself to examine the ___ of her playing.", "options": ["speed", "sound", "audience", "classroom"], "answer": 1, "why": "录音后她 listened to the result，听出换弦处 sounded uneven。录音是用来检查演奏的声音。", "point": "event"},
+    {"stem": "What result supported the teacher's practice suggestion?", "options": ["Mei played each note faster immediately.", "Mei avoided recording the whole melody.", "Mei played the piece without stopping.", "Mei removed the marks from her music."], "answer": 2, "why": "慢练换弦后，Mei 在演示中 completed the piece without stopping。", "point": "result"}
+   ]}
+  ]}]}
+ ]
+}

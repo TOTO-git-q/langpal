@@ -1,0 +1,393 @@
+{
+ "id": "reading-passage-purpose",
+ "title": "修辞目的题",
+ "goal": "找到例子所支持的论点；判断例子或某一句的功能。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "claim",
+   "label": "找到例子所支持的论点"
+  },
+  {
+   "id": "function",
+   "label": "判断例子或某一句的功能"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、计分、自适应"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明和官方样题（挖空规则是对照样题和答案看出来的）"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Reading Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-reading.pdf",
+   "used": "第 1 课：三类题的说明和需要的三项基本功"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "修辞目的题问作者写某个例子或某一句的作用。事实题问例子讲了什么事实，目的题问例子和论点是什么关系。选项通常以 To illustrate、To contrast、To explain 开头。"
+    },
+    {
+     "box": "Why does the author mention …?\nThe author discusses … in order to …"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　定位例子",
+     "d": "找到题干提到的对象，读完所在句。问 a folded sheet 时，定位到 A folded sheet can support more weight than a flat one。"
+    },
+    {
+     "t": "2　读前一句",
+     "d": "例子前面一般是它支持的概括。读完再看后文有没有限定这个概括。前一句是 Shape affects stiffness 时，例子说明形状的作用。"
+    },
+    {
+     "t": "3　判断功能",
+     "d": "说出例子对论点起什么作用。这里的答案是 To illustrate the effect of shape。只复述折纸能承重的选项不对。"
+    }
+   ]
+  },
+  {
+   "id": "key",
+   "type": "table",
+   "title": "语境与依据",
+   "cols": [
+    "类型",
+    "例句",
+    "依据"
+   ],
+   "rows": [
+    [
+     "举例支持",
+     "Shape affects stiffness. A folded sheet can support more weight than a flat one.",
+     "折纸是 shape affects stiffness 的实例。"
+    ],
+    [
+     "对比",
+     "The rough surface scatters light; the polished surface reflects it in a more orderly way.",
+     "比较两种表面的不同表现。"
+    ],
+    [
+     "反驳",
+     "The account calls the room empty. Yet the inventory lists several desks inside it.",
+     "清单列出了桌子，与 empty 矛盾，用来反驳前说。"
+    ],
+    [
+     "引出话题",
+     "A faint mark on a page raises a question: how can erased writing be studied?",
+     "由具体痕迹引出研究问题。"
+    ],
+    [
+     "说明原因",
+     "The specimen shrank because moisture escaped during drying.",
+     "because 引出缩小的原因：水分逸出。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A written description may omit features that matter to later researchers. For example, an early description of a clock might list its decorative figures but say nothing about its internal gears. A detailed drawing of the mechanism could preserve that missing information."
+    },
+    {
+     "box": "Why does the author mention decorative figures?\n1. To establish the price of an early clock\n2. To illustrate the selective nature of a written description\n3. To explain why gears require regular repair\n4. To compare the artistic styles of clockmakers"
+    },
+    {
+     "p": "前一句的论点是 A written description may omit features。描述列出了 decorative figures，却 say nothing about its internal gears，说明书面描述有取舍。"
+    },
+    {
+     "p": "第二项概括这种取舍，属于举例支持。第三项虽含 gears，但原文没有讨论修理。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "只复述例子",
+     "To describe the figures on a clock",
+     "没有说明例子支持的概括。"
+    ],
+    [
+     "关系相反",
+     "To prove that descriptions include every feature",
+     "与 may omit features 相反。"
+    ],
+    [
+     "无依据",
+     "To establish the price of a clock",
+     "例子未提供价格信息。"
+    ],
+    [
+     "对象错位",
+     "To explain why gears need repair",
+     "原文讲记录有遗漏，不讲机械故障。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "claim",
+    "function"
+   ],
+   "groups": [
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "A surface can carry more than one kind of evidence. A footprint, for instance, records both the outline of a shoe and some features of the ground beneath it.",
+     "items": [
+      {
+       "stem": "Which claim does the footprint example support?",
+       "options": [
+        "A footprint shows the shoe but not the ground beneath.",
+        "Ground conditions never affect an impression.",
+        "One trace can contain several kinds of information.",
+        "A shoe outline is more reliable than ground features."
+       ],
+       "answer": 2,
+       "why": "more than one kind of evidence 是论点，both the outline of a shoe and some features of the ground 是两类信息，即第三项。",
+       "point": "claim"
+      }
+     ]
+    },
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "A collection was said to contain only imported objects. However, a signed record identifies one bowl as the work of a local maker.",
+     "items": [
+      {
+       "stem": "Why does the author mention the signed record?",
+       "options": [
+        "To challenge the claim about the collection’s origin",
+        "To show that every object in it was made by local makers",
+        "To confirm that the collection contains only imports",
+        "To describe how the bowl was imported from abroad"
+       ],
+       "answer": 0,
+       "why": "only imported 与 a local maker 矛盾。签名记录用来反驳藏品全部进口的说法，即第一项。",
+       "point": "function"
+      }
+     ]
+    },
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "A narrow crack in a wall may seem unimportant. Yet examining such cracks introduces a larger issue: how buildings respond to repeated movement.",
+     "items": [
+      {
+       "stem": "What function does the crack serve here?",
+       "options": [
+        "It shows that narrow cracks are always unimportant.",
+        "It proves that repeated movement cannot cause damage.",
+        "It answers the question of how buildings respond to movement.",
+        "It opens a broader question about building movement."
+       ],
+       "answer": 3,
+       "why": "introduces a larger issue 说明作者用裂缝引出建筑如何应对反复运动的问题，即第四项。第三项说回答了这个问题，原文只是提出了它。",
+       "point": "function"
+      }
+     ]
+    },
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "Records designed for administration can also reveal daily habits. A laundry account, for example, may show how frequently a household used different kinds of linen.",
+     "items": [
+      {
+       "stem": "What claim is illustrated by the laundry account?",
+       "options": [
+        "Administrative records reveal nothing about daily life.",
+        "Practical records can provide evidence of everyday routines.",
+        "Every household used linen with the same frequency.",
+        "Laundry accounts were written mainly to record daily habits."
+       ],
+       "answer": 1,
+       "why": "Records designed for administration can also reveal daily habits 是论点，洗衣账目是它的例子，即第二项。",
+       "point": "claim"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "claim",
+    "function"
+   ],
+   "groups": [
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "Models simplify objects by selecting relevant features. A model of a bridge used to examine its overall shape may omit the bolts that hold the real structure together. A model intended to study connections, by contrast, must include those details. The difference reflects the purpose of the investigation rather than a simple difference in quality.",
+     "items": [
+      {
+       "stem": "Why does the author mention omitted bolts?",
+       "options": [
+        "To show that the bridge model is of poor quality",
+        "To illustrate how a model selects relevant detail",
+        "To argue that models must include every feature",
+        "To explain how bolts hold the real bridge together"
+       ],
+       "answer": 1,
+       "why": "Models simplify objects by selecting relevant features 是论点，省去螺栓是选择性简化的例子，即第二项。",
+       "point": "claim"
+      },
+      {
+       "stem": "What is the function of the model used to study connections?",
+       "options": [
+        "To show that detailed models are of higher quality",
+        "To argue that simplified models should not be used",
+        "To contrast the detail needed for a different purpose",
+        "To give a second example of omitting bolts from a model"
+       ],
+       "answer": 2,
+       "why": "by contrast 和 must include those details 说明研究目的不同，需要的细节也不同，即第三项。",
+       "point": "function"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "claim",
+    "function"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Read the passage.",
+       "look": "passage",
+       "text": "Reading the Edges of a Document\n\nThe margins of a document can preserve information that is absent from its main text. Consider a shipping list whose central columns name goods and quantities. A short note beside one entry might record that a package arrived damaged. Although the printed form has no column for condition, the handwritten addition preserves a detail about the journey. Such additions can make a routine document useful for questions its original designer did not anticipate.\n\nPhysical marks provide another kind of evidence. A folded corner may show how a sheet was handled, while a pinhole may suggest that it was once attached to other papers. Neither feature gives a complete history on its own. Similar marks can arise in different circumstances, so interpretation requires comparison with other documents and records.\n\nThis caution limits what can be claimed from a single object. A stain beside an entry, for example, does not establish that the listed goods became wet during transport. The stain might have appeared much later. Examining margins therefore involves both noticing overlooked evidence and separating plausible explanations from conclusions that the evidence cannot support.",
+       "items": [
+        {
+         "stem": "Why does the author mention the note about a damaged package?",
+         "options": [
+          "To show that the form had a column for condition",
+          "To illustrate details added outside the main form",
+          "To prove the package was damaged during the journey",
+          "To explain why printed forms are always inaccurate"
+         ],
+         "answer": 1,
+         "why": "论点是 The margins ... can preserve information that is absent from its main text。手写的损坏记录是表格没有设栏的内容，即第二项。",
+         "point": "claim"
+        },
+        {
+         "stem": "Which claim is supported by the examples of a folded corner and a pinhole?",
+         "options": [
+          "Physical features of a page can also provide evidence.",
+          "A single mark can give a complete history of a sheet.",
+          "Handwritten notes always explain every mark on a page.",
+          "Folded corners and pinholes always arise in the same way."
+         ],
+         "answer": 0,
+         "why": "Physical marks provide another kind of evidence 是论点，折角和针孔是纸张本身的痕迹，即第一项。",
+         "point": "claim"
+        },
+        {
+         "stem": "Why is the stain beside an entry discussed?",
+         "options": [
+          "To show that the goods became wet during transport",
+          "To show that stains appear long after documents are used",
+          "To explain how a stain reveals the date of an entry",
+          "To illustrate the limits of interpreting a single mark"
+         ],
+         "answer": 3,
+         "why": "does not establish that the listed goods became wet 和 might have appeared much later 说明，一处污迹证明不了货物受潮。作者用它说明只凭一处痕迹作解释的局限，即第四项。",
+         "point": "function"
+        }
+       ]
+      },
+      {
+       "label": "Read the passage.",
+       "look": "passage",
+       "text": "Displaying a Working Mechanism\n\nA museum display can represent an object either by preserving its appearance or by demonstrating its operation. A complete wooden casing may show what a machine looked like when new, but it can hide the moving parts. An open model, in contrast, allows visitors to follow the movement of those parts. The two displays answer different questions about the same object.\n\nMaking a mechanism visible can support explanations of cause and effect. In a model of a hand-powered pump, a transparent chamber lets observers see how movement of the handle changes the position of water. The model connects an action that occurs outside the chamber with a process that would ordinarily remain hidden. It thus helps explain the relationship between operation and result.\n\nVisibility nevertheless has limits as a teaching method. A rapidly moving part may still be difficult to follow even when nothing covers it. Slowing a demonstration can help because it gives observers more time to distinguish the stages. The choice of display therefore depends not only on what is exposed but also on whether the sequence of events can be examined clearly.",
+       "items": [
+        {
+         "stem": "Why does the author contrast a complete casing with an open model?",
+         "options": [
+          "To show that a casing reveals how the parts move",
+          "To argue that open models are better than casings",
+          "To separate displays that serve different purposes",
+          "To explain why the moving parts were hidden when new"
+         ],
+         "answer": 2,
+         "why": "show what a machine looked like 讲外观，follow the movement 讲运行，The two displays answer different questions 说明两种展示用途不同，即第三项。",
+         "point": "function"
+        },
+        {
+         "stem": "What claim does the transparent pump model support?",
+         "options": [
+          "Visible mechanisms can help explain causal relationships.",
+          "Hand-powered pumps require no internal moving parts.",
+          "A moving handle keeps the inner process hidden from view.",
+          "Transparent materials are essential to all working pumps."
+         ],
+         "answer": 0,
+         "why": "Making a mechanism visible can support explanations of cause and effect 是论点。透明腔室让人看到手柄动作和水的位置变化之间的联系，即第一项。",
+         "point": "claim"
+        },
+        {
+         "stem": "Why does the author mention the extra time provided by a slower demonstration?",
+         "options": [
+          "To reject every display that contains moving parts",
+          "To explain why slowing a process can aid observation",
+          "To show that fast parts are easy to follow if uncovered",
+          "To argue that visibility alone makes the stages clear"
+         ],
+         "answer": 1,
+         "why": "because it gives observers more time to distinguish the stages 说明减速为什么有助于看清各个阶段，即第二项。",
+         "point": "function"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

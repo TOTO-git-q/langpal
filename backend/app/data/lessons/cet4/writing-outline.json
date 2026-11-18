@@ -1,0 +1,433 @@
+{
+ "id": "writing-outline",
+ "title": "提纲提示与段落安排",
+ "goal": "识别提纲各条的写作功能；选择对应提示的段落中心句。",
+ "skill": "写作",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "function",
+   "label": "识别提纲各条的写作功能"
+  },
+  {
+   "id": "paragraph",
+   "label": "选择对应提示的段落中心句"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语四级（CET-4）：课表",
+   "url": "docs/syllabi/cet4.md",
+   "used": "提纲提示与段落安排的教学范围、知识点及写作小测规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "提纲里的三类提示各有任务：原因段解释成因，影响段说明结果，建议段提出行动。同一个话题可以放在不同的段里。中心句要给出这一段任务所需的信息。"
+    },
+    {
+     "box": "Explain why students postpone appointments. Discuss the effects of missed appointments. Suggest ways to improve attendance."
+    },
+    {
+     "p": "why 要求写原因，effects 要求写后果，suggest 要求写行动。This paragraph discusses the effects 只复述了提示，没有写出具体影响。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　标出功能词",
+     "d": "看 why、effects、suggest，确定这一段的任务。Explain why meetings run late 要求写原因，不写迟到的后果。"
+    },
+    {
+     "t": "2　补出具体判断",
+     "d": "中心句把话题和原因、后果或措施连起来。Unclear agendas make meetings run late 写出了具体原因。"
+    },
+    {
+     "t": "3　核对功能与范围",
+     "d": "检查内容是否仍针对提示中的对象。建议段可写 Set a time limit for each topic。会议室的建筑历史与提示无关，不写。"
+    }
+   ]
+  },
+  {
+   "id": "causes-effects",
+   "type": "table",
+   "title": "原因与影响",
+   "cols": [
+    "提示",
+    "复述提示",
+    "对应中心句",
+    "说明"
+   ],
+   "rows": [
+    [
+     "Explain low attendance at a campus poetry event.",
+     "Several reasons explain low attendance at the campus poetry event held last month.",
+     "The late starting time discouraged students who needed to catch the last bus home.",
+     "写出原因本身：开始时间太晚。只说有几个原因不够。"
+    ],
+    [
+     "Explain delays in group reports.",
+     "There are several possible reasons for the delays in the group's recent reports.",
+     "Unclear task assignments caused members to repeat some work while leaving other sections unfinished.",
+     "写出具体成因：分工不清。"
+    ],
+    [
+     "Discuss the effects of a noisy corridor.",
+     "Noise in the corridor can have several effects on students in nearby rooms.",
+     "Repeated interruptions in the corridor make it difficult for nearby students to sustain concentration.",
+     "写学生受到的影响，不写噪声从哪里来。"
+    ],
+    [
+     "Discuss the effects of peer feedback.",
+     "Receiving peer feedback can affect students' work in a number of different ways.",
+     "Comments from classmates help writers notice unclear explanations before they submit their final drafts.",
+     "写出明确的结果：交稿前发现表达不清之处。"
+    ]
+   ]
+  },
+  {
+   "id": "suggestions",
+   "type": "table",
+   "title": "建议与段落范围",
+   "cols": [
+    "提示或情境",
+    "对应中心句",
+    "说明"
+   ],
+   "rows": [
+    [
+     "Suggest ways to reduce unused meal bookings.",
+     "The dining service should send a cancellation reminder before each meal booking becomes final.",
+     "行动针对未用预约。"
+    ],
+    [
+     "Suggest ways to improve workshop access.",
+     "The workshop should offer an evening session for students whose classes occupy the afternoon.",
+     "增设晚间场次，针对下午上课的冲突。"
+    ],
+    [
+     "Discuss the effects of peer feedback.",
+     "Feedback can help writers identify unclear explanations, although reviewers may overlook some problems.",
+     "可以给效果加限定，主体仍写正面的效果。"
+    ],
+    [
+     "Explain delays in group reports.",
+     "The report's attractive cover reflects the members' shared interest in modern graphic design.",
+     "离题：封面设计与报告延误无关。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A campus music room is often booked but left empty. Outline: explain a possible reason, discuss an effect on other users, and suggest a practical change. Some students reserve a room before checking their own timetable. Other students cannot find a free slot even when the room is empty."
+    },
+    {
+     "p": "原因段写未核对课表就预约。影响段写其他人找不到空闲时段。建议段要改变预约或取消的流程。"
+    },
+    {
+     "box": "Cause: Booking before checking personal schedules can produce reservations that students later cannot use.\nEffect: Unused reservations prevent other musicians from obtaining practice time through the booking system.\nSuggestion: A confirmation message should ask students to release any slot they no longer need."
+    },
+    {
+     "p": "确认消息是提出的措施，材料中还没有实施。建议要写成建议，不写成已经出现的结果。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "原因"
+   ],
+   "rows": [
+    [
+     "只复述提示",
+     "There are reasons why reservations remain unused in the campus music room each week.",
+     "没有写出原因。"
+    ],
+    [
+     "原因与影响互换",
+     "Other musicians lose practice time because the booked room remains unavailable in the system.",
+     "这是影响，属于影响段。它没有解释预约为何没用上。"
+    ],
+    [
+     "建议充当事实",
+     "The confirmation message has already eliminated every unused reservation in the booking system.",
+     "把建议写成了已有的结果，材料中没有依据。"
+    ],
+    [
+     "离题扩展",
+     "The music room contains instruments with a long history in different musical traditions.",
+     "乐器的历史与预约问题无关。"
+    ]
+   ]
+  },
+  {
+   "id": "check-short",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "function",
+    "paragraph"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "A paragraph must explain why students abandon online forms. Which sentence fulfills that function?",
+       "options": [
+        "Long forms discourage students who only need to submit a simple request.",
+        "Abandoned forms delay staff responses to other requests submitted by students.",
+        "The form should show only the fields needed for each particular request.",
+        "Several consequences follow when students leave a form unfinished after starting it."
+       ],
+       "answer": 0,
+       "why": "why 要求写原因。Long forms discourage students 说明表格太长让学生放弃，即第一项。",
+       "point": "function"
+      },
+      {
+       "stem": "Which sentence gives a concrete effect of group presentations?",
+       "options": [
+        "This paragraph explains the effects that group presentations have on participating students.",
+        "Group presentations give students practice in coordinating explanations with other speakers.",
+        "Students choose group presentations because they prefer sharing the preparation work.",
+        "Teachers should assign clear speaking roles before students begin preparing their presentations."
+       ],
+       "answer": 1,
+       "why": "题干要具体影响。give students practice in coordinating explanations 写出了小组展示带来的结果，即第二项。第一项只复述提示。",
+       "point": "paragraph"
+      },
+      {
+       "stem": "Which sentence belongs under 'Suggest a response to crowded lockers'?",
+       "options": [
+        "Crowded lockers prevent students from storing all their sports equipment after practice.",
+        "Crowded lockers result partly from equipment left behind at the end of term.",
+        "The sports center should label storage periods and arrange regular removal of abandoned equipment.",
+        "Crowded lockers present a storage problem that deserves attention from the sports center."
+       ],
+       "answer": 2,
+       "why": "Suggest 要求写行动。label 和 arrange 写出了具体办法，即第三项。",
+       "point": "function"
+      },
+      {
+       "stem": "Which center sentence adds content to 'Explain interest in campus debates'?",
+       "options": [
+        "Campus debates are a subject in which many students have recently shown interest.",
+        "Growing interest in debates can affect campus discussion in several different ways.",
+        "Debate organizers should provide clearer instructions for students joining their first event.",
+        "Debates attract students by offering a structured opportunity to defend competing views."
+       ],
+       "answer": 3,
+       "why": "Explain interest 要求写原因。by offering a structured opportunity 说明辩论吸引学生的原因，即第四项。第一项只复述提示。",
+       "point": "paragraph"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-paragraph",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "function",
+    "paragraph"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "Students sometimes miss deadlines for borrowing camera equipment. The request form lists the deadline on a separate page that many applicants do not open. Late requests require extra checking by staff. An essay outline calls for a reason, an effect on staff, and a suggestion addressing the information problem.",
+     "items": [
+      {
+       "stem": "Which content belongs in the reason paragraph?",
+       "options": [
+        "The separate deadline page makes essential information easy for applicants to miss.",
+        "The staff spend extra time checking requests submitted after the borrowing deadline.",
+        "The deadline should appear beside the button used to submit a borrowing request.",
+        "The equipment office needs a discussion of the effects of late borrowing requests."
+       ],
+       "answer": 0,
+       "why": "依据是 lists the deadline on a separate page that many applicants do not open。这是学生漏看截止日期的原因，即第一项。",
+       "point": "function"
+      },
+      {
+       "stem": "Complete the center sentence for the suggestion paragraph.",
+       "lead": "The form should",
+       "chunks": [
+        "place",
+        "the deadline",
+        "beside",
+        "the submission button"
+       ],
+       "tail": ".",
+       "extra": [
+        "hide"
+       ],
+       "why": "问题在于截止日期印在单独一页。place the deadline beside the submission button 正好解决这一点。",
+       "point": "paragraph"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "function",
+    "paragraph"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A college asks for an essay about crowded printing stations. Outline: explain a cause of congestion, discuss its effect on students, and suggest a response. Many users send large files just before class. Queues then prevent others from printing short handouts. A proposal would separate large jobs from quick printing tasks.",
+       "items": [
+        {
+         "stem": "What function should the first body paragraph perform?",
+         "options": [
+          "Explain how last-minute large jobs contribute to queues at printing stations.",
+          "Describe how queues prevent students from obtaining short handouts before class.",
+          "Recommend separate arrangements for large jobs and short classroom handouts.",
+          "Explain why the proposal should separate large jobs from quick printing tasks."
+         ],
+         "answer": 0,
+         "why": "提纲第一项是 explain a cause。Many users send large files just before class 是原因，即第一项。",
+         "point": "function"
+        },
+        {
+         "stem": "Which sentence best introduces the effect paragraph?",
+         "options": [
+          "Last-minute large files are a major reason why queues develop at the stations.",
+          "Long queues leave students unable to print brief handouts before their classes begin.",
+          "A separate service for large jobs should reduce queues at the printing stations.",
+          "The college should explain the cause of queues before discussing possible responses."
+         ],
+         "answer": 1,
+         "why": "依据是 Queues then prevent others from printing short handouts。这是拥挤带来的影响，即第二项。",
+         "point": "paragraph"
+        },
+        {
+         "stem": "Complete the functional description of the suggestion paragraph.",
+         "lead": "The final paragraph should",
+         "chunks": [
+          "propose",
+          "a response",
+          "to",
+          "printing congestion"
+         ],
+         "tail": ".",
+         "extra": [
+          "explain a cause of"
+         ],
+         "why": "提纲最后一项是 suggest a response，对应 propose a response。解释原因属于第一段。",
+         "point": "function"
+        },
+        {
+         "stem": "Complete a center sentence responding to the proposed solution.",
+         "lead": "The printing service should",
+         "chunks": [
+          "separate",
+          "large jobs",
+          "from",
+          "quick printing tasks"
+         ],
+         "tail": ".",
+         "extra": [
+          "combine"
+         ],
+         "why": "依据是 A proposal would separate large jobs from quick printing tasks。用 combine 会把措施改反。",
+         "point": "paragraph"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "An essay outline concerns a student vegetable stall: explain why volunteers lose interest, discuss the effect on opening hours, and recommend a change. Volunteers repeatedly receive the same unpopular shift. Several stop signing up, leaving some mornings without staff. Rotating shifts is proposed, but no change has yet been introduced.",
+       "items": [
+        {
+         "stem": "Which content belongs in the effect paragraph?",
+         "options": [
+          "The same unpopular shift repeatedly discourages volunteers from signing up.",
+          "The stall should rotate unpopular shifts among volunteers on a regular basis.",
+          "Staff shortages leave the stall unable to open on some scheduled mornings.",
+          "The proposed rotation has already restored every scheduled morning opening."
+         ],
+         "answer": 2,
+         "why": "依据是 leaving some mornings without staff。这是志愿者减少的结果，即第三项。第一项写的是原因。",
+         "point": "function"
+        },
+        {
+         "stem": "Which center sentence develops the recommendation?",
+         "options": [
+          "Volunteer interest has declined because the same people receive unpopular shifts.",
+          "Some morning openings are lost when too few volunteers agree to staff them.",
+          "Changes to volunteer schedules are an issue that the stall needs to discuss.",
+          "The stall should share unpopular shifts through a rotation among its volunteers."
+         ],
+         "answer": 3,
+         "why": "依据是 Rotating shifts is proposed。第四项写出轮换班次这一具体建议。",
+         "point": "paragraph"
+        },
+        {
+         "stem": "Complete the description of the cause paragraph.",
+         "lead": "The cause paragraph should",
+         "chunks": [
+          "explain",
+          "the link",
+          "between repeated unpopular shifts",
+          "and declining interest"
+         ],
+         "tail": ".",
+         "extra": [
+          "longer opening hours"
+         ],
+         "why": "原因段解释 repeated unpopular shifts 与 declining interest 的关系。材料没有提到延长营业时间。",
+         "point": "function"
+        },
+        {
+         "stem": "Complete a center sentence for the effect paragraph.",
+         "lead": "The loss of volunteers",
+         "chunks": [
+          "leaves",
+          "some mornings",
+          "without",
+          "enough staff"
+         ],
+         "tail": ".",
+         "extra": [
+          "evenings"
+         ],
+         "why": "材料写的是 some mornings without staff。evenings 在材料中没有出现。",
+         "point": "paragraph"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

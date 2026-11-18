@@ -1,0 +1,214 @@
+{
+  "id": "writing-task1-bar",
+  "title": "柱状图　Task 1 · 练习",
+  "goal": "分组比较主要差异，并准确表达数据。",
+  "skill": "写作",
+  "exam": "雅思 IELTS Academic",
+  "points": [
+    {
+      "id": "select",
+      "label": "选择并分组主要差异"
+    },
+    {
+      "id": "structure",
+      "label": "区分概述与支持细节"
+    },
+    {
+      "id": "accuracy",
+      "label": "准确表达差值与倍数"
+    }
+  ],
+  "sources": [
+    {
+      "id": "syllabus",
+      "title": "雅思 IELTS Academic：课表",
+      "url": "docs/syllabi/ielts.md",
+      "used": "练习尺寸与知识点"
+    },
+    {
+      "id": "writing",
+      "title": "IELTS Academic: Writing test format",
+      "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing",
+      "used": "写作任务的形式"
+    },
+    {
+      "id": "rubric",
+      "title": "IELTS Writing Band Descriptors",
+      "url": "https://ielts.org/cdn/ielts-guides/ielts-writing-band-descriptors.pdf",
+      "used": "写作评分标准"
+    }
+  ],
+  "cards": [
+    {
+      "id": "rubric",
+      "type": "rubric",
+      "title": "评分标准",
+      "levels": [
+        {
+          "score": 5,
+          "name": "Band 8-9",
+          "summary": "充分完成任务，概述清楚，语言运用自如。",
+          "signs": [
+            "准确概括并充分呈现主要特征",
+            "组织连贯，衔接自然",
+            "词汇准确灵活，句式多样，错误极少"
+          ]
+        },
+        {
+          "score": 4,
+          "name": "Band 7",
+          "summary": "完成任务，概述清楚，主要特征有恰当支持。",
+          "signs": [
+            "选择并呈现主要特征，细节可更充分",
+            "结构清楚，衔接基本得当",
+            "词汇与句式有变化，错误较少"
+          ]
+        },
+        {
+          "score": 3,
+          "name": "Band 6",
+          "summary": "涵盖主要特征并尝试概述，但部分细节可能遗漏或不准确。",
+          "signs": [
+            "概述可辨，部分细节不充分或有误",
+            "整体推进清楚，衔接有时机械",
+            "词汇和句式有一定范围，错误反复出现"
+          ]
+        },
+        {
+          "score": 2,
+          "name": "Band 5",
+          "summary": "部分完成任务，概述或主要特征不够清楚。",
+          "signs": [
+            "选择的细节有限，可能遗漏重要特征",
+            "组织有一定顺序，但衔接不稳定",
+            "词汇和句式范围有限，错误有时妨碍理解"
+          ]
+        },
+        {
+          "score": 1,
+          "name": "Band 4 及以下",
+          "summary": "任务完成十分有限，语言困难明显。",
+          "signs": [
+            "主要特征或概述缺失",
+            "组织和衔接有限",
+            "词汇及句式范围很窄，错误频繁并影响理解"
+          ]
+        },
+        {
+          "score": 0,
+          "name": "未作答",
+          "summary": "未作答。",
+          "signs": []
+        }
+      ],
+      "takeaways": [
+        {
+          "t": "四项标准",
+          "d": "按任务完成情况、连贯与衔接、词汇、语法范围与准确性四项等权评价。"
+        }
+      ]
+    },
+    {
+      "id": "marking",
+      "type": "marking",
+      "title": "批改单",
+      "format": [
+        {
+          "t": "题目的要求",
+          "d": "逐条判断是否答到，并引用原文。"
+        },
+        {
+          "t": "分数档",
+          "d": "对照评分标准给出 0–5 分和理由。"
+        },
+        {
+          "t": "必改的地方",
+          "d": "列出最多五处影响理解或准确性的错误及改法。"
+        },
+        {
+          "t": "升一档",
+          "d": "改写一处内容，说明怎样补充细节或表达得更准确。"
+        }
+      ],
+      "rules": "评分依据任务完成情况、连贯与衔接、词汇、语法范围与准确性；四项等权。",
+      "example": {
+        "about": "以下示例说明概述不完整时的判定。",
+        "coverage": [
+          {
+            "bullet": "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+            "verdict": "做了但太薄",
+            "quote": "The figures changed.",
+            "note": "提到了变化，但没有概括主要趋势。"
+          }
+        ],
+        "score": 2,
+        "reason": "描述涉及变化，但没有说明主要特征。",
+        "fixes": [],
+        "upgrade": {
+          "from": "The figures changed.",
+          "to": "Both figures rose, although the second increased more rapidly.",
+          "why": "概括了两组数据的变化方向及主要差异。"
+        },
+        "next": ""
+      }
+    },
+    {
+      "id": "timed",
+      "type": "write",
+      "title": "限时写作",
+      "minutes": 20,
+      "min_words": 150,
+      "points": [
+        "select",
+        "structure",
+        "accuracy"
+      ],
+      "tasks": [
+        {
+          "id": "set-a",
+          "purpose": "比较两个公园的访客量",
+          "setting": "The grouped bar chart below shows the number of visitors to two town parks during four months of one year. The figures are expressed in thousands and count visits to each park, including repeated visits by the same person.\n\nGrouped bar chart: visits (thousands)\nMonth     April  May  June  July\nNorth        10   15    20    25\nSouth        20   20    15    10",
+          "lead": "Write at least 150 words.",
+          "bullets": [
+            "Summarise the information by selecting and reporting the main features, and make comparisons where relevant."
+          ],
+          "must": [
+            "概括两座公园的主要差异，并用数据支持比较。"
+          ],
+          "model": "The bar chart compares visits to two town parks in four months, from April to July. The values are measured in thousands of visits, so an individual visiting more than once is counted on each occasion.\n\nOverall, visits to North Park increased over the period, while the figure for South Park was stable at first and then fell. South was more popular in the first two months, but North received more visits in June and July.\n\nIn April, South Park had 20,000 visits, exactly twice North Park's 10,000. The number visiting South remained at 20,000 in May, whereas North rose to 15,000, reducing the gap to 5,000. The two parks then exchanged positions: in June, North recorded 20,000 visits and South had 15,000.\n\nThe contrast was greatest in July. North reached 25,000 visits, its highest figure in the chart, while South dropped to 10,000, its lowest. Thus the difference between the parks widened to 15,000 in North's favour. Across the four months, North gained 15,000 visits per month, whereas South lost 10,000."
+        },
+        {
+          "id": "set-b",
+          "purpose": "比较两类交通方式的使用人数",
+          "setting": "The grouped bar chart below compares the numbers of pupils who travelled to school by bicycle and by bus in four districts in a single term. Each figure is given in hundreds of pupils and refers to the principal mode used.\n\nGrouped bar chart: pupils (hundreds)\nDistrict       A   B   C   D\nBicycle        2   4   6   8\nBus            8   6   4   2",
+          "lead": "Write at least 150 words.",
+          "bullets": [
+            "Summarise the information by selecting and reporting the main features, and make comparisons where relevant."
+          ],
+          "must": [
+            "概括不同地区的主要差异，并用数据支持比较。"
+          ],
+          "model": "The bar chart shows how many pupils in four districts mainly travelled to school by bicycle or bus during one term. The figures are given in hundreds of pupils.\n\nOverall, the number cycling increased from district A to district D, while the number using buses decreased by the same amount. Bus travel was more common in the first two districts, whereas cycling was the more common mode in the last two.\n\nIn district A, 200 pupils cycled, compared with 800 who used the bus. The bus figure was therefore four times the cycling figure. In district B, the number of cyclists was twice that in A, at 400, while the number of bus users was lower, at 600. The difference between the two modes narrowed from 600 pupils in A to 200 in B.\n\nThe pattern reversed in district C, where 600 pupils cycled and 400 travelled by bus. In district D, the respective figures were 800 and 200. The gap there was 600 pupils, matching the size of the gap in A but favouring the opposite mode. Each district had a combined total of 1,000 pupils across these two categories."
+        }
+      ],
+      "more": {
+        "kind": "task1-bar",
+        "topics": [
+          "公共交通",
+          "图书馆借阅",
+          "社区用水",
+          "家庭能源",
+          "学校出行",
+          "城市绿地",
+          "博物馆参观",
+          "家庭支出",
+          "废物处理",
+          "运动设施",
+          "课程报名",
+          "公园访客",
+          "自行车出行"
+        ]
+      }
+    }
+  ]
+}

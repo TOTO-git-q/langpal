@@ -1,0 +1,541 @@
+{
+ "id": "listening-p2-directions",
+ "title": "方位与路线表达",
+ "goal": "将行进指令对应到路线；用位置关系辨认目标地点。",
+ "skill": "听力",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "direction",
+   "label": "将行进指令对应到路线"
+  },
+  {
+   "id": "position",
+   "label": "用位置关系辨认目标地点"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "雅思 IELTS Academic：课表",
+   "url": "docs/syllabi/ielts.md",
+   "used": "听力：日常独白 Part 2；本课内容、知识点及教学尺寸"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "路线表达说明行走的方向和顺序，位置短语说明目标和地标的关系。turn left 指向哪边，取决于当前的朝向。to the west of 是地图上的方向，不随人的朝向改变。"
+    },
+    {
+     "box": "Facing north, turn left. → west\nFacing south, turn left. → east"
+    },
+    {
+     "p": "路口和建筑分开计数。Pass two buildings and turn at the first junction 是经过两栋建筑，在第一个路口转弯。经过的建筑不算路口。"
+    }
+   ]
+  },
+  {
+   "id": "turns",
+   "type": "table",
+   "title": "转弯与直行",
+   "cols": [
+    "表达",
+    "含义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "turn left",
+     "按当前的朝向向左转。面朝南时，左转是向东。",
+     "At the gate, face south and turn left towards the east."
+    ],
+    [
+     "turn right",
+     "按当前的朝向向右转。面朝西时，右转是向北。",
+     "Face west and turn right towards the north."
+    ],
+    [
+     "take the first left",
+     "进入左边的第一条路。数的是路，不是建筑。",
+     "Take the first left after the office."
+    ],
+    [
+     "take the second right",
+     "经过右边的第一条路，进入第二条。",
+     "Take the second right beyond the entrance."
+    ],
+    [
+     "go straight on",
+     "沿当前的路直走，不转弯。",
+     "At the crossroads, go straight on."
+    ],
+    [
+     "continue ahead",
+     "继续向前走，没有说转弯。",
+     "Continue ahead until the gate."
+    ],
+    [
+     "keep going",
+     "继续走，停在哪里由后面的话说明。",
+     "Keep going until the road ends."
+    ],
+    [
+     "follow the path",
+     "沿着所说的小路走，路转弯时随之转弯。",
+     "Follow the path around the garden."
+    ]
+   ]
+  },
+  {
+   "id": "passing",
+   "type": "table",
+   "title": "经过与路口",
+   "cols": [
+    "表达",
+    "含义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "go past",
+     "从地标旁边走过，不停下。",
+     "Go past the café to the office."
+    ],
+    [
+     "walk past",
+     "从建筑旁边走过，不进去。",
+     "Walk past the hall without entering it."
+    ],
+    [
+     "just beyond",
+     "刚走过某个地点就到。还要听清在路的哪一侧。",
+     "The gate is just beyond the shop on the left."
+    ],
+    [
+     "cross the road",
+     "从路的一侧走到另一侧。",
+     "Cross the road to the hall opposite."
+    ],
+    [
+     "go across",
+     "穿过一片区域，到它的另一边。",
+     "Go across the square to the tower."
+    ],
+    [
+     "go over the bridge",
+     "从桥上过去。",
+     "Go over the bridge and stop at its far end."
+    ],
+    [
+     "at the junction",
+     "在两条路相接的地方转弯或停下。",
+     "Turn left at the junction."
+    ],
+    [
+     "at the crossroads",
+     "在十字路口转弯、直行或停下。",
+     "Go straight on at the crossroads."
+    ]
+   ]
+  },
+  {
+   "id": "positions",
+   "type": "table",
+   "title": "相对位置",
+   "cols": [
+    "表达",
+    "含义",
+    "例句"
+   ],
+   "rows": [
+    [
+     "opposite",
+     "在路的另一侧，正对着参照物。",
+     "The office is opposite the café."
+    ],
+    [
+     "across from",
+     "隔着街道或通道，与参照物相对。",
+     "The garden is across from the hall."
+    ],
+    [
+     "next to",
+     "紧邻，中间没有另一个地点。",
+     "The shop is next to the café."
+    ],
+    [
+     "beside",
+     "在旁边，没有说是哪一侧。",
+     "The gate is beside the office."
+    ],
+    [
+     "between … and …",
+     "位于两个参照物之间。",
+     "The café is between the shop and the junction."
+    ],
+    [
+     "at the end of",
+     "在所说的那条路的尽头。",
+     "The tower is at the end of the main street."
+    ],
+    [
+     "on the left of",
+     "在参照物的左边。左右按说话时的朝向判断。",
+     "Facing the doors, the desk is on the left of the lift."
+    ],
+    [
+     "to the north of",
+     "按地图方向在北边，与行进方向无关。",
+     "The tower is to the north of the junction."
+    ]
+   ]
+  },
+  {
+   "id": "contrast",
+   "type": "table",
+   "title": "方位与计数",
+   "cols": [
+    "情况",
+    "规则",
+    "例句"
+   ],
+   "rows": [
+    [
+     "北行与南行",
+     "同样是左转，图上的方向相反。",
+     "North then left: west. South then left: east."
+    ],
+    [
+     "东行与西行",
+     "同样是右转，图上的方向相反。",
+     "East then right: south. West then right: north."
+    ],
+    [
+     "路口数量",
+     "只数道路相接的地方，沿街的门口不算。",
+     "Pass the café and shop; turn at the first junction."
+    ],
+    [
+     "建筑数量",
+     "只数指定一侧的建筑，路口不算。",
+     "The second building on the left is beyond the first shop."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Training square\nN ↑   W ← + → E   S ↓\nJ2 ↑ [Tower]\n[Hall] ← J2 → [Garden]\nJ1 ↑ J2\n[Shop] ← [Café] ← J1 → [Office]\n[Gate] ↑ J1\nKey: arrows = street links in the direction shown; J1 / J2 = junctions.\nSchematic; not to scale."
+    },
+    {
+     "box": "Start at the gate and walk north. Take the second left. The destination is at the end of that branch.\nWhich place is the destination?\n1. Shop\n2. Café\n3. Hall\n4. Garden"
+    },
+    {
+     "p": "第三项正确。从 Gate 向北，先到 J1，再到 J2。second left 是 J2 向西的支路，尽头是 Hall。Shop 要在 J1 左转、经过 Café 才到；数路口时不数建筑。"
+    },
+    {
+     "box": "Start at the tower and walk south to J2. Turn left. → Garden"
+    },
+    {
+     "p": "同一张图上，向南走时左转是向东，所以到达 Garden。地图的方向固定，人的左右随朝向改变。"
+    }
+   ]
+  },
+  {
+   "id": "check-directions",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "direction",
+    "position"
+   ],
+   "groups": [
+    {
+     "text": "Practice yard\nN ↑   W ← + → E\nJunction ↑ [Tank]\n[Workshop] ← Junction → [Store]\n[Gate] ↑ Junction\nKey: arrows = road links. Not to scale.",
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The practice yard has a straight road running north from the gate to a tank. A workshop stands on the west branch at the first junction, opposite a store on the east branch. Start at the gate, walk north to that junction and turn right. That's the route to the store. Now start again at the tank, facing south. At the same junction, a right turn leads to the workshop. The workshop and store face each other across the main road. The tank stands at the northern end of that road."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Starting from the gate, which compass direction does the right turn take?",
+       "options": [
+        "North towards the tank",
+        "South towards the gate",
+        "West towards the workshop",
+        "East towards the store"
+       ],
+       "answer": 3,
+       "why": "依据是 walk north to that junction and turn right。向北走时右转是向东，通向 store，即第四项。",
+       "point": "direction"
+      },
+      {
+       "stem": "Starting from the tank, which compass direction does the right turn take?",
+       "options": [
+        "North towards the tank",
+        "West towards the workshop",
+        "East towards the store",
+        "South towards the gate"
+       ],
+       "answer": 1,
+       "why": "依据是 start again at the tank, facing south。面朝南时右转是向西，通向 workshop，即第二项。",
+       "point": "direction"
+      },
+      {
+       "stem": "Which place is opposite the workshop?",
+       "options": [
+        "The tank at the north end",
+        "The gate at the south end",
+        "The store on the east branch",
+        "The junction on the main road"
+       ],
+       "answer": 2,
+       "why": "依据是 A workshop stands on the west branch … opposite a store on the east branch。与 workshop 相对的是 store，即第三项。",
+       "point": "position"
+      },
+      {
+       "stem": "Where is the tank?",
+       "options": [
+        "At the northern end of the road",
+        "At the southern end of the road",
+        "At the end of the western branch",
+        "At the end of the eastern branch"
+       ],
+       "answer": 0,
+       "why": "依据是 The tank stands at the northern end of that road，即第一项。",
+       "point": "position"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-position",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "direction",
+    "position"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Our market lane runs east from the arch to the clock. The stalls on its north side are, from west to east, fruit, bread and cheese. The flower stall is across the lane from the bread stall. Walk east past the fruit stall and stop at the second stall on the north side: that's bread. There isn't a junction between those stalls, so counting stalls doesn't mean counting turnings. To reach the flower stall, cross the lane from bread. To reach the clock, remain in the lane and continue straight ahead."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which action reaches bread from the arch?",
+       "options": [
+        "Taking the second turning into the lane",
+        "Crossing the lane beside the flowers",
+        "Passing fruit and stopping at the next stall",
+        "Passing cheese and reaching the clock"
+       ],
+       "answer": 2,
+       "why": "依据是 Walk east past the fruit stall and stop at the second stall。经过水果摊，停在下一个摊位，即第三项。second 数的是摊位，不是路口。",
+       "point": "direction"
+      },
+      {
+       "stem": "How is the flower stall reached from bread?",
+       "options": [
+        "By crossing to the other side of the lane",
+        "By going east to the end of the lane",
+        "By returning west to the entrance arch",
+        "By passing the neighbouring cheese stall"
+       ],
+       "answer": 0,
+       "why": "依据是 To reach the flower stall, cross the lane from bread。从面包摊横穿到路对面，即第一项。",
+       "point": "direction"
+      },
+      {
+       "stem": "Which stall stands between fruit and cheese?",
+       "options": [
+        "The stall closest to the market clock",
+        "The first stall east of the arch",
+        "The stall across the lane from bread",
+        "The bread stall in the north row"
+       ],
+       "answer": 3,
+       "why": "依据是 from west to east, fruit, bread and cheese。夹在 fruit 和 cheese 之间的是 bread，即第四项。第三项是 bread 对面的花摊。",
+       "point": "position"
+      },
+      {
+       "stem": "What is at the eastern end of the lane?",
+       "options": [
+        "The entrance arch",
+        "The market clock",
+        "The flower stall",
+        "The fruit stall"
+       ],
+       "answer": 1,
+       "why": "依据是 runs east from the arch to the clock。路的东端是 clock，即第二项。",
+       "point": "position"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "direction",
+    "position"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "Vehicle display ground\nN ↑   W ← + → E   S ↓\nJ2 ↑ [Signal box]\n[Bus] ← J2 → [Tractor]\nJ1 ↑ J2\n[Garage] ← J1 → [Wash bay]\n[Public gate] ↑ J1\nKey: arrows = road links; J1 / J2 = junctions. Not to scale.",
+       "audio": {
+        "intro": "Listen to the introduction.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Here's the layout of the vehicle display ground. North is at the top of the plan, and the public gate is at the southern end of the central road. The first junction north of the gate has the garage on its west branch and the wash bay on its east branch. Continuing north leads to the second junction. There, the bus stands at the western end and the tractor at the eastern end. A signal box is at the northern end of the central road. For the bus, begin at the public gate, go straight on at the first junction and take the second left. That means counting junctions, not vehicles beside the road. For a different route, begin at the signal box, face south and turn left at the second junction shown on the plan, which is the first junction reached from the signal box. This leads to the tractor. The garage is opposite the wash bay across the central road. The signal box is beyond both junctions when approached from the gate. All these locations are connected by the road links shown; there is no need to pass through a display to reach another branch."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which place is reached by taking the second left from the public gate?",
+         "options": [
+          "The bus display",
+          "The garage building",
+          "The tractor display",
+          "The wash bay"
+         ],
+         "answer": 0,
+         "why": "依据是 go straight on at the first junction and take the second left。第二个路口向西是 bus，即第一项。",
+         "point": "direction"
+        },
+        {
+         "stem": "Which direction is the left turn from the signal box towards the tractor?",
+         "options": [
+          "West at the junction nearer the box",
+          "East at the junction nearer the box",
+          "East at the junction nearer the gate",
+          "West at the junction nearer the gate"
+         ],
+         "answer": 1,
+         "why": "依据是 begin at the signal box, face south and turn left at … the first junction reached from the signal box。面朝南时左转是向东，路口是离 signal box 近的那个，即第二项。",
+         "point": "direction"
+        },
+        {
+         "stem": "Which place is opposite the garage?",
+         "options": [
+          "The bus display",
+          "The signal box",
+          "The wash bay",
+          "The public gate"
+         ],
+         "answer": 2,
+         "why": "依据是 The garage is opposite the wash bay across the central road，即第三项。",
+         "point": "position"
+        },
+        {
+         "stem": "Which place is at the northern end of the central road?",
+         "options": [
+          "The garage building",
+          "The tractor display",
+          "The public gate",
+          "The signal box"
+         ],
+         "answer": 3,
+         "why": "依据是 A signal box is at the northern end of the central road，即第四项。",
+         "point": "position"
+        }
+       ]
+      },
+      {
+       "text": "Food festival\nN ↑   W ← + → E   S ↓\nNorth-side stall row: [Soup] → [Salad] → [Pies]\n[Drinks] ↑ across Main Street ↑ [Salad]\nARCH → Main Street → Crossroads → CLOCK\nCrossroads ↑ [Tasting tent]\nCrossroads ↓ [Seating area]\nKey: arrows = street links or stated stall order; north-side stalls lie along Main Street before Crossroads.\nSchematic; not to scale.",
+       "audio": {
+        "intro": "Listen to the introduction.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "This plan covers the food festival's pedestrian streets. The entrance arch is on the west side, and a clock stands at the eastern end of the main street. Walking east from the arch, the stalls on the north side are soup, salad and pies, in that order. There are no side streets between these stalls. The drinks stall is opposite the salad stall, on the south side of the street. Just east of the pies stall is a crossroads. From that crossroads, a short northern street leads to the tasting tent, while the southern street ends at the seating area. The clock remains straight ahead on the main street. To reach the salad stall from the arch, walk past soup and stop at the next stall on the same side. The instruction refers to the second stall, not a second junction. For the seating area, keep walking east past all three food stalls and turn right at the crossroads. For the tasting tent, the turn would be left instead. The salad stall has soup immediately to its west and pies immediately to its east. Drinks are across the street, rather than part of that row."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Which route from the arch reaches the salad stall?",
+         "options": [
+          "Turn at the second street beyond the soup stall.",
+          "Pass every food stall and turn towards the tent.",
+          "Cross the street after passing the pies stall.",
+          "Pass soup and stop at the next northern stall."
+         ],
+         "answer": 3,
+         "why": "依据是 walk past soup and stop at the next stall on the same side。经过 soup，停在同一排的下一个摊位，即第四项。",
+         "point": "direction"
+        },
+        {
+         "stem": "Which direction does the right turn towards the seating area take?",
+         "options": [
+          "North from the crossroads",
+          "East from the crossroads",
+          "South from the crossroads",
+          "West from the crossroads"
+         ],
+         "answer": 2,
+         "why": "依据是 keep walking east past all three food stalls and turn right at the crossroads。向东走时右转是向南，即第三项。",
+         "point": "direction"
+        },
+        {
+         "stem": "Which stall is between soup and pies?",
+         "options": [
+          "The drinks stall on the south side",
+          "The salad stall in the north row",
+          "The first stall after the arch",
+          "The stall next to the crossroads"
+         ],
+         "answer": 1,
+         "why": "依据是 The salad stall has soup immediately to its west and pies immediately to its east，即第二项。第一项的 drinks 在街对面，不在这一排。",
+         "point": "position"
+        },
+        {
+         "stem": "Which stall is across the main street from salad?",
+         "options": [
+          "The drinks stall",
+          "The soup stall",
+          "The pies stall",
+          "The tasting tent"
+         ],
+         "answer": 0,
+         "why": "依据是 The drinks stall is opposite the salad stall, on the south side of the street，即第一项。",
+         "point": "position"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

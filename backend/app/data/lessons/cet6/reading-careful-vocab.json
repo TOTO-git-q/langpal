@@ -1,0 +1,68 @@
+{
+ "id": "reading-careful-vocab",
+ "title": "词句含义题",
+ "goal": "利用上下文线索推断语境义，代入释义核对对象与语气。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "clue", "label": "利用上下文推出词句的语境义"},
+  {"id": "substitute", "label": "代入释义核对原句含义"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读理解能力的课程安排"}],
+ "cards": [
+  {"id": "what", "type": "text", "title": "题型", "body": [
+   {"p": "词句含义题问一个词或一句话在上下文中的意思。常见的词在文中可能用的是不常见的意思。"},
+   {"box": "What does the word 'address' mean in the passage?\nWhat does the sentence suggest in this context?"},
+   {"p": "例如 address the problem 中的 address 指处理，不是地址。选出的释义要适合 problem 这个宾语，也要符合句子的语气。"}
+  ]},
+  {"id": "steps", "type": "steps", "title": "解题步骤", "steps": [
+   {"t": "1　定位词句", "d": "找到题干指定的词或句子，并确定它所涉及的对象。读完整句和前后句，寻找解释或关系线索。"},
+   {"t": "2　判断线索", "d": "根据定义、同义复现、对比、举例或因果关系推出含义。例如 although 引出的对比可以确定语境义。"},
+   {"t": "3　代入核对", "d": "把释义放回原句，核对对象和语气。只是搭配通顺还不够，意思要和前后文一致。"}
+  ]},
+  {"id": "clues", "type": "table", "title": "上下文线索", "cols": ["线索", "原文", "语境义"], "rows": [
+   ["定义", "A reserve is a supply kept for later use.", "reserve 是储备"],
+   ["同义复现", "The route was brief. It took little time.", "brief 表示用时短"],
+   ["对比", "Unlike the rigid cover, the flexible sheet bends easily.", "flexible 表示可弯曲"],
+   ["举例", "The room held instruments, including violins and flutes.", "instruments 指乐器"],
+   ["因果", "The path was obstructed by fallen branches, so walkers turned back.", "obstructed 表示受阻"]
+  ]},
+  {"id": "worked", "type": "text", "title": "例题", "body": [
+   {"box": "The committee decided to address the delay by changing the delivery schedule. It kept the same suppliers and did not change their addresses."},
+   {"box": "What does 'address' mean in the first sentence?\n1. Write a location on\n2. Take action about\n3. Change the suppliers of\n4. Report the location of"},
+   {"p": "changing the delivery schedule 说明委员会采取了措施解决延误。address 的宾语是 delay，代入 take action about 意思通顺，答案是第二项。"},
+   {"p": "后句中的 addresses 是供应商的地址。第一句的 address 与它词形相近，语境义不同。"}
+  ]},
+  {"id": "traps", "type": "table", "title": "干扰项", "cols": ["类型", "例", "排除依据"], "rows": [
+   ["常见字面义", "address 理解为写地址", "对象是 delay"],
+   ["相邻信息错配", "改变供应商", "原文保留供应商"],
+   ["搭配成立但不符", "report the delay", "原文用改变安排处理延误"],
+   ["程度改变", "彻底消除所有延误", "原文只说采取措施"]
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["clue", "substitute"], "groups": [
+   {"look": "passage", "text": "A reserve is a supply kept for later use. The kitchen stored a reserve of flour.", "items": [{"stem": "What does 'reserve' mean here?", "options": ["Flour used up on the same day", "A supply saved for a later time", "A kitchen room for storing flour", "A record of the flour stored"], "answer": 1, "why": "首句给出定义：A reserve is a supply kept for later use，即第二项。", "point": "clue"}]},
+   {"look": "passage", "text": "Unlike the rigid cover, the flexible sheet bent easily when the box was closed.", "items": [{"stem": "What does 'flexible' mean here?", "options": ["Difficult to close", "Made to cover boxes", "Able to bend easily", "Firm enough to resist bending"], "answer": 2, "why": "Unlike 表示与 rigid 对比，bent easily 指明 flexible 的含义。", "point": "clue"}]},
+   {"look": "passage", "text": "The chair asked the group to table the proposal until the next meeting. The members agreed to postpone discussion.", "items": [{"stem": "What does 'table' mean here?", "options": ["Put the proposal on a table", "Discuss the proposal in full", "Reject the proposal permanently", "Delay discussion of the plan"], "answer": 3, "why": "postpone discussion 复现了 table 在此处的含义。", "point": "substitute"}]},
+   {"look": "passage", "text": "Fallen branches obstructed the path, so walkers turned back instead of continuing along it.", "items": [{"stem": "What does 'obstructed' mean here?", "options": ["Blocked the path", "Extended the path", "Marked the path", "Cleared the path"], "answer": 0, "why": "树枝使行人返回，因果关系支持道路被阻塞。", "point": "substitute"}]}
+  ]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["clue", "substitute"], "groups": [
+   {"look": "passage", "text": "A town tested a modest change to its market schedule: the market stayed open one extra hour on Fridays. The trial was limited to that evening. Vendors reported that a few customers came during the additional hour, and the town planned to review the costs before extending the trial.", "items": [
+    {"stem": "What does 'modest' mean in this passage?", "options": ["Popular with many customers", "Small and limited in scale", "Expensive to keep running", "Permanent in its duration"], "answer": 1, "why": "one extra hour 和 limited to that evening 说明这次改变规模很小，即第二项。", "point": "clue"},
+    {"stem": "What does 'extending the trial' mean here?", "options": ["Closing the market during the trial", "Reviewing the costs of the trial", "Continuing the experiment for longer", "Removing the additional Friday hour"], "answer": 2, "why": "review the costs before extending the trial 表示审核成本后决定是否延长试行。", "point": "substitute"}
+   ]}
+  ]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["clue", "substitute"], "sets": [{"id": "set-a", "groups": [
+   {"look": "passage", "text": "A community theater stored its costumes in a room behind the stage. Over time, the collection grew, and volunteers found it increasingly difficult to locate individual items. The director suggested a catalogue: a list describing each costume and where it was kept. Volunteers photographed the items and assigned each one a number.\n\nThe catalogue did not require the theater to buy new costumes. Instead, it made the existing collection more accessible. For example, a volunteer looking for a blue coat could search the list and find the correct storage box. Before the list existed, the same search could involve opening several boxes.\n\nThe volunteers also identified costumes that needed repairs. They marked these items as unavailable until the work was complete. The director described the catalogue as a practical investment of time: making the list required several weekends, but it reduced repeated searches during later productions. The theater planned to update the list whenever a costume was added or moved. It kept a printed copy near the storage room as well as an electronic version at the office.", "items": [
+    {"stem": "What does 'catalogue' mean in the first paragraph?", "options": ["A descriptive list of the collection", "A set of new costumes bought for the stage", "A room for storing the costumes", "A photograph of each costume"], "answer": 0, "why": "冒号后的 a list describing each costume and where it was kept 定义了 catalogue。", "point": "clue"},
+    {"stem": "What does 'accessible' mean in the second paragraph?", "options": ["Suitable for use in a new stage production", "Stored in more boxes than before", "Easier for volunteers to find and use", "Kept in a room behind the stage"], "answer": 2, "why": "后面的例子说，查清单就能找到蓝外套所在的箱子。清单让现有服装更容易找到和使用，即第三项。", "point": "clue"},
+    {"stem": "What does 'a practical investment of time' suggest?", "options": ["The list removed the need for later repairs.", "The initial work saved effort in later searches.", "The volunteers spent every weekend on productions.", "The director bought costumes instead of listing them."], "answer": 1, "why": "making the list required several weekends, but it reduced repeated searches 说明前期投入减少后续查找。", "point": "substitute"}
+   ]},
+   {"look": "passage", "text": "A small town operates a bicycle repair station near its railway platform. The station has a pump and a set of basic tools attached to a stand. People can use them without charge, but they must bring replacement parts if a repair requires them. The town installed the stand after hearing that some travelers had no convenient place to deal with minor problems before a journey.\n\nAfter the first season, staff found that the pump was used frequently. Some tools, however, were rarely used. Rather than removing them immediately, the town asked users which repairs they attempted. Several people said that they used the pump but took more complicated repairs to a shop.\n\nThe town decided to retain the basic tools for another season and to monitor their use. Here, monitor means to observe and record use over time. Staff also added a sign explaining that the station was intended for minor repairs. The sign did not promise that every bicycle problem could be solved there. At the end of the next season, the town planned to compare its records before deciding whether the equipment should change.", "items": [
+    {"stem": "What does 'minor' mean in the first paragraph?", "options": ["Requiring a visit to a repair shop", "Relatively small in difficulty or extent", "Involving every tool at the station", "Happening only near the railway platform"], "answer": 1, "why": "第二段把用打气筒和把 more complicated repairs 送到车店对比。minor 指较简单的小问题，即第二项。", "point": "clue"},
+    {"stem": "What does 'monitor' mean in the last paragraph?", "options": ["Remove equipment after one use", "Replace the repair station sign", "Promise repairs for every bicycle", "Observe and record use over time"], "answer": 3, "why": "原文直接将 monitor 定义为 observe and record use over time。", "point": "clue"},
+    {"stem": "What does 'retain the basic tools' mean here?", "options": ["Keep the basic tools at the station", "Sell the basic tools to a shop", "Replace every tool with a pump", "Remove the tools that were rarely used"], "answer": 0, "why": "Rather than removing them immediately 和 for another season 说明 retain 指继续保留，即第一项。", "point": "substitute"}
+   ]}
+  ]}]}
+ ]
+}

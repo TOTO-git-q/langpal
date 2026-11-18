@@ -1,0 +1,516 @@
+{
+ "id": "listening-p2-matching",
+ "title": "项目与特征配对",
+ "goal": "听出每个项目的区别性特征；按完整条件匹配选项。",
+ "skill": "听力",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "feature",
+   "label": "听出每个项目的区别性特征"
+  },
+  {
+   "id": "match",
+   "label": "按完整条件匹配选项"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "雅思 IELTS Academic：课表",
+   "url": "docs/syllabi/ielts.md",
+   "used": "听力：日常独白 Part 2；本课内容、知识点及教学尺寸"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "配对题要求为每个项目从同一份选项中选出对应的特征。项目名称用来跟上介绍的顺序，特征用来区分选项。听到选项里的某个词，不一定就是匹配。"
+    },
+    {
+     "box": "The workshop isn't for children. Adults need no previous experience, but there is a materials charge."
+    },
+    {
+     "p": "这段话同时限定了年龄、经验和费用。提到 children 的句子是否定句。need no previous experience 对应 beginners。materials charge 说明要付费，免费的选项可以排除。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　比较词库差异",
+     "d": "先确定选项比较的是年龄、费用还是用途。free sessions for adults 与 free sessions for families 的区别是对象，不是费用。"
+    },
+    {
+     "t": "2　记录项目特征",
+     "d": "听到新的项目名称，就开始记下一个项目。The morning group is free; the evening group costs five pounds 一句里，两组的收费不同。"
+    },
+    {
+     "t": "3　保留否定和限制",
+     "d": "每个选项都要核对全部条件。Adults only excludes accompanied children：有成人陪同的儿童也不能参加。"
+    },
+    {
+     "t": "4　确认匹配范围",
+     "d": "按题面的说明决定选项能否重复使用。题面写 Each option may be used more than once 时，同一特征可以对应几个项目，有的选项也可以不用。"
+    }
+   ]
+  },
+  {
+   "id": "features",
+   "type": "table",
+   "title": "区别性特征",
+   "cols": [
+    "维度",
+    "规则",
+    "例句"
+   ],
+   "rows": [
+    [
+     "年龄",
+     "听完整的年龄范围，不只听 children 一个词。",
+     "Children may watch, but only adults can take part."
+    ],
+    [
+     "费用",
+     "活动免费时，材料或租借可能另外收费。",
+     "Tuition is free; equipment hire is extra."
+    ],
+    [
+     "经验",
+     "无需经验对应初学者，与年龄无关。",
+     "No previous experience is required."
+    ],
+    [
+     "陪同",
+     "成人陪同是另加的条件，年龄限制仍然有效。",
+     "Children aged eight to twelve must bring an adult."
+    ],
+    [
+     "功能",
+     "观看、复制、借用是不同用途。",
+     "The room is for viewing documents, not borrowing them."
+    ],
+    [
+     "组合条件",
+     "同时满足对象和费用才成立。",
+     "Adults with some experience can attend at no cost."
+    ]
+   ]
+  },
+  {
+   "id": "paraphrase",
+   "type": "table",
+   "title": "同义改写与范围",
+   "cols": [
+    "原文",
+    "对应特征",
+    "说明"
+   ],
+   "rows": [
+    [
+     "There is no charge for taking part.",
+     "Free participation",
+     "另收材料费时，不能说全部免费。"
+    ],
+    [
+     "It is intended for those trying it for the first time.",
+     "Suitable for beginners",
+     "只说明是初次参加，没有说年龄。"
+    ],
+    [
+     "Participants must already know the basic steps.",
+     "Previous experience required",
+     "know the basic steps 是已有基础。"
+    ],
+    [
+     "An adult must stay with each child.",
+     "Adult accompaniment required",
+     "参加者是儿童，由成人陪同。"
+    ],
+    [
+     "The equipment stays in this room.",
+     "For use on site only",
+     "只能在室内使用，不能外借。"
+    ],
+    [
+     "Staff make a digital copy and return the original.",
+     "Document digitisation",
+     "原件当场归还，不留存。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The knot-tying session welcomes adults who have never tried it. Children can look at the display, but they can't join the session. There is no teaching fee; however, each participant pays for a pack of cord."
+    },
+    {
+     "box": "Match the knot-tying session.\n1. free participation with all materials supplied\n2. paid participation for adult beginners\n3. free participation for accompanied children\n4. paid participation requiring previous experience"
+    },
+    {
+     "p": "答案是第二项。adults who have never tried it 对应 adult beginners。pays for a pack of cord 说明参加要付费；no teaching fee 只是不收教学费。"
+    },
+    {
+     "p": "第三项用了 children，但原文中儿童只能观看展示。第四项付费相符，但多了需要经验的条件。两项都只对了一部分。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "原文",
+    "排除依据"
+   ],
+   "rows": [
+    [
+     "被提及但不适用",
+     "Children may watch, not participate.",
+     "children 只能观看，不能参加。"
+    ],
+    [
+     "仅符合费用",
+     "Free for experienced adults.",
+     "费用相符，还要满足有经验这一条。"
+    ],
+    [
+     "仅符合对象",
+     "Adults pay for materials.",
+     "对象相符，但材料要付费。"
+    ],
+    [
+     "功能扩大",
+     "View copies; originals remain in storage.",
+     "只能看复制件，原件不外借。"
+    ],
+    [
+     "误判改写",
+     "First-time visitors need no training.",
+     "need no training 只说明不需要经验，没有排除熟练者。"
+    ]
+   ]
+  },
+  {
+   "id": "check-short",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "feature",
+    "match"
+   ],
+   "groups": [
+    {
+     "text": "Marbling session",
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The marbling session costs nothing, including the paper. It is for adults who are trying the craft for the first time; experienced participants have a different session."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Match the marbling session.",
+       "options": [
+        "Free sessions for adult beginners",
+        "Paid sessions for adult beginners",
+        "Free sessions for experienced adults",
+        "Paid sessions for experienced adults"
+       ],
+       "answer": 0,
+       "why": "依据是 costs nothing, including the paper 和 adults who are trying the craft for the first time。免费、成人、初学者三项都符合，即第一项。",
+       "point": "feature"
+      }
+     ]
+    },
+    {
+     "text": "Reed weaving class",
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The reed weaving class is open to adults with no experience. Everyone pays for a starter kit, although the instruction itself is free."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Match the reed weaving class.",
+       "options": [
+        "Free sessions and a free kit for adult beginners",
+        "Free sessions but a paid kit for adult beginners",
+        "Free sessions but a paid kit for experienced adults",
+        "Paid sessions but a free kit for adult beginners"
+       ],
+       "answer": 1,
+       "why": "依据是 adults with no experience 和 Everyone pays for a starter kit, although the instruction itself is free。对象是没有经验的成人，教学免费，材料包收费，即第二项。",
+       "point": "match"
+      }
+     ]
+    },
+    {
+     "text": "Advanced paper-cutting group",
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The advanced paper-cutting group is for adults who already know the basic techniques. There is no fee for either tuition or materials."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Match the advanced paper-cutting group.",
+       "options": [
+        "Free sessions for adult beginners",
+        "Paid sessions for adult beginners",
+        "Free sessions for experienced adults",
+        "Paid sessions for experienced adults"
+       ],
+       "answer": 2,
+       "why": "依据是 already know the basic techniques 和 no fee for either tuition or materials。有经验的成人，不收费，即第三项。",
+       "point": "feature"
+      }
+     ]
+    },
+    {
+     "text": "Leaf-rubbing activity",
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The leaf-rubbing activity is free, with paper included. It's for children, and an adult must remain with each child; adults can't attend on their own."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Match the leaf-rubbing activity.",
+       "options": [
+        "Free sessions for adult beginners",
+        "Paid sessions for adult beginners",
+        "Free sessions for experienced adults",
+        "Free sessions for children with an adult"
+       ],
+       "answer": 3,
+       "why": "依据是 It's for children, and an adult must remain with each child。参加者是儿童，由成人陪同，即第四项。",
+       "point": "match"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-talk",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "feature",
+    "match"
+   ],
+   "groups": [
+    {
+     "text": "Lending-room services\nEach option may be used once.",
+     "audio": {
+      "intro": "Listen to the introduction.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "The neighbourhood lending room has three service areas. At the checking bench, volunteers examine returned tools and record any damage before the tools go back into storage. The collection shelf holds items that borrowers have already reserved. It isn't a place for leaving returns. Finally, the advice corner is for discussing which tool suits a particular job. No equipment is collected there. Volunteers can explain the differences between tools, but they don't carry out customers' projects. Returns must first reach the checking bench, even if a borrower already has another reservation waiting on the collection shelf."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Match the checking bench.",
+       "options": [
+        "Collecting reserved tools",
+        "Leaving unchecked returns",
+        "Choosing suitable equipment",
+        "Checking returned items",
+        "Having a project completed"
+       ],
+       "answer": 3,
+       "why": "依据是 volunteers examine returned tools and record any damage，对应 Checking returned items。",
+       "point": "feature"
+      },
+      {
+       "stem": "Match the collection shelf.",
+       "options": [
+        "Collecting reserved tools",
+        "Leaving unchecked returns",
+        "Choosing suitable equipment",
+        "Checking returned items",
+        "Having a project completed"
+       ],
+       "answer": 0,
+       "why": "依据是 The collection shelf holds items that borrowers have already reserved，对应 Collecting reserved tools。It isn't a place for leaving returns 排除了 Leaving unchecked returns。",
+       "point": "match"
+      },
+      {
+       "stem": "Match the advice corner.",
+       "options": [
+        "Collecting reserved tools",
+        "Leaving unchecked returns",
+        "Choosing suitable equipment",
+        "Checking returned items",
+        "Having a project completed"
+       ],
+       "answer": 2,
+       "why": "依据是 the advice corner is for discussing which tool suits a particular job，对应 Choosing suitable equipment。志愿者不替人完成项目。",
+       "point": "match"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "feature",
+    "match"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "text": "Movement workshops\nEach option may be used once.",
+       "audio": {
+        "intro": "Listen to the introduction.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "I'm introducing the movement workshops for our community weekend. Each workshop has its own entry conditions, so the arrangements for one group don't apply to the others. The Circle Dance session is for children aged seven to ten, with an adult taking part alongside each child. Nobody pays, and no previous dancing experience is needed. Adults without children can't join that session. Stage Movement is different. It's for teenagers aged thirteen to seventeen who are new to performance. There is a small participation fee, which includes all the materials. Experienced performers are being directed to a separate event, rather than this beginners' workshop. Finally, Balance Practice is for adults who have already completed an introductory class. It's free to attend, but completion of that earlier class is required. Being an adult isn't sufficient on its own. Families sometimes ask whether younger children can watch Balance Practice, but that room is reserved for participants, so children aren't admitted even as observers. Details of paid workshops for experienced adults will be announced later; none of those workshops is part of this weekend's programme. The registration desk can confirm which conditions apply before a place is reserved."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Match Circle Dance.",
+         "options": [
+          "Free workshops for adult beginners",
+          "Paid workshops for teenage beginners",
+          "Paid workshops for experienced adults",
+          "Free workshops for adults with prior training",
+          "Free workshops for children accompanied by adults",
+          "Paid workshops for children attending alone"
+         ],
+         "answer": 4,
+         "why": "依据是 children aged seven to ten, with an adult taking part alongside each child 和 Nobody pays，对应 Free workshops for children accompanied by adults。",
+         "point": "match"
+        },
+        {
+         "stem": "Match Stage Movement.",
+         "options": [
+          "Free workshops for adult beginners",
+          "Paid workshops for teenage beginners",
+          "Paid workshops for experienced adults",
+          "Free workshops for adults with prior training",
+          "Free workshops for children accompanied by adults",
+          "Paid workshops for children attending alone"
+         ],
+         "answer": 1,
+         "why": "依据是 teenagers aged thirteen to seventeen who are new to performance 和 a small participation fee，对应 Paid workshops for teenage beginners。",
+         "point": "feature"
+        },
+        {
+         "stem": "Match Balance Practice.",
+         "options": [
+          "Free workshops for adult beginners",
+          "Paid workshops for teenage beginners",
+          "Paid workshops for experienced adults",
+          "Free workshops for adults with prior training",
+          "Free workshops for children accompanied by adults",
+          "Paid workshops for children attending alone"
+         ],
+         "answer": 3,
+         "why": "依据是 adults who have already completed an introductory class 和 It's free to attend，对应 Free workshops for adults with prior training。Being an adult isn't sufficient 说明只是成人还不够。",
+         "point": "match"
+        }
+       ]
+      },
+      {
+       "text": "Archive facilities\nEach option may be used once.",
+       "audio": {
+        "intro": "Listen to the introduction.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Welcome to the travelling archive's service centre. The named facilities have different purposes, even though documents are involved in all of them. At the scanning desk, staff create digital copies of material that visitors bring in. The originals are handed back immediately after scanning; they aren't added to our collection or kept overnight. At the consultation booth, the arrangement is almost the reverse. Visitors examine fragile originals from our own collection under a member of staff's supervision. Those documents must stay inside the booth. Copying isn't permitted there, and it isn't a place to bring personal papers for scanning. The packing bay serves another purpose. Staff use it to prepare items that have already been approved for loans to partner organisations. The bay is not open to visitors collecting personal documents, and no decisions about new loans are made there. Loan applications are considered separately before anything reaches the bay. There is also a storage room, where collection material remains between appointments, but that isn't one of the public services described today. The scanning desk can provide a copy on the day of a visit, whereas appointments to examine collection originals must be arranged beforehand."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "Match the scanning desk.",
+         "options": [
+          "Preparing approved items for external loans",
+          "Keeping visitors' originals overnight",
+          "Producing digital versions of personal material",
+          "Deciding whether new loans are acceptable",
+          "Storing collection material between appointments",
+          "Examining collection originals under supervision"
+         ],
+         "answer": 2,
+         "why": "依据是 staff create digital copies of material that visitors bring in 和 The originals are handed back immediately，对应 Producing digital versions of personal material。",
+         "point": "feature"
+        },
+        {
+         "stem": "Match the consultation booth.",
+         "options": [
+          "Preparing approved items for external loans",
+          "Keeping visitors' originals overnight",
+          "Producing digital versions of personal material",
+          "Deciding whether new loans are acceptable",
+          "Storing collection material between appointments",
+          "Examining collection originals under supervision"
+         ],
+         "answer": 5,
+         "why": "依据是 Visitors examine fragile originals from our own collection under a member of staff's supervision，对应 Examining collection originals under supervision。",
+         "point": "match"
+        },
+        {
+         "stem": "Match the packing bay.",
+         "options": [
+          "Preparing approved items for external loans",
+          "Keeping visitors' originals overnight",
+          "Producing digital versions of personal material",
+          "Deciding whether new loans are acceptable",
+          "Storing collection material between appointments",
+          "Examining collection originals under supervision"
+         ],
+         "answer": 0,
+         "why": "依据是 prepare items that have already been approved for loans to partner organisations，对应 Preparing approved items for external loans。外借申请不在这里决定。",
+         "point": "feature"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

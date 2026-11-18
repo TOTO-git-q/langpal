@@ -1,0 +1,634 @@
+{
+ "listening-conversation": {
+  "format": "listening",
+  "spec": "Create one 280–320-word natural two-person conversation about campus, work or everyday arrangements. Use 8–16 turns, A first, alternating A and B. Include an initial problem, a plausible rejected alternative, a reason and a final decision. Give exactly four questions: main topic (gist), a precise fact (detail), a cause (detail), and a limited inference about the agreed next action (inference). Use intro \"Listen to the conversation.\"; count only spoken lines toward length. Write all recordings, questions and options in English. Use original, self-contained CET-6 material with no news, living public figures, invented published studies, external knowledge, gender-based speaker identification, or clues relying on voice quality. Identify speakers by role or a name spoken in the script. Each question has four parallel, plausible options and one provable answer; distribute correct positions. Build distractors by changing a person, time, condition, cause or degree in the recording, not by adding unrelated facts. For every why, explain the evidence and nearest distractor in Chinese; use the specified point IDs. Do not repeat questions inside the audio or put the transcript in text. Output groups containing intro, lines and items.",
+  "checks": {
+   "groups": 1,
+   "text": [
+    240,
+    375
+   ],
+   "items": 4,
+   "total": 4,
+   "options": 4,
+   "lines": [
+    8,
+    16
+   ],
+   "alternate": true,
+   "intro": "Listen to the conversation."
+  },
+  "example": {
+   "groups": [
+    {
+     "intro": "Listen to the conversation.",
+     "lines": [
+      {
+       "who": "A",
+       "text": "Professor Hale, could we discuss my thesis plan? I've spent six weeks reading about community gardens and city life, but the subject still seems too broad for one undergraduate project."
+      },
+      {
+       "who": "B",
+       "text": "Certainly. You don't need to cover every effect of gardening. Have you found a particular question that interests you, or a place where suitable evidence is already available?"
+      },
+      {
+       "who": "A",
+       "text": "Residents near the river converted an empty lot into a vegetable garden. I want to investigate how they organized the work, using the meeting records that the neighborhood association has published."
+      },
+      {
+       "who": "B",
+       "text": "That sounds manageable. The department's deadline for changing a thesis topic was last month, but narrowing an existing topic doesn't require a new application. Keep your current title and explain the focus in your introduction."
+      },
+      {
+       "who": "A",
+       "text": "That's a relief. I had also considered interviewing residents about whether the garden helped them make friends. Would that give the project a stronger personal element?"
+      },
+      {
+       "who": "B",
+       "text": "Perhaps, but interviews would require an ethics review before recruitment. The timetable is uncertain, so I wouldn't build your project around approval arriving quickly. Published meeting records are enough for your proposed question."
+      },
+      {
+       "who": "A",
+       "text": "Then I'll work with those records. Some early meetings aren't documented, though. Does that mean I should abandon the idea and choose a different garden with a complete archive?"
+      },
+      {
+       "who": "B",
+       "text": "No. State that limitation clearly. You can describe the decisions recorded without claiming to reconstruct every conversation. The important thing is to match your conclusions to the evidence you actually have."
+      },
+      {
+       "who": "A",
+       "text": "I see. I'll revise the plan tonight and email it tomorrow morning. Could you check whether the new question is sufficiently narrow before I begin collecting the records?"
+      },
+      {
+       "who": "B",
+       "text": "Yes, send it to me. I'll comment on the scope first. Once we've agreed on that, you can organize the documents by date and note where the gaps occur."
+      }
+     ],
+     "items": [
+      {
+       "stem": "What are the speakers mainly discussing?",
+       "options": [
+        "How to narrow a thesis project",
+        "How to recruit garden volunteers",
+        "Why a neighborhood archive closed",
+        "Why a department changed its deadline"
+       ],
+       "answer": 0,
+       "why": "学生认为选题过宽，导师帮助限定研究范围；招募居民只在讨论访谈审批时涉及。",
+       "point": "gist"
+      },
+      {
+       "stem": "What material does the student plan to use?",
+       "options": [
+        "Unpublished personal letters",
+        "New interviews with residents",
+        "Published meeting records",
+        "A complete record of every conversation"
+       ],
+       "answer": 2,
+       "why": "学生明确说使用协会公布的会议记录；访谈是考虑后放弃的办法。",
+       "point": "detail"
+      },
+      {
+       "stem": "Why does the professor advise against relying on interviews?",
+       "options": [
+        "The garden has no permanent residents.",
+        "Ethics approval may not arrive in time.",
+        "The department forbids interviews in all theses.",
+        "The association has refused permission."
+       ],
+       "answer": 1,
+       "why": "导师指出访谈前需伦理审查且时间不确定，并未说所有论文都禁止访谈。",
+       "point": "detail"
+      },
+      {
+       "stem": "What will the student most likely do next?",
+       "options": [
+        "Submit a new topic application",
+        "Recruit residents for interviews",
+        "Collect records from another garden",
+        "Send a revised plan for feedback"
+       ],
+       "answer": 3,
+       "why": "学生承诺次日发送修改后的计划，导师答应先看范围；整理文件在双方确认范围之后。",
+       "point": "inference"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "listening-passage": {
+  "format": "listening",
+  "spec": "Create one 240–260-word narrative, explanatory or argumentative monologue on an accessible social, educational or everyday topic. Use one line with who A and intro \"Listen to the passage.\" Give exactly four questions: main content (gist), an event or sequence detail (detail), a causal relation (detail), and a limited inference (inference). Make the inference require connecting evidence without adding a new fact. Write all recordings, questions and options in English. Use original, self-contained CET-6 material with no news, living public figures, invented published studies, external knowledge, gender-based speaker identification, or clues relying on voice quality. Identify speakers by role or a name spoken in the script. Each question has four parallel, plausible options and one provable answer; distribute correct positions. Build distractors by changing a person, time, condition, cause or degree in the recording, not by adding unrelated facts. For every why, explain the evidence and nearest distractor in Chinese; use the specified point IDs. Do not repeat questions inside the audio or put the transcript in text. Output groups containing intro, lines and items.",
+  "checks": {
+   "groups": 1,
+   "text": [
+    200,
+    312
+   ],
+   "items": 4,
+   "total": 4,
+   "options": 4,
+   "lines": 1,
+   "intro": "Listen to the passage."
+  },
+  "example": {
+   "groups": [
+    {
+     "intro": "Listen to the passage.",
+     "lines": [
+      {
+       "who": "A",
+       "text": "When our community center opened a cupboard of tools for residents to borrow, the organizers expected the main difficulty to be persuading people to donate equipment. In fact, the shelves filled quickly. The problem appeared later: visitors often selected a tool without knowing whether it was suitable for the job they had in mind.\n\nAt first, volunteers arranged everything by size. That kept the cupboard tidy, but it placed tools with very different uses beside one another. A resident repairing a loose chair borrowed equipment intended for cutting rather than fastening. Nothing was damaged, but the unnecessary journey showed that a neat display was not enough.\n\nThe team considered charging a deposit to encourage careful borrowing. They rejected that idea because money would not tell visitors which tool to choose. Instead, they grouped the equipment by task and attached cards describing suitable uses. A trained volunteer was available on Saturday mornings to explain the labels. Visitors were asked to describe their project before selecting anything unfamiliar.\n\nThe cupboard did not become completely self-service. Some equipment still required an explanation, and damaged items were removed for inspection. However, volunteers spent less time correcting unsuitable choices and more time helping residents plan repairs. They also kept a notebook of questions the cards had failed to answer.\n\nThe organizers now treat that notebook as part of the collection. When the same question appears repeatedly, they revise the relevant card. Their experience suggests that access to equipment works best when people also receive practical guidance on choosing it."
+      }
+     ],
+     "items": [
+      {
+       "stem": "What is the passage mainly about?",
+       "options": [
+        "Why residents stopped donating tools",
+        "How a deposit system raised money",
+        "How a tool library improved guidance for borrowers",
+        "Why volunteers replaced repairs with classes"
+       ],
+       "answer": 2,
+       "why": "全文说明工具借用服务如何通过分类和说明帮助使用者；押金只是被否决的建议。",
+       "point": "gist"
+      },
+      {
+       "stem": "How were the tools originally arranged?",
+       "options": [
+        "By size",
+        "By the jobs they could do",
+        "By the date they were donated",
+        "By the experience of their owners"
+       ],
+       "answer": 0,
+       "why": "第二段说明最初按大小排列，按用途分组是后来的改动。",
+       "point": "detail"
+      },
+      {
+       "stem": "Why did the organizers reject a deposit?",
+       "options": [
+        "Residents had refused all payments.",
+        "It would not help people choose suitable tools.",
+        "The cupboard had no spare shelves.",
+        "It would prevent volunteers from inspecting tools."
+       ],
+       "answer": 1,
+       "why": "原文指出金钱不能告诉访客应选哪种工具，问题在选择而非付费。",
+       "point": "detail"
+      },
+      {
+       "stem": "What can be inferred about the information cards?",
+       "options": [
+        "They remove the need for all explanations.",
+        "They are written only by borrowers.",
+        "They cover only damaged equipment.",
+        "They can be improved using recurring questions."
+       ],
+       "answer": 3,
+       "why": "同一问题反复出现时会修改对应卡片，说明借用反馈能改进说明；部分设备仍需讲解。",
+       "point": "inference"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "listening-lecture": {
+  "format": "listening",
+  "spec": "Create one 340–460-word single-speaker lecture, explanatory talk or non-news report, with intro \"Listen to a lecture.\" and one line with who A. Include an explicit main question, developed explanation, an example and a qualified conclusion. Give exactly four questions: topic/purpose (gist), fact or research condition (detail), purpose of an example (organization), and the speaker’s evidence-based attitude or recommendation (gist). Return groups with intro, lines and items. Use original English material at CET-6 difficulty, with moderately complex syntax and accessible academic vocabulary. Keep spelling consistent. No news, living public figures, fabricated published research, unsupported statistics or specialist background knowledge. Hypothetical examples must be identified as hypothetical. Questions and options are English; why is Chinese and cites the decisive detail and rejects the nearest distractor without referring to option letters. Each question has four parallel options, exactly one supported answer, and an allowed point ID. Distribute answer positions. Distractors reverse a stated relation, confuse a condition or object, or overstate a conclusion; avoid unrelated or obviously absurd alternatives. Do not duplicate questions in the material.",
+  "checks": {
+   "groups": 1,
+   "text": [
+    320,
+    500
+   ],
+   "items": 4,
+   "total": 4,
+   "options": 4,
+   "lines": 1,
+   "intro": "Listen to a lecture."
+  },
+  "example": {
+   "groups": [
+    {
+     "intro": "Listen to a lecture.",
+     "lines": [
+      {
+       "who": "A",
+       "text": "When we evaluate a public service, the easiest number to collect is often the number of people who use it. A library counts visits, a museum counts tickets, and a community center counts registrations. These figures are useful, but today I want to explain why they cannot, by themselves, tell us whether a service is meeting its purpose.\n\nConsider a hypothetical library that introduces an online reservation system for study rooms. In the first month, the number of bookings doubles. It would be tempting to announce that access has improved dramatically. Yet a booking is a promise to use a room, not evidence that somebody actually used it. If students reserve several possible times and attend only one, the new system may make the rooms appear busy while leaving them empty.\n\nWe therefore need to distinguish an activity from the result we care about. In this case, the activity is making a reservation. The desired result is that students who need a room can find one and use it. Staff might record whether reserved rooms are occupied, how long groups stay, and how often a group cannot find a place. None of these measures is perfect, but together they provide a fuller account than the booking total.\n\nThere is another complication: improving a number can sometimes change behavior in an unhelpful way. Suppose staff are praised only for increasing the number of reservations. They might encourage shorter sessions, producing more bookings without providing more useful study time. This does not mean the staff are dishonest. It means the measure makes one kind of success visible while concealing another.\n\nQualitative evidence matters as well. A brief conversation with users may reveal that the available rooms are too noisy for recorded presentations, even though the occupancy rate looks excellent. Such comments cannot establish how common a problem is, but they can identify a question worth investigating systematically.\n\nMy recommendation is to begin with the purpose of the service, then choose a small group of measures that reflect it. Keep the definitions stable so that comparisons remain meaningful, and review unexpected changes before claiming success. Counting is necessary; deciding what the count represents is equally necessary. The aim is not to gather every possible number, but to avoid letting the easiest number replace the original goal."
+      }
+     ],
+     "items": [
+      {
+       "stem": "What is the lecture mainly about?",
+       "options": [
+        "Why public services should stop counting visitors",
+        "Why service evaluation needs measures linked to its purpose",
+        "How to increase the number of library reservations",
+        "How to replace numerical records with interviews"
+       ],
+       "answer": 1,
+       "why": "讲座围绕数字能否反映服务目的展开，结尾要求先明确目的再选指标；并未主张停止计数。",
+       "point": "gist"
+      },
+      {
+       "stem": "What happens in the hypothetical library in the first month?",
+       "options": [
+        "The number of rooms doubles.",
+        "Every reserved room remains empty.",
+        "The length of every booking falls.",
+        "The number of reservations doubles."
+       ],
+       "answer": 3,
+       "why": "假设中翻倍的是预订次数，不是房间数或实际使用时间。",
+       "point": "detail"
+      },
+      {
+       "stem": "Why does the speaker mention staff encouraging shorter sessions?",
+       "options": [
+        "To show how a measure can reward an unhelpful change",
+        "To prove that staff deliberately falsify records",
+        "To explain why students prefer short meetings",
+        "To show that more reservations always improve access"
+       ],
+       "answer": 0,
+       "why": "例子说明单一指标可能奖励增加预订次数却未增加有效使用的行为；讲者明确不认定员工不诚实。",
+       "point": "organization"
+      },
+      {
+       "stem": "What does the speaker recommend?",
+       "options": [
+        "Changing definitions whenever results disappoint",
+        "Collecting every available statistic",
+        "Choosing several measures based on the service’s purpose",
+        "Treating favorable user comments as proof of success"
+       ],
+       "answer": 2,
+       "why": "结尾建议围绕目的选少量指标并保持定义稳定；评价不以所有可收集数字为目标。",
+       "point": "gist"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "reading-careful": {
+  "format": "reading",
+  "spec": "Create one 400–450-word explanatory or argumentative passage in 5–6 coherent paragraphs, without a separate title in text. Use look passage and label \"Read the passage carefully and choose the best answer to each question.\" Give exactly five questions in order: main argument (main), explicit detail (detail), limited inference (infer), meaning of a word actually present in the passage (infer), author attitude or purpose (infer). Return groups with label, look, text and items. Use original English material at CET-6 difficulty, with moderately complex syntax and accessible academic vocabulary. Keep spelling consistent. No news, living public figures, fabricated published research, unsupported statistics or specialist background knowledge. Hypothetical examples must be identified as hypothetical. Questions and options are English; why is Chinese and cites the decisive detail and rejects the nearest distractor without referring to option letters. Each question has four parallel options, exactly one supported answer, and an allowed point ID. Distribute answer positions. Distractors reverse a stated relation, confuse a condition or object, or overstate a conclusion; avoid unrelated or obviously absurd alternatives. Do not duplicate questions in the material.",
+  "checks": {
+   "groups": 1,
+   "text": [
+    340,
+    531
+   ],
+   "items": 5,
+   "total": 5,
+   "options": 4,
+   "looks": [
+    "passage"
+   ]
+  },
+  "example": {
+   "groups": [
+    {
+     "label": "Read the passage carefully and choose the best answer to each question.",
+     "look": "passage",
+     "text": "Public organizations increasingly make historical documents available as digital images. This can remove an important obstacle: a person no longer has to travel to an archive to examine a letter or photograph. Yet the ease of opening an image can create a misleading impression that the past has become equally accessible to everyone. Access depends on more than the existence of a file.\n\nA first difficulty concerns description. An archive may contain thousands of photographs labeled only with a place and a date. A person searching for a particular occupation will not necessarily find images of that work, even when they are present. The search system retrieves words attached to an image, rather than all the meanings a viewer might discover in it. Better descriptions therefore require interpretation, and interpretation takes time.\n\nThe choice of what to digitize also matters. Documents that are easy to scan may be processed before fragile objects that need special handling. Collections with clear ownership information may be published before those whose permissions remain uncertain. These are understandable practical decisions, but their combined effect can shape the historical picture available online. A large digital collection need not be a representative sample of everything an institution holds.\n\nConsider a hypothetical town archive with complete records from a large factory and only scattered letters from small workshops. If the factory records are published first, an online search may suggest that factory work dominated every part of local life. That conclusion would exceed the evidence. The apparent imbalance might reflect preservation and processing choices as much as the actual distribution of employment. Explaining these choices would help readers interpret what they find.\n\nOne response is to invite users to add descriptions. Someone familiar with a neighborhood may recognize a building that an archivist cannot identify. Such contributions can enrich a collection, but they require review. A confident memory is still a claim, and uncertain identifications should remain visibly uncertain rather than quietly becoming official descriptions.\n\nDigital access is therefore best understood as an ongoing editorial responsibility. Institutions need to explain omissions, distinguish confirmed descriptions from suggestions, and make correction possible. This does not diminish the achievement of opening collections to distant readers. It clarifies what that achievement involves. The valuable archive is not merely the one with the greatest number of downloadable images, but the one that helps readers understand both the evidence before them and the boundaries of what it can establish. The process of publication should make those boundaries easier, rather than harder, to see.",
+     "items": [
+      {
+       "stem": "What is the main argument of the passage?",
+       "options": [
+        "Digital access requires careful description and explanation of limitations.",
+        "Publishing more images removes the need for archivists.",
+        "Historical photographs should remain available only in person.",
+        "User memories should replace written archival records."
+       ],
+       "answer": 0,
+       "why": "全文围绕描述、选择和不确定性的说明展开，结尾强调帮助读者理解证据边界，而非只增加图片。",
+       "point": "main"
+      },
+      {
+       "stem": "Why might fragile documents be digitized later?",
+       "options": [
+        "Their subjects are less historically important.",
+        "Their owners always refuse publication.",
+        "They need special handling.",
+        "They contain no searchable information."
+       ],
+       "answer": 2,
+       "why": "第三段说脆弱资料需特殊处理；未说其历史价值较低或必然没有检索信息。",
+       "point": "detail"
+      },
+      {
+       "stem": "What can be inferred from the hypothetical factory example?",
+       "options": [
+        "Factory workers preserved every workshop letter.",
+        "The factory employed all the town’s residents.",
+        "A complete online collection is impossible.",
+        "An online imbalance may reflect selection rather than historical prevalence."
+       ],
+       "answer": 3,
+       "why": "工厂资料优先发布可能造成表面失衡，不能据此推断工厂劳动在全镇生活中占据同样比例。",
+       "point": "infer"
+      },
+      {
+       "stem": "The word “enrich” in the passage is closest in meaning to",
+       "options": [
+        "restrict access to",
+        "add useful information to",
+        "establish ownership of",
+        "make exact copies of"
+       ],
+       "answer": 1,
+       "why": "邻里知情者辨认建筑能为馆藏增加信息，因此 enrich 指充实内容，不是确认所有权。",
+       "point": "infer"
+      },
+      {
+       "stem": "How does the author regard digital publication?",
+       "options": [
+        "As an achievement that needs continuing editorial care",
+        "As an unnecessary replacement for personal memory",
+        "As reliable only when no user contributes",
+        "As a task completed when all available images are uploaded"
+       ],
+       "answer": 0,
+       "why": "结尾肯定向远方读者开放资料的价值，同时要求持续说明遗漏和修正信息；上传并非工作的终点。",
+       "point": "infer"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "reading-banked": {
+  "format": "reading",
+  "spec": "Create one original CET-6 banked cloze: a coherent 250–300-word English explanatory or argumentative passage about education, work, community life, resources or practical technology. Count a completed blank as one word; keep displayed text, including gap numbers, within 250–300 words too. Use exactly ten gaps, numbered (1) ______ through (10) ______ in order; leave the first sentence intact. Write the complete passage first, then remove ten single words. Supply one group bank containing exactly fifteen distinct lowercase English words in a mixed order. Exactly ten words are answers, each used once; five are unused. Keep the supplied inflections unchanged. Include several parts of speech, with plausible unused words of matching part of speech; avoid synonyms that can also fill a gap, and avoid answers determined only by eliminating words used elsewhere. Each gap must have one defensible answer from its own syntax, collocation and surrounding meaning. Give ten items, stem Blank (1) etc., answer as the zero-based bank index, no item options. Assign pos to grammatical-form choices, collocation to established combinations, meaning to contextual contrasts; use all three point IDs. Each why is Chinese, explains the local evidence and rules out the closest competing word by content. Use look passage and label \"Read the passage and choose one word for each blank. Use each word no more than once.\" No news, living public figures, invented published studies, answer key in text, translations of the passage, repeated gap numbering, phrases in the bank, or external knowledge. Return groups with label, look, text, bank and items.",
+  "checks": {
+   "groups": 1,
+   "text": [
+    220,
+    344
+   ],
+   "items": 10,
+   "total": 10,
+   "options": 15,
+   "bank": true,
+   "shuffle": false,
+   "looks": [
+    "passage"
+   ]
+  },
+  "example": {
+   "groups": [
+    {
+     "label": "Read the passage and choose one word for each blank. Use each word no more than once.",
+     "look": "passage",
+     "text": "A community garden can produce more than vegetables, but its success depends on arrangements that are often overlooked. Before planting begins, members need to decide how shared tasks will be (1) ______. If everyone assumes that another person will water the seedlings, even a carefully designed garden can fail. Clear responsibilities make cooperation less dependent on chance.\n\nBefore any planting can begin, access to water is another (2) ______ concern. A site may receive plenty of sunlight yet have no convenient tap. Carrying heavy containers from a distant building can quickly discourage volunteers. Planning must therefore take local conditions into (3) ______, rather than treating every empty space as equally suitable for cultivation.\n\nRules about harvesting also require discussion. Some groups divide the ground into separate plots, while others (4) ______ their harvest and distribute it among members. Neither arrangement automatically guarantees fairness. What matters is that participants understand the rules before investing their time and can raise concerns when the rules no longer fit their needs.\n\nA written record provides useful (5) ______ when experienced organizers leave. It should explain routine tasks and identify the person responsible for equipment. Such information is particularly valuable to newcomers, who may otherwise remain (6) ______ to contribute because they do not know where to begin.\n\nThe garden should also remain open to (7) ______. A schedule that works during a holiday may become unsuitable once classes resume. Members can meet every two weeks, returning (8) ______ to compare the plan with actual participation and make adjustments. In this way, a small difficulty can be addressed before it develops into a lasting (9) ______. The aim is not to remove every disagreement, but to establish a (10) ______ basis for sharing both the effort and the harvest.",
+     "items": [
+      {
+       "stem": "Blank (1)",
+       "answer": 8,
+       "why": "will be 后需过去分词构成被动结构，allocated 表示分配任务；allocation 是名词。",
+       "point": "pos"
+      },
+      {
+       "stem": "Blank (2)",
+       "answer": 9,
+       "why": "种植开始前必须解决供水，因此 pressing concern 表示紧迫问题；identical 表示相同，不能表达这种急需解决的关系。",
+       "point": "meaning"
+      },
+      {
+       "stem": "Blank (3)",
+       "answer": 2,
+       "why": "take ... into account 是固定搭配，表示把当地条件纳入考虑。",
+       "point": "collocation"
+      },
+      {
+       "stem": "Blank (4)",
+       "answer": 5,
+       "why": "pool their harvest 表示集中收成统一分配，与分开种植相对；conceal 表示隐瞒，不符合共同分配。",
+       "point": "collocation"
+      },
+      {
+       "stem": "Blank (5)",
+       "answer": 6,
+       "why": "组织者离开后，书面记录让工作得以延续，continuity 符合；conflict 指冲突。",
+       "point": "meaning"
+      },
+      {
+       "stem": "Blank (6)",
+       "answer": 0,
+       "why": "新人不知道从何开始，因而可能犹豫参与，hesitant 与 to contribute 搭配；accidental 不能描述这种顾虑。",
+       "point": "meaning"
+      },
+      {
+       "stem": "Blank (7)",
+       "answer": 10,
+       "why": "open to revision 表示可以修订，下句举日程改变为例；allocation 不能概括对计划的修改。",
+       "point": "collocation"
+      },
+      {
+       "stem": "Blank (8)",
+       "answer": 4,
+       "why": "every two weeks 明确规定定期会面，regularly 与此一致；rarely 表示很少，与指定周期不符。",
+       "point": "pos"
+      },
+      {
+       "stem": "Blank (9)",
+       "answer": 7,
+       "why": "小问题若长期不处理可能发展为 conflict，与前文 concerns 和后文 disagreement 呼应。",
+       "point": "meaning"
+      },
+      {
+       "stem": "Blank (10)",
+       "answer": 3,
+       "why": "workable basis 表示可实行的合作基础；identical 强调相同，却无比较对象。",
+       "point": "collocation"
+      }
+     ],
+     "bank": [
+      "hesitant",
+      "allocation",
+      "account",
+      "workable",
+      "regularly",
+      "pool",
+      "continuity",
+      "conflict",
+      "allocated",
+      "pressing",
+      "revision",
+      "rarely",
+      "identical",
+      "conceal",
+      "accidental"
+     ]
+    }
+   ]
+  }
+ },
+ "reading-matching": {
+  "format": "reading",
+  "spec": "Create one original CET-6 long reading passage, 1000–1350 English words in exactly eleven substantial paragraphs marked [A] through [K], once each and in order. Aim for 1050–1250 prose words so labels do not determine compliance. Use a coherent explanatory or argumentative treatment of education, work, community services, resource management, culture or everyday technology; accessible academic register, varied syntax, no specialist knowledge. Every paragraph must add a distinct fact, mechanism, position or qualification. Use a clearly introduced fictional case when specific local figures, surveys or events are needed; do not fabricate published studies, historical claims, news or living public figures. Supply ten English statements paraphrasing ten distinct information units, in a different order from the paragraphs. Each statement must be fully supported by exactly one paragraph; mention a distinctive object, action and condition, not merely the whole article topic. Include one repeated answer paragraph for two different facts and at least two unused paragraphs. Do not duplicate the statements after the passage. Supply one group bank of the eleven plain letters A through K in order, and ten items with answer as zero-based bank index, no item options. Distractor paragraphs may share a theme or term but must fail a specific relation or condition. Assign locate to distinctive names, figures or concrete markers; paraphrase to meaning-preserving reformulation; condition to scope, actor, time or exception checks; use all three IDs. Each why is Chinese, identifies the paragraph and decisive relation, and explains a close alternative when applicable. Use look passage and label \"Read the passage and choose the paragraph that contains the information in each statement. A paragraph may be used more than once.\" Return groups with label, look, text, bank and items.",
+  "checks": {
+   "groups": 1,
+   "text": [
+    940,
+    1469
+   ],
+   "items": 10,
+   "total": 10,
+   "options": 11,
+   "bank": true,
+   "shuffle": false,
+   "looks": [
+    "passage"
+   ]
+  },
+  "example": {
+   "groups": [
+    {
+     "label": "Read the passage and choose the paragraph that contains the information in each statement. A paragraph may be used more than once.",
+     "look": "passage",
+     "text": "Should the University Library Stay Open All Night?\n\n[A] Consider a fictional university facing a familiar policy choice. For most of its history, its central library closed its doors at ten in the evening. That schedule suited an earlier generation of students, who tended to study in their dormitories and came to the building mainly to borrow books. In recent years, however, the pattern of student life has shifted. Many undergraduates now treat the library as their principal workplace, arriving after dinner and staying until they are asked to leave. As a result, a campaign has grown on campus to keep the building open around the clock, at least during the weeks before examinations.\n\n[B] The case for longer hours rests first on simple practical grounds. Students who live in crowded shared rooms often have nowhere quiet to read after the dormitory corridors fall silent, and those with part-time jobs may not be free to study until late at night. Supporters of the proposal point out that a modern university already provides lighting, heating and security for its buildings throughout the night; the marginal cost of allowing students to remain inside is therefore smaller than it first appears. To them, a library that closes just when students are most anxious to use it looks like a poor use of an expensive public resource.\n\n[C] Opponents do not deny that late-night study is real. Their objection is that the demand is thinner than the campaign suggests. Sign-in records collected during a trial period last spring showed that between midnight and six in the morning the building rarely held more than forty people, while the average during the day exceeded eight hundred. Extending the hours for a handful of users, they argue, would divert money and staff attention from services that benefit the whole student body, such as additional daytime research assistance or a larger collection of electronic journals.\n\n[D] Cost is not the only consideration. Running a building through the night requires more than leaving the lights on. A minimum number of trained staff must be present, security arrangements must be strengthened, and cleaning crews must adjust their schedules. University administrators have estimated that a full year of round-the-clock opening would require the equivalent of several full-time positions, money that would have to come from somewhere in an already tight budget. Critics of the plan say that this figure is rarely mentioned when the proposal is discussed in student meetings.\n\n[E] There is also the question of safety. A library that never closes becomes, in effect, a public space at three in the morning, and universities have a duty of care toward the young people who use it. The campus safety team worries that unrestricted entry might allow people with no university connection into the building, while students leaving alone would need a reliable way home. Supporters reply that these dangers already exist for anyone who studies late in a laboratory or a computer room, and that the solution is better lighting and escort services rather than an early closing time.\n\n[F] The campus health advisers add a further note of caution. They do not claim that an open building directly causes poor sleep. Instead, they ask whether promotional messages might make studying through the night seem like an expectation rather than an option. A student with a heavy workload may interpret the new service as a recommendation to stay longer. The advisers want any announcement to make clear that extended access is intended to accommodate different schedules, not to increase the total hours students spend studying. Their concern is therefore about how the service is presented, as well as when it is available.\n\n[G] A quieter argument concerns the character of the library itself. A library is not merely a hall with desks in it; it is a place where books are kept, catalogued and preserved. Librarians have noted that round-the-clock opening would require the building to be occupied during the hours now used for maintenance, repair and the reshelving of returned books. Some of this work could be moved to daytime, but not all of it. Over months and years, they suggest, small delays in these tasks could damage the collections that give the library its value.\n\n[H] The facilities team offers a way to test the proposal without committing the whole building. It suggests opening a single reading room while keeping the upper floors closed. Staff could then check whether the demand justifies the expense before considering a larger service. Access to that room would not include borrowing books, since the lending desk would remain closed. The distinction matters: a trial of study space cannot establish whether students need every library service throughout the night. A modest experiment can inform a later decision, provided its limited purpose is understood by everyone discussing the results.\n\n[I] Students themselves are divided. In a poll conducted last term, a narrow majority supported some form of extended opening, but when asked whether they would accept a small increase in library fees to pay for it, the majority shrank sharply. Supporters of the campaign argue that this response reflects a reasonable wish to see the university spend its existing budget more carefully rather than a lack of commitment. Opponents read the same numbers as evidence that most students, when the cost is placed before them, prefer the current arrangement.\n\n[J] What the discussion has revealed most clearly is how little anyone knows about how students actually use the building. The sign-in figures cover only those who pass through the main entrance; they say nothing about how long people stay or what they do. Before the university commits itself to a permanent change, both sides might agree that a careful study of use, cost and outcomes would be more useful than another round of speeches in the student union. Whatever the final decision, it is likely to be watched closely by other universities facing the same question.\n\n[K] For the moment, the library continues to close at ten. A pilot scheme, in which one reading room on the ground floor will remain open until two in the morning during the four weeks before examinations, has been approved for the coming term. Its results, supporters hope, will settle the matter in their favour; its critics expect the opposite. Either way, the trial will provide the campus with something the debate has so far lacked: figures gathered on purpose, rather than impressions gathered in passing.",
+     "items": [
+      {
+       "stem": "During the spring trial, overnight attendance seldom exceeded forty, compared with more than eight hundred in daytime.",
+       "answer": 2,
+       "why": "[C] 段给出春季试行的两个对应人数：夜间很少超过四十，白天平均超过八百。",
+       "point": "locate"
+      },
+      {
+       "stem": "The author mentions buildings already supplied with lighting, heating and security at night.",
+       "answer": 1,
+       "why": "材料[B]段指出大学夜间本就为建筑提供照明、供暖和安保，因此增加开放时段的边际成本没有看上去那么大。",
+       "point": "locate"
+      },
+      {
+       "stem": "Health advisers want the announcement to distinguish access for different schedules from encouragement to study for more hours.",
+       "answer": 5,
+       "why": "[F] 段明确要求说明延时服务是适应不同作息，不是增加学习总时长；需同时核对宣传主体和限定目的。",
+       "point": "condition"
+      },
+      {
+       "stem": "One proposal would provide a room for study while leaving the book-lending desk closed.",
+       "answer": 7,
+       "why": "[H] 段同时限定只开放阅览室且借书柜台关闭；仅有阅览空间不能等同于全部图书馆服务。",
+       "point": "condition"
+      },
+      {
+       "stem": "The writer suggests that the evidence about how the building is really used is currently quite limited.",
+       "answer": 9,
+       "why": "材料[J]段说讨论暴露出人们对学生实际如何使用图书馆知之甚少，签到数字只覆盖从正门进入的人。",
+       "point": "paraphrase"
+      },
+      {
+       "stem": "Some argue that spending on late hours would take resources away from services used by all students.",
+       "answer": 2,
+       "why": "材料[C]段说反对者认为延长开放会把资金和人员注意力从惠及全体学生的服务上转移走。",
+       "point": "paraphrase"
+      },
+      {
+       "stem": "A reading room will stay open until two in the morning for four weeks before examinations.",
+       "answer": 10,
+       "why": "材料[K]段说下学期将试行底层一间阅览室在考试前四周开放到凌晨两点。",
+       "point": "locate"
+      },
+      {
+       "stem": "The passage points out that keeping a building open all night involves trained staff, security and cleaning adjustments.",
+       "answer": 3,
+       "why": "材料[D]段说通宵开放需要最低数量的受训员工、加强安保并调整清洁人员的时间表。",
+       "point": "paraphrase"
+      },
+      {
+       "stem": "Supporters claim that the dangers of late-night study already apply to those working in laboratories or computer rooms.",
+       "answer": 4,
+       "why": "[E] 段中支持者指出实验室和机房也存在深夜离开时的风险，建议照明与护送，而非提前闭馆。",
+       "point": "condition"
+      },
+      {
+       "stem": "The number of students favouring extended hours drops considerably when a fee increase is mentioned.",
+       "answer": 8,
+       "why": "材料[I]段说被问及是否接受小幅提高图书馆费用时，多数支持者的人数急剧减少。",
+       "point": "condition"
+      }
+     ],
+     "bank": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K"
+     ]
+    }
+   ]
+  }
+ },
+ "writing-essay": {
+  "format": "essay",
+  "spec": "Create one original CET-6 essay task in English about education, personal development, work, cooperation, public responsibility or everyday resource use. The stimulus may be a situation, outline, original unattributed quotation, or a picture/chart described fully in words. All instructions combined (setting, fixed lead, three bullets) must total 70–110 English words. Write setting in 40–60 words, with a clear object, scope and balanced issue; do not embed extra commands in it. The fixed lead requires at least 150 words in 30 minutes; do not impose a 200-word maximum. Write exactly three distinct bullets, each 6–10 words and starting with an imperative verb: a focused position or interpretation, development through a reason and concrete example, and a relevant implication or practicable response. These assess ontopic, develop and accuracy through an integrated essay; never assign invented official criterion weights. must has three Chinese requirements in the same order, identifying the minimum content needed without prescribing a particular opinion. purpose is one plain Chinese sentence naming the issue. Use a neutral academic register, no news, living people, fabricated surveys or attributed quotations. Any chart figures must be explicitly hypothetical and completely supplied; picture tasks must work without an image. Avoid specialist knowledge, stock slogans and leading candidates to only one position. Return purpose, setting, bullets and must only; lead is fixed. Do not return a model essay.",
+  "fixed": {
+   "lead": "Write an essay of at least 150 words in 30 minutes. In your essay, do the following."
+  },
+  "checks": {
+   "setting": [
+    40,
+    60
+   ],
+   "bullets": 3,
+   "must": 3
+  },
+  "example": {
+   "purpose": "论述课堂学习与社会实践的关系。",
+   "setting": "A university is discussing how students should divide their time between academic study and practical activities. Some students want more opportunities to volunteer or complete internships, while others worry that these activities can interfere with coursework. Consider how the two forms of learning might support or compete with each other.",
+   "bullets": [
+    "State your view on balancing study and practical activities.",
+    "Support your view with a reason and concrete example.",
+    "Suggest one way to manage a possible time conflict."
+   ],
+   "must": [
+    "明确说明课堂学习与社会实践应如何安排，全文保持同一立场。",
+    "给出理由，并用具体行为及结果说明实践或学习的作用。",
+    "提出可执行的时间安排，说明如何处理两类活动的冲突。"
+   ]
+  }
+ },
+ "translation-passage": {
+  "format": "essay",
+  "spec": "编写一道六级汉译英段落题。setting 是完整的一段中文说明文，恰好 180—200 个汉字、5—7 个以句号结束的完整句子；不含标题、数字、拉丁字母或额外说明，标点不计汉字数。主题从历史、文化、经济、社会发展中选择一个具体对象，使用中性书面语和可靠的常识，不写新闻、在世人物、未经证实的起源年代、政策日期、调查数字或医疗功效。内容应有清楚的主体、动作、修饰限制及至少两种句间关系，包含适合考查主从句或合理拆句的句子和少量可解释的文化或主题词。避免全篇短句、重复凑字、口号及需要背景知识才能理解的专名。purpose 用一句中文点明翻译主题。lead 和三条英文 bullets 固定，不重复输出。must 恰好三条中文：第一条按原文列出不可遗漏的信息、数量范围与逻辑关系，对应 meaning；第二条指出本段主体和合理的英文分句层次，对应 structure，不要求译文与原文句数相同；第三条指出本段需准确处理的词语及搭配，对应 wording。允许多种准确译法，不强制固定译词。完整译文限时 30 分钟，不设英文字数下限或上限，不要求评论或增加观点。只返回 purpose、setting、must，不返回 model。",
+  "fixed": {
+   "lead": "Translate the following passage into English in 30 minutes.",
+   "bullets": [
+    "Translate the complete meaning of the passage.",
+    "Organize the English sentences clearly.",
+    "Use accurate words and natural collocations."
+   ]
+  },
+  "checks": {
+   "setting": [
+    152,
+    238
+   ],
+   "must": 3
+  },
+  "example": {
+   "purpose": "翻译剪纸的制作、用途与传承。",
+   "setting": "剪纸是中国民间的一种传统艺术，常用纸张和剪刀把日常生活中的事物转化为装饰图案。制作时，有的艺人先将纸折叠，再沿着轮廓剪出花鸟或人物，使展开后的图案呈现对称之美。节日期间，人们常把剪纸贴在窗户或门上，表达对美好生活的祝愿。不同地区的作品在题材和风格上各有特点，并不使用完全相同的图案。学习这门技艺不仅需要掌握工具的使用，还要理解图案与当地习俗之间的联系。通过示范和亲手练习，年轻人能够逐渐体会其中的设计方法，并在传统基础上创作新作品。",
+   "must": [
+    "保留剪纸的材料、折叠剪制、节日用途、地区差异及传承方式；不把部分艺人的做法扩大为所有作品的规则。",
+    "按制作、使用、差异和学习的意义层次组织分句，允许合理拆句或合句，不要求中英句数相同。",
+    "准确表达剪纸、轮廓、对称、祝愿和技艺等含义，词语搭配自然，不加原文没有的评价。"
+   ]
+  }
+ }
+}

@@ -1,0 +1,548 @@
+{
+ "id": "listening-conversation-method",
+ "title": "长对话的信息组织",
+ "goal": "识别对话信息的展开顺序；根据选项差异确定待听内容。",
+ "skill": "听力",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "structure",
+   "label": "识别对话信息的展开顺序"
+  },
+  {
+   "id": "focus",
+   "label": "根据选项差异确定待听内容"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "依据课程课表选择长对话语言训练范围；材料与题目为原创。"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "长对话的信息通常分四个阶段：提出话题、说明情况、交换意见、形成决定。阶段看的是这句话起什么作用，不看它出现在第几句。对话中途也可能回头补充情况。"
+    },
+    {
+     "box": "What does the speaker explain after introducing the problem?\nWhich detail distinguishes the proposed arrangements?"
+    },
+    {
+     "p": "咨询以问题和答复为主，协商以方案和接受条件为主，访谈以提问和解释为主。判断一句话属于哪个阶段，要联系它前面的那句话。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定共同事项",
+     "d": "开头提出的讨论对象就是主题范围。I'd like to discuss storage 说明要谈存放安排，这时还没有任何决定。"
+    },
+    {
+     "t": "2　归类信息功能",
+     "d": "将事实与提议分开。We share one cabinet 是现状；Could we add shelves? 是方案。"
+    },
+    {
+     "t": "3　比较选项差异",
+     "d": "先看几个选项在哪里不同：人物、动作还是条件。选项的星期不同，就听日期。approve 和 propose 不同，就听事情是否已经决定。"
+    },
+    {
+     "t": "4　核对最终回应",
+     "d": "把提议和后面的接受或修改连起来听。Let's use labels 后面接 Only after checking the contents，决定就带有条件。"
+    }
+   ]
+  },
+  {
+   "id": "stages",
+   "type": "table",
+   "title": "对话的展开阶段",
+   "cols": [
+    "阶段",
+    "判断方法",
+    "例"
+   ],
+   "rows": [
+    [
+     "提出话题",
+     "说出要谈的事。",
+     "I'd like to discuss access to the shared storeroom."
+    ],
+    [
+     "说明情况",
+     "讲现在的情况和已有的事实。",
+     "At present, only the caretaker has a key."
+    ],
+    [
+     "交换意见",
+     "提出方案或比较方案，还没有定下来。",
+     "Could we issue a second key? / That may be hard to track."
+    ],
+    [
+     "形成决定",
+     "接受方案，安排行动，附加的条件一并保留。",
+     "Let's use a sign-out book, provided someone checks it weekly."
+    ]
+   ]
+  },
+  {
+   "id": "focus",
+   "type": "table",
+   "title": "问答关系与选项差异",
+   "cols": [
+    "情况",
+    "要听的信息",
+    "例"
+   ],
+   "rows": [
+    [
+     "咨询",
+     "问题和对它的答复。",
+     "Can visitors use the desk? / Only with a day pass."
+    ],
+    [
+     "协商",
+     "方案和接受的条件。",
+     "Shall we extend opening hours? / Only on Fridays."
+    ],
+    [
+     "访谈",
+     "提问和对这个问题的解释。",
+     "What changed after the move? / We gained storage space."
+    ],
+    [
+     "人物差异",
+     "谁做哪件事。",
+     "Nora will label the boxes; Ben will carry them."
+    ],
+    [
+     "状态差异",
+     "区分提议、接受和完成。",
+     "I suggested a trial. / We agreed to start next week."
+    ],
+    [
+     "时间差异",
+     "区分旧时段与新安排。",
+     "We used to meet at noon; from Monday, we'll meet at two."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A: I'd like to discuss our neighborhood seed exchange. People leave packets without dates, so it's difficult to know which ones are recent.\nB: Could we put dated labels beside the collection box?\nA: Yes, and I'll prepare them tonight. We can check the box together on Saturday."
+    },
+    {
+     "box": "Which statement describes the exchange of opinions?\n1. Packets currently lack dates.\n2. Labels are proposed as a solution.\n3. Preparation is assigned for tonight.\n4. A joint inspection is scheduled."
+    },
+    {
+     "p": "依据是 Could we put dated labels beside the collection box?，这是提出方案，即第二项。第一项是开头说明的情况。第三、四项是 A 接受方案以后安排的行动。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "背景当决定",
+     "Packets lack dates → They agreed to remove all packets.",
+     "没有日期是现状，对话没有决定撤掉种子。"
+    ],
+    [
+     "提议当完成",
+     "Could we add labels? → Labels have been added.",
+     "Could we 是提议，标签还没加上。"
+    ],
+    [
+     "相邻信息错配",
+     "Prepare tonight / inspect Saturday → Prepare Saturday.",
+     "今晚准备标签，周六一起检查。"
+    ],
+    [
+     "角色错配",
+     "I'll prepare them → Both speakers will prepare them.",
+     "标签由 A 一人准备，两人一起做的是周六的检查。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "structure",
+    "focus"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Our choir needs a place to store the music folders. At present, they're stacked behind the piano, and people often take the wrong pile."
+       },
+       {
+        "who": "B",
+        "text": "We could label the shelves by voice part. That would keep each set together without buying another cupboard."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which stage does the description of folders behind the piano represent?",
+       "options": [
+        "Explaining the current situation.",
+        "Accepting a storage proposal.",
+        "Confirming the cupboard purchase.",
+        "Assigning the labeling work."
+       ],
+       "answer": 0,
+       "why": "依据是 At present, they're stacked behind the piano。At present 引出的是现在的存放情况，即第一项。",
+       "point": "structure"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Would the garden group prefer a morning or afternoon delivery? The supplier can offer either, but someone needs to receive the soil."
+       },
+       {
+        "who": "B",
+        "text": "Afternoon would be better. Leon is free then, whereas in the morning we'd have to ask another member to leave work."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which difference should be tracked to understand the preference?",
+       "options": [
+        "The supplier's choice of soil for the garden.",
+        "Whether the supplier can deliver in the afternoon.",
+        "The availability of someone to receive the delivery.",
+        "The price difference between the two delivery times."
+       ],
+       "answer": 2,
+       "why": "依据是 someone needs to receive the soil 和 Leon is free then。选下午，是因为下午有人接货，即第三项。",
+       "point": "focus"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "For the village newsletter, could you explain why the walking group changed its route? Readers remember the path beside the canal."
+       },
+       {
+        "who": "B",
+        "text": "That path is being repaired. We tried the hill route, but it was too steep for several members, so we've settled on the lane through the orchard."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What function does the comment about the hill route serve?",
+       "options": [
+        "Introducing the original canal route.",
+        "Evaluating a route that was rejected.",
+        "Confirming repairs to the orchard lane.",
+        "Explaining why the canal path is closed."
+       ],
+       "answer": 1,
+       "why": "依据是 We tried the hill route, but it was too steep for several members。试过的山路因为太陡被放弃，即第二项。",
+       "point": "structure"
+      }
+     ]
+    },
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "Mina will collect the photographs for the local history display. I'll write the captions once she's checked the dates."
+       },
+       {
+        "who": "B",
+        "text": "Then I'll arrange the finished sheets on the boards. We should leave the printing until the captions are approved, rather than printing the draft tonight."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "Which distinction matters when identifying who writes the captions?",
+       "options": [
+        "Checking dates versus choosing a printing day.",
+        "Approving captions versus displaying finished sheets.",
+        "Printing a draft versus printing approved material.",
+        "Collecting photos versus writing their captions."
+       ],
+       "answer": 3,
+       "why": "依据是 Mina will collect the photographs 和 I'll write the captions。收集照片的是 Mina，写说明文字的是先开口的说话人，即第四项。",
+       "point": "focus"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "structure",
+    "focus"
+   ],
+   "groups": [
+    {
+     "audio": {
+      "intro": "Listen to a conversation.",
+      "lines": [
+       {
+        "who": "A",
+        "text": "We need to decide how to distribute the surplus produce from the allotment. Last week, everything was left at the gate, and several visitors weren't sure whether they could take it."
+       },
+       {
+        "who": "B",
+        "text": "We could put a price list there, but I'd prefer to make the surplus free. A sign saying that clearly would prevent confusion."
+       },
+       {
+        "who": "A",
+        "text": "I agree. I'll make the sign today, and we can keep a separate box for voluntary donations. The vegetables themselves won't have individual prices."
+       },
+       {
+        "who": "B",
+        "text": "Good. I'll explain the arrangement to the volunteers before the gate opens tomorrow."
+       }
+      ]
+     },
+     "items": [
+      {
+       "stem": "What comes between the description of last week and the final agreement?",
+       "options": [
+        "A report that the sign has been completed.",
+        "A comparison of priced and free distribution.",
+        "A list of donations already received.",
+        "An explanation given to the volunteers."
+       ],
+       "answer": 1,
+       "why": "依据是 We could put a price list there, but I'd prefer to make the surplus free。这是在比较收费和免费两种办法，位于说明情况之后、达成一致之前，即第二项。",
+       "point": "structure"
+      },
+      {
+       "stem": "Which distinction resolves whether visitors must pay?",
+       "options": [
+        "Today's sign versus tomorrow's gate opening.",
+        "Visitors at the gate versus allotment volunteers.",
+        "Free vegetables versus optional contributions.",
+        "A produce box versus a completed price list."
+       ],
+       "answer": 2,
+       "why": "依据是 a separate box for voluntary donations 和 The vegetables themselves won't have individual prices。蔬菜免费，捐款自愿，即第三项。",
+       "point": "focus"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.75,
+   "points": [
+    "structure",
+    "focus"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Rita, I'd like to discuss the tool-sharing scheme for our street. People support the idea, but we still haven't agreed how borrowing would work. I brought a draft list of tools, though choosing the rules seems more urgent than adding more equipment."
+         },
+         {
+          "who": "B",
+          "text": "That matches what I've heard, Owen. Three households have offered drills, and another has a ladder. At present, everyone contacts the owner separately. Two people asked for the same drill last Saturday, so one of them had to change their plans."
+         },
+         {
+          "who": "A",
+          "text": "Could we put a booking sheet in the community room? It would show which tools were available. Anyone passing through could add a name, and the owners wouldn't need to answer so many messages during the working day."
+         },
+         {
+          "who": "B",
+          "text": "The sheet would be easy to read, but some households rarely visit that room. A shared calendar might reach more people. However, I don't want residents without internet access to be excluded. They should still be able to make a booking by phone."
+         },
+         {
+          "who": "A",
+          "text": "Then perhaps one coordinator could enter phone requests into the calendar. That would give us a single record instead of two lists that might disagree. We could try it with the drills before including the ladder, which is harder to transport."
+         },
+         {
+          "who": "B",
+          "text": "That sounds manageable. I'll be the coordinator for the first month. The owners can continue explaining how their own tools work. I don't think we should ask the coordinator to take responsibility for teaching every borrower."
+         },
+         {
+          "who": "A",
+          "text": "Agreed. I'll set up the calendar tonight and send the owners a description of the trial. We can review it after a month, especially whether phone bookings have caused any confusion."
+         },
+         {
+          "who": "B",
+          "text": "Good. I'll give residents my contact details tomorrow. Let's keep the ladder outside the trial until we've seen how the simpler arrangement works."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What stage is represented by Rita's account of the conflicting drill requests?",
+         "options": [
+          "Introducing the proposed review.",
+          "Explaining the existing problem.",
+          "Comparing the two booking systems.",
+          "Confirming the coordinator's duties."
+         ],
+         "answer": 1,
+         "why": "依据是 At present, everyone contacts the owner separately 和 Two people asked for the same drill。Rita 在说明现有的问题，即第二项。",
+         "point": "structure"
+        },
+        {
+         "stem": "When the booking sheet and calendar are compared, which distinction needs attention?",
+         "options": [
+          "Which owner would explain how each tool works.",
+          "When the ladder would join the booking trial.",
+          "How many drills the households had offered.",
+          "How residents would gain access to bookings."
+         ],
+         "answer": 3,
+         "why": "依据是 some households rarely visit that room 和 residents without internet access。比较两种办法时，关注的是住户能否方便地登记，即第四项。",
+         "point": "focus"
+        },
+        {
+         "stem": "Which action belongs to the final decision rather than an earlier proposal?",
+         "options": [
+          "Owen will create a calendar for the trial.",
+          "Residents will write on a sheet in the room.",
+          "The ladder will enter the initial trial.",
+          "Owners will maintain separate booking lists."
+         ],
+         "answer": 0,
+         "why": "依据是 I'll set up the calendar tonight，这是双方同意以后安排的行动，即第一项。booking sheet 是之前的提议。",
+         "point": "structure"
+        }
+       ]
+      },
+      {
+       "audio": {
+        "intro": "Listen to a conversation.",
+        "lines": [
+         {
+          "who": "A",
+          "text": "Felix, thanks for agreeing to this interview for our neighborhood magazine. I'd like to focus on how the repair workshop changed after you stopped taking walk-in jobs. Several readers know the shop, but they don't know what led to the new system."
+         },
+         {
+          "who": "B",
+          "text": "I'm happy to explain, Mara. Previously, people brought in damaged furniture whenever they liked. We enjoyed meeting them, but I often had to interrupt a delicate repair to discuss a new one. Customers waiting nearby couldn't tell how long a conversation would take."
+         },
+         {
+          "who": "A",
+          "text": "Was the main difficulty the amount of work or the unpredictable interruptions? The two might sound similar to readers, but they suggest different explanations for the change. I'd like the article to make that distinction clear."
+         },
+         {
+          "who": "B",
+          "text": "The interruptions were the main issue. We weren't receiving more pieces overall. Now customers send a photograph first, and we arrange a time to inspect the item. A photograph doesn't replace an inspection, but it helps us reserve an appropriate amount of time."
+         },
+         {
+          "who": "A",
+          "text": "Some readers may think the photographs allow you to give a final price immediately. Should I include a short explanation of what happens at the inspection? That might prevent the article from creating an expectation that your staff can't meet."
+         },
+         {
+          "who": "B",
+          "text": "Yes, please. We examine the joints and surfaces before confirming the work and price. There can be damage that isn't visible in a photograph. The new arrangement makes our day more predictable, but it doesn't make every repair easy to estimate."
+         },
+         {
+          "who": "A",
+          "text": "I'll organize the article around the old problem, the booking change, and that limit. Before publication, I'll send you the paragraph describing the inspection to check that I've represented the process accurately."
+         },
+         {
+          "who": "B",
+          "text": "That would help. I'll check the technical description by Thursday. The choice of headline can remain with the magazine; my concern is that readers understand what the appointment actually includes."
+         }
+        ]
+       },
+       "items": [
+        {
+         "stem": "What does Felix do immediately after Mara introduces the interview topic?",
+         "options": [
+          "Approve the wording of the final article.",
+          "Compare possible headlines for the magazine.",
+          "Describe the problem with the old arrangement.",
+          "Explain the photograph's limitations in detail."
+         ],
+         "answer": 2,
+         "why": "依据是 Previously, people brought in damaged furniture whenever they liked 和 I often had to interrupt a delicate repair。Felix 先讲旧办法带来的问题，即第三项。",
+         "point": "structure"
+        },
+        {
+         "stem": "What distinction should guide attention to Felix's answer about the main difficulty?",
+         "options": [
+          "Checking the article versus choosing its headline.",
+          "A larger workload versus interruptions to ongoing work.",
+          "Examining joints versus examining furniture surfaces.",
+          "Receiving photographs versus confirming inspection prices."
+         ],
+         "answer": 1,
+         "why": "依据是 Was the main difficulty the amount of work or the unpredictable interruptions? 和 The interruptions were the main issue。要区分的是工作量增加和工作被打断，即第二项。",
+         "point": "focus"
+        },
+        {
+         "stem": "Which information answers the question of who will check what before publication?",
+         "options": [
+          "Mara will confirm the repair price in the article.",
+          "Felix will choose the headline for the magazine.",
+          "Mara will inspect the joints of the furniture.",
+          "Felix will review the inspection description."
+         ],
+         "answer": 3,
+         "why": "依据是 I'll send you the paragraph describing the inspection 和 I'll check the technical description by Thursday。Felix 审读描述检查过程的那一段，即第四项。",
+         "point": "focus"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

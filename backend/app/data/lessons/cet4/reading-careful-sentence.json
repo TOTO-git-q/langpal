@@ -1,0 +1,376 @@
+{
+ "id": "reading-careful-sentence",
+ "title": "语句含义与指代题",
+ "goal": "确定代词的指称并识别保留限制条件的句意改述。",
+ "skill": "阅读",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "reference",
+   "label": "确定词句在上下文中的指称"
+  },
+  {
+   "id": "meaning",
+   "label": "选择保留整句含义的改述"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "阅读理解的教学依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "指代题常问 What does it refer to。句意题要求选出与原句意思相同的改述。两种题都要读前后句。句意题还要保留原句的否定范围和比较对象。"
+    },
+    {
+     "box": "The club bought a camera. It was used to record meetings.\nWhat does it refer to? The camera."
+    },
+    {
+     "p": "it 指前句的 camera，record meetings 是相机的用途。代词附近的名词要用单复数和句意核对，最近的名词不一定是所指对象。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定题目对象",
+     "d": "找到指定代词或句子。读所在句及其前后句。"
+    },
+    {
+     "t": "2　还原关系",
+     "d": "把候选名词代入代词的位置，核对单复数和句意。句意题先找出原句的主体、动作、否定词和比较对象。"
+    },
+    {
+     "t": "3　核对整句意思",
+     "d": "比较原句和选项的范围与关系。只保留了部分信息的选项不选。"
+    }
+   ]
+  },
+  {
+   "id": "relations",
+   "type": "table",
+   "title": "指代与句意",
+   "cols": [
+    "关系",
+    "原文",
+    "对应意思"
+   ],
+   "rows": [
+    [
+     "代词",
+     "Mia borrowed a map from the desk. She returned it after the trip.",
+     "it 指 map，归还的是地图。"
+    ],
+    [
+     "代词",
+     "The chairs were moved to the hall. They were needed for a meeting.",
+     "They 指 chairs，会议需要椅子。"
+    ],
+    [
+     "部分否定",
+     "Not all the rooms were painted.",
+     "意思是 Some rooms were not painted，不是一间都没粉刷。"
+    ],
+    [
+     "全部否定",
+     "None of the rooms was painted.",
+     "意思是 No room was painted，每间房都没有粉刷。"
+    ],
+    [
+     "比较对象",
+     "The train was faster than the bus on this route.",
+     "On this route the bus was slower than the train。"
+    ],
+    [
+     "比较范围",
+     "The newer plan uses less paper than the older one.",
+     "The older plan uses more paper than the newer plan。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The local team tested two ways of sending notices. Not all residents received the first notice, so the team also used printed copies.\nWhat does the sentence about the first notice mean?\n1. No resident received it.\n2. Some residents did not receive it.\n3. Every resident received it.\n4. Most residents received only printed copies."
+    },
+    {
+     "p": "Not all residents received 表示有居民没收到，不是所有人都没收到。第二项保留了这个否定范围。第一项把它扩大成了全部否定。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "最近名词误指",
+     "把 She returned it 的 it 指向 desk。",
+     "代入 returned it：归还的是地图，不是桌子。"
+    ],
+    [
+     "否定范围扩大",
+     "not all rooms 写成 no rooms。",
+     "区分部分否定和全部否定。"
+    ],
+    [
+     "比较方向颠倒",
+     "train faster than bus 写成 bus faster。",
+     "核对两个比较对象的位置。"
+    ],
+    [
+     "遗漏对象",
+     "uses less paper than the older one 只改述成 uses paper。",
+     "改述要保留 less 和比较对象 the older one。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "reference",
+    "meaning"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A gardener placed a label beside each pot. She read it before moving the pot.",
+     "items": [
+      {
+       "stem": "What does it refer to?",
+       "options": [
+        "the gardener",
+        "the label",
+        "the pot",
+        "the move"
+       ],
+       "answer": 1,
+       "why": "依据：read it 读的是前句放在花盆旁的 label，花盆本身不能读，即第二项。",
+       "point": "reference"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The workers repaired the lamps in the corridor. They were brighter after the repair.",
+     "items": [
+      {
+       "stem": "What does They refer to?",
+       "options": [
+        "the workers",
+        "the repairs",
+        "the corridors",
+        "the lamps"
+       ],
+       "answer": 3,
+       "why": "依据：brighter after the repair，修好后变亮的是 lamps，即第四项。",
+       "point": "reference"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "Not every student chose the morning class, although the afternoon class filled quickly.",
+     "items": [
+      {
+       "stem": "Which statement gives the meaning of the first clause?",
+       "options": [
+        "Some students did not choose the morning class.",
+        "No students chose the morning class at all.",
+        "Every student chose the afternoon class instead.",
+        "The afternoon class filled before the morning class."
+       ],
+       "answer": 0,
+       "why": "Not every student chose 是部分否定：有学生没选上午班，不是所有人都没选，即第一项。",
+       "point": "meaning"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The wooden shelf holds fewer books than the metal shelf, although both fit against the wall.",
+     "items": [
+      {
+       "stem": "Which statement preserves the comparison?",
+       "options": [
+        "Only the metal shelf fits against the wall.",
+        "The wooden shelf holds more books than the metal shelf.",
+        "The metal shelf holds more books than the wooden shelf.",
+        "The metal shelf holds the same number as the wooden shelf."
+       ],
+       "answer": 2,
+       "why": "原句说木架放的书 fewer than 金属架。反过来说，金属架放的书更多，即第三项。",
+       "point": "meaning"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "reference",
+    "meaning"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "The town opened a shared workshop for residents who wanted to repair household objects. It had tools for basic jobs and a table for larger items. The volunteers offered advice, but they did not do every repair themselves. Some residents wanted to learn the work rather than leave their objects with someone else.",
+     "items": [
+      {
+       "stem": "What does It refer to?",
+       "options": [
+        "the town",
+        "the workshop",
+        "a household object",
+        "a larger table"
+       ],
+       "answer": 1,
+       "why": "依据：It had tools for basic jobs and a table，有工具和桌子的是前句的 workshop，即第二项。",
+       "point": "reference"
+      },
+      {
+       "stem": "What does the sentence about volunteers mean?",
+       "options": [
+        "Volunteers performed no repairs themselves.",
+        "Residents performed every repair without advice.",
+        "Volunteers gave advice and performed all repairs.",
+        "Volunteers left some repairs to other people."
+       ],
+       "answer": 3,
+       "why": "did not do every repair 是部分否定：志愿者没有亲手做全部修理，即第四项。第一项把它扩大成了一项都不做。",
+       "point": "meaning"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "reference",
+    "meaning"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A group of residents wanted to learn more about the trees along their streets. They asked the local library for space to hold a meeting, and the library offered its main room. A volunteer brought a guide to common trees. She placed it on a table near the door so that people could look at the pictures as they entered. Other volunteers prepared blank sheets for notes and brought pencils for anyone who needed one.\n\nThe group later walked through two streets and recorded the trees they saw. The first street had more young trees than the second street, although both streets had older trees as well. Members agreed to visit again in another season. Not all of the trees could be identified during the first walk: some lacked leaves, and the guide did not show every kind. The group wrote down the uncertain cases rather than assigning names without evidence.\n\nAt the next meeting, members compared their notes with additional pictures. They also discussed how to share the results with other residents. The library agreed to keep a copy of the completed list at its information desk.",
+       "items": [
+        {
+         "stem": "What does it in the first paragraph refer to?",
+         "options": [
+          "the main room",
+          "the tree guide",
+          "the meeting table",
+          "the volunteer"
+         ],
+         "answer": 1,
+         "why": "依据：前句 A volunteer brought a guide to common trees，placed it on a table 放到桌上的是这本 guide，即第二项。",
+         "point": "reference"
+        },
+        {
+         "stem": "Which statement preserves the comparison between the streets?",
+         "options": [
+          "The second street had more young trees than the first.",
+          "Both streets had exactly the same number of young trees.",
+          "Only the first street contained any older trees at all.",
+          "The second street had fewer young trees than the first."
+         ],
+         "answer": 3,
+         "why": "原句说 The first street had more young trees than the second street。反过来说，第二条街的幼树更少，即第四项。第一项把比较方向弄反了。",
+         "point": "meaning"
+        },
+        {
+         "stem": "What does the sentence about identification mean?",
+         "options": [
+          "Some trees were not identified on the first walk.",
+          "Every tree received a name on the first walk.",
+          "No trees could be identified during the first walk.",
+          "The guide identified every tree without its leaves."
+         ],
+         "answer": 0,
+         "why": "Not all of the trees could be identified 是部分否定：有些树没能识别，不是一棵都没识别，即第一项。",
+         "point": "meaning"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A school decided to reduce the amount of food left after lunch. Its staff first needed information about what remained on plates and what was left in serving dishes. They collected this information for a week and discussed it with the kitchen team. The team then adjusted the amount of rice prepared each day, while continuing to offer vegetables and fruit.\n\nStudents suggested that they should be able to take a smaller serving and return for more if they were still hungry. The school tried this arrangement for a month. It also put a notice near the serving table explaining that students could ask for another portion. Staff members observed the lunch period and recorded the food left in the dishes.\n\nThe first month produced less unused rice than the week before the change, although the school did not measure food left on plates during that month. The staff therefore reported the change in unused rice rather than claiming that all food waste had fallen. They planned another period of observation before deciding whether to extend the arrangement. The kitchen team also wanted to hear whether students found the smaller portions useful.",
+       "items": [
+        {
+         "stem": "What does this information in the first paragraph refer to?",
+         "options": [
+          "The amount of rice prepared each day",
+          "Amounts of food remaining after lunch",
+          "Students' views on smaller portions",
+          "Food left in dishes during the trial month"
+         ],
+         "answer": 1,
+         "why": "依据：前句说 information about what remained on plates and what was left in serving dishes。this information 指午饭后剩下的食物情况，即第二项。",
+         "point": "reference"
+        },
+        {
+         "stem": "What does this arrangement in the second paragraph refer to?",
+         "options": [
+          "Taking a smaller serving and returning for more",
+          "Preparing less rice while still serving vegetables",
+          "Measuring food left on plates for a whole month",
+          "Putting a notice near the serving table"
+         ],
+         "answer": 0,
+         "why": "依据：前句是学生的建议 take a smaller serving and return for more。this arrangement 指这个取餐办法，即第一项。",
+         "point": "reference"
+        },
+        {
+         "stem": "Which statement preserves the comparison in the last paragraph?",
+         "options": [
+          "More rice was unused in the first month than before.",
+          "Food on plates was measured more often in the month.",
+          "Less rice was unused in the first month than before.",
+          "All food waste fell by the same amount in the month."
+         ],
+         "answer": 2,
+         "why": "依据：less unused rice than the week before the change。第三项保留了比较的内容 unused rice 和比较对象 the week before。第一项把方向弄反了。",
+         "point": "meaning"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

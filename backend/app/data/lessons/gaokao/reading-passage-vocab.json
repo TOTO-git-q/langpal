@@ -1,0 +1,422 @@
+{
+ "id": "reading-passage-vocab",
+ "title": "语境词义题",
+ "goal": "利用上下文线索判断词语在具体语境中的意思。",
+ "skill": "阅读",
+ "exam": "高考英语（新课标卷）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "clue",
+   "label": "利用上下文线索推断语境词义"
+  },
+  {
+   "id": "substitute",
+   "label": "代入候选释义核对语义一致性"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "高考英语（新课标卷）：课表",
+   "url": "docs/syllabi/gaokao.md",
+   "used": "语境词义题的教学内容和知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "语境词义题问一个词在本句中的意思。一个词常有几个意思，正确选项要符合本句和上下文。"
+    },
+    {
+     "p": "例如 bright 有聪明的意思，但在 The room is bright 中表示明亮。依据是后文 The window lets in sunlight。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　找到目标词",
+     "d": "读完目标词所在的整句，确定词性。The room is bright 中，bright 是形容词，描述房间。"
+    },
+    {
+     "t": "2　寻找上下文线索",
+     "d": "查找定义、同义复现、反义对比、举例或因果。The window lets in sunlight 支持明亮这个意思。"
+    },
+    {
+     "t": "3　推断词义",
+     "d": "根据线索说出词义。A narrow path, only wide enough for one person 中，逗号后的部分说明 narrow 是窄。"
+    },
+    {
+     "t": "4　代入核对",
+     "d": "把选项代入原句，检查词性、搭配和上下文。bright 换成 full of light，与窗户透光相符。"
+    }
+   ]
+  },
+  {
+   "id": "clues-one",
+   "type": "table",
+   "title": "定义与复现",
+   "cols": [
+    "线索",
+    "原文",
+    "语境义"
+   ],
+   "rows": [
+    [
+     "定义",
+     "A peninsula is land almost surrounded by water.",
+     "peninsula：半岛"
+    ],
+    [
+     "定义",
+     "A curator is a person who cares for a collection.",
+     "curator：藏品管理人员"
+    ],
+    [
+     "同义复现",
+     "The path was steep. Its sharp slope slowed the walkers.",
+     "steep：陡的"
+    ],
+    [
+     "同义复现",
+     "The room was vacant; no one was using it.",
+     "vacant：空着的"
+    ],
+    [
+     "反义对比",
+     "Unlike the noisy hall, the study was quiet.",
+     "quiet：安静的"
+    ],
+    [
+     "反义对比",
+     "The first route was direct, but the other had many turns.",
+     "direct：径直的"
+    ]
+   ]
+  },
+  {
+   "id": "clues-two",
+   "type": "table",
+   "title": "举例与因果",
+   "cols": [
+    "线索",
+    "原文",
+    "语境义"
+   ],
+   "rows": [
+    [
+     "举例",
+     "The kit contained utensils, such as spoons and forks.",
+     "utensils：用具"
+    ],
+    [
+     "举例",
+     "She planted herbs, including mint and parsley.",
+     "herbs：香草植物"
+    ],
+    [
+     "因果",
+     "The lid was loose, so water leaked out.",
+     "loose：没拧紧的"
+    ],
+    [
+     "因果",
+     "The path was blocked, so walkers used another route.",
+     "blocked：被堵住的"
+    ],
+    [
+     "熟词生义",
+     "The paper was light enough to carry in one hand.",
+     "light：重量轻的"
+    ],
+    [
+     "熟词生义",
+     "The guide will address the visitors before the tour.",
+     "address：向……讲话"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The old path was blocked by fallen branches after the storm. Walkers could not pass through, so the park staff opened another route. They began removing the branches the next morning."
+    },
+    {
+     "box": "What does 'blocked' mean in this passage?\n1. Damaged by the storm\n2. Closed to passage\n3. Cleared of branches\n4. Opened to walkers"
+    },
+    {
+     "p": "依据是 Walkers could not pass through，这条路走不通。第二项代入后，与工作人员另开一条路相符。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "常见义误用",
+     "light 解释为光线。",
+     "carry 说明这里指重量轻。"
+    ],
+    [
+     "因果混淆",
+     "blocked 解释为 opened。",
+     "被堵的是原路线，打开的是另一条路线。"
+    ],
+    [
+     "关系相反",
+     "vacant 解释为 in use。",
+     "no one was using 说明房间空着。"
+    ],
+    [
+     "以例代类",
+     "utensils 解释为 forks。",
+     "spoons 和 forks 是例子，utensils 是它们的总称。"
+    ]
+   ]
+  },
+  {
+   "id": "check-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "clue",
+    "substitute"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "The path was narrow: only one person could walk along it at a time. A wider route ran beside the field.",
+     "items": [
+      {
+       "stem": "What does 'narrow' mean here?",
+       "options": [
+        "Not wide",
+        "Not open",
+        "Not marked",
+        "Not direct"
+       ],
+       "answer": 0,
+       "why": "依据是 only one person could walk along it at a time，一次只能走一个人，说明小路不宽，即第一项。",
+       "point": "clue"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The meeting was brief. It lasted only ten minutes, and then the visitors left the hall.",
+     "items": [
+      {
+       "stem": "What does 'brief' mean here?",
+       "options": [
+        "Open to visitors",
+        "Short in time",
+        "Held in a hall",
+        "Planned for ten people"
+       ],
+       "answer": 1,
+       "why": "依据是 lasted only ten minutes，会议时间短，即第二项。",
+       "point": "clue"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The bag was light, so Noor carried it upstairs without difficulty. Her other bag was much heavier.",
+     "items": [
+      {
+       "stem": "What does 'light' mean here?",
+       "options": [
+        "Full of sunshine",
+        "Small in size",
+        "Not heavy to carry",
+        "Bright in color"
+       ],
+       "answer": 2,
+       "why": "依据是 carried it upstairs without difficulty 和 much heavier，light 指重量轻，即第三项。",
+       "point": "substitute"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The guide will address the visitors before the tour. She has prepared a short welcome speech for them.",
+     "items": [
+      {
+       "stem": "What does 'address' mean here?",
+       "options": [
+        "Write a location on",
+        "Walk around a building with",
+        "Prepare a tour for",
+        "Speak to an audience of"
+       ],
+       "answer": 3,
+       "why": "依据是 a short welcome speech，address 指向参观者讲话，即第四项。",
+       "point": "substitute"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "clue",
+    "substitute"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A community theatre kept its costumes in a storage room. Each outfit had a label with the production and the year. At the end of each show, volunteers inspected the clothes and made small repairs. One coat had a loose button, so a volunteer sewed it on firmly. Another costume was intact: it had no tears or missing parts and could be stored without repair. The volunteers then returned both items to the shelves.",
+     "items": [
+      {
+       "stem": "What does 'loose' mean in this passage?",
+       "options": [
+        "Newly labeled",
+        "Not firmly attached",
+        "Too large to store",
+        "Made for a production"
+       ],
+       "answer": 1,
+       "why": "依据是 sewed it on firmly，纽扣要缝牢，说明原来没钉牢，即第二项。",
+       "point": "substitute"
+      },
+      {
+       "stem": "What does 'intact' mean in this passage?",
+       "options": [
+        "Labeled with the production and year",
+        "Returned to the shelf after repair",
+        "Without damage or missing parts",
+        "Missing only one small part"
+       ],
+       "answer": 2,
+       "why": "依据是冒号后的 no tears or missing parts，intact 指完好，即第三项。第二项与 could be stored without repair 相反。",
+       "point": "clue"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "clue",
+    "substitute"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "The staff at a small museum wanted to show how a collection of pottery was documented. Instead of putting every object in one room, they selected a few pieces that demonstrated different stages of the work. The display began with a photograph of each object as it arrived. A card beside each photograph explained where the object had been stored and what information was available about it.\n\nThe staff first inspected each piece. They looked for cracks and recorded any marks on the surface. One bowl was fragile, so it could easily break if handled roughly. A staff member placed it on a padded support and moved it only when necessary. Another bowl was sturdy enough to be lifted for closer examination. Both bowls received written descriptions, but the descriptions noted their different conditions.\n\nNext, the staff compared the marks with records in the museum's files. Several marks were familiar: they had appeared on objects already listed in the collection. Others were unfamiliar and required further study. When staff could not identify a mark, they left the relevant space blank rather than enter a guess.\n\nFinally, the museum created a duplicate of each record. The original remained with the collection, while the copy was kept in another room. This arrangement meant that staff could still consult the information if one set of papers was damaged. Visitors to the display could examine sample records and see how a description, a photograph, and notes about condition worked together. The museum also invited visitors to ask questions about the process during a weekly discussion.",
+       "items": [
+        {
+         "stem": "What does 'fragile' mean in the second paragraph?",
+         "options": [
+          "Easily broken",
+          "Recently marked",
+          "Carefully described",
+          "Firmly supported"
+         ],
+         "answer": 0,
+         "why": "依据是 could easily break if handled roughly，fragile 指容易破碎，即第一项。",
+         "point": "clue"
+        },
+        {
+         "stem": "What does 'familiar' mean in the third paragraph?",
+         "options": [
+          "Requiring further study",
+          "Previously recognized",
+          "Impossible to record",
+          "Stored in a separate room"
+         ],
+         "answer": 1,
+         "why": "依据是 they had appeared on objects already listed，这些标记以前见过，即第二项。第一项说的是 unfamiliar 的标记。",
+         "point": "clue"
+        },
+        {
+         "stem": "What does 'duplicate' mean in the last paragraph?",
+         "options": [
+          "A written description",
+          "An original object",
+          "An additional copy",
+          "A damaged photograph"
+         ],
+         "answer": 2,
+         "why": "依据是 The original remained with the collection, while the copy was kept in another room。duplicate 是另一份副本，即第三项。",
+         "point": "substitute"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A group of students prepared a display about local footpaths. They began by walking three routes with a teacher and noting the signs at each entrance. The signs gave the names of the paths, but some did not show where the routes ended. The students decided to make a map that would connect the entrances with nearby roads and public buildings.\n\nEach student drew a rough map during a walk. These first sketches were not intended as finished maps; they were quick drawings used to record turns and landmarks. Back at school, the group compared the sketches. When two students had drawn the same turn differently, they returned to the location with their teacher and checked it again. They also measured the distance between several points using a marked wheel.\n\nThe final map included a key, a list explaining what the symbols on the map represented. A solid line showed a path, while a dotted line marked a road. A small square indicated a public building. The students placed the key in one corner so that readers could refer to it without covering the routes.\n\nBefore the display opened, the students asked another class to try the map. The first version was confusing: several readers could not distinguish the dotted roads from the solid paths. The students made the two lines more distinct by changing their thickness as well as their pattern. After the change, the second class identified the roads and paths correctly. The students kept the original sketches beside the finished map to show how their work had developed.",
+       "items": [
+        {
+         "stem": "What does 'rough' mean in the second paragraph?",
+         "options": [
+          "Uneven and hard to walk on",
+          "Drawn by a teacher for the display",
+          "Made for the final display",
+          "Made quickly without final detail"
+         ],
+         "answer": 3,
+         "why": "依据是 not intended as finished maps 和 quick drawings。rough 指匆匆画成、未完成的草图，即第四项。",
+         "point": "substitute"
+        },
+        {
+         "stem": "What does 'key' mean in the third paragraph?",
+         "options": [
+          "A route connecting roads and paths",
+          "An explanation of map symbols",
+          "A point marked on a wheel",
+          "A building beside a path"
+         ],
+         "answer": 1,
+         "why": "依据是 key 后面的同位语 a list explaining what the symbols on the map represented，即第二项。",
+         "point": "clue"
+        },
+        {
+         "stem": "What does 'distinct' mean in the last paragraph?",
+         "options": [
+          "Clearly different",
+          "Equally thick",
+          "Difficult to locate",
+          "Shown in one corner"
+         ],
+         "answer": 0,
+         "why": "依据是 could not distinguish the dotted roads from the solid paths。改动后读者分清了两种线，distinct 指区别明显，即第一项。",
+         "point": "substitute"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

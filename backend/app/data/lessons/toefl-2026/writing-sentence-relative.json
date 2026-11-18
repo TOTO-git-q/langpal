@@ -1,0 +1,608 @@
+{
+ "id": "writing-sentence-relative",
+ "title": "定语从句",
+ "goal": "能确定定语从句的修饰对象，并区分关系词在从句中的作用。",
+ "skill": "writing",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 写作",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "attach",
+   "label": "把定语从句放在所修饰的名词之后"
+  },
+  {
+   "id": "inner",
+   "label": "排出从句内部的语序"
+  }
+ ],
+ "sources": [],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "定语从句说明一个名词，一般紧跟在这个名词后面。排列时先找出被修饰的名词。再看关系词在从句里作主语、宾语、定语还是地点状语。"
+    },
+    {
+     "box": "The editor who revised the index found an error.\nThe index that the editor revised contains an error."
+    },
+    {
+     "p": "第一句的 who 指 editor，是 revised 的主语。第二句的 that 指 index，是 revised 的宾语。两个从句都用陈述语序，不加 do，也不倒装。"
+    }
+   ]
+  },
+  {
+   "id": "relatives",
+   "type": "table",
+   "title": "关系词与先行词",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "who",
+     "指人，可作主语或宾语。",
+     "The editor who revised the index called."
+    ],
+    [
+     "which",
+     "指物，可作主语或宾语。",
+     "The index which lists the names is incomplete."
+    ],
+    [
+     "that",
+     "可以指人，也可以指物。逗号后面不用 that。",
+     "The folder that contains the letters is blue."
+    ],
+    [
+     "whose",
+     "表示谁的，后面紧接一个名词。",
+     "The writer whose notebook vanished called."
+    ],
+    [
+     "where",
+     "表示地点，后面的从句有主语也有宾语。",
+     "The room where the editors meet is upstairs."
+    ],
+    [
+     "地点名词与 which",
+     "地点名词在从句里作宾语时，用 which 或 that，不用 where。",
+     "The room which the editors use is upstairs."
+    ],
+    [
+     "介词与关系词",
+     "介词放在关系词前面时，指物用 which，不用 that。",
+     "The shelf on which the box stood collapsed."
+    ]
+   ]
+  },
+  {
+   "id": "inner",
+   "type": "table",
+   "title": "从句内部的语序",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "关系词作主语",
+     "关系词后面直接接谓语，不再加 he、it 这类主语。",
+     "The clerk who found the letter called."
+    ],
+    [
+     "关系词作宾语",
+     "关系词后面接主语和谓语，句末不再加 it 这类宾语。",
+     "The letter that the clerk found was unsigned."
+    ],
+    [
+     "whose 作定语",
+     "whose 和后面的名词合起来作从句的一个成分。",
+     "The artist whose work won the prize thanked the judges."
+    ],
+    [
+     "where 作状语",
+     "where 后面要有完整的主语和谓语。",
+     "The room where the group meets has new chairs."
+    ],
+    [
+     "从句中的单复数",
+     "关系词作主语时，谓语跟先行词的单复数一致。",
+     "The letters that describe the event are missing."
+    ],
+    [
+     "主句与从句的谓语",
+     "主句和从句各有一个谓语。主句的谓语放在从句后面。",
+     "The editor who checked the dates noticed a mistake."
+    ]
+   ]
+  },
+  {
+   "id": "omission",
+   "type": "table",
+   "title": "关系词的省略",
+   "cols": [
+    "情况",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "限定性从句的宾语",
+     "关系词作动词的宾语时，一般可以省略。",
+     "The draft (that) the editor approved is ready."
+    ],
+    [
+     "限定性从句的主语",
+     "关系词作主语时不能省略。",
+     "The editor who approved the draft is away."
+    ],
+    [
+     "介词留在末尾",
+     "介词放在从句末尾时，关系词可以省略。",
+     "The shelf (which) the box stood on collapsed."
+    ],
+    [
+     "介词前置",
+     "介词后面的关系词不能省略。",
+     "The shelf on which the box stood collapsed."
+    ],
+    [
+     "非限定性从句",
+     "逗号后面的关系词不能省略，也不用 that。",
+     "The ledger, which was damaged, is being repaired."
+    ],
+    [
+     "whose",
+     "whose 不能省略。",
+     "The donor whose papers arrived sent a note."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Which copy belongs in the archive?\nThe ______ ______ ______ ______ is the original.\nsigned / copy / the author / that / what"
+    },
+    {
+     "p": "先行词是 copy。that 是 signed 的宾语，从句里是 the author signed。写成 that signed the author，意思就变成这份副本给作者签了名。"
+    },
+    {
+     "box": "The copy that the author signed is the original."
+    },
+    {
+     "p": "这里的 that 本来可以省略，但题目给了这个词块，空位也留给了它，所以要用上。what 不能用在先行词 copy 后面。"
+    }
+   ]
+  },
+  {
+   "id": "check-attach",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "attach"
+   ],
+   "groups": [
+    {
+     "label": "Make an appropriate sentence.",
+     "items": [
+      {
+       "stem": "Which guidebook needs a new cover?",
+       "lead": "The",
+       "chunks": [
+        "guidebook",
+        "that",
+        "lists",
+        "the coastal walks"
+       ],
+       "tail": "needs one.",
+       "extra": [
+        "what"
+       ],
+       "why": "that lists the coastal walks 紧跟 guidebook，that 是从句的主语。先行词后面不用 what。",
+       "point": "attach"
+      },
+      {
+       "stem": "Who donated the photographs?",
+       "lead": "The",
+       "chunks": [
+        "collector",
+        "whose",
+        "family",
+        "owned the studio"
+       ],
+       "tail": "donated them.",
+       "extra": [
+        "who"
+       ],
+       "why": "whose family 表示这位收藏者的家人。who 不表示谁的，不能接 family。",
+       "point": "attach"
+      },
+      {
+       "stem": "Where did the translators meet?",
+       "lead": "The",
+       "chunks": [
+        "room",
+        "where",
+        "the translators",
+        "met"
+       ],
+       "tail": "was upstairs.",
+       "extra": [
+        "which"
+       ],
+       "why": "where 表示地点，the translators met 已经完整。met 在这里不带宾语，所以不用 which。",
+       "point": "attach"
+      },
+      {
+       "stem": "Which instrument is missing?",
+       "lead": "The",
+       "chunks": [
+        "instrument",
+        "that",
+        "the musician",
+        "borrowed"
+       ],
+       "tail": "is missing.",
+       "extra": [
+        "what"
+       ],
+       "why": "instrument 后面接 that the musician borrowed，that 是 borrowed 的宾语。what 多余。",
+       "point": "attach"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-inner",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "inner"
+   ],
+   "groups": [
+    {
+     "label": "Make an appropriate sentence.",
+     "items": [
+      {
+       "stem": "Which researcher located the diary?",
+       "lead": "The researcher who",
+       "chunks": [
+        "found",
+        "the diary in",
+        "the",
+        "attic"
+       ],
+       "tail": "contacted its owner.",
+       "extra": [
+        "he"
+       ],
+       "why": "who 已经是 found 的主语，不再加 he。the diary 是宾语，in the attic 表示地点。",
+       "point": "inner"
+      },
+      {
+       "stem": "Which pamphlet should be restored?",
+       "lead": "The pamphlet which",
+       "chunks": [
+        "the",
+        "conservator",
+        "selected for",
+        "restoration"
+       ],
+       "tail": "is on the desk.",
+       "extra": [
+        "it"
+       ],
+       "why": "which 是 selected 的宾语，从句的主语是 the conservator。宾语已有 which，不再加 it。",
+       "point": "inner"
+      },
+      {
+       "stem": "Who owns the sketch?",
+       "lead": "The artist whose",
+       "chunks": [
+        "sketch",
+        "appears on",
+        "the",
+        "poster"
+       ],
+       "tail": "owns it.",
+       "extra": [
+        "appear"
+       ],
+       "why": "whose sketch 是从句的主语，单数，所以谓语用 appears，不用 appear。",
+       "point": "inner"
+      },
+      {
+       "stem": "Which storehouse held the manuscripts?",
+       "lead": "The storehouse where",
+       "chunks": [
+        "the team",
+        "kept",
+        "the manuscripts",
+        "was demolished"
+       ],
+       "tail": ".",
+       "extra": [
+        "did"
+       ],
+       "why": "where 后面是陈述语序 the team kept the manuscripts，did 多余。was demolished 是主句的谓语。",
+       "point": "inner"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-mixed",
+   "type": "check",
+   "title": "练习三",
+   "points": [
+    "inner",
+    "attach"
+   ],
+   "groups": [
+    {
+     "label": "Make an appropriate sentence.",
+     "items": [
+      {
+       "stem": "Which atlas did the cartographer consult?",
+       "lead": "The atlas",
+       "chunks": [
+        "the cartographer",
+        "used for",
+        "the",
+        "survey"
+       ],
+       "tail": "is on display.",
+       "extra": [
+        "it"
+       ],
+       "why": "atlas 后面省略了关系词，它是 used 的宾语。the cartographer 是从句的主语，不再加 it。",
+       "point": "inner"
+      },
+      {
+       "stem": "Who repaired the music box?",
+       "lead": "The",
+       "chunks": [
+        "craftsperson",
+        "who",
+        "repaired",
+        "the spring"
+       ],
+       "tail": "repaired the box.",
+       "extra": [
+        "which"
+       ],
+       "why": "who 指 craftsperson，是 repaired 的主语。which 不指人。",
+       "point": "attach"
+      },
+      {
+       "stem": "Which cabinet should be moved?",
+       "lead": "The",
+       "chunks": [
+        "cabinet",
+        "whose",
+        "door",
+        "is broken"
+       ],
+       "tail": "should be moved.",
+       "extra": [
+        "which"
+       ],
+       "why": "whose 也可以指物，whose door 是从句的主语。表示柜子的门不用 which door。",
+       "point": "attach"
+      },
+      {
+       "stem": "Which journal did the biographer cite?",
+       "lead": "The journal that",
+       "chunks": [
+        "the biographer",
+        "cited in",
+        "her",
+        "book"
+       ],
+       "tail": "has been reprinted.",
+       "extra": [
+        "it"
+       ],
+       "why": "that 是 cited 的宾语，从句里是 the biographer cited。宾语已有 that，不再加 it。",
+       "point": "inner"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "attach",
+    "inner"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Make an appropriate sentence.",
+       "items": [
+        {
+         "stem": "Who donated the quilt?",
+         "lead": "The",
+         "chunks": [
+          "resident",
+          "who",
+          "made",
+          "the quilt"
+         ],
+         "tail": "donated it.",
+         "extra": [
+          "which"
+         ],
+         "why": "who made the quilt 修饰 resident。who 指人，是 made 的主语。which 不指人。",
+         "point": "attach"
+        },
+        {
+         "stem": "Which receipt proves the purchase?",
+         "lead": "The",
+         "chunks": [
+          "receipt",
+          "that",
+          "the appraiser",
+          "examined"
+         ],
+         "tail": "proves it.",
+         "extra": [
+          "what"
+         ],
+         "why": "that the appraiser examined 紧跟 receipt，that 是 examined 的宾语。先行词后面不用 what。",
+         "point": "attach"
+        },
+        {
+         "stem": "Who supplied the engraving?",
+         "lead": "The",
+         "chunks": [
+          "donor",
+          "whose",
+          "uncle",
+          "owned the press"
+         ],
+         "tail": "supplied it.",
+         "extra": [
+          "who"
+         ],
+         "why": "whose uncle 表示这位捐赠人的叔叔。who 不表示谁的，不能接 uncle。",
+         "point": "attach"
+        },
+        {
+         "stem": "Where were the oral histories recorded?",
+         "lead": "The",
+         "chunks": [
+          "booth",
+          "where",
+          "the volunteers",
+          "recorded the interviews"
+         ],
+         "tail": "is downstairs.",
+         "extra": [
+          "which"
+         ],
+         "why": "the volunteers recorded the interviews 有主语也有宾语，前面用表示地点的 where。which 多余。",
+         "point": "attach"
+        },
+        {
+         "stem": "Which courtyard appears in the lithograph?",
+         "lead": "The",
+         "chunks": [
+          "courtyard",
+          "which",
+          "the artist",
+          "sketched"
+         ],
+         "tail": "appears in it.",
+         "extra": [
+          "where"
+         ],
+         "why": "sketched 后面缺宾语，which 指 courtyard，作 sketched 的宾语。where 不能作宾语。",
+         "point": "attach"
+        },
+        {
+         "stem": "Who discovered the seal?",
+         "lead": "The archivist who",
+         "chunks": [
+          "discovered",
+          "the seal on",
+          "the",
+          "envelope"
+         ],
+         "tail": "reported it.",
+         "extra": [
+          "she"
+         ],
+         "why": "who 是 discovered 的主语，从句不再加 she。on the envelope 说明印章在哪里。",
+         "point": "inner"
+        },
+        {
+         "stem": "Which plaque was removed?",
+         "lead": "The plaque that",
+         "chunks": [
+          "the curator",
+          "removed from",
+          "the",
+          "pedestal"
+         ],
+         "tail": "was damaged.",
+         "extra": [
+          "it"
+         ],
+         "why": "that 是 removed 的宾语，the curator 是主语。宾语已有 that，不再加 it。",
+         "point": "inner"
+        },
+        {
+         "stem": "Who found the tracing?",
+         "lead": "The drafter whose",
+         "chunks": [
+          "name",
+          "appears on",
+          "the",
+          "tracing"
+         ],
+         "tail": "found it.",
+         "extra": [
+          "appear"
+         ],
+         "why": "whose name 是单数主语，所以谓语用 appears，不用 appear。",
+         "point": "inner"
+        },
+        {
+         "stem": "Which chest held the costumes?",
+         "lead": "The chest",
+         "chunks": [
+          "the caretaker",
+          "opened with",
+          "the brass",
+          "key"
+         ],
+         "tail": "held them.",
+         "extra": [
+          "it"
+         ],
+         "why": "chest 后面省略了关系词，它是 opened 的宾语。从句是 the caretaker opened，不再加 it。",
+         "point": "inner"
+        },
+        {
+         "stem": "Where did the calligrapher keep the scrolls?",
+         "lead": "The alcove where",
+         "chunks": [
+          "the calligrapher",
+          "stored",
+          "the scrolls",
+          "was dry"
+         ],
+         "tail": ".",
+         "extra": [
+          "did"
+         ],
+         "why": "where 后面接完整的分句 the calligrapher stored the scrolls，不加 did。was dry 是主句的谓语。",
+         "point": "inner"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

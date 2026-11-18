@@ -1,0 +1,392 @@
+{
+ "id": "reading-information-method",
+ "title": "段落信息配对",
+ "goal": "根据所需信息的功能定位包含完整证据的段落。",
+ "skill": "阅读",
+ "exam": "雅思 IELTS Academic",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "function",
+   "label": "根据题干确定所需信息的功能"
+  },
+  {
+   "id": "locate",
+   "label": "定位包含完整证据的段落"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "雅思 IELTS Academic：课表",
+   "url": "docs/syllabi/ielts.md",
+   "used": "课程范围与知识点"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "段落信息配对题要找出含有某条信息的段落。题干要的信息可能是例子、原因、比较、描述或解释。这条信息常常只是段落里的一两句，不一定是段落主旨。"
+    },
+    {
+     "box": "A description of the material used to repair a roof"
+    },
+    {
+     "p": "题干的对象是修屋顶用的材料，信息功能是描述。只提到屋顶、没有说材料的段落不能选。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定信息功能",
+     "d": "先看题干要的是例子、原因、比较、描述还是解释。A reason for a delay 要的是延误的原因。"
+    },
+    {
+     "t": "2　定位具体对象",
+     "d": "在原文中找题干的对象或它的改写。repair a roof 可以对应 mend the roof。"
+    },
+    {
+     "t": "3　核对完整证据",
+     "d": "读相关的句子和前后句，核对对象和信息功能。段落主题相同，未必含有题干要的细节。"
+    },
+    {
+     "t": "4　检查使用条件",
+     "d": "看题面是否允许段落重复使用。允许重复时，同一段里的不同句子可以分别回答不同的题。"
+    }
+   ]
+  },
+  {
+   "id": "functions",
+   "type": "table",
+   "title": "信息功能",
+   "cols": [
+    "功能",
+    "题干",
+    "证据"
+   ],
+   "rows": [
+    [
+     "例子",
+     "an example of a repair",
+     "A cracked tile was replaced."
+    ],
+    [
+     "原因",
+     "a reason for a delay",
+     "Rain postponed the work."
+    ],
+    [
+     "比较",
+     "a comparison of two materials",
+     "Slate lasted longer than straw."
+    ],
+    [
+     "描述",
+     "a description of a tool",
+     "The tool had a wooden handle."
+    ],
+    [
+     "解释",
+     "an explanation of a process",
+     "Heat softened the wax, allowing it to flow."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "A. The old bridge was inspected each spring. Its stone supports stood in the river.\n\nB. Heavy rain raised the river, so repairs to the bridge were postponed.\n\nC. Workers later used timber to replace the damaged walkway.\n\nWhich paragraph gives a reason for a delay to the bridge repairs? Paragraphs may be used more than once."
+    },
+    {
+     "p": "题干要的是延误的原因。B 段的 Heavy rain raised the river 是原因，repairs ... were postponed 是结果，答案是 B 段。A 段讲检查和桥墩，C 段讲修理用的材料。"
+    }
+   ]
+  },
+  {
+   "id": "distractors",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "情况",
+    "原文",
+    "判断"
+   ],
+   "rows": [
+    [
+     "对象相同",
+     "The bridge was inspected each spring.",
+     "检查不是延误原因。"
+    ],
+    [
+     "主题相同",
+     "Workers repaired the bridge with timber.",
+     "材料不是延误原因。"
+    ],
+    [
+     "原因不完整",
+     "The river rose after heavy rain.",
+     "还要找到河水上涨导致延误的那一句。"
+    ],
+    [
+     "主旨替代细节",
+     "The paragraph describes repairs and then explains a delay.",
+     "这段的主旨是修理，延误原因只在后半段的一句里。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "function",
+    "locate"
+   ],
+   "groups": [
+    {
+     "text": "A. Clay was carried to the workshop. B. A cracked pot was repaired with resin. C. The pot was kept in a dry room.",
+     "items": [
+      {
+       "stem": "Which paragraph gives an example of a repair? Paragraphs may be used more than once.",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Paragraph C",
+        "No paragraph"
+       ],
+       "answer": 1,
+       "why": "依据在第二段：A cracked pot was repaired with resin，这是一次修复的实例。",
+       "point": "function"
+      }
+     ]
+    },
+    {
+     "text": "A. Fog delayed the ferry. B. The ferry carried baskets. C. The ferry returned at noon.",
+     "items": [
+      {
+       "stem": "Which paragraph gives a reason for a delay? Paragraphs may be used more than once.",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Paragraph C",
+        "No paragraph"
+       ],
+       "answer": 0,
+       "why": "依据在第一段：Fog delayed the ferry，fog 是延误的原因。",
+       "point": "function"
+      }
+     ]
+    },
+    {
+     "text": "A. Linen was lighter than wool. B. Wool was stored in a chest. C. Linen was sold in the market.",
+     "items": [
+      {
+       "stem": "Which paragraph compares two materials? Paragraphs may be used more than once.",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Paragraph C",
+        "No paragraph"
+       ],
+       "answer": 0,
+       "why": "依据在第一段：Linen was lighter than wool，用 lighter than 比较两种材料。第二段和第三段各只讲一种材料。",
+       "point": "locate"
+      }
+     ]
+    },
+    {
+     "text": "A. Seeds were collected in autumn. B. The seeds had smooth, dark coats. C. The seeds were sent to a garden.",
+     "items": [
+      {
+       "stem": "Which paragraph describes the seeds? Paragraphs may be used more than once.",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Paragraph C",
+        "No paragraph"
+       ],
+       "answer": 1,
+       "why": "依据在第二段：The seeds had smooth, dark coats，描述了种子的外观。第一段讲采集时间，不是描述。",
+       "point": "locate"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "function",
+    "locate"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A. A community garden collected rainwater in barrels. The barrels stood beside a greenhouse.\n\nB. The garden's first barrel had a narrow opening. Leaves blocked it, and this reduced the amount of water collected.\n\nC. Gardeners installed a mesh cover. It kept leaves out while allowing rain to pass into the barrel.",
+     "items": [
+      {
+       "stem": "Which paragraph explains why the first barrel collected less water? Paragraphs may be used more than once.",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Paragraph C",
+        "All three paragraphs",
+        "No paragraph"
+       ],
+       "answer": 1,
+       "why": "依据在第二段：Leaves blocked it, and this reduced the amount of water collected。前半句是原因，后半句是结果。",
+       "point": "function"
+      },
+      {
+       "stem": "Which paragraph describes how a cover worked? Paragraphs may be used more than once.",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Paragraph C",
+        "All three paragraphs",
+        "No paragraph"
+       ],
+       "answer": 2,
+       "why": "依据在第三段：It kept leaves out while allowing rain to pass into the barrel，说明了网罩怎样起作用。",
+       "point": "locate"
+      },
+      {
+       "stem": "Which paragraph states where the barrels stood? Paragraphs may be used more than once.",
+       "options": [
+        "Paragraph A",
+        "Paragraph B",
+        "Paragraph C",
+        "All three paragraphs",
+        "No paragraph"
+       ],
+       "answer": 0,
+       "why": "依据在第一段：The barrels stood beside a greenhouse，给出了桶的位置。",
+       "point": "locate"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "function",
+    "locate"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A. A local archive keeps records of a former canal. Its collection includes maps drawn at different times as well as notes about repairs. The maps do not all show the same route: some were prepared before the canal was extended. Staff compare dates before using them to reconstruct changes. The archive also holds photographs, but these show only a small part of the waterway. Their value lies in the details they preserve, such as the shape of a gate or the surface of a path.\n\nB. One gate needed attention after its timber became damaged. Repair was delayed because the water level remained too high for workers to reach its lower section safely. When the level fell, they could examine the wood. The team recorded the condition of each section before removing any material. They retained sound pieces and replaced those that could no longer support the gate. This record distinguished old timber from new work without relying on colour alone.\n\nC. A visitor display now explains how a gate controlled water. Closing it separated adjacent stretches of canal, allowing the water in one stretch to rise or fall independently. A small model shows the direction in which the gate moved. Visitors can compare the model with a drawing of the original structure. The drawing includes measurements, whereas the model emphasises movement and is not intended to reproduce the gate's full size. Both are used to explain the same mechanism. The model can be moved by hand, making the different positions visible during a visit.",
+       "items": [
+        {
+         "stem": "Which paragraph gives a reason why work on a gate was postponed? Paragraphs may be used more than once.",
+         "options": [
+          "All three paragraphs",
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "No paragraph"
+         ],
+         "answer": 2,
+         "why": "依据在第二段：Repair was delayed because the water level remained too high，because 后面是推迟的原因。",
+         "point": "function"
+        },
+        {
+         "stem": "Which paragraph explains how a gate separated stretches of water? Paragraphs may be used more than once.",
+         "options": [
+          "All three paragraphs",
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "No paragraph"
+         ],
+         "answer": 3,
+         "why": "依据在第三段：Closing it separated adjacent stretches of canal，解释了闸门怎样分隔水面。",
+         "point": "locate"
+        },
+        {
+         "stem": "Which paragraph compares what a model and a drawing show? Paragraphs may be used more than once.",
+         "options": [
+          "All three paragraphs",
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "No paragraph"
+         ],
+         "answer": 3,
+         "why": "依据在第三段：The drawing includes measurements, whereas the model emphasises movement，用 whereas 对比两者显示的内容。",
+         "point": "function"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A. A museum planned an exhibition about paper conservation. Its staff first examined several sheets that had been stored in different conditions. Some had become brittle, while others retained enough flexibility to be handled. The team noted the condition of each sheet and photographed existing folds. These records provided a baseline for later work; the appearance of a sheet after treatment could be compared with its earlier condition. No single treatment was assumed suitable for every item.\n\nB. For one fragile sheet, a conservator prepared a thin support from specially made paper. The support was attached only after tests on a separate sample showed that the adhesive could be removed. This mattered because a future conservator might need to treat the object again. The test did not establish that the adhesive would suit every kind of paper. The exhibition includes the test sample alongside the supported sheet, with a note explaining why the two were treated differently.\n\nC. The exhibition also compares two storage arrangements. In an open tray, a sheet could be reached quickly, but it was exposed to dust. In a closed box, access took longer, yet the sheet was protected from dust between inspections. Staff selected boxes for long-term storage and reserved trays for short handling sessions. The display presents this choice as a balance between access and protection rather than a claim that boxes prevent every kind of damage. Visitors can see the evidence used for the decision, including the condition records and the separate adhesive test. Neither alone represents all stages of the work.",
+       "items": [
+        {
+         "stem": "Which paragraph gives an example of support used on a damaged sheet? Paragraphs may be used more than once.",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "All three paragraphs",
+          "No paragraph"
+         ],
+         "answer": 1,
+         "why": "依据在第二段：For one fragile sheet, a conservator prepared a thin support from specially made paper，这是给一张受损纸张加支撑的实例。",
+         "point": "function"
+        },
+        {
+         "stem": "Which paragraph explains why photographs were taken before treatment? Paragraphs may be used more than once.",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "All three paragraphs",
+          "No paragraph"
+         ],
+         "answer": 0,
+         "why": "依据在第一段：These records provided a baseline for later work。拍下折痕，是为了处理后和原来的状态作比较。",
+         "point": "locate"
+        },
+        {
+         "stem": "Which paragraph compares access and dust protection in two storage arrangements? Paragraphs may be used more than once.",
+         "options": [
+          "Paragraph A",
+          "Paragraph B",
+          "Paragraph C",
+          "All three paragraphs",
+          "No paragraph"
+         ],
+         "answer": 2,
+         "why": "依据在第三段：open tray 取用快但会落灰，closed box 取用慢但能防尘，两种存放方式在这里作了比较。",
+         "point": "locate"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

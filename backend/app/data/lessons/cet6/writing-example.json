@@ -1,0 +1,460 @@
+{
+ "id": "writing-example",
+ "title": "例证与论点的对应",
+ "goal": "选出包含具体行为和结果的例子；判断例证是否支持当前论点。",
+ "skill": "写作",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "specific",
+   "label": "选出包含具体行为和结果的例子"
+  },
+  {
+   "id": "relevant",
+   "label": "判断例证是否支持当前论点"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语六级（CET-6）：课表",
+   "url": "docs/syllabi/cet6.md",
+   "used": "写作部分本课的内容范围、知识点与练习规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "overview",
+   "type": "text",
+   "title": "概述",
+   "body": [
+    {
+     "p": "例证把抽象的判断写成具体的人物、行为和结果。论点要说明某个行为的作用时，例子要写出这个作用怎样产生，人物的住处、爱好等背景代替不了这一过程。一个经历只说明一种可能，推不出所有人的结果。"
+    },
+    {
+     "box": "A rehearsal can reveal unclear instructions: a presenter tests the directions with a colleague and revises the step that caused confusion."
+    },
+    {
+     "p": "个人经历只写实际发生的事。一般情境说明常见的行为和结果。假设情境用 if、could 等词，表明事情还没有发生。例子中的人物和情境用来说明论点，不能当作调查证据。"
+    }
+   ]
+  },
+  {
+   "id": "personal",
+   "type": "table",
+   "title": "个人经历",
+   "cols": [
+    "情况",
+    "说明",
+    "例句"
+   ],
+   "rows": [
+    [
+     "记录与改进",
+     "人物、行为和变化都要对应同一论点。",
+     "I logged each failed attempt and discovered that I was skipping a preparation step."
+    ],
+    [
+     "对应关系",
+     "记录让遗漏显现出来。活动地点解释不了改进。",
+     "Claim: Recording mistakes guides revision. Detail: I compared my notes before changing the procedure."
+    ],
+    [
+     "分工与责任",
+     "写清谁负责什么，以及负责后有什么结果。",
+     "I assigned each prop to a named member, so missing objects had an identifiable contact."
+    ],
+    [
+     "范围限制",
+     "一次经历只说明一种做法，推不出所有团队都会成功。",
+     "This experience illustrates how named responsibilities can make follow-up easier."
+    ]
+   ]
+  },
+  {
+   "id": "general",
+   "type": "table",
+   "title": "一般情境",
+   "cols": [
+    "情况",
+    "说明",
+    "例句"
+   ],
+   "rows": [
+    [
+     "核查与准确",
+     "一般情境说明事情怎样发生，不写成统计结果。",
+     "A purchaser compares a delivery note with the parcel and spots an omitted item."
+    ],
+    [
+     "对应关系",
+     "核对清单这一动作，支持核查能减少遗漏的判断。",
+     "Checking the list exposes a mismatch; the color of the parcel does not explain it."
+    ],
+    [
+     "轮流与参与",
+     "写清规则怎样改变参与的机会。",
+     "A chair invites each member to speak before opening the discussion to further comments."
+    ],
+    [
+     "范围限制",
+     "轮到发言不保证意见一定被采纳。",
+     "A speaking round gives members an opportunity to contribute, not a guarantee of agreement."
+    ]
+   ]
+  },
+  {
+   "id": "hypothetical",
+   "type": "table",
+   "title": "假设情境",
+   "cols": [
+    "情况",
+    "说明",
+    "例句"
+   ],
+   "rows": [
+    [
+     "备用安排",
+     "用 if 引出条件，预期的结果不写成已有的成效。",
+     "If a workshop kept a spare cable, a damaged lead might not stop a demonstration."
+    ],
+    [
+     "对应关系",
+     "备用线缆针对中断的原因，房间装饰与此无关。",
+     "A replacement cable could restore the connection while the damaged cable was removed."
+    ],
+    [
+     "任务拆分",
+     "假设的动作和可能的结果要连成一个解释。",
+     "If an editor divided a long assignment into stages, contributors could identify the next required step."
+    ],
+    [
+     "证据边界",
+     "假设只说明做法合理，证明不了这种情况多常发生。",
+     "This scenario shows a possible benefit; it does not establish how often delays are prevented."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Clear labels can make shared storage easier to use. Consider a costume room where boxes carry only the names of former productions. A new assistant must open several boxes to find a belt. If each box also listed its contents, the assistant could locate the belt without checking unrelated costumes. The useful detail is the change from production names to contents, because it explains how labeling could shorten the search. The age of the room would not explain that improvement."
+    },
+    {
+     "box": "Which detail directly supports the claim?\n1. The room has stored costumes for many years.\n2. Contents on labels allow the assistant to identify the relevant box.\n3. Production names preserve information about previous performances.\n4. The assistant works with several former productions."
+    },
+    {
+     "p": "第二项把 contents 和 locate the belt 联系起来，说明标签怎样帮助查找。第三项也写标签，但支持的是保存演出信息，是另一个论点。"
+    }
+   ]
+  },
+  {
+   "id": "practice-1",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "specific",
+    "relevant"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Which detail supplies both an action and its result?",
+       "options": [
+        "A recorder labeled each interview file with the date of the conversation.",
+        "A recorder numbered the files, so the team could retrieve a requested interview.",
+        "The recorder kept all the interview files in a room beside the project office.",
+        "The team planned to discuss the recorded interviews at its next project meeting."
+       ],
+       "answer": 1,
+       "why": "numbered the files 是行为，could retrieve a requested interview 是结果，即第二项。第一项只有行为，没有结果。",
+       "point": "specific"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "stem": "Claim: Testing a route before an event reveals access problems. Which example supports it?",
+       "options": [
+        "An organizer printed the route and checked that each speaker's room was listed in the plan.",
+        "An organizer described the event and listed the speakers in the plan.",
+        "An organizer walked the route and found a staircase missing from the plan.",
+        "An organizer walked the route and timed how long it took to reach the main hall."
+       ],
+       "answer": 2,
+       "why": "walked the route 是事先测试路线，found a staircase missing 就是发现了通行问题，即第三项。第四项也走了路线，但只记录了时间。",
+       "point": "relevant"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "stem": "Which version clearly marks an imagined outcome rather than a reported event?",
+       "options": [
+        "If a choir recorded a rehearsal, members could identify where entries differed.",
+        "The choir recorded a rehearsal and identified where its entries differed.",
+        "The choir has recorded rehearsals and identified differences between entries.",
+        "The choir regularly records rehearsals and identifies differences between entries."
+       ],
+       "answer": 0,
+       "why": "If 和 could 表明这是假设，即第一项。其他三项写的是已经发生或经常发生的事。",
+       "point": "specific"
+      }
+     ]
+    },
+    {
+     "items": [
+      {
+       "stem": "Claim: Written handovers preserve unfinished tasks. Which detail explains the benefit?",
+       "options": [
+        "An incoming attendant reads the name of the outgoing attendant on the handover cover.",
+        "An incoming attendant reads the completed repair list and signs the handover sheet.",
+        "An incoming attendant files the repair list with the visitor records from the day before.",
+        "An incoming attendant reads the pending repair list and calls the assigned technician."
+       ],
+       "answer": 3,
+       "why": "pending repair list 是没有完成的任务，calls the assigned technician 说明交接后任务接着办，即第四项。第二项读的是已完成的清单。",
+       "point": "relevant"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-2",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "specific",
+    "relevant"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Describe the observable result of adding shelf numbers to a collection.",
+       "lead": "The volunteer",
+       "chunks": [
+        "added shelf numbers",
+        "that enabled",
+        "visitors to locate",
+        "the requested volumes"
+       ],
+       "tail": ".",
+       "extra": [
+        "adding shelf numbers"
+       ],
+       "why": "added 是动作，enabled visitors to locate 是结果。关系从句 that enabled 紧跟在 numbers 后面。",
+       "point": "specific"
+      },
+      {
+       "stem": "Keep the result conditional on a team using a shared calendar.",
+       "lead": "If the team",
+       "chunks": [
+        "used a shared calendar,",
+        "members could identify",
+        "conflicting appointments",
+        "before confirming them"
+       ],
+       "tail": ".",
+       "extra": [
+        "members identified"
+       ],
+       "why": "used 和 could 表示假设。before confirming them 属于结果部分，放在句末。",
+       "point": "specific"
+      },
+      {
+       "stem": "Link a sample demonstration to the claim that showing a task clarifies it.",
+       "lead": "This demonstration",
+       "chunks": [
+        "illustrates how",
+        "a visible sequence",
+        "can clarify",
+        "an unfamiliar task"
+       ],
+       "tail": ".",
+       "extra": [
+        "proves that everyone"
+       ],
+       "why": "illustrates how 说明例子只起说明作用。proves that everyone 把结论扩大到了所有人。",
+       "point": "relevant"
+      },
+      {
+       "stem": "Limit a single travel experience to its explanatory value.",
+       "lead": "The experience",
+       "chunks": [
+        "provides an example",
+        "of how",
+        "advance preparation",
+        "can reduce uncertainty"
+       ],
+       "tail": ".",
+       "extra": [
+        "always eliminates"
+       ],
+       "why": "provides an example of how 把一次经历限定为一个例子。always eliminates 说得过于绝对。",
+       "point": "relevant"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "specific",
+    "relevant"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "items": [
+        {
+         "stem": "Which revision gives concrete behavior and a relevant outcome?",
+         "options": [
+          "The coordinator recorded who held each key, allowing staff to contact its current holder.",
+          "The coordinator considered the key register useful for managing the building every day.",
+          "The coordinator kept the key register in a building used by several different teams.",
+          "The coordinator discussed the key register with colleagues before the building opened each morning."
+         ],
+         "answer": 0,
+         "why": "recorded who held each key 说明行为，contact its current holder 说明结果。",
+         "point": "specific"
+        }
+       ]
+      },
+      {
+       "items": [
+        {
+         "stem": "Claim: Comparing alternatives can expose hidden costs. Which example supports this claim?",
+         "options": [
+          "A tenant compared the addresses and chose the flat closer to a familiar street.",
+          "A tenant compared two rent offers and noticed that only one included heating.",
+          "A tenant copied both rent offers into a notebook with an attractive cover.",
+          "A tenant retained the first rent offer because its wording seemed more welcoming."
+         ],
+         "answer": 1,
+         "why": "比较两份报价后才发现 only one included heating，另一份的额外费用由此显现，即第二项。",
+         "point": "relevant"
+        }
+       ]
+      },
+      {
+       "items": [
+        {
+         "stem": "Which sentence presents the action and outcome as a hypothetical example?",
+         "options": [
+          "A shop displayed repair instructions, and customers tried a simple adjustment before replacing an item.",
+          "A shop displays repair instructions, and customers regularly try simple adjustments before replacing items.",
+          "If a shop displayed repair instructions, customers could try a simple adjustment before replacing an item.",
+          "A shop has displayed repair instructions, and customers have tried simple adjustments before replacing items."
+         ],
+         "answer": 2,
+         "why": "If 和 could 表明这是假设，即第三项。其他三项写的是实际发生的事。",
+         "point": "specific"
+        }
+       ]
+      },
+      {
+       "items": [
+        {
+         "stem": "Claim: A visible queue makes the order of service easier to follow. Which detail is relevant?",
+         "options": [
+          "A visitor checks the room number on the ticket and sees where the waiting area is located.",
+          "A visitor reads the appointment title and sees which specialist works in the building.",
+          "A visitor reads a service leaflet and sees the office's opening hours for each day of the week.",
+          "A visitor checks the displayed ticket number and sees which appointment will be called next."
+         ],
+         "answer": 3,
+         "why": "displayed ticket number 和 which appointment will be called next 对应 order of service，即第四项。",
+         "point": "relevant"
+        }
+       ]
+      },
+      {
+       "items": [
+        {
+         "stem": "Describe how a repair diary produces a traceable record of changes to an old radio.",
+         "lead": "The owner",
+         "chunks": [
+          "recorded each adjustment",
+          "in a diary that",
+          "made the sequence",
+          "of repairs clear"
+         ],
+         "tail": "to the next technician.",
+         "extra": [
+          "recording each adjustment"
+         ],
+         "why": "recorded each adjustment 是行为，made the sequence of repairs clear 是结果，两者连在一句里。",
+         "point": "specific"
+        },
+        {
+         "stem": "Illustrate a possible benefit of testing a seating plan before a public debate.",
+         "lead": "If the hosts",
+         "chunks": [
+          "tested the seating plan,",
+          "they could identify",
+          "chairs that blocked",
+          "the central aisle"
+         ],
+         "tail": "before admitting the audience.",
+         "extra": [
+          "they had identified"
+         ],
+         "why": "tested 与 could identify 构成假设；chairs that blocked 给出具体发现。",
+         "point": "specific"
+        },
+        {
+         "stem": "Connect a rehearsal with the limited claim that advance checks can reveal unclear cues.",
+         "lead": "The rehearsal",
+         "chunks": [
+          "offers an example",
+          "of how",
+          "an advance check",
+          "can reveal unclear cues"
+         ],
+         "tail": "before a live performance begins.",
+         "extra": [
+          "proves that all checks"
+         ],
+         "why": "offers an example 把一次演练限定为一个例子。proves that all checks 说得过于绝对。",
+         "point": "relevant"
+        },
+        {
+         "stem": "Explain the relevance of a checklist that revealed an omitted attachment in a grant application.",
+         "lead": "This case",
+         "chunks": [
+          "illustrates how",
+          "a checklist can connect",
+          "a stated requirement",
+          "with a final verification"
+         ],
+         "tail": "of the submitted documents.",
+         "extra": [
+          "guarantees success"
+         ],
+         "why": "清单发现了遗漏的附件，对应 requirement 和 verification。guarantees success 是这个例子推不出的结论。",
+         "point": "relevant"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

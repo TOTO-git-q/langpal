@@ -1,0 +1,93 @@
+{
+ "id": "reading-careful-method",
+ "title": "仔细阅读的题干识别",
+ "goal": "识别阅读题干的理解任务，并确定回答所需的依据范围。",
+ "skill": "阅读",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {"id": "question", "label": "识别题干要求的理解任务"},
+  {"id": "evidence", "label": "确定回答所需的依据范围"}
+ ],
+ "sources": [
+  {"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读教学依据"}
+ ],
+ "cards": [
+  {
+   "id": "type", "type": "text", "title": "题型",
+   "body": [
+    {"p": "题干决定要找什么、在多大范围里找。事实题找原文明确写出的内容。主旨题概括全文。推断题根据已知信息推出结论，结论不超出原文的范围。"},
+    {"p": "词义题看目标词所在的句子和上下文。题干里的提示词要和整个问句一起看。"},
+    {"box": "According to the passage, why did the library change its hours?\nWhat is the passage mainly about?\nWhat can be inferred about the library?\nWhich word is closest in meaning to 'available' in paragraph 2?"}
+   ]
+  },
+  {
+   "id": "steps", "type": "steps", "title": "解题步骤",
+   "steps": [
+    {"t": "1　辨认任务", "d": "看题干的动词和提问对象。According to 一般是找明确陈述，inferred 是作推断。"},
+    {"t": "2　确定范围", "d": "问具体事件时，用题干里的专有名词或名词短语定位。主旨题要比较各段的中心内容。"},
+    {"t": "3　阅读上下文", "d": "读定位句和它的前后句。代词、转折词和因果词常把答案连到相邻的句子。"},
+    {"t": "4　核对选项", "d": "把每个选项和依据逐一对照，看对象、数量和条件是否一致。"}
+   ]
+  },
+  {
+   "id": "tasks", "type": "table", "title": "题干与理解任务",
+   "cols": ["题干", "任务", "依据范围"],
+   "rows": [
+    ["According to the passage, why was the room closed?", "查明关闭原因", "写关闭的句子及前后句"],
+    ["What is the passage mainly about?", "概括全文主要内容", "首尾段和各段的中心句"],
+    ["What can be inferred about the room?", "由陈述推断", "相关陈述及限制条件"],
+    ["What is closest in meaning to 'open' in paragraph 2?", "判断语境词义", "目标词所在句及上下句"]
+   ],
+   "note": "同一个提示词可以出现在不同的问句里。依据范围看整个题干。"
+  },
+  {
+   "id": "worked", "type": "text", "title": "例题",
+   "body": [
+    {"box": "The museum moved its map collection upstairs because the ground-floor room needed repairs. The new room has larger tables, but it is open only on weekdays. Visitors can still request digital copies on weekends.\n\nWhich part of the passage provides the most direct evidence for why the maps were moved?\n1. The statement about repairs to the ground-floor room\n2. The description of the larger tables upstairs\n3. The restriction on opening the new room\n4. The account of digital copies on weekends"},
+    {"p": "题干问地图为什么搬走。第一句的 because 引出原因：原来的房间需要维修，即第一项。第二项的较大桌子只是新房间的特点。"}
+   ]
+  },
+  {
+   "id": "traps", "type": "table", "title": "干扰项",
+   "cols": ["类型", "例", "排除方法"],
+   "rows": [
+    ["邻句移用", "用 larger tables 回答搬迁原因", "题干问的是搬迁的原因"],
+    ["范围过窄", "用 digital copies 概括整段", "主旨要覆盖各句的共同对象"],
+    ["缺少推断依据", "由 weekday opening 推断维修结束日期", "原文没有把开放时间和维修日期联系起来"],
+    ["孤立释义", "不看 only on weekdays 就判断 open 的意思", "open 要连同 only on weekdays 一起理解"]
+   ]
+  },
+  {
+   "id": "check-one", "type": "check", "title": "练习一", "points": ["question", "evidence"],
+   "groups": [
+    {"text": "A reading question asks: According to the passage, why did the garden add benches?", "items": [{"stem": "What task does the question set?", "options": ["Identify the stated reason for an addition.", "Summarize the whole history of the garden and its benches.", "Infer a future change to the benches.", "Explain the meaning of a word for seating."], "answer": 0, "why": "题干中的 According to 和 why 要求查找增加长椅的明确原因。", "point": "question"}]},
+    {"text": "A reading question asks: What is the passage mainly about?", "items": [{"stem": "Which evidence range is needed?", "options": ["The sentence containing a particular date mentioned in the passage", "The central information across the passage", "The sentence defining one quoted word", "The details of one example in isolation"], "answer": 1, "why": "mainly about 要求概括全文，依据应覆盖各段的中心内容。", "point": "evidence"}]},
+    {"text": "A reading question asks: What can be inferred about the new bus route?", "items": [{"stem": "What task does the question set?", "options": ["Locate a definition of the word route in the passage.", "List every detail stated about the route.", "Draw a supported conclusion about the route.", "Choose a title covering the entire passage."], "answer": 2, "why": "inferred 要求依据有关新路线的陈述作出推断。", "point": "question"}]},
+    {"text": "A reading question asks: What does 'light' mean in the second paragraph?", "items": [{"stem": "Where should the reader begin looking for evidence?", "options": ["In the title and the final paragraph of the entire passage", "In every date mentioned in the passage", "In the first sentence of each paragraph", "In the sentence containing the word and its context"], "answer": 3, "why": "词义题以目标词所在句为起点，并结合上下文核对。", "point": "evidence"}]}
+   ]
+  },
+  {
+   "id": "check-two", "type": "check", "title": "练习二", "points": ["question", "evidence"],
+   "groups": [{"look": "passage", "text": "A community theater once sold tickets only at its entrance. This caused long lines before popular performances. It now reserves some seats online, while keeping others for people who pay at the door. Staff members check reservations at a separate desk. The new system reduces the number of people waiting at the entrance, though it does not increase the number of seats.", "items": [
+    {"stem": "A question asks why the theater changed its ticket system. Which sentence gives the direct reason?", "options": ["The sentence about the number of seats", "The sentence about lines before performances", "The sentence about the separate desk", "The sentence about paying at the door"], "answer": 1, "why": "This caused long lines 说明原有售票方式造成排队，是改变方式的原因。", "point": "evidence"},
+    {"stem": "A question asks what can be inferred about the new system. What must an answer do?", "options": ["Give the dictionary definition of entrance", "State only what the passage says directly", "Summarize the whole passage about the theater", "Reach a conclusion the description supports"], "answer": 3, "why": "推断题的结论要有新系统相关描述的支持。", "point": "question"}
+   ]}]
+  },
+  {
+   "id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["question", "evidence"],
+   "sets": [{"id": "set-a", "groups": [
+    {"look": "passage", "text": "A town's tool library lends equipment to residents who need it for short projects. It began with hand tools donated by local households. Later, the organizers added a small number of larger items, including ladders. These are inspected after each loan, and borrowers are asked to report damage. The list of available equipment is kept at the library, where volunteers can explain the borrowing rules.\n\nAt first, all items had to be collected on Saturday mornings. Some residents said that the hours conflicted with their work schedules, so the library introduced a Wednesday evening collection period. The change did not extend the length of a loan. Borrowers still return tools after one week unless another arrangement has been agreed in advance.\n\nThe organizers also offer demonstrations of basic maintenance. During one session, residents learn to clean and store hand tools properly. The demonstrations are optional, but the organizers hope that better care will reduce unnecessary repairs. The library's purpose is to make occasional projects easier without requiring every household to buy equipment it seldom uses. It depends on both careful borrowers and volunteers who check the collection.", "items": [
+     {"stem": "A question asks why Wednesday collection was introduced. Where is the direct evidence?", "options": ["The sentence about donated hand tools", "The sentence about cleaning equipment", "The sentence about work schedules", "The sentence about reporting damage"], "answer": 2, "why": "Some residents said that the hours conflicted with their work schedules 引出增设周三时间的原因。", "point": "evidence"},
+     {"stem": "A question asks what the passage is mainly about. What task does it set?", "options": ["Explain one tool's exact repair procedure in detail", "Identify the date of each donation", "Infer who will volunteer next week", "Summarize the library's service and operation"], "answer": 3, "why": "mainly about 要求概括全文，包括借用服务和运作方式。", "point": "question"},
+     {"stem": "A question asks what can be inferred from the maintenance demonstrations. Which evidence is most relevant?", "options": ["The description of their purpose and content", "The complete list of larger items in the library's collection", "The rule about a one-week loan period", "The account of the original donations"], "answer": 0, "why": "关于演示的推断，依据是演示的内容和减少维修的目的。", "point": "evidence"}
+    ]},
+    {"look": "passage", "text": "A school planned to replace the printed notices outside its classrooms with an electronic display in the entrance hall. The display could be updated quickly, and staff would no longer need to print a separate sheet for each change. However, teachers noticed that some students entered through a side door and rarely passed the hall. The school wanted every student to have a practical way to find information about room changes and activities.\n\nThe school tested the display for a month before making a final decision. During the test, it kept a printed weekly schedule near the side entrance. Students could also check the same schedule on the school website. A short survey asked which sources students had used, rather than asking them to choose a favorite design.\n\nThe survey showed that the hall display reached many students, but it was not the only useful source. The school therefore retained the printed schedule at the side entrance while updating the electronic display each day. Staff also continued to publish changes online. The decision shows that a fast method of publishing information is useful only when its intended readers can find it.", "items": [
+     {"stem": "A question asks what can be inferred about students using the side door. What task does it set?", "options": ["Define the word entrance without context", "Draw a conclusion from related statements", "List every change printed by the school", "Choose a title for the whole passage"], "answer": 1, "why": "inferred 表示根据关于侧门学生的陈述得出结论。", "point": "question"},
+     {"stem": "A question asks why the printed schedule was retained. Which evidence is most relevant?", "options": ["The account of printing separate sheets", "The description of the display's design", "The survey result and the school's response", "The statement about a one-month test alone"], "answer": 2, "why": "调查显示电子屏不是唯一有用的来源，学校因此保留了侧门的纸质日程。", "point": "evidence"},
+     {"stem": "A question asks for the main idea of the passage. What task does it set?", "options": ["Locate a single change in the schedule", "Explain what the word survey means here", "Infer the exact number of side-door users", "Summarize the decision and its lesson"], "answer": 3, "why": "主旨题要概括学校的决定，以及末句的道理：信息要让读者找得到才有用。", "point": "question"}
+    ]}
+   ]}]
+  }
+ ]
+}

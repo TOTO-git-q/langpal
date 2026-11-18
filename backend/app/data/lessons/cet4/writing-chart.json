@@ -1,0 +1,450 @@
+{
+ "id": "writing-chart",
+ "title": "图表提示与数据描述",
+ "goal": "选择准确的数据趋势描述；区分增量与终值及比例变化。",
+ "skill": "写作",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "trend",
+   "label": "选择准确的数据趋势描述"
+  },
+  {
+   "id": "compare",
+   "label": "区分增量与终值及比例变化"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语四级（CET-4）：课表",
+   "url": "docs/syllabi/cet4.md",
+   "used": "图表提示与数据描述的教学范围、知识点及写作小测规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "描述数据时，对象、时间和单位都要写出。趋势是同一对象在不同时间的变化。比较是两个对象之间的差异。占比要说明整体是什么。数据只说明变化，不说明原因。"
+    },
+    {
+     "box": "Teaching data: Club membership was 40 in March and 60 in April. The table gives no reason for the increase."
+    },
+    {
+     "p": "人数增加 20，终值是 60。增长率是 20 除以 40，即 50%。表中没有原因，不能写成宣传或课程变化带来的增加。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确认对象与单位",
+     "d": "先辨认数据是人数、次数还是百分比。40 members 不能直接写成 40 percent。"
+    },
+    {
+     "t": "2　选择关系",
+     "d": "看数据是时间变化、对象比较，还是部分与整体，再选表达。40 到 60 写 rose from 40 to 60，增量写 rose by 20。"
+    },
+    {
+     "t": "3　复核计算与范围",
+     "d": "核对起点、终点和分母，不写数据以外的原因。20% 到 30% 增加 10 个百分点，相对增幅为 50%。"
+    }
+   ]
+  },
+  {
+   "id": "relations",
+   "type": "table",
+   "title": "趋势、比较与占比",
+   "cols": [
+    "类型",
+    "教学数据",
+    "准确描述",
+    "说明"
+   ],
+   "rows": [
+    [
+     "趋势",
+     "Workshop visits | May: 80 | June: 100 | July: 120",
+     "Visits to the workshop increased in both intervals, reaching 120 in July from 80 in May.",
+     "只描述表中的三个月。"
+    ],
+    [
+     "趋势",
+     "Repair requests | Week 1: 30 | Week 2: 20 | Week 3: 25",
+     "Repair requests fell initially and then recovered partly, remaining below the first week's total.",
+     "先降后升，不写成持续下降。"
+    ],
+    [
+     "比较",
+     "Course choices | Drawing: 24 | Photography: 12",
+     "The number choosing drawing was twice the number choosing photography in this teaching dataset.",
+     "只比较选课人数。"
+    ],
+    [
+     "比较",
+     "Room bookings | East: 15 | West: 25",
+     "The west room received ten more bookings than the east room during the same period.",
+     "ten more 是差额，西室总数是 25。"
+    ],
+    [
+     "占比",
+     "Travel choices | Walking: 30 | Bus: 70 | Total: 100",
+     "Walking accounted for 30 percent of all travel choices recorded in the teaching table.",
+     "分母是全部选择。"
+    ],
+    [
+     "占比",
+     "Items repaired | Bags: 12 | Other items: 28 | Total: 40",
+     "Bags represented 30 percent of the items repaired during the period shown in the table.",
+     "12 是件数，占比是 12 除以 40，即 30%。"
+    ]
+   ]
+  },
+  {
+   "id": "change",
+   "type": "table",
+   "title": "增量、终值与百分点",
+   "cols": [
+    "情况",
+    "规则",
+    "例句"
+   ],
+   "rows": [
+    [
+     "人数：40 → 60",
+     "by 引出增量 20，to 引出终值 60。",
+     "Club membership rose by 20, reaching a total of 60 members in April."
+    ],
+    [
+     "次数：50 → 65",
+     "by 15 是增量，to 65 是终值，说的是同一次增长。",
+     "The number of visits rose to 65, an increase of 15 from the previous total."
+    ],
+    [
+     "比例：20% → 30%",
+     "相减得 10 个百分点，相对增幅是 50%。",
+     "The share rose by ten percentage points, equivalent to a 50 percent relative increase."
+    ],
+    [
+     "比例：40% → 50%",
+     "相减得 10 个百分点，相对增幅是 25%。",
+     "The share rose to 50 percent, an increase of ten percentage points from 40 percent."
+    ],
+    [
+     "相对增幅",
+     "终值减初值，再除以初值。",
+     "A rise from 80 to 100 is a 25 percent increase over the original figure."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Teaching data: Use of refillable ink cartridges\nYear | Users | Total respondents\nYear 1 | 20 | 100\nYear 2 | 35 | 100\nThe same question was used in both surveys. The table reports choices only; it does not record respondents' reasons. An essay should describe the change in the share of users."
+    },
+    {
+     "p": "第一年占 20%，第二年占 35%，增加 15 个百分点。相对增幅为 15 除以 20，即 75%，不是 15%。"
+    },
+    {
+     "box": "Which description is accurate?\n1. The share rose by 15 percent, from 20 percent to 35 percent.\n2. The share rose to 15 percent, with 35 users in the second year.\n3. The share rose by 15 percentage points, reaching 35 percent.\n4. The share rose by 35 percentage points, reaching 20 percent."
+    },
+    {
+     "p": "第三项写出了差额 15 个百分点和终值 35%。本例两年总数都是 100，所以人数差和百分点差数值相同，但单位不同。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除依据"
+   ],
+   "rows": [
+    [
+     "增量代终值",
+     "The share rose to 15 percent in the second survey of cartridge use.",
+     "15 是百分点差，不是终值。"
+    ],
+    [
+     "百分比代百分点",
+     "The share increased by 15 percent from its original level of 20 percent.",
+     "相对增幅应为 75%。"
+    ],
+    [
+     "起终点倒置",
+     "The share declined from 35 percent to 20 percent between the two surveys.",
+     "数据顺序相反。"
+    ],
+    [
+     "添加因果",
+     "Lower cartridge prices caused the share to increase in the second survey.",
+     "材料没有价格数据。"
+    ]
+   ]
+  },
+  {
+   "id": "check-short",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "trend",
+    "compare"
+   ],
+   "groups": [
+    {
+     "items": [
+      {
+       "stem": "Teaching data: Swimming sessions | Monday: 8 | Tuesday: 12 | Wednesday: 10. Which trend is accurate?",
+       "options": [
+        "Sessions increased and then decreased, ending above Monday's figure.",
+        "Sessions decreased and then increased, ending below Monday's figure.",
+        "Sessions increased on both days, ending above Monday's figure.",
+        "Sessions decreased on both days, ending below Monday's figure."
+       ],
+       "answer": 0,
+       "why": "8、12、10 对应先升后降，10 仍高于 8。",
+       "point": "trend"
+      },
+      {
+       "stem": "Teaching data: A service handled 50 requests in June and 70 in July. Which description is accurate?",
+       "options": [
+        "Requests rose by 70, reaching 50 in July.",
+        "Requests rose by 20, reaching 70 in July.",
+        "Requests rose to 20, increasing by 70 overall.",
+        "Requests rose to 50, increasing by 20 overall."
+       ],
+       "answer": 1,
+       "why": "70 减 50 得 20。by 后是增量 20，to 后是终值 70，即第二项。",
+       "point": "compare"
+      },
+      {
+       "stem": "Teaching data: Digital receipts represented 25% of purchases, then 40%. Which change is correct?",
+       "options": [
+        "A rise of 40 percentage points",
+        "A rise of 25 percentage points",
+        "A rise of 15 percentage points",
+        "A rise of 15 percent overall"
+       ],
+       "answer": 2,
+       "why": "40% 减 25% 得 15 个百分点，即第三项。相对增幅是 60%，不是 15%。",
+       "point": "compare"
+      },
+      {
+       "stem": "Teaching data: Reused folders | Red: 18 | Blue: 12 | Total: 30. What is the red share?",
+       "options": [
+        "Red folders represented 18 percent of reused folders.",
+        "Red folders represented 30 percent of reused folders.",
+        "Red folders represented 40 percent of reused folders.",
+        "Red folders represented 60 percent of reused folders."
+       ],
+       "answer": 3,
+       "why": "18 除以 30 得 60%，12 是蓝色数量。",
+       "point": "compare"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "check-table",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "trend",
+    "compare"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "Teaching data: Monthly use of a community tool cabinet\nMonth | Loans\nMarch | 20\nApril | 30\nMay | 30\nThese figures count loans rather than individual borrowers. One borrower may make more than one loan. The table does not list the types of tools borrowed or explain changes in demand.",
+     "items": [
+      {
+       "stem": "Which overview accurately describes the loans?",
+       "options": [
+        "Loans increased between March and April and then remained unchanged in May.",
+        "Loans increased between every pair of months shown in the cabinet records.",
+        "The number of different borrowers increased from twenty to thirty during April.",
+        "Loans remained unchanged between March and April before increasing in May."
+       ],
+       "answer": 0,
+       "why": "20、30、30 是先升后持平，即第一项。表中数的是借出次数，不是借用人数。",
+       "point": "trend"
+      },
+      {
+       "stem": "Complete the statement of the March-to-April increase.",
+       "lead": "The March-to-April change was",
+       "chunks": [
+        "an increase",
+        "of",
+        "ten",
+        "loans"
+       ],
+       "tail": ".",
+       "extra": [
+        "twenty"
+       ],
+       "why": "30 减 20 得 10。an increase of ten loans 写出了增量和单位。",
+       "point": "compare"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "trend",
+    "compare"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "Teaching data: Borrowing from a campus costume collection\nMonth | Loans\nSeptember | 40\nOctober | 60\nNovember | 50\nThe figures count loans of costumes, not the number of students. Each loan is counted once. An essay should describe the pattern across the three months and compare October with September, using only the information in this table.",
+       "items": [
+        {
+         "stem": "Which overview fits the recorded pattern?",
+         "options": [
+          "Costume loans rose and then fell, finishing above the September figure.",
+          "Costume loans fell and then rose, finishing below the September figure.",
+          "Costume loans rose throughout, with November recording the highest figure.",
+          "Costume loans fell throughout, with September recording the lowest figure."
+         ],
+         "answer": 0,
+         "why": "40、60、50 是先升后降，50 仍高于 40，即第一项。",
+         "point": "trend"
+        },
+        {
+         "stem": "Which October-to-September comparison is accurate?",
+         "options": [
+          "Loans rose by sixty, with October recording twenty loans in total.",
+          "Loans rose by twenty, with October recording sixty loans in total.",
+          "Loans rose to twenty, with October recording a rise of sixty.",
+          "Loans rose to forty, with October recording a rise of twenty."
+         ],
+         "answer": 1,
+         "why": "60 减 40 得 20。增量是 20，终值是 60，即第二项。",
+         "point": "compare"
+        },
+        {
+         "stem": "Complete the description of the highest recorded figure.",
+         "lead": "The table identifies",
+         "chunks": [
+          "October",
+          "as",
+          "the month with",
+          "the most costume loans"
+         ],
+         "tail": ".",
+         "extra": [
+          "November"
+         ],
+         "why": "October 的 60 高于 40 和 50，是最大值。",
+         "point": "trend"
+        },
+        {
+         "stem": "Complete the relative-change statement for October against September.",
+         "lead": "October's total represents",
+         "chunks": [
+          "an increase",
+          "of",
+          "fifty percent",
+          "over September's figure"
+         ],
+         "tail": ".",
+         "extra": [
+          "twenty percent"
+         ],
+         "why": "增量 20 除以初值 40 等于 50%。twenty percent 是把差额直接加了百分号。",
+         "point": "compare"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "Teaching data: Commuters choosing a shared minibus\nSurvey | Minibus users | All respondents\nFirst | 20 | 100\nSecond | 30 | 100\nEach respondent chose one main commuting method. The table covers only these survey groups and does not give a reason for the change. An essay should compare the minibus shares without making claims about the whole town.",
+       "items": [
+        {
+         "stem": "Which sentence preserves the scope and direction of the change?",
+         "options": [
+          "The minibus share declined among the respondents between the two surveys shown.",
+          "The minibus share increased among every commuter living anywhere in the town.",
+          "The minibus share increased among the respondents between the two surveys shown.",
+          "The minibus share stayed unchanged because each survey included one hundred respondents."
+         ],
+         "answer": 2,
+         "why": "20/100 到 30/100 是上升，范围只限于 respondents，即第三项。第二项把范围扩大到全镇。",
+         "point": "trend"
+        },
+        {
+         "stem": "Which statement distinguishes the two measures of change?",
+         "options": [
+          "The share rose by ten percent, equivalent to fifty percentage points.",
+          "The share rose by thirty percentage points, equivalent to ten percent.",
+          "The share rose by twenty percentage points, equivalent to thirty percent.",
+          "The share rose by ten percentage points, equivalent to fifty percent."
+         ],
+         "answer": 3,
+         "why": "两个比例相差 10 个百分点。相对增幅是 10 除以 20，等于 50%，即第四项。",
+         "point": "compare"
+        },
+        {
+         "stem": "Complete a description of the final share.",
+         "lead": "The minibus share",
+         "chunks": [
+          "rose",
+          "to",
+          "thirty",
+          "percent"
+         ],
+         "tail": "in the second survey.",
+         "extra": [
+          "twenty"
+         ],
+         "why": "to thirty percent 对应 30/100，twenty 是初值。",
+         "point": "trend"
+        },
+        {
+         "stem": "Complete the statement of the absolute difference between the shares.",
+         "lead": "The second survey's share",
+         "chunks": [
+          "exceeded",
+          "the first survey's share",
+          "by",
+          "ten percentage points"
+         ],
+         "tail": ".",
+         "extra": [
+          "ten percent"
+         ],
+         "why": "30% 和 20% 相差 ten percentage points。ten percent 是相对变化的写法，而这里的相对增幅是 50%。",
+         "point": "compare"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

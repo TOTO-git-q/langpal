@@ -1,0 +1,53 @@
+/* stage.css — 角色窗口（stage.html）。一扇小小的 Windose 窗：标题栏 + 一片会飘云的天空，她站在里面。
+   没有文字说明、没有按钮面板；窗口怎么拉，她都按宽度取景，底边用像素抖动收掉。 */
+body.stage-window { background: #e29de4; }
+.sw { --sw-ink: #4d23cf; --sw-sky: #e29de4; --sw-sky-hi: #f1b9ee; --sw-sky-lo: #cf86dc;
+  position: fixed; inset: 0; display: flex; flex-direction: column; border: var(--bw) solid var(--sw-ink); background: var(--sw-sky); }
+
+/* ---- 标题栏：整条可拖 ---- */
+.sw-bar { flex: none; height: 30px; display: flex; align-items: center; gap: 7px; padding: 0 5px 0 8px;
+  background: linear-gradient(90deg, var(--title), var(--title-2)); border-bottom: var(--bw) solid var(--sw-ink);
+  -webkit-app-region: drag; user-select: none; }
+.sw-icon { width: 18px; height: 18px; image-rendering: pixelated; border-radius: 50%; box-shadow: 0 0 0 1px var(--sw-ink); background: #fff; }
+.sw-name { color: var(--tbink); font: 700 14px/1 var(--font-pixel); letter-spacing: .04em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+/* 她在打字的时候，名字旁边三颗小方点轮流亮（和聊天里的「正在输入」是同一件事） */
+.sw-live { display: flex; gap: 3px; margin-left: 2px; opacity: 0; transition: opacity .2s; }
+body.typing .sw-live { opacity: 1; }
+.sw-live i { width: 4px; height: 4px; background: var(--sw-ink); animation: sw-dot 1s steps(1) infinite; }
+.sw-live i:nth-child(2) { animation-delay: .2s; }
+.sw-live i:nth-child(3) { animation-delay: .4s; }
+@keyframes sw-dot { 0%, 100% { opacity: .25; } 30%, 60% { opacity: 1; } }
+.sw-btns { margin-left: auto; display: none; gap: 4px; -webkit-app-region: no-drag; }
+body.in-desktop .sw-btns { display: flex; }
+.sw-btns .win-btn { width: 22px; height: 18px; font-size: 12px; }
+
+/* ---- 画面 ---- */
+.sw-view { position: relative; flex: 1; min-height: 0; overflow: hidden; cursor: default;
+  background: linear-gradient(180deg, var(--sw-sky-hi) 0%, var(--sw-sky) 46%, var(--sw-sky-lo) 100%); }
+/* 云：原作 JINE 的那张像素云，两层错开慢慢飘 */
+.sw-sky, .sw-sky::after { position: absolute; inset: 0; content: ''; image-rendering: pixelated;
+  background: url('../assets/jine/JINEBG.png') 0 0 / 532px 776px repeat; }
+.sw-sky { opacity: .9; animation: sw-drift 140s linear infinite; }
+.sw-sky::after { opacity: .45; background-position: 210px 330px; animation: sw-drift 220s linear infinite reverse; }
+@keyframes sw-drift { to { background-position-x: 532px; } }
+.sw-view canvas { position: absolute; inset: 0; display: block; opacity: 0; transition: opacity .6s ease; }
+body.ready .sw-view canvas { opacity: 1; }
+/* 底边：越往下像素点越密，把被窗口裁掉的地方收成一片薄雾，而不是硬切 */
+.sw-floor { position: absolute; left: 0; right: 0; bottom: 0; height: 26%; pointer-events: none;
+  background:
+    linear-gradient(to top, rgba(207, 134, 220, .95), rgba(207, 134, 220, 0) 70%),
+    repeating-conic-gradient(rgba(255, 255, 255, .55) 0 25%, transparent 0 50%) 0 0 / 4px 4px;
+  -webkit-mask-image: linear-gradient(to top, #000 0%, rgba(0, 0, 0, .55) 38%, transparent 100%);
+          mask-image: linear-gradient(to top, #000 0%, rgba(0, 0, 0, .55) 38%, transparent 100%); }
+/* 内沿一圈亮线，像显示器的玻璃边 */
+.sw-view::after { content: ''; position: absolute; inset: 0; pointer-events: none;
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, .5), inset 0 -18px 24px -18px rgba(77, 35, 207, .35); }
+
+/* 还没加载好：三颗方点一跳一跳；加载不出来：只留她的像素头像 */
+.sw-view::before { content: ''; position: absolute; left: 50%; top: 46%; width: 6px; height: 6px; margin-left: -15px;
+  background: #fff; box-shadow: 12px 0 #fff, 24px 0 #fff; animation: sw-wait .9s steps(3) infinite; }
+@keyframes sw-wait { 0% { clip-path: inset(0 -18px 0 0); } 33% { clip-path: inset(0 -30px 0 0); } 66% { clip-path: inset(0 -6px 0 0); } }
+body.ready .sw-view::before, body.failed .sw-view::before { display: none; }
+body.failed .sw-view { background: var(--sw-sky) url('../assets/avatars/ame-head.png') center 42% / 96px 96px no-repeat; image-rendering: pixelated; }
+
+@media (prefers-reduced-motion: reduce) { .sw-sky, .sw-sky::after, .sw-live i { animation: none; } }

@@ -1,0 +1,434 @@
+{
+ "id": "writing-letter",
+ "title": "书信的目的与正文",
+ "goal": "根据收信对象确定书信目的，并组织完整且相关的正文。",
+ "skill": "写作",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "purpose",
+   "label": "选择符合收信对象和任务的目的句"
+  },
+  {
+   "id": "structure",
+   "label": "判断书信各部分是否完整且相关"
+  }
+ ],
+ "sources": [
+  {
+   "id": "syllabus",
+   "title": "大学英语四级（CET-4）：课表",
+   "url": "docs/syllabi/cet4.md",
+   "used": "写作部分的课题范围、知识点与教学规格"
+  }
+ ],
+ "cards": [
+  {
+   "id": "structure",
+   "type": "table",
+   "title": "结构",
+   "cols": [
+    "部分",
+    "作用",
+    "例"
+   ],
+   "rows": [
+    [
+     "称呼",
+     "写明收信人，用情境给出的职称或姓名。",
+     "Dear Professor Reed,"
+    ],
+    [
+     "目的句",
+     "开头说明写信要做什么。同一件事，目的可以是邀请，也可以是感谢。",
+     "I am writing to invite the department's students to our exhibition of handmade maps."
+    ],
+    [
+     "正文事项",
+     "逐项写出任务要求的内容，如时间、地点、安排。",
+     "The exhibition opens on Thursday in Room 204, and student guides will explain each map."
+    ],
+    [
+     "结束语",
+     "回到写信目的，礼貌收尾，不提新的事项。",
+     "I would be grateful for a reply about the proposed visit before our meeting."
+    ],
+    [
+     "署名",
+     "结束礼语之后写上写信人的名字。",
+     "Best regards,\nLin Chen"
+    ]
+   ]
+  },
+  {
+   "id": "expressions",
+   "type": "table",
+   "title": "常用表达",
+   "cols": [
+    "目的",
+    "用法",
+    "例句"
+   ],
+   "rows": [
+    [
+     "邀请",
+     "invite 提出邀请。写给老师时说明请对方做什么。",
+     "I am writing to invite Professor Reed to discuss the student maps at our exhibition."
+    ],
+    [
+     "建议",
+     "suggest 提出方案，供对方考虑。",
+     "I would like to suggest adding a short explanation beside each map in the exhibition."
+    ],
+    [
+     "申请",
+     "apply for 说明申请什么，正文写相关条件。",
+     "I am writing to apply for the position of student guide at the map exhibition."
+    ],
+    [
+     "感谢",
+     "thank 用于已经得到的帮助。",
+     "I am writing to thank the exhibition team for explaining how the maps were selected."
+    ],
+    [
+     "道歉",
+     "apologize for 说明自己的过失，正文写补救办法。",
+     "I am writing to apologize for sending the exhibition timetable later than we had agreed."
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "Task: A student society wants to invite Professor Reed to its handmade-map exhibition. The letter must explain the purpose of the exhibition, give the time and place, and describe the professor's proposed role. The invitation has not yet been accepted."
+    },
+    {
+     "box": "Dear Professor Reed,\n\nI am writing on behalf of the Geography Society to invite you to our exhibition of handmade maps. The exhibition explores how students represent familiar places and explain the choices behind their drawings.\n\nIt will take place in Room 204 next Thursday from two to four in the afternoon. We would be grateful if you could give a brief comment on the maps after the opening introduction. The student guides will then answer questions about their work. We can send photographs of the maps in advance so that the visit requires little preparation.\n\nPlease let us know whether this arrangement would be convenient. We would welcome any suggestions about the proposed discussion. Thank you for considering our invitation.\n\nBest regards,\nLin Chen"
+    },
+    {
+     "p": "称呼用收信人的职称和姓氏。目的句提出邀请，对方还没有答复。正文依次写展览目的、时间地点和请教授做的事。末段请对方确认，署名是写信人。"
+    },
+    {
+     "box": "Which sentence could replace the opening purpose sentence?\n1. I am writing to apply for a place in the Geography Society.\n2. I am writing to thank you for attending our completed exhibition.\n3. I am writing to invite you to comment on our student map exhibition.\n4. I am writing to apologize for canceling the proposed map discussion."
+    },
+    {
+     "p": "第三项保留了邀请的目的和 comment 这一角色。其余三项活动相同，目的却改成了申请、事后感谢和道歉。"
+    },
+    {
+     "p": "称呼和结束礼语有多种得体的写法，Dear Professor Reed 加 Best regards 是其中一种。写完还要核对目的、收信人和正文事项。"
+    }
+   ]
+  },
+  {
+   "id": "errors",
+   "type": "table",
+   "title": "常见错误",
+   "cols": [
+    "类型",
+    "例",
+    "核对依据"
+   ],
+   "rows": [
+    [
+     "目的错置",
+     "Thank you for attending our exhibition.",
+     "对方还没有答复邀请，不能写成已经出席。"
+    ],
+    [
+     "正文漏项",
+     "The exhibition displays student maps.",
+     "只写了展览内容，缺时间地点和请教授做的事。"
+    ],
+    [
+     "角色变化",
+     "We will attend your exhibition next Thursday.",
+     "把受邀的教授写成了展览的主办者。"
+    ],
+    [
+     "署名错置",
+     "Best regards, Professor Reed",
+     "署名是写信人 Lin Chen，不是收信人。"
+    ],
+    [
+     "建议变成既定安排",
+     "The discussion must follow my proposed format.",
+     "建议只供对方考虑，不能写成已经定下的安排。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "purpose",
+    "structure"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A student writes to the dining manager to suggest clearer ingredient labels, while keeping the existing menu and opening hours.",
+     "items": [
+      {
+       "stem": "Which purpose sentence matches the requested change?",
+       "options": [
+        "I am writing to suggest clearer ingredient labels for the current dishes.",
+        "I am writing to suggest replacing the current menu with clearly labeled dishes.",
+        "I am writing to request longer opening hours for the dining hall this term.",
+        "I am writing to thank the manager for adding clear labels to the current dishes."
+       ],
+       "answer": 0,
+       "why": "材料要求 suggest clearer ingredient labels，菜单和营业时间保持不变，即第一项。第二项把菜单也换掉了。",
+       "point": "purpose"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "A student applies to a campus radio coordinator for a presenter position and needs to describe relevant experience.",
+     "items": [
+      {
+       "stem": "Which opening states the student's purpose?",
+       "options": [
+        "I am writing to invite the coordinator to become a radio presenter.",
+        "I am writing to thank the coordinator for offering me the position.",
+        "I am writing to apply for the presenter position at the campus station.",
+        "I am writing to suggest replacing the coordinator of the campus station."
+       ],
+       "answer": 2,
+       "why": "applies ... for a presenter position 说明目的是申请职位，即第三项。第二项写成了已经得到职位。",
+       "point": "purpose"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "A tutor has already helped a student prepare a scholarship statement, and the student writes to express appreciation.",
+     "items": [
+      {
+       "stem": "Which purpose sentence fits the stage of the exchange?",
+       "options": [
+        "I am writing to request a tutor for my scholarship statement.",
+        "I am writing to thank you for helping with my scholarship statement.",
+        "I am writing to apply for the position of scholarship tutor.",
+        "I am writing to apologize for agreeing to help with your statement."
+       ],
+       "answer": 1,
+       "why": "has already helped 和 express appreciation 说明帮助已经完成，目的是感谢，即第二项。",
+       "point": "purpose"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "A student missed an agreed meeting with a project adviser and writes to apologize and propose another meeting.",
+     "items": [
+      {
+       "stem": "Which opening addresses the student's responsibility?",
+       "options": [
+        "I am writing to thank you for canceling our agreed project meeting.",
+        "I am writing to arrange a new time for the meeting that you missed.",
+        "I am writing to complain about your absence from our agreed meeting.",
+        "I am writing to apologize for failing to attend our agreed meeting."
+       ],
+       "answer": 3,
+       "why": "student missed 和 apologize 说明是学生本人失约，即第四项。第二项写成了导师失约。",
+       "point": "purpose"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "purpose",
+    "structure"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "Task: Mara writes to the campus garden coordinator, Dr. Lane, to thank the team for lending tools. The letter must explain how the tools helped and confirm their return. Draft: Dear Dr. Lane, Thank you for lending the tools. They allowed our class to prepare the planting beds. Best regards, Mara.",
+     "items": [
+      {
+       "stem": "Which missing sentence completes the required body?",
+       "options": [
+        "The tools helped the class prepare the beds for planting.",
+        "The coordinator's team kindly made the tools available.",
+        "All the borrowed tools were returned to the shed yesterday.",
+        "The class appreciated the opportunity to borrow garden tools."
+       ],
+       "answer": 2,
+       "why": "任务要求 confirm their return。草稿已有感谢和工具用途，只缺归还的信息，即第三项。",
+       "point": "structure"
+      },
+      {
+       "stem": "Complete the closing thanks without introducing a new request.",
+       "lead": "Thank you",
+       "chunks": [
+        "for supporting",
+        "our class",
+        "with the loan",
+        "of the"
+       ],
+       "tail": "tools.",
+       "extra": [
+        "supported"
+       ],
+       "why": "for 后接动名词 supporting。with the loan of the tools 说明感谢什么，没有提新的请求。",
+       "point": "structure"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "purpose",
+    "structure"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "Task: Mei writes to the Town Archive staff to request permission for a class visit next Wednesday. The letter must state that the class is studying old street names, give the proposed date, and ask whether the archive can receive twelve students. No visit has been approved. The writer's name is Mei; no individual staff member is named.",
+       "items": [
+        {
+         "stem": "Which purpose sentence fits this first letter?",
+         "options": [
+          "I am writing to thank the archive for receiving our class last Wednesday.",
+          "I am writing to request permission for our class to visit the archive.",
+          "I am writing to invite the archive staff to visit our classroom.",
+          "I am writing to apologize for missing our approved archive visit."
+         ],
+         "answer": 1,
+         "why": "request permission 和 No visit has been approved 说明参观还没获准，目的是申请，即第二项。",
+         "point": "purpose"
+        },
+        {
+         "stem": "Which body plan covers all the stated requirements?",
+         "options": [
+          "Explain the street-name project, propose Wednesday, ask about twelve students.",
+          "Explain the street-name project, describe its history, sign the letter as Mei.",
+          "Propose Wednesday, confirm an approved visit, describe the archive staff's interests.",
+          "Ask about twelve students, request a visit, thank the archive for its reply."
+         ],
+         "answer": 0,
+         "why": "任务要求写三项：研究主题、日期、能否接待十二人。第一项三项都有。第三项写成了已获批准。",
+         "point": "structure"
+        },
+        {
+         "stem": "Complete a purpose sentence for the proposed archive visit.",
+         "lead": "The purpose of this letter is",
+         "chunks": [
+          "to request",
+          "permission for",
+          "our class",
+          "to visit"
+         ],
+         "tail": "the archive.",
+         "extra": [
+          "requesting for"
+         ],
+         "why": "is 后用不定式 to request 说明目的，申请的是班级参观。request 作动词时后面不加 for。",
+         "point": "purpose"
+        },
+        {
+         "stem": "Complete the question covering the size of the proposed group.",
+         "lead": "Please let us know",
+         "chunks": [
+          "whether the archive",
+          "can receive",
+          "a group of",
+          "twelve"
+         ],
+         "tail": "students.",
+         "extra": [
+          "receiving"
+         ],
+         "why": "whether 引出要对方确认的事，a group of twelve students 写明人数。",
+         "point": "structure"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "Task: Leon borrowed a camera from Ms. Park for a student film. He returned it two days late because filming took longer than planned. He writes to apologize, explain the delay, and offer to cover the extra rental charge. Draft: Dear Ms. Park, I returned the camera late because filming continued beyond our plan. Best regards, Leon.",
+       "items": [
+        {
+         "stem": "Which purpose sentence should precede the explanation?",
+         "options": [
+          "I am writing to ask whether I may keep the camera for two more days.",
+          "I am writing to thank you for extending the camera rental by two days.",
+          "I am writing to explain why our filming took longer than we planned.",
+          "I am writing to apologize for returning your camera two days late."
+         ],
+         "answer": 3,
+         "why": "returned it two days late 和 writes to apologize 说明目的是为晚还相机道歉，即第四项。第二项写成租期已经延长，材料没有这样说。",
+         "point": "purpose"
+        },
+        {
+         "stem": "Which addition supplies the missing practical response?",
+         "options": [
+          "The student film required more time than the original plan allowed.",
+          "The camera was returned two days after the planned return date.",
+          "I would be willing to pay the additional charge caused by my delay.",
+          "I was responsible for returning the camera after the student filming."
+         ],
+         "answer": 2,
+         "why": "任务要求 offer to cover the extra rental charge，草稿缺这一项，即第三项。其余各项只重复了原因或过失。",
+         "point": "structure"
+        },
+        {
+         "stem": "Complete the opening apology for the late return.",
+         "lead": "I am writing",
+         "chunks": [
+          "to apologize",
+          "for returning",
+          "the borrowed camera",
+          "after the agreed"
+         ],
+         "tail": "date.",
+         "extra": [
+          "for returned"
+         ],
+         "why": "apologize for 后接动名词 returning。after the agreed date 说明过失是晚还。",
+         "point": "purpose"
+        },
+        {
+         "stem": "Complete the sentence providing the offered remedy.",
+         "lead": "I would be willing",
+         "chunks": [
+          "to cover",
+          "the extra",
+          "rental charge",
+          "caused by"
+         ],
+         "tail": "the delay.",
+         "extra": [
+          "covering"
+         ],
+         "why": "willing 后接不定式 to cover，句子写出了补救办法。",
+         "point": "structure"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

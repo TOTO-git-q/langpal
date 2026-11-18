@@ -1,0 +1,188 @@
+{
+  "id": "reading-sentence",
+  "title": "句子填空　Sentence completion · 练习",
+  "goal": "依据文章信息用原词完成句子。",
+  "skill": "阅读",
+  "exam": "雅思 IELTS Academic",
+  "points": [
+    {
+      "id": "locate",
+      "label": "匹配题干与原文信息"
+    },
+    {
+      "id": "pos",
+      "label": "判断所缺成分的词性"
+    },
+    {
+      "id": "extract",
+      "label": "准确提取原词短语"
+    }
+  ],
+  "sources": [
+    {
+      "id": "i2",
+      "title": "IELTS Academic: Reading test format",
+      "url": "https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading",
+      "used": "阅读材料与题型"
+    },
+    {
+      "id": "syllabus",
+      "title": "雅思 IELTS Academic：课表",
+      "url": "docs/syllabi/ielts.md",
+      "used": "练习尺寸与知识点"
+    }
+  ],
+  "cards": [
+    {
+      "id": "timed",
+      "type": "quiz",
+      "title": "小测",
+      "minutes": 12,
+      "pass": 0.75,
+      "points": [
+        "locate",
+        "pos",
+        "extract"
+      ],
+      "sets": [
+        {
+          "id": "set-a",
+          "groups": [
+            {
+              "label": "Passage 1: Measuring Urban Tree Cover",
+              "look": "passage",
+              "text": "P1\nA district council wished to know how much of its residential area lay beneath tree canopy, and so it commissioned a small survey rather than relying on general impressions. The remit was deliberately modest: the team was asked to describe the canopy in a sample of streets, not to judge whether the trees were attractive or well managed. Streets were selected so that the sample contained both older terraces with narrow pavements and newer estates with wider verges. Before any fieldwork began, the surveyors agreed on a written definition of canopy, treating a leaf-covered surface as shaded only where foliage from a tree overhung it. This definition excluded the shadow cast by walls or parked vehicles, which had confused an earlier exercise. The team also decided that only trees rooted in the ground would count; saplings in movable containers were recorded separately and not included in the main figures. These choices were written down so that another team could repeat the work.\n\nP2\nOn each visit the surveyors walked a fixed route along one side of the street, pausing at set intervals. At every pause they looked upwards through a simple viewing frame and estimated the proportion of the frame filled by leaves. Two surveyors worked independently and compared their estimates on the spot; where they differed by more than a set margin, they repeated the reading. Readings were taken only in full leaf, between late spring and early autumn, because bare branches in winter would have produced a misleading picture. Wet days were postponed, since water on the lens distorted the view. The team did not measure trunk girth or tree height, although such data would interest an arboriculturist. Their concern was the extent of cover above the street, and a narrow focus kept the workload manageable.\n\nP3\nThe results showed considerable variation between streets. Terraced roads often had intermittent cover, with gaps above junctions and shop fronts, while some newer estates had longer unbroken stretches of foliage where planting had been concentrated along a single edge. The surveyors noted that a large mature tree near a corner could influence a long section of the route, so a single specimen sometimes accounted for a sizeable share of a street's total. They also observed that cover above a pavement did not necessarily mean cover above the roadway, and they kept these two figures apart in their tables. This distinction mattered because a resident walking to a bus stop and a driver passing through the street would experience the canopy differently. The report presented separate totals for the two positions rather than a single combined average.\n\nP4\nThe council used the figures to identify streets where new planting might be considered, but the report was careful about the limits of its evidence. It did not claim that greater cover reduced summer temperatures, because no temperature readings had been taken, and it made no assertion about property values. It recommended that the same routes be surveyed in later years so that genuine change could be distinguished from differences in method. The surveyors added a note that replacement of a single felled tree could alter a street's figure substantially, and that this should be recorded when it happened. Above all, the report stressed that a sample of streets describes those streets and not the district as a whole. Extending the findings to the entire council area would require a larger and differently designed study, and no such claim was made.\n\nP5\nFinally, the team reflected on what their method could not capture. Canopy measured from below gives no indication of the condition of roots, nor of whether a tree is likely to survive a drought. A separate assessment by a tree officer would be needed for such questions, and the council was advised to commission one before committing funds to planting. The survey thus served a narrow purpose well: it produced a repeatable description of cover along agreed routes, with its definitions and exclusions visible to any later reader.",
+              "items": [
+                {
+                  "stem": "Complete using NO MORE THAN TWO WORDS from the passage. 1. The council commissioned a small survey instead of depending on general _____.",
+                  "accept": [
+                    "impressions"
+                  ],
+                  "why": "第一段说委员会委托小规模调查，而非依赖 general impressions。",
+                  "point": "locate"
+                },
+                {
+                  "stem": "Complete using NO MORE THAN TWO WORDS from the passage. 2. A leaf-covered surface counted as shaded only where foliage from a tree _____ it.",
+                  "accept": [
+                    "overhung"
+                  ],
+                  "why": "第一段定义树冠时说只有树叶从树上悬垂于其上方才算遮阴。",
+                  "point": "extract"
+                },
+                {
+                  "stem": "Complete using NO MORE THAN TWO WORDS from the passage. 3. Saplings in movable containers were recorded _____ from the main figures.",
+                  "accept": [
+                    "separately"
+                  ],
+                  "why": "第一段说盆栽幼树被单独记录，不计入主要数据。",
+                  "point": "extract"
+                },
+                {
+                  "stem": "Complete using NO MORE THAN TWO WORDS from the passage. 4. Readings were taken only in full _____.",
+                  "accept": [
+                    "leaf"
+                  ],
+                  "why": "第二段说明读数只在枝叶茂盛期进行。",
+                  "point": "pos"
+                },
+                {
+                  "stem": "Complete using NO MORE THAN TWO WORDS from the passage. 5. Cover above a pavement did not always mean cover above the _____.",
+                  "accept": [
+                    "roadway"
+                  ],
+                  "why": "第三段指出人行道上方的树冠不一定意味着车道上方的树冠。",
+                  "point": "locate"
+                },
+                {
+                  "stem": "Complete using NO MORE THAN TWO WORDS from the passage. 6. The report made no assertion about property _____.",
+                  "accept": [
+                    "values"
+                  ],
+                  "why": "第四段说报告没有对房产价值作出断言。",
+                  "point": "locate"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "set-b",
+          "groups": [
+            {
+              "label": "",
+              "look": "passage",
+              "text": "Passage 1: Watching a Wetland Margin\n\nP1\nA small conservation trust has been recording the bird life of a wetland margin on the edge of a market town. The site is not a nature reserve in the formal sense: it is a strip of reedbed, shallow pool and rough grass between a river and a housing estate, owned by the local authority and managed under an agreement with the trust. The trust's aim was modest. It wanted a record of which birds used the site, at what season, and for what purpose, so that future decisions about mowing, water levels and footpaths could rest on something more solid than memory. No attempt was made to estimate the total number of birds in the wider valley, and the report says so plainly.\n\nP2\nObservers walked a fixed route once a week, setting off within an hour of sunrise. The route was chosen so that the whole strip could be seen without entering the reedbed, because trampling the reeds would have altered the very habitat being watched. Each visit lasted about ninety minutes. Birds were recorded in three broad categories: those resting on the water, those feeding on the grass, and those simply passing overhead. The last category was kept separate because a bird flying over the site tells us little about whether the site suits it. Observers noted the first and last date on which each species was seen, rather than trying to count individuals. Counting individual birds in dense reeds is unreliable, and the trust preferred a method whose weaknesses were obvious over one that appeared precise but was not.\n\nP3\nWeather was recorded at the start and end of every visit, together with the water level read from a marked post in the pool. This post was installed by the trust and is checked against a second post elsewhere on the site, so that a single damaged marker cannot corrupt the series. When a visit was missed, the gap was recorded as a gap; the trust did not fill it in with an average. Visitors and dog walkers were not interviewed, and the study makes no claim about how people feel about the site. The point was to describe what the birds did, not what people wanted.\n\nP4\nThe first two years produced a list of forty-three species, of which eleven were recorded in every month of the year and nine only in spring. The trust drew no conclusion about whether the site is important in any wider sense. It noted only that certain species depended on shallow water in late summer, and that this dependence could be checked again if the water level were ever changed. The report recommends that the original route map, the weather sheets and the water-level readings be kept together, so that any later reader can see how a particular record was made. It also recommends that the method should not be changed halfway through a run of years, since a new method would make the earlier records hard to compare with the later ones. The trust is careful to say that a longer series would be needed before any trend could be claimed. What the exercise demonstrates is that a plain, repeatable routine, honestly bounded, can produce a record worth keeping.\n\nP5\nOne limitation deserves particular mention. The route was walked at the same time of day, which means that birds active at dusk or at night are largely absent from the list. This is not a fault in the method but a boundary on what the list can mean. A reader who wants to know about night-time use of the site will need a different study. The trust's report says this in a short final paragraph, and it is, in its way, the most useful paragraph in the document.",
+              "items": [
+                {
+                  "stem": "Complete using NO MORE THAN TWO WORDS from the passage. 1. The wetland strip is owned by the local _____.",
+                  "accept": [
+                    "authority"
+                  ],
+                  "why": "P1 明说该地带由 local authority 所有，题干只是换了个说法，填 authority。",
+                  "point": "locate"
+                },
+                {
+                  "stem": "Complete using NO MORE THAN TWO WORDS from the passage. 2. Observers set off within an hour of _____.",
+                  "accept": [
+                    "sunrise"
+                  ],
+                  "why": "P2 说观察者 on within an hour of sunrise 出发，空格前是介词 of，填名词 sunrise。",
+                  "point": "extract"
+                },
+                {
+                  "stem": "Complete using NO MORE THAN TWO WORDS from the passage. 3. Birds that merely flew over the site were recorded in a separate _____.",
+                  "accept": [
+                    "category"
+                  ],
+                  "why": "P2 说只是从头顶飞过的鸟 the last category was kept separate，空格需名词，填 category。",
+                  "point": "pos"
+                },
+                {
+                  "stem": "Complete using NO MORE THAN TWO WORDS from the passage. 4. The water level was read from a marked _____.",
+                  "accept": [
+                    "post"
+                  ],
+                  "why": "P3 说水位由池中一个 marked post 读出，填 post。",
+                  "point": "extract"
+                },
+                {
+                  "stem": "Complete using NO MORE THAN TWO WORDS from the passage. 5. A missed visit was recorded as a _____.",
+                  "accept": [
+                    "gap"
+                  ],
+                  "why": "P3 说漏掉的访问 the gap was recorded as a gap，填 gap。",
+                  "point": "locate"
+                },
+                {
+                  "stem": "Complete using NO MORE THAN TWO WORDS from the passage. 6. Some species depended on shallow water in late _____.",
+                  "accept": [
+                    "summer"
+                  ],
+                  "why": "P4 说某些物种依赖 late summer 的浅水，填 summer。",
+                  "point": "locate"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "more": {
+        "kind": "sentence",
+        "topics": [
+          "城市绿地",
+          "公共交通",
+          "图书馆服务",
+          "历史建筑",
+          "水资源",
+          "城市树木",
+          "社区设施",
+          "档案保存",
+          "生态观察",
+          "能源使用",
+          "学习空间",
+          "交通规划"
+        ]
+      }
+    }
+  ]
+}

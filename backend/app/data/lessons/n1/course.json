@@ -1,0 +1,773 @@
+{
+ "version": 3,
+ "id": "n1",
+ "title": "日语能力考 JLPT N1",
+ "language": "ja",
+ "sections": [
+  {
+   "id": "vocab",
+   "title": "文字与词汇",
+   "venue": "reading",
+   "lessons": [
+    "vocab-reading",
+    "vocab-context",
+    "vocab-paraphrase",
+    "vocab-usage",
+    "vocab-overview",
+    "vocab-reading-method",
+    "vocab-reading-onkun",
+    "vocab-reading-length",
+    "vocab-reading-voicing",
+    "vocab-reading-special",
+    "vocab-context-method",
+    "vocab-context-homophones",
+    "vocab-context-adverbs",
+    "vocab-context-mimetic",
+    "vocab-context-katakana",
+    "vocab-context-compounds",
+    "vocab-context-affixes",
+    "vocab-paraphrase-method",
+    "vocab-paraphrase-verbs",
+    "vocab-paraphrase-evaluation",
+    "vocab-paraphrase-register",
+    "vocab-paraphrase-idioms",
+    "vocab-usage-method",
+    "vocab-usage-polysemy",
+    "vocab-usage-collocation",
+    "vocab-usage-chinese",
+    "vocab-usage-transitivity",
+    "vocab-mock"
+   ],
+   "parts": [
+    {
+     "title": "概览",
+     "lessons": [
+      "vocab-overview"
+     ]
+    },
+    {
+     "title": "汉字读音　漢字読み",
+     "lessons": [
+      "vocab-reading-method",
+      "vocab-reading-onkun",
+      "vocab-reading-length",
+      "vocab-reading-voicing",
+      "vocab-reading-special"
+     ],
+     "practice": {
+      "lesson": "vocab-reading",
+      "title": "6 题 · 3 分钟",
+      "brief": [
+       "先由语境确定标记词的词义。",
+       "结合词形判断音读、训读或特殊读法。",
+       "逐项核对长音、促音和清浊音。"
+      ],
+      "points": {
+       "onkun": "vocab-reading-onkun",
+       "sound": "vocab-reading-length"
+      }
+     }
+    },
+    {
+     "title": "语境选词　文脈規定",
+     "lessons": [
+      "vocab-context-method",
+      "vocab-context-homophones",
+      "vocab-context-adverbs",
+      "vocab-context-mimetic",
+      "vocab-context-katakana",
+      "vocab-context-compounds",
+      "vocab-context-affixes"
+     ],
+     "practice": {
+      "lesson": "vocab-context",
+      "title": "7 题 · 4 分钟",
+      "brief": [
+       "先读完整句子，确定对象和评价方向。",
+       "以转折、因果和程度限定词义。",
+       "将候选词代入并核对搭配。"
+      ],
+      "points": {
+       "meaning": "vocab-context-method",
+       "adverb": "vocab-context-adverbs",
+       "collocation": "vocab-context-compounds"
+      }
+     }
+    },
+    {
+     "title": "近义改写　言い換え類義",
+     "lessons": [
+      "vocab-paraphrase-method",
+      "vocab-paraphrase-verbs",
+      "vocab-paraphrase-evaluation",
+      "vocab-paraphrase-register",
+      "vocab-paraphrase-idioms"
+     ],
+     "practice": {
+      "lesson": "vocab-paraphrase",
+      "title": "6 题 · 3 分钟",
+      "brief": [
+       "先确定标记词在原句中的含义。",
+       "比较替换后的对象、程度和评价。",
+       "排除仅在其他语境中近义的词。"
+      ],
+      "points": {
+       "synonym": "vocab-paraphrase-verbs",
+       "nuance": "vocab-paraphrase-evaluation",
+       "idiom": "vocab-paraphrase-idioms"
+      }
+     }
+    },
+    {
+     "title": "词语用法　用法",
+     "lessons": [
+      "vocab-usage-method",
+      "vocab-usage-polysemy",
+      "vocab-usage-collocation",
+      "vocab-usage-chinese",
+      "vocab-usage-transitivity"
+     ],
+     "practice": {
+      "lesson": "vocab-usage",
+      "title": "6 题 · 5 分钟",
+      "brief": [
+       "先确定目标词的词义和词性。",
+       "逐句核对对象、助词和搭配。",
+       "比较使用场合及褒贬方向。"
+      ],
+      "points": {
+       "usage": "vocab-usage-polysemy",
+       "collocation": "vocab-usage-collocation",
+       "interference": "vocab-usage-chinese"
+      }
+     }
+    },
+    {
+     "title": "模拟测试",
+     "lessons": [
+      "vocab-mock"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grammar",
+   "title": "语法",
+   "venue": "reading",
+   "lessons": [
+    "grammar-form",
+    "grammar-order",
+    "grammar-text",
+    "grammar-overview",
+    "grammar-form-method",
+    "grammar-form-concession",
+    "grammar-form-condition",
+    "grammar-form-cause",
+    "grammar-form-simultaneous",
+    "grammar-form-sequence",
+    "grammar-form-limitation",
+    "grammar-form-emphasis",
+    "grammar-form-judgment",
+    "grammar-form-possibility",
+    "grammar-form-standpoint",
+    "grammar-form-addition",
+    "grammar-form-comparison",
+    "grammar-form-obligation",
+    "grammar-form-intention",
+    "grammar-form-emotion",
+    "grammar-form-honorific",
+    "grammar-form-literary",
+    "grammar-order-method",
+    "grammar-order-dependency",
+    "grammar-order-modifiers",
+    "grammar-order-correlative",
+    "grammar-text-method",
+    "grammar-text-connectors",
+    "grammar-text-reference",
+    "grammar-text-ending",
+    "grammar-text-perspective",
+    "grammar-text-essay",
+    "grammar-mock"
+   ],
+   "parts": [
+    {
+     "title": "概览",
+     "lessons": [
+      "grammar-overview"
+     ]
+    },
+    {
+     "title": "形式判断　文の文法1（文法形式の判断）",
+     "lessons": [
+      "grammar-form-method",
+      "grammar-form-concession",
+      "grammar-form-condition",
+      "grammar-form-cause",
+      "grammar-form-simultaneous",
+      "grammar-form-sequence",
+      "grammar-form-limitation",
+      "grammar-form-emphasis",
+      "grammar-form-judgment",
+      "grammar-form-possibility",
+      "grammar-form-standpoint",
+      "grammar-form-addition",
+      "grammar-form-comparison",
+      "grammar-form-obligation",
+      "grammar-form-intention",
+      "grammar-form-emotion",
+      "grammar-form-honorific",
+      "grammar-form-literary"
+     ],
+     "practice": {
+      "lesson": "grammar-form",
+      "title": "8 题 · 6 分钟",
+      "brief": [
+       "先确定前后分句的逻辑关系。",
+       "核对动词形态与名词接続。",
+       "比较近义句型的事实性、主观性和语域。",
+       "代入整句检查主语和句末限制。"
+      ],
+      "points": {
+       "pattern": "grammar-form-concession",
+       "connection": "grammar-form-sequence",
+       "register": "grammar-form-honorific"
+      }
+     }
+    },
+    {
+     "title": "句子组装　文の文法2（文の組み立て）",
+     "lessons": [
+      "grammar-order-method",
+      "grammar-order-dependency",
+      "grammar-order-modifiers",
+      "grammar-order-correlative"
+     ],
+     "practice": {
+      "lesson": "grammar-order",
+      "title": "5 题 · 6 分钟",
+      "brief": [
+       "先连接助词和其支配的名词或动词。",
+       "合并固定句型，再判断修饰关系。",
+       "核对句首句尾及整句主语。",
+       "完整排列后排除额外词块。"
+      ],
+      "points": {
+       "pair": "grammar-order-dependency",
+       "scope": "grammar-order-modifiers",
+       "whole": "grammar-order-method"
+      }
+     }
+    },
+    {
+     "title": "篇章语法　文章の文法",
+     "lessons": [
+      "grammar-text-method",
+      "grammar-text-connectors",
+      "grammar-text-reference",
+      "grammar-text-ending",
+      "grammar-text-perspective",
+      "grammar-text-essay"
+     ],
+     "practice": {
+      "lesson": "grammar-text",
+      "title": "1 篇 5 题 · 8 分钟",
+      "brief": [
+       "先读全文确定叙述者和时间。",
+       "根据前后句的逻辑选择连接表达。",
+       "把指示词还原为具体对象。",
+       "核对句末的语气与作者立场。"
+      ],
+      "points": {
+       "flow": "grammar-text-connectors",
+       "reference": "grammar-text-reference",
+       "ending": "grammar-text-ending"
+      }
+     }
+    },
+    {
+     "title": "模拟测试",
+     "lessons": [
+      "grammar-mock"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "reading",
+   "title": "读解",
+   "venue": "reading",
+   "lessons": [
+    "reading-short",
+    "reading-mid",
+    "reading-long",
+    "reading-integrated",
+    "reading-claim",
+    "reading-search",
+    "reading-overview",
+    "reading-short-method",
+    "reading-short-main",
+    "reading-short-reference",
+    "reading-short-notice",
+    "reading-short-negation",
+    "reading-mid-method",
+    "reading-mid-reason",
+    "reading-mid-meaning",
+    "reading-mid-voice",
+    "reading-mid-sentences",
+    "reading-long-method",
+    "reading-long-structure",
+    "reading-long-fiction",
+    "reading-long-essay",
+    "reading-long-society",
+    "reading-integrated-method",
+    "reading-integrated-common",
+    "reading-integrated-difference",
+    "reading-claim-method",
+    "reading-claim-main",
+    "reading-claim-evidence",
+    "reading-claim-culture",
+    "reading-search-method",
+    "reading-search-guide",
+    "reading-search-conditions",
+    "reading-mock"
+   ],
+   "parts": [
+    {
+     "title": "概览",
+     "lessons": [
+      "reading-overview"
+     ]
+    },
+    {
+     "title": "短文理解　内容理解（短文）",
+     "lessons": [
+      "reading-short-method",
+      "reading-short-main",
+      "reading-short-reference",
+      "reading-short-notice",
+      "reading-short-negation"
+     ],
+     "practice": {
+      "lesson": "reading-short",
+      "title": "3 篇 3 题 · 8 分钟",
+      "brief": [
+       "先确定题干问主旨、指示内容还是行动要求。",
+       "把指示词换成原文中的具体内容。",
+       "核对结尾的转折、限定和要求。"
+      ],
+      "points": {
+       "point": "reading-short-main",
+       "refer": "reading-short-reference",
+       "request": "reading-short-notice"
+      }
+     }
+    },
+    {
+     "title": "中篇理解　内容理解（中文）",
+     "lessons": [
+      "reading-mid-method",
+      "reading-mid-reason",
+      "reading-mid-meaning",
+      "reading-mid-voice",
+      "reading-mid-sentences"
+     ],
+     "practice": {
+      "lesson": "reading-mid",
+      "title": "1 篇 3 题 · 8 分钟",
+      "brief": [
+       "按题干定位画线句及其前后文。",
+       "把理由与结果对应到同一主体。",
+       "区分引述观点和作者的最终评价。",
+       "检查改写是否保留条件与程度。"
+      ],
+      "points": {
+       "reason": "reading-mid-reason",
+       "meaning": "reading-mid-meaning",
+       "author": "reading-mid-voice"
+      }
+     }
+    },
+    {
+     "title": "长篇内容理解　内容理解（長文）",
+     "lessons": [
+      "reading-long-method",
+      "reading-long-structure",
+      "reading-long-fiction",
+      "reading-long-essay",
+      "reading-long-society"
+     ],
+     "practice": {
+      "lesson": "reading-long",
+      "title": "1 篇 4 题 · 12 分钟",
+      "brief": [
+       "逐段确认话题和段落作用。",
+       "将具体例子对应到解释或认识。",
+       "按事件前后变化判断人物心理。",
+       "以全文结尾核对概括范围。"
+      ],
+      "points": {
+       "structure": "reading-long-structure",
+       "psychology": "reading-long-fiction",
+       "gist": "reading-long-essay"
+      }
+     }
+    },
+    {
+     "title": "多文整合　統合理解",
+     "lessons": [
+      "reading-integrated-method",
+      "reading-integrated-common",
+      "reading-integrated-difference"
+     ],
+     "practice": {
+      "lesson": "reading-integrated",
+      "title": "2 篇 3 题 · 8 分钟",
+      "brief": [
+       "分别标出 A、B 的对象、判断和理由。",
+       "在同一比较维度上对照观点。",
+       "共同点必须在两文中都有依据。",
+       "核对选项是否交换了观点归属。"
+      ],
+      "points": {
+       "compare": "reading-integrated-difference",
+       "common": "reading-integrated-common"
+      }
+     }
+    },
+    {
+     "title": "长篇主张理解　主張理解（長文）",
+     "lessons": [
+      "reading-claim-method",
+      "reading-claim-main",
+      "reading-claim-evidence",
+      "reading-claim-culture"
+     ],
+     "practice": {
+      "lesson": "reading-claim",
+      "title": "1 篇 4 题 · 12 分钟",
+      "brief": [
+       "区分引入议题、他人观点和作者主张。",
+       "以反驳和转折确定论述方向。",
+       "把每个例子对应到所支持的判断。",
+       "比较结论中的条件和适用范围。"
+      ],
+      "points": {
+       "claim": "reading-claim-main",
+       "evidence": "reading-claim-evidence",
+       "concept": "reading-claim-culture"
+      }
+     }
+    },
+    {
+     "title": "信息检索　情報検索",
+     "lessons": [
+      "reading-search-method",
+      "reading-search-guide",
+      "reading-search-conditions"
+     ],
+     "practice": {
+      "lesson": "reading-search",
+      "title": "1 份 2 题 · 8 分钟",
+      "brief": [
+       "先提取题干中的身份、时间和预算。",
+       "按标题和栏目定位对应条目。",
+       "合并条件并核对备注与例外。",
+       "仅使用符合资格的费用和期限。"
+      ],
+      "points": {
+       "scan": "reading-search-guide",
+       "condition": "reading-search-conditions"
+      }
+     }
+    },
+    {
+     "title": "模拟测试",
+     "lessons": [
+      "reading-mock"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "listening",
+   "title": "听解",
+   "venue": "listening",
+   "lessons": [
+    "listening-task",
+    "listening-point",
+    "listening-gist",
+    "listening-response",
+    "listening-integrated",
+    "listening-overview",
+    "listening-task-method",
+    "listening-task-final",
+    "listening-task-sequence",
+    "listening-task-instructions",
+    "listening-task-office",
+    "listening-point-method",
+    "listening-point-reason",
+    "listening-point-detail",
+    "listening-point-comparison",
+    "listening-gist-method",
+    "listening-gist-main",
+    "listening-gist-intent",
+    "listening-gist-talk",
+    "listening-gist-science",
+    "listening-response-method",
+    "listening-response-questions",
+    "listening-response-requests",
+    "listening-response-negative",
+    "listening-response-implied",
+    "listening-response-contractions",
+    "listening-integrated-method",
+    "listening-integrated-criteria",
+    "listening-integrated-decision",
+    "listening-integrated-references",
+    "listening-mock"
+   ],
+   "parts": [
+    {
+     "title": "概览",
+     "lessons": [
+      "listening-overview"
+     ]
+    },
+    {
+     "title": "行动任务　課題理解",
+     "lessons": [
+      "listening-task-method",
+      "listening-task-final",
+      "listening-task-sequence",
+      "listening-task-instructions",
+      "listening-task-office"
+     ],
+     "practice": {
+      "lesson": "listening-task",
+      "title": "2 段 2 题 · 5 分钟",
+      "brief": [
+       "先确认所问人物和行动时间。",
+       "区分已完成、取消和待完成事项。",
+       "用首先、之后和条件表达确定顺序。",
+       "以最终确认的安排作答。"
+      ],
+      "points": {
+       "task": "listening-task-final",
+       "order": "listening-task-sequence"
+      }
+     }
+    },
+    {
+     "title": "指定要点　ポイント理解",
+     "lessons": [
+      "listening-point-method",
+      "listening-point-reason",
+      "listening-point-detail",
+      "listening-point-comparison"
+     ],
+     "practice": {
+      "lesson": "listening-point",
+      "title": "2 段 2 题 · 5 分钟",
+      "brief": [
+       "先确定所问的是理由、条件还是评价。",
+       "区分提到的因素与本人认可的因素。",
+       "听取转折后补充或修正的信息。",
+       "核对选项的对象和比较标准。"
+      ],
+      "points": {
+       "focus": "listening-point-detail",
+       "reason": "listening-point-reason"
+      }
+     }
+    },
+    {
+     "title": "整体概要　概要理解",
+     "lessons": [
+      "listening-gist-method",
+      "listening-gist-main",
+      "listening-gist-intent",
+      "listening-gist-talk",
+      "listening-gist-science"
+     ],
+     "practice": {
+      "lesson": "listening-gist",
+      "title": "2 段 2 题 · 5 分钟",
+      "brief": [
+       "先确认反复讨论的对象。",
+       "区分背景、例子和核心判断。",
+       "结合转折和结尾概括意图。",
+       "排除只谈局部细节的选项。"
+      ],
+      "points": {
+       "gist": "listening-gist-main",
+       "intent": "listening-gist-intent"
+      }
+     }
+    },
+    {
+     "title": "即时回应　即時応答",
+     "lessons": [
+      "listening-response-method",
+      "listening-response-questions",
+      "listening-response-requests",
+      "listening-response-negative",
+      "listening-response-implied",
+      "listening-response-contractions"
+     ],
+     "practice": {
+      "lesson": "listening-response",
+      "title": "8 句 8 题 · 5 分钟",
+      "brief": [
+       "先判断话语期待的信息或行动。",
+       "结合否定与省略还原意图。",
+       "按人物关系核对回应的礼貌程度。",
+       "排除只重复词语而未回应意图的选项。"
+      ],
+      "points": {
+       "function": "listening-response-requests",
+       "indirect": "listening-response-implied",
+       "negative": "listening-response-negative"
+      }
+     }
+    },
+    {
+     "title": "综合理解　統合理解",
+     "lessons": [
+      "listening-integrated-method",
+      "listening-integrated-criteria",
+      "listening-integrated-decision",
+      "listening-integrated-references"
+     ],
+     "practice": {
+      "lesson": "listening-integrated",
+      "title": "1 段 2 题 · 6 分钟",
+      "brief": [
+       "把方案名称与特点对应起来。",
+       "区分两位说话人的必要条件和偏好。",
+       "随补充条件更新可选方案。",
+       "分别核对个人选择和共同决定。"
+      ],
+      "points": {
+       "compare": "listening-integrated-criteria",
+       "decide": "listening-integrated-decision"
+      }
+     }
+    },
+    {
+     "title": "模拟测试",
+     "lessons": [
+      "listening-mock"
+     ]
+    }
+   ]
+  }
+ ],
+ "titles": {
+  "vocab-overview": "文字与词汇概览",
+  "vocab-reading-method": "汉字读音题",
+  "vocab-reading-onkun": "音读与训读",
+  "vocab-reading-length": "长音与促音",
+  "vocab-reading-voicing": "清浊音与连浊",
+  "vocab-reading-special": "多音字与特殊读法",
+  "vocab-context-method": "语境选词题",
+  "vocab-context-homophones": "同音异义词",
+  "vocab-context-adverbs": "程度与判断副词",
+  "vocab-context-mimetic": "拟声词与拟态词",
+  "vocab-context-katakana": "片假名词的语境义",
+  "vocab-context-compounds": "复合动词的搭配",
+  "vocab-context-affixes": "派生词的语义范围",
+  "vocab-paraphrase-method": "近义改写题",
+  "vocab-paraphrase-verbs": "近义动词的区别",
+  "vocab-paraphrase-evaluation": "评价词的程度差异",
+  "vocab-paraphrase-register": "书面词与日常表达",
+  "vocab-paraphrase-idioms": "惯用句的语境义",
+  "vocab-usage-method": "词语用法题",
+  "vocab-usage-polysemy": "多义词的使用范围",
+  "vocab-usage-collocation": "名词与动词的搭配",
+  "vocab-usage-chinese": "中日同形词辨析",
+  "vocab-usage-transitivity": "自他动词与对象",
+  "vocab-mock": "文字与词汇模拟测试",
+  "grammar-overview": "语法部分概览",
+  "grammar-form-method": "语法形式判断题",
+  "grammar-form-concession": "逆接与让步",
+  "grammar-form-condition": "条件与假设",
+  "grammar-form-cause": "原因与理由",
+  "grammar-form-simultaneous": "时间与同时",
+  "grammar-form-sequence": "时间与过程",
+  "grammar-form-limitation": "限定与例外",
+  "grammar-form-emphasis": "程度与强调",
+  "grammar-form-judgment": "判断与断定",
+  "grammar-form-possibility": "推量与可能",
+  "grammar-form-standpoint": "立场与依据",
+  "grammar-form-addition": "付加与并列",
+  "grammar-form-comparison": "对比与取舍",
+  "grammar-form-obligation": "义务与不可避免",
+  "grammar-form-intention": "意志与决心",
+  "grammar-form-emotion": "感情与评价",
+  "grammar-form-honorific": "敬语与受益关系",
+  "grammar-form-literary": "文语形式",
+  "grammar-order-method": "句子组装题",
+  "grammar-order-dependency": "词块的依存关系",
+  "grammar-order-modifiers": "长修饰语的边界",
+  "grammar-order-correlative": "呼应结构的排列",
+  "grammar-text-method": "篇章语法题",
+  "grammar-text-connectors": "篇章连接表达",
+  "grammar-text-reference": "跨句指示与省略",
+  "grammar-text-ending": "句末语气与立场",
+  "grammar-text-perspective": "叙述视点与时态",
+  "grammar-text-essay": "随笔的语法衔接",
+  "grammar-mock": "语法模拟测试",
+  "reading-overview": "读解部分概览",
+  "reading-short-method": "短文理解题",
+  "reading-short-main": "短文主旨题",
+  "reading-short-reference": "指示内容题",
+  "reading-short-notice": "通知与邮件",
+  "reading-short-negation": "否定与限定范围",
+  "reading-mid-method": "中篇理解题",
+  "reading-mid-reason": "原因与理由题",
+  "reading-mid-meaning": "画线句的语境义",
+  "reading-mid-voice": "作者观点与引述观点",
+  "reading-mid-sentences": "长句的主干与修饰",
+  "reading-long-method": "长篇内容理解题",
+  "reading-long-structure": "段落关系题",
+  "reading-long-fiction": "小说中的人物心理",
+  "reading-long-essay": "经历与认识的随笔",
+  "reading-long-society": "社会与劳动主题",
+  "reading-integrated-method": "多文整合理解题",
+  "reading-integrated-common": "共同点题",
+  "reading-integrated-difference": "观点差异题",
+  "reading-claim-method": "长篇主张理解题",
+  "reading-claim-main": "全文主张题",
+  "reading-claim-evidence": "论据与例证功能题",
+  "reading-claim-culture": "文化与认知主题",
+  "reading-search-method": "信息检索题",
+  "reading-search-guide": "简章与服务说明",
+  "reading-search-conditions": "多条件筛选题",
+  "reading-mock": "读解模拟测试",
+  "listening-overview": "听解部分概览",
+  "listening-task-method": "行动任务题",
+  "listening-task-final": "最终行动题",
+  "listening-task-sequence": "行动顺序题",
+  "listening-task-instructions": "工作指示与交接",
+  "listening-task-office": "职场事务词汇",
+  "listening-point-method": "指定要点题",
+  "listening-point-reason": "真实理由题",
+  "listening-point-detail": "关键细节题",
+  "listening-point-comparison": "口头比较与重点",
+  "listening-gist-method": "整体概要题",
+  "listening-gist-main": "口头主旨题",
+  "listening-gist-intent": "讲话意图与态度题",
+  "listening-gist-talk": "访谈与短讲",
+  "listening-gist-science": "环境与技术主题",
+  "listening-response-method": "即时回应题",
+  "listening-response-questions": "信息询问的回应",
+  "listening-response-requests": "请求与提议的回应",
+  "listening-response-negative": "否定与反问的回应",
+  "listening-response-implied": "含蓄陈述的回应",
+  "listening-response-contractions": "口语缩约与省略",
+  "listening-integrated-method": "综合理解题",
+  "listening-integrated-criteria": "方案与条件整合题",
+  "listening-integrated-decision": "个人选择与共同决定",
+  "listening-integrated-references": "对话中的指代追踪",
+  "listening-mock": "听解模拟测试"
+ }
+}

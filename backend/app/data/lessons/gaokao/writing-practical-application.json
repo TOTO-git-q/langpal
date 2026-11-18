@@ -1,0 +1,56 @@
+{
+ "id": "writing-practical-application", "title": "申请信", "goal": "能说明申请意愿并用相关经历支持申请。", "skill": "写作", "exam": "高考英语（新课标卷）", "mastery": "once",
+ "points": [{"id": "purpose", "label": "明确表达申请对象与意愿"}, {"id": "evidence", "label": "用相关经历支持胜任理由"}],
+ "sources": [{"id": "syllabus", "title": "高考英语（新课标卷）：课表", "url": "docs/syllabi/gaokao.md", "used": "申请信的内容与知识点"}],
+ "cards": [
+  {"id": "structure", "type": "table", "title": "结构", "cols": ["部分", "内容", "例句"], "rows": [
+   ["开头", "写明申请的岗位或活动", "I am writing to apply for the museum guide position."],
+   ["经历", "说明与要求有关的经历", "I have guided visitors at school exhibitions."],
+   ["胜任理由", "联系经历与岗位需要", "This experience has prepared me to explain exhibits clearly."],
+   ["结尾", "表达联系意愿", "I would welcome the chance to discuss my application."]
+  ]},
+  {"id": "expressions", "type": "table", "title": "常用表达", "cols": ["用途", "表达", "例句"], "rows": [
+   ["申请", "apply for + 岗位或活动", "I would like to apply for the library volunteer role."],
+   ["资格", "be qualified for + 岗位", "I believe I am qualified for the position."],
+   ["经历", "have experience in + 名词或动名词", "I have experience in organizing reading events."],
+   ["联系", "welcome the chance to + 动词", "I would welcome the chance to discuss my experience."]
+  ]},
+  {"id": "example", "type": "text", "title": "例题", "body": [
+   {"p": "假定李华申请学校图书馆志愿者，工作包括整理图书和帮助读者。介绍申请意愿及相关经历。"},
+   {"box": "Apply for the library volunteer role.\nDescribe relevant experience.\n\nDear Library Team,\nI am writing to apply for the library volunteer role. Last term I helped organize books for our class reading corner. I also showed younger students how to find the titles they wanted. These tasks taught me to arrange books carefully and answer questions clearly. I believe this experience would help me support readers in the school library. I would welcome the chance to discuss my application and can provide further details about my work. Thank you for considering my request.\nBest regards,\nLi Hua"},
+   {"p": "开头写明申请的岗位。整理图书的经历对应整理工作，帮低年级同学找书的经历对应帮助读者。结尾表达进一步联系的意愿。"}
+  ]},
+  {"id": "errors", "type": "table", "title": "常见错误", "cols": ["问题", "片段", "修改"], "rows": [
+   ["申请对象不明", "I am writing about a position.", "I am writing to apply for the guide position."],
+   ["只有意愿", "I want the role and I like it.", "I want the role and have guided school visitors."],
+   ["经历无关", "I enjoy music.（申请整理图书）", "I arranged books for our class library."],
+   ["缺少联系", "I am qualified.（未给依据）", "I have guided visitors, so I can explain exhibits clearly."]
+  ]},
+  {"id": "practice-one", "type": "check", "title": "练习一", "points": ["purpose", "evidence"], "groups": [
+   {"text": "假定李华申请校艺术节接待志愿者，工作包括引导来宾。", "items": [
+    {"stem": "Which sentence states the application?", "options": ["I would like to apply for the reception role.", "I would like to visit the art festival with my classmates.", "I helped visitors at the art festival.", "I welcomed the festival reception team."], "answer": 0, "why": "apply for the reception role 明确申请接待岗位。", "point": "purpose"},
+    {"stem": "Which experience supports the role?", "options": ["I displayed my paintings at the festival.", "I showed guests to rooms at a school event.", "I visited the festival with my classmates and teachers.", "I watched guests enter the school hall."], "answer": 1, "why": "接待工作包括引导来宾。第二项带客人去房间，正是引导来宾的经历。", "point": "evidence"}
+   ]}
+  ]},
+  {"id": "practice-two", "type": "check", "title": "练习二", "points": ["purpose", "evidence"], "groups": [{"items": [
+   {"stem": "State an application for a club position.", "lead": "I", "chunks": ["would like", "to apply", "for", "the club"], "tail": "position.", "extra": ["applying"], "why": "would like to apply for 后接申请的岗位。", "point": "purpose"},
+   {"stem": "Describe experience organizing a reading event.", "lead": "I", "chunks": ["have experience", "in", "organizing", "reading"], "tail": "events.", "extra": ["organize"], "why": "experience in 后接动名词，说明组织读书活动的经历。", "point": "evidence"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.8, "points": ["purpose", "evidence"], "sets": [{"id": "set-a", "groups": [
+   {"text": "假定李华申请学校科学展讲解员，需要说明展品。", "items": [
+    {"stem": "Which sentence identifies the application?", "options": ["I am applying for the exhibition guide position.", "I am attending the exhibition as a visitor with my classmates.", "I am describing an exhibition guide's work.", "I am inviting a guide to the exhibition."], "answer": 0, "why": "applying for 明确表示申请讲解员岗位。", "point": "purpose"},
+    {"stem": "Which experience best supports the application?", "options": ["I collected exhibition tickets for my class.", "I explained science models to visiting students.", "I visited a science exhibition last month.", "I read about the exhibition with my class."], "answer": 1, "why": "讲解员要说明展品。第二项是向来访学生讲解科学模型的经历，与这项工作直接对应。", "point": "evidence"}
+   ]},
+   {"text": "假定李华申请英语社团活动组织者，工作包括安排讨论。", "items": [
+    {"stem": "Which sentence states the intended role?", "options": ["I enjoyed the club's last discussion.", "I attended an English club meeting.", "I wish to apply for the organizer role.", "I discussed the organizer's role with friends at the meeting."], "answer": 2, "why": "apply for the organizer role 指明申请组织者岗位。", "point": "purpose"},
+    {"stem": "Which experience provides relevant evidence?", "options": ["I read about several English clubs and their members.", "I attended a discussion as a guest.", "I enjoyed listening to club members.", "I arranged weekly discussions for my class."], "answer": 3, "why": "组织者的工作包括安排讨论。第四项是为班级安排每周讨论的经历，与这项工作相符。", "point": "evidence"}
+   ]},
+   {"items": [
+    {"stem": "Express an application for a volunteer role.", "lead": "I", "chunks": ["am writing", "to apply", "for", "the volunteer"], "tail": "role.", "extra": ["applied"], "why": "am writing to apply for 表达写信申请的目的。", "point": "purpose"},
+    {"stem": "Describe experience helping young readers.", "lead": "I", "chunks": ["have experience", "in", "helping", "young"], "tail": "readers.", "extra": ["help"], "why": "experience in helping 表示帮助读者的经历。", "point": "evidence"},
+    {"stem": "Express interest in applying for a camp position.", "lead": "I", "chunks": ["would like", "to apply", "for", "the camp"], "tail": "position.", "extra": ["applying"], "why": "would like to apply for 指明申请意愿和对象。", "point": "purpose"},
+    {"stem": "Connect guide experience to explaining exhibits.", "lead": "My experience", "chunks": ["has prepared", "me", "to explain", "the"], "tail": "exhibits.", "extra": ["explaining"], "why": "has prepared me to explain 将经历与讲解工作联系起来。", "point": "evidence"}
+   ]}
+  ]}]} 
+ ]
+}

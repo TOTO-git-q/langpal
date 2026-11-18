@@ -1,0 +1,393 @@
+{
+ "id": "reading-passage-vocab",
+ "title": "词义题",
+ "goal": "利用上下文线索推出词义；用代入法排除不符合语境的选项。",
+ "skill": "reading",
+ "exam": "TOEFL iBT（2026 年 1 月起的新版）· 阅读",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "clue",
+   "label": "利用上下文线索推出词义"
+  },
+  {
+   "id": "substitute",
+   "label": "用代入法排除不符合语境的选项"
+  }
+ ],
+ "sources": [
+  {
+   "id": "spec",
+   "title": "ETS：TOEFL iBT Test 2026 Update — Test Blueprint and Specifications",
+   "url": "https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf",
+   "used": "题量、难度范围、计分、自适应"
+  },
+  {
+   "id": "overview",
+   "title": "ETS：Updated TOEFL iBT Test Overview",
+   "url": "https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf",
+   "used": "题目说明和官方样题（挖空规则是对照样题和答案看出来的）"
+  },
+  {
+   "id": "lessonplan",
+   "title": "ETS：TOEFL iBT Reading Lesson Plans（教师用教案）",
+   "url": "https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-lesson-plan-reading.pdf",
+   "used": "第 1 课：三类题的说明和需要的三项基本功"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "词义题问一个词在这句话里的意思。多义词要看它修饰的对象。例如 a light box 中的 light 指重量小，不是表示光线的名词义。"
+    },
+    {
+     "box": "The word “light” in the passage is closest in meaning to …\nWhich word could best replace “light” in this sentence?"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　读完整句",
+     "d": "先确定词性和搭配对象。The panel is light enough to lift 中 light 描述 panel 的重量。"
+    },
+    {
+     "t": "2　查找上下文线索",
+     "d": "读前后句中的解释、对照或结果。Unlike the heavy frame, the panel is light 用 heavy 提供反义线索。"
+    },
+    {
+     "t": "3　逐项代入",
+     "d": "把选项代入原句，语法形式不变，看意思是否一致。代入 low in weight 后 enough to lift 仍然讲得通，代入 bright 则不通。"
+    }
+   ]
+  },
+  {
+   "id": "key",
+   "type": "table",
+   "title": "语境与依据",
+   "cols": [
+    "类型",
+    "例句",
+    "依据"
+   ],
+   "rows": [
+    [
+     "同义复现",
+     "The surface was uneven; it was not smooth.",
+     "not smooth 复述 uneven。"
+    ],
+    [
+     "对比",
+     "The first account was detailed, whereas the second was brief.",
+     "detailed 与 brief 构成对照。"
+    ],
+    [
+     "举例",
+     "Portable tools, such as folding rulers, fit inside a small bag.",
+     "folding rulers 能放进小包，说明 portable 指便于携带。"
+    ],
+    [
+     "定义",
+     "A replica is a copy made to resemble an original object.",
+     "is 后面给出了 replica 的定义。"
+    ],
+    [
+     "因果",
+     "Because the passage was narrow, only one cart could enter at a time.",
+     "一次只能进一辆车，说明 narrow 指空间窄。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The repair team used a sound beam to support the roof. Unlike the cracked beam it replaced, this one had no visible damage and could bear the required load."
+    },
+    {
+     "box": "The word “sound” is closest in meaning to\n1. audible\n2. fashionable\n3. solid\n4. hollow"
+    },
+    {
+     "p": "步骤 1：sound 修饰 beam，是形容词。步骤 2：no visible damage 与 could bear the required load 说明梁完好且能承重。"
+    },
+    {
+     "p": "步骤 3：代入 solid 后整句讲得通，即第三项。audible 是 sound 的常见义，与梁的状态无关。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "常见义",
+     "sound → audible",
+     "no visible damage 说明这里讲梁的状态，与声音无关。"
+    ],
+    [
+     "形近词",
+     "portable → profitable",
+     "portable 指便于携带，profitable 指有利可图。"
+    ],
+    [
+     "搭配成立但语义不符",
+     "a brief account → a false account",
+     "brief 讲篇幅长短，与真假无关。"
+    ],
+    [
+     "关系相反",
+     "uneven → smooth",
+     "原句说 not smooth，smooth 与原意相反。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "clue",
+    "substitute"
+   ],
+   "groups": [
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "The dye was scarce: only a small amount remained in the container.",
+     "items": [
+      {
+       "stem": "The word “scarce” is closest in meaning to",
+       "options": [
+        "limited",
+        "colorful",
+        "valuable",
+        "liquid"
+       ],
+       "answer": 0,
+       "why": "only a small amount remained 直接解释了 scarce：数量有限，即第一项。",
+       "point": "clue"
+      }
+     ]
+    },
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "Unlike the rigid rod, the flexible strip could bend around a corner.",
+     "items": [
+      {
+       "stem": "Which word best replaces “flexible”?",
+       "options": [
+        "fragile",
+        "straight",
+        "stiff",
+        "bendable"
+       ],
+       "answer": 3,
+       "why": "could bend around a corner 说明可以弯曲，与 rigid 相对，即第四项。第一项 fragile 指易碎。",
+       "point": "substitute"
+      }
+     ]
+    },
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "The survey addressed housing conditions; every question concerned the quality of local homes.",
+     "items": [
+      {
+       "stem": "The word “addressed” is closest in meaning to",
+       "options": [
+        "delivered",
+        "examined",
+        "located",
+        "printed"
+       ],
+       "answer": 1,
+       "why": "every question concerned the quality of local homes 说明调查考察的是住房条件，即第二项。第一项 delivered 是 address 投递一类的常见义。",
+       "point": "substitute"
+      }
+     ]
+    },
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "Small defects, including scratches and cracks, were recorded before the object was repaired.",
+     "items": [
+      {
+       "stem": "What does “defects” mean here?",
+       "options": [
+        "decorations",
+        "measurements",
+        "imperfections",
+        "repairs"
+       ],
+       "answer": 2,
+       "why": "including scratches and cracks 举出了缺陷的例子，即第三项。第四项 repairs 是之后才做的事。",
+       "point": "clue"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "clue",
+    "substitute"
+   ],
+   "groups": [
+    {
+     "label": "Read the passage.",
+     "look": "passage",
+     "text": "An editor condensed a long introduction into a short paragraph. Several repeated explanations were removed, but the central argument was retained. Keeping that argument allowed readers to understand why the report had been written.",
+     "items": [
+      {
+       "stem": "The word “condensed” is closest in meaning to",
+       "options": [
+        "shortened",
+        "translated",
+        "criticized",
+        "illustrated"
+       ],
+       "answer": 0,
+       "why": "into a short paragraph 和 repeated explanations were removed 说明 condensed 指压缩篇幅，即第一项。",
+       "point": "clue"
+      },
+      {
+       "stem": "Which word could replace “retained” without changing the meaning?",
+       "options": [
+        "corrected",
+        "removed",
+        "kept",
+        "questioned"
+       ],
+       "answer": 2,
+       "why": "下一句的 Keeping that argument 复述了 retained，即第三项。第二项 removed 说的是被删去的重复解释。",
+       "point": "substitute"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "clue",
+    "substitute"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "label": "Read the passage.",
+       "look": "passage",
+       "text": "Protecting a Delicate Instrument\n\nA musical instrument can be damaged during transport even when its outer case shows little change. A sudden impact may pass through the case to the object inside. Case designers therefore use internal supports that separate the instrument from the hard outer shell. These supports must hold the object firmly without pressing too strongly on its delicate parts.\n\nSoft materials can damp movement inside the case. They reduce the amount of vibration reaching the instrument rather than merely hiding marks on the outside. The material should also be resilient: after being compressed, it should return toward its previous shape. A support that stays flat after one impact may provide less protection on the next journey.\n\nThe design must address the particular shape of the instrument. A case made for one model may leave another model free to slide, even if both objects fit inside it. Designers therefore check where the supports touch the instrument and where space remains. Protection depends on the relationship between the object, the supports, and the shell, not simply on how thick the outer walls appear.",
+       "items": [
+        {
+         "stem": "The word “damp” is closest in meaning to",
+         "options": [
+          "moisten",
+          "measure",
+          "reduce",
+          "conceal"
+         ],
+         "answer": 2,
+         "why": "下一句 They reduce the amount of vibration 复述了 damp movement，即第三项。第一项 moisten 是 damp 的常见义。",
+         "point": "clue"
+        },
+        {
+         "stem": "The word “resilient” is closest in meaning to",
+         "options": [
+          "able to recover its shape",
+          "likely to remain flat",
+          "soft enough to damp movement",
+          "difficult to place inside"
+         ],
+         "answer": 0,
+         "why": "after being compressed, it should return toward its previous shape 给出了 resilient 的定义，即第一项。",
+         "point": "clue"
+        },
+        {
+         "stem": "Which phrase best replaces “address” in the final paragraph?",
+         "options": [
+          "send a message about",
+          "write a label beside",
+          "avoid any reference to",
+          "take account of"
+         ],
+         "answer": 3,
+         "why": "Designers therefore check where the supports touch the instrument 说明设计要照顾乐器的形状，即第四项。",
+         "point": "substitute"
+        }
+       ]
+      },
+      {
+       "label": "Read the passage.",
+       "look": "passage",
+       "text": "A Catalog of Handwritten Notebooks\n\nAn archive received a collection of handwritten notebooks from a former engineering school. Each volume contained a different combination of calculations, sketches, and comments. Some books covered a single project, while others brought together work from several years. Before researchers could use the collection effectively, staff needed a catalog that described these differences.\n\nThe catalog made the collection more accessible. Readers could search descriptions and identify relevant notebooks without opening every book on the shelves. Access did not mean that every notebook could leave the building; fragile volumes still had to be examined in a supervised reading room. The improvement concerned finding useful material, not removing all restrictions on handling it.\n\nStaff chose to retain the original numbering of the notebooks, keeping the numbers already written on their covers. Earlier reports sometimes referred to those numbers, and replacing them would make the references difficult to follow. New descriptions were added beside the existing numbers. The resulting catalog connected older references with fuller accounts of the contents, allowing readers to move between the earlier reports and the physical notebooks with less confusion.",
+       "items": [
+        {
+         "stem": "The word “volume” in the first paragraph refers to a",
+         "options": [
+          "level of sound",
+          "bound written book",
+          "quantity of air",
+          "space inside a box"
+         ],
+         "answer": 1,
+         "why": "Each volume contained 和下一句的 Some books 指同一类东西，volume 指一册笔记本，即第二项。",
+         "point": "substitute"
+        },
+        {
+         "stem": "The word “accessible” is closest in meaning to",
+         "options": [
+          "less likely to be damaged",
+          "more expensive to maintain",
+          "easier to locate and consult",
+          "more suitable for removal"
+         ],
+         "answer": 2,
+         "why": "Readers could search descriptions and identify relevant notebooks 说明资料更容易找到和查阅，即第三项。第四项与 not removing all restrictions 矛盾。",
+         "point": "clue"
+        },
+        {
+         "stem": "Which word best replaces “retain”?",
+         "options": [
+          "replace",
+          "preserve",
+          "describe",
+          "conceal"
+         ],
+         "answer": 1,
+         "why": "keeping the numbers already written on their covers 说明保留原编号，即第二项。",
+         "point": "substitute"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

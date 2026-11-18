@@ -1,0 +1,371 @@
+{
+ "id": "reading-careful-vocabulary",
+ "title": "语境词义题",
+ "goal": "利用上下文推断词义，并用代入法核对句意。",
+ "skill": "阅读",
+ "exam": "大学英语四级（CET-4）",
+ "mastery": "once",
+ "points": [
+  {
+   "id": "clue",
+   "label": "利用上下文线索推断词义"
+  },
+  {
+   "id": "substitute",
+   "label": "通过代入排除不合语境的释义"
+  }
+ ],
+ "sources": [
+  {
+   "id": "c2",
+   "title": "全国大学英语四、六级考试大纲（2016年修订版）",
+   "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+   "used": "阅读理解的教学依据"
+  }
+ ],
+ "cards": [
+  {
+   "id": "what",
+   "type": "text",
+   "title": "题型",
+   "body": [
+    {
+     "p": "语境词义题问一个词在所在句中的意思。题干常用 closest in meaning 或 means。先想到的常见义要代入原句检验。"
+    },
+    {
+     "box": "The room was bright, but the idea was brilliant.\nWhat does brilliant mean in this sentence?\n1. very clever\n2. full of light\n3. brightly coloured\n4. widely known"
+    },
+    {
+     "p": "brilliant 常表示光亮，但这里修饰 idea。想法只能说聪明，即第一项。第二项是 bright 形容 room 的意思。"
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "type": "steps",
+   "title": "解题步骤",
+   "steps": [
+    {
+     "t": "1　确定词语位置",
+     "d": "找到题目所问的词和它所在的句子。看这个词修饰的是什么对象。"
+    },
+    {
+     "t": "2　寻找上下文线索",
+     "d": "读这个词前后的句子，找定义、复现、对比、因果或例子。线索有时在前一句或后一句。"
+    },
+    {
+     "t": "3　代入核对",
+     "d": "把选项代入原句。看搭配是否通顺，整句是否与上下文一致。"
+    }
+   ]
+  },
+  {
+   "id": "clues",
+   "type": "table",
+   "title": "词义线索",
+   "cols": [
+    "线索",
+    "语境与选项",
+    "判断"
+   ],
+   "rows": [
+    [
+     "定义",
+     "The route is circular: it returns to its starting point. 选项：round / direct",
+     "冒号后的定义表明 circular 是 round。"
+    ],
+    [
+     "同义复现",
+     "The task was tedious. It was long and boring. 选项：boring / brief",
+     "boring 复现 tedious 的含义。"
+    ],
+    [
+     "对比",
+     "The first path was steep, but the second was gentle and easy to climb. 选项：not steep / dangerous",
+     "but 前后是对比，gentle 与 steep 相反，表示坡度平缓。"
+    ],
+    [
+     "因果",
+     "The jar was fragile, so the workers wrapped it carefully to prevent it from breaking. 选项：easily broken / heavy",
+     "小心包好以免打破，说明 fragile 是易碎。"
+    ],
+    [
+     "举例",
+     "The garden attracts pollinators, such as bees and butterflies that carry pollen between flowers. 选项：pollen carriers / seed containers",
+     "蜜蜂、蝴蝶在花间传粉，说明 pollinators 是传粉者。"
+    ]
+   ]
+  },
+  {
+   "id": "worked",
+   "type": "text",
+   "title": "例题",
+   "body": [
+    {
+     "box": "The manager decided to address the problem of late deliveries. She examined the causes and changed the schedule.\nWhat does address mean here?\n1. write a location on\n2. deal with a difficulty\n3. speak formally to\n4. send a delivery to"
+    },
+    {
+     "p": "address 的常见义是写地址。后句说经理查明原因、调整了安排，可见这里是处理问题，即第二项。"
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "type": "table",
+   "title": "干扰项",
+   "cols": [
+    "类型",
+    "例",
+    "排除方法"
+   ],
+   "rows": [
+    [
+     "常见义",
+     "例题第一项表示写地址。",
+     "看宾语：problem 不能写地址。"
+    ],
+    [
+     "邻句内容",
+     "address 的释义写成 change a schedule。",
+     "后句的动作是处理问题的具体做法，不是词义。"
+    ],
+    [
+     "关系颠倒",
+     "The path was gentle 的释义写成 steep。",
+     "核对 but 前后的对比关系。"
+    ],
+    [
+     "只取例子",
+     "pollinators 的释义只写 bees。",
+     "区分类别与类别中的一个例子。"
+    ]
+   ]
+  },
+  {
+   "id": "practice-one",
+   "type": "check",
+   "title": "练习一",
+   "points": [
+    "clue",
+    "substitute"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "The library made a temporary display. It would remain for one week before being removed.",
+     "items": [
+      {
+       "stem": "What does temporary mean?",
+       "options": [
+        "lasting only a short time",
+        "staying for many years",
+        "removed before the week",
+        "shown once every week"
+       ],
+       "answer": 0,
+       "why": "依据：remain for one week before being removed，展览一周后就撤掉，说明 temporary 是短时间的，即第一项。",
+       "point": "clue"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The old bridge was narrow, while the new bridge was broad enough for two buses to pass side by side.",
+     "items": [
+      {
+       "stem": "What does broad mean?",
+       "options": [
+        "narrow and hard to cross",
+        "wide enough for traffic",
+        "recently built",
+        "strong enough to carry buses"
+       ],
+       "answer": 1,
+       "why": "依据：while 表示对比，旧桥 narrow，新桥能让 two buses to pass side by side，所以 broad 是宽，即第二项。",
+       "point": "clue"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The theater was packed, so some visitors had to wait outside until seats became available.",
+     "items": [
+      {
+       "stem": "What does packed mean?",
+       "options": [
+        "closed to visitors",
+        "ready to be moved",
+        "crowded with people",
+        "provided with new seats"
+       ],
+       "answer": 2,
+       "why": "依据：some visitors had to wait outside until seats became available，有人在外面等座位，说明剧场满了。crowded with people 代入原句通顺，即第三项。",
+       "point": "substitute"
+      }
+     ]
+    },
+    {
+     "look": "passage",
+     "text": "The editor cut the long report, removing repeated details while keeping its main findings.",
+     "items": [
+      {
+       "stem": "What does cut mean?",
+       "options": [
+        "divided into two parts",
+        "removed in full",
+        "stopped from being published",
+        "made shorter by editing"
+       ],
+       "answer": 3,
+       "why": "依据：removing repeated details while keeping its main findings，删掉重复的细节、保留主要发现，说明 cut 是删减使之变短，即第四项。",
+       "point": "substitute"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "practice-two",
+   "type": "check",
+   "title": "练习二",
+   "points": [
+    "clue",
+    "substitute"
+   ],
+   "groups": [
+    {
+     "look": "passage",
+     "text": "A village store noticed that many customers came only in the evening. The owner extended its hours, keeping the doors open later than before. At first, the change was modest: the store closed just one hour later. After several weeks, the owner found that the extra hour was useful and decided to keep it.",
+     "items": [
+      {
+       "stem": "What does extended mean?",
+       "options": [
+        "reduced the daily hours",
+        "made the hours longer",
+        "moved the opening time earlier",
+        "kept the usual hours"
+       ],
+       "answer": 1,
+       "why": "依据：keeping the doors open later than before，比以前关门晚，说明 extended 是延长，即第二项。",
+       "point": "clue"
+      },
+      {
+       "stem": "What does modest mean?",
+       "options": [
+        "small in amount",
+        "hard to notice",
+        "useful for weeks",
+        "humble about success"
+       ],
+       "answer": 0,
+       "why": "依据：冒号后说 the store closed just one hour later，只晚关一小时，说明变化不大，即第一项。",
+       "point": "substitute"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "timed",
+   "type": "quiz",
+   "title": "小测",
+   "minutes": 6,
+   "pass": 0.8,
+   "points": [
+    "clue",
+    "substitute"
+   ],
+   "sets": [
+    {
+     "id": "set-a",
+     "groups": [
+      {
+       "look": "passage",
+       "text": "A community center wanted more people to use its small garden. At first, the paths between the beds were narrow, and visitors using wheelchairs found them difficult to enter. Volunteers widened the paths and placed tools on lower shelves. These adjustments were practical: they solved specific problems that visitors had described. The center also introduced a roster, a list showing who would water the plants on each day. Without such a list, several volunteers might water at the same time while other days received no attention.\n\nThe first version of the roster was rigid. Each person had to attend on one fixed day, even when work or family duties changed. The next version allowed volunteers to exchange days by contacting one another. This arrangement did not eliminate the work of planning, but it made participation possible for more people. At monthly meetings the volunteers discussed which plants needed attention and recorded any changes. The garden remained a shared responsibility rather than a task for one person. Its visitors could see both the flowers and the work that helped them grow.",
+       "items": [
+        {
+         "stem": "What does practical mean in the first paragraph?",
+         "options": [
+          "useful for real problems",
+          "made by skilled volunteers",
+          "requested by visitors",
+          "small and simple to do"
+         ],
+         "answer": 0,
+         "why": "依据：冒号后 they solved specific problems that visitors had described，调整解决了具体问题，所以 practical 是实用的，即第一项。",
+         "point": "clue"
+        },
+        {
+         "stem": "What does roster mean in the first paragraph?",
+         "options": [
+          "a shelf for garden tools",
+          "a record of watering duties",
+          "a path between garden beds",
+          "a meeting about garden plants"
+         ],
+         "answer": 1,
+         "why": "依据：同位语 a list showing who would water the plants on each day 直接给出 roster 的定义，即第二项。",
+         "point": "clue"
+        },
+        {
+         "stem": "What does rigid mean in the second paragraph?",
+         "options": [
+          "set by family duties",
+          "shared among more visitors",
+          "fixed and hard to change",
+          "recorded at each meeting"
+         ],
+         "answer": 2,
+         "why": "依据：Each person had to attend on one fixed day, even when work or family duties changed，日子固定、不能调换，即第三项。",
+         "point": "substitute"
+        }
+       ]
+      },
+      {
+       "look": "passage",
+       "text": "A town museum had a collection of old photographs, but many were stored in boxes that visitors never saw. Staff members began to digitize the collection: they made electronic copies that could be viewed on a screen. This did not replace the originals. Instead, it allowed people to examine images while the photographs themselves remained protected from frequent handling.\n\nThe first online display was incomplete. Several pictures lacked names or dates, so the museum invited residents to help identify them. One resident recognized a street from a shop sign; another found the same building in a family album. The staff treated these suggestions as leads rather than final answers. They compared each suggestion with other records before adding it to the display.\n\nSome photographs remained ambiguous. A picture of a crowded hall, for example, could have shown either a school celebration or a town meeting. Since no record settled the question, the museum described both possibilities. This cautious approach took longer than publishing a single explanation, but it kept an uncertain claim from being presented as a fact. The collection continued to grow as residents contributed copies of their own photographs.",
+       "items": [
+        {
+         "stem": "What does digitize mean in the first paragraph?",
+         "options": [
+          "protect from frequent handling",
+          "arrange in storage boxes",
+          "display in the original form",
+          "convert into electronic form"
+         ],
+         "answer": 3,
+         "why": "依据：冒号后 they made electronic copies，说明 digitize 是转成电子形式，即第四项。第一项是这样做的效果，不是词义。",
+         "point": "clue"
+        },
+        {
+         "stem": "What does leads mean in the second paragraph?",
+         "options": [
+          "completed museum records",
+          "clues for further checking",
+          "photographs already displayed",
+          "names accepted without checking"
+         ],
+         "answer": 1,
+         "why": "依据：They compared each suggestion with other records before adding it，建议要先核查，所以 leads 是待核查的线索，即第二项。",
+         "point": "substitute"
+        },
+        {
+         "stem": "What does ambiguous mean in the last paragraph?",
+         "options": [
+          "too crowded to see clearly",
+          "lacking names or dates",
+          "open to more than one reading",
+          "recognized from a family album"
+         ],
+         "answer": 2,
+         "why": "依据：could have shown either a school celebration or a town meeting，照片可能是两种场合，即第三项。",
+         "point": "substitute"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

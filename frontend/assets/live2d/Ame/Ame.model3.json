@@ -1,0 +1,56 @@
+{
+ "Version": 3,
+ "FileReferences": {
+  "Moc": "Ame.moc3",
+  "Textures": [
+   "Ame.4096/texture_00.png",
+   "Ame.4096/texture_01.png"
+  ],
+  "Physics": "Ame.physics3.json",
+  "Pose": "Ame.pose3.json",
+  "Motions": {
+   "Idle": [
+    {
+     "File": "motions/idle_01.motion3.json"
+    }
+   ],
+   "Typing": [
+    {
+     "File": "motions/typing_01.motion3.json"
+    }
+   ]
+  },
+  "Expressions": [
+   {
+    "Name": "smile",
+    "File": "expressions/smile.exp3.json"
+   },
+   {
+    "Name": "sullen",
+    "File": "expressions/sullen.exp3.json"
+   },
+   {
+    "Name": "sleepy",
+    "File": "expressions/sleepy.exp3.json"
+   }
+  ]
+ },
+ "Groups": [
+  {
+   "Target": "Parameter",
+   "Name": "EyeBlink",
+   "Ids": [
+    "ParamEyeLOpen",
+    "ParamEyeROpen"
+   ]
+  },
+  {
+   "Target": "Parameter",
+   "Name": "LipSync",
+   "Ids": [
+    "ParamMouthOpenY"
+   ]
+  }
+ ],
+ "HitAreas": []
+}

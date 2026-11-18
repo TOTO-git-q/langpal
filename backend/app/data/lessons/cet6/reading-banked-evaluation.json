@@ -1,0 +1,91 @@
+{
+ "id": "reading-banked-evaluation",
+ "title": "关系与评价词汇",
+ "goal": "区分关系强度并选择符合语境的评价词。",
+ "skill": "阅读",
+ "exam": "大学英语六级（CET-6）",
+ "mastery": "once",
+ "points": [
+  {"id": "relation", "label": "区分关系词表达的逻辑强度"},
+  {"id": "evaluation", "label": "选择符合语境的评价词"}
+ ],
+ "sources": [{"id": "c2", "title": "全国大学英语四、六级考试大纲（2016年修订版）", "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf", "used": "阅读任务及材料范围"}],
+ "cards": [
+  {"id": "intro", "type": "text", "title": "概述", "body": [
+   {"p": "关系词表明依赖、影响或相似。评价词表明可行性、限制和重要程度。"},
+   {"p": "related 表示两者有联系，cause 表示一方导致另一方。The factors are related 只说明有联系，没有说明谁导致谁。"},
+   {"p": "necessary 表示缺了不行，sufficient 表示有了就够。入场要求票和证件时，票是必要条件。只有票还不能入场，所以票不是充分条件。"}
+  ]},
+  {"id": "influence", "type": "table", "title": "词汇表：依赖与影响", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["depend", "v.", "依赖", "Results depend on timing."],
+   ["rely", "v.", "依靠", "The service relies on volunteers."],
+   ["affect", "v.", "影响", "Weather affects travel."],
+   ["influence", "v.", "影响", "Costs influence the choice."],
+   ["cause", "v.", "导致", "A leak caused the damage."],
+   ["contribute", "v.", "促成", "Training contributed to improvement."],
+   ["result", "v.", "导致；产生", "The delay resulted in changes."],
+   ["effect", "n.", "影响；效果", "The effect on costs was small."],
+   ["impact", "n.", "影响", "The impact varied by area."],
+   ["link", "n.", "联系", "The report found a link."]
+  ]},
+  {"id": "similarity", "type": "table", "title": "词汇表：相似与差异", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["similar", "adj.", "相似的", "The two plans are similar."],
+   ["alike", "adj.", "相像的", "The answers are alike."],
+   ["comparable", "adj.", "可比较的；相当的", "The groups are comparable in size."],
+   ["common", "adj.", "共同的", "The teams have a common goal."],
+   ["shared", "adj.", "共有的", "They use a shared space."],
+   ["different", "adj.", "不同的", "The results are different."],
+   ["distinct", "adj.", "不同的；有区别的", "The project has two distinct stages."],
+   ["contrast", "n.", "对比；差异", "The contrast is clear."],
+   ["differ", "v.", "不同", "The methods differ in cost."],
+   ["vary", "v.", "变化；不同", "Needs vary between groups."]
+  ]},
+  {"id": "feasibility", "type": "table", "title": "词汇表：可行与限制", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["feasible", "adj.", "可行的", "The proposal is feasible."],
+   ["practical", "adj.", "切实可行的", "The solution is practical."],
+   ["available", "adj.", "可获得的", "The service is available."],
+   ["accessible", "adj.", "可使用的；可到达的", "The building is accessible."],
+   ["possible", "adj.", "可能的", "A delay is possible."],
+   ["limited", "adj.", "有限的", "The funds are limited."],
+   ["restrict", "v.", "限制", "The rules restrict access."],
+   ["constraint", "n.", "限制因素", "Cost is a constraint."],
+   ["barrier", "n.", "障碍", "Cost is a barrier."],
+   ["sufficient", "adj.", "足够的", "The available funds are sufficient."]
+  ]},
+  {"id": "importance", "type": "table", "title": "词汇表：重要程度", "cols": ["词", "词性", "中文义", "例句"], "rows": [
+   ["essential", "adj.", "必不可少的", "Water is essential for life."],
+   ["necessary", "adj.", "必要的", "A ticket is necessary for entry."],
+   ["crucial", "adj.", "至关重要的", "Timing is crucial."],
+   ["important", "adj.", "重要的", "Clarity is important."],
+   ["significant", "adj.", "显著的；重要的", "The change was significant."],
+   ["major", "adj.", "主要的", "Cost was a major factor."],
+   ["minor", "adj.", "次要的；较小的", "The error was minor."],
+   ["primary", "adj.", "首要的", "Safety is the primary concern."],
+   ["secondary", "adj.", "次要的", "Speed is a secondary concern."],
+   ["relevant", "adj.", "相关的", "The records are relevant to the question."]
+  ]},
+  {"id": "check-one", "type": "check", "title": "练习一", "points": ["relation"], "groups": [{"items": [
+   {"stem": "Two measures change together, but the report gives no causal explanation. Which statement fits?", "options": ["One measure caused the other.", "The measures are related.", "One measure prevented the other.", "The measures have no link."], "answer": 1, "why": "共同变化表明 related；题目没有提供因果依据。", "point": "relation"},
+   {"stem": "Entry requires a ticket and identification. What does the ticket alone provide?", "options": ["A sufficient condition for entry", "A substitute for identification", "A necessary condition for entry", "An optional extra for entry"], "answer": 2, "why": "requires a ticket and identification 说明缺票不能入场，票是必要条件，即第三项。只有票还不够，所以不是第一项的充分条件。", "point": "relation"}
+  ]}]},
+  {"id": "check-two", "type": "check", "title": "练习二", "points": ["evaluation"], "groups": [{"look": "passage", "text": "A community centre planned a training course. The room and teachers were available, and the expected cost was within the budget. However, the centre could offer only a limited number of places.", "items": [
+   {"stem": "How is the plan described by the available resources and budget?", "options": ["Limited", "Unavailable", "Too costly", "Feasible"], "answer": 3, "why": "The room and teachers were available 和 within the budget 说明方案可以实施，即 feasible，第四项。第一项的 limited 只指名额。", "point": "evaluation"},
+   {"stem": "What was limited?", "options": ["The number of places it could offer", "The hours the teachers were available", "The money in the course budget", "The room booked for the course"], "answer": 0, "why": "could offer only a limited number of places 说明受限的是名额，即第一项。", "point": "evaluation"}
+  ]}]},
+  {"id": "check-three", "type": "check", "title": "练习三", "points": ["relation", "evaluation"], "groups": [{"look": "passage", "text": "Residents discussed a neighbourhood advice service. Two proposals shared the same aim, but one used a central office and the other used several local rooms. Both groups considered access the primary concern and opening hours a secondary issue.", "items": [
+   {"stem": "How were the proposals related?", "options": ["They had different aims and locations.", "They shared an aim but used different locations.", "They used one location for different aims.", "They shared an aim and every location."], "answer": 1, "why": "shared the same aim 与不同地点共同支持第二项。", "point": "relation"},
+   {"stem": "Which issue did both groups rank first?", "options": ["Opening hours", "The choice of a central office", "Access to the service", "The shared aim of the proposals"], "answer": 2, "why": "access the primary concern 表示把服务可及性列为首要问题。", "point": "evaluation"}
+  ]}]},
+  {"id": "timed", "type": "quiz", "title": "小测", "minutes": 6, "pass": 0.75, "points": ["relation", "evaluation"], "sets": [{"id": "set-a", "groups": [
+   {"fill": "A town considered new bus routes. The pl{an} was prac{tical} because i{t} used exis{ting} roads. I{ts} success depe{nded} on reli{able} schedules a{nd} access f{or} residents. T{he} council compared costs in different neighbourhoods and asked residents when they needed to travel. It found that some stops would serve more people if the times were changed. The plan also needed drivers and vehicles, so the council reviewed the available budget. The final proposal kept the existing roads and adjusted several scheduled stops.", "tags": ["evaluation", "evaluation", "relation", "evaluation", "relation", "relation", "evaluation", "relation", "relation", "evaluation"]},
+   {"items": [
+    {"stem": "A report finds a relationship between two trends but does not establish a cause. Which claim fits?", "options": ["The trends are related.", "The first trend caused the second.", "The second trend caused the first.", "Neither trend is connected to the other."], "answer": 0, "why": "有联系而无因果证明，对应 are related。", "point": "relation"},
+    {"stem": "A course requires both a form and a fee. What is true of the form?", "options": ["It alone guarantees admission.", "It is necessary for admission.", "It causes the fee to be paid.", "It is unrelated to admission."], "answer": 1, "why": "表格是入学所需条件；单有表格并不足够。", "point": "relation"},
+    {"stem": "Two services have the same aim but use different buildings. Which statement fits?", "options": ["They share both aim and building.", "They differ in aim but share a building.", "They share an aim but differ in location.", "They have no aim or location in common."], "answer": 2, "why": "same aim 与 different buildings 表示目标相同、地点不同。", "point": "relation"},
+    {"stem": "A project can be completed with its available staff and funds. Which adjective fits?", "options": ["Secondary", "Distinct", "Minor", "Feasible"], "answer": 3, "why": "人员和资金足以完成项目，说明项目 feasible。", "point": "evaluation"},
+    {"stem": "A committee ranks safety first and speed second. How does it describe safety?", "options": ["The primary concern", "The secondary concern", "A minor concern", "A concern equal to speed"], "answer": 0, "why": "ranked first 对应 primary concern。", "point": "evaluation"},
+    {"stem": "A service has only a small amount of funding. Which description fits?", "options": ["Sufficient funding", "Limited resources", "No funding at all", "Substantial resources"], "answer": 1, "why": "only a small amount of funding 表明资源有限，即 limited resources，第二项。第三项把少量说成了没有。", "point": "evaluation"}
+   ]}
+  ]}]}
+ ]
+}
